@@ -207,7 +207,7 @@ IVRDriverInputInternal_XXX
 IVRDriverManager_001
 IVRExtendedDisplay_001
 IVRInputInternal_002
-IVRInput_010
+IVRInput_011
 IVRMailbox_002
 IVRNotificationsInternal_001
 IVROverlayInternal_XXX
@@ -223,7 +223,7 @@ IVRServerInternal_XXX
 IVRSettingsInternal_001
 IVRSettings_003
 IVRSystemLayerInternal_XXX
-IVRSystem_023
+IVRSystem_024
 IVRTrackedCameraInternal_XXX
 InitCameraHAL
 InitializeConditionVariable
@@ -240,6 +240,7 @@ LocalizationManager
 MSVCP140.dll
 MainThrd
 MbP?
+Mgai
 NULL
 Not Available
 NotFound
@@ -256,7 +257,7 @@ PermissionDenied
 QueryPerformanceCounter
 QueryPerformanceFrequency
 RPCRT4.dll
-RSDS%
+RSDSN
 RaiseException
 Received camera frame of size %u that is larger than the block queue we are copying into %u
 ResetEvent
@@ -436,10 +437,10 @@ bad zlib header
 bg_bg
 brazilian
 bulgarian
-c:\buildslave\steamvr_rel_hotfix_win32\build\src\aitcamlib\Retail\win32\2017\aitcamlib.pdb
-c:\buildslave\steamvr_rel_hotfix_win32\build\src\aitcamlib\aitcamera.cpp
-c:\buildslave\steamvr_rel_hotfix_win32\build\src\aitcamlib\cbasecamera.cpp
-c:\buildslave\steamvr_rel_hotfix_win32\build\src\aitcamlib\work_thread.cpp
+c:\buildslave\steamvr_rel_win32\build\src\aitcamlib\Retail\win32\2017\aitcamlib.pdb
+c:\buildslave\steamvr_rel_win32\build\src\aitcamlib\aitcamera.cpp
+c:\buildslave\steamvr_rel_win32\build\src\aitcamlib\cbasecamera.cpp
+c:\buildslave\steamvr_rel_win32\build\src\aitcamlib\work_thread.cpp
 cameraEdgeEnhancement
 cameraFrameCaptureOffsetTime
 cameraFrameRate
@@ -481,6 +482,7 @@ invalid decoded scanline length
 invalid filter
 it_it
 italian
+j0xz
 ja_jp
 japanese
 ko_kr

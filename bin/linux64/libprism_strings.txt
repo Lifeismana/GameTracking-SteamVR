@@ -4,9 +4,19 @@
     Bucket: size:%zu timeline:none
     Unused Resources: size:%zu
     Unused timelines: size:%zu
+    edge [ style = bold ];\n
+    graph [ size = "128,64" ];\n
+    node [ shape = circle, color = cyan, style = filled ];\n
+    node [ shape = circle, color = gray, style = filled ];\n
+    node [ shape = circle, color = lime, style = filled ];\n
+    node [ shape = circle, color = orange, style = filled ];\n
+    node [ shape = polygon, sides = 4, color = magenta, style = filled, orientation = "45.0" ];
   what():  
+ (inactive)
  - Root 0x%x
  - Vulkan output %d: %ux%u resolution, %ux%u dimensions - %s\n
+ : %.*s[%u]
+ : <Unknown Semantic %d>[%u]
  [clone 
  __vector(
  const
@@ -19,13 +29,30 @@
  volatile
 !! refusing to trigger minidump with debugger attached
 !( pDedicatedBuffer && pDedicatedImage )
+!(bToExecSecondaryCmdBuf && bIsSecondaryCmdBuffer)
 !IsDepthFormat( m_eFormat )
 !IsInUse()
 !g_bTestMode
 !g_pSharedResourceNamespaceServer
 !m_displayImages.empty()
+!m_phases.push_back(pPhase)
+!m_resourceStates.resize(resourceInstances.size(), {})
 !m_stackFreeResources.empty()
+!nodeDeclInfo.MaybeGraphicsNode()
+!pBackendContext->bIsPrimaryContext
+!pCmdId
+!pCreateInfo || ((pCreateInfo->numPhases == 0) == (pCreateInfo->pPhases == nullptr))
+!pNewTrans
+!pResId
+!pSubResStates
+!pTemporalLayers
+!paramAccessInfo.IsResource()
+!paramDecl.IsOutputResource()
+!queueInfosCopy.empty()
+!rpInfo.depthStencilTargetMask && (rpInfo.clearDepth || rpInfo.clearStencil)
+!std::equal(resourceCounts.begin(), resourceCounts.end(), blockInfo.numResources) || (blockInfo.localIndex != localLoopIndex) || (blockInfo.numChildren != numChildren)
 !std::isnan( flSystemTimeInSeconds )
+%*csubgraph cluster_%d { style="rounded%s"
 %F-%H-%M-%S
 %Y-%m-%d %I:%M:%S %p
 %a %b %d %H:%M:%S %Y
@@ -120,14 +147,11 @@
 %s: failed to create motion estimation input buffers
 %s: failed to create null client layers uniform buffer
 %s: failed to create panel mask
-%s: failed to create panel mask framebuffer
-%s: failed to create panel mask texture
 %s: failed to create pipeline layout (err=%d)
 %s: failed to create render pass
 %s: failed to create reproject index buffer
 %s: failed to create reproject vertex buffer
 %s: failed to create shader module (err=%d)
-%s: failed to create swap chain framebuffer
 %s: failed to create swapchain
 %s: failed to create swapchain sampler
 %s: failed to create timeline
@@ -231,8 +255,15 @@
 %s: unknown vulkan message severity
 %s: unsupported format
 %s: usage must be specified when allocating images
+%sRpsAccessFlags(0x%x)
+%sRpsShaderStageBits(0x%x)
+%s\n           
 ' is not a number.
+( %u x %u ), fmt : %s, array : %u, mip : %u, samples : %u
+( %u x %u x %u ), fmt : %s, mip : %u
+( %u x 1 ), fmt : %s, array : %u, mip : %u
 ( nVertexCount % 3 ) == 0
+(*ppRenderGraph)->AddPhase<NullRuntimeBackend>(**ppRenderGraph)
 (anonymous namespace)
 (anonymous namespace)::CDisplayFactoryHandleMap::~CDisplayFactoryHandleMap()
 (anonymous namespace)::CDisplayHandleMap::~CDisplayHandleMap()
@@ -293,6 +324,9 @@
 (anonymous namespace)::k_debugUtilsLabelColors
 (anonymous namespace)::k_displayInfo
 (anonymous namespace)::k_nAttenuationBytecode
+(anonymous namespace)::k_nCompositeBytecode
+(anonymous namespace)::k_nCompositeFragBytecode
+(anonymous namespace)::k_nCompositeVertBytecode
 (anonymous namespace)::k_nCopyBytecode
 (anonymous namespace)::k_nCostReduceBytecode
 (anonymous namespace)::k_nDownsampleFragBytecode
@@ -300,11 +334,11 @@
 (anonymous namespace)::k_nFragBytecode
 (anonymous namespace)::k_nLumaFragBytecode
 (anonymous namespace)::k_nLumaVertBytecode
-(anonymous namespace)::k_nMainBytecode
 (anonymous namespace)::k_nMaskFragBytecode
 (anonymous namespace)::k_nMaskVertBytecode
 (anonymous namespace)::k_nMeanMaxBlurBytecode
 (anonymous namespace)::k_nMedian5x5Bytecode
+(anonymous namespace)::k_nPanelMaskBytecode
 (anonymous namespace)::k_nReprojectFragBytecode
 (anonymous namespace)::k_nReprojectVertBytecode
 (anonymous namespace)::k_nThresholdBytecode
@@ -355,6 +389,12 @@
 (anonymous namespace)::timepunct_cache_w
 (anonymous namespace)::timepunct_w
 (anonymous namespace)::xwrite(int, char const*, long)
+(arrayOffset + resourceCount) <= resourceIds.size()
+(blockInstance.blockId != blockId)
+(blockInstance.offsets[iResourceKind] + blockInfo.numResources[iResourceKind]) > m_numIndicesTotal[iResourceKind]
+(numScheduled + numEliminated) != nodes.size()
+(pUpdateInfo->gpuCompletedFrameIndex + 1) <= pUpdateInfo->frameIndex
+(resourceId >= m_renderGraph.GetSignature().GetMaxExternalResourceCount()) || (resourceId < m_resourceDecls.size())
 ********** Blue ( nLoopCount++ > 1000 )!\n
 ********** Green ( nLoopCount++ > 1000 )!\n
 ********** Red ( nLoopCount++ > 1000 )!\n
@@ -381,13 +421,42 @@
 *NSt6thread11_State_implINS_8_InvokerISt5tupleIJZN12_GLOBAL__N_114CPrismInstance5StartEPK20PrismRunParameters_tEUlS5_E_S5_EEEEEE
 *NSt6thread11_State_implINS_8_InvokerISt5tupleIJZN22CThreadWatchdogManager13InitWatchdogsEvEUlvE_EEEEEE
 *ZN15CPrismPanelMask10InitializeEP12CVkAllocatorP18IPrismPoseProviderfEUlN2vr6EVREyeEffPNS4_23DistortionCoordinates_tEE_
+, aliased
+, flags(
 , last executing in 
+, num_bytes : 0x%p
+, temporal_layer %u
+,dashed
 -*ZN10CLogBufferC4EvEUl9ELogLevelPKcPvE_
 -+xX0123456789abcdef0123456789ABCDEF
 -+xX0123456789abcdefABCDEF
 -0123456789
 -1e+9999
 -Infinity
+-VK_HEAP_INDEX_%d
+../src/core/rps_device.cpp
+../src/core/rps_graph.cpp
+../src/core/rps_persistent_index_generator.hpp
+../src/core/rps_util.hpp
+../src/runtime/common/phases/rps_access_dag_build.hpp
+../src/runtime/common/phases/rps_dag_build.hpp
+../src/runtime/common/phases/rps_dag_schedule.hpp
+../src/runtime/common/phases/rps_memory_schedule.hpp
+../src/runtime/common/phases/rps_pre_process.hpp
+../src/runtime/common/rps_null_runtime_backend.cpp
+../src/runtime/common/rps_render_graph.cpp
+../src/runtime/common/rps_render_graph.hpp
+../src/runtime/common/rps_render_graph_builder.cpp
+../src/runtime/common/rps_render_graph_diagnostics.cpp
+../src/runtime/common/rps_render_graph_signature.hpp
+../src/runtime/common/rps_rpsl_host.cpp
+../src/runtime/common/rps_runtime_backend.cpp
+../src/runtime/common/rps_runtime_device.hpp
+../src/runtime/common/rps_subprogram.cpp
+../src/runtime/common/rps_subprogram.hpp
+../src/runtime/vk/rps_vk_built_in_nodes.cpp
+../src/runtime/vk/rps_vk_runtime_backend.cpp
+../src/runtime/vk/rps_vk_runtime_device.cpp
 ./obj_prism_linux64/release/libprism.so
 .config
 .tmp
@@ -427,9 +496,9 @@
 /data/src/prism/src/motionestimation.cpp:1113
 /data/src/prism/src/motionsmoothing.cpp
 /data/src/prism/src/prism.cpp
-/data/src/prism/src/prism.cpp:1064
-/data/src/prism/src/prism.cpp:1191
-/data/src/prism/src/prism.cpp:1688
+/data/src/prism/src/prism.cpp:1138
+/data/src/prism/src/prism.cpp:1265
+/data/src/prism/src/prism.cpp:1955
 /data/src/prism/src/prism_capi.cpp
 /data/src/prism/src/prismclient.cpp
 /data/src/prism/src/prismdisplay_vulkan.cpp
@@ -452,7 +521,6 @@
 /u%d-Shm_%x
 0123456789
 0123456789ABCDEF
-08:42:34
 11CVkTimeline
 12CNonCopyable
 15CVkResourceBase
@@ -463,13 +531,16 @@
 19CVkGarbageCollector
 19CVkPoolableResourceI20CVkCommandBufferPoolE
 1e+9999
+20:23:13
 20CPrismDisplay_Vulkan
 20CVkCommandBufferPool
 20IPrismDisplayFactory
 23CPrismPoseProvider_Null
 23CVkPoolGarbageCollectorI16CVkCommandBufferE
+23ISwapchainImageProvider
 30CSharedResourceNamespaceServer
 33s?+
+420_OPAQUE
 6CPrism
 7CThread
 8CVkImage
@@ -477,17 +548,27 @@
 9CVkMemory
 9a&g
 : exception thrown in JSON library
+<Unknown Error Code>
 <non-buildbot build>\n
+<postamble>
+<preamble>
 <unknown>
+<unused>
 ?13IPrismDisplay
-?23ISwapchainImageProvider
+?N5facet21CVkTimestampQueryPoolILj2EEE
 A valid JSON document must be either an array or an object value.
+A8P8
+A8_UNORM
+AI44
 AKST
 ALBasename(char const*)
 ASCII
 ASCII//TRANSLIT
 ASSERT: "%s" at %s:%d.\n
+AYUV
 AbortMessage({ Thread Watchdog Abort - %s /+/ %f second timeout })
+AddCmdNode( RPS_BUILTIN_NODE_BEGIN_SUBROUTINE, subRoutineNodeDecl, nodeLocalId, {}, nullptr, 0, &beginSubroutine)
+AddCmdNode( localNodeDeclId, pNodeDecl, nodeLocalId, callback, args.data(), uint32_t(args.size()), pOutCmdId, callFlags)
 AddComputeStage
 AddStage
 AddStage and CopyStages are mutually exclusive.
@@ -496,7 +577,9 @@ AllocSharedMemory failed
 AllocateMemory
 AllocateMemoryFromType
 AllocateSets
+Allocation failed
 Already initialized
+AmplificationShader
 Apply blur filter
 Apply median filter
 April
@@ -504,6 +587,36 @@ Attempt to init shared state %s twice
 Attempted to write %zd bytes and ended up writing 0. Closing the pipe\n
 August
 Automatically quitting due to idle time > %f seconds.
+B4G4R4A4_UNORM
+B5G5R5A1_UNORM
+B5G6R5_UNORM
+B8G8R8A8_TYPELESS
+B8G8R8A8_UNORM
+B8G8R8A8_UNORM_SRGB
+B8G8R8X8_TYPELESS
+B8G8R8X8_UNORM
+B8G8R8X8_UNORM_SRGB
+BC1_TYPELESS
+BC1_UNORM
+BC1_UNORM_SRGB
+BC2_TYPELESS
+BC2_UNORM
+BC2_UNORM_SRGB
+BC3_TYPELESS
+BC3_UNORM
+BC3_UNORM_SRGB
+BC4_SNORM
+BC4_TYPELESS
+BC4_UNORM
+BC5_SNORM
+BC5_TYPELESS
+BC5_UNORM
+BC6H_SF16
+BC6H_TYPELESS
+BC6H_UF16
+BC7_TYPELESS
+BC7_UNORM
+BC7_UNORM_SRGB
 BCreateDirectory(char const*)
 BCreateDirectoryRecursive(char const*)
 BCreateDirectoryRecursive(char const*) (.cold)
@@ -521,7 +634,9 @@ Bad escape sequence in string
 Bad unicode escape sequence in string: four digits expected.
 Bad unicode escape sequence in string: hexadecimal digit expected.
 Begin
+Bind(nodeDeclId, nodeInfo.callbackInfo)
 Blank
+BlendState
 BorrowResource
 CAssert::AddCallback(CAssertCallback*)
 CAssert::AddCallback(CAssertCallback*) (.cold)
@@ -726,14 +841,12 @@ CPrism::CPrism()
 CPrism::CPrism() (.cold)
 CPrism::ClientDisconnected(unsigned int)
 CPrism::ClientDisconnected(unsigned int) (.cold)
-CPrism::CompositeLayers(CVkImage*, VkSemaphore_T*, unsigned long)
-CPrism::CompositeLayers(CVkImage*, VkSemaphore_T*, unsigned long) (.cold)
-CPrism::CopyLayers(unsigned long)
-CPrism::CopyLayers(unsigned long) (.cold)
 CPrism::CreateBlankImage()
 CPrism::CreateCommandBatchPools()
 CPrism::CreateCommandBatchPools() (.cold)
 CPrism::CreateCommandPools()
+CPrism::CreateCompositeBindings()
+CPrism::CreateCompositeBindings() (.cold)
 CPrism::CreateComputeCommandBatchPool(char const*)
 CPrism::CreateComputeCommandBatchPool(char const*) (.cold)
 CPrism::CreateCopyBindings()
@@ -741,11 +854,13 @@ CPrism::CreateCopyBindings() (.cold)
 CPrism::CreateDefaultSampler()
 CPrism::CreateGraphicsCommandBatchPool(char const*)
 CPrism::CreateGraphicsCommandBatchPool(char const*) (.cold)
-CPrism::CreateMainBindings()
-CPrism::CreateMainBindings() (.cold)
 CPrism::CreateNullClientUniformBuffer()
-CPrism::CreateRenderPass()
-CPrism::CreateSwapChainFramebuffers()
+CPrism::CreatePanelMaskBindings()
+CPrism::CreatePanelMaskBindings() (.cold)
+CPrism::CreatePanelMaskLoopBuffers()
+CPrism::CreatePanelMaskLoopBuffers() (.cold)
+CPrism::CreateRpsGraph()
+CPrism::CreateRpsRuntime()
 CPrism::CreateUniformBuffers()
 CPrism::CreateUniformBuffers() (.cold)
 CPrism::DumpHistory(void (*)(unsigned long, unsigned int, unsigned int, unsigned int, unsigned char const*))
@@ -760,17 +875,26 @@ CPrism::Initialize(CPrism::Configuration_t const*) (.cold)
 CPrism::InitializeSharedState()
 CPrism::InitializeSharedState() (.cold)
 CPrism::PopulateClientImages()
+CPrism::Rps_CompositeLayersCompute(RpsCmdCallbackContext const*, RpsVkImageViewInfo, VkBuffer_T*, RpsVkImageViewInfo, RpsViewport, unsigned int)
+CPrism::Rps_CompositeLayersCompute(RpsCmdCallbackContext const*, RpsVkImageViewInfo, VkBuffer_T*, RpsVkImageViewInfo, RpsViewport, unsigned int) (.cold)
+CPrism::Rps_CompositeLayersGraphics(RpsCmdCallbackContext const*, RpsResourceAccessInfo, RpsViewport, unsigned int, VkBuffer_T*, RpsVkImageViewInfo)
+CPrism::Rps_CompositeLayersGraphics(RpsCmdCallbackContext const*, RpsResourceAccessInfo, RpsViewport, unsigned int, VkBuffer_T*, RpsVkImageViewInfo) (.cold)
+CPrism::Rps_CopyLayers(RpsCmdCallbackContext const*, VkBuffer_T*, VkBuffer_T*, VkBuffer_T*, VkBuffer_T*, unsigned long)
+CPrism::Rps_CopyLayers(RpsCmdCallbackContext const*, VkBuffer_T*, VkBuffer_T*, VkBuffer_T*, VkBuffer_T*, unsigned long) (.cold)
+CPrism::Rps_HallucinateFrame(RpsCmdCallbackContext const*)
+CPrism::Rps_UpdatePanelMaskCompute(RpsCmdCallbackContext const*, RpsVkImageViewInfo, RpsViewport, unsigned int)
+CPrism::Rps_UpdatePanelMaskCompute(RpsCmdCallbackContext const*, RpsVkImageViewInfo, RpsViewport, unsigned int) (.cold)
+CPrism::Rps_UpdatePanelMaskGraphics(RpsCmdCallbackContext const*, RpsResourceAccessInfo, RpsViewport, unsigned int)
+CPrism::Rps_UpdatePanelMaskGraphics(RpsCmdCallbackContext const*, RpsResourceAccessInfo, RpsViewport, unsigned int) (.cold)
 CPrism::RunFrame()
 CPrism::RunFrame() (.cold)
 CPrism::Shutdown()
 CPrism::Shutdown() (.cold)
 CPrism::SignalClientTimelines(facet::PrismTimeline_t) const
-CPrism::UpdateCopyDescriptorSet()
-CPrism::UpdateCopyDescriptorSet() (.cold)
+CPrism::UpdateCompositeUniformBuffers(RpsViewport const&, unsigned int)
+CPrism::UpdateCompositeUniformBuffers(RpsViewport const&, unsigned int) (.cold)
 CPrism::UpdateDevicePoses(double)
 CPrism::UpdateDisplayModeTiming()
-CPrism::UpdatePanelMask()
-CPrism::UpdatePanelMask() (.cold)
 CPrism::~CPrism()
 CPrismClient::Import(CVkDevice*, CVkAllocator*, ClientData_t const&)
 CPrismClient::Import(CVkDevice*, CVkAllocator*, ClientData_t const&) (.cold)
@@ -821,17 +945,18 @@ CPrismDisplay_Vulkan::SetDisplayMode(PrismDisplayMode_t const*)
 CPrismDisplay_Vulkan::SetDisplayMode(PrismDisplayMode_t const*) (.cold)
 CPrismDisplay_Vulkan::WaitForPresent(unsigned long*, float*)
 CPrismDisplay_Vulkan::~CPrismDisplay_Vulkan()
+CPrismPanelMask::BIsPipelineInitialized()
 CPrismPanelMask::CPrismPanelMask(CVkDevice*)
 CPrismPanelMask::CPrismPanelMask(CVkDevice*) (.cold)
-CPrismPanelMask::CreateRenderPass()
-CPrismPanelMask::GetImage(vr::EVREye) const
 CPrismPanelMask::Initialize(CVkAllocator*, IPrismPoseProvider*, float)
 CPrismPanelMask::Initialize(CVkAllocator*, IPrismPoseProvider*, float) (.cold)
 CPrismPanelMask::Initialize(CVkAllocator*, VkExtent2D const&)
 CPrismPanelMask::Initialize(CVkAllocator*, VkExtent2D const&) (.cold)
-CPrismPanelMask::PerEyeData_t::~PerEyeData_t()
+CPrismPanelMask::InitializePipeline(VkRenderPass_T*)
+CPrismPanelMask::InitializePipeline(VkRenderPass_T*) (.cold)
 CPrismPanelMask::Shutdown()
 CPrismPanelMask::Update(vr::EVREye, facet::CPanelMask::ReprojectionInfo_t const*, CVkCommandBuffer*)
+CPrismPanelMask::UpdateMask(vr::EVREye, facet::CPanelMask::ReprojectionInfo_t const*, PrismPanelMaskConstants_t&)
 CPrismPanelMask::~CPrismPanelMask()
 CPrismPoseProvider_Null::ComputeDistortion(vr::EVREye, float, float, vr::DistortionCoordinates_t*)
 CPrismPoseProvider_Null::GetFullscreenApplicationProjectionMatrix(vr::EVREye)
@@ -848,6 +973,11 @@ CSWTCH.141
 CSWTCH.16
 CSWTCH.216
 CSWTCH.23
+CSWTCH.282
+CSWTCH.283
+CSWTCH.284
+CSWTCH.285
+CSWTCH.625
 CScopedEventDuration::CScopedEventDuration(char const*, char const*, char const*, ...)
 CScopedEventDuration::~CScopedEventDuration()
 CSharedResourceNamespaceClient::Init(): failed connect\n
@@ -983,6 +1113,7 @@ CThreadWatchdogManager::ShouldWatchdog()
 CThreadWatchdogManager::ShouldWatchdog() (.part.0)
 CThreadWatchdogManager::Unregister(CThreadWatchdog::Status_s*)
 CThreadWatchdogManager::~CThreadWatchdogManager()
+CUBEMAP_COMPATIBLE
 CVRPathRegistry_Public::BLoadFromFile(std::string*)
 CVRPathRegistry_Public::BLoadFromFile(std::string*) (.cold)
 CVRPathRegistry_Public::BSaveToFile() const
@@ -1224,6 +1355,7 @@ CVkResourceBase::IsTimeline()
 CVkResourceBase::MarkInUse(CVkTimeline*, facet::CVkTimelinePoint const&)
 CVkResourceBase::WaitForResource(unsigned long)
 CVkResourceDeleter<CVkBuffer>::operator()(CVkBuffer*) (.isra.0)
+CVkResourceDeleter<facet::CVkTimestampQueryPool<2u>>::operator()(facet::CVkTimestampQueryPool<2u>*) (.isra.0)
 CVkResourcePool<CVkCommandBuffer>::BorrowResource()
 CVkResourcePool<CVkCommandBuffer>::Grow(unsigned int)
 CVkResourcePool<CVkCommandBuffer>::~CVkResourcePool()
@@ -1267,6 +1399,11 @@ CVkTimeline::WaitMultiple(std::vector<CVkTimeline*, std::allocator<CVkTimeline*>
 CVkTimeline::~CVkTimeline()
 CVkWriteDescriptorSet::Update(VkDevice_T*)
 CalculateMotion
+CalculateResourceAliasing(context)
+CalculateResourcePlacement(currHeapMemType, allocatedIndices, iRes, bUseAliasing)
+CalculateResourcePlacement(currHeapMemType, allocatedIndices, pendingIdx, bUseAliasing)
+CalculateResourcePlacements(context)
+CalculateResourcePlacementsForMemoryType( currHeapMemType, sortedResourceIndices.crange_all(), iIndex, bUseAliasing)
 Cannot initialize crash handling in a project without the Steam API available
 CharNeedsEscape_Component(char)
 CharNeedsEscape_FullPath(char)
@@ -1276,52 +1413,71 @@ CleanupSharedResourceNamespace()
 Client Swapchain: %d
 ClientLayers-%d
 ClientTimeline-%d
+CloneReferenceList(prevSubResState.access.accessorNodes, newAccessState.access.accessorNodes)
+CloneTransition( graph, prevSubResState.access.lastTransition, newTransition)
 CmdBindAndDispatch
 CmdBindAndDraw
 CmdBindAndDrawIndexed
 CmdBindPipeline
 CmdPipelineBarrier
+CollectResourceAllAccesses(context)
 Compairing timestamps across different devices!
 Comparing timestamps across different hw queues!
-CompositeLayers
+Composite-Frag
+Composite-Vert
 CompositionState
 CompositionStateMutex
 Compute Timeline
+ComputeShader
 Connected to RenderDoc.
 ConstIterator to Iterator should never be allowed.
-CopyLayers
 CopyOutput
 Cost reduction pass
 Create
 CreateBlankImage
 CreateBuffer
+CreateBufferView(m_device, hBuffer, resource, access, hBufView)
+CreateBufferViews(context, bufViews.range_all())
 CreateCachedResources
 CreateCommandBatchPools
 CreateCommandPools
+CreateCommandResources(context)
 CreateDefaultSampler
 CreateDepthImage
 CreateDevice
 CreateFramebuffer
+CreateHeaps(context, m_renderGraph.GetHeapInfos().range_all())
+CreateImageView(m_device, hImage, resource, access, hImgView)
+CreateImageViews(context, imgViews.range_all())
 CreateImageWithFlags
 CreateInstance
 CreateNullClientUniformBuffer
 CreateRenderPass
+CreateRenderPasses(context, renderPassCmdIndices.range_all())
+CreateResources(context, internalResources)
 CreateSampler
 CreateSimpleProcess
 CreateSimpleThread(unsigned int (*)(void*), void*, unsigned int*, unsigned int)
-CreateSwapChainFramebuffers
 CreateVisibleAreaMask
 CreateVulkanSwapchain
+D16_UNORM
+D24_UNORM_S8_UINT
+D32_FLOAT
+D32_FLOAT_S8X24_UINT
+DEVICE_COHERENT_BIT_AMD
+DEVICE_LOCAL_BIT
+DEVICE_UNCACHED_BIT_AMD
 DW.ref._ZTIN10__cxxabiv115__forced_unwindE
 DW.ref._ZTISt9exception
 DW.ref.__gxx_personality_v0
 DebugMessengerCallback
 DebugMessengerCallback(VkDebugUtilsMessageSeverityFlagBitsEXT, unsigned int, VkDebugUtilsMessengerCallbackDataEXT const*, void*)
-Dec 22 2025
 December
 DeclareCurrentThreadIsMainThread
+DepthStencil
 Destroying a held mutex\n
 DeviceGC
+DomainShader
 Downsample Scene Image
 Downsample Vertex Buffer-%s
 DumpHistory
@@ -1410,15 +1566,22 @@ FrameHallucination-Frag
 FrameHallucination-Vert
 Friday
 Fv9ELogLevelPKcPvE
+G8R8_G8B8_UNORM
+GCC: (Debian 8.3.0-6) 8.3.0
 GCC: (SteamRT 9.3.0-17+steamrt2.5+bsrt2.1) 9.3.1 20210309
 GLIBC_2.12
 GLIBC_2.14
+GLIBC_2.16
 GLIBC_2.2.5
+GLIBC_2.27
 GLIBC_2.3
 GLIBC_2.3.2
 GLIBC_2.3.4
 GLSL.std.450
+GPU MS %.2f 
+GatherNodeRenderPassInfo(allocator, nodeDecl, renderTargetsInfoOffset, &pRpInfo)
 GenerateVisibleAreaMesh
+GeometryShader
 GetClockRealtime()
 GetCompatibleMemoryType
 GetDisplayModes
@@ -1435,6 +1598,7 @@ GetNamespacingUid() (.cold)
 GetNamespacingUid()::s_cachedNamespaceUid
 GetNextEventId()
 GetNextEventId()::ulMessageCounter
+GetResourceAllocInfo(resInst, allocInfo)
 GetSharedResourceNamespace()
 GetSharedResourceNamespace() (.cold)
 GetSystemBaseTicks()
@@ -1454,12 +1618,17 @@ Graphics Timeline
 HMD Image %d
 HMD using present mode: %d
 HOME
+HOST_CACHED_BIT
+HOST_COHERENT_BIT
+HOST_VISIBLE_BIT
 HTC Corporation VIVE
 HallucinateFrame
 Hallucinated-%s%d
 History Timeline
 History-Buffer-%d
 HmdActivated
+HullShader
+IA44
 IPC error: LockMgrMutex failed to acquire SysMgrMutex: %d\n
 IPC: recovering abandoned mutex %p\n
 IPC::CIPCHandle::Import() const
@@ -1515,8 +1684,18 @@ ImportImage
 ImportSampler
 ImportTimeline
 Infinity
+InitBlockInfo(blockId, resourceCounts, localLoopIndex, numChildren)
+InitCmdAccessInfo(context.pUpdateInfo->frameIndex, pCurrCmdAccesses[paramDecl.accessOffset + iElement], iParam, paramDecl, *pView, resInstancesRef)
+InitCmdAccessInfos(context)
 InitIfNeeded
 InitMainThread()
+InitNodeDecl(m_allocator, nodeDesc, nodeDecl, sortedSemantics)
+InitNodeDeclInfos(signatureDesc)
+InitNodeImplForContext(m_defaultNodeImpl, contextSize)
+InitNodeImplForContext(nodeImpl, contextSize)
+InitParamResources(context)
+InitResourceInstances(context)
+InitResourceStates()
 InitSharedResourceNamespace called, but already initialized\n
 InitSharedResourceNamespace()
 InitSharedResourceNamespace() (.cold)
@@ -1525,6 +1704,7 @@ InitSharedResourceNamespaceAsWatchdog() (.cold)
 InitSharedResourceNamespaceForTest()
 InitSystemBaseTimeTicks(unsigned long)
 InitSystemTime(unsigned long) (.part.0)
+InitTemporalSlices(context, resInstances, iRes)
 InitVisibleAreaResources
 Initialize
 InitializeFromIPC
@@ -1544,6 +1724,7 @@ IsRunningInAppContainer()::s_bDeterminedAppContainerStatus
 IsRunningInAppContainer()::s_bIsRunningInAppContainer
 IsWorkstationLocked()
 JArray
+Jan  9 2026
 January
 Json::BuiltStyledStreamWriter::BuiltStyledStreamWriter(std::string const&, Json::CommentStyle::Enum, std::string const&, std::string const&, std::string const&, bool, unsigned int)
 Json::BuiltStyledStreamWriter::BuiltStyledStreamWriter(std::string const&, Json::CommentStyle::Enum, std::string const&, std::string const&, std::string const&, bool, unsigned int) (.cold)
@@ -1986,6 +2167,7 @@ Json::writeString(Json::StreamWriter::Factory const&, Json::Value const&) (.cold
 July
 June
 LAYER:%2d[%d|%d|%d] [%d|%d|%d]
+LAZILY_ALLOCATED_BIT
 LC_ADDRESS
 LC_COLLATE
 LC_CTYPE
@@ -2029,6 +2211,7 @@ ME-Reprojector-Mask
 ME-VisibleAreaMask-%s
 ME-VisibleAreaMask-Graphics Command Pool
 ME-VisibleAreaMask-Timeline
+MEMORY_PROPERTY_
 MGiI
 MV-Attenuation
 MV-Attenuation-%s
@@ -2042,6 +2225,7 @@ MV-Threshold
 March
 MarkInUse
 Mask Input Image
+MeshShader
 MillisecondsFromNanoseconds(unsigned long)
 Minidump comment truncated
 Missing ',' or ']' in array declaration
@@ -2074,6 +2258,22 @@ N3IPC17SharedObjectEventE
 N3IPC17SharedObjectMutexE
 N3IPC6IEventE
 N3IPC6IMutexE
+N3rps13DAGPrintPhaseE
+N3rps13RuntimeDeviceE
+N3rps14DAGBuilderPassE
+N3rps14RuntimeBackendE
+N3rps15DAGSchedulePassE
+N3rps15PreProcessPhaseE
+N3rps15VKRuntimeDeviceE
+N3rps16VKRuntimeBackendE
+N3rps17IRenderGraphPhaseE
+N3rps18CmdDebugPrintPhaseE
+N3rps18NullRuntimeBackendE
+N3rps19MemorySchedulePhaseE
+N3rps20AccessDAGBuilderPassE
+N3rps21LifetimeAnalysisPhaseE
+N3rps23RenderGraphPhaseWrapperE
+N3rps23ScheduleDebugPrintPhaseE
 N4Json10CharReader7FactoryE
 N4Json10CharReaderE
 N4Json10FastWriterE
@@ -2088,7 +2288,6 @@ N4Json19StreamWriterBuilderE
 N4Json23BuiltStyledStreamWriterE
 N4Json6WriterE
 N4Json9ExceptionE
-N5facet21CVkTimestampQueryPoolILj2EEE
 N5facet25CVkTimestampQueryPoolBaseE
 N9__gnu_cxx13stdio_filebufIcSt11char_traitsIcEEE
 N9__gnu_cxx13stdio_filebufIwSt11char_traitsIwEEE
@@ -2097,6 +2296,7 @@ N9__gnu_cxx18stdio_sync_filebufIwSt11char_traitsIwEEE
 N9__gnu_cxx20recursive_init_errorE
 N9__gnu_cxx24__concurrence_lock_errorE
 N9__gnu_cxx26__concurrence_unlock_errorE
+NONE
 NSt3_V214error_categoryE
 NSt6locale5facet6__shimE
 NSt6locale5facetE
@@ -2131,10 +2331,13 @@ NSt7__cxx119money_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEEE
 NSt7__cxx119money_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEEE
 NSt8ios_base7failureB5cxx11E
 NSt8ios_base7failureE
+NV11
+NV12
 NanosecondsFromSystemTicks(unsigned long)
 NewBatch
 NewDescriptorBindings(CVkDescriptorLayoutCache*, std::vector<CVkDescriptorBindings::Binding_t, std::allocator<CVkDescriptorBindings::Binding_t>> const&)
 NewDescriptorBindings(CVkDescriptorLayoutCache*, std::vector<CVkDescriptorBindings::Binding_t, std::allocator<CVkDescriptorBindings::Binding_t>> const&) (.cold)
+NodeDecls_main
 None
 November
 Null
@@ -2143,6 +2346,9 @@ October
 OnPreSubmit
 Out of thread local storage!\n
 Outer
+P010
+P016
+PERSISTENT
 PFbcE
 PFv9ELogLevelPKcPvE
 PKDd
@@ -2153,6 +2359,8 @@ PKDn
 PKDs
 PKDu
 POSIX
+PREFER_DEDICATED_ALLOCATION
+PREFER_GPU_LOCAL_CPU_VISIBLE
 PRISM_AcquireDisplay
 PRISM_AcquireDisplay.cold
 PRISM_ClientDisconnected
@@ -2190,15 +2398,15 @@ PRISM_SetDisplayMode
 PRISM_SetFrameInfoCallback
 PRISM_Shutdown
 PRISM_Stop
+PROTECTED_BIT
 Panel Mask Index Buffer-%s%s
 Panel Mask Render Pipeline-B
 Panel Mask Render Pipeline-G
 Panel Mask Render Pipeline-R
 Panel Mask Render Pipeline-RGB
 Panel Mask Vertex Buffer-%s%s
-PanelMask-%s
+PanelMask LineLoop SSBO (%s)
 PanelMask-Frag
-PanelMask-Staging
 PanelMask-Vert
 ParseStringListFromJson(std::vector<std::string, std::allocator<std::string>>*, Json::Value const&, char const*)
 ParseStringListFromJson(std::vector<std::string, std::allocator<std::string>>*, Json::Value const&, char const*) (.cold)
@@ -2261,6 +2469,7 @@ Path_WriteStringToTextFile(std::string const&, char const*)
 Path_WriteStringToTextFileAtomic(std::string const&, char const*)
 Path_WriteStringToTextFileAtomic(std::string const&, char const*) (.cold)
 PhysicalDeviceInfo_t::~PhysicalDeviceInfo_t()
+PixelShader
 Plat_IsInDebugSession
 Plat_IsInDebugSession::fp
 PoolGC
@@ -2269,31 +2478,146 @@ Present
 Prism
 Prism Allocator
 Prism Clients
+Prism Composite Pipeline (Compute)
 Prism Copy Pipeline
 Prism Copy UBO
 Prism Device
-Prism Layers (%s)
+Prism Graphics Pipeline (Graphics)
 Prism Layout Cache
-Prism Main Pipeline
+Prism Panel Mask Pipeline (Compute)
 Prism UBO (%s)
-Prism-CompositeLayers
+Prism-Composite-Compute
 Prism-ComputeCommandPool
 Prism-Copy
-Prism-CopyLayers
 Prism-FilterMotionVectors
 Prism-GraphicsCommandPool
 Prism-HallucinateFrame
 Prism-ImportClients
 Prism-InitLayouts
-Prism-Main
+Prism-PanelMask-Compute
 Prism-PrepareInput
-Prism-UpdatePanelMask
+Prism-RPS-
+Prism-Timestamp-Queries
+PrismC_CompositeLayers
+PrismC_CopyLayers
+PrismC_HallucinateFrame
+PrismC_UpdatePanelMask
+PrismG_CompositeLayers
+PrismG_UpdatePanelMask
+Prism_Compute
+Prism_Graphics
+Prism_RPS: %s
 Process %d failed to shm_open %s: %d\n
+ProcessTransition(graph, nodeId, resState.access, currAccess.access, currAccess.resourceId, currAccess.range)
 QkkXa
 Qkkbal
+R10G10B10A2_TYPELESS
+R10G10B10A2_UINT
+R10G10B10A2_UNORM
+R10G10B10_XR_BIAS_A2_UNORM
+R11G11B10_FLOAT
+R16G16B16A16_FLOAT
+R16G16B16A16_SINT
+R16G16B16A16_SNORM
+R16G16B16A16_TYPELESS
+R16G16B16A16_UINT
+R16G16B16A16_UNORM
+R16G16_FLOAT
+R16G16_SINT
+R16G16_SNORM
+R16G16_TYPELESS
+R16G16_UINT
+R16G16_UNORM
+R16_FLOAT
+R16_SINT
+R16_SNORM
+R16_TYPELESS
+R16_UINT
+R16_UNORM
+R1_UNORM
+R24G8_TYPELESS
+R24_UNORM_X8_TYPELESS
+R32G32B32A32_FLOAT
+R32G32B32A32_SINT
+R32G32B32A32_TYPELESS
+R32G32B32A32_UINT
+R32G32B32_FLOAT
+R32G32B32_SINT
+R32G32B32_TYPELESS
+R32G32B32_UINT
+R32G32_FLOAT
+R32G32_SINT
+R32G32_TYPELESS
+R32G32_UINT
+R32G8X24_TYPELESS
+R32_FLOAT
+R32_FLOAT_X8X24_TYPELESS
+R32_SINT
+R32_TYPELESS
+R32_UINT
+R8G8B8A8_SINT
+R8G8B8A8_SNORM
+R8G8B8A8_TYPELESS
+R8G8B8A8_UINT
+R8G8B8A8_UNORM
+R8G8B8A8_UNORM_SRGB
+R8G8_B8G8_UNORM
+R8G8_SINT
+R8G8_SNORM
+R8G8_TYPELESS
+R8G8_UINT
+R8G8_UNORM
+R8_SINT
+R8_SNORM
+R8_TYPELESS
+R8_UINT
+R8_UNORM
+R9G9B9E5_SHAREDEXP
+RDMA_CAPABLE_BIT_NV
 RENDERDOC_GetAPI
+ROWMAJOR_IMAGE
+RPSM
+RPS_ERROR_COMMAND_ALREADY_FINAL
+RPS_ERROR_FILE_NOT_FOUND
+RPS_ERROR_INDEX_OUT_OF_BOUNDS
+RPS_ERROR_INTEGER_OVERFLOW
+RPS_ERROR_INTERNAL_ERROR
+RPS_ERROR_INTEROP_DATA_LAYOUT_MISMATCH
+RPS_ERROR_INVALID_ARGUMENTS
+RPS_ERROR_INVALID_DATA
+RPS_ERROR_INVALID_FILE_FORMAT
+RPS_ERROR_INVALID_OPERATION
+RPS_ERROR_INVALID_PROGRAM
+RPS_ERROR_KEY_DUPLICATED
+RPS_ERROR_KEY_NOT_FOUND
+RPS_ERROR_NOT_IMPLEMENTED
+RPS_ERROR_NOT_SUPPORTED
+RPS_ERROR_OUT_OF_MEMORY
+RPS_ERROR_RANGE_OVERLAPPING
+RPS_ERROR_RUNTIME_API_ERROR
+RPS_ERROR_TYPE_MISMATCH
+RPS_ERROR_UNKNOWN_NODE
+RPS_ERROR_UNRECOGNIZED_COMMAND
+RPS_ERROR_UNSPECIFIED
+RPS_ERROR_UNSUPPORTED_MODULE_VERSION
+RPS_ERROR_UNSUPPORTED_VERSION_TOO_NEW
+RPS_ERROR_UNSUPPORTED_VERSION_TOO_OLD
+RPS_ERROR_VALIDATION_FAILED
+RPS_FAILED(RenderGraphSignature::InitNodeDecl(m_cmdArena, *pNodeDesc, *pNewNodeDecl))
+RPS_FAILED(m_status)
+RPS_OK
 Ran out of IPC SharedObjectManager entries!\n
+RasterizerState
+RaytracingPipeline
 ReapChildProcesses(int)
+RecordCmdBegin(context)
+RecordCmdEnd(context)
+RecordCmdFixedFunctionBindingsAndDynamicStates(context)
+RecordCmdRenderPassBegin(context)
+RecordCmdRenderPassEnd(context)
+RecordCommand(cmdCbCtx, runtimeCmd)
+RecordRpsOutput(void*, char const*, ...)
+RecordRpsOutputV(void*, char const*, __va_list_tag*)
 Recording stopped.
 Reference
 RegisterDestinationImage
@@ -2306,6 +2630,9 @@ RenderDoc::Initialize(char const*)
 RenderDoc::Initialize(char const*) (.cold)
 RenderDoc::IsFrameCapturing()
 RenderDoc::TriggerCapture()
+RenderGraph::AddPhase:
+RenderGraphSignature::Create(m_arena, pSignatureDesc, &pSignature)
+RenderTargetBlend
 RepairUTF8(char const*, char const*, std::string&)
 RepairUTF8(char const*, char const*, std::string&) (.cold)
 RepairUTF8(std::string const&, std::string&)
@@ -2316,6 +2643,26 @@ Requested Force create but SharedObjectMutex already created\n
 Reset
 ReturnStdString(std::string const&, char*, unsigned int)
 Right Eye
+RpsResult rps::VKRuntimeBackend::GetCmdArgResources<VkBuffer_T*>(RpsCmdCallbackContext const*, unsigned int, unsigned int, VkBuffer_T**, unsigned int)
+RpsResult rps::VKRuntimeBackend::GetCmdArgResources<VkBuffer_T*>(RpsCmdCallbackContext const*, unsigned int, unsigned int, VkBuffer_T**, unsigned int)::RuntimeResourceNull
+RpsResult rps::VKRuntimeBackend::GetCmdArgResources<VkImage_T*>(RpsCmdCallbackContext const*, unsigned int, unsigned int, VkImage_T**, unsigned int)
+RpsResult rps::VKRuntimeBackend::GetCmdArgResources<VkImage_T*>(RpsCmdCallbackContext const*, unsigned int, unsigned int, VkImage_T**, unsigned int)::RuntimeResourceNull
+RpslAbortIfFail.part.0
+RpslHostBlockMarker
+RpslHostCallEntry
+RpslHostCallEntry(pCurrProgram->GetEntry()->pfnEntry, execInfo.numArgs, execInfo.ppArgs)
+RpslHostCallNode
+RpslHostCountBits
+RpslHostCreateResource
+RpslHostDescribeHandle
+RpslHostFirstBitHigh
+RpslHostFirstBitLow
+RpslHostNameResource
+RpslHostNodeDependencies
+RpslHostReverseBits32
+RpslNotifyAbort
+RpslNotifyOutParamResources
+RpslSchedulerMarker
 RunFrame
 SDLDynamic()
 SDLDynamic() (.cold)
@@ -2328,10 +2675,33 @@ STEAMVR_APPKEY
 STEAMVR_DISABLE_CRASH_REPORTING
 STEAMVR_DISABLE_THREAD_WATCHDOGS
 STEAMVR_ENABLE_THREAD_WATCHDOGS
+SV_BlendFactor
+SV_ClearColor
+SV_ClearDepth
+SV_ClearStencil
+SV_DepthBounds
+SV_DepthStencil
+SV_IndexBuffer
+SV_IndirectArgs
+SV_IndirectCount
+SV_PatchControlPoints
+SV_PrimitiveStripCutIndex
+SV_PrimitiveTopology
+SV_ResolveTarget
+SV_SampleLocation
+SV_ScissorRect
+SV_ShadingRate
+SV_ShadingRateImage
+SV_StencilRef
+SV_StreamOutBuffer
+SV_Target
+SV_VertexBuffer
+SV_Viewport
 Saturday
 SecondsToSystemTicks(double)
 See 
 Self queried namespace: %u\n
+Semantic index range overlap
 September
 Set thread %p priority to: %d\n
 SetCurrentProcessExplicitAppUserModelID()
@@ -2486,6 +2856,8 @@ SteamVRVersionAsString()
 SteamVRVersionAsString() (.cold)
 SteamVRVersionAsString()::s_sCachedVersion
 SteamVR_Namespace
+StreamOutDesc
+StreamOutLayout
 StringHasPrefix(std::string const&, std::string const&)
 StringHasPrefixCaseSensitive(std::string const&, std::string const&)
 StringHasSuffix(std::string const&, std::string const&)
@@ -2501,6 +2873,7 @@ StringToUpper(std::string const&)
 StringToUpper(std::string const&) (.cold)
 Submit
 SubmitAndWait
+Subprogram::Create(m_device, &createInfo.mainEntryCreateInfo, &m_pMainEntry)
 Sunday
 Swapchain
 Syntax error: value, object or array expected.
@@ -2578,6 +2951,7 @@ TokenizeString(std::string const&, char) (.cold)
 TracerPid:
 TrimTrailingWhitespace(std::string const&)
 Tuesday
+UNKNOWN
 USER
 UTF-8
 UTF16to8(std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t>> const&)
@@ -2613,7 +2987,9 @@ Unknown error
 Unknown priority class!\n
 Update
 Update attenuation texture
-UpdatePanelMask
+UpdateDiagCache()
+UpdateFrame(context)
+UpdateResourceFinalAccessStates(context, internalResources)
 UpdateResults
 Upload raw motion vectors
 UploadMotionVectors
@@ -2629,6 +3005,7 @@ VK_EXT_global_priority
 VK_EXT_queue_family_foreign
 VK_EXT_validation_features
 VK_KHR_display
+VK_KHR_dynamic_rendering
 VK_KHR_external_memory_fd
 VK_KHR_external_semaphore_fd
 VK_KHR_present_id
@@ -2690,9 +3067,20 @@ ValidateReferencedResources
 Valve Corporation
 VerifyTidIntegrity failed for thread %d. Most likely this process was forked after calling ThreadGetCurrentId.
 VerifyTidIntegrity()
+VertexLayout
+VertexShader
 VkDescriptorPoolSize& std::vector<VkDescriptorPoolSize, std::allocator<VkDescriptorPoolSize>>::emplace_back<VkDescriptorPoolSize>(VkDescriptorPoolSize&&)
 VkExtensionProperties* std::__uninitialized_default_n_1<true>::__uninit_default_n<VkExtensionProperties*, unsigned long>(VkExtensionProperties*, unsigned long)
 VkLayerProperties* std::__uninitialized_default_n_1<true>::__uninit_default_n<VkLayerProperties*, unsigned long>(VkLayerProperties*, unsigned long)
+VkObjectTypeMapper<ResHandleType>::typeId != paramAccessInfo.typeInfo.id
+VkObjectTypeMapper<ViewHandleType>::typeId != paramAccessInfo.typeInfo.id
+VkResultToRps( RPS_VK_API_CALL(vkBindBufferMemory(hVkDevice, rpsVKBufferFromHandle(resInfo.hRuntimeResource), pMemory, resInfo.allocPlacement.offset)))
+VkResultToRps( RPS_VK_API_CALL(vkBindImageMemory(hVkDevice, rpsVKImageFromHandle(resInfo.hRuntimeResource), pMemory, resInfo.allocPlacement.offset)))
+VkResultToRps(RPS_VK_API_CALL(vkAllocateMemory(hVkDevice, &memAllocInfo, nullptr, &hMemory)))
+VkResultToRps(RPS_VK_API_CALL(vkCreateBuffer(m_device, &bufCI, nullptr, &hBuffer)))
+VkResultToRps(RPS_VK_API_CALL(vkCreateFramebuffer(hVkDevice, &fbInfo, nullptr, pVkFB)))
+VkResultToRps(RPS_VK_API_CALL(vkCreateImage(m_device, &imgCI, nullptr, &hImage)))
+VkResultToRps(RPS_VK_API_CALL(vkCreateRenderPass(hVkDevice, &rpInfo, nullptr, pVkRP)))
 VrInitGpuProfiling()
 Vulkan
 VulkanDisplay_t
@@ -2706,16 +3094,116 @@ Warning: unexpected vulkan major version
 Watchdog namespace: %u\n
 Wednesday
 WriteDescriptorSet
+X24_TYPELESS_G8_UINT
+X32_TYPELESS_G8X24_UINT
 XCloseDisplay
 XDG_CONFIG_HOME
 XFree86_DDC_EDID_RAWDATA
 XGetXCBConnection
 XOpenDisplay
+Y210
+Y216
+Y410
+Y416
 YUV conversion - %s
+YUY2
 Zjz\v
 [%s] %s=%lu tgid=%d file=%s %s
+[Prism:CompositeLayersGraphics] Failed to get composite renderpass
+[Prism:CompositeLayersGraphics] Failed to initialize composite graphics pipeline
+[Prism:Rps_UpdatePanelMask] Failed to get render pass: %i
+[Prism:Rps_UpdatePanelMask] Failed to initialize panel mask pipeline
+[Prism] %s was unused in the render graph. Ignoring node.
+[Prism] %s: device does not support shader storage write without format
+[Prism] Failed to bind %s: %i
+[Prism] Failed to create panel mask buffer
+[Prism] Failed to create render graph semaphore: %i
+[Prism] Failed to get render graph batch layout: %i
+[Prism] Failed to record render graph commands: %i
+[Prism] Failed to set up graphics composite bindings
+[Prism] Failed to setup RPS graph: %i
+[Prism] Failed to setup RPS runtime device: %i
+[Prism] Failed to submit batch!
+[Prism] Failed to update render graph: %i
+[Prism] Initializing shared state...
 [abi:
+\n    %4d : 
+\n    Signal : %u
+\n    Wait : [ 
+\n    accesses : 
+\n    lifetime : [%u - %u]
+\n  %u : [%u]
+\n  Batch %u Queue %u:
+\nCommands:
+\nResource Declarations:
+\nSchedule:
+\nScheduled resources:
+\n[RPS_DIAG_ERROR] : '%s' :\n          'Expect the last runtime command to have id (%u) = CMD_ID_POSTAMBLE.', @%s line %d.\n
+\n[RPS_DIAG_ERROR] : '%s' @%s line %d.\n
+\n[RPS_DIAG_ERROR] : '%s' Result = %s(%d) @%s line %d.\n
+\n[RPS_DIAG_WARNING] : '%s' Capacity reservation (%zu) needs to be increased. @%s line %d.\n
+\ndigraph G {\n
 _.stapsdt.base
+_AE__AE_rps_ParamAttr10
+_AE__AE_rps_ParamAttr12
+_AE__AE_rps_ParamAttr16
+_AE__AE_rps_ParamAttr18
+_AE__AE_rps_ParamAttr20
+_AE__AE_rps_ParamAttr22
+_AE__AE_rps_ParamAttr24
+_AE__AE_rps_ParamAttr28
+_AE__AE_rps_ParamAttr30
+_AE__AE_rps_ParamAttr32
+_AE__AE_rps_ParamAttr36
+_AE__AE_rps_ParamAttr38
+_AE__AE_rps_ParamAttr40
+_AE__AE_rps_ParamAttr42
+_AE__AE_rps_ParamAttr44
+_AE__AE_rps_ParamAttr48
+_AE__AE_rps_ParamAttr52
+_AE__AE_rps_ParamAttr54
+_AE__AE_rps_ParamAttr56
+_AE__AE_rps_ParamAttr60
+_AE__AE_rps_ParamAttr62
+_AE__AE_rps_ParamAttr64
+_AE__AE_rps_ParamAttr68
+_AE__AE_rps_ParamAttr70
+_AE__AE_rps_ParamAttr72
+_AE__AE_rps_ParamDescArray13
+_AE__AE_rps_ParamDescArray25
+_AE__AE_rps_ParamDescArray33
+_AE__AE_rps_ParamDescArray45
+_AE__AE_rps_ParamDescArray49
+_AE__AE_rps_ParamDescArray57
+_AE__AE_rps_ParamDescArray65
+_AE__AE_rps_ParamDescArray73
+_AE__AE_rps_Str11
+_AE__AE_rps_Str14
+_AE__AE_rps_Str15
+_AE__AE_rps_Str17
+_AE__AE_rps_Str19
+_AE__AE_rps_Str21
+_AE__AE_rps_Str26
+_AE__AE_rps_Str34
+_AE__AE_rps_Str37
+_AE__AE_rps_Str39
+_AE__AE_rps_Str4
+_AE__AE_rps_Str41
+_AE__AE_rps_Str46
+_AE__AE_rps_Str5
+_AE__AE_rps_Str50
+_AE__AE_rps_Str51
+_AE__AE_rps_Str53
+_AE__AE_rps_Str55
+_AE__AE_rps_Str58
+_AE__AE_rps_Str6
+_AE__AE_rps_Str66
+_AE__AE_rps_Str67
+_AE__AE_rps_Str69
+_AE__AE_rps_Str7
+_AE__AE_rps_Str71
+_AE__AE_rps_Str8
+_AE__AE_rps_Str9
 _Accum
 _DYNAMIC
 _Fract
@@ -2783,6 +3271,32 @@ _Unwind_SetIP
 __FRAME_END__
 __TMC_END__
 __TMC_LIST__
+___rpsl_abort
+___rpsl_block_marker
+___rpsl_create_resource
+___rpsl_describe_handle
+___rpsl_dxop_binary_f32
+___rpsl_dxop_binary_i32
+___rpsl_dxop_isSpecialFloat_f32
+___rpsl_dxop_tertiary_f32
+___rpsl_dxop_tertiary_i32
+___rpsl_dxop_unary_f32
+___rpsl_dxop_unary_i32
+___rpsl_entries_main
+___rpsl_module_info_main
+___rpsl_name_resource
+___rpsl_node_call
+___rpsl_node_dependencies
+___rpsl_nodedefs_main
+___rpsl_notify_out_param_resources
+___rpsl_params_metadata_main
+___rpsl_pipeline_fields_main
+___rpsl_pipeline_res_bindings_main
+___rpsl_pipelines_main
+___rpsl_scheduler_marker
+___rpsl_shader_refs_main
+___rpsl_string_table_main
+___rpsl_types_metadata_main
 __bss_start
 __ctype_get_mb_cur_max
 __cxa_allocate_dependent_exception
@@ -2975,6 +3489,7 @@ _findclose(long)
 _findfirst(char const*, _finddata_t*)
 _findnext(long, _finddata_t*)
 _fini
+_setjmp
 _txnal_cow_string_C1_for_exceptions(void*, char const*, void*)
 _txnal_cow_string_C1_for_exceptions(void*, char const*, void*) (.cold)
 _txnal_cow_string_D1(void*)
@@ -2989,7 +3504,11 @@ acosf
 add_fdes
 additional six characters expected to parse unicode surrogate pair.
 adds.9432
+after
+aliasingSrcBitMask.Resize(uint32_t(resourceInstances.size()), false)
+aligned_alloc
 alignof 
+allocInfo.memoryRequirements.alignment > UINT32_MAX
 allocator
 allowComments
 allowDroppedNullPlaceholders
@@ -3001,6 +3520,9 @@ alpha
 alphasort
 alse
 any_objects_registered
+appendParamRef(paramId, iElem)
+appendParamRef(paramId, iElement)
+appendParamRef(params.front(), 0)
 arena<128ul, 8ul>::deallocate(char*, unsigned long)
 arena<160ul, 4ul>::deallocate(char*, unsigned long)
 arena<160ul, 8ul>::deallocate(char*, unsigned long)
@@ -3010,10 +3532,15 @@ arena<400ul, 8ul>::deallocate(char*, unsigned long)
 arena<40ul, 4ul>::deallocate(char*, unsigned long)
 arena<480ul, 8ul>::deallocate(char*, unsigned long)
 arena<80ul, 8ul>::deallocate(char*, unsigned long)
+argIndex >= context.pNodeDeclInfo->params.size()
+argIndex >= pBackendContext->pNodeDeclInfo->params.size()
+arrayOffset < resourceIds.size()
+asinf
 assert json failed
 atanf
 auto
 auto:
+backbuffer
 bad_function_call
 base_from_cb_data
 base_from_cb_data.cold
@@ -3051,11 +3578,13 @@ basic_string::insert
 basic_string::replace
 basic_string::resize
 basic_string::substr
+before
 begin_ctx
 bind
 bind_textdomain_codeset
 bindtextdomain
 blank
+blockId != pPrevBlock->blockId
 bool
 bool __gnu_cxx::operator==<char const*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>>(__gnu_cxx::__normal_iterator<char const*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>> const&, __gnu_cxx::__normal_iterator<char const*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>> const&)
 bool __gnu_cxx::operator==<char const*, std::string>(__gnu_cxx::__normal_iterator<char const*, std::string> const&, __gnu_cxx::__normal_iterator<char const*, std::string> const&)
@@ -3116,8 +3645,10 @@ bool std::has_facet<std::time_put<char, std::ostreambuf_iterator<char, std::char
 bool std::has_facet<std::time_put<wchar_t, std::ostreambuf_iterator<wchar_t, std::char_traits<wchar_t>>>>(std::locale const&)
 boolean
 btowc
+buffer
 byte
 cIntToHexDigit(int)
+c_builtInNodeNames[tableIdx].id != nodeDeclId
 cannot create shim for unknown locale::facet
 cannot create std::deque larger than max_size()
 cannot create std::vector larger than max_size()
@@ -3150,11 +3681,24 @@ chdir
 check_exception_spec(lsda_header_info*, std::type_info const*, void*, long)
 chmod
 classify_object_over_fdes
+clear
+clear_buffer
+clear_color
+clear_color_regions
+clear_depth_stencil
+clear_depth_stencil_regions
+clear_texture
+clear_texture_regions
 clock_gettime
 close
 closedir
+cmdCbCtx.result
+cmdId >= m_cmds.size()
+cmdInfoResult.Result()
+cmdRpInfo.viewportInfo.numViewports > MAX_VIEWPORT_SCISSOR_COUNT
 cntrl
 collectComments
+color
 commentStyle
 commentStyle must be 'All' or 'None'
 completed.7411
@@ -3188,10 +3732,27 @@ construction vtable for std::ostream-in-std::basic_ofstream<char, std::char_trai
 construction vtable for std::ostream-in-std::basic_ostringstream<char, std::char_traits<char>, std::allocator<char>>
 construction vtable for std::ostream-in-std::basic_stringstream<char, std::char_traits<char>, std::allocator<char>>
 construction vtable for std::ostream-in-std::iostream
+context.pRuntimeCmd == nullptr
+context.result
+copy_buffer
+copy_buffer_to_texture
+copy_dst
+copy_src
+copy_texture
+copy_texture_to_buffer
+cosf
+coshf
 covariant return thunk to 
 cplus_demangle_builtin_types
 cplus_demangle_operators
+cpu_read
+cpu_write
 createInfo.pComputeDistortion
+createInfo.scheduleInfo.pQueueInfos
+currResources.bufferViews.resize(accessIndices.size())
+currResources.frameBuffers.resize(cmdIndices.size())
+currResources.imageViews.resize(accessIndices.size())
+currResources.renderPasses.resize(cmdIndices.size())
 d_abi_tags
 d_append_buffer
 d_bare_function_type
@@ -3234,6 +3795,7 @@ d_template_param
 d_type
 d_type.cold
 d_unqualified_name
+data
 data->IsInitialized()
 data.hIPC.IsValid()
 decimal128
@@ -3243,14 +3805,19 @@ decltype (
 decltype(auto)
 decltype(nullptr)
 default
+defaultpipeline
 delete 
 delete[] 
 deleted virtual method called\n
+depth_read
+depth_write
 deque::_M_new_elements_at_back
 deregister_tm_clones
 details.pDmabufAttributes->plane[0].nFd == (int)details.hImportHandle
 dgettext
 digit
+discard_after
+discard_before
 dl_iterate_phdr
 dladdr
 dlclose
@@ -3261,8 +3828,11 @@ double
 drawInfo.pVertexBuffer != nullptr
 dropNullPlaceholders
 dynamic_cast
+elementSize == 0
 enableYAMLCompatibility
 end_ctx
+execInfo.numArgs == pSignature->GetParamDecls().size()
+execInfo.pProgram
 execute_cfa_program
 execute_cfa_program.cold
 execute_native_thread_routine
@@ -3271,6 +3841,7 @@ execute_native_thread_routine_compat
 execute_native_thread_routine_compat.cold
 execute_stack_op
 execute_stack_op.cold
+exp2f
 expecting another \u token to begin the second half of a unicode surrogate pair
 external_drivers
 facet::AppendToNextChain(void const*&, void const*)
@@ -3337,13 +3908,20 @@ fde_single_encoding_compare
 fde_unencoded_compare
 fdopen
 fflush
+ffv?*
 fgets
 file://
 fileno
+fitness == UINT64_MAX
 flMotionVectorScale[ vr::Eye_Left ] == flMotionVectorScale[ vr::Eye_Right ]
 flWaitTime < 1.0
+flags.bRandomOrder ? (context.pUpdateInfo->pRandomNumberGenerator != nullptr) : true
 float
 flock
+flushPendingReallocIndices()
+fmaf
+fmaxf
+fminf
 fn != nullptr
 fopen
 fopen64
@@ -3378,10 +3956,12 @@ g_bNoCacheThreadIds
 g_bSetSuspendHandlers
 g_bSuspendResumeAck
 g_bTestMode
+g_minLogLevel
 g_mutex
 g_nCurThreadSuspendCount
 g_pCurThread
 g_pSharedResourceNamespaceServer
+g_rpsGlobalDebugPrinter
 g_sharedResourceNamespaceClient
 g_szSemFileName
 generic
@@ -3428,6 +4008,7 @@ guard variable for SteamVRVersionAsString()::s_sCachedVersion
 guard variable for ThreadInitSchedulerForRtkit()::sInitMutex
 guard variable for UTF16to8(std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t>> const&)::s_convert
 guard variable for UTF8to16(std::string const&)::s_convert
+guard variable for rps::PreProcessPhase::InitCmdAccessInfos(rps::RenderGraphUpdateContext&)::invalidCmdAccess
 guard variable for std::(anonymous namespace)::key_init()::ks
 guard variable for std::__cxx11::collate<char>::id
 guard variable for std::__cxx11::collate<wchar_t>::id
@@ -3470,6 +4051,14 @@ guard variable for std::time_get<char, std::istreambuf_iterator<char, std::char_
 guard variable for std::time_get<wchar_t, std::istreambuf_iterator<wchar_t, std::char_traits<wchar_t>>>::id
 guard variable for std::time_put<char, std::ostreambuf_iterator<char, std::char_traits<char>>>::id
 guard variable for std::time_put<wchar_t, std::ostreambuf_iterator<wchar_t, std::char_traits<wchar_t>>>::id
+hDevice
+hDevice != RPS_NULL_HANDLE
+hProgram
+hRenderGraph
+hRenderGraph != RPS_NULL_HANDLE
+hRenderGraph == RPS_NULL_HANDLE
+hRpslEntry != RPS_NULL_HANDLE
+hRpslInstance
 half
 hidden alias for 
 http://
@@ -3496,6 +4085,7 @@ in Json::Value::resolveReference(): requires objectValue
 in Json::Value::resolveReference(key, end): requires objectValue
 in Json::Value::setComment(): Comments must start with /
 indentation
+indirect_arg
 init_dwarf_reg_size_table
 input.colorIndices.nSwapchainIndex != SwapchainIndices_t::k_nInvalidSwapchainIndex
 int std::__facet_shims::__collate_compare<char>(std::integral_constant<bool, false>, std::locale::facet const*, char const*, char const*, char const*, char const*)
@@ -3510,6 +4100,7 @@ int std::__int_to_char<char, unsigned long long>(char*, unsigned long long, char
 int std::__int_to_char<char, unsigned long>(char*, unsigned long, char const*, std::_Ios_Fmtflags, bool)
 int std::__int_to_char<wchar_t, unsigned long long>(wchar_t*, unsigned long long, wchar_t const*, std::_Ios_Fmtflags, bool)
 int std::__int_to_char<wchar_t, unsigned long>(wchar_t*, unsigned long, wchar_t const*, std::_Ios_Fmtflags, bool)
+invalid
 ioctl
 ios_base::_M_grow_words allocation failed
 ios_base::_M_grow_words is not valid
@@ -3525,7 +4116,11 @@ k_pEyesColor
 k_pEyesDesc
 keylength >= 2^30
 kill
+lastCmdId != CMD_ID_POSTAMBLE
+layers
 ld-linux-x86-64.so.2
+leftLayers
+leftPanelMask
 lhs->m_pTimeline == rhs->m_pTimeline
 libSDL2-2.0.so.0
 libX11-xcb.so.1
@@ -3551,6 +4146,7 @@ locale::facet::_S_create_c_locale name not valid
 locale::facet::_S_lc_ctype_c_locale duplocale error
 locale::facet::_S_lc_ctype_c_locale newlocale error
 localtime
+logf
 long
 long double
 long long
@@ -3558,20 +4154,33 @@ long std::__copy_streambufs<char, std::char_traits<char>>(std::basic_streambuf<c
 long std::__copy_streambufs<wchar_t, std::char_traits<wchar_t>>(std::basic_streambuf<wchar_t, std::char_traits<wchar_t>>*, std::basic_streambuf<wchar_t, std::char_traits<wchar_t>>*)
 long std::__copy_streambufs_eof<char, std::char_traits<char>>(std::basic_streambuf<char, std::char_traits<char>>*, std::basic_streambuf<char, std::char_traits<char>>*, bool&)
 long std::__copy_streambufs_eof<wchar_t, std::char_traits<wchar_t>>(std::basic_streambuf<wchar_t, std::char_traits<wchar_t>>*, std::basic_streambuf<wchar_t, std::char_traits<wchar_t>>*, bool&)
+longjmp
 lower
 lseek64
 m_acquireMutexes.size() == m_acquireKeys.size()
 m_acquireMutexes.size() == m_acquireTimeouts.size()
 m_bSupportsPresentId
+m_blockStack.push_back(m_currentBlockInstanceId)
+m_builder.Begin()
+m_builder.End()
+m_cmds[cmdId].pRenderPassInfo == nullptr
 m_config.pDisplay != nullptr
+m_device.GetResourceAllocInfo(resInfo, allocInfo)
+m_diagData.cmdInfos.resize(m_runtimeCmdInfos.size())
+m_diagData.heapInfos.resize(m_heaps.size())
+m_diagData.resourceInfos.resize(m_resourceCache.size())
 m_displayModeTiming.flSecondsPerFrame > 0.0f
+m_edges.capacity() < edgeCapacity
+m_frameResources.insert(m_currentResourceFrame, FrameResources{})
+m_frameResources.size() > RPS_MAX_QUEUED_FRAMES
 m_mapTimelineToBuckets[ pKey ].empty()
-m_nFrameIndex != 0
 m_nFrameIndex > client.nPrismFrameStartIndex
 m_nMapCount == 0
 m_nMapCount > 0
 m_nMaxLogBufferingSize > 0
 m_nSizeInBytes != 0
+m_nodeRefLists.resize(dst.GetEnd())
+m_outputResourceIds.size() == maxNumOutResources
 m_pAllocator != nullptr
 m_pCommandBufferPool
 m_pCommandBufferPool != nullptr
@@ -3579,6 +4188,7 @@ m_pCommandBufferPool->QueueFamilyIndex() == m_pQueue->FamilyIndex()
 m_pDevice
 m_pDevice != nullptr
 m_pDevice == VK_NULL_HANDLE
+m_pGraphBuilder->DeclareResource(stableResId, pResDesc, {}, pOutResourceId)
 m_pInstance == VK_NULL_HANDLE
 m_pLayoutCache != nullptr
 m_pPhysicalDevice == VK_NULL_HANDLE
@@ -3586,19 +4196,32 @@ m_pPool != nullptr
 m_pPool->m_pActiveBatch == nullptr
 m_pPool->m_pActiveBatch == this
 m_pQueue != nullptr
+m_pRuntimeDevice->InitializeResourceAllocInfos(resInstances.range_all())
+m_pRuntimeDevice->InitializeSubresourceInfos( resInstances.range(pendingResStart, pendingResCount))
+m_pRuntimeDevice->InitializeSubresourceInfos( resInstances.range(temporalLayerOffset, numTemporalLayers))
+m_pRuntimeDevice->InitializeSubresourceInfos(resInstances.range(pendingResStart, pendingResCount))
+m_pSignature != nullptr
 m_pSwapchainImageProvider != nullptr
 m_pTimeline != nullptr
-m_perEye[ 0 ].pImage && m_perEye[ 1 ].pImage
+m_paramData.size() == paramDecls.size()
+m_paramData[i].data
+m_paramData[paramId].resources.empty()
+m_paramData[paramId].resources.size() <= arrayIndex
 m_pool != VK_NULL_HANDLE
 m_releaseMutexes.size() == m_releaseKeys.size()
 m_signalTimelines.size() == m_signalPoints.size()
 m_sortedClients.size() == m_importedClients.size()
+m_state != State::Building
+m_state == State::Building
+m_subResLayouts.grow(resInfo.numSubResources, VK_IMAGE_LAYOUT_UNDEFINED)
 m_waitSemaphores.size() == m_waitSemaphoreStages.size()
 m_waitTimelines.size() == m_waitPoints.size()
 m_waitTimelines.size() == m_waitStages.size()
 main
 malloc
 marker.9170
+mask
+maskViewport
 mbrtowc
 mbsnrtowcs
 mbsrtowcs
@@ -3622,9 +4245,16 @@ nSizeInBytes <= m_unSizeInBytes
 nVsyncPeriodInTicks > 0
 nanosleep
 new 
+newNodeId == RPS_INDEX_NONE_U32
+newRangeOffset == RPS_INDEX_NONE_U32
+newTransNodeId == RPS_INDEX_NONE_U32
 new[]
 next_is_type_qual.isra.0
 nfinity
+no_view
+nodeDeclId < m_nodeImpls.size()
+nodeDeclId == RPS_INDEX_NONE_U32
+nodeImpl.pBuffer
 non-transaction clone for 
 non-virtual thunk to 
 non-virtual thunk to std::basic_fstream<char, std::char_traits<char>>::~basic_fstream()
@@ -3636,7 +4266,10 @@ non-virtual thunk to std::basic_stringstream<wchar_t, std::char_traits<wchar_t>,
 not enough space for format expansion (Please submit full bug report at https://gcc.gnu.org/bugs
 null
 nullProcAddrStub
+numElements > UINT32_MAX
 object_mutex
+oldLeftLayers
+oldRightLayers
 once_regsizes.9477
 open
 opendir
@@ -3658,15 +4291,69 @@ operator""
 other.perEye[ vr::Eye_Left ].input.nClientFrameIndex == other.perEye[ vr::Eye_Right ].input.nClientFrameIndex
 pAllocator
 pAllocator != nullptr
+pBackendContext->result != RPS_OK
+pBatchLayout != nullptr
 pBindings != nullptr
 pClientLayersUniformBuffer
 pClientSwapchain
 pCmd != nullptr
 pCmdBuf
 pCmdBuf != nullptr
+pCmdInfo
 pColor != nullptr
 pCommandPool != nullptr
+pContext
+pContext && pDesc
+pContext && pMemoryRanges
+pContext && pRenderPass
+pContext && pRenderTargetInfo
+pContext && pResourceAccessInfos
+pContext && pResourceDesc
+pContext && pResources
+pContext && pRuntimeResources
+pContext && pViewportInfo
+pContext && ppDerivedContext
+pContext && ppNodeName
+pContext && ppResources
+pCreateInfo
+pCreateInfo->hVkDevice != VK_NULL_HANDLE
+pCreateInfo->hVkPhysicalDevice != VK_NULL_HANDLE
+pCreateInfo->pVkFunctions
+pCreateInfo->pVkFunctions->vkAllocateMemory
+pCreateInfo->pVkFunctions->vkBindBufferMemory
+pCreateInfo->pVkFunctions->vkBindImageMemory
+pCreateInfo->pVkFunctions->vkCmdBeginRenderPass
+pCreateInfo->pVkFunctions->vkCmdClearColorImage
+pCreateInfo->pVkFunctions->vkCmdClearDepthStencilImage
+pCreateInfo->pVkFunctions->vkCmdCopyBuffer
+pCreateInfo->pVkFunctions->vkCmdCopyBufferToImage
+pCreateInfo->pVkFunctions->vkCmdCopyImage
+pCreateInfo->pVkFunctions->vkCmdCopyImageToBuffer
+pCreateInfo->pVkFunctions->vkCmdEndRenderPass
+pCreateInfo->pVkFunctions->vkCmdPipelineBarrier
+pCreateInfo->pVkFunctions->vkCmdResolveImage
+pCreateInfo->pVkFunctions->vkCmdSetScissor
+pCreateInfo->pVkFunctions->vkCmdSetViewport
+pCreateInfo->pVkFunctions->vkCreateBuffer
+pCreateInfo->pVkFunctions->vkCreateBufferView
+pCreateInfo->pVkFunctions->vkCreateFramebuffer
+pCreateInfo->pVkFunctions->vkCreateImage
+pCreateInfo->pVkFunctions->vkCreateImageView
+pCreateInfo->pVkFunctions->vkCreateRenderPass
+pCreateInfo->pVkFunctions->vkDestroyBuffer
+pCreateInfo->pVkFunctions->vkDestroyBufferView
+pCreateInfo->pVkFunctions->vkDestroyFramebuffer
+pCreateInfo->pVkFunctions->vkDestroyImage
+pCreateInfo->pVkFunctions->vkDestroyImageView
+pCreateInfo->pVkFunctions->vkDestroyRenderPass
+pCreateInfo->pVkFunctions->vkFreeMemory
+pCreateInfo->pVkFunctions->vkGetBufferMemoryRequirements
+pCreateInfo->pVkFunctions->vkGetImageMemoryRequirements
+pCreateInfo->pVkFunctions->vkGetPhysicalDeviceMemoryProperties
+pCreateInfo->pVkFunctions->vkGetPhysicalDeviceProperties
+pCurrCmdAccesses
 pDepth != nullptr
+pDesc != nullptr
 pDestination != nullptr
 pDevice
 pDevice != nullptr
@@ -3674,38 +4361,72 @@ pDistortionCoordinates != nullptr
 pEntries != nullptr
 pGraphicsCmd != nullptr
 pImage != nullptr
+pInfo
 pInputImage
 pLast->m_pointLastUsed <= pTimeline->m_pointLastUsed
 pLayoutCache != nullptr
+pMemory
 pMotionEstimation != nullptr
 pMotionEstimator != nullptr
+pNewBuffer
+pNodeDecl->params.size() == numArgs
+pNodeDeclInfo.Result()
+pNodeDesc == nullptr
 pOther != nullptr
 pOutput != nullptr
 pPoseProvider
 pPoseProvider != nullptr
 pQueue != nullptr
+pRecordRange != nullptr
 pReferenceImage
 pRenderInfo && pRenderInfo->renderPass != VK_NULL_HANDLE
+pRenderPassInfo->paramRefs
 pResource
-pResult != nullptr
+pResourceInfo
+pRpslHost->Execute(callInfo)
+pRuntimeCmd->renderPassId >= frameResources.renderPasses.size()
+pRuntimeDevice->BuildDefaultRenderGraphPhases(**ppRenderGraph)
 pShaderModule != VK_NULL_HANDLE
 pSourceBuffer
 pSourceBuffer->m_unSizeInBytes >= nSourceOffset + nSizeInBytes
 pSourceImage
 pSrcVertices != nullptr && pDstVertices != nullptr
-pStaging != nullptr
 pTemplate != nullptr
 pTimeline
 pTimeline != nullptr
 pTimeline->m_nRefCount > 0
+pUpdateInfo != nullptr
+pVariable
+pView->resourceId > resDecls.size()
+panelMask
+paramAccessInfo.access.accessFlags & RPS_ACCESS_NO_VIEW_BIT
+paramDecl.baseSemanticIndex + paramDecl.GetNumElements() > RPS_MAX_SIMULTANEOUS_RENDER_TARGET_COUNT
+paramDecl.baseSemanticIndex + paramDecl.numElements > RPS_MAX_SIMULTANEOUS_RENDER_TARGET_COUNT
+paramId < GetSignature().GetParamDecls().size()
+paramId >= m_paramData.size()
+paramId >= nodeDecl.params.size()
+paramRefOffset > 0xF
+paramRefOffset >= RPS_COUNTOF(paramRefs)
+param_%u [
 parse_lsda_header(_Unwind_Context*, unsigned char const*, lsda_header_info*)
+pendingAliasingSrcs.reserve(resourceInstances.size())
 perEye[ vr::Eye_Left ].input.nClientFrameIndex == perEye[ vr::Eye_Right ].input.nClientFrameIndex
 pfnSteamAPI_SetBreakpadAppID
 pfnSteamAPI_SetMiniDumpComment
 pfnSteamAPI_UseBreakpadCrashHandler
 pfnSteamAPI_WriteMiniDump
+phDevice
+phRpslInstance
+phase->Run(updateContext)
+plane_mask 0x%x, array[ %u - %u ], mips[ %u - %u ]
 poll
+ppCallback != nullptr
+ppDevice
+ppInstance
+ppRenderGraph
 precision
+present
+prevFrameAliasedMasks.Resize(resourceInstances.size())
 print
 priorites.priorityCount > 0 && priorites.priorityCount <= ARRAY_SIZE( priorites.priorities )
 prism
@@ -3759,9 +4480,407 @@ recvmsg
 reference temporary #
 reinterpret_cast
 rejectDupKeys
+relaxed
 rename
+renderGraph.AddPhase<AccessDAGBuilderPass>(renderGraph)
+renderGraph.AddPhase<CmdDebugPrintPhase>()
+renderGraph.AddPhase<DAGBuilderPass>()
+renderGraph.AddPhase<DAGPrintPhase>(renderGraph)
+renderGraph.AddPhase<DAGSchedulePass>(renderGraph)
+renderGraph.AddPhase<LifetimeAnalysisPhase>()
+renderGraph.AddPhase<MemorySchedulePhase>(renderGraph)
+renderGraph.AddPhase<PreProcessPhase>()
+renderGraph.AddPhase<ScheduleDebugPrintPhase>()
+renderGraph.AddPhase<VKRuntimeBackend>(*this, renderGraph)
+renderGraph.ReservePhases(16)
+render_pass
+resInstances.resize(newTemporalLayerOffset + pResInstance->desc.temporalLayers, {})
+resolve
+resolve_dst
+resolve_src
+resource(%u)
+resourceId < GetResourceInstances().size()
+resourceInstance.IsTemporalParent()
 rewind
+rightLayers
+rightPanelMask
+rootBlockInstanceId == RPS_INDEX_NONE_U32
+roundf
+rpInfo.resolveTargetsMask & ~rpInfo.renderTargetsMask
+rps::AccessAttr::Print(RpsPrinter const&) const
+rps::AccessAttr::Print(RpsPrinter const&) const::c_accessNames
+rps::AccessAttr::Print(RpsPrinter const&) const::c_shaderStageNames
+rps::AccessDAGBuilderPass::FilterAccessByRange(RpsAccessAttr&, rps::SubresourceRangePacked const&)
+rps::AccessDAGBuilderPass::ProcessTransition(rps::Graph&, unsigned int, rps::AccessDAGBuilderPass::AccessState&, RpsAccessAttr const&, unsigned int, rps::SubresourceRangePacked const&)
+rps::AccessDAGBuilderPass::Run(rps::RenderGraphUpdateContext&)
+rps::AccessDAGBuilderPass::~AccessDAGBuilderPass()
+rps::Arena::AlignedAlloc(unsigned long, unsigned long) (.constprop.556)
+rps::Arena::AlignedAlloc(unsigned long, unsigned long) (.constprop.557)
+rps::Arena::AllocatorAllocCb(void*, unsigned long, unsigned long)
+rps::Arena::AllocatorFreeCb(void*, void*)
+rps::Arena::AllocatorReallocCb(void*, void*, unsigned long, unsigned long, unsigned long)
+rps::Arena::~Arena()
+rps::ArenaCheckPoint::~ArenaCheckPoint()
+rps::CmdDebugPrintPhase::PrintCmdInfo(rps::RenderGraphUpdateContext&, rps::PrinterRef, unsigned int)
+rps::CmdDebugPrintPhase::Run(rps::RenderGraphUpdateContext&)
+rps::CmdDebugPrintPhase::~CmdDebugPrintPhase()
+rps::CreateBufferView(rps::VKRuntimeDevice const&, VkBuffer_T*, rps::ResourceInstance const&, rps::CmdAccessInfo const&, VkBufferView_T*&)
+rps::CreateImageView(rps::VKRuntimeDevice const&, VkImage_T*, rps::ResourceInstance const&, rps::CmdAccessInfo const&, VkImageView_T*&)
+rps::DAGBuilderPass::Run(rps::RenderGraphUpdateContext&)
+rps::DAGBuilderPass::~DAGBuilderPass()
+rps::DAGPrintPhase::PrintSubgraphRecursive(rps::PrinterRef, unsigned int, unsigned int)
+rps::DAGPrintPhase::Run(rps::RenderGraphUpdateContext&)
+rps::DAGPrintPhase::~DAGPrintPhase()
+rps::DAGSchedulePass::AddAtomicSubgraphEdges(unsigned int, rps::Subgraph const&, rps::Node const&, unsigned int)
+rps::DAGSchedulePass::DAGSchedulePass(rps::RenderGraph&)::defaultQueueInfos
+rps::DAGSchedulePass::InitAtomicSubgraphTopology()
+rps::DAGSchedulePass::InitNodeResourceSchedulingInfos()
+rps::DAGSchedulePass::Run(rps::RenderGraphUpdateContext&)
+rps::DAGSchedulePass::Run(rps::RenderGraphUpdateContext&)::'lambda0'(unsigned int)::operator()(unsigned int) const
+rps::DAGSchedulePass::~DAGSchedulePass()
+rps::DestroyVkResource(rps::VKRuntimeDevice const&, rps::ResourceInstance const&, RpsRuntimeResource_T)
+rps::Device::Create(RpsDeviceCreateInfo const*, rps::Device**)
+rps::Device::Destroy()
+rps::Device::Device(RpsDeviceCreateInfo const&)
+rps::Device::~Device()
+rps::FinalizeMemoryType(VkPhysicalDeviceMemoryProperties const&, unsigned int, VkMemoryRequirements const&, rps::ResourceInstance const&)
+rps::FromHandle(VkBuffer_T*&, RpsRuntimeResource_T)
+rps::FromHandle(VkImage_T*&, RpsRuntimeResource_T)
+rps::GetAccessAttrFromParamAttrList(void const*)::c_semanticToAccessMap
+rps::GetBuiltInCmdNodeInfo(rps::BuiltInNodeDeclIds)::c_builtInNodeNames
+rps::GetVkBufferCreateInfo(VkBufferCreateInfo&, rps::ResourceInstance const&)
+rps::GetVkImageCreateInfo(VkImageCreateInfo&, rps::ResourceInstance const&)
+rps::GetVkImageUsageFlags(rps::ResourceInstance const&)
+rps::GetVkStencilLoadOp(rps::CmdAccessInfo const&, rps::NodeDeclRenderPassInfo const&)
+rps::GetVkStencilStoreOp(rps::CmdAccessInfo const&, bool)
+rps::Graph::AddEdge(unsigned int, unsigned int)
+rps::Graph::AddNode(int)
+rps::Graph::AddToEdgeList(rps::Span<rps::Edge, unsigned int>&, rps::Edge)
+rps::Graph::CloneNode(unsigned int, int)
+rps::Graph::Graph(rps::Device const&, rps::Arena&)
+rps::Graph::IsParentSubgraph(unsigned int, unsigned int) const
+rps::Graph::Reset()
+rps::IRenderGraphPhase::AsRuntimeBackend()
+rps::IRenderGraphPhase::OnDestroy()
+rps::LifetimeAnalysisPhase::Run(rps::RenderGraphUpdateContext&)
+rps::LifetimeAnalysisPhase::Run(rps::RenderGraphUpdateContext&)::'lambda0'()::operator()() const
+rps::LifetimeAnalysisPhase::~LifetimeAnalysisPhase()
+rps::MemorySchedulePhase::CalculateResourceAliasing(rps::RenderGraphUpdateContext&)
+rps::MemorySchedulePhase::CalculateResourcePlacement(unsigned int, rps::Vector<unsigned int, rps::ArenaAllocator<unsigned int>>&, unsigned int, bool)
+rps::MemorySchedulePhase::CalculateResourcePlacements(rps::RenderGraphUpdateContext&)
+rps::MemorySchedulePhase::CalculateResourcePlacements(rps::RenderGraphUpdateContext&)::'lambda'(unsigned int, unsigned int)::operator()(unsigned int, unsigned int) const
+rps::MemorySchedulePhase::Run(rps::RenderGraphUpdateContext&)
+rps::MemorySchedulePhase::~MemorySchedulePhase()
+rps::NodeDeclInfo* std::__find_if<rps::NodeDeclInfo*, __gnu_cxx::__ops::_Iter_pred<rps::RenderGraphSignature::FindNodeDeclIndexByName(rps::StrRef) const::'lambda'(auto const&)>>(rps::NodeDeclInfo*, rps::NodeDeclInfo*, __gnu_cxx::__ops::_Iter_pred<rps::RenderGraphSignature::FindNodeDeclIndexByName(rps::StrRef) const::'lambda'(auto const&)>, std::random_access_iterator_tag) (.constprop.103)
+rps::NullRuntimeBackend::CreateHeaps(rps::RenderGraphUpdateContext const&, rps::ArrayRef<rps::HeapInfo, unsigned long>)
+rps::NullRuntimeBackend::DestroyRuntimeResourceDeferred(rps::ResourceInstance&)
+rps::NullRuntimeBackend::RecordCommands(rps::RenderGraph const&, RpsRenderGraphRecordCommandInfo const&) const
+rps::NullRuntimeBackend::~NullRuntimeBackend()
+rps::PreProcessPhase::InitCmdAccessInfos(rps::RenderGraphUpdateContext&)
+rps::PreProcessPhase::InitCmdAccessInfos(rps::RenderGraphUpdateContext&)::'lambda'(rps::ResourceInstance const&, rps::CmdAccessInfo const&)::operator()(rps::ResourceInstance const&, rps::CmdAccessInfo const&) const
+rps::PreProcessPhase::InitCmdAccessInfos(rps::RenderGraphUpdateContext&)::invalidCmdAccess
+rps::PreProcessPhase::InitResourceInstances(rps::RenderGraphUpdateContext&)
+rps::PreProcessPhase::Run(rps::RenderGraphUpdateContext&)
+rps::PreProcessPhase::~PreProcessPhase()
+rps::RenderGraph::AddPhase(rps::IRenderGraphPhase*)
+rps::RenderGraph::Create(rps::Device&, RpsRenderGraphCreateInfo const*, rps::RenderGraph**)
+rps::RenderGraph::Create(rps::Device&, RpsRenderGraphCreateInfo const*, rps::RenderGraph**) (.cold.315)
+rps::RenderGraph::Destroy()
+rps::RenderGraph::GatherCmdDiagnosticInfo(RpsCmdDiagnosticInfo&, rps::RuntimeCmdInfo const&, unsigned int)
+rps::RenderGraph::GatherHeapDiagnosticInfo(RpsHeapDiagnosticInfo&, rps::HeapInfo const&)
+rps::RenderGraph::GatherResourceDiagnosticInfo(RpsResourceDiagnosticInfo&, rps::ResourceInstance const&, unsigned int)
+rps::RenderGraph::GetCmdRenderTargetInfo(unsigned int, RpsCmdRenderTargetInfo&) const
+rps::RenderGraph::GetCmdViewportInfo(unsigned int, RpsCmdViewportInfo&) const
+rps::RenderGraph::GetDiagnosticInfo(RpsRenderGraphDiagnosticInfo&, unsigned int)
+rps::RenderGraph::GetOrCreateProgramInstance(rps::Subprogram*, unsigned int&)
+rps::RenderGraph::GetOrCreateProgramInstance(rps::Subprogram*, unsigned int&) (.cold.316)
+rps::RenderGraph::GetOutputParameterRuntimeResourceInfos(unsigned int, unsigned int, unsigned int, RpsRuntimeResourceInfo*) const
+rps::RenderGraph::GetRuntimeResourceInfo(unsigned int, unsigned int, RpsRuntimeResourceInfo*) const
+rps::RenderGraph::OnDestroy()
+rps::RenderGraph::OnInit(RpsRenderGraphCreateInfo const&)
+rps::RenderGraph::OnInit(RpsRenderGraphCreateInfo const&) (.cold.314)
+rps::RenderGraph::PrintCmdNodeName(rps::PrinterRef, unsigned int) const
+rps::RenderGraph::RecordCommands(RpsRenderGraphRecordCommandInfo const&) const
+rps::RenderGraph::RenderGraph(rps::Device const&, RpsRenderGraphCreateInfo const&)
+rps::RenderGraph::RenderGraph(rps::Device const&, RpsRenderGraphCreateInfo const&) (.cold.313)
+rps::RenderGraph::SetResourceClearValue(rps::ResourceInstance&, RpsClearInfo const&) (.isra.520)
+rps::RenderGraph::Update(RpsRenderGraphUpdateInfo const&)
+rps::RenderGraph::UpdateDiagCache()
+rps::RenderGraph::UpdateImpl(RpsRenderGraphUpdateInfo const&)
+rps::RenderGraph::UpdateImpl(RpsRenderGraphUpdateInfo const&) (.cold.317)
+rps::RenderGraphBuilder::AddBuiltInCmdNode(rps::BuiltInNodeDeclIds)
+rps::RenderGraphBuilder::AddCmdNode(unsigned int, rps::NodeDeclInfo const*, unsigned int, RpsCmdCallback const&, void* const*, unsigned int, unsigned int*, unsigned int)
+rps::RenderGraphBuilder::AddCmdNode(unsigned int, unsigned int, RpsCmdCallback const&, void* const*, unsigned int, unsigned int*)
+rps::RenderGraphBuilder::AddCmdNode(unsigned int, unsigned int, RpsCmdCallback const&, void* const*, unsigned int, unsigned int*) (.cold.227)
+rps::RenderGraphBuilder::AddDependency(unsigned int, unsigned int)
+rps::RenderGraphBuilder::AddNode(rps::RpslHost*, unsigned int, rps::ArrayRef<void*, unsigned long>, unsigned int, unsigned int, unsigned int*)
+rps::RenderGraphBuilder::AddNode(rps::RpslHost*, unsigned int, rps::ArrayRef<void*, unsigned long>, unsigned int, unsigned int, unsigned int*) (.cold.226)
+rps::RenderGraphBuilder::AllocResourceSlot()
+rps::RenderGraphBuilder::AllocateData(unsigned long, unsigned long)
+rps::RenderGraphBuilder::Begin()
+rps::RenderGraphBuilder::BeginSubgraph(unsigned int)
+rps::RenderGraphBuilder::DeclareDynamicNode(RpsNodeDesc const*)
+rps::RenderGraphBuilder::DeclareDynamicNode(RpsNodeDesc const*) (.cold.228)
+rps::RenderGraphBuilder::DeclareResource(unsigned int, void*, rps::StrRef, unsigned int*)
+rps::RenderGraphBuilder::DeclareVariable(unsigned long, unsigned long, void const*)
+rps::RenderGraphBuilder::End()
+rps::RenderGraphBuilder::EndSubgraph()
+rps::RenderGraphBuilder::GetOrAllocCmdSlot(unsigned int)
+rps::RenderGraphBuilder::GetOrAllocResourceSlot(unsigned int)
+rps::RenderGraphBuilder::GetParamResourceId(unsigned int, unsigned int) const
+rps::RenderGraphBuilder::GetParamVariable(unsigned int, unsigned long*) const
+rps::RenderGraphBuilder::Init(rps::RenderGraphSignature const*, rps::Arena&, rps::ProgramInstance*)
+rps::RenderGraphBuilder::ScheduleBarrier()
+rps::RenderGraphBuilder::SetOutputParamResourceView(unsigned int, RpsResourceView const*)
+rps::RenderGraphBuilder::SetResourceName(unsigned int, rps::StrRef)
+rps::RenderGraphPhaseWrapper::Run(rps::RenderGraphUpdateContext&)
+rps::RenderGraphPhaseWrapper::~RenderGraphPhaseWrapper()
+rps::RenderGraphSignature::GatherNodeRenderPassInfo(rps::Arena&, rps::NodeDeclInfo const&, unsigned int, rps::NodeDeclRenderPassInfo**)
+rps::RenderGraphSignature::InitNodeDecl(rps::Arena&, RpsNodeDesc const&, rps::NodeDeclInfo&)
+rps::RenderGraphSignature::InitNodeDecl(rps::Arena&, RpsNodeDesc const&, rps::NodeDeclInfo&, rps::InplaceVector<rps::RenderGraphSignature::ParamSemanticKey, 32ul, rps::GeneralAllocator<rps::RenderGraphSignature::ParamSemanticKey>>&)
+rps::ResourceDesc::ResourceDesc(RpsResourceType, RpsFormat, unsigned long, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int)
+rps::ResourceDescPacked::Print(rps::PrinterRef) const::resFlagNames
+rps::ResourceDescPacked::Print(rps::PrinterRef) const::typeNames
+rps::ResourceDescPacked::ResourceDescPacked(RpsResourceDesc const&)
+rps::RpslHost::AddDependencies(rps::ArrayRef<unsigned int const, unsigned long>, unsigned int)
+rps::RpslHost::BlockMarker(unsigned int, unsigned int, rps::ArrayRef<unsigned int const, unsigned long>, unsigned int, unsigned int, unsigned int)
+rps::RpslHost::Execute(rps::RpslExecuteInfo const&)
+rps::RpslHost::Execute(rps::RpslExecuteInfo const&) (.cold.70)
+rps::RpslHost::NotifyOutParamResources(unsigned int, void const*)
+rps::RpslHost::RpslCallNode(unsigned int, rps::ArrayRef<void*, unsigned long>, unsigned int, unsigned int, unsigned int*)
+rps::RpslHost::RpslDeclareResource(unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int*)
+rps::RpslHost::SchedulerMarker(rps::SchedulerMarkerOpCodes, unsigned int, char const*, unsigned int)
+rps::RuntimeBackend::AsRuntimeBackend()
+rps::RuntimeBackend::CloneContext(rps::RuntimeCmdCallbackContext const&, RpsRuntimeCommandBuffer_T, RpsCmdCallbackContext const**) const
+rps::RuntimeBackend::CloneContext(rps::RuntimeCmdCallbackContext const&, RpsRuntimeCommandBuffer_T, RpsCmdCallbackContext const**) const (.cold.40)
+rps::RuntimeBackend::CreateCommandResources(rps::RenderGraphUpdateContext const&)
+rps::RuntimeBackend::CreateHeaps(rps::RenderGraphUpdateContext const&, rps::ArrayRef<rps::HeapInfo, unsigned long>)
+rps::RuntimeBackend::CreateResources(rps::RenderGraphUpdateContext const&, rps::ArrayRef<rps::ResourceInstance, unsigned long>)
+rps::RuntimeBackend::DestroyCommandResources()
+rps::RuntimeBackend::DestroyHeaps(rps::ArrayRef<rps::HeapInfo, unsigned long>)
+rps::RuntimeBackend::DestroyResources(rps::ArrayRef<rps::ResourceInstance, unsigned long>)
+rps::RuntimeBackend::GetCmdArgResourceInfos(RpsCmdCallbackContext const*, unsigned int, unsigned int, rps::ResourceInstance const**, unsigned int)
+rps::RuntimeBackend::GetCmdArgResourceInfos(pContext, 0, 0, &pDstResource, 1)
+rps::RuntimeBackend::GetCmdArgResourceInfos(pContext, 2, 0, &pSrcResource, 1)
+rps::RuntimeBackend::OnDestroy()
+rps::RuntimeBackend::RecordCmdBegin(rps::RuntimeCmdCallbackContext const&) const
+rps::RuntimeBackend::RecordCmdEnd(rps::RuntimeCmdCallbackContext const&) const
+rps::RuntimeBackend::RecordCmdFixedFunctionBindingsAndDynamicStates(rps::RuntimeCmdCallbackContext const&) const
+rps::RuntimeBackend::RecordCmdRenderPassBegin(rps::RuntimeCmdCallbackContext const&) const
+rps::RuntimeBackend::RecordCmdRenderPassEnd(rps::RuntimeCmdCallbackContext const&) const
+rps::RuntimeBackend::RecordCommand(rps::RuntimeCmdCallbackContext&, rps::RuntimeCmd const&) const
+rps::RuntimeBackend::RecordDebugMarker(rps::RuntimeCmdCallbackContext const&, RpsRuntimeDebugMarkerMode, rps::StrRef) const
+rps::RuntimeBackend::RecordDebugMarker(rps::RuntimeCmdCallbackContext const&, RpsRuntimeDebugMarkerMode, rps::StrRef) const (.localalias.28)
+rps::RuntimeBackend::Run(rps::RenderGraphUpdateContext&)
+rps::RuntimeBackend::ShouldResetAliasedResourcesPrevFinalAccess() const
+rps::RuntimeBackend::UpdateFrame(rps::RenderGraphUpdateContext const&)
+rps::RuntimeBackend::UpdateResourceFinalAccessStates(rps::RenderGraphUpdateContext&, rps::ArrayRef<rps::ResourceInstance, unsigned long>)
+rps::RuntimeDevice::CalculateAccessTransition(RpsAccessAttr const&, RpsAccessAttr const&, rps::AccessTransitionInfo&) const
+rps::RuntimeDevice::DescribeMemoryType(unsigned int, rps::PrinterRef) const
+rps::RuntimeDevice::DestroyHeaps(rps::ArrayRef<rps::HeapInfo, unsigned long>) const
+rps::RuntimeDevice::GetBuiltInNodes() const
+rps::RuntimeDevice::GetImageAspectUsages(unsigned int) const
+rps::RuntimeDevice::GetMemoryTypeInfos() const
+rps::RuntimeDevice::Init()
+rps::RuntimeDevice::OnDestroy(RpsDevice_T*)
+rps::RuntimeDevice::PrepareRenderGraphCreation(RpsRenderGraphCreateInfo&) const
+rps::RuntimeDevice::UpdateHeaps(rps::ArrayRef<rps::HeapInfo, unsigned long>) const
+rps::ScheduleDebugPrintPhase::Run(rps::RenderGraphUpdateContext&)
+rps::ScheduleDebugPrintPhase::~ScheduleDebugPrintPhase()
+rps::SemanticAttr::Print(RpsPrinter const&) const
+rps::SemanticAttr::Print(RpsPrinter const&) const::c_semanticNames
+rps::SpanPool<unsigned int, rps::Vector<unsigned int, rps::ArenaAllocator<unsigned int>>, void>::push_to_span(rps::Span<unsigned int, unsigned int>&, unsigned int const&)
+rps::Subprogram::Create(rps::Device const&, RpsProgramCreateInfo const*, rps::Subprogram**)
+rps::Subprogram::Init(RpsProgramCreateInfo const*)
+rps::Subprogram::Init(RpsProgramCreateInfo const*) (.cold.117)
+rps::ToHandle(VkBuffer_T*)
+rps::ToHandle(VkImage_T*)
+rps::VKAccessInfo rps::GetVKAccessInfo<false, false>(RpsAccessAttr const&)
+rps::VKAccessInfo rps::GetVKAccessInfo<false, true>(RpsAccessAttr const&)
+rps::VKBuiltInClearBufferUAV(RpsCmdCallbackContext const*)
+rps::VKBuiltInClearColor(RpsCmdCallbackContext const*)
+rps::VKBuiltInClearColorRegions(RpsCmdCallbackContext const*)
+rps::VKBuiltInClearDepthStencil(RpsCmdCallbackContext const*)
+rps::VKBuiltInClearDepthStencil(RpsCmdCallbackContext const*) (.cold.16)
+rps::VKBuiltInClearDepthStencilRegions(RpsCmdCallbackContext const*)
+rps::VKBuiltInClearTextureUAV(RpsCmdCallbackContext const*)
+rps::VKBuiltInClearTextureUAVRegions(RpsCmdCallbackContext const*)
+rps::VKBuiltInCopyBuffer(RpsCmdCallbackContext const*)
+rps::VKBuiltInCopyBuffer(RpsCmdCallbackContext const*) (.cold.18)
+rps::VKBuiltInCopyBufferToTexture(RpsCmdCallbackContext const*)
+rps::VKBuiltInCopyTexture(RpsCmdCallbackContext const*)
+rps::VKBuiltInCopyTexture(RpsCmdCallbackContext const*) (.cold.17)
+rps::VKBuiltInCopyTextureToBuffer(RpsCmdCallbackContext const*)
+rps::VKBuiltInResolve(RpsCmdCallbackContext const*)
+rps::VKBuiltInResolve(RpsCmdCallbackContext const*) (.cold.19)
+rps::VKRuntimeBackend::AppendBufferBarrier(VkBuffer_T*, rps::VKRuntimeBackend::VKBarrierBatch&, RpsAccessAttr const&, RpsAccessAttr const&, rps::ResourceInstance const&)
+rps::VKRuntimeBackend::AppendImageBarrier(VkImage_T*, rps::VKRuntimeBackend::VKBarrierBatch&, RpsAccessAttr const&, RpsAccessAttr const&, rps::ResourceInstance const&, rps::SubresourceRangePacked)
+rps::VKRuntimeBackend::CreateBufferViews(rps::RenderGraphUpdateContext const&, rps::ArrayRef<unsigned int const, unsigned long>)
+rps::VKRuntimeBackend::CreateCommandResources(rps::RenderGraphUpdateContext const&)
+rps::VKRuntimeBackend::CreateCommandResources(rps::RenderGraphUpdateContext const&) (.cold.341)
+rps::VKRuntimeBackend::CreateHeaps(rps::RenderGraphUpdateContext const&, rps::ArrayRef<rps::HeapInfo, unsigned long>)
+rps::VKRuntimeBackend::CreateImageViews(rps::RenderGraphUpdateContext const&, rps::ArrayRef<unsigned int const, unsigned long>)
+rps::VKRuntimeBackend::CreateRenderPasses(rps::RenderGraphUpdateContext const&, rps::ArrayRef<unsigned int const, unsigned long>)
+rps::VKRuntimeBackend::CreateRenderPasses(rps::RenderGraphUpdateContext const&, rps::ArrayRef<unsigned int const, unsigned long>)::unusedAttchmt
+rps::VKRuntimeBackend::CreateResources(rps::RenderGraphUpdateContext const&, rps::ArrayRef<rps::ResourceInstance, unsigned long>)
+rps::VKRuntimeBackend::CreateResources(rps::RenderGraphUpdateContext const&, rps::ArrayRef<rps::ResourceInstance, unsigned long>)::PrevFinalAccess
+rps::VKRuntimeBackend::DestroyHeaps(rps::ArrayRef<rps::HeapInfo, unsigned long>)
+rps::VKRuntimeBackend::DestroyResources(rps::ArrayRef<rps::ResourceInstance, unsigned long>)
+rps::VKRuntimeBackend::DestroyRuntimeResourceDeferred(rps::ResourceInstance&)
+rps::VKRuntimeBackend::FrameResources::DestroyDeviceResources(rps::VKRuntimeDevice&)
+rps::VKRuntimeBackend::Get(RpsCmdCallbackContext const*)
+rps::VKRuntimeBackend::GetCmdArgGpuMemoryRanges(RpsCmdCallbackContext const*, unsigned int, unsigned int, RpsVkDeviceMemoryRange*, unsigned int)
+rps::VKRuntimeBackend::GetCmdArgImageViewInfos(rps::RuntimeCmdCallbackContext const&, unsigned int, unsigned int, RpsVkImageViewInfo*, unsigned int) const
+rps::VKRuntimeBackend::GetCmdArgResourceInfos(pContext, 0, 0, &pDstResource, 1)
+rps::VKRuntimeBackend::GetCmdArgResourceInfos(pContext, 2, 0, &pSrcResource, 1)
+rps::VKRuntimeBackend::GetCmdArgResourceInfos(pContext, BufferArgIdx, 0, &pBufferResource, 1)
+rps::VKRuntimeBackend::GetCmdArgResourceInfos(pContext, TextureArgIdx, 0, &pTextureResource, 1)
+rps::VKRuntimeBackend::GetCmdArgViews(RpsCmdCallbackContext const*, unsigned int, unsigned int, VkBufferView_T**, unsigned int)
+rps::VKRuntimeBackend::GetCmdArgViews(RpsCmdCallbackContext const*, unsigned int, unsigned int, VkImageView_T**, unsigned int)
+rps::VKRuntimeBackend::GetCmdRenderPass(RpsCmdCallbackContext const*, VkRenderPass_T**)
+rps::VKRuntimeBackend::GetTrackedImageLayoutInfo(rps::ResourceInstance const&, rps::CmdAccessInfo const&) const
+rps::VKRuntimeBackend::OnDestroy()
+rps::VKRuntimeBackend::ProcessBarrierBatch(rps::RenderGraphUpdateContext const&, rps::Span<rps::RuntimeCmdInfo, unsigned int>&)
+rps::VKRuntimeBackend::RecordBarrierBatch(VkCommandBuffer_T*, unsigned int) const
+rps::VKRuntimeBackend::RecordCmdFixedFunctionBindingsAndDynamicStates(rps::RuntimeCmdCallbackContext const&) const
+rps::VKRuntimeBackend::RecordCmdRenderPassBegin(rps::RuntimeCmdCallbackContext const&) const
+rps::VKRuntimeBackend::RecordCmdRenderPassEnd(rps::RuntimeCmdCallbackContext const&) const
+rps::VKRuntimeBackend::RecordCommands(rps::RenderGraph const&, RpsRenderGraphRecordCommandInfo const&) const
+rps::VKRuntimeBackend::TrackImageLayoutInfo(unsigned int, rps::ResourceInstance const&, rps::CmdAccessInfo const&)
+rps::VKRuntimeBackend::UpdateFrame(rps::RenderGraphUpdateContext const&)
+rps::VKRuntimeBackend::~VKRuntimeBackend()
+rps::VKRuntimeDevice::BuildDefaultRenderGraphPhases(rps::RenderGraph&)
+rps::VKRuntimeDevice::CalculateAccessTransition(RpsAccessAttr const&, RpsAccessAttr const&, rps::AccessTransitionInfo&) const
+rps::VKRuntimeDevice::DescribeMemoryType(unsigned int, rps::PrinterRef) const
+rps::VKRuntimeDevice::DescribeMemoryType(unsigned int, rps::PrinterRef) const::memoryPropertyFlagNames
+rps::VKRuntimeDevice::GetBuiltInNodes() const
+rps::VKRuntimeDevice::GetBuiltInNodes() const::c_builtInNodes
+rps::VKRuntimeDevice::GetImageAspectUsages(unsigned int) const
+rps::VKRuntimeDevice::GetMemoryTypeInfos() const
+rps::VKRuntimeDevice::GetMemoryTypeInfos() const::s_MemTypes
+rps::VKRuntimeDevice::GetResourceAllocInfo(rps::ResourceInstance const&, rps::VKRuntimeDevice::VKResourceAllocInfo&) const
+rps::VKRuntimeDevice::GetResourceAspectMask(rps::ResourceInstance const&) const
+rps::VKRuntimeDevice::GetSubresourceCount(rps::ResourceInstance const&) const
+rps::VKRuntimeDevice::GetSubresourceRangeFromImageView(rps::SubresourceRangePacked&, rps::ResourceInstance const&, RpsAccessAttr const&, RpsImageView const&)
+rps::VKRuntimeDevice::GetVkHeapTypeInfo(unsigned int) const
+rps::VKRuntimeDevice::Init()
+rps::VKRuntimeDevice::InitializeResourceAllocInfos(rps::ArrayRef<rps::ResourceInstance, unsigned long>)
+rps::VKRuntimeDevice::InitializeSubresourceInfos(rps::ArrayRef<rps::ResourceInstance, unsigned long>)
+rps::VKRuntimeDevice::VKRuntimeDevice(rps::Device*, RpsVKRuntimeDeviceCreateInfo const*)
+rps::VKRuntimeDevice::~VKRuntimeDevice()
+rps::VKRuntimeDevice::~VKRuntimeDevice() (.localalias.543)
+rps::Vector<RpsCommandBatch, rps::ArenaAllocator<RpsCommandBatch>>::ResizeNoConstruct(unsigned long)
+rps::Vector<rps::AccessDAGBuilderPass::ResourceState, rps::ArenaAllocator<rps::AccessDAGBuilderPass::ResourceState>>::ResizeNoConstruct(unsigned long)
+rps::Vector<rps::AccessDAGBuilderPass::SubresourceState, rps::ArenaAllocator<rps::AccessDAGBuilderPass::SubresourceState>>::ResizeNoConstruct(unsigned long)
+rps::Vector<rps::MemorySchedulePhase::HeapRangeUsage, rps::ArenaAllocator<rps::MemorySchedulePhase::HeapRangeUsage>>::ResizeNoConstruct(unsigned long)
+rps::Vector<rps::ResourceAliasingInfo, rps::ArenaAllocator<rps::ResourceAliasingInfo>>::grow(unsigned long)
+rps::Vector<rps::ResourceAliasingInfo, rps::ArenaAllocator<rps::ResourceAliasingInfo>>::resize(unsigned long)
+rps::Vector<rps::ResourceInstance, rps::ArenaAllocator<rps::ResourceInstance>>::ResizeNoConstruct(unsigned long)
+rps::Vector<rps::RuntimeCmdInfo, rps::ArenaAllocator<rps::RuntimeCmdInfo>>::ResizeNoConstruct(unsigned long)
+rps::Vector<rps::RuntimeCmdInfo, rps::ArenaAllocator<rps::RuntimeCmdInfo>>::push_back(rps::RuntimeCmdInfo&&)
+rps::Vector<unsigned int, rps::ArenaAllocator<unsigned int>>::ResizeNoConstruct(unsigned long)
+rps::Vector<unsigned int, rps::ArenaAllocator<unsigned int>>::push_back(unsigned int const&)
+rps::Vector<unsigned int, rps::ArenaAllocator<unsigned int>>::reserve(unsigned long) (.part.393)
+rps::Vector<unsigned int, rps::ArenaAllocator<unsigned int>>::resize(unsigned long)
+rps::details::MemberNodeCallbackContext<CPrism, void (CPrism::*)(RpsCmdCallbackContext const*)>::Callback(RpsCmdCallbackContext const*)
+rps::details::MemberNodeCallbackContext<CPrism, void (CPrism::*)(RpsCmdCallbackContext const*, RpsResourceAccessInfo, RpsViewport, unsigned int)>::Callback(RpsCmdCallbackContext const*)
+rps::details::MemberNodeCallbackContext<CPrism, void (CPrism::*)(RpsCmdCallbackContext const*, RpsResourceAccessInfo, RpsViewport, unsigned int, VkBuffer_T*, RpsVkImageViewInfo)>::Callback(RpsCmdCallbackContext const*)
+rps::details::MemberNodeCallbackContext<CPrism, void (CPrism::*)(RpsCmdCallbackContext const*, RpsVkImageViewInfo, RpsViewport, unsigned int)>::Callback(RpsCmdCallbackContext const*)
+rps::details::MemberNodeCallbackContext<CPrism, void (CPrism::*)(RpsCmdCallbackContext const*, RpsVkImageViewInfo, VkBuffer_T*, RpsVkImageViewInfo, RpsViewport, unsigned int)>::Callback(RpsCmdCallbackContext const*)
+rps::details::MemberNodeCallbackContext<CPrism, void (CPrism::*)(RpsCmdCallbackContext const*, VkBuffer_T*, VkBuffer_T*, VkBuffer_T*, VkBuffer_T*, unsigned long)>::Callback(RpsCmdCallbackContext const*)
+rps::details::ProgramGetBindingSlot(RpsSubprogram_T*, char const*, unsigned long, RpsCmdCallback**)
+rps::rpsDefaultFree(void*, void*)
+rps::rpsDefaultMalloc(void*, unsigned long, unsigned long)
+rps::rpsDefaultPrint(void*, char const*, ...)
+rps::rpsDefaultRealloc(void*, void*, unsigned long, unsigned long, unsigned long)
+rps::rpsDefaultVPrint(void*, char const*, __va_list_tag*)
+rps::rpsFallbackRealloc(RpsAllocator const*, void*, unsigned long, unsigned long, unsigned long)
+rps::s_DefaultAllocator
+rps::s_pRpslContext
+rpsCmdBeginRenderPass
+rpsCmdCallbackReportError
+rpsCmdCloneContext
+rpsCmdEndRenderPass
+rpsCmdGetArgResourceAccessInfo
+rpsCmdGetArgResourceAccessInfoArray
+rpsCmdGetArgResourceDesc
+rpsCmdGetArgResourceDescArray
+rpsCmdGetArgRuntimeResource
+rpsCmdGetArgRuntimeResourceArray
+rpsCmdGetNodeName
+rpsCmdGetParamDesc
+rpsCmdGetRenderTargetsInfo
+rpsCmdGetViewportInfo
+rpsCmdSetCommandBuffer
+rpsCountBits(unsigned int)
+rpsDeviceCreate
+rpsDeviceCreate(&deviceCreateInfo, phDevice)
+rpsDeviceDestroy
+rpsDeviceGetPrivateData
+rpsDiagLog(RpsDiagLogLevel, char const*, ...)
+rpsFormatFromVK
+rpsFormatFromVK::formatMap
+rpsFormatGetName(RpsFormat)
+rpsFormatGetName(RpsFormat)::fmtNames
+rpsFormatHasDepth(RpsFormat)
+rpsFormatHasDepthStencil(RpsFormat)
+rpsFormatHasStencil(RpsFormat)
+rpsFormatIsBlockCompressed(RpsFormat)
+rpsFormatIsDepthOnly(RpsFormat)
+rpsFormatToVK
+rpsFormatToVK::formatMap
+rpsGetFormatElementBytes(RpsFormat)
+rpsGetFormatElementBytes(RpsFormat)::s_Sizes
+rpsGetGlobalDebugPrinter
+rpsMakeRpslEntryName
+rpsProgramBindNodeCallback
+rpsProgramBindNodeSubprogram
+rpsProgramCreate
+rpsProgramDestroy
+rpsRenderGraphCreate
+rpsRenderGraphDestroy
+rpsRenderGraphGetBatchLayout
+rpsRenderGraphGetDiagnosticInfo
+rpsRenderGraphGetMainEntry
+rpsRenderGraphGetOutputParameterResourceInfos
+rpsRenderGraphGetResourceInfo
+rpsRenderGraphRecordCommands
+rpsRenderGraphUpdate
+rpsResultGetName
+rpsResultGetName::resultInfo
+rpsRpslDynamicLibraryInit
+rpsRpslEntryGetSignatureDesc
+rpsRpslEntryGetSignatureDesc(pCreateInfo->hRpslEntryPoint, &signatureDescTmp)
+rpsSetGlobalDebugPrinter
+rpsSetGlobalDebugPrinterLogLevel
+rpsVKGetCmdArgBuffer
+rpsVKGetCmdArgBufferArray
+rpsVKGetCmdArgBufferView
+rpsVKGetCmdArgBufferViewArray
+rpsVKGetCmdArgGpuMemory
+rpsVKGetCmdArgGpuMemoryArray
+rpsVKGetCmdArgImage
+rpsVKGetCmdArgImageArray
+rpsVKGetCmdArgImageView
+rpsVKGetCmdArgImageViewArray
+rpsVKGetCmdArgImageViewInfo
+rpsVKGetCmdArgImageViewInfoArray
+rpsVKGetCmdRenderPass
+rpsVKRuntimeDeviceCreate
+rpsl_M_main_E_defaultpipeline
+rpsl_M_main_E_defaultpipeline_AE_value
+rpsl_M_main_E_defaultpipeline_pp
+rpsl_M_main_E_main
+rpsl_M_main_E_main_AE_value
+rpsl_M_main_E_main_pp
+rpsl_M_main_Fn_defaultpipeline
+rpsl_M_main_Fn_defaultpipeline_wrapper
+rpsl_M_main_Fn_main
+rpsl_M_main_Fn_main_wrapper
+rtas_build
+rtas_read
 runtime
+runtimeCmd.clearValues.data()
 s_ThreadWatchdogManager
 s_bCrashHandlingInit
 s_bCurrentMiniDumpIsFatal
@@ -3779,6 +4898,7 @@ sched_getscheduler
 sched_setaffinity
 sched_setscheduler
 sched_yield
+scheduler_barrier
 search_object
 search_object.cold
 selectBuf
@@ -3796,6 +4916,7 @@ sg_vecOptionalDeviceExtensions
 sg_vecOptionalInstanceExtensions
 sg_vecRequiredDeviceExtensions
 sg_vecRequiredInstanceExtensions
+shading_rate
 shm_open
 shm_open of %s, %X failed: %d
 shm_open without O_CREAT of %s, %X failed: %d
@@ -3805,6 +4926,8 @@ short_alloc: spilling into system allocator
 shutdown
 sigaction
 signed char
+sinf
+sinhf
 size_of_encoded_value
 size_of_encoded_value.cold
 sizeof 
@@ -3812,8 +4935,16 @@ sizeof...
 snprintf
 socket
 source.pImage != nullptr
+sourceResInstance.IsTemporalParent()
 space
 sprintf
+sqrtf
+srcArrayIndex + count > paramInfo.numElements
+srcArrayOffset + count > paramAccessInfo.numElements
+srcArrayOffset + numAccessess > paramAccessInfo.numElements
+srcArrayOffset + numDescs > paramAccessInfo.numElements
+srcArrayOffset + numResources > paramAccessInfo.numElements
+srv(
 sscanf
 stackDepth_g
 stackLimit
@@ -3897,10 +5028,11 @@ std::_Hashtable<unsigned int, std::pair<unsigned int const, std::unique_ptr<CCli
 std::_Hashtable<unsigned int, std::pair<unsigned int const, std::unique_ptr<CPrismClient, std::default_delete<CPrismClient>>>, std::allocator<std::pair<unsigned int const, std::unique_ptr<CPrismClient, std::default_delete<CPrismClient>>>>, std::__detail::_Select1st, std::equal_to<unsigned int>, std::hash<unsigned int>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<false, false, true>>::_M_insert_unique_node(unsigned long, unsigned long, std::__detail::_Hash_node<std::pair<unsigned int const, std::unique_ptr<CPrismClient, std::default_delete<CPrismClient>>>, false>*, unsigned long)
 std::_Hashtable<unsigned int, std::pair<unsigned int const, std::unique_ptr<CPrismClient, std::default_delete<CPrismClient>>>, std::allocator<std::pair<unsigned int const, std::unique_ptr<CPrismClient, std::default_delete<CPrismClient>>>>, std::__detail::_Select1st, std::equal_to<unsigned int>, std::hash<unsigned int>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<false, false, true>>::_M_rehash(unsigned long, unsigned long const&)
 std::_Hashtable<unsigned int, std::pair<unsigned int const, std::unique_ptr<CPrismClient, std::default_delete<CPrismClient>>>, std::allocator<std::pair<unsigned int const, std::unique_ptr<CPrismClient, std::default_delete<CPrismClient>>>>, std::__detail::_Select1st, std::equal_to<unsigned int>, std::hash<unsigned int>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<false, false, true>>::clear()
+std::_Hashtable<unsigned int, std::pair<unsigned int const, std::unique_ptr<CPrismClient, std::default_delete<CPrismClient>>>, std::allocator<std::pair<unsigned int const, std::unique_ptr<CPrismClient, std::default_delete<CPrismClient>>>>, std::__detail::_Select1st, std::equal_to<unsigned int>, std::hash<unsigned int>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<false, false, true>>::~_Hashtable()
 std::_Hashtable<unsigned int, std::pair<unsigned int const, unsigned int>, std::allocator<std::pair<unsigned int const, unsigned int>>, std::__detail::_Select1st, std::equal_to<unsigned int>, std::hash<unsigned int>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<false, false, true>>::_M_insert_unique_node(unsigned long, unsigned long, std::__detail::_Hash_node<std::pair<unsigned int const, unsigned int>, false>*, unsigned long)
 std::_Hashtable<unsigned int, std::pair<unsigned int const, unsigned int>, std::allocator<std::pair<unsigned int const, unsigned int>>, std::__detail::_Select1st, std::equal_to<unsigned int>, std::hash<unsigned int>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<false, false, true>>::_M_rehash(unsigned long, unsigned long const&)
 std::_Rb_tree<(anonymous namespace)::CPrismInstance*, (anonymous namespace)::CPrismInstance*, std::_Identity<(anonymous namespace)::CPrismInstance*>, std::less<(anonymous namespace)::CPrismInstance*>, std::allocator<(anonymous namespace)::CPrismInstance*>>::_M_erase(std::_Rb_tree_node<(anonymous namespace)::CPrismInstance*>*)
-std::_Rb_tree<(anonymous namespace)::CSortedHandleMap<void*, IMotionEstimator* (*)(), IMotionEstimator, (PrismResult_t)-223>::Priority_t, (anonymous namespace)::CSortedHandleMap<void*, IMotionEstimator* (*)(), IMotionEstimator, (PrismResult_t)-223>::Priority_t, std::_Identity<(anonymous namespace)::CSortedHandleMap<void*, IMotionEstimator* (*)(), IMotionEstimator, (PrismResult_t)-223>::Priority_t>, std::less<(anonymous namespace)::CSortedHandleMap<void*, IMotionEstimator* (*)(), IMotionEstimator, (PrismResult_t)-223>::Priority_t>, std::allocator<(anonymous namespace)::CSortedHandleMap<void*, IMotionEstimator* (*)(), IMotionEstimator, (PrismResult_t)-223>::Priority_t>>::_M_erase(std::_Rb_tree_node<(anonymous namespace)::CSortedHandleMap<void*, IMotionEstimator* (*)(), IMotionEstimator, (PrismResult_t)-223>::Priority_t>*)
+std::_Rb_tree<(anonymous namespace)::CSortedHandleMap<void*, IMotionEstimator* (*)(), IMotionEstimator, (PrismResult_t)-224>::Priority_t, (anonymous namespace)::CSortedHandleMap<void*, IMotionEstimator* (*)(), IMotionEstimator, (PrismResult_t)-224>::Priority_t, std::_Identity<(anonymous namespace)::CSortedHandleMap<void*, IMotionEstimator* (*)(), IMotionEstimator, (PrismResult_t)-224>::Priority_t>, std::less<(anonymous namespace)::CSortedHandleMap<void*, IMotionEstimator* (*)(), IMotionEstimator, (PrismResult_t)-224>::Priority_t>, std::allocator<(anonymous namespace)::CSortedHandleMap<void*, IMotionEstimator* (*)(), IMotionEstimator, (PrismResult_t)-224>::Priority_t>>::_M_erase(std::_Rb_tree_node<(anonymous namespace)::CSortedHandleMap<void*, IMotionEstimator* (*)(), IMotionEstimator, (PrismResult_t)-224>::Priority_t>*)
 std::_Rb_tree<(anonymous namespace)::CSortedHandleMap<void*, IPrismDisplayFactory* (*)(), IPrismDisplayFactory, (PrismResult_t)-101>::Priority_t, (anonymous namespace)::CSortedHandleMap<void*, IPrismDisplayFactory* (*)(), IPrismDisplayFactory, (PrismResult_t)-101>::Priority_t, std::_Identity<(anonymous namespace)::CSortedHandleMap<void*, IPrismDisplayFactory* (*)(), IPrismDisplayFactory, (PrismResult_t)-101>::Priority_t>, std::less<(anonymous namespace)::CSortedHandleMap<void*, IPrismDisplayFactory* (*)(), IPrismDisplayFactory, (PrismResult_t)-101>::Priority_t>, std::allocator<(anonymous namespace)::CSortedHandleMap<void*, IPrismDisplayFactory* (*)(), IPrismDisplayFactory, (PrismResult_t)-101>::Priority_t>>::_M_erase(std::_Rb_tree_node<(anonymous namespace)::CSortedHandleMap<void*, IPrismDisplayFactory* (*)(), IPrismDisplayFactory, (PrismResult_t)-101>::Priority_t>*)
 std::_Rb_tree<CPrismClient*, CPrismClient*, std::_Identity<CPrismClient*>, CPrism::SortClients_t, std::allocator<CPrismClient*>>::_M_erase(std::_Rb_tree_node<CPrismClient*>*)
 std::_Rb_tree<CVkResourceBase*, CVkResourceBase*, std::_Identity<CVkResourceBase*>, CVkResourceComparator, std::allocator<CVkResourceBase*>>::_M_erase(std::_Rb_tree_node<CVkResourceBase*>*)
@@ -6944,7 +8076,6 @@ std::vector<VkDisplayModePropertiesKHR, std::allocator<VkDisplayModePropertiesKH
 std::vector<VkDisplayPlanePropertiesKHR, std::allocator<VkDisplayPlanePropertiesKHR>>::_M_default_append(unsigned long)
 std::vector<VkDisplayPropertiesKHR, std::allocator<VkDisplayPropertiesKHR>>::_M_default_append(unsigned long)
 std::vector<VkExtensionProperties, std::allocator<VkExtensionProperties>>::_M_default_append(unsigned long)
-std::vector<VkFramebuffer_T*, std::allocator<VkFramebuffer_T*>>::_M_default_append(unsigned long)
 std::vector<VkImage_T*, std::allocator<VkImage_T*>>::_M_default_append(unsigned long)
 std::vector<VkLayerProperties, std::allocator<VkLayerProperties>>::_M_default_append(unsigned long)
 std::vector<VkPresentModeKHR, std::allocator<VkPresentModeKHR>>::_M_default_append(unsigned long)
@@ -6952,6 +8083,7 @@ std::vector<VkQueueFamilyGlobalPriorityProperties, std::allocator<VkQueueFamilyG
 std::vector<VkQueueFamilyGlobalPriorityProperties, std::allocator<VkQueueFamilyGlobalPriorityProperties>>::operator=(std::vector<VkQueueFamilyGlobalPriorityProperties, std::allocator<VkQueueFamilyGlobalPriorityProperties>> const&)
 std::vector<VkQueueFamilyProperties2, std::allocator<VkQueueFamilyProperties2>>::_M_default_append(unsigned long)
 std::vector<VkQueueFamilyProperties2, std::allocator<VkQueueFamilyProperties2>>::operator=(std::vector<VkQueueFamilyProperties2, std::allocator<VkQueueFamilyProperties2>> const&)
+std::vector<VkSemaphore_T*, std::allocator<VkSemaphore_T*>>::_M_default_append(unsigned long)
 std::vector<VkSurfaceFormatKHR, std::allocator<VkSurfaceFormatKHR>>::_M_default_append(unsigned long)
 std::vector<VkVertexInputAttributeDescription, std::allocator<VkVertexInputAttributeDescription>>::operator=(std::vector<VkVertexInputAttributeDescription, std::allocator<VkVertexInputAttributeDescription>> const&)
 std::vector<VkVertexInputBindingDescription, std::allocator<VkVertexInputBindingDescription>>::operator=(std::vector<VkVertexInputBindingDescription, std::allocator<VkVertexInputBindingDescription>> const&)
@@ -6982,12 +8114,17 @@ stdin
 stdout
 steamrt
 steamvr
+stencil_discard_after
+stencil_discard_before
+stencil_read
+stencil_write
 strcasecmp
 strchr
 strcmp
 strcpy
 strcpy_safe(char*, unsigned long, char const*)
 strdup
+stream_out
 strerror
 strftime
 stricmp(char const*, char const*)
@@ -7007,6 +8144,11 @@ strtol
 strtold_l
 strtoul
 strtoull
+subgraphStack.empty()
+subgraph_begin
+subgraph_end
+subroutine_begin
+subroutine_end
 subs.9433
 syscall
 sysconf
@@ -7017,11 +8159,21 @@ systemTicksPerSecond
 systemTicksToNanosecondDenum
 systemTicksToNanosecondNum
 systemTimeInitialized
+tableIdx < RPS_COUNTOF(c_builtInNodeNames)
+tanf
+tanhf
 template parameter object for 
+temporalLayerIndex != RPS_INDEX_NONE_U32
+temporalLayerIndex >= pResourceInstance->desc.temporalLayers
+temporalLeftLayers
+temporalrightLayers
 terminate called after throwing an instance of '
 terminate called recursively\n
 terminate called without an active exception\n
 terminator.9276
+tex1D
+tex2D
+tex3D
 this
 throw
 throw 
@@ -7029,6 +8181,7 @@ time
 timing.nPixelClockRate > 0
 tl_pLeafSharedState
 tl_pWatchdog
+tls_pJmpBuf
 to.pPool != nullptr
 tolower
 toupper
@@ -7087,6 +8240,7 @@ transaction clone for std::underflow_error::underflow_error(std::__cxx11::basic_
 transaction clone for std::underflow_error::underflow_error(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>> const&) (.cold)
 transaction clone for std::underflow_error::~underflow_error()
 true
+type : %s
 typeinfo fn for 
 typeinfo for 
 typeinfo for (anonymous namespace)::CFrameHallucinationPrivate::CDestinationFrameInfo
@@ -7210,6 +8364,22 @@ typeinfo for long long
 typeinfo for long long const*
 typeinfo for long long*
 typeinfo for long*
+typeinfo for rps::AccessDAGBuilderPass
+typeinfo for rps::CmdDebugPrintPhase
+typeinfo for rps::DAGBuilderPass
+typeinfo for rps::DAGPrintPhase
+typeinfo for rps::DAGSchedulePass
+typeinfo for rps::IRenderGraphPhase
+typeinfo for rps::LifetimeAnalysisPhase
+typeinfo for rps::MemorySchedulePhase
+typeinfo for rps::NullRuntimeBackend
+typeinfo for rps::PreProcessPhase
+typeinfo for rps::RenderGraphPhaseWrapper
+typeinfo for rps::RuntimeBackend
+typeinfo for rps::RuntimeDevice
+typeinfo for rps::ScheduleDebugPrintPhase
+typeinfo for rps::VKRuntimeBackend
+typeinfo for rps::VKRuntimeDevice
 typeinfo for short
 typeinfo for short const*
 typeinfo for short*
@@ -7547,6 +8717,22 @@ typeinfo name for long long
 typeinfo name for long long const*
 typeinfo name for long long*
 typeinfo name for long*
+typeinfo name for rps::AccessDAGBuilderPass
+typeinfo name for rps::CmdDebugPrintPhase
+typeinfo name for rps::DAGBuilderPass
+typeinfo name for rps::DAGPrintPhase
+typeinfo name for rps::DAGSchedulePass
+typeinfo name for rps::IRenderGraphPhase
+typeinfo name for rps::LifetimeAnalysisPhase
+typeinfo name for rps::MemorySchedulePhase
+typeinfo name for rps::NullRuntimeBackend
+typeinfo name for rps::PreProcessPhase
+typeinfo name for rps::RenderGraphPhaseWrapper
+typeinfo name for rps::RuntimeBackend
+typeinfo name for rps::RuntimeDevice
+typeinfo name for rps::ScheduleDebugPrintPhase
+typeinfo name for rps::VKRuntimeBackend
+typeinfo name for rps::VKRuntimeDevice
 typeinfo name for short
 typeinfo name for short const*
 typeinfo name for short*
@@ -7763,13 +8949,19 @@ typeinfo name for void*
 typeinfo name for wchar_t
 typeinfo name for wchar_t const*
 typeinfo name for wchar_t*
+uav(
 uint32_t( eEye ) < k_nEyeCount
+uint32_t(opCode) >= uint32_t(SchedulerMarkerOpCodes::MaxValue)
 umask
+unDisplaySystemTimeInTicks
+unEye
+unFrameIndex
 unMessageID
 unMyPID == data
 ungetc
 ungetwc
 uninitialized __any_string
+unknown
 unlink
 unseen_objects
 unsetenv
@@ -7778,12 +8970,14 @@ unsigned __int128
 unsigned char
 unsigned int
 unsigned int& std::vector<unsigned int, std::allocator<unsigned int>>::emplace_back<unsigned int>(unsigned int&&)
+unsigned int* std::__upper_bound<unsigned int*, unsigned int, __gnu_cxx::__ops::_Val_comp_iter<rps::MemorySchedulePhase::AllocationIndexLessComparer>>(unsigned int*, unsigned int*, unsigned int const&, __gnu_cxx::__ops::_Val_comp_iter<rps::MemorySchedulePhase::AllocationIndexLessComparer>)
 unsigned long
 unsigned long long
 unsigned short
 unsigned short& std::vector<unsigned short, std::allocator<unsigned short>>::emplace_back<unsigned short>(unsigned short&&)
 unsupported format
 unsupported platform
+updateRTDimInfo(resInfo, accessInfo)
 upper
 useSpecialFloats
 usleep
@@ -7803,6 +8997,8 @@ vector::_M_range_insert
 vector::_M_realloc_insert
 vector::reserve
 version
+vfprintf
+viewport
 virtual thunk to 
 virtual thunk to std::basic_fstream<char, std::char_traits<char>>::~basic_fstream()
 virtual thunk to std::basic_fstream<wchar_t, std::char_traits<wchar_t>>::~basic_fstream()
@@ -8525,9 +9721,15 @@ vkWaitSemaphoresKHR
 vkWriteAccelerationStructuresPropertiesKHR
 vkWriteMicromapsPropertiesEXT
 void
+void rps::VKBuiltInCopyTextureBufferCommon<false, 2u, 0u, 3u, 4u, 5u, 6u, 1u, 7u>(RpsCmdCallbackContext const*)
+void rps::VKBuiltInCopyTextureBufferCommon<true, 0u, 5u, 1u, 2u, 3u, 4u, 6u, 7u>(RpsCmdCallbackContext const*)
 void std::(anonymous namespace)::read_utf16_bom<false>(std::(anonymous namespace)::range<char16_t const, false>&, std::codecvt_mode&)
 void std::__adjust_heap<__gnu_cxx::__normal_iterator<PhysicalDeviceInfo_t*, std::vector<PhysicalDeviceInfo_t, std::allocator<PhysicalDeviceInfo_t>>>, long, PhysicalDeviceInfo_t, __gnu_cxx::__ops::_Iter_comp_iter<CVkDevice::ChoosePhysicalDevice()::'lambda'(PhysicalDeviceInfo_t const&, PhysicalDeviceInfo_t const&)>>(__gnu_cxx::__normal_iterator<PhysicalDeviceInfo_t*, std::vector<PhysicalDeviceInfo_t, std::allocator<PhysicalDeviceInfo_t>>>, long, long, PhysicalDeviceInfo_t, __gnu_cxx::__ops::_Iter_comp_iter<CVkDevice::ChoosePhysicalDevice()::'lambda'(PhysicalDeviceInfo_t const&, PhysicalDeviceInfo_t const&)>) (.isra.0)
 void std::__adjust_heap<__gnu_cxx::__normal_iterator<VkDescriptorSetLayoutBinding*, std::vector<VkDescriptorSetLayoutBinding, std::allocator<VkDescriptorSetLayoutBinding>>>, long, VkDescriptorSetLayoutBinding, __gnu_cxx::__ops::_Iter_comp_iter<CVkDescriptorLayoutCache::CreateDescriptorLayout(VkDescriptorSetLayoutCreateInfo const*)::'lambda'(VkDescriptorSetLayoutBinding&, VkDescriptorSetLayoutBinding&)>>(__gnu_cxx::__normal_iterator<VkDescriptorSetLayoutBinding*, std::vector<VkDescriptorSetLayoutBinding, std::allocator<VkDescriptorSetLayoutBinding>>>, long, long, VkDescriptorSetLayoutBinding, __gnu_cxx::__ops::_Iter_comp_iter<CVkDescriptorLayoutCache::CreateDescriptorLayout(VkDescriptorSetLayoutCreateInfo const*)::'lambda'(VkDescriptorSetLayoutBinding&, VkDescriptorSetLayoutBinding&)>) (.isra.0)
+void std::__adjust_heap<rps::RenderGraphSignature::ParamSemanticKey*, long, rps::RenderGraphSignature::ParamSemanticKey, __gnu_cxx::__ops::_Iter_comp_iter<rps::RenderGraphSignature::InitNodeDecl(rps::Arena&, RpsNodeDesc const&, rps::NodeDeclInfo&, rps::InplaceVector<rps::RenderGraphSignature::ParamSemanticKey, 32ul, rps::GeneralAllocator<rps::RenderGraphSignature::ParamSemanticKey>>&)::'lambda0'(auto const&, auto const&)>>(rps::RenderGraphSignature::ParamSemanticKey*, long, long, rps::RenderGraphSignature::ParamSemanticKey, __gnu_cxx::__ops::_Iter_comp_iter<rps::RenderGraphSignature::InitNodeDecl(rps::Arena&, RpsNodeDesc const&, rps::NodeDeclInfo&, rps::InplaceVector<rps::RenderGraphSignature::ParamSemanticKey, 32ul, rps::GeneralAllocator<rps::RenderGraphSignature::ParamSemanticKey>>&)::'lambda0'(auto const&, auto const&)>) (.constprop.214)
+void std::__adjust_heap<rps::RenderGraphSignature::ParamSemanticKey*, long, rps::RenderGraphSignature::ParamSemanticKey, __gnu_cxx::__ops::_Iter_comp_iter<rps::RenderGraphSignature::InitNodeDecl(rps::Arena&, RpsNodeDesc const&, rps::NodeDeclInfo&, rps::InplaceVector<rps::RenderGraphSignature::ParamSemanticKey, 32ul, rps::GeneralAllocator<rps::RenderGraphSignature::ParamSemanticKey>>&)::'lambda1'(auto const&, auto const&)>>(rps::RenderGraphSignature::ParamSemanticKey*, long, long, rps::RenderGraphSignature::ParamSemanticKey, __gnu_cxx::__ops::_Iter_comp_iter<rps::RenderGraphSignature::InitNodeDecl(rps::Arena&, RpsNodeDesc const&, rps::NodeDeclInfo&, rps::InplaceVector<rps::RenderGraphSignature::ParamSemanticKey, 32ul, rps::GeneralAllocator<rps::RenderGraphSignature::ParamSemanticKey>>&)::'lambda1'(auto const&, auto const&)>) (.constprop.219)
+void std::__adjust_heap<unsigned int*, long, unsigned int, __gnu_cxx::__ops::_Iter_comp_iter<rps::MemorySchedulePhase::CalculateResourceAliasing(rps::RenderGraphUpdateContext&)::'lambda'(unsigned int, unsigned int)>>(unsigned int*, long, long, unsigned int, __gnu_cxx::__ops::_Iter_comp_iter<rps::MemorySchedulePhase::CalculateResourceAliasing(rps::RenderGraphUpdateContext&)::'lambda'(unsigned int, unsigned int)>)
+void std::__adjust_heap<unsigned int*, long, unsigned int, __gnu_cxx::__ops::_Iter_comp_iter<rps::MemorySchedulePhase::CalculateResourcePlacements(rps::RenderGraphUpdateContext&)::'lambda'(unsigned int, unsigned int)>>(unsigned int*, long, long, unsigned int, __gnu_cxx::__ops::_Iter_comp_iter<rps::MemorySchedulePhase::CalculateResourcePlacements(rps::RenderGraphUpdateContext&)::'lambda'(unsigned int, unsigned int)>)
 void std::__convert_to_v<double>(char const*, double&, std::_Ios_Iostate&, __locale_struct* const&)
 void std::__convert_to_v<float>(char const*, float&, std::_Ios_Iostate&, __locale_struct* const&)
 void std::__convert_to_v<long double>(char const*, long double&, std::_Ios_Iostate&, __locale_struct* const&)
@@ -8567,10 +9769,20 @@ void std::__facet_shims::__numpunct_fill_cache<char>(std::integral_constant<bool
 void std::__facet_shims::__numpunct_fill_cache<char>(std::integral_constant<bool, true>, std::locale::facet const*, std::__numpunct_cache<char>*)
 void std::__facet_shims::__numpunct_fill_cache<wchar_t>(std::integral_constant<bool, false>, std::locale::facet const*, std::__numpunct_cache<wchar_t>*)
 void std::__facet_shims::__numpunct_fill_cache<wchar_t>(std::integral_constant<bool, true>, std::locale::facet const*, std::__numpunct_cache<wchar_t>*)
+void std::__heap_select<unsigned int*, __gnu_cxx::__ops::_Iter_comp_iter<rps::MemorySchedulePhase::CalculateResourceAliasing(rps::RenderGraphUpdateContext&)::'lambda'(unsigned int, unsigned int)>>(unsigned int*, unsigned int*, unsigned int*, __gnu_cxx::__ops::_Iter_comp_iter<rps::MemorySchedulePhase::CalculateResourceAliasing(rps::RenderGraphUpdateContext&)::'lambda'(unsigned int, unsigned int)>)
+void std::__heap_select<unsigned int*, __gnu_cxx::__ops::_Iter_comp_iter<rps::MemorySchedulePhase::CalculateResourcePlacements(rps::RenderGraphUpdateContext&)::'lambda'(unsigned int, unsigned int)>>(unsigned int*, unsigned int*, unsigned int*, __gnu_cxx::__ops::_Iter_comp_iter<rps::MemorySchedulePhase::CalculateResourcePlacements(rps::RenderGraphUpdateContext&)::'lambda'(unsigned int, unsigned int)>)
 void std::__insertion_sort<__gnu_cxx::__normal_iterator<PhysicalDeviceInfo_t*, std::vector<PhysicalDeviceInfo_t, std::allocator<PhysicalDeviceInfo_t>>>, __gnu_cxx::__ops::_Iter_comp_iter<CVkDevice::ChoosePhysicalDevice()::'lambda'(PhysicalDeviceInfo_t const&, PhysicalDeviceInfo_t const&)>>(__gnu_cxx::__normal_iterator<PhysicalDeviceInfo_t*, std::vector<PhysicalDeviceInfo_t, std::allocator<PhysicalDeviceInfo_t>>>, __gnu_cxx::__normal_iterator<PhysicalDeviceInfo_t*, std::vector<PhysicalDeviceInfo_t, std::allocator<PhysicalDeviceInfo_t>>>, __gnu_cxx::__ops::_Iter_comp_iter<CVkDevice::ChoosePhysicalDevice()::'lambda'(PhysicalDeviceInfo_t const&, PhysicalDeviceInfo_t const&)>) (.isra.0)
 void std::__insertion_sort<__gnu_cxx::__normal_iterator<VkDescriptorSetLayoutBinding*, std::vector<VkDescriptorSetLayoutBinding, std::allocator<VkDescriptorSetLayoutBinding>>>, __gnu_cxx::__ops::_Iter_comp_iter<CVkDescriptorLayoutCache::CreateDescriptorLayout(VkDescriptorSetLayoutCreateInfo const*)::'lambda'(VkDescriptorSetLayoutBinding&, VkDescriptorSetLayoutBinding&)>>(__gnu_cxx::__normal_iterator<VkDescriptorSetLayoutBinding*, std::vector<VkDescriptorSetLayoutBinding, std::allocator<VkDescriptorSetLayoutBinding>>>, __gnu_cxx::__normal_iterator<VkDescriptorSetLayoutBinding*, std::vector<VkDescriptorSetLayoutBinding, std::allocator<VkDescriptorSetLayoutBinding>>>, __gnu_cxx::__ops::_Iter_comp_iter<CVkDescriptorLayoutCache::CreateDescriptorLayout(VkDescriptorSetLayoutCreateInfo const*)::'lambda'(VkDescriptorSetLayoutBinding&, VkDescriptorSetLayoutBinding&)>) (.isra.0)
+void std::__insertion_sort<rps::RenderGraphSignature::ParamSemanticKey*, __gnu_cxx::__ops::_Iter_comp_iter<rps::RenderGraphSignature::InitNodeDecl(rps::Arena&, RpsNodeDesc const&, rps::NodeDeclInfo&, rps::InplaceVector<rps::RenderGraphSignature::ParamSemanticKey, 32ul, rps::GeneralAllocator<rps::RenderGraphSignature::ParamSemanticKey>>&)::'lambda0'(auto const&, auto const&)>>(rps::RenderGraphSignature::ParamSemanticKey*, rps::RenderGraphSignature::ParamSemanticKey*, __gnu_cxx::__ops::_Iter_comp_iter<rps::RenderGraphSignature::InitNodeDecl(rps::Arena&, RpsNodeDesc const&, rps::NodeDeclInfo&, rps::InplaceVector<rps::RenderGraphSignature::ParamSemanticKey, 32ul, rps::GeneralAllocator<rps::RenderGraphSignature::ParamSemanticKey>>&)::'lambda0'(auto const&, auto const&)>) (.constprop.218)
+void std::__insertion_sort<rps::RenderGraphSignature::ParamSemanticKey*, __gnu_cxx::__ops::_Iter_comp_iter<rps::RenderGraphSignature::InitNodeDecl(rps::Arena&, RpsNodeDesc const&, rps::NodeDeclInfo&, rps::InplaceVector<rps::RenderGraphSignature::ParamSemanticKey, 32ul, rps::GeneralAllocator<rps::RenderGraphSignature::ParamSemanticKey>>&)::'lambda1'(auto const&, auto const&)>>(rps::RenderGraphSignature::ParamSemanticKey*, rps::RenderGraphSignature::ParamSemanticKey*, __gnu_cxx::__ops::_Iter_comp_iter<rps::RenderGraphSignature::InitNodeDecl(rps::Arena&, RpsNodeDesc const&, rps::NodeDeclInfo&, rps::InplaceVector<rps::RenderGraphSignature::ParamSemanticKey, 32ul, rps::GeneralAllocator<rps::RenderGraphSignature::ParamSemanticKey>>&)::'lambda1'(auto const&, auto const&)>) (.constprop.223)
+void std::__insertion_sort<unsigned int*, __gnu_cxx::__ops::_Iter_comp_iter<rps::MemorySchedulePhase::CalculateResourceAliasing(rps::RenderGraphUpdateContext&)::'lambda'(unsigned int, unsigned int)>>(unsigned int*, unsigned int*, __gnu_cxx::__ops::_Iter_comp_iter<rps::MemorySchedulePhase::CalculateResourceAliasing(rps::RenderGraphUpdateContext&)::'lambda'(unsigned int, unsigned int)>)
+void std::__insertion_sort<unsigned int*, __gnu_cxx::__ops::_Iter_comp_iter<rps::MemorySchedulePhase::CalculateResourcePlacements(rps::RenderGraphUpdateContext&)::'lambda'(unsigned int, unsigned int)>>(unsigned int*, unsigned int*, __gnu_cxx::__ops::_Iter_comp_iter<rps::MemorySchedulePhase::CalculateResourcePlacements(rps::RenderGraphUpdateContext&)::'lambda'(unsigned int, unsigned int)>)
 void std::__introsort_loop<__gnu_cxx::__normal_iterator<PhysicalDeviceInfo_t*, std::vector<PhysicalDeviceInfo_t, std::allocator<PhysicalDeviceInfo_t>>>, long, __gnu_cxx::__ops::_Iter_comp_iter<CVkDevice::ChoosePhysicalDevice()::'lambda'(PhysicalDeviceInfo_t const&, PhysicalDeviceInfo_t const&)>>(__gnu_cxx::__normal_iterator<PhysicalDeviceInfo_t*, std::vector<PhysicalDeviceInfo_t, std::allocator<PhysicalDeviceInfo_t>>>, __gnu_cxx::__normal_iterator<PhysicalDeviceInfo_t*, std::vector<PhysicalDeviceInfo_t, std::allocator<PhysicalDeviceInfo_t>>>, long, __gnu_cxx::__ops::_Iter_comp_iter<CVkDevice::ChoosePhysicalDevice()::'lambda'(PhysicalDeviceInfo_t const&, PhysicalDeviceInfo_t const&)>)
 void std::__introsort_loop<__gnu_cxx::__normal_iterator<VkDescriptorSetLayoutBinding*, std::vector<VkDescriptorSetLayoutBinding, std::allocator<VkDescriptorSetLayoutBinding>>>, long, __gnu_cxx::__ops::_Iter_comp_iter<CVkDescriptorLayoutCache::CreateDescriptorLayout(VkDescriptorSetLayoutCreateInfo const*)::'lambda'(VkDescriptorSetLayoutBinding&, VkDescriptorSetLayoutBinding&)>>(__gnu_cxx::__normal_iterator<VkDescriptorSetLayoutBinding*, std::vector<VkDescriptorSetLayoutBinding, std::allocator<VkDescriptorSetLayoutBinding>>>, __gnu_cxx::__normal_iterator<VkDescriptorSetLayoutBinding*, std::vector<VkDescriptorSetLayoutBinding, std::allocator<VkDescriptorSetLayoutBinding>>>, long, __gnu_cxx::__ops::_Iter_comp_iter<CVkDescriptorLayoutCache::CreateDescriptorLayout(VkDescriptorSetLayoutCreateInfo const*)::'lambda'(VkDescriptorSetLayoutBinding&, VkDescriptorSetLayoutBinding&)>)
+void std::__introsort_loop<rps::RenderGraphSignature::ParamSemanticKey*, long, __gnu_cxx::__ops::_Iter_comp_iter<rps::RenderGraphSignature::InitNodeDecl(rps::Arena&, RpsNodeDesc const&, rps::NodeDeclInfo&, rps::InplaceVector<rps::RenderGraphSignature::ParamSemanticKey, 32ul, rps::GeneralAllocator<rps::RenderGraphSignature::ParamSemanticKey>>&)::'lambda0'(auto const&, auto const&)>>(rps::RenderGraphSignature::ParamSemanticKey*, rps::RenderGraphSignature::ParamSemanticKey*, long, __gnu_cxx::__ops::_Iter_comp_iter<rps::RenderGraphSignature::InitNodeDecl(rps::Arena&, RpsNodeDesc const&, rps::NodeDeclInfo&, rps::InplaceVector<rps::RenderGraphSignature::ParamSemanticKey, 32ul, rps::GeneralAllocator<rps::RenderGraphSignature::ParamSemanticKey>>&)::'lambda0'(auto const&, auto const&)>)
+void std::__introsort_loop<rps::RenderGraphSignature::ParamSemanticKey*, long, __gnu_cxx::__ops::_Iter_comp_iter<rps::RenderGraphSignature::InitNodeDecl(rps::Arena&, RpsNodeDesc const&, rps::NodeDeclInfo&, rps::InplaceVector<rps::RenderGraphSignature::ParamSemanticKey, 32ul, rps::GeneralAllocator<rps::RenderGraphSignature::ParamSemanticKey>>&)::'lambda1'(auto const&, auto const&)>>(rps::RenderGraphSignature::ParamSemanticKey*, rps::RenderGraphSignature::ParamSemanticKey*, long, __gnu_cxx::__ops::_Iter_comp_iter<rps::RenderGraphSignature::InitNodeDecl(rps::Arena&, RpsNodeDesc const&, rps::NodeDeclInfo&, rps::InplaceVector<rps::RenderGraphSignature::ParamSemanticKey, 32ul, rps::GeneralAllocator<rps::RenderGraphSignature::ParamSemanticKey>>&)::'lambda1'(auto const&, auto const&)>)
+void std::__introsort_loop<unsigned int*, long, __gnu_cxx::__ops::_Iter_comp_iter<rps::MemorySchedulePhase::CalculateResourceAliasing(rps::RenderGraphUpdateContext&)::'lambda'(unsigned int, unsigned int)>>(unsigned int*, unsigned int*, long, __gnu_cxx::__ops::_Iter_comp_iter<rps::MemorySchedulePhase::CalculateResourceAliasing(rps::RenderGraphUpdateContext&)::'lambda'(unsigned int, unsigned int)>)
+void std::__introsort_loop<unsigned int*, long, __gnu_cxx::__ops::_Iter_comp_iter<rps::MemorySchedulePhase::CalculateResourcePlacements(rps::RenderGraphUpdateContext&)::'lambda'(unsigned int, unsigned int)>>(unsigned int*, unsigned int*, long, __gnu_cxx::__ops::_Iter_comp_iter<rps::MemorySchedulePhase::CalculateResourcePlacements(rps::RenderGraphUpdateContext&)::'lambda'(unsigned int, unsigned int)>)
 void std::__make_heap<__gnu_cxx::__normal_iterator<PhysicalDeviceInfo_t*, std::vector<PhysicalDeviceInfo_t, std::allocator<PhysicalDeviceInfo_t>>>, __gnu_cxx::__ops::_Iter_comp_iter<CVkDevice::ChoosePhysicalDevice()::'lambda'(PhysicalDeviceInfo_t const&, PhysicalDeviceInfo_t const&)>>(__gnu_cxx::__normal_iterator<PhysicalDeviceInfo_t*, std::vector<PhysicalDeviceInfo_t, std::allocator<PhysicalDeviceInfo_t>>>, __gnu_cxx::__normal_iterator<PhysicalDeviceInfo_t*, std::vector<PhysicalDeviceInfo_t, std::allocator<PhysicalDeviceInfo_t>>>, __gnu_cxx::__ops::_Iter_comp_iter<CVkDevice::ChoosePhysicalDevice()::'lambda'(PhysicalDeviceInfo_t const&, PhysicalDeviceInfo_t const&)>&) (.isra.0)
 void std::__pop_heap<__gnu_cxx::__normal_iterator<PhysicalDeviceInfo_t*, std::vector<PhysicalDeviceInfo_t, std::allocator<PhysicalDeviceInfo_t>>>, __gnu_cxx::__ops::_Iter_comp_iter<CVkDevice::ChoosePhysicalDevice()::'lambda'(PhysicalDeviceInfo_t const&, PhysicalDeviceInfo_t const&)>>(__gnu_cxx::__normal_iterator<PhysicalDeviceInfo_t*, std::vector<PhysicalDeviceInfo_t, std::allocator<PhysicalDeviceInfo_t>>>, __gnu_cxx::__normal_iterator<PhysicalDeviceInfo_t*, std::vector<PhysicalDeviceInfo_t, std::allocator<PhysicalDeviceInfo_t>>>, __gnu_cxx::__normal_iterator<PhysicalDeviceInfo_t*, std::vector<PhysicalDeviceInfo_t, std::allocator<PhysicalDeviceInfo_t>>>, __gnu_cxx::__ops::_Iter_comp_iter<CVkDevice::ChoosePhysicalDevice()::'lambda'(PhysicalDeviceInfo_t const&, PhysicalDeviceInfo_t const&)>&) (.isra.0)
 void std::__unguarded_linear_insert<__gnu_cxx::__normal_iterator<PhysicalDeviceInfo_t*, std::vector<PhysicalDeviceInfo_t, std::allocator<PhysicalDeviceInfo_t>>>, __gnu_cxx::__ops::_Val_comp_iter<CVkDevice::ChoosePhysicalDevice()::'lambda'(PhysicalDeviceInfo_t const&, PhysicalDeviceInfo_t const&)>>(__gnu_cxx::__normal_iterator<PhysicalDeviceInfo_t*, std::vector<PhysicalDeviceInfo_t, std::allocator<PhysicalDeviceInfo_t>>>, __gnu_cxx::__ops::_Val_comp_iter<CVkDevice::ChoosePhysicalDevice()::'lambda'(PhysicalDeviceInfo_t const&, PhysicalDeviceInfo_t const&)>) (.isra.0)
@@ -8620,6 +9832,7 @@ void std::vector<facet::CVkTimelinePoint, std::allocator<facet::CVkTimelinePoint
 void std::vector<glm::vec<2, float, (glm::qualifier)0>, std::allocator<glm::vec<2, float, (glm::qualifier)0>>>::_M_assign_aux<glm::vec<2, float, (glm::qualifier)0> const*>(glm::vec<2, float, (glm::qualifier)0> const*, glm::vec<2, float, (glm::qualifier)0> const*, std::forward_iterator_tag)
 void std::vector<std::string, std::allocator<std::string>>::_M_realloc_insert<std::string const&>(__gnu_cxx::__normal_iterator<std::string*, std::vector<std::string, std::allocator<std::string>>>, std::string const&)
 void std::vector<std::string, std::allocator<std::string>>::_M_realloc_insert<std::string>(__gnu_cxx::__normal_iterator<std::string*, std::vector<std::string, std::allocator<std::string>>>, std::string&&)
+void std::vector<std::unique_ptr<CVkCommandBatch, std::default_delete<CVkCommandBatch>>, std::allocator<std::unique_ptr<CVkCommandBatch, std::default_delete<CVkCommandBatch>>>>::_M_realloc_insert<std::unique_ptr<CVkCommandBatch, std::default_delete<CVkCommandBatch>>>(__gnu_cxx::__normal_iterator<std::unique_ptr<CVkCommandBatch, std::default_delete<CVkCommandBatch>>*, std::vector<std::unique_ptr<CVkCommandBatch, std::default_delete<CVkCommandBatch>>, std::allocator<std::unique_ptr<CVkCommandBatch, std::default_delete<CVkCommandBatch>>>>>, std::unique_ptr<CVkCommandBatch, std::default_delete<CVkCommandBatch>>&&)
 void std::vector<std::unique_ptr<CVkCommandBuffer, CVkResourceDeleter<CVkCommandBuffer>>, std::allocator<std::unique_ptr<CVkCommandBuffer, CVkResourceDeleter<CVkCommandBuffer>>>>::_M_realloc_insert<std::unique_ptr<CVkCommandBuffer, CVkResourceDeleter<CVkCommandBuffer>>>(__gnu_cxx::__normal_iterator<std::unique_ptr<CVkCommandBuffer, CVkResourceDeleter<CVkCommandBuffer>>*, std::vector<std::unique_ptr<CVkCommandBuffer, CVkResourceDeleter<CVkCommandBuffer>>, std::allocator<std::unique_ptr<CVkCommandBuffer, CVkResourceDeleter<CVkCommandBuffer>>>>>, std::unique_ptr<CVkCommandBuffer, CVkResourceDeleter<CVkCommandBuffer>>&&)
 void std::vector<std::unique_ptr<CVkImage, CVkResourceDeleter<CVkImage>>, std::allocator<std::unique_ptr<CVkImage, CVkResourceDeleter<CVkImage>>>>::_M_realloc_insert<std::unique_ptr<CVkImage, CVkResourceDeleter<CVkImage>>>(__gnu_cxx::__normal_iterator<std::unique_ptr<CVkImage, CVkResourceDeleter<CVkImage>>*, std::vector<std::unique_ptr<CVkImage, CVkResourceDeleter<CVkImage>>, std::allocator<std::unique_ptr<CVkImage, CVkResourceDeleter<CVkImage>>>>>, std::unique_ptr<CVkImage, CVkResourceDeleter<CVkImage>>&&)
 void std::vector<unsigned char, std::allocator<unsigned char>>::_M_realloc_insert<unsigned char const&>(__gnu_cxx::__normal_iterator<unsigned char*, std::vector<unsigned char, std::allocator<unsigned char>>>, unsigned char const&)
@@ -8629,6 +9842,7 @@ void std::vector<unsigned int, std::allocator<unsigned int>>::_M_realloc_insert<
 void std::vector<unsigned long, short_alloc<unsigned long, 80ul, 8ul>>::_M_realloc_insert<unsigned long const&>(__gnu_cxx::__normal_iterator<unsigned long*, std::vector<unsigned long, short_alloc<unsigned long, 80ul, 8ul>>>, unsigned long const&)
 void std::vector<unsigned short, std::allocator<unsigned short>>::_M_realloc_insert<unsigned short>(__gnu_cxx::__normal_iterator<unsigned short*, std::vector<unsigned short, std::allocator<unsigned short>>>, unsigned short&&)
 void std::vector<vr::HmdVector2_t, std::allocator<vr::HmdVector2_t>>::_M_realloc_insert<vr::HmdVector2_t const&>(__gnu_cxx::__normal_iterator<vr::HmdVector2_t*, std::vector<vr::HmdVector2_t, std::allocator<vr::HmdVector2_t>>>, vr::HmdVector2_t const&)
+void std::vector<vr::HmdVector2_t, std::allocator<vr::HmdVector2_t>>::_M_realloc_insert<vr::HmdVector2_t>(__gnu_cxx::__normal_iterator<vr::HmdVector2_t*, std::vector<vr::HmdVector2_t, std::allocator<vr::HmdVector2_t>>>, vr::HmdVector2_t&&)
 volkFinalize
 volkGenLoadDevice
 volkGenLoadInstance
@@ -8705,6 +9919,21 @@ vtable for __gnu_cxx::stdio_sync_filebuf<char, std::char_traits<char>>
 vtable for __gnu_cxx::stdio_sync_filebuf<wchar_t, std::char_traits<wchar_t>>
 vtable for facet::CVkTimestampQueryPool<2u>
 vtable for facet::CVkTimestampQueryPoolBase
+vtable for rps::AccessDAGBuilderPass
+vtable for rps::CmdDebugPrintPhase
+vtable for rps::DAGBuilderPass
+vtable for rps::DAGPrintPhase
+vtable for rps::DAGSchedulePass
+vtable for rps::LifetimeAnalysisPhase
+vtable for rps::MemorySchedulePhase
+vtable for rps::NullRuntimeBackend
+vtable for rps::PreProcessPhase
+vtable for rps::RenderGraphPhaseWrapper
+vtable for rps::RuntimeBackend
+vtable for rps::RuntimeDevice
+vtable for rps::ScheduleDebugPrintPhase
+vtable for rps::VKRuntimeBackend
+vtable for rps::VKRuntimeDevice
 vtable for std::_V2::error_category
 vtable for std::__codecvt_abstract_base<char, char, __mbstate_t>
 vtable for std::__codecvt_abstract_base<char16_t, char, __mbstate_t>

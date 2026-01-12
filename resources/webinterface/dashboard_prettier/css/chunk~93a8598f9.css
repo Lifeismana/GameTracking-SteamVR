@@ -1,3 +1,47 @@
+.legacydashboardframecontrols_FrameControlsContainer_27B1e {
+  display: flex;
+  flex-direction: row;
+  background: none;
+  padding: 0;
+  width: 100%;
+  box-sizing: border-box;
+  font-variant-numeric: tabular-nums;
+  transition: opacity .4s ease-out;
+  opacity: 1;
+  flex-wrap: nowrap;
+}
+.legacydashboardframecontrols_FrameControlsContainer_27B1e:not(:hover) {
+  opacity: 0.6;
+}
+.legacydashboardframecontrols_FrameControlsContainer_27B1e
+  .legacydashboardframecontrols_Section_1KwWq {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 0px 10px 0px 10px;
+  background: var(--gamepadui-darker-grey);
+  border-radius: 10px;
+}
+.legacydashboardframecontrols_FrameControlsContainer_27B1e .ButtonControl {
+  background-color: none;
+  background: none;
+  margin: 0;
+  padding: 10px 20px 10px 20px;
+  height: 100%;
+}
+.legacydashboardframecontrols_FrameControlsContainer_27B1e
+  .ButtonControl.Disabled {
+  pointer-events: none;
+  opacity: 0.3;
+}
+.legacydashboardframecontrols_FrameControlsContainer_27B1e
+  .ButtonControl:hover {
+  background: var(--gamepadui-dark-grey);
+}
+.legacydashboardframecontrols_FrameControlsContainer_27B1e
+  .ButtonControl:active {
+  background: var(--gamepadui-grey);
+}
 @keyframes svg_library_AnimationFadeOutIn_1lEwX {
   0% {
     opacity: 1;
@@ -14,6 +58,43 @@
 }
 .svg_library_recordingCircle_2ovZQ {
   animation: svg_library_AnimationFadeOutIn_1lEwX 5s infinite linear;
+}
+@keyframes svg_library_SpinnerSpokeFade_2E-wW {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.1;
+  }
+}
+.svg_library_Spinner_1q9tu > path {
+  animation: svg_library_SpinnerSpokeFade_2E-wW .6s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: both;
+}
+.svg_library_Spinner_1q9tu > path:nth-child(1) {
+  animation-delay: -0.925s;
+}
+.svg_library_Spinner_1q9tu > path:nth-child(2) {
+  animation-delay: -0.85s;
+}
+.svg_library_Spinner_1q9tu > path:nth-child(3) {
+  animation-delay: -0.775s;
+}
+.svg_library_Spinner_1q9tu > path:nth-child(4) {
+  animation-delay: -0.7s;
+}
+.svg_library_Spinner_1q9tu > path:nth-child(5) {
+  animation-delay: -0.625s;
+}
+.svg_library_Spinner_1q9tu > path:nth-child(6) {
+  animation-delay: -0.55s;
+}
+.svg_library_Spinner_1q9tu > path:nth-child(7) {
+  animation-delay: -0.475s;
+}
+.svg_library_Spinner_1q9tu > path:nth-child(8) {
+  animation-delay: -0.4s;
 }
 :root {
   --text-color: #dee2e5;
@@ -627,6 +708,7 @@ div.BindingCalloutModifierIcon {
   border-radius: var(--power-menu-panel-border-radius);
   background: var(--settings-control-background);
   border: solid 2px rgba(218, 232, 251, 0.25);
+  max-height: 30vh;
 }
 .PowerMenuPanel .PowerMenuButton {
   --inner-padding: 20px;
@@ -851,7 +933,6 @@ div.BindingCalloutModifierIcon {
   flex-grow: 1;
 }
 .GrabHandleBar {
-  width: 700px;
   height: 10px;
   background-color: var(--dashboard-control-bar-button-color-b);
   border-radius: 20px;
@@ -877,10 +958,6 @@ div.BindingCalloutModifierIcon {
 .ResizeHandleButton {
   pointer-events: all;
   padding: 30px;
-}
-.ResizeHandleButtonMini {
-  pointer-events: all;
-  padding: 8px;
 }
 .ResizeHandleButton:hover .ResizeHandleBar {
   background-color: #fff;
@@ -1459,18 +1536,18 @@ div.BindingCalloutModifierIcon {
   pointer-events: none;
   margin: auto;
 }
+.DashboardMain .Icon {
+  color: #fff;
+}
 .DashboardMain .Icon > img {
   width: 100%;
   height: 100%;
+}
+.ControlBarButton .Icon > img,
+.ControlBarButton .Icon > svg,
+.ControlBarButton img.Icon,
+.ControlBarButton svg.Icon {
   opacity: 0.6;
-}
-.DashboardMain .ControlBar .ControlBarButton.FillImage {
-  background-image: var(--image-url);
-  background-size: 110%;
-  background-position: center;
-}
-.DashboardMain .ControlBar .ControlBarButton.FillImage > img {
-  display: none;
 }
 .DashboardMain .ControlBar .ControlBarGroup.Small .ControlBarButton {
   --control-bar-button-size: 85px;
@@ -1705,7 +1782,7 @@ div.BindingCalloutModifierIcon {
 .DashboardMain .ControlBarTray .ScrollPanel::-webkit-scrollbar {
   display: none;
 }
-.DashboardMain .ControlBarButtonTooltip {
+.ControlBarButtonTooltip {
   display: inline-block;
   width: fit-content;
   background: rgba(0, 0, 0, 0.85);
@@ -1713,41 +1790,6 @@ div.BindingCalloutModifierIcon {
   border-radius: 9001px;
   padding: .3em 1em;
   font-size: 1rem;
-}
-.TransparentOverlayControlBar {
-  display: flex;
-  flex-direction: row;
-  background: none;
-  padding: 0;
-  width: 100%;
-  box-sizing: border-box;
-  font-variant-numeric: tabular-nums;
-  transition: opacity .4s ease-out;
-  opacity: 1;
-}
-.TransparentOverlayControlBar:not(:hover) {
-  opacity: 0.6;
-}
-.TransparentOverlayControlBar .Section {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  margin: 0px 10px 0px 10px;
-  background: var(--gamepadui-darker-grey);
-  border-radius: 10px;
-}
-.TransparentOverlayControlBar .ButtonControl {
-  background-color: none;
-  background: none;
-  margin: 0;
-  padding: 10px 20px 10px 20px;
-  height: 100%;
-}
-.TransparentOverlayControlBar .ButtonControl:hover {
-  background: var(--gamepadui-dark-grey);
-}
-.TransparentOverlayControlBar .ButtonControl:active {
-  background: var(--gamepadui-grey);
 }
 .DashboardMain .StatusBar {
   display: flex;
@@ -1817,9 +1859,13 @@ div.BindingCalloutModifierIcon {
   width: 100%;
   height: 100%;
 }
-.DashboardMain .StatusBar .Title .Icon img.Shadow {
-  top: 2px;
-  opacity: 0.8;
+.DashboardMain .StatusBar .Title .Icon {
+  --filter-drop-shadow: drop-shadow(0px 2px 0px rgba(0, 0, 0, 0.8));
+  filter: var(--filter-drop-shadow);
+}
+.DashboardMain .StatusBar .Title .Icon.BlackToWhite {
+  filter: invert(100%) sepia(40%) saturate(2%) hue-rotate(196deg)
+    brightness(105%) contrast(101%) var(--filter-drop-shadow);
 }
 .DashboardMain .StatusBar .Title .NoWrapText {
   overflow: hidden;
@@ -2351,4 +2397,4 @@ div.BindingCalloutModifierIcon {
   border-radius: 50%;
   z-index: 0;
 }
-/*# sourceMappingURL=file:///home/buildbot/buildslave/steamvr_rel_hotfix_npm_vrwebui/build/public/runtime/resources/webinterface/dashboard/sourcemaps/css/chunk~93a8598f9.css.map*/
+/*# sourceMappingURL=file:///home/buildbot/buildslave/steamvr_rel_npm_vrwebui/build/public/runtime/resources/webinterface/dashboard/sourcemaps/css/chunk~93a8598f9.css.map*/

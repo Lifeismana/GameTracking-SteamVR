@@ -723,7 +723,6 @@ $\t?contains@QRectF@@QEBA_NAEBVQPointF@@@Z
 /vivehub
 /vivepro2
 /wmr
-00:42:27
 0123456789ABCDEF
 0:00
 0x%016llx
@@ -732,6 +731,7 @@ $\t?contains@QRectF@@QEBA_NAEBVQPointF@@@Z
 1!?widget@QTabWidget@@QEBAPEAVQWidget@@H@Z
 100%
 1000
+12:41:04
 1DoAcquireData()
 1DoInit()
 1DoParseString( const QString & )
@@ -3740,7 +3740,6 @@ D\t?boundingRect@QRegion@@QEBA?AVQRect@@XZ
 D\v?endsWith@QByteArray@@QEBA_ND@Z
 DashboardVisibleTime
 DebuggerEnabled
-Dec 22 2025
 Default Playback Audio Devices: %s, %s (Comm)\n
 Default Record Audio Device: %s, %s (Comm)\n
 Delay done\n
@@ -4575,7 +4574,7 @@ IVRDriverLog_001
 IVRDriverManager_001
 IVRExtendedDisplay_001
 IVRInputInternal_002
-IVRInput_010
+IVRInput_011
 IVRMailbox_002
 IVRNotificationsInternal_001
 IVRNotifications_002
@@ -4595,7 +4594,7 @@ IVRServerInternal_XXX
 IVRSettingsInternal_001
 IVRSettings_003
 IVRSystemLayerInternal_XXX
-IVRSystem_023
+IVRSystem_024
 IVRTrackedCameraInternal_XXX
 IVRVirtualDisplay_
 IVRVirtualDisplay_001
@@ -4662,6 +4661,7 @@ JN?metaObject@QMovie@@UEBAPEBUQMetaObject@@XZ
 J\n?drawForeground@QGraphicsScene@@MEAAXPEAVQPainter@@AEBVQRectF@@@Z
 J\r?indexOf@QString@@QEBAHVQChar@@HW4CaseSensitivity@Qt@@@Z
 J\t?brush@QPainter@@QEBAAEBVQBrush@@XZ
+Jan  9 2026
 JoysticksFound
 K32EnumProcessModules
 K32EnumProcesses
@@ -4966,6 +4966,7 @@ NOTPRESENT
 NRFSerLib_GetBaseStationWirelessInterface
 NULL
 NVAPI_DEBUG_DISPLAY_MODES
+NVAPI_SKIP_UNLOAD
 NVIDIA
 N\f?freeNodeAndRebalance@QMapDataBase@@QEAAXPEAUQMapNodeBase@@@Z
 NaggingTextContent
@@ -5048,6 +5049,7 @@ NvAPI: DirectModeGetDisplayModes reported more than 1024 entries!\n
 NvAPI: DirectModeGetDisplayModes trying again with older API!\n
 NvAPI: EnumerateDirectModeDisplays reported more than 1024 entries for mode: %d!\n
 NvAPI: Failed to get direct display modes! Error='%s' NumModes=%d\n
+NvAPI: Skipping NvAPI_Unload
 O?normalized@QVector2D@@QEBA?AV1@XZ
 O?paintEngine@QPixmap@@UEBAPEAVQPaintEngine@@XZ
 O?pen@QPainter@@QEBAAEBVQPen@@XZ
@@ -5934,10 +5936,9 @@ R?scaledSize@QMovie@@QEAA?AVQSize@@XZ
 R?screens@QGuiApplication@@SA?AV?$QList@PEAVQScreen@@@@XZ
 REFRESH
 RPCRT4.dll
-RSDSc
+RSDS
 RSSI: %1\n
 R\v?find@QPlainTextEdit@@QEAA_NAEBVQString@@V?$QFlags@W4FindFlag@QTextDocument@@@@@Z
-R\vpt
 Radio
 Radio Version:
 Radio Version: \t%1 / %2 %3 %4\n
@@ -7919,17 +7920,17 @@ bugreport.zip
 bugsub
 bulgarian
 c ?updateEditorGeometry@QStyledItemDelegate@@UEBAXPEAVQWidget@@AEBVQStyleOptionViewItem@@AEBVQModelIndex@@@Z
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\vrmailbox.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\vrserviceclient.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\ipcwin32.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\logbuffer.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\strtools_public.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\vrcrash.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\vripcsharedstate.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\overlay_viewer\d3drenderer_shared.cpp:414
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\overlay_viewer\d3drenderer_shared.cpp:421
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrmonitor\Retail\win64\2017\vrmonitor.pdb
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrmonitor\imagetool.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrmailbox.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrserviceclient.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\ipcwin32.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\logbuffer.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\strtools_public.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\vrcrash.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\vripcsharedstate.cpp
+c:\buildslave\steamvr_rel_win64\build\src\overlay_viewer\d3drenderer_shared.cpp:414
+c:\buildslave\steamvr_rel_win64\build\src\overlay_viewer\d3drenderer_shared.cpp:421
+c:\buildslave\steamvr_rel_win64\build\src\vrmonitor\Retail\win64\2017\vrmonitor.pdb
+c:\buildslave\steamvr_rel_win64\build\src\vrmonitor\imagetool.cpp
 cR?reset@QTransform@@QEAAXXZ
 c\n?dropEvent@QListWidget@@UEAAXPEAVQDropEvent@@@Z
 c\v?finished@QDialog@@QEAAXH@Z

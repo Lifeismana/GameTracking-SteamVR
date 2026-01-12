@@ -189,17 +189,7 @@
 			"scope": "application"
 		},
 		{
-			"name": "/actions/quickmouse_click/in/ActivateQuickMouse",
-			"type": "boolean",
-			"scope": "application"
-		},
-		{
-			"name": "/actions/quickmouse_trigger/in/ActivateQuickMouse",
-			"type": "boolean",
-			"scope": "application"
-		},
-		{
-			"name": "/actions/quickmouse_touch/in/ActivateQuickMouse",
+			"name": "/actions/quickmouse/in/ActivateQuickMouse",
 			"type": "boolean",
 			"scope": "application"
 		},
@@ -298,15 +288,7 @@
 			"usage": "leftright"
 		},
 		{
-			"name": "/actions/quickmouse_click",
-			"usage": "leftright"
-		},
-		{
-			"name": "/actions/quickmouse_trigger",
-			"usage": "leftright"
-		},
-		{
-			"name": "/actions/quickmouse_touch",
+			"name": "/actions/quickmouse",
 			"usage": "leftright"
 		},
 		{

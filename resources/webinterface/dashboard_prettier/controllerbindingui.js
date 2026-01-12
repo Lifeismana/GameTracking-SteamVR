@@ -1,84 +1,88 @@
-var CLSTAMP = "10334134";
+var CLSTAMP = "10355840";
 (() => {
   "use strict";
   var e,
     t = {
       6090: (e, t, o) => {
         o.d(t, {
-          $: () => B.$,
-          $Z: () => A.$Z,
-          Ay: () => I,
+          $: () => I.$,
+          $Z: () => B.$Z,
+          Ay: () => E,
           CU: () => i.CU,
           Ci: () => S.C,
           Cw: () => l.C,
-          Ee: () => A.Ee,
+          Ee: () => B.Ee,
           Em: () => c.Em,
           Fb: () => i.Fb,
           Fi: () => _.Fi,
           GM: () => p.GM,
-          GQ: () => A.GQ,
-          Gz: () => A.Gz,
-          HW: () => A.HW,
+          GQ: () => B.GQ,
+          Gz: () => B.Gz,
+          HW: () => B.HW,
           I0: () => n.I0,
           IS: () => a.I,
           JZ: () => i.JZ,
-          KI: () => B.KI,
+          KI: () => I.KI,
           Ld: () => i.Ld,
+          M9: () => n.M9,
           MQ: () => _.MQ,
-          MV: () => A.MV,
+          MV: () => B.MV,
           N: () => r.e,
           N1: () => g.N,
-          NB: () => A.NB,
+          NB: () => B.NB,
           NH: () => i.NH,
           O5: () => h.O,
           O6: () => i.O6,
-          OH: () => A.OH,
+          OH: () => B.OH,
           Oi: () => _.Oi,
           QB: () => i.QB,
-          QR: () => B.QR,
-          R$: () => A.R$,
-          Rk: () => A.Rk,
+          QR: () => I.QR,
+          R$: () => B.R$,
+          Rk: () => B.Rk,
           Se: () => i.Se,
           Uj: () => i.Uj,
           Vh: () => u.V,
-          Xl: () => A.Xl,
+          Xl: () => B.Xl,
           Y4: () => s.Y,
           Zk: () => _.Zk,
-          _1: () => A._1,
+          _1: () => B._1,
           _h: () => _._h,
           _n: () => n._n,
           aX: () => u.a,
-          b: () => A.b,
-          b$: () => b.b,
-          cB: () => f.L,
+          b: () => B.b,
+          b$: () => v.b,
+          b4: () => C.b,
+          cB: () => b.L,
           dL: () => d.d,
           e_: () => i.e_,
-          en: () => B.en,
-          fD: () => B.fD,
-          gN: () => A.gN,
-          k2: () => A.k2,
-          kG: () => A.kG,
-          ku: () => A.ku,
+          en: () => I.en,
+          fD: () => I.fD,
+          gN: () => B.gN,
+          k2: () => B.k2,
+          kG: () => B.kG,
+          ku: () => B.ku,
           lq: () => m.l,
+          m$: () => C.m,
           mX: () => n.mX,
-          mo: () => A.mo,
-          mu: () => A.mu,
+          mo: () => B.mo,
+          mu: () => B.mu,
           nX: () => c.nX,
-          ne: () => A.ne,
-          nq: () => y.n,
+          ne: () => B.ne,
+          nq: () => f.n,
+          o3: () => _.o3,
           oN: () => i.oN,
           o_: () => i.o_,
           p0: () => i.p0,
-          pM: () => A.pM,
+          pM: () => B.pM,
           pg: () => n.pg,
+          q5: () => i.q5,
           qF: () => i.qF,
           rF: () => a.H,
-          rx: () => A.rx,
-          sJ: () => C.$,
-          sk: () => n.sk,
+          rx: () => B.rx,
+          sJ: () => y.$,
           sn: () => n.sn,
           tx: () => i.tx,
-          uC: () => v.u,
+          uC: () => A.u,
           vx: () => i.vx,
         });
         var n = o(2824),
@@ -96,14 +100,15 @@ var CLSTAMP = "10334134";
           g = o(5227),
           S = (o(10), o(1808)),
           _ = o(7019),
-          C = (o(1988), o(2527), o(9864), o(4189), o(322), o(1977), o(6417)),
-          y = o(2303),
-          f = o(8715),
-          b = (o(4397), o(5459)),
-          v = o(8472),
-          A = (o(1184), o(3725)),
-          B = o(4367);
-        const I = VRHTML;
+          C = (o(1988), o(2527), o(9864)),
+          y = (o(4189), o(322), o(1977), o(6417)),
+          f = o(2303),
+          b = o(8715),
+          v = (o(4397), o(5459)),
+          A = o(8472),
+          B = (o(1184), o(3725)),
+          I = o(4367);
+        const E = VRHTML;
       },
       3725: (e, t, o) => {
         var n, i, l, r;
@@ -120,7 +125,7 @@ var CLSTAMP = "10334134";
         o.d(t, {
           $Z: () => p,
           Ee: () => A,
-          GQ: () => T,
+          GQ: () => P,
           Gz: () => d,
           HW: () => C,
           MV: () => l,
@@ -176,13 +181,14 @@ var CLSTAMP = "10334134";
         let a = 0,
           d = 0,
           c = 4294967295;
-        var p, h, u, m, g, S, _, C, y, f, b, v, A, B, I, E, w, O, M, k, N, P, T;
+        var p, h, u, m, g, S, _, C, y, f, b, v, A, B, I, E, w, O, M, k, N, T, P;
         !(function (e) {
           (e[(e.Invalid = 0)] = "Invalid"),
             (e[(e.RecenterCountdown = 1)] = "RecenterCountdown"),
             (e[(e.FloorAdjustExisting = 2)] = "FloorAdjustExisting"),
             (e[(e.RoomSetupFloor = 3)] = "RoomSetupFloor"),
-            (e[(e.ClearRoomSetup = 4)] = "ClearRoomSetup");
+            (e[(e.ClearRoomSetup = 4)] = "ClearRoomSetup"),
+            (e[(e.RoomSetupFull = 5)] = "RoomSetupFull");
         })(p || (p = {})),
           (function (e) {
             (e[(e.None = 0)] = "None"),
@@ -391,14 +397,14 @@ var CLSTAMP = "10334134";
               (e[(e.Error_PlayAreaInvalid = 203)] = "Error_PlayAreaInvalid"),
               (e[(e.Error_CollisionBoundsInvalid = 204)] =
                 "Error_CollisionBoundsInvalid");
-          })(P || (P = {})),
+          })(T || (T = {})),
           (function (e) {
             (e[(e.Small = 0)] = "Small"),
               (e[(e.Medium = 1)] = "Medium"),
               (e[(e.Large = 2)] = "Large"),
               (e[(e.Gigantic = 3)] = "Gigantic"),
               (e[(e.Standing = 4)] = "Standing");
-          })(T || (T = {}));
+          })(P || (P = {}));
       },
       5802: (e, t, o) => {
         o.d(t, {
@@ -6371,7 +6377,7 @@ var CLSTAMP = "10334134";
           }
         };
         N = (0, n.Cg)([r.PA], N);
-        let P = class extends v {
+        let T = class extends v {
           constructor(e) {
             super(e),
               (this.defaultProperties = [
@@ -6576,9 +6582,9 @@ var CLSTAMP = "10334134";
             );
           }
         };
-        (0, n.Cg)([h.o], P.prototype, "OnActionChanged", null),
-          (P = (0, n.Cg)([r.PA], P));
-        let T = class extends v {
+        (0, n.Cg)([h.o], T.prototype, "OnActionChanged", null),
+          (T = (0, n.Cg)([r.PA], T));
+        let P = class extends v {
           constructor(e) {
             super(e);
             let t = this.props.controllerWatcher[0];
@@ -6853,12 +6859,12 @@ var CLSTAMP = "10334134";
             );
           }
         };
-        (0, n.Cg)([h.o], T.prototype, "OnTrackpadInvertModeChanged", null),
-          (0, n.Cg)([h.o], T.prototype, "OnTrackpadInvertModeReset", null),
-          (0, n.Cg)([h.o], T.prototype, "OnClickActionChanged", null),
-          (0, n.Cg)([h.o], T.prototype, "OnTouchActionChanged", null),
-          (0, n.Cg)([h.o], T.prototype, "OnPositionActionChanged", null),
-          (T = (0, n.Cg)([r.PA], T));
+        (0, n.Cg)([h.o], P.prototype, "OnTrackpadInvertModeChanged", null),
+          (0, n.Cg)([h.o], P.prototype, "OnTrackpadInvertModeReset", null),
+          (0, n.Cg)([h.o], P.prototype, "OnClickActionChanged", null),
+          (0, n.Cg)([h.o], P.prototype, "OnTouchActionChanged", null),
+          (0, n.Cg)([h.o], P.prototype, "OnPositionActionChanged", null),
+          (P = (0, n.Cg)([r.PA], P));
         let R = class extends v {
           constructor(e) {
             super(e),
@@ -8637,7 +8643,7 @@ var CLSTAMP = "10334134";
         };
         (0, n.Cg)([h.o], x.prototype, "OnGrabActionChanged", null),
           (x = (0, n.Cg)([r.PA], x));
-        let G = class extends v {
+        let V = class extends v {
           constructor(e) {
             super(e),
               (this.defaultProperties = [
@@ -8849,9 +8855,9 @@ var CLSTAMP = "10334134";
             );
           }
         };
-        (0, n.Cg)([h.o], G.prototype, "OnValueActionChanged", null),
-          (G = (0, n.Cg)([r.PA], G));
-        var V = o(9118);
+        (0, n.Cg)([h.o], V.prototype, "OnValueActionChanged", null),
+          (V = (0, n.Cg)([r.PA], V));
+        var G = o(9118);
         let H = class extends i.Component {
           constructor(e) {
             super(e), (this.state = { bInEditMode: !1 });
@@ -8896,7 +8902,7 @@ var CLSTAMP = "10334134";
                 return i.createElement(O, Object.assign({}, e));
               case "trackpad":
               case "joystick":
-                return i.createElement(T, Object.assign({}, e));
+                return i.createElement(P, Object.assign({}, e));
               case "complex_button":
                 return i.createElement(k, Object.assign({}, e));
               case "button":
@@ -8904,7 +8910,7 @@ var CLSTAMP = "10334134";
               case "dpad":
               case "dpad_touch":
               case "dpad_click":
-                return i.createElement(P, Object.assign({}, e));
+                return i.createElement(T, Object.assign({}, e));
               case "scroll":
               case "trackpad_scroll":
                 return i.createElement(R, Object.assign({}, e));
@@ -8915,7 +8921,7 @@ var CLSTAMP = "10334134";
               case "grab":
                 return i.createElement(x, Object.assign({}, e));
               case "scalar_constant":
-                return i.createElement(G, Object.assign({}, e));
+                return i.createElement(V, Object.assign({}, e));
               case "static_bool":
                 return i.createElement(F, Object.assign({}, e));
               default:
@@ -9124,7 +9130,7 @@ var CLSTAMP = "10334134";
                 return null;
               if (
                 "InputValueVisibility_AvailableButHidden" == n.visibility &&
-                !V.W.ShowHiddenInputs
+                !G.W.ShowHiddenInputs
               )
                 return null;
               if (null != n.side)
@@ -10923,7 +10929,7 @@ var CLSTAMP = "10334134";
                 "div",
                 {
                   className:
-                    "PageTitleBar" + (V.W.IsSteamAvailable ? "" : " NoSteam"),
+                    "PageTitleBar" + (G.W.IsSteamAvailable ? "" : " NoSteam"),
                 },
                 i.createElement(
                   "div",
@@ -10989,7 +10995,7 @@ var CLSTAMP = "10334134";
                       ),
                     ),
                 ),
-                !V.W.IsSteamAvailable &&
+                !G.W.IsSteamAvailable &&
                   i.createElement(
                     "div",
                     { className: "NoSteamWarning" },
@@ -12956,11 +12962,11 @@ var CLSTAMP = "10334134";
                       },
                       (0, c.we)("#BindingUI_ImportThisBinding"),
                     ),
-                  V.W.BDevMode &&
+                  G.W.BDevMode &&
                     i.createElement("div", {
                       className: "BindingManageButtonsHR",
                     }),
-                  V.W.BDevMode &&
+                  G.W.BDevMode &&
                     i.createElement(
                       "div",
                       {
@@ -12969,7 +12975,7 @@ var CLSTAMP = "10334134";
                       },
                       r,
                     ),
-                  V.W.BDevMode &&
+                  G.W.BDevMode &&
                     i.createElement(
                       "div",
                       {
@@ -12978,7 +12984,7 @@ var CLSTAMP = "10334134";
                       },
                       (0, c.we)("#BindingUI_ExportBindingFile"),
                     ),
-                  V.W.BDevMode &&
+                  G.W.BDevMode &&
                     !p.B$.SelectedBindingIsLegacy &&
                     !p.B$.SelectedBindingIsOpenXR &&
                     i.createElement(
@@ -13670,7 +13676,7 @@ var CLSTAMP = "10334134";
           CreateControllerTypeDropdown() {
             let e = [],
               t = ee.s.IsAppAllowedPrivateInputs(p.B$.SelectedApp);
-            V.W.ControllerTypes.forEach((o) => {
+            G.W.ControllerTypes.forEach((o) => {
               (t || "InputValueVisibility_SteamVRInternal" != o.visibility) &&
                 "InputValueVisibility_None" != o.visibility &&
                 e.push(o);
@@ -13681,7 +13687,7 @@ var CLSTAMP = "10334134";
               o.push(
                 new C(
                   e.controller_type,
-                  V.W.LocalizeDriverString(e.resource_root, e.controller_type),
+                  G.W.LocalizeDriverString(e.resource_root, e.controller_type),
                 ),
               );
             });
@@ -13713,7 +13719,7 @@ var CLSTAMP = "10334134";
                   vecOptions: o,
                   sModalClass: "PinTop",
                   sValueSelectedItem: r ? r.controller_type : "",
-                  sLocalizedSelectedItem: V.W.LocalizeControllerString(
+                  sLocalizedSelectedItem: G.W.LocalizeControllerString(
                     r,
                     r ? r.controller_type : "",
                   ),
@@ -13991,8 +13997,8 @@ var CLSTAMP = "10334134";
           (0, n.Cg)([h.o], ke.prototype, "OnShowMoreApps", null),
           (ke = (0, n.Cg)([r.PA], ke));
         var Ne = o(4493),
-          Pe = o(6138),
-          Te = o(7379);
+          Te = o(6138),
+          Pe = o(7379);
         const Re = ({ quaternion: e, width: t, height: o }) => {
           const n = (0, i.useRef)(null),
             l = (0, i.useCallback)(
@@ -14092,14 +14098,14 @@ var CLSTAMP = "10334134";
               (e[(e.Haptic = 5)] = "Haptic");
           })(Fe || (Fe = {}));
         let xe = 16777216;
-        function Ge(e) {
+        function Ve(e) {
           return "number" != typeof e
             ? "-"
             : e >= xe && e <= 33554431
               ? (0, c.we)("#InputDebugger_Priority_Overlay", e - xe)
               : e.toFixed(0);
         }
-        class Ve extends i.Component {
+        class Ge extends i.Component {
           constructor(e) {
             super(e),
               (this.m_mailbox = new a._n()),
@@ -14254,7 +14260,7 @@ var CLSTAMP = "10334134";
                   i.createElement(
                     "div",
                     { className: "Label ActionSetPriority" },
-                    Ge(t.priority),
+                    Ve(t.priority),
                   ),
                   i.createElement(
                     "div",
@@ -14488,7 +14494,7 @@ var CLSTAMP = "10334134";
                 l = null !== (n = e.binding) && void 0 !== n ? n : "-";
               return (
                 "number" == typeof o &&
-                  (l += " " + (0, c.we)("#InputDebugger_PriorityValue", Ge(o))),
+                  (l += " " + (0, c.we)("#InputDebugger_PriorityValue", Ve(o))),
                 i.createElement(
                   "div",
                   {
@@ -14753,7 +14759,7 @@ var CLSTAMP = "10334134";
             for (let o of e)
               t.push(
                 i.createElement(
-                  Pe.$,
+                  Te.$,
                   {
                     onClick: () => {
                       this.SetActionSet(o);
@@ -14849,7 +14855,7 @@ var CLSTAMP = "10334134";
                 i.createElement(
                   "div",
                   { className: "Label" },
-                  (0, c.we)("#InputDebugger_PriorityValue", Ge(n)),
+                  (0, c.we)("#InputDebugger_PriorityValue", Ve(n)),
                 ),
               e.suppressedByPriority &&
                 i.createElement(
@@ -14908,7 +14914,7 @@ var CLSTAMP = "10334134";
                   ),
                 ),
               i.createElement(
-                Te.a,
+                Pe.a,
                 {
                   onDismissRequested: () => {
                     this.ShowFilterState(null);
@@ -14992,9 +14998,9 @@ var CLSTAMP = "10334134";
             );
           }
         }
-        (0, n.Cg)([h.o], Ve.prototype, "OnSelectApp", null),
-          (0, n.Cg)([h.o], Ve.prototype, "OnInputFrame", null),
-          (0, n.Cg)([h.o], Ve.prototype, "SetActionSet", null);
+        (0, n.Cg)([h.o], Ge.prototype, "OnSelectApp", null),
+          (0, n.Cg)([h.o], Ge.prototype, "OnInputFrame", null),
+          (0, n.Cg)([h.o], Ge.prototype, "SetActionSet", null);
         var He = o(8108),
           Ue = o(1333);
         let We = class extends i.Component {
@@ -15005,7 +15011,7 @@ var CLSTAMP = "10334134";
             u.n.Loading
               ? document.body.classList.add("Loading")
               : document.body.classList.remove("Loading"),
-              V.W.IsSteamAvailable
+              G.W.IsSteamAvailable
                 ? document.body.classList.remove("SteamUnavailable")
                 : document.body.classList.add("SteamUnavailable");
             return (
@@ -15021,7 +15027,7 @@ var CLSTAMP = "10334134";
                   }),
                 u.n.GetUIState == u.k.List && i.createElement(Oe, null),
                 u.n.GetUIState == u.k.AppSelect && i.createElement(ke, null),
-                u.n.GetUIState == u.k.Debugger && i.createElement(Ve, null),
+                u.n.GetUIState == u.k.Debugger && i.createElement(Ge, null),
                 u.n.GetUIState == u.k.None && i.createElement("div", null),
                 i.createElement(
                   s.A,
@@ -15058,7 +15064,7 @@ var CLSTAMP = "10334134";
         )
           .then(() => He.J.Init())
           .then(() => ee.s.Init())
-          .then(() => V.W.Init())
+          .then(() => G.W.Init())
           .then(() => Ue.HR.Init(!1))
           .then(() => p.B$.Init())
           .then(() =>
@@ -15075,6 +15081,11 @@ var CLSTAMP = "10334134";
                     VRHTML.VROverlay.SetFlag(
                       VRHTML.VROverlay.ThisOverlayHandle(),
                       a.NB.NoDashboardTab,
+                      !0,
+                    ),
+                    VRHTML.VROverlay.SetFlag(
+                      VRHTML.VROverlay.ThisOverlayHandle(),
+                      a.NB.EnableControlBarKeyboard,
                       !0,
                     ),
                     VRHTML.VROverlay.SetFlag(
@@ -15199,4 +15210,4 @@ var CLSTAMP = "10334134";
     n(6313),
   );
   i = n.O(i);
-})(); //# sourceMappingURL=file:///home/buildbot/buildslave/steamvr_rel_hotfix_npm_vrwebui/build/public/runtime/resources/webinterface/dashboard/sourcemaps/controllerbindingui.js.map
+})(); //# sourceMappingURL=file:///home/buildbot/buildslave/steamvr_rel_npm_vrwebui/build/public/runtime/resources/webinterface/dashboard/sourcemaps/controllerbindingui.js.map

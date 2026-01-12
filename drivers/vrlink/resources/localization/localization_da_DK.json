@@ -2,7 +2,6 @@
 	"language_tag": "da_DK",
 	"Settings_Title": "Steam Link",
 	"Setting_automaticStreamFormatWidth": "Indkodet videostørrelse",
-	"Setting_streamFormatWidth": "Indkodet videostørrelse (px)",
 	"Setting_automaticBandwidth": "Tilsigtet båndbredde",
 	"Setting_targetBandwidth": "Tilsigtet båndbredde (Mbps)",
 	"Setting_10bit": "Brug 10 bit-dybdekodning",

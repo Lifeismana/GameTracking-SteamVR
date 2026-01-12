@@ -5,6 +5,7 @@
 %02X
 %2.2X
 %8.8X
+%hai
 %s setup error from %s\n
 %s: ( %d ): ReadFile failed! (%s)\n
 %s: ( %d ): Unknown pipe type.\n
@@ -467,7 +468,7 @@ RANDOM
 RAW:
 READ -H %4.4X
 RESET
-RSDS9
+RSDSvT
 RaiseException
 ReadFile
 ReadPipeResponse
@@ -726,7 +727,7 @@ bin_file
 blank
 bootloader
 buffer error
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\vivelinklib\Retail\win64\2017\vivelinklib.pdb
+c:\buildslave\steamvr_rel_win64\build\src\vivelinklib\Retail\win64\2017\vivelinklib.pdb
 calloc
 cntrl
 dat_file

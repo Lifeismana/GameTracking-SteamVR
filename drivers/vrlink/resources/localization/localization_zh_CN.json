@@ -2,7 +2,6 @@
 	"language_tag": "zh_CN",
 	"Settings_Title": "Steam 流式应用",
 	"Setting_automaticStreamFormatWidth": "已编码视频的大小",
-	"Setting_streamFormatWidth": "已编码视频的大小（像素）",
 	"Setting_automaticBandwidth": "目标带宽",
 	"Setting_targetBandwidth": "目标带宽（Mbps）",
 	"Setting_10bit": "使用 10 位深度编码",

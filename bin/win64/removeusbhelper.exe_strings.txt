@@ -14,6 +14,7 @@
 %s contains an empty %s
 %s is not a valid api layer json. Missing %s member.
 ' is not a number.
+*iai
 , last executing in 
 -1e+9999
 -Infinity
@@ -461,9 +462,9 @@ bad allocation
 bad array new length
 bad conversion
 bin/vrclient_x64.dll
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\app_containers.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\logbuffer.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\removeusbhelper\Retail\win64\2017\removeusbhelper.pdb
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\app_containers.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\logbuffer.cpp
+c:\buildslave\steamvr_rel_win64\build\src\removeusbhelper\Retail\win64\2017\removeusbhelper.pdb
 collectComments
 config
 deque<T> too long

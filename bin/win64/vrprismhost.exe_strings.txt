@@ -49,7 +49,7 @@
 .?AV?$wstring_convert@V?$codecvt_utf8_utf16@_W$0BAPPPP@$0A@@std@@_WV?$allocator@_W@2@V?$allocator@D@2@@std@@
 .?AVCNonCopyable@@
 .?AVCPrismHost@@
-.?AVCPrismPoseProvider@?A0xbb7f8539@@
+.?AVCPrismPoseProvider@?A0x6c9f2405@@
 .?AVCVRMailbox@@
 .?AVCVRMailboxBase@@
 .?AVCharReader@Json@@
@@ -148,7 +148,7 @@
 /user/waist
 /user/wrist/left
 /user/wrist/right
-00:42:27
+12:41:04
 1e+9999
 8c8f13b1-60eb-4b6a-a433-de86104115ac
 8d8f13b1-60eb-4b6a-a433-de86104115ac
@@ -262,7 +262,6 @@ CreateFileMappingA
 CreateFileW
 CreateMutexA
 CreateWellKnownSid
-Dec 22 2025
 DeleteCriticalSection
 DeleteFileW
 Detail
@@ -352,7 +351,7 @@ IVRDriverInputInternal_XXX
 IVRDriverManager_001
 IVRExtendedDisplay_001
 IVRInputInternal_002
-IVRInput_010
+IVRInput_011
 IVRMailbox_002
 IVRNotificationsInternal_001
 IVROverlayInternal_XXX
@@ -368,7 +367,7 @@ IVRServerInternal_XXX
 IVRSettingsInternal_001
 IVRSettings_003
 IVRSystemLayerInternal_XXX
-IVRSystem_023
+IVRSystem_024
 IVRTrackedCameraInternal_XXX
 Infinity
 Info
@@ -388,6 +387,7 @@ InvalidPoseProvider
 IsDebuggerPresent
 IsProcessorFeaturePresent
 IsValidSid
+Jan  9 2026
 KERNEL32.dll
 Kernel32.dll
 LeaveCriticalSection
@@ -454,12 +454,13 @@ PRISM_Stop
 Parse failed for JSON message in mailbox %s: %s\n
 Parsing of JSON string "%s" failed: %s\n
 PeekNamedPipe
+PhysicalDeviceMissingFeatures
 Predicting: %fms
 Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
 RPCRT4.dll
-RSDS
+RSDSE
 RaiseException
 ReadFile
 ReadFile failed on %s after event was signaled because %s\n
@@ -909,16 +910,16 @@ bad conversion
 bg_bg
 brazilian
 bulgarian
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\vrmailbox.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\ipcwin32.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\logbuffer.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\strtools_public.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\threadwatchdog.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\vrcrash.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\vripcsharedstate.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrprismhost\Retail\win64\2017\vrprismhost.pdb
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrprismhost\prismhost.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrprismhost\vrprismhost.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrmailbox.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\ipcwin32.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\logbuffer.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\strtools_public.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\threadwatchdog.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\vrcrash.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\vripcsharedstate.cpp
+c:\buildslave\steamvr_rel_win64\build\src\vrprismhost\Retail\win64\2017\vrprismhost.pdb
+c:\buildslave\steamvr_rel_win64\build\src\vrprismhost\prismhost.cpp
+c:\buildslave\steamvr_rel_win64\build\src\vrprismhost\vrprismhost.cpp
 client
 collectComments
 command

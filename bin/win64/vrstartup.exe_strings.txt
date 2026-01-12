@@ -132,8 +132,9 @@
 /user/waist
 /user/wrist/left
 /user/wrist/right
-00:42:27
+12:41:04
 1e+9999
+8jai
 : exception thrown in JSON library
 <unknown>
 ================================================================================================\n
@@ -220,7 +221,6 @@ CreateDirectoryW
 CreateEventW
 CreateFileW
 CreateProcessA
-Dec 22 2025
 DeleteCriticalSection
 DeleteFileW
 Detail
@@ -323,7 +323,7 @@ IVRDriverLog_001
 IVRDriverManager_001
 IVRExtendedDisplay_001
 IVRInputInternal_002
-IVRInput_010
+IVRInput_011
 IVRMailbox_002
 IVRNotificationsInternal_001
 IVROverlayInternal_XXX
@@ -341,7 +341,7 @@ IVRServerInternal_XXX
 IVRSettingsInternal_001
 IVRSettings_003
 IVRSystemLayerInternal_XXX
-IVRSystem_023
+IVRSystem_024
 IVRTrackedCameraInternal_XXX
 IVRVirtualDisplay_
 IVRVirtualDisplay_001
@@ -361,6 +361,7 @@ Invalid Arguments
 Invalid Interface (106)
 IsDebuggerPresent
 IsProcessorFeaturePresent
+Jan  9 2026
 K32EnumProcesses
 K32GetProcessImageFileNameA
 KERNEL32.dll
@@ -820,9 +821,9 @@ bad conversion
 bg_bg
 brazilian
 bulgarian
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\logbuffer.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\vrcrash.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrstartup\Retail\win64\2017\vrstartup.pdb
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\logbuffer.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\vrcrash.cpp
+c:\buildslave\steamvr_rel_win64\build\src\vrstartup\Retail\win64\2017\vrstartup.pdb
 camera
 collectComments
 collisionBounds

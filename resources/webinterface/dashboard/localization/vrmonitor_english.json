@@ -94,6 +94,7 @@
 	"Settings_SectionTitle_Audio": "Audio",
 	"Settings_SectionTitle_Video": "Video",
 	"Settings_SectionTitle_Camera": "Camera",
+	"Settings_SectionTitle_EyeTracking": "Eye Tracking",
 	"Settings_SectionTitle_Bluetooth": "Bluetooth",
 	"Settings_SectionTitle_Power": "Power",
 	"Settings_SectionTitle_StartupShutdown": "Startup / Shutdown",
@@ -353,6 +354,13 @@
 	"CameraTestStatus_Evaluating": "Checking",
 	"CameraTestStatus_Success": "Success",
 	"CameraTestStatus_Failure": "Failed",
+
+	"Settings_EyeTracking_Enable": "Enable Eye Tracking",
+	"Settings_EyeTracking_SystemAccessibility_Header": "System and Accessibility Options",
+	"Settings_EyeTracking_PupilCompensation": "Pupil Perspective Compensation",
+	"Settings_EyeTracking_PupilCompensation_Description": "Accounts for changes in IPD and per-eye perspective caused by looking around.",
+	"Settings_EyeTracking_GazeAwareReprojection": "Gaze-Aware Reprojection",
+	"Settings_EyeTracking_GazeAwareReprojection_Description": "Uses eye tracking to reduce judder for VR content running at less than full framerate.",
 
 	"Settings_PlayArea_Size": "Configured size",
 

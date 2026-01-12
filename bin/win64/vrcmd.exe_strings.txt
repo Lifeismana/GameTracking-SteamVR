@@ -569,7 +569,7 @@ IVRDriverInputInternal_XXX
 IVRDriverManager_001
 IVRExtendedDisplay_001
 IVRInputInternal_002
-IVRInput_010
+IVRInput_011
 IVRMailbox_002
 IVRNotificationsInternal_001
 IVRNotifications_002
@@ -587,7 +587,7 @@ IVRSettingsInternal_001
 IVRSettings_003
 IVRSpatialAnchors_001
 IVRSystemLayerInternal_XXX
-IVRSystem_023
+IVRSystem_024
 IVRTrackedCameraInternal_XXX
 Infinity
 InitializeAcl
@@ -857,6 +857,7 @@ Prop_WillDriftInYaw_Bool
 Property container - found and recovered a locked container at generation %x\n
 PropertyContainer: High lock acquisition counters: sp:%u yd:%u re:%u\n
 PropertyContainerCreation
+PytP
 QueryPerformanceCounter
 QueryPerformanceFrequency
 RSDS
@@ -1411,12 +1412,12 @@ bad conversion
 bg_bg
 brazilian
 bulgarian
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\ilockablepropertycontainer.h
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\propertymanager.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\ipcpipe.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\ipcwin32.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\strtools_public.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrcmd\Retail\win64\2017\vrcmd.pdb
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\ilockablepropertycontainer.h
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\propertymanager.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\ipcpipe.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\ipcwin32.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\strtools_public.cpp
+c:\buildslave\steamvr_rel_win64\build\src\vrcmd\Retail\win64\2017\vrcmd.pdb
 client
 collectComments
 compositor_stats
@@ -1628,3 +1629,4 @@ working
 world
 zh_cn
 zh_tw
+~iai

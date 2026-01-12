@@ -1,25 +1,79 @@
-var CLSTAMP = "10334134";
+var CLSTAMP = "10355840";
 (self.webpackChunkvrwebui = self.webpackChunkvrwebui || []).push([
   [906, 458],
   {
     9864: (e, t, r) => {
-      r(6540);
+      r.d(t, { b: () => o, m: () => a });
       var o,
-        i = r(3496);
+        i = r(6540),
+        n = r(3496);
       !(function (e) {
-        (e[(e.LockedToParent = 0)] = "LockedToParent"),
-          (e[(e.LockedToWorld = 1)] = "LockedToWorld");
+        (e[(e.Parent = 0)] = "Parent"), (e[(e.World = 1)] = "World");
       })(o || (o = {}));
-      i._J;
+      class a extends n._J {
+        constructor(e) {
+          super(e);
+        }
+        internalRender() {
+          var e;
+          const t = null === (e = this.props.enabled) || void 0 === e || e,
+            r = this.props.rotation_start_angle_threshold
+              ? (this.props.rotation_start_angle_threshold * Math.PI) / 180
+              : null,
+            o = this.props.rotation_stop_angle_threshold
+              ? (this.props.rotation_stop_angle_threshold * Math.PI) / 180
+              : null,
+            n = this.props.rotation_ease_out_angle_threshold
+              ? (this.props.rotation_ease_out_angle_threshold * Math.PI) / 180
+              : null,
+            a = this.props.rotation_min_angular_velocity
+              ? (this.props.rotation_min_angular_velocity * Math.PI) / 180
+              : null,
+            s = this.props.rotation_max_angular_velocity
+              ? (this.props.rotation_max_angular_velocity * Math.PI) / 180
+              : null;
+          return i.createElement(
+            "vsg-elastic-head-transform",
+            {
+              "rotation-start-angle-threshold": r,
+              "rotation-stop-angle-threshold": o,
+              "rotation-ease-in-time": this.props.rotation_ease_in_time,
+              "rotation-ease-in-power": this.props.rotation_ease_in_power,
+              "rotation-ease-out-angle-threshold": n,
+              "rotation-ease-out-power": this.props.rotation_ease_out_power,
+              "rotation-min-angular-velocity": a,
+              "rotation-max-angular-velocity": s,
+              "translation-start-distance-threshold":
+                this.props.translation_start_distance_threshold,
+              "translation-stop-distance-threshold":
+                this.props.translation_stop_distance_threshold,
+              "translation-ease-in-time": this.props.translation_ease_in_time,
+              "translation-ease-in-power": this.props.translation_ease_in_power,
+              "translation-ease-out-distance-threshold":
+                this.props.translation_ease_out_distance_threshold,
+              "translation-ease-out-power":
+                this.props.translation_ease_out_power,
+              "translation-velocity": this.props.translation_velocity,
+              enabled: t,
+              "lock-to-horizon": this.props.lock_to_horizon,
+              "translation-parent": this.props.translation_parent,
+              "rotation-translation-change-together":
+                this.props.rotation_translation_change_together,
+            },
+            this.props.children,
+          );
+        }
+      }
     },
     7019: (e, t, r) => {
       r.d(t, {
         Fi: () => a,
-        Lr: () => g,
+        Lr: () => y,
         MQ: () => n,
         Oi: () => o,
-        Zk: () => v,
+        Zk: () => D,
         _h: () => i,
+        o3: () => s,
       });
       var o,
         i,
@@ -30,13 +84,15 @@ var CLSTAMP = "10334134";
         _ = r(6540),
         p = r(3496),
         d = r(5178),
-        u = r(3236),
-        c = r(5723),
-        m = r(7600);
-      function h(e) {
+        c = r(3236),
+        h = r(5723),
+        u = r(7600),
+        m = r(7727),
+        g = r(1651);
+      function v(e) {
         if (e) return [e.u, e.v];
       }
-      function g(e) {
+      function y(e) {
         switch (e) {
           case o.TopLeft:
             return { x: -1, y: 1 };
@@ -91,11 +147,13 @@ var CLSTAMP = "10334134";
             (e[(e.Disabled = 1)] = "Disabled"),
             (e[(e.Low = 2)] = "Low");
         })(s || (s = {}));
-      class v extends p._J {
+      class D extends p._J {
         constructor(e) {
           super(e),
             (this.m_Rect = { x: 0, y: 0, width: 0, height: 0 }),
             (this.m_nEmbeddedIndex = null),
+            (this.m_LastDOMContentSize = void 0),
+            (this.m_DOMContentSizeChangedCallbacks = new g.l()),
             (this.m_resizeObserver = null),
             (this.m_UVsMin = void 0),
             (this.m_UVsMax = void 0),
@@ -126,21 +184,30 @@ var CLSTAMP = "10334134";
             );
           super.setBuildNodeOverride(this.buildNode);
         }
+        get lastDOMContentSize() {
+          return this.m_LastDOMContentSize;
+        }
+        RegisterForDOMContentSizeChangedCallback(e) {
+          return this.m_DOMContentSizeChangedCallbacks.Register(e);
+        }
         isExternal() {
           return !!this.props.overlay_key;
+        }
+        getExternalOverlayKey() {
+          return this.props.overlay_key;
         }
         getEmbeddedIndex() {
           return this.m_nEmbeddedIndex;
         }
         componentWillReceiveProps_UNSAFE() {
-          v.s_bPanelsAreDirty = !0;
+          D.s_bPanelsAreDirty = !0;
         }
         componentDidMount() {
           super.componentDidMount(),
             (this.m_resizeObserver = new ResizeObserver(this.onResizeObserved)),
             this.m_resizeObserver.observe(this.getCurrentRootElement()),
             (this.m_nEmbeddedIndex = d.O.Current().addEmbeddedPanelUVs(this)),
-            (v.s_bPanelsAreDirty = !0),
+            (D.s_bPanelsAreDirty = !0),
             this.getCurrentRootElement().addEventListener(
               "mousedown",
               this.onPanelMouseDown,
@@ -148,7 +215,14 @@ var CLSTAMP = "10334134";
             this.forceUpdate();
         }
         onResizeObserved(e, t) {
-          d.O.Current().forceLayoutUpdate();
+          d.O.Current().forceLayoutUpdate(),
+            (this.m_LastDOMContentSize = {
+              clientWidth: e[0].contentRect.width,
+              clientHeight: e[0].contentRect.height,
+            }),
+            this.m_DOMContentSizeChangedCallbacks.Dispatch(
+              this.m_LastDOMContentSize,
+            );
         }
         componentWillUnmount() {
           this.m_resizeObserver &&
@@ -159,8 +233,9 @@ var CLSTAMP = "10334134";
               "mousedown",
               this.onPanelMouseDown,
             ),
-            (v.s_bPanelsAreDirty = !0),
+            (D.s_bPanelsAreDirty = !0),
             d.O.Current().removeEmbeddedPanelUVs(this),
+            this.m_DOMContentSizeChangedCallbacks.ClearAllCallbacks(),
             super.componentWillUnmount();
         }
         onPanelMouseDown() {
@@ -223,7 +298,7 @@ var CLSTAMP = "10334134";
             : a.Visible;
         }
         buildNode(e, t) {
-          var r, o, i, n, s, l, _;
+          var r, o, i, n, s, l, _, c;
           if (
             !(
               this.visibility == a.Visible ||
@@ -231,83 +306,96 @@ var CLSTAMP = "10334134";
             )
           )
             return [e, null];
-          let d = Object.assign(Object.assign({}, e), {
+          let u = Object.assign(Object.assign({}, e), {
               bInsideReparentedPanel: !1,
               currentPanel: this,
             }),
-            u = this.createSgNode(t),
-            m = { x: 0, y: 0 };
-          m =
+            m = this.createSgNode(t),
+            g = { x: 0, y: 0 };
+          g =
             "object" == typeof this.props.origin
               ? (0, p.PG)(this.props.origin, { x: 0, y: 0 })
-              : g(this.props.origin);
-          const v = this.props.overlay_key,
-            y = (0, c.w5)();
+              : y(this.props.origin);
+          const D = this.props.overlay_key,
+            S = (0, h.w5)();
+          D && D.length > 0
+            ? (m.properties.key = D)
+            : S
+              ? (m.properties.key = S)
+              : (m.properties.overlay_handle = (0, h.X4)()),
+            (m.properties.uv_min =
+              null !== (r = v(this.m_UVsMin)) && void 0 !== r ? r : void 0),
+            (m.properties.uv_max =
+              null !== (o = v(this.m_UVsMax)) && void 0 !== o ? o : void 0);
+          const B = 1 / d.O.Current().m_fCurrentScale;
+          let C = this.props.frame_resize_scale_factor;
           return (
-            v && v.length > 0
-              ? (u.properties.key = v)
-              : y
-                ? (u.properties.key = y)
-                : (u.properties.overlay_handle = (0, c.X4)()),
-            (u.properties.uv_min =
-              null !== (r = h(this.m_UVsMin)) && void 0 !== r ? r : void 0),
-            (u.properties.uv_max =
-              null !== (o = h(this.m_UVsMax)) && void 0 !== o ? o : void 0),
-            (u.properties.width =
+            this.props.is_frame_page_main_panel && (C = null != C ? C : 1),
+            (m.properties.width =
               null !== (i = this.props.width) && void 0 !== i ? i : void 0),
-            (u.properties.height =
+            (m.properties.height =
               null !== (n = this.props.height) && void 0 !== n ? n : void 0),
-            (u.properties["scale-index"] =
+            (m.properties["scale-index"] =
               null !== (s = this.props.scale_index) && void 0 !== s ? s : 0),
-            (u.properties["min-width"] =
+            (m.properties["min-width"] =
               null !== (l = this.props.min_width) && void 0 !== l ? l : void 0),
-            (u.properties["target-width-anchor-id"] = (0, c.bl)(
+            (m.properties["target-width-anchor-id"] = (0, h.bl)(
               this.props.target_width_anchor_id,
             )),
-            (u.properties["target-dpi-panel-id"] = (0, c.bl)(
+            (m.properties["target-dpi-panel-id"] = (0, h.bl)(
               this.props.target_dpi_panel_id,
             )),
-            (u.properties["target-dpi-multiplier"] =
+            (m.properties["target-dpi-multiplier"] =
               this.props.target_dpi_multiplier),
-            (u.properties["meters-per-pixel"] = this.props.meters_per_pixel),
-            (u.properties["subview-parent-panel-key"] =
+            (m.properties["meters-per-pixel"] =
+              null != this.props.meters_per_pixel
+                ? this.props.meters_per_pixel * B
+                : void 0),
+            (m.properties["subview-parent-panel-key"] =
               this.props.subview_parent_panel_key),
-            (u.properties.curvature = this.props.curvature),
-            (u.properties["curvature-origin-id"] = (0, c.bl)(
+            (m.properties.curvature = this.props.curvature),
+            (m.properties["curvature-origin-id"] = (0, h.bl)(
               this.props.curvature_origin_id,
             )),
-            (u.properties.spherical = this.props.spherical),
-            (u.properties.interactive = this.props.interactive),
-            (u.properties.scrollable = this.props.scrollable),
-            (u.properties.undocked = this.props.undocked),
-            (u.properties.modal = this.props.modal),
-            (u.properties["requires-laser"] = this.props.requires_laser),
-            (u.properties["allow-input-capture"] =
+            (m.properties.spherical = this.props.spherical),
+            (m.properties.interactive = this.props.interactive),
+            (m.properties.scrollable = this.props.scrollable),
+            (m.properties.undocked = this.props.undocked),
+            (m.properties.modal = this.props.modal),
+            (m.properties["requires-laser"] = this.props.requires_laser),
+            (m.properties["allow-input-capture"] =
               this.props.allow_input_capture),
-            (u.properties["lasermouse-filtering"] =
+            (m.properties["lasermouse-filtering"] =
               null === (_ = this.props) || void 0 === _
                 ? void 0
                 : _.lasermouse_filtering),
-            (u.properties["hide-laser-when-clicking"] =
+            (m.properties["hide-laser-when-clicking"] =
               this.props.hide_lasermouse_when_clicking),
-            (u.properties["make-overlays-interactive-if-visible"] =
+            (m.properties["hide-laser-intersection"] =
+              null === (c = this.props) || void 0 === c
+                ? void 0
+                : c.hide_laser_intersection),
+            (m.properties["make-overlays-interactive-if-visible"] =
               this.props.make_overlays_interactive_if_visible),
-            (u.properties["is-grab-handle"] = this.props.is_grab_handle),
-            (u.properties["embedded-uv-index"] = this.m_nEmbeddedIndex),
-            (u.properties.origin = (0, p.Hm)(m)),
-            (u.properties.debug_name = this.props.debug_name),
-            (u.properties.sampler = this.props.sampler),
-            (u.properties.reflect = this.props.reflect),
-            (u.properties.stereoscopy = this.props.stereoscopy),
-            (u.properties.rendermodel_component_device_index =
+            (m.properties["is-grab-handle"] = this.props.is_grab_handle),
+            (m.properties["embedded-uv-index"] = this.m_nEmbeddedIndex),
+            (m.properties.origin = (0, p.Hm)(g)),
+            (m.properties.debug_name = this.props.debug_name),
+            (m.properties.sampler = this.props.sampler),
+            (m.properties.reflect = this.props.reflect),
+            (m.properties.stereoscopy = this.props.stereoscopy),
+            (m.properties.rendermodel_component_device_index =
               this.props.rendermodel_component_device_index),
-            (u.properties.rendermodel_component_name =
+            (m.properties.rendermodel_component_name =
               this.props.rendermodel_component_name),
-            (u.properties["texture-id"] = (0, c.bl)(this.props.texture_id)),
-            (u.properties["sort-order"] = this.props.sort_order),
-            (u.properties["sort-depth-bias"] = this.props.sort_depth_bias),
-            (u.properties.visibility = this.visibility),
-            [d, u]
+            (m.properties["texture-id"] = (0, h.bl)(this.props.texture_id)),
+            (m.properties["sort-order"] = this.props.sort_order),
+            (m.properties["sort-depth-bias"] = this.props.sort_depth_bias),
+            (m.properties.visibility = this.visibility),
+            (m.properties["frame-resize-scale-factor"] = C),
+            (m.properties["main-panel-for-frame-page"] =
+              this.props.is_frame_page_main_panel),
+            [u, m]
           );
         }
         scaleLocalUVToGlobal(e) {
@@ -339,15 +427,28 @@ var CLSTAMP = "10334134";
           return _.createElement(
             "vsg-node",
             { style: { display: this.visibility == a.Hidden ? "none" : null } },
-            _.createElement(m.tH, null, this.props.children),
+            _.createElement(u.tH, null, this.props.children),
+            this.props.is_frame_page_main_panel &&
+              _.createElement(S, { panel: this, panelID: this.getID() }),
           );
         }
       }
-      (v.s_bPanelsAreDirty = !1),
-        (0, l.Cg)([u.o], v.prototype, "onResizeObserved", null),
-        (0, l.Cg)([u.o], v.prototype, "onPanelMouseDown", null),
-        (0, l.Cg)([u.o], v.prototype, "onWindowMouseUp", null),
-        (0, l.Cg)([u.o], v.prototype, "buildNode", null);
+      function S(e) {
+        const { panel: t, panelID: r } = e,
+          { page: o } = (0, m.N)();
+        return (
+          _.useEffect(() => {
+            const { Unset: e } = null == o ? void 0 : o.SetMainPanel(t);
+            return e;
+          }, [o, t, r]),
+          null
+        );
+      }
+      (D.s_bPanelsAreDirty = !1),
+        (0, l.Cg)([c.o], D.prototype, "onResizeObserved", null),
+        (0, l.Cg)([c.o], D.prototype, "onPanelMouseDown", null),
+        (0, l.Cg)([c.o], D.prototype, "onWindowMouseUp", null),
+        (0, l.Cg)([c.o], D.prototype, "buildNode", null);
     },
     3361: (e, t, r) => {
       r.d(t, { d: () => s });
@@ -420,6 +521,7 @@ var CLSTAMP = "10334134";
               "parent-path": this.props.parent_path,
               "parent-origin": o[this.props.parent_origin],
               "parent-id": this.props.parent_id,
+              "frame-resize-scale-factor": this.props.frame_resize_scale_factor,
             },
             this.props.children,
           );
@@ -505,6 +607,7 @@ var CLSTAMP = "10334134";
             (e[(e.AllowCameraToggle_Bool = 1055)] = "AllowCameraToggle_Bool"),
             (e[(e.AllowLightSourceFrequency_Bool = 1056)] =
               "AllowLightSourceFrequency_Bool"),
+            (e[(e.HasEyeTracker_Bool = 1060)] = "HasEyeTracker_Bool"),
             (e[(e.ReportsTimeSinceVSync_Bool = 2e3)] =
               "ReportsTimeSinceVSync_Bool"),
             (e[(e.SecondsFromVsyncToPhotons_Float = 2001)] =
@@ -839,4 +942,4 @@ var CLSTAMP = "10334134";
         })(p || (p = {}));
     },
   },
-]); //# sourceMappingURL=file:///home/buildbot/buildslave/steamvr_rel_hotfix_npm_vrwebui/build/public/runtime/resources/webinterface/dashboard/sourcemaps/chunk~edeac9135.js.map
+]); //# sourceMappingURL=file:///home/buildbot/buildslave/steamvr_rel_npm_vrwebui/build/public/runtime/resources/webinterface/dashboard/sourcemaps/chunk~edeac9135.js.map

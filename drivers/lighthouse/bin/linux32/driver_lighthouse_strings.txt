@@ -2764,7 +2764,6 @@ $3br
 0123456789
 0123456789ABCDEF
 0123456789abcdef
-08:42:14
 0x%08llx
 1.2.5
 1/2/4/8/16-bit only
@@ -2828,6 +2827,7 @@ $3br
 2).google.protobuf.FileOptions.OptimizeMode:
 2*.google.protobuf.FieldDescriptorProto.Type
 2+.google.protobuf.FieldDescriptorProto.Label
+20:22:42
 20BinaryBlendPoseMaker
 20CLighthouseHmdDriver
 20CVRTrackedDevice_004
@@ -5393,7 +5393,6 @@ DXGI2::WaitForVBlank(void*)
 Data Invalid
 Data len %d\r\n
 DebugDriverLog(char const*, ...)
-Dec 22 2025
 December
 DeclareCurrentThreadIsMainThread
 Default
@@ -6265,7 +6264,7 @@ IVRExtendedDisplay_001
 IVRIOBuffer_002
 IVRIPCResourceManagerClient_003
 IVRInputInternal_002
-IVRInput_010
+IVRInput_011
 IVRMCStore_001
 IVRMailbox_002
 IVRNotificationsInternal_001
@@ -6285,7 +6284,7 @@ IVRSettingsInternal_001
 IVRSettings_001
 IVRSettings_003
 IVRSystemLayerInternal_XXX
-IVRSystem_023
+IVRSystem_024
 IVRTrackedCameraInternal_XXX
 IVRVirtualDisplay001_Version
 IVRVirtualDisplay_
@@ -6459,6 +6458,7 @@ JSON
 JSON Chunk end does not aligned to a 4-byte boundary.
 JSON Update
 JSON string too short.\n
+Jan  9 2026
 January
 Json::BuiltStyledStreamWriter::BuiltStyledStreamWriter(std::string const&, Json::CommentStyle::Enum, std::string const&, std::string const&, std::string const&, bool, unsigned int)
 Json::BuiltStyledStreamWriter::BuiltStyledStreamWriter(std::string const&, Json::CommentStyle::Enum, std::string const&, std::string const&, std::string const&, bool, unsigned int) (.cold)
@@ -22605,6 +22605,7 @@ vortex::ComputeHmdModelDetail(char const*, char const*)
 vortex::ComputeHmdModelDetail(char const*, char const*)::'lambda'()::operator()() const::encrypted
 vortex::ComputeHmdModelDetail(char const*, char const*)::'lambda0'()::operator()() const::encrypted
 vortex::ComputeHmdModelDetail(char const*, char const*)::'lambda1'()::operator()() const::encrypted
+vortex::ComputeHmdModelDetail(char const*, char const*)::'lambda10'()::operator()() const::encrypted
 vortex::ComputeHmdModelDetail(char const*, char const*)::'lambda2'()::operator()() const::encrypted
 vortex::ComputeHmdModelDetail(char const*, char const*)::'lambda3'()::operator()() const::encrypted
 vortex::ComputeHmdModelDetail(char const*, char const*)::'lambda4'()::operator()() const::encrypted

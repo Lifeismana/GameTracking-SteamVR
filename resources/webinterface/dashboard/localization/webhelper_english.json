@@ -42,6 +42,7 @@
 	"WakingUpBaseStations" : "Waking up base stations...",
 
 	"/input/joystick" : "Joystick",
+	"/input/thumbstick" : "Thumbstick",
 	"/input/trackpad" : "Trackpad",
 	"/input/trigger" : "Trigger",
 	"/input/grip" : "Grip",
@@ -52,6 +53,13 @@
 	"/input/b" : "B Button",
 	"/input/x" : "X Button",
 	"/input/y" : "Y Button",
+	"/input/dpad_up" : "Dpad Up Button",
+	"/input/dpad_down" : "Dpad Down Button",
+	"/input/dpad_left" : "Dpad Left Button",
+	"/input/dpad_right" : "Dpad Right Button",
+	"/input/bumper" : "Bumper Button",
+	"/input/menu" : "Menu Button",
+	"/input/view" : "View Button",
 
 	"/pose/raw" : "Raw",
 	"/pose/base" : "Base",

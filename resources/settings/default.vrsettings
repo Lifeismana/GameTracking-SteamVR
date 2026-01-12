@@ -245,7 +245,6 @@
         "allowVRGamepadUI": true,
         "allowVRGamepadUIViaGamescope": false,
         "steamMatchesHMDFramerate": true,
-        "quickMouseMode": 0,
         "grabHandleAcceleration": 1.0
     },
     "driver_imu": {

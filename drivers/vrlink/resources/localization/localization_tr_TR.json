@@ -2,7 +2,6 @@
 	"language_tag": "tr_TR",
 	"Settings_Title": "Steam Link",
 	"Setting_automaticStreamFormatWidth": "Kodlanmış Video Boyutu",
-	"Setting_streamFormatWidth": "Kodlanmış Video Boyutu (piksel)",
 	"Setting_automaticBandwidth": "Hedef Bant Genişliği",
 	"Setting_targetBandwidth": "Hedef Bant Genişliği (Mbps)",
 	"Setting_10bit": "10 bit derinlik kodlaması kullan",

@@ -559,6 +559,7 @@ GetTraceEnableLevel
 GetTraceLoggerHandle
 GetVersionExW
 Global Gain:\t\t\t
+Igai
 Index: 
 InitOnceExecuteOnce
 InitializeConditionVariable
@@ -766,7 +767,7 @@ bad locale name
 bad message
 blank
 broken pipe
-c:\buildslave\steamvr_rel_hotfix_win32\build\src\vrcamera_api\Retail\win32\2017\vrcamera_api.pdb
+c:\buildslave\steamvr_rel_win32\build\src\vrcamera_api\Retail\win32\2017\vrcamera_api.pdb
 calloc
 cntrl
 connection aborted

@@ -2,7 +2,6 @@
 	"language_tag": "zh_TW",
 	"Settings_Title": "Steam 串流",
 	"Setting_automaticStreamFormatWidth": "已編碼影片尺寸",
-	"Setting_streamFormatWidth": "已編碼影片尺寸（像素）",
 	"Setting_automaticBandwidth": "目標頻寬",
 	"Setting_targetBandwidth": "目標頻寬（Mbps）",
 	"Setting_10bit": "使用 10 位元深度編碼",

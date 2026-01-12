@@ -132,7 +132,7 @@
 /user/waist
 /user/wrist/left
 /user/wrist/right
-00:42:27
+12:41:04
 1e+9999
 8c8f13b1-60eb-4b6a-a433-de86104115ac
 8d8f13b1-60eb-4b6a-a433-de86104115ac
@@ -232,7 +232,6 @@ DBT_DEVNODES_CHANGED: A device has been added to or removed from the system.\n
 DBT_QUERYCHANGECONFIG: Permission is requested to change the current configuration (dock or undock).\n
 DBT_USERDEFINED: The meaning of this message is user-defined.\n
 Dashboard Main
-Dec 22 2025
 DefWindowProcA
 DeleteCriticalSection
 DeleteFileW
@@ -315,7 +314,7 @@ IVRDriverInputInternal_XXX
 IVRDriverManager_001
 IVRExtendedDisplay_001
 IVRInputInternal_002
-IVRInput_010
+IVRInput_011
 IVRMailbox_002
 IVRNotificationsInternal_001
 IVROverlayInternal_XXX
@@ -332,7 +331,7 @@ IVRServerInternal_XXX
 IVRSettingsInternal_001
 IVRSettings_003
 IVRSystemLayerInternal_XXX
-IVRSystem_023
+IVRSystem_024
 IVRTrackedCameraInternal_XXX
 Infinity
 Info
@@ -341,6 +340,7 @@ InitializeCriticalSectionAndSpinCount
 InitializeSListHead
 IsDebuggerPresent
 IsProcessorFeaturePresent
+Jan  9 2026
 KERNEL32.dll
 LeaveCriticalSection
 Line %d, Column %d
@@ -524,6 +524,7 @@ Windows message pump.
 WriteFile
 [Steam] Steam INIT.\n
 [Steam] Steam SHUTDOWN.\n
+[Steam] SteamAPI_InitEx failed w/ %d: %s\n
 [Steam] SteamAppID mismatch: got %d, expected %d\n
 _Cnd_destroy
 _Cnd_destroy_in_situ
@@ -609,18 +610,18 @@ bad conversion
 bg_bg
 brazilian
 bulgarian
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\steam_worker_thread.cpp:171
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\logbuffer.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\threadwatchdog.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\vrcrash.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrdashboard\Retail\win64\2017\vrdashboard.pdb
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrdashboard\dashboard.cpp:131
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrdashboard\dashboard.cpp:157
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrdashboard\dashboard.cpp:30
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrdashboard\dashboard.cpp:89
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrdashboard\vrdashboard_main.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrdashboard\vrdashboard_main.cpp:816
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrdashboard\vrdashboard_main.cpp:823
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\steam_worker_thread.cpp:171
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\logbuffer.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\threadwatchdog.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\vrcrash.cpp
+c:\buildslave\steamvr_rel_win64\build\src\vrdashboard\Retail\win64\2017\vrdashboard.pdb
+c:\buildslave\steamvr_rel_win64\build\src\vrdashboard\dashboard.cpp:131
+c:\buildslave\steamvr_rel_win64\build\src\vrdashboard\dashboard.cpp:157
+c:\buildslave\steamvr_rel_win64\build\src\vrdashboard\dashboard.cpp:30
+c:\buildslave\steamvr_rel_win64\build\src\vrdashboard\dashboard.cpp:89
+c:\buildslave\steamvr_rel_win64\build\src\vrdashboard\vrdashboard_main.cpp
+c:\buildslave\steamvr_rel_win64\build\src\vrdashboard\vrdashboard_main.cpp:816
+c:\buildslave\steamvr_rel_win64\build\src\vrdashboard\vrdashboard_main.cpp:823
 collectComments
 config
 cs_cz

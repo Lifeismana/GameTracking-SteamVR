@@ -2,7 +2,6 @@
 	"language_tag": "de_DE",
 	"Settings_Title": "Steam Link",
 	"Setting_automaticStreamFormatWidth": "Kodierte Videogröße",
-	"Setting_streamFormatWidth": "Kodierte Videogröße (Px)",
 	"Setting_automaticBandwidth": "Zielbandbreite",
 	"Setting_targetBandwidth": "Zielbandbreite (Mbit/s)",
 	"Setting_10bit": "10-Bit-Tiefenkodierung verwenden",

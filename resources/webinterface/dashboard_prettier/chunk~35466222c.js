@@ -1,14 +1,14 @@
-var CLSTAMP = "10334134";
+var CLSTAMP = "10355840";
 (self.webpackChunkvrwebui = self.webpackChunkvrwebui || []).push([
   [537],
   {
     2824: (e, t, s) => {
       s.d(t, {
-        I0: () => h,
+        I0: () => c,
+        M9: () => h,
         _n: () => m,
         mX: () => a,
         pg: () => r,
-        sk: () => c,
         sn: () => l,
       });
       var n = s(1635),
@@ -17,8 +17,8 @@ var CLSTAMP = "10334134";
       const r = "vrcompositor_systemlayer",
         a = "input_server",
         l = "desktop_store",
-        h = "binding_callouts/main",
-        c = "driver_hmd";
+        h = "systemui_dashboard_private",
+        c = "binding_callouts/main";
       class m {
         constructor() {
           (this.m_wsWebSocketToServer = void 0),
@@ -336,4 +336,4 @@ var CLSTAMP = "10334134";
       window.LocalizationManager = a;
     },
   },
-]); //# sourceMappingURL=file:///home/buildbot/buildslave/steamvr_rel_hotfix_npm_vrwebui/build/public/runtime/resources/webinterface/dashboard/sourcemaps/chunk~35466222c.js.map
+]); //# sourceMappingURL=file:///home/buildbot/buildslave/steamvr_rel_npm_vrwebui/build/public/runtime/resources/webinterface/dashboard/sourcemaps/chunk~35466222c.js.map

@@ -785,10 +785,10 @@ $3br
 /data/src/vortexlib/distortion.cpp
 /data/src/vortexlib/generated_proto/lighthouse_debug.pb.cc
 /data/src/vortexlib/prismdirect.cpp
-/data/src/vortexlib/prismdirect.cpp:503
-/data/src/vortexlib/prismdirect.cpp:538
-/data/src/vortexlib/prismdirect.cpp:591
-/data/src/vortexlib/prismdirect.cpp:607
+/data/src/vortexlib/prismdirect.cpp:504
+/data/src/vortexlib/prismdirect.cpp:539
+/data/src/vortexlib/prismdirect.cpp:592
+/data/src/vortexlib/prismdirect.cpp:608
 /data/src/vortexlib/stereo_setup.cpp
 /data/src/vortexlib/thread.cpp
 /delivery_rate
@@ -888,7 +888,6 @@ $3br
 0123456789
 0123456789ABCDEF
 0123456789abcdef
-08:42:34
 0x%08llx
 1.2.5
 1/2/4/8/16-bit only
@@ -960,6 +959,7 @@ $3br
 2).google.protobuf.FileOptions.OptimizeMode:
 2*.google.protobuf.FieldDescriptorProto.Type
 2+.google.protobuf.FieldDescriptorProto.Label
+20:23:13
 20BinaryBlendPoseMaker
 20CLighthouseHmdDriver
 20CVRFramerateGovernor
@@ -3808,7 +3808,6 @@ Data len %d\r\n
 DebugDriverLog(char const*, ...)
 DebugMessengerCallback
 DebugMessengerCallback(VkDebugUtilsMessageSeverityFlagBitsEXT, unsigned int, VkDebugUtilsMessengerCallbackDataEXT const*, void*)
-Dec 22 2025
 December
 DeclareCurrentThreadIsMainThread
 Default
@@ -4703,7 +4702,7 @@ IVRExtendedDisplay_001
 IVRIOBuffer_002
 IVRIPCResourceManagerClient_003
 IVRInputInternal_002
-IVRInput_010
+IVRInput_011
 IVRMCStore_001
 IVRMailbox_002
 IVRNotificationsInternal_001
@@ -4723,7 +4722,7 @@ IVRSettingsInternal_001
 IVRSettings_001
 IVRSettings_003
 IVRSystemLayerInternal_XXX
-IVRSystem_023
+IVRSystem_024
 IVRTrackedCameraInternal_XXX
 IVRVirtualDisplay001_Version
 IVRVirtualDisplay_
@@ -4906,6 +4905,7 @@ JSON
 JSON Chunk end does not aligned to a 4-byte boundary.
 JSON Update
 JSON string too short.\n
+Jan  9 2026
 January
 Json::BuiltStyledStreamWriter::BuiltStyledStreamWriter(std::string const&, Json::CommentStyle::Enum, std::string const&, std::string const&, std::string const&, bool, unsigned int)
 Json::BuiltStyledStreamWriter::BuiltStyledStreamWriter(std::string const&, Json::CommentStyle::Enum, std::string const&, std::string const&, std::string const&, bool, unsigned int) (.cold)
@@ -7144,6 +7144,7 @@ VK_EXT_debug_utils
 VK_EXT_global_priority
 VK_EXT_queue_family_foreign
 VK_EXT_validation_features
+VK_KHR_dynamic_rendering
 VK_KHR_external_memory_fd
 VK_KHR_external_semaphore_fd
 VK_KHR_present_id
@@ -22252,6 +22253,7 @@ vortex::ComputeHmdModelDetail(char const*, char const*)
 vortex::ComputeHmdModelDetail(char const*, char const*)::'lambda'()::operator()() const::encrypted
 vortex::ComputeHmdModelDetail(char const*, char const*)::'lambda0'()::operator()() const::encrypted
 vortex::ComputeHmdModelDetail(char const*, char const*)::'lambda1'()::operator()() const::encrypted
+vortex::ComputeHmdModelDetail(char const*, char const*)::'lambda10'()::operator()() const::encrypted
 vortex::ComputeHmdModelDetail(char const*, char const*)::'lambda2'()::operator()() const::encrypted
 vortex::ComputeHmdModelDetail(char const*, char const*)::'lambda3'()::operator()() const::encrypted
 vortex::ComputeHmdModelDetail(char const*, char const*)::'lambda4'()::operator()() const::encrypted
