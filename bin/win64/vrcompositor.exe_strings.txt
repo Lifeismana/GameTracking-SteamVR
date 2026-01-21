@@ -942,8 +942,8 @@ $@NVAPI_SKIP_UNLOAD
 1.2.5
 1.5.26
 1/2/4/8/16-bit only
+10:06:16
 123456789
-12:41:04
 1A26b
 1e+9999
 1wsHp
@@ -1835,6 +1835,7 @@ Failed to create panel mask constant buffer!\n
 Failed to create panorama sampler state!\n
 Failed to create primary constant buffer!\n
 Failed to create rasterizer state for backface culling!\n
+Failed to create rasterizer state for frontface culling!\n
 Failed to create rasterizer state!\n
 Failed to create readable scene texture index constant buffer!\n
 Failed to create render target view!\n
@@ -2341,7 +2342,7 @@ IsWindowVisible
 IsWorkstationLocked: WTSQuerySessionInformation returned unknown level %d\n
 It shouldn't be possible to add a child twice because of move semantics
 JFIF
-Jan  9 2026
+Jan 21 2026
 Journaling %s\n
 KERNEL32.dll
 Kernel32.dll
@@ -2374,7 +2375,6 @@ LoadDriver called when there is no user config directory set\n
 LoadGCImage: Unable to load file %s\n
 LoadIconA
 LoadLibraryA
-LoadLibraryExA
 LoadLibraryExW
 LoadLibraryW
 LoadMCImage: Did not read expected number of bytes, %u (read %u)
@@ -2798,7 +2798,7 @@ Q|S`l
 R1h58
 RENDERDOC_GetAPI
 RPCRT4.dll
-RSDS.
+RSDS
 RaiseException
 Raw Exaggerated Motion Vectors (Scaled 3.0)
 Raw Motion Vectors
@@ -4550,26 +4550,26 @@ c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\Retail\win64\2017\vrcompo
 c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\framemanager.cpp
 c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\geometry.cpp
 c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:10644
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:10654
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:10802
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:11377
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:11402
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:11565
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:15187
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:16338
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:16893
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:17691
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:17972
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:3904
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:3955
+c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:10656
+c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:10666
+c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:10814
+c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:11389
+c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:11414
+c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:11577
+c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:15203
+c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:16388
+c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:16943
+c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:17741
+c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:18022
+c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:3916
+c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:3967
 c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:472
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:4859
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:6626
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:6668
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:7009
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:8194
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:9122
+c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:4871
+c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:6638
+c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:6680
+c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:7021
+c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:8206
+c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:9134
 c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\lasermouse.cpp
 c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\newframehandler.cpp:429
 c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\newframehandler.cpp:478
@@ -4583,8 +4583,8 @@ c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\simpledraw.cpp
 c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\standaloneoverlays.cpp
 c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\standaloneoverlays.cpp:36
 c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\systemlayer.cpp
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\systemlayer.cpp:1265
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\systemlayer.cpp:843
+c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\systemlayer.cpp:1304
+c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\systemlayer.cpp:844
 c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\trackeddevicerenderer.cpp:28
 c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\trackeddevicerenderer.cpp:297
 c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\vrcompositor.cpp:1056
@@ -5178,6 +5178,7 @@ outofmem
 output buffer limit
 output.size() > 0
 outputUVs.size() == inputUVs.size()
+overlayBacksideColor
 overlayFilteringBeta
 overlayFilteringDerivCutoff
 overlayFilteringEnabled
@@ -5640,6 +5641,7 @@ strtoul
 strtoull
 subview-parent-panel-key
 subview_parent_overlay_handle
+suppress-panel-backsides
 sv_se
 swedish
 system

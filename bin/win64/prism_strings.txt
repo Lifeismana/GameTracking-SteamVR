@@ -471,7 +471,6 @@
 .xdata$x
 2\ne2tj
 2\ne2tl
-2hai
 33s?+
 3dj6
 420_OPAQUE
@@ -899,7 +898,6 @@ LiquidVR: Present resource is not a Vulkan image!
 LiquidVR: Present resource is null!
 LiquidVR: Unexpected EDID size: %d
 LoadLibraryA
-LoadLibraryExA
 LoadLibraryExW
 LoadLibraryW
 LocalAlloc
@@ -1166,7 +1164,7 @@ RPS_ERROR_UNSUPPORTED_VERSION_TOO_OLD
 RPS_ERROR_VALIDATION_FAILED
 RPS_FAILED(m_status)
 RPS_OK
-RSDS
+RSDS0
 RaiseException
 RasterizerState
 RaytracingPipeline

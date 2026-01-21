@@ -1521,7 +1521,6 @@ Llist<T> too long
 LoadCursorA
 LoadIconA
 LoadLibraryA
-LoadLibraryExA
 LoadLibraryExW
 LocalAlloc
 LocalFree
@@ -1749,8 +1748,9 @@ R##Fe
 R;vM;
 RPCRT4.dll
 RRvM;;
-RSDSul
+RSDS+
 RX Fail:%d
+R\vpL
 RaiseException
 Received 0 byte message on control connection. Disconnecting
 Received GPU Architecture %d\n
@@ -3472,7 +3472,6 @@ znear
 {vrlink}/shaders/cursor.vert
 {vrlink}/shaders/genforencode.hlsl
 {vrlink}/shaders/override_shader_params.json
-}hai
 ~%d~%d~%d,%d,%d~~~~
 ~SeA
 ~TbF

@@ -90,7 +90,7 @@ IsProcessorFeaturePresent
 KERNEL32.dll
 MSVCP140.dll
 QueryPerformanceCounter
-RSDS8D
+RSDS$$n
 SetUnhandledExceptionFilter
 TerminateProcess
 UnhandledExceptionFilter
@@ -158,4 +158,3 @@ windowHeight
 windowWidth
 windowX
 windowY
-ygai

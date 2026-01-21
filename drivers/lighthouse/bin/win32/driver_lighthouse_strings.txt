@@ -3966,7 +3966,6 @@ texCoord
 text format contains deprecated field "
 text/plain
 textures
-tgai
 th_th
 thai
 the global scope

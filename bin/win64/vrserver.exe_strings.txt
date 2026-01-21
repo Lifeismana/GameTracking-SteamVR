@@ -1649,17 +1649,16 @@ $\n k_EProtoServiceTypeSteamMessages
 0123456789ABCDEF
 0123456789abcdef
 091@
-0S1@
 0l8@
 0q8@
 0z8@
 1.2.5
 1/2/4/8/16-bit only
+10:06:16
 11 4 22 44 44 22 444444
 11eU%
 127.0.0.1
 127.0.0.1:
-12:41:04
 1A26b
 1\f514
 1e+9999
@@ -1680,13 +1679,14 @@ $\n k_EProtoServiceTypeSteamMessages
 7\n\tenum_type
 7^d[L
 7~8A
+8O1@
+8S1@
 8\n\textension
 8c8f13b1-60eb-4b6a-a433-de86104115ac
 8d8f13b1-60eb-4b6a-a433-de86104115ac
 8e8f13b1-60eb-4b6a-a433-de86104115ac
 8giP9giP9giP9giP9
 8k8@
-8o1@
 9\n\noneof_decl
 9a&g
 : Protocol message serialized to a size different from what was originally expected.  Perhaps it was modified by another thread during serialization?
@@ -1753,7 +1753,6 @@ $\n k_EProtoServiceTypeSteamMessages
 ??_7codecvt_base@std@@6B@
 ??_7facet@locale@std@@6B@
 ??_7ios_base@std@@6B@
-?P91@
 ?_BADOFF@std@@3_JB
 ?_Decref@facet@locale@std@@UEAAPEAV_Facet_base@3@XZ
 ?_Execute_once@std@@YAHAEAUonce_flag@1@P6AHPEAX1PEAPEAX@Z1@Z
@@ -2865,8 +2864,6 @@ HMD found, but unable to request config (1102)
 HMDManufacturer
 HMDModel
 HMDSerialNumber
-HO1@
-HS1@
 HTTP Version Not Supported
 HTTP parse, %lu bytes
 HTTP/
@@ -3179,14 +3176,13 @@ JFIF
 JSON Chunk end does not aligned to a 4-byte boundary.
 JSON parse error
 JSON string too short.\n
-Jan  9 2026
+Jan 21 2026
 KERNEL32.dll
 KHR_audio
 KHR_lights_punctual
 Kernel32.dll
 Kill process %s because it didn't quit in time\n
 Kill process?
-L=P91@
 LABEL_OPTIONAL
 LABEL_REPEATED
 LABEL_REQUIRED
@@ -3227,7 +3223,6 @@ Listener thread joined\n
 Live chaperone preview process %u isn't running anymore, reloading saved chaperone\n
 LoadDriver called when there is no user config directory set\n
 LoadLibraryA
-LoadLibraryExA
 LoadLibraryExW
 LoadLibraryW
 LoadTemporaryActionBindingsForAppKey for controller type %s unable to read cache file %s\n
@@ -3437,7 +3432,6 @@ Out of thread local storage!\n
 OutputDebugStringA
 OutputDebugStringW
 Overwriting default binding file from web: %s\n
-P91@
 PCI\VEN_%x&DEV_%x&SUBSYS_%x&REV_%x
 PC_%08llx
 PICT
@@ -3495,7 +3489,6 @@ Ph8@
 Pk7@
 Playback devices:\n
 Pn8@
-Po1@
 PoseUpdated for invalid object ID %d\n
 PoseUpdated from driver %s (%d) for device index %d which is owned by driver %s (%d)\n
 Positional emitter description not found.
@@ -4343,6 +4336,7 @@ UnknownPath_
 UnmapViewOfFile
 Unnamed simulated action failed to parse: 
 Unprocessable Entity
+UnrealEditor
 Unsupported Media Type
 Unsupported `type` for accessor object. Got "
 Upgrade Required
@@ -4359,7 +4353,6 @@ Using existing HMD %s.%s\n
 Using existing non-HMD devices from %s\n
 Using fallback controller type for 
 UuidFromStringA
-VAw%RhE
 VCRUNTIME140.dll
 VEC2
 VEC3
@@ -5183,6 +5176,7 @@ WorkshopSelectConfig for BindingOutOfDate for %s(%s) attempt to set default bind
 WorkshopSelectConfig for BindingOutOfDate for %s(%s) when we don't have a binding at all for that controller type\n
 WriteFile
 X-Frame-Options: sameorigin\r\nContent-Security-Policy: default-src 'self'
+X91@
 XU3@
 XXXX PNG chunk not known
 Xg8@
@@ -7075,7 +7069,6 @@ playbackMirrorDevice
 playbackMirrorDeviceName
 playback_devices
 playing
-po1@
 polish
 portrait
 portuguese
@@ -7135,7 +7128,6 @@ publishedfileid
 pull
 punct
 putchar
-py1@
 py_generic_services
 qMFCreateMediaType failed hr = 0x%08x\n
 qsort

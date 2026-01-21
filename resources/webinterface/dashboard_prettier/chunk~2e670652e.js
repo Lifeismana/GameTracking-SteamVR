@@ -1,4 +1,4 @@
-var CLSTAMP = "10355840";
+var CLSTAMP = "10384931";
 (self.webpackChunkvrwebui = self.webpackChunkvrwebui || []).push([
   [170],
   {
@@ -465,7 +465,7 @@ var CLSTAMP = "10355840";
       }
     },
     9448: (e, t, n) => {
-      n.d(t, { U0: () => C, dm: () => H, jF: () => v, o3: () => d });
+      n.d(t, { U0: () => C, dm: () => b, jF: () => v, o3: () => d });
       var o = n(296),
         r = n(6540),
         i = n(7727),
@@ -606,7 +606,7 @@ var CLSTAMP = "10355840";
           r.createElement(v, null),
           !1,
           r.createElement(v, null),
-          r.createElement(b, null),
+          r.createElement(H, null),
           r.createElement(v, null),
         );
       }
@@ -693,7 +693,7 @@ var CLSTAMP = "10355840";
           }),
         );
       }
-      function b(e) {
+      function H(e) {
         const { frame: t } = (0, i.N)(),
           n = (0, o.q3)(() => t.canRequestClose),
           a = (0, o.q3)(() => t.closeButtonLabel),
@@ -716,7 +716,7 @@ var CLSTAMP = "10355840";
             )
           : null;
       }
-      function H(e) {
+      function b(e) {
         const { frame: t } = (0, i.N)(),
           n = (0, o.q3)(() => t.activePage),
           a = (0, o.q3)(() => {
@@ -927,7 +927,7 @@ var CLSTAMP = "10355840";
         a = n(1835),
         s = n(1909),
         l = n(1295),
-        c = n(8047),
+        c = n(2329),
         d = n(2929),
         u = n(776),
         m = n(8627);
@@ -1194,7 +1194,7 @@ var CLSTAMP = "10355840";
       window.FrameStore = f;
     },
     4574: (e, t, n) => {
-      n.d(t, { BO: () => w, Do: () => r });
+      n.d(t, { BO: () => M, Do: () => r });
       var o,
         r,
         i = n(1635),
@@ -1208,25 +1208,24 @@ var CLSTAMP = "10355840";
         p = n(1835),
         h = n(9248),
         v = n(3712),
-        C = n(7530),
-        f = n(3696),
-        g = n(7600),
-        _ = n(795),
-        V = n(8627),
-        b = n(7813),
+        C = n(3696),
+        f = n(7600),
+        g = n(795),
+        _ = n(8627),
+        V = n(7813),
         H = n(6539),
-        L = n(9728);
-      function y(e) {
+        b = n(9728);
+      function L(e) {
         switch (e) {
-          case V.yW.LeftHand:
+          case _.yW.LeftHand:
             return "/user/hand/left";
-          case V.yW.RightHand:
+          case _.yW.RightHand:
             return "/user/hand/right";
           default:
             return "";
         }
       }
-      function M(e, t) {
+      function y(e, t) {
         try {
           return null === VRHTML || void 0 === VRHTML
             ? void 0
@@ -1238,7 +1237,7 @@ var CLSTAMP = "10355840";
       !(function (e) {
         (e[(e.Curved = 0)] = "Curved"), (e[(e.Flat = 1)] = "Flat");
       })(r || (r = {}));
-      let w = (o = class extends c.Component {
+      let M = (o = class extends c.Component {
         constructor(e) {
           super(e),
             (this.m_NudgeReactionHandle = void 0),
@@ -1248,7 +1247,7 @@ var CLSTAMP = "10355840";
             (this.m_sDragSnapLineOriginID = "xf" + Math.random().toString()),
             (this.state = {
               xfTransform: null,
-              sParentDevice: y(this.props.frame.docking.dockLocation),
+              sParentDevice: L(this.props.frame.docking.dockLocation),
               dragSnapPreview: {
                 location: this.props.frame.docking.dockLocation,
               },
@@ -1261,7 +1260,7 @@ var CLSTAMP = "10355840";
         }
         componentDidMount() {
           const e = this.props.frame;
-          (this.m_NudgeReactionHandle = (0, b.reaction)(
+          (this.m_NudgeReactionHandle = (0, V.reaction)(
             () =>
               e.docking.m_bJustFloatedFromDashboard &&
               !e.isActiveDashboardFrame,
@@ -1285,12 +1284,12 @@ var CLSTAMP = "10355840";
                 (e.docking.m_bJustFloatedFromDashboard = !1);
             },
           )),
-            (this.m_DockLocationReactionHandle = (0, b.reaction)(
+            (this.m_DockLocationReactionHandle = (0, V.reaction)(
               () => e.docking.dockLocation,
               (e, t) => {
                 this.setState(
                   {
-                    sParentDevice: y(e),
+                    sParentDevice: L(e),
                     xfTransform: null,
                     dragSnapPreview: { location: e },
                   },
@@ -1338,7 +1337,7 @@ var CLSTAMP = "10355840";
                 .requestSGTransform(
                   (0, a.nX)(
                     u.C6,
-                    _.JJ.GetDockLocationTransformID(V.yW.Dashboard),
+                    g.JJ.GetDockLocationTransformID(_.yW.Dashboard),
                   ),
                   t,
                 )
@@ -1358,7 +1357,7 @@ var CLSTAMP = "10355840";
                     t,
                   );
                   let n = (function () {
-                    const e = M("/user/head", a.mu.Standing);
+                    const e = y("/user/head", a.mu.Standing);
                     if (
                       e &&
                       (null == e ? void 0 : e.bPoseIsValid) &&
@@ -1401,25 +1400,25 @@ var CLSTAMP = "10355840";
                 );
           let o =
             n &&
-            (this.props.frame.docking.dockLocation == V.yW.LeftHand ||
-              this.props.frame.docking.dockLocation == V.yW.RightHand);
+            (this.props.frame.docking.dockLocation == _.yW.LeftHand ||
+              this.props.frame.docking.dockLocation == _.yW.RightHand);
           if (
-            (this.props.frame.docking.dockLocation != V.yW.World ||
-              (e != V.yW.LeftHand && e != V.yW.RightHand) ||
+            (this.props.frame.docking.dockLocation != _.yW.World ||
+              (e != _.yW.LeftHand && e != _.yW.RightHand) ||
               (o = !0),
             o)
           )
             this.setState({ xfTransform: n });
           else
             switch (this.props.frame.docking.dockLocation) {
-              case V.yW.Dashboard: {
+              case _.yW.Dashboard: {
                 let e = (0, a.vx)();
                 (e.rotation = (0, a.Fb)({ x: -45, y: 0, z: 0 })),
                   this.setState({ xfTransform: e });
                 break;
               }
-              case V.yW.LeftHand:
-              case V.yW.RightHand: {
+              case _.yW.LeftHand:
+              case _.yW.RightHand: {
                 let e = (0, a.vx)();
                 (e.rotation = (0, a.Fb)({ x: 200, y: 0, z: 0 })),
                   (e.translation.z = -0.03),
@@ -1427,12 +1426,12 @@ var CLSTAMP = "10355840";
                   this.setState({ xfTransform: e });
                 break;
               }
-              case V.yW.World:
+              case _.yW.World:
                 a.Cw.getInstance()
                   .requestSGTransform(
                     (0, a.nX)(
                       u.C6,
-                      _.JJ.GetDockLocationTransformID(V.yW.Dashboard),
+                      g.JJ.GetDockLocationTransformID(_.yW.Dashboard),
                     ),
                     0,
                   )
@@ -1453,14 +1452,14 @@ var CLSTAMP = "10355840";
                     );
                   });
                 break;
-              case V.yW.Theater:
+              case _.yW.Theater:
                 this.setInitialTransformForTheater();
             }
         }
         requestDashboardSnapTransform() {
           a.Cw.getInstance()
             .requestSGTransform(
-              (0, a.nX)(u.C6, _.JJ.GetDockLocationTransformID(V.yW.Dashboard)),
+              (0, a.nX)(u.C6, g.JJ.GetDockLocationTransformID(_.yW.Dashboard)),
               0,
             )
             .then((e) => (this.m_xfDashboardSnapTransform = e))
@@ -1469,35 +1468,35 @@ var CLSTAMP = "10355840";
         computeDragSnapDestination() {
           var e;
           if (!this.state.bIsMoving || null === this.state.xfTransform) return;
-          const t = M(this.m_nMoveDeviceIndex, a.mu.Standing),
+          const t = y(this.m_nMoveDeviceIndex, a.mu.Standing),
             n = null == t ? void 0 : t.xfDeviceToAbsoluteTracking;
           let r = null;
           VRHTML.VRSystem.GetTrackedDeviceIndexForControllerRole(
             a.kG.TrackedControllerRole_LeftHand,
-          ) != a.ne && (r = M("/user/hand/left", a.mu.Standing));
+          ) != a.ne && (r = y("/user/hand/left", a.mu.Standing));
           let i = null;
           VRHTML.VRSystem.GetTrackedDeviceIndexForControllerRole(
             a.kG.TrackedControllerRole_RightHand,
-          ) != a.ne && (i = M("/user/hand/right", a.mu.Standing));
+          ) != a.ne && (i = y("/user/hand/right", a.mu.Standing));
           const s = [];
           if (
             (this.m_xfDashboardSnapTransform &&
               p.SW.m_bDashboardVisible &&
               s.push({
                 xf: this.m_xfDashboardSnapTransform,
-                location: V.yW.Dashboard,
+                location: _.yW.Dashboard,
               }),
             r &&
               "/user/hand/left" != this.state.sParentDevice &&
               s.push({
                 xf: r.xfDeviceToAbsoluteTracking,
-                location: V.yW.LeftHand,
+                location: _.yW.LeftHand,
               }),
             i &&
               "/user/hand/right" != this.state.sParentDevice &&
               s.push({
                 xf: i.xfDeviceToAbsoluteTracking,
-                location: V.yW.RightHand,
+                location: _.yW.RightHand,
               }),
             !n || 0 == s.length)
           )
@@ -1515,12 +1514,12 @@ var CLSTAMP = "10355840";
               return Object.assign(Object.assign({}, e), { fDistance: n });
             }),
             u = {
-              [V.yW.Dashboard]: 0.3,
-              [V.yW.LeftHand]: 0.4,
-              [V.yW.RightHand]: 0.4,
-              [V.yW.World]: 0,
-              [V.yW.Theater]: 0,
-              [V.yW.Boot]: 0,
+              [_.yW.Dashboard]: 0.3,
+              [_.yW.LeftHand]: 0.4,
+              [_.yW.RightHand]: 0.4,
+              [_.yW.World]: 0,
+              [_.yW.Theater]: 0,
+              [_.yW.Boot]: 0,
             };
           let m =
             null !==
@@ -1532,12 +1531,12 @@ var CLSTAMP = "10355840";
                 })
                 .sort((e, t) => e.fDistance - t.fDistance)[0]) && void 0 !== e
               ? e
-              : { location: V.yW.World };
-          m.location != V.yW.Dashboard ||
+              : { location: _.yW.World };
+          m.location != _.yW.Dashboard ||
             this.state.dragCanSnapToDashboard ||
-            (m = { location: V.yW.World });
-          const h = c.find((e) => e.location == V.yW.Dashboard),
-            v = h && h.fDistance > u[V.yW.Dashboard];
+            (m = { location: _.yW.World });
+          const h = c.find((e) => e.location == _.yW.Dashboard),
+            v = h && h.fDistance > u[_.yW.Dashboard];
           this.setState({
             dragSnapPreview: m,
             dragCanSnapToDashboard: this.state.dragCanSnapToDashboard || v,
@@ -1563,30 +1562,30 @@ var CLSTAMP = "10355840";
             VRHTML.VRSystem.GetControllerRoleForTrackedDeviceIndex(
               this.m_nMoveDeviceIndex,
             );
-          const e = M(this.m_nMoveDeviceIndex, a.mu.Standing);
+          const e = y(this.m_nMoveDeviceIndex, a.mu.Standing);
           let t, n;
           switch (
             ((this.m_xfDashboardSnapTransform = void 0),
             this.requestDashboardSnapTransform(),
             this.props.frame.docking.dockLocation)
           ) {
-            case V.yW.LeftHand:
+            case _.yW.LeftHand:
               if (
                 VRHTML.VRSystem.GetTrackedDeviceIndexForControllerRole(
                   a.kG.TrackedControllerRole_LeftHand,
                 ) == a.ne
               )
                 return;
-              t = M("/user/hand/left", a.mu.Standing);
+              t = y("/user/hand/left", a.mu.Standing);
               break;
-            case V.yW.RightHand:
+            case _.yW.RightHand:
               if (
                 VRHTML.VRSystem.GetTrackedDeviceIndexForControllerRole(
                   a.kG.TrackedControllerRole_RightHand,
                 ) == a.ne
               )
                 return;
-              t = M("/user/hand/right", a.mu.Standing);
+              t = y("/user/hand/right", a.mu.Standing);
               break;
             default:
               t = {
@@ -1634,7 +1633,7 @@ var CLSTAMP = "10355840";
           let n, o;
           if (
             "/user/hand/left" == this.state.sParentDevice ||
-            t == V.yW.LeftHand
+            t == _.yW.LeftHand
           ) {
             if (
               VRHTML.VRSystem.GetTrackedDeviceIndexForControllerRole(
@@ -1642,11 +1641,11 @@ var CLSTAMP = "10355840";
               ) == a.ne
             )
               return;
-            n = M("/user/hand/left", a.mu.Standing);
+            n = y("/user/hand/left", a.mu.Standing);
           }
           if (
             "/user/hand/right" == this.state.sParentDevice ||
-            t == V.yW.RightHand
+            t == _.yW.RightHand
           ) {
             if (
               VRHTML.VRSystem.GetTrackedDeviceIndexForControllerRole(
@@ -1654,7 +1653,7 @@ var CLSTAMP = "10355840";
               ) == a.ne
             )
               return;
-            o = M("/user/hand/right", a.mu.Standing);
+            o = y("/user/hand/right", a.mu.Standing);
           }
           let r,
             i = {
@@ -1664,26 +1663,26 @@ var CLSTAMP = "10355840";
               bPoseIsValid: !0,
             };
           switch (t) {
-            case V.yW.LeftHand:
+            case _.yW.LeftHand:
               r = n;
               break;
-            case V.yW.RightHand:
+            case _.yW.RightHand:
               r = o;
               break;
             default:
               r = i;
           }
-          const s = M(this.m_nMoveDeviceIndex, a.mu.Standing);
+          const s = y(this.m_nMoveDeviceIndex, a.mu.Standing);
           let l = VRHTML.MultiplyTransforms(
               s.xfDeviceToAbsoluteTracking,
               this.state.xfTransform,
             ),
             c = VRHTML.ChangeBasis(l, r.xfDeviceToAbsoluteTracking);
-          this.setState({ xfTransform: c, sParentDevice: y(t), bIsMoving: !1 }),
+          this.setState({ xfTransform: c, sParentDevice: L(t), bIsMoving: !1 }),
             null === (e = this.props.frame) ||
               void 0 === e ||
               e.docking.SetDockLocation(t),
-            (t != V.yW.World && t != V.yW.LeftHand && t != V.yW.RightHand) ||
+            (t != _.yW.World && t != _.yW.LeftHand && t != _.yW.RightHand) ||
               this.props.frame.docking.m_mapLastRelativeTransformForDockLocation.set(
                 t,
                 c,
@@ -1696,8 +1695,8 @@ var CLSTAMP = "10355840";
           var e, t, n, r;
           const i = this.props.frame;
           if (
-            L.G.Instance.SceneApplicationState !== a.HW.None &&
-            f.H.m_bShowFloor
+            b.G.Instance.SceneApplicationState !== a.HW.None &&
+            C.H.m_bShowFloor
           )
             return null;
           const s =
@@ -1723,10 +1722,10 @@ var CLSTAMP = "10355840";
                 )) && void 0 !== r
                 ? r
                 : 0.5,
-            C = 0.5 * Math.pow(u, 2.2);
+            g = 0.5 * Math.pow(u, 2.2);
           if (null === this.getCurrentOverlaySize()) return null;
           return c.createElement(
-            g.tH,
+            f.tH,
             null,
             c.createElement(
               H.w,
@@ -1750,7 +1749,7 @@ var CLSTAMP = "10355840";
                         should_head_align: !0,
                         lerp_speed: o.flGrabTransformLerpSpeed,
                         reset_on_recenter:
-                          this.props.frame.docking.dockLocation == V.yW.Theater,
+                          this.props.frame.docking.dockLocation == _.yW.Theater,
                       },
                       c.createElement(
                         a.dL,
@@ -1760,12 +1759,12 @@ var CLSTAMP = "10355840";
                             target_id: s,
                             "near-z": -0.1,
                             "far-z": 0.1,
-                            specular: { color: { r: C, g: C, b: C } },
+                            specular: { color: { r: g, g, b: g } },
                             diffuse: { size: 20, resolution: 512 },
                             debug: !1,
                           }),
                         !1,
-                        c.createElement(V.in, { dockLocation: V.yW.Theater }),
+                        c.createElement(_.in, { dockLocation: _.yW.Theater }),
                         c.createElement(
                           a.dL,
                           {
@@ -1778,7 +1777,6 @@ var CLSTAMP = "10355840";
                               i.curvature.curvatureTransformOriginID,
                           }),
                         ),
-                        c.createElement(S, { frame: i }),
                       ),
                     ),
                   ),
@@ -1794,12 +1792,12 @@ var CLSTAMP = "10355840";
             o = this.state.sParentDevice;
           return (
             this.state.bIsMoving &&
-              this.state.dragSnapPreview.location == V.yW.Dashboard &&
+              this.state.dragSnapPreview.location == _.yW.Dashboard &&
               ((n = void 0),
               (o = void 0),
-              (t = _.JJ.GetDockLocationTransformID(V.yW.Dashboard))),
+              (t = g.JJ.GetDockLocationTransformID(_.yW.Dashboard))),
             c.createElement(
-              g.tH,
+              f.tH,
               null,
               c.createElement(
                 H.w,
@@ -1807,7 +1805,7 @@ var CLSTAMP = "10355840";
                 c.createElement(
                   a.dL,
                   { parent_path: o, parent_id: t, transform: n },
-                  c.createElement(V.in, {
+                  c.createElement(_.in, {
                     dockLocation: e.docking.dockLocation,
                     forFrameID: e.frameID,
                   }),
@@ -1827,7 +1825,6 @@ var CLSTAMP = "10355840";
                     }),
                   ),
                 ),
-                c.createElement(S, { frame: e }),
                 this.renderDragSnapLine(),
               ),
             )
@@ -1837,10 +1834,10 @@ var CLSTAMP = "10355840";
           if (!this.state.bIsMoving || !this.state.dragSnapPreview) return null;
           let e, t;
           switch (this.state.dragSnapPreview.location) {
-            case V.yW.LeftHand:
+            case _.yW.LeftHand:
               e = "/user/hand/left";
               break;
-            case V.yW.RightHand:
+            case _.yW.RightHand:
               e = "/user/hand/right";
               break;
             default:
@@ -1862,43 +1859,18 @@ var CLSTAMP = "10355840";
         }
         render() {
           return this.props.frame && this.state.xfTransform
-            ? this.props.frame.docking.dockLocation == V.yW.Theater
+            ? this.props.frame.docking.dockLocation == _.yW.Theater
               ? this.renderTheaterFrame()
               : this.renderFloatingFrame()
             : null;
         }
       });
-      (w.sfMovePulseMS = 100),
-        (w.flGrabTransformLerpSpeed = 0.125),
-        (0, i.Cg)([s.o], w.prototype, "computeDragSnapDestination", null),
-        (0, i.Cg)([s.o], w.prototype, "startFloatingWindowMove", null),
-        (0, i.Cg)([s.o], w.prototype, "endFloatingWindowMove", null),
-        (w = o = (0, i.Cg)([l.PA], w));
-      const S = (0, l.PA)(function (e) {
-        var t, n;
-        const { frame: o } = e,
-          r =
-            null === (t = null == o ? void 0 : o.activePage) || void 0 === t
-              ? void 0
-              : t.mainPanelID;
-        return c.createElement(
-          a.dL,
-          {
-            parent_id:
-              null === (n = null == o ? void 0 : o.activePage) || void 0 === n
-                ? void 0
-                : n.GetPanelAnchorID(a.Oi.BottomRight),
-            translation: { x: 0.03 },
-          },
-          c.createElement(C.X, {
-            id: r + ".ResizeHandle",
-            target_id: r,
-            bVisible: !0,
-            scale: 0.5 * (null == o ? void 0 : o.size.scaleForBottomControls),
-            tint: p.SW.GrabHandleTint,
-          }),
-        );
-      });
+      (M.sfMovePulseMS = 100),
+        (M.flGrabTransformLerpSpeed = 0.125),
+        (0, i.Cg)([s.o], M.prototype, "computeDragSnapDestination", null),
+        (0, i.Cg)([s.o], M.prototype, "startFloatingWindowMove", null),
+        (0, i.Cg)([s.o], M.prototype, "endFloatingWindowMove", null),
+        (M = o = (0, i.Cg)([l.PA], M));
     },
     2156: (e, t, n) => {
       n.d(t, { O: () => v });
@@ -1956,8 +1928,8 @@ var CLSTAMP = "10355840";
           g,
           _,
           V,
-          b,
           H,
+          b,
           L,
           y,
           M,
@@ -1984,9 +1956,9 @@ var CLSTAMP = "10355840";
           A,
           q,
           J;
-        const { popupRequest: K, children: X } = e,
-          Y = (0, o.Tt)(e, ["popupRequest", "children"]),
-          $ = {
+        const { popupRequest: K, children: Y } = e,
+          $ = (0, o.Tt)(e, ["popupRequest", "children"]),
+          X = {
             x:
               null !==
                 (n =
@@ -2038,22 +2010,22 @@ var CLSTAMP = "10355840";
                 : 0,
             v:
               null !==
-                (b =
+                (H =
                   null === (V = null == K ? void 0 : K.clip_rect) ||
                   void 0 === V
                     ? void 0
-                    : V.v_min) && void 0 !== b
-                ? b
+                    : V.v_min) && void 0 !== H
+                ? H
                 : 0,
           },
           te = {
             u:
               null !==
                 (L =
-                  null === (H = null == K ? void 0 : K.clip_rect) ||
-                  void 0 === H
+                  null === (b = null == K ? void 0 : K.clip_rect) ||
+                  void 0 === b
                     ? void 0
-                    : H.u_max) && void 0 !== L
+                    : b.u_max) && void 0 !== L
                 ? L
                 : 1,
             v:
@@ -2218,9 +2190,9 @@ var CLSTAMP = "10355840";
                     sort_order: de,
                     frame_resize_scale_factor: 1,
                   },
-                  Y,
+                  $,
                 ),
-                X,
+                Y,
               ),
             ),
           ),
@@ -2231,7 +2203,7 @@ var CLSTAMP = "10355840";
               { parent_overlay_key: null == K ? void 0 : K.parent_overlay_key },
               i.createElement(
                 r.Ci,
-                { key: K.dashboard_popup_id, location: $ },
+                { key: K.dashboard_popup_id, location: X },
                 me,
               ),
             )
@@ -2276,7 +2248,7 @@ var CLSTAMP = "10355840";
         Ki: () => T,
         _y: () => S,
         s3: () => R,
-        Xj: () => b,
+        Xj: () => H,
         DO: () => m,
         FG: () => l,
         YN: () => c,
@@ -2290,7 +2262,7 @@ var CLSTAMP = "10355840";
         jd: () => I,
         y$: () => E,
         Qt: () => M,
-        fr: () => H,
+        fr: () => b,
         VR: () => u,
       });
       var o = n(1635),
@@ -2660,7 +2632,7 @@ var CLSTAMP = "10355840";
                   }),
                 );
       }
-      function b(e) {
+      function H(e) {
         return r.createElement(
           "svg",
           Object.assign(
@@ -2678,7 +2650,7 @@ var CLSTAMP = "10355840";
           }),
         );
       }
-      function H(e) {
+      function b(e) {
         return r.createElement(
           "svg",
           Object.assign(

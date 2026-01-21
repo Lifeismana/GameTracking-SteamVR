@@ -857,7 +857,6 @@ Prop_WillDriftInYaw_Bool
 Property container - found and recovered a locked container at generation %x\n
 PropertyContainer: High lock acquisition counters: sp:%u yd:%u re:%u\n
 PropertyContainerCreation
-PytP
 QueryPerformanceCounter
 QueryPerformanceFrequency
 RSDS
@@ -1629,4 +1628,3 @@ working
 world
 zh_cn
 zh_tw
-~iai

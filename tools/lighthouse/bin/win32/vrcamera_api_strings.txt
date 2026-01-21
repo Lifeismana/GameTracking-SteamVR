@@ -559,7 +559,6 @@ GetTraceEnableLevel
 GetTraceLoggerHandle
 GetVersionExW
 Global Gain:\t\t\t
-Igai
 Index: 
 InitOnceExecuteOnce
 InitializeConditionVariable

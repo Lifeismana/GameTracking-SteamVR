@@ -1,22 +1,22 @@
 Content Manifest for Depot 250833 
 
-Manifest ID / date     : 8084172187417437723 / 10/05/2023 23:01:10 
+Manifest ID / date     : 1878657507309650488 / 08/15/2025 18:50:50 
 Total number of files  : 115 
 Total number of chunks : 272 
-Total bytes on disk    : 206963956 
-Total bytes compressed : 86755424 
+Total bytes on disk    : 206958964 
+Total bytes compressed : 91147664 
 
 
           Size Chunks File SHA                                 Flags Name
-       1012072      1 c05f047078ce8b8f52bdbb1e623763523153ff86     0 tools/steamvr_environments/game/bin/win64/assetbrowser.dll
-       2846056      3 8fead5d6ee92d7c2d719c7f21d7e7a7e29d5a77f     0 tools/steamvr_environments/game/bin/win64/assetsystem.dll
-       1297768      2 f2df2ab0098de57e18605b04c0f93922e8dc3588     0 tools/steamvr_environments/game/bin/win64/dmxconvert.exe
+       1011864      1 1287832805dfd17efa8e4efb41fb2f660aa2f0bc     0 tools/steamvr_environments/game/bin/win64/assetbrowser.dll
+       2845848      3 428f1c8cb1a03395b78f6c3f1512eb20ed36d4c1     0 tools/steamvr_environments/game/bin/win64/assetsystem.dll
+       1297560      2 5fdccbbb4e7accc1dc24bb9e987642a9a235b08a     0 tools/steamvr_environments/game/bin/win64/dmxconvert.exe
        1418240      2 d1cc730f23d2b2f8567555d0c09a36dfd01e45c9     0 tools/steamvr_environments/game/bin/win64/ispc_texcomp.dll
         522752      1 d542ce27c7aaf3651037ab98e32064a2318fb1cd     0 tools/steamvr_environments/game/bin/win64/libcurl.dll
-       6879592      7 d804e8a604e831d22403d454b712998d3d84ddd8     0 tools/steamvr_environments/game/bin/win64/modeldoc_utils.dll
+       6879384      7 715fd275650cc8cf2a2d70b80942fc9d0ae33d95     0 tools/steamvr_environments/game/bin/win64/modeldoc_utils.dll
       43750240     42 50b3212f534db3d5b0c7230d2bfa620ae2275920     0 tools/steamvr_environments/game/bin/win64/OpenImageDenoise.dll
-        252776      1 f4fccc43bd02931896b79481a9ea991a09703d66     0 tools/steamvr_environments/game/bin/win64/phonemeextractors/phonemeextractor.dll
-        359784      1 440236998a2632ef10a80930dd03f7e2929bd441     0 tools/steamvr_environments/game/bin/win64/phonemeextractors/phonemeextractor_ims.dll
+        252568      1 ed00873d035bece2996eb336affbee7c80b35e69     0 tools/steamvr_environments/game/bin/win64/phonemeextractors/phonemeextractor.dll
+        359576      1 ceb92f2498e99ff90c81d85c832a524295b93d2a     0 tools/steamvr_environments/game/bin/win64/phonemeextractors/phonemeextractor_ims.dll
         126464      1 a4e200acc65f415903ac394789ec4935b5f3d940     0 tools/steamvr_environments/game/bin/win64/pyside-python2.7.dll
        2964480      3 5f645e319e9bd399393ffd3aac033560c9bdf205     0 tools/steamvr_environments/game/bin/win64/python27.dll
         489984      1 f541f4d5e8a6dac2fc8b25d278d65e1fd4cadcef     0 tools/steamvr_environments/game/bin/win64/pythoncom27.dll
@@ -86,27 +86,27 @@ Total bytes compressed : 86755424
         571904      1 fe16759a6a2ecc8f7bc02b839c79f2f0bbdbb5ef     0 tools/steamvr_environments/game/bin/win64/qt_plugins/qmltooling/qmldbg_tcpd4.dll
         816128      1 4e0e1ac3177bfa4a3572bcb4d44f626bd593ffe5     0 tools/steamvr_environments/game/bin/win64/qt_plugins/sqldrivers/qsqlite4.dll
        1443328      2 91cd200b5e750bc5fa49e0f6233398595df19658     0 tools/steamvr_environments/game/bin/win64/qt_plugins/sqldrivers/qsqlited4.dll
-        142184      1 8f866c8e52186cc980562f7da4d1a5c2a6a6e8c4     0 tools/steamvr_environments/game/bin/win64/resourcecompiler.exe
-       1556328      2 9fa2d8063d1db2a4f53031694b9da251f7f60174     0 tools/steamvr_environments/game/bin/win64/resourcecopy.exe
-       2777960      3 ff5a252a85c967a816d2ad6a7b33f207f8845607     0 tools/steamvr_environments/game/bin/win64/resourceinfo.exe
+        141976      1 ae75d289babcbc0062e185ce972ec5c73a636c6a     0 tools/steamvr_environments/game/bin/win64/resourcecompiler.exe
+       1556120      2 d6d8f8082fac8c22064eab1458074143a526c1d9     0 tools/steamvr_environments/game/bin/win64/resourcecopy.exe
+       2777752      3 ba78702a6deba2323bb0d97c8f70aca7e6df0716     0 tools/steamvr_environments/game/bin/win64/resourceinfo.exe
         151552      1 99a07cdc62d7e83eead39baa50e3e820bba3837e     0 tools/steamvr_environments/game/bin/win64/shiboken-python2.7.dll
-        862568      1 c317cca4b389533fb938a5ddae6d48a3cbffdd75     0 tools/steamvr_environments/game/bin/win64/steamtourscfg.exe
-        391016      1 5fac5edd8e6db24f878e4dd4191c42d14fbe669e     0 tools/steamvr_environments/game/bin/win64/subtools/bugreporter_subtool.dll
+        862360      1 e53134d028a35cdc8378acd6bac4b3a41ba11754     0 tools/steamvr_environments/game/bin/win64/steamtourscfg.exe
+        390808      1 8a591c64114e1561b24b908e793c70fe771514d0     0 tools/steamvr_environments/game/bin/win64/subtools/bugreporter_subtool.dll
         433024      1 78fdd9d35dd325f316eaee9bb2fb5dba831bd553     0 tools/steamvr_environments/game/bin/win64/tbb.dll
         263040      1 589786d61e0e70c1bb91f5b1445471d46041e901     0 tools/steamvr_environments/game/bin/win64/tbbmalloc.dll
-       6115688      6 453955aba360a172a20198a3db43f9cd5b066a19     0 tools/steamvr_environments/game/bin/win64/tools/animgraph_editor.dll
-      16872296     17 f2fd3af9c799a4713e75008b15ff9a2702fa17d8     0 tools/steamvr_environments/game/bin/win64/tools/hammer.dll
-       2733928      3 269b8114901be35972ecc19f737e720ced50a16c     0 tools/steamvr_environments/game/bin/win64/tools/met.dll
-      12021608     12 e3eb8a76939e493bfb9b138d714174b731a02673     0 tools/steamvr_environments/game/bin/win64/tools/model_editor.dll
-       5608296      6 d121a9705993ae9f5ff6c1d07df91109b7bc6eb0     0 tools/steamvr_environments/game/bin/win64/tools/pet.dll
-       9676136     10 af6eb5fd408a20ada76f10c4976f5ac7639c0e12     0 tools/steamvr_environments/game/bin/win64/tools/sfm.dll
-       6343016      7 2e05a961406875a5416d34f70f998b779493f6cd     0 tools/steamvr_environments/game/bin/win64/tools/workshopmanager.dll
-       6771048      7 07773202b1c9336640a7ce3542777d37e9395e5b     0 tools/steamvr_environments/game/bin/win64/toolscenenodes.dll
-       4979048      5 777f5e89ce61168a4f841fbc330bce2edaaa82c6     0 tools/steamvr_environments/game/bin/win64/vconsole2.exe
-        713064      1 e802d8b6ae8654110c0bc343706c67ac6a4fa3af     0 tools/steamvr_environments/game/bin/win64/vpcf_to_kv3.exe
-        364904      1 e3bd341ad241ea232f3665f0895a17245d9b7c62     0 tools/steamvr_environments/game/bin/win64/vpk.exe
-        998248      1 379e3d1333a925b50e2cdfd3d6efb0947195d0d0     0 tools/steamvr_environments/game/bin/win64/vrad2.exe
-       3627880      4 b96b1bfc4396f5023efacdfff99c9ec92e38eaae     0 tools/steamvr_environments/game/bin/win64/vrad3.exe
+       6115480      6 9b821aae46ebddaa7000b8f04fff7d835cca888d     0 tools/steamvr_environments/game/bin/win64/tools/animgraph_editor.dll
+      16872088     17 62a6ffa9c2e78ea6078f03613e5a9a01ab29d9c2     0 tools/steamvr_environments/game/bin/win64/tools/hammer.dll
+       2733720      3 f4bd57c177caf48d794237c4dd40ac95a5c2eeff     0 tools/steamvr_environments/game/bin/win64/tools/met.dll
+      12021400     12 4e2ca034a1edaf11d1f7e37c84a7ae366133ca35     0 tools/steamvr_environments/game/bin/win64/tools/model_editor.dll
+       5608088      6 7fcda069e0ccc61e6a3a429eebcc12eaa01ab1e7     0 tools/steamvr_environments/game/bin/win64/tools/pet.dll
+       9675928     10 c0224dc872a146a9d156d8029ee8de031f66a3e3     0 tools/steamvr_environments/game/bin/win64/tools/sfm.dll
+       6342808      7 2c0bc97a6b9f36f3950d43f4fdd216806774cfc1     0 tools/steamvr_environments/game/bin/win64/tools/workshopmanager.dll
+       6770840      7 9f1801add99cb7f7a1bbbdc6adf5ec31b4254dcb     0 tools/steamvr_environments/game/bin/win64/toolscenenodes.dll
+       4978840      5 347efacee03dd4484bc3569d4466d8a8621bd8ee     0 tools/steamvr_environments/game/bin/win64/vconsole2.exe
+        712856      1 e49bd847813119137a20598755a3569c5c86d555     0 tools/steamvr_environments/game/bin/win64/vpcf_to_kv3.exe
+        364696      1 9804accf0c2a5d4fa1f3679f780950975b1647c9     0 tools/steamvr_environments/game/bin/win64/vpk.exe
+        998040      1 d0a20d3d924c2fa2e1f90a854a0fdbad44626065     0 tools/steamvr_environments/game/bin/win64/vrad2.exe
+       3627672      4 b0da15efb00e81a7c20a50b9a7ba19d24a741465     0 tools/steamvr_environments/game/bin/win64/vrad3.exe
          67535      1 1d6f82e351a4d04184f7b223f2812b79b1515ce2     0 tools/steamvr_environments/game/core/ai_basenpc.fgd
         445922      1 287ab524cfccc3a13cd7f2ece65ce2f83645b7dc     0 tools/steamvr_environments/game/core/base.fgd
           6811      1 87dcb3abd18e29ed31b6f6f7b5ded3eef2e6c776     0 tools/steamvr_environments/game/core/lights.fgd
@@ -116,7 +116,7 @@ Total bytes compressed : 86755424
           1836      1 438a29f0fb3d4d26980a629c7fad0df53572b27d     0 tools/steamvr_environments/game/core/postprocessing.fgd
         323908      1 8974403e56e80665472c958f327bb23108bfad31     0 tools/steamvr_environments/game/core/readonly_tools_asset_info.bin
           2708      1 2b3cc08b1ea95bd3ea863dbb263d73e80e9d8ac1     0 tools/steamvr_environments/game/core/test_entities.fgd
-       1003313      1 5fff3f90bd705c4ee9a6640957e4a7b7dbef85a4     0 tools/steamvr_environments/game/steamtours/readonly_tools_asset_info.bin
+       1003313      1 5564da3ffc2c40d445e6f1ce531071808965adc0     0 tools/steamvr_environments/game/steamtours/readonly_tools_asset_info.bin
           6632      1 328bbc4fb06b2eac420df41272132eb3c903c395     0 tools/steamvr_environments/game/steamtours/steamtours.fgd
          59603      1 f8f351327d19d43eabaa16b82bfaf5d69c9e41ad     0 tools/steamvr_environments/game/steamtours/tools/images/common/tools_about_banner.png
          12760      1 1099a9d42250ee0d90d20833473b8469b8110d35     0 tools/steamvr_environments/game/steamtours/tools/images/common/tools_about_image.png

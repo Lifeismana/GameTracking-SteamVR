@@ -810,7 +810,7 @@ FlushBuffer
 Found Application AutoArgs file '%s'\n
 Frame Boundary
 FreeCommandLine
-GCC: (SteamRT 5.4.0-7.really.6+steamrt1.2+srt1) 5.4.1 20160803
+GCC: (SteamRT 5.4.0-7.really.6+steamrt1.2+srt2) 5.4.1 20160803
 GLIBCXX_3.4
 GLIBCXX_3.4.15
 GLIBC_2.11

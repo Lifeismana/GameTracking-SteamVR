@@ -62,7 +62,6 @@ CreateFileW
 DeleteCriticalSection
 EnterCriticalSection
 Failed string allocation\n
-GQk6
 GetCurrentProcess
 GetCurrentProcessId
 GetCurrentThreadId

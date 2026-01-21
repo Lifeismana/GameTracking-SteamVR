@@ -2520,7 +2520,7 @@ QueryServiceConfigW
 R1h58
 RENDERDOC_GetAPI
 RPCRT4.dll
-RSDS
+RSDSm 
 R\rp\f`\v0nl
 R\vpnl
 Radio
@@ -4257,7 +4257,6 @@ joints
 k?KPm?
 keyboard
 keylength >= 2^30
-khai
 known_objects
 known_universes
 knuckles

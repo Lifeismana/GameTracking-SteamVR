@@ -47,7 +47,6 @@
 .text$x
 .xdata
 .xdata$x
-/iai
 1DoTheWork()
 1show()
 ;\r?initPainter@QWidget@@MEBAXPEAVQPainter@@@Z
@@ -217,5 +216,4 @@ r\r?inputMethodEvent@QWidget@@MEAAXPEAVQInputMethodEvent@@@Z
 start
 successfully.
 terminate
-zG-PA
 ~\f?heightForWidth@QLabel@@UEBAHH@Z

@@ -1057,7 +1057,6 @@ Parity:
 Parsing of JSON string "%s" failed: %s\n
 PerformDFUContext
 Performing DFU:\n
-Pgai
 PortName
 PostQueuedCompletionStatus
 Power Control

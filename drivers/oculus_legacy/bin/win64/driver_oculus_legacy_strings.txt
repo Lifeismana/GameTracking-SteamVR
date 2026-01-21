@@ -158,7 +158,7 @@ Oculus
 Out of thread local storage!\n
 QueryPerformanceCounter
 RPCRT4.dll
-RSDS
+RSDSq
 RaiseException
 RtlCaptureContext
 RtlLookupFunctionEntry
@@ -310,7 +310,6 @@ strstr
 tdh.dll
 terminate
 vector<T> too long
-vhai
 {ERR-001}
 {ERR-079}
 {oculus_legacy}/icons/%s_%s_alert_searching.gif

@@ -240,7 +240,6 @@ LocalizationManager
 MSVCP140.dll
 MainThrd
 MbP?
-Mgai
 NULL
 Not Available
 NotFound
@@ -257,7 +256,7 @@ PermissionDenied
 QueryPerformanceCounter
 QueryPerformanceFrequency
 RPCRT4.dll
-RSDSN
+RSDS6
 RaiseException
 Received camera frame of size %u that is larger than the block queue we are copying into %u
 ResetEvent
@@ -482,7 +481,6 @@ invalid decoded scanline length
 invalid filter
 it_it
 italian
-j0xz
 ja_jp
 japanese
 ko_kr

@@ -708,7 +708,7 @@ Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
 RPCRT4.dll
-RSDS
+RSDSI^\n
 RaiseException
 ResetEvent
 RootNode
@@ -1418,7 +1418,6 @@ refDistance
 request_handlers
 request_handlers_response
 returnAddress
-rhai
 rift_camera
 rifts
 right_controller

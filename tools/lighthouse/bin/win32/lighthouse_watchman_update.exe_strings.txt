@@ -525,6 +525,7 @@ LocalFree
 Log Erase
 Looking for %u bootloaders\n
 Looking for serial number 
+M+jdkB
 M8MF
 MAX10
 MGiI

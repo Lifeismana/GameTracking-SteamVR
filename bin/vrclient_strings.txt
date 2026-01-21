@@ -500,13 +500,9 @@ $3br
 .L1183
 .L1184
 .L1185
-.L11858
 .L1186
-.L11861
-.L11863
-.L11864
+.L11862
 .L11865
-.L11866
 .L11867
 .L11868
 .L11869
@@ -514,6 +510,10 @@ $3br
 .L11870
 .L11871
 .L11872
+.L11873
+.L11874
+.L11875
+.L11876
 .L1188
 .L1189
 .L119
@@ -538,21 +538,21 @@ $3br
 .L1206
 .L1207
 .L1208
-.L12083
-.L12085
 .L12087
-.L12088
 .L12089
 .L1209
-.L12090
 .L12091
 .L12092
 .L12093
 .L12094
 .L12095
 .L12096
+.L12097
+.L12098
+.L12099
 .L121
 .L1210
+.L12100
 .L1211
 .L1212
 .L1213
@@ -592,14 +592,14 @@ $3br
 .L1244
 .L125
 .L126
+.L1264
+.L1265
+.L1267
 .L1268
 .L1269
 .L127
-.L1271
-.L1272
+.L1270
 .L1273
-.L1274
-.L1277
 .L128
 .L1289
 .L129
@@ -824,15 +824,15 @@ $3br
 .L166
 .L1660
 .L167
-.L16755
 .L16756
-.L16758
+.L16757
 .L16759
 .L16760
 .L16761
 .L16762
 .L16763
 .L16764
+.L16765
 .L168
 .L1684
 .L169
@@ -2600,6 +2600,7 @@ $3br
 17CVRMsg_NoResponse
 17CVulkanVRRenderer
 17IVRClientInternal
+18:01:37
 18CPropertyContainer
 18CSharedBufferLinux
 18CVRChaperoneClient
@@ -2657,7 +2658,6 @@ $3br
 19CVRWatchdogHost_001
 19InMemoryInputStream
 1e+9999
-20:22:42
 20CMsaaResolveRenderer
 20CSimulatedActionBase
 20CVRBlockQueueManager
@@ -3992,6 +3992,7 @@ CHmdSystemLatest::Init(vr::EVRApplicationType, char const*) (.cold)
 CHmdSystemLatest::InitCompositorImplementations()
 CHmdSystemLatest::InitCompositorImplementations() (.cold)
 CHmdSystemLatest::InitVulkanTimingDevice(VkInstance_T*, VkPhysicalDevice_T*, VkDevice_T*, VkQueue_T*, unsigned int)
+CHmdSystemLatest::IsInputAvailableThroughBlockingMask(unsigned int)
 CHmdSystemLatest::IsInterfaceVersionValid(char const*)
 CHmdSystemLatest::IsSystemProcess()
 CHmdSystemLatest::LogMessage(unsigned long long, char const*, unsigned int, ELogLevel, char const*)
@@ -22778,7 +22779,7 @@ JArray
 JFIF
 JSON Chunk end does not aligned to a 4-byte boundary.
 JSON string too short.\n
-Jan  9 2026
+Jan 21 2026
 January
 Json::BuiltStyledStreamWriter::BuiltStyledStreamWriter(std::string const&, Json::CommentStyle::Enum, std::string const&, std::string const&, std::string const&, bool, unsigned int)
 Json::BuiltStyledStreamWriter::BuiltStyledStreamWriter(std::string const&, Json::CommentStyle::Enum, std::string const&, std::string const&, std::string const&, bool, unsigned int) (.cold)
@@ -30150,6 +30151,7 @@ non-virtual thunk to CHmdSystemLatest::GetVRStartupReason()
 non-virtual thunk to CHmdSystemLatest::GetVRSystem()
 non-virtual thunk to CHmdSystemLatest::GetWebSharedSecret()
 non-virtual thunk to CHmdSystemLatest::InitVulkanTimingDevice(VkInstance_T*, VkPhysicalDevice_T*, VkDevice_T*, VkQueue_T*, unsigned int)
+non-virtual thunk to CHmdSystemLatest::IsInputAvailableThroughBlockingMask(unsigned int)
 non-virtual thunk to CHmdSystemLatest::IsSystemProcess()
 non-virtual thunk to CHmdSystemLatest::LogMessage(unsigned long long, char const*, unsigned int, ELogLevel, char const*)
 non-virtual thunk to CHmdSystemLatest::NextSGID()

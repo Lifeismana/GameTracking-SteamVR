@@ -212,7 +212,6 @@ _initterm_e
 _invalid_parameter_noinfo_noreturn
 _register_onexit_function
 _seh_filter_dll
-`hai
 api-ms-win-crt-heap-l1-1-0.dll
 api-ms-win-crt-runtime-l1-1-0.dll
 api-ms-win-crt-stdio-l1-1-0.dll
@@ -226,7 +225,6 @@ map/set<T> too long
 memcpy
 memmove
 memset
-nqvg
 string too long
 terminate
 vector<T> too long

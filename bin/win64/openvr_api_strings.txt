@@ -284,7 +284,6 @@ $Ib?s
 11Y@
 1e+9999
 1eaB@
-2\vpP
 3 FB
 37>k
 3>N;kU
@@ -573,7 +572,6 @@ LargestUInt out of Int range
 LeaveCriticalSection
 Line %d, Column %d
 LiquidVR
-LoadLibraryExA
 LoadLibraryExW
 LoadLibraryW
 LocalContextCacheSize
@@ -990,7 +988,6 @@ Z\>z8
 [*ncd>0
 [aOni*{
 \nh?oT
-\nhai
 \nk>oB
 \r\f\v\v\n\n\t\t\t\t\t
 \tcQr

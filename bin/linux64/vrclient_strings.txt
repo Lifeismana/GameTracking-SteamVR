@@ -1394,6 +1394,7 @@ $tI(kn
 17CVRMsg_NoResponse
 17CVulkanVRRenderer
 17IVRClientInternal
+18:01:43
 18CPropertyContainer
 18CSharedBufferLinux
 18CSxrHandTrackerEXT
@@ -1457,7 +1458,6 @@ $tI(kn
 19CVkPoolableResourceI20CVkCommandBufferPoolE
 19InMemoryInputStream
 1e+9999
-20:23:13
 20CMsaaResolveRenderer
 20CSimulatedActionBase
 20CSxrCompositorOpenVR
@@ -2288,8 +2288,8 @@ BuildMatTextureDetails(float (*) [4][4], vr::ESpatialEncodeMode, vr::HmdVector4_
 Byte size calculation and serialization were inconsistent.  This may indicate a bug in protocol buffers or it may be caused by concurrent modification of the message.
 C.1141.232825
 C.71.340283
-C.77.214389
-C.9.216279
+C.77.214397
+C.9.216287
 CActionBinding::CActionBinding(CActionBinding const&)
 CActionBinding::FromJson(Json::Value const&, std::string*)
 CActionBinding::FromJson(Json::Value const&, std::string*) (.cold)
@@ -2868,6 +2868,7 @@ CHmdSystemLatest::Init(vr::EVRApplicationType, char const*) (.cold)
 CHmdSystemLatest::InitCompositorImplementations()
 CHmdSystemLatest::InitCompositorImplementations() (.cold)
 CHmdSystemLatest::InitVulkanTimingDevice(VkInstance_T*, VkPhysicalDevice_T*, VkDevice_T*, VkQueue_T*, unsigned int)
+CHmdSystemLatest::IsInputAvailableThroughBlockingMask(unsigned int)
 CHmdSystemLatest::IsInterfaceVersionValid(char const*)
 CHmdSystemLatest::IsSystemProcess()
 CHmdSystemLatest::LogMessage(unsigned long, char const*, unsigned int, ELogLevel, char const*)
@@ -22558,7 +22559,7 @@ JArray
 JFIF
 JSON Chunk end does not aligned to a 4-byte boundary.
 JSON string too short.\n
-Jan  9 2026
+Jan 21 2026
 January
 Json::BuiltStyledStreamWriter::BuiltStyledStreamWriter(std::string const&, Json::CommentStyle::Enum, std::string const&, std::string const&, std::string const&, bool, unsigned int)
 Json::BuiltStyledStreamWriter::BuiltStyledStreamWriter(std::string const&, Json::CommentStyle::Enum, std::string const&, std::string const&, std::string const&, bool, unsigned int) (.cold)
@@ -30615,6 +30616,7 @@ non-virtual thunk to CHmdSystemLatest::GetVRStartupReason()
 non-virtual thunk to CHmdSystemLatest::GetVRSystem()
 non-virtual thunk to CHmdSystemLatest::GetWebSharedSecret()
 non-virtual thunk to CHmdSystemLatest::InitVulkanTimingDevice(VkInstance_T*, VkPhysicalDevice_T*, VkDevice_T*, VkQueue_T*, unsigned int)
+non-virtual thunk to CHmdSystemLatest::IsInputAvailableThroughBlockingMask(unsigned int)
 non-virtual thunk to CHmdSystemLatest::IsSystemProcess()
 non-virtual thunk to CHmdSystemLatest::LogMessage(unsigned long, char const*, unsigned int, ELogLevel, char const*)
 non-virtual thunk to CHmdSystemLatest::NextSGID()

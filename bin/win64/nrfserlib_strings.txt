@@ -16,7 +16,6 @@
  err_code:0x
  failed. Error: 
  for detail.\n
- hai
  handlers.
  header_checksum:
  inflate 1.1.3 Copyright 1995-1998 Mark Adler 
@@ -1074,7 +1073,7 @@ QueryPerformanceFrequency
 QueueUserAPC
 RESERVED_5
 RESET_PERFORMED
-RSDSHY5?eg{@
+RSDS
 RaiseException
 Read Characteristic String
 Read Characteristic Value (handle: %d, offset: %d)\n

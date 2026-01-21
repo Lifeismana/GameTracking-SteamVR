@@ -333,6 +333,8 @@
 	"Settings_Camera_AntiFlickerSettingAuto": "Auto",
 	"Settings_Camera_AntiFlickerSetting60Hz": "60Hz",
 	"Settings_Camera_AntiFlickerSetting50Hz": "50Hz",
+	"Settings_Camera_ColorDynamicResolution": "Dynamic Resolution (Gaze-based)",
+	"Settings_Camera_ColorDynamicResolution_Desc": "Automatically adjust color camera streaming resolution based on gaze",
 
 	"Settings_Camera_RoomViewStyle": "Room View Style",
 	"Settings_Camera_RoomViewStyle_EdgeA": "Colored Edges",

@@ -290,7 +290,7 @@ Out of thread local storage!\n
 Parsing of JSON file "%s" failed: %s\n
 PeekNamedPipe
 QueryPerformanceCounter
-RSDS
+RSDS~
 RaiseException
 ReadFile
 ReadFile failed on %s after event was signaled because %s\n
@@ -521,7 +521,6 @@ fread
 free
 fseek
 ftell
-gF9E
 http://127.0.0.1:
 in Json::Value::duplicateAndPrefixStringValue(): Failed to allocate string value buffer
 in Json::Value::duplicateAndPrefixStringValue(): length too big for prefixing

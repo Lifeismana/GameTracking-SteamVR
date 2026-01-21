@@ -35,7 +35,11 @@
 	"PowerMenuCancel": "Cancel",
 	"PowerMenuSteamOverlay": "Steam",
 	"PowerMenuHeader": "Power Menu",
-
+	"Loading_IssueLanchingSteam": "There was an issue launching Steam",
+	"Loading_PleaseRestartMaybeContactSupport": "Please restart to try again. If the problem persists, please contact Steam Support at %1$s.",
+	"Loading_RestartSteamFrame": "Restart Steam Frame",
+	"Loading_RestartSteamOSDevice": "Restart Device",
+	
 	"IPD_Description" : "Distance Between Lenses",
 	"NoSteamWarning" : "Steam is not available. Some features may be disabled.",
 

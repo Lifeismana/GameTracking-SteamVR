@@ -477,6 +477,7 @@ $0option $1;\n
 0x%X\n
 1.2.5
 1A26b
+1JhK
 1e+9999
 1wsHp
 2#.google.protobuf.FieldOptions.CType:
@@ -1142,7 +1143,7 @@ QueryPerformanceCounter
 QueryPerformanceFrequency
 R1h58
 RPCRT4.dll
-RSDS
+RSDSZ
 Radio Version: %i\n
 RaiseException
 Raw mapped input (%2d):

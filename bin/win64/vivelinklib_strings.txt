@@ -5,7 +5,6 @@
 %02X
 %2.2X
 %8.8X
-%hai
 %s setup error from %s\n
 %s: ( %d ): ReadFile failed! (%s)\n
 %s: ( %d ): Unknown pipe type.\n
@@ -468,7 +467,7 @@ RANDOM
 RAW:
 READ -H %4.4X
 RESET
-RSDSvT
+RSDS&y
 RaiseException
 ReadFile
 ReadPipeResponse
@@ -827,3 +826,4 @@ vivelinklib.dll
 win64
 wn>Jj
 xdigit
+}JrE

@@ -581,7 +581,7 @@ QAf?
 QueryDepthSList
 QueryPerformanceCounter
 QueryUmsThreadInformation
-RSDS7
+RSDS
 RaiseException
 ReadConsoleW
 ReadFile
@@ -999,3 +999,4 @@ wrong protocol type
 xT?V
 xpxxxx
 xwpwpp
+}9ed
