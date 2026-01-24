@@ -1069,6 +1069,7 @@ $tAUUPE
 0-pixel image
 00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899
 00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899"
+00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899@
 0123456789abcdef
 0\tFAJ
 0a\v6<
@@ -2152,7 +2153,7 @@ IVRServerInternal_XXX
 IVRSettingsInternal_001
 IVRSettings_003
 IVRSystemLayerInternal_XXX
-IVRSystem_024
+IVRSystem_025
 IVRTrackedCameraInternal_XXX
 IVRVirtualDisplay_
 IVRVirtualDisplay_001
@@ -2243,6 +2244,7 @@ IsDebuggerPresent
 IsManual
 IsProcessorFeaturePresent
 IsValidSid
+J-ti
 JFIF
 JSON
 JSON Chunk end does not aligned to a 4-byte boundary.
@@ -2520,9 +2522,7 @@ QueryServiceConfigW
 R1h58
 RENDERDOC_GetAPI
 RPCRT4.dll
-RSDSm 
-R\rp\f`\v0nl
-R\vpnl
+RSDS
 Radio
 RaiseException
 Reached an unintended state: CPPTYPE_MESSAGE
@@ -3054,6 +3054,7 @@ VRInitError_Init_AlreadyRunning
 VRInitError_Init_AnotherAppLaunching
 VRInitError_Init_AppInfoInitFailed
 VRInitError_Init_BadLuid
+VRInitError_Init_ClientVersionAlreadyProvided
 VRInitError_Init_CouldNotStartPrism
 VRInitError_Init_DuplicateBootstrapper
 VRInitError_Init_FactoryNotFound
@@ -3068,6 +3069,7 @@ VRInitError_Init_IllegalTypeTransition
 VRInitError_Init_InitCanceledByUser
 VRInitError_Init_InstallationCorrupt
 VRInitError_Init_InstallationNotFound
+VRInitError_Init_InstallationTooOld
 VRInitError_Init_InterfaceNotFound
 VRInitError_Init_Internal
 VRInitError_Init_InvalidApplicationType
@@ -3352,7 +3354,6 @@ Zjz\v
 [packed = true] can only be specified for repeated primitive fields.
 \%03o
 \U%08x
-\fpnl
 \mfpmp.exe
 \n    Actual    : 
 \n    Field type: 
@@ -3415,7 +3416,6 @@ Zjz\v
 \u%04x
 \u%04x\u%04x
 \ufffd
-\vpnl
 \x%02x
 ] buffer "
 ] bufferView "
@@ -4482,7 +4482,6 @@ pTextureSet->pSwapchain
 pTimeline
 pTimeline != nullptr
 pTimeline->m_nRefCount > 0
-p\r`\fP\v0nl
 package
 packed
 pairing_result
@@ -4540,7 +4539,6 @@ py_generic_services
 qMFCreateMediaType failed hr = 0x%08x\n
 r2max
 rEyeFile:%s width:%d height:%d components:%d\n
-r\rp\f`\vPnl
 range
 read past buffer
 realloc

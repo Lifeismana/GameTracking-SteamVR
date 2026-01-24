@@ -327,7 +327,6 @@ $\n k_EProtoServiceTypeSteamMessages
 -1e+9999
 -IPCWrapper
 -Infinity
--OpenProcessToken failed. GetLastError returned: %d\n
 -crash
 -disablewatchdogs
 -earlyload
@@ -1645,20 +1644,18 @@ $\n k_EProtoServiceTypeSteamMessages
 0-pixel image
 00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899
 00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899"
-00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899@
 0123456789ABCDEF
 0123456789abcdef
 091@
-0l8@
-0q8@
-0z8@
+0k8@
+0x8@
 1.2.5
 1/2/4/8/16-bit only
-10:06:16
 11 4 22 44 44 22 444444
 11eU%
 127.0.0.1
 127.0.0.1:
+18:22:00
 1A26b
 1\f514
 1e+9999
@@ -1681,12 +1678,14 @@ $\n k_EProtoServiceTypeSteamMessages
 7~8A
 8O1@
 8S1@
+8X7@
 8\n\textension
 8c8f13b1-60eb-4b6a-a433-de86104115ac
 8d8f13b1-60eb-4b6a-a433-de86104115ac
 8e8f13b1-60eb-4b6a-a433-de86104115ac
 8giP9giP9giP9giP9
-8k8@
+8j8@
+8o8@
 9\n\noneof_decl
 9a&g
 : Protocol message serialized to a size different from what was originally expected.  Perhaps it was modified by another thread during serialization?
@@ -2454,7 +2453,6 @@ D3DKMTQueryAdapterInfo
 D7q/;M
 DELEGATE 
 DISABLED
-DV8@
 DXGI VSync Thread ended\n
 DXGI VSync Thread started\n
 DXGI thread failed to get SDL display index. This will happen if you are not on a direct mode display.\n
@@ -2881,13 +2879,12 @@ HTTP_REQUEST Static Content %s
 Hang the server for the specified number of seconds (default 3600)
 HasField
 Hex and octal numbers must be integers.
-Hi8@
+Hh8@
 Hmd DriverId is invalid (125)
 Hmd DriverId is our of bounds (211)
 Hmd Not Found (108)
 Hmd Not Found Presence Failed (126)
 HmdDriverFactory
-Ho8@
 HostController
 How did we get here with a non-position slot?
 I'm a teapot
@@ -3037,7 +3034,7 @@ IVRSettings_001
 IVRSettings_002
 IVRSettings_003
 IVRSystemLayerInternal_XXX
-IVRSystem_024
+IVRSystem_025
 IVRTrackedCameraInternal_XXX
 IVRVirtualDisplay_
 IVRVirtualDisplay_001
@@ -3176,7 +3173,7 @@ JFIF
 JSON Chunk end does not aligned to a 4-byte boundary.
 JSON parse error
 JSON string too short.\n
-Jan 21 2026
+Jan 23 2026
 KERNEL32.dll
 KHR_audio
 KHR_lights_punctual
@@ -3414,6 +3411,7 @@ OpenMutexA
 OpenProcess
 OpenProcess(%d) failed (%d)
 OpenProcessToken
+OpenProcessToken failed. GetLastError returned: %d\n
 OpenSCManager failed: %s
 OpenSCManagerA
 OpenSCManagerW
@@ -3468,7 +3466,6 @@ PRISM_Shutdown
 PRISM_Stop
 PT3@
 PU3@
-PV8@
 Parse error in system resource manifest %s.\n
 Parse failed
 Parse failed for JSON message in mailbox %s: %s\n
@@ -3485,10 +3482,8 @@ PerformApplicationPrelaunchCheck
 Permanent Redirect
 Perspective camera description not found.
 PerspectiveCamera
-Ph8@
-Pk7@
+Pg8@
 Playback devices:\n
-Pn8@
 PoseUpdated for invalid object ID %d\n
 PoseUpdated from driver %s (%d) for device index %d which is owned by driver %s (%d)\n
 Positional emitter description not found.
@@ -4724,6 +4719,7 @@ VRInitError_Init_AlreadyRunning
 VRInitError_Init_AnotherAppLaunching
 VRInitError_Init_AppInfoInitFailed
 VRInitError_Init_BadLuid
+VRInitError_Init_ClientVersionAlreadyProvided
 VRInitError_Init_CouldNotStartPrism
 VRInitError_Init_DuplicateBootstrapper
 VRInitError_Init_FactoryNotFound
@@ -4738,6 +4734,7 @@ VRInitError_Init_IllegalTypeTransition
 VRInitError_Init_InitCanceledByUser
 VRInitError_Init_InstallationCorrupt
 VRInitError_Init_InstallationNotFound
+VRInitError_Init_InstallationTooOld
 VRInitError_Init_InterfaceNotFound
 VRInitError_Init_Internal
 VRInitError_Init_InvalidApplicationType
@@ -5179,8 +5176,7 @@ X-Frame-Options: sameorigin\r\nContent-Security-Policy: default-src 'self'
 X91@
 XU3@
 XXXX PNG chunk not known
-Xg8@
-Xk7@
+Xf8@
 XsBI
 YUY2
 Zjz\v
@@ -6373,9 +6369,46 @@ grip
 grip_limit_transforms
 group
 guid
+h09@
+h19@
+h29@
+h39@
+h49@
+h59@
+h69@
+h79@
+h89@
 h91@
+h99@
+hA9@
+hB9@
+hC9@
+hD9@
+hE9@
+hF9@
+hG9@
+hH9@
+hI9@
+hJ9@
+hK9@
+hL9@
+hM9@
+hN9@
+hO9@
+hP9@
 hPU3
+hQ9@
+hR9@
+hS9@
+hT9@
 hU3@
+hU9@
+hV9@
+hW9@
+hX9@
+hY9@
+hZ9@
+ha9@
 half_thresholds
 hand_interaction_ext
 hand_priority
@@ -6392,31 +6425,55 @@ has_force
 has_ready_ext
 has_touch
 has_value
-he8@
+hb9@
+hc9@
+hd8@
+hd9@
+he9@
 header
 header crc mismatch
 height
 held
 hex_property
+hf9@
+hg9@
+hh9@
+hi9@
 hidden
 hide_callout
+hj9@
+hk9@
+hl9@
 hlvr/mailbox
 hlvr/webui
+hm9@
 hmdAllowsClientToControlTextureIndex
 hmd_presence
 hmd_settings_key
+hn9@
+ho9@
 holographic
 holographic_controller
+hp9@
 hpmotioncontroller
+hq9@
+hr9@
+hs9@
+ht9@
 html
 http:
 http://
 http_cb
 https:
 https://
+hu9@
 hu_hu
 hungarian
-hv8@
+hv9@
+hw9@
+hx9@
+hy9@
+hz9@
 i91k
 i]Wb
 iauds
@@ -7050,7 +7107,7 @@ path_handles
 paths
 payload
 pbrMetallicRoughness
-pd8@
+pc8@
 pending_file_saved
 perfcheck
 personal
@@ -7119,9 +7176,9 @@ property_containers
 property_contents
 property_number
 proximity
+ps8@
 pt_br
 pt_pt
-pu8@
 public
 public_dependency
 publishedfileid
@@ -7695,74 +7752,12 @@ wrong version
 ws handshake error
 wss:
 x-steamvr-secret
-x09@
-x19@
-x29@
-x39@
-x49@
-x59@
-x69@
-x79@
-x89@
 x91@
-x99@
-xA9@
-xB9@
-xC9@
-xD9@
-xE9@
-xF9@
-xG9@
-xH9@
-xI9@
-xJ9@
-xK9@
-xL9@
-xM9@
-xN9@
-xO9@
-xP9@
-xQ9@
-xR9@
-xS9@
 xT3@
-xT9@
-xU9@
-xV9@
-xW9@
-xX9@
-xY9@
-xZ9@
 x_path
-xa9@
-xb9@
-xc8@
-xc9@
-xd9@
+xb8@
 xdigit
-xe9@
-xf9@
-xg9@
-xh9@
-xi9@
-xj9@
-xk9@
-xl9@
-xm9@
 xmag
-xn9@
-xo9@
-xp9@
-xq9@
-xr9@
-xs9@
-xt9@
-xu9@
-xv9@
-xw9@
-xx9@
-xy9@
-xz9@
 y9*O
 y_path
 yfov

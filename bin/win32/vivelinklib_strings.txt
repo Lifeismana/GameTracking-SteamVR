@@ -463,7 +463,7 @@ RANDOM
 RAW:
 READ -H %4.4X
 RESET
-RSDS^z
+RSDS
 RaiseException
 ReadFile
 ReadPipeResponse
@@ -472,7 +472,6 @@ Response: %s, %s\n
 Restart:  %s\n
 RtlGetNtVersionNumbers
 Running
-RxBC
 SCAN -NAME "%s" -T %X
 SERVICES
 SERVICES -U128 %s
@@ -821,4 +820,5 @@ vivelink.exe
 vivelinklib.dll
 win64
 wn>Jj
+xL[m
 xdigit

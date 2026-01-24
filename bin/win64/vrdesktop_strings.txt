@@ -334,7 +334,7 @@ IVRServerInternal_XXX
 IVRSettingsInternal_001
 IVRSettings_003
 IVRSystemLayerInternal_XXX
-IVRSystem_024
+IVRSystem_025
 IVRTrackedCameraInternal_XXX
 Infinity
 Init
@@ -370,7 +370,7 @@ Parsing of JSON string "%s" failed: %s\n
 Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
-RSDS
+RSDS1us_p
 RaiseException
 Reinitializing output duplication for desktop %d.\n
 ResetEvent

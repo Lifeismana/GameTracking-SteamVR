@@ -521,12 +521,12 @@
 /u%d-Shm_%x
 0123456789
 0123456789ABCDEF
+02:17:47
 11CVkTimeline
 12CNonCopyable
 15CVkResourceBase
 15CVkResourcePoolI16CVkCommandBufferE
 16CVkCommandBuffer
-18:01:43
 18CPrismDisplay_Null
 18IPrismPoseProvider
 19CVkGarbageCollector
@@ -1724,7 +1724,7 @@ IsRunningInAppContainer()::s_bDeterminedAppContainerStatus
 IsRunningInAppContainer()::s_bIsRunningInAppContainer
 IsWorkstationLocked()
 JArray
-Jan 21 2026
+Jan 24 2026
 January
 Json::BuiltStyledStreamWriter::BuiltStyledStreamWriter(std::string const&, Json::CommentStyle::Enum, std::string const&, std::string const&, std::string const&, bool, unsigned int)
 Json::BuiltStyledStreamWriter::BuiltStyledStreamWriter(std::string const&, Json::CommentStyle::Enum, std::string const&, std::string const&, std::string const&, bool, unsigned int) (.cold)
@@ -9858,6 +9858,10 @@ volkLoadInstance
 volkLoadInstanceOnly
 vr-input-workshop://
 vr-marker,frame_end,type,application
+vr::CompareVersions(vr::VRVersion_t const&, vr::VRVersion_t const&)
+vr::VersionAsString(vr::VRVersion_t const&)
+vr::VersionAsString(vr::VRVersion_t const&) (.cold)
+vr::k_SteamVRVersion
 vrcore::crc32(unsigned int, void const*, unsigned long)
 vrcore::crc32(unsigned int, void const*, unsigned long)::crcTable
 vrpathreg

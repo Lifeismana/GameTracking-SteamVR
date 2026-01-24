@@ -211,7 +211,7 @@ IVRServerInternal_XXX
 IVRSettingsInternal_001
 IVRSettings_003
 IVRSystemLayerInternal_XXX
-IVRSystem_024
+IVRSystem_025
 IVRTrackedCameraInternal_XXX
 InitCameraHAL
 InitializeConditionVariable
@@ -241,7 +241,7 @@ PermissionDenied
 QueryPerformanceCounter
 QueryPerformanceFrequency
 RPCRT4.dll
-RSDS
+RSDS38
 RaiseException
 Received camera frame of size %u that is larger than the block queue we are copying into %u
 ResetEvent

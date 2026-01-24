@@ -7173,6 +7173,10 @@ void std::vector<std::string, std::allocator<std::string>>::_M_realloc_insert<st
 void std::vector<std::string, std::allocator<std::string>>::_M_realloc_insert<std::string>(__gnu_cxx::__normal_iterator<std::string*, std::vector<std::string, std::allocator<std::string>>>, std::string&&)
 void std::vector<unsigned long, std::allocator<unsigned long>>::_M_realloc_insert<unsigned long const&>(__gnu_cxx::__normal_iterator<unsigned long*, std::vector<unsigned long, std::allocator<unsigned long>>>, unsigned long const&)
 vr-input-workshop://
+vr::CompareVersions(vr::VRVersion_t const&, vr::VRVersion_t const&)
+vr::VersionAsString(vr::VRVersion_t const&)
+vr::VersionAsString(vr::VRVersion_t const&) (.cold)
+vr::k_SteamVRVersion
 vrcore::crc32(unsigned int, void const*, unsigned long)
 vrcore::crc32(unsigned int, void const*, unsigned long)::crcTable
 vsnprintf

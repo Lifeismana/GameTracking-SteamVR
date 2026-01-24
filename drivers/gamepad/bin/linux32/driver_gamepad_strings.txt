@@ -106,7 +106,7 @@
 *NSt13__facet_shims12_GLOBAL__N_115moneypunct_shimIwLb0EEE
 *NSt13__facet_shims12_GLOBAL__N_115moneypunct_shimIwLb1EEE
 *NSt6thread11_State_implINS_8_InvokerISt5tupleIJZN21CServerDriver_Gamepad4InitEPN2vr16IVRDriverContextEEUlvE_EEEEEE
--*Z13InitDriverLogPN2vr12IVRDriverLogEEUl9ELogLevelPKcPvE_
+*Z13InitDriverLogPN2vr12IVRDriverLogEEUl9ELogLevelPKcPvE_
 -+xX0123456789abcdef0123456789ABCDEF
 -+xX0123456789abcdefABCDEF
 -0123456789
@@ -5684,9 +5684,13 @@ void std::vector<CGamepadDeviceDriver*, std::allocator<CGamepadDeviceDriver*>>::
 void std::vector<CLogCallback*, std::allocator<CLogCallback*>>::_M_realloc_insert<CLogCallback* const&>(__gnu_cxx::__normal_iterator<CLogCallback**, std::vector<CLogCallback*, std::allocator<CLogCallback*>>>, CLogCallback* const&)
 void std::vector<std::string, std::allocator<std::string>>::_M_realloc_insert<std::string const&>(__gnu_cxx::__normal_iterator<std::string*, std::vector<std::string, std::allocator<std::string>>>, std::string const&)
 void std::vector<std::string, std::allocator<std::string>>::_M_realloc_insert<std::string>(__gnu_cxx::__normal_iterator<std::string*, std::vector<std::string, std::allocator<std::string>>>, std::string&&)
+vr::CompareVersions(vr::VRVersion_t const&, vr::VRVersion_t const&)
 vr::OpenVRInternal_ModuleServerDriverContext()::ctx
 vr::VRDriverContext()::pHost
+vr::VersionAsString(vr::VRVersion_t const&)
+vr::VersionAsString(vr::VRVersion_t const&) (.cold)
 vr::k_InterfaceVersions
+vr::k_SteamVRVersion
 vrcore::crc32(unsigned int, void const*, unsigned int)
 vrcore::crc32(unsigned int, void const*, unsigned int)::crcTable
 vsnprintf

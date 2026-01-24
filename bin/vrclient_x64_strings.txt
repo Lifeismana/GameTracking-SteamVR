@@ -81,7 +81,7 @@
 #OriginString_HandSource
 #OriginString_Source
 $3br
-$tI(knN0
+$tI(knNP
 %&'()*456789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
 %LocalAppData%
 %Y-%m-%d-%p_%I_%M_%S
@@ -614,6 +614,7 @@ $tI(knN0
 .?AV?$HmdInterfaceRegistration@VCVRSystem_021@@@@
 .?AV?$HmdInterfaceRegistration@VCVRSystem_022@@@@
 .?AV?$HmdInterfaceRegistration@VCVRSystem_023@@@@
+.?AV?$HmdInterfaceRegistration@VCVRSystem_024@@@@
 .?AV?$IOBufferInterfaceRegistration@VCVRIOBuffer_001@@@@
 .?AV?$IOBufferInterfaceRegistration@VCVRIOBuffer_002@@@@
 .?AV?$IPCResourceManagerClientInterfaceRegistration@VCVRIPCResourceManagerClient_001@@@@
@@ -1297,6 +1298,7 @@ $tI(knN0
 .?AVCVRSystem_021@@
 .?AVCVRSystem_022@@
 .?AVCVRSystem_023@@
+.?AVCVRSystem_024@@
 .?AVCVRTrackedCamera@vr@@
 .?AVCVRTrackedCamera_002@@
 .?AVCVRTrackedCamera_003@@
@@ -1949,7 +1951,7 @@ $tI(knN0
 0 width
 0-pixel image
 00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899
-000102030405060708091011121314151617181920212223242526272829303132333435363738394041424344454647484950515253545556575859606162636465666768697071727374757677787980818283848586878889909192939495969798998
+00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899H
 0123456789ABCDEF
 0\tFAJ
 1.0.3.16
@@ -2771,6 +2773,7 @@ ERROR
 ERROR: Failed to dup handle!\n
 ERROR: Failed to open log file %s, attempting timestamped filename\n
 ERROR: Not using DXGI1.1 (will cause flickering)!\n
+ERROR: This SteamVR Runtime is too old to support this app. SteamVR runtime version: %s, client SDK version: %s\n
 ERROR_DEVICE_LOST
 ERROR_EXTENSION_NOT_PRESENT
 ERROR_FEATURE_NOT_PRESENT
@@ -3110,6 +3113,7 @@ FnTable:IVRSystem_020
 FnTable:IVRSystem_021
 FnTable:IVRSystem_022
 FnTable:IVRSystem_023
+FnTable:IVRSystem_024
 FnTable:IVRTrackedCamera_002
 FnTable:IVRTrackedCamera_003
 FnTable:IVRTrackedCamera_004
@@ -3494,6 +3498,7 @@ IVRSystem_021
 IVRSystem_022
 IVRSystem_023
 IVRSystem_024
+IVRSystem_025
 IVRTrackedCameraInternal_XXX
 IVRTrackedCamera_
 IVRTrackedCamera_002
@@ -3679,6 +3684,7 @@ Missing haptic name in output of haptic filter %s\n
 Missing support for vkGetPhysicalDeviceImageFormatProperties2
 MoveFileExW
 MultiByteToWideChar
+N.ti
 NONE
 NORMAL
 NOT_READY
@@ -3730,6 +3736,7 @@ OpenProcessToken
 OpenProcessToken failed. GetLastError returned: %d\n
 OpenSCManagerW
 OpenServiceW
+OpenVR SDK version %s\n
 OpenXR::AddLegalInteractionProfile: g_pActiveInstance was unexpectedly null
 Optional vulkan device extension is unavailable: %s\n
 Optional vulkan instance extension is unavailable: %s\n
@@ -3754,7 +3761,7 @@ PS_SAMPLESCENE
 PS_SAMPLESCENE0
 PS_STENCIL
 PS_main
-P\r0t
+P\r0D
 Parse error in system resource manifest %s.\n
 Parse failed for JSON message in mailbox %s: %s\n
 Parsing of JSON file "%s" failed: %s\n
@@ -3997,7 +4004,7 @@ QuickCalibratePlayspace couldn't get a pose from the HMD\n
 RADV
 RGBG
 RPCRT4.dll
-RSDS
+RSDS7
 RadialMenu missing X axis input.\n
 RadialMenu missing Y axis input.\n
 RadialMenu setting 'num_buttons' not specified.\n
@@ -4882,6 +4889,7 @@ VRInitError_Init_AlreadyRunning
 VRInitError_Init_AnotherAppLaunching
 VRInitError_Init_AppInfoInitFailed
 VRInitError_Init_BadLuid
+VRInitError_Init_ClientVersionAlreadyProvided
 VRInitError_Init_CouldNotStartPrism
 VRInitError_Init_DuplicateBootstrapper
 VRInitError_Init_FactoryNotFound
@@ -4896,6 +4904,7 @@ VRInitError_Init_IllegalTypeTransition
 VRInitError_Init_InitCanceledByUser
 VRInitError_Init_InstallationCorrupt
 VRInitError_Init_InstallationNotFound
+VRInitError_Init_InstallationTooOld
 VRInitError_Init_InterfaceNotFound
 VRInitError_Init_Internal
 VRInitError_Init_InvalidApplicationType

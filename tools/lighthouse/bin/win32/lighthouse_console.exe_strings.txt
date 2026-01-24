@@ -477,7 +477,6 @@ $0option $1;\n
 0x%X\n
 1.2.5
 1A26b
-1JhK
 1e+9999
 1wsHp
 2#.google.protobuf.FieldOptions.CType:
@@ -832,6 +831,7 @@ Extension range end number must be greater than start number.
 ExtensionRange
 Extensions of MessageSets must be optional messages.
 Extensions to non-lite types can only be declared in non-lite files.  Note that you cannot extend a non-lite type to contain a lite type, but the reverse is allowed.
+F,ti
 FATAL
 FPGA susp: 
 FW App
@@ -1143,7 +1143,7 @@ QueryPerformanceCounter
 QueryPerformanceFrequency
 R1h58
 RPCRT4.dll
-RSDSZ
+RSDS
 Radio Version: %i\n
 RaiseException
 Raw mapped input (%2d):

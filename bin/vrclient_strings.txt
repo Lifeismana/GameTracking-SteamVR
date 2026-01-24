@@ -592,14 +592,14 @@ $3br
 .L1244
 .L125
 .L126
-.L1264
-.L1265
+.L1266
 .L1267
-.L1268
 .L1269
 .L127
 .L1270
-.L1273
+.L1271
+.L1272
+.L1275
 .L128
 .L1289
 .L129
@@ -2455,6 +2455,7 @@ $3br
 00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899
 0123456789
 0123456789ABCDEF
+02:17:39
 1.0.3.16
 1/2/4/8/16-bit only
 10CDriverLog
@@ -2505,6 +2506,7 @@ $3br
 13CVRSystem_021
 13CVRSystem_022
 13CVRSystem_023
+13CVRSystem_024
 14CDriverManager
 14CHmdSystem_001
 14CHmdSystem_004
@@ -2600,7 +2602,6 @@ $3br
 17CVRMsg_NoResponse
 17CVulkanVRRenderer
 17IVRClientInternal
-18:01:37
 18CPropertyContainer
 18CSharedBufferLinux
 18CVRChaperoneClient
@@ -2756,6 +2757,7 @@ $3br
 24HmdInterfaceRegistrationI13CVRSystem_021E
 24HmdInterfaceRegistrationI13CVRSystem_022E
 24HmdInterfaceRegistrationI13CVRSystem_023E
+24HmdInterfaceRegistrationI13CVRSystem_024E
 24HmdInterfaceRegistrationI8CHmd_001E
 24HmdInterfaceRegistrationI8CHmd_002E
 24HmdInterfaceRegistrationI8CHmd_003E
@@ -3975,6 +3977,7 @@ CHmdSystemLatest::GetRenderModelNameOnlyOverride(std::string&)
 CHmdSystemLatest::GetResourceFullPath(std::string const&, std::string const&)
 CHmdSystemLatest::GetResourceNames(std::vector<std::string, std::allocator<std::string>>*, std::string const&)
 CHmdSystemLatest::GetResources()
+CHmdSystemLatest::GetSDKVersion()
 CHmdSystemLatest::GetSettings()
 CHmdSystemLatest::GetSettingsDirtyCount(char const*)
 CHmdSystemLatest::GetSystemTimeBaseTicks()
@@ -4036,6 +4039,8 @@ CHmdSystemLatest::SetRemoteTransformsRx(vr::RemoteTransforms_t const*)
 CHmdSystemLatest::SetRemoteTransformsRx(vr::RemoteTransforms_t const*) (.cold)
 CHmdSystemLatest::SetRemoteTransformsTx(vr::RemoteTransforms_t const*)
 CHmdSystemLatest::SetRemoteTransformsTx(vr::RemoteTransforms_t const*) (.cold)
+CHmdSystemLatest::SetSDKVersion(vr::VRVersion_t const&)
+CHmdSystemLatest::SetSDKVersion(vr::VRVersion_t const&) (.cold)
 CHmdSystemLatest::SetVRMonitorState(vr::EVRState)
 CHmdSystemLatest::SetVRMonitorState(vr::EVRState) (.cold)
 CHmdSystemLatest::ShouldDisableWatchdogs()
@@ -16719,6 +16724,7 @@ CVRSystemLatest::SetInputCapturePids(vr::InputCapturePids_t const&)
 CVRSystemLatest::SetInputCapturePids(vr::InputCapturePids_t const&) (.cold)
 CVRSystemLatest::SetOutputDevice(unsigned long long)
 CVRSystemLatest::SetOutputDevice(unsigned long long) (.cold)
+CVRSystemLatest::SetSDKVersion(unsigned int, unsigned int, unsigned int)
 CVRSystemLatest::SetSystemBehaviorFlag(vr::EVRInternalSystemBehaviorFlags, bool)
 CVRSystemLatest::ShouldApplicationPause()
 CVRSystemLatest::ShouldApplicationReduceRenderingWork()
@@ -17710,6 +17716,55 @@ CVRSystem_023::SetDisplayVisibility(bool)
 CVRSystem_023::ShouldApplicationPause()
 CVRSystem_023::ShouldApplicationReduceRenderingWork()
 CVRSystem_023::TriggerHapticPulse(unsigned int, unsigned int, unsigned short)
+CVRSystem_024::AcknowledgeQuit_Exiting()
+CVRSystem_024::ApplyTransform(vr::TrackedDevicePose_t*, vr::TrackedDevicePose_t const*, vr::HmdMatrix34_t const*)
+CVRSystem_024::ComputeDistortion(vr::EVREye, float, float, vr::DistortionCoordinates_t*)
+CVRSystem_024::GetAppContainerFilePaths(char*, unsigned int)
+CVRSystem_024::GetArrayTrackedDeviceProperty(unsigned int, vr::ETrackedDeviceProperty, unsigned int, void*, unsigned int, vr::ETrackedPropertyError*)
+CVRSystem_024::GetBoolTrackedDeviceProperty(unsigned int, vr::ETrackedDeviceProperty, vr::ETrackedPropertyError*)
+CVRSystem_024::GetButtonIdNameFromEnum(vr::EVRButtonId)
+CVRSystem_024::GetControllerAxisTypeNameFromEnum(vr::EVRControllerAxisType)
+CVRSystem_024::GetControllerRoleForTrackedDeviceIndex(unsigned int)
+CVRSystem_024::GetControllerState(unsigned int, vr::VRControllerState001_t*, unsigned int)
+CVRSystem_024::GetControllerStateWithPose(vr::ETrackingUniverseOrigin, unsigned int, vr::VRControllerState001_t*, unsigned int, vr::TrackedDevicePose_t*)
+CVRSystem_024::GetD3D9AdapterIndex()
+CVRSystem_024::GetDXGIOutputInfo(int*)
+CVRSystem_024::GetDeviceToAbsoluteTrackingPose(vr::ETrackingUniverseOrigin, float, vr::TrackedDevicePose_t*, unsigned int)
+CVRSystem_024::GetEventTypeNameFromEnum(vr::EVREventType)
+CVRSystem_024::GetEyeToHeadTransform(vr::EVREye)
+CVRSystem_024::GetEyeTrackedFoveationCenter(vr::HmdVector2_t*, vr::HmdVector2_t*)
+CVRSystem_024::GetEyeTrackedFoveationCenterForProjection(vr::HmdMatrix44_t const*, vr::HmdVector2_t*)
+CVRSystem_024::GetFloatTrackedDeviceProperty(unsigned int, vr::ETrackedDeviceProperty, vr::ETrackedPropertyError*)
+CVRSystem_024::GetHiddenAreaMesh(vr::EVREye, vr::EHiddenAreaMeshType)
+CVRSystem_024::GetInt32TrackedDeviceProperty(unsigned int, vr::ETrackedDeviceProperty, vr::ETrackedPropertyError*)
+CVRSystem_024::GetMatrix34TrackedDeviceProperty(unsigned int, vr::ETrackedDeviceProperty, vr::ETrackedPropertyError*)
+CVRSystem_024::GetOutputDevice(unsigned long long*, vr::ETextureType, VkInstance_T*)
+CVRSystem_024::GetProjectionMatrix(vr::EVREye, float, float)
+CVRSystem_024::GetProjectionRaw(vr::EVREye, float*, float*, float*, float*)
+CVRSystem_024::GetPropErrorNameFromEnum(vr::ETrackedPropertyError)
+CVRSystem_024::GetRawZeroPoseToStandingAbsoluteTrackingPose()
+CVRSystem_024::GetRecommendedRenderTargetSize(unsigned int*, unsigned int*)
+CVRSystem_024::GetRuntimeVersion()
+CVRSystem_024::GetSeatedZeroPoseToStandingAbsoluteTrackingPose()
+CVRSystem_024::GetSortedTrackedDeviceIndicesOfClass(vr::ETrackedDeviceClass, unsigned int*, unsigned int, unsigned int)
+CVRSystem_024::GetStringTrackedDeviceProperty(unsigned int, vr::ETrackedDeviceProperty, char*, unsigned int, vr::ETrackedPropertyError*)
+CVRSystem_024::GetTimeSinceLastVsync(float*, unsigned long long*)
+CVRSystem_024::GetTrackedDeviceActivityLevel(unsigned int)
+CVRSystem_024::GetTrackedDeviceClass(unsigned int)
+CVRSystem_024::GetTrackedDeviceIndexForControllerRole(vr::ETrackedControllerRole)
+CVRSystem_024::GetUint64TrackedDeviceProperty(unsigned int, vr::ETrackedDeviceProperty, vr::ETrackedPropertyError*)
+CVRSystem_024::IsDisplayOnDesktop()
+CVRSystem_024::IsInputAvailable()
+CVRSystem_024::IsSteamVRDrawingControllers()
+CVRSystem_024::IsTrackedDeviceConnected(unsigned int)
+CVRSystem_024::PerformFirmwareUpdate(unsigned int)
+CVRSystem_024::PollNextEvent(vr::VREvent_t*, unsigned int)
+CVRSystem_024::PollNextEventWithPose(vr::ETrackingUniverseOrigin, vr::VREvent_t*, unsigned int, vr::TrackedDevicePose_t*)
+CVRSystem_024::PollNextEventWithPoseAndOverlays(vr::ETrackingUniverseOrigin, vr::VREvent_t*, unsigned int, vr::TrackedDevicePose_t*, unsigned long long*)
+CVRSystem_024::SetDisplayVisibility(bool)
+CVRSystem_024::ShouldApplicationPause()
+CVRSystem_024::ShouldApplicationReduceRenderingWork()
+CVRSystem_024::TriggerHapticPulse(unsigned int, unsigned int, unsigned short)
 CVRTrackedCameraExternalService::CVRTrackedCameraExternalService()
 CVRTrackedCameraExternalService::Cleanup()
 CVRTrackedCameraExternalService::GetTrackedCamera()
@@ -18306,6 +18361,7 @@ Duplicate key: '
 ERROR
 ERROR: Failed to open log file %s, attempting timestamped filename\n
 ERROR: Steam launcher service not detected. Cannot execute at host level for elevated privileges.
+ERROR: This SteamVR Runtime is too old to support this app. SteamVR runtime version: %s, client SDK version: %s\n
 ERROR_DEVICE_LOST
 ERROR_EXTENSION_NOT_PRESENT
 ERROR_FEATURE_NOT_PRESENT
@@ -18712,6 +18768,7 @@ FnTable:IVRSystem_020
 FnTable:IVRSystem_021
 FnTable:IVRSystem_022
 FnTable:IVRSystem_023
+FnTable:IVRSystem_024
 FnTable:IVRTrackedCamera_002
 FnTable:IVRTrackedCamera_003
 FnTable:IVRTrackedCamera_004
@@ -19072,6 +19129,8 @@ HmdInterfaceRegistration<CVRSystem_022>::GetInterface()
 HmdInterfaceRegistration<CVRSystem_022>::~HmdInterfaceRegistration()
 HmdInterfaceRegistration<CVRSystem_023>::GetInterface()
 HmdInterfaceRegistration<CVRSystem_023>::~HmdInterfaceRegistration()
+HmdInterfaceRegistration<CVRSystem_024>::GetInterface()
+HmdInterfaceRegistration<CVRSystem_024>::~HmdInterfaceRegistration()
 HmdMatrix34FromJson(Json::Value const&, vr::HmdMatrix34_t&)
 HmdMatrix34ToJson(vr::HmdMatrix34_t const&)
 HmdMatrix34ToJson(vr::HmdMatrix34_t const&) (.cold)
@@ -22500,6 +22559,56 @@ IVRSystem_023_FnTable_ShouldApplicationPause()
 IVRSystem_023_FnTable_ShouldApplicationReduceRenderingWork()
 IVRSystem_023_FnTable_TriggerHapticPulse(unsigned int, unsigned int, unsigned short)
 IVRSystem_024
+IVRSystem_024_FnTable_AcknowledgeQuit_Exiting()
+IVRSystem_024_FnTable_ApplyTransform(vr::TrackedDevicePose_t*, vr::TrackedDevicePose_t const*, vr::HmdMatrix34_t const*)
+IVRSystem_024_FnTable_ComputeDistortion(vr::EVREye, float, float, vr::DistortionCoordinates_t*)
+IVRSystem_024_FnTable_GetAppContainerFilePaths(char*, unsigned int)
+IVRSystem_024_FnTable_GetArrayTrackedDeviceProperty(unsigned int, vr::ETrackedDeviceProperty, unsigned int, void*, unsigned int, vr::ETrackedPropertyError*)
+IVRSystem_024_FnTable_GetBoolTrackedDeviceProperty(unsigned int, vr::ETrackedDeviceProperty, vr::ETrackedPropertyError*)
+IVRSystem_024_FnTable_GetButtonIdNameFromEnum(vr::EVRButtonId)
+IVRSystem_024_FnTable_GetControllerAxisTypeNameFromEnum(vr::EVRControllerAxisType)
+IVRSystem_024_FnTable_GetControllerRoleForTrackedDeviceIndex(unsigned int)
+IVRSystem_024_FnTable_GetControllerState(unsigned int, vr::VRControllerState001_t*, unsigned int)
+IVRSystem_024_FnTable_GetControllerStateWithPose(vr::ETrackingUniverseOrigin, unsigned int, vr::VRControllerState001_t*, unsigned int, vr::TrackedDevicePose_t*)
+IVRSystem_024_FnTable_GetD3D9AdapterIndex()
+IVRSystem_024_FnTable_GetDXGIOutputInfo(int*)
+IVRSystem_024_FnTable_GetDeviceToAbsoluteTrackingPose(vr::ETrackingUniverseOrigin, float, vr::TrackedDevicePose_t*, unsigned int)
+IVRSystem_024_FnTable_GetEventTypeNameFromEnum(vr::EVREventType)
+IVRSystem_024_FnTable_GetEyeToHeadTransform(vr::EVREye)
+IVRSystem_024_FnTable_GetEyeTrackedFoveationCenter(vr::HmdVector2_t*, vr::HmdVector2_t*)
+IVRSystem_024_FnTable_GetEyeTrackedFoveationCenterForProjection(vr::HmdMatrix44_t const*, vr::HmdVector2_t*)
+IVRSystem_024_FnTable_GetFloatTrackedDeviceProperty(unsigned int, vr::ETrackedDeviceProperty, vr::ETrackedPropertyError*)
+IVRSystem_024_FnTable_GetHiddenAreaMesh(vr::EVREye, vr::EHiddenAreaMeshType)
+IVRSystem_024_FnTable_GetInt32TrackedDeviceProperty(unsigned int, vr::ETrackedDeviceProperty, vr::ETrackedPropertyError*)
+IVRSystem_024_FnTable_GetMatrix34TrackedDeviceProperty(unsigned int, vr::ETrackedDeviceProperty, vr::ETrackedPropertyError*)
+IVRSystem_024_FnTable_GetOutputDevice(unsigned long long*, vr::ETextureType, VkInstance_T*)
+IVRSystem_024_FnTable_GetProjectionMatrix(vr::EVREye, float, float)
+IVRSystem_024_FnTable_GetProjectionRaw(vr::EVREye, float*, float*, float*, float*)
+IVRSystem_024_FnTable_GetPropErrorNameFromEnum(vr::ETrackedPropertyError)
+IVRSystem_024_FnTable_GetRawZeroPoseToStandingAbsoluteTrackingPose()
+IVRSystem_024_FnTable_GetRecommendedRenderTargetSize(unsigned int*, unsigned int*)
+IVRSystem_024_FnTable_GetRuntimeVersion()
+IVRSystem_024_FnTable_GetSeatedZeroPoseToStandingAbsoluteTrackingPose()
+IVRSystem_024_FnTable_GetSortedTrackedDeviceIndicesOfClass(vr::ETrackedDeviceClass, unsigned int*, unsigned int, unsigned int)
+IVRSystem_024_FnTable_GetStringTrackedDeviceProperty(unsigned int, vr::ETrackedDeviceProperty, char*, unsigned int, vr::ETrackedPropertyError*)
+IVRSystem_024_FnTable_GetTimeSinceLastVsync(float*, unsigned long long*)
+IVRSystem_024_FnTable_GetTrackedDeviceActivityLevel(unsigned int)
+IVRSystem_024_FnTable_GetTrackedDeviceClass(unsigned int)
+IVRSystem_024_FnTable_GetTrackedDeviceIndexForControllerRole(vr::ETrackedControllerRole)
+IVRSystem_024_FnTable_GetUint64TrackedDeviceProperty(unsigned int, vr::ETrackedDeviceProperty, vr::ETrackedPropertyError*)
+IVRSystem_024_FnTable_IsDisplayOnDesktop()
+IVRSystem_024_FnTable_IsInputAvailable()
+IVRSystem_024_FnTable_IsSteamVRDrawingControllers()
+IVRSystem_024_FnTable_IsTrackedDeviceConnected(unsigned int)
+IVRSystem_024_FnTable_PerformFirmwareUpdate(unsigned int)
+IVRSystem_024_FnTable_PollNextEvent(vr::VREvent_t*, unsigned int)
+IVRSystem_024_FnTable_PollNextEventWithPose(vr::ETrackingUniverseOrigin, vr::VREvent_t*, unsigned int, vr::TrackedDevicePose_t*)
+IVRSystem_024_FnTable_PollNextEventWithPoseAndOverlays(vr::ETrackingUniverseOrigin, vr::VREvent_t*, unsigned int, vr::TrackedDevicePose_t*, unsigned long long*)
+IVRSystem_024_FnTable_SetDisplayVisibility(bool)
+IVRSystem_024_FnTable_ShouldApplicationPause()
+IVRSystem_024_FnTable_ShouldApplicationReduceRenderingWork()
+IVRSystem_024_FnTable_TriggerHapticPulse(unsigned int, unsigned int, unsigned short)
+IVRSystem_025
 IVRTrackedCameraInternal_XXX
 IVRTrackedCamera_
 IVRTrackedCamera_002
@@ -22779,7 +22888,7 @@ JArray
 JFIF
 JSON Chunk end does not aligned to a 4-byte boundary.
 JSON string too short.\n
-Jan 21 2026
+Jan 24 2026
 January
 Json::BuiltStyledStreamWriter::BuiltStyledStreamWriter(std::string const&, Json::CommentStyle::Enum, std::string const&, std::string const&, std::string const&, bool, unsigned int)
 Json::BuiltStyledStreamWriter::BuiltStyledStreamWriter(std::string const&, Json::CommentStyle::Enum, std::string const&, std::string const&, std::string const&, bool, unsigned int) (.cold)
@@ -23725,6 +23834,7 @@ OpenKeyboard(TVRSharedState<VRSystemLayerState_t, false>*, unsigned long long, E
 OpenKeyboard(TVRSharedState<VRSystemLayerState_t, false>*, unsigned long long, EKeyboardState, vr::EGamepadTextInputMode, vr::EGamepadTextInputLineMode, char const*, unsigned int, char const*, unsigned int, unsigned long long) (.cold)
 OpenURL(char const*)
 OpenURL(char const*) (.cold)
+OpenVR SDK version %s\n
 OpenVR_EnsurePathRegistryIntact(std::vector<std::string, std::allocator<std::string>>*)
 OpenVR_EnsurePathRegistryIntact(std::vector<std::string, std::allocator<std::string>>*) (.cold)
 OpenVR_ReadVersionFile(std::string&, unsigned int*)
@@ -25469,6 +25579,7 @@ VRInitError_Init_AlreadyRunning
 VRInitError_Init_AnotherAppLaunching
 VRInitError_Init_AppInfoInitFailed
 VRInitError_Init_BadLuid
+VRInitError_Init_ClientVersionAlreadyProvided
 VRInitError_Init_CouldNotStartPrism
 VRInitError_Init_DuplicateBootstrapper
 VRInitError_Init_FactoryNotFound
@@ -25483,6 +25594,7 @@ VRInitError_Init_IllegalTypeTransition
 VRInitError_Init_InitCanceledByUser
 VRInitError_Init_InstallationCorrupt
 VRInitError_Init_InstallationNotFound
+VRInitError_Init_InstallationTooOld
 VRInitError_Init_InterfaceNotFound
 VRInitError_Init_Internal
 VRInitError_Init_InvalidApplicationType
@@ -25803,6 +25915,7 @@ VROverlayFlags_IgnoreTextureAlpha
 VROverlayFlags_IsPremultiplied
 VROverlayFlags_MakeOverlaysInteractiveIfVisible
 VROverlayFlags_MultiCursor
+VROverlayFlags_NoBackside
 VROverlayFlags_NoDashboardTab
 VROverlayFlags_Panorama
 VROverlayFlags_ProtectedContent
@@ -26279,6 +26392,7 @@ VR_IVRSystem_FnTable_PollNextEvent(VREvent_t*, unsigned int)
 VR_IVRSystem_FnTable_PollNextEventWithPose(ETrackingUniverseOrigin, VREvent_t*, unsigned int, TrackedDevicePose_t*)
 VR_IVRSystem_FnTable_PollNextEventWithPoseAndOverlays(ETrackingUniverseOrigin, VREvent_t*, unsigned int, TrackedDevicePose_t*, unsigned long long*)
 VR_IVRSystem_FnTable_SetDisplayVisibility(bool)
+VR_IVRSystem_FnTable_SetSDKVersion(unsigned int, unsigned int, unsigned int)
 VR_IVRSystem_FnTable_ShouldApplicationPause()
 VR_IVRSystem_FnTable_ShouldApplicationReduceRenderingWork()
 VR_IVRSystem_FnTable_TriggerHapticPulse(unsigned int, unsigned int, unsigned short)
@@ -29003,6 +29117,7 @@ g_IVRSystem_020_FnTable
 g_IVRSystem_021_FnTable
 g_IVRSystem_022_FnTable
 g_IVRSystem_023_FnTable
+g_IVRSystem_024_FnTable
 g_IVRTrackedCamera_002_FnTable
 g_IVRTrackedCamera_003_FnTable
 g_IVRTrackedCamera_004_FnTable
@@ -30141,6 +30256,7 @@ non-virtual thunk to CHmdSystemLatest::GetRenderModelNameOnlyOverride(std::strin
 non-virtual thunk to CHmdSystemLatest::GetResourceFullPath(std::string const&, std::string const&)
 non-virtual thunk to CHmdSystemLatest::GetResourceNames(std::vector<std::string, std::allocator<std::string>>*, std::string const&)
 non-virtual thunk to CHmdSystemLatest::GetResources()
+non-virtual thunk to CHmdSystemLatest::GetSDKVersion()
 non-virtual thunk to CHmdSystemLatest::GetSettings()
 non-virtual thunk to CHmdSystemLatest::GetSettingsDirtyCount(char const*)
 non-virtual thunk to CHmdSystemLatest::GetSystemTimeBaseTicks()
@@ -30178,6 +30294,7 @@ non-virtual thunk to CHmdSystemLatest::SetMasterProcessRestartHint()
 non-virtual thunk to CHmdSystemLatest::SetMasterProcessToThis()
 non-virtual thunk to CHmdSystemLatest::SetRemoteTransformsRx(vr::RemoteTransforms_t const*)
 non-virtual thunk to CHmdSystemLatest::SetRemoteTransformsTx(vr::RemoteTransforms_t const*)
+non-virtual thunk to CHmdSystemLatest::SetSDKVersion(vr::VRVersion_t const&)
 non-virtual thunk to CHmdSystemLatest::SetVRMonitorState(vr::EVRState)
 non-virtual thunk to CHmdSystemLatest::ShouldDisableWatchdogs()
 non-virtual thunk to CHmdSystemLatest::ShouldShowTrackerUI()
@@ -36136,6 +36253,7 @@ typeinfo for CVRSystem_020
 typeinfo for CVRSystem_021
 typeinfo for CVRSystem_022
 typeinfo for CVRSystem_023
+typeinfo for CVRSystem_024
 typeinfo for CVRTrackedCamera_002
 typeinfo for CVRTrackedCamera_003
 typeinfo for CVRTrackedCamera_004
@@ -36240,6 +36358,7 @@ typeinfo for HmdInterfaceRegistration<CVRSystem_020>
 typeinfo for HmdInterfaceRegistration<CVRSystem_021>
 typeinfo for HmdInterfaceRegistration<CVRSystem_022>
 typeinfo for HmdInterfaceRegistration<CVRSystem_023>
+typeinfo for HmdInterfaceRegistration<CVRSystem_024>
 typeinfo for IHmdSystem_002
 typeinfo for IHmdSystem_003
 typeinfo for IInputFilter
@@ -37382,6 +37501,7 @@ typeinfo name for CVRSystem_020
 typeinfo name for CVRSystem_021
 typeinfo name for CVRSystem_022
 typeinfo name for CVRSystem_023
+typeinfo name for CVRSystem_024
 typeinfo name for CVRTrackedCamera_002
 typeinfo name for CVRTrackedCamera_003
 typeinfo name for CVRTrackedCamera_004
@@ -37486,6 +37606,7 @@ typeinfo name for HmdInterfaceRegistration<CVRSystem_020>
 typeinfo name for HmdInterfaceRegistration<CVRSystem_021>
 typeinfo name for HmdInterfaceRegistration<CVRSystem_022>
 typeinfo name for HmdInterfaceRegistration<CVRSystem_023>
+typeinfo name for HmdInterfaceRegistration<CVRSystem_024>
 typeinfo name for IHmdSystem_002
 typeinfo name for IHmdSystem_003
 typeinfo name for IInputFilter
@@ -39691,6 +39812,7 @@ vr::CVRTrackedCamera::StartVideoStream(unsigned int) (.cold)
 vr::CVRTrackedCamera::StopVideoStream(unsigned int)
 vr::CVRTrackedCamera::StopVideoStream(unsigned int) (.cold)
 vr::CVRTrackedCamera::~CVRTrackedCamera()
+vr::CompareVersions(vr::VRVersion_t const&, vr::VRVersion_t const&)
 vr::ETrackedPropertyError vr::CVRPathHelpers::GetPathAsVector<VRInputValue_t>(unsigned long long, unsigned long long, unsigned int, std::vector<VRInputValue_t, std::allocator<VRInputValue_t>>*)
 vr::ETrackedPropertyError vr::CVRPathHelpers::GetPathAsVector<vr::HmdQuad_t>(unsigned long long, unsigned long long, unsigned int, std::vector<vr::HmdQuad_t, std::allocator<vr::HmdQuad_t>>*)
 vr::GetBooleanInput(unsigned long long, unsigned long long)
@@ -39729,7 +39851,10 @@ vr::SetBitInBitmask(unsigned int*, unsigned int, bool)
 vr::VRMessageOverlayMessageDetails::Clear()
 vr::VRMessageOverlayMessageDetails::CopyTo(vr::VRMessageOverlayMessageDetails&) const
 vr::VRMessageOverlayMessageDetails::Set(unsigned int, char const*, char const*, char const**)
+vr::VersionAsString(vr::VRVersion_t const&)
+vr::VersionAsString(vr::VRVersion_t const&) (.cold)
 vr::k_DefaultPathWriteOptions
+vr::k_SteamVRVersion
 vrIOBuffer001
 vrIPCResourceManagerClient001
 vrIPCResourceManagerClient002
@@ -40043,6 +40168,8 @@ vrsystem022
 vrsystem022_FnTable
 vrsystem023
 vrsystem023_FnTable
+vrsystem024
+vrsystem024_FnTable
 vrtrackedcamera002
 vrtrackedcamera002_FnTable
 vrtrackedcamera003
@@ -40547,6 +40674,7 @@ vtable for CVRSystem_020
 vtable for CVRSystem_021
 vtable for CVRSystem_022
 vtable for CVRSystem_023
+vtable for CVRSystem_024
 vtable for CVRTrackedCamera_002
 vtable for CVRTrackedCamera_003
 vtable for CVRTrackedCamera_004
@@ -40630,6 +40758,7 @@ vtable for HmdInterfaceRegistration<CVRSystem_020>
 vtable for HmdInterfaceRegistration<CVRSystem_021>
 vtable for HmdInterfaceRegistration<CVRSystem_022>
 vtable for HmdInterfaceRegistration<CVRSystem_023>
+vtable for HmdInterfaceRegistration<CVRSystem_024>
 vtable for IHmdSystem_002
 vtable for IHmdSystem_003
 vtable for IOBufferInterfaceRegistration<CVRIOBuffer_001>

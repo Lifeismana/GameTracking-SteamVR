@@ -1442,7 +1442,7 @@ IVRServerInternal_XXX
 IVRSettingsInternal_001
 IVRSettings_003
 IVRSystemLayerInternal_XXX
-IVRSystem_024
+IVRSystem_025
 IVRTrackedCameraInternal_XXX
 IVRVirtualDisplay_002
 IVRWatchdogProvider_001
@@ -1748,9 +1748,8 @@ R##Fe
 R;vM;
 RPCRT4.dll
 RRvM;;
-RSDS+
+RSDS
 RX Fail:%d
-R\vpL
 RaiseException
 Received 0 byte message on control connection. Disconnecting
 Received GPU Architecture %d\n

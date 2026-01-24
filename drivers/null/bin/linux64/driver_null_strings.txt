@@ -447,7 +447,6 @@ StringToUint64(std::string const&)
 StringToUpper(std::string const&)
 StringToUpper(std::string const&) (.cold)
 Sunday
-Svk*
 TLS init function for 
 TLS wrapper function for 
 Thursday

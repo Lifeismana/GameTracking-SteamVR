@@ -128,7 +128,6 @@ $@NVAPI_SKIP_UNLOAD
 -1e+9999
 -IPCWrapper
 -Infinity
--IsWorkstationLocked::IsRemoteSession unexpected response length %d != 1\n
 -L.png
 -Layer.png
 -Mips
@@ -942,8 +941,8 @@ $@NVAPI_SKIP_UNLOAD
 1.2.5
 1.5.26
 1/2/4/8/16-bit only
-10:06:16
 123456789
+18:22:00
 1A26b
 1e+9999
 1wsHp
@@ -2249,7 +2248,7 @@ IVRSettingsInternal_001
 IVRSettings_001
 IVRSettings_003
 IVRSystemLayerInternal_XXX
-IVRSystem_024
+IVRSystem_025
 IVRTrackedCameraInternal_XXX
 IVRTrackedCamera_006
 IVRVirtualDisplay_
@@ -2340,9 +2339,10 @@ IsProcessorFeaturePresent
 IsValidSid
 IsWindowVisible
 IsWorkstationLocked: WTSQuerySessionInformation returned unknown level %d\n
+IsWorkstationLocked::IsRemoteSession unexpected response length %d != 1\n
 It shouldn't be possible to add a child twice because of move semantics
 JFIF
-Jan 21 2026
+Jan 23 2026
 Journaling %s\n
 KERNEL32.dll
 Kernel32.dll
@@ -3529,6 +3529,7 @@ VRInitError_Init_AlreadyRunning
 VRInitError_Init_AnotherAppLaunching
 VRInitError_Init_AppInfoInitFailed
 VRInitError_Init_BadLuid
+VRInitError_Init_ClientVersionAlreadyProvided
 VRInitError_Init_CouldNotStartPrism
 VRInitError_Init_DuplicateBootstrapper
 VRInitError_Init_FactoryNotFound
@@ -3543,6 +3544,7 @@ VRInitError_Init_IllegalTypeTransition
 VRInitError_Init_InitCanceledByUser
 VRInitError_Init_InstallationCorrupt
 VRInitError_Init_InstallationNotFound
+VRInitError_Init_InstallationTooOld
 VRInitError_Init_InterfaceNotFound
 VRInitError_Init_Internal
 VRInitError_Init_InvalidApplicationType
@@ -4583,7 +4585,7 @@ c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\simpledraw.cpp
 c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\standaloneoverlays.cpp
 c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\standaloneoverlays.cpp:36
 c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\systemlayer.cpp
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\systemlayer.cpp:1304
+c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\systemlayer.cpp:1306
 c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\systemlayer.cpp:844
 c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\trackeddevicerenderer.cpp:28
 c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\trackeddevicerenderer.cpp:297
@@ -4809,6 +4811,7 @@ exit
 expected marker
 expecting another \u token to begin the second half of a unicode surrogate pair
 external_drivers
+f.ti
 fP~V
 fade-distance
 fadeSharpness

@@ -467,7 +467,7 @@ RANDOM
 RAW:
 READ -H %4.4X
 RESET
-RSDS&y
+RSDSx
 RaiseException
 ReadFile
 ReadPipeResponse
@@ -826,4 +826,3 @@ vivelinklib.dll
 win64
 wn>Jj
 xdigit
-}JrE

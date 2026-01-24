@@ -259,7 +259,7 @@
 ??_7ctype_base@std@@6B@
 ??_7facet@locale@std@@6B@
 ??_7ios_base@std@@6B@
-?Invalid data!
+?General reset
 ?VRCamera_Open@vrcamera@@YA?AV?$unique_ptr@VIVRCamera@vrcamera@@U?$default_delete@VIVRCamera@vrcamera@@@std@@@std@@GG@Z
 ?VRCamera_Open@vrcamera@@YA?AV?$unique_ptr@VIVRCamera@vrcamera@@U?$default_delete@VIVRCamera@vrcamera@@@std@@@std@@XZ
 ?_BADOFF@std@@3_JB
@@ -449,7 +449,6 @@ Found a watchman device already in the bootloader...\n
 Found all expected bootloaders\n
 FreeLibrary
 Fuel Gauge Reset
-General reset
 GetCurrentProcess
 GetCurrentProcessId
 GetCurrentThread
@@ -506,10 +505,12 @@ InitializeConditionVariable
 InitializeCriticalSection
 InitializeCriticalSectionAndSpinCount
 InitializeSListHead
+Invalid data!
 IsDebuggerPresent
 IsProcessorFeaturePresent
 JSON
 JSON Update
+K,ti
 KERNEL32.dll
 LHR BL
 LHR-
@@ -525,7 +526,6 @@ LocalFree
 Log Erase
 Looking for %u bootloaders\n
 Looking for serial number 
-M+jdkB
 M8MF
 MAX10
 MGiI
@@ -566,7 +566,7 @@ Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
 R1h58
-RSDS
+RSDS4
 Radio version:      
 RaiseException
 ReadFile

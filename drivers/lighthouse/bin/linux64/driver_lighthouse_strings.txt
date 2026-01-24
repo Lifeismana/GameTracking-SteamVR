@@ -888,6 +888,7 @@ $3br
 0123456789
 0123456789ABCDEF
 0123456789abcdef
+02:17:47
 0x%08llx
 1.2.5
 1/2/4/8/16-bit only
@@ -949,7 +950,6 @@ $3br
 17CFirmwareManifest
 17CImuTrackerThread
 17CLinuxVideoStream
-18:01:43
 18CPropertyContainer
 18IUsbDeviceCallback
 19CVkGarbageCollector
@@ -4722,7 +4722,7 @@ IVRSettingsInternal_001
 IVRSettings_001
 IVRSettings_003
 IVRSystemLayerInternal_XXX
-IVRSystem_024
+IVRSystem_025
 IVRTrackedCameraInternal_XXX
 IVRVirtualDisplay001_Version
 IVRVirtualDisplay_
@@ -4905,7 +4905,7 @@ JSON
 JSON Chunk end does not aligned to a 4-byte boundary.
 JSON Update
 JSON string too short.\n
-Jan 21 2026
+Jan 24 2026
 January
 Json::BuiltStyledStreamWriter::BuiltStyledStreamWriter(std::string const&, Json::CommentStyle::Enum, std::string const&, std::string const&, std::string const&, bool, unsigned int)
 Json::BuiltStyledStreamWriter::BuiltStyledStreamWriter(std::string const&, Json::CommentStyle::Enum, std::string const&, std::string const&, std::string const&, bool, unsigned int) (.cold)
@@ -7534,6 +7534,7 @@ VRInitError_Init_AlreadyRunning
 VRInitError_Init_AnotherAppLaunching
 VRInitError_Init_AppInfoInitFailed
 VRInitError_Init_BadLuid
+VRInitError_Init_ClientVersionAlreadyProvided
 VRInitError_Init_CouldNotStartPrism
 VRInitError_Init_DuplicateBootstrapper
 VRInitError_Init_FactoryNotFound
@@ -7548,6 +7549,7 @@ VRInitError_Init_IllegalTypeTransition
 VRInitError_Init_InitCanceledByUser
 VRInitError_Init_InstallationCorrupt
 VRInitError_Init_InstallationNotFound
+VRInitError_Init_InstallationTooOld
 VRInitError_Init_InterfaceNotFound
 VRInitError_Init_Internal
 VRInitError_Init_InvalidApplicationType
@@ -7851,6 +7853,7 @@ VROverlayFlags_IgnoreTextureAlpha
 VROverlayFlags_IsPremultiplied
 VROverlayFlags_MakeOverlaysInteractiveIfVisible
 VROverlayFlags_MultiCursor
+VROverlayFlags_NoBackside
 VROverlayFlags_NoDashboardTab
 VROverlayFlags_Panorama
 VROverlayFlags_ProtectedContent
@@ -22406,6 +22409,7 @@ vr-marker,frame_end,type,application
 vr::BlockQueueError_None == vr_internal::VRBlockQueue()->Create( &m_ulRawCameraQueue, "/lighthouse/camera/raw_frames", nFrameBufferDataSize, 512, nDefaultFrameQueueSize )
 vr::CVRPropertyHelpers::GetStringProperty(unsigned long, vr::ETrackedDeviceProperty, vr::ETrackedPropertyError*)
 vr::CameraVideoStreamFormatFromFourCC(unsigned int)
+vr::CompareVersions(vr::VRVersion_t const&, vr::VRVersion_t const&)
 vr::IVRDriverDirectModeComponent::CreateSwapTextureSet(unsigned int, vr::IVRDriverDirectModeComponent::SwapTextureSetDesc_t const*, vr::IVRDriverDirectModeComponent::SwapTextureSet_t*)
 vr::IVRDriverDirectModeComponent::DestroySwapTextureSet(unsigned long)
 vr::IVRDriverDirectModeComponent::GetFrameTiming(vr::DriverDirectMode_FrameTiming*)
@@ -22420,8 +22424,11 @@ vr::TrackedCamera_ConvertMJPGToRGBX32_CPU(void const*, int, void*, int, int)
 vr::TrackedCamera_ConvertNV12ToRGBX32_CPU(void const*, void*, int, int, bool)
 vr::TrackedCamera_ConvertYUYVToRGBX32_CPU(void const*, void*, int, int)
 vr::VRDriverContext()::pHost
+vr::VersionAsString(vr::VRVersion_t const&)
+vr::VersionAsString(vr::VRVersion_t const&) (.cold)
 vr::k_DefaultPathWriteOptions
 vr::k_InterfaceVersions
+vr::k_SteamVRVersion
 vr_glove_left_skeleton.glb
 vr_glove_right_poses.glb
 vr_glove_right_skeleton.glb

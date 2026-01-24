@@ -132,7 +132,7 @@
 /user/waist
 /user/wrist/left
 /user/wrist/right
-10:06:16
+18:22:00
 1e+9999
 8c8f13b1-60eb-4b6a-a433-de86104115ac
 8d8f13b1-60eb-4b6a-a433-de86104115ac
@@ -331,7 +331,7 @@ IVRServerInternal_XXX
 IVRSettingsInternal_001
 IVRSettings_003
 IVRSystemLayerInternal_XXX
-IVRSystem_024
+IVRSystem_025
 IVRTrackedCameraInternal_XXX
 Infinity
 Info
@@ -340,7 +340,7 @@ InitializeCriticalSectionAndSpinCount
 InitializeSListHead
 IsDebuggerPresent
 IsProcessorFeaturePresent
-Jan 21 2026
+Jan 23 2026
 KERNEL32.dll
 LeaveCriticalSection
 Line %d, Column %d
@@ -761,6 +761,7 @@ vrdashboard.exe -skip_duplication_gpu_check
 vrdesktop
 vrdesktop_graphics_capture
 vrwebhelper
+w.ti
 win64
 zh_cn
 zh_tw

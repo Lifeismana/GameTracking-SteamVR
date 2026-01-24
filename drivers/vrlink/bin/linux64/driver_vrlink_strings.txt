@@ -522,6 +522,7 @@ $3br
 00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899
 0123456789
 0123456789ABCDEF
+02:17:47
 1 Sec
 1/2/4/8/16-bit only
 10.35.78
@@ -553,7 +554,6 @@ $3br
 16SVLAudioPipewire
 17CBoneMaskResource
 17CSharedImageLinux
-18:01:43
 18CSharedBufferLinux
 18SVLFECRAID6RXFrame
 18SVLFECRAID6TXFrame
@@ -2376,7 +2376,7 @@ IVRServerInternal_XXX
 IVRSettingsInternal_001
 IVRSettings_003
 IVRSystemLayerInternal_XXX
-IVRSystem_024
+IVRSystem_025
 IVRTrackedCameraInternal_XXX
 IVRVirtualDisplay_002
 IVRWatchdogProvider_001
@@ -2481,7 +2481,7 @@ Issues fast stream reset
 JFIF
 JSON Chunk end does not aligned to a 4-byte boundary.
 JSON string too short.\n
-Jan 21 2026
+Jan 24 2026
 January
 Json::BuiltStyledStreamWriter::BuiltStyledStreamWriter(std::string const&, Json::CommentStyle::Enum, std::string const&, std::string const&, std::string const&, bool, unsigned int)
 Json::BuiltStyledStreamWriter::BuiltStyledStreamWriter(std::string const&, Json::CommentStyle::Enum, std::string const&, std::string const&, std::string const&, bool, unsigned int) (.cold)
@@ -5360,6 +5360,7 @@ VROverlayFlags_IgnoreTextureAlpha
 VROverlayFlags_IsPremultiplied
 VROverlayFlags_MakeOverlaysInteractiveIfVisible
 VROverlayFlags_MultiCursor
+VROverlayFlags_NoBackside
 VROverlayFlags_NoDashboardTab
 VROverlayFlags_Panorama
 VROverlayFlags_ProtectedContent
@@ -13535,6 +13536,7 @@ vr-input-workshop://
 vr::CVRPathHelpers::GetStringPath(unsigned long, unsigned long, vr::ETrackedPropertyError*)
 vr::CVRPropertyHelpers::SetStringProperty(unsigned long, vr::ETrackedDeviceProperty, char const*) (.part.0) (.constprop.0)
 vr::CVRSettingHelper::GetString(std::string const&, std::string const&, vr::EVRSettingsError*)
+vr::CompareVersions(vr::VRVersion_t const&, vr::VRVersion_t const&)
 vr::IVRDriverDirectModeComponent::DestroyAllSwapTextureSets(unsigned int)
 vr::IVRDriverDirectModeComponent::DestroySwapTextureSet(unsigned long)
 vr::IVRSharedBuffer::GetVulkanBuffer() const
@@ -13560,8 +13562,11 @@ vr::OpenVRInternal_ModuleServerDriverContext()::ctx
 vr::PathRead_t& std::vector<vr::PathRead_t, std::allocator<vr::PathRead_t>>::emplace_back<vr::PathRead_t>(vr::PathRead_t&&)
 vr::VRDriverContext()::pHost
 vr::VRProperties() (.part.0)
+vr::VersionAsString(vr::VRVersion_t const&)
+vr::VersionAsString(vr::VRVersion_t const&) (.cold)
 vr::k_DefaultPathWriteOptions
 vr::k_InterfaceVersions
+vr::k_SteamVRVersion
 vr_glove_left_skeleton.glb
 vr_glove_right_poses.glb
 vr_glove_right_skeleton.glb
