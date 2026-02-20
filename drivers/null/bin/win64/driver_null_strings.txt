@@ -91,9 +91,8 @@ IsDebuggerPresent
 IsProcessorFeaturePresent
 KERNEL32.dll
 MSVCP140.dll
-N-ti
 QueryPerformanceCounter
-RSDSi
+RSDS7
 RtlCaptureContext
 RtlLookupFunctionEntry
 RtlVirtualUnwind

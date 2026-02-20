@@ -837,7 +837,7 @@ $tI(kn
 /data/src/vrclient/vrinput.cpp:1596
 /data/src/vrclient/vrmailboxclient.cpp
 /data/src/vrclient/vroverlay.cpp:1014
-/data/src/vrclient/vroverlay.cpp:1210
+/data/src/vrclient/vroverlay.cpp:1213
 /dev/null
 /dev/random
 /dev/urandom
@@ -1227,7 +1227,6 @@ $tI(kn
 00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899
 0123456789
 0123456789ABCDEF
-02:17:47
 1.0.3.16
 1/2/4/8/16-bit only
 10CDriverLog
@@ -1396,6 +1395,7 @@ $tI(kn
 17CVRMsg_NoResponse
 17CVulkanVRRenderer
 17IVRClientInternal
+18:37:31
 18CPropertyContainer
 18CSharedBufferLinux
 18CSxrHandTrackerEXT
@@ -18364,6 +18364,7 @@ FbPmPSsRKSsPvE
 FbRKSsPSsPvE
 FbRKSsPvE
 FbcE
+Feb 20 2026
 February
 File %s not found\n
 File Not Found (103)
@@ -18534,6 +18535,7 @@ GLIBC_2.2.5
 GLIBC_2.27
 GLIBC_2.3
 GLIBC_2.3.2
+GLIBC_2.3.3
 GLIBC_2.3.4
 GLIBC_2.4
 GLIBC_2.9
@@ -22668,7 +22670,6 @@ JArray
 JFIF
 JSON Chunk end does not aligned to a 4-byte boundary.
 JSON string too short.\n
-Jan 24 2026
 January
 Json::BuiltStyledStreamWriter::BuiltStyledStreamWriter(std::string const&, Json::CommentStyle::Enum, std::string const&, std::string const&, std::string const&, bool, unsigned int)
 Json::BuiltStyledStreamWriter::BuiltStyledStreamWriter(std::string const&, Json::CommentStyle::Enum, std::string const&, std::string const&, std::string const&, bool, unsigned int) (.cold)
@@ -31393,6 +31394,9 @@ pthread_cond_init
 pthread_cond_signal
 pthread_cond_timedwait
 pthread_cond_wait
+pthread_condattr_destroy
+pthread_condattr_init
+pthread_condattr_setclock
 pthread_create
 pthread_detach
 pthread_getschedparam

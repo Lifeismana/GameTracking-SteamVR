@@ -2776,7 +2776,6 @@ $wtpt
 8*** BUG ***\nIn %s: %s\nSet a breakpoint on '_pixman_log_error' to debug\n\n
 8+{3(y6,p4)v=1
 8,oA3r=7s?9sA;o?8n=6q94l:3d=2^>2P;+UP9]X=]]?nv\2@+27/28.39/28-/5,.3-.3-,1+*/)+0++3+*4,-5,7@59C43>,>J4\hTQ]O+4-gdUheVifWifWifWjeVnc\lhZflShwo
-8,ti
 8-bit indexed with optional binary transparency
 82Ff0$\rnd
 842x1191
@@ -8049,7 +8048,7 @@ ROMAN
 ROSE
 RR Interval Window Number
 RR Window Offset
-RSDSD
+RSDS
 RT Beam Limiting Device Type
 RT Dose ROI Sequence
 RT Image Description

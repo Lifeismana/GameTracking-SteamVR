@@ -270,7 +270,7 @@ PID_8328
 Parsing of JSON file "%s" failed: %s\n
 QueryPerformanceCounter
 QueryPerformanceFrequency
-RSDSQl
+RSDS\t
 RaiseException
 RegCloseKey
 RegCreateKeyExW
@@ -487,7 +487,6 @@ fseek
 ftell
 fwrite
 getenv
-h,ti
 in Json::Value::duplicateAndPrefixStringValue(): Failed to allocate string value buffer
 in Json::Value::duplicateAndPrefixStringValue(): length too big for prefixing
 in Json::Value::duplicateStringValue(): Failed to allocate string value buffer

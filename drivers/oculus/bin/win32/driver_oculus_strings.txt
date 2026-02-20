@@ -644,7 +644,6 @@ MAT4
 MGiI
 MSFT_lod
 MSVCP140.dll
-MZuY
 MainThrd
 Material has extension MSFT_lod, but does not reference other materials via their ids.\n
 Missing ',' or ']' in array declaration

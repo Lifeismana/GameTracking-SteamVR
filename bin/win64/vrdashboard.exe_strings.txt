@@ -132,7 +132,7 @@
 /user/waist
 /user/wrist/left
 /user/wrist/right
-18:22:00
+10:37:45
 1e+9999
 8c8f13b1-60eb-4b6a-a433-de86104115ac
 8d8f13b1-60eb-4b6a-a433-de86104115ac
@@ -267,6 +267,7 @@ Failed to register window class.\n
 Failed to set thread %p priority: invalid priority %d\n
 Failed to set up logging.
 Fatal
+Feb 20 2026
 FreeLibrary
 GDI32.dll
 GetCurrentProcess
@@ -340,7 +341,6 @@ InitializeCriticalSectionAndSpinCount
 InitializeSListHead
 IsDebuggerPresent
 IsProcessorFeaturePresent
-Jan 23 2026
 KERNEL32.dll
 LeaveCriticalSection
 Line %d, Column %d
@@ -369,7 +369,7 @@ ProcessVREvents
 QueryPerformanceCounter
 QueryPerformanceFrequency
 RPCRT4.dll
-RSDS
+RSDSO
 RaiseException
 ReadFile
 RealMain
@@ -610,7 +610,7 @@ bad conversion
 bg_bg
 brazilian
 bulgarian
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\steam_worker_thread.cpp:171
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\steam_worker_thread.cpp:193
 c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\logbuffer.cpp
 c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\threadwatchdog.cpp
 c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\vrcrash.cpp
@@ -761,7 +761,6 @@ vrdashboard.exe -skip_duplication_gpu_check
 vrdesktop
 vrdesktop_graphics_capture
 vrwebhelper
-w.ti
 win64
 zh_cn
 zh_tw

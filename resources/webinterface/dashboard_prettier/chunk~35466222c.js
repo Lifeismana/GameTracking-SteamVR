@@ -1,4 +1,4 @@
-var CLSTAMP = "10397357";
+var CLSTAMP = "10465124";
 (self.webpackChunkvrwebui = self.webpackChunkvrwebui || []).push([
   [537],
   {
@@ -114,7 +114,7 @@ var CLSTAMP = "10397357";
                 ),
               (s = !0);
           }
-          s || console.log("Received unhandled message: ", t);
+          s || console.log("Received unhandled message: ", t.type, t);
         }
         RegisterHandler(e, t) {
           this.m_oHandlers[e] = t;

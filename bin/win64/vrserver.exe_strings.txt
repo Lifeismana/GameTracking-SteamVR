@@ -1647,15 +1647,20 @@ $\n k_EProtoServiceTypeSteamMessages
 0123456789ABCDEF
 0123456789abcdef
 091@
-0k8@
-0x8@
+0S1@
+0T3@
+0U3@
+0W4@
+0m8@
+0r8@
+0z8@
 1.2.5
 1/2/4/8/16-bit only
+10:37:45
 11 4 22 44 44 22 444444
 11eU%
 127.0.0.1
 127.0.0.1:
-18:22:00
 1A26b
 1\f514
 1e+9999
@@ -1665,7 +1670,6 @@ $\n k_EProtoServiceTypeSteamMessages
 2*.google.protobuf.FieldDescriptorProto.Type
 2+.google.protobuf.FieldDescriptorProto.Label
 258EAFA5-E914-47DA-95CA-C5AB0DC85B11
-4T3@
 4\f54d
 52F*
 5I)7
@@ -1676,16 +1680,15 @@ $\n k_EProtoServiceTypeSteamMessages
 7\n\tenum_type
 7^d[L
 7~8A
-8O1@
-8S1@
-8X7@
+8U3@
+8W4@
 8\n\textension
 8c8f13b1-60eb-4b6a-a433-de86104115ac
 8d8f13b1-60eb-4b6a-a433-de86104115ac
 8e8f13b1-60eb-4b6a-a433-de86104115ac
 8giP9giP9giP9giP9
-8j8@
-8o8@
+8l8@
+8o1@
 9\n\noneof_decl
 9a&g
 : Protocol message serialized to a size different from what was originally expected.  Perhaps it was modified by another thread during serialization?
@@ -1752,6 +1755,7 @@ $\n k_EProtoServiceTypeSteamMessages
 ??_7codecvt_base@std@@6B@
 ??_7facet@locale@std@@6B@
 ??_7ios_base@std@@6B@
+?P91@
 ?_BADOFF@std@@3_JB
 ?_Decref@facet@locale@std@@UEAAPEAV_Facet_base@3@XZ
 ?_Execute_once@std@@YAHAEAUonce_flag@1@P6AHPEAX1PEAPEAX@Z1@Z
@@ -2453,6 +2457,7 @@ D3DKMTQueryAdapterInfo
 D7q/;M
 DELEGATE 
 DISABLED
+DT3@
 DXGI VSync Thread ended\n
 DXGI VSync Thread started\n
 DXGI thread failed to get SDL display index. This will happen if you are not on a direct mode display.\n
@@ -2694,6 +2699,7 @@ Failed to write process id after connecting pipe %s because %s\n
 Failed: %s
 False
 Fatal
+Feb 20 2026
 Field "
 Field does not match message type.
 Field is repeated; the method requires a singular field.
@@ -2862,6 +2868,8 @@ HMD found, but unable to request config (1102)
 HMDManufacturer
 HMDModel
 HMDSerialNumber
+HO1@
+HS1@
 HTTP Version Not Supported
 HTTP parse, %lu bytes
 HTTP/
@@ -2876,15 +2884,17 @@ HTTP/1.1 301 Moved\r\nLocation: %.*s/\r\nContent-Length: 0\r\n\r\n
 HTTP/1.1 302 OK\r\nLocation: /%s\r\n\r\n
 HTTP_REQUEST %s
 HTTP_REQUEST Static Content %s
+HX7@
 Hang the server for the specified number of seconds (default 3600)
 HasField
 Hex and octal numbers must be integers.
-Hh8@
+Hj8@
 Hmd DriverId is invalid (125)
 Hmd DriverId is our of bounds (211)
 Hmd Not Found (108)
 Hmd Not Found Presence Failed (126)
 HmdDriverFactory
+Ho8@
 HostController
 How did we get here with a non-position slot?
 I'm a teapot
@@ -3173,18 +3183,18 @@ JFIF
 JSON Chunk end does not aligned to a 4-byte boundary.
 JSON parse error
 JSON string too short.\n
-Jan 23 2026
 KERNEL32.dll
 KHR_audio
 KHR_lights_punctual
 Kernel32.dll
 Kill process %s because it didn't quit in time\n
 Kill process?
+L=P91@
 LABEL_OPTIONAL
 LABEL_REPEATED
 LABEL_REQUIRED
 LINEAR
-LT3@
+LU3@
 Label
 Language
 LastKnown
@@ -3430,6 +3440,7 @@ Out of thread local storage!\n
 OutputDebugStringA
 OutputDebugStringW
 Overwriting default binding file from web: %s\n
+P91@
 PCI\VEN_%x&DEV_%x&SUBSYS_%x&REV_%x
 PC_%08llx
 PICT
@@ -3482,8 +3493,10 @@ PerformApplicationPrelaunchCheck
 Permanent Redirect
 Perspective camera description not found.
 PerspectiveCamera
-Pg8@
+Pi8@
 Playback devices:\n
+Pn8@
+Po1@
 PoseUpdated for invalid object ID %d\n
 PoseUpdated from driver %s (%d) for device index %d which is owned by driver %s (%d)\n
 Positional emitter description not found.
@@ -3724,6 +3737,7 @@ Protocol Buffer reflection usage error:\n  Method      : google::protobuf::Refle
 Protocol message serialized itself in invalid fashion.
 Protocol message was modified concurrently during serialization.
 Proxy Authentication Required
+Pt8@
 QkkXa
 Qkkbal
 Query failed
@@ -3746,7 +3760,9 @@ Quitting parent process %u because a quit was requested for its child %u.\n
 R1h58
 RGBG
 RPCRT4.dll
-RSDS
+RSDSI
+R\npP
+R\vpP
 RaiseException
 Range
 Reached an unintended state: CPPTYPE_MESSAGE
@@ -5173,10 +5189,8 @@ WorkshopSelectConfig for BindingOutOfDate for %s(%s) attempt to set default bind
 WorkshopSelectConfig for BindingOutOfDate for %s(%s) when we don't have a binding at all for that controller type\n
 WriteFile
 X-Frame-Options: sameorigin\r\nContent-Security-Policy: default-src 'self'
-X91@
-XU3@
 XXXX PNG chunk not known
-Xf8@
+Xh8@
 XsBI
 YUY2
 Zjz\v
@@ -5620,6 +5634,8 @@ _Mtx_init
 _Mtx_init_in_situ
 _Mtx_lock
 _Mtx_unlock
+_Query_perf_counter
+_Query_perf_frequency
 _RDATA
 _Strcoll
 _String
@@ -5941,8 +5957,8 @@ c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\openvrtools.cpp
 c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\propertymanager.cpp
 c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\remoteperfstats.cpp
 c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\rendermodelmanager.cpp
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\steam_worker_thread.cpp:171
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\steam_worker_thread.cpp:273
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\steam_worker_thread.cpp:193
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\steam_worker_thread.cpp:295
 c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrmailbox.cpp
 c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrmailboxserver.cpp
 c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrserviceclient.cpp
@@ -6078,7 +6094,6 @@ current_transforms_without_controller
 current_user_persona_name
 czech
 dQy/
-dU3@
 da_dk
 danish
 dashboard
@@ -6369,46 +6384,9 @@ grip
 grip_limit_transforms
 group
 guid
-h09@
-h19@
-h29@
-h39@
-h49@
-h59@
-h69@
-h79@
-h89@
 h91@
-h99@
-hA9@
-hB9@
-hC9@
-hD9@
-hE9@
-hF9@
-hG9@
-hH9@
-hI9@
-hJ9@
-hK9@
-hL9@
-hM9@
-hN9@
-hO9@
-hP9@
 hPU3
-hQ9@
-hR9@
-hS9@
-hT9@
 hU3@
-hU9@
-hV9@
-hW9@
-hX9@
-hY9@
-hZ9@
-ha9@
 half_thresholds
 hand_interaction_ext
 hand_priority
@@ -6425,55 +6403,30 @@ has_force
 has_ready_ext
 has_touch
 has_value
-hb9@
-hc9@
-hd8@
-hd9@
-he9@
 header
 header crc mismatch
 height
 held
 hex_property
-hf9@
-hg9@
-hh9@
-hi9@
+hf8@
 hidden
 hide_callout
-hj9@
-hk9@
-hl9@
 hlvr/mailbox
 hlvr/webui
-hm9@
 hmdAllowsClientToControlTextureIndex
 hmd_presence
 hmd_settings_key
-hn9@
-ho9@
 holographic
 holographic_controller
-hp9@
 hpmotioncontroller
-hq9@
-hr9@
-hs9@
-ht9@
 html
 http:
 http://
 http_cb
 https:
 https://
-hu9@
 hu_hu
 hungarian
-hv9@
-hw9@
-hx9@
-hy9@
-hz9@
 i91k
 i]Wb
 iauds
@@ -6812,6 +6765,7 @@ ko_kr
 koreana
 l6qnk
 lDa>
+lT3@
 label
 language_tag
 lastHmdPlaybackDeviceId
@@ -7107,7 +7061,7 @@ path_handles
 paths
 payload
 pbrMetallicRoughness
-pc8@
+pe8@
 pending_file_saved
 perfcheck
 personal
@@ -7126,6 +7080,7 @@ playbackMirrorDevice
 playbackMirrorDeviceName
 playback_devices
 playing
+po1@
 polish
 portrait
 portuguese
@@ -7176,7 +7131,6 @@ property_containers
 property_contents
 property_number
 proximity
-ps8@
 pt_br
 pt_pt
 public
@@ -7185,6 +7139,7 @@ publishedfileid
 pull
 punct
 putchar
+py1@
 py_generic_services
 qMFCreateMediaType failed hr = 0x%08x\n
 qsort
@@ -7752,12 +7707,74 @@ wrong version
 ws handshake error
 wss:
 x-steamvr-secret
+x09@
+x19@
+x29@
+x39@
+x49@
+x59@
+x69@
+x79@
+x89@
 x91@
-xT3@
+x99@
+xA9@
+xB9@
+xC9@
+xD9@
+xE9@
+xF9@
+xG9@
+xH9@
+xI9@
+xJ9@
+xK9@
+xL9@
+xM9@
+xN9@
+xO9@
+xP9@
+xQ9@
+xR9@
+xS9@
+xT9@
+xU3@
+xU9@
+xV9@
+xW9@
+xX9@
+xY9@
+xZ9@
 x_path
-xb8@
+xa9@
+xb9@
+xc9@
+xd8@
+xd9@
 xdigit
+xe9@
+xf9@
+xg9@
+xh9@
+xi9@
+xj9@
+xk9@
+xl9@
+xm9@
 xmag
+xn9@
+xo9@
+xp9@
+xq9@
+xr9@
+xs9@
+xt9@
+xu9@
+xv9@
+xw9@
+xx9@
+xy9@
+xz9@
 y9*O
 y_path
 yfov

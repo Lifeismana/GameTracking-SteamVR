@@ -753,6 +753,7 @@ GLIBC_2.2
 GLIBC_2.2.4
 GLIBC_2.3
 GLIBC_2.3.2
+GLIBC_2.3.3
 GLIBC_2.3.4
 Gamepad
 GetEnvironmentVariable(char const*)
@@ -1569,6 +1570,7 @@ char8_t
 chdir
 check_exception_spec(lsda_header_info*, std::type_info const*, void*, long)
 classify_object_over_fdes
+clock_gettime
 closedir
 cntrl
 completed.6971
@@ -1722,7 +1724,6 @@ getppid
 getpriority
 getrlimit64
 gettext
-gettimeofday
 getwc
 global constructors keyed to 
 global destructors keyed to 
@@ -1816,6 +1817,7 @@ libSDL2-2.0.so.0
 libc.so.6
 libdl.so.2
 libpthread.so.0
+librt.so.1
 linear_search_fdes
 locale::_Impl::_M_replace_facet
 locale::_S_normalize_category category not found
@@ -1875,6 +1877,9 @@ pthread_cond_destroy
 pthread_cond_init
 pthread_cond_signal
 pthread_cond_timedwait
+pthread_condattr_destroy
+pthread_condattr_init
+pthread_condattr_setclock
 pthread_create
 pthread_detach
 pthread_getschedparam

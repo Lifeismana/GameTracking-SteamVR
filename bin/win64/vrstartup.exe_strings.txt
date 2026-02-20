@@ -132,7 +132,7 @@
 /user/waist
 /user/wrist/left
 /user/wrist/right
-18:22:00
+10:37:45
 1e+9999
 : exception thrown in JSON library
 <unknown>
@@ -244,6 +244,7 @@ Extra non-whitespace after JSON value.
 FATAL: Failed to open log file %s, failing out!\n
 Factory Function Not Found (104)
 Fatal
+Feb 20 2026
 File Not Found (103)
 Firmware Recovery In Progress (139)
 Firmware Update In Progress (138)
@@ -360,7 +361,6 @@ Invalid Arguments
 Invalid Interface (106)
 IsDebuggerPresent
 IsProcessorFeaturePresent
-Jan 23 2026
 K32EnumProcesses
 K32GetProcessImageFileNameA
 KERNEL32.dll
@@ -391,7 +391,7 @@ OutputDebugStringA
 Platform handles tutorial / initial home app launch %s. Starting Event Polling...
 QueryPerformanceCounter
 QueryPerformanceFrequency
-RSDS
+RSDSw
 RaiseException
 Rebooting In Progress (137)
 RegCloseKey

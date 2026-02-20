@@ -521,12 +521,12 @@
 /u%d-Shm_%x
 0123456789
 0123456789ABCDEF
-02:17:47
 11CVkTimeline
 12CNonCopyable
 15CVkResourceBase
 15CVkResourcePoolI16CVkCommandBufferE
 16CVkCommandBuffer
+18:37:31
 18CPrismDisplay_Null
 18IPrismPoseProvider
 19CVkGarbageCollector
@@ -1544,6 +1544,7 @@ Failed to spawn share thread for shared fd: %d\n
 Failed to wait for shared fd client\n
 Failed when reading payload of length %u: errno=%d\n
 FbcE
+Feb 20 2026
 February
 File path truncated\n
 FileSelect(dirent const*)
@@ -1576,6 +1577,7 @@ GLIBC_2.2.5
 GLIBC_2.27
 GLIBC_2.3
 GLIBC_2.3.2
+GLIBC_2.3.3
 GLIBC_2.3.4
 GLSL.std.450
 GPU MS %.2f 
@@ -1724,7 +1726,6 @@ IsRunningInAppContainer()::s_bDeterminedAppContainerStatus
 IsRunningInAppContainer()::s_bIsRunningInAppContainer
 IsWorkstationLocked()
 JArray
-Jan 24 2026
 January
 Json::BuiltStyledStreamWriter::BuiltStyledStreamWriter(std::string const&, Json::CommentStyle::Enum, std::string const&, std::string const&, std::string const&, bool, unsigned int)
 Json::BuiltStyledStreamWriter::BuiltStyledStreamWriter(std::string const&, Json::CommentStyle::Enum, std::string const&, std::string const&, std::string const&, bool, unsigned int) (.cold)
@@ -4439,6 +4440,9 @@ pthread_cond_init
 pthread_cond_signal
 pthread_cond_timedwait
 pthread_cond_wait
+pthread_condattr_destroy
+pthread_condattr_init
+pthread_condattr_setclock
 pthread_create
 pthread_detach
 pthread_getschedparam

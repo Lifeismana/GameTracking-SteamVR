@@ -3684,7 +3684,6 @@ Missing haptic name in output of haptic filter %s\n
 Missing support for vkGetPhysicalDeviceImageFormatProperties2
 MoveFileExW
 MultiByteToWideChar
-N.ti
 NONE
 NORMAL
 NOT_READY
@@ -3761,7 +3760,6 @@ PS_SAMPLESCENE
 PS_SAMPLESCENE0
 PS_STENCIL
 PS_main
-P\r0D
 Parse error in system resource manifest %s.\n
 Parse failed for JSON message in mailbox %s: %s\n
 Parsing of JSON file "%s" failed: %s\n
@@ -4004,7 +4002,7 @@ QuickCalibratePlayspace couldn't get a pose from the HMD\n
 RADV
 RGBG
 RPCRT4.dll
-RSDS7
+RSDS
 RadialMenu missing X axis input.\n
 RadialMenu missing Y axis input.\n
 RadialMenu setting 'num_buttons' not specified.\n
@@ -6852,7 +6850,7 @@ c:\buildslave\steamvr_rel_win64\build\src\vrclient\vrdebug.cpp:60
 c:\buildslave\steamvr_rel_win64\build\src\vrclient\vrinput.cpp:1596
 c:\buildslave\steamvr_rel_win64\build\src\vrclient\vrmailboxclient.cpp
 c:\buildslave\steamvr_rel_win64\build\src\vrclient\vroverlay.cpp:1014
-c:\buildslave\steamvr_rel_win64\build\src\vrclient\vroverlay.cpp:1210
+c:\buildslave\steamvr_rel_win64\build\src\vrclient\vroverlay.cpp:1213
 c:\fake_app_container_config_path
 camera
 cameraEdgeEnhancement

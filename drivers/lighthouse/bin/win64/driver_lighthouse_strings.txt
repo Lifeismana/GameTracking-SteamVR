@@ -2244,7 +2244,6 @@ IsDebuggerPresent
 IsManual
 IsProcessorFeaturePresent
 IsValidSid
-J-ti
 JFIF
 JSON
 JSON Chunk end does not aligned to a 4-byte boundary.

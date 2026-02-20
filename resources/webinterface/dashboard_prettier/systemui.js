@@ -1,4 +1,4 @@
-var CLSTAMP = "10397357";
+var CLSTAMP = "10465124";
 (() => {
   var e,
     t = {
@@ -3703,6 +3703,7 @@ var CLSTAMP = "10397357";
                     {
                       className: "ButtonControl",
                       onClick: () => {
+                        var t;
                         null === VRHTML ||
                           void 0 === VRHTML ||
                           VRHTML.VRChaperoneSetup.ResetPlayspaceBoundsDrawing(),
@@ -3714,7 +3715,9 @@ var CLSTAMP = "10397357";
                             VRHTML.VRChaperoneSetup.ResetPlayspaceFloorHeight(
                               s._1.Inactive,
                             ),
-                          null == e || e.onCancel();
+                          null === (t = null == e ? void 0 : e.onCancel) ||
+                            void 0 === t ||
+                            t.call(e);
                       },
                     },
                     r.createElement(m.bm, null),
@@ -3726,6 +3729,7 @@ var CLSTAMP = "10397357";
                   {
                     className: "ButtonControl",
                     onClick: () => {
+                      var t;
                       null === VRHTML ||
                         void 0 === VRHTML ||
                         VRHTML.VRChaperoneSetup.ResetPlayspaceBoundsDrawing(),
@@ -3737,7 +3741,9 @@ var CLSTAMP = "10397357";
                           VRHTML.VRChaperoneSetup.ResetPlayspaceFloorHeight(
                             s._1.PendingResetIfNeeded,
                           ),
-                        null == e || e.onReset();
+                        null === (t = null == e ? void 0 : e.onReset) ||
+                          void 0 === t ||
+                          t.call(e);
                     },
                   },
                   (0, L.we)("#RoomSetup_Clear"),
@@ -3747,11 +3753,14 @@ var CLSTAMP = "10397357";
                   {
                     className: "ButtonControl Colorful",
                     onClick: () => {
+                      var n;
                       t &&
                         (null === VRHTML ||
                           void 0 === VRHTML ||
                           VRHTML.VRChaperoneSetup.CommitPlayspaceFull()),
-                        null == e || e.onAccept();
+                        null === (n = null == e ? void 0 : e.onAccept) ||
+                          void 0 === n ||
+                          n.call(e);
                     },
                   },
                   t
@@ -3785,12 +3794,15 @@ var CLSTAMP = "10397357";
                     {
                       className: "ButtonControl",
                       onClick: () => {
+                        var t;
                         null === VRHTML ||
                           void 0 === VRHTML ||
                           VRHTML.VRChaperoneSetup.ResetPlayspaceFloorHeight(
                             s._1.Inactive,
                           ),
-                          null == e || e.onCancel();
+                          null === (t = null == e ? void 0 : e.onCancel) ||
+                            void 0 === t ||
+                            t.call(e);
                       },
                     },
                     r.createElement(m.bm, null),
@@ -3816,11 +3828,14 @@ var CLSTAMP = "10397357";
                   {
                     className: "ButtonControl Colorful",
                     onClick: () => {
+                      var n;
                       t &&
                         (null === VRHTML ||
                           void 0 === VRHTML ||
                           VRHTML.VRChaperoneSetup.CommitPlayspaceFloorHeight()),
-                        null == e || e.onAccept();
+                        null === (n = null == e ? void 0 : e.onAccept) ||
+                          void 0 === n ||
+                          n.call(e);
                     },
                   },
                   t ? (0, L.we)("#Accept") : (0, L.we)("#Next"),
@@ -3871,10 +3886,13 @@ var CLSTAMP = "10397357";
                   {
                     className: "ButtonControl Colorful",
                     onClick: () => {
+                      var t;
                       null === VRHTML ||
                         void 0 === VRHTML ||
                         VRHTML.VRChaperoneSetup.CommitPlayspaceCircleBoundary(),
-                        null == e || e.onAccept();
+                        null === (t = null == e ? void 0 : e.onAccept) ||
+                          void 0 === t ||
+                          t.call(e);
                     },
                   },
                   (0, L.we)("#Accept"),
@@ -3952,10 +3970,13 @@ var CLSTAMP = "10397357";
                   {
                     className: "ButtonControl Colorful",
                     onClick: () => {
+                      var t;
                       null === VRHTML ||
                         void 0 === VRHTML ||
                         VRHTML.VRChaperoneSetup.CommitPlayspaceBoundsDrawing(),
-                        null == e || e.onAccept();
+                        null === (t = null == e ? void 0 : e.onAccept) ||
+                          void 0 === t ||
+                          t.call(e);
                     },
                   },
                   (0, L.we)("#Accept"),
@@ -5760,7 +5781,7 @@ var CLSTAMP = "10397357";
                     s.OH[(0, s.R$)()],
                 );
               console.log("Bootstrapping " + e, o);
-              const i = 1e3 * (null !== (t = 1769221104) ? t : 0);
+              const i = 1e3 * (null !== (t = 1771612693) ? t : 0);
               console.log(
                 "SteamVR Version Info: " +
                   JSON.stringify({

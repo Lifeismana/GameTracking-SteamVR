@@ -510,7 +510,6 @@ IsDebuggerPresent
 IsProcessorFeaturePresent
 JSON
 JSON Update
-K,ti
 KERNEL32.dll
 LHR BL
 LHR-
@@ -566,7 +565,7 @@ Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
 R1h58
-RSDS4
+RSDS
 Radio version:      
 RaiseException
 ReadFile

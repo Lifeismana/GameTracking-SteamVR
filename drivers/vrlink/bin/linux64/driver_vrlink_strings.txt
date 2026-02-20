@@ -522,7 +522,6 @@ $3br
 00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899
 0123456789
 0123456789ABCDEF
-02:17:47
 1 Sec
 1/2/4/8/16-bit only
 10.35.78
@@ -554,6 +553,7 @@ $3br
 16SVLAudioPipewire
 17CBoneMaskResource
 17CSharedImageLinux
+18:37:31
 18CSharedBufferLinux
 18SVLFECRAID6RXFrame
 18SVLFECRAID6TXFrame
@@ -2019,6 +2019,7 @@ FbPmPSsRKSsPvE
 FbRKSsPSsPvE
 FbRKSsPvE
 FbcE
+Feb 20 2026
 February
 File is empty : 
 File not found : 
@@ -2085,6 +2086,7 @@ GLIBC_2.2.5
 GLIBC_2.27
 GLIBC_2.3
 GLIBC_2.3.2
+GLIBC_2.3.3
 GLIBC_2.3.4
 GLIBC_2.9
 GL_EXT_memory_object
@@ -2481,7 +2483,6 @@ Issues fast stream reset
 JFIF
 JSON Chunk end does not aligned to a 4-byte boundary.
 JSON string too short.\n
-Jan 24 2026
 January
 Json::BuiltStyledStreamWriter::BuiltStyledStreamWriter(std::string const&, Json::CommentStyle::Enum, std::string const&, std::string const&, std::string const&, bool, unsigned int)
 Json::BuiltStyledStreamWriter::BuiltStyledStreamWriter(std::string const&, Json::CommentStyle::Enum, std::string const&, std::string const&, std::string const&, bool, unsigned int) (.cold)
@@ -3750,6 +3751,7 @@ SVLAudioPipewire::Stop
 SVLAudioPipewire::Stop()
 SVLAudioPipewire::Stop() (.cold)
 SVLAudioPipewire::~SVLAudioPipewire()
+SVLBaseControllerDriver::BOverridePoseOffset(vr::HmdQuaternion_t&, vr::HmdVector3_t&)
 SVLBaseControllerDriver::CountControllerButtonPressEvents(unsigned long)
 SVLBaseControllerDriver::HandleHandTrackingPacket(SVLHandTrackingPacket_t const*)
 SVLBaseControllerDriver::RegisterVariableListeners()
@@ -3784,6 +3786,7 @@ SVLCodec::~SVLCodec()
 SVLCompressSkeleton(std::array<vr::VRBoneTransform_t, 31ul> const&, unsigned char*)
 SVLControllerDriver::Activate(unsigned int)
 SVLControllerDriver::Activate(unsigned int) (.cold)
+SVLControllerDriver::BOverridePoseOffset(vr::HmdQuaternion_t&, vr::HmdVector3_t&)
 SVLControllerDriver::Deactivate()
 SVLControllerDriver::DebugRequest(char const*, char*, unsigned int)
 SVLControllerDriver::EnterStandby()
@@ -7336,6 +7339,12 @@ oculus_quest_pro
 oculus_quest_pro_controller
 oculus_touch
 off.png
+offsetDegX
+offsetDegY
+offsetDegZ
+offsetPosX
+offsetPosY
+offsetPosZ
 once_regsizes.9477
 only 8-bit
 open
@@ -7415,6 +7424,7 @@ primitive indices accessor out of bounds
 primitives
 print
 printf
+providesOffsetOverride
 pt_br
 pt_pt
 pthread_attr_init
@@ -7426,6 +7436,9 @@ pthread_cond_init
 pthread_cond_signal
 pthread_cond_timedwait
 pthread_cond_wait
+pthread_condattr_destroy
+pthread_condattr_init
+pthread_condattr_setclock
 pthread_create
 pthread_detach
 pthread_getschedparam

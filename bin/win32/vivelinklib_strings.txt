@@ -820,5 +820,4 @@ vivelink.exe
 vivelinklib.dll
 win64
 wn>Jj
-xL[m
 xdigit

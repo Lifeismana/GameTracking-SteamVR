@@ -941,8 +941,8 @@ $@NVAPI_SKIP_UNLOAD
 1.2.5
 1.5.26
 1/2/4/8/16-bit only
+10:37:45
 123456789
-18:22:00
 1A26b
 1e+9999
 1wsHp
@@ -1993,6 +1993,7 @@ Failed to write process id after connecting pipe %s because %s\n
 Failed with %s! Quitting.\n
 Failed with %s!\n
 Feathering mura correction for %s\n - Inner(l=%d, r=%d, t=%d, b=%d)\n - Outer(l=%d, r=%d, t=%d, b=%d)\n
+Feb 20 2026
 File Not Found (103)
 FindClose
 FindFirstFileW
@@ -2342,7 +2343,6 @@ IsWorkstationLocked: WTSQuerySessionInformation returned unknown level %d\n
 IsWorkstationLocked::IsRemoteSession unexpected response length %d != 1\n
 It shouldn't be possible to add a child twice because of move semantics
 JFIF
-Jan 23 2026
 Journaling %s\n
 KERNEL32.dll
 Kernel32.dll
@@ -2798,7 +2798,7 @@ Q|S`l
 R1h58
 RENDERDOC_GetAPI
 RPCRT4.dll
-RSDS
+RSDSH
 RaiseException
 Raw Exaggerated Motion Vectors (Scaled 3.0)
 Raw Motion Vectors
@@ -4811,7 +4811,6 @@ exit
 expected marker
 expecting another \u token to begin the second half of a unicode surrogate pair
 external_drivers
-f.ti
 fP~V
 fade-distance
 fadeSharpness

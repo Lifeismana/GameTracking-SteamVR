@@ -1,4 +1,4 @@
-var CLSTAMP = "10397357";
+var CLSTAMP = "10465124";
 (() => {
   "use strict";
   var e,
@@ -781,7 +781,7 @@ var CLSTAMP = "10397357";
                   ),
                 (n = !0);
             }
-            n || console.log("Received unhandled message: ", t);
+            n || console.log("Received unhandled message: ", t.type, t);
           }
           RegisterHandler(e, t) {
             this.m_oHandlers[e] = t;
