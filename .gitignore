@@ -12,7 +12,6 @@ Protobufs/google/
 resources/webinterface/dashboard/**/*.js
 resources/webinterface/dashboard/**/*.css
 node_modules/
-package-lock.json
 
 # Ignore all translations
 **/*_brazilian*.json

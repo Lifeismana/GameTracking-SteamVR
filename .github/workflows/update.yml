@@ -22,6 +22,21 @@ jobs:
         environment: Execute
         steps:
 
+        - name: Checkout GameTracking
+          uses: actions/checkout@v6
+          with:
+            submodules: recursive
+            fetch-depth: 1
+            repository: 'Lifeismana/GameTracking'
+
+
+        - name: Checkout GameTrackingSteamVR
+          uses: actions/checkout@v6
+          with:
+            submodules: recursive
+            fetch-depth: 1
+            path: steamvr
+
         - name: Setup PHP
           uses: shivammathur/setup-php@v2
           with:
@@ -37,72 +52,64 @@ jobs:
           with:
             dotnet-version: '10.x'
 
-        # - name: Install Node dependencies
-        #   run: npm ci
-          
-        - name: Checkout
-          uses: actions/checkout@v6
-          with:
-            submodules: recursive
-            fetch-depth: 1
-            repository: 'Lifeismana/GameTracking'
-        
         - name: Build tools
-          run: ./tools/build.sh
+          run: |
+            sed -i 's/git submodule update --remote --merge/git submodule update --init --remote --depth 1/' tools/build.sh && \
+            ./tools/build.sh
 
         - name: Build DepotDownloader
           run: |
-            mkdir -p /data && \
-            cd /data && \
+            cd $RUNNER_TEMP && \
             git clone --depth=1 https://github.com/SteamRE/DepotDownloader.git && \
             cd DepotDownloader && \
             dotnet build -c Release ./DepotDownloader/DepotDownloader.csproj && \
             dotnet publish --configuration Release -p:PublishSingleFile=true -p:DebugType=embedded --self-contained --runtime linux-x64 DepotDownloader/DepotDownloader.csproj && \
-            mv ./DepotDownloader/bin/Release/net9.0/linux-x64/publish/DepotDownloader /data/DepotDownloader
+            mv ./DepotDownloader/bin/Release/net9.0/linux-x64/publish/DepotDownloader /usr/local/bin/DepotDownloader
 
         - name: Configure git user
           run: |
-            git config user.name "github-actions[bot]"
-            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-        
+            git config --global user.name "github-actions[bot]"
+            git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
         - name: git exclude # TODO : remove once i switch
           run: |
             echo ".DepotDownloader" >> ~/.gitignore && \
-            git config --global core.excludesfile ~/.gitignore && \
-
-        - name: Checkout
-          uses: actions/checkout@v6
-          with:
-            submodules: recursive
-            fetch-depth: 1
-            path: $GITHUB_WORKSPACE/steamvr
+            git config --global core.excludesfile ~/.gitignore
 
         - name: Setup Node.js
           uses: actions/setup-node@v6
           with:
             node-version: '22'
             cache: 'npm'
+            cache-dependency-path: steamvr/package-lock.json
+
+        - name: Install Node dependencies
+          working-directory: steamvr
+          run: npm ci
 
         - name: Execute
+          working-directory: steamvr
           run: |
-            cd steamvr
-
             mkdir -p ./manifests
 
             [ -z "$STEAM_BRANCH" ] && STEAM_BRANCH="beta"
 
             # 817940
-            /data/DepotDownloader -username "$STEAM_USERNAME" -password "$STEAM_PASSWORD" -app 250820 -depot 228985 228988 228989 228990 250821 250822 250823 250824 250825 250827 250828 250829 250830 250831 250832 250833 250834 4128110 -all-platforms -dir ./manifests -beta $STEAM_BRANCH -manifest-only
+            DepotDownloader -username "$STEAM_USERNAME" -password "$STEAM_PASSWORD" -app 250820 -depot 228985 228988 228989 228990 250821 250822 250823 250824 250825 250827 250828 250829 250830 250831 250832 250833 250834 4128110 -all-platforms -dir ./manifests -beta $STEAM_BRANCH -manifest-only
             shopt -s extglob
             for file in ./manifests/*_*_*.txt; do
                 mv $file ${file%_+([0-9]).txt}.txt
             done
-            /data/DepotDownloader -username "$STEAM_USERNAME" -password "$STEAM_PASSWORD" -app 250820 -all-platforms -depot 250821 -validate -dir . -beta $STEAM_BRANCH -filelist "$GITHUB_WORKSPACE/steamvr/list/dll.txt"
-            /data/DepotDownloader -username "$STEAM_USERNAME" -password "$STEAM_PASSWORD" -app 250820 -all-platforms -depot 250823 250832 -validate -dir . -beta $STEAM_BRANCH -filelist "$GITHUB_WORKSPACE/steamvr/list/lib.txt"
-            /data/DepotDownloader -username "$STEAM_USERNAME" -password "$STEAM_PASSWORD" -app 250820 -all-platforms -depot 250824 -validate -dir . -beta $STEAM_BRANCH -filelist "$GITHUB_WORKSPACE/steamvr/list/big_content.txt"
-            /data/DepotDownloader -username "$STEAM_USERNAME" -password "$STEAM_PASSWORD" -app 250820 -all-platforms -depot 250827 250830 250833 -validate -dir . -beta $STEAM_BRANCH -filelist "$GITHUB_WORKSPACE/steamvr/list/content.txt"
-            /data/DepotDownloader -username "$STEAM_USERNAME" -password "$STEAM_PASSWORD" -app 250820 -all-platforms -depot 250834 4128110 -validate -dir . -beta $STEAM_BRANCH 
-            /data/DepotDownloader -app 250820 -all-platforms -depot 250825 -dir . -beta $STEAM_BRANCH
+            DepotDownloader -username "$STEAM_USERNAME" -password "$STEAM_PASSWORD" -app 250820 -all-platforms -depot 250821 -validate -dir . -beta $STEAM_BRANCH -filelist "$GITHUB_WORKSPACE/steamvr/list/dll.txt"
+            DepotDownloader -username "$STEAM_USERNAME" -password "$STEAM_PASSWORD" -app 250820 -all-platforms -depot 250823 250832 -validate -dir . -beta $STEAM_BRANCH -filelist "$GITHUB_WORKSPACE/steamvr/list/lib.txt"
+            DepotDownloader -username "$STEAM_USERNAME" -password "$STEAM_PASSWORD" -app 250820 -all-platforms -depot 250824 -validate -dir . -beta $STEAM_BRANCH -filelist "$GITHUB_WORKSPACE/steamvr/list/big_content.txt"
+            DepotDownloader -username "$STEAM_USERNAME" -password "$STEAM_PASSWORD" -app 250820 -all-platforms -depot 250827 250830 250833 -validate -dir . -beta $STEAM_BRANCH -filelist "$GITHUB_WORKSPACE/steamvr/list/content.txt"
+            DepotDownloader -username "$STEAM_USERNAME" -password "$STEAM_PASSWORD" -app 250820 -all-platforms -depot 250834 4128110 -validate -dir . -beta $STEAM_BRANCH 
+            DepotDownloader -app 250820 -all-platforms -depot 250825 -dir . -beta $STEAM_BRANCH
             npm install
 
             ./update.sh $STEAM_BRANCH
+          env:
+                STEAM_USERNAME: ${{ secrets.STEAM_USERNAME }}
+                STEAM_PASSWORD: ${{ secrets.STEAM_PASSWORD }}
+                STEAM_BRANCH: ${{ github.event.inputs.branch }}
