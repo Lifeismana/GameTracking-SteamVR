@@ -110,9 +110,6 @@ $@NVAPI_SKIP_UNLOAD
 *** ERROR! Failed to create Collision Bounds vertex buffer!\n
 ***** Reloading Shaders Begin\n
 ***** Reloading Shaders End\n
-********** Blue ( nLoopCount++ > 1000 )!\n
-********** Green ( nLoopCount++ > 1000 )!\n
-********** Red ( nLoopCount++ > 1000 )!\n
 ****************************************** Begin GPU speed ******************************************\n
 ******************************************* End GPU speed *******************************************\n
 *5KS
@@ -245,7 +242,6 @@ $@NVAPI_SKIP_UNLOAD
 .?AUVertexBufferBase@VRRenderer@@
 .?AU_Crt_new_delete@std@@
 .?AV<lambda_04103da6412327e603633ce4cd0b1ff8>@@
-.?AV<lambda_04be740f024804fb868cffe8d6a1b559>@@
 .?AV<lambda_06f7f03917f813d4acaea219b2a15de1>@@
 .?AV<lambda_0bf5a7df96a4fb61efd027f9ca188239>@@
 .?AV<lambda_0e9c682e6668453b3ee5636a438a502c>@@
@@ -260,6 +256,7 @@ $@NVAPI_SKIP_UNLOAD
 .?AV<lambda_34f2e444be6b87859e7d70c75d276085>@@
 .?AV<lambda_389c8fe41f46b7f8c4c8989530d782e7>@@
 .?AV<lambda_4424f60dc6272e432e2332fad7aeb9c5>@@
+.?AV<lambda_4a9b2774a285f4dfe924e0309f606eba>@@
 .?AV<lambda_54acbce8f80b2b8330d7ca8793104353>@@
 .?AV<lambda_550909bf484c0ab2d7ef9670fc9a24b0>@@
 .?AV<lambda_59b9cd8463f3ed1408b8a16cd649c36c>@@
@@ -307,10 +304,9 @@ $@NVAPI_SKIP_UNLOAD
 .?AV?$_Func_base@XAEBVValue@Json@@@std@@
 .?AV?$_Func_base@XPEBDPEBDI_NPEAXPEA_N@std@@
 .?AV?$_Func_base@XW4ELogLevel@@PEBDPEAX@std@@
-.?AV?$_Func_base@_NW4EVREye@vr@@MMPEAUDistortionCoordinates_t@2@@std@@
+.?AV?$_Func_base@_NW4EVREye@vr@@W4EVRDistortionChannel@2@_NIPEBUDistortionCoordinate_t@2@PEAU42@@std@@
 .?AV?$_Func_impl_no_alloc@P6AXPEBD0I_NPEAXPEA_N@ZXPEBDPEBDI_NPEAXPEA_N@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_04103da6412327e603633ce4cd0b1ff8>@@XW4ELogLevel@@PEBDPEAX@std@@
-.?AV?$_Func_impl_no_alloc@V<lambda_04be740f024804fb868cffe8d6a1b559>@@_NW4EVREye@vr@@MMPEAUDistortionCoordinates_t@3@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_06f7f03917f813d4acaea219b2a15de1>@@XAEBVValue@Json@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_0bf5a7df96a4fb61efd027f9ca188239>@@XAEBVValue@Json@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_0e9c682e6668453b3ee5636a438a502c>@@XAEBVValue@Json@@@std@@
@@ -325,6 +321,7 @@ $@NVAPI_SKIP_UNLOAD
 .?AV?$_Func_impl_no_alloc@V<lambda_34f2e444be6b87859e7d70c75d276085>@@X$$V@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_389c8fe41f46b7f8c4c8989530d782e7>@@XAEBVValue@Json@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_4424f60dc6272e432e2332fad7aeb9c5>@@XAEBVValue@Json@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_4a9b2774a285f4dfe924e0309f606eba>@@_NW4EVREye@vr@@W4EVRDistortionChannel@3@_NIPEBUDistortionCoordinate_t@3@PEAU53@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_54acbce8f80b2b8330d7ca8793104353>@@XAEBVValue@Json@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_550909bf484c0ab2d7ef9670fc9a24b0>@@XAEBVValue@Json@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_59b9cd8463f3ed1408b8a16cd649c36c>@@XAEBVValue@Json@@@std@@
@@ -941,7 +938,7 @@ $@NVAPI_SKIP_UNLOAD
 1.2.5
 1.5.26
 1/2/4/8/16-bit only
-10:37:45
+10:49:01
 123456789
 1A26b
 1e+9999
@@ -1738,8 +1735,10 @@ Failed to compute distortion parameters! %d/%d\n
 Failed to compute distortion parameters! (blue)
 Failed to compute distortion parameters! (green)
 Failed to compute distortion parameters! (red)
-Failed to compute distortion parameters!\n
+Failed to compute inverse blue distortion parameters!\n
 Failed to compute inverse compositor projection matrix!
+Failed to compute inverse green distortion parameters!\n
+Failed to compute inverse red distortion parameters!\n
 Failed to connect to block queue %s (%d)
 Failed to connect to pipe %s because %s... retrying
 Failed to connect to pipe %s because %s\n
@@ -1993,7 +1992,6 @@ Failed to write process id after connecting pipe %s because %s\n
 Failed with %s! Quitting.\n
 Failed with %s!\n
 Feathering mura correction for %s\n - Inner(l=%d, r=%d, t=%d, b=%d)\n - Outer(l=%d, r=%d, t=%d, b=%d)\n
-Feb 20 2026
 File Not Found (103)
 FindClose
 FindFirstFileW
@@ -2249,7 +2247,7 @@ IVRSettingsInternal_001
 IVRSettings_001
 IVRSettings_003
 IVRSystemLayerInternal_XXX
-IVRSystem_025
+IVRSystem_026
 IVRTrackedCameraInternal_XXX
 IVRTrackedCamera_006
 IVRVirtualDisplay_
@@ -2416,6 +2414,7 @@ Mailbox %s received message %s, which it didn't have a handler for\n
 Main
 MainThrd
 MapViewOfFile
+Mar 10 2026
 Mb@?UUU?fff?B
 MeasureGpuMegaPixelsPerSecond(%d): Returning %d MP/sec. Total CPU time %.2f seconds.\n
 MeasureGpuMegaPixelsPerSecond(): Error! Initialize() failed! Skipping GPU measurement.\n
@@ -2798,7 +2797,7 @@ Q|S`l
 R1h58
 RENDERDOC_GetAPI
 RPCRT4.dll
-RSDSH
+RSDS
 RaiseException
 Raw Exaggerated Motion Vectors (Scaled 3.0)
 Raw Motion Vectors
@@ -4552,26 +4551,26 @@ c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\Retail\win64\2017\vrcompo
 c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\framemanager.cpp
 c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\geometry.cpp
 c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:10656
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:10666
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:10814
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:11389
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:11414
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:11577
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:15203
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:16388
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:16943
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:17741
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:18022
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:3916
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:3967
+c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:10662
+c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:10672
+c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:10820
+c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:11395
+c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:11420
+c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:11583
+c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:15209
+c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:16394
+c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:16949
+c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:17747
+c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:18028
+c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:3922
+c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:3973
 c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:472
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:4871
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:6638
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:6680
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:7021
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:8206
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:9134
+c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:4877
+c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:6644
+c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:6686
+c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:7027
+c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:8212
+c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:9140
 c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\lasermouse.cpp
 c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\newframehandler.cpp:429
 c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\newframehandler.cpp:478

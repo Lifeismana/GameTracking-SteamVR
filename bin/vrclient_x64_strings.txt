@@ -81,7 +81,7 @@
 #OriginString_HandSource
 #OriginString_Source
 $3br
-$tI(knNP
+$tI(knN`97
 %&'()*456789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
 %LocalAppData%
 %Y-%m-%d-%p_%I_%M_%S
@@ -119,8 +119,12 @@ $tI(knNP
 %s: Failed to create vulkan device: %d
 %s: Failed to determine a compatible memory type\n
 %s: Failed to get queue: %u:%u
+%s: Failed to initialize composition client!
 %s: Failed to initialize compute queue.
 %s: Failed to initialize graphics queue.
+%s: Failed to load available layers
+%s: Failed to load device extensions
+%s: Failed to load physical device extensions
 %s: Failed to reset command buffer: %d
 %s: Failed to submit to queue: %u:%u
 %s: Index (%d) out of bounds (%d) for '%s'!
@@ -128,10 +132,12 @@ $tI(knNP
 %s: Interdependent timelines are not supported
 %s: Invalid %s handle: %llx\n
 %s: Invalid interop API: %d
+%s: Not all facet extensions were supported
 %s: ReleaseSync FAILED with E_FAIL
 %s: ReleaseSync FAILED with unknown hr
+%s: Required facet extensions were missing from device
 %s: Timed out waiting for gpu!
-%s: VkDevice must be created using xrCreateVulkanDevice
+%s: Unable to find provided instance that was created using xrCreateVulkanInstance
 %s: allocator not initialized
 %s: at least one signal point is required
 %s: attempt to block on incomplete query set: %s
@@ -144,7 +150,7 @@ $tI(knNP
 %s: discarding current frame #%llu to avoid deadlock!
 %s: failed find a suitable physical device
 %s: failed get device extension count
-%s: failed graphics API specific intialization
+%s: failed graphics API specific initialization
 %s: failed to %s sync texture
 %s: failed to acquire a d3d11 device for interop
 %s: failed to acquire compositor slot
@@ -152,6 +158,7 @@ $tI(knNP
 %s: failed to acquire graphics command
 %s: failed to acquire orphan sync
 %s: failed to acquire sync
+%s: failed to add device queue
 %s: failed to add projection layer
 %s: failed to add quad layer
 %s: failed to allocate D3D interop image
@@ -187,7 +194,6 @@ $tI(knNP
 %s: failed to create timeline
 %s: failed to create timestamp query pool
 %s: failed to create vulkan image (%d)
-%s: failed to create vulkan instace
 %s: failed to create vulkan instance %d
 %s: failed to create vulkan interop device
 %s: failed to create vulkan interop instace
@@ -196,7 +202,7 @@ $tI(knNP
 %s: failed to discard frame
 %s: failed to enable device extension: %s
 %s: failed to enable instance extension: %s
-%s: failed to enable instance layer: %s
+%s: failed to enable layer: %s
 %s: failed to end frame
 %s: failed to enumerate extensions
 %s: failed to enumerate instance extensions
@@ -227,11 +233,8 @@ $tI(knNP
 %s: failed to initialize query pool
 %s: failed to initialize swapchain
 %s: failed to initialize timeline
-%s: failed to initialize vulkan
 %s: failed to initialize vulkan allocator
 %s: failed to initialize vulkan interop device
-%s: failed to load available layers
-%s: failed to load instance extensions
 %s: failed to map staging buffer %d
 %s: failed to map vulkan memory
 %s: failed to mark end of frame rendering
@@ -291,9 +294,9 @@ $tI(knNP
 %s: missing validation layer extension %s
 %s: no color swapchain available for index: %d
 %s: no timelines
+%s: not all required facet extensions were available
 %s: not supoported with external synchronization!
 %s: only Vulkan graphics devices are supported
-%s: physical device does not match xrGetVulkanGraphicsDeviceKHR
 %s: physical device does not support the requested timeline handle type
 %s: physical device does not support timeline export
 %s: physical device does not support timeline import
@@ -423,6 +426,7 @@ $tI(knNP
 .?AU?$CSxrDispatchableHandle@VCSxrSwapchainBase@@PEAUXrSwapchain_T@@@@
 .?AU?$ToBaseT@VCBoneMaskResource@@VCAnimResource@@@Detail@Reflection@@
 .?AU?$ToBaseT@VCKeyframedDataResource@@VCAnimResource@@@Detail@Reflection@@
+.?AU?$default_delete@VCCompositionClient@facet@@@std@@
 .?AU?$default_delete@VCSxrGraphicsBindingHeadless@@@std@@
 .?AU?$output_adapter_protocol@D@detail@nlohmann@@
 .?AUALVRDisplayNotification@@
@@ -615,6 +619,7 @@ $tI(knNP
 .?AV?$HmdInterfaceRegistration@VCVRSystem_022@@@@
 .?AV?$HmdInterfaceRegistration@VCVRSystem_023@@@@
 .?AV?$HmdInterfaceRegistration@VCVRSystem_024@@@@
+.?AV?$HmdInterfaceRegistration@VCVRSystem_025@@@@
 .?AV?$IOBufferInterfaceRegistration@VCVRIOBuffer_001@@@@
 .?AV?$IOBufferInterfaceRegistration@VCVRIOBuffer_002@@@@
 .?AV?$IPCResourceManagerClientInterfaceRegistration@VCVRIPCResourceManagerClient_001@@@@
@@ -782,7 +787,6 @@ $tI(knNP
 .?AV?$_Ref_count_obj@UModelInfo_t@CRenderModelManager@@@std@@
 .?AV?$_Ref_count_obj@V?$output_string_adapter@DV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@detail@nlohmann@@@std@@
 .?AV?$_Ref_count_obj@VCBlockQueue@@@std@@
-.?AV?$_Ref_count_obj@VCCompositionClient@facet@@@std@@
 .?AV?$_Ref_count_obj@VCInputActionSet@@@std@@
 .?AV?$_Ref_count_obj@VCSXrBackingRenderModelAsset@@@std@@
 .?AV?$_Ref_count_obj@VCSimulatedTrackpadClick@@@std@@
@@ -794,6 +798,7 @@ $tI(knNP
 .?AV?$_Ref_count_obj@VCSxrGraphicsBindingPrism@@@std@@
 .?AV?$_Ref_count_obj@VCSxrGraphicsBindingVulkanOpenVR@@@std@@
 .?AV?$_Ref_count_obj@VCVulkanFence@CVRCompositorSharedTextures@@@std@@
+.?AV?$_Ref_count_resource@PEAVCCompositionClient@facet@@U?$default_delete@VCCompositionClient@facet@@@std@@@std@@
 .?AV?$_Ref_count_resource@PEAVCSxrGraphicsBindingHeadless@@U?$default_delete@VCSxrGraphicsBindingHeadless@@@std@@@std@@
 .?AV?$basic_filebuf@DU?$char_traits@D@std@@@std@@
 .?AV?$basic_ifstream@DU?$char_traits@D@std@@@std@@
@@ -1299,6 +1304,7 @@ $tI(knNP
 .?AVCVRSystem_022@@
 .?AVCVRSystem_023@@
 .?AVCVRSystem_024@@
+.?AVCVRSystem_025@@
 .?AVCVRTrackedCamera@vr@@
 .?AVCVRTrackedCamera_002@@
 .?AVCVRTrackedCamera_003@@
@@ -1498,6 +1504,7 @@ $tI(knNP
 .CRT$XTA
 .CRT$XTZ
 .HPN
+.JfX
 .P6A?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBV01@PEAX@Z
 .P6AXPEBD0I_NPEAXPEA_N@Z
 .P6A_NAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PEAV01@PEAX@Z
@@ -1951,9 +1958,11 @@ $tI(knNP
 0 width
 0-pixel image
 00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899
-00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899H
+00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899(
 0123456789ABCDEF
+0J%4
 0\tFAJ
+0d\t4
 1.0.3.16
 1/2/4/8/16-bit only
 11 4 22 44 44 22 444444
@@ -1972,7 +1981,7 @@ $tI(knNP
 9a&g
 : exception thrown in JSON library
 : one or more FS callback not set
-::GetSystemBaseTicks() == m_pClient->GetCompositorBaseTicks()
+::GetSystemBaseTicks() == m_pRequirementsClient->GetCompositorBaseTicks()
 ; expected 
 ; last read: '
 <NONE>
@@ -2015,7 +2024,6 @@ $tI(knNP
 ??_7codecvt_base@std@@6B@
 ??_7facet@locale@std@@6B@
 ??_7ios_base@std@@6B@
-?CVkDevice::CreateDevice
 ?_BADOFF@std@@3_JB
 ?_Decref@facet@locale@std@@UEAAPEAV_Facet_base@3@XZ
 ?_Execute_once@std@@YAHAEAUonce_flag@1@P6AHPEAX1PEAPEAX@Z1@Z
@@ -2178,6 +2186,7 @@ BIN Chunk end is not aligned to a 4-byte boundary.\n
 BINORMAL
 BITANGENT
 BMP RLE
+B`97
 BackUp() can only be called after a successful Next().
 Bad escape sequence in string
 Bad unicode escape sequence in string: four digits expected.
@@ -2563,18 +2572,23 @@ CVkCommandBuffer::ValidateReferencedResources
 CVkCommandBufferPool::CreateResource
 CVkCommandBufferPool::Initialize
 CVkDevice::ChoosePhysicalDevice
+CVkDevice::CreateDevice
 CVkDevice::CreateInstance
+CVkDevice::FindBestPhysicalDevice
 CVkDevice::Init - failed to get extension count
 CVkDevice::Init - no instance extensions supported
-CVkDevice::Initialize
-CVkDevice::LoadAvailableLayers
-CVkDevice::LoadInstanceExtensions
 CVkDevice::SetDebugName
 CVkDevice::UseDevice
 CVkDevice::UsePhysicalDevice
+CVkDeviceBuilder::AddQueue
+CVkDeviceBuilder::EnableFacetExtensions
+CVkDeviceBuilder::LoadDeviceExtensions
 CVkGarbageCollector: %s
 CVkGarbageCollector::WaitForWork
 CVkImage::CmdPipelineBarrier
+CVkInstanceBuilder::EnableInstanceExtensions
+CVkInstanceBuilder::LoadAvailableLayers
+CVkInstanceBuilder::LoadInstanceExtensions
 CVkInteropImageD3D11 released without transferring ownership back to D3D11 first!
 CVkMappedMemoryView<struct ClientLayers_t>::Remap
 CVkMemory::Map
@@ -2858,6 +2872,7 @@ FOVE_MIN
 FOVE_OUTER
 FOVE_SQUARE
 FS callback[s] not set\n
+F`97
 Facet
 Factory Function Not Found (104)
 Failed (err=0x%X) to create D3D surface for %s (%dx%d). Trying again with mipmaps disabled.\n
@@ -3114,6 +3129,7 @@ FnTable:IVRSystem_021
 FnTable:IVRSystem_022
 FnTable:IVRSystem_023
 FnTable:IVRSystem_024
+FnTable:IVRSystem_025
 FnTable:IVRTrackedCamera_002
 FnTable:IVRTrackedCamera_003
 FnTable:IVRTrackedCamera_004
@@ -3499,6 +3515,7 @@ IVRSystem_022
 IVRSystem_023
 IVRSystem_024
 IVRSystem_025
+IVRSystem_026
 IVRTrackedCameraInternal_XXX
 IVRTrackedCamera_
 IVRTrackedCamera_002
@@ -3748,6 +3765,7 @@ OutputDebugStringW
 PATH_TO_LOCAL_STRING failed with %s
 PC_%08llx
 PICT
+PJ%4
 PNG\r\n
 POSITION
 PS_BLURSCENE
@@ -3760,11 +3778,13 @@ PS_SAMPLESCENE
 PS_SAMPLESCENE0
 PS_STENCIL
 PS_main
+P\r0d\t4
 Parse error in system resource manifest %s.\n
 Parse failed for JSON message in mailbox %s: %s\n
 Parsing of JSON file "%s" failed: %s\n
 Parsing of JSON string "%s" failed: %s\n
 Path_Exists( absFilePath )
+Pd\t4
 PeekNamedPipe
 Perspective camera description not found.
 PerspectiveCamera
@@ -4002,7 +4022,7 @@ QuickCalibratePlayspace couldn't get a pose from the HMD\n
 RADV
 RGBG
 RPCRT4.dll
-RSDS
+RSDSM
 RadialMenu missing X axis input.\n
 RadialMenu missing Y axis input.\n
 RadialMenu setting 'num_buttons' not specified.\n
@@ -4483,6 +4503,7 @@ VK PERF %s %llu:%d: %s\n
 VK WARNING %s %llu:%d: %s\n
 VK_EXT_debug_report
 VK_EXT_debug_utils
+VK_EXT_extended_dynamic_state3
 VK_EXT_global_priority
 VK_EXT_queue_family_foreign
 VK_EXT_validation_features
@@ -6363,6 +6384,8 @@ ZvFailed to create fence %ls.\n
 [xrRenderModel] parameter was nullptr
 [xrRenderModel] renderModelIdCountOutput was nullptr
 [xrRenderModel] session is not running
+\fpJ%4
+\fpd\t4
 \mfpmp.exe
 \nbad png sig
 \t%s::%llx.\n
@@ -6677,24 +6700,24 @@ c:\buildslave\steamvr_rel_win64\build\src\facet\include\facet\vkresource.h
 c:\buildslave\steamvr_rel_win64\build\src\facet\include\facet\vkresourcepool.h
 c:\buildslave\steamvr_rel_win64\build\src\facet\include\facet\vktimelinepoint.h
 c:\buildslave\steamvr_rel_win64\build\src\facet\src\compositionclient.cpp
-c:\buildslave\steamvr_rel_win64\build\src\facet\src\compositionclient.cpp:106
-c:\buildslave\steamvr_rel_win64\build\src\facet\src\compositionclient.cpp:1107
-c:\buildslave\steamvr_rel_win64\build\src\facet\src\compositionclient.cpp:1544
-c:\buildslave\steamvr_rel_win64\build\src\facet\src\compositionclient.cpp:1599
-c:\buildslave\steamvr_rel_win64\build\src\facet\src\compositionclient.cpp:1615
-c:\buildslave\steamvr_rel_win64\build\src\facet\src\compositionclient.cpp:1791
-c:\buildslave\steamvr_rel_win64\build\src\facet\src\compositionclient.cpp:612
-c:\buildslave\steamvr_rel_win64\build\src\facet\src\compositionclient.cpp:633
-c:\buildslave\steamvr_rel_win64\build\src\facet\src\compositionclient.cpp:658
-c:\buildslave\steamvr_rel_win64\build\src\facet\src\compositionclient.cpp:682
-c:\buildslave\steamvr_rel_win64\build\src\facet\src\compositionclient.cpp:704
-c:\buildslave\steamvr_rel_win64\build\src\facet\src\compositionclient.cpp:726
-c:\buildslave\steamvr_rel_win64\build\src\facet\src\compositionclient.cpp:77
-c:\buildslave\steamvr_rel_win64\build\src\facet\src\compositionclient.cpp:779
-c:\buildslave\steamvr_rel_win64\build\src\facet\src\compositionclient.cpp:830
-c:\buildslave\steamvr_rel_win64\build\src\facet\src\compositionclient.cpp:852
-c:\buildslave\steamvr_rel_win64\build\src\facet\src\compositionclient.cpp:898
-c:\buildslave\steamvr_rel_win64\build\src\facet\src\compositionclient.cpp:964
+c:\buildslave\steamvr_rel_win64\build\src\facet\src\compositionclient.cpp:1104
+c:\buildslave\steamvr_rel_win64\build\src\facet\src\compositionclient.cpp:112
+c:\buildslave\steamvr_rel_win64\build\src\facet\src\compositionclient.cpp:1535
+c:\buildslave\steamvr_rel_win64\build\src\facet\src\compositionclient.cpp:1590
+c:\buildslave\steamvr_rel_win64\build\src\facet\src\compositionclient.cpp:1606
+c:\buildslave\steamvr_rel_win64\build\src\facet\src\compositionclient.cpp:1782
+c:\buildslave\steamvr_rel_win64\build\src\facet\src\compositionclient.cpp:618
+c:\buildslave\steamvr_rel_win64\build\src\facet\src\compositionclient.cpp:639
+c:\buildslave\steamvr_rel_win64\build\src\facet\src\compositionclient.cpp:664
+c:\buildslave\steamvr_rel_win64\build\src\facet\src\compositionclient.cpp:688
+c:\buildslave\steamvr_rel_win64\build\src\facet\src\compositionclient.cpp:710
+c:\buildslave\steamvr_rel_win64\build\src\facet\src\compositionclient.cpp:732
+c:\buildslave\steamvr_rel_win64\build\src\facet\src\compositionclient.cpp:785
+c:\buildslave\steamvr_rel_win64\build\src\facet\src\compositionclient.cpp:83
+c:\buildslave\steamvr_rel_win64\build\src\facet\src\compositionclient.cpp:836
+c:\buildslave\steamvr_rel_win64\build\src\facet\src\compositionclient.cpp:858
+c:\buildslave\steamvr_rel_win64\build\src\facet\src\compositionclient.cpp:904
+c:\buildslave\steamvr_rel_win64\build\src\facet\src\compositionclient.cpp:970
 c:\buildslave\steamvr_rel_win64\build\src\facet\src\facetutils.cpp
 c:\buildslave\steamvr_rel_win64\build\src\facet\src\vkalloc.cpp
 c:\buildslave\steamvr_rel_win64\build\src\facet\src\vkcommand.cpp
@@ -7106,6 +7129,7 @@ facet::CCompositionClient::EndSession
 facet::CCompositionClient::ForceAcquireImage
 facet::CCompositionClient::InitDevice
 facet::CCompositionClient::InitVulkan
+facet::CCompositionClient::Initialize
 facet::CCompositionClient::RegisterCompositorResources
 facet::CCompositionClient::ReleaseImage
 facet::CCompositionClient::ReleaseVulkanResources
@@ -7489,10 +7513,14 @@ m_nSwapchainSlot < CompositionState_t::k_nMaxSwapchains
 m_nTargetVsyncId > nCurrentVsyncInterval
 m_pBinding->IsContextCurrent()
 m_pClient != nullptr
+m_pCreatedDevice == VK_NULL_HANDLE
+m_pCreatedInstance == VK_NULL_HANDLE
 m_pData
 m_pDevice
 m_pDevice == VK_NULL_HANDLE
+m_pInstance != VK_NULL_HANDLE
 m_pInstance == VK_NULL_HANDLE
+m_pPhysicalDevice != VK_NULL_HANDLE
 m_pPhysicalDevice == VK_NULL_HANDLE
 m_pSyncDevice == nullptr
 m_pTextureIndex == nullptr
@@ -7690,6 +7718,7 @@ pHandle
 pImage != nullptr
 pInput != nullptr
 pInstance
+pJ%4
 pLast->m_pointLastUsed <= pTimeline->m_pointLastUsed
 pNewResource
 pNewResource->Load( absFilePath )
@@ -7721,6 +7750,7 @@ parse_error
 path
 pauseCompositorOnStandby
 pbrMetallicRoughness
+pd\t4
 perfcheck
 perspective
 pico_controller

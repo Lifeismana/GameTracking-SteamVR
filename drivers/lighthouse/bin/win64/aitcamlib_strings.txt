@@ -211,7 +211,7 @@ IVRServerInternal_XXX
 IVRSettingsInternal_001
 IVRSettings_003
 IVRSystemLayerInternal_XXX
-IVRSystem_025
+IVRSystem_026
 IVRTrackedCameraInternal_XXX
 InitCameraHAL
 InitializeConditionVariable
@@ -219,6 +219,7 @@ InitializeCriticalSectionAndSpinCount
 InitializeSListHead
 IsDebuggerPresent
 IsProcessorFeaturePresent
+J-5F
 JFIF
 KERNEL32.dll
 LeaveCriticalSection
@@ -241,7 +242,7 @@ PermissionDenied
 QueryPerformanceCounter
 QueryPerformanceFrequency
 RPCRT4.dll
-RSDS
+RSDSg\f
 RaiseException
 Received camera frame of size %u that is larger than the block queue we are copying into %u
 ResetEvent

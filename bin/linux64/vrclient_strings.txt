@@ -177,8 +177,12 @@ $tI(kn
 %s: Failed to determine a compatible memory type\n
 %s: Failed to enumerate memory types\n
 %s: Failed to get queue: %u:%u
+%s: Failed to initialize composition client!
 %s: Failed to initialize compute queue.
 %s: Failed to initialize graphics queue.
+%s: Failed to load available layers
+%s: Failed to load device extensions
+%s: Failed to load physical device extensions
 %s: Failed to reset command buffer: %d
 %s: Failed to submit to queue: %u:%u
 %s: Index (%d) out of bounds (%d) for '%s'!
@@ -186,8 +190,10 @@ $tI(kn
 %s: Interdependent timelines are not supported
 %s: Invalid %s handle: %lx\n
 %s: Invalid interop API: %d
+%s: Not all facet extensions were supported
+%s: Required facet extensions were missing from device
 %s: Timed out waiting for gpu!
-%s: VkDevice must be created using xrCreateVulkanDevice
+%s: Unable to find provided instance that was created using xrCreateVulkanInstance
 %s: __pos (which is %zu) > this->size() (which is %zu)
 %s: allocator not initialized
 %s: at least one signal point is required
@@ -202,11 +208,12 @@ $tI(kn
 %s: discarding current frame #%lu to avoid deadlock!
 %s: failed find a suitable physical device
 %s: failed get device extension count
-%s: failed graphics API specific intialization
+%s: failed graphics API specific initialization
 %s: failed to %s sync texture
 %s: failed to acquire compositor slot
 %s: failed to acquire compute command
 %s: failed to acquire graphics command
+%s: failed to add device queue
 %s: failed to add projection layer
 %s: failed to add quad layer
 %s: failed to allocate Null aliased vulkan texture
@@ -233,7 +240,6 @@ $tI(kn
 %s: failed to create timeline
 %s: failed to create timestamp query pool
 %s: failed to create vulkan image (%d)
-%s: failed to create vulkan instace
 %s: failed to create vulkan instance %d
 %s: failed to create vulkan interop device
 %s: failed to create vulkan interop instace
@@ -241,7 +247,7 @@ $tI(kn
 %s: failed to discard frame
 %s: failed to enable device extension: %s
 %s: failed to enable instance extension: %s
-%s: failed to enable instance layer: %s
+%s: failed to enable layer: %s
 %s: failed to end frame
 %s: failed to enumerate extensions
 %s: failed to enumerate instance extensions
@@ -269,11 +275,8 @@ $tI(kn
 %s: failed to initialize query pool
 %s: failed to initialize swapchain
 %s: failed to initialize timeline
-%s: failed to initialize vulkan
 %s: failed to initialize vulkan allocator
 %s: failed to initialize vulkan interop device
-%s: failed to load available layers
-%s: failed to load instance extensions
 %s: failed to map staging buffer %d
 %s: failed to map vulkan memory
 %s: failed to mark end of frame rendering
@@ -327,9 +330,9 @@ $tI(kn
 %s: missing validation layer extension %s
 %s: no color swapchain available for index: %d
 %s: no timelines
+%s: not all required facet extensions were available
 %s: not supoported with external synchronization!
 %s: only Vulkan graphics devices are supported
-%s: physical device does not match xrGetVulkanGraphicsDeviceKHR
 %s: physical device does not support the requested timeline handle type
 %s: physical device does not support timeline export
 %s: physical device does not support timeline import
@@ -663,24 +666,24 @@ $tI(kn
 /data/src/facet/include/facet/vkresourcepool.h
 /data/src/facet/include/facet/vktimelinepoint.h
 /data/src/facet/src/compositionclient.cpp
-/data/src/facet/src/compositionclient.cpp:106
-/data/src/facet/src/compositionclient.cpp:1107
-/data/src/facet/src/compositionclient.cpp:1544
-/data/src/facet/src/compositionclient.cpp:1599
-/data/src/facet/src/compositionclient.cpp:1615
-/data/src/facet/src/compositionclient.cpp:1791
-/data/src/facet/src/compositionclient.cpp:612
-/data/src/facet/src/compositionclient.cpp:633
-/data/src/facet/src/compositionclient.cpp:658
-/data/src/facet/src/compositionclient.cpp:682
-/data/src/facet/src/compositionclient.cpp:704
-/data/src/facet/src/compositionclient.cpp:726
-/data/src/facet/src/compositionclient.cpp:77
-/data/src/facet/src/compositionclient.cpp:779
-/data/src/facet/src/compositionclient.cpp:830
-/data/src/facet/src/compositionclient.cpp:852
-/data/src/facet/src/compositionclient.cpp:898
-/data/src/facet/src/compositionclient.cpp:964
+/data/src/facet/src/compositionclient.cpp:1104
+/data/src/facet/src/compositionclient.cpp:112
+/data/src/facet/src/compositionclient.cpp:1535
+/data/src/facet/src/compositionclient.cpp:1590
+/data/src/facet/src/compositionclient.cpp:1606
+/data/src/facet/src/compositionclient.cpp:1782
+/data/src/facet/src/compositionclient.cpp:618
+/data/src/facet/src/compositionclient.cpp:639
+/data/src/facet/src/compositionclient.cpp:664
+/data/src/facet/src/compositionclient.cpp:688
+/data/src/facet/src/compositionclient.cpp:710
+/data/src/facet/src/compositionclient.cpp:732
+/data/src/facet/src/compositionclient.cpp:785
+/data/src/facet/src/compositionclient.cpp:83
+/data/src/facet/src/compositionclient.cpp:836
+/data/src/facet/src/compositionclient.cpp:858
+/data/src/facet/src/compositionclient.cpp:904
+/data/src/facet/src/compositionclient.cpp:970
 /data/src/facet/src/facetutils.cpp
 /data/src/facet/src/vkalloc.cpp
 /data/src/facet/src/vkcommand.cpp
@@ -1285,6 +1288,7 @@ $tI(kn
 13CVRSystem_022
 13CVRSystem_023
 13CVRSystem_024
+13CVRSystem_025
 14CDriverManager
 14CHmdSystem_001
 14CHmdSystem_004
@@ -1355,6 +1359,7 @@ $tI(kn
 16CVROverlayLatest
 16CVkCommandBuffer
 16IVRClientHandler
+17:48:53
 17CBoneMaskResource
 17CInputFilter_DPad
 17CSharedImageLinux
@@ -1395,7 +1400,6 @@ $tI(kn
 17CVRMsg_NoResponse
 17CVulkanVRRenderer
 17IVRClientInternal
-18:37:31
 18CPropertyContainer
 18CSharedBufferLinux
 18CSxrHandTrackerEXT
@@ -1578,6 +1582,7 @@ $tI(kn
 24HmdInterfaceRegistrationI13CVRSystem_022E
 24HmdInterfaceRegistrationI13CVRSystem_023E
 24HmdInterfaceRegistrationI13CVRSystem_024E
+24HmdInterfaceRegistrationI13CVRSystem_025E
 24HmdInterfaceRegistrationI8CHmd_001E
 24HmdInterfaceRegistrationI8CHmd_002E
 24HmdInterfaceRegistrationI8CHmd_003E
@@ -2014,7 +2019,7 @@ $tI(kn
 9a&g
 : exception thrown in JSON library
 : one or more FS callback not set
-::GetSystemBaseTicks() == m_pClient->GetCompositorBaseTicks()
+::GetSystemBaseTicks() == m_pRequirementsClient->GetCompositorBaseTicks()
 ; expected 
 ; last read: '
 <?xml version="1.0" encoding="UTF-8"?>\n<mime-info xmlns="http://www.freedesktop.org/standards/shared-mime-info">\n\t<mime-type type="
@@ -2030,6 +2035,7 @@ $tI(kn
 ================================================================================================\n
 ?FbPKSsS0_PKN8tinygltf5ImageEbPKNS1_11FsCallbacksEPKNS1_12URICallbacksEPSsPvE
 ?N2vr10IVRMCStoreE
+?N5facet15IVkInteropImageE
 ?ffffff
 @(knN
 @UUUUUU
@@ -2082,6 +2088,7 @@ AddPathHandleToJson(Json::Value*, std::string const&, unsigned long)
 AddPathHandleToJson(Json::Value*, std::string const&, unsigned long) (.cold)
 AddPullHandlerForPathIfSupported(std::string const&, std::vector<std::string, std::allocator<std::string>>*)
 AddPullHandlerForPathIfSupported(std::string const&, std::vector<std::string, std::allocator<std::string>>*) (.cold)
+AddQueue
 AddSystemBehaviorFlag %s\n
 Alias
 AllocSharedMemory failed
@@ -4209,11 +4216,11 @@ CSxrCompositorOpenVR::WaitFrame(CFrameData*, CFrameData*, XrFrameState*)
 CSxrCompositorOpenVR::~CSxrCompositorOpenVR()
 CSxrCompositorOpenVRGetVulkanGRaphicsDevice error: failed to determine output device\n
 CSxrCompositorPrism::BeginFrame(CFrameData*)
-CSxrCompositorPrism::CSxrCompositorPrism(CSxrInstance*, CSxrSession*, std::shared_ptr<IXrBinding>, std::shared_ptr<facet::CCompositionClient>)
-CSxrCompositorPrism::CSxrCompositorPrism(CSxrInstance*, CSxrSession*, std::shared_ptr<IXrBinding>, std::shared_ptr<facet::CCompositionClient>) (.cold)
-CSxrCompositorPrism::ComposeLayerProjection(CFrameData*, XrCompositionLayerProjection const*, long)
-CSxrCompositorPrism::ComposeLayerQuad(CFrameData*, XrCompositionLayerQuad const*, long)
-CSxrCompositorPrism::ComposeLayerQuad(CFrameData*, XrCompositionLayerQuad const*, long) (.cold)
+CSxrCompositorPrism::CSxrCompositorPrism(CSxrInstance*, CSxrSession*, std::shared_ptr<IXrBinding>)
+CSxrCompositorPrism::CSxrCompositorPrism(CSxrInstance*, CSxrSession*, std::shared_ptr<IXrBinding>) (.cold)
+CSxrCompositorPrism::ComposeLayerProjection(CFrameData*, XrCompositionLayerProjection const*, long, XrEnvironmentBlendMode)
+CSxrCompositorPrism::ComposeLayerQuad(CFrameData*, XrCompositionLayerQuad const*, long, XrEnvironmentBlendMode)
+CSxrCompositorPrism::ComposeLayerQuad(CFrameData*, XrCompositionLayerQuad const*, long, XrEnvironmentBlendMode) (.cold)
 CSxrCompositorPrism::DiscardFrame(CFrameData*)
 CSxrCompositorPrism::EndFrame(CFrameData*, XrFrameEndInfo const&)
 CSxrCompositorPrism::EndFrame(CFrameData*, XrFrameEndInfo const&) (.cold)
@@ -4298,7 +4305,8 @@ CSxrGraphicsBindingHeadless::GetSwapchainSupportedFormats()::vecEmpty
 CSxrGraphicsBindingHeadless::Init(SxrCommonBase const*)
 CSxrGraphicsBindingHeadless::~CSxrGraphicsBindingHeadless()
 CSxrGraphicsBindingPrism::AddTextureFormatIfSupported(long)
-CSxrGraphicsBindingPrism::CSxrGraphicsBindingPrism(CSxrInstance*, std::shared_ptr<facet::CCompositionClient>)
+CSxrGraphicsBindingPrism::CSxrGraphicsBindingPrism(CSxrInstance*, std::unique_ptr<facet::CCompositionClient, std::default_delete<facet::CCompositionClient>>)
+CSxrGraphicsBindingPrism::CSxrGraphicsBindingPrism(CSxrInstance*, std::unique_ptr<facet::CCompositionClient, std::default_delete<facet::CCompositionClient>>) (.cold)
 CSxrGraphicsBindingPrism::CreateSwapchain(CSxrSession*, XrSwapchainCreateInfo const*)
 CSxrGraphicsBindingPrism::CreateSwapchain(CSxrSession*, XrSwapchainCreateInfo const*) (.cold)
 CSxrGraphicsBindingPrism::GetBindingType()
@@ -4306,6 +4314,7 @@ CSxrGraphicsBindingPrism::GetBlankTexture()
 CSxrGraphicsBindingPrism::GetSwapchainSupportedFormats()
 CSxrGraphicsBindingPrism::Init(SxrCommonBase const*)
 CSxrGraphicsBindingPrism::InitVulkan2(XrGraphicsBindingVulkanKHR const*)
+CSxrGraphicsBindingPrism::InitVulkan2(XrGraphicsBindingVulkanKHR const*) (.cold)
 CSxrGraphicsBindingPrism::~CSxrGraphicsBindingPrism()
 CSxrGraphicsBindingVulkanOpenVR::BSupportsFDM() const
 CSxrGraphicsBindingVulkanOpenVR::CSxrGraphicsBindingVulkanOpenVR(CSxrInstance*, XrGraphicsBindingVulkanKHR const*)
@@ -4336,6 +4345,8 @@ CSxrGraphicsRequirementsOpenVR::CreateVulkanDevice(XrVulkanDeviceCreateInfoKHR c
 CSxrGraphicsRequirementsOpenVR::CreateVulkanDevice(XrVulkanDeviceCreateInfoKHR const*, VkDevice_T**, VkResult*) (.cold)
 CSxrGraphicsRequirementsOpenVR::CreateVulkanInstance(XrVulkanInstanceCreateInfoKHR const*, VkInstance_T**, VkResult*)
 CSxrGraphicsRequirementsOpenVR::CreateVulkanInstance(XrVulkanInstanceCreateInfoKHR const*, VkInstance_T**, VkResult*) (.cold)
+CSxrGraphicsRequirementsOpenVR::GetCreatedVkDeviceInfo(VkDevice_T*, CreatedVulkanDeviceInfo&)
+CSxrGraphicsRequirementsOpenVR::GetCreatedVulkanInstanceInfo(VkInstance_T*, CreatedVulkanInstanceInfo&)
 CSxrGraphicsRequirementsOpenVR::GetGraphicsRequirements(XrGraphicsRequirementsOpenGLESKHR*)
 CSxrGraphicsRequirementsOpenVR::GetGraphicsRequirements(XrGraphicsRequirementsOpenGLKHR*)
 CSxrGraphicsRequirementsOpenVR::GetGraphicsRequirements(XrGraphicsRequirementsVulkanKHR*)
@@ -4353,12 +4364,17 @@ CSxrGraphicsRequirementsPrism::CreateBinding(SxrCommonBase const*) const (.cold)
 CSxrGraphicsRequirementsPrism::CreateCompositor(CSxrSession*, std::shared_ptr<IXrBinding>) const
 CSxrGraphicsRequirementsPrism::CreateCompositor(CSxrSession*, std::shared_ptr<IXrBinding>) const (.cold)
 CSxrGraphicsRequirementsPrism::CreateVulkanDevice(XrVulkanDeviceCreateInfoKHR const*, VkDevice_T**, VkResult*)
+CSxrGraphicsRequirementsPrism::CreateVulkanDevice(XrVulkanDeviceCreateInfoKHR const*, VkDevice_T**, VkResult*) (.cold)
 CSxrGraphicsRequirementsPrism::CreateVulkanInstance(XrVulkanInstanceCreateInfoKHR const*, VkInstance_T**, VkResult*)
+CSxrGraphicsRequirementsPrism::CreateVulkanInstance(XrVulkanInstanceCreateInfoKHR const*, VkInstance_T**, VkResult*) (.cold)
+CSxrGraphicsRequirementsPrism::GetCreatedVkDeviceInfo(VkDevice_T*, CreatedVulkanDeviceInfo&)
+CSxrGraphicsRequirementsPrism::GetCreatedVulkanInstanceInfo(VkInstance_T*, CreatedVulkanInstanceInfo&)
 CSxrGraphicsRequirementsPrism::GetGraphicsRequirements(XrGraphicsRequirementsOpenGLESKHR*)
 CSxrGraphicsRequirementsPrism::GetGraphicsRequirements(XrGraphicsRequirementsOpenGLKHR*)
 CSxrGraphicsRequirementsPrism::GetGraphicsRequirements(XrGraphicsRequirementsVulkanKHR*)
 CSxrGraphicsRequirementsPrism::GetVulkanDeviceExtensions()
 CSxrGraphicsRequirementsPrism::GetVulkanGraphicsDevice(VkInstance_T*, VkPhysicalDevice_T*&)
+CSxrGraphicsRequirementsPrism::GetVulkanGraphicsDevice(VkInstance_T*, VkPhysicalDevice_T*&) (.cold)
 CSxrGraphicsRequirementsPrism::GetVulkanInstanceExtensions()
 CSxrGraphicsRequirementsPrism::Init()
 CSxrGraphicsRequirementsPrism::~CSxrGraphicsRequirementsPrism()
@@ -5272,8 +5288,8 @@ CVRClient::CVRClient() (.cold)
 CVRClient::Cleanup()
 CVRClient::ComputeDistortion(vr::EVREye, float, float, vr::DistortionCoordinates_t*)
 CVRClient::ComputeDistortion(vr::EVREye, float, float, vr::DistortionCoordinates_t*) (.cold)
-CVRClient::ComputeDistortion(vr::EVREye, vr::DistortionChannel_t, bool, unsigned int, vr::DistortionCoordinate_t const*, vr::DistortionCoordinate_t*)
-CVRClient::ComputeDistortion(vr::EVREye, vr::DistortionChannel_t, bool, unsigned int, vr::DistortionCoordinate_t const*, vr::DistortionCoordinate_t*) (.cold)
+CVRClient::ComputeDistortion(vr::EVREye, vr::EVRDistortionChannel, bool, unsigned int, vr::DistortionCoordinate_t const*, vr::DistortionCoordinate_t*)
+CVRClient::ComputeDistortion(vr::EVREye, vr::EVRDistortionChannel, bool, unsigned int, vr::DistortionCoordinate_t const*, vr::DistortionCoordinate_t*) (.cold)
 CVRClient::Init(std::string const&, vr::EVRApplicationType, bool, bool, std::string const&, IVRClientHandler*, IVRClientInternal*)
 CVRClient::Init(std::string const&, vr::EVRApplicationType, bool, bool, std::string const&, IVRClientHandler*, IVRClientInternal*) (.cold)
 CVRClient::SendConnectMessage(bool)
@@ -16007,7 +16023,7 @@ CVRSystemLatest::CVRSystemLatest(vr::IVRProperties*, CVROverlayLatest*)
 CVRSystemLatest::CVRSystemLatest(vr::IVRProperties*, CVROverlayLatest*) (.cold)
 CVRSystemLatest::ClearHiddenAreaCache()
 CVRSystemLatest::ComputeDistortion(vr::EVREye, float, float, vr::DistortionCoordinates_t*)
-CVRSystemLatest::ComputeDistortion(vr::EVREye, vr::DistortionChannel_t, bool, unsigned int, vr::DistortionCoordinate_t const*, vr::DistortionCoordinate_t*)
+CVRSystemLatest::ComputeDistortionSet(vr::EVREye, vr::EVRDistortionChannel, bool, unsigned int, vr::DistortionCoordinate_t const*, vr::DistortionCoordinate_t*)
 CVRSystemLatest::GetAppContainerFilePaths(char*, unsigned int)
 CVRSystemLatest::GetApplicationSpecificFovScale(CVRSystemLatest::FovScale_t*) const
 CVRSystemLatest::GetApplicationSpecificFovScale(CVRSystemLatest::FovScale_t*) const (.cold)
@@ -17184,6 +17200,56 @@ CVRSystem_024::SetDisplayVisibility(bool)
 CVRSystem_024::ShouldApplicationPause()
 CVRSystem_024::ShouldApplicationReduceRenderingWork()
 CVRSystem_024::TriggerHapticPulse(unsigned int, unsigned int, unsigned short)
+CVRSystem_025::AcknowledgeQuit_Exiting()
+CVRSystem_025::ApplyTransform(vr::TrackedDevicePose_t*, vr::TrackedDevicePose_t const*, vr::HmdMatrix34_t const*)
+CVRSystem_025::ComputeDistortion(vr::EVREye, float, float, vr::DistortionCoordinates_t*)
+CVRSystem_025::GetAppContainerFilePaths(char*, unsigned int)
+CVRSystem_025::GetArrayTrackedDeviceProperty(unsigned int, vr::ETrackedDeviceProperty, unsigned int, void*, unsigned int, vr::ETrackedPropertyError*)
+CVRSystem_025::GetBoolTrackedDeviceProperty(unsigned int, vr::ETrackedDeviceProperty, vr::ETrackedPropertyError*)
+CVRSystem_025::GetButtonIdNameFromEnum(vr::EVRButtonId)
+CVRSystem_025::GetControllerAxisTypeNameFromEnum(vr::EVRControllerAxisType)
+CVRSystem_025::GetControllerRoleForTrackedDeviceIndex(unsigned int)
+CVRSystem_025::GetControllerState(unsigned int, vr::VRControllerState001_t*, unsigned int)
+CVRSystem_025::GetControllerStateWithPose(vr::ETrackingUniverseOrigin, unsigned int, vr::VRControllerState001_t*, unsigned int, vr::TrackedDevicePose_t*)
+CVRSystem_025::GetD3D9AdapterIndex()
+CVRSystem_025::GetDXGIOutputInfo(int*)
+CVRSystem_025::GetDeviceToAbsoluteTrackingPose(vr::ETrackingUniverseOrigin, float, vr::TrackedDevicePose_t*, unsigned int)
+CVRSystem_025::GetEventTypeNameFromEnum(vr::EVREventType)
+CVRSystem_025::GetEyeToHeadTransform(vr::EVREye)
+CVRSystem_025::GetEyeTrackedFoveationCenter(vr::HmdVector2_t*, vr::HmdVector2_t*)
+CVRSystem_025::GetEyeTrackedFoveationCenterForProjection(vr::HmdMatrix44_t const*, vr::HmdVector2_t*)
+CVRSystem_025::GetFloatTrackedDeviceProperty(unsigned int, vr::ETrackedDeviceProperty, vr::ETrackedPropertyError*)
+CVRSystem_025::GetHiddenAreaMesh(vr::EVREye, vr::EHiddenAreaMeshType)
+CVRSystem_025::GetInt32TrackedDeviceProperty(unsigned int, vr::ETrackedDeviceProperty, vr::ETrackedPropertyError*)
+CVRSystem_025::GetMatrix34TrackedDeviceProperty(unsigned int, vr::ETrackedDeviceProperty, vr::ETrackedPropertyError*)
+CVRSystem_025::GetOutputDevice(unsigned long*, vr::ETextureType, VkInstance_T*)
+CVRSystem_025::GetProjectionMatrix(vr::EVREye, float, float)
+CVRSystem_025::GetProjectionRaw(vr::EVREye, float*, float*, float*, float*)
+CVRSystem_025::GetPropErrorNameFromEnum(vr::ETrackedPropertyError)
+CVRSystem_025::GetRawZeroPoseToStandingAbsoluteTrackingPose()
+CVRSystem_025::GetRecommendedRenderTargetSize(unsigned int*, unsigned int*)
+CVRSystem_025::GetRuntimeVersion()
+CVRSystem_025::GetSeatedZeroPoseToStandingAbsoluteTrackingPose()
+CVRSystem_025::GetSortedTrackedDeviceIndicesOfClass(vr::ETrackedDeviceClass, unsigned int*, unsigned int, unsigned int)
+CVRSystem_025::GetStringTrackedDeviceProperty(unsigned int, vr::ETrackedDeviceProperty, char*, unsigned int, vr::ETrackedPropertyError*)
+CVRSystem_025::GetTimeSinceLastVsync(float*, unsigned long*)
+CVRSystem_025::GetTrackedDeviceActivityLevel(unsigned int)
+CVRSystem_025::GetTrackedDeviceClass(unsigned int)
+CVRSystem_025::GetTrackedDeviceIndexForControllerRole(vr::ETrackedControllerRole)
+CVRSystem_025::GetUint64TrackedDeviceProperty(unsigned int, vr::ETrackedDeviceProperty, vr::ETrackedPropertyError*)
+CVRSystem_025::IsDisplayOnDesktop()
+CVRSystem_025::IsInputAvailable()
+CVRSystem_025::IsSteamVRDrawingControllers()
+CVRSystem_025::IsTrackedDeviceConnected(unsigned int)
+CVRSystem_025::PerformFirmwareUpdate(unsigned int)
+CVRSystem_025::PollNextEvent(vr::VREvent_t*, unsigned int)
+CVRSystem_025::PollNextEventWithPose(vr::ETrackingUniverseOrigin, vr::VREvent_t*, unsigned int, vr::TrackedDevicePose_t*)
+CVRSystem_025::PollNextEventWithPoseAndOverlays(vr::ETrackingUniverseOrigin, vr::VREvent_t*, unsigned int, vr::TrackedDevicePose_t*, unsigned long*)
+CVRSystem_025::SetDisplayVisibility(bool)
+CVRSystem_025::SetSDKVersion(unsigned int, unsigned int, unsigned int)
+CVRSystem_025::ShouldApplicationPause()
+CVRSystem_025::ShouldApplicationReduceRenderingWork()
+CVRSystem_025::TriggerHapticPulse(unsigned int, unsigned int, unsigned short)
 CVRTrackedCameraExternalService::CVRTrackedCameraExternalService()
 CVRTrackedCameraExternalService::Cleanup()
 CVRTrackedCameraExternalService::GetTrackedCamera()
@@ -17368,44 +17434,23 @@ CVkCommandBufferPool::~CVkCommandBufferPool()
 CVkDevice::CVkDevice(char const*)
 CVkDevice::CVkDevice(char const*) (.cold)
 CVkDevice::ChoosePhysicalDevice()
-CVkDevice::ChoosePhysicalDevice() (.cold)
 CVkDevice::CreateDevice(CreateDeviceDetails_t const&)
 CVkDevice::CreateDevice(CreateDeviceDetails_t const&) (.cold)
-CVkDevice::CreateDevice(CreateDeviceDetails_t const&)::queuePriorities
 CVkDevice::CreateInstance(char const*, unsigned int, unsigned int, CreateInstanceDetails_t const&)
 CVkDevice::CreateInstance(char const*, unsigned int, unsigned int, CreateInstanceDetails_t const&) (.cold)
-CVkDevice::EnableDeviceExtension(char const*, bool)
-CVkDevice::EnableDeviceExtension(char const*, bool) (.cold)
-CVkDevice::EnableInstanceExtension(char const*, bool)
-CVkDevice::EnableInstanceExtension(char const*, bool) (.cold)
-CVkDevice::EnableLayer(char const*, bool)
-CVkDevice::EnableLayer(char const*, bool) (.cold)
-CVkDevice::FillPhysicalDeviceInfo(VkPhysicalDevice_T*, PhysicalDeviceInfo_t*)
+CVkDevice::FillPhysicalDeviceInfo(VkInstance_T*, VkPhysicalDevice_T*, PhysicalDeviceInfo_t*, void (*(*)(VkInstance_T*, char const*))())
+CVkDevice::FindBestPhysicalDevice(VkInstance_T*, PhysicalDeviceInfo_t&, void (*(*)(VkInstance_T*, char const*))())
+CVkDevice::FindBestPhysicalDevice(VkInstance_T*, PhysicalDeviceInfo_t&, void (*(*)(VkInstance_T*, char const*))()) (.cold)
 CVkDevice::GetQueueType(unsigned int)
 CVkDevice::Init - failed to get extension count
 CVkDevice::Init - no instance extensions supported
 CVkDevice::Initialize(void (*(*)(VkInstance_T*, char const*))())
 CVkDevice::IsCompatibleVulkanVersion(unsigned int)
 CVkDevice::IsCompatibleVulkanVersion(unsigned int) (.part.0)
-CVkDevice::IsDeviceExtensionAvailable(char const*)
-CVkDevice::IsDeviceExtensionAvailableLocked(char const*)
 CVkDevice::IsDeviceExtensionEnabled(char const*)
-CVkDevice::IsDeviceExtensionEnabled(char const*) (.cold)
-CVkDevice::IsDeviceExtensionEnabledLocked(char const*)
-CVkDevice::IsExtensionAvailableLocked(std::vector<VkExtensionProperties, std::allocator<VkExtensionProperties>>&, char const*)
-CVkDevice::IsGlobalPriorityQuerySupported(VkPhysicalDevice_T*)
-CVkDevice::IsInstanceExtensionAvailable(char const*)
+CVkDevice::IsGlobalPriorityQuerySupported(VkInstance_T*, VkPhysicalDevice_T*, void (*(*)(VkInstance_T*, char const*))())
 CVkDevice::IsInstanceExtensionEnabled(char const*)
-CVkDevice::IsInstanceExtensionEnabled(char const*) (.cold)
-CVkDevice::IsLayerAvailable(char const*)
-CVkDevice::IsLayerAvailableLocked(char const*) const
 CVkDevice::IsLayerEnabled(char const*)
-CVkDevice::IsLayerEnabled(char const*) (.cold)
-CVkDevice::IsLayerEnabledLocked(char const*) const
-CVkDevice::LoadAvailableLayers()
-CVkDevice::LoadAvailableLayers() (.cold)
-CVkDevice::LoadInstanceExtensions(char const*)
-CVkDevice::LoadInstanceExtensions(char const*) (.cold)
 CVkDevice::SetDebugName(VkBuffer_T*, std::string const&)
 CVkDevice::SetDebugName(VkCommandBuffer_T*, std::string const&)
 CVkDevice::SetDebugName(VkCommandPool_T*, std::string const&)
@@ -17418,10 +17463,26 @@ CVkDevice::SetDebugName(VkSemaphore_T*, std::string const&)
 CVkDevice::SetDebugName(VkShaderModule_T*, std::string const&)
 CVkDevice::SetDebugName(unsigned long, VkObjectType, std::string const&)
 CVkDevice::Shutdown()
-CVkDevice::UseDevice(VkDevice_T*)
-CVkDevice::UseInstance(VkInstance_T*)
+CVkDevice::UseDevice(VkDevice_T*, std::vector<char const*, std::allocator<char const*>>)
+CVkDevice::UseInstance(VkInstance_T*, std::vector<char const*, std::allocator<char const*>>, std::vector<char const*, std::allocator<char const*>>)
 CVkDevice::UsePhysicalDevice(VkPhysicalDevice_T*, bool)
 CVkDevice::~CVkDevice()
+CVkDeviceBuilder::AddQueue(unsigned int, bool)
+CVkDeviceBuilder::AddQueue(unsigned int, bool) (.cold)
+CVkDeviceBuilder::CVkDeviceBuilder()
+CVkDeviceBuilder::CVkDeviceBuilder() (.cold)
+CVkDeviceBuilder::EnableDeviceExtension(char const*, bool)
+CVkDeviceBuilder::EnableDeviceExtension(char const*, bool) (.cold)
+CVkDeviceBuilder::EnableFacetExtensions()
+CVkDeviceBuilder::GetEnabledDeviceExtensions()
+CVkDeviceBuilder::GetEnabledDeviceExtensions() (.cold)
+CVkDeviceBuilder::GetQueues()
+CVkDeviceBuilder::GetQueues() (.cold)
+CVkDeviceBuilder::IsDeviceExtensionAvailable(char const*)
+CVkDeviceBuilder::IsDeviceExtensionEnabled(char const*)
+CVkDeviceBuilder::IsDeviceExtensionEnabled(char const*) (.cold)
+CVkDeviceBuilder::IsDeviceExtensionEnabledLocked(char const*)
+CVkDeviceBuilder::LoadDeviceExtensions(VkInstance_T*, VkPhysicalDevice_T*, void (*(*)(VkInstance_T*, char const*))())
 CVkGarbageCollector: %s
 CVkGarbageCollector::Acquire(CVkResourceBase*)
 CVkGarbageCollector::Acquire(CVkResourceBase*) (.cold)
@@ -17445,6 +17506,31 @@ CVkImage::CmdPipelineBarrier(CVkCommandBuffer*, VkImageLayout, VkImageLayout, un
 CVkImage::PrepareForExport(VkImageSharedData_t&, unsigned int)
 CVkImage::Release()
 CVkImage::~CVkImage()
+CVkInstanceBuilder::CVkInstanceBuilder()
+CVkInstanceBuilder::CVkInstanceBuilder() (.cold)
+CVkInstanceBuilder::EnableInstanceExtension(char const*, bool)
+CVkInstanceBuilder::EnableInstanceExtension(char const*, bool) (.cold)
+CVkInstanceBuilder::EnableInstanceExtensions(std::vector<char const*, std::allocator<char const*>>, std::vector<char const*, std::allocator<char const*>>)
+CVkInstanceBuilder::EnableLayer(char const*, bool, void (*(*)(VkInstance_T*, char const*))())
+CVkInstanceBuilder::EnableLayer(char const*, bool, void (*(*)(VkInstance_T*, char const*))()) (.cold)
+CVkInstanceBuilder::GetEnabledInstanceExtensions()
+CVkInstanceBuilder::GetEnabledInstanceExtensions() (.cold)
+CVkInstanceBuilder::GetEnabledInstanceLayers()
+CVkInstanceBuilder::GetEnabledInstanceLayers() (.cold)
+CVkInstanceBuilder::InitWithFacetExtensions(void (*(*)(VkInstance_T*, char const*))())
+CVkInstanceBuilder::InitWithFacetExtensions(void (*(*)(VkInstance_T*, char const*))()) (.cold)
+CVkInstanceBuilder::IsInstanceExtensionAvailable(char const*)
+CVkInstanceBuilder::IsInstanceExtensionEnabled(char const*)
+CVkInstanceBuilder::IsInstanceExtensionEnabled(char const*) (.cold)
+CVkInstanceBuilder::IsLayerAvailable(char const*)
+CVkInstanceBuilder::IsLayerAvailableLocked(char const*) const
+CVkInstanceBuilder::IsLayerEnabled(char const*)
+CVkInstanceBuilder::IsLayerEnabled(char const*) (.cold)
+CVkInstanceBuilder::IsLayerEnabledLocked(char const*) const
+CVkInstanceBuilder::LoadAvailableLayers(void (*(*)(VkInstance_T*, char const*))())
+CVkInstanceBuilder::LoadAvailableLayers(void (*(*)(VkInstance_T*, char const*))()) (.cold)
+CVkInstanceBuilder::LoadInstanceExtensions(void (*(*)(VkInstance_T*, char const*))(), char const*)
+CVkInstanceBuilder::LoadInstanceExtensions(void (*(*)(VkInstance_T*, char const*))(), char const*) (.cold)
 CVkMemory::Map()
 CVkMemory::Map() (.cold)
 CVkMemory::Release()
@@ -17932,6 +18018,7 @@ CreateWatchdogDriverProviderAdapter(void* (*)(char const*, int*), vr::IVRDriverC
 CreateXrBinding: unsupported graphics binding type: %d\n
 Created remote GL texture 0x%lx, dimensions %d x %d, format %d
 Created remote Vulkan image 0x%lx, dimensions %d x %d, format %d, memory size %d and memory type %d.\n
+CreatedVulkanInstanceInfo::~CreatedVulkanInstanceInfo()
 CurrentURL
 DW.ref._ZTIN10__cxxabiv115__forced_unwindE
 DW.ref._ZTIPN4Json9ExceptionE
@@ -18067,7 +18154,9 @@ Empty escape sequence in string
 Empty file.
 Enable advanced image processing of scene textures.\n
 Enable multithreading to use std::thread
+EnableFacetExtensions
 EnableFrameEndMarkers
+EnableInstanceExtensions
 EnableWebDebugger()
 Encountered unexpected delayed initialization of CPropertyManager\n
 EndCommandBuffer
@@ -18364,7 +18453,6 @@ FbPmPSsRKSsPvE
 FbRKSsPSsPvE
 FbRKSsPvE
 FbcE
-Feb 20 2026
 February
 File %s not found\n
 File Not Found (103)
@@ -18393,6 +18481,7 @@ FindActionSetLocalizedString(std::string const&, std::map<std::string, std::stri
 FindAppByKey(VRApplicationsState_t const*, char const*)
 FindAppByProcessId(VRApplicationsState_t const*, unsigned int)
 FindBestInterfaceMatch(char const*, std::set<std::string, std::less<std::string>, std::allocator<std::string>> const&)
+FindBestPhysicalDevice
 FindInterface(char const*)
 FindLanguageTag(Json::Value const&, std::string const&)
 FindLanguageTag(Json::Value const&, std::string const&) (.cold)
@@ -18475,6 +18564,7 @@ FnTable:IVRSystem_021
 FnTable:IVRSystem_022
 FnTable:IVRSystem_023
 FnTable:IVRSystem_024
+FnTable:IVRSystem_025
 FnTable:IVRTrackedCamera_002
 FnTable:IVRTrackedCamera_003
 FnTable:IVRTrackedCamera_004
@@ -18879,6 +18969,8 @@ HmdInterfaceRegistration<CVRSystem_023>::GetInterface()
 HmdInterfaceRegistration<CVRSystem_023>::~HmdInterfaceRegistration()
 HmdInterfaceRegistration<CVRSystem_024>::GetInterface()
 HmdInterfaceRegistration<CVRSystem_024>::~HmdInterfaceRegistration()
+HmdInterfaceRegistration<CVRSystem_025>::GetInterface()
+HmdInterfaceRegistration<CVRSystem_025>::~HmdInterfaceRegistration()
 HmdMatrix34FromJson(Json::Value const&, vr::HmdMatrix34_t&)
 HmdMatrix34ToJson(vr::HmdMatrix34_t const&)
 HmdMatrix34ToJson(vr::HmdMatrix34_t const&) (.cold)
@@ -22358,6 +22450,57 @@ IVRSystem_024_FnTable_ShouldApplicationPause()
 IVRSystem_024_FnTable_ShouldApplicationReduceRenderingWork()
 IVRSystem_024_FnTable_TriggerHapticPulse(unsigned int, unsigned int, unsigned short)
 IVRSystem_025
+IVRSystem_025_FnTable_AcknowledgeQuit_Exiting()
+IVRSystem_025_FnTable_ApplyTransform(vr::TrackedDevicePose_t*, vr::TrackedDevicePose_t const*, vr::HmdMatrix34_t const*)
+IVRSystem_025_FnTable_ComputeDistortion(vr::EVREye, float, float, vr::DistortionCoordinates_t*)
+IVRSystem_025_FnTable_GetAppContainerFilePaths(char*, unsigned int)
+IVRSystem_025_FnTable_GetArrayTrackedDeviceProperty(unsigned int, vr::ETrackedDeviceProperty, unsigned int, void*, unsigned int, vr::ETrackedPropertyError*)
+IVRSystem_025_FnTable_GetBoolTrackedDeviceProperty(unsigned int, vr::ETrackedDeviceProperty, vr::ETrackedPropertyError*)
+IVRSystem_025_FnTable_GetButtonIdNameFromEnum(vr::EVRButtonId)
+IVRSystem_025_FnTable_GetControllerAxisTypeNameFromEnum(vr::EVRControllerAxisType)
+IVRSystem_025_FnTable_GetControllerRoleForTrackedDeviceIndex(unsigned int)
+IVRSystem_025_FnTable_GetControllerState(unsigned int, vr::VRControllerState001_t*, unsigned int)
+IVRSystem_025_FnTable_GetControllerStateWithPose(vr::ETrackingUniverseOrigin, unsigned int, vr::VRControllerState001_t*, unsigned int, vr::TrackedDevicePose_t*)
+IVRSystem_025_FnTable_GetD3D9AdapterIndex()
+IVRSystem_025_FnTable_GetDXGIOutputInfo(int*)
+IVRSystem_025_FnTable_GetDeviceToAbsoluteTrackingPose(vr::ETrackingUniverseOrigin, float, vr::TrackedDevicePose_t*, unsigned int)
+IVRSystem_025_FnTable_GetEventTypeNameFromEnum(vr::EVREventType)
+IVRSystem_025_FnTable_GetEyeToHeadTransform(vr::EVREye)
+IVRSystem_025_FnTable_GetEyeTrackedFoveationCenter(vr::HmdVector2_t*, vr::HmdVector2_t*)
+IVRSystem_025_FnTable_GetEyeTrackedFoveationCenterForProjection(vr::HmdMatrix44_t const*, vr::HmdVector2_t*)
+IVRSystem_025_FnTable_GetFloatTrackedDeviceProperty(unsigned int, vr::ETrackedDeviceProperty, vr::ETrackedPropertyError*)
+IVRSystem_025_FnTable_GetHiddenAreaMesh(vr::EVREye, vr::EHiddenAreaMeshType)
+IVRSystem_025_FnTable_GetInt32TrackedDeviceProperty(unsigned int, vr::ETrackedDeviceProperty, vr::ETrackedPropertyError*)
+IVRSystem_025_FnTable_GetMatrix34TrackedDeviceProperty(unsigned int, vr::ETrackedDeviceProperty, vr::ETrackedPropertyError*)
+IVRSystem_025_FnTable_GetOutputDevice(unsigned long*, vr::ETextureType, VkInstance_T*)
+IVRSystem_025_FnTable_GetProjectionMatrix(vr::EVREye, float, float)
+IVRSystem_025_FnTable_GetProjectionRaw(vr::EVREye, float*, float*, float*, float*)
+IVRSystem_025_FnTable_GetPropErrorNameFromEnum(vr::ETrackedPropertyError)
+IVRSystem_025_FnTable_GetRawZeroPoseToStandingAbsoluteTrackingPose()
+IVRSystem_025_FnTable_GetRecommendedRenderTargetSize(unsigned int*, unsigned int*)
+IVRSystem_025_FnTable_GetRuntimeVersion()
+IVRSystem_025_FnTable_GetSeatedZeroPoseToStandingAbsoluteTrackingPose()
+IVRSystem_025_FnTable_GetSortedTrackedDeviceIndicesOfClass(vr::ETrackedDeviceClass, unsigned int*, unsigned int, unsigned int)
+IVRSystem_025_FnTable_GetStringTrackedDeviceProperty(unsigned int, vr::ETrackedDeviceProperty, char*, unsigned int, vr::ETrackedPropertyError*)
+IVRSystem_025_FnTable_GetTimeSinceLastVsync(float*, unsigned long*)
+IVRSystem_025_FnTable_GetTrackedDeviceActivityLevel(unsigned int)
+IVRSystem_025_FnTable_GetTrackedDeviceClass(unsigned int)
+IVRSystem_025_FnTable_GetTrackedDeviceIndexForControllerRole(vr::ETrackedControllerRole)
+IVRSystem_025_FnTable_GetUint64TrackedDeviceProperty(unsigned int, vr::ETrackedDeviceProperty, vr::ETrackedPropertyError*)
+IVRSystem_025_FnTable_IsDisplayOnDesktop()
+IVRSystem_025_FnTable_IsInputAvailable()
+IVRSystem_025_FnTable_IsSteamVRDrawingControllers()
+IVRSystem_025_FnTable_IsTrackedDeviceConnected(unsigned int)
+IVRSystem_025_FnTable_PerformFirmwareUpdate(unsigned int)
+IVRSystem_025_FnTable_PollNextEvent(vr::VREvent_t*, unsigned int)
+IVRSystem_025_FnTable_PollNextEventWithPose(vr::ETrackingUniverseOrigin, vr::VREvent_t*, unsigned int, vr::TrackedDevicePose_t*)
+IVRSystem_025_FnTable_PollNextEventWithPoseAndOverlays(vr::ETrackingUniverseOrigin, vr::VREvent_t*, unsigned int, vr::TrackedDevicePose_t*, unsigned long*)
+IVRSystem_025_FnTable_SetDisplayVisibility(bool)
+IVRSystem_025_FnTable_SetSDKVersion(unsigned int, unsigned int, unsigned int)
+IVRSystem_025_FnTable_ShouldApplicationPause()
+IVRSystem_025_FnTable_ShouldApplicationReduceRenderingWork()
+IVRSystem_025_FnTable_TriggerHapticPulse(unsigned int, unsigned int, unsigned short)
+IVRSystem_026
 IVRTrackedCameraInternal_XXX
 IVRTrackedCamera_
 IVRTrackedCamera_002
@@ -22620,6 +22763,7 @@ IsDpadValidForComponent(unsigned long)
 IsDpadValidForComponent(unsigned long) (.cold)
 IsDriverLogActive()
 IsExtendedStorage(PropertyTableEntry_t const*, unsigned int*, unsigned int*, unsigned int*)
+IsExtensionAvailableLocked(std::vector<VkExtensionProperties, std::allocator<VkExtensionProperties>>&, char const*)
 IsInputPathLegal(unsigned long, std::string const&, std::string const&)
 IsInputPathLegal(unsigned long, std::string const&, std::string const&) (.cold)
 IsInputPathLegal(unsigned long, unsigned long)
@@ -23185,6 +23329,7 @@ LiquidVR::WaitForPresent()
 LiquidVR::WaitTilFinished(unsigned int, unsigned int)
 LiquidVR::sgVcetMotionEstimator
 LoadAvailableLayers
+LoadDeviceExtensions
 LoadDriver called when there is no user config directory set\n
 LoadInstanceExtensions
 LoadObjFromUtf8Path(std::vector<tinyobj::shape_t, std::allocator<tinyobj::shape_t>>&, std::vector<tinyobj::material_t, std::allocator<tinyobj::material_t>>&, char const*, char const*)
@@ -23237,6 +23382,7 @@ MailboxInfo_t::~MailboxInfo_t()
 MailboxInterfaceRegistration<CVRMailbox_001>::GetInterface()
 MailboxInterfaceRegistration<CVRMailbox_001>::~MailboxInterfaceRegistration()
 MakeFileWriteable(char const*)
+Mar 10 2026
 March
 MarkInUse
 Material has extension MSFT_lod, but does not reference other materials via their ids.\n
@@ -23447,7 +23593,6 @@ N4Json19StreamWriterBuilderE
 N4Json23BuiltStyledStreamWriterE
 N4Json6WriterE
 N4Json9ExceptionE
-N5facet15IVkInteropImageE
 N5facet16IVkInteropDeviceE
 N5facet18IFramerateGovernorE
 N5facet19CVkInteropImageNullE
@@ -24426,6 +24571,7 @@ St14codecvt_bynameIwc11__mbstate_tE
 St14collate_bynameIcE
 St14collate_bynameIwE
 St14default_deleteI27CSxrGraphicsBindingHeadlessE
+St14default_deleteIN5facet18CCompositionClientEE
 St14overflow_error
 St15basic_streambufIcSt11char_traitsIcEE
 St15basic_streambufIwSt11char_traitsIwEE
@@ -24460,6 +24606,7 @@ St18basic_stringstreamIcSt11char_traitsIcESaIcEE
 St18basic_stringstreamIwSt11char_traitsIwESaIwEE
 St18codecvt_utf8_utf16IwLm1114111ELSt12codecvt_mode0EE
 St19_Sp_counted_deleterIP27CSxrGraphicsBindingHeadlessSt14default_deleteIS0_ESaIvELN9__gnu_cxx12_Lock_policyE2EE
+St19_Sp_counted_deleterIPN5facet18CCompositionClientESt14default_deleteIS1_ESaIvELN9__gnu_cxx12_Lock_policyE2EE
 St19_Sp_make_shared_tag
 St19__codecvt_utf8_baseIDiE
 St19__codecvt_utf8_baseIDsE
@@ -24492,7 +24639,6 @@ St23_Sp_counted_ptr_inplaceIN19CRenderModelManager11ModelInfo_tESaIS1_ELN9__gnu_
 St23_Sp_counted_ptr_inplaceIN24CSharedResourceBaseLinux19CSharedResourceDataESaIS1_ELN9__gnu_cxx12_Lock_policyE2EE
 St23_Sp_counted_ptr_inplaceIN27CVRCompositorSharedTextures12CVulkanFenceESaIS1_ELN9__gnu_cxx12_Lock_policyE2EE
 St23_Sp_counted_ptr_inplaceIN3gli14storage_linearESaIS1_ELN9__gnu_cxx12_Lock_policyE2EE
-St23_Sp_counted_ptr_inplaceIN5facet18CCompositionClientESaIS1_ELN9__gnu_cxx12_Lock_policyE2EE
 St23_Sp_counted_ptr_inplaceIN8nlohmann6detail21output_string_adapterIcSsEESaIS3_ELN9__gnu_cxx12_Lock_policyE2EE
 St23_Sp_counted_ptr_inplaceINSt8__detail4_NFAISt12regex_traitsIcEEESaIS4_ELN9__gnu_cxx12_Lock_policyE2EE
 St23__codecvt_abstract_baseIDiDu11__mbstate_tE
@@ -26246,6 +26392,7 @@ VR_IVRSpatialAnchors_FnTable_GetSpatialAnchorPose(unsigned int, ETrackingUnivers
 VR_IVRSystem_FnTable_AcknowledgeQuit_Exiting()
 VR_IVRSystem_FnTable_ApplyTransform(TrackedDevicePose_t*, TrackedDevicePose_t*, HmdMatrix34_t*)
 VR_IVRSystem_FnTable_ComputeDistortion(EVREye, float, float, DistortionCoordinates_t*)
+VR_IVRSystem_FnTable_ComputeDistortionSet(EVREye, EVRDistortionChannel, bool, unsigned int, DistortionCoordinate_t*, DistortionCoordinate_t*)
 VR_IVRSystem_FnTable_GetAppContainerFilePaths(char*, unsigned int)
 VR_IVRSystem_FnTable_GetArrayTrackedDeviceProperty(unsigned int, ETrackedDeviceProperty, unsigned int, void*, unsigned int, ETrackedPropertyError*)
 VR_IVRSystem_FnTable_GetBoolTrackedDeviceProperty(unsigned int, ETrackedDeviceProperty, ETrackedPropertyError*)
@@ -27862,7 +28009,6 @@ _GLOBAL__sub_I_transform.cpp
 _GLOBAL__sub_I_vectoraligned.cpp
 _GLOBAL__sub_I_virtualdisplayclient.cpp
 _GLOBAL__sub_I_vkdevice.cpp
-_GLOBAL__sub_I_vkdevice.cpp.cold
 _GLOBAL__sub_I_vr_cl_tracked_camera.cpp
 _GLOBAL__sub_I_vr_messages.pb.cc
 _GLOBAL__sub_I_vrapplications.cpp
@@ -28272,7 +28418,6 @@ application-x-
 application/x-
 arena<128ul, 8ul>::deallocate(char*, unsigned long)
 arena<160ul, 8ul>::deallocate(char*, unsigned long)
-arena<400ul, 8ul>::deallocate(char*, unsigned long)
 arena<40ul, 4ul>::deallocate(char*, unsigned long)
 arena<80ul, 8ul>::deallocate(char*, unsigned long)
 array
@@ -28732,7 +28877,6 @@ char const*& std::vector<char const*, std::allocator<char const*>>::emplace_back
 char& std::vector<char, std::allocator<char>>::emplace_back<char>(char&&)
 char* arena<128ul, 8ul>::allocate<8ul>(unsigned long)
 char* arena<160ul, 8ul>::allocate<8ul>(unsigned long)
-char* arena<400ul, 8ul>::allocate<8ul>(unsigned long)
 char* arena<40ul, 4ul>::allocate<4ul>(unsigned long)
 char* arena<80ul, 8ul>::allocate<8ul>(unsigned long)
 char* std::__add_grouping<char>(char*, char, char const*, unsigned long, char const*, char const*)
@@ -29192,7 +29336,8 @@ facet::CCompositionClient::InitAndConstructCompositionState()
 facet::CCompositionClient::InitAndConstructCompositionState() (.cold)
 facet::CCompositionClient::InitDevice(facet::InteropAPI_t, facet::InteropDeviceDetails_t const&)
 facet::CCompositionClient::InitVulkan()
-facet::CCompositionClient::Initialize()
+facet::CCompositionClient::InitVulkan() (.cold)
+facet::CCompositionClient::Initialize(void (*(*)(VkInstance_T*, char const*))())
 facet::CCompositionClient::IsTextureFormatSupported(long) const
 facet::CCompositionClient::PrePrismWait(unsigned long)
 facet::CCompositionClient::PrePrismWait(unsigned long) (.cold)
@@ -29206,8 +29351,6 @@ facet::CCompositionClient::ReleaseVulkanResources()
 facet::CCompositionClient::ReleaseVulkanResources() (.cold)
 facet::CCompositionClient::SetSyncTexture(IPC::TSharedHandleBase<int, -1>)
 facet::CCompositionClient::SetSyncTexture(IPC::TSharedHandleBase<int, -1>) (.cold)
-facet::CCompositionClient::SetUndistortParameters(PrismUndistortParameters_t const&)
-facet::CCompositionClient::SetUndistortParameters(PrismUndistortParameters_t const&) (.cold)
 facet::CCompositionClient::StartSession(unsigned int)
 facet::CCompositionClient::StartSession(unsigned int) (.cold)
 facet::CCompositionClient::SubmitLayers(unsigned long, unsigned long, unsigned long)
@@ -29429,6 +29572,7 @@ g_IVRSystem_021_FnTable
 g_IVRSystem_022_FnTable
 g_IVRSystem_023_FnTable
 g_IVRSystem_024_FnTable
+g_IVRSystem_025_FnTable
 g_IVRTrackedCamera_002_FnTable
 g_IVRTrackedCamera_003_FnTable
 g_IVRTrackedCamera_004_FnTable
@@ -30498,9 +30642,13 @@ m_nSwapchainSlot < CompositionState_t::k_nMaxSwapchains
 m_nTargetVsyncId > nCurrentVsyncInterval
 m_pBinding->IsContextCurrent()
 m_pClient != nullptr
+m_pCreatedDevice == VK_NULL_HANDLE
+m_pCreatedInstance == VK_NULL_HANDLE
 m_pDevice
 m_pDevice == VK_NULL_HANDLE
+m_pInstance != VK_NULL_HANDLE
 m_pInstance == VK_NULL_HANDLE
+m_pPhysicalDevice != VK_NULL_HANDLE
 m_pPhysicalDevice == VK_NULL_HANDLE
 m_pProperties->CreatePropertyContainer( k_ulPathAliasInfoContainer ) Failed
 m_pProperties->CreatePropertyContainer( k_ulRootPathContainer ) Failed
@@ -31051,7 +31199,6 @@ non-virtual thunk to CVRSystemLatest::ApplyApplicationSpecificPoseTransform(unsi
 non-virtual thunk to CVRSystemLatest::ApplyApplicationSpecificPoseTransform(vr::TrackedDevicePose_t*, unsigned int, float)
 non-virtual thunk to CVRSystemLatest::ApplyBindingOffsets(unsigned int, vr::TrackedDevicePose_t*)
 non-virtual thunk to CVRSystemLatest::ApplyBindingOffsets(vr::TrackedDevicePose_t*, unsigned int)
-non-virtual thunk to CVRSystemLatest::ComputeDistortion(vr::EVREye, vr::DistortionChannel_t, bool, unsigned int, vr::DistortionCoordinate_t const*, vr::DistortionCoordinate_t*)
 non-virtual thunk to CVRSystemLatest::GetApplicationSpecificScaling()
 non-virtual thunk to CVRSystemLatest::GetCompositorError()
 non-virtual thunk to CVRSystemLatest::GetCompositorProcessId()
@@ -31507,6 +31654,7 @@ roughnessFactor
 ru_ru
 runtime
 russian
+s'cS~
 sButtonTexts
 sCaptionText
 sMessageText
@@ -32259,6 +32407,12 @@ std::_Hashtable<EXRHandleType, std::pair<EXRHandleType const, ChildData>, std::a
 std::_Hashtable<EXRHandleType, std::pair<EXRHandleType const, ChildData>, std::allocator<std::pair<EXRHandleType const, ChildData>>, std::__detail::_Select1st, std::equal_to<EXRHandleType>, std::hash<EXRHandleType>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<false, false, true>>::_M_rehash(unsigned long, unsigned long const&)
 std::_Hashtable<EXRHandleType, std::pair<EXRHandleType const, ChildData>, std::allocator<std::pair<EXRHandleType const, ChildData>>, std::__detail::_Select1st, std::equal_to<EXRHandleType>, std::hash<EXRHandleType>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<false, false, true>>::count(EXRHandleType const&) const
 std::_Hashtable<EXRHandleType, std::pair<EXRHandleType const, ChildData>, std::allocator<std::pair<EXRHandleType const, ChildData>>, std::__detail::_Select1st, std::equal_to<EXRHandleType>, std::hash<EXRHandleType>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<false, false, true>>::~_Hashtable()
+std::_Hashtable<VkDevice_T*, std::pair<VkDevice_T* const, CreatedVulkanDeviceInfo>, std::allocator<std::pair<VkDevice_T* const, CreatedVulkanDeviceInfo>>, std::__detail::_Select1st, std::equal_to<VkDevice_T*>, std::hash<VkDevice_T*>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<false, false, true>>::_M_insert_unique_node(unsigned long, unsigned long, std::__detail::_Hash_node<std::pair<VkDevice_T* const, CreatedVulkanDeviceInfo>, false>*, unsigned long)
+std::_Hashtable<VkDevice_T*, std::pair<VkDevice_T* const, CreatedVulkanDeviceInfo>, std::allocator<std::pair<VkDevice_T* const, CreatedVulkanDeviceInfo>>, std::__detail::_Select1st, std::equal_to<VkDevice_T*>, std::hash<VkDevice_T*>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<false, false, true>>::_M_rehash(unsigned long, unsigned long const&)
+std::_Hashtable<VkInstance_T*, std::pair<VkInstance_T* const, CreatedVulkanInstanceInfo>, std::allocator<std::pair<VkInstance_T* const, CreatedVulkanInstanceInfo>>, std::__detail::_Select1st, std::equal_to<VkInstance_T*>, std::hash<VkInstance_T*>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<false, false, true>>::_M_insert_unique_node(unsigned long, unsigned long, std::__detail::_Hash_node<std::pair<VkInstance_T* const, CreatedVulkanInstanceInfo>, false>*, unsigned long)
+std::_Hashtable<VkInstance_T*, std::pair<VkInstance_T* const, CreatedVulkanInstanceInfo>, std::allocator<std::pair<VkInstance_T* const, CreatedVulkanInstanceInfo>>, std::__detail::_Select1st, std::equal_to<VkInstance_T*>, std::hash<VkInstance_T*>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<false, false, true>>::_M_rehash(unsigned long, unsigned long const&)
+std::_Hashtable<VkPhysicalDevice_T*, std::pair<VkPhysicalDevice_T* const, VkInstance_T*>, std::allocator<std::pair<VkPhysicalDevice_T* const, VkInstance_T*>>, std::__detail::_Select1st, std::equal_to<VkPhysicalDevice_T*>, std::hash<VkPhysicalDevice_T*>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<false, false, true>>::_M_insert_unique_node(unsigned long, unsigned long, std::__detail::_Hash_node<std::pair<VkPhysicalDevice_T* const, VkInstance_T*>, false>*, unsigned long)
+std::_Hashtable<VkPhysicalDevice_T*, std::pair<VkPhysicalDevice_T* const, VkInstance_T*>, std::allocator<std::pair<VkPhysicalDevice_T* const, VkInstance_T*>>, std::__detail::_Select1st, std::equal_to<VkPhysicalDevice_T*>, std::hash<VkPhysicalDevice_T*>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<false, false, true>>::_M_rehash(unsigned long, unsigned long const&)
 std::_Hashtable<XrViewConfigurationType, std::pair<XrViewConfigurationType const, std::vector<XrEnvironmentBlendMode, std::allocator<XrEnvironmentBlendMode>>>, std::allocator<std::pair<XrViewConfigurationType const, std::vector<XrEnvironmentBlendMode, std::allocator<XrEnvironmentBlendMode>>>>, std::__detail::_Select1st, std::equal_to<XrViewConfigurationType>, vr::CEnumHash, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, false, true>>::_M_find_before_node(unsigned long, XrViewConfigurationType const&, unsigned long) const
 std::_Hashtable<XrViewConfigurationType, std::pair<XrViewConfigurationType const, std::vector<XrEnvironmentBlendMode, std::allocator<XrEnvironmentBlendMode>>>, std::allocator<std::pair<XrViewConfigurationType const, std::vector<XrEnvironmentBlendMode, std::allocator<XrEnvironmentBlendMode>>>>, std::__detail::_Select1st, std::equal_to<XrViewConfigurationType>, vr::CEnumHash, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, false, true>>::_M_insert_unique_node(unsigned long, unsigned long, std::__detail::_Hash_node<std::pair<XrViewConfigurationType const, std::vector<XrEnvironmentBlendMode, std::allocator<XrEnvironmentBlendMode>>>, true>*, unsigned long)
 std::_Hashtable<XrViewConfigurationType, std::pair<XrViewConfigurationType const, std::vector<XrEnvironmentBlendMode, std::allocator<XrEnvironmentBlendMode>>>, std::allocator<std::pair<XrViewConfigurationType const, std::vector<XrEnvironmentBlendMode, std::allocator<XrEnvironmentBlendMode>>>>, std::__detail::_Select1st, std::equal_to<XrViewConfigurationType>, vr::CEnumHash, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, false, true>>::_M_rehash(unsigned long, unsigned long const&)
@@ -32626,6 +32780,10 @@ std::_Sp_counted_deleter<CSxrGraphicsBindingHeadless*, std::default_delete<CSxrG
 std::_Sp_counted_deleter<CSxrGraphicsBindingHeadless*, std::default_delete<CSxrGraphicsBindingHeadless>, std::allocator<void>, (__gnu_cxx::_Lock_policy)2>::_M_dispose()
 std::_Sp_counted_deleter<CSxrGraphicsBindingHeadless*, std::default_delete<CSxrGraphicsBindingHeadless>, std::allocator<void>, (__gnu_cxx::_Lock_policy)2>::_M_get_deleter(std::type_info const&)
 std::_Sp_counted_deleter<CSxrGraphicsBindingHeadless*, std::default_delete<CSxrGraphicsBindingHeadless>, std::allocator<void>, (__gnu_cxx::_Lock_policy)2>::~_Sp_counted_deleter()
+std::_Sp_counted_deleter<facet::CCompositionClient*, std::default_delete<facet::CCompositionClient>, std::allocator<void>, (__gnu_cxx::_Lock_policy)2>::_M_destroy()
+std::_Sp_counted_deleter<facet::CCompositionClient*, std::default_delete<facet::CCompositionClient>, std::allocator<void>, (__gnu_cxx::_Lock_policy)2>::_M_dispose()
+std::_Sp_counted_deleter<facet::CCompositionClient*, std::default_delete<facet::CCompositionClient>, std::allocator<void>, (__gnu_cxx::_Lock_policy)2>::_M_get_deleter(std::type_info const&)
+std::_Sp_counted_deleter<facet::CCompositionClient*, std::default_delete<facet::CCompositionClient>, std::allocator<void>, (__gnu_cxx::_Lock_policy)2>::~_Sp_counted_deleter()
 std::_Sp_counted_ptr<std::nullptr_t, (__gnu_cxx::_Lock_policy)2>::_M_dispose()
 std::_Sp_counted_ptr_inplace<CBlockQueue, std::allocator<CBlockQueue>, (__gnu_cxx::_Lock_policy)2>::_M_destroy()
 std::_Sp_counted_ptr_inplace<CBlockQueue, std::allocator<CBlockQueue>, (__gnu_cxx::_Lock_policy)2>::_M_dispose()
@@ -32691,10 +32849,6 @@ std::_Sp_counted_ptr_inplace<VcetJob, std::allocator<VcetJob>, (__gnu_cxx::_Lock
 std::_Sp_counted_ptr_inplace<VcetJob, std::allocator<VcetJob>, (__gnu_cxx::_Lock_policy)2>::_M_dispose()
 std::_Sp_counted_ptr_inplace<VcetJob, std::allocator<VcetJob>, (__gnu_cxx::_Lock_policy)2>::_M_get_deleter(std::type_info const&)
 std::_Sp_counted_ptr_inplace<VcetJob, std::allocator<VcetJob>, (__gnu_cxx::_Lock_policy)2>::~_Sp_counted_ptr_inplace()
-std::_Sp_counted_ptr_inplace<facet::CCompositionClient, std::allocator<facet::CCompositionClient>, (__gnu_cxx::_Lock_policy)2>::_M_destroy()
-std::_Sp_counted_ptr_inplace<facet::CCompositionClient, std::allocator<facet::CCompositionClient>, (__gnu_cxx::_Lock_policy)2>::_M_dispose()
-std::_Sp_counted_ptr_inplace<facet::CCompositionClient, std::allocator<facet::CCompositionClient>, (__gnu_cxx::_Lock_policy)2>::_M_get_deleter(std::type_info const&)
-std::_Sp_counted_ptr_inplace<facet::CCompositionClient, std::allocator<facet::CCompositionClient>, (__gnu_cxx::_Lock_policy)2>::~_Sp_counted_ptr_inplace()
 std::_Sp_counted_ptr_inplace<gli::storage_linear, std::allocator<gli::storage_linear>, (__gnu_cxx::_Lock_policy)2>::_M_destroy()
 std::_Sp_counted_ptr_inplace<gli::storage_linear, std::allocator<gli::storage_linear>, (__gnu_cxx::_Lock_policy)2>::_M_dispose()
 std::_Sp_counted_ptr_inplace<gli::storage_linear, std::allocator<gli::storage_linear>, (__gnu_cxx::_Lock_policy)2>::_M_get_deleter(std::type_info const&)
@@ -33551,6 +33705,10 @@ std::__detail::_Executor<__gnu_cxx::__normal_iterator<char const*, std::string>,
 std::__detail::_Executor<__gnu_cxx::__normal_iterator<char const*, std::string>, std::allocator<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string>>>, std::regex_traits<char>, true>::_M_rep_once_more(std::__detail::_Executor<__gnu_cxx::__normal_iterator<char const*, std::string>, std::allocator<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string>>>, std::regex_traits<char>, true>::_Match_mode, long)
 std::__detail::_Executor<__gnu_cxx::__normal_iterator<char const*, std::string>, std::allocator<std::sub_match<__gnu_cxx::__normal_iterator<char const*, std::string>>>, std::regex_traits<char>, true>::~_Executor()
 std::__detail::_Hashtable_alloc<std::allocator<std::__detail::_Hash_node<std::pair<EXRHandleType const, ChildData>, false>>>::_M_allocate_buckets(unsigned long) (.isra.0)
+std::__detail::_Hashtable_alloc<std::allocator<std::__detail::_Hash_node<std::pair<VkDevice_T* const, CreatedVulkanDeviceInfo>, false>>>::_M_allocate_buckets(unsigned long) (.isra.0)
+std::__detail::_Hashtable_alloc<std::allocator<std::__detail::_Hash_node<std::pair<VkDevice_T* const, CreatedVulkanDeviceInfo>, false>>>::_M_deallocate_node(std::__detail::_Hash_node<std::pair<VkDevice_T* const, CreatedVulkanDeviceInfo>, false>*) (.isra.0)
+std::__detail::_Hashtable_alloc<std::allocator<std::__detail::_Hash_node<std::pair<VkInstance_T* const, CreatedVulkanInstanceInfo>, false>>>::_M_allocate_buckets(unsigned long) (.isra.0)
+std::__detail::_Hashtable_alloc<std::allocator<std::__detail::_Hash_node<std::pair<VkPhysicalDevice_T* const, VkInstance_T*>, false>>>::_M_allocate_buckets(unsigned long) (.isra.0)
 std::__detail::_Hashtable_alloc<std::allocator<std::__detail::_Hash_node<std::pair<XrViewConfigurationType const, std::vector<XrEnvironmentBlendMode, std::allocator<XrEnvironmentBlendMode>>>, true>>>::_M_allocate_buckets(unsigned long) (.isra.0)
 std::__detail::_Hashtable_alloc<std::allocator<std::__detail::_Hash_node<std::pair<XrViewConfigurationType const, std::vector<XrViewConfigurationView, std::allocator<XrViewConfigurationView>>>, true>>>::_M_allocate_buckets(unsigned long) (.isra.0)
 std::__detail::_Hashtable_alloc<std::allocator<std::__detail::_Hash_node<std::pair<int const, TextureImageInfo_t>, false>>>::_M_deallocate_node(std::__detail::_Hash_node<std::pair<int const, TextureImageInfo_t>, false>*) (.isra.0)
@@ -33695,6 +33853,7 @@ std::__numpunct_cache<wchar_t>::~__numpunct_cache()
 std::__pad<char, std::char_traits<char>>::_S_pad(std::ios_base&, char, char*, char const*, long, long)
 std::__pad<wchar_t, std::char_traits<wchar_t>>::_S_pad(std::ios_base&, wchar_t, wchar_t*, wchar_t const*, long, long)
 std::__shared_count<(__gnu_cxx::_Lock_policy)2>::__shared_count<CSxrGraphicsBindingHeadless, std::default_delete<CSxrGraphicsBindingHeadless>>(std::unique_ptr<CSxrGraphicsBindingHeadless, std::default_delete<CSxrGraphicsBindingHeadless>>&&)
+std::__shared_count<(__gnu_cxx::_Lock_policy)2>::__shared_count<facet::CCompositionClient, std::default_delete<facet::CCompositionClient>>(std::unique_ptr<facet::CCompositionClient, std::default_delete<facet::CCompositionClient>>&&)
 std::__shared_count<(__gnu_cxx::_Lock_policy)2>::operator=(std::__shared_count<(__gnu_cxx::_Lock_policy)2> const&) (.isra.0)
 std::__shared_ptr<CVRInputLatest::InputFrame_t, (__gnu_cxx::_Lock_policy)2>::__shared_ptr(std::__shared_ptr<CVRInputLatest::InputFrame_t, (__gnu_cxx::_Lock_policy)2> const&)
 std::__sso_string::__sso_string()
@@ -34770,7 +34929,6 @@ std::ctype_byname<wchar_t>::ctype_byname(char const*, unsigned long) (.cold)
 std::ctype_byname<wchar_t>::ctype_byname(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>> const&, unsigned long)
 std::ctype_byname<wchar_t>::ctype_byname(std::string const&, unsigned long)
 std::ctype_byname<wchar_t>::~ctype_byname()
-std::default_delete<CVkExtensionInfo>::operator()(CVkExtensionInfo*) const (.isra.0)
 std::default_delete<std::unordered_map<std::string, std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::pair<std::string const, std::string>>>>::operator()(std::unordered_map<std::string, std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::pair<std::string const, std::string>>>*) const (.isra.0) (.part.0)
 std::deque<CAnimPose*, std::allocator<CAnimPose*>>::_M_reallocate_map(unsigned long, bool)
 std::deque<CSxrInstance::XrEvent_t, std::allocator<CSxrInstance::XrEvent_t>>::_M_erase(std::_Deque_iterator<CSxrInstance::XrEvent_t, CSxrInstance::XrEvent_t&, CSxrInstance::XrEvent_t*>, std::_Deque_iterator<CSxrInstance::XrEvent_t, CSxrInstance::XrEvent_t&, CSxrInstance::XrEvent_t*>)
@@ -35545,6 +35703,8 @@ std::pair<std::_Rb_tree_iterator<std::string>, bool> std::_Rb_tree<std::string, 
 std::pair<std::_Rb_tree_iterator<std::string>, bool> std::_Rb_tree<std::string, std::string, std::_Identity<std::string>, std::less<std::string>, std::allocator<std::string>>::_M_insert_unique<std::string>(std::string&&)
 std::pair<std::_Rb_tree_iterator<unsigned int*>, bool> std::_Rb_tree<unsigned int*, unsigned int*, std::_Identity<unsigned int*>, std::less<unsigned int*>, std::allocator<unsigned int*>>::_M_insert_unique<unsigned int* const&>(unsigned int* const&)
 std::pair<std::_Rb_tree_iterator<unsigned long>, bool> std::_Rb_tree<unsigned long, unsigned long, std::_Identity<unsigned long>, std::less<unsigned long>, std::allocator<unsigned long>>::_M_insert_unique<unsigned long const&>(unsigned long const&)
+std::pair<std::__detail::_Node_iterator<std::pair<VkDevice_T* const, CreatedVulkanDeviceInfo>, false, false>, bool> std::_Hashtable<VkDevice_T*, std::pair<VkDevice_T* const, CreatedVulkanDeviceInfo>, std::allocator<std::pair<VkDevice_T* const, CreatedVulkanDeviceInfo>>, std::__detail::_Select1st, std::equal_to<VkDevice_T*>, std::hash<VkDevice_T*>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<false, false, true>>::_M_emplace<std::pair<VkDevice_T*, CreatedVulkanDeviceInfo>>(std::integral_constant<bool, true>, std::pair<VkDevice_T*, CreatedVulkanDeviceInfo>&&)
+std::pair<std::__detail::_Node_iterator<std::pair<VkInstance_T* const, CreatedVulkanInstanceInfo>, false, false>, bool> std::_Hashtable<VkInstance_T*, std::pair<VkInstance_T* const, CreatedVulkanInstanceInfo>, std::allocator<std::pair<VkInstance_T* const, CreatedVulkanInstanceInfo>>, std::__detail::_Select1st, std::equal_to<VkInstance_T*>, std::hash<VkInstance_T*>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<false, false, true>>::_M_emplace<std::pair<VkInstance_T*, CreatedVulkanInstanceInfo>>(std::integral_constant<bool, true>, std::pair<VkInstance_T*, CreatedVulkanInstanceInfo>&&)
 std::pair<std::__detail::_Node_iterator<std::pair<std::string const, CVkExtensionEntry>, false, true>, bool> std::_Hashtable<std::string, std::pair<std::string const, CVkExtensionEntry>, std::allocator<std::pair<std::string const, CVkExtensionEntry>>, std::__detail::_Select1st, std::equal_to<std::string>, std::hash<std::string>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, false, true>>::_M_emplace<char const*&, char const*&>(std::integral_constant<bool, true>, char const*&, char const*&)
 std::pair<std::__detail::_Node_iterator<std::pair<unsigned long const, std::vector<VRAction_Entry_t, std::allocator<VRAction_Entry_t>>>, false, false>, bool> std::_Hashtable<unsigned long, std::pair<unsigned long const, std::vector<VRAction_Entry_t, std::allocator<VRAction_Entry_t>>>, std::allocator<std::pair<unsigned long const, std::vector<VRAction_Entry_t, std::allocator<VRAction_Entry_t>>>>, std::__detail::_Select1st, std::equal_to<unsigned long>, std::hash<unsigned long>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<false, false, true>>::_M_emplace<std::pair<unsigned long, std::vector<VRAction_Entry_t, std::allocator<VRAction_Entry_t>>>>(std::integral_constant<bool, true>, std::pair<unsigned long, std::vector<VRAction_Entry_t, std::allocator<VRAction_Entry_t>>>&&)
 std::pair<std::string const, CVkExtensionEntry>::~pair()
@@ -35914,6 +36074,9 @@ std::vector<XrExtensionProperties, std::allocator<XrExtensionProperties>>::~vect
 std::vector<bool, std::allocator<bool>>::_M_fill_insert(std::_Bit_iterator, unsigned long, bool)
 std::vector<bool, std::allocator<bool>>::_M_insert_aux(std::_Bit_iterator, bool)
 std::vector<bool, std::allocator<bool>>::push_back(bool)
+std::vector<char const*, std::allocator<char const*>>::operator=(std::vector<char const*, std::allocator<char const*>> const&)
+std::vector<char const*, std::allocator<char const*>>::vector(std::initializer_list<char const*>, std::allocator<char const*> const&)
+std::vector<char const*, std::allocator<char const*>>::~vector()
 std::vector<char, std::allocator<char>>::_M_default_append(unsigned long)
 std::vector<char, std::allocator<char>>::_M_erase(__gnu_cxx::__normal_iterator<char*, std::vector<char, std::allocator<char>>>, __gnu_cxx::__normal_iterator<char*, std::vector<char, std::allocator<char>>>)
 std::vector<char, std::allocator<char>>::_M_fill_insert(__gnu_cxx::__normal_iterator<char*, std::vector<char, std::allocator<char>>>, unsigned long, char const&)
@@ -37557,6 +37720,7 @@ typeinfo for CVRSystem_021
 typeinfo for CVRSystem_022
 typeinfo for CVRSystem_023
 typeinfo for CVRSystem_024
+typeinfo for CVRSystem_025
 typeinfo for CVRTrackedCamera_002
 typeinfo for CVRTrackedCamera_003
 typeinfo for CVRTrackedCamera_004
@@ -37673,6 +37837,7 @@ typeinfo for HmdInterfaceRegistration<CVRSystem_021>
 typeinfo for HmdInterfaceRegistration<CVRSystem_022>
 typeinfo for HmdInterfaceRegistration<CVRSystem_023>
 typeinfo for HmdInterfaceRegistration<CVRSystem_024>
+typeinfo for HmdInterfaceRegistration<CVRSystem_025>
 typeinfo for IHmdSystem_002
 typeinfo for IHmdSystem_003
 typeinfo for IInputFilter
@@ -37976,6 +38141,7 @@ typeinfo for std::_Bind<void (CVRMailbox::*(CVRMailbox*, std::_Placeholder<1>))(
 typeinfo for std::_Mutex_base<(__gnu_cxx::_Lock_policy)2>
 typeinfo for std::_Sp_counted_base<(__gnu_cxx::_Lock_policy)2>
 typeinfo for std::_Sp_counted_deleter<CSxrGraphicsBindingHeadless*, std::default_delete<CSxrGraphicsBindingHeadless>, std::allocator<void>, (__gnu_cxx::_Lock_policy)2>
+typeinfo for std::_Sp_counted_deleter<facet::CCompositionClient*, std::default_delete<facet::CCompositionClient>, std::allocator<void>, (__gnu_cxx::_Lock_policy)2>
 typeinfo for std::_Sp_counted_ptr_inplace<CBlockQueue, std::allocator<CBlockQueue>, (__gnu_cxx::_Lock_policy)2>
 typeinfo for std::_Sp_counted_ptr_inplace<CInputActionSet, std::allocator<CInputActionSet>, (__gnu_cxx::_Lock_policy)2>
 typeinfo for std::_Sp_counted_ptr_inplace<CRenderModelManager::ModelInfo_t, std::allocator<CRenderModelManager::ModelInfo_t>, (__gnu_cxx::_Lock_policy)2>
@@ -37992,7 +38158,6 @@ typeinfo for std::_Sp_counted_ptr_inplace<InputConfig_t, std::allocator<InputCon
 typeinfo for std::_Sp_counted_ptr_inplace<VcetBo, std::allocator<VcetBo>, (__gnu_cxx::_Lock_policy)2>
 typeinfo for std::_Sp_counted_ptr_inplace<VcetContext, std::allocator<VcetContext>, (__gnu_cxx::_Lock_policy)2>
 typeinfo for std::_Sp_counted_ptr_inplace<VcetJob, std::allocator<VcetJob>, (__gnu_cxx::_Lock_policy)2>
-typeinfo for std::_Sp_counted_ptr_inplace<facet::CCompositionClient, std::allocator<facet::CCompositionClient>, (__gnu_cxx::_Lock_policy)2>
 typeinfo for std::_Sp_counted_ptr_inplace<gli::storage_linear, std::allocator<gli::storage_linear>, (__gnu_cxx::_Lock_policy)2>
 typeinfo for std::_Sp_counted_ptr_inplace<nlohmann::detail::output_string_adapter<char, std::string>, std::allocator<nlohmann::detail::output_string_adapter<char, std::string>>, (__gnu_cxx::_Lock_policy)2>
 typeinfo for std::_Sp_counted_ptr_inplace<std::__detail::_NFA<std::regex_traits<char>>, std::allocator<std::__detail::_NFA<std::regex_traits<char>>>, (__gnu_cxx::_Lock_policy)2>
@@ -38894,6 +39059,7 @@ typeinfo name for CVRSystem_021
 typeinfo name for CVRSystem_022
 typeinfo name for CVRSystem_023
 typeinfo name for CVRSystem_024
+typeinfo name for CVRSystem_025
 typeinfo name for CVRTrackedCamera_002
 typeinfo name for CVRTrackedCamera_003
 typeinfo name for CVRTrackedCamera_004
@@ -39010,6 +39176,7 @@ typeinfo name for HmdInterfaceRegistration<CVRSystem_021>
 typeinfo name for HmdInterfaceRegistration<CVRSystem_022>
 typeinfo name for HmdInterfaceRegistration<CVRSystem_023>
 typeinfo name for HmdInterfaceRegistration<CVRSystem_024>
+typeinfo name for HmdInterfaceRegistration<CVRSystem_025>
 typeinfo name for IHmdSystem_002
 typeinfo name for IHmdSystem_003
 typeinfo name for IInputFilter
@@ -39314,6 +39481,7 @@ typeinfo name for std::_Bind<void (CVRMailbox::*(CVRMailbox*, std::_Placeholder<
 typeinfo name for std::_Mutex_base<(__gnu_cxx::_Lock_policy)2>
 typeinfo name for std::_Sp_counted_base<(__gnu_cxx::_Lock_policy)2>
 typeinfo name for std::_Sp_counted_deleter<CSxrGraphicsBindingHeadless*, std::default_delete<CSxrGraphicsBindingHeadless>, std::allocator<void>, (__gnu_cxx::_Lock_policy)2>
+typeinfo name for std::_Sp_counted_deleter<facet::CCompositionClient*, std::default_delete<facet::CCompositionClient>, std::allocator<void>, (__gnu_cxx::_Lock_policy)2>
 typeinfo name for std::_Sp_counted_ptr_inplace<CBlockQueue, std::allocator<CBlockQueue>, (__gnu_cxx::_Lock_policy)2>
 typeinfo name for std::_Sp_counted_ptr_inplace<CInputActionSet, std::allocator<CInputActionSet>, (__gnu_cxx::_Lock_policy)2>
 typeinfo name for std::_Sp_counted_ptr_inplace<CRenderModelManager::ModelInfo_t, std::allocator<CRenderModelManager::ModelInfo_t>, (__gnu_cxx::_Lock_policy)2>
@@ -39330,7 +39498,6 @@ typeinfo name for std::_Sp_counted_ptr_inplace<InputConfig_t, std::allocator<Inp
 typeinfo name for std::_Sp_counted_ptr_inplace<VcetBo, std::allocator<VcetBo>, (__gnu_cxx::_Lock_policy)2>
 typeinfo name for std::_Sp_counted_ptr_inplace<VcetContext, std::allocator<VcetContext>, (__gnu_cxx::_Lock_policy)2>
 typeinfo name for std::_Sp_counted_ptr_inplace<VcetJob, std::allocator<VcetJob>, (__gnu_cxx::_Lock_policy)2>
-typeinfo name for std::_Sp_counted_ptr_inplace<facet::CCompositionClient, std::allocator<facet::CCompositionClient>, (__gnu_cxx::_Lock_policy)2>
 typeinfo name for std::_Sp_counted_ptr_inplace<gli::storage_linear, std::allocator<gli::storage_linear>, (__gnu_cxx::_Lock_policy)2>
 typeinfo name for std::_Sp_counted_ptr_inplace<nlohmann::detail::output_string_adapter<char, std::string>, std::allocator<nlohmann::detail::output_string_adapter<char, std::string>>, (__gnu_cxx::_Lock_policy)2>
 typeinfo name for std::_Sp_counted_ptr_inplace<std::__detail::_NFA<std::regex_traits<char>>, std::allocator<std::__detail::_NFA<std::regex_traits<char>>>, (__gnu_cxx::_Lock_policy)2>
@@ -39477,6 +39644,7 @@ typeinfo name for std::ctype_base
 typeinfo name for std::ctype_byname<char>
 typeinfo name for std::ctype_byname<wchar_t>
 typeinfo name for std::default_delete<CSxrGraphicsBindingHeadless>
+typeinfo name for std::default_delete<facet::CCompositionClient>
 typeinfo name for std::domain_error
 typeinfo name for std::exception
 typeinfo name for std::invalid_argument
@@ -40718,7 +40886,7 @@ void std::_Rb_tree<std::string, std::pair<std::string const, tinygltf::Value>, s
 void std::_Rb_tree<std::string, std::pair<std::string const, tinygltf::Value>, std::_Select1st<std::pair<std::string const, tinygltf::Value>>, std::less<std::string>, std::allocator<std::pair<std::string const, tinygltf::Value>>>::_M_construct_node<std::pair<std::string const, tinygltf::Value> const&>(std::_Rb_tree_node<std::pair<std::string const, tinygltf::Value>>*, std::pair<std::string const, tinygltf::Value> const&) (.isra.0) (.cold)
 void std::__adjust_heap<__gnu_cxx::__normal_iterator<CDriverManager::HmdDriver_t*, std::vector<CDriverManager::HmdDriver_t, std::allocator<CDriverManager::HmdDriver_t>>>, long, CDriverManager::HmdDriver_t, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(CDriverManager::HmdDriver_t const&, CDriverManager::HmdDriver_t const&)>>(__gnu_cxx::__normal_iterator<CDriverManager::HmdDriver_t*, std::vector<CDriverManager::HmdDriver_t, std::allocator<CDriverManager::HmdDriver_t>>>, long, long, CDriverManager::HmdDriver_t, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(CDriverManager::HmdDriver_t const&, CDriverManager::HmdDriver_t const&)>)
 void std::__adjust_heap<__gnu_cxx::__normal_iterator<CSxrActionSet**, std::vector<CSxrActionSet*, std::allocator<CSxrActionSet*>>>, long, CSxrActionSet*, __gnu_cxx::__ops::_Iter_comp_iter<sxr_xrAttachSessionActionSets(XrSession_T*, XrSessionActionSetsAttachInfo const*)::'lambda'(CSxrActionSet const*, CSxrActionSet const*)>>(__gnu_cxx::__normal_iterator<CSxrActionSet**, std::vector<CSxrActionSet*, std::allocator<CSxrActionSet*>>>, long, long, CSxrActionSet*, __gnu_cxx::__ops::_Iter_comp_iter<sxr_xrAttachSessionActionSets(XrSession_T*, XrSessionActionSetsAttachInfo const*)::'lambda'(CSxrActionSet const*, CSxrActionSet const*)>) (.isra.0)
-void std::__adjust_heap<__gnu_cxx::__normal_iterator<PhysicalDeviceInfo_t*, std::vector<PhysicalDeviceInfo_t, std::allocator<PhysicalDeviceInfo_t>>>, long, PhysicalDeviceInfo_t, __gnu_cxx::__ops::_Iter_comp_iter<CVkDevice::ChoosePhysicalDevice()::'lambda'(PhysicalDeviceInfo_t const&, PhysicalDeviceInfo_t const&)>>(__gnu_cxx::__normal_iterator<PhysicalDeviceInfo_t*, std::vector<PhysicalDeviceInfo_t, std::allocator<PhysicalDeviceInfo_t>>>, long, long, PhysicalDeviceInfo_t, __gnu_cxx::__ops::_Iter_comp_iter<CVkDevice::ChoosePhysicalDevice()::'lambda'(PhysicalDeviceInfo_t const&, PhysicalDeviceInfo_t const&)>) (.isra.0)
+void std::__adjust_heap<__gnu_cxx::__normal_iterator<PhysicalDeviceInfo_t*, std::vector<PhysicalDeviceInfo_t, std::allocator<PhysicalDeviceInfo_t>>>, long, PhysicalDeviceInfo_t, __gnu_cxx::__ops::_Iter_comp_iter<CVkDevice::FindBestPhysicalDevice(VkInstance_T*, PhysicalDeviceInfo_t&, void (*(*)(VkInstance_T*, char const*))())::'lambda'(PhysicalDeviceInfo_t const&, PhysicalDeviceInfo_t const&)>>(__gnu_cxx::__normal_iterator<PhysicalDeviceInfo_t*, std::vector<PhysicalDeviceInfo_t, std::allocator<PhysicalDeviceInfo_t>>>, long, long, PhysicalDeviceInfo_t, __gnu_cxx::__ops::_Iter_comp_iter<CVkDevice::FindBestPhysicalDevice(VkInstance_T*, PhysicalDeviceInfo_t&, void (*(*)(VkInstance_T*, char const*))())::'lambda'(PhysicalDeviceInfo_t const&, PhysicalDeviceInfo_t const&)>) (.isra.0)
 void std::__adjust_heap<__gnu_cxx::__normal_iterator<char*, std::vector<char, std::allocator<char>>>, long, char, __gnu_cxx::__ops::_Iter_less_iter>(__gnu_cxx::__normal_iterator<char*, std::vector<char, std::allocator<char>>>, long, long, char, __gnu_cxx::__ops::_Iter_less_iter)
 void std::__adjust_heap<__gnu_cxx::__normal_iterator<vr::VRActiveActionSet_t*, std::vector<vr::VRActiveActionSet_t, std::allocator<vr::VRActiveActionSet_t>>>, long, vr::VRActiveActionSet_t, __gnu_cxx::__ops::_Iter_comp_iter<sxr_xrSyncActions(XrSession_T*, XrActionsSyncInfo const*)::'lambda0'(vr::VRActiveActionSet_t const&, vr::VRActiveActionSet_t const&)>>(__gnu_cxx::__normal_iterator<vr::VRActiveActionSet_t*, std::vector<vr::VRActiveActionSet_t, std::allocator<vr::VRActiveActionSet_t>>>, long, long, vr::VRActiveActionSet_t, __gnu_cxx::__ops::_Iter_comp_iter<sxr_xrSyncActions(XrSession_T*, XrActionsSyncInfo const*)::'lambda0'(vr::VRActiveActionSet_t const&, vr::VRActiveActionSet_t const&)>) (.isra.0)
 void std::__convert_to_v<double>(char const*, double&, std::_Ios_Iostate&, __locale_struct* const&)
@@ -40783,20 +40951,20 @@ void std::__facet_shims::__numpunct_fill_cache<wchar_t>(std::integral_constant<b
 void std::__final_insertion_sort<__gnu_cxx::__normal_iterator<char*, std::vector<char, std::allocator<char>>>, __gnu_cxx::__ops::_Iter_less_iter>(__gnu_cxx::__normal_iterator<char*, std::vector<char, std::allocator<char>>>, __gnu_cxx::__normal_iterator<char*, std::vector<char, std::allocator<char>>>, __gnu_cxx::__ops::_Iter_less_iter)
 void std::__insertion_sort<__gnu_cxx::__normal_iterator<CDriverManager::HmdDriver_t*, std::vector<CDriverManager::HmdDriver_t, std::allocator<CDriverManager::HmdDriver_t>>>, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(CDriverManager::HmdDriver_t const&, CDriverManager::HmdDriver_t const&)>>(__gnu_cxx::__normal_iterator<CDriverManager::HmdDriver_t*, std::vector<CDriverManager::HmdDriver_t, std::allocator<CDriverManager::HmdDriver_t>>>, __gnu_cxx::__normal_iterator<CDriverManager::HmdDriver_t*, std::vector<CDriverManager::HmdDriver_t, std::allocator<CDriverManager::HmdDriver_t>>>, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(CDriverManager::HmdDriver_t const&, CDriverManager::HmdDriver_t const&)>)
 void std::__insertion_sort<__gnu_cxx::__normal_iterator<CSxrActionSet**, std::vector<CSxrActionSet*, std::allocator<CSxrActionSet*>>>, __gnu_cxx::__ops::_Iter_comp_iter<sxr_xrAttachSessionActionSets(XrSession_T*, XrSessionActionSetsAttachInfo const*)::'lambda'(CSxrActionSet const*, CSxrActionSet const*)>>(__gnu_cxx::__normal_iterator<CSxrActionSet**, std::vector<CSxrActionSet*, std::allocator<CSxrActionSet*>>>, __gnu_cxx::__normal_iterator<CSxrActionSet**, std::vector<CSxrActionSet*, std::allocator<CSxrActionSet*>>>, __gnu_cxx::__ops::_Iter_comp_iter<sxr_xrAttachSessionActionSets(XrSession_T*, XrSessionActionSetsAttachInfo const*)::'lambda'(CSxrActionSet const*, CSxrActionSet const*)>) (.isra.0)
-void std::__insertion_sort<__gnu_cxx::__normal_iterator<PhysicalDeviceInfo_t*, std::vector<PhysicalDeviceInfo_t, std::allocator<PhysicalDeviceInfo_t>>>, __gnu_cxx::__ops::_Iter_comp_iter<CVkDevice::ChoosePhysicalDevice()::'lambda'(PhysicalDeviceInfo_t const&, PhysicalDeviceInfo_t const&)>>(__gnu_cxx::__normal_iterator<PhysicalDeviceInfo_t*, std::vector<PhysicalDeviceInfo_t, std::allocator<PhysicalDeviceInfo_t>>>, __gnu_cxx::__normal_iterator<PhysicalDeviceInfo_t*, std::vector<PhysicalDeviceInfo_t, std::allocator<PhysicalDeviceInfo_t>>>, __gnu_cxx::__ops::_Iter_comp_iter<CVkDevice::ChoosePhysicalDevice()::'lambda'(PhysicalDeviceInfo_t const&, PhysicalDeviceInfo_t const&)>) (.isra.0)
+void std::__insertion_sort<__gnu_cxx::__normal_iterator<PhysicalDeviceInfo_t*, std::vector<PhysicalDeviceInfo_t, std::allocator<PhysicalDeviceInfo_t>>>, __gnu_cxx::__ops::_Iter_comp_iter<CVkDevice::FindBestPhysicalDevice(VkInstance_T*, PhysicalDeviceInfo_t&, void (*(*)(VkInstance_T*, char const*))())::'lambda'(PhysicalDeviceInfo_t const&, PhysicalDeviceInfo_t const&)>>(__gnu_cxx::__normal_iterator<PhysicalDeviceInfo_t*, std::vector<PhysicalDeviceInfo_t, std::allocator<PhysicalDeviceInfo_t>>>, __gnu_cxx::__normal_iterator<PhysicalDeviceInfo_t*, std::vector<PhysicalDeviceInfo_t, std::allocator<PhysicalDeviceInfo_t>>>, __gnu_cxx::__ops::_Iter_comp_iter<CVkDevice::FindBestPhysicalDevice(VkInstance_T*, PhysicalDeviceInfo_t&, void (*(*)(VkInstance_T*, char const*))())::'lambda'(PhysicalDeviceInfo_t const&, PhysicalDeviceInfo_t const&)>) (.isra.0)
 void std::__insertion_sort<__gnu_cxx::__normal_iterator<char*, std::vector<char, std::allocator<char>>>, __gnu_cxx::__ops::_Iter_less_iter>(__gnu_cxx::__normal_iterator<char*, std::vector<char, std::allocator<char>>>, __gnu_cxx::__normal_iterator<char*, std::vector<char, std::allocator<char>>>, __gnu_cxx::__ops::_Iter_less_iter)
 void std::__insertion_sort<__gnu_cxx::__normal_iterator<vr::VRActiveActionSet_t*, std::vector<vr::VRActiveActionSet_t, std::allocator<vr::VRActiveActionSet_t>>>, __gnu_cxx::__ops::_Iter_comp_iter<sxr_xrSyncActions(XrSession_T*, XrActionsSyncInfo const*)::'lambda0'(vr::VRActiveActionSet_t const&, vr::VRActiveActionSet_t const&)>>(__gnu_cxx::__normal_iterator<vr::VRActiveActionSet_t*, std::vector<vr::VRActiveActionSet_t, std::allocator<vr::VRActiveActionSet_t>>>, __gnu_cxx::__normal_iterator<vr::VRActiveActionSet_t*, std::vector<vr::VRActiveActionSet_t, std::allocator<vr::VRActiveActionSet_t>>>, __gnu_cxx::__ops::_Iter_comp_iter<sxr_xrSyncActions(XrSession_T*, XrActionsSyncInfo const*)::'lambda0'(vr::VRActiveActionSet_t const&, vr::VRActiveActionSet_t const&)>) (.isra.0)
 void std::__introsort_loop<__gnu_cxx::__normal_iterator<CDriverManager::HmdDriver_t*, std::vector<CDriverManager::HmdDriver_t, std::allocator<CDriverManager::HmdDriver_t>>>, long, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(CDriverManager::HmdDriver_t const&, CDriverManager::HmdDriver_t const&)>>(__gnu_cxx::__normal_iterator<CDriverManager::HmdDriver_t*, std::vector<CDriverManager::HmdDriver_t, std::allocator<CDriverManager::HmdDriver_t>>>, __gnu_cxx::__normal_iterator<CDriverManager::HmdDriver_t*, std::vector<CDriverManager::HmdDriver_t, std::allocator<CDriverManager::HmdDriver_t>>>, long, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(CDriverManager::HmdDriver_t const&, CDriverManager::HmdDriver_t const&)>)
 void std::__introsort_loop<__gnu_cxx::__normal_iterator<CSxrActionSet**, std::vector<CSxrActionSet*, std::allocator<CSxrActionSet*>>>, long, __gnu_cxx::__ops::_Iter_comp_iter<sxr_xrAttachSessionActionSets(XrSession_T*, XrSessionActionSetsAttachInfo const*)::'lambda'(CSxrActionSet const*, CSxrActionSet const*)>>(__gnu_cxx::__normal_iterator<CSxrActionSet**, std::vector<CSxrActionSet*, std::allocator<CSxrActionSet*>>>, __gnu_cxx::__normal_iterator<CSxrActionSet**, std::vector<CSxrActionSet*, std::allocator<CSxrActionSet*>>>, long, __gnu_cxx::__ops::_Iter_comp_iter<sxr_xrAttachSessionActionSets(XrSession_T*, XrSessionActionSetsAttachInfo const*)::'lambda'(CSxrActionSet const*, CSxrActionSet const*)>)
-void std::__introsort_loop<__gnu_cxx::__normal_iterator<PhysicalDeviceInfo_t*, std::vector<PhysicalDeviceInfo_t, std::allocator<PhysicalDeviceInfo_t>>>, long, __gnu_cxx::__ops::_Iter_comp_iter<CVkDevice::ChoosePhysicalDevice()::'lambda'(PhysicalDeviceInfo_t const&, PhysicalDeviceInfo_t const&)>>(__gnu_cxx::__normal_iterator<PhysicalDeviceInfo_t*, std::vector<PhysicalDeviceInfo_t, std::allocator<PhysicalDeviceInfo_t>>>, __gnu_cxx::__normal_iterator<PhysicalDeviceInfo_t*, std::vector<PhysicalDeviceInfo_t, std::allocator<PhysicalDeviceInfo_t>>>, long, __gnu_cxx::__ops::_Iter_comp_iter<CVkDevice::ChoosePhysicalDevice()::'lambda'(PhysicalDeviceInfo_t const&, PhysicalDeviceInfo_t const&)>)
+void std::__introsort_loop<__gnu_cxx::__normal_iterator<PhysicalDeviceInfo_t*, std::vector<PhysicalDeviceInfo_t, std::allocator<PhysicalDeviceInfo_t>>>, long, __gnu_cxx::__ops::_Iter_comp_iter<CVkDevice::FindBestPhysicalDevice(VkInstance_T*, PhysicalDeviceInfo_t&, void (*(*)(VkInstance_T*, char const*))())::'lambda'(PhysicalDeviceInfo_t const&, PhysicalDeviceInfo_t const&)>>(__gnu_cxx::__normal_iterator<PhysicalDeviceInfo_t*, std::vector<PhysicalDeviceInfo_t, std::allocator<PhysicalDeviceInfo_t>>>, __gnu_cxx::__normal_iterator<PhysicalDeviceInfo_t*, std::vector<PhysicalDeviceInfo_t, std::allocator<PhysicalDeviceInfo_t>>>, long, __gnu_cxx::__ops::_Iter_comp_iter<CVkDevice::FindBestPhysicalDevice(VkInstance_T*, PhysicalDeviceInfo_t&, void (*(*)(VkInstance_T*, char const*))())::'lambda'(PhysicalDeviceInfo_t const&, PhysicalDeviceInfo_t const&)>)
 void std::__introsort_loop<__gnu_cxx::__normal_iterator<char*, std::vector<char, std::allocator<char>>>, long, __gnu_cxx::__ops::_Iter_less_iter>(__gnu_cxx::__normal_iterator<char*, std::vector<char, std::allocator<char>>>, __gnu_cxx::__normal_iterator<char*, std::vector<char, std::allocator<char>>>, long, __gnu_cxx::__ops::_Iter_less_iter)
 void std::__introsort_loop<__gnu_cxx::__normal_iterator<vr::VRActiveActionSet_t*, std::vector<vr::VRActiveActionSet_t, std::allocator<vr::VRActiveActionSet_t>>>, long, __gnu_cxx::__ops::_Iter_comp_iter<sxr_xrSyncActions(XrSession_T*, XrActionsSyncInfo const*)::'lambda0'(vr::VRActiveActionSet_t const&, vr::VRActiveActionSet_t const&)>>(__gnu_cxx::__normal_iterator<vr::VRActiveActionSet_t*, std::vector<vr::VRActiveActionSet_t, std::allocator<vr::VRActiveActionSet_t>>>, __gnu_cxx::__normal_iterator<vr::VRActiveActionSet_t*, std::vector<vr::VRActiveActionSet_t, std::allocator<vr::VRActiveActionSet_t>>>, long, __gnu_cxx::__ops::_Iter_comp_iter<sxr_xrSyncActions(XrSession_T*, XrActionsSyncInfo const*)::'lambda0'(vr::VRActiveActionSet_t const&, vr::VRActiveActionSet_t const&)>)
 void std::__make_heap<__gnu_cxx::__normal_iterator<CDriverManager::HmdDriver_t*, std::vector<CDriverManager::HmdDriver_t, std::allocator<CDriverManager::HmdDriver_t>>>, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(CDriverManager::HmdDriver_t const&, CDriverManager::HmdDriver_t const&)>>(__gnu_cxx::__normal_iterator<CDriverManager::HmdDriver_t*, std::vector<CDriverManager::HmdDriver_t, std::allocator<CDriverManager::HmdDriver_t>>>, __gnu_cxx::__normal_iterator<CDriverManager::HmdDriver_t*, std::vector<CDriverManager::HmdDriver_t, std::allocator<CDriverManager::HmdDriver_t>>>, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(CDriverManager::HmdDriver_t const&, CDriverManager::HmdDriver_t const&)>&)
-void std::__make_heap<__gnu_cxx::__normal_iterator<PhysicalDeviceInfo_t*, std::vector<PhysicalDeviceInfo_t, std::allocator<PhysicalDeviceInfo_t>>>, __gnu_cxx::__ops::_Iter_comp_iter<CVkDevice::ChoosePhysicalDevice()::'lambda'(PhysicalDeviceInfo_t const&, PhysicalDeviceInfo_t const&)>>(__gnu_cxx::__normal_iterator<PhysicalDeviceInfo_t*, std::vector<PhysicalDeviceInfo_t, std::allocator<PhysicalDeviceInfo_t>>>, __gnu_cxx::__normal_iterator<PhysicalDeviceInfo_t*, std::vector<PhysicalDeviceInfo_t, std::allocator<PhysicalDeviceInfo_t>>>, __gnu_cxx::__ops::_Iter_comp_iter<CVkDevice::ChoosePhysicalDevice()::'lambda'(PhysicalDeviceInfo_t const&, PhysicalDeviceInfo_t const&)>&) (.isra.0)
+void std::__make_heap<__gnu_cxx::__normal_iterator<PhysicalDeviceInfo_t*, std::vector<PhysicalDeviceInfo_t, std::allocator<PhysicalDeviceInfo_t>>>, __gnu_cxx::__ops::_Iter_comp_iter<CVkDevice::FindBestPhysicalDevice(VkInstance_T*, PhysicalDeviceInfo_t&, void (*(*)(VkInstance_T*, char const*))())::'lambda'(PhysicalDeviceInfo_t const&, PhysicalDeviceInfo_t const&)>>(__gnu_cxx::__normal_iterator<PhysicalDeviceInfo_t*, std::vector<PhysicalDeviceInfo_t, std::allocator<PhysicalDeviceInfo_t>>>, __gnu_cxx::__normal_iterator<PhysicalDeviceInfo_t*, std::vector<PhysicalDeviceInfo_t, std::allocator<PhysicalDeviceInfo_t>>>, __gnu_cxx::__ops::_Iter_comp_iter<CVkDevice::FindBestPhysicalDevice(VkInstance_T*, PhysicalDeviceInfo_t&, void (*(*)(VkInstance_T*, char const*))())::'lambda'(PhysicalDeviceInfo_t const&, PhysicalDeviceInfo_t const&)>&) (.isra.0)
 void std::__pop_heap<__gnu_cxx::__normal_iterator<CDriverManager::HmdDriver_t*, std::vector<CDriverManager::HmdDriver_t, std::allocator<CDriverManager::HmdDriver_t>>>, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(CDriverManager::HmdDriver_t const&, CDriverManager::HmdDriver_t const&)>>(__gnu_cxx::__normal_iterator<CDriverManager::HmdDriver_t*, std::vector<CDriverManager::HmdDriver_t, std::allocator<CDriverManager::HmdDriver_t>>>, __gnu_cxx::__normal_iterator<CDriverManager::HmdDriver_t*, std::vector<CDriverManager::HmdDriver_t, std::allocator<CDriverManager::HmdDriver_t>>>, __gnu_cxx::__normal_iterator<CDriverManager::HmdDriver_t*, std::vector<CDriverManager::HmdDriver_t, std::allocator<CDriverManager::HmdDriver_t>>>, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(CDriverManager::HmdDriver_t const&, CDriverManager::HmdDriver_t const&)>&)
-void std::__pop_heap<__gnu_cxx::__normal_iterator<PhysicalDeviceInfo_t*, std::vector<PhysicalDeviceInfo_t, std::allocator<PhysicalDeviceInfo_t>>>, __gnu_cxx::__ops::_Iter_comp_iter<CVkDevice::ChoosePhysicalDevice()::'lambda'(PhysicalDeviceInfo_t const&, PhysicalDeviceInfo_t const&)>>(__gnu_cxx::__normal_iterator<PhysicalDeviceInfo_t*, std::vector<PhysicalDeviceInfo_t, std::allocator<PhysicalDeviceInfo_t>>>, __gnu_cxx::__normal_iterator<PhysicalDeviceInfo_t*, std::vector<PhysicalDeviceInfo_t, std::allocator<PhysicalDeviceInfo_t>>>, __gnu_cxx::__normal_iterator<PhysicalDeviceInfo_t*, std::vector<PhysicalDeviceInfo_t, std::allocator<PhysicalDeviceInfo_t>>>, __gnu_cxx::__ops::_Iter_comp_iter<CVkDevice::ChoosePhysicalDevice()::'lambda'(PhysicalDeviceInfo_t const&, PhysicalDeviceInfo_t const&)>&) (.isra.0)
+void std::__pop_heap<__gnu_cxx::__normal_iterator<PhysicalDeviceInfo_t*, std::vector<PhysicalDeviceInfo_t, std::allocator<PhysicalDeviceInfo_t>>>, __gnu_cxx::__ops::_Iter_comp_iter<CVkDevice::FindBestPhysicalDevice(VkInstance_T*, PhysicalDeviceInfo_t&, void (*(*)(VkInstance_T*, char const*))())::'lambda'(PhysicalDeviceInfo_t const&, PhysicalDeviceInfo_t const&)>>(__gnu_cxx::__normal_iterator<PhysicalDeviceInfo_t*, std::vector<PhysicalDeviceInfo_t, std::allocator<PhysicalDeviceInfo_t>>>, __gnu_cxx::__normal_iterator<PhysicalDeviceInfo_t*, std::vector<PhysicalDeviceInfo_t, std::allocator<PhysicalDeviceInfo_t>>>, __gnu_cxx::__normal_iterator<PhysicalDeviceInfo_t*, std::vector<PhysicalDeviceInfo_t, std::allocator<PhysicalDeviceInfo_t>>>, __gnu_cxx::__ops::_Iter_comp_iter<CVkDevice::FindBestPhysicalDevice(VkInstance_T*, PhysicalDeviceInfo_t&, void (*(*)(VkInstance_T*, char const*))())::'lambda'(PhysicalDeviceInfo_t const&, PhysicalDeviceInfo_t const&)>&) (.isra.0)
 void std::__unguarded_linear_insert<__gnu_cxx::__normal_iterator<CDriverManager::HmdDriver_t*, std::vector<CDriverManager::HmdDriver_t, std::allocator<CDriverManager::HmdDriver_t>>>, __gnu_cxx::__ops::_Val_comp_iter<bool (*)(CDriverManager::HmdDriver_t const&, CDriverManager::HmdDriver_t const&)>>(__gnu_cxx::__normal_iterator<CDriverManager::HmdDriver_t*, std::vector<CDriverManager::HmdDriver_t, std::allocator<CDriverManager::HmdDriver_t>>>, __gnu_cxx::__ops::_Val_comp_iter<bool (*)(CDriverManager::HmdDriver_t const&, CDriverManager::HmdDriver_t const&)>)
-void std::__unguarded_linear_insert<__gnu_cxx::__normal_iterator<PhysicalDeviceInfo_t*, std::vector<PhysicalDeviceInfo_t, std::allocator<PhysicalDeviceInfo_t>>>, __gnu_cxx::__ops::_Val_comp_iter<CVkDevice::ChoosePhysicalDevice()::'lambda'(PhysicalDeviceInfo_t const&, PhysicalDeviceInfo_t const&)>>(__gnu_cxx::__normal_iterator<PhysicalDeviceInfo_t*, std::vector<PhysicalDeviceInfo_t, std::allocator<PhysicalDeviceInfo_t>>>, __gnu_cxx::__ops::_Val_comp_iter<CVkDevice::ChoosePhysicalDevice()::'lambda'(PhysicalDeviceInfo_t const&, PhysicalDeviceInfo_t const&)>) (.isra.0)
+void std::__unguarded_linear_insert<__gnu_cxx::__normal_iterator<PhysicalDeviceInfo_t*, std::vector<PhysicalDeviceInfo_t, std::allocator<PhysicalDeviceInfo_t>>>, __gnu_cxx::__ops::_Val_comp_iter<CVkDevice::FindBestPhysicalDevice(VkInstance_T*, PhysicalDeviceInfo_t&, void (*(*)(VkInstance_T*, char const*))())::'lambda'(PhysicalDeviceInfo_t const&, PhysicalDeviceInfo_t const&)>>(__gnu_cxx::__normal_iterator<PhysicalDeviceInfo_t*, std::vector<PhysicalDeviceInfo_t, std::allocator<PhysicalDeviceInfo_t>>>, __gnu_cxx::__ops::_Val_comp_iter<CVkDevice::FindBestPhysicalDevice(VkInstance_T*, PhysicalDeviceInfo_t&, void (*(*)(VkInstance_T*, char const*))())::'lambda'(PhysicalDeviceInfo_t const&, PhysicalDeviceInfo_t const&)>) (.isra.0)
 void std::__unguarded_linear_insert<__gnu_cxx::__normal_iterator<vr::VRActiveActionSet_t*, std::vector<vr::VRActiveActionSet_t, std::allocator<vr::VRActiveActionSet_t>>>, __gnu_cxx::__ops::_Val_comp_iter<sxr_xrSyncActions(XrSession_T*, XrActionsSyncInfo const*)::'lambda0'(vr::VRActiveActionSet_t const&, vr::VRActiveActionSet_t const&)>>(__gnu_cxx::__normal_iterator<vr::VRActiveActionSet_t*, std::vector<vr::VRActiveActionSet_t, std::allocator<vr::VRActiveActionSet_t>>>, __gnu_cxx::__ops::_Val_comp_iter<sxr_xrSyncActions(XrSession_T*, XrActionsSyncInfo const*)::'lambda0'(vr::VRActiveActionSet_t const&, vr::VRActiveActionSet_t const&)>) (.isra.0)
 void std::deque<CRenderModelLoadThread::TextureEntry_t, std::allocator<CRenderModelLoadThread::TextureEntry_t>>::_M_push_back_aux<CRenderModelLoadThread::TextureEntry_t const&>(CRenderModelLoadThread::TextureEntry_t const&)
 void std::deque<CVRCompositorSharedTextures::CommandBuffer_t*, std::allocator<CVRCompositorSharedTextures::CommandBuffer_t*>>::_M_push_front_aux<CVRCompositorSharedTextures::CommandBuffer_t* const&>(CVRCompositorSharedTextures::CommandBuffer_t* const&)
@@ -40883,7 +41051,7 @@ void std::vector<VkClearAttachment, std::allocator<VkClearAttachment>>::_M_reall
 void std::vector<VkClearValue, std::allocator<VkClearValue>>::_M_realloc_insert<VkClearValue const&>(__gnu_cxx::__normal_iterator<VkClearValue*, std::vector<VkClearValue, std::allocator<VkClearValue>>>, VkClearValue const&)
 void std::vector<VkDescriptorSetLayoutBinding, std::allocator<VkDescriptorSetLayoutBinding>>::_M_realloc_insert<VkDescriptorSetLayoutBinding const&>(__gnu_cxx::__normal_iterator<VkDescriptorSetLayoutBinding*, std::vector<VkDescriptorSetLayoutBinding, std::allocator<VkDescriptorSetLayoutBinding>>>, VkDescriptorSetLayoutBinding const&)
 void std::vector<VkDeviceMemory_T*, short_alloc<VkDeviceMemory_T*, 80ul, 8ul>>::_M_realloc_insert<VkDeviceMemory_T* const&>(__gnu_cxx::__normal_iterator<VkDeviceMemory_T**, std::vector<VkDeviceMemory_T*, short_alloc<VkDeviceMemory_T*, 80ul, 8ul>>>, VkDeviceMemory_T* const&)
-void std::vector<VkDeviceQueueCreateInfo, short_alloc<VkDeviceQueueCreateInfo, 400ul, 8ul>>::_M_realloc_insert<VkDeviceQueueCreateInfo const&>(__gnu_cxx::__normal_iterator<VkDeviceQueueCreateInfo*, std::vector<VkDeviceQueueCreateInfo, short_alloc<VkDeviceQueueCreateInfo, 400ul, 8ul>>>, VkDeviceQueueCreateInfo const&)
+void std::vector<VkDeviceQueueCreateInfo, std::allocator<VkDeviceQueueCreateInfo>>::_M_realloc_insert<VkDeviceQueueCreateInfo>(__gnu_cxx::__normal_iterator<VkDeviceQueueCreateInfo*, std::vector<VkDeviceQueueCreateInfo, std::allocator<VkDeviceQueueCreateInfo>>>, VkDeviceQueueCreateInfo&&)
 void std::vector<VkExtensionProperties, std::allocator<VkExtensionProperties>>::_M_range_insert<__gnu_cxx::__normal_iterator<VkExtensionProperties*, std::vector<VkExtensionProperties, std::allocator<VkExtensionProperties>>>>(__gnu_cxx::__normal_iterator<VkExtensionProperties*, std::vector<VkExtensionProperties, std::allocator<VkExtensionProperties>>>, __gnu_cxx::__normal_iterator<VkExtensionProperties*, std::vector<VkExtensionProperties, std::allocator<VkExtensionProperties>>>, __gnu_cxx::__normal_iterator<VkExtensionProperties*, std::vector<VkExtensionProperties, std::allocator<VkExtensionProperties>>>, std::forward_iterator_tag)
 void std::vector<VkFence_T*, std::allocator<VkFence_T*>>::_M_realloc_insert<VkFence_T* const&>(__gnu_cxx::__normal_iterator<VkFence_T**, std::vector<VkFence_T*, std::allocator<VkFence_T*>>>, VkFence_T* const&)
 void std::vector<VkImageSharedData_t, std::allocator<VkImageSharedData_t>>::_M_realloc_insert<>(__gnu_cxx::__normal_iterator<VkImageSharedData_t*, std::vector<VkImageSharedData_t, std::allocator<VkImageSharedData_t>>>)
@@ -41722,6 +41890,8 @@ vrsystem023
 vrsystem023_FnTable
 vrsystem024
 vrsystem024_FnTable
+vrsystem025
+vrsystem025_FnTable
 vrtrackedcamera002
 vrtrackedcamera002_FnTable
 vrtrackedcamera003
@@ -42271,6 +42441,7 @@ vtable for CVRSystem_021
 vtable for CVRSystem_022
 vtable for CVRSystem_023
 vtable for CVRSystem_024
+vtable for CVRSystem_025
 vtable for CVRTrackedCamera_002
 vtable for CVRTrackedCamera_003
 vtable for CVRTrackedCamera_004
@@ -42365,6 +42536,7 @@ vtable for HmdInterfaceRegistration<CVRSystem_021>
 vtable for HmdInterfaceRegistration<CVRSystem_022>
 vtable for HmdInterfaceRegistration<CVRSystem_023>
 vtable for HmdInterfaceRegistration<CVRSystem_024>
+vtable for HmdInterfaceRegistration<CVRSystem_025>
 vtable for IHmdSystem_002
 vtable for IHmdSystem_003
 vtable for IOBufferInterfaceRegistration<CVRIOBuffer_001>
@@ -42540,6 +42712,7 @@ vtable for nlohmann::detail::output_string_adapter<char, std::string>
 vtable for nlohmann::detail::parse_error
 vtable for nlohmann::detail::type_error
 vtable for std::_Sp_counted_deleter<CSxrGraphicsBindingHeadless*, std::default_delete<CSxrGraphicsBindingHeadless>, std::allocator<void>, (__gnu_cxx::_Lock_policy)2>
+vtable for std::_Sp_counted_deleter<facet::CCompositionClient*, std::default_delete<facet::CCompositionClient>, std::allocator<void>, (__gnu_cxx::_Lock_policy)2>
 vtable for std::_Sp_counted_ptr_inplace<CBlockQueue, std::allocator<CBlockQueue>, (__gnu_cxx::_Lock_policy)2>
 vtable for std::_Sp_counted_ptr_inplace<CInputActionSet, std::allocator<CInputActionSet>, (__gnu_cxx::_Lock_policy)2>
 vtable for std::_Sp_counted_ptr_inplace<CRenderModelManager::ModelInfo_t, std::allocator<CRenderModelManager::ModelInfo_t>, (__gnu_cxx::_Lock_policy)2>
@@ -42556,7 +42729,6 @@ vtable for std::_Sp_counted_ptr_inplace<InputConfig_t, std::allocator<InputConfi
 vtable for std::_Sp_counted_ptr_inplace<VcetBo, std::allocator<VcetBo>, (__gnu_cxx::_Lock_policy)2>
 vtable for std::_Sp_counted_ptr_inplace<VcetContext, std::allocator<VcetContext>, (__gnu_cxx::_Lock_policy)2>
 vtable for std::_Sp_counted_ptr_inplace<VcetJob, std::allocator<VcetJob>, (__gnu_cxx::_Lock_policy)2>
-vtable for std::_Sp_counted_ptr_inplace<facet::CCompositionClient, std::allocator<facet::CCompositionClient>, (__gnu_cxx::_Lock_policy)2>
 vtable for std::_Sp_counted_ptr_inplace<gli::storage_linear, std::allocator<gli::storage_linear>, (__gnu_cxx::_Lock_policy)2>
 vtable for std::_Sp_counted_ptr_inplace<nlohmann::detail::output_string_adapter<char, std::string>, std::allocator<nlohmann::detail::output_string_adapter<char, std::string>>, (__gnu_cxx::_Lock_policy)2>
 vtable for std::_Sp_counted_ptr_inplace<std::__detail::_NFA<std::regex_traits<char>>, std::allocator<std::__detail::_NFA<std::regex_traits<char>>>, (__gnu_cxx::_Lock_policy)2>

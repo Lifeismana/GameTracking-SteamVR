@@ -2,11 +2,10 @@
  (Left Controller)
  (Right Controller)
  (does the path point to a directory?)
- (libfound)
- (noexist)
  at line 
  exceeds maximum allowed file size 
  in Buffer\n
+ w/ VirtualDesktop.Injector64.dll
 !(pCreateInfo->flags.bRenderable && pCreateInfo->flags.bDepthStencil)
 " not found in the scene.
 "%/28;=#$019:>?
@@ -125,8 +124,8 @@ $3br
 .?AV?$_Func_impl_no_alloc@V<lambda_c95cdcc8ed7ab36646e90c1ce3a5ffde>@@XW4ELogLevel@@PEBDPEAX@std@@
 .?AV?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8CVRMailbox@@EAAXAEBVValue@Json@@@ZPEAV3@AEBU?$_Ph@$00@2@@std@@XAEBVValue@Json@@@std@@
 .?AV?$_Iosb@H@std@@
-.?AV?$_LaunchPad@V?$unique_ptr@V?$tuple@V<lambda_14a56f646f17e09c154933264b7db4fa>@@@std@@U?$default_delete@V?$tuple@V<lambda_14a56f646f17e09c154933264b7db4fa>@@@std@@@2@@std@@@std@@
 .?AV?$_LaunchPad@V?$unique_ptr@V?$tuple@V<lambda_688183ccff0c2936f7ffcd467b71aa30>@@@std@@U?$default_delete@V?$tuple@V<lambda_688183ccff0c2936f7ffcd467b71aa30>@@@std@@@2@@std@@@std@@
+.?AV?$_LaunchPad@V?$unique_ptr@V?$tuple@V<lambda_827f7feb49d49552c6b9d558eb3078d1>@@@std@@U?$default_delete@V?$tuple@V<lambda_827f7feb49d49552c6b9d558eb3078d1>@@@std@@@2@@std@@@std@@
 .?AV?$_Ref_count_obj@V?$output_string_adapter@DV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@detail@nlohmann@@@std@@
 .?AV?$basic_filebuf@DU?$char_traits@D@std@@@std@@
 .?AV?$basic_ifstream@DU?$char_traits@D@std@@@std@@
@@ -305,7 +304,7 @@ $3br
 0 width
 0-pixel image
 00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899
-00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899`&\f
+00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899p&\f
 1/2/4/8/16-bit only
 11 4 22 44 44 22 444444
 11eU%
@@ -519,7 +518,6 @@ File size
 File size mismatch : 
 File write error: 
 Forcing chaperone update\n
-Found path: 
 FreeLibrary
 GPUCountingSemaphore::Signal(%llu)
 GPUCountingSemaphore::Signal(%llu) FAILED!!
@@ -596,7 +594,7 @@ IVRServerInternal_XXX
 IVRSettingsInternal_001
 IVRSettings_003
 IVRSystemLayerInternal_XXX
-IVRSystem_025
+IVRSystem_026
 IVRTrackedCameraInternal_XXX
 IVRVirtualDisplay_002
 IVRWatchdogProvider_001
@@ -708,7 +706,7 @@ Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
 RPCRT4.dll
-RSDS\n
+RSDS>
 RaiseException
 ResetEvent
 RootNode
@@ -787,6 +785,7 @@ VRInitError_VendorSpecific_OculusRuntimeBadInstall
 VR_CONFIG_PATH
 VR_LOG_PATH
 VR_OVERRIDE
+VirtualDesktop.Injector64.dll
 VirtualDesktop.LibOVRRT64_1.dll
 WINMM.dll
 WTHelperGetProvSignerFromChain
@@ -1360,6 +1359,7 @@ ovr_Initialize failed with ovrErrorType %d - %s\n
 ovr_Initialize failed with ovrErrorType %d\n
 ovr_Initialize never called
 ovr_Initialize second attempt failed with ovrErrorType %d - %s\n
+ovr_Initialize: %s\n
 ovr_IsExtensionSupported
 ovr_Lookup
 ovr_RecenterTrackingOrigin

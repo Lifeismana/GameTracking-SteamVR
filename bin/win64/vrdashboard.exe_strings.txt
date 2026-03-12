@@ -132,7 +132,7 @@
 /user/waist
 /user/wrist/left
 /user/wrist/right
-10:37:45
+10:49:01
 1e+9999
 8c8f13b1-60eb-4b6a-a433-de86104115ac
 8d8f13b1-60eb-4b6a-a433-de86104115ac
@@ -267,7 +267,6 @@ Failed to register window class.\n
 Failed to set thread %p priority: invalid priority %d\n
 Failed to set up logging.
 Fatal
-Feb 20 2026
 FreeLibrary
 GDI32.dll
 GetCurrentProcess
@@ -332,7 +331,7 @@ IVRServerInternal_XXX
 IVRSettingsInternal_001
 IVRSettings_003
 IVRSystemLayerInternal_XXX
-IVRSystem_025
+IVRSystem_026
 IVRTrackedCameraInternal_XXX
 Infinity
 Info
@@ -353,6 +352,7 @@ MSVCP140.dll
 MainMenu
 MainThrd
 MainWndClass
+Mar 10 2026
 MessageBoxA
 Minidump comment truncated
 Missing ',' or ']' in array declaration
@@ -369,7 +369,7 @@ ProcessVREvents
 QueryPerformanceCounter
 QueryPerformanceFrequency
 RPCRT4.dll
-RSDSO
+RSDS9J
 RaiseException
 ReadFile
 RealMain

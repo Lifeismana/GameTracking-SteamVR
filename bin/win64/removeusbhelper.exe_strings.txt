@@ -104,7 +104,6 @@
 .xdata
 .xdata$x
 //==============================================================================================\n
-/PF9N
 /user/ankle/left
 /user/ankle/right
 /user/camera
@@ -275,7 +274,7 @@ PID_8328
 Parsing of JSON file "%s" failed: %s\n
 QueryPerformanceCounter
 QueryPerformanceFrequency
-RSDS
+RSDSv{1$|
 RaiseException
 RegCloseKey
 RegCreateKeyExW

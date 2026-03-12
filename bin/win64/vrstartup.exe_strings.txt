@@ -132,7 +132,7 @@
 /user/waist
 /user/wrist/left
 /user/wrist/right
-10:37:45
+10:49:01
 1e+9999
 : exception thrown in JSON library
 <unknown>
@@ -244,7 +244,6 @@ Extra non-whitespace after JSON value.
 FATAL: Failed to open log file %s, failing out!\n
 Factory Function Not Found (104)
 Fatal
-Feb 20 2026
 File Not Found (103)
 Firmware Recovery In Progress (139)
 Firmware Update In Progress (138)
@@ -341,7 +340,7 @@ IVRServerInternal_XXX
 IVRSettingsInternal_001
 IVRSettings_003
 IVRSystemLayerInternal_XXX
-IVRSystem_025
+IVRSystem_026
 IVRTrackedCameraInternal_XXX
 IVRVirtualDisplay_
 IVRVirtualDisplay_001
@@ -373,6 +372,7 @@ Log path could not be located (112)
 Low Power Watchdog Not Supported (129)
 MSVCP140.dll
 MainThrd
+Mar 10 2026
 Missing ',' or ']' in array declaration
 Missing ',' or '}' in object declaration
 Missing ':' after object member name
@@ -391,7 +391,7 @@ OutputDebugStringA
 Platform handles tutorial / initial home app launch %s. Starting Event Polling...
 QueryPerformanceCounter
 QueryPerformanceFrequency
-RSDSw
+RSDS
 RaiseException
 Rebooting In Progress (137)
 RegCloseKey

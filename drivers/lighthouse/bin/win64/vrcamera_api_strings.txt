@@ -613,7 +613,7 @@ QueryDepthSList
 QueryPerformanceCounter
 QueryPerformanceFrequency
 QueryUmsThreadInformation
-RSDSU
+RSDS
 RaiseException
 RegisterTraceGuidsW
 RegisterWaitForSingleObject

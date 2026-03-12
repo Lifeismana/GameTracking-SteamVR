@@ -1,5 +1,3 @@
-        Resource: InUse:%d name:%s
-        Timeline: refs:%d name:%s
       status = 
     %08X:%d u%u period=%0.0f ppm=%02.1f sync_sensors=%0.1f sample_sensors=%0.1f multihit_sensors=%0.2f width_delta=%+0.0f\n
     %08X:%d u%u period=%0.0f ppm=%02.1f sync_sensors=%0.1f width_delta=%+0.0f\n
@@ -14,11 +12,7 @@
     .state = 
     .tfa9892_left_error = 
     .tfa9892_right_error = 
-    Bucket: size:%zu timeline:%s
-    Bucket: size:%zu timeline:none
     No devices\n
-    Unused Resources: size:%zu
-    Unused timelines: size:%zu
     trackref_from_head: %s\n
     trackref_from_imu: %s\n
   .audio_cs47l35_timer_stats[0] = 
@@ -104,7 +98,6 @@
  disambiguator
  exceeds maximum allowed file size 
  for detail.\n
- formatting error code 
  hits0=
  hits1=
  in Buffer\n
@@ -126,13 +119,8 @@
  sigma 
  syncs=
 !! refusing to trigger minidump with debugger attached\n
-!( pDedicatedBuffer && pDedicatedImage )
 !AxU
-!IsInUse()
-!bGraphicsCmd || m_eState == State_t::ApplicationReleased
-!bGraphicsCmd || m_eState == State_t::VulkanGraphicsTransitioned
 !leftSyncIsReal
-!m_stackFreeResources.empty()
 !rightSyncIsRealAsItGets
 " because it is missing required fields: 
 " conflicts with the existing symbol "
@@ -226,27 +214,13 @@ $tAUUPE
 %llu
 %s - Unable to init\n
 %s - Unable to start replay of "%s"\n
-%s called without first releasing previous slot!
 %s created to play "%s"\n
 %s disambiguator provided base configuration. Rotor count: %d\n
 %s pitch ~%0.1f deg roll ~%0.1f deg 
 %s%s%s%s%s%s%s
-%s-CommandBuffer-%d
-%s-Image
-%s-ImageView
-%s-Memory
 %s: %d, %d, %d, %d\n
-%s: %s #%d already pending acquire
-%s: %s #%d already pending release
-%s: %s #%d already pending release (lock)
 %s: %s IMU calibration: Accel bias change %.2fm/s/s%s\n
 %s: %s thread: Unknown USB report ID %d (vid %04x pid %04x). %d total\n
-%s: AcquireSync FAILED with DXGI_ERROR_INVALID_CALL
-%s: AcquireSync FAILED with E_FAIL
-%s: AcquireSync FAILED with WAIT_ABANDONED
-%s: AcquireSync FAILED with WAIT_TIMEOUT
-%s: AcquireSync FAILED with unknown hr
-%s: An error occurred while recording command buffer: %s
 %s: Applying scale %0.04f from reference object %s\n
 %s: Attached device ID not set.  No controller input available.\n
 %s: Can't create source of type "%s"\n
@@ -254,31 +228,14 @@ $tAUUPE
 %s: CoCreateInstance MMDeviceEnumerator failed: hr = 0x%08x\n
 %s: Connected to receiver %s\n
 %s: Controller subprotocol changed version %d\n
-%s: D3D11 feature level required for interop
 %s: Device does not have a stored config\n
 %s: Disconnected from receiver %s\n
 %s: ERROR: could not query version from watchman board.\n
 %s: ERROR: firmware does not meet minimum required version (%d). Please update device.\n
 %s: Enabling IMU tracking fallback\n
 %s: Expected %u bytes of config but only found %d. Rejecting config\n
-%s: Failed to allocate command buffer: %d
-%s: Failed to allocate memory for command buffer
-%s: Failed to allocate memory\n
-%s: Failed to begin command buffer
-%s: Failed to create command buffer pool: %d
-%s: Failed to create vulkan device: %d
-%s: Failed to determine a compatible memory type\n
-%s: Failed to get queue: %u:%u
-%s: Failed to initialize compute queue.
-%s: Failed to initialize graphics queue.
-%s: Failed to reset command buffer: %d
-%s: Failed to submit to queue: %u:%u
 %s: Firmware Version %s\n
 %s: Ignoring unlikely saved IMU calibration %s\n
-%s: Index (%d) out of bounds (%d) for '%s'!
-%s: Insufficient permission to create high priority queue.
-%s: Interdependent timelines are not supported
-%s: Invalid interop API: %d
 %s: Log recorded at %s
 %s: Not loading device config because its size is too large: 0x%X bytes\n
 %s: Optical subprotocol changed version %d\n
@@ -288,8 +245,6 @@ $tAUUPE
 %s: Reading %s from device (Attempt %d of %d)\n
 %s: Received short %d byte packet when expecting config\n
 %s: Receiving wireless data, but unable to talk to controller main board.\n
-%s: ReleaseSync FAILED with E_FAIL
-%s: ReleaseSync FAILED with unknown hr
 %s: Retry protocol version request for %d\n
 %s: Similar CAD but scale mismatch to reference object %s\n
 %s: Successfully fetched gyro/accelerometer range modes from the device. GyroRangeMode:%d AccelRangeMode:%d\n
@@ -303,160 +258,6 @@ $tAUUPE
 %s: Warning: Unknown disambiguation mode: %s\n
 %s: Warning: Unknown disambiguation option "%s" in: %s\n
 %s: Wireless controller %s disconnected\n
-%s: allocator not initialized
-%s: at least one signal point is required
-%s: attempt to block on incomplete query set: %s
-%s: cmdbuf references a resource that has been released: %s
-%s: concurrent sharing mode requires queue family indices
-%s: device does not support host query reset.
-%s: device does not support timeline semaphores.
-%s: device supports zero extensions
-%s: device supports zero instance extensions
-%s: discarding current frame #%llu to avoid deadlock!
-%s: failed get device extension count
-%s: failed init client device
-%s: failed to %s sync texture
-%s: failed to acquire a d3d11 device for interop
-%s: failed to acquire compositor slot
-%s: failed to acquire compute command
-%s: failed to acquire graphics command
-%s: failed to acquire orphan sync
-%s: failed to acquire sync
-%s: failed to allocate D3D interop image
-%s: failed to allocate D3D11 aliased vulkan texture
-%s: failed to allocate Null aliased vulkan texture
-%s: failed to allocate buffer memory
-%s: failed to allocate image memory
-%s: failed to allocate memory for query pool
-%s: failed to allocate memory for timeline
-%s: failed to allocate null interop image
-%s: failed to allocate timestamp query pool %d
-%s: failed to bind buffer memory (%d)
-%s: failed to bind image memory (%d)
-%s: failed to check for format support
-%s: failed to complete maintenance
-%s: failed to connect to prism shared state
-%s: failed to create D3D11 2D texture
-%s: failed to create D3D11 interop device
-%s: failed to create buffer
-%s: failed to create buffer (%d)
-%s: failed to create image %s
-%s: failed to create image view (%d)
-%s: failed to create interop device
-%s: failed to create interop texture
-%s: failed to create local timeline
-%s: failed to create mapped memory view
-%s: failed to create resources
-%s: failed to create shared timeline
-%s: failed to create staging buffer %d
-%s: failed to create swapchain
-%s: failed to create timeline
-%s: failed to create timestamp query pool
-%s: failed to create vulkan image (%d)
-%s: failed to create vulkan instance %d
-%s: failed to create vulkan interop device
-%s: failed to create vulkan interop instace
-%s: failed to create vulkan resources
-%s: failed to detect prism
-%s: failed to determine D3D11 texture format
-%s: failed to enumerate extensions
-%s: failed to enumerate instance extensions
-%s: failed to enumerate physical devices
-%s: failed to export client buffer
-%s: failed to export client swapchain image
-%s: failed to export client timeline
-%s: failed to export memory (%d)\n
-%s: failed to export timeline %s
-%s: failed to find a suitable vulkan device
-%s: failed to get D3D11 interop resource handle
-%s: failed to get D3D11 keyed mutex for texture
-%s: failed to get instance extension count
-%s: failed to get physical device count
-%s: failed to get query pool results
-%s: failed to get shared handle
-%s: failed to get vulkan format from DXGI format
-%s: failed to import interop texture
-%s: failed to import timeline %s
-%s: failed to initialize D3D interop image
-%s: failed to initialize client constant buffer
-%s: failed to initialize compute command pool
-%s: failed to initialize graphics command pool
-%s: failed to initialize interop device
-%s: failed to initialize prism shared state
-%s: failed to initialize query pool
-%s: failed to initialize swapchain
-%s: failed to initialize timeline
-%s: failed to initialize vulkan allocator
-%s: failed to initialize vulkan interop device
-%s: failed to load available layers
-%s: failed to load instance extensions
-%s: failed to map staging buffer %d
-%s: failed to map vulkan memory
-%s: failed to open shared resource
-%s: failed to open the prism process
-%s: failed to query resource interface
-%s: failed to register compositor resources
-%s: failed to register debug callback\n
-%s: failed to register resources
-%s: failed to release sync
-%s: failed to set debug name
-%s: failed to set sync texture
-%s: failed to start client frame
-%s: failed to start client frame rendering
-%s: failed to start client session
-%s: failed to submit compute command
-%s: failed to submit discard frame state update
-%s: failed to submit frame state update
-%s: failed to submit graphics command
-%s: failed to submit graphics work
-%s: failed to wait for a timeline signal
-%s: failed to wait for semaphore
-%s: failed to wait for start of frame
-%s: failed with error '%s' (%d)
-%s: feature hostQueryReset missing
-%s: forcing acquire of %s to avoid deadlock!
-%s: frame was discarded due to CCompositionClient::CSwapchain::WaitImage timeout!
-%s: high priority compute requested, but %s is missing
-%s: id mismatch when registering client resources
-%s: incompatible vulkan version requested
-%s: interop images must be shareable
-%s: interop resources cannot be mappable
-%s: invalid D3D11 interop device
-%s: invalid device
-%s: invalid frame stage: %s
-%s: invalid instance
-%s: invalid prism device id
-%s: invalid resource
-%s: invalid swapchain image count specified: 0
-%s: invalid swapchain image index: %d (%d)
-%s: invalid vulkan device
-%s: is the Vulkan SDK installed?
-%s: mismatched sizes
-%s: missing optional device extension %s
-%s: missing optional instance extension %s
-%s: missing required device extension %s
-%s: missing required instance extension %s
-%s: missing required layer: %s
-%s: missing validation layer extension %s
-%s: no color swapchain available for index: %d
-%s: no timelines
-%s: not supoported with external synchronization!
-%s: physical device does not support the requested timeline handle type
-%s: physical device does not support timeline export
-%s: physical device does not support timeline import
-%s: pool contained invalid data
-%s: pre-submit failed
-%s: prism process not found
-%s: swapchain image #%d not available for texture set %llu
-%s: switching shared handle type to WIN32_KMT from <%d>
-%s: unknown sync type
-%s: unknown vulkan message severity
-%s: usage changed from quad to %s, sampler not updated
-%s: usage must be specified when allocating images
-%s:ForceAcquireImageTimeline
-%s:SyncTexture
-%s:Timeline
-%s[%s] %s file=%s
 %u %s@%s %s FPGA %u(%u.%u/%u/%u) BL %u%s%s%s
 %u_%02u
 &'()*56789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
@@ -533,7 +334,6 @@ $tAUUPE
 ----- RELATIONSHIP bases %08X <-> %08x distance %0.2fm, angle %0.2f deg -----\n
 ----- SECONDARY base %08X distance %0.2fm%*s-----\n
 -1e+9999
--IPCWrapper
 -Infinity
 -\n\nimu_sample
 -inf
@@ -582,7 +382,6 @@ $tAUUPE
 .?AU_Crt_new_delete@std@@
 .?AV<lambda_0088d02490873a7ab14b0c74d65c5fe9>@@
 .?AV<lambda_2d4b9bd805c205933c366a2a96e134e0>@@
-.?AV<lambda_3697dac63288bf8c8a12901dbe60e384>@@
 .?AV<lambda_44fa05ced2397b12e7cb91f2402b5ea0>@@
 .?AV<lambda_6ff2491101331d3b6b80f3dd1670e9e1>@@
 .?AV<lambda_964a3fa5f92718448580b0687711af46>@@
@@ -613,10 +412,6 @@ $tAUUPE
 .?AV?$CCeresFunctor@UCSensorNormalCosAngle@?$Functors@UOverrideTraits@?$AlternateBase@$0CL@@?$Functors@UCStateTraits@CLighthouseDirect@vortex@@@CLighthouseModel@vortex@@@CLighthouseModel@vortex@@N$0DB@$0A@$0A@$0A@$0A@$0A@$0A@$0A@$0A@$0A@@@
 .?AV?$CCeresFunctors@N$00@@
 .?AV?$CStateTimestep@UCStateTraits@CLighthouseDirect@vortex@@@CLighthouseDirect@vortex@@
-.?AV?$CVkPoolGarbageCollector@VCVkCommandBuffer@@@@
-.?AV?$CVkPoolableResource@VCVkCommandBufferPool@@@@
-.?AV?$CVkResourcePool@VCVkCommandBuffer@@@@
-.?AV?$CVkTimestampQueryPool@$01@facet@@
 .?AV?$ICeresFunctor@N@@
 .?AV?$TypeInfoT@VCAnimResource@@@Detail@Reflection@@
 .?AV?$TypeInfoT@VCBoneMaskResource@@@Detail@Reflection@@
@@ -647,7 +442,6 @@ $tAUUPE
 .?AV?$_Func_impl_no_alloc@P6A_NPEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0PEBUImage@tinygltf@@_NPEBUFsCallbacks@4@PEBUURICallbacks@4@PEAV12@PEAX@Z_NPEBV12@PEBV12@PEBU34@_NPEBU54@PEBU64@PEAV12@PEAX@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_0088d02490873a7ab14b0c74d65c5fe9>@@_N$$V@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_2d4b9bd805c205933c366a2a96e134e0>@@XW4ELogLevel@@PEBDPEAX@std@@
-.?AV?$_Func_impl_no_alloc@V<lambda_3697dac63288bf8c8a12901dbe60e384>@@XW4ELogLevel@@PEBDPEAX@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_44fa05ced2397b12e7cb91f2402b5ea0>@@XPEAVILighthouseDBListener@vortex@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_6ff2491101331d3b6b80f3dd1670e9e1>@@XPEAVILighthouseDBListener@vortex@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_964a3fa5f92718448580b0687711af46>@@XPEAVILighthouseDBListener@vortex@@@std@@
@@ -729,7 +523,6 @@ $tAUUPE
 .?AVCNonCopyable@@
 .?AVCOpticalFrame@pb@lighthouse@@
 .?AVCOpticalSample@pb@lighthouse@@
-.?AVCPrismDirect@@
 .?AVCRecord@pb@lighthouse@@
 .?AVCRefCount@@
 .?AVCSingletonCriticalSection@@
@@ -739,23 +532,9 @@ $tAUUPE
 .?AVCUserDataThread@vortex@@
 .?AVCVRAudioDeviceImpl@@
 .?AVCVRAudioDevices@@
-.?AVCVRFramerateGovernor@@
 .?AVCVRMailbox@@
 .?AVCVRMailboxBase@@
 .?AVCVec3@pb@lighthouse@@
-.?AVCVkBuffer@@
-.?AVCVkCommandBuffer@@
-.?AVCVkCommandBufferPool@@
-.?AVCVkGarbageCollector@@
-.?AVCVkImage@@
-.?AVCVkInteropDeviceD3D11@facet@@
-.?AVCVkInteropDeviceNull@facet@@
-.?AVCVkInteropImageD3D11@facet@@
-.?AVCVkInteropImageNull@facet@@
-.?AVCVkMemory@@
-.?AVCVkResourceBase@@
-.?AVCVkTimeline@@
-.?AVCVkTimestampQueryPoolBase@facet@@
 .?AVCVortexThread@vortex@@
 .?AVCVrController@vortex@@
 .?AVCVrControllerHapticWrapper@vortex@@
@@ -815,8 +594,6 @@ $tAUUPE
 .?AVIControllerStateDriver@vortex@@
 .?AVIDepthAugmentedPassthroughCallbacks@PE@@
 .?AVIDisambiguator@vortex@@
-.?AVIEvent@IPC@@
-.?AVIFramerateGovernor@facet@@
 .?AVIHandPoseLogic@@
 .?AVIImuCallback@CLighthouseIMUThread@vortex@@
 .?AVILighthouseDBListener@vortex@@
@@ -824,23 +601,17 @@ $tAUUPE
 .?AVILighthouseTrackedDeviceServerDriver@vortex@@
 .?AVIMMNotificationClientCallbackImpl@@
 .?AVIMonitorCallback@CLighthouseIMUThread@vortex@@
-.?AVIMutex@IPC@@
 .?AVIPoseTracker@vortex@@
 .?AVIPoseTrackerDriver@vortex@@
 .?AVIServerTrackedDeviceProvider@vr@@
-.?AVISharedMem@IPC@@
 .?AVIStatePoseMaker@@
-.?AVISyncObject@IPC@@
 .?AVITrackedDeviceServerDriver@vr@@
 .?AVIUsbDeviceCallback@@
 .?AVIVRAudioDevices@@
 .?AVIVRAudioNotification@@
 .?AVIVRCameraComponent@vr@@
 .?AVIVRDisplayComponent@vr@@
-.?AVIVRDriverDirectModeComponent@vr@@
 .?AVIVRWatchdogProvider@vr@@
-.?AVIVkInteropDevice@facet@@
-.?AVIVkInteropImage@facet@@
 .?AVIVrControllerUsb@vortex@@
 .?AVIVrcCallback@CLighthouseIMUThread@vortex@@
 .?AVLogStream@LogMessage@google@@
@@ -868,9 +639,6 @@ $tAUUPE
 .?AVUninterpretedOption@protobuf@google@@
 .?AVUninterpretedOption_NamePart@protobuf@google@@
 .?AVUnknownFieldSetFieldSkipper@internal@protobuf@google@@
-.?AVWin32Event@IPC@@
-.?AVWin32Mutex@IPC@@
-.?AVWin32SharedMemory@IPC@@
 .?AVWriter@Json@@
 .?AVZeroCopyInputStream@io@protobuf@google@@
 .?AVZeroCopyOutputStream@io@protobuf@google@@
@@ -1069,10 +837,9 @@ $tAUUPE
 0-pixel image
 00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899
 00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899"
-00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899@
+00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899hu$
 0123456789abcdef
-0\tFAJ
-0a\v6<
+0a\v6<h
 0x%08llx
 1.2.5
 1/2/4/8/16-bit only
@@ -1108,7 +875,6 @@ $tAUUPE
 : Tried to merge from a message with a different type.  to: 
 : exception thrown in JSON library
 : one or more FS callback not set
-::GetSystemBaseTicks() == m_client.GetCompositorBaseTicks()
 ; expected 
 ; last read: '
 <discarded>
@@ -1119,7 +885,6 @@ $tAUUPE
 <unknown>
 >X9t?
 >fff?
-?!std::isnan( flSystemTimeInSeconds )
 ?&x0O
 ?333333
 ?333?
@@ -1163,7 +928,6 @@ $tAUUPE
 ??_7codecvt_base@std@@6B@
 ??_7facet@locale@std@@6B@
 ??_7ios_base@std@@6B@
-?CVkDevice::CreateDevice
 ?Nbp?
 ?UUUUUU
 ?VUUUUU
@@ -1286,7 +1050,6 @@ AUDIO: %s
 AbortMessage({ Thread Watchdog Abort - %s /+/ %f second timeout })
 Accessor
 Add Json firmware manifest from %s\n
-AddAccessAllowedAce
 AddBool
 AddDouble
 AddEnum
@@ -1316,7 +1079,6 @@ Assertion failed:  Explicit right sync does not match pending frame\n
 Asset
 Attached HID Devices:\n
 Attempt to add tilt observation to DB for %08X which has never had a dynamic state observation\n
-Attempt to init shared state %s twice
 Attempted Default Load: 
 Attempted Gold Load: 
 Attempting HID Open %s: %s\n
@@ -1358,8 +1120,6 @@ Base %08X reset count changed.  Base may have been bumped or power cycled.\n
 Base station driver for %08X rejected by vrserver\n
 Batman
 Batt: 
-BeginFrame -> EndFrame is not re-entrant (i.e. calls must be serialized).
-BeginFrame called outside of a valid session.
 Best tilt from %s for base %08X pitch %0.2f roll %0.2f score %.2f\n
 Beyond
 Bigscreen
@@ -1451,24 +1211,7 @@ CPPTYPE_MESSAGE
 CPPTYPE_STRING
 CPPTYPE_UINT32
 CPPTYPE_UINT64
-CPrismDirect::CreateSwapTextureSet
-CPrismDirect::GetNextSwapTextureSetIndex
-CPrismDirect::Initialize
-CPrismDirect::PostPresent
-CPrismDirect::Present
-CPrismDirect::SubmitLayer
 CRecord
-CSharedResourceNamespaceClient::Init(): failed connect\n
-CSharedResourceNamespaceClient::Init(): failed to get server response\n
-CSharedResourceNamespaceClient::Init(): failed to retreive payload\n
-CSharedResourceNamespaceClient::Init(): invalid payload size %u\n
-CSharedResourceNamespaceClient::Init(): mismatched reply sequence %u, expected %u\n
-CSharedResourceNamespaceClient::Init(): received namespace data %u\n
-CSharedResourceNamespaceClient::Init(): received unexpected message type %u\n
-CSharedResourceNamespaceClient::Init(): still waiting for vrserver to reply with namespace data\n
-CSharedResourceNamespaceClient::Init(): timed out contacting vrserver for a namespace\n
-CSharedResourceNamespaceClient::Init(): timed out waiting for server reply\n
-CSharedResourceNamespaceClient::InitIfNeeded
 CSyncDetect: Detected large-scale timebase non-monotonicity. last: %lf current: %lf - Resetting....\n
 CType
 CVRAudioDeviceImpl::CVRAudioDeviceImpl
@@ -1482,45 +1225,6 @@ CVRAudioDeviceImpl::SetDeviceSoundVolumeMute
 CVRAudioDevices::GetDefaultAudioDevice
 CVRAudioDevices::Refresh
 CVec3
-CVkAllocator::AllocateMemory
-CVkAllocator::AllocateMemoryFromType
-CVkAllocator::CreateBuffer
-CVkAllocator::CreateImageWithFlags
-CVkAllocator::GetCompatibleMemoryType
-CVkCommandBuffer::Begin
-CVkCommandBuffer::End
-CVkCommandBuffer::Initialize
-CVkCommandBuffer::OnPreSubmit
-CVkCommandBuffer::Reset
-CVkCommandBuffer::ValidateReferencedResources
-CVkCommandBufferPool::CreateResource
-CVkCommandBufferPool::Initialize
-CVkDevice::ChoosePhysicalDevice
-CVkDevice::CreateInstance
-CVkDevice::Init - failed to get extension count
-CVkDevice::Init - no instance extensions supported
-CVkDevice::Initialize
-CVkDevice::LoadAvailableLayers
-CVkDevice::LoadInstanceExtensions
-CVkDevice::SetDebugName
-CVkDevice::UseDevice
-CVkDevice::UsePhysicalDevice
-CVkGarbageCollector: %s
-CVkGarbageCollector::WaitForWork
-CVkImage::CmdPipelineBarrier
-CVkInteropImageD3D11 released without transferring ownership back to D3D11 first!
-CVkMappedMemoryView<struct ClientLayers_t>::Remap
-CVkMemory::Map
-CVkQueue::Initialize
-CVkQueue::Submit
-CVkResourceBase::MarkInUse
-CVkResourcePool<class CVkCommandBuffer>::BorrowResource
-CVkTimeline::CheckPhysicalDeviceCapabilities
-CVkTimeline::Create
-CVkTimeline::ExportTimeline
-CVkTimeline::ImportTimeline
-CVkTimeline::Initialize
-CVkTimeline::WaitMultiple
 CVortex Error
 Cal Fail
 Calibration failed
@@ -1536,39 +1240,15 @@ Cannot allocate buffer larger than kint32max for
 Clamping MC to %d (%0.1f%%) %d (%0.1f%%)\n
 ClearField
 Clearing HmdDisplayNotFound error due to PrismInit success.
-Client (%s) app container state: %d
-Client Allocator
-Client Device
-Client Graphics
-Client-AcquireSync
-Client-BeginFrame:%d
-Client-DiscardFrame
-Client-ForcedTransitionFromPrism-Compute
-Client-ForcedTransitionFromPrism-Graphics
-Client-InitSwapchainLayout
-Client-InitUBO
-Client-ReleaseAccess
-Client-ReleaseSync
-Client-SubmitLayers
-ClientBuffer:%u
-ClientBufferStaging-%llu:%d
-ClientQueryPool-%llu:%d
-ClientTimeline:%llu
 CloseHandle
 CloseServiceHandle
-Closing pipe %s because it was broken from the other end\n
 CoCreateInstance
 CoCreateInstance CPolicyConfigVistaClient failed: hr = 0x%08x\n
 CoInitializeEx
 CoInitializeEx, hr = 0x%08x\n
 CoTaskMemFree
 CoUninitialize
-CompositionState
-CompositionStateMutex
-Compute Client
 Connector GetDeviceIdConnectedTo() failed: hr = 0x%08x\n
-ConvertStringSidToSidA
-CopySid
 Could add as alternate, but disallowed by LighthouseDB\n
 Could boot, but disallowed by LighthouseDB\n
 Could not create an instance of 
@@ -1587,21 +1267,16 @@ CreateEventEx failed\n
 CreateEventExA
 CreateEventW
 CreateFileA
-CreateFileMappingA
 CreateMediaType(pwfxIn) failed hr = 0x%08x\n
 CreateMediaType(pwfxOut) failed hr = 0x%08x\n
-CreateMutexA
-CreateProcessA
 CreateResampler failed: hr = 0x%08x\n
 CreateResamplerBuffer (input) failed: hr = 0x%08x\n
 CreateResamplerBuffer (output) failed: hr = 0x%08x\n
 CreateThread
 CreateThread for playback failed: last error is %u\n
-CreateWellKnownSid
 CreateWindowExA
 Creating new universe %llu because there were no %sexisting universes\n
 Creating playback mirror thread for device %s\n
-D3D11CreateDevice
 D3DKMTEnumAdapters2
 D3DKMTQueryAdapterInfo
 DISABLED
@@ -1628,7 +1303,6 @@ DISTORT_RPOLY2_2
 DISTORT__COUNT
 DP Init
 Data Invalid
-DebugMessengerCallback
 DefWindowProcA
 Default value for an enum field must be an identifier.
 Defaulting Edid to TSB and 0x8888 because we don't know it\n
@@ -1639,7 +1313,6 @@ DepthAugmentedPassthrough
 DescriptorProto
 DescriptorProtosH
 DestroyWindow
-Detail
 Detected %d playback and %d record devices\n
 Dev Error
 Device %s powering off upon entering standby.\n
@@ -1656,21 +1329,18 @@ Device JSON: Overriding proximityEnable to %d (%s)\n
 Device JSON: Overriding resource_root (%s)\n
 Device JSON: Overriding subpixel_shift (%s)\n
 Device JSON: obeying existing parallel_render_cameras enabled:%d (%s)\n
-DeviceGC
 DeviceIoControl
 DeviceMessageWindow_t::RunFrame
 Devices with no on-device calibration are not supported in the Lighthouse driver.\n
 DisableThreadLibraryCalls
 Disabled
 Disabled by Config
-Discard
 Discarded IMU sample in ImuOnlyTracker because they were backing up.\n
 Discarding %u haptic events because there were too many this frame\n
 Discarding duplicate universe %llu at index %d when parsing db json file %s\n
 DismissedWarnings
 DispatchMessageA
 Display
-Display: %d Period: %d Budget: %d [%fms] Fs:%f Vs:%f
 DisplayFPGA
 Disregard world_from_global entry in universe %llu\n
 Distortion_Type
@@ -1679,7 +1349,6 @@ DongleV2
 Dropped %s during the previous tracking session\n
 Duplicate basestation serials detected.\n
 Duplicate key: '
-DuplicateHandle
 ECameraHAL_OpenError_ToString
 ERROR
 ERROR: Expected 1 float args, fDegrees'
@@ -1697,9 +1366,7 @@ Edid already edid_id %d, no change needed\n
 Empty escape sequence in string
 Empty file.
 Enabling Prism Correction... overriding loaded device JSON
-Encountered error 
 End-of-file inside block comment.
-EndFrame called w/ incorrect client frame index.
 Endpoint Activate(IDeviceTopology) failed: id = %s hr = 0x%08x\n
 Endpoint topology GetConnector(0) failed: hr = 0x%08x\n
 EnterCriticalSection
@@ -1714,7 +1381,6 @@ EnumValueDescriptorProto
 EnumValueOptions
 Enumerating displays...\n
 Enums must contain at least one value.
-Error
 Error - IMU Sample IOBuffer can't be or is already established (%p,%llX)\n
 Error SetVideoConfigAndWaitForDisplayReenumeration\n
 Error creating component: %d (%s) in %s\n
@@ -1741,7 +1407,6 @@ Error setting index audio mute state\n
 Error setting index backlight gain\n
 Error unzipping config data: %s\n
 Error while parsing option value for "
-Error! EventWriteString Severe: %s\n
 Error! Unable to load firmware manifest %s after allocating memory\n
 Error: Override File %s cannot be read\n
 Error: Override File %s crc mismatch. Actual: %08X, expected %08X \n
@@ -1756,8 +1421,6 @@ Errors when parsing lighthouse database %s:\n%s\n
 Errors!
 EventRegister
 EventUnregister
-EventWriteString
-EventWriteTransfer
 Exceeded stackLimit in readValue().
 Executable: %s\n
 Expect a decimal number.
@@ -1786,7 +1449,6 @@ Extensions of MessageSets must be optional messages.
 Extensions to non-lite types can only be declared in non-lite files.  Note that you cannot extend a non-lite type to contain a lite type, but the reverse is allowed.
 Extra non-whitespace after JSON value.
 Eye Displays must be adjacent: left (%d, %d), right (%d, %d)\nUse Screen Resolution control panel to fix
-FACET_VULKAN_VALIDATION
 FATAL
 FORMAT=32-bit_rle_rgbe
 FPGA susp: 
@@ -1798,17 +1460,13 @@ FW Update Finish
 FW Update Load
 FW Update Start
 F\n\foptimize_for
-Facet
 Failed Watchdog timeout in thread %s after %f seconds. Aborting.\n
 Failed Watchdog timeout in thread %s after %f seconds. Skipping abort because we're in the debugger.\n
 Failed Watchdog timeout in thread %s after %f seconds. Skipping assert because we're in the debugger.\n
 Failed Watchdog timeout in thread %s after %f seconds. Terminating.\n
 Failed Watchdog timeout in thread %s after %f seconds\n
 Failed to LiquidVR::D3D11CreateDeviceHP3D (Error = %d) (pD3D11Device is %svalid) / Feature Level: %d\n
-Failed to connect to pipe %s because %s... retrying
-Failed to connect to pipe %s because %s\n
 Failed to create IMU IOBuffer for %d (error=%d, handle=%d)\n
-Failed to create vrprismhost_startup
 Failed to create window in DeviceMessageWindow_t::Create
 Failed to decode 'uri' : 
 Failed to decode 'uri' for image[
@@ -1828,8 +1486,6 @@ Failed to find entrypoint WINRT_SetDisplayMode
 Failed to find entrypoint WINRT_WaitForPresent
 Failed to get HINSTANCE in DeviceMessageWindow_t::Create
 Failed to get log path for persistent statistics.\n
-Failed to import client event handle from pipe %s after connecting\n
-Failed to import server event handle from pipe %s after connecting\n
 Failed to load external 'uri' for image[
 Failed to parse JSON object\n
 Failed to parse `bufferView` for image[
@@ -1842,12 +1498,8 @@ Failed to send pairing result mailbox message. Maybe it didn't have a return add
 Failed to send reply to discover_dongles message: %d\n
 Failed to set thread %p priority: invalid priority %d\n
 Failed to start pairing on dongle %s\n
-Failed to start vrprismhost: %s
-Failed to write app container status to pipe %s after connecting because %s\n
-Failed to write event process handle after connecting because %s\n
 Failed to write file %s\n
 False
-Fatal
 Field "
 Field does not match message type.
 Field is repeated; the method requires a singular field.
@@ -1887,9 +1539,6 @@ Firmware
 First argument to Swap() (of type "
 First argument to SwapFields() (of type "
 Flextronics
-Foreign timelines unsupported. Leaking resource.
-Format string parse failure
-FormatMessageA
 Found Direct Mode Display\n
 Found default audio playback device %s, VID:%04x/PID:%04x %s\n
 Found default audio recording device %s, VID:%04x/PID:%04x %s\n
@@ -1934,11 +1583,9 @@ GetCurrentProcess
 GetCurrentProcessId
 GetCurrentThread
 GetCurrentThreadId
-GetDXGISharedHandle
 GetDefaultAudioEndpoint failed for role eCommunications: hr = 0x%08x\n
 GetDefaultAudioEndpoint failed for role eConsole: hr = 0x%08x\n
 GetDefaultAudioEndpoint failed: hr = 0x%08x\n
-GetDeltaMs
 GetDouble
 GetEnum
 GetEnvironmentVariableA
@@ -1953,12 +1600,12 @@ GetFullPathNameW
 GetInt32
 GetInt64
 GetLastError
-GetLengthSid
 GetMediaSubtype failed hr = 0x%08x\n
 GetMessage
 GetModuleFileNameA
 GetModuleFileNameW
 GetModuleHandleA
+GetModuleHandleExA
 GetModuleHandleW
 GetMonitorInfoA
 GetOverlappedResult
@@ -1981,8 +1628,6 @@ GetSystemDirectoryW
 GetSystemPowerStatus
 GetSystemTimeAsFileTime
 GetTickCount64
-GetTokenInformation
-GetTokenInformation failed. GetLastError returned: %d\n
 GetUInt32
 GetUInt64
 GetWindowLongPtrA
@@ -2086,13 +1731,6 @@ INFO
 INFO: firmware_config %s
 INVALID
 INVALID_CPPTYPE
-IPC::CIPCHandle::InitForExport
-IPCPipe(%s) failed to read payload of %u bytes
-IPCPipe(%s) failed to write message of %u bytes because %s\n
-IPCPipe(%s): Next message type %u, seq %u, len %u\n
-IPCPipe(%s): Sending simple message type %u, seq %u\n
-IPCPipe(%s): Wrote %u bytes instead of %u bytes in SendMessageInternal\n
-IPCPipe(%s): Wrote %u bytes of total message length\n
 IPolicyConfigVista::SetDefaultEndpoint failed: hr = 0x%08x\n
 IPolicyConfigVista::SetDefaultEndpoint failed: hr = E_INVALIDARG\n
 IPolicyConfigVista::SetDefaultEndpoint failed: hr = E_NOTFOUND\n
@@ -2153,7 +1791,7 @@ IVRServerInternal_XXX
 IVRSettingsInternal_001
 IVRSettings_003
 IVRSystemLayerInternal_XXX
-IVRSystem_025
+IVRSystem_026
 IVRTrackedCameraInternal_XXX
 IVRVirtualDisplay_
 IVRVirtualDisplay_001
@@ -2172,7 +1810,6 @@ Index Controller CreateSkeletonComponent failed.  Error: %i\n
 Index HMD
 Index out-of-bounds (field is empty).
 Infinity
-Info
 InitCameraHAL
 InitTrackedCamera(): Disabling camera on (%s) due to required recovery firmware update. Camera services restricted.\n
 InitTrackedCamera(): Disabling camera on (%s) due to vr settings. Camera services restricted.\n
@@ -2191,19 +1828,17 @@ InitTrackedCamera(): No calibration configuration for camera found on (%s). Came
 InitTrackedCamera(): Opened tracked camera on (%s). Compatibility Mode:%d. %s\n
 InitTrackedCamera(): Rejecting camera on (%s) due to vr settings. Camera services not available.\n
 InitTrackedCamera(): no ISP configurations specified in device json (%s). Camera services not available.\n
-InitializeAcl
 InitializeConditionVariable
 InitializeCriticalSection
 InitializeCriticalSectionAndSpinCount
+InitializeCriticalSectionEx
 InitializeSListHead
-InitializeSecurityDescriptor
 Insufficient Chunk1(BIN) data size.
 Insufficient storage space for Chunk1(BIN data). At least Chunk1 Must have 8 or more bytes, but got 
 Integer out of range.
 Interpreting non ascii codepoint %d.
 Invalid
 Invalid Arg
-Invalid Arguments
 Invalid Device
 Invalid HMD interrupt packet length %u\n
 Invalid HMD interrupt packet tag %X\n
@@ -2243,7 +1878,6 @@ Invalid.
 IsDebuggerPresent
 IsManual
 IsProcessorFeaturePresent
-IsValidSid
 JFIF
 JSON
 JSON Chunk end does not aligned to a 4-byte boundary.
@@ -2320,7 +1954,6 @@ Mailbox %s received message %s, which it didn't have a handler for\n
 MainSteamVR
 MainThrd
 ManualURL
-MapViewOfFile
 Mark 1
 Mark 2
 Mark 3
@@ -2365,7 +1998,6 @@ NJ2"v
 NOTPRESENT
 NRF52
 NRF52 DTM
-NULL
 NVAPI_DEBUG_DISPLAY_MODES
 NVAPI_SKIP_UNLOAD
 NamePart
@@ -2421,12 +2053,6 @@ Oneof must have at least one field.
 OneofDescriptorProto
 Only one of `bufferView` or `uri` should be defined, but both are defined for image[
 Open failed from from vid 0x%X pid 0x%X serial %s when looking for controller id %X\n
-OpenEventA
-OpenFileMappingA
-OpenMutexA
-OpenProcess
-OpenProcessToken
-OpenProcessToken failed. GetLastError returned: %d\n
 OpenSCManagerW
 OpenServiceW
 OpenVR
@@ -2453,10 +2079,13 @@ PLACEHOLDER_VALUE
 PLAY-
 PNG\r\n
 PRISM_AcquireDisplay
+PRISM_ActivateRenderGraph
 PRISM_ClientDisconnected
 PRISM_CreateDisplayFactory
+PRISM_CreateGraphNode
 PRISM_CreateInstance
 PRISM_CreateMotionEstimator
+PRISM_CreateRenderGraph
 PRISM_DestroyDisplayFactory
 PRISM_DestroyInstance
 PRISM_DestroyMotionEstimator
@@ -2464,14 +2093,21 @@ PRISM_DumpHistory
 PRISM_GetConnectedDisplays
 PRISM_GetDisplayModes
 PRISM_GetDisplaySubsystems
+PRISM_GetGraphicsHost
 PRISM_GetMotionEstimatorSubsystems
+PRISM_GetPluginModuleHandle
 PRISM_GetPoseProvider
+PRISM_GetRenderGraphSubsystems
 PRISM_HmdActivated
 PRISM_Initialize
+PRISM_LoadPluginInterfaceOnce
 PRISM_RegisterDisplaySubsystem
+PRISM_RegisterGraphNode
 PRISM_RegisterLogCallback
 PRISM_RegisterMotionEstimatorSubsystem
+PRISM_RegisterPluginProvider
 PRISM_RegisterPoseProviderSubsystem
+PRISM_RegisterRenderGraph
 PRISM_ReleaseDisplay
 PRISM_Run
 PRISM_RunFrame
@@ -2494,20 +2130,13 @@ Parsing of JSON string "%s" failed: %s\n
 Path_Exists( absFilePath )
 Pe6^
 PeekMessageA
-PeekNamedPipe
 PeripheralApplication
 Persistent statistics file does not exist. Creating new %s\n
 Perspective camera description not found.
 PerspectiveCamera
-PoolGC
 Positional emitter description not found.
 Primitive
-Prism only supports DPOLY3 and DPOLY3_SCALED distortiong functions
-Prism%s: %s
-PrismDirect Swapchain-%d:%d
-PrismTimeline:%llu
 Pro Audio
-Projection
 PropVariantClear
 Protocol Buffer reflection usage error:\n  Method      : google::protobuf::Reflection::
 Protocol message serialized itself in invalid fashion.
@@ -2526,8 +2155,6 @@ Radio
 RaiseException
 Reached an unintended state: CPPTYPE_MESSAGE
 ReadFile
-ReadFile failed on %s after event was signaled because %s\n
-ReadFile failed on %s read %u bytes when only %u bytes were available in the buffer\n
 Reading dangerously large protocol message.  If the message turns out to be larger than 
 Reading persistent statistics file from %s\n
 Received mirror reset event after %u passes, %llu samples\n
@@ -2539,7 +2166,6 @@ Recording to "%s"\n
 Refreshing audio devices\n
 RegCloseKey
 RegEnumValueW
-RegOpenKeyA
 RegOpenKeyExA
 RegOpenKeyExW
 RegQueryValueExA
@@ -2548,13 +2174,9 @@ RegisterClassA
 RegisterDeviceNotificationA
 ReleaseLast
 ReleaseMessage
-ReleaseMutex
-Releasing OS object failed: invalid parameter\n
 RemindVersion
 RemoveLast
 RenderDoc connected\n
-RenderEnd
-RenderStart
 Repeated fields can't have default values.
 ReplaceFileW
 Replay failed to parse base configuration: 
@@ -2663,7 +2285,6 @@ SetFloat
 SetInt32
 SetInt64
 SetLastError
-SetNamedPipeHandleState
 SetRepeatedBool
 SetRepeatedDouble
 SetRepeatedEnum
@@ -2673,7 +2294,6 @@ SetRepeatedInt64
 SetRepeatedString
 SetRepeatedUInt32
 SetRepeatedUInt64
-SetSecurityDescriptorDacl
 SetString
 SetThreadPriority
 SetUInt32
@@ -2704,11 +2324,6 @@ Skipping TrackedCameraCalibrations Extrinsics Override, dual cameras not found i
 Sleep
 SleepConditionVariableCS
 Software Reset
-Software\Valve\Steam\ActiveProcess
-Somebody beat us to creating event %s to go with pipe %s in WaitForConnection\n
-Somebody created vrprismhost_startup before driver_lighthouse started prism. Something has gone wrong.
-Somebody else should have created event %s to go with pipe %s in WaitForConnection\n
-Somebody locked a non-leaf shared memory %s while %s was already locked
 Source: %s -- Preferred basestation %08X\n
 SourceCodeInfo
 SparseAccessor
@@ -2721,15 +2336,12 @@ Start test failed\n
 Started pairing dongle serial=%s timeout=%f\n
 Starting test\n
 SteamPath
-SteamVR_Namespace
-SteamXR Interop Device
 Still waiting for Direct Mode Display...\n
 Stopped tracking with universe %llu\n
 Stopping playback mirror thread\n
 Stopping recording...\n
 String literals cannot cross line boundaries.
 StringOutputStream.
-Submit
 Success
 Success: 
 Successfully parsed Lighthouse DB rev %u from %s\n
@@ -2766,7 +2378,6 @@ Thread watchdog with a small timout %f. Timeouts should usually be multiple seco
 ThreadWatchdog
 Time: 
 Timed Out
-TimestampQueryPool-%s
 TlsAlloc
 TlsFree
 TlsGetValue
@@ -2795,11 +2406,6 @@ USB status (rates over
 USER32.dll
 UUUUUU
 Unable to SetLcmBrightness\n
-Unable to SetNamedPipeHandleState on pipe %s after connecting because %s\n
-Unable to create event %s to go with pipe %s in WaitForConnection\n
-Unable to create shared memory %s for IPC client\n
-Unable to create shared mutex %s for IPC client\n
-Unable to create shared state %s because namespace wasn't available\n
 Unable to determine VR Path Registry filename
 Unable to fetch %s to store MC data\n
 Unable to get IMMDeviceEnumerator, hr = 0x%08x\n
@@ -2810,8 +2416,6 @@ Unable to init zlib\n
 Unable to load avrt.dll\n
 Unable to load bind mfplat.dll and/or avrt.dll\n
 Unable to load mfplat.dll\n
-Unable to open current process for duplicating handles because %s\n
-Unable to open process id=%d from pipe %s after connecting because %s\n
 Unable to parse 
 Unable to parse Lighthouse base target pose\n
 Unable to parse base at index %d in db json file %s\n
@@ -2828,10 +2432,7 @@ Unable to read Lighthouse DB from file %s\n
 Unable to read VR Path Registry from 
 Unable to read device config for dongle %s device %s (%s). Ignoring it\n
 Unable to read device config for vid 0x%X pid 0x%X serial %s. Rejecting it\n
-Unable to read event handles from pipe %s after connecting because %s\n
-Unable to read event salt from pipe %s after connecting because %s\n
 Unable to read first packet from vid 0x%X pid 0x%X serial %s when looking for controller id %X\n
-Unable to read pid from pipe %s after connecting because %s\n
 Unable to request wireless pairing\n
 Unable to save backup database for revision %u to %s\n
 Unable to set room view to '%s' for HMD Hid device\n
@@ -2844,7 +2445,6 @@ Unexpected WaitForMultipleObjects return value %u on pass %u\n
 Unexpected WaitForMultipleObjects return value %u\n
 Unexpected centroid ordering error %.3fms S-%d\n
 Unexpected end of string.
-Unexpected failure when checking for timeline signal
 Unexpected failure while serializing option submessage 
 UnhandledExceptionFilter
 Unidentified
@@ -2862,7 +2462,6 @@ Unknown exception
 Unknown image format. STB cannot decode image data for image[
 Unknown image format. STB cannot decode image header for image[
 Unknown method: "
-UnmapViewOfFile
 UnregisterClassA
 UnregisterDeviceNotification
 Unsupported `type` for accessor object. Got "
@@ -2883,7 +2482,6 @@ UserData Error: Unable to request user data from device (%s), bytesRead %d, byte
 UserData Error: Unable to send start user data feature report \n
 Using default hidden area meshes for model %s\n
 Using monitor index %d\n
-Using physical device: %s
 Utah
 Utah DV
 Utah EV1
@@ -2908,17 +2506,6 @@ VIVE Tracker Pro MV
 VIVE_DVT
 VIVE_Pro EVT
 VIVE_Pro MV
-VK_EXT_debug_utils
-VK_EXT_global_priority
-VK_EXT_queue_family_foreign
-VK_EXT_validation_features
-VK_KHR_dynamic_rendering
-VK_KHR_external_memory_win32
-VK_KHR_external_semaphore_win32
-VK_KHR_present_id
-VK_KHR_win32_keyed_mutex
-VK_LAYER_KHRONOS_validation
-VK_NV_compute_shader_derivatives
 VR Path Registry node %s is not an array\n
 VRAudioDevices_Init
 VRC-%s
@@ -3150,7 +2737,6 @@ VR_LOG_DEBUG
 VR_LOG_PATH
 VR_OVERRIDE
 VR_PATHREG_OVERRIDE
-VSYNC:  %8d>%07.4f
 Value 
 Value must be "true" or "false" for boolean option "
 Value must be identifier for boolean option "
@@ -3189,7 +2775,6 @@ VerifyVersionInfoW
 Version
 Video Failure
 Video state: 
-VirtualQuery
 Vive
 Vive 2.0
 Vive 2.0 DVT
@@ -3229,22 +2814,15 @@ WINRT_Release
 WINRT_ReleaseDisplay
 WINRT_SetDisplayMode
 WINRT_WaitForPresent
-Wait
 Wait For Sync
-WaitForBegin
 WaitForMultipleObjects
-WaitForRunningStart nLastFrameIndex=%d nNextPrismWaitIndex=%d
 WaitForSingleObject
 WaitForSingleObjectEx
-WaitNamedPipe %s failed because %s\n
-WaitNamedPipe %s failed because no one is listening at that name.\n
-WaitNamedPipeA
 Waiting
 Waiting for best bootstrap base station candidate...\n
 WakeAllConditionVariable
 WakeConditionVariable
 Warned about misattributed base %08X\n
-Warning
 Warning parsing text-format 
 Warning:  HMD Display %s is Primary display\nUse Screen Resolution control panel to fix\n
 Warning: CVrController::CreateInputComponents called on empty input_profile\n
@@ -3263,7 +2841,6 @@ Warning: TDM sensorType changed to unknown type: %d\n
 Warning: TDM unknown sensorType\n
 Warning: Unused import: "
 Warning: Watchdog %s not properly cleaned up%s%s\n
-Warning: unexpected vulkan major version
 Watchdog count: 
 Watchdog reset
 WatchdogWakeUp because of HMD button\n
@@ -3315,34 +2892,6 @@ Zjz\v
 [DepthAugmentedPassthrough] : failed to create the mesh block queue (%d)\n
 [DepthAugmentedPassthrough] supported on this system: %d\n
 [FORCEUPDATE]
-[IPC] AddAccessAllowedAce failed for administrator. GetLastError returned: %d\n
-[IPC] AddAccessAllowedAce failed for chrome 1. GetLastError returned: %d\n
-[IPC] AddAccessAllowedAce failed for steam. GetLastError returned: %d\n
-[IPC] AddAccessAllowedAce failed for test app. GetLastError returned: %d\n
-[IPC] AddAccessAllowedAce failed for the process owner. GetLastError returned: %d\n
-[IPC] ConvertStringSidToSidA failed for test app %d\n
-[IPC] CreateWellKnownSid failed for WinBuiltinAnyPackageSid\n
-[IPC] Existing file mapping for %s was found\n
-[IPC] Failed creating auto reset event %s (GLE: %u)\n
-[IPC] Failed creating file mapping %s: %u\n
-[IPC] Failed creating mutex %s (GLE: %u)\n
-[IPC] Failed mapping view for %llu with 0x%08x for %s (%d/%d); Error code: 0x%08x\n
-[IPC] Failed to open event %s because access was denied\n
-[IPC] Failed to open file mapping %s because access was denied\n
-[IPC] Failed to open mutex %s because access was denied\n
-[IPC] Forced create of Win32 mutex %s but it already existed\n
-[IPC] Forced create of Win32Event %s but it already existed\n
-[IPC] Forced create of Win32Event but it already existed\n
-[IPC] Forced create of Win32Mutex but it already existed\n
-[IPC] Forced create of file mapping %s but it already existed\n
-[IPC] GetTokenInformation failed. GetLastError returned: %d\n
-[IPC] InitializeAcl failed. GetLastError returned: %d\n
-[IPC] InitializeSecurityDescriptor failed. GetLastError returned: %d\n
-[IPC] OpenProcessToken failed. GetLastError returned: %d\n
-[IPC] SetSecurityDescriptorDacl failed. GetLastError returned: %d\n
-[IPC] SharedMem access invalid: %x\n
-[IPC] The owner SID is invalid.\n
-[IPC] Warning, existing file mapping for %s (%d) is too small (%d)\n
 [KeyFramedDataResource] Failed to load GLTF file: %s
 [System] No OS path for logs available\n
 [System] No Steam Path available.\n
@@ -3422,7 +2971,6 @@ Zjz\v
 ] is not a JSON object.
 ],"subtype":
 ^oEZ_
-_Cnd_broadcast
 _Cnd_destroy
 _Cnd_destroy_in_situ
 _Cnd_do_broadcast_at_thread_exit
@@ -3442,7 +2990,6 @@ _Mtx_unlock
 _Query_perf_counter
 _Query_perf_frequency
 _RDATA
-_TEST
 _Thrd_id
 _Thrd_join
 _Thrd_sleep
@@ -3535,7 +3082,6 @@ adcr
 add a secondary base
 add_ogs_row
 additional six characters expected to parse unicode surrogate pair.
-additionalFramesToPredict
 adjust_panel_cant
 adjust_panel_cant %f %f
 adjust_panel_pitch
@@ -3591,9 +3137,6 @@ auto
 average_period
 avrt.dll
 axis
-bGraphicsCmd || m_eState == State_t::VulkanComputeTransitioned
-bGraphicsCmd || m_eState == State_t::VulkanGraphicsTransitioned
-bGraphicsCmd || pCmdBuf->QueueFamilyIndex() == nComputeFamilyIndex
 bad AC huff
 bad APP len
 bad BMP
@@ -3651,7 +3194,6 @@ basestation_mode
 best
 bg_bg
 bigscreenbeyond
-bin\win64\vrprismhost.exe
 bit_offset
 bit_width
 bl_ctl
@@ -3684,55 +3226,14 @@ bytes
 c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\animation\animresourcemanager.cpp
 c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\openvrtools.cpp
 c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrmailbox.cpp
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\ipcwin32.cpp
 c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\logbuffer.cpp
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\strtools_public.cpp
 c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\threadwatchdog.cpp
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\vripcsharedstate.cpp
 c:\buildslave\steamvr_rel_win64\build\src\drivers\lighthouse\Retail_lighthouse\win64\2017\driver_lighthouse.pdb
 c:\buildslave\steamvr_rel_win64\build\src\drivers\lighthouse\lighthousehmddriver.cpp
 c:\buildslave\steamvr_rel_win64\build\src\drivers\lighthouse\lighthouseserverdriverprovider.cpp
-c:\buildslave\steamvr_rel_win64\build\src\facet\include\facet\vkalloc.h
-c:\buildslave\steamvr_rel_win64\build\src\facet\include\facet\vkresource.h
-c:\buildslave\steamvr_rel_win64\build\src\facet\include\facet\vkresourcepool.h
-c:\buildslave\steamvr_rel_win64\build\src\facet\include\facet\vktimelinepoint.h
-c:\buildslave\steamvr_rel_win64\build\src\facet\src\compositionclient.cpp
-c:\buildslave\steamvr_rel_win64\build\src\facet\src\compositionclient.cpp:106
-c:\buildslave\steamvr_rel_win64\build\src\facet\src\compositionclient.cpp:1107
-c:\buildslave\steamvr_rel_win64\build\src\facet\src\compositionclient.cpp:1544
-c:\buildslave\steamvr_rel_win64\build\src\facet\src\compositionclient.cpp:1599
-c:\buildslave\steamvr_rel_win64\build\src\facet\src\compositionclient.cpp:1615
-c:\buildslave\steamvr_rel_win64\build\src\facet\src\compositionclient.cpp:1791
-c:\buildslave\steamvr_rel_win64\build\src\facet\src\compositionclient.cpp:612
-c:\buildslave\steamvr_rel_win64\build\src\facet\src\compositionclient.cpp:633
-c:\buildslave\steamvr_rel_win64\build\src\facet\src\compositionclient.cpp:658
-c:\buildslave\steamvr_rel_win64\build\src\facet\src\compositionclient.cpp:682
-c:\buildslave\steamvr_rel_win64\build\src\facet\src\compositionclient.cpp:704
-c:\buildslave\steamvr_rel_win64\build\src\facet\src\compositionclient.cpp:726
-c:\buildslave\steamvr_rel_win64\build\src\facet\src\compositionclient.cpp:77
-c:\buildslave\steamvr_rel_win64\build\src\facet\src\compositionclient.cpp:830
-c:\buildslave\steamvr_rel_win64\build\src\facet\src\compositionclient.cpp:852
-c:\buildslave\steamvr_rel_win64\build\src\facet\src\compositionclient.cpp:898
-c:\buildslave\steamvr_rel_win64\build\src\facet\src\compositionclient.cpp:964
-c:\buildslave\steamvr_rel_win64\build\src\facet\src\facetutils.cpp
-c:\buildslave\steamvr_rel_win64\build\src\facet\src\vkalloc.cpp
-c:\buildslave\steamvr_rel_win64\build\src\facet\src\vkcommand.cpp
-c:\buildslave\steamvr_rel_win64\build\src\facet\src\vkcommand.cpp:308
-c:\buildslave\steamvr_rel_win64\build\src\facet\src\vkdevice.cpp
-c:\buildslave\steamvr_rel_win64\build\src\facet\src\vkinterop_d3d11.cpp
-c:\buildslave\steamvr_rel_win64\build\src\facet\src\vkinterop_d3d11.cpp:282
-c:\buildslave\steamvr_rel_win64\build\src\facet\src\vkinterop_d3d11.cpp:334
-c:\buildslave\steamvr_rel_win64\build\src\facet\src\vkresource.cpp
-c:\buildslave\steamvr_rel_win64\build\src\facet\src\vksync.cpp
-c:\buildslave\steamvr_rel_win64\build\src\facet\src\vkutils.cpp
 c:\buildslave\steamvr_rel_win64\build\src\thirdparty\protobuf-2.6.1\src\google\protobuf\repeated_field.h
 c:\buildslave\steamvr_rel_win64\build\src\vortexlib\distortion.cpp
 c:\buildslave\steamvr_rel_win64\build\src\vortexlib\generated_proto_x64\lighthouse_debug.pb.cc
-c:\buildslave\steamvr_rel_win64\build\src\vortexlib\prismdirect.cpp
-c:\buildslave\steamvr_rel_win64\build\src\vortexlib\prismdirect.cpp:504
-c:\buildslave\steamvr_rel_win64\build\src\vortexlib\prismdirect.cpp:539
-c:\buildslave\steamvr_rel_win64\build\src\vortexlib\prismdirect.cpp:592
-c:\buildslave\steamvr_rel_win64\build\src\vortexlib\prismdirect.cpp:608
 c:\buildslave\steamvr_rel_win64\build\src\vortexlib\stereo_setup.cpp
 cal_method
 calloc
@@ -3750,7 +3251,6 @@ channelMap
 channelOrder
 channels
 children
-client
 clips
 clkoor
 clks
@@ -3780,17 +3280,14 @@ controller
 copyright
 corrupt
 count
-create
 cs_cz
 ctype
 czech
-d3d11.dll
 dQy/
 da_dk
 danish
 dashboard
 data error
-data->IsInitialized()
 data:application/gltf-buffer;base64,
 data:application/octet-stream;base64,
 data:image/bmp;base64,
@@ -3923,63 +3420,6 @@ eye_target_width_in_pixels
 eye_to_head
 eye_tracking
 fP~V
-facet::CCompositionClient::AcquireCompositorSlot
-facet::CCompositionClient::AcquireImage
-facet::CCompositionClient::BeginFrameRendering
-facet::CCompositionClient::CFrameState::AddLayerProjection
-facet::CCompositionClient::CFrameState::BeginRendering
-facet::CCompositionClient::CFrameState::Discard
-facet::CCompositionClient::CFrameState::End
-facet::CCompositionClient::CFrameState::EndRendering
-facet::CCompositionClient::CFrameState::Start
-facet::CCompositionClient::CFrameState::Submit
-facet::CCompositionClient::CFrameState::Wait
-facet::CCompositionClient::CSwapchain::AcquireCompositorSlot
-facet::CCompositionClient::CSwapchain::CreateVulkanResources
-facet::CCompositionClient::CSwapchain::GetIndices
-facet::CCompositionClient::CSwapchain::GetInteropImage
-facet::CCompositionClient::CSwapchain::Initialize
-facet::CCompositionClient::CSwapchain::RegisterCompositorResources
-facet::CCompositionClient::CSwapchain::SetUsageType
-facet::CCompositionClient::CSwapchain::Transition
-facet::CCompositionClient::ConnectToPrism
-facet::CCompositionClient::CreateSwapchain
-facet::CCompositionClient::CreateVulkanResources
-facet::CCompositionClient::DiscardFrameLocked
-facet::CCompositionClient::DoMaintenance
-facet::CCompositionClient::EndFrameRendering
-facet::CCompositionClient::EndFrameRenderingLocked
-facet::CCompositionClient::EndSession
-facet::CCompositionClient::ForceAcquireImage
-facet::CCompositionClient::InitDevice
-facet::CCompositionClient::InitVulkan
-facet::CCompositionClient::RegisterCompositorResources
-facet::CCompositionClient::ReleaseImage
-facet::CCompositionClient::ReleaseVulkanResources
-facet::CCompositionClient::SetSyncTexture
-facet::CCompositionClient::StartSession
-facet::CCompositionClient::SubmitLayers
-facet::CCompositionClient::WaitFrame
-facet::CCompositionClient::WaitImage
-facet::CVkInteropDeviceD3D11::CreateDevice
-facet::CVkInteropDeviceD3D11::CreateImage
-facet::CVkInteropDeviceD3D11::GetVkFormatFromAPIFormat
-facet::CVkInteropDeviceD3D11::Initialize
-facet::CVkInteropDeviceD3D11::IsTextureFormatSupported
-facet::CVkInteropDeviceFactory::CreateInteropDevice
-facet::CVkInteropDeviceNull::CreateImage
-facet::CVkInteropImageD3D11::AcquireAccess
-facet::CVkInteropImageD3D11::CreateTexture
-facet::CVkInteropImageD3D11::ImportTexture
-facet::CVkInteropImageD3D11::Initialize
-facet::CVkInteropImageD3D11::ReleaseAccess
-facet::CVkInteropImageD3D11::SyncAndSubmit
-facet::CVkInteropImageD3D11::~CVkInteropImageD3D11
-facet::CVkInteropImageNull::Initialize
-facet::CVkTimestampQueryPool<2>::Create
-facet::CVkTimestampQueryPool<2>::UpdateResults
-facet::CVkTimestampQueryPoolBase::Initialize
-facet::CVkTimestampQueryPoolBase::UpdateResults
 failIfExtra
 failed
 failed to send to device
@@ -4012,7 +3452,6 @@ first_eye
 first_id
 fixed32
 fixed64
-flWaitTime < 1.0
 flags
 flags2
 float
@@ -4031,7 +3470,6 @@ fputc
 fputs
 fr_fr
 framer
-framesToThrottle
 fread
 free
 french
@@ -4117,7 +3555,6 @@ iauds
 identifier_value
 illegal code in raster
 image
-image.pSwapchain->m_images[ image.nImageIndex ].GetState() == CImage::State_t::PrismLocked || m_pClient->m_pendingRelease.find( { image.pSwapchain, image.nImageIndex } ) != m_pClient->m_pendingRelease.end()
 image/bmp
 image/gif
 image/jpeg
@@ -4125,7 +3562,6 @@ image/png
 image[
 images
 immediate
-import
 in Json::Value::asCString(): requires stringValue
 in Json::Value::clear(): requires complex value
 in Json::Value::duplicateAndPrefixStringValue(): Failed to allocate string value buffer
@@ -4169,7 +3605,6 @@ invalid
 invalid BOM; must be 0xEF 0xBB 0xBF if given
 invalid PLTE
 invalid bit length repeat
-invalid bitset<N> position
 invalid block type
 invalid code -- missing end-of-block
 invalid code lengths set
@@ -4286,7 +3721,6 @@ lh_basestation_03_robin
 lh_basestation_valve_gen2
 lh_basestation_vive
 lhjsonfx
-lhs->m_pTimeline == rhs->m_pTimeline
 light
 lighthouse
 lighthouse:
@@ -4305,35 +3739,8 @@ logs
 loop
 low_mm
 mSx@
-m_acquireMutexes.size() == m_acquireKeys.size()
-m_acquireMutexes.size() == m_acquireTimeouts.size()
-m_data.details.hImportHandle.Valid()
-m_eMutexOwnership != MutexOwnership_t::D3D11
-m_eMutexOwnership != MutexOwnership_t::Vulkan
-m_eMutexOwnership == MutexOwnership_t::D3D11
-m_eMutexOwnership == MutexOwnership_t::Vulkan
-m_eState == State_t::ApplicationAcquired
-m_eState == State_t::ApplicationReleased
-m_images.size() <= SwapchainState_t::k_nMaxImages
-m_mapTimelineToBuckets[ pKey ].empty()
-m_nClientDataSlot < CompositionState_t::k_nMaxClients
-m_nMapCount == 0
-m_nMapCount > 0
 m_nMaxLogBufferingSize > 0
-m_nSwapchainSlot < CompositionState_t::k_nMaxSwapchains
-m_pClient != nullptr
-m_pData
-m_pDevice
-m_pDevice == VK_NULL_HANDLE
-m_pInstance == VK_NULL_HANDLE
-m_pPhysicalDevice == VK_NULL_HANDLE
-m_pendingLock.empty()
-m_releaseMutexes.size() == m_releaseKeys.size()
-m_signalTimelines.size() == m_signalPoints.size()
 m_ulHandle != vr::k_ulInvalidMailbox
-m_waitSemaphores.size() == m_waitSemaphoreStages.size()
-m_waitTimelines.size() == m_waitPoints.size()
-m_waitTimelines.size() == m_waitStages.size()
 magFilter
 malloc
 manifest.vrfirmware
@@ -4381,15 +3788,7 @@ modelskins
 modf
 mtpb
 multiple IHDR
-multiple signals per batch not allowed
 muteMicMonitor
-nClientFrameIndex != k_nInvalidClientFrameIndex
-nClientFrameIndex=%d nPrismFrameStartIndex=%d
-nExistingSize >= nSize
-nFrameIndex >> ( 64 - k_TimelineEventShift ) == 0
-nNextPrismWaitIndex >= nNextPrismFrameIndex
-nSampleCount > 0 && nSampleCount <= 64
-nSizeInBytes <= m_unSizeInBytes
 nSplineCtrlPts
 name
 nb_no
@@ -4464,23 +3863,8 @@ outofdata
 outofmem
 output
 output buffer limit
-pBuffer != nullptr
-pClient
-pCmdBuf
-pCmdBuf != nullptr
-pDevice
-pImage != nullptr
-pLast->m_pointLastUsed <= pTimeline->m_pointLastUsed
 pNewResource
 pNewResource->Load( absFilePath )
-pResource
-pSourceBuffer
-pSourceBuffer->m_unSizeInBytes >= nSourceOffset + nSizeInBytes
-pSwapchain != nullptr
-pTextureSet->pSwapchain
-pTimeline
-pTimeline != nullptr
-pTimeline->m_nRefCount > 0
 package
 packed
 pairing_result
@@ -4522,7 +3906,6 @@ primary
 primarybasestation
 primitive indices accessor out of bounds
 primitives
-priorites.priorityCount > 0 && priorites.priorityCount <= ARRAY_SIZE( priorites.priorities )
 prism.dll
 prismCorrectionEnable
 prismCorrectionHL
@@ -4608,7 +3991,6 @@ seconds_from_vsync_to_photons
 sendStatusUpdates
 serial
 serialNumber
-server
 service
 session_id_field_name
 set_chromatic_correction_factors
@@ -4629,7 +4011,6 @@ set_subpixel %f %f %f %f
 setvbuf
 sfixed32
 sfixed64
-short_alloc: spilling into system allocator
 short_bad
 sinf
 sint32
@@ -4663,7 +4044,6 @@ stoi argument out of range
 stop_pairing
 stop_tracking_recording
 stoul argument out of range
-strcat_s
 strchr
 strcmp
 stream end
@@ -4677,10 +4057,8 @@ string
 string literal
 string too long
 strings::Substitute format string invalid: asked for "$
-strncat
 strncmp
 strncpy
-strncpy_s
 strpbrk
 strstr
 strtod
@@ -4696,7 +4074,6 @@ succeeded
 success
 supported
 sv_se
-swapchainImage.GetState() != CSwapchain::CImage::State_t::ApplicationAcquired
 swedish
 synconbeam
 syntax error 
@@ -4735,8 +4112,6 @@ tilt_to_pose_method
 time
 timeBeginPeriod
 timeEndPeriod
-timeKillEvent
-timeSetEvent
 time_last_seen
 timeout
 timeoutSeconds
@@ -4827,727 +4202,13 @@ viveVR
 vive_controller
 vive_pro
 vivewand_hand_poses.glb
-vkAcquireDrmDisplayEXT
-vkAcquireFullScreenExclusiveModeEXT
-vkAcquireNextImage2KHR
-vkAcquireNextImageKHR
-vkAcquirePerformanceConfigurationINTEL
-vkAcquireProfilingLockKHR
-vkAcquireWinrtDisplayNV
-vkAllocateCommandBuffers
-vkAllocateDescriptorSets
-vkAllocateMemory
-vkAntiLagUpdateAMD
-vkBeginCommandBuffer
-vkBindAccelerationStructureMemoryNV
-vkBindBufferMemory
-vkBindBufferMemory2
-vkBindBufferMemory2KHR
-vkBindDataGraphPipelineSessionMemoryARM
-vkBindImageMemory
-vkBindImageMemory2
-vkBindImageMemory2KHR
-vkBindOpticalFlowSessionImageNV
-vkBindTensorMemoryARM
-vkBindVideoSessionMemoryKHR
-vkBuildAccelerationStructuresKHR
-vkBuildMicromapsEXT
-vkCmdBeginConditionalRenderingEXT
-vkCmdBeginDebugUtilsLabelEXT
-vkCmdBeginPerTileExecutionQCOM
-vkCmdBeginQuery
-vkCmdBeginQueryIndexedEXT
-vkCmdBeginRenderPass
-vkCmdBeginRenderPass2
-vkCmdBeginRenderPass2KHR
-vkCmdBeginRendering
-vkCmdBeginRenderingKHR
-vkCmdBeginTransformFeedbackEXT
-vkCmdBeginVideoCodingKHR
-vkCmdBindDescriptorBufferEmbeddedSamplers2EXT
-vkCmdBindDescriptorBufferEmbeddedSamplersEXT
-vkCmdBindDescriptorBuffersEXT
-vkCmdBindDescriptorSets
-vkCmdBindDescriptorSets2
-vkCmdBindDescriptorSets2KHR
-vkCmdBindIndexBuffer
-vkCmdBindIndexBuffer2
-vkCmdBindIndexBuffer2KHR
-vkCmdBindInvocationMaskHUAWEI
-vkCmdBindPipeline
-vkCmdBindPipelineShaderGroupNV
-vkCmdBindShadersEXT
-vkCmdBindShadingRateImageNV
-vkCmdBindTileMemoryQCOM
-vkCmdBindTransformFeedbackBuffersEXT
-vkCmdBindVertexBuffers
-vkCmdBindVertexBuffers2
-vkCmdBindVertexBuffers2EXT
-vkCmdBlitImage
-vkCmdBlitImage2
-vkCmdBlitImage2KHR
-vkCmdBuildAccelerationStructureNV
-vkCmdBuildAccelerationStructuresIndirectKHR
-vkCmdBuildAccelerationStructuresKHR
-vkCmdBuildClusterAccelerationStructureIndirectNV
-vkCmdBuildMicromapsEXT
-vkCmdBuildPartitionedAccelerationStructuresNV
-vkCmdClearAttachments
-vkCmdClearColorImage
-vkCmdClearDepthStencilImage
-vkCmdControlVideoCodingKHR
-vkCmdConvertCooperativeVectorMatrixNV
-vkCmdCopyAccelerationStructureKHR
-vkCmdCopyAccelerationStructureNV
-vkCmdCopyAccelerationStructureToMemoryKHR
-vkCmdCopyBuffer
-vkCmdCopyBuffer2
-vkCmdCopyBuffer2KHR
-vkCmdCopyBufferToImage
-vkCmdCopyBufferToImage2
-vkCmdCopyBufferToImage2KHR
-vkCmdCopyImage
-vkCmdCopyImage2
-vkCmdCopyImage2KHR
-vkCmdCopyImageToBuffer
-vkCmdCopyImageToBuffer2
-vkCmdCopyImageToBuffer2KHR
-vkCmdCopyMemoryIndirectNV
-vkCmdCopyMemoryToAccelerationStructureKHR
-vkCmdCopyMemoryToImageIndirectNV
-vkCmdCopyMemoryToMicromapEXT
-vkCmdCopyMicromapEXT
-vkCmdCopyMicromapToMemoryEXT
-vkCmdCopyQueryPoolResults
-vkCmdCopyTensorARM
-vkCmdCuLaunchKernelNVX
-vkCmdDebugMarkerBeginEXT
-vkCmdDebugMarkerEndEXT
-vkCmdDebugMarkerInsertEXT
-vkCmdDecodeVideoKHR
-vkCmdDecompressMemoryIndirectCountNV
-vkCmdDecompressMemoryNV
-vkCmdDispatch
-vkCmdDispatchBase
-vkCmdDispatchBaseKHR
-vkCmdDispatchDataGraphARM
-vkCmdDispatchIndirect
-vkCmdDispatchTileQCOM
-vkCmdDraw
-vkCmdDrawClusterHUAWEI
-vkCmdDrawClusterIndirectHUAWEI
-vkCmdDrawIndexed
-vkCmdDrawIndexedIndirect
-vkCmdDrawIndexedIndirectCount
-vkCmdDrawIndexedIndirectCountAMD
-vkCmdDrawIndexedIndirectCountKHR
-vkCmdDrawIndirect
-vkCmdDrawIndirectByteCountEXT
-vkCmdDrawIndirectCount
-vkCmdDrawIndirectCountAMD
-vkCmdDrawIndirectCountKHR
-vkCmdDrawMeshTasksEXT
-vkCmdDrawMeshTasksIndirectCountEXT
-vkCmdDrawMeshTasksIndirectCountNV
-vkCmdDrawMeshTasksIndirectEXT
-vkCmdDrawMeshTasksIndirectNV
-vkCmdDrawMeshTasksNV
-vkCmdDrawMultiEXT
-vkCmdDrawMultiIndexedEXT
-vkCmdEncodeVideoKHR
-vkCmdEndConditionalRenderingEXT
-vkCmdEndDebugUtilsLabelEXT
-vkCmdEndPerTileExecutionQCOM
-vkCmdEndQuery
-vkCmdEndQueryIndexedEXT
-vkCmdEndRenderPass
-vkCmdEndRenderPass2
-vkCmdEndRenderPass2KHR
-vkCmdEndRendering
-vkCmdEndRendering2EXT
-vkCmdEndRenderingKHR
-vkCmdEndTransformFeedbackEXT
-vkCmdEndVideoCodingKHR
-vkCmdExecuteCommands
-vkCmdExecuteGeneratedCommandsEXT
-vkCmdExecuteGeneratedCommandsNV
-vkCmdFillBuffer
-vkCmdInsertDebugUtilsLabelEXT
-vkCmdNextSubpass
-vkCmdNextSubpass2
-vkCmdNextSubpass2KHR
-vkCmdOpticalFlowExecuteNV
-vkCmdPipelineBarrier
-vkCmdPipelineBarrier2
-vkCmdPipelineBarrier2KHR
-vkCmdPreprocessGeneratedCommandsEXT
-vkCmdPreprocessGeneratedCommandsNV
-vkCmdPushConstants
-vkCmdPushConstants2
-vkCmdPushConstants2KHR
-vkCmdPushDescriptorSet
-vkCmdPushDescriptorSet2
-vkCmdPushDescriptorSet2KHR
-vkCmdPushDescriptorSetKHR
-vkCmdPushDescriptorSetWithTemplate
-vkCmdPushDescriptorSetWithTemplate2
-vkCmdPushDescriptorSetWithTemplate2KHR
-vkCmdPushDescriptorSetWithTemplateKHR
-vkCmdResetEvent
-vkCmdResetEvent2
-vkCmdResetEvent2KHR
-vkCmdResetQueryPool
-vkCmdResolveImage
-vkCmdResolveImage2
-vkCmdResolveImage2KHR
-vkCmdSetAlphaToCoverageEnableEXT
-vkCmdSetAlphaToOneEnableEXT
-vkCmdSetAttachmentFeedbackLoopEnableEXT
-vkCmdSetBlendConstants
-vkCmdSetCheckpointNV
-vkCmdSetCoarseSampleOrderNV
-vkCmdSetColorBlendAdvancedEXT
-vkCmdSetColorBlendEnableEXT
-vkCmdSetColorBlendEquationEXT
-vkCmdSetColorWriteEnableEXT
-vkCmdSetColorWriteMaskEXT
-vkCmdSetConservativeRasterizationModeEXT
-vkCmdSetCoverageModulationModeNV
-vkCmdSetCoverageModulationTableEnableNV
-vkCmdSetCoverageModulationTableNV
-vkCmdSetCoverageReductionModeNV
-vkCmdSetCoverageToColorEnableNV
-vkCmdSetCoverageToColorLocationNV
-vkCmdSetCullMode
-vkCmdSetCullModeEXT
-vkCmdSetDepthBias
-vkCmdSetDepthBias2EXT
-vkCmdSetDepthBiasEnable
-vkCmdSetDepthBiasEnableEXT
-vkCmdSetDepthBounds
-vkCmdSetDepthBoundsTestEnable
-vkCmdSetDepthBoundsTestEnableEXT
-vkCmdSetDepthClampEnableEXT
-vkCmdSetDepthClampRangeEXT
-vkCmdSetDepthClipEnableEXT
-vkCmdSetDepthClipNegativeOneToOneEXT
-vkCmdSetDepthCompareOp
-vkCmdSetDepthCompareOpEXT
-vkCmdSetDepthTestEnable
-vkCmdSetDepthTestEnableEXT
-vkCmdSetDepthWriteEnable
-vkCmdSetDepthWriteEnableEXT
-vkCmdSetDescriptorBufferOffsets2EXT
-vkCmdSetDescriptorBufferOffsetsEXT
-vkCmdSetDeviceMask
-vkCmdSetDeviceMaskKHR
-vkCmdSetDiscardRectangleEXT
-vkCmdSetDiscardRectangleEnableEXT
-vkCmdSetDiscardRectangleModeEXT
-vkCmdSetEvent
-vkCmdSetEvent2
-vkCmdSetEvent2KHR
-vkCmdSetExclusiveScissorEnableNV
-vkCmdSetExclusiveScissorNV
-vkCmdSetExtraPrimitiveOverestimationSizeEXT
-vkCmdSetFragmentShadingRateEnumNV
-vkCmdSetFragmentShadingRateKHR
-vkCmdSetFrontFace
-vkCmdSetFrontFaceEXT
-vkCmdSetLineRasterizationModeEXT
-vkCmdSetLineStipple
-vkCmdSetLineStippleEXT
-vkCmdSetLineStippleEnableEXT
-vkCmdSetLineStippleKHR
-vkCmdSetLineWidth
-vkCmdSetLogicOpEXT
-vkCmdSetLogicOpEnableEXT
-vkCmdSetPatchControlPointsEXT
-vkCmdSetPerformanceMarkerINTEL
-vkCmdSetPerformanceOverrideINTEL
-vkCmdSetPerformanceStreamMarkerINTEL
-vkCmdSetPolygonModeEXT
-vkCmdSetPrimitiveRestartEnable
-vkCmdSetPrimitiveRestartEnableEXT
-vkCmdSetPrimitiveTopology
-vkCmdSetPrimitiveTopologyEXT
-vkCmdSetProvokingVertexModeEXT
-vkCmdSetRasterizationSamplesEXT
-vkCmdSetRasterizationStreamEXT
-vkCmdSetRasterizerDiscardEnable
-vkCmdSetRasterizerDiscardEnableEXT
-vkCmdSetRayTracingPipelineStackSizeKHR
-vkCmdSetRenderingAttachmentLocations
-vkCmdSetRenderingAttachmentLocationsKHR
-vkCmdSetRenderingInputAttachmentIndices
-vkCmdSetRenderingInputAttachmentIndicesKHR
-vkCmdSetRepresentativeFragmentTestEnableNV
-vkCmdSetSampleLocationsEXT
-vkCmdSetSampleLocationsEnableEXT
-vkCmdSetSampleMaskEXT
-vkCmdSetScissor
-vkCmdSetScissorWithCount
-vkCmdSetScissorWithCountEXT
-vkCmdSetShadingRateImageEnableNV
-vkCmdSetStencilCompareMask
-vkCmdSetStencilOp
-vkCmdSetStencilOpEXT
-vkCmdSetStencilReference
-vkCmdSetStencilTestEnable
-vkCmdSetStencilTestEnableEXT
-vkCmdSetStencilWriteMask
-vkCmdSetTessellationDomainOriginEXT
-vkCmdSetVertexInputEXT
-vkCmdSetViewport
-vkCmdSetViewportShadingRatePaletteNV
-vkCmdSetViewportSwizzleNV
-vkCmdSetViewportWScalingEnableNV
-vkCmdSetViewportWScalingNV
-vkCmdSetViewportWithCount
-vkCmdSetViewportWithCountEXT
-vkCmdSubpassShadingHUAWEI
-vkCmdTraceRaysIndirect2KHR
-vkCmdTraceRaysIndirectKHR
-vkCmdTraceRaysKHR
-vkCmdTraceRaysNV
-vkCmdUpdateBuffer
-vkCmdUpdatePipelineIndirectBufferNV
-vkCmdWaitEvents
-vkCmdWaitEvents2
-vkCmdWaitEvents2KHR
-vkCmdWriteAccelerationStructuresPropertiesKHR
-vkCmdWriteAccelerationStructuresPropertiesNV
-vkCmdWriteBufferMarker2AMD
-vkCmdWriteBufferMarkerAMD
-vkCmdWriteMicromapsPropertiesEXT
-vkCmdWriteTimestamp
-vkCmdWriteTimestamp2
-vkCmdWriteTimestamp2KHR
-vkCompileDeferredNV
-vkConvertCooperativeVectorMatrixNV
-vkCopyAccelerationStructureKHR
-vkCopyAccelerationStructureToMemoryKHR
-vkCopyImageToImage
-vkCopyImageToImageEXT
-vkCopyImageToMemory
-vkCopyImageToMemoryEXT
-vkCopyMemoryToAccelerationStructureKHR
-vkCopyMemoryToImage
-vkCopyMemoryToImageEXT
-vkCopyMemoryToMicromapEXT
-vkCopyMicromapEXT
-vkCopyMicromapToMemoryEXT
-vkCreateAccelerationStructureKHR
-vkCreateAccelerationStructureNV
-vkCreateBuffer
-vkCreateBufferView
-vkCreateCommandPool
-vkCreateComputePipelines
-vkCreateCuFunctionNVX
-vkCreateCuModuleNVX
-vkCreateDataGraphPipelineSessionARM
-vkCreateDataGraphPipelinesARM
-vkCreateDebugReportCallbackEXT
-vkCreateDebugUtilsMessengerEXT
-vkCreateDeferredOperationKHR
-vkCreateDescriptorPool
-vkCreateDescriptorSetLayout
-vkCreateDescriptorUpdateTemplate
-vkCreateDescriptorUpdateTemplateKHR
-vkCreateDevice
-vkCreateDisplayModeKHR
-vkCreateDisplayPlaneSurfaceKHR
-vkCreateEvent
-vkCreateExternalComputeQueueNV
-vkCreateFence
-vkCreateFramebuffer
-vkCreateGraphicsPipelines
-vkCreateHeadlessSurfaceEXT
-vkCreateImage
-vkCreateImageView
-vkCreateIndirectCommandsLayoutEXT
-vkCreateIndirectCommandsLayoutNV
-vkCreateIndirectExecutionSetEXT
-vkCreateInstance
-vkCreateMicromapEXT
-vkCreateOpticalFlowSessionNV
-vkCreatePipelineBinariesKHR
-vkCreatePipelineCache
-vkCreatePipelineLayout
-vkCreatePrivateDataSlot
-vkCreatePrivateDataSlotEXT
-vkCreateQueryPool
-vkCreateRayTracingPipelinesKHR
-vkCreateRayTracingPipelinesNV
-vkCreateRenderPass
-vkCreateRenderPass2
-vkCreateRenderPass2KHR
-vkCreateSampler
-vkCreateSamplerYcbcrConversion
-vkCreateSamplerYcbcrConversionKHR
-vkCreateSemaphore
-vkCreateShaderModule
-vkCreateShadersEXT
-vkCreateSharedSwapchainsKHR
-vkCreateSwapchainKHR
-vkCreateTensorARM
-vkCreateTensorViewARM
-vkCreateValidationCacheEXT
-vkCreateVideoSessionKHR
-vkCreateVideoSessionParametersKHR
-vkCreateWin32SurfaceKHR
-vkDebugMarkerSetObjectNameEXT
-vkDebugMarkerSetObjectTagEXT
-vkDebugReportMessageEXT
-vkDeferredOperationJoinKHR
-vkDestroyAccelerationStructureKHR
-vkDestroyAccelerationStructureNV
-vkDestroyBuffer
-vkDestroyBufferView
-vkDestroyCommandPool
-vkDestroyCuFunctionNVX
-vkDestroyCuModuleNVX
-vkDestroyDataGraphPipelineSessionARM
-vkDestroyDebugReportCallbackEXT
-vkDestroyDebugUtilsMessengerEXT
-vkDestroyDeferredOperationKHR
-vkDestroyDescriptorPool
-vkDestroyDescriptorSetLayout
-vkDestroyDescriptorUpdateTemplate
-vkDestroyDescriptorUpdateTemplateKHR
-vkDestroyDevice
-vkDestroyEvent
-vkDestroyExternalComputeQueueNV
-vkDestroyFence
-vkDestroyFramebuffer
-vkDestroyImage
-vkDestroyImageView
-vkDestroyIndirectCommandsLayoutEXT
-vkDestroyIndirectCommandsLayoutNV
-vkDestroyIndirectExecutionSetEXT
-vkDestroyInstance
-vkDestroyMicromapEXT
-vkDestroyOpticalFlowSessionNV
-vkDestroyPipeline
-vkDestroyPipelineBinaryKHR
-vkDestroyPipelineCache
-vkDestroyPipelineLayout
-vkDestroyPrivateDataSlot
-vkDestroyPrivateDataSlotEXT
-vkDestroyQueryPool
-vkDestroyRenderPass
-vkDestroySampler
-vkDestroySamplerYcbcrConversion
-vkDestroySamplerYcbcrConversionKHR
-vkDestroySemaphore
-vkDestroyShaderEXT
-vkDestroyShaderModule
-vkDestroySurfaceKHR
-vkDestroySwapchainKHR
-vkDestroyTensorARM
-vkDestroyTensorViewARM
-vkDestroyValidationCacheEXT
-vkDestroyVideoSessionKHR
-vkDestroyVideoSessionParametersKHR
-vkDeviceWaitIdle
-vkDisplayPowerControlEXT
-vkEndCommandBuffer
-vkEnumerateDeviceExtensionProperties
-vkEnumerateDeviceLayerProperties
-vkEnumerateInstanceExtensionProperties
-vkEnumerateInstanceLayerProperties
-vkEnumerateInstanceVersion
-vkEnumeratePhysicalDeviceGroups
-vkEnumeratePhysicalDeviceGroupsKHR
-vkEnumeratePhysicalDeviceQueueFamilyPerformanceQueryCountersKHR
-vkEnumeratePhysicalDevices
-vkFlushMappedMemoryRanges
-vkFreeCommandBuffers
-vkFreeDescriptorSets
-vkFreeMemory
-vkGetAccelerationStructureBuildSizesKHR
-vkGetAccelerationStructureDeviceAddressKHR
-vkGetAccelerationStructureHandleNV
-vkGetAccelerationStructureMemoryRequirementsNV
-vkGetAccelerationStructureOpaqueCaptureDescriptorDataEXT
-vkGetBufferDeviceAddress
-vkGetBufferDeviceAddressEXT
-vkGetBufferDeviceAddressKHR
-vkGetBufferMemoryRequirements
-vkGetBufferMemoryRequirements2
-vkGetBufferMemoryRequirements2KHR
-vkGetBufferOpaqueCaptureAddress
-vkGetBufferOpaqueCaptureAddressKHR
-vkGetBufferOpaqueCaptureDescriptorDataEXT
-vkGetCalibratedTimestampsEXT
-vkGetCalibratedTimestampsKHR
-vkGetClusterAccelerationStructureBuildSizesNV
-vkGetDataGraphPipelineAvailablePropertiesARM
-vkGetDataGraphPipelinePropertiesARM
-vkGetDataGraphPipelineSessionBindPointRequirementsARM
-vkGetDataGraphPipelineSessionMemoryRequirementsARM
-vkGetDeferredOperationMaxConcurrencyKHR
-vkGetDeferredOperationResultKHR
-vkGetDescriptorEXT
-vkGetDescriptorSetHostMappingVALVE
-vkGetDescriptorSetLayoutBindingOffsetEXT
-vkGetDescriptorSetLayoutHostMappingInfoVALVE
-vkGetDescriptorSetLayoutSizeEXT
-vkGetDescriptorSetLayoutSupport
-vkGetDescriptorSetLayoutSupportKHR
-vkGetDeviceAccelerationStructureCompatibilityKHR
-vkGetDeviceBufferMemoryRequirements
-vkGetDeviceBufferMemoryRequirementsKHR
-vkGetDeviceFaultInfoEXT
-vkGetDeviceGroupPeerMemoryFeatures
-vkGetDeviceGroupPeerMemoryFeaturesKHR
-vkGetDeviceGroupPresentCapabilitiesKHR
-vkGetDeviceGroupSurfacePresentModes2EXT
-vkGetDeviceGroupSurfacePresentModesKHR
-vkGetDeviceImageMemoryRequirements
-vkGetDeviceImageMemoryRequirementsKHR
-vkGetDeviceImageSparseMemoryRequirements
-vkGetDeviceImageSparseMemoryRequirementsKHR
-vkGetDeviceImageSubresourceLayout
-vkGetDeviceImageSubresourceLayoutKHR
-vkGetDeviceMemoryCommitment
-vkGetDeviceMemoryOpaqueCaptureAddress
-vkGetDeviceMemoryOpaqueCaptureAddressKHR
-vkGetDeviceMicromapCompatibilityEXT
-vkGetDeviceProcAddr
-vkGetDeviceQueue
-vkGetDeviceQueue2
-vkGetDeviceSubpassShadingMaxWorkgroupSizeHUAWEI
-vkGetDeviceTensorMemoryRequirementsARM
-vkGetDisplayModeProperties2KHR
-vkGetDisplayModePropertiesKHR
-vkGetDisplayPlaneCapabilities2KHR
-vkGetDisplayPlaneCapabilitiesKHR
-vkGetDisplayPlaneSupportedDisplaysKHR
-vkGetDrmDisplayEXT
-vkGetDynamicRenderingTilePropertiesQCOM
-vkGetEncodedVideoSessionParametersKHR
-vkGetEventStatus
-vkGetExternalComputeQueueDataNV
-vkGetFenceFdKHR
-vkGetFenceStatus
-vkGetFenceWin32HandleKHR
-vkGetFramebufferTilePropertiesQCOM
-vkGetGeneratedCommandsMemoryRequirementsEXT
-vkGetGeneratedCommandsMemoryRequirementsNV
-vkGetImageDrmFormatModifierPropertiesEXT
-vkGetImageMemoryRequirements
-vkGetImageMemoryRequirements2
-vkGetImageMemoryRequirements2KHR
-vkGetImageOpaqueCaptureDescriptorDataEXT
-vkGetImageSparseMemoryRequirements
-vkGetImageSparseMemoryRequirements2
-vkGetImageSparseMemoryRequirements2KHR
-vkGetImageSubresourceLayout
-vkGetImageSubresourceLayout2
-vkGetImageSubresourceLayout2EXT
-vkGetImageSubresourceLayout2KHR
-vkGetImageViewAddressNVX
-vkGetImageViewHandle64NVX
-vkGetImageViewHandleNVX
-vkGetImageViewOpaqueCaptureDescriptorDataEXT
-vkGetInstanceProcAddr
-vkGetLatencyTimingsNV
-vkGetMemoryFdKHR
-vkGetMemoryFdPropertiesKHR
-vkGetMemoryHostPointerPropertiesEXT
-vkGetMemoryRemoteAddressNV
-vkGetMemoryWin32HandleKHR
-vkGetMemoryWin32HandleNV
-vkGetMemoryWin32HandlePropertiesKHR
-vkGetMicromapBuildSizesEXT
-vkGetPartitionedAccelerationStructuresBuildSizesNV
-vkGetPastPresentationTimingGOOGLE
-vkGetPerformanceParameterINTEL
-vkGetPhysicalDeviceCalibrateableTimeDomainsEXT
-vkGetPhysicalDeviceCalibrateableTimeDomainsKHR
-vkGetPhysicalDeviceCooperativeMatrixFlexibleDimensionsPropertiesNV
-vkGetPhysicalDeviceCooperativeMatrixPropertiesKHR
-vkGetPhysicalDeviceCooperativeMatrixPropertiesNV
-vkGetPhysicalDeviceCooperativeVectorPropertiesNV
-vkGetPhysicalDeviceDisplayPlaneProperties2KHR
-vkGetPhysicalDeviceDisplayPlanePropertiesKHR
-vkGetPhysicalDeviceDisplayProperties2KHR
-vkGetPhysicalDeviceDisplayPropertiesKHR
-vkGetPhysicalDeviceExternalBufferProperties
-vkGetPhysicalDeviceExternalBufferPropertiesKHR
-vkGetPhysicalDeviceExternalFenceProperties
-vkGetPhysicalDeviceExternalFencePropertiesKHR
-vkGetPhysicalDeviceExternalImageFormatPropertiesNV
-vkGetPhysicalDeviceExternalSemaphoreProperties
-vkGetPhysicalDeviceExternalSemaphorePropertiesKHR
-vkGetPhysicalDeviceExternalTensorPropertiesARM
-vkGetPhysicalDeviceFeatures
-vkGetPhysicalDeviceFeatures2
-vkGetPhysicalDeviceFeatures2KHR
-vkGetPhysicalDeviceFormatProperties
-vkGetPhysicalDeviceFormatProperties2
-vkGetPhysicalDeviceFormatProperties2KHR
-vkGetPhysicalDeviceFragmentShadingRatesKHR
-vkGetPhysicalDeviceImageFormatProperties
-vkGetPhysicalDeviceImageFormatProperties2
-vkGetPhysicalDeviceImageFormatProperties2KHR
-vkGetPhysicalDeviceMemoryProperties
-vkGetPhysicalDeviceMemoryProperties2
-vkGetPhysicalDeviceMemoryProperties2KHR
-vkGetPhysicalDeviceMultisamplePropertiesEXT
-vkGetPhysicalDeviceOpticalFlowImageFormatsNV
-vkGetPhysicalDevicePresentRectanglesKHR
-vkGetPhysicalDeviceProperties
-vkGetPhysicalDeviceProperties2
-vkGetPhysicalDeviceProperties2KHR
-vkGetPhysicalDeviceQueueFamilyDataGraphProcessingEnginePropertiesARM
-vkGetPhysicalDeviceQueueFamilyDataGraphPropertiesARM
-vkGetPhysicalDeviceQueueFamilyPerformanceQueryPassesKHR
-vkGetPhysicalDeviceQueueFamilyProperties
-vkGetPhysicalDeviceQueueFamilyProperties2
-vkGetPhysicalDeviceQueueFamilyProperties2KHR
-vkGetPhysicalDeviceSparseImageFormatProperties
-vkGetPhysicalDeviceSparseImageFormatProperties2
-vkGetPhysicalDeviceSparseImageFormatProperties2KHR
-vkGetPhysicalDeviceSupportedFramebufferMixedSamplesCombinationsNV
-vkGetPhysicalDeviceSurfaceCapabilities2EXT
-vkGetPhysicalDeviceSurfaceCapabilities2KHR
-vkGetPhysicalDeviceSurfaceCapabilitiesKHR
-vkGetPhysicalDeviceSurfaceFormats2KHR
-vkGetPhysicalDeviceSurfaceFormatsKHR
-vkGetPhysicalDeviceSurfacePresentModes2EXT
-vkGetPhysicalDeviceSurfacePresentModesKHR
-vkGetPhysicalDeviceSurfaceSupportKHR
-vkGetPhysicalDeviceToolProperties
-vkGetPhysicalDeviceToolPropertiesEXT
-vkGetPhysicalDeviceVideoCapabilitiesKHR
-vkGetPhysicalDeviceVideoEncodeQualityLevelPropertiesKHR
-vkGetPhysicalDeviceVideoFormatPropertiesKHR
-vkGetPhysicalDeviceWin32PresentationSupportKHR
-vkGetPipelineBinaryDataKHR
-vkGetPipelineCacheData
-vkGetPipelineExecutableInternalRepresentationsKHR
-vkGetPipelineExecutablePropertiesKHR
-vkGetPipelineExecutableStatisticsKHR
-vkGetPipelineIndirectDeviceAddressNV
-vkGetPipelineIndirectMemoryRequirementsNV
-vkGetPipelineKeyKHR
-vkGetPipelinePropertiesEXT
-vkGetPrivateData
-vkGetPrivateDataEXT
-vkGetQueryPoolResults
-vkGetQueueCheckpointData2NV
-vkGetQueueCheckpointDataNV
-vkGetRayTracingCaptureReplayShaderGroupHandlesKHR
-vkGetRayTracingShaderGroupHandlesKHR
-vkGetRayTracingShaderGroupHandlesNV
-vkGetRayTracingShaderGroupStackSizeKHR
-vkGetRefreshCycleDurationGOOGLE
-vkGetRenderAreaGranularity
-vkGetRenderingAreaGranularity
-vkGetRenderingAreaGranularityKHR
-vkGetSamplerOpaqueCaptureDescriptorDataEXT
-vkGetSemaphoreCounterValue
-vkGetSemaphoreCounterValueKHR
-vkGetSemaphoreFdKHR
-vkGetSemaphoreWin32HandleKHR
-vkGetShaderBinaryDataEXT
-vkGetShaderInfoAMD
-vkGetShaderModuleCreateInfoIdentifierEXT
-vkGetShaderModuleIdentifierEXT
-vkGetSwapchainCounterEXT
-vkGetSwapchainImagesKHR
-vkGetSwapchainStatusKHR
-vkGetTensorMemoryRequirementsARM
-vkGetTensorOpaqueCaptureDescriptorDataARM
-vkGetTensorViewOpaqueCaptureDescriptorDataARM
-vkGetValidationCacheDataEXT
-vkGetVideoSessionMemoryRequirementsKHR
-vkGetWinrtDisplayNV
-vkImportFenceFdKHR
-vkImportFenceWin32HandleKHR
-vkImportSemaphoreFdKHR
-vkImportSemaphoreWin32HandleKHR
-vkInitializePerformanceApiINTEL
-vkInvalidateMappedMemoryRanges
-vkLatencySleepNV
-vkMapMemory
-vkMapMemory2
-vkMapMemory2KHR
-vkMergePipelineCaches
-vkMergeValidationCachesEXT
-vkQueueBeginDebugUtilsLabelEXT
-vkQueueBindSparse
-vkQueueEndDebugUtilsLabelEXT
-vkQueueInsertDebugUtilsLabelEXT
-vkQueueNotifyOutOfBandNV
-vkQueuePresentKHR
-vkQueueSetPerformanceConfigurationINTEL
-vkQueueSubmit
-vkQueueSubmit2
-vkQueueSubmit2KHR
-vkQueueWaitIdle
-vkRegisterDeviceEventEXT
-vkRegisterDisplayEventEXT
-vkReleaseCapturedPipelineDataKHR
-vkReleaseDisplayEXT
-vkReleaseFullScreenExclusiveModeEXT
-vkReleasePerformanceConfigurationINTEL
-vkReleaseProfilingLockKHR
-vkReleaseSwapchainImagesEXT
-vkReleaseSwapchainImagesKHR
-vkResetCommandBuffer
-vkResetCommandPool
-vkResetDescriptorPool
-vkResetEvent
-vkResetFences
-vkResetQueryPool
-vkResetQueryPoolEXT
-vkSetDebugUtilsObjectNameEXT
-vkSetDebugUtilsObjectTagEXT
-vkSetDeviceMemoryPriorityEXT
-vkSetEvent
-vkSetHdrMetadataEXT
-vkSetLatencyMarkerNV
-vkSetLatencySleepModeNV
-vkSetLocalDimmingAMD
-vkSetPrivateData
-vkSetPrivateDataEXT
-vkSignalSemaphore
-vkSignalSemaphoreKHR
-vkSubmitDebugUtilsMessageEXT
-vkTransitionImageLayout
-vkTransitionImageLayoutEXT
-vkTrimCommandPool
-vkTrimCommandPoolKHR
-vkUninitializePerformanceApiINTEL
-vkUnmapMemory
-vkUnmapMemory2
-vkUnmapMemory2KHR
-vkUpdateDescriptorSetWithTemplate
-vkUpdateDescriptorSetWithTemplateKHR
-vkUpdateDescriptorSets
-vkUpdateIndirectExecutionSetPipelineEXT
-vkUpdateIndirectExecutionSetShaderEXT
-vkUpdateVideoSessionParametersKHR
-vkWaitForFences
-vkWaitForPresent2KHR
-vkWaitForPresentKHR
-vkWaitSemaphores
-vkWaitSemaphoresKHR
-vkWriteAccelerationStructuresPropertiesKHR
-vkWriteMicromapsPropertiesEXT
 vortex
 vr_glove_left_skeleton.glb
 vr_glove_right_poses.glb
 vr_glove_right_skeleton.glb
 vr_tracker_vive_1_0
 vref_ok
-vrprismhost_startup
-vrprismhost_startup timed out after %u ms before being set by the new vrprismhost process
 vrwebhelper
-vulkan-1.dll
 w+OQvr
 w3Xc
 wXR\r

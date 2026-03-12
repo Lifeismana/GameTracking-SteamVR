@@ -259,7 +259,7 @@
 ??_7ctype_base@std@@6B@
 ??_7facet@locale@std@@6B@
 ??_7ios_base@std@@6B@
-?General reset
+?Line: 
 ?VRCamera_Open@vrcamera@@YA?AV?$unique_ptr@VIVRCamera@vrcamera@@U?$default_delete@VIVRCamera@vrcamera@@@std@@@std@@GG@Z
 ?VRCamera_Open@vrcamera@@YA?AV?$unique_ptr@VIVRCamera@vrcamera@@U?$default_delete@VIVRCamera@vrcamera@@@std@@@std@@XZ
 ?_BADOFF@std@@3_JB
@@ -449,6 +449,7 @@ Found a watchman device already in the bootloader...\n
 Found all expected bootloaders\n
 FreeLibrary
 Fuel Gauge Reset
+General reset
 GetCurrentProcess
 GetCurrentProcessId
 GetCurrentThread
@@ -519,7 +520,6 @@ LeaveCriticalSection
 Lighthouse %s HID device error\n
 Lighthouse %s HID opened\n
 LighthouseUSB
-Line: 
 LoadLibraryA
 LocalFree
 Log Erase
@@ -633,6 +633,7 @@ TrackedCamera: FW update completed successfully\n
 TrackedCamera: Failed FW update\n
 TrackedCamera: Found bootloader\n
 TrackedCamera: Looking for bootloader\n
+U6u![
 UNKNOWN DEVICE
 Unable to find device with PID 0x
 Unable to find dongle device with PID 0x

@@ -2814,12 +2814,12 @@ $3br
 16CPropertyManager
 16CSettingsManager
 16CVrcDecodeTagged
+17:48:44
 17CBoneMaskResource
 17CCameraWorkThread
 17CFirmwareManifest
 17CImuTrackerThread
 17CLinuxVideoStream
-18:37:26
 18CPropertyContainer
 18IUsbDeviceCallback
 19CWirelessDecoderWv2
@@ -4111,7 +4111,6 @@ CLighthouseHmdDriver::Init(std::string const&, std::string const&, std::string c
 CLighthouseHmdDriver::Init(std::string const&, std::string const&, std::string const&)::'lambda'()::operator()() const::encrypted
 CLighthouseHmdDriver::Init(std::string const&, std::string const&, std::string const&)::'lambda0'()::operator()() const::encrypted
 CLighthouseHmdDriver::InitImageSensorProcessors()
-CLighthouseHmdDriver::InitPrismDirect()
 CLighthouseHmdDriver::InitRenderModelName()
 CLighthouseHmdDriver::InitRenderModelName() (.cold)
 CLighthouseHmdDriver::InitTrackedCameras()
@@ -5315,6 +5314,7 @@ CleanupDriverLog()
 CleanupInternalInterfaces()
 CleanupSharedResourceNamespace()
 ClearField
+Clearing HmdDisplayNotFound error due to PrismInit success.
 CloseLog()
 Closed
 CollapseDuplicatePaths(std::vector<std::string, std::allocator<std::string>>&)
@@ -5837,7 +5837,6 @@ FbPjPSsRKSsPvE
 FbRKSsPSsPvE
 FbRKSsPvE
 FbcE
-Feb 20 2026
 February
 Feel free to add support for more if you need it.
 Field "
@@ -6286,7 +6285,7 @@ IVRSettingsInternal_001
 IVRSettings_001
 IVRSettings_003
 IVRSystemLayerInternal_XXX
-IVRSystem_025
+IVRSystem_026
 IVRTrackedCameraInternal_XXX
 IVRVirtualDisplay001_Version
 IVRVirtualDisplay_
@@ -7003,6 +7002,8 @@ LoadHiddenAreaMeshes(EHiddenAreaMeshDefinition, CLighthouseHmdDriver*)::s_vTrian
 LoadMCImage()
 LoadMCImage(unsigned int*, unsigned int*, unsigned int*, void*, unsigned int)
 LoadMCImage(unsigned int*, unsigned int*, unsigned int*, void*, unsigned int) (.cold)
+LoadPluginInterfaceOnce.cold
+LoadPrismEntries
 LoadSimplifiedOrExplicitRectJson(Json::Value const&)
 Loaded Chromatic Correction Factors RED (%0.3f, %0.3f, %0.3f, %0.3f) BLUE (%0.3f, %0.3f, %0.3f, %0.3f) x %0.3f\n
 Loaded resource-only driver %s from %s\n
@@ -7052,6 +7053,7 @@ Mailbox %s received message %s, which it didn't have a handler for\n
 MainSteamVR
 MakeFileWriteable(char const*)
 ManualURL
+Mar 10 2026
 March
 Mark 1
 Mark 2
@@ -7473,10 +7475,13 @@ PLAY-
 PNG\r\n
 POSIX
 PRISM_AcquireDisplay
+PRISM_ActivateRenderGraph
 PRISM_ClientDisconnected
 PRISM_CreateDisplayFactory
+PRISM_CreateGraphNode
 PRISM_CreateInstance
 PRISM_CreateMotionEstimator
+PRISM_CreateRenderGraph
 PRISM_DestroyDisplayFactory
 PRISM_DestroyInstance
 PRISM_DestroyMotionEstimator
@@ -7484,14 +7489,21 @@ PRISM_DumpHistory
 PRISM_GetConnectedDisplays
 PRISM_GetDisplayModes
 PRISM_GetDisplaySubsystems
+PRISM_GetGraphicsHost
 PRISM_GetMotionEstimatorSubsystems
+PRISM_GetPluginModuleHandle
 PRISM_GetPoseProvider
+PRISM_GetRenderGraphSubsystems
 PRISM_HmdActivated
 PRISM_Initialize
+PRISM_LoadPluginInterfaceOnce
 PRISM_RegisterDisplaySubsystem
+PRISM_RegisterGraphNode
 PRISM_RegisterLogCallback
 PRISM_RegisterMotionEstimatorSubsystem
+PRISM_RegisterPluginProvider
 PRISM_RegisterPoseProviderSubsystem
+PRISM_RegisterRenderGraph
 PRISM_ReleaseDisplay
 PRISM_Run
 PRISM_RunFrame
@@ -15230,9 +15242,11 @@ s_Stereo_Device_Type
 s_ThreadWatchdogManager
 s_bCrashHandlingInit
 s_bCurrentMiniDumpIsFatal
+s_bIsPluginInterfaceLoaded
 s_bMinidumpCommentAlreadySet
 s_fnPreCrashCallback
 s_hModule
+s_hThisModule
 s_mutex
 s_nInstanceCount
 s_pInstance
@@ -15240,6 +15254,7 @@ s_pLogCallback
 s_pLogFile
 s_pRealCreateInstance
 s_pRealDestroyInstance
+s_pRealLoadPluginInterfaceOnce
 s_pSharedFirmwareManifest
 s_rBoolPropertiesToRead
 s_rFloatPropertiesToRead
@@ -20932,6 +20947,7 @@ usbVID
 usb_device
 usb_interface
 useActionSystemButton
+usePrism
 useSpecialFloats
 usedisambiguation
 userdata

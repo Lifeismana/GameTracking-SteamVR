@@ -685,7 +685,7 @@ IVRServerInternal_XXX
 IVRSettingsInternal_001
 IVRSettings_003
 IVRSystemLayerInternal_XXX
-IVRSystem_025
+IVRSystem_026
 IVRTrackedCameraInternal_XXX
 Infinity
 InitializeAcl
@@ -760,7 +760,7 @@ Qt5Widgets.dll
 QueryPerformanceCounter
 R?rgb@QColor@@QEBAIXZ
 RPCRT4.dll
-RSDSc
+RSDSl^
 RaiseException
 ReadFile
 ReadFile failed on %s after event was signaled because %s\n

@@ -509,7 +509,7 @@ HeapSize
 IND)ind)
 IND)ind).
 INITY
-IVRSystem_025
+IVRSystem_026
 Il?333333c?
 Infinity
 InitOnceExecuteOnce
@@ -581,7 +581,7 @@ QAf?
 QueryDepthSList
 QueryPerformanceCounter
 QueryUmsThreadInformation
-RSDS1\fD
+RSDS
 RaiseException
 ReadConsoleW
 ReadFile

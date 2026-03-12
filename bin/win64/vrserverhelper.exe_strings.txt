@@ -111,6 +111,7 @@ WindowsFirewallAddRule add %d failed: 0x%08lx\n
 WindowsFirewallAddRule failed to query firewall rule %d 0x%08lx\n
 WindowsFirewallInitialize failed: 0x%08lx\n
 [,i33L
+\v,GJF
 _CxxThrowException
 _Mtx_destroy_in_situ
 _Mtx_init_in_situ

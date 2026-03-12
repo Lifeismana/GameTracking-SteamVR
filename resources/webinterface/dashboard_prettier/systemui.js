@@ -1,4 +1,4 @@
-var CLSTAMP = "10465124";
+var CLSTAMP = "10510795";
 (() => {
   var e,
     t = {
@@ -5781,7 +5781,7 @@ var CLSTAMP = "10465124";
                     s.OH[(0, s.R$)()],
                 );
               console.log("Bootstrapping " + e, o);
-              const i = 1e3 * (null !== (t = 1771612693) ? t : 0);
+              const i = 1e3 * (null !== (t = 1773164968) ? t : 0);
               console.log(
                 "SteamVR Version Info: " +
                   JSON.stringify({

@@ -1,8 +1,6 @@
             %.12f,\n
             %.12g,\n
         %s\n
-        Resource: InUse:%d name:%s
-        Timeline: refs:%d name:%s
         },\n
       status = 
     %08X:%d u%u period=%0.0f ppm=%02.1f sync_sensors=%0.1f sample_sensors=%0.1f multihit_sensors=%0.2f width_delta=%+0.0f\n
@@ -18,11 +16,7 @@
     .state = 
     .tfa9892_left_error = 
     .tfa9892_right_error = 
-    Bucket: size:%zu timeline:%s
-    Bucket: size:%zu timeline:none
     No devices\n
-    Unused Resources: size:%zu
-    Unused timelines: size:%zu
     float rdistortion = 1.0 + r2*(coeff_0123.x + r2*coeff_0123.y);\n    float x_y = p.x*p.y;\n    p.x = p.x*rdistortion + 2.0*coeff_0123.z*x_y + coeff_0123.w*(r2 + 2.0*p.x*p.x);\n    p.y = p.y*rdistortion + 2.0*coeff_0123.w*x_y + coeff_0123.z*(r2 + 2.0*p.y*p.y);\n
     p *= (1.0 + r2*(coeff_0123.x + r2*coeff_0123.y)) / (1.0 + r2*(coeff_0123.z + r2*coeff_0123.w));\n
     p *= (1.0 + r2*(coeff_0123.x + r2*coeff_0123.y)) / (1.0 + r2*coeff_0123.z);\n
@@ -85,7 +79,6 @@
  .startup_debug_messages = 
  .version = 
  = { <proto text format> }". To set fields within it, use syntax like "
- > /dev/null
  BackUp() can only be called after Next().
  Backlights:
  Brightness: 
@@ -144,17 +137,12 @@
  transaction_safe
  volatile
 !! refusing to trigger minidump with debugger attached
-!( pDedicatedBuffer && pDedicatedImage )
 !*pAlignedWidth || !*pAlignedHeight
 !*pBo
 !*pCtx
 !*pJob
-!IsDepthFormat( m_eFormat )
-!IsInUse()
 !VcetBo::IsHeightAligned( mContext, height )
 !VcetBo::IsWidthAligned( mContext, width )
-!bGraphicsCmd || m_eState == State_t::ApplicationReleased
-!bGraphicsCmd || m_eState == State_t::VulkanGraphicsTransitioned
 !ctx
 !ctx->IsMvDumpSupported()
 !g_bTestMode
@@ -167,7 +155,6 @@
 !mDrmLib
 !mIbData
 !mMappable
-!m_stackFreeResources.empty()
 !oldFrame || !newFrame || !mvBo
 !pAlignedWidth || !pAlignedHeight
 !pBo
@@ -178,7 +165,6 @@
 !proxy
 !ret
 !rightSyncIsRealAsItGets
-!std::isnan( flSystemTimeInSeconds )
 !width || !height
 " because it is missing required fields: 
 " conflicts with the existing symbol "
@@ -287,23 +273,14 @@ $3br
 %s %s startup with PID=%u, config=%s, runtime=%s, arch=%s\n
 %s - Unable to init\n
 %s - Unable to start replay of "%s"\n
-%s called without first releasing previous slot!
 %s created to play "%s"\n
 %s disambiguator provided base configuration. Rotor count: %d\n
 %s pitch ~%0.1f deg roll ~%0.1f deg 
 %s%s%s%s%s%s%s
-%s-CommandBuffer-%d
-%s-Image
-%s-ImageView
-%s-Memory
 %s/.steam/steam
 %s: %d, %d, %d, %d\n
-%s: %s #%d already pending acquire
-%s: %s #%d already pending release
-%s: %s #%d already pending release (lock)
 %s: %s IMU calibration: Accel bias change %.2fm/s/s%s\n
 %s: %s thread: Unknown USB report ID %d (vid %04x pid %04x). %d total\n
-%s: An error occurred while recording command buffer: %s
 %s: Applying scale %0.04f from reference object %s\n
 %s: Attached device ID not set.  No controller input available.\n
 %s: Can't create source of type "%s"\n
@@ -316,24 +293,8 @@ $3br
 %s: ERROR: firmware does not meet minimum required version (%d). Please update device.\n
 %s: Enabling IMU tracking fallback\n
 %s: Expected %u bytes of config but only found %d. Rejecting config\n
-%s: Failed to allocate command buffer: %d
-%s: Failed to allocate memory\n
-%s: Failed to begin command buffer
-%s: Failed to create command buffer pool: %d
-%s: Failed to create vulkan device: %d
-%s: Failed to determine a compatible memory type\n
-%s: Failed to enumerate memory types\n
-%s: Failed to get queue: %u:%u
-%s: Failed to initialize compute queue.
-%s: Failed to initialize graphics queue.
-%s: Failed to reset command buffer: %d
-%s: Failed to submit to queue: %u:%u
 %s: Firmware Version %s\n
 %s: Ignoring unlikely saved IMU calibration %s\n
-%s: Index (%d) out of bounds (%d) for '%s'!
-%s: Insufficient permission to create high priority queue.
-%s: Interdependent timelines are not supported
-%s: Invalid interop API: %d
 %s: Log recorded at %s
 %s: Not loading device config because its size is too large: 0x%X bytes\n
 %s: Optical subprotocol changed version %d\n
@@ -357,141 +318,7 @@ $3br
 %s: Warning: Unknown disambiguation option "%s" in: %s\n
 %s: Wireless controller %s disconnected\n
 %s: __pos (which is %zu) > this->size() (which is %zu)
-%s: allocator not initialized
-%s: at least one signal point is required
-%s: attempt to block on incomplete query set: %s
-%s: cmdbuf references a resource that has been released: %s
-%s: concurrent sharing mode requires queue family indices
-%s: device does not support host query reset.
-%s: device does not support reliable realtime compute queue creation.
-%s: device does not support timeline semaphores.
-%s: device supports zero extensions
-%s: device supports zero instance extensions
-%s: discarding current frame #%lu to avoid deadlock!
-%s: failed get device extension count
-%s: failed init client device
-%s: failed to %s sync texture
-%s: failed to acquire compositor slot
-%s: failed to acquire compute command
-%s: failed to acquire graphics command
-%s: failed to allocate Null aliased vulkan texture
-%s: failed to allocate buffer memory
-%s: failed to allocate image memory
-%s: failed to allocate timestamp query pool %d
-%s: failed to bind buffer memory (%d)
-%s: failed to bind image memory (%d)
-%s: failed to complete maintenance
-%s: failed to connect to prism shared state
-%s: failed to create buffer
-%s: failed to create buffer (%d)
-%s: failed to create image %s
-%s: failed to create image view (%d)
-%s: failed to create interop device
-%s: failed to create local timeline
-%s: failed to create mapped memory view
-%s: failed to create resources
-%s: failed to create shared timeline
-%s: failed to create staging buffer %d
-%s: failed to create swapchain
-%s: failed to create timeline
-%s: failed to create timestamp query pool
-%s: failed to create vulkan image (%d)
-%s: failed to create vulkan instance %d
-%s: failed to create vulkan interop device
-%s: failed to create vulkan interop instace
-%s: failed to create vulkan resources
-%s: failed to detect prism
-%s: failed to enumerate extensions
-%s: failed to enumerate instance extensions
-%s: failed to enumerate physical devices
-%s: failed to export client buffer
-%s: failed to export client swapchain image
-%s: failed to export client timeline
-%s: failed to export memory (%d)\n
-%s: failed to export timeline %s
-%s: failed to find a suitable vulkan device
-%s: failed to get instance extension count
-%s: failed to get physical device count
-%s: failed to get query pool results
-%s: failed to import buffer IPC handle
-%s: failed to import image IPC handle
-%s: failed to import timeline %s
-%s: failed to import timeline IPC handle
-%s: failed to initialize client constant buffer
-%s: failed to initialize compute command pool
-%s: failed to initialize graphics command pool
-%s: failed to initialize interop device
-%s: failed to initialize null interop image
-%s: failed to initialize prism shared state
-%s: failed to initialize query pool
-%s: failed to initialize swapchain
-%s: failed to initialize timeline
-%s: failed to initialize vulkan allocator
-%s: failed to initialize vulkan interop device
-%s: failed to load available layers
-%s: failed to load instance extensions
-%s: failed to map staging buffer %d
-%s: failed to map vulkan memory
-%s: failed to open the prism process
-%s: failed to present HMD image
-%s: failed to register compositor resources
-%s: failed to register debug callback\n
-%s: failed to register resources
-%s: failed to set debug name
-%s: failed to set sync texture
-%s: failed to signal timeline semaphore: %d
-%s: failed to start client frame
-%s: failed to start client frame rendering
-%s: failed to start client session
-%s: failed to submit compute command
-%s: failed to submit discard frame state update
-%s: failed to submit frame state update
-%s: failed to submit graphics command
-%s: failed to submit graphics work
-%s: failed to wait for a timeline signal
-%s: failed to wait for semaphore
-%s: failed to wait for start of frame
-%s: feature hostQueryReset missing
-%s: forcing acquire of %s to avoid deadlock!
-%s: frame was discarded due to CCompositionClient::CSwapchain::WaitImage timeout!
-%s: high priority compute requested, but %s is missing
-%s: id mismatch when registering client resources
-%s: incompatible vulkan version requested
-%s: index required (size=%d)
-%s: invalid device
-%s: invalid frame stage: %s
-%s: invalid instance
-%s: invalid prism device id
-%s: invalid swapchain image count specified: 0
-%s: invalid swapchain image index: %d (%d)
-%s: invalid vulkan device
-%s: is the Vulkan SDK installed?
-%s: mismatched sizes
-%s: missing optional device extension %s
-%s: missing optional instance extension %s
-%s: missing required device extension %s
-%s: missing required instance extension %s
-%s: missing required layer: %s
-%s: missing validation layer extension %s
-%s: no color swapchain available for index: %d
-%s: no timelines
-%s: not supoported with external synchronization!
-%s: physical device does not support the requested timeline handle type
-%s: physical device does not support timeline export
-%s: physical device does not support timeline import
-%s: pool contained invalid data
-%s: post-submit failed
-%s: pre-submit failed
-%s: prism process not found
-%s: state %d must be set via CImage::Transition only
-%s: swapchain image #%d not available for texture set %lu
-%s: unknown vulkan message severity
-%s: usage changed from quad to %s, sampler not updated
-%s: usage must be specified when allocating images
 %s:%d: Failed condition check '%s': 
-%s:ForceAcquireImageTimeline
-%s:SyncTexture
-%s:Timeline
 %u %s@%s %s FPGA %u(%u.%u/%u/%u) BL %u%s%s%s
 %u_%02u
 &'()*56789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
@@ -560,7 +387,6 @@ $3br
 (anonymous namespace)::io_error_category::message[abi:cxx11](int) const (.cold)
 (anonymous namespace)::io_error_category::name() const
 (anonymous namespace)::io_error_category::~io_error_category()
-(anonymous namespace)::k_debugUtilsLabelColors
 (anonymous namespace)::messages_c
 (anonymous namespace)::messages_w
 (anonymous namespace)::money_get_c
@@ -639,7 +465,6 @@ $3br
 *Z33InitInternalInterfacesNonStandardPFPvPKcEEUlS1_E_
 *ZN10CLogBufferC4EvEUl9ELogLevelPKcPvE_
 *ZN10CVRMailbox22AutoForwardMessageTypeESsRKSsEUlRKN4Json5ValueEE_
-*ZN12CPrismDirectC4EvEUl9ELogLevelPKcPvE_
 *ZN22CLighthouseHmdProvider4InitEPN2vr16IVRDriverContextEEUlPKcE_
 *ZN6CVRLog7InitLogEPKcS1_bmEUl9ELogLevelS1_PvE_
 *ZN6vortex13CLighthouseDB18Notify_DBActivatedEvEUlPNS_21ILighthouseDBListenerEE_
@@ -744,37 +569,6 @@ $3br
 /data/src/common/vrcore/src/vripcsharedstate.cpp
 /data/src/drivers/lighthouse/lighthousehmddriver.cpp
 /data/src/drivers/lighthouse/lighthouseserverdriverprovider.cpp
-/data/src/facet/include/facet/vkalloc.h
-/data/src/facet/include/facet/vkresource.h
-/data/src/facet/include/facet/vkresourcepool.h
-/data/src/facet/include/facet/vktimelinepoint.h
-/data/src/facet/src/compositionclient.cpp
-/data/src/facet/src/compositionclient.cpp:106
-/data/src/facet/src/compositionclient.cpp:1107
-/data/src/facet/src/compositionclient.cpp:1544
-/data/src/facet/src/compositionclient.cpp:1599
-/data/src/facet/src/compositionclient.cpp:1615
-/data/src/facet/src/compositionclient.cpp:1791
-/data/src/facet/src/compositionclient.cpp:612
-/data/src/facet/src/compositionclient.cpp:633
-/data/src/facet/src/compositionclient.cpp:658
-/data/src/facet/src/compositionclient.cpp:682
-/data/src/facet/src/compositionclient.cpp:704
-/data/src/facet/src/compositionclient.cpp:726
-/data/src/facet/src/compositionclient.cpp:77
-/data/src/facet/src/compositionclient.cpp:779
-/data/src/facet/src/compositionclient.cpp:830
-/data/src/facet/src/compositionclient.cpp:852
-/data/src/facet/src/compositionclient.cpp:898
-/data/src/facet/src/compositionclient.cpp:964
-/data/src/facet/src/facetutils.cpp
-/data/src/facet/src/vkalloc.cpp
-/data/src/facet/src/vkcommand.cpp
-/data/src/facet/src/vkcommand.cpp:308
-/data/src/facet/src/vkdevice.cpp
-/data/src/facet/src/vkresource.cpp
-/data/src/facet/src/vksync.cpp
-/data/src/facet/src/vkutils.cpp
 /data/src/thirdparty/libvcetoy/src/Drm.cpp
 /data/src/thirdparty/libvcetoy/src/VcetBo.cpp
 /data/src/thirdparty/libvcetoy/src/VcetContext.cpp
@@ -784,11 +578,6 @@ $3br
 /data/src/thirdparty/protobuf-2.6.1/src/google/protobuf/repeated_field.h
 /data/src/vortexlib/distortion.cpp
 /data/src/vortexlib/generated_proto/lighthouse_debug.pb.cc
-/data/src/vortexlib/prismdirect.cpp
-/data/src/vortexlib/prismdirect.cpp:504
-/data/src/vortexlib/prismdirect.cpp:539
-/data/src/vortexlib/prismdirect.cpp:592
-/data/src/vortexlib/prismdirect.cpp:608
 /data/src/vortexlib/stereo_setup.cpp
 /data/src/vortexlib/thread.cpp
 /delivery_rate
@@ -863,7 +652,6 @@ $3br
 /pose/raw
 /proc
 /proc/%u/stat
-/proc/self/cmdline
 /proc/self/exe
 /proc/self/status
 /proximity
@@ -896,11 +684,9 @@ $3br
 11 4 22 44 44 22 444444
 111 221 2222 11
 11CBaseCamera
-11CVkTimeline
 11eU%
 12CEtronCamera
 12CNonCopyable
-12CPrismDirect
 12IAitCamGraph
 13CAnimResource
 13CAnimSkeleton
@@ -934,26 +720,21 @@ $3br
 14IHandPoseLogic
 15CVRAudioDevices
 15CVRReplyMailbox
-15CVkResourceBase
-15CVkResourcePoolI16CVkCommandBufferE
 15IStatePoseMaker
 15IVRAudioDevices
 15StaticPoseMaker
 16CPropertyManager
 16CSettingsManager
-16CVkCommandBuffer
 16CVrcDecodeTagged
 16CWirelessDecoder
+17:48:53
 17CBoneMaskResource
 17CCameraWorkThread
 17CFirmwareManifest
 17CImuTrackerThread
 17CLinuxVideoStream
-18:37:31
 18CPropertyContainer
 18IUsbDeviceCallback
-19CVkGarbageCollector
-19CVkPoolableResourceI20CVkCommandBufferPoolE
 19CWirelessDecoderWv2
 1e+9999
 2#.google.protobuf.FieldOptions.CType:
@@ -962,9 +743,7 @@ $3br
 2+.google.protobuf.FieldDescriptorProto.Label
 20BinaryBlendPoseMaker
 20CLighthouseHmdDriver
-20CVRFramerateGovernor
 20CVRTrackedDevice_004
-20CVkCommandBufferPool
 20IVRAudioNotification
 20IVRVirtualDisplay001
 21CServerDriverHost_002
@@ -983,7 +762,6 @@ $3br
 23CVRDisplayComponent_001
 23CVRDisplayComponent_002
 23CVRTrackedDevice_Latest
-23CVkPoolGarbageCollectorI16CVkCommandBufferE
 24ILockedPropertyContainer
 25CCompositorPluginProvider
 25CVRCameraComponentAdapter
@@ -1057,16 +835,13 @@ $3br
 4fff>fff>fff>fff>
 5@^8U)zj
 5\n\vnested_type
+5fff?
 6/aG
 6\n\fmessage_type
 7CThread
 7\n\tenum_type
-7fff?
-8CVkImage
 8\n\textension
 9CRefCount
-9CVkBuffer
-9CVkMemory
 9UUPE
 9\n\noneof_decl
 9a&g
@@ -1075,7 +850,6 @@ $3br
 : Tried to merge from a message with a different type.  to: 
 : exception thrown in JSON library
 : one or more FS callback not set
-::GetSystemBaseTicks() == m_client.GetCompositorBaseTicks()
 ::google::protobuf::FieldDescriptorProto_Label_IsValid(value)
 ::google::protobuf::FieldDescriptorProto_Type_IsValid(value)
 ::google::protobuf::FieldOptions_CType_IsValid(value)
@@ -1127,8 +901,6 @@ ASSERT: "%s" at %s:%d.\n
 AUAA
 AbortMessage({ Thread Watchdog Abort - %s /+/ %f second timeout })
 Accessor
-AcquireCompositorSlot
-AcquireImage
 Add Json firmware manifest from %s\n
 AddBool
 AddDouble
@@ -1136,8 +908,6 @@ AddEnum
 AddFloat
 AddInt32
 AddInt64
-AddLayerProjection
-AddLayerQuad
 AddMessage
 AddString
 AddUInt32
@@ -1147,8 +917,6 @@ AitVideoSinkCallback(unsigned int, void*, void*)
 Alfred
 Alias
 AllocSharedMemory failed
-AllocateMemory
-AllocateMemoryFromType
 Already saw decimal point or exponent; can't have another one.
 Already tracking from %d bases\n
 AnimUtils::AngleAboutAxis(VectorAligned const&, VectorAligned const&, VectorAligned const&)
@@ -1213,11 +981,6 @@ Available samples not sufficient for booting (%s)\n
 BCreateDirectory(char const*)
 BCreateDirectoryRecursive(char const*)
 BCreateDirectoryRecursive(char const*) (.cold)
-BCreateProcess(char const*, char const**, unsigned int*, bool, std::string*)
-BCreateProcess(std::string const&, std::string const&, std::string, unsigned int*, bool, std::string*)
-BCreateProcess(std::string const&, std::string const&, std::string, unsigned int*, bool, std::string*) (.cold)
-BCreateProcess(std::string const&, std::vector<std::string, std::allocator<std::string>> const&, std::string, unsigned int*, bool, std::string*)
-BCreateProcess(std::string const&, std::vector<std::string, std::allocator<std::string>> const&, std::string, unsigned int*, bool, std::string*) (.cold)
 BDeleteFileIfExists(char const*)
 BETA
 BFileExists(char const*)
@@ -1240,20 +1003,13 @@ BIsValidDistortion_Type(int)
 BIsValidEye(int)
 BIsValidStereo_Device_Type(int)
 BIsVidPresent(unsigned short)
-BKillProcess(char const*, bool)
-BKillProcess(char const*, bool) (.cold)
-BKillProcess(unsigned int)
 BL Init
 BL requested by app
 BL requested by buttons
 BMP RLE
-BProcessRunning(char const*, bool)
-BProcessRunning(char const*, bool) (.cold)
-BProcessRunning(unsigned int)
 BQ27421
 BQ27520
 BRAND NEW BASE %08X recorded\n
-BRealtimeProcess()
 BRenameFile(char const*, char const*)
 BSharedResourceNamespaceAvailable()
 BSharedResourceNamespaceAvailable() (.cold)
@@ -1282,11 +1038,6 @@ Base %08X reset count changed.  Base may have been bumped or power cycled.\n
 Base station driver for %08X rejected by vrserver\n
 Batman
 Batt: 
-Begin
-BeginFrame -> EndFrame is not re-entrant (i.e. calls must be serialized).
-BeginFrame called outside of a valid session.
-BeginFrameRendering
-BeginRendering
 Best tilt from %s for base %08X pitch %0.2f roll %0.2f score %.2f\n
 Beyond
 Bigscreen
@@ -1308,7 +1059,6 @@ Boot to app
 Bootstrap failed because no IMU data was available%s\n
 Bootstrap pose is out of range at %0.1fm\n
 BootstrapFinished setting tilt base to %08X\n
-BorrowResource
 Boy/Girl
 Buffer
 BufferView
@@ -2276,8 +2026,6 @@ CLighthouseHmdDriver::Init(std::string const&, std::string const&, std::string c
 CLighthouseHmdDriver::Init(std::string const&, std::string const&, std::string const&)::'lambda'()::operator()() const::encrypted
 CLighthouseHmdDriver::Init(std::string const&, std::string const&, std::string const&)::'lambda0'()::operator()() const::encrypted
 CLighthouseHmdDriver::InitImageSensorProcessors()
-CLighthouseHmdDriver::InitPrismDirect()
-CLighthouseHmdDriver::InitPrismDirect() (.cold)
 CLighthouseHmdDriver::InitRenderModelName()
 CLighthouseHmdDriver::InitRenderModelName() (.cold)
 CLighthouseHmdDriver::InitTrackedCameras()
@@ -2569,31 +2317,6 @@ CPoseUpdateManager::Evaluate() (.cold)
 CPoseUpdateResources::CPoseUpdateResources(CAnimSkeleton const*)
 CPreviewThread::Run()
 CPreviewThread::~CPreviewThread()
-CPrismDirect::BeginNextFrame()
-CPrismDirect::BeginNextFrame() (.cold)
-CPrismDirect::CPrismDirect()
-CPrismDirect::CPrismDirect() (.cold)
-CPrismDirect::CreateSwapTextureSet(unsigned int, vr::IVRDriverDirectModeComponent::SwapTextureSetDesc_t const*, vr::IVRDriverDirectModeComponent::SwapTextureSet_t*)
-CPrismDirect::CreateSwapTextureSet(unsigned int, vr::IVRDriverDirectModeComponent::SwapTextureSetDesc_t const*, vr::IVRDriverDirectModeComponent::SwapTextureSet_t*) (.cold)
-CPrismDirect::DestroyAllSwapTextureSets()
-CPrismDirect::DestroyAllSwapTextureSets(unsigned int)
-CPrismDirect::DestroySwapTextureSet(unsigned long)
-CPrismDirect::DestroyTextureSet(CPrismDirect::TextureSet_t*)
-CPrismDirect::GetFrameTiming(vr::DriverDirectMode_FrameTiming*)
-CPrismDirect::GetNextSwapTextureSetIndex(unsigned long*, unsigned int (*) [2])
-CPrismDirect::GetNextSwapTextureSetIndex(unsigned long*, unsigned int (*) [2]) (.cold)
-CPrismDirect::GetTextureSet(unsigned long) const
-CPrismDirect::Initialize(CTrackedDeviceConfig*)
-CPrismDirect::Initialize(CTrackedDeviceConfig*) (.cold)
-CPrismDirect::PostPresent(vr::IVRDriverDirectModeComponent::Throttling_t const*)
-CPrismDirect::PostPresent(vr::IVRDriverDirectModeComponent::Throttling_t const*) (.cold)
-CPrismDirect::Present(unsigned long)
-CPrismDirect::Present(unsigned long) (.cold)
-CPrismDirect::SetEyeToHead(vr::HmdMatrix34_t const&, vr::HmdMatrix34_t const&)
-CPrismDirect::Shutdown()
-CPrismDirect::SubmitLayer(vr::IVRDriverDirectModeComponent::SubmitLayerPerEye_t const (&) [2])
-CPrismDirect::SubmitLayer(vr::IVRDriverDirectModeComponent::SubmitLayerPerEye_t const (&) [2]) (.cold)
-CPrismDirect::UpdateUndistortParams()
 CPropertyContainer::AddPropertyTable()
 CPropertyContainer::AddPropertyTable() (.cold)
 CPropertyContainer::BInit(std::string const&, bool)
@@ -2686,13 +2409,10 @@ CSWTCH.123
 CSWTCH.131
 CSWTCH.137
 CSWTCH.140
-CSWTCH.141
 CSWTCH.143
-CSWTCH.16
 CSWTCH.1924
 CSWTCH.216
 CSWTCH.221
-CSWTCH.23
 CSWTCH.876
 CScopedEventDuration::CScopedEventDuration(char const*, char const*, char const*, ...)
 CScopedEventDuration::~CScopedEventDuration()
@@ -3279,10 +2999,6 @@ CVRDriverDirectModeComponent_Latest::PostPresent(vr::IVRDriverDirectModeComponen
 CVRDriverDirectModeComponent_Latest::Present(unsigned long)
 CVRDriverDirectModeComponent_Latest::SubmitLayer(vr::IVRDriverDirectModeComponent::SubmitLayerPerEye_t const (&) [2])
 CVRDriverDirectModeComponent_Latest::~CVRDriverDirectModeComponent_Latest()
-CVRFramerateGovernor::GetAdditionalFramesToPredict() const
-CVRFramerateGovernor::GetFramesToThrottleApp() const
-CVRFramerateGovernor::OnFinishedFrame(unsigned long, facet::IFramerateGovernor::TimingInfo_t const*)
-CVRFramerateGovernor::~CVRFramerateGovernor()
 CVRLog::AddLogListener(ILogListener*)
 CVRLog::AddLogListener(ILogListener*) (.cold)
 CVRLog::CVRLog(bool)
@@ -3431,187 +3147,6 @@ CVRVirtualDisplayComponent_Latest::Present(vr::PresentInfo_t const*, unsigned in
 CVRVirtualDisplayComponent_Latest::WaitForPresent()
 CVRVirtualDisplayComponent_Latest::~CVRVirtualDisplayComponent_Latest()
 CVec3
-CVkAllocator::AllocateMemory(VkMemoryRequirements2 const&, VkImage_T*, VkBuffer_T*, char const*, VkAllocationDetails_t const&, CVkMemory&)
-CVkAllocator::AllocateMemory(VkMemoryRequirements2 const&, VkImage_T*, VkBuffer_T*, char const*, VkAllocationDetails_t const&, CVkMemory&) (.cold)
-CVkAllocator::AllocateMemoryFromType(CVkAllocator::MemoryTypeInfo_t const&, VkMemoryRequirements2 const&, VkImage_T*, VkBuffer_T*, char const*, VkAllocationDetails_t const&, CVkMemory&)
-CVkAllocator::AllocateMemoryFromType(CVkAllocator::MemoryTypeInfo_t const&, VkMemoryRequirements2 const&, VkImage_T*, VkBuffer_T*, char const*, VkAllocationDetails_t const&, CVkMemory&) (.cold)
-CVkAllocator::CVkAllocator(CVkDevice*, char const*)
-CVkAllocator::CreateBuffer(unsigned int, unsigned int, char const*, VkBufferAllocationDetails_t const&, VkBuffer_T*)
-CVkAllocator::CreateBuffer(unsigned int, unsigned int, char const*, VkBufferAllocationDetails_t const&, VkBuffer_T*) (.cold)
-CVkAllocator::CreateImage(unsigned int, unsigned int, VkFormat, unsigned int, char const*, VkImageAllocationDetails_t const&, VkImage_T*)
-CVkAllocator::CreateImageWithFlags(unsigned int, unsigned int, VkFormat, unsigned int, unsigned int, char const*, VkImageAllocationDetails_t const&, VkImage_T*)
-CVkAllocator::CreateImageWithFlags(unsigned int, unsigned int, VkFormat, unsigned int, unsigned int, char const*, VkImageAllocationDetails_t const&, VkImage_T*) (.cold)
-CVkAllocator::EnumerateMemoryTypes()
-CVkAllocator::GetCompatibleMemoryType(VkAllocationDetails_t const&, VkMemoryRequirements2 const&)
-CVkAllocator::GetCompatibleMemoryTypes(VkAllocationDetails_t const&, VkMemoryRequirements2 const&)
-CVkAllocator::GetCompatibleMemoryTypes(VkAllocationDetails_t const&, VkMemoryRequirements2 const&) (.cold)
-CVkAllocator::ImportBuffer(VkBufferSharedData_t const&, char const*)
-CVkAllocator::ImportImage(VkImageSharedData_t const&, char const*)
-CVkAllocator::Initialize()
-CVkBuffer::CmdCopyBuffer(CVkCommandBuffer*, CVkBuffer*, unsigned long, unsigned long)
-CVkBuffer::CmdCopyImageToBuffer(CVkCommandBuffer*, CVkImage*, unsigned int, VkImageLayout)
-CVkBuffer::CmdPipelineBarrier(CVkCommandBuffer*, unsigned int, unsigned int, unsigned int, unsigned int, unsigned long, unsigned long)
-CVkBuffer::PrepareForExport(VkBufferSharedData_t&, unsigned int)
-CVkBuffer::Release()
-CVkBuffer::~CVkBuffer()
-CVkCommandBuffer::AcquireMutex(VkDeviceMemory_T*, unsigned long, unsigned int)
-CVkCommandBuffer::Begin()
-CVkCommandBuffer::CVkCommandBuffer(CVkDevice*, CVkCommandBufferPool*, char const*)
-CVkCommandBuffer::CmdBeginDebugUtilsLabel(char const*, float const*)
-CVkCommandBuffer::CmdEndDebugUtilsLabel()
-CVkCommandBuffer::CmdEndDebugUtilsLabel() (.part.0)
-CVkCommandBuffer::CmdInsertDebugLabel(char const*)
-CVkCommandBuffer::CmdInsertVRFrameMarker()
-CVkCommandBuffer::CmdPipelineBarrier(unsigned int, unsigned int)
-CVkCommandBuffer::CmdPipelineBarrier(unsigned int, unsigned int, unsigned int, unsigned int)
-CVkCommandBuffer::CmdSetStencil(unsigned int, unsigned int, unsigned int, VkStencilFaceFlagBits)
-CVkCommandBuffer::End()
-CVkCommandBuffer::Initialize()
-CVkCommandBuffer::MarkReferencedResourcesInUse(CVkTimeline*, facet::CVkTimelinePoint const&)
-CVkCommandBuffer::MarkReferencedResourcesInUse(CVkTimeline*, facet::CVkTimelinePoint const&) (.cold)
-CVkCommandBuffer::OnPostSubmit()
-CVkCommandBuffer::OnPreSubmit()
-CVkCommandBuffer::QueueFamilyIndex() const
-CVkCommandBuffer::ReferenceResource(CVkResourceBase*)
-CVkCommandBuffer::ReferenceResource(CVkResourceBase*) (.cold)
-CVkCommandBuffer::Release()
-CVkCommandBuffer::ReleaseMutex(VkDeviceMemory_T*, unsigned long)
-CVkCommandBuffer::Reset()
-CVkCommandBuffer::Signal(CVkTimeline*, facet::CVkTimelinePoint const&)
-CVkCommandBuffer::Signal(VkSemaphore_T*)
-CVkCommandBuffer::ValidateReferencedResources()
-CVkCommandBuffer::Wait(CVkTimeline*, facet::CVkTimelinePoint const&, unsigned int)
-CVkCommandBuffer::Wait(VkSemaphore_T*, unsigned int)
-CVkCommandBuffer::~CVkCommandBuffer()
-CVkCommandBufferPool::BorrowResource(char const*)
-CVkCommandBufferPool::BorrowResource(char const*) (.cold)
-CVkCommandBufferPool::CreateResource()
-CVkCommandBufferPool::CreateResource() (.cold)
-CVkCommandBufferPool::Initialize(CVkDevice*, char const*, unsigned int)
-CVkCommandBufferPool::Initialize(CVkDevice*, char const*, unsigned int) (.cold)
-CVkCommandBufferPool::Release()
-CVkCommandBufferPool::~CVkCommandBufferPool()
-CVkDevice::CVkDevice(char const*)
-CVkDevice::CVkDevice(char const*) (.cold)
-CVkDevice::ChoosePhysicalDevice()
-CVkDevice::ChoosePhysicalDevice() (.cold)
-CVkDevice::CreateDevice(CreateDeviceDetails_t const&)
-CVkDevice::CreateDevice(CreateDeviceDetails_t const&) (.cold)
-CVkDevice::CreateDevice(CreateDeviceDetails_t const&)::queuePriorities
-CVkDevice::CreateInstance(char const*, unsigned int, unsigned int, CreateInstanceDetails_t const&)
-CVkDevice::CreateInstance(char const*, unsigned int, unsigned int, CreateInstanceDetails_t const&) (.cold)
-CVkDevice::EnableDeviceExtension(char const*, bool)
-CVkDevice::EnableDeviceExtension(char const*, bool) (.cold)
-CVkDevice::EnableInstanceExtension(char const*, bool)
-CVkDevice::EnableInstanceExtension(char const*, bool) (.cold)
-CVkDevice::EnableLayer(char const*, bool)
-CVkDevice::EnableLayer(char const*, bool) (.cold)
-CVkDevice::FillPhysicalDeviceInfo(VkPhysicalDevice_T*, PhysicalDeviceInfo_t*)
-CVkDevice::GetQueueType(unsigned int)
-CVkDevice::Init - failed to get extension count
-CVkDevice::Init - no instance extensions supported
-CVkDevice::Initialize(void (*(*)(VkInstance_T*, char const*))())
-CVkDevice::IsCompatibleVulkanVersion(unsigned int)
-CVkDevice::IsCompatibleVulkanVersion(unsigned int) (.part.0)
-CVkDevice::IsDeviceExtensionAvailable(char const*)
-CVkDevice::IsDeviceExtensionAvailableLocked(char const*)
-CVkDevice::IsDeviceExtensionEnabled(char const*)
-CVkDevice::IsDeviceExtensionEnabled(char const*) (.cold)
-CVkDevice::IsDeviceExtensionEnabledLocked(char const*)
-CVkDevice::IsExtensionAvailableLocked(std::vector<VkExtensionProperties, std::allocator<VkExtensionProperties>>&, char const*)
-CVkDevice::IsGlobalPriorityQuerySupported(VkPhysicalDevice_T*)
-CVkDevice::IsInstanceExtensionAvailable(char const*)
-CVkDevice::IsInstanceExtensionEnabled(char const*)
-CVkDevice::IsInstanceExtensionEnabled(char const*) (.cold)
-CVkDevice::IsLayerAvailable(char const*)
-CVkDevice::IsLayerAvailableLocked(char const*) const
-CVkDevice::IsLayerEnabled(char const*)
-CVkDevice::IsLayerEnabled(char const*) (.cold)
-CVkDevice::IsLayerEnabledLocked(char const*) const
-CVkDevice::LoadAvailableLayers()
-CVkDevice::LoadAvailableLayers() (.cold)
-CVkDevice::LoadInstanceExtensions(char const*)
-CVkDevice::LoadInstanceExtensions(char const*) (.cold)
-CVkDevice::SetDebugName(VkBuffer_T*, std::string const&)
-CVkDevice::SetDebugName(VkCommandBuffer_T*, std::string const&)
-CVkDevice::SetDebugName(VkCommandPool_T*, std::string const&)
-CVkDevice::SetDebugName(VkDeviceMemory_T*, std::string const&)
-CVkDevice::SetDebugName(VkDevice_T*, std::string const&)
-CVkDevice::SetDebugName(VkImageView_T*, std::string const&)
-CVkDevice::SetDebugName(VkImage_T*, std::string const&)
-CVkDevice::SetDebugName(VkQueryPool_T*, std::string const&)
-CVkDevice::SetDebugName(VkSemaphore_T*, std::string const&)
-CVkDevice::SetDebugName(VkShaderModule_T*, std::string const&)
-CVkDevice::SetDebugName(unsigned long, VkObjectType, std::string const&)
-CVkDevice::Shutdown()
-CVkDevice::UseDevice(VkDevice_T*)
-CVkDevice::UseInstance(VkInstance_T*)
-CVkDevice::UsePhysicalDevice(VkPhysicalDevice_T*, bool)
-CVkDevice::~CVkDevice()
-CVkGarbageCollector: %s
-CVkGarbageCollector::Acquire(CVkResourceBase*)
-CVkGarbageCollector::Acquire(CVkResourceBase*) (.cold)
-CVkGarbageCollector::BucketSize(CVkTimeline*)
-CVkGarbageCollector::DebugDump()
-CVkGarbageCollector::DisposeResource(CVkResourceBase*)
-CVkGarbageCollector::DoMaintenance()
-CVkGarbageCollector::DoMaintenance() (.cold)
-CVkGarbageCollector::FlushAllResources()
-CVkGarbageCollector::TotalBuckets()
-CVkGarbageCollector::TotalSize()
-CVkGarbageCollector::WaitForWork()
-CVkGarbageCollector::WaitForWork() (.cold)
-CVkGarbageCollector::~CVkGarbageCollector()
-CVkImage::AspectMask() const
-CVkImage::BytesRequired() const
-CVkImage::CmdClearColorImage(CVkCommandBuffer*, VkClearColorValue const&, VkImageLayout, unsigned int)
-CVkImage::CmdCopyBufferToImage(CVkCommandBuffer*, CVkBuffer*, VkImageLayout, unsigned int, unsigned int)
-CVkImage::CmdCopyImage(CVkCommandBuffer*, CVkImage*, std::vector<VkImageCopy, std::allocator<VkImageCopy>> const&, VkImageLayout, VkImageLayout)
-CVkImage::CmdPipelineBarrier(CVkCommandBuffer*, VkImageLayout, VkImageLayout, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int, unsigned int)
-CVkImage::PrepareForExport(VkImageSharedData_t&, unsigned int)
-CVkImage::Release()
-CVkImage::~CVkImage()
-CVkMemory::Map()
-CVkMemory::Map() (.cold)
-CVkMemory::Release()
-CVkMemory::Unmap()
-CVkMemory::Unmap() (.cold)
-CVkMemory::~CVkMemory()
-CVkPoolGarbageCollector<CVkCommandBuffer>::DisposeResource(CVkResourceBase*)
-CVkPoolGarbageCollector<CVkCommandBuffer>::~CVkPoolGarbageCollector()
-CVkQueue::EmitFullDebugBarrier(CVkCommandBuffer const*)
-CVkQueue::Initialize(unsigned int, unsigned int)
-CVkQueue::Present(VkSwapchainKHR_T*, unsigned int, VkSemaphore_T*, unsigned long)
-CVkQueue::Present(VkSwapchainKHR_T*, unsigned int, VkSemaphore_T*, unsigned long) (.cold)
-CVkQueue::Submit(CVkCommandBuffer*)
-CVkQueue::Submit(CVkCommandBuffer*) (.cold)
-CVkResourceBase::GC()
-CVkResourceBase::IsInUse()
-CVkResourceBase::IsTimeline()
-CVkResourceBase::MarkInUse(CVkTimeline*, facet::CVkTimelinePoint const&)
-CVkResourceBase::WaitForResource(unsigned long)
-CVkResourceDeleter<CVkTimeline>::operator()(CVkTimeline*) (.isra.0)
-CVkResourcePool<CVkCommandBuffer>::BorrowResource()
-CVkResourcePool<CVkCommandBuffer>::Grow(unsigned int)
-CVkResourcePool<CVkCommandBuffer>::~CVkResourcePool()
-CVkTimeline::CheckPhysicalDeviceCapabilities()
-CVkTimeline::Create(CVkDevice*, char const*, VkTimelineCreationDetails_t const&)
-CVkTimeline::Create(CVkDevice*, char const*, VkTimelineCreationDetails_t const&) (.cold)
-CVkTimeline::ExportTimeline(VkTimelineCreationDetails_t const&)
-CVkTimeline::HasSignaled(facet::CVkTimelinePoint const&)
-CVkTimeline::Import(CVkDevice*, char const*, VkTimelineSharedData_t const&)
-CVkTimeline::Import(CVkDevice*, char const*, VkTimelineSharedData_t const&) (.cold)
-CVkTimeline::ImportTimeline(VkTimelineCreationDetails_t const&)
-CVkTimeline::Initialize(VkTimelineCreationDetails_t const&)
-CVkTimeline::InitializeFromIPC(VkTimelineSharedData_t const&)
-CVkTimeline::IsTimeline()
-CVkTimeline::PrepareForExport(VkTimelineSharedData_t&, unsigned int)
-CVkTimeline::Release()
-CVkTimeline::Signal(facet::CVkTimelinePoint const&)
-CVkTimeline::Wait(facet::CVkTimelinePoint const&, unsigned long)
-CVkTimeline::WaitMultiple(std::vector<CVkTimeline*, std::allocator<CVkTimeline*>> const&, std::vector<facet::CVkTimelinePoint, std::allocator<facet::CVkTimelinePoint>> const&, bool, unsigned long)
-CVkTimeline::WaitMultiple(std::vector<CVkTimeline*, std::allocator<CVkTimeline*>> const&, std::vector<facet::CVkTimelinePoint, std::allocator<facet::CVkTimelinePoint>> const&, bool, unsigned long) (.cold)
-CVkTimeline::~CVkTimeline()
 CVrcDecodeTagged::Decode(unsigned char, unsigned char const*, int)
 CVrcDecodeTagged::DecodeSensorHits(unsigned char const*, int)
 CVrcDecodeTagged::DecodeSensorHits(unsigned char const*, int) (.cold)
@@ -3687,9 +3222,7 @@ Cannot call BuildFile on a DescriptorPool that uses a DescriptorDatabase.  You m
 Cannot initialize crash handling in a project without the Steam API available
 CharNeedsEscape_Component(char)
 CharNeedsEscape_FullPath(char)
-CheckPhysicalDeviceCapabilities
 CheckPoseRecipe(CPoseRecipe const&, unsigned char)
-ChoosePhysicalDevice
 ClampImage(ImageView_s const&, int, unsigned char, unsigned char)
 Clamping MC to %d (%0.1f%%) %d (%0.1f%%)\n
 CleanupDriverLog()
@@ -3697,33 +3230,12 @@ CleanupInternalInterfaces()
 CleanupSharedResourceNamespace()
 ClearField
 Clearing HmdDisplayNotFound error due to PrismInit success.
-Client Allocator
-Client Device
-Client Graphics
-Client-AcquireSync
-Client-BeginFrame:%d
-Client-DiscardFrame
-Client-ForcedTransitionFromPrism-Compute
-Client-ForcedTransitionFromPrism-Graphics
-Client-InitSwapchainLayout
-Client-InitUBO
-Client-ReleaseAccess
-Client-ReleaseSync
-Client-SubmitLayers
-ClientBuffer:%u
-ClientBufferStaging-%lu:%d
-ClientQueryPool-%lu:%d
-ClientTimeline:%lu
 CloseLog()
 Closed
-CmdPipelineBarrier
 CollapseDuplicatePaths(std::vector<std::string, std::allocator<std::string>>&)
 CollapseDuplicatePaths(std::vector<std::string, std::allocator<std::string>>&) (.cold)
-Command failed with %d: %s
 CompareSerialNumbers(wchar_t const*, wchar_t const*)
 ComponentAdapterBaseWithParent<vr::IVRDriverDirectModeComponent, &k_pchDriverDirectModeComponentPrefix, 9, CVRDriverDirectModeComponent_Latest, CVRDriverDirectModeComponent_008>::CreateAdapter(void*, std::string const&)
-CompositionState
-CompositionStateMutex
 Compositor failed to find DX11 hardware (401)
 Compositor failed to initialize (400)
 Compositor initialization succeeded, but overlay init failed (403)
@@ -3732,11 +3244,9 @@ Compositor requires mandatory firmware update (402)
 Compositor unable to create graphics device (405)
 Compressed config size is %d\n
 Compressed size too large\n
-Compute Client
 ComputePaddedSize(unsigned int)
 Config path could not be located (111)
 Connect to VR Server Failed (301)
-ConnectToPrism
 ConstIterator to Iterator should never be allowed.
 Controller
 Could add as alternate, but disallowed by LighthouseDB\n
@@ -3753,21 +3263,11 @@ Could not open replay file "
 Could not read header from file "
 Couldn't determine kernel version from version string "%s"\n
 Couldn't parse default value "
-Create
-CreateBuffer
 CreateCompositorDriverProviderAdapter(void* (*)(char const*, int*), vr::IVRDriverContext*, int*)
-CreateDevice
-CreateImage
-CreateImageWithFlags
-CreateInstance
-CreateInteropDevice
 CreateServerDriverProviderAdapter(void* (*)(char const*, int*), vr::IVRDriverContext*, int*)
 CreateSimpleProcess
 CreateSimpleThread(unsigned int (*)(void*), void*, unsigned int*, unsigned int)
-CreateSwapTextureSet
-CreateSwapchain
 CreateUserDataImageBuilder()
-CreateVulkanResources
 CreateWatchdogDriverProviderAdapter(void* (*)(char const*, int*), vr::IVRDriverContext*, int*)
 Creating new universe %llu because there were no %sexisting universes\n
 CriticalSection != NULL
@@ -3806,8 +3306,6 @@ DXGI2::WaitForVBlank(void*)
 Data Invalid
 Data len %d\r\n
 DebugDriverLog(char const*, ...)
-DebugMessengerCallback
-DebugMessengerCallback(VkDebugUtilsMessageSeverityFlagBitsEXT, unsigned int, VkDebugUtilsMessengerCallbackDataEXT const*, void*)
 December
 DeclareCurrentThreadIsMainThread
 Default
@@ -3839,19 +3337,15 @@ Device JSON: Overriding subpixel_shift (%s)\n
 Device JSON: obeying existing parallel_render_cameras enabled:%d (%s)\n
 Device is not calibrated (206)
 Device was not open when attempting to read its config\n
-DeviceGC
 Devices with no on-device calibration are not supported in the Lighthouse driver.\n
 Did not find any drivers!
 Disabled
 Disabled by Config
-Discard
-DiscardFrameLocked
 Discarded IMU sample in ImuOnlyTracker because they were backing up.\n
 Discarding %u haptic events because there were too many this frame\n
 Discarding duplicate universe %llu at index %d when parsing db json file %s\n
 DismissedWarnings
 Display
-Display: %d Period: %d Budget: %d [%fms] Fs:%f Vs:%f
 DisplayFPGA
 Display_Camera_Calibration::BAppearsToBeCalibrated() const
 Display_Camera_Calibration::BDistortionsEqual(Display_Camera_Calibration const&)
@@ -3875,7 +3369,6 @@ Distortion_Model::to_json() const
 Distortion_Model::to_json() const (.cold)
 Distortion_Type
 Distortion_TypeFromName(char const*)
-DoMaintenance
 Don't lookup extension types if they aren't present (1). 
 Don't lookup extension types if they aren't present (2). 
 Dongle
@@ -4002,11 +3495,6 @@ Enabled
 Enabling Prism Correction... overriding loaded device JSON
 Encountered unexpected delayed initialization of CPropertyManager\n
 End-of-file inside block comment.
-EndFrame called w/ incorrect client frame index.
-EndFrameRendering
-EndFrameRenderingLocked
-EndRendering
-EndSession
 Entered Debug
 Entry #
 Enum type "
@@ -4085,7 +3573,6 @@ Expected integer or identifier.
 Expected integer.
 Expected response %s, received %s. Rejecting response.\n
 Expected string.
-ExportTimeline
 Extension "
 Extension conflicts with extension already in database: extend 
 Extension factory's GetPrototype() returned NULL for extension: 
@@ -4103,7 +3590,6 @@ Extensions to non-lite types can only be declared in non-lite files.  Note that 
 Extra non-whitespace after JSON value.
 Eye Displays must be adjacent: left (%d, %d), right (%d, %d)\nUse Screen Resolution control panel to fix
 EyeFromName(char const*)
-FACET_VULKAN_VALIDATION
 FATAL
 FATAL: Failed to open log file %s, failing out!\n
 FORMAT=32-bit_rle_rgbe
@@ -4118,7 +3604,6 @@ FW Update Finish
 FW Update Load
 FW Update Start
 F\n\foptimize_for
-Facet
 Factory Function Not Found (104)
 Failed
 Failed Watchdog timeout in thread %s after %f seconds. Aborting.\n
@@ -4145,10 +3630,8 @@ Failed to calculate motion: bad parameter\n
 Failed to calculate motion: failed to create output\n
 Failed to calculate motion: failed to submit work\n
 Failed to calculate mv: processing failure\n
-Failed to change directory to '%s' when launching process '%s': %d
 Failed to cpu map bo\n
 Failed to create IMU IOBuffer for %d (error=%d, handle=%d)\n
-Failed to create PID pipe\n
 Failed to create bo list\n
 Failed to create bo: bad parameter\n
 Failed to create bo: failed to allocate handle\n
@@ -4164,12 +3647,10 @@ Failed to create job: init failed\n
 Failed to create session\n
 Failed to create socket for shared fd id: 0x%lx\n
 Failed to create socket for shared fd: %d\n
-Failed to create vrprismhost_startup
 Failed to decode 'uri' : 
 Failed to decode 'uri' for image[
 Failed to destroy VCE session\n
 Failed to destroy bo list\n
-Failed to execute '%s'\n
 Failed to find a suitable resource value for %s:%s in driver:%s. Excessive iterations. Likely circular resource definition.\n
 Failed to find system resource manifest %s.\n
 Failed to free amdgpu bo\n
@@ -4241,7 +3722,6 @@ Failed to set thread priority: setschedparam failed %d: %d\n
 Failed to signal shared fd server\n
 Failed to spawn share thread for shared fd: %d\n
 Failed to start pairing on dongle %s\n
-Failed to start vrprismhost: %s
 Failed to submit create session ib\n
 Failed to submit destroy session ib\n
 Failed to submit ib\n
@@ -4267,7 +3747,6 @@ FbPmPSsRKSsPvE
 FbRKSsPSsPvE
 FbRKSsPvE
 FbcE
-Feb 20 2026
 February
 Feel free to add support for more if you need it.
 Field "
@@ -4323,9 +3802,7 @@ Firmware Update In Progress (138)
 First argument to Swap() (of type "
 First argument to SwapFields() (of type "
 Flextronics
-ForceAcquireImage
 Forced create but already created for SharedObjectEvent\n
-Foreign timelines unsupported. Leaking resource.
 Format string parse failure
 Format(char const*, ...)
 Format(char const*, ...) (.cold)
@@ -4376,12 +3853,10 @@ GLIBC_2.3.2
 GLIBC_2.3.3
 GLIBC_2.3.4
 GLIBC_2.4
-GLIBC_2.9
 GenSessionId()::sNextSessionId
 General reset
 GenerateChangeNotifications
 Generating hidden area mesh for mode "%d" %s\n
-GetAPIImage
 GetAttributes failed from from vid 0x%X pid 0x%X serial %s when looking for all controllers\n
 GetAttributes failed from from vid 0x%X pid 0x%X serial %s when looking for controller id %X\n
 GetBacktraceStrings(std::vector<std::string, std::allocator<std::string>>&) (.constprop.0)
@@ -4391,12 +3866,6 @@ GetCameraHALInterface
 GetClockRealtime()
 GetColumnOffsetBase(std::string const&)
 GetColumnOffsetBase(std::string const&) (.cold)
-GetCommandLineArguments(std::vector<std::string, std::allocator<std::string>>&)
-GetCommandLineArguments(std::vector<std::string, std::allocator<std::string>>&) (.cold)
-GetCommandOutput(std::string const&, std::string*, std::string*)
-GetCommandOutput(std::string const&, std::string*, std::string*) (.cold)
-GetCompatibleMemoryType
-GetDeltaMs
 GetDouble
 GetEnglishStringForHmdError(vr::EVRInitError)
 GetEnum
@@ -4415,11 +3884,9 @@ GetHmdErrorPriority(vr::EVRInitError)
 GetIDForVRInitError(vr::EVRInitError)
 GetIDForVRInitError(vr::EVRInitError)::buf
 GetIndexPastAccumulatedFraction(Histogram_s const&, float)
-GetIndices
 GetInputValueVisibilityFromString(char const*)
 GetInt32
 GetInt64
-GetInteropImage
 GetMessage
 GetModuleRelativeRuntimeDir()
 GetModuleRelativeRuntimeDir() (.cold)
@@ -4428,7 +3895,6 @@ GetNamespacingUid() (.cold)
 GetNamespacingUid()::s_cachedNamespaceUid
 GetNextEventId()
 GetNextEventId()::ulMessageCounter
-GetNextSwapTextureSetIndex
 GetRepeatedBool
 GetRepeatedDouble
 GetRepeatedEnum
@@ -4724,7 +4190,7 @@ IVRSettingsInternal_001
 IVRSettings_001
 IVRSettings_003
 IVRSystemLayerInternal_XXX
-IVRSystem_025
+IVRSystem_026
 IVRTrackedCameraInternal_XXX
 IVRVirtualDisplay001_Version
 IVRVirtualDisplay_
@@ -4737,11 +4203,7 @@ Image data is empty for image[
 Image height mismatch. for image[
 Image width mismatch for image[
 ImageBridge
-Import
 Import "
-ImportBuffer
-ImportImage
-ImportTimeline
 In BL: 
 Index
 Index Controller CreateSkeletonComponent failed.  Error: %i\n
@@ -4754,7 +4216,6 @@ Infinity
 Info
 InitCameraHAL
 InitCameraHAL.cold
-InitDevice
 InitDriverLog(vr::IVRDriverLog*)
 InitDriverLog(vr::IVRDriverLog*) (.cold)
 InitIfNeeded
@@ -4793,9 +4254,6 @@ InitTrackedCamera(): Opened tracked camera on (%s). Compatibility Mode:%d. %s\n
 InitTrackedCamera(): Rejecting camera on (%s) due to vr settings. Camera services not available.\n
 InitTrackedCamera(): no ISP configurations specified in device json (%s). Camera services not available.\n
 InitTracking
-InitVulkan
-Initialize
-InitializeFromIPC
 InputActionType_Boolean
 InputActionType_EyeTracking
 InputActionType_None
@@ -4863,7 +4321,6 @@ Invalid message set extension.
 Invalid persistent statistics serial\n
 Invalid proto descriptor for file "
 Invalid public dependency index.
-Invalid queue family index
 Invalid report type %u in first packet from vid 0x%X pid 0x%X serial %s when looking for all controllersX\n
 Invalid report type %u in first packet from vid 0x%X pid 0x%X serial %s when looking for controller id %X\n
 Invalid report version %u in first packet from vid 0x%X pid 0x%X serial %s when looking for all controllers\n
@@ -5442,15 +4899,15 @@ LiquidVR::WaitTilFinished(unsigned int, unsigned int)
 LiquidVR::sgVcetMotionEstimator
 LoadAndCreateInstance
 LoadAndCreateInstance.cold
-LoadAvailableLayers
 LoadDriver called when there is no user config directory set\n
 LoadHiddenAreaMeshes(EHiddenAreaMeshDefinition, CLighthouseHmdDriver*)
 LoadHiddenAreaMeshes(EHiddenAreaMeshDefinition, CLighthouseHmdDriver*)::s_vIndicesForLineLoop
 LoadHiddenAreaMeshes(EHiddenAreaMeshDefinition, CLighthouseHmdDriver*)::s_vTriangleFans
-LoadInstanceExtensions
 LoadMCImage()
 LoadMCImage(unsigned int*, unsigned int*, unsigned int*, void*, unsigned int)
 LoadMCImage(unsigned int*, unsigned int*, unsigned int*, void*, unsigned int) (.cold)
+LoadPluginInterfaceOnce.cold
+LoadPrismEntries
 LoadSimplifiedOrExplicitRectJson(Json::Value const&)
 Loaded Chromatic Correction Factors RED (%0.3f, %0.3f, %0.3f, %0.3f) BLUE (%0.3f, %0.3f, %0.3f, %0.3f) x %0.3f\n
 Loaded resource-only driver %s from %s\n
@@ -5500,12 +4957,12 @@ Mailbox %s received message %s, which it didn't have a handler for\n
 MainSteamVR
 MakeFileWriteable(char const*)
 ManualURL
+Mar 10 2026
 March
 Mark 1
 Mark 2
 Mark 3
 Mark 4
-MarkInUse
 Material has extension MSFT_lod, but does not reference other materials via their ids.\n
 Matrix34_FromPose(math::PoseT<float> const&)
 Matrix44Aligned::ToQuaternion() const
@@ -5625,13 +5082,6 @@ N4Json19StreamWriterBuilderE
 N4Json23BuiltStyledStreamWriterE
 N4Json6WriterE
 N4Json9ExceptionE
-N5facet15IVkInteropImageE
-N5facet16IVkInteropDeviceE
-N5facet18IFramerateGovernorE
-N5facet19CVkInteropImageNullE
-N5facet20CVkInteropDeviceNullE
-N5facet21CVkTimestampQueryPoolILj2EEE
-N5facet25CVkTimestampQueryPoolBaseE
 N6google8protobuf10ReflectionE
 N6google8protobuf10TextFormat17FieldValuePrinterE
 N6google8protobuf10TextFormat6FinderE
@@ -5876,14 +5326,11 @@ Object
 October
 Old Normal: %f %f %f \n
 On laptop, HMD detected over USB, but Monitor not found (213)
-OnPreSubmit
 Oneof must have at least one field.
 OneofDescriptorProto
 Only one of `bufferView` or `uri` should be defined, but both are defined for image[
 Open failed from from vid 0x%X pid 0x%X serial %s when looking for all controllers\n
 Open failed from from vid 0x%X pid 0x%X serial %s when looking for controller id %X\n
-OpenURL(char const*)
-OpenURL(char const*) (.cold)
 OpenVR
 OpenVR_EnsurePathRegistryIntact(std::vector<std::string, std::allocator<std::string>>*)
 OpenVR_EnsurePathRegistryIntact(std::vector<std::string, std::allocator<std::string>>*) (.cold)
@@ -5933,10 +5380,13 @@ PLAY-
 PNG\r\n
 POSIX
 PRISM_AcquireDisplay
+PRISM_ActivateRenderGraph
 PRISM_ClientDisconnected
 PRISM_CreateDisplayFactory
+PRISM_CreateGraphNode
 PRISM_CreateInstance
 PRISM_CreateMotionEstimator
+PRISM_CreateRenderGraph
 PRISM_DestroyDisplayFactory
 PRISM_DestroyInstance
 PRISM_DestroyMotionEstimator
@@ -5944,14 +5394,21 @@ PRISM_DumpHistory
 PRISM_GetConnectedDisplays
 PRISM_GetDisplayModes
 PRISM_GetDisplaySubsystems
+PRISM_GetGraphicsHost
 PRISM_GetMotionEstimatorSubsystems
+PRISM_GetPluginModuleHandle
 PRISM_GetPoseProvider
+PRISM_GetRenderGraphSubsystems
 PRISM_HmdActivated
 PRISM_Initialize
+PRISM_LoadPluginInterfaceOnce
 PRISM_RegisterDisplaySubsystem
+PRISM_RegisterGraphNode
 PRISM_RegisterLogCallback
 PRISM_RegisterMotionEstimatorSubsystem
+PRISM_RegisterPluginProvider
 PRISM_RegisterPoseProviderSubsystem
+PRISM_RegisterRenderGraph
 PRISM_ReleaseDisplay
 PRISM_Run
 PRISM_RunFrame
@@ -6054,21 +5511,11 @@ PermissionDenied
 Persistent statistics file does not exist. Creating new %s\n
 Perspective camera description not found.
 PerspectiveCamera
-PhysicalDeviceInfo_t::~PhysicalDeviceInfo_t()
 Plat_IsInDebugSession
 Plat_IsInDebugSession::fp
-PoolGC
 Positional emitter description not found.
-PostPresent
-Present
 Primitive
-Prism only supports DPOLY3 and DPOLY3_SCALED distortiong functions
-Prism%s: %s
-PrismDirect Swapchain-%d:%d
-PrismResultToInitError(PrismResult_t)
-PrismTimeline:%lu
 Process %d failed to shm_open %s: %d\n
-Projection
 Prop_
 Prop_ActualTrackingSystemName_String
 Prop_AdditionalDeviceSettingsPath_String
@@ -6341,13 +5788,9 @@ Reflection::TypeInfo::IsDerivedFrom(unsigned int) const
 Reflection::TypeInfo::IsDerivedFromInternal(unsigned int) const
 Reflection::TypeInfo::TypeInfo(Reflection::TypeInfo const&)
 Reflection::TypeInfo::TypeInfo(char const*, unsigned int)
-RegisterCompositorResources
-ReleaseImage
 ReleaseLast
 ReleaseMessage
 ReleaseThreadHandle
-ReleaseVulkanResources
-Remap
 RemindVersion
 RemoveLast
 RenderDoc connected\n
@@ -6358,8 +5801,6 @@ RenderDoc::Initialize(char const*)
 RenderDoc::Initialize(char const*) (.cold)
 RenderDoc::IsFrameCapturing()
 RenderDoc::TriggerCapture()
-RenderEnd
-RenderStart
 RepairUTF8(char const*, char const*, std::string&)
 RepairUTF8(char const*, char const*, std::string&) (.cold)
 RepairUTF8(std::string const&, std::string&)
@@ -6387,7 +5828,6 @@ RootSerial %s\n
 Rotors on basestation out of 180-degree phase lock.\n
 RoundExtendedStorage(unsigned int)
 RunFrame
-RunWithAdminPrompt(std::string const&, std::string const&)
 SCALAR
 SDL Failed to get current display bounds for display %d\n
 SDL Failed to get current display mode for display %d\n
@@ -6414,9 +5854,6 @@ STEAMVR_DISABLE_THREAD_WATCHDOGS
 STEAMVR_ENABLE_THREAD_WATCHDOGS
 STEAMVR_MOTION_AMD
 STEAMVR_VERBOSE_HAPTIC_LOG
-STEAMVR_VRENV= STEAM_RUNTIME= LD_LIBRARY_PATH="$SYSTEM_LD_LIBRARY_PATH" QT_PLUGIN_PATH= /usr/bin/pkill -9 
-STEAMVR_VRENV= STEAM_RUNTIME= LD_LIBRARY_PATH="$SYSTEM_LD_LIBRARY_PATH" QT_PLUGIN_PATH= pidof 
-STEAMVR_VRENV= STEAM_RUNTIME= LD_LIBRARY_PATH="$SYSTEM_LD_LIBRARY_PATH" QT_PLUGIN_PATH= xdg-open '
 STEAM_RUNTIME=0 LD_LIBRARY_PATH= lsusb -d %x:%x > /dev/null
 STEREO_DEV_BENCRUSHER2_MICROVISION
 STEREO_DEV_BENCRUSHER_MICROVISION
@@ -6483,7 +5920,6 @@ Set thread %p priority to: %d\n
 SetAllocatedMessage
 SetBool
 SetCurrentProcessExplicitAppUserModelID()
-SetDebugName
 SetDouble
 SetEnum
 SetEnvironmentVariable(char const*, char const*)
@@ -6493,7 +5929,6 @@ SetInitErrorIfHigherPriority(vr::EVRInitError*, int*, vr::EVRInitError)
 SetInt32
 SetInt64
 SetMaxLogLevel(ELogLevel)
-SetProcessSchedulingPriorityClassRealtime(unsigned int)
 SetRepeatedBool
 SetRepeatedDouble
 SetRepeatedEnum
@@ -6503,12 +5938,9 @@ SetRepeatedInt64
 SetRepeatedString
 SetRepeatedUInt32
 SetRepeatedUInt64
-SetState
 SetString
-SetSyncTexture
 SetUInt32
 SetUInt64
-SetUsageType
 SetUserData(UserDataImageBuilder*, char const*, char const*, unsigned long)
 SetUserData(UserDataImageBuilder*, char const*, char const*, unsigned long) (.cold)
 SetVideoConfig nPreEmphasis %d nSwingLevel %d\n
@@ -6538,7 +5970,6 @@ SharedLib_Unload(void*)
 SharedObjMgr().Init() failed
 Shutdown
 ShutdownCameraHAL
-Signal
 Simple HID message payload %zd is larger than max size of 61\n
 Skin
 Skipping TrackedCameraCalibrations Extrinsics Override, dual cameras not found in incoming json\n
@@ -6549,7 +5980,6 @@ Skipping external driver %s because it is not a directory\n
 Slerp(CTransform const&, CTransform const&, float)
 Socket closed\n
 Software Reset
-Somebody created vrprismhost_startup before driver_lighthouse started prism. Something has gone wrong.
 Somebody locked a non-leaf shared memory %s while %s was already locked
 Source: %s -- Preferred basestation %08X\n
 SourceCodeInfo
@@ -6704,7 +6134,6 @@ Standby toggled
 Standby unknown hmd\n
 Start
 Start test failed\n
-StartSession
 StartVideoStream\n
 Started pairing dongle serial=%s timeout=%f\n
 Starting test\n
@@ -6723,7 +6152,6 @@ SteamVRVersionAsString()
 SteamVRVersionAsString() (.cold)
 SteamVRVersionAsString()::s_sCachedVersion
 SteamVR_Namespace
-SteamXR Interop Device
 Stereo_Device_Params::clear()
 Stereo_Device_Params::from_json(Json::Value const&)
 Stereo_Device_Params::from_json(Json::Value const&) (.cold)
@@ -6755,9 +6183,6 @@ StringToLower(std::string const&) (.cold)
 StringToUint64(std::string const&)
 StringToUpper(std::string const&)
 StringToUpper(std::string const&) (.cold)
-Submit
-SubmitLayer
-SubmitLayers
 Success
 Success: 
 Successfully parsed Lighthouse DB rev %u from %s\n
@@ -6857,7 +6282,6 @@ Thursday
 Time: 
 Timed Out
 Timed out waiting for reply of type %s from %s\n
-TimestampQueryPool-%s
 To google::protobuf::internal::down_cast(From*) [with To = const google::protobuf::Message*; From = const google::protobuf::MessageLite]
 To google::protobuf::internal::down_cast(From*) [with To = const google::protobuf::UninterpretedOption*; From = const google::protobuf::Message]
 To google::protobuf::internal::down_cast(From*) [with To = google::protobuf::Message*; From = google::protobuf::MessageLite]
@@ -6947,7 +6371,6 @@ TrackerRole_Waist
 Tracking Time Error: Backwards time: %f -> %f, %f -> %f\n
 Tracking thread peak duty cycle %0.0f%% (over %0.1fs).  Blocked in SendOnPoseChange %0.0f%% of that.\n
 TrackingReference
-Transition
 Transition Err
 Tried to merge messages of different types 
 Tried to register a non-generated type with the generated type registry.
@@ -7004,8 +6427,6 @@ Unable to create user config dir %s for driver %s.\n
 Unable to determine VR Path Registry filename
 Unable to fetch %s to store MC data\n
 Unable to find Steam installation (2000)
-Unable to fork child to start process: %s\n
-Unable to fork grandchild to start process: %s\n
 Unable to init base station driver for %X
 Unable to init zlib\n
 Unable to listen on server socket. errno=%d\n
@@ -7052,7 +6473,6 @@ Unable to write path registry (113)
 Unable to write size of config\n
 Unexpected centroid ordering error %.3fms S-%d\n
 Unexpected end of string.
-Unexpected failure when checking for timeline signal
 Unexpected failure while serializing option submessage 
 Unidentified
 Unimplemented type: 
@@ -7097,8 +6517,6 @@ Unknown string table context %s
 Unknown tracker role (%d)
 UnlinkFile(char const*)
 Unsupported `type` for accessor object. Got "
-Unused
-UpdateResults
 Updated
 Updated Left Camera Extrinsics: %s
 Updated Right Camera Extrinsics: %s
@@ -7109,8 +6527,6 @@ Updater
 Updating %s\n
 Updating additional system report data for %s\n
 Updating tilt for %08X:  Old= %0.2f, %0.2f, %g <- %0.2f deg -> new= %0.2f, %0.2f, %g   result=%0.2f, %0.2f, %g\n
-UseDevice
-UsePhysicalDevice
 User
 User Canceled Init (116)
 User Config Directory Invalid (107)
@@ -7120,7 +6536,6 @@ UserData Error: Data request is out of range, request starting:0x%x, ending:0x%x
 UserData Error: Unable to request user data from device (%s), bytesRead %d, bytesRemaining %d\n
 UserData Error: Unable to send start user data feature report \n
 Using default hidden area meshes for model %s\n
-Using physical device: %s
 Utah
 Utah DV
 Utah EV1
@@ -7141,19 +6556,6 @@ VIVE_Pro EVT
 VIVE_Pro MV
 VIVIAN-B02-B0135P-BL60U-012-GPIO15_Beta7-eSP876
 VIVIAN-B02-B0135P-BL60U-012-GPIO33_Beta7
-VK_EXT_debug_utils
-VK_EXT_global_priority
-VK_EXT_queue_family_foreign
-VK_EXT_validation_features
-VK_KHR_dynamic_rendering
-VK_KHR_external_memory_fd
-VK_KHR_external_semaphore_fd
-VK_KHR_present_id
-VK_KHR_present_wait
-VK_KHR_surface
-VK_KHR_swapchain
-VK_LAYER_KHRONOS_validation
-VK_NV_compute_shader_derivatives
 VR Dashboard Not Found (133)
 VR Dashboard startup failed (134)
 VR Dashboard startup failed, attempt to communicate with vrservice timed out (161)
@@ -7926,7 +7328,6 @@ VR_PATHREG_OVERRIDE
 VR_SETTINGS_FILE
 VR_SettingsMutex
 VR_SettingsState
-VSYNC:  %8d>%07.4f
 VTT for 
 VTT for std::basic_fstream<char, std::char_traits<char>>
 VTT for std::basic_fstream<wchar_t, std::char_traits<wchar_t>>
@@ -7958,7 +7359,6 @@ V_URLEncodeFullPath(char*, int, char const*, int) (.cold)
 V_URLEncodeInternal(char*, int, char const*, int, bool, std::function<bool (char)>)
 V_URLEncodeNoPlusForSpace(char*, int, char const*, int)
 V_URLEncodeNoPlusForSpace(char*, int, char const*, int) (.cold)
-ValidateReferencedResources
 Value 
 Value must be "true" or "false" for boolean option "
 Value must be identifier for boolean option "
@@ -8100,8 +7500,6 @@ Vive. EVT
 Vive. MV
 Vive_Pro
 Vive_Pro DVT
-VkExtensionProperties* std::__uninitialized_default_n_1<true>::__uninit_default_n<VkExtensionProperties*, unsigned long>(VkExtensionProperties*, unsigned long)
-VkLayerProperties* std::__uninitialized_default_n_1<true>::__uninit_default_n<VkLayerProperties*, unsigned long>(VkLayerProperties*, unsigned long)
 VortexAttachedMonitors
 Vortex_GetConfigPath()
 Vortex_GetConfigPath() (.cold)
@@ -8134,14 +7532,7 @@ WARNING: Detected VRInitError_VendorSpecific_HmdFound_UnexpectedConfiguration_1\
 WARNING: Saw sync on beam channel conflict on ch %d\n
 WARNING: Speculative Start Collision for base %0X (removing %s)\n
 WARNING: large time gap between IMU samples (%f -> %f diff=%f)\n
-Wait
 Wait For Sync
-WaitForBegin
-WaitForRunningStart nLastFrameIndex=%d nNextPrismWaitIndex=%d
-WaitForWork
-WaitFrame
-WaitImage
-WaitMultiple
 Waiting
 Waiting for best bootstrap base station candidate...\n
 Waiting for device to connect...
@@ -8165,7 +7556,6 @@ Warning: TDM sensorType changed to unknown type: %d\n
 Warning: TDM unknown sensorType\n
 Warning: Unused import: "
 Warning: Watchdog %s not properly cleaned up%s%s\n
-Warning: unexpected vulkan major version
 Watchdog count: 
 Watchdog disabled in settings (132)
 Watchdog namespace: %u\n
@@ -8407,8 +7797,6 @@ _GLOBAL__sub_I_transform.cpp
 _GLOBAL__sub_I_unknown_field_set.cc
 _GLOBAL__sub_I_userdatathread.cpp
 _GLOBAL__sub_I_vectoraligned.cpp
-_GLOBAL__sub_I_vkdevice.cpp
-_GLOBAL__sub_I_vkdevice.cpp.cold
 _GLOBAL__sub_I_vortextools.cpp
 _GLOBAL__sub_I_vr_driver_tracked_camera.cpp
 _GLOBAL__sub_I_vrcontroller.cpp
@@ -8554,7 +7942,6 @@ __gnu_cxx::__concurrence_unlock_error::what() const
 __gnu_cxx::__concurrence_unlock_error::~__concurrence_unlock_error()
 __gnu_cxx::__enable_if<std::__is_char<char>::__value, bool>::__type std::operator==<char>(std::basic_string<char, std::char_traits<char>, std::allocator<char>> const&, std::basic_string<char, std::char_traits<char>, std::allocator<char>> const&)
 __gnu_cxx::__freeres()
-__gnu_cxx::__normal_iterator<CPrismDirect::TextureSet_t**, std::vector<CPrismDirect::TextureSet_t*, std::allocator<CPrismDirect::TextureSet_t*>>> std::__remove_if<__gnu_cxx::__normal_iterator<CPrismDirect::TextureSet_t**, std::vector<CPrismDirect::TextureSet_t*, std::allocator<CPrismDirect::TextureSet_t*>>>, __gnu_cxx::__ops::_Iter_equals_val<CPrismDirect::TextureSet_t* const>>(__gnu_cxx::__normal_iterator<CPrismDirect::TextureSet_t**, std::vector<CPrismDirect::TextureSet_t*, std::allocator<CPrismDirect::TextureSet_t*>>>, __gnu_cxx::__normal_iterator<CPrismDirect::TextureSet_t**, std::vector<CPrismDirect::TextureSet_t*, std::allocator<CPrismDirect::TextureSet_t*>>>, __gnu_cxx::__ops::_Iter_equals_val<CPrismDirect::TextureSet_t* const>)
 __gnu_cxx::__normal_iterator<char*, std::string> std::__find_if<__gnu_cxx::__normal_iterator<char*, std::string>, __gnu_cxx::__ops::_Iter_pred<int (*)(int) noexcept>>(__gnu_cxx::__normal_iterator<char*, std::string>, __gnu_cxx::__normal_iterator<char*, std::string>, __gnu_cxx::__ops::_Iter_pred<int (*)(int) noexcept>, std::random_access_iterator_tag)
 __gnu_cxx::__normal_iterator<std::pair<unsigned int, bool>*, std::vector<std::pair<unsigned int, bool>, std::allocator<std::pair<unsigned int, bool>>>> std::__find_if<__gnu_cxx::__normal_iterator<std::pair<unsigned int, bool>*, std::vector<std::pair<unsigned int, bool>, std::allocator<std::pair<unsigned int, bool>>>>, __gnu_cxx::__ops::_Iter_pred<bool (*)(std::pair<unsigned int, bool>)>>(__gnu_cxx::__normal_iterator<std::pair<unsigned int, bool>*, std::vector<std::pair<unsigned int, bool>, std::allocator<std::pair<unsigned int, bool>>>>, __gnu_cxx::__normal_iterator<std::pair<unsigned int, bool>*, std::vector<std::pair<unsigned int, bool>, std::allocator<std::pair<unsigned int, bool>>>>, __gnu_cxx::__ops::_Iter_pred<bool (*)(std::pair<unsigned int, bool>)>, std::random_access_iterator_tag)
 __gnu_cxx::__normal_iterator<std::string*, std::vector<std::string, std::allocator<std::string>>> std::__find_if<__gnu_cxx::__normal_iterator<std::string*, std::vector<std::string, std::allocator<std::string>>>, __gnu_cxx::__ops::_Iter_equals_val<std::string const>>(__gnu_cxx::__normal_iterator<std::string*, std::vector<std::string, std::allocator<std::string>>>, __gnu_cxx::__normal_iterator<std::string*, std::vector<std::string, std::allocator<std::string>>>, __gnu_cxx::__ops::_Iter_equals_val<std::string const>, std::random_access_iterator_tag)
@@ -8719,7 +8106,6 @@ add a secondary base
 add_fdes
 add_ogs_row
 additional six characters expected to parse unicode surrogate pair.
-additionalFramesToPredict
 adds.9432
 adjust_panel_cant
 adjust_panel_cant %f %f
@@ -8769,11 +8155,6 @@ animations
 anims
 any_objects_registered
 aref
-arena<128ul, 8ul>::deallocate(char*, unsigned long)
-arena<160ul, 8ul>::deallocate(char*, unsigned long)
-arena<400ul, 8ul>::deallocate(char*, unsigned long)
-arena<40ul, 4ul>::deallocate(char*, unsigned long)
-arena<80ul, 8ul>::deallocate(char*, unsigned long)
 array
 array_ != __null
 arraybuffer
@@ -8801,9 +8182,6 @@ auto:
 available
 average_period
 axis
-bGraphicsCmd || m_eState == State_t::VulkanComputeTransitioned
-bGraphicsCmd || m_eState == State_t::VulkanGraphicsTransitioned
-bGraphicsCmd || pCmdBuf->QueueFamilyIndex() == nComputeFamilyIndex
 bInterfaceNumber
 background
 backgroundCameraHeight
@@ -8909,7 +8287,6 @@ begin_ctx
 best
 bg_bg
 bigscreenbeyond
-bin/linux64/vrprismhost
 binary
 bind
 bind_textdomain_codeset
@@ -9221,14 +8598,8 @@ channels
 char
 char const* std::(anonymous namespace)::ucs4_span<char>(char const*, char const*, unsigned long, char32_t, std::codecvt_mode)
 char const* std::(anonymous namespace)::utf16_span<char>(char const*, char const*, unsigned long, char32_t, std::codecvt_mode)
-char const*& std::vector<char const*, std::allocator<char const*>>::emplace_back<char const*>(char const*&&)
 char const** std::__copy_move<true, true, std::random_access_iterator_tag>::__copy_m<char const*>(char const* const*, char const* const*, char const**)
 char& std::vector<char, std::allocator<char>>::emplace_back<char>(char&&)
-char* arena<128ul, 8ul>::allocate<8ul>(unsigned long)
-char* arena<160ul, 8ul>::allocate<8ul>(unsigned long)
-char* arena<400ul, 8ul>::allocate<8ul>(unsigned long)
-char* arena<40ul, 4ul>::allocate<4ul>(unsigned long)
-char* arena<80ul, 8ul>::allocate<8ul>(unsigned long)
 char* std::__add_grouping<char>(char*, char, char const*, unsigned long, char const*, char const*)
 char* std::string::_S_construct<__gnu_cxx::__normal_iterator<char const*, std::string>>(__gnu_cxx::__normal_iterator<char const*, std::string>, __gnu_cxx::__normal_iterator<char const*, std::string>, std::allocator<char> const&, std::forward_iterator_tag)
 char* std::string::_S_construct<__gnu_cxx::__normal_iterator<char*, std::string>>(__gnu_cxx::__normal_iterator<char*, std::string>, __gnu_cxx::__normal_iterator<char*, std::string>, std::allocator<char> const&, std::forward_iterator_tag)
@@ -9318,7 +8689,6 @@ covariant return thunk to
 cplus_demangle_builtin_types
 cplus_demangle_operators
 crc32
-create
 cs_cz
 ctime
 ctype
@@ -9368,8 +8738,6 @@ d_unqualified_name
 da_dk
 danish
 dashboard
-data->IsInitialized()
-data.hIPC.IsValid()
 data:application/gltf-buffer;base64,
 data:application/octet-stream;base64,
 data:image/bmp;base64,
@@ -9402,7 +8770,6 @@ deleted virtual method called\n
 dependency
 deque::_M_new_elements_at_back
 deregister_tm_clones
-details.pDmabufAttributes->plane[0].nFd == (int)details.hImportHandle
 detect_kernel_version()
 developerModes
 device
@@ -9550,7 +8917,6 @@ execute_native_thread_routine_compat
 execute_native_thread_routine_compat.cold
 execute_stack_op
 execute_stack_op.cold
-execvp
 expected marker
 expectedControllerType
 expected_bases
@@ -9572,181 +8938,6 @@ eye_target_width_in_pixels
 eye_to_head
 eye_tracking
 f == __null || dynamic_cast<To>(f) != __null
-facet::AppendToNextChain(void const*&, void const*)
-facet::AppendToNextChain(void*&, void*)
-facet::BytesPerCompressedBlock(VkFormat)
-facet::BytesPerCompressedBlock(VkFormat) (.part.0)
-facet::BytesPerTexel(VkFormat)
-facet::BytesPerTexel(VkFormat) (.part.0)
-facet::BytesRequired(VkFormat, unsigned int, unsigned int)
-facet::BytesRequired(VkFormat, unsigned int, unsigned int, unsigned int)
-facet::CCompositionClient::AcquireCompositorSlot(unsigned int)
-facet::CCompositionClient::AcquireCompositorSlot(unsigned int) (.cold)
-facet::CCompositionClient::AcquireImage(facet::CCompositionClient::CSwapchain*, unsigned int)
-facet::CCompositionClient::AcquireImage(facet::CCompositionClient::CSwapchain*, unsigned int) (.cold)
-facet::CCompositionClient::BeginFrameRendering(unsigned long, unsigned long)
-facet::CCompositionClient::BeginFrameRendering(unsigned long, unsigned long) (.cold)
-facet::CCompositionClient::CCompositionClient()
-facet::CCompositionClient::CCompositionClient() (.cold)
-facet::CCompositionClient::CFrameState::AddLayerProjection(facet::CCompositionClient::FrameProjectionLayerData_t const&)
-facet::CCompositionClient::CFrameState::AddLayerProjection(facet::CCompositionClient::FrameProjectionLayerData_t const&) (.cold)
-facet::CCompositionClient::CFrameState::AddLayerQuad(facet::CCompositionClient::FrameQuadLayerData_t const&)
-facet::CCompositionClient::CFrameState::AddLayerQuad(facet::CCompositionClient::FrameQuadLayerData_t const&) (.cold)
-facet::CCompositionClient::CFrameState::BeginRendering()
-facet::CCompositionClient::CFrameState::BeginRendering() (.cold)
-facet::CCompositionClient::CFrameState::CFrameState(facet::CCompositionClient*)
-facet::CCompositionClient::CFrameState::Discard()
-facet::CCompositionClient::CFrameState::Discard() (.cold)
-facet::CCompositionClient::CFrameState::End()
-facet::CCompositionClient::CFrameState::End() (.cold)
-facet::CCompositionClient::CFrameState::EndRendering(IPC::TSharedHandleBase<int, -1>)
-facet::CCompositionClient::CFrameState::EndRendering(IPC::TSharedHandleBase<int, -1>) (.cold)
-facet::CCompositionClient::CFrameState::FrameIndex() const
-facet::CCompositionClient::CFrameState::IsDiscarded() const
-facet::CCompositionClient::CFrameState::IsValid() const
-facet::CCompositionClient::CFrameState::LayerCount() const
-facet::CCompositionClient::CFrameState::Start()
-facet::CCompositionClient::CFrameState::Start() (.cold)
-facet::CCompositionClient::CFrameState::Submit(unsigned long)
-facet::CCompositionClient::CFrameState::Submit(unsigned long) (.cold)
-facet::CCompositionClient::CFrameState::Wait(facet::CCompositionClient::FrameWaitResult_t&, facet::IFramerateGovernor*)
-facet::CCompositionClient::CFrameState::Wait(facet::CCompositionClient::FrameWaitResult_t&, facet::IFramerateGovernor*) (.cold)
-facet::CCompositionClient::CSwapchain::AcquireCompositorSlot()
-facet::CCompositionClient::CSwapchain::AcquireCompositorSlot() (.cold)
-facet::CCompositionClient::CSwapchain::CImage::GetImage() const
-facet::CCompositionClient::CSwapchain::CImage::GetInteropImage() const
-facet::CCompositionClient::CSwapchain::CImage::SetState(facet::CCompositionClient::CSwapchain::CImage::State_t)
-facet::CCompositionClient::CSwapchain::CImage::Transition(CVkCommandBuffer*, facet::CCompositionClient::CSwapchain::TransitionType_t, unsigned int, unsigned int)
-facet::CCompositionClient::CSwapchain::CSwapchain(facet::CCompositionClient*, CVkDevice*, char const*)
-facet::CCompositionClient::CSwapchain::CSwapchain(facet::CCompositionClient*, CVkDevice*, char const*) (.cold)
-facet::CCompositionClient::CSwapchain::CreateVulkanResources(facet::CCompositionClient::CreateSwapchainInfo_t const&)
-facet::CCompositionClient::CSwapchain::CreateVulkanResources(facet::CCompositionClient::CreateSwapchainInfo_t const&) (.cold)
-facet::CCompositionClient::CSwapchain::GetAPIImage() const
-facet::CCompositionClient::CSwapchain::GetAPIImage(unsigned int) const
-facet::CCompositionClient::CSwapchain::GetIndices(facet::CCompositionClient::FrameImageData_t const&) const
-facet::CCompositionClient::CSwapchain::GetInteropImage() const
-facet::CCompositionClient::CSwapchain::GetInteropImage(unsigned int) const
-facet::CCompositionClient::CSwapchain::Initialize(facet::CCompositionClient::CreateSwapchainInfo_t const&)
-facet::CCompositionClient::CSwapchain::IsIdMatch(SwapchainState_t const&)
-facet::CCompositionClient::CSwapchain::RegisterCompositorResources()
-facet::CCompositionClient::CSwapchain::RegisterCompositorResources() (.cold)
-facet::CCompositionClient::CSwapchain::Release()
-facet::CCompositionClient::CSwapchain::ReleaseCompositorSlot()
-facet::CCompositionClient::CSwapchain::ReleaseCompositorSlot() (.part.0)
-facet::CCompositionClient::CSwapchain::ReleaseCompositorSlot() (.part.0) (.cold)
-facet::CCompositionClient::CSwapchain::ReleaseVulkanResources()
-facet::CCompositionClient::CSwapchain::SetUsageType(facet::CCompositionClient::CSwapchain::UsageType_t)
-facet::CCompositionClient::CSwapchain::SetUsageType(facet::CCompositionClient::CSwapchain::UsageType_t) (.cold)
-facet::CCompositionClient::CSwapchain::Transition(CVkCommandBuffer*, unsigned int, facet::CCompositionClient::CSwapchain::TransitionType_t)
-facet::CCompositionClient::CSwapchain::UnregisterCompositorResources()
-facet::CCompositionClient::CSwapchain::UnregisterCompositorResources() (.part.0)
-facet::CCompositionClient::CSwapchain::UnregisterCompositorResources() (.part.0) (.cold)
-facet::CCompositionClient::ConnectToPrism()
-facet::CCompositionClient::ConnectToPrism() (.cold)
-facet::CCompositionClient::CreateInteropImage(facet::InteropImageData_t const&)
-facet::CCompositionClient::CreateSwapchain(facet::CCompositionClient::CreateSwapchainInfo_t const&)
-facet::CCompositionClient::CreateSwapchain(facet::CCompositionClient::CreateSwapchainInfo_t const&) (.cold)
-facet::CCompositionClient::CreateVulkanResources()
-facet::CCompositionClient::CreateVulkanResources() (.cold)
-facet::CCompositionClient::DiscardFrame(unsigned long)
-facet::CCompositionClient::DiscardFrame(unsigned long) (.cold)
-facet::CCompositionClient::DiscardFrameLocked(unsigned long)
-facet::CCompositionClient::DiscardFrameLocked(unsigned long) (.cold)
-facet::CCompositionClient::DoMaintenance()
-facet::CCompositionClient::DoMaintenance() (.cold)
-facet::CCompositionClient::EndFrameRendering(unsigned long, IPC::TSharedHandleBase<int, -1>)
-facet::CCompositionClient::EndFrameRendering(unsigned long, IPC::TSharedHandleBase<int, -1>) (.cold)
-facet::CCompositionClient::EndFrameRenderingLocked(unsigned long, IPC::TSharedHandleBase<int, -1>)
-facet::CCompositionClient::EndFrameRenderingLocked(unsigned long, IPC::TSharedHandleBase<int, -1>) (.cold)
-facet::CCompositionClient::EndSession()
-facet::CCompositionClient::EndSession() (.cold)
-facet::CCompositionClient::ForceAcquireImage(facet::CCompositionClient::SwapchainImage_t const&)
-facet::CCompositionClient::ForceAcquireImage(facet::CCompositionClient::SwapchainImage_t const&) (.cold)
-facet::CCompositionClient::GetCompositorBaseTicks() const
-facet::CCompositionClient::GetCompositorBaseTicks() const (.cold)
-facet::CCompositionClient::GetCompositorInitError() const
-facet::CCompositionClient::GetCompositorInitError() const (.cold)
-facet::CCompositionClient::GetVkFormatFromAPIFormat(long) const
-facet::CCompositionClient::InitAndConstructCompositionState()
-facet::CCompositionClient::InitAndConstructCompositionState() (.cold)
-facet::CCompositionClient::InitDevice(facet::InteropAPI_t, facet::InteropDeviceDetails_t const&)
-facet::CCompositionClient::InitVulkan()
-facet::CCompositionClient::Initialize()
-facet::CCompositionClient::IsTextureFormatSupported(long) const
-facet::CCompositionClient::PrePrismWait(unsigned long)
-facet::CCompositionClient::PrePrismWait(unsigned long) (.cold)
-facet::CCompositionClient::RegisterCompositorResources()
-facet::CCompositionClient::RegisterCompositorResources() (.cold)
-facet::CCompositionClient::ReleaseCompositorSlot()
-facet::CCompositionClient::ReleaseCompositorSlot() (.cold)
-facet::CCompositionClient::ReleaseImage(facet::CCompositionClient::CSwapchain*, unsigned int)
-facet::CCompositionClient::ReleaseImage(facet::CCompositionClient::CSwapchain*, unsigned int) (.cold)
-facet::CCompositionClient::ReleaseVulkanResources()
-facet::CCompositionClient::ReleaseVulkanResources() (.cold)
-facet::CCompositionClient::SetSyncTexture(IPC::TSharedHandleBase<int, -1>)
-facet::CCompositionClient::SetSyncTexture(IPC::TSharedHandleBase<int, -1>) (.cold)
-facet::CCompositionClient::SetUndistortParameters(PrismUndistortParameters_t const&)
-facet::CCompositionClient::SetUndistortParameters(PrismUndistortParameters_t const&) (.cold)
-facet::CCompositionClient::StartSession(unsigned int)
-facet::CCompositionClient::StartSession(unsigned int) (.cold)
-facet::CCompositionClient::SubmitLayers(unsigned long, unsigned long, unsigned long)
-facet::CCompositionClient::SubmitLayers(unsigned long, unsigned long, unsigned long) (.cold)
-facet::CCompositionClient::UnregisterCompositorResources()
-facet::CCompositionClient::UnregisterCompositorResources() (.cold)
-facet::CCompositionClient::WaitFrame(unsigned long, facet::CCompositionClient::FrameWaitResult_t&, facet::IFramerateGovernor*)
-facet::CCompositionClient::WaitFrame(unsigned long, facet::CCompositionClient::FrameWaitResult_t&, facet::IFramerateGovernor*) (.cold)
-facet::CCompositionClient::WaitImage(facet::CCompositionClient::CSwapchain*, unsigned int, unsigned int)
-facet::CCompositionClient::WaitImage(facet::CCompositionClient::CSwapchain*, unsigned int, unsigned int) (.cold)
-facet::CCompositionClient::~CCompositionClient()
-facet::CVkInteropDeviceFactory::CreateInteropDevice(facet::InteropAPI_t)
-facet::CVkInteropDeviceNull::CreateImage(CVkAllocator*, facet::InteropImageData_t const&)
-facet::CVkInteropDeviceNull::CreateImage(CVkAllocator*, facet::InteropImageData_t const&) (.cold)
-facet::CVkInteropDeviceNull::GetVkFormatFromAPIFormat(long)
-facet::CVkInteropDeviceNull::Initialize(facet::InteropDeviceDetails_t)
-facet::CVkInteropDeviceNull::IsTextureFormatSupported(long)
-facet::CVkInteropDeviceNull::~CVkInteropDeviceNull()
-facet::CVkInteropImageNull::AcquireAccess(CVkCommandBuffer*)
-facet::CVkInteropImageNull::AcquireAccess(unsigned long)
-facet::CVkInteropImageNull::CVkInteropImageNull(facet::CVkInteropDeviceNull*)
-facet::CVkInteropImageNull::GetAPIImage()
-facet::CVkInteropImageNull::GetImage()
-facet::CVkInteropImageNull::Initialize(CVkAllocator*, facet::InteropImageData_t const&)
-facet::CVkInteropImageNull::ReleaseAccess(CVkCommandBuffer*)
-facet::CVkInteropImageNull::ReleaseAccess(std::vector<facet::IVkInteropImage*, std::allocator<facet::IVkInteropImage*>> const&)
-facet::CVkInteropImageNull::SyncAndSubmit(facet::InteropSyncAndSubmitData_t const&)
-facet::CVkInteropImageNull::~CVkInteropImageNull()
-facet::CVkTimelinePoint::CVkTimelinePoint(unsigned long, signed char)
-facet::CVkTimestampQueryPool<2u>::Create(CVkDevice*, char const*)
-facet::CVkTimestampQueryPool<2u>::~CVkTimestampQueryPool()
-facet::CVkTimestampQueryPoolBase::CmdWriteTimestamp(CVkCommandBuffer*, unsigned int, VkPipelineStageFlagBits)
-facet::CVkTimestampQueryPoolBase::Initialize(unsigned int)
-facet::CVkTimestampQueryPoolBase::Release()
-facet::CVkTimestampQueryPoolBase::ResetAll(unsigned int)
-facet::CVkTimestampQueryPoolBase::ResetQuery(unsigned int)
-facet::CVkTimestampQueryPoolBase::ToMs(unsigned long) const
-facet::CVkTimestampQueryPoolBase::UpdateResults(facet::CVkTimestampQueryPoolBase::WaitBehavior_t, unsigned int, unsigned long*)
-facet::CVkTimestampQueryPoolBase::~CVkTimestampQueryPoolBase()
-facet::CopyDeviceId(facet::VkDeviceId_t&, facet::VkDeviceId_t const&)
-facet::DXGIFormatFromVk(VkFormat)
-facet::FromIPC(int)
-facet::GetFlatIndex(SwapchainIndices_t const&)
-facet::GetFov(glm::mat<4, 4, float, (glm::qualifier)0> const&, float*, float*, float*, float*)
-facet::GetLUIDFromDeviceId(facet::VkDeviceId_t const&, unsigned long&)
-facet::GetSrgbFormat(VkFormat)
-facet::GetVulkanSampleCount(unsigned int)
-facet::InitDeviceId(facet::VkDeviceId_t&, VkPhysicalDeviceIDProperties const&)
-facet::IsCompressedFormat(VkFormat)
-facet::IsDepthFormat(VkFormat)
-facet::IsDepthOnlyFormat(VkFormat)
-facet::IsDepthStencilFormat(VkFormat)
-facet::IsDeviceIdValid(facet::VkDeviceId_t const&)
-facet::IsInDebugSession()
-facet::IsInDebugSession()::fp
-facet::IsSrgbFormat(VkFormat)
-facet::NumCompressedBlocks(unsigned int, unsigned int)
-facet::ToIPC(unsigned long)
-facet::VkFormatFromDXGI(unsigned int, VkFormat*)
-facet::WaitUntil(double)
 failIfExtra
 failed
 failed to send to device
@@ -9790,7 +8981,6 @@ fix_hid_device_interface_numbers(hid_device_info*)
 fix_hid_device_interface_numbers(hid_device_info*) (.cold)
 fixed32
 fixed64
-flWaitTime < 1.0
 flags
 flags2
 float
@@ -9825,7 +9015,6 @@ frame_hdr_cache
 frame_hdr_cache_head
 frame_heapsort
 framer
-framesToThrottle
 fread
 free
 french
@@ -9945,7 +9134,6 @@ get_ttype_entry(lsda_header_info*, unsigned long)
 get_ttype_entry(lsda_header_info*, unsigned long) (.cold)
 getc
 getcwd
-getdelim
 getenv
 getpid
 getppid
@@ -12133,7 +11321,6 @@ idVendor
 identifier_value
 illegal code in raster
 image
-image.pSwapchain->m_images[ image.nImageIndex ].GetState() == CImage::State_t::PrismLocked || m_pClient->m_pendingRelease.find( { image.pSwapchain, image.nImageIndex } ) != m_pClient->m_pendingRelease.end()
 image/bmp
 image/gif
 image/jpeg
@@ -12142,7 +11329,6 @@ image[
 images
 imaginary 
 immediate
-import
 import "$0";\n
 import public "$0";\n
 import weak "$0";\n
@@ -12389,7 +11575,6 @@ lh_basestation_01_boysandgirls
 lh_basestation_03_robin
 lh_basestation_valve_gen2
 lh_basestation_vive
-lhs->m_pTimeline == rhs->m_pTimeline
 libSDL2-2.0.so.0
 libc.so.6
 libdl.so.2
@@ -12401,8 +11586,6 @@ libpthread.so.0
 librenderdoc.so
 librt.so.1
 libudev.so.1
-libvulkan.so
-libvulkan.so.1
 libz.so.1
 light
 lighthouse
@@ -12812,9 +11995,6 @@ linear_search_fdes
 linux64
 listen
 loadPriority
-loadedDevice
-loadedInstance
-loadedModule
 locale::_Impl::_M_replace_facet
 locale::_S_normalize_category category not found
 locale::facet::_S_create_c_locale name not valid
@@ -12842,32 +12022,9 @@ lseek64
 mCpuAddr
 mDrmFd < 0
 mSx@
-m_acquireMutexes.size() == m_acquireKeys.size()
-m_acquireMutexes.size() == m_acquireTimeouts.size()
 m_bIsInitialized
-m_bSupportsPresentId
-m_eState == State_t::ApplicationAcquired
-m_eState == State_t::ApplicationReleased
-m_images.size() <= SwapchainState_t::k_nMaxImages
-m_mapTimelineToBuckets[ pKey ].empty()
-m_nClientDataSlot < CompositionState_t::k_nMaxClients
-m_nMapCount == 0
-m_nMapCount > 0
 m_nMaxLogBufferingSize > 0
-m_nSwapchainSlot != CompositionState_t::k_nInvalidSwapchainSlot
-m_nSwapchainSlot < CompositionState_t::k_nMaxSwapchains
-m_pClient != nullptr
-m_pDevice
-m_pDevice == VK_NULL_HANDLE
-m_pInstance == VK_NULL_HANDLE
-m_pPhysicalDevice == VK_NULL_HANDLE
-m_pendingLock.empty()
-m_releaseMutexes.size() == m_releaseKeys.size()
-m_signalTimelines.size() == m_signalPoints.size()
 m_ulHandle != vr::k_ulInvalidMailbox
-m_waitSemaphores.size() == m_waitSemaphoreStages.size()
-m_waitTimelines.size() == m_waitPoints.size()
-m_waitTimelines.size() == m_waitStages.size()
 magFilter
 malloc
 manifest.vrfirmware
@@ -13343,15 +12500,8 @@ motionSmoothing
 mt19937
 mtpb
 multiple IHDR
-multiple signals per batch not allowed
 munmap
 muteMicMonitor
-nClientFrameIndex != k_nInvalidClientFrameIndex
-nClientFrameIndex=%d nPrismFrameStartIndex=%d
-nFrameIndex >> ( 64 - k_TimelineEventShift ) == 0
-nNextPrismWaitIndex >= nNextPrismFrameIndex
-nSampleCount > 0 && nSampleCount <= 64
-nSizeInBytes <= m_unSizeInBytes
 nSplineCtrlPts
 name
 name_only
@@ -13720,7 +12870,6 @@ not wireless endpoint
 notifications
 null
 null literal
-nullProcAddrStub
 null}
 num_windows
 number
@@ -13790,11 +12939,7 @@ output buffer limit
 output specified is NULL
 output_type
 overwrite.vrsettings
-pClient
-pCmdBuf
 pData
-pDevice
-pLast->m_pointLastUsed <= pTimeline->m_pointLastUsed
 pNewResource
 pNewResource->Load( absFilePath )
 pNext == ( m_buffer.data() + m_buffer.size() )
@@ -13802,15 +12947,6 @@ pRead->unBufferSize > 0u
 pRead->unRequiredBufferSize == sizeof( T )
 pRead->unTag == unTag
 pRead->unTag == vr::k_unStringPropertyTag
-pResource
-pSourceBuffer
-pSourceBuffer->m_unSizeInBytes >= nSourceOffset + nSizeInBytes
-pSourceImage
-pSwapchain != nullptr
-pTextureSet->pSwapchain
-pTimeline
-pTimeline != nullptr
-pTimeline->m_nRefCount > 0
 package
 package $0;\n\n
 packed
@@ -13828,7 +12964,6 @@ parse_uevent_info(char const*, int*, unsigned short*, unsigned short*, char**, c
 parsing
 path
 pbrMetallicRoughness
-pclose
 perfcheck
 perror
 perspective
@@ -13836,7 +12971,6 @@ pfnSteamAPI_SetBreakpadAppID
 pfnSteamAPI_SetMiniDumpComment
 pfnSteamAPI_UseBreakpadCrashHandler
 pfnSteamAPI_WriteMiniDump
-pipe2
 pitch
 pl_pl
 play
@@ -13847,7 +12981,6 @@ plus_x
 plus_z
 polish
 poll
-popen
 portuguese
 pose
 position
@@ -13871,7 +13004,6 @@ primitive indices accessor out of bounds
 primitives
 print
 printf
-priorites.priorityCount > 0 && priorites.priorityCount <= ARRAY_SIZE( priorites.priorities )
 prismCorrectionEnable
 prismCorrectionHL
 prismCorrectionHR
@@ -14005,9 +13137,11 @@ s_Stereo_Device_Type
 s_ThreadWatchdogManager
 s_bCrashHandlingInit
 s_bCurrentMiniDumpIsFatal
+s_bIsPluginInterfaceLoaded
 s_bMinidumpCommentAlreadySet
 s_fnPreCrashCallback
 s_hModule
+s_hThisModule
 s_mutex
 s_nInstanceCount
 s_pInstance
@@ -14015,6 +13149,7 @@ s_pLogCallback
 s_pLogFile
 s_pRealCreateInstance
 s_pRealDestroyInstance
+s_pRealLoadPluginInterfaceOnce
 s_pSharedFirmwareManifest
 s_rBoolPropertiesToRead
 s_rFloatPropertiesToRead
@@ -14083,29 +13218,21 @@ setenv
 setlocale
 setpriority
 setrlimit
-setsid
 settings
 setvbuf
 sfixed32
 sfixed64
-sg_vecOptionalDeviceExtensions
-sg_vecOptionalInstanceExtensions
-sg_vecRequiredDeviceExtensions
-sg_vecRequiredInstanceExtensions
 shaders
 shm_open
 shm_open of %s, %X failed: %d
 shm_open without O_CREAT of %s, %X failed: %d
 shm_unlink
 short
-short_alloc: spilling into system allocator
 short_bad
 showEnableInSettings
 shutdown
 sigaction
-sigemptyset
 signed char
-sigprocmask
 sincos
 sincosf
 sinf
@@ -14382,7 +13509,6 @@ std::Catalogs::_M_get(int) const
 std::Catalogs::_M_get(int) const (.cold)
 std::Catalogs::~Catalogs()
 std::_Bvector_base<std::allocator<bool>>::_M_deallocate()
-std::_Deque_base<CVkCommandBuffer*, std::allocator<CVkCommandBuffer*>>::~_Deque_base()
 std::_Deque_base<CameraCommand_t*, std::allocator<CameraCommand_t*>>::~_Deque_base()
 std::_Deque_base<Json::Reader::ErrorInfo, std::allocator<Json::Reader::ErrorInfo>>::_M_initialize_map(unsigned long)
 std::_Deque_base<Json::Value*, std::allocator<Json::Value*>>::_M_initialize_map(unsigned long)
@@ -14400,7 +13526,6 @@ std::_Deque_iterator<vortex::lighthouse::SensorHit_s, vortex::lighthouse::Sensor
 std::_Fnv_hash_bytes(void const*, unsigned long, unsigned long)
 std::_Function_base::_Base_manager<CLighthouseHmdProvider::Init(vr::IVRDriverContext*)::'lambda'(char const*)>::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
 std::_Function_base::_Base_manager<CLogBuffer::CLogBuffer()::'lambda'(ELogLevel, char const*, void*)>::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
-std::_Function_base::_Base_manager<CPrismDirect::CPrismDirect()::'lambda'(ELogLevel, char const*, void*)>::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
 std::_Function_base::_Base_manager<CVRLog::InitLog(char const*, char const*, bool, unsigned long)::'lambda'(ELogLevel, char const*, void*)>::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
 std::_Function_base::_Base_manager<CVRMailbox::AutoForwardMessageType(std::string, std::string const&)::'lambda'(Json::Value const&)>::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
 std::_Function_base::_Base_manager<CVRMailbox::AutoForwardMessageType(std::string, std::string const&)::'lambda'(Json::Value const&)>::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation) (.cold)
@@ -14443,7 +13568,6 @@ std::_Function_handler<bool (unsigned long*, std::string*, std::string const&, v
 std::_Function_handler<std::string (std::string const&, void*), std::string (*)(std::string const&, void*)>::_M_invoke(std::_Any_data const&, std::string const&, void*&&)
 std::_Function_handler<void (ELogLevel, char const*, void*), CLogBuffer::CLogBuffer()::'lambda'(ELogLevel, char const*, void*)>::_M_invoke(std::_Any_data const&, ELogLevel&&, char const*&&, void*&&)
 std::_Function_handler<void (ELogLevel, char const*, void*), CLogBuffer::CLogBuffer()::'lambda'(ELogLevel, char const*, void*)>::_M_invoke(std::_Any_data const&, ELogLevel&&, char const*&&, void*&&) (.cold)
-std::_Function_handler<void (ELogLevel, char const*, void*), CPrismDirect::CPrismDirect()::'lambda'(ELogLevel, char const*, void*)>::_M_invoke(std::_Any_data const&, ELogLevel&&, char const*&&, void*&&)
 std::_Function_handler<void (ELogLevel, char const*, void*), CVRLog::InitLog(char const*, char const*, bool, unsigned long)::'lambda'(ELogLevel, char const*, void*)>::_M_invoke(std::_Any_data const&, ELogLevel&&, char const*&&, void*&&)
 std::_Function_handler<void (ELogLevel, char const*, void*), InitDriverLog(vr::IVRDriverLog*)::'lambda'(ELogLevel, char const*, void*)>::_M_invoke(std::_Any_data const&, ELogLevel&&, char const*&&, void*&&)
 std::_Function_handler<void (Json::Value const&), CVRMailbox::AutoForwardMessageType(std::string, std::string const&)::'lambda'(Json::Value const&)>::_M_invoke(std::_Any_data const&, Json::Value const&)
@@ -14489,11 +13613,6 @@ std::_Hashtable<std::pair<void const*, char const*>, std::pair<std::pair<void co
 std::_Hashtable<std::pair<void const*, char const*>, std::pair<std::pair<void const*, char const*> const, google::protobuf::FieldDescriptor const*>, std::allocator<std::pair<std::pair<void const*, char const*> const, google::protobuf::FieldDescriptor const*>>, std::__detail::_Select1st, google::protobuf::(anonymous namespace)::PointerStringPairEqual, google::protobuf::(anonymous namespace)::PointerStringPairHash, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, false, true>>::_M_allocate_buckets(unsigned long) (.isra.747)
 std::_Hashtable<std::pair<void const*, char const*>, std::pair<std::pair<void const*, char const*> const, google::protobuf::FieldDescriptor const*>, std::allocator<std::pair<std::pair<void const*, char const*> const, google::protobuf::FieldDescriptor const*>>, std::__detail::_Select1st, google::protobuf::(anonymous namespace)::PointerStringPairEqual, google::protobuf::(anonymous namespace)::PointerStringPairHash, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, false, true>>::_M_find_before_node(unsigned long, std::pair<void const*, char const*> const&, unsigned long) const
 std::_Hashtable<std::pair<void const*, char const*>, std::pair<std::pair<void const*, char const*> const, google::protobuf::FieldDescriptor const*>, std::allocator<std::pair<std::pair<void const*, char const*> const, google::protobuf::FieldDescriptor const*>>, std::__detail::_Select1st, google::protobuf::(anonymous namespace)::PointerStringPairEqual, google::protobuf::(anonymous namespace)::PointerStringPairHash, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, false, true>>::~_Hashtable()
-std::_Hashtable<std::string, std::pair<std::string const, CVkExtensionEntry>, std::allocator<std::pair<std::string const, CVkExtensionEntry>>, std::__detail::_Select1st, std::equal_to<std::string>, std::hash<std::string>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, false, true>>::_M_find_before_node(unsigned long, std::string const&, unsigned long) const
-std::_Hashtable<std::string, std::pair<std::string const, CVkExtensionEntry>, std::allocator<std::pair<std::string const, CVkExtensionEntry>>, std::__detail::_Select1st, std::equal_to<std::string>, std::hash<std::string>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, false, true>>::_M_insert_unique_node(unsigned long, unsigned long, std::__detail::_Hash_node<std::pair<std::string const, CVkExtensionEntry>, true>*, unsigned long)
-std::_Hashtable<std::string, std::pair<std::string const, CVkExtensionEntry>, std::allocator<std::pair<std::string const, CVkExtensionEntry>>, std::__detail::_Select1st, std::equal_to<std::string>, std::hash<std::string>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, false, true>>::_M_rehash(unsigned long, unsigned long const&)
-std::_Hashtable<std::string, std::pair<std::string const, CVkExtensionEntry>, std::allocator<std::pair<std::string const, CVkExtensionEntry>>, std::__detail::_Select1st, std::equal_to<std::string>, std::hash<std::string>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, false, true>>::find(std::string const&)
-std::_Hashtable<std::string, std::pair<std::string const, CVkExtensionEntry>, std::allocator<std::pair<std::string const, CVkExtensionEntry>>, std::__detail::_Select1st, std::equal_to<std::string>, std::hash<std::string>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, false, true>>::~_Hashtable()
 std::_Hashtable<std::string, std::pair<std::string const, google::protobuf::SourceCodeInfo_Location const*>, std::allocator<std::pair<std::string const, google::protobuf::SourceCodeInfo_Location const*>>, std::__detail::_Select1st, std::equal_to<std::string>, google::protobuf::hash<std::string>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, false, true>>::_M_find_before_node(unsigned long, std::string const&, unsigned long) const
 std::_Hashtable<std::string, std::pair<std::string const, google::protobuf::SourceCodeInfo_Location const*>, std::allocator<std::pair<std::string const, google::protobuf::SourceCodeInfo_Location const*>>, std::__detail::_Select1st, std::equal_to<std::string>, google::protobuf::hash<std::string>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, false, true>>::_M_insert_unique_node(unsigned long, unsigned long, std::__detail::_Hash_node<std::pair<std::string const, google::protobuf::SourceCodeInfo_Location const*>, true>*)
 std::_Hashtable<std::string, std::pair<std::string const, std::string>, std::allocator<std::pair<std::string const, std::string>>, std::__detail::_Select1st, std::equal_to<std::string>, std::hash<std::string>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, false, true>>::_M_find_before_node(unsigned long, std::string const&, unsigned long) const
@@ -14519,17 +13638,6 @@ std::_List_iterator<vortex::ILighthouseDBListener*> std::__remove_if<std::_List_
 std::_Rb_tree<CAnimSkeleton const*, std::pair<CAnimSkeleton const* const, std::unique_ptr<CPoseUpdateResources, std::default_delete<CPoseUpdateResources>>>, std::_Select1st<std::pair<CAnimSkeleton const* const, std::unique_ptr<CPoseUpdateResources, std::default_delete<CPoseUpdateResources>>>>, std::less<CAnimSkeleton const*>, std::allocator<std::pair<CAnimSkeleton const* const, std::unique_ptr<CPoseUpdateResources, std::default_delete<CPoseUpdateResources>>>>>::_M_erase(std::_Rb_tree_node<std::pair<CAnimSkeleton const* const, std::unique_ptr<CPoseUpdateResources, std::default_delete<CPoseUpdateResources>>>>*)
 std::_Rb_tree<CAnimSkeleton const*, std::pair<CAnimSkeleton const* const, std::unique_ptr<CPoseUpdateResources, std::default_delete<CPoseUpdateResources>>>, std::_Select1st<std::pair<CAnimSkeleton const* const, std::unique_ptr<CPoseUpdateResources, std::default_delete<CPoseUpdateResources>>>>, std::less<CAnimSkeleton const*>, std::allocator<std::pair<CAnimSkeleton const* const, std::unique_ptr<CPoseUpdateResources, std::default_delete<CPoseUpdateResources>>>>>::_M_get_insert_hint_unique_pos(std::_Rb_tree_const_iterator<std::pair<CAnimSkeleton const* const, std::unique_ptr<CPoseUpdateResources, std::default_delete<CPoseUpdateResources>>>>, CAnimSkeleton const* const&)
 std::_Rb_tree<CAnimSkeleton const*, std::pair<CAnimSkeleton const* const, std::unique_ptr<CPoseUpdateResources, std::default_delete<CPoseUpdateResources>>>, std::_Select1st<std::pair<CAnimSkeleton const* const, std::unique_ptr<CPoseUpdateResources, std::default_delete<CPoseUpdateResources>>>>, std::less<CAnimSkeleton const*>, std::allocator<std::pair<CAnimSkeleton const* const, std::unique_ptr<CPoseUpdateResources, std::default_delete<CPoseUpdateResources>>>>>::_M_get_insert_unique_pos(CAnimSkeleton const* const&)
-std::_Rb_tree<CPrismDirect::TextureSet_t*, CPrismDirect::TextureSet_t*, std::_Identity<CPrismDirect::TextureSet_t*>, std::less<CPrismDirect::TextureSet_t*>, std::allocator<CPrismDirect::TextureSet_t*>>::_M_erase(std::_Rb_tree_node<CPrismDirect::TextureSet_t*>*)
-std::_Rb_tree<CVkResourceBase*, CVkResourceBase*, std::_Identity<CVkResourceBase*>, CVkResourceComparator, std::allocator<CVkResourceBase*>>::_M_erase(std::_Rb_tree_node<CVkResourceBase*>*)
-std::_Rb_tree<CVkTimeline*, std::pair<CVkTimeline* const, CVkGarbageCollector::Bucket_t>, std::_Select1st<std::pair<CVkTimeline* const, CVkGarbageCollector::Bucket_t>>, std::less<CVkTimeline*>, std::allocator<std::pair<CVkTimeline* const, CVkGarbageCollector::Bucket_t>>>::_M_erase(std::_Rb_tree_node<std::pair<CVkTimeline* const, CVkGarbageCollector::Bucket_t>>*)
-std::_Rb_tree<CVkTimeline*, std::pair<CVkTimeline* const, CVkGarbageCollector::Bucket_t>, std::_Select1st<std::pair<CVkTimeline* const, CVkGarbageCollector::Bucket_t>>, std::less<CVkTimeline*>, std::allocator<std::pair<CVkTimeline* const, CVkGarbageCollector::Bucket_t>>>::_M_get_insert_hint_unique_pos(std::_Rb_tree_const_iterator<std::pair<CVkTimeline* const, CVkGarbageCollector::Bucket_t>>, CVkTimeline* const&)
-std::_Rb_tree<CVkTimeline*, std::pair<CVkTimeline* const, CVkGarbageCollector::Bucket_t>, std::_Select1st<std::pair<CVkTimeline* const, CVkGarbageCollector::Bucket_t>>, std::less<CVkTimeline*>, std::allocator<std::pair<CVkTimeline* const, CVkGarbageCollector::Bucket_t>>>::_M_get_insert_unique_pos(CVkTimeline* const&)
-std::_Rb_tree<IPC::CIPCHandle, std::pair<IPC::CIPCHandle const, CPrismDirect::TextureSet_t*>, std::_Select1st<std::pair<IPC::CIPCHandle const, CPrismDirect::TextureSet_t*>>, std::less<IPC::CIPCHandle>, std::allocator<std::pair<IPC::CIPCHandle const, CPrismDirect::TextureSet_t*>>>::_M_erase(std::_Rb_tree_node<std::pair<IPC::CIPCHandle const, CPrismDirect::TextureSet_t*>>*)
-std::_Rb_tree<IPC::CIPCHandle, std::pair<IPC::CIPCHandle const, CPrismDirect::TextureSet_t*>, std::_Select1st<std::pair<IPC::CIPCHandle const, CPrismDirect::TextureSet_t*>>, std::less<IPC::CIPCHandle>, std::allocator<std::pair<IPC::CIPCHandle const, CPrismDirect::TextureSet_t*>>>::_M_get_insert_hint_unique_pos(std::_Rb_tree_const_iterator<std::pair<IPC::CIPCHandle const, CPrismDirect::TextureSet_t*>>, IPC::CIPCHandle const&)
-std::_Rb_tree<IPC::CIPCHandle, std::pair<IPC::CIPCHandle const, CPrismDirect::TextureSet_t*>, std::_Select1st<std::pair<IPC::CIPCHandle const, CPrismDirect::TextureSet_t*>>, std::less<IPC::CIPCHandle>, std::allocator<std::pair<IPC::CIPCHandle const, CPrismDirect::TextureSet_t*>>>::_M_get_insert_unique_pos(IPC::CIPCHandle const&)
-std::_Rb_tree<IPC::CIPCHandle, std::pair<IPC::CIPCHandle const, unsigned int>, std::_Select1st<std::pair<IPC::CIPCHandle const, unsigned int>>, std::less<IPC::CIPCHandle>, std::allocator<std::pair<IPC::CIPCHandle const, unsigned int>>>::_M_erase(std::_Rb_tree_node<std::pair<IPC::CIPCHandle const, unsigned int>>*)
-std::_Rb_tree<IPC::CIPCHandle, std::pair<IPC::CIPCHandle const, unsigned int>, std::_Select1st<std::pair<IPC::CIPCHandle const, unsigned int>>, std::less<IPC::CIPCHandle>, std::allocator<std::pair<IPC::CIPCHandle const, unsigned int>>>::_M_get_insert_hint_unique_pos(std::_Rb_tree_const_iterator<std::pair<IPC::CIPCHandle const, unsigned int>>, IPC::CIPCHandle const&)
-std::_Rb_tree<IPC::CIPCHandle, std::pair<IPC::CIPCHandle const, unsigned int>, std::_Select1st<std::pair<IPC::CIPCHandle const, unsigned int>>, std::less<IPC::CIPCHandle>, std::allocator<std::pair<IPC::CIPCHandle const, unsigned int>>>::_M_get_insert_unique_pos(IPC::CIPCHandle const&)
 std::_Rb_tree<Json::Value::CZString, std::pair<Json::Value::CZString const, Json::Value>, std::_Select1st<std::pair<Json::Value::CZString const, Json::Value>>, std::less<Json::Value::CZString>, std::allocator<std::pair<Json::Value::CZString const, Json::Value>>>::_M_erase(std::_Rb_tree_node<std::pair<Json::Value::CZString const, Json::Value>>*)
 std::_Rb_tree<Json::Value::CZString, std::pair<Json::Value::CZString const, Json::Value>, std::_Select1st<std::pair<Json::Value::CZString const, Json::Value>>, std::less<Json::Value::CZString>, std::allocator<std::pair<Json::Value::CZString const, Json::Value>>>::_M_erase_aux(std::_Rb_tree_const_iterator<std::pair<Json::Value::CZString const, Json::Value>>)
 std::_Rb_tree<Json::Value::CZString, std::pair<Json::Value::CZString const, Json::Value>, std::_Select1st<std::pair<Json::Value::CZString const, Json::Value>>, std::less<Json::Value::CZString>, std::allocator<std::pair<Json::Value::CZString const, Json::Value>>>::_M_get_insert_hint_unique_pos(std::_Rb_tree_const_iterator<std::pair<Json::Value::CZString const, Json::Value>>, Json::Value::CZString const&)
@@ -14537,10 +13645,6 @@ std::_Rb_tree<Json::Value::CZString, std::pair<Json::Value::CZString const, Json
 std::_Rb_tree<Json::Value::CZString, std::pair<Json::Value::CZString const, Json::Value>, std::_Select1st<std::pair<Json::Value::CZString const, Json::Value>>, std::less<Json::Value::CZString>, std::allocator<std::pair<Json::Value::CZString const, Json::Value>>>::_M_insert_node(std::_Rb_tree_node_base*, std::_Rb_tree_node_base*, std::_Rb_tree_node<std::pair<Json::Value::CZString const, Json::Value>>*)
 std::_Rb_tree<Json::Value::CZString, std::pair<Json::Value::CZString const, Json::Value>, std::_Select1st<std::pair<Json::Value::CZString const, Json::Value>>, std::less<Json::Value::CZString>, std::allocator<std::pair<Json::Value::CZString const, Json::Value>>>::equal_range(Json::Value::CZString const&)
 std::_Rb_tree<Json::Value::CZString, std::pair<Json::Value::CZString const, Json::Value>, std::_Select1st<std::pair<Json::Value::CZString const, Json::Value>>, std::less<Json::Value::CZString>, std::allocator<std::pair<Json::Value::CZString const, Json::Value>>>::find(Json::Value::CZString const&)
-std::_Rb_tree<facet::CCompositionClient::SwapchainImage_t, facet::CCompositionClient::SwapchainImage_t, std::_Identity<facet::CCompositionClient::SwapchainImage_t>, std::less<facet::CCompositionClient::SwapchainImage_t>, std::allocator<facet::CCompositionClient::SwapchainImage_t>>::_M_erase(std::_Rb_tree_node<facet::CCompositionClient::SwapchainImage_t>*)
-std::_Rb_tree<facet::CCompositionClient::SwapchainImage_t, facet::CCompositionClient::SwapchainImage_t, std::_Identity<facet::CCompositionClient::SwapchainImage_t>, std::less<facet::CCompositionClient::SwapchainImage_t>, std::allocator<facet::CCompositionClient::SwapchainImage_t>>::equal_range(facet::CCompositionClient::SwapchainImage_t const&)
-std::_Rb_tree<facet::CCompositionClient::SwapchainImage_t, facet::CCompositionClient::SwapchainImage_t, std::_Identity<facet::CCompositionClient::SwapchainImage_t>, std::less<facet::CCompositionClient::SwapchainImage_t>, std::allocator<facet::CCompositionClient::SwapchainImage_t>>::erase(facet::CCompositionClient::SwapchainImage_t const&)
-std::_Rb_tree<facet::CCompositionClient::SwapchainImage_t, facet::CCompositionClient::SwapchainImage_t, std::_Identity<facet::CCompositionClient::SwapchainImage_t>, std::less<facet::CCompositionClient::SwapchainImage_t>, std::allocator<facet::CCompositionClient::SwapchainImage_t>>::find(facet::CCompositionClient::SwapchainImage_t const&)
 std::_Rb_tree<google::protobuf::Descriptor const*, google::protobuf::Descriptor const*, std::_Identity<google::protobuf::Descriptor const*>, std::less<google::protobuf::Descriptor const*>, std::allocator<google::protobuf::Descriptor const*>>::_M_erase(std::_Rb_tree_node<google::protobuf::Descriptor const*>*)
 std::_Rb_tree<google::protobuf::Descriptor const*, google::protobuf::Descriptor const*, std::_Identity<google::protobuf::Descriptor const*>, std::less<google::protobuf::Descriptor const*>, std::allocator<google::protobuf::Descriptor const*>>::find(google::protobuf::Descriptor const* const&) const
 std::_Rb_tree<google::protobuf::Descriptor const*, google::protobuf::Descriptor const*, std::_Identity<google::protobuf::Descriptor const*>, std::less<google::protobuf::Descriptor const*>, std::allocator<google::protobuf::Descriptor const*>>::~_Rb_tree()
@@ -14643,9 +13747,6 @@ std::_Rb_tree<std::tuple<unsigned short, unsigned short, std::basic_string<wchar
 std::_Rb_tree<std::tuple<unsigned short, unsigned short, std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t>>>, std::pair<std::tuple<unsigned short, unsigned short, std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t>>> const, int>, std::_Select1st<std::pair<std::tuple<unsigned short, unsigned short, std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t>>> const, int>>, std::less<std::tuple<unsigned short, unsigned short, std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t>>>>, std::allocator<std::pair<std::tuple<unsigned short, unsigned short, std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t>>> const, int>>>::_M_get_insert_hint_unique_pos(std::_Rb_tree_const_iterator<std::pair<std::tuple<unsigned short, unsigned short, std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t>>> const, int>>, std::tuple<unsigned short, unsigned short, std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t>>> const&)
 std::_Rb_tree<std::tuple<unsigned short, unsigned short, std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t>>>, std::pair<std::tuple<unsigned short, unsigned short, std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t>>> const, int>, std::_Select1st<std::pair<std::tuple<unsigned short, unsigned short, std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t>>> const, int>>, std::less<std::tuple<unsigned short, unsigned short, std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t>>>>, std::allocator<std::pair<std::tuple<unsigned short, unsigned short, std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t>>> const, int>>>::_M_get_insert_unique_pos(std::tuple<unsigned short, unsigned short, std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t>>> const&)
 std::_Rb_tree<unsigned char, unsigned char, std::_Identity<unsigned char>, std::less<unsigned char>, std::allocator<unsigned char>>::_M_erase(std::_Rb_tree_node<unsigned char>*)
-std::_Rb_tree<unsigned int, std::pair<unsigned int const, CPrismDirect::TextureSetCache_t*>, std::_Select1st<std::pair<unsigned int const, CPrismDirect::TextureSetCache_t*>>, std::less<unsigned int>, std::allocator<std::pair<unsigned int const, CPrismDirect::TextureSetCache_t*>>>::_M_erase(std::_Rb_tree_node<std::pair<unsigned int const, CPrismDirect::TextureSetCache_t*>>*)
-std::_Rb_tree<unsigned int, std::pair<unsigned int const, CPrismDirect::TextureSetCache_t*>, std::_Select1st<std::pair<unsigned int const, CPrismDirect::TextureSetCache_t*>>, std::less<unsigned int>, std::allocator<std::pair<unsigned int const, CPrismDirect::TextureSetCache_t*>>>::_M_get_insert_hint_unique_pos(std::_Rb_tree_const_iterator<std::pair<unsigned int const, CPrismDirect::TextureSetCache_t*>>, unsigned int const&)
-std::_Rb_tree<unsigned int, std::pair<unsigned int const, CPrismDirect::TextureSetCache_t*>, std::_Select1st<std::pair<unsigned int const, CPrismDirect::TextureSetCache_t*>>, std::less<unsigned int>, std::allocator<std::pair<unsigned int const, CPrismDirect::TextureSetCache_t*>>>::_M_get_insert_unique_pos(unsigned int const&)
 std::_Rb_tree<unsigned int, std::pair<unsigned int const, std::map<std::string, unsigned int, std::less<std::string>, std::allocator<std::pair<std::string const, unsigned int>>>>, std::_Select1st<std::pair<unsigned int const, std::map<std::string, unsigned int, std::less<std::string>, std::allocator<std::pair<std::string const, unsigned int>>>>>, std::less<unsigned int>, std::allocator<std::pair<unsigned int const, std::map<std::string, unsigned int, std::less<std::string>, std::allocator<std::pair<std::string const, unsigned int>>>>>>::_M_erase(std::_Rb_tree_node<std::pair<unsigned int const, std::map<std::string, unsigned int, std::less<std::string>, std::allocator<std::pair<std::string const, unsigned int>>>>>*)
 std::_Rb_tree<unsigned int, std::pair<unsigned int const, std::map<std::string, unsigned int, std::less<std::string>, std::allocator<std::pair<std::string const, unsigned int>>>>, std::_Select1st<std::pair<unsigned int const, std::map<std::string, unsigned int, std::less<std::string>, std::allocator<std::pair<std::string const, unsigned int>>>>>, std::less<unsigned int>, std::allocator<std::pair<unsigned int const, std::map<std::string, unsigned int, std::less<std::string>, std::allocator<std::pair<std::string const, unsigned int>>>>>>::_M_get_insert_hint_unique_pos(std::_Rb_tree_const_iterator<std::pair<unsigned int const, std::map<std::string, unsigned int, std::less<std::string>, std::allocator<std::pair<std::string const, unsigned int>>>>>, unsigned int const&)
 std::_Rb_tree<unsigned int, std::pair<unsigned int const, std::map<std::string, unsigned int, std::less<std::string>, std::allocator<std::pair<std::string const, unsigned int>>>>, std::_Select1st<std::pair<unsigned int const, std::map<std::string, unsigned int, std::less<std::string>, std::allocator<std::pair<std::string const, unsigned int>>>>>, std::less<unsigned int>, std::allocator<std::pair<unsigned int const, std::map<std::string, unsigned int, std::less<std::string>, std::allocator<std::pair<std::string const, unsigned int>>>>>>::_M_get_insert_unique_pos(unsigned int const&)
@@ -14694,8 +13795,6 @@ std::_Rb_tree_increment(std::_Rb_tree_node_base const*)
 std::_Rb_tree_increment(std::_Rb_tree_node_base*)
 std::_Rb_tree_increment(std::_Rb_tree_node_base*) (.localalias)
 std::_Rb_tree_insert_and_rebalance(bool, std::_Rb_tree_node_base*, std::_Rb_tree_node_base*, std::_Rb_tree_node_base&)
-std::_Rb_tree_iterator<std::pair<CVkTimeline* const, CVkGarbageCollector::Bucket_t>> std::_Rb_tree<CVkTimeline*, std::pair<CVkTimeline* const, CVkGarbageCollector::Bucket_t>, std::_Select1st<std::pair<CVkTimeline* const, CVkGarbageCollector::Bucket_t>>, std::less<CVkTimeline*>, std::allocator<std::pair<CVkTimeline* const, CVkGarbageCollector::Bucket_t>>>::_M_emplace_hint_unique<std::piecewise_construct_t const&, std::tuple<CVkTimeline* const&>, std::tuple<>>(std::_Rb_tree_const_iterator<std::pair<CVkTimeline* const, CVkGarbageCollector::Bucket_t>>, std::piecewise_construct_t const&, std::tuple<CVkTimeline* const&>&&, std::tuple<>&&)
-std::_Rb_tree_iterator<std::pair<IPC::CIPCHandle const, CPrismDirect::TextureSet_t*>> std::_Rb_tree<IPC::CIPCHandle, std::pair<IPC::CIPCHandle const, CPrismDirect::TextureSet_t*>, std::_Select1st<std::pair<IPC::CIPCHandle const, CPrismDirect::TextureSet_t*>>, std::less<IPC::CIPCHandle>, std::allocator<std::pair<IPC::CIPCHandle const, CPrismDirect::TextureSet_t*>>>::_M_emplace_hint_unique<std::piecewise_construct_t const&, std::tuple<IPC::CIPCHandle const&>, std::tuple<>>(std::_Rb_tree_const_iterator<std::pair<IPC::CIPCHandle const, CPrismDirect::TextureSet_t*>>, std::piecewise_construct_t const&, std::tuple<IPC::CIPCHandle const&>&&, std::tuple<>&&)
 std::_Rb_tree_iterator<std::pair<Json::Value::CZString const, Json::Value>> std::_Rb_tree<Json::Value::CZString, std::pair<Json::Value::CZString const, Json::Value>, std::_Select1st<std::pair<Json::Value::CZString const, Json::Value>>, std::less<Json::Value::CZString>, std::allocator<std::pair<Json::Value::CZString const, Json::Value>>>::_M_emplace_hint_unique<std::pair<Json::Value::CZString const, Json::Value>&>(std::_Rb_tree_const_iterator<std::pair<Json::Value::CZString const, Json::Value>>, std::pair<Json::Value::CZString const, Json::Value>&)
 std::_Rb_tree_iterator<std::pair<std::pair<std::string, int> const, std::pair<void const*, int>>> std::_Rb_tree<std::pair<std::string, int>, std::pair<std::pair<std::string, int> const, std::pair<void const*, int>>, std::_Select1st<std::pair<std::pair<std::string, int> const, std::pair<void const*, int>>>, std::less<std::pair<std::string, int>>, std::allocator<std::pair<std::pair<std::string, int> const, std::pair<void const*, int>>>>::_M_insert_<std::pair<std::pair<std::string, int> const, std::pair<void const*, int>> const&>(std::_Rb_tree_node_base*, std::_Rb_tree_node_base*, std::pair<std::pair<std::string, int> const, std::pair<void const*, int>> const&)
 std::_Rb_tree_iterator<std::pair<std::string const, CWatchdogConnectionMonitor*>> std::_Rb_tree<std::string, std::pair<std::string const, CWatchdogConnectionMonitor*>, std::_Select1st<std::pair<std::string const, CWatchdogConnectionMonitor*>>, std::less<std::string>, std::allocator<std::pair<std::string const, CWatchdogConnectionMonitor*>>>::_M_emplace_hint_unique<std::piecewise_construct_t const&, std::tuple<std::string const&>, std::tuple<>>(std::_Rb_tree_const_iterator<std::pair<std::string const, CWatchdogConnectionMonitor*>>, std::piecewise_construct_t const&, std::tuple<std::string const&>&&, std::tuple<>&&)
@@ -16745,10 +15844,8 @@ std::ctype_byname<wchar_t>::ctype_byname(char const*, unsigned long) (.cold)
 std::ctype_byname<wchar_t>::ctype_byname(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>> const&, unsigned long)
 std::ctype_byname<wchar_t>::ctype_byname(std::string const&, unsigned long)
 std::ctype_byname<wchar_t>::~ctype_byname()
-std::default_delete<CVkExtensionInfo>::operator()(CVkExtensionInfo*) const (.isra.0)
 std::default_delete<std::unordered_map<std::string, std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::pair<std::string const, std::string>>>>::operator()(std::unordered_map<std::string, std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::pair<std::string const, std::string>>>*) const (.isra.0) (.part.0)
 std::deque<CAnimPose*, std::allocator<CAnimPose*>>::_M_reallocate_map(unsigned long, bool)
-std::deque<CVkCommandBuffer*, std::allocator<CVkCommandBuffer*>>::_M_reallocate_map(unsigned long, bool)
 std::deque<Json::OurReader::ErrorInfo, std::allocator<Json::OurReader::ErrorInfo>>::_M_default_append(unsigned long) (.part.0)
 std::deque<Json::OurReader::ErrorInfo, std::allocator<Json::OurReader::ErrorInfo>>::_M_destroy_data_aux(std::_Deque_iterator<Json::OurReader::ErrorInfo, Json::OurReader::ErrorInfo&, Json::OurReader::ErrorInfo*>, std::_Deque_iterator<Json::OurReader::ErrorInfo, Json::OurReader::ErrorInfo&, Json::OurReader::ErrorInfo*>)
 std::deque<Json::OurReader::ErrorInfo, std::allocator<Json::OurReader::ErrorInfo>>::_M_new_elements_at_back(unsigned long)
@@ -16778,7 +15875,6 @@ std::domain_error::domain_error(char const*)
 std::domain_error::domain_error(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>> const&)
 std::domain_error::domain_error(std::string const&)
 std::domain_error::~domain_error()
-std::enable_if<std::__and_<std::__not_<std::__is_tuple_like<PhysicalDeviceInfo_t>>, std::is_move_constructible<PhysicalDeviceInfo_t>, std::is_move_assignable<PhysicalDeviceInfo_t>>::value, void>::type std::swap<PhysicalDeviceInfo_t>(PhysicalDeviceInfo_t&, PhysicalDeviceInfo_t&)
 std::error_code::default_error_condition() const
 std::exception
 std::exception::what() const
@@ -17490,9 +16586,6 @@ std::overflow_error::~overflow_error()
 std::pair<Json::Value::CZString const, Json::Value>::~pair()
 std::pair<bool, nlohmann::basic_json<std::map, std::vector, std::string, bool, long, unsigned long, double, std::allocator, nlohmann::adl_serializer, std::vector<unsigned char, std::allocator<unsigned char>>>*> nlohmann::detail::json_sax_dom_callback_parser<nlohmann::basic_json<std::map, std::vector, std::string, bool, long, unsigned long, double, std::allocator, nlohmann::adl_serializer, std::vector<unsigned char, std::allocator<unsigned char>>>>::handle_value<bool&>(bool&, bool)
 std::pair<bool, nlohmann::basic_json<std::map, std::vector, std::string, bool, long, unsigned long, double, std::allocator, nlohmann::adl_serializer, std::vector<unsigned char, std::allocator<unsigned char>>>*> nlohmann::detail::json_sax_dom_callback_parser<nlohmann::basic_json<std::map, std::vector, std::string, bool, long, unsigned long, double, std::allocator, nlohmann::adl_serializer, std::vector<unsigned char, std::allocator<unsigned char>>>>::handle_value<nlohmann::detail::value_t>(nlohmann::detail::value_t&&, bool)
-std::pair<std::_Rb_tree_iterator<CPrismDirect::TextureSet_t*>, bool> std::_Rb_tree<CPrismDirect::TextureSet_t*, CPrismDirect::TextureSet_t*, std::_Identity<CPrismDirect::TextureSet_t*>, std::less<CPrismDirect::TextureSet_t*>, std::allocator<CPrismDirect::TextureSet_t*>>::_M_insert_unique<CPrismDirect::TextureSet_t* const&>(CPrismDirect::TextureSet_t* const&)
-std::pair<std::_Rb_tree_iterator<CVkResourceBase*>, bool> std::_Rb_tree<CVkResourceBase*, CVkResourceBase*, std::_Identity<CVkResourceBase*>, CVkResourceComparator, std::allocator<CVkResourceBase*>>::_M_insert_unique<CVkResourceBase* const&>(CVkResourceBase* const&)
-std::pair<std::_Rb_tree_iterator<facet::CCompositionClient::SwapchainImage_t>, bool> std::_Rb_tree<facet::CCompositionClient::SwapchainImage_t, facet::CCompositionClient::SwapchainImage_t, std::_Identity<facet::CCompositionClient::SwapchainImage_t>, std::less<facet::CCompositionClient::SwapchainImage_t>, std::allocator<facet::CCompositionClient::SwapchainImage_t>>::_M_insert_unique<facet::CCompositionClient::SwapchainImage_t const&>(facet::CCompositionClient::SwapchainImage_t const&)
 std::pair<std::_Rb_tree_iterator<google::protobuf::FileDescriptor const*>, bool> std::_Rb_tree<google::protobuf::FileDescriptor const*, google::protobuf::FileDescriptor const*, std::_Identity<google::protobuf::FileDescriptor const*>, std::less<google::protobuf::FileDescriptor const*>, std::allocator<google::protobuf::FileDescriptor const*>>::_M_insert_unique<google::protobuf::FileDescriptor const* const&>(google::protobuf::FileDescriptor const* const&)
 std::pair<std::_Rb_tree_iterator<int>, bool> std::_Rb_tree<int, int, std::_Identity<int>, std::less<int>, std::allocator<int>>::_M_insert_unique<int const&>(int const&)
 std::pair<std::_Rb_tree_iterator<int>, bool> std::_Rb_tree<int, int, std::_Identity<int>, std::less<int>, std::allocator<int>>::_M_insert_unique<int>(int&&)
@@ -17509,8 +16602,6 @@ std::pair<std::_Rb_tree_iterator<std::string>, bool> std::_Rb_tree<std::string, 
 std::pair<std::_Rb_tree_iterator<std::string>, bool> std::_Rb_tree<std::string, std::string, std::_Identity<std::string>, std::less<std::string>, std::allocator<std::string>>::_M_insert_unique<std::string>(std::string&&)
 std::pair<std::_Rb_tree_iterator<unsigned int>, bool> std::_Rb_tree<unsigned int, unsigned int, std::_Identity<unsigned int>, std::less<unsigned int>, std::allocator<unsigned int>>::_M_insert_unique<unsigned int const&>(unsigned int const&)
 std::pair<std::_Rb_tree_iterator<vortex::CSyncDetect::BasestationInfo_t const*>, bool> std::_Rb_tree<vortex::CSyncDetect::BasestationInfo_t const*, vortex::CSyncDetect::BasestationInfo_t const*, std::_Identity<vortex::CSyncDetect::BasestationInfo_t const*>, std::less<vortex::CSyncDetect::BasestationInfo_t const*>, std::allocator<vortex::CSyncDetect::BasestationInfo_t const*>>::_M_insert_unique<vortex::CSyncDetect::BasestationInfo_t const*>(vortex::CSyncDetect::BasestationInfo_t const*&&)
-std::pair<std::__detail::_Node_iterator<std::pair<std::string const, CVkExtensionEntry>, false, true>, bool> std::_Hashtable<std::string, std::pair<std::string const, CVkExtensionEntry>, std::allocator<std::pair<std::string const, CVkExtensionEntry>>, std::__detail::_Select1st, std::equal_to<std::string>, std::hash<std::string>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, false, true>>::_M_emplace<char const*&, char const*&>(std::integral_constant<bool, true>, char const*&, char const*&)
-std::pair<std::string const, CVkExtensionEntry>::~pair()
 std::pair<std::string const, std::shared_ptr<vortex::CLighthouseInput::CConnection>>::~pair()
 std::pair<std::string const, std::string>::~pair()
 std::pair<std::string const, std::unique_ptr<std::unordered_map<std::string, std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::pair<std::string const, std::string>>>, std::default_delete<std::unordered_map<std::string, std::string, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::pair<std::string const, std::string>>>>>>::~pair()
@@ -17840,12 +16931,6 @@ std::vector<CTrackedCameraCalibration, std::allocator<CTrackedCameraCalibration>
 std::vector<CTrackedCameraCalibration, std::allocator<CTrackedCameraCalibration>>::~vector()
 std::vector<LighthouseScaleData_t, std::allocator<LighthouseScaleData_t>>::~vector()
 std::vector<OpResult, std::allocator<OpResult>>::reserve(unsigned long)
-std::vector<VkExtensionProperties, std::allocator<VkExtensionProperties>>::_M_default_append(unsigned long)
-std::vector<VkLayerProperties, std::allocator<VkLayerProperties>>::_M_default_append(unsigned long)
-std::vector<VkQueueFamilyGlobalPriorityProperties, std::allocator<VkQueueFamilyGlobalPriorityProperties>>::_M_default_append(unsigned long)
-std::vector<VkQueueFamilyGlobalPriorityProperties, std::allocator<VkQueueFamilyGlobalPriorityProperties>>::operator=(std::vector<VkQueueFamilyGlobalPriorityProperties, std::allocator<VkQueueFamilyGlobalPriorityProperties>> const&)
-std::vector<VkQueueFamilyProperties2, std::allocator<VkQueueFamilyProperties2>>::_M_default_append(unsigned long)
-std::vector<VkQueueFamilyProperties2, std::allocator<VkQueueFamilyProperties2>>::operator=(std::vector<VkQueueFamilyProperties2, std::allocator<VkQueueFamilyProperties2>> const&)
 std::vector<bool, std::allocator<bool>>::_M_fill_insert(std::_Bit_iterator, unsigned long, bool)
 std::vector<bool, std::allocator<bool>>::_M_insert_aux(std::_Bit_iterator, bool)
 std::vector<bool, std::allocator<bool>>::push_back(bool)
@@ -17889,10 +16974,8 @@ std::vector<std::string, std::allocator<std::string>>::_M_check_len(unsigned lon
 std::vector<std::string, std::allocator<std::string>>::_M_insert_rval(__gnu_cxx::__normal_iterator<std::string const*, std::vector<std::string, std::allocator<std::string>>>, std::string&&)
 std::vector<std::string, std::allocator<std::string>>::operator=(std::vector<std::string, std::allocator<std::string>> const&)
 std::vector<std::string, std::allocator<std::string>>::reserve(unsigned long)
-std::vector<std::string, std::allocator<std::string>>::vector(std::initializer_list<std::string>, std::allocator<std::string> const&)
 std::vector<std::string, std::allocator<std::string>>::~vector()
 std::vector<std::unique_ptr<CAnimPosePool::Block, std::default_delete<CAnimPosePool::Block>>, std::allocator<std::unique_ptr<CAnimPosePool::Block, std::default_delete<CAnimPosePool::Block>>>>::~vector()
-std::vector<std::unique_ptr<CVkCommandBuffer, CVkResourceDeleter<CVkCommandBuffer>>, std::allocator<std::unique_ptr<CVkCommandBuffer, CVkResourceDeleter<CVkCommandBuffer>>>>::~vector()
 std::vector<tinygltf::Accessor, std::allocator<tinygltf::Accessor>>::~vector()
 std::vector<tinygltf::Animation, std::allocator<tinygltf::Animation>>::~vector()
 std::vector<tinygltf::AudioEmitter, std::allocator<tinygltf::AudioEmitter>>::~vector()
@@ -17989,7 +17072,6 @@ succeeded
 success
 supported
 sv_se
-swapchainImage.GetState() != CSwapchain::CImage::State_t::ApplicationAcquired
 swedish
 synconbeam
 syntax = "proto2";\n\n
@@ -18440,8 +17522,6 @@ typeinfo for CLinuxVideoStream
 typeinfo for CLogBuffer::CLogBuffer()::'lambda'(ELogLevel, char const*, void*)
 typeinfo for CNonCopyable
 typeinfo for CPreviewThread
-typeinfo for CPrismDirect
-typeinfo for CPrismDirect::CPrismDirect()::'lambda'(ELogLevel, char const*, void*)
 typeinfo for CPropertyContainer
 typeinfo for CPropertyManager
 typeinfo for CRefCount
@@ -18477,7 +17557,6 @@ typeinfo for CVRDriverDirectModeComponent_006
 typeinfo for CVRDriverDirectModeComponent_007
 typeinfo for CVRDriverDirectModeComponent_008
 typeinfo for CVRDriverDirectModeComponent_Latest
-typeinfo for CVRFramerateGovernor
 typeinfo for CVRLog::InitLog(char const*, char const*, bool, unsigned long)::'lambda'(ELogLevel, char const*, void*)
 typeinfo for CVRMailbox
 typeinfo for CVRMailbox::AutoForwardMessageType(std::string, std::string const&)::'lambda'(Json::Value const&)
@@ -18488,17 +17567,6 @@ typeinfo for CVRTrackedDevice_Latest
 typeinfo for CVRVirtualDisplayComponentAdapter
 typeinfo for CVRVirtualDisplayComponent_001
 typeinfo for CVRVirtualDisplayComponent_Latest
-typeinfo for CVkBuffer
-typeinfo for CVkCommandBuffer
-typeinfo for CVkCommandBufferPool
-typeinfo for CVkGarbageCollector
-typeinfo for CVkImage
-typeinfo for CVkMemory
-typeinfo for CVkPoolGarbageCollector<CVkCommandBuffer>
-typeinfo for CVkPoolableResource<CVkCommandBufferPool>
-typeinfo for CVkResourceBase
-typeinfo for CVkResourcePool<CVkCommandBuffer>
-typeinfo for CVkTimeline
 typeinfo for CVrcDecodeTagged
 typeinfo for CWatchdogConnectionMonitor
 typeinfo for CWatchdogDriver_Lighthouse
@@ -18651,13 +17719,6 @@ typeinfo for decimal64*
 typeinfo for double
 typeinfo for double const*
 typeinfo for double*
-typeinfo for facet::CVkInteropDeviceNull
-typeinfo for facet::CVkInteropImageNull
-typeinfo for facet::CVkTimestampQueryPool<2u>
-typeinfo for facet::CVkTimestampQueryPoolBase
-typeinfo for facet::IFramerateGovernor
-typeinfo for facet::IVkInteropDevice
-typeinfo for facet::IVkInteropImage
 typeinfo for float
 typeinfo for float const*
 typeinfo for float*
@@ -19126,8 +18187,6 @@ typeinfo name for CLinuxVideoStream
 typeinfo name for CLogBuffer::CLogBuffer()::'lambda'(ELogLevel, char const*, void*)
 typeinfo name for CNonCopyable
 typeinfo name for CPreviewThread
-typeinfo name for CPrismDirect
-typeinfo name for CPrismDirect::CPrismDirect()::'lambda'(ELogLevel, char const*, void*)
 typeinfo name for CPropertyContainer
 typeinfo name for CPropertyManager
 typeinfo name for CRefCount
@@ -19163,7 +18222,6 @@ typeinfo name for CVRDriverDirectModeComponent_006
 typeinfo name for CVRDriverDirectModeComponent_007
 typeinfo name for CVRDriverDirectModeComponent_008
 typeinfo name for CVRDriverDirectModeComponent_Latest
-typeinfo name for CVRFramerateGovernor
 typeinfo name for CVRLog::InitLog(char const*, char const*, bool, unsigned long)::'lambda'(ELogLevel, char const*, void*)
 typeinfo name for CVRMailbox
 typeinfo name for CVRMailbox::AutoForwardMessageType(std::string, std::string const&)::'lambda'(Json::Value const&)
@@ -19174,17 +18232,6 @@ typeinfo name for CVRTrackedDevice_Latest
 typeinfo name for CVRVirtualDisplayComponentAdapter
 typeinfo name for CVRVirtualDisplayComponent_001
 typeinfo name for CVRVirtualDisplayComponent_Latest
-typeinfo name for CVkBuffer
-typeinfo name for CVkCommandBuffer
-typeinfo name for CVkCommandBufferPool
-typeinfo name for CVkGarbageCollector
-typeinfo name for CVkImage
-typeinfo name for CVkMemory
-typeinfo name for CVkPoolGarbageCollector<CVkCommandBuffer>
-typeinfo name for CVkPoolableResource<CVkCommandBufferPool>
-typeinfo name for CVkResourceBase
-typeinfo name for CVkResourcePool<CVkCommandBuffer>
-typeinfo name for CVkTimeline
 typeinfo name for CVrcDecodeTagged
 typeinfo name for CWatchdogConnectionMonitor
 typeinfo name for CWatchdogDriver_Lighthouse
@@ -19337,13 +18384,6 @@ typeinfo name for decimal64*
 typeinfo name for double
 typeinfo name for double const*
 typeinfo name for double*
-typeinfo name for facet::CVkInteropDeviceNull
-typeinfo name for facet::CVkInteropImageNull
-typeinfo name for facet::CVkTimestampQueryPool<2u>
-typeinfo name for facet::CVkTimestampQueryPoolBase
-typeinfo name for facet::IFramerateGovernor
-typeinfo name for facet::IVkInteropDevice
-typeinfo name for facet::IVkInteropImage
 typeinfo name for float
 typeinfo name for float const*
 typeinfo name for float*
@@ -19816,7 +18856,6 @@ unsigned char* google::protobuf::internal::WireFormatLite::WriteMessageNoVirtual
 unsigned char* google::protobuf::internal::WireFormatLite::WriteMessageNoVirtualToArray<google::protobuf::UninterpretedOption>(int, google::protobuf::UninterpretedOption const&, unsigned char*)
 unsigned int
 unsigned int const& google::protobuf::internal::GeneratedMessageReflection::GetRaw<unsigned int>(google::protobuf::Message const&, google::protobuf::FieldDescriptor const*) const
-unsigned int& std::vector<unsigned int, std::allocator<unsigned int>>::emplace_back<unsigned int>(unsigned int&&)
 unsigned int* google::protobuf::internal::GeneratedMessageReflection::MutableRaw<unsigned int>(google::protobuf::Message*, google::protobuf::FieldDescriptor const*) const
 unsigned long
 unsigned long const& google::protobuf::internal::GeneratedMessageReflection::GetRaw<unsigned long>(google::protobuf::Message const&, google::protobuf::FieldDescriptor const*) const
@@ -19826,7 +18865,6 @@ unsigned short
 unsupported bit depth
 unsupported data layout
 unsupported format
-unsupported platform
 updated lenscal
 updated subpixel_shift(s)
 upper
@@ -19903,708 +18941,6 @@ viveVR
 vive_controller
 vive_pro
 vivewand_hand_poses.glb
-vkAcquireDrmDisplayEXT
-vkAcquireNextImage2KHR
-vkAcquireNextImageKHR
-vkAcquirePerformanceConfigurationINTEL
-vkAcquireProfilingLockKHR
-vkAcquireXlibDisplayEXT
-vkAllocateCommandBuffers
-vkAllocateDescriptorSets
-vkAllocateMemory
-vkAntiLagUpdateAMD
-vkBeginCommandBuffer
-vkBindAccelerationStructureMemoryNV
-vkBindBufferMemory
-vkBindBufferMemory2
-vkBindBufferMemory2KHR
-vkBindDataGraphPipelineSessionMemoryARM
-vkBindImageMemory
-vkBindImageMemory2
-vkBindImageMemory2KHR
-vkBindOpticalFlowSessionImageNV
-vkBindTensorMemoryARM
-vkBindVideoSessionMemoryKHR
-vkBuildAccelerationStructuresKHR
-vkBuildMicromapsEXT
-vkCmdBeginConditionalRenderingEXT
-vkCmdBeginDebugUtilsLabelEXT
-vkCmdBeginPerTileExecutionQCOM
-vkCmdBeginQuery
-vkCmdBeginQueryIndexedEXT
-vkCmdBeginRenderPass
-vkCmdBeginRenderPass2
-vkCmdBeginRenderPass2KHR
-vkCmdBeginRendering
-vkCmdBeginRenderingKHR
-vkCmdBeginTransformFeedbackEXT
-vkCmdBeginVideoCodingKHR
-vkCmdBindDescriptorBufferEmbeddedSamplers2EXT
-vkCmdBindDescriptorBufferEmbeddedSamplersEXT
-vkCmdBindDescriptorBuffersEXT
-vkCmdBindDescriptorSets
-vkCmdBindDescriptorSets2
-vkCmdBindDescriptorSets2KHR
-vkCmdBindIndexBuffer
-vkCmdBindIndexBuffer2
-vkCmdBindIndexBuffer2KHR
-vkCmdBindInvocationMaskHUAWEI
-vkCmdBindPipeline
-vkCmdBindPipelineShaderGroupNV
-vkCmdBindShadersEXT
-vkCmdBindShadingRateImageNV
-vkCmdBindTileMemoryQCOM
-vkCmdBindTransformFeedbackBuffersEXT
-vkCmdBindVertexBuffers
-vkCmdBindVertexBuffers2
-vkCmdBindVertexBuffers2EXT
-vkCmdBlitImage
-vkCmdBlitImage2
-vkCmdBlitImage2KHR
-vkCmdBuildAccelerationStructureNV
-vkCmdBuildAccelerationStructuresIndirectKHR
-vkCmdBuildAccelerationStructuresKHR
-vkCmdBuildClusterAccelerationStructureIndirectNV
-vkCmdBuildMicromapsEXT
-vkCmdBuildPartitionedAccelerationStructuresNV
-vkCmdClearAttachments
-vkCmdClearColorImage
-vkCmdClearDepthStencilImage
-vkCmdControlVideoCodingKHR
-vkCmdConvertCooperativeVectorMatrixNV
-vkCmdCopyAccelerationStructureKHR
-vkCmdCopyAccelerationStructureNV
-vkCmdCopyAccelerationStructureToMemoryKHR
-vkCmdCopyBuffer
-vkCmdCopyBuffer2
-vkCmdCopyBuffer2KHR
-vkCmdCopyBufferToImage
-vkCmdCopyBufferToImage2
-vkCmdCopyBufferToImage2KHR
-vkCmdCopyImage
-vkCmdCopyImage2
-vkCmdCopyImage2KHR
-vkCmdCopyImageToBuffer
-vkCmdCopyImageToBuffer2
-vkCmdCopyImageToBuffer2KHR
-vkCmdCopyMemoryIndirectNV
-vkCmdCopyMemoryToAccelerationStructureKHR
-vkCmdCopyMemoryToImageIndirectNV
-vkCmdCopyMemoryToMicromapEXT
-vkCmdCopyMicromapEXT
-vkCmdCopyMicromapToMemoryEXT
-vkCmdCopyQueryPoolResults
-vkCmdCopyTensorARM
-vkCmdCuLaunchKernelNVX
-vkCmdDebugMarkerBeginEXT
-vkCmdDebugMarkerEndEXT
-vkCmdDebugMarkerInsertEXT
-vkCmdDecodeVideoKHR
-vkCmdDecompressMemoryIndirectCountNV
-vkCmdDecompressMemoryNV
-vkCmdDispatch
-vkCmdDispatchBase
-vkCmdDispatchBaseKHR
-vkCmdDispatchDataGraphARM
-vkCmdDispatchIndirect
-vkCmdDispatchTileQCOM
-vkCmdDraw
-vkCmdDrawClusterHUAWEI
-vkCmdDrawClusterIndirectHUAWEI
-vkCmdDrawIndexed
-vkCmdDrawIndexedIndirect
-vkCmdDrawIndexedIndirectCount
-vkCmdDrawIndexedIndirectCountAMD
-vkCmdDrawIndexedIndirectCountKHR
-vkCmdDrawIndirect
-vkCmdDrawIndirectByteCountEXT
-vkCmdDrawIndirectCount
-vkCmdDrawIndirectCountAMD
-vkCmdDrawIndirectCountKHR
-vkCmdDrawMeshTasksEXT
-vkCmdDrawMeshTasksIndirectCountEXT
-vkCmdDrawMeshTasksIndirectCountNV
-vkCmdDrawMeshTasksIndirectEXT
-vkCmdDrawMeshTasksIndirectNV
-vkCmdDrawMeshTasksNV
-vkCmdDrawMultiEXT
-vkCmdDrawMultiIndexedEXT
-vkCmdEncodeVideoKHR
-vkCmdEndConditionalRenderingEXT
-vkCmdEndDebugUtilsLabelEXT
-vkCmdEndPerTileExecutionQCOM
-vkCmdEndQuery
-vkCmdEndQueryIndexedEXT
-vkCmdEndRenderPass
-vkCmdEndRenderPass2
-vkCmdEndRenderPass2KHR
-vkCmdEndRendering
-vkCmdEndRendering2EXT
-vkCmdEndRenderingKHR
-vkCmdEndTransformFeedbackEXT
-vkCmdEndVideoCodingKHR
-vkCmdExecuteCommands
-vkCmdExecuteGeneratedCommandsEXT
-vkCmdExecuteGeneratedCommandsNV
-vkCmdFillBuffer
-vkCmdInsertDebugUtilsLabelEXT
-vkCmdNextSubpass
-vkCmdNextSubpass2
-vkCmdNextSubpass2KHR
-vkCmdOpticalFlowExecuteNV
-vkCmdPipelineBarrier
-vkCmdPipelineBarrier2
-vkCmdPipelineBarrier2KHR
-vkCmdPreprocessGeneratedCommandsEXT
-vkCmdPreprocessGeneratedCommandsNV
-vkCmdPushConstants
-vkCmdPushConstants2
-vkCmdPushConstants2KHR
-vkCmdPushDescriptorSet
-vkCmdPushDescriptorSet2
-vkCmdPushDescriptorSet2KHR
-vkCmdPushDescriptorSetKHR
-vkCmdPushDescriptorSetWithTemplate
-vkCmdPushDescriptorSetWithTemplate2
-vkCmdPushDescriptorSetWithTemplate2KHR
-vkCmdPushDescriptorSetWithTemplateKHR
-vkCmdResetEvent
-vkCmdResetEvent2
-vkCmdResetEvent2KHR
-vkCmdResetQueryPool
-vkCmdResolveImage
-vkCmdResolveImage2
-vkCmdResolveImage2KHR
-vkCmdSetAlphaToCoverageEnableEXT
-vkCmdSetAlphaToOneEnableEXT
-vkCmdSetAttachmentFeedbackLoopEnableEXT
-vkCmdSetBlendConstants
-vkCmdSetCheckpointNV
-vkCmdSetCoarseSampleOrderNV
-vkCmdSetColorBlendAdvancedEXT
-vkCmdSetColorBlendEnableEXT
-vkCmdSetColorBlendEquationEXT
-vkCmdSetColorWriteEnableEXT
-vkCmdSetColorWriteMaskEXT
-vkCmdSetConservativeRasterizationModeEXT
-vkCmdSetCoverageModulationModeNV
-vkCmdSetCoverageModulationTableEnableNV
-vkCmdSetCoverageModulationTableNV
-vkCmdSetCoverageReductionModeNV
-vkCmdSetCoverageToColorEnableNV
-vkCmdSetCoverageToColorLocationNV
-vkCmdSetCullMode
-vkCmdSetCullModeEXT
-vkCmdSetDepthBias
-vkCmdSetDepthBias2EXT
-vkCmdSetDepthBiasEnable
-vkCmdSetDepthBiasEnableEXT
-vkCmdSetDepthBounds
-vkCmdSetDepthBoundsTestEnable
-vkCmdSetDepthBoundsTestEnableEXT
-vkCmdSetDepthClampEnableEXT
-vkCmdSetDepthClampRangeEXT
-vkCmdSetDepthClipEnableEXT
-vkCmdSetDepthClipNegativeOneToOneEXT
-vkCmdSetDepthCompareOp
-vkCmdSetDepthCompareOpEXT
-vkCmdSetDepthTestEnable
-vkCmdSetDepthTestEnableEXT
-vkCmdSetDepthWriteEnable
-vkCmdSetDepthWriteEnableEXT
-vkCmdSetDescriptorBufferOffsets2EXT
-vkCmdSetDescriptorBufferOffsetsEXT
-vkCmdSetDeviceMask
-vkCmdSetDeviceMaskKHR
-vkCmdSetDiscardRectangleEXT
-vkCmdSetDiscardRectangleEnableEXT
-vkCmdSetDiscardRectangleModeEXT
-vkCmdSetEvent
-vkCmdSetEvent2
-vkCmdSetEvent2KHR
-vkCmdSetExclusiveScissorEnableNV
-vkCmdSetExclusiveScissorNV
-vkCmdSetExtraPrimitiveOverestimationSizeEXT
-vkCmdSetFragmentShadingRateEnumNV
-vkCmdSetFragmentShadingRateKHR
-vkCmdSetFrontFace
-vkCmdSetFrontFaceEXT
-vkCmdSetLineRasterizationModeEXT
-vkCmdSetLineStipple
-vkCmdSetLineStippleEXT
-vkCmdSetLineStippleEnableEXT
-vkCmdSetLineStippleKHR
-vkCmdSetLineWidth
-vkCmdSetLogicOpEXT
-vkCmdSetLogicOpEnableEXT
-vkCmdSetPatchControlPointsEXT
-vkCmdSetPerformanceMarkerINTEL
-vkCmdSetPerformanceOverrideINTEL
-vkCmdSetPerformanceStreamMarkerINTEL
-vkCmdSetPolygonModeEXT
-vkCmdSetPrimitiveRestartEnable
-vkCmdSetPrimitiveRestartEnableEXT
-vkCmdSetPrimitiveTopology
-vkCmdSetPrimitiveTopologyEXT
-vkCmdSetProvokingVertexModeEXT
-vkCmdSetRasterizationSamplesEXT
-vkCmdSetRasterizationStreamEXT
-vkCmdSetRasterizerDiscardEnable
-vkCmdSetRasterizerDiscardEnableEXT
-vkCmdSetRayTracingPipelineStackSizeKHR
-vkCmdSetRenderingAttachmentLocations
-vkCmdSetRenderingAttachmentLocationsKHR
-vkCmdSetRenderingInputAttachmentIndices
-vkCmdSetRenderingInputAttachmentIndicesKHR
-vkCmdSetRepresentativeFragmentTestEnableNV
-vkCmdSetSampleLocationsEXT
-vkCmdSetSampleLocationsEnableEXT
-vkCmdSetSampleMaskEXT
-vkCmdSetScissor
-vkCmdSetScissorWithCount
-vkCmdSetScissorWithCountEXT
-vkCmdSetShadingRateImageEnableNV
-vkCmdSetStencilCompareMask
-vkCmdSetStencilOp
-vkCmdSetStencilOpEXT
-vkCmdSetStencilReference
-vkCmdSetStencilTestEnable
-vkCmdSetStencilTestEnableEXT
-vkCmdSetStencilWriteMask
-vkCmdSetTessellationDomainOriginEXT
-vkCmdSetVertexInputEXT
-vkCmdSetViewport
-vkCmdSetViewportShadingRatePaletteNV
-vkCmdSetViewportSwizzleNV
-vkCmdSetViewportWScalingEnableNV
-vkCmdSetViewportWScalingNV
-vkCmdSetViewportWithCount
-vkCmdSetViewportWithCountEXT
-vkCmdSubpassShadingHUAWEI
-vkCmdTraceRaysIndirect2KHR
-vkCmdTraceRaysIndirectKHR
-vkCmdTraceRaysKHR
-vkCmdTraceRaysNV
-vkCmdUpdateBuffer
-vkCmdUpdatePipelineIndirectBufferNV
-vkCmdWaitEvents
-vkCmdWaitEvents2
-vkCmdWaitEvents2KHR
-vkCmdWriteAccelerationStructuresPropertiesKHR
-vkCmdWriteAccelerationStructuresPropertiesNV
-vkCmdWriteBufferMarker2AMD
-vkCmdWriteBufferMarkerAMD
-vkCmdWriteMicromapsPropertiesEXT
-vkCmdWriteTimestamp
-vkCmdWriteTimestamp2
-vkCmdWriteTimestamp2KHR
-vkCompileDeferredNV
-vkConvertCooperativeVectorMatrixNV
-vkCopyAccelerationStructureKHR
-vkCopyAccelerationStructureToMemoryKHR
-vkCopyImageToImage
-vkCopyImageToImageEXT
-vkCopyImageToMemory
-vkCopyImageToMemoryEXT
-vkCopyMemoryToAccelerationStructureKHR
-vkCopyMemoryToImage
-vkCopyMemoryToImageEXT
-vkCopyMemoryToMicromapEXT
-vkCopyMicromapEXT
-vkCopyMicromapToMemoryEXT
-vkCreateAccelerationStructureKHR
-vkCreateAccelerationStructureNV
-vkCreateBuffer
-vkCreateBufferView
-vkCreateCommandPool
-vkCreateComputePipelines
-vkCreateCuFunctionNVX
-vkCreateCuModuleNVX
-vkCreateDataGraphPipelineSessionARM
-vkCreateDataGraphPipelinesARM
-vkCreateDebugReportCallbackEXT
-vkCreateDebugUtilsMessengerEXT
-vkCreateDeferredOperationKHR
-vkCreateDescriptorPool
-vkCreateDescriptorSetLayout
-vkCreateDescriptorUpdateTemplate
-vkCreateDescriptorUpdateTemplateKHR
-vkCreateDevice
-vkCreateDisplayModeKHR
-vkCreateDisplayPlaneSurfaceKHR
-vkCreateEvent
-vkCreateExternalComputeQueueNV
-vkCreateFence
-vkCreateFramebuffer
-vkCreateGraphicsPipelines
-vkCreateHeadlessSurfaceEXT
-vkCreateImage
-vkCreateImageView
-vkCreateIndirectCommandsLayoutEXT
-vkCreateIndirectCommandsLayoutNV
-vkCreateIndirectExecutionSetEXT
-vkCreateInstance
-vkCreateMicromapEXT
-vkCreateOpticalFlowSessionNV
-vkCreatePipelineBinariesKHR
-vkCreatePipelineCache
-vkCreatePipelineLayout
-vkCreatePrivateDataSlot
-vkCreatePrivateDataSlotEXT
-vkCreateQueryPool
-vkCreateRayTracingPipelinesKHR
-vkCreateRayTracingPipelinesNV
-vkCreateRenderPass
-vkCreateRenderPass2
-vkCreateRenderPass2KHR
-vkCreateSampler
-vkCreateSamplerYcbcrConversion
-vkCreateSamplerYcbcrConversionKHR
-vkCreateSemaphore
-vkCreateShaderModule
-vkCreateShadersEXT
-vkCreateSharedSwapchainsKHR
-vkCreateSwapchainKHR
-vkCreateTensorARM
-vkCreateTensorViewARM
-vkCreateValidationCacheEXT
-vkCreateVideoSessionKHR
-vkCreateVideoSessionParametersKHR
-vkCreateXcbSurfaceKHR
-vkDebugMarkerSetObjectNameEXT
-vkDebugMarkerSetObjectTagEXT
-vkDebugReportMessageEXT
-vkDeferredOperationJoinKHR
-vkDestroyAccelerationStructureKHR
-vkDestroyAccelerationStructureNV
-vkDestroyBuffer
-vkDestroyBufferView
-vkDestroyCommandPool
-vkDestroyCuFunctionNVX
-vkDestroyCuModuleNVX
-vkDestroyDataGraphPipelineSessionARM
-vkDestroyDebugReportCallbackEXT
-vkDestroyDebugUtilsMessengerEXT
-vkDestroyDeferredOperationKHR
-vkDestroyDescriptorPool
-vkDestroyDescriptorSetLayout
-vkDestroyDescriptorUpdateTemplate
-vkDestroyDescriptorUpdateTemplateKHR
-vkDestroyDevice
-vkDestroyEvent
-vkDestroyExternalComputeQueueNV
-vkDestroyFence
-vkDestroyFramebuffer
-vkDestroyImage
-vkDestroyImageView
-vkDestroyIndirectCommandsLayoutEXT
-vkDestroyIndirectCommandsLayoutNV
-vkDestroyIndirectExecutionSetEXT
-vkDestroyInstance
-vkDestroyMicromapEXT
-vkDestroyOpticalFlowSessionNV
-vkDestroyPipeline
-vkDestroyPipelineBinaryKHR
-vkDestroyPipelineCache
-vkDestroyPipelineLayout
-vkDestroyPrivateDataSlot
-vkDestroyPrivateDataSlotEXT
-vkDestroyQueryPool
-vkDestroyRenderPass
-vkDestroySampler
-vkDestroySamplerYcbcrConversion
-vkDestroySamplerYcbcrConversionKHR
-vkDestroySemaphore
-vkDestroyShaderEXT
-vkDestroyShaderModule
-vkDestroySurfaceKHR
-vkDestroySwapchainKHR
-vkDestroyTensorARM
-vkDestroyTensorViewARM
-vkDestroyValidationCacheEXT
-vkDestroyVideoSessionKHR
-vkDestroyVideoSessionParametersKHR
-vkDeviceWaitIdle
-vkDisplayPowerControlEXT
-vkEndCommandBuffer
-vkEnumerateDeviceExtensionProperties
-vkEnumerateDeviceLayerProperties
-vkEnumerateInstanceExtensionProperties
-vkEnumerateInstanceLayerProperties
-vkEnumerateInstanceVersion
-vkEnumeratePhysicalDeviceGroups
-vkEnumeratePhysicalDeviceGroupsKHR
-vkEnumeratePhysicalDeviceQueueFamilyPerformanceQueryCountersKHR
-vkEnumeratePhysicalDevices
-vkFlushMappedMemoryRanges
-vkFreeCommandBuffers
-vkFreeDescriptorSets
-vkFreeMemory
-vkGetAccelerationStructureBuildSizesKHR
-vkGetAccelerationStructureDeviceAddressKHR
-vkGetAccelerationStructureHandleNV
-vkGetAccelerationStructureMemoryRequirementsNV
-vkGetAccelerationStructureOpaqueCaptureDescriptorDataEXT
-vkGetBufferDeviceAddress
-vkGetBufferDeviceAddressEXT
-vkGetBufferDeviceAddressKHR
-vkGetBufferMemoryRequirements
-vkGetBufferMemoryRequirements2
-vkGetBufferMemoryRequirements2KHR
-vkGetBufferOpaqueCaptureAddress
-vkGetBufferOpaqueCaptureAddressKHR
-vkGetBufferOpaqueCaptureDescriptorDataEXT
-vkGetCalibratedTimestampsEXT
-vkGetCalibratedTimestampsKHR
-vkGetClusterAccelerationStructureBuildSizesNV
-vkGetDataGraphPipelineAvailablePropertiesARM
-vkGetDataGraphPipelinePropertiesARM
-vkGetDataGraphPipelineSessionBindPointRequirementsARM
-vkGetDataGraphPipelineSessionMemoryRequirementsARM
-vkGetDeferredOperationMaxConcurrencyKHR
-vkGetDeferredOperationResultKHR
-vkGetDescriptorEXT
-vkGetDescriptorSetHostMappingVALVE
-vkGetDescriptorSetLayoutBindingOffsetEXT
-vkGetDescriptorSetLayoutHostMappingInfoVALVE
-vkGetDescriptorSetLayoutSizeEXT
-vkGetDescriptorSetLayoutSupport
-vkGetDescriptorSetLayoutSupportKHR
-vkGetDeviceAccelerationStructureCompatibilityKHR
-vkGetDeviceBufferMemoryRequirements
-vkGetDeviceBufferMemoryRequirementsKHR
-vkGetDeviceFaultInfoEXT
-vkGetDeviceGroupPeerMemoryFeatures
-vkGetDeviceGroupPeerMemoryFeaturesKHR
-vkGetDeviceGroupPresentCapabilitiesKHR
-vkGetDeviceGroupSurfacePresentModesKHR
-vkGetDeviceImageMemoryRequirements
-vkGetDeviceImageMemoryRequirementsKHR
-vkGetDeviceImageSparseMemoryRequirements
-vkGetDeviceImageSparseMemoryRequirementsKHR
-vkGetDeviceImageSubresourceLayout
-vkGetDeviceImageSubresourceLayoutKHR
-vkGetDeviceMemoryCommitment
-vkGetDeviceMemoryOpaqueCaptureAddress
-vkGetDeviceMemoryOpaqueCaptureAddressKHR
-vkGetDeviceMicromapCompatibilityEXT
-vkGetDeviceProcAddr
-vkGetDeviceProcAddrStub
-vkGetDeviceQueue
-vkGetDeviceQueue2
-vkGetDeviceSubpassShadingMaxWorkgroupSizeHUAWEI
-vkGetDeviceTensorMemoryRequirementsARM
-vkGetDisplayModeProperties2KHR
-vkGetDisplayModePropertiesKHR
-vkGetDisplayPlaneCapabilities2KHR
-vkGetDisplayPlaneCapabilitiesKHR
-vkGetDisplayPlaneSupportedDisplaysKHR
-vkGetDrmDisplayEXT
-vkGetDynamicRenderingTilePropertiesQCOM
-vkGetEncodedVideoSessionParametersKHR
-vkGetEventStatus
-vkGetExternalComputeQueueDataNV
-vkGetFenceFdKHR
-vkGetFenceStatus
-vkGetFramebufferTilePropertiesQCOM
-vkGetGeneratedCommandsMemoryRequirementsEXT
-vkGetGeneratedCommandsMemoryRequirementsNV
-vkGetImageDrmFormatModifierPropertiesEXT
-vkGetImageMemoryRequirements
-vkGetImageMemoryRequirements2
-vkGetImageMemoryRequirements2KHR
-vkGetImageOpaqueCaptureDescriptorDataEXT
-vkGetImageSparseMemoryRequirements
-vkGetImageSparseMemoryRequirements2
-vkGetImageSparseMemoryRequirements2KHR
-vkGetImageSubresourceLayout
-vkGetImageSubresourceLayout2
-vkGetImageSubresourceLayout2EXT
-vkGetImageSubresourceLayout2KHR
-vkGetImageViewAddressNVX
-vkGetImageViewHandle64NVX
-vkGetImageViewHandleNVX
-vkGetImageViewOpaqueCaptureDescriptorDataEXT
-vkGetInstanceProcAddr
-vkGetInstanceProcAddrStub
-vkGetLatencyTimingsNV
-vkGetMemoryFdKHR
-vkGetMemoryFdPropertiesKHR
-vkGetMemoryHostPointerPropertiesEXT
-vkGetMemoryRemoteAddressNV
-vkGetMicromapBuildSizesEXT
-vkGetPartitionedAccelerationStructuresBuildSizesNV
-vkGetPastPresentationTimingGOOGLE
-vkGetPerformanceParameterINTEL
-vkGetPhysicalDeviceCalibrateableTimeDomainsEXT
-vkGetPhysicalDeviceCalibrateableTimeDomainsKHR
-vkGetPhysicalDeviceCooperativeMatrixFlexibleDimensionsPropertiesNV
-vkGetPhysicalDeviceCooperativeMatrixPropertiesKHR
-vkGetPhysicalDeviceCooperativeMatrixPropertiesNV
-vkGetPhysicalDeviceCooperativeVectorPropertiesNV
-vkGetPhysicalDeviceDisplayPlaneProperties2KHR
-vkGetPhysicalDeviceDisplayPlanePropertiesKHR
-vkGetPhysicalDeviceDisplayProperties2KHR
-vkGetPhysicalDeviceDisplayPropertiesKHR
-vkGetPhysicalDeviceExternalBufferProperties
-vkGetPhysicalDeviceExternalBufferPropertiesKHR
-vkGetPhysicalDeviceExternalFenceProperties
-vkGetPhysicalDeviceExternalFencePropertiesKHR
-vkGetPhysicalDeviceExternalImageFormatPropertiesNV
-vkGetPhysicalDeviceExternalSemaphoreProperties
-vkGetPhysicalDeviceExternalSemaphorePropertiesKHR
-vkGetPhysicalDeviceExternalTensorPropertiesARM
-vkGetPhysicalDeviceFeatures
-vkGetPhysicalDeviceFeatures2
-vkGetPhysicalDeviceFeatures2KHR
-vkGetPhysicalDeviceFormatProperties
-vkGetPhysicalDeviceFormatProperties2
-vkGetPhysicalDeviceFormatProperties2KHR
-vkGetPhysicalDeviceFragmentShadingRatesKHR
-vkGetPhysicalDeviceImageFormatProperties
-vkGetPhysicalDeviceImageFormatProperties2
-vkGetPhysicalDeviceImageFormatProperties2KHR
-vkGetPhysicalDeviceMemoryProperties
-vkGetPhysicalDeviceMemoryProperties2
-vkGetPhysicalDeviceMemoryProperties2KHR
-vkGetPhysicalDeviceMultisamplePropertiesEXT
-vkGetPhysicalDeviceOpticalFlowImageFormatsNV
-vkGetPhysicalDevicePresentRectanglesKHR
-vkGetPhysicalDeviceProperties
-vkGetPhysicalDeviceProperties2
-vkGetPhysicalDeviceProperties2KHR
-vkGetPhysicalDeviceQueueFamilyDataGraphProcessingEnginePropertiesARM
-vkGetPhysicalDeviceQueueFamilyDataGraphPropertiesARM
-vkGetPhysicalDeviceQueueFamilyPerformanceQueryPassesKHR
-vkGetPhysicalDeviceQueueFamilyProperties
-vkGetPhysicalDeviceQueueFamilyProperties2
-vkGetPhysicalDeviceQueueFamilyProperties2KHR
-vkGetPhysicalDeviceSparseImageFormatProperties
-vkGetPhysicalDeviceSparseImageFormatProperties2
-vkGetPhysicalDeviceSparseImageFormatProperties2KHR
-vkGetPhysicalDeviceSupportedFramebufferMixedSamplesCombinationsNV
-vkGetPhysicalDeviceSurfaceCapabilities2EXT
-vkGetPhysicalDeviceSurfaceCapabilities2KHR
-vkGetPhysicalDeviceSurfaceCapabilitiesKHR
-vkGetPhysicalDeviceSurfaceFormats2KHR
-vkGetPhysicalDeviceSurfaceFormatsKHR
-vkGetPhysicalDeviceSurfacePresentModesKHR
-vkGetPhysicalDeviceSurfaceSupportKHR
-vkGetPhysicalDeviceToolProperties
-vkGetPhysicalDeviceToolPropertiesEXT
-vkGetPhysicalDeviceVideoCapabilitiesKHR
-vkGetPhysicalDeviceVideoEncodeQualityLevelPropertiesKHR
-vkGetPhysicalDeviceVideoFormatPropertiesKHR
-vkGetPhysicalDeviceXcbPresentationSupportKHR
-vkGetPipelineBinaryDataKHR
-vkGetPipelineCacheData
-vkGetPipelineExecutableInternalRepresentationsKHR
-vkGetPipelineExecutablePropertiesKHR
-vkGetPipelineExecutableStatisticsKHR
-vkGetPipelineIndirectDeviceAddressNV
-vkGetPipelineIndirectMemoryRequirementsNV
-vkGetPipelineKeyKHR
-vkGetPipelinePropertiesEXT
-vkGetPrivateData
-vkGetPrivateDataEXT
-vkGetQueryPoolResults
-vkGetQueueCheckpointData2NV
-vkGetQueueCheckpointDataNV
-vkGetRandROutputDisplayEXT
-vkGetRayTracingCaptureReplayShaderGroupHandlesKHR
-vkGetRayTracingShaderGroupHandlesKHR
-vkGetRayTracingShaderGroupHandlesNV
-vkGetRayTracingShaderGroupStackSizeKHR
-vkGetRefreshCycleDurationGOOGLE
-vkGetRenderAreaGranularity
-vkGetRenderingAreaGranularity
-vkGetRenderingAreaGranularityKHR
-vkGetSamplerOpaqueCaptureDescriptorDataEXT
-vkGetSemaphoreCounterValue
-vkGetSemaphoreCounterValueKHR
-vkGetSemaphoreFdKHR
-vkGetShaderBinaryDataEXT
-vkGetShaderInfoAMD
-vkGetShaderModuleCreateInfoIdentifierEXT
-vkGetShaderModuleIdentifierEXT
-vkGetSwapchainCounterEXT
-vkGetSwapchainImagesKHR
-vkGetSwapchainStatusKHR
-vkGetTensorMemoryRequirementsARM
-vkGetTensorOpaqueCaptureDescriptorDataARM
-vkGetTensorViewOpaqueCaptureDescriptorDataARM
-vkGetValidationCacheDataEXT
-vkGetVideoSessionMemoryRequirementsKHR
-vkImportFenceFdKHR
-vkImportSemaphoreFdKHR
-vkInitializePerformanceApiINTEL
-vkInvalidateMappedMemoryRanges
-vkLatencySleepNV
-vkMapMemory
-vkMapMemory2
-vkMapMemory2KHR
-vkMergePipelineCaches
-vkMergeValidationCachesEXT
-vkQueueBeginDebugUtilsLabelEXT
-vkQueueBindSparse
-vkQueueEndDebugUtilsLabelEXT
-vkQueueInsertDebugUtilsLabelEXT
-vkQueueNotifyOutOfBandNV
-vkQueuePresentKHR
-vkQueueSetPerformanceConfigurationINTEL
-vkQueueSubmit
-vkQueueSubmit2
-vkQueueSubmit2KHR
-vkQueueWaitIdle
-vkRegisterDeviceEventEXT
-vkRegisterDisplayEventEXT
-vkReleaseCapturedPipelineDataKHR
-vkReleaseDisplayEXT
-vkReleasePerformanceConfigurationINTEL
-vkReleaseProfilingLockKHR
-vkReleaseSwapchainImagesEXT
-vkReleaseSwapchainImagesKHR
-vkResetCommandBuffer
-vkResetCommandPool
-vkResetDescriptorPool
-vkResetEvent
-vkResetFences
-vkResetQueryPool
-vkResetQueryPoolEXT
-vkSetDebugUtilsObjectNameEXT
-vkSetDebugUtilsObjectTagEXT
-vkSetDeviceMemoryPriorityEXT
-vkSetEvent
-vkSetHdrMetadataEXT
-vkSetLatencyMarkerNV
-vkSetLatencySleepModeNV
-vkSetLocalDimmingAMD
-vkSetPrivateData
-vkSetPrivateDataEXT
-vkSignalSemaphore
-vkSignalSemaphoreKHR
-vkSubmitDebugUtilsMessageEXT
-vkTransitionImageLayout
-vkTransitionImageLayoutEXT
-vkTrimCommandPool
-vkTrimCommandPoolKHR
-vkUninitializePerformanceApiINTEL
-vkUnmapMemory
-vkUnmapMemory2
-vkUnmapMemory2KHR
-vkUpdateDescriptorSetWithTemplate
-vkUpdateDescriptorSetWithTemplateKHR
-vkUpdateDescriptorSets
-vkUpdateIndirectExecutionSetPipelineEXT
-vkUpdateIndirectExecutionSetShaderEXT
-vkUpdateVideoSessionParametersKHR
-vkWaitForFences
-vkWaitForPresent2KHR
-vkWaitForPresentKHR
-vkWaitSemaphores
-vkWaitSemaphoresKHR
-vkWriteAccelerationStructuresPropertiesKHR
-vkWriteMicromapsPropertiesEXT
 void
 void CSettingsManager::SetValue<bool, (ESettingValueType)0>(char const*, char const*, bool const&, vr::EVRSettingsError*)
 void CSettingsManager::SetValue<double, (ESettingValueType)1>(char const*, char const*, double const&, vr::EVRSettingsError*)
@@ -20720,7 +19056,6 @@ void std::(anonymous namespace)::read_utf16_bom<false>(std::(anonymous namespace
 void std::_Destroy_aux<false>::__destroy<std::string*>(std::string*, std::string*)
 void std::_Rb_tree<int, int, std::_Identity<int>, std::less<int>, std::allocator<int>>::_M_insert_unique<int*>(int*, int*)
 void std::__adjust_heap<__gnu_cxx::__normal_iterator<CDriverManager::HmdDriver_t*, std::vector<CDriverManager::HmdDriver_t, std::allocator<CDriverManager::HmdDriver_t>>>, long, CDriverManager::HmdDriver_t, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(CDriverManager::HmdDriver_t const&, CDriverManager::HmdDriver_t const&)>>(__gnu_cxx::__normal_iterator<CDriverManager::HmdDriver_t*, std::vector<CDriverManager::HmdDriver_t, std::allocator<CDriverManager::HmdDriver_t>>>, long, long, CDriverManager::HmdDriver_t, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(CDriverManager::HmdDriver_t const&, CDriverManager::HmdDriver_t const&)>)
-void std::__adjust_heap<__gnu_cxx::__normal_iterator<PhysicalDeviceInfo_t*, std::vector<PhysicalDeviceInfo_t, std::allocator<PhysicalDeviceInfo_t>>>, long, PhysicalDeviceInfo_t, __gnu_cxx::__ops::_Iter_comp_iter<CVkDevice::ChoosePhysicalDevice()::'lambda'(PhysicalDeviceInfo_t const&, PhysicalDeviceInfo_t const&)>>(__gnu_cxx::__normal_iterator<PhysicalDeviceInfo_t*, std::vector<PhysicalDeviceInfo_t, std::allocator<PhysicalDeviceInfo_t>>>, long, long, PhysicalDeviceInfo_t, __gnu_cxx::__ops::_Iter_comp_iter<CVkDevice::ChoosePhysicalDevice()::'lambda'(PhysicalDeviceInfo_t const&, PhysicalDeviceInfo_t const&)>) (.isra.0)
 void std::__adjust_heap<__gnu_cxx::__normal_iterator<double*, std::vector<double, std::allocator<double>>>, long, double, __gnu_cxx::__ops::_Iter_less_iter>(__gnu_cxx::__normal_iterator<double*, std::vector<double, std::allocator<double>>>, long, long, double, __gnu_cxx::__ops::_Iter_less_iter)
 void std::__adjust_heap<__gnu_cxx::__normal_iterator<float*, std::vector<float, std::allocator<float>>>, long, float, __gnu_cxx::__ops::_Iter_less_iter>(__gnu_cxx::__normal_iterator<float*, std::vector<float, std::allocator<float>>>, long, long, float, __gnu_cxx::__ops::_Iter_less_iter)
 void std::__adjust_heap<__gnu_cxx::__normal_iterator<google::protobuf::FieldDescriptor const**, std::vector<google::protobuf::FieldDescriptor const*, std::allocator<google::protobuf::FieldDescriptor const*>>>, long, google::protobuf::FieldDescriptor const*, google::protobuf::(anonymous namespace)::FieldIndexSorter>(__gnu_cxx::__normal_iterator<google::protobuf::FieldDescriptor const**, std::vector<google::protobuf::FieldDescriptor const*, std::allocator<google::protobuf::FieldDescriptor const*>>>, long, long, google::protobuf::FieldDescriptor const*, google::protobuf::(anonymous namespace)::FieldIndexSorter) (.isra.88)
@@ -20771,7 +19106,6 @@ void std::__facet_shims::__numpunct_fill_cache<wchar_t>(std::integral_constant<b
 void std::__facet_shims::__numpunct_fill_cache<wchar_t>(std::integral_constant<bool, true>, std::locale::facet const*, std::__numpunct_cache<wchar_t>*)
 void std::__final_insertion_sort<__gnu_cxx::__normal_iterator<vortex::lighthouse::SensorHit_s*, std::vector<vortex::lighthouse::SensorHit_s, std::allocator<vortex::lighthouse::SensorHit_s>>>, __gnu_cxx::__ops::_Iter_comp_iter<vortex::lighthouse::SensorHit_s::POrderBySensorId>>(__gnu_cxx::__normal_iterator<vortex::lighthouse::SensorHit_s*, std::vector<vortex::lighthouse::SensorHit_s, std::allocator<vortex::lighthouse::SensorHit_s>>>, __gnu_cxx::__normal_iterator<vortex::lighthouse::SensorHit_s*, std::vector<vortex::lighthouse::SensorHit_s, std::allocator<vortex::lighthouse::SensorHit_s>>>, __gnu_cxx::__ops::_Iter_comp_iter<vortex::lighthouse::SensorHit_s::POrderBySensorId>)
 void std::__insertion_sort<__gnu_cxx::__normal_iterator<CDriverManager::HmdDriver_t*, std::vector<CDriverManager::HmdDriver_t, std::allocator<CDriverManager::HmdDriver_t>>>, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(CDriverManager::HmdDriver_t const&, CDriverManager::HmdDriver_t const&)>>(__gnu_cxx::__normal_iterator<CDriverManager::HmdDriver_t*, std::vector<CDriverManager::HmdDriver_t, std::allocator<CDriverManager::HmdDriver_t>>>, __gnu_cxx::__normal_iterator<CDriverManager::HmdDriver_t*, std::vector<CDriverManager::HmdDriver_t, std::allocator<CDriverManager::HmdDriver_t>>>, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(CDriverManager::HmdDriver_t const&, CDriverManager::HmdDriver_t const&)>)
-void std::__insertion_sort<__gnu_cxx::__normal_iterator<PhysicalDeviceInfo_t*, std::vector<PhysicalDeviceInfo_t, std::allocator<PhysicalDeviceInfo_t>>>, __gnu_cxx::__ops::_Iter_comp_iter<CVkDevice::ChoosePhysicalDevice()::'lambda'(PhysicalDeviceInfo_t const&, PhysicalDeviceInfo_t const&)>>(__gnu_cxx::__normal_iterator<PhysicalDeviceInfo_t*, std::vector<PhysicalDeviceInfo_t, std::allocator<PhysicalDeviceInfo_t>>>, __gnu_cxx::__normal_iterator<PhysicalDeviceInfo_t*, std::vector<PhysicalDeviceInfo_t, std::allocator<PhysicalDeviceInfo_t>>>, __gnu_cxx::__ops::_Iter_comp_iter<CVkDevice::ChoosePhysicalDevice()::'lambda'(PhysicalDeviceInfo_t const&, PhysicalDeviceInfo_t const&)>) (.isra.0)
 void std::__insertion_sort<__gnu_cxx::__normal_iterator<double*, std::vector<double, std::allocator<double>>>, __gnu_cxx::__ops::_Iter_less_iter>(__gnu_cxx::__normal_iterator<double*, std::vector<double, std::allocator<double>>>, __gnu_cxx::__normal_iterator<double*, std::vector<double, std::allocator<double>>>, __gnu_cxx::__ops::_Iter_less_iter)
 void std::__insertion_sort<__gnu_cxx::__normal_iterator<float*, std::vector<float, std::allocator<float>>>, __gnu_cxx::__ops::_Iter_less_iter>(__gnu_cxx::__normal_iterator<float*, std::vector<float, std::allocator<float>>>, __gnu_cxx::__normal_iterator<float*, std::vector<float, std::allocator<float>>>, __gnu_cxx::__ops::_Iter_less_iter)
 void std::__insertion_sort<__gnu_cxx::__normal_iterator<google::protobuf::FieldDescriptor const**, std::vector<google::protobuf::FieldDescriptor const*, std::allocator<google::protobuf::FieldDescriptor const*>>>, google::protobuf::(anonymous namespace)::FieldIndexSorter>(__gnu_cxx::__normal_iterator<google::protobuf::FieldDescriptor const**, std::vector<google::protobuf::FieldDescriptor const*, std::allocator<google::protobuf::FieldDescriptor const*>>>, __gnu_cxx::__normal_iterator<google::protobuf::FieldDescriptor const**, std::vector<google::protobuf::FieldDescriptor const*, std::allocator<google::protobuf::FieldDescriptor const*>>>, google::protobuf::(anonymous namespace)::FieldIndexSorter) (.isra.154)
@@ -20782,7 +19116,6 @@ void std::__insertion_sort<__gnu_cxx::__normal_iterator<vortex::lighthouse::Sens
 void std::__insertion_sort<__gnu_cxx::__normal_iterator<vortex::lighthouse::SensorHit_s*, std::vector<vortex::lighthouse::SensorHit_s, std::allocator<vortex::lighthouse::SensorHit_s>>>, __gnu_cxx::__ops::_Iter_less_iter>(__gnu_cxx::__normal_iterator<vortex::lighthouse::SensorHit_s*, std::vector<vortex::lighthouse::SensorHit_s, std::allocator<vortex::lighthouse::SensorHit_s>>>, __gnu_cxx::__normal_iterator<vortex::lighthouse::SensorHit_s*, std::vector<vortex::lighthouse::SensorHit_s, std::allocator<vortex::lighthouse::SensorHit_s>>>, __gnu_cxx::__ops::_Iter_less_iter)
 void std::__introselect<__gnu_cxx::__normal_iterator<float*, std::vector<float, std::allocator<float>>>, long, __gnu_cxx::__ops::_Iter_less_iter>(__gnu_cxx::__normal_iterator<float*, std::vector<float, std::allocator<float>>>, __gnu_cxx::__normal_iterator<float*, std::vector<float, std::allocator<float>>>, __gnu_cxx::__normal_iterator<float*, std::vector<float, std::allocator<float>>>, long, __gnu_cxx::__ops::_Iter_less_iter)
 void std::__introsort_loop<__gnu_cxx::__normal_iterator<CDriverManager::HmdDriver_t*, std::vector<CDriverManager::HmdDriver_t, std::allocator<CDriverManager::HmdDriver_t>>>, long, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(CDriverManager::HmdDriver_t const&, CDriverManager::HmdDriver_t const&)>>(__gnu_cxx::__normal_iterator<CDriverManager::HmdDriver_t*, std::vector<CDriverManager::HmdDriver_t, std::allocator<CDriverManager::HmdDriver_t>>>, __gnu_cxx::__normal_iterator<CDriverManager::HmdDriver_t*, std::vector<CDriverManager::HmdDriver_t, std::allocator<CDriverManager::HmdDriver_t>>>, long, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(CDriverManager::HmdDriver_t const&, CDriverManager::HmdDriver_t const&)>)
-void std::__introsort_loop<__gnu_cxx::__normal_iterator<PhysicalDeviceInfo_t*, std::vector<PhysicalDeviceInfo_t, std::allocator<PhysicalDeviceInfo_t>>>, long, __gnu_cxx::__ops::_Iter_comp_iter<CVkDevice::ChoosePhysicalDevice()::'lambda'(PhysicalDeviceInfo_t const&, PhysicalDeviceInfo_t const&)>>(__gnu_cxx::__normal_iterator<PhysicalDeviceInfo_t*, std::vector<PhysicalDeviceInfo_t, std::allocator<PhysicalDeviceInfo_t>>>, __gnu_cxx::__normal_iterator<PhysicalDeviceInfo_t*, std::vector<PhysicalDeviceInfo_t, std::allocator<PhysicalDeviceInfo_t>>>, long, __gnu_cxx::__ops::_Iter_comp_iter<CVkDevice::ChoosePhysicalDevice()::'lambda'(PhysicalDeviceInfo_t const&, PhysicalDeviceInfo_t const&)>)
 void std::__introsort_loop<__gnu_cxx::__normal_iterator<double*, std::vector<double, std::allocator<double>>>, long, __gnu_cxx::__ops::_Iter_less_iter>(__gnu_cxx::__normal_iterator<double*, std::vector<double, std::allocator<double>>>, __gnu_cxx::__normal_iterator<double*, std::vector<double, std::allocator<double>>>, long, __gnu_cxx::__ops::_Iter_less_iter)
 void std::__introsort_loop<__gnu_cxx::__normal_iterator<float*, std::vector<float, std::allocator<float>>>, long, __gnu_cxx::__ops::_Iter_less_iter>(__gnu_cxx::__normal_iterator<float*, std::vector<float, std::allocator<float>>>, __gnu_cxx::__normal_iterator<float*, std::vector<float, std::allocator<float>>>, long, __gnu_cxx::__ops::_Iter_less_iter)
 void std::__introsort_loop<__gnu_cxx::__normal_iterator<google::protobuf::FieldDescriptor const**, std::vector<google::protobuf::FieldDescriptor const*, std::allocator<google::protobuf::FieldDescriptor const*>>>, long, google::protobuf::(anonymous namespace)::FieldIndexSorter>(__gnu_cxx::__normal_iterator<google::protobuf::FieldDescriptor const**, std::vector<google::protobuf::FieldDescriptor const*, std::allocator<google::protobuf::FieldDescriptor const*>>>, __gnu_cxx::__normal_iterator<google::protobuf::FieldDescriptor const**, std::vector<google::protobuf::FieldDescriptor const*, std::allocator<google::protobuf::FieldDescriptor const*>>>, long, google::protobuf::(anonymous namespace)::FieldIndexSorter) (.isra.150)
@@ -20792,19 +19125,15 @@ void std::__introsort_loop<__gnu_cxx::__normal_iterator<vortex::CLighthouseDB::G
 void std::__introsort_loop<__gnu_cxx::__normal_iterator<vortex::lighthouse::SensorHit_s*, std::vector<vortex::lighthouse::SensorHit_s, std::allocator<vortex::lighthouse::SensorHit_s>>>, long, __gnu_cxx::__ops::_Iter_comp_iter<vortex::lighthouse::SensorHit_s::POrderBySensorId>>(__gnu_cxx::__normal_iterator<vortex::lighthouse::SensorHit_s*, std::vector<vortex::lighthouse::SensorHit_s, std::allocator<vortex::lighthouse::SensorHit_s>>>, __gnu_cxx::__normal_iterator<vortex::lighthouse::SensorHit_s*, std::vector<vortex::lighthouse::SensorHit_s, std::allocator<vortex::lighthouse::SensorHit_s>>>, long, __gnu_cxx::__ops::_Iter_comp_iter<vortex::lighthouse::SensorHit_s::POrderBySensorId>)
 void std::__introsort_loop<__gnu_cxx::__normal_iterator<vortex::lighthouse::SensorHit_s*, std::vector<vortex::lighthouse::SensorHit_s, std::allocator<vortex::lighthouse::SensorHit_s>>>, long, __gnu_cxx::__ops::_Iter_less_iter>(__gnu_cxx::__normal_iterator<vortex::lighthouse::SensorHit_s*, std::vector<vortex::lighthouse::SensorHit_s, std::allocator<vortex::lighthouse::SensorHit_s>>>, __gnu_cxx::__normal_iterator<vortex::lighthouse::SensorHit_s*, std::vector<vortex::lighthouse::SensorHit_s, std::allocator<vortex::lighthouse::SensorHit_s>>>, long, __gnu_cxx::__ops::_Iter_less_iter) (.isra.0)
 void std::__make_heap<__gnu_cxx::__normal_iterator<CDriverManager::HmdDriver_t*, std::vector<CDriverManager::HmdDriver_t, std::allocator<CDriverManager::HmdDriver_t>>>, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(CDriverManager::HmdDriver_t const&, CDriverManager::HmdDriver_t const&)>>(__gnu_cxx::__normal_iterator<CDriverManager::HmdDriver_t*, std::vector<CDriverManager::HmdDriver_t, std::allocator<CDriverManager::HmdDriver_t>>>, __gnu_cxx::__normal_iterator<CDriverManager::HmdDriver_t*, std::vector<CDriverManager::HmdDriver_t, std::allocator<CDriverManager::HmdDriver_t>>>, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(CDriverManager::HmdDriver_t const&, CDriverManager::HmdDriver_t const&)>&)
-void std::__make_heap<__gnu_cxx::__normal_iterator<PhysicalDeviceInfo_t*, std::vector<PhysicalDeviceInfo_t, std::allocator<PhysicalDeviceInfo_t>>>, __gnu_cxx::__ops::_Iter_comp_iter<CVkDevice::ChoosePhysicalDevice()::'lambda'(PhysicalDeviceInfo_t const&, PhysicalDeviceInfo_t const&)>>(__gnu_cxx::__normal_iterator<PhysicalDeviceInfo_t*, std::vector<PhysicalDeviceInfo_t, std::allocator<PhysicalDeviceInfo_t>>>, __gnu_cxx::__normal_iterator<PhysicalDeviceInfo_t*, std::vector<PhysicalDeviceInfo_t, std::allocator<PhysicalDeviceInfo_t>>>, __gnu_cxx::__ops::_Iter_comp_iter<CVkDevice::ChoosePhysicalDevice()::'lambda'(PhysicalDeviceInfo_t const&, PhysicalDeviceInfo_t const&)>&) (.isra.0)
 void std::__pop_heap<__gnu_cxx::__normal_iterator<CDriverManager::HmdDriver_t*, std::vector<CDriverManager::HmdDriver_t, std::allocator<CDriverManager::HmdDriver_t>>>, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(CDriverManager::HmdDriver_t const&, CDriverManager::HmdDriver_t const&)>>(__gnu_cxx::__normal_iterator<CDriverManager::HmdDriver_t*, std::vector<CDriverManager::HmdDriver_t, std::allocator<CDriverManager::HmdDriver_t>>>, __gnu_cxx::__normal_iterator<CDriverManager::HmdDriver_t*, std::vector<CDriverManager::HmdDriver_t, std::allocator<CDriverManager::HmdDriver_t>>>, __gnu_cxx::__normal_iterator<CDriverManager::HmdDriver_t*, std::vector<CDriverManager::HmdDriver_t, std::allocator<CDriverManager::HmdDriver_t>>>, __gnu_cxx::__ops::_Iter_comp_iter<bool (*)(CDriverManager::HmdDriver_t const&, CDriverManager::HmdDriver_t const&)>&)
-void std::__pop_heap<__gnu_cxx::__normal_iterator<PhysicalDeviceInfo_t*, std::vector<PhysicalDeviceInfo_t, std::allocator<PhysicalDeviceInfo_t>>>, __gnu_cxx::__ops::_Iter_comp_iter<CVkDevice::ChoosePhysicalDevice()::'lambda'(PhysicalDeviceInfo_t const&, PhysicalDeviceInfo_t const&)>>(__gnu_cxx::__normal_iterator<PhysicalDeviceInfo_t*, std::vector<PhysicalDeviceInfo_t, std::allocator<PhysicalDeviceInfo_t>>>, __gnu_cxx::__normal_iterator<PhysicalDeviceInfo_t*, std::vector<PhysicalDeviceInfo_t, std::allocator<PhysicalDeviceInfo_t>>>, __gnu_cxx::__normal_iterator<PhysicalDeviceInfo_t*, std::vector<PhysicalDeviceInfo_t, std::allocator<PhysicalDeviceInfo_t>>>, __gnu_cxx::__ops::_Iter_comp_iter<CVkDevice::ChoosePhysicalDevice()::'lambda'(PhysicalDeviceInfo_t const&, PhysicalDeviceInfo_t const&)>&) (.isra.0)
 void std::__push_heap<std::_Deque_iterator<std::pair<double, vortex::lighthouse::SensorFrame_s>, std::pair<double, vortex::lighthouse::SensorFrame_s>&, std::pair<double, vortex::lighthouse::SensorFrame_s>*>, long, std::pair<double, vortex::lighthouse::SensorFrame_s>, __gnu_cxx::__ops::_Iter_comp_val<std::greater<std::pair<double, vortex::lighthouse::SensorFrame_s>>>>(std::_Deque_iterator<std::pair<double, vortex::lighthouse::SensorFrame_s>, std::pair<double, vortex::lighthouse::SensorFrame_s>&, std::pair<double, vortex::lighthouse::SensorFrame_s>*>, long, long, std::pair<double, vortex::lighthouse::SensorFrame_s>, __gnu_cxx::__ops::_Iter_comp_val<std::greater<std::pair<double, vortex::lighthouse::SensorFrame_s>>>&)
 void std::__unguarded_linear_insert<__gnu_cxx::__normal_iterator<CDriverManager::HmdDriver_t*, std::vector<CDriverManager::HmdDriver_t, std::allocator<CDriverManager::HmdDriver_t>>>, __gnu_cxx::__ops::_Val_comp_iter<bool (*)(CDriverManager::HmdDriver_t const&, CDriverManager::HmdDriver_t const&)>>(__gnu_cxx::__normal_iterator<CDriverManager::HmdDriver_t*, std::vector<CDriverManager::HmdDriver_t, std::allocator<CDriverManager::HmdDriver_t>>>, __gnu_cxx::__ops::_Val_comp_iter<bool (*)(CDriverManager::HmdDriver_t const&, CDriverManager::HmdDriver_t const&)>)
-void std::__unguarded_linear_insert<__gnu_cxx::__normal_iterator<PhysicalDeviceInfo_t*, std::vector<PhysicalDeviceInfo_t, std::allocator<PhysicalDeviceInfo_t>>>, __gnu_cxx::__ops::_Val_comp_iter<CVkDevice::ChoosePhysicalDevice()::'lambda'(PhysicalDeviceInfo_t const&, PhysicalDeviceInfo_t const&)>>(__gnu_cxx::__normal_iterator<PhysicalDeviceInfo_t*, std::vector<PhysicalDeviceInfo_t, std::allocator<PhysicalDeviceInfo_t>>>, __gnu_cxx::__ops::_Val_comp_iter<CVkDevice::ChoosePhysicalDevice()::'lambda'(PhysicalDeviceInfo_t const&, PhysicalDeviceInfo_t const&)>) (.isra.0)
 void std::__unguarded_linear_insert<__gnu_cxx::__normal_iterator<google::protobuf::FieldDescriptor const**, std::vector<google::protobuf::FieldDescriptor const*, std::allocator<google::protobuf::FieldDescriptor const*>>>, google::protobuf::(anonymous namespace)::FieldIndexSorter>(__gnu_cxx::__normal_iterator<google::protobuf::FieldDescriptor const**, std::vector<google::protobuf::FieldDescriptor const*, std::allocator<google::protobuf::FieldDescriptor const*>>>, google::protobuf::(anonymous namespace)::FieldIndexSorter) (.isra.130)
 void std::__unguarded_linear_insert<__gnu_cxx::__normal_iterator<google::protobuf::FieldDescriptor const**, std::vector<google::protobuf::FieldDescriptor const*, std::allocator<google::protobuf::FieldDescriptor const*>>>, google::protobuf::internal::(anonymous namespace)::FieldNumberSorter>(__gnu_cxx::__normal_iterator<google::protobuf::FieldDescriptor const**, std::vector<google::protobuf::FieldDescriptor const*, std::allocator<google::protobuf::FieldDescriptor const*>>>, google::protobuf::internal::(anonymous namespace)::FieldNumberSorter) (.isra.121)
 void std::__unguarded_linear_insert<__gnu_cxx::__normal_iterator<vortex::(anonymous namespace)::SyncHit_s*, std::vector<vortex::(anonymous namespace)::SyncHit_s, std::allocator<vortex::(anonymous namespace)::SyncHit_s>>>, __gnu_cxx::__ops::_Val_less_iter>(__gnu_cxx::__normal_iterator<vortex::(anonymous namespace)::SyncHit_s*, std::vector<vortex::(anonymous namespace)::SyncHit_s, std::allocator<vortex::(anonymous namespace)::SyncHit_s>>>, __gnu_cxx::__ops::_Val_less_iter) (.isra.0)
 void std::__unguarded_linear_insert<__gnu_cxx::__normal_iterator<vortex::lighthouse::SensorHit_s*, std::vector<vortex::lighthouse::SensorHit_s, std::allocator<vortex::lighthouse::SensorHit_s>>>, __gnu_cxx::__ops::_Val_comp_iter<vortex::lighthouse::SensorHit_s::POrderBySensorId>>(__gnu_cxx::__normal_iterator<vortex::lighthouse::SensorHit_s*, std::vector<vortex::lighthouse::SensorHit_s, std::allocator<vortex::lighthouse::SensorHit_s>>>, __gnu_cxx::__ops::_Val_comp_iter<vortex::lighthouse::SensorHit_s::POrderBySensorId>)
 void std::__unguarded_linear_insert<__gnu_cxx::__normal_iterator<vortex::lighthouse::SensorHit_s*, std::vector<vortex::lighthouse::SensorHit_s, std::allocator<vortex::lighthouse::SensorHit_s>>>, __gnu_cxx::__ops::_Val_less_iter>(__gnu_cxx::__normal_iterator<vortex::lighthouse::SensorHit_s*, std::vector<vortex::lighthouse::SensorHit_s, std::allocator<vortex::lighthouse::SensorHit_s>>>, __gnu_cxx::__ops::_Val_less_iter)
 void std::__uninitialized_default_n_1<true>::__uninit_default_n<google::protobuf::UnknownField*, unsigned long>(google::protobuf::UnknownField*, unsigned long)
-void std::deque<CVkCommandBuffer*, std::allocator<CVkCommandBuffer*>>::_M_push_back_aux<CVkCommandBuffer* const&>(CVkCommandBuffer* const&)
 void std::deque<CWirelessDecoder::SensorHit_s, std::allocator<CWirelessDecoder::SensorHit_s>>::_M_push_front_aux<CWirelessDecoder::SensorHit_s const&>(CWirelessDecoder::SensorHit_s const&)
 void std::deque<CameraCommand_t*, std::allocator<CameraCommand_t*>>::_M_push_back_aux<CameraCommand_t* const&>(CameraCommand_t* const&)
 void std::deque<Json::OurReader::ErrorInfo, std::allocator<Json::OurReader::ErrorInfo>>::_M_push_back_aux<Json::OurReader::ErrorInfo const&>(Json::OurReader::ErrorInfo const&)
@@ -20828,16 +19157,10 @@ void std::vector<CISPConfig::CISPStream, std::allocator<CISPConfig::CISPStream>>
 void std::vector<CLogCallback*, std::allocator<CLogCallback*>>::_M_realloc_insert<CLogCallback* const&>(__gnu_cxx::__normal_iterator<CLogCallback**, std::vector<CLogCallback*, std::allocator<CLogCallback*>>>, CLogCallback* const&)
 void std::vector<CPoseRecipe::PoseOpDesc, std::allocator<CPoseRecipe::PoseOpDesc>>::_M_realloc_insert<CPoseRecipe::PoseOpDesc const&>(__gnu_cxx::__normal_iterator<CPoseRecipe::PoseOpDesc*, std::vector<CPoseRecipe::PoseOpDesc, std::allocator<CPoseRecipe::PoseOpDesc>>>, CPoseRecipe::PoseOpDesc const&)
 void std::vector<CPreviewThread::buff_t, std::allocator<CPreviewThread::buff_t>>::_M_realloc_insert<CPreviewThread::buff_t const&>(__gnu_cxx::__normal_iterator<CPreviewThread::buff_t*, std::vector<CPreviewThread::buff_t, std::allocator<CPreviewThread::buff_t>>>, CPreviewThread::buff_t const&)
-void std::vector<CPrismDirect::TextureSet_t*, std::allocator<CPrismDirect::TextureSet_t*>>::_M_realloc_insert<CPrismDirect::TextureSet_t* const&>(__gnu_cxx::__normal_iterator<CPrismDirect::TextureSet_t**, std::vector<CPrismDirect::TextureSet_t*, std::allocator<CPrismDirect::TextureSet_t*>>>, CPrismDirect::TextureSet_t* const&)
 void std::vector<CPropertyContainer::PropertyIndexCacheEntry_t, std::allocator<CPropertyContainer::PropertyIndexCacheEntry_t>>::_M_realloc_insert<CPropertyContainer::PropertyIndexCacheEntry_t>(__gnu_cxx::__normal_iterator<CPropertyContainer::PropertyIndexCacheEntry_t*, std::vector<CPropertyContainer::PropertyIndexCacheEntry_t, std::allocator<CPropertyContainer::PropertyIndexCacheEntry_t>>>, CPropertyContainer::PropertyIndexCacheEntry_t&&)
 void std::vector<CThreadWatchdog::Status_s*, std::allocator<CThreadWatchdog::Status_s*>>::_M_realloc_insert<CThreadWatchdog::Status_s* const&>(__gnu_cxx::__normal_iterator<CThreadWatchdog::Status_s**, std::vector<CThreadWatchdog::Status_s*, std::allocator<CThreadWatchdog::Status_s*>>>, CThreadWatchdog::Status_s* const&)
 void std::vector<CTrackedCameraCalibration, std::allocator<CTrackedCameraCalibration>>::_M_realloc_insert<CTrackedCameraCalibration const&>(__gnu_cxx::__normal_iterator<CTrackedCameraCalibration*, std::vector<CTrackedCameraCalibration, std::allocator<CTrackedCameraCalibration>>>, CTrackedCameraCalibration const&)
 void std::vector<CTrackedDeviceServerDriverAdapter*, std::allocator<CTrackedDeviceServerDriverAdapter*>>::_M_realloc_insert<CTrackedDeviceServerDriverAdapter* const&>(__gnu_cxx::__normal_iterator<CTrackedDeviceServerDriverAdapter**, std::vector<CTrackedDeviceServerDriverAdapter*, std::allocator<CTrackedDeviceServerDriverAdapter*>>>, CTrackedDeviceServerDriverAdapter* const&)
-void std::vector<CVkAllocator::MemoryTypeInfo_t*, std::allocator<CVkAllocator::MemoryTypeInfo_t*>>::_M_realloc_insert<CVkAllocator::MemoryTypeInfo_t* const&>(__gnu_cxx::__normal_iterator<CVkAllocator::MemoryTypeInfo_t**, std::vector<CVkAllocator::MemoryTypeInfo_t*, std::allocator<CVkAllocator::MemoryTypeInfo_t*>>>, CVkAllocator::MemoryTypeInfo_t* const&)
-void std::vector<CVkAllocator::MemoryTypeInfo_t, std::allocator<CVkAllocator::MemoryTypeInfo_t>>::_M_realloc_insert<CVkAllocator::MemoryTypeInfo_t const&>(__gnu_cxx::__normal_iterator<CVkAllocator::MemoryTypeInfo_t*, std::vector<CVkAllocator::MemoryTypeInfo_t, std::allocator<CVkAllocator::MemoryTypeInfo_t>>>, CVkAllocator::MemoryTypeInfo_t const&)
-void std::vector<CVkResourceBase*, std::allocator<CVkResourceBase*>>::_M_realloc_insert<CVkResourceBase* const&>(__gnu_cxx::__normal_iterator<CVkResourceBase**, std::vector<CVkResourceBase*, std::allocator<CVkResourceBase*>>>, CVkResourceBase* const&)
-void std::vector<CVkTimeline*, short_alloc<CVkTimeline*, 80ul, 8ul>>::_M_realloc_insert<CVkTimeline* const&>(__gnu_cxx::__normal_iterator<CVkTimeline**, std::vector<CVkTimeline*, short_alloc<CVkTimeline*, 80ul, 8ul>>>, CVkTimeline* const&)
-void std::vector<CVkTimeline*, std::allocator<CVkTimeline*>>::_M_realloc_insert<CVkTimeline* const&>(__gnu_cxx::__normal_iterator<CVkTimeline**, std::vector<CVkTimeline*, std::allocator<CVkTimeline*>>>, CVkTimeline* const&)
 void std::vector<CWirelessConnectionMonitor*, std::allocator<CWirelessConnectionMonitor*>>::_M_realloc_insert<CWirelessConnectionMonitor* const&>(__gnu_cxx::__normal_iterator<CWirelessConnectionMonitor**, std::vector<CWirelessConnectionMonitor*, std::allocator<CWirelessConnectionMonitor*>>>, CWirelessConnectionMonitor* const&)
 void std::vector<CWirelessDecoder::SobData_s, std::allocator<CWirelessDecoder::SobData_s>>::_M_realloc_insert<CWirelessDecoder::SobData_s const&>(__gnu_cxx::__normal_iterator<CWirelessDecoder::SobData_s*, std::vector<CWirelessDecoder::SobData_s, std::allocator<CWirelessDecoder::SobData_s>>>, CWirelessDecoder::SobData_s const&)
 void std::vector<DriverPresenceEntry_t, std::allocator<DriverPresenceEntry_t>>::_M_realloc_insert<DriverPresenceEntry_t const&>(__gnu_cxx::__normal_iterator<DriverPresenceEntry_t*, std::vector<DriverPresenceEntry_t, std::allocator<DriverPresenceEntry_t>>>, DriverPresenceEntry_t const&)
@@ -20855,24 +19178,14 @@ void std::vector<Json::Reader::StructuredError, std::allocator<Json::Reader::Str
 void std::vector<LighthouseScaleData_t, std::allocator<LighthouseScaleData_t>>::_M_realloc_insert<std::string, double, std::vector<math::Vec3T<float>, std::allocator<math::Vec3T<float>>>>(__gnu_cxx::__normal_iterator<LighthouseScaleData_t*, std::vector<LighthouseScaleData_t, std::allocator<LighthouseScaleData_t>>>, std::string&&, double&&, std::vector<math::Vec3T<float>, std::allocator<math::Vec3T<float>>>&&)
 void std::vector<LiquidVR::CVcetMotionEstimator::MotionVectorOutput_t, std::allocator<LiquidVR::CVcetMotionEstimator::MotionVectorOutput_t>>::_M_realloc_insert<LiquidVR::CVcetMotionEstimator::MotionVectorOutput_t const&>(__gnu_cxx::__normal_iterator<LiquidVR::CVcetMotionEstimator::MotionVectorOutput_t*, std::vector<LiquidVR::CVcetMotionEstimator::MotionVectorOutput_t, std::allocator<LiquidVR::CVcetMotionEstimator::MotionVectorOutput_t>>>, LiquidVR::CVcetMotionEstimator::MotionVectorOutput_t const&)
 void std::vector<OpResult, std::allocator<OpResult>>::_M_realloc_insert<OpResult const&>(__gnu_cxx::__normal_iterator<OpResult*, std::vector<OpResult, std::allocator<OpResult>>>, OpResult const&)
-void std::vector<PhysicalDeviceInfo_t, std::allocator<PhysicalDeviceInfo_t>>::_M_realloc_insert<PhysicalDeviceInfo_t>(__gnu_cxx::__normal_iterator<PhysicalDeviceInfo_t*, std::vector<PhysicalDeviceInfo_t, std::allocator<PhysicalDeviceInfo_t>>>, PhysicalDeviceInfo_t&&)
 void std::vector<PropertyDumpEntry_t, std::allocator<PropertyDumpEntry_t>>::_M_realloc_insert<PropertyDumpEntry_t const&>(__gnu_cxx::__normal_iterator<PropertyDumpEntry_t*, std::vector<PropertyDumpEntry_t, std::allocator<PropertyDumpEntry_t>>>, PropertyDumpEntry_t const&)
 void std::vector<Reflection::TypeInfo::BaseClassInfo_t, std::allocator<Reflection::TypeInfo::BaseClassInfo_t>>::_M_realloc_insert<Reflection::TypeInfo::BaseClassInfo_t const&>(__gnu_cxx::__normal_iterator<Reflection::TypeInfo::BaseClassInfo_t*, std::vector<Reflection::TypeInfo::BaseClassInfo_t, std::allocator<Reflection::TypeInfo::BaseClassInfo_t>>>, Reflection::TypeInfo::BaseClassInfo_t const&)
-void std::vector<VkDeviceMemory_T*, short_alloc<VkDeviceMemory_T*, 80ul, 8ul>>::_M_realloc_insert<VkDeviceMemory_T* const&>(__gnu_cxx::__normal_iterator<VkDeviceMemory_T**, std::vector<VkDeviceMemory_T*, short_alloc<VkDeviceMemory_T*, 80ul, 8ul>>>, VkDeviceMemory_T* const&)
-void std::vector<VkDeviceQueueCreateInfo, short_alloc<VkDeviceQueueCreateInfo, 400ul, 8ul>>::_M_realloc_insert<VkDeviceQueueCreateInfo const&>(__gnu_cxx::__normal_iterator<VkDeviceQueueCreateInfo*, std::vector<VkDeviceQueueCreateInfo, short_alloc<VkDeviceQueueCreateInfo, 400ul, 8ul>>>, VkDeviceQueueCreateInfo const&)
-void std::vector<VkExtensionProperties, std::allocator<VkExtensionProperties>>::_M_range_insert<__gnu_cxx::__normal_iterator<VkExtensionProperties*, std::vector<VkExtensionProperties, std::allocator<VkExtensionProperties>>>>(__gnu_cxx::__normal_iterator<VkExtensionProperties*, std::vector<VkExtensionProperties, std::allocator<VkExtensionProperties>>>, __gnu_cxx::__normal_iterator<VkExtensionProperties*, std::vector<VkExtensionProperties, std::allocator<VkExtensionProperties>>>, __gnu_cxx::__normal_iterator<VkExtensionProperties*, std::vector<VkExtensionProperties, std::allocator<VkExtensionProperties>>>, std::forward_iterator_tag)
-void std::vector<VkImageSharedData_t, std::allocator<VkImageSharedData_t>>::_M_realloc_insert<>(__gnu_cxx::__normal_iterator<VkImageSharedData_t*, std::vector<VkImageSharedData_t, std::allocator<VkImageSharedData_t>>>)
-void std::vector<VkSemaphore_T*, short_alloc<VkSemaphore_T*, 80ul, 8ul>>::_M_realloc_insert<VkSemaphore_T* const&>(__gnu_cxx::__normal_iterator<VkSemaphore_T**, std::vector<VkSemaphore_T*, short_alloc<VkSemaphore_T*, 80ul, 8ul>>>, VkSemaphore_T* const&)
 void std::vector<amdgpu_bo*, std::allocator<amdgpu_bo*>>::_M_realloc_insert<amdgpu_bo*>(__gnu_cxx::__normal_iterator<amdgpu_bo**, std::vector<amdgpu_bo*, std::allocator<amdgpu_bo*>>>, amdgpu_bo*&&)
 void std::vector<char const*, std::allocator<char const*>>::_M_realloc_insert<char const*>(__gnu_cxx::__normal_iterator<char const**, std::vector<char const*, std::allocator<char const*>>>, char const*&&)
 void std::vector<char const*, std::allocator<char const*>>::emplace_back<char const*>(char const*&&)
 void std::vector<char, std::allocator<char>>::_M_realloc_insert<char>(__gnu_cxx::__normal_iterator<char*, std::vector<char, std::allocator<char>>>, char&&)
 void std::vector<double, std::allocator<double>>::_M_realloc_insert<double const&>(__gnu_cxx::__normal_iterator<double*, std::vector<double, std::allocator<double>>>, double const&)
 void std::vector<double, std::allocator<double>>::_M_realloc_insert<double>(__gnu_cxx::__normal_iterator<double*, std::vector<double, std::allocator<double>>>, double&&)
-void std::vector<facet::CCompositionClient::CSwapchain::CImage, std::allocator<facet::CCompositionClient::CSwapchain::CImage>>::_M_realloc_insert<std::unique_ptr<facet::IVkInteropImage, std::default_delete<facet::IVkInteropImage>>>(__gnu_cxx::__normal_iterator<facet::CCompositionClient::CSwapchain::CImage*, std::vector<facet::CCompositionClient::CSwapchain::CImage, std::allocator<facet::CCompositionClient::CSwapchain::CImage>>>, std::unique_ptr<facet::IVkInteropImage, std::default_delete<facet::IVkInteropImage>>&&)
-void std::vector<facet::CVkTimelinePoint, short_alloc<facet::CVkTimelinePoint, 160ul, 8ul>>::_M_realloc_insert<facet::CVkTimelinePoint const&>(__gnu_cxx::__normal_iterator<facet::CVkTimelinePoint*, std::vector<facet::CVkTimelinePoint, short_alloc<facet::CVkTimelinePoint, 160ul, 8ul>>>, facet::CVkTimelinePoint const&)
-void std::vector<facet::CVkTimelinePoint, std::allocator<facet::CVkTimelinePoint>>::_M_realloc_insert<facet::CVkTimelinePoint const&>(__gnu_cxx::__normal_iterator<facet::CVkTimelinePoint*, std::vector<facet::CVkTimelinePoint, std::allocator<facet::CVkTimelinePoint>>>, facet::CVkTimelinePoint const&)
-void std::vector<facet::IVkInteropImage*, std::allocator<facet::IVkInteropImage*>>::_M_realloc_insert<facet::IVkInteropImage*>(__gnu_cxx::__normal_iterator<facet::IVkInteropImage**, std::vector<facet::IVkInteropImage*, std::allocator<facet::IVkInteropImage*>>>, facet::IVkInteropImage*&&)
 void std::vector<float, std::allocator<float>>::_M_realloc_insert<float const&>(__gnu_cxx::__normal_iterator<float*, std::vector<float, std::allocator<float>>>, float const&)
 void std::vector<float, std::allocator<float>>::_M_realloc_insert<float>(__gnu_cxx::__normal_iterator<float*, std::vector<float, std::allocator<float>>>, float&&)
 void std::vector<google::protobuf::(anonymous namespace)::OptionsToInterpret, std::allocator<google::protobuf::(anonymous namespace)::OptionsToInterpret>>::emplace_back<google::protobuf::(anonymous namespace)::OptionsToInterpret>(google::protobuf::(anonymous namespace)::OptionsToInterpret&&)
@@ -20911,7 +19224,6 @@ void std::vector<std::string, std::allocator<std::string>>::_M_realloc_insert<st
 void std::vector<std::string, std::allocator<std::string>>::_M_realloc_insert<std::string>(__gnu_cxx::__normal_iterator<std::string*, std::vector<std::string, std::allocator<std::string>>>, std::string&&)
 void std::vector<std::string, std::allocator<std::string>>::emplace_back<std::string>(std::string&&)
 void std::vector<std::unique_ptr<CAnimPosePool::Block, std::default_delete<CAnimPosePool::Block>>, std::allocator<std::unique_ptr<CAnimPosePool::Block, std::default_delete<CAnimPosePool::Block>>>>::_M_realloc_insert<std::unique_ptr<CAnimPosePool::Block, std::default_delete<CAnimPosePool::Block>>>(__gnu_cxx::__normal_iterator<std::unique_ptr<CAnimPosePool::Block, std::default_delete<CAnimPosePool::Block>>*, std::vector<std::unique_ptr<CAnimPosePool::Block, std::default_delete<CAnimPosePool::Block>>, std::allocator<std::unique_ptr<CAnimPosePool::Block, std::default_delete<CAnimPosePool::Block>>>>>, std::unique_ptr<CAnimPosePool::Block, std::default_delete<CAnimPosePool::Block>>&&)
-void std::vector<std::unique_ptr<CVkCommandBuffer, CVkResourceDeleter<CVkCommandBuffer>>, std::allocator<std::unique_ptr<CVkCommandBuffer, CVkResourceDeleter<CVkCommandBuffer>>>>::_M_realloc_insert<std::unique_ptr<CVkCommandBuffer, CVkResourceDeleter<CVkCommandBuffer>>>(__gnu_cxx::__normal_iterator<std::unique_ptr<CVkCommandBuffer, CVkResourceDeleter<CVkCommandBuffer>>*, std::vector<std::unique_ptr<CVkCommandBuffer, CVkResourceDeleter<CVkCommandBuffer>>, std::allocator<std::unique_ptr<CVkCommandBuffer, CVkResourceDeleter<CVkCommandBuffer>>>>>, std::unique_ptr<CVkCommandBuffer, CVkResourceDeleter<CVkCommandBuffer>>&&)
 void std::vector<tinygltf::Accessor, std::allocator<tinygltf::Accessor>>::_M_realloc_insert<tinygltf::Accessor>(__gnu_cxx::__normal_iterator<tinygltf::Accessor*, std::vector<tinygltf::Accessor, std::allocator<tinygltf::Accessor>>>, tinygltf::Accessor&&)
 void std::vector<tinygltf::Animation, std::allocator<tinygltf::Animation>>::_M_realloc_insert<tinygltf::Animation>(__gnu_cxx::__normal_iterator<tinygltf::Animation*, std::vector<tinygltf::Animation, std::allocator<tinygltf::Animation>>>, tinygltf::Animation&&)
 void std::vector<tinygltf::AnimationChannel, std::allocator<tinygltf::AnimationChannel>>::_M_realloc_insert<tinygltf::AnimationChannel>(__gnu_cxx::__normal_iterator<tinygltf::AnimationChannel*, std::vector<tinygltf::AnimationChannel, std::allocator<tinygltf::AnimationChannel>>>, tinygltf::AnimationChannel&&)
@@ -20935,10 +19247,7 @@ void std::vector<tinygltf::Value, std::allocator<tinygltf::Value>>::_M_realloc_i
 void std::vector<unsigned char, std::allocator<unsigned char>>::_M_range_insert<__gnu_cxx::__normal_iterator<unsigned char*, std::vector<unsigned char, std::allocator<unsigned char>>>>(__gnu_cxx::__normal_iterator<unsigned char*, std::vector<unsigned char, std::allocator<unsigned char>>>, __gnu_cxx::__normal_iterator<unsigned char*, std::vector<unsigned char, std::allocator<unsigned char>>>, __gnu_cxx::__normal_iterator<unsigned char*, std::vector<unsigned char, std::allocator<unsigned char>>>, std::forward_iterator_tag)
 void std::vector<unsigned char, std::allocator<unsigned char>>::_M_range_insert<unsigned char*>(__gnu_cxx::__normal_iterator<unsigned char*, std::vector<unsigned char, std::allocator<unsigned char>>>, unsigned char*, unsigned char*, std::forward_iterator_tag)
 void std::vector<unsigned char, std::allocator<unsigned char>>::_M_realloc_insert<unsigned char>(__gnu_cxx::__normal_iterator<unsigned char*, std::vector<unsigned char, std::allocator<unsigned char>>>, unsigned char&&)
-void std::vector<unsigned int, short_alloc<unsigned int, 40ul, 4ul>>::_M_realloc_insert<unsigned int const&>(__gnu_cxx::__normal_iterator<unsigned int*, std::vector<unsigned int, short_alloc<unsigned int, 40ul, 4ul>>>, unsigned int const&)
 void std::vector<unsigned int, std::allocator<unsigned int>>::_M_realloc_insert<unsigned int const&>(__gnu_cxx::__normal_iterator<unsigned int*, std::vector<unsigned int, std::allocator<unsigned int>>>, unsigned int const&)
-void std::vector<unsigned int, std::allocator<unsigned int>>::_M_realloc_insert<unsigned int>(__gnu_cxx::__normal_iterator<unsigned int*, std::vector<unsigned int, std::allocator<unsigned int>>>, unsigned int&&)
-void std::vector<unsigned long, short_alloc<unsigned long, 80ul, 8ul>>::_M_realloc_insert<unsigned long const&>(__gnu_cxx::__normal_iterator<unsigned long*, std::vector<unsigned long, short_alloc<unsigned long, 80ul, 8ul>>>, unsigned long const&)
 void std::vector<unsigned long, std::allocator<unsigned long>>::_M_realloc_insert<unsigned long const&>(__gnu_cxx::__normal_iterator<unsigned long*, std::vector<unsigned long, std::allocator<unsigned long>>>, unsigned long const&)
 void std::vector<void (*)(), std::allocator<void (*)()>>::_M_emplace_back_aux<void (* const&)()>(void (* const&)())
 void std::vector<void*, std::allocator<void*>>::_M_emplace_back_aux<void* const&>(void* const&)
@@ -20982,19 +19291,6 @@ void vortex::CLighthouseModel::Functors<vortex::CLighthousePoseSolver::CStateTra
 void vortex::DecomposeTrackref<double>(math::Vec3T<double>*, math::Vec3T<double>*, math::Vec3T<double>*, math::PoseT<double> const&)
 void vortex::lighthouse::CleanSensorHits<__gnu_cxx::__normal_iterator<vortex::lighthouse::SensorHit_s const*, std::vector<vortex::lighthouse::SensorHit_s, std::allocator<vortex::lighthouse::SensorHit_s>>>, std::back_insert_iterator<std::vector<vortex::lighthouse::SensorHit_s, std::allocator<vortex::lighthouse::SensorHit_s>>>>(vortex::CLighthouseModel*, __gnu_cxx::__normal_iterator<vortex::lighthouse::SensorHit_s const*, std::vector<vortex::lighthouse::SensorHit_s, std::allocator<vortex::lighthouse::SensorHit_s>>>, __gnu_cxx::__normal_iterator<vortex::lighthouse::SensorHit_s const*, std::vector<vortex::lighthouse::SensorHit_s, std::allocator<vortex::lighthouse::SensorHit_s>>>, std::back_insert_iterator<std::vector<vortex::lighthouse::SensorHit_s, std::allocator<vortex::lighthouse::SensorHit_s>>>)
 void** std::__copy_move<true, true, std::random_access_iterator_tag>::__copy_m<void*>(void* const*, void* const*, void**)
-volkFinalize
-volkGenLoadDevice
-volkGenLoadInstance
-volkGenLoadLoader.constprop.0
-volkGetInstanceVersion
-volkGetLoadedDevice
-volkGetLoadedInstance
-volkInitialize
-volkInitializeCustom
-volkLoadDevice
-volkLoadDeviceTable
-volkLoadInstance
-volkLoadInstanceOnly
 vortex
 vortex::(anonymous namespace)::CDisambiguatorTDM::BHavePendingEvents() const
 vortex::(anonymous namespace)::CDisambiguatorTDM::CheckGlobalSyncLock(double)
@@ -22409,7 +20705,6 @@ vortex::lighthouse::SensorHit_s::ToJson() const
 vortex::lighthouse::SensorHit_s::ToJson() const (.cold)
 vortex::lighthouse::SensorVecContainsHit(std::vector<vortex::lighthouse::SensorHit_s, std::allocator<vortex::lighthouse::SensorHit_s>> const&, vortex::lighthouse::SensorHit_s const&)
 vr-input-workshop://
-vr-marker,frame_end,type,application
 vr::BlockQueueError_None == vr_internal::VRBlockQueue()->Create( &m_ulRawCameraQueue, "/lighthouse/camera/raw_frames", nFrameBufferDataSize, 512, nDefaultFrameQueueSize )
 vr::CVRPropertyHelpers::GetStringProperty(unsigned long, vr::ETrackedDeviceProperty, vr::ETrackedPropertyError*)
 vr::CameraVideoStreamFormatFromFourCC(unsigned int)
@@ -22532,8 +20827,6 @@ vrcore::crc32(unsigned int, void const*, unsigned long)
 vrcore::crc32(unsigned int, void const*, unsigned long)::crcTable
 vref_ok
 vrpathreg
-vrprismhost_startup
-vrprismhost_startup timed out after %u ms before being set by the new vrprismhost process
 vrserver internal error (124)
 vrwebhelper
 vsnprintf
@@ -22591,7 +20884,6 @@ vtable for CLighthouseHmdDriver
 vtable for CLighthouseHmdProvider
 vtable for CLinuxVideoStream
 vtable for CPreviewThread
-vtable for CPrismDirect
 vtable for CPropertyContainer
 vtable for CPropertyManager
 vtable for CServerDriverHost_002
@@ -22621,7 +20913,6 @@ vtable for CVRDriverDirectModeComponent_006
 vtable for CVRDriverDirectModeComponent_007
 vtable for CVRDriverDirectModeComponent_008
 vtable for CVRDriverDirectModeComponent_Latest
-vtable for CVRFramerateGovernor
 vtable for CVRMailbox
 vtable for CVRMailboxBase
 vtable for CVRReplyMailbox
@@ -22629,16 +20920,6 @@ vtable for CVRTrackedDevice_004
 vtable for CVRTrackedDevice_Latest
 vtable for CVRVirtualDisplayComponent_001
 vtable for CVRVirtualDisplayComponent_Latest
-vtable for CVkBuffer
-vtable for CVkCommandBuffer
-vtable for CVkCommandBufferPool
-vtable for CVkGarbageCollector
-vtable for CVkImage
-vtable for CVkMemory
-vtable for CVkPoolGarbageCollector<CVkCommandBuffer>
-vtable for CVkResourceBase
-vtable for CVkResourcePool<CVkCommandBuffer>
-vtable for CVkTimeline
 vtable for CVrcDecodeTagged
 vtable for CWatchdogConnectionMonitor
 vtable for CWatchdogDriver_Lighthouse
@@ -22687,10 +20968,6 @@ vtable for __gnu_cxx::stdio_filebuf<char, std::char_traits<char>>
 vtable for __gnu_cxx::stdio_filebuf<wchar_t, std::char_traits<wchar_t>>
 vtable for __gnu_cxx::stdio_sync_filebuf<char, std::char_traits<char>>
 vtable for __gnu_cxx::stdio_sync_filebuf<wchar_t, std::char_traits<wchar_t>>
-vtable for facet::CVkInteropDeviceNull
-vtable for facet::CVkInteropImageNull
-vtable for facet::CVkTimestampQueryPool<2u>
-vtable for facet::CVkTimestampQueryPoolBase
 vtable for google::protobuf::(anonymous namespace)::AggregateErrorCollector
 vtable for google::protobuf::(anonymous namespace)::FieldValuePrinterUtf8Escaping
 vtable for google::protobuf::(anonymous namespace)::GeneratedMessageFactory
@@ -23028,7 +21305,6 @@ wrapS
 wrapT
 write
 writev
-wrong ELF class: ELFCLASS32
 wrong channel count
 wrong color format
 wrong submessage type
