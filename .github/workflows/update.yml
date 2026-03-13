@@ -23,6 +23,7 @@ jobs:
         steps:
 
         - name: Checkout GameTracking
+          id: checkout-gametracking
           uses: actions/checkout@v6
           with:
             fetch-depth: 1
@@ -31,13 +32,12 @@ jobs:
 
         - name: Grab cache
           id: cache
-          uses: actions/cache@v3
+          uses: actions/cache@v5
           with:
             path: |
               ${{ github.workspace }}/tools/*
               !${{ github.workspace }}/tools/build.sh
-            key: ${{ runner.os }}-tools-${{ github.run_id }}
-            restore-keys: ${{ runner.os }}-tools
+            key: ${{ runner.os }}-tools-${{ steps.checkout-gametracking.outputs.commit }}
 
         - name: Checkout GameTrackingSteamVR
           uses: actions/checkout@v6
@@ -56,18 +56,7 @@ jobs:
             dotnet-version: '10.x'
 
         - name: Build tools
-          run: |
-            sed -i 's/git submodule update --remote --merge/git submodule update --init --remote --depth 1/' tools/build.sh && \
-            ./tools/build.sh
-
-        - name: Build DepotDownloader
-          run: |
-            cd $RUNNER_TEMP && \
-            git clone --depth=1 https://github.com/SteamTracking/SteamFileDownloader.git && \
-            cd SteamFileDownloader && \
-            dotnet build -c Release SteamFileDownloader.csproj && \
-            dotnet publish --configuration Release -p:PublishSingleFile=true -p:DebugType=embedded --self-contained --runtime linux-x64 SteamFileDownloader.csproj && \
-            mv ./bin/linux-x64/publish/SteamFileDownloader /usr/local/bin/SteamFileDownloader
+          run: ./tools/build.sh
 
         - name: Configure git user
           run: |
