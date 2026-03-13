@@ -12,7 +12,7 @@ Protobufs/google/
 resources/webinterface/dashboard/**/*.js
 resources/webinterface/dashboard/**/*.css
 node_modules/
-package-lock.json
+steam_buildid.txt
 
 # Ignore all translations
 **/*_arabic*.txt
