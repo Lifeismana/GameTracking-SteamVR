@@ -1,0 +1,84 @@
+name: Update
+
+on:
+    workflow_dispatch:
+        inputs:
+            branch:
+                description: 'Steam VR Branch'
+                required: false
+                default: 'beta'
+                type: string
+    repository_dispatch:
+
+concurrency:
+    group: ${{ github.workflow }}
+    cancel-in-progress: true
+
+jobs:
+    execute:
+        runs-on: ubuntu-latest
+        permissions:
+            contents: write
+        environment: Execute
+        steps:
+
+        - name: Checkout GameTracking
+          id: checkout-gametracking
+          uses: actions/checkout@v6
+          with:
+            fetch-depth: 1
+            repository: 'SteamTracking/GameTracking'
+            submodules: true
+
+        - name: Grab cache
+          id: cache
+          uses: actions/cache@v5
+          with:
+            path: |
+              ${{ github.workspace }}/tools/*
+              !${{ github.workspace }}/tools/build.sh
+            key: ${{ runner.os }}-tools-${{ steps.checkout-gametracking.outputs.commit }}
+
+        - name: Checkout GameTrackingSteamVR
+          uses: actions/checkout@v6
+          with:
+            fetch-depth: 1
+            path: steamvr
+
+        - name: Setup Go
+          uses: actions/setup-go@v6
+          with:
+            go-version: 'stable'
+
+        - name: Setup .NET
+          uses: actions/setup-dotnet@v5
+          with:
+            dotnet-version: '10.x'
+
+        - name: Build tools
+          if: steps.cache.outputs.cache-hit != 'true'
+          run: ./tools/build.sh
+
+        - name: Configure git user
+          run: |
+            git config --global user.name "github-actions[bot]"
+            git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+        - name: Setup Node.js
+          uses: actions/setup-node@v6
+          with:
+            node-version: '22'
+            cache: 'npm'
+            cache-dependency-path: steamvr/package-lock.json
+
+        - name: Install Node dependencies
+          working-directory: steamvr
+          run: npm ci
+
+        - name: Execute
+          working-directory: steamvr
+          run: ./update.sh
+          env:
+                STEAM_USERNAME: ${{ secrets.STEAM_USERNAME }}
+                STEAM_PASSWORD: ${{ secrets.STEAM_PASSWORD }}
+                STEAM_BRANCH: ${{ github.event.inputs.branch }}
