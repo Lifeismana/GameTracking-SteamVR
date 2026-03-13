@@ -17,7 +17,7 @@ jobs:
     process:
         permissions:
             contents: write
-        uses: steamtracking/gametracking/.github/workflows/gametracking.yml@reusable-workflow
+        uses: steamtracking/gametracking/.github/workflows/gametracking.yml@master
         secrets: inherit
         with:
           folder: steamvr
