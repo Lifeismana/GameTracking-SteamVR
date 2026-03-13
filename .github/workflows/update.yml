@@ -25,22 +25,25 @@ jobs:
         - name: Checkout GameTracking
           uses: actions/checkout@v6
           with:
-            submodules: recursive
             fetch-depth: 1
-            repository: 'Lifeismana/GameTracking'
+            repository: 'SteamTracking/GameTracking'
+            recursive: true
 
+        - name: Grab cache
+          id: cache
+          uses: actions/cache@v3
+          with:
+            path: |
+              ${{ github.workspace }}/tools/*
+              !${{ github.workspace }}/tools/build.sh
+            key: ${{ runner.os }}-tools-${{ github.run_id }}
+            restore-keys: ${{ runner.os }}-tools
 
         - name: Checkout GameTrackingSteamVR
           uses: actions/checkout@v6
           with:
-            submodules: recursive
             fetch-depth: 1
             path: steamvr
-
-        - name: Setup PHP
-          uses: shivammathur/setup-php@v2
-          with:
-            php-version: '8.5'
 
         - name: Setup Go
           uses: actions/setup-go@v6
@@ -90,11 +93,8 @@ jobs:
         - name: Execute
           working-directory: steamvr
           run: |
-            mkdir -p ./manifests
 
             [ -z "$STEAM_BRANCH" ] && STEAM_BRANCH="beta"
-
-            SteamFileDownloader --username "$STEAM_USERNAME" --password "$STEAM_PASSWORD" --appid 250820 --output . --branch $STEAM_BRANCH --save-manifest
 
             ./update.sh $STEAM_BRANCH
           env:
