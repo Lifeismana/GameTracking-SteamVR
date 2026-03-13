@@ -19,7 +19,6 @@ jobs:
         runs-on: ubuntu-latest
         permissions:
             contents: write
-        environment: Execute
         steps:
 
         - name: Checkout GameTracking
