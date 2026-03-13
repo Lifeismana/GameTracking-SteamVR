@@ -60,11 +60,11 @@ jobs:
         - name: Build DepotDownloader
           run: |
             cd $RUNNER_TEMP && \
-            git clone --depth=1 https://github.com/SteamRE/DepotDownloader.git && \
-            cd DepotDownloader && \
-            dotnet build -c Release ./DepotDownloader/DepotDownloader.csproj && \
-            dotnet publish --configuration Release -p:PublishSingleFile=true -p:DebugType=embedded --self-contained --runtime linux-x64 DepotDownloader/DepotDownloader.csproj && \
-            mv ./DepotDownloader/bin/Release/net9.0/linux-x64/publish/DepotDownloader /usr/local/bin/DepotDownloader
+            git clone --depth=1 https://github.com/SteamTracking/SteamFileDownloader.git && \
+            cd SteamFileDownloader && \
+            dotnet build -c Release SteamFileDownloader.csproj && \
+            dotnet publish --configuration Release -p:PublishSingleFile=true -p:DebugType=embedded --self-contained --runtime linux-x64 SteamFileDownloader.csproj && \
+            mv ./bin/linux-x64/publish/SteamFileDownloader /usr/local/bin/SteamFileDownloader
 
         - name: Configure git user
           run: |
@@ -94,19 +94,7 @@ jobs:
 
             [ -z "$STEAM_BRANCH" ] && STEAM_BRANCH="beta"
 
-            # 817940
-            DepotDownloader -username "$STEAM_USERNAME" -password "$STEAM_PASSWORD" -app 250820 -depot 228985 228988 228989 228990 250821 250822 250823 250824 250825 250827 250828 250829 250830 250831 250832 250833 250834 4128110 -all-platforms -dir ./manifests -beta $STEAM_BRANCH -manifest-only
-            shopt -s extglob
-            for file in ./manifests/*_*_*.txt; do
-                mv $file ${file%_+([0-9]).txt}.txt
-            done
-            DepotDownloader -username "$STEAM_USERNAME" -password "$STEAM_PASSWORD" -app 250820 -all-platforms -depot 250821 -validate -dir . -beta $STEAM_BRANCH -filelist "$GITHUB_WORKSPACE/steamvr/list/dll.txt"
-            DepotDownloader -username "$STEAM_USERNAME" -password "$STEAM_PASSWORD" -app 250820 -all-platforms -depot 250823 250832 -validate -dir . -beta $STEAM_BRANCH -filelist "$GITHUB_WORKSPACE/steamvr/list/lib.txt"
-            DepotDownloader -username "$STEAM_USERNAME" -password "$STEAM_PASSWORD" -app 250820 -all-platforms -depot 250824 -validate -dir . -beta $STEAM_BRANCH -filelist "$GITHUB_WORKSPACE/steamvr/list/big_content.txt"
-            DepotDownloader -username "$STEAM_USERNAME" -password "$STEAM_PASSWORD" -app 250820 -all-platforms -depot 250827 250830 250833 -validate -dir . -beta $STEAM_BRANCH -filelist "$GITHUB_WORKSPACE/steamvr/list/content.txt"
-            DepotDownloader -username "$STEAM_USERNAME" -password "$STEAM_PASSWORD" -app 250820 -all-platforms -depot 250834 4128110 -validate -dir . -beta $STEAM_BRANCH 
-            DepotDownloader -app 250820 -all-platforms -depot 250825 -dir . -beta $STEAM_BRANCH
-            npm install
+            SteamFileDownloader --username "$STEAM_USERNAME" --password "$STEAM_PASSWORD" --appid 250820 --output . --branch $STEAM_BRANCH --save-manifest
 
             ./update.sh $STEAM_BRANCH
           env:

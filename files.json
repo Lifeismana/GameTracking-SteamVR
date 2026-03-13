@@ -1,0 +1,34 @@
+{
+	"250824": // steamvr content
+	[
+		"regex:.+?\\.(vdf|kv3|txt|cfg|lst|db|jpg|png|gif|svg|inf|gi|fgd|lua|json|js|ts|css|html|vrdrivermanifest|vrfirmware|vrmanifest|vrresources|vrsettings)"
+	],
+	"250827": // steamvr content 2
+	[
+		"regex:.+?\\.(vdf|kv3|txt|cfg|lst|db|jpg|png|gif|inf|gi|fgd|lua|json|js|ts|html)"
+	],
+	"250830": // steamvr environments content
+	[
+		"regex:.+?\\.(vdf|kv3|txt|cfg|lst|db|jpg|png|gif|inf|gi|fgd|lua|json|js|ts|html)",
+		"regex:.+?asset_info\\.bin",
+		"regex:.+?_dir\\.vpk",
+	],
+	"250833": // steamvr environments tools
+	[
+		"regex:.+?\\.(vdf|kv3|txt|cfg|lst|db|jpg|png|gif|inf|gi|fgd|lua|json|js|ts|html)",
+		"regex:.+?asset_info\\.bin",
+	],
+	"250821": // steamvr windows
+	[
+		"regex:.+?\\.(dll|exe)",
+	],
+	"250823": // steamvr linux
+	[
+		"regex:.+?\\.(so|sh)",
+	],
+	"250832": // steamvr environments linux
+	[
+		"regex:.+?\\.(so|sh)",
+		"regex:.+?_dir\\.vpk",
+	],
+}
