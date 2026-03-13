@@ -12,6 +12,7 @@ Protobufs/google/
 resources/webinterface/dashboard/**/*.js
 resources/webinterface/dashboard/**/*.css
 node_modules/
+steam_buildid.txt
 
 # Ignore all translations
 **/*_brazilian*.json
