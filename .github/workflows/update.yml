@@ -27,7 +27,6 @@ jobs:
           with:
             fetch-depth: 1
             repository: 'SteamTracking/GameTracking'
-            submodules: true
 
         - name: Grab cache
           id: cache
