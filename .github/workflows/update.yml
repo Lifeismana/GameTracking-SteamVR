@@ -44,11 +44,13 @@ jobs:
             path: steamvr
 
         - name: Setup Go
+          if: steps.cache.outputs.cache-hit != 'true'
           uses: actions/setup-go@v6
           with:
             go-version: 'stable'
 
         - name: Setup .NET
+          if: steps.cache.outputs.cache-hit != 'true'
           uses: actions/setup-dotnet@v5
           with:
             dotnet-version: '10.x'
