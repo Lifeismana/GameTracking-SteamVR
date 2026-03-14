@@ -4,10 +4,6 @@ set -euo pipefail
 cd "${0%/*}"
 . ../common.sh
 
-echo "Downloading SteamVR..."
-
-$STEAM_FILE_DOWNLOADER_PATH --username "$STEAM_USERNAME" --password "$STEAM_PASSWORD" --appid 250820 --output . --branch $STEAM_BRANCH --save-manifest
-
 echo "Processing SteamVR..."
 
 ProcessDepot ".dll"

@@ -22,3 +22,5 @@ jobs:
         with:
           folder: steamvr
           branch: ${{ github.event.inputs.branch }}
+          appid: 250820
+          save-manifest: true
