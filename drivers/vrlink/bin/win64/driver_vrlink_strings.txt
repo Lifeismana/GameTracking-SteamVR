@@ -298,8 +298,6 @@ $3br
 .?AVCMMNotificationClient@@
 .?AVCNonCopyable@@
 .?AVCRefCount@@
-.?AVCThread@@
-.?AVCUsbDeviceScannerThread@@
 .?AVCVRAudioDeviceImpl@@
 .?AVCVRAudioDevices@@
 .?AVCVRMailbox@@
@@ -318,7 +316,6 @@ $3br
 .?AVIServerTrackedDeviceProvider@vr@@
 .?AVIStatePoseMaker@@
 .?AVITrackedDeviceServerDriver@vr@@
-.?AVIUsbDeviceCallback@@
 .?AVIVRAudioDevices@@
 .?AVIVRAudioNotification@@
 .?AVIVRDisplayComponent@vr@@
@@ -456,7 +453,10 @@ $3br
 /dashboard_head_pose_from_standing
 /device_was_drawn
 /driver_vrlink/client_version
+/driver_vrlink/foveation_enabled
 /driver_vrlink/got_eye_and_expression
+/driver_vrlink/max_stream_format_width
+/driver_vrlink/min_stream_format_width
 /driver_vrlink/network_tested_bandwidth
 /eyetracking
 /input/a/click
@@ -631,10 +631,11 @@ $3br
 0-pixel image
 0.0.0.0
 00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899
+00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899h
 00P`00P`
 0\v2;i
 0`P0
-0a\v6<
+0a\v6<`8
 0n\n&pa
 0x%I64x
 1 Sec
@@ -673,7 +674,6 @@ $3br
 7[4ka
 7^d[L
 7nY7m
-7~iz
 88Hp88Hp
 88pH
 8c8f13b1-60eb-4b6a-a433-de86104115ac
@@ -868,7 +868,7 @@ AUDIO: %s
 Accessor
 AcquireSRWLockExclusive
 AcquireSRWLockShared
-Active Data Links: m_pLink:%p pTcpLink:%p pUdpLink:%p p8814Link:%p\n
+Active Data Links: m_pLink:%p pTcpLink:%p pUdpLink:%p\n
 ActualHMDDriver
 Adapter is not supported by vrlink (vendor ID %d).\n
 Adding dashboard transform to request
@@ -905,6 +905,7 @@ Autodetected %s
 Autodetected Headset, using Oculus Quest 3 profile
 Autodetected Headset, using Oculus Quest Pro profile
 Autodetected Headset, using Pico 4x profile
+Autodetected Headset, using Pico/HTC Eye tracking profile
 Autodetected Oculus Quest 2
 AvRevertMmThreadCharacteristics
 AvRevertMmThreadCharacteristics failed: last error is %d\n
@@ -1098,14 +1099,13 @@ Data Link Startup with Options: nTimedRetryOption = %d, nQoSOption = %d
 Datalink failed with %d\n
 DeadL %4.1fms
 DefWindowProcA
+Default automatic encoded video size: %i
 DeleteCriticalSection
 DeleteFileW
 DeleteObject
 Description:  %s\n
-DestroyWindow
 Detail
 Detected %d playback and %d record devices\n
-DeviceMessageWindow_t::RunFrame
 DeviceType %s\n
 DisableThreadLibraryCalls
 Disconnected VRLink Headset
@@ -1252,10 +1252,8 @@ FailHistH
 Failed to create d3d11textures
 Failed to create d3d11textures: %08x\n
 Failed to create shader resource view for texture
-Failed to create window in DeviceMessageWindow_t::Create
 Failed to decode 'uri' : 
 Failed to decode 'uri' for image[
-Failed to get HINSTANCE in DeviceMessageWindow_t::Create
 Failed to get shared handle interface for d3d11textures
 Failed to get shared handle the shared texture.
 Failed to load external 'uri' for image[
@@ -1263,7 +1261,6 @@ Failed to parse JSON object\n
 Failed to parse `bufferView` for image[
 Failed to parse `uri` for image[
 Failed to read file: 
-Failed to register/find class in DeviceMessageWindow_t::Create
 Failed to request dashboard tutorial (%d)\n
 Failed to scan for dongle driver.\n
 Failed to send OGS row update\n
@@ -1300,7 +1297,6 @@ GPU supports %dMB per second\n
 GPU supports 10BIT_ENCODE for video compression\n
 GetACP
 GetAdaptersAddresses
-GetClassInfoA
 GetClientRect
 GetCurrentProcess
 GetCurrentProcessId
@@ -1312,7 +1308,6 @@ GetDefaultAudioEndpoint failed for role eCommunications: hr = 0x%08x\n
 GetDefaultAudioEndpoint failed for role eConsole: hr = 0x%08x\n
 GetDefaultAudioEndpoint failed: hr = 0x%08x\n
 GetEnvironmentVariableA
-GetExitCodeThread
 GetFileAttributesExW
 GetFileAttributesW
 GetFileSizeEx
@@ -1330,14 +1325,12 @@ GetSystemDirectoryW
 GetSystemTime
 GetSystemTimeAsFileTime
 GetTickCount64
-GetWindowLongPtrA
 GetWindowRect
 Getting devnode property store failed: hr = 0x%08x\n
 Getting file size failed : 
 Getting render devnode via IMMDeviceEnumerator::GetDevice("%ls") failed: hr = 0x%08x\n
 Gf*S
 Got Debug message from client
-Got permanent SVL init failure on hotplug attempt
 GtH|ITJ8K
 H6s<
 HandAnimEvaluator
@@ -1433,7 +1426,7 @@ IVRDriverManager_001
 IVRExtendedDisplay_001
 IVRIPCResourceManagerClient_003
 IVRInputInternal_002
-IVRInput_010
+IVRInput_011
 IVRMailbox_002
 IVRNotificationsInternal_001
 IVROverlayInternal_XXX
@@ -1450,7 +1443,7 @@ IVRServerInternal_XXX
 IVRSettingsInternal_001
 IVRSettings_003
 IVRSystemLayerInternal_XXX
-IVRSystem_023
+IVRSystem_026
 IVRTrackedCameraInternal_XXX
 IVRVirtualDisplay_002
 IVRWatchdogProvider_001
@@ -1517,9 +1510,9 @@ LINEAR
 LZsYCB
 LaserMouseHmdAngleDegrees %f\n
 LastKnown
-Late init successful
 Latency
 LeaveCriticalSection
+Left Controller
 Line %d, Column %d
 Link BW hist: w %f  %s\n
 Link BW: Est %0.01f Mbit/s (auto: %d)\n
@@ -1529,7 +1522,6 @@ Llist<T> too long
 LoadCursorA
 LoadIconA
 LoadLibraryA
-LoadLibraryExA
 LoadLibraryExW
 LocalAlloc
 LocalFree
@@ -1777,7 +1769,6 @@ RegGetValueW
 RegOpenKeyExW
 RegQueryValueExW
 RegisterClassA
-RegisterDeviceNotificationA
 Release
 ReleaseSRWLockExclusive
 ReleaseSRWLockShared
@@ -1800,7 +1791,6 @@ Restarting dongle.\n
 Retry
 RootNode
 RouterMacPrefix
-RpcStringFreeA
 RtlCaptureContext
 RtlGetNtVersionNumbers
 RtlLookupFunctionEntry
@@ -1911,6 +1901,7 @@ SVLDataLinkUDP::Shutdown(); Disconnect() complete\n
 SVLDataLinkUDP::Shutdown(); Thread Join Complete.\n
 SVLDataLinkUDP::Shutdown(); m_nQuit = %d\n
 SVLDriver::ActivateHMDNow()\n
+SVLDriver::BDetectSteamFrameWirelessAdapter
 SVLDriver::CheckForMissingDrivers
 SVLDriver::Init() Complete\n
 SVLDriver::Init() failed. Returning failure from init so we'll be unloaded.
@@ -1988,11 +1979,12 @@ SetLastError
 SetPixel
 SetThreadPriority
 SetUnhandledExceptionFilter
-SetWindowLongPtrA
 Setting VTE_USE_ENCODE_TARGET_WIDTH = %d\n
+Setting auto encoded video size for non-foveation to: %i
 Setting default Pico specific properties for HMD Model: %i \n
 Setting default Quest specific properties for HMD Model: %i \n
 Setting m_nTargetEncodeWidth: %d\n
+Setting non-foveated default stream format width to %i
 Setting up context with NvAPI_D3D1x_CreateLowLatencyDeviceHint() = %d\n
 Setting up context with NvAPI_D3D1x_DeclareVRProcessType(NVAPI_VR_PROCESS_COMPOSITOR) = %d\n
 SetupDiBuildDriverInfoList
@@ -2039,7 +2031,6 @@ SteamStreaming
 SteamVR Remote Detailed Debug
 SteamVRDriverVRLinkBwStats
 SteamVRDriverVrlink
-Still no dongle after USB device detection
 Stopping playback mirror thread\n
 SubFlags%d
 Submit
@@ -2059,14 +2050,9 @@ TerminateProcess
 TextureInfo
 The VRLink Driver encountered a fatal error:\n%s\n
 This Program Requires Windows NT
-Thread exited immediately\n
-Thread failed to initialize 1\n
-Thread failed to initialize 2\n
 Timed out waiting for another accepted video packet, trying to force the stream reset\n
 TlsAlloc
 TlsFree
-TlsGetValue
-TlsSetValue
 Toggle Cross in center of image.
 Toggle Eye Filtering.
 Toggle foveated transmission (eye tracking).
@@ -2124,8 +2110,6 @@ Unknown image format. STB cannot decode image header for image[
 Unknown method: "
 Unknown spatial encoding mode
 UnmapViewOfFile
-UnregisterClassA
-UnregisterDeviceNotification
 Unsupported `type` for accessor object. Got "
 UpdateWindow
 Using 10bit mode: %d\n
@@ -2134,12 +2118,10 @@ Using AVX\n
 Using NOAESNI\n
 Using SSE\n
 Using defaults as unknown headset: %d
-UuidCreate
 UuidFromStringA
-UuidToStringA
 V22dN::t
+V?X4
 VCRUNTIME140.dll
-VDEST
 VEC2
 VEC3
 VEC4
@@ -2302,7 +2284,7 @@ Zjz\v
 [Perf warning] %0.3fms - Time to initiate send over network
 [Perf warning] %0.3fms - Took a long time for EOS to complete.
 [Perf warning] %0.3fms - videonvenc::GetEncodedPacket
-[Perf warning] %0.3fms - videonvenc::Init
+[Perf warning] %0.3fms - videonvenc::InitVendorSpecific
 [Perf warning] %0.3fms - videonvenc::PostInit
 [Perf warning] %0.3fms - videonvenc::ReinitEncoder
 [Perf warning] %0.3fms - videonvenc::StartEncodeData
@@ -2397,7 +2379,7 @@ Zjz\v
 ] is not a JSON object.
 ],"subtype":
 ]1bO
-]c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrlink\driver_vrlink\hmdd3d11.cpp:1644
+]c:\buildslave\steamvr_rel_win64\build\src\vrlink\driver_vrlink\hmdd3d11.cpp:1644
 ^lX8k
 _55j
 _Cnd_broadcast
@@ -2547,7 +2529,6 @@ asset
 asyncSend
 asyncStartEncode
 atan2f
-atlasMode
 atof
 atoi
 attributes
@@ -2628,17 +2609,17 @@ byteLength
 byteOffset
 byteStride
 c!!B0
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\animation\animresourcemanager.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\vrmailbox.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\logbuffer.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\strtools_public.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrlink\driver_vrlink\Retail\win64\2017\driver_vrlink.pdb
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrlink\driver_vrlink\hmd.cpp:2135
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrlink\driver_vrlink\hmd.cpp:2375
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrlink\driver_vrlink\hmd.cpp:2487
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrlink\driver_vrlink\hmdd3d11.cpp:1615
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrlink\driver_vrlink\steamvrlink.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrlink\driver_vrlink\videonvenc.cpp:1386
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\animation\animresourcemanager.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrmailbox.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\logbuffer.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\strtools_public.cpp
+c:\buildslave\steamvr_rel_win64\build\src\vrlink\driver_vrlink\Retail\win64\2017\driver_vrlink.pdb
+c:\buildslave\steamvr_rel_win64\build\src\vrlink\driver_vrlink\hmd.cpp:2309
+c:\buildslave\steamvr_rel_win64\build\src\vrlink\driver_vrlink\hmd.cpp:2549
+c:\buildslave\steamvr_rel_win64\build\src\vrlink\driver_vrlink\hmd.cpp:2661
+c:\buildslave\steamvr_rel_win64\build\src\vrlink\driver_vrlink\hmdd3d11.cpp:1615
+c:\buildslave\steamvr_rel_win64\build\src\vrlink\driver_vrlink\steamvrlink.cpp
+c:\buildslave\steamvr_rel_win64\build\src\vrlink\driver_vrlink\videonvenc.cpp:1391
 c=qx
 cAoption requires an argument -- %c
 cAudBufAvg
@@ -2739,11 +2720,9 @@ de_de
 debugRegionColoring
 deque<T> too long
 dest
-devicescannermsgwindow-
 displayFrequency
 distanceModel
 doubleSided
-driver_lighthouse message window
 driver_vrlink
 driver_vrlink.dll
 driver_vrlink: Display Frequency: %f\n
@@ -2773,7 +2752,6 @@ enableTimedRetry
 enableYAMLCompatibility
 encResets
 encSubmitFrameMS
-encodeWidth
 end of input
 english
 error
@@ -2822,10 +2800,12 @@ fminf
 fopen
 force10bit
 forceBaselineVideoFEC
+foveationMode
 fputc
 fputs
 fr_fr
 frame_controller
+frame_controller_
 fread
 free
 freeaddrinfo
@@ -2857,7 +2837,6 @@ hand_right_closeanim.glb
 hand_right_poses.glb
 handle_recenter
 handlers
-hasEyeTracking
 height
 hist
 hu_hu
@@ -2997,6 +2976,8 @@ materials
 matrix
 max value > 255
 maxDistance
+maxNonFoveatedStreamFormatWidth
+maxStreamFormatWidth
 maxVideoQueueLatencyUs
 mbps
 memchr
@@ -3014,6 +2995,8 @@ mfplat.dll
 micVolumeHasBeenInitialized
 mimeType
 minFilter
+minNonFoveatedStreamFormatWidth
+minStreamFormatWidth
 minVersion
 missing color table
 mode
@@ -3039,6 +3022,7 @@ no header height
 no preset dict
 node
 nodes
+nonFoveatedStreamFormatWidth
 normalTexture
 normalized
 norwegian
@@ -3070,6 +3054,12 @@ oculus_quest_pro
 oculus_quest_pro_controller
 oculus_touch
 off.png
+offsetDegX
+offsetDegY
+offsetDegZ
+offsetPosX
+offsetPosY
+offsetPosZ
 ole32.dll
 only 8-bit
 open
@@ -3125,6 +3115,7 @@ preferredRefreshRate
 preventDongleDriverUpdate
 primitive indices accessor out of bounds
 primitives
+providesOffsetOverride
 ps_5_0
 ps_main
 ps_main_chroma
@@ -3146,6 +3137,8 @@ received VTE_DASHBOARD_ACTION %d %d
 received VTE_DASHBOARD_ACTION close_dashboard
 received VTE_DASHBOARD_ACTION open_dashboard
 received VTE_DRIVER_SYSTEM_FLAGS %d %d %d
+recommendedRenderHeight
+recommendedRenderWidth
 recv failed with error: %d\n
 refDistance
 rejectDupKeys
@@ -3176,7 +3169,6 @@ roughnessFactor
 roundf
 roy_k2
 roy_k2v3
-rtus_test
 ru_ru
 runas
 runtime
@@ -3258,6 +3250,8 @@ strtol
 strtoll
 strtoul
 strtoull
+supports10bit
+supportsEyeTracking
 sv_se
 svl/driver
 svl/linkbwmon
@@ -3416,6 +3410,10 @@ zh_cn
 zh_tw
 zlib corrupt
 znear
+{frame_controller}/icons/
+{frame_controller}/input/frame_controller_profile.json
+{frame_controller}frame_controller_left
+{frame_controller}frame_controller_right
 {oculus}/icons/quest_headset_alert_searching.gif
 {oculus}/icons/quest_headset_error.png
 {oculus}/icons/quest_headset_off.png
@@ -3441,8 +3439,6 @@ znear
 {oculus}/icons/rifts_right_controller_searching_alert.png
 {oculus}/input/rift_profile.json
 {oculus}/input/touch_profile.json
-{roy}frame_controller_left
-{roy}frame_controller_right
 {vrlink}
 {vrlink}/icons/
 {vrlink}/icons/headset_pico4_error.png

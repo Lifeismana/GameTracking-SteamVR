@@ -668,7 +668,7 @@ IVRDriverInputInternal_XXX
 IVRDriverManager_001
 IVRExtendedDisplay_001
 IVRInputInternal_002
-IVRInput_010
+IVRInput_011
 IVRMailbox_002
 IVRNotificationsInternal_001
 IVROverlayInternal_XXX
@@ -685,7 +685,7 @@ IVRServerInternal_XXX
 IVRSettingsInternal_001
 IVRSettings_003
 IVRSystemLayerInternal_XXX
-IVRSystem_023
+IVRSystem_026
 IVRTrackedCameraInternal_XXX
 Infinity
 InitializeAcl
@@ -760,7 +760,7 @@ Qt5Widgets.dll
 QueryPerformanceCounter
 R?rgb@QColor@@QEBAIXZ
 RPCRT4.dll
-RSDS
+RSDSl^
 RaiseException
 ReadFile
 ReadFile failed on %s after event was signaled because %s\n
@@ -851,6 +851,7 @@ VROverlayFlags_IgnoreTextureAlpha
 VROverlayFlags_IsPremultiplied
 VROverlayFlags_MakeOverlaysInteractiveIfVisible
 VROverlayFlags_MultiCursor
+VROverlayFlags_NoBackside
 VROverlayFlags_NoDashboardTab
 VROverlayFlags_Panorama
 VROverlayFlags_ProtectedContent
@@ -1063,12 +1064,12 @@ bad conversion
 bg_bg
 brazilian
 bulgarian
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\ipcwin32.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\strtools_public.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\vripcsharedstate.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\overlay_viewer\Retail\win64\2017\overlay_viewer.pdb
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\overlay_viewer\d3drenderer_shared.cpp:414
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\overlay_viewer\d3drenderer_shared.cpp:421
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\ipcwin32.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\strtools_public.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\vripcsharedstate.cpp
+c:\buildslave\steamvr_rel_win64\build\src\overlay_viewer\Retail\win64\2017\overlay_viewer.pdb
+c:\buildslave\steamvr_rel_win64\build\src\overlay_viewer\d3drenderer_shared.cpp:414
+c:\buildslave\steamvr_rel_win64\build\src\overlay_viewer\d3drenderer_shared.cpp:421
 captureMouse
 client
 collectComments

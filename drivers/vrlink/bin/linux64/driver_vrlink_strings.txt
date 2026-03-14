@@ -45,7 +45,6 @@ $3br
 %a %b %d %H:%M:%S %Y
 %a %b %d %Y %H:%M:%S.%%06u
 %c%sFailFuzz
-%c8814%s
 %d ms
 %d.%d.%d.%d
 %d.%d.%d.%d:%u
@@ -273,9 +272,9 @@ $3br
 /data/src/common/vrcore/src/threadwatchdog.cpp
 /data/src/common/vrcore/src/vrcrash.cpp
 /data/src/common/vrcore/src/vripcsharedstate.cpp
-/data/src/vrlink/driver_vrlink/hmd.cpp:2135
-/data/src/vrlink/driver_vrlink/hmd.cpp:2375
-/data/src/vrlink/driver_vrlink/hmd.cpp:2487
+/data/src/vrlink/driver_vrlink/hmd.cpp:2309
+/data/src/vrlink/driver_vrlink/hmd.cpp:2549
+/data/src/vrlink/driver_vrlink/hmd.cpp:2661
 /data/src/vrlink/driver_vrlink/hmdvulkan.cpp
 /data/src/vrlink/driver_vrlink/steamvrlink.cpp
 /data/src/vrlink/driver_vrlink/videovulkan.cpp
@@ -284,7 +283,10 @@ $3br
 /dev/urandom
 /device_was_drawn
 /driver_vrlink/client_version
+/driver_vrlink/foveation_enabled
 /driver_vrlink/got_eye_and_expression
+/driver_vrlink/max_stream_format_width
+/driver_vrlink/min_stream_format_width
 /driver_vrlink/network_tested_bandwidth
 /etc/os-release
 /eyetracking
@@ -520,7 +522,6 @@ $3br
 00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899
 0123456789
 0123456789ABCDEF
-08:42:34
 1 Sec
 1/2/4/8/16-bit only
 10.35.78
@@ -550,10 +551,10 @@ $3br
 15IStatePoseMaker
 15StaticPoseMaker
 16SVLAudioPipewire
+17:48:53
 17CBoneMaskResource
 17CSharedImageLinux
 18CSharedBufferLinux
-18IUsbDeviceCallback
 18SVLFECRAID6RXFrame
 18SVLFECRAID6TXFrame
 18SVLHMDDriverVulkan
@@ -568,7 +569,6 @@ $3br
 22IControlConnectionImpl
 23BlendMatrix2x2PoseMaker
 23BlendMatrix3x3PoseMaker
-23CUsbDeviceScannerThread
 23SVLBaseControllerDriver
 24CSharedResourceBaseLinux
 255.255.255.0
@@ -581,7 +581,6 @@ $3br
 6SVLFEC
 7CThread
 7SVLRoot
-7~iz
 8SVLCodec
 8SVLCrypt
 8videoenc
@@ -616,12 +615,10 @@ ASCII//TRANSLIT
 ASSERT: "%s" at %s:%d.\n
 AbortMessage({ Thread Watchdog Abort - %s /+/ %f second timeout })
 Accessor
-Active Data Links: m_pLink:%p pTcpLink:%p pUdpLink:%p p8814Link:%p\n
+Active Data Links: m_pLink:%p pTcpLink:%p pUdpLink:%p\n
 ActualHMDDriver
 Adding dashboard transform to request
 Adjust relative FOV
-Adjust8814Click(SVLCanvas*, svl_canvas_canned_gui_element_t const*, int, int, precanned_event, int)
-Adjust8814Click(SVLCanvas*, svl_canvas_canned_gui_element_t const*, int, int, precanned_event, int) (.cold)
 AdjustFuzzClick(SVLCanvas*, svl_canvas_canned_gui_element_t const*, int, int, precanned_event, int)
 AdjustFuzzClick(SVLCanvas*, svl_canvas_canned_gui_element_t const*, int, int, precanned_event, int) (.cold)
 AdjustRelFOVClick(SVLCanvas*, svl_canvas_canned_gui_element_t const*, int, int, precanned_event, int)
@@ -692,12 +689,14 @@ Autodetected %s
 Autodetected Headset, using Oculus Quest 3 profile
 Autodetected Headset, using Oculus Quest Pro profile
 Autodetected Headset, using Pico 4x profile
+Autodetected Headset, using Pico/HTC Eye tracking profile
 Autodetected Oculus Quest 2
 B?333>
 BCreateDirectory(char const*)
 BCreateDirectoryRecursive(char const*)
 BCreateDirectoryRecursive(char const*) (.cold)
 BDeleteFileIfExists(char const*)
+BDetectSteamFrameWirelessAdapter
 BFileExists(char const*)
 BHasDataToInit(VTE_StaticProps_t const&)
 BIN Chunk data length exceeds the GLB size.
@@ -1275,7 +1274,7 @@ CSDLDynamic::Init()
 CSDLDynamic::Unload()
 CSDLDynamic::~CSDLDynamic()
 CSWTCH.107
-CSWTCH.128
+CSWTCH.127
 CSWTCH.143
 CSWTCH.216
 CSWTCH.409
@@ -1605,15 +1604,6 @@ CTwoBoneIKPoseOperation::Evaluate(CPoseUpdateContext&, CTwoBoneIKPoseOperation::
 CTwoBoneIKPoseOperation::Evaluate(CSmartPtr<CAnimPose, CRefCountAccessor> const&, TwoBoneIKSettings_t const&, VectorAligned const&, QuaternionAligned const&)
 CTwoBoneIKPoseOperation::Evaluate(CSmartPtr<CAnimPose, CRefCountAccessor> const&, TwoBoneIKSettings_t const&, VectorAligned const&, QuaternionAligned const&) (.part.0)
 CTwoBoneIKPoseOperation::MakeOpDescription(CPoseRecipe&, unsigned char, TwoBoneIKSettings_t const&, int)
-CUsbDeviceScanner::CUsbDeviceScanner()
-CUsbDeviceScanner::RunFrame()
-CUsbDeviceScanner::StartScannerThread()
-CUsbDeviceScanner::StartScannerThread() (.cold)
-CUsbDeviceScanner::StopScannerThread(bool)
-CUsbDeviceScanner::StopScannerThread(bool) (.part.0)
-CUsbDeviceScanner::~CUsbDeviceScanner()
-CUsbDeviceScannerThread::Run()
-CUsbDeviceScannerThread::~CUsbDeviceScannerThread()
 CVRLog::AddLogListener(ILogListener*)
 CVRLog::AddLogListener(ILogListener*) (.cold)
 CVRLog::CVRLog(bool)
@@ -1819,7 +1809,6 @@ Creating canvas"%s"\n
 CtrlCClk
 CtrlFClk
 CtrlHClk
-D;33s?
 DDec
 DEBUG
 DEBUGGER FAST RESET STREAM\n
@@ -1839,11 +1828,11 @@ DebugDriverLog(char const*, ...)
 DebugMessengerCallback
 DebugMessengerCallback(VkDebugUtilsMessageSeverityFlagBitsEXT, unsigned int, VkDebugUtilsMessengerCallbackDataEXT const*, void*)
 DebugMessengerCallback(VkDebugUtilsMessageSeverityFlagBitsEXT, unsigned int, VkDebugUtilsMessengerCallbackDataEXT const*, void*) (.cold)
-Dec 22 2025
 December
 DeclareCurrentThreadIsMainThread
 DecodeCtbSizeFlag(unsigned int) (.part.0)
 DecodeTbSizeFlag(unsigned int)
+Default automatic encoded video size: %i
 DestroyOverlayInternal(VRSystemLayerState_t*, unsigned long, bool)
 DestroyOverlayInternal(VRSystemLayerState_t*, unsigned long, bool) (.cold)
 Destroying a held mutex\n
@@ -2096,6 +2085,7 @@ GLIBC_2.2.5
 GLIBC_2.27
 GLIBC_2.3
 GLIBC_2.3.2
+GLIBC_2.3.3
 GLIBC_2.3.4
 GLIBC_2.9
 GL_EXT_memory_object
@@ -2262,7 +2252,6 @@ GetVulkanDeviceFunctions(VkDevice_T*)
 GetVulkanDeviceFunctions(VkDevice_T*)::s_MapVulkanDeviceFunctions
 Getting file size failed : 
 Got Debug message from client
-Got permanent SVL init failure on hotplug attempt
 HB33
 HOME
 HandAnimEvaluator
@@ -2275,7 +2264,6 @@ HandleMotion
 HandleSendToRemote(Json::Value const&, std::function<void (void const*, unsigned long)>)
 HandleSendToRemote(Json::Value const&, std::function<void (void const*, unsigned long)>) (.cold)
 HandleUnrecoverableError( %d )\n
-Hh\vc
 Hidden Area NGon Count: %d\n
 HistogramC
 HistogramH
@@ -2372,7 +2360,7 @@ IVRDriverManager_001
 IVRExtendedDisplay_001
 IVRIPCResourceManagerClient_003
 IVRInputInternal_002
-IVRInput_010
+IVRInput_011
 IVRMailbox_002
 IVRNotificationsInternal_001
 IVROverlayInternal_XXX
@@ -2389,7 +2377,7 @@ IVRServerInternal_XXX
 IVRSettingsInternal_001
 IVRSettings_003
 IVRSystemLayerInternal_XXX
-IVRSystem_023
+IVRSystem_026
 IVRTrackedCameraInternal_XXX
 IVRVirtualDisplay_002
 IVRWatchdogProvider_001
@@ -2962,9 +2950,9 @@ LC_TIME
 LINEAR
 LaserMouseHmdAngleDegrees %f\n
 LastKnown
-Late init successful
 Latency
 LaunchOptions::~LaunchOptions()
+Left Controller
 LfMutexLockRobust(LfMutex*, timespec const*)
 LfMutexUnlockRobust(LfMutex*)
 Line %d, Column %d
@@ -3001,6 +2989,7 @@ MakeFilePathAbsolute::exepath
 MakeFilePathAbsoluteStr(std::string const&)
 MakeFileWriteable(char const*)
 ManufacturerName %s\n
+Mar 10 2026
 March
 Material has extension MSFT_lod, but does not reference other materials via their ids.\n
 Matrix44Aligned::ToQuaternion() const
@@ -3219,7 +3208,6 @@ PackControllerBooleanPaths(unsigned long*, vr_internal::CVRPathHandle const*, in
 PackControllerBooleanPaths(unsigned long*, vr_internal::CVRPathHandle const*, int)::k_pathEmpty
 PackControllerInput(PackedControllerInput_t*, unsigned int, int)
 PackControllerInput(PackedControllerInput_t*, unsigned int, int) (.cold)
-PackControllerInput(PackedControllerInput_t*, unsigned int, int)::'lambda'()::operator()() const::encrypted
 PackControllerInputRoy(PackedControllerInput_t*, int, vr::VRControllerState001_t const&)::k_pathInputRoyLeftAxis
 PackControllerInputRoy(PackedControllerInput_t*, int, vr::VRControllerState001_t const&)::k_pathInputRoyLeftPress
 PackControllerInputRoy(PackedControllerInput_t*, int, vr::VRControllerState001_t const&)::k_pathInputRoyLeftTouch
@@ -3763,6 +3751,7 @@ SVLAudioPipewire::Stop
 SVLAudioPipewire::Stop()
 SVLAudioPipewire::Stop() (.cold)
 SVLAudioPipewire::~SVLAudioPipewire()
+SVLBaseControllerDriver::BOverridePoseOffset(vr::HmdQuaternion_t&, vr::HmdVector3_t&)
 SVLBaseControllerDriver::CountControllerButtonPressEvents(unsigned long)
 SVLBaseControllerDriver::HandleHandTrackingPacket(SVLHandTrackingPacket_t const*)
 SVLBaseControllerDriver::RegisterVariableListeners()
@@ -3797,9 +3786,7 @@ SVLCodec::~SVLCodec()
 SVLCompressSkeleton(std::array<vr::VRBoneTransform_t, 31ul> const&, unsigned char*)
 SVLControllerDriver::Activate(unsigned int)
 SVLControllerDriver::Activate(unsigned int) (.cold)
-SVLControllerDriver::Activate(unsigned int)::'lambda'()::operator()() const::encrypted
-SVLControllerDriver::Activate(unsigned int)::'lambda0'()::operator()() const::encrypted
-SVLControllerDriver::Activate(unsigned int)::'lambda1'()::operator()() const::encrypted
+SVLControllerDriver::BOverridePoseOffset(vr::HmdQuaternion_t&, vr::HmdVector3_t&)
 SVLControllerDriver::Deactivate()
 SVLControllerDriver::DebugRequest(char const*, char*, unsigned int)
 SVLControllerDriver::EnterStandby()
@@ -3807,7 +3794,6 @@ SVLControllerDriver::GetComponent(char const*)
 SVLControllerDriver::GetPose()
 SVLControllerDriver::HandleNewWaitGetPosesPacket(int, WaitGetPosesPacket_t*, vr::DriverPose_t const&)
 SVLControllerDriver::HandleNewWaitGetPosesPacket(int, WaitGetPosesPacket_t*, vr::DriverPose_t const&) (.cold)
-SVLControllerDriver::HandleNewWaitGetPosesPacket(int, WaitGetPosesPacket_t*, vr::DriverPose_t const&)::'lambda'()::operator()() const::encrypted
 SVLControllerDriver::OnBeginUse()
 SVLControllerDriver::OnEndUse()
 SVLControllerDriver::PowerOff()
@@ -3955,6 +3941,7 @@ SVLDecompressSkeleton(unsigned char const*, int)
 SVLDriver::ActivateHMDNow()
 SVLDriver::ActivateHMDNow() (.cold)
 SVLDriver::ActivateHMDNow()\n
+SVLDriver::BDetectSteamFrameWirelessAdapter()
 SVLDriver::CheckForMissingDrivers()
 SVLDriver::Cleanup()
 SVLDriver::Cleanup() (.cold)
@@ -3995,7 +3982,6 @@ SVLDriver::UpdateDongleDriverSettings()
 SVLDriver::UpdateNetworkInfo()
 SVLDriver::UpdateOGSStatistics()
 SVLDriver::UpdateOGSStatistics() (.cold)
-SVLDriver::UsbDeviceAttached()
 SVLDriver::~SVLDriver()
 SVLDriverLog
 SVLDriverLog.cold
@@ -4061,8 +4047,10 @@ SVLFECTXFrame::SVLFECTXFrame(SVLFEC*)
 SVLFECTXFrame::~SVLFECTXFrame()
 SVLHMDDriver::Activate(unsigned int)
 SVLHMDDriver::Activate(unsigned int) (.cold)
+SVLHMDDriver::Activate(unsigned int)::k_pathDriverVrlinkGotEyeAndExpression
 SVLHMDDriver::Activate: HMD did not support multiple framerates
 SVLHMDDriver::Activate: HMD supports multiple framerates
+SVLHMDDriver::BShouldFoveate()
 SVLHMDDriver::CanInitOrProgressInit()
 SVLHMDDriver::ComputeDistortion(vr::EVREye, float, float)
 SVLHMDDriver::ComputeInverseDistortion(vr::HmdVector2_t*, vr::EVREye, unsigned int, float, float)
@@ -4074,10 +4062,8 @@ SVLHMDDriver::GetComponent(char const*)
 SVLHMDDriver::GetDebugEyeData(float*, int) const
 SVLHMDDriver::GetEyeOutputViewport(vr::EVREye, unsigned int*, unsigned int*, unsigned int*, unsigned int*)
 SVLHMDDriver::GetFrameTiming(vr::DriverDirectMode_FrameTiming*)
-SVLHMDDriver::GetHMDSpecificBoolSetting(std::string const&, bool)
-SVLHMDDriver::GetHMDSpecificBoolSetting(std::string const&, bool) (.cold)
-SVLHMDDriver::GetHMDSpecificIntSetting(std::string const&, bool)
-SVLHMDDriver::GetHMDSpecificIntSetting(std::string const&, bool) (.cold)
+SVLHMDDriver::GetHMDSpecificBoolSetting(std::string const&, bool, vr::EVRSettingsError*)
+SVLHMDDriver::GetHMDSpecificBoolSetting(std::string const&, bool, vr::EVRSettingsError*) (.cold)
 SVLHMDDriver::GetNextSwapTextureSetIndex(unsigned long*, unsigned int (*) [2])
 SVLHMDDriver::GetPose()
 SVLHMDDriver::GetProjectionRaw(vr::EVREye, float*, float*, float*, float*)
@@ -4092,6 +4078,8 @@ SVLHMDDriver::HandleNetworkTestReportFromClient()::k_pathDriverVrlinkNetworkTest
 SVLHMDDriver::HandleNewWaitGetPosesPacket(WaitGetPosesPacket_t*)
 SVLHMDDriver::HandlePropertyChange(unsigned long, vr::ETrackedDeviceProperty)
 SVLHMDDriver::HandleSettingsUpdate()
+SVLHMDDriver::HandleSettingsUpdate() (.cold)
+SVLHMDDriver::HandleSettingsUpdate()::k_pathFoveationEnabled
 SVLHMDDriver::InitializeOSC(bool)
 SVLHMDDriver::InitializeOSC(bool) (.cold)
 SVLHMDDriver::InitializeOSC: OSC failed to initialize: %i
@@ -4114,6 +4102,7 @@ SVLHMDDriver::ReceivedHMDStaticProps(VTE_StaticProps_t&) (.cold)
 SVLHMDDriver::ReceivedHMDStaticProps(VTE_StaticProps_t&)::'lambda'()::operator()() const::encrypted
 SVLHMDDriver::ReceivedHMDStaticProps(VTE_StaticProps_t&)::k_pathDriverVrlinkGotEyeAndExpression
 SVLHMDDriver::ResourceCheck()
+SVLHMDDriver::ResourceCheck()::tsTimeOfLastResize
 SVLHMDDriver::SVLHMDDriver(SVLDriver*)
 SVLHMDDriver::SVLHMDDriver(SVLDriver*) (.cold)
 SVLHMDDriver::SVLHMDDriver(SVLDriver*)::'lambda10'(ValueTransportID, bool)::operator()(ValueTransportID, bool) const
@@ -4398,9 +4387,11 @@ SetOverlayTransformTrackedDeviceRelativeInternal(VRSystemLayerState_t*, unsigned
 SetStreamingModeOnDemandEnabled(bool)
 SetStreamingModeOnDemandEnabled(bool) (.cold)
 Setting VTE_USE_ENCODE_TARGET_WIDTH = %d\n
+Setting auto encoded video size for non-foveation to: %i
 Setting default Pico specific properties for HMD Model: %i \n
 Setting default Quest specific properties for HMD Model: %i \n
 Setting m_nTargetEncodeWidth: %d\n
+Setting non-foveated default stream format width to %i
 SharedCountingSemaphoreLinux::CreateVulkanCountingSemaphore: failed to create associated semaphores.\n
 SharedLib_GetFunction(void*, char const*)
 SharedLib_Load(char const*, std::string*)
@@ -4590,7 +4581,6 @@ SteamVRVersionAsString()
 SteamVRVersionAsString() (.cold)
 SteamVRVersionAsString()::s_sCachedVersion
 SteamVR_Namespace
-Still no dongle after USB device detection
 StringHasPrefix(std::string const&, std::string const&)
 StringHasPrefixCaseSensitive(std::string const&, std::string const&)
 StringHasSuffix(std::string const&, std::string const&)
@@ -5373,6 +5363,7 @@ VROverlayFlags_IgnoreTextureAlpha
 VROverlayFlags_IsPremultiplied
 VROverlayFlags_MakeOverlaysInteractiveIfVisible
 VROverlayFlags_MultiCursor
+VROverlayFlags_NoBackside
 VROverlayFlags_NoDashboardTab
 VROverlayFlags_Panorama
 VROverlayFlags_ProtectedContent
@@ -6115,7 +6106,6 @@ asyncSend
 atan2
 atan2f
 atanf
-atlasMode
 attributes
 audio.channels
 audio.rate
@@ -6519,7 +6509,6 @@ enableHandTracking
 enableQoS
 enableTimedRetry
 enableYAMLCompatibility
-encodeWidth
 end of input
 end_ctx
 english
@@ -6582,12 +6571,14 @@ forceBaselineVideoFEC
 force_pid
 force_pid_val
 fork
+foveationMode
 fprintf
 fputc
 fputs
 fr_fr
 frameDeadlineText
 frame_controller
+frame_controller_
 frame_downheap
 frame_dummy
 frame_hdr_cache
@@ -6811,7 +6802,9 @@ guard variable for PackControllerInputRoy(PackedControllerInput_t*, int, vr::VRC
 guard variable for PackControllerInputRoy(PackedControllerInput_t*, int, vr::VRControllerState001_t const&)::k_pathInputRoyRightTouch
 guard variable for PackHmdInput(PackedHmdInput_t*)::k_pathInputSystemClick
 guard variable for SDLDynamic()::m_instance
+guard variable for SVLHMDDriver::Activate(unsigned int)::k_pathDriverVrlinkGotEyeAndExpression
 guard variable for SVLHMDDriver::HandleNetworkTestReportFromClient()::k_pathDriverVrlinkNetworkTestedBandwidth
+guard variable for SVLHMDDriver::HandleSettingsUpdate()::k_pathFoveationEnabled
 guard variable for SVLHMDDriver::ReceivedHMDStaticProps(VTE_StaticProps_t&)::k_pathDriverVrlinkGotEyeAndExpression
 guard variable for SVLHMDDriver::SVLHMDDriver(SVLDriver*)::'lambda12'(ValueTransportID, bool)::operator()(ValueTransportID, bool) const::k_pathDriverVrlinkClientVersion
 guard variable for SVLServer::SetRequestedConnectionInfoInternal(std::vector<char, std::allocator<char>>&, int)::k_pathSteamVrConnectionReady
@@ -6865,14 +6858,14 @@ guard variable for std::time_put<char, std::ostreambuf_iterator<char, std::char_
 guard variable for std::time_put<wchar_t, std::ostreambuf_iterator<wchar_t, std::char_traits<wchar_t>>>::id
 guard variable for tinygltf::Value::Get(std::string const&) const::null_value
 guard variable for tinygltf::Value::Get(unsigned long) const::null_value
-guard variable for videoenc::UpdateBWMux()::k_pathDriverVrlinkNetworkTestedBandwidth
+guard variable for videoenc::HandleSettingsUpdate()::k_pathDriverVrlinkNetworkTestedBandwidth
 guard variable for videovulkan::CreateVideoSessionParamaters()::uMaxTransformHeirarchyDepth
 guest
+hC33s?
 hand_right_closeanim.glb
 hand_right_poses.glb
 handle_recenter
 handlers
-hasEyeTracking
 height
 hist
 hostShowDebugWindow
@@ -7071,6 +7064,8 @@ k_eControllerAxis_Joystick
 k_eControllerAxis_None
 k_eControllerAxis_TrackPad
 k_eControllerAxis_Trigger
+k_pathMaxStreamFormatWidth
+k_pathMinStreamFormatWidth
 k_sResourcePathToInf
 k_unActionPropertyTag
 k_unActiveActionSetPropertyTag
@@ -7166,6 +7161,8 @@ materials
 matrix
 max value > 255
 maxDistance
+maxNonFoveatedStreamFormatWidth
+maxStreamFormatWidth
 maxVideoQueueLatencyUs
 mbps
 mbrtowc
@@ -7189,6 +7186,8 @@ metallicRoughnessTexture
 method
 mimeType
 minFilter
+minNonFoveatedStreamFormatWidth
+minStreamFormatWidth
 minVersion
 minioscBundle(mobundle*, char const*, char const*, ...)
 minioscClose(miniosc_t*)
@@ -7283,7 +7282,6 @@ no preset dict
 node
 node.description
 nodes
-non-virtual thunk to SVLDriver::UsbDeviceAttached()
 non-virtual thunk to SVLHMDDriver::ComputeDistortion(vr::EVREye, float, float)
 non-virtual thunk to SVLHMDDriver::ComputeInverseDistortion(vr::HmdVector2_t*, vr::EVREye, unsigned int, float, float)
 non-virtual thunk to SVLHMDDriver::CreateSwapTextureSet(unsigned int, vr::IVRDriverDirectModeComponent::SwapTextureSetDesc_t const*, vr::IVRDriverDirectModeComponent::SwapTextureSet_t*)
@@ -7308,6 +7306,7 @@ non-virtual thunk to std::basic_iostream<char, std::char_traits<char>>::~basic_i
 non-virtual thunk to std::basic_iostream<wchar_t, std::char_traits<wchar_t>>::~basic_iostream()
 non-virtual thunk to std::basic_stringstream<char, std::char_traits<char>, std::allocator<char>>::~basic_stringstream()
 non-virtual thunk to std::basic_stringstream<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t>>::~basic_stringstream()
+nonFoveatedStreamFormatWidth
 none
 normalTexture
 normalized
@@ -7340,6 +7339,12 @@ oculus_quest_pro
 oculus_quest_pro_controller
 oculus_touch
 off.png
+offsetDegX
+offsetDegY
+offsetDegZ
+offsetPosX
+offsetPosY
+offsetPosZ
 once_regsizes.9477
 only 8-bit
 open
@@ -7419,6 +7424,7 @@ primitive indices accessor out of bounds
 primitives
 print
 printf
+providesOffsetOverride
 pt_br
 pt_pt
 pthread_attr_init
@@ -7430,6 +7436,9 @@ pthread_cond_init
 pthread_cond_signal
 pthread_cond_timedwait
 pthread_cond_wait
+pthread_condattr_destroy
+pthread_condattr_init
+pthread_condattr_setclock
 pthread_create
 pthread_detach
 pthread_getschedparam
@@ -7501,6 +7510,8 @@ received VTE_DASHBOARD_ACTION %d %d
 received VTE_DASHBOARD_ACTION close_dashboard
 received VTE_DASHBOARD_ACTION open_dashboard
 received VTE_DRIVER_SYSTEM_FLAGS %d %d %d
+recommendedRenderHeight
+recommendedRenderWidth
 recv
 recv failed with error: %d\n
 recvfrom
@@ -7543,7 +7554,6 @@ roughnessFactor
 roy_k2
 roy_k2v3
 rsbox
-rtus_test
 ru_ru
 runtime
 russian
@@ -11316,6 +11326,8 @@ strtoll
 strtoul
 strtoull
 subs.9433
+supports10bit
+supportsEyeTracking
 sv_se
 svl/driver
 svl/linkbwmon
@@ -11712,7 +11724,6 @@ typeinfo for CSharedResourceBaseLinux
 typeinfo for CSharedResourceNamespaceServer
 typeinfo for CSharedSemaphoreLinux
 typeinfo for CThread
-typeinfo for CUsbDeviceScannerThread
 typeinfo for CVRLog::InitLog(char const*, char const*, bool, unsigned long)::'lambda'(ELogLevel, char const*, void*)
 typeinfo for CVRMailbox
 typeinfo for CVRMailbox::AutoForwardMessageType(std::string, std::string const&)::'lambda'(Json::Value const&)
@@ -11729,7 +11740,6 @@ typeinfo for IPC::PosixSharedMemory
 typeinfo for IPC::SharedObjectEvent
 typeinfo for IPC::SharedObjectMutex
 typeinfo for IStatePoseMaker
-typeinfo for IUsbDeviceCallback
 typeinfo for InitDriverLog(vr::IVRDriverLog*)::'lambda'(ELogLevel, char const*, void*)
 typeinfo for InitInternalInterfacesNonStandard(void* (*)(char const*))::'lambda'(char const*)
 typeinfo for Json::BuiltStyledStreamWriter
@@ -12089,7 +12099,6 @@ typeinfo name for CSharedResourceBaseLinux
 typeinfo name for CSharedResourceNamespaceServer
 typeinfo name for CSharedSemaphoreLinux
 typeinfo name for CThread
-typeinfo name for CUsbDeviceScannerThread
 typeinfo name for CVRLog::InitLog(char const*, char const*, bool, unsigned long)::'lambda'(ELogLevel, char const*, void*)
 typeinfo name for CVRMailbox
 typeinfo name for CVRMailbox::AutoForwardMessageType(std::string, std::string const&)::'lambda'(Json::Value const&)
@@ -12106,7 +12115,6 @@ typeinfo name for IPC::PosixSharedMemory
 typeinfo name for IPC::SharedObjectEvent
 typeinfo name for IPC::SharedObjectMutex
 typeinfo name for IStatePoseMaker
-typeinfo name for IUsbDeviceCallback
 typeinfo name for InitDriverLog(vr::IVRDriverLog*)::'lambda'(ELogLevel, char const*, void*)
 typeinfo name for InitInternalInterfacesNonStandard(void* (*)(char const*))::'lambda'(char const*)
 typeinfo name for Json::BuiltStyledStreamWriter
@@ -12503,6 +12511,10 @@ videoenc::BWHistoryPush(float)
 videoenc::ComputeMaxSizeFromAtlasMode()
 videoenc::GetIdealSlicesForAtlasMode()
 videoenc::GetOtherSessionsList(std::vector<std::string, std::allocator<std::string>>&)
+videoenc::HandleSettingsUpdate()
+videoenc::HandleSettingsUpdate() (.cold)
+videoenc::HandleSettingsUpdate()::k_pathDriverVrlinkNetworkTestedBandwidth
+videoenc::Init(grttype, void*, void*)
 videoenc::ReportVideoFrameEncodedSize(int, int)
 videoenc::ResetVideoStream(EVideoResetType)
 videoenc::ResizeStream(int&, int&)
@@ -12512,8 +12524,6 @@ videoenc::ShouldFrameHoldOff() (.cold)
 videoenc::TakeResetType()
 videoenc::UpdateBWMux()
 videoenc::UpdateBWMux() (.cold)
-videoenc::UpdateBWMux()::k_pathDriverVrlinkNetworkTestedBandwidth
-videoenc::UpdateBandwidthFromSettingsAndNetworkSpeedTest()
 videoenc::videoenc(SVLDriver*)
 videoenc::videoenc(SVLDriver*) (.cold)
 videoenc::~videoenc()
@@ -12523,9 +12533,10 @@ videovulkan::DumpCapabilities()
 videovulkan::GetEncodedDataThread()
 videovulkan::GetEncodedDataThread()::s_pDebugFile
 videovulkan::GetMaxBitstreamSize(unsigned int)
+videovulkan::GetPreferredFoveatedAtlasMode()
 videovulkan::GetQueueLength()
 videovulkan::GetVendorName()
-videovulkan::Init(grttype, void*, void*)
+videovulkan::InitVendorSpecific(grttype, void*, void*)
 videovulkan::Is10BitSupported()
 videovulkan::Resize(int, int)
 videovulkan::SetVideoCapabilities(bool, bool)
@@ -13538,6 +13549,7 @@ vr-input-workshop://
 vr::CVRPathHelpers::GetStringPath(unsigned long, unsigned long, vr::ETrackedPropertyError*)
 vr::CVRPropertyHelpers::SetStringProperty(unsigned long, vr::ETrackedDeviceProperty, char const*) (.part.0) (.constprop.0)
 vr::CVRSettingHelper::GetString(std::string const&, std::string const&, vr::EVRSettingsError*)
+vr::CompareVersions(vr::VRVersion_t const&, vr::VRVersion_t const&)
 vr::IVRDriverDirectModeComponent::DestroyAllSwapTextureSets(unsigned int)
 vr::IVRDriverDirectModeComponent::DestroySwapTextureSet(unsigned long)
 vr::IVRSharedBuffer::GetVulkanBuffer() const
@@ -13563,11 +13575,15 @@ vr::OpenVRInternal_ModuleServerDriverContext()::ctx
 vr::PathRead_t& std::vector<vr::PathRead_t, std::allocator<vr::PathRead_t>>::emplace_back<vr::PathRead_t>(vr::PathRead_t&&)
 vr::VRDriverContext()::pHost
 vr::VRProperties() (.part.0)
+vr::VersionAsString(vr::VRVersion_t const&)
+vr::VersionAsString(vr::VRVersion_t const&) (.cold)
 vr::k_DefaultPathWriteOptions
 vr::k_InterfaceVersions
+vr::k_SteamVRVersion
 vr_glove_left_skeleton.glb
 vr_glove_right_poses.glb
 vr_glove_right_skeleton.glb
+vr_internal::CVRPathHandle::CVRPathHandle(char const*)
 vr_internal::CVRPathHandle::~CVRPathHandle()
 vr_internal::CVRPathReads::IsValid() const
 vr_internal::CVRPathReads::NextBlob(void*, unsigned int, unsigned int)
@@ -13680,7 +13696,6 @@ vtable for CSharedResourceBaseLinux
 vtable for CSharedResourceNamespaceServer
 vtable for CSharedSemaphoreLinux
 vtable for CThread
-vtable for CUsbDeviceScannerThread
 vtable for CVRMailbox
 vtable for CVRMailboxBase
 vtable for CVRReplyMailbox
@@ -13990,6 +14005,10 @@ zh_cn
 zh_tw
 zlib corrupt
 znear
+{frame_controller}/icons/
+{frame_controller}/input/frame_controller_profile.json
+{frame_controller}frame_controller_left
+{frame_controller}frame_controller_right
 {oculus}/icons/quest_headset_alert_searching.gif
 {oculus}/icons/quest_headset_error.png
 {oculus}/icons/quest_headset_off.png
@@ -14015,8 +14034,6 @@ znear
 {oculus}/icons/rifts_right_controller_searching_alert.png
 {oculus}/input/rift_profile.json
 {oculus}/input/touch_profile.json
-{roy}frame_controller_left
-{roy}frame_controller_right
 {vrlink}
 {vrlink}/icons/
 {vrlink}/icons/headset_pico4_error.png

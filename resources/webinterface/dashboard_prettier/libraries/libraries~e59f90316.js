@@ -1,10 +1,10 @@
-var CLSTAMP = "10334134";
+var CLSTAMP = "10510795";
 (self.webpackChunkvrwebui = self.webpackChunkvrwebui || []).push([
   [908],
   {
     5471: (e, t, n) => {
       "use strict";
-      n.d(t, { Ay: () => Lt });
+      n.d(t, { Ay: () => Dt });
       var r =
           "undefined" != typeof window &&
           "undefined" != typeof document &&
@@ -183,7 +183,7 @@ var CLSTAMP = "10334134";
             e
           );
         },
-        x =
+        S =
           Object.assign ||
           function (e) {
             for (var t = 1; t < arguments.length; t++) {
@@ -193,8 +193,8 @@ var CLSTAMP = "10334134";
             }
             return e;
           };
-      function S(e) {
-        return x({}, e, { right: e.left + e.width, bottom: e.top + e.height });
+      function x(e) {
+        return S({}, e, { right: e.left + e.width, bottom: e.top + e.height });
       }
       function T(e) {
         var t = {};
@@ -221,7 +221,7 @@ var CLSTAMP = "10334134";
           var p = s(e);
           (c -= b(p, "x")), (f -= b(p, "y")), (o.width -= c), (o.height -= f);
         }
-        return S(o);
+        return x(o);
       }
       function C(e, t) {
         var n = arguments.length > 2 && void 0 !== arguments[2] && arguments[2],
@@ -236,7 +236,7 @@ var CLSTAMP = "10334134";
         n &&
           o &&
           ((a.top = Math.max(a.top, 0)), (a.left = Math.max(a.left, 0)));
-        var m = S({
+        var m = x({
           top: i.top - a.top - p,
           left: i.left - a.left - l,
           width: i.width,
@@ -300,7 +300,7 @@ var CLSTAMP = "10334134";
               i = Math.max(n.clientHeight, window.innerHeight || 0),
               a = t ? 0 : y(n),
               s = t ? 0 : y(n, "left");
-            return S({
+            return x({
               top: a - r.top + r.marginTop,
               left: s - r.left + r.marginLeft,
               width: o,
@@ -334,7 +334,7 @@ var CLSTAMP = "10334134";
           i
         );
       }
-      function D(e, t, n, r, o) {
+      function L(e, t, n, r, o) {
         var i =
           arguments.length > 5 && void 0 !== arguments[5] ? arguments[5] : 0;
         if (-1 === e.indexOf("auto")) return e;
@@ -347,7 +347,7 @@ var CLSTAMP = "10334134";
           },
           u = Object.keys(s)
             .map(function (e) {
-              return x({ key: e }, s[e], {
+              return S({ key: e }, s[e], {
                 area: ((t = s[e]), t.width * t.height),
               });
               var t;
@@ -364,7 +364,7 @@ var CLSTAMP = "10334134";
           p = e.split("-")[1];
         return f + (p ? "-" + p : "");
       }
-      function L(e, t, n) {
+      function D(e, t, n) {
         var r =
           arguments.length > 3 && void 0 !== arguments[3] ? arguments[3] : null;
         return C(n, r ? k(t) : v(t, f(n)), r);
@@ -399,7 +399,7 @@ var CLSTAMP = "10334134";
       function N(e, t) {
         return Array.prototype.find ? e.find(t) : e.filter(t)[0];
       }
-      function j(e, t, n) {
+      function R(e, t, n) {
         return (
           (void 0 === n
             ? e
@@ -424,14 +424,14 @@ var CLSTAMP = "10334134";
             var n = e.function || e.fn;
             e.enabled &&
               a(n) &&
-              ((t.offsets.popper = S(t.offsets.popper)),
-              (t.offsets.reference = S(t.offsets.reference)),
+              ((t.offsets.popper = x(t.offsets.popper)),
+              (t.offsets.reference = x(t.offsets.reference)),
               (t = n(t, e)));
           }),
           t
         );
       }
-      function R() {
+      function j() {
         if (!this.state.isDestroyed) {
           var e = {
             instance: this,
@@ -441,13 +441,13 @@ var CLSTAMP = "10334134";
             flipped: !1,
             offsets: {},
           };
-          (e.offsets.reference = L(
+          (e.offsets.reference = D(
             this.state,
             this.popper,
             this.reference,
             this.options.positionFixed,
           )),
-            (e.placement = D(
+            (e.placement = L(
               this.options.placement,
               e.offsets.reference,
               this.popper,
@@ -465,7 +465,7 @@ var CLSTAMP = "10334134";
             (e.offsets.popper.position = this.options.positionFixed
               ? "fixed"
               : "absolute"),
-            (e = j(this.modifiers, e)),
+            (e = R(this.modifiers, e)),
             this.state.isCreated
               ? this.options.onUpdate(e)
               : ((this.state.isCreated = !0), this.options.onCreate(e));
@@ -520,7 +520,7 @@ var CLSTAMP = "10334134";
           o || H(c(i.parentNode), t, n, r),
           r.push(i);
       }
-      function $(e, t, n, r) {
+      function W(e, t, n, r) {
         (n.updateBound = r),
           V(e).addEventListener("resize", n.updateBound, { passive: !0 });
         var o = c(e);
@@ -531,9 +531,9 @@ var CLSTAMP = "10334134";
           n
         );
       }
-      function W() {
+      function $() {
         this.state.eventsEnabled ||
-          (this.state = $(
+          (this.state = W(
             this.reference,
             this.options,
             this.state,
@@ -664,7 +664,7 @@ var CLSTAMP = "10334134";
                     a = o[2];
                   if (!i) return e;
                   if (0 === a.indexOf("%")) {
-                    return (S("%p" === a ? n : r)[t] / 100) * i;
+                    return (x("%p" === a ? n : r)[t] / 100) * i;
                   }
                   if ("vh" === a || "vw" === a)
                     return (
@@ -711,7 +711,7 @@ var CLSTAMP = "10334134";
                     start: O({}, u, i[u]),
                     end: O({}, u, i[u] + i[c] - a[c]),
                   };
-                e.offsets.popper = x({}, a, f[r]);
+                e.offsets.popper = S({}, a, f[r]);
               }
               return e;
             },
@@ -792,7 +792,7 @@ var CLSTAMP = "10334134";
                 c.forEach(function (e) {
                   var t =
                     -1 !== ["left", "top"].indexOf(e) ? "primary" : "secondary";
-                  f = x({}, f, p[t](e));
+                  f = S({}, f, p[t](e));
                 }),
                 (e.offsets.popper = f),
                 e
@@ -851,7 +851,7 @@ var CLSTAMP = "10334134";
                 h = P(r)[f];
               u[m] - h < a[l] && (e.offsets.popper[l] -= a[l] - (u[m] - h)),
                 u[l] + h > a[m] && (e.offsets.popper[l] += u[l] + h - a[m]),
-                (e.offsets.popper = S(e.offsets.popper));
+                (e.offsets.popper = x(e.offsets.popper));
               var v = u[l] + u[f] / 2 - h / 2,
                 y = s(e.instance.popper),
                 b = parseFloat(y["margin" + p]),
@@ -944,12 +944,12 @@ var CLSTAMP = "10334134";
                             : e;
                       })(i)),
                     (e.placement = r + (i ? "-" + i : "")),
-                    (e.offsets.popper = x(
+                    (e.offsets.popper = S(
                       {},
                       e.offsets.popper,
                       I(e.instance.popper, e.offsets.reference, e.placement),
                     )),
-                    (e = j(e.instance.modifiers, e, "flip")));
+                    (e = R(e.instance.modifiers, e, "flip")));
                 }),
                 e
               );
@@ -975,7 +975,7 @@ var CLSTAMP = "10334134";
                 (o[a ? "left" : "top"] =
                   i[n] - (s ? o[a ? "width" : "height"] : 0)),
                 (e.placement = M(t)),
-                (e.offsets.popper = S(o)),
+                (e.offsets.popper = x(o)),
                 e
               );
             },
@@ -1077,9 +1077,9 @@ var CLSTAMP = "10334134";
               }
               var g = { "x-placement": e.placement };
               return (
-                (e.attributes = x({}, g, e.attributes)),
-                (e.styles = x({}, c, e.styles)),
-                (e.arrowStyles = x({}, e.offsets.arrow, e.arrowStyles)),
+                (e.attributes = S({}, g, e.attributes)),
+                (e.styles = S({}, c, e.styles)),
+                (e.arrowStyles = S({}, e.offsets.arrow, e.arrowStyles)),
                 e
               );
             },
@@ -1106,8 +1106,8 @@ var CLSTAMP = "10334134";
               );
             },
             onLoad: function (e, t, n, r, o) {
-              var i = L(o, t, e, n.positionFixed),
-                a = D(
+              var i = D(o, t, e, n.positionFixed),
+                a = L(
                   n.placement,
                   i,
                   t,
@@ -1148,7 +1148,7 @@ var CLSTAMP = "10334134";
                 return requestAnimationFrame(r.update);
               }),
               (this.update = i(this.update.bind(this))),
-              (this.options = x({}, e.Defaults, o)),
+              (this.options = S({}, e.Defaults, o)),
               (this.state = {
                 isDestroyed: !1,
                 isCreated: !1,
@@ -1157,9 +1157,9 @@ var CLSTAMP = "10334134";
               (this.reference = t && t.jquery ? t[0] : t),
               (this.popper = n && n.jquery ? n[0] : n),
               (this.options.modifiers = {}),
-              Object.keys(x({}, e.Defaults.modifiers, o.modifiers)).forEach(
+              Object.keys(S({}, e.Defaults.modifiers, o.modifiers)).forEach(
                 function (t) {
-                  r.options.modifiers[t] = x(
+                  r.options.modifiers[t] = S(
                     {},
                     e.Defaults.modifiers[t] || {},
                     o.modifiers ? o.modifiers[t] : {},
@@ -1168,7 +1168,7 @@ var CLSTAMP = "10334134";
               ),
               (this.modifiers = Object.keys(this.options.modifiers)
                 .map(function (e) {
-                  return x({ name: e }, r.options.modifiers[e]);
+                  return S({ name: e }, r.options.modifiers[e]);
                 })
                 .sort(function (e, t) {
                   return e.order - t.order;
@@ -1187,7 +1187,7 @@ var CLSTAMP = "10334134";
               {
                 key: "update",
                 value: function () {
-                  return R.call(this);
+                  return j.call(this);
                 },
               },
               {
@@ -1199,7 +1199,7 @@ var CLSTAMP = "10334134";
               {
                 key: "enableEventListeners",
                 value: function () {
-                  return W.call(this);
+                  return $.call(this);
                 },
               },
               {
@@ -1247,10 +1247,10 @@ var CLSTAMP = "10334134";
           : (function (e) {
                 return he(e, "NodeList");
               })(e)
-            ? Se(e)
+            ? xe(e)
             : Array.isArray(e)
               ? e
-              : Se(document.querySelectorAll(e));
+              : xe(document.querySelectorAll(e));
       }
       function de(e, t, n) {
         if (Array.isArray(e)) {
@@ -1301,10 +1301,10 @@ var CLSTAMP = "10334134";
             };
         var n;
       }
-      function xe(e, t, n) {
+      function Se(e, t, n) {
         e && e !== t && e.apply(void 0, n);
       }
-      function Se(e) {
+      function xe(e) {
         return [].slice.call(e);
       }
       function Te(e, t) {
@@ -1322,10 +1322,10 @@ var CLSTAMP = "10334134";
       function _e(e, t) {
         -1 === e.indexOf(t) && e.push(t);
       }
-      function De(e) {
+      function Le(e) {
         return "number" == typeof e ? e : parseFloat(e);
       }
-      function Le(e, t, n) {
+      function De(e, t, n) {
         void 0 === t && (t = 5);
         var r = { top: 0, right: 0, bottom: 0, left: 0 };
         return Object.keys(r).reduce(function (r, o) {
@@ -1410,7 +1410,7 @@ var CLSTAMP = "10334134";
             Pe[t] = e[t];
           });
         };
-      function je(e) {
+      function Re(e) {
         var t = (e.plugins || []).reduce(function (t, n) {
           var r = n.name,
             o = n.defaultValue;
@@ -1418,7 +1418,7 @@ var CLSTAMP = "10334134";
         }, {});
         return se({}, e, {}, t);
       }
-      function Re(e, t) {
+      function je(e, t) {
         var n = se(
           {},
           t,
@@ -1427,7 +1427,7 @@ var CLSTAMP = "10334134";
             ? {}
             : (function (e, t) {
                 return (
-                  t ? Object.keys(je(se({}, Pe, { plugins: t }))) : Me
+                  t ? Object.keys(Re(se({}, Pe, { plugins: t }))) : Me
                 ).reduce(function (t, n) {
                   var r = (e.getAttribute("data-tippy-" + n) || "").trim();
                   if (!r) return t;
@@ -1449,12 +1449,12 @@ var CLSTAMP = "10334134";
         Ue = "tippy-tooltip",
         Ve = "tippy-content",
         He = "tippy-arrow",
-        $e = "tippy-svg-arrow",
-        We = "." + Be,
+        We = "tippy-svg-arrow",
+        $e = "." + Be,
         qe = "." + Ue,
         Ye = "." + Ve,
         ze = "." + He,
-        Ke = "." + $e,
+        Ke = "." + We,
         Ge = { isTouch: !1 },
         Xe = 0;
       function Je() {
@@ -1510,7 +1510,7 @@ var CLSTAMP = "10334134";
         return (
           !0 === e
             ? (t.className = He)
-            : ((t.className = $e), ve(e) ? t.appendChild(e) : ce(t, e)),
+            : ((t.className = We), ve(e) ? t.appendChild(e) : ce(t, e)),
           t
         );
       }
@@ -1593,7 +1593,7 @@ var CLSTAMP = "10334134";
         var n,
           r,
           o,
-          i = Re(e, se({}, Pe, {}, je(t)));
+          i = je(e, se({}, Pe, {}, Re(t)));
         if (!i.multiple && e._tippy) return null;
         var a,
           s,
@@ -1614,12 +1614,12 @@ var CLSTAMP = "10334134";
           w = ht++,
           E = pt(w, i),
           O = ct(E),
-          x = (l = i.plugins).filter(function (e, t) {
+          S = (l = i.plugins).filter(function (e, t) {
             return l.indexOf(e) === t;
           }),
-          S = O.tooltip,
+          x = O.tooltip,
           T = O.content,
-          C = [S, T],
+          C = [x, T],
           A = {
             id: w,
             reference: e,
@@ -1635,7 +1635,7 @@ var CLSTAMP = "10334134";
               isMounted: !1,
               isShown: !1,
             },
-            plugins: x,
+            plugins: S,
             clearDelayTimeouts: function () {
               clearTimeout(n), clearTimeout(r), cancelAnimationFrame(o);
             },
@@ -1643,14 +1643,14 @@ var CLSTAMP = "10334134";
               0;
               if (A.state.isDestroyed) return;
               0;
-              I("onBeforeUpdate", [A, t]), W();
+              I("onBeforeUpdate", [A, t]), $();
               var n = A.props,
-                r = Re(e, se({}, A.props, {}, t, { ignoreAttributes: !0 }));
+                r = je(e, se({}, A.props, {}, t, { ignoreAttributes: !0 }));
               (r.ignoreAttributes = Ae(t.ignoreAttributes, n.ignoreAttributes)),
                 (A.props = r),
-                $(),
+                W(),
                 n.interactiveDebounce !== r.interactiveDebounce &&
-                  (R(), (b = Oe(Y, r.interactiveDebounce)));
+                  (j(), (b = Oe(Y, r.interactiveDebounce)));
               lt(E, n, r),
                 (A.popperChildren = ct(E)),
                 n.triggerTarget && !r.triggerTarget
@@ -1658,7 +1658,7 @@ var CLSTAMP = "10334134";
                       e.removeAttribute("aria-expanded");
                     })
                   : r.triggerTarget && e.removeAttribute("aria-expanded");
-              if ((j(), A.popperInstance))
+              if ((R(), A.popperInstance))
                 if (
                   Ie.some(function (e) {
                     return pe(t, e) && t[e] !== n[e];
@@ -1697,7 +1697,7 @@ var CLSTAMP = "10334134";
                   we(C, e),
                   Ee(C, "visible"),
                   N(),
-                  j(),
+                  R(),
                   _e(yt, A),
                   ot(!0),
                   (A.state.isMounted = !0),
@@ -1745,7 +1745,7 @@ var CLSTAMP = "10334134";
                 we(C, e),
                 Ee(C, "hidden"),
                 N(),
-                j(),
+                R(),
                 (function (e, t) {
                   V(e, function () {
                     !A.state.isVisible &&
@@ -1777,20 +1777,20 @@ var CLSTAMP = "10334134";
               (d = !0),
                 A.clearDelayTimeouts(),
                 A.hide(0),
-                W(),
+                $(),
                 delete e._tippy,
                 A.popperInstance && A.popperInstance.destroy();
               (d = !1), (A.state.isDestroyed = !0), I("onDestroy", [A]);
             },
           };
         (e._tippy = A), (E._tippy = A);
-        var k = x.map(function (e) {
+        var k = S.map(function (e) {
             return e.fn(A);
           }),
           _ = e.hasAttribute("aria-expanded");
         return (
-          $(),
-          j(),
+          W(),
+          R(),
           i.lazy || X(),
           I("onCreate", [A]),
           i.showOnCreate && Q(),
@@ -1804,12 +1804,12 @@ var CLSTAMP = "10334134";
           }),
           A
         );
-        function D() {
+        function L() {
           var e = A.props.touch;
           return Array.isArray(e) ? e : [e, 0];
         }
-        function L() {
-          return "hold" === D()[0];
+        function D() {
+          return "hold" === L()[0];
         }
         function P() {
           return c || e;
@@ -1833,7 +1833,7 @@ var CLSTAMP = "10334134";
           var t = A.props.aria;
           if (t) {
             var n = "aria-" + t,
-              r = S.id;
+              r = x.id;
             ke(A.props.triggerTarget || e).forEach(function (e) {
               var t = e.getAttribute(n);
               if (A.state.isVisible) e.setAttribute(n, t ? t + " " + r : r);
@@ -1844,7 +1844,7 @@ var CLSTAMP = "10334134";
             });
           }
         }
-        function j() {
+        function R() {
           _ ||
             ke(A.props.triggerTarget || e).forEach(function (e) {
               A.props.interactive
@@ -1855,7 +1855,7 @@ var CLSTAMP = "10334134";
                 : e.removeAttribute("aria-expanded");
             });
         }
-        function R() {
+        function j() {
           g.body.removeEventListener("mouseleave", Z),
             g.removeEventListener("mousemove", b),
             (vt = vt.filter(function (e) {
@@ -1887,10 +1887,10 @@ var CLSTAMP = "10334134";
         }
         function V(e, t) {
           function n(e) {
-            e.target === S && (dt(S, "remove", n), t());
+            e.target === x && (dt(x, "remove", n), t());
           }
           if (0 === e) return t();
-          dt(S, "remove", u), dt(S, "add", n), (u = n);
+          dt(x, "remove", u), dt(x, "add", n), (u = n);
         }
         function H(t, n, r) {
           void 0 === r && (r = !1),
@@ -1899,8 +1899,8 @@ var CLSTAMP = "10334134";
                 y.push({ node: e, eventType: t, handler: n, options: r });
             });
         }
-        function $() {
-          L() && (H("touchstart", q, Fe), H("touchend", z, Fe)),
+        function W() {
+          D() && (H("touchstart", q, Fe), H("touchend", z, Fe)),
             Ce(A.props.trigger).forEach(function (e) {
               if ("manual" !== e)
                 switch ((H(e, q), e)) {
@@ -1915,7 +1915,7 @@ var CLSTAMP = "10334134";
                 }
             });
         }
-        function W() {
+        function $() {
           y.forEach(function (e) {
             var t = e.node,
               n = e.eventType,
@@ -1931,7 +1931,7 @@ var CLSTAMP = "10334134";
             if (
               ((a = e),
               (c = e.currentTarget),
-              j(),
+              R(),
               !A.state.isVisible &&
                 (function (e) {
                   return he(e, "MouseEvent");
@@ -1944,7 +1944,7 @@ var CLSTAMP = "10334134";
                 !1 === A.props.hideOnClick ||
                 !A.state.isVisible)
             ) {
-              var r = D(),
+              var r = L(),
                 o = r[0],
                 i = r[1];
               Ge.isTouch && "hold" === o && i
@@ -1967,7 +1967,7 @@ var CLSTAMP = "10334134";
             return t === e || t === E;
           });
           if ("mousemove" !== t.type || !n) {
-            var r = Se(E.querySelectorAll(We))
+            var r = xe(E.querySelectorAll($e))
               .concat(E)
               .map(function (e) {
                 var t = e._tippy,
@@ -1992,7 +1992,7 @@ var CLSTAMP = "10334134";
                   c = Math.min(t.left, o.left);
                 return a - r > i || r - u > i || c - n > i || n - s > i;
               });
-            })(r, t) && (R(), Z(t));
+            })(r, t) && (j(), Z(t));
           }
         }
         function z(e) {
@@ -2014,7 +2014,7 @@ var CLSTAMP = "10334134";
         function G(e) {
           var t = "ontouchstart" in window,
             n = Te(e.type, "touch"),
-            r = L();
+            r = D();
           return (t && Ge.isTouch && r && !n) || (Ge.isTouch && !r && n);
         }
         function X() {
@@ -2031,16 +2031,16 @@ var CLSTAMP = "10334134";
                 (e.flipped &&
                   (A.popperInstance.options.placement = e.placement),
                 be(A.popperInstance.modifiers, "flip", "enabled", !1)),
-              S.setAttribute("data-placement", e.placement),
+              x.setAttribute("data-placement", e.placement),
               !1 !== e.attributes["x-out-of-boundaries"]
-                ? S.setAttribute("data-out-of-boundaries", "")
-                : S.removeAttribute("data-out-of-boundaries");
+                ? x.setAttribute("data-out-of-boundaries", "")
+                : x.removeAttribute("data-out-of-boundaries");
             var r = it(e.placement),
               o = Te(["top", "bottom"], r),
               i = Te(["bottom", "right"], r);
-            (S.style.top = "0"),
-              (S.style.left = "0"),
-              (S.style[o ? "top" : "left"] = (i ? 1 : -1) * t + "px"),
+            (x.style.top = "0"),
+              (x.style.left = "0"),
+              (x.style[o ? "top" : "left"] = (i ? 1 : -1) * t + "px"),
               n && n !== e.placement && A.popperInstance.update();
           }
           var s = se({ eventsEnabled: !1, placement: A.props.placement }, n, {
@@ -2054,12 +2054,12 @@ var CLSTAMP = "10334134";
                       r = e.documentElement;
                     return r && n
                       ? parseFloat(getComputedStyle(r).fontSize || String(16)) *
-                          De(t)
-                      : De(t);
+                          Le(t)
+                      : Le(t);
                   })(g, A.props.distance);
                   var n = it(e.placement),
-                    r = Le(n, i && i.padding, t),
-                    a = Le(n, o && o.padding, t),
+                    r = De(n, i && i.padding, t),
+                    a = De(n, o && o.padding, t),
                     s = A.popperInstance.modifiers;
                   return (
                     be(s, "preventOverflow", "padding", r),
@@ -2077,10 +2077,10 @@ var CLSTAMP = "10334134";
               offset: se({ offset: A.props.offset }, me(n, "offset")),
             }),
             onCreate: function (e) {
-              a(e), xe(n && n.onCreate, s.onCreate, [e]), J();
+              a(e), Se(n && n.onCreate, s.onCreate, [e]), J();
             },
             onUpdate: function (e) {
-              a(e), xe(n && n.onUpdate, s.onUpdate, [e]), J();
+              a(e), Se(n && n.onUpdate, s.onUpdate, [e]), J();
             },
           });
           A.popperInstance = new ae(e, E, s);
@@ -2172,7 +2172,7 @@ var CLSTAMP = "10334134";
           Ot.apply(this, arguments)
         );
       }
-      function xt(e, t) {
+      function St(e, t) {
         if (null == e) return {};
         var n,
           r,
@@ -2182,7 +2182,7 @@ var CLSTAMP = "10334134";
           (n = i[r]), t.indexOf(n) >= 0 || (o[n] = e[n]);
         return o;
       }
-      var St = "undefined" != typeof window && "undefined" != typeof document;
+      var xt = "undefined" != typeof window && "undefined" != typeof document;
       function Tt(e, t) {
         e &&
           ("function" == typeof e && e(t),
@@ -2193,7 +2193,7 @@ var CLSTAMP = "10334134";
           n && e.classList[t](n);
         });
       }
-      var At = St ? wt.useLayoutEffect : wt.useEffect;
+      var At = xt ? wt.useLayoutEffect : wt.useEffect;
       function kt(e, t, n) {
         At(function () {
           var n = e.instance.popperChildren.tooltip;
@@ -2212,7 +2212,7 @@ var CLSTAMP = "10334134";
           t.current || (t.current = "function" == typeof e ? e() : e), t.current
         );
       }
-      function Dt(e) {
+      function Lt(e) {
         var t = e.children,
           n = e.content,
           r = e.className,
@@ -2227,7 +2227,7 @@ var CLSTAMP = "10334134";
           l =
             (e.__source,
             e.__self,
-            xt(e, [
+            St(e, [
               "children",
               "content",
               "className",
@@ -2246,7 +2246,7 @@ var CLSTAMP = "10334134";
           y = h[1],
           b = _t(function () {
             return {
-              container: St && document.createElement("div"),
+              container: xt && document.createElement("div"),
               renders: 1,
             };
           }),
@@ -2290,11 +2290,11 @@ var CLSTAMP = "10334134";
           )
         );
       }
-      const Lt = (0, wt.forwardRef)(function (e, t) {
+      const Dt = (0, wt.forwardRef)(function (e, t) {
         var n = e.children,
-          r = xt(e, ["children"]);
+          r = St(e, ["children"]);
         return wt.createElement(
-          Dt,
+          Lt,
           r,
           (0, wt.cloneElement)(n, {
             ref: function (e) {
@@ -2305,6 +2305,48 @@ var CLSTAMP = "10334134";
       });
     },
     7750: () => {},
+    6921: (e, t, n) => {
+      "use strict";
+      n.r(t),
+        n.d(t, {
+          Observer: () => f.n,
+          _observerFinalizationRegistry: () => u.Y,
+          clearTimers: () => m,
+          enableStaticRendering: () => s.e,
+          isObserverBatched: () => i.m_,
+          isUsingStaticRendering: () => s.P,
+          observer: () => c.P,
+          observerBatching: () => i.tl,
+          useAsObservableSource: () => d.W,
+          useLocalObservable: () => p.i,
+          useLocalStore: () => l.W,
+          useObserver: () => h,
+          useStaticRendering: () => v,
+        });
+      n(724);
+      var r,
+        o = n(9889),
+        i = n(8909),
+        a = n(4452),
+        s = n(3815),
+        u = n(7380),
+        c = n(6035),
+        f = n(9712),
+        p = n(5562),
+        l = n(1154),
+        d = n(3542);
+      (0, i.tl)(o.r);
+      var m =
+        null !== (r = u.Y.finalizeAllImmediately) && void 0 !== r
+          ? r
+          : function () {};
+      function h(e, t) {
+        return void 0 === t && (t = "observed"), (0, a.q)(e, t);
+      }
+      function v(e) {
+        (0, s.e)(e);
+      }
+    },
     6035: (e, t, n) => {
       "use strict";
       n.d(t, { P: () => l });
@@ -2610,8 +2652,8 @@ var CLSTAMP = "10334134";
       (w.constructor = g), h(w, y.prototype), (w.isPureReactComponent = !0);
       var E = Array.isArray,
         O = Object.prototype.hasOwnProperty,
-        x = { current: null },
-        S = { key: !0, ref: !0, __self: !0, __source: !0 };
+        S = { current: null },
+        x = { key: !0, ref: !0, __self: !0, __source: !0 };
       function T(e, t, r) {
         var o,
           i = {},
@@ -2621,7 +2663,7 @@ var CLSTAMP = "10334134";
           for (o in (void 0 !== t.ref && (s = t.ref),
           void 0 !== t.key && (a = "" + t.key),
           t))
-            O.call(t, o) && !S.hasOwnProperty(o) && (i[o] = t[o]);
+            O.call(t, o) && !x.hasOwnProperty(o) && (i[o] = t[o]);
         var u = arguments.length - 2;
         if (1 === u) i.children = r;
         else if (1 < u) {
@@ -2636,7 +2678,7 @@ var CLSTAMP = "10334134";
           key: a,
           ref: s,
           props: i,
-          _owner: x.current,
+          _owner: S.current,
         };
       }
       function C(e) {
@@ -2736,7 +2778,7 @@ var CLSTAMP = "10334134";
           );
         return u;
       }
-      function D(e, t, n) {
+      function L(e, t, n) {
         if (null == e) return e;
         var r = [],
           o = 0;
@@ -2747,7 +2789,7 @@ var CLSTAMP = "10334134";
           r
         );
       }
-      function L(e) {
+      function D(e) {
         if (-1 === e._status) {
           var t = e._result;
           (t = t()).then(
@@ -2770,15 +2812,15 @@ var CLSTAMP = "10334134";
         I = {
           ReactCurrentDispatcher: P,
           ReactCurrentBatchConfig: M,
-          ReactCurrentOwner: x,
+          ReactCurrentOwner: S,
         };
       function N() {
         throw Error("act(...) is not supported in production builds of React.");
       }
       (t.Children = {
-        map: D,
+        map: L,
         forEach: function (e, t, n) {
-          D(
+          L(
             e,
             function () {
               t.apply(this, arguments);
@@ -2789,7 +2831,7 @@ var CLSTAMP = "10334134";
         count: function (e) {
           var t = 0;
           return (
-            D(e, function () {
+            L(e, function () {
               t++;
             }),
             t
@@ -2797,7 +2839,7 @@ var CLSTAMP = "10334134";
         },
         toArray: function (e) {
           return (
-            D(e, function (e) {
+            L(e, function (e) {
               return e;
             }) || []
           );
@@ -2831,14 +2873,14 @@ var CLSTAMP = "10334134";
             s = e._owner;
           if (null != t) {
             if (
-              (void 0 !== t.ref && ((a = t.ref), (s = x.current)),
+              (void 0 !== t.ref && ((a = t.ref), (s = S.current)),
               void 0 !== t.key && (i = "" + t.key),
               e.type && e.type.defaultProps)
             )
               var u = e.type.defaultProps;
             for (c in t)
               O.call(t, c) &&
-                !S.hasOwnProperty(c) &&
+                !x.hasOwnProperty(c) &&
                 (o[c] = void 0 === t[c] && void 0 !== u ? u[c] : t[c]);
           }
           var c = arguments.length - 2;
@@ -2888,7 +2930,7 @@ var CLSTAMP = "10334134";
           return {
             $$typeof: l,
             _payload: { _status: -1, _result: e },
-            _init: L,
+            _init: D,
           };
         }),
         (t.memo = function (e, t) {
@@ -3198,4 +3240,4 @@ var CLSTAMP = "10334134";
       })();
     },
   },
-]); //# sourceMappingURL=file:///home/buildbot/buildslave/steamvr_rel_hotfix_npm_vrwebui/build/public/runtime/resources/webinterface/dashboard/sourcemaps/libraries/libraries~e59f90316.js.map
+]); //# sourceMappingURL=file:///home/buildbot/buildslave/steamvr_rel_npm_vrwebui/build/public/runtime/resources/webinterface/dashboard/sourcemaps/libraries/libraries~e59f90316.js.map

@@ -569,7 +569,7 @@ IVRDriverInputInternal_XXX
 IVRDriverManager_001
 IVRExtendedDisplay_001
 IVRInputInternal_002
-IVRInput_010
+IVRInput_011
 IVRMailbox_002
 IVRNotificationsInternal_001
 IVRNotifications_002
@@ -587,7 +587,7 @@ IVRSettingsInternal_001
 IVRSettings_003
 IVRSpatialAnchors_001
 IVRSystemLayerInternal_XXX
-IVRSystem_023
+IVRSystem_026
 IVRTrackedCameraInternal_XXX
 Infinity
 InitializeAcl
@@ -1128,6 +1128,7 @@ VRInitError_Init_AlreadyRunning
 VRInitError_Init_AnotherAppLaunching
 VRInitError_Init_AppInfoInitFailed
 VRInitError_Init_BadLuid
+VRInitError_Init_ClientVersionAlreadyProvided
 VRInitError_Init_CouldNotStartPrism
 VRInitError_Init_DuplicateBootstrapper
 VRInitError_Init_FactoryNotFound
@@ -1142,6 +1143,7 @@ VRInitError_Init_IllegalTypeTransition
 VRInitError_Init_InitCanceledByUser
 VRInitError_Init_InstallationCorrupt
 VRInitError_Init_InstallationNotFound
+VRInitError_Init_InstallationTooOld
 VRInitError_Init_InterfaceNotFound
 VRInitError_Init_Internal
 VRInitError_Init_InvalidApplicationType
@@ -1411,12 +1413,12 @@ bad conversion
 bg_bg
 brazilian
 bulgarian
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\ilockablepropertycontainer.h
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\propertymanager.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\ipcpipe.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\ipcwin32.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\strtools_public.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrcmd\Retail\win64\2017\vrcmd.pdb
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\ilockablepropertycontainer.h
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\propertymanager.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\ipcpipe.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\ipcwin32.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\strtools_public.cpp
+c:\buildslave\steamvr_rel_win64\build\src\vrcmd\Retail\win64\2017\vrcmd.pdb
 client
 collectComments
 compositor_stats

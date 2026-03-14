@@ -56,8 +56,7 @@
   "NoDesktopFound": "No desktop found.",
   "DesktopViewsUpdating": "Desktop views updating...",
   "AddView": "Add View",
-  "CloseView": "Close View",
-  "CloseOverlay": "Close Overlay",
+  "Close": "Close",
   "MultitaskingView": "Multitasking View",
   "DockHere": "Dock Here",
   "DockOnLeftController": "Dock on Left Controller",
@@ -89,6 +88,23 @@
 
   "ShowSteamUI_Steam": "Open Steam Menu",
   "ShowSteamUI_QAM": "Open Quick Access Menu",
+
+  "RoomSetup_AdjustFloorHeight" : "Adjust Floor Height",
+  "RoomSetup_AdjustFloorHeight_Details" : "Touch the floor (or use thumbstick) to adjust.",
+  "RoomSetup_AdjustPlayspace" : "Adjust Playspace",
+  "RoomSetup_AdjustPlayspace_Details" : "Adjust Playspace",
+  "RoomSetup_SetupPlayspace" : "Setup Playspace",
+  "RoomSetup_SetupPlayspace_Details" : "Draw your playspace or adjust the floor height.",
+  "RoomSetup_Clear" : "Clear",
+  "RoomSetup_Accept" : "Accept",
+  "RoomSetup_Cancel" : "Cancel",
+  "RoomSetup_Next" : "Next",
+  "Back" : "Back",
+  "Next" : "Next",
+  "Cancel" : "Cancel",
+  "Accept" : "Accept",
+  "Reset" : "Reset",
+  "Advanced" : "Advanced",
 
   "Play": "Play"
 }

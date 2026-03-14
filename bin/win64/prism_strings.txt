@@ -4,35 +4,49 @@
     Bucket: size:%zu timeline:none
     Unused Resources: size:%zu
     Unused timelines: size:%zu
- - Vulkan output %d: %ux%u resolution, %ux%u dimensions - %s\n
+    edge [ style = bold ];\n
+    graph [ size = "128,64" ];\n
+    node [ shape = circle, color = cyan, style = filled ];\n
+    node [ shape = circle, color = gray, style = filled ];\n
+    node [ shape = circle, color = lime, style = filled ];\n
+    node [ shape = circle, color = orange, style = filled ];\n
+    node [ shape = polygon, sides = 4, color = magenta, style = filled, orientation = "45.0" ];
+ (inactive)
+ : %.*s[%u]
+ : <Unknown Semantic %d>[%u]
  formatting error code 
 !! refusing to trigger minidump with debugger attached\n
 !( pDedicatedBuffer && pDedicatedImage )
+!(bToExecSecondaryCmdBuf && bIsSecondaryCmdBuffer)
 !IsInUse()
 !g_pSharedResourceNamespaceServer
-!isnan( *pSecondsSinceVsync )
 !m_displayImages.empty()
+!m_phases.push_back(pPhase)
+!m_resourceStates.resize(resourceInstances.size(), {})
 !m_stackFreeResources.empty()
+!nodeDeclInfo.MaybeGraphicsNode()
+!pBackendContext->bIsPrimaryContext
+!pCmdId
+!pCreateInfo || ((pCreateInfo->numPhases == 0) == (pCreateInfo->pPhases == nullptr))
+!pNewTrans
+!pResId
+!pSubResStates
+!pTemporalLayers
+!paramAccessInfo.IsResource()
+!paramDecl.IsOutputResource()
+!queueInfosCopy.empty()
+!rpInfo.depthStencilTargetMask && (rpInfo.clearDepth || rpInfo.clearStencil)
+!std::equal(resourceCounts.begin(), resourceCounts.end(), blockInfo.numResources) || (blockInfo.localIndex != localLoopIndex) || (blockInfo.numChildren != numChildren)
 !std::isnan( flSystemTimeInSeconds )
+%*csubgraph cluster_%d { style="rounded%s"
 %s(%s): concurrent batches not allowed
 %s-CommandBuffer-%d
-%s-Depth
 %s-Image
 %s-Image %d
 %s-ImageView
 %s-Memory
 %s-ShaderModule
 %s: An error occurred while recording command buffer: %s
-%s: Applying radv vkGetDisplayPlaneSupportedDisplayKHR workaround
-%s: Async encode not supported
-%s: CreateALVRDeviceExVulkan failed (%d)
-%s: CreateALVRExtensionVulkan failed (%d)
-%s: CreateBuffer failed (%d)
-%s: CreateComputeContext failed (%d)
-%s: CreateMotionEstimator failed (%d)
-%s: Current Driver Version (%d) does not support this NvEncodeAPI version (%d), please upgrade driver
-%s: Failed to acquire vulkan display
-%s: Failed to allocate a semaphore
 %s: Failed to allocate client handle id=%d
 %s: Failed to allocate client swapchain
 %s: Failed to allocate command buffer: %d
@@ -40,46 +54,21 @@
 %s: Failed to allocate memory\n
 %s: Failed to begin command buffer
 %s: Failed to create command buffer pool: %d
-%s: Failed to create motion vector input Parent surface (%d)
-%s: Failed to create motion vector input UV surface (%d)
-%s: Failed to create motion vector input Y surface (%d)
 %s: Failed to create vulkan device: %d
 %s: Failed to determine a compatible memory type\n
-%s: Failed to get CUarray
-%s: Failed to get CUmipmappedArray
 %s: Failed to get queue: %u:%u
-%s: Failed to get shared Win32 handle for image
-%s: Failed to get shared Win32 handle for semaphore
-%s: Failed to import buffer into CUDA
 %s: Failed to import client layers id=%d
 %s: Failed to import client swapchain image: %s
 %s: Failed to import client timeline id=%d
-%s: Failed to import semaphore into CUDA
 %s: Failed to initialize compute queue.
 %s: Failed to initialize graphics queue.
-%s: Failed to initialize the encoder
-%s: Failed to load NvEncode library
-%s: Failed to load NvEncodeAPICreateInstance
-%s: Failed to load NvEncodeAPIGetMaxSupportedVersion
-%s: Failed to load the encode preset config
-%s: Failed to map resource
-%s: Failed to nvEncodeAPICreateInstance
-%s: Failed to open the encode session
-%s: Failed to register resource
+%s: Failed to load physical device extensions
 %s: Failed to reset command buffer: %d
 %s: Failed to submit to queue: %u:%u
-%s: GetApiResource failed (%d)
-%s: GetDesc failed (%d)
 %s: Index (%d) out of bounds (%d) for '%s'!
 %s: Insufficient permission to create high priority queue.
 %s: Interdependent timelines are not supported
-%s: Invalid resource type (%d)
-%s: Map failed (%d)
-%s: Motion estimation only mode not supported
-%s: Open failed (%d)
-%s: Requested resolution not supported. Requested=%dx%d Max=%dx%d
 %s: Swapchain has no images
-%s: Unmap failed (%d)
 %s: allocator not initialized
 %s: already created
 %s: at least one signal point is required
@@ -88,7 +77,6 @@
 %s: attempted to add stage to already initalized pipeline
 %s: attempted to bind a non-initalized pipeline
 %s: attempted to bind a pipeline with no valid stages
-%s: attempted to dispatch a non-compute pipeline
 %s: attempted to draw a compute pipeline
 %s: attempted to initialize already initalized pipeline
 %s: attempted to initialize pipeline with no valid stages
@@ -104,33 +92,23 @@
 %s: failed get device extension count
 %s: failed initializing graphics command pool for visible area mask
 %s: failed submitting visible area mask rendering
-%s: failed to allocate CVkCuda
-%s: failed to allocate CVkCudaImage
 %s: failed to allocate buffer memory
-%s: failed to allocate descriptor set
 %s: failed to allocate descriptor sets (err=%d)
-%s: failed to allocate destination frame info handle
 %s: failed to allocate image memory
 %s: failed to allocate memory for imported timeline
 %s: failed to allocate memory for query pool
 %s: failed to allocate memory for timeline
-%s: failed to allocate panel mask
 %s: failed to bind buffer memory (%d)
 %s: failed to bind image memory (%d)
-%s: failed to create a CUDA context (%s)
 %s: failed to create a vulkan instance
-%s: failed to create attentuation texture
-%s: failed to create backing Vulkan image
 %s: failed to create blank image
 %s: failed to create buffer (%d)
 %s: failed to create command batch pool %d
 %s: failed to create compute command pool
 %s: failed to create compute pipeline (err=%d)
 %s: failed to create default sampler
-%s: failed to create depth image for %s
 %s: failed to create descriptor pool (err=%d)
 %s: failed to create descriptor set layout
-%s: failed to create display surface
 %s: failed to create downsample image
 %s: failed to create downsample vertex buffer
 %s: failed to create framebuffer for %s
@@ -143,51 +121,35 @@
 %s: failed to create maskedRgb image
 %s: failed to create motion estimation input buffers
 %s: failed to create null client layers uniform buffer
-%s: failed to create panel mask
-%s: failed to create panel mask framebuffer
-%s: failed to create panel mask texture
 %s: failed to create pipeline layout (err=%d)
 %s: failed to create render pass
 %s: failed to create reproject index buffer
 %s: failed to create reproject vertex buffer
 %s: failed to create shader module (err=%d)
-%s: failed to create swap chain framebuffer
-%s: failed to create swapchain
 %s: failed to create swapchain sampler
 %s: failed to create timeline
 %s: failed to create timestamp query pool
-%s: failed to create visible area index buffer
 %s: failed to create visible area mask image
 %s: failed to create visible area mask sampler
 %s: failed to create visible area mask timeline
-%s: failed to create visible area vertex buffer
 %s: failed to create vulkan image (%d)
 %s: failed to create vulkan instance %d
 %s: failed to enumerate extensions
 %s: failed to enumerate instance extensions
 %s: failed to enumerate physical devices
-%s: failed to enumerate swapchain images
 %s: failed to export memory (%d)\n
 %s: failed to export timeline %s
-%s: failed to find a compatible format
-%s: failed to find a compatible plane
 %s: failed to find swapchain id=%d
-%s: failed to find variant for image format %d
 %s: failed to generate visible area mesh
-%s: failed to get count of CUDA devices (%s)
 %s: failed to get gpu timing for frame %llu
 %s: failed to get instance extension count
-%s: failed to get number of present modes
 %s: failed to get physical device count
-%s: failed to get plane properties
-%s: failed to get plane property count
 %s: failed to get query pool results
 %s: failed to import buffer IPC handle
 %s: failed to import image IPC handle
 %s: failed to import remaining client objects
 %s: failed to import timeline %s
 %s: failed to import timeline IPC handle
-%s: failed to initialize CUDA library (%s)
 %s: failed to initialize compute timeline
 %s: failed to initialize frame hallucination
 %s: failed to initialize graphics timeline
@@ -196,54 +158,38 @@
 %s: failed to initialize query pool
 %s: failed to initialize timeline
 %s: failed to initialize vulkan device
-%s: failed to load CUDA driver entry point
-%s: failed to load CUDA method: %s (err=%d)
-%s: failed to load available layers
-%s: failed to load instance extensions
 %s: failed to map vulkan memory
-%s: failed to present HMD image
-%s: failed to query display modes
-%s: failed to query number of display modes
-%s: failed to query number of supported formats
-%s: failed to query supported formats
-%s: failed to query surface capabilities
 %s: failed to register debug callback\n
 %s: failed to set debug name
+%s: failed to set display mode
+%s: failed to set dynamic display mode
 %s: failed to signal timeline semaphore: %d
-%s: failed to submit gpu work
+%s: failed to update display mode timing
 %s: failed to wait for a timeline signal
-%s: failed to wait for present
 %s: failed to wait for semaphore
-%s: failed to wait for swapchain image
-%s: failed to wrap swapchain image
 %s: failed waiting for visible area mask rendering to complete
 %s: failed with error '%s' (%d)
 %s: feature hostQueryReset missing
 %s: high priority compute requested, but %s is missing
 %s: incompatible vulkan version requested
 %s: invalid device
-%s: invalid direction %d
-%s: invalid display mode
 %s: invalid instance
-%s: invalid parameter
-%s: invalid projection matrix
 %s: invalid swapchain image index: %d
 %s: invalid type (%d)
-%s: invalid vulkan device
 %s: is the Vulkan SDK installed?
 %s: mismatched sizes
 %s: missing optional device extension %s
 %s: missing optional instance extension %s
 %s: missing required device extension %s
-%s: missing required device extension: %s
 %s: missing required instance extension %s
 %s: missing required layer: %s
 %s: missing validation layer extension %s
 %s: multiple vertex stages specified for %s
 %s: no compatible vulkan devices detected
-%s: no matching CUDA device found
+%s: no display mode to set
 %s: no timelines
 %s: no valid quads
+%s: not all required facet extensions were available
 %s: physical device does not support the requested timeline handle type
 %s: physical device does not support timeline export
 %s: physical device does not support timeline import
@@ -251,98 +197,56 @@
 %s: pre-submit failed
 %s: replacing existing client layers uniform buffer id=%d
 %s: replacing existing client swapchain id=%d (CurrentPid=%d NewPid=%d)
-%s: resourceVulkan.image is null
-%s: surface does not support presentation from the compute queue
 %s: swapchain data cleared without leaving clientid intact!
 %s: timed out while importing client layers uniform buffer, will continue on next frame
 %s: timed out while importing client samplers, will continue on next frame
 %s: timed out while importing client swapchains, will continue on next frame
 %s: too many vertices
-%s: unexpected edid size
 %s: unknown vulkan message severity
 %s: unsupported format
 %s: usage must be specified when allocating images
+%sRpsAccessFlags(0x%x)
+%sRpsShaderStageBits(0x%x)
 %s[%s] %s file=%s
+%s\n           
+( %u x %u ), fmt : %s, array : %u, mip : %u, samples : %u
+( %u x %u x %u ), fmt : %s, mip : %u
+( %u x 1 ), fmt : %s, array : %u, mip : %u
 ( nVertexCount % 3 ) == 0
-********** Blue ( nLoopCount++ > 1000 )!\n
-********** Green ( nLoopCount++ > 1000 )!\n
-********** Red ( nLoopCount++ > 1000 )!\n
+(*ppRenderGraph)->AddPhase<NullRuntimeBackend>(**ppRenderGraph)
+(blockInstance.blockId != blockId)
+(blockInstance.offsets[iResourceKind] + blockInfo.numResources[iResourceKind]) > m_numIndicesTotal[iResourceKind]
+(numScheduled + numEliminated) != nodes.size()
+(pUpdateInfo->gpuCompletedFrameIndex + 1) <= pUpdateInfo->frameIndex
+(resourceId >= m_renderGraph.GetSignature().GetMaxExternalResourceCount()) || (resourceId < m_resourceDecls.size())
+, aliased
+, flags(
 , last executing in 
+, num_bytes : 0x%p
+, temporal_layer %u
+,dashed
 -IPCWrapper
+-VK_HEAP_INDEX_%d
 .00cfg
-.?AU?$implements@U?$input_iterable@UDisplayTarget@Core@Display@Devices@Windows@winrt@@V?$vector@UDisplayTarget@Core@Display@Devices@Windows@winrt@@V?$allocator@UDisplayTarget@Core@Display@Devices@Windows@winrt@@@std@@@std@@@impl@winrt@@Unon_agile@3@Uno_weak_ref@3@U?$IIterable@UDisplayTarget@Core@Display@Devices@Windows@winrt@@@Collections@Foundation@Windows@3@@winrt@@
-.?AU?$implements@Uiterator@?$iterable_base@U?$input_iterable@UDisplayTarget@Core@Display@Devices@Windows@winrt@@V?$vector@UDisplayTarget@Core@Display@Devices@Windows@winrt@@V?$allocator@UDisplayTarget@Core@Display@Devices@Windows@winrt@@@std@@@std@@@impl@winrt@@UDisplayTarget@Core@Display@Devices@Windows@3@Uno_collection_version@23@@winrt@@U?$IIterator@UDisplayTarget@Core@Display@Devices@Windows@winrt@@@Collections@Foundation@Windows@3@@winrt@@
-.?AU?$input_iterable@UDisplayTarget@Core@Display@Devices@Windows@winrt@@V?$vector@UDisplayTarget@Core@Display@Devices@Windows@winrt@@V?$allocator@UDisplayTarget@Core@Display@Devices@Windows@winrt@@@std@@@std@@@impl@winrt@@
-.?AU?$iterable_base@U?$input_iterable@UDisplayTarget@Core@Display@Devices@Windows@winrt@@V?$vector@UDisplayTarget@Core@Display@Devices@Windows@winrt@@V?$allocator@UDisplayTarget@Core@Display@Devices@Windows@winrt@@@std@@@std@@@impl@winrt@@UDisplayTarget@Core@Display@Devices@Windows@3@Uno_collection_version@23@@winrt@@
-.?AU?$produce@U?$input_iterable@UDisplayTarget@Core@Display@Devices@Windows@winrt@@V?$vector@UDisplayTarget@Core@Display@Devices@Windows@winrt@@V?$allocator@UDisplayTarget@Core@Display@Devices@Windows@winrt@@@std@@@std@@@impl@winrt@@U?$IIterable@UDisplayTarget@Core@Display@Devices@Windows@winrt@@@Collections@Foundation@Windows@3@@impl@winrt@@
-.?AU?$produce@Uiterator@?$iterable_base@U?$input_iterable@UDisplayTarget@Core@Display@Devices@Windows@winrt@@V?$vector@UDisplayTarget@Core@Display@Devices@Windows@winrt@@V?$allocator@UDisplayTarget@Core@Display@Devices@Windows@winrt@@@std@@@std@@@impl@winrt@@UDisplayTarget@Core@Display@Devices@Windows@3@Uno_collection_version@23@@winrt@@U?$IIterator@UDisplayTarget@Core@Display@Devices@Windows@winrt@@@Collections@Foundation@Windows@3@@impl@winrt@@
-.?AU?$produce_base@U?$input_iterable@UDisplayTarget@Core@Display@Devices@Windows@winrt@@V?$vector@UDisplayTarget@Core@Display@Devices@Windows@winrt@@V?$allocator@UDisplayTarget@Core@Display@Devices@Windows@winrt@@@std@@@std@@@impl@winrt@@U?$IIterable@UDisplayTarget@Core@Display@Devices@Windows@winrt@@@Collections@Foundation@Windows@3@X@impl@winrt@@
-.?AU?$produce_base@Uiterator@?$iterable_base@U?$input_iterable@UDisplayTarget@Core@Display@Devices@Windows@winrt@@V?$vector@UDisplayTarget@Core@Display@Devices@Windows@winrt@@V?$allocator@UDisplayTarget@Core@Display@Devices@Windows@winrt@@@std@@@std@@@impl@winrt@@UDisplayTarget@Core@Display@Devices@Windows@3@Uno_collection_version@23@@winrt@@U?$IIterator@UDisplayTarget@Core@Display@Devices@Windows@winrt@@@Collections@Foundation@Windows@3@X@impl@winrt@@
-.?AU?$producer@U?$input_iterable@UDisplayTarget@Core@Display@Devices@Windows@winrt@@V?$vector@UDisplayTarget@Core@Display@Devices@Windows@winrt@@V?$allocator@UDisplayTarget@Core@Display@Devices@Windows@winrt@@@std@@@std@@@impl@winrt@@U?$IIterable@UDisplayTarget@Core@Display@Devices@Windows@winrt@@@Collections@Foundation@Windows@3@X@impl@winrt@@
-.?AU?$producer@Uiterator@?$iterable_base@U?$input_iterable@UDisplayTarget@Core@Display@Devices@Windows@winrt@@V?$vector@UDisplayTarget@Core@Display@Devices@Windows@winrt@@V?$allocator@UDisplayTarget@Core@Display@Devices@Windows@winrt@@@std@@@std@@@impl@winrt@@UDisplayTarget@Core@Display@Devices@Windows@3@Uno_collection_version@23@@winrt@@U?$IIterator@UDisplayTarget@Core@Display@Devices@Windows@winrt@@@Collections@Foundation@Windows@3@X@impl@winrt@@
-.?AU?$producers_base@U?$input_iterable@UDisplayTarget@Core@Display@Devices@Windows@winrt@@V?$vector@UDisplayTarget@Core@Display@Devices@Windows@winrt@@V?$allocator@UDisplayTarget@Core@Display@Devices@Windows@winrt@@@std@@@std@@@impl@winrt@@V?$tuple@U?$IIterable@UDisplayTarget@Core@Display@Devices@Windows@winrt@@@Collections@Foundation@Windows@winrt@@@std@@@impl@winrt@@
-.?AU?$producers_base@Uiterator@?$iterable_base@U?$input_iterable@UDisplayTarget@Core@Display@Devices@Windows@winrt@@V?$vector@UDisplayTarget@Core@Display@Devices@Windows@winrt@@V?$allocator@UDisplayTarget@Core@Display@Devices@Windows@winrt@@@std@@@std@@@impl@winrt@@UDisplayTarget@Core@Display@Devices@Windows@3@Uno_collection_version@23@@winrt@@V?$tuple@U?$IIterator@UDisplayTarget@Core@Display@Devices@Windows@winrt@@@Collections@Foundation@Windows@winrt@@@std@@@impl@winrt@@
-.?AU?$root_implements@U?$input_iterable@UDisplayTarget@Core@Display@Devices@Windows@winrt@@V?$vector@UDisplayTarget@Core@Display@Devices@Windows@winrt@@V?$allocator@UDisplayTarget@Core@Display@Devices@Windows@winrt@@@std@@@std@@@impl@winrt@@Unon_agile@3@Uno_weak_ref@3@U?$IIterable@UDisplayTarget@Core@Display@Devices@Windows@winrt@@@Collections@Foundation@Windows@3@@impl@winrt@@
-.?AU?$root_implements@Uiterator@?$iterable_base@U?$input_iterable@UDisplayTarget@Core@Display@Devices@Windows@winrt@@V?$vector@UDisplayTarget@Core@Display@Devices@Windows@winrt@@V?$allocator@UDisplayTarget@Core@Display@Devices@Windows@winrt@@@std@@@std@@@impl@winrt@@UDisplayTarget@Core@Display@Devices@Windows@3@Uno_collection_version@23@@winrt@@U?$IIterator@UDisplayTarget@Core@Display@Devices@Windows@winrt@@@Collections@Foundation@Windows@3@@impl@winrt@@
-.?AU?$root_implements_composable_inner@U?$input_iterable@UDisplayTarget@Core@Display@Devices@Windows@winrt@@V?$vector@UDisplayTarget@Core@Display@Devices@Windows@winrt@@V?$allocator@UDisplayTarget@Core@Display@Devices@Windows@winrt@@@std@@@std@@@impl@winrt@@$0A@@impl@winrt@@
-.?AU?$root_implements_composable_inner@Uiterator@?$iterable_base@U?$input_iterable@UDisplayTarget@Core@Display@Devices@Windows@winrt@@V?$vector@UDisplayTarget@Core@Display@Devices@Windows@winrt@@V?$allocator@UDisplayTarget@Core@Display@Devices@Windows@winrt@@@std@@@std@@@impl@winrt@@UDisplayTarget@Core@Display@Devices@Windows@3@Uno_collection_version@23@@winrt@@$0A@@impl@winrt@@
-.?AU?$root_implements_composing_outer@$0A@@impl@winrt@@
-.?AU?$weak_ref@$00@impl@winrt@@
-.?AU?$weak_source@$00@impl@winrt@@
-.?AU?$weak_source_producer@$00@impl@winrt@@
-.?AUIMarshal@impl@winrt@@
-.?AUIWeakReference@impl@winrt@@
-.?AUIWeakReferenceSource@impl@winrt@@
 .?AU_Crt_new_delete@std@@
-.?AUhresult_access_denied@winrt@@
-.?AUhresult_canceled@winrt@@
-.?AUhresult_changed_state@winrt@@
-.?AUhresult_class_not_available@winrt@@
-.?AUhresult_error@winrt@@
-.?AUhresult_illegal_delegate_assignment@winrt@@
-.?AUhresult_illegal_method_call@winrt@@
-.?AUhresult_illegal_state_change@winrt@@
-.?AUhresult_invalid_argument@winrt@@
-.?AUhresult_no_interface@winrt@@
-.?AUhresult_not_implemented@winrt@@
-.?AUhresult_out_of_bounds@winrt@@
-.?AUhresult_wrong_thread@winrt@@
-.?AUiterator@?$iterable_base@U?$input_iterable@UDisplayTarget@Core@Display@Devices@Windows@winrt@@V?$vector@UDisplayTarget@Core@Display@Devices@Windows@winrt@@V?$allocator@UDisplayTarget@Core@Display@Devices@Windows@winrt@@@std@@@std@@@impl@winrt@@UDisplayTarget@Core@Display@Devices@Windows@3@Uno_collection_version@23@@winrt@@
-.?AUiterator_type@no_collection_version@impl@winrt@@
-.?AUmarshaler@?1??make_marshaler@impl@winrt@@YAHPEAUtype@?$abi@UIUnknown@Foundation@Windows@winrt@@@23@PEAPEAX@Z@
-.?AUno_collection_version@impl@winrt@@
-.?AUtype@?$abi@U?$IIterable@UDisplayTarget@Core@Display@Devices@Windows@winrt@@@Collections@Foundation@Windows@winrt@@@impl@winrt@@
-.?AUtype@?$abi@U?$IIterator@UDisplayTarget@Core@Display@Devices@Windows@winrt@@@Collections@Foundation@Windows@winrt@@@impl@winrt@@
-.?AUtype@?$abi@UIInspectable@Foundation@Windows@winrt@@@impl@winrt@@
-.?AUtype@?$abi@UIUnknown@Foundation@Windows@winrt@@@impl@winrt@@
 .?AV<lambda_2d4b9bd805c205933c366a2a96e134e0>@@
-.?AV<lambda_fda7136264a0c7f426abb06c45333a48>@@
 .?AV?$CVkPoolGarbageCollector@VCVkCommandBuffer@@@@
 .?AV?$CVkPoolableResource@VCVkCommandBufferPool@@@@
 .?AV?$CVkResourcePool@VCVkCommandBuffer@@@@
 .?AV?$CVkTimestampQueryPool@$01@facet@@
 .?AV?$_Func_base@XW4ELogLevel@@PEBDPEAX@std@@
-.?AV?$_Func_base@_NW4EVREye@vr@@MMPEAUDistortionCoordinates_t@2@@std@@
 .?AV?$_Func_impl_no_alloc@P6AXW4ELogLevel@@PEBDPEAX@ZXW41@PEBDPEAX@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_2d4b9bd805c205933c366a2a96e134e0>@@XW4ELogLevel@@PEBDPEAX@std@@
-.?AV?$_Func_impl_no_alloc@V<lambda_fda7136264a0c7f426abb06c45333a48>@@_NW4EVREye@vr@@MMPEAUDistortionCoordinates_t@3@@std@@
 .?AV?$_LaunchPad@V?$unique_ptr@V?$tuple@V<lambda_848be8f9a8f0f693e744ef05976b2633>@@@std@@U?$default_delete@V?$tuple@V<lambda_848be8f9a8f0f693e744ef05976b2633>@@@std@@@2@@std@@@std@@
-.?AV?$_LaunchPad@V?$unique_ptr@V?$tuple@V<lambda_abc6602877629f1c56e45bba60c70b19>@@UPrismRunParameters_t@@@std@@U?$default_delete@V?$tuple@V<lambda_abc6602877629f1c56e45bba60c70b19>@@UPrismRunParameters_t@@@std@@@2@@std@@@std@@
+.?AV?$_LaunchPad@V?$unique_ptr@V?$tuple@V<lambda_ad411c34508d3fca01cb19636afa7601>@@UPrismRunParameters_t@@@std@@U?$default_delete@V?$tuple@V<lambda_ad411c34508d3fca01cb19636afa7601>@@UPrismRunParameters_t@@@std@@@2@@std@@@std@@
 .?AV?$codecvt@_WDU_Mbstatet@@@std@@
 .?AV?$codecvt_utf8_utf16@_W$0BAPPPP@$0A@@std@@
 .?AV?$wstring_convert@V?$codecvt_utf8_utf16@_W$0BAPPPP@$0A@@std@@_WV?$allocator@_W@2@V?$allocator@D@2@@std@@
-.?AVCDestinationFrameInfo@CFrameHallucinationPrivate@?A0xb41460a2@@
-.?AVCMotionEstimator_LiquidVR@@
-.?AVCMotionEstimator_NvEncode@@
+.?AVAccessDAGBuilderPass@rps@@
 .?AVCNonCopyable@@
 .?AVCPrism@@
-.?AVCPrismDisplay_LiquidVR@@
 .?AVCPrismDisplay_Null@@
-.?AVCPrismDisplay_NvAPI@@
-.?AVCPrismDisplay_Vulkan@@
-.?AVCPrismDisplay_WindowsDisplayCore@@
 .?AVCPrismPoseProvider_Null@@
-.?AVCSingletonCriticalSection@@
 .?AVCVkBuffer@@
 .?AVCVkCommandBuffer@@
 .?AVCVkCommandBufferPool@@
@@ -352,21 +256,30 @@
 .?AVCVkResourceBase@@
 .?AVCVkTimeline@@
 .?AVCVkTimestampQueryPoolBase@facet@@
-.?AVFactory@CPrismDisplay_LiquidVR@@
+.?AVCmdDebugPrintPhase@rps@@
+.?AVDAGBuilderPass@rps@@
+.?AVDAGPrintPhase@rps@@
+.?AVDAGSchedulePass@rps@@
 .?AVFactory@CPrismDisplay_Null@@
-.?AVFactory@CPrismDisplay_NvAPI@@
-.?AVFactory@CPrismDisplay_Vulkan@@
-.?AVFactory@CPrismDisplay_WindowsDisplayCore@@
-.?AVIDestinationFrameInfo@CFrameHallucination@@
 .?AVIEvent@IPC@@
-.?AVIMotionEstimator@@
 .?AVIMutex@IPC@@
 .?AVIPrismDisplay@@
 .?AVIPrismDisplayFactory@@
+.?AVIPrismGraphicsHost@@
 .?AVIPrismPoseProvider@@
+.?AVIRenderGraphPhase@rps@@
 .?AVISharedMem@IPC@@
 .?AVISwapchainImageProvider@@
 .?AVISyncObject@IPC@@
+.?AVLifetimeAnalysisPhase@rps@@
+.?AVMemorySchedulePhase@rps@@
+.?AVNullRuntimeBackend@rps@@
+.?AVPreProcessPhase@rps@@
+.?AVRuntimeBackend@rps@@
+.?AVRuntimeDevice@rps@@
+.?AVScheduleDebugPrintPhase@rps@@
+.?AVVKRuntimeBackend@rps@@
+.?AVVKRuntimeDevice@rps@@
 .?AVWin32Event@IPC@@
 .?AVWin32Mutex@IPC@@
 .?AVWin32SharedMemory@IPC@@
@@ -377,8 +290,6 @@
 .?AVcodecvt_base@std@@
 .?AVexception@std@@
 .?AVfacet@locale@std@@
-.?AVinvalid_argument@std@@
-.?AVout_of_range@std@@
 .?AVrange_error@std@@
 .?AVruntime_error@std@@
 .?AVtype_info@@
@@ -414,7 +325,6 @@
 .rtc$IZZ
 .rtc$TAA
 .rtc$TZZ
-.text
 .text$di
 .text$mn
 .text$mn$00
@@ -425,15 +335,15 @@
 .tls$ZZZ
 .xdata
 .xdata$x
-33s?+
-3dj6
-76F\
+420_OPAQUE
 8c8f13b1-60eb-4b6a-a433-de86104115ac
 8d8f13b1-60eb-4b6a-a433-de86104115ac
 8e8f13b1-60eb-4b6a-a433-de86104115ac
-<P)9Y
+<Unknown Error Code>
+<postamble>
+<preamble>
 <unknown>
->ffv?
+<unused>
 ??0?$codecvt@_WDU_Mbstatet@@@std@@QEAA@_K@Z
 ??4?$_Yarn@D@std@@QEAAAEAV01@PEBD@Z
 ??Bid@locale@std@@QEAA_KXZ
@@ -441,7 +351,6 @@
 ??_7_Facet_base@std@@6B@
 ??_7codecvt_base@std@@6B@
 ??_7facet@locale@std@@6B@
-?CVkDevice::CreateDevice
 ?_Decref@facet@locale@std@@UEAAPEAV_Facet_base@3@XZ
 ?_Incref@facet@locale@std@@UEAAXXZ
 ?_Init@locale@std@@CAPEAV_Locimp@12@_N@Z
@@ -455,33 +364,82 @@
 ?id@?$codecvt@_WDU_Mbstatet@@@std@@2V0locale@2@A
 ?in@?$codecvt@_WDU_Mbstatet@@@std@@QEBAHAEAU_Mbstatet@@PEBD1AEAPEBDPEA_W3AEAPEA_W@Z
 @SteamVR_Namespace
+A8P8
+A8_UNORM
 ADVAPI32.dll
-ALVRDisplayInit
-ALVRInit
+AI44
 ASSERT: "%s" at %s:%d.\n
+AYUV
 AbortMessage({ Thread Watchdog Abort - %s /+/ %f second timeout })
 AddAccessAllowedAce
+AddCmdNode( localNodeDeclId, pNodeDecl, nodeLocalId, callback, args.data(), uint32_t(args.size()), pOutCmdId, callFlags)
 AddStage and CopyStages are mutually exclusive.
+Allocation failed
 Already initialized
-Apply blur filter
-Apply median filter
+AmplificationShader
 Attempt to init shared state %s twice
-Attempting to reinitailize estimator!
 Automatically quitting due to idle time > %f seconds.
+B4G4R4A4_UNORM
+B5G5R5A1_UNORM
+B5G6R5_UNORM
+B8G8R8A8_TYPELESS
+B8G8R8A8_UNORM
+B8G8R8A8_UNORM_SRGB
+B8G8R8X8_TYPELESS
+B8G8R8X8_UNORM
+B8G8R8X8_UNORM_SRGB
+BC1_TYPELESS
+BC1_UNORM
+BC1_UNORM_SRGB
+BC2_TYPELESS
+BC2_UNORM
+BC2_UNORM_SRGB
+BC3_TYPELESS
+BC3_UNORM
+BC3_UNORM_SRGB
+BC4_SNORM
+BC4_TYPELESS
+BC4_UNORM
+BC5_SNORM
+BC5_TYPELESS
+BC5_UNORM
+BC6H_SF16
+BC6H_TYPELESS
+BC6H_UF16
+BC7_TYPELESS
+BC7_UNORM
+BC7_UNORM_SRGB
+Bind(nodeDeclId, nodeInfo.callbackInfo)
 Blank
-C++/WinRT version:1.0.190111.3
+BlendState
+C:\workspace\vr\steamvr\main\src\thirdparty\renderpipelineshaders\src\core/rps_persistent_index_generator.hpp
+C:\workspace\vr\steamvr\main\src\thirdparty\renderpipelineshaders\src\core/rps_util.hpp
+C:\workspace\vr\steamvr\main\src\thirdparty\renderpipelineshaders\src\core\rps_device.cpp
+C:\workspace\vr\steamvr\main\src\thirdparty\renderpipelineshaders\src\core\rps_graph.cpp
+C:\workspace\vr\steamvr\main\src\thirdparty\renderpipelineshaders\src\runtime/common/phases/rps_access_dag_build.hpp
+C:\workspace\vr\steamvr\main\src\thirdparty\renderpipelineshaders\src\runtime/common/phases/rps_dag_build.hpp
+C:\workspace\vr\steamvr\main\src\thirdparty\renderpipelineshaders\src\runtime/common/phases/rps_dag_schedule.hpp
+C:\workspace\vr\steamvr\main\src\thirdparty\renderpipelineshaders\src\runtime/common/phases/rps_memory_schedule.hpp
+C:\workspace\vr\steamvr\main\src\thirdparty\renderpipelineshaders\src\runtime/common/phases/rps_pre_process.hpp
+C:\workspace\vr\steamvr\main\src\thirdparty\renderpipelineshaders\src\runtime/common/rps_render_graph.hpp
+C:\workspace\vr\steamvr\main\src\thirdparty\renderpipelineshaders\src\runtime/common/rps_render_graph_signature.hpp
+C:\workspace\vr\steamvr\main\src\thirdparty\renderpipelineshaders\src\runtime/common/rps_runtime_device.hpp
+C:\workspace\vr\steamvr\main\src\thirdparty\renderpipelineshaders\src\runtime/common/rps_subprogram.hpp
+C:\workspace\vr\steamvr\main\src\thirdparty\renderpipelineshaders\src\runtime\common\rps_null_runtime_backend.cpp
+C:\workspace\vr\steamvr\main\src\thirdparty\renderpipelineshaders\src\runtime\common\rps_render_graph.cpp
+C:\workspace\vr\steamvr\main\src\thirdparty\renderpipelineshaders\src\runtime\common\rps_render_graph_builder.cpp
+C:\workspace\vr\steamvr\main\src\thirdparty\renderpipelineshaders\src\runtime\common\rps_rpsl_host.cpp
+C:\workspace\vr\steamvr\main\src\thirdparty\renderpipelineshaders\src\runtime\common\rps_runtime_backend.cpp
+C:\workspace\vr\steamvr\main\src\thirdparty\renderpipelineshaders\src\runtime\common\rps_subprogram.cpp
+C:\workspace\vr\steamvr\main\src\thirdparty\renderpipelineshaders\src\runtime\vk\rps_vk_built_in_nodes.cpp
+C:\workspace\vr\steamvr\main\src\thirdparty\renderpipelineshaders\src\runtime\vk\rps_vk_runtime_backend.cpp
+C:\workspace\vr\steamvr\main\src\thirdparty\renderpipelineshaders\src\runtime\vk\rps_vk_runtime_device.cpp
 CClientSwapchain::Import
 CClientSwapchain::ImportSampler
 CFailed to set thread %p priority: invalid priority %d\n
-CFrameHallucination::CreateDepthImage
-CFrameHallucination::CreateFramebuffer
-CFrameHallucination::CreateRenderPass
-CFrameHallucination::RegisterDestinationImage
-CFrameHallucination::SetFov
 CLIENT: I:%6dC:%6dS:%6dP:%6d[%d|%d]
 CMotionEstimation::CRenderPipeline::CreateFramebuffer
 CMotionEstimation::CRenderPipeline::CreateRenderPass
-CMotionEstimation::CopyOutput
 CMotionEstimation::CreateCachedResources
 CMotionEstimation::CreateSampler
 CMotionEstimation::CreateVisibleAreaMask
@@ -489,52 +447,22 @@ CMotionEstimation::InitVisibleAreaResources
 CMotionEstimation::SubmitAndWait
 CMotionEstimation::Update
 CMotionEstimation::Usage
-CMotionEstimator_LiquidVR::CopyOutput
-CMotionEstimator_LiquidVR::CreateImages
-CMotionEstimator_LiquidVR::CreateMotionEstimator
-CMotionEstimator_LiquidVR::VkInit
-CMotionEstimator_NvEncode::CNvEncoder::CheckCaps
-CMotionEstimator_NvEncode::CNvEncoder::InitCuda
-CMotionEstimator_NvEncode::CNvEncoder::LoadLibraryA
-CMotionEstimator_NvEncode::CNvEncoder::LoadPreset
-CMotionEstimator_NvEncode::CNvEncoder::MapResource
-CMotionEstimator_NvEncode::CNvEncoder::OpenEncodeSession
-CMotionEstimator_NvEncode::CNvEncoder::RegisterResource
-CMotionEstimator_NvEncode::VkInit
 CMotionSmoothing::CreateCommandBatchPools
-CMotionSmoothing::HallucinateFrame
 CMotionSmoothing::Initialize
-CMotionSmoothing::PrepareInput
-CMotionSmoothing::UploadMotionVectors
+CPrism::BSetDisplayMode
 CPrism::CPrism
-CPrism::CompositeLayers
-CPrism::CopyLayers
 CPrism::CreateBlankImage
 CPrism::CreateCommandBatchPools
 CPrism::CreateCommandPools
 CPrism::CreateDefaultSampler
 CPrism::CreateNullClientUniformBuffer
-CPrism::CreateRenderPass
-CPrism::CreateSwapChainFramebuffers
 CPrism::FindSwapchainImage
 CPrism::HmdActivated
 CPrism::ImportClientObjects
 CPrism::Initialize
 CPrism::RunFrame
 CPrism::Shutdown
-CPrism::UpdatePanelMask
 CPrismClient::Import
-CPrismDisplay_Vulkan::CPrismDisplay_Vulkan
-CPrismDisplay_Vulkan::CreateVulkanSwapchain
-CPrismDisplay_Vulkan::Factory::ChoosePhysicalDevice
-CPrismDisplay_Vulkan::Factory::VulkanDisplay_t::VulkanDisplay_t
-CPrismDisplay_Vulkan::GetDisplayModes
-CPrismDisplay_Vulkan::GetImages
-CPrismDisplay_Vulkan::SetDisplayMode
-CPrismDisplay_Vulkan::WaitForPresent
-CPrismDisplay_Vulkan::~CPrismDisplay_Vulkan
-CPrismPanelMask::CreateRenderPass
-CPrismPanelMask::Initialize
 CSharedResourceNamespaceClient::Init(): failed connect\n
 CSharedResourceNamespaceClient::Init(): failed to get server response\n
 CSharedResourceNamespaceClient::Init(): failed to retreive payload\n
@@ -546,6 +474,7 @@ CSharedResourceNamespaceClient::Init(): still waiting for vrserver to reply with
 CSharedResourceNamespaceClient::Init(): timed out contacting vrserver for a namespace\n
 CSharedResourceNamespaceClient::Init(): timed out waiting for server reply\n
 CSharedResourceNamespaceClient::InitIfNeeded
+CUBEMAP_COMPATIBLE
 CVkAllocator::AllocateMemory
 CVkAllocator::AllocateMemoryFromType
 CVkAllocator::CreateBuffer
@@ -562,48 +491,42 @@ CVkCommandBuffer::Reset
 CVkCommandBuffer::ValidateReferencedResources
 CVkCommandBufferPool::CreateResource
 CVkCommandBufferPool::Initialize
-CVkCuda::CreateContext
-CVkCuda::CreateImage
-CVkCuda::FindDevice
-CVkCuda::LoadLibrary
-CVkCuda::LoadLibrary::Load_t::Proc
 CVkDescriptorArrayBase::AllocateSets
 CVkDescriptorBindings::CVkDescriptorBindings
-CVkDescriptorBindings::WriteDescriptorSet
 CVkDevice::ChoosePhysicalDevice
+CVkDevice::CreateDevice
 CVkDevice::CreateInstance
+CVkDevice::FindBestPhysicalDevice
 CVkDevice::Init - failed to get extension count
 CVkDevice::Init - no instance extensions supported
-CVkDevice::Initialize
-CVkDevice::LoadAvailableLayers
-CVkDevice::LoadInstanceExtensions
 CVkDevice::SetDebugName
 CVkDevice::UseDevice
 CVkDevice::UsePhysicalDevice
+CVkDeviceBuilder::AddQueue
+CVkDeviceBuilder::EnableFacetExtensions
+CVkDeviceBuilder::LoadDeviceExtensions
 CVkGarbageCollector: %s
 CVkGarbageCollector::WaitForWork
 CVkImage::CmdPipelineBarrier
 CVkImageHistory::DumpHistory
 CVkImageHistory::Initialize
+CVkInstanceBuilder::EnableInstanceExtensions
+CVkInstanceBuilder::LoadAvailableLayers
+CVkInstanceBuilder::LoadInstanceExtensions
 CVkMappedMemoryView<short>::Remap
 CVkMappedMemoryView<struct ClientLayers_t>::Remap
 CVkMappedMemoryView<struct OutLayerState_t>::Remap
-CVkMappedMemoryView<struct OutLayers_t>::Remap
-CVkMappedMemoryView<struct `anonymous namespace'::CopyUniformBufferObject_t>::Remap
-CVkMappedMemoryView<struct `anonymous namespace'::MainUniformBufferObject_t>::Remap
 CVkMappedMemoryView<struct `anonymous namespace'::Vertex_t>::Remap
 CVkMappedMemoryView<struct facet::VisibleAreaMeshVertex_t>::Remap
 CVkMappedMemoryView<unsigned char>::Remap
 CVkMappedMemoryView<unsigned int>::Remap
 CVkMemory::Map
 CVkQueue::Initialize
-CVkQueue::Present
 CVkQueue::Submit
 CVkResourceBase::MarkInUse
 CVkResourcePool<class CVkCommandBuffer>::BorrowResource
 CVkShaderPipeline::AddComputeStage
 CVkShaderPipeline::AddStage
-CVkShaderPipeline::CmdBindAndDispatch
 CVkShaderPipeline::CmdBindAndDraw
 CVkShaderPipeline::CmdBindAndDrawIndexed
 CVkShaderPipeline::CmdBindPipeline
@@ -618,44 +541,54 @@ CVkTimeline::InitializeFromIPC
 CVkTimeline::Signal
 CVkTimeline::WaitMultiple
 CalculateMotion
+CalculateResourceAliasing(context)
+CalculateResourcePlacement(currHeapMemType, allocatedIndices, iRes, bUseAliasing)
+CalculateResourcePlacement(currHeapMemType, allocatedIndices, pendingIdx, bUseAliasing)
+CalculateResourcePlacements(context)
+CalculateResourcePlacementsForMemoryType( currHeapMemType, sortedResourceIndices.crange_all(), iIndex, bUseAliasing)
 Client (%s) app container state: %d
 Client Swapchain: %d
 ClientLayers-%d
 ClientTimeline-%d
+CloneReferenceList(prevSubResState.access.accessorNodes, newAccessState.access.accessorNodes)
+CloneTransition( graph, prevSubResState.access.lastTransition, newTransition)
 CloseHandle
-CloseServiceHandle
 Closing pipe %s because it was broken from the other end\n
-CoCreateFreeThreadedMarshaler
-CoIncrementMTAUsage
-CoTaskMemAlloc
-CoTaskMemFree
-Compairing timestamps across different devices!
-Comparing timestamps across different hw queues!
-CompositeLayers
+CollectResourceAllAccesses(context)
 CompositionState
 CompositionStateMutex
 Compute Timeline
+ComputeShader
 Connected to RenderDoc.
 ConvertStringSidToSidA
-CopyLayers
 CopySid
-Cost reduction pass
-CreateDXGIFactory1
-CreateDXGIFactory2
+CreateBufferView(m_device, hBuffer, resource, access, hBufView)
+CreateBufferViews(context, bufViews.range_all())
+CreateCommandResources(context)
 CreateEventA
 CreateEventW
 CreateFileA
 CreateFileMappingA
+CreateHeaps(context, m_renderGraph.GetHeapInfos().range_all())
+CreateImageView(m_device, hImage, resource, access, hImgView)
+CreateImageViews(context, imgViews.range_all())
 CreateMutexA
+CreateRenderPasses(context, renderPassCmdIndices.range_all())
+CreateResources(context, internalResources)
 CreateWellKnownSid
-D3D11CreateDevice
-D3DKMTEnumAdapters2
-D3DKMTQueryAdapterInfo
+D16_UNORM
+D24_UNORM_S8_UINT
+D32_FLOAT
+D32_FLOAT_S8X24_UINT
+DEVICE_COHERENT_BIT_AMD
+DEVICE_LOCAL_BIT
+DEVICE_UNCACHED_BIT_AMD
 DebugMessengerCallback
 DeleteCriticalSection
+DepthStencil
 DeviceGC
 DisableThreadLibraryCalls
-Downsample Scene Image
+DomainShader
 Downsample Vertex Buffer-%s
 DumpHistory
 DumpHistory-Staging
@@ -663,7 +596,6 @@ Dumping display history...
 DuplicateHandle
 Encountered error 
 EnterCriticalSection
-Enumerated %zu vulkan displays\n
 Error! EventWriteString Severe: %s\n
 EventRegister
 EventUnregister
@@ -678,7 +610,6 @@ Failed Watchdog timeout in thread %s after %f seconds. Skipping abort because we
 Failed Watchdog timeout in thread %s after %f seconds. Skipping assert because we're in the debugger.\n
 Failed Watchdog timeout in thread %s after %f seconds. Terminating.\n
 Failed Watchdog timeout in thread %s after %f seconds\n
-Failed to compute distortion parameters!\n
 Failed to connect to pipe %s because %s... retrying
 Failed to connect to pipe %s because %s\n
 Failed to import client event handle from pipe %s after connecting\n
@@ -690,42 +621,38 @@ Format string parse failure
 FormatMessageA
 Frame Hallucination Descriptor Allocator
 Frame Hallucination Pipeline
-Frame Hallucination Pipeline Variant %d
 FrameHallucination-Frag
 FrameHallucination-Vert
 FreeLibrary
+G8R8_G8B8_UNORM
 GLSL.std.450
+GatherNodeRenderPassInfo(allocator, nodeDecl, renderTargetsInfoOffset, &pRpInfo)
+GeometryShader
 GetCurrentProcess
 GetCurrentProcessId
 GetCurrentThread
 GetCurrentThreadId
 GetEnvironmentVariableA
 GetEnvironmentVariableAsBool(%s): Unable to parse value '%s', using default %d\n
-GetFileAttributesW
-GetFileVersionInfoSizeW
-GetFileVersionInfoW
-GetFullPathNameW
 GetLastError
 GetLengthSid
-GetModuleFileNameA
-GetModuleFileNameW
 GetModuleHandleA
 GetModuleHandleW
 GetProcAddress
-GetRestrictedErrorInfo
-GetSystemDirectoryW
+GetResourceAllocInfo(resInst, allocInfo)
 GetSystemTimeAsFileTime
 GetTickCount64
 GetTokenInformation
 GetTokenInformation failed. GetLastError returned: %d\n
 Graphics Timeline
-HMD Image %d
-HMD using present mode: %d
-HTC Corporation VIVE
+HOST_CACHED_BIT
+HOST_COHERENT_BIT
+HOST_VISIBLE_BIT
 HallucinateFrame
-Hallucinated-%s%d
 History Timeline
 History-Buffer-%d
+HullShader
+IA44
 IPC::CIPCHandle::InitForExport
 IPC::TSharedHandleBase<void *,0>::Close
 IPCPipe(%s) failed to read payload of %u bytes
@@ -735,35 +662,35 @@ IPCPipe(%s): Sending simple message type %u, seq %u\n
 IPCPipe(%s): Wrote %u bytes instead of %u bytes in SendMessageInternal\n
 IPCPipe(%s): Wrote %u bytes of total message length\n
 ImportClients
+InitBlockInfo(blockId, resourceCounts, localLoopIndex, numChildren)
+InitCmdAccessInfo(context.pUpdateInfo->frameIndex, pCurrCmdAccesses[paramDecl.accessOffset + iElement], iParam, paramDecl, *pView, resInstancesRef)
+InitCmdAccessInfos(context)
+InitNodeDecl(m_allocator, nodeDesc, nodeDecl, sortedSemantics)
+InitNodeDeclInfos(signatureDesc)
+InitNodeImplForContext(m_defaultNodeImpl, contextSize)
+InitNodeImplForContext(nodeImpl, contextSize)
+InitParamResources(context)
+InitParams(signatureDesc)
+InitResourceInstances(context)
+InitResourceStates()
+InitTemporalSlices(context, resInstances, iRes)
 InitializeAcl
 InitializeConditionVariable
-InitializeCriticalSection
 InitializeCriticalSectionAndSpinCount
 InitializeSListHead
 InitializeSecurityDescriptor
 Initializing display history...
 Input
-InterlockedPushEntrySList
 Invalid bindings
 IsDebuggerPresent
 IsProcessorFeaturePresent
 IsValidSid
 KERNEL32.dll
 LAYER:%2d[%d|%d|%d] [%d|%d|%d]
+LAZILY_ALLOCATED_BIT
 LeaveCriticalSection
 Left Eye
-LiquidVR
-LiquidVR: Failed to close display! Error=%d
-LiquidVR: Failed to create fence!
-LiquidVR: Failed to create presentable surface!
-LiquidVR: Failed to get present resource! Err=%d
-LiquidVR: Present resource is not a Vulkan image!
-LiquidVR: Present resource is null!
-LiquidVR: Unexpected EDID size: %d
 LoadLibraryA
-LoadLibraryExA
-LoadLibraryExW
-LoadLibraryW
 LocalAlloc
 LocalFree
 ME%d-Downsampled-%s
@@ -786,9 +713,9 @@ ME-Reprojector-Mask
 ME-VisibleAreaMask-%s
 ME-VisibleAreaMask-Graphics Command Pool
 ME-VisibleAreaMask-Timeline
+MEMORY_PROPERTY_
 MSVCP140.dll
 MV-Attenuation
-MV-Attenuation-%s
 MV-CostReduce
 MV-Input-%s-Buffer
 MV-MeanMaxBlur
@@ -797,62 +724,39 @@ MV-PingPong%d-%s
 MV-PreviousInput-%s
 MainThrd
 MapViewOfFile
-Mask Input Image
+MeshShader
 Minidump comment truncated
-Missing cached timing info (please update prismdisplay_nvapi.cpp with the following):\n\t{ 0x%x, 0x%x, %d, %d, {\n\t\t%d,\t// HVisible\n\t\t%d,\t// HBorder\n\t\t%d,\t// HFrontPorch\n\t\t%d,\t// HSyncWidth\n\t\t%d,\t// HTotal\n\t\t%d,\t// HSyncPol\n\t\t%d,\t// VVisible\n\t\t%d,\t// VBorder\n\t\t%d,\t// VFrontPorch\n\t\t%d,\t// VSyncWidth\n\t\t%d,\t// VTotal\n\t\t%d,\t// VSyncPol\n\t\t%d,\t// interlaced\n\t\t%d,\t// pclk\n\t\t{\t// etc\n\t\t\t0x%x,\t// flag\n\t\t\t%d,\t\t// rr\n\t\t\t%d,\t\t// rrx1k\n\t\t\t%d,\t\t// aspect\n\t\t\t%d,\t\t// rep\n\t\t\t%d,\t\t// status\n\t\t\t{ 0 }\t\t// name\n\t\t} } },\n
 Motion Vector Attenuation Pipeline
 Motion Vector CostReduce Pipeline
 Motion Vector MeanMaxBlur Pipeline
 Motion Vector Median5x5 Pipeline
 Motion Vector Threshold Pipeline
-MultiByteToWideChar
+NONE
 NULL
+NV11
+NV12
 Null
 Null Client
-NvAPI
-NvAPI: Failed to acquire direct mode display! Error='%s'
-NvAPI: Failed to create direct mode surface! Error='%s'
-NvAPI: Failed to destroy direct mode surface! Error='%s'
-NvAPI: Failed to get current direct display mode for verification! Error='%s'
-NvAPI: Failed to get direct mode display mode count! Error='%s'
-NvAPI: Failed to get direct mode display modes! Error='%s'
-NvAPI: Failed to get display timing! Error='%s'
-NvAPI: Failed to get present wait object! Error='%s'
-NvAPI: Failed to register for hdcp link failed event!
-NvAPI: Failed to register for hotplug event!
-NvAPI: Failed to release direct mode display! Error='%s'
-NvAPI: Failed to set direct display mode! Error='%s'
-NvAPI: Failed to set direct display mode! Error='Refresh mis-match' Desired=%f Current=%f
-NvAPI: HDCP DEVICE REVOKED
-NvAPI: HDCP ERROR UNKNOWN
-NvAPI: HDCP LINK LOST
-NvAPI: HDCP TAMPERED
-NvAPI: HOTPLUG=%d
-NvAPI: Hardware not ready, trying again...
-NvAPI: Mismatched EDID vendor id! %x vs %x\n
-NvAPI: No reported display modes!
-NvAPI: Reported no display modes, trying again...
-NvAPI: Too many reported modes! Count=%d
-NvEncode
-NvEncode %s-%s
-NvEncodeAPICreateInstance
-NvEncodeAPIGetMaxSupportedVersion
-OLEAUT32.dll
 OpenEventA
 OpenFileMappingA
 OpenMutexA
 OpenProcess
 OpenProcessToken
 OpenProcessToken failed. GetLastError returned: %d\n
-OpenSCManagerW
-OpenServiceW
 Out of thread local storage!\n
-Outer
+P010
+P016
+PERSISTENT
+PREFER_DEDICATED_ALLOCATION
+PREFER_GPU_LOCAL_CPU_VISIBLE
 PRISM_AcquireDisplay
+PRISM_ActivateRenderGraph
 PRISM_ClientDisconnected
 PRISM_CreateDisplayFactory
+PRISM_CreateGraphNode
 PRISM_CreateInstance
 PRISM_CreateMotionEstimator
+PRISM_CreateRenderGraph
 PRISM_DestroyDisplayFactory
 PRISM_DestroyInstance
 PRISM_DestroyMotionEstimator
@@ -860,14 +764,21 @@ PRISM_DumpHistory
 PRISM_GetConnectedDisplays
 PRISM_GetDisplayModes
 PRISM_GetDisplaySubsystems
+PRISM_GetGraphicsHost
 PRISM_GetMotionEstimatorSubsystems
+PRISM_GetPluginModuleHandle
 PRISM_GetPoseProvider
+PRISM_GetRenderGraphSubsystems
 PRISM_HmdActivated
 PRISM_Initialize
+PRISM_LoadPluginInterfaceOnce
 PRISM_RegisterDisplaySubsystem
+PRISM_RegisterGraphNode
 PRISM_RegisterLogCallback
 PRISM_RegisterMotionEstimatorSubsystem
+PRISM_RegisterPluginProvider
 PRISM_RegisterPoseProviderSubsystem
+PRISM_RegisterRenderGraph
 PRISM_ReleaseDisplay
 PRISM_Run
 PRISM_RunFrame
@@ -875,96 +786,189 @@ PRISM_SetDisplayMode
 PRISM_SetFrameInfoCallback
 PRISM_Shutdown
 PRISM_Stop
-Panel Mask Index Buffer-%s%s
-Panel Mask Render Pipeline-B
-Panel Mask Render Pipeline-G
-Panel Mask Render Pipeline-R
-Panel Mask Render Pipeline-RGB
-Panel Mask Vertex Buffer-%s%s
-PanelMask-%s
-PanelMask-Frag
-PanelMask-Staging
-PanelMask-Vert
+PROTECTED_BIT
 PeekNamedPipe
+PixelShader
 PoolGC
 PrepareInput
 Present
 Prism
 Prism Allocator
 Prism Clients
-Prism Copy Pipeline
-Prism Copy UBO
 Prism Device
-Prism Layers (%s)
 Prism Layout Cache
-Prism Main Pipeline
-Prism UBO (%s)
-Prism-CompositeLayers
 Prism-ComputeCommandPool
-Prism-Copy
-Prism-CopyLayers
-Prism-FilterMotionVectors
 Prism-GraphicsCommandPool
-Prism-HallucinateFrame
 Prism-ImportClients
 Prism-InitLayouts
-Prism-Main
-Prism-PrepareInput
-Prism-UpdatePanelMask
+Prism-RPS-
+PrismQueryPool
+Prism_Compute
+Prism_Graphics
+Prism_RPS: %s
+ProcessTransition(graph, nodeId, resState.access, currAccess.access, currAccess.resourceId, currAccess.range)
 QueryPerformanceCounter
 QueryPerformanceFrequency
-QueryServiceConfigW
+R10G10B10A2_TYPELESS
+R10G10B10A2_UINT
+R10G10B10A2_UNORM
+R10G10B10_XR_BIAS_A2_UNORM
+R11G11B10_FLOAT
+R16G16B16A16_FLOAT
+R16G16B16A16_SINT
+R16G16B16A16_SNORM
+R16G16B16A16_TYPELESS
+R16G16B16A16_UINT
+R16G16B16A16_UNORM
+R16G16_FLOAT
+R16G16_SINT
+R16G16_SNORM
+R16G16_TYPELESS
+R16G16_UINT
+R16G16_UNORM
+R16_FLOAT
+R16_SINT
+R16_SNORM
+R16_TYPELESS
+R16_UINT
+R16_UNORM
+R1_UNORM
+R24G8_TYPELESS
+R24_UNORM_X8_TYPELESS
+R32G32B32A32_FLOAT
+R32G32B32A32_SINT
+R32G32B32A32_TYPELESS
+R32G32B32A32_UINT
+R32G32B32_FLOAT
+R32G32B32_SINT
+R32G32B32_TYPELESS
+R32G32B32_UINT
+R32G32_FLOAT
+R32G32_SINT
+R32G32_TYPELESS
+R32G32_UINT
+R32G8X24_TYPELESS
+R32_FLOAT
+R32_FLOAT_X8X24_TYPELESS
+R32_SINT
+R32_TYPELESS
+R32_UINT
+R8G8B8A8_SINT
+R8G8B8A8_SNORM
+R8G8B8A8_TYPELESS
+R8G8B8A8_UINT
+R8G8B8A8_UNORM
+R8G8B8A8_UNORM_SRGB
+R8G8_B8G8_UNORM
+R8G8_SINT
+R8G8_SNORM
+R8G8_TYPELESS
+R8G8_UINT
+R8G8_UNORM
+R8_SINT
+R8_SNORM
+R8_TYPELESS
+R8_UINT
+R8_UNORM
+R9G9B9E5_SHAREDEXP
+RDMA_CAPABLE_BIT_NV
 RENDERDOC_GetAPI
+ROWMAJOR_IMAGE
 RPCRT4.dll
+RPS_ERROR_COMMAND_ALREADY_FINAL
+RPS_ERROR_FILE_NOT_FOUND
+RPS_ERROR_INDEX_OUT_OF_BOUNDS
+RPS_ERROR_INTEGER_OVERFLOW
+RPS_ERROR_INTERNAL_ERROR
+RPS_ERROR_INTEROP_DATA_LAYOUT_MISMATCH
+RPS_ERROR_INVALID_ARGUMENTS
+RPS_ERROR_INVALID_DATA
+RPS_ERROR_INVALID_FILE_FORMAT
+RPS_ERROR_INVALID_OPERATION
+RPS_ERROR_INVALID_PROGRAM
+RPS_ERROR_KEY_DUPLICATED
+RPS_ERROR_KEY_NOT_FOUND
+RPS_ERROR_NOT_IMPLEMENTED
+RPS_ERROR_NOT_SUPPORTED
+RPS_ERROR_OUT_OF_MEMORY
+RPS_ERROR_RANGE_OVERLAPPING
+RPS_ERROR_RUNTIME_API_ERROR
+RPS_ERROR_TYPE_MISMATCH
+RPS_ERROR_UNKNOWN_NODE
+RPS_ERROR_UNRECOGNIZED_COMMAND
+RPS_ERROR_UNSPECIFIED
+RPS_ERROR_UNSUPPORTED_MODULE_VERSION
+RPS_ERROR_UNSUPPORTED_VERSION_TOO_NEW
+RPS_ERROR_UNSUPPORTED_VERSION_TOO_OLD
+RPS_ERROR_VALIDATION_FAILED
+RPS_FAILED(m_status)
+RPS_OK
 RSDS
 RaiseException
+RasterizerState
+RaytracingPipeline
 ReadFile
 ReadFile failed on %s after event was signaled because %s\n
 ReadFile failed on %s read %u bytes when only %u bytes were available in the buffer\n
+RecordCmdBegin(context)
+RecordCmdEnd(context)
+RecordCmdFixedFunctionBindingsAndDynamicStates(context)
+RecordCmdRenderPassBegin(context)
+RecordCmdRenderPassEnd(context)
+RecordCommand(cmdCbCtx, runtimeCmd)
 Recording stopped.
 Reference
 RegCloseKey
-RegEnumValueW
 RegOpenKeyA
-RegOpenKeyExW
 RegQueryValueExA
-RegQueryValueExW
 ReleaseMutex
+RenderGraph::AddPhase:
+RenderGraphSignature::Create(m_arena, pSignatureDesc, &pSignature)
+RenderTargetBlend
 RenderThread
 Reproject Index Buffer-%s
-Reproject Reference Image
 Reproject Vertex Buffer-%s
 ResetEvent
 Right Eye
-RoGetActivationFactory
-RoInitialize
-RoOriginateLanguageException
+RpslHostCallEntry(pCurrProgram->GetEntry()->pfnEntry, execInfo.numArgs, execInfo.ppArgs)
 RtlCaptureContext
 RtlLookupFunctionEntry
 RtlVirtualUnwind
 S-1-15-2-2765576060-2389096713-3079022642-4099546867-1445191215-3071396046-3987166893
 S-1-15-3-1024-2302894289-466761758-1166120688-1039016420-2430351297-4240214049-4028510897-3317428798
 S-1-15-3-1024-3424233489-972189580-2057154623-747635277-1604371224-316187997-3786583170-1043257646
-SHGetFolderPathW
-SPV_NV_compute_shader_derivatives
 STEAMVR_DISABLE_CRASH_REPORTING
 STEAMVR_DISABLE_THREAD_WATCHDOGS
 STEAMVR_ENABLE_THREAD_WATCHDOGS
+SV_BlendFactor
+SV_ClearColor
+SV_ClearDepth
+SV_ClearStencil
+SV_DepthBounds
+SV_DepthStencil
+SV_IndexBuffer
+SV_IndirectArgs
+SV_IndirectCount
+SV_PatchControlPoints
+SV_PrimitiveStripCutIndex
+SV_PrimitiveTopology
+SV_ResolveTarget
+SV_SampleLocation
+SV_ScissorRect
+SV_ShadingRate
+SV_ShadingRateImage
+SV_StencilRef
+SV_StreamOutBuffer
+SV_Target
+SV_VertexBuffer
+SV_Viewport
+Semantic index range overlap
 Set thread %p priority to: %d\n
 SetEvent
-SetLastError
 SetNamedPipeHandleState
-SetRestrictedErrorInfo
 SetSecurityDescriptorDacl
 SetThreadPriority
 SetUnhandledExceptionFilter
-SetupDiDestroyDeviceInfoList
-SetupDiEnumDeviceInfo
-SetupDiGetClassDevsW
-SetupDiGetDeviceInterfaceDetailW
-SetupDiGetDevicePropertyW
-SetupDiGetDeviceRegistryPropertyW
-SetupGetInfDriverStoreLocationW
 Signal nClientId=%d nMaxWaitFrameIndex=%llu
 Skipping CalculateMotion (%llu)
 Skipping CalculateMotion (swapchain mismatch)
@@ -974,6 +978,9 @@ Software\Valve\Steam\ActiveProcess
 Somebody beat us to creating event %s to go with pipe %s in WaitForConnection\n
 Somebody else should have created event %s to go with pipe %s in WaitForConnection\n
 Somebody locked a non-leaf shared memory %s while %s was already locked
+StreamOutDesc
+StreamOutLayout
+Subprogram::Create(m_device, &createInfo.mainEntryCreateInfo, &m_pMainEntry)
 Swapchain
 TdhEnumerateManifestProviderEvents
 TerminateProcess
@@ -983,6 +990,7 @@ ThreadWatchdog
 TimestampQueryPool-%s
 TlsAlloc
 TlsFree
+UNKNOWN
 Unable to SetNamedPipeHandleState on pipe %s after connecting because %s\n
 Unable to create event %s to go with pipe %s in WaitForConnection\n
 Unable to create shared memory %s for IPC client\n
@@ -997,25 +1005,26 @@ Unexpected failure when checking for timeline signal
 UnhandledExceptionFilter
 Unknown exception
 UnmapViewOfFile
-Update attenuation texture
-UpdatePanelMask
-Upload raw motion vectors
+UpdateFrame(context)
+UpdateResourceFinalAccessStates(context, internalResources)
 UploadMotionVectors
 Using physical device: %s
 UuidFromStringA
 VCRUNTIME140.dll
-VERSION.dll
 VK_EXT_debug_utils
 VK_EXT_direct_mode_display
+VK_EXT_extended_dynamic_state3
 VK_EXT_global_priority
 VK_EXT_queue_family_foreign
 VK_EXT_validation_features
 VK_KHR_display
+VK_KHR_dynamic_rendering
 VK_KHR_external_memory_win32
 VK_KHR_external_semaphore_win32
 VK_KHR_present_id
 VK_KHR_surface
 VK_KHR_swapchain
+VK_KHR_timeline_semaphore
 VK_KHR_win32_keyed_mutex
 VK_LAYER_KHRONOS_validation
 VK_NV_compute_shader_derivatives
@@ -1023,12 +1032,17 @@ VR_CONFIG_PATH
 VR_LOG_PATH
 VR_OVERRIDE
 VSYNC:  %8d<%07.4f %0.4f
-Valve Corporation
-VerQueryValueA
-VerSetConditionMask
-VerifyVersionInfoW
+VertexLayout
+VertexShader
 VirtualQuery
-Vulkan
+VkObjectTypeMapper<ResHandleType>::typeId != paramAccessInfo.typeInfo.id
+VkResultToRps( RPS_VK_API_CALL(vkBindBufferMemory(hVkDevice, rpsVKBufferFromHandle(resInfo.hRuntimeResource), pMemory, resInfo.allocPlacement.offset)))
+VkResultToRps( RPS_VK_API_CALL(vkBindImageMemory(hVkDevice, rpsVKImageFromHandle(resInfo.hRuntimeResource), pMemory, resInfo.allocPlacement.offset)))
+VkResultToRps(RPS_VK_API_CALL(vkAllocateMemory(hVkDevice, &memAllocInfo, nullptr, &hMemory)))
+VkResultToRps(RPS_VK_API_CALL(vkCreateBuffer(m_device, &bufCI, nullptr, &hBuffer)))
+VkResultToRps(RPS_VK_API_CALL(vkCreateFramebuffer(hVkDevice, &fbInfo, nullptr, pVkFB)))
+VkResultToRps(RPS_VK_API_CALL(vkCreateImage(m_device, &imgCI, nullptr, &hImage)))
+VkResultToRps(RPS_VK_API_CALL(vkCreateRenderPass(hVkDevice, &rpInfo, nullptr, pVkRP)))
 WINMM.dll
 Wait=%llu
 WaitForSingleObject
@@ -1039,14 +1053,17 @@ WaitNamedPipeA
 WakeAllConditionVariable
 Warning: Watchdog %s not properly cleaned up%s%s\n
 Warning: unexpected vulkan major version
-WindowsCreateString
-WindowsCreateStringReference
-WindowsDeleteString
-WindowsDisplayCore
-WindowsPreallocateStringBuffer
-WindowsPromoteStringBuffer
 WriteFile
-YUV conversion - %s
+X24_TYPELESS_G8_UINT
+X32_TYPELESS_G8X24_UINT
+Y210
+Y216
+Y410
+Y416
+YUY2
+[CGraphNodeHandleMap] Failed to initialize render graph node: %i
+[CPrismPluginProviderMap] Failed to initialize prism plugin provider: %s
+[CPrism] Failed to load rps dynamic lib: %i
 [IPC] AddAccessAllowedAce failed for administrator. GetLastError returned: %d\n
 [IPC] AddAccessAllowedAce failed for chrome 1. GetLastError returned: %d\n
 [IPC] AddAccessAllowedAce failed for steam. GetLastError returned: %d\n
@@ -1075,7 +1092,33 @@ YUV conversion - %s
 [IPC] SharedMem access invalid: %x\n
 [IPC] The owner SID is invalid.\n
 [IPC] Warning, existing file mapping for %s (%d) is too small (%d)\n
-\mfpmp.exe
+[Prism] %s: device does not support shader storage write without format
+[Prism] Failed to bind node %s (%i)
+[Prism] Failed to create render graph semaphore: %i
+[Prism] Failed to get render graph batch layout: %i
+[Prism] Failed to record render graph commands: %i
+[Prism] Failed to setup RPS graph: %i
+[Prism] Failed to setup RPS runtime device: %i
+[Prism] Failed to submit batch!
+[Prism] Failed to update render graph: %i
+[Prism] Initializing shared state...
+[Prism] Registered render graph node: %s
+\n    %4d : 
+\n    Signal : %u
+\n    Wait : [ 
+\n    accesses : 
+\n    lifetime : [%u - %u]
+\n  %u : [%u]
+\n  Batch %u Queue %u:
+\nCommands:
+\nResource Declarations:
+\nSchedule:
+\nScheduled resources:
+\n[RPS_DIAG_ERROR] : '%s' :\n          'Expect the last runtime command to have id (%u) = CMD_ID_POSTAMBLE.', @%s line %d.\n
+\n[RPS_DIAG_ERROR] : '%s' @%s line %d.\n
+\n[RPS_DIAG_ERROR] : '%s' Result = %s(%d) @%s line %d.\n
+\n[RPS_DIAG_WARNING] : '%s' Capacity reservation (%zu) needs to be increased. @%s line %d.\n
+\ndigraph G {\n
 _Cnd_broadcast
 _Cnd_destroy
 _Cnd_destroy_in_situ
@@ -1101,7 +1144,9 @@ _Xtime_get_ticks
 __C_specific_handler
 __CxxFrameHandler3
 __RTDynamicCast
+___rps_dyn_lib_init
 __acrt_iob_func
+__intrinsic_setjmp
 __std_exception_copy
 __std_exception_destroy
 __std_terminate
@@ -1109,13 +1154,16 @@ __std_type_info_destroy_list
 __stdio_common_vfprintf
 __stdio_common_vsprintf
 __stdio_common_vsprintf_s
+_aligned_free
+_aligned_malloc
+_aligned_realloc
 _callnewh
 _cexit
 _configure_narrow_argv
 _crt_atexit
 _dtest
 _execute_onexit_table
-_fdtest
+_fdclass
 _initialize_narrow_environment
 _initialize_onexit_table
 _initterm
@@ -1124,171 +1172,199 @@ _invalid_parameter_noinfo_noreturn
 _purecall
 _register_onexit_function
 _seh_filter_dll
-_wcsicmp
-_wcsnicmp
 abort
 acosf
-api-ms-win-core-errorhandling-l1-1-0.dll
-api-ms-win-core-file-l1-1-0.dll
-api-ms-win-core-handle-l1-1-0.dll
-api-ms-win-core-heap-l2-1-0.dll
-api-ms-win-core-interlocked-l1-1-0.dll
-api-ms-win-core-kernel32-legacy-l1-1-1.dll
-api-ms-win-core-libraryloader-l1-2-0.dll
-api-ms-win-core-libraryloader-l1-2-1.dll
-api-ms-win-core-processthreads-l1-1-0.dll
-api-ms-win-core-profile-l1-1-0.dll
-api-ms-win-core-synch-l1-1-0.dll
-api-ms-win-core-synch-l1-2-0.dll
-api-ms-win-core-sysinfo-l1-1-0.dll
-api-ms-win-core-sysinfo-l1-2-0.dll
-api-ms-win-core-winrt-error-l1-1-0.dll
-api-ms-win-core-winrt-error-l1-1-1.dll
-api-ms-win-core-winrt-l1-1-0.dll
-api-ms-win-core-winrt-string-l1-1-0.dll
+after
+aliasingSrcBitMask.Resize(uint32_t(resourceInstances.size()), false)
+allocInfo.memoryRequirements.alignment > UINT32_MAX
 api-ms-win-crt-convert-l1-1-0.dll
 api-ms-win-crt-heap-l1-1-0.dll
 api-ms-win-crt-math-l1-1-0.dll
 api-ms-win-crt-runtime-l1-1-0.dll
 api-ms-win-crt-stdio-l1-1-0.dll
 api-ms-win-crt-string-l1-1-0.dll
+appendParamRef(paramId, iElem)
+appendParamRef(paramId, iElement)
+appendParamRef(params.front(), 0)
+argIndex >= context.pNodeDeclInfo->params.size()
+argIndex >= pBackendContext->pNodeDeclInfo->params.size()
+asinf
 atanf
 atoi
 bad allocation
 bad array new length
 bad conversion
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\ipcwin32.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\logbuffer.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\sharedresourcenamespace.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\strtools_public.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\threadwatchdog.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\vripcsharedstate.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\include\facet\vkalloc.h
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\include\facet\vkcommand.h
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\include\facet\vkquery.h
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\include\facet\vkresource.h
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\include\facet\vkresourcepool.h
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\include\facet\vktimelinepoint.h
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\src\facetutils.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\src\meshutils.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\src\panelmask.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\src\vkalloc.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\src\vkcommand.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\src\vkcommand.cpp:308
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\src\vkcommandbatch.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\src\vkcuda.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\src\vkdescriptors.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\src\vkdevice.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\src\vkimagehistory.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\src\vkresource.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\src\vkshaderpipeline.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\src\vksync.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\facet\src\vkutils.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\prism\Retail\win64\2017\prism.pdb
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\prism\src\clientswapchain.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\prism\src\framehallucination.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\prism\src\motionestimation.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\prism\src\motionestimation.cpp:1090
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\prism\src\motionestimation.cpp:1113
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\prism\src\motionestimator_liquidvr.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\prism\src\motionestimator_nvencode.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\prism\src\motionsmoothing.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\prism\src\prism.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\prism\src\prism.cpp:1064
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\prism\src\prism.cpp:1191
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\prism\src\prism.cpp:1688
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\prism\src\prism_capi.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\prism\src\prismclient.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\prism\src\prismdisplay_liquidvr.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\prism\src\prismdisplay_nvapi.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\prism\src\prismdisplay_vulkan.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\prism\src\prismpanelmask.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\prism\src\prismposeprovider_null.cpp
+before
+blockId != pPrevBlock->blockId
+buffer
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\ipcwin32.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\logbuffer.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\sharedresourcenamespace.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\strtools_public.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\threadwatchdog.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\vripcsharedstate.cpp
+c:\buildslave\steamvr_rel_win64\build\src\facet\include\facet\vkalloc.h
+c:\buildslave\steamvr_rel_win64\build\src\facet\include\facet\vkresource.h
+c:\buildslave\steamvr_rel_win64\build\src\facet\include\facet\vkresourcepool.h
+c:\buildslave\steamvr_rel_win64\build\src\facet\include\facet\vktimelinepoint.h
+c:\buildslave\steamvr_rel_win64\build\src\facet\src\facetutils.cpp
+c:\buildslave\steamvr_rel_win64\build\src\facet\src\meshutils.cpp
+c:\buildslave\steamvr_rel_win64\build\src\facet\src\vkalloc.cpp
+c:\buildslave\steamvr_rel_win64\build\src\facet\src\vkcommand.cpp
+c:\buildslave\steamvr_rel_win64\build\src\facet\src\vkcommand.cpp:308
+c:\buildslave\steamvr_rel_win64\build\src\facet\src\vkcommandbatch.cpp
+c:\buildslave\steamvr_rel_win64\build\src\facet\src\vkdescriptors.cpp
+c:\buildslave\steamvr_rel_win64\build\src\facet\src\vkdevice.cpp
+c:\buildslave\steamvr_rel_win64\build\src\facet\src\vkimagehistory.cpp
+c:\buildslave\steamvr_rel_win64\build\src\facet\src\vkresource.cpp
+c:\buildslave\steamvr_rel_win64\build\src\facet\src\vkshaderpipeline.cpp
+c:\buildslave\steamvr_rel_win64\build\src\facet\src\vksync.cpp
+c:\buildslave\steamvr_rel_win64\build\src\prism\Retail\win64\2017\prism.pdb
+c:\buildslave\steamvr_rel_win64\build\src\prism\src\clientswapchain.cpp
+c:\buildslave\steamvr_rel_win64\build\src\prism\src\framehallucination.cpp
+c:\buildslave\steamvr_rel_win64\build\src\prism\src\motionestimation.cpp
+c:\buildslave\steamvr_rel_win64\build\src\prism\src\motionestimation.cpp:1090
+c:\buildslave\steamvr_rel_win64\build\src\prism\src\motionsmoothing.cpp
+c:\buildslave\steamvr_rel_win64\build\src\prism\src\prism.cpp
+c:\buildslave\steamvr_rel_win64\build\src\prism\src\prism.cpp:1268
+c:\buildslave\steamvr_rel_win64\build\src\prism\src\prism.cpp:807
+c:\buildslave\steamvr_rel_win64\build\src\prism\src\prism.cpp:934
+c:\buildslave\steamvr_rel_win64\build\src\prism\src\prism_capi.cpp
+c:\buildslave\steamvr_rel_win64\build\src\prism\src\prismclient.cpp
+c:\buildslave\steamvr_rel_win64\build\src\prism\src\prismposeprovider_null.cpp
+c:\workspace\vr\steamvr\main\src\thirdparty\renderpipelineshaders\src\core\rps_util.hpp
+c_builtInNodeNames[tableIdx].id != nodeDeclId
+ceilf
+clear
+clear_buffer
+clear_color
+clear_color_regions
+clear_depth_stencil
+clear_depth_stencil_regions
+clear_texture
+clear_texture_regions
 client
+cmdCbCtx.result
+cmdInfoResult.Result()
+cmdRpInfo.viewportInfo.numViewports > MAX_VIEWPORT_SCISSOR_COUNT
+color
 computeCommandSet.Valid()
-createInfo.pComputeDistortion
-cuCtxCreate
-cuCtxDestroy
-cuDestroyExternalMemory
-cuDestroyExternalSemaphore
-cuDeviceGet
-cuDeviceGetCount
-cuDeviceGetUuid
-cuExternalMemoryGetMappedMipmappedArray
-cuGetErrorString
-cuGetProcAddress
-cuImportExternalMemory
-cuImportExternalSemaphore
-cuInit
-cuMipmappedArrayDestroy
-cuMipmappedArrayGetLevel
-cuWaitExternalSemaphoresAsync
-d3d11.dll
+context.result
+copy_buffer
+copy_buffer_to_texture
+copy_dst
+copy_src
+copy_texture
+copy_texture_to_buffer
+cosf
+coshf
+cpu_read
+cpu_write
+createInfo.scheduleInfo.pQueueInfos
+currResources.bufferViews.resize(accessIndices.size())
+currResources.frameBuffers.resize(cmdIndices.size())
+currResources.imageViews.resize(accessIndices.size())
+currResources.renderPasses.resize(cmdIndices.size())
 data->IsInitialized()
 data.hIPC.IsValid()
+depth_read
+depth_write
 deque<T> too long
+discard_after
+discard_before
 drawInfo.pVertexBuffer != nullptr
-dxgi.dll
-fabsf( *pSecondsSinceVsync ) < 1000.0f
+elementSize == 0
+execInfo.numArgs == pSignature->GetParamDecls().size()
+execInfo.pProgram
+exp2f
 facet::CVkTimestampQueryPool<2>::Create
 facet::CVkTimestampQueryPool<2>::UpdateResults
 facet::CVkTimestampQueryPoolBase::Initialize
 facet::CVkTimestampQueryPoolBase::UpdateResults
 facet::GenerateVisibleAreaMesh
-failed to acquire next HMD image
 false
-flMotionVectorScale[ vr::Eye_Left ] == flMotionVectorScale[ vr::Eye_Right ]
+fitness == UINT64_MAX
 flWaitTime < 1.0
+flags.bRandomOrder ? (context.pUpdateInfo->pRandomNumberGenerator != nullptr) : true
+floorf
+flushPendingReallocIndices()
+fmaf
+fmaxf
+fminf
 fn != nullptr
-frameInfo.pImage != nullptr
-frameInfo.sampler != VK_NULL_HANDLE
 free
-from.pPool != nullptr
 graphicsCommandSet.Valid()
+hDevice != RPS_NULL_HANDLE
+hProgram
+hRenderGraph != RPS_NULL_HANDLE
+hRenderGraph == RPS_NULL_HANDLE
+hRpslEntry != RPS_NULL_HANDLE
+indirect_arg
 input.colorIndices.nSwapchainIndex != SwapchainIndices_t::k_nInvalidSwapchainIndex
+invalid
 invalid bitset<N> position
 invalid string position
-isalpha
 isdigit
 it != m_importedClients.end()
+lastCmdId != CMD_ID_POSTAMBLE
 lhs->m_pTimeline == rhs->m_pTimeline
 list<T> too long
+logf
+longjmp
 m_acquireMutexes.size() == m_acquireKeys.size()
 m_acquireMutexes.size() == m_acquireTimeouts.size()
-m_bSupportsPresentId
+m_blockStack.push_back(m_currentBlockInstanceId)
+m_builder.Begin()
+m_builder.End()
 m_config.pDisplay != nullptr
-m_displayMode.timing.pixelClockInKhz * 1000 <= UINT32_MAX
-m_displayMode.timing.pixelClockInKhz <= UINT32_MAX
+m_device.GetResourceAllocInfo(resInfo, allocInfo)
 m_displayModeTiming.flSecondsPerFrame > 0.0f
+m_edges.capacity() < edgeCapacity
+m_frameResources.insert(m_currentResourceFrame, FrameResources{})
+m_frameResources.size() > RPS_MAX_QUEUED_FRAMES
 m_mapTimelineToBuckets[ pKey ].empty()
-m_nFrameIndex != 0
 m_nFrameIndex > client.nPrismFrameStartIndex
 m_nMapCount == 0
 m_nMapCount > 0
 m_nMaxLogBufferingSize > 0
 m_nSizeInBytes != 0
+m_nodeRefLists.resize(dst.GetEnd())
+m_outputResourceIds.size() == maxNumOutResources
 m_pAllocator != nullptr
 m_pCommandBufferPool
 m_pCommandBufferPool != nullptr
 m_pCommandBufferPool->QueueFamilyIndex() == m_pQueue->FamilyIndex()
-m_pCuda != nullptr
+m_pCreatedDevice == VK_NULL_HANDLE
+m_pCreatedInstance == VK_NULL_HANDLE
 m_pData
 m_pDevice
 m_pDevice != nullptr
 m_pDevice == VK_NULL_HANDLE
+m_pGraphBuilder->DeclareResource(stableResId, pResDesc, {}, pOutResourceId)
+m_pInstance != VK_NULL_HANDLE
 m_pInstance == VK_NULL_HANDLE
 m_pLayoutCache != nullptr
+m_pPhysicalDevice != VK_NULL_HANDLE
 m_pPhysicalDevice == VK_NULL_HANDLE
 m_pPool != nullptr
 m_pPool->m_pActiveBatch == nullptr
 m_pPool->m_pActiveBatch == this
 m_pQueue != nullptr
+m_pRuntimeDevice->InitializeResourceAllocInfos(resInstances.range_all())
+m_pRuntimeDevice->InitializeSubresourceInfos( resInstances.range(pendingResStart, pendingResCount))
+m_pRuntimeDevice->InitializeSubresourceInfos( resInstances.range(temporalLayerOffset, numTemporalLayers))
+m_pRuntimeDevice->InitializeSubresourceInfos(resInstances.range(pendingResStart, pendingResCount))
+m_pSignature != nullptr
 m_pSwapchainImageProvider != nullptr
 m_pTimeline != nullptr
-m_perEye[ 0 ].pImage && m_perEye[ 1 ].pImage
+m_paramData.size() == paramDecls.size()
+m_paramData[i].data
 m_releaseMutexes.size() == m_releaseKeys.size()
 m_signalTimelines.size() == m_signalPoints.size()
 m_sortedClients.size() == m_importedClients.size()
+m_state != State::Building
+m_state == State::Building
+m_subResLayouts.grow(resInfo.numSubResources, VK_IMAGE_LAYOUT_UNDEFINED)
 m_waitSemaphores.size() == m_waitSemaphoreStages.size()
 m_waitTimelines.size() == m_waitPoints.size()
 m_waitTimelines.size() == m_waitStages.size()
@@ -1304,96 +1380,216 @@ nExistingSize >= nSize
 nFrameIndex >> ( 64 - k_TimelineEventShift ) == 0
 nImageIndex < ARRAY_SIZE( m_descriptorClientImages )
 nSizeInBytes <= m_unSizeInBytes
-nVsycId=%llu m_nLastVsyncId=%llu
-nVsyncPeriodInTicks > 0
-nvEncOpenEncodeSession != nullptr
-nvapi_QueryInterface
-nvapi_pepQueryInterface
-nvcuda.dll
-ole32.dll
+newNodeId == RPS_INDEX_NONE_U32
+newRangeOffset == RPS_INDEX_NONE_U32
+newTransNodeId == RPS_INDEX_NONE_U32
+no_view
+nodeDeclId < m_nodeImpls.size()
+nodeDeclId == RPS_INDEX_NONE_U32
+nodeImpl.pBuffer
+numElements > UINT32_MAX
 other.perEye[ vr::Eye_Left ].input.nClientFrameIndex == other.perEye[ vr::Eye_Right ].input.nClientFrameIndex
 pAllocator
 pAllocator != nullptr
+pBackendContext->result != RPS_OK
+pBatchLayout != nullptr
 pBindings != nullptr
 pBuffer != nullptr
-pClientLayersUniformBuffer
 pClientSwapchain
-pCmd != nullptr
 pCmdBuf
 pCmdBuf != nullptr
-pColor != nullptr
+pCmdInfo
 pCommandPool != nullptr
-pDepth != nullptr
-pDestination != nullptr
+pContext
+pContext && pResources
+pContext && ppResources
+pCreateInfo
+pCreateInfo->hVkDevice != VK_NULL_HANDLE
+pCreateInfo->hVkPhysicalDevice != VK_NULL_HANDLE
+pCreateInfo->pVkFunctions
+pCreateInfo->pVkFunctions->vkAllocateMemory
+pCreateInfo->pVkFunctions->vkBindBufferMemory
+pCreateInfo->pVkFunctions->vkBindImageMemory
+pCreateInfo->pVkFunctions->vkCmdBeginRenderPass
+pCreateInfo->pVkFunctions->vkCmdBeginRendering
+pCreateInfo->pVkFunctions->vkCmdClearColorImage
+pCreateInfo->pVkFunctions->vkCmdClearDepthStencilImage
+pCreateInfo->pVkFunctions->vkCmdCopyBuffer
+pCreateInfo->pVkFunctions->vkCmdCopyBufferToImage
+pCreateInfo->pVkFunctions->vkCmdCopyImage
+pCreateInfo->pVkFunctions->vkCmdCopyImageToBuffer
+pCreateInfo->pVkFunctions->vkCmdEndRenderPass
+pCreateInfo->pVkFunctions->vkCmdEndRendering
+pCreateInfo->pVkFunctions->vkCmdPipelineBarrier
+pCreateInfo->pVkFunctions->vkCmdResolveImage
+pCreateInfo->pVkFunctions->vkCmdSetScissor
+pCreateInfo->pVkFunctions->vkCmdSetViewport
+pCreateInfo->pVkFunctions->vkCreateBuffer
+pCreateInfo->pVkFunctions->vkCreateBufferView
+pCreateInfo->pVkFunctions->vkCreateFramebuffer
+pCreateInfo->pVkFunctions->vkCreateImage
+pCreateInfo->pVkFunctions->vkCreateImageView
+pCreateInfo->pVkFunctions->vkCreateRenderPass
+pCreateInfo->pVkFunctions->vkDestroyBuffer
+pCreateInfo->pVkFunctions->vkDestroyBufferView
+pCreateInfo->pVkFunctions->vkDestroyFramebuffer
+pCreateInfo->pVkFunctions->vkDestroyImage
+pCreateInfo->pVkFunctions->vkDestroyImageView
+pCreateInfo->pVkFunctions->vkDestroyRenderPass
+pCreateInfo->pVkFunctions->vkFreeMemory
+pCreateInfo->pVkFunctions->vkGetBufferMemoryRequirements
+pCreateInfo->pVkFunctions->vkGetImageMemoryRequirements
+pCreateInfo->pVkFunctions->vkGetPhysicalDeviceMemoryProperties
+pCreateInfo->pVkFunctions->vkGetPhysicalDeviceProperties
+pCurrCmdAccesses
+pDesc != nullptr
 pDevice
 pDevice != nullptr
-pDistortionCoordinates != nullptr
 pEntries != nullptr
 pGraphicsCmd != nullptr
 pImage != nullptr
-pInput
-pInputImage
 pLast->m_pointLastUsed <= pTimeline->m_pointLastUsed
 pLayoutCache != nullptr
-pLiquidVR != nullptr
+pMemory
 pMotionEstimation != nullptr
 pMotionEstimator != nullptr
-pOther != nullptr
+pNewBuffer
+pNodeDeclInfo.Result()
 pOutput != nullptr
-pOutputPtr != nullptr
-pPoseProvider
+pPhase
 pPoseProvider != nullptr
 pQueue != nullptr
-pReference
-pReferenceImage
-pRegisteredResource != nullptr
-pRenderInfo && pRenderInfo->renderPass != VK_NULL_HANDLE
+pRecordRange != nullptr
+pRenderInfo
+pRenderPassInfo
+pRenderPassInfo->paramRefs
 pResource
-pResult != nullptr
+pRpslHost->Execute(callInfo)
+pRuntimeDevice->BuildDefaultRenderGraphPhases(**ppRenderGraph)
 pShaderModule != VK_NULL_HANDLE
+pSignature
+pSignatureDesc
 pSourceBuffer
 pSourceBuffer->m_unSizeInBytes >= nSourceOffset + nSizeInBytes
-pSourceImage
 pSrcVertices != nullptr && pDstVertices != nullptr
-pStaging != nullptr
 pTemplate != nullptr
 pTimeline
 pTimeline != nullptr
 pTimeline->m_nRefCount > 0
+pUpdateInfo != nullptr
+pVariable
+pView->resourceId > resDecls.size()
+paramDecl.baseSemanticIndex + paramDecl.GetNumElements() > RPS_MAX_SIMULTANEOUS_RENDER_TARGET_COUNT
+paramDecl.baseSemanticIndex + paramDecl.numElements > RPS_MAX_SIMULTANEOUS_RENDER_TARGET_COUNT
+paramId >= m_paramData.size()
+paramRefOffset > 0xF
+paramRefOffset >= RPS_COUNTOF(paramRefs)
+param_%u [
+pendingAliasingSrcs.reserve(resourceInstances.size())
 perEye[ vr::Eye_Left ].input.nClientFrameIndex == perEye[ vr::Eye_Right ].input.nClientFrameIndex
+phDevice
+phase->Run(updateContext)
+plane_mask 0x%x, array[ %u - %u ], mips[ %u - %u ]
+ppCallback != nullptr
+ppDevice
+ppInstance
+ppRenderGraph
+ppSignature
+present
+prevFrameAliasedMasks.Resize(resourceInstances.size())
 priorites.priorityCount > 0 && priorites.priorityCount <= ARRAY_SIZE( priorites.priorities )
 prism
 prism.dll
+relaxed
+renderGraph.AddPhase<AccessDAGBuilderPass>(renderGraph)
+renderGraph.AddPhase<CmdDebugPrintPhase>()
+renderGraph.AddPhase<DAGBuilderPass>()
+renderGraph.AddPhase<DAGPrintPhase>(renderGraph)
+renderGraph.AddPhase<DAGSchedulePass>(renderGraph)
+renderGraph.AddPhase<LifetimeAnalysisPhase>()
+renderGraph.AddPhase<MemorySchedulePhase>(renderGraph)
+renderGraph.AddPhase<PreProcessPhase>()
+renderGraph.AddPhase<ScheduleDebugPrintPhase>()
+renderGraph.AddPhase<VKRuntimeBackend>(*this, renderGraph)
+renderGraph.ReservePhases(16)
+render_pass
 renderdoc.dll
-result == ALVR_OK
+resInstances.resize(newTemporalLayerOffset + pResInstance->desc.temporalLayers, {})
+resolve
+resolve_dst
+resolve_src
+resource(%u)
+rootBlockInstanceId == RPS_INDEX_NONE_U32
+roundf
+rpInfo.renderTargetClearMask & ~rpInfo.renderTargetsMask
+rpInfo.resolveTargetsMask & ~rpInfo.renderTargetsMask
+rps::RuntimeBackend::GetCmdArgResourceInfos(pContext, 0, 0, &pDstResource, 1)
+rps::RuntimeBackend::GetCmdArgResourceInfos(pContext, 2, 0, &pSrcResource, 1)
+rps::VKRuntimeBackend::GetCmdArgResourceInfos(pContext, 0, 0, &pDstResource, 1)
+rps::VKRuntimeBackend::GetCmdArgResourceInfos(pContext, 2, 0, &pSrcResource, 1)
+rps::VKRuntimeBackend::GetCmdArgResourceInfos(pContext, BufferArgIdx, 0, &pBufferResource, 1)
+rps::VKRuntimeBackend::GetCmdArgResourceInfos(pContext, TextureArgIdx, 0, &pTextureResource, 1)
+rpsDeviceCreate(&deviceCreateInfo, phDevice)
+rpsRpslEntryGetSignatureDesc(pCreateInfo->hRpslEntryPoint, &signatureDescTmp)
+rtas_build
+rtas_read
+runtimeCmd.clearValues.data()
 s_nInstanceCount > 0
+scheduler_barrier
+scissorRects.data()
 server
+shading_rate
 short_alloc: spilling into system allocator
-source.pImage != nullptr
+sinf
+sinhf
+sourceResInstance.IsTemporalParent()
+sqrtf
+srcArrayIndex + count > paramInfo.numElements
+srcArrayOffset + count > paramAccessInfo.numElements
+srv(
 stages.size() == 1
 startup
+stencil_discard_after
+stencil_discard_before
+stencil_read
+stencil_write
+strcmp
+stream_out
 string too long
 strncat
 strncmp
 strncpy
 strncpy_s
-strstr
 strtoull
+subgraphStack.empty()
+subgraph_begin
+subgraph_end
+subroutine_begin
+subroutine_end
+tableIdx < RPS_COUNTOF(c_builtInNodeNames)
+tanf
+tanhf
 tdh.dll
 terminate
+tex1D
+tex2D
+tex3D
 timeBeginPeriod
 timeEndPeriod
 timeKillEvent
 timeSetEvent
 timing.nPixelClockRate > 0
-to.pPool != nullptr
 tolower
 true
-uint32_t( eEye ) < k_nEyeCount
-unsupported format
-v!ne
+truncf
+type : %s
+uav(
+uint32_t(opCode) >= uint32_t(SchedulerMarkerOpCodes::MaxValue)
+unknown
+updateRTDimInfo(resInfo, accessInfo)
 variant.pPipeline != &m_frameHallucinationPipeline
 vector<T> too long
+viewports.data()
 vkAcquireDrmDisplayEXT
 vkAcquireFullScreenExclusiveModeEXT
 vkAcquireNextImage2KHR
@@ -1925,7 +2121,6 @@ vkGetMemoryFdPropertiesKHR
 vkGetMemoryHostPointerPropertiesEXT
 vkGetMemoryRemoteAddressNV
 vkGetMemoryWin32HandleKHR
-vkGetMemoryWin32HandleKHR != nullptr
 vkGetMemoryWin32HandleNV
 vkGetMemoryWin32HandlePropertiesKHR
 vkGetMicromapBuildSizesEXT
@@ -2020,7 +2215,6 @@ vkGetSemaphoreCounterValue
 vkGetSemaphoreCounterValueKHR
 vkGetSemaphoreFdKHR
 vkGetSemaphoreWin32HandleKHR
-vkGetSemaphoreWin32HandleKHR != nullptr
 vkGetShaderBinaryDataEXT
 vkGetShaderInfoAMD
 vkGetShaderModuleCreateInfoIdentifierEXT
@@ -2109,5 +2303,3 @@ vkWriteAccelerationStructuresPropertiesKHR
 vkWriteMicromapsPropertiesEXT
 vr-marker,frame_end,type,application
 vulkan-1.dll
-wcsrchr
-wcsstr

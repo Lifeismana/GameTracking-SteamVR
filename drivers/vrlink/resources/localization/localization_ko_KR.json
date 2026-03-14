@@ -2,7 +2,6 @@
 	"language_tag": "ko_KR",
 	"Settings_Title": "Steam Link",
 	"Setting_automaticStreamFormatWidth": "인코딩된 동영상 크기",
-	"Setting_streamFormatWidth": "인코딩된 동영상 크기(px)",
 	"Setting_automaticBandwidth": "목표 대역폭",
 	"Setting_targetBandwidth": "목표 대역폭(Mbps)",
 	"Setting_10bit": "10비트 심도 인코딩 사용",

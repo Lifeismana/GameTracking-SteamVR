@@ -2,7 +2,6 @@
 	"language_tag": "nl_NL",
 	"Settings_Title": "Steam Link",
 	"Setting_automaticStreamFormatWidth": "Formaat gecodeerde video",
-	"Setting_streamFormatWidth": "Formaat gecodeerde video (px)",
 	"Setting_automaticBandwidth": "Doelbandbreedte",
 	"Setting_targetBandwidth": "Doelbandbreedte (Mbps)",
 	"Setting_10bit": "10 bit-dieptecodering gebruiken",

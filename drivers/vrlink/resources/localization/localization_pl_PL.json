@@ -2,7 +2,6 @@
 	"language_tag": "pl_PL",
 	"Settings_Title": "Steam Link",
 	"Setting_automaticStreamFormatWidth": "Rozmiar zakodowanego wideo",
-	"Setting_streamFormatWidth": "Rozmiar zakodowanego wideo (w pikselach)",
 	"Setting_automaticBandwidth": "Docelowa przepustowość sieci",
 	"Setting_targetBandwidth": "Docelowa przepustowość sieci (Mb/s)",
 	"Setting_10bit": "Użyj kodowania 10-bitowej głębi",

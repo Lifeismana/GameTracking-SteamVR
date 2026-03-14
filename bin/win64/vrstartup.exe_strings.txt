@@ -132,7 +132,7 @@
 /user/waist
 /user/wrist/left
 /user/wrist/right
-00:42:27
+10:49:01
 1e+9999
 : exception thrown in JSON library
 <unknown>
@@ -220,7 +220,6 @@ CreateDirectoryW
 CreateEventW
 CreateFileW
 CreateProcessA
-Dec 22 2025
 DeleteCriticalSection
 DeleteFileW
 Detail
@@ -323,7 +322,7 @@ IVRDriverLog_001
 IVRDriverManager_001
 IVRExtendedDisplay_001
 IVRInputInternal_002
-IVRInput_010
+IVRInput_011
 IVRMailbox_002
 IVRNotificationsInternal_001
 IVROverlayInternal_XXX
@@ -341,7 +340,7 @@ IVRServerInternal_XXX
 IVRSettingsInternal_001
 IVRSettings_003
 IVRSystemLayerInternal_XXX
-IVRSystem_023
+IVRSystem_026
 IVRTrackedCameraInternal_XXX
 IVRVirtualDisplay_
 IVRVirtualDisplay_001
@@ -373,6 +372,7 @@ Log path could not be located (112)
 Low Power Watchdog Not Supported (129)
 MSVCP140.dll
 MainThrd
+Mar 10 2026
 Missing ',' or ']' in array declaration
 Missing ',' or '}' in object declaration
 Missing ':' after object member name
@@ -622,6 +622,7 @@ VRInitError_Init_AlreadyRunning
 VRInitError_Init_AnotherAppLaunching
 VRInitError_Init_AppInfoInitFailed
 VRInitError_Init_BadLuid
+VRInitError_Init_ClientVersionAlreadyProvided
 VRInitError_Init_CouldNotStartPrism
 VRInitError_Init_DuplicateBootstrapper
 VRInitError_Init_FactoryNotFound
@@ -636,6 +637,7 @@ VRInitError_Init_IllegalTypeTransition
 VRInitError_Init_InitCanceledByUser
 VRInitError_Init_InstallationCorrupt
 VRInitError_Init_InstallationNotFound
+VRInitError_Init_InstallationTooOld
 VRInitError_Init_InterfaceNotFound
 VRInitError_Init_Internal
 VRInitError_Init_InvalidApplicationType
@@ -820,9 +822,9 @@ bad conversion
 bg_bg
 brazilian
 bulgarian
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\logbuffer.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\vrcrash.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrstartup\Retail\win64\2017\vrstartup.pdb
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\logbuffer.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\vrcrash.cpp
+c:\buildslave\steamvr_rel_win64\build\src\vrstartup\Retail\win64\2017\vrstartup.pdb
 camera
 collectComments
 collisionBounds

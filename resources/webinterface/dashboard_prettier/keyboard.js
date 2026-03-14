@@ -1,4 +1,4 @@
-var CLSTAMP = "10334134";
+var CLSTAMP = "10510795";
 (() => {
   "use strict";
   var e,
@@ -183,6 +183,7 @@ var CLSTAMP = "10334134";
           JZ: () => a.JZ,
           KI: () => w.KI,
           Ld: () => a.Ld,
+          M9: () => n.M9,
           MQ: () => p.MQ,
           MV: () => V.MV,
           N: () => o.e,
@@ -209,6 +210,7 @@ var CLSTAMP = "10334134";
           aX: () => y.a,
           b: () => V.b,
           b$: () => T.b,
+          b4: () => b.b,
           cB: () => S.L,
           dL: () => h.d,
           e_: () => a.e_,
@@ -226,16 +228,17 @@ var CLSTAMP = "10334134";
           nX: () => u.nX,
           ne: () => V.ne,
           nq: () => k.n,
+          o3: () => p.o3,
           oN: () => a.oN,
           o_: () => a.o_,
           p0: () => a.p0,
           pM: () => V.pM,
           pg: () => n.pg,
+          q5: () => a.q5,
           qF: () => a.qF,
           rF: () => r.H,
           rx: () => V.rx,
           sJ: () => v.$,
-          sk: () => n.sk,
           sn: () => n.sn,
           tx: () => a.tx,
           uC: () => R.u,
@@ -979,4 +982,4 @@ var CLSTAMP = "10334134";
     () => n(7558),
   );
   a = n.O(a);
-})(); //# sourceMappingURL=file:///home/buildbot/buildslave/steamvr_rel_hotfix_npm_vrwebui/build/public/runtime/resources/webinterface/dashboard/sourcemaps/keyboard.js.map
+})(); //# sourceMappingURL=file:///home/buildbot/buildslave/steamvr_rel_npm_vrwebui/build/public/runtime/resources/webinterface/dashboard/sourcemaps/keyboard.js.map

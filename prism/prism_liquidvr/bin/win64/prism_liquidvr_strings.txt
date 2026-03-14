@@ -1,0 +1,257 @@
+%s: CreateALVRDeviceExVulkan failed (%d)
+%s: CreateALVRExtensionVulkan failed (%d)
+%s: CreateBuffer failed (%d)
+%s: CreateComputeContext failed (%d)
+%s: CreateMotionEstimator failed (%d)
+%s: Failed to create motion vector input Parent surface (%d)
+%s: Failed to create motion vector input UV surface (%d)
+%s: Failed to create motion vector input Y surface (%d)
+%s: GetApiResource failed (%d)
+%s: GetDesc failed (%d)
+%s: Invalid resource type (%d)
+%s: Map failed (%d)
+%s: Open failed (%d)
+%s: Requested resolution not supported. Requested=%dx%d Max=%dx%d
+%s: Unmap failed (%d)
+%s: resourceVulkan.image is null
+, last executing in 
+.00cfg
+.?AVCMotionEstimator_LiquidVR@@
+.?AVCPrismDisplay_LiquidVR@@
+.?AVFactory@CPrismDisplay_LiquidVR@@
+.?AVIMotionEstimator@@
+.?AVIPrismDisplay@@
+.?AVIPrismDisplayFactory@@
+.?AVbad_alloc@std@@
+.?AVbad_array_new_length@std@@
+.?AVexception@std@@
+.?AVtype_info@@
+.CRT$XCA
+.CRT$XCL
+.CRT$XCU
+.CRT$XCZ
+.CRT$XIA
+.CRT$XIC
+.CRT$XIZ
+.CRT$XLA
+.CRT$XLZ
+.CRT$XPA
+.CRT$XPZ
+.CRT$XTA
+.CRT$XTZ
+.bss
+.data
+.data$r
+.idata$2
+.idata$3
+.idata$4
+.idata$5
+.idata$6
+.pdata
+.rdata
+.rdata$T
+.rdata$r
+.rdata$zzzdbg
+.rtc$IAA
+.rtc$IZZ
+.rtc$TAA
+.rtc$TZZ
+.text$di
+.text$mn
+.text$mn$00
+.text$x
+.text$yd
+.tls
+.tls$
+.tls$ZZZ
+.xdata
+.xdata$x
+8c8f13b1-60eb-4b6a-a433-de86104115ac
+8d8f13b1-60eb-4b6a-a433-de86104115ac
+8e8f13b1-60eb-4b6a-a433-de86104115ac
+?<unknown>
+?_Throw_C_error@std@@YAXH@Z
+?_Throw_Cpp_error@std@@YAXH@Z
+?_Xbad_function_call@std@@YAXXZ
+?_Xlength_error@std@@YAXPEBD@Z
+ADVAPI32.dll
+ALVRDisplayInit
+ALVRInit
+ASSERT: "%s" at %s:%d.\n
+CMotionEstimator_LiquidVR::CopyOutput
+CMotionEstimator_LiquidVR::CreateImages
+CMotionEstimator_LiquidVR::CreateMotionEstimator
+CMotionEstimator_LiquidVR::VkInit
+CloseHandle
+CreateDXGIFactory1
+CreateEventW
+DeleteCriticalSection
+DisableThreadLibraryCalls
+EventRegister
+EventUnregister
+FreeLibrary
+GetCurrentProcessId
+GetCurrentThreadId
+GetFileVersionInfoSizeW
+GetFileVersionInfoW
+GetModuleHandleA
+GetModuleHandleExA
+GetModuleHandleW
+GetProcAddress
+GetSystemTimeAsFileTime
+InitializeConditionVariable
+InitializeCriticalSectionAndSpinCount
+InitializeSListHead
+IsDebuggerPresent
+IsProcessorFeaturePresent
+KERNEL32.dll
+LiquidVR
+LiquidVR: Failed to close display! Error=%d
+LiquidVR: Failed to create fence!
+LiquidVR: Failed to create presentable surface!
+LiquidVR: Failed to get present resource! Err=%d
+LiquidVR: Present resource is not a Vulkan image!
+LiquidVR: Present resource is null!
+LiquidVR: Unexpected EDID size: %d
+LoadLibraryA
+LoadLibraryW
+MSVCP140.dll
+MainThrd
+Out of thread local storage!\n
+PRISM_AcquireDisplay
+PRISM_ActivateRenderGraph
+PRISM_ClientDisconnected
+PRISM_CreateDisplayFactory
+PRISM_CreateGraphNode
+PRISM_CreateInstance
+PRISM_CreateMotionEstimator
+PRISM_CreateRenderGraph
+PRISM_DestroyDisplayFactory
+PRISM_DestroyInstance
+PRISM_DestroyMotionEstimator
+PRISM_DumpHistory
+PRISM_GetConnectedDisplays
+PRISM_GetDisplayModes
+PRISM_GetDisplaySubsystems
+PRISM_GetGraphicsHost
+PRISM_GetMotionEstimatorSubsystems
+PRISM_GetPluginModuleHandle
+PRISM_GetPoseProvider
+PRISM_GetRenderGraphSubsystems
+PRISM_HmdActivated
+PRISM_Initialize
+PRISM_LoadPluginInterfaceOnce
+PRISM_RegisterDisplaySubsystem
+PRISM_RegisterGraphNode
+PRISM_RegisterLogCallback
+PRISM_RegisterMotionEstimatorSubsystem
+PRISM_RegisterPluginProvider
+PRISM_RegisterPoseProviderSubsystem
+PRISM_RegisterRenderGraph
+PRISM_ReleaseDisplay
+PRISM_Run
+PRISM_RunFrame
+PRISM_SetDisplayMode
+PRISM_SetFrameInfoCallback
+PRISM_Shutdown
+PRISM_Stop
+QueryPerformanceCounter
+QueryPerformanceFrequency
+RPCRT4.dll
+RSDS
+RaiseException
+RtlCaptureContext
+RtlLookupFunctionEntry
+RtlVirtualUnwind
+S-1-15-2-2765576060-2389096713-3079022642-4099546867-1445191215-3071396046-3987166893
+S-1-15-3-1024-2302894289-466761758-1166120688-1039016420-2430351297-4240214049-4028510897-3317428798
+S-1-15-3-1024-3424233489-972189580-2057154623-747635277-1604371224-316187997-3786583170-1043257646
+SetUnhandledExceptionFilter
+SleepConditionVariableCS
+TdhEnumerateManifestProviderEvents
+TlsAlloc
+TlsFree
+Unexpected failure when checking for timeline signal
+UnhandledExceptionFilter
+Unknown exception
+UuidFromStringA
+VCRUNTIME140.dll
+VERSION.dll
+VK_EXT_debug_utils
+VK_EXT_extended_dynamic_state3
+VK_EXT_global_priority
+VK_EXT_queue_family_foreign
+VK_KHR_dynamic_rendering
+VK_KHR_external_memory_win32
+VK_KHR_external_semaphore_win32
+VK_KHR_timeline_semaphore
+VK_KHR_win32_keyed_mutex
+VK_NV_compute_shader_derivatives
+VR_CONFIG_PATH
+VR_LOG_PATH
+VR_OVERRIDE
+VerQueryValueA
+WakeAllConditionVariable
+Warning: Watchdog %s not properly cleaned up%s%s\n
+_Cnd_destroy_in_situ
+_Cnd_init_in_situ
+_Cnd_signal
+_CxxThrowException
+_Mtx_destroy_in_situ
+_Mtx_init_in_situ
+_Mtx_lock
+_Mtx_unlock
+_Thrd_id
+_Thrd_join
+__C_specific_handler
+__CxxFrameHandler3
+__std_exception_copy
+__std_exception_destroy
+__std_terminate
+__std_type_info_destroy_list
+__stdio_common_vsprintf
+_callnewh
+_cexit
+_configure_narrow_argv
+_crt_atexit
+_execute_onexit_table
+_initialize_narrow_environment
+_initialize_onexit_table
+_initterm
+_initterm_e
+_invalid_parameter_noinfo_noreturn
+_purecall
+_register_onexit_function
+_seh_filter_dll
+api-ms-win-crt-heap-l1-1-0.dll
+api-ms-win-crt-runtime-l1-1-0.dll
+api-ms-win-crt-stdio-l1-1-0.dll
+api-ms-win-crt-string-l1-1-0.dll
+bad allocation
+bad array new length
+c:\buildslave\steamvr_rel_win64\build\src\facet\include\facet\vkresource.h
+c:\buildslave\steamvr_rel_win64\build\src\facet\src\vkresource.cpp
+c:\buildslave\steamvr_rel_win64\build\src\facet\src\vksync.cpp
+c:\buildslave\steamvr_rel_win64\build\src\prism\plugins\prism_liquidvr\Retail\win64\2017\prism_liquidvr.pdb
+c:\buildslave\steamvr_rel_win64\build\src\prism\plugins\prism_liquidvr\motionestimator_liquidvr.cpp
+c:\buildslave\steamvr_rel_win64\build\src\prism\plugins\prism_liquidvr\prismdisplay_liquidvr.cpp
+dxgi.dll
+free
+lhs->m_pTimeline == rhs->m_pTimeline
+m_displayMode.timing.pixelClockInKhz * 1000 <= UINT32_MAX
+m_displayMode.timing.pixelClockInKhz <= UINT32_MAX
+malloc
+map/set<T> too long
+memcpy
+memmove
+memset
+pDevice != nullptr
+pLiquidVR != nullptr
+pTimeline->m_nRefCount > 0
+prism.dll
+result == ALVR_OK
+startup
+strncpy
+tdh.dll
+terminate
+vector<T> too long

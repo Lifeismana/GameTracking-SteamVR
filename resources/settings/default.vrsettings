@@ -245,7 +245,7 @@
         "allowVRGamepadUI": true,
         "allowVRGamepadUIViaGamescope": false,
         "steamMatchesHMDFramerate": true,
-        "quickMouseMode": 0,
+        "overlayBacksideColor": "#27272CB3",
         "grabHandleAcceleration": 1.0
     },
     "driver_imu": {

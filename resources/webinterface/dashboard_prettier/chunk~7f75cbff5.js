@@ -1,4 +1,4 @@
-var CLSTAMP = "10334134";
+var CLSTAMP = "10510795";
 (self.webpackChunkvrwebui = self.webpackChunkvrwebui || []).push([
   [797],
   {
@@ -131,22 +131,23 @@ var CLSTAMP = "10334134";
       (0, i.Cg)([r.o], d.prototype, "buildNode", null);
     },
     5178: (e, t, s) => {
-      s.d(t, { O: () => m });
-      var i,
-        a = s(1635),
-        n = s(6540),
-        r = s(7019),
-        d = s(3236),
-        o = s(5723);
+      s.d(t, { O: () => l });
+      var i = s(1635),
+        a = s(6540),
+        n = s(7019),
+        r = s(3236),
+        d = s(5723);
+      const o = new (s(776).wd)("EmbeddedPixels");
+      var m;
       !(function (e) {
         (e[(e.Canvas = 0)] = "Canvas"), (e[(e.Image = 1)] = "Image");
-      })(i || (i = {}));
-      class m extends n.Component {
+      })(m || (m = {}));
+      class l extends a.Component {
         static get IsSceneGraphApp() {
-          return null !== m.Current();
+          return null !== l.Current();
         }
         static Current() {
-          return m.s_Current;
+          return l.s_Current;
         }
         constructor(e) {
           var t;
@@ -167,7 +168,7 @@ var CLSTAMP = "10334134";
             (this.m_nDirtyXMax = -1),
             (this.m_EmbeddedDataImgRef = null),
             (this.m_EmbeddedDataImgRGBBuffer = null),
-            (m.s_Current = this),
+            (l.s_Current = this),
             (this.state = {
               bFontsLoaded: !1,
               nForcedUpdateNumber: 0,
@@ -177,14 +178,14 @@ var CLSTAMP = "10334134";
                   ? void 0
                   : t.BSupportsCEFCanvas()
               )
-                ? i.Canvas
-                : i.Image,
+                ? m.Canvas
+                : m.Image,
             }),
-            (this.m_DomRef = n.createRef()),
-            (this.m_scalingDomRef = n.createRef()),
-            (this.m_CanvasRef = n.createRef()),
-            (this.m_EmbeddedDataImgRef = n.createRef()),
-            (this.m_DebugPointerRef = n.createRef());
+            (this.m_DomRef = a.createRef()),
+            (this.m_scalingDomRef = a.createRef()),
+            (this.m_CanvasRef = a.createRef()),
+            (this.m_EmbeddedDataImgRef = a.createRef()),
+            (this.m_DebugPointerRef = a.createRef());
         }
         toggleDebugPointer() {
           this.setState({ bShowDebugPointer: !this.state.bShowDebugPointer });
@@ -200,7 +201,7 @@ var CLSTAMP = "10334134";
               "px )");
         }
         forceLayoutUpdate() {
-          (r.Zk.s_bPanelsAreDirty = !0),
+          (n.Zk.s_bPanelsAreDirty = !0),
             this.setState({
               nForcedUpdateNumber: this.state.nForcedUpdateNumber + 1,
             });
@@ -210,6 +211,7 @@ var CLSTAMP = "10334134";
             t = e.defaultView;
           e.body.classList.add("SGApp"),
             document.documentElement.classList.add("VROverlay"),
+            (window.SGApp = this),
             (this.m_nEmbeddedDataWidth = t.innerWidth);
           let s = Math.max(0, Math.floor((this.m_nEmbeddedDataWidth - 1) / 3));
           for (let e = 0; e < s; e++)
@@ -228,7 +230,7 @@ var CLSTAMP = "10334134";
             (t.forceLayoutUpdate = this.forceLayoutUpdate),
             (t.toggleDebugPointer = this.toggleDebugPointer),
             (this.props.owning_overlay_key || this.props.web_secret) &&
-              (0, o.Oe)(
+              (0, d.Oe)(
                 this.props.owning_overlay_key,
                 this.m_DomRef.current,
                 this.props.web_secret,
@@ -242,35 +244,35 @@ var CLSTAMP = "10334134";
             e.removeEventListener("mousemove", this.onMouseMove);
         }
         render() {
-          const e = this.state.eRenderMode == i.Image,
-            t = this.state.eRenderMode == i.Canvas;
+          const e = this.state.eRenderMode == m.Image,
+            t = this.state.eRenderMode == m.Canvas;
           let s = [];
           return (
             this.state.bShowDebugPointer && s.push("ShowDebugPointer"),
-            n.createElement(
+            a.createElement(
               "vsg-app",
               {
                 class: s.join(" "),
                 ref: this.m_DomRef,
                 "sg-forced-update-number": this.state.nForcedUpdateNumber,
               },
-              n.createElement("div", {
+              a.createElement("div", {
                 className: "DebugPointer",
                 ref: this.m_DebugPointerRef,
               }),
               e &&
-                n.createElement("img", {
+                a.createElement("img", {
                   ref: this.m_EmbeddedDataImgRef,
                   className: "EmbeddedData",
-                  height: m.k_EmbeddedDataRows,
+                  height: l.k_EmbeddedDataRows,
                 }),
               t &&
-                n.createElement("canvas", {
+                a.createElement("canvas", {
                   ref: this.m_CanvasRef,
                   className: "EmbeddedData",
-                  height: m.k_EmbeddedDataRows,
+                  height: l.k_EmbeddedDataRows,
                 }),
-              n.createElement(
+              a.createElement(
                 "div",
                 { className: "AppSceneGraph", ref: this.m_scalingDomRef },
                 this.state.bFontsLoaded && this.props.children,
@@ -295,7 +297,7 @@ var CLSTAMP = "10334134";
         }
         createEmbeddedData() {
           var e;
-          this.state.eRenderMode == i.Image
+          this.state.eRenderMode == m.Image
             ? ((this.m_EmbeddedDataImgRef.current.width =
                 this.m_nEmbeddedDataWidth),
               this.m_EmbeddedDataImgRGBBuffer ||
@@ -307,7 +309,7 @@ var CLSTAMP = "10334134";
                         1,
                         4,
                       )))
-            : this.state.eRenderMode == i.Canvas &&
+            : this.state.eRenderMode == m.Canvas &&
               ((this.m_CanvasRef.current.width = this.m_nEmbeddedDataWidth),
               (this.m_CanvasContext =
                 this.m_CanvasRef.current.getContext("2d")),
@@ -316,7 +318,7 @@ var CLSTAMP = "10334134";
               null === this.m_Pixels &&
                 (this.m_Pixels = this.m_CanvasContext.createImageData(
                   this.m_nEmbeddedDataWidth,
-                  m.k_EmbeddedDataRows,
+                  l.k_EmbeddedDataRows,
                 ))),
             this.updateAllPanelBounds();
         }
@@ -326,118 +328,135 @@ var CLSTAMP = "10334134";
             s = t.width / this.m_fCurrentScale,
             i = t.height / this.m_fCurrentScale,
             a = { x: e.innerWidth / s, y: e.innerHeight / i },
-            n = Math.min(a.x, a.y, 1);
-          n != this.m_fCurrentScale &&
-            (1 != n
+            r = Math.min(a.x, a.y, 1);
+          r != this.m_fCurrentScale &&
+            (1 != r
               ? this.m_scalingDomRef.current.setAttribute(
                   "style",
-                  "transform: scale(" + n + "); transform-origin: top left",
+                  "transform: scale(" + r + "); transform-origin: top left",
                 )
               : this.m_scalingDomRef.current.removeAttribute("style"),
-            (this.m_fCurrentScale = n),
-            (r.Zk.s_bPanelsAreDirty = !0)),
-            r.Zk.s_bPanelsAreDirty &&
+            (this.m_fCurrentScale = r),
+            (n.Zk.s_bPanelsAreDirty = !0)),
+            n.Zk.s_bPanelsAreDirty &&
               (this.m_mapPanels.forEach((e) => e.updateLayoutValues()),
-              (0, o.my)(),
-              (r.Zk.s_bPanelsAreDirty = !1),
+              (0, d.my)(),
+              (n.Zk.s_bPanelsAreDirty = !1),
               this.updateEmbeddedData());
         }
         updateEmbeddedData() {
           var e;
-          if (!this.m_EmbeddedDataImgRef && !this.m_CanvasRef) return;
-          this.setPixel(
-            0,
-            "V".charCodeAt(0),
-            "S".charCodeAt(0),
-            "G".charCodeAt(0),
-          ),
-            this.m_rEmbeddedIndicesToClear.forEach((e) => {
-              let t = 1 + 3 * e;
-              for (let e = 0; e < 3; e++) this.setPixel(t + e, 0, 0, 0, 0);
-            }),
-            (this.m_rEmbeddedIndicesToClear = []);
-          if (
-            (this.m_mapPanels.forEach((e, t) => {
-              const s = e.m_Rect.x,
-                i = e.m_Rect.x + e.m_Rect.width,
-                a = e.m_Rect.y,
-                n = e.m_Rect.y + e.m_Rect.height,
-                r = e.getEmbeddedIndex(),
-                d = 1 + 3 * r;
-              let o = [0, 0, 0, 0, 0, 0, 0, 0, 0],
-                m = !1;
-              if (e.isExternal() || s >= i || a >= n)
-                for (let e = 0; e < 3; e++) this.setPixel(d + 1, 0, 0, 0, 0);
-              else
-                (m = !0),
-                  (o[0] = (65280 & s) >> 8),
-                  (o[1] = 255 & s),
-                  (o[2] = 254),
-                  (o[3] = (65280 & i) >> 8),
-                  (o[4] = 255 & i),
-                  (o[5] = 255 & a),
-                  (o[6] = (65280 & n) >> 8),
-                  (o[7] = 255 & n),
-                  (o[8] = (65280 & a) >> 8),
-                  this.setPixel(d, o[0], o[1], o[2]),
-                  this.setPixel(d + 1, o[3], o[4], o[5]),
-                  this.setPixel(d + 2, o[6], o[7], o[8]);
-            }),
-            this.m_EmbeddedDataImgRef && this.state.eRenderMode == i.Image)
-          ) {
-            const t =
-              null === (e = VRHTML.VRUtil) || void 0 === e
-                ? void 0
-                : e.GetEmbeddedScanlineAsURIImage(
-                    this.m_nEmbeddedDataWidth,
-                    1,
-                    4,
-                  );
-            this.m_EmbeddedDataImgRef.current.src = t;
-          } else if (this.m_CanvasRef && this.state.eRenderMode == i.Canvas) {
-            let e = this.m_nDirtyXMax - this.m_nDirtyXMin + 1;
-            this.m_CanvasContext.putImageData(
-              this.m_Pixels,
-              0,
-              0,
-              this.m_nDirtyXMin,
-              0,
-              e,
-              this.m_Pixels.height,
-            ),
-              (this.m_nDirtyXMin = -1),
-              (this.m_nDirtyXMax = -1);
-          }
+          if (this.m_EmbeddedDataImgRef || this.m_CanvasRef)
+            if (
+              (this.setPixel(
+                0,
+                "V".charCodeAt(0),
+                "S".charCodeAt(0),
+                "G".charCodeAt(0),
+              ),
+              this.m_rEmbeddedIndicesToClear.forEach((e) => {
+                let t = 1 + 3 * e;
+                for (let e = 0; e < 3; e++) this.setPixel(t + e, 0, 0, 0, 0);
+              }),
+              (this.m_rEmbeddedIndicesToClear = []),
+              o.Debug("UPDATE EMBEDDED DATA ------------------"),
+              this.m_mapPanels.forEach((e, t) => {
+                const s = e.m_Rect.x,
+                  i = e.m_Rect.x + e.m_Rect.width,
+                  a = e.m_Rect.y,
+                  n = e.m_Rect.y + e.m_Rect.height,
+                  r = e.getEmbeddedIndex(),
+                  d = 1 + 3 * r;
+                let m = [0, 0, 0, 0, 0, 0, 0, 0, 0],
+                  l = !1;
+                if (e.isExternal() || s >= i || a >= n)
+                  for (let e = 0; e < 3; e++) this.setPixel(d + 1, 0, 0, 0, 0);
+                else
+                  (l = !0),
+                    (m[0] = (65280 & s) >> 8),
+                    (m[1] = 255 & s),
+                    (m[2] = 254),
+                    (m[3] = (65280 & i) >> 8),
+                    (m[4] = 255 & i),
+                    (m[5] = 255 & a),
+                    (m[6] = (65280 & n) >> 8),
+                    (m[7] = 255 & n),
+                    (m[8] = (65280 & a) >> 8),
+                    this.setPixel(d, m[0], m[1], m[2]),
+                    this.setPixel(d + 1, m[3], m[4], m[5]),
+                    this.setPixel(d + 2, m[6], m[7], m[8]);
+                o.Debug(
+                  "panel",
+                  l ? "" : "XX",
+                  e.props.debug_name,
+                  "uvs",
+                  s,
+                  a,
+                  i,
+                  n,
+                  "nPixelOffset",
+                  d,
+                  "emIdx",
+                  r,
+                  m,
+                  e.getCurrentRootElement(),
+                );
+              }),
+              this.m_EmbeddedDataImgRef && this.state.eRenderMode == m.Image)
+            ) {
+              const t =
+                null === (e = VRHTML.VRUtil) || void 0 === e
+                  ? void 0
+                  : e.GetEmbeddedScanlineAsURIImage(
+                      this.m_nEmbeddedDataWidth,
+                      1,
+                      4,
+                    );
+              this.m_EmbeddedDataImgRef.current.src = t;
+            } else if (this.m_CanvasRef && this.state.eRenderMode == m.Canvas) {
+              let e = this.m_nDirtyXMax - this.m_nDirtyXMin + 1;
+              this.m_CanvasContext.putImageData(
+                this.m_Pixels,
+                0,
+                0,
+                this.m_nDirtyXMin,
+                0,
+                e,
+                this.m_Pixels.height,
+              ),
+                (this.m_nDirtyXMin = -1),
+                (this.m_nDirtyXMax = -1);
+            }
         }
-        setPixel(e, t, s, a, n = 255) {
+        setPixel(e, t, s, i, a = 255) {
           if (
             this.m_EmbeddedDataImgRGBBuffer &&
-            this.state.eRenderMode == i.Image
+            this.state.eRenderMode == m.Image
           ) {
-            const i = new DataView(this.m_EmbeddedDataImgRGBBuffer);
-            i.setUint8(4 * e + 0, t),
-              i.setUint8(4 * e + 1, s),
-              i.setUint8(4 * e + 2, a),
-              i.setUint8(4 * e + 3, n);
+            const n = new DataView(this.m_EmbeddedDataImgRGBBuffer);
+            n.setUint8(4 * e + 0, t),
+              n.setUint8(4 * e + 1, s),
+              n.setUint8(4 * e + 2, i),
+              n.setUint8(4 * e + 3, a);
           } else
             this.m_Pixels &&
-              this.state.eRenderMode == i.Canvas &&
+              this.state.eRenderMode == m.Canvas &&
               ((this.m_Pixels.data[4 * e + 0] = t),
               (this.m_Pixels.data[4 * e + 1] = s),
-              (this.m_Pixels.data[4 * e + 2] = a),
-              (this.m_Pixels.data[4 * e + 3] = n),
+              (this.m_Pixels.data[4 * e + 2] = i),
+              (this.m_Pixels.data[4 * e + 3] = a),
               (-1 === this.m_nDirtyXMin || e < this.m_nDirtyXMin) &&
                 (this.m_nDirtyXMin = e),
               (-1 === this.m_nDirtyXMax || e > this.m_nDirtyXMax) &&
                 (this.m_nDirtyXMax = e));
         }
       }
-      (m.s_Current = null),
-        (m.k_EmbeddedDataRows = 1),
-        (0, a.Cg)([d.o], m.prototype, "toggleDebugPointer", null),
-        (0, a.Cg)([d.o], m.prototype, "onMouseMove", null),
-        (0, a.Cg)([d.o], m.prototype, "forceLayoutUpdate", null),
-        (0, a.Cg)([d.o], m.prototype, "onMutation", null);
+      (l.s_Current = null),
+        (l.k_EmbeddedDataRows = 1),
+        (0, i.Cg)([r.o], l.prototype, "toggleDebugPointer", null),
+        (0, i.Cg)([r.o], l.prototype, "onMouseMove", null),
+        (0, i.Cg)([r.o], l.prototype, "forceLayoutUpdate", null),
+        (0, i.Cg)([r.o], l.prototype, "onMutation", null);
     },
   },
-]); //# sourceMappingURL=file:///home/buildbot/buildslave/steamvr_rel_hotfix_npm_vrwebui/build/public/runtime/resources/webinterface/dashboard/sourcemaps/chunk~7f75cbff5.js.map
+]); //# sourceMappingURL=file:///home/buildbot/buildslave/steamvr_rel_npm_vrwebui/build/public/runtime/resources/webinterface/dashboard/sourcemaps/chunk~7f75cbff5.js.map

@@ -1,19 +1,404 @@
-var CLSTAMP = "10334134";
+var CLSTAMP = "10510795";
 (self.webpackChunkvrwebui = self.webpackChunkvrwebui || []).push([
   [458],
   {
-    3361: (e, t, o) => {
-      o.d(t, { d: () => _ });
-      var r,
-        i = o(6540),
-        a = o(3496),
-        n = o(6292);
+    7019: (e, t, r) => {
+      r.d(t, {
+        Fi: () => a,
+        Lr: () => v,
+        MQ: () => n,
+        Oi: () => o,
+        Zk: () => y,
+        _h: () => i,
+        o3: () => s,
+      });
+      var o,
+        i,
+        n,
+        a,
+        s,
+        l = r(1635),
+        _ = r(6540),
+        p = r(3496),
+        d = r(5178),
+        c = r(3236),
+        u = r(5723),
+        m = r(7600),
+        h = r(7727),
+        g = r(1651);
+      function D(e) {
+        if (e) return [e.u, e.v];
+      }
+      function v(e) {
+        switch (e) {
+          case o.TopLeft:
+            return { x: -1, y: 1 };
+          case o.TopCenter:
+            return { x: 0, y: 1 };
+          case o.TopRight:
+            return { x: 1, y: 1 };
+          case o.CenterLeft:
+            return { x: -1, y: 0 };
+          case o.Center:
+            return { x: 0, y: 0 };
+          case o.CenterRight:
+            return { x: 1, y: 0 };
+          case o.BottomLeft:
+            return { x: -1, y: -1 };
+          case o.BottomCenter:
+            return { x: 0, y: -1 };
+          case o.BottomRight:
+            return { x: 1, y: -1 };
+        }
+      }
+      !(function (e) {
+        (e[(e.TopLeft = 0)] = "TopLeft"),
+          (e[(e.TopCenter = 1)] = "TopCenter"),
+          (e[(e.TopRight = 2)] = "TopRight"),
+          (e[(e.CenterLeft = 3)] = "CenterLeft"),
+          (e[(e.Center = 4)] = "Center"),
+          (e[(e.CenterRight = 5)] = "CenterRight"),
+          (e[(e.BottomLeft = 6)] = "BottomLeft"),
+          (e[(e.BottomCenter = 7)] = "BottomCenter"),
+          (e[(e.BottomRight = 8)] = "BottomRight");
+      })(o || (o = {})),
+        (function (e) {
+          (e[(e.Auto = 0)] = "Auto"), (e[(e.SingleTap = 1)] = "SingleTap");
+        })(i || (i = {})),
+        (function (e) {
+          (e[(e.Mono = 0)] = "Mono"),
+            (e[(e.Parallel = 1)] = "Parallel"),
+            (e[(e.Crossed = 2)] = "Crossed"),
+            (e[(e.Panorama = 3)] = "Panorama"),
+            (e[(e.StackedPanorama = 4)] = "StackedPanorama");
+        })(n || (n = {})),
+        (function (e) {
+          (e[(e.Visible = 0)] = "Visible"),
+            (e[(e.SkipInSceneGraph = 1)] = "SkipInSceneGraph"),
+            (e[(e.Hidden = 2)] = "Hidden"),
+            (e[(e.InvisibleButIntersectable = 3)] =
+              "InvisibleButIntersectable");
+        })(a || (a = {})),
+        (function (e) {
+          (e[(e.Default = 0)] = "Default"),
+            (e[(e.Disabled = 1)] = "Disabled"),
+            (e[(e.Low = 2)] = "Low");
+        })(s || (s = {}));
+      class y extends p._J {
+        constructor(e) {
+          super(e),
+            (this.m_Rect = { x: 0, y: 0, width: 0, height: 0 }),
+            (this.m_nEmbeddedIndex = null),
+            (this.m_LastDOMContentSize = void 0),
+            (this.m_DOMContentSizeChangedCallbacks = new g.l()),
+            (this.m_resizeObserver = null),
+            (this.m_UVsMin = void 0),
+            (this.m_UVsMax = void 0),
+            (this.m_bOverdragBlocking = !1),
+            (this.m_overdragBlockingElements = []);
+          const t = void 0 !== this.props.width || void 0 !== this.props.height,
+            r = void 0 !== this.props.meters_per_pixel,
+            o = void 0 !== this.props.target_dpi_panel_id,
+            i =
+              void 0 !== this.props.rendermodel_component_device_index ||
+              void 0 !== this.props.rendermodel_component_name;
+          if (
+            i &&
+            (void 0 === this.props.rendermodel_component_device_index ||
+              void 0 === this.props.rendermodel_component_name)
+          )
+            throw new Error(
+              "Panel requires both rendermodel_component_device_index and rendermodel_component_name to be a rendermodel texture.",
+            );
+          const n = [t, r, o, i].filter((e) => e).length,
+            a =
+              "an (explicit width and/or height), an explicit meters_per_pixel, a target_panel_dpi panel ID, or a rendermodel name";
+          if (0 == n)
+            throw new Error(`Panel requires one of the following props: ${a}.`);
+          if (n > 1)
+            throw new Error(
+              `Panel cannot have more of the following of the following props: ${a}.`,
+            );
+          super.setBuildNodeOverride(this.buildNode);
+        }
+        get lastDOMContentSize() {
+          return this.m_LastDOMContentSize;
+        }
+        RegisterForDOMContentSizeChangedCallback(e) {
+          return this.m_DOMContentSizeChangedCallbacks.Register(e);
+        }
+        isExternal() {
+          return !!this.props.overlay_key;
+        }
+        getExternalOverlayKey() {
+          return this.props.overlay_key;
+        }
+        getEmbeddedIndex() {
+          return this.m_nEmbeddedIndex;
+        }
+        componentWillReceiveProps_UNSAFE() {
+          y.s_bPanelsAreDirty = !0;
+        }
+        componentDidMount() {
+          super.componentDidMount(),
+            (this.m_resizeObserver = new ResizeObserver(this.onResizeObserved)),
+            this.m_resizeObserver.observe(this.getCurrentRootElement()),
+            (this.m_nEmbeddedIndex = d.O.Current().addEmbeddedPanelUVs(this)),
+            (y.s_bPanelsAreDirty = !0),
+            this.getCurrentRootElement().addEventListener(
+              "mousedown",
+              this.onPanelMouseDown,
+            ),
+            this.forceUpdate();
+        }
+        onResizeObserved(e, t) {
+          d.O.Current().forceLayoutUpdate(),
+            (this.m_LastDOMContentSize = {
+              clientWidth: e[0].contentRect.width,
+              clientHeight: e[0].contentRect.height,
+            }),
+            this.m_DOMContentSizeChangedCallbacks.Dispatch(
+              this.m_LastDOMContentSize,
+            );
+        }
+        componentWillUnmount() {
+          this.m_resizeObserver &&
+            (this.m_resizeObserver.disconnect(),
+            (this.m_resizeObserver = null)),
+            this.stopOverDragBlocking(),
+            this.getCurrentRootElement().removeEventListener(
+              "mousedown",
+              this.onPanelMouseDown,
+            ),
+            (y.s_bPanelsAreDirty = !0),
+            d.O.Current().removeEmbeddedPanelUVs(this),
+            this.m_DOMContentSizeChangedCallbacks.ClearAllCallbacks(),
+            super.componentWillUnmount();
+        }
+        onPanelMouseDown() {
+          this.startOverDragBlocking();
+        }
+        startOverDragBlocking() {
+          if (this.m_bOverdragBlocking) return;
+          const e = document.body.getBoundingClientRect(),
+            t = this.getCurrentRootElement().getBoundingClientRect();
+          this.createOverdragBlockingElement(0, 0, e.width, t.y),
+            this.createOverdragBlockingElement(
+              0,
+              t.y + t.height,
+              e.width,
+              e.height - t.height - t.y,
+            ),
+            this.createOverdragBlockingElement(0, t.y, t.x, t.height),
+            this.createOverdragBlockingElement(
+              t.x + t.width,
+              t.y,
+              e.width - t.width - t.x,
+              t.height,
+            ),
+            window.document.addEventListener("mouseup", this.onWindowMouseUp),
+            (this.m_bOverdragBlocking = !0);
+        }
+        stopOverDragBlocking() {
+          this.m_bOverdragBlocking &&
+            (this.m_overdragBlockingElements.forEach((e) => {
+              document.body.removeChild(e);
+            }),
+            (this.m_overdragBlockingElements = []),
+            window.document.removeEventListener(
+              "mouseup",
+              this.onWindowMouseUp,
+            ),
+            (this.m_bOverdragBlocking = !1));
+        }
+        createOverdragBlockingElement(e, t, r, o) {
+          let i = document.createElement("div");
+          (i.style.position = "absolute"),
+            (i.style.top = t + "px"),
+            (i.style.left = e + "px"),
+            (i.style.width = r + "px"),
+            (i.style.height = o + "px"),
+            (i.style.zIndex = "90019001"),
+            this.m_overdragBlockingElements.push(i),
+            document.body.appendChild(i);
+        }
+        onWindowMouseUp(e) {
+          this.stopOverDragBlocking();
+        }
+        getNodeType() {
+          return "panel";
+        }
+        get visibility() {
+          var e;
+          return null !== (e = this.props.visibility) && void 0 !== e
+            ? e
+            : a.Visible;
+        }
+        buildNode(e, t) {
+          var r, o, i, n, s, l, _, c;
+          if (
+            !(
+              this.visibility == a.Visible ||
+              this.visibility == a.InvisibleButIntersectable
+            )
+          )
+            return [e, null];
+          let m = Object.assign(Object.assign({}, e), {
+              bInsideReparentedPanel: !1,
+              currentPanel: this,
+            }),
+            h = this.createSgNode(t),
+            g = { x: 0, y: 0 };
+          g =
+            "object" == typeof this.props.origin
+              ? (0, p.PG)(this.props.origin, { x: 0, y: 0 })
+              : v(this.props.origin);
+          const y = this.props.overlay_key,
+            S = (0, u.w5)();
+          y && y.length > 0
+            ? (h.properties.key = y)
+            : S
+              ? (h.properties.key = S)
+              : (h.properties.overlay_handle = (0, u.X4)()),
+            (h.properties.uv_min =
+              null !== (r = D(this.m_UVsMin)) && void 0 !== r ? r : void 0),
+            (h.properties.uv_max =
+              null !== (o = D(this.m_UVsMax)) && void 0 !== o ? o : void 0);
+          const B = 1 / d.O.Current().m_fCurrentScale;
+          let C = this.props.frame_resize_scale_factor;
+          return (
+            this.props.is_frame_page_main_panel && (C = null != C ? C : 1),
+            (h.properties.width =
+              null !== (i = this.props.width) && void 0 !== i ? i : void 0),
+            (h.properties.height =
+              null !== (n = this.props.height) && void 0 !== n ? n : void 0),
+            (h.properties["scale-index"] =
+              null !== (s = this.props.scale_index) && void 0 !== s ? s : 0),
+            (h.properties["min-width"] =
+              null !== (l = this.props.min_width) && void 0 !== l ? l : void 0),
+            (h.properties["target-width-anchor-id"] = (0, u.bl)(
+              this.props.target_width_anchor_id,
+            )),
+            (h.properties["target-dpi-panel-id"] = (0, u.bl)(
+              this.props.target_dpi_panel_id,
+            )),
+            (h.properties["target-dpi-multiplier"] =
+              this.props.target_dpi_multiplier),
+            (h.properties["meters-per-pixel"] =
+              null != this.props.meters_per_pixel
+                ? this.props.meters_per_pixel * B
+                : void 0),
+            (h.properties["subview-parent-panel-key"] =
+              this.props.subview_parent_panel_key),
+            (h.properties.curvature = this.props.curvature),
+            (h.properties["curvature-origin-id"] = (0, u.bl)(
+              this.props.curvature_origin_id,
+            )),
+            (h.properties.spherical = this.props.spherical),
+            (h.properties.interactive = this.props.interactive),
+            (h.properties.scrollable = this.props.scrollable),
+            (h.properties.undocked = this.props.undocked),
+            (h.properties.modal = this.props.modal),
+            (h.properties["requires-laser"] = this.props.requires_laser),
+            (h.properties["allow-input-capture"] =
+              this.props.allow_input_capture),
+            (h.properties["lasermouse-filtering"] =
+              null === (_ = this.props) || void 0 === _
+                ? void 0
+                : _.lasermouse_filtering),
+            (h.properties["hide-laser-when-clicking"] =
+              this.props.hide_lasermouse_when_clicking),
+            (h.properties["hide-laser-intersection"] =
+              null === (c = this.props) || void 0 === c
+                ? void 0
+                : c.hide_laser_intersection),
+            (h.properties["make-overlays-interactive-if-visible"] =
+              this.props.make_overlays_interactive_if_visible),
+            (h.properties["is-grab-handle"] = this.props.is_grab_handle),
+            (h.properties["embedded-uv-index"] = this.m_nEmbeddedIndex),
+            (h.properties.origin = (0, p.Hm)(g)),
+            (h.properties.debug_name = this.props.debug_name),
+            (h.properties.sampler = this.props.sampler),
+            (h.properties.reflect = this.props.reflect),
+            (h.properties.stereoscopy = this.props.stereoscopy),
+            (h.properties.rendermodel_component_device_index =
+              this.props.rendermodel_component_device_index),
+            (h.properties.rendermodel_component_name =
+              this.props.rendermodel_component_name),
+            (h.properties["texture-id"] = (0, u.bl)(this.props.texture_id)),
+            (h.properties["sort-order"] = this.props.sort_order),
+            (h.properties["sort-depth-bias"] = this.props.sort_depth_bias),
+            (h.properties.visibility = this.visibility),
+            (h.properties["frame-resize-scale-factor"] = C),
+            (h.properties["main-panel-for-frame-page"] =
+              this.props.is_frame_page_main_panel),
+            [m, h]
+          );
+        }
+        scaleLocalUVToGlobal(e) {
+          const t = this.m_UVsMax.u - this.m_UVsMin.u,
+            r = this.m_UVsMax.v - this.m_UVsMin.v;
+          return { u: this.m_UVsMin.u + t * e.u, v: this.m_UVsMin.v + r * e.v };
+        }
+        updateLayoutValues() {
+          if (this.props.overlay_key)
+            return (
+              (this.m_UVsMin = this.props.uv_min),
+              void (this.m_UVsMax = this.props.uv_max)
+            );
+          this.m_Rect = this.getCurrentRootElement().getBoundingClientRect();
+          let e = this.getCurrentRootElement().ownerDocument.defaultView;
+          (this.m_UVsMin = {
+            u: this.m_Rect.x / e.innerWidth,
+            v: this.m_Rect.y / e.innerHeight,
+          }),
+            (this.m_UVsMax = {
+              u: (this.m_Rect.x + this.m_Rect.width) / e.innerWidth,
+              v: (this.m_Rect.y + this.m_Rect.height) / e.innerHeight,
+            });
+        }
+        PanelContextValue() {
+          return this;
+        }
+        internalRender() {
+          return _.createElement(
+            "vsg-node",
+            { style: { display: this.visibility == a.Hidden ? "none" : null } },
+            _.createElement(m.tH, null, this.props.children),
+            this.props.is_frame_page_main_panel &&
+              _.createElement(S, { panel: this, panelID: this.getID() }),
+          );
+        }
+      }
+      function S(e) {
+        const { panel: t, panelID: r } = e,
+          { page: o } = (0, h.N)();
+        return (
+          _.useEffect(() => {
+            const { Unset: e } = null == o ? void 0 : o.SetMainPanel(t);
+            return e;
+          }, [o, t, r]),
+          null
+        );
+      }
+      (y.s_bPanelsAreDirty = !1),
+        (0, l.Cg)([c.o], y.prototype, "onResizeObserved", null),
+        (0, l.Cg)([c.o], y.prototype, "onPanelMouseDown", null),
+        (0, l.Cg)([c.o], y.prototype, "onWindowMouseUp", null),
+        (0, l.Cg)([c.o], y.prototype, "buildNode", null);
+    },
+    3361: (e, t, r) => {
+      r.d(t, { d: () => s });
+      var o,
+        i = r(6540),
+        n = r(3496),
+        a = r(6292);
       !(function (e) {
         (e[(e.Seated = 0)] = "Seated"),
           (e[(e.Standing = 1)] = "Standing"),
           (e[(e.Raw = 2)] = "Raw");
-      })(r || (r = {}));
-      class _ extends a._J {
+      })(o || (o = {}));
+      class s extends n._J {
         constructor(e) {
           super(e);
           if (
@@ -28,65 +413,66 @@ var CLSTAMP = "10334134";
         }
         internalRender() {
           var e;
-          let t, o, _;
+          let t, r, s;
           this.props.transform
-            ? ((t = (0, a.j_)(this.props.transform.translation)),
-              (o = this.props.transform.rotation),
-              (_ = this.props.transform.scale))
-            : ((t = (0, a.XI)(this.props.translation)
-                ? null === (e = (0, a.UM)(this.props.translation)) ||
+            ? ((t = (0, n.j_)(this.props.transform.translation)),
+              (r = this.props.transform.rotation),
+              (s = this.props.transform.scale))
+            : ((t = (0, n.XI)(this.props.translation)
+                ? null === (e = (0, n.UM)(this.props.translation)) ||
                   void 0 === e
                   ? void 0
                   : e.join(" ")
-                : (0, a.j_)(
-                    (0, a.Wi)(this.props.translation, { x: 0, y: 0, z: 0 }),
+                : (0, n.j_)(
+                    (0, n.Wi)(this.props.translation, { x: 0, y: 0, z: 0 }),
                   )),
-              (o =
+              (r =
                 this.props.rotation && "w" in this.props.rotation
                   ? this.props.rotation
-                  : (0, n.Fb)(
-                      (0, n.tx)(
-                        (0, a.Wi)(this.props.rotation, { x: 0, y: 0, z: 0 }),
+                  : (0, a.Fb)(
+                      (0, a.tx)(
+                        (0, n.Wi)(this.props.rotation, { x: 0, y: 0, z: 0 }),
                         Math.PI / 180,
                       ),
                     )),
-              (_ =
+              (s =
                 "number" == typeof this.props.scale
                   ? {
                       x: this.props.scale,
                       y: this.props.scale,
                       z: this.props.scale,
                     }
-                  : (0, a.Wi)(this.props.scale, { x: 1, y: 1, z: 1 })));
-          let s = (0, a.hi)(o),
-            l = (0, a.j_)(_);
+                  : (0, n.Wi)(this.props.scale, { x: 1, y: 1, z: 1 })));
+          let l = (0, n.hi)(r),
+            _ = (0, n.j_)(s);
           return i.createElement(
             "vsg-transform",
             {
               translation: t,
-              rotation: s,
-              scale: l,
+              rotation: l,
+              scale: _,
               "curvature-pitch": this.props.curvature_pitch,
               "invert-parent-panel-pitch": this.props.invert_parent_panel_pitch,
               "ignore-parent-scale": this.props.ignore_parent_scale,
               "transform-path": this.props.transform_path,
               "parent-path": this.props.parent_path,
-              "parent-origin": r[this.props.parent_origin],
+              "parent-origin": o[this.props.parent_origin],
               "parent-id": this.props.parent_id,
+              "frame-resize-scale-factor": this.props.frame_resize_scale_factor,
             },
             this.props.children,
           );
         }
       }
     },
-    4367: (e, t, o) => {
-      var r, i, a, n, _, s, l, p;
-      o.d(t, {
+    4367: (e, t, r) => {
+      var o, i, n, a, s, l, _, p;
+      r.d(t, {
         $: () => p,
-        KI: () => l,
-        QR: () => n,
-        en: () => a,
-        fD: () => r,
+        KI: () => _,
+        QR: () => a,
+        en: () => n,
+        fD: () => o,
       }),
         (function (e) {
           (e[(e.Invalid = 0)] = "Invalid"),
@@ -158,6 +544,7 @@ var CLSTAMP = "10334134";
             (e[(e.AllowCameraToggle_Bool = 1055)] = "AllowCameraToggle_Bool"),
             (e[(e.AllowLightSourceFrequency_Bool = 1056)] =
               "AllowLightSourceFrequency_Bool"),
+            (e[(e.HasEyeTracker_Bool = 1060)] = "HasEyeTracker_Bool"),
             (e[(e.ReportsTimeSinceVSync_Bool = 2e3)] =
               "ReportsTimeSinceVSync_Bool"),
             (e[(e.SecondsFromVsyncToPhotons_Float = 2001)] =
@@ -417,7 +804,7 @@ var CLSTAMP = "10334134";
               "VRLinkClientHMDSupportsRoomSetupRequests_Bool"),
             (e[(e.TrackedDeviceProperty_Max = 1e6)] =
               "TrackedDeviceProperty_Max");
-        })(r || (r = {})),
+        })(o || (o = {})),
         (function (e) {
           (e[(e.k_EButton_System = 0)] = "k_EButton_System"),
             (e[(e.k_EButton_ApplicationMenu = 1)] =
@@ -457,13 +844,13 @@ var CLSTAMP = "10334134";
             (e[(e.Snap = 3)] = "Snap"),
             (e[(e.Sliding = 4)] = "Sliding"),
             (e[(e.SlidingEdge = 5)] = "SlidingEdge");
-        })(a || (a = {})),
+        })(n || (n = {})),
         (function (e) {
           (e[(e.Minimal = 1)] = "Minimal"),
             (e[(e.Modal = 2)] = "Modal"),
             (e[(e.ShowArrowKeys = 4)] = "ShowArrowKeys"),
             (e[(e.HideDoneKey = 8)] = "HideDoneKey");
-        })(n || (n = {})),
+        })(a || (a = {})),
         (function (e) {
           (e[(e.Unknown = -1)] = "Unknown"),
             (e[(e.Idle = 0)] = "Idle"),
@@ -471,18 +858,18 @@ var CLSTAMP = "10334134";
             (e[(e.UserInteraction_Timeout = 2)] = "UserInteraction_Timeout"),
             (e[(e.Standby = 3)] = "Standby"),
             (e[(e.Idle_Timeout = 4)] = "Idle_Timeout");
-        })(_ || (_ = {})),
+        })(s || (s = {})),
         (function (e) {
           (e[(e.Notification_Shown = 600)] = "Notification_Shown"),
             (e[(e.Notification_Hidden = 601)] = "Notification_Hidden"),
             (e[(e.Notification_BeginInteraction = 602)] =
               "Notification_BeginInteraction"),
             (e[(e.Notification_Destroyed = 603)] = "Notification_Destroyed");
-        })(s || (s = {})),
+        })(l || (l = {})),
         (function (e) {
           (e[(e.TheaterFast = 0)] = "TheaterFast"),
             (e[(e.TheaterSlow = 1)] = "TheaterSlow");
-        })(l || (l = {})),
+        })(_ || (_ = {})),
         (function (e) {
           (e[(e.Constant = 0)] = "Constant"),
             (e[(e.Nearest = 1)] = "Nearest"),
@@ -492,4 +879,4 @@ var CLSTAMP = "10334134";
         })(p || (p = {}));
     },
   },
-]); //# sourceMappingURL=file:///home/buildbot/buildslave/steamvr_rel_hotfix_npm_vrwebui/build/public/runtime/resources/webinterface/dashboard/sourcemaps/chunk~1a88854fa.js.map
+]); //# sourceMappingURL=file:///home/buildbot/buildslave/steamvr_rel_npm_vrwebui/build/public/runtime/resources/webinterface/dashboard/sourcemaps/chunk~1a88854fa.js.map

@@ -284,7 +284,6 @@ $Ib?s
 11Y@
 1e+9999
 1eaB@
-2\vpP
 3 FB
 37>k
 3>N;kU
@@ -573,7 +572,6 @@ LargestUInt out of Int range
 LeaveCriticalSection
 Line %d, Column %d
 LiquidVR
-LoadLibraryExA
 LoadLibraryExW
 LoadLibraryW
 LocalContextCacheSize
@@ -861,6 +859,7 @@ VRInitError_Init_AlreadyRunning
 VRInitError_Init_AnotherAppLaunching
 VRInitError_Init_AppInfoInitFailed
 VRInitError_Init_BadLuid
+VRInitError_Init_ClientVersionAlreadyProvided
 VRInitError_Init_CouldNotStartPrism
 VRInitError_Init_DuplicateBootstrapper
 VRInitError_Init_FactoryNotFound
@@ -875,6 +874,7 @@ VRInitError_Init_IllegalTypeTransition
 VRInitError_Init_InitCanceledByUser
 VRInitError_Init_InstallationCorrupt
 VRInitError_Init_InstallationNotFound
+VRInitError_Init_InstallationTooOld
 VRInitError_Init_InterfaceNotFound
 VRInitError_Init_Internal
 VRInitError_Init_InvalidApplicationType
@@ -1081,7 +1081,7 @@ bad file descriptor
 bad locale name
 bad message
 broken pipe
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\openvr_api\Retailopenvr_api\win64\2017\openvr_api.pdb
+c:\buildslave\steamvr_rel_win64\build\src\openvr_api\Retailopenvr_api\win64\2017\openvr_api.pdb
 c?FA@s}
 ceil
 collectComments

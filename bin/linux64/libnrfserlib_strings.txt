@@ -893,6 +893,7 @@ GLIBC_2.14
 GLIBC_2.2.5
 GLIBC_2.3
 GLIBC_2.3.2
+GLIBC_2.3.3
 GLIBC_2.3.4
 Get Service Handles. UUID: 0x%4.4X, start_handle: %d, end_handle: %d\n
 GetCOMPortDeviceInfo(unsigned short, unsigned short, std::vector<COMPortDeviceInfo_t, std::allocator<COMPortDeviceInfo_t>>&)
@@ -2958,6 +2959,9 @@ pthread_cond_destroy
 pthread_cond_init
 pthread_cond_signal
 pthread_cond_timedwait
+pthread_condattr_destroy
+pthread_condattr_init
+pthread_condattr_setclock
 pthread_create
 pthread_getschedparam
 pthread_getspecific
@@ -7173,6 +7177,10 @@ void std::vector<std::string, std::allocator<std::string>>::_M_realloc_insert<st
 void std::vector<std::string, std::allocator<std::string>>::_M_realloc_insert<std::string>(__gnu_cxx::__normal_iterator<std::string*, std::vector<std::string, std::allocator<std::string>>>, std::string&&)
 void std::vector<unsigned long, std::allocator<unsigned long>>::_M_realloc_insert<unsigned long const&>(__gnu_cxx::__normal_iterator<unsigned long*, std::vector<unsigned long, std::allocator<unsigned long>>>, unsigned long const&)
 vr-input-workshop://
+vr::CompareVersions(vr::VRVersion_t const&, vr::VRVersion_t const&)
+vr::VersionAsString(vr::VRVersion_t const&)
+vr::VersionAsString(vr::VRVersion_t const&) (.cold)
+vr::k_SteamVRVersion
 vrcore::crc32(unsigned int, void const*, unsigned long)
 vrcore::crc32(unsigned int, void const*, unsigned long)::crcTable
 vsnprintf

@@ -855,7 +855,6 @@ LCIDToLocaleName
 LCMapStringEx
 LCMapStringW
 LINEAR_HISTOGRAM
-LLD PDB.
 LOG_FATAL
 LWG>
 LWW>
@@ -1040,7 +1039,7 @@ QueryPerformanceCounter
 QueryPerformanceFrequency
 QueryThreadCycleTime
 REPLACE_THIS_STRING
-RSDS
+RSDS|
 R\n0\tP
 R\n0\tp
 R\vpL
@@ -1818,6 +1817,7 @@ e%s%d
 e+000
 eF>t
 eLK(w
+eLLD PDB.
 enable-background-thread-pool
 enable-chrome-policy
 enable-chrome-runtime

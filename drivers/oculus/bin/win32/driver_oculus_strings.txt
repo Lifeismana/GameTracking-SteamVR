@@ -2,14 +2,14 @@
  (Left Controller)
  (Right Controller)
  (does the path point to a directory?)
- (libfound)
- (noexist)
  at line 
  exceeds maximum allowed file size 
  in Buffer\n
+ w/ VirtualDesktop.Injector64.dll
 " not found in the scene.
 "%/28;=#$019:>?
 ". Must be "perspective" or "orthographic"
+"TP8
 "accessors" object not found in .gltf\n
 "asset" object not found in .gltf or not an object type\n
 "bufferViews" object not found in .gltf\n
@@ -124,8 +124,8 @@ $3br
 .?AV?$_Func_impl_no_alloc@V<lambda_c404b8adfd4061fa7fd3eab027a6faab>@@PAXPBD@std@@
 .?AV?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8CVRMailbox@@AEXABVValue@Json@@@ZPAV3@ABU?$_Ph@$00@2@@std@@XABVValue@Json@@@std@@
 .?AV?$_Iosb@H@std@@
+.?AV?$_LaunchPad@V?$unique_ptr@V?$tuple@V<lambda_3826a36136d54ff96e8fe52fb1fb7006>@@@std@@U?$default_delete@V?$tuple@V<lambda_3826a36136d54ff96e8fe52fb1fb7006>@@@std@@@2@@std@@@std@@
 .?AV?$_LaunchPad@V?$unique_ptr@V?$tuple@V<lambda_7f5b9e7ec5c8f9ee4eaffc493ce1f82c>@@@std@@U?$default_delete@V?$tuple@V<lambda_7f5b9e7ec5c8f9ee4eaffc493ce1f82c>@@@std@@@2@@std@@@std@@
-.?AV?$_LaunchPad@V?$unique_ptr@V?$tuple@V<lambda_b49756afc19359a5a7a5bd651cfb3f63>@@@std@@U?$default_delete@V?$tuple@V<lambda_b49756afc19359a5a7a5bd651cfb3f63>@@@std@@@2@@std@@@std@@
 .?AV?$_Ref_count_obj@V?$output_string_adapter@DV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@detail@nlohmann@@@std@@
 .?AV?$basic_filebuf@DU?$char_traits@D@std@@@std@@
 .?AV?$basic_ifstream@DU?$char_traits@D@std@@@std@@
@@ -299,7 +299,7 @@ $3br
 /user/wrist/right
 0 width
 0-pixel image
-000102030405060708091011121314151617181920212223242526272829303132333435363738394041424344454647484950515253545556575859606162636465666768697071727374757677787980818283848586878889909192939495969798990001020304050607080910111213141516171819202122232425262728293031323334353637383940414243444546474849505152535455565758596061626364656667686970717273747576777879808182838485868788899091929394959697989900010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899
+000102030405060708091011121314151617181920212223242526272829303132333435363738394041424344454647484950515253545556575859606162636465666768697071727374757677787980818283848586878889909192939495969798990001020304050607080910111213141516171819202122232425262728293031323334353637383940414243444546474849505152535455565758596061626364656667686970717273747576777879808182838485868788899091929394959697989900010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899l
 1/2/4/8/16-bit only
 11 4 22 44 44 22 444444
 11eU%
@@ -515,7 +515,6 @@ File size
 File size mismatch : 
 File write error: 
 Forcing chaperone update\n
-Found path: 
 FreeLibrary
 GPUCountingSemaphore::Signal(%llu)
 GPUCountingSemaphore::Signal(%llu) FAILED!!
@@ -575,7 +574,7 @@ IVRDriverManager_001
 IVRExtendedDisplay_001
 IVRIPCResourceManagerClient_003
 IVRInputInternal_002
-IVRInput_010
+IVRInput_011
 IVRMailbox_002
 IVRNotificationsInternal_001
 IVROverlayInternal_XXX
@@ -592,7 +591,7 @@ IVRServerInternal_XXX
 IVRSettingsInternal_001
 IVRSettings_003
 IVRSystemLayerInternal_XXX
-IVRSystem_023
+IVRSystem_026
 IVRTrackedCameraInternal_XXX
 IVRVirtualDisplay_002
 IVRWatchdogProvider_001
@@ -704,7 +703,7 @@ Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
 RPCRT4.dll
-RSDS 
+RSDS
 RaiseException
 ResetEvent
 S-1-15-2-2765576060-2389096713-3079022642-4099546867-1445191215-3071396046-3987166893
@@ -779,6 +778,7 @@ VRInitError_VendorSpecific_OculusRuntimeBadInstall
 VR_CONFIG_PATH
 VR_LOG_PATH
 VR_OVERRIDE
+VirtualDesktop.Injector64.dll
 VirtualDesktop.LibOVRRT64_1.dll
 WINMM.dll
 WTHelperGetProvSignerFromChain
@@ -789,7 +789,6 @@ WakeAllConditionVariable
 Warning: Watchdog %s not properly cleaned up%s%s\n
 WinVerifyTrust
 XXXX PNG chunk not known
-ZJG\t
 Zjz\v
 [AnimSkeleton] Failed to load GLTF file: %s
 [KeyFramedDataResource] Failed to load GLTF file: %s
@@ -814,7 +813,7 @@ Zjz\v
 ] invalid bufferView
 ] is not a JSON object.
 ],"subtype":
-]c:\buildslave\steamvr_rel_hotfix_win32\build\src\drivers\oculus\oculusdirect.cpp:982
+]c:\buildslave\steamvr_rel_win32\build\src\drivers\oculus\oculusdirect.cpp:982
 _CIacos
 _CIfmod
 _CIpow
@@ -991,18 +990,18 @@ bulgarian
 byteLength
 byteOffset
 byteStride
-c:\buildslave\steamvr_rel_hotfix_win32\build\src\common\vrcommon\animation\animresourcemanager.cpp
-c:\buildslave\steamvr_rel_hotfix_win32\build\src\common\vrcommon\vrmailbox.cpp
-c:\buildslave\steamvr_rel_hotfix_win32\build\src\common\vrcommon\vrrenderer\d3d11renderer.cpp
-c:\buildslave\steamvr_rel_hotfix_win32\build\src\common\vrcommon\vrrenderer\ivrrenderer.h
-c:\buildslave\steamvr_rel_hotfix_win32\build\src\drivers\oculus\Retail\win32\2017\driver_oculus.pdb
-c:\buildslave\steamvr_rel_hotfix_win32\build\src\drivers\oculus\driver_oculus.cpp
-c:\buildslave\steamvr_rel_hotfix_win32\build\src\drivers\oculus\oculusdirect.cpp
-c:\buildslave\steamvr_rel_hotfix_win32\build\src\drivers\oculus\oculusdirect.cpp:1041
-c:\buildslave\steamvr_rel_hotfix_win32\build\src\drivers\oculus\oculusdirect.cpp:1068
-c:\buildslave\steamvr_rel_hotfix_win32\build\src\drivers\oculus\oculusdirect.cpp:1166
-c:\buildslave\steamvr_rel_hotfix_win32\build\src\drivers\oculus\oculusdirect.cpp:1197
-c:\buildslave\steamvr_rel_hotfix_win32\build\src\drivers\oculus\oculusdirect.cpp:294
+c:\buildslave\steamvr_rel_win32\build\src\common\vrcommon\animation\animresourcemanager.cpp
+c:\buildslave\steamvr_rel_win32\build\src\common\vrcommon\vrmailbox.cpp
+c:\buildslave\steamvr_rel_win32\build\src\common\vrcommon\vrrenderer\d3d11renderer.cpp
+c:\buildslave\steamvr_rel_win32\build\src\common\vrcommon\vrrenderer\ivrrenderer.h
+c:\buildslave\steamvr_rel_win32\build\src\drivers\oculus\Retail\win32\2017\driver_oculus.pdb
+c:\buildslave\steamvr_rel_win32\build\src\drivers\oculus\driver_oculus.cpp
+c:\buildslave\steamvr_rel_win32\build\src\drivers\oculus\oculusdirect.cpp
+c:\buildslave\steamvr_rel_win32\build\src\drivers\oculus\oculusdirect.cpp:1041
+c:\buildslave\steamvr_rel_win32\build\src\drivers\oculus\oculusdirect.cpp:1068
+c:\buildslave\steamvr_rel_win32\build\src\drivers\oculus\oculusdirect.cpp:1166
+c:\buildslave\steamvr_rel_win32\build\src\drivers\oculus\oculusdirect.cpp:1197
+c:\buildslave\steamvr_rel_win32\build\src\drivers\oculus\oculusdirect.cpp:294
 camera
 cameras
 can't merge dc and ac
@@ -1354,6 +1353,7 @@ ovr_Initialize failed with ovrErrorType %d - %s\n
 ovr_Initialize failed with ovrErrorType %d\n
 ovr_Initialize never called
 ovr_Initialize second attempt failed with ovrErrorType %d - %s\n
+ovr_Initialize: %s\n
 ovr_IsExtensionSupported
 ovr_Lookup
 ovr_RecenterTrackingOrigin

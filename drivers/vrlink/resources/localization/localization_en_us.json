@@ -3,7 +3,8 @@
 
 	"Settings_Title": "Steam Link",
 	"Setting_automaticStreamFormatWidth": "Encoded Video Size",
-	"Setting_streamFormatWidth": "Encoded Video Size (px)",
+	"Setting_foveatedStreamFormatWidth": "Foveated Encoded Video Size (px)",
+	"Setting_nonFoveatedStreamFormatWidth": "Non-Foveated Encoded Video Size (px)",
 	"Setting_automaticBandwidth": "Target Bandwidth",
 	"Setting_targetBandwidth": "Target Bandwidth (Mbps)",
 	"Setting_10bit": "Use 10 bit depth encoding",
@@ -21,6 +22,9 @@
 	"Setting_AllowVolumeControlSync": "Control headset volume and mute from SteamVR",
 	"Setting_DisableQoS" : "Disable QoS",
 	"Setting_EnableQoS" : "Enable QoS",
+	"Setting_Foveation": "Foveation",
+	"Setting_FoveationOn": "On",
+	"Setting_FoveationOff": "Off",
 
 	"svl_hand_interaction_augmented": "Hand Tracking Controller",
 	"/input/index_pinch": "Index Pinch",

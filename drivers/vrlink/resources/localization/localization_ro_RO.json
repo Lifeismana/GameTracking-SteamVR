@@ -2,7 +2,6 @@
 	"language_tag": "ro_RO",
 	"Settings_Title": "Steam Link",
 	"Setting_automaticStreamFormatWidth": "Dimensiunea imaginii video codificate",
-	"Setting_streamFormatWidth": "Dimensiunea imaginii video codificate (px)",
 	"Setting_automaticBandwidth": "Lățimea de bandă dorită",
 	"Setting_targetBandwidth": "Lățimea de bandă dorită (Mbps)",
 	"Setting_10bit": "Utilizează o codificare cu adâncimea de 10 biți",

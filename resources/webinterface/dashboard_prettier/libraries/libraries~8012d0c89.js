@@ -1,4 +1,4 @@
-var CLSTAMP = "10334134";
+var CLSTAMP = "10510795";
 (self.webpackChunkvrwebui = self.webpackChunkvrwebui || []).push([
   [991],
   {
@@ -439,7 +439,7 @@ var CLSTAMP = "10334134";
         R = {},
         C = null;
       function T(t, e) {
-        void 0 === e && (e = 0), M(), (e = R[e]);
+        void 0 === e && (e = 0), B(), (e = R[e]);
         for (var r = [], n = 0; n < t.length; n += 3) {
           var o = t[n],
             i = n + 1 < t.length,
@@ -455,7 +455,7 @@ var CLSTAMP = "10334134";
         }
         return r.join("");
       }
-      function B(t) {
+      function M(t) {
         var e = t.length,
           r = (3 * e) / 4;
         r % 3
@@ -476,7 +476,7 @@ var CLSTAMP = "10334134";
               }
               return e;
             }
-            M();
+            B();
             for (var n = 0; ; ) {
               var o = r(-1),
                 i = r(0),
@@ -494,7 +494,7 @@ var CLSTAMP = "10334134";
           n.subarray(0, o)
         );
       }
-      function M() {
+      function B() {
         if (!C) {
           C = {};
           for (
@@ -604,7 +604,7 @@ var CLSTAMP = "10334134";
         var e = t >>> 0;
         (t = Math.floor((t - e) / 4294967296) >>> 0), (U = e), (I = t);
       }
-      function F(t) {
+      function D(t) {
         var e = 0 > t,
           r = (t = Math.abs(t)) >>> 0;
         (t = Math.floor((t - r) / 4294967296)),
@@ -616,7 +616,7 @@ var CLSTAMP = "10334134";
           (U = r),
           (I = t);
       }
-      function D(t) {
+      function F(t) {
         var e = 0 > t;
         L((t = 2 * Math.abs(t))), (t = U);
         var r = I;
@@ -822,7 +822,7 @@ var CLSTAMP = "10334134";
           : t.constructor === ArrayBuffer || t.constructor === Array
             ? new Uint8Array(t)
             : t.constructor === String
-              ? B(t)
+              ? M(t)
               : t instanceof Uint8Array
                 ? new Uint8Array(t.buffer, t.byteOffset, t.byteLength)
                 : (_("Type not convertible to Uint8Array."), new Uint8Array(0));
@@ -848,8 +848,8 @@ var CLSTAMP = "10334134";
           void 0,
         ),
         c("jspb.utils.splitUint64", L, void 0),
-        c("jspb.utils.splitInt64", F, void 0),
-        c("jspb.utils.splitZigzag64", D, void 0),
+        c("jspb.utils.splitInt64", D, void 0),
+        c("jspb.utils.splitZigzag64", F, void 0),
         c("jspb.utils.splitFloat32", V, void 0),
         c("jspb.utils.splitFloat64", N, void 0),
         c("jspb.utils.splitHash64", z, void 0),
@@ -923,7 +923,7 @@ var CLSTAMP = "10334134";
         c(
           "jspb.utils.numberToHash64",
           function (t) {
-            return F(t), J(U, I);
+            return D(t), J(U, I);
           },
           void 0,
         ),
@@ -1904,7 +1904,7 @@ var CLSTAMP = "10334134";
         return null == t || t instanceof Uint8Array
           ? t
           : "string" == typeof t
-            ? B(t)
+            ? M(t)
             : (_("Cannot coerce to Uint8Array: " + l(t)), null);
       }
       function At(t) {
@@ -1980,10 +1980,10 @@ var CLSTAMP = "10334134";
           n = {};
         for (r in t) n[r] = 0;
         for (r in e) n[r] = 0;
-        for (r in n) if (!Bt(t[r], e[r])) return !1;
+        for (r in n) if (!Mt(t[r], e[r])) return !1;
         return !0;
       }
-      function Bt(t, e) {
+      function Mt(t, e) {
         if (t == e) return !0;
         if (!h(t) || !h(e))
           return (
@@ -2012,7 +2012,7 @@ var CLSTAMP = "10334134";
               s &&
                 s.constructor == Object &&
                 (g(void 0 === o), g(r === e.length - 1), (o = s), (s = void 0)),
-              !Bt(a, s))
+              !Mt(a, s))
             )
               return !1;
           }
@@ -2021,7 +2021,7 @@ var CLSTAMP = "10334134";
         if (t.constructor === Object) return Tt(t, e);
         throw Error("Invalid type in JSPB array");
       }
-      function Mt(t) {
+      function Bt(t) {
         return new t.constructor(Ut(t.g()));
       }
       function Ut(t) {
@@ -2264,27 +2264,27 @@ var CLSTAMP = "10334134";
             o = 0,
             i = r.length > e.length ? r.length : e.length;
           for (t.b && ((n[0] = t.b), (o = 1)); o < i; o++)
-            Bt(r[o], e[o]) || (n[o] = e[o]);
+            Mt(r[o], e[o]) || (n[o] = e[o]);
           return new t.constructor(n);
         }),
         (dt.equals = function (t, e) {
           return (
             t == e ||
-            (!(!t || !e) && t instanceof e.constructor && Bt(t.g(), e.g()))
+            (!(!t || !e) && t instanceof e.constructor && Mt(t.g(), e.g()))
           );
         }),
         (dt.compareExtensions = Tt),
-        (dt.compareFields = Bt),
+        (dt.compareFields = Mt),
         (dt.prototype.Bb = function () {
-          return Mt(this);
+          return Bt(this);
         }),
         (dt.prototype.cloneMessage = dt.prototype.Bb),
         (dt.prototype.clone = function () {
-          return Mt(this);
+          return Bt(this);
         }),
         (dt.prototype.clone = dt.prototype.clone),
         (dt.clone = function (t) {
-          return Mt(t);
+          return Bt(t);
         }),
         (dt.copyInto = function (t, e) {
           m(t, dt),
@@ -2293,7 +2293,7 @@ var CLSTAMP = "10334134";
               t.constructor == e.constructor,
               "Copy source and target message should have the same type.",
             ),
-            (t = Mt(t));
+            (t = Bt(t));
           for (var r = e.g(), n = t.g(), o = (r.length = 0); o < n.length; o++)
             r[o] = n[o];
           (e.f = t.f), (e.i = t.i);
@@ -2316,10 +2316,10 @@ var CLSTAMP = "10334134";
       function Lt() {
         this.a = [];
       }
-      function Ft(t, e) {
+      function Dt(t, e) {
         (this.lo = t), (this.hi = e);
       }
-      function Dt(t, e) {
+      function Ft(t, e) {
         var r = 65535 & t,
           n = 65535 & e,
           o = e >>> 16;
@@ -2332,10 +2332,10 @@ var CLSTAMP = "10334134";
           4294967296 <= e;
         )
           (e -= 4294967296), (r += 1);
-        return new Ft(e >>> 0, r >>> 0);
+        return new Dt(e >>> 0, r >>> 0);
       }
       function Vt(t) {
-        for (var e = new Ft(0, 0), r = new Ft(0, 0), n = 0; n < t.length; n++) {
+        for (var e = new Dt(0, 0), r = new Dt(0, 0), n = 0; n < t.length; n++) {
           if ("0" > t[n] || "9" < t[n]) return null;
           (r.lo = parseInt(t[n], 10)), (e = e.eb(10).add(r));
         }
@@ -2350,7 +2350,7 @@ var CLSTAMP = "10334134";
           e && (t = t.substring(1)),
           null === (t = Vt(t))
             ? null
-            : (e && (t = new Ft(0, 0).sub(t)), new Nt(t.lo, t.hi))
+            : (e && (t = new Dt(0, 0).sub(t)), new Nt(t.lo, t.hi))
         );
       }
       function Ht() {
@@ -2505,14 +2505,14 @@ var CLSTAMP = "10334134";
         (Lt.prototype.va = function (t) {
           g(t == Math.floor(t)),
             g(0 <= t && 0x10000000000000000 > t),
-            F(t),
+            D(t),
             this.l(U, I);
         }),
         (Lt.prototype.writeUnsignedVarint64 = Lt.prototype.va),
         (Lt.prototype.ua = function (t) {
           g(t == Math.floor(t)),
             g(-0x8000000000000000 <= t && 0x8000000000000000 > t),
-            F(t),
+            D(t),
             this.l(U, I);
         }),
         (Lt.prototype.writeSignedVarint64 = Lt.prototype.ua),
@@ -2525,7 +2525,7 @@ var CLSTAMP = "10334134";
         (Lt.prototype.xa = function (t) {
           g(t == Math.floor(t)),
             g(-0x8000000000000000 <= t && 0x8000000000000000 > t),
-            D(t),
+            F(t),
             this.l(U, I);
         }),
         (Lt.prototype.writeZigzagVarint64 = Lt.prototype.xa),
@@ -2596,7 +2596,7 @@ var CLSTAMP = "10334134";
         (Lt.prototype.T = function (t) {
           g(t == Math.floor(t)),
             g(-0x8000000000000000 <= t && 0x8000000000000000 > t),
-            F(t),
+            D(t),
             this.A(U, I);
         }),
         (Lt.prototype.writeInt64 = Lt.prototype.T),
@@ -2685,91 +2685,91 @@ var CLSTAMP = "10334134";
           return this.a.length - e;
         }),
         (Lt.prototype.writeString = Lt.prototype.U),
-        c("jspb.arith.UInt64", Ft, void 0),
-        (Ft.prototype.cmp = function (t) {
+        c("jspb.arith.UInt64", Dt, void 0),
+        (Dt.prototype.cmp = function (t) {
           return this.hi < t.hi || (this.hi == t.hi && this.lo < t.lo)
             ? -1
             : this.hi == t.hi && this.lo == t.lo
               ? 0
               : 1;
         }),
-        (Ft.prototype.cmp = Ft.prototype.cmp),
-        (Ft.prototype.La = function () {
-          return new Ft(
+        (Dt.prototype.cmp = Dt.prototype.cmp),
+        (Dt.prototype.La = function () {
+          return new Dt(
             ((this.lo >>> 1) | ((1 & this.hi) << 31)) >>> 0,
             (this.hi >>> 1) >>> 0,
           );
         }),
-        (Ft.prototype.rightShift = Ft.prototype.La),
-        (Ft.prototype.Da = function () {
-          return new Ft(
+        (Dt.prototype.rightShift = Dt.prototype.La),
+        (Dt.prototype.Da = function () {
+          return new Dt(
             (this.lo << 1) >>> 0,
             ((this.hi << 1) | (this.lo >>> 31)) >>> 0,
           );
         }),
-        (Ft.prototype.leftShift = Ft.prototype.Da),
-        (Ft.prototype.cb = function () {
+        (Dt.prototype.leftShift = Dt.prototype.Da),
+        (Dt.prototype.cb = function () {
           return !!(2147483648 & this.hi);
         }),
-        (Ft.prototype.msb = Ft.prototype.cb),
-        (Ft.prototype.Ob = function () {
+        (Dt.prototype.msb = Dt.prototype.cb),
+        (Dt.prototype.Ob = function () {
           return !!(1 & this.lo);
         }),
-        (Ft.prototype.lsb = Ft.prototype.Ob),
-        (Ft.prototype.Ua = function () {
+        (Dt.prototype.lsb = Dt.prototype.Ob),
+        (Dt.prototype.Ua = function () {
           return 0 == this.lo && 0 == this.hi;
         }),
-        (Ft.prototype.zero = Ft.prototype.Ua),
-        (Ft.prototype.add = function (t) {
-          return new Ft(
+        (Dt.prototype.zero = Dt.prototype.Ua),
+        (Dt.prototype.add = function (t) {
+          return new Dt(
             (((this.lo + t.lo) & 4294967295) >>> 0) >>> 0,
             ((((this.hi + t.hi) & 4294967295) >>> 0) +
               (4294967296 <= this.lo + t.lo ? 1 : 0)) >>>
               0,
           );
         }),
-        (Ft.prototype.add = Ft.prototype.add),
-        (Ft.prototype.sub = function (t) {
-          return new Ft(
+        (Dt.prototype.add = Dt.prototype.add),
+        (Dt.prototype.sub = function (t) {
+          return new Dt(
             (((this.lo - t.lo) & 4294967295) >>> 0) >>> 0,
             ((((this.hi - t.hi) & 4294967295) >>> 0) -
               (0 > this.lo - t.lo ? 1 : 0)) >>>
               0,
           );
         }),
-        (Ft.prototype.sub = Ft.prototype.sub),
-        (Ft.mul32x32 = Dt),
-        (Ft.prototype.eb = function (t) {
-          var e = Dt(this.lo, t);
-          return ((t = Dt(this.hi, t)).hi = t.lo), (t.lo = 0), e.add(t);
+        (Dt.prototype.sub = Dt.prototype.sub),
+        (Dt.mul32x32 = Ft),
+        (Dt.prototype.eb = function (t) {
+          var e = Ft(this.lo, t);
+          return ((t = Ft(this.hi, t)).hi = t.lo), (t.lo = 0), e.add(t);
         }),
-        (Ft.prototype.mul = Ft.prototype.eb),
-        (Ft.prototype.Xa = function (t) {
+        (Dt.prototype.mul = Dt.prototype.eb),
+        (Dt.prototype.Xa = function (t) {
           if (0 == t) return [];
-          var e = new Ft(0, 0),
-            r = new Ft(this.lo, this.hi);
-          t = new Ft(t, 0);
-          for (var n = new Ft(1, 0); !t.cb(); ) (t = t.Da()), (n = n.Da());
+          var e = new Dt(0, 0),
+            r = new Dt(this.lo, this.hi);
+          t = new Dt(t, 0);
+          for (var n = new Dt(1, 0); !t.cb(); ) (t = t.Da()), (n = n.Da());
           for (; !n.Ua(); )
             0 >= t.cmp(r) && ((e = e.add(n)), (r = r.sub(t))),
               (t = t.La()),
               (n = n.La());
           return [e, r];
         }),
-        (Ft.prototype.div = Ft.prototype.Xa),
-        (Ft.prototype.toString = function () {
+        (Dt.prototype.div = Dt.prototype.Xa),
+        (Dt.prototype.toString = function () {
           for (var t = "", e = this; !e.Ua(); ) {
             var r = (e = e.Xa(10))[0];
             (t = e[1].lo + t), (e = r);
           }
           return "" == t && (t = "0"), t;
         }),
-        (Ft.prototype.toString = Ft.prototype.toString),
-        (Ft.fromString = Vt),
-        (Ft.prototype.clone = function () {
-          return new Ft(this.lo, this.hi);
+        (Dt.prototype.toString = Dt.prototype.toString),
+        (Dt.fromString = Vt),
+        (Dt.prototype.clone = function () {
+          return new Dt(this.lo, this.hi);
         }),
-        (Ft.prototype.clone = Ft.prototype.clone),
+        (Dt.prototype.clone = Dt.prototype.clone),
         c("jspb.arith.Int64", Nt, void 0),
         (Nt.prototype.add = function (t) {
           return new Nt(
@@ -2795,8 +2795,8 @@ var CLSTAMP = "10334134";
         (Nt.prototype.clone = Nt.prototype.clone),
         (Nt.prototype.toString = function () {
           var t = !!(2147483648 & this.hi),
-            e = new Ft(this.lo, this.hi);
-          return t && (e = new Ft(0, 0).sub(e)), (t ? "-" : "") + e.toString();
+            e = new Dt(this.lo, this.hi);
+          return t && (e = new Dt(0, 0).sub(e)), (t ? "-" : "") + e.toString();
         }),
         (Nt.prototype.toString = Nt.prototype.toString),
         (Nt.fromString = zt),
@@ -3509,48 +3509,11 @@ var CLSTAMP = "10334134";
           }),
           (e.typeOf = l));
     },
-    9978: (t, e, r) => {
+    9712: (t, e, r) => {
       "use strict";
-      r.r(e),
-        r.d(e, {
-          Observer: () => d,
-          _observerFinalizationRegistry: () => h.Y,
-          clearTimers: () => g,
-          enableStaticRendering: () => l.e,
-          isObserverBatched: () => p,
-          isUsingStaticRendering: () => l.P,
-          observer: () => f.P,
-          observerBatching: () => s,
-          useAsObservableSource: () => v,
-          useLocalObservable: () => y,
-          useLocalStore: () => b,
-          useObserver: () => _,
-          useStaticRendering: () => m,
-        });
-      var n = r(7813),
-        o = r(6540);
-      if (!o.useState)
-        throw new Error("mobx-react-lite requires React with Hooks support");
-      if (!n.makeObservable)
-        throw new Error(
-          "mobx-react-lite@3 requires mobx at least version 6 to be available",
-        );
-      var i = r(961);
-      function a(t) {
-        t();
-      }
-      function s(t) {
-        t || (t = a), (0, n.configure)({ reactionScheduler: t });
-      }
-      var u,
-        p = function () {
-          return !0;
-        },
-        c = r(4452),
-        l = r(3815),
-        h = r(7380),
-        f = r(6035);
-      function d(t) {
+      r.d(e, { n: () => o });
+      var n = r(4452);
+      function o(t) {
         var e = t.children,
           r = t.render;
         e &&
@@ -3558,42 +3521,10 @@ var CLSTAMP = "10334134";
           console.error(
             "MobX Observer: Do not use children and render in the same time in `Observer`",
           );
-        var n = e || r;
-        return "function" != typeof n ? null : (0, c.q)(n);
+        var o = e || r;
+        return "function" != typeof o ? null : (0, n.q)(o);
       }
-      function y(t, e) {
-        return (0, o.useState)(function () {
-          return (0, n.observable)(t(), e, { autoBind: !0 });
-        })[0];
-      }
-      function v(t) {
-        var e = (0, o.useState)(function () {
-          return (0, n.observable)(t, {}, { deep: !1 });
-        })[0];
-        return (
-          (0, n.runInAction)(function () {
-            Object.assign(e, t);
-          }),
-          e
-        );
-      }
-      function b(t, e) {
-        var r = e && v(e);
-        return (0, o.useState)(function () {
-          return (0, n.observable)(t(r), void 0, { autoBind: !0 });
-        })[0];
-      }
-      (d.displayName = "Observer"), s(i.unstable_batchedUpdates);
-      var g =
-        null !== (u = h.Y.finalizeAllImmediately) && void 0 !== u
-          ? u
-          : function () {};
-      function _(t, e) {
-        return void 0 === e && (e = "observed"), (0, c.q)(t, e);
-      }
-      function m(t) {
-        (0, l.e)(t);
-      }
+      o.displayName = "Observer";
     },
     3815: (t, e, r) => {
       "use strict";
@@ -3605,6 +3536,71 @@ var CLSTAMP = "10334134";
       function i() {
         return n;
       }
+    },
+    3542: (t, e, r) => {
+      "use strict";
+      r.d(e, { W: () => i });
+      var n = r(7813),
+        o = r(6540);
+      function i(t) {
+        var e = (0, o.useState)(function () {
+          return (0, n.observable)(t, {}, { deep: !1 });
+        })[0];
+        return (
+          (0, n.runInAction)(function () {
+            Object.assign(e, t);
+          }),
+          e
+        );
+      }
+    },
+    5562: (t, e, r) => {
+      "use strict";
+      r.d(e, { i: () => i });
+      var n = r(7813),
+        o = r(6540);
+      function i(t, e) {
+        return (0, o.useState)(function () {
+          return (0, n.observable)(t(), e, { autoBind: !0 });
+        })[0];
+      }
+    },
+    1154: (t, e, r) => {
+      "use strict";
+      r.d(e, { W: () => a });
+      var n = r(7813),
+        o = r(6540),
+        i = r(3542);
+      function a(t, e) {
+        var r = e && (0, i.W)(e);
+        return (0, o.useState)(function () {
+          return (0, n.observable)(t(r), void 0, { autoBind: !0 });
+        })[0];
+      }
+    },
+    724: (t, e, r) => {
+      "use strict";
+      var n = r(7813);
+      if (!r(6540).useState)
+        throw new Error("mobx-react-lite requires React with Hooks support");
+      if (!n.makeObservable)
+        throw new Error(
+          "mobx-react-lite@3 requires mobx at least version 6 to be available",
+        );
+    },
+    8909: (t, e, r) => {
+      "use strict";
+      r.d(e, { m_: () => a, tl: () => i });
+      var n = r(7813);
+      function o(t) {
+        t();
+      }
+      function i(t) {
+        t || (t = o), (0, n.configure)({ reactionScheduler: t });
+      }
+      var a = function () {
+        return !0;
+      };
     },
     7380: (t, e, r) => {
       "use strict";
@@ -3704,13 +3700,18 @@ var CLSTAMP = "10334134";
         return (0, n.getDependencyTree)(t);
       }
     },
+    9889: (t, e, r) => {
+      "use strict";
+      r.d(e, { r: () => n.unstable_batchedUpdates });
+      var n = r(961);
+    },
     296: (t, e, r) => {
       "use strict";
       var n,
         o = r(7813),
         i = r(6540),
         a = (n = i) && "object" == typeof n && "default" in n ? n.default : n,
-        s = r(9978);
+        s = r(6921);
       function u(t, e) {
         return t === e ? 0 !== t || 1 / t == 1 / e : t != t && e != e;
       }
@@ -4083,7 +4084,7 @@ var CLSTAMP = "10334134";
         var r = e.bind(null, !1);
         return (r.isRequired = e.bind(null, !0)), r;
       }
-      function B(t) {
+      function M(t) {
         var e = typeof t;
         return Array.isArray(t)
           ? "array"
@@ -4099,10 +4100,10 @@ var CLSTAMP = "10334134";
               ? "symbol"
               : e;
       }
-      function M(t, e) {
+      function B(t, e) {
         return T(function (r, n, i, a, s) {
           return o.untracked(function () {
-            if (t && B(r[n]) === e.toLowerCase()) return null;
+            if (t && M(r[n]) === e.toLowerCase()) return null;
             var a;
             switch (e) {
               case "Array":
@@ -4120,7 +4121,7 @@ var CLSTAMP = "10334134";
             var u = r[n];
             if (!a(u)) {
               var p = (function (t) {
-                  var e = B(t);
+                  var e = M(t);
                   if ("object" === e) {
                     if (t instanceof Date) return "date";
                     if (t instanceof RegExp) return "regexp";
@@ -4163,7 +4164,7 @@ var CLSTAMP = "10334134";
                   i +
                   "` has invalid PropType notation.",
               );
-            var o = M(t, "Array")(r, n, i, a, s);
+            var o = B(t, "Array")(r, n, i, a, s);
             if (o instanceof Error) return o;
             for (var u = r[n], c = 0; c < u.length; c++)
               if (
@@ -4178,13 +4179,13 @@ var CLSTAMP = "10334134";
         });
       }
       var I = {
-        observableArray: M(!1, "Array"),
+        observableArray: B(!1, "Array"),
         observableArrayOf: U.bind(null, !1),
-        observableMap: M(!1, "Map"),
-        observableObject: M(!1, "Object"),
-        arrayOrObservableArray: M(!0, "Array"),
+        observableMap: B(!1, "Map"),
+        observableObject: B(!1, "Object"),
+        arrayOrObservableArray: B(!0, "Array"),
         arrayOrObservableArrayOf: U.bind(null, !0),
-        objectOrObservableObject: M(!0, "Object"),
+        objectOrObservableObject: B(!0, "Object"),
       };
       if (!i.Component)
         throw new Error("mobx-react requires React to be available");
@@ -4203,7 +4204,7 @@ var CLSTAMP = "10334134";
       r.d(e, { PA: () => _ });
       var n = r(7813),
         o = r(6540),
-        i = r(9978);
+        i = r(6921);
       function a(t, e) {
         return t === e ? 0 !== t || 1 / t == 1 / e : t != t && e != e;
       }
@@ -4474,15 +4475,15 @@ var CLSTAMP = "10334134";
           action: () => qe,
           autorun: () => $e,
           comparer: () => Z,
-          computed: () => Ft,
+          computed: () => Dt,
           configure: () => pr,
           createAtom: () => q,
-          defineProperty: () => Dr,
-          entries: () => Mr,
+          defineProperty: () => Fr,
+          entries: () => Br,
           extendObservable: () => cr,
           flow: () => mr,
           flowResult: () => Or,
-          get: () => Fr,
+          get: () => Dr,
           getAtom: () => qn,
           getDebugName: () => Xn,
           getDependencyTree: () => lr,
@@ -4498,13 +4499,13 @@ var CLSTAMP = "10334134";
           isObservable: () => Rr,
           isObservableArray: () => gn,
           isObservableMap: () => Sn,
-          isObservableObject: () => Bn,
+          isObservableObject: () => Mn,
           isObservableProp: () => Cr,
           isObservableSet: () => xn,
           keys: () => Tr,
           makeAutoObservable: () => an,
           makeObservable: () => nn,
-          observable: () => Mt,
+          observable: () => Bt,
           observe: () => Nr,
           onBecomeObserved: () => nr,
           onBecomeUnobserved: () => or,
@@ -4515,12 +4516,12 @@ var CLSTAMP = "10334134";
           remove: () => Ir,
           runInAction: () => Xe,
           set: () => Ur,
-          spy: () => Fe,
+          spy: () => De,
           toJS: () => Wr,
           trace: () => Gr,
           transaction: () => Kr,
           untracked: () => le,
-          values: () => Br,
+          values: () => Mr,
           when: () => qr,
         });
       function n(t) {
@@ -4659,19 +4660,19 @@ var CLSTAMP = "10334134";
         for (var r = 0, n = Array(e); r < e; r++) n[r] = t[r];
         return n;
       }
-      function B(t, e) {
+      function M(t, e) {
         for (var r = 0; r < e.length; r++) {
           var n = e[r];
           (n.enumerable = n.enumerable || !1),
             (n.configurable = !0),
             "value" in n && (n.writable = !0),
-            Object.defineProperty(t, D(n.key), n);
+            Object.defineProperty(t, F(n.key), n);
         }
       }
-      function M(t, e, r) {
+      function B(t, e, r) {
         return (
-          e && B(t.prototype, e),
-          r && B(t, r),
+          e && M(t.prototype, e),
+          r && M(t, r),
           Object.defineProperty(t, "prototype", { writable: !1 }),
           t
         );
@@ -4728,19 +4729,19 @@ var CLSTAMP = "10334134";
       function L(t, e) {
         (t.prototype = Object.create(e.prototype)),
           (t.prototype.constructor = t),
-          F(t, e);
+          D(t, e);
       }
-      function F(t, e) {
+      function D(t, e) {
         return (
-          (F = Object.setPrototypeOf
+          (D = Object.setPrototypeOf
             ? Object.setPrototypeOf.bind()
             : function (t, e) {
                 return (t.__proto__ = e), t;
               }),
-          F(t, e)
+          D(t, e)
         );
       }
-      function D(t) {
+      function F(t) {
         var e = (function (t, e) {
           if ("object" != typeof t || !t) return t;
           var r = t[Symbol.toPrimitive];
@@ -4838,13 +4839,13 @@ var CLSTAMP = "10334134";
         return Rr(t)
           ? t
           : Array.isArray(t)
-            ? Mt.array(t, { name: r })
+            ? Bt.array(t, { name: r })
             : m(t)
-              ? Mt.object(t, void 0, { name: r })
+              ? Bt.object(t, void 0, { name: r })
               : j(t)
-                ? Mt.map(t, { name: r })
+                ? Bt.map(t, { name: r })
                 : x(t)
-                  ? Mt.set(t, { name: r })
+                  ? Bt.set(t, { name: r })
                   : "function" != typeof t || Je(t) || Sr(t)
                     ? t
                     : w(t)
@@ -5153,7 +5154,7 @@ var CLSTAMP = "10334134";
       }
       function mt(t, e, r, n) {
         var o, i, a, s;
-        if (r.get) return Ft.make_(t, e, r, n);
+        if (r.get) return Dt.make_(t, e, r, n);
         if (r.set) {
           var p = Ht(e.toString(), r.set);
           return n === t.target_
@@ -5183,8 +5184,8 @@ var CLSTAMP = "10334134";
         var c,
           l =
             !1 === (null == (o = this.options_) ? void 0 : o.deep)
-              ? Mt.ref
-              : Mt;
+              ? Bt.ref
+              : Bt;
         "function" == typeof r.value &&
           null != (i = this.options_) &&
           i.autoBind &&
@@ -5193,7 +5194,7 @@ var CLSTAMP = "10334134";
       }
       function wt(t, e, r, n) {
         var o, i, a;
-        if (r.get) return Ft.extend_(t, e, r, n);
+        if (r.get) return Dt.extend_(t, e, r, n);
         if (r.set)
           return t.defineProperty_(
             e,
@@ -5208,7 +5209,7 @@ var CLSTAMP = "10334134";
           o.autoBind &&
           (r.value = r.value.bind(null != (a = t.proxy_) ? a : t.target_));
         return (
-          !1 === (null == (i = this.options_) ? void 0 : i.deep) ? Mt.ref : Mt
+          !1 === (null == (i = this.options_) ? void 0 : i.deep) ? Bt.ref : Bt
         ).extend_(t, e, r, n);
       }
       function Ot(t, e) {
@@ -5223,16 +5224,16 @@ var CLSTAMP = "10334134";
         xt = ft("observable.ref", { enhancer: J }),
         kt = ft("observable.shallow", {
           enhancer: function (t, e, r) {
-            return null == t || Bn(t) || gn(t) || Sn(t) || xn(t)
+            return null == t || Mn(t) || gn(t) || Sn(t) || xn(t)
               ? t
               : Array.isArray(t)
-                ? Mt.array(t, { name: r, deep: !1 })
+                ? Bt.array(t, { name: r, deep: !1 })
                 : m(t)
-                  ? Mt.object(t, void 0, { name: r, deep: !1 })
+                  ? Bt.object(t, void 0, { name: r, deep: !1 })
                   : j(t)
-                    ? Mt.map(t, { name: r, deep: !1 })
+                    ? Bt.map(t, { name: r, deep: !1 })
                     : x(t)
-                      ? Mt.set(t, { name: r, deep: !1 })
+                      ? Bt.set(t, { name: r, deep: !1 })
                       : void 0;
           },
         }),
@@ -5261,21 +5262,21 @@ var CLSTAMP = "10334134";
             : Rr(t)
               ? t
               : m(t)
-                ? Mt.object(t, e, r)
+                ? Bt.object(t, e, r)
                 : Array.isArray(t)
-                  ? Mt.array(t, e)
+                  ? Bt.array(t, e)
                   : j(t)
-                    ? Mt.map(t, e)
+                    ? Bt.map(t, e)
                     : x(t)
-                      ? Mt.set(t, e)
+                      ? Bt.set(t, e)
                       : "object" == typeof t && null !== t
                         ? t
-                        : Mt.box(t, e);
+                        : Bt.box(t, e);
       }
       a(Ct, Pt);
       var Tt,
-        Bt,
-        Mt = a(Ct, {
+        Mt,
+        Bt = a(Ct, {
           box: function (t, e) {
             var r = At(e);
             return new Jt(t, Rt(r), r.name, !0, r.equals);
@@ -5324,22 +5325,22 @@ var CLSTAMP = "10334134";
         Ut = "computed",
         It = pt(Ut),
         Lt = pt("computed.struct", { equals: Z.structural }),
-        Ft = function (t, e) {
+        Dt = function (t, e) {
           if (H(e)) return It.decorate_20223_(t, e);
           if (g(e)) return z(t, e, It);
           if (m(t)) return N(pt(Ut, t));
           var r = m(e) ? e : {};
           return (r.get = t), r.name || (r.name = t.name || ""), new te(r);
         };
-      Object.assign(Ft, It), (Ft.struct = N(Lt));
-      var Dt = 0,
+      Object.assign(Dt, It), (Dt.struct = N(Lt));
+      var Ft = 0,
         Vt = 1,
         Nt =
           null !=
             (Tt =
-              null == (Bt = s(function () {}, "name"))
+              null == (Mt = s(function () {}, "name"))
                 ? void 0
-                : Bt.configurable) && Tt,
+                : Mt.configurable) && Tt,
         zt = {
           value: "action",
           configurable: !0,
@@ -5384,13 +5385,13 @@ var CLSTAMP = "10334134";
           notifySpy_: !1,
           startTime_: 0,
           actionId_: Vt++,
-          parentActionId_: Dt,
+          parentActionId_: Ft,
         };
-        return (Dt = s.actionId_), s;
+        return (Ft = s.actionId_), s;
       }
       function Kt(t) {
-        Dt !== t.actionId_ && n(30),
-          (Dt = t.parentActionId_),
+        Ft !== t.actionId_ && n(30),
+          (Ft = t.parentActionId_),
           void 0 !== t.error_ && (we.suppressReactionErrors = !0),
           Xt(t.prevAllowStateChanges_),
           ye(t.prevAllowStateReads_),
@@ -5673,7 +5674,7 @@ var CLSTAMP = "10334134";
           (e[Symbol.toPrimitive] = function () {
             return this.valueOf();
           }),
-          M(t, [
+          B(t, [
             {
               key: "isComputing",
               get: function () {
@@ -6092,17 +6093,17 @@ var CLSTAMP = "10334134";
           }
         );
       }
-      var Be = 100,
-        Me = function (t) {
+      var Me = 100,
+        Be = function (t) {
           return t();
         };
       function Ue() {
-        we.inBatch > 0 || we.isRunningReactions || Me(Ie);
+        we.inBatch > 0 || we.isRunningReactions || Be(Ie);
       }
       function Ie() {
         we.isRunningReactions = !0;
         for (var t = we.pendingReactions, e = 0; t.length > 0; ) {
-          ++e === Be &&
+          ++e === Me &&
             (console.error("[mobx] cycle in reaction: " + t[0]), t.splice(0));
           for (var r = t.splice(0), n = 0, o = r.length; n < o; n++)
             r[n].runReaction_();
@@ -6110,16 +6111,16 @@ var CLSTAMP = "10334134";
         we.isRunningReactions = !1;
       }
       var Le = A("Reaction", Ce);
-      function Fe(t) {
+      function De(t) {
         return (
           console.warn("[mobx.spy] Is a no-op in production builds"),
           function () {}
         );
       }
-      var De = "action",
+      var Fe = "action",
         Ve = "autoAction",
         Ne = "<unnamed action>",
-        ze = Q(De),
+        ze = Q(Fe),
         He = Q("action.bound", { bound: !0 }),
         We = Q(Ve, { autoAction: !0 }),
         Ge = Q("autoAction.bound", { autoAction: !0, bound: !0 });
@@ -6134,7 +6135,7 @@ var CLSTAMP = "10334134";
                 : g(r)
                   ? z(e, r, t ? We : ze)
                   : g(e)
-                    ? N(Q(t ? Ve : De, { name: e, autoAction: t }))
+                    ? N(Q(t ? Ve : Fe, { name: e, autoAction: t }))
                     : void 0;
         };
       }
@@ -6319,8 +6320,8 @@ var CLSTAMP = "10334134";
           (we.allowStateReads = !we.observableRequiresReaction),
           t.reactionScheduler &&
             ((e = t.reactionScheduler),
-            (r = Me),
-            (Me = function (t) {
+            (r = Be),
+            (Be = function (t) {
               return e(function () {
                 return r(t);
               });
@@ -6456,7 +6457,7 @@ var CLSTAMP = "10334134";
       function Ar(t, e, r) {
         var n;
         return (
-          Sn(t) || gn(t) || $t(t) ? (n = Zn(t)) : Bn(t) && (n = Zn(t, e)),
+          Sn(t) || gn(t) || $t(t) ? (n = Zn(t)) : Mn(t) && (n = Zn(t, e)),
           (n.dehancer = "function" == typeof e ? e : r),
           function () {
             n.dehancer = void 0;
@@ -6474,7 +6475,7 @@ var CLSTAMP = "10334134";
       }
       function xr(t, e) {
         if (void 0 === e) return ne(t);
-        if (!1 === Bn(t)) return !1;
+        if (!1 === Mn(t)) return !1;
         if (!t[W].values_.has(e)) return !1;
         var r = qn(t, e);
         return ne(r);
@@ -6489,8 +6490,8 @@ var CLSTAMP = "10334134";
         return (
           !!t &&
           (void 0 !== e
-            ? !!Bn(t) && t[W].values_.has(e)
-            : Bn(t) || !!t[W] || K(t) || Le(t) || ne(t))
+            ? !!Mn(t) && t[W].values_.has(e)
+            : Mn(t) || !!t[W] || K(t) || Le(t) || ne(t))
         );
       }
       function Rr(t) {
@@ -6500,7 +6501,7 @@ var CLSTAMP = "10334134";
         return Pr(t, e);
       }
       function Tr(t) {
-        return Bn(t)
+        return Mn(t)
           ? t[W].keys_()
           : Sn(t) || xn(t)
             ? Array.from(t.keys())
@@ -6510,8 +6511,8 @@ var CLSTAMP = "10334134";
                 })
               : void n(5);
       }
-      function Br(t) {
-        return Bn(t)
+      function Mr(t) {
+        return Mn(t)
           ? Tr(t).map(function (e) {
               return t[e];
             })
@@ -6525,8 +6526,8 @@ var CLSTAMP = "10334134";
                 ? t.slice()
                 : void n(6);
       }
-      function Mr(t) {
-        return Bn(t)
+      function Br(t) {
+        return Mn(t)
           ? Tr(t).map(function (e) {
               return [e, t[e]];
             })
@@ -6544,7 +6545,7 @@ var CLSTAMP = "10334134";
       }
       function Ur(t, e, r) {
         if (2 !== arguments.length || xn(t))
-          Bn(t)
+          Mn(t)
             ? t[W].set_(e, r)
             : Sn(t)
               ? t.set(e, r)
@@ -6569,7 +6570,7 @@ var CLSTAMP = "10334134";
         }
       }
       function Ir(t, e) {
-        Bn(t)
+        Mn(t)
           ? t[W].delete_(e)
           : Sn(t) || xn(t)
             ? t.delete(e)
@@ -6578,7 +6579,7 @@ var CLSTAMP = "10334134";
               : n(9);
       }
       function Lr(t, e) {
-        return Bn(t)
+        return Mn(t)
           ? t[W].has_(e)
           : Sn(t) || xn(t)
             ? t.has(e)
@@ -6586,9 +6587,9 @@ var CLSTAMP = "10334134";
               ? e >= 0 && e < t.length
               : void n(10);
       }
-      function Fr(t, e) {
+      function Dr(t, e) {
         if (Lr(t, e))
-          return Bn(t)
+          return Mn(t)
             ? t[W].get_(e)
             : Sn(t)
               ? t.get(e)
@@ -6596,12 +6597,12 @@ var CLSTAMP = "10334134";
                 ? t[e]
                 : void n(11);
       }
-      function Dr(t, e, r) {
-        if (Bn(t)) return t[W].defineProperty_(e, r);
+      function Fr(t, e, r) {
+        if (Mn(t)) return t[W].defineProperty_(e, r);
         n(39);
       }
       function Vr(t) {
-        if (Bn(t)) return t[W].ownKeys_();
+        if (Mn(t)) return t[W].ownKeys_();
         n(38);
       }
       function Nr(t, e, r, n) {
@@ -7530,7 +7531,7 @@ var CLSTAMP = "10334134";
             (e.intercept_ = function (t) {
               return Yr(this, t);
             }),
-            M(t, [
+            B(t, [
               {
                 key: "size",
                 get: function () {
@@ -7741,7 +7742,7 @@ var CLSTAMP = "10334134";
             (e[Symbol.iterator] = function () {
               return this.values();
             }),
-            M(t, [
+            B(t, [
               {
                 key: "size",
                 get: function () {
@@ -7877,7 +7878,7 @@ var CLSTAMP = "10334134";
                   }
                   o = Object.getPrototypeOf(o);
                 }
-                Mn(this, e, t);
+                Bn(this, e, t);
               }
             }),
             (e.extend_ = function (t, e, r, n) {
@@ -7889,7 +7890,7 @@ var CLSTAMP = "10334134";
                 return this.defineProperty_(t, e, n);
               Un(this, r, t);
               var o = r.extend_(this, t, e, n);
-              return o && Mn(this, r, t), o;
+              return o && Bn(this, r, t), o;
             }),
             (e.defineProperty_ = function (t, e, r) {
               void 0 === r && (r = !1), this.keysAtom_;
@@ -8108,18 +8109,18 @@ var CLSTAMP = "10334134";
           })
         );
       }
-      function Bn(t) {
+      function Mn(t) {
         return !!_(t) && Cn(t[W]);
       }
-      function Mn(t, e, r) {
+      function Bn(t, e, r) {
         var n;
         null == (n = t.target_[V]) || delete n[r];
       }
       function Un(t, e, r) {}
       var In,
         Ln,
-        Fn = Hn(0),
-        Dn = (function () {
+        Dn = Hn(0),
+        Fn = (function () {
           var t = !1,
             e = {};
           return (
@@ -8153,7 +8154,7 @@ var CLSTAMP = "10334134";
               (t.proxy_ = i),
                 S(i, W, t),
                 e && e.length && i.spliceWithArray(0, 0, e),
-                Dn && Object.defineProperty(i, "0", Fn);
+                Fn && Object.defineProperty(i, "0", Dn);
             }),
             i
           );
@@ -8183,7 +8184,7 @@ var CLSTAMP = "10334134";
               },
             });
           }),
-          M(e, [
+          B(e, [
             {
               key: "length",
               get: function () {
@@ -8235,7 +8236,7 @@ var CLSTAMP = "10334134";
             var r = t.data_.get(e) || t.hasMap_.get(e);
             return r || n(25, e, Xn(t)), r;
           }
-          if (Bn(t)) {
+          if (Mn(t)) {
             if (!e) return n(26);
             var o = t[W].values_.get(e);
             return o || n(27, e, Xn(t)), o;
@@ -8261,7 +8262,7 @@ var CLSTAMP = "10334134";
         if (void 0 !== e) r = qn(t, e);
         else {
           if (Je(t)) return t.name;
-          r = Bn(t) || Sn(t) || xn(t) ? Zn(t) : qn(t);
+          r = Mn(t) || Sn(t) || xn(t) ? Zn(t) : qn(t);
         }
         return r.name_;
       }
@@ -8361,7 +8362,7 @@ var CLSTAMP = "10334134";
       }),
         "object" == typeof __MOBX_DEVTOOLS_GLOBAL_HOOK__ &&
           __MOBX_DEVTOOLS_GLOBAL_HOOK__.injectMobx({
-            spy: Fe,
+            spy: De,
             extras: { getDebugName: Xn },
             $mobx: W,
           });
@@ -9761,4 +9762,4 @@ var CLSTAMP = "10334134";
       "function" == typeof SuppressedError && SuppressedError;
     },
   },
-]); //# sourceMappingURL=file:///home/buildbot/buildslave/steamvr_rel_hotfix_npm_vrwebui/build/public/runtime/resources/webinterface/dashboard/sourcemaps/libraries/libraries~8012d0c89.js.map
+]); //# sourceMappingURL=file:///home/buildbot/buildslave/steamvr_rel_npm_vrwebui/build/public/runtime/resources/webinterface/dashboard/sourcemaps/libraries/libraries~8012d0c89.js.map

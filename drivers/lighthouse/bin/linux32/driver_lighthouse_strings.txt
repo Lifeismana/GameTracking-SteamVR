@@ -2764,7 +2764,6 @@ $3br
 0123456789
 0123456789ABCDEF
 0123456789abcdef
-08:42:14
 0x%08llx
 1.2.5
 1/2/4/8/16-bit only
@@ -2815,6 +2814,7 @@ $3br
 16CPropertyManager
 16CSettingsManager
 16CVrcDecodeTagged
+17:48:44
 17CBoneMaskResource
 17CCameraWorkThread
 17CFirmwareManifest
@@ -4111,7 +4111,6 @@ CLighthouseHmdDriver::Init(std::string const&, std::string const&, std::string c
 CLighthouseHmdDriver::Init(std::string const&, std::string const&, std::string const&)::'lambda'()::operator()() const::encrypted
 CLighthouseHmdDriver::Init(std::string const&, std::string const&, std::string const&)::'lambda0'()::operator()() const::encrypted
 CLighthouseHmdDriver::InitImageSensorProcessors()
-CLighthouseHmdDriver::InitPrismDirect()
 CLighthouseHmdDriver::InitRenderModelName()
 CLighthouseHmdDriver::InitRenderModelName() (.cold)
 CLighthouseHmdDriver::InitTrackedCameras()
@@ -5315,6 +5314,7 @@ CleanupDriverLog()
 CleanupInternalInterfaces()
 CleanupSharedResourceNamespace()
 ClearField
+Clearing HmdDisplayNotFound error due to PrismInit success.
 CloseLog()
 Closed
 CollapseDuplicatePaths(std::vector<std::string, std::allocator<std::string>>&)
@@ -5393,7 +5393,6 @@ DXGI2::WaitForVBlank(void*)
 Data Invalid
 Data len %d\r\n
 DebugDriverLog(char const*, ...)
-Dec 22 2025
 December
 DeclareCurrentThreadIsMainThread
 Default
@@ -5946,6 +5945,7 @@ GLIBC_2.2.4
 GLIBC_2.27
 GLIBC_2.3
 GLIBC_2.3.2
+GLIBC_2.3.3
 GLIBC_2.3.4
 GLIBC_2.4
 GenSessionId()::sNextSessionId
@@ -6265,7 +6265,7 @@ IVRExtendedDisplay_001
 IVRIOBuffer_002
 IVRIPCResourceManagerClient_003
 IVRInputInternal_002
-IVRInput_010
+IVRInput_011
 IVRMCStore_001
 IVRMailbox_002
 IVRNotificationsInternal_001
@@ -6285,7 +6285,7 @@ IVRSettingsInternal_001
 IVRSettings_001
 IVRSettings_003
 IVRSystemLayerInternal_XXX
-IVRSystem_023
+IVRSystem_026
 IVRTrackedCameraInternal_XXX
 IVRVirtualDisplay001_Version
 IVRVirtualDisplay_
@@ -7002,6 +7002,8 @@ LoadHiddenAreaMeshes(EHiddenAreaMeshDefinition, CLighthouseHmdDriver*)::s_vTrian
 LoadMCImage()
 LoadMCImage(unsigned int*, unsigned int*, unsigned int*, void*, unsigned int)
 LoadMCImage(unsigned int*, unsigned int*, unsigned int*, void*, unsigned int) (.cold)
+LoadPluginInterfaceOnce.cold
+LoadPrismEntries
 LoadSimplifiedOrExplicitRectJson(Json::Value const&)
 Loaded Chromatic Correction Factors RED (%0.3f, %0.3f, %0.3f, %0.3f) BLUE (%0.3f, %0.3f, %0.3f, %0.3f) x %0.3f\n
 Loaded resource-only driver %s from %s\n
@@ -7051,6 +7053,7 @@ Mailbox %s received message %s, which it didn't have a handler for\n
 MainSteamVR
 MakeFileWriteable(char const*)
 ManualURL
+Mar 10 2026
 March
 Mark 1
 Mark 2
@@ -7472,10 +7475,13 @@ PLAY-
 PNG\r\n
 POSIX
 PRISM_AcquireDisplay
+PRISM_ActivateRenderGraph
 PRISM_ClientDisconnected
 PRISM_CreateDisplayFactory
+PRISM_CreateGraphNode
 PRISM_CreateInstance
 PRISM_CreateMotionEstimator
+PRISM_CreateRenderGraph
 PRISM_DestroyDisplayFactory
 PRISM_DestroyInstance
 PRISM_DestroyMotionEstimator
@@ -7483,14 +7489,21 @@ PRISM_DumpHistory
 PRISM_GetConnectedDisplays
 PRISM_GetDisplayModes
 PRISM_GetDisplaySubsystems
+PRISM_GetGraphicsHost
 PRISM_GetMotionEstimatorSubsystems
+PRISM_GetPluginModuleHandle
 PRISM_GetPoseProvider
+PRISM_GetRenderGraphSubsystems
 PRISM_HmdActivated
 PRISM_Initialize
+PRISM_LoadPluginInterfaceOnce
 PRISM_RegisterDisplaySubsystem
+PRISM_RegisterGraphNode
 PRISM_RegisterLogCallback
 PRISM_RegisterMotionEstimatorSubsystem
+PRISM_RegisterPluginProvider
 PRISM_RegisterPoseProviderSubsystem
+PRISM_RegisterRenderGraph
 PRISM_ReleaseDisplay
 PRISM_Run
 PRISM_RunFrame
@@ -9017,6 +9030,7 @@ VRInitError_Init_AlreadyRunning
 VRInitError_Init_AnotherAppLaunching
 VRInitError_Init_AppInfoInitFailed
 VRInitError_Init_BadLuid
+VRInitError_Init_ClientVersionAlreadyProvided
 VRInitError_Init_CouldNotStartPrism
 VRInitError_Init_DuplicateBootstrapper
 VRInitError_Init_FactoryNotFound
@@ -9031,6 +9045,7 @@ VRInitError_Init_IllegalTypeTransition
 VRInitError_Init_InitCanceledByUser
 VRInitError_Init_InstallationCorrupt
 VRInitError_Init_InstallationNotFound
+VRInitError_Init_InstallationTooOld
 VRInitError_Init_InterfaceNotFound
 VRInitError_Init_Internal
 VRInitError_Init_InvalidApplicationType
@@ -9334,6 +9349,7 @@ VROverlayFlags_IgnoreTextureAlpha
 VROverlayFlags_IsPremultiplied
 VROverlayFlags_MakeOverlaysInteractiveIfVisible
 VROverlayFlags_MultiCursor
+VROverlayFlags_NoBackside
 VROverlayFlags_NoDashboardTab
 VROverlayFlags_Panorama
 VROverlayFlags_ProtectedContent
@@ -15112,6 +15128,9 @@ pthread_cond_init
 pthread_cond_signal
 pthread_cond_timedwait
 pthread_cond_wait
+pthread_condattr_destroy
+pthread_condattr_init
+pthread_condattr_setclock
 pthread_create
 pthread_detach
 pthread_getschedparam
@@ -15223,9 +15242,11 @@ s_Stereo_Device_Type
 s_ThreadWatchdogManager
 s_bCrashHandlingInit
 s_bCurrentMiniDumpIsFatal
+s_bIsPluginInterfaceLoaded
 s_bMinidumpCommentAlreadySet
 s_fnPreCrashCallback
 s_hModule
+s_hThisModule
 s_mutex
 s_nInstanceCount
 s_pInstance
@@ -15233,6 +15254,7 @@ s_pLogCallback
 s_pLogFile
 s_pRealCreateInstance
 s_pRealDestroyInstance
+s_pRealLoadPluginInterfaceOnce
 s_pSharedFirmwareManifest
 s_rBoolPropertiesToRead
 s_rFloatPropertiesToRead
@@ -20925,6 +20947,7 @@ usbVID
 usb_device
 usb_interface
 useActionSystemButton
+usePrism
 useSpecialFloats
 usedisambiguation
 userdata
@@ -22605,6 +22628,7 @@ vortex::ComputeHmdModelDetail(char const*, char const*)
 vortex::ComputeHmdModelDetail(char const*, char const*)::'lambda'()::operator()() const::encrypted
 vortex::ComputeHmdModelDetail(char const*, char const*)::'lambda0'()::operator()() const::encrypted
 vortex::ComputeHmdModelDetail(char const*, char const*)::'lambda1'()::operator()() const::encrypted
+vortex::ComputeHmdModelDetail(char const*, char const*)::'lambda10'()::operator()() const::encrypted
 vortex::ComputeHmdModelDetail(char const*, char const*)::'lambda2'()::operator()() const::encrypted
 vortex::ComputeHmdModelDetail(char const*, char const*)::'lambda3'()::operator()() const::encrypted
 vortex::ComputeHmdModelDetail(char const*, char const*)::'lambda4'()::operator()() const::encrypted
@@ -22756,6 +22780,7 @@ vr-input-workshop://
 vr::BlockQueueError_None == vr_internal::VRBlockQueue()->Create( &m_ulRawCameraQueue, "/lighthouse/camera/raw_frames", nFrameBufferDataSize, 512, nDefaultFrameQueueSize )
 vr::CVRPropertyHelpers::GetStringProperty(unsigned long long, vr::ETrackedDeviceProperty, vr::ETrackedPropertyError*)
 vr::CameraVideoStreamFormatFromFourCC(unsigned int)
+vr::CompareVersions(vr::VRVersion_t const&, vr::VRVersion_t const&)
 vr::IVRDriverDirectModeComponent::CreateSwapTextureSet(unsigned int, vr::IVRDriverDirectModeComponent::SwapTextureSetDesc_t const*, vr::IVRDriverDirectModeComponent::SwapTextureSet_t*)
 vr::IVRDriverDirectModeComponent::DestroySwapTextureSet(unsigned long long)
 vr::IVRDriverDirectModeComponent::GetFrameTiming(vr::DriverDirectMode_FrameTiming*)
@@ -22770,8 +22795,11 @@ vr::TrackedCamera_ConvertMJPGToRGBX32_CPU(void const*, int, void*, int, int)
 vr::TrackedCamera_ConvertNV12ToRGBX32_CPU(void const*, void*, int, int, bool)
 vr::TrackedCamera_ConvertYUYVToRGBX32_CPU(void const*, void*, int, int)
 vr::VRDriverContext()::pHost
+vr::VersionAsString(vr::VRVersion_t const&)
+vr::VersionAsString(vr::VRVersion_t const&) (.cold)
 vr::k_DefaultPathWriteOptions
 vr::k_InterfaceVersions
+vr::k_SteamVRVersion
 vr_glove_left_skeleton.glb
 vr_glove_right_poses.glb
 vr_glove_right_skeleton.glb

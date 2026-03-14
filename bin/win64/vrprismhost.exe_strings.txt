@@ -9,8 +9,10 @@
 %s %s startup with PID=%u, config=%s, runtime=%s, arch=%s\n
 %s-%llu.png
 %s: failed to create screenshots path: %s
+%s: failed to get display modes for display
 %s: failed to open prism mailbox (error:%d)\n
 %s: failed with error '%s' (%d)
+%s: unable to determine refresh rate
 ' is not a number.
 , last executing in 
 -1e+9999
@@ -21,6 +23,7 @@
 .?AU_Crt_new_delete@std@@
 .?AV<lambda_04103da6412327e603633ce4cd0b1ff8>@@
 .?AV<lambda_0f6303ecc7136d050eeb4d9528f10b2c>@@
+.?AV<lambda_129ae5c5658d6b31f78f1e13a88f0455>@@
 .?AV<lambda_1a5b1a927b03a96daaa523192e1096fb>@@
 .?AV<lambda_2d4b9bd805c205933c366a2a96e134e0>@@
 .?AV?$_Binder@U_Unforced@std@@AEAP8CPrismHost@@EAAXAEBVValue@Json@@@ZAEAPEAV3@AEBU?$_Ph@$00@2@@std@@
@@ -31,6 +34,7 @@
 .?AV?$_Func_impl_no_alloc@P6AXW4ELogLevel@@PEBDPEAX@ZXW41@PEBDPEAX@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_04103da6412327e603633ce4cd0b1ff8>@@XW4ELogLevel@@PEBDPEAX@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_0f6303ecc7136d050eeb4d9528f10b2c>@@PEAXPEBD@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_129ae5c5658d6b31f78f1e13a88f0455>@@PEAXPEBD@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_1a5b1a927b03a96daaa523192e1096fb>@@XAEBVValue@Json@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_2d4b9bd805c205933c366a2a96e134e0>@@XW4ELogLevel@@PEBDPEAX@std@@
 .?AV?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@AEAP8CPrismHost@@EAAXAEBVValue@Json@@@ZAEAPEAV3@AEBU?$_Ph@$00@2@@std@@XAEBVValue@Json@@@std@@
@@ -49,7 +53,7 @@
 .?AV?$wstring_convert@V?$codecvt_utf8_utf16@_W$0BAPPPP@$0A@@std@@_WV?$allocator@_W@2@V?$allocator@D@2@@std@@
 .?AVCNonCopyable@@
 .?AVCPrismHost@@
-.?AVCPrismPoseProvider@?A0xbb7f8539@@
+.?AVCPrismPoseProvider@?A0x6c9f2405@@
 .?AVCVRMailbox@@
 .?AVCVRMailboxBase@@
 .?AVCharReader@Json@@
@@ -101,6 +105,7 @@
 .bss
 .data
 .data$r
+.dll
 .idata$2
 .idata$3
 .idata$4
@@ -148,7 +153,7 @@
 /user/waist
 /user/wrist/left
 /user/wrist/right
-00:42:27
+10:49:01
 1e+9999
 8c8f13b1-60eb-4b6a-a433-de86104115ac
 8d8f13b1-60eb-4b6a-a433-de86104115ac
@@ -176,6 +181,7 @@
 ??_7codecvt_base@std@@6B@
 ??_7facet@locale@std@@6B@
 ??_7ios_base@std@@6B@
+?VR_OVERRIDE
 ?_BADOFF@std@@3_JB
 ?_Decref@facet@locale@std@@UEAAPEAV_Facet_base@3@XZ
 ?_Incref@facet@locale@std@@UEAAXXZ
@@ -262,7 +268,6 @@ CreateFileMappingA
 CreateFileW
 CreateMutexA
 CreateWellKnownSid
-Dec 22 2025
 DeleteCriticalSection
 DeleteFileW
 Detail
@@ -276,6 +281,7 @@ Empty escape sequence in string
 EnablePrivilegeFailed
 Encountered error 
 EnterCriticalSection
+EntriesAlreadyLoaded
 Error
 Error! EventWriteString Severe: %s\n
 EventRegister
@@ -305,8 +311,12 @@ Failed to write app container status to pipe %s after connecting because %s\n
 Failed to write event process handle after connecting because %s\n
 Failure
 Fatal
+FindClose
+FindFirstFileW
+FindNextFileW
 Format string parse failure
 FormatMessageA
+Found existing plugin %s. Not adding to the list
 FreeLibrary
 GetCurrentProcess
 GetCurrentProcessId
@@ -320,6 +330,7 @@ GetLastError
 GetLengthSid
 GetModuleFileNameW
 GetModuleHandleA
+GetModuleHandleExA
 GetModuleHandleW
 GetProcAddress
 GetStartupInfoW
@@ -352,7 +363,7 @@ IVRDriverInputInternal_XXX
 IVRDriverManager_001
 IVRExtendedDisplay_001
 IVRInputInternal_002
-IVRInput_010
+IVRInput_011
 IVRMailbox_002
 IVRNotificationsInternal_001
 IVROverlayInternal_XXX
@@ -368,7 +379,7 @@ IVRServerInternal_XXX
 IVRSettingsInternal_001
 IVRSettings_003
 IVRSystemLayerInternal_XXX
-IVRSystem_023
+IVRSystem_026
 IVRTrackedCameraInternal_XXX
 Infinity
 Info
@@ -381,10 +392,14 @@ InitializeSecurityDescriptor
 InitializeSharedStateFailed
 InvalidDisplay
 InvalidDisplayFactory
+InvalidGraphNode
 InvalidInstance
 InvalidMotionEstimator
 InvalidParameter
 InvalidPoseProvider
+InvalidRenderGraph
+InvalidRenderGraphFactory
+InvalidRenderGraphNode
 IsDebuggerPresent
 IsProcessorFeaturePresent
 IsValidSid
@@ -393,6 +408,8 @@ Kernel32.dll
 LeaveCriticalSection
 Line %d, Column %d
 LoadLibraryA
+LoadLibraryExW
+LoadPluginsFailed
 LocalAlloc
 LocalFree
 LocalizationManager
@@ -401,6 +418,7 @@ MSVCP140.dll
 Mailbox %s received message %s, which it didn't have a handler for\n
 MainThrd
 MapViewOfFile
+Mar 10 2026
 MessageBoxA
 Minidump comment truncated
 Missing ',' or ']' in array declaration
@@ -415,7 +433,9 @@ NamespaceInitFailed
 NoDisplayFound
 NoValidDisplays
 NoValidMotionEstimators
+NoValidRenderGraphs
 NotSupported
+NvAPI: Connected to renderdoc
 OpenEventA
 OpenFileMappingA
 OpenMutexA
@@ -425,10 +445,13 @@ OpenProcessToken failed. GetLastError returned: %d\n
 Out of thread local storage!\n
 OutputDebugStringA
 PRISM_AcquireDisplay
+PRISM_ActivateRenderGraph
 PRISM_ClientDisconnected
 PRISM_CreateDisplayFactory
+PRISM_CreateGraphNode
 PRISM_CreateInstance
 PRISM_CreateMotionEstimator
+PRISM_CreateRenderGraph
 PRISM_DestroyDisplayFactory
 PRISM_DestroyInstance
 PRISM_DestroyMotionEstimator
@@ -436,14 +459,21 @@ PRISM_DumpHistory
 PRISM_GetConnectedDisplays
 PRISM_GetDisplayModes
 PRISM_GetDisplaySubsystems
+PRISM_GetGraphicsHost
 PRISM_GetMotionEstimatorSubsystems
+PRISM_GetPluginModuleHandle
 PRISM_GetPoseProvider
+PRISM_GetRenderGraphSubsystems
 PRISM_HmdActivated
 PRISM_Initialize
+PRISM_LoadPluginInterfaceOnce
 PRISM_RegisterDisplaySubsystem
+PRISM_RegisterGraphNode
 PRISM_RegisterLogCallback
 PRISM_RegisterMotionEstimatorSubsystem
+PRISM_RegisterPluginProvider
 PRISM_RegisterPoseProviderSubsystem
+PRISM_RegisterRenderGraph
 PRISM_ReleaseDisplay
 PRISM_Run
 PRISM_RunFrame
@@ -454,12 +484,14 @@ PRISM_Stop
 Parse failed for JSON message in mailbox %s: %s\n
 Parsing of JSON string "%s" failed: %s\n
 PeekNamedPipe
+PhysicalDeviceMissingFeatures
 Predicting: %fms
 Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
+RENDERDOC_GetAPI
 RPCRT4.dll
-RSDS
+RSDS%
 RaiseException
 ReadFile
 ReadFile failed on %s after event was signaled because %s\n
@@ -681,6 +713,7 @@ VRInitError_Init_AlreadyRunning
 VRInitError_Init_AnotherAppLaunching
 VRInitError_Init_AppInfoInitFailed
 VRInitError_Init_BadLuid
+VRInitError_Init_ClientVersionAlreadyProvided
 VRInitError_Init_CouldNotStartPrism
 VRInitError_Init_DuplicateBootstrapper
 VRInitError_Init_FactoryNotFound
@@ -695,6 +728,7 @@ VRInitError_Init_IllegalTypeTransition
 VRInitError_Init_InitCanceledByUser
 VRInitError_Init_InstallationCorrupt
 VRInitError_Init_InstallationNotFound
+VRInitError_Init_InstallationTooOld
 VRInitError_Init_InterfaceNotFound
 VRInitError_Init_Internal
 VRInitError_Init_InvalidApplicationType
@@ -779,7 +813,6 @@ VR_InitInternal2
 VR_IsInterfaceVersionValid
 VR_LOG_DEBUG
 VR_LOG_PATH
-VR_OVERRIDE
 VR_PATHREG_OVERRIDE
 VR_ShutdownInternal
 VerSetConditionMask
@@ -797,6 +830,11 @@ Warning: Watchdog %s not properly cleaned up%s%s\n
 WideCharToMultiByte
 WriteFile
 Zjz\v
+[CPrismHost::SelectRenderGraph] Using render graph: %s
+[CPrismPluginManager] Failed to load prism plugin: %s from %s. Load error: %s
+[CPrismPluginManager] Failed to read path registry
+[CPrismPluginManager] Loaded %s
+[CPrismPluginManager] Unable to load prism plugin %s. Shared library not found: %s
 [IPC] AddAccessAllowedAce failed for administrator. GetLastError returned: %d\n
 [IPC] AddAccessAllowedAce failed for chrome 1. GetLastError returned: %d\n
 [IPC] AddAccessAllowedAce failed for steam. GetLastError returned: %d\n
@@ -825,6 +863,7 @@ Zjz\v
 [IPC] SharedMem access invalid: %x\n
 [IPC] The owner SID is invalid.\n
 [IPC] Warning, existing file mapping for %s (%d) is too small (%d)\n
+\fpB8
 _Cnd_destroy
 _Cnd_destroy_in_situ
 _Cnd_do_broadcast_at_thread_exit
@@ -882,8 +921,12 @@ _set_app_type
 _set_fmode
 _set_new_mode
 _time64
+_wchdir
 _wfsopen
+_wgetcwd
 _wstat64i32
+`anonymous-namespace'::BuildDisplayMode
+`anonymous-namespace'::GetDisplayModesForResolution
 abort
 additional six characters expected to parse unicode surrogate pair.
 allowComments
@@ -893,6 +936,7 @@ allowSingleQuotes
 allowSpecialFloats
 alse
 api-ms-win-crt-convert-l1-1-0.dll
+api-ms-win-crt-environment-l1-1-0.dll
 api-ms-win-crt-filesystem-l1-1-0.dll
 api-ms-win-crt-heap-l1-1-0.dll
 api-ms-win-crt-locale-l1-1-0.dll
@@ -907,18 +951,19 @@ bad allocation
 bad array new length
 bad conversion
 bg_bg
+bin\win64
 brazilian
 bulgarian
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcommon\vrmailbox.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\ipcwin32.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\logbuffer.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\strtools_public.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\threadwatchdog.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\vrcrash.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\common\vrcore\src\vripcsharedstate.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrprismhost\Retail\win64\2017\vrprismhost.pdb
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrprismhost\prismhost.cpp
-c:\buildslave\steamvr_rel_hotfix_win64\build\src\vrprismhost\vrprismhost.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrmailbox.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\ipcwin32.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\logbuffer.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\strtools_public.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\threadwatchdog.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\vrcrash.cpp
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\vripcsharedstate.cpp
+c:\buildslave\steamvr_rel_win64\build\src\vrprismhost\Retail\win64\2017\vrprismhost.pdb
+c:\buildslave\steamvr_rel_win64\build\src\vrprismhost\prismhost.cpp
+c:\buildslave\steamvr_rel_win64\build\src\vrprismhost\vrprismhost.cpp
 client
 collectComments
 command
@@ -930,6 +975,7 @@ da_dk
 danish
 de_de
 deque<T> too long
+display != INVALID_PRISM_DISPLAY
 dutch
 el_gr
 en_us
@@ -1016,6 +1062,8 @@ panelMaskVignetteWidth
 pl_pl
 polish
 portuguese
+preferredRefreshRate
+prism
 prism.dll
 prism_dump_history
 prism_mailbox
@@ -1023,6 +1071,7 @@ pt_br
 pt_pt
 realloc
 rejectDupKeys
+renderdoc.dll
 request_handlers
 request_handlers_response
 returnAddress

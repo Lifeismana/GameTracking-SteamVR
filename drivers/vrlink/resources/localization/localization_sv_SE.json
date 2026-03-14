@@ -2,7 +2,6 @@
 	"language_tag": "sv_SE",
 	"Settings_Title": "Steam Link",
 	"Setting_automaticStreamFormatWidth": "Kodad videostorlek",
-	"Setting_streamFormatWidth": "Kodad videostorlek (px)",
 	"Setting_automaticBandwidth": "Målbandbredd",
 	"Setting_targetBandwidth": "Målbandbredd (Mbps)",
 	"Setting_10bit": "Använd 10-bitars djupkodning",
