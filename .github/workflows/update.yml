@@ -7,7 +7,12 @@ on:
                 description: 'Steam VR Branch'
                 required: false
                 default: 'beta'
-                type: string      
+                type: string
+            reset-gametracking:
+                description: 'Reset GameTracking data'
+                required: false
+                default: false
+                type: boolean
 
 concurrency:
     group: ${{ github.workflow }}
@@ -24,3 +29,4 @@ jobs:
           branch: ${{ github.event.inputs.branch }}
           appid: 250820
           save-manifest: true
+          reset-gametracking: ${{ inputs.reset-gametracking }}
