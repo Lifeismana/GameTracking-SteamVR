@@ -602,6 +602,7 @@ Not Initialized (109)
 Not available to watchdog apps (131)
 Not starting vrserver for background app (121)
 November
+OONA
 OZQ%
 October
 On laptop, HMD detected over USB, but Monitor not found (213)
@@ -611,7 +612,7 @@ QAf?
 QueryDepthSList
 QueryPerformanceCounter
 QueryUmsThreadInformation
-RSDS
+RSDSk
 RaiseException
 ReadConsoleW
 ReadFile

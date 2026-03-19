@@ -165,6 +165,7 @@ ADVAPI32.dll
 ASSERT: "%s" at %s:%d.\n
 AddStage and CopyStages are mutually exclusive.
 Already initialized
+B%VC
 Blank
 C:\workspace\vr\steamvr\main\src\thirdparty\renderpipelineshaders\src\runtime\vk\rps_vk_runtime_backend.cpp
 CPrismNode_CompositeLayersCompute::Initialize
@@ -314,7 +315,7 @@ QueryPerformanceCounter
 RPCRT4.dll
 RPSM
 RPSMt
-RSDS`
+RSDS
 RaiseException
 ResetEvent
 Right Eye

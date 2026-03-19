@@ -1504,7 +1504,6 @@ $tI(knN`97
 .CRT$XTA
 .CRT$XTZ
 .HPN
-.JfX
 .P6A?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBV01@PEAX@Z
 .P6AXPEBD0I_NPEAXPEA_N@Z
 .P6A_NAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PEAV01@PEAX@Z
@@ -4022,7 +4021,7 @@ QuickCalibratePlayspace couldn't get a pose from the HMD\n
 RADV
 RGBG
 RPCRT4.dll
-RSDSM
+RSDS'0J%
 RadialMenu missing X axis input.\n
 RadialMenu missing Y axis input.\n
 RadialMenu setting 'num_buttons' not specified.\n

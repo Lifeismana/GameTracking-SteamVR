@@ -767,7 +767,6 @@ _invalid_parameter_noinfo_noreturn
 _purecall
 _register_onexit_function
 _seh_filter_dll
-`s6ukv
 api-ms-win-crt-convert-l1-1-0.dll
 api-ms-win-crt-heap-l1-1-0.dll
 api-ms-win-crt-math-l1-1-0.dll
@@ -944,6 +943,7 @@ nFrameIndex >> ( 64 - k_TimelineEventShift ) == 0
 nNextPrismWaitIndex >= nNextPrismFrameIndex
 nSampleCount > 0 && nSampleCount <= 64
 nSizeInBytes <= m_unSizeInBytes
+p@Yxi
 pBuffer != nullptr
 pClient
 pCmdBuf

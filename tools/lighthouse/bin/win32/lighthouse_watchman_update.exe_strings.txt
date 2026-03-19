@@ -565,7 +565,7 @@ Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
 R1h58
-RSDS
+RSDS:p
 Radio version:      
 RaiseException
 ReadFile
@@ -633,7 +633,6 @@ TrackedCamera: FW update completed successfully\n
 TrackedCamera: Failed FW update\n
 TrackedCamera: Found bootloader\n
 TrackedCamera: Looking for bootloader\n
-U6u![
 UNKNOWN DEVICE
 Unable to find device with PID 0x
 Unable to find dongle device with PID 0x
