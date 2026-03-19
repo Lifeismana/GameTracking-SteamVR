@@ -938,8 +938,8 @@ $@NVAPI_SKIP_UNLOAD
 1.2.5
 1.5.26
 1/2/4/8/16-bit only
-10:49:01
 123456789
+14:02:56
 1A26b
 1e+9999
 1wsHp
@@ -2414,7 +2414,7 @@ Mailbox %s received message %s, which it didn't have a handler for\n
 Main
 MainThrd
 MapViewOfFile
-Mar 10 2026
+Mar 18 2026
 Mb@?UUU?fff?B
 MeasureGpuMegaPixelsPerSecond(%d): Returning %d MP/sec. Total CPU time %.2f seconds.\n
 MeasureGpuMegaPixelsPerSecond(): Error! Initialize() failed! Skipping GPU measurement.\n
@@ -2797,7 +2797,7 @@ Q|S`l
 R1h58
 RENDERDOC_GetAPI
 RPCRT4.dll
-RSDS
+RSDSf
 RaiseException
 Raw Exaggerated Motion Vectors (Scaled 3.0)
 Raw Motion Vectors

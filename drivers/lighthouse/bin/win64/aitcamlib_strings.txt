@@ -219,7 +219,6 @@ InitializeCriticalSectionAndSpinCount
 InitializeSListHead
 IsDebuggerPresent
 IsProcessorFeaturePresent
-J-5F
 JFIF
 KERNEL32.dll
 LeaveCriticalSection
@@ -242,7 +241,7 @@ PermissionDenied
 QueryPerformanceCounter
 QueryPerformanceFrequency
 RPCRT4.dll
-RSDSg\f
+RSDSh
 RaiseException
 Received camera frame of size %u that is larger than the block queue we are copying into %u
 ResetEvent

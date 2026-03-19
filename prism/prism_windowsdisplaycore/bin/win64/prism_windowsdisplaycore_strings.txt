@@ -1,6 +1,5 @@
 !( pDedicatedBuffer && pDedicatedImage )
 !IsInUse()
-%lhz;
 %s-Image
 %s-ImageView
 %s-Memory
