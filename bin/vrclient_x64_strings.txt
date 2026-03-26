@@ -81,7 +81,7 @@
 #OriginString_HandSource
 #OriginString_Source
 $3br
-$tI(knN`97
+$tI(knN
 %&'()*456789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
 %LocalAppData%
 %Y-%m-%d-%p_%I_%M_%S
@@ -503,6 +503,7 @@ $tI(knN`97
 .?AV?$ApplicationsInterfaceRegistration@VCVRApplications_004@@@@
 .?AV?$ApplicationsInterfaceRegistration@VCVRApplications_005@@@@
 .?AV?$ApplicationsInterfaceRegistration@VCVRApplications_006@@@@
+.?AV?$ApplicationsInterfaceRegistration@VCVRApplications_007@@@@
 .?AV?$BlockQueueInterfaceRegistration@VCVRBlockQueue_001@@@@
 .?AV?$BlockQueueInterfaceRegistration@VCVRBlockQueue_002@@@@
 .?AV?$BlockQueueInterfaceRegistration@VCVRBlockQueue_003@@@@
@@ -933,6 +934,7 @@ $tI(knN`97
 .?AVCVRApplications_004@@
 .?AVCVRApplications_005@@
 .?AVCVRApplications_006@@
+.?AVCVRApplications_007@@
 .?AVCVRBlockQueueManager@@
 .?AVCVRBlockQueue_001@@
 .?AVCVRBlockQueue_002@@
@@ -1955,13 +1957,11 @@ $tI(knN`97
 /y/click
 /y/touch
 0 width
+0$34
 0-pixel image
 00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899
-00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899(
 0123456789ABCDEF
-0J%4
 0\tFAJ
-0d\t4
 1.0.3.16
 1/2/4/8/16-bit only
 11 4 22 44 44 22 444444
@@ -2185,7 +2185,6 @@ BIN Chunk end is not aligned to a 4-byte boundary.\n
 BINORMAL
 BITANGENT
 BMP RLE
-B`97
 BackUp() can only be called after a successful Next().
 Bad escape sequence in string
 Bad unicode escape sequence in string: four digits expected.
@@ -2871,7 +2870,6 @@ FOVE_MIN
 FOVE_OUTER
 FOVE_SQUARE
 FS callback[s] not set\n
-F`97
 Facet
 Factory Function Not Found (104)
 Failed (err=0x%X) to create D3D surface for %s (%dx%d). Trying again with mipmaps disabled.\n
@@ -3061,6 +3059,7 @@ FnTable:%s
 FnTable:IVRApplications_004
 FnTable:IVRApplications_005
 FnTable:IVRApplications_006
+FnTable:IVRApplications_007
 FnTable:IVRChaperoneSetup_005
 FnTable:IVRChaperone_003
 FnTable:IVRCompositor_013
@@ -3291,6 +3290,7 @@ IVRApplications_004
 IVRApplications_005
 IVRApplications_006
 IVRApplications_007
+IVRApplications_008
 IVRBlockQueue_001
 IVRBlockQueue_002
 IVRBlockQueue_003
@@ -3764,7 +3764,6 @@ OutputDebugStringW
 PATH_TO_LOCAL_STRING failed with %s
 PC_%08llx
 PICT
-PJ%4
 PNG\r\n
 POSITION
 PS_BLURSCENE
@@ -3777,13 +3776,11 @@ PS_SAMPLESCENE
 PS_SAMPLESCENE0
 PS_STENCIL
 PS_main
-P\r0d\t4
 Parse error in system resource manifest %s.\n
 Parse failed for JSON message in mailbox %s: %s\n
 Parsing of JSON file "%s" failed: %s\n
 Parsing of JSON string "%s" failed: %s\n
 Path_Exists( absFilePath )
-Pd\t4
 PeekNamedPipe
 Perspective camera description not found.
 PerspectiveCamera
@@ -4021,7 +4018,7 @@ QuickCalibratePlayspace couldn't get a pose from the HMD\n
 RADV
 RGBG
 RPCRT4.dll
-RSDS'0J%
+RSDSl
 RadialMenu missing X axis input.\n
 RadialMenu missing Y axis input.\n
 RadialMenu setting 'num_buttons' not specified.\n
@@ -6383,8 +6380,6 @@ ZvFailed to create fence %ls.\n
 [xrRenderModel] parameter was nullptr
 [xrRenderModel] renderModelIdCountOutput was nullptr
 [xrRenderModel] session is not running
-\fpJ%4
-\fpd\t4
 \mfpmp.exe
 \nbad png sig
 \t%s::%llx.\n
@@ -7705,6 +7700,7 @@ overlay_handle
 overlay_key
 override_device_class
 overwrite.vrsettings
+p$34
 pBuffer != nullptr
 pClient
 pCmdBuf
@@ -7717,7 +7713,6 @@ pHandle
 pImage != nullptr
 pInput != nullptr
 pInstance
-pJ%4
 pLast->m_pointLastUsed <= pTimeline->m_pointLastUsed
 pNewResource
 pNewResource->Load( absFilePath )
@@ -7749,7 +7744,6 @@ parse_error
 path
 pauseCompositorOnStandby
 pbrMetallicRoughness
-pd\t4
 perfcheck
 perspective
 pico_controller

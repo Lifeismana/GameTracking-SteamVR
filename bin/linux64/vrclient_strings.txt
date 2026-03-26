@@ -1359,6 +1359,7 @@ $tI(kn
 16CVROverlayLatest
 16CVkCommandBuffer
 16IVRClientHandler
+17:02:44
 17CBoneMaskResource
 17CInputFilter_DPad
 17CSharedImageLinux
@@ -1422,6 +1423,7 @@ $tI(kn
 19CVRApplications_004
 19CVRApplications_005
 19CVRApplications_006
+19CVRApplications_007
 19CVRCompositorClient
 19CVRControlPanel_001
 19CVRControlPanel_002
@@ -1462,7 +1464,6 @@ $tI(kn
 19CVkPoolableResourceI20CVkCommandBufferPoolE
 19InMemoryInputStream
 1e+9999
-20:59:39
 20CMsaaResolveRenderer
 20CSimulatedActionBase
 20CSxrCompositorOpenVR
@@ -1818,6 +1819,7 @@ $tI(kn
 33ApplicationsInterfaceRegistrationI19CVRApplications_004E
 33ApplicationsInterfaceRegistrationI19CVRApplications_005E
 33ApplicationsInterfaceRegistrationI19CVRApplications_006E
+33ApplicationsInterfaceRegistrationI19CVRApplications_007E
 33CTrackedDeviceServerDriverAdapter
 33CVRMsg_AbortApplicationTransition
 33CVRMsg_ApplicationManifestRequest
@@ -2135,6 +2137,8 @@ ApplicationsInterfaceRegistration<CVRApplications_005>::GetInterface()
 ApplicationsInterfaceRegistration<CVRApplications_005>::~ApplicationsInterfaceRegistration()
 ApplicationsInterfaceRegistration<CVRApplications_006>::GetInterface()
 ApplicationsInterfaceRegistration<CVRApplications_006>::~ApplicationsInterfaceRegistration()
+ApplicationsInterfaceRegistration<CVRApplications_007>::GetInterface()
+ApplicationsInterfaceRegistration<CVRApplications_007>::~ApplicationsInterfaceRegistration()
 ApplyEyeGazeInteractionFixups(std::vector<Json::Value, std::allocator<Json::Value>>&, Json::Value&)
 ApplyEyeGazeInteractionFixups(std::vector<Json::Value, std::allocator<Json::Value>>&, Json::Value&) (.cold)
 ApplyTransformToPose(vr::HmdMatrix34_t&, vr::HmdVector3_t&, vr::HmdVector3_t&, vr::HmdMatrix34_t const&, vr::HmdVector3_t const&, vr::HmdVector3_t const&, vr::HmdMatrix34_t const&)
@@ -2297,8 +2301,8 @@ BuildMatTextureDetails(float (*) [4][4], vr::ESpatialEncodeMode, vr::HmdVector4_
 Byte size calculation and serialization were inconsistent.  This may indicate a bug in protocol buffers or it may be caused by concurrent modification of the message.
 C.1141.232825
 C.71.340283
-C.77.214434
-C.9.216324
+C.77.214437
+C.9.216327
 CActionBinding::CActionBinding(CActionBinding const&)
 CActionBinding::FromJson(Json::Value const&, std::string*)
 CActionBinding::FromJson(Json::Value const&, std::string*) (.cold)
@@ -4929,6 +4933,36 @@ CVRApplications_006::PerformApplicationPrelaunchCheck(char const*)
 CVRApplications_006::RemoveApplicationManifest(char const*)
 CVRApplications_006::SetApplicationAutoLaunch(char const*, bool)
 CVRApplications_006::SetDefaultApplicationForMimeType(char const*, char const*)
+CVRApplications_007::AddApplicationManifest(char const*, bool)
+CVRApplications_007::CancelApplicationLaunch(char const*)
+CVRApplications_007::GetApplicationAutoLaunch(char const*)
+CVRApplications_007::GetApplicationCount()
+CVRApplications_007::GetApplicationKeyByIndex(unsigned int, char*, unsigned int)
+CVRApplications_007::GetApplicationKeyByProcessId(unsigned int, char*, unsigned int)
+CVRApplications_007::GetApplicationLaunchArguments(unsigned int, char*, unsigned int)
+CVRApplications_007::GetApplicationProcessId(char const*)
+CVRApplications_007::GetApplicationPropertyBool(char const*, vr::EVRApplicationProperty, vr::EVRApplicationError*)
+CVRApplications_007::GetApplicationPropertyString(char const*, vr::EVRApplicationProperty, char*, unsigned int, vr::EVRApplicationError*)
+CVRApplications_007::GetApplicationPropertyUint64(char const*, vr::EVRApplicationProperty, vr::EVRApplicationError*)
+CVRApplications_007::GetApplicationSupportedMimeTypes(char const*, char*, unsigned int)
+CVRApplications_007::GetApplicationsErrorNameFromEnum(vr::EVRApplicationError)
+CVRApplications_007::GetApplicationsThatSupportMimeType(char const*, char*, unsigned int)
+CVRApplications_007::GetCurrentSceneProcessId()
+CVRApplications_007::GetDefaultApplicationForMimeType(char const*, char*, unsigned int)
+CVRApplications_007::GetSceneApplicationState()
+CVRApplications_007::GetSceneApplicationStateNameFromEnum(vr::EVRSceneApplicationState)
+CVRApplications_007::GetStartingApplication(char*, unsigned int)
+CVRApplications_007::IdentifyApplication(unsigned int, char const*)
+CVRApplications_007::IsApplicationInstalled(char const*)
+CVRApplications_007::LaunchApplication(char const*)
+CVRApplications_007::LaunchApplicationFromMimeType(char const*, char const*)
+CVRApplications_007::LaunchDashboardOverlay(char const*)
+CVRApplications_007::LaunchInternalProcess(char const*, char const*, char const*)
+CVRApplications_007::LaunchTemplateApplication(char const*, char const*, vr::AppOverrideKeys_t const*, unsigned int)
+CVRApplications_007::PerformApplicationPrelaunchCheck(char const*)
+CVRApplications_007::RemoveApplicationManifest(char const*)
+CVRApplications_007::SetApplicationAutoLaunch(char const*, bool)
+CVRApplications_007::SetDefaultApplicationForMimeType(char const*, char const*)
 CVRBlockQueueManager::AcquireReadOnlyBlock(unsigned long, unsigned long*, void const**, vr::EBlockQueueReadType)
 CVRBlockQueueManager::AcquireReadOnlyBlock(unsigned long, unsigned long*, void const**, vr::EBlockQueueReadType) (.cold)
 CVRBlockQueueManager::AcquireWriteOnlyBlock(unsigned long, unsigned long*, void**)
@@ -18497,6 +18531,7 @@ FnTable:%s
 FnTable:IVRApplications_004
 FnTable:IVRApplications_005
 FnTable:IVRApplications_006
+FnTable:IVRApplications_007
 FnTable:IVRChaperoneSetup_005
 FnTable:IVRChaperone_003
 FnTable:IVRCompositor_013
@@ -19178,6 +19213,37 @@ IVRApplications_006_FnTable_RemoveApplicationManifest(char const*)
 IVRApplications_006_FnTable_SetApplicationAutoLaunch(char const*, bool)
 IVRApplications_006_FnTable_SetDefaultApplicationForMimeType(char const*, char const*)
 IVRApplications_007
+IVRApplications_007_FnTable_AddApplicationManifest(char const*, bool)
+IVRApplications_007_FnTable_CancelApplicationLaunch(char const*)
+IVRApplications_007_FnTable_GetApplicationAutoLaunch(char const*)
+IVRApplications_007_FnTable_GetApplicationCount()
+IVRApplications_007_FnTable_GetApplicationKeyByIndex(unsigned int, char*, unsigned int)
+IVRApplications_007_FnTable_GetApplicationKeyByProcessId(unsigned int, char*, unsigned int)
+IVRApplications_007_FnTable_GetApplicationLaunchArguments(unsigned int, char*, unsigned int)
+IVRApplications_007_FnTable_GetApplicationProcessId(char const*)
+IVRApplications_007_FnTable_GetApplicationPropertyBool(char const*, vr::EVRApplicationProperty, vr::EVRApplicationError*)
+IVRApplications_007_FnTable_GetApplicationPropertyString(char const*, vr::EVRApplicationProperty, char*, unsigned int, vr::EVRApplicationError*)
+IVRApplications_007_FnTable_GetApplicationPropertyUint64(char const*, vr::EVRApplicationProperty, vr::EVRApplicationError*)
+IVRApplications_007_FnTable_GetApplicationSupportedMimeTypes(char const*, char*, unsigned int)
+IVRApplications_007_FnTable_GetApplicationsErrorNameFromEnum(vr::EVRApplicationError)
+IVRApplications_007_FnTable_GetApplicationsThatSupportMimeType(char const*, char*, unsigned int)
+IVRApplications_007_FnTable_GetCurrentSceneProcessId()
+IVRApplications_007_FnTable_GetDefaultApplicationForMimeType(char const*, char*, unsigned int)
+IVRApplications_007_FnTable_GetSceneApplicationState()
+IVRApplications_007_FnTable_GetSceneApplicationStateNameFromEnum(vr::EVRSceneApplicationState)
+IVRApplications_007_FnTable_GetStartingApplication(char*, unsigned int)
+IVRApplications_007_FnTable_IdentifyApplication(unsigned int, char const*)
+IVRApplications_007_FnTable_IsApplicationInstalled(char const*)
+IVRApplications_007_FnTable_LaunchApplication(char const*)
+IVRApplications_007_FnTable_LaunchApplicationFromMimeType(char const*, char const*)
+IVRApplications_007_FnTable_LaunchDashboardOverlay(char const*)
+IVRApplications_007_FnTable_LaunchInternalProcess(char const*, char const*, char const*)
+IVRApplications_007_FnTable_LaunchTemplateApplication(char const*, char const*, vr::AppOverrideKeys_t const*, unsigned int)
+IVRApplications_007_FnTable_PerformApplicationPrelaunchCheck(char const*)
+IVRApplications_007_FnTable_RemoveApplicationManifest(char const*)
+IVRApplications_007_FnTable_SetApplicationAutoLaunch(char const*, bool)
+IVRApplications_007_FnTable_SetDefaultApplicationForMimeType(char const*, char const*)
+IVRApplications_008
 IVRBlockQueue_001
 IVRBlockQueue_002
 IVRBlockQueue_003
@@ -23382,7 +23448,7 @@ MailboxInfo_t::~MailboxInfo_t()
 MailboxInterfaceRegistration<CVRMailbox_001>::GetInterface()
 MailboxInterfaceRegistration<CVRMailbox_001>::~MailboxInterfaceRegistration()
 MakeFileWriteable(char const*)
-Mar 18 2026
+Mar 25 2026
 March
 MarkInUse
 Material has extension MSFT_lod, but does not reference other materials via their ids.\n
@@ -26087,6 +26153,7 @@ VR_IVRApplications_FnTable_LaunchDashboardOverlay(char*)
 VR_IVRApplications_FnTable_LaunchInternalProcess(char*, char*, char*)
 VR_IVRApplications_FnTable_LaunchTemplateApplication(char*, char*, AppOverrideKeys_t*, unsigned int)
 VR_IVRApplications_FnTable_PerformApplicationPrelaunchCheck(char*)
+VR_IVRApplications_FnTable_RegisterSubprocess(unsigned int)
 VR_IVRApplications_FnTable_RemoveApplicationManifest(char*)
 VR_IVRApplications_FnTable_SetApplicationAutoLaunch(char*, bool)
 VR_IVRApplications_FnTable_SetDefaultApplicationForMimeType(char*, char*)
@@ -29505,6 +29572,7 @@ g_BitBufErrorHandler
 g_IVRApplications_004_FnTable
 g_IVRApplications_005_FnTable
 g_IVRApplications_006_FnTable
+g_IVRApplications_007_FnTable
 g_IVRChaperoneSetup_005_FnTable
 g_IVRChaperone_003_FnTable
 g_IVRCompositor_013_FnTable
@@ -37159,6 +37227,7 @@ typeinfo for ApplicationsInterfaceRegistration<CVRApplications_003>
 typeinfo for ApplicationsInterfaceRegistration<CVRApplications_004>
 typeinfo for ApplicationsInterfaceRegistration<CVRApplications_005>
 typeinfo for ApplicationsInterfaceRegistration<CVRApplications_006>
+typeinfo for ApplicationsInterfaceRegistration<CVRApplications_007>
 typeinfo for BlockQueueInterfaceRegistration<CVRBlockQueue_001>
 typeinfo for BlockQueueInterfaceRegistration<CVRBlockQueue_002>
 typeinfo for BlockQueueInterfaceRegistration<CVRBlockQueue_003>
@@ -37311,6 +37380,7 @@ typeinfo for CVRApplications_003
 typeinfo for CVRApplications_004
 typeinfo for CVRApplications_005
 typeinfo for CVRApplications_006
+typeinfo for CVRApplications_007
 typeinfo for CVRBlockQueueManager
 typeinfo for CVRBlockQueue_001
 typeinfo for CVRBlockQueue_002
@@ -38498,6 +38568,7 @@ typeinfo name for ApplicationsInterfaceRegistration<CVRApplications_003>
 typeinfo name for ApplicationsInterfaceRegistration<CVRApplications_004>
 typeinfo name for ApplicationsInterfaceRegistration<CVRApplications_005>
 typeinfo name for ApplicationsInterfaceRegistration<CVRApplications_006>
+typeinfo name for ApplicationsInterfaceRegistration<CVRApplications_007>
 typeinfo name for BlockQueueInterfaceRegistration<CVRBlockQueue_001>
 typeinfo name for BlockQueueInterfaceRegistration<CVRBlockQueue_002>
 typeinfo name for BlockQueueInterfaceRegistration<CVRBlockQueue_003>
@@ -38650,6 +38721,7 @@ typeinfo name for CVRApplications_003
 typeinfo name for CVRApplications_004
 typeinfo name for CVRApplications_005
 typeinfo name for CVRApplications_006
+typeinfo name for CVRApplications_007
 typeinfo name for CVRBlockQueueManager
 typeinfo name for CVRBlockQueue_001
 typeinfo name for CVRBlockQueue_002
@@ -41267,6 +41339,8 @@ vr::CVRApplicationsLatest::LaunchTemplateApplication(char const*, char const*, v
 vr::CVRApplicationsLatest::LaunchTemplateApplication(char const*, char const*, vr::AppOverrideKeys_t const*, unsigned int) (.cold)
 vr::CVRApplicationsLatest::PerformApplicationPrelaunchCheck(char const*)
 vr::CVRApplicationsLatest::PerformApplicationPrelaunchCheck(char const*) (.cold)
+vr::CVRApplicationsLatest::RegisterSubprocess(unsigned int)
+vr::CVRApplicationsLatest::RegisterSubprocess(unsigned int) (.cold)
 vr::CVRApplicationsLatest::RemoveApplicationManifest(char const*)
 vr::CVRApplicationsLatest::RemoveApplicationManifest(char const*) (.cold)
 vr::CVRApplicationsLatest::SetApplicationAutoLaunch(char const*, bool)
@@ -41691,6 +41765,8 @@ vrapplications005
 vrapplications005_FnTable
 vrapplications006
 vrapplications006_FnTable
+vrapplications007
+vrapplications007_FnTable
 vrblockqueue001
 vrblockqueue002
 vrblockqueue003
@@ -41911,6 +41987,7 @@ vtable for ApplicationsInterfaceRegistration<CVRApplications_003>
 vtable for ApplicationsInterfaceRegistration<CVRApplications_004>
 vtable for ApplicationsInterfaceRegistration<CVRApplications_005>
 vtable for ApplicationsInterfaceRegistration<CVRApplications_006>
+vtable for ApplicationsInterfaceRegistration<CVRApplications_007>
 vtable for BlockQueueInterfaceRegistration<CVRBlockQueue_001>
 vtable for BlockQueueInterfaceRegistration<CVRBlockQueue_002>
 vtable for BlockQueueInterfaceRegistration<CVRBlockQueue_003>
@@ -42046,6 +42123,7 @@ vtable for CVRApplications_003
 vtable for CVRApplications_004
 vtable for CVRApplications_005
 vtable for CVRApplications_006
+vtable for CVRApplications_007
 vtable for CVRBlockQueueManager
 vtable for CVRBlockQueue_001
 vtable for CVRBlockQueue_002

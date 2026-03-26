@@ -132,7 +132,7 @@
 /user/waist
 /user/wrist/left
 /user/wrist/right
-14:02:56
+10:06:46
 1e+9999
 8c8f13b1-60eb-4b6a-a433-de86104115ac
 8d8f13b1-60eb-4b6a-a433-de86104115ac
@@ -238,7 +238,6 @@ DeleteFileW
 Detail
 DispatchMessageA
 Duplicate key: '
-EM:Y
 ERROR: Failed to open log file %s, attempting timestamped filename\n
 Empty escape sequence in string
 EnterCriticalSection
@@ -298,7 +297,7 @@ GetTickCount64
 GetVRDesktopImpl
 GpuPreference=
 IVRApplicationsInternal_XXX
-IVRApplications_007
+IVRApplications_008
 IVRBlockQueue_005
 IVRCameraPassthroughInternal_001
 IVRChaperoneInternal_XXX
@@ -353,7 +352,7 @@ MSVCP140.dll
 MainMenu
 MainThrd
 MainWndClass
-Mar 18 2026
+Mar 25 2026
 MessageBoxA
 Minidump comment truncated
 Missing ',' or ']' in array declaration

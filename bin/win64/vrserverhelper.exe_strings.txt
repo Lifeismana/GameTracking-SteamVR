@@ -48,7 +48,6 @@
 .tls$ZZZ
 .xdata
 .xdata$x
-2J2w
 ?_Throw_C_error@std@@YAXH@Z
 ?_Xbad_function_call@std@@YAXXZ
 ?_Xlength_error@std@@YAXPEBD@Z

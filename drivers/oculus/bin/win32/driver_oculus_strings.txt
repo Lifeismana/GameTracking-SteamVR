@@ -549,7 +549,7 @@ ID3D11DeviceContext4::Signal
 IServerTrackedDeviceProvider_004
 ITrackedDeviceServerDriver_005
 IVRApplicationsInternal_XXX
-IVRApplications_007
+IVRApplications_008
 IVRBlockQueue_005
 IVRCameraComponent_003
 IVRCameraPassthroughInternal_001
@@ -701,7 +701,7 @@ Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
 RPCRT4.dll
-RSDS
+RSDS)
 RaiseException
 ResetEvent
 S-1-15-2-2765576060-2389096713-3079022642-4099546867-1445191215-3071396046-3987166893
@@ -1710,3 +1710,4 @@ znear
 {oculus}/input/rift_dk2.json
 {oculus}/input/rift_profile.json
 {oculus}/input/touch_profile.json
+~j9D
