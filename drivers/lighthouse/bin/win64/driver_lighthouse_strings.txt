@@ -1741,7 +1741,7 @@ ITrackedDeviceServerDriver_
 ITrackedDeviceServerDriver_004
 ITrackedDeviceServerDriver_005
 IVRApplicationsInternal_XXX
-IVRApplications_007
+IVRApplications_008
 IVRBlockQueue_005
 IVRCameraComponent_
 IVRCameraComponent_001
@@ -2150,7 +2150,7 @@ QueryServiceConfigW
 R1h58
 RENDERDOC_GetAPI
 RPCRT4.dll
-RSDSY;
+RSDS2u"%
 Radio
 RaiseException
 Reached an unintended state: CPPTYPE_MESSAGE

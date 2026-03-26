@@ -165,7 +165,6 @@ ADVAPI32.dll
 ASSERT: "%s" at %s:%d.\n
 AddStage and CopyStages are mutually exclusive.
 Already initialized
-B%VC
 Blank
 C:\workspace\vr\steamvr\main\src\thirdparty\renderpipelineshaders\src\runtime\vk\rps_vk_runtime_backend.cpp
 CPrismNode_CompositeLayersCompute::Initialize
@@ -244,6 +243,7 @@ Left Eye
 LoadLibraryA
 MSVCP140.dll
 MainThrd
+N-LI
 NULL
 NodeDecls_main
 Out of thread local storage!\n
@@ -363,7 +363,6 @@ Warning: Watchdog %s not properly cleaned up%s%s\n
 [PrismNode_CompositeLayersGraphics] Failed to get renderpass: %i
 [PrismNode_CompositeLayersGraphics] Failed to initialize composite graphics pipeline
 [PrismNode_PanelMaskGraphics] Failed to initialize panel mask
-[PrismNode_PanelMaskGraphics] Failed to update mask
 [Prism] Failed to set up graphics composite bindings
 \n[RPS_DIAG_ERROR] : '%s' @%s line %d.\n
 _Cnd_destroy_in_situ

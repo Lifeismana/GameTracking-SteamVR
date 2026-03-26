@@ -465,9 +465,9 @@
 /data/src/prism/src/motionestimation.cpp:1113
 /data/src/prism/src/motionsmoothing.cpp
 /data/src/prism/src/prism.cpp
-/data/src/prism/src/prism.cpp:1268
-/data/src/prism/src/prism.cpp:807
-/data/src/prism/src/prism.cpp:934
+/data/src/prism/src/prism.cpp:1269
+/data/src/prism/src/prism.cpp:808
+/data/src/prism/src/prism.cpp:935
 /data/src/prism/src/prism_capi.cpp
 /data/src/prism/src/prismclient.cpp
 /data/src/prism/src/prismposeprovider_null.cpp
@@ -494,12 +494,12 @@
 15CVkResourceBase
 15CVkResourcePoolI16CVkCommandBufferE
 16CVkCommandBuffer
+17:02:44
 18CPrismDisplay_Null
 18IPrismPoseProvider
 19CVkGarbageCollector
 19CVkPoolableResourceI20CVkCommandBufferPoolE
 1e+9999
-20:59:39
 20CVkCommandBufferPool
 20IPrismDisplayFactory
 23CPrismPoseProvider_Null
@@ -2151,7 +2151,7 @@ MV-Median5x5
 MV-PingPong%d-%s
 MV-PreviousInput-%s
 MV-Threshold
-Mar 18 2026
+Mar 25 2026
 March
 MarkInUse
 Mask Input Image
@@ -9613,6 +9613,7 @@ void std::vector<Json::PathArgument const*, std::allocator<Json::PathArgument co
 void std::vector<Json::PathArgument, std::allocator<Json::PathArgument>>::_M_realloc_insert<Json::PathArgument const&>(__gnu_cxx::__normal_iterator<Json::PathArgument*, std::vector<Json::PathArgument, std::allocator<Json::PathArgument>>>, Json::PathArgument const&)
 void std::vector<Json::Reader::StructuredError, std::allocator<Json::Reader::StructuredError>>::_M_realloc_insert<Json::Reader::StructuredError const&>(__gnu_cxx::__normal_iterator<Json::Reader::StructuredError*, std::vector<Json::Reader::StructuredError, std::allocator<Json::Reader::StructuredError>>>, Json::Reader::StructuredError const&)
 void std::vector<PhysicalDeviceInfo_t, std::allocator<PhysicalDeviceInfo_t>>::_M_realloc_insert<PhysicalDeviceInfo_t>(__gnu_cxx::__normal_iterator<PhysicalDeviceInfo_t*, std::vector<PhysicalDeviceInfo_t, std::allocator<PhysicalDeviceInfo_t>>>, PhysicalDeviceInfo_t&&)
+void std::vector<RpsRenderGraph_T*, std::allocator<RpsRenderGraph_T*>>::_M_realloc_insert<RpsRenderGraph_T* const&>(__gnu_cxx::__normal_iterator<RpsRenderGraph_T**, std::vector<RpsRenderGraph_T*, std::allocator<RpsRenderGraph_T*>>>, RpsRenderGraph_T* const&)
 void std::vector<VkDescriptorImageInfo, short_alloc<VkDescriptorImageInfo, 240ul, 8ul>>::_M_realloc_insert<VkDescriptorImageInfo const&>(__gnu_cxx::__normal_iterator<VkDescriptorImageInfo*, std::vector<VkDescriptorImageInfo, short_alloc<VkDescriptorImageInfo, 240ul, 8ul>>>, VkDescriptorImageInfo const&)
 void std::vector<VkDescriptorPoolSize, std::allocator<VkDescriptorPoolSize>>::_M_realloc_insert<VkDescriptorPoolSize>(__gnu_cxx::__normal_iterator<VkDescriptorPoolSize*, std::vector<VkDescriptorPoolSize, std::allocator<VkDescriptorPoolSize>>>, VkDescriptorPoolSize&&)
 void std::vector<VkDescriptorPool_T*, std::allocator<VkDescriptorPool_T*>>::_M_realloc_insert<VkDescriptorPool_T* const&>(__gnu_cxx::__normal_iterator<VkDescriptorPool_T**, std::vector<VkDescriptorPool_T*, std::allocator<VkDescriptorPool_T*>>>, VkDescriptorPool_T* const&)

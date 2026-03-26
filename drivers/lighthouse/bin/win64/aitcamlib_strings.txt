@@ -179,7 +179,7 @@ GetSystemTimeAsFileTime
 GetTickCount64
 H264
 IVRApplicationsInternal_XXX
-IVRApplications_007
+IVRApplications_008
 IVRBlockQueue_005
 IVRCameraPassthroughInternal_001
 IVRChaperoneInternal_XXX
@@ -241,7 +241,7 @@ PermissionDenied
 QueryPerformanceCounter
 QueryPerformanceFrequency
 RPCRT4.dll
-RSDSh
+RSDS
 RaiseException
 Received camera frame of size %u that is larger than the block queue we are copying into %u
 ResetEvent

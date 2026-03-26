@@ -1226,9 +1226,9 @@ c:\buildslave\steamvr_rel_win64\build\src\prism\src\motionestimation.cpp
 c:\buildslave\steamvr_rel_win64\build\src\prism\src\motionestimation.cpp:1090
 c:\buildslave\steamvr_rel_win64\build\src\prism\src\motionsmoothing.cpp
 c:\buildslave\steamvr_rel_win64\build\src\prism\src\prism.cpp
-c:\buildslave\steamvr_rel_win64\build\src\prism\src\prism.cpp:1268
-c:\buildslave\steamvr_rel_win64\build\src\prism\src\prism.cpp:807
-c:\buildslave\steamvr_rel_win64\build\src\prism\src\prism.cpp:934
+c:\buildslave\steamvr_rel_win64\build\src\prism\src\prism.cpp:1269
+c:\buildslave\steamvr_rel_win64\build\src\prism\src\prism.cpp:808
+c:\buildslave\steamvr_rel_win64\build\src\prism\src\prism.cpp:935
 c:\buildslave\steamvr_rel_win64\build\src\prism\src\prism_capi.cpp
 c:\buildslave\steamvr_rel_win64\build\src\prism\src\prismclient.cpp
 c:\buildslave\steamvr_rel_win64\build\src\prism\src\prismposeprovider_null.cpp

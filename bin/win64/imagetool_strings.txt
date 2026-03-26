@@ -7192,6 +7192,7 @@ P'PqP
 P(hA
 P0;0;0q
 P0Ea
+P2q/
 P4\n16 16\n
 P4\n16 8\n
 P4\n24 24\n
@@ -8057,7 +8058,7 @@ ROMAN
 ROSE
 RR Interval Window Number
 RR Window Offset
-RSDSa
+RSDSs
 RT Beam Limiting Device Type
 RT Dose ROI Sequence
 RT Image Description
