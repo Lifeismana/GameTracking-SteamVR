@@ -478,7 +478,6 @@ $0option $1;\n
 /yQA
 00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899"
 0123456789abcdef
-0Lj\t
 0x%X\n
 1.2.5
 1A26b
@@ -987,7 +986,7 @@ IVRCompositorPluginProvider_001
 IVRDisplayComponent_003
 IVRDriverDirectModeComponent_009
 IVRDriverManager_001
-IVRIPCResourceManagerClient_003
+IVRIPCResourceManagerClient_004
 IVRMailbox_002
 IVRResources_001
 IVRServerInternal_XXX
@@ -1128,7 +1127,6 @@ Option must not use reserved name "uninterpreted_option".
 Out of thread local storage!\n
 OutputDebugStringA
 PLACEHOLDER_VALUE
-PLj\t
 Pairing Failed
 Pairing Start
 Pairing Success
@@ -1147,6 +1145,7 @@ QueryPerformanceFrequency
 R1h58
 RPCRT4.dll
 RSDS
+R\vpo
 Radio Version: %i\n
 RaiseException
 Raw mapped input (%2d):
@@ -1459,7 +1458,7 @@ Zjz\v
 \r\n\tTYPE_ENUM
 \rlighthouse.pb"(\n
 \rmj>zjZ
-\rp\f`\v0\nPLj\t
+\rp\f`\v0\nP<k\t
 \tPID  0x%04X\n
 \tVID  0x%04X\n
 \t\t\n\n\v\v\f\f\f\f\r\r\r\r
@@ -1947,7 +1946,6 @@ ootx %08X u%d r%d (i%d)\n
 optical_sample
 optional
 options
-pLj\t
 package
 packed
 pair

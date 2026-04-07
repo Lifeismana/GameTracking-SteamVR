@@ -356,7 +356,7 @@ IVRBlockQueue_005
 IVRCameraPassthroughInternal_001
 IVRChaperoneInternal_XXX
 IVRChaperoneServerDriver_XXX
-IVRChaperoneSetup_006
+IVRChaperoneSetup_007
 IVRChaperone_004
 IVRClientInternal_XXX
 IVRCompositorSystemInternal_XXX
@@ -366,12 +366,13 @@ IVRDriverDirectInternal_XXX
 IVRDriverInputInternal_XXX
 IVRDriverManager_001
 IVRExtendedDisplay_001
+IVRInputFocusInternal_XXX
 IVRInputInternal_002
 IVRInput_011
 IVRMailbox_002
 IVRNotificationsInternal_001
 IVROverlayInternal_XXX
-IVROverlay_028
+IVROverlay_029
 IVRPathsInternal_XXX
 IVRPaths_002
 IVRPropertiesInternal_001
@@ -423,7 +424,8 @@ Parsing of JSON string "%s" failed: %s\n
 Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
-RSDS
+RSDSF
+R\npt
 RaiseException
 Recreate CaptureFramePool
 Reinitializing output duplication for desktop %d.\n

@@ -5,4 +5,5 @@ option cc_generic_services = false;
 
 extend .google.protobuf.MessageOptions {
 	optional string vr_path_property = 52000;
+	optional bool vr_path_property_unset_on_steam_close = 52001;
 }

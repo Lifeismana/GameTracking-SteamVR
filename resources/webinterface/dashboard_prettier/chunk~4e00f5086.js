@@ -1,542 +1,191 @@
-var CLSTAMP = "10552726";
+var CLSTAMP = "10579910";
 (self.webpackChunkvrwebui = self.webpackChunkvrwebui || []).push([
-  [906, 458],
+  [652],
   {
-    9864: (e, t, r) => {
-      r.d(t, { b: () => o, m: () => a });
-      var o,
-        i = r(6540),
-        n = r(3496);
-      !(function (e) {
-        (e[(e.Parent = 0)] = "Parent"), (e[(e.World = 1)] = "World");
-      })(o || (o = {}));
-      class a extends n._J {
-        constructor(e) {
-          super(e);
+    2824: (e, t, o) => {
+      o.d(t, { I0: () => l, M9: () => _, _n: () => d });
+      var n = o(1635),
+        r = o(7813),
+        i = o(3236),
+        a = o(1295),
+        s = o(776);
+      const _ = "systemui_dashboard_private",
+        l = "binding_callouts/main";
+      class d {
+        constructor() {
+          (this.m_wsWebSocketToServer = void 0),
+            (this.connected = !1),
+            (this.m_oHandlers = {}),
+            (this.m_oWaits = {}),
+            (this.m_oConnectWaits = []),
+            (this.m_fnConnectResolve = void 0),
+            (this.m_nNextMessageNumber = 1),
+            (this.Log = new s.wd("Mailbox", () => this.m_sMailboxName)),
+            (0, r.makeObservable)(this);
         }
-        internalRender() {
-          var e;
-          const t = null === (e = this.props.enabled) || void 0 === e || e,
-            r = this.props.rotation_start_angle_threshold
-              ? (this.props.rotation_start_angle_threshold * Math.PI) / 180
-              : null,
-            o = this.props.rotation_stop_angle_threshold
-              ? (this.props.rotation_stop_angle_threshold * Math.PI) / 180
-              : null,
-            n = this.props.rotation_ease_out_angle_threshold
-              ? (this.props.rotation_ease_out_angle_threshold * Math.PI) / 180
-              : null,
-            a = this.props.rotation_min_angular_velocity
-              ? (this.props.rotation_min_angular_velocity * Math.PI) / 180
-              : null,
-            s = this.props.rotation_max_angular_velocity
-              ? (this.props.rotation_max_angular_velocity * Math.PI) / 180
-              : null;
-          return i.createElement(
-            "vsg-elastic-head-transform",
-            {
-              "rotation-start-angle-threshold": r,
-              "rotation-stop-angle-threshold": o,
-              "rotation-ease-in-time": this.props.rotation_ease_in_time,
-              "rotation-ease-in-power": this.props.rotation_ease_in_power,
-              "rotation-ease-out-angle-threshold": n,
-              "rotation-ease-out-power": this.props.rotation_ease_out_power,
-              "rotation-min-angular-velocity": a,
-              "rotation-max-angular-velocity": s,
-              "translation-start-distance-threshold":
-                this.props.translation_start_distance_threshold,
-              "translation-stop-distance-threshold":
-                this.props.translation_stop_distance_threshold,
-              "translation-ease-in-time": this.props.translation_ease_in_time,
-              "translation-ease-in-power": this.props.translation_ease_in_power,
-              "translation-ease-out-distance-threshold":
-                this.props.translation_ease_out_distance_threshold,
-              "translation-ease-out-power":
-                this.props.translation_ease_out_power,
-              "translation-velocity": this.props.translation_velocity,
-              enabled: t,
-              "lock-to-horizon": this.props.lock_to_horizon,
-              "translation-parent": this.props.translation_parent,
-              "rotation-translation-change-together":
-                this.props.rotation_translation_change_together,
-            },
-            this.props.children,
-          );
+        OpenWebSocketToHost() {
+          return new Promise((e, t) => {
+            this.Log.Info("Connecting vrmailbox...");
+            let o = "ws://127.0.0.1:27062";
+            this.m_sWebSecret && (o += "?secret=" + this.m_sWebSecret),
+              (this.m_fnConnectResolve = e),
+              (this.m_wsWebSocketToServer = new WebSocket(o)),
+              this.m_wsWebSocketToServer.addEventListener("open", (t) => {
+                this.OnWebSocketOpen(t), e();
+              }),
+              this.m_wsWebSocketToServer.addEventListener(
+                "message",
+                this.OnWebSocketMessage,
+              ),
+              this.m_wsWebSocketToServer.addEventListener(
+                "close",
+                this.OnWebSocketClose,
+              ),
+              this.m_wsWebSocketToServer.addEventListener(
+                "error",
+                this.OnWebSocketError,
+              );
+          });
         }
-      }
-    },
-    7019: (e, t, r) => {
-      r.d(t, {
-        Fi: () => a,
-        Lr: () => y,
-        MQ: () => n,
-        Oi: () => o,
-        Zk: () => D,
-        _h: () => i,
-        o3: () => s,
-      });
-      var o,
-        i,
-        n,
-        a,
-        s,
-        l = r(1635),
-        _ = r(6540),
-        p = r(3496),
-        d = r(5178),
-        c = r(3236),
-        h = r(5723),
-        u = r(7600),
-        m = r(7727),
-        g = r(1651);
-      function v(e) {
-        if (e) return [e.u, e.v];
-      }
-      function y(e) {
-        switch (e) {
-          case o.TopLeft:
-            return { x: -1, y: 1 };
-          case o.TopCenter:
-            return { x: 0, y: 1 };
-          case o.TopRight:
-            return { x: 1, y: 1 };
-          case o.CenterLeft:
-            return { x: -1, y: 0 };
-          case o.Center:
-            return { x: 0, y: 0 };
-          case o.CenterRight:
-            return { x: 1, y: 0 };
-          case o.BottomLeft:
-            return { x: -1, y: -1 };
-          case o.BottomCenter:
-            return { x: 0, y: -1 };
-          case o.BottomRight:
-            return { x: 1, y: -1 };
-        }
-      }
-      !(function (e) {
-        (e[(e.TopLeft = 0)] = "TopLeft"),
-          (e[(e.TopCenter = 1)] = "TopCenter"),
-          (e[(e.TopRight = 2)] = "TopRight"),
-          (e[(e.CenterLeft = 3)] = "CenterLeft"),
-          (e[(e.Center = 4)] = "Center"),
-          (e[(e.CenterRight = 5)] = "CenterRight"),
-          (e[(e.BottomLeft = 6)] = "BottomLeft"),
-          (e[(e.BottomCenter = 7)] = "BottomCenter"),
-          (e[(e.BottomRight = 8)] = "BottomRight");
-      })(o || (o = {})),
-        (function (e) {
-          (e[(e.Auto = 0)] = "Auto"), (e[(e.SingleTap = 1)] = "SingleTap");
-        })(i || (i = {})),
-        (function (e) {
-          (e[(e.Mono = 0)] = "Mono"),
-            (e[(e.Parallel = 1)] = "Parallel"),
-            (e[(e.Crossed = 2)] = "Crossed"),
-            (e[(e.Panorama = 3)] = "Panorama"),
-            (e[(e.StackedPanorama = 4)] = "StackedPanorama");
-        })(n || (n = {})),
-        (function (e) {
-          (e[(e.Visible = 0)] = "Visible"),
-            (e[(e.SkipInSceneGraph = 1)] = "SkipInSceneGraph"),
-            (e[(e.Hidden = 2)] = "Hidden"),
-            (e[(e.InvisibleButIntersectable = 3)] =
-              "InvisibleButIntersectable");
-        })(a || (a = {})),
-        (function (e) {
-          (e[(e.Default = 0)] = "Default"),
-            (e[(e.Disabled = 1)] = "Disabled"),
-            (e[(e.Low = 2)] = "Low");
-        })(s || (s = {}));
-      class D extends p._J {
-        constructor(e) {
-          super(e),
-            (this.m_Rect = { x: 0, y: 0, width: 0, height: 0 }),
-            (this.m_nEmbeddedIndex = null),
-            (this.m_LastDOMContentSize = void 0),
-            (this.m_DOMContentSizeChangedCallbacks = new g.l()),
-            (this.m_resizeObserver = null),
-            (this.m_UVsMin = void 0),
-            (this.m_UVsMax = void 0),
-            (this.m_bOverdragBlocking = !1),
-            (this.m_overdragBlockingElements = []);
-          const t = void 0 !== this.props.width || void 0 !== this.props.height,
-            r = void 0 !== this.props.meters_per_pixel,
-            o = void 0 !== this.props.target_dpi_panel_id,
-            i =
-              void 0 !== this.props.rendermodel_component_device_index ||
-              void 0 !== this.props.rendermodel_component_name;
-          if (
-            i &&
-            (void 0 === this.props.rendermodel_component_device_index ||
-              void 0 === this.props.rendermodel_component_name)
-          )
-            throw new Error(
-              "Panel requires both rendermodel_component_device_index and rendermodel_component_name to be a rendermodel texture.",
-            );
-          const n = [t, r, o, i].filter((e) => e).length,
-            a =
-              "an (explicit width and/or height), an explicit meters_per_pixel, a target_panel_dpi panel ID, or a rendermodel name";
-          if (0 == n)
-            throw new Error(`Panel requires one of the following props: ${a}.`);
-          if (n > 1)
-            throw new Error(
-              `Panel cannot have more of the following of the following props: ${a}.`,
-            );
-          super.setBuildNodeOverride(this.buildNode);
-        }
-        get lastDOMContentSize() {
-          return this.m_LastDOMContentSize;
-        }
-        RegisterForDOMContentSizeChangedCallback(e) {
-          return this.m_DOMContentSizeChangedCallbacks.Register(e);
-        }
-        isExternal() {
-          return !!this.props.overlay_key;
-        }
-        getExternalOverlayKey() {
-          return this.props.overlay_key;
-        }
-        getEmbeddedIndex() {
-          return this.m_nEmbeddedIndex;
-        }
-        componentWillReceiveProps_UNSAFE() {
-          D.s_bPanelsAreDirty = !0;
-        }
-        componentDidMount() {
-          super.componentDidMount(),
-            (this.m_resizeObserver = new ResizeObserver(this.onResizeObserved)),
-            this.m_resizeObserver.observe(this.getCurrentRootElement()),
-            (this.m_nEmbeddedIndex = d.O.Current().addEmbeddedPanelUVs(this)),
-            (D.s_bPanelsAreDirty = !0),
-            this.getCurrentRootElement().addEventListener(
-              "mousedown",
-              this.onPanelMouseDown,
-            ),
-            this.forceUpdate();
-        }
-        onResizeObserved(e, t) {
-          d.O.Current().forceLayoutUpdate(),
-            (this.m_LastDOMContentSize = {
-              clientWidth: e[0].contentRect.width,
-              clientHeight: e[0].contentRect.height,
-            }),
-            this.m_DOMContentSizeChangedCallbacks.Dispatch(
-              this.m_LastDOMContentSize,
-            );
-        }
-        componentWillUnmount() {
-          this.m_resizeObserver &&
-            (this.m_resizeObserver.disconnect(),
-            (this.m_resizeObserver = null)),
-            this.stopOverDragBlocking(),
-            this.getCurrentRootElement().removeEventListener(
-              "mousedown",
-              this.onPanelMouseDown,
-            ),
-            (D.s_bPanelsAreDirty = !0),
-            d.O.Current().removeEmbeddedPanelUVs(this),
-            this.m_DOMContentSizeChangedCallbacks.ClearAllCallbacks(),
-            super.componentWillUnmount();
-        }
-        onPanelMouseDown() {
-          this.startOverDragBlocking();
-        }
-        startOverDragBlocking() {
-          if (this.m_bOverdragBlocking) return;
-          const e = document.body.getBoundingClientRect(),
-            t = this.getCurrentRootElement().getBoundingClientRect();
-          this.createOverdragBlockingElement(0, 0, e.width, t.y),
-            this.createOverdragBlockingElement(
-              0,
-              t.y + t.height,
-              e.width,
-              e.height - t.height - t.y,
-            ),
-            this.createOverdragBlockingElement(0, t.y, t.x, t.height),
-            this.createOverdragBlockingElement(
-              t.x + t.width,
-              t.y,
-              e.width - t.width - t.x,
-              t.height,
-            ),
-            window.document.addEventListener("mouseup", this.onWindowMouseUp),
-            (this.m_bOverdragBlocking = !0);
-        }
-        stopOverDragBlocking() {
-          this.m_bOverdragBlocking &&
-            (this.m_overdragBlockingElements.forEach((e) => {
-              document.body.removeChild(e);
-            }),
-            (this.m_overdragBlockingElements = []),
-            window.document.removeEventListener(
-              "mouseup",
-              this.onWindowMouseUp,
-            ),
-            (this.m_bOverdragBlocking = !1));
-        }
-        createOverdragBlockingElement(e, t, r, o) {
-          let i = document.createElement("div");
-          (i.style.position = "absolute"),
-            (i.style.top = t + "px"),
-            (i.style.left = e + "px"),
-            (i.style.width = r + "px"),
-            (i.style.height = o + "px"),
-            (i.style.zIndex = "90019001"),
-            this.m_overdragBlockingElements.push(i),
-            document.body.appendChild(i);
-        }
-        onWindowMouseUp(e) {
-          this.stopOverDragBlocking();
-        }
-        getNodeType() {
-          return "panel";
-        }
-        get visibility() {
-          var e;
-          return null !== (e = this.props.visibility) && void 0 !== e
-            ? e
-            : a.Visible;
-        }
-        buildNode(e, t) {
-          var r, o, i, n, s, l, _, c;
-          if (
-            !(
-              this.visibility == a.Visible ||
-              this.visibility == a.InvisibleButIntersectable
-            )
-          )
-            return [e, null];
-          let u = Object.assign(Object.assign({}, e), {
-              bInsideReparentedPanel: !1,
-              currentPanel: this,
-            }),
-            m = this.createSgNode(t),
-            g = { x: 0, y: 0 };
-          g =
-            "object" == typeof this.props.origin
-              ? (0, p.PG)(this.props.origin, { x: 0, y: 0 })
-              : y(this.props.origin);
-          const D = this.props.overlay_key,
-            S = (0, h.w5)();
-          D && D.length > 0
-            ? (m.properties.key = D)
-            : S
-              ? (m.properties.key = S)
-              : (m.properties.overlay_handle = (0, h.X4)()),
-            (m.properties.uv_min =
-              null !== (r = v(this.m_UVsMin)) && void 0 !== r ? r : void 0),
-            (m.properties.uv_max =
-              null !== (o = v(this.m_UVsMax)) && void 0 !== o ? o : void 0);
-          const B = 1 / d.O.Current().m_fCurrentScale;
-          let C = this.props.frame_resize_scale_factor;
+        static EnsureUniqueName(e) {
+          if (e.includes("/")) return e;
+          let t;
           return (
-            this.props.is_frame_page_main_panel && (C = null != C ? C : 1),
-            (m.properties.width =
-              null !== (i = this.props.width) && void 0 !== i ? i : void 0),
-            (m.properties.height =
-              null !== (n = this.props.height) && void 0 !== n ? n : void 0),
-            (m.properties["scale-index"] =
-              null !== (s = this.props.scale_index) && void 0 !== s ? s : 0),
-            (m.properties["min-width"] =
-              null !== (l = this.props.min_width) && void 0 !== l ? l : void 0),
-            (m.properties["target-width-anchor-id"] = (0, h.bl)(
-              this.props.target_width_anchor_id,
-            )),
-            (m.properties["target-dpi-panel-id"] = (0, h.bl)(
-              this.props.target_dpi_panel_id,
-            )),
-            (m.properties["target-dpi-multiplier"] =
-              this.props.target_dpi_multiplier),
-            (m.properties["meters-per-pixel"] =
-              null != this.props.meters_per_pixel
-                ? this.props.meters_per_pixel * B
-                : void 0),
-            (m.properties["subview-parent-panel-key"] =
-              this.props.subview_parent_panel_key),
-            (m.properties.curvature = this.props.curvature),
-            (m.properties["curvature-origin-id"] = (0, h.bl)(
-              this.props.curvature_origin_id,
-            )),
-            (m.properties.spherical = this.props.spherical),
-            (m.properties.interactive = this.props.interactive),
-            (m.properties.scrollable = this.props.scrollable),
-            (m.properties.undocked = this.props.undocked),
-            (m.properties.modal = this.props.modal),
-            (m.properties["requires-laser"] = this.props.requires_laser),
-            (m.properties["allow-input-capture"] =
-              this.props.allow_input_capture),
-            (m.properties["lasermouse-filtering"] =
-              null === (_ = this.props) || void 0 === _
-                ? void 0
-                : _.lasermouse_filtering),
-            (m.properties["hide-laser-when-clicking"] =
-              this.props.hide_lasermouse_when_clicking),
-            (m.properties["hide-laser-intersection"] =
-              null === (c = this.props) || void 0 === c
-                ? void 0
-                : c.hide_laser_intersection),
-            (m.properties["make-overlays-interactive-if-visible"] =
-              this.props.make_overlays_interactive_if_visible),
-            (m.properties["is-grab-handle"] = this.props.is_grab_handle),
-            (m.properties["embedded-uv-index"] = this.m_nEmbeddedIndex),
-            (m.properties.origin = (0, p.Hm)(g)),
-            (m.properties.debug_name = this.props.debug_name),
-            (m.properties.sampler = this.props.sampler),
-            (m.properties.reflect = this.props.reflect),
-            (m.properties.stereoscopy = this.props.stereoscopy),
-            (m.properties.rendermodel_component_device_index =
-              this.props.rendermodel_component_device_index),
-            (m.properties.rendermodel_component_name =
-              this.props.rendermodel_component_name),
-            (m.properties["texture-id"] = (0, h.bl)(this.props.texture_id)),
-            (m.properties["sort-order"] = this.props.sort_order),
-            (m.properties["sort-depth-bias"] = this.props.sort_depth_bias),
-            (m.properties.visibility = this.visibility),
-            (m.properties["frame-resize-scale-factor"] = C),
-            (m.properties["main-panel-for-frame-page"] =
-              this.props.is_frame_page_main_panel),
-            [u, m]
+            (t = VRHTML ? VRHTML.GetWebHelperId() : Date.now().toString()),
+            e + "/" + t + "_" + this.s_nNextMailboxNumber++
           );
         }
-        scaleLocalUVToGlobal(e) {
-          const t = this.m_UVsMax.u - this.m_UVsMin.u,
-            r = this.m_UVsMax.v - this.m_UVsMin.v;
-          return { u: this.m_UVsMin.u + t * e.u, v: this.m_UVsMin.v + r * e.v };
-        }
-        updateLayoutValues() {
-          if (this.props.overlay_key)
+        Init(e, t) {
+          return (0, n.sH)(this, void 0, void 0, function* () {
             return (
-              (this.m_UVsMin = this.props.uv_min),
-              void (this.m_UVsMax = this.props.uv_max)
+              (this.m_sMailboxName = d.EnsureUniqueName(e)),
+              (this.m_sWebSecret = t),
+              (this.connected = !1),
+              this.OpenWebSocketToHost()
             );
-          this.m_Rect = this.getCurrentRootElement().getBoundingClientRect();
-          let e = this.getCurrentRootElement().ownerDocument.defaultView;
-          (this.m_UVsMin = {
-            u: this.m_Rect.x / e.innerWidth,
-            v: this.m_Rect.y / e.innerHeight,
-          }),
-            (this.m_UVsMax = {
-              u: (this.m_Rect.x + this.m_Rect.width) / e.innerWidth,
-              v: (this.m_Rect.y + this.m_Rect.height) / e.innerHeight,
-            });
+          });
         }
-        PanelContextValue() {
-          return this;
+        get name() {
+          return this.m_sMailboxName;
         }
-        internalRender() {
-          return _.createElement(
-            "vsg-node",
-            { style: { display: this.visibility == a.Hidden ? "none" : null } },
-            _.createElement(u.tH, null, this.props.children),
-            this.props.is_frame_page_main_panel &&
-              _.createElement(S, { panel: this, panelID: this.getID() }),
+        OnWebSocketOpen(e) {
+          (this.connected = !0),
+            this.WebSocketSend("mailbox_open " + this.m_sMailboxName),
+            window.addEventListener("beforeunload", () => {
+              this.WebSocketSend("websocket_close");
+            }),
+            this.m_fnConnectResolve &&
+              (this.m_fnConnectResolve(), (this.m_fnConnectResolve = void 0));
+          for (let e of this.m_oConnectWaits) e();
+          this.m_oConnectWaits = [];
+        }
+        OnWebSocketClose(e) {
+          return (0, n.sH)(this, void 0, void 0, function* () {
+            this.Log.Warning("Lost connection to host..."),
+              (this.connected = !1),
+              yield (0, a.IP)(1e3),
+              this.OpenWebSocketToHost();
+          });
+        }
+        OnWebSocketError(e) {
+          return (0, n.sH)(this, void 0, void 0, function* () {
+            this.Log.Error("Mailbox error:", e),
+              (this.connected = !1),
+              yield (0, a.IP)(1e3),
+              this.OpenWebSocketToHost();
+          });
+        }
+        WebSocketSend(e) {
+          return (
+            null != this.m_wsWebSocketToServer &&
+            1 == this.m_wsWebSocketToServer.readyState &&
+            (this.m_wsWebSocketToServer.send(e), !0)
           );
         }
-      }
-      function S(e) {
-        const { panel: t, panelID: r } = e,
-          { page: o } = (0, m.N)();
-        return (
-          _.useEffect(() => {
-            const { Unset: e } = null == o ? void 0 : o.SetMainPanel(t);
-            return e;
-          }, [o, t, r]),
-          null
-        );
-      }
-      (D.s_bPanelsAreDirty = !1),
-        (0, l.Cg)([c.o], D.prototype, "onResizeObserved", null),
-        (0, l.Cg)([c.o], D.prototype, "onPanelMouseDown", null),
-        (0, l.Cg)([c.o], D.prototype, "onWindowMouseUp", null),
-        (0, l.Cg)([c.o], D.prototype, "buildNode", null);
-    },
-    3361: (e, t, r) => {
-      r.d(t, { d: () => s });
-      var o,
-        i = r(6540),
-        n = r(3496),
-        a = r(6292);
-      !(function (e) {
-        (e[(e.Seated = 0)] = "Seated"),
-          (e[(e.Standing = 1)] = "Standing"),
-          (e[(e.Raw = 2)] = "Raw");
-      })(o || (o = {}));
-      class s extends n._J {
-        constructor(e) {
-          super(e);
+        OnWebSocketMessage(e) {
+          let t = JSON.parse(e.data),
+            o = !1;
           if (
-            (void 0 === e.parent_path ? 0 : 1) +
-              (void 0 === e.parent_origin ? 0 : 1) +
-              (void 0 === e.parent_id ? 0 : 1) >
-            1
-          )
-            throw new Error(
-              "Transform cannot have more than one parent_ property set.",
-            );
+            (this.m_oHandlers.hasOwnProperty(t.type) &&
+              (this.m_oHandlers[t.type](t), (o = !0)),
+            this.m_oWaits.hasOwnProperty(t.type))
+          ) {
+            let e = !1;
+            for (let o of this.m_oWaits[t.type])
+              o.nMessageId == t.message_id && (o.callback(t), (e = !0));
+            e
+              ? (this.m_oWaits[t.type] = this.m_oWaits[t.type].filter(
+                  (e) => e.nMessageId == t.message_id,
+                ))
+              : this.Log.Error(
+                  `Received a ${t.type} message, but didn't have a matching message_id. Did the other end forget to mirror message_id?`,
+                ),
+              (o = !0);
+          }
+          o || this.Log.Error("Received unhandled message: ", t.type, t);
         }
-        internalRender() {
-          var e;
-          let t, r, s;
-          this.props.transform
-            ? ((t = (0, n.j_)(this.props.transform.translation)),
-              (r = this.props.transform.rotation),
-              (s = this.props.transform.scale))
-            : ((t = (0, n.XI)(this.props.translation)
-                ? null === (e = (0, n.UM)(this.props.translation)) ||
-                  void 0 === e
-                  ? void 0
-                  : e.join(" ")
-                : (0, n.j_)(
-                    (0, n.Wi)(this.props.translation, { x: 0, y: 0, z: 0 }),
-                  )),
-              (r =
-                this.props.rotation && "w" in this.props.rotation
-                  ? this.props.rotation
-                  : (0, a.Fb)(
-                      (0, a.tx)(
-                        (0, n.Wi)(this.props.rotation, { x: 0, y: 0, z: 0 }),
-                        Math.PI / 180,
-                      ),
-                    )),
-              (s =
-                "number" == typeof this.props.scale
-                  ? {
-                      x: this.props.scale,
-                      y: this.props.scale,
-                      z: this.props.scale,
-                    }
-                  : (0, n.Wi)(this.props.scale, { x: 1, y: 1, z: 1 })));
-          let l = (0, n.hi)(r),
-            _ = (0, n.j_)(s);
-          return i.createElement(
-            "vsg-transform",
-            {
-              translation: t,
-              rotation: l,
-              scale: _,
-              "curvature-pitch": this.props.curvature_pitch,
-              "invert-parent-panel-pitch": this.props.invert_parent_panel_pitch,
-              "ignore-parent-scale": this.props.ignore_parent_scale,
-              "transform-path": this.props.transform_path,
-              "parent-path": this.props.parent_path,
-              "parent-origin": o[this.props.parent_origin],
-              "parent-id": this.props.parent_id,
-              "frame-resize-scale-factor": this.props.frame_resize_scale_factor,
-            },
-            this.props.children,
+        RegisterHandler(e, t) {
+          this.m_oHandlers[e] = t;
+        }
+        SendMessage(e, t) {
+          return this.WebSocketSend(
+            "mailbox_send " + e + " " + JSON.stringify(t),
           );
         }
+        WaitForMessage(e, t) {
+          return new Promise((o, n) => {
+            this.m_oWaits[e] || (this.m_oWaits[e] = []),
+              this.m_oWaits[e].push({ callback: o, nMessageId: t });
+          });
+        }
+        WaitForConnect() {
+          return new Promise((e, t) => {
+            this.connected ? e() : this.m_oConnectWaits.push(e);
+          });
+        }
+        WaitForMailbox(e) {
+          return (0, n.sH)(this, void 0, void 0, function* () {
+            let t = {
+              type: "request_mailbox_registration_notification",
+              mailbox_name: e,
+            };
+            return this.SendMessageAndWaitForResponse(
+              "web_server_mailbox",
+              t,
+              "mailbox_registered",
+            );
+          });
+        }
+        SendMessageAndWaitForResponse(e, t, o) {
+          let n = Object.assign({}, t);
+          return (
+            null == n.returnAddress && (n.returnAddress = this.m_sMailboxName),
+            (n.message_id = this.m_nNextMessageNumber++),
+            this.SendMessage(e, n),
+            this.WaitForMessage(o, n.message_id)
+          );
+        }
+        SendResponse(e, t) {
+          if (!e.returnAddress)
+            throw new Error("Missing return address on message");
+          let o = Object.assign(Object.assign({}, t), {
+            message_id: e.message_id,
+          });
+          (o.message_id = e.message_id), this.SendMessage(e.returnAddress, o);
+        }
       }
+      (d.s_nNextMailboxNumber = 1),
+        (0, n.Cg)([r.observable], d.prototype, "connected", void 0),
+        (0, n.Cg)([i.o], d.prototype, "OpenWebSocketToHost", null),
+        (0, n.Cg)([i.o], d.prototype, "OnWebSocketOpen", null),
+        (0, n.Cg)([i.o], d.prototype, "OnWebSocketClose", null),
+        (0, n.Cg)([i.o], d.prototype, "OnWebSocketError", null),
+        (0, n.Cg)([i.o], d.prototype, "WebSocketSend", null),
+        (0, n.Cg)([i.o], d.prototype, "OnWebSocketMessage", null);
     },
-    4367: (e, t, r) => {
-      var o, i, n, a, s, l, _, p;
-      r.d(t, {
-        $: () => p,
-        KI: () => _,
-        QR: () => a,
-        en: () => n,
-        fD: () => o,
-      }),
+    4367: (e, t, o) => {
+      var n, r, i, a, s, _, l, d, u, c, p, m, S, g;
+      o.d(t, { en: () => i, fD: () => n }),
         (function (e) {
           (e[(e.Invalid = 0)] = "Invalid"),
             (e[(e.TrackingSystemName_String = 1e3)] =
@@ -867,7 +516,7 @@ var CLSTAMP = "10552726";
               "VRLinkClientHMDSupportsRoomSetupRequests_Bool"),
             (e[(e.TrackedDeviceProperty_Max = 1e6)] =
               "TrackedDeviceProperty_Max");
-        })(o || (o = {})),
+        })(n || (n = {})),
         (function (e) {
           (e[(e.k_EButton_System = 0)] = "k_EButton_System"),
             (e[(e.k_EButton_ApplicationMenu = 1)] =
@@ -899,7 +548,7 @@ var CLSTAMP = "10552726";
             (e[(e.k_EButton_Reserved0 = 50)] = "k_EButton_Reserved0"),
             (e[(e.k_EButton_Reserved1 = 51)] = "k_EButton_Reserved1"),
             (e[(e.k_EButton_Max = 64)] = "k_EButton_Max");
-        })(i || (i = {})),
+        })(r || (r = {})),
         (function (e) {
           (e[(e.None = 0)] = "None"),
             (e[(e.ButtonEnter = 1)] = "ButtonEnter"),
@@ -907,7 +556,7 @@ var CLSTAMP = "10552726";
             (e[(e.Snap = 3)] = "Snap"),
             (e[(e.Sliding = 4)] = "Sliding"),
             (e[(e.SlidingEdge = 5)] = "SlidingEdge");
-        })(n || (n = {})),
+        })(i || (i = {})),
         (function (e) {
           (e[(e.Minimal = 1)] = "Minimal"),
             (e[(e.Modal = 2)] = "Modal"),
@@ -928,18 +577,193 @@ var CLSTAMP = "10552726";
             (e[(e.Notification_BeginInteraction = 602)] =
               "Notification_BeginInteraction"),
             (e[(e.Notification_Destroyed = 603)] = "Notification_Destroyed");
-        })(l || (l = {})),
+        })(_ || (_ = {})),
         (function (e) {
           (e[(e.TheaterFast = 0)] = "TheaterFast"),
             (e[(e.TheaterSlow = 1)] = "TheaterSlow");
-        })(_ || (_ = {})),
+        })(l || (l = {})),
         (function (e) {
           (e[(e.Constant = 0)] = "Constant"),
             (e[(e.Nearest = 1)] = "Nearest"),
             (e[(e.Linear = 2)] = "Linear"),
             (e[(e.SmoothStep = 3)] = "SmoothStep"),
             (e[(e.SmootherStep = 4)] = "SmootherStep");
-        })(p || (p = {}));
+        })(d || (d = {})),
+        (function (e) {
+          (e[(e.Invalid = 0)] = "Invalid"),
+            (e[(e.RecenterCountdown = 1)] = "RecenterCountdown"),
+            (e[(e.FloorAdjustExisting = 2)] = "FloorAdjustExisting"),
+            (e[(e.RoomSetupFloor = 3)] = "RoomSetupFloor"),
+            (e[(e.ClearRoomSetup = 4)] = "ClearRoomSetup"),
+            (e[(e.RoomSetupFull = 5)] = "RoomSetupFull");
+        })(u || (u = {})),
+        (function (e) {
+          (e[(e.Near = 0)] = "Near"),
+            (e[(e.Middle = 1)] = "Middle"),
+            (e[(e.Far = 2)] = "Far"),
+            (e[(e.VRGamepadUI = 3)] = "VRGamepadUI");
+        })(c || (c = {})),
+        (function (e) {
+          (e[(e.__LocalSteamVR = 0)] = "__LocalSteamVR"),
+            (e[(e.__LocalSteam = 1)] = "__LocalSteam"),
+            (e[(e.__RemoteSteamVR = 2)] = "__RemoteSteamVR"),
+            (e[(e.__RemoteSteam = 3)] = "__RemoteSteam"),
+            (e[(e.MutualLocal = 4)] = "MutualLocal"),
+            (e[(e.MutualSteamVR = 5)] = "MutualSteamVR"),
+            (e[(e.MutualSteam = 6)] = "MutualSteam");
+        })(p || (p = {})),
+        (function (e) {
+          (e[(e.Dashboard = 1)] = "Dashboard"),
+            (e[(e.LeftHand = 2)] = "LeftHand"),
+            (e[(e.RightHand = 3)] = "RightHand"),
+            (e[(e.World = 4)] = "World"),
+            (e[(e.Theater = 5)] = "Theater"),
+            (e[(e.Boot = 6)] = "Boot");
+        })(m || (m = {})),
+        (function (e) {
+          (e[(e.Invalid = 0)] = "Invalid"),
+            (e[(e.System = 1)] = "System"),
+            (e[(e.SteamInput = 2)] = "SteamInput"),
+            (e[(e.VRInput = 3)] = "VRInput");
+        })(S || (S = {})),
+        (function (e) {
+          (e[(e.None = 0)] = "None"),
+            (e[(e.ThirdPartyClient = 1)] = "ThirdPartyClient"),
+            (e[(e.SteamVRClientUnified = 2)] = "SteamVRClientUnified"),
+            (e[(e.SteamVRClientLegacyDual = 3)] = "SteamVRClientLegacyDual");
+        })(g || (g = {}));
+    },
+    6138: (e, t, o) => {
+      o.d(t, { $: () => d, W: () => u });
+      var n = o(1635),
+        r = o(6540),
+        i = o(3236),
+        a = o(4963),
+        s = o(6090),
+        _ = o(6189),
+        l = o(1139);
+      class d extends r.Component {
+        constructor() {
+          super(...arguments), (this.m_ref = r.createRef());
+        }
+        get elem() {
+          return this.m_ref.current;
+        }
+        get disabled() {
+          return !1 === this.props.enabled;
+        }
+        onMouseDown(e) {
+          var t, o, n;
+          null === (o = (t = this.props).onMouseDown) ||
+            void 0 === o ||
+            o.call(t, e),
+            this.disabled ||
+              a.u.Instance.playSound(
+                null !== (n = this.props.pressSoundEffect) && void 0 !== n
+                  ? n
+                  : null,
+              );
+        }
+        onMouseUp(e) {
+          var t, o;
+          null === (o = (t = this.props).onMouseUp) ||
+            void 0 === o ||
+            o.call(t, e);
+        }
+        onClick(e) {
+          var t, o, n;
+          this.disabled ||
+            (null === (o = (t = this.props).onClick) ||
+              void 0 === o ||
+              o.call(t, e),
+            u.temporarilySuppressSoundEffect(),
+            a.u.Instance.playSound(
+              null !== (n = this.props.releaseSoundEffect) && void 0 !== n
+                ? n
+                : a.j.ButtonClick,
+            ));
+        }
+        onMouseEnter(e) {
+          var t, o;
+          null === (o = (t = this.props).onMouseEnter) ||
+            void 0 === o ||
+            o.call(t, e),
+            this.disabled ||
+              ((0, s.R$)() == s.OH.Overlay &&
+                _.W.Instance.triggerHaptic(s.en.ButtonEnter));
+        }
+        onMouseLeave(e) {
+          this.props.onMouseLeave && this.props.onMouseLeave(e),
+            this.disabled ||
+              ((0, s.R$)() == s.OH.Overlay &&
+                _.W.Instance.triggerHaptic(s.en.ButtonLeave));
+        }
+        render() {
+          let e = Object.assign({}, this.props);
+          return (
+            delete e.enabled,
+            delete e.pressSoundEffect,
+            delete e.releaseSoundEffect,
+            (e.className = (0, l.FH)(e.className, ["Disabled", this.disabled])),
+            r.cloneElement(r.createElement("div", e, this.props.children), {
+              onClick: this.onClick,
+              onMouseDown: this.onMouseDown,
+              onMouseUp: this.onMouseUp,
+              onMouseEnter: this.onMouseEnter,
+              onMouseLeave: this.onMouseLeave,
+              ref: this.m_ref,
+            })
+          );
+        }
+      }
+      (0, n.Cg)([i.o], d.prototype, "onMouseDown", null),
+        (0, n.Cg)([i.o], d.prototype, "onMouseUp", null),
+        (0, n.Cg)([i.o], d.prototype, "onClick", null),
+        (0, n.Cg)([i.o], d.prototype, "onMouseEnter", null),
+        (0, n.Cg)([i.o], d.prototype, "onMouseLeave", null);
+      class u extends r.Component {
+        static temporarilySuppressSoundEffect() {
+          window.clearTimeout(this.s_nPlaySoundEffectTimeout),
+            (this.s_nPlaySoundEffectTimeout = 0),
+            window.clearTimeout(this.s_nSuppressingSoundEffectsTimeout),
+            (this.s_nSuppressingSoundEffectsTimeout = window.setTimeout(
+              this.endSoundEffectSuppression,
+              this.k_nSoundEffectSuppressionPeriod,
+            ));
+        }
+        static get suppressingSoundEffect() {
+          return this.s_nSuppressingSoundEffectsTimeout > 0;
+        }
+        onClick(e) {
+          u.suppressingSoundEffect ||
+            (window.clearTimeout(u.s_nPlaySoundEffectTimeout),
+            (u.s_nPlaySoundEffectTimeout = window.setTimeout(
+              u.playSoundEffect,
+              u.k_nSoundEffectDelay,
+            ))),
+            this.props.onClick && this.props.onClick(e);
+        }
+        static endSoundEffectSuppression() {
+          window.clearTimeout(this.s_nSuppressingSoundEffectsTimeout),
+            (this.s_nSuppressingSoundEffectsTimeout = 0);
+        }
+        static playSoundEffect() {
+          a.u.Instance.playSound(a.j.SurfaceClick);
+        }
+        render() {
+          return r.cloneElement(
+            r.createElement("div", this.props, this.props.children),
+            { onClick: this.onClick },
+          );
+        }
+      }
+      (u.k_nSoundEffectSuppressionPeriod = 4),
+        (u.k_nSoundEffectDelay = 2),
+        (u.s_nSuppressingSoundEffectsTimeout = 0),
+        (u.s_nPlaySoundEffectTimeout = 0),
+        (0, n.Cg)([i.o], u.prototype, "onClick", null),
+        (0, n.Cg)([i.o], u, "endSoundEffectSuppression", null),
+        (0, n.Cg)([i.o], u, "playSoundEffect", null);
     },
   },
-]); //# sourceMappingURL=file:///home/buildbot/buildslave/steamvr_rel_npm_vrwebui/build/public/runtime/resources/webinterface/dashboard/sourcemaps/chunk~edeac9135.js.map
+]); //# sourceMappingURL=file:///home/buildbot/buildslave/steamvr_rel_npm_vrwebui/build/public/runtime/resources/webinterface/dashboard/sourcemaps/chunk~4e00f5086.js.map

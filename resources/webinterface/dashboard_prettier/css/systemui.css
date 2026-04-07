@@ -192,4 +192,51 @@
   border-bottom: solid 1px gray;
   margin-bottom: .5em;
 }
+.inputfocusdevui_DevUI_22N_K {
+  background: #222;
+  color: #fff;
+  width: 600px;
+  max-height: 600px;
+  padding: .4em;
+  border-radius: .4em;
+  display: flex;
+  flex-direction: column;
+}
+.inputfocusdevui_DevUIScrollable_1GKGA {
+  overflow: auto;
+}
+.inputfocusdevui_DevUI_22N_K input,
+.inputfocusdevui_DevUI_22N_K button {
+  background: #fff;
+  color: #000;
+  height: 1em;
+  box-sizing: content-box;
+  font-size: 1em;
+  border: none;
+  display: inline-block;
+  margin: 1px;
+  border-radius: 2px;
+}
+.inputfocusdevui_DevUI_22N_K input:hover,
+.inputfocusdevui_DevUI_22N_K button:hover {
+  background: #bbb;
+}
+.inputfocusdevui_DevUI_22N_K input:active,
+.inputfocusdevui_DevUI_22N_K button:active {
+  background: #000;
+  color: #fff;
+}
+.inputfocusdevui_DevUI_22N_K .inputfocusdevui_DevUIFrame_3m0tq button {
+  margin-right: 1ch;
+}
+.inputfocusdevui_DevUI_22N_K input {
+  height: 1em;
+  font-size: 1em;
+  box-sizing: border-box;
+}
+.inputfocusdevui_DevUI_22N_K pre {
+  padding: 0;
+  margin: 0;
+  font-size: .8em;
+}
 /*# sourceMappingURL=file:///home/buildbot/buildslave/steamvr_rel_npm_vrwebui/build/public/runtime/resources/webinterface/dashboard/sourcemaps/css/systemui.css.map*/

@@ -215,6 +215,7 @@ EventWriteString
 EventWriteTransfer
 Facet-Texture-Staging
 Failed to compute blue distortion parameters!\n
+Failed to compute forward red distortion parameters!\n
 Failed to compute green distortion parameters!\n
 Failed to compute inverse blue distortion parameters!\n
 Failed to compute inverse green distortion parameters!\n
@@ -243,7 +244,6 @@ Left Eye
 LoadLibraryA
 MSVCP140.dll
 MainThrd
-N-LI
 NULL
 NodeDecls_main
 Out of thread local storage!\n

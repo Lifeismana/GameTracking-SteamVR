@@ -557,7 +557,7 @@ IVRBlockQueue_005
 IVRCameraPassthroughInternal_001
 IVRChaperoneInternal_XXX
 IVRChaperoneServerDriver_XXX
-IVRChaperoneSetup_006
+IVRChaperoneSetup_007
 IVRChaperone_004
 IVRClientInternal_XXX
 IVRCompositorSystemInternal_XXX
@@ -568,13 +568,14 @@ IVRDriverDirectInternal_XXX
 IVRDriverInputInternal_XXX
 IVRDriverManager_001
 IVRExtendedDisplay_001
+IVRInputFocusInternal_XXX
 IVRInputInternal_002
 IVRInput_011
 IVRMailbox_002
 IVRNotificationsInternal_001
 IVRNotifications_002
 IVROverlayInternal_XXX
-IVROverlay_028
+IVROverlay_029
 IVRPathsInternal_XXX
 IVRPaths_002
 IVRPropertiesInternal_001
@@ -1113,6 +1114,7 @@ VRInitError_Driver_RuntimeOutOfDate
 VRInitError_Driver_TrackedDeviceInterfaceUnknown
 VRInitError_Driver_Unknown
 VRInitError_Driver_WirelessHmdNotConnected
+VRInitError_Driver_WirelessHmdNotConnectedAndNoSteam
 VRInitError_IPC_CompositorConnectFailed
 VRInitError_IPC_CompositorInitFailed
 VRInitError_IPC_CompositorInvalidConnectResponse

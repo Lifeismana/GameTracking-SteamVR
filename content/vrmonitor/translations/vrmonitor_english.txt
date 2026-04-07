@@ -74,6 +74,7 @@
 "DismissableWarning_SteamBetaNeeded" "Steam Beta Client Required (0x10000000000)"
 "DismissableWarning_RequiresSteamUpdate" "Steam Client Update Required (0x80000000000)"
 "DismissableWarning_SteamStreamingAudioEndpointDisabled" "Steam Streaming Audio Device Disabled (0x100000000000)"
+"DismissableWarning_SteamFrameDongleDriverMissing" "Steam Frame wireless adapter driver missing (0x400000000000)"
 
 "DismissableWarning_Detected" "Detected"
 "DismissableWarning_TimeFormat" "h:mm AP"
@@ -1256,5 +1257,21 @@
 "HeadsetView_EyeMode_BothLeftDominant" "Both Eyes - Left Dominant"
 "HeadsetView_EyeMode_BothRightDominant" "Both Eyes - Right Dominant"
 "HeadsetView_DebugCommands" "Open Debug Commands"
+
+"LinkType_link_unknown" "Unknown Link Type"
+"LinkType_link_usb" "USB Connection"
+"LinkType_link_dongle" "Wireless Streaming Adapter"
+"LinkType_link_wired_to_router" "PC Wired To Router"
+"LinkType_linkwireless_to_router" "PC Wirelessly Connected to Router"
+
+"LinkQuality_linkquality_none" "No Link Status"
+"LinkQuality_linkquality_good" "Link Online"
+"LinkQuality_linkquality_mediocre" "Link Quality Low"
+"LinkQuality_linkquality_bad" "Link Offline"
+"LinkQuality_linkquality_searching" "Link Searching"
+"LinkQuality_linkquality_missing" "Link Missing"
+
+"Link_One_Second_P100_Ping" "1s Highest Ping"
+"Link_One_Second_Loss_Ratio" "Lost Packet Rate"
 }
 }

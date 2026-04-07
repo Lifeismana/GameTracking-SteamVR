@@ -6,6 +6,7 @@
 	"Setting_foveatedStreamFormatWidth": "Foveated Encoded Video Size (px)",
 	"Setting_nonFoveatedStreamFormatWidth": "Non-Foveated Encoded Video Size (px)",
 	"Setting_automaticBandwidth": "Target Bandwidth",
+	"Setting_effectiveFoveatedResolution": "Effective Foveated Resolution",
 	"Setting_targetBandwidth": "Target Bandwidth (Mbps)",
 	"Setting_10bit": "Use 10 bit depth encoding",
 	"Setting_showAdvancedGraphs": "Show Debug Graph",
@@ -25,6 +26,7 @@
 	"Setting_Foveation": "Foveation",
 	"Setting_FoveationOn": "On",
 	"Setting_FoveationOff": "Off",
+	"Setting_AllowMultipleLinks": "Allow Multiple Links",
 
 	"svl_hand_interaction_augmented": "Hand Tracking Controller",
 	"/input/index_pinch": "Index Pinch",

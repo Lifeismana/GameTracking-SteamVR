@@ -1,30 +1,103 @@
                                                                 0000000000000000000000000000000000000000000000000000000000000000@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@PPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPP````````````````````````````````````````````````````````````````pppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppp
                                 00000000000000000000000000000000@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@PPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPP````````````````````````````````pppppppppppppppppppppppppppppppp
                 0000000000000000@@@@@@@@@@@@@@@@PPPPPPPPPPPPPPPP````````````````pppppppppppppppp
+  Comment started here.
  !"#$%&'()*+,-./0123456789:;<=>?
  !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
  !"#$%&'()*+,-./0123456789:;<=>?Sample message for keylen=blocklen
  !$%(),-"#&'*+./014589<=2367:;>?
  "!#$&%'(*)+,.-/021346578:9;<>=?
  (does the path point to a directory?)
+ = { <proto text format> }". To set fields within it, use syntax like "
+ Outdent() without matching Indent().
+ Tokenizer::ParseFloat() passed text that could not have been tokenized as a float: 
+ Tokenizer::ParseInteger() passed text that could not have been tokenized as an integer: 
+ Tokenizer::ParseStringAppend() passed text that could not have been tokenized as a string: 
+ [default = $0
+ args were given.  Full format string was: "
  at line 
+ bytes).  To increase the limit (or to disable these warnings), see CodedInputStream::SetTotalBytesLimit() in google/protobuf/io/coded_stream.h.
+ bytes, parsing will be halted for security reasons.  To increase the limit (or to disable these warnings), see CodedInputStream::SetTotalBytesLimit() in google/protobuf/io/coded_stream.h.
  exceeds maximum allowed file size 
  for detail.\n
+ google/protobuf/descriptor.proto"\f\n\nNoResponse*]\n
+ google/protobuf/descriptor.proto:;\n
  in Buffer\n
+ is not valid for field 
+ message of type "
+ of the Protocol Buffer runtime library, but the installed version is 
+ of the Protocol Buffer runtime library, which is not compatible with the installed version (
+ of type 
  wZiK
+!.google.protobuf.EnumValueOptions
 !H88p
 !tI)i
 !tX)i
+" because it is missing required fields: 
+" conflicts with the existing symbol "
+" for field "
+" for option "
+" has no field named "
+" has no value named "
+" has not been loaded.
+" implements neither SetCachedSize() nor ByteSize().  Must implement one or the other.
+" imports "
+" in type "
+" is a message. To set the entire message, use syntax like "
+" is a repeated message. Repeated message options must be initialized using an aggregate value.
+" is already defined (as something other than a package) in file "
+" is already defined in "
+" is already defined in file "
+" is already defined.
+" is an atomic type, not a message.
+" is not a field or extension of message "
+" is not a message type.
+" is not a type.
+" is not a valid identifier.
+" is not an enum type.
+" is not defined or is not an extension of "
+" is not defined.
+" is resolved to "
+" is resolved to "(
+" is specified along with field "
+" is specified multiple times.
+" must be unique within 
 " not found in the scene.
+" not previously defined in symbols_by_name_, but was defined in symbols_by_parent_; this shouldn't be possible.
+" seems to be defined in "
+" unknown.
+" uses the same enum value as "
+" was already set.
+" was listed twice.
+" was not found or had errors.
+" which is not used.
+" which is.
+"$0" does not declare $1 as an extension number.
 "%/28;=#$019:>?
+") is not compatible with this reflection object (which is for type "
+") to start from the outermost scope.
+").  Note that the exact same class is required; not just the same descriptor.
+", another member of oneof "
+", but only 
+", field number 
+", which is not defined. The innermost scope is searched first in name resolution. Consider using a leading '.'(i.e., ".
+", which is not imported by "
+".  To use it here, please add the necessary import.
+". If this is intended, set 'option allow_alias = true;' to the enum definition.
 ". Must be "perspective" or "orthographic"
+". This appears to be a value from a sibling type.
+". Value: "
+"/*" inside block comment.  Block comments cannot be nested.
+"0x" must be followed by hex digits.
 "3DUfw
 "3ii
+"MutableRawRepeatedField"
 "Q>W1
 "accessors" object not found in .gltf\n
 "asset" object not found in .gltf or not an object type\n
 "bufferViews" object not found in .gltf\n
 "buffers" object not found in .gltf\n
+"e" must be followed by exponent.
 "nodes" object not found in .gltf\n
 "orthographic" is not a JSON object.
 "perspective" is not a JSON object.
@@ -32,6 +105,7 @@
 "scenes" object not found in .gltf or not an array type\n
 "spot" is not a JSON object.
 "subtype": 
+"z\n\rMethodOptions
 #################### NVENC: %s\n
 ##eF##eFii
 #0Kz9
@@ -40,11 +114,22 @@
 #?RGBE
 #?RGBE\n
 #bundle
+$0  extend .$1 {\n
+$0  extensions $1 to $2;\n
+$0  message $1
+$0 oneof $1 {\n
+$0$1$2 $3 = $4
+$0enum $1 {\n
+$0option $1;\n
 $3br
+$\n k_EProtoExecutionSiteSteamClient
+$\n k_EProtoServiceTypeSteamMessages
 %%oJ%%oJ$$lH$$lHss
 %&'()*456789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
+%.1f ms
 %02X:%02X:%02X
 %02x\t
+%04x%c
 %12s: %9s
 %12s:%10.3f
 %13s:%9.3f
@@ -60,9 +145,7 @@ $3br
 %a %b %d %H:%M:%S %Y
 %a %b %d %Y %H:%M:%S.%%03u
 %c%sFailFuzz
-%d ms
 %d,%d,%d,%d
-%d.%d.%d.%d:%u
 %d/%d hw max [%d]\n%d in (%d bits)\nPair: %s
 %dx%d
 %f %d %d %d %08x\n
@@ -106,13 +189,36 @@ $3br
 (Not Enough Power)
 (Overcurrent)
 (Reset)
+(\t:P\n%vr_path_property_unset_on_steam_close
+(\v2 .google.protobuf.DescriptorProto
+(\v2!.google.protobuf.EnumValueOptions"
+(\v2$.google.protobuf.EnumDescriptorProto
+(\v2$.google.protobuf.FileDescriptorProto"
+(\v2$.google.protobuf.UninterpretedOption"/\n
+(\v2$.google.protobuf.UninterpretedOption":\n\fOptimizeMode
+(\v2$.google.protobuf.UninterpretedOption*\t
+(\v2%.google.protobuf.FieldDescriptorProto
+(\v2%.google.protobuf.OneofDescriptorProto
+(\v2&.google.protobuf.MethodDescriptorProto
+(\v2'.google.protobuf.ServiceDescriptorProto
+(\v2(.google.protobuf.SourceCodeInfo.Location
+(\v2).google.protobuf.EnumValueDescriptorProto
+(\v2-.google.protobuf.UninterpretedOption.NamePart
+(\v2/.google.protobuf.DescriptorProto.ExtensionRange
+(cannot determine missing fields for lite message)
+(merge 
+)", which is not defined. The innermost scope is searched first in name resolution. Consider using a leading '.'(i.e., "(.
+).  Contact the program author for an update.  If you compiled the program yourself, make sure that your headers are from the same version of Protocol Buffers as your link-time library.  (Version verification failed in "
 )5lX8
+*\n&k_EProtoServiceTypeVRGamepadUIMessages
 +2Hp
 +HpXhE
 , binary size = 
 , but got 
 , column 
+, from:
 , last executing in 
+, not just within "
 , requestedBytes 
 ,\n\t"cPingHistogramv1" : [
 ,\n\t"cRXFailHistogramv1" : [
@@ -123,9 +229,31 @@ $3br
 ,fff
 -1e+9999
 -Infinity
--SC Custom 0 %d
+-NIL
+-inf
 -startup
+.  Please update your library.  If you compiled the program yourself, make sure that your headers are from the same version of Protocol Buffers as your link-time library.  (Version verification failed in "
 ../../../../src/thirdparty/livepp
+..\src\google\protobuf\descriptor.cc
+..\src\google\protobuf\descriptor.pb.cc
+..\src\google\protobuf\descriptor_database.cc
+..\src\google\protobuf\dynamic_message.cc
+..\src\google\protobuf\extension_set.cc
+..\src\google\protobuf\extension_set_heavy.cc
+..\src\google\protobuf\generated_message_reflection.cc
+..\src\google\protobuf\io\coded_stream.cc
+..\src\google\protobuf\io\strtod.cc
+..\src\google\protobuf\io\tokenizer.cc
+..\src\google\protobuf\io\zero_copy_stream.cc
+..\src\google\protobuf\io\zero_copy_stream_impl_lite.cc
+..\src\google\protobuf\message.cc
+..\src\google\protobuf\message_lite.cc
+..\src\google\protobuf\reflection_ops.cc
+..\src\google\protobuf\stubs\common.cc
+..\src\google\protobuf\stubs\substitute.cc
+..\src\google\protobuf\text_format.cc
+..\src\google\protobuf\wire_format.cc
+..\src\google\protobuf\wire_format_lite.cc
 .00cfg
 .?AU?$CFactoryMakerT@VCAnimSkeleton@@@?$CAnimFactoryBaseT@VCAnimResource@@@@
 .?AU?$CFactoryMakerT@VCBoneMaskResource@@@?$CAnimFactoryBaseT@VCAnimResource@@@@
@@ -133,53 +261,56 @@ $3br
 .?AU?$ToBaseT@VCBoneMaskResource@@VCAnimResource@@@Detail@Reflection@@
 .?AU?$ToBaseT@VCKeyframedDataResource@@VCAnimResource@@@Detail@Reflection@@
 .?AU?$output_adapter_protocol@D@detail@nlohmann@@
-.?AUBuiltStyledStreamWriter@Json@@
 .?AUCFactoryMaker@CAnimFactoryBase@@
 .?AUIAudioEndpointVolumeCallback@@
 .?AUIMMNotificationClient@@
 .?AUIUnknown@@
+.?AUSVLDriverTextureSet_t@SVLHMDDriver@@
+.?AUTextureSet_t@SVLHMDDriverD3D11@@
 .?AUToBase_t@Detail@Reflection@@
 .?AU_Crt_new_delete@std@@
 .?AV<lambda_04103da6412327e603633ce4cd0b1ff8>@@
 .?AV<lambda_054ec0d90128816f29bca28af468a816>@@
-.?AV<lambda_0624edd98049f3ae9789e360a827f5a6>@@
 .?AV<lambda_066bac8ee4399bc6d745769f00b2e3e3>@@
 .?AV<lambda_0881c9906f05f503e42109ac226d18eb>@@
 .?AV<lambda_088be9d629c529e04e66f668ef48a2de>@@
 .?AV<lambda_0b4ab5e44d357ff40892732314352562>@@
+.?AV<lambda_12d4145ead4c85e64ccd0b9edb9c3522>@@
 .?AV<lambda_18c16c7f54b6ef613ac8ab67a502910f>@@
-.?AV<lambda_18f8685e9d6d6c41b711788ea2efc59f>@@
 .?AV<lambda_1b183cf92bfcc7a986ca41b48af450da>@@
+.?AV<lambda_1dab2bdf1e893592e9ed39f583e5875f>@@
 .?AV<lambda_1db60d98261e2e5ed663866066a32dcb>@@
 .?AV<lambda_2d4b9bd805c205933c366a2a96e134e0>@@
+.?AV<lambda_33478c8783614153bfe9aa6f88621db5>@@
 .?AV<lambda_3775199eb374ee8b8777545cef56c745>@@
 .?AV<lambda_3fd6e5ca82e0518e289160675f532929>@@
+.?AV<lambda_4034761bb2dd9685e1e3c01c30ab7f90>@@
+.?AV<lambda_45a768b69274d94452e24a9121231aff>@@
 .?AV<lambda_464f3c09c62c7563fe9e8d0867be1607>@@
+.?AV<lambda_5d28593e0d44957b6d4c7e93b1ccc634>@@
 .?AV<lambda_60eb63303e0c1f343ab64d1f44d258c8>@@
 .?AV<lambda_6a080fdf464447d22b6bc3e4b8e9e264>@@
-.?AV<lambda_76b893375c6dd71409cfaed387a60af4>@@
-.?AV<lambda_799c7abc4438a41176f8868c6149585d>@@
+.?AV<lambda_6fa040d707a93b910dd4452a6ace25d1>@@
+.?AV<lambda_76dd0f903180171e2198f91c05bcb545>@@
 .?AV<lambda_7b6f6392411fd0bed81b6492ee534b9b>@@
 .?AV<lambda_8137bacb2ec4a212e8515c6b4689164d>@@
-.?AV<lambda_82fe8519a611fabfc17055ec18b3cdfd>@@
 .?AV<lambda_876f99566db85b37b4813643d63fd007>@@
 .?AV<lambda_8af3af333305e3d84f47041b3014cca5>@@
-.?AV<lambda_8c41f96c9266656aa778846b9a081afc>@@
+.?AV<lambda_8f80c04375dfdd245c0e7e88d9eb669c>@@
 .?AV<lambda_9aaaf0f4ef5b71aa08ce4fdd112018ed>@@
 .?AV<lambda_9ad9d8db2d3bd27ade5348b1968c872f>@@
-.?AV<lambda_a3e50aa671c83e58801967e93e8597ee>@@
+.?AV<lambda_9d812cdbb2637066dec77a23e906a3a6>@@
 .?AV<lambda_a484c5d48bbdf8926a107b4eb4e1349a>@@
-.?AV<lambda_abf0ff52a8b27deb7c253749fd46b9f9>@@
 .?AV<lambda_b05e443f3b21806c8efcecd322b95173>@@
-.?AV<lambda_b4bac2e61013943b1b76ac148112d79c>@@
 .?AV<lambda_b6062681e27775d12ffe8db432a3c104>@@
-.?AV<lambda_c6544703987fd9d279e84d520bb2c068>@@
+.?AV<lambda_be3537f19e80a8f696e64988cd02f620>@@
 .?AV<lambda_c802babf9ad5cf32d7caee1404d3fe40>@@
 .?AV<lambda_c95cdcc8ed7ab36646e90c1ce3a5ffde>@@
 .?AV<lambda_ca19800c162a615b14dbffc218e93f9c>@@
 .?AV<lambda_cdd09464f928a2ad6955ebdee1b202cb>@@
 .?AV<lambda_d857d3a3f83f65394e24abd4b6b43fde>@@
 .?AV<lambda_d9fb5ad2b4779161ce72962e3eef40a0>@@
+.?AV<lambda_dc5d698f65e1a672a70e8828b33fb9d8>@@
 .?AV<lambda_e6c6d718dd3dc6eee0580ada32c627ff>@@
 .?AV<lambda_f0f7b39aef57b4d2c468cd45f5e39eea>@@
 .?AV?$TypeInfoT@VCAnimResource@@@Detail@Reflection@@
@@ -191,8 +322,6 @@ $3br
 .?AV?$_Func_base@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBV12@PEAX@std@@
 .?AV?$_Func_base@X$$V@std@@
 .?AV?$_Func_base@XAEBVValue@Json@@@std@@
-.?AV?$_Func_base@XPEBX_K@std@@
-.?AV?$_Func_base@XW4EControlConnectMessageType@@PEBX_K@std@@
 .?AV?$_Func_base@XW4ELogLevel@@PEBDPEAX@std@@
 .?AV?$_Func_base@XW4ValueTransportID@@_N@std@@
 .?AV?$_Func_base@_NAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PEAV12@PEAX@std@@
@@ -213,51 +342,53 @@ $3br
 .?AV?$_Func_impl_no_alloc@P6A_NPEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0PEBUImage@tinygltf@@_NPEBUFsCallbacks@4@PEBUURICallbacks@4@PEAV12@PEAX@Z_NPEBV12@PEBV12@PEBU34@_NPEBU54@PEBU64@PEAV12@PEAX@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_04103da6412327e603633ce4cd0b1ff8>@@XW4ELogLevel@@PEBDPEAX@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_054ec0d90128816f29bca28af468a816>@@XW4ValueTransportID@@_N@std@@
-.?AV?$_Func_impl_no_alloc@V<lambda_0624edd98049f3ae9789e360a827f5a6>@@XAEBVValue@Json@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_066bac8ee4399bc6d745769f00b2e3e3>@@XW4ValueTransportID@@_N@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_0881c9906f05f503e42109ac226d18eb>@@PEAXPEBD@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_088be9d629c529e04e66f668ef48a2de>@@XW4ValueTransportID@@_N@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_0b4ab5e44d357ff40892732314352562>@@XW4ValueTransportID@@_N@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_12d4145ead4c85e64ccd0b9edb9c3522>@@XW4ValueTransportID@@_N@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_18c16c7f54b6ef613ac8ab67a502910f>@@XW4ValueTransportID@@_N@std@@
-.?AV?$_Func_impl_no_alloc@V<lambda_18f8685e9d6d6c41b711788ea2efc59f>@@XW4ValueTransportID@@_N@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_1b183cf92bfcc7a986ca41b48af450da>@@XW4ValueTransportID@@_N@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1dab2bdf1e893592e9ed39f583e5875f>@@XW4ValueTransportID@@_N@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_1db60d98261e2e5ed663866066a32dcb>@@XAEBVValue@Json@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_2d4b9bd805c205933c366a2a96e134e0>@@XW4ELogLevel@@PEBDPEAX@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_33478c8783614153bfe9aa6f88621db5>@@XW4ValueTransportID@@_N@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_3775199eb374ee8b8777545cef56c745>@@XAEBVValue@Json@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_3fd6e5ca82e0518e289160675f532929>@@_NPEAXPEAU_SP_DEVINFO_DATA@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_4034761bb2dd9685e1e3c01c30ab7f90>@@XW4ValueTransportID@@_N@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_45a768b69274d94452e24a9121231aff>@@XW4ValueTransportID@@_N@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_464f3c09c62c7563fe9e8d0867be1607>@@XW4ValueTransportID@@_N@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_5d28593e0d44957b6d4c7e93b1ccc634>@@XW4ValueTransportID@@_N@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_60eb63303e0c1f343ab64d1f44d258c8>@@XW4ValueTransportID@@_N@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_6a080fdf464447d22b6bc3e4b8e9e264>@@XW4ValueTransportID@@_N@std@@
-.?AV?$_Func_impl_no_alloc@V<lambda_76b893375c6dd71409cfaed387a60af4>@@XW4ValueTransportID@@_N@std@@
-.?AV?$_Func_impl_no_alloc@V<lambda_799c7abc4438a41176f8868c6149585d>@@XAEBVValue@Json@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_6fa040d707a93b910dd4452a6ace25d1>@@XAEBVValue@Json@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_76dd0f903180171e2198f91c05bcb545>@@XW4ValueTransportID@@_N@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_7b6f6392411fd0bed81b6492ee534b9b>@@XW4ValueTransportID@@_N@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_8137bacb2ec4a212e8515c6b4689164d>@@X$$V@std@@
-.?AV?$_Func_impl_no_alloc@V<lambda_82fe8519a611fabfc17055ec18b3cdfd>@@XPEBX_K@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_876f99566db85b37b4813643d63fd007>@@XW4ValueTransportID@@_N@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_8af3af333305e3d84f47041b3014cca5>@@XW4ValueTransportID@@_N@std@@
-.?AV?$_Func_impl_no_alloc@V<lambda_8c41f96c9266656aa778846b9a081afc>@@XW4EControlConnectMessageType@@PEBX_K@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_8f80c04375dfdd245c0e7e88d9eb669c>@@XW4ValueTransportID@@_N@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_9aaaf0f4ef5b71aa08ce4fdd112018ed>@@XW4ValueTransportID@@_N@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_9ad9d8db2d3bd27ade5348b1968c872f>@@XW4ValueTransportID@@_N@std@@
-.?AV?$_Func_impl_no_alloc@V<lambda_a3e50aa671c83e58801967e93e8597ee>@@XAEBVValue@Json@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_9d812cdbb2637066dec77a23e906a3a6>@@XAEBVValue@Json@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_a484c5d48bbdf8926a107b4eb4e1349a>@@XW4ValueTransportID@@_N@std@@
-.?AV?$_Func_impl_no_alloc@V<lambda_abf0ff52a8b27deb7c253749fd46b9f9>@@XW4ValueTransportID@@_N@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_b05e443f3b21806c8efcecd322b95173>@@XW4ValueTransportID@@_N@std@@
-.?AV?$_Func_impl_no_alloc@V<lambda_b4bac2e61013943b1b76ac148112d79c>@@XPEBX_K@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_b6062681e27775d12ffe8db432a3c104>@@XW4ValueTransportID@@_N@std@@
-.?AV?$_Func_impl_no_alloc@V<lambda_c6544703987fd9d279e84d520bb2c068>@@XPEBX_K@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_be3537f19e80a8f696e64988cd02f620>@@XAEBVValue@Json@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_c802babf9ad5cf32d7caee1404d3fe40>@@XW4ValueTransportID@@_N@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_c95cdcc8ed7ab36646e90c1ce3a5ffde>@@XW4ELogLevel@@PEBDPEAX@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_ca19800c162a615b14dbffc218e93f9c>@@XAEBVValue@Json@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_cdd09464f928a2ad6955ebdee1b202cb>@@XAEBVValue@Json@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_d857d3a3f83f65394e24abd4b6b43fde>@@XW4ValueTransportID@@_N@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_d9fb5ad2b4779161ce72962e3eef40a0>@@XW4ValueTransportID@@_N@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_dc5d698f65e1a672a70e8828b33fb9d8>@@XAEBVValue@Json@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_e6c6d718dd3dc6eee0580ada32c627ff>@@XW4ValueTransportID@@_N@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_f0f7b39aef57b4d2c468cd45f5e39eea>@@XW4ValueTransportID@@_N@std@@
 .?AV?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8CVRMailbox@@EAAXAEBVValue@Json@@@ZPEAV3@AEBU?$_Ph@$00@2@@std@@XAEBVValue@Json@@@std@@
 .?AV?$_Iosb@H@std@@
 .?AV?$_LaunchPad@V?$unique_ptr@V?$tuple@P8SVLAudioWSAPI@@EAAPEAXXZPEAV1@@std@@U?$default_delete@V?$tuple@P8SVLAudioWSAPI@@EAAPEAXXZPEAV1@@std@@@2@@std@@@std@@
 .?AV?$_LaunchPad@V?$unique_ptr@V?$tuple@P8SVLDataLinkUDP@@EAAPEAXXZPEAV1@@std@@U?$default_delete@V?$tuple@P8SVLDataLinkUDP@@EAAPEAXXZPEAV1@@std@@@2@@std@@@std@@
-.?AV?$_LaunchPad@V?$unique_ptr@V?$tuple@P8SVLDriver@@EAAX_N@ZPEAV1@_N@std@@U?$default_delete@V?$tuple@P8SVLDriver@@EAAX_N@ZPEAV1@_N@std@@@2@@std@@@std@@
+.?AV?$_LaunchPad@V?$unique_ptr@V?$tuple@P8SVLDataLinkUber@@EAAHXZPEAV1@@std@@U?$default_delete@V?$tuple@P8SVLDataLinkUber@@EAAHXZPEAV1@@std@@@2@@std@@@std@@
 .?AV?$_LaunchPad@V?$unique_ptr@V?$tuple@P8SVLFEC@@EAAXXZPEAV1@@std@@U?$default_delete@V?$tuple@P8SVLFEC@@EAAXXZPEAV1@@std@@@2@@std@@@std@@
 .?AV?$_LaunchPad@V?$unique_ptr@V?$tuple@P8SVLRoot@@EAAXXZPEAV1@@std@@U?$default_delete@V?$tuple@P8SVLRoot@@EAAXXZPEAV1@@std@@@2@@std@@@std@@
 .?AV?$_LaunchPad@V?$unique_ptr@V?$tuple@P8videoamfenc@@EAAXXZPEAV1@@std@@U?$default_delete@V?$tuple@P8videoamfenc@@EAAXXZPEAV1@@std@@@2@@std@@@std@@
@@ -265,7 +396,9 @@ $3br
 .?AV?$_LaunchPad@V?$unique_ptr@V?$tuple@V<lambda_26f98f60fcdc6a80e9e15c1ddbb76ce9>@@@std@@U?$default_delete@V?$tuple@V<lambda_26f98f60fcdc6a80e9e15c1ddbb76ce9>@@@std@@@2@@std@@@std@@
 .?AV?$_LaunchPad@V?$unique_ptr@V?$tuple@V<lambda_3dd27e57506c0a6dcab00b8d41ac0e16>@@@std@@U?$default_delete@V?$tuple@V<lambda_3dd27e57506c0a6dcab00b8d41ac0e16>@@@std@@@2@@std@@@std@@
 .?AV?$_LaunchPad@V?$unique_ptr@V?$tuple@V<lambda_688183ccff0c2936f7ffcd467b71aa30>@@@std@@U?$default_delete@V?$tuple@V<lambda_688183ccff0c2936f7ffcd467b71aa30>@@@std@@@2@@std@@@std@@
+.?AV?$_LaunchPad@V?$unique_ptr@V?$tuple@V<lambda_93cd9be9198a79dcbbc191c2568dbfbf>@@@std@@U?$default_delete@V?$tuple@V<lambda_93cd9be9198a79dcbbc191c2568dbfbf>@@@std@@@2@@std@@@std@@
 .?AV?$_Ref_count@UVariableTransportHolder@@@std@@
+.?AV?$_Ref_count_obj@UVariableTransportHolder@@@std@@
 .?AV?$_Ref_count_obj@V?$output_string_adapter@DV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@detail@nlohmann@@@std@@
 .?AV?$_Ref_count_obj@VSVLControllerDriver@@@std@@
 .?AV?$_Ref_count_obj@VSVLHandTrackingDriver@@@std@@
@@ -286,6 +419,10 @@ $3br
 .?AV?$output_string_adapter@DV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@detail@nlohmann@@
 .?AV?$wstring_convert@V?$codecvt_utf8_utf16@_W$0BAPPPP@$0A@@std@@_WV?$allocator@_W@2@V?$allocator@D@2@@std@@
 .?AVAMFFactoryHelper@@
+.?AVAggregateErrorCollector@?A0x247e964a@protobuf@google@@
+.?AVAggregateOptionFinder@OptionInterpreter@DescriptorBuilder@protobuf@google@@
+.?AVArrayInputStream@io@protobuf@google@@
+.?AVArrayOutputStream@io@protobuf@google@@
 .?AVBinaryBlendPoseMaker@@
 .?AVBlendMatrix3x3PoseMaker@@
 .?AVCAnimResource@@
@@ -302,15 +439,39 @@ $3br
 .?AVCVRAudioDevices@@
 .?AVCVRMailbox@@
 .?AVCVRMailboxBase@@
-.?AVCWinsockImpl@@
 .?AVCharReader@Json@@
 .?AVCharReaderBuilder@Json@@
+.?AVClosure@protobuf@google@@
+.?AVDescriptorDatabase@protobuf@google@@
+.?AVDescriptorPoolExtensionFinder@internal@protobuf@google@@
+.?AVDescriptorProto@protobuf@google@@
+.?AVDescriptorProto_ExtensionRange@protobuf@google@@
+.?AVDynamicMessage@protobuf@google@@
+.?AVDynamicMessageFactory@protobuf@google@@
+.?AVEncodedDescriptorDatabase@protobuf@google@@
+.?AVEnumDescriptorProto@protobuf@google@@
+.?AVEnumOptions@protobuf@google@@
+.?AVEnumValueDescriptorProto@protobuf@google@@
+.?AVEnumValueOptions@protobuf@google@@
+.?AVErrorCollector@io@protobuf@google@@
 .?AVException@Json@@
+.?AVExtensionFinder@internal@protobuf@google@@
 .?AVFactory@CharReader@Json@@
-.?AVFactory@StreamWriter@Json@@
 .?AVFastWriter@Json@@
+.?AVFatalException@protobuf@google@@
+.?AVFieldDescriptorProto@protobuf@google@@
+.?AVFieldOptions@protobuf@google@@
+.?AVFieldSkipper@internal@protobuf@google@@
+.?AVFieldValuePrinter@TextFormat@protobuf@google@@
+.?AVFileDescriptorProto@protobuf@google@@
+.?AVFileDescriptorSet@protobuf@google@@
+.?AVFileOptions@protobuf@google@@
+.?AVFinder@TextFormat@protobuf@google@@
+.?AVFunctionClosure0@internal@protobuf@google@@
+.?AVGeneratedExtensionFinder@internal@protobuf@google@@
+.?AVGeneratedMessageFactory@?A0xaa88a5bd@protobuf@google@@
+.?AVGeneratedMessageReflection@internal@protobuf@google@@
 .?AVIAudioEndpointVolumeCallbackImpl@@
-.?AVIControlConnectionImpl@@
 .?AVIHandPoseLogic@@
 .?AVIMMNotificationClientCallbackImpl@@
 .?AVIServerTrackedDeviceProvider@vr@@
@@ -321,8 +482,19 @@ $3br
 .?AVIVRDisplayComponent@vr@@
 .?AVIVRDriverDirectModeComponent@vr@@
 .?AVLogicError@Json@@
+.?AVMessage@protobuf@google@@
+.?AVMessageFactory@protobuf@google@@
+.?AVMessageLite@protobuf@google@@
+.?AVMessageOptions@protobuf@google@@
+.?AVMethodDescriptorProto@protobuf@google@@
+.?AVMethodOptions@protobuf@google@@
+.?AVNoResponse@@
+.?AVOneofDescriptorProto@protobuf@google@@
 .?AVOurCharReader@Json@@
+.?AVParserErrorCollector@ParserImpl@Parser@TextFormat@protobuf@google@@
 .?AVPassThroughPoseMaker@@
+.?AVProtoFloatVec@@
+.?AVReflection@protobuf@google@@
 .?AVRuntimeError@Json@@
 .?AVSVLAudio@@
 .?AVSVLAudioWSAPI@@
@@ -334,7 +506,10 @@ $3br
 .?AVSVLCryptSoft@@
 .?AVSVLCryptWindows@@
 .?AVSVLDataLink@@
+.?AVSVLDataLinkTransfer@@
+.?AVSVLDataLinkTransferUDP@@
 .?AVSVLDataLinkUDP@@
+.?AVSVLDataLinkUber@@
 .?AVSVLDriver@@
 .?AVSVLFEC@@
 .?AVSVLFECRAID6@@
@@ -348,12 +523,26 @@ $3br
 .?AVSVLHmdNotConnected@@
 .?AVSVLRoot@@
 .?AVSVLServer@@
+.?AVServiceDescriptorProto@protobuf@google@@
+.?AVServiceOptions@protobuf@google@@
+.?AVSourceCodeInfo@protobuf@google@@
+.?AVSourceCodeInfo_Location@protobuf@google@@
 .?AVStaticPoseMaker@@
-.?AVStreamWriter@Json@@
-.?AVStreamWriterBuilder@Json@@
+.?AVStringOutputStream@io@protobuf@google@@
 .?AVStyledWriter@Json@@
 .?AVTypeInfo@Reflection@@
+.?AVUninterpretedOption@protobuf@google@@
+.?AVUninterpretedOption_NamePart@protobuf@google@@
+.?AVUnknownFieldSetFieldSkipper@internal@protobuf@google@@
+.?AVVRLink_LaserMouseEvent@@
+.?AVVRLink_LaserMouseEvents@@
+.?AVVRLink_LaserMouseOverlay@@
+.?AVVRLink_LaserMouseOverlayUpdate@@
+.?AVVRLink_LaserMouseOverlay_TransformDetails@@
+.?AVVRLink_UnifiedDashboard_State@@
 .?AVWriter@Json@@
+.?AVZeroCopyInputStream@io@protobuf@google@@
+.?AVZeroCopyOutputStream@io@protobuf@google@@
 .?AV_Facet_base@std@@
 .?AV_Generic_error_category@std@@
 .?AV_Pad@std@@
@@ -390,6 +579,8 @@ $3br
 .CRT$XPZ
 .CRT$XTA
 .CRT$XTZ
+.EProtoExecutionSite:
+.EProtoServiceType: k_EProtoServiceTypeSteamMessages:D\n
 .HPN
 .P6A?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBV01@PEAX@Z
 .P6A_NAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PEAV01@PEAX@Z
@@ -399,10 +590,24 @@ $3br
 .P6A_NPEAV?$vector@EV?$allocator@E@std@@@std@@PEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@AEBV21@PEAX@Z
 .P6A_NPEA_KPEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBV01@PEAX@Z
 .P6A_NPEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0PEBUImage@tinygltf@@_NPEBUFsCallbacks@3@PEBUURICallbacks@3@PEAV01@PEAX@Z
+.PLACEHOLDER_VALUE
 .bss
 .data
 .data$r
+.dummy
 .edata
+.foo = value".
+.google.protobuf.EnumOptions
+.google.protobuf.EnumOptions"l\n
+.google.protobuf.FieldOptions
+.google.protobuf.FieldOptions"
+.google.protobuf.FileOptions
+.google.protobuf.MessageOptions
+.google.protobuf.MethodOptions
+.google.protobuf.MethodOptions"
+.google.protobuf.ServiceOptions
+.google.protobuf.ServiceOptions"
+.google.protobuf.SourceCodeInfo"
 .h265
 .idata$2
 .idata$3
@@ -410,6 +615,7 @@ $3br
 .idata$5
 .idata$6
 .pdata
+.placeholder.proto
 .previous.txt
 .rdata
 .rdata$T
@@ -447,12 +653,10 @@ $3br
 /avatar/parameters/RightEyeWidenToggle
 /avatar/parameters/RightEyeX
 /avatar/parameters/RightEyeY
-/client_streaming_mode_on_demand
-/client_will_handle_dashboard_state
 /dashboard/visible
 /dashboard_head_pose_from_standing
-/device_was_drawn
 /driver_vrlink/client_version
+/driver_vrlink/effective_foveated_resolution
 /driver_vrlink/foveation_enabled
 /driver_vrlink/got_eye_and_expression
 /driver_vrlink/max_stream_format_width
@@ -510,9 +714,6 @@ $3br
 /input/x/touch
 /input/y/click
 /input/y/touch
-/install /add-driver "
-/is_link_environment
-/link_stream_packet_time
 /output/haptic
 /pose/grip
 /pose/raw
@@ -597,6 +798,7 @@ $3br
 /sl/xrfb/facew/UpperLidRaiserR
 /sl/xrfb/facew/UpperLipRaiserL
 /sl/xrfb/facew/UpperLipRaiserR
+/steam/is_running
 /steam/vr_connection_ready
 /tracking/eye/CenterVecFull
 /tracking/eye/EyesClosedAmount
@@ -611,10 +813,7 @@ $3br
 /user/foot/left
 /user/foot/right
 /user/hand/left
-/user/hand/primary
 /user/hand/right
-/user/hand/secondary
-/user/head
 /user/keyboard
 /user/knee/left
 /user/knee/right
@@ -623,19 +822,32 @@ $3br
 /user/waist
 /user/wrist/left
 /user/wrist/right
-/vrgamepadui/steamvr/dashboard_tabs
+/vrgamepadui/steamvr/dashboard_frames_remote
+/vrgamepadui/steamvr/dashboard_frames_tx
+/vrgamepadui/steamvr/desktop_windows_remote
+/vrgamepadui/steamvr/desktop_windows_tx
+/vrgamepadui/steamvr/unified_dashboard_state_remote
+/vrgamepadui/steamvr/vrlink_lasermouseactive_remote
+/vrgamepadui/steamvr/vrlink_lasermouseoverlay_remote
+/vrgamepadui/steamvr/vrlink_lasermouseoverlay_tx
+/vrlink_client_isSteamVR
+/vrlink_environment
+/vrlink_stream_active
+/vrlink_stream_packet_time
 0 ::Nt::NtVV
 0 Umv
 0 width
 0(`xPH
 0-pixel image
 0.0.0.0
+0000
 00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899
-00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899h
+00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899"
 00P`00P`
+0123456789abcdef
 0\v2;i
 0`P0
-0a\v6<`8
+0a\v6<
 0n\n&pa
 0x%I64x
 1 Sec
@@ -647,9 +859,15 @@ $3br
 11 4 22 44 44 22 444444
 11Sb11Sb""fD""fD77Yn77Yn66Zl66Zl
 11eU%
+127.
 127.0.0.1
+169.254.
 1bS1
 1e+9999
+2#.google.protobuf.FieldOptions.CType:
+2).google.protobuf.FileOptions.OptimizeMode:
+2*.google.protobuf.FieldDescriptorProto.Type
+2+.google.protobuf.FieldDescriptorProto.Label
 2+ss
 255.255.255.0
 2Ht\l
@@ -663,19 +881,21 @@ $3br
 3xU)"P
 44\h44\h++}V++}V
 4ESample #4
-4gTMHV
 4h8px
 4h\4
 55_j55_j,,tX,,tX``
 55j_WW
 5I)7
+5\n\vnested_type
 6-nn
 6666666666666666\\\\\\\\\\\\\\\\
-7[4ka
+6\n\fmessage_type
+7\n\tenum_type
 7^d[L
 7nY7m
 88Hp88Hp
 88pH
+8\n\textension
 8c8f13b1-60eb-4b6a-a433-de86104115ac
 8d8f13b1-60eb-4b6a-a433-de86104115ac
 8e8f13b1-60eb-4b6a-a433-de86104115ac
@@ -685,10 +905,14 @@ $3br
 99Kr99Kr
 99rKJJ
 9JLX
+9\n\noneof_decl
 9a&g
 9hwN6p
 9p:T;x<
 9rK9J
+: Protocol message serialized to a size different from what was originally expected.  Perhaps it was modified by another thread during serialization?
+: Tried to copy from a message with a different type. to: 
+: Tried to merge from a message with a different type.  to: 
 : exception thrown in JSON library
 : one or more FS callback not set
 :fff?
@@ -699,7 +923,6 @@ $3br
 ;fD4~
 <3"-xwfiDKZU
 <discarded>
-<option requires an argument -- %c
 <parse error>
 <uninitialized>
 <unknown>
@@ -757,6 +980,7 @@ $3br
 ?_Throw_C_error@std@@YAXH@Z
 ?_Throw_Cpp_error@std@@YAXH@Z
 ?_Unlock@?$basic_streambuf@DU?$char_traits@D@std@@@std@@UEAAXXZ
+?_Xbad_alloc@std@@YAXXZ
 ?_Xbad_function_call@std@@YAXXZ
 ?_Xinvalid_argument@std@@YAXPEBD@Z
 ?_Xlength_error@std@@YAXPEBD@Z
@@ -792,14 +1016,16 @@ $3br
 ?uflow@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAHXZ
 ?uncaught_exception@std@@YA_NXZ
 ?unshift@?$codecvt@DDU_Mbstatet@@@std@@QEBAHAEAU_Mbstatet@@PEAD1AEAPEAD@Z
+?vr_glove_left_skeleton.glb
 ?widen@?$basic_ios@DU?$char_traits@D@std@@@std@@QEBADD@Z
 ?write@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@PEBD_J@Z
 ?xsgetn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JPEAD_J@Z
 ?xsputn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JPEBD_J@Z
-@Tjepf
 @fff>fff>fff>fff>
 @jAjB
 @option requires an argument -- %c
+A file with this name is already in the pool.
+A protocol message was rejected because it was too big (more than 
 A recoverable error happened to SVLAudioWSAPI.  This will happen until there is a sound source available.\n
 A valid JSON document must be either an array or an object value.
 A"QT
@@ -871,16 +1097,29 @@ AcquireSRWLockShared
 Active Data Links: m_pLink:%p pTcpLink:%p pUdpLink:%p\n
 ActualHMDDriver
 Adapter is not supported by vrlink (vendor ID %d).\n
-Adding dashboard transform to request
+AddBool
+AddDouble
+AddEnum
+AddFloat
+AddInt32
+AddInt64
+AddMessage
+AddString
+AddUInt32
+AddUInt64
 Adjust relative FOV
 Adobe
 AlexEkd JingThom
 All VTEs Invalidated.
+Already saw decimal point or exponent; can't have another one.
 AnimationChannel
 Array length of `baseColorFactor` parameter in pbrMetallicRoughness must be 4, but got 
 Array length of `emissiveFactor` parameter in material must be 3, but got 
 Array length of `emissiveFactor` parameter in material must be 3, but got 4\n
 Asset
+Attempting to SetPeer on link %s dev %s, but families do not match.
+Attempting to SetPeer on link %s dev %s, but it is not enabled.
+Audio
 Audio %s\n
 Audio (WASAPI) warning: Failed to get mic playback volume range: 0x%08x\n
 Audio (WASAPI) warning: Failed to get mic recording endpoint volume\n
@@ -896,6 +1135,9 @@ Audio (WASAPI): Steam Streaming Microphone input changed (%d)\n
 Audio (WASAPI): Steam Streaming Microphone output changed (%d)\n
 Audio (WASAPI): Steam Streaming Speakers changed (%d)\n
 Audio (WSAPI): Microphone output format changed. Reinitializing.\n
+Audio Base
+Audio FEC
+Audio FEC Short
 AudioDeviceChangeNotice (noting refresh): %d, device = %s\n
 AudioThread Error in CoInitializeEx, hr = 0x%08x\n
 AudioThread finished\n
@@ -918,6 +1160,7 @@ BIN Chunk end is not aligned to a 4-byte boundary.
 BIN Chunk end is not aligned to a 4-byte boundary.\n
 BMP RLE
 BWQP
+BackUp() can only be called after a successful Next().
 Bad escape sequence in string
 Bad link event: d=%0.01f ms %0.01f mbit/s -> %0.01f mbit/s, ping %0.01f ms, holdoff %d, auto %d\n
 Bad unicode escape sequence in string: four digits expected.
@@ -927,9 +1170,12 @@ BinW
 Binding UDP socket to %s\n
 BitBlt
 Bookend
+Boolean default must be true or false.
+Broadcast
+Broadcast Reply
 Buffer
 BufferView
-Bytes received for control connection %d: %d
+Byte size calculation and serialization were inconsistent.  This may indicate a bug in protocol buffers or it may be caused by concurrent modification of the message.
 C77nYmm
 C://temp//firstframes_
 C:\temp
@@ -943,11 +1189,53 @@ CAudioEndpointVolumeCallback::CAudioEndpointVolumeCallback
 CAudioEndpointVolumeCallback::Register
 CAudioJitterBuffer init: %d,%d,%d,%d,%d,%d,%d,%d,%d,%d,%d,%d,%d\n
 CBoneMaskResource
+CHECK failed: !coded_out.HadError(): 
+CHECK failed: !out.HadError(): 
+CHECK failed: (&from) != (this): 
+CHECK failed: (&from) != (to): 
+CHECK failed: (&other) != (this): 
+CHECK failed: (buffer_size) >= (0): 
+CHECK failed: (byte_size_before_serialization) == (byte_size_after_serialization): 
+CHECK failed: (bytes_produced_by_serialization) == (byte_size_before_serialization): 
+CHECK failed: (count) <= (last_returned_size_): 
+CHECK failed: (count) <= (target_->size()): 
+CHECK failed: (count) >= (0): 
+CHECK failed: (field->message_type()) == (desc): 
+CHECK failed: (field->options().ctype()) == (ctype): 
+CHECK failed: (from.GetDescriptor()) == (descriptor): 
+CHECK failed: (last_returned_size_) > (0): 
+CHECK failed: (message1->GetReflection()) == (this): 
+CHECK failed: (message2->GetReflection()) == (this): 
+CHECK failed: (option_field->type()) == (FieldDescriptor::TYPE_GROUP): 
+CHECK failed: (output->ByteCount()) == (expected_endpoint): 
+CHECK failed: (size) <= (6): 
+CHECK failed: (temp[0]) == ('1'): 
+CHECK failed: (temp[size-1]) == ('5'): 
+CHECK failed: (to->GetDescriptor()) == (descriptor): 
+CHECK failed: (type) != (WireFormatLite::TYPE_ENUM): 
+CHECK failed: (type) != (WireFormatLite::TYPE_GROUP): 
+CHECK failed: (type) != (WireFormatLite::TYPE_MESSAGE): 
+CHECK failed: (type) == (WireFormatLite::TYPE_ENUM): 
+CHECK failed: allow_unknown_field_: 
+CHECK failed: builder_: 
+CHECK failed: dynamic.get() != NULL: 
+CHECK failed: field != NULL: 
+CHECK failed: file != NULL: 
+CHECK failed: generated_database_->Add(encoded_file_descriptor, size): 
+CHECK failed: has_default_value(): 
+CHECK failed: is_prototype(): 
+CHECK failed: iter != extensions_.end(): 
+CHECK failed: options->ParseFromString(buf): 
+CHECK failed: options_descriptor: 
+CHECK failed: original_uninterpreted_options_field != NULL: 
+CHECK failed: output->message_prototype != NULL: 
+CHECK failed: prototype != NULL: 
+CHECK failed: result != NULL: 
+CHECK failed: trees: 
+CHECK failed: uninterpreted_options_field != NULL: 
+CHECK failed: value.size() <= kint32max: 
 CKeyframedDataResource
 CMMNotificationClient::Register
-CM_Disable_DevNode
-CM_Enable_DevNode
-CM_Locate_DevNodeA
 CN Got Bookend0 %d
 CN Got Bookend1 %d
 CN Got Bookend2 %d
@@ -964,6 +1252,17 @@ CN Send WaitGetPosesN %d
 CN Unknown 2 %d
 CN Unknown0 %d
 CN Unknown1 %d
+CORD
+CPPTYPE_BOOL
+CPPTYPE_DOUBLE
+CPPTYPE_ENUM
+CPPTYPE_FLOAT
+CPPTYPE_INT32
+CPPTYPE_INT64
+CPPTYPE_MESSAGE
+CPPTYPE_STRING
+CPPTYPE_UINT32
+CPPTYPE_UINT64
 CR Flip Frame Start %d
 CR Got Cursor %d
 CR Render Custom5 %d
@@ -984,6 +1283,7 @@ CR Roll Double %d
 CR Roll Norm %d
 CR Roll Skip %d
 CR WaitGetPoses Up %d
+CType
 CVRAudioDeviceImpl::CVRAudioDeviceImpl
 CVRAudioDeviceImpl::EnumAudioDevices
 CVRAudioDeviceImpl::GetDeviceSoundVolume
@@ -997,7 +1297,11 @@ CVRAudioDevices::Refresh
 CVRLog::LogDirect
 Call to NvEncodeAPIGetMaxSupportedVersion failed.\n
 Camera
+Can't 
+Can't get here.
+Can't get here: failed to get default value as string
 CancelIPChangeNotify
+Cannot allocate buffer larger than kint32max for 
 Change Controller Prediction time.
 Change HMD Prediction in milliseconds.
 Change bandwidth limit.
@@ -1006,8 +1310,10 @@ Change target frame deadline.
 Channel: %d\n
 ChaperoneReceiver::SetChaperone (len %d)\n
 Classic
+ClearField
 Client HMD type (%d) supports eye tracking, creating input component
 Client Network Test Result: %s\n
+Client Shutdown
 Client sent SYST_CLIENT_SHUTDOWN\n
 CloseHandle
 CloseServiceHandle
@@ -1026,19 +1332,21 @@ Completing videonvenc::ManageFramesThread
 Completing videonvenc::StartEncodeDataThread
 Configuring VRLINK Chaperone Prop container %08x: Universe %llu\n
 Connection %s at %f\n
-Connection from %s
 Connection inactive for %f > %d seconds. Sending quit event.\n
 Connection inactive for %f > %d seconds. Waiting to quit for scene app %s.\n
 Connector GetDeviceIdConnectedTo() failed: hr = 0x%08x\n
-Control Connection %d closing...
 Could not acquire encoded data buffer from codec for frame: %i\n
 Could not create OpenGL Context/Window + Debug Window\n
+Could not create an instance of 
 Could not find NvEncodeAPICreateInstance in nvEncodeAPI64.dll
 Could not find NvEncodeAPIGetMaxSupportedVersion in nvEncodeAPI64.dll
+Could not find field named "
+Could not find field type.
 Could not find universeID in JSON.
 Could not find universes in JSON.
 Could not load nvEncodeAPI64.dll; Error: %s\n
 Could not log to disk.\n
+Couldn't parse default value "
 CreateBitmap
 CreateCompatibleBitmap
 CreateCompatibleDC
@@ -1096,36 +1404,37 @@ DPing
 DSend
 Dashboard tutorial dismissed\n
 Data Link Startup with Options: nTimedRetryOption = %d, nQoSOption = %d
+DataLinkUDP: Could not poll addresses\n
+DataLinkUber: Error waiting for single object %d\n
+DataLinkUber: Scan thread received quit event\n
+DataLinkUber: could not create event listener for network changes Error = %d\n
+DataLinkUber:ScanForLinkChanges Done
 Datalink failed with %d\n
 DeadL %4.1fms
+Debug
 DefWindowProcA
 Default automatic encoded video size: %i
+Default value for an enum field must be an identifier.
 DeleteCriticalSection
 DeleteFileW
 DeleteObject
-Description:  %s\n
+Description
+DescriptorProto
+DescriptorProtosH
 Detail
 Detected %d playback and %d record devices\n
 DeviceType %s\n
 DisableThreadLibraryCalls
 Disconnected VRLink Headset
-Disconnection from %s
 DispatchMessageA
-Dongle driver install completed.\n
-Dongle driver is latest.\n
-Dongle driver is out of date.\n
-Dongle found connected.\n
-Dongle mass storage device found connected.\n
-Driver found: description: %s, MfgName: %s, ProviderName: %s, version %d.%d.%d.%d\n
-Driver install cancelled by the user.\n
-Driver install completed successfully.
-Driver install failed with error code %d\n
-Driver install: running "%s %s"\n
 Dump Frame Log to C:\temp\recentlog.tsv
 Dump Hist
 Duplicate key: '
 E+pqrstuvwxyz{|}~
 E1;a
+EProtoExecutionSite
+EProtoServiceType
+ERROR
 ERROR: AMF CreateContext() failed [ %s ]\n
 ERROR: AMF CreateSurfaceFromDX11Native on input frame failed [ %s ]\n
 ERROR: AMF Failed to initialize [ %d ]\n
@@ -1140,8 +1449,7 @@ ERROR: Shaders sum to > 64kB\n
 ERROR: While trying to request retransmission of packet #%d, too many packets were missing even to retransmit.  Aborting stream.\n
 ERROR: failed to create/reset encoder in videoamfenc::SubmitFrame()\n
 ERROR: frame metadata index mismatch\n
-EVTYPE_LDASH_CONTINUE: Remote was continued
-EVTYPE_LDASH_PAUSE: Remote was paused
+ERROR: svl protocol version mismatch. Server expects %d, client is %d
 Early TX Failure Streak Hit %d; Aborting and reconnecting.\n
 Empty escape sequence in string
 Empty file.
@@ -1153,23 +1461,30 @@ Encryption mechanism fialed to decode.
 Encryption mechanism fialed to encode.
 Encryption not giving expected result %x
 Encryption type: %s\n
+End-of-file inside block comment.
 Endpoint Activate(IDeviceTopology) failed: id = %s hr = 0x%08x\n
 Endpoint topology GetConnector(0) failed: hr = 0x%08x\n
 EnterCriticalSection
+Enum type "
 EnumAudioEndpoints failed: hr = 0x%08x\n
+EnumDescriptorProto
+EnumValueDescriptorProto
+EnumValueOptions
+Enums must contain at least one value.
 Error
+Error activating HMD, VTE_PROPS_STATIC_HMD not available\n
 Error activating HMD, unexpected device index: %d\n
-Error activating controller, VTE_StaticProps_t not available\n
 Error allocating a MB_MGR\n
 Error opening override file; Error: %s\n
 Error parsing json %s\n
+Error parsing text-format 
 Error reading %s: Bytes read invalid.\n
-Error sending to control connection %d: %d
-Error setting client handles dashboard state\n
+Error while parsing option value for "
 Error! EventWriteString Severe: %s\n
 Error: %s\n
 Error: Cannot open file %s\n
 Error: Could not allocate resource for NVENC (%d x %d, %d, %d, %p)  Error: %d\n
+Error: Could not bind socket %d on %s\n
 Error: Could not bind socket\n
 Error: Could not connect to host connect(%d)\n
 Error: Could not create sampler\n
@@ -1198,25 +1513,26 @@ Error: Got error code %d when trying to create textures. (Fmt: %d / %d)\n
 Error: Got error during nvEncEncodePicture EOS with NVENCSTATUS. %d. Error: %s\n
 Error: Got error during nvEncEncodePicture EOS with NVENCSTATUS. %d\n
 Error: Input resource was null when trying to unmap. Index: %d
-Error: Payload VTE is too small.\n
 Error: Perf: Frame %d not in expected state. Waited 2 seconds for it to resolve but still failed.
 Error: Reinit m_nvenc.nvEncReconfigureEncoder failed with %d\n
 Error: SVLRoot: Completed server status string too big.\n
+Error: UDP Could not bind socket (On %s)\n
 Error: UDP Could not bind socket\n
 Error: Unhandled nSpatialEncodeMode, cannot determine nNumSlices\n
 Error: Unknown transport mode (%s) requested
 Error: XOR0 transport specified, but len too short.
 Error: Your GPU does not support %s for video compression\n
 Error: cannot create bitstream buffer = %p. Error: %d\n
+Error: could not set socket nonblocking mode (%d)\n
 Error: detection unknown (%d)\n
 Error: enc failed to initialize the session.\n
 Error: enc uninitialized when submitting a frame\n
-Error: inf file not found at "%s" ("%s")\n
 Error: m_fec not initialized!\n
 Error: nvEncDestroyEncoder() failed to destroy. Error: %d\n
 Error: nvEncInitializeEncoder failed\n
 Error: unsupported mode in CheckOrGenerateSpatialRateControl\n
 EstBW
+Event Write
 EventRegister
 EventUnregister
 EventWriteString
@@ -1226,16 +1542,42 @@ EventWriteStringThread: shared memory mapped %p\n
 EventWriteStringThread\n
 EventWriteTransfer
 Exceeded stackLimit in readValue().
+Exception
+Expect a decimal number.
+Expected "
+Expected double.
+Expected eight hex digits up to 10ffff for \U escape sequence
+Expected four hex digits for \u escape sequence.
+Expected hex digits for escape sequence.
+Expected identifier.
+Expected integer or identifier.
+Expected integer.
+Expected string.
+Extension "
+Extension conflicts with extension already in database: extend 
+Extension factory's GetPrototype() returned NULL for extension: 
+Extension number $0 has already been used in "$1" by extension "$2" defined in $3.
+Extension number $0 has already been used in "$1" by extension "$2".
+Extension numbers cannot be greater than $0.
+Extension numbers must be positive integers.
+Extension range $0 to $1 includes field "$2" ($3).
+Extension range $0 to $1 overlaps with already-defined range $2 to $3.
+Extension range end number must be greater than start number.
+ExtensionRange
+Extensions of MessageSets must be optional messages.
+Extensions to non-lite types can only be declared in non-lite files.  Note that you cannot extend a non-lite type to contain a lite type, but the reverse is allowed.
 Extra non-whitespace after JSON value.
 Eye Center Q Value
 Eye Cross %s
 Eye Filt %s
 Eye Pherphery Q Value
 Eye Trk %s
+Eye and Expressions
 F2`a
 FAILED to Activate DirectX 11 Device.\n
 FAILED: Could not create constant buffer.\n
 FALSE
+FATAL
 FATAL: Failed to open log file %s, failing out!\n
 FAULT: Packet too big!!! Can't send!!! Dropping\n
 FEC decode fail %d %d %d\n
@@ -1244,6 +1586,7 @@ FORMAT=32-bit_rle_rgbe
 FPR: %5.0f%%
 FPR: UNSET
 FS callback[s] not set\n
+F\n\foptimize_for
 Fail this % of packets, incoming on this side.
 Fail to TX this % of packets on this side.
 Fail to Video TX this % of packets on this side
@@ -1262,7 +1605,6 @@ Failed to parse `bufferView` for image[
 Failed to parse `uri` for image[
 Failed to read file: 
 Failed to request dashboard tutorial (%d)\n
-Failed to scan for dongle driver.\n
 Failed to send OGS row update\n
 Failed to send link bandwidth measurement\n
 Failed to set thread %p priority: invalid priority %d\n
@@ -1270,23 +1612,48 @@ False
 Fatal
 Fatal: Bad server address with -c [server] : %s\n
 Fault, SVLFEC Received ExperiencedAnUnrecoverableError()\n
+Field "
+Field does not match message type.
+Field is repeated; the method requires a singular field.
+Field is singular; the method requires a repeated field.
+Field number $0 has already been used in "$1" by field "$2".
+Field numbers $0 through $1 are reserved for the protocol buffer library implementation.
+Field numbers cannot be greater than $0.
+Field numbers must be positive integers.
+Field with message or enum type missing type_name.
+Field with primitive type has type_name.
+FieldDescriptorProto
+FieldDescriptorProto.extendee not set for extension field.
+FieldDescriptorProto.extendee set for non-extension field.
+FieldDescriptorProto.oneof_index $0 is out of range for type "$1".
+FieldDescriptorProto.oneof_index should not be set for extensions.
+FieldSize
+Fields of oneofs must themselves have label LABEL_OPTIONAL.
+File already exists in database: 
+File appears to be in generated pool but wasn't registered: 
+File is already registered: 
 File is empty : 
 File not found : 
 File open error : 
 File open error for writing : 
 File read error : 
 File read error. Maybe empty file or invalid file : 
+File recursively imports itself: 
 File size 
 File size mismatch : 
 File write error: 
+FileDescriptorProto
+FileDescriptorSet
+Files that do not use optimize_for = LITE_RUNTIME cannot import files which do use this option.  This file is not lite, but it imports "
+Files with optimize_for = LITE_RUNTIME cannot define services unless you set both options cc_generic_services and java_generic_sevices to false.
 Finished encoder reinit (%d). Took: %0.3fms\n
+First argument to Swap() (of type "
+First argument to SwapFields() (of type "
 Flags
 Forced Stream reset has failed. Code: 0x13 
-Format string parse failure
-Found installed dongle device.\n
-Found installed dongle driver.\n
 Found properties for unknown hmd. Attempting to load.
 Found settings for unknown hmd. Attempting to load.
+Found settings for unknown hmd. Attempting to retrieve serial number for activation.
 FreeLibrary
 Full Reinit
 F~Tb
@@ -1297,6 +1664,7 @@ GPU supports %dMB per second\n
 GPU supports 10BIT_ENCODE for video compression\n
 GetACP
 GetAdaptersAddresses
+GetBool
 GetClientRect
 GetCurrentProcess
 GetCurrentProcessId
@@ -1307,34 +1675,56 @@ GetData
 GetDefaultAudioEndpoint failed for role eCommunications: hr = 0x%08x\n
 GetDefaultAudioEndpoint failed for role eConsole: hr = 0x%08x\n
 GetDefaultAudioEndpoint failed: hr = 0x%08x\n
+GetDouble
+GetEnum
 GetEnvironmentVariableA
 GetFileAttributesExW
 GetFileAttributesW
 GetFileSizeEx
 GetFileTime
+GetFloat
 GetFullPathNameW
+GetInt32
+GetInt64
 GetIpNetTable
 GetLastError
 GetMediaSubtype failed hr = 0x%08x\n
+GetMessage
 GetModuleFileNameA
 GetModuleFileNameW
 GetModuleHandleA
 GetModuleHandleW
 GetProcAddress
+GetRepeatedBool
+GetRepeatedDouble
+GetRepeatedEnum
+GetRepeatedFloat
+GetRepeatedInt32
+GetRepeatedInt64
+GetRepeatedMessage
+GetRepeatedString
+GetRepeatedStringReference
+GetRepeatedUInt32
+GetRepeatedUInt64
+GetString
+GetStringReference
 GetSystemDirectoryW
 GetSystemTime
 GetSystemTimeAsFileTime
 GetTickCount64
+GetUInt32
+GetUInt64
 GetWindowRect
 Getting devnode property store failed: hr = 0x%08x\n
 Getting file size failed : 
 Getting render devnode via IMMDeviceEnumerator::GetDevice("%ls") failed: hr = 0x%08x\n
-Gf*S
 Got Debug message from client
 GtH|ITJ8K
 H6s<
 HandAnimEvaluator
 HandleUnrecoverableError( %d )\n
+HasField
+Hex and octal numbers must be integers.
 HistogramC
 HistogramH
 HmdDriverFactory
@@ -1395,6 +1785,8 @@ IMMDevice::GetState failed: hr = 0x%08x\n
 IMMDevice::Item(%u) failed: hr = 0x%08x\n
 IMMDevice::OpenPropertyStore failed: hr = 0x%08x\n
 IN %d
+INFO
+INVALID_CPPTYPE
 IPHLPAPI.DLL
 IPolicyConfigVista::SetDefaultEndpoint failed: hr = 0x%08x\n
 IPolicyConfigVista::SetDefaultEndpoint failed: hr = E_INVALIDARG\n
@@ -1409,7 +1801,7 @@ IVRCameraComponent_003
 IVRCameraPassthroughInternal_001
 IVRChaperoneInternal_XXX
 IVRChaperoneServerDriver_XXX
-IVRChaperoneSetup_006
+IVRChaperoneSetup_007
 IVRChaperone_004
 IVRClientInternal_XXX
 IVRCompositorPluginProvider_001
@@ -1424,13 +1816,14 @@ IVRDriverInput_004
 IVRDriverLog_001
 IVRDriverManager_001
 IVRExtendedDisplay_001
-IVRIPCResourceManagerClient_003
+IVRIPCResourceManagerClient_004
+IVRInputFocusInternal_XXX
 IVRInputInternal_002
 IVRInput_011
 IVRMailbox_002
 IVRNotificationsInternal_001
 IVROverlayInternal_XXX
-IVROverlay_028
+IVROverlay_029
 IVRPathsInternal_XXX
 IVRPaths_002
 IVRPropertiesInternal_001
@@ -1450,12 +1843,15 @@ IVRWatchdogProvider_001
 Image data is empty for image[
 Image height mismatch. for image[
 Image width mismatch for image[
+Import "
 Index Controller CreateSkeletonComponent failed.  Error: %i\n
+Index out-of-bounds (field is empty).
 Infinity
 Info
 Init state
 Init took: %0.3fms.\n
 InitializeConditionVariable
+InitializeCriticalSection
 InitializeCriticalSectionAndSpinCount
 InitializeCriticalSectionEx
 InitializeSListHead
@@ -1464,7 +1860,9 @@ Initializing streaming microphone volume to 100\n
 InputProfilePath %s\n
 Insufficient Chunk1(BIN) data size.
 Insufficient storage space for Chunk1(BIN data). At least Chunk1 Must have 8 or more bytes, but got 
+Integer out of range.
 Intel IPSEC AES PERF: %f MByte/s\n
+Interpreting non ascii codepoint %d.
 Invalid ChromaFormatIDC (NV_ENC_ERR_INVALID_PARAM)\n
 Invalid ChromaFormatIDC(NV_ENC_ERR_INVALID_PARAM)\n
 Invalid PixelBitdepth (NV_ENC_ERR_INVALID_PARAM)\n
@@ -1475,9 +1873,12 @@ Invalid binary data in `Buffer', or GLB with empty BIN chunk.\n
 Invalid camera type: "
 Invalid chunkType for Chunk1.
 Invalid codec guid (NV_ENC_ERR_INVALID_PARAM)\n
-Invalid dest on control message
+Invalid control characters encountered in text.
 Invalid encoder width and height (NV_ENC_ERR_INVALID_PARAM)\n
+Invalid escape sequence in string literal.
+Invalid file descriptor data passed to EncodedDescriptorDatabase::Add().
 Invalid file size : 
+Invalid float number: 
 Invalid glTF binary.
 Invalid glTF binary. GLB data exceeds 4GB.
 Invalid image data for image[
@@ -1485,7 +1886,18 @@ Invalid index: %i
 Invalid magic.
 Invalid network test; no = on first.
 Invalid network test; no;\n
-Invalid payload on message to %s
+Invalid proto descriptor for file "
+Invalid public dependency index.
+Invalid strings::Substitute() format string: "
+Invalid symbol name: 
+Invalid value for boolean field "
+Invalid weak dependency index.
+Invalid wire type for CPPTYPE_INT32: 
+Invalid wire type for CPPTYPE_INT64: 
+Invalid wire type for CPPTYPE_MESSAGE: 
+Invalid wire type for CPPTYPE_UINT32: 
+Invalid wire type for CPPTYPE_UINT64: 
+Is Steam running switched to %s
 IsDebuggerPresent
 IsProcessorFeaturePresent
 IsWindow
@@ -1506,8 +1918,12 @@ Key setup failure in transport subsystem. TX Status: %d
 Khronos Generic (Left Controller)
 Khronos Generic (Right Controller)
 KwZi
+LABEL_OPTIONAL
+LABEL_REPEATED
+LABEL_REQUIRED
 LINEAR
 LZsYCB
+Label
 LaserMouseHmdAngleDegrees %f\n
 LastKnown
 Latency
@@ -1516,7 +1932,6 @@ Left Controller
 Line %d, Column %d
 Link BW hist: w %f  %s\n
 Link BW: Est %0.01f Mbit/s (auto: %d)\n
-Listening for incoming control connections on %d via socket %d
 Lj&&lZ66~A??
 Llist<T> too long
 LoadCursorA
@@ -1526,12 +1941,12 @@ LoadLibraryExW
 LocalAlloc
 LocalFree
 LocalizationManager
+Location
 Logic
 LwH'
 LwH'LwH'LwH'LwH'
 LwH'LwH'LwH'LwH'LwH'LwH'LwH'LwH'
 LwH'LwH'LwH'LwH'LwH'LwH'LwH'LwH'LwH'LwH'LwH'LwH'LwH'LwH'LwH'LwH'
-L~)Wg
 M3fU3
 M;;va
 MAJOR WARNING: Something went very wrong with the TX Frame queue\n
@@ -1551,13 +1966,22 @@ MSFT_lod
 MSVCP140.dll
 Mailbox %s received message %s, which it didn't have a handler for\n
 MainThrd
-Manufacturer: %s\n
 ManufacturerName %s\n
 MapViewOfFile
 Material has extension MSFT_lod, but does not reference other materials via their ids.\n
 MbP?\f
 Mbp?H
+Message Prompt
+Message class "
+Message extensions cannot have required fields.
+Message missing required fields: 
+Message type "
 MessageBoxA
+MessageOptions
+MessageSets cannot have fields, only extensions.
+Messages can't have default values!
+Messages can't have default values.
+MethodDescriptorProto
 Microsoft Base Cryptographic Provider v1.0
 Microsoft Enhanced RSA and AES Cryptographic Provider
 Mirroring from %s to %ls\n
@@ -1566,11 +1990,16 @@ Missing ',' or ']' in array declaration
 Missing ',' or '}' in object declaration
 Missing ':' after object member name
 Missing '}' or object member name
+Missing field: FileDescriptorProto.name.
+Missing name.
 Missing required param "path"
 ModelNumber %s\n
 MoveFileExW
 MoveWindow
 MultiByteToWideChar
+Multiple extension registrations for type "
+MutableRawRepeatedField
+MutableRepeatedMessage
 MyClass
 NO SOUND
 NOTPRESENT
@@ -1597,6 +2026,7 @@ NV_ENC_CAPS_LEVEL_MIN
 NV_ENC_CAPS_MB_NUM_MAX
 NV_ENC_CAPS_MB_PER_SEC_MAX
 NV_ENC_CAPS_NUM_ENCODER_ENGINES
+NV_ENC_CAPS_NUM_MAX_BFRAMES
 NV_ENC_CAPS_NUM_MAX_LTR_FRAMES
 NV_ENC_CAPS_NUM_MAX_TEMPORAL_LAYERS
 NV_ENC_CAPS_PREPROC_SUPPORT
@@ -1638,27 +2068,31 @@ NV_ENC_CAPS_SUPPORT_YUV444_ENCODE
 NV_ENC_CAPS_WIDTH_MAX
 NV_ENC_CAPS_WIDTH_MIN
 N`O0P@Q
+NamePart
+Need space between identifier and decimal point.
+Need space between number and identifier.
 Neither required `bufferView` nor `uri` defined for image[
 New Session detected; Invalidating.\n
-New control connection %d from %s failed in OnConnect
 No IPSEC available\n
 No Link
 No LoadImageData callback specified.\n
 No Pair
 No default audio device found to listen to\n
-No dongle device. Skipping driver check.\n
-No dongle driver found.\n
-No dongle driver installed. Requesting driver install.\n
+No default value
+No field named "uninterpreted_option" in the Options proto.
 No links? Server-as-client Mode?
 Node has extension KHR_audio, but does not reference a audio emitter.\n
 Node has extension KHR_lights_punctual, but does not reference a light source.\n
 Node has extension MSFT_lod, but does not reference other nodes via their ids.\n
-None
+Non-primitive types can't be packed.
+Non-repeated field "
 NormalTextureInfo
-Not updating dongle driver (prevented by settings)\n
 Note
+Note that enum values use C++ scoping rules, meaning that enum values are siblings of their type, not children of it.  Therefore, "
+NotifyAddrChange
 NotifyRouteChange
 NrZl
+Numbers starting with leading zero must be in octal.
 NvAPI_EnumPhysicalGPUs() returned %d\n
 NvEncodeAPICreateInstance
 NvEncodeAPIGetMaxSupportedVersion
@@ -1683,11 +2117,17 @@ OnDefaultDeviceChanged: flow = %s, role = %s, device = %s\n
 OnDeviceAdded: device = %s\n
 OnDeviceRemoved: device = %s\n
 OnDeviceStateChanged: DEVICE_STATE_%s (0x%8.8x), device = %s\n
+Oneof must have at least one field.
+OneofDescriptorProto
 Only one of `bufferView` or `uri` should be defined, but both are defined for image[
 OpenFileMappingA
 OpenSCManagerW
 OpenSSL AES PERF: %f MByte/s\n
 OpenServiceW
+Option "
+Option field "
+Option must have a name.
+Option must not use reserved name "uninterpreted_option".
 Orthographic camera description not found.
 OrthographicCamera
 Other Encoder Sessions:
@@ -1696,7 +2136,6 @@ OutputDebugStringA
 OutputDebugStringW
 P00`
 P<xD<
-PCGNV_ENC_CAPS_NUM_MAX_BFRAMES
 PCHoption requires an argument -- %c
 PICO 4
 PICO 4 (Left Controller)
@@ -1710,6 +2149,7 @@ PICO Neo 3 (Right Controller)
 PICT
 PID_
 PID_%04X
+PLACEHOLDER_VALUE
 PNG\r\n
 PPxD<<%
 PRECODE
@@ -1721,13 +2161,16 @@ Parse failed for JSON message in mailbox %s: %s\n
 Parsing of JSON string "%s" failed: %s\n
 Path_Exists( absFilePath )
 PeekMessageA
+Peer Address List
 Perf warning: Getting from SubmitFrame to StartEncode took %0.3fms
 Performing shutdown.\n
 Perspective camera description not found.
 PerspectiveCamera
 Pico 4
+Ping Packet
 PolyPolygon
 PolyPolyline
+Pong Packet
 Positional emitter description not found.
 PostQuitMessage
 PreC %4.1fms
@@ -1735,7 +2178,10 @@ PreH %4.1fms
 Primitive
 Pro Audio
 PropVariantClear
-Provider:     %s\n
+ProtoFloatVec
+Protocol Buffer reflection usage error:\n  Method      : google::protobuf::Reflection::
+Protocol message serialized itself in invalid fashion.
+Protocol message was modified concurrently during serialization.
 Public
 QPeA~S
 QSeA~
@@ -1750,10 +2196,11 @@ R##Fe
 R;vM;
 RPCRT4.dll
 RRvM;;
-RSDS
+RSDS7
 RX Fail:%d
 RaiseException
-Received 0 byte message on control connection. Disconnecting
+Reached an unintended state: CPPTYPE_MESSAGE
+Reading dangerously large protocol message.  If the message turns out to be larger than 
 Received GPU Architecture %d\n
 Received frame outside of backtrack window.  Resetting.\n
 Received mirror reset event after %u passes, %llu samples\n
@@ -1763,17 +2210,20 @@ Received mirror stop event\n
 ReceivedHMDStaticProps. Model Number: %s, Serial Number: %s (%d)
 Refreshing audio devices\n
 RegCloseKey
-RegDisableReflectionKey
-RegEnumKeyExW
 RegEnumValueW
-RegGetValueW
 RegOpenKeyExW
 RegQueryValueExW
 RegisterClassA
 Release
+ReleaseLast
+ReleaseMessage
 ReleaseSRWLockExclusive
 ReleaseSRWLockShared
+Reliable
+Reliable Reply
+RemoveLast
 RenderModelName %s\n
+Repeated fields can't have default values.
 ReqEncMode
 Requesting dashboard tutorial\n
 Reserved1
@@ -1788,7 +2238,7 @@ Reset video stream because frame ID was not what we expected. wgp id (%d) - last
 Reset video stream because we had a stream reset request [wgpReset:%d != lastReset:%d]\n
 ResetEvent
 ResourceRoot %s\n
-Restarting dongle.\n
+Retransmit Request
 Retry
 RootNode
 RouterMacPrefix
@@ -1800,6 +2250,7 @@ S-1-15-2-2765576060-2389096713-3079022642-4099546867-1445191215-3071396046-39871
 S-1-15-3-1024-2302894289-466761758-1166120688-1039016420-2430351297-4240214049-4028510897-3317428798
 S-1-15-3-1024-3424233489-972189580-2057154623-747635277-1604371224-316187997-3786583170-1043257646
 S11b?
+SC Custom 0 %d
 SC Custom 1 %d
 SC Custom 2 %d
 SC Custom 3 %d
@@ -1847,6 +2298,7 @@ SN SendBookendN %d
 SN SendDone %d
 SN SendProcessRetry nr=%d
 SN Unknown1 %d
+SPEED
 SR PostPresent %d
 SR PostPresent Hold %d
 SR Preesnt Done %d
@@ -1865,6 +2317,7 @@ SR Unknown6 %d
 SR WGP Acquired %d
 SR WGP Failed %d
 SSend
+STRING
 SUCCESS: Shader compilation successful. %s\n
 SVLAudioWSAPI::AudioThread
 SVLAudioWSAPI::SVLAudioWSAPI(...)\n
@@ -1879,6 +2332,18 @@ SVLDataLink::HandleFECChange( %d )\n
 SVLDataLink::InitCrypt() With %lu remaining key max\n
 SVLDataLink::InitCrypt() m_TransportMode = %d // %d
 SVLDataLink::InitCrypt(...,%d,%d)
+SVLDataLinkTransferUDP::EchoSearchCorrespondenceAddresses (IP4) Error: %d -- %s (%d) (On device %s)\n
+SVLDataLinkTransferUDP::EchoSearchCorrespondenceAddresses (IP6) Error: %d -- %s (%d) (On device %s)\n
+SVLDataLinkTransferUDP::Init %s dev %s %d %d IPv6: %d\n
+SVLDataLinkTransferUDP::RXThread
+SVLDataLinkTransferUDP::RXThread (%s) done\n
+SVLDataLinkTransferUDP::RXThread error getting events\n
+SVLDataLinkTransferUDP::RXThread failed to configure socket event\n
+SVLDataLinkTransferUDP::RXThread failed to create socket event\n
+SVLDataLinkTransferUDP::RXThread invalid packet length\n
+SVLDataLinkTransferUDP::RXThread start (%s)\n
+SVLDataLinkTransferUDP::RXThread zero packet length\n
+SVLDataLinkTransferUDP::SetPeer %s -> %s (Connect: %d / %s)
 SVLDataLinkUDP -> Post Shutdown Sock: %d\n
 SVLDataLinkUDP -> Sending: %d\n
 SVLDataLinkUDP -> r = %d\n
@@ -1901,9 +2366,21 @@ SVLDataLinkUDP::Reconnect() Thread Create Complete
 SVLDataLinkUDP::Shutdown(); Disconnect() complete\n
 SVLDataLinkUDP::Shutdown(); Thread Join Complete.\n
 SVLDataLinkUDP::Shutdown(); m_nQuit = %d\n
+SVLDataLinkUber: Allow multiple links (%d)\n
+SVLDataLinkUber: Could not get GetAdaptersAddresses\n
+SVLDataLinkUber: Could not open iphlpapi.dll\n
+SVLDataLinkUber: Found primary link %s\n
+SVLDataLinkUber: m_thdLinkScanChanges Join Begin
+SVLDataLinkUber: m_thdLinkScanChanges Join Done
+SVLDataLinkUber::AddAndInitLinkTransfer %s (BIND)\n
+SVLDataLinkUber::AddAndInitLinkTransfer %s / PEERED: %s\n
+SVLDataLinkUber::AddAndInitLinkTransfer %s could not be added because the list is full\n
+SVLDataLinkUber::AddSequenceToWindow overflow\n
+SVLDataLinkUber::ScanForLinkChanges() %d %f\n
+SVLDataLinkUber::ScanForLinkChanges()\tAdapter %s %d\n
+SVLDataLinkUber::ScanForLinkChanges()\t\tAddress %s\n
 SVLDriver::ActivateHMDNow()\n
 SVLDriver::BDetectSteamFrameWirelessAdapter
-SVLDriver::CheckForMissingDrivers
 SVLDriver::Init() Complete\n
 SVLDriver::Init() failed. Returning failure from init so we'll be unloaded.
 SVLDriver::Init()\n
@@ -1923,17 +2400,18 @@ SVLHMDDriver::InitializeOSC: OSC was (re)initialized successfully. In Port: %i, 
 SVLHMDDriver::InitializeOSC: OSC was disabled
 SVLHMDDriver::PostPresent
 SVLHMDDriver::Present
+SVLHMDDriver::Present() can't find texture %p\n
 SVLHMDDriver::ProcessEvent
 SVLHMDDriverD3D11::AcquireSync
 SVLHMDDriverD3D11::Activate() D3D11CreateDevice(...) = %d\n
 SVLHMDDriverD3D11::CreateSwapTextureSet() completed.
 SVLHMDDriverD3D11::ReleaseSync
 SVLHMDDriverD3D11::SVLHMDDriverD3D11() %s\n
-SVLHMDDriverDirectX11::SubmitLayer() can't find texture %p\n
 SVLRoot::EventsThread
 SVLRoot::SVLRoot() Arg Parsed\n
 SVLRoot::SVLRoot() Parsing Arg (%d)\n
 SVLRoot::SVLRoot() Parsing Data\n
+SVLRoot::SVLRoot() Uber link enabled\n
 SVLRoot::SVLRoot() sReqEncMode = %s\n
 SVLRoot::Shutdown() complete\n
 SVLRoot::Shutdown() m_pAudio->Stop() done\n
@@ -1942,7 +2420,6 @@ SVLRoot::Shutdown() m_thdEventsThread complete\n
 SVLRoot::Shutdown() start\n
 SVLServer mailbox dashboard_tutorial_dismissed
 SVLServer mailbox handle_recenter
-SVLServer mailbox remote_dashboard_open
 SVLServer mailbox room_setup
 SVLServer mailbox user_interaction_click_info
 SVLServer::CreateConnectionInfo
@@ -1959,9 +2436,9 @@ SVST_VIDEO_TRANSPORT_DESCRIPTION: WARNING: Could not initialize frame on hardwar
 S\vJsf
 Sample message for keylen=blocklen
 SbEwd
-Scanning for dongle devices with VID=%04X PID=%04X and associated driver inf information.\n
-Scanning for installed dongle driver.\n
 ScreenToClient
+Second argument to Swap() (of type "
+Second argument to SwapFields() (of type "
 See 
 SelectObject
 SendUpdatedFramerateRequest: Failed to find preferred refresh rate of %.2f in available display frequencies. Using set display frequency
@@ -1969,16 +2446,40 @@ SendUpdatedFramerateRequest: Preferred refresh rate was available. Using %.2f
 SendUpdatedFramerateRequest: Requesting client use %.2f Hz
 Sending quit event because SteamVR launched for streaming and client has quit.
 SerialNumber %s\n
+Server QoS Try: %d
+Server Query
+Server Query Reply
+ServiceDescriptorProto
+ServiceOptions
 SessionID
 Set sideband error for 15s
 Set thread %p priority to: %d\n
+SetAllocatedMessage
 SetBitmapBits
+SetBool
 SetDefaultAudioDevice: device = %s, role = %d\n
+SetDouble
+SetEnum
 SetEvent
 SetFileAttributesW
+SetFloat
+SetInt32
+SetInt64
 SetLastError
 SetPixel
+SetRepeatedBool
+SetRepeatedDouble
+SetRepeatedEnum
+SetRepeatedFloat
+SetRepeatedInt32
+SetRepeatedInt64
+SetRepeatedString
+SetRepeatedUInt32
+SetRepeatedUInt64
+SetString
 SetThreadPriority
+SetUInt32
+SetUInt64
 SetUnhandledExceptionFilter
 Setting VTE_USE_ENCODE_TARGET_WIDTH = %d\n
 Setting auto encoded video size for non-foveation to: %i
@@ -1988,25 +2489,18 @@ Setting m_nTargetEncodeWidth: %d\n
 Setting non-foveated default stream format width to %i
 Setting up context with NvAPI_D3D1x_CreateLowLatencyDeviceHint() = %d\n
 Setting up context with NvAPI_D3D1x_DeclareVRProcessType(NVAPI_VR_PROCESS_COMPOSITOR) = %d\n
-SetupDiBuildDriverInfoList
 SetupDiDestroyDeviceInfoList
 SetupDiEnumDeviceInfo
-SetupDiEnumDeviceInfo: %u %d\n
-SetupDiEnumDriverInfo: %d\n
-SetupDiEnumDriverInfoA
-SetupDiGetClassDevs: %u\n
 SetupDiGetClassDevsA
 SetupDiGetClassDevsW
-SetupDiGetDeviceInstallParamsA
 SetupDiGetDeviceInstanceIdA
 SetupDiGetDeviceInterfaceDetailW
 SetupDiGetDevicePropertyW
 SetupDiGetDeviceRegistryPropertyW
-SetupDiSetDeviceInstallParamsA
 SetupGetInfDriverStoreLocationW
 ShellExecuteA
-ShellExecuteExA
 ShowWindow
+Shutdown
 Sideband Err
 Single block msg
 Single block msgKU8O
@@ -2016,6 +2510,7 @@ SleepConditionVariableCS
 Socket bound to port %d\n
 Soft AES PERF: %f MByte/s\n
 Sound
+SourceCodeInfo
 SparseAccessor
 Spot light description not found.
 StartNvEnc
@@ -2033,8 +2528,12 @@ SteamVR Remote Detailed Debug
 SteamVRDriverVRLinkBwStats
 SteamVRDriverVrlink
 Stopping playback mirror thread\n
+String literals cannot cross line boundaries.
+StringOutputStream.
 SubFlags%d
 Submit
+Swap
+Symbol name "
 Syntax error: value, object or array expected.
 SystemTimeToFileTime
 T00`P
@@ -2050,7 +2549,12 @@ Temporary AMF encoder Init() with 10-bit failed [ %s ]; forcing 8-bit.\n
 TerminateProcess
 TextureInfo
 The VRLink Driver encountered a fatal error:\n%s\n
+The total number of bytes read was 
 This Program Requires Windows NT
+This ZeroCopyOutputStream doesn't support aliasing. Reaching here usually means a ZeroCopyOutputStream implementation bug.
+This program requires version 
+This program was compiled against version 
+This shouldn't be called if all the sizes are equal.
 Timed out waiting for another accepted video packet, trying to force the stream reset\n
 TlsAlloc
 TlsFree
@@ -2060,27 +2564,35 @@ Toggle foveated transmission (eye tracking).
 Too short data size for glTF Binary.
 TrackingSystemName %s\n
 TranslateMessage
-Triggering dongle driver install in %d seconds...\n
-Triggering dongle driver install...\n
+Transport
+Transport Check
+Tried to merge messages of different types 
 True
 Trying to submit frames out-of-order.  Only possible on catastrophic network failure\n
 Ts\ne
+Type
+Type appears to be in generated pool but wasn't 
+Type is already registered: 
 U(Px(
 U1(\Q
 U33f
 U4ot
+U:\p4clients\thirdpartycode\nonredist\protobuf\protobuf-2.6.1\src\google/protobuf/repeated_field.h
+UBER
+UBER 
+UBER (Single)
 UDP BIND: %d CONN: %d\n
 UDP Driver\n
 UDPServerAddresses:\n
 UNKNOWN
 UNPLUGGED
 UPing
-USB\VID_%04X&PID_%04X
 USER32.dll
 USERNAME
 UUPx((
 UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU
 U^cQ`
+UberWindow Flush %5d %4d\n
 Unable to determine VR Path Registry filename
 Unable to get IMMDeviceEnumerator, hr = 0x%08x\n
 Unable to get default from IMMDevice, hr = 0x%08x\n
@@ -2089,29 +2601,33 @@ Unable to load avrt.dll\n
 Unable to load bind mfplat.dll and/or avrt.dll\n
 Unable to load mfplat.dll\n
 Unable to open svl/driver device mailbox
-Unable to open vrlink client mailbox for %s
 Unable to parse 
-Unable to parse control connection message %s: %s
 Unable to parse token length
 Unable to read VR Path Registry from 
 Unable to set UDP socket to SO_BROADCAST\n
 Unacc
 Unexpected WaitForMultipleObjects return value %u on pass %u\n
 Unexpected WaitForMultipleObjects return value %u\n
+Unexpected end of string.
+Unexpected failure while serializing option submessage 
+Unhandled UnpackLaserMouseEventProto event %d\n
 Unhandled VTE_DASHBOARD_ACTION evType %d
 UnhandledExceptionFilter
 UniDither
+Unimplemented type: 
+UninterpretedOption
 Unknown
 Unknown / confusing key identifier: %s\n
-Unknown VTE: %d [%d/%d/%d]\n
-Unknown control connection message type %d
+Unknown enumeration value of "
 Unknown exception
 Unknown image format. STB cannot decode image data for image[
 Unknown image format. STB cannot decode image header for image[
 Unknown method: "
 Unknown spatial encoding mode
 UnmapViewOfFile
+Unreliable
 Unsupported `type` for accessor object. Got "
+Unused
 UpdateWindow
 Using 10bit mode: %d\n
 Using AVX2\n
@@ -2121,7 +2637,7 @@ Using SSE\n
 Using defaults as unknown headset: %d
 UuidFromStringA
 V22dN::t
-V?X4
+V?option requires an argument -- %c
 VCRUNTIME140.dll
 VEC2
 VEC3
@@ -2132,12 +2648,16 @@ VID_%04X
 VR Path Registry node %s is not an array\n
 VRAudioDevices_Init
 VRLINK_EVENT_QUIT
-VRLink Driver Install
-VRLink Driver Settings
 VRLink Hand Tracker (Left Hand)
 VRLink Hand Tracker (Right Hand)
 VRLinkRX
 VRLinkTX
+VRLink_LaserMouseEvent
+VRLink_LaserMouseEvents
+VRLink_LaserMouseOverlay
+VRLink_LaserMouseOverlay.TransformDetails
+VRLink_LaserMouseOverlayUpdate
+VRLink_UnifiedDashboard_State
 VR_COMBINED_LOGGING
 VR_CONFIG_PATH
 VR_LOG_DEBUG
@@ -2147,18 +2667,38 @@ VR_PATHREG_OVERRIDE
 VTE_AVAILABLE_DISPLAY_FREQUENCIES: Available frametimes packet mismatch!
 VTE_AVAILABLE_DISPLAY_FREQUENCIES: Available frametimes received
 VTE_AVAILABLE_DISPLAY_FREQUENCIES: Availble HMD Frequencies:\n
+VTE_ID16
+VTE_ID8
 VTE_REQ_FRAMETIME_US = %d\n
 VTE_STRING_VERSION_NUMBER = %s\n
 VTE_STRING_VERSION_NUMBER was not formatted in 3 parts. Error. %s\n
 VTX Fail:%d
+Value 
+Value Transport
+Value must be "true" or "false" for boolean option "
+Value must be identifier for boolean option "
+Value must be identifier for enum-valued option "
+Value must be integer for int32 option "
+Value must be integer for int64 option "
+Value must be non-negative integer for uint32 option "
+Value must be non-negative integer for uint64 option "
+Value must be number for double option "
+Value must be number for float option "
+Value must be quoted string for string option "
+Value out of range for int32 option "
+Value out of range for int64 option "
+Value out of range for uint32 option "
 VerSetConditionMask
 VerifyVersionInfoW
 Version
-Version:      v%d.%d.%d.%d (0x%llx)\n
+Video
+Video RX
+Video Reply
 Vive Focus 3 (Left Controller)
 Vive Focus 3 (Right Controller)
 Vive Focus Vision
 W  `@  `@LL
+WARNING
 WARNING Initializing frame number %d.  Expected size too large (%d > %d).\n
 WARNING: Corrupt UDP packet went long (%d size, %d left, %d total length)\n
 WARNING: Could not find steam streaming microphone output.
@@ -2178,7 +2718,11 @@ WASAPI: pCurrentDevice->Activate IAudioEndpointVolume = 0x%08x (Failed = %d)\n
 WGPRX
 WINMM.dll
 WS2_32.dll
+WSACloseEvent
+WSACreateEvent
+WSAEnumNetworkEvents
 WSAEnumProtocolsA
+WSAEventSelect
 WSAIoctl
 WSAIoctl ok
 WSAPI: CoCreateInstance = %d
@@ -2195,12 +2739,13 @@ WSAPI: Requesting Steam Streaming Audio Device driver install.\n
 WSAPI: SUCCESS: m_pCaptureClient=%p\n
 WSAPI: Warning: Failed to find Steam Streaming Audio Devices.\n
 WSAPI: capture starting: ->Start() = %08x (Failed = %d)\n
+WSAResetEvent
 WSASocketA
-WSAStartup failed with error: %d\n
 WSAStartup failed: %d\n
 WTSAPI32.dll
 WTSFreeMemory
 WTSQuerySessionInformationA
+Wait Get Poses
 WaitForMultipleObjects
 WaitForSingleObject
 WaitForSingleObjectEx
@@ -2208,6 +2753,7 @@ WakeAllConditionVariable
 Warning
 Warning on network test item #%d (Insufficient ping tests)
 Warning on network test item #%d (No:)
+Warning parsing text-format 
 Warning: Attempted reset outside of time window and streaming is still paused. Attemping a severe reset.\n
 Warning: Driver forcing 10bit mode via 'force10bit' setting.
 Warning: Failed to set microphone mute\n
@@ -2215,17 +2761,16 @@ Warning: Failed to set microphone out mute\n
 Warning: Failed to set microphone out volume\n
 Warning: Failed to set microphone volume\n
 Warning: HMD does not support 10bit.
-Warning: No dongle driver found + not installing a driver.\n
 Warning: Overflow: Frame %d not in expected state. Expecting: %d. Got: %d. Waiting 100 and trying again.
 Warning: Received empty frame size from NVENC. Reallocating next frame.\n
 Warning: Skipping ResetVideoStream because we have one pending.
 Warning: Trying to set a height (%d) that is higher than the max (%d). Setting to max instead.\n
 Warning: Trying to set a width (%d) that is higher than the max (%d). Setting to max instead.\n
+Warning: Unused import: "
 Warning: Watchdog %s not properly cleaned up%s%s\n
 Warning: packet received with wrong identifier. Expected 0x02...... got: %08x
 Warning: received packet ID %d in frame %d, but packet id exceeded max frame size\n
 Warning: received packet with invalid session ID (%08x/%08x/%08x)\n
-Warning: remote_dashboard_open received during unified dashboard mode.  TODO: implement
 Warning: res field incorrect [clear mode] %04x\n
 Warning: res field incorrect [encryption mode] %08x on packet size %d\n
 Warning: retransmit request for unknown message %d (frame number=%d\n
@@ -2320,31 +2865,63 @@ Zjz\v
 [SVL] !!!! AcquireSync FAILED with WAIT_ABANDONED
 [SVL] !!!! AcquireSync FAILED with WAIT_TIMEOUT
 [SVL] !!!! AcquireSync FAILED with unknown hr
-[System] Calling %s %s failed with error code %d\n
-[System] Calling %s %s succeeded, but log file was empty\n
 [json.exception.
-[vrlink winregistry] Did not find registry value inside key, this is probably fine.
-[vrlink winregistry] Registry value is already good
-[vrlink winregistry] Registry value is bad, adding to list.
-[vrlink winregistry] Unable to disable key reflection for the driver key %d %s
-[vrlink winregistry] Unable to disable key reflection for the network class key %d
-[vrlink winregistry] Unable to open a driver key for enumeration %d %s
-[vrlink winregistry] Unable to open the network class key for enumeration %d
-[vrlink winregistry] While enumerating the network class key children, an error occured %d
-[vrlink winregistry] failed to query registry value inside key %d
+[lazy = true] can only be specified for submessage fields.
+[libprotobuf %s %s:%d] %s\n
+[packed = true] can only be specified for repeated primitive fields.
 [vrlink] !!!! ReleaseSync FAILED with E_FAIL
 [vrlink] !!!! ReleaseSync FAILED with unknown hr
-[vrlink] Confirmed all dongle driver entries had their settings updated correctly.
-[vrlink] Did not find network device class keys to update.
-[vrlink] Driver settings update declined by the user.\n
-[vrlink] Found %d driver class keys to update.
-[vrlink] Not all dongle driver entries had their settings updated correctly. %d/%d
-[vrlink] RunRemoveUsbHelper exited with %d
+\%03o
 \44h
+\U%08x
 \frrrrrrrrrrrrrrrr
 \mfpmp.exe
+\n    Actual    : 
+\n    Field type: 
+\n  Field       : 
+\n  Message type: 
+\n  Problem     : 
+\n  Problem     : Enum value did not match field type:\n    Expected  : 
+\n  Problem     : Field is not the right type for this message:\n    Expected  : 
+\n google/protobuf/descriptor.proto
+\n,steammessages_unified_base.steamclient.proto
+\n\fFieldOptions
+\n\fLITE_RUNTIME
+\n\fSTRING_PIECE
+\n\fTYPE_FIXED32
+\n\fTYPE_FIXED64
+\n\fTYPE_MESSAGE
+\n\fdouble_value
+\n\fis_extension
+\n\fjava_package
+\n\fstring_value
+\n\nTYPE_BYTES
+\n\nTYPE_FLOAT
+\n\nTYPE_GROUP
+\n\nTYPE_INT32
+\n\nTYPE_INT64
+\n\ndependency
+\n\ndeprecated
+\n\ngo_package
+\n\ninput_type
+\n\rTYPE_SFIXED32
+\n\rTYPE_SFIXED64
+\n\rdefault_value
+\n\tname_part
+\n\ttype_name
+\n\vEnumOptions
+\n\vFileOptions
+\n\vTYPE_DOUBLE
+\n\vTYPE_SINT32
+\n\vTYPE_SINT64
+\n\vTYPE_STRING
+\n\vTYPE_UINT32
+\n\vTYPE_UINT64
+\n\vallow_alias
+\n\voneof_index
+\n\voutput_type
 \nbad png sig
-\ncbuffer VS_CONSTANT_BUFFER : register(b2)\n{\n\tfloat4 g_uvAppSubmittedMinMax;// uMin, vMin, uMax, vMax;\n\tfloat4  g_nonFovealColor;\n\tfloat2  g_RBSize;\n\tfloat   g_extraFlags;\n\tfloat   g_nEye;\n\tfloat2  g_GameTexSize; //NOT GAME TEXT SIZE!!!! OUTPUT TEXT SIZE!!!\n\tfloat2  g_CenterAreaOffsetXY;\n\tfloat2  g_GameSubmittedSizeXY;\n\tfloat   g_unused; // g_SpatialEncodingMode\n\tfloat   g_bDirectFoveatedSample;\n};\n\n\nstruct vs_in\n{\n\tfloat3 position_local : POS;\n\tfloat3 texture_local : TEX;\n};\n\nstruct vs_out\n{\n\tfloat4 position_clip : SV_POSITION;\n\tfloat4 position_scr : TEXCOORD0;\n};\n\nvs_out vs_main( vs_in input )\n{\n\tvs_out output = (vs_out)0;\n\toutput.position_clip = float4( input.position_local, 1.0 );\n\toutput.position_scr = float4( input.texture_local.x, input.texture_local.y, input.texture_local.z, 0.0 );\n\treturn output;\n}\n\nTexture2D  Texture0;\n\nSamplerState SampleType;\n\nfloat3 SrgbLinearToGamma( float3 vLinearColor )\n{\n\t// 15 asm instructions\n\tfloat3 vLinearSegment = vLinearColor.rgb * 12.92;\n\tfloat3 vExpSegment = ( 1.055 * pow( vLinearColor.rgb, float3( 1.0 / 2.4, 1.0 / 2.4, 1.0 / 2.4 ) ) ) - 0.055;\n\n\tfloat3 vGammaColor = float3( ( vLinearColor.r <= 0.0031308 ) ? vLinearSegment.r : vExpSegment.r,\n\t\t\t\t\t\t\t\t ( vLinearColor.g <= 0.0031308 ) ? vLinearSegment.g : vExpSegment.g,\n\t\t\t\t\t\t\t\t ( vLinearColor.b <= 0.0031308 ) ? vLinearSegment.b : vExpSegment.b );\n\treturn vGammaColor.rgb;\n}\n\n#define B 0.0\n#define C 0.5\n\nfloat CatmullRom( float x )\n{\n\tfloat f = abs( x );\n\tfloat f2 = f * f;\n\tfloat f3 = f2 * f;\n\n\tif ( f < 1.0 )\n\t{\n\t\treturn ( ( 12 - 9 * B - 6 * C ) * f3 +\n\t\t\t\t ( -18 + 12 * B + 6 * C ) * f2 +\n\t\t\t\t ( 6 - 2 * B ) ) / 6.0;\n\t}\n\telse if ( f >= 1.0 && f < 2.0 )\n\t{\n\t\treturn ( ( -B - 6 * C ) * f3\n\t\t\t\t + ( 6 * B + 30 * C ) * f2 +\n\t\t\t\t ( -( 12 * B ) - 48 * C ) * f +\n\t\t\t\t 8 * B + 24 * C ) / 6.0;\n\t}\n\telse\n\t{\n\t\treturn 0.0;\n\t}\n}\n\n#define _KernelFcn CatmullRom\n#define _KernelScale 1.0\n#define _MinRadius2 1.0\n\nfloat4 Kernel_Iso_Circle( Texture2D tex, SamplerState samplerState, float2 textureSize, float2 invTextureSize,\n\t\t\t\t\t\t  float2 vTexCoord, float2 vDdx, float2 vDdy )\n{\n\tvTexCoord *= textureSize;\n\tvDdx *= textureSize;\n\tvDdy *= textureSize;\n\tfloat2 baseNearestTexelCenter = floor( vTexCoord ) + 0.5;\n\tfloat4 total_samp = float4( 0.0, 0.0, 0.0, 0.0 );\n\tfloat total_weight = 0;\n\tfloat ddxyRadius2 = 0.5 * ( dot( vDdx, vDdx ) + dot( vDdy, vDdy ) );\n\tddxyRadius2 = max( _MinRadius2, ddxyRadius2 );\n\tfloat ddxyRadiusInv = 1.0 / sqrt( ddxyRadius2 );\n#define DIM 2\n\tfor ( int m = -DIM; m <= DIM; m++ )\n\t{\n\t\tfor ( int n = -DIM; n <= DIM; n++ )\n\t\t{\n#undef DIM\n\t\t\tfloat2 texelCenter = baseNearestTexelCenter + float2( m, n );\n\t\t\tfloat2 pixel_offset = texelCenter - vTexCoord;\n\t\t\tfloat2 rel = pixel_offset * ddxyRadiusInv * _KernelScale;\n\t\t\tfloat r2 = dot( rel, rel );\n\t\t\tfloat weight = _KernelFcn( sqrt( r2 ) );\n\t\t\ttotal_samp += weight * tex.SampleLevel( samplerState, texelCenter * invTextureSize, 0 );\n\t\t\ttotal_weight += weight;\n\t\t}\n\t}\n\n\ttotal_samp *= 1.0 / total_weight;\n\treturn total_samp;\n}\n\n#undef _KernelScale\n#undef _MinRadius2\n\nfloat4 FoveatedSample( vs_out input, float SampleScale )\n{\n\tfloat2 uv = input.position_scr.xy;\n\tfloat4 samp;\n\t\n\t#if PRECODE == 0\n\tif( uv.y < 0.5 )\n\t#elif PRECODE == 1\n\tif( uv.x < 0.5 )\n\t#else\n\tif( true )\n\t#endif\n\t{\n\t\t#if PRECODE == 0\n\t\t\t// Bottom Image (Fit) (Works the way for scene app + overlays)\n\t\t\tuv.y = uv.y * 2.0;\n\t\t#elif PRECODE == 1\n\t\t\tuv.x = uv.x * 2.0;\n\t\t#else\n\t\t\t// Don't do anything if 1:1\n\t\t#endif\n\t\n\t\tfloat2 rv = float2( uv.x, 1.0 - uv.y ); // Flip so we're in normal UV space. (the UV going in is flipped)\n\n\t\t// I think this is the right way to do this conversion, back into the soruce image's UVs.\n\t\trv.xy = rv.xy * (g_uvAppSubmittedMinMax.zw - g_uvAppSubmittedMinMax.xy) + g_uvAppSubmittedMinMax.xy;\n\n\t\tint3 texsizelevels;\n\t\tTexture0.GetDimensions( 0, texsizelevels.x, texsizelevels.y, texsizelevels.z );\n\t\tfloat2 textureSize = float2( texsizelevels.x, texsizelevels.y );\n\t\tfloat2 invTextureSize = 1.0 / textureSize;\n\t\tsamp.rgba = Kernel_Iso_Circle( Texture0, SampleType, textureSize, invTextureSize, rv.xy, SampleScale * ddx_fine( rv.xy ), SampleScale * ddy_fine( rv.xy ) );\n\t\tsamp.rgba *= g_nonFovealColor;\n\t}\n\telse if ( g_bDirectFoveatedSample > 0 )\n\t{\n\t\t// Top Image (Foveated), Luma\n\t\tint3 texsizelevels;\n\t\tTexture0.GetDimensions( 0, texsizelevels.x, texsizelevels.y, texsizelevels.z );\n\t\t\n\t\tfloat2 rv = input.position_clip.xy * ((int)SampleScale);\n\t\t\n\t\t#if PRECODE == 0\n\t\t// If we're drawing on the bottom part of the screen, do this, to make our 0,0 map to 0,0 not halfway through the image.\n\t\tif ( g_nEye > 0 )\n\t\t{\n\t\t\trv.y -= g_RBSize.y/2;\n\t\t}\n\t\t#elif PRECODE == 1\t\t\n\t\t// We're drawing on the right side of the image, need to do this to make our 0,0 map to 0,0 not halfway through the image.\n\t\tif ( g_nEye > 0 )\n\t\t{\n\t\t\trv.y -= g_RBSize.y/2;\n\t\t}\n\t\trv.x -= g_RBSize.y/2;\n\t\t#endif\n\t\t\n\t\t// Address it so (0,0) is in the top left\n\t\trv += g_CenterAreaOffsetXY;\n\t\t\n\t\t// Convert back into normalized space.\n\t\trv /= g_GameSubmittedSizeXY.xy;\n\n\t\t// Correctly apply app submitted UVs.\n\t\trv = g_uvAppSubmittedMinMax.xy + ( rv * (g_uvAppSubmittedMinMax.zw - g_uvAppSubmittedMinMax.xy ) );\n\n\t\t// We have to add 0.1 because if we do 0.0 then the floating point math will sometimes end us up on the wrong side of the pixel and we'll get crunchy pixels.\n\t\t// There's also occasionally an issue at 0.5, since that bumps us into the next pixels, so we're going to do +0.1\n\t\tint2 SampleCoordFromSubmittedTexture = int2( rv * texsizelevels.xy + 0.1 );\n\n\t\tsamp = Texture0.Load( int3( SampleCoordFromSubmittedTexture, 0 )  );\n\n\t\tif ( ( ( ( uint ) g_extraFlags ) & 0x100 ) ) // 256\n\t\t{\n\t\t\tfloat2 uvcx = (uv - float2(0.5,0.75)) * float2(1.0,2.0);\n\t\t\tuvcx = abs( uvcx );\n\t\t\tfloat centert = 0.;\n\t\t\t// Only show pip if filtering is off.\n\t\t\tif( !( ( ( uint ) g_extraFlags ) & 0x200 ) ) // 512\n\t\t\t{\n\t\t\t\tfloat r = length( uvcx );\n\t\t\t\tcentert =  saturate(sin(r*400.0+0.1)*0.5+0.5-r*30.);\n\t\t\t}\n\t\t\tfloat outert = max(uvcx.x, uvcx.y) > 0.48;\n\t\t\tsamp = lerp( samp, float( 1.0 ), max( centert, outert ) );\n\t\t}\n\t}\n\telse\n\t{\n\t\t// Chroma for foveated region.\n\t\t\n\t\tint3 texsizelevels;\n\t\tTexture0.GetDimensions( 0, texsizelevels.x, texsizelevels.y, texsizelevels.z );\n\t\t\n\t\tfloat2 rv = input.position_clip.xy * ((int)SampleScale);\n\t\t// If we're drawing on the bottom part of the screen, do this, to make our 0,0 map to 0,0 not halfway through the image.\n\t\t#if PRECODE == 0\n\t\tif ( g_nEye > 0 )\n\t\t{\n\t\t\trv.y -= g_RBSize.y/2;\n\t\t}\n\t\t#else\n\t\t// We're drawing on the right side of the image, need to do this to make our 0,0 map to 0,0 not halfway through the image.\n\t\tif ( g_nEye > 0 )\n\t\t{\n\t\t\trv.y -= g_RBSize.y/2;\n\t\t}\n\t\trv.x -= g_RBSize.y/2;\n\t\t#endif\n\t\t// rv is in 0...g_RBSize space.\n\n\t\trv += g_CenterAreaOffsetXY;\n\n\t\t// Now it's in [gamesubmittedxy] space, where top corner of box is 0,0.\n\t\t\n\t\t// Convert back into normalized space.\n\t\trv /= g_GameSubmittedSizeXY.xy;\n\n\t\t// Correctly apply app submitted UVs.\n\t\trv = g_uvAppSubmittedMinMax.xy + ( rv * (g_uvAppSubmittedMinMax.zw - g_uvAppSubmittedMinMax.xy ) );\n\t\tfloat2 textureSize = float2( texsizelevels.x, texsizelevels.y );\n\t\tfloat2 invTextureSize = 1.0 / textureSize;\n\t\tsamp.rgba = Kernel_Iso_Circle( Texture0, SampleType, textureSize, invTextureSize, rv.xy, SampleScale * ddx_fine( rv.xy ), SampleScale * ddy_fine( rv.xy ) );\n\t}\n\tsamp.rgb = SrgbLinearToGamma( samp.rgb );\n\t//samp.rgb = float3( 1000.0/1023.0, 100.0/1023.0, 100.0/1023.0 );\n\treturn samp;\n}\n\nfloat3 RGB709_to_YUV( float3 rgb )\n{\n\tfloat a = 0.2126;\n\tfloat b = 0.7152;\n\tfloat c = 0.0722;\n\tfloat d_inv = 0.5389092476826902;\n\tfloat e_inv = 0.63500127000254;\n\tfloat midpoint = 512.0/1023.0;\n\tfloat Y = a * rgb.r + b * rgb.g + c * rgb.b;\n\tfloat cb = ( rgb.b - Y ) * d_inv;\n\tfloat cr = ( rgb.r - Y ) * e_inv;\n\treturn saturate( float3( Y, cb + midpoint, cr + midpoint ) );\n}\n\nfloat4 ps_main( vs_out input, float4 screenSpace : SV_Position ) : SV_TARGET{\n\tfloat4 samp = FoveatedSample( input, 1.0 );\n\tfloat3 fYUV = RGB709_to_YUV( samp );\n\treturn float4( fYUV.r, 0, 0, samp.a );\n}\n\nfloat4 ps_main_chroma( vs_out input ) : SV_TARGET{\n\tfloat4 samp = FoveatedSample( input, 2.0 );\n\tfloat3 fYUV = RGB709_to_YUV( samp );\n\treturn float4( fYUV.g, fYUV.b, 0, samp.a );\n}\n
+\ncbuffer VS_CONSTANT_BUFFER : register(b2)\n{\n\tfloat4  g_uvAppSubmittedMinMax;// uMin, vMin, uMax, vMax;\n\tfloat4  g_uvSystemSubmittedMinMax;\n\tfloat4  g_nonFovealColor;\n\tfloat2  g_RBSize;\n\tfloat   g_extraFlags;\n\tfloat   g_nEye;\n\tfloat2  g_GameTexSize; //NOT GAME TEXT SIZE!!!! OUTPUT TEXT SIZE!!!\n\tfloat2  g_CenterAreaOffsetXY;\n\tfloat2  g_GameSubmittedSizeXY;\n\tfloat   g_unused; // g_SpatialEncodingMode\n\tfloat   g_bDirectFoveatedSample;\n\tfloat   g_bHasSystemLayer;\n};\n\n\nstruct vs_in\n{\n\tfloat3 position_local : POS;\n\tfloat3 texture_local : TEX;\n};\n\nstruct vs_out\n{\n\tfloat4 position_clip : SV_POSITION;\n\tfloat4 position_scr : TEXCOORD0;\n};\n\nvs_out vs_main( vs_in input )\n{\n\tvs_out output = (vs_out)0;\n\toutput.position_clip = float4( input.position_local, 1.0 );\n\toutput.position_scr = float4( input.texture_local.x, input.texture_local.y, input.texture_local.z, 0.0 );\n\treturn output;\n}\n\nTexture2D  Texture0;\n\nSamplerState SampleType;\n\nfloat3 SrgbLinearToGamma( float3 vLinearColor )\n{\n\t// 15 asm instructions\n\tfloat3 vLinearSegment = vLinearColor.rgb * 12.92;\n\tfloat3 vExpSegment = ( 1.055 * pow( vLinearColor.rgb, float3( 1.0 / 2.4, 1.0 / 2.4, 1.0 / 2.4 ) ) ) - 0.055;\n\n\tfloat3 vGammaColor = float3( ( vLinearColor.r <= 0.0031308 ) ? vLinearSegment.r : vExpSegment.r,\n\t\t\t\t\t\t\t\t ( vLinearColor.g <= 0.0031308 ) ? vLinearSegment.g : vExpSegment.g,\n\t\t\t\t\t\t\t\t ( vLinearColor.b <= 0.0031308 ) ? vLinearSegment.b : vExpSegment.b );\n\treturn vGammaColor.rgb;\n}\n\n#define B 0.0\n#define C 0.25\n\nfloat CatmullRom( float x )\n{\n\tfloat f = abs( x );\n\tfloat f2 = f * f;\n\tfloat f3 = f2 * f;\n\n\tif ( f < 1.0 )\n\t{\n\t\treturn ( ( 12 - 9 * B - 6 * C ) * f3 +\n\t\t\t\t ( -18 + 12 * B + 6 * C ) * f2 +\n\t\t\t\t ( 6 - 2 * B ) ) / 6.0;\n\t}\n\telse if ( f >= 1.0 && f < 2.0 )\n\t{\n\t\treturn ( ( -B - 6 * C ) * f3\n\t\t\t\t + ( 6 * B + 30 * C ) * f2 +\n\t\t\t\t ( -( 12 * B ) - 48 * C ) * f +\n\t\t\t\t 8 * B + 24 * C ) / 6.0;\n\t}\n\telse\n\t{\n\t\treturn 0.0;\n\t}\n}\n\n#define _KernelFcn CatmullRom\n#define _KernelScale 1.0\n#define _MinRadius2 1.0\n\nfloat4 Kernel_Iso_Circle( Texture2D tex, SamplerState samplerState, float2 textureSize, float2 invTextureSize,\n\t\t\t\t\t\t  float2 vTexCoord, float2 vDdx, float2 vDdy )\n{\n\tvTexCoord *= textureSize;\n\tvDdx *= textureSize;\n\tvDdy *= textureSize;\n\tfloat2 baseNearestTexelCenter = floor( vTexCoord ) + 0.5;\n\tfloat4 total_samp = float4( 0.0, 0.0, 0.0, 0.0 );\n\tfloat total_weight = 0;\n\tfloat ddxyRadius2 = 0.5 * ( dot( vDdx, vDdx ) + dot( vDdy, vDdy ) );\n\tddxyRadius2 = max( _MinRadius2, ddxyRadius2 );\n\tfloat ddxyRadiusInv = 1.0 / sqrt( ddxyRadius2 );\n#define DIM 2\n\tfor ( int m = -DIM; m <= DIM; m++ )\n\t{\n\t\tfor ( int n = -DIM; n <= DIM; n++ )\n\t\t{\n#undef DIM\n\t\t\tfloat2 texelCenter = baseNearestTexelCenter + float2( m, n );\n\t\t\tfloat2 pixel_offset = texelCenter - vTexCoord;\n\t\t\tfloat2 rel = pixel_offset * ddxyRadiusInv * _KernelScale;\n\t\t\tfloat r2 = dot( rel, rel );\n\t\t\tfloat weight = _KernelFcn( sqrt( r2 ) );\n\t\t\ttotal_samp += weight * tex.SampleLevel( samplerState, texelCenter * invTextureSize, 0 );\n\t\t\ttotal_weight += weight;\n\t\t}\n\t}\n\n\ttotal_samp *= 1.0 / total_weight;\n\treturn total_samp;\n}\n\n#undef _KernelScale\n#undef _MinRadius2\n\nfloat4 FoveatedSample( vs_out input, float SampleScale )\n{\n\tfloat2 uv = input.position_scr.xy;\n\tfloat4 samp;\n\t\n\t#if PRECODE == 0\n\tif( uv.y < 0.5 )\n\t#elif PRECODE == 1\n\tif( uv.x < 0.5 )\n\t#else\n\tif( true )\n\t#endif\n\t{\n\t\t#if PRECODE == 0\n\t\t\t// Bottom Image (Fit) (Works the way for scene app + overlays)\n\t\t\tuv.y = uv.y * 2.0;\n\t\t#elif PRECODE == 1\n\t\t\tuv.x = uv.x * 2.0;\n\t\t#else\n\t\t\t// Don't do anything if 1:1\n\t\t#endif\n\t\n\t\tfloat2 rv = float2( uv.x, 1.0 - uv.y ); // Flip so we're in normal UV space. (the UV going in is flipped)\n\n\t\t// I think this is the right way to do this conversion, back into the soruce image's UVs.\n\t\trv.xy = rv.xy * (g_uvAppSubmittedMinMax.zw - g_uvAppSubmittedMinMax.xy) + g_uvAppSubmittedMinMax.xy;\n\n\t\tint3 texsizelevels;\n\t\tTexture0.GetDimensions( 0, texsizelevels.x, texsizelevels.y, texsizelevels.z );\n\t\tfloat2 textureSize = float2( texsizelevels.x, texsizelevels.y );\n\t\tfloat2 invTextureSize = 1.0 / textureSize;\n\t\tsamp.rgba = Kernel_Iso_Circle( Texture0, SampleType, textureSize, invTextureSize, rv.xy, SampleScale * ddx_fine( rv.xy ), SampleScale * ddy_fine( rv.xy ) );\n\t\tsamp.rgba *= g_nonFovealColor;\n\t}\n\telse if ( g_bDirectFoveatedSample > 0 )\n\t{\n\t\t// Top Image (Foveated), Luma\n\t\tint3 texsizelevels;\n\t\tTexture0.GetDimensions( 0, texsizelevels.x, texsizelevels.y, texsizelevels.z );\n\t\t\n\t\tfloat2 rv = input.position_clip.xy * ((int)SampleScale);\n\t\t\n\t\t#if PRECODE == 0\n\t\t// If we're drawing on the bottom part of the screen, do this, to make our 0,0 map to 0,0 not halfway through the image.\n\t\tif ( g_nEye > 0 )\n\t\t{\n\t\t\trv.y -= g_RBSize.y/2;\n\t\t}\n\t\t#elif PRECODE == 1\t\t\n\t\t// We're drawing on the right side of the image, need to do this to make our 0,0 map to 0,0 not halfway through the image.\n\t\tif ( g_nEye > 0 )\n\t\t{\n\t\t\trv.y -= g_RBSize.y/2;\n\t\t}\n\t\trv.x -= g_RBSize.y/2;\n\t\t#endif\n\t\t\n\t\t// Address it so (0,0) is in the top left\n\t\trv += g_CenterAreaOffsetXY;\n\t\t\n\t\t// Convert back into normalized space.\n\t\trv /= g_GameSubmittedSizeXY.xy;\n\n\t\t// Correctly apply app submitted UVs.\n\t\trv = g_uvAppSubmittedMinMax.xy + ( rv * (g_uvAppSubmittedMinMax.zw - g_uvAppSubmittedMinMax.xy ) );\n\n\t\t// We have to add 0.1 because if we do 0.0 then the floating point math will sometimes end us up on the wrong side of the pixel and we'll get crunchy pixels.\n\t\t// There's also occasionally an issue at 0.5, since that bumps us into the next pixels, so we're going to do +0.1\n\t\tint2 SampleCoordFromSubmittedTexture = int2( rv * texsizelevels.xy + 0.1 );\n\n\t\tsamp = Texture0.Load( int3( SampleCoordFromSubmittedTexture, 0 )  );\n\n\t\tif ( ( ( ( uint ) g_extraFlags ) & 0x100 ) ) // 256\n\t\t{\n\t\t\tfloat2 uvcx = (uv - float2(0.5,0.75)) * float2(1.0,2.0);\n\t\t\tuvcx = abs( uvcx );\n\t\t\tfloat centert = 0.;\n\t\t\t// Only show pip if filtering is off.\n\t\t\tif( !( ( ( uint ) g_extraFlags ) & 0x200 ) ) // 512\n\t\t\t{\n\t\t\t\tfloat r = length( uvcx );\n\t\t\t\tcentert =  saturate(sin(r*400.0+0.1)*0.5+0.5-r*30.);\n\t\t\t}\n\t\t\tfloat outert = max(uvcx.x, uvcx.y) > 0.48;\n\t\t\tsamp = lerp( samp, float( 1.0 ), max( centert, outert ) );\n\t\t}\n\t}\n\telse\n\t{\n\t\t// Chroma for foveated region.\n\t\t\n\t\tint3 texsizelevels;\n\t\tTexture0.GetDimensions( 0, texsizelevels.x, texsizelevels.y, texsizelevels.z );\n\t\t\n\t\tfloat2 rv = input.position_clip.xy * ((int)SampleScale);\n\t\t// If we're drawing on the bottom part of the screen, do this, to make our 0,0 map to 0,0 not halfway through the image.\n\t\t#if PRECODE == 0\n\t\tif ( g_nEye > 0 )\n\t\t{\n\t\t\trv.y -= g_RBSize.y/2;\n\t\t}\n\t\t#else\n\t\t// We're drawing on the right side of the image, need to do this to make our 0,0 map to 0,0 not halfway through the image.\n\t\tif ( g_nEye > 0 )\n\t\t{\n\t\t\trv.y -= g_RBSize.y/2;\n\t\t}\n\t\trv.x -= g_RBSize.y/2;\n\t\t#endif\n\t\t// rv is in 0...g_RBSize space.\n\n\t\trv += g_CenterAreaOffsetXY;\n\n\t\t// Now it's in [gamesubmittedxy] space, where top corner of box is 0,0.\n\t\t\n\t\t// Convert back into normalized space.\n\t\trv /= g_GameSubmittedSizeXY.xy;\n\n\t\t// Correctly apply app submitted UVs.\n\t\trv = g_uvAppSubmittedMinMax.xy + ( rv * (g_uvAppSubmittedMinMax.zw - g_uvAppSubmittedMinMax.xy ) );\n\t\tfloat2 textureSize = float2( texsizelevels.x, texsizelevels.y );\n\t\tfloat2 invTextureSize = 1.0 / textureSize;\n\t\tsamp.rgba = Kernel_Iso_Circle( Texture0, SampleType, textureSize, invTextureSize, rv.xy, SampleScale * ddx_fine( rv.xy ), SampleScale * ddy_fine( rv.xy ) );\n\t}\n\tsamp.rgb = SrgbLinearToGamma( samp.rgb );\n\t//samp.rgb = float3( 1000.0/1023.0, 100.0/1023.0, 100.0/1023.0 );\n\treturn samp;\n}\n\nfloat3 RGB709_to_YUV( float3 rgb )\n{\n\tfloat a = 0.2126;\n\tfloat b = 0.7152;\n\tfloat c = 0.0722;\n\tfloat d_inv = 0.5389092476826902;\n\tfloat e_inv = 0.63500127000254;\n\tfloat midpoint = 512.0/1023.0;\n\tfloat Y = a * rgb.r + b * rgb.g + c * rgb.b;\n\tfloat cb = ( rgb.b - Y ) * d_inv;\n\tfloat cr = ( rgb.r - Y ) * e_inv;\n\treturn saturate( float3( Y, cb + midpoint, cr + midpoint ) );\n}\n\nfloat4 ps_main( vs_out input, float4 screenSpace : SV_Position ) : SV_TARGET{\n\tfloat4 samp = FoveatedSample( input, 1.0 );\n\tfloat3 fYUV = RGB709_to_YUV( samp );\n\treturn float4( fYUV.r, 0, 0, samp.a );\n}\n\nfloat4 ps_main_chroma( vs_out input ) : SV_TARGET{\n\tfloat4 samp = FoveatedSample( input, 2.0 );\n\tfloat3 fYUV = RGB709_to_YUV( samp );\n\treturn float4( fYUV.g, fYUV.b, 0, samp.a );\n}\n
 \ncbuffer VS_CONSTANT_BUFFER : register(b2)\n{\n\tfloat4 uvMinMax;\n\tfloat4 clockParameters; // clockParameters[01] = coordinate of clock 0,0; clockParameters[2] = clock\n};\n\n/* vertex attributes go here to input to the vertex shader */\nstruct vs_in {\n    float3 position_local : POS;\n    float3 texture_local : TEX;\n};\n\n/* outputs from vertex shader go here. can be interpolated to pixel shader */\nstruct vs_out {\n    float4 position_clip : SV_POSITION; // required output of VS\n    float4 position_tex   : TEXCOORD0;\n};\n\nvs_out vs_main(vs_in input) {\n  //vs_out output = (vs_out)0; // zero the memory first\n  vs_out output;\n  output.position_clip = float4(input.position_local, 1.0);\n  output.position_tex = float4(input.texture_local, 1.0);\n\n  float4 muvMinMax = uvMinMax;\n  output.position_tex = float4( \n\tinput.texture_local.x * ( muvMinMax.z - muvMinMax.x ) + muvMinMax.x,\n\tinput.texture_local.y * ( muvMinMax.y - muvMinMax.w ) + muvMinMax.w,\n\t0. , 0. );\n\n  return output;\n}\n\nTexture2D  Texture0;\n\nSamplerState SampleType;\n\n#define CLOCKX 8\n#define CLOCKY 8\n\n#define CLOCK_CURSOR_SIZE (8.)\n#define CLOCK_TIME_STEP (1.)\n\nfloat4 ps_main(vs_out input, float4 Pos : SV_Position ) : SV_TARGET {\n\tint2 fragpos = (Pos.xy-clockParameters.xy)/CLOCK_CURSOR_SIZE;\n\tint fid = floor(clockParameters.z/CLOCK_TIME_STEP + 0.5 );\n\tint frameid = floor(clockParameters.z + 0.5);\n\tint fidx = 0;\n\tint fidy = (fid % (CLOCKX*CLOCKY)) / CLOCKX;\n\tif( fidy & 1 )\n\t{\n\t\tfidx = (CLOCKX-1) - fid % CLOCKX;\n\t}\n\telse\n\t{\n\t\tfidx = fid % CLOCKX;\n\t}\n\n\tfloat cx = fragpos.x%CLOCKX;\n\tfloat cy = (fragpos.y%CLOCKY);\n\t//float col;\n\tfloat col_r;\n\tfloat col_g;\n\tfloat col_b;\n\tint redpixel_at_zero_pos = 0; //used for debugging\n\t\n\t//if (redpixel_at_zero_pos && (!fidx && !fidy && !cx && !cy)) {\n\tif (redpixel_at_zero_pos && !(frameid % 64)) {\n\t\tcol_r = 1.0;\n\t\tcol_g = 0.0;\n\t\tcol_b = 0.0;\n\t}\n\telse {\n\t\tcol_r = (fidx == cx && fidy == cy) ? 1.0 : 0.0;\n\t\tcol_g = (fidx == cx && fidy == cy) ? 1.0 : 0.0;\n\t\tcol_b = (fidx == cx && fidy == cy) ? 1.0 : 0.0;\n\t}\n\n\treturn float4(col_r, col_g, col_b, 1.);\n}\n\n\nfloat4 ps_main_chroma(vs_out input, float4 Pos : SV_Position ) : SV_TARGET {\n\treturn 0.5;\n}\n\n
 \r8STs\ne
 \r8STs\neTs\neTs\neTs\ne
@@ -2352,6 +2929,9 @@ Zjz\v
 \r8STs\neTs\neTs\neTs\neTs\neTs\neTs\neTs\neTs\neTs\neTs\neTs\neTs\neTs\neTs\neTs\ne
 \r\fexpaexpaexpaexpand 3nd 3nd 3nd 32-by2-by2-by2-byte kte kte kte kexpand 32-byte k
 \r\fpacketCount too high (%u)\n
+\r\n\tCODE_SIZE
+\r\n\tTYPE_BOOL
+\r\n\tTYPE_ENUM
 \t"deltaTimingLog" : [\n
 \t"inputDebugDigital" : [\n
 \t"logVersion" : 1,\n
@@ -2374,13 +2954,14 @@ Zjz\v
 \u%04x\u%04x
 \ufffd
 \vCreateSwapTextureSet: %dx%d(%d) %d
+\x%02x
 ] buffer "
 ] bufferView "
 ] invalid bufferView
 ] is not a JSON object.
 ],"subtype":
 ]1bO
-]c:\buildslave\steamvr_rel_win64\build\src\vrlink\driver_vrlink\hmdd3d11.cpp:1644
+]c:\buildslave\steamvr_rel_win64\build\src\vrlink\driver_vrlink\hmdd3d11.cpp:1647
 ^lX8k
 _55j
 _Cnd_broadcast
@@ -2404,7 +2985,6 @@ _Query_perf_counter
 _Query_perf_frequency
 _RDATA
 _TbF~
-_Thrd_detach
 _Thrd_id
 _Thrd_join
 _Thrd_sleep
@@ -2447,7 +3027,6 @@ _initterm
 _initterm_e
 _invalid_parameter_noinfo
 _invalid_parameter_noinfo_noreturn
-_j,El
 _jbF~T
 _left
 _localtime64
@@ -2460,6 +3039,8 @@ _seh_filter_dll
 _strdup
 _stricmp
 _strnicmp
+_strtoi64
+_strtoui64
 _strupr_s
 _time64
 _unlock_file
@@ -2491,17 +3072,17 @@ a5j_5W
 aAMCoCreateInstance(CLSID_CResamplerMediaObject) failed hr = 0x%08x\n
 aaj_55
 abort
-accept failed with error: %d\n
 accessor[
 accessors
 acosf
-action
 active
 add_ogs_row
 additional six characters expected to parse unicode surrogate pair.
+aggregate_value
 aiKwZ
 allowComments
 allowDroppedNullPlaceholders
+allowMultipleLinks
 allowNumericKeys
 allowSingleQuotes
 allowSpecialFloats
@@ -2585,7 +3166,6 @@ bad zlib header
 baseColorFactor
 baseColorTexture
 bg_bg
-bind failed with error: %d\n
 bonemask_fingeraux.txt
 bonemask_grip.txt
 bonemask_index.txt
@@ -2598,6 +3178,7 @@ bonemask_ring.txt
 bonemask_squeeze.txt
 bonemask_thumb.txt
 bonemask_thumb_and_wrist.txt
+bool
 brazilian
 buffer
 bufferFrameCount = %d, samples per sec = %d, channels = %d bits_per_sample=%d nBlockAlign=%d\n
@@ -2609,16 +3190,20 @@ bulgarian
 byteLength
 byteOffset
 byteStride
+bytes
 c!!B0
+c:\buildslave\steamvr_rel_win64\build\src\common\generated_proto_x64\steammessages_unified_base.steamclient.pb.cc
+c:\buildslave\steamvr_rel_win64\build\src\common\generated_proto_x64\vr_vrlink.pb.cc
+c:\buildslave\steamvr_rel_win64\build\src\common\generated_proto_x64\vrshared_base.pb.cc
 c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\animation\animresourcemanager.cpp
 c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrmailbox.cpp
 c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\logbuffer.cpp
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\strtools_public.cpp
+c:\buildslave\steamvr_rel_win64\build\src\thirdparty\protobuf-2.6.1\src\google\protobuf\repeated_field.h
 c:\buildslave\steamvr_rel_win64\build\src\vrlink\driver_vrlink\Retail\win64\2017\driver_vrlink.pdb
-c:\buildslave\steamvr_rel_win64\build\src\vrlink\driver_vrlink\hmd.cpp:2309
-c:\buildslave\steamvr_rel_win64\build\src\vrlink\driver_vrlink\hmd.cpp:2549
-c:\buildslave\steamvr_rel_win64\build\src\vrlink\driver_vrlink\hmd.cpp:2661
-c:\buildslave\steamvr_rel_win64\build\src\vrlink\driver_vrlink\hmdd3d11.cpp:1615
+c:\buildslave\steamvr_rel_win64\build\src\vrlink\driver_vrlink\hmd.cpp:2457
+c:\buildslave\steamvr_rel_win64\build\src\vrlink\driver_vrlink\hmd.cpp:2806
+c:\buildslave\steamvr_rel_win64\build\src\vrlink\driver_vrlink\hmd.cpp:2918
+c:\buildslave\steamvr_rel_win64\build\src\vrlink\driver_vrlink\hmdd3d11.cpp:1618
 c:\buildslave\steamvr_rel_win64\build\src\vrlink\driver_vrlink\steamvrlink.cpp
 c:\buildslave\steamvr_rel_win64\build\src\vrlink\driver_vrlink\videonvenc.cpp:1391
 c=qx
@@ -2648,6 +3233,7 @@ calloc
 camera
 cameras
 can't merge dc and ac
+cc_generic_services
 ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU:
 channels
 children
@@ -2655,11 +3241,9 @@ clientTCPEnable
 clientTCPRemote
 clientUDPEnable
 clientUDPRemote
-close_dashboard
 collectComments
 color
-commentStyle
-commentStyle must be 'All' or 'None'
+com.google.protobufB
 componentType
 coneInnerAngle
 coneOuterAngle
@@ -2670,11 +3254,11 @@ const unsigned int __cdecl CBoneMaskResource::MyTypeID(void)
 const unsigned int __cdecl CKeyframedDataResource::MyTypeID(void)
 const unsigned int __cdecl Reflection::Object::MyTypeID(void)
 controllerType
-controller_path
 copyright
 corrupt
 count
 cs_cz
+ctype
 czech
 d3d11.dll
 d45H
@@ -2700,8 +3284,6 @@ dTargetBW
 dV22tN::
 da_dk
 danish
-dashboard
-dashboard_transform
 dashboard_tutorial_dismissed
 data
 data:application/gltf-buffer;base64,
@@ -2720,17 +3302,20 @@ dbgTXWaitMS
 de_de
 debugRegionColoring
 deque<T> too long
-dest
+disableUberLink
 displayFrequency
 distanceModel
+docklocation
+double
 doubleSided
 driver_vrlink
 driver_vrlink.dll
 driver_vrlink: Display Frequency: %f\n
 driver_vrlink: IPD: %f\n
+driver_vrlink: Peer Minor Version Number: %d\n
 driver_vrlink: Render Target: %d %d\n
 driver_vrlink: Serial Number: %s\n
-dropNullPlaceholders
+dummy
 dutch
 eCapture
 eCommunications
@@ -2750,19 +3335,21 @@ enableEventDebugging
 enableHandTracking
 enableQoS
 enableTimedRetry
-enableYAMLCompatibility
 encResets
 encSubmitFrameMS
 end of input
 english
+enum
+enum_description
+enum_value_description
 error
-error %d\n
 error.png
 errorsAsFatal
 es_es
 es_mx
 eventtest\n
 eventwritestringshm
+evtype
 exception thrown in JSON library
 exit
 expaexpaexpaexpand 3nd 3nd 3nd 32-by2-by2-by2-byte kte kte kte kexpand 32-byte k
@@ -2770,7 +3357,11 @@ expand 32-byte k
 expand 32-byte kexpand 32-byte k
 expected marker
 expecting another \u token to begin the second half of a unicode surrogate pair
+experimental_map_key
 expf
+extend .$0 {\n
+extendee
+extension_range
 extensions
 extensionsRequired
 extensionsUsed
@@ -2785,6 +3376,8 @@ failed to set EncodingTimeStartUS as propety on frame [ %s ]\n
 failed to set SubmitIndex as propety on frame [ %s ]\n
 false
 false literal
+false:4\n\vdescription
+false:<\n
 fcTZ
 fclose
 feof
@@ -2793,23 +3386,30 @@ fflush
 fgetc
 fgetpos
 fi_fi
+field
 fields
+file
 finnish
 first not IHDR
-fixvrlinkdriverregistry
+fixed32
+fixed64
+float
 fminf
 fopen
 force10bit
 forceBaselineVideoFEC
+force_emit_message
+force_emit_service
 foveationMode
+foxnet
 fputc
 fputs
 fr_fr
 frame_controller
 frame_controller_
+frameid
 fread
 free
-freeaddrinfo
 french
 frmDeadline
 frmTarget
@@ -2826,10 +3426,20 @@ generic
 german
 getDeviceProperty returned empty\n
 getDeviceProperty returned wrong type %d\n
-getaddrinfo
-getaddrinfo failed with error: %d\n
 global
+google.protobuf"G\n
+google.protobuf.Empty
+google.protobuf.EnumOptions
+google.protobuf.EnumValueOptions
+google.protobuf.FieldOptions
+google.protobuf.FileOptions
+google.protobuf.MessageOptions
+google.protobuf.MethodOptions
+google.protobuf.ServiceOptions
+google.protobuf.StreamOptions
+google/protobuf/descriptor.proto
 greek
+group
 h8,4$
 hHpX
 hOM/
@@ -2842,10 +3452,12 @@ height
 hist
 hu_hu
 hungarian
+hwnd
 iFjtk
 iQ %5.2f
 i]Wb
 iauds
+identifier_value
 illegal code in raster
 image
 image/bmp
@@ -2865,17 +3477,19 @@ in Json::Value::operator[](int index): index cannot be negative
 in Json::Value::resolveReference(key, end): requires objectValue
 in Json::Value::setComment(): Comments must start with /
 inactive
-indentation
 index
 indexcontroller
 indexcontroller_anim_closesqueeze.glb
 indices
 inet_ntop
 inet_pton
+infinity
 info.png
 innerConeAngle
 input
 inputProfilePath
+int32
+int64
 intensity
 interpolation
 invalid
@@ -2890,6 +3504,7 @@ invalid number; expected '+', '-', or digit after exponent
 invalid number; expected digit after '-'
 invalid number; expected digit after '.'
 invalid number; expected digit after exponent sign
+invalid stoi argument
 invalid stoul argument
 invalid string position
 invalid string: '\u' must be followed by 4 hex digits
@@ -2935,6 +3550,7 @@ invalid vector<T> subscript
 inverse
 inverseBindMatrices
 iolj
+iphlpapi.dll
 isalnum
 isalpha
 isdigit
@@ -2942,24 +3558,34 @@ it_it
 italian
 ja_jp
 japanese
+java_generate_equals_and_hash
+java_generic_services
+java_multiple_files
+java_outer_classname
+java_string_check_utf8
 joints
 k22Vd22Vd
 k?KPm?
 kZ3nT]
+k_EProtoExecutionSiteUnknown
+k_EProtoExecutionSiteUnknown:m\n\fservice_type
 keylength >= 2^30
 ko_kr
 koreana
 lHt\
 lNrZ
+label
 latam
+lazy
 ldexp
+ldiv
+leading_comments
 left
 left_
 light
 lights
-link_action
-listen failed with error: %d\n
 localeconv
+location
 logFirstFrames
 logf
 loop
@@ -2971,7 +3597,12 @@ m_pVideoEnc->SubmitFrame
 m_ulHandle != vr::k_ulInvalidMailbox
 magFilter
 malloc
+manufacturerName
+map key must name a scalar or string field.
+map type is only allowed for fields with a message type.
+map type is only allowed for repeated fields.
 map/set<T> too long
+map_key must not name a repeated field.
 material
 materials
 matrix
@@ -2988,10 +3619,14 @@ memmove
 memset
 mesh
 meshes
+message
+message_description
 message_id
+message_set_wire_format
 metallicFactor
 metallicRoughnessTexture
 method
+method_description
 mfplat.dll
 micVolumeHasBeenInitialized
 mimeType
@@ -3012,6 +3647,7 @@ nPrimaryLayer
 nY77
 name
 nb_no
+negative_int_value
 nfinity
 nl_nl
 no IDAT
@@ -3021,6 +3657,7 @@ no SOI
 no clear code
 no header height
 no preset dict
+no_standard_descriptor_accessor
 node
 nodes
 nonFoveatedStreamFormatWidth
@@ -3036,6 +3673,7 @@ ntdll.dll
 null
 null literal
 null}
+number
 number literal
 number overflow parsing '
 nvEncDestroyEncoder() failed to destroy\n
@@ -3065,7 +3703,6 @@ ole32.dll
 only 8-bit
 open
 openDashboardOnConnectionLoss
-open_dashboard
 openvr
 openvr.tool.steamvr_environments
 openvr.tool.steamvr_media_player
@@ -3073,6 +3710,8 @@ openvrpaths.vrpath
 option doesn't take an argument -- %.*s
 option requires an argument -- %c
 option requires an argument -- %s
+optional
+options
 orthographic
 out_of_range
 outerConeAngle
@@ -3089,31 +3728,29 @@ pXhH
 pZlNr
 p\lHtW
 p`q4r<s
+package
+packed
 parameter must be a string or number / number array.\n
 params
+parse
 parse error
 parse_error
 path
-payload
 pbrMetallicRoughness
 perspective
 pico
 pico4_
 pico4u_
 pico_controller
-ping
 pl_pl
 playing
-pnputil.exe
 polish
-pong
 portuguese
 positional
+positive_int_value
 powf
 pp|B>>q
-precision
 preferredRefreshRate
-preventDongleDriverUpdate
 primitive indices accessor out of bounds
 primitives
 providesOffsetOverride
@@ -3122,6 +3759,8 @@ ps_main
 ps_main_chroma
 pt_br
 pt_pt
+public_dependency
+py_generic_services
 qMFCreateMediaType failed hr = 0x%08x\n
 qWSAPI: SVLAudioWSAPI::Init( %d )
 qZt$
@@ -3134,26 +3773,32 @@ read past buffer
 ready.png
 ready_low.png
 realloc
-received VTE_DASHBOARD_ACTION %d %d
-received VTE_DASHBOARD_ACTION close_dashboard
-received VTE_DASHBOARD_ACTION open_dashboard
+received EVTYPE_CLOSE_DASHBOARD
+received EVTYPE_LDASH_CONTINUE: Remote was continued
+received EVTYPE_LDASH_PAUSE: Remote was paused
+received EVTYPE_OPEN_DASHBOARD open_dashboard
+received EVTYPE_TOGGLE_DASHBOARD data.nEvPath %d
 received VTE_DRIVER_SYSTEM_FLAGS %d %d %d
 recommendedRenderHeight
 recommendedRenderWidth
-recv failed with error: %d\n
 refDistance
+registered: 
 rejectDupKeys
+remote
+remote_dashboard_close
 remote_dashboard_open
-removeusbhelper.exe
-removeusbhelper.exe.log
+remote_dashboard_toggle
+remote_desktop_window_event
 renderHeight
 renderModelName
 renderWidth
+repeated
 reqEncMode
 request_dashboard_tutorial
 request_handlers
 request_handlers_response
 requestedDashboardTutorialForHands
+required
 resourceRoot
 result
 returnAddress
@@ -3171,7 +3816,6 @@ roundf
 roy_k2
 roy_k2v3
 ru_ru
-runas
 runtime
 russian
 s11bS
@@ -3197,50 +3841,57 @@ scene
 scenes
 schinese
 searching.gif
-select returned %d
-send_to_remote
-send_to_remote message is larger than 65535 bytes: %u
-send_to_remote message received with an invalid dest
-send_to_remote message received with an invalid payload
 sendto error %d (return value: %d)\n
 sent VTE_DASHBOARD_EVENT EVTYPE_CLOSE_DASHBOARD
-sequence
 serialNumber
 serverTCPEnable
 serverUDPEnable
+service
+service_description
+service_execution_site
 session_id_field_name
 session_ogs_row
 setvbuf
+sfixed32
+sfixed64
 shareEyeTrackingData
 showAdvancedGraphs
-shutdown failed with error: %d\n
 sinf
+sint32
+sint64
 skeleton
 skeletons
 skin
 skins
-socket failed with error: %d\n
 source
+source_code_info
 sources
+span
 spanish
 sparse
 spoofAtStart
 spot
 stackLimit
+start
 startcapture
 statscontrol
 steam://installaudiocapturedriver
+steammessages_unified_base.steamclient.proto
 steamvr
+stoi argument out of range
 stopcapture
 stoul argument out of range
 strchr
 strcmp
 streamFormatWidth
 strength
+strerror
 strftime
 strictRoot
+string
 string literal
 string too long
+strings::Substitute format string invalid: asked for "$
 strncmp
 strncpy
 strncpy_s
@@ -3251,6 +3902,7 @@ strtol
 strtoll
 strtoul
 strtoull
+subtype mismatch
 supports10bit
 supportsEyeTracking
 sv_se
@@ -3275,24 +3927,27 @@ tchinese
 tdh.dll
 terminate
 texCoord
+text format contains deprecated field "
 text/plain
 textures
 th_th
 thai
+the global scope
 the sparse object of this accessor doesn't have indices
 the sparse object of this accessor doesn't have values
 timeBeginPeriod
 timeEndPeriod
 timeKillEvent
 timeSetEvent
-toggle_dashboard
 tolower
 too large
 too many codes
 touch_poses_right.glb
 toupper
 tr_tr
+tracked_device_index
 trackingSystemName
+trailing_comments
 translation
 true
 true literal
@@ -3303,11 +3958,13 @@ txTimeMS
 type
 t}WF<7
 u!!Bc
+uint32
+uint64
 uk_ua
 ukrainian
 unexpected 
 ungetc
-unifiedDashboard
+uninterpreted_option
 universeID
 universes
 unknown BMP
@@ -3326,7 +3983,6 @@ unsupported format
 useOSC
 useOSCFace
 usePool
-useSpecialFloats
 user_interaction_click_info
 vRQ>
 value
@@ -3366,18 +4022,19 @@ vivefocusvision_off.png
 vivefocusvision_ready.png
 vivefocusvision_ready_low.png
 vivefocusvision_searching.gif
-vr_glove_left_skeleton.glb
 vr_glove_right_poses.glb
 vr_glove_right_skeleton.glb
+vr_path_property
 vrcombined_log.previous.txt
 vrcombined_log.txt
 vrcompositor_systemlayer
 vrlink
 vrlink_
-vrlink_client/
 vrlink_debug.json
-vrlink_device
+vrlink_frame_docklocation_request
 vrlink_room_setup
+vrlink_store
+vrshared_base.proto
 vs_5_0
 vs_main
 wF\ro
@@ -3385,8 +4042,9 @@ warning: could not set socket buffer size\n
 watchForShaderChanges
 wcsrchr
 wcsstr
+weak
+weak_dependency
 weights
-whichDevice
 while parsing 
 width
 win64
@@ -3396,6 +4054,7 @@ wrapS
 wrapT
 wrong channel count
 wrong color format
+wrong submessage type
 wrong version
 x((Pz
 xmag
@@ -3448,6 +4107,12 @@ znear
 {vrlink}/icons/headset_pico4_ready.png
 {vrlink}/icons/headset_pico4_ready_low.png
 {vrlink}/icons/headset_pico4_searching.gif
+{vrlink}/icons/headset_steamframe_error.png
+{vrlink}/icons/headset_steamframe_info.png
+{vrlink}/icons/headset_steamframe_off.png
+{vrlink}/icons/headset_steamframe_ready.png
+{vrlink}/icons/headset_steamframe_ready_low.png
+{vrlink}/icons/headset_steamframe_searching.gif
 {vrlink}/icons/headset_vivefocusvision_error.png
 {vrlink}/icons/headset_vivefocusvision_info.png
 {vrlink}/icons/headset_vivefocusvision_low.png

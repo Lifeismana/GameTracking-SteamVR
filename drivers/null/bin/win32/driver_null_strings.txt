@@ -77,7 +77,7 @@ IVRDisplayComponent_003
 IVRDriverDirectModeComponent_009
 IVRDriverLog_001
 IVRDriverManager_001
-IVRIPCResourceManagerClient_003
+IVRIPCResourceManagerClient_004
 IVRProperties_001
 IVRResources_001
 IVRServerDriverHost_006
@@ -90,7 +90,7 @@ IsProcessorFeaturePresent
 KERNEL32.dll
 MSVCP140.dll
 QueryPerformanceCounter
-RSDSno
+RSDS
 SetUnhandledExceptionFilter
 TerminateProcess
 UnhandledExceptionFilter

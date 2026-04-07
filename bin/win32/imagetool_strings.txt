@@ -962,7 +962,7 @@
  5,hC
  ?? ??? ???? ???? ????? ??? ????? ???????!
  A1B'K2L@CIF/MSP"E3H9O6R^DJG>NTQ,*5<-U8V.%[$+X!&;:4\0Z7(_?W]#Y)=WriteBRAILLEImage
- ABmPA
+ ABm A
  AReadWBMPImage
  BAm
  Bpo
@@ -2498,7 +2498,7 @@ $wtpt
 1jap
 1pVu>E
 1r"#c$'i%*m#*e&-s'0w'2|48mH:X?AB7G~EFFKKKGJJSUUZ[\WUWQIUmUQrhTORlWiz]afbddjllgiggttrtty{{qvjhVc
-1tfm
+1tfmP+
 1wsHp
 1x\vFen
 1~jcG=
@@ -8048,7 +8048,7 @@ ROMAN
 ROSE
 RR Interval Window Number
 RR Window Offset
-RSDS
+RSDS]<
 RT Beam Limiting Device Type
 RT Dose ROI Sequence
 RT Image Description
@@ -13840,6 +13840,7 @@ missing LZ dictionary
 missing profile length
 missing terminating ] for character class
 mitd
+mitdp%
 mixr
 mlang.dll
 mle\v
@@ -13875,6 +13876,7 @@ mpeg:decode
 mpeg:encode
 mpfer jagen Viktor quer 
 mrhc
+mrhcp
 mron
 msg != NULL
 msl:font-metrics.ascent
@@ -14111,6 +14113,7 @@ orig != NULL
 orig->item->length > 0
 oriya
 orlc
+orlcp
 oslash
 osmanya
 otilde
@@ -14597,7 +14600,7 @@ q\t\tjx0
 q_nk[)2(17.07-16*05,/3-/3-/4..1,.5.2?43@3@M:IX@BU8Mg@Gb9XrJ]xT4D5heVheVheVheVheVgeUkd[ndXghP}
 qdZRMHD@=;86421/.-+*)(''&%$$#""!!  
 qesp
-qesppL
+qesp@L
 qo-W>
 qsort
 quality
@@ -14803,6 +14806,7 @@ sScB'2
 sTER
 sWR`_Hd_C
 saem
+saemp&
 salmon
 salmon1
 salmon2
@@ -15281,6 +15285,7 @@ tsly
 tspan
 tstack.n_toggle_refs == 1
 tsvc
+tsvc`V
 tsvcftamtsvc
 tsvcftamtsvctulctsvcN
 tsvctulc
@@ -15289,7 +15294,7 @@ tsvctulctsvcftamtsvc
 tt@iqtelif
 ttb-ltr
 ttb-rtl
-tulc`Z
+tulc0Z
 turquoise
 turquoise1
 turquoise2
@@ -15299,8 +15304,8 @@ two named subpatterns have the same name
 twosuperior
 txLoc (point), count (0..255), text
 txet
+txet@
 txetculmcsed
-txetp
 txt:compliance
 type
 type != G_TYPE_INVALID
@@ -15571,6 +15576,7 @@ weak_ref != NULL
 weak_ref!= NULL
 weight
 weiv
+weivpU
 west
 wh0=
 wheat

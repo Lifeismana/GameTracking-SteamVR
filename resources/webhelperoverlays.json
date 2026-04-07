@@ -44,19 +44,19 @@
 		"persist_visibility": true,
 		"pixel_size": [ 1920, 1080 ]
 	},
-    "settings_desktop": {
-        "url": "/dashboard/settings_desktop.html",
+	"settings_desktop": {
+		"url": "/dashboard/settings_desktop.html",
 		"parameters": {
 			"desktop": true
 		},
-        "persist_layout": true,
-        "persist_visibility": true,
-        "valid_without_hmd": true,
-        "preload": true,
-        "resizable": false,
-        "type": "window",
-        "pixel_size": [ 800, 600 ]
-    },
+		"persist_layout": true,
+		"persist_visibility": true,
+		"valid_without_hmd": true,
+		"preload": true,
+		"resizable": false,
+		"type": "window",
+		"pixel_size": [ 800, 600 ]
+	},
 	"systemui": {
 		"url": "/dashboard/systemui.html",
 		"overlay_key": "system.systemui",
@@ -91,6 +91,7 @@
 		"resizable": true,
 		"persist_layout": true,
 		"persist_visibility": true,
+		"valid_without_hmd": true,
 		"pixel_size": [ 600, 800 ]
 	}
 }

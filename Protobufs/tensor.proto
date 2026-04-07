@@ -1,0 +1,26 @@
+syntax = "proto3";
+import "tensor_shape.proto";
+import "types.proto";
+
+package opencv_tensorflow;
+
+option cc_enable_arenas = true;
+option java_package = "org.tensorflow.framework";
+option java_outer_classname = "TensorProtos";
+option java_multiple_files = true;
+
+message TensorProto {
+	optional .opencv_tensorflow.DataType dtype = 1 [default = DT_INVALID];
+	optional .opencv_tensorflow.TensorShapeProto tensor_shape = 2;
+	optional int32 version_number = 3;
+	optional bytes tensor_content = 4;
+	repeated int32 half_val = 13 [packed = true];
+	repeated float float_val = 5 [packed = true];
+	repeated double double_val = 6 [packed = true];
+	repeated int32 int_val = 7 [packed = true];
+	repeated bytes string_val = 8;
+	repeated float scomplex_val = 9 [packed = true];
+	repeated int64 int64_val = 10 [packed = true];
+	repeated bool bool_val = 11 [packed = true];
+	repeated double dcomplex_val = 12 [packed = true];
+}

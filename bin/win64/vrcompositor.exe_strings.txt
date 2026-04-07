@@ -3,26 +3,39 @@
    Failed to properly convexify floor/ceiling for physical bounds.\n
    Finished creating camera roomview. (%s)\n
    Finished creating camera roomview.\n
+  Comment started here.
   driver %s implements interfaces %s\n
  - %dx%d format=%d refresh=%d/%d scan=%d scale=%d dsc: mode=%d version=%d slice=%d out16=%d
+ = { <proto text format> }". To set fields within it, use syntax like "
+ Outdent() without matching Indent().
  PassthroughPortal Stencil Estimate Disp 
  PassthroughPortal Stencil Left 
  PassthroughPortal Stencil Right 
  SetDefaultAudioDevice: device = %s, role = %d\n
+ Tokenizer::ParseFloat() passed text that could not have been tokenized as a float: 
+ Tokenizer::ParseInteger() passed text that could not have been tokenized as an integer: 
+ Tokenizer::ParseStringAppend() passed text that could not have been tokenized as a string: 
  [GraphicsDevice] fail to update collison bounds in a distorted pass
  [GraphicsDevice] fail to update collison bounds in a non distorted pass
+ [default = $0
+ args were given.  Full format string was: "
  but running with 
  bytes).  To increase the limit (or to disable these warnings), see CodedInputStream::SetTotalBytesLimit() in google/protobuf/io/coded_stream.h.
  bytes, parsing will be halted for security reasons.  To increase the limit (or to disable these warnings), see CodedInputStream::SetTotalBytesLimit() in google/protobuf/io/coded_stream.h.
  deflate 1.2.5 Copyright 1995-2010 Jean-loup Gailly and Mark Adler 
  for detail.\n
  formatting error code 
+ google/protobuf/descriptor.proto"\f\n\nNoResponse*]\n
+ google/protobuf/descriptor.proto:;\n
  inflate 1.2.5 Copyright 1995-2010 Mark Adler 
+ is not valid for field 
  message of type "
  of the Protocol Buffer runtime library, but the installed version is 
  of the Protocol Buffer runtime library, which is not compatible with the installed version (
+ of type 
 !! refusing to trigger minidump with debugger attached\n
 !(pCreateInfo->flags.bRenderable && pCreateInfo->flags.bDepthStencil)
+!.google.protobuf.EnumValueOptions
 !1AQaq
 !AxU
 !bMultiTap
@@ -30,8 +43,63 @@
 !params.m_vecSortedOverlays.empty()
 !params.m_videoCaptureQuads.empty()
 " because it is missing required fields: 
+" conflicts with the existing symbol "
+" for field "
+" for option "
+" has no field named "
+" has no value named "
+" has not been loaded.
+" implements neither SetCachedSize() nor ByteSize().  Must implement one or the other.
+" imports "
+" in type "
+" is a message. To set the entire message, use syntax like "
+" is a repeated message. Repeated message options must be initialized using an aggregate value.
+" is already defined (as something other than a package) in file "
+" is already defined in "
+" is already defined in file "
+" is already defined.
+" is an atomic type, not a message.
+" is not a field or extension of message "
+" is not a message type.
+" is not a type.
+" is not a valid identifier.
+" is not an enum type.
+" is not defined or is not an extension of "
+" is not defined.
+" is resolved to "
+" is resolved to "(
+" is specified along with field "
+" is specified multiple times.
+" must be unique within 
+" not previously defined in symbols_by_name_, but was defined in symbols_by_parent_; this shouldn't be possible.
+" seems to be defined in "
+" unknown.
+" uses the same enum value as "
+" was already set.
+" was listed twice.
+" was not found or had errors.
+" which is not used.
+" which is.
+"$0" does not declare $1 as an extension number.
 "%/28;=#$019:>?
+") is not compatible with this reflection object (which is for type "
+") to start from the outermost scope.
+").  Note that the exact same class is required; not just the same descriptor.
+", another member of oneof "
+", but only 
+", field number 
+", which is not defined. The innermost scope is searched first in name resolution. Consider using a leading '.'(i.e., ".
+", which is not imported by "
+".  To use it here, please add the necessary import.
+". If this is intended, set 'option allow_alias = true;' to the enum definition.
+". This appears to be a value from a sibling type.
+". Value: "
+"/*" inside block comment.  Block comments cannot be nested.
+"0x" must be followed by hex digits.
 "2BRbr
+"MutableRawRepeatedField"
+"e" must be followed by exponent.
+"z\n\rMethodOptions
 ######################################################################\n
 #3CScs
 #?RADIANCE
@@ -42,8 +110,17 @@
 #PRESENT%8didx:%d   id:%5dvsync:  %8dpredict:%8d
 #PRESENT%8didx:%d/%d id:%5d   %5dvsync:  %8d%8dpredict:%8d%8d
 #bML"
+$0  extend .$1 {\n
+$0  extensions $1 to $2;\n
+$0  message $1
+$0 oneof $1 {\n
+$0$1$2 $3 = $4
+$0enum $1 {\n
+$0option $1;\n
 $4DTdt
 $@NVAPI_SKIP_UNLOAD
+$\n k_EProtoExecutionSiteSteamClient
+$\n k_EProtoServiceTypeSteamMessages
 %%VRCOMPOSITORPATH%%
 %5EUeu
 %F-%H-%M-%S
@@ -53,11 +130,11 @@ $@NVAPI_SKIP_UNLOAD
 %d %d %d %d
 %d.%02d
 %d.%d.%d.%d
-%s %d SummonDashboard
-%s %d bDashboardVisible %d
 %s %s startup with PID=%u, config=%s, runtime=%s, arch=%s\n
 %s: CoCreateInstance MMDeviceEnumerator failed: hr = 0x%08x\n
+%s: Failed to clear focus for panel with SGID %d\n
 %s: Failed to duplicate shared handle for pid: %d Error=%d
+%s: Failed to give focus to panel with SGID %d\n
 %s: GetMonitorInfoA failed\n
 %s: WSAStartup failed: %d
 %s: bind error: %d
@@ -98,11 +175,29 @@ $@NVAPI_SKIP_UNLOAD
 (Not Enough Power)
 (Overcurrent)
 (Reset)
+(\t:P\n%vr_path_property_unset_on_steam_close
+(\v2 .google.protobuf.DescriptorProto
+(\v2!.google.protobuf.EnumValueOptions"
+(\v2$.google.protobuf.EnumDescriptorProto
+(\v2$.google.protobuf.FileDescriptorProto"
+(\v2$.google.protobuf.UninterpretedOption"/\n
+(\v2$.google.protobuf.UninterpretedOption":\n\fOptimizeMode
+(\v2$.google.protobuf.UninterpretedOption*\t
+(\v2%.google.protobuf.FieldDescriptorProto
+(\v2%.google.protobuf.OneofDescriptorProto
+(\v2&.google.protobuf.MethodDescriptorProto
+(\v2'.google.protobuf.ServiceDescriptorProto
+(\v2(.google.protobuf.SourceCodeInfo.Location
+(\v2).google.protobuf.EnumValueDescriptorProto
+(\v2-.google.protobuf.UninterpretedOption.NamePart
+(\v2/.google.protobuf.DescriptorProto.ExtensionRange
 (cannot determine missing fields for lite message)
+(merge 
 ) memory error
 ) stream error
 ) unknown error
 ) version error
+)", which is not defined. The innermost scope is searched first in name resolution. Consider using a leading '.'(i.e., "(.
 ).  Contact the program author for an update.  If you compiled the program yourself, make sure that your headers are from the same version of Protocol Buffers as your link-time library.  (Version verification failed in "
 )9IYiy
 *** %d/%zu: !!! ERROR !!! ( nVerticesAdded %d != nNumVertices %d )\n
@@ -114,7 +209,10 @@ $@NVAPI_SKIP_UNLOAD
 ******************************************* End GPU speed *******************************************\n
 *5KS
 *:JZjz
+*\n&k_EProtoServiceTypeVRGamepadUIMessages
+, from:
 , last executing in 
+, not just within "
 --crash
 --debug
 --keepalive
@@ -134,6 +232,7 @@ $@NVAPI_SKIP_UNLOAD
 -disablewatchdogs
 -hallucinated-L.png
 -hallucinated-R.png
+-inf
 -keepalive
 -m_pNvAPIDisplay != nullptr
 -mirror_x
@@ -157,11 +256,25 @@ $@NVAPI_SKIP_UNLOAD
 .  Please update your library.  If you compiled the program yourself, make sure that your headers are from the same version of Protocol Buffers as your link-time library.  (Version verification failed in "
 ../../../../src/thirdparty/livepp
 ../../screenshots
+..\src\google\protobuf\descriptor.cc
+..\src\google\protobuf\descriptor.pb.cc
+..\src\google\protobuf\descriptor_database.cc
+..\src\google\protobuf\dynamic_message.cc
+..\src\google\protobuf\extension_set.cc
+..\src\google\protobuf\extension_set_heavy.cc
+..\src\google\protobuf\generated_message_reflection.cc
 ..\src\google\protobuf\io\coded_stream.cc
+..\src\google\protobuf\io\strtod.cc
+..\src\google\protobuf\io\tokenizer.cc
 ..\src\google\protobuf\io\zero_copy_stream.cc
 ..\src\google\protobuf\io\zero_copy_stream_impl_lite.cc
+..\src\google\protobuf\message.cc
 ..\src\google\protobuf\message_lite.cc
+..\src\google\protobuf\reflection_ops.cc
 ..\src\google\protobuf\stubs\common.cc
+..\src\google\protobuf\stubs\substitute.cc
+..\src\google\protobuf\text_format.cc
+..\src\google\protobuf\wire_format.cc
 ..\src\google\protobuf\wire_format_lite.cc
 .00cfg
 .?AU?$FunctionMessageHandlerBase_t@VCVRCompositorClientContext@@VCVRCompositor@@VCVRMsg_CompositorBringToFront@@VCVRMsg_NoResponse@@P82@EAA_NV?$shared_ptr@VCVRCompositorClientContext@@@std@@AEBV3@@Z@CConnectionThread@@
@@ -223,8 +336,8 @@ $@NVAPI_SKIP_UNLOAD
 .?AUDepthStencilStateBase@VRRenderer@@
 .?AUEventQuery@D3D11VRRenderer@@
 .?AUEventQueryBase@VRRenderer@@
-.?AUGPUCountingSemaphore@D3D11VRRenderer@@
-.?AUGPUCountingSemaphoreBase@VRRenderer@@
+.?AUGPUSemaphore@D3D11VRRenderer@@
+.?AUGPUSemaphoreBase@VRRenderer@@
 .?AUIAudioEndpointVolumeCallback@@
 .?AUIMMNotificationClient@@
 .?AUIUnknown@@
@@ -248,12 +361,12 @@ $@NVAPI_SKIP_UNLOAD
 .?AV<lambda_0edd1c727e57e3e264339f5f1157a7be>@@
 .?AV<lambda_1632588a5637fc88bae8c08feee1c11c>@@
 .?AV<lambda_188c29d8ba0bb974dfffc82762e14eee>@@
-.?AV<lambda_20690dd5dba945bfdd1c574eb8549058>@@
 .?AV<lambda_2b6946a8720252ff5d48d62f7b228872>@@
 .?AV<lambda_2d123b72a81c3a08505f3763cbbd4b1f>@@
 .?AV<lambda_2d4b9bd805c205933c366a2a96e134e0>@@
 .?AV<lambda_30d0f29d2aa872ae28db230989e45d5d>@@
 .?AV<lambda_34f2e444be6b87859e7d70c75d276085>@@
+.?AV<lambda_381c53e216b55aeb79284a3d38f11e4e>@@
 .?AV<lambda_389c8fe41f46b7f8c4c8989530d782e7>@@
 .?AV<lambda_4424f60dc6272e432e2332fad7aeb9c5>@@
 .?AV<lambda_4a9b2774a285f4dfe924e0309f606eba>@@
@@ -270,6 +383,7 @@ $@NVAPI_SKIP_UNLOAD
 .?AV<lambda_7a6fedc0bd4a7309ba4f401189b44b0e>@@
 .?AV<lambda_7c6f6c4459582fbd36d681c896fa24b1>@@
 .?AV<lambda_7ce51b90e7d20ae05c43c897d9b3fe79>@@
+.?AV<lambda_7ed1c060d94434848857959924a79a23>@@
 .?AV<lambda_822e3955508f850e3f65f7b791312126>@@
 .?AV<lambda_86d59099bd136058f579e2d0755eafaa>@@
 .?AV<lambda_8f0b5e86cb8c7eaac9b7ce3a7ea3e987>@@
@@ -281,7 +395,6 @@ $@NVAPI_SKIP_UNLOAD
 .?AV<lambda_b999e20ffa6154705556996545c644f8>@@
 .?AV<lambda_c64c1a9cc02f8aeec11a8ac013daf78e>@@
 .?AV<lambda_cc402e3e286a8766195cab2d89453386>@@
-.?AV<lambda_d16db97e62c2efde03fd6ec893e59571>@@
 .?AV<lambda_d63a6a0b02fe18ae73a4fbbf54ba63e0>@@
 .?AV<lambda_de316f43b8d0f26b94370bf11e74008f>@@
 .?AV<lambda_e0a7300d03579af9117ce96f7cfc1e03>@@
@@ -313,12 +426,12 @@ $@NVAPI_SKIP_UNLOAD
 .?AV?$_Func_impl_no_alloc@V<lambda_0edd1c727e57e3e264339f5f1157a7be>@@XAEBVValue@Json@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_1632588a5637fc88bae8c08feee1c11c>@@XAEBVValue@Json@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_188c29d8ba0bb974dfffc82762e14eee>@@XAEBVValue@Json@@@std@@
-.?AV?$_Func_impl_no_alloc@V<lambda_20690dd5dba945bfdd1c574eb8549058>@@XAEBVValue@Json@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_2b6946a8720252ff5d48d62f7b228872>@@XAEBVValue@Json@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_2d123b72a81c3a08505f3763cbbd4b1f>@@XAEBVValue@Json@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_2d4b9bd805c205933c366a2a96e134e0>@@XW4ELogLevel@@PEBDPEAX@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_30d0f29d2aa872ae28db230989e45d5d>@@PEAXPEBD@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_34f2e444be6b87859e7d70c75d276085>@@X$$V@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_381c53e216b55aeb79284a3d38f11e4e>@@XAEBVValue@Json@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_389c8fe41f46b7f8c4c8989530d782e7>@@XAEBVValue@Json@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_4424f60dc6272e432e2332fad7aeb9c5>@@XAEBVValue@Json@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_4a9b2774a285f4dfe924e0309f606eba>@@_NW4EVREye@vr@@W4EVRDistortionChannel@3@_NIPEBUDistortionCoordinate_t@3@PEAU53@@std@@
@@ -335,6 +448,7 @@ $@NVAPI_SKIP_UNLOAD
 .?AV?$_Func_impl_no_alloc@V<lambda_7a6fedc0bd4a7309ba4f401189b44b0e>@@XAEBVValue@Json@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_7c6f6c4459582fbd36d681c896fa24b1>@@X$$V@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_7ce51b90e7d20ae05c43c897d9b3fe79>@@XAEBVValue@Json@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_7ed1c060d94434848857959924a79a23>@@XAEBVValue@Json@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_822e3955508f850e3f65f7b791312126>@@XAEBVValue@Json@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_86d59099bd136058f579e2d0755eafaa>@@XAEBVValue@Json@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_8f0b5e86cb8c7eaac9b7ce3a7ea3e987>@@XAEBVValue@Json@@@std@@
@@ -346,7 +460,6 @@ $@NVAPI_SKIP_UNLOAD
 .?AV?$_Func_impl_no_alloc@V<lambda_b999e20ffa6154705556996545c644f8>@@XAEBVValue@Json@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_c64c1a9cc02f8aeec11a8ac013daf78e>@@XAEBVValue@Json@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_cc402e3e286a8766195cab2d89453386>@@X$$V@std@@
-.?AV?$_Func_impl_no_alloc@V<lambda_d16db97e62c2efde03fd6ec893e59571>@@XAEBVValue@Json@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_d63a6a0b02fe18ae73a4fbbf54ba63e0>@@XAEBVValue@Json@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_de316f43b8d0f26b94370bf11e74008f>@@XAEBVValue@Json@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_e0a7300d03579af9117ce96f7cfc1e03>@@XAEBVValue@Json@@@std@@
@@ -361,9 +474,11 @@ $@NVAPI_SKIP_UNLOAD
 .?AV?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8CVRMailbox@@EAAXAEBVValue@Json@@@ZPEAV3@AEBU?$_Ph@$00@2@@std@@XAEBVValue@Json@@@std@@
 .?AV?$_Iosb@H@std@@
 .?AV?$_LaunchPad@V?$unique_ptr@V?$tuple@P8CRemotePerfStats@@EAAXXZPEAV1@@std@@U?$default_delete@V?$tuple@P8CRemotePerfStats@@EAAXXZPEAV1@@std@@@2@@std@@@std@@
-.?AV?$_LaunchPad@V?$unique_ptr@V?$tuple@V<lambda_0c995926f4757a918812503e8850cebf>@@@std@@U?$default_delete@V?$tuple@V<lambda_0c995926f4757a918812503e8850cebf>@@@std@@@2@@std@@@std@@
+.?AV?$_LaunchPad@V?$unique_ptr@V?$tuple@V<lambda_231f95482cebf09a4f17c47614902e62>@@@std@@U?$default_delete@V?$tuple@V<lambda_231f95482cebf09a4f17c47614902e62>@@@std@@@2@@std@@@std@@
+.?AV?$_LaunchPad@V?$unique_ptr@V?$tuple@V<lambda_75360f6c10012bbfb3a11b80fca79580>@@@std@@U?$default_delete@V?$tuple@V<lambda_75360f6c10012bbfb3a11b80fca79580>@@@std@@@2@@std@@@std@@
 .?AV?$_LaunchPad@V?$unique_ptr@V?$tuple@V<lambda_848be8f9a8f0f693e744ef05976b2633>@@@std@@U?$default_delete@V?$tuple@V<lambda_848be8f9a8f0f693e744ef05976b2633>@@@std@@@2@@std@@@std@@
-.?AV?$_LaunchPad@V?$unique_ptr@V?$tuple@V<lambda_aa74002eb39e62de909e471c40dc9804>@@@std@@U?$default_delete@V?$tuple@V<lambda_aa74002eb39e62de909e471c40dc9804>@@@std@@@2@@std@@@std@@
+.?AV?$_LaunchPad@V?$unique_ptr@V?$tuple@V<lambda_db47782c3bf0f9c343fea698aa780ca4>@@@std@@U?$default_delete@V?$tuple@V<lambda_db47782c3bf0f9c343fea698aa780ca4>@@@std@@@2@@std@@@std@@
+.?AV?$_LaunchPad@V?$unique_ptr@V?$tuple@V<lambda_f6f604e919cb07ae8fc9b9b58452ec78>@@@std@@U?$default_delete@V?$tuple@V<lambda_f6f604e919cb07ae8fc9b9b58452ec78>@@@std@@@2@@std@@@std@@
 .?AV?$_Ref_count_obj@V?$vector@UHmdVector2_t@vr@@V?$allocator@UHmdVector2_t@vr@@@std@@@std@@@std@@
 .?AV?$_Ref_count_obj@V?$vector@UHmdVector3_t@vr@@V?$allocator@UHmdVector3_t@vr@@@std@@@std@@@std@@
 .?AV?$_Ref_count_obj@VCEmpty@sg@@@std@@
@@ -391,6 +506,9 @@ $@NVAPI_SKIP_UNLOAD
 .?AV?$codecvt@_WDU_Mbstatet@@@std@@
 .?AV?$codecvt_utf8_utf16@_W$0BAPPPP@$0A@@std@@
 .?AV?$wstring_convert@V?$codecvt_utf8_utf16@_W$0BAPPPP@$0A@@std@@_WV?$allocator@_W@2@V?$allocator@D@2@@std@@
+.?AVAggregateErrorCollector@?A0x247e964a@protobuf@google@@
+.?AVAggregateOptionFinder@OptionInterpreter@DescriptorBuilder@protobuf@google@@
+.?AVArrayInputStream@io@protobuf@google@@
 .?AVArrayOutputStream@io@protobuf@google@@
 .?AVCAssociatedFrameNode@sg@@
 .?AVCAudioEndpointVolumeCallback@@
@@ -558,7 +676,6 @@ $@NVAPI_SKIP_UNLOAD
 .?AVCVRMsg_DestroySwapTextureSet@@
 .?AVCVRMsg_DriverDebugRequest@@
 .?AVCVRMsg_DriverDebugResponse@@
-.?AVCVRMsg_ExchangeCapabilities@@
 .?AVCVRMsg_ExtendActivityTimeout@@
 .?AVCVRMsg_GetApplicationInfo@@
 .?AVCVRMsg_GetApplicationLaunchArguments@@
@@ -640,6 +757,8 @@ $@NVAPI_SKIP_UNLOAD
 .?AVCVRMsg_StartDashboard@@
 .?AVCVRMsg_StartDashboardResponse@@
 .?AVCVRMsg_StartHomeAppResponse@@
+.?AVCVRMsg_StartVRCompositor@@
+.?AVCVRMsg_StartVRCompositorResponse@@
 .?AVCVRMsg_TrackedCamera_AcquireVideoStreamingService@@
 .?AVCVRMsg_TrackedCamera_AcquireVideoStreamingServiceResponse@@
 .?AVCVRMsg_TrackedCamera_Enable@@
@@ -695,11 +814,35 @@ $@NVAPI_SKIP_UNLOAD
 .?AVCharReader@Json@@
 .?AVCharReaderBuilder@Json@@
 .?AVClosure@protobuf@google@@
+.?AVDescriptorDatabase@protobuf@google@@
+.?AVDescriptorPoolExtensionFinder@internal@protobuf@google@@
+.?AVDescriptorProto@protobuf@google@@
+.?AVDescriptorProto_ExtensionRange@protobuf@google@@
+.?AVDynamicMessage@protobuf@google@@
+.?AVDynamicMessageFactory@protobuf@google@@
+.?AVEncodedDescriptorDatabase@protobuf@google@@
+.?AVEnumDescriptorProto@protobuf@google@@
+.?AVEnumOptions@protobuf@google@@
+.?AVEnumValueDescriptorProto@protobuf@google@@
+.?AVEnumValueOptions@protobuf@google@@
+.?AVErrorCollector@io@protobuf@google@@
 .?AVException@Json@@
+.?AVExtensionFinder@internal@protobuf@google@@
 .?AVFactory@CharReader@Json@@
 .?AVFastWriter@Json@@
 .?AVFatalException@protobuf@google@@
+.?AVFieldDescriptorProto@protobuf@google@@
+.?AVFieldOptions@protobuf@google@@
+.?AVFieldSkipper@internal@protobuf@google@@
+.?AVFieldValuePrinter@TextFormat@protobuf@google@@
+.?AVFileDescriptorProto@protobuf@google@@
+.?AVFileDescriptorSet@protobuf@google@@
+.?AVFileOptions@protobuf@google@@
+.?AVFinder@TextFormat@protobuf@google@@
 .?AVFunctionClosure0@internal@protobuf@google@@
+.?AVGeneratedExtensionFinder@internal@protobuf@google@@
+.?AVGeneratedMessageFactory@?A0xaa88a5bd@protobuf@google@@
+.?AVGeneratedMessageReflection@internal@protobuf@google@@
 .?AVIAudioEndpointVolumeCallbackImpl@@
 .?AVIConnectionContext@@
 .?AVIConnectionManager@@
@@ -735,17 +878,41 @@ $@NVAPI_SKIP_UNLOAD
 .?AVIVRVirtualDisplay@vr@@
 .?AVIVRWatchdogProvider@vr@@
 .?AVLogicError@Json@@
+.?AVMessage@protobuf@google@@
+.?AVMessageFactory@protobuf@google@@
 .?AVMessageLite@protobuf@google@@
+.?AVMessageOptions@protobuf@google@@
+.?AVMethodDescriptorProto@protobuf@google@@
+.?AVMethodOptions@protobuf@google@@
+.?AVNoResponse@@
+.?AVOneofDescriptorProto@protobuf@google@@
 .?AVOurCharReader@Json@@
+.?AVParserErrorCollector@ParserImpl@Parser@TextFormat@protobuf@google@@
+.?AVProtoFloatVec@@
+.?AVReflection@protobuf@google@@
 .?AVRuntimeError@Json@@
-.?AVSceneInfo@?O@??ComputeSystemLayerParams@CSystemLayer@vr@@QEAAXAEBURenderFrameParams_t@CGraphicsDevice@@AEAURenderSystemLayerParams_t@5@PEBUTrackedDevicePose_t@3@@Z@
-.?AVSceneResult@?O@??ComputeSystemLayerParams@CSystemLayer@vr@@QEAAXAEBURenderFrameParams_t@CGraphicsDevice@@AEAURenderSystemLayerParams_t@5@PEBUTrackedDevicePose_t@3@@Z@
+.?AVSceneInfo@?A0xf548fe22@vr@@
+.?AVSceneResult@?A0xf548fe22@vr@@
+.?AVServiceDescriptorProto@protobuf@google@@
+.?AVServiceOptions@protobuf@google@@
+.?AVSourceCodeInfo@protobuf@google@@
+.?AVSourceCodeInfo_Location@protobuf@google@@
 .?AVStringOutputStream@io@protobuf@google@@
 .?AVStyledWriter@Json@@
+.?AVUninterpretedOption@protobuf@google@@
+.?AVUninterpretedOption_NamePart@protobuf@google@@
+.?AVUnknownFieldSetFieldSkipper@internal@protobuf@google@@
+.?AVVRLink_LaserMouseEvent@@
+.?AVVRLink_LaserMouseEvents@@
+.?AVVRLink_LaserMouseOverlay@@
+.?AVVRLink_LaserMouseOverlayUpdate@@
+.?AVVRLink_LaserMouseOverlay_TransformDetails@@
+.?AVVRLink_UnifiedDashboard_State@@
 .?AVWin32Event@IPC@@
 .?AVWin32Mutex@IPC@@
 .?AVWin32SharedMemory@IPC@@
 .?AVWriter@Json@@
+.?AVZeroCopyInputStream@io@protobuf@google@@
 .?AVZeroCopyOutputStream@io@protobuf@google@@
 .?AV_Facet_base@std@@
 .?AV_Pad@std@@
@@ -776,22 +943,39 @@ $@NVAPI_SKIP_UNLOAD
 .CRT$XPZ
 .CRT$XTA
 .CRT$XTZ
+.EProtoExecutionSite:
+.EProtoServiceType: k_EProtoServiceTypeSteamMessages:D\n
 .HPN
 .P6AXPEBD0I_NPEAXPEA_N@Z
+.PLACEHOLDER_VALUE
 .backup
 .bss
 .cursor
 .data
 .data$r
 .dll
+.dummy
 .edata
 .etl
+.foo = value".
+.google.protobuf.EnumOptions
+.google.protobuf.EnumOptions"l\n
+.google.protobuf.FieldOptions
+.google.protobuf.FieldOptions"
+.google.protobuf.FileOptions
+.google.protobuf.MessageOptions
+.google.protobuf.MethodOptions
+.google.protobuf.MethodOptions"
+.google.protobuf.ServiceOptions
+.google.protobuf.ServiceOptions"
+.google.protobuf.SourceCodeInfo"
 .idata$2
 .idata$3
 .idata$4
 .idata$5
 .idata$6
 .pdata
+.placeholder.proto
 .png
 .previous.txt
 .rdata
@@ -874,8 +1058,7 @@ $@NVAPI_SKIP_UNLOAD
 /chaperone/standing/transform
 /chaperone/state
 /chaperone/temporary_playing_outside_playspace_time
-/client_streaming_mode_on_demand
-/client_will_handle_dashboard_state
+/dashboard/visible
 /dashboard_head_pose_from_standing
 /delivery_rate
 /device_was_drawn
@@ -885,7 +1068,6 @@ $@NVAPI_SKIP_UNLOAD
 /frame_size
 /frame_time_monotonic
 /height
-/is_link_environment
 /lighthouse/camera/raw_frames
 /lighthouse/depthAugmentedPassthrough/leftMeshElementCount
 /lighthouse/depthAugmentedPassthrough/meshHeight
@@ -895,7 +1077,6 @@ $@NVAPI_SKIP_UNLOAD
 /lighthouse/depthAugmentedPassthrough/processingMode
 /lighthouse/depthAugmentedPassthrough/rawMesh
 /lighthouse/depthAugmentedPassthrough/rightMeshElementCount
-/link_stream_packet_time
 /name
 /position/x
 /position/y
@@ -903,7 +1084,6 @@ $@NVAPI_SKIP_UNLOAD
 /proximity
 /server_time_ticks
 /steam/oobe
-/steam/roomviewgeo
 /steamvr/angulardebug_%u
 /transferlatencyms
 /user/ankle/left
@@ -927,41 +1107,68 @@ $@NVAPI_SKIP_UNLOAD
 /user/waist
 /user/wrist/left
 /user/wrist/right
+/vrgamepadui/steamvr/dashboard_frames_remote
+/vrgamepadui/steamvr/dashboard_frames_tx
+/vrgamepadui/steamvr/desktop_windows_remote
+/vrgamepadui/steamvr/desktop_windows_tx
+/vrgamepadui/steamvr/unified_dashboard_state_remote
+/vrgamepadui/steamvr/vrlink_lasermouseactive_remote
+/vrgamepadui/steamvr/vrlink_lasermouseoverlay_remote
+/vrgamepadui/steamvr/vrlink_lasermouseoverlay_tx
+/vrlink_client_isSteamVR
+/vrlink_environment
+/vrlink_stream_active
+/vrlink_stream_packet_time
 /width
 /yQA
 0 width
 0-pixel image
 00003333
+00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899"
 0123456789ABCDEF
 0123456789ABCDEFundefined
+0123456789abcdef
+0\rPR
 0x%02x 
 1.2.5
 1.5.26
 1/2/4/8/16-bit only
-10:06:46
 123456789
+14:21:11
 1A26b
 1e+9999
 1wsHp
+2#.google.protobuf.FieldOptions.CType:
+2).google.protobuf.FileOptions.OptimizeMode:
+2*.google.protobuf.FieldDescriptorProto.Type
+2+.google.protobuf.FieldDescriptorProto.Label
 214l5
 3333
 3333UUUU
 416.16
 52F*
 5I)7
+5\n\vnested_type
+6\n\fmessage_type
+7\n\tenum_type
 7^d[L
 7~8A
+8\n\textension
 8c8f13b1-60eb-4b6a-a433-de86104115ac
 8d8f13b1-60eb-4b6a-a433-de86104115ac
 8e8f13b1-60eb-4b6a-a433-de86104115ac
 9,Failed to get DisplayFrequency from hmd!\n
+9\n\noneof_decl
 9a&g
+: Protocol message serialized to a size different from what was originally expected.  Perhaps it was modified by another thread during serialization?
+: Tried to copy from a message with a different type. to: 
+: Tried to merge from a message with a different type.  to: 
 : exception thrown in JSON library
 <unknown>
 =333>333?
 ================================================================================================\n
 ====> Detected GPU deadlock.. breaking cycle: %llu\n
-?/dashboard/visible
+?33s?
 ??0?$basic_ios@DU?$char_traits@D@std@@@std@@IEAA@XZ
 ??0?$basic_istream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@_N@Z
 ??0?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@_N@Z
@@ -989,7 +1196,6 @@ $@NVAPI_SKIP_UNLOAD
 ??_7codecvt_base@std@@6B@
 ??_7facet@locale@std@@6B@
 ??_7ios_base@std@@6B@
-?Fatal
 ?_BADOFF@std@@3_JB
 ?_Decref@facet@locale@std@@UEAAPEAV_Facet_base@3@XZ
 ?_Fiopen@std@@YAPEAU_iobuf@@PEBDHH@Z
@@ -1043,9 +1249,12 @@ $@NVAPI_SKIP_UNLOAD
 ?xsgetn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JPEAD_J@Z
 ?xsputn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JPEBD_J@Z
 @Scene graph visited panel %s that did not have a valid overlay.\n
+@vector<T> too long
 A GrabTransform raycast did not find any intersections. %.3f
+A file with this name is already in the pool.
 A protocol message was rejected because it was too big (more than 
 A valid JSON document must be either an array or an object value.
+A wireless HMD driver is present, but the wireless HMD has not connected and Steam is not running (216)
 A wireless HMD driver is present, but the wireless HMD has not connected yet (215)
 A"QT
 ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/
@@ -1063,17 +1272,29 @@ Aborting GetDeltas(%s) event[%d]! (n=%d)\n
 Aborting WaitEvent(%s)! (n=%d)\n
 Aborting due to fatal assertion failure.
 AddAccessAllowedAce
+AddBool
+AddDouble
+AddEnum
+AddFloat
+AddInt32
+AddInt64
+AddMessage
+AddString
+AddUInt32
+AddUInt64
 Adding %fms latency to predicted poses for display redirect '%s'.\n
 Adobe
 Advanced Micro Devices, Inc.
 Alert
 Alias
 AllowAsyncRunningStart: %s\n
+Already saw decimal point or exponent; can't have another one.
 Angular Debug Lines
 Another app was already launching (117)
 Another copy of this program is already running on this machine. Only one instance at a time is allowed.
 App info manager init failed (114)
 Application built with libpng-
+Apr  6 2026
 Assert( %s ) %s(%d)\n
 Async compositor and reprojection DISABLED!!!
 Asynchronous reprojection not supported - requires NVIDIA driver 372.54 or higher.\n
@@ -1106,13 +1327,15 @@ Begin Draw
 Black level fixup enabled (detected known GPU/driver combination)
 Blur:ping
 Blur:pong
+Boolean default must be true or false.
 Both Eyes
+Byte size calculation and serialization were inconsistent.  This may indicate a bug in protocol buffers or it may be caused by concurrent modification of the message.
 C-Yn
 CAudioEndpointVolumeCallback::CAudioEndpointVolumeCallback
 CAudioEndpointVolumeCallback::Register
-CD3D11VRRenderer::CreateGPUCountingSemaphore - Failed to allocate counting semaphore handle\n
-CD3D11VRRenderer::ImportGPUCountingSemaphoreFromSharedHandle - Failed to allocate counting semaphore handle.\n
-CD3D11VRRenderer::ImportGPUCountingSemaphoreFromSharedHandle - Failed to import GPU counting shared semaphore.\n
+CD3D11VRRenderer::CreateGPUSemaphore - Failed to allocate  semaphore handle\n
+CD3D11VRRenderer::ImportGPUSemaphoreFromSharedHandle - Failed to allocate  semaphore handle.\n
+CD3D11VRRenderer::ImportGPUSemaphoreFromSharedHandle - Failed to import GPU  shared semaphore.\n
 CD3D11VRRenderer::Initialize(): Failed to create compute shader %s!\n
 CD3D11VRRenderer::Initialize(): Failed to create input layout for vertex shader %s!\n
 CD3D11VRRenderer::Initialize(): Failed to create pixel shader %s!\n
@@ -1173,16 +1396,51 @@ CGraphicsDevice::WaitForGpuWork
 CGraphicsDevice::WaitForPresent
 CGraphicsDevice::WaitForPresent/VirtualDisplay
 CHECK failed: !coded_out.HadError(): 
+CHECK failed: !out.HadError(): 
 CHECK failed: (&from) != (this): 
+CHECK failed: (&from) != (to): 
 CHECK failed: (&other) != (this): 
 CHECK failed: (buffer_size) >= (0): 
+CHECK failed: (byte_size_before_serialization) == (byte_size_after_serialization): 
+CHECK failed: (bytes_produced_by_serialization) == (byte_size_before_serialization): 
 CHECK failed: (count) <= (last_returned_size_): 
 CHECK failed: (count) <= (target_->size()): 
 CHECK failed: (count) >= (0): 
+CHECK failed: (field->message_type()) == (desc): 
+CHECK failed: (field->options().ctype()) == (ctype): 
+CHECK failed: (from.GetDescriptor()) == (descriptor): 
 CHECK failed: (last_returned_size_) > (0): 
+CHECK failed: (message1->GetReflection()) == (this): 
+CHECK failed: (message2->GetReflection()) == (this): 
+CHECK failed: (option_field->type()) == (FieldDescriptor::TYPE_GROUP): 
+CHECK failed: (output->ByteCount()) == (expected_endpoint): 
+CHECK failed: (size) <= (6): 
+CHECK failed: (temp[0]) == ('1'): 
+CHECK failed: (temp[size-1]) == ('5'): 
+CHECK failed: (to->GetDescriptor()) == (descriptor): 
+CHECK failed: (type) != (WireFormatLite::TYPE_ENUM): 
+CHECK failed: (type) != (WireFormatLite::TYPE_GROUP): 
+CHECK failed: (type) != (WireFormatLite::TYPE_MESSAGE): 
+CHECK failed: (type) == (WireFormatLite::TYPE_ENUM): 
+CHECK failed: allow_unknown_field_: 
+CHECK failed: builder_: 
+CHECK failed: dynamic.get() != NULL: 
+CHECK failed: field != NULL: 
+CHECK failed: file != NULL: 
+CHECK failed: generated_database_->Add(encoded_file_descriptor, size): 
+CHECK failed: has_default_value(): 
+CHECK failed: is_prototype(): 
+CHECK failed: iter != extensions_.end(): 
+CHECK failed: options->ParseFromString(buf): 
+CHECK failed: options_descriptor: 
+CHECK failed: original_uninterpreted_options_field != NULL: 
+CHECK failed: output->message_prototype != NULL: 
+CHECK failed: prototype != NULL: 
+CHECK failed: result != NULL: 
+CHECK failed: trees: 
+CHECK failed: uninterpreted_options_field != NULL: 
 CHECK failed: value.size() <= kint32max: 
-CHmdDistort::RunFrame/GetMasterSoundVolume
-CHmdDistort::RunFrame/SetMasterSoundVolume
+CHmdDistort::RunFrame/AdjustMasterSoundVolume
 CLaserMouse: Hiding keyboard because user clicked on another overlay. pidCurrentKeyboard=%d, state=%d
 CLaserMouse::ProcessFrame
 CMMNotificationClient::Register
@@ -1190,6 +1448,17 @@ CMotionVectors::InitLiquidVR
 CNewFrameHandler::AcquireSync
 CNewFrameHandler::ReleaseSync
 COLOR
+CORD
+CPPTYPE_BOOL
+CPPTYPE_DOUBLE
+CPPTYPE_ENUM
+CPPTYPE_FLOAT
+CPPTYPE_INT32
+CPPTYPE_INT64
+CPPTYPE_MESSAGE
+CPPTYPE_STRING
+CPPTYPE_UINT32
+CPPTYPE_UINT64
 CPackedBoneTransforms
 CRemotePerfStats::CRemotePerfStats
 CRemotePerfStats::Compress
@@ -1200,6 +1469,7 @@ CRenderThread::Update
 CRenderThread::UpdateAsync
 CRenderThread::WaitUntil
 CSceneGraphRenderer::BuildRenderLists
+CSceneGraphRenderer::UpdateInputFocus
 CSharedResourceNamespaceClient::Init(): failed connect\n
 CSharedResourceNamespaceClient::Init(): failed to get server response\n
 CSharedResourceNamespaceClient::Init(): failed to retreive payload\n
@@ -1217,6 +1487,7 @@ CStandaloneOverlayManager::PushUpdatesToScenegraph
 CSystemLayer::OnMbox_SystemDashboardToggle
 CTrackedDeviceRenderer::AddDeviceModelToUpdate
 CTrackedDeviceRenderer::BuildRenderList
+CType
 CVRAudioDeviceImpl::CVRAudioDeviceImpl
 CVRAudioDeviceImpl::EnumAudioDevices
 CVRAudioDeviceImpl::GetDeviceSoundVolume
@@ -1313,7 +1584,6 @@ CVRMsg_DefaultBinding
 CVRMsg_DestroySwapTextureSet
 CVRMsg_DriverDebugRequest
 CVRMsg_DriverDebugResponse
-CVRMsg_ExchangeCapabilities
 CVRMsg_ExtendActivityTimeout
 CVRMsg_GetApplicationInfo
 CVRMsg_GetApplicationLaunchArguments
@@ -1395,6 +1665,8 @@ CVRMsg_StartAutolaunchOverlays
 CVRMsg_StartDashboard
 CVRMsg_StartDashboardResponse
 CVRMsg_StartHomeAppResponse
+CVRMsg_StartVRCompositor
+CVRMsg_StartVRCompositorResponse
 CVRMsg_TrackedCamera_AcquireVideoStreamingService
 CVRMsg_TrackedCamera_AcquireVideoStreamingServiceResponse
 CVRMsg_TrackedCamera_Enable
@@ -1448,6 +1720,8 @@ Cam: Room View
 Cam: Undistort
 Cam: YUY16 Decode
 Can't 
+Can't get here.
+Can't get here: failed to get default value as string
 Can't set both read_data_fn and write_data_fn in the same structure
 Can't write sCAL (buffer too small)
 Can't write tRNS with an alpha channel
@@ -1462,6 +1736,7 @@ CheckMenuItem
 CircleFade
 Clamping render target scale to 1.5x total area.\n
 Cleaning up\n
+ClearField
 Clearing dashboard transform because %s
 Clearing disable all reprojection (pid=%d)\n
 Clearing forced always-on reprojection (pid=%d)\n
@@ -1491,7 +1766,9 @@ CollisionBoundsGroundPerimeterOn
 CollisionBoundsPlaySpaceOn
 CollisionBoundsStyle
 CollisionBoundsWallHeight
+CommitPlayspaceBoundsDrawing error. No forward direction.
 CommitPlayspaceCircleBoundary error. No forward direction.
+CommitPlayspaceFull error. No forward direction.
 Compositor
 Compositor Time........CPU: %.3fms / GPU: %.3fms\n
 Compositor failed to find DX11 hardware (401)
@@ -1509,7 +1786,6 @@ ComputeEnd
 Config path could not be located (111)
 Connect to VR Server Failed (301)
 ConnectNamedPipe
-Connected to %s
 Connecting client (%s) app container status: %d\n
 Connection
 Connection - 
@@ -1522,9 +1798,13 @@ ConvertStringSecurityDescriptorToSecurityDescriptorW failed while creating pipe 
 ConvertStringSidToSidA
 CopySid
 Cost
+Could not create an instance of 
 Could not create interface in driver %s from %s.\n
 Could not find factor function in driver %s from %s.\n
+Could not find field named "
+Could not find field type.
 Could not find file on disk.\n
+Couldn't parse default value "
 Crashing so we can test breakpad uploading
 Create
 CreateDXGIFactory1
@@ -1589,9 +1869,12 @@ Dashboard View (Mirror Overlay)
 Dashboard tutorial requested\n
 Debug lines
 DefWindowProcW
+Default value for an enum field must be an identifier.
 DeleteCriticalSection
 DeleteFileW
 Delta Motion Vectors
+DescriptorProto
+DescriptorProtosH
 DestroyWindow
 Destroying overlay %llX %s (%s)from pid %u because that process disconnected\n
 Destroying resources from %u now that %u is rendering\n
@@ -1604,9 +1887,6 @@ Device Calibration is invalid (207)
 Device created
 Device is not calibrated (206)
 Did not find any drivers!
-DigitalActionRisingEdge open_dashboard, sending toggle to server
-DigitalActionRisingEdge toggle_dashboard, sending toggle to server
-DigitalActionRisingEdge toggle_dashboard, toggling local
 Direct->GetFrameTiming()
 Direct->GetNextLayerIndex()
 Direct->WaitForAcquire()
@@ -1641,8 +1921,9 @@ DuplicateHandle
 DwmEnableComposition
 Dynamically setting display mode is not currently supported.\n
 Dynamically setting display mode is not supported.\n
+EProtoExecutionSite
+EProtoServiceType
 ERROR
-ERROR! Failed to get Collision Bounds info m_pChaperone->GetCollisionBoundsInfo( nQuadCount = %d )!\n
 ERROR! No valid GPU speed entries found!\n
 ERROR: Failed to dup handle!\n
 ERROR: Failed to open log file %s, attempting timestamped filename\n
@@ -1653,12 +1934,18 @@ EnableTraceEx2
 Enabled
 Encountered error 
 End Draw
+End-of-file inside block comment.
 Endpoint Activate(IDeviceTopology) failed: id = %s hr = 0x%08x\n
 Endpoint topology GetConnector(0) failed: hr = 0x%08x\n
 EnterCriticalSection
+Enum type "
 EnumAudioEndpoints failed: hr = 0x%08x\n
+EnumDescriptorProto
 EnumDisplayDevicesA
 EnumDisplayMonitors
+EnumValueDescriptorProto
+EnumValueOptions
+Enums must contain at least one value.
 Error
 Error Logging DisplayPort Link Info\n
 Error Updating HMD DisplayFrequency\n
@@ -1670,9 +1957,10 @@ Error creating constant buffers
 Error creating samplers
 Error establishing real-time priority of RenderThread
 Error establishing real-time priority of SignalThread
-Error getting center on CommitPlayspaceCircleBoundary
 Error getting stroke perimeter on CommitPlayspaceBoundsDrawing
 Error making window!\n
+Error parsing text-format 
+Error while parsing option value for "
 Error! EventWriteString Severe: %s\n
 Error! Unable to load %s after allocating memory\n
 Error! Unable to parse %s texture\n
@@ -1707,6 +1995,29 @@ Exception %08x\n
 Executable: %s\n
 Exit Compositor
 ExitProcess
+Expect a decimal number.
+Expected "
+Expected double.
+Expected eight hex digits up to 10ffff for \U escape sequence
+Expected four hex digits for \u escape sequence.
+Expected hex digits for escape sequence.
+Expected identifier.
+Expected integer or identifier.
+Expected integer.
+Expected string.
+Extension "
+Extension conflicts with extension already in database: extend 
+Extension factory's GetPrototype() returned NULL for extension: 
+Extension number $0 has already been used in "$1" by extension "$2" defined in $3.
+Extension number $0 has already been used in "$1" by extension "$2".
+Extension numbers cannot be greater than $0.
+Extension numbers must be positive integers.
+Extension range $0 to $1 includes field "$2" ($3).
+Extension range $0 to $1 overlaps with already-defined range $2 to $3.
+Extension range end number must be greater than start number.
+ExtensionRange
+Extensions of MessageSets must be optional messages.
+Extensions to non-lite types can only be declared in non-lite files.  Note that you cannot extend a non-lite type to contain a lite type, but the reverse is allowed.
 External connection from %s %u\n
 Extra non-whitespace after JSON value.
 Eye Tracking Debug
@@ -1714,6 +2025,7 @@ FAILED
 FATAL
 FATAL: Failed to open log file %s, failing out!\n
 FORMAT=32-bit_rle_rgbe
+F\n\foptimize_for
 Factory Function Not Found (104)
 Failed
 Failed CreateTexture2D with 0x%X\n\tw=%d, h=%d, format=%d\n\tArraySize=%d, Usage=%d, SampleDesc.Count=%d\n\tCPUAccessFlags=%X, BindFlags=%X, MiscFlags=%X
@@ -1735,11 +2047,11 @@ Failed to compute distortion parameters! %d/%d\n
 Failed to compute distortion parameters! (blue)
 Failed to compute distortion parameters! (green)
 Failed to compute distortion parameters! (red)
+Failed to compute forward red distortion parameters!\n
 Failed to compute inverse blue distortion parameters!\n
 Failed to compute inverse compositor projection matrix!
 Failed to compute inverse green distortion parameters!\n
 Failed to compute inverse red distortion parameters!\n
-Failed to connect to block queue %s (%d)
 Failed to connect to pipe %s because %s... retrying
 Failed to connect to pipe %s because %s\n
 Failed to connect to the raw mesh block queue from depth augmented passthrough (%d)\n
@@ -1991,14 +2303,43 @@ Failed to write event salt value after a new connection on pipe %s because: %s\n
 Failed to write process id after connecting pipe %s because %s\n
 Failed with %s! Quitting.\n
 Failed with %s!\n
+False
+Fatal
 Feathering mura correction for %s\n - Inner(l=%d, r=%d, t=%d, b=%d)\n - Outer(l=%d, r=%d, t=%d, b=%d)\n
+Field "
+Field does not match message type.
+Field is repeated; the method requires a singular field.
+Field is singular; the method requires a repeated field.
+Field number $0 has already been used in "$1" by field "$2".
+Field numbers $0 through $1 are reserved for the protocol buffer library implementation.
+Field numbers cannot be greater than $0.
+Field numbers must be positive integers.
+Field with message or enum type missing type_name.
+Field with primitive type has type_name.
+FieldDescriptorProto
+FieldDescriptorProto.extendee not set for extension field.
+FieldDescriptorProto.extendee set for non-extension field.
+FieldDescriptorProto.oneof_index $0 is out of range for type "$1".
+FieldDescriptorProto.oneof_index should not be set for extensions.
+FieldSize
+Fields of oneofs must themselves have label LABEL_OPTIONAL.
 File Not Found (103)
+File already exists in database: 
+File appears to be in generated pool but wasn't registered: 
+File is already registered: 
+File recursively imports itself: 
+FileDescriptorProto
+FileDescriptorSet
+Files that do not use optimize_for = LITE_RUNTIME cannot import files which do use this option.  This file is not lite, but it imports "
+Files with optimize_for = LITE_RUNTIME cannot define services unless you set both options cc_generic_services and java_generic_sevices to false.
 FindClose
 FindFirstFileW
 FindNextFileW
 Finished loading scene test texture: %s [%d]
 Firmware Recovery In Progress (139)
 Firmware Update In Progress (138)
+First argument to Swap() (of type "
+First argument to SwapFields() (of type "
 Fixups DISABLED!
 Flush Text
 Flush Text (mirror)
@@ -2031,14 +2372,15 @@ GPU Vendor: "%s" GPU Driver: "%s"\n
 GPU speed being set at first generation HMD resolution 382 MP/sec\n
 GPU speed being set to headset's recommended resolution of %d MP/sec\n
 GPU speed from average of %d median samples: %d\n
-GPUCountingSemaphore::Signal(%llu)
-GPUCountingSemaphore::Signal(%llu) FAILED!!
-GPUCountingSemaphore::Wait(%llu)
-GPUCountingSemaphore::Wait(%llu) FAILED!!
 GPUProfiling
+GPUSemaphore::Signal(%llu)
+GPUSemaphore::Signal(%llu) FAILED!!
+GPUSemaphore::Wait(%llu)
+GPUSemaphore::Wait(%llu) FAILED!!
 Game Info..............FPS Average Target %.f  ApplicationTime CPU: %.3fms / GPU: %.3fms\n
 GenericConstantBuffer
 GetACP
+GetBool
 GetCurrentProcess
 GetCurrentProcessId
 GetCurrentThread
@@ -2047,6 +2389,8 @@ GetDefaultAudioEndpoint failed for role eCommunications: hr = 0x%08x\n
 GetDefaultAudioEndpoint failed for role eConsole: hr = 0x%08x\n
 GetDefaultAudioEndpoint failed: hr = 0x%08x\n
 GetDeviceRemovedReason: 0x%X
+GetDouble
+GetEnum
 GetEnvironmentVariableA
 GetEnvironmentVariableAsBool(%s): Unable to parse value '%s', using default %d\n
 GetExitCodeThread
@@ -2055,10 +2399,14 @@ GetFileAttributesW
 GetFileSizeEx
 GetFileVersionInfoSizeW
 GetFileVersionInfoW
+GetFloat
 GetFullPathNameW
+GetInt32
+GetInt64
 GetLastError
 GetLengthSid
 GetMediaSubtype failed hr = 0x%08x\n
+GetMessage
 GetModuleFileNameA
 GetModuleFileNameW
 GetModuleHandleA
@@ -2068,7 +2416,20 @@ GetMonitorInfoA
 GetNewFrameEvent->Wait(0)
 GetNewFrameEvent->Wait(n)
 GetProcAddress
+GetRepeatedBool
+GetRepeatedDouble
+GetRepeatedEnum
+GetRepeatedFloat
+GetRepeatedInt32
+GetRepeatedInt64
+GetRepeatedMessage
+GetRepeatedString
+GetRepeatedStringReference
+GetRepeatedUInt32
+GetRepeatedUInt64
 GetStartupInfoW
+GetString
+GetStringReference
 GetSystemDirectoryW
 GetSystemMetrics
 GetSystemTime
@@ -2077,6 +2438,8 @@ GetTempPathW
 GetTickCount64
 GetTokenInformation
 GetTokenInformation failed. GetLastError returned: %d\n
+GetUInt32
+GetUInt64
 GetWindowPlacement
 GetWindowRect
 Getting device adapter
@@ -2112,12 +2475,14 @@ HMD found, but unable to request config (1102)
 HMD is using legacy frame submission mechanism via Prop_Hmd_AllowsClientToControlTextureIndex = false
 HallucinationConstantBuffer
 Handoff event is NULL!\n
+HasField
 Headset View
 Headset View (Mirror Overlay)
 Headset display is on desktop\n
 Headset display is virtual\n
 Headset is using direct mode\n
 Headset is using driver direct mode\n
+Hex and octal numbers must be integers.
 Hmd DriverId is invalid (125)
 Hmd DriverId is our of bounds (211)
 Hmd Not Found (108)
@@ -2181,6 +2546,7 @@ IMMDevice::GetState failed: hr = 0x%08x\n
 IMMDevice::Item(%u) failed: hr = 0x%08x\n
 IMMDevice::OpenPropertyStore failed: hr = 0x%08x\n
 INFO
+INVALID_CPPTYPE
 IPC Listen:
 IPC::CIPCHandle::InitForExport
 IPCPipe(%s) failed to read payload of %u bytes
@@ -2208,7 +2574,7 @@ IVRCameraComponent_002
 IVRCameraPassthroughInternal_001
 IVRChaperoneInternal_XXX
 IVRChaperoneServerDriver_XXX
-IVRChaperoneSetup_006
+IVRChaperoneSetup_007
 IVRChaperone_004
 IVRClientInternal_XXX
 IVRCompositorDriverHost_001
@@ -2227,12 +2593,13 @@ IVRDriverLog_001
 IVRDriverManager_001
 IVRExtendedDisplay_001
 IVRIOBuffer_002
+IVRInputFocusInternal_XXX
 IVRInputInternal_002
 IVRInput_011
 IVRMailbox_002
 IVRNotificationsInternal_001
 IVROverlayInternal_XXX
-IVROverlay_028
+IVROverlay_029
 IVRPathsInternal_XXX
 IVRPaths_002
 IVRPropertiesInternal_001
@@ -2261,7 +2628,6 @@ Ignoring attempt to write 16-bit bKGD chunk when bit_depth is 8
 Ignoring attempt to write 16-bit tRNS chunk when bit_depth is 8
 Ignoring attempt to write bKGD chunk out-of-range for bit_depth
 Ignoring attempt to write tRNS chunk out-of-range for bit_depth
-Ignoring request to summon dashboard because it's disabled by the tutorial\n
 Ignoring request to write a PLTE chunk in grayscale PNG
 Ignoring user setting "forcedDriver": "%s" because %s\n
 IiGM>nw
@@ -2269,7 +2635,9 @@ Image height exceeds user limit in IHDR
 Image height is zero in IHDR
 Image width exceeds user limit in IHDR
 Image width is zero in IHDR
+Import "
 Incompatible version from client attempting to connect. Compositor: %u Client: %u
+Index out-of-bounds (field is empty).
 Infinity
 Info
 InitializeAcl
@@ -2283,15 +2651,14 @@ Initializing NVEncode width: %d, height: %d
 Initializing camera\n
 Initializing timing resources\n
 Input
-InputCapture: Cleared
-InputCapture: hover: %d overlay: %llX name: %s
-InputCapture: owner: %d render: %d focus: %d %s
 InsertMenuItemA
 Installation Corrupt (101)
 Installation Not Found (100)
 Installation path could not be located (110)
+Integer out of range.
 Interface Not Found (105)
 Internal Retry (115)
+Interpreting non ascii codepoint %d.
 Invalid Application Type (130)
 Invalid Arguments
 Invalid IHDR data
@@ -2314,8 +2681,12 @@ Invalid color type in IHDR
 Invalid color type/bit depth combination in IHDR
 Invalid compositor personality!
 Invalid compression type specified
+Invalid control characters encountered in text.
+Invalid escape sequence in string literal.
+Invalid file descriptor data passed to EncodedDescriptorDatabase::Add().
 Invalid filter method in IHDR
 Invalid filter type specified
+Invalid float number: 
 Invalid header!\n
 Invalid image color type specified
 Invalid image height in IHDR
@@ -2325,9 +2696,21 @@ Invalid motion estimation API requested (%d)\n
 Invalid number of colors in palette
 Invalid number of histogram entries specified
 Invalid number of transparent colors specified
+Invalid proto descriptor for file "
+Invalid public dependency index.
 Invalid sBIT depth specified
 Invalid sRGB rendering intent specified
+Invalid strings::Substitute() format string: "
+Invalid symbol name: 
 Invalid time specified for tIME chunk
+Invalid value for boolean field "
+Invalid value of m_eDrawingMode: %i
+Invalid weak dependency index.
+Invalid wire type for CPPTYPE_INT32: 
+Invalid wire type for CPPTYPE_INT64: 
+Invalid wire type for CPPTYPE_MESSAGE: 
+Invalid wire type for CPPTYPE_UINT32: 
+Invalid wire type for CPPTYPE_UINT64: 
 Invalid zlib compression method or flags in IDAT
 Invalid zlib compression method or flags in non-IDAT chunk
 Inverse Distortion Texture eye %d clippingfailures %d
@@ -2346,7 +2729,11 @@ KERNEL32.dll
 Kernel32.dll
 KillTimer
 L>333?
+LABEL_OPTIONAL
+LABEL_REPEATED
+LABEL_REQUIRED
 LTC Quad Debug
+Label
 LastKnown
 LayerComputeTextureIndexConstantBuffer
 LayerGraphicsTextureIndexConstantBuffer
@@ -2395,6 +2782,7 @@ Loading...%3d total....%6d presents. %4d dropped. %4d reprojected\n
 LocalAlloc
 LocalFree
 LocalizationManager
+Location
 Log Level Set to %d\n
 Log path could not be located (112)
 Lost pipe connection from %s\n
@@ -2414,11 +2802,19 @@ Mailbox %s received message %s, which it didn't have a handler for\n
 Main
 MainThrd
 MapViewOfFile
-Mar 25 2026
 Mb@?UUU?fff?B
 MeasureGpuMegaPixelsPerSecond(%d): Returning %d MP/sec. Total CPU time %.2f seconds.\n
 MeasureGpuMegaPixelsPerSecond(): Error! Initialize() failed! Skipping GPU measurement.\n
+Message class "
+Message extensions cannot have required fields.
+Message missing required fields: 
+Message type "
 MessageBoxA
+MessageOptions
+MessageSets cannot have fields, only extensions.
+Messages can't have default values!
+Messages can't have default values.
+MethodDescriptorProto
 Minidump comment truncated
 Mip downsample
 Mirror Window
@@ -2429,8 +2825,9 @@ Missing ',' or ']' in array declaration
 Missing ',' or '}' in object declaration
 Missing ':' after object member name
 Missing '}' or object member name
-Missing action in link_action message
 Missing expected "statusicons" from system resource manifest %s.\n
+Missing field: FileDescriptorProto.name.
+Missing name.
 Missing sgid: %s
 Mixed
 Motion Estimation Hallucinate
@@ -2464,12 +2861,18 @@ Mouse down count is %u but states are all false. What?\n
 MoveFileExW
 MoveWindow
 MultiByteToWideChar
+Multiple extension registrations for type "
+MutableRawRepeatedField
+MutableRepeatedMessage
 NJ2"v
 NORMAL
 NOTPRESENT
 NULL
 NVAPI_DEBUG_DISPLAY_MODES
 NVIDIA
+NamePart
+Need space between identifier and decimal point.
+Need space between number and identifier.
 Neighbor Averaged Motion Vectors
 New result of GetRecommendedRenderTargetSize for current app: %dx%d\n
 NewFrameHandler
@@ -2479,11 +2882,17 @@ NewPipeConnection
 No Error (0)
 No IDATs written into file
 No default audio device found to listen to\n
+No default value
+No field named "uninterpreted_option" in the Options proto.
+Non-primitive types can't be packed.
+Non-repeated field "
 Not Initialized (109)
 Not available to watchdog apps (131)
 Not starting vrserver for background app (121)
 Not writing %s because the texture was null
+Note that enum values use C++ scoping rules, meaning that enum values are siblings of their type, not children of it.  Therefore, "
 Notification mailbox init failed with %d\n
+Numbers starting with leading zero must be in octal.
 NvAPI
 NvAPI DisplayModes:
 NvAPI: DirectModeCreateSurface trying again with older API!\n
@@ -2516,9 +2925,11 @@ OnDefaultDeviceChanged: flow = %s, role = %s, device = %s\n
 OnDeviceAdded: device = %s\n
 OnDeviceRemoved: device = %s\n
 OnDeviceStateChanged: DEVICE_STATE_%s (0x%8.8x), device = %s\n
-OnMbox_SetDashboardVisibility %s
 OnMsg_CompositorGetDmabufFormats: Failed to get DMA-BUF formats.\n
 OnMsg_CompositorGetDmabufModifiers: Failed to get DMA-BUF modifiers.\n
+OnUnifiedDashboardRemoteStateUpdate
+Oneof must have at least one field.
+OneofDescriptorProto
 OpJournal: op=death, pid=%u\n
 OpJournal: op=insert, handle=0x%llx, pid=%u\n, type=%u
 OpJournal: op=ref, handle=0x%llx, pid=%u\n
@@ -2533,6 +2944,10 @@ OpenProcessToken failed. GetLastError returned: %d\n
 OpenSCManagerW
 OpenServiceW
 OpenVR.TrackedCameraPIP
+Option "
+Option field "
+Option must have a name.
+Option must not use reserved name "uninterpreted_option".
 Out of Memory
 Out of thread local storage!\n
 Output
@@ -2541,10 +2956,9 @@ OutputDebugStringW
 Overlay (latlong)
 OverlayBuffer
 Overlays
-Overriding dashboard head pose
-Overriding dashboard transform
 PICT
 PID_
+PLACEHOLDER_VALUE
 PNG load error %s\n
 PNG load warning %s\n
 PNG\r\n
@@ -2788,20 +3202,26 @@ Prop_UserIpdMeters_Float
 Prop_VRCVersion_Uint64
 Prop_VendorSpecific_
 Prop_WillDriftInYaw_Bool
+ProtoFloatVec
+Protocol Buffer reflection usage error:\n  Method      : google::protobuf::Reflection::
+Protocol message serialized itself in invalid fashion.
+Protocol message was modified concurrently during serialization.
 Q8ffv?
 Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
 QueryServiceConfigW
-Q|S`l
 R1h58
 RENDERDOC_GetAPI
 RPCRT4.dll
-RSDS
+RSDSM
+R\npR
+R\vpR
 RaiseException
 Raw Exaggerated Motion Vectors (Scaled 3.0)
 Raw Motion Vectors
 Raw ideal render target scale = %.2f\n
+Reached an unintended state: CPPTYPE_MESSAGE
 Read timestamps
 ReadFile
 ReadFile failed on %s after event was signaled because %s\n
@@ -2830,8 +3250,11 @@ RegOpenKeyExW
 RegQueryValueExA
 RegQueryValueExW
 RegisterClassExW
+ReleaseLast
+ReleaseMessage
 ReleaseMutex
 Releasing OS object failed: invalid parameter\n
+RemoveLast
 Render
 Render Models 1 (Stage)
 Render Models 2
@@ -2839,16 +3262,16 @@ Render Stencil Buffer
 Render thread ending\n
 Render thread joined\n
 RenderThread
+Repeated fields can't have default values.
 ReplaceFileW
 Request to change refresh to %fHz (hmdsupport:%d graphicsdevicesupport:%d)\n
+ReserveSGID wrapped!
 ResetEvent
 Resetting GPU data due to GPU change. Was "%s" driver "%s". Is now "%s" driver "%s"\n
 Resetting GPU data due to new version. Was v%d, is now v%d.\n
 Restoring last successful refresh rate (%fHz)...\n
 Right Eye Only
 Rolling Reprojection: %s\n
-Room View Geo Lines
-Room View Geo Pts
 RtlCaptureContext
 RtlGetNtVersionNumbers
 RtlLookupFunctionEntry
@@ -2862,6 +3285,7 @@ SETUPAPI.dll
 SHELL32.dll
 SHGetFolderPathW
 SKyu
+SPEED
 STEAMVR_APPKEY
 STEAMVR_DISABLE_ASSERT_MINIDUMP
 STEAMVR_DISABLE_CRASH_REPORTING
@@ -2876,6 +3300,7 @@ STEAMVR_NV12
 STEAMVR_USE_GPU_FENCE
 STEAMVR_VKVALIDATION
 STEAMVR_VRCOMPOSITOR_RENDERDOC
+STRING
 SUCCEEDED
 Scene
 Scene / Lens Distortion
@@ -2907,16 +3332,27 @@ Screenshot: Tried saving Mono2D to "%s" but no textures\n
 Screenshot: Tried saving Stereo2D to "%s" but no textures\n
 Screenshot\tS
 Seated
+Second argument to Swap() (of type "
+Second argument to SwapFields() (of type "
 See 
 Selected: width=%d height=%d refresh=%d/%d\n
 SendHmdDebugRequest resp: %s\n
 Server
+ServiceDescriptorProto
+ServiceOptions
 Set thread %p priority to: %d\n
+SetAllocatedMessage
+SetBool
 SetCursor
+SetDouble
+SetEnum
 SetEnvironmentVariableA
 SetEvent
 SetFileAttributesW
+SetFloat
 SetForegroundWindow
+SetInt32
+SetInt64
 SetLastError
 SetMenu
 SetNamedPipeHandleState
@@ -2925,9 +3361,21 @@ SetOverlayRaw failed to update overlay texture\n
 SetOverlayRawBlock_
 SetPriorityClass
 SetProcessInformation
+SetRepeatedBool
+SetRepeatedDouble
+SetRepeatedEnum
+SetRepeatedFloat
+SetRepeatedInt32
+SetRepeatedInt64
+SetRepeatedString
+SetRepeatedUInt32
+SetRepeatedUInt64
 SetSecurityDescriptorDacl
+SetString
 SetThreadPriority
 SetTimer
+SetUInt32
+SetUInt64
 SetUnhandledExceptionFilter
 SetWindowPos
 SetWindowTextW
@@ -2987,6 +3435,7 @@ Somebody beat us to creating event %s to go with pipe %s in WaitForConnection\n
 Somebody else should have created event %s to go with pipe %s in WaitForConnection\n
 Somebody locked a non-leaf shared memory %s while %s was already locked
 Somehow we changed scene focus to %u when %u disconnected.\n
+SourceCodeInfo
 Splash Screen
 Standalone Overlay Manager
 Standing
@@ -3007,11 +3456,14 @@ SteamVRETWProvider.man
 SteamVR_FrameStatsPath
 SteamVR_Namespace
 Stopping playback mirror thread\n
+String literals cannot cross line boundaries.
 StringOutputStream.
 Succesfully turned IGNORE_TIMER_RESOLUTION throttling off.
 Success
 Success!\n
 Successfully loaded GC image: %s\n
+Swap
+Symbol name "
 Syntax error: value, object or array expected.
 System layer initialized
 SystemLayer: %s
@@ -3074,6 +3526,7 @@ This is not a D3D11 object
 This is not a Vulkan object
 This program requires version 
 This program was compiled against version 
+This shouldn't be called if all the sizes are equal.
 Thread exited immediately\n
 Thread failed to initialize 1\n
 Thread failed to initialize 2\n
@@ -3108,9 +3561,15 @@ Tracked Camera: Unexpected or not-specified camera frame layout (propertyError=%
 Tracked Camera: Unexpected or not-specified number of cameras (propertyError=%d, %d).\n
 TrackedDeviceUserInteractionStarted
 TranslateMessage
+Tried to merge messages of different types 
+True
 Truncating profile to actual length in iCCP chunk
 TryGetNotificationIndex( pState, unNotificationid, result )
+Type
+Type appears to be in generated pool but wasn't 
+Type is already registered: 
 U4ot
+U:\p4clients\thirdpartycode\nonredist\protobuf\protobuf-2.6.1\src\google/protobuf/repeated_field.h
 UNKNOWN
 UNNAMED
 UNPLUGGED
@@ -3146,6 +3605,7 @@ Unable to load safe_mode_driver_whitelist.json: %s.  Nothing will be loaded in s
 Unable to open current process for duplicating handles because %s\n
 Unable to open lasermouse mailbox
 Unable to open process id=%d from pipe %s after connecting because %s\n
+Unable to open scenegraph mailbox
 Unable to parse 
 Unable to parse driver manifest %s\n
 Unable to parse init info. Options will be ignored\n
@@ -3166,7 +3626,11 @@ Unable to start thread for connection\n
 Unable to write path registry (113)
 Unexpected WaitForMultipleObjects return value %u on pass %u\n
 Unexpected WaitForMultipleObjects return value %u\n
+Unexpected end of string.
+Unexpected failure while serializing option submessage 
 UnhandledExceptionFilter
+Unimplemented type: 
+UninterpretedOption
 Unknown
 Unknown DisplayMCType '%d' (supported: {0,1})
 Unknown EVREventType (%d)
@@ -3177,6 +3641,7 @@ Unknown VRSettingsError (%d)
 Unknown compression method in IHDR
 Unknown compression type @1
 Unknown compression type in iCCP chunk
+Unknown enumeration value of "
 Unknown error (%d)
 Unknown exception
 Unknown filter method in IHDR
@@ -3238,6 +3703,7 @@ VREvent_ButtonTouch
 VREvent_ButtonUnpress
 VREvent_ButtonUntouch
 VREvent_CameraSettingsHaveChanged
+VREvent_CapabilitiesChanged
 VREvent_ChaperoneDataHasChanged
 VREvent_ChaperoneFlushCache
 VREvent_ChaperoneRoomSetupCommitted
@@ -3314,7 +3780,6 @@ VREvent_Monitor_ShowHeadsetView
 VREvent_MouseButtonDown
 VREvent_MouseButtonUp
 VREvent_MouseMove
-VREvent_MutualSteamCapabilitiesChanged
 VREvent_None
 VREvent_Notification_BeginInteraction
 VREvent_Notification_Destroyed
@@ -3513,6 +3978,7 @@ VRInitError_Driver_RuntimeOutOfDate
 VRInitError_Driver_TrackedDeviceInterfaceUnknown
 VRInitError_Driver_Unknown
 VRInitError_Driver_WirelessHmdNotConnected
+VRInitError_Driver_WirelessHmdNotConnectedAndNoSteam
 VRInitError_IPC_CompositorConnectFailed
 VRInitError_IPC_CompositorInitFailed
 VRInitError_IPC_CompositorInvalidConnectResponse
@@ -3619,6 +4085,12 @@ VRInitError_VendorSpecific_VRLink_NoVideoSupport
 VRInitError_VendorSpecific_VRLink_OutdatedDriverMESA
 VRInitError_VendorSpecific_VRLink_OutdatedDriverNVIDIA
 VRInitError_VendorSpecific_WindowsNotInDevMode
+VRLink_LaserMouseEvent
+VRLink_LaserMouseEvents
+VRLink_LaserMouseOverlay
+VRLink_LaserMouseOverlay.TransformDetails
+VRLink_LaserMouseOverlayUpdate
+VRLink_UnifiedDashboard_State
 VRMessageOverlay_SharedMutex
 VRMsg_AbortApplicationTransition
 VRMsg_AcknowledgeQuit_Exiting
@@ -3753,6 +4225,8 @@ VRMsg_ShouldKillTheaterPancakeProcess
 VRMsg_ShouldKillTheaterPancakeProcessResponse
 VRMsg_StartAutolaunchOverlays
 VRMsg_StartHomeAppResponse
+VRMsg_StartVRCompositor
+VRMsg_StartVRCompositorResponse
 VRMsg_TrackedCamera_Enable
 VRMsg_TrackedCamera_EnableResponse
 VRMsg_TrackedCamera_GetDistortion
@@ -3840,6 +4314,8 @@ VR_Compositor_NewPose
 VR_Compositor_NewTextureSetState
 VR_Compositor_NextVsyncIntervalMT
 VR_Compositor_NextVsyncIntervalRT
+VR_Compositor_OverlayLatched0
+VR_Compositor_OverlayLatched1
 VR_Compositor_OverlayVSync
 VR_Compositor_OverlayVSync0
 VR_Compositor_OverlayVSync1
@@ -3868,6 +4344,20 @@ VR_TrackedCameraExternalServiceMutex
 VR_TrackingState
 VSyncToPhotonsOffsetMs=%0.1f\n
 Valid palette required for paletted images
+Value 
+Value must be "true" or "false" for boolean option "
+Value must be identifier for boolean option "
+Value must be identifier for enum-valued option "
+Value must be integer for int32 option "
+Value must be integer for int64 option "
+Value must be non-negative integer for uint32 option "
+Value must be non-negative integer for uint64 option "
+Value must be number for double option "
+Value must be number for float option "
+Value must be quoted string for string option "
+Value out of range for int32 option "
+Value out of range for int64 option "
+Value out of range for uint32 option "
 Valve
 Vc0a
 VerQueryValueA
@@ -3914,9 +4404,12 @@ WaitForSingleObjectEx
 WaitNamedPipe %s failed because %s\n
 WaitNamedPipe %s failed because no one is listening at that name.\n
 WaitNamedPipeA
+Waiting for HMD because of --keepalive
 Waiting for debugger...
 WakeAllConditionVariable
 Warning
+Warning parsing text-format 
+Warning: Unused import: "
 Warning: Watchdog %s not properly cleaned up%s%s\n
 Warp mesh (%s) covers %.2f%% of its viewport (shrink wrap saved %.2f%%)\n
 Warp: %s
@@ -3970,6 +4463,7 @@ XR_ERROR_GRAPHICS_DEVICE_INVALID
 XR_ERROR_GRAPHICS_REQUIREMENTS_CALL_MISSING
 XR_ERROR_HANDLE_INVALID
 XR_ERROR_HINT_ALREADY_SET_QCOM
+XR_ERROR_IMAGE_FORMAT_UNSUPPORTED_ANDROID
 XR_ERROR_INDEX_OUT_OF_RANGE
 XR_ERROR_INITIALIZATION_FAILED
 XR_ERROR_INSTANCE_LOST
@@ -3993,6 +4487,7 @@ XR_ERROR_MARKER_DETECTOR_PERMISSION_DENIED_ML
 XR_ERROR_MARKER_ID_INVALID_VARJO
 XR_ERROR_MARKER_INVALID_ML
 XR_ERROR_MARKER_NOT_TRACKED_VARJO
+XR_ERROR_MESH_DATA_LIMIT_EXCEEDED_ANDROID
 XR_ERROR_MISMATCHING_TRACKABLE_TYPE_ANDROID
 XR_ERROR_NAME_DUPLICATED
 XR_ERROR_NAME_INVALID
@@ -4054,6 +4549,8 @@ XR_ERROR_SPATIAL_ANCHORS_NOT_LOCALIZED_ML
 XR_ERROR_SPATIAL_ANCHORS_OUT_OF_MAP_BOUNDS_ML
 XR_ERROR_SPATIAL_ANCHORS_PERMISSION_DENIED_ML
 XR_ERROR_SPATIAL_ANCHORS_SPACE_NOT_LOCATABLE_ML
+XR_ERROR_SPATIAL_ANCHOR_ATTACHABLE_COMPONENT_NOT_FOUND_ANDROID
+XR_ERROR_SPATIAL_ANCHOR_ENTITY_ID_INVALID_ANDROID
 XR_ERROR_SPATIAL_ANCHOR_NAME_INVALID_MSFT
 XR_ERROR_SPATIAL_ANCHOR_NAME_NOT_FOUND_MSFT
 XR_ERROR_SPATIAL_ANCHOR_NOT_FOUND_BD
@@ -4279,6 +4776,8 @@ Zjz\v
 [NvEnc]MapResource(begin)
 [NvEnc]MapResource(end)
 [RenderDoc] Connected\n
+[RenderFrame] screenshot type: VRScreenshotType_Mono
+[RenderFrame] screenshot type: VRScreenshotType_Stereo
 [RenderThread] Layer render completing out of vsync
 [RenderThread] Skipped layer wait
 [Settings] %s %s unknown type\n
@@ -4288,17 +4787,70 @@ Zjz\v
 [Settings] Unable to read path registry...\n
 [Settings] Using default values. No Json Settings available at %s\n
 [h1R
+[lazy = true] can only be specified for submessage fields.
 [libprotobuf %s %s:%d] %s\n
 [no zlib message]
+[packed = true] can only be specified for repeated primitive fields.
+[systemlayer] Collision bounds style retrieved from settings was unknown (%d), defaulting to BEGINNER (0)
+\%03o
+\U%08x
 \gpuvis.exe
 \mfpmp.exe
+\n    Actual    : 
+\n    Field type: 
+\n  Field       : 
+\n  Message type: 
+\n  Problem     : 
+\n  Problem     : Enum value did not match field type:\n    Expected  : 
+\n  Problem     : Field is not the right type for this message:\n    Expected  : 
+\n google/protobuf/descriptor.proto
+\n,steammessages_unified_base.steamclient.proto
+\n\fFieldOptions
+\n\fLITE_RUNTIME
+\n\fSTRING_PIECE
+\n\fTYPE_FIXED32
+\n\fTYPE_FIXED64
+\n\fTYPE_MESSAGE
+\n\fdouble_value
+\n\fis_extension
+\n\fjava_package
+\n\fstring_value
+\n\nTYPE_BYTES
+\n\nTYPE_FLOAT
+\n\nTYPE_GROUP
+\n\nTYPE_INT32
+\n\nTYPE_INT64
+\n\ndependency
+\n\ndeprecated
+\n\ngo_package
+\n\ninput_type
+\n\rTYPE_SFIXED32
+\n\rTYPE_SFIXED64
+\n\rdefault_value
+\n\tname_part
+\n\ttype_name
+\n\vEnumOptions
+\n\vFileOptions
+\n\vTYPE_DOUBLE
+\n\vTYPE_SINT32
+\n\vTYPE_SINT64
+\n\vTYPE_STRING
+\n\vTYPE_UINT32
+\n\vTYPE_UINT64
+\n\vallow_alias
+\n\voneof_index
+\n\voutput_type
 \nbad png sig
+\r\n\tCODE_SIZE
+\r\n\tTYPE_BOOL
+\r\n\tTYPE_ENUM
 \rmj>zjZ
 \t\t\n\n\v\v\f\f\f\f\r\r\r\r
 \t\t\t\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r
 \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t
 \vCreating systemlayer textures (w=%d,h=%d)\n
 \vrcompositor.exe
+\x%02x
 ]CGraphicsDevice::AcquireSync
 ^oEZ_
 _%d.cap
@@ -4385,6 +4937,8 @@ _set_new_mode
 _skybox
 _stricmp
 _strnicmp
+_strtoi64
+_strtoui64
 _time64
 _unlock_file
 _wchdir
@@ -4401,11 +4955,11 @@ acceleration-factor-x-coefficient
 acceleration-factor-x-squared-coefficient
 acos
 acosf
-action
 activateOtherDriversWhenEnabled
 add_pending_release_texture
 additional six characters expected to parse unicode surrogate pair.
 additionalFramesToPredict
+aggregate_value
 allow-input-capture
 allowComments
 allowDashboardAutoLaunchWithSteamVRHome
@@ -4455,11 +5009,11 @@ audio
 audiosource
 auto-subdivide
 autoCenterPlayArea
+autoLowerPassthroughResolution
 avrt.dll
 axis-color-hsv
 axis-radius
 bRenderWait=%s
-bRoomViewEnabledForSceneApps %d\n
 bSharedKeyedMutex and bShareable are mutually exclusive on D3D11. Failed to create texture.
 backbuffer_debug_text_toggle
 backface
@@ -4521,10 +5075,15 @@ blinkClearColor
 blocked_by_safe_mode
 blue
 body
+bool
 brazilian
 buffer error
 bulgarian
+bytes
+c:\buildslave\steamvr_rel_win64\build\src\common\generated_proto_x64\steammessages_unified_base.steamclient.pb.cc
 c:\buildslave\steamvr_rel_win64\build\src\common\generated_proto_x64\vr_messages.pb.cc
+c:\buildslave\steamvr_rel_win64\build\src\common\generated_proto_x64\vr_vrlink.pb.cc
+c:\buildslave\steamvr_rel_win64\build\src\common\generated_proto_x64\vrshared_base.pb.cc
 c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\drivermanager.cpp
 c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\gputiming_d3d11.cpp:273
 c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\nvopticalflow.cpp:195
@@ -4551,53 +5110,53 @@ c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\Retail\win64\2017\vrcompo
 c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\framemanager.cpp
 c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\geometry.cpp
 c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:10662
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:10672
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:10820
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:11395
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:11420
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:11583
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:15209
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:16394
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:16949
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:17747
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:18028
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:3922
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:3973
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:472
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:4877
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:6644
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:6686
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:7027
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:8212
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:9140
+c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:10640
+c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:10650
+c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:10798
+c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:11413
+c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:11438
+c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:11606
+c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:15070
+c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:16261
+c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:16867
+c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:17713
+c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:18000
+c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:3826
+c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:3877
+c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:473
+c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:4781
+c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:6614
+c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:6656
+c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:6994
+c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:8185
+c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:9118
 c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\lasermouse.cpp
 c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\newframehandler.cpp:429
 c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\newframehandler.cpp:478
 c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\rendererutils.cpp
 c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\scenegraph.cpp
 c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\scenegraphrenderer.cpp
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\scenegraphrenderer.cpp:513
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\scenegraphrenderer.cpp:620
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\scenegraphrenderer.cpp:682
+c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\scenegraphrenderer.cpp:724
+c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\scenegraphrenderer.cpp:833
+c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\scenegraphrenderer.cpp:882
 c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\simpledraw.cpp
 c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\standaloneoverlays.cpp
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\standaloneoverlays.cpp:36
+c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\standaloneoverlays.cpp:37
 c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\systemlayer.cpp
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\systemlayer.cpp:1306
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\systemlayer.cpp:844
+c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\systemlayer.cpp:1487
+c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\systemlayer.cpp:819
 c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\trackeddevicerenderer.cpp:28
 c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\trackeddevicerenderer.cpp:297
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\vrcompositor.cpp:1056
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\vrcompositor.cpp:1303
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\vrcompositor.cpp:1313
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\vrcompositor.cpp:1372
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\vrcompositor.cpp:1644
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\vrcompositor.cpp:1881
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\vrcompositor.cpp:232
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\vrcompositor.cpp:443
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\vrcompositor.cpp:5542
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\vrcompositor.cpp:800
+c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\vrcompositor.cpp:1058
+c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\vrcompositor.cpp:1305
+c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\vrcompositor.cpp:1315
+c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\vrcompositor.cpp:1374
+c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\vrcompositor.cpp:1643
+c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\vrcompositor.cpp:1906
+c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\vrcompositor.cpp:234
+c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\vrcompositor.cpp:445
+c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\vrcompositor.cpp:5582
+c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\vrcompositor.cpp:802
 cached.last.poseIsValid
 callout-transform
 camera
@@ -4613,6 +5172,7 @@ cameraISPSyncDivisor
 cameraSensorFrameRate
 camera_room_view_toggle
 can't merge dc and ac
+cc_generic_services
 center-color-hsv
 center-dot-radius
 center-randomization
@@ -4637,7 +5197,6 @@ clear_render_model_cache
 clear_stage
 client
 clip-to-playspace
-close_dashboard
 close_dashboard_action
 collectComments
 collisionBounds
@@ -4647,6 +5206,7 @@ collision_bounds_play_space_toggle
 collision_bounds_style_cycle
 color
 color-hsv
+com.google.protobufB
 command
 commands
 commit_playspace_bounds_drawing
@@ -4665,11 +5225,11 @@ constructHorizonHeight
 constructglobals
 context
 continuous_relatch
-controller_path
 corrupt
 cosf
 createInfo.pComputeDistortion
 cs_cz
+ctype
 cuCtxCreate
 cuCtxCreate_v2
 cuCtxPopCurrent
@@ -4713,7 +5273,6 @@ danish
 dashboard
 dashboardInitialOverlay
 dashboard_overlay_destroyed
-dashboard_transform
 dashboard_tutorial_dismissed
 dashboardtransform
 data error
@@ -4726,6 +5285,7 @@ debug_mips: mode=%d
 debug_name
 default.vrsettings
 default_main.vrsettings
+depthReprojection
 deque<T> too long
 destructor
 developerModes
@@ -4749,6 +5309,7 @@ dot-half-size
 dot-inner-alpha
 dot-outer-alpha
 dot-radius
+double
 down
 draw-range
 drawTrackingReferences
@@ -4800,6 +5361,9 @@ enableSteamInput
 enabled
 end-buffer
 english
+enum
+enum_description
+enum_value_description
 error %s when initing driver %s from %s.\n
 es_es
 es_mx
@@ -4809,6 +5373,10 @@ exception thrown in JSON library
 exit
 expected marker
 expecting another \u token to begin the second half of a unicode surrogate pair
+experimental_map_key
+extend .$0 {\n
+extendee
+extension_range
 external_drivers
 fP~V
 fade-distance
@@ -4820,6 +5388,8 @@ fade_type
 failIfExtra
 fakeHtcHmdMainboard
 false
+false:4\n\vdescription
+false:<\n
 far-z
 fclose
 feof
@@ -4827,30 +5397,38 @@ fflush
 fgetc
 fgetpos
 fi_fi
+field
+file
 file error
 file_path
 finnish
 first not IHDR
+fixed32
+fixed64
 flPredictedTime > flFromTime && flPredictedTime < flToTime && flToTime > flFromTime
 flPushDistance
 flip_universe_transform_toggle
+float
 floor-aa-shader
 floor-color-mult
 floorColor
 floorReflection
 floor_detection_result
 fmodf
+focus_panel
 follow-head
 fonts/debug.spritefont
 fopen
 fopen_s
 forceFadeOnBadTracking
 forceSceneTextureIndexZero
+force_emit_message
+force_emit_service
 forcedDriver
 fputc
 fputs
 fr_fr
-frame index: %d [%llu]\nframe presents: %d\nframe drops: %d\nvsync system time (sec): %f\nrender start time (sec): %f\nforce interleaved reprojection on: %s\nalways-on reprojection: %s\nrepredicted poses: %s\nskybox textures: %d\nrender models (first pass): %d\nrender models (second pass): %d\noverlays: %d\noverlays (panorama): %d\nresolves: %d\nRenderedConstructQuads: %s\nRenderedConstructLines: %s\nRenderedConstructCircles: %s\nRenderedForeground: %s\nRenderedSolidColor: %s\nRenderedRoomView: %s\nRenderedCollisionMesh: %s\nSceneTextureRequiresGammaToLinearConversion: %s\nUse MSAA on Layer Texture: %s\nApplyGC: %d\nApplyMC: %d\nS_DOME: %d\nS_DOME_RADIUS: %d\nS_LAYERED: %d\nS_NODISTORT: %d\nS_REPROJECT: %d\nS_SIMPLIFIED: %d\n
+frame index: %d [%llu]\nframe presents: %d\nframe drops: %d\nvsync system time (sec): %f\nrender start time (sec): %f\nforce interleaved reprojection on: %s\nalways-on reprojection: %s\nrepredicted poses: %s\nskybox textures: %d\nrender models (first pass): %d\nrender models (second pass): %d\noverlays: %d\noverlays (panorama): %d\nresolves: %d\nRenderedConstructQuads: %s\nRenderedConstructLines: %s\nRenderedConstructCircles: %s\nRenderedForeground: %s\nRenderedSolidColor: %s\nRenderedRoomView: %s\nRenderedCollisionMesh: %s\nSceneTextureRequiresGammaToLinearConversion: %s\nUse MSAA on Layer Texture: %s\nApplyGC: %d\nApplyMC: %d\nS_DOME: %d\nS_DOME_RADIUS: %d\nS_LAYERED: %d\nS_NODISTORT: %d\nS_REPROJECT: %d\nS_DEPTH_REPROJECT: %d\nS_SIMPLIFIED: %d\n
 frame-id
 frame-node
 frame-resize-displacement
@@ -4881,6 +5459,17 @@ get_debug_commands_response
 ghost_correction_decrement
 ghost_correction_increment
 ghost_correction_toggle
+google.protobuf"G\n
+google.protobuf.Empty
+google.protobuf.EnumOptions
+google.protobuf.EnumValueOptions
+google.protobuf.FieldOptions
+google.protobuf.FileOptions
+google.protobuf.MessageOptions
+google.protobuf.MethodOptions
+google.protobuf.ServiceOptions
+google.protobuf.StreamOptions
+google/protobuf/descriptor.proto
 gpuSpeed
 gpuSpeedCount
 gpuSpeedDriver
@@ -4898,7 +5487,7 @@ green
 greyscale
 gridColor
 grid_mode_cycle
-h?33s?H
+group
 hPU3
 handlers
 haveStartedTutorialForNativeChaperoneDriver
@@ -4907,8 +5496,6 @@ header crc mismatch
 height
 hide-laser-intersection
 hide-laser-when-clicking
-hide_dashboard
-hide_dashboard_requested
 hmdDisplayColorGainB
 hmdDisplayColorGainG
 hmdDisplayColorGainR
@@ -4930,6 +5517,7 @@ iFailed to create mirror window swap chain with DXGI_SWAP_EFFECT_FLIP_DISCARD! T
 iParams < tileFloorParams.size()
 i]Wb
 iauds
+identifier_value
 if HasVirtualDisplayPlugin
 ignore-parent-scale
 ignoreGpuSpeed
@@ -4953,6 +5541,7 @@ incorrect header check
 incorrect length check
 incorrect png_set_filler call ignored
 index=%d
+infinity
 inherit-from-parent-panel
 inhibit-bounds-rendering
 inhibitRecenterOnUserInteraction
@@ -4963,6 +5552,8 @@ input-path
 inputCaptureDismissOnClick
 inserted.second
 insufficient memory
+int32
+int64
 interaction-range
 interaction-range-head-relative
 interactive
@@ -4996,6 +5587,7 @@ is-active
 is-grab-handle
 is_compositor
 is_system_process
+isalnum
 isalpha
 isdigit
 isspace
@@ -5003,21 +5595,33 @@ it_it
 italian
 ja_jp
 japanese
+java_generate_equals_and_hash
+java_generic_services
+java_multiple_files
+java_outer_classname
+java_string_check_utf8
+k_EProtoExecutionSiteUnknown
+k_EProtoExecutionSiteUnknown:m\n\fservice_type
 keyboard
 keylength >= 2^30
 ko_kr
 koreana
 l6qnk
 lDa>
+label
 laserMouseDebugging
 laser_mouse_click
 laser_pointer
 lasermouse
 lasermouse-filtering
+lasermouse_face_inputdismiss
 latam
 latency_testing_toggle
 latlong sphere rad flRadius=%f flOffsetX=%f flOffsetZ=%f bDome=%d bOmitDomeFloor=%d
+lazy
 ldexp
+ldiv
+leading_comments
 left eye
 legacy_mirror_view_cycle
 legacy_mirror_view_toggle
@@ -5029,12 +5633,9 @@ libpng warning: %s
 lighthousedriver:
 line
 line-constrained-transform
-link_action
-link_close_action
-link_open_action
-link_toggle_action
 list<T> too long
 loadPriority
+location
 lock-to-horizon
 log2f
 log_file_name
@@ -5057,7 +5658,11 @@ mailbox
 main-panel-for-frame-page
 make-overlays-interactive-if-visible
 malloc
+map key must name a scalar or string field.
+map type is only allowed for fields with a message type.
+map type is only allowed for repeated fields.
 map/set<T> too long
+map_key must not name a repeated field.
 matProj
 matRendered
 matTexDetails
@@ -5074,16 +5679,19 @@ memmove
 memory
 memset
 message
+message_description
 message_id
+message_set_wire_format
 meters-per-pixel
 method
+method_description
 mfplat.dll
 min-distance
 min-radius
 min-radius-fade
 min-tile-scale-at-periphery
 min-width
-mips: %d %dx%d %s
+mips[%0.2f|%0.2f]: %d %dx%d %s
 mirrorView
 mirrorViewGeometry
 mirrorViewGeometryMaximized
@@ -5118,6 +5726,7 @@ name
 nb_no
 near-z
 need dictionary
+negative_int_value
 new_pid
 nfinity
 nl_nl
@@ -5130,6 +5739,7 @@ no header height
 no preset dict
 no-depth-test
 no-depth-write
+no_standard_descriptor_accessor
 node.pNode
 normal-randomization-degrees
 norwegian
@@ -5145,6 +5755,7 @@ nowait
 ns3G
 ntdll.dll
 null
+number
 nvapi_QueryInterface
 nvapi_pepQueryInterface
 off-axis-limit
@@ -5155,10 +5766,9 @@ ole32.dll
 one-shot
 one-to-one-radius
 only 8-bit
+only-visible-with-laser
 opacity
 open
-open_dashboard
-open_dashboard action (bRoomViewEnabledForSceneApps)
 open_dashboard action (input capture fallback)
 open_dashboard_action
 openvr
@@ -5167,6 +5777,8 @@ openvr.tool.steamvr_environments
 openvr_api.dll
 openvrpaths.vrpath
 openxr_loader.dll
+optional
+options
 origin
 originInfo.trackedDeviceIndex < vr::k_unMaxTrackedDeviceCount
 other_presence
@@ -5194,6 +5806,8 @@ overlay_handle
 overlay_key
 overlay_pointer_circle.png
 overlay_pointer_ibeam.png
+override-main-panel-steam-input-appid
+override-main-panel-vr-input-pid
 override-pre-resize-main-panel-height
 overwrite.vrsettings
 owning_overlay
@@ -5222,6 +5836,8 @@ pSharedState != nullptr
 pSystemLayerState
 pTileFloorLightmap != nullptr
 pTransformDetails
+package
+packed
 panel
 panel-anchor
 panelMask
@@ -5255,6 +5871,7 @@ playspace-outline
 png_write_info was never called before png_write_row
 polish
 portuguese
+positive_int_value
 power
 powf
 preferredRefreshRate
@@ -5266,6 +5883,8 @@ projection-constraint
 properties
 pt_br
 pt_pt
+public_dependency
+py_generic_services
 qMFCreateMediaType failed hr = 0x%08x\n
 qsort
 quad
@@ -5277,7 +5896,6 @@ rawCapturePath
 read past buffer
 read_fsr_settings
 realloc
-reason
 recvPerfStats
 redirectsDisplay
 reflect
@@ -5288,6 +5906,7 @@ reflection_map_reload
 reflections/dashboard_lights.png
 reflections/ltc_%d.dds
 refresh_rate_change
+registered: 
 rejectDupKeys
 relatch
 relatchDashboardTransform
@@ -5295,7 +5914,6 @@ remote-transform
 remote-transform-rx
 remote-transform-tx
 remote_perf_stats: dropped %d frames
-renderRoomViewGeo
 renderSystemLayerInDistortPass
 renderSystemLayerInDistortPassMSAA
 render_toast
@@ -5304,10 +5922,11 @@ rendermodel
 rendermodel_component_device_index
 rendermodel_component_name
 reparent-to-panel
+repeated
 request_dashboard_tutorial
 request_handlers
 request_handlers_response
-requires-laser
+required
 reset-on-recenter
 reset_playspace_bounds_drawing
 reset_playspace_floorheight
@@ -5350,7 +5969,6 @@ ru_ru
 runas
 runtime
 russian
-sOverlayKey
 safe_mode_driver_whitelist.json
 sampler
 sc_schinese
@@ -5370,6 +5988,9 @@ seconds
 sendPerfStats
 send_hmd_debug_request
 server
+service
+service_description
+service_execution_site
 set-center
 set-forward
 set_angular_debug_mode
@@ -5377,7 +5998,6 @@ set_animated_value
 set_backbuffer_count
 set_background
 set_camera_roomview_enabled_forsceneapps
-set_dashboard_visibility
 set_eye_tracking_debug_mode
 set_notification_image
 set_notification_image_response
@@ -5391,6 +6011,8 @@ set_stage
 set_vsync_to_photons_offset
 settings
 setvbuf
+sfixed32
+sfixed64
 sgid
 shaders/d3d11/distort_bounds_color_ps.fxo
 shaders/d3d11/distort_cs.fxo
@@ -5449,11 +6071,15 @@ shaders/d3d11/distort_panorama_vs.fxo
 shaders/d3d11/distort_ps.fxo
 shaders/d3d11/distort_ps_achromatic.fxo
 shaders/d3d11/distort_ps_achromatic_alphaed.fxo
+shaders/d3d11/distort_ps_achromatic_alphaed_dr.fxo
+shaders/d3d11/distort_ps_achromatic_dr.fxo
 shaders/d3d11/distort_ps_achromatic_gamma.fxo
+shaders/d3d11/distort_ps_achromatic_gamma_dr.fxo
 shaders/d3d11/distort_ps_achromatic_layered.fxo
 shaders/d3d11/distort_ps_achromatic_nd.fxo
 shaders/d3d11/distort_ps_achromatic_nd_gamma.fxo
 shaders/d3d11/distort_ps_achromatic_se2.fxo
+shaders/d3d11/distort_ps_achromatic_se2_dr.fxo
 shaders/d3d11/distort_ps_gamma.fxo
 shaders/d3d11/distort_ps_gamma_mc.fxo
 shaders/d3d11/distort_ps_gamma_mc_nd.fxo
@@ -5474,6 +6100,7 @@ shaders/d3d11/distort_vs_layered.fxo
 shaders/d3d11/distort_vs_layered_nd.fxo
 shaders/d3d11/distort_vs_nd.fxo
 shaders/d3d11/distort_vs_reproject_fv.fxo
+shaders/d3d11/distort_vs_reproject_fv_dr.fxo
 shaders/d3d11/distort_vs_reproject_layered.fxo
 shaders/d3d11/distort_vs_reproject_layered_nd.fxo
 shaders/d3d11/distort_vs_reproject_mv.fxo
@@ -5574,7 +6201,6 @@ showGridCircles
 showLegacyMirrorView
 showOnController
 showSkydome
-show_dashboard_requested
 shutdown
 simulate3dof:off
 simulate3dof:on
@@ -5582,6 +6208,8 @@ simulate_3dof_toggle
 simulate_hdcp_error
 sinf
 single_frame_stepping_request
+sint32
+sint64
 skydome-mult
 slData
 solid
@@ -5590,6 +6218,8 @@ sort-order
 source
 source-distance
 source-id
+source_code_info
+span
 spanish
 spatialAnchorsSupport
 spherical
@@ -5598,16 +6228,20 @@ srand
 stable-fade
 stackLimit
 stage
+start
 start-angle
 start-buffer
 start-quat-difference
 startColor
 startup
 statusicons
+steam-input-appid
 steam.app.469630
 steam.app.546560
 steam_api64
 steam_api64.dll
+steamlink_openvr-overlay
+steammessages_unified_base.steamclient.proto
 steamvr
 steamvr.systemLayerHeight overridden %d\n
 steamvr.systemLayerWidth overridden %d\n
@@ -5628,7 +6262,9 @@ stream error
 strength
 strftime
 strictRoot
+string
 string too long
+strings::Substitute format string invalid: asked for "$
 strncat
 strncmp
 strncpy
@@ -5640,8 +6276,10 @@ strtod
 strtol
 strtoul
 strtoull
+subtype mismatch
+subview-parent-panel-id
 subview-parent-panel-key
-subview_parent_overlay_handle
+subview-sizing
 suppress-panel-backsides
 sv_se
 swedish
@@ -5678,11 +6316,13 @@ tchinese
 tdh.dll
 terminate
 text
+text format contains deprecated field "
 texture
 texture-id
 texture_handle
 th_th
 thai
+the global scope
 thickness
 threshold0
 threshold1
@@ -5694,12 +6334,10 @@ timeBeginPeriod
 timeEndPeriod
 timeKillEvent
 timeSetEvent
-timed out
 tint
 tint-anim
 toast_renderer/main
 toggle_camera_roomview_forsceneapps
-toggle_dashboard
 toggle_dashboard_action
 toggle_perf_graph
 toggle_supersample_filtering
@@ -5710,11 +6348,11 @@ too many length or distance symbols
 tr_tr
 trackedCamera
 tracked_device_deactivated
-tracked_device_index
 trackers
 trackingLossColor
 tracking_debug_mode_cycle
 trackingstatevisibility
+trailing_comments
 transform
 transform-path
 transform_request
@@ -5734,6 +6372,8 @@ trigger_renderdoc_capture
 true
 turkish
 type
+uint32
+uint64
 uk_ua
 ukrainian
 unMipLevels <= k_nMaxMipLevels
@@ -5742,8 +6382,9 @@ unSizeInBytes <= pIndexBuffer->AsD3D11()->unSize
 unSizeInBytes <= pVertexBuffer->AsD3D11()->unSize
 uncbVREvent <= sizeof( vr::VREvent_t )
 undocked
+unfocus_panel
 ungetc
-unifiedDashboard
+uninterpreted_option
 unknown
 unknown BMP
 unknown code
@@ -5774,7 +6415,6 @@ valve.steam.desktop
 valve.steam.desktopgame.
 valve.steam.gamepadui.
 valve.steam.gamepadui.main
-vector<T> too long
 vector<bool> too long
 version
 version.txt
@@ -5783,11 +6423,11 @@ videocapturequad
 videocapturequad_hide
 vietnamese
 visibility
-visible
 visible-0dof
 visible-3dof
 visible-6dof
 visible_time_in_seconds
+vr-input-pid
 vr::CHmdDistort::Present
 vr::CHmdDistort::RunFrame
 vr::CHmdDistort::UpdateRefreshRate
@@ -5798,9 +6438,9 @@ vr::CSystemLayer::HandleCompositorPaused
 vr::CSystemLayer::HandleCompositorResumed
 vr::CSystemLayer::PrepareForFrame
 vr::CSystemLayer::ProcessActions
-vr::CSystemLayer::ToggleDashboard
 vr::CSystemLayer::UpdateSecondaryOverlayVisibility
 vr_internal::VRClientInternal()
+vr_path_property
 vrclient Shared Lib Not Found (102)
 vrclient_
 vrcombined_log.previous.txt
@@ -5813,6 +6453,7 @@ vrcompositor_notification
 vrcompositor_systemlayer
 vrntfyimg#%d
 vrserver internal error (124)
+vrshared_base.proto
 vrsharedresourcemanager
 vrwebhelper
 vsync_to_photons_big_decrement
@@ -5827,6 +6468,8 @@ waitForSceneGraph
 wcsrchr
 wcsstr
 wcstombs
+weak
+weak_dependency
 web_steam_mailbox
 wevtutil.exe
 width
@@ -5837,6 +6480,7 @@ wn>Jj
 world
 wrong channel count
 wrong color format
+wrong submessage type
 wrong version
 xatten
 xrBeginSession

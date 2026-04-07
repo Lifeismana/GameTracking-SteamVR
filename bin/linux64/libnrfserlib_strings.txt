@@ -142,6 +142,7 @@
 /etc/os-release
 /proc
 /proc/%u/stat
+/proc/self/cmdline
 /proc/self/exe
 /proc/self/status
 /tmp
@@ -625,7 +626,7 @@ CSOBChannel::OnBLEEvent_GATTC_WriteResponse(ble_gattc_evt_t const*) (.cold)
 CSOBChannel::SendSOBChannelCommand(int)
 CSWTCH.107
 CSWTCH.157
-CSWTCH.216
+CSWTCH.219
 CScan::CScan()
 CScan::CScan() (.cold)
 CScan::DoScanContext(std::string const&, std::vector<std::string, std::allocator<std::string>> const&, EScanCompletionQualifier_t, float, std::vector<basestation_scan_t, std::allocator<basestation_scan_t>>*)
@@ -914,6 +915,7 @@ GetUserDocumentsPath()
 GetVRLogTimeString(bool)
 GetZipItemA(HZIP__*, int, ZIPENTRY*)
 GetZipItemW(HZIP__*, int, ZIPENTRYW*)
+HIGH
 HOME
 HTC BS
 IO_RESOURCES_UNAVAILABLE
@@ -923,7 +925,8 @@ Indication
 Infinity
 InitMainThread()
 InitSystemBaseTimeTicks(unsigned long)
-InitSystemTime(unsigned long) (.part.0)
+InitSystemTime(unsigned long, bool)
+InitSystemTime(unsigned long, bool)::initMutex
 Invalid BS1 nonce.\n
 Invalid adapter.\n
 Invalid address.\n
@@ -1419,6 +1422,7 @@ Looking for internal adpater.\n
 MGiI
 MTU exchange request reply failed. (nrf_error: %s)\n
 MTU response received. New ATT_MTU is %d\n
+Mapped priority %d to SDL priority %s\n
 March
 Master
 MergeJsonValues(Json::Value&, Json::Value&)
@@ -1462,6 +1466,7 @@ N9__gnu_cxx18stdio_sync_filebufIwSt11char_traitsIwEEE
 N9__gnu_cxx20recursive_init_errorE
 N9__gnu_cxx24__concurrence_lock_errorE
 N9__gnu_cxx26__concurrence_unlock_errorE
+NORMAL
 NRFError_AuthenticationError_NonceRejected
 NRFError_AuthenticationError_PairingLockout
 NRFError_DFUError_BaseNeedsPowerCycle
@@ -1714,6 +1719,7 @@ SDLDynamic() (.cold)
 SDLDynamic()::m_instance
 SDL_GetError
 SDL_GetPowerInfo
+SDL_LinuxSetThreadPriorityAndPolicy
 SDL_SetThreadPriority
 SOB Channel
 SafeUnzipMemory(void const*, int, void*, int)
@@ -1973,6 +1979,7 @@ ThreadTerminateProcessCode
 ThreadWaitForProcessExit
 ThreadYield()
 Thursday
+Timeline_t::EvaluateRange(float, float)
 TokenizeString(std::string const&, char)
 TokenizeString(std::string const&, char) (.cold)
 TracerPid:
@@ -2683,6 +2690,7 @@ get_ttype_entry(lsda_header_info*, unsigned long) (.cold)
 getc
 getcwd
 getenv
+getpagesize
 getpid
 getppid
 getpriority

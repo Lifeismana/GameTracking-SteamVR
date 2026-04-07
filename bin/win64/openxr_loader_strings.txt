@@ -362,7 +362,6 @@ XR_NULL_HANDLE for instance but query for
 XR_RUNTIME_JSON
 \ApiLayers\Explicit
 \ApiLayers\Implicit
-\qIL
 _Cnd_broadcast
 _Cnd_destroy_in_situ
 _Cnd_init_in_situ

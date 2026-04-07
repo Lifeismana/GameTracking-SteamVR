@@ -23,6 +23,7 @@
 			,{ "name": "/settings/input/*", "type":  "wildcard" }
 			,{ "name": "/settings/GpuSpeed/*", "type":  "wildcard" }
 			,{ "name": "/settings/driver_lighthouse/*", "type":  "wildcard" }
+			,{ "name": "/settings/driver_cv/*", "type":  "wildcard" }
 		]
 	},
 

@@ -1,9 +1,9 @@
-var CLSTAMP = "10552726";
+var CLSTAMP = "10579910";
 (self.webpackChunkvrwebui = self.webpackChunkvrwebui || []).push([
   [554],
   {
     582: (e, t, r) => {
-      r.d(t, { aj: () => k, d4: () => P });
+      r.d(t, { aj: () => F, d4: () => j });
       var n = r(1635),
         i = r(6540),
         s = r(5339),
@@ -144,13 +144,13 @@ var CLSTAMP = "10552726";
           var s;
         });
       }
-      var m = r(7600);
-      const p =
+      var p = r(7600);
+      const f =
         window.addEventListener || (r.g && r.g.addEventListener) || (() => {});
       let g,
-        h = [],
-        f = (e, t, r) =>
-          h.push({ error: e, cCallsitesToIgnore: t, strComponentStack: r });
+        m = [],
+        h = (e, t, r) =>
+          m.push({ error: e, cCallsitesToIgnore: t, strComponentStack: r });
       const _ = !0;
       class b extends Error {
         constructor(...e) {
@@ -161,38 +161,38 @@ var CLSTAMP = "10552726";
         const e = console.assert;
         console.assert = (t, r, ...n) => {
           if (!t) {
-            const e = R();
-            f(new b(I(r, ...n)), 2, e);
+            const e = w();
+            h(new b(M(r, ...n)), 2, e);
           }
           e.apply(console, [t, r, ...n]);
         };
         const t = console.error;
         (console.error = (e, ...r) => {
-          const n = R();
-          f(new Error(I(e, ...r)), 1, n), t.apply(console, [e, ...r]);
+          const n = w();
+          h(new Error(M(e, ...r)), 1, n), t.apply(console, [e, ...r]);
         }),
           (console.clogerror = (e, r, ...n) => {
-            const i = R();
-            f(new Error(I(r, ...n)), e + 1, i), t.apply(console, [r, ...n]);
+            const i = w();
+            h(new Error(M(r, ...n)), e + 1, i), t.apply(console, [r, ...n]);
           }),
-          p("error", (e) => {
-            f(e.error, 0);
+          f("error", (e) => {
+            h(e.error, 0);
           }),
-          p("unhandledrejection", (e) => {
-            f(e.reason, 0);
+          f("unhandledrejection", (e) => {
+            h(e.reason, 0);
           }),
           (g = window.setTimeout(() => {
-            (h = []), (f = () => {});
+            (m = []), (h = () => {});
           }, 3e4));
       }
-      const S = { cCallsitesToIgnore: 0, bIncludeMessageInIdentifier: !1 },
-        w = [
+      const R = { cCallsitesToIgnore: 0, bIncludeMessageInIdentifier: !1 },
+        y = [
           "chrome-extension://",
           "HTMLDivElement.onreset \\(/market",
           "/.millennium/Dist",
           "Refused unauthorized RPC command",
         ];
-      function R() {
+      function w() {
         try {
           const e = i.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED,
             t =
@@ -215,31 +215,31 @@ var CLSTAMP = "10552726";
           }
         } catch (e) {}
       }
-      class y {
+      class S {
         constructor(e = !0) {
           (this.m_transport = null),
             (this.m_rgErrorQueue = []),
             (this.m_sendTimer = null),
             (this.m_bReportingPaused = !1),
             (this.m_pauseTimer = void 0),
-            (this.m_fnGetReportingInterval = z),
+            (this.m_fnGetReportingInterval = W),
             (this.m_bEnabled = !0),
             (this.m_bInitialized = !1),
             e
-              ? (h.forEach(
+              ? (m.forEach(
                   ({ error: e, cCallsitesToIgnore: t, strComponentStack: r }) =>
                     this.ReportError(e, {
                       cCallsitesToIgnore: t,
                       strComponentStack: r,
                     }),
                 ),
-                (f = (e, t, r) =>
+                (h = (e, t, r) =>
                   this.ReportError(e, {
                     cCallsitesToIgnore: t,
                     strComponentStack: r,
                   })))
-              : (f = () => {}),
-            (h = []),
+              : (h = () => {}),
+            (m = []),
             clearTimeout(g),
             window.setTimeout(() => {
               this.m_bInitialized ||
@@ -272,7 +272,7 @@ var CLSTAMP = "10552726";
                 null
               );
             try {
-              const r = Object.assign(Object.assign({}, S), t);
+              const r = Object.assign(Object.assign({}, R), t);
               if (!this.m_bEnabled) return null;
               0;
               const i = yield (function (e, t) {
@@ -293,7 +293,7 @@ var CLSTAMP = "10552726";
                                     : r.split("\n")) && void 0 !== n
                                 ? n
                                 : [];
-                          let a = M(o.filter((e) => !!e.match(v))[i]);
+                          let a = C(o.filter((e) => !!e.match(v))[i]);
                           s && (a = `${a} ${e.message}`);
                           const c = o
                             .map((e) => {
@@ -310,12 +310,12 @@ var CLSTAMP = "10552726";
                             .filter((e) => !!e);
                           return {
                             identifier: a,
-                            identifierHash: yield O(a),
+                            identifierHash: yield k(a),
                             message: c,
                           };
                         });
                       })(e, t)
-                    : e.stack && e.stack.match(E)
+                    : e.stack && e.stack.match(I)
                       ? (function (e, t) {
                           return (0, n.sH)(this, void 0, void 0, function* () {
                             var r, n;
@@ -331,7 +331,7 @@ var CLSTAMP = "10552726";
                                       : r.split("\n")) && void 0 !== n
                                   ? n
                                   : [];
-                            let a = M(o.filter((e) => !!e.match(E))[i]);
+                            let a = C(o.filter((e) => !!e.match(I))[i]);
                             s && (a = `${a} ${e.message}`);
                             const c = o
                               .map((e) => {
@@ -349,12 +349,12 @@ var CLSTAMP = "10552726";
                               .filter((e) => !!e);
                             return {
                               identifier: a,
-                              identifierHash: yield O(a),
+                              identifierHash: yield k(a),
                               message: [e.message, ...c],
                             };
                           });
                         })(e, t)
-                      : e.stack && e.stack.match(C)
+                      : e.stack && e.stack.match(E)
                         ? (function (e, t) {
                             return (0, n.sH)(
                               this,
@@ -396,7 +396,7 @@ var CLSTAMP = "10552726";
                                   .filter((e) => !!e);
                                 return {
                                   identifier: l,
-                                  identifierHash: yield O(l),
+                                  identifierHash: yield k(l),
                                   message: [e.message, ...u],
                                 };
                               },
@@ -447,7 +447,7 @@ var CLSTAMP = "10552726";
         BIsBlacklisted(e) {
           for (let t of e.message) {
             let r = JSON.stringify(t);
-            for (let t of w) {
+            for (let t of y) {
               const n = new RegExp(t);
               if (r.match(n))
                 return console.warn("Report", e, "matched regex", t), !0;
@@ -517,7 +517,7 @@ var CLSTAMP = "10552726";
           return _;
         }
       }
-      function I(e, ...t) {
+      function M(e, ...t) {
         if ("string" == typeof e && 0 === t.length) return e;
         return [e, ...t]
           .map((e) => {
@@ -531,11 +531,11 @@ var CLSTAMP = "10552726";
           .join(", ");
       }
       const v = /^\s*at .*(\S+:\d+|\(native\))/m,
-        E = /(^|@)\S+:\d+/,
-        C = /.*\/bundle-[a-zA-Z0-9]+:\d+:\d+/;
+        I = /(^|@)\S+:\d+/,
+        E = /.*\/bundle-[a-zA-Z0-9]+:\d+:\d+/;
       let T,
         B = !1;
-      function M(e) {
+      function C(e) {
         return (function (e) {
           const t = "https://",
             r = e.indexOf(t);
@@ -551,11 +551,11 @@ var CLSTAMP = "10552726";
           })(e),
         );
       }
-      const k = () => (T || N(new y()), T),
-        N = (e) => {
-          (T = e), m.tH.InstallErrorReportingStore(T);
+      const F = () => (T || O(new S()), T),
+        O = (e) => {
+          (T = e), p.tH.InstallErrorReportingStore(T);
         };
-      function O(e) {
+      function k(e) {
         return (0, n.sH)(this, void 0, void 0, function* () {
           try {
             return (yield d(e)).slice(0, 16);
@@ -564,7 +564,7 @@ var CLSTAMP = "10552726";
           }
         });
       }
-      function z() {
+      function W() {
         return (
           1e3 *
           ((e = 1),
@@ -575,7 +575,7 @@ var CLSTAMP = "10552726";
         );
         var e, t;
       }
-      class j {
+      class N {
         constructor(e) {
           this.m_strWebAPIBaseURL = e;
         }
@@ -595,8 +595,175 @@ var CLSTAMP = "10552726";
               .catch((e) => {});
         }
       }
-      let F;
-      const P = () => (F || (F = new j("https://api.steampowered.com/")), F);
+      let z;
+      const j = () => (z || (z = new N("https://api.steampowered.com/")), z);
+    },
+    3924: (e, t, r) => {
+      r.d(t, {
+        BT: () => c,
+        Sg: () => d,
+        Uq: () => a,
+        gp: () => s,
+        i0: () => u,
+        qM: () => i,
+        w0: () => o,
+        zj: () => l,
+      });
+      var n = r(5339);
+      const i = n.BinaryReader.prototype,
+        s = n.BinaryWriter.prototype;
+      function o(e) {
+        const t = {},
+          { fields: r } = e;
+        for (const e in r) {
+          const n = r[e];
+          t[n.n] = n;
+        }
+        return t;
+      }
+      function a(e, t) {
+        const { proto: r, fields: i } = e,
+          s = new r();
+        if (null == t) return s;
+        for (const e in i) {
+          const { n: r, c: o, r: a, d: c, q: l } = i[e];
+          if (!Object.prototype.hasOwnProperty.call(t, e)) continue;
+          const u = t[e];
+          o
+            ? a
+              ? n.Message.setRepeatedWrapperField(
+                  s,
+                  r,
+                  Array.isArray(u) ? u.map((e) => o.fromObject(e)) : [],
+                )
+              : n.Message.setWrapperField(s, r, o.fromObject(u))
+            : n.Message.setField(s, r, u);
+        }
+        return s;
+      }
+      function c(e, t, r) {
+        const { proto: i, fields: s } = e,
+          o = {};
+        for (const e in s) {
+          const { n: i, c: a, r: c, d: l, q: u } = s[e];
+          if (a)
+            if (c)
+              o[e] = n.Message.toObjectList(
+                n.Message.getRepeatedWrapperField(r, a, i),
+                a.toObject,
+                t,
+              );
+            else {
+              const s = n.Message.getWrapperField(r, a, i, u ? 1 : 0);
+              s && (o[e] = a.toObject(t, s));
+            }
+          else {
+            const t = n.Message.getFieldWithDefault(
+              r,
+              i,
+              void 0 !== l ? l : null,
+            );
+            (null !== t || u) && (o[e] = t);
+          }
+        }
+        return t && (o.$jspbMessageInstance = r), o;
+      }
+      function l(e, t, r) {
+        for (; r.nextField() && !r.isEndGroup(); ) {
+          const i = e[r.getFieldNumber()];
+          if (i) {
+            const { n: e, c: s, r: o, d: a, q: c, br: l } = i;
+            if (s) {
+              const i = new s();
+              r.readMessage(i, s.deserializeBinaryFromReader),
+                o
+                  ? n.Message.addToRepeatedWrapperField(t, e, i, s)
+                  : n.Message.setWrapperField(t, e, i);
+            } else if (l) {
+              const i = l.call(r);
+              o
+                ? n.Message.addToRepeatedField(t, e, i)
+                : n.Message.setField(t, e, i);
+            } else
+              console.assert(
+                !!l,
+                `Reader func not set for field number ${e} in class ${s}`,
+              ),
+                r.skipField();
+          } else r.skipField();
+        }
+        return t;
+      }
+      function u(e, t, r) {
+        const { fields: i } = e;
+        for (const e in i) {
+          const { n: s, c: o, r: a, d: c, q: l, bw: u } = i[e];
+          if (o)
+            if (a) {
+              const e = n.Message.getRepeatedWrapperField(t, o, s);
+              ((e && e.length) || l) &&
+                r.writeRepeatedMessage(s, e, o.serializeBinaryToWriter);
+            } else {
+              const e = n.Message.getWrapperField(t, o, s, l ? 1 : 0);
+              e && r.writeMessage(s, e, o.serializeBinaryToWriter);
+            }
+          else if (u) {
+            const e = n.Message.getField(t, s);
+            void 0 !== e && u.call(r, s, e);
+          } else
+            console.assert(
+              !!u,
+              `Writer func not set for field number ${s} in class ${o}`,
+            );
+        }
+      }
+      function d(e) {
+        const t = e.proto;
+        for (const r in e.fields) {
+          const i = e.fields[r],
+            { n: s, c: o, r: a, d: c, q: l } = i;
+          Object.prototype.hasOwnProperty.call(i, "d")
+            ? (t.prototype[r] = p(n.Message.getFieldWithDefault, s, c))
+            : (t.prototype[r] = o
+                ? a
+                  ? p(n.Message.getRepeatedWrapperField, o, s)
+                  : f(o, s)
+                : p(n.Message.getField, s)),
+            (t.prototype[`set_${r}`] = g(
+              o
+                ? a
+                  ? n.Message.setRepeatedWrapperField
+                  : n.Message.setWrapperField
+                : n.Message.setField,
+              s,
+            )),
+            a && (t.prototype[`add_${r}`] = m(s, o));
+        }
+      }
+      function p(e, ...t) {
+        return function () {
+          return e(this, ...t);
+        };
+      }
+      function f(e, t) {
+        return function (r = !0) {
+          return n.Message.getWrapperField(this, e, t, r ? 1 : 0);
+        };
+      }
+      function g(e, t) {
+        return function (r) {
+          return e(this, t, r);
+        };
+      }
+      function m(e, t) {
+        return t
+          ? function (r, i) {
+              return n.Message.addToRepeatedWrapperField(this, e, r, t, i);
+            }
+          : function (t, r) {
+              n.Message.addToRepeatedField(this, e, t, r);
+            };
+      }
     },
   },
 ]); //# sourceMappingURL=file:///home/buildbot/buildslave/steamvr_rel_npm_vrwebui/build/public/runtime/resources/webinterface/dashboard/sourcemaps/chunk~56fe39318.js.map
