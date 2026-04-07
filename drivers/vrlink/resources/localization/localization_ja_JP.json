@@ -20,6 +20,7 @@
 	"Setting_DisableQoS": "QoSを無効にする",
 	"Setting_FoveationOn": "オン",
 	"Setting_FoveationOff": "オフ",
+	"Setting_AllowMultipleLinks": "複数の接続を許可",
 	"svl_hand_interaction_augmented": "ハンドトラッキングコントローラ",
 	"/input/index_pinch": "ピンチ（人差し指）",
 	"/input/middle_pinch": "ピンチ（中指）",

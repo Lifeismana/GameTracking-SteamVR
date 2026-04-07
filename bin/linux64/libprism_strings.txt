@@ -477,6 +477,7 @@
 /etc/os-release
 /proc
 /proc/%u/stat
+/proc/self/cmdline
 /proc/self/exe
 /proc/self/status
 /steamvr/
@@ -494,7 +495,6 @@
 15CVkResourceBase
 15CVkResourcePoolI16CVkCommandBufferE
 16CVkCommandBuffer
-17:02:44
 18CPrismDisplay_Null
 18IPrismPoseProvider
 19CVkGarbageCollector
@@ -502,6 +502,7 @@
 1e+9999
 20CVkCommandBufferPool
 20IPrismDisplayFactory
+21:20:53
 23CPrismPoseProvider_Null
 23CVkPoolGarbageCollectorI16CVkCommandBufferE
 23ISwapchainImageProvider
@@ -547,6 +548,7 @@ Already initialized
 AmplificationShader
 Apply blur filter
 Apply median filter
+Apr  6 2026
 April
 Attempt to init shared state %s twice
 Attempted to write %zd bytes and ended up writing 0. Closing the pipe\n
@@ -891,7 +893,7 @@ CSDLDynamic::~CSDLDynamic()
 CSWTCH.107
 CSWTCH.141
 CSWTCH.16
-CSWTCH.216
+CSWTCH.219
 CSWTCH.23
 CSWTCH.284
 CSWTCH.285
@@ -1129,10 +1131,10 @@ CVkCommandBuffer::Release()
 CVkCommandBuffer::ReleaseMutex(VkDeviceMemory_T*, unsigned long)
 CVkCommandBuffer::Reset()
 CVkCommandBuffer::Signal(CVkTimeline*, facet::CVkTimelinePoint const&)
-CVkCommandBuffer::Signal(VkSemaphore_T*)
+CVkCommandBuffer::Signal(VkSemaphore_T*, unsigned long)
 CVkCommandBuffer::ValidateReferencedResources()
 CVkCommandBuffer::Wait(CVkTimeline*, facet::CVkTimelinePoint const&, unsigned int)
-CVkCommandBuffer::Wait(VkSemaphore_T*, unsigned int)
+CVkCommandBuffer::Wait(VkSemaphore_T*, unsigned int, unsigned long)
 CVkCommandBuffer::~CVkCommandBuffer()
 CVkCommandBufferPool::BorrowResource(char const*)
 CVkCommandBufferPool::BorrowResource(char const*) (.cold)
@@ -1546,6 +1548,7 @@ GetTraceMarkerFd()::s_nTraceFileFD
 GetUserDocumentsPath()
 GetVRLogTimeString(bool)
 Graphics Timeline
+HIGH
 HOME
 HOST_CACHED_BIT
 HOST_COHERENT_BIT
@@ -1632,7 +1635,8 @@ InitSharedResourceNamespaceAsWatchdog()
 InitSharedResourceNamespaceAsWatchdog() (.cold)
 InitSharedResourceNamespaceForTest()
 InitSystemBaseTimeTicks(unsigned long)
-InitSystemTime(unsigned long) (.part.0)
+InitSystemTime(unsigned long, bool)
+InitSystemTime(unsigned long, bool)::initMutex
 InitTemporalSlices(context, resInstances, iRes)
 InitVisibleAreaResources
 Initialize
@@ -2151,7 +2155,7 @@ MV-Median5x5
 MV-PingPong%d-%s
 MV-PreviousInput-%s
 MV-Threshold
-Mar 25 2026
+Mapped priority %d to SDL priority %s\n
 March
 MarkInUse
 Mask Input Image
@@ -2227,6 +2231,7 @@ N9__gnu_cxx20recursive_init_errorE
 N9__gnu_cxx24__concurrence_lock_errorE
 N9__gnu_cxx26__concurrence_unlock_errorE
 NONE
+NORMAL
 NSt3_V214error_categoryE
 NSt6locale5facet6__shimE
 NSt6locale5facetE
@@ -2587,6 +2592,7 @@ SDLDynamic() (.cold)
 SDLDynamic()::m_instance
 SDL_GetError
 SDL_GetPowerInfo
+SDL_LinuxSetThreadPriorityAndPolicy
 SDL_SetThreadPriority
 STEAMVR_APPKEY
 STEAMVR_DISABLE_CRASH_REPORTING
@@ -2861,6 +2867,7 @@ ThreadWaitForProcessExit
 ThreadWatchdog
 ThreadYield()
 Thursday
+Timeline_t::EvaluateRange(float, float)
 TimestampQueryPool-%s
 TokenizeString(std::string const&, char)
 TokenizeString(std::string const&, char) (.cold)
@@ -3787,6 +3794,7 @@ get_ttype_entry(lsda_header_info*, unsigned long) (.cold)
 getc
 getcwd
 getenv
+getpagesize
 getpid
 getppid
 getpriority
@@ -9630,6 +9638,7 @@ void std::vector<VkViewport, short_alloc<VkViewport, 240ul, 4ul>>::_M_realloc_in
 void std::vector<facet::CVkTimelinePoint, short_alloc<facet::CVkTimelinePoint, 160ul, 8ul>>::_M_realloc_insert<facet::CVkTimelinePoint const&>(__gnu_cxx::__normal_iterator<facet::CVkTimelinePoint*, std::vector<facet::CVkTimelinePoint, short_alloc<facet::CVkTimelinePoint, 160ul, 8ul>>>, facet::CVkTimelinePoint const&)
 void std::vector<facet::CVkTimelinePoint, std::allocator<facet::CVkTimelinePoint>>::_M_realloc_insert<facet::CVkTimelinePoint const&>(__gnu_cxx::__normal_iterator<facet::CVkTimelinePoint*, std::vector<facet::CVkTimelinePoint, std::allocator<facet::CVkTimelinePoint>>>, facet::CVkTimelinePoint const&)
 void std::vector<glm::vec<2, float, (glm::qualifier)0>, std::allocator<glm::vec<2, float, (glm::qualifier)0>>>::_M_assign_aux<glm::vec<2, float, (glm::qualifier)0> const*>(glm::vec<2, float, (glm::qualifier)0> const*, glm::vec<2, float, (glm::qualifier)0> const*, std::forward_iterator_tag)
+void std::vector<std::pair<VkSemaphore_T*, unsigned long>, short_alloc<std::pair<VkSemaphore_T*, unsigned long>, 160ul, 8ul>>::_M_realloc_insert<std::pair<VkSemaphore_T*, unsigned long> const&>(__gnu_cxx::__normal_iterator<std::pair<VkSemaphore_T*, unsigned long>*, std::vector<std::pair<VkSemaphore_T*, unsigned long>, short_alloc<std::pair<VkSemaphore_T*, unsigned long>, 160ul, 8ul>>>, std::pair<VkSemaphore_T*, unsigned long> const&)
 void std::vector<std::string, std::allocator<std::string>>::_M_realloc_insert<std::string const&>(__gnu_cxx::__normal_iterator<std::string*, std::vector<std::string, std::allocator<std::string>>>, std::string const&)
 void std::vector<std::string, std::allocator<std::string>>::_M_realloc_insert<std::string>(__gnu_cxx::__normal_iterator<std::string*, std::vector<std::string, std::allocator<std::string>>>, std::string&&)
 void std::vector<std::unique_ptr<CVkCommandBatch, std::default_delete<CVkCommandBatch>>, std::allocator<std::unique_ptr<CVkCommandBatch, std::default_delete<CVkCommandBatch>>>>::_M_realloc_insert<std::unique_ptr<CVkCommandBatch, std::default_delete<CVkCommandBatch>>>(__gnu_cxx::__normal_iterator<std::unique_ptr<CVkCommandBatch, std::default_delete<CVkCommandBatch>>*, std::vector<std::unique_ptr<CVkCommandBatch, std::default_delete<CVkCommandBatch>>, std::allocator<std::unique_ptr<CVkCommandBatch, std::default_delete<CVkCommandBatch>>>>>, std::unique_ptr<CVkCommandBatch, std::default_delete<CVkCommandBatch>>&&)

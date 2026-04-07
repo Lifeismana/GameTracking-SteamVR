@@ -36,6 +36,15 @@
                         "requires": {
                             "/settings/driver_vrlink/automaticStreamFormatWidth": false
                         }
+                    },
+                    {
+                        "name": "/driver_vrlink/effective_foveated_resolution",
+                        "control": "label",
+                        "label": "#{vrlink}Setting_effectiveFoveatedResolution",
+                        "advanced_only": true,
+                        "requires_paths": {
+                            "/driver_vrlink/foveation_enabled": true
+                        }
                     }
                 ]
             },
@@ -128,6 +137,12 @@
                 "name": "/settings/driver_vrlink/enableQoS",
                 "control": "toggle",
                 "label": "#{vrlink}Setting_EnableQoS",
+                "advanced_only": true
+            },
+            {
+                "name": "/settings/driver_vrlink/allowMultipleLinks",
+                "control": "toggle",
+                "label": "#{vrlink}Setting_AllowMultipleLinks",
                 "advanced_only": true
             },
             {

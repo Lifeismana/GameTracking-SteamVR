@@ -77,6 +77,8 @@
   "HideKeyboardTooltip": "Hide Keyboard",
   "Size": "Size",
   "Move": "Move",
+  "EnableSpatialAudioTooltip": "Enable Spatial Audio",
+  "DisableSpatialAudioTooltip": "Disable Spatial Audio",
 
   "Mute": "Mute",
   "Unmute": "Unmute",

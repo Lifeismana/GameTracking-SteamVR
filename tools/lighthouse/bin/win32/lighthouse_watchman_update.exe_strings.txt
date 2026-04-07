@@ -186,24 +186,6 @@
 .tls$ZZZ
 .xdata$x
 /P8i
-/user/ankle/left
-/user/ankle/right
-/user/camera
-/user/chest
-/user/elbow/left
-/user/elbow/right
-/user/foot/left
-/user/foot/right
-/user/hand/left
-/user/hand/right
-/user/keyboard
-/user/knee/left
-/user/knee/right
-/user/shoulder/left
-/user/shoulder/right
-/user/waist
-/user/wrist/left
-/user/wrist/right
 /yQA
 0x1105xxxx
 0x1106xxxx
@@ -259,7 +241,7 @@
 ??_7ctype_base@std@@6B@
 ??_7facet@locale@std@@6B@
 ??_7ios_base@std@@6B@
-?Line: 
+?ITrackedDeviceServerDriver_005
 ?VRCamera_Open@vrcamera@@YA?AV?$unique_ptr@VIVRCamera@vrcamera@@U?$default_delete@VIVRCamera@vrcamera@@@std@@@std@@GG@Z
 ?VRCamera_Open@vrcamera@@YA?AV?$unique_ptr@VIVRCamera@vrcamera@@U?$default_delete@VIVRCamera@vrcamera@@@std@@@std@@XZ
 ?_BADOFF@std@@3_JB
@@ -487,13 +469,12 @@ ICE40
 ISP-ETRON-776
 ISP-ETRON-876
 IServerTrackedDeviceProvider_004
-ITrackedDeviceServerDriver_005
 IVRCameraComponent_003
 IVRCompositorPluginProvider_001
 IVRDisplayComponent_003
 IVRDriverDirectModeComponent_009
 IVRDriverManager_001
-IVRIPCResourceManagerClient_003
+IVRIPCResourceManagerClient_004
 IVRResources_001
 IVRSettings_003
 IVRVirtualDisplay_002
@@ -520,6 +501,7 @@ LeaveCriticalSection
 Lighthouse %s HID device error\n
 Lighthouse %s HID opened\n
 LighthouseUSB
+Line: 
 LoadLibraryA
 LocalFree
 Log Erase
@@ -565,7 +547,7 @@ Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
 R1h58
-RSDS
+RSDS/M{
 Radio version:      
 RaiseException
 ReadFile

@@ -21,13 +21,17 @@
  [CVRChaperoneServer] Failed to presiste chaperone data but still proceed to update VRPaths. 
  [CVRChaperoneServer] Unable to parse Json when updating chaperone universe\n
  [CVRChaperoneServer] Unable to parse universe when updating chaperone universe\n
- [CVRChaperoneServer] Wrote chaperone data to %s\n
- [IVRChaperoneServerDriver] Created and Switched to a chaperone universe %lu
- [IVRChaperoneServerDriver] Restored chaperone universe %lu
+ [CVRChaperoneServer] Wrote chaperone data to %s\n for persisting the universe %llu
+ [IVRChaperoneServerDriver] Created and Switched to a chaperone universe %llu
+ [IVRChaperoneServerDriver] Restored chaperone universe %llu
+ [IVRChaperoneServerDriver] Saving the updated Chaperone file failed in TransformChaperoneAndSwitchToUniverse
+ [IVRChaperoneServerDriver] Switched from chaperone universe %llu to  %llu
  [IVRChaperoneServerDriver] fail to VRPaths get k_pathChaperoneStandingTransform in RestoreChaperoneUniverse
  [IVRChaperoneServerDriver] fail to find the chaperone universe %lu in RestoreChaperoneUniverse
+ [IVRChaperoneServerDriver] fail to find the chaperone universe %lu in TransformChaperoneAndSwitchToUniverse
  [IVRChaperoneServerDriver] fail to load chaperone file in RestoreChaperoneUniverse
- [IVRChaperoneServerDriver] inconsistent on the chaperone type isDefaultPeritmeter %d, isChaperoneFull %d
+ [IVRChaperoneServerDriver] fail to load chaperone file in TransformChaperoneAndSwitchToUniverse
+ [IVRChaperoneServerDriver] inconsistent on the chaperone type isDefaultPerimeter %d, isChaperoneFull %d
  [IVRChaperoneServerDriver] newly created chaperone can not be persisted 
  [default = $0
  args were given.  Full format string was: "
@@ -283,6 +287,7 @@ $\n k_EProtoServiceTypeSteamMessages
 (Overcurrent)
 (Reset)
 (VID:%04X PID:%04X)
+(\t:P\n%vr_path_property_unset_on_steam_close
 (\v2 .google.protobuf.DescriptorProto
 (\v2!.google.protobuf.EnumValueOptions"
 (\v2$.google.protobuf.EnumDescriptorProto
@@ -336,6 +341,7 @@ $\n k_EProtoServiceTypeSteamMessages
 -keepalive
 -noAutoRestart
 -nsight
+-personality_distort
 -renderdoc
 -restart 
 -safe
@@ -399,7 +405,6 @@ $\n k_EProtoServiceTypeSteamMessages
 .?AU?$FunctionMessageHandlerBase_t@VCVRClientContext@@VCVRServer@@VCVRMsg_DestroySwapTextureSet@@VCVRMsg_NoResponse@@P82@EAA_NV?$shared_ptr@VCVRClientContext@@@std@@AEBV3@@Z@CConnectionThread@@
 .?AU?$FunctionMessageHandlerBase_t@VCVRClientContext@@VCVRServer@@VCVRMsg_DriverDebugRequest@@VCVRMsg_DriverDebugResponse@@P82@EAA_NV?$shared_ptr@VCVRClientContext@@@std@@AEBV3@AEAV4@@Z@CConnectionThread@@
 .?AU?$FunctionMessageHandlerBase_t@VCVRClientContext@@VCVRServer@@VCVRMsg_DriverDebugRequest@@VCVRMsg_NoResponse@@P82@EAA_NV?$shared_ptr@VCVRClientContext@@@std@@AEBV3@@Z@CConnectionThread@@
-.?AU?$FunctionMessageHandlerBase_t@VCVRClientContext@@VCVRServer@@VCVRMsg_ExchangeCapabilities@@V3@P82@EAA_NV?$shared_ptr@VCVRClientContext@@@std@@AEBV3@AEAV3@@Z@CConnectionThread@@
 .?AU?$FunctionMessageHandlerBase_t@VCVRClientContext@@VCVRServer@@VCVRMsg_ExtendActivityTimeout@@VCVRMsg_NoResponse@@P82@EAA_NV?$shared_ptr@VCVRClientContext@@@std@@AEBV3@@Z@CConnectionThread@@
 .?AU?$FunctionMessageHandlerBase_t@VCVRClientContext@@VCVRServer@@VCVRMsg_GetApplicationInfo@@VCVRMsg_ApplicationInfo@@P82@EAA_NV?$shared_ptr@VCVRClientContext@@@std@@AEBV3@AEAV4@@Z@CConnectionThread@@
 .?AU?$FunctionMessageHandlerBase_t@VCVRClientContext@@VCVRServer@@VCVRMsg_GetApplicationLaunchArguments@@VCVRMsg_GetApplicationLaunchArgumentsResponse@@P82@EAA_NV?$shared_ptr@VCVRClientContext@@@std@@AEBV3@AEAV4@@Z@CConnectionThread@@
@@ -435,6 +440,7 @@ $\n k_EProtoServiceTypeSteamMessages
 .?AU?$FunctionMessageHandlerBase_t@VCVRClientContext@@VCVRServer@@VCVRMsg_ShouldKillTheaterPancakeProcess@@VCVRMsg_ShouldKillTheaterPancakeProcessResponse@@P82@EAA_NV?$shared_ptr@VCVRClientContext@@@std@@AEBV3@AEAV4@@Z@CConnectionThread@@
 .?AU?$FunctionMessageHandlerBase_t@VCVRClientContext@@VCVRServer@@VCVRMsg_StartAutolaunchOverlays@@VCVRMsg_NoResponse@@P82@EAA_NV?$shared_ptr@VCVRClientContext@@@std@@AEBV3@@Z@CConnectionThread@@
 .?AU?$FunctionMessageHandlerBase_t@VCVRClientContext@@VCVRServer@@VCVRMsg_StartDashboard@@VCVRMsg_StartDashboardResponse@@P82@EAA_NV?$shared_ptr@VCVRClientContext@@@std@@AEBV3@AEAV4@@Z@CConnectionThread@@
+.?AU?$FunctionMessageHandlerBase_t@VCVRClientContext@@VCVRServer@@VCVRMsg_StartVRCompositor@@VCVRMsg_StartVRCompositorResponse@@P82@EAA_NV?$shared_ptr@VCVRClientContext@@@std@@AEBV3@AEAV4@@Z@CConnectionThread@@
 .?AU?$FunctionMessageHandlerBase_t@VCVRClientContext@@VCVRServer@@VCVRMsg_TrackedCamera_Enable@@VCVRMsg_TrackedCamera_EnableResponse@@P82@EAA_NV?$shared_ptr@VCVRClientContext@@@std@@AEBV3@AEAV4@@Z@CConnectionThread@@
 .?AU?$FunctionMessageHandlerBase_t@VCVRClientContext@@VCVRServer@@VCVRMsg_TrackedCamera_GetDistortion@@VCVRMsg_TrackedCamera_GetDistortionResponse@@P82@EAA_NV?$shared_ptr@VCVRClientContext@@@std@@AEBV3@AEAV4@@Z@CConnectionThread@@
 .?AU?$FunctionMessageHandlerBase_t@VCVRClientContext@@VCVRServer@@VCVRMsg_TrackedCamera_GetFormatDimensions@@VCVRMsg_TrackedCamera_GetFormatDimensionsResponse@@P82@EAA_NV?$shared_ptr@VCVRClientContext@@@std@@AEBV3@AEAV4@@Z@CConnectionThread@@
@@ -471,7 +477,6 @@ $\n k_EProtoServiceTypeSteamMessages
 .?AU?$FunctionMessageHandler_t@VCVRClientContext@@VCVRServer@@VCVRMsg_ComputeDistortionBatched@@VCVRMsg_ComputeDistortionBatchedResponse@@@CConnectionThread@@
 .?AU?$FunctionMessageHandler_t@VCVRClientContext@@VCVRServer@@VCVRMsg_CreateSwapTextureSet@@VCVRMsg_CreateSwapTextureSetResponse@@@CConnectionThread@@
 .?AU?$FunctionMessageHandler_t@VCVRClientContext@@VCVRServer@@VCVRMsg_DriverDebugRequest@@VCVRMsg_DriverDebugResponse@@@CConnectionThread@@
-.?AU?$FunctionMessageHandler_t@VCVRClientContext@@VCVRServer@@VCVRMsg_ExchangeCapabilities@@V3@@CConnectionThread@@
 .?AU?$FunctionMessageHandler_t@VCVRClientContext@@VCVRServer@@VCVRMsg_GetApplicationInfo@@VCVRMsg_ApplicationInfo@@@CConnectionThread@@
 .?AU?$FunctionMessageHandler_t@VCVRClientContext@@VCVRServer@@VCVRMsg_GetApplicationLaunchArguments@@VCVRMsg_GetApplicationLaunchArgumentsResponse@@@CConnectionThread@@
 .?AU?$FunctionMessageHandler_t@VCVRClientContext@@VCVRServer@@VCVRMsg_GetDisplayInfo@@VCVRMsg_GetDisplayInfoResponse@@@CConnectionThread@@
@@ -500,6 +505,7 @@ $\n k_EProtoServiceTypeSteamMessages
 .?AU?$FunctionMessageHandler_t@VCVRClientContext@@VCVRServer@@VCVRMsg_Settings_SetString@@VCVRMsg_Settings_SetValue_Response@@@CConnectionThread@@
 .?AU?$FunctionMessageHandler_t@VCVRClientContext@@VCVRServer@@VCVRMsg_ShouldKillTheaterPancakeProcess@@VCVRMsg_ShouldKillTheaterPancakeProcessResponse@@@CConnectionThread@@
 .?AU?$FunctionMessageHandler_t@VCVRClientContext@@VCVRServer@@VCVRMsg_StartDashboard@@VCVRMsg_StartDashboardResponse@@@CConnectionThread@@
+.?AU?$FunctionMessageHandler_t@VCVRClientContext@@VCVRServer@@VCVRMsg_StartVRCompositor@@VCVRMsg_StartVRCompositorResponse@@@CConnectionThread@@
 .?AU?$FunctionMessageHandler_t@VCVRClientContext@@VCVRServer@@VCVRMsg_TrackedCamera_Enable@@VCVRMsg_TrackedCamera_EnableResponse@@@CConnectionThread@@
 .?AU?$FunctionMessageHandler_t@VCVRClientContext@@VCVRServer@@VCVRMsg_TrackedCamera_GetDistortion@@VCVRMsg_TrackedCamera_GetDistortionResponse@@@CConnectionThread@@
 .?AU?$FunctionMessageHandler_t@VCVRClientContext@@VCVRServer@@VCVRMsg_TrackedCamera_GetFormatDimensions@@VCVRMsg_TrackedCamera_GetFormatDimensionsResponse@@@CConnectionThread@@
@@ -635,6 +641,7 @@ $\n k_EProtoServiceTypeSteamMessages
 .?AV?$IOBufferInterfaceRegistration@VCVRIOBuffer_001@@@@
 .?AV?$IPCResourceManagerClientInterfaceRegistration@VCVRIPCResourceManagerClient_001@@@@
 .?AV?$IPCResourceManagerClientInterfaceRegistration@VCVRIPCResourceManagerClient_002@@@@
+.?AV?$IPCResourceManagerClientInterfaceRegistration@VCVRIPCResourceManagerClient_003@@@@
 .?AV?$IVRPathsInterfaceRegistration@VCVRPaths_001@@@@
 .?AV?$ServerDriverHostInterfaceRegistration@VCVRServerDriverHost_004@@@@
 .?AV?$ServerDriverHostInterfaceRegistration@VCVRServerDriverHost_005@@@@
@@ -876,6 +883,7 @@ $\n k_EProtoServiceTypeSteamMessages
 .?AVCVRIPCResourceManagerBase@@
 .?AVCVRIPCResourceManagerClient_001@@
 .?AVCVRIPCResourceManagerClient_002@@
+.?AVCVRIPCResourceManagerClient_003@@
 .?AVCVRInputContext@@
 .?AVCVRInputServer@@
 .?AVCVRInputWorkshopCallback_InputContextDelegate@@
@@ -958,7 +966,6 @@ $\n k_EProtoServiceTypeSteamMessages
 .?AVCVRMsg_DestroySwapTextureSet@@
 .?AVCVRMsg_DriverDebugRequest@@
 .?AVCVRMsg_DriverDebugResponse@@
-.?AVCVRMsg_ExchangeCapabilities@@
 .?AVCVRMsg_ExtendActivityTimeout@@
 .?AVCVRMsg_GetApplicationInfo@@
 .?AVCVRMsg_GetApplicationLaunchArguments@@
@@ -1040,6 +1047,8 @@ $\n k_EProtoServiceTypeSteamMessages
 .?AVCVRMsg_StartDashboard@@
 .?AVCVRMsg_StartDashboardResponse@@
 .?AVCVRMsg_StartHomeAppResponse@@
+.?AVCVRMsg_StartVRCompositor@@
+.?AVCVRMsg_StartVRCompositorResponse@@
 .?AVCVRMsg_TrackedCamera_AcquireVideoStreamingService@@
 .?AVCVRMsg_TrackedCamera_AcquireVideoStreamingServiceResponse@@
 .?AVCVRMsg_TrackedCamera_Enable@@
@@ -1397,7 +1406,6 @@ $\n k_EProtoServiceTypeSteamMessages
 /app/setsettings
 /audio/toggle_mic_echo_cancellation.action
 /audio/toggle_mic_noise_suppression.action
-/audio/toggle_per_app_spatialization.action
 /backgrounds/
 /best_alias_path
 /binding_error
@@ -1440,6 +1448,7 @@ $\n k_EProtoServiceTypeSteamMessages
 /controller_type/
 /dashboard/controllerbinding.html
 /dashboard/systemreportviewer.html
+/dashboard_head_pose_from_standing
 /data
 /device_path
 /devices.json
@@ -1576,6 +1585,7 @@ $\n k_EProtoServiceTypeSteamMessages
 /skeleton/hand/left
 /skeleton/hand/right
 /startup_reason
+/steam/is_running
 /steam/vr_connection_ready
 /steam/was_running_at_startup
 /steam/websocketconnected
@@ -1637,6 +1647,18 @@ $\n k_EProtoServiceTypeSteamMessages
 /user/wrist/right
 /value
 /vrfirmware.json
+/vrgamepadui/steamvr/dashboard_frames_remote
+/vrgamepadui/steamvr/dashboard_frames_tx
+/vrgamepadui/steamvr/desktop_windows_remote
+/vrgamepadui/steamvr/desktop_windows_tx
+/vrgamepadui/steamvr/unified_dashboard_state_remote
+/vrgamepadui/steamvr/vrlink_lasermouseactive_remote
+/vrgamepadui/steamvr/vrlink_lasermouseoverlay_remote
+/vrgamepadui/steamvr/vrlink_lasermouseoverlay_tx
+/vrlink_client_isSteamVR
+/vrlink_environment
+/vrlink_stream_active
+/vrlink_stream_packet_time
 /vrpathreg.json
 /without_controller_data
 /yQA
@@ -1644,26 +1666,18 @@ $\n k_EProtoServiceTypeSteamMessages
 0-pixel image
 00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899
 00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899"
-000102030405060708091011121314151617181920212223242526272829303132333435363738394041424344454647484950515253545556575859606162636465666768697071727374757677787980818283848586878889909192939495969798990
 0123456789ABCDEF
 0123456789abcdef
-0O8@
-0Q1@
-0U3@
-0V3@
-0W3@
-0X8@
-0l8@
-0m7@
-0y1@
-0y8@
+069@
+0h9@
+0sB@
 1.2.5
 1/2/4/8/16-bit only
-10:06:46
 11 4 22 44 44 22 444444
 11eU%
 127.0.0.1
 127.0.0.1:
+14:21:11
 1A26b
 1\f514
 1e+9999
@@ -1673,7 +1687,6 @@ $\n k_EProtoServiceTypeSteamMessages
 2*.google.protobuf.FieldDescriptorProto.Type
 2+.google.protobuf.FieldDescriptorProto.Label
 258EAFA5-E914-47DA-95CA-C5AB0DC85B11
-4X8@
 4\f54d
 52F*
 5I)7
@@ -1684,17 +1697,14 @@ $\n k_EProtoServiceTypeSteamMessages
 7\n\tenum_type
 7^d[L
 7~8A
-8U3@
+879@
 8\n\textension
-8a4@
 8c8f13b1-60eb-4b6a-a433-de86104115ac
 8d8f13b1-60eb-4b6a-a433-de86104115ac
 8e8f13b1-60eb-4b6a-a433-de86104115ac
 8giP9giP9giP9giP9
-8k8@
-8m7@
-8q1@
-8q8@
+8y9@
+8z9@
 9\n\noneof_decl
 9a&g
 : Protocol message serialized to a size different from what was originally expected.  Perhaps it was modified by another thread during serialization?
@@ -1858,6 +1868,7 @@ $\n k_EProtoServiceTypeSteamMessages
 A file with this name is already in the pool.
 A protocol message was rejected because it was too big (more than 
 A valid JSON document must be either an array or an object value.
+A wireless HMD driver is present, but the wireless HMD has not connected and Steam is not running (216)
 A wireless HMD driver is present, but the wireless HMD has not connected yet (215)
 A"QT
 ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/
@@ -1925,6 +1936,7 @@ AppInfoManager.StartSceneApplicationTransitionFromProcess: No app info for start
 AppTransition: Aborting external launch because of timeout after %g seconds\n
 Apps - Completed simple quit transition with exit of %u\n
 Apps - Initiated %s quit transition for %u\n
+Apr  6 2026
 Array length of `baseColorFactor` parameter in pbrMetallicRoughness must be 4, but got 
 Array length of `emissiveFactor` parameter in material must be 3, but got 
 Array length of `emissiveFactor` parameter in material must be 3, but got 4\n
@@ -2028,6 +2040,7 @@ CHECK failed: result != NULL:
 CHECK failed: trees: 
 CHECK failed: uninterpreted_options_field != NULL: 
 CHECK failed: value.size() <= kint32max: 
+CIVRServerDriverHost_
 CKeyframedDataResource
 CMMNotificationClient::Register
 CORD
@@ -2183,7 +2196,6 @@ CVRMsg_DefaultBinding
 CVRMsg_DestroySwapTextureSet
 CVRMsg_DriverDebugRequest
 CVRMsg_DriverDebugResponse
-CVRMsg_ExchangeCapabilities
 CVRMsg_ExtendActivityTimeout
 CVRMsg_GetApplicationInfo
 CVRMsg_GetApplicationLaunchArguments
@@ -2265,6 +2277,8 @@ CVRMsg_StartAutolaunchOverlays
 CVRMsg_StartDashboard
 CVRMsg_StartDashboardResponse
 CVRMsg_StartHomeAppResponse
+CVRMsg_StartVRCompositor
+CVRMsg_StartVRCompositorResponse
 CVRMsg_TrackedCamera_AcquireVideoStreamingService
 CVRMsg_TrackedCamera_AcquireVideoStreamingServiceResponse
 CVRMsg_TrackedCamera_Enable
@@ -2424,6 +2438,8 @@ Could not find field type.
 Could not find named path %s when loading %s\n
 Could not find pending device %s: %s\n
 Could not find universe in ExportLiveToBuffer
+Could not find universe in GetCurrentChaperoneBoundsInRawAppWorld
+Could not get the universe's SetupStanding origin in GetCurrentChaperoneBoundsInRawAppWorld
 Could not parse Origin URI when checking if request is allowed. Rejecting
 Couldn't find '%s' resource map entry for process %d.
 Couldn't find action %s. Ignoring it.\n
@@ -2462,7 +2478,6 @@ D3DKMTQueryAdapterInfo
 D7q/;M
 DELEGATE 
 DISABLED
-DW3@
 DXGI VSync Thread ended\n
 DXGI VSync Thread started\n
 DXGI thread failed to get SDL display index. This will happen if you are not on a direct mode display.\n
@@ -2569,6 +2584,7 @@ Error! Failed to load %s\n
 Error! Unable to load firmware manifest %s after allocating memory\n
 Error! Unable to load image %s: %s\n
 Error: AppInfoManager.StartSceneApplicationTransitionFromProcess: No app info for starting key=%s, passed key=%s, unStartingProcessId=%d\n
+Error: Driver %s added new device without error, but specified unTrackedDeviceIndexInvalid
 Error: Failed to restore audio device\n
 Error: Failure reading weights from file: %s
 Error: Invalid audio devices helper. Can't cleanup\n
@@ -2583,7 +2599,6 @@ Exceeded path size
 Exceeded stackLimit in readValue().
 Exception %08x\n
 Excessive binding loads from %s: crc=%u lc=%u Reload=%s res=%d\n
-Exchange capabilities (ESteamVRMutualCapability) w/Steam Client: %s
 Executable: %s\n
 Expect a decimal number.
 Expectation Failed
@@ -2849,6 +2864,7 @@ GpuSpeed
 Guessing frequency of current display mode because SDL failed us\n
 H$6t
 H*0"ZOW
+H99@
 HAPTICDEBUG %s:%d sec: %f\t freq: %f\t amp: %f\n
 HEAD
 HMD Not Known (202)
@@ -2872,7 +2888,6 @@ HMD found, but unable to request config (1102)
 HMDManufacturer
 HMDModel
 HMDSerialNumber
-HQ1@
 HTTP Version Not Supported
 HTTP parse, %lu bytes
 HTTP/
@@ -2887,12 +2902,10 @@ HTTP/1.1 301 Moved\r\nLocation: %.*s/\r\nContent-Length: 0\r\n\r\n
 HTTP/1.1 302 OK\r\nLocation: /%s\r\n\r\n
 HTTP_REQUEST %s
 HTTP_REQUEST Static Content %s
-HW3@
-Ha4@
+HY9@
 Hang the server for the specified number of seconds (default 3600)
 HasField
 Hex and octal numbers must be integers.
-Hi8@
 Hmd DriverId is invalid (125)
 Hmd DriverId is our of bounds (211)
 Hmd Not Found (108)
@@ -2900,6 +2913,8 @@ Hmd Not Found Presence Failed (126)
 HmdDriverFactory
 HostController
 How did we get here with a non-position slot?
+Hw9@
+Hx9@
 I'm a teapot
 IAudioCaptureClient::GetBuffer failed on pass %u: hr = 0x%08x\n
 IAudioCaptureClient::GetBuffer said to read 0 frames on pass %u\n
@@ -2992,7 +3007,7 @@ IVRCameraComponent_002
 IVRCameraPassthroughInternal_001
 IVRChaperoneInternal_XXX
 IVRChaperoneServerDriver_XXX
-IVRChaperoneSetup_006
+IVRChaperoneSetup_007
 IVRChaperone_004
 IVRClientInternal_XXX
 IVRCompositorPluginProvider_001
@@ -3021,13 +3036,15 @@ IVRIPCResourceManagerClient_
 IVRIPCResourceManagerClient_001
 IVRIPCResourceManagerClient_002
 IVRIPCResourceManagerClient_003
+IVRIPCResourceManagerClient_004
+IVRInputFocusInternal_XXX
 IVRInputInternal_002
 IVRInput_011
 IVRMCStore_001
 IVRMailbox_002
 IVRNotificationsInternal_001
 IVROverlayInternal_XXX
-IVROverlay_028
+IVROverlay_029
 IVRPathsInternal_XXX
 IVRPaths_001
 IVRPaths_002
@@ -3036,7 +3053,6 @@ IVRProperties_001
 IVRRenderModelsInternal_XXX
 IVRRenderModels_006
 IVRResources_001
-IVRServerDriverHost_
 IVRServerDriverHost_004
 IVRServerDriverHost_005
 IVRServerDriverHost_006
@@ -3186,6 +3202,8 @@ JFIF
 JSON Chunk end does not aligned to a 4-byte boundary.
 JSON parse error
 JSON string too short.\n
+K32EnumProcesses
+K32GetProcessImageFileNameA
 KERNEL32.dll
 KHR_audio
 KHR_lights_punctual
@@ -3298,7 +3316,6 @@ Mailbox group %s is longer than the %u limit.\n
 Mailbox name %s is longer than the %u limit.\n
 MainThrd
 MapViewOfFile
-Mar 25 2026
 Material has extension MSFT_lod, but does not reference other materials via their ids.\n
 Mbp?{
 Message class "
@@ -3442,7 +3459,6 @@ Out of thread local storage!\n
 OutputDebugStringA
 OutputDebugStringW
 Overwriting default binding file from web: %s\n
-P53@
 PCI\VEN_%x&DEV_%x&SUBSYS_%x&REV_%x
 PC_%08llx
 PICT
@@ -3487,8 +3503,7 @@ PRISM_SetDisplayMode
 PRISM_SetFrameInfoCallback
 PRISM_Shutdown
 PRISM_Stop
-PU3@
-PZ1@
+PV9@
 Parse error in system resource manifest %s.\n
 Parse failed
 Parse failed for JSON message in mailbox %s: %s\n
@@ -3500,12 +3515,12 @@ Path_Exists( absFilePath )
 Payload Too Large
 Payment Required
 Pe6^
+Pe7@
 PeekNamedPipe
 PerformApplicationPrelaunchCheck
 Permanent Redirect
 Perspective camera description not found.
 PerspectiveCamera
-Ph8@
 Playback devices:\n
 PoseUpdated for invalid object ID %d\n
 PoseUpdated from driver %s (%d) for device index %d which is owned by driver %s (%d)\n
@@ -3770,8 +3785,6 @@ R1h58
 RGBG
 RPCRT4.dll
 RSDS
-R\npp
-R\vpp
 RaiseException
 Range
 Reached an unintended state: CPPTYPE_MESSAGE
@@ -4069,6 +4082,7 @@ Started auto launch dashboard %s.\n
 Starting SteamVR Home launch because %s exited after %f seconds\n
 Starting internal process %s %s (working directory %s) from app %s, pid %u. New PID %u\n
 Starting process %s %s (working directory %s) as app %s\n
+Starting vrcompositor process: %s args: %s, in folder %s\n
 SteamAPI_GetHSteamUser
 SteamAPI_GetSteamInstallPath
 SteamAPI_Init
@@ -4103,6 +4117,7 @@ SteamParties002
 SteamSteamVRPrivate001
 SteamSteamVRPrivate002
 SteamStreaming
+SteamStreamingVRPairedInvite
 SteamStreamingVRTransitionInvite
 SteamUser023
 SteamUtils010
@@ -4121,8 +4136,6 @@ Symbol name "
 Syntax error: value, object or array expected.
 System audio devices:\n
 SystemTimeToFileTime
-TV3@
-TW3@
 TdhEnumerateManifestProviderEvents
 Temporary Redirect
 TerminateProcess
@@ -4229,6 +4242,7 @@ USB Service Busy (140)
 USER32.dll
 UYVY
 Unable to LoadChaperoneFile in ExportLiveToBuffer
+Unable to LoadChaperoneFile in GetCurrentChaperoneBoundsInRawAppWorld
 Unable to SetNamedPipeHandleState on pipe %s after connecting because %s\n
 Unable to add action %s because %s\n
 Unable to assign controller roles. Trying again in %f seconds.\n
@@ -4264,6 +4278,7 @@ Unable to erase setting:
 Unable to figure out controller type
 Unable to find Steam installation (2000)
 Unable to find VRDashboard at %s\n
+Unable to find path to current module, so vrcompositor can't be started\n
 Unable to get IMMDeviceEnumerator, hr = 0x%08x\n
 Unable to get app_key parameter
 Unable to get binding_url parameter
@@ -4292,8 +4307,8 @@ Unable to parse perimeter\n
 Unable to parse presence entry '%s' in %s\n
 Unable to parse seated origin\n
 Unable to parse settings path: 
+Unable to parse setup standing origin for steam link + quest\n
 Unable to parse setup standing origin\n
-Unable to parse standing origin\n
 Unable to parse token length
 Unable to read %u bytes to offset %u in %s\n
 Unable to read VR Path Registry from 
@@ -4439,6 +4454,7 @@ VRApplication_Utility
 VRApplication_VRMonitor
 VRApplication_WebHelper
 VRAudioDevices_Init
+VRCOMPOSITOR_ARGS
 VRDashboard (%s) could not be started: %s\n
 VRDashboard (%s) started with pid %u\n
 VRDashboard process %u has stopped. Attempt %d. Restarting it.\n
@@ -4456,6 +4472,7 @@ VREvent_ButtonTouch
 VREvent_ButtonUnpress
 VREvent_ButtonUntouch
 VREvent_CameraSettingsHaveChanged
+VREvent_CapabilitiesChanged
 VREvent_ChaperoneDataHasChanged
 VREvent_ChaperoneFlushCache
 VREvent_ChaperoneRoomSetupCommitted
@@ -4532,7 +4549,6 @@ VREvent_Monitor_ShowHeadsetView
 VREvent_MouseButtonDown
 VREvent_MouseButtonUp
 VREvent_MouseMove
-VREvent_MutualSteamCapabilitiesChanged
 VREvent_None
 VREvent_Notification_BeginInteraction
 VREvent_Notification_Destroyed
@@ -4731,6 +4747,7 @@ VRInitError_Driver_RuntimeOutOfDate
 VRInitError_Driver_TrackedDeviceInterfaceUnknown
 VRInitError_Driver_Unknown
 VRInitError_Driver_WirelessHmdNotConnected
+VRInitError_Driver_WirelessHmdNotConnectedAndNoSteam
 VRInitError_IPC_CompositorConnectFailed
 VRInitError_IPC_CompositorInitFailed
 VRInitError_IPC_CompositorInvalidConnectResponse
@@ -4992,6 +5009,8 @@ VRMsg_ShouldKillTheaterPancakeProcess
 VRMsg_ShouldKillTheaterPancakeProcessResponse
 VRMsg_StartAutolaunchOverlays
 VRMsg_StartHomeAppResponse
+VRMsg_StartVRCompositor
+VRMsg_StartVRCompositorResponse
 VRMsg_TrackedCamera_Enable
 VRMsg_TrackedCamera_EnableResponse
 VRMsg_TrackedCamera_GetDistortion
@@ -5200,13 +5219,11 @@ WorkshopSelectConfig for BindingOutOfDate for %s(%s) attempt to set default bind
 WorkshopSelectConfig for BindingOutOfDate for %s(%s) when we don't have a binding at all for that controller type\n
 WriteFile
 X-Frame-Options: sameorigin\r\nContent-Security-Policy: default-src 'self'
-XU3@
-XV3@
 XXXX PNG chunk not known
-Xg8@
-Xq3@
+Xa9@
+Xj9@
+XrB@
 XsBI
-Xx8@
 YUY2
 Zjz\v
 [%x:%x:%x:%x:%x:%x:%x:%x]
@@ -5305,6 +5322,7 @@ Zjz\v
 [IPC] SharedMem access invalid: %x\n
 [IPC] The owner SID is invalid.\n
 [IPC] Warning, existing file mapping for %s (%d) is too small (%d)\n
+[IVRChaperoneServerDriver] update the standing for an invalid universe, failed
 [Init] %d: (%d, %d) %dx%d "%s" refresh %d\n
 [Init] Attached Displays:\n
 [Init] Chaperone server failed with %s\n
@@ -5422,6 +5440,9 @@ Zjz\v
 [Remapping] Parsing remapping data failed for controller type: %s.\n
 [Remapping] Parsing remapping data succeeded for controller type: %s.\n
 [Remapping] Parsing remapping did not finish for controller type: %s.\n
+[Remapping] RemapBinding COMPONENT success. RemapModeBinding of path:: %s::\n
+[Remapping] RemapBinding INPUT success. RemapModeInputBinding of path::mode::input: %s::%s::%s. grp::mul %s::%s\n
+[Remapping] RemapBinding MODE success. RemapModeBinding of path::mode: %s::%s\n
 [Remapping] RemapBinding failed. ModeInput binding has no inputs. path::mode::num inputs: %s::%s::%lu\n
 [Remapping] RemapBinding failed. ModeInput binding has too many inputs. path::mode::num inputs: %s::%s::%lu\n
 [Remapping] RemapBinding failed. RemapModeBinding of path::mode: %s::%s\n
@@ -5429,10 +5450,12 @@ Zjz\v
 [Remapping] RemapChord failed. 'inputs' member in chord does not exist or is not an array.
 [Remapping] RemapChord failed. Input element in chord has odd number of elements. Should be 2, instead is %u
 [Remapping] RemapParameters failed. No parameter_mode named: '%s'.\n
+[Remapping] Remapping binding: %s
 [Remapping] Replacing pose '%s' with '%s' on controller type '%s'
 [Remapping] Setting up device remapping for controller type: %s.\n
 [Remapping] Skipped remapping of chord with path::input: %s::%s\n
 [Remapping] Skipped remapping of path::mode: %s::%s\n
+[Remapping] Starting on actionSet: %s
 [Settings] %s %s unknown type\n
 [Settings] Load Json Settings from %s\n
 [Settings] No or invalid additional device settings at '%s'\n
@@ -6240,6 +6263,7 @@ enablePlaybackMirror
 enablePlaybackMirrorIndependentVolume
 enableRecordingDeviceOverride
 enableSafeMode
+enableSpatialize
 enableYAMLCompatibility
 enabled
 enabled_by_default
@@ -6399,44 +6423,8 @@ grip
 grip_limit_transforms
 group
 guid
-h09@
-h19@
-h29@
-h39@
-h49@
-h59@
-h69@
-h79@
-h89@
-h99@
-hA9@
 hB9@
-hC9@
-hD9@
-hE9@
-hF9@
-hG9@
-hH9@
-hI9@
-hJ9@
-hK9@
-hL9@
-hM9@
-hN9@
-hO9@
-hP9@
 hPU3
-hQ9@
-hR9@
-hS9@
-hT9@
-hU9@
-hV9@
-hW9@
-hX9@
-hY9@
-hZ9@
-ha9@
 half_thresholds
 hand_interaction_ext
 hand_priority
@@ -6453,56 +6441,30 @@ has_force
 has_ready_ext
 has_touch
 has_value
-hb9@
-hc9@
-hd9@
-he8@
-he9@
 header
 header crc mismatch
 height
 held
 hex_property
-hf9@
-hg9@
-hh9@
-hi9@
 hidden
 hide_callout
-hj9@
-hk9@
-hl9@
+hide_dashboard_requested
 hlvr/mailbox
 hlvr/webui
-hm9@
 hmdAllowsClientToControlTextureIndex
 hmd_presence
 hmd_settings_key
-hn9@
-ho9@
 holographic
 holographic_controller
-hp9@
 hpmotioncontroller
-hq3@
-hq9@
-hr9@
-hs9@
-ht9@
 html
 http:
 http://
 http_cb
 https:
 https://
-hu9@
 hu_hu
 hungarian
-hv9@
-hw9@
-hx9@
-hy9@
-hz9@
 i91k
 i]Wb
 iauds
@@ -6841,7 +6803,6 @@ ko_kr
 koreana
 l6qnk
 lDa>
-lW3@
 label
 language_tag
 lastHmdPlaybackDeviceId
@@ -6897,6 +6858,7 @@ m_nMaxLogBufferingSize > 0
 m_pData
 m_pProperties->CreatePropertyContainer( k_ulPathAliasInfoContainer ) Failed
 m_pProperties->CreatePropertyContainer( k_ulRootPathContainer ) Failed
+m_pProperties->CreatePropertyContainer( k_ulUntrackedPathContainer ) Failed
 m_pWebSteam != nullptr
 m_pWebThread != nullptr
 m_pWebThread && m_pWebThread->GetWebConsole()
@@ -7107,7 +7069,9 @@ overlays
 override_throttling
 overwrite.vrsettings
 owned
+pA3@
 pBegin == pEnd
+pC9@
 pEnd > pBegin
 pMGConnect != nullptr
 pNewResource
@@ -7118,7 +7082,6 @@ pProcessId
 pQueue->GetMetaContainerHandle() == ulExistingQueue
 pSharedState != nullptr
 pUrl != nullptr
-pW3@
 pWebSocketMessage
 package
 packed
@@ -7137,7 +7100,6 @@ path_handles
 paths
 payload
 pbrMetallicRoughness
-pd8@
 pending_file_saved
 perfcheck
 personal
@@ -7206,7 +7168,6 @@ property_containers
 property_contents
 property_number
 proximity
-pt8@
 pt_br
 pt_pt
 public
@@ -7422,6 +7383,7 @@ socket error
 socket: %d
 source
 source_code_info
+source_is_vrlink_remote
 source_type
 sources
 south
@@ -7430,10 +7392,12 @@ span
 spanish
 sparse
 spatialAnchorsSupport
+spatialize
 spew_stats
 spot
 ssl:
 stackLimit
+standaloneSystemLayer
 standing
 start
 starts_theater_mode
@@ -7524,7 +7488,6 @@ systemui_dashboard_private
 tRNS after IDAT
 tRNS before PLTE
 tRNS with alpha
-tV3@
 tags
 target
 targets
@@ -7562,6 +7525,7 @@ toType
 to_controller_type
 to_profile_missing_from_component
 toggle_button
+toggle_dashboard_requested
 tolower
 too large
 too many codes
@@ -7714,6 +7678,7 @@ vrappconfig
 vrclient Shared Lib Not Found (102)
 vrcombined_log.previous.txt
 vrcombined_log.txt
+vrcompositor.exe
 vrcompositor_mailbox
 vrcompositor_systemlayer
 vrdashboard.exe
@@ -7782,13 +7747,12 @@ wrong version
 ws handshake error
 wss:
 x-steamvr-secret
-xU3@
-xV3@
+xD9@
 x_path
-xc8@
+xd9@
 xdigit
 xmag
-xp1@
+xrB@
 y9*O
 y_path
 yfov

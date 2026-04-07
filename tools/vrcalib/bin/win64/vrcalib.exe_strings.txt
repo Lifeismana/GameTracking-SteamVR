@@ -1,0 +1,2224 @@
+        %f\n
+        AMD flop count: %.5g\n
+        AMD nnz(L):     %.5g\n
+        a dense node has degree >= max(16,(%.5g)*sqrt(n))\n
+        a dense row has degree >= max(16,(%.5g)*sqrt(ncol))\n
+        flop count: %.5g\n
+        nd_camd: use constrained min degree: %s\n
+        nd_compress: compress the graph:     %s\n
+        nd_small: # nodes in uncut subgraph: %d\n
+        nnz(L):     %.5g\n
+        prune_dense2: for pruning dense rows for AA':  %s\n
+        prune_dense2: for pruning dense rows for AA': %.5g\n
+        prune_dense: for pruning dense nodes:   %.5g\n
+        prune_dense: for pruning dense nodes:   %s\n
+    %f  %f  %f\n
+    %f degrees around ( %f , %f , %f )\n
+    (s <= %g and 
+    /bgcolor r g b -- default: 0 0 0)\n
+    /bgcolorpixel x y -- read the bg color from a specific pixel)\n
+    /hmdconfig device_config.json\n
+    /hmdconfig-framedefaults -- add steam frame defaults to the hmdconfig (if unspecified) like scanout scaling\n
+    /interpolation <int> -- default: 1 (linear).  2: cubic.  Passed directly to opencv::remap InterpolationFlags\n
+    /maketerminal\n
+    /over <fg> <bg> <output>\n
+    /predistort <hmd filename> <input image filename> <output image filename> [/donotrotate] [source image focal length (pixels)] [/withimagepose followed by the Matrix34 values and the image width (meters) [and IPD (meters) optionally, incompatible with /donotrotate] (e.g. r11 r12 r13 t1 r21 ... r33 t3 img_width [ipd])]\n
+    /terminalfont file.ttf\n
+    /terminalfontdebug\n
+    /terminalfontoutput fontname.vrfont \n
+    /terminaloutput terminal.txt \n
+    /terminalsize x y -- (default 80 24)\n
+    /withimagepose followed by the Matrix34 values and the image width( meters )and IPD( meters ) e.g.r11 r12 r13 t1 r21 ... r33 t3 img_width ipd \n
+    Cholesky flop count: %.5g\n
+    Layer Composition\n
+    Nonzeros in L:       %.5g\n
+    Select best ordering tried.\n
+    Terminal / Font handling\n
+    Two supernodes are merged if
+    Update/downdate flop count: %.5g\n
+    backup method: 
+    blue dst %d %d %d %d\n
+    blue src %d %d %d %d\n
+    center  %f  %f\n
+    coeffs\n
+    error string: %s\n
+    eye %d\n
+    method %d: 
+    model  %s\n
+    red dst %d %d %d %d\n
+    red src %d %d %d %d\n
+    s = # columns in two adjacent supernodes\n
+    sizeof(BLAS_INT): %d (integer used in the BLAS)\n
+    sizeof(Int):      %d (CHOLMOD's basic integer)\n
+    sizeof(SuiteSparse_long):  %d\n
+    sizeof(double):   %d\n
+    sizeof(int):      %d\n
+    sizeof(void *):   %d\n
+    z = % of zeros in new supernode if they are merged.\n
+  %30s : %10.5f   %10.5f\n
+  Architecture: %s\n
+  Results from most recent analysis:\n
+  dbound:  LDL' diagonal threshold: % .5g\n    Entries with abs. value less than dbound are replaced with +/- dbound.\n
+  final_asis: FALSE, convert when done\n
+  final_asis: TRUE, leave as is\n
+  final_ll: FALSE, convert to LDL' form\n
+  final_ll: TRUE, convert to LL' form\n
+  final_monotonic: FALSE, do not ensure L is monotonic\n
+  final_monotonic: TRUE, ensure L is monotonic\n
+  final_pack: FALSE, do not pack when done\n
+  final_pack: TRUE, pack when done\n
+  final_resymbol: remove zeros from amalgamation: %s\n
+  final_super: FALSE, convert to simplicial form\n
+  final_super: TRUE, leave in supernodal form\n
+  grow0: memory reallocation: % .5g\n
+  grow1: memory reallocation: % .5g\n
+  grow2: memory reallocation: %g\n
+  maxrank:    update/downdate rank:   %d\n
+  memory blocks in use:    %8.0f\n
+  memory in use (MB):      %8.1f\n
+  nmethods:   number of ordering methods to try: 
+  nmethods=0: default strategy:  Try user permutation if given.  Try AMD.\n
+  nrelax, zrelax:  supernodal amalgamation rule:\n
+  peak memory usage (MB):  %8.1f\n
+  supernodal control: %d
+ # of columns: 
+ (Secant condition).
+ (s <= %g and 
+ (s <= %g) or (no new zero entries) or\n
+ (z < %.5g%%)\n
+ ** On entry to 
+ ------ (%d,%d,%d) Relative error worse than %g
+ @F:\vr\main\src\thirdparty\ceres-solver\1.13.0\suitesparse-metis-for-windows-master\SuiteSparse\CHOLMOD\Include\../Cholesky/cholmod_resymbol.c
+ BODY:
+ DLAMC2,
+ Filename base: 
+ If, after inspection, the value EMIN looks
+ Inner iteration cost: 
+ Trust region step cost: 
+ WARNING. The value EMIN may be incorrect:-
+ absolute model cost change: 
+ acceptable please comment out 
+ and has size 
+ and would have 
+ block  row  col        user dx/dy    num diff dx/dy         abs error    relative error         parameter          residual\n
+ but new size is 
+ but was given a block of size 
+ bytes.
+ cluster pair (
+ eliminator time: 
+ flops: 
+ for detail.\n
+ had 
+ is invalid.
+ max_num_nonzeros: 
+ none pruned
+ num_nonzeros: 
+ of size 
+ of size: 
+ otherwise supply EMIN explicitly.
+ parameter number 
+ parameters, this will allocate a dense approximate inverse Hessian
+ radius: 
+ relative model cost change: 
+ row blocks.
+ storage time:
+ structure time: 
+ the IF block as marked within the code of routine
+ to initial inverse 
+ to initial inverse Hessian 
+ while the parameterization has a global 
+ with new parameter 
+# of rows: 
+% 10d % 10d %17f\n
+% 4d % 8e   % 3.2e   % 3.2e  % 3.2e  % 3.2e % 3.2e     % 4d   % 3.2e   % 3.2e
+% 4d: f:% 8e d:% 3.2e g:% 3.2e h:% 3.2e s:% 3.2e e:% 3d it:% 3.2e tt:% 3.2e
+%02x
+%04X
+%12g 
+%17f\n
+%6d %4d %4d %17g %17g %17g %17g %17g %17g
+%c%02d%02d %02d:%02d:%02d.%06d %5u %s:%d] RAW: 
+%f  %f  %f  %f  %f  %f  %f  %f\n
+%hu,%hu,'%4c',%hu
+%s: end of file\n
+%s: illegal error number %d\n
+' is not a number.
+'A' Must be non NULL
+'A->block_structure()' Must be non NULL
+'CreateClusterGraph(cluster_visibility)' Must be non NULL
+'CreateSchurComplementGraph(visibility)' Must be non NULL
+'Degree2MaximumSpanningForest(*cluster_graph)' Must be non NULL
+'Evaluator::Create(evaluator_options_, program, &error)' Must be non NULL
+'L' Must be non NULL
+'LineSearch::Create(ceres::ARMIJO, line_search_options, &message)' Must be non NULL
+'SchurEliminatorBase::Create(options_)' Must be non NULL
+'TrustRegionStrategy::Create(strategy_options)' Must be non NULL
+'TrustRegionStrategy::Create(trs_options)' Must be non NULL
+'b' Must be non NULL
+'block_cols' Must be non NULL
+'block_rows' Must be non NULL
+'block_structure_.get()' Must be non NULL
+'bs' Must be non NULL
+'callback' Must be non NULL
+'callback_' Must be non NULL
+'centers' Must be non NULL
+'cluster_pairs' Must be non NULL
+'cluster_visibility' Must be non NULL
+'companion_matrix_ptr' Must be non NULL
+'cost' Must be non NULL
+'cost_function' Must be non NULL
+'dense_matrix' Must be non NULL
+'diagonal' Must be non NULL
+'error' Must be non NULL
+'factor' Must be non NULL
+'file' Must be non NULL
+'fixed_cost' Must be non NULL
+'fptr' Must be non NULL
+'function' Must be non NULL
+'group_sizes' Must be non NULL
+'jacobian' Must be non NULL
+'jacobians' Must be non NULL
+'linear_solver_' Must be non NULL
+'local_jacobians' Must be non NULL
+'matrix' Must be non NULL
+'membership' Must be non NULL
+'membership_vector' Must be non NULL
+'message' Must be non NULL
+'minimizer_options.evaluator->CreateJacobian()' Must be non NULL
+'minimum' Must be non NULL
+'new Graph<ParameterBlock*>' Must be non NULL
+'new' file exists
+'options.evaluator.get()' Must be non NULL
+'options_.evaluator.get()' Must be non NULL
+'options_.jacobian.get()' Must be non NULL
+'options_.trust_region_strategy.get()' Must be non NULL
+'ordering' Must be non NULL
+'pp' Must be non NULL
+'preconditioner_->GetCell(i, i, &pre_r, &pre_c, &pre_row_stride, &pre_col_stride)' Must be non NULL
+'problem' Must be non NULL
+'removed_parameter_blocks' Must be non NULL
+'residuals' Must be non NULL
+'sc->GetCell(i, i, &sc_r, &sc_c, &sc_row_stride, &sc_col_stride)' Must be non NULL
+'scale' Must be non NULL
+'sparse_cholesky_.get()' Must be non NULL
+'step' Must be non NULL
+'summary' Must be non NULL
+'values_.get()' Must be non NULL
+'visibility' Must be non NULL
+'x' Must be non NULL
+'y' Must be non NULL
+(always do simplicial)\n
+(always do supernodal)\n
+(supernodal if flops/lnz >= %g)\n
+(unknown)
+(unnamed)\n
+) satisfies Armijo, but has gradient >= 0, thus have passed 
+) violates Armijo sufficient condition, or has passed an 
+** On entry to %6s, parameter number %2i had an illegal value\n
+*** Check failure stack trace: ***\n
+*e_block_size != 0
+*row_block_size != 0
+, and failed to find 
+, bracket abs delta cost: 
+, bracket width: 
+, bracket_high: 
+, bracket_low: 
+, consider using the L-BFGS memory-efficient line search direction 
+, current: 
+, failed to produce a valid new direction at 
+, lowerbound: 
+, minimizing solution: 
+, please contact the developers!
+, prevent bisection (0.5) scaling, continuing with solve regardless.
+, previous: 
+, satisfying strong Wolfe conditions, initial_position: 
+, satisfying strong Wolfe conditions.
+, to < tolerance: 
+, tolerance: 
+, twice, but with different block sizes. Original 
+, unable to create line search.
+, with descent_direction_max_norm: 
+-1e+9999
+-Infinity
+. Allocating 
+. Did you 
+. Restarting, number of restarts: 
+. When using (L)BFGS, Solver::Options::line_search_type must be set to WOLFE.
+. You must add the parameter block to the problem before 
+..\..\src\logging.cc
+.00cfg
+.?AU_Crt_new_delete@std@@
+.?AV<lambda_5988553f49d72c2ef38be2afcdba607e>@@
+.?AV?$AutoDiffCostFunction@UInverseDistortionResidualCalculator@@$01$0BA@$0A@$0A@$0A@$0A@$0A@$0A@$0A@$0A@$0A@@ceres@@
+.?AV?$AutoDiffCostFunction@V?$Resid_Coeffs@UPolyDistorter@@@@$01$0BA@$0A@$0A@$0A@$0A@$0A@$0A@$0A@$0A@$0A@@ceres@@
+.?AV?$AutoDiffCostFunction@V?$Resid_FocusPctrEyeCoeffsDctr@UPolyDistorter@@@@$01$01$01$02$0BA@$0A@$0A@$0A@$0A@$0A@$0A@@ceres@@
+.?AV?$DynamicNumericDiffCostFunction@VCostFunction@ceres@@$0A@@ceres@@
+.?AV?$PartitionedMatrixView@$01$01$01@internal@ceres@@
+.?AV?$PartitionedMatrixView@$01$01$02@internal@ceres@@
+.?AV?$PartitionedMatrixView@$01$01$03@internal@ceres@@
+.?AV?$PartitionedMatrixView@$01$01$0?0@internal@ceres@@
+.?AV?$PartitionedMatrixView@$01$02$02@internal@ceres@@
+.?AV?$PartitionedMatrixView@$01$02$03@internal@ceres@@
+.?AV?$PartitionedMatrixView@$01$02$05@internal@ceres@@
+.?AV?$PartitionedMatrixView@$01$02$08@internal@ceres@@
+.?AV?$PartitionedMatrixView@$01$02$0?0@internal@ceres@@
+.?AV?$PartitionedMatrixView@$01$03$02@internal@ceres@@
+.?AV?$PartitionedMatrixView@$01$03$03@internal@ceres@@
+.?AV?$PartitionedMatrixView@$01$03$07@internal@ceres@@
+.?AV?$PartitionedMatrixView@$01$03$08@internal@ceres@@
+.?AV?$PartitionedMatrixView@$01$03$0?0@internal@ceres@@
+.?AV?$PartitionedMatrixView@$01$0?0$0?0@internal@ceres@@
+.?AV?$PartitionedMatrixView@$03$03$01@internal@ceres@@
+.?AV?$PartitionedMatrixView@$03$03$02@internal@ceres@@
+.?AV?$PartitionedMatrixView@$03$03$03@internal@ceres@@
+.?AV?$PartitionedMatrixView@$03$03$0?0@internal@ceres@@
+.?AV?$PartitionedMatrixView@$0?0$0?0$0?0@internal@ceres@@
+.?AV?$ProgramEvaluator@VBlockEvaluatePreparer@internal@ceres@@VBlockJacobianWriter@23@UNullJacobianFinalizer@23@@internal@ceres@@
+.?AV?$ProgramEvaluator@VScratchEvaluatePreparer@internal@ceres@@VCompressedRowJacobianWriter@23@UNullJacobianFinalizer@23@@internal@ceres@@
+.?AV?$ProgramEvaluator@VScratchEvaluatePreparer@internal@ceres@@VDenseJacobianWriter@23@UNullJacobianFinalizer@23@@internal@ceres@@
+.?AV?$ProgramEvaluator@VScratchEvaluatePreparer@internal@ceres@@VDynamicCompressedRowJacobianWriter@23@UDynamicCompressedRowJacobianFinalizer@23@@internal@ceres@@
+.?AV?$SchurEliminator@$01$01$01@internal@ceres@@
+.?AV?$SchurEliminator@$01$01$02@internal@ceres@@
+.?AV?$SchurEliminator@$01$01$03@internal@ceres@@
+.?AV?$SchurEliminator@$01$01$0?0@internal@ceres@@
+.?AV?$SchurEliminator@$01$02$02@internal@ceres@@
+.?AV?$SchurEliminator@$01$02$03@internal@ceres@@
+.?AV?$SchurEliminator@$01$02$05@internal@ceres@@
+.?AV?$SchurEliminator@$01$02$08@internal@ceres@@
+.?AV?$SchurEliminator@$01$02$0?0@internal@ceres@@
+.?AV?$SchurEliminator@$01$03$02@internal@ceres@@
+.?AV?$SchurEliminator@$01$03$03@internal@ceres@@
+.?AV?$SchurEliminator@$01$03$07@internal@ceres@@
+.?AV?$SchurEliminator@$01$03$08@internal@ceres@@
+.?AV?$SchurEliminator@$01$03$0?0@internal@ceres@@
+.?AV?$SchurEliminator@$01$0?0$0?0@internal@ceres@@
+.?AV?$SchurEliminator@$03$03$01@internal@ceres@@
+.?AV?$SchurEliminator@$03$03$02@internal@ceres@@
+.?AV?$SchurEliminator@$03$03$03@internal@ceres@@
+.?AV?$SchurEliminator@$03$03$0?0@internal@ceres@@
+.?AV?$SchurEliminator@$0?0$0?0$0?0@internal@ceres@@
+.?AV?$SizedCostFunction@$01$01$01$02$0BA@$0A@$0A@$0A@$0A@$0A@$0A@@ceres@@
+.?AV?$SizedCostFunction@$01$0BA@$0A@$0A@$0A@$0A@$0A@$0A@$0A@$0A@$0A@@ceres@@
+.?AV?$TypedLinearSolver@VBlockSparseMatrix@internal@ceres@@@internal@ceres@@
+.?AV?$TypedLinearSolver@VCompressedRowSparseMatrix@internal@ceres@@@internal@ceres@@
+.?AV?$TypedLinearSolver@VDenseSparseMatrix@internal@ceres@@@internal@ceres@@
+.?AV?$TypedPreconditioner@VBlockSparseMatrix@internal@ceres@@@internal@ceres@@
+.?AV?$TypedPreconditioner@VSparseMatrix@internal@ceres@@@internal@ceres@@
+.?AV?$_Func_base@NAEBN@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_5988553f49d72c2ef38be2afcdba607e>@@NAEBN@std@@
+.?AV?$_Iosb@H@std@@
+.?AV?$_Ref_count@V?$OrderedGroups@PEAN@ceres@@@std@@
+.?AV?$_Ref_count@VCoordinateDescentMinimizer@internal@ceres@@@std@@
+.?AV?$_Ref_count@VEvaluator@internal@ceres@@@std@@
+.?AV?$_Ref_count@VSparseMatrix@internal@ceres@@@std@@
+.?AV?$_Ref_count@VTrustRegionStrategy@internal@ceres@@@std@@
+.?AV?$basic_filebuf@DU?$char_traits@D@std@@@std@@
+.?AV?$basic_ifstream@DU?$char_traits@D@std@@@std@@
+.?AV?$basic_ios@DU?$char_traits@D@std@@@std@@
+.?AV?$basic_iostream@DU?$char_traits@D@std@@@std@@
+.?AV?$basic_istream@DU?$char_traits@D@std@@@std@@
+.?AV?$basic_istringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@
+.?AV?$basic_ostream@DU?$char_traits@D@std@@@std@@
+.?AV?$basic_ostringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@
+.?AV?$basic_streambuf@DU?$char_traits@D@std@@@std@@
+.?AV?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@
+.?AV?$basic_stringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@
+.?AV?$codecvt@_WDU_Mbstatet@@@std@@
+.?AV?$codecvt_utf8_utf16@_W$0BAPPPP@$0A@@std@@
+.?AV?$wstring_convert@V?$codecvt_utf8_utf16@_W$0BAPPPP@$0A@@std@@_WV?$allocator@_W@2@V?$allocator@D@2@@std@@
+.?AVArmijoLineSearch@internal@ceres@@
+.?AVBFGS@internal@ceres@@
+.?AVBlockJacobiPreconditioner@internal@ceres@@
+.?AVBlockRandomAccessDenseMatrix@internal@ceres@@
+.?AVBlockRandomAccessDiagonalMatrix@internal@ceres@@
+.?AVBlockRandomAccessDiagonalMatrixAdapter@?A0x6b7fb495@internal@ceres@@
+.?AVBlockRandomAccessMatrix@internal@ceres@@
+.?AVBlockRandomAccessSparseMatrix@internal@ceres@@
+.?AVBlockRandomAccessSparseMatrixAdapter@?A0x6b7fb495@internal@ceres@@
+.?AVBlockSparseMatrix@internal@ceres@@
+.?AVCXSparseCholesky@internal@ceres@@
+.?AVCauchyLoss@ceres@@
+.?AVCgnrLinearOperator@internal@ceres@@
+.?AVCgnrSolver@internal@ceres@@
+.?AVCompressedRowSparseMatrix@internal@ceres@@
+.?AVConjugateGradientsSolver@internal@ceres@@
+.?AVCoordinateDescentMinimizer@internal@ceres@@
+.?AVCostFunction@ceres@@
+.?AVDenseNormalCholeskySolver@internal@ceres@@
+.?AVDenseQRSolver@internal@ceres@@
+.?AVDenseSchurComplementSolver@internal@ceres@@
+.?AVDenseSparseMatrix@internal@ceres@@
+.?AVDoglegStrategy@internal@ceres@@
+.?AVDynamicCompressedRowSparseMatrix@internal@ceres@@
+.?AVDynamicCostFunction@ceres@@
+.?AVDynamicSparseNormalCholeskySolver@internal@ceres@@
+.?AVEvaluator@internal@ceres@@
+.?AVException@Json@@
+.?AVGradientCheckingCostFunction@?A0xd6d15ff6@internal@ceres@@
+.?AVGradientCheckingIterationCallback@internal@ceres@@
+.?AVImplicitSchurComplement@internal@ceres@@
+.?AVIterationCallback@ceres@@
+.?AVIterativeSchurComplementSolver@internal@ceres@@
+.?AVLBFGS@internal@ceres@@
+.?AVLevenbergMarquardtStrategy@internal@ceres@@
+.?AVLineSearch@internal@ceres@@
+.?AVLineSearchDirection@internal@ceres@@
+.?AVLineSearchMinimizer@internal@ceres@@
+.?AVLineSearchPreprocessor@internal@ceres@@
+.?AVLinearOperator@internal@ceres@@
+.?AVLinearSolver@internal@ceres@@
+.?AVLogFileObject@?A0x89f2ce2c@google@@
+.?AVLogStream@LogMessage@google@@
+.?AVLogStreamBuf@base_logging@google@@
+.?AVLogger@base@google@@
+.?AVLoggingCallback@internal@ceres@@
+.?AVLogicError@Json@@
+.?AVLossFunction@ceres@@
+.?AVLowRankInverseHessian@internal@ceres@@
+.?AVMinimizer@internal@ceres@@
+.?AVNonlinearConjugateGradient@internal@ceres@@
+.?AVPartitionedMatrixViewBase@internal@ceres@@
+.?AVPreconditioner@internal@ceres@@
+.?AVPreprocessor@internal@ceres@@
+.?AVRuntimeError@Json@@
+.?AVSchurComplementSolver@internal@ceres@@
+.?AVSchurEliminatorBase@internal@ceres@@
+.?AVSchurJacobiPreconditioner@internal@ceres@@
+.?AVSolver@ceres@@
+.?AVSparseCholesky@internal@ceres@@
+.?AVSparseMatrix@internal@ceres@@
+.?AVSparseMatrixPreconditionerWrapper@internal@ceres@@
+.?AVSparseNormalCholeskySolver@internal@ceres@@
+.?AVSparseSchurComplementSolver@internal@ceres@@
+.?AVStateUpdatingCallback@internal@ceres@@
+.?AVSteepestDescent@internal@ceres@@
+.?AVStyledWriter@Json@@
+.?AVSuiteSparseCholesky@internal@ceres@@
+.?AVTripletSparseMatrix@internal@ceres@@
+.?AVTrustRegionMinimizer@internal@ceres@@
+.?AVTrustRegionPreprocessor@internal@ceres@@
+.?AVTrustRegionStrategy@internal@ceres@@
+.?AVVisibilityBasedPreconditioner@internal@ceres@@
+.?AVWolfeLineSearch@internal@ceres@@
+.?AVWriter@Json@@
+.?AV_Facet_base@std@@
+.?AV_Ref_count_base@std@@
+.?AVbad_alloc@std@@
+.?AVbad_array_new_length@std@@
+.?AVbad_cast@std@@
+.?AVcodecvt_base@std@@
+.?AVexception@std@@
+.?AVfacet@locale@std@@
+.?AVios_base@std@@
+.?AVrange_error@std@@
+.?AVruntime_error@std@@
+.?AVtype_info@@
+.AGLOG_v
+.CRT$XCA
+.CRT$XCAA
+.CRT$XCL
+.CRT$XCU
+.CRT$XCZ
+.CRT$XIA
+.CRT$XIAA
+.CRT$XIAC
+.CRT$XIC
+.CRT$XIZ
+.CRT$XLA
+.CRT$XLZ
+.CRT$XPA
+.CRT$XPZ
+.CRT$XTA
+.CRT$XTZ
+.bss
+.data
+.data$r
+.idata$2
+.idata$3
+.idata$4
+.idata$5
+.idata$6
+.json
+.log.
+.pdata
+.png
+.rdata
+.rdata$T
+.rdata$r
+.rdata$zzzdbg
+.rsrc$01
+.rsrc$02
+.rtc$IAA
+.rtc$IZZ
+.rtc$TAA
+.rtc$TZZ
+.text$di
+.text$mn
+.text$mn$00
+.text$x
+.text$yd
+.tls
+.tls$
+.tls$ZZZ
+.txt
+.xdata
+.xdata$x
+/bgcolor
+/bgcolor requires r g b args
+/bgcolorpixel
+/bgcolorpixel requires x y args
+/bin/mail
+/donotrotate
+/hmdconfig
+/hmdconfig device_config.json
+/hmdconfig-framedefaults
+/interpolation
+/interpolation requires int args
+/maketerminal
+/over
+/over <fg> <bg> <output>
+/predistort
+/predistort ... /withimagepose requires 12 values for the pose matrix and the image width, and optionally the IPD
+/predistort requires hmd config, input image, and output image filename, and either source image focal length in pixels or /withimagepose followed by the values of the pose matrix and the image width
+/solve_pts_
+/terminalfont
+/terminalfont ttfpath
+/terminalfontdebug
+/terminalfontoutput
+/terminalfontoutput output.vrfont
+/terminalimages
+/terminalimages requires <undistort> <distort>
+/terminaloutput
+/terminaloutput output
+/terminalsize
+/terminalsize requires nx ny
+/tmp
+/user/ankle/left
+/user/ankle/right
+/user/camera
+/user/chest
+/user/elbow/left
+/user/elbow/right
+/user/foot/left
+/user/foot/right
+/user/hand/left
+/user/hand/right
+/user/keyboard
+/user/knee/left
+/user/knee/right
+/user/shoulder/left
+/user/shoulder/right
+/user/waist
+/user/wrist/left
+/user/wrist/right
+/withimagepose
+/withimagepose requires 12 values for the pose matrix, 1 for the image width, and 1 for IPD
+0 != function->num_residuals()
+0123456789ABCDEF
+1e+9999
+333333
+4\nU#t4
+< Solver::Options::line_search_sufficient_curvature_decrease.
+< Solver::Options::min_line_search_step_contraction.
+<= Solver::Options::initial_trust_region_radius.
+<= Solver::Options::max_linear_solver_iterations.
+<= Solver::Options::max_lm_diagonal.
+<= Solver::Options::max_trust_region_radius.
+<unknown>
+========== Jacobian for block %d: (%ld by %ld)) ==========\n
+??0?$basic_ios@DU?$char_traits@D@std@@@std@@IEAA@XZ
+??0?$basic_iostream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@@Z
+??0?$basic_istream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@_N@Z
+??0?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@_N@Z
+??0?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAA@XZ
+??0?$codecvt@_WDU_Mbstatet@@@std@@QEAA@_K@Z
+??0Mat@cv@@QEAA@$$QEAV01@@Z
+??0Mat@cv@@QEAA@AEBV01@@Z
+??0Mat@cv@@QEAA@AEBV01@AEBV?$Rect_@H@1@@Z
+??0Mat@cv@@QEAA@HHH@Z
+??0Mat@cv@@QEAA@HHHAEBV?$Scalar_@N@1@@Z
+??0Mat@cv@@QEAA@HHHPEAX_K@Z
+??0Mat@cv@@QEAA@XZ
+??0_InputArray@cv@@QEAA@AEBVMatExpr@1@@Z
+??0_Lockit@std@@QEAA@H@Z
+??1?$basic_ios@DU?$char_traits@D@std@@@std@@UEAA@XZ
+??1?$basic_iostream@DU?$char_traits@D@std@@@std@@UEAA@XZ
+??1?$basic_istream@DU?$char_traits@D@std@@@std@@UEAA@XZ
+??1?$basic_ostream@DU?$char_traits@D@std@@@std@@UEAA@XZ
+??1?$basic_streambuf@DU?$char_traits@D@std@@@std@@UEAA@XZ
+??1Mat@cv@@QEAA@XZ
+??1_Lockit@std@@QEAA@XZ
+??1ios_base@std@@UEAA@XZ
+??4?$_Yarn@D@std@@QEAAAEAV01@PEBD@Z
+??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@G@Z
+??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@H@Z
+??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@I@Z
+??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@N@Z
+??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@P6AAEAV01@AEAV01@@Z@Z
+??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@P6AAEAVios_base@1@AEAV21@@Z@Z
+??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@PEBX@Z
+??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@_J@Z
+??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@_K@Z
+??Bid@locale@std@@QEAA_KXZ
+??_7?$basic_ios@DU?$char_traits@D@std@@@std@@6B@
+??_7?$codecvt@_WDU_Mbstatet@@@std@@6B@
+??_7_Facet_base@std@@6B@
+??_7codecvt_base@std@@6B@
+??_7facet@locale@std@@6B@
+??_7ios_base@std@@6B@
+?UUUUUU
+?_BADOFF@std@@3_JB
+?_Decref@facet@locale@std@@UEAAPEAV_Facet_base@3@XZ
+?_Fiopen@std@@YAPEAU_iobuf@@PEBDHH@Z
+?_Getcat@?$codecvt@DDU_Mbstatet@@@std@@SA_KPEAPEBVfacet@locale@2@PEBV42@@Z
+?_Getgloballocale@locale@std@@CAPEAV_Locimp@12@XZ
+?_Gninc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAAPEADXZ
+?_Incref@facet@locale@std@@UEAAXXZ
+?_Init@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAAXXZ
+?_Init@locale@std@@CAPEAV_Locimp@12@_N@Z
+?_Ios_base_dtor@ios_base@std@@CAXPEAV12@@Z
+?_Ipfx@?$basic_istream@DU?$char_traits@D@std@@@std@@QEAA_N_N@Z
+?_Locimp_Addfac@_Locimp@locale@std@@CAXPEAV123@PEAVfacet@23@_K@Z
+?_Lock@?$basic_streambuf@DU?$char_traits@D@std@@@std@@UEAAXXZ
+?_New_Locimp@_Locimp@locale@std@@CAPEAV123@AEBV123@@Z
+?_Osfx@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAXXZ
+?_Pninc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAAPEADXZ
+?_Throw_C_error@std@@YAXH@Z
+?_Unlock@?$basic_streambuf@DU?$char_traits@D@std@@@std@@UEAAXXZ
+?_Xbad_alloc@std@@YAXXZ
+?_Xbad_function_call@std@@YAXXZ
+?_Xinvalid_argument@std@@YAXPEBD@Z
+?_Xlength_error@std@@YAXPEBD@Z
+?_Xout_of_range@std@@YAXPEBD@Z
+?always_noconv@codecvt_base@std@@QEBA_NXZ
+?cal_method
+?circle@cv@@YAXAEBV_InputOutputArray@1@V?$Point_@H@1@HAEBV?$Scalar_@N@1@HHH@Z
+?clone@Mat@cv@@QEBA?AV12@XZ
+?connectedComponents@cv@@YAHAEBV_InputArray@1@AEBV_OutputArray@1@HH@Z
+?convertTo@Mat@cv@@QEBAXAEBV_OutputArray@2@HNN@Z
+?copyTo@Mat@cv@@QEBAXAEBV_OutputArray@2@@Z
+?copyfmt@?$basic_ios@DU?$char_traits@D@std@@@std@@QEAAAEAV12@AEBV12@@Z
+?cout@std@@3V?$basic_ostream@DU?$char_traits@D@std@@@1@A
+?create@_OutputArray@cv@@QEBAXHHHH_NW4DepthMask@12@@Z
+?cvtColor@cv@@YAXAEBV_InputArray@1@AEBV_OutputArray@1@HH@Z
+?display_serial_number
+?divide@cv@@YAXAEBV_InputArray@1@0AEBV_OutputArray@1@NH@Z
+?empty@Mat@cv@@QEBA_NXZ
+?error@cv@@YAXHAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PEBD1H@Z
+?ffffff
+?flush@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@XZ
+?getMat_@_InputArray@cv@@QEBA?AVMat@2@H@Z
+?getRotationMatrix2D_@cv@@YA?AV?$Matx@N$01$02@1@V?$Point_@M@1@NN@Z
+?getTextSize@cv@@YA?AV?$Size_@H@1@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@HNHPEAH@Z
+?getloc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QEBA?AVlocale@2@XZ
+?id@?$codecvt@DDU_Mbstatet@@@std@@2V0locale@2@A
+?id@?$codecvt@_WDU_Mbstatet@@@std@@2V0locale@2@A
+?imbue@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAXAEBVlocale@2@@Z
+?imread@cv@@YA?AVMat@1@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@H@Z
+?imwrite@cv@@YA_NAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBV_InputArray@1@AEBV?$vector@HV?$allocator@H@std@@@3@@Z
+?in@?$codecvt@DDU_Mbstatet@@@std@@QEBAHAEAU_Mbstatet@@PEBD1AEAPEBDPEAD3AEAPEAD@Z
+?in@?$codecvt@_WDU_Mbstatet@@@std@@QEBAHAEAU_Mbstatet@@PEBD1AEAPEBDPEA_W3AEAPEA_W@Z
+?interface
+?kind@_InputArray@cv@@QEBA?AW4KindFlag@12@XZ
+?leading dimension invalid
+?merge@cv@@YAXAEBV_InputArray@1@AEBV_OutputArray@1@@Z
+?mul@Mat@cv@@QEBA?AVMatExpr@2@AEBV_InputArray@2@N@Z
+?ones@Mat@cv@@SA?AVMatExpr@2@V?$Size_@H@2@H@Z
+?out@?$codecvt@DDU_Mbstatet@@@std@@QEBAHAEAU_Mbstatet@@PEBD1AEAPEBDPEAD3AEAPEAD@Z
+?out@?$codecvt@_WDU_Mbstatet@@@std@@QEBAHAEAU_Mbstatet@@PEB_W1AEAPEB_WPEAD3AEAPEAD@Z
+?pbackfail@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAHH@Z
+?put@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@D@Z
+?putText@cv@@YAXAEBV_InputOutputArray@1@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$Point_@H@1@HNV?$Scalar_@N@1@HH_N@Z
+?rdbuf@?$basic_ios@DU?$char_traits@D@std@@@std@@QEAAPEAV?$basic_streambuf@DU?$char_traits@D@std@@@2@PEAV32@@Z
+?read@?$basic_istream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@PEAD_J@Z
+?rectangle@cv@@YAXAEBV_InputOutputArray@1@V?$Point_@H@1@1AEBV?$Scalar_@N@1@HHH@Z
+?remap@cv@@YAXAEBV_InputArray@1@AEBV_OutputArray@1@00HHAEBV?$Scalar_@N@1@@Z
+?sbumpc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QEAAHXZ
+?seekg@?$basic_istream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@_JH@Z
+?seekoff@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA?AV?$fpos@U_Mbstatet@@@2@_JHH@Z
+?seekpos@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA?AV?$fpos@U_Mbstatet@@@2@V32@H@Z
+?setTo@Mat@cv@@QEAAAEAV12@AEBV_InputArray@2@0@Z
+?setbuf@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAPEAV12@PEAD_J@Z
+?setprecision@std@@YA?AU?$_Smanip@_J@1@_J@Z
+?setstate@?$basic_ios@DU?$char_traits@D@std@@@std@@QEAAXH_N@Z
+?setw@std@@YA?AU?$_Smanip@_J@1@_J@Z
+?sgetc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QEAAHXZ
+?showmanyc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JXZ
+?snextc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QEAAHXZ
+?split@cv@@YAXAEBV_InputArray@1@AEBV_OutputArray@1@@Z
+?sputc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QEAAHD@Z
+?sputn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QEAA_JPEBD_J@Z
+?startio
+?sync@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAHXZ
+?tellg@?$basic_istream@DU?$char_traits@D@std@@@std@@QEAA?AV?$fpos@U_Mbstatet@@@2@XZ
+?threshold@cv@@YANAEBV_InputArray@1@AEBV_OutputArray@1@NNH@Z
+?uflow@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAHXZ
+?uncaught_exceptions@std@@YAHXZ
+?underflow@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAHXZ
+?unshift@?$codecvt@DDU_Mbstatet@@@std@@QEBAHAEAU_Mbstatet@@PEAD1AEAPEAD@Z
+?warpAffine@cv@@YAXAEBV_InputArray@1@AEBV_OutputArray@1@0V?$Size_@H@1@HHAEBV?$Scalar_@N@1@@Z
+?widen@?$basic_ios@DU?$char_traits@D@std@@@std@@QEBADD@Z
+?xsgetn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JPEAD_J@Z
+?xsputn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JPEBD_J@Z
+A and F must have same xtype
+A and L dimensions do not match
+A valid JSON document must be either an array or an object value.
+A's appended diagonal:\n
+A->num_rows() == A->num_cols()
+ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/
+AMD (or COLAMD if factorizing AA')\n
+AMD if factorizing A, COLAMD if factorizing AA')\n
+ARMIJO
+ASSERT: "%s" at %s:%d.\n
+Aliasing detected between existing parameter block at memory 
+Allocating values array with 
+Analysis
+Append
+Append Rows
+Applying approximate_eigenvalue_scale: 
+Applying remap WITH scanout scaling\n
+Applying remap to rgb\n
+Argument: 
+BFGS
+BFGS line search being created with: 
+BISECTION
+B\fp\v0
+BackSubstitute
+Bad escape sequence in string
+Bad unicode escape sequence in string: four digits expected.
+Bad unicode escape sequence in string: hexadecimal digit expected.
+Balanced companion matrix is\n
+Block ordering stats: 
+Block pair stats: 
+Bracket found: current step (
+Bracketing phase found step size: 
+Bset requires a single right-hand side
+Bset requires xtype of L and B to match
+C:\temp\
+C:\tmp\
+CFF 
+CGNR
+CGNR only supports IDENTITY and JACOBI preconditioners.
+CHANNEL:  %s\n
+CHOLMOD error: %s\n
+CHOLMOD failure: Integer overflow occurred.
+CHOLMOD failure: Invalid input.
+CHOLMOD failure: Method not installed.
+CHOLMOD failure: Out of memory.
+CHOLMOD failure: cholmod_factorize returned false but cholmod_common::status is CHOLMOD_OK.Please report this to ceres-solver@googlegroups.com.
+CHOLMOD nested dissection\n
+CHOLMOD version %d
+CHOLMOD warning: %s\n
+CHOLMOD warning: D for LDL' or diag(L) or LL' has tiny absolute value.
+CHOLMOD warning: Matrix not positive definite.
+CLUSTER_JACOBI
+CLUSTER_JACOBI requires Solver::Options::sparse_linear_algebra_library_type to be SUITE_SPARSE
+CLUSTER_TRIDIAGONAL
+CLUSTER_TRIDIAGONAL requires Solver::Options::sparse_linear_algebra_library_type to be SUITE_SPARSE
+CONVERGENCE
+COULD NOT CREATE A LOGGINGFILE %s!
+COULD NOT CREATE LOGFILE '%s'!\n
+CUBIC
+CXSparse Failure : Numeric factorization failed.
+CXSparse Failure : Symbolic factorization failed.
+CXSparse::SolveCholesky failed
+CX_SPARSE
+Camera
+Can't re-set the local parameterization; it leads to 
+Can't use SPARSE_NORMAL_CHOLESKY as sparse_linear_algebra_library_type is NO_SPARSE.
+Can't use SPARSE_NORMAL_CHOLESKY with EIGEN_SPARSE because Eigen's sparse linear algebra was not enabled when Ceres was built.
+Can't use SPARSE_SCHUR as sparse_linear_algebra_library_type is NO_SPARSE.
+Can't use SPARSE_SCHUR with EIGEN_SPARSE because Eigen's sparse linear algebra was not enabled when Ceres was built.
+Cannot append a matrix with row blocks to one without and vice versa.
+Canonical views clustering time (secs): 
+Cauchy step size: 
+Cell missing for block pair (
+Ceres Solver Report: Iterations: %d, Initial cost: %e, Final cost: %e, Termination: %s
+Ceres bug: NextDirection() called on BFGS after inverse Hessian 
+Ceres bug: NextDirection() called on L-BFGS after inverse Hessian 
+Ceres bug: No handler for interpolation_type: 
+Ceres bug: The residual block collection is null for parameter 
+Ceres bug: There is already a residual block collection 
+Ceres bug: f_high input to Wolfe Zoom invalid, please 
+Ceres bug: f_low input to Wolfe Zoom invalid, please contact 
+Ceres bug: final index into values_ and cols_ should be equal to 
+Ceres bug: lower-bound sample for interpolation is invalid, 
+Ceres internal error: 
+Ceres was compiled without support for 
+CgnrSolver::Solve
+Char size in undistorted space %f x %f pixels\n
+Check %s failed: %s
+Check failed: 
+Check failed: !RegionsAlias(existing_block, existing_block_size, new_block, new_block_size) 
+Check failed: !block_sizes.empty() 
+Check failed: !has_diagonal_appended_ 
+Check failed: !is_constant_ 
+Check failed: !parameter_blocks[i]->IsConstant() 
+Check failed: (row_blocks_.empty() && m.row_blocks().empty()) || (!row_blocks_.empty() && !m.row_blocks().empty()) 
+Check failed: UpdateLocalParameterizationJacobian() 
+Check failed: bracket_high.value_is_valid 
+Check failed: bracket_low.value_is_valid && bracket_low.gradient_is_valid 
+Check failed: cell_info != NULL 
+Check failed: collection->insert(value_type(key, data)).second 
+Check failed: cs_di_ipvec(symbolic_factor->pinv, b, scratch_, num_cols) 
+Check failed: cs_di_lsolve(numeric_factor->L, scratch_) 
+Check failed: cs_di_ltsolve(numeric_factor->L, scratch_) 
+Check failed: cs_di_pvec(symbolic_factor->pinv, scratch_, b, num_cols) 
+Check failed: find(residual_blocks_per_e_block.begin(), residual_blocks_per_e_block.end() - 1, 0) != residual_blocks_per_e_block.end() 
+Check failed: has_diagonal_appended_ 
+Check failed: is_positive_definite_ 
+Check failed: it != collection.end() 
+Check failed: local_parameterization_ == NULL 
+Check failed: lowerbound.value_is_valid 
+Check failed: new_parameterization != NULL 
+Check failed: new_parameterization->GlobalSize() == size_ 
+Check failed: numeric_factor_ != NULL 
+Check failed: optimal_point.vector_x_is_valid 
+Check failed: options().use_explicit_schur_complement 
+Check failed: options_.type == CLUSTER_JACOBI || options_.type == CLUSTER_TRIDIAGONAL 
+Check failed: product_storage_type == CompressedRowSparseMatrix::LOWER_TRIANGULAR || product_storage_type == CompressedRowSparseMatrix::UPPER_TRIANGULAR 
+Check failed: reordered_residual_blocks[i] != NULL 
+Check failed: reordered_residual_blocks[offsets[bucket]] == NULL 
+Check failed: residual_blocks_.get() != NULL 
+Check failed: residual_blocks_.get() == NULL 
+Check failed: size == existing_size 
+Check failed: values != NULL 
+Check failed: x != NULL 
+CloseHandle
+Columnwise
+Compute RHS
+Compute time: 
+ComputeStableSchurOrdering
+Congratulations, you found a Ceres bug! Please report this error 
+Congratulations, you found a bug in Ceres.
+Congratulations, you found a bug in Ceres. Please report it.
+Conjugate transpose
+ConstantParameterBlocks
+Convergence. |b| = 0.
+Convergence. |r| = %e <= %e.
+Cosine of angle between x and B x + g is 
+Cost and jacobian evaluation failed.
+Could not create log file
+Could not create logging file
+Couldn't write to file: 
+CreateDirectoryW
+CreateEventW
+CreateHessianGraph
+Created distortion maps\n
+Creating terminal font...\n
+Creating terminal output...\n
+DENSE_QR
+DENSE_SCHUR
+DGELQ2
+DGELQF
+DGELS 
+DGEMM 
+DGEMV 
+DGEQR2
+DGEQRF
+DGER  
+DISTORT_BSPLINE
+DISTORT_DPOLY3
+DISTORT_DPOLY3_SCALED
+DISTORT_DPOLY4_PANELSCALE
+DISTORT_DPOLY4_QUADRATIC_TILT
+DISTORT_DPOLY4_SCALED
+DISTORT_EXTENDED_FTHETA
+DISTORT_FOV1
+DISTORT_FOV2
+DISTORT_FOV3
+DISTORT_FTHETA
+DISTORT_NONE
+DISTORT_POLY2
+DISTORT_POLY2_TANGENT
+DISTORT_POLY3
+DISTORT_POLY3_TANGENT
+DISTORT_POLY3_TANGENT_SCALED
+DISTORT_R1_POLY_4
+DISTORT_RPOLY2_1
+DISTORT_RPOLY2_2
+DISTORT__COUNT
+DLASCL
+DOGLEG only supports exact factorization based linear solvers. If you want to use an iterative solver please use LEVENBERG_MARQUARDT as the trust_region_strategy_type
+DORM2R
+DORML2
+DORMLQ
+DORMQR
+DPOTF2
+DPOTRF
+DPOTRS
+DSYRK 
+DTRMM 
+DTRMV 
+DTRSM 
+DTRSV 
+DTRTRS
+Data Error\n
+DeleteCriticalSection
+DenseNormalCholeskySolver::Solve
+DenseQRSolver::Solve
+Diagonal
+Did you forget to call Program::SetParameterOffsetsAndIndex()? 
+Disabling inner iterations.
+Disabling inner iterations. Progress : 
+Distortion_Type
+Dogleg step size: 
+Dogleg subspace step size (1D): 
+Dogleg subspace step size: 
+Duplicate parameter blocks detected in a cost function. 
+Duplicate parameter blocks in a residual parameter 
+Dynamic e block size because the block size changed from 
+Dynamic f block size because the block size 
+Dynamic row block size because the block size changed from 
+Dynamic sparsity is only supported with SPARSE_NORMAL_CHOLESKY.
+DynamicSparseNormalCholeskySolver::CXSparse::Solve
+DynamicSparseNormalCholeskySolver::SuiteSparse::Solve
+EIGEN_SPARSE
+ERROR
+ERROR:  %s.\n
+ERROR:  CALIBRATION SOLVE FAILED\n
+ERROR:  Calibration solve did not converge.\n
+ERROR:  Camera intrinsics are null.\n
+ERROR:  Could not create distortion maps\n
+ERROR:  Could not find or create solver temporary directory ( %s ).\n
+ERROR:  Could not open dot pattern file ( %s ).\n
+ERROR:  Could not parse calibration params JSON file %s.\n
+ERROR:  Could not parse camera intrinsics( %s ).\n
+ERROR:  Could not parse dot pattern JSON file ( %s ).\n
+ERROR:  Could not read FileVersion in GetExeVersionInformation().\n
+ERROR:  Could not read HMD JSON file ( %s ).\n
+ERROR:  Could not read InternalName in GetExeVersionInformation().\n
+ERROR:  Could not read calibration parameters ( %s ).\n
+ERROR:  Could not read camera intrinsics ( %s ).\n
+ERROR:  Could not read dot pattern file ( %s ).\n
+ERROR:  Could not read input image ( %s ).\n
+ERROR:  Could not read translation info in GetExeVersionInformation().\n
+ERROR:  Could not write bit code dot images ( %s ).\n
+ERROR:  Could not write dot pattern to json file ( %s ).\n
+ERROR:  Could not write hmd file ( %s ).\n
+ERROR:  Could not write outputimage ( %s ).\n
+ERROR:  Distortion model inverse solve did not converge.\n
+ERROR:  Eye is not "left" or "right" ( %s ).\n
+ERROR:  GetExeVersionInformation() failed.\n
+ERROR:  GetFileVersionInfo() failed in GetExeVersionInformation().\n
+ERROR:  GetFileVersionInfoSize() failed in GetExeVersionInformation().\n
+ERROR:  Image dimensions don't match camera distorted or undistorted dimensions.\n
+ERROR:  Invalid calibration parameters.\n
+ERROR:  Invalid dist type / solve type combination.\n
+ERROR:  Invalid dot pattern JSON file ( %s ).\n
+ERROR:  Invalid eye index in calibration params JSON file.\n
+ERROR:  Invalid image width ( %f ).\n
+ERROR:  Inverse calculation failed.\n
+ERROR:  Path_GetExecutablePath() failed in GetExeVersionInformation().\n
+ERROR:  Sub-pixel pattern currently must be centered on green (i.e. green sub-pixel offset must be zero).\n
+ERROR:  The provided matHeadFromImageCenter does not contain a valid rortation.\n
+ERROR: Inverse calculation to determine guard band limits failed.\n
+ERROR: add inverses failed.\n
+ERROR: must specify /hmdconfig\n
+ERROR: must specify /withimagepose\n
+Eigen LLT decomposition failed.
+Eigen failure. Unable to perform dense Cholesky factorization.
+Eigen's sparse Cholesky factorization routines.
+Eliminate
+Empty escape sequence in string
+EnterCriticalSection
+Error created center point mapping. Cannot create font.\n
+Error number %d
+Error. Could not output atlas file\n
+Error. Could not output terminal file\n
+Evaluation of the residual %d failed during removal of fixed residual blocks.
+Evaluator::Jacobian
+Evaluator::Residual
+Evaluator::Total
+Exceeded stackLimit in readValue().
+F has the wrong dimensions
+F invalid
+F is too small
+F:\vr\main\src\thirdparty\ceres-solver\1.13.0\ceres-solver-1.13.0\include\ceres/dynamic_numeric_diff_cost_function.h
+F:\vr\main\src\thirdparty\ceres-solver\1.13.0\ceres-solver-1.13.0\include\ceres/ordered_groups.h
+F:\vr\main\src\thirdparty\ceres-solver\1.13.0\ceres-solver-1.13.0\internal\ceres/graph_algorithms.h
+F:\vr\main\src\thirdparty\ceres-solver\1.13.0\ceres-solver-1.13.0\internal\ceres/linear_solver.h
+F:\vr\main\src\thirdparty\ceres-solver\1.13.0\ceres-solver-1.13.0\internal\ceres/map_util.h
+F:\vr\main\src\thirdparty\ceres-solver\1.13.0\ceres-solver-1.13.0\internal\ceres/parameter_block.h
+F:\vr\main\src\thirdparty\ceres-solver\1.13.0\ceres-solver-1.13.0\internal\ceres/partitioned_matrix_view_impl.h
+F:\vr\main\src\thirdparty\ceres-solver\1.13.0\ceres-solver-1.13.0\internal\ceres/schur_complement_solver.h
+F:\vr\main\src\thirdparty\ceres-solver\1.13.0\ceres-solver-1.13.0\internal\ceres/schur_eliminator_impl.h
+F:\vr\main\src\thirdparty\ceres-solver\1.13.0\ceres-solver-1.13.0\internal\ceres\block_jacobian_writer.cc
+F:\vr\main\src\thirdparty\ceres-solver\1.13.0\ceres-solver-1.13.0\internal\ceres\block_random_access_diagonal_matrix.cc
+F:\vr\main\src\thirdparty\ceres-solver\1.13.0\ceres-solver-1.13.0\internal\ceres\block_random_access_sparse_matrix.cc
+F:\vr\main\src\thirdparty\ceres-solver\1.13.0\ceres-solver-1.13.0\internal\ceres\block_sparse_matrix.cc
+F:\vr\main\src\thirdparty\ceres-solver\1.13.0\ceres-solver-1.13.0\internal\ceres\callbacks.cc
+F:\vr\main\src\thirdparty\ceres-solver\1.13.0\ceres-solver-1.13.0\internal\ceres\canonical_views_clustering.cc
+F:\vr\main\src\thirdparty\ceres-solver\1.13.0\ceres-solver-1.13.0\internal\ceres\cgnr_solver.cc
+F:\vr\main\src\thirdparty\ceres-solver\1.13.0\ceres-solver-1.13.0\internal\ceres\compressed_col_sparse_matrix_utils.cc
+F:\vr\main\src\thirdparty\ceres-solver\1.13.0\ceres-solver-1.13.0\internal\ceres\compressed_row_jacobian_writer.cc
+F:\vr\main\src\thirdparty\ceres-solver\1.13.0\ceres-solver-1.13.0\internal\ceres\compressed_row_sparse_matrix.cc
+F:\vr\main\src\thirdparty\ceres-solver\1.13.0\ceres-solver-1.13.0\internal\ceres\conjugate_gradients_solver.cc
+F:\vr\main\src\thirdparty\ceres-solver\1.13.0\ceres-solver-1.13.0\internal\ceres\coordinate_descent_minimizer.cc
+F:\vr\main\src\thirdparty\ceres-solver\1.13.0\ceres-solver-1.13.0\internal\ceres\corrector.cc
+F:\vr\main\src\thirdparty\ceres-solver\1.13.0\ceres-solver-1.13.0\internal\ceres\cxsparse.cc
+F:\vr\main\src\thirdparty\ceres-solver\1.13.0\ceres-solver-1.13.0\internal\ceres\dense_qr_solver.cc
+F:\vr\main\src\thirdparty\ceres-solver\1.13.0\ceres-solver-1.13.0\internal\ceres\dense_sparse_matrix.cc
+F:\vr\main\src\thirdparty\ceres-solver\1.13.0\ceres-solver-1.13.0\internal\ceres\detect_structure.cc
+F:\vr\main\src\thirdparty\ceres-solver\1.13.0\ceres-solver-1.13.0\internal\ceres\dogleg_strategy.cc
+F:\vr\main\src\thirdparty\ceres-solver\1.13.0\ceres-solver-1.13.0\internal\ceres\dynamic_compressed_row_sparse_matrix.cc
+F:\vr\main\src\thirdparty\ceres-solver\1.13.0\ceres-solver-1.13.0\internal\ceres\dynamic_sparse_normal_cholesky_solver.cc
+F:\vr\main\src\thirdparty\ceres-solver\1.13.0\ceres-solver-1.13.0\internal\ceres\file.cc
+F:\vr\main\src\thirdparty\ceres-solver\1.13.0\ceres-solver-1.13.0\internal\ceres\gradient_checker.cc
+F:\vr\main\src\thirdparty\ceres-solver\1.13.0\ceres-solver-1.13.0\internal\ceres\gradient_checking_cost_function.cc
+F:\vr\main\src\thirdparty\ceres-solver\1.13.0\ceres-solver-1.13.0\internal\ceres\inner_product_computer.cc
+F:\vr\main\src\thirdparty\ceres-solver\1.13.0\ceres-solver-1.13.0\internal\ceres\iterative_schur_complement_solver.cc
+F:\vr\main\src\thirdparty\ceres-solver\1.13.0\ceres-solver-1.13.0\internal\ceres\lapack.cc
+F:\vr\main\src\thirdparty\ceres-solver\1.13.0\ceres-solver-1.13.0\internal\ceres\levenberg_marquardt_strategy.cc
+F:\vr\main\src\thirdparty\ceres-solver\1.13.0\ceres-solver-1.13.0\internal\ceres\line_search.cc
+F:\vr\main\src\thirdparty\ceres-solver\1.13.0\ceres-solver-1.13.0\internal\ceres\line_search_direction.cc
+F:\vr\main\src\thirdparty\ceres-solver\1.13.0\ceres-solver-1.13.0\internal\ceres\line_search_minimizer.cc
+F:\vr\main\src\thirdparty\ceres-solver\1.13.0\ceres-solver-1.13.0\internal\ceres\line_search_preprocessor.cc
+F:\vr\main\src\thirdparty\ceres-solver\1.13.0\ceres-solver-1.13.0\internal\ceres\linear_least_squares_problems.cc
+F:\vr\main\src\thirdparty\ceres-solver\1.13.0\ceres-solver-1.13.0\internal\ceres\linear_solver.cc
+F:\vr\main\src\thirdparty\ceres-solver\1.13.0\ceres-solver-1.13.0\internal\ceres\low_rank_inverse_hessian.cc
+F:\vr\main\src\thirdparty\ceres-solver\1.13.0\ceres-solver-1.13.0\internal\ceres\minimizer.cc
+F:\vr\main\src\thirdparty\ceres-solver\1.13.0\ceres-solver-1.13.0\internal\ceres\parameter_block_ordering.cc
+F:\vr\main\src\thirdparty\ceres-solver\1.13.0\ceres-solver-1.13.0\internal\ceres\partitioned_matrix_view.cc
+F:\vr\main\src\thirdparty\ceres-solver\1.13.0\ceres-solver-1.13.0\internal\ceres\polynomial.cc
+F:\vr\main\src\thirdparty\ceres-solver\1.13.0\ceres-solver-1.13.0\internal\ceres\preconditioner.cc
+F:\vr\main\src\thirdparty\ceres-solver\1.13.0\ceres-solver-1.13.0\internal\ceres\preprocessor.cc
+F:\vr\main\src\thirdparty\ceres-solver\1.13.0\ceres-solver-1.13.0\internal\ceres\problem_impl.cc
+F:\vr\main\src\thirdparty\ceres-solver\1.13.0\ceres-solver-1.13.0\internal\ceres\program.cc
+F:\vr\main\src\thirdparty\ceres-solver\1.13.0\ceres-solver-1.13.0\internal\ceres\reorder_program.cc
+F:\vr\main\src\thirdparty\ceres-solver\1.13.0\ceres-solver-1.13.0\internal\ceres\residual_block.cc
+F:\vr\main\src\thirdparty\ceres-solver\1.13.0\ceres-solver-1.13.0\internal\ceres\residual_block_utils.cc
+F:\vr\main\src\thirdparty\ceres-solver\1.13.0\ceres-solver-1.13.0\internal\ceres\schur_complement_solver.cc
+F:\vr\main\src\thirdparty\ceres-solver\1.13.0\ceres-solver-1.13.0\internal\ceres\schur_eliminator.cc
+F:\vr\main\src\thirdparty\ceres-solver\1.13.0\ceres-solver-1.13.0\internal\ceres\schur_jacobi_preconditioner.cc
+F:\vr\main\src\thirdparty\ceres-solver\1.13.0\ceres-solver-1.13.0\internal\ceres\single_linkage_clustering.cc
+F:\vr\main\src\thirdparty\ceres-solver\1.13.0\ceres-solver-1.13.0\internal\ceres\solver.cc
+F:\vr\main\src\thirdparty\ceres-solver\1.13.0\ceres-solver-1.13.0\internal\ceres\sparse_cholesky.cc
+F:\vr\main\src\thirdparty\ceres-solver\1.13.0\ceres-solver-1.13.0\internal\ceres\suitesparse.cc
+F:\vr\main\src\thirdparty\ceres-solver\1.13.0\ceres-solver-1.13.0\internal\ceres\triplet_sparse_matrix.cc
+F:\vr\main\src\thirdparty\ceres-solver\1.13.0\ceres-solver-1.13.0\internal\ceres\trust_region_minimizer.cc
+F:\vr\main\src\thirdparty\ceres-solver\1.13.0\ceres-solver-1.13.0\internal\ceres\trust_region_preprocessor.cc
+F:\vr\main\src\thirdparty\ceres-solver\1.13.0\ceres-solver-1.13.0\internal\ceres\trust_region_strategy.cc
+F:\vr\main\src\thirdparty\ceres-solver\1.13.0\ceres-solver-1.13.0\internal\ceres\visibility.cc
+F:\vr\main\src\thirdparty\ceres-solver\1.13.0\ceres-solver-1.13.0\internal\ceres\visibility_based_preconditioner.cc
+F:\vr\main\src\thirdparty\ceres-solver\1.13.0\ceres-solver-1.13.0\internal\ceres\wall_time.cc
+F:\vr\main\src\thirdparty\ceres-solver\1.13.0\suitesparse-metis-for-windows-master\SuiteSparse\CHOLMOD\Include\../Check/cholmod_check.c
+F:\vr\main\src\thirdparty\ceres-solver\1.13.0\suitesparse-metis-for-windows-master\SuiteSparse\CHOLMOD\Include\../Cholesky/cholmod_amd.c
+F:\vr\main\src\thirdparty\ceres-solver\1.13.0\suitesparse-metis-for-windows-master\SuiteSparse\CHOLMOD\Include\../Cholesky/cholmod_analyze.c
+F:\vr\main\src\thirdparty\ceres-solver\1.13.0\suitesparse-metis-for-windows-master\SuiteSparse\CHOLMOD\Include\../Cholesky/cholmod_colamd.c
+F:\vr\main\src\thirdparty\ceres-solver\1.13.0\suitesparse-metis-for-windows-master\SuiteSparse\CHOLMOD\Include\../Cholesky/cholmod_etree.c
+F:\vr\main\src\thirdparty\ceres-solver\1.13.0\suitesparse-metis-for-windows-master\SuiteSparse\CHOLMOD\Include\../Cholesky/cholmod_factorize.c
+F:\vr\main\src\thirdparty\ceres-solver\1.13.0\suitesparse-metis-for-windows-master\SuiteSparse\CHOLMOD\Include\../Cholesky/cholmod_postorder.c
+F:\vr\main\src\thirdparty\ceres-solver\1.13.0\suitesparse-metis-for-windows-master\SuiteSparse\CHOLMOD\Include\../Cholesky/cholmod_rowcolcounts.c
+F:\vr\main\src\thirdparty\ceres-solver\1.13.0\suitesparse-metis-for-windows-master\SuiteSparse\CHOLMOD\Include\../Cholesky/cholmod_rowfac.c
+F:\vr\main\src\thirdparty\ceres-solver\1.13.0\suitesparse-metis-for-windows-master\SuiteSparse\CHOLMOD\Include\../Cholesky/cholmod_solve.c
+F:\vr\main\src\thirdparty\ceres-solver\1.13.0\suitesparse-metis-for-windows-master\SuiteSparse\CHOLMOD\Include\../Core/cholmod_aat.c
+F:\vr\main\src\thirdparty\ceres-solver\1.13.0\suitesparse-metis-for-windows-master\SuiteSparse\CHOLMOD\Include\../Core/cholmod_band.c
+F:\vr\main\src\thirdparty\ceres-solver\1.13.0\suitesparse-metis-for-windows-master\SuiteSparse\CHOLMOD\Include\../Core/cholmod_change_factor.c
+F:\vr\main\src\thirdparty\ceres-solver\1.13.0\suitesparse-metis-for-windows-master\SuiteSparse\CHOLMOD\Include\../Core/cholmod_common.c
+F:\vr\main\src\thirdparty\ceres-solver\1.13.0\suitesparse-metis-for-windows-master\SuiteSparse\CHOLMOD\Include\../Core/cholmod_copy.c
+F:\vr\main\src\thirdparty\ceres-solver\1.13.0\suitesparse-metis-for-windows-master\SuiteSparse\CHOLMOD\Include\../Core/cholmod_dense.c
+F:\vr\main\src\thirdparty\ceres-solver\1.13.0\suitesparse-metis-for-windows-master\SuiteSparse\CHOLMOD\Include\../Core/cholmod_factor.c
+F:\vr\main\src\thirdparty\ceres-solver\1.13.0\suitesparse-metis-for-windows-master\SuiteSparse\CHOLMOD\Include\../Core/cholmod_memory.c
+F:\vr\main\src\thirdparty\ceres-solver\1.13.0\suitesparse-metis-for-windows-master\SuiteSparse\CHOLMOD\Include\../Core/cholmod_sparse.c
+F:\vr\main\src\thirdparty\ceres-solver\1.13.0\suitesparse-metis-for-windows-master\SuiteSparse\CHOLMOD\Include\../Core/cholmod_transpose.c
+F:\vr\main\src\thirdparty\ceres-solver\1.13.0\suitesparse-metis-for-windows-master\SuiteSparse\CHOLMOD\Include\../Core/cholmod_triplet.c
+F:\vr\main\src\thirdparty\ceres-solver\1.13.0\suitesparse-metis-for-windows-master\SuiteSparse\CHOLMOD\Include\../Partition/cholmod_camd.c
+F:\vr\main\src\thirdparty\ceres-solver\1.13.0\suitesparse-metis-for-windows-master\SuiteSparse\CHOLMOD\Include\../Supernodal/cholmod_super_numeric.c
+F:\vr\main\src\thirdparty\ceres-solver\1.13.0\suitesparse-metis-for-windows-master\SuiteSparse\CHOLMOD\Include\../Supernodal/cholmod_super_solve.c
+F:\vr\main\src\thirdparty\ceres-solver\1.13.0\suitesparse-metis-for-windows-master\SuiteSparse\CHOLMOD\Include\../Supernodal/cholmod_super_symbolic.c
+FAILURE
+FATAL
+Factor & Solve
+Failed to compute polynomial roots. 
+Failed to extract eigenvalues from companion matrix.
+Failed to load background image: %s\n
+Failed to load foreground image: %s\n
+Failed to write output image: %s\n
+Failure: Input lhs is NULL.
+Final solve with distortion model %s\n
+FindPolynomialRoots. Real parts of the roots will not 
+First order optimality seems to be violated 
+For each parameter block, the value of the parameters are printed in the first column   \nand the value of the jacobian under the corresponding residual. If a ParameterBlock was \nheld constant then the corresponding jacobian is printed as 'Not Computed'. If an entry \nof the Jacobian/residual array was requested but was not written to by user code, it is \nindicated by 'Uninitialized'. This is an error. Residuals or Jacobian values evaluating \nto Inf or NaN is also an error.  \n\n
+Foreground must be RGBA (4 channels), got %d\n
+Forward
+Full
+Function evaluation with Jacobians failed.
+Function evaluation with and without Jacobians resulted in different residuals.
+Function tolerance reached. No non-constant parameter blocks found.
+Function tolerance reached. |cost_change|/cost: %e <= %e
+GLOG_alsologtoemail
+GLOG_alsologtostderr
+GLOG_colorlogtostderr
+GLOG_log_backtrace_at
+GLOG_log_dir
+GLOG_log_link
+GLOG_log_prefix
+GLOG_logbuflevel
+GLOG_logbufsecs
+GLOG_logemaillevel
+GLOG_logfile_mode
+GLOG_logmailer
+GLOG_logtostderr
+GLOG_max_log_size
+GLOG_minloglevel
+GLOG_stop_logging_if_full_disk
+GLOG_vmodule
+GOOGLE_ALSOLOGTOSTDERR
+GOOGLE_LOGTOSTDERR
+GOOGLE_LOG_DIR
+GPOS
+GaussNewton step size: 
+GetComputerNameA
+GetConsoleScreenBufferInfo
+GetCurrentProcess
+GetCurrentProcessId
+GetCurrentThreadId
+GetFileVersionInfoA
+GetFileVersionInfoSizeA
+GetLastError
+GetModuleFileNameW
+GetModuleHandleW
+GetProcAddress
+GetScalarColorAt
+GetStdHandle
+GetSystemTimeAsFileTime
+GetTempPathA
+GetWindowsDirectoryA
+Gradient Error detected!\nExtra info for this residual: 
+Gradient error detected. Terminating solver.
+Gradient tolerance reached. Gradient max norm: %e <= %e
+Hessian approximation.
+IDENTITY
+INFO
+IPD and /donotrotate are incompatible arguments, you should only one of those (or none)
+ITERATIVE_SCHUR
+Increasing mu 
+Infinity
+Initial cost and jacobian evaluation failed.
+Initial cost and jacobian evaluation failed. More details: 
+Initial solve with distortion %s to get a rough center / max radius (channel %d):\n
+InitializeConditionVariable
+InitializeCriticalSection
+InitializeCriticalSectionAndSpinCount
+InitializeSListHead
+Inner iteration failed.
+Inner iteration succeeded; Current cost: 
+InnerProductComputer::Compute
+InnerProductComputer::Create
+Input polynomial: 
+Invalid Linear Solver Type. Unable to create evaluator.
+Invalid configuration. 
+Invalid configuration: Solver::Options::line_search_type = 
+Invalid line search algorithm type: 
+Invalid parameterization for parameter block. The parameter block 
+Invalid parameterization. Parameterizations must have a positive 
+Invalid polynomial of size 0 passed to FindPolynomialRoots
+Invalid step: current_cost: 
+IsDebuggerPresent
+IsProcessorFeaturePresent
+Iteration: %d Convergence. |r| = %e <= %e.
+Iteration: %d Convergence: zeta = %e < %e. |r| = %e
+IterativeSchurComplementSolver::Solve
+JACOBI
+Jacobian should have atleast 1 f_block for 
+July 18, 2014
+KERNEL32.dll
+L and E must have the same xtype
+L and X must have the same xtype
+L invalid
+L must be simplicial
+L must be symbolic on input
+L not positive definite
+L not supernodal
+LAPACK::dgels fatal error.
+LAPACK::dpotrf fatal error.
+LAPACK::dpotrf numerical failure. The leading minor of order %d is not positive definite.
+LAPACK::dpotrs fatal error.
+LBFGS
+LINE_SEARCH Minimizer does not support bounds.
+LeaveCriticalSection
+Left
+Line %d, Column %d
+Line search direction algorithm: 
+Line search direction failure: specified max_num_line_search_direction_restarts: %d reached.
+Line search failed: Armijo failed to find a point satisfying the sufficient decrease condition within specified max_num_iterations: %d.
+Line search failed: Wolfe Zoom phase found step_size: %.5e, for which function is invalid, between low_step: %.5e and high_step: %.5e at which function is valid.
+Line search failed: Wolfe bracketing phase failed to find a point satisfying strong Wolfe conditions, or a bracket containing such a point within specified max_num_iterations: %d
+Line search failed: Wolfe bracketing phase shrank 
+Line search failed: Wolfe zoom bracket width: %.5e too small with descent_direction_max_norm: %.5e.
+Line search failed: Wolfe zoom phase failed to find a point satisfying strong Wolfe conditions within specified max_num_iterations: %d, (num iterations taken for bracketing: %d).
+Line search failed: Wolfe zoom phase passed a bracket which does not satisfy: bracket_low.gradient * (bracket_high.x - bracket_low.x) < 0 [%.8e !< 0] with initial_position: %s, bracket_low: %s, bracket_high: %s, the most likely cause of which is the cost function returning inconsistent gradient & function values.
+Line search failed: step_size too small: %.5e with descent_direction_max_norm: %.5e
+Line search failed: step_size too small: %.5e with descent_direction_max_norm: %.5e.
+Line search interpolation type is BISECTION, but specified 
+Linear solver failed due to unrecoverable non-numeric causes. Please see the error log for clues. 
+Linear solver failure. Failed to compute a finite step.
+Linear solver failure. Failed to compute a step: 
+Linear solver fatal error: 
+LinearSolver::Solve
+Local parameterization Jacobian computation failed for x: 
+Local parameterization Jacobian computation failedfor x: 
+Local parameterization Jacobian computation returned
+Log file created at: 
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu 
+Lower
+METIS_NodeND nested dissection\n
+MSVCP140.dll
+MainSteamVR
+Make terminal image %d x %d chars\n
+Map key not found: 
+Matrix Size [
+Matrix is indefinite, no more progress can be made. p'q = %e. |p| = %e, |q| = %e
+Maximum number of iterations reached.
+Maximum number of iterations reached. Number of iterations: %d.
+Maximum solver time reached.
+Maximum solver time reached. Total solver time: %e >= %e.
+MbP?
+Microsoft Windows
+Minimum trust region radius reached. Trust region radius: %e <= %e
+Missing ',' or ']' in array declaration
+Missing ',' or '}' in object declaration
+Missing ':' after object member name
+Missing '}' or object member name
+Missing String for %s (%d)
+NONLINEAR_CONJUGATE_GRADIENT
+NO_CONVERGENCE
+NO_SPARSE
+NULL parameterization invalid.
+NULL pointer passed as real argument to 
+No E blocks. Switching from %s to %s.
+No E blocks. Switching from %s(%s) to %s(%s).
+No e type blocks found
+No known parameter block for 
+No overlapping region between foreground and background.\n
+No parameter blocks left in the schur complement.
+No remaining elements in the inner iteration ordering.
+No rows found
+No transpose
+Non-unit
+NormalEquations
+Not Computed  
+Nothing to do.
+Null pointer passed to AddParameterBlock 
+NumGroups() != 0
+Number of blocks input is different than the number of blocks 
+Number of consecutive invalid steps more than Solver::Options::max_num_consecutive_invalid_steps: %d
+Numerical failure in BFGS update: inverse Hessian 
+Numerical failure in L-BFGS update: inverse Hessian 
+Numerical failure in line search, failed to find a valid step size, (did not run out of iterations) using initial_step_size: %.5e, initial_cost: %.5e, initial_gradient: %.5e.
+Numerical failure in line search, initial_step_size is negative: %.5e, directional_derivative: %.5e, (current_cost - previous_cost): %.5e
+Numerical failure. alpha = rho / pq = %e, rho = %e, pq = %e.
+Numerical failure. beta = rho_n / rho_{n-1} = %e, rho_n = %e, rho_{n-1} = %e
+Numerical failure. rho = r'z = %e.
+OpenVR
+Optional:\n
+Original radius=%lf, expanded radius=%lf, inverse check %lf / %lf\n
+OutputDebugStringA
+Parameter Block %d, size: %d\n
+Parameter Blocks: 
+Parameter block not found: 
+Parameter tolerance reached. Relative step_norm: %e <= %e.
+ParameterBlock: %p with size %d has at least one infeasible bound.\nFirst infeasible bound is at index: %d.\nLower bound: %e, upper bound: %e\nParameter block values: 
+ParameterBlock: %p with size %d has at least one infeasible value.\nFirst infeasible value is at index: %d.\nLower bound: %e, value: %e, upper bound: %e\nParameter block values: 
+ParameterBlock: %p with size %d has at least one invalid value.\nFirst invalid value is at index: %d.\nParameter block values: 
+Please consider filing a bug report if this 
+Please report it.
+Preconditioner update failed.
+Preordering
+Problem::Evaluate::Options.parameter_blocks[
+Problems sending mail to 
+Problems sending mail to %s: %s\n
+Product
+QUADRATIC
+QueryPerformanceCounter
+RAW_LOG ERROR: The Message was too long!\n
+RE-SOLVING DUE TO OUTLIER REMOVAL\n
+RSDS
+Rank of subspace basis is 0. 
+Rank of the subspace basis matrix is reported to be 
+Re-solve with %s, rough center, and cut-down radius to get the final focal length (channel %d):\n
+Reading HMD configuration from:  %s\n
+Reading camera intrinsics from:  %s\n
+Reading dot pattern from:  %s\n
+Reallocation will cause data loss
+Reduced problem only contains one parameter block.
+ReducedSolve
+ResetEvent
+Residual Block size: %d parameter blocks x %d residuals\n\n
+Residual Block: 
+Residual and Jacobian evaluation failed.
+Residual block id %d; depends on parameters [
+Residuals:     
+Restarting non-linear conjugate gradients: 
+Right
+Rowwise
+RtlCaptureContext
+RtlLookupFunctionEntry
+RtlVirtualUnwind
+Running on machine: 
+SCHUR_JACOBI
+SCHUR_JACOBI preconditioner.
+SPARSE_NORMAL_CHOLESKY
+SPARSE_NORMAL_CHOLESKY cannot be used with EIGEN_SPARSE because Ceres was not built with support for Eigen's SimplicialLDLT decomposition. This requires enabling building with -DEIGENSPARSE=ON.
+SPARSE_SCHUR
+STEEPEST_DESCENT
+STEREO_DEV_BENCRUSHER2_MICROVISION
+STEREO_DEV_BENCRUSHER_MICROVISION
+STEREO_DEV_DANHAT_EMAGIN_SXGA
+STEREO_DEV_DEANPHOTONBLASTER
+STEREO_DEV_JERI_RETRO_MARK1
+STEREO_DEV_LUMUS_DK_32
+STEREO_DEV_LUMUS_DK_32_DUALCB
+STEREO_DEV_NUM
+STEREO_DEV_NVIS_ST50
+STEREO_DEV_NVIS_ST50_MARK2
+STEREO_DEV_NVIS_ST60
+STEREO_DEV_OCULUS_RIFT_FLIP_UPWARD
+STEREO_DEV_ST1080_FLIP_FORWARD
+STEREO_DEV_ST1080_FLIP_UPWARD
+STEREO_DEV_ST1080_UPWARD_GLUE_GUN_SPECIAL
+STEREO_DEV_TEST
+STEREO_DEV_VUZIX_STAR_1200
+SUITE_SPARSE
+Saved HMD calibration file:  %s\n
+Scanout Scaling\n
+Schur complement graph time: 
+Schur complement static structure <
+SchurComplementSolver cannot be initialized with 
+SchurComplementSolver::Solve
+See 
+SetConsoleTextAttribute
+SetEvent
+SetUnhandledExceptionFilter
+Setup
+Size of dot pattern:  %d\n
+Skipping BFGS Update, delta_x_dot_delta_gradient too 
+Skipping L-BFGS Update, delta_x_dot_delta_gradient too 
+SleepConditionVariableCS
+Solve
+Solve called without a call to Factorize first.
+Solver::Options::eta = 
+Solver::Options::eta > 0.0
+Solver::Options::function_tolerance = 
+Solver::Options::function_tolerance >= 0.0
+Solver::Options::gradient_check_numeric_derivative_relative_step_size = 
+Solver::Options::gradient_check_numeric_derivative_relative_step_size > 0.0
+Solver::Options::gradient_check_relative_precision = 
+Solver::Options::gradient_check_relative_precision > 0.0
+Solver::Options::gradient_tolerance = 
+Solver::Options::gradient_tolerance >= 0.0
+Solver::Options::initial_trust_region_radius
+Solver::Options::initial_trust_region_radius = 
+Solver::Options::initial_trust_region_radius > 0.0
+Solver::Options::inner_iteration_tolerance = 
+Solver::Options::inner_iteration_tolerance >= 0.0
+Solver::Options::line_search_sufficient_curvature_decrease < 1.0
+Solver::Options::line_search_sufficient_curvature_decrease = 
+Solver::Options::line_search_sufficient_function_decrease
+Solver::Options::line_search_sufficient_function_decrease = 
+Solver::Options::line_search_sufficient_function_decrease > 0.0
+Solver::Options::max_consecutive_nonmonotonic_steps = 
+Solver::Options::max_consecutive_nonmonotonic_steps > 0
+Solver::Options::max_lbfgs_rank = 
+Solver::Options::max_lbfgs_rank > 0
+Solver::Options::max_line_search_step_contraction
+Solver::Options::max_line_search_step_contraction < 1.0
+Solver::Options::max_line_search_step_contraction = 
+Solver::Options::max_line_search_step_contraction > 0.0
+Solver::Options::max_line_search_step_expansion = 
+Solver::Options::max_line_search_step_expansion > 1.0
+Solver::Options::max_linear_solver_iterations = 
+Solver::Options::max_linear_solver_iterations >= 1
+Solver::Options::max_lm_diagonal = 
+Solver::Options::max_lm_diagonal >= 0.0
+Solver::Options::max_num_consecutive_invalid_steps = 
+Solver::Options::max_num_consecutive_invalid_steps >= 0
+Solver::Options::max_num_iterations = 
+Solver::Options::max_num_iterations >= 0
+Solver::Options::max_num_line_search_step_size_iterations = 
+Solver::Options::max_num_line_search_step_size_iterations > 0
+Solver::Options::max_solver_time_in_seconds = 
+Solver::Options::max_solver_time_in_seconds >= 0.0
+Solver::Options::max_trust_region_radius = 
+Solver::Options::max_trust_region_radius > 0.0
+Solver::Options::min_line_search_step_contraction <= 1.0
+Solver::Options::min_line_search_step_contraction = 
+Solver::Options::min_line_search_step_size = 
+Solver::Options::min_line_search_step_size > 0.0
+Solver::Options::min_linear_solver_iterations
+Solver::Options::min_linear_solver_iterations = 
+Solver::Options::min_linear_solver_iterations >= 0
+Solver::Options::min_lm_diagonal
+Solver::Options::min_lm_diagonal = 
+Solver::Options::min_lm_diagonal >= 0.0
+Solver::Options::min_relative_decrease = 
+Solver::Options::min_relative_decrease >= 0.0
+Solver::Options::min_trust_region_radius
+Solver::Options::min_trust_region_radius = 
+Solver::Options::min_trust_region_radius > 0.0
+Solver::Options::num_linear_solver_threads = 
+Solver::Options::num_linear_solver_threads > 0
+Solver::Options::num_threads = 
+Solver::Options::num_threads > 0
+Solver::Options::parameter_tolerance = 
+Solver::Options::parameter_tolerance >= 0.0
+Solver::Options::trust_region_problem_dump_directory is empty.
+SparseNormalCholeskySolver::Solve
+StableIndependentSet
+Starting line search zoom phase with bracket_low: 
+Step failed to evaluate. 
+Step failed to evaluate. This should not happen as the step was valid when it was selected by the line search. More details: 
+Success
+Success.
+Symbolic Analysis
+Syntax error: value, object or array expected.
+TEST_TMPDIR
+Taking a regular dogleg step instead.\n
+Taking traditional dogleg step instead.
+TearDown
+Teardown
+Template specializations not found for <
+TerminateProcess
+Terminating: 
+The cost function expects parameter block 
+The first elimination group in the parameter block ordering of size %zd is not an independent set
+The matrix being appended has: 
+The program has %d parameter blocks, but the parameter block ordering has %d parameter blocks.
+The user-provided parameter_blocks_for_inner_iterations does not form an independent set. Group Id: %d
+This is a Ceres bug; please contact the developers!
+This matrix has : 
+This means that the gradient at the current iterate is 
+This should never happen. Please report this to 
+Total
+Transpose
+Treating it as a step with infinite cost
+Tried adding a parameter block with the same double pointer, 
+Tried to set the state of constant parameter 
+Trimmed polynomial: 
+Trying to extract roots from a constant 
+Trying to send TITLE:
+Trying to send TITLE: %s BODY: %s to %s\n
+UNKNOWN
+USERNAME
+USER_FAILURE
+USER_SUCCESS
+UUUUUU
+Unable to dump trust region problem.
+Unable to find the critical points of 
+Unable to project initial point onto the feasible set.
+Unable to send mail to 
+Unable to send mail to %s\n
+Undistorted image size:  %d  %d\n
+UnhandledExceptionFilter
+Uninitialized 
+Unit
+Unknown
+Unknown DumpFormatType 
+Unknown Preconditioner Type
+Unknown cholmod return code: %d. Please report this to ceres-solver@googlegroups.com.
+Unknown exception
+Unknown line search direction type: 
+Unknown linear solver type :
+Unknown minimizer type.
+Unknown minimizer_type: 
+Unknown nonlinear conjugate gradient type: 
+Unknown preconditioner type
+Unknown preconditioner type: 
+Unknown sparse linear algebra library : 
+Unknown sparse linear algebra library type : 
+Unknown trust region strategy: 
+Unknown type of user callback status
+Unknown visibility clustering algorithm.
+Unscaled factorization failed. Retrying with off-diagonal 
+Unsupported background channel count: %d\n
+Upper
+User callback returned SOLVER_ABORT.
+User callback returned SOLVER_TERMINATE_SUCCESSFULLY.
+User specified ordering contains a pointer to a double that is not a parameter block in the problem. The invalid double is in group: %d
+User specified ordering does not have the same number of parameters as the problem. The problemhas %d blocks while the ordering has %d blocks.
+Using Steam Frame default scanout scaling %d %d\n
+VCOMP140.DLL
+VCRUNTIME140.dll
+VERSION.dll
+VRCALIB CALIBRATION SOLVE DONE\n
+VerQueryValueA
+Version:  %s  %s\n
+Violated constraint: 
+WARNING
+WARNING:  Base dot %zu at ( %.2f , %.2f ) matched multiple bit code dots in bit %d.\n
+WARNING:  Bit %d dot at ( %.2f , %.2f ) matched multiple base dots ( %zu and %zu ).\n
+WARNING:  Dot dropped (parity error).  Dot %zu ID bits %d at ( %.2f , %.2f ).\n
+WARNING:  Dot dropped due to sensor clipping ( %d, %d ).\n
+WARNING:  Dot dropped due to too few pixels.\n
+WARNING:  Duplicate dot ID.  Dot ID %d, %d instances, at ( %.2f , %.2f ).\n
+WARNING:  No r2max, using undistort_r2_cutoff.\n
+WARNING: Logging before InitGoogleLogging() is written to STDERR\n
+WARNING: found too many outliers to reject ( %d vs %d )\n
+WARNING: rejected %d outliers\n
+WARNING: undistort_setup width=%d height=%d doesn't match calibration w=%d h=%d.\n
+WOLFE
+WaitForSingleObjectEx
+WakeAllConditionVariable
+WideCharToMultiByte
+Working memory for Dense QR factorization: 
+Writing array to: 
+Writing atlas...\n
+Wrote %s. valid: %d invalid %d\n
+Wrote outputimage ( %s ).\n
+Wrote vrfont %s\n
+X and L dimensions must match
+You may have found a bug in Ceres.
+You must call DynamicNumericDiffCostFunction::AddParameterBlock() 
+You must call DynamicNumericDiffCostFunction::SetNumResiduals() 
+ZGEMM 
+ZGEMV 
+ZHERK 
+ZPOTF2
+ZPOTRF
+ZTRSM 
+ZTRSV 
+Zoom iteration: 
+Zoom phase found step size: 
+[x: %.8e, value: %.8e, gradient: %.8e, value_is_valid: %d, gradient_is_valid: %d]
+\FileVersion
+\InternalName
+\StringFileInfo\
+\VarFileInfo\Translation
+\f??Gcv@@YA?AVMatExpr@0@AEBVMat@0@0@Z
+\f??Hcv@@YA?AVMatExpr@0@AEBVMat@0@AEBV10@@Z
+\f??Ncv@@YA?AVMatExpr@0@AEBVMat@0@N@Z
+\n Jacobian matrix : 
+\n%s\n                                   Delta   Cumulative\n
+\n??4Mat@cv@@QEAAAEAV01@$$QEAV01@@Z
+\n??4Mat@cv@@QEAAAEAV01@AEBV01@@Z
+\nCHOLMOD ERROR: %s: 
+\nCalibration solve with ( %d, %d, %d ) points.\n\n
+\nDetected %d bad Jacobian component(s). Worst relative error was %g.\n
+\nFunction evaluation with numerical differentiation failed.
+\nSolved, final cost (RMSE) = %.3g\n
+\nSolving the %s channel:\n
+\n\nError in evaluating the ResidualBlock.\n\nThere are two possible reasons. Either the CostFunction did not evaluate and fill all    \nresidual and jacobians that were requested or there was a non-finite value (nan/infinite)\ngenerated during the or jacobian computation. \n\n
+\neye to head transform (euler angles in degrees):   %lf  %lf  %lf\n
+\nvrcalib usage (public):\n\n
+_A.txt
+_CxxThrowException
+_D.txt
+_DENSE_NORMAL_CHOLESKY
+_Dtest
+_Mtx_destroy_in_situ
+_Mtx_init_in_situ
+_Mtx_lock
+_Mtx_unlock
+_RDATA
+__C_specific_handler
+__CxxFrameHandler3
+__acrt_iob_func
+__p__commode
+__setusermatherr
+__std_exception_copy
+__std_exception_destroy
+__std_terminate
+__stdio_common_vfprintf
+__stdio_common_vsprintf
+__stdio_common_vsprintf_s
+__stdio_common_vsscanf
+_access
+_all.png
+_b.txt
+_c_exit
+_callnewh
+_cexit
+_close
+_configthreadlocale
+_configure_narrow_argv
+_crt_atexit
+_debug_left.png
+_debug_right.png
+_dtest
+_errno
+_exit
+_fdopen
+_finite
+_fseeki64
+_get_initial_narrow_environment
+_get_stream_buffer_pointers
+_getpid
+_initialize_narrow_environment
+_initialize_onexit_table
+_initterm
+_initterm_e
+_invalid_parameter_noinfo
+_invalid_parameter_noinfo_noreturn
+_isnan
+_localtime64_s
+_lock_file
+_pclose
+_popen
+_purecall
+_register_onexit_function
+_register_thread_local_exe_atexit_callback
+_seh_filter_exe
+_set_app_type
+_set_fmode
+_set_new_mode
+_sopen_dispatch
+_stricmp
+_time64
+_unlink
+_unlock_file
+_vcomp_atomic_sub_i4
+_vcomp_flush
+_vcomp_for_dynamic_init
+_vcomp_for_dynamic_next
+_vcomp_for_static_end
+_vcomp_for_static_simple_init
+_vcomp_fork
+_vcomp_set_num_threads
+_wassert
+_wfopen_s
+_wfsopen
+_wgetcwd
+_write
+_wstat64i32
+_x.txt
+a bug.
+a point satisfying the strong Wolfe conditions or a 
+abort
+acc_bias
+acc_scale
+accidentally use the wrong parameter block or parameterization?
+additional six characters expected to parse unicode surrogate pair.
+all methods failed
+allow continuation.
+alse
+ambiguous ownership. Current local parameterization is: 
+an illegal value
+an inflection point of f().
+an invalid matrix for x: 
+api-ms-win-crt-convert-l1-1-0.dll
+api-ms-win-crt-environment-l1-1-0.dll
+api-ms-win-crt-filesystem-l1-1-0.dll
+api-ms-win-crt-heap-l1-1-0.dll
+api-ms-win-crt-locale-l1-1-0.dll
+api-ms-win-crt-math-l1-1-0.dll
+api-ms-win-crt-runtime-l1-1-0.dll
+api-ms-win-crt-stdio-l1-1-0.dll
+api-ms-win-crt-string-l1-1-0.dll
+api-ms-win-crt-time-l1-1-0.dll
+api-ms-win-crt-utility-l1-1-0.dll
+apparent state: internal I/O\n
+apparent state: unit %d 
+approximation has become indefinite, please contact the 
+approximation is not positive definite, and thus 
+approximation.
+are not allowed. Parameter block pointers: [
+argument missing
+asin
+assert json failed
+atan
+atan2
+atan2f
+atoi
+attached_device_id
+audio_playback_device_name
+audio_playback_device_pid
+audio_playback_device_vid
+audio_recording_device_name
+audio_recording_device_pid
+audio_recording_device_vid
+bUseEyeToHeadRotation %d\n
+bad allocation
+bad array new length
+bad cast
+bad conversion
+bad logical input field
+bad namelist name
+bad string
+bad variable type
+base
+bb_darts_
+be returned.
+before DynamicNumericDiffCostFunction::Evaluate().
+best_difference > -std::numeric_limits<double>::max()
+bilinearVec2Sample
+black_clamp
+blackframe_
+block that has memory address 
+block: 
+blocks.size() < kMaxRowBlocks
+blocks.size() == block_ordering.size()
+blue
+blue dst %d %d %d %d\n
+blue src %d %d %d %d\n
+blue_dest
+blue_src
+bracket width: 
+bracketing containing such a point. Accepting 
+c:\buildslave\steamvr_rel_win64\build\src\vortexcameralib\opencv_misc.cpp
+c:\buildslave\steamvr_rel_win64\build\src\vortexlib\distortion.cpp
+c:\buildslave\steamvr_rel_win64\build\src\vortexlib\stereo_setup.cpp
+c:\buildslave\steamvr_rel_win64\build\src\vrcalib\Retailvrcalib_public\win64\2017\vrcalib_public.pdb
+c:\buildslave\steamvr_rel_win64\build\src\vrcalib\terminal.cpp
+c:\buildslave\steamvr_rel_win64\build\src\vrcalib\vrcalib_utils.cpp
+calibrate_eye_to_head
+calloc
+camera1 != camera2
+can only do simplicial factorization
+can't append to file
+can't backspace file
+can't read file
+can't stat file
+can't write file
+cannot convert L to supernodal symbolic
+cannot convert simplicial L to supernodal
+cannot operate on supernodal L
+cannot operate on unpacked matrix in-place
+center
+center src %f %f\n
+center src + dx %f %f\n
+center_x
+center_y
+ceres::Solve was not called.
+ceres_solver_iteration_%03d
+cfg/hmd/
+changed from 
+channelMap
+channelOrder
+cholmod_analyze failed. error code: %d
+cholmod_solve failed. CHOLMOD status is not CHOLMOD_OK
+chunk.size > 0
+cmap
+coeffs
+col < num_cols()
+col_cursor == num_rows
+columns this cannot be true and is indicative of 
+common
+complex division by zero
+complex type mismatch
+contact the developers!, initial_position: 
+controller
+cost_function->parameter_block_sizes()[i] == parameter_block_ptrs[i]->Size()
+cursor == result_offsets_.size()
+cv2::undistort_have_setup
+darts_
+data_->num_chars_to_log_ > 0 && data_->message_text_[data_->num_chars_to_log_-1] == '\n'
+default_mm
+degree >= 0
+delta_rows <= num_rows_
+delta_rows >= 0
+deque<T> too long
+developers!
+device
+device_class
+device_pid
+device_serial_number
+device_serial_number_watchman
+device_vid
+diagonal below threshold
+dimensional tangent space.
+dimensions of A and L do not match
+dimensions of L and B do not match
+direct
+direct io not allowed
+direct_mode_edid_pid
+direct_mode_edid_vid
+display from eyeball:\n
+display_color_mult
+display_edid
+display_frequency
+display_gc
+display_hdr10
+display_mc
+display_multiframerate
+display_usb_pid
+display_usb_protocol
+display_usb_vid
+distort
+distortion
+distortion:\n
+distortion_blue
+distortion_model
+distortion_red
+do_fio
+dot_brightness_threshold
+dot_diameter
+dot_pattern.json
+dot_separation
+dots
+drivers
+dsc_bppx16
+dsc_slices
+dsc_version
+dst.data != src.data
+dstX0 + copyW <= nOutputGlyphWidth && dstY0 + copyH <= nOutputGlyphHeight
+dstX0 >= 0 && dstY0 >= 0
+dst_height %d\n
+dst_width %d\n
+dual_extrinsics
+duplicate key: 
+eDx"
+eEYE_FIRST
+eEYE_L
+eEYE_LEFT
+eEYE_R
+eEYE_RIGHT
+eNUM_EYES
+enable
+enable_outlier_rejection
+endfile
+error in format
+exception thrown in JSON library
+exit
+expected_bases
+expected_controllers
+expecting another \u token to begin the second half of a unicode surrogate pair
+external
+extrinsics
+eye %d\n
+eye_target_height_in_pixels
+eye_target_width_in_pixels
+eye_to_head
+eye_tracking
+eyeball_camera
+eyeball_rotation_estimate
+eyeballcamera_from_head
+f:\vr\main\src\thirdparty\ceres-solver\1.13.0\suitesparse-metis-for-windows-master\suitesparse\cholmod\cholesky\t_cholmod_rowfac.c
+f:\vr\main\src\thirdparty\ceres-solver\1.13.0\suitesparse-metis-for-windows-master\suitesparse\cholmod\core\t_cholmod_change_factor.c
+f:\vr\main\src\thirdparty\ceres-solver\1.13.0\suitesparse-metis-for-windows-master\suitesparse\cholmod\core\t_cholmod_transpose.c
+f:\vr\main\src\thirdparty\ceres-solver\1.13.0\suitesparse-metis-for-windows-master\suitesparse\cholmod\supernodal\t_cholmod_super_numeric.c
+f_block_id >= 0
+false
+fclose
+fflush
+fgetc
+fgetpos
+file is empty or does not exist
+final output intrinsics:\n
+firmware_config
+first_eye
+flSourceImageFocalLengthInPixels %f\n
+floor
+focal_x
+focal_y
+focus: ( %f , %f )  projCtr: ( %f , %f )  eyeRotate: ( %f , %f , %f )\n
+fopen
+for a parameter with size 
+for parameter block: 
+format too complicated:\n
+formatted
+formatted io not allowed
+fort.%ld
+found %d points\n
+fputc
+fputs
+fread
+free
+freopen
+frexp
+fseek
+fset invalid
+fsetpos
+ftell
+function lsqp = load_trust_region_problem()\n
+fwrite
+generic_tracker
+getenv
+glyf
+greater than 2. As the matrix contains only two 
+green
+green_only_calibration
+grow_for_undistort
+gyro_bias
+gyro_scale
+happens frequently or consistently.\n
+has size 
+head
+head_from_camera
+height
+hhea
+hidden_area_mesh
+high_mm
+hmtx
+i < this->num_rows()
+idx_cursor == num_nonzeros
+illegal unit number
+image
+image dot extraction:\n
+img.channels() == 3 || img.channels() == 4
+img.depth() == CV_8U || img.depth() == CV_16U
+in Json::Value::asCString(): requires stringValue
+in Json::Value::clear(): requires complex value
+in Json::Value::duplicateAndPrefixStringValue(): Failed to allocate string value buffer
+in Json::Value::duplicateAndPrefixStringValue(): length too big for prefixing
+in Json::Value::duplicateStringValue(): Failed to allocate string value buffer
+in Json::Value::find(key, end, found): requires objectValue or nullValue
+in Json::Value::operator[](ArrayIndex): requires arrayValue
+in Json::Value::operator[](ArrayIndex)const: requires arrayValue
+in Json::Value::operator[](int index) const: index cannot be negative
+in Json::Value::operator[](int index): index cannot be negative
+in Json::Value::resolveReference(key, end): requires objectValue
+in Json::Value::setComment(): Comments must start with /
+in the subspace method!\n
+in_size <= out_size
+incomprehensible list input
+index < num_clusters_
+index out of range
+index_into_values_and_cols == num_jacobian_nonzeros
+inflection point of f() based on value.
+init time: 
+initial gradient for search direction is positive: 
+initialLeft %f %f\n
+initialRight %f %f\n
+input_profile
+instead.
+internal
+intrinsics
+invalid
+invalid array section
+invalid dimensions
+invalid fset
+invalid permutation
+invalid stod argument
+invalid stof argument
+invalid stoi argument
+invalid string position
+invalid system
+invalid usage
+invalid vector<T> subscript
+invalid xtype
+invalid-user
+inverse_distortion
+isps
+it can be set constant.
+iter      cost      cost_change  |gradient|   |step|    tr_ratio  tr_radius  ls_iter  iter_time  total_time\n
+iteration: 
+j invalid
+jacobians->at(i).cols() == global_size
+kend invalid
+kern
+last format: %s\n
+last_eye
+lately %s %s %s %s
+ldexp
+left
+left centerDst %f %f\n
+left dxDst %f %f\n
+left off
+lhs->storage_type() == StorageType()
+lighthouse_config
+list<T> too long
+loca
+location 
+log2
+loss_function_parameter
+low_mm
+lsqp.A = sparse(tmp(:, 1) + 1, tmp(:, 2) + 1, tmp(:, 3), %d, %d);\n
+lsqp.D = load('%s', '-ascii');\n
+lsqp.b = load('%s', '-ascii');\n
+lsqp.num_cols = %d;\n
+lsqp.num_rows = %d;\n
+lsqp.x = load('%s', '-ascii');\n
+lsubtree: A invalid
+lsubtree: L invalid (cannot be supernodal)
+lsubtree: R invalid
+lsubtree: krow invalid
+m.num_cols() == num_cols_
+m.num_nonzeros() > 0
+m.type() == CV_32FC2
+makeRotatedGlyphCell
+malloc
+malloc failure
+malloc(%u) failure in %s\n
+manufacturer
+map/set<T> too long
+matrix cannot be symmetric
+matrix invalid
+matrix invalid or too large
+matrix must be symmetric
+matrix must be unsymmetric
+matrix not positive definite
+max_line_search_step_contraction: 
+max_num_nonzeros >= 0
+max_outliers_to_reject
+max_radius_ > 0.0
+max_step_size > current.x
+maxp
+memchr
+memcmp
+memcpy
+memmove
+memset
+mfg_build_info
+min, max R2 is:  %f  %f\n
+min_diagonal_ <= max_diagonal_
+min_diagonal_ > 0.0
+min_line_search_step_contraction: 
+minimum_ipd_step
+minstep_mm
+missing values from "device" section
+modelCad
+modelNormals
+modelPoints
+model_number
+modf
+multiple basic operations specified
+nSplineCtrlPts
+name
+named %s\n
+natural\n
+new dist limit: %lf\n
+new_parameterization->LocalSize() > 0
+nmLbuf overflow
+no basic operation specified
+no end record
+no space
+non-positive record number
+not positive definite
+null
+null file name
+num_additional_elements >= 0
+num_blocks > 0
+num_blocks_ == visibility.size()
+num_blocks_ > 0
+num_clusters: 
+num_clusters_ > 0
+num_cols >= 0
+num_cols_ >= 0
+num_cols_e_ + num_cols_f_ == matrix_.num_cols()
+num_eliminate_blocks = 0.
+num_eliminate_blocks > 0
+num_eliminate_blocks must be greater than 0.
+num_jacobian_nonzeros == rows[total_num_residuals]
+num_line_search_direction_restarts < options.max_num_line_search_direction_restarts
+num_nonzeros <= max_num_nonzeros_
+num_nonzeros >= 0
+num_nonzeros() == num_rows
+num_nonzeros_ <= new_max_num_nonzeros
+num_nonzeros_ >= 0
+num_residuals() > 0
+num_rows > 0
+num_rows >= 0
+num_rows_ >= 0
+num_windows
+off end of record
+offset
+offsets.back() == residual_blocks->size()
+omp_get_max_threads
+omp_get_num_threads
+omp_get_thread_num
+omp_get_wtime
+open
+opencv_world470.dll
+options().max_num_iterations > 0
+options().max_step_expansion > 1.0
+options().preconditioner_type == SCHUR_JACOBI
+options().sufficient_curvature_decrease < 1.0
+options().sufficient_curvature_decrease > options().sufficient_decrease
+options().sufficient_decrease < 1.0
+options().sufficient_decrease > 0.0
+options.elimination_groups.size() > 1
+options.elimination_groups[0] > 0
+options.num_eliminate_blocks >= 0
+options_.elimination_groups.size() > 1
+options_.elimination_groups[0] > 0
+ordering->size() == num_vertices
+ordering.size() == A->nrow
+out of free space
+out of memory
+out of memory; L now symbolic
+outlier_error_threshold
+output->num_nonzeros() == input.num_nonzeros()
+p\r0\fP
+p\rP\f0!p
+parallel_render_cameras
+parameter_block->index() != -1
+parameter_block_sizes.size() == parameter_blocks.size()
+parameter_blocks.size() == cost_function->parameter_block_sizes().size()
+parameter_blocks[i]->index() != -1
+perror
+pitch
+please contact the developers!, interpolation_type: 
+plus_x
+plus_z
+point found satisfying Armijo condition only, to 
+polynomial in FindPolynomialRoots
+polynomial.size() == 2
+polynomial.size() == 3
+position
+prescale
+problem too large
+projected_gradient_step = Plus(x, -gradient) failed.
+proximity
+putc
+r2max
+rand
+read unexpected character
+reading
+real/complex mismatch
+realloc
+recend
+rectangular matrix with stype != 0 invalid
+red dst %d %d %d %d\n
+red src %d %d %d %d\n
+red_dest
+red_src
+registered_device_type_prefix
+remove
+render_model
+render_target_scale
+required_peer_driver
+residual_blocks_per_e_block[i] == offsets[i + 1] - offsets[i]
+resolution
+resource_root
+revision
+rewind
+rho[1] > 0.0
+right
+right centerDst %f %f\n
+right dxDst %f %f\n
+roll
+rotation
+rotation angle left %f\n
+rotation angle right %f\n
+roundf
+row < num_rows()
+row.cells.front().block_id >= num_eliminate_blocks
+runtime
+s_cat
+scale
+scaling
+scanout_scaling
+schur_ordering.size() == program->NumParameterBlocks()
+second_tracked_camera
+seconds_from_photons_to_vblank
+seconds_from_vsync_to_photons
+sequential
+sequential io not allowed
+setvbuf
+signal
+size 
+size of 
+size was 
+size_of_first_elimination_group >= 1
+sizeof(item) must be > 0
+small: 
+solved, final cost (RMSE)=%.6f\n
+solvepts
+sq_norm >= 0.0
+sqrt
+srcX0 + copyW <= gw && srcY0 + copyH <= gh
+srcX0 >= 0 && srcY0 >= 0
+src_height %d\n
+src_width %d\n
+status: ERROR, GPU had a fatal error\n
+status: ERROR, invalid parameter\n
+status: ERROR, method not installed\n
+status: ERROR, out of memory\n
+status: ERROR, problem too large\n
+status: OK\n
+status: warning, diagonal entry has tiny abs. value\n
+status: warning, matrix not positive definite\n
+step_quality > 0.0
+step_size_estimate >= 0.0
+stod argument out of range
+stof argument out of range
+stoi argument out of range
+streams
+strerror_s
+string too long
+strncmp
+strncpy
+strpbrk
+strrchr
+strtod
+strtof
+strtol
+subpixel_offsets
+subpixel_shift_blue_in_pixels
+subpixel_shift_red_in_pixels
+subscript for scalar variable
+subscript out of bounds
+substring out of bounds
+supernodal zomplex L not supported
+supported
+symmetric lower not supported
+symmetric upper case not supported
+symmetric upper not supported
+symmetric upper not supported 
+tTyY1
+terminate
+that the cost function expects.
+the Ceres developers.\n
+the developers!, initial_position: 
+the interpolating polynomial.
+the number of jacobian nonzeros. Please contact the developers!
+threadid file:line] msg
+tmp = load('%s', '-ascii');\n
+tmpfile
+to the developers.
+tolower
+toupper
+tracked_camera
+tracked_camera1
+tracked_cameras
+tracked_controller_role
+tracking_camera_intrinsics
+tracking_camera_unique_id
+tracking_reference
+tracking_to_eye_transform
+trackref_from_head
+trackref_from_imu
+translation
+true
+true 
+truncation failed in endfile
+type
+undist_height
+undist_width
+undistort_r2_cutoff
+unformatted
+unformatted io not allowed
+ungetc
+unit not connected
+unknown
+unknown code in do_fio: %d\n%s\n
+unknown ordering method
+unknown status
+usbPID
+usbVID
+use_explicit_schur_complement only supports SCHUR_JACOBI as the preconditioner.
+use_loss_function
+user permutation (if given)\n
+variable count incorrect
+variable not in namelist
+vector<T> too long
+vertices.size() == num_clusters_
+vertices.size() == ordering->size()
+visibility based preconditioning.
+vortex
+w_ed, unexpected code: %d\n
+w_ned, unexpected code: %d\n
+white_balance
+width
+with user location 
+workspace E not large enough
+workspace corrupted (Flag and/or Head missing)
+workspace corrupted (Flag)
+workspace corrupted (Head)
+workspace corrupted (Xwork missing)
+workspace corrupted (Xwork)
+write start
+writing
+writing to: 
+x_plus_delta = Plus(x, delta) failed. 
+xtype invalid
+xtype of A and F do not match
+xtype of A and L do not match
+y?driver
+you can get its local parameterization.
+z < %.5g%%) or
+zDUUUUUU
+zero but the optimization has not been terminated. 
+{ this=%p, user_state=%p, state=%p, size=%d, constant=%d, index=%d, state_offset=%d, delta_offset=%d }
+{residual block; index=%d}

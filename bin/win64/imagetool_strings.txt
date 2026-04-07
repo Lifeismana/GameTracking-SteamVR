@@ -2667,6 +2667,7 @@ $wtpt
 420x595
 4294967295\n
 42aJ]
+44\fp
 459x649
 48<@DHLPTX\`dh
 48x48>
@@ -7192,7 +7193,6 @@ P'PqP
 P(hA
 P0;0;0q
 P0Ea
-P2q/
 P4\n16 16\n
 P4\n16 8\n
 P4\n24 24\n
@@ -8058,7 +8058,7 @@ ROMAN
 ROSE
 RR Interval Window Number
 RR Window Offset
-RSDSs
+RSDSp
 RT Beam Limiting Device Type
 RT Dose ROI Sequence
 RT Image Description
@@ -8087,7 +8087,7 @@ R\f2
 R\nsss
 R\nuN
 R\vn>
-R\vpD
+R\vpH
 Radial
 Radial Position
 Radiance RGBE image format
@@ -10343,8 +10343,8 @@ Z|4X
 \fgTRC
 \fonts\
 \fonts\arial.ttf
-\fp\vPD
-\fp\vP\n0D
+\fp\vPH
+\fp\vP\n0H
 \fpcd
 \frTRC
 \ftext
@@ -10428,7 +10428,7 @@ Z|4X
 \rCBqjR@
 \rD<pC?o%E
 \rIEC61966-2.1
-\rP\f0D
+\rP\f0H
 \rQh0
 \rYi2
 \r\r\r&\r@\rZ\rt\r
@@ -11589,7 +11589,6 @@ dJ_p
 dLcv
 dNXC8939:4>>8A?:D?:FA<EA:E@:G?8E=4D;1C:3C:3<8095/94/<70B<0I=0OA2P@5K<4E:1A:1=<3G70
 dQy/
-dX\n0
 d\nml
 d_7y3B
 dagger
@@ -14640,8 +14639,8 @@ rD1\nR
 rF-yk-?6
 rTRC
 rXYZ
-r\vPD
-r\vpD
+r\vPH
+r\vpH
 radial
 radialGradient
 radius

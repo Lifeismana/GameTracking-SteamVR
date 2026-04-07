@@ -580,7 +580,6 @@ $\t?contains@QRectF@@QEBA_NAEBVQPointF@@@Z
 .?AVrange_error@std@@
 .?AVruntime_error@std@@
 .?AVtype_info@@
-.A8e
 .CRT$XCA
 .CRT$XCAA
 .CRT$XCL
@@ -722,6 +721,7 @@ $\t?contains@QRectF@@QEBA_NAEBVQPointF@@@Z
 /user/wrist/right
 /vivehub
 /vivepro2
+/vrlinkdongledriver
 /wmr
 0123456789ABCDEF
 0:00
@@ -731,7 +731,7 @@ $\t?contains@QRectF@@QEBA_NAEBVQPointF@@@Z
 1!?widget@QTabWidget@@QEBAPEAVQWidget@@H@Z
 100%
 1000
-10:06:46
+14:21:11
 1DoAcquireData()
 1DoInit()
 1DoParseString( const QString & )
@@ -1509,6 +1509,7 @@ $\t?contains@QRectF@@QEBA_NAEBVQPointF@@@Z
 ??0QPixmap@@QEAA@AEBV0@@Z
 ??0QPixmap@@QEAA@AEBVQSize@@@Z
 ??0QPixmap@@QEAA@AEBVQString@@PEBDV?$QFlags@W4ImageConversionFlag@Qt@@@@@Z
+??0QPixmap@@QEAA@HH@Z
 ??0QPixmap@@QEAA@XZ
 ??0QPlainTextEdit@@QEAA@PEAVQWidget@@@Z
 ??0QPolygonF@@QEAA@AEBV0@@Z
@@ -1752,6 +1753,7 @@ $\t?contains@QRectF@@QEBA_NAEBVQPointF@@@Z
 ??UQRectF@@QEBA?AV0@AEBV0@@Z
 ??YQString@@QEAAAEAV0@PEBD@Z
 ??YQString@@QEAAAEAV0@VQChar@@@Z
+??_0QSize@@QEAAAEAV0@N@Z
 ??_7?$basic_ios@DU?$char_traits@D@std@@@std@@6B@
 ??_7?$codecvt@_WDU_Mbstatet@@@std@@6B@
 ??_7_Facet_base@std@@6B@
@@ -1909,6 +1911,7 @@ $\t?contains@QRectF@@QEBA_NAEBVQPointF@@@Z
 ?childEvent@QSplitter@@MEAAXPEAVQChildEvent@@@Z
 ?childGroups@QSettings@@QEBA?AVQStringList@@XZ
 ?childKeys@QSettings@@QEBA?AVQStringList@@XZ
+?children@QObject@@QEBAAEBV?$QList@PEAVQObject@@@@XZ
 ?className@QMetaObject@@QEBAPEBDXZ
 ?cleanPath@QDir@@SA?AVQString@@AEBV2@@Z
 ?clear@QAbstractSpinBox@@UEAAXXZ
@@ -2231,6 +2234,7 @@ $\t?contains@QRectF@@QEBA_NAEBVQPointF@@@Z
 ?moveEvent@QWidget@@MEAAXPEAVQMoveEvent@@@Z
 ?moveToThread@QObject@@QEAAXPEAVQThread@@@Z
 ?moveTopLeft@QRect@@QEAAXAEBVQPoint@@@Z
+?movie@QLabel@@QEBAPEAVQMovie@@XZ
 ?msleep@QThread@@SAXK@Z
 ?nativeEvent@QWidget@@MEAA_NAEBVQByteArray@@PEAXPEAJ@Z
 ?next@QRegularExpressionMatchIterator@@QEAA?AVQRegularExpressionMatch@@XZ
@@ -2965,6 +2969,7 @@ $\t?contains@QRectF@@QEBA_NAEBVQPointF@@@Z
 ?xsgetn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JPEAD_J@Z
 ?xsputn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JPEBD_J@Z
 A valid JSON document must be either an array or an object value.
+A wireless HMD driver is present, but the wireless HMD has not connected and Steam is not running (216)
 A wireless HMD driver is present, but the wireless HMD has not connected yet (215)
 A"QT
 ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/
@@ -3042,6 +3047,7 @@ AppUnpluggedIndexControllerActiveSeconds
 Application GPU (post)
 Application GPU (pre)
 Application Interval
+Apr  6 2026
 Area
 Args
 Arial
@@ -3085,6 +3091,7 @@ Axis index out of bounds:
 Axis isn't in axis rect:
 AxisType
 AxisTypes
+BCheckIfOSDriverNeeded: %d %d %d
 BETA
 BS20_ConfigureChannel_Apply
 BS20_ConfigureChannel_AutoConfigContinue
@@ -3840,6 +3847,7 @@ DismissableWarning_RunTutorialAgain
 DismissableWarning_SceneApplicationUsingWrongGraphicsAdapter
 DismissableWarning_SomeDisplaysAreMirroring
 DismissableWarning_SteamBetaNeeded
+DismissableWarning_SteamFrameDongleDriverMissing
 DismissableWarning_SteamStreamingAudioEndpointDisabled
 DismissableWarning_SteamVRInSafeMode
 DismissableWarning_SteamVRUpdated
@@ -4388,6 +4396,9 @@ Graph
 Graphics:\t(?<VALUE>.*)
 GraphicsDriver
 H!?window@QWidget@@QEBAPEAV1@XZ
+HAGS
+HAGS status is %s
+HAGS: %s\n
 HID opened: VID %04x PID %04x serial %S seq %d | if %d\n
 HKEY_CLASSES_ROOT
 HKEY_CURRENT_USER\Software\Classes\vrmonitor
@@ -4474,6 +4485,7 @@ Hmd Not Found Presence Failed (126)
 HmdWarning_Title
 HomeAppEnabled
 Hoping to write frame timing info to %s (%d samples)\n
+HwSchMode
 IAudioCaptureClient::GetBuffer failed on pass %u: hr = 0x%08x\n
 IAudioCaptureClient::GetBuffer said to read 0 frames on pass %u\n
 IAudioCaptureClient::GetBuffer() failed: hr = 0x%08x\n
@@ -4556,7 +4568,7 @@ IVRCameraComponent_002
 IVRCameraPassthroughInternal_001
 IVRChaperoneInternal_XXX
 IVRChaperoneServerDriver_XXX
-IVRChaperoneSetup_006
+IVRChaperoneSetup_007
 IVRChaperone_004
 IVRClientInternal_XXX
 IVRCompositorPluginProvider_001
@@ -4573,6 +4585,7 @@ IVRDriverInputInternal_XXX
 IVRDriverLog_001
 IVRDriverManager_001
 IVRExtendedDisplay_001
+IVRInputFocusInternal_XXX
 IVRInputInternal_002
 IVRInput_011
 IVRMailbox_002
@@ -4580,7 +4593,7 @@ IVRNotificationsInternal_001
 IVRNotifications_002
 IVROverlayInternal_XXX
 IVROverlayView_003
-IVROverlay_028
+IVROverlay_029
 IVRPathsInternal_XXX
 IVRPaths_002
 IVRPropertiesInternal_001
@@ -4749,6 +4762,10 @@ Lighthouse_RecommendControllerUpgradeOverUsb
 Lighthouse_UnknownEvent
 Line %d, Column %d
 LineStyle
+LinkQuality_
+LinkType_
+Link_One_Second_Loss_Ratio
+Link_One_Second_P100_Ping
 Linux
 Linux 2.2
 Linux 2.4
@@ -4809,7 +4826,6 @@ Manufacturer:
 Manufacturer: 
 Manufacturer: %1\n
 MapViewOfFile
-Mar 25 2026
 MbP?
 MenuAction_AboutQt
 MenuAction_About_vrmonitor
@@ -5936,7 +5952,7 @@ R?scaledSize@QMovie@@QEAA?AVQSize@@XZ
 R?screens@QGuiApplication@@SA?AV?$QList@PEAVQScreen@@@@XZ
 REFRESH
 RPCRT4.dll
-RSDS1
+RSDS
 RSSI: %1\n
 R\v?find@QPlainTextEdit@@QEAA_NAEBVQString@@V?$QFlags@W4FindFlag@QTextDocument@@@@@Z
 Radio
@@ -5986,6 +6002,7 @@ RegDeleteValueW
 RegDisableReflectionKey
 RegEnumKeyExA
 RegEnumValueW
+RegGetValueA
 RegGetValueW
 RegOpenKeyA
 RegOpenKeyExA
@@ -6528,6 +6545,7 @@ SystemReport_USB
 SystemReport_UnableToOpenFile
 SystemTimeInSeconds
 SystemTimeToFileTime
+System\CurrentControlSet\Control\GraphicsDrivers
 T?setJoinStyle@QPen@@QEAAXW4PenJoinStyle@Qt@@@Z
 T?setMajorVersion@QSurfaceFormat@@QEAAXH@Z
 TEXCOORD
@@ -6619,6 +6637,7 @@ UNPLUGGED
 URL Protocol
 URL:vrmonitor Protocol
 USB Service Busy (140)
+USB\VID_%04X&PID_%04X
 USB\n\nUSB Connections:\n\n(?<USB>(.+\n{1,2}){2,})
 USER32.dll
 USERNAME
@@ -6685,6 +6704,7 @@ Unknown watchman hardware ID detected: %d. Unable to perform automatic recovery.
 UnmapViewOfFile
 Unpaused
 UnregisterHotKey
+Unset or Default
 Update Chaperone Data in Room Setup Window\n
 Update necessary\n
 UpdateApplicationLabel
@@ -6851,6 +6871,7 @@ VRInitError_Driver_RuntimeOutOfDate
 VRInitError_Driver_TrackedDeviceInterfaceUnknown
 VRInitError_Driver_Unknown
 VRInitError_Driver_WirelessHmdNotConnected
+VRInitError_Driver_WirelessHmdNotConnectedAndNoSteam
 VRInitError_IPC_CompositorConnectFailed
 VRInitError_IPC_CompositorInitFailed
 VRInitError_IPC_CompositorInvalidConnectResponse
@@ -6959,6 +6980,7 @@ VRInitError_VendorSpecific_VRLink_OutdatedDriverNVIDIA
 VRInitError_VendorSpecific_WindowsNotInDevMode
 VRManifest_Imported_Message
 VRManifest_Imported_Title
+VRMonitor
 VRMonitor.vrmanifest
 VRMonitor.vrmanifest/shell/Open/command/.
 VRSettingsError_AccessDenied
@@ -7147,6 +7169,7 @@ Write Error.
 WriteFile
 WriteFile(error_no:%ld) is failed!!\n
 Writing persistent statistics to file %s\n
+Wrong Platform
 X?stop@QMovie@@QEAAXXZ
 X?style@QBrush@@QEBA?AW4BrushStyle@Qt@@XZ
 X?testRenderHint@QPainter@@QEBA_NW4RenderHint@1@@Z
@@ -7613,6 +7636,8 @@ Zjz\v
 \t?doSetTextCursor@QPlainTextEdit@@MEAAXAEBVQTextCursor@@@Z
 \t?doSetTextCursor@QTextEdit@@MEAAXAEBVQTextCursor@@@Z
 \t?done@QDialog@@UEAAXH@Z
+\tDriver mfctr: %s
+\tDriver version: %s
 \t\n?dragEnterEvent@QAbstractItemView@@MEAAXPEAVQDragEnterEvent@@@Z
 \t\v?eventFilter@QStyledItemDelegate@@MEAA_NPEAVQObject@@PEAVQEvent@@@Z
 \v?devType@QPixmap@@UEBAHXZ
@@ -7746,9 +7771,11 @@ _invalid_parameter_noinfo_noreturn
 _localtime64
 _mbsstr
 _mktime64
+_off
 _purecall
 _register_onexit_function
 _register_thread_local_exe_atexit_callback
+_searching
 _seh_filter_exe
 _set_app_type
 _set_fmode
@@ -8431,7 +8458,19 @@ limBelow
 lineStyle
 line_height
 link_color
+link_dongle
+link_dongle_searching
+link_unknown
+link_usb
+link_wired_to_router
+link_wireless_to_router
 linkbox
+linkquality_bad
+linkquality_good
+linkquality_mediocre
+linkquality_missing
+linkquality_none
+linkquality_searching
 list<T> too long
 localized_subtitle
 logfiles
@@ -8644,6 +8683,8 @@ plottable not created with this QCustomPlot as parent:
 plottable not in list:
 plottableClick
 plottableDoubleClick
+plus
+plus_off
 pmDefault
 pmNoCaching
 pmNonCosmetic
@@ -8671,6 +8712,7 @@ q ?updateGeometry@QWidget@@QEAAXXZ
 qMFCreateMediaType failed hr = 0x%08x\n
 q\r?inputMethodEvent@QTextEdit@@MEAAXPEAVQInputMethodEvent@@@Z
 q\t?createData@QMapDataBase@@SAPEAU1@XZ
+q\v?erase@QListData@@QEAAPEAPEAXPEAPEAX@Z
 quit
 r\r?inputMethodEvent@QWidget@@MEAAXPEAVQInputMethodEvent@@@Z
 r\v?flags@QGraphicsItem@@QEBA?AV?$QFlags@W4GraphicsItemFlag@QGraphicsItem@@@@XZ
@@ -8859,6 +8901,7 @@ status_warning_bottom
 status_warning_top
 status_warning_width
 statusreport
+steam://install/
 steam://install/1635730
 steam://install/1649260
 steam://install/2467050
@@ -8946,7 +8989,6 @@ surpresswarnings
 sv_se
 swedish
 system.HeadsetView
-system_dashboard_toggle
 systemreport
 systemreport2/geometry
 systemreport2/last_directory
@@ -9143,7 +9185,6 @@ vrcombined_log.txt
 vrcompositor.exe
 vrcompositor.txt
 vrcompositor_mailbox
-vrcompositor_systemlayer
 vrdashboard.exe
 vrdashboard.txt
 vrlink
@@ -9239,6 +9280,7 @@ zh_tw
 {\n?create@QOpenGLContext@@QEAA_NXZ
 {\v?focusInEvent@QAbstractButton@@MEAAXPEAVQFocusEvent@@@Z
 {system}/icons/invalid_status.png
+{vrlink}/icons/
 |U?setPen@QPainter@@QEAAXAEBVQPen@@@Z
 |\f?heightForWidth@QFormLayout@@UEBAHH@Z
 |\v?focusInEvent@QAbstractItemView@@MEAAXPEAVQFocusEvent@@@Z

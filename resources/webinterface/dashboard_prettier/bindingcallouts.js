@@ -1,339 +1,188 @@
-var CLSTAMP = "10552726";
+var CLSTAMP = "10579910";
 (() => {
   "use strict";
-  var e,
-    t = {
-      6035: (e, t, n) => {
-        n.d(t, { P: () => p });
-        var i,
-          s,
-          o = n(6540),
-          a = n(3815),
-          r = n(4452),
-          l = "function" == typeof Symbol && Symbol.for,
-          u =
-            null !==
-              (s =
-                null ===
-                  (i = Object.getOwnPropertyDescriptor(
-                    function () {},
-                    "name",
-                  )) || void 0 === i
-                  ? void 0
-                  : i.configurable) &&
-            void 0 !== s &&
-            s,
-          c = l
-            ? Symbol.for("react.forward_ref")
-            : "function" == typeof o.forwardRef &&
-              (0, o.forwardRef)(function (e) {
-                return null;
-              }).$$typeof,
-          d = l
-            ? Symbol.for("react.memo")
-            : "function" == typeof o.memo &&
-              (0, o.memo)(function (e) {
-                return null;
-              }).$$typeof;
-        function p(e, t) {
-          var n;
-          if (d && e.$$typeof === d)
-            throw new Error(
-              "[mobx-react-lite] You are trying to use `observer` on a function component wrapped in either another `observer` or `React.memo`. The observer already applies 'React.memo' for you.",
-            );
-          if ((0, a.P)()) return e;
-          var i =
-              null !== (n = null == t ? void 0 : t.forwardRef) &&
-              void 0 !== n &&
-              n,
-            s = e,
-            l = e.displayName || e.name;
-          if (
-            c &&
-            e.$$typeof === c &&
-            ((i = !0), "function" != typeof (s = e.render))
-          )
-            throw new Error(
-              "[mobx-react-lite] `render` property of ForwardRef was not a function",
-            );
-          var p,
-            m,
-            _ = function (e, t) {
-              return (0, r.q)(function () {
-                return s(e, t);
-              }, l);
-            };
-          return (
-            (_.displayName = e.displayName),
-            u &&
-              Object.defineProperty(_, "name", {
-                value: e.name,
-                writable: !0,
-                configurable: !0,
-              }),
-            e.contextTypes && (_.contextTypes = e.contextTypes),
-            i && (_ = (0, o.forwardRef)(_)),
-            (_ = (0, o.memo)(_)),
-            (p = e),
-            (m = _),
-            Object.keys(p).forEach(function (e) {
-              h[e] ||
-                Object.defineProperty(
-                  m,
-                  e,
-                  Object.getOwnPropertyDescriptor(p, e),
-                );
-            }),
-            _
-          );
-        }
-        var h = {
-          $$typeof: !0,
-          render: !0,
-          compare: !0,
-          type: !0,
-          displayName: !0,
-        };
-      },
-      4452: (e, t, n) => {
-        n.d(t, { q: () => c });
-        var i = n(7813),
-          s = n(6540),
-          o = n(6356),
-          a = n(3815),
-          r = n(7380),
-          l = n(9888);
-        function u(e) {
-          e.reaction = new i.Reaction("observer".concat(e.name), function () {
-            var t;
-            (e.stateVersion = Symbol()),
-              null === (t = e.onStoreChange) || void 0 === t || t.call(e);
-          });
-        }
-        function c(e, t) {
-          if ((void 0 === t && (t = "observed"), (0, a.P)())) return e();
-          var n = s.useRef(null);
-          if (!n.current) {
-            var i = {
-              reaction: null,
-              onStoreChange: null,
-              stateVersion: Symbol(),
-              name: t,
-              subscribe: function (e) {
-                return (
-                  r.Y.unregister(i),
-                  (i.onStoreChange = e),
-                  i.reaction || (u(i), (i.stateVersion = Symbol())),
-                  function () {
-                    var e;
-                    (i.onStoreChange = null),
-                      null === (e = i.reaction) || void 0 === e || e.dispose(),
-                      (i.reaction = null);
-                  }
-                );
-              },
-              getSnapshot: function () {
-                return i.stateVersion;
-              },
-            };
-            n.current = i;
-          }
-          var c,
-            d,
-            p = n.current;
-          if (
-            (p.reaction || (u(p), r.Y.register(n, p, p)),
-            s.useDebugValue(p.reaction, o.E),
-            (0, l.useSyncExternalStore)(
-              p.subscribe,
-              p.getSnapshot,
-              p.getSnapshot,
-            ),
-            p.reaction.track(function () {
-              try {
-                c = e();
-              } catch (e) {
-                d = e;
-              }
-            }),
-            d)
-          )
-            throw d;
-          return c;
-        }
-      },
-      6090: (e, t, n) => {
-        n.d(t, {
-          $: () => w.$,
-          $Z: () => M.$Z,
-          Ay: () => A,
-          CU: () => s.CU,
-          Ci: () => f.C,
-          Cw: () => o.C,
-          Ee: () => M.Ee,
+  var t,
+    e = {
+      6090: (t, e, o) => {
+        o.d(e, {
+          $: () => T.$,
+          $Z: () => T.$Z,
+          Ay: () => O,
+          CU: () => n.CU,
+          Ci: () => g.C,
+          Cw: () => s.C,
+          Ee: () => w.Ee,
           Em: () => c.Em,
-          FN: () => v.F,
-          Fb: () => s.Fb,
-          Fi: () => g.Fi,
-          GM: () => d.GM,
-          GQ: () => M.GQ,
-          Gz: () => M.Gz,
-          HW: () => M.HW,
+          FN: () => b.F,
+          Fb: () => n.Fb,
+          Fi: () => f.Fi,
+          Fz: () => T.Fz,
+          GM: () => u.GM,
+          GQ: () => w.GQ,
+          GS: () => i.GS,
+          Gz: () => w.Gz,
+          HW: () => w.HW,
           I0: () => i.I0,
           IS: () => l.I,
-          JZ: () => s.JZ,
-          KI: () => w.KI,
-          Ld: () => s.Ld,
+          JZ: () => n.JZ,
+          Jv: () => i.Jv,
+          KI: () => T.KI,
+          Ld: () => n.Ld,
           M9: () => i.M9,
-          MQ: () => g.MQ,
-          MV: () => M.MV,
-          N: () => a.e,
+          MQ: () => f.MQ,
+          MV: () => w.MV,
+          N: () => r.e,
           N1: () => _.N,
-          NB: () => M.NB,
-          NH: () => s.NH,
+          NH: () => n.NH,
           Nu: () => y.N,
-          O5: () => p.O,
-          O6: () => s.O6,
-          OH: () => M.OH,
-          Oi: () => g.Oi,
-          QB: () => s.QB,
-          QR: () => w.QR,
-          R$: () => M.R$,
-          Rk: () => M.Rk,
-          Se: () => s.Se,
-          Uj: () => s.Uj,
+          O5: () => d.O,
+          O6: () => n.O6,
+          OH: () => w.OH,
+          Oi: () => f.Oi,
+          QB: () => n.QB,
+          QR: () => T.QR,
+          R$: () => w.R$,
+          Rk: () => w.Rk,
+          Se: () => n.Se,
+          Uj: () => n.Uj,
           Vh: () => h.V,
-          Xl: () => M.Xl,
-          Y4: () => r.Y,
-          Zk: () => g.Zk,
-          _1: () => M._1,
-          _h: () => g._h,
+          Xl: () => w.Xl,
+          Y4: () => a.Y,
+          Yu: () => w.Yu,
+          Zk: () => f.Zk,
+          _1: () => w._1,
+          _h: () => f._h,
           _n: () => i._n,
           aX: () => h.a,
-          b: () => M.b,
-          b$: () => D.b,
-          b4: () => b.b,
-          cB: () => E.L,
-          dL: () => u.d,
-          e_: () => s.e_,
-          en: () => w.en,
-          fD: () => w.fD,
-          gN: () => M.gN,
-          k2: () => M.k2,
-          kG: () => M.kG,
-          ku: () => M.ku,
+          b: () => w.b,
+          b$: () => N.b,
+          b4: () => v.b,
+          cB: () => k.L,
+          dL: () => p.d,
+          e_: () => n.e_,
+          en: () => T.en,
+          eo: () => T.eo,
+          fD: () => T.fD,
+          fk: () => T.fk,
+          gN: () => w.gN,
+          k2: () => w.k2,
+          kG: () => w.kG,
+          ku: () => w.ku,
           lq: () => m.l,
-          m$: () => b.m,
+          m$: () => v.m,
           mS: () => C.m,
           mX: () => i.mX,
-          mo: () => M.mo,
-          mu: () => M.mu,
+          mo: () => w.mo,
+          mu: () => w.mu,
           nX: () => c.nX,
-          ne: () => M.ne,
-          nq: () => S.n,
-          o3: () => g.o3,
-          oN: () => s.oN,
-          o_: () => s.o_,
-          p0: () => s.p0,
-          pM: () => M.pM,
+          ne: () => w.ne,
+          nq: () => R.n,
+          o3: () => f.o3,
+          oN: () => n.oN,
+          o_: () => n.o_,
+          p0: () => n.p0,
+          pM: () => w.pM,
           pg: () => i.pg,
-          q5: () => s.q5,
-          qF: () => s.qF,
+          q5: () => n.q5,
+          qF: () => n.qF,
           rF: () => l.H,
-          rx: () => M.rx,
-          sJ: () => R.$,
+          rx: () => w.rx,
+          sJ: () => S.$,
           sn: () => i.sn,
-          tx: () => s.tx,
+          tx: () => n.tx,
           uC: () => x.u,
-          vx: () => s.vx,
+          um: () => T.um,
+          vx: () => n.vx,
+          xO: () => f.xO,
+          yW: () => T.yW,
         });
-        var i = n(2824),
-          s = n(6292),
-          o = n(3389),
-          a = (n(4120), n(1230)),
-          r = n(5830),
-          l = n(6186),
-          u = n(3361),
-          c = (n(111), n(5723)),
-          d = n(3496),
-          p = n(5178),
-          h = (n(428), n(9011), n(7350)),
-          m = n(6847),
-          _ = n(5227),
-          f = (n(10), n(1808)),
-          g = n(7019),
-          b = (n(1988), n(2527), n(9864)),
-          v = n(4189),
-          C = n(322),
-          y = n(1977),
-          R = n(6417),
-          S = n(2303),
-          E = n(8715),
-          D = (n(4397), n(5459)),
-          x = n(8472),
-          M = (n(1184), n(3725)),
-          w = n(4367);
-        const A = VRHTML;
+        var i = o(2824),
+          n = o(6292),
+          s = o(3389),
+          r = (o(4120), o(1230)),
+          a = o(5830),
+          l = o(6186),
+          p = o(3361),
+          c = (o(111), o(5723)),
+          u = o(3496),
+          d = o(5178),
+          h = (o(428), o(9011), o(7350)),
+          m = o(6847),
+          _ = o(5227),
+          g = (o(10), o(1808)),
+          f = o(7019),
+          v = (o(1988), o(2527), o(9864)),
+          b = o(4189),
+          C = o(322),
+          y = o(1977),
+          S = o(6417),
+          R = o(2303),
+          k = o(8715),
+          N = (o(4397), o(5459)),
+          x = o(8472),
+          w = (o(1184), o(3725)),
+          T = o(4367);
+        const O = VRHTML;
       },
-      1977: (e, t, n) => {
-        n.d(t, { N: () => o });
-        var i = n(6540),
-          s = n(3496);
-        class o extends s._J {
-          constructor(e) {
-            super(e);
+      1977: (t, e, o) => {
+        o.d(e, { N: () => s });
+        var i = o(6540),
+          n = o(3496);
+        class s extends n._J {
+          constructor(t) {
+            super(t);
           }
           internalRender() {
             return i.createElement(
               "vsg-callout-transform",
-              { offset: (0, s.j_)(this.props.vOffset) },
+              { offset: (0, n.j_)(this.props.vOffset) },
               this.props.children,
             );
           }
         }
       },
-      322: (e, t, n) => {
-        n.d(t, { m: () => a });
-        var i = n(6540),
-          s = n(4367),
-          o = n(3361);
-        class a extends i.Component {
-          constructor(e) {
-            super(e);
-            let t = {};
+      322: (t, e, o) => {
+        o.d(e, { m: () => r });
+        var i = o(6540),
+          n = o(4367),
+          s = o(3361);
+        class r extends i.Component {
+          constructor(t) {
+            super(t);
+            let e = {};
             if (VRHTML)
               try {
-                let e = VRHTML.VRProperties.GetStringProperty(
+                let t = VRHTML.VRProperties.GetStringProperty(
                   this.props.sDevicePath,
-                  s.fD.RenderModelName_String,
+                  n.fD.RenderModelName_String,
                 );
-                if (e) {
-                  let n =
+                if (t) {
+                  let o =
                     VRHTML.VRRenderModelsInternal.FindComponentForInputSource(
-                      e,
+                      t,
                       this.props.sInputPath,
                     );
-                  if (n) {
+                  if (o) {
                     let i =
                       VRHTML.VRRenderModels.GetComponentStateForDevicePath(
-                        e,
-                        n,
+                        t,
+                        o,
                         this.props.sDevicePath,
                       );
-                    i && (t.xfTransform = i.xfTrackingToComponentLocal);
+                    i && (e.xfTransform = i.xfTrackingToComponentLocal);
                   }
                 }
-              } catch (e) {
+              } catch (t) {
                 console.log(
                   "Component transform invalid for ",
                   this.props.sDevicePath,
                 );
               }
-            this.state = t;
+            this.state = e;
           }
           render() {
             return i.createElement(
-              o.d,
+              s.d,
               {
                 id: this.props.id,
                 parent_path: this.props.sDevicePath,
@@ -344,37 +193,183 @@ var CLSTAMP = "10552726";
           }
         }
       },
-      4189: (e, t, n) => {
-        n.d(t, { F: () => a });
-        var i = n(1635),
-          s = n(3496),
-          o = n(3236);
+      1184: (t, e, o) => {
+        var i,
+          n = o(1635),
+          s = o(3496),
+          r = o(3236);
+        !(function (t) {
+          (t[(t.Disabled = 0)] = "Disabled"),
+            (t[(t.WorldZeroY = 1)] = "WorldZeroY"),
+            (t[(t.WorldDynamicFloor = 2)] = "WorldDynamicFloor");
+        })(i || (i = {}));
         class a extends s._J {
-          constructor(e) {
-            super(e), super.setBuildNodeOverride(this.buildNode);
+          constructor(t) {
+            super(t), super.setBuildNodeOverride(this.buildNode);
+          }
+          getNodeType() {
+            return "constraint";
+          }
+          buildNode(t, e) {
+            const o = this.createSgNode(e);
+            return (
+              (o.properties["projection-constraint"] =
+                this.props.projection_constraint),
+              [t, o]
+            );
+          }
+        }
+        (0, n.Cg)([r.o], a.prototype, "buildNode", null);
+      },
+      4120: (t, e, o) => {
+        var i,
+          n = o(1635),
+          s = o(3496),
+          r = o(3236);
+        !(function (t) {
+          (t[(t.RoomSetupFloor = 1)] = "RoomSetupFloor"),
+            (t[(t.Locomotion = 2)] = "Locomotion"),
+            (t[(t.QuickRecenter = 4)] = "QuickRecenter");
+        })(i || (i = {}));
+        class a extends s._J {
+          constructor(t) {
+            super(t), super.setBuildNodeOverride(this.buildNode);
+          }
+          getNodeType() {
+            return "constructglobals";
+          }
+          buildNode(t, e) {
+            const o = this.createSgNode(e);
+            return (
+              (o.properties["scene-color-mult"] = (0, s.kJ)(
+                this.props["scene-color-mult"],
+              )),
+              (o.properties["floor-color-mult"] = (0, s.kJ)(
+                this.props["floor-color-mult"],
+              )),
+              (o.properties["scene-reflection-mult"] = (0, s.kJ)(
+                this.props["scene-reflection-mult"],
+              )),
+              (o.properties["skydome-mult"] = (0, s.kJ)(
+                this.props["skydome-mult"],
+              )),
+              (o.properties["roomview-mult"] = (0, s.UM)(
+                this.props["roomview-mult"],
+              )),
+              (o.properties["allowed-action-sets"] = this.props[
+                "allowed-action-sets"
+              ].reduce((t, e) => t | e, 0)),
+              (o.properties["inhibit-bounds-rendering"] =
+                this.props["inhibit-bounds-rendering"]),
+              (o.properties["pause-notifications"] =
+                this.props["pause-notifications"]),
+              (o.properties["roomview-enable-override"] =
+                this.props["roomview-enable-override"]),
+              (o.properties["systemlayer-msaa-enable-override"] =
+                this.props["systemlayer-msaa-enable-override"]),
+              (o.properties["construct-alpha-override"] =
+                this.props["construct-alpha-override"]),
+              [t, o]
+            );
+          }
+        }
+        (0, n.Cg)([r.o], a.prototype, "buildNode", null);
+      },
+      9864: (t, e, o) => {
+        o.d(e, { b: () => i, m: () => r });
+        var i,
+          n = o(6540),
+          s = o(3496);
+        !(function (t) {
+          (t[(t.Parent = 0)] = "Parent"), (t[(t.World = 1)] = "World");
+        })(i || (i = {}));
+        class r extends s._J {
+          constructor(t) {
+            super(t);
+          }
+          internalRender() {
+            var t;
+            const e = null === (t = this.props.enabled) || void 0 === t || t,
+              o = this.props.rotation_start_angle_threshold
+                ? (this.props.rotation_start_angle_threshold * Math.PI) / 180
+                : null,
+              i = this.props.rotation_stop_angle_threshold
+                ? (this.props.rotation_stop_angle_threshold * Math.PI) / 180
+                : null,
+              s = this.props.rotation_ease_out_angle_threshold
+                ? (this.props.rotation_ease_out_angle_threshold * Math.PI) / 180
+                : null,
+              r = this.props.rotation_min_angular_velocity
+                ? (this.props.rotation_min_angular_velocity * Math.PI) / 180
+                : null,
+              a = this.props.rotation_max_angular_velocity
+                ? (this.props.rotation_max_angular_velocity * Math.PI) / 180
+                : null;
+            return n.createElement(
+              "vsg-elastic-head-transform",
+              {
+                "rotation-start-angle-threshold": o,
+                "rotation-stop-angle-threshold": i,
+                "rotation-ease-in-time": this.props.rotation_ease_in_time,
+                "rotation-ease-in-power": this.props.rotation_ease_in_power,
+                "rotation-ease-out-angle-threshold": s,
+                "rotation-ease-out-power": this.props.rotation_ease_out_power,
+                "rotation-min-angular-velocity": r,
+                "rotation-max-angular-velocity": a,
+                "translation-start-distance-threshold":
+                  this.props.translation_start_distance_threshold,
+                "translation-stop-distance-threshold":
+                  this.props.translation_stop_distance_threshold,
+                "translation-ease-in-time": this.props.translation_ease_in_time,
+                "translation-ease-in-power":
+                  this.props.translation_ease_in_power,
+                "translation-ease-out-distance-threshold":
+                  this.props.translation_ease_out_distance_threshold,
+                "translation-ease-out-power":
+                  this.props.translation_ease_out_power,
+                "translation-velocity": this.props.translation_velocity,
+                enabled: e,
+                "lock-to-horizon": this.props.lock_to_horizon,
+                "translation-parent": this.props.translation_parent,
+                "rotation-translation-change-together":
+                  this.props.rotation_translation_change_together,
+              },
+              this.props.children,
+            );
+          }
+        }
+      },
+      4189: (t, e, o) => {
+        o.d(e, { F: () => r });
+        var i = o(1635),
+          n = o(3496),
+          s = o(3236);
+        class r extends n._J {
+          constructor(t) {
+            super(t), super.setBuildNodeOverride(this.buildNode);
           }
           getNodeType() {
             return "head-facing-transform";
           }
-          buildNode(e, t) {
-            var n;
-            const i = this.createSgNode(t);
+          buildNode(t, e) {
+            var o;
+            const i = this.createSgNode(e);
             return (
               (i.properties.up =
-                null !== (n = this.props.up) && void 0 !== n ? n : "world"),
-              [e, i]
+                null !== (o = this.props.up) && void 0 !== o ? o : "world"),
+              [t, i]
             );
           }
         }
-        (0, i.Cg)([o.o], a.prototype, "buildNode", null);
+        (0, i.Cg)([s.o], r.prototype, "buildNode", null);
       },
-      5227: (e, t, n) => {
-        n.d(t, { N: () => o });
-        var i = n(6540),
-          s = n(3496);
-        class o extends s._J {
-          constructor(e) {
-            super(e);
+      5227: (t, e, o) => {
+        o.d(e, { N: () => s });
+        var i = o(6540),
+          n = o(3496);
+        class s extends n._J {
+          constructor(t) {
+            super(t);
           }
           internalRender() {
             return i.createElement("vsg-line", {
@@ -386,15 +381,15 @@ var CLSTAMP = "10552726";
           }
         }
       },
-      1808: (e, t, n) => {
-        n.d(t, { C: () => r });
-        var i = n(1635),
-          s = n(3496),
-          o = n(7019),
-          a = n(3236);
-        class r extends s._J {
-          constructor(e) {
-            super(e),
+      1808: (t, e, o) => {
+        o.d(e, { C: () => a });
+        var i = o(1635),
+          n = o(3496),
+          s = o(7019),
+          r = o(3236);
+        class a extends n._J {
+          constructor(t) {
+            super(t),
               (this.m_latchedPosition = null),
               super.setBuildNodeOverride(this.buildNode);
           }
@@ -404,443 +399,261 @@ var CLSTAMP = "10552726";
           relatch() {
             this.m_latchedPosition = null;
           }
-          buildNode(e, t) {
-            if (!e.currentPanel && !e.bInsideReparentedPanel)
+          buildNode(t, e) {
+            if (!t.currentPanel && !t.bInsideReparentedPanel)
               return [
-                Object.assign(Object.assign({}, e), { bShouldAbort: !0 }),
+                Object.assign(Object.assign({}, t), { bShouldAbort: !0 }),
                 null,
               ];
-            let n = null;
+            let o = null;
             "object" == typeof this.props.location
-              ? (n = (0, s.PG)(this.props.location, { x: 0, y: 0 }))
+              ? (o = (0, n.PG)(this.props.location, { x: 0, y: 0 }))
               : "number" == typeof this.props.location &&
-                (n = (0, o.Lr)(this.props.location));
-            let i = this.createSgNode(t);
+                (o = (0, s.Lr)(this.props.location));
+            let i = this.createSgNode(e);
             if (this.props.latched && null !== this.m_latchedPosition)
               (i.properties["anchor-u"] = this.m_latchedPosition.u),
                 (i.properties["anchor-v"] = this.m_latchedPosition.v);
-            else if (n) {
-              const t = { u: 0.5 * n.x + 0.5, v: -0.5 * n.y + 0.5 },
-                s =
-                  !e.currentPanel || e.currentPanel.props.overlay_key
-                    ? t
-                    : e.currentPanel.scaleLocalUVToGlobal(t);
-              (i.properties["anchor-u"] = s.u),
-                (i.properties["anchor-v"] = s.v);
+            else if (o) {
+              const e = { u: 0.5 * o.x + 0.5, v: -0.5 * o.y + 0.5 },
+                n =
+                  !t.currentPanel || t.currentPanel.props.overlay_key
+                    ? e
+                    : t.currentPanel.scaleLocalUVToGlobal(e);
+              (i.properties["anchor-u"] = n.u),
+                (i.properties["anchor-v"] = n.v);
             } else {
-              if (!e.currentPanel)
+              if (!t.currentPanel)
                 return [
-                  Object.assign(Object.assign({}, e), { bShouldAbort: !0 }),
+                  Object.assign(Object.assign({}, t), { bShouldAbort: !0 }),
                   null,
                 ];
-              const n = t.ownerDocument,
-                s = t.getBoundingClientRect(),
-                o = s.left + s.width / 2,
-                a = s.top + s.height / 2,
-                r = e.currentPanel.m_Rect;
-              if (o < r.x || o > r.x + r.width || a < r.y || a > r.y + r.height)
+              const o = e.ownerDocument,
+                n = e.getBoundingClientRect(),
+                s = n.left + n.width / 2,
+                r = n.top + n.height / 2,
+                a = t.currentPanel.m_Rect;
+              if (s < a.x || s > a.x + a.width || r < a.y || r > a.y + a.height)
                 return [
-                  Object.assign(Object.assign({}, e), { bShouldAbort: !0 }),
+                  Object.assign(Object.assign({}, t), { bShouldAbort: !0 }),
                   null,
                 ];
-              const l = n.defaultView.innerWidth,
-                u = n.defaultView.innerHeight;
-              if (!(u > 0 && l > 0))
+              const l = o.defaultView.innerWidth,
+                p = o.defaultView.innerHeight;
+              if (!(p > 0 && l > 0))
                 return [
-                  Object.assign(Object.assign({}, e), { bShouldAbort: !0 }),
+                  Object.assign(Object.assign({}, t), { bShouldAbort: !0 }),
                   null,
                 ];
-              (i.properties["anchor-u"] = o / l),
-                (i.properties["anchor-v"] = a / u);
+              (i.properties["anchor-u"] = s / l),
+                (i.properties["anchor-v"] = r / p);
             }
             return (
               (this.m_latchedPosition = {
                 u: i.properties["anchor-u"],
                 v: i.properties["anchor-v"],
               }),
-              [e, i]
+              [t, i]
             );
           }
         }
-        (0, i.Cg)([a.o], r.prototype, "buildNode", null);
+        (0, i.Cg)([r.o], a.prototype, "buildNode", null);
       },
-      5178: (e, t, n) => {
-        n.d(t, { O: () => c });
-        var i = n(1635),
-          s = n(6540),
-          o = n(7019),
-          a = n(3236),
-          r = n(5723);
-        const l = new (n(776).wd)("EmbeddedPixels");
-        var u;
-        !(function (e) {
-          (e[(e.Canvas = 0)] = "Canvas"), (e[(e.Image = 1)] = "Image");
-        })(u || (u = {}));
-        class c extends s.Component {
-          static get IsSceneGraphApp() {
-            return null !== c.Current();
+      10: (t, e, o) => {
+        o(6540);
+        var i = o(3496);
+        i._J;
+      },
+      9011: (t, e, o) => {
+        var i = o(1635),
+          n = o(3496),
+          s = o(3236);
+        class r extends n._J {
+          constructor(t) {
+            super(t), super.setBuildNodeOverride(this.buildNode);
           }
-          static Current() {
-            return c.s_Current;
+          getNodeType() {
+            return "tilefloor";
           }
-          constructor(e) {
-            var t;
-            super(e),
-              (this.m_DomRef = null),
-              (this.m_scalingDomRef = null),
-              (this.m_DebugPointerRef = null),
-              (this.m_Observer = null),
-              (this.m_nEmbeddedDataWidth = 0),
-              (this.m_mapPanels = new Map()),
-              (this.m_rAvailableEmbeddedIndicesQueue = []),
-              (this.m_rEmbeddedIndicesToClear = []),
-              (this.m_fCurrentScale = 1),
-              (this.m_CanvasRef = null),
-              (this.m_CanvasContext = null),
-              (this.m_Pixels = null),
-              (this.m_nDirtyXMin = -1),
-              (this.m_nDirtyXMax = -1),
-              (this.m_EmbeddedDataImgRef = null),
-              (this.m_EmbeddedDataImgRGBBuffer = null),
-              (c.s_Current = this),
-              (this.state = {
-                bFontsLoaded: !1,
-                nForcedUpdateNumber: 0,
-                bShowDebugPointer: !1,
-                eRenderMode: (
-                  null === (t = VRHTML.VRUtil) || void 0 === t
-                    ? void 0
-                    : t.BSupportsCEFCanvas()
-                )
-                  ? u.Canvas
-                  : u.Image,
-              }),
-              (this.m_DomRef = s.createRef()),
-              (this.m_scalingDomRef = s.createRef()),
-              (this.m_CanvasRef = s.createRef()),
-              (this.m_EmbeddedDataImgRef = s.createRef()),
-              (this.m_DebugPointerRef = s.createRef());
-          }
-          toggleDebugPointer() {
-            this.setState({ bShowDebugPointer: !this.state.bShowDebugPointer });
-          }
-          onMouseMove(e) {
-            this.state.bShowDebugPointer &&
-              this.m_DebugPointerRef.current &&
-              (this.m_DebugPointerRef.current.style.transform =
-                "translateX( " +
-                e.clientX +
-                "px ) translateY( " +
-                e.clientY +
-                "px )");
-          }
-          forceLayoutUpdate() {
-            (o.Zk.s_bPanelsAreDirty = !0),
-              this.setState({
-                nForcedUpdateNumber: this.state.nForcedUpdateNumber + 1,
-              });
-          }
-          componentDidMount() {
-            let e = this.m_DomRef.current.ownerDocument,
-              t = e.defaultView;
-            e.body.classList.add("SGApp"),
-              document.documentElement.classList.add("VROverlay"),
-              (window.SGApp = this),
-              (this.m_nEmbeddedDataWidth = t.innerWidth);
-            let n = Math.max(
-              0,
-              Math.floor((this.m_nEmbeddedDataWidth - 1) / 3),
-            );
-            for (let e = 0; e < n; e++)
-              this.m_rAvailableEmbeddedIndicesQueue.push(e);
-            e.addEventListener("mousemove", this.onMouseMove),
-              (this.m_Observer = new MutationObserver(this.onMutation)),
-              this.m_Observer.observe(this.m_DomRef.current, {
-                attributes: !0,
-                attributeFilter: ["sg-forced-update-number", "overlay-key"],
-                childList: !0,
-                subtree: !0,
-              }),
-              this.createEmbeddedData(),
-              t.addEventListener("load", this.forceLayoutUpdate),
-              e.fonts.ready.then(() => this.setState({ bFontsLoaded: !0 })),
-              (t.forceLayoutUpdate = this.forceLayoutUpdate),
-              (t.toggleDebugPointer = this.toggleDebugPointer),
-              (this.props.owning_overlay_key || this.props.web_secret) &&
-                (0, r.Oe)(
-                  this.props.owning_overlay_key,
-                  this.m_DomRef.current,
-                  this.props.web_secret,
-                );
-          }
-          componentWillUnmount() {
-            let e = this.m_DomRef.current.ownerDocument;
-            e.body.classList.remove("SGApp"),
-              document.documentElement.classList.remove("VROverlay"),
-              this.m_Observer && this.m_Observer.disconnect(),
-              e.removeEventListener("mousemove", this.onMouseMove);
-          }
-          render() {
-            const e = this.state.eRenderMode == u.Image,
-              t = this.state.eRenderMode == u.Canvas;
-            let n = [];
-            return (
-              this.state.bShowDebugPointer && n.push("ShowDebugPointer"),
-              s.createElement(
-                "vsg-app",
-                {
-                  class: n.join(" "),
-                  ref: this.m_DomRef,
-                  "sg-forced-update-number": this.state.nForcedUpdateNumber,
-                },
-                s.createElement("div", {
-                  className: "DebugPointer",
-                  ref: this.m_DebugPointerRef,
-                }),
-                e &&
-                  s.createElement("img", {
-                    ref: this.m_EmbeddedDataImgRef,
-                    className: "EmbeddedData",
-                    height: c.k_EmbeddedDataRows,
-                  }),
-                t &&
-                  s.createElement("canvas", {
-                    ref: this.m_CanvasRef,
-                    className: "EmbeddedData",
-                    height: c.k_EmbeddedDataRows,
-                  }),
-                s.createElement(
-                  "div",
-                  { className: "AppSceneGraph", ref: this.m_scalingDomRef },
-                  this.state.bFontsLoaded && this.props.children,
-                ),
-              )
-            );
-          }
-          addEmbeddedPanelUVs(e) {
-            return 0 === this.m_rAvailableEmbeddedIndicesQueue.length
-              ? null
-              : (this.m_mapPanels.set(e.getSGID(), e),
-                this.m_rAvailableEmbeddedIndicesQueue.shift());
-          }
-          removeEmbeddedPanelUVs(e) {
-            this.m_mapPanels.has(e.getSGID()) &&
-              (this.m_mapPanels.delete(e.getSGID()),
-              this.m_rAvailableEmbeddedIndicesQueue.push(e.getEmbeddedIndex()),
-              this.m_rEmbeddedIndicesToClear.push(e.getEmbeddedIndex()));
-          }
-          onMutation(e, t) {
-            this.updateAllPanelBounds();
-          }
-          createEmbeddedData() {
-            var e;
-            this.state.eRenderMode == u.Image
-              ? ((this.m_EmbeddedDataImgRef.current.width =
-                  this.m_nEmbeddedDataWidth),
-                this.m_EmbeddedDataImgRGBBuffer ||
-                  (this.m_EmbeddedDataImgRGBBuffer =
-                    null === (e = VRHTML.VRUtil) || void 0 === e
-                      ? void 0
-                      : e.CreateEmbeddedRGBScanline(
-                          this.m_nEmbeddedDataWidth,
-                          1,
-                          4,
-                        )))
-              : this.state.eRenderMode == u.Canvas &&
-                ((this.m_CanvasRef.current.width = this.m_nEmbeddedDataWidth),
-                (this.m_CanvasContext =
-                  this.m_CanvasRef.current.getContext("2d")),
-                (this.m_CanvasContext.globalCompositeOperation = "copy"),
-                (this.m_CanvasContext.imageSmoothingEnabled = !1),
-                null === this.m_Pixels &&
-                  (this.m_Pixels = this.m_CanvasContext.createImageData(
-                    this.m_nEmbeddedDataWidth,
-                    c.k_EmbeddedDataRows,
-                  ))),
-              this.updateAllPanelBounds();
-          }
-          updateAllPanelBounds() {
-            let e = this.m_DomRef.current.ownerDocument.defaultView,
-              t = this.m_scalingDomRef.current.getBoundingClientRect(),
-              n = t.width / this.m_fCurrentScale,
-              i = t.height / this.m_fCurrentScale,
-              s = { x: e.innerWidth / n, y: e.innerHeight / i },
-              a = Math.min(s.x, s.y, 1);
-            a != this.m_fCurrentScale &&
-              (1 != a
-                ? this.m_scalingDomRef.current.setAttribute(
-                    "style",
-                    "transform: scale(" + a + "); transform-origin: top left",
-                  )
-                : this.m_scalingDomRef.current.removeAttribute("style"),
-              (this.m_fCurrentScale = a),
-              (o.Zk.s_bPanelsAreDirty = !0)),
-              o.Zk.s_bPanelsAreDirty &&
-                (this.m_mapPanels.forEach((e) => e.updateLayoutValues()),
-                (0, r.my)(),
-                (o.Zk.s_bPanelsAreDirty = !1),
-                this.updateEmbeddedData());
-          }
-          updateEmbeddedData() {
-            var e;
-            if (this.m_EmbeddedDataImgRef || this.m_CanvasRef)
-              if (
-                (this.setPixel(
-                  0,
-                  "V".charCodeAt(0),
-                  "S".charCodeAt(0),
-                  "G".charCodeAt(0),
-                ),
-                this.m_rEmbeddedIndicesToClear.forEach((e) => {
-                  let t = 1 + 3 * e;
-                  for (let e = 0; e < 3; e++) this.setPixel(t + e, 0, 0, 0, 0);
-                }),
-                (this.m_rEmbeddedIndicesToClear = []),
-                l.Debug("UPDATE EMBEDDED DATA ------------------"),
-                this.m_mapPanels.forEach((e, t) => {
-                  const n = e.m_Rect.x,
-                    i = e.m_Rect.x + e.m_Rect.width,
-                    s = e.m_Rect.y,
-                    o = e.m_Rect.y + e.m_Rect.height,
-                    a = e.getEmbeddedIndex(),
-                    r = 1 + 3 * a;
-                  let u = [0, 0, 0, 0, 0, 0, 0, 0, 0],
-                    c = !1;
-                  if (e.isExternal() || n >= i || s >= o)
-                    for (let e = 0; e < 3; e++)
-                      this.setPixel(r + 1, 0, 0, 0, 0);
-                  else
-                    (c = !0),
-                      (u[0] = (65280 & n) >> 8),
-                      (u[1] = 255 & n),
-                      (u[2] = 254),
-                      (u[3] = (65280 & i) >> 8),
-                      (u[4] = 255 & i),
-                      (u[5] = 255 & s),
-                      (u[6] = (65280 & o) >> 8),
-                      (u[7] = 255 & o),
-                      (u[8] = (65280 & s) >> 8),
-                      this.setPixel(r, u[0], u[1], u[2]),
-                      this.setPixel(r + 1, u[3], u[4], u[5]),
-                      this.setPixel(r + 2, u[6], u[7], u[8]);
-                  l.Debug(
-                    "panel",
-                    c ? "" : "XX",
-                    e.props.debug_name,
-                    "uvs",
-                    n,
-                    s,
-                    i,
-                    o,
-                    "nPixelOffset",
-                    r,
-                    "emIdx",
-                    a,
-                    u,
-                    e.getCurrentRootElement(),
-                  );
-                }),
-                this.m_EmbeddedDataImgRef && this.state.eRenderMode == u.Image)
-              ) {
-                const t =
-                  null === (e = VRHTML.VRUtil) || void 0 === e
-                    ? void 0
-                    : e.GetEmbeddedScanlineAsURIImage(
-                        this.m_nEmbeddedDataWidth,
-                        1,
-                        4,
-                      );
-                this.m_EmbeddedDataImgRef.current.src = t;
-              } else if (
-                this.m_CanvasRef &&
-                this.state.eRenderMode == u.Canvas
-              ) {
-                let e = this.m_nDirtyXMax - this.m_nDirtyXMin + 1;
-                this.m_CanvasContext.putImageData(
-                  this.m_Pixels,
-                  0,
-                  0,
-                  this.m_nDirtyXMin,
-                  0,
-                  e,
-                  this.m_Pixels.height,
-                ),
-                  (this.m_nDirtyXMin = -1),
-                  (this.m_nDirtyXMax = -1);
-              }
-          }
-          setPixel(e, t, n, i, s = 255) {
+          buildNode(t, e) {
+            var o, i, s, r, a, l, p;
+            const c = this.createSgNode(e);
             if (
-              this.m_EmbeddedDataImgRGBBuffer &&
-              this.state.eRenderMode == u.Image
-            ) {
-              const o = new DataView(this.m_EmbeddedDataImgRGBBuffer);
-              o.setUint8(4 * e + 0, t),
-                o.setUint8(4 * e + 1, n),
-                o.setUint8(4 * e + 2, i),
-                o.setUint8(4 * e + 3, s);
-            } else
-              this.m_Pixels &&
-                this.state.eRenderMode == u.Canvas &&
-                ((this.m_Pixels.data[4 * e + 0] = t),
-                (this.m_Pixels.data[4 * e + 1] = n),
-                (this.m_Pixels.data[4 * e + 2] = i),
-                (this.m_Pixels.data[4 * e + 3] = s),
-                (-1 === this.m_nDirtyXMin || e < this.m_nDirtyXMin) &&
-                  (this.m_nDirtyXMin = e),
-                (-1 === this.m_nDirtyXMax || e > this.m_nDirtyXMax) &&
-                  (this.m_nDirtyXMax = e));
+              ((c.properties["tile-size"] = this.props["tile-size"]),
+              (c.properties["tile-gap"] = this.props["tile-gap"]),
+              (c.properties["inner-radius"] = this.props["inner-radius"]),
+              (c.properties["outer-radius"] = this.props["outer-radius"]),
+              (c.properties["fade-distance"] =
+                null === (o = this.props) || void 0 === o
+                  ? void 0
+                  : o["fade-distance"]),
+              (c.properties["min-tile-scale-at-periphery"] =
+                this.props["min-tile-scale-at-periphery"]),
+              (c.properties.height = (0, n.kJ)(this.props.height)),
+              (c.properties.offset = [
+                null === (i = this.props.offset) || void 0 === i ? void 0 : i.x,
+                null === (s = this.props.offset) || void 0 === s ? void 0 : s.y,
+              ]),
+              "string" == typeof this.props.color)
+            )
+              c.properties.color = this.props.color;
+            else if (this.props.color) {
+              let t = (0, n.RH)(this.props.color, { r: 0, g: 0, b: 0 });
+              c.properties.color = [t.r, t.g, t.b];
+            }
+            return (
+              (c.properties["center-randomization"] =
+                null == this ? void 0 : this.props["center-randomization"]),
+              this.props["luma-randomization"] &&
+                ((c.properties["luma-randomization-min-gain"] =
+                  this.props["luma-randomization"]["min-gain"]),
+                (c.properties["luma-randomization-max-gain"] =
+                  this.props["luma-randomization"]["max-gain"])),
+              this.props["reflection-randomization"] &&
+                ((c.properties["reflection-randomization-min-gain"] =
+                  this.props["reflection-randomization"]["min-gain"]),
+                (c.properties["reflection-randomization-max-gain"] =
+                  this.props["reflection-randomization"]["max-gain"])),
+              (c.properties["normal-randomization-degrees"] =
+                null === (r = this.props) || void 0 === r
+                  ? void 0
+                  : r["normal-randomization-degrees"]),
+              this.props.chevron &&
+                ((c.properties["chevron-luma-scale"] =
+                  this.props.chevron["luma-scale"]),
+                (c.properties["chevron-reflection-scale"] =
+                  this.props.chevron["reflection-scale"])),
+              (c.properties["auto-subdivide"] =
+                null === (a = this.props) || void 0 === a
+                  ? void 0
+                  : a["auto-subdivide"]),
+              (c.properties["pedestal-height"] = (0, n.kJ)(
+                this.props["pedestal-height"],
+              )),
+              (c.properties["pedestal-radius"] = (0, n.kJ)(
+                this.props["pedestal-radius"],
+              )),
+              (c.properties["floor-aa-shader"] =
+                null === (l = this.props) || void 0 === l
+                  ? void 0
+                  : l["floor-aa-shader"]),
+              (c.properties["stable-fade"] =
+                null === (p = this.props) || void 0 === p
+                  ? void 0
+                  : p["stable-fade"]),
+              [t, c]
+            );
           }
         }
-        (c.s_Current = null),
-          (c.k_EmbeddedDataRows = 1),
-          (0, i.Cg)([a.o], c.prototype, "toggleDebugPointer", null),
-          (0, i.Cg)([a.o], c.prototype, "onMouseMove", null),
-          (0, i.Cg)([a.o], c.prototype, "forceLayoutUpdate", null),
-          (0, i.Cg)([a.o], c.prototype, "onMutation", null);
+        (0, i.Cg)([s.o], r.prototype, "buildNode", null);
       },
-      1278: (e, t, n) => {
-        var i = n(1635),
-          s = n(6540),
-          o = n(5338),
-          a = n(3236),
-          r = n(6090),
-          l = n(5802),
-          u = n(3714),
-          c = n(9118),
-          d = n(1532),
-          p = n(6138),
-          h = n(1333),
-          m = n(1370),
-          _ = n(1835),
-          f = n(7813),
-          g = n(582);
-        function b(e, t) {
-          let n = "";
-          switch (t.mode) {
+      111: (t, e, o) => {
+        o(6540);
+        var i = o(3496);
+        i._J;
+      },
+      8803: (t, e, o) => {
+        o.d(e, { ZW: () => u });
+        var i = o(1635),
+          n = o(7813),
+          s = o(3236),
+          r = o(3676);
+        const a = new Map(),
+          l = new Map();
+        (window.protoPathProperties = l), (window.protoPathPropertyDebug = !1);
+        class p {
+          constructor() {
+            (this.m_bIsSystemUI = !1), (0, n.makeObservable)(this);
+          }
+          Init(t) {
+            return (0, i.sH)(this, void 0, void 0, function* () {
+              (this.m_bIsSystemUI = t),
+                (0, n.reaction)(
+                  () => r.m.connected,
+                  (t, e) => {
+                    e && !t && this.OnDisconnectedFromSteam();
+                  },
+                );
+            });
+          }
+          OnDisconnectedFromSteam() {
+            var t;
+            if (this.m_bIsSystemUI)
+              for (const e of null !== (t = window.VRPathProperties) &&
+              void 0 !== t
+                ? t
+                : [])
+                e.shouldUnsetVRPathPropertyOnSteamClose() &&
+                  (null === VRHTML ||
+                    void 0 === VRHTML ||
+                    VRHTML.VRPathProperties.SetStringPathProperty(
+                      e.getVRPathPropertyKey(),
+                      "",
+                    ));
+          }
+        }
+        (0, i.Cg)([s.o], p.prototype, "OnDisconnectedFromSteam", null);
+        const c = new p();
+        function u(t) {
+          let e;
+          try {
+            e = t.getVRPathPropertyKey();
+            const o = t.serializeBase64String(),
+              i = a.get(e);
+            if (i && i == o) return;
+            a.set(e, o),
+              window.protoPathPropertyDebug && l.set(e, t.toObject()),
+              null === VRHTML ||
+                void 0 === VRHTML ||
+                VRHTML.VRPathProperties.SetStringPathProperty(e, o);
+          } catch (t) {
+            throw t;
+          }
+        }
+        window.pathPropertyStore = c;
+      },
+      1278: (t, e, o) => {
+        var i = o(1635),
+          n = o(6540),
+          s = o(5338),
+          r = o(3236),
+          a = o(6090),
+          l = o(5802),
+          p = o(3714),
+          c = o(9118),
+          u = o(1532),
+          d = o(6138),
+          h = o(1333),
+          m = o(1370),
+          _ = o(1835),
+          g = o(7813),
+          f = o(582);
+        function v(t, e) {
+          let o = "";
+          switch (e.mode) {
             case "dpad":
             case "dpad_touch":
             case "dpad_click":
-              n =
-                "/input/thumbstick" == t.input_path ||
-                "/input/joystick" == t.input_path
-                  ? "_" + t.slot
-                  : "_dpad_" + t.slot;
+              o =
+                "/input/thumbstick" == e.input_path ||
+                "/input/joystick" == e.input_path
+                  ? "_" + e.slot
+                  : "_dpad_" + e.slot;
               break;
             case "button":
-              ("/input/trackpad" != t.input_path &&
-                "/input/joystick" != t.input_path) ||
-                (n = "_click");
+              ("/input/trackpad" != e.input_path &&
+                "/input/joystick" != e.input_path) ||
+                (o = "_click");
           }
-          switch (t.slot) {
+          switch (e.slot) {
             case "position":
-              n = "_move";
+              o = "_move";
               break;
             case "scroll":
-              n = "_scroll";
+              o = "_scroll";
           }
           let i = "/dashboard/images/bindingcallouts/";
-          switch (t.input_path) {
+          switch (e.input_path) {
             case "/input/a":
               return i + "button_a.svg";
             case "/input/b":
@@ -856,19 +669,19 @@ var CLSTAMP = "10552726";
             case "/input/application_menu":
               return i + "button_menu.svg";
             case "/input/trackpad":
-              return "knuckles" == e
-                ? i + "button_trackbutton" + n + ".svg"
-                : i + "button_trackpad" + n + ".svg";
+              return "knuckles" == t
+                ? i + "button_trackbutton" + o + ".svg"
+                : i + "button_trackpad" + o + ".svg";
             case "/input/thumbstick":
             case "/input/joystick":
-              return i + "button_thumbstick" + n + ".svg";
+              return i + "button_thumbstick" + o + ".svg";
             case "/input/trigger":
               return i + "button_trigger.svg";
           }
           return null;
         }
-        function v(e) {
-          switch (e) {
+        function b(t) {
+          switch (t) {
             case "north":
             case "south":
             case "east":
@@ -879,118 +692,118 @@ var CLSTAMP = "10552726";
               return "button";
           }
         }
-        (0, f.configure)({ enforceActions: "never" });
-        class C extends s.Component {
-          constructor(e) {
-            super(e), (this.state = {});
+        (0, g.configure)({ enforceActions: "never" });
+        class C extends n.Component {
+          constructor(t) {
+            super(t), (this.state = {});
           }
-          renderSlot(e, t) {
-            let n,
-              i = b(this.props.controllerType, e);
-            n = i
-              ? s.createElement("img", {
+          renderSlot(t, e) {
+            let o,
+              i = v(this.props.controllerType, t);
+            o = i
+              ? n.createElement("img", {
                   className: "BindingCalloutIcon",
                   src: i,
                 })
-              : s.createElement("div", { className: "BindingCalloutIcon" });
-            let o,
-              a = (function (e) {
-                let t = "/dashboard/images/bindingcallouts/";
-                switch (e.mode) {
+              : n.createElement("div", { className: "BindingCalloutIcon" });
+            let s,
+              r = (function (t) {
+                let e = "/dashboard/images/bindingcallouts/";
+                switch (t.mode) {
                   case "dpad":
                   case "dpad_click":
-                    return t + "modifier_click.svg";
+                    return e + "modifier_click.svg";
                   case "dpad_touch":
-                    return t + "modifier_touch.svg";
+                    return e + "modifier_touch.svg";
                 }
-                switch (e.slot) {
+                switch (t.slot) {
                   case "grab":
                   case "click":
                   case "single":
-                    return t + "modifier_click.svg";
+                    return e + "modifier_click.svg";
                   case "double":
-                    return t + "modifier_doubleclick.svg";
+                    return e + "modifier_doubleclick.svg";
                   case "long":
-                    return t + "modifier_long.svg";
+                    return e + "modifier_long.svg";
                   case "held":
-                    return t + "modifier_held.svg";
+                    return e + "modifier_held.svg";
                   case "scroll":
                   case "position":
                   case "touch":
-                    return t + "modifier_touch.svg";
+                    return e + "modifier_touch.svg";
                   case "force":
-                    return t + "modifier_force.svg";
+                    return e + "modifier_force.svg";
                 }
                 return null;
-              })(e);
+              })(t);
             return (
-              (o = a
-                ? s.createElement("img", {
+              (s = r
+                ? n.createElement("img", {
                     className: "BindingCalloutModifierIcon",
-                    src: a,
+                    src: r,
                   })
-                : s.createElement("div", {
+                : n.createElement("div", {
                     className: "BindingCalloutModifierIcon",
                   })),
-              s.createElement(
+              n.createElement(
                 "div",
-                { className: "BindingCalloutContents", key: t },
-                n,
+                { className: "BindingCalloutContents", key: e },
                 o,
-                s.createElement(
+                s,
+                n.createElement(
                   "div",
                   { className: "BindingCalloutLabelContainer" },
-                  s.createElement(
+                  n.createElement(
                     "div",
                     { className: "Label" },
-                    e.localized_action_name,
+                    t.localized_action_name,
                   ),
-                  s.createElement(
+                  n.createElement(
                     "div",
                     { className: "BindingCalloutModeSlot" },
                     this.props.localizedInputName,
                     " : ",
-                    (0, u.we)("#SourceInputMode_" + e.slot),
+                    (0, p.we)("#SourceInputMode_" + t.slot),
                   ),
                 ),
               )
             );
           }
           render() {
-            let e,
-              t = "BindingCallout";
+            let t,
+              e = "BindingCallout";
             this.props.leftAlign
-              ? ((e = -0.05), (t += " AlignCalloutRight"))
-              : ((e = 0.05), (t += " AlignCalloutLeft")),
-              this.props.inputActive && (t += " CalloutInputActive");
-            let n =
+              ? ((t = -0.05), (e += " AlignCalloutRight"))
+              : ((t = 0.05), (e += " AlignCalloutLeft")),
+              this.props.inputActive && (e += " CalloutInputActive");
+            let o =
               this.props.devicePath +
               this.props.inputCallout.input_path +
               "_component";
-            return s.createElement(
+            return n.createElement(
               "div",
               { className: "BindingCalloutContainer" },
-              s.createElement(r.mS, {
-                id: n,
+              n.createElement(a.mS, {
+                id: o,
                 sDevicePath: this.props.devicePath,
                 sInputPath: this.props.inputCallout.input_path,
-                key: n,
+                key: o,
               }),
-              s.createElement(
+              n.createElement(
                 "div",
-                { className: t },
-                this.props.inputCallout.slot_callouts.map((e, t) =>
-                  this.renderSlot(e, String(t)),
+                { className: e },
+                this.props.inputCallout.slot_callouts.map((t, e) =>
+                  this.renderSlot(t, String(e)),
                 ),
-                s.createElement(
+                n.createElement(
                   "div",
                   { className: "CalloutAnchorPoint" },
-                  s.createElement(
-                    r.Ci,
+                  n.createElement(
+                    a.Ci,
                     null,
                     this.props.inputActive &&
-                      s.createElement(r.N1, {
-                        target_id: n,
+                      n.createElement(a.N1, {
+                        target_id: o,
                         thickness: 0.002,
                         start_buffer: 0,
                         end_buffer: 0,
@@ -1001,76 +814,76 @@ var CLSTAMP = "10552726";
             );
           }
         }
-        class y extends s.Component {
-          constructor(e) {
-            super(e), (this.state = {});
+        class y extends n.Component {
+          constructor(t) {
+            super(t), (this.state = {});
           }
           render() {
-            let e = [],
-              t = [];
-            for (let n of this.props.chordCallout.inputs) {
-              let i = n.device_path + n.input_path + n.slot,
-                o = {
-                  device_path: n.device_path,
-                  input_path: n.input_path,
-                  mode: v(n.slot),
-                  slot: n.slot,
+            let t = [],
+              e = [];
+            for (let o of this.props.chordCallout.inputs) {
+              let i = o.device_path + o.input_path + o.slot,
+                s = {
+                  device_path: o.device_path,
+                  input_path: o.input_path,
+                  mode: b(o.slot),
+                  slot: o.slot,
                   localized_action_name:
                     this.props.chordCallout.localized_action_name,
                 };
-              e.length > 0 &&
-                e.push(
-                  s.createElement(
+              t.length > 0 &&
+                t.push(
+                  n.createElement(
                     "div",
-                    { className: "ChordCalloutPlus", key: "plus" + e.length },
+                    { className: "ChordCalloutPlus", key: "plus" + t.length },
                     "+",
                   ),
                 ),
-                e.push(
-                  s.createElement("img", {
+                t.push(
+                  n.createElement("img", {
                     className: "BindingCalloutIcon",
                     key: i + "_icon",
-                    src: b(this.props.controllerType, o),
+                    src: v(this.props.controllerType, s),
                   }),
                 ),
-                t.push(
-                  s.createElement(
+                e.push(
+                  n.createElement(
                     "div",
                     { className: "BindingCalloutModeSlot", key: i + "_text" },
                     c.W.LocalizeControllerString(
                       this.props.controllerTypeInfo,
-                      n.input_path,
+                      o.input_path,
                     ),
                     " : ",
-                    (0, u.we)("#SourceInputMode_" + n.slot),
+                    (0, p.we)("#SourceInputMode_" + o.slot),
                   ),
                 );
             }
-            let n = "ChordCalloutContainer";
+            let o = "ChordCalloutContainer";
             return (
-              this.props.inputActive && (n += " CalloutInputActive"),
-              s.createElement(
+              this.props.inputActive && (o += " CalloutInputActive"),
+              n.createElement(
                 "div",
-                { className: n },
-                s.createElement("div", { className: "ChordCalloutHeader" }, e),
-                s.createElement(
+                { className: o },
+                n.createElement("div", { className: "ChordCalloutHeader" }, t),
+                n.createElement(
                   "div",
                   { className: "ChordCalloutBody" },
-                  s.createElement(
+                  n.createElement(
                     "div",
                     { className: "Label" },
                     this.props.chordCallout.localized_action_name,
                   ),
-                  t,
+                  e,
                 ),
               )
             );
           }
         }
-        class R extends s.Component {
-          constructor(e) {
-            super(e),
-              (this.m_mailbox = new r._n()),
+        class S extends n.Component {
+          constructor(t) {
+            super(t),
+              (this.m_mailbox = new a._n()),
               (this.m_sMailboxName = void 0),
               (this.m_sMailboxName =
                 "devicecallout/" +
@@ -1080,29 +893,29 @@ var CLSTAMP = "10552726";
                   "input_active_state",
                   this.OnInputActiveState,
                 );
-                let e = {
+                let t = {
                   type: "request_input_in_use_updates",
                   device_path: this.props.device.device_path,
                   mailbox: this.m_sMailboxName,
                 };
-                this.m_mailbox.SendMessage(r.mX, e);
+                this.m_mailbox.SendMessage(a.mX, t);
               });
-            let t = {};
-            for (let e of Object.keys(this.props.device.input_callouts))
-              t[e] = !1;
-            this.state = { input_state: t };
+            let e = {};
+            for (let t of Object.keys(this.props.device.input_callouts))
+              e[t] = !1;
+            this.state = { input_state: e };
           }
-          OnInputActiveState(e) {
-            let t = Object.assign({}, this.state.input_state);
-            (t[e.input_path] = e.state), this.setState({ input_state: t });
+          OnInputActiveState(t) {
+            let e = Object.assign({}, this.state.input_state);
+            (e[t.input_path] = t.state), this.setState({ input_state: e });
           }
           componentWillUnmount() {
-            let e = {
+            let t = {
               type: "cancel_input_in_use_updates",
               device_path: this.props.device.device_path,
               mailbox: this.m_sMailboxName,
             };
-            this.m_mailbox.SendMessage(r.mX, e);
+            this.m_mailbox.SendMessage(a.mX, t);
           }
           render() {
             if (!VRHTML) return null;
@@ -1110,74 +923,74 @@ var CLSTAMP = "10552726";
               !VRHTML.VRSystem.IsDevicePathValid(this.props.device.device_path)
             )
               return null;
-            let e = -0.05,
-              t = { x: -0.08, y: 0.05, z: 0.12 },
-              n = !0;
+            let t = -0.05,
+              e = { x: -0.08, y: 0.05, z: 0.12 },
+              o = !0;
             "/user/hand/left" == this.props.device.device_path &&
-              ((t.x = -t.x), (e = -e), (n = !1));
+              ((e.x = -e.x), (t = -t), (o = !1));
             let i = c.W.GetControllerTypeInfo(this.props.controllerType);
             if (!i) return null;
-            let o = [],
-              a = Object.keys(this.props.device.input_callouts);
-            for (let e of a) {
-              let t = this.props.device.input_callouts[e],
-                r = (t.slot_callouts.length, e);
-              i && (r = c.W.LocalizeControllerString(i, e));
-              let l = i.input_source[e],
-                u = 999;
-              l && l.order && (u = l.order);
-              let d = s.createElement(C, {
+            let s = [],
+              r = Object.keys(this.props.device.input_callouts);
+            for (let t of r) {
+              let e = this.props.device.input_callouts[t],
+                a = (e.slot_callouts.length, t);
+              i && (a = c.W.LocalizeControllerString(i, t));
+              let l = i.input_source[t],
+                p = 999;
+              l && l.order && (p = l.order);
+              let u = n.createElement(C, {
                 devicePath: this.props.device.device_path,
-                inputCallout: t,
-                leftAlign: n,
+                inputCallout: e,
+                leftAlign: o,
                 inputActive:
-                  1 == a.length || this.state.input_state[t.input_path],
-                localizedInputName: r,
+                  1 == r.length || this.state.input_state[e.input_path],
+                localizedInputName: a,
                 controllerType: this.props.controllerType,
-                key: this.props.device.device_path + e,
+                key: this.props.device.device_path + t,
               });
-              o.push({ order: u, callout: d });
+              s.push({ order: p, callout: u });
             }
-            o.sort((e, t) => e.order - t.order);
-            let l = o.map((e) => e.callout),
-              u = [];
-            for (let e of this.props.device.chords) {
-              let t = !1;
-              for (let n of e.inputs)
-                t = t || this.state.input_state[n.input_path];
-              u.push(
-                s.createElement(y, {
+            s.sort((t, e) => t.order - e.order);
+            let l = s.map((t) => t.callout),
+              p = [];
+            for (let t of this.props.device.chords) {
+              let e = !1;
+              for (let o of t.inputs)
+                e = e || this.state.input_state[o.input_path];
+              p.push(
+                n.createElement(y, {
                   controllerTypeInfo: i,
-                  chordCallout: e,
+                  chordCallout: t,
                   controllerType: this.props.controllerType,
-                  key: "chord_" + u.length,
-                  inputActive: t,
+                  key: "chord_" + p.length,
+                  inputActive: e,
                 }),
               );
             }
-            return s.createElement(
-              r.dL,
+            return n.createElement(
+              a.dL,
               { parent_path: this.props.device.device_path },
-              s.createElement(
-                r.Nu,
-                { vOffset: t },
-                s.createElement(
-                  r.FN,
+              n.createElement(
+                a.Nu,
+                { vOffset: e },
+                n.createElement(
+                  a.FN,
                   null,
-                  s.createElement(
-                    r.dL,
-                    { rotation: { y: n ? 7 : -7 } },
-                    s.createElement(
-                      r.dL,
-                      { translation: { x: e } },
-                      s.createElement(
-                        r.Zk,
+                  n.createElement(
+                    a.dL,
+                    { rotation: { y: o ? 7 : -7 } },
+                    n.createElement(
+                      a.dL,
+                      { translation: { x: t } },
+                      n.createElement(
+                        a.Zk,
                         { width: 0.1, debug_name: "bindingcallouts-2" },
-                        s.createElement(
+                        n.createElement(
                           "div",
                           { className: "FlexColumn BindingCalloutColumn" },
                           l,
-                          u,
+                          p,
                         ),
                       ),
                     ),
@@ -1187,79 +1000,79 @@ var CLSTAMP = "10552726";
             );
           }
         }
-        (0, i.Cg)([a.o], R.prototype, "OnInputActiveState", null);
-        class S extends s.Component {
-          constructor(e) {
-            super(e);
+        (0, i.Cg)([r.o], S.prototype, "OnInputActiveState", null);
+        class R extends n.Component {
+          constructor(t) {
+            super(t);
           }
-          GenerateCalloutDirections(e) {
-            switch (e) {
+          GenerateCalloutDirections(t) {
+            switch (t) {
               case 0:
                 return [];
               case 1:
                 return [{ x: -0.05, y: 0.06 }];
               default: {
-                let t = Math.PI / 8,
-                  n = (7 * Math.PI) / 8,
+                let e = Math.PI / 8,
+                  o = (7 * Math.PI) / 8,
                   i = [];
-                for (let s = 0; s < e; s++) {
-                  let o = t + ((n - t) * s) / (e - 1),
-                    a = { x: -Math.cos(o), y: Math.sin(o) };
-                  i.push(a);
+                for (let n = 0; n < t; n++) {
+                  let s = e + ((o - e) * n) / (t - 1),
+                    r = { x: -Math.cos(s), y: Math.sin(s) };
+                  i.push(r);
                 }
                 return i;
               }
             }
           }
-          ComputeActualRect(e, t) {
-            return e.dir.x <= 0
+          ComputeActualRect(t, e) {
+            return t.dir.x <= 0
               ? {
-                  left: e.dir.x * t - e.size.x,
-                  right: e.dir.x * t,
-                  top: e.dir.y * t - e.size.y / 2,
-                  bottom: e.dir.y * t + e.size.y / 2,
+                  left: t.dir.x * e - t.size.x,
+                  right: t.dir.x * e,
+                  top: t.dir.y * e - t.size.y / 2,
+                  bottom: t.dir.y * e + t.size.y / 2,
                 }
               : {
-                  left: e.dir.x * t,
-                  right: e.dir.x * t + e.size.x,
-                  top: e.dir.y * t - e.size.y / 2,
-                  bottom: e.dir.y * t + e.size.y / 2,
+                  left: t.dir.x * e,
+                  right: t.dir.x * e + t.size.x,
+                  top: t.dir.y * e - t.size.y / 2,
+                  bottom: t.dir.y * e + t.size.y / 2,
                 };
           }
-          HasIntersection(e, t) {
+          HasIntersection(t, e) {
             return (
-              !(e.right < t.left || e.left > t.right) &&
-              !(e.bottom < t.top || e.top > t.bottom)
+              !(t.right < e.left || t.left > e.right) &&
+              !(t.bottom < e.top || t.top > e.bottom)
             );
           }
-          HasCollision(e, t) {
-            for (let n = 0; n < e.length; n++)
-              for (let i = 0; i < e.length; i++) {
-                if (n == i) continue;
-                let s = this.ComputeActualRect(e[n], t),
-                  o = this.ComputeActualRect(e[i], t);
-                if (this.HasIntersection(s, o)) return !0;
+          HasCollision(t, e) {
+            for (let o = 0; o < t.length; o++)
+              for (let i = 0; i < t.length; i++) {
+                if (o == i) continue;
+                let n = this.ComputeActualRect(t[o], e),
+                  s = this.ComputeActualRect(t[i], e);
+                if (this.HasIntersection(n, s)) return !0;
               }
             return !1;
           }
-          FindDistanceThatFits(e, t, n) {
-            let i = t;
-            for (; this.HasCollision(e, i); ) i += n;
+          FindDistanceThatFits(t, e, o) {
+            let i = e;
+            for (; this.HasCollision(t, i); ) i += o;
             return i;
           }
           render() {
             return this.props.devices
-              ? s.createElement(
+              ? n.createElement(
                   "div",
                   { className: "DeviceCalloutList" },
-                  Object.keys(this.props.devices).map((e) =>
-                    s.createElement(
+                  Object.keys(this.props.devices).map((t) =>
+                    n.createElement(
                       "div",
-                      { key: e, className: "DeviceCalloutListEntry" },
-                      s.createElement(R, {
-                        device: this.props.devices[e],
+                      { key: t, className: "DeviceCalloutListEntry" },
+                      n.createElement(S, {
+                        device: this.props.devices[t],
                         controllerType: this.props.controllerType,
-                        key: e,
+                        key: t,
                       }),
                     ),
                   ),
@@ -1267,11 +1080,11 @@ var CLSTAMP = "10552726";
               : null;
           }
         }
-        let E = class extends s.Component {
-          constructor(e) {
-            super(e),
-              (this.m_mailbox = new r._n()),
-              this.m_mailbox.Init(r.I0).then(() => {
+        let k = class extends n.Component {
+          constructor(t) {
+            super(t),
+              (this.m_mailbox = new a._n()),
+              this.m_mailbox.Init(a.I0).then(() => {
                 this.m_mailbox.RegisterHandler(
                   "request_binding_callouts",
                   this.OnRequestBindingCallouts,
@@ -1293,234 +1106,234 @@ var CLSTAMP = "10552726";
               (this.state = {});
           }
           GetDefaultControllerType() {
-            let e = VRHTML.VRSystem.GetTrackedDeviceClasses(),
-              t = e.find((e) => e.eClass == r.mo.Controller);
+            let t = VRHTML.VRSystem.GetTrackedDeviceClasses(),
+              e = t.find((t) => t.eClass == a.mo.Controller);
             return (
-              t || (t = e.find((e) => e.eClass == r.mo.HMD)),
-              t
+              e || (e = t.find((t) => t.eClass == a.mo.HMD)),
+              e
                 ? VRHTML.VRProperties.GetStringProperty(
-                    t.unIndex,
-                    r.fD.ControllerType_String,
+                    e.unIndex,
+                    a.fD.ControllerType_String,
                   )
                 : null
             );
           }
-          SendShouldShowBindingCalloutsResponse(e, t) {
-            let n = {
+          SendShouldShowBindingCalloutsResponse(t, e) {
+            let o = {
               type: "should_show_binding_callouts_response",
-              app_key: e.app_key,
-              has_callouts: t,
+              app_key: t.app_key,
+              has_callouts: e,
             };
-            this.m_mailbox.SendResponse(e, n);
+            this.m_mailbox.SendResponse(t, o);
           }
-          OnShouldShowBindingCallouts(e) {
-            let t = this.GetDefaultControllerType();
-            (0, l.xM)(e.app_key)
-              .then((n) => {
-                let i = "legacy" == n.category,
-                  s = !i;
+          OnShouldShowBindingCallouts(t) {
+            let e = this.GetDefaultControllerType();
+            (0, l.xM)(t.app_key)
+              .then((o) => {
+                let i = "legacy" == o.category,
+                  n = !i;
                 if (i) {
-                  s =
-                    n.current_binding_url[t] !=
-                    (n.default_bindings && n.default_bindings[t]);
+                  n =
+                    o.current_binding_url[e] !=
+                    (o.default_bindings && o.default_bindings[e]);
                 }
-                return s
-                  ? (this.SendShouldShowBindingCalloutsResponse(e, !0), null)
-                  : (0, l.mQ)(e.app_key, t, n.current_binding_url[t]);
+                return n
+                  ? (this.SendShouldShowBindingCalloutsResponse(t, !0), null)
+                  : (0, l.mQ)(t.app_key, e, o.current_binding_url[e]);
               })
-              .then((t) => {
-                let n = !1;
-                if (t.binding_config.alias_info)
-                  for (let e in t.binding_config.alias_info) {
-                    let i = t.binding_config.alias_info[e];
+              .then((e) => {
+                let o = !1;
+                if (e.binding_config.alias_info)
+                  for (let t in e.binding_config.alias_info) {
+                    let i = e.binding_config.alias_info[t];
                     if (!i.hidden && i.alias_name) {
-                      n = !0;
+                      o = !0;
                       break;
                     }
                   }
-                t.binding_config.simulated_actions &&
-                  t.binding_config.simulated_actions.length > 0 &&
-                  (n = !0),
-                  this.SendShouldShowBindingCalloutsResponse(e, n);
+                e.binding_config.simulated_actions &&
+                  e.binding_config.simulated_actions.length > 0 &&
+                  (o = !0),
+                  this.SendShouldShowBindingCalloutsResponse(t, o);
               })
-              .catch((t) => {
-                this.SendShouldShowBindingCalloutsResponse(e, !1);
+              .catch((e) => {
+                this.SendShouldShowBindingCalloutsResponse(t, !1);
               });
           }
-          OnRequestBindingCallouts(e) {
-            let t,
-              n = e.controller_type
-                ? e.controller_type
+          OnRequestBindingCallouts(t) {
+            let e,
+              o = t.controller_type
+                ? t.controller_type
                 : this.GetDefaultControllerType();
-            (0, l.xM)(e.app_key)
+            (0, l.xM)(t.app_key)
               .then(
                 (i) => (
-                  (t = i), (0, l.mQ)(e.app_key, n, t.current_binding_url[n])
+                  (e = i), (0, l.mQ)(t.app_key, o, e.current_binding_url[o])
                 ),
               )
               .then((i) => {
-                (Object.assign({}, e).controller_type = n),
-                  this.ShowCallouts(e, n, t, i.binding_config);
+                (Object.assign({}, t).controller_type = o),
+                  this.ShowCallouts(t, o, e, i.binding_config);
               })
-              .catch((e) => {
-                console.log("Request for bindings failed: ", e);
+              .catch((t) => {
+                console.log("Request for bindings failed: ", t);
               });
           }
-          OnCancelBindingCallouts(e) {
-            this.state.sAppKey == e.app_key && this.OnCloseCallouts();
+          OnCancelBindingCallouts(t) {
+            this.state.sAppKey == t.app_key && this.OnCloseCallouts();
           }
-          OnRequestTutorialCallout(e) {
+          OnRequestTutorialCallout(t) {
             this.setState({
               actionManifest: null,
               bindingConfig: null,
               sActionSet: null,
               sRestrictToAction: null,
-              sAppKey: e.app_key,
-              sControllerType: e.controller_type,
-              tutorialCallout: e,
+              sAppKey: t.app_key,
+              sControllerType: t.controller_type,
+              tutorialCallout: t,
             });
           }
-          IsActionSetAllowed(e, t) {
-            if (e.required_options)
-              for (let n of e.required_options) if (!t.options[n]) return !1;
-            if (e.forbidden_options)
-              for (let n of e.forbidden_options) if (t.options[n]) return !1;
+          IsActionSetAllowed(t, e) {
+            if (t.required_options)
+              for (let o of t.required_options) if (!e.options[o]) return !1;
+            if (t.forbidden_options)
+              for (let o of t.forbidden_options) if (e.options[o]) return !1;
             return !0;
           }
-          DoesActionSetHaveBindings(e, t) {
-            var n, i;
-            const s =
+          DoesActionSetHaveBindings(t, e) {
+            var o, i;
+            const n =
               null ===
                 (i =
-                  null === (n = t.bindings) || void 0 === n
+                  null === (o = e.bindings) || void 0 === o
                     ? void 0
-                    : n[e.name]) || void 0 === i
+                    : o[t.name]) || void 0 === i
                 ? void 0
                 : i.sources;
-            if (Array.isArray(s) && s.length > 0) {
-              let t = !1;
-              for (let n of e.actions)
-                if (!n.hide_callout) {
-                  t = !0;
+            if (Array.isArray(n) && n.length > 0) {
+              let e = !1;
+              for (let o of t.actions)
+                if (!o.hide_callout) {
+                  e = !0;
                   break;
                 }
-              return t;
+              return e;
             }
             return !1;
           }
-          DetermineDefaultActionSet(e, t) {
-            for (let n of e.action_sets)
+          DetermineDefaultActionSet(t, e) {
+            for (let o of t.action_sets)
               if (
-                this.IsActionSetAllowed(n, t) &&
-                this.DoesActionSetHaveBindings(n, t)
+                this.IsActionSetAllowed(o, e) &&
+                this.DoesActionSetHaveBindings(o, e)
               )
-                return n.name;
+                return o.name;
           }
-          ShowCallouts(e, t, n, i) {
-            let s = null,
-              o = null;
-            if (e.action) {
-              e: for (let t of n.action_sets)
-                if (this.DoesActionSetHaveBindings(t, i))
-                  for (let n of t.actions)
-                    if (n.name.toUpperCase() == e.action.toUpperCase()) {
-                      s = t.name;
-                      break e;
+          ShowCallouts(t, e, o, i) {
+            let n = null,
+              s = null;
+            if (t.action) {
+              t: for (let e of o.action_sets)
+                if (this.DoesActionSetHaveBindings(e, i))
+                  for (let o of e.actions)
+                    if (o.name.toUpperCase() == t.action.toUpperCase()) {
+                      n = e.name;
+                      break t;
                     }
-              o = e.action.toUpperCase();
+              s = t.action.toUpperCase();
             } else
-              s = e.action_sets
-                ? e.action_sets[0]
-                : this.DetermineDefaultActionSet(n, i);
-            s &&
+              n = t.action_sets
+                ? t.action_sets[0]
+                : this.DetermineDefaultActionSet(o, i);
+            n &&
               this.setState({
-                actionManifest: n,
+                actionManifest: o,
                 bindingConfig: i,
-                sActionSet: s,
-                sRestrictToAction: o,
-                sAppKey: e.app_key,
-                sControllerType: t,
+                sActionSet: n,
+                sRestrictToAction: s,
+                sAppKey: t.app_key,
+                sControllerType: e,
               });
           }
-          ComputeCalloutsForActionSet(e) {
-            let t = [],
-              n = this.state.bindingConfig.bindings[e.name];
-            if (n && n.sources)
-              for (let i of n.sources)
+          ComputeCalloutsForActionSet(t) {
+            let e = [],
+              o = this.state.bindingConfig.bindings[t.name];
+            if (o && o.sources)
+              for (let i of o.sources)
                 if (i.inputs)
-                  for (let n of Object.keys(i.inputs)) {
-                    let s = i.inputs[n];
-                    if (!s.output) continue;
+                  for (let o of Object.keys(i.inputs)) {
+                    let n = i.inputs[o];
+                    if (!n.output) continue;
                     if (
                       this.state.sRestrictToAction &&
-                      s.output.toUpperCase() != this.state.sRestrictToAction
+                      n.output.toUpperCase() != this.state.sRestrictToAction
                     )
                       continue;
-                    let o = i.path.indexOf("/input");
-                    if (-1 == o) continue;
-                    let a = {
-                        device_path: i.path.substring(0, o),
-                        input_path: i.path.substring(o),
+                    let s = i.path.indexOf("/input");
+                    if (-1 == s) continue;
+                    let r = {
+                        device_path: i.path.substring(0, s),
+                        input_path: i.path.substring(s),
                         mode: i.mode,
-                        slot: n,
+                        slot: o,
                         localized_action_name: null,
                       },
-                      r = e.actions.find(
-                        (e) => e.name.toUpperCase() == s.output.toUpperCase(),
+                      a = t.actions.find(
+                        (t) => t.name.toUpperCase() == n.output.toUpperCase(),
                       );
-                    if (r) {
-                      if (r.hide_callout) continue;
-                      let e = r.localized_name,
-                        t =
+                    if (a) {
+                      if (a.hide_callout) continue;
+                      let t = a.localized_name,
+                        e =
                           this.state.bindingConfig.alias_info &&
-                          this.state.bindingConfig.alias_info[r.name];
-                      if (t && (t.alias_name && (e = t.alias_name), t.hidden))
+                          this.state.bindingConfig.alias_info[a.name];
+                      if (e && (e.alias_name && (t = e.alias_name), e.hidden))
                         continue;
-                      a.localized_action_name = e;
-                    } else if (s.output.startsWith("/simactions/")) {
-                      let e = parseInt(
-                          s.output.slice(s.output.lastIndexOf("/") + 1),
+                      r.localized_action_name = t;
+                    } else if (n.output.startsWith("/simactions/")) {
+                      let t = parseInt(
+                          n.output.slice(n.output.lastIndexOf("/") + 1),
                         ),
-                        t = this.state.bindingConfig.simulated_actions.find(
-                          (t) => t.id == e,
+                        e = this.state.bindingConfig.simulated_actions.find(
+                          (e) => e.id == t,
                         );
-                      if (!t) continue;
-                      a.localized_action_name = t.name;
+                      if (!e) continue;
+                      r.localized_action_name = e.name;
                     }
-                    a.localized_action_name && t.push(a);
+                    r.localized_action_name && e.push(r);
                   }
-            return t;
+            return e;
           }
-          ComputeChordCalloutsForActionSet(e) {
-            let t = [],
-              n = this.state.bindingConfig.bindings[e.name];
-            if (n && n.chords)
-              for (let i of n.chords) {
+          ComputeChordCalloutsForActionSet(t) {
+            let e = [],
+              o = this.state.bindingConfig.bindings[t.name];
+            if (o && o.chords)
+              for (let i of o.chords) {
                 if (!i.inputs || !i.output) continue;
                 if (
                   this.state.sRestrictToAction &&
                   i.output.toUpperCase() != this.state.sRestrictToAction
                 )
                   continue;
-                let n = e.actions.find(
-                  (e) => e.name.toUpperCase() == i.output.toUpperCase(),
+                let o = t.actions.find(
+                  (t) => t.name.toUpperCase() == i.output.toUpperCase(),
                 );
-                if (!n) continue;
-                let s = { inputs: [], localized_action_name: n.localized_name };
-                for (let e of i.inputs) {
-                  if (2 != e.length) continue;
-                  let t = e[0].indexOf("/input");
-                  if (-1 == t) continue;
-                  let n = {
-                    device_path: e[0].substring(0, t),
-                    input_path: e[0].substring(t),
-                    slot: e[1],
+                if (!o) continue;
+                let n = { inputs: [], localized_action_name: o.localized_name };
+                for (let t of i.inputs) {
+                  if (2 != t.length) continue;
+                  let e = t[0].indexOf("/input");
+                  if (-1 == e) continue;
+                  let o = {
+                    device_path: t[0].substring(0, e),
+                    input_path: t[0].substring(e),
+                    slot: t[1],
                   };
-                  s.inputs.push(n);
+                  n.inputs.push(o);
                 }
-                s.inputs.length > 0 && t.push(s);
+                n.inputs.length > 0 && e.push(n);
               }
-            return t;
+            return e;
           }
           ComputeGroupedCallouts() {
             if (
@@ -1533,49 +1346,49 @@ var CLSTAMP = "10552726";
               )
             )
               return {};
-            let e = [],
-              t = [];
-            for (let n of this.state.actionManifest.action_sets)
-              (n.name != this.state.sActionSet &&
-                n.display_with != this.state.sActionSet) ||
-                ((e = e.concat(this.ComputeCalloutsForActionSet(n))),
-                (t = t.concat(this.ComputeChordCalloutsForActionSet(n))));
-            return this.GroupCallouts(e, t);
+            let t = [],
+              e = [];
+            for (let o of this.state.actionManifest.action_sets)
+              (o.name != this.state.sActionSet &&
+                o.display_with != this.state.sActionSet) ||
+                ((t = t.concat(this.ComputeCalloutsForActionSet(o))),
+                (e = e.concat(this.ComputeChordCalloutsForActionSet(o))));
+            return this.GroupCallouts(t, e);
           }
-          GroupCallouts(e, t) {
-            let n = {};
-            for (let t of e) {
-              let e = t.device_path.toLowerCase();
-              n.hasOwnProperty(e) ||
-                (n[e] = { device_path: e, input_callouts: {}, chords: [] });
-              let i = n[e];
-              i.input_callouts.hasOwnProperty(t.input_path) ||
-                (i.input_callouts[t.input_path] = {
-                  input_path: t.input_path,
+          GroupCallouts(t, e) {
+            let o = {};
+            for (let e of t) {
+              let t = e.device_path.toLowerCase();
+              o.hasOwnProperty(t) ||
+                (o[t] = { device_path: t, input_callouts: {}, chords: [] });
+              let i = o[t];
+              i.input_callouts.hasOwnProperty(e.input_path) ||
+                (i.input_callouts[e.input_path] = {
+                  input_path: e.input_path,
                   slot_callouts: [],
                 }),
-                i.input_callouts[t.input_path].slot_callouts.push(t);
+                i.input_callouts[e.input_path].slot_callouts.push(e);
             }
-            for (let e of t) {
-              if (0 == e.inputs.length) continue;
-              let t = e.inputs[0].device_path.toLowerCase(),
+            for (let t of e) {
+              if (0 == t.inputs.length) continue;
+              let e = t.inputs[0].device_path.toLowerCase(),
                 i = !1;
-              for (let n of e.inputs)
-                if (n.device_path.toLowerCase() != t) {
+              for (let o of t.inputs)
+                if (o.device_path.toLowerCase() != e) {
                   i = !0;
                   break;
                 }
               i
                 ? console.log(
                     "chord is multi-device, which we don't know how to draw yet",
-                    e,
+                    t,
                   )
-                : n[t].chords.push(e);
+                : o[e].chords.push(t);
             }
-            return n;
+            return o;
           }
-          OnSelectActionSet(e) {
-            this.setState({ sActionSet: e });
+          OnSelectActionSet(t) {
+            this.setState({ sActionSet: t });
           }
           OnCloseCallouts() {
             this.setState({
@@ -1589,7 +1402,7 @@ var CLSTAMP = "10552726";
             });
           }
           renderTutorialCallout() {
-            let e = {
+            let t = {
                 device_path: this.state.tutorialCallout.device_path,
                 input_path: this.state.tutorialCallout.input_path,
                 mode: this.state.tutorialCallout.mode,
@@ -1597,20 +1410,20 @@ var CLSTAMP = "10552726";
                 localized_action_name:
                   this.state.tutorialCallout.localized_action_name,
               },
-              t = {
+              e = {
                 input_path: this.state.tutorialCallout.input_path,
-                slot_callouts: [e],
+                slot_callouts: [t],
               },
-              n = {
+              o = {
                 device_path: this.state.tutorialCallout.device_path,
                 input_callouts: {},
                 chords: [],
               };
-            n.input_callouts[this.state.tutorialCallout.input_path] = t;
+            o.input_callouts[this.state.tutorialCallout.input_path] = e;
             let i = {};
             return (
-              (i[this.state.tutorialCallout.device_path] = n),
-              s.createElement(S, {
+              (i[this.state.tutorialCallout.device_path] = o),
+              n.createElement(R, {
                 devices: i,
                 controllerType: this.state.sControllerType,
               })
@@ -1618,54 +1431,54 @@ var CLSTAMP = "10552726";
           }
           render() {
             if (this.state.tutorialCallout) return this.renderTutorialCallout();
-            let e = this.ComputeGroupedCallouts();
-            if (0 == Object.keys(e).length) return null;
-            let t = [];
-            this.state.actionManifest.action_sets.forEach((e) => {
+            let t = this.ComputeGroupedCallouts();
+            if (0 == Object.keys(t).length) return null;
+            let e = [];
+            this.state.actionManifest.action_sets.forEach((t) => {
               if (
-                this.IsActionSetAllowed(e, this.state.bindingConfig) &&
-                !e.display_with &&
-                this.DoesActionSetHaveBindings(e, this.state.bindingConfig)
+                this.IsActionSetAllowed(t, this.state.bindingConfig) &&
+                !t.display_with &&
+                this.DoesActionSetHaveBindings(t, this.state.bindingConfig)
               ) {
-                let n = "ActionSetName ButtonControl";
-                e.name == this.state.sActionSet && (n += " ActionSetSelected"),
-                  t.push(
-                    s.createElement(
-                      p.$,
+                let o = "ActionSetName ButtonControl";
+                t.name == this.state.sActionSet && (o += " ActionSetSelected"),
+                  e.push(
+                    n.createElement(
+                      d.$,
                       {
-                        className: n,
+                        className: o,
                         onClick: () => {
-                          this.OnSelectActionSet(e.name);
+                          this.OnSelectActionSet(t.name);
                         },
-                        key: e.name,
+                        key: t.name,
                       },
-                      e.localized_name,
+                      t.localized_name,
                     ),
                   );
               }
             });
-            let n = d.s.GetApp(this.state.sAppKey);
-            return s.createElement(
+            let o = u.s.GetApp(this.state.sAppKey);
+            return n.createElement(
               "div",
               { className: "CalloutTopLevelContainer" },
               !this.state.sRestrictToAction &&
-                s.createElement(
+                n.createElement(
                   "div",
                   { className: "CalloutActionSetDialogContainer" },
-                  s.createElement(
-                    r.dL,
+                  n.createElement(
+                    a.dL,
                     { parent_path: "/user/head" },
-                    s.createElement(
-                      r.m$,
+                    n.createElement(
+                      a.m$,
                       {
                         rotation_start_angle_threshold: 40,
                         rotation_stop_angle_threshold: 5,
                       },
-                      s.createElement(
-                        r.dL,
+                      n.createElement(
+                        a.dL,
                         { rotation: { x: -10, y: 10, z: 0 } },
-                        s.createElement(
-                          r.dL,
+                        n.createElement(
+                          a.dL,
                           {
                             translation: {
                               x: -0,
@@ -1673,41 +1486,41 @@ var CLSTAMP = "10552726";
                               z: -0.85 * _.SW.dashboardDistance,
                             },
                           },
-                          s.createElement(
-                            r.Zk,
+                          n.createElement(
+                            a.Zk,
                             {
                               width: 0.65 * _.SW.dashboardScale,
                               interactive: !0,
                               debug_name: "bindingcallouts-1",
                             },
-                            s.createElement(
-                              p.W,
+                            n.createElement(
+                              d.W,
                               { className: "BindingCalloutActionPanel" },
-                              n &&
-                                s.createElement(
+                              o &&
+                                n.createElement(
                                   "div",
                                   { className: "BindingCalloutAppHeader" },
-                                  s.createElement("img", {
+                                  n.createElement("img", {
                                     className: "BindingCalloutImage",
-                                    src: d.s.GetAppImageURL(this.state.sAppKey),
+                                    src: u.s.GetAppImageURL(this.state.sAppKey),
                                   }),
-                                  s.createElement(
+                                  n.createElement(
                                     "div",
                                     { className: "BindingCalloutTitle" },
                                     "Controller Bindings",
                                   ),
-                                  s.createElement(
+                                  n.createElement(
                                     "div",
                                     { className: "BindingCalloutConfigName" },
                                     this.state.bindingConfig.name,
                                   ),
                                 ),
-                              s.createElement(
+                              n.createElement(
                                 "div",
                                 { className: "BindingCalloutActionList" },
-                                t,
-                                s.createElement(
-                                  p.$,
+                                e,
+                                n.createElement(
+                                  d.$,
                                   {
                                     className: "ButtonControl CloseButton",
                                     onClick: this.OnCloseCallouts,
@@ -1722,127 +1535,127 @@ var CLSTAMP = "10552726";
                     ),
                   ),
                 ),
-              s.createElement(S, {
-                devices: e,
+              n.createElement(R, {
+                devices: t,
                 controllerType: this.state.sControllerType,
               }),
             );
           }
         };
-        (0, i.Cg)([a.o], E.prototype, "OnShouldShowBindingCallouts", null),
-          (0, i.Cg)([a.o], E.prototype, "OnRequestBindingCallouts", null),
-          (0, i.Cg)([a.o], E.prototype, "OnCancelBindingCallouts", null),
-          (0, i.Cg)([a.o], E.prototype, "OnRequestTutorialCallout", null),
-          (0, i.Cg)([a.o], E.prototype, "OnCloseCallouts", null),
-          (E = (0, i.Cg)([m.PA], E)),
+        (0, i.Cg)([r.o], k.prototype, "OnShouldShowBindingCallouts", null),
+          (0, i.Cg)([r.o], k.prototype, "OnRequestBindingCallouts", null),
+          (0, i.Cg)([r.o], k.prototype, "OnCancelBindingCallouts", null),
+          (0, i.Cg)([r.o], k.prototype, "OnRequestTutorialCallout", null),
+          (0, i.Cg)([r.o], k.prototype, "OnCloseCallouts", null),
+          (k = (0, i.Cg)([m.PA], k)),
           null === VRHTML ||
             void 0 === VRHTML ||
             VRHTML.VROverlay.SetFlag(
               VRHTML.VROverlay.ThisOverlayHandle(),
-              r.NB.MakeOverlaysInteractiveIfVisible,
+              65536,
               !0,
             ),
           null === VRHTML ||
             void 0 === VRHTML ||
             VRHTML.VROverlay.SetInputMethod(
               VRHTML.VROverlay.ThisOverlayHandle(),
-              r.Rk.Mouse,
+              a.Rk.Mouse,
             ),
-          (0, u.uV)(
+          (0, p.uV)(
             ["bindingui"],
             null === VRHTML || void 0 === VRHTML
               ? void 0
               : VRHTML.GetSteamLanguage(),
           )
             .then(() => c.W.Init())
-            .then(() => d.s.Init())
+            .then(() => u.s.Init())
             .then(() => {
-              (0, g.aj)().Init("SteamVR", CLSTAMP, (0, g.d4)()),
-                o
+              (0, f.aj)().Init("SteamVR", CLSTAMP, (0, f.d4)()),
+                s
                   .H(document.getElementById("root"))
                   .render(
-                    s.createElement(r.O5, null, s.createElement(E, null)),
+                    n.createElement(a.O5, null, n.createElement(k, null)),
                   );
             });
       },
     },
-    n = {};
-  function i(e) {
-    var s = n[e];
-    if (void 0 !== s) return s.exports;
-    var o = (n[e] = { exports: {} });
-    return t[e].call(o.exports, o, o.exports, i), o.exports;
+    o = {};
+  function i(t) {
+    var n = o[t];
+    if (void 0 !== n) return n.exports;
+    var s = (o[t] = { exports: {} });
+    return e[t].call(s.exports, s, s.exports, i), s.exports;
   }
-  (i.m = t),
-    (e = []),
-    (i.O = (t, n, s, o) => {
-      if (!n) {
-        var a = 1 / 0;
-        for (c = 0; c < e.length; c++) {
-          for (var [n, s, o] = e[c], r = !0, l = 0; l < n.length; l++)
-            (!1 & o || a >= o) && Object.keys(i.O).every((e) => i.O[e](n[l]))
-              ? n.splice(l--, 1)
-              : ((r = !1), o < a && (a = o));
-          if (r) {
-            e.splice(c--, 1);
-            var u = s();
-            void 0 !== u && (t = u);
+  (i.m = e),
+    (t = []),
+    (i.O = (e, o, n, s) => {
+      if (!o) {
+        var r = 1 / 0;
+        for (c = 0; c < t.length; c++) {
+          for (var [o, n, s] = t[c], a = !0, l = 0; l < o.length; l++)
+            (!1 & s || r >= s) && Object.keys(i.O).every((t) => i.O[t](o[l]))
+              ? o.splice(l--, 1)
+              : ((a = !1), s < r && (r = s));
+          if (a) {
+            t.splice(c--, 1);
+            var p = n();
+            void 0 !== p && (e = p);
           }
         }
-        return t;
+        return e;
       }
-      o = o || 0;
-      for (var c = e.length; c > 0 && e[c - 1][2] > o; c--) e[c] = e[c - 1];
-      e[c] = [n, s, o];
+      s = s || 0;
+      for (var c = t.length; c > 0 && t[c - 1][2] > s; c--) t[c] = t[c - 1];
+      t[c] = [o, n, s];
     }),
-    (i.n = (e) => {
-      var t = e && e.__esModule ? () => e.default : () => e;
-      return i.d(t, { a: t }), t;
+    (i.n = (t) => {
+      var e = t && t.__esModule ? () => t.default : () => t;
+      return i.d(e, { a: e }), e;
     }),
-    (i.d = (e, t) => {
-      for (var n in t)
-        i.o(t, n) &&
-          !i.o(e, n) &&
-          Object.defineProperty(e, n, { enumerable: !0, get: t[n] });
+    (i.d = (t, e) => {
+      for (var o in e)
+        i.o(e, o) &&
+          !i.o(t, o) &&
+          Object.defineProperty(t, o, { enumerable: !0, get: e[o] });
     }),
     (i.g = (function () {
       if ("object" == typeof globalThis) return globalThis;
       try {
         return this || new Function("return this")();
-      } catch (e) {
+      } catch (t) {
         if ("object" == typeof window) return window;
       }
     })()),
-    (i.o = (e, t) => Object.prototype.hasOwnProperty.call(e, t)),
-    (i.r = (e) => {
+    (i.o = (t, e) => Object.prototype.hasOwnProperty.call(t, e)),
+    (i.r = (t) => {
       "undefined" != typeof Symbol &&
         Symbol.toStringTag &&
-        Object.defineProperty(e, Symbol.toStringTag, { value: "Module" }),
-        Object.defineProperty(e, "__esModule", { value: !0 });
+        Object.defineProperty(t, Symbol.toStringTag, { value: "Module" }),
+        Object.defineProperty(t, "__esModule", { value: !0 });
     }),
     (() => {
-      var e = { 241: 0, 797: 0, 527: 0, 500: 0 };
-      i.O.j = (t) => 0 === e[t];
-      var t = (t, n) => {
-          var s,
-            o,
-            [a, r, l] = n,
-            u = 0;
-          if (a.some((t) => 0 !== e[t])) {
-            for (s in r) i.o(r, s) && (i.m[s] = r[s]);
+      var t = { 241: 0, 527: 0, 500: 0 };
+      i.O.j = (e) => 0 === t[e];
+      var e = (e, o) => {
+          var n,
+            s,
+            [r, a, l] = o,
+            p = 0;
+          if (r.some((e) => 0 !== t[e])) {
+            for (n in a) i.o(a, n) && (i.m[n] = a[n]);
             if (l) var c = l(i);
           }
-          for (t && t(n); u < a.length; u++)
-            (o = a[u]), i.o(e, o) && e[o] && e[o][0](), (e[o] = 0);
+          for (e && e(o); p < r.length; p++)
+            (s = r[p]), i.o(t, s) && t[s] && t[s][0](), (t[s] = 0);
           return i.O(c);
         },
-        n = (self.webpackChunkvrwebui = self.webpackChunkvrwebui || []);
-      n.forEach(t.bind(null, 0)), (n.push = t.bind(null, n.push.bind(n)));
+        o = (self.webpackChunkvrwebui = self.webpackChunkvrwebui || []);
+      o.forEach(e.bind(null, 0)), (o.push = e.bind(null, o.push.bind(o)));
     })();
-  var s = i.O(
+  var n = i.O(
     void 0,
-    [967, 991, 305, 527, 452, 170, 537, 500, 554, 458, 542],
+    [967, 978, 352, 705, 948, 47, 305, 527, 500, 554, 798, 743, 366, 386, 838],
     () => i(1278),
   );
-  s = i.O(s);
+  n = i.O(n);
 })(); //# sourceMappingURL=file:///home/buildbot/buildslave/steamvr_rel_npm_vrwebui/build/public/runtime/resources/webinterface/dashboard/sourcemaps/bindingcallouts.js.map

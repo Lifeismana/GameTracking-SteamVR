@@ -983,7 +983,7 @@ IVRCompositorPluginProvider_001
 IVRDisplayComponent_003
 IVRDriverDirectModeComponent_009
 IVRDriverManager_001
-IVRIPCResourceManagerClient_003
+IVRIPCResourceManagerClient_004
 IVRMailbox_002
 IVRResources_001
 IVRServerInternal_XXX
@@ -1142,7 +1142,7 @@ QueryPerformanceCounter
 QueryPerformanceFrequency
 R1h58
 RPCRT4.dll
-RSDS
+RSDS l
 Radio Version: %i\n
 RaiseException
 Raw mapped input (%2d):

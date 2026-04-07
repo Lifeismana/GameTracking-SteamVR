@@ -1,181 +1,22 @@
-var CLSTAMP = "10552726";
+var CLSTAMP = "10579910";
 (() => {
   "use strict";
   var e,
     t = {
-      6035: (e, t, n) => {
-        n.d(t, { P: () => m });
-        var r,
-          o,
-          s = n(6540),
-          a = n(3815),
-          i = n(4452),
-          u = "function" == typeof Symbol && Symbol.for,
-          c =
-            null !==
-              (o =
-                null ===
-                  (r = Object.getOwnPropertyDescriptor(
-                    function () {},
-                    "name",
-                  )) || void 0 === r
-                  ? void 0
-                  : r.configurable) &&
-            void 0 !== o &&
-            o,
-          l = u
-            ? Symbol.for("react.forward_ref")
-            : "function" == typeof s.forwardRef &&
-              (0, s.forwardRef)(function (e) {
-                return null;
-              }).$$typeof,
-          d = u
-            ? Symbol.for("react.memo")
-            : "function" == typeof s.memo &&
-              (0, s.memo)(function (e) {
-                return null;
-              }).$$typeof;
-        function m(e, t) {
-          var n;
-          if (d && e.$$typeof === d)
-            throw new Error(
-              "[mobx-react-lite] You are trying to use `observer` on a function component wrapped in either another `observer` or `React.memo`. The observer already applies 'React.memo' for you.",
-            );
-          if ((0, a.P)()) return e;
-          var r =
-              null !== (n = null == t ? void 0 : t.forwardRef) &&
-              void 0 !== n &&
-              n,
-            o = e,
-            u = e.displayName || e.name;
-          if (
-            l &&
-            e.$$typeof === l &&
-            ((r = !0), "function" != typeof (o = e.render))
-          )
-            throw new Error(
-              "[mobx-react-lite] `render` property of ForwardRef was not a function",
-            );
-          var m,
-            f,
-            p = function (e, t) {
-              return (0, i.q)(function () {
-                return o(e, t);
-              }, u);
-            };
-          return (
-            (p.displayName = e.displayName),
-            c &&
-              Object.defineProperty(p, "name", {
-                value: e.name,
-                writable: !0,
-                configurable: !0,
-              }),
-            e.contextTypes && (p.contextTypes = e.contextTypes),
-            r && (p = (0, s.forwardRef)(p)),
-            (p = (0, s.memo)(p)),
-            (m = e),
-            (f = p),
-            Object.keys(m).forEach(function (e) {
-              h[e] ||
-                Object.defineProperty(
-                  f,
-                  e,
-                  Object.getOwnPropertyDescriptor(m, e),
-                );
-            }),
-            p
-          );
-        }
-        var h = {
-          $$typeof: !0,
-          render: !0,
-          compare: !0,
-          type: !0,
-          displayName: !0,
-        };
-      },
-      4452: (e, t, n) => {
-        n.d(t, { q: () => l });
-        var r = n(7813),
-          o = n(6540),
-          s = n(6356),
-          a = n(3815),
-          i = n(7380),
-          u = n(9888);
-        function c(e) {
-          e.reaction = new r.Reaction("observer".concat(e.name), function () {
-            var t;
-            (e.stateVersion = Symbol()),
-              null === (t = e.onStoreChange) || void 0 === t || t.call(e);
-          });
-        }
-        function l(e, t) {
-          if ((void 0 === t && (t = "observed"), (0, a.P)())) return e();
-          var n = o.useRef(null);
-          if (!n.current) {
-            var r = {
-              reaction: null,
-              onStoreChange: null,
-              stateVersion: Symbol(),
-              name: t,
-              subscribe: function (e) {
-                return (
-                  i.Y.unregister(r),
-                  (r.onStoreChange = e),
-                  r.reaction || (c(r), (r.stateVersion = Symbol())),
-                  function () {
-                    var e;
-                    (r.onStoreChange = null),
-                      null === (e = r.reaction) || void 0 === e || e.dispose(),
-                      (r.reaction = null);
-                  }
-                );
-              },
-              getSnapshot: function () {
-                return r.stateVersion;
-              },
-            };
-            n.current = r;
-          }
-          var l,
-            d,
-            m = n.current;
-          if (
-            (m.reaction || (c(m), i.Y.register(n, m, m)),
-            o.useDebugValue(m.reaction, s.E),
-            (0, u.useSyncExternalStore)(
-              m.subscribe,
-              m.getSnapshot,
-              m.getSnapshot,
-            ),
-            m.reaction.track(function () {
-              try {
-                l = e();
-              } catch (e) {
-                d = e;
-              }
-            }),
-            d)
-          )
-            throw d;
-          return l;
-        }
-      },
       5287: (e, t) => {
-        var n = Symbol.for("react.element"),
-          r = Symbol.for("react.portal"),
+        var r = Symbol.for("react.element"),
+          n = Symbol.for("react.portal"),
           o = Symbol.for("react.fragment"),
           s = Symbol.for("react.strict_mode"),
-          a = Symbol.for("react.profiler"),
-          i = Symbol.for("react.provider"),
+          i = Symbol.for("react.profiler"),
+          a = Symbol.for("react.provider"),
           u = Symbol.for("react.context"),
           c = Symbol.for("react.forward_ref"),
           l = Symbol.for("react.suspense"),
           d = Symbol.for("react.memo"),
           m = Symbol.for("react.lazy"),
           h = Symbol.iterator;
-        var f = {
+        var p = {
             isMounted: function () {
               return !1;
             },
@@ -183,51 +24,51 @@ var CLSTAMP = "10552726";
             enqueueReplaceState: function () {},
             enqueueSetState: function () {},
           },
-          p = Object.assign,
-          g = {};
-        function _(e, t, n) {
+          f = Object.assign,
+          _ = {};
+        function g(e, t, r) {
           (this.props = e),
             (this.context = t),
-            (this.refs = g),
-            (this.updater = n || f);
+            (this.refs = _),
+            (this.updater = r || p);
         }
         function b() {}
-        function y(e, t, n) {
+        function S(e, t, r) {
           (this.props = e),
             (this.context = t),
-            (this.refs = g),
-            (this.updater = n || f);
+            (this.refs = _),
+            (this.updater = r || p);
         }
-        (_.prototype.isReactComponent = {}),
-          (_.prototype.setState = function (e, t) {
+        (g.prototype.isReactComponent = {}),
+          (g.prototype.setState = function (e, t) {
             if ("object" != typeof e && "function" != typeof e && null != e)
               throw Error(
                 "setState(...): takes an object of state variables to update or a function which returns an object of state variables.",
               );
             this.updater.enqueueSetState(this, e, t, "setState");
           }),
-          (_.prototype.forceUpdate = function (e) {
+          (g.prototype.forceUpdate = function (e) {
             this.updater.enqueueForceUpdate(this, e, "forceUpdate");
           }),
-          (b.prototype = _.prototype);
-        var S = (y.prototype = new b());
-        (S.constructor = y), p(S, _.prototype), (S.isPureReactComponent = !0);
+          (b.prototype = g.prototype);
+        var y = (S.prototype = new b());
+        (y.constructor = S), f(y, g.prototype), (y.isPureReactComponent = !0);
         var v = Array.isArray,
-          w = Object.prototype.hasOwnProperty,
-          C = { current: null },
+          C = Object.prototype.hasOwnProperty,
+          w = { current: null },
           k = { key: !0, ref: !0, __self: !0, __source: !0 };
-        function E(e, t, r) {
+        function E(e, t, n) {
           var o,
             s = {},
-            a = null,
-            i = null;
+            i = null,
+            a = null;
           if (null != t)
-            for (o in (void 0 !== t.ref && (i = t.ref),
-            void 0 !== t.key && (a = "" + t.key),
+            for (o in (void 0 !== t.ref && (a = t.ref),
+            void 0 !== t.key && (i = "" + t.key),
             t))
-              w.call(t, o) && !k.hasOwnProperty(o) && (s[o] = t[o]);
+              C.call(t, o) && !k.hasOwnProperty(o) && (s[o] = t[o]);
           var u = arguments.length - 2;
-          if (1 === u) s.children = r;
+          if (1 === u) s.children = n;
           else if (1 < u) {
             for (var c = Array(u), l = 0; l < u; l++) c[l] = arguments[l + 2];
             s.children = c;
@@ -235,19 +76,19 @@ var CLSTAMP = "10552726";
           if (e && e.defaultProps)
             for (o in (u = e.defaultProps)) void 0 === s[o] && (s[o] = u[o]);
           return {
-            $$typeof: n,
+            $$typeof: r,
             type: e,
-            key: a,
-            ref: i,
+            key: i,
+            ref: a,
             props: s,
-            _owner: C.current,
+            _owner: w.current,
           };
         }
-        function N(e) {
-          return "object" == typeof e && null !== e && e.$$typeof === n;
+        function W(e) {
+          return "object" == typeof e && null !== e && e.$$typeof === r;
         }
         var O = /\/+/g;
-        function W(e, t) {
+        function N(e, t) {
           return "object" == typeof e && null !== e && null != e.key
             ? (function (e) {
                 var t = { "=": "=0", ":": "=2" };
@@ -260,39 +101,39 @@ var CLSTAMP = "10552726";
               })("" + e.key)
             : t.toString(36);
         }
-        function R(e, t, o, s, a) {
-          var i = typeof e;
-          ("undefined" !== i && "boolean" !== i) || (e = null);
+        function R(e, t, o, s, i) {
+          var a = typeof e;
+          ("undefined" !== a && "boolean" !== a) || (e = null);
           var u = !1;
           if (null === e) u = !0;
           else
-            switch (i) {
+            switch (a) {
               case "string":
               case "number":
                 u = !0;
                 break;
               case "object":
                 switch (e.$$typeof) {
-                  case n:
                   case r:
+                  case n:
                     u = !0;
                 }
             }
           if (u)
             return (
-              (a = a((u = e))),
-              (e = "" === s ? "." + W(u, 0) : s),
-              v(a)
+              (i = i((u = e))),
+              (e = "" === s ? "." + N(u, 0) : s),
+              v(i)
                 ? ((o = ""),
                   null != e && (o = e.replace(O, "$&/") + "/"),
-                  R(a, t, o, "", function (e) {
+                  R(i, t, o, "", function (e) {
                     return e;
                   }))
-                : null != a &&
-                  (N(a) &&
-                    (a = (function (e, t) {
+                : null != i &&
+                  (W(i) &&
+                    (i = (function (e, t) {
                       return {
-                        $$typeof: n,
+                        $$typeof: r,
                         type: e.type,
                         key: t,
                         ref: e.ref,
@@ -300,20 +141,20 @@ var CLSTAMP = "10552726";
                         _owner: e._owner,
                       };
                     })(
-                      a,
+                      i,
                       o +
-                        (!a.key || (u && u.key === a.key)
+                        (!i.key || (u && u.key === i.key)
                           ? ""
-                          : ("" + a.key).replace(O, "$&/") + "/") +
+                          : ("" + i.key).replace(O, "$&/") + "/") +
                         e,
                     )),
-                  t.push(a)),
+                  t.push(i)),
               1
             );
           if (((u = 0), (s = "" === s ? "." : s + ":"), v(e)))
             for (var c = 0; c < e.length; c++) {
-              var l = s + W((i = e[c]), c);
-              u += R(i, t, o, l, a);
+              var l = s + N((a = e[c]), c);
+              u += R(a, t, o, l, i);
             }
           else if (
             ((l = (function (e) {
@@ -325,9 +166,9 @@ var CLSTAMP = "10552726";
             })(e)),
             "function" == typeof l)
           )
-            for (e = l.call(e), c = 0; !(i = e.next()).done; )
-              u += R((i = i.value), t, o, (l = s + W(i, c++)), a);
-          else if ("object" === i)
+            for (e = l.call(e), c = 0; !(a = e.next()).done; )
+              u += R((a = a.value), t, o, (l = s + N(a, c++)), i);
+          else if ("object" === a)
             throw (
               ((t = String(e)),
               Error(
@@ -340,15 +181,15 @@ var CLSTAMP = "10552726";
             );
           return u;
         }
-        function x(e, t, n) {
+        function x(e, t, r) {
           if (null == e) return e;
-          var r = [],
+          var n = [],
             o = 0;
           return (
-            R(e, r, "", "", function (e) {
-              return t.call(n, e, o++);
+            R(e, n, "", "", function (e) {
+              return t.call(r, e, o++);
             }),
-            r
+            n
           );
         }
         function M(e) {
@@ -370,26 +211,26 @@ var CLSTAMP = "10552726";
           throw e._result;
         }
         var F = { current: null },
-          T = { transition: null },
+          I = { transition: null },
           L = {
             ReactCurrentDispatcher: F,
-            ReactCurrentBatchConfig: T,
-            ReactCurrentOwner: C,
+            ReactCurrentBatchConfig: I,
+            ReactCurrentOwner: w,
           };
-        function I() {
+        function D() {
           throw Error(
             "act(...) is not supported in production builds of React.",
           );
         }
         (t.Children = {
           map: x,
-          forEach: function (e, t, n) {
+          forEach: function (e, t, r) {
             x(
               e,
               function () {
                 t.apply(this, arguments);
               },
-              n,
+              r,
             );
           },
           count: function (e) {
@@ -409,58 +250,58 @@ var CLSTAMP = "10552726";
             );
           },
           only: function (e) {
-            if (!N(e))
+            if (!W(e))
               throw Error(
                 "React.Children.only expected to receive a single React element child.",
               );
             return e;
           },
         }),
-          (t.Component = _),
+          (t.Component = g),
           (t.Fragment = o),
-          (t.Profiler = a),
-          (t.PureComponent = y),
+          (t.Profiler = i),
+          (t.PureComponent = S),
           (t.StrictMode = s),
           (t.Suspense = l),
           (t.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED = L),
-          (t.act = I),
-          (t.cloneElement = function (e, t, r) {
+          (t.act = D),
+          (t.cloneElement = function (e, t, n) {
             if (null == e)
               throw Error(
                 "React.cloneElement(...): The argument must be a React element, but you passed " +
                   e +
                   ".",
               );
-            var o = p({}, e.props),
+            var o = f({}, e.props),
               s = e.key,
-              a = e.ref,
-              i = e._owner;
+              i = e.ref,
+              a = e._owner;
             if (null != t) {
               if (
-                (void 0 !== t.ref && ((a = t.ref), (i = C.current)),
+                (void 0 !== t.ref && ((i = t.ref), (a = w.current)),
                 void 0 !== t.key && (s = "" + t.key),
                 e.type && e.type.defaultProps)
               )
                 var u = e.type.defaultProps;
               for (c in t)
-                w.call(t, c) &&
+                C.call(t, c) &&
                   !k.hasOwnProperty(c) &&
                   (o[c] = void 0 === t[c] && void 0 !== u ? u[c] : t[c]);
             }
             var c = arguments.length - 2;
-            if (1 === c) o.children = r;
+            if (1 === c) o.children = n;
             else if (1 < c) {
               u = Array(c);
               for (var l = 0; l < c; l++) u[l] = arguments[l + 2];
               o.children = u;
             }
             return {
-              $$typeof: n,
+              $$typeof: r,
               type: e.type,
               key: s,
-              ref: a,
+              ref: i,
               props: o,
-              _owner: i,
+              _owner: a,
             };
           }),
           (t.createContext = function (e) {
@@ -474,7 +315,7 @@ var CLSTAMP = "10552726";
                 Consumer: null,
                 _defaultValue: null,
                 _globalName: null,
-              }).Provider = { $$typeof: i, _context: e }),
+              }).Provider = { $$typeof: a, _context: e }),
               (e.Consumer = e)
             );
           }),
@@ -489,7 +330,7 @@ var CLSTAMP = "10552726";
           (t.forwardRef = function (e) {
             return { $$typeof: c, render: e };
           }),
-          (t.isValidElement = N),
+          (t.isValidElement = W),
           (t.lazy = function (e) {
             return {
               $$typeof: m,
@@ -501,15 +342,15 @@ var CLSTAMP = "10552726";
             return { $$typeof: d, type: e, compare: void 0 === t ? null : t };
           }),
           (t.startTransition = function (e) {
-            var t = T.transition;
-            T.transition = {};
+            var t = I.transition;
+            I.transition = {};
             try {
               e();
             } finally {
-              T.transition = t;
+              I.transition = t;
             }
           }),
-          (t.unstable_act = I),
+          (t.unstable_act = D),
           (t.useCallback = function (e, t) {
             return F.current.useCallback(e, t);
           }),
@@ -526,8 +367,8 @@ var CLSTAMP = "10552726";
           (t.useId = function () {
             return F.current.useId();
           }),
-          (t.useImperativeHandle = function (e, t, n) {
-            return F.current.useImperativeHandle(e, t, n);
+          (t.useImperativeHandle = function (e, t, r) {
+            return F.current.useImperativeHandle(e, t, r);
           }),
           (t.useInsertionEffect = function (e, t) {
             return F.current.useInsertionEffect(e, t);
@@ -538,8 +379,8 @@ var CLSTAMP = "10552726";
           (t.useMemo = function (e, t) {
             return F.current.useMemo(e, t);
           }),
-          (t.useReducer = function (e, t, n) {
-            return F.current.useReducer(e, t, n);
+          (t.useReducer = function (e, t, r) {
+            return F.current.useReducer(e, t, r);
           }),
           (t.useRef = function (e) {
             return F.current.useRef(e);
@@ -547,141 +388,72 @@ var CLSTAMP = "10552726";
           (t.useState = function (e) {
             return F.current.useState(e);
           }),
-          (t.useSyncExternalStore = function (e, t, n) {
-            return F.current.useSyncExternalStore(e, t, n);
+          (t.useSyncExternalStore = function (e, t, r) {
+            return F.current.useSyncExternalStore(e, t, r);
           }),
           (t.useTransition = function () {
             return F.current.useTransition();
           }),
           (t.version = "18.3.1");
       },
-      6540: (e, t, n) => {
-        e.exports = n(5287);
-      },
-      6090: (e, t, n) => {
-        n.d(t, {
-          $: () => E.$,
-          $Z: () => k.$Z,
-          Ay: () => N,
-          CU: () => o.CU,
-          Ci: () => g.C,
-          Cw: () => s.C,
-          Ee: () => k.Ee,
-          Em: () => l.Em,
-          Fb: () => o.Fb,
-          Fi: () => _.Fi,
-          GM: () => d.GM,
-          GQ: () => k.GQ,
-          Gz: () => k.Gz,
-          HW: () => k.HW,
-          I0: () => r.I0,
-          IS: () => u.I,
-          JZ: () => o.JZ,
-          KI: () => E.KI,
-          Ld: () => o.Ld,
-          M9: () => r.M9,
-          MQ: () => _.MQ,
-          MV: () => k.MV,
-          N: () => a.e,
-          N1: () => p.N,
-          NB: () => k.NB,
-          NH: () => o.NH,
-          O5: () => m.O,
-          O6: () => o.O6,
-          OH: () => k.OH,
-          Oi: () => _.Oi,
-          QB: () => o.QB,
-          QR: () => E.QR,
-          R$: () => k.R$,
-          Se: () => o.Se,
-          Uj: () => o.Uj,
-          Vh: () => h.V,
-          Wq: () => r.Wq,
-          Xl: () => k.Xl,
-          Y4: () => i.Y,
-          Zk: () => _.Zk,
-          _1: () => k._1,
-          _h: () => _._h,
-          _n: () => r._n,
-          aX: () => h.a,
-          b: () => k.b,
-          b$: () => w.b,
-          b4: () => b.b,
-          cB: () => v.L,
-          dL: () => c.d,
-          e_: () => o.e_,
-          en: () => E.en,
-          fD: () => E.fD,
-          gN: () => k.gN,
-          k2: () => k.k2,
-          kG: () => k.kG,
-          ku: () => k.ku,
-          lq: () => f.l,
-          m$: () => b.m,
-          mX: () => r.mX,
-          mo: () => k.mo,
-          mu: () => k.mu,
-          nX: () => l.nX,
-          ne: () => k.ne,
-          nq: () => S.n,
-          o3: () => _.o3,
-          oN: () => o.oN,
-          o_: () => o.o_,
-          p0: () => o.p0,
-          pM: () => k.pM,
-          pg: () => r.pg,
-          q5: () => o.q5,
-          qF: () => o.qF,
-          rF: () => u.H,
-          rx: () => k.rx,
-          sJ: () => y.$,
-          sn: () => r.sn,
-          tx: () => o.tx,
-          uC: () => C.u,
-          vx: () => o.vx,
+      6090: (e, t, r) => {
+        r.d(t, {
+          GM: () => s.GM,
+          I0: () => n.I0,
+          M9: () => n.M9,
+          OH: () => a.OH,
+          R$: () => a.R$,
+          Wq: () => n.Wq,
+          Zk: () => i.Zk,
+          _n: () => n._n,
+          dL: () => o.d,
+          pg: () => n.pg,
         });
-        var r = n(2824),
-          o = n(6292),
-          s = n(3389),
-          a = (n(4120), n(1230)),
-          i = n(5830),
-          u = n(6186),
-          c = n(3361),
-          l = (n(111), n(5723)),
-          d = n(3496),
-          m = n(5178),
-          h = (n(428), n(9011), n(7350)),
-          f = n(6847),
-          p = n(5227),
-          g = (n(10), n(1808)),
-          _ = n(7019),
-          b = (n(1988), n(2527), n(9864)),
-          y = (n(4189), n(322), n(1977), n(6417)),
-          S = n(2303),
-          v = n(8715),
-          w = (n(4397), n(5459)),
-          C = n(8472),
-          k = (n(1184), n(3725)),
-          E = n(4367);
-        const N = VRHTML;
+        var n = r(2824),
+          o = (r(3389), r(4120), r(1230), r(5830), r(6186), r(3361)),
+          s = (r(111), r(5723), r(3496)),
+          i =
+            (r(5178),
+            r(428),
+            r(9011),
+            r(7350),
+            r(6847),
+            r(5227),
+            r(10),
+            r(1808),
+            r(7019)),
+          a =
+            (r(1988),
+            r(2527),
+            r(9864),
+            r(4189),
+            r(322),
+            r(1977),
+            r(6417),
+            r(2303),
+            r(8715),
+            r(4397),
+            r(5459),
+            r(8472),
+            r(1184),
+            r(3725));
+        r(4367);
       },
-      2824: (e, t, n) => {
-        n.d(t, {
+      2824: (e, t, r) => {
+        r.d(t, {
           I0: () => d,
           M9: () => l,
-          Wq: () => i,
+          Wq: () => c,
           _n: () => m,
-          mX: () => u,
-          pg: () => a,
-          sn: () => c,
+          pg: () => u,
         });
-        var r = n(1635),
-          o = n(7813),
-          s = n(3236);
-        const a = "vrcompositor_systemlayer",
-          i = "vrcompositor_mailbox",
-          u = "input_server",
-          c = "desktop_store",
+        var n = r(1635),
+          o = r(7813),
+          s = r(3236),
+          i = r(1295),
+          a = r(776);
+        const u = "vrcompositor_systemlayer",
+          c = "vrcompositor_mailbox",
           l = "systemui_dashboard_private",
           d = "binding_callouts/main";
         class m {
@@ -693,17 +465,16 @@ var CLSTAMP = "10552726";
               (this.m_oConnectWaits = []),
               (this.m_fnConnectResolve = void 0),
               (this.m_nNextMessageNumber = 1),
+              (this.Log = new a.wd("Mailbox", () => this.m_sMailboxName)),
               (0, o.makeObservable)(this);
           }
           OpenWebSocketToHost() {
             return new Promise((e, t) => {
-              console.log(
-                "Connecting vrmailbox " + this.m_sMailboxName + "...",
-              );
-              let n = "ws://127.0.0.1:27062";
-              this.m_sWebSecret && (n += "?secret=" + this.m_sWebSecret),
+              this.Log.Info("Connecting vrmailbox...");
+              let r = "ws://127.0.0.1:27062";
+              this.m_sWebSecret && (r += "?secret=" + this.m_sWebSecret),
                 (this.m_fnConnectResolve = e),
-                (this.m_wsWebSocketToServer = new WebSocket(n)),
+                (this.m_wsWebSocketToServer = new WebSocket(r)),
                 this.m_wsWebSocketToServer.addEventListener("open", (t) => {
                   this.OnWebSocketOpen(t), e();
                 }),
@@ -714,6 +485,10 @@ var CLSTAMP = "10552726";
                 this.m_wsWebSocketToServer.addEventListener(
                   "close",
                   this.OnWebSocketClose,
+                ),
+                this.m_wsWebSocketToServer.addEventListener(
+                  "error",
+                  this.OnWebSocketError,
                 );
             });
           }
@@ -726,7 +501,7 @@ var CLSTAMP = "10552726";
             );
           }
           Init(e, t) {
-            return (0, r.sH)(this, void 0, void 0, function* () {
+            return (0, n.sH)(this, void 0, void 0, function* () {
               return (
                 (this.m_sMailboxName = m.EnsureUniqueName(e)),
                 (this.m_sWebSecret = t),
@@ -750,9 +525,20 @@ var CLSTAMP = "10552726";
             this.m_oConnectWaits = [];
           }
           OnWebSocketClose(e) {
-            console.log("Lost connection to host..."),
-              (this.connected = !1),
-              this.OpenWebSocketToHost();
+            return (0, n.sH)(this, void 0, void 0, function* () {
+              this.Log.Warning("Lost connection to host..."),
+                (this.connected = !1),
+                yield (0, i.IP)(1e3),
+                this.OpenWebSocketToHost();
+            });
+          }
+          OnWebSocketError(e) {
+            return (0, n.sH)(this, void 0, void 0, function* () {
+              this.Log.Error("Mailbox error:", e),
+                (this.connected = !1),
+                yield (0, i.IP)(1e3),
+                this.OpenWebSocketToHost();
+            });
           }
           WebSocketSend(e) {
             return (
@@ -763,25 +549,25 @@ var CLSTAMP = "10552726";
           }
           OnWebSocketMessage(e) {
             let t = JSON.parse(e.data),
-              n = !1;
+              r = !1;
             if (
               (this.m_oHandlers.hasOwnProperty(t.type) &&
-                (this.m_oHandlers[t.type](t), (n = !0)),
+                (this.m_oHandlers[t.type](t), (r = !0)),
               this.m_oWaits.hasOwnProperty(t.type))
             ) {
               let e = !1;
-              for (let n of this.m_oWaits[t.type])
-                n.nMessageId == t.message_id && (n.callback(t), (e = !0));
+              for (let r of this.m_oWaits[t.type])
+                r.nMessageId == t.message_id && (r.callback(t), (e = !0));
               e
                 ? (this.m_oWaits[t.type] = this.m_oWaits[t.type].filter(
                     (e) => e.nMessageId == t.message_id,
                   ))
-                : console.log(
+                : this.Log.Error(
                     `Received a ${t.type} message, but didn't have a matching message_id. Did the other end forget to mirror message_id?`,
                   ),
-                (n = !0);
+                (r = !0);
             }
-            n || console.log("Received unhandled message: ", t.type, t);
+            r || this.Log.Error("Received unhandled message: ", t.type, t);
           }
           RegisterHandler(e, t) {
             this.m_oHandlers[e] = t;
@@ -792,9 +578,9 @@ var CLSTAMP = "10552726";
             );
           }
           WaitForMessage(e, t) {
-            return new Promise((n, r) => {
+            return new Promise((r, n) => {
               this.m_oWaits[e] || (this.m_oWaits[e] = []),
-                this.m_oWaits[e].push({ callback: n, nMessageId: t });
+                this.m_oWaits[e].push({ callback: r, nMessageId: t });
             });
           }
           WaitForConnect() {
@@ -803,7 +589,7 @@ var CLSTAMP = "10552726";
             });
           }
           WaitForMailbox(e) {
-            return (0, r.sH)(this, void 0, void 0, function* () {
+            return (0, n.sH)(this, void 0, void 0, function* () {
               let t = {
                 type: "request_mailbox_registration_notification",
                 mailbox_name: e,
@@ -815,106 +601,46 @@ var CLSTAMP = "10552726";
               );
             });
           }
-          SendMessageAndWaitForResponse(e, t, n) {
-            let r = Object.assign({}, t);
+          SendMessageAndWaitForResponse(e, t, r) {
+            let n = Object.assign({}, t);
             return (
-              null == r.returnAddress &&
-                (r.returnAddress = this.m_sMailboxName),
-              (r.message_id = this.m_nNextMessageNumber++),
-              this.SendMessage(e, r),
-              this.WaitForMessage(n, r.message_id)
+              null == n.returnAddress &&
+                (n.returnAddress = this.m_sMailboxName),
+              (n.message_id = this.m_nNextMessageNumber++),
+              this.SendMessage(e, n),
+              this.WaitForMessage(r, n.message_id)
             );
           }
           SendResponse(e, t) {
             if (!e.returnAddress)
               throw new Error("Missing return address on message");
-            let n = Object.assign(Object.assign({}, t), {
+            let r = Object.assign(Object.assign({}, t), {
               message_id: e.message_id,
             });
-            (n.message_id = e.message_id), this.SendMessage(e.returnAddress, n);
+            (r.message_id = e.message_id), this.SendMessage(e.returnAddress, r);
           }
         }
         (m.s_nNextMailboxNumber = 1),
-          (0, r.Cg)([o.observable], m.prototype, "connected", void 0),
-          (0, r.Cg)([s.o], m.prototype, "OpenWebSocketToHost", null),
-          (0, r.Cg)([s.o], m.prototype, "OnWebSocketOpen", null),
-          (0, r.Cg)([s.o], m.prototype, "OnWebSocketClose", null),
-          (0, r.Cg)([s.o], m.prototype, "WebSocketSend", null),
-          (0, r.Cg)([s.o], m.prototype, "OnWebSocketMessage", null);
+          (0, n.Cg)([o.observable], m.prototype, "connected", void 0),
+          (0, n.Cg)([s.o], m.prototype, "OpenWebSocketToHost", null),
+          (0, n.Cg)([s.o], m.prototype, "OnWebSocketOpen", null),
+          (0, n.Cg)([s.o], m.prototype, "OnWebSocketClose", null),
+          (0, n.Cg)([s.o], m.prototype, "OnWebSocketError", null),
+          (0, n.Cg)([s.o], m.prototype, "WebSocketSend", null),
+          (0, n.Cg)([s.o], m.prototype, "OnWebSocketMessage", null);
       },
-      3714: (e, t, n) => {
-        n.d(t, { A0: () => r, we: () => o });
-        n(6540), n(2505);
-        class r {
-          constructor() {
-            (this.m_mapTokens = new Map()),
-              (this.m_mapFallbackTokens = new Map());
-          }
-          InitFromObjects(e, t, n, r) {
-            this.m_mapTokens.clear();
-            let o = [t, e, r, n];
-            for (let e in o) {
-              let t = o[e];
-              for (let e in t) {
-                let n = t[e];
-                for (let e in n) {
-                  let t = e.toLowerCase();
-                  this.m_mapTokens.has(t) || this.m_mapTokens.set(t, n[e]);
-                }
-              }
-            }
-          }
-          LocalizeString(e) {
-            if (!e || 0 == e.length || "#" != e.charAt(0)) return "";
-            let t = this.m_mapTokens.get(e.substring(1).toLowerCase());
-            return void 0 === t ? "" : t;
-          }
-          LocalizeStringFromFallback(e) {
-            if (!e || 0 == e.length || "#" != e.charAt(0)) return "";
-            let t = this.m_mapFallbackTokens.get(e.substring(1).toLowerCase());
-            return void 0 === t ? "" : t;
-          }
-          static GetLocale() {
-            const e = navigator.languages[0];
-            try {
-              const t =
-                null === VRHTML || void 0 === VRHTML
-                  ? void 0
-                  : VRHTML.GetSystemLocale();
-              if (!t) return e;
-              r.s_Date.toLocaleTimeString(t);
-              return t;
-            } catch (t) {
-              return e;
-            }
-          }
-        }
-        function o(e, ...t) {
-          let n = s.LocalizeString(e);
-          return n
-            ? (t.length > 0 &&
-                (n = n.replace(/%(\d+)\$s/g, function (e, n) {
-                  return void 0 !== t[n - 1] ? String(t[n - 1]) : e;
-                })),
-              n)
-            : e;
-        }
-        r.s_Date = new Date();
-        const s = new r();
-        window.LocalizationManager = s;
-      },
-      9513: (e, t, n) => {
-        var r = n(1635),
-          o = n(6540),
-          s = n(5338),
-          a = n(3236),
-          i = n(6090),
-          u = n(7813),
-          c = n(1370),
-          l = n(1333);
+      9513: (e, t, r) => {
+        var n = r(1635),
+          o = r(6540),
+          s = r(5338),
+          i = r(3236),
+          a = r(6090),
+          u = r(7813),
+          c = r(1370),
+          l = r(1333);
         class d {
-          constructor(e, t, n) {
-            (this.keyCode = e), (this.shift = t), (this.control = n);
+          constructor(e, t, r) {
+            (this.keyCode = e), (this.shift = t), (this.control = r);
           }
           equals(e) {
             return (
@@ -1076,10 +802,10 @@ var CLSTAMP = "10552726";
           static fromSerializedString(e) {
             let t = e.split(",");
             if (3 !== t.length) return null;
-            let n = Number.parseInt(t[0]),
-              r = Number.parseInt(t[1]),
+            let r = Number.parseInt(t[0]),
+              n = Number.parseInt(t[1]),
               o = Number.parseInt(t[2]);
-            return new d(n, r > 0, o > 0);
+            return new d(r, n > 0, o > 0);
           }
           toSerializedString() {
             return [
@@ -1119,7 +845,7 @@ var CLSTAMP = "10552726";
               (0, u.makeObservable)(this);
           }
         }
-        (0, r.Cg)([u.observable], m.prototype, "shortcut", void 0);
+        (0, n.Cg)([u.observable], m.prototype, "shortcut", void 0);
         class h {
           dumpShortcuts() {
             let e = ["Defaults:"];
@@ -1146,7 +872,7 @@ var CLSTAMP = "10552726";
               (window.dumpShortcuts = this.dumpShortcuts);
           }
           initializeKeyboardShortcuts() {
-            return (0, r.sH)(this, void 0, void 0, function* () {
+            return (0, n.sH)(this, void 0, void 0, function* () {
               this.resetCommandShortcuts(!1), yield this.loadCommandShortcuts();
             });
           }
@@ -1164,7 +890,7 @@ var CLSTAMP = "10552726";
             return t.length > 0 ? t[0] : null;
           }
           loadCommandShortcuts() {
-            return (0, r.sH)(this, void 0, void 0, function* () {
+            return (0, n.sH)(this, void 0, void 0, function* () {
               let e;
               try {
                 e = yield l.HR.GetSettingsValue(h.k_sPropDebugCommandShortcuts);
@@ -1175,9 +901,9 @@ var CLSTAMP = "10552726";
                 e.split(";").forEach((e) => {
                   let t = e.split(":");
                   if (2 !== t.length) return;
-                  let n = this.getCommandForName(t[0]),
-                    r = d.fromSerializedString(t[1]);
-                  n && r && this.bindCommandToShortcut(n, r, !1);
+                  let r = this.getCommandForName(t[0]),
+                    n = d.fromSerializedString(t[1]);
+                  r && n && this.bindCommandToShortcut(r, n, !1);
                 });
             });
           }
@@ -1198,17 +924,17 @@ var CLSTAMP = "10552726";
               e,
             );
           }
-          bindCommandToShortcut(e, t, n) {
-            let r = this.getCommandForShortcut(t);
-            r && (r.shortcut = null),
+          bindCommandToShortcut(e, t, r) {
+            let n = this.getCommandForShortcut(t);
+            n && (n.shortcut = null),
               (e.shortcut = t),
-              n && this.saveCommandShortcuts();
+              r && this.saveCommandShortcuts();
           }
           resetCommandShortcut(e, t) {
-            let n = null;
+            let r = null;
             e.sCommand in h.k_DefaultShortcuts &&
-              (n = h.k_DefaultShortcuts[e.sCommand]),
-              this.bindCommandToShortcut(e, n, t);
+              (r = h.k_DefaultShortcuts[e.sCommand]),
+              this.bindCommandToShortcut(e, r, t);
           }
         }
         (h.k_sPropDebugCommandShortcuts =
@@ -1248,9 +974,9 @@ var CLSTAMP = "10552726";
             vsync_to_photons_decrement: new d(219, !1, !1),
             vsync_to_photons_increment: new d(221, !1, !1),
           }),
-          (0, r.Cg)([a.o], h.prototype, "dumpShortcuts", null),
-          (0, r.Cg)([a.o], h.prototype, "resetCommandShortcut", null);
-        let f = class extends o.Component {
+          (0, n.Cg)([i.o], h.prototype, "dumpShortcuts", null),
+          (0, n.Cg)([i.o], h.prototype, "resetCommandShortcut", null);
+        let p = class extends o.Component {
           constructor(e) {
             super(e),
               (this.previousOnKeyDown = null),
@@ -1263,22 +989,22 @@ var CLSTAMP = "10552726";
               }),
               (this.refSearchInput = o.createRef()),
               l.HR.Init(!1),
-              (this.mailbox = new i._n()),
+              (this.mailbox = new a._n()),
               this.mailbox.Init("debugcommands").then(() =>
-                (0, r.sH)(this, void 0, void 0, function* () {
+                (0, n.sH)(this, void 0, void 0, function* () {
                   console.log("[debugcommands] Requesting commands..");
                   let e = { type: "get_debug_commands" },
                     t = yield this.mailbox.SendMessageAndWaitForResponse(
-                      i.Wq,
+                      a.Wq,
                       e,
                       "get_debug_commands_response",
                     ),
-                    n = yield this.mailbox.SendMessageAndWaitForResponse(
-                      i.pg,
+                    r = yield this.mailbox.SendMessageAndWaitForResponse(
+                      a.pg,
                       e,
                       "get_debug_commands_response",
                     ),
-                    r = t.commands.concat(n.commands);
+                    n = t.commands.concat(r.commands);
                   try {
                     if (
                       yield l.HR.GetSettingsValue("/settings/steamvr/usePrism")
@@ -1288,10 +1014,10 @@ var CLSTAMP = "10552726";
                         e,
                         "get_debug_commands_response",
                       );
-                      r = r.concat(t.commands);
+                      n = n.concat(t.commands);
                     }
                   } catch (e) {}
-                  let o = new h(r.map((e) => new m(e.command, e.mailbox)));
+                  let o = new h(n.map((e) => new m(e.command, e.mailbox)));
                   yield o.initializeKeyboardShortcuts(),
                     this.setState({ commands: o });
                 }),
@@ -1435,13 +1161,13 @@ var CLSTAMP = "10552726";
                     )
                     .map((e) => {
                       let t = ["ButtonControl", "DebugCommandButton"],
-                        n = this.state.editingCommand === e;
-                      n && t.push("Editing");
-                      let r = !!e.shortcut;
-                      t.push(r ? "Bound" : "Unbound");
+                        r = this.state.editingCommand === e;
+                      r && t.push("Editing");
+                      let n = !!e.shortcut;
+                      t.push(n ? "Bound" : "Unbound");
                       let s = o.createElement("span", null, "unbound");
                       return (
-                        n
+                        r
                           ? (s = o.createElement(
                               "span",
                               null,
@@ -1494,37 +1220,37 @@ var CLSTAMP = "10552726";
             );
           }
         };
-        (0, r.Cg)([a.o], f.prototype, "onWindowFocus", null),
-          (0, r.Cg)([a.o], f.prototype, "onWindowBlur", null),
-          (0, r.Cg)([a.o], f.prototype, "endEdit", null),
-          (0, r.Cg)([a.o], f.prototype, "onKeyDown", null),
-          (0, r.Cg)([u.computed], f.prototype, "isEditing", null),
-          (0, r.Cg)([a.o], f.prototype, "onSearchChanged", null),
-          (0, r.Cg)([a.o], f.prototype, "clearSearch", null),
-          (0, r.Cg)([a.o], f.prototype, "onResetShortcuts", null),
-          (f = (0, r.Cg)([c.PA], f)),
-          s.H(document.getElementById("root")).render(o.createElement(f, null)),
+        (0, n.Cg)([i.o], p.prototype, "onWindowFocus", null),
+          (0, n.Cg)([i.o], p.prototype, "onWindowBlur", null),
+          (0, n.Cg)([i.o], p.prototype, "endEdit", null),
+          (0, n.Cg)([i.o], p.prototype, "onKeyDown", null),
+          (0, n.Cg)([u.computed], p.prototype, "isEditing", null),
+          (0, n.Cg)([i.o], p.prototype, "onSearchChanged", null),
+          (0, n.Cg)([i.o], p.prototype, "clearSearch", null),
+          (0, n.Cg)([i.o], p.prototype, "onResetShortcuts", null),
+          (p = (0, n.Cg)([c.PA], p)),
+          s.H(document.getElementById("root")).render(o.createElement(p, null)),
           (window.document.title = "Debug Commands");
       },
     },
-    n = {};
-  function r(e) {
-    var o = n[e];
+    r = {};
+  function n(e) {
+    var o = r[e];
     if (void 0 !== o) return o.exports;
-    var s = (n[e] = { exports: {} });
-    return t[e].call(s.exports, s, s.exports, r), s.exports;
+    var s = (r[e] = { exports: {} });
+    return t[e](s, s.exports, n), s.exports;
   }
-  (r.m = t),
+  (n.m = t),
     (e = []),
-    (r.O = (t, n, o, s) => {
-      if (!n) {
-        var a = 1 / 0;
+    (n.O = (t, r, o, s) => {
+      if (!r) {
+        var i = 1 / 0;
         for (l = 0; l < e.length; l++) {
-          for (var [n, o, s] = e[l], i = !0, u = 0; u < n.length; u++)
-            (!1 & s || a >= s) && Object.keys(r.O).every((e) => r.O[e](n[u]))
-              ? n.splice(u--, 1)
-              : ((i = !1), s < a && (a = s));
-          if (i) {
+          for (var [r, o, s] = e[l], a = !0, u = 0; u < r.length; u++)
+            (!1 & s || i >= s) && Object.keys(n.O).every((e) => n.O[e](r[u]))
+              ? r.splice(u--, 1)
+              : ((a = !1), s < i && (i = s));
+          if (a) {
             e.splice(l--, 1);
             var c = o();
             void 0 !== c && (t = c);
@@ -1534,19 +1260,19 @@ var CLSTAMP = "10552726";
       }
       s = s || 0;
       for (var l = e.length; l > 0 && e[l - 1][2] > s; l--) e[l] = e[l - 1];
-      e[l] = [n, o, s];
+      e[l] = [r, o, s];
     }),
-    (r.n = (e) => {
+    (n.n = (e) => {
       var t = e && e.__esModule ? () => e.default : () => e;
-      return r.d(t, { a: t }), t;
+      return n.d(t, { a: t }), t;
     }),
-    (r.d = (e, t) => {
-      for (var n in t)
-        r.o(t, n) &&
-          !r.o(e, n) &&
-          Object.defineProperty(e, n, { enumerable: !0, get: t[n] });
+    (n.d = (e, t) => {
+      for (var r in t)
+        n.o(t, r) &&
+          !n.o(e, r) &&
+          Object.defineProperty(e, r, { enumerable: !0, get: t[r] });
     }),
-    (r.g = (function () {
+    (n.g = (function () {
       if ("object" == typeof globalThis) return globalThis;
       try {
         return this || new Function("return this")();
@@ -1554,32 +1280,26 @@ var CLSTAMP = "10552726";
         if ("object" == typeof window) return window;
       }
     })()),
-    (r.o = (e, t) => Object.prototype.hasOwnProperty.call(e, t)),
-    (r.r = (e) => {
-      "undefined" != typeof Symbol &&
-        Symbol.toStringTag &&
-        Object.defineProperty(e, Symbol.toStringTag, { value: "Module" }),
-        Object.defineProperty(e, "__esModule", { value: !0 });
-    }),
+    (n.o = (e, t) => Object.prototype.hasOwnProperty.call(e, t)),
     (() => {
-      var e = { 866: 0, 537: 0 };
-      r.O.j = (t) => 0 === e[t];
-      var t = (t, n) => {
+      var e = { 866: 0 };
+      n.O.j = (t) => 0 === e[t];
+      var t = (t, r) => {
           var o,
             s,
-            [a, i, u] = n,
+            [i, a, u] = r,
             c = 0;
-          if (a.some((t) => 0 !== e[t])) {
-            for (o in i) r.o(i, o) && (r.m[o] = i[o]);
-            if (u) var l = u(r);
+          if (i.some((t) => 0 !== e[t])) {
+            for (o in a) n.o(a, o) && (n.m[o] = a[o]);
+            if (u) var l = u(n);
           }
-          for (t && t(n); c < a.length; c++)
-            (s = a[c]), r.o(e, s) && e[s] && e[s][0](), (e[s] = 0);
-          return r.O(l);
+          for (t && t(r); c < i.length; c++)
+            (s = i[c]), n.o(e, s) && e[s] && e[s][0](), (e[s] = 0);
+          return n.O(l);
         },
-        n = (self.webpackChunkvrwebui = self.webpackChunkvrwebui || []);
-      n.forEach(t.bind(null, 0)), (n.push = t.bind(null, n.push.bind(n)));
+        r = (self.webpackChunkvrwebui = self.webpackChunkvrwebui || []);
+      r.forEach(t.bind(null, 0)), (r.push = t.bind(null, r.push.bind(r)));
     })();
-  var o = r.O(void 0, [967, 991, 305, 452, 170, 797, 906, 57], () => r(9513));
-  o = r.O(o);
+  var o = n.O(void 0, [967, 978, 655, 305, 797, 148, 198, 384], () => n(9513));
+  o = n.O(o);
 })(); //# sourceMappingURL=file:///home/buildbot/buildslave/steamvr_rel_npm_vrwebui/build/public/runtime/resources/webinterface/dashboard/sourcemaps/debugcommands.js.map

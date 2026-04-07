@@ -1,147 +1,280 @@
-var CLSTAMP = "10552726";
+var CLSTAMP = "10579910";
 (self.webpackChunkvrwebui = self.webpackChunkvrwebui || []).push([
-  [267],
+  [267, 260, 47],
   {
-    6921: (e, t, r) => {
-      r.r(t),
-        r.d(t, {
-          Observer: () => l.n,
-          _observerFinalizationRegistry: () => c.Y,
-          clearTimers: () => y,
-          enableStaticRendering: () => i.e,
-          isObserverBatched: () => a.m_,
-          isUsingStaticRendering: () => i.P,
-          observer: () => s.P,
-          observerBatching: () => a.tl,
-          useAsObservableSource: () => d.W,
-          useLocalObservable: () => f.i,
-          useLocalStore: () => p.W,
-          useObserver: () => h,
-          useStaticRendering: () => b,
-        });
-      r(724);
-      var n,
-        o = r(9889),
-        a = r(8909),
-        u = r(4452),
-        i = r(3815),
-        c = r(7380),
-        s = r(6035),
-        l = r(9712),
-        f = r(5562),
-        p = r(1154),
-        d = r(3542);
-      (0, a.tl)(o.r);
-      var y =
-        null !== (n = c.Y.finalizeAllImmediately) && void 0 !== n
-          ? n
-          : function () {};
-      function h(e, t) {
-        return void 0 === t && (t = "observed"), (0, u.q)(e, t);
-      }
-      function b(e) {
-        (0, i.e)(e);
-      }
+    2593: (e, t, r) => {
+      e.exports = r(6874);
     },
-    6035: (e, t, r) => {
-      r.d(t, { P: () => p });
+    6874: (e, t, r) => {
       var n,
-        o,
-        a = r(6540),
-        u = r(3815),
-        i = r(4452),
-        c = "function" == typeof Symbol && Symbol.for,
-        s =
-          null !==
-            (o =
-              null ===
-                (n = Object.getOwnPropertyDescriptor(function () {}, "name")) ||
-              void 0 === n
+        o = r(7813),
+        u = r(6540),
+        a = (n = u) && "object" == typeof n && "default" in n ? n.default : n,
+        i = r(961),
+        s = r(9888);
+      if (!u.useState)
+        throw new Error("mobx-react-lite requires React with Hooks support");
+      if (!o.makeObservable)
+        throw new Error(
+          "mobx-react-lite@3 requires mobx at least version 6 to be available",
+        );
+      function c(e) {
+        e();
+      }
+      function l(e) {
+        e || (e = c), o.configure({ reactionScheduler: e });
+      }
+      function f(e) {
+        return o.getDependencyTree(e);
+      }
+      var p = !1;
+      function d(e) {
+        p = e;
+      }
+      function y() {
+        return p;
+      }
+      var h,
+        v,
+        b = new (
+          "undefined" != typeof FinalizationRegistry
+            ? FinalizationRegistry
+            : (function () {
+                function e(e) {
+                  var t = this;
+                  (this.finalize = void 0),
+                    (this.registrations = new Map()),
+                    (this.sweepTimeout = void 0),
+                    (this.sweep = function (e) {
+                      void 0 === e && (e = 1e4),
+                        clearTimeout(t.sweepTimeout),
+                        (t.sweepTimeout = void 0);
+                      var r = Date.now();
+                      t.registrations.forEach(function (n, o) {
+                        r - n.registeredAt >= e &&
+                          (t.finalize(n.value), t.registrations.delete(o));
+                      }),
+                        t.registrations.size > 0 && t.scheduleSweep();
+                    }),
+                    (this.finalizeAllImmediately = function () {
+                      t.sweep(0);
+                    }),
+                    (this.finalize = e);
+                }
+                var t = e.prototype;
+                return (
+                  (t.register = function (e, t, r) {
+                    this.registrations.set(r, {
+                      value: t,
+                      registeredAt: Date.now(),
+                    }),
+                      this.scheduleSweep();
+                  }),
+                  (t.unregister = function (e) {
+                    this.registrations.delete(e);
+                  }),
+                  (t.scheduleSweep = function () {
+                    void 0 === this.sweepTimeout &&
+                      (this.sweepTimeout = setTimeout(this.sweep, 1e4));
+                  }),
+                  e
+                );
+              })()
+        )(function (e) {
+          var t;
+          null == (t = e.reaction) || t.dispose(), (e.reaction = null);
+        });
+      function m(e) {
+        e.reaction = new o.Reaction("observer" + e.name, function () {
+          (e.stateVersion = Symbol()),
+            null == e.onStoreChange || e.onStoreChange();
+        });
+      }
+      function g(e, t) {
+        if ((void 0 === t && (t = "observed"), y())) return e();
+        var r = a.useRef(null);
+        if (!r.current) {
+          var n = {
+            reaction: null,
+            onStoreChange: null,
+            stateVersion: Symbol(),
+            name: t,
+            subscribe: function (e) {
+              return (
+                b.unregister(n),
+                (n.onStoreChange = e),
+                n.reaction || (m(n), (n.stateVersion = Symbol())),
+                function () {
+                  var e;
+                  (n.onStoreChange = null),
+                    null == (e = n.reaction) || e.dispose(),
+                    (n.reaction = null);
+                }
+              );
+            },
+            getSnapshot: function () {
+              return n.stateVersion;
+            },
+          };
+          r.current = n;
+        }
+        var o,
+          u,
+          i = r.current;
+        if (
+          (i.reaction || (m(i), b.register(r, i, i)),
+          a.useDebugValue(i.reaction, f),
+          s.useSyncExternalStore(i.subscribe, i.getSnapshot, i.getSnapshot),
+          i.reaction.track(function () {
+            try {
+              o = e();
+            } catch (e) {
+              u = e;
+            }
+          }),
+          u)
+        )
+          throw u;
+        return o;
+      }
+      var S,
+        w = "function" == typeof Symbol && Symbol.for,
+        _ =
+          null !=
+            (h =
+              null ==
+              (v = Object.getOwnPropertyDescriptor(function () {}, "name"))
                 ? void 0
-                : n.configurable) &&
-          void 0 !== o &&
-          o,
-        l = c
+                : v.configurable) && h,
+        k = w
           ? Symbol.for("react.forward_ref")
-          : "function" == typeof a.forwardRef &&
-            (0, a.forwardRef)(function (e) {
+          : "function" == typeof u.forwardRef &&
+            u.forwardRef(function (e) {
               return null;
             }).$$typeof,
-        f = c
+        R = w
           ? Symbol.for("react.memo")
-          : "function" == typeof a.memo &&
-            (0, a.memo)(function (e) {
+          : "function" == typeof u.memo &&
+            u.memo(function (e) {
               return null;
-            }).$$typeof;
-      function p(e, t) {
-        var r;
-        if (f && e.$$typeof === f)
-          throw new Error(
-            "[mobx-react-lite] You are trying to use `observer` on a function component wrapped in either another `observer` or `React.memo`. The observer already applies 'React.memo' for you.",
+            }).$$typeof,
+        C = {
+          $$typeof: !0,
+          render: !0,
+          compare: !0,
+          type: !0,
+          displayName: !0,
+        };
+      function E(e) {
+        var t = e.children,
+          r = e.render;
+        t &&
+          r &&
+          console.error(
+            "MobX Observer: Do not use children and render in the same time in `Observer`",
           );
-        if ((0, u.P)()) return e;
-        var n =
-            null !== (r = null == t ? void 0 : t.forwardRef) &&
-            void 0 !== r &&
-            r,
-          o = e,
-          c = e.displayName || e.name;
-        if (
-          l &&
-          e.$$typeof === l &&
-          ((n = !0), "function" != typeof (o = e.render))
-        )
-          throw new Error(
-            "[mobx-react-lite] `render` property of ForwardRef was not a function",
-          );
-        var p,
-          y,
-          h = function (e, t) {
-            return (0, i.q)(function () {
-              return o(e, t);
-            }, c);
-          };
+        var n = t || r;
+        return "function" != typeof n ? null : g(n);
+      }
+      function x(e) {
+        var t = u.useState(function () {
+          return o.observable(e, {}, { deep: !1 });
+        })[0];
         return (
-          (h.displayName = e.displayName),
-          s &&
-            Object.defineProperty(h, "name", {
-              value: e.name,
-              writable: !0,
-              configurable: !0,
-            }),
-          e.contextTypes && (h.contextTypes = e.contextTypes),
-          n && (h = (0, a.forwardRef)(h)),
-          (h = (0, a.memo)(h)),
-          (p = e),
-          (y = h),
-          Object.keys(p).forEach(function (e) {
-            d[e] ||
-              Object.defineProperty(
-                y,
-                e,
-                Object.getOwnPropertyDescriptor(p, e),
-              );
+          o.runInAction(function () {
+            Object.assign(t, e);
           }),
-          h
+          t
         );
       }
-      var d = {
-        $$typeof: !0,
-        render: !0,
-        compare: !0,
-        type: !0,
-        displayName: !0,
+      (E.displayName = "Observer"), l(i.unstable_batchedUpdates);
+      var O = null != (S = b.finalizeAllImmediately) ? S : function () {};
+      t.useObserver = function (e, t) {
+        return void 0 === t && (t = "observed"), g(e, t);
       };
+    },
+    5266: (e, t, r) => {
+      r.r(t),
+        r.d(t, {
+          Observer: () => c,
+          _observerFinalizationRegistry: () => i.Y,
+          clearTimers: () => v,
+          enableStaticRendering: () => a.e,
+          isObserverBatched: () => o.m_,
+          isUsingStaticRendering: () => a.P,
+          observer: () => s.P,
+          observerBatching: () => o.tl,
+          useAsObservableSource: () => y,
+          useLocalObservable: () => d,
+          useLocalStore: () => h,
+          useObserver: () => b,
+          useStaticRendering: () => m,
+        });
+      r(724);
+      var n = r(9889),
+        o = r(8909),
+        u = r(4452),
+        a = r(3815),
+        i = r(3438),
+        s = r(6035);
+      function c(e) {
+        var t = e.children,
+          r = e.render;
+        t &&
+          r &&
+          console.error(
+            "MobX Observer: Do not use children and render in the same time in `Observer`",
+          );
+        var n = t || r;
+        return "function" != typeof n ? null : (0, u.q)(n);
+      }
+      c.displayName = "Observer";
+      var l,
+        f = r(7813),
+        p = r(6540);
+      function d(e, t) {
+        return (0, p.useState)(function () {
+          return (0, f.observable)(e(), t, { autoBind: !0 });
+        })[0];
+      }
+      function y(e) {
+        var t = (0, p.useState)(function () {
+          return (0, f.observable)(e, {}, { deep: !1 });
+        })[0];
+        return (
+          (0, f.runInAction)(function () {
+            Object.assign(t, e);
+          }),
+          t
+        );
+      }
+      function h(e, t) {
+        var r = t && y(t);
+        return (0, p.useState)(function () {
+          return (0, f.observable)(e(r), void 0, { autoBind: !0 });
+        })[0];
+      }
+      (0, o.tl)(n.r);
+      var v =
+        null !== (l = i.Y.finalizeAllImmediately) && void 0 !== l
+          ? l
+          : function () {};
+      function b(e, t) {
+        return void 0 === t && (t = "observed"), (0, u.q)(e, t);
+      }
+      function m(e) {
+        (0, a.e)(e);
+      }
     },
     4452: (e, t, r) => {
       r.d(t, { q: () => l });
       var n = r(7813),
         o = r(6540),
-        a = r(6356),
-        u = r(3815),
-        i = r(7380),
-        c = r(9888);
-      function s(e) {
+        u = r(6356),
+        a = r(3815),
+        i = r(3438),
+        s = r(9888);
+      function c(e) {
         e.reaction = new n.Reaction("observer".concat(e.name), function () {
           var t;
           (e.stateVersion = Symbol()),
@@ -149,7 +282,7 @@ var CLSTAMP = "10552726";
         });
       }
       function l(e, t) {
-        if ((void 0 === t && (t = "observed"), (0, u.P)())) return e();
+        if ((void 0 === t && (t = "observed"), (0, a.P)())) return e();
         var r = o.useRef(null);
         if (!r.current) {
           var n = {
@@ -161,7 +294,7 @@ var CLSTAMP = "10552726";
               return (
                 i.Y.unregister(n),
                 (n.onStoreChange = e),
-                n.reaction || (s(n), (n.stateVersion = Symbol())),
+                n.reaction || (c(n), (n.stateVersion = Symbol())),
                 function () {
                   var e;
                   (n.onStoreChange = null),
@@ -180,9 +313,9 @@ var CLSTAMP = "10552726";
           f,
           p = r.current;
         if (
-          (p.reaction || (s(p), i.Y.register(r, p, p)),
-          o.useDebugValue(p.reaction, a.E),
-          (0, c.useSyncExternalStore)(
+          (p.reaction || (c(p), i.Y.register(r, p, p)),
+          o.useDebugValue(p.reaction, u.E),
+          (0, s.useSyncExternalStore)(
             p.subscribe,
             p.getSnapshot,
             p.getSnapshot,
@@ -200,8 +333,16 @@ var CLSTAMP = "10552726";
         return l;
       }
     },
+    3438: (e, t, r) => {
+      r.d(t, { Y: () => n });
+      var n = new (r(2517).Xr)(function (e) {
+        var t;
+        null === (t = e.reaction) || void 0 === t || t.dispose(),
+          (e.reaction = null);
+      });
+    },
     5237: (e, t, r) => {
-      r.d(t, { QF: () => c });
+      r.d(t, { QF: () => s });
       var n = r(6540),
         o = function (e, t) {
           return (
@@ -217,26 +358,26 @@ var CLSTAMP = "10552726";
             o(e, t)
           );
         };
-      function a(e) {
+      function u(e) {
         var t = e.className,
           r = e.counterClockwise,
           o = e.dashRatio,
-          a = e.pathRadius,
-          c = e.strokeWidth,
-          s = e.style;
+          u = e.pathRadius,
+          s = e.strokeWidth,
+          c = e.style;
         return (0, n.createElement)("path", {
           className: t,
           style: Object.assign(
             {},
-            s,
-            i({ pathRadius: a, dashRatio: o, counterClockwise: r }),
+            c,
+            i({ pathRadius: u, dashRatio: o, counterClockwise: r }),
           ),
-          d: u({ pathRadius: a, counterClockwise: r }),
-          strokeWidth: c,
+          d: a({ pathRadius: u, counterClockwise: r }),
+          strokeWidth: s,
           fillOpacity: 0,
         });
       }
-      function u(e) {
+      function a(e) {
         var t = e.pathRadius,
           r = e.counterClockwise ? 1 : 0;
         return (
@@ -266,13 +407,13 @@ var CLSTAMP = "10552726";
           r = e.dashRatio,
           n = e.pathRadius,
           o = 2 * Math.PI * n,
-          a = (1 - r) * o;
+          u = (1 - r) * o;
         return {
           strokeDasharray: o + "px " + o + "px",
-          strokeDashoffset: (t ? -a : a) + "px",
+          strokeDashoffset: (t ? -u : u) + "px",
         };
       }
-      var c = (function (e) {
+      var s = (function (e) {
         function t() {
           return (null !== e && e.apply(this, arguments)) || this;
         }
@@ -307,10 +448,10 @@ var CLSTAMP = "10552726";
               t = e.circleRatio,
               r = e.className,
               o = e.classes,
-              u = e.counterClockwise,
+              a = e.counterClockwise,
               i = e.styles,
-              c = e.strokeWidth,
-              s = e.text,
+              s = e.strokeWidth,
+              c = e.text,
               l = this.getPathRadius(),
               f = this.getPathRatio();
             return (0, n.createElement)(
@@ -330,27 +471,27 @@ var CLSTAMP = "10552726";
                     r: 50,
                   })
                 : null,
-              (0, n.createElement)(a, {
+              (0, n.createElement)(u, {
                 className: o.trail,
-                counterClockwise: u,
+                counterClockwise: a,
                 dashRatio: t,
                 pathRadius: l,
-                strokeWidth: c,
+                strokeWidth: s,
                 style: i.trail,
               }),
-              (0, n.createElement)(a, {
+              (0, n.createElement)(u, {
                 className: o.path,
-                counterClockwise: u,
+                counterClockwise: a,
                 dashRatio: f * t,
                 pathRadius: l,
-                strokeWidth: c,
+                strokeWidth: s,
                 style: i.path,
               }),
-              s
+              c
                 ? (0, n.createElement)(
                     "text",
                     { className: o.text, style: i.text, x: 50, y: 50 },
-                    s,
+                    c,
                   )
                 : null,
             );
@@ -382,11 +523,11 @@ var CLSTAMP = "10552726";
       var r = Symbol.for("react.element"),
         n = Symbol.for("react.portal"),
         o = Symbol.for("react.fragment"),
-        a = Symbol.for("react.strict_mode"),
-        u = Symbol.for("react.profiler"),
+        u = Symbol.for("react.strict_mode"),
+        a = Symbol.for("react.profiler"),
         i = Symbol.for("react.provider"),
-        c = Symbol.for("react.context"),
-        s = Symbol.for("react.forward_ref"),
+        s = Symbol.for("react.context"),
+        c = Symbol.for("react.forward_ref"),
         l = Symbol.for("react.suspense"),
         f = Symbol.for("react.memo"),
         p = Symbol.for("react.lazy"),
@@ -400,70 +541,70 @@ var CLSTAMP = "10552726";
           enqueueSetState: function () {},
         },
         h = Object.assign,
-        b = {};
-      function m(e, t, r) {
+        v = {};
+      function b(e, t, r) {
         (this.props = e),
           (this.context = t),
-          (this.refs = b),
+          (this.refs = v),
           (this.updater = r || y);
       }
-      function v() {}
+      function m() {}
       function g(e, t, r) {
         (this.props = e),
           (this.context = t),
-          (this.refs = b),
+          (this.refs = v),
           (this.updater = r || y);
       }
-      (m.prototype.isReactComponent = {}),
-        (m.prototype.setState = function (e, t) {
+      (b.prototype.isReactComponent = {}),
+        (b.prototype.setState = function (e, t) {
           if ("object" != typeof e && "function" != typeof e && null != e)
             throw Error(
               "setState(...): takes an object of state variables to update or a function which returns an object of state variables.",
             );
           this.updater.enqueueSetState(this, e, t, "setState");
         }),
-        (m.prototype.forceUpdate = function (e) {
+        (b.prototype.forceUpdate = function (e) {
           this.updater.enqueueForceUpdate(this, e, "forceUpdate");
         }),
-        (v.prototype = m.prototype);
-      var _ = (g.prototype = new v());
-      (_.constructor = g), h(_, m.prototype), (_.isPureReactComponent = !0);
-      var k = Array.isArray,
-        w = Object.prototype.hasOwnProperty,
-        S = { current: null },
+        (m.prototype = b.prototype);
+      var S = (g.prototype = new m());
+      (S.constructor = g), h(S, b.prototype), (S.isPureReactComponent = !0);
+      var w = Array.isArray,
+        _ = Object.prototype.hasOwnProperty,
+        k = { current: null },
         R = { key: !0, ref: !0, __self: !0, __source: !0 };
       function C(e, t, n) {
         var o,
-          a = {},
-          u = null,
+          u = {},
+          a = null,
           i = null;
         if (null != t)
           for (o in (void 0 !== t.ref && (i = t.ref),
-          void 0 !== t.key && (u = "" + t.key),
+          void 0 !== t.key && (a = "" + t.key),
           t))
-            w.call(t, o) && !R.hasOwnProperty(o) && (a[o] = t[o]);
-        var c = arguments.length - 2;
-        if (1 === c) a.children = n;
-        else if (1 < c) {
-          for (var s = Array(c), l = 0; l < c; l++) s[l] = arguments[l + 2];
-          a.children = s;
+            _.call(t, o) && !R.hasOwnProperty(o) && (u[o] = t[o]);
+        var s = arguments.length - 2;
+        if (1 === s) u.children = n;
+        else if (1 < s) {
+          for (var c = Array(s), l = 0; l < s; l++) c[l] = arguments[l + 2];
+          u.children = c;
         }
         if (e && e.defaultProps)
-          for (o in (c = e.defaultProps)) void 0 === a[o] && (a[o] = c[o]);
+          for (o in (s = e.defaultProps)) void 0 === u[o] && (u[o] = s[o]);
         return {
           $$typeof: r,
           type: e,
-          key: u,
+          key: a,
           ref: i,
-          props: a,
-          _owner: S.current,
+          props: u,
+          _owner: k.current,
         };
       }
-      function P(e) {
+      function E(e) {
         return "object" == typeof e && null !== e && e.$$typeof === r;
       }
       var x = /\/+/g;
-      function E(e, t) {
+      function O(e, t) {
         return "object" == typeof e && null !== e && null != e.key
           ? (function (e) {
               var t = { "=": "=0", ":": "=2" };
@@ -476,37 +617,37 @@ var CLSTAMP = "10552726";
             })("" + e.key)
           : t.toString(36);
       }
-      function $(e, t, o, a, u) {
+      function P(e, t, o, u, a) {
         var i = typeof e;
         ("undefined" !== i && "boolean" !== i) || (e = null);
-        var c = !1;
-        if (null === e) c = !0;
+        var s = !1;
+        if (null === e) s = !0;
         else
           switch (i) {
             case "string":
             case "number":
-              c = !0;
+              s = !0;
               break;
             case "object":
               switch (e.$$typeof) {
                 case r:
                 case n:
-                  c = !0;
+                  s = !0;
               }
           }
-        if (c)
+        if (s)
           return (
-            (u = u((c = e))),
-            (e = "" === a ? "." + E(c, 0) : a),
-            k(u)
+            (a = a((s = e))),
+            (e = "" === u ? "." + O(s, 0) : u),
+            w(a)
               ? ((o = ""),
                 null != e && (o = e.replace(x, "$&/") + "/"),
-                $(u, t, o, "", function (e) {
+                P(a, t, o, "", function (e) {
                   return e;
                 }))
-              : null != u &&
-                (P(u) &&
-                  (u = (function (e, t) {
+              : null != a &&
+                (E(a) &&
+                  (a = (function (e, t) {
                     return {
                       $$typeof: r,
                       type: e.type,
@@ -516,20 +657,20 @@ var CLSTAMP = "10552726";
                       _owner: e._owner,
                     };
                   })(
-                    u,
+                    a,
                     o +
-                      (!u.key || (c && c.key === u.key)
+                      (!a.key || (s && s.key === a.key)
                         ? ""
-                        : ("" + u.key).replace(x, "$&/") + "/") +
+                        : ("" + a.key).replace(x, "$&/") + "/") +
                       e,
                   )),
-                t.push(u)),
+                t.push(a)),
             1
           );
-        if (((c = 0), (a = "" === a ? "." : a + ":"), k(e)))
-          for (var s = 0; s < e.length; s++) {
-            var l = a + E((i = e[s]), s);
-            c += $(i, t, o, l, u);
+        if (((s = 0), (u = "" === u ? "." : u + ":"), w(e)))
+          for (var c = 0; c < e.length; c++) {
+            var l = u + O((i = e[c]), c);
+            s += P(i, t, o, l, a);
           }
         else if (
           ((l = (function (e) {
@@ -541,8 +682,8 @@ var CLSTAMP = "10552726";
           })(e)),
           "function" == typeof l)
         )
-          for (e = l.call(e), s = 0; !(i = e.next()).done; )
-            c += $((i = i.value), t, o, (l = a + E(i, s++)), u);
+          for (e = l.call(e), c = 0; !(i = e.next()).done; )
+            s += P((i = i.value), t, o, (l = u + O(i, c++)), a);
         else if ("object" === i)
           throw (
             ((t = String(e)),
@@ -554,14 +695,14 @@ var CLSTAMP = "10552726";
                 "). If you meant to render a collection of children, use an array instead.",
             ))
           );
-        return c;
+        return s;
       }
-      function O(e, t, r) {
+      function $(e, t, r) {
         if (null == e) return e;
         var n = [],
           o = 0;
         return (
-          $(e, n, "", "", function (e) {
+          P(e, n, "", "", function (e) {
             return t.call(r, e, o++);
           }),
           n
@@ -585,20 +726,20 @@ var CLSTAMP = "10552726";
         if (1 === e._status) return e._result.default;
         throw e._result;
       }
-      var N = { current: null },
-        V = { transition: null },
+      var V = { current: null },
+        D = { transition: null },
         T = {
-          ReactCurrentDispatcher: N,
-          ReactCurrentBatchConfig: V,
-          ReactCurrentOwner: S,
+          ReactCurrentDispatcher: V,
+          ReactCurrentBatchConfig: D,
+          ReactCurrentOwner: k,
         };
-      function I() {
+      function A() {
         throw Error("act(...) is not supported in production builds of React.");
       }
       (t.Children = {
-        map: O,
+        map: $,
         forEach: function (e, t, r) {
-          O(
+          $(
             e,
             function () {
               t.apply(this, arguments);
@@ -609,7 +750,7 @@ var CLSTAMP = "10552726";
         count: function (e) {
           var t = 0;
           return (
-            O(e, function () {
+            $(e, function () {
               t++;
             }),
             t
@@ -617,27 +758,27 @@ var CLSTAMP = "10552726";
         },
         toArray: function (e) {
           return (
-            O(e, function (e) {
+            $(e, function (e) {
               return e;
             }) || []
           );
         },
         only: function (e) {
-          if (!P(e))
+          if (!E(e))
             throw Error(
               "React.Children.only expected to receive a single React element child.",
             );
           return e;
         },
       }),
-        (t.Component = m),
+        (t.Component = b),
         (t.Fragment = o),
-        (t.Profiler = u),
+        (t.Profiler = a),
         (t.PureComponent = g),
-        (t.StrictMode = a),
+        (t.StrictMode = u),
         (t.Suspense = l),
         (t.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED = T),
-        (t.act = I),
+        (t.act = A),
         (t.cloneElement = function (e, t, n) {
           if (null == e)
             throw Error(
@@ -646,33 +787,33 @@ var CLSTAMP = "10552726";
                 ".",
             );
           var o = h({}, e.props),
-            a = e.key,
-            u = e.ref,
+            u = e.key,
+            a = e.ref,
             i = e._owner;
           if (null != t) {
             if (
-              (void 0 !== t.ref && ((u = t.ref), (i = S.current)),
-              void 0 !== t.key && (a = "" + t.key),
+              (void 0 !== t.ref && ((a = t.ref), (i = k.current)),
+              void 0 !== t.key && (u = "" + t.key),
               e.type && e.type.defaultProps)
             )
-              var c = e.type.defaultProps;
-            for (s in t)
-              w.call(t, s) &&
-                !R.hasOwnProperty(s) &&
-                (o[s] = void 0 === t[s] && void 0 !== c ? c[s] : t[s]);
+              var s = e.type.defaultProps;
+            for (c in t)
+              _.call(t, c) &&
+                !R.hasOwnProperty(c) &&
+                (o[c] = void 0 === t[c] && void 0 !== s ? s[c] : t[c]);
           }
-          var s = arguments.length - 2;
-          if (1 === s) o.children = n;
-          else if (1 < s) {
-            c = Array(s);
-            for (var l = 0; l < s; l++) c[l] = arguments[l + 2];
-            o.children = c;
+          var c = arguments.length - 2;
+          if (1 === c) o.children = n;
+          else if (1 < c) {
+            s = Array(c);
+            for (var l = 0; l < c; l++) s[l] = arguments[l + 2];
+            o.children = s;
           }
           return {
             $$typeof: r,
             type: e.type,
-            key: a,
-            ref: u,
+            key: u,
+            ref: a,
             props: o,
             _owner: i,
           };
@@ -680,7 +821,7 @@ var CLSTAMP = "10552726";
         (t.createContext = function (e) {
           return (
             ((e = {
-              $$typeof: c,
+              $$typeof: s,
               _currentValue: e,
               _currentValue2: e,
               _threadCount: 0,
@@ -701,9 +842,9 @@ var CLSTAMP = "10552726";
           return { current: null };
         }),
         (t.forwardRef = function (e) {
-          return { $$typeof: s, render: e };
+          return { $$typeof: c, render: e };
         }),
-        (t.isValidElement = P),
+        (t.isValidElement = E),
         (t.lazy = function (e) {
           return {
             $$typeof: p,
@@ -715,62 +856,123 @@ var CLSTAMP = "10552726";
           return { $$typeof: f, type: e, compare: void 0 === t ? null : t };
         }),
         (t.startTransition = function (e) {
-          var t = V.transition;
-          V.transition = {};
+          var t = D.transition;
+          D.transition = {};
           try {
             e();
           } finally {
-            V.transition = t;
+            D.transition = t;
           }
         }),
-        (t.unstable_act = I),
+        (t.unstable_act = A),
         (t.useCallback = function (e, t) {
-          return N.current.useCallback(e, t);
+          return V.current.useCallback(e, t);
         }),
         (t.useContext = function (e) {
-          return N.current.useContext(e);
+          return V.current.useContext(e);
         }),
         (t.useDebugValue = function () {}),
         (t.useDeferredValue = function (e) {
-          return N.current.useDeferredValue(e);
+          return V.current.useDeferredValue(e);
         }),
         (t.useEffect = function (e, t) {
-          return N.current.useEffect(e, t);
+          return V.current.useEffect(e, t);
         }),
         (t.useId = function () {
-          return N.current.useId();
+          return V.current.useId();
         }),
         (t.useImperativeHandle = function (e, t, r) {
-          return N.current.useImperativeHandle(e, t, r);
+          return V.current.useImperativeHandle(e, t, r);
         }),
         (t.useInsertionEffect = function (e, t) {
-          return N.current.useInsertionEffect(e, t);
+          return V.current.useInsertionEffect(e, t);
         }),
         (t.useLayoutEffect = function (e, t) {
-          return N.current.useLayoutEffect(e, t);
+          return V.current.useLayoutEffect(e, t);
         }),
         (t.useMemo = function (e, t) {
-          return N.current.useMemo(e, t);
+          return V.current.useMemo(e, t);
         }),
         (t.useReducer = function (e, t, r) {
-          return N.current.useReducer(e, t, r);
+          return V.current.useReducer(e, t, r);
         }),
         (t.useRef = function (e) {
-          return N.current.useRef(e);
+          return V.current.useRef(e);
         }),
         (t.useState = function (e) {
-          return N.current.useState(e);
+          return V.current.useState(e);
         }),
         (t.useSyncExternalStore = function (e, t, r) {
-          return N.current.useSyncExternalStore(e, t, r);
+          return V.current.useSyncExternalStore(e, t, r);
         }),
         (t.useTransition = function () {
-          return N.current.useTransition();
+          return V.current.useTransition();
         }),
         (t.version = "18.3.1");
     },
-    6540: (e, t, r) => {
-      e.exports = r(5287);
+    8493: (e, t, r) => {
+      var n = r(6540);
+      var o =
+          "function" == typeof Object.is
+            ? Object.is
+            : function (e, t) {
+                return (
+                  (e === t && (0 !== e || 1 / e == 1 / t)) || (e != e && t != t)
+                );
+              },
+        u = n.useState,
+        a = n.useEffect,
+        i = n.useLayoutEffect,
+        s = n.useDebugValue;
+      function c(e) {
+        var t = e.getSnapshot;
+        e = e.value;
+        try {
+          var r = t();
+          return !o(e, r);
+        } catch (e) {
+          return !0;
+        }
+      }
+      var l =
+        "undefined" == typeof window ||
+        void 0 === window.document ||
+        void 0 === window.document.createElement
+          ? function (e, t) {
+              return t();
+            }
+          : function (e, t) {
+              var r = t(),
+                n = u({ inst: { value: r, getSnapshot: t } }),
+                o = n[0].inst,
+                l = n[1];
+              return (
+                i(
+                  function () {
+                    (o.value = r), (o.getSnapshot = t), c(o) && l({ inst: o });
+                  },
+                  [e, r, t],
+                ),
+                a(
+                  function () {
+                    return (
+                      c(o) && l({ inst: o }),
+                      e(function () {
+                        c(o) && l({ inst: o });
+                      })
+                    );
+                  },
+                  [e],
+                ),
+                s(r),
+                r
+              );
+            };
+      t.useSyncExternalStore =
+        void 0 !== n.useSyncExternalStore ? n.useSyncExternalStore : l;
+    },
+    9888: (e, t, r) => {
+      e.exports = r(8493);
     },
   },
 ]); //# sourceMappingURL=file:///home/buildbot/buildslave/steamvr_rel_npm_vrwebui/build/public/runtime/resources/webinterface/dashboard/sourcemaps/libraries/libraries~837d8d061.js.map

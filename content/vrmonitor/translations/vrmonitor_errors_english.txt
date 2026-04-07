@@ -288,6 +288,11 @@
 "VRInitError_Driver_WirelessHmdNotConnected_Action" " "
 "VRInitError_Driver_WirelessHmdNotConnected_ActionURL" ""
 
+"VRInitError_Driver_WirelessHmdNotConnectedAndNoSteam_Header" "Start Steam for Steam Link"
+"VRInitError_Driver_WirelessHmdNotConnectedAndNoSteam_Description" "SteamVR is awaiting a wireless connection, but Steam is not running. Please launch Steam to continue."
+"VRInitError_Driver_WirelessHmdNotConnectedAndNoSteam_Action" "Start Steam"
+"VRInitError_Driver_WirelessHmdNotConnectedAndNoSteam_ActionURL" "steam://"
+
 "VRInitError_Compositor_CannotDRMLeaseDisplay_Header" "Failed to connect to headset display"
 "VRInitError_Compositor_CannotDRMLeaseDisplay_Description" "Your headset might not be connected, or your desktop environment might not support VR."
 "VRInitError_Compositor_CannotDRMLeaseDisplay_FirstAction" "Restart SteamVR"
@@ -942,7 +947,7 @@
 "Warning_DismissableWarning_IssuesWithTwoDongles_ActionURL" "https://support.steampowered.com/kb_article.php?ref=8566-SDZC-9326#wireless-receivers"
 
 "Warning_DismissableWarning_NewDriverInstalled_Header" "Device Update Pending"
-"Warning_DismissableWarning_NewDriverInstalled_Description" "Please Restart SteamVR to use your updated device."
+"Warning_DismissableWarning_NewDriverInstalled_Description" "Please restart SteamVR to use your updated device."
 "Warning_DismissableWarning_NewDriverInstalled_Action" "Restart SteamVR"
 "Warning_DismissableWarning_NewDriverInstalled_ActionURL" "vrmonitor://restartsystem"
 
@@ -1069,6 +1074,11 @@
 "Warning_DismissableWarning_SteamStreamingAudioEndpointDisabled_Description" "One or more Steam Streaming Audio endpoints are disabled. Audio will not function with Steam Link unless these are enabled."
 "Warning_DismissableWarning_SteamStreamingAudioEndpointDisabled_Action" "Sound Control Panel"
 "Warning_DismissableWarning_SteamStreamingAudioEndpointDisabled_ActionURL" "vrmonitor://soundcontrolpanel"
+
+"Warning_DismissableWarning_SteamFrameDongleDriverMissing_Header" "Steam Frame wireless adapter driver missing"
+"Warning_DismissableWarning_SteamFrameDongleDriverMissing_Description" "The Steam Frame wireless adapter is connected, but the driver is missing. Click the link below to exit SteamVR and install the driver."
+"Warning_DismissableWarning_SteamFrameDongleDriverMissing_Action" "Install and exit"
+"Warning_DismissableWarning_SteamFrameDongleDriverMissing_ActionURL" "vrmonitor://installdriver/vrlinkdongledriver"
 
 }
 }

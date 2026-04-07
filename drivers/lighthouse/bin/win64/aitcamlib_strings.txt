@@ -184,7 +184,7 @@ IVRBlockQueue_005
 IVRCameraPassthroughInternal_001
 IVRChaperoneInternal_XXX
 IVRChaperoneServerDriver_XXX
-IVRChaperoneSetup_006
+IVRChaperoneSetup_007
 IVRChaperone_004
 IVRClientInternal_XXX
 IVRCompositorSystemInternal_XXX
@@ -194,12 +194,13 @@ IVRDriverDirectInternal_XXX
 IVRDriverInputInternal_XXX
 IVRDriverManager_001
 IVRExtendedDisplay_001
+IVRInputFocusInternal_XXX
 IVRInputInternal_002
 IVRInput_011
 IVRMailbox_002
 IVRNotificationsInternal_001
 IVROverlayInternal_XXX
-IVROverlay_028
+IVROverlay_029
 IVRPathsInternal_XXX
 IVRPaths_002
 IVRPropertiesInternal_001
@@ -241,7 +242,7 @@ PermissionDenied
 QueryPerformanceCounter
 QueryPerformanceFrequency
 RPCRT4.dll
-RSDS
+RSDSD.
 RaiseException
 Received camera frame of size %u that is larger than the block queue we are copying into %u
 ResetEvent
@@ -548,3 +549,4 @@ wrong version
 zh_cn
 zh_tw
 zlib corrupt
+~SHe

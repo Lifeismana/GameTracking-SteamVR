@@ -299,24 +299,6 @@
 .tls$ZZZ
 .xdata
 .xdata$x
-/user/ankle/left
-/user/ankle/right
-/user/camera
-/user/chest
-/user/elbow/left
-/user/elbow/right
-/user/foot/left
-/user/foot/right
-/user/hand/left
-/user/hand/right
-/user/keyboard
-/user/knee/left
-/user/knee/right
-/user/shoulder/left
-/user/shoulder/right
-/user/waist
-/user/wrist/left
-/user/wrist/right
 0\tFAJ
 8c8f13b1-60eb-4b6a-a433-de86104115ac
 8d8f13b1-60eb-4b6a-a433-de86104115ac
@@ -532,7 +514,7 @@ IVRDisplayComponent_003
 IVRDriverDirectModeComponent_009
 IVRDriverLog_001
 IVRDriverManager_001
-IVRIPCResourceManagerClient_003
+IVRIPCResourceManagerClient_004
 IVRProperties_001
 IVRResources_001
 IVRServerDriverHost_006
@@ -613,7 +595,7 @@ Projection
 QueryPerformanceCounter
 QueryPerformanceFrequency
 RPCRT4.dll
-RSDS
+RSDSu
 RaiseException
 ReadFile
 ReadFile failed on %s after event was signaled because %s\n
@@ -729,7 +711,6 @@ WriteFile
 [IPC] SharedMem access invalid: %x\n
 [IPC] The owner SID is invalid.\n
 [IPC] Warning, existing file mapping for %s (%d) is too small (%d)\n
-\fpT4
 _Cnd_broadcast
 _Cnd_destroy_in_situ
 _Cnd_init_in_situ

@@ -276,7 +276,6 @@ $d`D-laM
 .?AVCVRMsg_DestroySwapTextureSet@@
 .?AVCVRMsg_DriverDebugRequest@@
 .?AVCVRMsg_DriverDebugResponse@@
-.?AVCVRMsg_ExchangeCapabilities@@
 .?AVCVRMsg_ExtendActivityTimeout@@
 .?AVCVRMsg_GetApplicationInfo@@
 .?AVCVRMsg_GetApplicationLaunchArguments@@
@@ -358,6 +357,8 @@ $d`D-laM
 .?AVCVRMsg_StartDashboard@@
 .?AVCVRMsg_StartDashboardResponse@@
 .?AVCVRMsg_StartHomeAppResponse@@
+.?AVCVRMsg_StartVRCompositor@@
+.?AVCVRMsg_StartVRCompositorResponse@@
 .?AVCVRMsg_TrackedCamera_AcquireVideoStreamingService@@
 .?AVCVRMsg_TrackedCamera_AcquireVideoStreamingServiceResponse@@
 .?AVCVRMsg_TrackedCamera_Enable@@
@@ -498,9 +499,9 @@ $d`D-laM
 0`P0
 0pp@5tqE?|sO541
 1!1'1-191C1E1K1]1a1g1m1s1
-10:06:46
 11M|
 14 (default)
+14:21:11
 1H@H
 1\v5#d
 1bS1
@@ -795,6 +796,7 @@ Ag*g*
 Any Extended Key Usage
 Any Purpose
 Any language
+Apr  6 2026
 Attempted to read payload of %d bytes from pipe but failed\n
 AuthANY
 AuthDSS
@@ -1201,7 +1203,6 @@ CVRMsg_DefaultBinding
 CVRMsg_DestroySwapTextureSet
 CVRMsg_DriverDebugRequest
 CVRMsg_DriverDebugResponse
-CVRMsg_ExchangeCapabilities
 CVRMsg_ExtendActivityTimeout
 CVRMsg_GetApplicationInfo
 CVRMsg_GetApplicationLaunchArguments
@@ -1283,6 +1284,8 @@ CVRMsg_StartAutolaunchOverlays
 CVRMsg_StartDashboard
 CVRMsg_StartDashboardResponse
 CVRMsg_StartHomeAppResponse
+CVRMsg_StartVRCompositor
+CVRMsg_StartVRCompositorResponse
 CVRMsg_TrackedCamera_AcquireVideoStreamingService
 CVRMsg_TrackedCamera_AcquireVideoStreamingServiceResponse
 CVRMsg_TrackedCamera_Enable
@@ -1994,7 +1997,6 @@ MainThrd
 MakeStartableForAllUsers
 Management
 MapViewOfFile
-Mar 25 2026
 Mask Algorithm: 
 MessageBoxW
 Microsoft CSP Name
@@ -2912,6 +2914,7 @@ Wcr"
 Whether to add a loaded ENGINE to the internal list (0=no,1=yes,2=mandatory)
 WideCharToMultiByte
 WriteFile
+W{rv
 X25519
 X400Name
 X400Name:<unsupported>

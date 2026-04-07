@@ -652,6 +652,7 @@ $3br
 /pose/raw
 /proc
 /proc/%u/stat
+/proc/self/cmdline
 /proc/self/exe
 /proc/self/status
 /proximity
@@ -727,7 +728,6 @@ $3br
 16CSettingsManager
 16CVrcDecodeTagged
 16CWirelessDecoder
-17:02:44
 17CBoneMaskResource
 17CCameraWorkThread
 17CFirmwareManifest
@@ -746,6 +746,7 @@ $3br
 20CVRTrackedDevice_004
 20IVRAudioNotification
 20IVRVirtualDisplay001
+21:20:53
 21CServerDriverHost_002
 21CServerDriverHost_003
 21IVRCameraComponent001
@@ -882,6 +883,7 @@ $3br
 A file with this name is already in the pool.
 A protocol message was rejected because it was too big (more than 
 A valid JSON document must be either an array or an object value.
+A wireless HMD driver is present, but the wireless HMD has not connected and Steam is not running (216)
 A wireless HMD driver is present, but the wireless HMD has not connected yet (215)
 ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/
 AHJzrJbk
@@ -945,6 +947,7 @@ App Init
 App info manager init failed (114)
 App not found
 ApplyGrowForUndistort(float, vortex::CHmdDisplay::CEyeProjection*)
+Apr  6 2026
 April
 Args
 Array length of `baseColorFactor` parameter in pbrMetallicRoughness must be 4, but got 
@@ -2376,6 +2379,8 @@ CPropertyManager::CreatePropertyContainerInternal(unsigned long, bool) (.cold)
 CPropertyManager::DestroyPropertyContainer(unsigned long)
 CPropertyManager::EnableChangeNotifications(unsigned long, bool)
 CPropertyManager::EnableChangeNotifications(unsigned long, bool) (.cold)
+CPropertyManager::FilterExistingHandles(std::vector<unsigned long, std::allocator<unsigned long>>&)
+CPropertyManager::FilterExistingHandles(std::vector<unsigned long, std::allocator<unsigned long>>&) (.cold)
 CPropertyManager::FindOrAddContainer(unsigned long, std::unique_lock<std::mutex>&, bool)
 CPropertyManager::GetAllContainers()
 CPropertyManager::GetAllContainers() (.cold)
@@ -2411,7 +2416,7 @@ CSWTCH.137
 CSWTCH.140
 CSWTCH.143
 CSWTCH.1924
-CSWTCH.216
+CSWTCH.219
 CSWTCH.221
 CSWTCH.876
 CScopedEventDuration::CScopedEventDuration(char const*, char const*, char const*, ...)
@@ -2778,6 +2783,7 @@ CUsbDeviceScanner::~CUsbDeviceScanner()
 CUsbDeviceScannerThread::Run()
 CUsbDeviceScannerThread::~CUsbDeviceScannerThread()
 CVRAudioDevices::AddNotify(IVRAudioNotification*)
+CVRAudioDevices::AdjustMasterSoundVolume(float)
 CVRAudioDevices::CVRAudioDevices()
 CVRAudioDevices::DeserializeAudioDeviceInfo(std::string const&, std::string*, std::string*, unsigned short*, unsigned short*)
 CVRAudioDevices::GetAudioDevices(std::vector<IVRAudioDevices::CVRAudioDeviceInfo, std::allocator<IVRAudioDevices::CVRAudioDeviceInfo>>&, IVRAudioDevices::EAudioDeviceType, IVRAudioDevices::EAudioDeviceState)
@@ -4001,6 +4007,7 @@ HIDIOCGRDESCSIZE
 HID_ID
 HID_NAME
 HID_UNIQ
+HIGH
 HMD Display "%s" Dimensions Incorrect: (%d, %d), should be (%d, %d)\nUse Screen Resolution control panel to fix\n
 HMD Model: %s\n
 HMD Not Known (202)
@@ -4146,7 +4153,7 @@ IVRCameraComponent_003
 IVRCameraPassthroughInternal_001
 IVRChaperoneInternal_XXX
 IVRChaperoneServerDriver_XXX
-IVRChaperoneSetup_006
+IVRChaperoneSetup_007
 IVRChaperone_004
 IVRClientInternal_XXX
 IVRCompositorPluginProvider_001
@@ -4168,14 +4175,15 @@ IVRDriverLog_001
 IVRDriverManager_001
 IVRExtendedDisplay_001
 IVRIOBuffer_002
-IVRIPCResourceManagerClient_003
+IVRIPCResourceManagerClient_004
+IVRInputFocusInternal_XXX
 IVRInputInternal_002
 IVRInput_011
 IVRMCStore_001
 IVRMailbox_002
 IVRNotificationsInternal_001
 IVROverlayInternal_XXX
-IVROverlay_028
+IVROverlay_029
 IVRPathsInternal_XXX
 IVRPaths_002
 IVRPropertiesInternal_001
@@ -4235,7 +4243,8 @@ InitSharedResourceNamespaceAsWatchdog()
 InitSharedResourceNamespaceAsWatchdog() (.cold)
 InitSharedResourceNamespaceForTest()
 InitSystemBaseTimeTicks(unsigned long)
-InitSystemTime(unsigned long) (.part.0)
+InitSystemTime(unsigned long, bool)
+InitSystemTime(unsigned long, bool)::initMutex
 InitTrackedCamera(): Disabling camera on (%s) due to required recovery firmware update. Camera services restricted.\n
 InitTrackedCamera(): Disabling camera on (%s) due to vr settings. Camera services restricted.\n
 InitTrackedCamera(): Failed to find expected interface on (%s). Camera services not available.\n
@@ -4957,7 +4966,7 @@ Mailbox %s received message %s, which it didn't have a handler for\n
 MainSteamVR
 MakeFileWriteable(char const*)
 ManualURL
-Mar 25 2026
+Mapped priority %d to SDL priority %s\n
 March
 Mark 1
 Mark 2
@@ -5212,6 +5221,7 @@ N9__gnu_cxx20recursive_init_errorE
 N9__gnu_cxx24__concurrence_lock_errorE
 N9__gnu_cxx26__concurrence_unlock_errorE
 N;?ffffff
+NORMAL
 NRF52
 NRF52 DTM
 NSt3_V214error_categoryE
@@ -5841,6 +5851,7 @@ SDL_GetDisplayName
 SDL_GetError
 SDL_GetNumVideoDisplays
 SDL_GetPowerInfo
+SDL_LinuxSetThreadPriorityAndPolicy
 SDL_SetThreadPriority
 SOB total=
 SOB: add 
@@ -6282,6 +6293,7 @@ Thursday
 Time: 
 Timed Out
 Timed out waiting for reply of type %s from %s\n
+Timeline_t::EvaluateRange(float, float)
 To google::protobuf::internal::down_cast(From*) [with To = const google::protobuf::Message*; From = const google::protobuf::MessageLite]
 To google::protobuf::internal::down_cast(From*) [with To = const google::protobuf::UninterpretedOption*; From = const google::protobuf::Message]
 To google::protobuf::internal::down_cast(From*) [with To = google::protobuf::Message*; From = google::protobuf::MessageLite]
@@ -6647,6 +6659,7 @@ VREvent_ButtonTouch
 VREvent_ButtonUnpress
 VREvent_ButtonUntouch
 VREvent_CameraSettingsHaveChanged
+VREvent_CapabilitiesChanged
 VREvent_ChaperoneDataHasChanged
 VREvent_ChaperoneFlushCache
 VREvent_ChaperoneRoomSetupCommitted
@@ -6723,7 +6736,6 @@ VREvent_Monitor_ShowHeadsetView
 VREvent_MouseButtonDown
 VREvent_MouseButtonUp
 VREvent_MouseMove
-VREvent_MutualSteamCapabilitiesChanged
 VREvent_None
 VREvent_Notification_BeginInteraction
 VREvent_Notification_Destroyed
@@ -6922,6 +6934,7 @@ VRInitError_Driver_RuntimeOutOfDate
 VRInitError_Driver_TrackedDeviceInterfaceUnknown
 VRInitError_Driver_Unknown
 VRInitError_Driver_WirelessHmdNotConnected
+VRInitError_Driver_WirelessHmdNotConnectedAndNoSteam
 VRInitError_IPC_CompositorConnectFailed
 VRInitError_IPC_CompositorInitFailed
 VRInitError_IPC_CompositorInvalidConnectResponse
@@ -7183,6 +7196,8 @@ VRMsg_ShouldKillTheaterPancakeProcess
 VRMsg_ShouldKillTheaterPancakeProcessResponse
 VRMsg_StartAutolaunchOverlays
 VRMsg_StartHomeAppResponse
+VRMsg_StartVRCompositor
+VRMsg_StartVRCompositorResponse
 VRMsg_TrackedCamera_Enable
 VRMsg_TrackedCamera_EnableResponse
 VRMsg_TrackedCamera_GetDistortion
@@ -7260,6 +7275,8 @@ VROverlayFlags_NoBackside
 VROverlayFlags_NoDashboardTab
 VROverlayFlags_Panorama
 VROverlayFlags_ProtectedContent
+VROverlayFlags_Reserved_1073741824
+VROverlayFlags_Reserved_16
 VROverlayFlags_SendVRDiscreteScrollEvents
 VROverlayFlags_SendVRSmoothScrollEvents
 VROverlayFlags_SendVRTouchpadEvents
@@ -9093,6 +9110,7 @@ g_pVRDriverDirectInternal
 g_pVRDriverInputInternal
 g_pVRDriverManager
 g_pVRExtendedDisplay
+g_pVRInputFocusInternal
 g_pVRMailbox
 g_pVRNotificationsInternal
 g_pVROverlay
@@ -9135,6 +9153,7 @@ get_ttype_entry(lsda_header_info*, unsigned long) (.cold)
 getc
 getcwd
 getenv
+getpagesize
 getpid
 getppid
 getpriority
@@ -12637,6 +12656,7 @@ non-virtual thunk to CPropertyManager::CreateFixedSizeContainerForRead(unsigned 
 non-virtual thunk to CPropertyManager::CreateFixedSizeContainerForWrite(unsigned long*, void*, unsigned int)
 non-virtual thunk to CPropertyManager::CreatePropertyContainer(unsigned long)
 non-virtual thunk to CPropertyManager::DestroyPropertyContainer(unsigned long)
+non-virtual thunk to CPropertyManager::FilterExistingHandles(std::vector<unsigned long, std::allocator<unsigned long>>&)
 non-virtual thunk to CPropertyManager::ReleaseFixedSizeContainer(unsigned long)
 non-virtual thunk to CSettingsManager::GetKeysInSection(char const*, std::vector<std::string, std::allocator<std::string>>*, vr::EVRSettingsError*)
 non-virtual thunk to CSettingsManager::GetNumeric(char const*, char const*, vr::EVRSettingsError*)
@@ -16997,6 +17017,7 @@ std::vector<unsigned char, std::allocator<unsigned char>>::_M_default_append(uns
 std::vector<unsigned char, std::allocator<unsigned char>>::_M_fill_insert(__gnu_cxx::__normal_iterator<unsigned char*, std::vector<unsigned char, std::allocator<unsigned char>>>, unsigned long, unsigned char const&)
 std::vector<unsigned char, std::allocator<unsigned char>>::operator=(std::vector<unsigned char, std::allocator<unsigned char>> const&)
 std::vector<unsigned char, std::allocator<unsigned char>>::resize(unsigned long)
+std::vector<unsigned long, std::allocator<unsigned long>>::_M_erase(__gnu_cxx::__normal_iterator<unsigned long*, std::vector<unsigned long, std::allocator<unsigned long>>>)
 std::vector<unsigned short, std::allocator<unsigned short>>::_M_default_append(unsigned long)
 std::vector<void*, std::allocator<void*>>::_M_check_len(unsigned long, char const*) const
 std::vector<void*, std::allocator<void*>>::_M_default_append(unsigned long)
@@ -20782,6 +20803,7 @@ vr_internal::VRDriverInputInternal()
 vr_internal::VRDriverManager()
 vr_internal::VRExtendedDisplay()
 vr_internal::VRInput()
+vr_internal::VRInputFocusInternal()
 vr_internal::VRInputInternal()
 vr_internal::VRMailbox()
 vr_internal::VRNotificationsInternal()

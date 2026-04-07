@@ -1,4 +1,9 @@
  !?wheelEvent@QWidget@@MEAAXPEAVQWheelEvent@@@Z
+ (Desktop)
+ (Disabled)
+ (SteamVR Main)
+ (SteamVR)
+ (SteamWebHelper)
  ?verticalHeader@QTableView@@QEBAPEAVQHeaderView@@XZ
  ?verticalOffset@QTableView@@MEBAHXZ
  ?verticalScrollbarAction@QTableView@@MEAAXH@Z
@@ -545,6 +550,7 @@ Absolute: xlate=(%f, %f, %f), universe=%d
 AddAccessAllowedAce
 Adobe ImageReadyq
 Alpha
+Associated=%1, Input=%2
 Attempt to init shared state %s twice
 Auto Curve Distance Range
 Background
@@ -657,7 +663,7 @@ IVRBlockQueue_005
 IVRCameraPassthroughInternal_001
 IVRChaperoneInternal_XXX
 IVRChaperoneServerDriver_XXX
-IVRChaperoneSetup_006
+IVRChaperoneSetup_007
 IVRChaperone_004
 IVRClientInternal_XXX
 IVRCompositorSystemInternal_XXX
@@ -667,13 +673,14 @@ IVRDriverDirectInternal_XXX
 IVRDriverInputInternal_XXX
 IVRDriverManager_001
 IVRExtendedDisplay_001
+IVRInputFocusInternal_XXX
 IVRInputInternal_002
 IVRInput_011
 IVRMailbox_002
 IVRNotificationsInternal_001
 IVROverlayInternal_XXX
 IVROverlayView_003
-IVROverlay_028
+IVROverlay_029
 IVRPathsInternal_XXX
 IVRPaths_002
 IVRPropertiesInternal_001
@@ -760,7 +767,7 @@ Qt5Widgets.dll
 QueryPerformanceCounter
 R?rgb@QColor@@QEBAIXZ
 RPCRT4.dll
-RSDSV
+RSDS
 RaiseException
 ReadFile
 ReadFile failed on %s after event was signaled because %s\n
@@ -795,6 +802,8 @@ Somebody beat us to creating event %s to go with pipe %s in WaitForConnection\n
 Somebody else should have created event %s to go with pipe %s in WaitForConnection\n
 Somebody locked a non-leaf shared memory %s while %s was already locked
 Sort Order
+Standalone SGID
+Steam AppID
 SteamVR_Namespace
 Subview
 Syntax error: value, object or array expected.
@@ -855,6 +864,8 @@ VROverlayFlags_NoBackside
 VROverlayFlags_NoDashboardTab
 VROverlayFlags_Panorama
 VROverlayFlags_ProtectedContent
+VROverlayFlags_Reserved_1073741824
+VROverlayFlags_Reserved_16
 VROverlayFlags_SendVRDiscreteScrollEvents
 VROverlayFlags_SendVRSmoothScrollEvents
 VROverlayFlags_SendVRTouchpadEvents

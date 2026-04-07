@@ -35,6 +35,7 @@
 		"shareEyeTrackingData": false,
         "allowVolumeSync" : true,
 		"asyncStartEncode" : true,
-        "enableHandTracking" : true
+        "enableHandTracking" : true,
+        "allowMultipleLinks" :  true
     }
 }
