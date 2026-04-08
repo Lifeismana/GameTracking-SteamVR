@@ -15,6 +15,7 @@ FixUCS2
 rm --recursive resources/webinterface/dashboard_prettier/ || true
 rsync --archive --include="*/" --include="*.js" --include="*.css" --exclude="*" --prune-empty-dirs resources/webinterface/dashboard/ resources/webinterface/dashboard_prettier/
 npm run prettier -- --write resources/webinterface/dashboard_prettier/ || true
+node tracking-tools/dump_javascript_protobufs.mjs
 
 CreateCommit "$(grep -o '[0-9\.]*' bin/version.txt)" "$(grep -o '[0-9\.]*' steam_buildid.txt)"
 
