@@ -1,4 +1,4 @@
-var CLSTAMP = "10579910";
+var CLSTAMP = "10585170";
 (self.webpackChunkvrwebui = self.webpackChunkvrwebui || []).push([
   [743],
   {
@@ -265,11 +265,12 @@ var CLSTAMP = "10579910";
               if ((this.logScrollSample(), S.m_CurrentlyDraggingPanel)) {
                 if (S.m_CurrentlyDraggingPanel != this) break;
               } else S.m_CurrentlyDraggingPanel = this;
-              this.scrollsHorizontally
-                ? (this.m_ref.current.scrollLeft =
-                    this.m_initialScrollPosition.x + e.x)
-                : (this.m_ref.current.scrollTop =
-                    this.m_initialScrollPosition.y + e.y);
+              this.m_ref.current &&
+                (this.scrollsHorizontally
+                  ? (this.m_ref.current.scrollLeft =
+                      this.m_initialScrollPosition.x + e.x)
+                  : (this.m_ref.current.scrollTop =
+                      this.m_initialScrollPosition.y + e.y));
           }
         }
         requestNextAnimationFrame() {
@@ -279,7 +280,8 @@ var CLSTAMP = "10579910";
             (this.m_lastAnimationFrameTimeMs = performance.now());
         }
         onAnimationFrame() {
-          if (this.state.eScrollState != r.Thrown) return;
+          if (this.state.eScrollState != r.Thrown || !this.m_ref.current)
+            return;
           const t = (performance.now() - this.m_lastAnimationFrameTimeMs) / 1e3;
           (this.m_ref.current.scrollLeft +=
             this.m_thrownVelocityPerSecond.x * t),
@@ -302,15 +304,16 @@ var CLSTAMP = "10579910";
             : this.requestNextAnimationFrame();
         }
         startDragging(t) {
-          d.isScrollingSuppressed ||
-            ((0, a.R$)() == a.OH.Overlay &&
-              (this.setState({ eScrollState: r.Dragging }),
-              (this.m_initialMousePosition = t),
-              (this.m_initialScrollPosition = {
-                x: this.m_ref.current.scrollLeft,
-                y: this.m_ref.current.scrollTop,
-              }),
-              this.logScrollSample()));
+          !d.isScrollingSuppressed &&
+            this.m_ref.current &&
+            (0, a.R$)() == a.OH.Overlay &&
+            (this.setState({ eScrollState: r.Dragging }),
+            (this.m_initialMousePosition = t),
+            (this.m_initialScrollPosition = {
+              x: this.m_ref.current.scrollLeft,
+              y: this.m_ref.current.scrollTop,
+            }),
+            this.logScrollSample());
         }
         startThrowing() {
           (this.m_thrownVelocityPerSecond = this.calculateThrowStartVelocity()),
@@ -360,6 +363,7 @@ var CLSTAMP = "10579910";
         }
         logScrollSample() {
           for (
+            this.m_ref.current &&
             this.m_mostRecentScrollSamples.push({
               scrollPosition: {
                 x: this.m_ref.current.scrollLeft,

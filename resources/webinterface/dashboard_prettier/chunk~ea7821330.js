@@ -1,4 +1,4 @@
-var CLSTAMP = "10579910";
+var CLSTAMP = "10585170";
 (self.webpackChunkvrwebui = self.webpackChunkvrwebui || []).push([
   [798],
   {
@@ -187,10 +187,13 @@ var CLSTAMP = "10579910";
           this.UpdateApplications();
         }
         SetApplicationMap(t) {
+          var e;
           this.m_Applications.clear(),
-            t.apps.forEach((t) => {
-              this.m_Applications.set(t.key, t);
-            });
+            null === (e = t.apps) ||
+              void 0 === e ||
+              e.forEach((t) => {
+                this.m_Applications.set(t.key, t);
+              });
         }
         UpdateApplications() {
           return (0, o.sH)(this, void 0, void 0, function* () {

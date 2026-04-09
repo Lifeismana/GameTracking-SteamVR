@@ -284,6 +284,7 @@ ovr_Shutdown
 ovr_SubmitFrame
 ovr_SubmitFrame failed: %s\n
 ovr_TraceMessage
+pZPu0
 startup
 string too long
 strncpy

@@ -1134,7 +1134,7 @@ $\n k_EProtoServiceTypeSteamMessages
 1.5.26
 1/2/4/8/16-bit only
 123456789
-14:21:11
+16:51:49
 1A26b
 1e+9999
 1wsHp
@@ -1294,7 +1294,7 @@ Another app was already launching (117)
 Another copy of this program is already running on this machine. Only one instance at a time is allowed.
 App info manager init failed (114)
 Application built with libpng-
-Apr  6 2026
+Apr  8 2026
 Assert( %s ) %s(%d)\n
 Async compositor and reprojection DISABLED!!!
 Asynchronous reprojection not supported - requires NVIDIA driver 372.54 or higher.\n
@@ -3214,7 +3214,7 @@ QueryServiceConfigW
 R1h58
 RENDERDOC_GetAPI
 RPCRT4.dll
-RSDSM
+RSDSIi
 R\npR
 R\vpR
 RaiseException

@@ -242,7 +242,7 @@ PermissionDenied
 QueryPerformanceCounter
 QueryPerformanceFrequency
 RPCRT4.dll
-RSDSD.
+RSDSz
 RaiseException
 Received camera frame of size %u that is larger than the block queue we are copying into %u
 ResetEvent
@@ -549,4 +549,3 @@ wrong version
 zh_cn
 zh_tw
 zlib corrupt
-~SHe
