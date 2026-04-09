@@ -1482,7 +1482,6 @@ $tI(kn
 20CVkCommandBufferPool
 20IVRChaperoneInternal
 20IVRVirtualDisplay001
-21:20:53
 21CPackedBoneTransforms
 21CServerDriverHost_002
 21CServerDriverHost_003
@@ -1535,6 +1534,7 @@ $tI(kn
 22IVRDisplayComponent002
 22InMemoryStreamInputBuf
 22MaterialUtf8FileReader
+23:50:32
 23CAutoRestoreEnvironment
 23CInputFilter_Boolean_Or
 23CInputFilter_RadialMenu
@@ -2151,7 +2151,7 @@ ApplicationsInterfaceRegistration<CVRApplications_007>::~ApplicationsInterfaceRe
 ApplyEyeGazeInteractionFixups(std::vector<Json::Value, std::allocator<Json::Value>>&, Json::Value&)
 ApplyEyeGazeInteractionFixups(std::vector<Json::Value, std::allocator<Json::Value>>&, Json::Value&) (.cold)
 ApplyTransformToPose(vr::HmdMatrix34_t&, vr::HmdVector3_t&, vr::HmdVector3_t&, vr::HmdMatrix34_t const&, vr::HmdVector3_t const&, vr::HmdVector3_t const&, vr::HmdMatrix34_t const&)
-Apr  6 2026
+Apr  8 2026
 April
 Array length of `baseColorFactor` parameter in pbrMetallicRoughness must be 4, but got 
 Array length of `emissiveFactor` parameter in material must be 3, but got 
@@ -27314,7 +27314,6 @@ XR_EXT_palm_pose
 XR_EXT_render_model
 XR_EXT_user_presence
 XR_EXT_uuid
-XR_EXT_view_configuration_depth_range
 XR_EXT_view_configuration_views_change
 XR_EXT_win32_appcontainer_compatible
 XR_FB_display_refresh_rate
@@ -43616,7 +43615,6 @@ xrDestroySession
 xrDestroySpace
 xrDestroySwapchain
 xrEndFrame
-xrEndFrame error: passed XrCompositionLayerSpaceWarpInfoFB in next chain without enabling required XR_FB_space_warp
 xrEndFrame error: passed XrFrameSynthesisInfoEXT in next chain without enabling required XR_EXT_frame_synthesis
 xrEndFrame: compositor failed EndFrame()
 xrEndFrame: swapchain failed EndFrame()

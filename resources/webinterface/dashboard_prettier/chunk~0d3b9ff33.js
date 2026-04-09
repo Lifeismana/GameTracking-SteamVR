@@ -1,4 +1,4 @@
-var CLSTAMP = "10579910";
+var CLSTAMP = "10585170";
 (self.webpackChunkvrwebui = self.webpackChunkvrwebui || []).push([
   [366],
   {
@@ -5227,7 +5227,7 @@ var CLSTAMP = "10579910";
           }),
           l.createElement(v.WZ, {
             label: (0, m.we)("#Settings_VersionInfo_WebpackBuildTime"),
-            value: new Date(1775510493e3).toLocaleString(),
+            value: new Date(1775692255e3).toLocaleString(),
           }),
           l.createElement(v.WZ, {
             label: (0, m.we)("#Settings_VersionInfo_SteamVRHmdTrackingInfo"),
@@ -7092,15 +7092,26 @@ var CLSTAMP = "10579910";
             (this.state = { sActiveSettingSection: null });
         }
         componentDidMount() {
-          (this.m_routeObservingAutorunDisposer = (0, s.autorun)(() => {
-            g.HR.routePage
-              ? this.setState({ sActiveSettingSection: g.HR.routePage })
-              : g.HR.setRoutePage(
-                  g.HR.settingsSchema.filter(De.shouldShowSection)[0]
-                    .controller,
-                );
-          })),
+          (this.m_routeObservingAutorunDisposer = (0, s.autorun)(() =>
+            this.autorun_setRoutePage(),
+          )),
             this.ListenForHomeEnabledChanges();
+        }
+        autorun_setRoutePage() {
+          var e, t;
+          if (g.HR.routePage)
+            this.setState({ sActiveSettingSection: g.HR.routePage });
+          else {
+            const n =
+              null ===
+                (t =
+                  null === (e = g.HR.settingsSchema) || void 0 === e
+                    ? void 0
+                    : e.filter(De.shouldShowSection)) || void 0 === t
+                ? void 0
+                : t[0];
+            n && g.HR.setRoutePage(n.controller);
+          }
         }
         componentDidUpdate(e, t) {
           this.state.sActiveSettingSection !== t.sActiveSettingSection &&
@@ -22098,7 +22109,7 @@ var CLSTAMP = "10579910";
               ? void 0
               : e.call(VRHTML),
           ),
-            n.set_webpack_build_timestamp(1775510493);
+            n.set_webpack_build_timestamp(1775692255);
           const i =
             null ===
               (t =

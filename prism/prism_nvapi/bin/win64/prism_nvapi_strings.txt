@@ -1,7 +1,6 @@
 !( pDedicatedBuffer && pDedicatedImage )
 !IsInUse()
 !isnan( *pSecondsSinceVsync )
-"PV\nd
 %s-Image
 %s-ImageView
 %s-Memory
