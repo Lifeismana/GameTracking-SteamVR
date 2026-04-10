@@ -9,6 +9,7 @@ Protobufs/google/
 *.vpk.manifest.txt
 *.bin
 
+drivers/lighthouse/resources/**/*.js
 resources/webinterface/dashboard/**/*.js
 resources/webinterface/dashboard/**/*.css
 node_modules/
