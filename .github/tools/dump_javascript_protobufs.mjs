@@ -7,7 +7,7 @@ import { Syntax, traverse } from "estraverse";
 import { GetFilesToParse } from "./dump_javascript_paths.mjs";
 
 const __dirname = import.meta.dirname;
-const rootDir = pathResolve(__dirname, "..");
+const rootDir = pathResolve(__dirname, "../..");
 
 /**
  * @typedef {Object} Field

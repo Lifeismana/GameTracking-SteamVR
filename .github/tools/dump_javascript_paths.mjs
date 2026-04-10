@@ -3,7 +3,7 @@ import { resolve as pathResolve } from "node:path";
 import { Syntax, VisitorKeys } from "estraverse";
 
 const __dirname = import.meta.dirname;
-const rootDir = pathResolve(__dirname, "..");
+const rootDir = pathResolve(__dirname, "../..");
 
 // https://github.com/estools/estraverse/pull/120
 Syntax.StaticBlock = "StaticBlock";
