@@ -27,6 +27,9 @@ npm run prettier -- --write drivers/lighthouse/resources/webinterface_prettier/ 
 mkdir -p Protobufs ProtobufsWebui Structs
 node .github/tools/dump_javascript_protobufs.mjs
 
+# Extract svg icons
+node .github/tools/dump_javascript_svg.mjs
+
 CreateCommit "$(grep -o '[0-9\.]*' bin/version.txt)" "$(grep -o '[0-9\.]*' steam_buildid.txt)"
 
 echo "Done."
