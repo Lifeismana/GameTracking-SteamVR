@@ -731,6 +731,7 @@ $\n k_EProtoServiceTypeSteamMessages
 18SVLFECRAID6TXFrame
 18SVLHMDDriverVulkan
 18SVLHmdNotConnected
+19:09:31
 19SVLControllerDriver
 19SVLDataLinkTransfer
 1e+9999
@@ -745,7 +746,6 @@ $\n k_EProtoServiceTypeSteamMessages
 22CKeyframedDataResource
 22SVLDataLinkTransferUDP
 22VRLink_LaserMouseEvent
-23:50:32
 23BlendMatrix2x2PoseMaker
 23BlendMatrix3x3PoseMaker
 23SVLBaseControllerDriver
@@ -876,7 +876,7 @@ AnimUtils::UpdateCycle(float, float, float, float, bool)
 AnimUtils::UpdateCycle(float, float, float, float, bool, int&, float&)
 AnimationChannel
 AppendButtonToCannedGUI(svl_canvas_canned_gui_element_t*, int, svl_canvas_canned_gui_element_t const&)
-Apr  8 2026
+Apr 13 2026
 April
 Are you in text mode or using SSH without X11-Forwarding?\n
 Array length of `baseColorFactor` parameter in pbrMetallicRoughness must be 4, but got 
@@ -2135,7 +2135,6 @@ DescriptorProtosH
 Destroying a held mutex\n
 Detail
 DeviceType %s\n
-DiB6
 Disconnected VRLink Headset
 Don't lookup extension types if they aren't present (1). 
 Don't lookup extension types if they aren't present (2). 
@@ -4525,6 +4524,8 @@ SVLHMDDriver::~SVLHMDDriver()
 SVLHMDDriverVulkan::AcquireSync(unsigned long)
 SVLHMDDriverVulkan::Activate(unsigned int)
 SVLHMDDriverVulkan::Activate(unsigned int) (.cold)
+SVLHMDDriverVulkan::BDoesPhysicalDeviceSupportHEVC(VkPhysicalDevice_T* const&, vr::EVRInitError&)
+SVLHMDDriverVulkan::BDoesPhysicalDeviceSupportHEVC(VkPhysicalDevice_T* const&, vr::EVRInitError&) (.cold)
 SVLHMDDriverVulkan::CompositeLayer(int, bool, SVLHMDDriver::Layer_t const&)
 SVLHMDDriverVulkan::CompositeLayer(int, bool, SVLHMDDriver::Layer_t const&) (.cold)
 SVLHMDDriverVulkan::CompositeLayersOnePass(SVLHMDDriver::OnePassLayers_t const&)
@@ -4546,6 +4547,8 @@ SVLHMDDriverVulkan::DestroyAllSwapTextureSets(unsigned int) (.cold)
 SVLHMDDriverVulkan::DestroyEncodeBackbuffers()
 SVLHMDDriverVulkan::DestroySwapTextureSet(unsigned long)
 SVLHMDDriverVulkan::DestroySwapTextureSet(unsigned long) (.cold)
+SVLHMDDriverVulkan::FindPreferredVulkanDevice()
+SVLHMDDriverVulkan::FindPreferredVulkanDevice() (.cold)
 SVLHMDDriverVulkan::GetBufferTexture() const
 SVLHMDDriverVulkan::GetCurrentChromaFormat()
 SVLHMDDriverVulkan::GetCurrentEncodeFormat()
@@ -5257,6 +5260,7 @@ VK_KHR_external_semaphore
 VK_KHR_external_semaphore_capabilities
 VK_KHR_external_semaphore_fd
 VK_KHR_get_memory_requirements2
+VK_KHR_get_physical_device_properties2
 VK_KHR_image_format_list
 VK_KHR_maintenance1
 VK_KHR_maintenance9
@@ -5703,12 +5707,13 @@ Zjz\v
 [HMDVulkan] Activate()
 [HMDVulkan] Activate: Done!
 [HMDVulkan] Attempting to allocate %s image with size: %ux%u
+[HMDVulkan] Checking device '%s' with driver '%s'
+[HMDVulkan] Could not get vkGetPhysicalDeviceProperties2KHR, unable to determine adapter UUID -- vrcompositor may use the wrong device!
 [HMDVulkan] CreateSwapTextureSet: %dx%d(%d) %d
 [HMDVulkan] CreateSwapTextureSet: Created texture: 0x%llx
 [HMDVulkan] CreateSwapTextureSet: Failed to create shared texture for CreateSwapTextureSet
 [HMDVulkan] CreateVulkanDevice()
-[HMDVulkan] CreateVulkanDevice: No first device!
-[HMDVulkan] CreateVulkanDevice: No physical devices.
+[HMDVulkan] CreateVulkanDevice: No physical devices available.
 [HMDVulkan] CreateVulkanPipelines()
 [HMDVulkan] Created instance
 [HMDVulkan] Deactivate()
@@ -5738,14 +5743,22 @@ Zjz\v
 [HMDVulkan] Failed to setup debug utils! %x
 [HMDVulkan] Failed to setup encoder... Exiting...
 [HMDVulkan] Found dedicated async compute queue
+[HMDVulkan] Found no discrete GPUs, trying integrated GPUs...
 [HMDVulkan] Found regular graphics queue!
 [HMDVulkan] Going to recreate backbuffers
-[HMDVulkan] Got VkInstance + VkPhysicalDevice from VRSystem
+[HMDVulkan] Got VkInstance + VkPhysicalDevice
 [HMDVulkan] Invalid SPIR-V: %s
 [HMDVulkan] Is 10 bit? %s
 [HMDVulkan] Loading shader: %s
+[HMDVulkan] No valid GPUs, unable to initialize VRLink.
 [HMDVulkan] Oh no! There's no CVRIPCResourceManager.\n
+[HMDVulkan] Rejecting Nvidia driver '%s' because it is older than 575.64.5
+[HMDVulkan] Rejecting RADV driver '%s' because it is older than 25.2.1
+[HMDVulkan] Rejecting driver '%s' as it does not support HEVC encoding
+[HMDVulkan] Rejecting driver '%s' as it was compiled without H265 support
+[HMDVulkan] Using device '%s' with driver '%s'
 [HMDVulkan] VRLINK_VK DEBUG(%s): %s
+[HMDVulkan] VRSystem adapter LUID set to 0x%lx
 [HMDVulkan] vkGetPhysicalDeviceVideoFormatPropertiesKHR: %u properties for VK_IMAGE_USAGE_VIDEO_ENCODE_SRC_BIT_KHR:
 [HMDVulkan] ~SVLHMDDriverVulkan()
 [KeyFramedDataResource] Failed to load GLTF file: %s
@@ -16193,6 +16206,7 @@ void std::vector<Json::Reader::StructuredError, std::allocator<Json::Reader::Str
 void std::vector<OpResult, std::allocator<OpResult>>::_M_realloc_insert<OpResult const&>(__gnu_cxx::__normal_iterator<OpResult*, std::vector<OpResult, std::allocator<OpResult>>>, OpResult const&)
 void std::vector<Reflection::TypeInfo::BaseClassInfo_t, std::allocator<Reflection::TypeInfo::BaseClassInfo_t>>::_M_realloc_insert<Reflection::TypeInfo::BaseClassInfo_t const&>(__gnu_cxx::__normal_iterator<Reflection::TypeInfo::BaseClassInfo_t*, std::vector<Reflection::TypeInfo::BaseClassInfo_t, std::allocator<Reflection::TypeInfo::BaseClassInfo_t>>>, Reflection::TypeInfo::BaseClassInfo_t const&)
 void std::vector<VkDeviceMemory_T*, std::allocator<VkDeviceMemory_T*>>::_M_realloc_insert<VkDeviceMemory_T* const&>(__gnu_cxx::__normal_iterator<VkDeviceMemory_T**, std::vector<VkDeviceMemory_T*, std::allocator<VkDeviceMemory_T*>>>, VkDeviceMemory_T* const&)
+void std::vector<VkPhysicalDevice_T*, std::allocator<VkPhysicalDevice_T*>>::_M_realloc_insert<VkPhysicalDevice_T* const&>(__gnu_cxx::__normal_iterator<VkPhysicalDevice_T**, std::vector<VkPhysicalDevice_T*, std::allocator<VkPhysicalDevice_T*>>>, VkPhysicalDevice_T* const&)
 void std::vector<VkSemaphore_T*, std::allocator<VkSemaphore_T*>>::_M_realloc_insert<VkSemaphore_T*>(__gnu_cxx::__normal_iterator<VkSemaphore_T**, std::vector<VkSemaphore_T*, std::allocator<VkSemaphore_T*>>>, VkSemaphore_T*&&)
 void std::vector<VkVideoFormatPropertiesKHR, std::allocator<VkVideoFormatPropertiesKHR>>::_M_realloc_insert<VkVideoFormatPropertiesKHR>(__gnu_cxx::__normal_iterator<VkVideoFormatPropertiesKHR*, std::vector<VkVideoFormatPropertiesKHR, std::allocator<VkVideoFormatPropertiesKHR>>>, VkVideoFormatPropertiesKHR&&)
 void std::vector<VkVideoSessionMemoryRequirementsKHR, std::allocator<VkVideoSessionMemoryRequirementsKHR>>::_M_realloc_insert<VkVideoSessionMemoryRequirementsKHR>(__gnu_cxx::__normal_iterator<VkVideoSessionMemoryRequirementsKHR*, std::vector<VkVideoSessionMemoryRequirementsKHR, std::allocator<VkVideoSessionMemoryRequirementsKHR>>>, VkVideoSessionMemoryRequirementsKHR&&)

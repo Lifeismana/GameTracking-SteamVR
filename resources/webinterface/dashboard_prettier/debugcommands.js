@@ -1,4 +1,4 @@
-var CLSTAMP = "10585170";
+var CLSTAMP = "10590646";
 (() => {
   "use strict";
   var e,
@@ -10,8 +10,8 @@ var CLSTAMP = "10585170";
           s = Symbol.for("react.strict_mode"),
           i = Symbol.for("react.profiler"),
           a = Symbol.for("react.provider"),
-          u = Symbol.for("react.context"),
-          c = Symbol.for("react.forward_ref"),
+          c = Symbol.for("react.context"),
+          u = Symbol.for("react.forward_ref"),
           l = Symbol.for("react.suspense"),
           d = Symbol.for("react.memo"),
           m = Symbol.for("react.lazy"),
@@ -25,34 +25,34 @@ var CLSTAMP = "10585170";
             enqueueSetState: function () {},
           },
           f = Object.assign,
-          _ = {};
-        function g(e, t, r) {
+          g = {};
+        function _(e, t, r) {
           (this.props = e),
             (this.context = t),
-            (this.refs = _),
+            (this.refs = g),
             (this.updater = r || p);
         }
         function b() {}
         function S(e, t, r) {
           (this.props = e),
             (this.context = t),
-            (this.refs = _),
+            (this.refs = g),
             (this.updater = r || p);
         }
-        (g.prototype.isReactComponent = {}),
-          (g.prototype.setState = function (e, t) {
+        (_.prototype.isReactComponent = {}),
+          (_.prototype.setState = function (e, t) {
             if ("object" != typeof e && "function" != typeof e && null != e)
               throw Error(
                 "setState(...): takes an object of state variables to update or a function which returns an object of state variables.",
               );
             this.updater.enqueueSetState(this, e, t, "setState");
           }),
-          (g.prototype.forceUpdate = function (e) {
+          (_.prototype.forceUpdate = function (e) {
             this.updater.enqueueForceUpdate(this, e, "forceUpdate");
           }),
-          (b.prototype = g.prototype);
+          (b.prototype = _.prototype);
         var y = (S.prototype = new b());
-        (y.constructor = S), f(y, g.prototype), (y.isPureReactComponent = !0);
+        (y.constructor = S), f(y, _.prototype), (y.isPureReactComponent = !0);
         var v = Array.isArray,
           C = Object.prototype.hasOwnProperty,
           w = { current: null },
@@ -67,14 +67,14 @@ var CLSTAMP = "10585170";
             void 0 !== t.key && (i = "" + t.key),
             t))
               C.call(t, o) && !k.hasOwnProperty(o) && (s[o] = t[o]);
-          var u = arguments.length - 2;
-          if (1 === u) s.children = n;
-          else if (1 < u) {
-            for (var c = Array(u), l = 0; l < u; l++) c[l] = arguments[l + 2];
-            s.children = c;
+          var c = arguments.length - 2;
+          if (1 === c) s.children = n;
+          else if (1 < c) {
+            for (var u = Array(c), l = 0; l < c; l++) u[l] = arguments[l + 2];
+            s.children = u;
           }
           if (e && e.defaultProps)
-            for (o in (u = e.defaultProps)) void 0 === s[o] && (s[o] = u[o]);
+            for (o in (c = e.defaultProps)) void 0 === s[o] && (s[o] = c[o]);
           return {
             $$typeof: r,
             type: e,
@@ -101,32 +101,32 @@ var CLSTAMP = "10585170";
               })("" + e.key)
             : t.toString(36);
         }
-        function R(e, t, o, s, i) {
+        function x(e, t, o, s, i) {
           var a = typeof e;
           ("undefined" !== a && "boolean" !== a) || (e = null);
-          var u = !1;
-          if (null === e) u = !0;
+          var c = !1;
+          if (null === e) c = !0;
           else
             switch (a) {
               case "string":
               case "number":
-                u = !0;
+                c = !0;
                 break;
               case "object":
                 switch (e.$$typeof) {
                   case r:
                   case n:
-                    u = !0;
+                    c = !0;
                 }
             }
-          if (u)
+          if (c)
             return (
-              (i = i((u = e))),
-              (e = "" === s ? "." + N(u, 0) : s),
+              (i = i((c = e))),
+              (e = "" === s ? "." + N(c, 0) : s),
               v(i)
                 ? ((o = ""),
                   null != e && (o = e.replace(O, "$&/") + "/"),
-                  R(i, t, o, "", function (e) {
+                  x(i, t, o, "", function (e) {
                     return e;
                   }))
                 : null != i &&
@@ -143,7 +143,7 @@ var CLSTAMP = "10585170";
                     })(
                       i,
                       o +
-                        (!i.key || (u && u.key === i.key)
+                        (!i.key || (c && c.key === i.key)
                           ? ""
                           : ("" + i.key).replace(O, "$&/") + "/") +
                         e,
@@ -151,10 +151,10 @@ var CLSTAMP = "10585170";
                   t.push(i)),
               1
             );
-          if (((u = 0), (s = "" === s ? "." : s + ":"), v(e)))
-            for (var c = 0; c < e.length; c++) {
-              var l = s + N((a = e[c]), c);
-              u += R(a, t, o, l, i);
+          if (((c = 0), (s = "" === s ? "." : s + ":"), v(e)))
+            for (var u = 0; u < e.length; u++) {
+              var l = s + N((a = e[u]), u);
+              c += x(a, t, o, l, i);
             }
           else if (
             ((l = (function (e) {
@@ -166,8 +166,8 @@ var CLSTAMP = "10585170";
             })(e)),
             "function" == typeof l)
           )
-            for (e = l.call(e), c = 0; !(a = e.next()).done; )
-              u += R((a = a.value), t, o, (l = s + N(a, c++)), i);
+            for (e = l.call(e), u = 0; !(a = e.next()).done; )
+              c += x((a = a.value), t, o, (l = s + N(a, u++)), i);
           else if ("object" === a)
             throw (
               ((t = String(e)),
@@ -179,20 +179,20 @@ var CLSTAMP = "10585170";
                   "). If you meant to render a collection of children, use an array instead.",
               ))
             );
-          return u;
+          return c;
         }
-        function x(e, t, r) {
+        function M(e, t, r) {
           if (null == e) return e;
           var n = [],
             o = 0;
           return (
-            R(e, n, "", "", function (e) {
+            x(e, n, "", "", function (e) {
               return t.call(r, e, o++);
             }),
             n
           );
         }
-        function M(e) {
+        function R(e) {
           if (-1 === e._status) {
             var t = e._result;
             (t = t()).then(
@@ -212,20 +212,20 @@ var CLSTAMP = "10585170";
         }
         var F = { current: null },
           I = { transition: null },
-          L = {
+          T = {
             ReactCurrentDispatcher: F,
             ReactCurrentBatchConfig: I,
             ReactCurrentOwner: w,
           };
-        function D() {
+        function L() {
           throw Error(
             "act(...) is not supported in production builds of React.",
           );
         }
         (t.Children = {
-          map: x,
+          map: M,
           forEach: function (e, t, r) {
-            x(
+            M(
               e,
               function () {
                 t.apply(this, arguments);
@@ -236,7 +236,7 @@ var CLSTAMP = "10585170";
           count: function (e) {
             var t = 0;
             return (
-              x(e, function () {
+              M(e, function () {
                 t++;
               }),
               t
@@ -244,7 +244,7 @@ var CLSTAMP = "10585170";
           },
           toArray: function (e) {
             return (
-              x(e, function (e) {
+              M(e, function (e) {
                 return e;
               }) || []
             );
@@ -257,14 +257,14 @@ var CLSTAMP = "10585170";
             return e;
           },
         }),
-          (t.Component = g),
+          (t.Component = _),
           (t.Fragment = o),
           (t.Profiler = i),
           (t.PureComponent = S),
           (t.StrictMode = s),
           (t.Suspense = l),
-          (t.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED = L),
-          (t.act = D),
+          (t.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED = T),
+          (t.act = L),
           (t.cloneElement = function (e, t, n) {
             if (null == e)
               throw Error(
@@ -282,18 +282,18 @@ var CLSTAMP = "10585170";
                 void 0 !== t.key && (s = "" + t.key),
                 e.type && e.type.defaultProps)
               )
-                var u = e.type.defaultProps;
-              for (c in t)
-                C.call(t, c) &&
-                  !k.hasOwnProperty(c) &&
-                  (o[c] = void 0 === t[c] && void 0 !== u ? u[c] : t[c]);
+                var c = e.type.defaultProps;
+              for (u in t)
+                C.call(t, u) &&
+                  !k.hasOwnProperty(u) &&
+                  (o[u] = void 0 === t[u] && void 0 !== c ? c[u] : t[u]);
             }
-            var c = arguments.length - 2;
-            if (1 === c) o.children = n;
-            else if (1 < c) {
-              u = Array(c);
-              for (var l = 0; l < c; l++) u[l] = arguments[l + 2];
-              o.children = u;
+            var u = arguments.length - 2;
+            if (1 === u) o.children = n;
+            else if (1 < u) {
+              c = Array(u);
+              for (var l = 0; l < u; l++) c[l] = arguments[l + 2];
+              o.children = c;
             }
             return {
               $$typeof: r,
@@ -307,7 +307,7 @@ var CLSTAMP = "10585170";
           (t.createContext = function (e) {
             return (
               ((e = {
-                $$typeof: u,
+                $$typeof: c,
                 _currentValue: e,
                 _currentValue2: e,
                 _threadCount: 0,
@@ -328,14 +328,14 @@ var CLSTAMP = "10585170";
             return { current: null };
           }),
           (t.forwardRef = function (e) {
-            return { $$typeof: c, render: e };
+            return { $$typeof: u, render: e };
           }),
           (t.isValidElement = W),
           (t.lazy = function (e) {
             return {
               $$typeof: m,
               _payload: { _status: -1, _result: e },
-              _init: M,
+              _init: R,
             };
           }),
           (t.memo = function (e, t) {
@@ -350,7 +350,7 @@ var CLSTAMP = "10585170";
               I.transition = t;
             }
           }),
-          (t.unstable_act = D),
+          (t.unstable_act = L),
           (t.useCallback = function (e, t) {
             return F.current.useCallback(e, t);
           }),
@@ -443,18 +443,18 @@ var CLSTAMP = "10585170";
         r.d(t, {
           I0: () => d,
           M9: () => l,
-          Wq: () => c,
+          Wq: () => u,
           _n: () => m,
-          pg: () => u,
+          pg: () => c,
         });
         var n = r(1635),
           o = r(7813),
           s = r(3236),
           i = r(1295),
           a = r(776);
-        const u = "vrcompositor_systemlayer",
-          c = "vrcompositor_mailbox",
-          l = "systemui_dashboard_private",
+        const c = "vrcompositor_systemlayer",
+          u = "vrcompositor_mailbox",
+          l = "vrwebui_dashboardstore",
           d = "binding_callouts/main";
         class m {
           constructor() {
@@ -463,20 +463,24 @@ var CLSTAMP = "10585170";
               (this.m_oHandlers = {}),
               (this.m_oWaits = {}),
               (this.m_oConnectWaits = []),
-              (this.m_fnConnectResolve = void 0),
               (this.m_nNextMessageNumber = 1),
               (this.Log = new a.wd("Mailbox", () => this.m_sMailboxName)),
               (0, o.makeObservable)(this);
           }
           OpenWebSocketToHost() {
             return new Promise((e, t) => {
-              this.Log.Info("Connecting vrmailbox...");
+              this.Log.Info("Opening Web Socket...");
               let r = "ws://127.0.0.1:27062";
               this.m_sWebSecret && (r += "?secret=" + this.m_sWebSecret),
-                (this.m_fnConnectResolve = e),
-                (this.m_wsWebSocketToServer = new WebSocket(r)),
+                this.m_wsWebSocketToServer &&
+                  (this.Log.Error(
+                    "OpenWebSocketToHost called on existing connection",
+                  ),
+                  this.CloseWebSocket());
+              let n = !1;
+              (this.m_wsWebSocketToServer = new WebSocket(r)),
                 this.m_wsWebSocketToServer.addEventListener("open", (t) => {
-                  this.OnWebSocketOpen(t), e();
+                  this.OnWebSocketOpen(t), n || e(), (n = !0);
                 }),
                 this.m_wsWebSocketToServer.addEventListener(
                   "message",
@@ -486,11 +490,23 @@ var CLSTAMP = "10585170";
                   "close",
                   this.OnWebSocketClose,
                 ),
-                this.m_wsWebSocketToServer.addEventListener(
-                  "error",
-                  this.OnWebSocketError,
-                );
+                this.m_wsWebSocketToServer.addEventListener("error", (e) => {
+                  this.OnWebSocketError(e), n || t(), (n = !0);
+                });
             });
+          }
+          CloseWebSocket() {
+            this.m_wsWebSocketToServer.removeEventListener(
+              "message",
+              this.OnWebSocketMessage,
+            ),
+              this.m_wsWebSocketToServer.removeEventListener(
+                "close",
+                this.OnWebSocketClose,
+              ),
+              this.m_wsWebSocketToServer.close(),
+              (this.m_wsWebSocketToServer = void 0),
+              (this.connected = !1);
           }
           static EnsureUniqueName(e) {
             if (e.includes("/")) return e;
@@ -510,34 +526,39 @@ var CLSTAMP = "10585170";
               );
             });
           }
+          Destroy() {
+            this.CloseWebSocket();
+          }
           get name() {
             return this.m_sMailboxName;
           }
           OnWebSocketOpen(e) {
             (this.connected = !0),
+              this.Log.Info("Web Socket Opened"),
               this.WebSocketSend("mailbox_open " + this.m_sMailboxName),
               window.addEventListener("beforeunload", () => {
                 this.WebSocketSend("websocket_close");
-              }),
-              this.m_fnConnectResolve &&
-                (this.m_fnConnectResolve(), (this.m_fnConnectResolve = void 0));
+              });
             for (let e of this.m_oConnectWaits) e();
             this.m_oConnectWaits = [];
           }
           OnWebSocketClose(e) {
             return (0, n.sH)(this, void 0, void 0, function* () {
-              this.Log.Warning("Lost connection to host..."),
+              this.Log.Warning("Lost connection to host. code:", e.code),
                 (this.connected = !1),
+                (this.m_wsWebSocketToServer = void 0),
                 yield (0, i.IP)(1e3),
                 this.OpenWebSocketToHost();
             });
           }
           OnWebSocketError(e) {
             return (0, n.sH)(this, void 0, void 0, function* () {
-              this.Log.Error("Mailbox error:", e),
-                (this.connected = !1),
-                yield (0, i.IP)(1e3),
-                this.OpenWebSocketToHost();
+              this.Log.ErrorOnceThenWarn(
+                "OnWebSocketError",
+                "Mailbox error:",
+                e.type,
+              ),
+                (this.connected = !1);
             });
           }
           WebSocketSend(e) {
@@ -560,14 +581,20 @@ var CLSTAMP = "10585170";
                 r.nMessageId == t.message_id && (r.callback(t), (e = !0));
               e
                 ? (this.m_oWaits[t.type] = this.m_oWaits[t.type].filter(
-                    (e) => e.nMessageId == t.message_id,
+                    (e) => e.nMessageId != t.message_id,
                   ))
                 : this.Log.Error(
                     `Received a ${t.type} message, but didn't have a matching message_id. Did the other end forget to mirror message_id?`,
                   ),
                 (r = !0);
             }
-            r || this.Log.Error("Received unhandled message: ", t.type, t);
+            r ||
+              this.Log.ErrorOnceThenWarn(
+                "OnWebsocket283",
+                "Received unhandled message: ",
+                t.type,
+                t,
+              );
           }
           RegisterHandler(e, t) {
             this.m_oHandlers[e] = t;
@@ -603,13 +630,10 @@ var CLSTAMP = "10585170";
           }
           SendMessageAndWaitForResponse(e, t, r) {
             let n = Object.assign({}, t);
-            return (
-              null == n.returnAddress &&
-                (n.returnAddress = this.m_sMailboxName),
-              (n.message_id = this.m_nNextMessageNumber++),
-              this.SendMessage(e, n),
-              this.WaitForMessage(r, n.message_id)
-            );
+            null == n.returnAddress && (n.returnAddress = this.m_sMailboxName),
+              (n.message_id = this.m_nNextMessageNumber++);
+            const o = this.WaitForMessage(r, n.message_id);
+            return this.SendMessage(e, n), o;
           }
           SendResponse(e, t) {
             if (!e.returnAddress)
@@ -618,6 +642,12 @@ var CLSTAMP = "10585170";
               message_id: e.message_id,
             });
             (r.message_id = e.message_id), this.SendMessage(e.returnAddress, r);
+          }
+          SendDebugIllegalMsg() {
+            this.WebSocketSend("debug_send_illegal_msg");
+          }
+          SendDebugCloseMsg() {
+            this.WebSocketSend("debug_close");
           }
         }
         (m.s_nNextMailboxNumber = 1),
@@ -635,8 +665,8 @@ var CLSTAMP = "10585170";
           s = r(5338),
           i = r(3236),
           a = r(6090),
-          u = r(7813),
-          c = r(1370),
+          c = r(7813),
+          u = r(1370),
           l = r(1333);
         class d {
           constructor(e, t, r) {
@@ -842,10 +872,10 @@ var CLSTAMP = "10585170";
               (this.sCommand = e),
               (this.sMailbox = t),
               (this.refButton = o.createRef()),
-              (0, u.makeObservable)(this);
+              (0, c.makeObservable)(this);
           }
         }
-        (0, n.Cg)([u.observable], m.prototype, "shortcut", void 0);
+        (0, n.Cg)([c.observable], m.prototype, "shortcut", void 0);
         class h {
           dumpShortcuts() {
             let e = ["Defaults:"];
@@ -1224,11 +1254,11 @@ var CLSTAMP = "10585170";
           (0, n.Cg)([i.o], p.prototype, "onWindowBlur", null),
           (0, n.Cg)([i.o], p.prototype, "endEdit", null),
           (0, n.Cg)([i.o], p.prototype, "onKeyDown", null),
-          (0, n.Cg)([u.computed], p.prototype, "isEditing", null),
+          (0, n.Cg)([c.computed], p.prototype, "isEditing", null),
           (0, n.Cg)([i.o], p.prototype, "onSearchChanged", null),
           (0, n.Cg)([i.o], p.prototype, "clearSearch", null),
           (0, n.Cg)([i.o], p.prototype, "onResetShortcuts", null),
-          (p = (0, n.Cg)([c.PA], p)),
+          (p = (0, n.Cg)([u.PA], p)),
           s.H(document.getElementById("root")).render(o.createElement(p, null)),
           (window.document.title = "Debug Commands");
       },
@@ -1246,14 +1276,14 @@ var CLSTAMP = "10585170";
       if (!r) {
         var i = 1 / 0;
         for (l = 0; l < e.length; l++) {
-          for (var [r, o, s] = e[l], a = !0, u = 0; u < r.length; u++)
-            (!1 & s || i >= s) && Object.keys(n.O).every((e) => n.O[e](r[u]))
-              ? r.splice(u--, 1)
+          for (var [r, o, s] = e[l], a = !0, c = 0; c < r.length; c++)
+            (!1 & s || i >= s) && Object.keys(n.O).every((e) => n.O[e](r[c]))
+              ? r.splice(c--, 1)
               : ((a = !1), s < i && (i = s));
           if (a) {
             e.splice(l--, 1);
-            var c = o();
-            void 0 !== c && (t = c);
+            var u = o();
+            void 0 !== u && (t = u);
           }
         }
         return t;
@@ -1287,14 +1317,14 @@ var CLSTAMP = "10585170";
       var t = (t, r) => {
           var o,
             s,
-            [i, a, u] = r,
-            c = 0;
+            [i, a, c] = r,
+            u = 0;
           if (i.some((t) => 0 !== e[t])) {
             for (o in a) n.o(a, o) && (n.m[o] = a[o]);
-            if (u) var l = u(n);
+            if (c) var l = c(n);
           }
-          for (t && t(r); c < i.length; c++)
-            (s = i[c]), n.o(e, s) && e[s] && e[s][0](), (e[s] = 0);
+          for (t && t(r); u < i.length; u++)
+            (s = i[u]), n.o(e, s) && e[s] && e[s][0](), (e[s] = 0);
           return n.O(l);
         },
         r = (self.webpackChunkvrwebui = self.webpackChunkvrwebui || []);

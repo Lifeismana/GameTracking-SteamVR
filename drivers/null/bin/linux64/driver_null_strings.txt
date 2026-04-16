@@ -501,6 +501,7 @@ V_URLEncodeNoPlusForSpace(char*, int, char const*, int)
 V_URLEncodeNoPlusForSpace(char*, int, char const*, int) (.cold)
 Wednesday
 [abi:
+\t595
 _.stapsdt.base
 _Accum
 _DYNAMIC

@@ -625,7 +625,7 @@
 /vrlink_stream_packet_time
 126.0.0-HEAD.3134+g1967f4c+chromium-126.0.6478.183
 127.0.0.1
-16:51:49
+12:09:25
 1e+9999
 4ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/
 5I)7
@@ -739,7 +739,7 @@ Another app was already launching (117)
 Another copy of this program is already running on this machine. Only one instance at a time is allowed.
 App info manager init failed (114)
 AppGetSettings
-Apr  8 2026
+Apr 13 2026
 ArrayBuffer
 Assert( %s ) %s(%d)\n
 Attempt to init shared state %s twice
@@ -1935,6 +1935,7 @@ VRInitError_VendorSpecific_Oasis_UnlockRequired
 VRInitError_VendorSpecific_OculusLinkNotEnabled
 VRInitError_VendorSpecific_OculusRuntimeBadInstall
 VRInitError_VendorSpecific_UnableToConnectToOculusRuntime
+VRInitError_VendorSpecific_VRLink_NoAdapterFound
 VRInitError_VendorSpecific_VRLink_NoVideoSupport
 VRInitError_VendorSpecific_VRLink_OutdatedDriverMESA
 VRInitError_VendorSpecific_VRLink_OutdatedDriverNVIDIA

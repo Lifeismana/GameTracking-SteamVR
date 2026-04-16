@@ -1128,13 +1128,12 @@ $\n k_EProtoServiceTypeSteamMessages
 0123456789ABCDEF
 0123456789ABCDEFundefined
 0123456789abcdef
-0\rPR
 0x%02x 
 1.2.5
 1.5.26
 1/2/4/8/16-bit only
 123456789
-16:51:49
+12:09:25
 1A26b
 1e+9999
 1wsHp
@@ -1294,7 +1293,7 @@ Another app was already launching (117)
 Another copy of this program is already running on this machine. Only one instance at a time is allowed.
 App info manager init failed (114)
 Application built with libpng-
-Apr  8 2026
+Apr 13 2026
 Assert( %s ) %s(%d)\n
 Async compositor and reprojection DISABLED!!!
 Asynchronous reprojection not supported - requires NVIDIA driver 372.54 or higher.\n
@@ -3214,9 +3213,7 @@ QueryServiceConfigW
 R1h58
 RENDERDOC_GetAPI
 RPCRT4.dll
-RSDSIi
-R\npR
-R\vpR
+RSDS
 RaiseException
 Raw Exaggerated Motion Vectors (Scaled 3.0)
 Raw Motion Vectors
@@ -4081,6 +4078,7 @@ VRInitError_VendorSpecific_Oasis_UnlockRequired
 VRInitError_VendorSpecific_OculusLinkNotEnabled
 VRInitError_VendorSpecific_OculusRuntimeBadInstall
 VRInitError_VendorSpecific_UnableToConnectToOculusRuntime
+VRInitError_VendorSpecific_VRLink_NoAdapterFound
 VRInitError_VendorSpecific_VRLink_NoVideoSupport
 VRInitError_VendorSpecific_VRLink_OutdatedDriverMESA
 VRInitError_VendorSpecific_VRLink_OutdatedDriverNVIDIA
@@ -6301,7 +6299,6 @@ systemLayerWidth
 system_dashboard_toggle
 systemlayer-msaa-enable-override
 systemlayer.exe
-systemui_dashboard_private
 tRNS after IDAT
 tRNS before PLTE
 tRNS with alpha
@@ -6456,6 +6453,8 @@ vrserver internal error (124)
 vrshared_base.proto
 vrsharedresourcemanager
 vrwebhelper
+vrwebui_dashboard
+vrwebui_dashboardstore
 vsync_to_photons_big_decrement
 vsync_to_photons_big_increment
 vsync_to_photons_decrement

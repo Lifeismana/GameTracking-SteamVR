@@ -497,12 +497,12 @@
 16CVkCommandBuffer
 18CPrismDisplay_Null
 18IPrismPoseProvider
+19:09:31
 19CVkGarbageCollector
 19CVkPoolableResourceI20CVkCommandBufferPoolE
 1e+9999
 20CVkCommandBufferPool
 20IPrismDisplayFactory
-23:50:32
 23CPrismPoseProvider_Null
 23CVkPoolGarbageCollectorI16CVkCommandBufferE
 23ISwapchainImageProvider
@@ -548,7 +548,7 @@ Already initialized
 AmplificationShader
 Apply blur filter
 Apply median filter
-Apr  8 2026
+Apr 13 2026
 April
 Attempt to init shared state %s twice
 Attempted to write %zd bytes and ended up writing 0. Closing the pipe\n
@@ -1515,7 +1515,6 @@ GLIBC_2.3.2
 GLIBC_2.3.3
 GLIBC_2.3.4
 GLSL.std.450
-GOn!
 GatherNodeRenderPassInfo(allocator, nodeDecl, renderTargetsInfoOffset, &pRpInfo)
 GenerateVisibleAreaMesh
 GeometryShader

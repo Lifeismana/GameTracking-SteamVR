@@ -1279,7 +1279,6 @@ $3br
 .L236
 .L237
 .L238
-.L239
 .L24
 .L240
 .L241
@@ -2821,6 +2820,7 @@ $3br
 17CLinuxVideoStream
 18CPropertyContainer
 18IUsbDeviceCallback
+19:09:10
 19CWirelessDecoderWv2
 1e+9999
 2#.google.protobuf.FieldOptions.CType:
@@ -2842,7 +2842,6 @@ $3br
 22CVRCameraComponent_002
 22IVRDisplayComponent001
 22IVRDisplayComponent002
-23:50:14
 23BlendMatrix2x2PoseMaker
 23BlendMatrix3x3PoseMaker
 23CUsbDeviceScannerThread
@@ -3033,7 +3032,7 @@ App Init
 App info manager init failed (114)
 App not found
 ApplyGrowForUndistort(float, vortex::CHmdDisplay::CEyeProjection*)
-Apr  8 2026
+Apr 13 2026
 April
 Args
 Array length of `baseColorFactor` parameter in pbrMetallicRoughness must be 4, but got 
@@ -7931,6 +7930,7 @@ RootSerial %s\n
 Rotors on basestation out of 180-degree phase lock.\n
 RoundExtendedStorage(unsigned int)
 RunFrame
+R~FW
 SCALAR
 SDL Failed to get current display bounds for display %d\n
 SDL Failed to get current display mode for display %d\n
@@ -9129,6 +9129,7 @@ VRInitError_VendorSpecific_Oasis_UnlockRequired
 VRInitError_VendorSpecific_OculusLinkNotEnabled
 VRInitError_VendorSpecific_OculusRuntimeBadInstall
 VRInitError_VendorSpecific_UnableToConnectToOculusRuntime
+VRInitError_VendorSpecific_VRLink_NoAdapterFound
 VRInitError_VendorSpecific_VRLink_NoVideoSupport
 VRInitError_VendorSpecific_VRLink_OutdatedDriverMESA
 VRInitError_VendorSpecific_VRLink_OutdatedDriverNVIDIA

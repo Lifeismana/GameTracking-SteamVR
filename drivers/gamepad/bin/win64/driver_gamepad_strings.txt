@@ -118,7 +118,7 @@ MSVCP140.dll
 MainThrd
 Out of thread local storage!\n
 QueryPerformanceCounter
-RSDS
+RSDS!4
 RaiseException
 RtlCaptureContext
 RtlLookupFunctionEntry
@@ -208,6 +208,7 @@ memcpy
 memmove
 memset
 string too long
+swT3
 terminate
 vector<T> too long
 {gamepad}/icons/gamepad_status_error.png

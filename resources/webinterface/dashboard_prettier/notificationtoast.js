@@ -1,4 +1,4 @@
-var CLSTAMP = "10585170";
+var CLSTAMP = "10590646";
 (() => {
   "use strict";
   var e,
@@ -6,18 +6,18 @@ var CLSTAMP = "10585170";
       6090: (e, t, s) => {
         s.d(t, {
           Ay: () => l,
-          GM: () => o.GM,
-          I0: () => n.I0,
-          M9: () => n.M9,
+          GM: () => i.GM,
+          I0: () => o.I0,
+          M9: () => o.M9,
           OH: () => a.OH,
           R$: () => a.R$,
           Zk: () => r.Zk,
-          _n: () => n._n,
-          dL: () => i.d,
+          _n: () => o._n,
+          dL: () => n.d,
         });
-        var n = s(2824),
-          i = (s(3389), s(4120), s(1230), s(5830), s(6186), s(3361)),
-          o = (s(111), s(5723), s(3496)),
+        var o = s(2824),
+          n = (s(3389), s(4120), s(1230), s(5830), s(6186), s(3361)),
+          i = (s(111), s(5723), s(3496)),
           r =
             (s(5178),
             s(428),
@@ -48,12 +48,12 @@ var CLSTAMP = "10585170";
       },
       2824: (e, t, s) => {
         s.d(t, { I0: () => c, M9: () => l, _n: () => h });
-        var n = s(1635),
-          i = s(7813),
-          o = s(3236),
+        var o = s(1635),
+          n = s(7813),
+          i = s(3236),
           r = s(1295),
           a = s(776);
-        const l = "systemui_dashboard_private",
+        const l = "vrwebui_dashboardstore",
           c = "binding_callouts/main";
         class h {
           constructor() {
@@ -62,20 +62,24 @@ var CLSTAMP = "10585170";
               (this.m_oHandlers = {}),
               (this.m_oWaits = {}),
               (this.m_oConnectWaits = []),
-              (this.m_fnConnectResolve = void 0),
               (this.m_nNextMessageNumber = 1),
               (this.Log = new a.wd("Mailbox", () => this.m_sMailboxName)),
-              (0, i.makeObservable)(this);
+              (0, n.makeObservable)(this);
           }
           OpenWebSocketToHost() {
             return new Promise((e, t) => {
-              this.Log.Info("Connecting vrmailbox...");
+              this.Log.Info("Opening Web Socket...");
               let s = "ws://127.0.0.1:27062";
               this.m_sWebSecret && (s += "?secret=" + this.m_sWebSecret),
-                (this.m_fnConnectResolve = e),
-                (this.m_wsWebSocketToServer = new WebSocket(s)),
+                this.m_wsWebSocketToServer &&
+                  (this.Log.Error(
+                    "OpenWebSocketToHost called on existing connection",
+                  ),
+                  this.CloseWebSocket());
+              let o = !1;
+              (this.m_wsWebSocketToServer = new WebSocket(s)),
                 this.m_wsWebSocketToServer.addEventListener("open", (t) => {
-                  this.OnWebSocketOpen(t), e();
+                  this.OnWebSocketOpen(t), o || e(), (o = !0);
                 }),
                 this.m_wsWebSocketToServer.addEventListener(
                   "message",
@@ -85,11 +89,23 @@ var CLSTAMP = "10585170";
                   "close",
                   this.OnWebSocketClose,
                 ),
-                this.m_wsWebSocketToServer.addEventListener(
-                  "error",
-                  this.OnWebSocketError,
-                );
+                this.m_wsWebSocketToServer.addEventListener("error", (e) => {
+                  this.OnWebSocketError(e), o || t(), (o = !0);
+                });
             });
+          }
+          CloseWebSocket() {
+            this.m_wsWebSocketToServer.removeEventListener(
+              "message",
+              this.OnWebSocketMessage,
+            ),
+              this.m_wsWebSocketToServer.removeEventListener(
+                "close",
+                this.OnWebSocketClose,
+              ),
+              this.m_wsWebSocketToServer.close(),
+              (this.m_wsWebSocketToServer = void 0),
+              (this.connected = !1);
           }
           static EnsureUniqueName(e) {
             if (e.includes("/")) return e;
@@ -100,7 +116,7 @@ var CLSTAMP = "10585170";
             );
           }
           Init(e, t) {
-            return (0, n.sH)(this, void 0, void 0, function* () {
+            return (0, o.sH)(this, void 0, void 0, function* () {
               return (
                 (this.m_sMailboxName = h.EnsureUniqueName(e)),
                 (this.m_sWebSecret = t),
@@ -109,34 +125,39 @@ var CLSTAMP = "10585170";
               );
             });
           }
+          Destroy() {
+            this.CloseWebSocket();
+          }
           get name() {
             return this.m_sMailboxName;
           }
           OnWebSocketOpen(e) {
             (this.connected = !0),
+              this.Log.Info("Web Socket Opened"),
               this.WebSocketSend("mailbox_open " + this.m_sMailboxName),
               window.addEventListener("beforeunload", () => {
                 this.WebSocketSend("websocket_close");
-              }),
-              this.m_fnConnectResolve &&
-                (this.m_fnConnectResolve(), (this.m_fnConnectResolve = void 0));
+              });
             for (let e of this.m_oConnectWaits) e();
             this.m_oConnectWaits = [];
           }
           OnWebSocketClose(e) {
-            return (0, n.sH)(this, void 0, void 0, function* () {
-              this.Log.Warning("Lost connection to host..."),
+            return (0, o.sH)(this, void 0, void 0, function* () {
+              this.Log.Warning("Lost connection to host. code:", e.code),
                 (this.connected = !1),
+                (this.m_wsWebSocketToServer = void 0),
                 yield (0, r.IP)(1e3),
                 this.OpenWebSocketToHost();
             });
           }
           OnWebSocketError(e) {
-            return (0, n.sH)(this, void 0, void 0, function* () {
-              this.Log.Error("Mailbox error:", e),
-                (this.connected = !1),
-                yield (0, r.IP)(1e3),
-                this.OpenWebSocketToHost();
+            return (0, o.sH)(this, void 0, void 0, function* () {
+              this.Log.ErrorOnceThenWarn(
+                "OnWebSocketError",
+                "Mailbox error:",
+                e.type,
+              ),
+                (this.connected = !1);
             });
           }
           WebSocketSend(e) {
@@ -159,14 +180,20 @@ var CLSTAMP = "10585170";
                 s.nMessageId == t.message_id && (s.callback(t), (e = !0));
               e
                 ? (this.m_oWaits[t.type] = this.m_oWaits[t.type].filter(
-                    (e) => e.nMessageId == t.message_id,
+                    (e) => e.nMessageId != t.message_id,
                   ))
                 : this.Log.Error(
                     `Received a ${t.type} message, but didn't have a matching message_id. Did the other end forget to mirror message_id?`,
                   ),
                 (s = !0);
             }
-            s || this.Log.Error("Received unhandled message: ", t.type, t);
+            s ||
+              this.Log.ErrorOnceThenWarn(
+                "OnWebsocket283",
+                "Received unhandled message: ",
+                t.type,
+                t,
+              );
           }
           RegisterHandler(e, t) {
             this.m_oHandlers[e] = t;
@@ -177,7 +204,7 @@ var CLSTAMP = "10585170";
             );
           }
           WaitForMessage(e, t) {
-            return new Promise((s, n) => {
+            return new Promise((s, o) => {
               this.m_oWaits[e] || (this.m_oWaits[e] = []),
                 this.m_oWaits[e].push({ callback: s, nMessageId: t });
             });
@@ -188,7 +215,7 @@ var CLSTAMP = "10585170";
             });
           }
           WaitForMailbox(e) {
-            return (0, n.sH)(this, void 0, void 0, function* () {
+            return (0, o.sH)(this, void 0, void 0, function* () {
               let t = {
                 type: "request_mailbox_registration_notification",
                 mailbox_name: e,
@@ -201,14 +228,11 @@ var CLSTAMP = "10585170";
             });
           }
           SendMessageAndWaitForResponse(e, t, s) {
-            let n = Object.assign({}, t);
-            return (
-              null == n.returnAddress &&
-                (n.returnAddress = this.m_sMailboxName),
-              (n.message_id = this.m_nNextMessageNumber++),
-              this.SendMessage(e, n),
-              this.WaitForMessage(s, n.message_id)
-            );
+            let o = Object.assign({}, t);
+            null == o.returnAddress && (o.returnAddress = this.m_sMailboxName),
+              (o.message_id = this.m_nNextMessageNumber++);
+            const n = this.WaitForMessage(s, o.message_id);
+            return this.SendMessage(e, o), n;
           }
           SendResponse(e, t) {
             if (!e.returnAddress)
@@ -218,20 +242,26 @@ var CLSTAMP = "10585170";
             });
             (s.message_id = e.message_id), this.SendMessage(e.returnAddress, s);
           }
+          SendDebugIllegalMsg() {
+            this.WebSocketSend("debug_send_illegal_msg");
+          }
+          SendDebugCloseMsg() {
+            this.WebSocketSend("debug_close");
+          }
         }
         (h.s_nNextMailboxNumber = 1),
-          (0, n.Cg)([i.observable], h.prototype, "connected", void 0),
-          (0, n.Cg)([o.o], h.prototype, "OpenWebSocketToHost", null),
-          (0, n.Cg)([o.o], h.prototype, "OnWebSocketOpen", null),
-          (0, n.Cg)([o.o], h.prototype, "OnWebSocketClose", null),
-          (0, n.Cg)([o.o], h.prototype, "OnWebSocketError", null),
-          (0, n.Cg)([o.o], h.prototype, "WebSocketSend", null),
-          (0, n.Cg)([o.o], h.prototype, "OnWebSocketMessage", null);
+          (0, o.Cg)([n.observable], h.prototype, "connected", void 0),
+          (0, o.Cg)([i.o], h.prototype, "OpenWebSocketToHost", null),
+          (0, o.Cg)([i.o], h.prototype, "OnWebSocketOpen", null),
+          (0, o.Cg)([i.o], h.prototype, "OnWebSocketClose", null),
+          (0, o.Cg)([i.o], h.prototype, "OnWebSocketError", null),
+          (0, o.Cg)([i.o], h.prototype, "WebSocketSend", null),
+          (0, o.Cg)([i.o], h.prototype, "OnWebSocketMessage", null);
       },
       4358: (e, t, s) => {
-        var n = s(1635),
-          i = s(6540),
-          o = s(5338),
+        var o = s(1635),
+          n = s(6540),
+          i = s(5338),
           r = s(3236),
           a = s(6090),
           l = s(2505),
@@ -241,11 +271,11 @@ var CLSTAMP = "10585170";
             (this.m_mapTokens = new Map()),
               (this.m_mapFallbackTokens = new Map());
           }
-          InitFromObjects(e, t, s, n) {
+          InitFromObjects(e, t, s, o) {
             this.m_mapTokens.clear();
-            let i = [t, e, n, s];
-            for (let e in i) {
-              let t = i[e];
+            let n = [t, e, o, s];
+            for (let e in n) {
+              let t = n[e];
               for (let e in t) {
                 let s = t[e];
                 for (let e in s) {
@@ -285,9 +315,9 @@ var CLSTAMP = "10585170";
         window.LocalizationManager = d;
         var m = s(1333),
           u = s(7813),
-          g = s(582);
+          b = s(582);
         (0, u.configure)({ enforceActions: "never" });
-        class b extends i.Component {
+        class g extends n.Component {
           constructor(e) {
             super(e),
               (this.m_toastMailbox = new a._n()),
@@ -327,18 +357,18 @@ var CLSTAMP = "10585170";
           }
           render() {
             return this.state.visible
-              ? i.createElement(
+              ? n.createElement(
                   "div",
                   { className: "VRNotificationRoot" },
-                  i.createElement(
+                  n.createElement(
                     "div",
                     { className: "VRNotificationApplicationName" },
                     this.state.title,
                   ),
-                  i.createElement(
+                  n.createElement(
                     "div",
                     { className: "VRNotificationFrame" },
-                    i.createElement("div", {
+                    n.createElement("div", {
                       className: "VRToastImage",
                       style: {
                         backgroundImage: this.state.image
@@ -346,15 +376,15 @@ var CLSTAMP = "10585170";
                           : "url('/dashboard/images/icons/notification_steamcog.png')",
                       },
                     }),
-                    i.createElement(
+                    n.createElement(
                       "div",
                       { className: "VRNotificationTextWrapper" },
-                      i.createElement(
+                      n.createElement(
                         "div",
                         { className: "VRNotificationHeader" },
                         this.state.header,
                       ),
-                      i.createElement(
+                      n.createElement(
                         "div",
                         { className: "VRNotificationText" },
                         this.state.text,
@@ -365,7 +395,7 @@ var CLSTAMP = "10585170";
               : null;
           }
         }
-        (0, n.Cg)([r.o], b.prototype, "OnRenderToast", null),
+        (0, o.Cg)([r.o], g.prototype, "OnRenderToast", null),
           (function (e, t) {
             t ||
               (t = (function () {
@@ -407,60 +437,60 @@ var CLSTAMP = "10585170";
                 return "english";
               })());
             let s = [],
-              n = (e, t, s) => {
-                let n,
-                  i = Date.now().toString();
+              o = (e, t, s) => {
+                let o,
+                  n = Date.now().toString();
                 return (
-                  (n =
+                  (o =
                     "drivers" == e
-                      ? `/input/localization.json?t=${i}`
+                      ? `/input/localization.json?t=${n}`
                       : "webhelper" == e
-                        ? `/dashboard/localization/${e}_${t}.json?t=${i}`
-                        : `localization/${e}_${t}.json?t=${i}`),
+                        ? `/dashboard/localization/${e}_${t}.json?t=${n}`
+                        : `localization/${e}_${t}.json?t=${n}`),
                   c()
-                    .get(n)
+                    .get(o)
                     .then((e) => {
                       s(e.data);
                     })
                     .catch(() => {})
                 );
               },
+              n = [],
               i = [],
-              o = [],
               r = [],
               a = [];
-            for (let o of e)
+            for (let i of e)
               s.push(
-                n(o, t, (e) => {
-                  i.push(e);
+                o(i, t, (e) => {
+                  n.push(e);
                 }),
               ),
                 "english" != t &&
                   s.push(
-                    n(o, "english", (e) => {
+                    o(i, "english", (e) => {
                       r.push(e);
                     }),
                   );
             for (let e of ["webhelper"])
               s.push(
-                n(e, t, (e) => {
-                  o.push(e);
+                o(e, t, (e) => {
+                  i.push(e);
                 }),
               ),
                 "english" != t &&
                   s.push(
-                    n(e, "english", (e) => {
+                    o(e, "english", (e) => {
                       a.push(e);
                     }),
                   );
             return (
               s.push(
-                n("drivers", "", (e) => {
-                  i.push(e);
+                o("drivers", "", (e) => {
+                  n.push(e);
                 }),
               ),
               Promise.all(s).then(() => {
-                d.InitFromObjects(i, o, r, a);
+                d.InitFromObjects(n, i, r, a);
               })
             );
           })(
@@ -468,10 +498,10 @@ var CLSTAMP = "10585170";
             null === a.Ay || void 0 === a.Ay ? void 0 : a.Ay.GetSteamLanguage(),
           )
             .then(() => {
-              (0, g.aj)().Init("SteamVR", CLSTAMP, (0, g.d4)()),
-                o
+              (0, b.aj)().Init("SteamVR", CLSTAMP, (0, b.d4)()),
+                i
                   .H(document.getElementById("root"))
-                  .render(i.createElement(b, null));
+                  .render(n.createElement(g, null));
             })
             .catch((e) =>
               console.error("Failed to initialize notification toast:", e),
@@ -479,45 +509,45 @@ var CLSTAMP = "10585170";
       },
     },
     s = {};
-  function n(e) {
-    var i = s[e];
-    if (void 0 !== i) return i.exports;
-    var o = (s[e] = { exports: {} });
-    return t[e].call(o.exports, o, o.exports, n), o.exports;
+  function o(e) {
+    var n = s[e];
+    if (void 0 !== n) return n.exports;
+    var i = (s[e] = { exports: {} });
+    return t[e].call(i.exports, i, i.exports, o), i.exports;
   }
-  (n.m = t),
+  (o.m = t),
     (e = []),
-    (n.O = (t, s, i, o) => {
+    (o.O = (t, s, n, i) => {
       if (!s) {
         var r = 1 / 0;
         for (h = 0; h < e.length; h++) {
-          for (var [s, i, o] = e[h], a = !0, l = 0; l < s.length; l++)
-            (!1 & o || r >= o) && Object.keys(n.O).every((e) => n.O[e](s[l]))
+          for (var [s, n, i] = e[h], a = !0, l = 0; l < s.length; l++)
+            (!1 & i || r >= i) && Object.keys(o.O).every((e) => o.O[e](s[l]))
               ? s.splice(l--, 1)
-              : ((a = !1), o < r && (r = o));
+              : ((a = !1), i < r && (r = i));
           if (a) {
             e.splice(h--, 1);
-            var c = i();
+            var c = n();
             void 0 !== c && (t = c);
           }
         }
         return t;
       }
-      o = o || 0;
-      for (var h = e.length; h > 0 && e[h - 1][2] > o; h--) e[h] = e[h - 1];
-      e[h] = [s, i, o];
+      i = i || 0;
+      for (var h = e.length; h > 0 && e[h - 1][2] > i; h--) e[h] = e[h - 1];
+      e[h] = [s, n, i];
     }),
-    (n.n = (e) => {
+    (o.n = (e) => {
       var t = e && e.__esModule ? () => e.default : () => e;
-      return n.d(t, { a: t }), t;
+      return o.d(t, { a: t }), t;
     }),
-    (n.d = (e, t) => {
+    (o.d = (e, t) => {
       for (var s in t)
-        n.o(t, s) &&
-          !n.o(e, s) &&
+        o.o(t, s) &&
+          !o.o(e, s) &&
           Object.defineProperty(e, s, { enumerable: !0, get: t[s] });
     }),
-    (n.g = (function () {
+    (o.g = (function () {
       if ("object" == typeof globalThis) return globalThis;
       try {
         return this || new Function("return this")();
@@ -525,30 +555,30 @@ var CLSTAMP = "10585170";
         if ("object" == typeof window) return window;
       }
     })()),
-    (n.o = (e, t) => Object.prototype.hasOwnProperty.call(e, t)),
+    (o.o = (e, t) => Object.prototype.hasOwnProperty.call(e, t)),
     (() => {
       var e = { 915: 0, 527: 0, 500: 0 };
-      n.O.j = (t) => 0 === e[t];
+      o.O.j = (t) => 0 === e[t];
       var t = (t, s) => {
-          var i,
-            o,
+          var n,
+            i,
             [r, a, l] = s,
             c = 0;
           if (r.some((t) => 0 !== e[t])) {
-            for (i in a) n.o(a, i) && (n.m[i] = a[i]);
-            if (l) var h = l(n);
+            for (n in a) o.o(a, n) && (o.m[n] = a[n]);
+            if (l) var h = l(o);
           }
           for (t && t(s); c < r.length; c++)
-            (o = r[c]), n.o(e, o) && e[o] && e[o][0](), (e[o] = 0);
-          return n.O(h);
+            (i = r[c]), o.o(e, i) && e[i] && e[i][0](), (e[i] = 0);
+          return o.O(h);
         },
         s = (self.webpackChunkvrwebui = self.webpackChunkvrwebui || []);
       s.forEach(t.bind(null, 0)), (s.push = t.bind(null, s.push.bind(s)));
     })();
-  var i = n.O(
+  var n = o.O(
     void 0,
     [967, 352, 211, 154, 305, 527, 797, 148, 500, 554, 198, 384],
-    () => n(4358),
+    () => o(4358),
   );
-  i = n.O(i);
+  n = o.O(n);
 })(); //# sourceMappingURL=file:///home/buildbot/buildslave/steamvr_rel_npm_vrwebui/build/public/runtime/resources/webinterface/dashboard/sourcemaps/notificationtoast.js.map

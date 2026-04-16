@@ -1,4 +1,4 @@
-var CLSTAMP = "10585170";
+var CLSTAMP = "10590646";
 (() => {
   "use strict";
   var e,
@@ -368,10 +368,10 @@ var CLSTAMP = "10585170";
               "object" == typeof this.props.origin
                 ? (0, p.PG)(this.props.origin, { x: 0, y: 0 })
                 : v(this.props.origin);
-            const R = this.props.overlay_key,
+            const b = this.props.overlay_key,
               C = (0, c.w5)();
-            R && R.length > 0
-              ? (S.properties.key = R)
+            b && b.length > 0
+              ? (S.properties.key = b)
               : C
                 ? (S.properties.key = C)
                 : (S.properties.overlay_handle = (0, c.X4)()),
@@ -379,10 +379,10 @@ var CLSTAMP = "10585170";
                 null !== (o = y(this.m_UVsMin)) && void 0 !== o ? o : void 0),
               (S.properties.uv_max =
                 null !== (n = y(this.m_UVsMax)) && void 0 !== n ? n : void 0);
-            const b = 1 / h.O.Current().m_fCurrentScale;
-            let M = this.props.frame_resize_scale_factor;
+            const R = 1 / h.O.Current().m_fCurrentScale;
+            let k = this.props.frame_resize_scale_factor;
             return (
-              this.props.is_frame_page_main_panel && (M = null != M ? M : 1),
+              this.props.is_frame_page_main_panel && (k = null != k ? k : 1),
               (S.properties.width =
                 null !== (i = this.props.width) && void 0 !== i ? i : void 0),
               (S.properties.height =
@@ -403,7 +403,7 @@ var CLSTAMP = "10585170";
                 this.props.target_dpi_multiplier),
               (S.properties["meters-per-pixel"] =
                 null != this.props.meters_per_pixel
-                  ? this.props.meters_per_pixel * b
+                  ? this.props.meters_per_pixel * R
                   : void 0),
               (S.properties["subview-parent-panel-key"] =
                 this.props.subview_parent_panel_key),
@@ -450,7 +450,7 @@ var CLSTAMP = "10585170";
               (S.properties["sort-order"] = this.props.sort_order),
               (S.properties["sort-depth-bias"] = this.props.sort_depth_bias),
               (S.properties.visibility = this.visibility),
-              (S.properties["frame-resize-scale-factor"] = M),
+              (S.properties["frame-resize-scale-factor"] = k),
               (S.properties["main-panel-for-frame-page"] =
                 this.props.is_frame_page_main_panel),
               (S.properties["steam-input-appid"] =
@@ -500,11 +500,11 @@ var CLSTAMP = "10585170";
               },
               u.createElement(m.tH, null, this.props.children),
               this.props.is_frame_page_main_panel &&
-                u.createElement(R, { panel: this, panelID: this.getID() }),
+                u.createElement(b, { panel: this, panelID: this.getID() }),
             );
           }
         }
-        function R(e) {
+        function b(e) {
           const { panel: t, panelID: o } = e,
             { page: n } = (0, g.N)();
           return (
@@ -709,7 +709,7 @@ var CLSTAMP = "10585170";
           r = o(3236),
           s = o(1295),
           a = o(776);
-        const l = "systemui_dashboard_private",
+        const l = "vrwebui_dashboardstore",
           d = "binding_callouts/main";
         class u {
           constructor() {
@@ -718,20 +718,24 @@ var CLSTAMP = "10585170";
               (this.m_oHandlers = {}),
               (this.m_oWaits = {}),
               (this.m_oConnectWaits = []),
-              (this.m_fnConnectResolve = void 0),
               (this.m_nNextMessageNumber = 1),
               (this.Log = new a.wd("Mailbox", () => this.m_sMailboxName)),
               (0, i.makeObservable)(this);
           }
           OpenWebSocketToHost() {
             return new Promise((e, t) => {
-              this.Log.Info("Connecting vrmailbox...");
+              this.Log.Info("Opening Web Socket...");
               let o = "ws://127.0.0.1:27062";
               this.m_sWebSecret && (o += "?secret=" + this.m_sWebSecret),
-                (this.m_fnConnectResolve = e),
-                (this.m_wsWebSocketToServer = new WebSocket(o)),
+                this.m_wsWebSocketToServer &&
+                  (this.Log.Error(
+                    "OpenWebSocketToHost called on existing connection",
+                  ),
+                  this.CloseWebSocket());
+              let n = !1;
+              (this.m_wsWebSocketToServer = new WebSocket(o)),
                 this.m_wsWebSocketToServer.addEventListener("open", (t) => {
-                  this.OnWebSocketOpen(t), e();
+                  this.OnWebSocketOpen(t), n || e(), (n = !0);
                 }),
                 this.m_wsWebSocketToServer.addEventListener(
                   "message",
@@ -741,11 +745,23 @@ var CLSTAMP = "10585170";
                   "close",
                   this.OnWebSocketClose,
                 ),
-                this.m_wsWebSocketToServer.addEventListener(
-                  "error",
-                  this.OnWebSocketError,
-                );
+                this.m_wsWebSocketToServer.addEventListener("error", (e) => {
+                  this.OnWebSocketError(e), n || t(), (n = !0);
+                });
             });
+          }
+          CloseWebSocket() {
+            this.m_wsWebSocketToServer.removeEventListener(
+              "message",
+              this.OnWebSocketMessage,
+            ),
+              this.m_wsWebSocketToServer.removeEventListener(
+                "close",
+                this.OnWebSocketClose,
+              ),
+              this.m_wsWebSocketToServer.close(),
+              (this.m_wsWebSocketToServer = void 0),
+              (this.connected = !1);
           }
           static EnsureUniqueName(e) {
             if (e.includes("/")) return e;
@@ -765,34 +781,39 @@ var CLSTAMP = "10585170";
               );
             });
           }
+          Destroy() {
+            this.CloseWebSocket();
+          }
           get name() {
             return this.m_sMailboxName;
           }
           OnWebSocketOpen(e) {
             (this.connected = !0),
+              this.Log.Info("Web Socket Opened"),
               this.WebSocketSend("mailbox_open " + this.m_sMailboxName),
               window.addEventListener("beforeunload", () => {
                 this.WebSocketSend("websocket_close");
-              }),
-              this.m_fnConnectResolve &&
-                (this.m_fnConnectResolve(), (this.m_fnConnectResolve = void 0));
+              });
             for (let e of this.m_oConnectWaits) e();
             this.m_oConnectWaits = [];
           }
           OnWebSocketClose(e) {
             return (0, n.sH)(this, void 0, void 0, function* () {
-              this.Log.Warning("Lost connection to host..."),
+              this.Log.Warning("Lost connection to host. code:", e.code),
                 (this.connected = !1),
+                (this.m_wsWebSocketToServer = void 0),
                 yield (0, s.IP)(1e3),
                 this.OpenWebSocketToHost();
             });
           }
           OnWebSocketError(e) {
             return (0, n.sH)(this, void 0, void 0, function* () {
-              this.Log.Error("Mailbox error:", e),
-                (this.connected = !1),
-                yield (0, s.IP)(1e3),
-                this.OpenWebSocketToHost();
+              this.Log.ErrorOnceThenWarn(
+                "OnWebSocketError",
+                "Mailbox error:",
+                e.type,
+              ),
+                (this.connected = !1);
             });
           }
           WebSocketSend(e) {
@@ -815,14 +836,20 @@ var CLSTAMP = "10585170";
                 o.nMessageId == t.message_id && (o.callback(t), (e = !0));
               e
                 ? (this.m_oWaits[t.type] = this.m_oWaits[t.type].filter(
-                    (e) => e.nMessageId == t.message_id,
+                    (e) => e.nMessageId != t.message_id,
                   ))
                 : this.Log.Error(
                     `Received a ${t.type} message, but didn't have a matching message_id. Did the other end forget to mirror message_id?`,
                   ),
                 (o = !0);
             }
-            o || this.Log.Error("Received unhandled message: ", t.type, t);
+            o ||
+              this.Log.ErrorOnceThenWarn(
+                "OnWebsocket283",
+                "Received unhandled message: ",
+                t.type,
+                t,
+              );
           }
           RegisterHandler(e, t) {
             this.m_oHandlers[e] = t;
@@ -858,13 +885,10 @@ var CLSTAMP = "10585170";
           }
           SendMessageAndWaitForResponse(e, t, o) {
             let n = Object.assign({}, t);
-            return (
-              null == n.returnAddress &&
-                (n.returnAddress = this.m_sMailboxName),
-              (n.message_id = this.m_nNextMessageNumber++),
-              this.SendMessage(e, n),
-              this.WaitForMessage(o, n.message_id)
-            );
+            null == n.returnAddress && (n.returnAddress = this.m_sMailboxName),
+              (n.message_id = this.m_nNextMessageNumber++);
+            const i = this.WaitForMessage(o, n.message_id);
+            return this.SendMessage(e, n), i;
           }
           SendResponse(e, t) {
             if (!e.returnAddress)
@@ -873,6 +897,12 @@ var CLSTAMP = "10585170";
               message_id: e.message_id,
             });
             (o.message_id = e.message_id), this.SendMessage(e.returnAddress, o);
+          }
+          SendDebugIllegalMsg() {
+            this.WebSocketSend("debug_send_illegal_msg");
+          }
+          SendDebugCloseMsg() {
+            this.WebSocketSend("debug_close");
           }
         }
         (u.s_nNextMailboxNumber = 1),
@@ -936,7 +966,7 @@ var CLSTAMP = "10585170";
               (e[(e.RawAndUncalibrated = 2)] = "RawAndUncalibrated");
           })(s || (s = {}));
         let l = 0;
-        var d, u, p, h, _, c, m, g, S, y, v, f, R, C, b, M, k, D, w, P, T;
+        var d, u, p, h, _, c, m, g, S, y, v, f, b, C, R, k, M, D, w, T, P;
         !(function (e) {
           (e[(e.None = 0)] = "None"),
             (e[(e.Shown = 1)] = "Shown"),
@@ -1045,7 +1075,7 @@ var CLSTAMP = "10585170";
               (e[(e.AnotherSteamVR = 2)] = "AnotherSteamVR"),
               (e[(e.AnotherRuntime = 3)] = "AnotherRuntime"),
               (e[(e.Error = -1)] = "Error");
-          })(R || (R = {})),
+          })(b || (b = {})),
           (function (e) {
             (e[(e.TrackedControllerRole_Invalid = 0)] =
               "TrackedControllerRole_Invalid"),
@@ -1071,15 +1101,15 @@ var CLSTAMP = "10585170";
               (e[(e.AppLaunch_Steam = 21)] = "AppLaunch_Steam"),
               (e[(e.SteamVR_Restart = 30)] = "SteamVR_Restart"),
               (e[(e.SteamVR_VRStartup = 31)] = "SteamVR_VRStartup");
-          })(b || (b = {})),
+          })(R || (R = {})),
           (function (e) {
             e[(e.Hostname = 0)] = "Hostname";
-          })(M || (M = {})),
+          })(k || (k = {})),
           (function (e) {
             (e[(e.Unavailable = 0)] = "Unavailable"),
               (e[(e.Active = 1)] = "Active"),
               (e[(e.Off = 2)] = "Off");
-          })(k || (k = {})),
+          })(M || (M = {})),
           (function (e) {
             (e[(e.Default = 1)] = "Default"), (e[(e.Floor = 2)] = "Floor");
           })(D || (D = {})),
@@ -1108,14 +1138,14 @@ var CLSTAMP = "10585170";
               (e[(e.Error_PlayAreaInvalid = 203)] = "Error_PlayAreaInvalid"),
               (e[(e.Error_CollisionBoundsInvalid = 204)] =
                 "Error_CollisionBoundsInvalid");
-          })(P || (P = {})),
+          })(T || (T = {})),
           (function (e) {
             (e[(e.Small = 0)] = "Small"),
               (e[(e.Medium = 1)] = "Medium"),
               (e[(e.Large = 2)] = "Large"),
               (e[(e.Gigantic = 3)] = "Gigantic"),
               (e[(e.Standing = 4)] = "Standing");
-          })(T || (T = {}));
+          })(P || (P = {}));
       },
       4367: (e, t, o) => {
         var n, i, r, s, a, l, d, u, p, h, _, c, m, g;
@@ -1956,7 +1986,7 @@ var CLSTAMP = "10585170";
           (0, n.Cg)([l.o], v, "playSoundEffect", null);
         var f = o(582);
         (0, g.configure)({ enforceActions: "never" });
-        class R extends i.Component {
+        class b extends i.Component {
           constructor(e) {
             super(e),
               (this.m_genid = 0),
@@ -2390,19 +2420,19 @@ var CLSTAMP = "10585170";
             let e = this.state.text.substr(0, this.state.textPos),
               t = this.state.text.substr(this.state.textPos);
             return this.bShowPasswordPreview()
-              ? ((e = R.kPasswordChar.repeat(e.length)),
-                (t = R.kPasswordChar.repeat(t.length)),
+              ? ((e = b.kPasswordChar.repeat(e.length)),
+                (t = b.kPasswordChar.repeat(t.length)),
                 [
                   i.createElement(
                     "span",
                     { key: this.genid(), className: "VRKBPreviewTextPart" },
-                    R.kPasswordChar.repeat(e.length),
+                    b.kPasswordChar.repeat(e.length),
                   ),
                   this.makeCursor(),
                   i.createElement(
                     "span",
                     { key: this.genid(), className: "VRKBPreviewTextPart" },
-                    R.kPasswordChar.repeat(t.length),
+                    b.kPasswordChar.repeat(t.length),
                   ),
                 ])
               : [
@@ -2539,17 +2569,17 @@ var CLSTAMP = "10585170";
             }
           }
         }
-        (R.kPasswordChar = "●"),
-          (0, n.Cg)([l.o], R.prototype, "onKeyboardInfoChanged", null),
-          (0, n.Cg)([l.o], R.prototype, "handleKey", null),
-          (0, n.Cg)([l.o], R.prototype, "handleReturn", null),
-          (0, n.Cg)([l.o], R.prototype, "handleDel", null),
-          (0, n.Cg)([l.o], R.prototype, "handleShift", null),
-          (0, n.Cg)([l.o], R.prototype, "handleSymbols", null),
-          (0, n.Cg)([l.o], R.prototype, "handleDone", null),
-          (0, n.Cg)([l.o], R.prototype, "handleCancel", null),
-          (0, n.Cg)([l.o], R.prototype, "handleClear", null),
-          (0, n.Cg)([l.o], R.prototype, "handleSuggestionClick", null);
+        (b.kPasswordChar = "●"),
+          (0, n.Cg)([l.o], b.prototype, "onKeyboardInfoChanged", null),
+          (0, n.Cg)([l.o], b.prototype, "handleKey", null),
+          (0, n.Cg)([l.o], b.prototype, "handleReturn", null),
+          (0, n.Cg)([l.o], b.prototype, "handleDel", null),
+          (0, n.Cg)([l.o], b.prototype, "handleShift", null),
+          (0, n.Cg)([l.o], b.prototype, "handleSymbols", null),
+          (0, n.Cg)([l.o], b.prototype, "handleDone", null),
+          (0, n.Cg)([l.o], b.prototype, "handleCancel", null),
+          (0, n.Cg)([l.o], b.prototype, "handleClear", null),
+          (0, n.Cg)([l.o], b.prototype, "handleSuggestionClick", null);
         const C =
           null === VRHTML || void 0 === VRHTML
             ? void 0
@@ -2570,7 +2600,7 @@ var CLSTAMP = "10585170";
               (0, f.aj)().Init("SteamVR", CLSTAMP, (0, f.d4)()),
                 r
                   .H(document.getElementById("root"))
-                  .render(i.createElement(R, { language: C }));
+                  .render(i.createElement(b, { language: C }));
             });
       },
     },

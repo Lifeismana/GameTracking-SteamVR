@@ -860,7 +860,8 @@ PropertyContainer: High lock acquisition counters: sp:%u yd:%u re:%u\n
 PropertyContainerCreation
 QueryPerformanceCounter
 QueryPerformanceFrequency
-RSDS
+RSDSSN/
+R\vpN
 RaiseException
 ReadFile
 ReadFile failed on %s after event was signaled because %s\n
@@ -1217,6 +1218,7 @@ VRInitError_VendorSpecific_Oasis_UnlockRequired
 VRInitError_VendorSpecific_OculusLinkNotEnabled
 VRInitError_VendorSpecific_OculusRuntimeBadInstall
 VRInitError_VendorSpecific_UnableToConnectToOculusRuntime
+VRInitError_VendorSpecific_VRLink_NoAdapterFound
 VRInitError_VendorSpecific_VRLink_NoVideoSupport
 VRInitError_VendorSpecific_VRLink_OutdatedDriverMESA
 VRInitError_VendorSpecific_VRLink_OutdatedDriverNVIDIA
@@ -1589,7 +1591,6 @@ svl.pcap
 svlserver:
 swedish
 systemui_dashboard
-systemui_dashboard_private
 tchinese
 terminate
 testing notifications
@@ -1626,6 +1627,8 @@ vrdashboard.exe
 vrstartup path not found: %s\n
 vrstartup.exe
 vrwebhelper
+vrwebui_dashboard
+vrwebui_dashboardstore
 waiting for update event...\n
 win64
 working

@@ -1,4 +1,4 @@
-var CLSTAMP = "10585170";
+var CLSTAMP = "10590646";
 (() => {
   var e,
     t = {
@@ -86,6 +86,7 @@ var CLSTAMP = "10585170";
           Uj: () => r.Uj,
           Vh: () => v.V,
           Xl: () => Z.Xl,
+          Xu: () => o.Xu,
           Y4: () => s.Y,
           Yu: () => Z.Yu,
           Zk: () => M.Zk,
@@ -950,7 +951,7 @@ var CLSTAMP = "10585170";
           El: () => ye,
           Eo: () => r,
           F2: () => ee,
-          GM: () => X,
+          GM: () => Y,
           GO: () => b,
           GW: () => z,
           Gl: () => O,
@@ -978,7 +979,7 @@ var CLSTAMP = "10585170";
           Wm: () => V,
           Wt: () => w,
           XO: () => te,
-          Y: () => Y,
+          Y: () => X,
           Y8: () => Te,
           Zw: () => E,
           aD: () => $,
@@ -1071,8 +1072,8 @@ var CLSTAMP = "10585170";
           J = "/settings/camera/roomViewStyle",
           $ = "/settings/steamvr/backgroundCameraHeight",
           Q = "/settings/steamvr/backgroundDomeRadius",
-          Y = "/settings/steamvr/analogGain",
-          X = "/settings/driver_lighthouse/indexHmdColumnCorrection",
+          X = "/settings/steamvr/analogGain",
+          Y = "/settings/driver_lighthouse/indexHmdColumnCorrection",
           ee = "/settings/steamvr/showAdvancedSettings",
           te = "/settings/dashboard/lastAccessedExternalOverlayKey",
           ne = "/settings/internal/dashboardInitialOverlay",
@@ -2621,8 +2622,8 @@ var CLSTAMP = "10585170";
             K,
             J;
           const { popupRequest: $, children: Q } = e,
-            Y = (0, o.Tt)(e, ["popupRequest", "children"]),
-            X = {
+            X = (0, o.Tt)(e, ["popupRequest", "children"]),
+            Y = {
               x:
                 null !==
                   (n =
@@ -2858,7 +2859,7 @@ var CLSTAMP = "10585170";
                       sort_order: de,
                       frame_resize_scale_factor: 1,
                     },
-                    Y,
+                    X,
                   ),
                   Q,
                 ),
@@ -2873,7 +2874,7 @@ var CLSTAMP = "10585170";
                 },
                 a.createElement(
                   r.Ci,
-                  { key: $.dashboard_popup_id, location: X },
+                  { key: $.dashboard_popup_id, location: Y },
                   Ce,
                 ),
               )
@@ -4534,7 +4535,7 @@ var CLSTAMP = "10585170";
           J = n(5572),
           $ = n.n(J),
           Q = n(6379);
-        const Y = (0, s.PA)(function () {
+        const X = (0, s.PA)(function () {
           const e = Q.c.m_bRoomViewStreaming || !1,
             t = b.SW.m_bTrackingRecording;
           return e || t
@@ -4577,7 +4578,7 @@ var CLSTAMP = "10585170";
               )
             : null;
         });
-        var X = n(9728),
+        var Y = n(9728),
           ee = n(795);
         const te = 0.0508,
           ne = 0.0015875;
@@ -4616,7 +4617,7 @@ var CLSTAMP = "10585170";
                   : 0.5,
               u = Math.pow(i, 2.2),
               d = Math.pow(s, 2.2),
-              m = X.G.Instance.SceneApplicationState !== l.HW.None,
+              m = Y.G.Instance.SceneApplicationState !== l.HW.None,
               C = b.SW.sceneAppDimmingActive,
               p = b.SW.isGroupMode;
             if (
@@ -5397,7 +5398,7 @@ var CLSTAMP = "10585170";
                     l.OH[(0, l.R$)()],
                 );
               console.log("Bootstrapping " + e, o);
-              const i = 1e3 * (null !== (t = 1775692255) ? t : 0);
+              const i = 1e3 * (null !== (t = 1776107393) ? t : 0);
               console.log(
                 "SteamVR Version Info: " +
                   JSON.stringify({
@@ -5642,7 +5643,7 @@ var CLSTAMP = "10585170";
                 r.createElement(
                   ce.tH,
                   { key: "persistentnotifications" },
-                  r.createElement(Y, null),
+                  r.createElement(X, null),
                 ),
               ),
               r.createElement("span", null, e)

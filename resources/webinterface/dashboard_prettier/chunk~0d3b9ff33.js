@@ -1,4 +1,4 @@
-var CLSTAMP = "10585170";
+var CLSTAMP = "10590646";
 (self.webpackChunkvrwebui = self.webpackChunkvrwebui || []).push([
   [366],
   {
@@ -5227,7 +5227,7 @@ var CLSTAMP = "10585170";
           }),
           l.createElement(v.WZ, {
             label: (0, m.we)("#Settings_VersionInfo_WebpackBuildTime"),
-            value: new Date(1775692255e3).toLocaleString(),
+            value: new Date(1776107393e3).toLocaleString(),
           }),
           l.createElement(v.WZ, {
             label: (0, m.we)("#Settings_VersionInfo_SteamVRHmdTrackingInfo"),
@@ -6147,6 +6147,8 @@ var CLSTAMP = "10585170";
             l.createElement(pe, null),
             l.createElement(oe, null),
             l.createElement(ee, null),
+            !1,
+            !1,
             l.createElement(de, null),
             l.createElement(Y, null),
             l.createElement(re, null),
@@ -13825,10 +13827,11 @@ var CLSTAMP = "10585170";
       "use strict";
       n.d(t, {
         GS: () => u,
-        I0: () => m,
-        Jv: () => h,
+        I0: () => h,
+        Jv: () => g,
         M9: () => p,
-        _n: () => g,
+        Xu: () => m,
+        _n: () => v,
         mX: () => c,
         pg: () => l,
         sn: () => d,
@@ -13842,30 +13845,35 @@ var CLSTAMP = "10585170";
         c = "input_server",
         d = "desktop_store",
         u = "vrlink_store",
-        p = "systemui_dashboard_private",
-        m = "binding_callouts/main",
-        h = "scene_graph";
-      class g {
+        p = "vrwebui_dashboardstore",
+        m = "vrwebui_dashboard",
+        h = "binding_callouts/main",
+        g = "scene_graph";
+      class v {
         constructor() {
           (this.m_wsWebSocketToServer = void 0),
             (this.connected = !1),
             (this.m_oHandlers = {}),
             (this.m_oWaits = {}),
             (this.m_oConnectWaits = []),
-            (this.m_fnConnectResolve = void 0),
             (this.m_nNextMessageNumber = 1),
             (this.Log = new a.wd("Mailbox", () => this.m_sMailboxName)),
             (0, r.makeObservable)(this);
         }
         OpenWebSocketToHost() {
           return new Promise((e, t) => {
-            this.Log.Info("Connecting vrmailbox...");
+            this.Log.Info("Opening Web Socket...");
             let n = "ws://127.0.0.1:27062";
             this.m_sWebSecret && (n += "?secret=" + this.m_sWebSecret),
-              (this.m_fnConnectResolve = e),
-              (this.m_wsWebSocketToServer = new WebSocket(n)),
+              this.m_wsWebSocketToServer &&
+                (this.Log.Error(
+                  "OpenWebSocketToHost called on existing connection",
+                ),
+                this.CloseWebSocket());
+            let i = !1;
+            (this.m_wsWebSocketToServer = new WebSocket(n)),
               this.m_wsWebSocketToServer.addEventListener("open", (t) => {
-                this.OnWebSocketOpen(t), e();
+                this.OnWebSocketOpen(t), i || e(), (i = !0);
               }),
               this.m_wsWebSocketToServer.addEventListener(
                 "message",
@@ -13875,11 +13883,23 @@ var CLSTAMP = "10585170";
                 "close",
                 this.OnWebSocketClose,
               ),
-              this.m_wsWebSocketToServer.addEventListener(
-                "error",
-                this.OnWebSocketError,
-              );
+              this.m_wsWebSocketToServer.addEventListener("error", (e) => {
+                this.OnWebSocketError(e), i || t(), (i = !0);
+              });
           });
+        }
+        CloseWebSocket() {
+          this.m_wsWebSocketToServer.removeEventListener(
+            "message",
+            this.OnWebSocketMessage,
+          ),
+            this.m_wsWebSocketToServer.removeEventListener(
+              "close",
+              this.OnWebSocketClose,
+            ),
+            this.m_wsWebSocketToServer.close(),
+            (this.m_wsWebSocketToServer = void 0),
+            (this.connected = !1);
         }
         static EnsureUniqueName(e) {
           if (e.includes("/")) return e;
@@ -13892,41 +13912,46 @@ var CLSTAMP = "10585170";
         Init(e, t) {
           return (0, i.sH)(this, void 0, void 0, function* () {
             return (
-              (this.m_sMailboxName = g.EnsureUniqueName(e)),
+              (this.m_sMailboxName = v.EnsureUniqueName(e)),
               (this.m_sWebSecret = t),
               (this.connected = !1),
               this.OpenWebSocketToHost()
             );
           });
         }
+        Destroy() {
+          this.CloseWebSocket();
+        }
         get name() {
           return this.m_sMailboxName;
         }
         OnWebSocketOpen(e) {
           (this.connected = !0),
+            this.Log.Info("Web Socket Opened"),
             this.WebSocketSend("mailbox_open " + this.m_sMailboxName),
             window.addEventListener("beforeunload", () => {
               this.WebSocketSend("websocket_close");
-            }),
-            this.m_fnConnectResolve &&
-              (this.m_fnConnectResolve(), (this.m_fnConnectResolve = void 0));
+            });
           for (let e of this.m_oConnectWaits) e();
           this.m_oConnectWaits = [];
         }
         OnWebSocketClose(e) {
           return (0, i.sH)(this, void 0, void 0, function* () {
-            this.Log.Warning("Lost connection to host..."),
+            this.Log.Warning("Lost connection to host. code:", e.code),
               (this.connected = !1),
+              (this.m_wsWebSocketToServer = void 0),
               yield (0, s.IP)(1e3),
               this.OpenWebSocketToHost();
           });
         }
         OnWebSocketError(e) {
           return (0, i.sH)(this, void 0, void 0, function* () {
-            this.Log.Error("Mailbox error:", e),
-              (this.connected = !1),
-              yield (0, s.IP)(1e3),
-              this.OpenWebSocketToHost();
+            this.Log.ErrorOnceThenWarn(
+              "OnWebSocketError",
+              "Mailbox error:",
+              e.type,
+            ),
+              (this.connected = !1);
           });
         }
         WebSocketSend(e) {
@@ -13949,14 +13974,20 @@ var CLSTAMP = "10585170";
               n.nMessageId == t.message_id && (n.callback(t), (e = !0));
             e
               ? (this.m_oWaits[t.type] = this.m_oWaits[t.type].filter(
-                  (e) => e.nMessageId == t.message_id,
+                  (e) => e.nMessageId != t.message_id,
                 ))
               : this.Log.Error(
                   `Received a ${t.type} message, but didn't have a matching message_id. Did the other end forget to mirror message_id?`,
                 ),
               (n = !0);
           }
-          n || this.Log.Error("Received unhandled message: ", t.type, t);
+          n ||
+            this.Log.ErrorOnceThenWarn(
+              "OnWebsocket283",
+              "Received unhandled message: ",
+              t.type,
+              t,
+            );
         }
         RegisterHandler(e, t) {
           this.m_oHandlers[e] = t;
@@ -13992,12 +14023,10 @@ var CLSTAMP = "10585170";
         }
         SendMessageAndWaitForResponse(e, t, n) {
           let i = Object.assign({}, t);
-          return (
-            null == i.returnAddress && (i.returnAddress = this.m_sMailboxName),
-            (i.message_id = this.m_nNextMessageNumber++),
-            this.SendMessage(e, i),
-            this.WaitForMessage(n, i.message_id)
-          );
+          null == i.returnAddress && (i.returnAddress = this.m_sMailboxName),
+            (i.message_id = this.m_nNextMessageNumber++);
+          const r = this.WaitForMessage(n, i.message_id);
+          return this.SendMessage(e, i), r;
         }
         SendResponse(e, t) {
           if (!e.returnAddress)
@@ -14007,15 +14036,21 @@ var CLSTAMP = "10585170";
           });
           (n.message_id = e.message_id), this.SendMessage(e.returnAddress, n);
         }
+        SendDebugIllegalMsg() {
+          this.WebSocketSend("debug_send_illegal_msg");
+        }
+        SendDebugCloseMsg() {
+          this.WebSocketSend("debug_close");
+        }
       }
-      (g.s_nNextMailboxNumber = 1),
-        (0, i.Cg)([r.observable], g.prototype, "connected", void 0),
-        (0, i.Cg)([o.o], g.prototype, "OpenWebSocketToHost", null),
-        (0, i.Cg)([o.o], g.prototype, "OnWebSocketOpen", null),
-        (0, i.Cg)([o.o], g.prototype, "OnWebSocketClose", null),
-        (0, i.Cg)([o.o], g.prototype, "OnWebSocketError", null),
-        (0, i.Cg)([o.o], g.prototype, "WebSocketSend", null),
-        (0, i.Cg)([o.o], g.prototype, "OnWebSocketMessage", null);
+      (v.s_nNextMailboxNumber = 1),
+        (0, i.Cg)([r.observable], v.prototype, "connected", void 0),
+        (0, i.Cg)([o.o], v.prototype, "OpenWebSocketToHost", null),
+        (0, i.Cg)([o.o], v.prototype, "OnWebSocketOpen", null),
+        (0, i.Cg)([o.o], v.prototype, "OnWebSocketClose", null),
+        (0, i.Cg)([o.o], v.prototype, "OnWebSocketError", null),
+        (0, i.Cg)([o.o], v.prototype, "WebSocketSend", null),
+        (0, i.Cg)([o.o], v.prototype, "OnWebSocketMessage", null);
     },
     6138: (e, t, n) => {
       "use strict";
@@ -22109,7 +22144,7 @@ var CLSTAMP = "10585170";
               ? void 0
               : e.call(VRHTML),
           ),
-            n.set_webpack_build_timestamp(1775692255);
+            n.set_webpack_build_timestamp(1776107393);
           const i =
             null ===
               (t =
@@ -28486,28 +28521,29 @@ var CLSTAMP = "10585170";
             (this.m_dashboardThumbnailsChangedEventHandle = null),
             (this.m_ePreviousSceneApplicationState = r.HW.None),
             (this.m_vrGamepadUIPathPropertiesAutorunDisposer = null),
+            (this.m_mailbox = new r._n()),
             (0, s.makeObservable)(this),
             (this.state = {}),
             _.HR.Init(!1),
             r.Cw.getInstance(),
-            u.SW.m_mailbox.WaitForConnect().then(() => {
-              u.SW.m_mailbox.RegisterHandler(
+            this.m_mailbox.Init(r.Xu).then(() => {
+              this.m_mailbox.RegisterHandler(
                 it.k_sDashboardOverlayDestroyedMessage,
                 this.onDashboardOverlayDestroyed,
               ),
-                u.SW.m_mailbox.RegisterHandler(
+                this.m_mailbox.RegisterHandler(
                   "show_dashboard_requested",
                   (e) => this.showDashboardOverlay(lt(e), !0),
                 ),
-                u.SW.m_mailbox.RegisterHandler(
+                this.m_mailbox.RegisterHandler(
                   "switch_dashboard_overlay_requested",
                   (e) => this.showDashboardOverlay(lt(e), !1),
                 ),
-                u.SW.m_mailbox.RegisterHandler(
+                this.m_mailbox.RegisterHandler(
                   "vrcmd_dock_overlay",
                   this.onVrCmdDockOverlayRequested,
                 ),
-                u.SW.m_mailbox.RegisterHandler(
+                this.m_mailbox.RegisterHandler(
                   "hide_dashboard_requested",
                   (e) =>
                     this.hideDashboard(
@@ -28515,7 +28551,7 @@ var CLSTAMP = "10585170";
                       null == e ? void 0 : e.source_is_vrlink_remote,
                     ),
                 ),
-                u.SW.m_mailbox.RegisterHandler(
+                this.m_mailbox.RegisterHandler(
                   "toggle_dashboard_requested",
                   (e) =>
                     this.toggleDashboard(

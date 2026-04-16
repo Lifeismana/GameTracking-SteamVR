@@ -2149,8 +2149,7 @@ QueryServiceConfigW
 R1h58
 RENDERDOC_GetAPI
 RPCRT4.dll
-RSDS
-R\vpr
+RSDS9Y
 Radio
 RaiseException
 Reached an unintended state: CPPTYPE_MESSAGE
@@ -2728,6 +2727,7 @@ VRInitError_VendorSpecific_Oasis_UnlockRequired
 VRInitError_VendorSpecific_OculusLinkNotEnabled
 VRInitError_VendorSpecific_OculusRuntimeBadInstall
 VRInitError_VendorSpecific_UnableToConnectToOculusRuntime
+VRInitError_VendorSpecific_VRLink_NoAdapterFound
 VRInitError_VendorSpecific_VRLink_NoVideoSupport
 VRInitError_VendorSpecific_VRLink_OutdatedDriverMESA
 VRInitError_VendorSpecific_VRLink_OutdatedDriverNVIDIA

@@ -1,15 +1,15 @@
-var CLSTAMP = "10585170";
+var CLSTAMP = "10590646";
 (self.webpackChunkvrwebui = self.webpackChunkvrwebui || []).push([
   [652],
   {
     2824: (e, t, o) => {
       o.d(t, { I0: () => l, M9: () => _, _n: () => d });
-      var n = o(1635),
-        r = o(7813),
+      var r = o(1635),
+        n = o(7813),
         i = o(3236),
         a = o(1295),
         s = o(776);
-      const _ = "systemui_dashboard_private",
+      const _ = "vrwebui_dashboardstore",
         l = "binding_callouts/main";
       class d {
         constructor() {
@@ -18,20 +18,24 @@ var CLSTAMP = "10585170";
             (this.m_oHandlers = {}),
             (this.m_oWaits = {}),
             (this.m_oConnectWaits = []),
-            (this.m_fnConnectResolve = void 0),
             (this.m_nNextMessageNumber = 1),
             (this.Log = new s.wd("Mailbox", () => this.m_sMailboxName)),
-            (0, r.makeObservable)(this);
+            (0, n.makeObservable)(this);
         }
         OpenWebSocketToHost() {
           return new Promise((e, t) => {
-            this.Log.Info("Connecting vrmailbox...");
+            this.Log.Info("Opening Web Socket...");
             let o = "ws://127.0.0.1:27062";
             this.m_sWebSecret && (o += "?secret=" + this.m_sWebSecret),
-              (this.m_fnConnectResolve = e),
-              (this.m_wsWebSocketToServer = new WebSocket(o)),
+              this.m_wsWebSocketToServer &&
+                (this.Log.Error(
+                  "OpenWebSocketToHost called on existing connection",
+                ),
+                this.CloseWebSocket());
+            let r = !1;
+            (this.m_wsWebSocketToServer = new WebSocket(o)),
               this.m_wsWebSocketToServer.addEventListener("open", (t) => {
-                this.OnWebSocketOpen(t), e();
+                this.OnWebSocketOpen(t), r || e(), (r = !0);
               }),
               this.m_wsWebSocketToServer.addEventListener(
                 "message",
@@ -41,11 +45,23 @@ var CLSTAMP = "10585170";
                 "close",
                 this.OnWebSocketClose,
               ),
-              this.m_wsWebSocketToServer.addEventListener(
-                "error",
-                this.OnWebSocketError,
-              );
+              this.m_wsWebSocketToServer.addEventListener("error", (e) => {
+                this.OnWebSocketError(e), r || t(), (r = !0);
+              });
           });
+        }
+        CloseWebSocket() {
+          this.m_wsWebSocketToServer.removeEventListener(
+            "message",
+            this.OnWebSocketMessage,
+          ),
+            this.m_wsWebSocketToServer.removeEventListener(
+              "close",
+              this.OnWebSocketClose,
+            ),
+            this.m_wsWebSocketToServer.close(),
+            (this.m_wsWebSocketToServer = void 0),
+            (this.connected = !1);
         }
         static EnsureUniqueName(e) {
           if (e.includes("/")) return e;
@@ -56,7 +72,7 @@ var CLSTAMP = "10585170";
           );
         }
         Init(e, t) {
-          return (0, n.sH)(this, void 0, void 0, function* () {
+          return (0, r.sH)(this, void 0, void 0, function* () {
             return (
               (this.m_sMailboxName = d.EnsureUniqueName(e)),
               (this.m_sWebSecret = t),
@@ -65,34 +81,39 @@ var CLSTAMP = "10585170";
             );
           });
         }
+        Destroy() {
+          this.CloseWebSocket();
+        }
         get name() {
           return this.m_sMailboxName;
         }
         OnWebSocketOpen(e) {
           (this.connected = !0),
+            this.Log.Info("Web Socket Opened"),
             this.WebSocketSend("mailbox_open " + this.m_sMailboxName),
             window.addEventListener("beforeunload", () => {
               this.WebSocketSend("websocket_close");
-            }),
-            this.m_fnConnectResolve &&
-              (this.m_fnConnectResolve(), (this.m_fnConnectResolve = void 0));
+            });
           for (let e of this.m_oConnectWaits) e();
           this.m_oConnectWaits = [];
         }
         OnWebSocketClose(e) {
-          return (0, n.sH)(this, void 0, void 0, function* () {
-            this.Log.Warning("Lost connection to host..."),
+          return (0, r.sH)(this, void 0, void 0, function* () {
+            this.Log.Warning("Lost connection to host. code:", e.code),
               (this.connected = !1),
+              (this.m_wsWebSocketToServer = void 0),
               yield (0, a.IP)(1e3),
               this.OpenWebSocketToHost();
           });
         }
         OnWebSocketError(e) {
-          return (0, n.sH)(this, void 0, void 0, function* () {
-            this.Log.Error("Mailbox error:", e),
-              (this.connected = !1),
-              yield (0, a.IP)(1e3),
-              this.OpenWebSocketToHost();
+          return (0, r.sH)(this, void 0, void 0, function* () {
+            this.Log.ErrorOnceThenWarn(
+              "OnWebSocketError",
+              "Mailbox error:",
+              e.type,
+            ),
+              (this.connected = !1);
           });
         }
         WebSocketSend(e) {
@@ -115,14 +136,20 @@ var CLSTAMP = "10585170";
               o.nMessageId == t.message_id && (o.callback(t), (e = !0));
             e
               ? (this.m_oWaits[t.type] = this.m_oWaits[t.type].filter(
-                  (e) => e.nMessageId == t.message_id,
+                  (e) => e.nMessageId != t.message_id,
                 ))
               : this.Log.Error(
                   `Received a ${t.type} message, but didn't have a matching message_id. Did the other end forget to mirror message_id?`,
                 ),
               (o = !0);
           }
-          o || this.Log.Error("Received unhandled message: ", t.type, t);
+          o ||
+            this.Log.ErrorOnceThenWarn(
+              "OnWebsocket283",
+              "Received unhandled message: ",
+              t.type,
+              t,
+            );
         }
         RegisterHandler(e, t) {
           this.m_oHandlers[e] = t;
@@ -133,7 +160,7 @@ var CLSTAMP = "10585170";
           );
         }
         WaitForMessage(e, t) {
-          return new Promise((o, n) => {
+          return new Promise((o, r) => {
             this.m_oWaits[e] || (this.m_oWaits[e] = []),
               this.m_oWaits[e].push({ callback: o, nMessageId: t });
           });
@@ -144,7 +171,7 @@ var CLSTAMP = "10585170";
           });
         }
         WaitForMailbox(e) {
-          return (0, n.sH)(this, void 0, void 0, function* () {
+          return (0, r.sH)(this, void 0, void 0, function* () {
             let t = {
               type: "request_mailbox_registration_notification",
               mailbox_name: e,
@@ -157,13 +184,11 @@ var CLSTAMP = "10585170";
           });
         }
         SendMessageAndWaitForResponse(e, t, o) {
-          let n = Object.assign({}, t);
-          return (
-            null == n.returnAddress && (n.returnAddress = this.m_sMailboxName),
-            (n.message_id = this.m_nNextMessageNumber++),
-            this.SendMessage(e, n),
-            this.WaitForMessage(o, n.message_id)
-          );
+          let r = Object.assign({}, t);
+          null == r.returnAddress && (r.returnAddress = this.m_sMailboxName),
+            (r.message_id = this.m_nNextMessageNumber++);
+          const n = this.WaitForMessage(o, r.message_id);
+          return this.SendMessage(e, r), n;
         }
         SendResponse(e, t) {
           if (!e.returnAddress)
@@ -173,19 +198,25 @@ var CLSTAMP = "10585170";
           });
           (o.message_id = e.message_id), this.SendMessage(e.returnAddress, o);
         }
+        SendDebugIllegalMsg() {
+          this.WebSocketSend("debug_send_illegal_msg");
+        }
+        SendDebugCloseMsg() {
+          this.WebSocketSend("debug_close");
+        }
       }
       (d.s_nNextMailboxNumber = 1),
-        (0, n.Cg)([r.observable], d.prototype, "connected", void 0),
-        (0, n.Cg)([i.o], d.prototype, "OpenWebSocketToHost", null),
-        (0, n.Cg)([i.o], d.prototype, "OnWebSocketOpen", null),
-        (0, n.Cg)([i.o], d.prototype, "OnWebSocketClose", null),
-        (0, n.Cg)([i.o], d.prototype, "OnWebSocketError", null),
-        (0, n.Cg)([i.o], d.prototype, "WebSocketSend", null),
-        (0, n.Cg)([i.o], d.prototype, "OnWebSocketMessage", null);
+        (0, r.Cg)([n.observable], d.prototype, "connected", void 0),
+        (0, r.Cg)([i.o], d.prototype, "OpenWebSocketToHost", null),
+        (0, r.Cg)([i.o], d.prototype, "OnWebSocketOpen", null),
+        (0, r.Cg)([i.o], d.prototype, "OnWebSocketClose", null),
+        (0, r.Cg)([i.o], d.prototype, "OnWebSocketError", null),
+        (0, r.Cg)([i.o], d.prototype, "WebSocketSend", null),
+        (0, r.Cg)([i.o], d.prototype, "OnWebSocketMessage", null);
     },
     4367: (e, t, o) => {
-      var n, r, i, a, s, _, l, d, u, c, p, m, S, g;
-      o.d(t, { en: () => i, fD: () => n }),
+      var r, n, i, a, s, _, l, d, u, c, p, m, S, g;
+      o.d(t, { en: () => i, fD: () => r }),
         (function (e) {
           (e[(e.Invalid = 0)] = "Invalid"),
             (e[(e.TrackingSystemName_String = 1e3)] =
@@ -516,7 +547,7 @@ var CLSTAMP = "10585170";
               "VRLinkClientHMDSupportsRoomSetupRequests_Bool"),
             (e[(e.TrackedDeviceProperty_Max = 1e6)] =
               "TrackedDeviceProperty_Max");
-        })(n || (n = {})),
+        })(r || (r = {})),
         (function (e) {
           (e[(e.k_EButton_System = 0)] = "k_EButton_System"),
             (e[(e.k_EButton_ApplicationMenu = 1)] =
@@ -548,7 +579,7 @@ var CLSTAMP = "10585170";
             (e[(e.k_EButton_Reserved0 = 50)] = "k_EButton_Reserved0"),
             (e[(e.k_EButton_Reserved1 = 51)] = "k_EButton_Reserved1"),
             (e[(e.k_EButton_Max = 64)] = "k_EButton_Max");
-        })(r || (r = {})),
+        })(n || (n = {})),
         (function (e) {
           (e[(e.None = 0)] = "None"),
             (e[(e.ButtonEnter = 1)] = "ButtonEnter"),
@@ -635,16 +666,16 @@ var CLSTAMP = "10585170";
     },
     6138: (e, t, o) => {
       o.d(t, { $: () => d, W: () => u });
-      var n = o(1635),
-        r = o(6540),
+      var r = o(1635),
+        n = o(6540),
         i = o(3236),
         a = o(4963),
         s = o(6090),
         _ = o(6189),
         l = o(1139);
-      class d extends r.Component {
+      class d extends n.Component {
         constructor() {
-          super(...arguments), (this.m_ref = r.createRef());
+          super(...arguments), (this.m_ref = n.createRef());
         }
         get elem() {
           return this.m_ref.current;
@@ -653,14 +684,14 @@ var CLSTAMP = "10585170";
           return !1 === this.props.enabled;
         }
         onMouseDown(e) {
-          var t, o, n;
+          var t, o, r;
           null === (o = (t = this.props).onMouseDown) ||
             void 0 === o ||
             o.call(t, e),
             this.disabled ||
               a.u.Instance.playSound(
-                null !== (n = this.props.pressSoundEffect) && void 0 !== n
-                  ? n
+                null !== (r = this.props.pressSoundEffect) && void 0 !== r
+                  ? r
                   : null,
               );
         }
@@ -671,15 +702,15 @@ var CLSTAMP = "10585170";
             o.call(t, e);
         }
         onClick(e) {
-          var t, o, n;
+          var t, o, r;
           this.disabled ||
             (null === (o = (t = this.props).onClick) ||
               void 0 === o ||
               o.call(t, e),
             u.temporarilySuppressSoundEffect(),
             a.u.Instance.playSound(
-              null !== (n = this.props.releaseSoundEffect) && void 0 !== n
-                ? n
+              null !== (r = this.props.releaseSoundEffect) && void 0 !== r
+                ? r
                 : a.j.ButtonClick,
             ));
         }
@@ -705,7 +736,7 @@ var CLSTAMP = "10585170";
             delete e.pressSoundEffect,
             delete e.releaseSoundEffect,
             (e.className = (0, l.FH)(e.className, ["Disabled", this.disabled])),
-            r.cloneElement(r.createElement("div", e, this.props.children), {
+            n.cloneElement(n.createElement("div", e, this.props.children), {
               onClick: this.onClick,
               onMouseDown: this.onMouseDown,
               onMouseUp: this.onMouseUp,
@@ -716,12 +747,12 @@ var CLSTAMP = "10585170";
           );
         }
       }
-      (0, n.Cg)([i.o], d.prototype, "onMouseDown", null),
-        (0, n.Cg)([i.o], d.prototype, "onMouseUp", null),
-        (0, n.Cg)([i.o], d.prototype, "onClick", null),
-        (0, n.Cg)([i.o], d.prototype, "onMouseEnter", null),
-        (0, n.Cg)([i.o], d.prototype, "onMouseLeave", null);
-      class u extends r.Component {
+      (0, r.Cg)([i.o], d.prototype, "onMouseDown", null),
+        (0, r.Cg)([i.o], d.prototype, "onMouseUp", null),
+        (0, r.Cg)([i.o], d.prototype, "onClick", null),
+        (0, r.Cg)([i.o], d.prototype, "onMouseEnter", null),
+        (0, r.Cg)([i.o], d.prototype, "onMouseLeave", null);
+      class u extends n.Component {
         static temporarilySuppressSoundEffect() {
           window.clearTimeout(this.s_nPlaySoundEffectTimeout),
             (this.s_nPlaySoundEffectTimeout = 0),
@@ -751,8 +782,8 @@ var CLSTAMP = "10585170";
           a.u.Instance.playSound(a.j.SurfaceClick);
         }
         render() {
-          return r.cloneElement(
-            r.createElement("div", this.props, this.props.children),
+          return n.cloneElement(
+            n.createElement("div", this.props, this.props.children),
             { onClick: this.onClick },
           );
         }
@@ -761,9 +792,9 @@ var CLSTAMP = "10585170";
         (u.k_nSoundEffectDelay = 2),
         (u.s_nSuppressingSoundEffectsTimeout = 0),
         (u.s_nPlaySoundEffectTimeout = 0),
-        (0, n.Cg)([i.o], u.prototype, "onClick", null),
-        (0, n.Cg)([i.o], u, "endSoundEffectSuppression", null),
-        (0, n.Cg)([i.o], u, "playSoundEffect", null);
+        (0, r.Cg)([i.o], u.prototype, "onClick", null),
+        (0, r.Cg)([i.o], u, "endSoundEffectSuppression", null),
+        (0, r.Cg)([i.o], u, "playSoundEffect", null);
     },
   },
 ]); //# sourceMappingURL=file:///home/buildbot/buildslave/steamvr_rel_npm_vrwebui/build/public/runtime/resources/webinterface/dashboard/sourcemaps/chunk~4e00f5086.js.map
