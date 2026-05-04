@@ -204,7 +204,6 @@ CloseHandle
 Completed loader terminator
 Completed loader trampoline
 CreateEventW
-Cw9]
 DeleteCriticalSection
 Destroying LoaderInstance = 
 DisableThreadLibraryCalls
@@ -282,7 +281,7 @@ OpenXR-Loader
 OutputDebugStringA
 PERF
 QueryPerformanceCounter
-RSDS!C
+RSDS
 ReadLayerDataFilesInRegistry - failed to read registry location 
 ReadRuntimeDataFilesInRegistry - failed to open registry key 
 ReadRuntimeDataFilesInRegistry - failed to read registry value 

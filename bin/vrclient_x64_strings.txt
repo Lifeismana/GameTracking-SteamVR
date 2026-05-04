@@ -1970,9 +1970,9 @@ $tI(knN
 0 width
 0-pixel image
 00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899
+00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899`
 0123456789ABCDEF
 0\tFAJ
-0tz4
 1.0.3.16
 1/2/4/8/16-bit only
 11 4 22 44 44 22 444444
@@ -1989,6 +1989,7 @@ $tI(knN
 8d8f13b1-60eb-4b6a-a433-de86104115ac
 8e8f13b1-60eb-4b6a-a433-de86104115ac
 9a&g
+: LUID=
 : exception thrown in JSON library
 : one or more FS callback not set
 ::GetSystemBaseTicks() == m_pRequirementsClient->GetCompositorBaseTicks()
@@ -2125,6 +2126,7 @@ Aborting GetDeltas(%s) disjoint! (n=%d)\n
 Aborting GetDeltas(%s) event[%d]! (n=%d)\n
 Aborting due to fatal assertion failure.
 Aborting due to ignoring Quit event after %.1f seconds!
+Accelerated
 Accessor
 Action %s reading %0.5f time %llu\n
 Action %s reading %0.5f, %0.5f time %llu, %llu\n
@@ -2139,6 +2141,7 @@ Action paths must take the form '/actions/<action set>/in|out/<action>'. "
 Activation threshold of %f cannot be less than the deactivation threshold of %f in filter %s.
 Activation threshold of %f in filter %s is outside the allowable range [ %f , %f ].
 Active pri %u, device=%s
+Adapter pointer is null
 AddAccessAllowedAce
 AddResourceBarrier: Failed to close command list with %i when setting barrier transition
 AddSystemBehaviorFlag %s\n
@@ -2613,6 +2616,7 @@ CVkTimeline::ExportTimeline
 CVkTimeline::ImportTimeline
 CVkTimeline::Initialize
 CVkTimeline::WaitMultiple
+CVulkanVRRenderer: CreateTexture called with a depth stencil flag for Vulkan format %d (SVR %d), which does not support depth.
 CVulkanVRRenderer::BeginCommandBuffer
 CVulkanVRRenderer::CopyConstantBufferRegion - copy offset (%d) + size (%d) exceeds dest size (%d)!\n
 CVulkanVRRenderer::CopyConstantBufferRegion - copy offset (%d) + size (%d) exceeds source size (%d)!\n
@@ -2709,12 +2713,12 @@ Compositor initialization succeeded, but screenshot init failed (404)
 Compositor requires mandatory firmware update (402)
 Compositor unable to create graphics device (405)
 Compute Client
-Computed Input Focus changed. Type: %d, AppID: %u, PID: %u, SGID: %u
 Config path could not be located (111)
 Connect to VR Server Failed (301)
 Controller (%s) not available for input to chord, ignoring chord\n
 ConvertStringSidToSidA
 CopySid
+Could not create DXGI Factory 1.1
 Could not create interface in driver %s from %s.\n
 Could not find factor function in driver %s from %s.\n
 Could not find named path %s when loading %s\n
@@ -2745,6 +2749,7 @@ D3DKMTEnumAdapters2
 D3DKMTQueryAdapterInfo
 DX11 level hardware required!\n
 DXGI adapter not found, defaulting to index 0.\n
+DXGI1: Failed to find matching adapter!\n\n
 DXGI_ERROR_DEVICE_HUNG
 DXGI_ERROR_DEVICE_REMOVED
 DXGI_ERROR_DEVICE_RESET
@@ -2915,12 +2920,17 @@ Failed to create D3D11 device to share with OpenGL!\n
 Failed to create D3D12 blank texture\n
 Failed to create D3D12 swapchain image: Unsupported number of faces: %d\n
 Failed to create D3D12 swapchain texture
+Failed to create DSV for texture lod=%d
+Failed to create DSV for texture lod=%d layer=%d
 Failed to create DXGIFactory1!\n
 Failed to create DepthStencilView for texture %s\n
 Failed to create LiquidVR GPU Semaphore.\n
 Failed to create RTV for texture lod=%d
+Failed to create RTV for texture lod=%d layer=%d
 Failed to create RTV for texture\n
 Failed to create SRV for texture lod=%d
+Failed to create SRV for texture lod=%d layer=%d
+Failed to create SRV for texture\n
 Failed to create Vulkan depth image from D3D11 resource.  Depth image will not be updated.\n
 Failed to create Vulkan image from D3D11 resource.\n
 Failed to create Vulkan image with LiquidVR.\n
@@ -3606,6 +3616,7 @@ Invalid XrVisibilityMaskTypeKHR
 Invalid `byteLength'. Must be equal or less than binary size: `byteLength' = 
 Invalid `byteStride' value. `byteStride' must be the multiple of 4 : 
 Invalid `componentType` in accessor. Got 
+Invalid action set priority
 Invalid active action set size
 Invalid application type %d\n
 Invalid binary data in `Buffer', or GLB with empty BIN chunk.\n
@@ -3630,7 +3641,6 @@ Invalid type in  '
 IsDebuggerPresent
 IsDepthFormat( eVkFormat )
 IsDepthFormat( nTextureFormat )
-IsDepthFormat(eVkFormat)
 IsDepthFormatDXGI( eTextureFormatConcrete )
 IsProcessorFeaturePresent
 IsValid( pSxrStruct )
@@ -3801,7 +3811,6 @@ PS_SAMPLESCENE
 PS_SAMPLESCENE0
 PS_STENCIL
 PS_main
-P\r0tz4
 Parse error in system resource manifest %s.\n
 Parse failed for JSON message in mailbox %s: %s\n
 Parsing of JSON file "%s" failed: %s\n
@@ -4030,7 +4039,6 @@ Prop_WillDriftInYaw_Bool
 Property container - found and recovered a locked container at generation %x\n
 PropertyContainer: High lock acquisition counters: sp:%u yd:%u re:%u\n
 PropertyContainerCreation
-Ptz4
 Purging all shared textures because the connection to vrserver was lost\n
 QFailed to create internal command allocator\n
 Qkkbal
@@ -4045,7 +4053,7 @@ QuickCalibratePlayspace couldn't get a pose from the HMD\n
 RADV
 RGBG
 RPCRT4.dll
-RSDS)Lvl
+RSDS3
 RadialMenu missing X axis input.\n
 RadialMenu missing Y axis input.\n
 RadialMenu setting 'num_buttons' not specified.\n
@@ -4168,8 +4176,8 @@ Screenshot: Screenshot requested, type=%d, filename="%s" vrfilename="%s"\n
 Screenshot: Screenshot submitted: handle=%u, type=%d, filename="%s" vrfilename="%s"\n
 Screenshot: TakeStereoScreenshot requested, filename="%s" vrfilename="%s"\n
 Screenshot: UpdateScreenshotProgress progress=%4.2f\n
+Searching for LUID: 
 See 
-Sending focus captured events.\n
 Sent message id %u, received %u (%s). Rejecting response.\n
 Server
 Server could not create read event %s\n
@@ -4466,7 +4474,7 @@ Unable to write path registry (113)
 Unbound input (%s,%s) for chord, ignoring chord.
 Unexpected error while trying to change the OpenXR application type: [%s]
 Unexpected failure when checking for timeline signal
-Unhandled sampler filter type!
+Unhandled sampler filter type %d!
 UnhandledExceptionFilter
 Uninitialized
 Unknown
@@ -4498,6 +4506,7 @@ Unknown render model error (%d)
 Unknown string table context %s
 UnmapViewOfFile
 Unnamed simulated action failed to parse: 
+Unsupported DSV type: %d
 Unsupported RTV type: %d
 Unsupported SRV type: %d
 Unsupported `type` for accessor object. Got "
@@ -4674,16 +4683,11 @@ VREvent_EnterStandbyMode
 VREvent_EnvironmentSettingsHaveChanged
 VREvent_FirmwareUpdateFinished
 VREvent_FirmwareUpdateStarted
-VREvent_FocusEnter
-VREvent_FocusLeave
 VREvent_GpuSpeedSectionSettingChanged
 VREvent_HideKeyboard
 VREvent_HideRenderModels
 VREvent_ImageFailed
 VREvent_ImageLoaded
-VREvent_InputFocusCaptured
-VREvent_InputFocusChanged
-VREvent_InputFocusReleased
 VREvent_Input_ActionManifestLoadFailed
 VREvent_Input_ActionManifestReloaded
 VREvent_Input_BindingLoadFailed
@@ -4712,6 +4716,8 @@ VREvent_Monitor_HideHeadsetView
 VREvent_Monitor_ShowHeadsetView
 VREvent_MouseButtonDown
 VREvent_MouseButtonUp
+VREvent_MouseEnter
+VREvent_MouseLeave
 VREvent_MouseMove
 VREvent_None
 VREvent_Notification_BeginInteraction
@@ -4724,10 +4730,8 @@ VREvent_OtherSectionSettingChanged
 VREvent_OverlayClosed
 VREvent_OverlayCreated
 VREvent_OverlayDestroyed
-VREvent_OverlayFocusChanged
-VREvent_OverlayGamepadFocusGained
-VREvent_OverlayGamepadFocusLost
 VREvent_OverlayHidden
+VREvent_OverlayMouseFocusChanged
 VREvent_OverlaySharedTextureChanged
 VREvent_OverlayShown
 VREvent_PerfSectionSettingChanged
@@ -4773,7 +4777,6 @@ VREvent_StartDashboard
 VREvent_StatusUpdate
 VREvent_SteamVRSectionSettingChanged
 VREvent_SubmitScreenshotToDashboard
-VREvent_SwitchGamepadFocus
 VREvent_SystemReport_Started
 VREvent_TouchPadMove
 VREvent_TrackedCamera_EditingSurface
@@ -4791,6 +4794,9 @@ VREvent_TrackersSectionSettingChanged
 VREvent_TrackingRecordingStarted
 VREvent_TrackingRecordingStopped
 VREvent_UserInterfaceSectionSettingChanged
+VREvent_VRInputFocusCaptured_DEPRECATED
+VREvent_VRInputFocusChanged
+VREvent_VRInputFocusReleased_DEPRECATED
 VREvent_VendorSpecific_Reserved_Start+%d
 VREvent_WatchdogWakeUpRequested
 VREvent_WebInterfaceSectionSettingChanged
@@ -5233,6 +5239,7 @@ WriteFile
 WriteScalarValue - %g, time= %llu, origin=%s\n
 XR Swapchain-%d
 XRRenderModelUuidCache
+XRStationaryReferenceCache
 XR_COLOCATION_DISCOVERY_ALREADY_ADVERTISING_META
 XR_COLOCATION_DISCOVERY_ALREADY_DISCOVERING_META
 XR_ENVIRONMENT_DEPTH_NOT_AVAILABLE_META
@@ -5410,6 +5417,7 @@ XR_EXT_interaction_render_model
 XR_EXT_local_floor
 XR_EXT_palm_pose
 XR_EXT_render_model
+XR_EXT_stationary_reference_space
 XR_EXT_user_presence
 XR_EXT_uuid
 XR_EXT_view_configuration_views_change
@@ -5954,6 +5962,8 @@ XR_TYPE_SPATIAL_PERSISTENCE_CONTEXT_CREATE_INFO_EXT
 XR_TYPE_SPATIAL_RAYCAST_INFO_ANDROID
 XR_TYPE_SPATIAL_RAYCAST_SNAPSHOT_CREATE_INFO_ANDROID
 XR_TYPE_SPATIAL_UPDATE_SNAPSHOT_CREATE_INFO_EXT
+XR_TYPE_STATIONARY_REFERENCE_SPACE_GENERATION_ID_GET_INFO_EXT
+XR_TYPE_STATIONARY_REFERENCE_SPACE_GENERATION_ID_RESULT_EXT
 XR_TYPE_SWAPCHAIN_CREATE_INFO
 XR_TYPE_SWAPCHAIN_CREATE_INFO_FOVEATION_FB
 XR_TYPE_SWAPCHAIN_IMAGE_ACQUIRE_INFO
@@ -6117,6 +6127,25 @@ ZvFailed to create fence %ls.\n
 [%s] Mark Timing Event: %s(%d)
 [AnimSkeleton] Failed to load GLTF file: %s
 [CAdaptiveQuality:XR_META_recommended_layer_resolution] Default quality level: %i (%.2f)
+[CCefPaintHelper] AMD Pre-RDNA1 detected.
+[CCefPaintHelper] AMD RDNA1 / RDNA2
+[CCefPaintHelper] AMD RDNA1 / RDNA2 detected and did not driver pass version check.
+[CCefPaintHelper] AMD RDNA3+ detected and did not driver pass version check.
+[CCefPaintHelper] CreateDXGIFactory1 failed while trying to get default adapter.
+[CCefPaintHelper] EnumAdapters failed while trying to get default adapter.
+[CCefPaintHelper] Failed to GetAdapter by luid %llu %s
+[CCefPaintHelper] Failed to get VRSystem
+[CCefPaintHelper] Failed to get adapter desc. %ld
+[CCefPaintHelper] Failed to get adapter driver version. %ld
+[CCefPaintHelper] Failed to get output device from vrserver.
+[CCefPaintHelper] Failed to get output device info. Using CPU.
+[CCefPaintHelper] Invalid forceCEFMode value found in steamvr settings. Accepted values are '%s' or '%s'
+[CCefPaintHelper] SteamVR settings forced CEF to 'cpu'. Previous value was: %s
+[CCefPaintHelper] SteamVR settings forced CEF to 'gpu'. Previous value was: %s
+[CCefPaintHelper] Unknown AMD card
+[CCefPaintHelper] Unknown AMD card did not pass driver version check.
+[CCefPaintHelper] Using On%sPaint
+[CCefPaintHelper] using default adapter (0)
 [CDownsampleRenderer] Failed to create blend state!\n
 [CDownsampleRenderer] Failed to create depth stencil state!\n
 [CDownsampleRenderer] Failed to create dst texture calling ImportTextureFromNativeTexture()!\n
@@ -6437,6 +6466,7 @@ ZvFailed to create fence %ls.\n
 [Warning] Invalid Interaction Profile suggested: %s\n
 [json.exception.
 [libprotobuf %s %s:%d] %s\n
+[vrchaperoneclient] Collision bounds vector is too large.
 [xrLocateSpace/xrLocateSpaces] Location must be valid
 [xrLocateSpaces] required parameter was nullptr
 [xrLocateSpaces] spaceCount must not be 0 and spaceCount must equal locationCount
@@ -6474,7 +6504,6 @@ ZvFailed to create fence %ls.\n
 [xrRenderModel] parameter was nullptr
 [xrRenderModel] renderModelIdCountOutput was nullptr
 [xrRenderModel] session is not running
-\fptz4
 \mfpmp.exe
 \nbad png sig
 \t%s::%llx.\n
@@ -6545,7 +6574,6 @@ _dsign
 _dtest
 _errno
 _execute_onexit_table
-_fdtest
 _fseeki64
 _get_stream_buffer_pointers
 _handle
@@ -6773,8 +6801,8 @@ c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrmailbox.cpp
 c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrrenderer\d3d11renderer.cpp
 c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrrenderer\ivrrenderer.h
 c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrrenderer\vulkanrenderer.cpp
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrrenderer\vulkanrenderer.cpp:4302
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrrenderer\vulkanrenderer.cpp:4386
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrrenderer\vulkanrenderer.cpp:4321
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrrenderer\vulkanrenderer.cpp:4405
 c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrsystem.cpp
 c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrsystemlayersharedstate.cpp
 c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vulkan.cpp
@@ -6854,6 +6882,7 @@ c:\buildslave\steamvr_rel_win64\build\src\vrclient\openxr_entrypoints.cpp:1174
 c:\buildslave\steamvr_rel_win64\build\src\vrclient\openxr_entrypoints.cpp:1183
 c:\buildslave\steamvr_rel_win64\build\src\vrclient\openxr_entrypoints.cpp:1192
 c:\buildslave\steamvr_rel_win64\build\src\vrclient\openxr_entrypoints.cpp:1201
+c:\buildslave\steamvr_rel_win64\build\src\vrclient\openxr_entrypoints.cpp:1210
 c:\buildslave\steamvr_rel_win64\build\src\vrclient\openxr_entrypoints.cpp:174
 c:\buildslave\steamvr_rel_win64\build\src\vrclient\openxr_entrypoints.cpp:187
 c:\buildslave\steamvr_rel_win64\build\src\vrclient\openxr_entrypoints.cpp:214
@@ -6949,6 +6978,7 @@ c:\buildslave\steamvr_rel_win64\build\src\vrclient\openxr_session.cpp
 c:\buildslave\steamvr_rel_win64\build\src\vrclient\openxr_session.h
 c:\buildslave\steamvr_rel_win64\build\src\vrclient\openxr_space.cpp
 c:\buildslave\steamvr_rel_win64\build\src\vrclient\skeletalinpututils.cpp
+c:\buildslave\steamvr_rel_win64\build\src\vrclient\vrchaperoneclient.cpp
 c:\buildslave\steamvr_rel_win64\build\src\vrclient\vrclientcore.cpp
 c:\buildslave\steamvr_rel_win64\build\src\vrclient\vrcompositorclient.cpp
 c:\buildslave\steamvr_rel_win64\build\src\vrclient\vrcompositorclient.cpp:1439
@@ -7020,6 +7050,7 @@ coneInnerAngle
 coneOuterAngle
 coneOuterGain
 config
+config.vCollisionBoundsQuads.size() > UINT32_MAX
 const unsigned int __cdecl CAnimResource::MyTypeID(void)
 const unsigned int __cdecl CBoneMaskResource::MyTypeID(void)
 const unsigned int __cdecl CKeyframedDataResource::MyTypeID(void)
@@ -7041,6 +7072,8 @@ cosf
 count
 create
 cs_cz
+currentUUID
+currentUniverseId
 cursor_index
 czech
 d3d11.dll
@@ -7180,6 +7213,7 @@ expected marker
 expecting another \u token to begin the second half of a unicode surrogate pair
 exponent
 exponent_%s
+ext3
 ext_eye_gaze_interaction
 extensions
 extensionsRequired
@@ -7187,7 +7221,12 @@ extensionsUsed
 external_drivers
 extras
 eyetracking
-fMinDepth < fMaxDepth
+fBottom != fTop
+fFarZ > 0.0f
+fNdcNearZ < fNdcFarZ
+fNearZ != fFarZ
+fNearZ > 0.0f
+fRight != fLeft
 facet::CCompositionClient::AcquireCompositorSlot
 facet::CCompositionClient::AcquireImage
 facet::CCompositionClient::BeginFrameRendering
@@ -7276,12 +7315,15 @@ firmwarerecovery
 firmwareupdate
 first not IHDR
 flWaitTime < 1.0
+flags
 floorf
 fmodf
 fopen
 fopen_s
 forbidden_options
 force
+forceCEFMode
+forceOnPaint
 force_hold_threshold
 force_input
 force_release_threshold
@@ -7796,6 +7838,7 @@ output buffer limit
 outputs
 overlap_pct
 overlay_handle
+overlay_input_focused_changed
 overlay_key
 override_device_class
 overwrite.vrsettings
@@ -7892,7 +7935,6 @@ progress
 progress_icon
 pt_br
 pt_pt
-ptz4
 pull
 punNextEvent
 punct
@@ -7973,6 +8015,7 @@ serialnumber
 server
 session_destroyed
 session_destroyed_response
+set_camera_roomview_enabled
 set_camera_roomview_enabled_forsceneapps
 set_input_device_active
 set_input_device_location
@@ -8024,6 +8067,7 @@ shaders/d3d11/distort_geom_motes_ps.fxo
 shaders/d3d11/distort_geom_multitap_ps.fxo
 shaders/d3d11/distort_geom_pbr_ps.fxo
 shaders/d3d11/distort_geom_ps.fxo
+shaders/d3d11/distort_geom_ps16.fxo
 shaders/d3d11/distort_geom_reflect_multitap_ps.fxo
 shaders/d3d11/distort_geom_reflect_ps.fxo
 shaders/d3d11/distort_geom_simplified_gamma_ps.fxo
@@ -8120,6 +8164,7 @@ shaders/d3d11/motion_filter_attenuation_ps.fxo
 shaders/d3d11/motion_filter_blur_ps.fxo
 shaders/d3d11/motion_filter_cost_ps.fxo
 shaders/d3d11/motion_filter_early_out_vs.fxo
+shaders/d3d11/motion_filter_median3x3_ps.fxo
 shaders/d3d11/motion_filter_median_ps.fxo
 shaders/d3d11/motion_filter_vs.fxo
 shaders/d3d11/motion_smoothing_debug_ps.fxo
@@ -8161,6 +8206,7 @@ shaders/d3d11/unlit_motion_vectors_ps.fxo
 shaders/d3d11/unlit_ps.fxo
 shaders/d3d11/unlit_sint16_ps.fxo
 shaders/d3d11/unlit_vs.fxo
+shaders/vulkan/camera_motion_backout_cs.spv
 shaders/vulkan/contrast_cs.spv
 shaders/vulkan/distort_bounds_color_ps.spv
 shaders/vulkan/distort_cs.spv
@@ -8199,6 +8245,8 @@ shaders/vulkan/distort_geom_motes_ps.spv
 shaders/vulkan/distort_geom_multitap_ps.spv
 shaders/vulkan/distort_geom_pbr_ps.spv
 shaders/vulkan/distort_geom_ps.spv
+shaders/vulkan/distort_geom_ps16.spv
+shaders/vulkan/distort_geom_psmvfloat.spv
 shaders/vulkan/distort_geom_reflect_multitap_ps.spv
 shaders/vulkan/distort_geom_reflect_ps.spv
 shaders/vulkan/distort_geom_simplified_gamma_ps.spv
@@ -8302,6 +8350,7 @@ shaders/vulkan/motion_filter_attenuation_ps.spv
 shaders/vulkan/motion_filter_blur_ps.spv
 shaders/vulkan/motion_filter_cost_ps.spv
 shaders/vulkan/motion_filter_early_out_vs.spv
+shaders/vulkan/motion_filter_median3x3_ps.spv
 shaders/vulkan/motion_filter_median_ps.spv
 shaders/vulkan/motion_filter_vs.spv
 shaders/vulkan/motion_smoothing_debug_ps.spv
@@ -8535,6 +8584,7 @@ sxr_xrGetRenderModelAssetPropertiesEXT
 sxr_xrGetRenderModelPoseTopLevelUserPathEXT
 sxr_xrGetRenderModelPropertiesEXT
 sxr_xrGetRenderModelStateEXT
+sxr_xrGetStationaryReferenceSpaceGenerationIdEXT
 sxr_xrGetSwapchainStateFB
 sxr_xrGetSystem
 sxr_xrGetSystemProperties
@@ -9503,6 +9553,7 @@ watchdog_unknown
 wcscpy_s
 wcsrchr
 wcsstr
+web_steam_mailbox
 webinterface/dashboard/localization/webhelper_
 wedge_angle
 weights
@@ -9566,6 +9617,7 @@ xrCreateInstance
 xrCreateInstance error: attempted to enable EXT_DPAD_BINDING_EXTENSION without enabling required KHR_BINDING_MODIFICATION_EXTENSION.
 xrCreateInstance error: attempted to enable XR_EXT_INTERACTION_RENDER_MODEL without enabling required XR_EXT_RENDER_MODEL \n
 xrCreateInstance error: attempted to enable XR_EXT_RENDER_MODEL without enabling required XR_EXT_UUID \n
+xrCreateInstance error: attempted to enable XR_EXT_stationary_reference_space without enabling required XR_EXT_UUID \n
 xrCreateInstance error: attempted to enable XR_FB_foveation without enabling required XR_FB_swapchain_update_state
 xrCreateInstance error: attempted to enable XR_FB_foveation_configuration without enabling required XR_FB_foveation
 xrCreateInstance error: attempted to enable XR_FB_foveation_vulkan without enabling required XR_FB_foveation
@@ -9605,6 +9657,7 @@ xrDestroySession
 xrDestroySpace
 xrDestroySwapchain
 xrEndFrame
+xrEndFrame error: passed XrCompositionLayerSpaceWarpInfoFB in next chain without enabling required XR_FB_space_warp
 xrEndFrame error: passed XrFrameSynthesisInfoEXT in next chain without enabling required XR_EXT_frame_synthesis
 xrEndFrame: compositor failed EndFrame()
 xrEndFrame: swapchain failed EndFrame()
@@ -9652,6 +9705,11 @@ xrGetRenderModelAssetPropertiesEXT
 xrGetRenderModelPoseTopLevelUserPathEXT
 xrGetRenderModelPropertiesEXT
 xrGetRenderModelStateEXT
+xrGetStationaryReferenceSpaceGenerationIdEXT
+xrGetStationaryReferenceSpaceGenerationIdEXT: Failed to get UUID of current universe. Attempting to generate a new one.
+xrGetStationaryReferenceSpaceGenerationIdEXT: Failed to save new UUID with: %s. Removing currentUniverseId.
+xrGetStationaryReferenceSpaceGenerationIdEXT: Failed to save new universeId with: %s
+xrGetStationaryReferenceSpaceGenerationIdEXT: Generated universe UUID (%s) for universeId: %s
 xrGetSwapchainStateFB
 xrGetSystem
 xrGetSystemProperties

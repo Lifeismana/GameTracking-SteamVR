@@ -2199,9 +2199,6 @@ div.BindingCalloutModifierIcon {
   height: 1em;
   margin: auto;
 }
-.ControllerBattery {
-  filter: brightness(65%);
-}
 .RoomSetupUI {
   width: 25em;
   display: flex;

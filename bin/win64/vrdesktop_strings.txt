@@ -293,8 +293,8 @@ Handling mouse button up
 Handling mouse move
 Handling overlay closed
 Handling overlay events
-Handling overlay focus enter
-Handling overlay focus leave
+Handling overlay mouse focus enter
+Handling overlay mouse focus leave
 Handling overlay shown
 Handling physical mouse override
 Handling raw mouse move
@@ -371,7 +371,7 @@ Parsing of JSON string "%s" failed: %s\n
 Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
-RSDS
+RSDSt
 RaiseException
 Reinitializing output duplication for desktop %d.\n
 ResetEvent

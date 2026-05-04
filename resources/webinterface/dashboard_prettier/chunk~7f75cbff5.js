@@ -1,4 +1,4 @@
-var CLSTAMP = "10590646";
+var CLSTAMP = "10624569";
 (self.webpackChunkvrwebui = self.webpackChunkvrwebui || []).push([
   [797],
   {
@@ -273,16 +273,19 @@ var CLSTAMP = "10590646";
           );
         }
         addEmbeddedPanelUVs(e) {
-          return 0 === this.m_rAvailableEmbeddedIndicesQueue.length
-            ? null
-            : (this.m_mapPanels.set(e.getSGID(), e),
-              this.m_rAvailableEmbeddedIndicesQueue.shift());
+          if (0 !== this.m_rAvailableEmbeddedIndicesQueue.length)
+            return (
+              this.m_mapPanels.set(e.getSGID(), e),
+              this.m_rAvailableEmbeddedIndicesQueue.shift()
+            );
         }
         removeEmbeddedPanelUVs(e) {
-          this.m_mapPanels.has(e.getSGID()) &&
-            (this.m_mapPanels.delete(e.getSGID()),
-            this.m_rAvailableEmbeddedIndicesQueue.push(e.getEmbeddedIndex()),
-            this.m_rEmbeddedIndicesToClear.push(e.getEmbeddedIndex()));
+          if (!this.m_mapPanels.has(e.getSGID())) return;
+          this.m_mapPanels.delete(e.getSGID());
+          const t = e.getEmbeddedIndex();
+          null != t &&
+            (this.m_rAvailableEmbeddedIndicesQueue.push(t),
+            this.m_rEmbeddedIndicesToClear.push(t));
         }
         onMutation(e, t) {
           this.updateAllPanelBounds();
@@ -305,13 +308,14 @@ var CLSTAMP = "10590646";
               ((this.m_CanvasRef.current.width = this.m_nEmbeddedDataWidth),
               (this.m_CanvasContext =
                 this.m_CanvasRef.current.getContext("2d")),
-              (this.m_CanvasContext.globalCompositeOperation = "copy"),
-              (this.m_CanvasContext.imageSmoothingEnabled = !1),
-              null === this.m_Pixels &&
-                (this.m_Pixels = this.m_CanvasContext.createImageData(
-                  this.m_nEmbeddedDataWidth,
-                  m.k_EmbeddedDataRows,
-                ))),
+              null != this.m_CanvasContext &&
+                ((this.m_CanvasContext.globalCompositeOperation = "copy"),
+                (this.m_CanvasContext.imageSmoothingEnabled = !1),
+                null === this.m_Pixels &&
+                  (this.m_Pixels = this.m_CanvasContext.createImageData(
+                    this.m_nEmbeddedDataWidth,
+                    m.k_EmbeddedDataRows,
+                  )))),
             this.updateAllPanelBounds();
         }
         updateAllPanelBounds() {
@@ -357,8 +361,9 @@ var CLSTAMP = "10590646";
                   i = e.m_Rect.x + e.m_Rect.width,
                   r = e.m_Rect.y,
                   o = e.m_Rect.y + e.m_Rect.height,
-                  a = e.getEmbeddedIndex(),
-                  n = 1 + 3 * a;
+                  a = e.getEmbeddedIndex();
+                if (null == a) return;
+                const n = 1 + 3 * a;
                 let l = [0, 0, 0, 0, 0, 0, 0, 0, 0],
                   m = !1;
                 if (e.isExternal() || s >= i || r >= o)
@@ -397,14 +402,18 @@ var CLSTAMP = "10590646";
               this.m_EmbeddedDataImgRef && this.state.eRenderMode == l.Image)
             ) {
               const t =
-                null === (e = VRHTML.VRUtil) || void 0 === e
+                null ===
+                  (e =
+                    null === VRHTML || void 0 === VRHTML
+                      ? void 0
+                      : VRHTML.VRUtil) || void 0 === e
                   ? void 0
                   : e.GetEmbeddedScanlineAsURIImage(
                       this.m_nEmbeddedDataWidth,
                       1,
                       4,
                     );
-              this.m_EmbeddedDataImgRef.current.src = t;
+              null != t && (this.m_EmbeddedDataImgRef.current.src = t);
             } else if (this.m_CanvasRef && this.state.eRenderMode == l.Canvas) {
               let e = this.m_nDirtyXMax - this.m_nDirtyXMin + 1;
               this.m_CanvasContext.putImageData(

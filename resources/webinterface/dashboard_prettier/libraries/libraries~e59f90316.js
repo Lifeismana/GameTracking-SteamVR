@@ -1,6 +1,6 @@
-var CLSTAMP = "10590646";
+var CLSTAMP = "10624569";
 (self.webpackChunkvrwebui = self.webpackChunkvrwebui || []).push([
-  [908, 154, 264],
+  [908],
   {
     5471: (e, t, n) => {
       "use strict";
@@ -2425,6 +2425,7 @@ var CLSTAMP = "10590646";
     7813: (e, t, n) => {
       "use strict";
       n.d(t, {
+        ObservableSet: () => Gn,
         Reaction: () => At,
         _allowStateChanges: () => qe,
         action: () => It,

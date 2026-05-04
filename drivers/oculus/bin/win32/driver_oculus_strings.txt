@@ -298,7 +298,7 @@ $3br
 /user/wrist/right
 0 width
 0-pixel image
-000102030405060708091011121314151617181920212223242526272829303132333435363738394041424344454647484950515253545556575859606162636465666768697071727374757677787980818283848586878889909192939495969798990001020304050607080910111213141516171819202122232425262728293031323334353637383940414243444546474849505152535455565758596061626364656667686970717273747576777879808182838485868788899091929394959697989900010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899
+000102030405060708091011121314151617181920212223242526272829303132333435363738394041424344454647484950515253545556575859606162636465666768697071727374757677787980818283848586878889909192939495969798990001020304050607080910111213141516171819202122232425262728293031323334353637383940414243444546474849505152535455565758596061626364656667686970717273747576777879808182838485868788899091929394959697989900010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899\
 1/2/4/8/16-bit only
 11 4 22 44 44 22 444444
 11eU%
@@ -482,10 +482,15 @@ Failed CreateTexture2D with 0x%X\n\tw=%d, h=%d, format=%d\n\tArraySize=%d, Usage
 Failed calling CreateRenderTargetView() in CD3D11VRRenderer::ImportTextureFromNativeTexture()!\n
 Failed calling CreateShaderResourceView() in CD3D11VRRenderer::ImportTextureFromNativeTexture()!\n
 Failed to convert guardian data to chaperone\n
+Failed to create DSV for texture lod=%d
+Failed to create DSV for texture lod=%d layer=%d
 Failed to create DepthStencilView for texture %s\n
 Failed to create RTV for texture lod=%d
+Failed to create RTV for texture lod=%d layer=%d
 Failed to create RTV for texture\n
 Failed to create SRV for texture lod=%d
+Failed to create SRV for texture lod=%d layer=%d
+Failed to create SRV for texture\n
 Failed to decode 'uri' : 
 Failed to decode 'uri' for image[
 Failed to get default audio playback device\n
@@ -702,7 +707,7 @@ Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
 RPCRT4.dll
-RSDS
+RSDS8
 RaiseException
 ResetEvent
 S-1-15-2-2765576060-2389096713-3079022642-4099546867-1445191215-3071396046-3987166893
@@ -764,6 +769,7 @@ Unknown exception
 Unknown image format. STB cannot decode image data for image[
 Unknown image format. STB cannot decode image header for image[
 Unknown(%u, %u)
+Unsupported DSV type: %d
 Unsupported RTV type: %d
 Unsupported SRV type: %d
 Unsupported `type` for accessor object. Got "
@@ -1466,6 +1472,7 @@ shaders/d3d11/distort_geom_motes_ps.fxo
 shaders/d3d11/distort_geom_multitap_ps.fxo
 shaders/d3d11/distort_geom_pbr_ps.fxo
 shaders/d3d11/distort_geom_ps.fxo
+shaders/d3d11/distort_geom_ps16.fxo
 shaders/d3d11/distort_geom_reflect_multitap_ps.fxo
 shaders/d3d11/distort_geom_reflect_ps.fxo
 shaders/d3d11/distort_geom_simplified_gamma_ps.fxo
@@ -1562,6 +1569,7 @@ shaders/d3d11/motion_filter_attenuation_ps.fxo
 shaders/d3d11/motion_filter_blur_ps.fxo
 shaders/d3d11/motion_filter_cost_ps.fxo
 shaders/d3d11/motion_filter_early_out_vs.fxo
+shaders/d3d11/motion_filter_median3x3_ps.fxo
 shaders/d3d11/motion_filter_median_ps.fxo
 shaders/d3d11/motion_filter_vs.fxo
 shaders/d3d11/motion_smoothing_debug_ps.fxo

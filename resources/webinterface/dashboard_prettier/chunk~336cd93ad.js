@@ -1,4 +1,4 @@
-var CLSTAMP = "10590646";
+var CLSTAMP = "10624569";
 (self.webpackChunkvrwebui = self.webpackChunkvrwebui || []).push([
   [838],
   {
@@ -14,10 +14,10 @@ var CLSTAMP = "10590646";
       "use strict";
       i.d(t, {
         Fi: () => a,
-        Lr: () => D,
+        Lr: () => R,
         MQ: () => o,
         Oi: () => r,
-        Zk: () => R,
+        Zk: () => y,
         _h: () => n,
         o3: () => s,
         xO: () => l,
@@ -36,11 +36,12 @@ var CLSTAMP = "10590646";
         c = i(5723),
         h = i(7600),
         g = i(7727),
-        S = i(1651);
-      function v(e) {
+        v = i(1651),
+        S = i(7813);
+      function D(e) {
         if (e) return [e.u, e.v];
       }
-      function D(e) {
+      function R(e) {
         switch (e) {
           case r.TopLeft:
             return { x: -1, y: 1 };
@@ -99,13 +100,13 @@ var CLSTAMP = "10590646";
           (e[(e.PixelOffset = 0)] = "PixelOffset"),
             (e[(e.ScaleAndCenter = 1)] = "ScaleAndCenter");
         })(l || (l = {}));
-      class R extends p._J {
+      class y extends p._J {
         constructor(e) {
           super(e),
             (this.m_Rect = { x: 0, y: 0, width: 0, height: 0 }),
-            (this.m_nEmbeddedIndex = null),
+            (this.m_nEmbeddedIndex = void 0),
             (this.m_LastDOMContentSize = void 0),
-            (this.m_DOMContentSizeChangedCallbacks = new S.l()),
+            (this.m_DOMContentSizeChangedCallbacks = new v.l()),
             (this.m_resizeObserver = null),
             (this.m_UVsMin = void 0),
             (this.m_UVsMax = void 0),
@@ -155,19 +156,20 @@ var CLSTAMP = "10590646";
           return this.m_nEmbeddedIndex;
         }
         componentWillReceiveProps_UNSAFE() {
-          R.s_bPanelsAreDirty = !0;
+          y.s_bPanelsAreDirty = !0;
         }
         componentDidMount() {
           super.componentDidMount(),
             (this.m_resizeObserver = new ResizeObserver(this.onResizeObserved)),
             this.m_resizeObserver.observe(this.getCurrentRootElement()),
             (this.m_nEmbeddedIndex = u.O.Current().addEmbeddedPanelUVs(this)),
-            (R.s_bPanelsAreDirty = !0),
+            (y.s_bPanelsAreDirty = !0),
             this.getCurrentRootElement().addEventListener(
               "mousedown",
               this.onPanelMouseDown,
             ),
-            this.forceUpdate();
+            this.forceUpdate(),
+            y.s_setAllPanels.add(this);
         }
         onResizeObserved(e, t) {
           u.O.Current().forceLayoutUpdate(),
@@ -180,15 +182,16 @@ var CLSTAMP = "10590646";
             );
         }
         componentWillUnmount() {
-          this.m_resizeObserver &&
-            (this.m_resizeObserver.disconnect(),
-            (this.m_resizeObserver = null)),
+          y.s_setAllPanels.delete(this),
+            this.m_resizeObserver &&
+              (this.m_resizeObserver.disconnect(),
+              (this.m_resizeObserver = null)),
             this.stopOverDragBlocking(),
             this.getCurrentRootElement().removeEventListener(
               "mousedown",
               this.onPanelMouseDown,
             ),
-            (R.s_bPanelsAreDirty = !0),
+            (y.s_bPanelsAreDirty = !0),
             u.O.Current().removeEmbeddedPanelUVs(this),
             this.m_DOMContentSizeChangedCallbacks.ClearAllCallbacks(),
             super.componentWillUnmount();
@@ -253,7 +256,7 @@ var CLSTAMP = "10590646";
             : a.Visible;
         }
         buildNode(e, t) {
-          var i, r, n, o, s, l, _, d, m, h;
+          var i, r, n, o, s, l, _, d, m, h, g, v;
           if (
             !(
               this.visibility == a.Visible ||
@@ -261,111 +264,122 @@ var CLSTAMP = "10590646";
             )
           )
             return [e, null];
-          let g = Object.assign(Object.assign({}, e), {
+          let S = Object.assign(Object.assign({}, e), {
               bInsideReparentedPanel: !1,
               currentPanel: this,
             }),
-            S = this.createSgNode(t),
-            R = { x: 0, y: 0 };
-          R =
+            y = this.createSgNode(t),
+            C = { x: 0, y: 0 };
+          C =
             "object" == typeof this.props.origin
               ? (0, p.PG)(this.props.origin, { x: 0, y: 0 })
-              : D(this.props.origin);
-          const y = this.props.overlay_key,
-            C = (0, c.w5)();
-          y && y.length > 0
-            ? (S.properties.key = y)
-            : C
-              ? (S.properties.key = C)
-              : (S.properties.overlay_handle = (0, c.X4)()),
-            (S.properties.uv_min =
-              null !== (i = v(this.m_UVsMin)) && void 0 !== i ? i : void 0),
-            (S.properties.uv_max =
-              null !== (r = v(this.m_UVsMax)) && void 0 !== r ? r : void 0);
-          const f = 1 / u.O.Current().m_fCurrentScale;
-          let I = this.props.frame_resize_scale_factor;
+              : R(this.props.origin);
+          const f = this.props.overlay_key,
+            I = (0, c.w5)();
+          f && f.length > 0
+            ? (y.properties.key = f)
+            : I
+              ? (y.properties.key = I)
+              : (y.properties.overlay_handle = (0, c.X4)()),
+            this.m_UVsMin &&
+              (y.properties.uv_min =
+                null !== (i = D(this.m_UVsMin)) && void 0 !== i ? i : void 0),
+            this.m_UVsMax &&
+              (y.properties.uv_max =
+                null !== (r = D(this.m_UVsMax)) && void 0 !== r ? r : void 0);
+          const B = 1 / u.O.Current().m_fCurrentScale;
+          let M = this.props.frame_resize_scale_factor;
           return (
-            this.props.is_frame_page_main_panel && (I = null != I ? I : 1),
-            (S.properties.width =
+            this.props.is_frame_page_main_panel && (M = null != M ? M : 1),
+            (y.properties.width =
               null !== (n = this.props.width) && void 0 !== n ? n : void 0),
-            (S.properties.height =
+            (y.properties.height =
               null !== (o = this.props.height) && void 0 !== o ? o : void 0),
-            (S.properties["scale-index"] =
+            (y.properties["scale-index"] =
               null !== (s = this.props.scale_index) && void 0 !== s ? s : 0),
-            (S.properties["min-width"] =
+            (y.properties["min-width"] =
               null !== (l = this.props.min_width) && void 0 !== l ? l : void 0),
-            (S.properties["target-width-anchor-id"] = (0, c.bl)(
+            (y.properties["target-width-anchor-id"] = (0, c.bl)(
               this.props.target_width_anchor_id,
             )),
-            (S.properties["target-dpi-panel-id"] = (0, c.bl)(
+            (y.properties["target-dpi-panel-id"] = (0, c.bl)(
               this.props.target_dpi_panel_id,
             )),
-            (S.properties["target-dpi-multiplier"] =
+            (y.properties["target-dpi-multiplier"] =
               this.props.target_dpi_multiplier),
-            (S.properties["meters-per-pixel"] =
+            (y.properties["meters-per-pixel"] =
               null != this.props.meters_per_pixel
-                ? this.props.meters_per_pixel * f
+                ? this.props.meters_per_pixel * B
                 : void 0),
-            (S.properties["subview-parent-panel-key"] =
+            (y.properties["subview-parent-panel-key"] =
               this.props.subview_parent_panel_key),
-            (S.properties["subview-parent-panel-id"] =
+            (y.properties["subview-parent-panel-id"] =
               this.props.subview_parent_panel_id),
-            (S.properties["subview-sizing"] = this.props.subview_sizing),
-            (S.properties.curvature = this.props.curvature),
-            (S.properties["curvature-origin-id"] = (0, c.bl)(
+            (y.properties["subview-sizing"] = this.props.subview_sizing),
+            (y.properties.curvature = this.props.curvature),
+            (y.properties["curvature-origin-id"] = (0, c.bl)(
               this.props.curvature_origin_id,
             )),
-            (S.properties.spherical = this.props.spherical),
-            (S.properties.interactive = this.props.interactive),
-            (S.properties.scrollable = this.props.scrollable),
-            (S.properties.undocked = this.props.undocked),
-            (S.properties.modal = this.props.modal),
-            (S.properties["only-visible-with-laser"] =
+            (y.properties.spherical = this.props.spherical),
+            (y.properties.interactive = this.props.interactive),
+            (y.properties.scrollable = this.props.scrollable),
+            (y.properties.undocked = this.props.undocked),
+            (y.properties.modal = this.props.modal),
+            (y.properties["only-visible-with-laser"] =
               this.props.only_visible_with_laser),
-            (S.properties["allow-input-capture"] =
+            (y.properties["allow-input-capture"] =
               this.props.allow_input_capture),
-            (S.properties["lasermouse-filtering"] =
+            (y.properties["lasermouse-filtering"] =
               null === (_ = this.props) || void 0 === _
                 ? void 0
                 : _.lasermouse_filtering),
-            (S.properties["hide-laser-when-clicking"] =
+            (y.properties["hide-laser-when-clicking"] =
               this.props.hide_lasermouse_when_clicking),
-            (S.properties["hide-laser-intersection"] =
+            (y.properties["hide-laser-intersection"] =
               null === (d = this.props) || void 0 === d
                 ? void 0
                 : d.hide_laser_intersection),
-            (S.properties["make-overlays-interactive-if-visible"] =
+            (y.properties["make-overlays-interactive-if-visible"] =
               this.props.make_overlays_interactive_if_visible),
-            (S.properties["is-grab-handle"] = this.props.is_grab_handle),
-            (S.properties["embedded-uv-index"] = this.m_nEmbeddedIndex),
-            (S.properties.origin = (0, p.Hm)(R)),
-            (S.properties.debug_name = this.props.debug_name),
-            (S.properties.sampler = this.props.sampler),
-            (S.properties.reflect = this.props.reflect),
-            (S.properties.stereoscopy = this.props.stereoscopy),
-            (S.properties.rendermodel_component_device_index =
+            (y.properties["is-grab-handle"] = this.props.is_grab_handle),
+            (y.properties["embedded-uv-index"] = this.m_nEmbeddedIndex),
+            (y.properties.origin = (0, p.Hm)(C)),
+            (y.properties.debug_name = this.props.debug_name),
+            (y.properties.sampler = this.props.sampler),
+            (y.properties.reflect = this.props.reflect),
+            (y.properties.stereoscopy = this.props.stereoscopy),
+            (y.properties.rendermodel_component_device_index =
               this.props.rendermodel_component_device_index),
-            (S.properties.rendermodel_component_name =
+            (y.properties.rendermodel_component_name =
               this.props.rendermodel_component_name),
-            (S.properties["texture-id"] = (0, c.bl)(this.props.texture_id)),
-            (S.properties["sort-order"] = this.props.sort_order),
-            (S.properties["sort-depth-bias"] = this.props.sort_depth_bias),
-            (S.properties.visibility = this.visibility),
-            (S.properties["frame-resize-scale-factor"] = I),
-            (S.properties["main-panel-for-frame-page"] =
+            (y.properties["texture-id"] = (0, c.bl)(this.props.texture_id)),
+            (y.properties["sort-order"] = this.props.sort_order),
+            (y.properties["sort-depth-bias"] = this.props.sort_depth_bias),
+            (y.properties.visibility = this.visibility),
+            (y.properties["frame-resize-scale-factor"] = M),
+            (y.properties["main-panel-for-frame-page"] =
               this.props.is_frame_page_main_panel),
-            (S.properties["steam-input-appid"] =
-              null === (m = this.props.inputFocusParams) || void 0 === m
+            (y.properties["steam-input-appid"] =
+              null === (m = this.inputFocusParams) || void 0 === m
                 ? void 0
                 : m.unSteamInputAppID),
-            (S.properties["vr-input-pid"] =
-              null === (h = this.props.inputFocusParams) || void 0 === h
+            (y.properties["vr-input-pid"] =
+              null === (h = this.inputFocusParams) || void 0 === h
                 ? void 0
                 : h.unVRInputPID),
-            [g, S]
+            (y.properties["can-take-keyboard-focus"] =
+              null ===
+                (v =
+                  null === (g = this.inputFocusParams) || void 0 === g
+                    ? void 0
+                    : g.bCanTakeKeyboardFocus) ||
+              void 0 === v ||
+              v),
+            [S, y]
           );
         }
         scaleLocalUVToGlobal(e) {
+          if (!this.m_UVsMin || !this.m_UVsMax) return;
           const t = this.m_UVsMax.u - this.m_UVsMin.u,
             i = this.m_UVsMax.v - this.m_UVsMin.v;
           return { u: this.m_UVsMin.u + t * e.u, v: this.m_UVsMin.v + i * e.v };
@@ -378,17 +392,21 @@ var CLSTAMP = "10590646";
             );
           this.m_Rect = this.getCurrentRootElement().getBoundingClientRect();
           let e = this.getCurrentRootElement().ownerDocument.defaultView;
-          (this.m_UVsMin = {
-            u: this.m_Rect.x / e.innerWidth,
-            v: this.m_Rect.y / e.innerHeight,
-          }),
+          e &&
+            ((this.m_UVsMin = {
+              u: this.m_Rect.x / e.innerWidth,
+              v: this.m_Rect.y / e.innerHeight,
+            }),
             (this.m_UVsMax = {
               u: (this.m_Rect.x + this.m_Rect.width) / e.innerWidth,
               v: (this.m_Rect.y + this.m_Rect.height) / e.innerHeight,
-            });
+            }));
         }
         PanelContextValue() {
           return this;
+        }
+        BCanUseStableSGIDs() {
+          return !0;
         }
         internalRender() {
           return d.createElement(
@@ -396,11 +414,31 @@ var CLSTAMP = "10590646";
             { style: { display: this.visibility == a.Hidden ? "none" : null } },
             d.createElement(h.tH, null, this.props.children),
             this.props.is_frame_page_main_panel &&
-              d.createElement(y, { panel: this, panelID: this.getID() }),
+              d.createElement(C, { panel: this, panelID: this.getID() }),
+          );
+        }
+        get inputFocusParams() {
+          return Object.assign(
+            { bCanTakeKeyboardFocus: this.props.interactive },
+            this.props.inputFocusParams,
+          );
+        }
+        get isInputFocusable() {
+          var e, t, i;
+          return (
+            (null === (e = this.inputFocusParams) || void 0 === e
+              ? void 0
+              : e.unSteamInputAppID) ||
+            (null === (t = this.inputFocusParams) || void 0 === t
+              ? void 0
+              : t.unVRInputPID) ||
+            (null === (i = this.inputFocusParams) || void 0 === i
+              ? void 0
+              : i.bCanTakeKeyboardFocus)
           );
         }
       }
-      function y(e) {
+      function C(e) {
         const { panel: t, panelID: i } = e,
           { page: r } = (0, g.N)();
         return (
@@ -411,11 +449,13 @@ var CLSTAMP = "10590646";
           null
         );
       }
-      (R.s_bPanelsAreDirty = !1),
-        (0, _.Cg)([m.o], R.prototype, "onResizeObserved", null),
-        (0, _.Cg)([m.o], R.prototype, "onPanelMouseDown", null),
-        (0, _.Cg)([m.o], R.prototype, "onWindowMouseUp", null),
-        (0, _.Cg)([m.o], R.prototype, "buildNode", null);
+      (y.s_bPanelsAreDirty = !1),
+        (y.s_setAllPanels = new S.ObservableSet()),
+        (0, _.Cg)([m.o], y.prototype, "onResizeObserved", null),
+        (0, _.Cg)([m.o], y.prototype, "onPanelMouseDown", null),
+        (0, _.Cg)([m.o], y.prototype, "onWindowMouseUp", null),
+        (0, _.Cg)([m.o], y.prototype, "buildNode", null),
+        (window.s_setAllPanels = y.s_setAllPanels);
     },
     5178: (e, t, i) => {
       "use strict";
@@ -569,16 +609,19 @@ var CLSTAMP = "10590646";
           );
         }
         addEmbeddedPanelUVs(e) {
-          return 0 === this.m_rAvailableEmbeddedIndicesQueue.length
-            ? null
-            : (this.m_mapPanels.set(e.getSGID(), e),
-              this.m_rAvailableEmbeddedIndicesQueue.shift());
+          if (0 !== this.m_rAvailableEmbeddedIndicesQueue.length)
+            return (
+              this.m_mapPanels.set(e.getSGID(), e),
+              this.m_rAvailableEmbeddedIndicesQueue.shift()
+            );
         }
         removeEmbeddedPanelUVs(e) {
-          this.m_mapPanels.has(e.getSGID()) &&
-            (this.m_mapPanels.delete(e.getSGID()),
-            this.m_rAvailableEmbeddedIndicesQueue.push(e.getEmbeddedIndex()),
-            this.m_rEmbeddedIndicesToClear.push(e.getEmbeddedIndex()));
+          if (!this.m_mapPanels.has(e.getSGID())) return;
+          this.m_mapPanels.delete(e.getSGID());
+          const t = e.getEmbeddedIndex();
+          null != t &&
+            (this.m_rAvailableEmbeddedIndicesQueue.push(t),
+            this.m_rEmbeddedIndicesToClear.push(t));
         }
         onMutation(e, t) {
           this.updateAllPanelBounds();
@@ -601,13 +644,14 @@ var CLSTAMP = "10590646";
               ((this.m_CanvasRef.current.width = this.m_nEmbeddedDataWidth),
               (this.m_CanvasContext =
                 this.m_CanvasRef.current.getContext("2d")),
-              (this.m_CanvasContext.globalCompositeOperation = "copy"),
-              (this.m_CanvasContext.imageSmoothingEnabled = !1),
-              null === this.m_Pixels &&
-                (this.m_Pixels = this.m_CanvasContext.createImageData(
-                  this.m_nEmbeddedDataWidth,
-                  d.k_EmbeddedDataRows,
-                ))),
+              null != this.m_CanvasContext &&
+                ((this.m_CanvasContext.globalCompositeOperation = "copy"),
+                (this.m_CanvasContext.imageSmoothingEnabled = !1),
+                null === this.m_Pixels &&
+                  (this.m_Pixels = this.m_CanvasContext.createImageData(
+                    this.m_nEmbeddedDataWidth,
+                    d.k_EmbeddedDataRows,
+                  )))),
             this.updateAllPanelBounds();
         }
         updateAllPanelBounds() {
@@ -653,8 +697,9 @@ var CLSTAMP = "10590646";
                   r = e.m_Rect.x + e.m_Rect.width,
                   n = e.m_Rect.y,
                   o = e.m_Rect.y + e.m_Rect.height,
-                  a = e.getEmbeddedIndex(),
-                  s = 1 + 3 * a;
+                  a = e.getEmbeddedIndex();
+                if (null == a) return;
+                const s = 1 + 3 * a;
                 let _ = [0, 0, 0, 0, 0, 0, 0, 0, 0],
                   d = !1;
                 if (e.isExternal() || i >= r || n >= o)
@@ -693,14 +738,18 @@ var CLSTAMP = "10590646";
               this.m_EmbeddedDataImgRef && this.state.eRenderMode == _.Image)
             ) {
               const t =
-                null === (e = VRHTML.VRUtil) || void 0 === e
+                null ===
+                  (e =
+                    null === VRHTML || void 0 === VRHTML
+                      ? void 0
+                      : VRHTML.VRUtil) || void 0 === e
                   ? void 0
                   : e.GetEmbeddedScanlineAsURIImage(
                       this.m_nEmbeddedDataWidth,
                       1,
                       4,
                     );
-              this.m_EmbeddedDataImgRef.current.src = t;
+              null != t && (this.m_EmbeddedDataImgRef.current.src = t);
             } else if (this.m_CanvasRef && this.state.eRenderMode == _.Canvas) {
               let e = this.m_nDirtyXMax - this.m_nDirtyXMin + 1;
               this.m_CanvasContext.putImageData(
@@ -840,14 +889,14 @@ var CLSTAMP = "10590646";
       }
       i.d(t, {
         Ee: () => y,
-        GQ: () => w,
+        GQ: () => E,
         Gz: () => _,
         HW: () => g,
         MV: () => o,
         OH: () => r,
         R$: () => s,
         Rk: () => m,
-        Xl: () => v,
+        Xl: () => S,
         Yu: () => C,
         _1: () => F,
         _E: () => l,
@@ -896,7 +945,7 @@ var CLSTAMP = "10590646";
       let l = 0,
         _ = 0,
         d = 4294967295;
-      var p, u, m, c, h, g, S, v, D, R, y, C, f, I, B, M, b, P, F, E, w;
+      var p, u, m, c, h, g, v, S, D, R, y, C, f, I, B, M, b, P, F, w, E;
       !(function (e) {
         (e[(e.None = 0)] = "None"),
           (e[(e.Shown = 1)] = "Shown"),
@@ -952,12 +1001,12 @@ var CLSTAMP = "10590646";
             (e[(e.CouldntFindOrCreateClientOverlay = 5)] =
               "CouldntFindOrCreateClientOverlay"),
             (e[(e.ApplicationQuit = 6)] = "ApplicationQuit");
-        })(S || (S = {})),
+        })(v || (v = {})),
         (function (e) {
           (e[(e.Normal = 0)] = "Normal"),
             (e[(e.Password = 1)] = "Password"),
             (e[(e.Submit = 2)] = "Submit");
-        })(v || (v = {})),
+        })(S || (S = {})),
         (function (e) {
           (e[(e.SingleLine = 0)] = "SingleLine"),
             (e[(e.MultipleLines = 1)] = "MultipleLines");
@@ -1067,30 +1116,31 @@ var CLSTAMP = "10590646";
             (e[(e.Error_PlayAreaInvalid = 203)] = "Error_PlayAreaInvalid"),
             (e[(e.Error_CollisionBoundsInvalid = 204)] =
               "Error_CollisionBoundsInvalid");
-        })(E || (E = {})),
+        })(w || (w = {})),
         (function (e) {
           (e[(e.Small = 0)] = "Small"),
             (e[(e.Medium = 1)] = "Medium"),
             (e[(e.Large = 2)] = "Large"),
             (e[(e.Gigantic = 3)] = "Gigantic"),
             (e[(e.Standing = 4)] = "Standing");
-        })(w || (w = {}));
+        })(E || (E = {}));
     },
     4367: (e, t, i) => {
       "use strict";
-      var r, n, o, a, s, l, _, d, p, u, m, c, h, g;
+      var r, n, o, a, s, l, _, d, p, u, m, c, h, g, v, S;
       i.d(t, {
-        $: () => d,
-        $Z: () => p,
-        Fz: () => g,
-        KI: () => _,
+        $: () => p,
+        $Z: () => u,
+        Fz: () => S,
+        KI: () => d,
         QR: () => a,
+        YV: () => v,
         en: () => o,
-        eo: () => u,
+        eo: () => m,
         fD: () => r,
-        fk: () => m,
-        um: () => h,
-        yW: () => c,
+        fk: () => c,
+        um: () => g,
+        yW: () => h,
       }),
         (function (e) {
           (e[(e.Invalid = 0)] = "Invalid"),
@@ -1162,6 +1212,8 @@ var CLSTAMP = "10590646";
             (e[(e.AllowCameraToggle_Bool = 1055)] = "AllowCameraToggle_Bool"),
             (e[(e.AllowLightSourceFrequency_Bool = 1056)] =
               "AllowLightSourceFrequency_Bool"),
+            (e[(e.IsDedicatedVRHeadset_Bool = 1058)] =
+              "IsDedicatedVRHeadset_Bool"),
             (e[(e.HasEyeTracker_Bool = 1060)] = "HasEyeTracker_Bool"),
             (e[(e.ReportsTimeSinceVSync_Bool = 2e3)] =
               "ReportsTimeSinceVSync_Bool"),
@@ -1352,6 +1404,8 @@ var CLSTAMP = "10590646";
               "DriverRequestedMuraFeather_OuterBottom_Int32"),
             (e[(e.Audio_SupportsDualSpeakerAndJackOutput_Bool = 2303)] =
               "Audio_SupportsDualSpeakerAndJackOutput_Bool"),
+            (e[(e.Hmd_ForceRoomViewOutsideChaperone_Bool = 2500)] =
+              "Hmd_ForceRoomViewOutsideChaperone_Bool"),
             (e[(e.AttachedDeviceId_String = 3e3)] = "AttachedDeviceId_String"),
             (e[(e.SupportedButtons_Uint64 = 3001)] = "SupportedButtons_Uint64"),
             (e[(e.Axis0Type_Int32 = 3002)] = "Axis0Type_Int32"),
@@ -1478,23 +1532,28 @@ var CLSTAMP = "10590646";
             (e[(e.Idle_Timeout = 4)] = "Idle_Timeout");
         })(s || (s = {})),
         (function (e) {
+          (e[(e.VRMouseButton_Left = 1)] = "VRMouseButton_Left"),
+            (e[(e.VRMouseButton_Right = 2)] = "VRMouseButton_Right"),
+            (e[(e.VRMouseButton_Middle = 4)] = "VRMouseButton_Middle");
+        })(l || (l = {})),
+        (function (e) {
           (e[(e.Notification_Shown = 600)] = "Notification_Shown"),
             (e[(e.Notification_Hidden = 601)] = "Notification_Hidden"),
             (e[(e.Notification_BeginInteraction = 602)] =
               "Notification_BeginInteraction"),
             (e[(e.Notification_Destroyed = 603)] = "Notification_Destroyed");
-        })(l || (l = {})),
+        })(_ || (_ = {})),
         (function (e) {
           (e[(e.TheaterFast = 0)] = "TheaterFast"),
             (e[(e.TheaterSlow = 1)] = "TheaterSlow");
-        })(_ || (_ = {})),
+        })(d || (d = {})),
         (function (e) {
           (e[(e.Constant = 0)] = "Constant"),
             (e[(e.Nearest = 1)] = "Nearest"),
             (e[(e.Linear = 2)] = "Linear"),
             (e[(e.SmoothStep = 3)] = "SmoothStep"),
             (e[(e.SmootherStep = 4)] = "SmootherStep");
-        })(d || (d = {})),
+        })(p || (p = {})),
         (function (e) {
           (e[(e.Invalid = 0)] = "Invalid"),
             (e[(e.RecenterCountdown = 1)] = "RecenterCountdown"),
@@ -1502,13 +1561,13 @@ var CLSTAMP = "10590646";
             (e[(e.RoomSetupFloor = 3)] = "RoomSetupFloor"),
             (e[(e.ClearRoomSetup = 4)] = "ClearRoomSetup"),
             (e[(e.RoomSetupFull = 5)] = "RoomSetupFull");
-        })(p || (p = {})),
+        })(u || (u = {})),
         (function (e) {
           (e[(e.Near = 0)] = "Near"),
             (e[(e.Middle = 1)] = "Middle"),
             (e[(e.Far = 2)] = "Far"),
             (e[(e.VRGamepadUI = 3)] = "VRGamepadUI");
-        })(u || (u = {})),
+        })(m || (m = {})),
         (function (e) {
           (e[(e.__LocalSteamVR = 0)] = "__LocalSteamVR"),
             (e[(e.__LocalSteam = 1)] = "__LocalSteam"),
@@ -1517,7 +1576,7 @@ var CLSTAMP = "10590646";
             (e[(e.MutualLocal = 4)] = "MutualLocal"),
             (e[(e.MutualSteamVR = 5)] = "MutualSteamVR"),
             (e[(e.MutualSteam = 6)] = "MutualSteam");
-        })(m || (m = {})),
+        })(c || (c = {})),
         (function (e) {
           (e[(e.Dashboard = 1)] = "Dashboard"),
             (e[(e.LeftHand = 2)] = "LeftHand"),
@@ -1525,19 +1584,24 @@ var CLSTAMP = "10590646";
             (e[(e.World = 4)] = "World"),
             (e[(e.Theater = 5)] = "Theater"),
             (e[(e.Boot = 6)] = "Boot");
-        })(c || (c = {})),
+        })(h || (h = {})),
         (function (e) {
           (e[(e.Invalid = 0)] = "Invalid"),
             (e[(e.System = 1)] = "System"),
             (e[(e.SteamInput = 2)] = "SteamInput"),
             (e[(e.VRInput = 3)] = "VRInput");
-        })(h || (h = {})),
+        })(g || (g = {})),
+        (function (e) {
+          (e[(e.Invalid = 0)] = "Invalid"),
+            (e[(e.SceneApp = 1)] = "SceneApp"),
+            (e[(e.Panel = 2)] = "Panel");
+        })(v || (v = {})),
         (function (e) {
           (e[(e.None = 0)] = "None"),
             (e[(e.ThirdPartyClient = 1)] = "ThirdPartyClient"),
             (e[(e.SteamVRClientUnified = 2)] = "SteamVRClientUnified"),
             (e[(e.SteamVRClientLegacyDual = 3)] = "SteamVRClientLegacyDual");
-        })(g || (g = {}));
+        })(S || (S = {}));
     },
     6185: (e, t, i) => {
       "use strict";

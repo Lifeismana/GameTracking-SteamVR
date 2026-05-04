@@ -91,6 +91,10 @@
   "ShowSteamUI_Steam": "Open Steam Menu",
   "ShowSteamUI_QAM": "Open Quick Access Menu",
 
+  "Chaperone_Bubble_Forbidden" : "Can't Hide Room View Outside the Play Area During VR Games.",
+  "Chaperone_Bubble_Create" : "Hide Room View",
+  "Chaperone_ReturnToPlayArea": "Return to the Play Area",
+
   "RoomSetup_AdjustFloorHeight" : "Adjust Floor Height",
   "RoomSetup_AdjustFloorHeight_Details" : "Touch the floor (or use thumbstick) to adjust.",
   "RoomSetup_AdjustPlayspace" : "Adjust Playspace",

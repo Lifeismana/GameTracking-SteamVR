@@ -151,6 +151,7 @@
 	"MenuAction_Update": "Update",
 	"Settings_Developer_TrackingDataHeader": "Record Tracking Data",
 	"Settings_Developer_TrackingDataSavedSuccessfully": "Tracking Data Saved Successfully to path:",
+	"Settings_Developer_AllowBubbleInImmersiveApps": "Allow Chaperone Bubble in Immersive Apps",
 	"Settings_Advanced_AllowSupersampleFiltering": "Advanced Supersample Filtering",
 	"Settings_Video_HDCP14LegacyCompatibility": "HDCP 1.4 Legacy Compatibility",
 	"Settings_Advanced_Paths_Header": "Paths",

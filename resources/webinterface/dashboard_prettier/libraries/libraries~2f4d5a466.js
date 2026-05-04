@@ -1,10 +1,7 @@
-var CLSTAMP = "10590646";
+var CLSTAMP = "10624569";
 (self.webpackChunkvrwebui = self.webpackChunkvrwebui || []).push([
   [260, 47],
   {
-    2593: (e, t, r) => {
-      e.exports = r(6874);
-    },
     6874: (e, t, r) => {
       var n,
         o = r(7813),
@@ -31,10 +28,10 @@ var CLSTAMP = "10590646";
       function d(e) {
         p = e;
       }
-      function v() {
+      function y() {
         return p;
       }
-      var y,
+      var v,
         b,
         h = new (
           "undefined" != typeof FinalizationRegistry
@@ -91,7 +88,7 @@ var CLSTAMP = "10590646";
         });
       }
       function S(e, t) {
-        if ((void 0 === t && (t = "observed"), v())) return e();
+        if ((void 0 === t && (t = "observed"), y())) return e();
         var r = i.useRef(null);
         if (!r.current) {
           var n = {
@@ -141,31 +138,31 @@ var CLSTAMP = "10590646";
         w = "function" == typeof Symbol && Symbol.for,
         _ =
           null !=
-            (y =
+            (v =
               null ==
               (b = Object.getOwnPropertyDescriptor(function () {}, "name"))
                 ? void 0
-                : b.configurable) && y,
-        E = w
+                : b.configurable) && v,
+        R = w
           ? Symbol.for("react.forward_ref")
           : "function" == typeof u.forwardRef &&
             u.forwardRef(function (e) {
               return null;
             }).$$typeof,
-        R = w
+        C = w
           ? Symbol.for("react.memo")
           : "function" == typeof u.memo &&
             u.memo(function (e) {
               return null;
             }).$$typeof,
-        O = {
+        E = {
           $$typeof: !0,
           render: !0,
           compare: !0,
           type: !0,
           displayName: !0,
         };
-      function C(e) {
+      function O(e) {
         var t = e.children,
           r = e.render;
         t &&
@@ -187,7 +184,7 @@ var CLSTAMP = "10590646";
           t
         );
       }
-      (C.displayName = "Observer"), l(a.unstable_batchedUpdates);
+      (O.displayName = "Observer"), l(a.unstable_batchedUpdates);
       var $ = null != (g = h.finalizeAllImmediately) ? g : function () {};
       t.useObserver = function (e, t) {
         return void 0 === t && (t = "observed"), S(e, t);
@@ -204,9 +201,9 @@ var CLSTAMP = "10590646";
           isUsingStaticRendering: () => i.P,
           observer: () => c.P,
           observerBatching: () => o.tl,
-          useAsObservableSource: () => v,
+          useAsObservableSource: () => y,
           useLocalObservable: () => d,
-          useLocalStore: () => y,
+          useLocalStore: () => v,
           useObserver: () => h,
           useStaticRendering: () => m,
         });
@@ -237,7 +234,7 @@ var CLSTAMP = "10590646";
           return (0, f.observable)(e(), t, { autoBind: !0 });
         })[0];
       }
-      function v(e) {
+      function y(e) {
         var t = (0, p.useState)(function () {
           return (0, f.observable)(e, {}, { deep: !1 });
         })[0];
@@ -248,8 +245,8 @@ var CLSTAMP = "10590646";
           t
         );
       }
-      function y(e, t) {
-        var r = t && v(t);
+      function v(e, t) {
+        var r = t && y(t);
         return (0, p.useState)(function () {
           return (0, f.observable)(e(r), void 0, { autoBind: !0 });
         })[0];
@@ -354,7 +351,7 @@ var CLSTAMP = "10590646";
         f = Symbol.for("react.memo"),
         p = Symbol.for("react.lazy"),
         d = Symbol.iterator;
-      var v = {
+      var y = {
           isMounted: function () {
             return !1;
           },
@@ -362,20 +359,20 @@ var CLSTAMP = "10590646";
           enqueueReplaceState: function () {},
           enqueueSetState: function () {},
         },
-        y = Object.assign,
+        v = Object.assign,
         b = {};
       function h(e, t, r) {
         (this.props = e),
           (this.context = t),
           (this.refs = b),
-          (this.updater = r || v);
+          (this.updater = r || y);
       }
       function m() {}
       function S(e, t, r) {
         (this.props = e),
           (this.context = t),
           (this.refs = b),
-          (this.updater = r || v);
+          (this.updater = r || y);
       }
       (h.prototype.isReactComponent = {}),
         (h.prototype.setState = function (e, t) {
@@ -390,12 +387,12 @@ var CLSTAMP = "10590646";
         }),
         (m.prototype = h.prototype);
       var g = (S.prototype = new m());
-      (g.constructor = S), y(g, h.prototype), (g.isPureReactComponent = !0);
+      (g.constructor = S), v(g, h.prototype), (g.isPureReactComponent = !0);
       var w = Array.isArray,
         _ = Object.prototype.hasOwnProperty,
-        E = { current: null },
-        R = { key: !0, ref: !0, __self: !0, __source: !0 };
-      function O(e, t, n) {
+        R = { current: null },
+        C = { key: !0, ref: !0, __self: !0, __source: !0 };
+      function E(e, t, n) {
         var o,
           u = {},
           i = null,
@@ -404,7 +401,7 @@ var CLSTAMP = "10590646";
           for (o in (void 0 !== t.ref && (a = t.ref),
           void 0 !== t.key && (i = "" + t.key),
           t))
-            _.call(t, o) && !R.hasOwnProperty(o) && (u[o] = t[o]);
+            _.call(t, o) && !C.hasOwnProperty(o) && (u[o] = t[o]);
         var c = arguments.length - 2;
         if (1 === c) u.children = n;
         else if (1 < c) {
@@ -419,10 +416,10 @@ var CLSTAMP = "10590646";
           key: i,
           ref: a,
           props: u,
-          _owner: E.current,
+          _owner: R.current,
         };
       }
-      function C(e) {
+      function O(e) {
         return "object" == typeof e && null !== e && e.$$typeof === r;
       }
       var k = /\/+/g;
@@ -468,7 +465,7 @@ var CLSTAMP = "10590646";
                   return e;
                 }))
               : null != i &&
-                (C(i) &&
+                (O(i) &&
                   (i = (function (e, t) {
                     return {
                       $$typeof: r,
@@ -530,7 +527,7 @@ var CLSTAMP = "10590646";
           n
         );
       }
-      function V(e) {
+      function P(e) {
         if (-1 === e._status) {
           var t = e._result;
           (t = t()).then(
@@ -548,14 +545,14 @@ var CLSTAMP = "10590646";
         if (1 === e._status) return e._result.default;
         throw e._result;
       }
-      var P = { current: null },
-        T = { transition: null },
+      var T = { current: null },
+        V = { transition: null },
         A = {
-          ReactCurrentDispatcher: P,
-          ReactCurrentBatchConfig: T,
-          ReactCurrentOwner: E,
+          ReactCurrentDispatcher: T,
+          ReactCurrentBatchConfig: V,
+          ReactCurrentOwner: R,
         };
-      function D() {
+      function I() {
         throw Error("act(...) is not supported in production builds of React.");
       }
       (t.Children = {
@@ -586,7 +583,7 @@ var CLSTAMP = "10590646";
           );
         },
         only: function (e) {
-          if (!C(e))
+          if (!O(e))
             throw Error(
               "React.Children.only expected to receive a single React element child.",
             );
@@ -600,7 +597,7 @@ var CLSTAMP = "10590646";
         (t.StrictMode = u),
         (t.Suspense = l),
         (t.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED = A),
-        (t.act = D),
+        (t.act = I),
         (t.cloneElement = function (e, t, n) {
           if (null == e)
             throw Error(
@@ -608,20 +605,20 @@ var CLSTAMP = "10590646";
                 e +
                 ".",
             );
-          var o = y({}, e.props),
+          var o = v({}, e.props),
             u = e.key,
             i = e.ref,
             a = e._owner;
           if (null != t) {
             if (
-              (void 0 !== t.ref && ((i = t.ref), (a = E.current)),
+              (void 0 !== t.ref && ((i = t.ref), (a = R.current)),
               void 0 !== t.key && (u = "" + t.key),
               e.type && e.type.defaultProps)
             )
               var c = e.type.defaultProps;
             for (s in t)
               _.call(t, s) &&
-                !R.hasOwnProperty(s) &&
+                !C.hasOwnProperty(s) &&
                 (o[s] = void 0 === t[s] && void 0 !== c ? c[s] : t[s]);
           }
           var s = arguments.length - 2;
@@ -655,9 +652,9 @@ var CLSTAMP = "10590646";
             (e.Consumer = e)
           );
         }),
-        (t.createElement = O),
+        (t.createElement = E),
         (t.createFactory = function (e) {
-          var t = O.bind(null, e);
+          var t = E.bind(null, e);
           return (t.type = e), t;
         }),
         (t.createRef = function () {
@@ -666,132 +663,71 @@ var CLSTAMP = "10590646";
         (t.forwardRef = function (e) {
           return { $$typeof: s, render: e };
         }),
-        (t.isValidElement = C),
+        (t.isValidElement = O),
         (t.lazy = function (e) {
           return {
             $$typeof: p,
             _payload: { _status: -1, _result: e },
-            _init: V,
+            _init: P,
           };
         }),
         (t.memo = function (e, t) {
           return { $$typeof: f, type: e, compare: void 0 === t ? null : t };
         }),
         (t.startTransition = function (e) {
-          var t = T.transition;
-          T.transition = {};
+          var t = V.transition;
+          V.transition = {};
           try {
             e();
           } finally {
-            T.transition = t;
+            V.transition = t;
           }
         }),
-        (t.unstable_act = D),
+        (t.unstable_act = I),
         (t.useCallback = function (e, t) {
-          return P.current.useCallback(e, t);
+          return T.current.useCallback(e, t);
         }),
         (t.useContext = function (e) {
-          return P.current.useContext(e);
+          return T.current.useContext(e);
         }),
         (t.useDebugValue = function () {}),
         (t.useDeferredValue = function (e) {
-          return P.current.useDeferredValue(e);
+          return T.current.useDeferredValue(e);
         }),
         (t.useEffect = function (e, t) {
-          return P.current.useEffect(e, t);
+          return T.current.useEffect(e, t);
         }),
         (t.useId = function () {
-          return P.current.useId();
+          return T.current.useId();
         }),
         (t.useImperativeHandle = function (e, t, r) {
-          return P.current.useImperativeHandle(e, t, r);
+          return T.current.useImperativeHandle(e, t, r);
         }),
         (t.useInsertionEffect = function (e, t) {
-          return P.current.useInsertionEffect(e, t);
+          return T.current.useInsertionEffect(e, t);
         }),
         (t.useLayoutEffect = function (e, t) {
-          return P.current.useLayoutEffect(e, t);
+          return T.current.useLayoutEffect(e, t);
         }),
         (t.useMemo = function (e, t) {
-          return P.current.useMemo(e, t);
+          return T.current.useMemo(e, t);
         }),
         (t.useReducer = function (e, t, r) {
-          return P.current.useReducer(e, t, r);
+          return T.current.useReducer(e, t, r);
         }),
         (t.useRef = function (e) {
-          return P.current.useRef(e);
+          return T.current.useRef(e);
         }),
         (t.useState = function (e) {
-          return P.current.useState(e);
+          return T.current.useState(e);
         }),
         (t.useSyncExternalStore = function (e, t, r) {
-          return P.current.useSyncExternalStore(e, t, r);
+          return T.current.useSyncExternalStore(e, t, r);
         }),
         (t.useTransition = function () {
-          return P.current.useTransition();
+          return T.current.useTransition();
         }),
         (t.version = "18.3.1");
-    },
-    8493: (e, t, r) => {
-      var n = r(6540);
-      var o =
-          "function" == typeof Object.is
-            ? Object.is
-            : function (e, t) {
-                return (
-                  (e === t && (0 !== e || 1 / e == 1 / t)) || (e != e && t != t)
-                );
-              },
-        u = n.useState,
-        i = n.useEffect,
-        a = n.useLayoutEffect,
-        c = n.useDebugValue;
-      function s(e) {
-        var t = e.getSnapshot;
-        e = e.value;
-        try {
-          var r = t();
-          return !o(e, r);
-        } catch (e) {
-          return !0;
-        }
-      }
-      var l =
-        "undefined" == typeof window ||
-        void 0 === window.document ||
-        void 0 === window.document.createElement
-          ? function (e, t) {
-              return t();
-            }
-          : function (e, t) {
-              var r = t(),
-                n = u({ inst: { value: r, getSnapshot: t } }),
-                o = n[0].inst,
-                l = n[1];
-              return (
-                a(
-                  function () {
-                    (o.value = r), (o.getSnapshot = t), s(o) && l({ inst: o });
-                  },
-                  [e, r, t],
-                ),
-                i(
-                  function () {
-                    return (
-                      s(o) && l({ inst: o }),
-                      e(function () {
-                        s(o) && l({ inst: o });
-                      })
-                    );
-                  },
-                  [e],
-                ),
-                c(r),
-                r
-              );
-            };
-      t.useSyncExternalStore =
-        void 0 !== n.useSyncExternalStore ? n.useSyncExternalStore : l;
     },
     9888: (e, t, r) => {
       e.exports = r(8493);

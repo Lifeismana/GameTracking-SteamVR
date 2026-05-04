@@ -65,6 +65,9 @@ fi
 # Fedora changes default SDL behavior to give higher priority to Vulkan, which breaks us
 export SDL_VIDEODRIVER=x11
 
+# developer tricks: disabling the watchdog abort may help debugging
+#export STEAMVR_DISABLE_THREAD_WATCHDOGS=1
+
 # NOTE: the vrcompositor-launcher stub does a bit of env manipulation and syscap work
 # NOTE: we do not support a launch under debugger here, see "WaitForDebugger" instead
 log exec "$ROOT/vrcompositor-launcher" "$@"

@@ -1,4 +1,4 @@
-var CLSTAMP = "10590646";
+var CLSTAMP = "10624569";
 (() => {
   "use strict";
   var e,
@@ -32,8 +32,8 @@ var CLSTAMP = "10590646";
             (this.refs = g),
             (this.updater = r || p);
         }
-        function b() {}
-        function S(e, t, r) {
+        function S() {}
+        function b(e, t, r) {
           (this.props = e),
             (this.context = t),
             (this.refs = g),
@@ -50,14 +50,14 @@ var CLSTAMP = "10590646";
           (_.prototype.forceUpdate = function (e) {
             this.updater.enqueueForceUpdate(this, e, "forceUpdate");
           }),
-          (b.prototype = _.prototype);
-        var y = (S.prototype = new b());
-        (y.constructor = S), f(y, _.prototype), (y.isPureReactComponent = !0);
+          (S.prototype = _.prototype);
+        var y = (b.prototype = new S());
+        (y.constructor = b), f(y, _.prototype), (y.isPureReactComponent = !0);
         var v = Array.isArray,
-          C = Object.prototype.hasOwnProperty,
-          w = { current: null },
+          w = Object.prototype.hasOwnProperty,
+          C = { current: null },
           k = { key: !0, ref: !0, __self: !0, __source: !0 };
-        function E(e, t, n) {
+        function W(e, t, n) {
           var o,
             s = {},
             i = null,
@@ -66,7 +66,7 @@ var CLSTAMP = "10590646";
             for (o in (void 0 !== t.ref && (a = t.ref),
             void 0 !== t.key && (i = "" + t.key),
             t))
-              C.call(t, o) && !k.hasOwnProperty(o) && (s[o] = t[o]);
+              w.call(t, o) && !k.hasOwnProperty(o) && (s[o] = t[o]);
           var c = arguments.length - 2;
           if (1 === c) s.children = n;
           else if (1 < c) {
@@ -81,10 +81,10 @@ var CLSTAMP = "10590646";
             key: i,
             ref: a,
             props: s,
-            _owner: w.current,
+            _owner: C.current,
           };
         }
-        function W(e) {
+        function E(e) {
           return "object" == typeof e && null !== e && e.$$typeof === r;
         }
         var O = /\/+/g;
@@ -130,7 +130,7 @@ var CLSTAMP = "10590646";
                     return e;
                   }))
                 : null != i &&
-                  (W(i) &&
+                  (E(i) &&
                     (i = (function (e, t) {
                       return {
                         $$typeof: r,
@@ -211,11 +211,11 @@ var CLSTAMP = "10590646";
           throw e._result;
         }
         var F = { current: null },
-          I = { transition: null },
-          T = {
+          T = { transition: null },
+          I = {
             ReactCurrentDispatcher: F,
-            ReactCurrentBatchConfig: I,
-            ReactCurrentOwner: w,
+            ReactCurrentBatchConfig: T,
+            ReactCurrentOwner: C,
           };
         function L() {
           throw Error(
@@ -250,7 +250,7 @@ var CLSTAMP = "10590646";
             );
           },
           only: function (e) {
-            if (!W(e))
+            if (!E(e))
               throw Error(
                 "React.Children.only expected to receive a single React element child.",
               );
@@ -260,10 +260,10 @@ var CLSTAMP = "10590646";
           (t.Component = _),
           (t.Fragment = o),
           (t.Profiler = i),
-          (t.PureComponent = S),
+          (t.PureComponent = b),
           (t.StrictMode = s),
           (t.Suspense = l),
-          (t.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED = T),
+          (t.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED = I),
           (t.act = L),
           (t.cloneElement = function (e, t, n) {
             if (null == e)
@@ -278,13 +278,13 @@ var CLSTAMP = "10590646";
               a = e._owner;
             if (null != t) {
               if (
-                (void 0 !== t.ref && ((i = t.ref), (a = w.current)),
+                (void 0 !== t.ref && ((i = t.ref), (a = C.current)),
                 void 0 !== t.key && (s = "" + t.key),
                 e.type && e.type.defaultProps)
               )
                 var c = e.type.defaultProps;
               for (u in t)
-                C.call(t, u) &&
+                w.call(t, u) &&
                   !k.hasOwnProperty(u) &&
                   (o[u] = void 0 === t[u] && void 0 !== c ? c[u] : t[u]);
             }
@@ -319,9 +319,9 @@ var CLSTAMP = "10590646";
               (e.Consumer = e)
             );
           }),
-          (t.createElement = E),
+          (t.createElement = W),
           (t.createFactory = function (e) {
-            var t = E.bind(null, e);
+            var t = W.bind(null, e);
             return (t.type = e), t;
           }),
           (t.createRef = function () {
@@ -330,7 +330,7 @@ var CLSTAMP = "10590646";
           (t.forwardRef = function (e) {
             return { $$typeof: u, render: e };
           }),
-          (t.isValidElement = W),
+          (t.isValidElement = E),
           (t.lazy = function (e) {
             return {
               $$typeof: m,
@@ -342,12 +342,12 @@ var CLSTAMP = "10590646";
             return { $$typeof: d, type: e, compare: void 0 === t ? null : t };
           }),
           (t.startTransition = function (e) {
-            var t = I.transition;
-            I.transition = {};
+            var t = T.transition;
+            T.transition = {};
             try {
               e();
             } finally {
-              I.transition = t;
+              T.transition = t;
             }
           }),
           (t.unstable_act = L),
@@ -460,9 +460,11 @@ var CLSTAMP = "10590646";
           constructor() {
             (this.m_wsWebSocketToServer = void 0),
               (this.connected = !1),
+              (this.m_sMailboxName = ""),
               (this.m_oHandlers = {}),
               (this.m_oWaits = {}),
               (this.m_oConnectWaits = []),
+              (this.m_sWebSecret = ""),
               (this.m_nNextMessageNumber = 1),
               (this.Log = new a.wd("Mailbox", () => this.m_sMailboxName)),
               (0, o.makeObservable)(this);
@@ -496,16 +498,17 @@ var CLSTAMP = "10590646";
             });
           }
           CloseWebSocket() {
-            this.m_wsWebSocketToServer.removeEventListener(
-              "message",
-              this.OnWebSocketMessage,
-            ),
+            this.m_wsWebSocketToServer &&
+              (this.m_wsWebSocketToServer.removeEventListener(
+                "message",
+                this.OnWebSocketMessage,
+              ),
               this.m_wsWebSocketToServer.removeEventListener(
                 "close",
                 this.OnWebSocketClose,
               ),
               this.m_wsWebSocketToServer.close(),
-              (this.m_wsWebSocketToServer = void 0),
+              (this.m_wsWebSocketToServer = void 0)),
               (this.connected = !1);
           }
           static EnsureUniqueName(e) {
@@ -520,7 +523,7 @@ var CLSTAMP = "10590646";
             return (0, n.sH)(this, void 0, void 0, function* () {
               return (
                 (this.m_sMailboxName = m.EnsureUniqueName(e)),
-                (this.m_sWebSecret = t),
+                (this.m_sWebSecret = null != t ? t : ""),
                 (this.connected = !1),
                 this.OpenWebSocketToHost()
               );
@@ -658,6 +661,10 @@ var CLSTAMP = "10590646";
           (0, n.Cg)([s.o], m.prototype, "OnWebSocketError", null),
           (0, n.Cg)([s.o], m.prototype, "WebSocketSend", null),
           (0, n.Cg)([s.o], m.prototype, "OnWebSocketMessage", null);
+      },
+      3606: (e, t, r) => {
+        r.d(t, { F2: () => n });
+        const n = "/settings/steamvr/showAdvancedSettings";
       },
       9513: (e, t, r) => {
         var n = r(1635),

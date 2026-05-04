@@ -52,6 +52,33 @@
 .svg_library_Spinner_1q9tu > path:nth-child(8) {
   animation-delay: -0.4s;
 }
+.controllerstatus_ControllerStatusRoot_15qWt {
+  width: 256px;
+  height: 256px;
+}
+.controllerstatus_ControllerHandFrame_2Ttrk {
+  width: 210px;
+  margin-left: 23px;
+  height: 110px;
+  margin-top: 18px;
+  display: flex;
+}
+.controllerstatus_ControllerAppIcon_27WgZ {
+  margin: auto;
+  height: 64px;
+  width: 64px;
+  border-radius: 4px;
+}
+.controllerstatus_ControllerBatteryFrame_4AIPw {
+  width: 210px;
+  margin-left: 23px;
+  height: 110px;
+  margin-top: 18px;
+  opacity: 0.85;
+}
+.controllerstatus_ControllerBattery_3I629 {
+  filter: brightness(65%);
+}
 .legacydashboardframecontrols_FrameControlsContainer_27B1e {
   display: flex;
   flex-direction: row;

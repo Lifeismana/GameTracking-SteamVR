@@ -1,4 +1,4 @@
-var CLSTAMP = "10590646";
+var CLSTAMP = "10624569";
 (self.webpackChunkvrwebui = self.webpackChunkvrwebui || []).push([
   [198],
   {
@@ -12,7 +12,7 @@ var CLSTAMP = "10590646";
       s._J;
     },
     7019: (e, t, i) => {
-      i.d(t, { Lr: () => f, Zk: () => y });
+      i.d(t, { Lr: () => y, Zk: () => w });
       var r,
         s,
         n,
@@ -22,16 +22,17 @@ var CLSTAMP = "10590646";
         l = i(1635),
         h = i(6540),
         d = i(3496),
-        c = i(5178),
-        u = i(3236),
+        u = i(5178),
+        c = i(3236),
         m = i(5723),
         _ = i(7600),
         v = i(7727),
-        g = i(1651);
-      function b(e) {
+        g = i(1651),
+        b = i(7813);
+      function f(e) {
         if (e) return [e.u, e.v];
       }
-      function f(e) {
+      function y(e) {
         switch (e) {
           case r.TopLeft:
             return { x: -1, y: 1 };
@@ -90,11 +91,11 @@ var CLSTAMP = "10590646";
           (e[(e.PixelOffset = 0)] = "PixelOffset"),
             (e[(e.ScaleAndCenter = 1)] = "ScaleAndCenter");
         })(a || (a = {}));
-      class y extends d._J {
+      class w extends d._J {
         constructor(e) {
           super(e),
             (this.m_Rect = { x: 0, y: 0, width: 0, height: 0 }),
-            (this.m_nEmbeddedIndex = null),
+            (this.m_nEmbeddedIndex = void 0),
             (this.m_LastDOMContentSize = void 0),
             (this.m_DOMContentSizeChangedCallbacks = new g.l()),
             (this.m_resizeObserver = null),
@@ -146,22 +147,23 @@ var CLSTAMP = "10590646";
           return this.m_nEmbeddedIndex;
         }
         componentWillReceiveProps_UNSAFE() {
-          y.s_bPanelsAreDirty = !0;
+          w.s_bPanelsAreDirty = !0;
         }
         componentDidMount() {
           super.componentDidMount(),
             (this.m_resizeObserver = new ResizeObserver(this.onResizeObserved)),
             this.m_resizeObserver.observe(this.getCurrentRootElement()),
-            (this.m_nEmbeddedIndex = c.O.Current().addEmbeddedPanelUVs(this)),
-            (y.s_bPanelsAreDirty = !0),
+            (this.m_nEmbeddedIndex = u.O.Current().addEmbeddedPanelUVs(this)),
+            (w.s_bPanelsAreDirty = !0),
             this.getCurrentRootElement().addEventListener(
               "mousedown",
               this.onPanelMouseDown,
             ),
-            this.forceUpdate();
+            this.forceUpdate(),
+            w.s_setAllPanels.add(this);
         }
         onResizeObserved(e, t) {
-          c.O.Current().forceLayoutUpdate(),
+          u.O.Current().forceLayoutUpdate(),
             (this.m_LastDOMContentSize = {
               clientWidth: e[0].contentRect.width,
               clientHeight: e[0].contentRect.height,
@@ -171,16 +173,17 @@ var CLSTAMP = "10590646";
             );
         }
         componentWillUnmount() {
-          this.m_resizeObserver &&
-            (this.m_resizeObserver.disconnect(),
-            (this.m_resizeObserver = null)),
+          w.s_setAllPanels.delete(this),
+            this.m_resizeObserver &&
+              (this.m_resizeObserver.disconnect(),
+              (this.m_resizeObserver = null)),
             this.stopOverDragBlocking(),
             this.getCurrentRootElement().removeEventListener(
               "mousedown",
               this.onPanelMouseDown,
             ),
-            (y.s_bPanelsAreDirty = !0),
-            c.O.Current().removeEmbeddedPanelUVs(this),
+            (w.s_bPanelsAreDirty = !0),
+            u.O.Current().removeEmbeddedPanelUVs(this),
             this.m_DOMContentSizeChangedCallbacks.ClearAllCallbacks(),
             super.componentWillUnmount();
         }
@@ -244,7 +247,7 @@ var CLSTAMP = "10590646";
             : o.Visible;
         }
         buildNode(e, t) {
-          var i, r, s, n, p, a, l, h, u, _;
+          var i, r, s, n, p, a, l, h, c, _, v, g;
           if (
             !(
               this.visibility == o.Visible ||
@@ -252,111 +255,122 @@ var CLSTAMP = "10590646";
             )
           )
             return [e, null];
-          let v = Object.assign(Object.assign({}, e), {
+          let b = Object.assign(Object.assign({}, e), {
               bInsideReparentedPanel: !1,
               currentPanel: this,
             }),
-            g = this.createSgNode(t),
-            y = { x: 0, y: 0 };
-          y =
+            w = this.createSgNode(t),
+            C = { x: 0, y: 0 };
+          C =
             "object" == typeof this.props.origin
               ? (0, d.PG)(this.props.origin, { x: 0, y: 0 })
-              : f(this.props.origin);
-          const w = this.props.overlay_key,
-            x = (0, m.w5)();
-          w && w.length > 0
-            ? (g.properties.key = w)
-            : x
-              ? (g.properties.key = x)
-              : (g.properties.overlay_handle = (0, m.X4)()),
-            (g.properties.uv_min =
-              null !== (i = b(this.m_UVsMin)) && void 0 !== i ? i : void 0),
-            (g.properties.uv_max =
-              null !== (r = b(this.m_UVsMax)) && void 0 !== r ? r : void 0);
-          const C = 1 / c.O.Current().m_fCurrentScale;
-          let k = this.props.frame_resize_scale_factor;
+              : y(this.props.origin);
+          const x = this.props.overlay_key,
+            k = (0, m.w5)();
+          x && x.length > 0
+            ? (w.properties.key = x)
+            : k
+              ? (w.properties.key = k)
+              : (w.properties.overlay_handle = (0, m.X4)()),
+            this.m_UVsMin &&
+              (w.properties.uv_min =
+                null !== (i = f(this.m_UVsMin)) && void 0 !== i ? i : void 0),
+            this.m_UVsMax &&
+              (w.properties.uv_max =
+                null !== (r = f(this.m_UVsMax)) && void 0 !== r ? r : void 0);
+          const O = 1 / u.O.Current().m_fCurrentScale;
+          let P = this.props.frame_resize_scale_factor;
           return (
-            this.props.is_frame_page_main_panel && (k = null != k ? k : 1),
-            (g.properties.width =
+            this.props.is_frame_page_main_panel && (P = null != P ? P : 1),
+            (w.properties.width =
               null !== (s = this.props.width) && void 0 !== s ? s : void 0),
-            (g.properties.height =
+            (w.properties.height =
               null !== (n = this.props.height) && void 0 !== n ? n : void 0),
-            (g.properties["scale-index"] =
+            (w.properties["scale-index"] =
               null !== (p = this.props.scale_index) && void 0 !== p ? p : 0),
-            (g.properties["min-width"] =
+            (w.properties["min-width"] =
               null !== (a = this.props.min_width) && void 0 !== a ? a : void 0),
-            (g.properties["target-width-anchor-id"] = (0, m.bl)(
+            (w.properties["target-width-anchor-id"] = (0, m.bl)(
               this.props.target_width_anchor_id,
             )),
-            (g.properties["target-dpi-panel-id"] = (0, m.bl)(
+            (w.properties["target-dpi-panel-id"] = (0, m.bl)(
               this.props.target_dpi_panel_id,
             )),
-            (g.properties["target-dpi-multiplier"] =
+            (w.properties["target-dpi-multiplier"] =
               this.props.target_dpi_multiplier),
-            (g.properties["meters-per-pixel"] =
+            (w.properties["meters-per-pixel"] =
               null != this.props.meters_per_pixel
-                ? this.props.meters_per_pixel * C
+                ? this.props.meters_per_pixel * O
                 : void 0),
-            (g.properties["subview-parent-panel-key"] =
+            (w.properties["subview-parent-panel-key"] =
               this.props.subview_parent_panel_key),
-            (g.properties["subview-parent-panel-id"] =
+            (w.properties["subview-parent-panel-id"] =
               this.props.subview_parent_panel_id),
-            (g.properties["subview-sizing"] = this.props.subview_sizing),
-            (g.properties.curvature = this.props.curvature),
-            (g.properties["curvature-origin-id"] = (0, m.bl)(
+            (w.properties["subview-sizing"] = this.props.subview_sizing),
+            (w.properties.curvature = this.props.curvature),
+            (w.properties["curvature-origin-id"] = (0, m.bl)(
               this.props.curvature_origin_id,
             )),
-            (g.properties.spherical = this.props.spherical),
-            (g.properties.interactive = this.props.interactive),
-            (g.properties.scrollable = this.props.scrollable),
-            (g.properties.undocked = this.props.undocked),
-            (g.properties.modal = this.props.modal),
-            (g.properties["only-visible-with-laser"] =
+            (w.properties.spherical = this.props.spherical),
+            (w.properties.interactive = this.props.interactive),
+            (w.properties.scrollable = this.props.scrollable),
+            (w.properties.undocked = this.props.undocked),
+            (w.properties.modal = this.props.modal),
+            (w.properties["only-visible-with-laser"] =
               this.props.only_visible_with_laser),
-            (g.properties["allow-input-capture"] =
+            (w.properties["allow-input-capture"] =
               this.props.allow_input_capture),
-            (g.properties["lasermouse-filtering"] =
+            (w.properties["lasermouse-filtering"] =
               null === (l = this.props) || void 0 === l
                 ? void 0
                 : l.lasermouse_filtering),
-            (g.properties["hide-laser-when-clicking"] =
+            (w.properties["hide-laser-when-clicking"] =
               this.props.hide_lasermouse_when_clicking),
-            (g.properties["hide-laser-intersection"] =
+            (w.properties["hide-laser-intersection"] =
               null === (h = this.props) || void 0 === h
                 ? void 0
                 : h.hide_laser_intersection),
-            (g.properties["make-overlays-interactive-if-visible"] =
+            (w.properties["make-overlays-interactive-if-visible"] =
               this.props.make_overlays_interactive_if_visible),
-            (g.properties["is-grab-handle"] = this.props.is_grab_handle),
-            (g.properties["embedded-uv-index"] = this.m_nEmbeddedIndex),
-            (g.properties.origin = (0, d.Hm)(y)),
-            (g.properties.debug_name = this.props.debug_name),
-            (g.properties.sampler = this.props.sampler),
-            (g.properties.reflect = this.props.reflect),
-            (g.properties.stereoscopy = this.props.stereoscopy),
-            (g.properties.rendermodel_component_device_index =
+            (w.properties["is-grab-handle"] = this.props.is_grab_handle),
+            (w.properties["embedded-uv-index"] = this.m_nEmbeddedIndex),
+            (w.properties.origin = (0, d.Hm)(C)),
+            (w.properties.debug_name = this.props.debug_name),
+            (w.properties.sampler = this.props.sampler),
+            (w.properties.reflect = this.props.reflect),
+            (w.properties.stereoscopy = this.props.stereoscopy),
+            (w.properties.rendermodel_component_device_index =
               this.props.rendermodel_component_device_index),
-            (g.properties.rendermodel_component_name =
+            (w.properties.rendermodel_component_name =
               this.props.rendermodel_component_name),
-            (g.properties["texture-id"] = (0, m.bl)(this.props.texture_id)),
-            (g.properties["sort-order"] = this.props.sort_order),
-            (g.properties["sort-depth-bias"] = this.props.sort_depth_bias),
-            (g.properties.visibility = this.visibility),
-            (g.properties["frame-resize-scale-factor"] = k),
-            (g.properties["main-panel-for-frame-page"] =
+            (w.properties["texture-id"] = (0, m.bl)(this.props.texture_id)),
+            (w.properties["sort-order"] = this.props.sort_order),
+            (w.properties["sort-depth-bias"] = this.props.sort_depth_bias),
+            (w.properties.visibility = this.visibility),
+            (w.properties["frame-resize-scale-factor"] = P),
+            (w.properties["main-panel-for-frame-page"] =
               this.props.is_frame_page_main_panel),
-            (g.properties["steam-input-appid"] =
-              null === (u = this.props.inputFocusParams) || void 0 === u
+            (w.properties["steam-input-appid"] =
+              null === (c = this.inputFocusParams) || void 0 === c
                 ? void 0
-                : u.unSteamInputAppID),
-            (g.properties["vr-input-pid"] =
-              null === (_ = this.props.inputFocusParams) || void 0 === _
+                : c.unSteamInputAppID),
+            (w.properties["vr-input-pid"] =
+              null === (_ = this.inputFocusParams) || void 0 === _
                 ? void 0
                 : _.unVRInputPID),
-            [v, g]
+            (w.properties["can-take-keyboard-focus"] =
+              null ===
+                (g =
+                  null === (v = this.inputFocusParams) || void 0 === v
+                    ? void 0
+                    : v.bCanTakeKeyboardFocus) ||
+              void 0 === g ||
+              g),
+            [b, w]
           );
         }
         scaleLocalUVToGlobal(e) {
+          if (!this.m_UVsMin || !this.m_UVsMax) return;
           const t = this.m_UVsMax.u - this.m_UVsMin.u,
             i = this.m_UVsMax.v - this.m_UVsMin.v;
           return { u: this.m_UVsMin.u + t * e.u, v: this.m_UVsMin.v + i * e.v };
@@ -369,17 +383,21 @@ var CLSTAMP = "10590646";
             );
           this.m_Rect = this.getCurrentRootElement().getBoundingClientRect();
           let e = this.getCurrentRootElement().ownerDocument.defaultView;
-          (this.m_UVsMin = {
-            u: this.m_Rect.x / e.innerWidth,
-            v: this.m_Rect.y / e.innerHeight,
-          }),
+          e &&
+            ((this.m_UVsMin = {
+              u: this.m_Rect.x / e.innerWidth,
+              v: this.m_Rect.y / e.innerHeight,
+            }),
             (this.m_UVsMax = {
               u: (this.m_Rect.x + this.m_Rect.width) / e.innerWidth,
               v: (this.m_Rect.y + this.m_Rect.height) / e.innerHeight,
-            });
+            }));
         }
         PanelContextValue() {
           return this;
+        }
+        BCanUseStableSGIDs() {
+          return !0;
         }
         internalRender() {
           return h.createElement(
@@ -387,11 +405,31 @@ var CLSTAMP = "10590646";
             { style: { display: this.visibility == o.Hidden ? "none" : null } },
             h.createElement(_.tH, null, this.props.children),
             this.props.is_frame_page_main_panel &&
-              h.createElement(w, { panel: this, panelID: this.getID() }),
+              h.createElement(C, { panel: this, panelID: this.getID() }),
+          );
+        }
+        get inputFocusParams() {
+          return Object.assign(
+            { bCanTakeKeyboardFocus: this.props.interactive },
+            this.props.inputFocusParams,
+          );
+        }
+        get isInputFocusable() {
+          var e, t, i;
+          return (
+            (null === (e = this.inputFocusParams) || void 0 === e
+              ? void 0
+              : e.unSteamInputAppID) ||
+            (null === (t = this.inputFocusParams) || void 0 === t
+              ? void 0
+              : t.unVRInputPID) ||
+            (null === (i = this.inputFocusParams) || void 0 === i
+              ? void 0
+              : i.bCanTakeKeyboardFocus)
           );
         }
       }
-      function w(e) {
+      function C(e) {
         const { panel: t, panelID: i } = e,
           { page: r } = (0, v.N)();
         return (
@@ -402,11 +440,13 @@ var CLSTAMP = "10590646";
           null
         );
       }
-      (y.s_bPanelsAreDirty = !1),
-        (0, l.Cg)([u.o], y.prototype, "onResizeObserved", null),
-        (0, l.Cg)([u.o], y.prototype, "onPanelMouseDown", null),
-        (0, l.Cg)([u.o], y.prototype, "onWindowMouseUp", null),
-        (0, l.Cg)([u.o], y.prototype, "buildNode", null);
+      (w.s_bPanelsAreDirty = !1),
+        (w.s_setAllPanels = new b.ObservableSet()),
+        (0, l.Cg)([c.o], w.prototype, "onResizeObserved", null),
+        (0, l.Cg)([c.o], w.prototype, "onPanelMouseDown", null),
+        (0, l.Cg)([c.o], w.prototype, "onWindowMouseUp", null),
+        (0, l.Cg)([c.o], w.prototype, "buildNode", null),
+        (window.s_setAllPanels = w.s_setAllPanels);
     },
     3361: (e, t, i) => {
       i.d(t, { d: () => p });

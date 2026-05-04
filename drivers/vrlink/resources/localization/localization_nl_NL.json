@@ -25,6 +25,7 @@
 	"Setting_Foveation": "Foveated rendering",
 	"Setting_FoveationOn": "Aan",
 	"Setting_FoveationOff": "Uit",
+	"Setting_AllowMultipleLinks": "Meerdere verbindingen toestaan",
 	"svl_hand_interaction_augmented": "Controller met handvolging",
 	"/input/index_pinch": "Knijpen met wijsvinger",
 	"/input/middle_pinch": "Knijpen met middelvinger",

@@ -263,6 +263,8 @@ $\n k_EProtoServiceTypeSteamMessages
 .?AU?$output_adapter_protocol@D@detail@nlohmann@@
 .?AUCFactoryMaker@CAnimFactoryBase@@
 .?AUIAudioEndpointVolumeCallback@@
+.?AUIAudioSessionEvents@@
+.?AUIAudioSessionNotification@@
 .?AUIMMNotificationClient@@
 .?AUIUnknown@@
 .?AUSVLDriverTextureSet_t@SVLHMDDriver@@
@@ -313,6 +315,7 @@ $\n k_EProtoServiceTypeSteamMessages
 .?AV<lambda_dc5d698f65e1a672a70e8828b33fb9d8>@@
 .?AV<lambda_e6c6d718dd3dc6eee0580ada32c627ff>@@
 .?AV<lambda_f0f7b39aef57b4d2c468cd45f5e39eea>@@
+.?AV<lambda_f6b5d47df092c684e925186f68bd5c46>@@
 .?AV?$TypeInfoT@VCAnimResource@@@Detail@Reflection@@
 .?AV?$TypeInfoT@VCBoneMaskResource@@@Detail@Reflection@@
 .?AV?$TypeInfoT@VCKeyframedDataResource@@@Detail@Reflection@@
@@ -324,6 +327,7 @@ $\n k_EProtoServiceTypeSteamMessages
 .?AV?$_Func_base@XAEBVValue@Json@@@std@@
 .?AV?$_Func_base@XW4ELogLevel@@PEBDPEAX@std@@
 .?AV?$_Func_base@XW4ValueTransportID@@_N@std@@
+.?AV?$_Func_base@X_N@std@@
 .?AV?$_Func_base@_NAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PEAV12@PEAX@std@@
 .?AV?$_Func_base@_NAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PEAX@std@@
 .?AV?$_Func_base@_NPEAUImage@tinygltf@@HPEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PEAV34@HHPEBEHPEAX@std@@
@@ -384,6 +388,7 @@ $\n k_EProtoServiceTypeSteamMessages
 .?AV?$_Func_impl_no_alloc@V<lambda_dc5d698f65e1a672a70e8828b33fb9d8>@@XAEBVValue@Json@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_e6c6d718dd3dc6eee0580ada32c627ff>@@XW4ValueTransportID@@_N@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_f0f7b39aef57b4d2c468cd45f5e39eea>@@XW4ValueTransportID@@_N@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_f6b5d47df092c684e925186f68bd5c46>@@X_N@std@@
 .?AV?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8CVRMailbox@@EAAXAEBVValue@Json@@@ZPEAV3@AEBU?$_Ph@$00@2@@std@@XAEBVValue@Json@@@std@@
 .?AV?$_Iosb@H@std@@
 .?AV?$_LaunchPad@V?$unique_ptr@V?$tuple@P8SVLAudioWSAPI@@EAAPEAXXZPEAV1@@std@@U?$default_delete@V?$tuple@P8SVLAudioWSAPI@@EAAPEAXXZPEAV1@@std@@@2@@std@@@std@@
@@ -525,6 +530,7 @@ $\n k_EProtoServiceTypeSteamMessages
 .?AVSVLServer@@
 .?AVServiceDescriptorProto@protobuf@google@@
 .?AVServiceOptions@protobuf@google@@
+.?AVSink@CAudioSessionWatcher@@
 .?AVSourceCodeInfo@protobuf@google@@
 .?AVSourceCodeInfo_Location@protobuf@google@@
 .?AVStaticPoseMaker@@
@@ -700,6 +706,7 @@ $\n k_EProtoServiceTypeSteamMessages
 /input/skeleton/right
 /input/squeeze/click
 /input/system/click
+/input/system/touch
 /input/thumbrest/touch
 /input/thumbstick/click
 /input/thumbstick/touch
@@ -853,7 +860,6 @@ $\n k_EProtoServiceTypeSteamMessages
 1 Sec
 1/2/4/8/16-bit only
 10-bit format isn't supported by H264 encoder(NV_ENC_ERR_INVALID_PARAM)\n
-10.35.78
 10.35.78.0
 10bit
 11 4 22 44 44 22 444444
@@ -1600,6 +1606,7 @@ Failed to decode 'uri' for image[
 Failed to get shared handle interface for d3d11textures
 Failed to get shared handle the shared texture.
 Failed to load external 'uri' for image[
+Failed to monitor mic sessions, hr = 0x%08x\n
 Failed to parse JSON object\n
 Failed to parse `bufferView` for image[
 Failed to parse `uri` for image[
@@ -1844,6 +1851,7 @@ Image data is empty for image[
 Image height mismatch. for image[
 Image width mismatch for image[
 Import "
+Increment Byte Scaling.
 Index Controller CreateSkeletonComponent failed.  Error: %i\n
 Index out-of-bounds (field is empty).
 Infinity
@@ -2136,7 +2144,6 @@ OutputDebugStringA
 OutputDebugStringW
 P00`
 P<xD<
-PCHoption requires an argument -- %c
 PICO 4
 PICO 4 (Left Controller)
 PICO 4 (Right Controller)
@@ -2198,6 +2205,8 @@ RPCRT4.dll
 RRvM;;
 RSDS
 RX Fail:%d
+R\vpX
+R\vpt
 RaiseException
 Reached an unintended state: CPPTYPE_MESSAGE
 Reading dangerously large protocol message.  If the message turns out to be larger than 
@@ -2389,6 +2398,8 @@ SVLDriver::UpdateNetworkInfo
 SVLDriver::UpdateOGSStatistics
 SVLFEC: frame %d was entirely dropped, initializing and re-requesting\n
 SVLFEC: substantive retry (%d packets) due to frame skip (skipped %d, last sub %d, group %d, expected size %d)\n
+SVLFEC::AcceptVideoPacket
+SVLFEC::InternalAcceptFrameFromRX
 SVLFEC::InternalAcceptFrameFromRX: Failed to acquire pRender
 SVLFEC::ProcessTXVideoFrameThreadFunction
 SVLFEC::ReportStreamReset() (m_iLastAcknowledgeFrameNumber = %d)
@@ -2436,6 +2447,8 @@ SVST_VIDEO_TRANSPORT_DESCRIPTION: WARNING: Could not initialize frame on hardwar
 S\vJsf
 Sample message for keylen=blocklen
 SbEwd
+Scaling %d
+Scaling ?
 ScreenToClient
 Second argument to Swap() (of type "
 Second argument to SwapFields() (of type "
@@ -2706,7 +2719,6 @@ WARNING: GPU Does not support 10BIT_ENCODE for video compression\n
 WARNING: Packet was XMITTed that was too big. [%d %d %d %d / %d]\n
 WARNING: Too many bytes in TX Audio aggregate.  This should be impossible.\n
 WASAPI Could not get policy config\n
-WASAPI: EnumAudioEndpoints failed: hr = 0x%08x\n
 WASAPI: FAILED to find Steam Streaming Microphone\n
 WASAPI: Found Device ID match\n
 WASAPI: Found Device: %s\n
@@ -2715,6 +2727,7 @@ WASAPI: IMMDevice::GetId failed: hr = 0x%08x\n
 WASAPI: IMMDevice::Item(%u) failed: hr = 0x%08x\n
 WASAPI: pCurrentDevice->Activate = 0x%08x (Failed = %d)\n
 WASAPI: pCurrentDevice->Activate IAudioEndpointVolume = 0x%08x (Failed = %d)\n
+WASAPI: pCurrentDevice->Activate IAudioSessionManager2 = 0x%08x (Failed = %d)\n
 WGPRX
 WINMM.dll
 WS2_32.dll
@@ -2777,6 +2790,7 @@ Warning: retransmit request for unknown message %d (frame number=%d\n
 Warning: unMaxBitRate (%u) over m_nMaxMBPerSecond (%u)\n
 Warning: unVbvBufferSizeBits (%u) over m_unMaxBitsPerFrame (%u)\n
 WideCharToMultiByte
+Wire
 WiredSession
 WirelessHost
 Wz*7
@@ -2788,6 +2802,7 @@ YWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWE=
 Your GPU supports %s for video compression\n
 ZiKw
 Zjz\v
+[%s] %s file=%s
 [Alloc] Created bitstream buffer = %p\n
 [Alloc] Created d3d11 texture = %p\n
 [Alloc] Created m_vpCompletionEvent %p\n
@@ -3199,10 +3214,12 @@ c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\animation\animresource
 c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrmailbox.cpp
 c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\logbuffer.cpp
 c:\buildslave\steamvr_rel_win64\build\src\thirdparty\protobuf-2.6.1\src\google\protobuf\repeated_field.h
+c:\buildslave\steamvr_rel_win64\build\src\vrlink\common\svlfec.cpp:1078
+c:\buildslave\steamvr_rel_win64\build\src\vrlink\common\svlfec.cpp:761
 c:\buildslave\steamvr_rel_win64\build\src\vrlink\driver_vrlink\Retail\win64\2017\driver_vrlink.pdb
-c:\buildslave\steamvr_rel_win64\build\src\vrlink\driver_vrlink\hmd.cpp:2457
-c:\buildslave\steamvr_rel_win64\build\src\vrlink\driver_vrlink\hmd.cpp:2806
-c:\buildslave\steamvr_rel_win64\build\src\vrlink\driver_vrlink\hmd.cpp:2918
+c:\buildslave\steamvr_rel_win64\build\src\vrlink\driver_vrlink\hmd.cpp:2430
+c:\buildslave\steamvr_rel_win64\build\src\vrlink\driver_vrlink\hmd.cpp:2779
+c:\buildslave\steamvr_rel_win64\build\src\vrlink\driver_vrlink\hmd.cpp:2891
 c:\buildslave\steamvr_rel_win64\build\src\vrlink\driver_vrlink\hmdd3d11.cpp:1618
 c:\buildslave\steamvr_rel_win64\build\src\vrlink\driver_vrlink\steamvrlink.cpp
 c:\buildslave\steamvr_rel_win64\build\src\vrlink\driver_vrlink\videonvenc.cpp:1391
@@ -3407,6 +3424,7 @@ fputs
 fr_fr
 frame_controller
 frame_controller_
+frame_id=%d
 frameid
 fread
 free
@@ -3455,6 +3473,7 @@ hungarian
 hwnd
 iFjtk
 iQ %5.2f
+iRXFrameID=%d
 i]Wb
 iauds
 identifier_value
@@ -3681,6 +3700,7 @@ nvEncodeAPI64.dll
 nvapi_QueryInterface
 nvapi_pepQueryInterface
 oQ %5.2f
+oWASAPI: EnumAudioEndpoints failed: hr = 0x%08x\n
 object
 object key
 object separator

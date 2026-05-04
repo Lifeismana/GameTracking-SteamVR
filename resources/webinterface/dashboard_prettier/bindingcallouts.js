@@ -1,4 +1,4 @@
-var CLSTAMP = "10590646";
+var CLSTAMP = "10624569";
 (() => {
   "use strict";
   var t,
@@ -49,6 +49,7 @@ var CLSTAMP = "10590646";
           Xl: () => w.Xl,
           Xu: () => i.Xu,
           Y4: () => a.Y,
+          YV: () => T.YV,
           Yu: () => w.Yu,
           Zk: () => f.Zk,
           _1: () => w._1,
@@ -401,60 +402,68 @@ var CLSTAMP = "10590646";
             this.m_latchedPosition = null;
           }
           buildNode(t, e) {
+            var o, i;
             if (!t.currentPanel && !t.bInsideReparentedPanel)
               return [
                 Object.assign(Object.assign({}, t), { bShouldAbort: !0 }),
                 null,
               ];
-            let o = null;
+            let r = null;
             "object" == typeof this.props.location
-              ? (o = (0, n.PG)(this.props.location, { x: 0, y: 0 }))
+              ? (r = (0, n.PG)(this.props.location, { x: 0, y: 0 }))
               : "number" == typeof this.props.location &&
-                (o = (0, s.Lr)(this.props.location));
-            let i = this.createSgNode(e);
+                (r = (0, s.Lr)(this.props.location));
+            let a = this.createSgNode(e);
             if (this.props.latched && null !== this.m_latchedPosition)
-              (i.properties["anchor-u"] = this.m_latchedPosition.u),
-                (i.properties["anchor-v"] = this.m_latchedPosition.v);
-            else if (o) {
-              const e = { u: 0.5 * o.x + 0.5, v: -0.5 * o.y + 0.5 },
-                n =
+              (a.properties["anchor-u"] = this.m_latchedPosition.u),
+                (a.properties["anchor-v"] = this.m_latchedPosition.v);
+            else if (r) {
+              const e = { u: 0.5 * r.x + 0.5, v: -0.5 * r.y + 0.5 },
+                o =
                   !t.currentPanel || t.currentPanel.props.overlay_key
                     ? e
                     : t.currentPanel.scaleLocalUVToGlobal(e);
-              (i.properties["anchor-u"] = n.u),
-                (i.properties["anchor-v"] = n.v);
+              o &&
+                ((a.properties["anchor-u"] = o.u),
+                (a.properties["anchor-v"] = o.v));
             } else {
               if (!t.currentPanel)
                 return [
                   Object.assign(Object.assign({}, t), { bShouldAbort: !0 }),
                   null,
                 ];
-              const o = e.ownerDocument,
-                n = e.getBoundingClientRect(),
-                s = n.left + n.width / 2,
-                r = n.top + n.height / 2,
-                a = t.currentPanel.m_Rect;
-              if (s < a.x || s > a.x + a.width || r < a.y || r > a.y + a.height)
+              const n = e.ownerDocument,
+                s = e.getBoundingClientRect(),
+                r = s.left + s.width / 2,
+                l = s.top + s.height / 2,
+                p = t.currentPanel.m_Rect;
+              if (r < p.x || r > p.x + p.width || l < p.y || l > p.y + p.height)
                 return [
                   Object.assign(Object.assign({}, t), { bShouldAbort: !0 }),
                   null,
                 ];
-              const l = o.defaultView.innerWidth,
-                p = o.defaultView.innerHeight;
-              if (!(p > 0 && l > 0))
+              const c =
+                  null === (o = n.defaultView) || void 0 === o
+                    ? void 0
+                    : o.innerWidth,
+                u =
+                  null === (i = n.defaultView) || void 0 === i
+                    ? void 0
+                    : i.innerHeight;
+              if (!(u && u > 0 && c && c > 0))
                 return [
                   Object.assign(Object.assign({}, t), { bShouldAbort: !0 }),
                   null,
                 ];
-              (i.properties["anchor-u"] = s / l),
-                (i.properties["anchor-v"] = r / p);
+              (a.properties["anchor-u"] = r / c),
+                (a.properties["anchor-v"] = l / u);
             }
             return (
               (this.m_latchedPosition = {
-                u: i.properties["anchor-u"],
-                v: i.properties["anchor-v"],
+                u: a.properties["anchor-u"],
+                v: a.properties["anchor-v"],
               }),
-              [t, i]
+              [t, a]
             );
           }
         }
@@ -1655,7 +1664,7 @@ var CLSTAMP = "10590646";
     })();
   var n = i.O(
     void 0,
-    [967, 978, 352, 705, 948, 47, 305, 527, 500, 554, 798, 743, 366, 386, 838],
+    [967, 978, 352, 705, 948, 47, 305, 527, 554, 500, 743, 366, 386, 838],
     () => i(1278),
   );
   n = i.O(n);

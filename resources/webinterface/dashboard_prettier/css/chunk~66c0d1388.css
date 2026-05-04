@@ -418,6 +418,10 @@ vsg-app:not(.ShowDebugPointer) .DebugPointer {
   min-width: 10px;
   min-height: 10px;
 }
+.Modal.FullScreen {
+  width: 100%;
+  height: 100%;
+}
 [vsg-type="panel"] {
   overflow: hidden;
   display: inline-block;

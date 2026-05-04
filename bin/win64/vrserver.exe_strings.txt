@@ -561,6 +561,7 @@ $\n k_EProtoServiceTypeSteamMessages
 .?AUMessageHandler_t@CConnectionThread@@
 .?AUToBase_t@Detail@Reflection@@
 .?AU_Crt_new_delete@std@@
+.?AV<lambda_02171f4f58eb76da5d183aa416dd88e5>@@
 .?AV<lambda_04103da6412327e603633ce4cd0b1ff8>@@
 .?AV<lambda_0c2a13b62c82ef1ff1722fa6492bade4>@@
 .?AV<lambda_0f567b11c7f2708910c0fe8399d9ba5e>@@
@@ -593,6 +594,7 @@ $\n k_EProtoServiceTypeSteamMessages
 .?AV<lambda_d8999f150ee7b7e4efc727f6848c8d54>@@
 .?AV<lambda_d9c8d5500ac3dfddb02459f8a53a1949>@@
 .?AV<lambda_dcd68f11e779e636b3af35198369d081>@@
+.?AV<lambda_e0969029e04896eaab2bf0a64e90ac01>@@
 .?AV<lambda_e8ce496b76c74e3642517b6b1e5cdb64>@@
 .?AV<lambda_f4f5e2f072afd4a5de41e85075878c7c>@@
 .?AV<lambda_fab710b62b81549586ca05ec44e81204>@@
@@ -661,6 +663,7 @@ $\n k_EProtoServiceTypeSteamMessages
 .?AV?$_Func_base@X$$V@std@@
 .?AV?$_Func_base@XAEBVCSteamVR_AudioSettings_ChangeSettings_Request@@@std@@
 .?AV?$_Func_base@XAEBVCSteamVR_AudioSettings_RegisterForSettings_Request@@@std@@
+.?AV?$_Func_base@XAEBVCSteamVR_PushOverlayInputFocus_Message@@@std@@
 .?AV?$_Func_base@XAEBVCSteamVR_Settings_SetValue_Request@@@std@@
 .?AV?$_Func_base@XAEBVCSteamVR_VRGamepadUI_Message@@@std@@
 .?AV?$_Func_base@XAEBVValue@Json@@@std@@
@@ -690,6 +693,7 @@ $\n k_EProtoServiceTypeSteamMessages
 .?AV?$_Func_impl_no_alloc@P6A_NPEAV?$vector@EV?$allocator@E@std@@@std@@PEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@AEBV32@PEAX@Z_NPEAV12@PEAV32@AEBV32@PEAX@std@@
 .?AV?$_Func_impl_no_alloc@P6A_NPEA_KPEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBV12@PEAX@Z_NPEA_KPEAV12@AEBV12@PEAX@std@@
 .?AV?$_Func_impl_no_alloc@P6A_NPEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0PEBUImage@tinygltf@@_NPEBUFsCallbacks@4@PEBUURICallbacks@4@PEAV12@PEAX@Z_NPEBV12@PEBV12@PEBU34@_NPEBU54@PEBU64@PEAV12@PEAX@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_02171f4f58eb76da5d183aa416dd88e5>@@XAEBVCSteamVR_PushOverlayInputFocus_Message@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_04103da6412327e603633ce4cd0b1ff8>@@XW4ELogLevel@@PEBDPEAX@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_0c2a13b62c82ef1ff1722fa6492bade4>@@_NAEBUHmdVector3_t@vr@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_0f567b11c7f2708910c0fe8399d9ba5e>@@UResult_t@?A0x94e1095d@@AEBU23@@std@@
@@ -722,6 +726,7 @@ $\n k_EProtoServiceTypeSteamMessages
 .?AV?$_Func_impl_no_alloc@V<lambda_d8999f150ee7b7e4efc727f6848c8d54>@@_NAEBUHmdVector3_t@vr@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_d9c8d5500ac3dfddb02459f8a53a1949>@@X$$QEAUBindingFileOption_t@@_N@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_dcd68f11e779e636b3af35198369d081>@@XAEBVValue@Json@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_e0969029e04896eaab2bf0a64e90ac01>@@XAEBVValue@Json@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_e8ce496b76c74e3642517b6b1e5cdb64>@@VValue@Json@@PEBE@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_f4f5e2f072afd4a5de41e85075878c7c>@@X$$QEAUBindingFileOption_t@@_N@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_fab710b62b81549586ca05ec44e81204>@@_NW4ETrackedDeviceClass@vr@@@std@@
@@ -825,6 +830,8 @@ $\n k_EProtoServiceTypeSteamMessages
 .?AVCSteamVR_AudioSettings_SettingsChanged_Notification@@
 .?AVCSteamVR_AudioSettings_Settings_Channel@@
 .?AVCSteamVR_Header@@
+.?AVCSteamVR_OverlayInputFocusChanged_Message@@
+.?AVCSteamVR_PushOverlayInputFocus_Message@@
 .?AVCSteamVR_Settings_SetValue_Request@@
 .?AVCSteamVR_Settings_SetValue_Response@@
 .?AVCSteamVR_VRGamepadUI_Message@@
@@ -1178,7 +1185,6 @@ $\n k_EProtoServiceTypeSteamMessages
 .?AVIVRCameraComponent002@@
 .?AVIVRCameraComponent@vr@@
 .?AVIVRChaperoneServerDriver@@
-.?AVIVRChaperoneSetup@vr@@
 .?AVIVRCompositorPluginProvider@vr@@
 .?AVIVRControllerComponent@vr@@
 .?AVIVRDisplayComponent001@@
@@ -1666,21 +1672,19 @@ $\n k_EProtoServiceTypeSteamMessages
 0-pixel image
 00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899
 00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899"
-00O)
+00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899@Q:@
 0123456789ABCDEF
 0123456789abcdef
-042)
-0C9@
-0H9@
-0rO)
-0sB@
+0D9@
+0E5@
+0I9@
+0w9@
 1.2.5
 1/2/4/8/16-bit only
 11 4 22 44 44 22 444444
 11eU%
 127.0.0.1
 127.0.0.1:
-12:09:25
 1A26b
 1\f514
 1e+9999
@@ -1689,8 +1693,8 @@ $\n k_EProtoServiceTypeSteamMessages
 2).google.protobuf.FileOptions.OptimizeMode:
 2*.google.protobuf.FieldDescriptorProto.Type
 2+.google.protobuf.FieldDescriptorProto.Label
+22:31:32
 258EAFA5-E914-47DA-95CA-C5AB0DC85B11
-475@
 4\f54d
 52F*
 5I)7
@@ -1701,13 +1705,14 @@ $\n k_EProtoServiceTypeSteamMessages
 7\n\tenum_type
 7^d[L
 7~8A
-8D9@
-8I9@
+8E9@
+8J9@
 8\n\textension
 8c8f13b1-60eb-4b6a-a433-de86104115ac
 8d8f13b1-60eb-4b6a-a433-de86104115ac
 8e8f13b1-60eb-4b6a-a433-de86104115ac
 8giP9giP9giP9giP9
+8l9@
 9\n\noneof_decl
 9a&g
 : Protocol message serialized to a size different from what was originally expected.  Perhaps it was modified by another thread during serialization?
@@ -1939,7 +1944,7 @@ AppInfoManager.StartSceneApplicationTransitionFromProcess: No app info for start
 AppTransition: Aborting external launch because of timeout after %g seconds\n
 Apps - Completed simple quit transition with exit of %u\n
 Apps - Initiated %s quit transition for %u\n
-Apr 13 2026
+Apr 29 2026
 Array length of `baseColorFactor` parameter in pbrMetallicRoughness must be 4, but got 
 Array length of `emissiveFactor` parameter in material must be 3, but got 
 Array length of `emissiveFactor` parameter in material must be 3, but got 4\n
@@ -1952,6 +1957,7 @@ Attempted to change property type from %d to %d
 Attempted to read payload of %d bytes from pipe but failed\n
 Attempting to start home app %s\n
 AudioDeviceChangeNotice (noting refresh): %d, device = %s\n
+Authorization
 Auto launch dashboard %s has not started after %u checks. Giving up waiting.\n
 Autobinding role for device path: %s
 AutosaveURL
@@ -2043,7 +2049,6 @@ CHECK failed: result != NULL:
 CHECK failed: trees: 
 CHECK failed: uninterpreted_options_field != NULL: 
 CHECK failed: value.size() <= kint32max: 
-CIVRServerDriverHost_
 CKeyframedDataResource
 CMMNotificationClient::Register
 CORD
@@ -2096,6 +2101,8 @@ CSteamVR_AudioSettings_Settings
 CSteamVR_AudioSettings_Settings.Channel
 CSteamVR_AudioSettings_SettingsChanged_Notification
 CSteamVR_Header
+CSteamVR_OverlayInputFocusChanged_Message
+CSteamVR_PushOverlayInputFocus_Message
 CSteamVR_Settings_SetValue_Request
 CSteamVR_Settings_SetValue_Response
 CSteamVR_VRGamepadUI_Message
@@ -2428,6 +2435,7 @@ Controller (%s) not available for input to chord, ignoring chord\n
 ConvertStringSecurityDescriptorToSecurityDescriptorW
 ConvertStringSecurityDescriptorToSecurityDescriptorW failed while creating pipe %s\n
 ConvertStringSidToSidA
+Cookie
 CopySid
 Could not activate pending device %s: %s\n
 Could not check status of auto launch dashboard %s: %s\n
@@ -2440,7 +2448,6 @@ Could not find field named "
 Could not find field type.
 Could not find named path %s when loading %s\n
 Could not find pending device %s: %s\n
-Could not find universe in ExportLiveToBuffer
 Could not find universe in GetCurrentChaperoneBoundsInRawAppWorld
 Could not get the universe's SetupStanding origin in GetCurrentChaperoneBoundsInRawAppWorld
 Could not parse Origin URI when checking if request is allowed. Rejecting
@@ -2675,6 +2682,7 @@ Failed to get '%s' due to %s\n
 Failed to get DMA-BUF modifiers.
 Failed to get app info for %s when getting app settings
 Failed to get camera frame buffering requirements for device index %u\n
+Failed to get process handle for app %s with pid %u\n
 Failed to import client event handle from pipe %s after connecting\n
 Failed to import server event handle from pipe %s after connecting\n
 Failed to init camera frame buffering for device index %u\n
@@ -2689,7 +2697,9 @@ Failed to parse chaperone file because jsonid was %s\n
 Failed to parse chaperone file because the top level json node is not an object\n
 Failed to parse chaperone file because universes was not an array\n
 Failed to parse chaperone file because version was %u\n
+Failed to parse malformed CSteamVR_PushOverlayInputFocus_Message
 Failed to parse malformed CSteamVR_VRGamepadUI_Message
+Failed to parse malformed mailbox overlay_input_focused_changed
 Failed to parse malformed mailbox vrgamepadui_message
 Failed to read chaperone file from %s\n
 Failed to read file: 
@@ -2702,6 +2712,7 @@ Failed to relisten to already-disconnected connection\n
 Failed to relisten to pipe after connection\n
 Failed to set '%s' due to %s\n
 Failed to set camera frame buffering for device index %u\n
+Failed to set process priority for app %s with pid %u\n
 Failed to set process priority!\n
 Failed to set thread %p priority: invalid priority %d\n
 Failed to start server with error %d\n
@@ -2870,8 +2881,8 @@ H$6t
 H*0"ZOW
 HAPTICDEBUG %s:%d sec: %f\t freq: %f\t amp: %f\n
 HEAD
-HF9@
-HK9@
+HG9@
+HL9@
 HMD Not Known (202)
 HMD already in use by another application (205)
 HMD detected over USB, but Monitor may be mirrored instead of extended (212)
@@ -2896,6 +2907,7 @@ HMDSerialNumber
 HTTP Version Not Supported
 HTTP parse, %lu bytes
 HTTP/
+HTTP/1.0
 HTTP/1.1
 HTTP/1.1 %d %s\r\n%sContent-Length:            \r\n\r\n
 HTTP/1.1 %d %s\r\nContent-Type: %.*s\r\nEtag: %s\r\nContent-Length: %llu\r\n%s%s%s\r\n
@@ -2917,7 +2929,6 @@ Hmd Not Found Presence Failed (126)
 HmdDriverFactory
 HostController
 How did we get here with a non-position slot?
-Hv3@
 I'm a teapot
 IAudioCaptureClient::GetBuffer failed on pass %u: hr = 0x%08x\n
 IAudioCaptureClient::GetBuffer said to read 0 frames on pass %u\n
@@ -3056,6 +3067,7 @@ IVRProperties_001
 IVRRenderModelsInternal_XXX
 IVRRenderModels_006
 IVRResources_001
+IVRServerDriverHost_
 IVRServerDriverHost_004
 IVRServerDriverHost_005
 IVRServerDriverHost_006
@@ -3462,17 +3474,16 @@ Out of thread local storage!\n
 OutputDebugStringA
 OutputDebugStringW
 Overwriting default binding file from web: %s\n
-P0O)
-P42)
 PCI\VEN_%x&DEV_%x&SUBSYS_%x&REV_%x
 PC_%08llx
-PG9@
+PH9@
 PICT
 PID_
-PL9@
 PLACEHOLDER_VALUE
+PM9@
 PNG\r\n
 POST
+PP3@
 PRISM_AcquireDisplay
 PRISM_ActivateRenderGraph
 PRISM_ClientDisconnected
@@ -3527,7 +3538,6 @@ Permanent Redirect
 Perspective camera description not found.
 PerspectiveCamera
 Ph9@
-Pj9@
 Playback devices:\n
 PoseUpdated for invalid object ID %d\n
 PoseUpdated from driver %s (%d) for device index %d which is owned by driver %s (%d)\n
@@ -3791,9 +3801,7 @@ Quitting parent process %u because a quit was requested for its child %u.\n
 R1h58
 RGBG
 RPCRT4.dll
-RSDS!
-R\np0O)
-R\vp0O)
+RSDS
 RaiseException
 Range
 Reached an unintended state: CPPTYPE_MESSAGE
@@ -4250,7 +4258,6 @@ UNPLUGGED
 USB Service Busy (140)
 USER32.dll
 UYVY
-Unable to LoadChaperoneFile in ExportLiveToBuffer
 Unable to LoadChaperoneFile in GetCurrentChaperoneBoundsInRawAppWorld
 Unable to SetNamedPipeHandleState on pipe %s after connecting because %s\n
 Unable to add action %s because %s\n
@@ -4519,16 +4526,11 @@ VREvent_EnterStandbyMode
 VREvent_EnvironmentSettingsHaveChanged
 VREvent_FirmwareUpdateFinished
 VREvent_FirmwareUpdateStarted
-VREvent_FocusEnter
-VREvent_FocusLeave
 VREvent_GpuSpeedSectionSettingChanged
 VREvent_HideKeyboard
 VREvent_HideRenderModels
 VREvent_ImageFailed
 VREvent_ImageLoaded
-VREvent_InputFocusCaptured
-VREvent_InputFocusChanged
-VREvent_InputFocusReleased
 VREvent_Input_ActionManifestLoadFailed
 VREvent_Input_ActionManifestReloaded
 VREvent_Input_BindingLoadFailed
@@ -4557,6 +4559,8 @@ VREvent_Monitor_HideHeadsetView
 VREvent_Monitor_ShowHeadsetView
 VREvent_MouseButtonDown
 VREvent_MouseButtonUp
+VREvent_MouseEnter
+VREvent_MouseLeave
 VREvent_MouseMove
 VREvent_None
 VREvent_Notification_BeginInteraction
@@ -4569,10 +4573,8 @@ VREvent_OtherSectionSettingChanged
 VREvent_OverlayClosed
 VREvent_OverlayCreated
 VREvent_OverlayDestroyed
-VREvent_OverlayFocusChanged
-VREvent_OverlayGamepadFocusGained
-VREvent_OverlayGamepadFocusLost
 VREvent_OverlayHidden
+VREvent_OverlayMouseFocusChanged
 VREvent_OverlaySharedTextureChanged
 VREvent_OverlayShown
 VREvent_PerfSectionSettingChanged
@@ -4615,7 +4617,6 @@ VREvent_StartDashboard
 VREvent_StatusUpdate
 VREvent_SteamVRSectionSettingChanged
 VREvent_SubmitScreenshotToDashboard
-VREvent_SwitchGamepadFocus
 VREvent_SystemReport_Started
 VREvent_TouchPadMove
 VREvent_TrackedCamera_EditingSurface
@@ -4633,6 +4634,9 @@ VREvent_TrackersSectionSettingChanged
 VREvent_TrackingRecordingStarted
 VREvent_TrackingRecordingStopped
 VREvent_UserInterfaceSectionSettingChanged
+VREvent_VRInputFocusCaptured_DEPRECATED
+VREvent_VRInputFocusChanged
+VREvent_VRInputFocusReleased_DEPRECATED
 VREvent_VendorSpecific_Reserved_Start+%d
 VREvent_WatchdogWakeUpRequested
 VREvent_WebInterfaceSectionSettingChanged
@@ -5229,12 +5233,13 @@ WorkshopSelectConfig for BindingOutOfDate for %s(%s) attempt to set default bind
 WorkshopSelectConfig for BindingOutOfDate for %s(%s) when we don't have a binding at all for that controller type\n
 WriteFile
 X-Frame-Options: sameorigin\r\nContent-Security-Policy: default-src 'self'
-XH9@
-XM9@
+XI9@
+XN9@
+XR3@
 XXXX PNG chunk not known
-XrB@
+Xe9@
 XsBI
-Xz9@
+Xy9@
 YUY2
 Zjz\v
 [%x:%x:%x:%x:%x:%x:%x:%x]
@@ -5421,13 +5426,9 @@ Zjz\v
 [Remapping] AutoRemapBinding failed. Remapping from controller type: %s to controller type: %s. 'bindings' member in binding file does not seem to be an object. \n
 [Remapping] AutoRemapBinding failed. Remapping from controller type: %s to controller type: %s. No 'bindings' member found in binding file.\n
 [Remapping] Beginning remapping from controller type: %s to controller type: %s.\n
-[Remapping] Binding deleted: %s.\n
-[Remapping] Binding remapped and checking for others from:\n\t%s  to:  %s.\n\t%s  to:  %s.\n
 [Remapping] Completed remapping from controller type: %s to controller type: %s.\n
-[Remapping] Component remapped from:\n\t%s  to:  %s.\n\t%s  to:  %s.\n
 [Remapping] Condition '%s' is not recognized. It will be ignored.
 [Remapping] Did not find suitable replacement for pose '%s' on controller type '%s'
-[Remapping] Ending search for more multiples of path::mode: %s::%s\n
 [Remapping] HandleRemappedBinding failed. Unknown remapping_mode for component: %s. remapping_mode: %s.\n
 [Remapping] LoadAutomapTemplates failed. Could not find remapping templates json at input/remapping_templates.json\n
 [Remapping] LoadAutomapTemplates failed. Could not read json from remapping templates file input/remapping_templates.json\n
@@ -5438,8 +5439,6 @@ Zjz\v
 [Remapping] LoadRemappingFromJSON failed. No 'path' member specified in 'from' section of remapping data in layout from controller: %s to controller: %s.\n
 [Remapping] LoadRemappingFromJSON failed. No 'path' member specified in 'to' section of remapping data in layout from controller: %s to controller: %s.\n
 [Remapping] LoadRemappingFromJSON failed. No 'to' member specified in layout from controller: %s to controller: %s.\n
-[Remapping] Loaded %zu global remappings.
-[Remapping] Loading automap templates.
 [Remapping] ParseRemappingData failed. Could not find input profile for controller type: %s\n
 [Remapping] ParseRemappingData failed. No layouts specified in remapping file for controller: %s.\n
 [Remapping] ParseRemappingData failed. No to_controller_type specified in remapping file for controller: %s.\n
@@ -5461,12 +5460,6 @@ Zjz\v
 [Remapping] RemapChord failed. 'inputs' member in chord does not exist or is not an array.
 [Remapping] RemapChord failed. Input element in chord has odd number of elements. Should be 2, instead is %u
 [Remapping] RemapParameters failed. No parameter_mode named: '%s'.\n
-[Remapping] Remapping binding: %s
-[Remapping] Replacing pose '%s' with '%s' on controller type '%s'
-[Remapping] Setting up device remapping for controller type: %s.\n
-[Remapping] Skipped remapping of chord with path::input: %s::%s\n
-[Remapping] Skipped remapping of path::mode: %s::%s\n
-[Remapping] Starting on actionSet: %s
 [Settings] %s %s unknown type\n
 [Settings] Load Json Settings from %s\n
 [Settings] No or invalid additional device settings at '%s'\n
@@ -5594,8 +5587,6 @@ Zjz\v
 \%03o
 \U%08x
 \b\d+\b\s*$
-\fp0O)
-\fp42)
 \mfpmp.exe
 \n    Actual    : 
 \n    Field type: 
@@ -5649,8 +5640,6 @@ Zjz\v
 \r\n\tTYPE_BOOL
 \r\n\tTYPE_ENUM
 \rmj>zjZ
-\rp\f`\v0\nP|1)
-\rp\f`\vP\n00O)
 \t%s%s,%u,%s,%s,VID_%04X/PID_%04X,%s,%s\n
 \t\t\n\n\v\v\f\f\f\f\r\r\r\r
 \t\t\t\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r
@@ -5659,7 +5648,6 @@ Zjz\v
 \u%04x
 \u%04x\u%04x
 \ufffd
-\vp0O)
 \x%02x
 ] buffer "
 ] bufferView "
@@ -6355,9 +6343,11 @@ firmwareupdate
 first not IHDR
 fixed32
 fixed64
+flags
 float
 floor_detection_result
 fmodf
+focus_panel
 font
 font/ttf
 font/woff
@@ -6441,8 +6431,8 @@ grip
 grip_limit_transforms
 group
 guid
-hJ9@
-hO9@
+hK9@
+hP9@
 hPU3
 half_thresholds
 hand_interaction_ext
@@ -6484,7 +6474,6 @@ https:
 https://
 hu_hu
 hungarian
-hx9@
 i91k
 i]Wb
 iauds
@@ -7084,23 +7073,23 @@ outofmem
 output
 output buffer limit
 output.size() > 0
+overlay_input_focused_changed
 overlay_key
 overlays
 override_throttling
 overwrite.vrsettings
 owned
-p0O)
-p42)
+p09@
 pBegin == pEnd
 pEnd > pBegin
-pK9@
+pL9@
 pMGConnect != nullptr
 pNewResource
 pNewResource->Load( absFilePath )
 pOutFormatCount MUST not be NULL.
 pOutModifierCount MUST not be NULL.
-pP9@
 pProcessId
+pQ9@
 pQueue->GetMetaContainerHandle() == ulExistingQueue
 pSharedState != nullptr
 pUrl != nullptr
@@ -7164,7 +7153,6 @@ positional
 positive_int_value
 power
 powf
-prO)
 precision
 prediction
 prediction parameter out of range
@@ -7199,7 +7187,6 @@ publishedfileid
 pull
 punct
 putchar
-pv9@
 py_generic_services
 qMFCreateMediaType failed hr = 0x%08x\n
 qsort
@@ -7331,6 +7318,7 @@ scale
 scale_sao_%s%s%s
 scene
 sceneApp
+scene_graph
 scenes
 schema
 schinese
@@ -7438,6 +7426,7 @@ steamIDOwner
 steam_api64
 steam_api64.dll
 steam_connect
+steam_overlay_key
 steam_start_steamvr
 steam_streaming_launch
 steam_vrbutton
@@ -7509,6 +7498,7 @@ system.vrresources
 systemreport_
 systemreport_*.html
 systemreport_template.html
+tE5@
 tRNS after IDAT
 tRNS before PLTE
 tRNS with alpha
@@ -7773,15 +7763,13 @@ wrong version
 ws handshake error
 wss:
 x-steamvr-secret
-x09@
-xL9@
-xQ9@
+x19@
+xM9@
+xR9@
 x_path
-xd9@
 xdigit
-xj9@
 xmag
-xrB@
+xz2@
 y9*O
 y_path
 yfov

@@ -1,12 +1,12 @@
-var CLSTAMP = "10590646";
+var CLSTAMP = "10624569";
 (self.webpackChunkvrwebui = self.webpackChunkvrwebui || []).push([
   [305],
   {
     1988: (e, t, o) => {
-      var r = o(1635),
-        n = o(3496),
+      var n = o(1635),
+        r = o(3496),
         s = o(3236);
-      class i extends n._J {
+      class i extends r._J {
         constructor(e) {
           super(e), super.setBuildNodeOverride(this.buildNode);
         }
@@ -18,19 +18,19 @@ var CLSTAMP = "10590646";
           return (o.properties.construct = this.props.construct), [e, o];
         }
       }
-      (0, r.Cg)([s.o], i.prototype, "buildNode", null);
+      (0, n.Cg)([s.o], i.prototype, "buildNode", null);
     },
     2527: (e, t, o) => {
       o(6540);
-      var r = o(3496);
-      r._J;
+      var n = o(3496);
+      n._J;
     },
     3496: (e, t, o) => {
       o.d(t, {
         GM: () => p,
-        Hm: () => l,
+        Hm: () => g,
         PG: () => i,
-        RH: () => g,
+        RH: () => l,
         UM: () => b,
         Wi: () => a,
         XI: () => c,
@@ -39,8 +39,8 @@ var CLSTAMP = "10590646";
         j_: () => d,
         kJ: () => h,
       });
-      var r = o(6540),
-        n = o(3725),
+      var n = o(6540),
+        r = o(3725),
         s = o(5723);
       function i(e, t) {
         return e ? { x: e.x ? e.x : t.x, y: e.y ? e.y : t.y } : t;
@@ -50,12 +50,12 @@ var CLSTAMP = "10590646";
           ? { x: e.x ? e.x : t.x, y: e.y ? e.y : t.y, z: e.z ? e.z : t.z }
           : t;
       }
-      function g(e, t) {
+      function l(e, t) {
         return e
           ? { r: e.r ? e.r : t.r, g: e.g ? e.g : t.g, b: e.b ? e.b : t.b }
           : t;
       }
-      function l(e) {
+      function g(e) {
         if (e) return [e.x, e.y];
       }
       function d(e) {
@@ -95,20 +95,36 @@ var CLSTAMP = "10590646";
             ]
           : void 0;
       }
-      class m extends r.Component {
+      class m extends n.Component {
         constructor(e) {
           var t;
           super(e),
-            (this.m_domRef = r.createRef()),
+            (this.m_domRef = n.createRef()),
             (this.m_buildNodeOverride = null),
-            (this.m_SGID =
-              null !==
-                (t =
-                  null === VRHTML || void 0 === VRHTML
-                    ? void 0
-                    : VRHTML.NextSGID()) && void 0 !== t
-                ? t
-                : n._E);
+            (this.m_SGID = r._E);
+          const o = e.id && "string" == typeof e.id;
+          o &&
+            this.BCanUseStableSGIDs() &&
+            m.s_mapStableSGIDsForIDs.has(e.id) &&
+            ((this.m_SGID = m.s_mapStableSGIDsForIDs.get(e.id)),
+            m.s_mapCurrentlyMountedSGIDs.has(this.m_SGID) &&
+              (console.error(
+                `Constructing SGBase component (ID="${e.id}") at the same time another component with that SGID is mounted. Using a new SGID.`,
+                this.m_SGID,
+              ),
+              (this.m_SGID = r._E))),
+            this.m_SGID == r._E &&
+              ((this.m_SGID =
+                null !==
+                  (t =
+                    null === VRHTML || void 0 === VRHTML
+                      ? void 0
+                      : VRHTML.NextSGID()) && void 0 !== t
+                  ? t
+                  : r._E),
+              o &&
+                this.BCanUseStableSGIDs() &&
+                m.s_mapStableSGIDsForIDs.set(e.id, this.m_SGID));
         }
         setBuildNodeOverride(e) {
           this.m_buildNodeOverride = e;
@@ -129,25 +145,31 @@ var CLSTAMP = "10590646";
           return this.m_domRef.current;
         }
         componentDidMount() {
-          this.m_buildNodeOverride &&
-            (this.m_domRef.current.buildNode = this.m_buildNodeOverride),
+          m.s_mapCurrentlyMountedSGIDs.set(this.m_SGID, this),
+            this.m_buildNodeOverride &&
+              (this.m_domRef.current.buildNode = this.m_buildNodeOverride),
             (0, s.my)();
         }
         componentDidUpdate() {
           (0, s.my)();
         }
         componentWillUnmount() {
-          (0, s.Lx)(this.m_SGID),
+          m.s_mapCurrentlyMountedSGIDs.get(this.m_SGID) == this &&
+            m.s_mapCurrentlyMountedSGIDs.delete(this.m_SGID),
+            (0, s.Lx)(this.m_SGID),
             this.m_domRef.current &&
               this.m_buildNodeOverride &&
               delete this.m_domRef.current.buildNode;
         }
         PanelContextValue() {}
+        BCanUseStableSGIDs() {
+          return !1;
+        }
         render() {
-          return r.createElement(
+          return n.createElement(
             p.Provider,
             { value: this.PanelContextValue() },
-            r.cloneElement(this.internalRender(), {
+            n.cloneElement(this.internalRender(), {
               id: this.props.id,
               "vsg-type": this.getNodeType(),
               sgid: this.m_SGID,
@@ -157,17 +179,19 @@ var CLSTAMP = "10590646";
         }
         internalRender() {
           return this.m_buildNodeOverride
-            ? r.createElement("vsg-node", null, this.props.children)
+            ? n.createElement("vsg-node", null, this.props.children)
             : null;
         }
       }
-      const p = r.createContext(void 0);
+      (m.s_mapStableSGIDsForIDs = new Map()),
+        (m.s_mapCurrentlyMountedSGIDs = new Map());
+      const p = n.createContext(void 0);
     },
     428: (e, t, o) => {
-      var r = o(1635),
-        n = o(3496),
+      var n = o(1635),
+        r = o(3496),
         s = o(3236);
-      class i extends n._J {
+      class i extends r._J {
         constructor(e) {
           super(e), super.setBuildNodeOverride(this.buildNode);
         }
@@ -183,13 +207,13 @@ var CLSTAMP = "10590646";
           );
         }
       }
-      (0, r.Cg)([s.o], i.prototype, "buildNode", null);
+      (0, n.Cg)([s.o], i.prototype, "buildNode", null);
     },
     4397: (e, t, o) => {
-      var r = o(1635),
-        n = o(3496),
+      var n = o(1635),
+        r = o(3496),
         s = o(3236);
-      class i extends n._J {
+      class i extends r._J {
         constructor(e) {
           super(e), super.setBuildNodeOverride(this.buildNode);
         }
@@ -209,19 +233,19 @@ var CLSTAMP = "10590646";
           );
         }
       }
-      (0, r.Cg)([s.o], i.prototype, "buildNode", null);
+      (0, n.Cg)([s.o], i.prototype, "buildNode", null);
     },
     2402: (e, t, o) => {
-      o.d(t, { E: () => n, Q: () => r });
-      const r = "set_dashboard_force_bounds_visible",
-        n = "set_dashboard_fade_suppression";
+      o.d(t, { E: () => r, Q: () => n });
+      const n = "set_dashboard_force_bounds_visible",
+        r = "set_dashboard_fade_suppression";
     },
     1286: (e, t, o) => {
-      o.d(t, { b: () => r });
-      const r = 6;
+      o.d(t, { b: () => n });
+      const n = 6;
     },
     3236: (e, t, o) => {
-      function r(e, t, o) {
+      function n(e, t, o) {
         return {
           get() {
             let e = o.value.bind(this);
@@ -233,15 +257,15 @@ var CLSTAMP = "10590646";
           },
         };
       }
-      o.d(t, { o: () => r });
+      o.d(t, { o: () => n });
     },
     776: (e, t, o) => {
-      o.d(t, { wd: () => l });
-      var r = o(1635),
-        n = o(3236);
+      o.d(t, { wd: () => g });
+      var n = o(1635),
+        r = o(3236);
       class s {
         GetObject(e, t) {
-          return (0, r.sH)(this, void 0, void 0, function* () {
+          return (0, n.sH)(this, void 0, void 0, function* () {
             try {
               const o = yield this.GetString(e);
               return o ? JSON.parse(o, t) : null;
@@ -251,7 +275,7 @@ var CLSTAMP = "10590646";
           });
         }
         StoreObject(e, t) {
-          return (0, r.sH)(this, void 0, void 0, function* () {
+          return (0, n.sH)(this, void 0, void 0, function* () {
             return this.StoreString(e, JSON.stringify(t));
           });
         }
@@ -268,14 +292,14 @@ var CLSTAMP = "10590646";
         }
       }
       var a,
-        g = o(1651);
+        l = o(1651);
       !(function (e) {
         (e[(e.Debug = 0)] = "Debug"),
           (e[(e.Info = 1)] = "Info"),
           (e[(e.Warning = 2)] = "Warning"),
           (e[(e.Error = 3)] = "Error");
       })(a || (a = {}));
-      class l {
+      class g {
         constructor(e, t) {
           (this.m_fnIdGenerator = void 0),
             (this.m_sName = e),
@@ -319,42 +343,42 @@ var CLSTAMP = "10590646";
           return d.Get().IsDebugLogEnabled(this.m_sName);
         }
         Log(e, ...t) {
-          var o, r;
-          const n = d.Get().IsDebugLogEnabled(this.m_sName);
-          if (e == a.Debug && !n) return;
+          var o, n;
+          const r = d.Get().IsDebugLogEnabled(this.m_sName);
+          if (e == a.Debug && !r) return;
           let s = this.m_sName;
           const i =
             null !==
-              (r =
+              (n =
                 null === (o = this.m_fnIdGenerator) || void 0 === o
                   ? void 0
-                  : o.call(this)) && void 0 !== r
-              ? r
+                  : o.call(this)) && void 0 !== n
+              ? n
               : null;
           null != i && (s += " (" + i + ")");
-          u(e, n, d.Get().IncludeBacktraceInLog, s, this.m_sName, ...t);
+          u(e, r, d.Get().IncludeBacktraceInLog, s, this.m_sName, ...t);
         }
         LogOnce(e, t, ...o) {
           d.Get().ShouldLogOnce(`${this.m_sName}:${e}`) && this.Log(t, ...o);
         }
       }
-      (0, r.Cg)([n.o], l.prototype, "Debug", null),
-        (0, r.Cg)([n.o], l.prototype, "Info", null),
-        (0, r.Cg)([n.o], l.prototype, "Warning", null),
-        (0, r.Cg)([n.o], l.prototype, "Error", null),
-        (0, r.Cg)([n.o], l.prototype, "Assert", null),
-        (0, r.Cg)([n.o], l.prototype, "DebugOnce", null),
-        (0, r.Cg)([n.o], l.prototype, "InfoOnce", null),
-        (0, r.Cg)([n.o], l.prototype, "WarningOnce", null),
-        (0, r.Cg)([n.o], l.prototype, "ErrorOnce", null),
-        (0, r.Cg)([n.o], l.prototype, "ErrorOnceThenWarn", null);
+      (0, n.Cg)([r.o], g.prototype, "Debug", null),
+        (0, n.Cg)([r.o], g.prototype, "Info", null),
+        (0, n.Cg)([r.o], g.prototype, "Warning", null),
+        (0, n.Cg)([r.o], g.prototype, "Error", null),
+        (0, n.Cg)([r.o], g.prototype, "Assert", null),
+        (0, n.Cg)([r.o], g.prototype, "DebugOnce", null),
+        (0, n.Cg)([r.o], g.prototype, "InfoOnce", null),
+        (0, n.Cg)([r.o], g.prototype, "WarningOnce", null),
+        (0, n.Cg)([r.o], g.prototype, "ErrorOnce", null),
+        (0, n.Cg)([r.o], g.prototype, "ErrorOnceThenWarn", null);
       class d {
         constructor() {
           (this.m_Storage = null),
             (this.m_setKnownDebugLogs = new Set()),
             (this.m_setEnabledDebugLogs = new Set()),
             (this.m_bIncludeBacktraceInLog = !1),
-            (this.m_SettingsChangedCallback = new g.l()),
+            (this.m_SettingsChangedCallback = new l.l()),
             (this.m_bLoading = !1),
             (this.m_setOnceKeys = new Set()),
             (this.m_Storage = new i()),
@@ -371,7 +395,7 @@ var CLSTAMP = "10590646";
           );
         }
         LoadSettings() {
-          return (0, r.sH)(this, void 0, void 0, function* () {
+          return (0, n.sH)(this, void 0, void 0, function* () {
             var e, t;
             (this.m_bLoading = !0),
               (this.m_bIncludeBacktraceInLog = !!(yield null ===
@@ -393,7 +417,7 @@ var CLSTAMP = "10590646";
           });
         }
         SaveSettings() {
-          return (0, r.sH)(this, void 0, void 0, function* () {
+          return (0, n.sH)(this, void 0, void 0, function* () {
             var e, t;
             yield null === (e = this.m_Storage) || void 0 === e
               ? void 0
@@ -440,12 +464,12 @@ var CLSTAMP = "10590646";
           return this.m_setEnabledDebugLogs.has(e);
         }
         ToggleDebugLogEnabled(e) {
-          return (0, r.sH)(this, void 0, void 0, function* () {
+          return (0, n.sH)(this, void 0, void 0, function* () {
             this.SetDebugLogEnabled(e, !this.IsDebugLogEnabled(e));
           });
         }
         SetDebugLogEnabled(e, t) {
-          return (0, r.sH)(this, void 0, void 0, function* () {
+          return (0, n.sH)(this, void 0, void 0, function* () {
             t
               ? this.m_setEnabledDebugLogs.add(e)
               : this.m_setEnabledDebugLogs.delete(e),
@@ -454,7 +478,7 @@ var CLSTAMP = "10590646";
           });
         }
         SetAllDebugLogsEnabled(e) {
-          return (0, r.sH)(this, void 0, void 0, function* () {
+          return (0, n.sH)(this, void 0, void 0, function* () {
             (this.m_setEnabledDebugLogs = e
               ? new Set(this.m_setKnownDebugLogs)
               : new Set()),
@@ -469,7 +493,7 @@ var CLSTAMP = "10590646";
           return this.m_bIncludeBacktraceInLog;
         }
         SetIncludeBacktraceInLog(e) {
-          return (0, r.sH)(this, void 0, void 0, function* () {
+          return (0, n.sH)(this, void 0, void 0, function* () {
             (this.m_bIncludeBacktraceInLog = e),
               this.m_SettingsChangedCallback.Dispatch(),
               yield this.SaveSettings();
@@ -479,20 +503,20 @@ var CLSTAMP = "10590646";
           return !this.m_setOnceKeys.has(e) && (this.m_setOnceKeys.add(e), !0);
         }
       }
-      function u(e, t, o, r, n, ...s) {
+      function u(e, t, o, n, r, ...s) {
         const i = (function (e) {
             let t = 0;
             for (let o = 0; o < e.length; o++)
               t = e.charCodeAt(o) + ((t << 5) - t);
             return [255 & t, (t >> 8) & 255, (t >> 16) & 255];
-          })(n).map((e, t) =>
+          })(r).map((e, t) =>
             Math.round(
               Math.max(0, Math.min(255, 255 * (0.8 * (e / 255 - 0.5) + 0.15))),
             ),
           ),
-          g = (299 * (l = i)[0] + 587 * l[1] + 114 * l[2]) / 1e3 >= 128;
-        var l;
-        let d = r;
+          l = (299 * (g = i)[0] + 587 * g[1] + 114 * g[2]) / 1e3 >= 128;
+        var g;
+        let d = n;
         o &&
           (d =
             (function (e) {
@@ -517,7 +541,7 @@ var CLSTAMP = "10590646";
           ((h = t
             ? [
                 `%c${d}%c:${u ? " %c" + c : ""}`,
-                `color: ${g ? "black" : "white"}; background: rgb(${i.join(",")}); padding: 0 1ch; border-radius: 3px;`,
+                `color: ${l ? "black" : "white"}; background: rgb(${i.join(",")}); padding: 0 1ch; border-radius: 3px;`,
                 "color: transparent; margin-right: -1ch",
                 ...(u ? [""] : []),
                 ...s,

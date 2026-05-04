@@ -1,12 +1,12 @@
-var CLSTAMP = "10590646";
+var CLSTAMP = "10624569";
 (self.webpackChunkvrwebui = self.webpackChunkvrwebui || []).push([
   [148],
   {
     8472: (e, t, r) => {
       var s = r(1635),
         o = r(3236),
-        n = r(3496);
-      class i extends n._J {
+        i = r(3496);
+      class n extends i._J {
         constructor(e) {
           super(e), super.setBuildNodeOverride(this.buildNode);
         }
@@ -23,13 +23,13 @@ var CLSTAMP = "10590646";
           );
         }
       }
-      (0, s.Cg)([o.o], i.prototype, "buildNode", null);
+      (0, s.Cg)([o.o], n.prototype, "buildNode", null);
     },
     6417: (e, t, r) => {
       var s = r(1635),
         o = r(3496),
-        n = r(3236);
-      class i extends o._J {
+        i = r(3236);
+      class n extends o._J {
         constructor(e) {
           super(e), super.setBuildNodeOverride(this.buildNode);
         }
@@ -52,7 +52,7 @@ var CLSTAMP = "10590646";
           );
         }
       }
-      (0, s.Cg)([n.o], i.prototype, "buildNode", null);
+      (0, s.Cg)([i.o], n.prototype, "buildNode", null);
     },
     2303: (e, t, r) => {
       r(6540);
@@ -67,8 +67,8 @@ var CLSTAMP = "10590646";
     6847: (e, t, r) => {
       var s = r(1635),
         o = r(3496),
-        n = r(3236);
-      class i extends o._J {
+        i = r(3236);
+      class n extends o._J {
         constructor(e) {
           super(e), super.setBuildNodeOverride(this.buildNode);
         }
@@ -101,13 +101,13 @@ var CLSTAMP = "10590646";
           return [e, r];
         }
       }
-      (0, s.Cg)([n.o], i.prototype, "buildNode", null);
+      (0, s.Cg)([i.o], n.prototype, "buildNode", null);
     },
     6186: (e, t, r) => {
       var s = r(1635),
         o = r(3496),
-        n = r(3236),
-        i = r(5723);
+        i = r(3236),
+        n = r(5723);
       class a extends o._J {
         constructor(e) {
           super(e), super.setBuildNodeOverride(this.buildNode);
@@ -119,7 +119,7 @@ var CLSTAMP = "10590646";
           return [e, this.createSgNode(t)];
         }
       }
-      (0, s.Cg)([n.o], a.prototype, "buildNode", null);
+      (0, s.Cg)([i.o], a.prototype, "buildNode", null);
       class p extends o._J {
         constructor(e) {
           super(e), super.setBuildNodeOverride(this.buildNode);
@@ -130,18 +130,18 @@ var CLSTAMP = "10590646";
         buildNode(e, t) {
           const r = this.createSgNode(t);
           return (
-            (r.properties.mountable_id = (0, i.bl)(this.props.mountedId)),
+            (r.properties.mountable_id = (0, n.bl)(this.props.mountedId)),
             [e, r]
           );
         }
       }
-      (0, s.Cg)([n.o], p.prototype, "buildNode", null);
+      (0, s.Cg)([i.o], p.prototype, "buildNode", null);
     },
     5830: (e, t, r) => {
       var s = r(1635),
         o = r(3496),
-        n = r(3236);
-      class i extends o._J {
+        i = r(3236);
+      class n extends o._J {
         constructor(e) {
           super(e), super.setBuildNodeOverride(this.buildNode);
         }
@@ -153,18 +153,18 @@ var CLSTAMP = "10590646";
           return (r.properties.opacity = (0, o.kJ)(this.props.value)), [e, r];
         }
       }
-      (0, s.Cg)([n.o], i.prototype, "buildNode", null);
+      (0, s.Cg)([i.o], n.prototype, "buildNode", null);
     },
     7350: (e, t, r) => {
       var s,
         o = r(1635),
-        n = r(3496),
-        i = r(3236),
+        i = r(3496),
+        n = r(3236),
         a = r(5723);
       !(function (e) {
         (e[(e.None = 0)] = "None"), (e[(e.Backface = 1)] = "Backface");
       })(s || (s = {}));
-      class p extends n._J {
+      class p extends i._J {
         constructor(e) {
           super(e), super.setBuildNodeOverride(this.buildNode);
         }
@@ -182,7 +182,7 @@ var CLSTAMP = "10590646";
             let e = this.props.fresnel;
             if ("string" == typeof e.color) r.properties.color = e.color;
             else {
-              let t = (0, n.RH)(e.color, { r: 0, g: 0, b: 0 });
+              let t = (0, i.RH)(e.color, { r: 0, g: 0, b: 0 });
               r.properties.color = [t.r, t.g, t.b];
             }
             (r.properties.opacity = e.opacity ? e.opacity : 1),
@@ -199,13 +199,13 @@ var CLSTAMP = "10590646";
           );
         }
       }
-      (0, o.Cg)([i.o], p.prototype, "buildNode", null);
+      (0, o.Cg)([n.o], p.prototype, "buildNode", null);
     },
     5459: (e, t, r) => {
       var s = r(1635),
         o = r(3496),
-        n = r(3236);
-      class i extends o._J {
+        i = r(3236);
+      class n extends o._J {
         constructor(e) {
           super(e), super.setBuildNodeOverride(this.buildNode);
         }
@@ -226,13 +226,13 @@ var CLSTAMP = "10590646";
           );
         }
       }
-      (0, s.Cg)([n.o], i.prototype, "buildNode", null);
+      (0, s.Cg)([i.o], n.prototype, "buildNode", null);
     },
     8715: (e, t, r) => {
       var s = r(1635),
         o = r(3496),
-        n = r(3236);
-      class i extends o._J {
+        i = r(3236);
+      class n extends o._J {
         constructor(e) {
           super(e), super.setBuildNodeOverride(this.buildNode);
         }
@@ -248,7 +248,7 @@ var CLSTAMP = "10590646";
           );
         }
       }
-      (0, s.Cg)([n.o], i.prototype, "buildNode", null);
+      (0, s.Cg)([i.o], n.prototype, "buildNode", null);
     },
     5723: (e, t, r) => {
       r.d(t, {
@@ -262,7 +262,7 @@ var CLSTAMP = "10590646";
       });
       var s = r(1635),
         o = r(2824);
-      function n(e, t) {
+      function i(e, t) {
         let r = e.getAttribute(t);
         if (r && r.length > 0) {
           if ("undefined" == r) return;
@@ -271,7 +271,7 @@ var CLSTAMP = "10590646";
           if (e.length > 0) return e;
         }
       }
-      function i(e, t) {
+      function n(e, t) {
         let r = e.getAttribute(t);
         if (r && r.length > 0) return parseFloat(r);
       }
@@ -295,11 +295,14 @@ var CLSTAMP = "10590646";
         return k(l(e, t));
       }
       function u(e, t) {
-        let r = { type: e, properties: {} };
+        var r;
+        let s = { type: e, properties: {} };
         return (
-          t.id && (r.properties.id = k(t.id)),
-          (r.properties.sgid = a(t, "sgid")),
-          r
+          t.id &&
+            (s.properties.id =
+              null !== (r = k(t.id)) && void 0 !== r ? r : void 0),
+          (s.properties.sgid = a(t, "sgid")),
+          s
         );
       }
       function d() {
@@ -316,10 +319,10 @@ var CLSTAMP = "10590646";
             switch (t.nodeName.toUpperCase()) {
               case "VSG-TRANSFORM":
                 (o = u("transform", t)),
-                  (o.properties.translation = n(t, "translation")),
-                  (o.properties.rotation = n(t, "rotation")),
-                  (o.properties.scale = n(t, "scale")),
-                  (o.properties["curvature-pitch"] = i(t, "curvature-pitch")),
+                  (o.properties.translation = i(t, "translation")),
+                  (o.properties.rotation = i(t, "rotation")),
+                  (o.properties.scale = i(t, "scale")),
+                  (o.properties["curvature-pitch"] = n(t, "curvature-pitch")),
                   (o.properties["transform-path"] = l(t, "transform-path")),
                   (o.properties["projection-constraint"] = a(
                     t,
@@ -336,7 +339,7 @@ var CLSTAMP = "10590646";
                   (o.properties["parent-path"] = l(t, "parent-path")),
                   (o.properties["parent-origin"] = l(t, "parent-origin")),
                   (o.properties["parent-id"] = c(t, "parent-id")),
-                  (o.properties["frame-resize-scale-factor"] = i(
+                  (o.properties["frame-resize-scale-factor"] = n(
                     t,
                     "frame-resize-scale-factor",
                   ));
@@ -349,63 +352,63 @@ var CLSTAMP = "10590646";
                 break;
               case "VSG-ELASTIC-HEAD-TRANSFORM":
                 (o = u("elasticheadtransform", t)),
-                  (o.properties["rotation-start-angle-threshold"] = i(
+                  (o.properties["rotation-start-angle-threshold"] = n(
                     t,
                     "rotation-start-angle-threshold",
                   )),
-                  (o.properties["rotation-stop-angle-threshold"] = i(
+                  (o.properties["rotation-stop-angle-threshold"] = n(
                     t,
                     "rotation-stop-angle-threshold",
                   )),
-                  (o.properties["rotation-ease-in-time"] = i(
+                  (o.properties["rotation-ease-in-time"] = n(
                     t,
                     "rotation-ease-in-time",
                   )),
-                  (o.properties["rotation-ease-in-power"] = i(
+                  (o.properties["rotation-ease-in-power"] = n(
                     t,
                     "rotation-ease-in-power",
                   )),
-                  (o.properties["rotation-ease-out-angle-threshold"] = i(
+                  (o.properties["rotation-ease-out-angle-threshold"] = n(
                     t,
                     "rotation-ease-out-angle-threshold",
                   )),
-                  (o.properties["rotation-ease-out-power"] = i(
+                  (o.properties["rotation-ease-out-power"] = n(
                     t,
                     "rotation-ease-out-power",
                   )),
-                  (o.properties["rotation-min-angular-velocity"] = i(
+                  (o.properties["rotation-min-angular-velocity"] = n(
                     t,
                     "rotation-min-angular-velocity",
                   )),
-                  (o.properties["rotation-max-angular-velocity"] = i(
+                  (o.properties["rotation-max-angular-velocity"] = n(
                     t,
                     "rotation-max-angular-velocity",
                   )),
-                  (o.properties["translation-start-distance-threshold"] = i(
+                  (o.properties["translation-start-distance-threshold"] = n(
                     t,
                     "translation-start-distance-threshold",
                   )),
-                  (o.properties["translation-stop-distance-threshold"] = i(
+                  (o.properties["translation-stop-distance-threshold"] = n(
                     t,
                     "translation-stop-distance-threshold",
                   )),
-                  (o.properties["translation-ease-in-time"] = i(
+                  (o.properties["translation-ease-in-time"] = n(
                     t,
                     "translation-ease-in-time",
                   )),
-                  (o.properties["translation-ease-in-power"] = i(
+                  (o.properties["translation-ease-in-power"] = n(
                     t,
                     "translation-ease-in-power",
                   )),
-                  (o.properties["translation-ease-out-distance-threshold"] = i(
+                  (o.properties["translation-ease-out-distance-threshold"] = n(
                     t,
                     "translation-ease-out-distance-threshold",
                   )),
-                  (o.properties["translation-ease-out-power"] = i(
+                  (o.properties["translation-ease-out-power"] = n(
                     t,
                     "translation-ease-out-power",
                   )),
-                  (o.properties["translation-velocity"] = i(
+                  (o.properties["translation-velocity"] = n(
                     t,
                     "translation-velocity",
                   )),
@@ -423,76 +426,76 @@ var CLSTAMP = "10590646";
               case "VSG-LINE":
                 (o = u("line", t)),
                   (o.properties["target-id"] = c(t, "target-id")),
-                  (o.properties.thickness = i(t, "thickness")),
-                  (o.properties["start-buffer"] = i(t, "start-buffer")),
-                  (o.properties["end-buffer"] = i(t, "end-buffer"));
+                  (o.properties.thickness = n(t, "thickness")),
+                  (o.properties["start-buffer"] = n(t, "start-buffer")),
+                  (o.properties["end-buffer"] = n(t, "end-buffer"));
                 break;
               case "VSG-LINE-CONSTRAINED-TRANSFORM":
                 (o = u("line-constrained-transform", t)),
                   (o.properties["target-id"] = c(t, "target-id")),
                   (o.properties["source-id"] = c(t, "source-id")),
-                  (o.properties["source-distance"] = i(t, "source-distance")),
-                  (o.properties["target-limit"] = i(t, "target-limit"));
+                  (o.properties["source-distance"] = n(t, "source-distance")),
+                  (o.properties["target-limit"] = n(t, "target-limit"));
                 break;
               case "VSG-CALLOUT-TRANSFORM":
                 (o = u("callout-transform", t)),
-                  (o.properties.offset = n(t, "offset"));
+                  (o.properties.offset = i(t, "offset"));
                 break;
               case "VSG-HEAD-FACING-TRANSFORM":
                 o = u("head-facing-transform", t);
                 break;
               case "VSG-PIN-TO-VIEW-TRANSFORM":
                 (o = u("pin-to-view-transform", t)),
-                  (o.properties["offscreen-z-depth"] = i(
+                  (o.properties["offscreen-z-depth"] = n(
                     t,
                     "offscreen-z-depth",
                   )),
-                  (o.properties["off-axis-limit"] = i(t, "off-axis-limit")),
-                  (o.properties["transition-limit"] = i(t, "transition-limit"));
+                  (o.properties["off-axis-limit"] = n(t, "off-axis-limit")),
+                  (o.properties["transition-limit"] = n(t, "transition-limit"));
                 break;
               case "VSG-GRAB-TRANSFORM":
                 (o = u("grab-transform", t)),
                   (o.properties["parent-path"] = l(t, "parent-path")),
-                  (o.properties.translation = n(t, "translation")),
-                  (o.properties.rotation = n(t, "rotation")),
-                  (o.properties.scale = n(t, "scale")),
+                  (o.properties.translation = i(t, "translation")),
+                  (o.properties.rotation = i(t, "rotation")),
+                  (o.properties.scale = i(t, "scale")),
                   (o.properties["should-head-align"] = p(
                     t,
                     "should-head-align",
                   )),
-                  (o.properties["stop-distance"] = i(t, "stop-distance")),
-                  (o.properties["start-angle"] = i(t, "start-angle")),
-                  (o.properties["start-quat-difference"] = i(
+                  (o.properties["stop-distance"] = n(t, "stop-distance")),
+                  (o.properties["start-angle"] = n(t, "start-angle")),
+                  (o.properties["start-quat-difference"] = n(
                     t,
                     "start-quat-difference",
                   )),
-                  (o.properties["stop-quat-difference"] = i(
+                  (o.properties["stop-quat-difference"] = n(
                     t,
                     "stop-quat-difference",
                   )),
-                  (o.properties["scale-margin"] = i(t, "scale-margin")),
-                  (o.properties["lerp-speed"] = i(t, "lerp-speed")),
-                  (o.properties["min-distance"] = i(t, "min-distance")),
-                  (o.properties["max-distance"] = i(t, "max-distance")),
-                  (o.properties["one-to-one-radius"] = i(
+                  (o.properties["scale-margin"] = n(t, "scale-margin")),
+                  (o.properties["lerp-speed"] = n(t, "lerp-speed")),
+                  (o.properties["min-distance"] = n(t, "min-distance")),
+                  (o.properties["max-distance"] = n(t, "max-distance")),
+                  (o.properties["one-to-one-radius"] = n(
                     t,
                     "one-to-one-radius",
                   )),
-                  (o.properties["max-x-squared-contribution"] = i(
+                  (o.properties["max-x-squared-contribution"] = n(
                     t,
                     "max-x-squared-contribution",
                   )),
-                  (o.properties["acceleration-factor-x-coefficient"] = i(
+                  (o.properties["acceleration-factor-x-coefficient"] = n(
                     t,
                     "acceleration-factor-x-coefficient",
                   )),
                   (o.properties["acceleration-factor-x-squared-coefficient"] =
-                    i(t, "acceleration-factor-x-squared-coefficient")),
-                  (o.properties["acceleration-factor-scale-term"] = i(
+                    n(t, "acceleration-factor-x-squared-coefficient")),
+                  (o.properties["acceleration-factor-scale-term"] = n(
                     t,
                     "acceleration-factor-scale-term",
                   )),
-                  (o.properties["remote-transform-tx"] = i(
+                  (o.properties["remote-transform-tx"] = n(
                     t,
                     "remote-transform-tx",
                   )),
@@ -525,15 +528,15 @@ var CLSTAMP = "10590646";
         m,
         S,
         f,
-        b = [],
-        v = null,
-        y = null,
-        _ = !0,
-        R = null;
+        b,
+        v,
+        y = [],
+        _ = null,
+        R = !0;
       function C(e, t, r) {
-        (g = e),
-          (m = t),
-          (S = r),
+        (m = e),
+          (S = t),
+          (f = r),
           console.log("Setting owning overlay key to " + e);
       }
       function k(e) {
@@ -553,24 +556,24 @@ var CLSTAMP = "10590646";
               ? void 0
               : VRHTML.VROverlay.ThisOverlayKey()) && void 0 !== e
           ? e
-          : g;
+          : m;
       }
       function N(e) {
-        b.push(e), O();
+        y.push(e), O();
       }
       function O() {
-        v ||
-          (v = window.setTimeout(
+        _ ||
+          (_ = window.setTimeout(
             () =>
               (0, s.sH)(this, void 0, void 0, function* () {
                 let e = document.body;
-                m && (e = m);
+                S && (e = S);
                 let t = {
                   type: "root",
                   rootproperties: {
-                    relatchDashboardTransform: f,
-                    allowDismissOnClick: _,
-                    sceneColorCorrection: R,
+                    relatchDashboardTransform: b,
+                    allowDismissOnClick: R,
+                    sceneColorCorrection: v,
                   },
                   children: h(
                     {
@@ -581,20 +584,20 @@ var CLSTAMP = "10590646";
                     e,
                   ),
                 };
-                y ||
+                g ||
                   (console.log("Initializing sg_mailbox"),
-                  (y = new o._n()),
-                  yield y.Init("sg_mailbox", S));
+                  (g = new o._n()),
+                  yield g.Init("sg_mailbox", f));
                 let r = {
                   type: "update_scene_graph",
                   owning_overlay_key: w(),
                   scene_graph: t,
-                  retired_sgids: b,
+                  retired_sgids: y,
                 };
-                y.SendMessage("vrcompositor_systemlayer", r),
-                  (v = null),
-                  (b = []),
-                  (f = !1);
+                g.SendMessage("vrcompositor_systemlayer", r),
+                  (_ = null),
+                  (y = []),
+                  (b = !1);
               }),
             0,
           ));
@@ -603,8 +606,8 @@ var CLSTAMP = "10590646";
     1230: (e, t, r) => {
       var s = r(1635),
         o = r(3496),
-        n = r(3236);
-      class i extends o._J {
+        i = r(3236);
+      class n extends o._J {
         constructor(e) {
           super(e), super.setBuildNodeOverride(this.buildNode);
         }
@@ -641,7 +644,7 @@ var CLSTAMP = "10590646";
           );
         }
       }
-      (0, s.Cg)([n.o], i.prototype, "buildNode", null);
+      (0, s.Cg)([i.o], n.prototype, "buildNode", null);
     },
     3389: (e, t, r) => {
       r(2824);
@@ -650,8 +653,8 @@ var CLSTAMP = "10590646";
       r.d(t, { tH: () => l });
       var s = r(1635),
         o = r(6540),
-        n = r(6090),
-        i = r(1286),
+        i = r(6090),
+        n = r(1286),
         a = r(3236);
       p = (e) => {
         throw new Error(e.errorStr);
@@ -688,8 +691,8 @@ var CLSTAMP = "10590646";
         }
         render() {
           const { children: e, fallback: t, errorKey: r } = this.props,
-            { error: s, identifierHash: n, lastErrorKey: i } = this.state;
-          return s && r == i
+            { error: s, identifierHash: i, lastErrorKey: n } = this.state;
+          return s && r == n
             ? void 0 !== t
               ? "function" == typeof t
                 ? t(s.error)
@@ -698,7 +701,7 @@ var CLSTAMP = "10590646";
                   l.sm_ErrorReportingStore.reporting_enabled
                 ? o.createElement(d, {
                     error: s,
-                    identifierHash: n,
+                    identifierHash: i,
                     store: l.sm_ErrorReportingStore,
                     onRefresh: this.Reset,
                   })
@@ -709,19 +712,19 @@ var CLSTAMP = "10590646";
       function c(e) {
         const { enabled: t } = e,
           [r, s] = o.useState(t),
-          [n, a] = o.useState(i.b);
+          [i, a] = o.useState(n.b);
         o.useEffect(() => {
           const e = setTimeout(() => {
             r &&
-              (n > 1
-                ? a(n - 1)
+              (i > 1
+                ? a(i - 1)
                 : (console.warn(
                     "Auto-reloading due to triggered ErrorBoundary...",
                   ),
                   window.location.reload()));
           }, 1e3);
           return () => clearTimeout(e);
-        }, [r, n]);
+        }, [r, i]);
         const p = o.useCallback(() => {
           console.log("Auto-reload canceled."), s(!1);
         }, []);
@@ -744,7 +747,7 @@ var CLSTAMP = "10590646";
                     m,
                     null,
                     "Reloading UI in ",
-                    n,
+                    i,
                     " seconds...",
                   ),
                   "   ",
@@ -780,12 +783,12 @@ var CLSTAMP = "10590646";
       const u = ({ error: e, onDismiss: t }) => {
           let r = e.error ? e.error.stack : "Stack missing",
             s = e.info ? e.info.componentStack : "",
-            i = (e.error && e.error.message) || "unknown error";
-          const a = o.useContext(n.GM);
+            n = (e.error && e.error.message) || "unknown error";
+          const a = o.useContext(i.GM);
           return o.createElement(
             h,
             null,
-            o.createElement(m, null, 'Error: "', i, '"'),
+            o.createElement(m, null, 'Error: "', n, '"'),
             "   ",
             o.createElement(
               "span",
@@ -802,10 +805,10 @@ var CLSTAMP = "10590646";
           );
         },
         d = (e) => {
-          const { error: t, onRefresh: r, identifierHash: s, store: i } = e,
+          const { error: t, onRefresh: r, identifierHash: s, store: n } = e,
             a = (t.error && t.error.message) || "unknown error",
-            p = `${i.product}_${i.version}_${s}`,
-            l = o.useContext(n.GM);
+            p = `${n.product}_${n.version}_${s}`,
+            l = o.useContext(i.GM);
           return o.createElement(
             h,
             null,
@@ -828,17 +831,17 @@ var CLSTAMP = "10590646";
           );
         };
       function h(e) {
-        return o.useContext(n.GM) || (0, n.R$)() != n.OH.Overlay
+        return o.useContext(i.GM) || (0, i.R$)() != i.OH.Overlay
           ? o.createElement(g, Object.assign({}, e))
           : o.createElement(
-              n.dL,
+              i.dL,
               {
                 parent_path: "/user/head",
                 translation: { y: -0.5, z: -0.9 },
                 rotation: { x: -20 },
               },
               o.createElement(
-                n.Zk,
+                i.Zk,
                 {
                   debug_name: "vr_error_container",
                   meters_per_pixel: 75e-5,
@@ -886,10 +889,10 @@ var CLSTAMP = "10590646";
           );
     },
     1651: (e, t, r) => {
-      r.d(t, { l: () => n });
+      r.d(t, { l: () => i });
       var s = r(1635),
         o = (r(6540), r(3236));
-      class n {
+      class i {
         constructor() {
           this.m_vecCallbacks = [];
         }
@@ -912,7 +915,7 @@ var CLSTAMP = "10590646";
           return this.m_vecCallbacks.length;
         }
       }
-      (0, s.Cg)([o.o], n.prototype, "Dispatch", null);
+      (0, s.Cg)([o.o], i.prototype, "Dispatch", null);
     },
     1295: (e, t, r) => {
       function s(e) {
@@ -924,8 +927,8 @@ var CLSTAMP = "10590646";
       r.d(t, { HR: () => h });
       var s = r(1635),
         o = r(3236),
-        n = r(2505),
-        i = r.n(n),
+        i = r(2505),
+        n = r.n(i),
         a = r(7813),
         p = r(6090),
         l = r(3606),
@@ -953,7 +956,7 @@ var CLSTAMP = "10590646";
             (this.m_bInitStarted = !1),
             (this.GetAppList = function () {
               return new Promise(function (e, t) {
-                i()
+                n()
                   .get("/app/list.json")
                   .then((t) => {
                     e(t.data.apps);
@@ -965,7 +968,7 @@ var CLSTAMP = "10590646";
             }),
             (this.GetSettingsUGC = function () {
               return new Promise(function (e, t) {
-                i()
+                n()
                   .get("/settings_getugc")
                   .then((t) => {
                     e(t.data);
@@ -977,7 +980,7 @@ var CLSTAMP = "10590646";
             }),
             (this.ReloadSettingsSchema = function () {
               return new Promise(function (e, t) {
-                i()
+                n()
                   .get("/settings_reloadschema")
                   .then((t) => {
                     e(t.data);
@@ -989,7 +992,7 @@ var CLSTAMP = "10590646";
             }),
             (this.GetSettingsInfo = function () {
               return new Promise(function (e, t) {
-                i()
+                n()
                   .get("/settings_getinfo")
                   .then((t) => {
                     e(t.data);
@@ -1035,7 +1038,7 @@ var CLSTAMP = "10590646";
                     for (const [t, r] of this.pendingChanges.entries())
                       e.push({ name: t, value: r });
                     this.pendingChanges.clear(),
-                      i()
+                      n()
                         .post("/settings_set.action", e)
                         .then((e) => {})
                         .catch((t) => {
@@ -1348,7 +1351,7 @@ var CLSTAMP = "10590646";
         GetSettingsValue(e) {
           return (0, s.sH)(this, void 0, void 0, function* () {
             return new Promise(function (t, r) {
-              i()
+              n()
                 .get("/settings_get", { params: { name: e } })
                 .then((e) => {
                   t(e.data);
@@ -1360,20 +1363,20 @@ var CLSTAMP = "10590646";
           });
         }
         ResetAppSettings(e) {
-          return i()
+          return n()
             .post("/app/resetsettings", { app: e })
             .then((t) => this.GetAppSettings(e))
             .catch((e) => {});
         }
         ResetAllAppResolutionScales() {
-          return i()
+          return n()
             .post("/app/resetallresolutionscales")
             .then((e) => !0)
             .catch((e) => {});
         }
         SetAppSettings(e, t) {
           let r = Object.assign(Object.assign({}, t), { app: e });
-          i().post("/app/setsettings", r);
+          n().post("/app/setsettings", r);
           for (let e = 0; e < this.apps.length; e++)
             if (this.apps[e].key == r.app) {
               !this.apps[e].is_autolaunch &&
@@ -1389,7 +1392,7 @@ var CLSTAMP = "10590646";
         GetAppSettings(e) {
           return (0, s.sH)(this, void 0, void 0, function* () {
             return new Promise(function (t, r) {
-              i()
+              n()
                 .get("/app/getsettings", { params: { app: e } })
                 .then((e) => {
                   t(e.data);
@@ -1403,7 +1406,7 @@ var CLSTAMP = "10590646";
         GetAppInfo(e) {
           return (0, s.sH)(this, void 0, void 0, function* () {
             return new Promise(function (t, r) {
-              i()
+              n()
                 .get("/app/getinfo", { params: { app: e } })
                 .then((e) => {
                   t(e.data);
@@ -1492,10 +1495,10 @@ var CLSTAMP = "10590646";
       window.VRSettingsState = h;
     },
     7727: (e, t, r) => {
-      r.d(t, { N: () => n });
+      r.d(t, { N: () => i });
       var s = r(6540);
       const o = s.createContext({ frame: void 0, page: void 0 });
-      function n() {
+      function i() {
         return s.useContext(o);
       }
     },

@@ -42,6 +42,7 @@
 --getanchor
 --handlewakeup
 --help
+--hidedashboard
 --info
 --is-pid-present
 --lighthousedebugstring
@@ -102,6 +103,7 @@
 .?AV<lambda_099b98a67f727678d8deef3b05f99bf7>@@
 .?AV<lambda_0f1c2df097fdebec82bd0a2df7b17557>@@
 .?AV<lambda_124ad2de1529221a6014ff59603fe040>@@
+.?AV<lambda_1426f16503e1a727439b55d2cca69a57>@@
 .?AV<lambda_1ecd3b48a05adf783036af8718bb8837>@@
 .?AV<lambda_20b84b0fb08762a3063e740444e60d61>@@
 .?AV<lambda_20de32b3bbe03e3f544eb33d3470af25>@@
@@ -125,6 +127,7 @@
 .?AV<lambda_655794d6c24d03a4eb901fceee36ee3c>@@
 .?AV<lambda_655ab12a61fb059c0c4cdfd3d1a25a39>@@
 .?AV<lambda_662d8de06dabd83193f2cb18a12f4766>@@
+.?AV<lambda_6a28e8d7d14fbbcbd4772d061e2ac0d4>@@
 .?AV<lambda_6c2755de9fb7d8850408403750a840df>@@
 .?AV<lambda_6d3f394044cef1a80f7334bc4353c1a7>@@
 .?AV<lambda_7cb099c713b848ca291f3e208cc0287b>@@
@@ -140,7 +143,6 @@
 .?AV<lambda_998b4afba503e94740d40371c93a4e4d>@@
 .?AV<lambda_9b0dc4f84d45b56b7f3cfe7be5478459>@@
 .?AV<lambda_9b6f868e8953b7be2410ff255d0f29ed>@@
-.?AV<lambda_9e57f0071be9d2cbe6309f36f9d626e3>@@
 .?AV<lambda_9e6a11d1c334dc36457ad997b7190350>@@
 .?AV<lambda_a434b1f941164928966d3d4f0a2ee70f>@@
 .?AV<lambda_a991c486431129b130d474cee8315ef4>@@
@@ -172,6 +174,7 @@
 .?AV?$_Func_impl_no_alloc@V<lambda_099b98a67f727678d8deef3b05f99bf7>@@X$$V@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_0f1c2df097fdebec82bd0a2df7b17557>@@X$$V@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_124ad2de1529221a6014ff59603fe040>@@PEAXPEBD@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1426f16503e1a727439b55d2cca69a57>@@X$$V@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_1ecd3b48a05adf783036af8718bb8837>@@X$$V@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_20b84b0fb08762a3063e740444e60d61>@@X$$V@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_20de32b3bbe03e3f544eb33d3470af25>@@X$$V@std@@
@@ -195,6 +198,7 @@
 .?AV?$_Func_impl_no_alloc@V<lambda_655794d6c24d03a4eb901fceee36ee3c>@@X$$V@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_655ab12a61fb059c0c4cdfd3d1a25a39>@@X$$V@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_662d8de06dabd83193f2cb18a12f4766>@@X$$V@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_6a28e8d7d14fbbcbd4772d061e2ac0d4>@@X$$V@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_6c2755de9fb7d8850408403750a840df>@@X$$V@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_6d3f394044cef1a80f7334bc4353c1a7>@@X$$V@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_7cb099c713b848ca291f3e208cc0287b>@@X$$V@std@@
@@ -210,7 +214,6 @@
 .?AV?$_Func_impl_no_alloc@V<lambda_998b4afba503e94740d40371c93a4e4d>@@X$$V@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_9b0dc4f84d45b56b7f3cfe7be5478459>@@X$$V@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_9b6f868e8953b7be2410ff255d0f29ed>@@X$$V@std@@
-.?AV?$_Func_impl_no_alloc@V<lambda_9e57f0071be9d2cbe6309f36f9d626e3>@@X$$V@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_9e6a11d1c334dc36457ad997b7190350>@@X$$V@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_a434b1f941164928966d3d4f0a2ee70f>@@X$$V@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_a991c486431129b130d474cee8315ef4>@@X$$V@std@@
@@ -541,6 +544,7 @@ Got error %s instead of TrackedProp_UnknownProperty for %u\n
 Got error %s instead of TrackedProp_ValueNotProvidedByDevice for %u\n
 HeapAlloc
 HeapFree
+HideDashboard
 Histogram for
 Huge Data
 IPC::CIPCHandle::InitForExport
@@ -860,8 +864,7 @@ PropertyContainer: High lock acquisition counters: sp:%u yd:%u re:%u\n
 PropertyContainerCreation
 QueryPerformanceCounter
 QueryPerformanceFrequency
-RSDSSN/
-R\vpN
+RSDS
 RaiseException
 ReadFile
 ReadFile failed on %s after event was signaled because %s\n

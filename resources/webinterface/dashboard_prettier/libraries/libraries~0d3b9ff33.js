@@ -1,9 +1,13 @@
-var CLSTAMP = "10590646";
+var CLSTAMP = "10624569";
 (self.webpackChunkvrwebui = self.webpackChunkvrwebui || []).push([
-  [948, 154, 264],
+  [948],
   {
     2505: (e, t, n) => {
       e.exports = n(8015);
+    },
+    2593: (e, t, n) => {
+      "use strict";
+      e.exports = n(6874);
     },
     3815: (e, t, n) => {
       "use strict";
@@ -360,8 +364,8 @@ var CLSTAMP = "10590646";
         );
       }
       j.displayName = "MobXProvider";
-      var k = Number.parseInt(a.version.split(".")[0]),
-        E = !1,
+      var E = Number.parseInt(a.version.split(".")[0]),
+        k = !1,
         P = Symbol("disposeOnUnmountProto"),
         C = Symbol("disposeOnUnmountInst");
       function R() {
@@ -565,7 +569,7 @@ var CLSTAMP = "10590646";
           intercept: () => xn,
           isAction: () => Yt,
           isBoxedObservable: () => Je,
-          isComputed: () => En,
+          isComputed: () => kn,
           isComputedProp: () => Pn,
           isFlow: () => Sn,
           isFlowCancellationError: () => yn,
@@ -700,11 +704,11 @@ var CLSTAMP = "10590646";
           null != e && "[object Set]" === Object.prototype.toString.call(e)
         );
       }
-      var k = void 0 !== Object.getOwnPropertySymbols;
-      var E =
+      var E = void 0 !== Object.getOwnPropertySymbols;
+      var k =
         "undefined" != typeof Reflect && Reflect.ownKeys
           ? Reflect.ownKeys
-          : k
+          : E
             ? function (e) {
                 return Object.getOwnPropertyNames(e).concat(
                   Object.getOwnPropertySymbols(e),
@@ -722,7 +726,7 @@ var CLSTAMP = "10590646";
         function (e) {
           var t = {};
           return (
-            E(e).forEach(function (n) {
+            k(e).forEach(function (n) {
               t[n] = s(e, n);
             }),
             t
@@ -876,7 +880,7 @@ var CLSTAMP = "10590646";
               return Pt(this);
             }),
             (t.reportChanged = function () {
-              kt(), Ct(this), Et();
+              Et(), Ct(this), kt();
             }),
             (t.toString = function () {
               return this.name_;
@@ -1295,7 +1299,7 @@ var CLSTAMP = "10590646";
       Object.freeze(Ae);
       var je = ve("observable"),
         xe = ve("observable.ref", { enhancer: Y }),
-        ke = ve("observable.shallow", {
+        Ee = ve("observable.shallow", {
           enhancer: function (e, t, n) {
             return null == e || Br(e) || yr(e) || Ar(e) || xr(e)
               ? e
@@ -1310,7 +1314,7 @@ var CLSTAMP = "10590646";
                       : void 0;
           },
         }),
-        Ee = ve("observable.struct", {
+        ke = ve("observable.struct", {
           enhancer: function (e, t) {
             return Qr(e, t) ? t : e;
           },
@@ -1391,9 +1395,9 @@ var CLSTAMP = "10590646";
             });
           },
           ref: K(xe),
-          shallow: K(ke),
+          shallow: K(Ee),
           deep: Pe,
-          struct: K(Ee),
+          struct: K(ke),
         }),
         Ne = "computed",
         Ve = ce(Ne),
@@ -1447,7 +1451,7 @@ var CLSTAMP = "10590646";
       function He(e, t, n, r) {
         var i = Ot.trackingDerivation,
           o = !t || !i;
-        kt();
+        Et();
         var a = Ot.allowStateChanges;
         o && (ht(), (a = Xe(!0)));
         var s = {
@@ -1468,7 +1472,7 @@ var CLSTAMP = "10590646";
           void 0 !== e.error_ && (Ot.suppressReactionErrors = !0),
           $e(e.prevAllowStateChanges_),
           _t(e.prevAllowStateReads_),
-          Et(),
+          kt(),
           e.runAsAction_ && vt(e.prevDerivation_),
           (Ot.suppressReactionErrors = !1);
       }
@@ -1673,9 +1677,9 @@ var CLSTAMP = "10590646";
             } else
               at(this) &&
                 (this.warnAboutUntrackedRead_(),
-                kt(),
+                Et(),
                 (this.value_ = this.computeValue_(!1)),
-                Et());
+                kt());
             var t = this.value_;
             if (ot(t)) throw t.cause;
             return t;
@@ -2014,10 +2018,10 @@ var CLSTAMP = "10590646";
         !1 === e.isPendingUnobservation &&
           ((e.isPendingUnobservation = !0), Ot.pendingUnobservations.push(e));
       }
-      function kt() {
+      function Et() {
         Ot.inBatch++;
       }
-      function Et() {
+      function kt() {
         if (0 === --Ot.inBatch) {
           Nt();
           for (var e = Ot.pendingUnobservations, t = 0; t < e.length; t++) {
@@ -2087,7 +2091,7 @@ var CLSTAMP = "10590646";
           }),
           (t.runReaction_ = function () {
             if (!this.isDisposed_) {
-              kt(), (this.isScheduled_ = !1);
+              Et(), (this.isScheduled_ = !1);
               var e = Ot.trackingContext;
               if (((Ot.trackingContext = this), at(this))) {
                 this.isTrackPending_ = !0;
@@ -2097,12 +2101,12 @@ var CLSTAMP = "10590646";
                   this.reportExceptionInDerivation_(e);
                 }
               }
-              (Ot.trackingContext = e), Et();
+              (Ot.trackingContext = e), kt();
             }
           }),
           (t.track = function (e) {
             if (!this.isDisposed_) {
-              kt();
+              Et();
               0, (this.isRunning_ = !0);
               var t = Ot.trackingContext;
               Ot.trackingContext = this;
@@ -2112,7 +2116,7 @@ var CLSTAMP = "10590646";
                 (this.isTrackPending_ = !1),
                 this.isDisposed_ && lt(this),
                 ot(n) && this.reportExceptionInDerivation_(n.cause),
-                Et();
+                kt();
             }
           }),
           (t.reportExceptionInDerivation_ = function (e) {
@@ -2130,7 +2134,7 @@ var CLSTAMP = "10590646";
           (t.dispose = function () {
             this.isDisposed_ ||
               ((this.isDisposed_ = !0),
-              this.isRunning_ || (kt(), lt(this), Et()));
+              this.isRunning_ || (Et(), lt(this), kt()));
           }),
           (t.getDisposer_ = function (e) {
             var t = this,
@@ -2405,7 +2409,7 @@ var CLSTAMP = "10590646";
         return (
           Yr(function () {
             var t = Cr(e, r)[W];
-            E(i).forEach(function (e) {
+            k(i).forEach(function (e) {
               t.extend_(e, i[e], !n || !(e in n) || n[e]);
             });
           }),
@@ -2546,18 +2550,18 @@ var CLSTAMP = "10590646";
               return Xr(e).intercept_(t);
             })(e, t);
       }
-      function kn(e, t) {
+      function En(e, t) {
         if (void 0 === t) return rt(e);
         if (!1 === Br(e)) return !1;
         if (!e[W].values_.has(t)) return !1;
         var n = zr(e, t);
         return rt(n);
       }
-      function En(e) {
-        return kn(e);
+      function kn(e) {
+        return En(e);
       }
       function Pn(e, t) {
-        return kn(e, t);
+        return En(e, t);
       }
       function Cn(e, t) {
         return (
@@ -2627,18 +2631,18 @@ var CLSTAMP = "10590646";
                 : yr(e)
                   ? ("number" != typeof t && (t = parseInt(t, 10)),
                     t < 0 && r("Invalid index: '" + t + "'"),
-                    kt(),
+                    Et(),
                     t >= e.length && (e.length = t + 1),
                     (e[t] = n),
-                    Et())
+                    kt())
                   : r(8);
         else {
-          kt();
+          Et();
           var i = t;
           try {
             for (var o in i) Vn(e, o, i[o]);
           } finally {
-            Et();
+            kt();
           }
         }
       }
@@ -2735,11 +2739,11 @@ var CLSTAMP = "10590646";
       }
       function Fn() {}
       function zn(e, t) {
-        void 0 === t && (t = void 0), kt();
+        void 0 === t && (t = void 0), Et();
         try {
           return e.apply(t);
         } finally {
-          Et();
+          kt();
         }
       }
       function Xn(e, t, n) {
@@ -2884,7 +2888,7 @@ var CLSTAMP = "10590646";
               (t = (function (e) {
                 return C(e, I) || w(e, I, V({}, e[I])), e[I];
               })(e)),
-              E(t).forEach(function (e) {
+              k(t).forEach(function (e) {
                 return r.make_(e, t[e]);
               });
           }),
@@ -2899,7 +2903,7 @@ var CLSTAMP = "10590646";
               var r = Cr(e, n)[W];
               if (!e[or]) {
                 var i = Object.getPrototypeOf(e),
-                  o = new Set([].concat(E(e), E(i)));
+                  o = new Set([].concat(k(e), k(i)));
                 o.delete("constructor"), o.delete(W), w(i, or, o);
               }
               e[or].forEach(function (e) {
@@ -3489,7 +3493,7 @@ var CLSTAMP = "10590646";
                   m(e)
                     ? (function (e) {
                         var t = Object.keys(e);
-                        if (!k) return t;
+                        if (!E) return t;
                         var n = Object.getOwnPropertySymbols(e);
                         return n.length
                           ? [].concat(
@@ -3832,8 +3836,8 @@ var CLSTAMP = "10590646";
           );
         })(),
         xr = S("ObservableSet", jr),
-        kr = Object.create(null),
-        Er = "remove",
+        Er = Object.create(null),
+        kr = "remove",
         Pr = (function () {
           function e(e, t, n, r) {
             void 0 === t && (t = new Map()),
@@ -3968,7 +3972,7 @@ var CLSTAMP = "10590646";
             (t.defineProperty_ = function (e, t, n) {
               void 0 === n && (n = !1), this.keysAtom_;
               try {
-                kt();
+                Et();
                 var r = this.delete_(e);
                 if (!r) return r;
                 if (Qn(this)) {
@@ -3987,14 +3991,14 @@ var CLSTAMP = "10590646";
                 } else u(this.target_, e, t);
                 this.notifyPropertyAddition_(e, t.value);
               } finally {
-                Et();
+                kt();
               }
               return !0;
             }),
             (t.defineObservableProperty_ = function (e, t, n, r) {
               void 0 === r && (r = !1), this.keysAtom_;
               try {
-                kt();
+                Et();
                 var i = this.delete_(e);
                 if (!i) return i;
                 if (Qn(this)) {
@@ -4021,14 +4025,14 @@ var CLSTAMP = "10590646";
                 this.values_.set(e, c),
                   this.notifyPropertyAddition_(e, c.value_);
               } finally {
-                Et();
+                kt();
               }
               return !0;
             }),
             (t.defineComputedProperty_ = function (e, t, n) {
               void 0 === n && (n = !1), this.keysAtom_;
               try {
-                kt();
+                Et();
                 var r = this.delete_(e);
                 if (!r) return r;
                 if (Qn(this))
@@ -4056,7 +4060,7 @@ var CLSTAMP = "10590646";
                 this.values_.set(e, new et(t)),
                   this.notifyPropertyAddition_(e, void 0);
               } finally {
-                Et();
+                kt();
               }
               return !0;
             }),
@@ -4070,13 +4074,13 @@ var CLSTAMP = "10590646";
                 !er(this, {
                   object: this.proxy_ || this.target_,
                   name: e,
-                  type: Er,
+                  type: kr,
                 })
               )
                 return null;
               try {
                 var n;
-                kt();
+                Et();
                 var r,
                   i = tr(this),
                   o = this.values_.get(e),
@@ -4098,7 +4102,7 @@ var CLSTAMP = "10590646";
                   i)
                 ) {
                   var u = {
-                    type: Er,
+                    type: kr,
                     observableKind: "object",
                     object: this.proxy_ || this.target_,
                     debugObjectName: this.name_,
@@ -4108,7 +4112,7 @@ var CLSTAMP = "10590646";
                   0, i && rr(this, u);
                 }
               } finally {
-                Et();
+                kt();
               }
               return !0;
             }),
@@ -4140,7 +4144,7 @@ var CLSTAMP = "10590646";
                 this.keysAtom_.reportChanged();
             }),
             (t.ownKeys_ = function () {
-              return this.keysAtom_.reportObserved(), E(this.target_);
+              return this.keysAtom_.reportObserved(), k(this.target_);
             }),
             (t.keys_ = function () {
               return this.keysAtom_.reportObserved(), Object.keys(this.target_);
@@ -4171,8 +4175,8 @@ var CLSTAMP = "10590646";
       var Rr = S("ObservableObjectAdministration", Pr);
       function Tr(e) {
         return (
-          kr[e] ||
-          (kr[e] = {
+          Er[e] ||
+          (Er[e] = {
             get: function () {
               return this[W].getObservablePropValue_(e);
             },
@@ -4342,11 +4346,11 @@ var CLSTAMP = "10590646";
       function Yr(e) {
         var t = ht(),
           n = Xe(!0);
-        kt();
+        Et();
         try {
           return e();
         } finally {
-          Et(), $e(n), vt(t);
+          kt(), $e(n), vt(t);
         }
       }
       Object.entries(hr).forEach(function (e) {
@@ -5365,6 +5369,68 @@ var CLSTAMP = "10590646";
           d
         );
       })();
+    },
+    8493: (e, t, n) => {
+      "use strict";
+      var r = n(6540);
+      var i =
+          "function" == typeof Object.is
+            ? Object.is
+            : function (e, t) {
+                return (
+                  (e === t && (0 !== e || 1 / e == 1 / t)) || (e != e && t != t)
+                );
+              },
+        o = r.useState,
+        a = r.useEffect,
+        s = r.useLayoutEffect,
+        u = r.useDebugValue;
+      function c(e) {
+        var t = e.getSnapshot;
+        e = e.value;
+        try {
+          var n = t();
+          return !i(e, n);
+        } catch (e) {
+          return !0;
+        }
+      }
+      var l =
+        "undefined" == typeof window ||
+        void 0 === window.document ||
+        void 0 === window.document.createElement
+          ? function (e, t) {
+              return t();
+            }
+          : function (e, t) {
+              var n = t(),
+                r = o({ inst: { value: n, getSnapshot: t } }),
+                i = r[0].inst,
+                l = r[1];
+              return (
+                s(
+                  function () {
+                    (i.value = n), (i.getSnapshot = t), c(i) && l({ inst: i });
+                  },
+                  [e, n, t],
+                ),
+                a(
+                  function () {
+                    return (
+                      c(i) && l({ inst: i }),
+                      e(function () {
+                        c(i) && l({ inst: i });
+                      })
+                    );
+                  },
+                  [e],
+                ),
+                u(n),
+                n
+              );
+            };
+      t.useSyncExternalStore =
+        void 0 !== r.useSyncExternalStore ? r.useSyncExternalStore : l;
     },
   },
 ]); //# sourceMappingURL=file:///home/buildbot/buildslave/steamvr_rel_npm_vrwebui/build/public/runtime/resources/webinterface/dashboard/sourcemaps/libraries/libraries~0d3b9ff33.js.map

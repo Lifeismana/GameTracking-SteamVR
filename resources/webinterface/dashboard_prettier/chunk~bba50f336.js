@@ -1,4 +1,4 @@
-var CLSTAMP = "10590646";
+var CLSTAMP = "10624569";
 (self.webpackChunkvrwebui = self.webpackChunkvrwebui || []).push([
   [384],
   {
@@ -20,59 +20,68 @@ var CLSTAMP = "10590646";
           this.m_latchedPosition = null;
         }
         buildNode(e, t) {
+          var o, n;
           if (!e.currentPanel && !e.bInsideReparentedPanel)
             return [
               Object.assign(Object.assign({}, e), { bShouldAbort: !0 }),
               null,
             ];
-          let o = null;
+          let a = null;
           "object" == typeof this.props.location
-            ? (o = (0, r.PG)(this.props.location, { x: 0, y: 0 }))
+            ? (a = (0, r.PG)(this.props.location, { x: 0, y: 0 }))
             : "number" == typeof this.props.location &&
-              (o = (0, i.Lr)(this.props.location));
-          let n = this.createSgNode(t);
+              (a = (0, i.Lr)(this.props.location));
+          let _ = this.createSgNode(t);
           if (this.props.latched && null !== this.m_latchedPosition)
-            (n.properties["anchor-u"] = this.m_latchedPosition.u),
-              (n.properties["anchor-v"] = this.m_latchedPosition.v);
-          else if (o) {
-            const t = { u: 0.5 * o.x + 0.5, v: -0.5 * o.y + 0.5 },
-              r =
+            (_.properties["anchor-u"] = this.m_latchedPosition.u),
+              (_.properties["anchor-v"] = this.m_latchedPosition.v);
+          else if (a) {
+            const t = { u: 0.5 * a.x + 0.5, v: -0.5 * a.y + 0.5 },
+              o =
                 !e.currentPanel || e.currentPanel.props.overlay_key
                   ? t
                   : e.currentPanel.scaleLocalUVToGlobal(t);
-            (n.properties["anchor-u"] = r.u), (n.properties["anchor-v"] = r.v);
+            o &&
+              ((_.properties["anchor-u"] = o.u),
+              (_.properties["anchor-v"] = o.v));
           } else {
             if (!e.currentPanel)
               return [
                 Object.assign(Object.assign({}, e), { bShouldAbort: !0 }),
                 null,
               ];
-            const o = t.ownerDocument,
-              r = t.getBoundingClientRect(),
-              i = r.left + r.width / 2,
-              a = r.top + r.height / 2,
-              _ = e.currentPanel.m_Rect;
-            if (i < _.x || i > _.x + _.width || a < _.y || a > _.y + _.height)
+            const r = t.ownerDocument,
+              i = t.getBoundingClientRect(),
+              a = i.left + i.width / 2,
+              l = i.top + i.height / 2,
+              s = e.currentPanel.m_Rect;
+            if (a < s.x || a > s.x + s.width || l < s.y || l > s.y + s.height)
               return [
                 Object.assign(Object.assign({}, e), { bShouldAbort: !0 }),
                 null,
               ];
-            const l = o.defaultView.innerWidth,
-              s = o.defaultView.innerHeight;
-            if (!(s > 0 && l > 0))
+            const d =
+                null === (o = r.defaultView) || void 0 === o
+                  ? void 0
+                  : o.innerWidth,
+              u =
+                null === (n = r.defaultView) || void 0 === n
+                  ? void 0
+                  : n.innerHeight;
+            if (!(u && u > 0 && d && d > 0))
               return [
                 Object.assign(Object.assign({}, e), { bShouldAbort: !0 }),
                 null,
               ];
-            (n.properties["anchor-u"] = i / l),
-              (n.properties["anchor-v"] = a / s);
+            (_.properties["anchor-u"] = a / d),
+              (_.properties["anchor-v"] = l / u);
           }
           return (
             (this.m_latchedPosition = {
-              u: n.properties["anchor-u"],
-              v: n.properties["anchor-v"],
+              u: _.properties["anchor-u"],
+              v: _.properties["anchor-v"],
             }),
-            [e, n]
+            [e, _]
           );
         }
       }
@@ -147,7 +156,7 @@ var CLSTAMP = "10590646";
             (e[(e.RawAndUncalibrated = 2)] = "RawAndUncalibrated");
         })(a || (a = {}));
       let l = 0;
-      var s, d, u, c, p, S, m, g, D, I, R, y, B, h, C, F, v, M, f, P, A;
+      var s, d, u, c, p, S, m, g, D, R, I, B, y, h, C, F, v, M, f, P, A;
       !(function (e) {
         (e[(e.None = 0)] = "None"),
           (e[(e.Shown = 1)] = "Shown"),
@@ -225,7 +234,7 @@ var CLSTAMP = "10590646";
               "DriverRequestsApplicationPause"),
             (e[(e.DriverRequestsReducedRendering = 128)] =
               "DriverRequestsReducedRendering");
-        })(I || (I = {})),
+        })(R || (R = {})),
         (function (e) {
           (e[(e.BULK_DEFAULT = 0)] = "BULK_DEFAULT"),
             (e[(e.BULK_64K_DMA = 1)] = "BULK_64K_DMA"),
@@ -242,20 +251,20 @@ var CLSTAMP = "10590646";
             (e[(e.ISO_30FPS = 12)] = "ISO_30FPS"),
             (e[(e.ISO_15FPS = 13)] = "ISO_15FPS"),
             (e[(e.MAX_CAMERA_COMPAT_MODES = 14)] = "MAX_CAMERA_COMPAT_MODES");
-        })(R || (R = {})),
+        })(I || (I = {})),
         (function (e) {
           (e[(e.ECameraExposure_Unknown = 0)] = "ECameraExposure_Unknown"),
             (e[(e.ECameraExposure_Nominal = 1)] = "ECameraExposure_Nominal"),
             (e[(e.ECameraExposure_HighExposure = 2)] =
               "ECameraExposure_HighExposure");
-        })(y || (y = {})),
+        })(B || (B = {})),
         (function (e) {
           (e[(e.None = 0)] = "None"),
             (e[(e.ThisSteamVR = 1)] = "ThisSteamVR"),
             (e[(e.AnotherSteamVR = 2)] = "AnotherSteamVR"),
             (e[(e.AnotherRuntime = 3)] = "AnotherRuntime"),
             (e[(e.Error = -1)] = "Error");
-        })(B || (B = {})),
+        })(y || (y = {})),
         (function (e) {
           (e[(e.TrackedControllerRole_Invalid = 0)] =
             "TrackedControllerRole_Invalid"),
@@ -328,7 +337,7 @@ var CLSTAMP = "10590646";
         })(A || (A = {}));
     },
     4367: (e, t, o) => {
-      var n, r, i, a, _, l, s, d, u, c, p, S, m, g;
+      var n, r, i, a, _, l, s, d, u, c, p, S, m, g, D, R;
       o.d(t, { fD: () => n }),
         (function (e) {
           (e[(e.Invalid = 0)] = "Invalid"),
@@ -400,6 +409,8 @@ var CLSTAMP = "10590646";
             (e[(e.AllowCameraToggle_Bool = 1055)] = "AllowCameraToggle_Bool"),
             (e[(e.AllowLightSourceFrequency_Bool = 1056)] =
               "AllowLightSourceFrequency_Bool"),
+            (e[(e.IsDedicatedVRHeadset_Bool = 1058)] =
+              "IsDedicatedVRHeadset_Bool"),
             (e[(e.HasEyeTracker_Bool = 1060)] = "HasEyeTracker_Bool"),
             (e[(e.ReportsTimeSinceVSync_Bool = 2e3)] =
               "ReportsTimeSinceVSync_Bool"),
@@ -590,6 +601,8 @@ var CLSTAMP = "10590646";
               "DriverRequestedMuraFeather_OuterBottom_Int32"),
             (e[(e.Audio_SupportsDualSpeakerAndJackOutput_Bool = 2303)] =
               "Audio_SupportsDualSpeakerAndJackOutput_Bool"),
+            (e[(e.Hmd_ForceRoomViewOutsideChaperone_Bool = 2500)] =
+              "Hmd_ForceRoomViewOutsideChaperone_Bool"),
             (e[(e.AttachedDeviceId_String = 3e3)] = "AttachedDeviceId_String"),
             (e[(e.SupportedButtons_Uint64 = 3001)] = "SupportedButtons_Uint64"),
             (e[(e.Axis0Type_Int32 = 3002)] = "Axis0Type_Int32"),
@@ -716,23 +729,28 @@ var CLSTAMP = "10590646";
             (e[(e.Idle_Timeout = 4)] = "Idle_Timeout");
         })(_ || (_ = {})),
         (function (e) {
+          (e[(e.VRMouseButton_Left = 1)] = "VRMouseButton_Left"),
+            (e[(e.VRMouseButton_Right = 2)] = "VRMouseButton_Right"),
+            (e[(e.VRMouseButton_Middle = 4)] = "VRMouseButton_Middle");
+        })(l || (l = {})),
+        (function (e) {
           (e[(e.Notification_Shown = 600)] = "Notification_Shown"),
             (e[(e.Notification_Hidden = 601)] = "Notification_Hidden"),
             (e[(e.Notification_BeginInteraction = 602)] =
               "Notification_BeginInteraction"),
             (e[(e.Notification_Destroyed = 603)] = "Notification_Destroyed");
-        })(l || (l = {})),
+        })(s || (s = {})),
         (function (e) {
           (e[(e.TheaterFast = 0)] = "TheaterFast"),
             (e[(e.TheaterSlow = 1)] = "TheaterSlow");
-        })(s || (s = {})),
+        })(d || (d = {})),
         (function (e) {
           (e[(e.Constant = 0)] = "Constant"),
             (e[(e.Nearest = 1)] = "Nearest"),
             (e[(e.Linear = 2)] = "Linear"),
             (e[(e.SmoothStep = 3)] = "SmoothStep"),
             (e[(e.SmootherStep = 4)] = "SmootherStep");
-        })(d || (d = {})),
+        })(u || (u = {})),
         (function (e) {
           (e[(e.Invalid = 0)] = "Invalid"),
             (e[(e.RecenterCountdown = 1)] = "RecenterCountdown"),
@@ -740,13 +758,13 @@ var CLSTAMP = "10590646";
             (e[(e.RoomSetupFloor = 3)] = "RoomSetupFloor"),
             (e[(e.ClearRoomSetup = 4)] = "ClearRoomSetup"),
             (e[(e.RoomSetupFull = 5)] = "RoomSetupFull");
-        })(u || (u = {})),
+        })(c || (c = {})),
         (function (e) {
           (e[(e.Near = 0)] = "Near"),
             (e[(e.Middle = 1)] = "Middle"),
             (e[(e.Far = 2)] = "Far"),
             (e[(e.VRGamepadUI = 3)] = "VRGamepadUI");
-        })(c || (c = {})),
+        })(p || (p = {})),
         (function (e) {
           (e[(e.__LocalSteamVR = 0)] = "__LocalSteamVR"),
             (e[(e.__LocalSteam = 1)] = "__LocalSteam"),
@@ -755,7 +773,7 @@ var CLSTAMP = "10590646";
             (e[(e.MutualLocal = 4)] = "MutualLocal"),
             (e[(e.MutualSteamVR = 5)] = "MutualSteamVR"),
             (e[(e.MutualSteam = 6)] = "MutualSteam");
-        })(p || (p = {})),
+        })(S || (S = {})),
         (function (e) {
           (e[(e.Dashboard = 1)] = "Dashboard"),
             (e[(e.LeftHand = 2)] = "LeftHand"),
@@ -763,23 +781,24 @@ var CLSTAMP = "10590646";
             (e[(e.World = 4)] = "World"),
             (e[(e.Theater = 5)] = "Theater"),
             (e[(e.Boot = 6)] = "Boot");
-        })(S || (S = {})),
+        })(m || (m = {})),
         (function (e) {
           (e[(e.Invalid = 0)] = "Invalid"),
             (e[(e.System = 1)] = "System"),
             (e[(e.SteamInput = 2)] = "SteamInput"),
             (e[(e.VRInput = 3)] = "VRInput");
-        })(m || (m = {})),
+        })(g || (g = {})),
+        (function (e) {
+          (e[(e.Invalid = 0)] = "Invalid"),
+            (e[(e.SceneApp = 1)] = "SceneApp"),
+            (e[(e.Panel = 2)] = "Panel");
+        })(D || (D = {})),
         (function (e) {
           (e[(e.None = 0)] = "None"),
             (e[(e.ThirdPartyClient = 1)] = "ThirdPartyClient"),
             (e[(e.SteamVRClientUnified = 2)] = "SteamVRClientUnified"),
             (e[(e.SteamVRClientLegacyDual = 3)] = "SteamVRClientLegacyDual");
-        })(g || (g = {}));
-    },
-    3606: (e, t, o) => {
-      o.d(t, { F2: () => n });
-      const n = "/settings/steamvr/showAdvancedSettings";
+        })(R || (R = {}));
     },
   },
 ]); //# sourceMappingURL=file:///home/buildbot/buildslave/steamvr_rel_npm_vrwebui/build/public/runtime/resources/webinterface/dashboard/sourcemaps/chunk~bba50f336.js.map
