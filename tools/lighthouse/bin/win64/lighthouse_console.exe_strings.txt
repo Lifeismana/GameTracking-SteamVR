@@ -1144,7 +1144,7 @@ QueryPerformanceCounter
 QueryPerformanceFrequency
 R1h58
 RPCRT4.dll
-RSDSh
+RSDS
 R\vpo
 Radio Version: %i\n
 RaiseException

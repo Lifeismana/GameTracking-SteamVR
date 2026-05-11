@@ -198,7 +198,7 @@ QueryPerformanceCounter
 QueryPerformanceFrequency
 QueryServiceConfigW
 RPCRT4.dll
-RSDS;{
+RSDS|
 RaiseException
 RegCloseKey
 RegEnumValueW

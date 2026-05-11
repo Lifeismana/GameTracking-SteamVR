@@ -624,8 +624,8 @@
 /vrlink_stream_packet_time
 126.0.0-HEAD.3134+g1967f4c+chromium-126.0.6478.183
 127.0.0.1
+15:18:01
 1e+9999
-22:31:32
 4ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/
 5I)7
 7^d[L
@@ -738,7 +738,6 @@ Another app was already launching (117)
 Another copy of this program is already running on this machine. Only one instance at a time is allowed.
 App info manager init failed (114)
 AppGetSettings
-Apr 29 2026
 ArrayBuffer
 Assert( %s ) %s(%d)\n
 Attempt to init shared state %s twice
@@ -1315,6 +1314,7 @@ MSVCP140.dll
 Mailbox %s received message %s, which it didn't have a handler for\n
 MainThrd
 MapViewOfFile
+May  1 2026
 MessageBoxA
 Mirroring from %s to %ls\n
 Mirroring is same as source %s, not mirroring\n
@@ -1376,7 +1376,7 @@ QueryPerformanceFrequency
 QuitSceneApp
 QuitSteamVR
 RPCRT4.dll
-RSDS
+RSDS1
 RaiseException
 ReadFile
 ReadFile failed on %s after event was signaled because %s\n

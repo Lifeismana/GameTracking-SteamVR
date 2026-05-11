@@ -293,6 +293,7 @@
 4g%6
 700PP
 700WP
+9JlJ
 : exception thrown in JSON library
 :AM:am:PM:pm
 :Jan:January:Feb:February:Mar:March:Apr:April:May:May:Jun:June:Jul:July:Aug:August:Sep:September:Oct:October:Nov:November:Dec:December
@@ -516,7 +517,7 @@ PeekNamedPipe
 Pex?0
 QueryDepthSList
 QueryPerformanceCounter
-RSDS
+RSDS\
 RaiseException
 ReadConsoleW
 ReadFile

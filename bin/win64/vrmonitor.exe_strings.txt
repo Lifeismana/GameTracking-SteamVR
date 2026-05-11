@@ -731,6 +731,7 @@ $\t?contains@QRectF@@QEBA_NAEBVQPointF@@@Z
 1!?widget@QTabWidget@@QEBAPEAVQWidget@@H@Z
 100%
 1000
+15:18:01
 1DoAcquireData()
 1DoInit()
 1DoParseString( const QString & )
@@ -1159,7 +1160,6 @@ $\t?contains@QRectF@@QEBA_NAEBVQPointF@@@Z
 1setDataScaleType(QCPAxis::ScaleType)
 1setGradient(QCPColorGradient)
 1updateStyle()
-22:31:32
 2DoInit()
 2DoShutdown()
 2PlaybackVolumeGainStatus( bool )
@@ -3047,7 +3047,6 @@ AppUnpluggedIndexControllerActiveSeconds
 Application GPU (post)
 Application GPU (pre)
 Application Interval
-Apr 29 2026
 Area
 Args
 Arial
@@ -4826,6 +4825,7 @@ Manufacturer:
 Manufacturer: 
 Manufacturer: %1\n
 MapViewOfFile
+May  1 2026
 MbP?
 MenuAction_AboutQt
 MenuAction_About_vrmonitor
@@ -5952,7 +5952,7 @@ R?scaledSize@QMovie@@QEAA?AVQSize@@XZ
 R?screens@QGuiApplication@@SA?AV?$QList@PEAVQScreen@@@@XZ
 REFRESH
 RPCRT4.dll
-RSDS-
+RSDS
 RSSI: %1\n
 R\v?find@QPlainTextEdit@@QEAA_NAEBVQString@@V?$QFlags@W4FindFlag@QTextDocument@@@@@Z
 Radio

@@ -2222,4 +2222,3 @@ zDUUUUUU
 zero but the optimization has not been terminated. 
 { this=%p, user_state=%p, state=%p, size=%d, constant=%d, index=%d, state_offset=%d, delta_offset=%d }
 {residual block; index=%d}
-|7Cy
