@@ -1,4 +1,4 @@
-var CLSTAMP = "10630260";
+var CLSTAMP = "10715262";
 (self.webpackChunkvrwebui = self.webpackChunkvrwebui || []).push([
   [198],
   {
@@ -263,7 +263,7 @@ var CLSTAMP = "10630260";
             C = { x: 0, y: 0 };
           C =
             "object" == typeof this.props.origin
-              ? (0, d.PG)(this.props.origin, { x: 0, y: 0 })
+              ? (0, d.PG)(this.props.origin)
               : y(this.props.origin);
           const x = this.props.overlay_key,
             k = (0, m.w5)();
@@ -473,13 +473,13 @@ var CLSTAMP = "10630260";
             );
         }
         internalRender() {
-          var e;
-          let t, i, p;
+          var e, t, i;
+          let p, a, l, h;
           this.props.transform
-            ? ((t = (0, n.j_)(this.props.transform.translation)),
-              (i = this.props.transform.rotation),
-              (p = this.props.transform.scale))
-            : ((t = (0, n.XI)(this.props.translation)
+            ? ((p = (0, n.j_)(this.props.transform.translation)),
+              (a = this.props.transform.rotation),
+              (l = this.props.transform.scale))
+            : ((p = (0, n.XI)(this.props.translation)
                 ? null === (e = (0, n.UM)(this.props.translation)) ||
                   void 0 === e
                   ? void 0
@@ -487,7 +487,7 @@ var CLSTAMP = "10630260";
                 : (0, n.j_)(
                     (0, n.Wi)(this.props.translation, { x: 0, y: 0, z: 0 }),
                   )),
-              (i =
+              (a =
                 this.props.rotation && "w" in this.props.rotation
                   ? this.props.rotation
                   : (0, o.Fb)(
@@ -496,28 +496,38 @@ var CLSTAMP = "10630260";
                         Math.PI / 180,
                       ),
                     )),
-              (p =
+              (l =
                 "number" == typeof this.props.scale
                   ? {
                       x: this.props.scale,
                       y: this.props.scale,
                       z: this.props.scale,
                     }
-                  : (0, n.Wi)(this.props.scale, { x: 1, y: 1, z: 1 })));
-          let a = (0, n.hi)(i),
-            l = (0, n.j_)(p);
+                  : (0, n.Wi)(this.props.scale, { x: 1, y: 1, z: 1 }))),
+            null !=
+              (null === (t = this.props) || void 0 === t
+                ? void 0
+                : t.parent_origin) &&
+              (h =
+                r[
+                  null === (i = this.props) || void 0 === i
+                    ? void 0
+                    : i.parent_origin
+                ]);
+          let d = (0, n.hi)(a),
+            u = (0, n.j_)(l);
           return s.createElement(
             "vsg-transform",
             {
-              translation: t,
-              rotation: a,
-              scale: l,
+              translation: p,
+              rotation: d,
+              scale: u,
               "curvature-pitch": this.props.curvature_pitch,
               "invert-parent-panel-pitch": this.props.invert_parent_panel_pitch,
               "ignore-parent-scale": this.props.ignore_parent_scale,
               "transform-path": this.props.transform_path,
               "parent-path": this.props.parent_path,
-              "parent-origin": r[this.props.parent_origin],
+              "parent-origin": h,
               "parent-id": this.props.parent_id,
               "frame-resize-scale-factor": this.props.frame_resize_scale_factor,
             },

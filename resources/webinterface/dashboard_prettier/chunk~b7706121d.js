@@ -1,12 +1,13 @@
-var CLSTAMP = "10630260";
+var CLSTAMP = "10715262";
 (self.webpackChunkvrwebui = self.webpackChunkvrwebui || []).push([
   [148],
   {
-    8472: (e, t, r) => {
-      var s = r(1635),
-        o = r(3236),
-        i = r(3496);
-      class n extends i._J {
+    8472: (e, t, s) => {
+      var r = s(1635),
+        o = s(3236),
+        i = s(3496),
+        n = s(4367);
+      class a extends i._J {
         constructor(e) {
           super(e), super.setBuildNodeOverride(this.buildNode);
         }
@@ -14,21 +15,23 @@ var CLSTAMP = "10630260";
           return "audiosource";
         }
         buildNode(e, t) {
-          const r = this.createSgNode(t);
+          const s = this.createSgNode(t);
           return (
-            (r.properties.name = this.props.name),
-            (r.properties.channel = this.props.channel),
-            (r.properties.debug = this.props.debug),
-            [e, r]
+            (s.properties.name = this.props.name),
+            (s.properties.channel = this.props.channel),
+            (s.properties.debug = this.props.debug),
+            (s.properties["dock-location"] =
+              this.props.dockLocation || n.yW.Dashboard),
+            [e, s]
           );
         }
       }
-      (0, s.Cg)([o.o], n.prototype, "buildNode", null);
+      (0, r.Cg)([o.o], a.prototype, "buildNode", null);
     },
-    6417: (e, t, r) => {
-      var s = r(1635),
-        o = r(3496),
-        i = r(3236);
+    6417: (e, t, s) => {
+      var r = s(1635),
+        o = s(3496),
+        i = s(3236);
       class n extends o._J {
         constructor(e) {
           super(e), super.setBuildNodeOverride(this.buildNode);
@@ -37,37 +40,80 @@ var CLSTAMP = "10630260";
           return "dashboardtransform";
         }
         buildNode(e, t) {
-          var r, s;
+          var s, r;
           const o = this.createSgNode(t);
           return (
             (o.properties.continuous_relatch =
-              null !== (r = this.props.bContinuousRelatch) &&
-              void 0 !== r &&
-              r),
-            (o.properties.free_dashboard_transform =
-              null !== (s = this.props.bFreeDashboardTransform) &&
+              null !== (s = this.props.bContinuousRelatch) &&
               void 0 !== s &&
               s),
+            (o.properties.free_dashboard_transform =
+              null !== (r = this.props.bFreeDashboardTransform) &&
+              void 0 !== r &&
+              r),
             [e, o]
           );
         }
       }
-      (0, s.Cg)([i.o], n.prototype, "buildNode", null);
+      (0, r.Cg)([i.o], n.prototype, "buildNode", null);
     },
-    2303: (e, t, r) => {
-      r(6540);
-      var s = r(3496);
-      s._J;
+    1321: (e, t, s) => {
+      var r = s(1635),
+        o = s(3496),
+        i = s(3236);
+      class n extends o._J {
+        constructor(e) {
+          super(e), super.setBuildNodeOverride(this.buildNode);
+        }
+        getNodeType() {
+          return "grab-scale";
+        }
+        buildNode(e, t) {
+          var s, r, o, i, n, a;
+          const p = this.createSgNode(t);
+          return (
+            (p.properties["event-panel-sgid"] =
+              null === (s = this.props) || void 0 === s
+                ? void 0
+                : s.event_panel_sgid),
+            (p.properties["is-active"] =
+              null === (r = this.props) || void 0 === r ? void 0 : r.is_active),
+            (p.properties["base-distance"] =
+              null === (o = this.props) || void 0 === o
+                ? void 0
+                : o.base_distance),
+            (p.properties["scroll-speed"] =
+              null === (i = this.props) || void 0 === i
+                ? void 0
+                : i.scroll_speed),
+            (p.properties["min-distance"] =
+              null === (n = this.props) || void 0 === n
+                ? void 0
+                : n.min_distance),
+            (p.properties["max-distance"] =
+              null === (a = this.props) || void 0 === a
+                ? void 0
+                : a.max_distance),
+            [e, p]
+          );
+        }
+      }
+      (0, r.Cg)([i.o], n.prototype, "buildNode", null);
     },
-    5227: (e, t, r) => {
-      r(6540);
-      var s = r(3496);
-      s._J;
+    2303: (e, t, s) => {
+      s(6540);
+      var r = s(3496);
+      r._J;
     },
-    6847: (e, t, r) => {
-      var s = r(1635),
-        o = r(3496),
-        i = r(3236);
+    5227: (e, t, s) => {
+      s(6540);
+      var r = s(3496);
+      r._J;
+    },
+    6847: (e, t, s) => {
+      var r = s(1635),
+        o = s(3496),
+        i = s(3236);
       class n extends o._J {
         constructor(e) {
           super(e), super.setBuildNodeOverride(this.buildNode);
@@ -76,38 +122,38 @@ var CLSTAMP = "10630260";
           return "ltcquad";
         }
         buildNode(e, t) {
-          const r = this.createSgNode(t);
+          const s = this.createSgNode(t);
           if (
-            ((r.properties.width = this.props.width),
-            (r.properties.height = this.props.height),
-            (r.properties["target-id"] = this.props.target_id),
-            (r.properties["near-z"] = this.props["near-z"]),
-            (r.properties["far-z"] = this.props["far-z"]),
-            (r.properties.debug = this.props.debug),
+            ((s.properties.width = this.props.width),
+            (s.properties.height = this.props.height),
+            (s.properties["target-id"] = this.props.target_id),
+            (s.properties["near-z"] = this.props["near-z"]),
+            (s.properties["far-z"] = this.props["far-z"]),
+            (s.properties.debug = this.props.debug),
             this.props.diffuse)
           ) {
             let e = this.props.diffuse;
-            (r.properties["diffuse-resolution"] = e.resolution),
-              (r.properties["diffuse-size"] = e.size);
+            (s.properties["diffuse-resolution"] = e.resolution),
+              (s.properties["diffuse-size"] = e.size);
           }
           if (this.props.specular) {
             let e = this.props.specular;
-            if ("string" == typeof e.color) r.properties.color = e.color;
+            if ("string" == typeof e.color) s.properties.color = e.color;
             else {
               let t = (0, o.RH)(e.color, { r: 0, g: 0, b: 0 });
-              r.properties.color = [t.r, t.g, t.b];
+              s.properties.color = [t.r, t.g, t.b];
             }
           }
-          return [e, r];
+          return [e, s];
         }
       }
-      (0, s.Cg)([i.o], n.prototype, "buildNode", null);
+      (0, r.Cg)([i.o], n.prototype, "buildNode", null);
     },
-    6186: (e, t, r) => {
-      var s = r(1635),
-        o = r(3496),
-        i = r(3236),
-        n = r(5723);
+    6186: (e, t, s) => {
+      var r = s(1635),
+        o = s(3496),
+        i = s(3236),
+        n = s(5723);
       class a extends o._J {
         constructor(e) {
           super(e), super.setBuildNodeOverride(this.buildNode);
@@ -119,7 +165,7 @@ var CLSTAMP = "10630260";
           return [e, this.createSgNode(t)];
         }
       }
-      (0, s.Cg)([i.o], a.prototype, "buildNode", null);
+      (0, r.Cg)([i.o], a.prototype, "buildNode", null);
       class p extends o._J {
         constructor(e) {
           super(e), super.setBuildNodeOverride(this.buildNode);
@@ -128,19 +174,19 @@ var CLSTAMP = "10630260";
           return "mountedscenegraph";
         }
         buildNode(e, t) {
-          const r = this.createSgNode(t);
+          const s = this.createSgNode(t);
           return (
-            (r.properties.mountable_id = (0, n.bl)(this.props.mountedId)),
-            [e, r]
+            (s.properties.mountable_id = (0, n.bl)(this.props.mountedId)),
+            [e, s]
           );
         }
       }
-      (0, s.Cg)([i.o], p.prototype, "buildNode", null);
+      (0, r.Cg)([i.o], p.prototype, "buildNode", null);
     },
-    5830: (e, t, r) => {
-      var s = r(1635),
-        o = r(3496),
-        i = r(3236);
+    5830: (e, t, s) => {
+      var r = s(1635),
+        o = s(3496),
+        i = s(3236);
       class n extends o._J {
         constructor(e) {
           super(e), super.setBuildNodeOverride(this.buildNode);
@@ -149,21 +195,21 @@ var CLSTAMP = "10630260";
           return "opacity";
         }
         buildNode(e, t) {
-          const r = this.createSgNode(t);
-          return (r.properties.opacity = (0, o.kJ)(this.props.value)), [e, r];
+          const s = this.createSgNode(t);
+          return (s.properties.opacity = (0, o.kJ)(this.props.value)), [e, s];
         }
       }
-      (0, s.Cg)([i.o], n.prototype, "buildNode", null);
+      (0, r.Cg)([i.o], n.prototype, "buildNode", null);
     },
-    7350: (e, t, r) => {
-      var s,
-        o = r(1635),
-        i = r(3496),
-        n = r(3236),
-        a = r(5723);
+    7350: (e, t, s) => {
+      var r,
+        o = s(1635),
+        i = s(3496),
+        n = s(3236),
+        a = s(5723);
       !(function (e) {
         (e[(e.None = 0)] = "None"), (e[(e.Backface = 1)] = "Backface");
-      })(s || (s = {}));
+      })(r || (r = {}));
       class p extends i._J {
         constructor(e) {
           super(e), super.setBuildNodeOverride(this.buildNode);
@@ -172,39 +218,74 @@ var CLSTAMP = "10630260";
           return "rendermodel";
         }
         buildNode(e, t) {
-          const r = this.createSgNode(t);
+          const s = this.createSgNode(t);
           if (
-            ((r.properties.source = this.props.source),
-            (r.properties["texture-id"] = (0, a.bl)(this.props["texture-id"])),
-            (r.properties["input-path"] = this.props["input-path"]),
+            ((s.properties.source = this.props.source),
+            (s.properties["texture-id"] = (0, a.bl)(this.props["texture-id"])),
+            (s.properties["input-path"] = this.props["input-path"]),
             this.props.fresnel)
           ) {
             let e = this.props.fresnel;
-            if ("string" == typeof e.color) r.properties.color = e.color;
+            if ("string" == typeof e.color) s.properties.color = e.color;
             else {
-              let t = (0, i.RH)(e.color, { r: 0, g: 0, b: 0 });
-              r.properties.color = [t.r, t.g, t.b];
+              let t = (0, i.RH)(null == e ? void 0 : e.color, {
+                r: 0,
+                g: 0,
+                b: 0,
+              });
+              s.properties.color = [t.r, t.g, t.b];
             }
-            (r.properties.opacity = e.opacity ? e.opacity : 1),
-              (r.properties.strength = e.strength ? e.strength : 1);
+            (s.properties.opacity = e.opacity ? e.opacity : 1),
+              (s.properties.strength = e.strength ? e.strength : 1);
           }
           return (
-            (r.properties.wireframe = this.props.wireframe),
-            (r.properties.solid = this.props.solid),
-            (r.properties.culling = this.props.culling),
-            (r.properties.stencil_mask = this.props.stencil_mask),
-            (r.properties["no-depth-write"] = this.props["no-depth-write"]),
-            (r.properties["no-depth-test"] = this.props["no-depth-test"]),
-            [e, r]
+            (s.properties.wireframe = this.props.wireframe),
+            (s.properties.solid = this.props.solid),
+            (s.properties.culling = this.props.culling),
+            (s.properties.stencil_mask = this.props.stencil_mask),
+            (s.properties["no-depth-write"] = this.props["no-depth-write"]),
+            (s.properties["no-depth-test"] = this.props["no-depth-test"]),
+            [e, s]
           );
         }
       }
       (0, o.Cg)([n.o], p.prototype, "buildNode", null);
+      class l extends i._J {
+        constructor(e) {
+          super(e), super.setBuildNodeOverride(this.buildNode);
+        }
+        getNodeType() {
+          return "rendermodel-component-overrides";
+        }
+        buildNode(e, t) {
+          const {
+              action_name: s,
+              throbbing: r,
+              throbColor: o = "#1a9fff",
+              throbPeriod: i = 1.25,
+              throbContrast: n = 2,
+              throbMinBlend: a = 0,
+              throbMaxBlend: p = 1,
+            } = this.props,
+            l = this.createSgNode(t);
+          return (
+            (l.properties["action-name"] = s),
+            (l.properties.throbbing = r),
+            (l.properties["throb-color"] = o),
+            (l.properties["throb-period"] = i),
+            (l.properties["throb-contrast"] = n),
+            (l.properties["throb-min-blend"] = a),
+            (l.properties["throb-max-blend"] = p),
+            [e, l]
+          );
+        }
+      }
+      (0, o.Cg)([n.o], l.prototype, "buildNode", null);
     },
-    5459: (e, t, r) => {
-      var s = r(1635),
-        o = r(3496),
-        i = r(3236);
+    5459: (e, t, s) => {
+      var r = s(1635),
+        o = s(3496),
+        i = s(3236);
       class n extends o._J {
         constructor(e) {
           super(e), super.setBuildNodeOverride(this.buildNode);
@@ -213,25 +294,25 @@ var CLSTAMP = "10630260";
           return "reparent-to-panel";
         }
         buildNode(e, t) {
-          const r = this.createSgNode(t),
-            s = Object.assign(Object.assign({}, e), {
+          const s = this.createSgNode(t),
+            r = Object.assign(Object.assign({}, e), {
               bInsideReparentedPanel: !0,
-              currentPanel: null,
+              currentPanel: void 0,
             });
           return (
             this.props.parent_overlay_key &&
-              (r.properties["parent-overlay-key"] =
+              (s.properties["parent-overlay-key"] =
                 this.props.parent_overlay_key),
-            [s, r]
+            [r, s]
           );
         }
       }
-      (0, s.Cg)([i.o], n.prototype, "buildNode", null);
+      (0, r.Cg)([i.o], n.prototype, "buildNode", null);
     },
-    8715: (e, t, r) => {
-      var s = r(1635),
-        o = r(3496),
-        i = r(3236);
+    8715: (e, t, s) => {
+      var r = s(1635),
+        o = s(3496),
+        i = s(3236);
       class n extends o._J {
         constructor(e) {
           super(e), super.setBuildNodeOverride(this.buildNode);
@@ -240,69 +321,69 @@ var CLSTAMP = "10630260";
           return "resize-handle";
         }
         buildNode(e, t) {
-          const r = this.createSgNode(t);
+          const s = this.createSgNode(t);
           return (
-            (r.properties["target-id"] = this.props.target_id),
-            (r.properties["is-active"] = this.props.is_active),
-            [e, r]
+            (s.properties["target-id"] = this.props.target_id),
+            (s.properties["is-active"] = this.props.is_active),
+            [e, s]
           );
         }
       }
-      (0, s.Cg)([i.o], n.prototype, "buildNode", null);
+      (0, r.Cg)([i.o], n.prototype, "buildNode", null);
     },
-    5723: (e, t, r) => {
-      r.d(t, {
+    5723: (e, t, s) => {
+      s.d(t, {
         Lx: () => N,
         Oe: () => C,
         Tu: () => u,
         X4: () => d,
-        bl: () => k,
-        my: () => O,
-        w5: () => w,
+        bl: () => w,
+        my: () => T,
+        w5: () => k,
       });
-      var s = r(1635),
-        o = r(2824);
+      var r = s(1635),
+        o = s(2824);
       function i(e, t) {
-        let r = e.getAttribute(t);
-        if (r && r.length > 0) {
-          if ("undefined" == r) return;
+        let s = e.getAttribute(t);
+        if (s && s.length > 0) {
+          if ("undefined" == s) return;
           let e = [];
-          for (let t of r.split(" ")) 0 != t.length && e.push(parseFloat(t));
+          for (let t of s.split(" ")) 0 != t.length && e.push(parseFloat(t));
           if (e.length > 0) return e;
         }
       }
       function n(e, t) {
-        let r = e.getAttribute(t);
-        if (r && r.length > 0) return parseFloat(r);
+        let s = e.getAttribute(t);
+        if (s && s.length > 0) return parseFloat(s);
       }
       function a(e, t) {
-        let r = e.getAttribute(t);
-        if (r && r.length > 0) return parseInt(r);
+        let s = e.getAttribute(t);
+        if (s && s.length > 0) return parseInt(s);
       }
       function p(e, t) {
-        let r = e.getAttribute(t);
-        if (r && r.length > 0)
+        let s = e.getAttribute(t);
+        if (s && s.length > 0)
           return (
-            "true" == r ||
-            (r.length > 0 && 0 != parseInt(r) && !isNaN(parseInt(r)))
+            "true" == s ||
+            (s.length > 0 && 0 != parseInt(s) && !isNaN(parseInt(s)))
           );
       }
       function l(e, t) {
-        let r = e.getAttribute(t);
-        if (r && r.length > 0) return r;
+        let s = e.getAttribute(t);
+        if (s && s.length > 0) return s;
       }
       function c(e, t) {
-        return k(l(e, t));
+        return w(l(e, t));
       }
       function u(e, t) {
-        var r;
-        let s = { type: e, properties: {} };
+        var s;
+        let r = { type: e, properties: {} };
         return (
           t.id &&
-            (s.properties.id =
-              null !== (r = k(t.id)) && void 0 !== r ? r : void 0),
-          (s.properties.sgid = a(t, "sgid")),
-          s
+            (r.properties.id =
+              null !== (s = w(t.id)) && void 0 !== s ? s : void 0),
+          (r.properties.sgid = a(t, "sgid")),
+          r
         );
       }
       function d() {
@@ -311,10 +392,10 @@ var CLSTAMP = "10630260";
           : VRHTML.VROverlay.ThisOverlayHandle();
       }
       function h(e, t) {
-        let [r, s] = (function (e, t) {
-            let r = t.buildNode;
-            if (r) return r(e, t);
-            let s = Object.assign({}, e),
+        let [s, r] = (function (e, t) {
+            let s = t.buildNode;
+            if (s) return s(e, t);
+            let r = Object.assign({}, e),
               o = null;
             switch (t.nodeName.toUpperCase()) {
               case "VSG-TRANSFORM":
@@ -502,22 +583,23 @@ var CLSTAMP = "10630260";
                   (o.properties["reset-on-recenter"] = p(
                     t,
                     "reset-on-recenter",
-                  ));
+                  )),
+                  (o.properties["event-panel-sgid"] = a(t, "event-panel-sgid"));
             }
-            return [s, o];
+            return [r, o];
           })(e, t),
           o = [];
         for (let e = 0; e < t.children.length; e++) {
-          let s = t.children.item(e);
-          if (s.children) {
-            let e = h(r, s);
+          let r = t.children.item(e);
+          if (r.children) {
+            let e = h(s, r);
             e && (o = o.concat(e));
           }
         }
-        return r.bShouldAbort
+        return s.bShouldAbort
           ? null
-          : s
-            ? (o.length > 0 && (s.children = o), [s])
+          : r
+            ? (o.length > 0 && (r.children = o), [r])
             : o.length > 0
               ? 1 == o.length
                 ? o
@@ -526,29 +608,29 @@ var CLSTAMP = "10630260";
       }
       let g,
         m,
-        S,
-        f,
         b,
+        f,
+        S,
         v,
-        y = [],
-        _ = null,
+        _ = [],
+        y = null,
         R = !0;
-      function C(e, t, r) {
+      function C(e, t, s) {
         (m = e),
-          (S = t),
-          (f = r),
+          (b = t),
+          (f = s),
           console.log("Setting owning overlay key to " + e);
       }
-      function k(e) {
+      function w(e) {
         return e
           ? (function (e) {
               return e && e.includes("::");
             })(e)
             ? e
-            : w() + "::" + e
+            : k() + "::" + e
           : null;
       }
-      function w() {
+      function k() {
         var e;
         return null !==
           (e =
@@ -559,19 +641,19 @@ var CLSTAMP = "10630260";
           : m;
       }
       function N(e) {
-        y.push(e), O();
+        _.push(e), T();
       }
-      function O() {
-        _ ||
-          (_ = window.setTimeout(
+      function T() {
+        y ||
+          (y = window.setTimeout(
             () =>
-              (0, s.sH)(this, void 0, void 0, function* () {
+              (0, r.sH)(this, void 0, void 0, function* () {
                 let e = document.body;
-                S && (e = S);
+                b && (e = b);
                 let t = {
                   type: "root",
                   rootproperties: {
-                    relatchDashboardTransform: b,
+                    relatchDashboardTransform: S,
                     allowDismissOnClick: R,
                     sceneColorCorrection: v,
                   },
@@ -588,25 +670,25 @@ var CLSTAMP = "10630260";
                   (console.log("Initializing sg_mailbox"),
                   (g = new o._n()),
                   yield g.Init("sg_mailbox", f));
-                let r = {
+                let s = {
                   type: "update_scene_graph",
-                  owning_overlay_key: w(),
+                  owning_overlay_key: k(),
                   scene_graph: t,
-                  retired_sgids: y,
+                  retired_sgids: _,
                 };
-                g.SendMessage("vrcompositor_systemlayer", r),
-                  (_ = null),
-                  (y = []),
-                  (b = !1);
+                g.SendMessage("vrcompositor_systemlayer", s),
+                  (y = null),
+                  (_ = []),
+                  (S = !1);
               }),
             0,
           ));
       }
     },
-    1230: (e, t, r) => {
-      var s = r(1635),
-        o = r(3496),
-        i = r(3236);
+    1230: (e, t, s) => {
+      var r = s(1635),
+        o = s(3496),
+        i = s(3236);
       class n extends o._J {
         constructor(e) {
           super(e), super.setBuildNodeOverride(this.buildNode);
@@ -617,45 +699,211 @@ var CLSTAMP = "10630260";
             : "tint";
         }
         buildNode(e, t) {
-          const r = this.createSgNode(t);
+          const s = this.createSgNode(t);
           return (
             this.props.color
               ? "string" == typeof this.props.color
-                ? (r.properties.color = this.props.color)
+                ? (s.properties.color = this.props.color)
                 : Array.isArray(this.props.color)
                   ? (this.props.color.length > 0 &&
                     "string" == typeof this.props.color[0]
-                      ? (r.properties.color =
+                      ? (s.properties.color =
                           this.props.color.length > 1
                             ? this.props.color
                             : this.props.color[0])
-                      : (r.properties.color = this.props.color
+                      : (s.properties.color = this.props.color
                           .map((e) => [e.r, e.g, e.b])
                           .reduce((e, t) => e.concat(t), [])),
-                    (r.properties["animation-seconds"] =
+                    (s.properties["animation-seconds"] =
                       this.props.animationSeconds))
-                  : (r.properties.color = [
+                  : (s.properties.color = [
                       this.props.color.r,
                       this.props.color.g,
                       this.props.color.b,
                     ])
-              : (r.properties.color = [1, 1, 1]),
-            [e, r]
+              : (s.properties.color = [1, 1, 1]),
+            [e, s]
           );
         }
       }
-      (0, s.Cg)([i.o], n.prototype, "buildNode", null);
+      (0, r.Cg)([i.o], n.prototype, "buildNode", null);
     },
-    3389: (e, t, r) => {
-      r(2824);
+    119: (e, t, s) => {
+      var r = s(1635),
+        o = s(1651),
+        i = s(2824),
+        n = s(776),
+        a = s(3236),
+        p = s(5723);
+      const l = new n.wd("SGQueryService");
+      class c {
+        constructor() {
+          (this.m_mailbox = new i._n()),
+            (this.m_mapPanelHeightSubscriptions = new Map()),
+            (this.m_setPanelSubscriptionsToAdd = new Set()),
+            (this.m_setPanelSubscriptionsToRemove = new Set()),
+            (this.m_bHasPendingSubscriptionUpdates = !1),
+            (this.m_bInitializedPanelSubscriptions = !1),
+            this.m_mailbox.Init("sgqueryservice").then(() => {
+              this.m_mailbox.RegisterHandler(
+                "panel_height_update",
+                this.OnPanelHeightUpdate,
+              );
+            });
+        }
+        static getInstance() {
+          return (
+            c.instance ||
+              ((c.instance = new c()), (window.SGQueryService = c.instance)),
+            c.instance
+          );
+        }
+        SubscribeToPanelHeight(e, t) {
+          e = (0, p.bl)(e);
+          let s = this.m_mapPanelHeightSubscriptions.get(e);
+          s ||
+            ((s = { m_Callbacks: new o.l(), m_lastMeasurement: void 0 }),
+            this.m_mapPanelHeightSubscriptions.set(e, s)),
+            0 == s.m_Callbacks.CountRegistered() &&
+              (this.m_setPanelSubscriptionsToAdd.add(e),
+              this.m_setPanelSubscriptionsToRemove.delete(e),
+              this.QueueSubscriptionUpdates());
+          const r = s.m_Callbacks.Register(t),
+            i = {
+              Unregister: () => {
+                r.Unregister(),
+                  0 == s.m_Callbacks.CountRegistered() &&
+                    (this.m_setPanelSubscriptionsToRemove.add(e),
+                    this.m_setPanelSubscriptionsToAdd.delete(e),
+                    this.QueueSubscriptionUpdates());
+              },
+            };
+          return (
+            s.m_lastMeasurement &&
+              setTimeout(
+                () =>
+                  t(
+                    Object.assign(Object.assign({}, s.m_lastMeasurement), {
+                      m_bStale: !0,
+                    }),
+                  ),
+                0,
+              ),
+            i
+          );
+        }
+        OnPanelHeightUpdate(e) {
+          l.Debug("Received panel height updates:", e.panels);
+          for (const t of e.panels) {
+            const e = this.m_mapPanelHeightSubscriptions.get(t.panel_id);
+            e &&
+              ((e.m_lastMeasurement = {
+                m_flRawPanelHeight: t.panel_height,
+                m_flTransformScaleDuringMeasure:
+                  t.transform_scale_during_measure,
+              }),
+              e.m_Callbacks.Dispatch(
+                Object.assign(Object.assign({}, e.m_lastMeasurement), {
+                  m_bStale: !1,
+                }),
+              ));
+          }
+        }
+        QueueSubscriptionUpdates() {
+          return (0, r.sH)(this, void 0, void 0, function* () {
+            if (this.m_bHasPendingSubscriptionUpdates) return;
+            (this.m_bHasPendingSubscriptionUpdates = !0),
+              yield this.m_mailbox.WaitForConnect();
+            const e = !this.m_bInitializedPanelSubscriptions;
+            if (
+              this.m_setPanelSubscriptionsToAdd.size > 0 ||
+              this.m_setPanelSubscriptionsToRemove.size > 0 ||
+              e
+            ) {
+              const t = {
+                type: "update_panel_height_subscriptions",
+                subscribe_panel_ids: Array.from(
+                  this.m_setPanelSubscriptionsToAdd,
+                ),
+                unsubscribe_panel_ids: Array.from(
+                  this.m_setPanelSubscriptionsToRemove,
+                ),
+                unsubscribe_all: e,
+              };
+              l.Debug(`Sending ${t.type} message:`, t),
+                this.m_mailbox.SendMessage(i.Jv, t);
+            }
+            this.m_setPanelSubscriptionsToAdd.clear(),
+              this.m_setPanelSubscriptionsToRemove.clear(),
+              (this.m_bHasPendingSubscriptionUpdates = !1),
+              (this.m_bInitializedPanelSubscriptions = !0);
+          });
+        }
+        requestSGTransform(e) {
+          return (0, r.sH)(
+            this,
+            arguments,
+            void 0,
+            function* (e, t = 0, s = 0) {
+              if (!e || e.toLowerCase().includes("undefined"))
+                return Promise.reject("Invalid transform ID");
+              const r = {
+                  type: "transform_request",
+                  id: e,
+                  flPushDistance: t,
+                  timeoutSec: s,
+                },
+                o = yield this.m_mailbox.SendMessageAndWaitForResponse(
+                  i.pg,
+                  r,
+                  "transform_response",
+                );
+              return o.id == e && o.transform
+                ? o.transform
+                : Promise.reject("requestSGTransform failed");
+            },
+          );
+        }
+        requestSGTransformRelative(e, t) {
+          return (0, r.sH)(this, arguments, void 0, function* (e, t, s = 0) {
+            var r;
+            if (
+              !e ||
+              e.toLowerCase().includes("undefined") ||
+              !t ||
+              t.toLowerCase().includes("undefined")
+            )
+              return Promise.reject("Invalid transform ID");
+            const o = {
+                type: "transform_request",
+                from_id: e,
+                id: t,
+                timeoutSec: s,
+              },
+              n = yield this.m_mailbox.SendMessageAndWaitForResponse(
+                i.pg,
+                o,
+                "transform_response",
+              );
+            return n.from_id == e && n.id == t && n.transform
+              ? n.transform
+              : Promise.reject(
+                  null !== (r = n.error) && void 0 !== r
+                    ? r
+                    : "requestSGTransform failed",
+                );
+          });
+        }
+      }
+      (0, r.Cg)([a.o], c.prototype, "OnPanelHeightUpdate", null);
     },
-    7600: (e, t, r) => {
-      r.d(t, { tH: () => l });
-      var s = r(1635),
-        o = r(6540),
-        i = r(6090),
-        n = r(1286),
-        a = r(3236);
+    7600: (e, t, s) => {
+      s.d(t, { tH: () => l });
+      var r = s(1635),
+        o = s(6540),
+        i = s(6090),
+        n = s(1286),
+        a = s(3236);
       p = (e) => {
         throw new Error(e.errorStr);
       };
@@ -668,9 +916,9 @@ var CLSTAMP = "10630260";
           this.sm_ErrorReportingStore = e;
         }
         componentDidCatch(e, t) {
-          const r = l.sm_ErrorReportingStore;
-          r
-            ? r
+          const s = l.sm_ErrorReportingStore;
+          s
+            ? s
                 .ReportError(e, {
                   strComponentStack: t.componentStack || void 0,
                 })
@@ -690,32 +938,32 @@ var CLSTAMP = "10630260";
           this.setState({ error: void 0 });
         }
         render() {
-          const { children: e, fallback: t, errorKey: r } = this.props,
-            { error: s, identifierHash: i, lastErrorKey: n } = this.state;
-          return s && r == n
+          const { children: e, fallback: t, errorKey: s } = this.props,
+            { error: r, identifierHash: i, lastErrorKey: n } = this.state;
+          return r && s == n
             ? void 0 !== t
               ? "function" == typeof t
-                ? t(s.error)
+                ? t(r.error)
                 : t
               : l.sm_ErrorReportingStore &&
                   l.sm_ErrorReportingStore.reporting_enabled
                 ? o.createElement(d, {
-                    error: s,
+                    error: r,
                     identifierHash: i,
                     store: l.sm_ErrorReportingStore,
                     onRefresh: this.Reset,
                   })
-                : o.createElement(u, { error: s, onDismiss: this.Reset })
+                : o.createElement(u, { error: r, onDismiss: this.Reset })
             : e || null;
         }
       }
       function c(e) {
         const { enabled: t } = e,
-          [r, s] = o.useState(t),
+          [s, r] = o.useState(t),
           [i, a] = o.useState(n.b);
         o.useEffect(() => {
           const e = setTimeout(() => {
-            r &&
+            s &&
               (i > 1
                 ? a(i - 1)
                 : (console.warn(
@@ -724,9 +972,9 @@ var CLSTAMP = "10630260";
                   window.location.reload()));
           }, 1e3);
           return () => clearTimeout(e);
-        }, [r, i]);
+        }, [s, i]);
         const p = o.useCallback(() => {
-          console.log("Auto-reload canceled."), s(!1);
+          console.log("Auto-reload canceled."), r(!1);
         }, []);
         return (
           o.useEffect(() => {
@@ -739,7 +987,7 @@ var CLSTAMP = "10630260";
             );
           }, [p]),
           t
-            ? r
+            ? s
               ? o.createElement(
                   o.Fragment,
                   null,
@@ -779,10 +1027,10 @@ var CLSTAMP = "10630260";
             : null
         );
       }
-      (0, s.Cg)([a.o], l.prototype, "Reset", null);
+      (0, r.Cg)([a.o], l.prototype, "Reset", null);
       const u = ({ error: e, onDismiss: t }) => {
-          let r = e.error ? e.error.stack : "Stack missing",
-            s = e.info ? e.info.componentStack : "",
+          let s = e.error ? e.error.stack : "Stack missing",
+            r = e.info ? e.info.componentStack : "",
             n = (e.error && e.error.message) || "unknown error";
           const a = o.useContext(i.GM);
           return o.createElement(
@@ -800,14 +1048,14 @@ var CLSTAMP = "10630260";
             ),
             o.createElement("br", null),
             o.createElement(c, { enabled: null == a }),
-            o.createElement(S, null, r),
-            o.createElement(S, null, "The error occurred while rendering:", s),
+            o.createElement(b, null, s),
+            o.createElement(b, null, "The error occurred while rendering:", r),
           );
         },
         d = (e) => {
-          const { error: t, onRefresh: r, identifierHash: s, store: n } = e,
+          const { error: t, onRefresh: s, identifierHash: r, store: n } = e,
             a = (t.error && t.error.message) || "unknown error",
-            p = `${n.product}_${n.version}_${s}`,
+            p = `${n.product}_${n.version}_${r}`,
             l = o.useContext(i.GM);
           return o.createElement(
             h,
@@ -820,14 +1068,14 @@ var CLSTAMP = "10630260";
                 "span",
                 {
                   style: { textDecoration: "underline", cursor: "pointer" },
-                  onClick: r,
+                  onClick: s,
                 },
                 "Refresh",
               ),
             ),
             o.createElement(c, { enabled: null == l }),
-            o.createElement(S, null, "Error Reference: ", p),
-            o.createElement(S, null, a),
+            o.createElement(b, null, "Error Reference: ", p),
+            o.createElement(b, null, a),
           );
         };
       function h(e) {
@@ -881,17 +1129,17 @@ var CLSTAMP = "10630260";
             },
             e,
           ),
-        S = ({ children: e }) =>
+        b = ({ children: e }) =>
           o.createElement(
             "pre",
             { style: { marginTop: "15px", opacity: 0.7, userSelect: "auto" } },
             e,
           );
     },
-    1651: (e, t, r) => {
-      r.d(t, { l: () => i });
-      var s = r(1635),
-        o = (r(6540), r(3236));
+    1651: (e, t, s) => {
+      s.d(t, { l: () => i });
+      var r = s(1635),
+        o = (s(6540), s(3236));
       class i {
         constructor() {
           this.m_vecCallbacks = [];
@@ -915,24 +1163,24 @@ var CLSTAMP = "10630260";
           return this.m_vecCallbacks.length;
         }
       }
-      (0, s.Cg)([o.o], i.prototype, "Dispatch", null);
+      (0, r.Cg)([o.o], i.prototype, "Dispatch", null);
     },
-    1295: (e, t, r) => {
-      function s(e) {
+    1295: (e, t, s) => {
+      function r(e) {
         return new Promise((t) => setTimeout(t, e));
       }
-      r.d(t, { IP: () => s });
+      s.d(t, { IP: () => r });
     },
-    1333: (e, t, r) => {
-      r.d(t, { HR: () => h });
-      var s = r(1635),
-        o = r(3236),
-        i = r(2505),
-        n = r.n(i),
-        a = r(7813),
-        p = r(6090),
-        l = r(3606),
-        c = r(2402);
+    1333: (e, t, s) => {
+      s.d(t, { HR: () => h });
+      var r = s(1635),
+        o = s(3236),
+        i = s(2505),
+        n = s.n(i),
+        a = s(7813),
+        p = s(6090),
+        l = s(3606),
+        c = s(2402);
       const u = "change_route";
       class d {
         constructor() {
@@ -954,6 +1202,8 @@ var CLSTAMP = "10630260";
             (this.m_mapSettingsLastWriteInfo = new Map()),
             (this.m_bIsSettingApp = !1),
             (this.m_bInitStarted = !1),
+            (this.m_appFrameLimits = []),
+            (this.m_mapRefreshRatesForFrameLimit = new Map()),
             (this.GetAppList = function () {
               return new Promise(function (e, t) {
                 n()
@@ -1024,7 +1274,7 @@ var CLSTAMP = "10630260";
           });
         }
         Init(e) {
-          return (0, s.sH)(this, void 0, void 0, function* () {
+          return (0, r.sH)(this, void 0, void 0, function* () {
             if (this.m_bInitStarted) return;
             (this.m_bInitStarted = !0),
               (this.m_bIsSettingApp = e),
@@ -1035,8 +1285,8 @@ var CLSTAMP = "10630260";
                 () => {
                   let e = [];
                   if (0 != this.pendingChanges.size) {
-                    for (const [t, r] of this.pendingChanges.entries())
-                      e.push({ name: t, value: r });
+                    for (const [t, s] of this.pendingChanges.entries())
+                      e.push({ name: t, value: s });
                     this.pendingChanges.clear(),
                       n()
                         .post("/settings_set.action", e)
@@ -1075,7 +1325,7 @@ var CLSTAMP = "10630260";
           }
         }
         ConnectMailbox() {
-          return (0, s.sH)(this, void 0, void 0, function* () {
+          return (0, r.sH)(this, void 0, void 0, function* () {
             try {
               yield this.m_mailbox.Init(this.MailboxName),
                 this.m_mailbox.RegisterHandler(
@@ -1104,7 +1354,7 @@ var CLSTAMP = "10630260";
             this.setRoute(e.page, e.section, e.sectionParams);
         }
         OnAppConfigChangedMessage(e) {
-          return (0, s.sH)(this, void 0, void 0, function* () {
+          return (0, r.sH)(this, void 0, void 0, function* () {
             if (e.deleted_appkeys.length)
               for (let t = this.apps.length - 1; t >= 0; t--)
                 e.deleted_appkeys.indexOf(this.apps[t].key) >= 0 &&
@@ -1157,20 +1407,20 @@ var CLSTAMP = "10630260";
         setRoutePageSectionParams(e) {
           this.setRoute(this.routePage, this.routePageSection, e);
         }
-        setRoute(e, t, r) {
+        setRoute(e, t, s) {
           if (this.m_bIsSettingApp) {
-            (e = null != e ? e : ""), (r = null != r ? r : []);
-            const s = t ? [e, t, ...r] : [e],
-              o = s.join("/");
+            (e = null != e ? e : ""), (s = null != s ? s : []);
+            const r = t ? [e, t, ...s] : [e],
+              o = r.join("/");
             window.location.hash.substring(1) != o &&
-              ((window.location.hash = o), (this.route = s));
+              ((window.location.hash = o), (this.route = r));
           } else
             this.m_mailbox.connected &&
               this.m_mailbox.SendMessage(this.MailboxName, {
                 type: u,
                 page: e,
                 section: t,
-                sectionParams: r,
+                sectionParams: s,
               });
         }
         SetDashboardFadeSupression(e, t) {
@@ -1181,11 +1431,11 @@ var CLSTAMP = "10630260";
               for_id: e,
             });
         }
-        SetDashboardForceBoundsVisible(e, t, r) {
+        SetDashboardForceBoundsVisible(e, t, s) {
           this.m_mailbox.connected &&
             this.m_mailbox.SendMessage(p.M9, {
               type: c.Q,
-              force_bounds_visible: r,
+              force_bounds_visible: s,
               for_overlay_key: e,
               for_id: t,
             });
@@ -1200,7 +1450,7 @@ var CLSTAMP = "10630260";
               this.WebSocketSend("settings_close");
             }),
             h.GetSettingsInfo().then((e) => {
-              this.systemInfo = e;
+              this.OnVRSystemInfo(e);
             }),
             h.GetAppList().then((e) => {
               this.OnVRAppList({ jsonid: "vr_app_list", apps: e });
@@ -1239,34 +1489,34 @@ var CLSTAMP = "10630260";
         }
         OnVRSettings(e) {
           for (let t in e.values) {
-            const r = e.values[t];
+            const s = e.values[t];
             if (
-              this.settings.get(t) != r ||
+              this.settings.get(t) != s ||
               this.m_mapSettingsLastWriteInfo.has(t)
             ) {
               if (this.settingsSchema) {
                 const e = this.GetSettingSchema(t);
                 e && e.requires_restart && this.SetRestartRequired();
               }
-              this.SetSettingValueFromServer(t, r);
+              this.SetSettingValueFromServer(t, s);
             }
           }
         }
         SetSettingValueFromServer(e, t) {
-          const r = 1e3 * d.SERVER_SETTING_MERGE_DEFER_DURATION;
+          const s = 1e3 * d.SERVER_SETTING_MERGE_DEFER_DURATION;
           if (this.m_mapSettingsLastWriteInfo.has(e)) {
-            let s = this.m_mapSettingsLastWriteInfo.get(e);
-            if (new Date().getTime() - s.nLastUserUpdateTime < r)
+            let r = this.m_mapSettingsLastWriteInfo.get(e);
+            if (new Date().getTime() - r.nLastUserUpdateTime < s)
               return (
-                window.clearTimeout(s.nPendingServerValueUpdateTimeout),
-                void (s.nPendingServerValueUpdateTimeout = window.setTimeout(
+                window.clearTimeout(r.nPendingServerValueUpdateTimeout),
+                void (r.nPendingServerValueUpdateTimeout = window.setTimeout(
                   () => {
                     this.SetSettingValueFromServer(e, t);
                   },
-                  r,
+                  s,
                 ))
               );
-            window.clearTimeout(s.nPendingServerValueUpdateTimeout),
+            window.clearTimeout(r.nPendingServerValueUpdateTimeout),
               this.m_mapSettingsLastWriteInfo.delete(e);
           }
           this.settings.set(e, t);
@@ -1287,12 +1537,34 @@ var CLSTAMP = "10630260";
             (this.showInternalSettings = e.is_steamvr_main));
         }
         AwaitInitialSettingsSchema() {
-          return (0, s.sH)(this, void 0, void 0, function* () {
+          return (0, r.sH)(this, void 0, void 0, function* () {
             return (0, a.when)(() => !!this.settingsSchema);
           });
         }
         OnVRAudioDevices(e) {
           console.log("Got audio devices"), (this.audioDevices = e);
+        }
+        OnVRSystemInfo(e) {
+          this.systemInfo = e;
+          const t = e.refresh_rates.supported_rates.map((e) => Math.round(e));
+          if (t.length > 1) {
+            this.m_mapRefreshRatesForFrameLimit.clear(),
+              (this.m_appFrameLimits = t.slice());
+            for (const e of t)
+              for (let t = 1; t <= 4; t++) {
+                const s = Math.round(e / t);
+                if (s < 30) break;
+                const r = this.m_mapRefreshRatesForFrameLimit.get(s);
+                r ? r.push(e) : this.m_mapRefreshRatesForFrameLimit.set(s, [e]);
+                for (let e = 0; e < this.m_appFrameLimits.length; e++) {
+                  if (this.m_appFrameLimits[e] > s) {
+                    this.m_appFrameLimits.splice(e, 0, s);
+                    break;
+                  }
+                  if (this.m_appFrameLimits[e] === s) break;
+                }
+              }
+          }
         }
         OnVRAppList(e) {
           (this.apps = e.apps),
@@ -1300,17 +1572,27 @@ var CLSTAMP = "10630260";
         }
         SettingNameMatches(e, t) {
           if (t && t.endsWith("*")) {
-            let r = t.length - 1;
-            return e.substr(0, r) == t.substr(0, r);
+            let s = t.length - 1;
+            return e.substr(0, s) == t.substr(0, s);
           }
           return e == t;
         }
         GetSettingSchema(e) {
           for (let t of this.settingsSchema)
             if (t.values)
-              for (let r of t.values)
-                if (r && this.SettingNameMatches(e, r.name)) return r;
+              for (let s of t.values)
+                if (s && this.SettingNameMatches(e, s.name)) return s;
           return null;
+        }
+        get appFrameLimits() {
+          return this.m_appFrameLimits;
+        }
+        GetRefreshRatesForFrameLimit(e) {
+          var t;
+          return null !== (t = this.m_mapRefreshRatesForFrameLimit.get(e)) &&
+            void 0 !== t
+            ? t
+            : [e];
         }
         ResetSettingsValue(e) {
           this.SetSettingsValue(e, null);
@@ -1319,17 +1601,17 @@ var CLSTAMP = "10630260";
           e.forEach(this.ResetSettingsValue);
         }
         SetSettingsValue(e, t) {
-          let r = this.GetSettingSchema(e);
-          null != r
+          let s = this.GetSettingSchema(e);
+          null != s
             ? (null != t &&
-                ("int" == r.type
+                ("int" == s.type
                   ? (t = parseInt(t))
-                  : "float" == r.type
+                  : "float" == s.type
                     ? (t = parseFloat(t))
-                    : "string" == r.type
+                    : "string" == s.type
                       ? (t = "" + t)
-                      : "bool" == r.type && (t = !!t)),
-              r.requires_restart && this.SetRestartRequired(),
+                      : "bool" == s.type && (t = !!t)),
+              s.requires_restart && this.SetRestartRequired(),
               this.SetSettingsStringValueWithoutSchema(e, t))
             : console.log(
                 "Tried to set setting " +
@@ -1339,25 +1621,25 @@ var CLSTAMP = "10630260";
         }
         SetSettingsStringValueWithoutSchema(e, t) {
           if (VRHTML) {
-            const r = e.split("/");
-            if (4 != r.length || "" != r[0] || "settings" != r[1])
+            const s = e.split("/");
+            if (4 != s.length || "" != s[0] || "settings" != s[1])
               throw new Error("bad settings path " + e);
-            VRHTML.VRSettings.Set(r[2], r[3], t),
-              this.settings.set(e, VRHTML.VRSettings.Get(r[2], r[3]));
+            VRHTML.VRSettings.Set(s[2], s[3], t),
+              this.settings.set(e, VRHTML.VRSettings.Get(s[2], s[3]));
           } else
             null != t && this.settings.set(e, t), this.pendingChanges.set(e, t);
           this.UpdateLastUserWriteTimeForSetting(e);
         }
         GetSettingsValue(e) {
-          return (0, s.sH)(this, void 0, void 0, function* () {
-            return new Promise(function (t, r) {
+          return (0, r.sH)(this, void 0, void 0, function* () {
+            return new Promise(function (t, s) {
               n()
                 .get("/settings_get", { params: { name: e } })
                 .then((e) => {
                   t(e.data);
                 })
                 .catch((e) => {
-                  r(null);
+                  s(null);
                 });
             });
           });
@@ -1375,10 +1657,10 @@ var CLSTAMP = "10630260";
             .catch((e) => {});
         }
         SetAppSettings(e, t) {
-          let r = Object.assign(Object.assign({}, t), { app: e });
-          n().post("/app/setsettings", r);
+          let s = Object.assign(Object.assign({}, t), { app: e });
+          n().post("/app/setsettings", s);
           for (let e = 0; e < this.apps.length; e++)
-            if (this.apps[e].key == r.app) {
+            if (this.apps[e].key == s.app) {
               !this.apps[e].is_autolaunch &&
                 t.is_autolaunch &&
                 this.SetRestartRequired(),
@@ -1390,29 +1672,29 @@ var CLSTAMP = "10630260";
             }
         }
         GetAppSettings(e) {
-          return (0, s.sH)(this, void 0, void 0, function* () {
-            return new Promise(function (t, r) {
+          return (0, r.sH)(this, void 0, void 0, function* () {
+            return new Promise(function (t, s) {
               n()
                 .get("/app/getsettings", { params: { app: e } })
                 .then((e) => {
                   t(e.data);
                 })
                 .catch((e) => {
-                  r(null);
+                  s(null);
                 });
             });
           });
         }
         GetAppInfo(e) {
-          return (0, s.sH)(this, void 0, void 0, function* () {
-            return new Promise(function (t, r) {
+          return (0, r.sH)(this, void 0, void 0, function* () {
+            return new Promise(function (t, s) {
               n()
                 .get("/app/getinfo", { params: { app: e } })
                 .then((e) => {
                   t(e.data);
                 })
                 .catch((e) => {
-                  r(null);
+                  s(null);
                 });
             });
           });
@@ -1423,12 +1705,6 @@ var CLSTAMP = "10630260";
             void 0 === t
             ? void 0
             : t.name;
-        }
-        get NumSupersamplingSteps() {
-          return Math.floor(4.81 / 0.02);
-        }
-        SliderposToSupersample(e) {
-          return e > 5 ? 5 : e < 0.2 ? 0.2 : e;
         }
         get showAdvancedSettings() {
           return this.settings.get(l.F2);
@@ -1442,64 +1718,63 @@ var CLSTAMP = "10630260";
         }
       }
       (d.SERVER_SETTING_MERGE_DEFER_DURATION = 1),
-        (0, s.Cg)([a.observable], d.prototype, "connected", void 0),
-        (0, s.Cg)([a.observable], d.prototype, "settingsSchema", void 0),
-        (0, s.Cg)([a.observable], d.prototype, "settings", void 0),
-        (0, s.Cg)([a.observable], d.prototype, "systemInfo", void 0),
-        (0, s.Cg)([a.observable], d.prototype, "audioDevices", void 0),
-        (0, s.Cg)([a.observable], d.prototype, "apps", void 0),
-        (0, s.Cg)([a.observable], d.prototype, "probablyOwnedAppkeys", void 0),
-        (0, s.Cg)([a.observable], d.prototype, "showInternalSettings", void 0),
-        (0, s.Cg)(
+        (0, r.Cg)([a.observable], d.prototype, "connected", void 0),
+        (0, r.Cg)([a.observable], d.prototype, "settingsSchema", void 0),
+        (0, r.Cg)([a.observable], d.prototype, "settings", void 0),
+        (0, r.Cg)([a.observable], d.prototype, "systemInfo", void 0),
+        (0, r.Cg)([a.observable], d.prototype, "audioDevices", void 0),
+        (0, r.Cg)([a.observable], d.prototype, "apps", void 0),
+        (0, r.Cg)([a.observable], d.prototype, "probablyOwnedAppkeys", void 0),
+        (0, r.Cg)([a.observable], d.prototype, "showInternalSettings", void 0),
+        (0, r.Cg)(
           [a.observable],
           d.prototype,
           "workshopStateChangedCanary",
           void 0,
         ),
-        (0, s.Cg)([a.observable], d.prototype, "pendingChanges", void 0),
-        (0, s.Cg)([a.observable], d.prototype, "route", void 0),
-        (0, s.Cg)([o.o], d.prototype, "OpenWebSocketToHost", null),
-        (0, s.Cg)([o.o], d.prototype, "OnWorkshopStateChangedMessage", null),
-        (0, s.Cg)([o.o], d.prototype, "OnChangeRouteMessage", null),
-        (0, s.Cg)([o.o], d.prototype, "OnAppConfigChangedMessage", null),
-        (0, s.Cg)([o.o], d.prototype, "OnRefreshRateChangeMessage", null),
-        (0, s.Cg)([a.action.bound], d.prototype, "onHashChanged", null),
-        (0, s.Cg)([a.computed], d.prototype, "routePage", null),
-        (0, s.Cg)([a.computed], d.prototype, "routePageSection", null),
-        (0, s.Cg)([a.computed], d.prototype, "routePageSectionParams", null),
-        (0, s.Cg)([a.action], d.prototype, "setRoutePage", null),
-        (0, s.Cg)([a.action], d.prototype, "setRoutePageSection", null),
-        (0, s.Cg)([a.action], d.prototype, "setRoutePageSectionParams", null),
-        (0, s.Cg)([a.action], d.prototype, "setRoute", null),
-        (0, s.Cg)([o.o], d.prototype, "SetDashboardFadeSupression", null),
-        (0, s.Cg)([o.o], d.prototype, "SetDashboardForceBoundsVisible", null),
-        (0, s.Cg)([o.o], d.prototype, "SetRestartRequired", null),
-        (0, s.Cg)([o.o], d.prototype, "OnWebSocketOpen", null),
-        (0, s.Cg)([o.o], d.prototype, "OnWebSocketClose", null),
-        (0, s.Cg)([o.o], d.prototype, "WebSocketSend", null),
-        (0, s.Cg)([o.o], d.prototype, "OnWebSocketMessage", null),
-        (0, s.Cg)([a.action], d.prototype, "OnVRSettings", null),
-        (0, s.Cg)([a.action], d.prototype, "SetSettingValueFromServer", null),
-        (0, s.Cg)([a.action], d.prototype, "OnVRSettingsSchema", null),
-        (0, s.Cg)([a.action.bound], d.prototype, "ResetSettingsValue", null),
-        (0, s.Cg)([a.action], d.prototype, "ResetSettingsValues", null),
-        (0, s.Cg)([a.action], d.prototype, "SetSettingsValue", null),
-        (0, s.Cg)(
+        (0, r.Cg)([a.observable], d.prototype, "pendingChanges", void 0),
+        (0, r.Cg)([a.observable], d.prototype, "route", void 0),
+        (0, r.Cg)([o.o], d.prototype, "OpenWebSocketToHost", null),
+        (0, r.Cg)([o.o], d.prototype, "OnWorkshopStateChangedMessage", null),
+        (0, r.Cg)([o.o], d.prototype, "OnChangeRouteMessage", null),
+        (0, r.Cg)([o.o], d.prototype, "OnAppConfigChangedMessage", null),
+        (0, r.Cg)([o.o], d.prototype, "OnRefreshRateChangeMessage", null),
+        (0, r.Cg)([a.action.bound], d.prototype, "onHashChanged", null),
+        (0, r.Cg)([a.computed], d.prototype, "routePage", null),
+        (0, r.Cg)([a.computed], d.prototype, "routePageSection", null),
+        (0, r.Cg)([a.computed], d.prototype, "routePageSectionParams", null),
+        (0, r.Cg)([a.action], d.prototype, "setRoutePage", null),
+        (0, r.Cg)([a.action], d.prototype, "setRoutePageSection", null),
+        (0, r.Cg)([a.action], d.prototype, "setRoutePageSectionParams", null),
+        (0, r.Cg)([a.action], d.prototype, "setRoute", null),
+        (0, r.Cg)([o.o], d.prototype, "SetDashboardFadeSupression", null),
+        (0, r.Cg)([o.o], d.prototype, "SetDashboardForceBoundsVisible", null),
+        (0, r.Cg)([o.o], d.prototype, "SetRestartRequired", null),
+        (0, r.Cg)([o.o], d.prototype, "OnWebSocketOpen", null),
+        (0, r.Cg)([o.o], d.prototype, "OnWebSocketClose", null),
+        (0, r.Cg)([o.o], d.prototype, "WebSocketSend", null),
+        (0, r.Cg)([o.o], d.prototype, "OnWebSocketMessage", null),
+        (0, r.Cg)([a.action], d.prototype, "OnVRSettings", null),
+        (0, r.Cg)([a.action], d.prototype, "SetSettingValueFromServer", null),
+        (0, r.Cg)([a.action], d.prototype, "OnVRSettingsSchema", null),
+        (0, r.Cg)([a.action.bound], d.prototype, "ResetSettingsValue", null),
+        (0, r.Cg)([a.action], d.prototype, "ResetSettingsValues", null),
+        (0, r.Cg)([a.action], d.prototype, "SetSettingsValue", null),
+        (0, r.Cg)(
           [a.action],
           d.prototype,
           "SetSettingsStringValueWithoutSchema",
           null,
-        ),
-        (0, s.Cg)([a.computed], d.prototype, "NumSupersamplingSteps", null);
+        );
       const h = new d();
       window.VRSettingsState = h;
     },
-    7727: (e, t, r) => {
-      r.d(t, { N: () => i });
-      var s = r(6540);
-      const o = s.createContext({ frame: void 0, page: void 0 });
+    7727: (e, t, s) => {
+      s.d(t, { N: () => i });
+      var r = s(6540);
+      const o = r.createContext({ frame: void 0, page: void 0 });
       function i() {
-        return s.useContext(o);
+        return r.useContext(o);
       }
     },
   },

@@ -383,7 +383,7 @@ memmove
 memset
 modelNumber
 modf
-mold 1.10.1 (compatible with GNU ld)
+mold 2.36.0 (compatible with GNU ld)
 new 
 new[]
 non-transaction clone for 

@@ -3470,7 +3470,7 @@ modelNormals
 modelPoints
 model_number
 modf
-mold 1.10.1 (compatible with GNU ld)
+mold 2.36.0 (compatible with GNU ld)
 mtpb
 multiple IHDR
 munmap

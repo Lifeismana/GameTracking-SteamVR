@@ -26,6 +26,7 @@
 	"Setting_FoveationOn": "Til",
 	"Setting_FoveationOff": "Fra",
 	"Setting_AllowMultipleLinks": "Tillad flere tilknytninger",
+	"Setting_EnableHmdAutoConnect": "Tilslut automatisk understøttede Steam Link-HMD'er ved opstart af SteamVR",
 	"svl_hand_interaction_augmented": "Controller med håndsporing",
 	"/input/index_pinch": "Klem med pegefinger",
 	"/input/middle_pinch": "Klem med langfinger",

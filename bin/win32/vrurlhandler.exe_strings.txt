@@ -471,6 +471,7 @@ assert json failed
 atof
 atoi
 audio
+auroraPlayspace
 background
 backgroundCameraHeight
 backgroundDomeRadius

@@ -731,7 +731,7 @@ $\t?contains@QRectF@@QEBA_NAEBVQPointF@@@Z
 1!?widget@QTabWidget@@QEBAPEAVQWidget@@H@Z
 100%
 1000
-15:18:01
+14:12:14
 1DoAcquireData()
 1DoInit()
 1DoParseString( const QString & )
@@ -3060,6 +3060,7 @@ Attached Device ID: \t%1\nSupported Buttons:\t%2\nAxis 0 Type:\t%3\nAxis 1 Type:
 Attached HID Devices:\n
 Attempt to init shared state %s twice
 Attempt to take invalid index:
+Attempting to start home app %s
 Attempts
 Audio
 Audio Bridge Firmware:
@@ -4674,6 +4675,7 @@ J\n?drawForeground@QGraphicsScene@@MEAAXPEAVQPainter@@AEBVQRectF@@@Z
 J\r?indexOf@QString@@QEBAHVQChar@@HW4CaseSensitivity@Qt@@@Z
 J\t?brush@QPainter@@QEBAAEBVQBrush@@XZ
 JoysticksFound
+Jun  5 2026
 K32EnumProcessModules
 K32EnumProcesses
 K32GetModuleBaseNameA
@@ -4825,7 +4827,6 @@ Manufacturer:
 Manufacturer: 
 Manufacturer: %1\n
 MapViewOfFile
-May  1 2026
 MbP?
 MenuAction_AboutQt
 MenuAction_About_vrmonitor
@@ -5955,6 +5956,7 @@ RPCRT4.dll
 RSDS
 RSSI: %1\n
 R\v?find@QPlainTextEdit@@QEAA_NAEBVQString@@V?$QFlags@W4FindFlag@QTextDocument@@@@@Z
+R\vpD
 Radio
 Radio Version:
 Radio Version: \t%1 / %2 %3 %4\n
@@ -7853,6 +7855,7 @@ atan2
 atof
 atoi
 audio
+auroraPlayspace
 autoAddPlottableToLegend
 autoSubTicks
 autoTickCount

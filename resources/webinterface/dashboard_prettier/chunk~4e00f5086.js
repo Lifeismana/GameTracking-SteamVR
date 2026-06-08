@@ -1,10 +1,10 @@
-var CLSTAMP = "10630260";
+var CLSTAMP = "10715262";
 (self.webpackChunkvrwebui = self.webpackChunkvrwebui || []).push([
   [652],
   {
     4367: (e, t, o) => {
-      var n, r, i, a, _, s, l, u, d, p, c, m, S, g, D, y;
-      o.d(t, { en: () => i, fD: () => n }),
+      var r, n, i, a, _, s, l, d, u, p, c, m, S, g, D, y, B;
+      o.d(t, { en: () => i, fD: () => r, yW: () => S }),
         (function (e) {
           (e[(e.Invalid = 0)] = "Invalid"),
             (e[(e.TrackingSystemName_String = 1e3)] =
@@ -245,8 +245,8 @@ var CLSTAMP = "10630260";
               "Hmd_SupportsGpuBusMonitoring_Bool"),
             (e[(e.DriverProvidedIPDVisibility_Bool = 2108)] =
               "DriverProvidedIPDVisibility_Bool"),
-            (e[(e.Prop_Hmd_SupportsVRGamepadFocus_Bool = 2117)] =
-              "Prop_Hmd_SupportsVRGamepadFocus_Bool"),
+            (e[(e.Prop_SupportsVRGamepadMode_Bool = 2117)] =
+              "Prop_SupportsVRGamepadMode_Bool"),
             (e[(e.DriverRequestedMuraCorrectionMode_Int32 = 2200)] =
               "DriverRequestedMuraCorrectionMode_Int32"),
             (e[(e.DriverRequestedMuraFeather_InnerLeft_Int32 = 2201)] =
@@ -339,7 +339,7 @@ var CLSTAMP = "10630260";
               "VRLinkClientHMDSupportsRoomSetupRequests_Bool"),
             (e[(e.TrackedDeviceProperty_Max = 1e6)] =
               "TrackedDeviceProperty_Max");
-        })(n || (n = {})),
+        })(r || (r = {})),
         (function (e) {
           (e[(e.k_EButton_System = 0)] = "k_EButton_System"),
             (e[(e.k_EButton_ApplicationMenu = 1)] =
@@ -371,7 +371,7 @@ var CLSTAMP = "10630260";
             (e[(e.k_EButton_Reserved0 = 50)] = "k_EButton_Reserved0"),
             (e[(e.k_EButton_Reserved1 = 51)] = "k_EButton_Reserved1"),
             (e[(e.k_EButton_Max = 64)] = "k_EButton_Max");
-        })(r || (r = {})),
+        })(n || (n = {})),
         (function (e) {
           (e[(e.None = 0)] = "None"),
             (e[(e.ButtonEnter = 1)] = "ButtonEnter"),
@@ -409,14 +409,14 @@ var CLSTAMP = "10630260";
         (function (e) {
           (e[(e.TheaterFast = 0)] = "TheaterFast"),
             (e[(e.TheaterSlow = 1)] = "TheaterSlow");
-        })(u || (u = {})),
+        })(d || (d = {})),
         (function (e) {
           (e[(e.Constant = 0)] = "Constant"),
             (e[(e.Nearest = 1)] = "Nearest"),
             (e[(e.Linear = 2)] = "Linear"),
             (e[(e.SmoothStep = 3)] = "SmoothStep"),
             (e[(e.SmootherStep = 4)] = "SmootherStep");
-        })(d || (d = {})),
+        })(u || (u = {})),
         (function (e) {
           (e[(e.Invalid = 0)] = "Invalid"),
             (e[(e.RecenterCountdown = 1)] = "RecenterCountdown"),
@@ -450,34 +450,44 @@ var CLSTAMP = "10630260";
         })(S || (S = {})),
         (function (e) {
           (e[(e.Invalid = 0)] = "Invalid"),
-            (e[(e.System = 1)] = "System"),
-            (e[(e.SteamInput = 2)] = "SteamInput"),
-            (e[(e.VRInput = 3)] = "VRInput");
-        })(g || (g = {})),
-        (function (e) {
-          (e[(e.Invalid = 0)] = "Invalid"),
             (e[(e.SceneApp = 1)] = "SceneApp"),
             (e[(e.Panel = 2)] = "Panel");
+        })(g || (g = {})),
+        (function (e) {
+          (e[(e.ControllerPairing = 0)] = "ControllerPairing"),
+            (e[(e.WelcomeToSteamFrame = 1)] = "WelcomeToSteamFrame"),
+            (e[(e.SystemButtonHideDashboard = 2)] =
+              "SystemButtonHideDashboard"),
+            (e[(e.SystemButtonDashboardHidden = 3)] =
+              "SystemButtonDashboardHidden"),
+            (e[(e.SystemButtonShowDashboard = 4)] =
+              "SystemButtonShowDashboard"),
+            (e[(e.PairWifiDongle = 5)] = "PairWifiDongle"),
+            (e[(e.TourSendOff = 6)] = "TourSendOff"),
+            (e[(e.SteamGuidedTourFinished = 7)] = "SteamGuidedTourFinished");
         })(D || (D = {})),
         (function (e) {
           (e[(e.None = 0)] = "None"),
             (e[(e.ThirdPartyClient = 1)] = "ThirdPartyClient"),
             (e[(e.SteamVRClientUnified = 2)] = "SteamVRClientUnified"),
             (e[(e.SteamVRClientLegacyDual = 3)] = "SteamVRClientLegacyDual");
-        })(y || (y = {}));
+        })(y || (y = {})),
+        (function (e) {
+          (e[(e.Curved = 0)] = "Curved"), (e[(e.Flat = 1)] = "Flat");
+        })(B || (B = {}));
     },
     6138: (e, t, o) => {
-      o.d(t, { $: () => u, W: () => d });
-      var n = o(1635),
-        r = o(6540),
+      o.d(t, { $: () => d, W: () => u });
+      var r = o(1635),
+        n = o(6540),
         i = o(3236),
         a = o(4963),
         _ = o(6090),
         s = o(6189),
         l = o(1139);
-      class u extends r.Component {
+      class d extends n.Component {
         constructor() {
-          super(...arguments), (this.m_ref = r.createRef());
+          super(...arguments), (this.m_ref = n.createRef());
         }
         get elem() {
           return this.m_ref.current;
@@ -486,14 +496,14 @@ var CLSTAMP = "10630260";
           return !1 === this.props.enabled;
         }
         onMouseDown(e) {
-          var t, o, n;
+          var t, o, r;
           null === (o = (t = this.props).onMouseDown) ||
             void 0 === o ||
             o.call(t, e),
             this.disabled ||
               a.u.Instance.playSound(
-                null !== (n = this.props.pressSoundEffect) && void 0 !== n
-                  ? n
+                null !== (r = this.props.pressSoundEffect) && void 0 !== r
+                  ? r
                   : void 0,
               );
         }
@@ -504,15 +514,15 @@ var CLSTAMP = "10630260";
             o.call(t, e);
         }
         onClick(e) {
-          var t, o, n;
+          var t, o, r;
           this.disabled ||
             (null === (o = (t = this.props).onClick) ||
               void 0 === o ||
               o.call(t, e),
-            d.temporarilySuppressSoundEffect(),
+            u.temporarilySuppressSoundEffect(),
             a.u.Instance.playSound(
-              null !== (n = this.props.releaseSoundEffect) && void 0 !== n
-                ? n
+              null !== (r = this.props.releaseSoundEffect) && void 0 !== r
+                ? r
                 : a.j.ButtonClick,
             ));
         }
@@ -538,7 +548,7 @@ var CLSTAMP = "10630260";
             delete e.pressSoundEffect,
             delete e.releaseSoundEffect,
             (e.className = (0, l.FH)(e.className, ["Disabled", this.disabled])),
-            r.cloneElement(r.createElement("div", e, this.props.children), {
+            n.cloneElement(n.createElement("div", e, this.props.children), {
               onClick: this.onClick,
               onMouseDown: this.onMouseDown,
               onMouseUp: this.onMouseUp,
@@ -549,12 +559,12 @@ var CLSTAMP = "10630260";
           );
         }
       }
-      (0, n.Cg)([i.o], u.prototype, "onMouseDown", null),
-        (0, n.Cg)([i.o], u.prototype, "onMouseUp", null),
-        (0, n.Cg)([i.o], u.prototype, "onClick", null),
-        (0, n.Cg)([i.o], u.prototype, "onMouseEnter", null),
-        (0, n.Cg)([i.o], u.prototype, "onMouseLeave", null);
-      class d extends r.Component {
+      (0, r.Cg)([i.o], d.prototype, "onMouseDown", null),
+        (0, r.Cg)([i.o], d.prototype, "onMouseUp", null),
+        (0, r.Cg)([i.o], d.prototype, "onClick", null),
+        (0, r.Cg)([i.o], d.prototype, "onMouseEnter", null),
+        (0, r.Cg)([i.o], d.prototype, "onMouseLeave", null);
+      class u extends n.Component {
         static temporarilySuppressSoundEffect() {
           window.clearTimeout(this.s_nPlaySoundEffectTimeout),
             (this.s_nPlaySoundEffectTimeout = 0),
@@ -568,11 +578,11 @@ var CLSTAMP = "10630260";
           return this.s_nSuppressingSoundEffectsTimeout > 0;
         }
         onClick(e) {
-          d.suppressingSoundEffect ||
-            (window.clearTimeout(d.s_nPlaySoundEffectTimeout),
-            (d.s_nPlaySoundEffectTimeout = window.setTimeout(
-              d.playSoundEffect,
-              d.k_nSoundEffectDelay,
+          u.suppressingSoundEffect ||
+            (window.clearTimeout(u.s_nPlaySoundEffectTimeout),
+            (u.s_nPlaySoundEffectTimeout = window.setTimeout(
+              u.playSoundEffect,
+              u.k_nSoundEffectDelay,
             ))),
             this.props.onClick && this.props.onClick(e);
         }
@@ -584,19 +594,19 @@ var CLSTAMP = "10630260";
           a.u.Instance.playSound(a.j.SurfaceClick);
         }
         render() {
-          return r.cloneElement(
-            r.createElement("div", this.props, this.props.children),
+          return n.cloneElement(
+            n.createElement("div", this.props, this.props.children),
             { onClick: this.onClick },
           );
         }
       }
-      (d.k_nSoundEffectSuppressionPeriod = 4),
-        (d.k_nSoundEffectDelay = 2),
-        (d.s_nSuppressingSoundEffectsTimeout = 0),
-        (d.s_nPlaySoundEffectTimeout = 0),
-        (0, n.Cg)([i.o], d.prototype, "onClick", null),
-        (0, n.Cg)([i.o], d, "endSoundEffectSuppression", null),
-        (0, n.Cg)([i.o], d, "playSoundEffect", null);
+      (u.k_nSoundEffectSuppressionPeriod = 4),
+        (u.k_nSoundEffectDelay = 2),
+        (u.s_nSuppressingSoundEffectsTimeout = 0),
+        (u.s_nPlaySoundEffectTimeout = 0),
+        (0, r.Cg)([i.o], u.prototype, "onClick", null),
+        (0, r.Cg)([i.o], u, "endSoundEffectSuppression", null),
+        (0, r.Cg)([i.o], u, "playSoundEffect", null);
     },
   },
 ]); //# sourceMappingURL=file:///home/buildbot/buildslave/steamvr_rel_npm_vrwebui/build/public/runtime/resources/webinterface/dashboard/sourcemaps/chunk~4e00f5086.js.map

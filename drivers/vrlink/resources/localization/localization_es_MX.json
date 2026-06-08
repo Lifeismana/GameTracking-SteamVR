@@ -26,6 +26,7 @@
 	"Setting_FoveationOn": "Act.",
 	"Setting_FoveationOff": "Desact.",
 	"Setting_AllowMultipleLinks": "Permitir múltiples enlaces",
+	"Setting_EnableHmdAutoConnect": "Conectar automáticamente los visores compatibles con Steam Link al iniciar SteamVR.",
 	"svl_hand_interaction_augmented": "Control de seguimiento de manos",
 	"/input/index_pinch": "Pellizco de dedo índice",
 	"/input/middle_pinch": "Pellizco de dedo medio",

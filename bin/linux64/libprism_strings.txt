@@ -319,8 +319,8 @@
 /steamvr/
 /sys/kernel/debug/tracing/trace_marker
 /sys/kernel/tracing/trace_marker
-/u%d-%s-ValveIPCSharedObj-SteamVR
 /u%d-Shm_%x
+/u%d-ValveIPCSharedObj-SteamVR
 0123456789
 11CVkTimeline
 12CNonCopyable
@@ -1524,7 +1524,7 @@ mktime
 mmap
 mmap of %s failed: %d
 modf
-mold 1.10.1 (compatible with GNU ld)
+mold 2.36.0 (compatible with GNU ld)
 multiple signals per batch not allowed
 munmap
 nFrameIndex >> ( 64 - k_TimelineEventShift ) == 0

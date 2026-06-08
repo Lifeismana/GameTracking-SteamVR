@@ -52,6 +52,27 @@
 .svg_library_Spinner_1q9tu > path:nth-child(8) {
   animation-delay: -0.4s;
 }
+.grabhandle_GrabHandleBar_2EnMy {
+  --grab-handle-grow-scale-x: 1.1;
+  height: 12px;
+  background-color: var(--dashboard-control-bar-button-color-a);
+  border-radius: 20px;
+  transition: transform .08s ease-out, background-color .08s ease-out;
+  transform-origin: center;
+  transform: scaleX(calc(1 / var(--grab-handle-grow-scale-x)));
+}
+.grabhandle_GrabHandleButton_1kjlA:hover .grabhandle_GrabHandleBar_2EnMy {
+  background-color: #fff;
+  transform: scaleX(1);
+}
+.grabhandle_GrabHandleBar_2EnMy.grabhandle_ForceActive_12Cc_ {
+  background-color: #fff;
+  transform: scaleX(1);
+}
+.grabhandle_GrabHandleButton_1kjlA {
+  pointer-events: all;
+  padding: 60px;
+}
 .controllerstatus_ControllerStatusRoot_15qWt {
   width: 256px;
   height: 256px;
@@ -122,6 +143,53 @@
 .legacydashboardframecontrols_FrameControlsContainer_27B1e
   .ButtonControl:active {
   background: var(--gamepadui-grey);
+}
+.frameresizehandle_ResizeHandleButton_3BhgE {
+  --resize-corner-size: 128px;
+  --resize-corner-thickness: 10px;
+  --resize-corner-offset: 12px;
+  pointer-events: all;
+  padding: 30px;
+  position: relative;
+  width: calc(var(--resize-corner-size) + var(--resize-corner-offset) * 2);
+  height: calc(var(--resize-corner-size) + var(--resize-corner-offset) * 2);
+  padding: 0;
+}
+.frameresizehandle_ResizeCorner_35BU5 {
+  position: absolute;
+  right: var(--resize-corner-offset);
+  bottom: var(--resize-corner-offset);
+  display: flex;
+  width: var(--resize-corner-size);
+  height: var(--resize-corner-size);
+  cursor: nwse-resize;
+}
+.frameresizehandle_ResizeSVG_1uH2W {
+  width: 50px;
+  height: 50px;
+  color: var(--dashboard-control-bar-button-color-a);
+  margin: auto;
+  transition: all .08s ease-out;
+}
+.frameresizehandle_ResizeHandleButton_3BhgE:hover
+  .frameresizehandle_ResizeSVG_1uH2W {
+  color: #fff;
+  transform: scale(1.4);
+}
+.frameresizehandle_ResizeHandleButton_3BhgE:hover
+  .frameresizehandle_ResizeSVG_1uH2W
+  path {
+  stroke-width: 4.2857142857;
+}
+.frameresizehandle_ResizeHandleButton_3BhgE.frameresizehandle_ForceActive_3gxMM
+  .frameresizehandle_ResizeSVG_1uH2W {
+  color: #fff;
+  transform: scale(1.4);
+}
+.frameresizehandle_ResizeHandleButton_3BhgE.frameresizehandle_ForceActive_3gxMM
+  .frameresizehandle_ResizeSVG_1uH2W
+  path {
+  stroke-width: 4.2857142857;
 }
 body {
   overflow: none;
@@ -1493,7 +1561,7 @@ body.SGApp .SettingsSidebarButton .Label {
   border-radius: var(--settings-button-image-border-radius);
   background-color: #000;
   background-image: var(--background-url-value);
-  background-size: cover;
+  background-size: 100% 100%;
   background-repeat: no-repeat;
   background-position: bottom center;
   width: 100%;
@@ -1530,7 +1598,7 @@ body.SGApp .SettingsSidebarButton .Label {
   padding-top: 75%;
   border-radius: var(--settings-button-image-border-radius);
   background-image: var(--background-url-value);
-  background-size: contain;
+  background-size: 100% 100%;
   background-repeat: no-repeat;
   background-position: center;
   width: 11em;
@@ -1954,6 +2022,15 @@ body.SGApp .SettingsSidebarButton .Label {
 }
 .SettingsMain .Warning {
   color: #ff0;
+}
+.SettingsMain .WarningWithIcon {
+  color: #ff0;
+  display: flex;
+  column-gap: 1em;
+}
+.SettingsMain .WarningWithIcon .SVGIcon_Caution {
+  height: 3em;
+  align-self: center;
 }
 .SettingsMain .PasswordInput,
 .SettingsMain .PasswordInputDisabled {

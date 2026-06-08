@@ -1,3 +1,123 @@
+.roomsetup_RoomSetupContainer_16m_l {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  --icon-size: 72px;
+  background: radial-gradient(155.42% 100% at 0% 0%, #060a0e 0 0%, #0e141b 100%);
+  background-size: 100% 100%;
+  border-radius: 10px;
+  padding: 20px;
+  color: #dcdedf;
+}
+.roomsetup_Title_2mix7 {
+  font-size: 1.6em;
+  font-weight: bold;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+  margin-top: 0;
+  align-self: center;
+}
+.roomsetup_Body_2Eur7 {
+  margin: 20px;
+  margin-top: 0;
+  align-self: center;
+}
+.roomsetup_ButtonRow_3vyaR {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  flex-wrap: nowrap;
+}
+.roomsetup_ButtonBase_38CEZ {
+  background: #23262e;
+  color: #dcdedf;
+}
+.roomsetup_ButtonBase_38CEZ:hover {
+  background: #3d4450;
+  color: #eee;
+}
+.roomsetup_ButtonBase_38CEZ:active {
+  background: #67707b;
+  color: #fff;
+}
+.roomsetup_ButtonControl_1i1cC {
+  background: #23262e;
+  color: #dcdedf;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: fit-content;
+  background: #23262e;
+  border-radius: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.roomsetup_ButtonControl_1i1cC:hover {
+  background: #3d4450;
+  color: #eee;
+}
+.roomsetup_ButtonControl_1i1cC:active {
+  background: #67707b;
+  color: #fff;
+}
+.roomsetup_ButtonControl_1i1cC svg {
+  height: 1em;
+  margin-right: .8ch;
+  flex-shrink: 0;
+}
+.roomsetup_Colorful_S1-ba {
+  background: #0056d6;
+  color: #fff;
+}
+.roomsetup_Colorful_S1-ba:hover {
+  background: #1a9fff;
+}
+.roomsetup_Colorful_S1-ba:active {
+  background: #0bf;
+}
+.roomsetup_ButtonIcon_3zWG3 {
+  width: var(--icon-size);
+  height: var(--icon-size);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  padding: 15px;
+}
+.roomsetup_CloseButtonIcon_3AWs7 svg {
+  --close-icon-size: 32px;
+  width: var(--close-icon-size);
+  height: var(--close-icon-size);
+  border-radius: 10px;
+  padding: 15px;
+  color: #67707b;
+}
+.roomsetup_CloseButtonIcon_3AWs7 svg:hover {
+  color: #eee;
+}
+.roomsetup_CloseButtonIcon_3AWs7 svg:active {
+  color: #fff;
+}
+.roomsetup_LaserReceiverInvalid_2wIl4 {
+  width: 32px;
+  height: 32px;
+  background: rgba(50, 0, 0, 0.75);
+  border: 1px solid red;
+  margin: 2px;
+}
+.roomsetup_CameraAutoEnabled_2-8hW {
+  font-weight: lighter;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  color: #b8bcbf;
+}
 .persistentnotifications_PersistentNotificationsContainer_1d_t7 {
   color: #fff;
   display: flex;
@@ -280,5 +400,53 @@
 .inputfocusdevui_DevUI_22N_K .inputfocusdevui_ButtonRow_1bXyw {
   display: flex;
   justify-content: flex-end;
+}
+.ringthrobber_BlueHighlight_1Y2y8 {
+  position: relative;
+  width: var(--highlight-size, 256px);
+  height: var(--highlight-size, 256px);
+  display: grid;
+  place-items: center;
+  color: var(--highlight-content-color, white);
+}
+.ringthrobber_BlueHighlight_Rings_25EsT {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: var(--highlight-ring-size, 170px);
+  height: var(--highlight-ring-size, 170px);
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  z-index: 1;
+}
+.ringthrobber_BlueHighlight_Ring_1SsA4 {
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  border: 3px solid #1a9fff;
+  transform: scale(0.12);
+  opacity: 0;
+  animation: ringthrobber_BlueHighlightRingPulse_1SP6K 2s
+    cubic-bezier(0.16, 0.84, 0.28, 1) infinite;
+  animation-delay: calc(var(--ring-index) * .38s);
+}
+@keyframes ringthrobber_BlueHighlightRingPulse_1SP6K {
+  0% {
+    transform: scale(0.12);
+    opacity: 0;
+    border-width: 10px;
+  }
+  12% {
+    opacity: 0.95;
+  }
+  45% {
+    opacity: 0.75;
+    border-width: 5px;
+  }
+  100% {
+    transform: scale(1.08);
+    opacity: 0;
+    border-width: 1px;
+  }
 }
 /*# sourceMappingURL=file:///home/buildbot/buildslave/steamvr_rel_npm_vrwebui/build/public/runtime/resources/webinterface/dashboard/sourcemaps/css/systemui.css.map*/

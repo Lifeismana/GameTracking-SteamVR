@@ -1,4 +1,4 @@
-var CLSTAMP = "10630260";
+var CLSTAMP = "10715262";
 (self.webpackChunkvrwebui = self.webpackChunkvrwebui || []).push([
   [797],
   {
@@ -71,6 +71,9 @@ var CLSTAMP = "10630260";
             )),
             (s.properties["skydome-mult"] = (0, o.kJ)(
               this.props["skydome-mult"],
+            )),
+            (s.properties["aurora-blur"] = (0, o.kJ)(
+              this.props["aurora-blur"],
             )),
             (s.properties["roomview-mult"] = (0, o.UM)(
               this.props["roomview-mult"],
@@ -485,10 +488,11 @@ var CLSTAMP = "10630260";
             (m.properties["min-tile-scale-at-periphery"] =
               this.props["min-tile-scale-at-periphery"]),
             (m.properties.height = (0, r.kJ)(this.props.height)),
-            (m.properties.offset = [
-              null === (i = this.props.offset) || void 0 === i ? void 0 : i.x,
-              null === (o = this.props.offset) || void 0 === o ? void 0 : o.y,
-            ]),
+            null != this.props.offset &&
+              (m.properties.offset = [
+                null === (i = this.props.offset) || void 0 === i ? void 0 : i.x,
+                null === (o = this.props.offset) || void 0 === o ? void 0 : o.y,
+              ]),
             "string" == typeof this.props.color)
           )
             m.properties.color = this.props.color;

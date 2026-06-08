@@ -296,6 +296,7 @@ $tI(knN
 %s: no timelines
 %s: not all required facet extensions were available
 %s: not supoported with external synchronization!
+%s: only Vulkan graphics devices are supported
 %s: physical device does not support the requested timeline handle type
 %s: physical device does not support timeline export
 %s: physical device does not support timeline import
@@ -700,6 +701,7 @@ $tI(knN
 .?AV?$SteamPrivateInterfaceRegistration@VCVRSteamPrivate_024@@@@
 .?AV?$SteamPrivateInterfaceRegistration@VCVRSteamPrivate_025@@@@
 .?AV?$SteamPrivateInterfaceRegistration@VCVRSteamPrivate_026@@@@
+.?AV?$SteamPrivateInterfaceRegistration@VCVRSteamPrivate_027@@@@
 .?AV?$SystemInterfaceRegistration@VCHmdSystem_001@@@@
 .?AV?$SystemInterfaceRegistration@VCHmdSystem_004@@@@
 .?AV?$SystemInterfaceRegistration@VCVRClientCore_001@@@@
@@ -717,6 +719,7 @@ $tI(knN
 .?AV?$TypeInfoT@VCKeyframedDataResource@@@Detail@Reflection@@
 .?AV?$TypeInfoT@VObject@Reflection@@@Detail@Reflection@@
 .?AV?$WatchdogHost@VCVRWatchdogHost_001@@@@
+.?AV?$_Binder@U_Unforced@std@@P8CVRMailbox@@EAAXAEBVValue@Json@@@ZPEAV3@AEBU?$_Ph@$00@2@@std@@
 .?AV?$_Func_base@PEAXPEBD@std@@
 .?AV?$_Func_base@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBV12@PEAX@std@@
 .?AV?$_Func_base@W4XrResult@@AEAV?$vector@UXrView@@V?$allocator@UXrView@@@std@@@std@@@std@@
@@ -724,6 +727,7 @@ $tI(knN
 .?AV?$_Func_base@W4XrResult@@PEAUXrAction_T@@_KPEAUXrActionStateFloat@@PEA_K@std@@
 .?AV?$_Func_base@W4XrResult@@PEAUXrAction_T@@_KPEAUXrActionStatePose@@PEA_K@std@@
 .?AV?$_Func_base@W4XrResult@@PEAUXrAction_T@@_KPEAUXrActionStateVector2f@@PEA_K@std@@
+.?AV?$_Func_base@XAEBVValue@Json@@@std@@
 .?AV?$_Func_base@XPEBDPEBDI_NPEAXPEA_N@std@@
 .?AV?$_Func_base@XW4ELogLevel@@PEBDPEAX@std@@
 .?AV?$_Func_base@_NAEBUHiddenAreaMesh_t@vr@@AEAU12@@std@@
@@ -780,6 +784,7 @@ $tI(knN
 .?AV?$_Func_impl_no_alloc@V<lambda_e0c476e382b8c6d6bc44d302313eca83>@@_NPEBUXrInteractionProfileDpadBindingEXT@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_ed12992c0ea69eee0aca5c025cd138f3>@@W4XrResult@@PEAUXrAction_T@@_KPEAUXrActionStatePose@@PEA_K@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_fe4534035025238df2ae3b6f7285121d>@@W4XrResult@@PEAUXrAction_T@@_KPEAUXrActionStateVector2f@@PEA_K@std@@
+.?AV?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8CVRMailbox@@EAAXAEBVValue@Json@@@ZPEAV3@AEBU?$_Ph@$00@2@@std@@XAEBVValue@Json@@@std@@
 .?AV?$_Iosb@H@std@@
 .?AV?$_LaunchPad@V?$unique_ptr@V?$tuple@V<lambda_848be8f9a8f0f693e744ef05976b2633>@@@std@@U?$default_delete@V?$tuple@V<lambda_848be8f9a8f0f693e744ef05976b2633>@@@std@@@2@@std@@@std@@
 .?AV?$_Node_class@DV?$regex_traits@D@std@@@std@@
@@ -1009,6 +1014,7 @@ $tI(knN
 .?AVCVRInput_008@@
 .?AVCVRInput_009@@
 .?AVCVRInput_010@@
+.?AVCVRMailbox@@
 .?AVCVRMailboxBase@@
 .?AVCVRMailboxClient@@
 .?AVCVRMailbox_001@@
@@ -1017,6 +1023,7 @@ $tI(knN
 .?AVCVRMsg_ApplicationInfo@@
 .?AVCVRMsg_ApplicationInfo_Manifest@@
 .?AVCVRMsg_ApplicationInfo_Options@@
+.?AVCVRMsg_ApplicationInfo_Runtime@@
 .?AVCVRMsg_ApplicationManifestRequest@@
 .?AVCVRMsg_ApplicationManifestResponse@@
 .?AVCVRMsg_CancelApplicationLaunch@@
@@ -1289,6 +1296,7 @@ $tI(knN
 .?AVCVRSteamPrivate_024@@
 .?AVCVRSteamPrivate_025@@
 .?AVCVRSteamPrivate_026@@
+.?AVCVRSteamPrivate_027@@
 .?AVCVRSystemLatest@@
 .?AVCVRSystem_001@@
 .?AVCVRSystem_002@@
@@ -1443,6 +1451,7 @@ $tI(knN
 .?AVIVRSteamPrivate_025@vr@@
 .?AVIVRSteamPrivate_026@vr@@
 .?AVIVRSteamPrivate_027@vr@@
+.?AVIVRSteamPrivate_028@vr@@
 .?AVIVRSystem@vr@@
 .?AVIVRTrackedCamera@vr@@
 .?AVIVRTrackedCameraInternal@vr@@
@@ -1608,7 +1617,6 @@ $tI(knN
 /chaperone/temporary_playing_outside_playspace_time
 /click
 /controller_type/
-/dashboard/visible
 /device_was_drawn
 /devices/htc/vive_tracker
 /dpad_
@@ -1970,7 +1978,6 @@ $tI(knN
 0 width
 0-pixel image
 00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899
-00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899`
 0123456789ABCDEF
 0\tFAJ
 1.0.3.16
@@ -1985,6 +1992,7 @@ $tI(knN
 528.49
 650000
 7Failed to create readable frame info buffer (D3D10)!\n
+7\f%74
 8c8f13b1-60eb-4b6a-a433-de86104115ac
 8d8f13b1-60eb-4b6a-a433-de86104115ac
 8e8f13b1-60eb-4b6a-a433-de86104115ac
@@ -2004,6 +2012,7 @@ $tI(knN
 <unknown>
 =====================================
 ================================================================================================\n
+?/dashboard/visible
 ??0?$basic_ios@DU?$char_traits@D@std@@@std@@IEAA@XZ
 ??0?$basic_iostream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@@Z
 ??0?$basic_istream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@_N@Z
@@ -2035,6 +2044,7 @@ $tI(knN
 ??_7codecvt_base@std@@6B@
 ??_7facet@locale@std@@6B@
 ??_7ios_base@std@@6B@
+?UUUUUU
 ?_BADOFF@std@@3_JB
 ?_Decref@facet@locale@std@@UEAAPEAV_Facet_base@3@XZ
 ?_Execute_once@std@@YAHAEAUonce_flag@1@P6AHPEAX1PEAPEAX@Z1@Z
@@ -2350,6 +2360,7 @@ CSxrSwapchainVulkanOpenVR::GetPresentableDepthTexture
 CSxrSwapchainVulkanOpenVR::GetPresentableTexture
 CSxrSwapchainVulkanOpenVR::GetPresentableTextureHandle
 CVRApplicationsLatest
+CVRCameraPassthroughInternal::SetGraphicsDevice
 CVRChaperoneClient::CommitWorkingCopy
 CVRClient::Init
 CVRCompositorClient::PostPresentHandoff
@@ -2369,6 +2380,7 @@ CVRMsg_AcknowledgeQuit_Exiting
 CVRMsg_ApplicationInfo
 CVRMsg_ApplicationInfo_Manifest
 CVRMsg_ApplicationInfo_Options
+CVRMsg_ApplicationInfo_Runtime
 CVRMsg_ApplicationManifestRequest
 CVRMsg_ApplicationManifestResponse
 CVRMsg_CancelApplicationLaunch
@@ -2799,7 +2811,7 @@ DriverDirect_Acquired
 DriverDirect_NewFrame
 DriverDirect_Presented
 DriverManager %s init called SetUnhandledExceptionFilter\n
-DriverManager %s load error %su
+DriverManager %s load error %s
 Duplicate action '
 Duplicate key: '
 DuplicateHandle
@@ -2988,6 +3000,7 @@ Failed to import client event handle from pipe %s after connecting\n
 Failed to import server event handle from pipe %s after connecting\n
 Failed to init camera frame buffering for device index %u\n
 Failed to init property manager\n
+Failed to init vrsteamprivate mailbox
 Failed to init vulkan binding: failed to get queue\n
 Failed to init vulkan binding: renderer init error\n
 Failed to init web server shared state\n
@@ -3518,6 +3531,7 @@ IVRSteamPrivate_024
 IVRSteamPrivate_025
 IVRSteamPrivate_026
 IVRSteamPrivate_027
+IVRSteamPrivate_028
 IVRSystem::GetOutputDevice: Failed to get required Vulkan device function pointer (vkGetPhysicalDeviceProperties2KHR)!\n
 IVRSystem::GetOutputDevice: VkInstance_T *pInstance parameter is nullptr.  VkInstance must be specified for TextureType_Vulkan!\n
 IVRSystem::GetOutputDevice: failed to find VkPhysicalDevice matching adapter UUID\n
@@ -3788,6 +3802,8 @@ OpenSCManagerW
 OpenServiceW
 OpenVR SDK version %s\n
 OpenXR::AddLegalInteractionProfile: g_pActiveInstance was unexpectedly null
+Opened keyboard for app.\n
+Opened keyboard for overlay %llX\n
 Optional vulkan device extension is unavailable: %s\n
 Optional vulkan instance extension is unavailable: %s\n
 Or filters need at least one input in filter %s\n
@@ -4053,7 +4069,7 @@ QuickCalibratePlayspace couldn't get a pose from the HMD\n
 RADV
 RGBG
 RPCRT4.dll
-RSDS]FiO
+RSDS
 RadialMenu missing X axis input.\n
 RadialMenu missing Y axis input.\n
 RadialMenu setting 'num_buttons' not specified.\n
@@ -4087,6 +4103,8 @@ RegOpenKeyA
 RegOpenKeyExW
 RegQueryValueExA
 RegQueryValueExW
+Rejecting ShowKeyboard call because no keyboard implementation exists.\n
+Rejecting ShowKeyboard call for overlay because keyboard is in use.\n
 Rejecting ShowKeyboard call from app because the dashboard is visible\n
 Rejecting attempt to ForceQuitProcess with 0\n
 Rejecting watchdog mode because vrmonitor is already running\n
@@ -4115,6 +4133,7 @@ RendermodelManager: Reading data for: '%s' from '%s'\n
 RendermodelManager: Unable to parse %s: %s\n
 RendermodelManager: name=%s inputRouting=%d filename=%s\n
 RendermodelManager: unsupported motion type: %s. { allowed: none, rotate, translate, trackpad }\n
+Reopening keyboard follow overlay focus: "%s"\n
 ReplaceFileW
 ReprojectVertices: Failed to invert projectin matrix\n
 Request for bool value from non-bool option %s\n
@@ -4373,7 +4392,6 @@ UNKNOWN_ERROR
 UNNAMED
 USB Service Busy (140)
 USER32.dll
-UUUUUU
 UYVY
 Uanble to find enablement index for extension %s
 Unable to SetNamedPipeHandleState on pipe %s after connecting because %s\n
@@ -4701,7 +4719,9 @@ VREvent_InvalidateSwapTextureSets
 VREvent_IpdChanged
 VREvent_KeyboardCharInput
 VREvent_KeyboardClosed
+VREvent_KeyboardClosed_Global
 VREvent_KeyboardDone
+VREvent_KeyboardOpened_Global
 VREvent_KeyboardSectionSettingChanged
 VREvent_LastKnownSectionSettingChanged
 VREvent_LeaveStandbyMode
@@ -4771,6 +4791,7 @@ VREvent_ShowDevTools
 VREvent_ShowKeyboard
 VREvent_ShowRenderModels
 VREvent_ShowUI
+VREvent_StandingZeroPoseReset
 VREvent_StandingZeroPoseReset: Sending XR_TYPE_EVENT_DATA_REFERENCE_SPACE_CHANGE_PENDING for XR_REFERENCE_SPACE_TYPE_LOCAL_FLOOR_EXT.
 VREvent_StandingZeroPoseReset: Sending XR_TYPE_EVENT_DATA_REFERENCE_SPACE_CHANGE_PENDING for XR_REFERENCE_SPACE_TYPE_STAGE.
 VREvent_StartDashboard
@@ -6659,7 +6680,6 @@ alphaCutoff
 alphaMode
 alse
 alwaysActivate
-alwaysEnableSteamInput
 amdwvr
 amplitude
 animations
@@ -6692,6 +6712,7 @@ atof
 atoi
 attributes
 audio
+auroraPlayspace
 autoLaunchSteamVROnButtonPress
 axis
 bGraphicsCmd || m_eState == State_t::VulkanComputeTransitioned
@@ -6993,8 +7014,8 @@ c:\buildslave\steamvr_rel_win64\build\src\vrclient\vrdebug.cpp:60
 c:\buildslave\steamvr_rel_win64\build\src\vrclient\vrinput.cpp:1596
 c:\buildslave\steamvr_rel_win64\build\src\vrclient\vrmailboxclient.cpp
 c:\buildslave\steamvr_rel_win64\build\src\vrclient\vroverlay.cpp:1015
-c:\buildslave\steamvr_rel_win64\build\src\vrclient\vroverlay.cpp:1214
-c:\buildslave\steamvr_rel_win64\build\src\vrclient\vroverlay.cpp:1245
+c:\buildslave\steamvr_rel_win64\build\src\vrclient\vroverlay.cpp:1213
+c:\buildslave\steamvr_rel_win64\build\src\vrclient\vroverlay.cpp:1244
 c:\buildslave\steamvr_rel_win64\build\src\vrclient\vrsteamprivate.cpp
 c:\fake_app_container_config_path
 camera
@@ -7102,6 +7123,7 @@ default.vrsettings
 default_bindings
 default_bindings is not an array
 default_main.vrsettings
+defocus_panel
 deque<T> too long
 description
 developerModes
@@ -7318,6 +7340,7 @@ flWaitTime < 1.0
 flags
 floorf
 fmodf
+focus_panel
 fopen
 fopen_s
 forbidden_options
@@ -7407,6 +7430,7 @@ gripLimitData
 hand_interaction_ext
 hand_right_poses.glb
 handgrip
+handlers
 hangInit
 haptic
 haptic_amplitude
@@ -7954,6 +7978,8 @@ render_message
 rendermodel
 rendermodels
 request_binding_callouts
+request_handlers
+request_handlers_response
 request_tutorial_callout
 required_options
 requirement
@@ -8001,6 +8027,7 @@ scalar_translation
 scale
 scale_sao_%s%s%s
 scene
+scene_graph
 scenes
 schinese
 scope
@@ -8039,6 +8066,8 @@ shaders/d3d11/distort_geom_aa_lines_ps.fxo
 shaders/d3d11/distort_geom_aa_lines_vs.fxo
 shaders/d3d11/distort_geom_aa_quads_ps.fxo
 shaders/d3d11/distort_geom_aa_quads_vs.fxo
+shaders/d3d11/distort_geom_altcolorblend_ps.fxo
+shaders/d3d11/distort_geom_aurora_ps.fxo
 shaders/d3d11/distort_geom_colormap_lines_ps.fxo
 shaders/d3d11/distort_geom_constant_ps.fxo
 shaders/d3d11/distort_geom_drawregion_multitap_ps.fxo
@@ -8049,6 +8078,7 @@ shaders/d3d11/distort_geom_drawregion_simplified_gamma_ps.fxo
 shaders/d3d11/distort_geom_drawregion_simplified_ps.fxo
 shaders/d3d11/distort_geom_drawregion_simplified_reflect_ps.fxo
 shaders/d3d11/distort_geom_floor_aa_ps.fxo
+shaders/d3d11/distort_geom_floor_auroralit_ps.fxo
 shaders/d3d11/distort_geom_floor_ps.fxo
 shaders/d3d11/distort_geom_floor_reflect_aa_ps.fxo
 shaders/d3d11/distort_geom_floor_reflect_ps.fxo
@@ -8066,13 +8096,17 @@ shaders/d3d11/distort_geom_ltc_spec_ps.fxo
 shaders/d3d11/distort_geom_motes_ps.fxo
 shaders/d3d11/distort_geom_multitap_ps.fxo
 shaders/d3d11/distort_geom_pbr_ps.fxo
+shaders/d3d11/distort_geom_playspace_drawing_area_ps.fxo
 shaders/d3d11/distort_geom_ps.fxo
 shaders/d3d11/distort_geom_ps16.fxo
+shaders/d3d11/distort_geom_ps_debug_depth.fxo
 shaders/d3d11/distort_geom_reflect_multitap_ps.fxo
 shaders/d3d11/distort_geom_reflect_ps.fxo
+shaders/d3d11/distort_geom_simplified_altcolorblend_ps.fxo
 shaders/d3d11/distort_geom_simplified_gamma_ps.fxo
 shaders/d3d11/distort_geom_simplified_ps.fxo
 shaders/d3d11/distort_geom_simplified_reflect_ps.fxo
+shaders/d3d11/distort_geom_syntheticalpha_ps.fxo
 shaders/d3d11/distort_geom_vignette_ps.fxo
 shaders/d3d11/distort_geom_write_norm_ps.fxo
 shaders/d3d11/distort_geom_write_norm_vs.fxo
@@ -8129,8 +8163,10 @@ shaders/d3d11/downsample_filter_y_srgb_ps.fxo
 shaders/d3d11/downsample_ps.fxo
 shaders/d3d11/downsample_srgb_ps.fxo
 shaders/d3d11/downsample_vs.fxo
+shaders/d3d11/frame_hallucination_float_vs.fxo
 shaders/d3d11/frame_hallucination_ps.fxo
 shaders/d3d11/frame_hallucination_vs.fxo
+shaders/d3d11/geom_aurora_vs.fxo
 shaders/d3d11/geom_bounds_color_vs.fxo
 shaders/d3d11/geom_curved_uvs_embedded_vs.fxo
 shaders/d3d11/geom_curved_vs.fxo
@@ -8142,10 +8178,12 @@ shaders/d3d11/geom_drawregion_ptnorm_uvs_embedded_vs.fxo
 shaders/d3d11/geom_drawregion_ptnorm_vs.fxo
 shaders/d3d11/geom_drawregion_uvs_embedded_vs.fxo
 shaders/d3d11/geom_drawregion_vs.fxo
+shaders/d3d11/geom_floor_auroralit_vs.fxo
 shaders/d3d11/geom_floor_edge_vs.fxo
 shaders/d3d11/geom_floor_vs.fxo
 shaders/d3d11/geom_fresnel_vs.fxo
 shaders/d3d11/geom_motes_vs.fxo
+shaders/d3d11/geom_playspace_drawing_area_vs.fxo
 shaders/d3d11/geom_ptnorm_curved_uvs_embedded_vs.fxo
 shaders/d3d11/geom_ptnorm_curved_vs.fxo
 shaders/d3d11/geom_ptnorm_ortho_out_vs.fxo
@@ -8189,6 +8227,13 @@ shaders/d3d11/tracked_camera_reprojection_simplified_monochrome_devignette_ps.fx
 shaders/d3d11/tracked_camera_reprojection_simplified_monochrome_nv12_ps.fxo
 shaders/d3d11/tracked_camera_reprojection_simplified_monochrome_ps.fxo
 shaders/d3d11/tracked_camera_reprojection_simplified_rgb_nv12_ps.fxo
+shaders/d3d11/tracked_camera_reprojection_simplified_sharpen_devignette_vs.fxo
+shaders/d3d11/tracked_camera_reprojection_simplified_sharpen_monochrome_devignette_nv12_ps.fxo
+shaders/d3d11/tracked_camera_reprojection_simplified_sharpen_monochrome_devignette_ps.fxo
+shaders/d3d11/tracked_camera_reprojection_simplified_sharpen_monochrome_nv12_ps.fxo
+shaders/d3d11/tracked_camera_reprojection_simplified_sharpen_monochrome_ps.fxo
+shaders/d3d11/tracked_camera_reprojection_simplified_sharpen_rgb_nv12_ps.fxo
+shaders/d3d11/tracked_camera_reprojection_simplified_sharpen_vs.fxo
 shaders/d3d11/tracked_camera_reprojection_simplified_vs.fxo
 shaders/d3d11/tracked_camera_reprojection_vs.fxo
 shaders/d3d11/tracked_camera_undistort_ps.fxo
@@ -8217,6 +8262,8 @@ shaders/vulkan/distort_geom_aa_lines_ps.spv
 shaders/vulkan/distort_geom_aa_lines_vs.spv
 shaders/vulkan/distort_geom_aa_quads_ps.spv
 shaders/vulkan/distort_geom_aa_quads_vs.spv
+shaders/vulkan/distort_geom_altcolorblend_ps.spv
+shaders/vulkan/distort_geom_aurora_ps.spv
 shaders/vulkan/distort_geom_colormap_lines_ps.spv
 shaders/vulkan/distort_geom_constant_ps.spv
 shaders/vulkan/distort_geom_drawregion_multitap_ps.spv
@@ -8227,6 +8274,7 @@ shaders/vulkan/distort_geom_drawregion_simplified_gamma_ps.spv
 shaders/vulkan/distort_geom_drawregion_simplified_ps.spv
 shaders/vulkan/distort_geom_drawregion_simplified_reflect_ps.spv
 shaders/vulkan/distort_geom_floor_aa_ps.spv
+shaders/vulkan/distort_geom_floor_auroralit_ps.spv
 shaders/vulkan/distort_geom_floor_ps.spv
 shaders/vulkan/distort_geom_floor_reflect_aa_ps.spv
 shaders/vulkan/distort_geom_floor_reflect_ps.spv
@@ -8244,14 +8292,19 @@ shaders/vulkan/distort_geom_ltc_spec_ps.spv
 shaders/vulkan/distort_geom_motes_ps.spv
 shaders/vulkan/distort_geom_multitap_ps.spv
 shaders/vulkan/distort_geom_pbr_ps.spv
+shaders/vulkan/distort_geom_playspace_drawing_area_ps.spv
 shaders/vulkan/distort_geom_ps.spv
 shaders/vulkan/distort_geom_ps16.spv
+shaders/vulkan/distort_geom_ps_debug_depth.spv
+shaders/vulkan/distort_geom_ps_debug_mvfloat.spv
 shaders/vulkan/distort_geom_psmvfloat.spv
 shaders/vulkan/distort_geom_reflect_multitap_ps.spv
 shaders/vulkan/distort_geom_reflect_ps.spv
+shaders/vulkan/distort_geom_simplified_altcolorblend_ps.spv
 shaders/vulkan/distort_geom_simplified_gamma_ps.spv
 shaders/vulkan/distort_geom_simplified_ps.spv
 shaders/vulkan/distort_geom_simplified_reflect_ps.spv
+shaders/vulkan/distort_geom_syntheticalpha_ps.spv
 shaders/vulkan/distort_geom_vignette_ps.spv
 shaders/vulkan/distort_geom_write_norm_ps.spv
 shaders/vulkan/distort_geom_write_norm_vs.spv
@@ -8308,6 +8361,7 @@ shaders/vulkan/downsample_filter_y_srgb_ps.spv
 shaders/vulkan/downsample_ps.spv
 shaders/vulkan/downsample_srgb_ps.spv
 shaders/vulkan/downsample_vs.spv
+shaders/vulkan/frame_hallucination_float_vs.spv
 shaders/vulkan/frame_hallucination_ps.spv
 shaders/vulkan/frame_hallucination_vs.spv
 shaders/vulkan/fsharp_2d_drawregion_gamma_ps.spv
@@ -8317,6 +8371,7 @@ shaders/vulkan/fsharp_2d_ps.spv
 shaders/vulkan/fsharp_vr_depth_only_ps.spv
 shaders/vulkan/fsharp_vr_depth_ps.spv
 shaders/vulkan/fsharp_vr_ps.spv
+shaders/vulkan/geom_aurora_vs.spv
 shaders/vulkan/geom_bounds_color_vs.spv
 shaders/vulkan/geom_curved_uvs_embedded_vs.spv
 shaders/vulkan/geom_curved_vs.spv
@@ -8328,10 +8383,12 @@ shaders/vulkan/geom_drawregion_ptnorm_uvs_embedded_vs.spv
 shaders/vulkan/geom_drawregion_ptnorm_vs.spv
 shaders/vulkan/geom_drawregion_uvs_embedded_vs.spv
 shaders/vulkan/geom_drawregion_vs.spv
+shaders/vulkan/geom_floor_auroralit_vs.spv
 shaders/vulkan/geom_floor_edge_vs.spv
 shaders/vulkan/geom_floor_vs.spv
 shaders/vulkan/geom_fresnel_vs.spv
 shaders/vulkan/geom_motes_vs.spv
+shaders/vulkan/geom_playspace_drawing_area_vs.spv
 shaders/vulkan/geom_ptnorm_curved_uvs_embedded_vs.spv
 shaders/vulkan/geom_ptnorm_curved_vs.spv
 shaders/vulkan/geom_ptnorm_ortho_out_vs.spv
@@ -8360,6 +8417,9 @@ shaders/vulkan/msaa_resolve_2x_ps.spv
 shaders/vulkan/msaa_resolve_4x_ps.spv
 shaders/vulkan/msaa_resolve_8x_ps.spv
 shaders/vulkan/msaa_resolve_vs.spv
+shaders/vulkan/mv_dilation_3x3_cs.spv
+shaders/vulkan/mv_dilation_5x5_cs.spv
+shaders/vulkan/mv_dilation_7x7_cs.spv
 shaders/vulkan/panel_mask_ps.spv
 shaders/vulkan/panel_mask_vs.spv
 shaders/vulkan/portal_stencil_apply_disp_vs.spv
@@ -8379,6 +8439,13 @@ shaders/vulkan/tracked_camera_reprojection_simplified_monochrome_devignette_ps.s
 shaders/vulkan/tracked_camera_reprojection_simplified_monochrome_nv12_ps.spv
 shaders/vulkan/tracked_camera_reprojection_simplified_monochrome_ps.spv
 shaders/vulkan/tracked_camera_reprojection_simplified_rgb_nv12_ps.spv
+shaders/vulkan/tracked_camera_reprojection_simplified_sharpen_devignette_vs.spv
+shaders/vulkan/tracked_camera_reprojection_simplified_sharpen_monochrome_devignette_nv12_ps.spv
+shaders/vulkan/tracked_camera_reprojection_simplified_sharpen_monochrome_devignette_ps.spv
+shaders/vulkan/tracked_camera_reprojection_simplified_sharpen_monochrome_nv12_ps.spv
+shaders/vulkan/tracked_camera_reprojection_simplified_sharpen_monochrome_ps.spv
+shaders/vulkan/tracked_camera_reprojection_simplified_sharpen_rgb_nv12_ps.spv
+shaders/vulkan/tracked_camera_reprojection_simplified_sharpen_vs.spv
 shaders/vulkan/tracked_camera_reprojection_simplified_vs.spv
 shaders/vulkan/tracked_camera_reprojection_vs.spv
 shaders/vulkan/tracked_camera_undistort_ps.spv
@@ -8386,6 +8453,7 @@ shaders/vulkan/tracked_camera_undistort_vs.spv
 shaders/vulkan/tracked_camera_vs.spv
 shaders/vulkan/unlit_2x_downsample_ps.spv
 shaders/vulkan/unlit_convert_to_nv12_ps.spv
+shaders/vulkan/unlit_cs.spv
 shaders/vulkan/unlit_gaussian_blur_u_ps.spv
 shaders/vulkan/unlit_gaussian_blur_v_ps.spv
 shaders/vulkan/unlit_motion_attenuation_ps.spv
@@ -8469,6 +8537,7 @@ steam.app.
 steam.exe
 steam.overlay.
 steamMatchesHMDFramerate
+steam_overlay_handle
 steam_streaming_launch
 steamlink_openvr-overlay
 steamtours.exe
@@ -9543,6 +9612,7 @@ vroverlaylatest
 vrserver internal error (124)
 vrserver pid %d\n
 vrserver.exe
+vrsteamprivate
 vrwebhelper
 vrwebhelper.exe
 vrwebui_dashboard

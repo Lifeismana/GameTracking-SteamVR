@@ -210,7 +210,7 @@ PRISM_Stop
 QueryPerformanceCounter
 QueryPerformanceFrequency
 RPCRT4.dll
-RSDS\vJ
+RSDS7
 RaiseException
 ResetEvent
 RoGetActivationFactory

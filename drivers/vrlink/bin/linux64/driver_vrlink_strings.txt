@@ -237,6 +237,7 @@ $\n k_EProtoServiceTypeSteamMessages
 *ZN9SVLServer24RequestDashboardTutorialEvEUlRKN4Json5ValueEE_
 *ZN9SVLServer4InitEvEUl16ValueTransportIDbE10_
 *ZN9SVLServer4InitEvEUl16ValueTransportIDbE11_
+*ZN9SVLServer4InitEvEUl16ValueTransportIDbE12_
 *ZN9SVLServer4InitEvEUl16ValueTransportIDbE6_
 *ZN9SVLServer4InitEvEUl16ValueTransportIDbE7_
 *ZN9SVLServer4InitEvEUl16ValueTransportIDbE8_
@@ -323,9 +324,9 @@ $\n k_EProtoServiceTypeSteamMessages
 /data/src/thirdparty/protobuf-2.6.1/src/google/protobuf/repeated_field.h
 /data/src/vrlink/common/SVLFEC.cpp:1078
 /data/src/vrlink/common/SVLFEC.cpp:761
-/data/src/vrlink/driver_vrlink/hmd.cpp:2430
-/data/src/vrlink/driver_vrlink/hmd.cpp:2779
-/data/src/vrlink/driver_vrlink/hmd.cpp:2891
+/data/src/vrlink/driver_vrlink/hmd.cpp:2463
+/data/src/vrlink/driver_vrlink/hmd.cpp:2812
+/data/src/vrlink/driver_vrlink/hmd.cpp:2924
 /data/src/vrlink/driver_vrlink/hmdvulkan.cpp
 /data/src/vrlink/driver_vrlink/steamvrlink.cpp
 /data/src/vrlink/driver_vrlink/videovulkan.cpp
@@ -490,8 +491,8 @@ $\n k_EProtoServiceTypeSteamMessages
 /tracking/eye/EyesClosedAmount
 /transferlatencyms
 /transferlatencymslong
-/u%d-%s-ValveIPCSharedObj-SteamVR
 /u%d-Shm_%x
+/u%d-ValveIPCSharedObj-SteamVR
 /vrgamepadui/steamvr/dashboard_frames_remote
 /vrgamepadui/steamvr/dashboard_frames_tx
 /vrgamepadui/steamvr/desktop_windows_remote
@@ -570,6 +571,7 @@ $\n k_EProtoServiceTypeSteamMessages
 24VRLink_LaserMouseOverlay
 255.255.255.0
 26CHandPoseLogic_OculusTouch
+26VRLink_ShowSteamVRSettings
 29VRLink_UnifiedDashboard_State
 30CHandPoseLogic_IndexController
 30VRLink_LaserMouseOverlayUpdate
@@ -2051,6 +2053,7 @@ VRLink_LaserMouseOverlay
 VRLink_LaserMouseOverlay.TransformDetails
 VRLink_LaserMouseOverlayUpdate
 VRLink_LumaImageView
+VRLink_ShowSteamVRSettings
 VRLink_UnifiedDashboard_State
 VRLink_VideoCommandBuffer
 VRLink_VideoCommandPool
@@ -3150,7 +3153,7 @@ mmap of %s failed: %d
 mode
 modelNumber
 modf
-mold 1.10.1 (compatible with GNU ld)
+mold 2.36.0 (compatible with GNU ld)
 multiple IHDR
 munmap
 nFramesSkippedPS
@@ -4430,6 +4433,7 @@ vrlink_frame_docklocation_request
 vrlink_microphone
 vrlink_output
 vrlink_room_setup
+vrlink_show_steamvr_setting
 vrlink_store
 vrshared_base.proto
 vsnprintf

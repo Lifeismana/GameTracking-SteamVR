@@ -1,4 +1,4 @@
-var CLSTAMP = "10630260";
+var CLSTAMP = "10715262";
 (() => {
   "use strict";
   var e,
@@ -22,7 +22,7 @@ var CLSTAMP = "10630260";
           m$: () => s.m,
         });
         var o = n(2824),
-          i = (n(3389), n(4120), n(1230), n(5830), n(6186), n(3361)),
+          i = (n(119), n(4120), n(1230), n(5830), n(6186), n(3361)),
           r = (n(111), n(5723), n(3496)),
           a =
             (n(5178),
@@ -46,6 +46,7 @@ var CLSTAMP = "10630260";
             n(5459),
             n(8472),
             n(1184),
+            n(1321),
             n(3725)),
           p = n(4367);
       },
@@ -370,7 +371,7 @@ var CLSTAMP = "10630260";
               C = { x: 0, y: 0 };
             C =
               "object" == typeof this.props.origin
-                ? (0, u.PG)(this.props.origin, { x: 0, y: 0 })
+                ? (0, u.PG)(this.props.origin)
                 : f(this.props.origin);
             const D = this.props.overlay_key,
               M = (0, c.w5)();
@@ -385,10 +386,10 @@ var CLSTAMP = "10630260";
               this.m_UVsMax &&
                 (R.properties.uv_max =
                   null !== (o = v(this.m_UVsMax)) && void 0 !== o ? o : void 0);
-            const k = 1 / _.O.Current().m_fCurrentScale;
-            let B = this.props.frame_resize_scale_factor;
+            const B = 1 / _.O.Current().m_fCurrentScale;
+            let k = this.props.frame_resize_scale_factor;
             return (
-              this.props.is_frame_page_main_panel && (B = null != B ? B : 1),
+              this.props.is_frame_page_main_panel && (k = null != k ? k : 1),
               (R.properties.width =
                 null !== (i = this.props.width) && void 0 !== i ? i : void 0),
               (R.properties.height =
@@ -409,7 +410,7 @@ var CLSTAMP = "10630260";
                 this.props.target_dpi_multiplier),
               (R.properties["meters-per-pixel"] =
                 null != this.props.meters_per_pixel
-                  ? this.props.meters_per_pixel * k
+                  ? this.props.meters_per_pixel * B
                   : void 0),
               (R.properties["subview-parent-panel-key"] =
                 this.props.subview_parent_panel_key),
@@ -456,7 +457,7 @@ var CLSTAMP = "10630260";
               (R.properties["sort-order"] = this.props.sort_order),
               (R.properties["sort-depth-bias"] = this.props.sort_depth_bias),
               (R.properties.visibility = this.visibility),
-              (R.properties["frame-resize-scale-factor"] = B),
+              (R.properties["frame-resize-scale-factor"] = k),
               (R.properties["main-panel-for-frame-page"] =
                 this.props.is_frame_page_main_panel),
               (R.properties["steam-input-appid"] =
@@ -587,13 +588,13 @@ var CLSTAMP = "10630260";
               );
           }
           internalRender() {
-            var e;
-            let t, n, s;
+            var e, t, n;
+            let s, l, p, d;
             this.props.transform
-              ? ((t = (0, r.j_)(this.props.transform.translation)),
-                (n = this.props.transform.rotation),
-                (s = this.props.transform.scale))
-              : ((t = (0, r.XI)(this.props.translation)
+              ? ((s = (0, r.j_)(this.props.transform.translation)),
+                (l = this.props.transform.rotation),
+                (p = this.props.transform.scale))
+              : ((s = (0, r.XI)(this.props.translation)
                   ? null === (e = (0, r.UM)(this.props.translation)) ||
                     void 0 === e
                     ? void 0
@@ -601,7 +602,7 @@ var CLSTAMP = "10630260";
                   : (0, r.j_)(
                       (0, r.Wi)(this.props.translation, { x: 0, y: 0, z: 0 }),
                     )),
-                (n =
+                (l =
                   this.props.rotation && "w" in this.props.rotation
                     ? this.props.rotation
                     : (0, a.Fb)(
@@ -610,29 +611,39 @@ var CLSTAMP = "10630260";
                           Math.PI / 180,
                         ),
                       )),
-                (s =
+                (p =
                   "number" == typeof this.props.scale
                     ? {
                         x: this.props.scale,
                         y: this.props.scale,
                         z: this.props.scale,
                       }
-                    : (0, r.Wi)(this.props.scale, { x: 1, y: 1, z: 1 })));
-            let l = (0, r.hi)(n),
-              p = (0, r.j_)(s);
+                    : (0, r.Wi)(this.props.scale, { x: 1, y: 1, z: 1 }))),
+              null !=
+                (null === (t = this.props) || void 0 === t
+                  ? void 0
+                  : t.parent_origin) &&
+                (d =
+                  o[
+                    null === (n = this.props) || void 0 === n
+                      ? void 0
+                      : n.parent_origin
+                  ]);
+            let u = (0, r.hi)(l),
+              _ = (0, r.j_)(p);
             return i.createElement(
               "vsg-transform",
               {
-                translation: t,
-                rotation: l,
-                scale: p,
+                translation: s,
+                rotation: u,
+                scale: _,
                 "curvature-pitch": this.props.curvature_pitch,
                 "invert-parent-panel-pitch":
                   this.props.invert_parent_panel_pitch,
                 "ignore-parent-scale": this.props.ignore_parent_scale,
                 "transform-path": this.props.transform_path,
                 "parent-path": this.props.parent_path,
-                "parent-origin": o[this.props.parent_origin],
+                "parent-origin": d,
                 "parent-id": this.props.parent_id,
                 "frame-resize-scale-factor":
                   this.props.frame_resize_scale_factor,
@@ -694,7 +705,7 @@ var CLSTAMP = "10630260";
               (e[(e.RawAndUncalibrated = 2)] = "RawAndUncalibrated");
           })(a || (a = {}));
         let l = 0;
-        var p, d, u, _, h, c, m, g, y, S, v, f, R, C, D, M, k, B, I, P, w;
+        var p, d, u, _, h, c, m, g, y, S, v, f, R, C, D, M, B, k, I, P, b;
         !(function (e) {
           (e[(e.None = 0)] = "None"),
             (e[(e.Shown = 1)] = "Shown"),
@@ -763,16 +774,19 @@ var CLSTAMP = "10630260";
           })(y || (y = {})),
           (function (e) {
             (e[(e.LaserMouse = 1)] = "LaserMouse"),
-              (e[(e.Keyboard = 2)] = "Keyboard"),
-              (e[(e.RoomView = 4)] = "RoomView"),
-              (e[(e.DisplaySuppressed = 8)] = "DisplaySuppressed"),
-              (e[(e.SystemButtonDown = 16)] = "SystemButtonDown"),
-              (e[(e.DriverIsDrawingControllers = 32)] =
+              (e[(e.RoomViewFullyOccludingApp = 2)] =
+                "RoomViewFullyOccludingApp"),
+              (e[(e.DisplaySuppressed = 4)] = "DisplaySuppressed"),
+              (e[(e.SystemButtonDown = 8)] = "SystemButtonDown"),
+              (e[(e.DriverIsDrawingControllers = 16)] =
                 "DriverIsDrawingControllers"),
-              (e[(e.DriverRequestsApplicationPause = 64)] =
+              (e[(e.DriverRequestsApplicationPause = 32)] =
                 "DriverRequestsApplicationPause"),
-              (e[(e.DriverRequestsReducedRendering = 128)] =
-                "DriverRequestsReducedRendering");
+              (e[(e.DriverRequestsReducedRendering = 64)] =
+                "DriverRequestsReducedRendering"),
+              (e[(e.DashboardTutorial = 128)] = "DashboardTutorial"),
+              (e[(e.GamepadMode = 512)] = "GamepadMode"),
+              (e[(e.SystemKeyboardPrivacy = 1024)] = "SystemKeyboardPrivacy");
           })(S || (S = {})),
           (function (e) {
             (e[(e.BULK_DEFAULT = 0)] = "BULK_DEFAULT"),
@@ -837,10 +851,10 @@ var CLSTAMP = "10630260";
             (e[(e.Unavailable = 0)] = "Unavailable"),
               (e[(e.Active = 1)] = "Active"),
               (e[(e.Off = 2)] = "Off");
-          })(k || (k = {})),
+          })(B || (B = {})),
           (function (e) {
             (e[(e.Default = 1)] = "Default"), (e[(e.Floor = 2)] = "Floor");
-          })(B || (B = {})),
+          })(k || (k = {})),
           (function (e) {
             (e[(e.Inactive = 0)] = "Inactive"),
               (e[(e.PendingReset = 1)] = "PendingReset"),
@@ -873,11 +887,11 @@ var CLSTAMP = "10630260";
               (e[(e.Large = 2)] = "Large"),
               (e[(e.Gigantic = 3)] = "Gigantic"),
               (e[(e.Standing = 4)] = "Standing");
-          })(w || (w = {}));
+          })(b || (b = {}));
       },
       4367: (e, t, n) => {
-        var o, i, r, a, s, l, p, d, u, _, h, c, m, g, y, S;
-        n.d(t, { QR: () => a, en: () => r, fD: () => o }),
+        var o, i, r, a, s, l, p, d, u, _, h, c, m, g, y, S, v;
+        n.d(t, { QR: () => a, en: () => r, fD: () => o, yW: () => m }),
           (function (e) {
             (e[(e.Invalid = 0)] = "Invalid"),
               (e[(e.TrackingSystemName_String = 1e3)] =
@@ -1124,8 +1138,8 @@ var CLSTAMP = "10630260";
                 "Hmd_SupportsGpuBusMonitoring_Bool"),
               (e[(e.DriverProvidedIPDVisibility_Bool = 2108)] =
                 "DriverProvidedIPDVisibility_Bool"),
-              (e[(e.Prop_Hmd_SupportsVRGamepadFocus_Bool = 2117)] =
-                "Prop_Hmd_SupportsVRGamepadFocus_Bool"),
+              (e[(e.Prop_SupportsVRGamepadMode_Bool = 2117)] =
+                "Prop_SupportsVRGamepadMode_Bool"),
               (e[(e.DriverRequestedMuraCorrectionMode_Int32 = 2200)] =
                 "DriverRequestedMuraCorrectionMode_Int32"),
               (e[(e.DriverRequestedMuraFeather_InnerLeft_Int32 = 2201)] =
@@ -1333,21 +1347,41 @@ var CLSTAMP = "10630260";
           })(m || (m = {})),
           (function (e) {
             (e[(e.Invalid = 0)] = "Invalid"),
-              (e[(e.System = 1)] = "System"),
-              (e[(e.SteamInput = 2)] = "SteamInput"),
-              (e[(e.VRInput = 3)] = "VRInput");
-          })(g || (g = {})),
-          (function (e) {
-            (e[(e.Invalid = 0)] = "Invalid"),
               (e[(e.SceneApp = 1)] = "SceneApp"),
               (e[(e.Panel = 2)] = "Panel");
+          })(g || (g = {})),
+          (function (e) {
+            (e[(e.ControllerPairing = 0)] = "ControllerPairing"),
+              (e[(e.WelcomeToSteamFrame = 1)] = "WelcomeToSteamFrame"),
+              (e[(e.SystemButtonHideDashboard = 2)] =
+                "SystemButtonHideDashboard"),
+              (e[(e.SystemButtonDashboardHidden = 3)] =
+                "SystemButtonDashboardHidden"),
+              (e[(e.SystemButtonShowDashboard = 4)] =
+                "SystemButtonShowDashboard"),
+              (e[(e.PairWifiDongle = 5)] = "PairWifiDongle"),
+              (e[(e.TourSendOff = 6)] = "TourSendOff"),
+              (e[(e.SteamGuidedTourFinished = 7)] = "SteamGuidedTourFinished");
           })(y || (y = {})),
           (function (e) {
             (e[(e.None = 0)] = "None"),
               (e[(e.ThirdPartyClient = 1)] = "ThirdPartyClient"),
               (e[(e.SteamVRClientUnified = 2)] = "SteamVRClientUnified"),
               (e[(e.SteamVRClientLegacyDual = 3)] = "SteamVRClientLegacyDual");
-          })(S || (S = {}));
+          })(S || (S = {})),
+          (function (e) {
+            (e[(e.Curved = 0)] = "Curved"), (e[(e.Flat = 1)] = "Flat");
+          })(v || (v = {}));
+      },
+      4728: (e, t, n) => {
+        function o(e, t) {
+          return (
+            (e = Math.ceil(e)),
+            (t = Math.floor(t)),
+            Math.floor(Math.random() * (t - e + 1)) + e
+          );
+        }
+        n.d(t, { Tg: () => o });
       },
       5199: (e, t, n) => {
         var o = n(1635),
@@ -1618,7 +1652,7 @@ var CLSTAMP = "10630260";
           (0, o.Cg)([l.o], f.prototype, "onClick", null),
           (0, o.Cg)([l.o], f, "endSoundEffectSuppression", null),
           (0, o.Cg)([l.o], f, "playSoundEffect", null);
-        var R = n(582);
+        var R = n(9125);
         (0, h.configure)({ enforceActions: "never" });
         class C extends i.Component {
           constructor(e) {
@@ -2145,6 +2179,7 @@ var CLSTAMP = "10630260";
                       width: void 0,
                       height: 1,
                       interactive: !0,
+                      make_overlays_interactive_if_visible: !0,
                       sort_depth_bias: 0.2,
                       debug_name: "keyboard-flat",
                     },

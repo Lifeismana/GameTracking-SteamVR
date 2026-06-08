@@ -145,6 +145,12 @@
                 "label": "#{vrlink}Setting_AllowMultipleLinks",
                 "advanced_only": true
             },
+	    {
+                "name": "/settings/driver_vrlink/enableHmdAutoConnect",
+                "control": "toggle",
+                "label": "#{vrlink}Setting_EnableHmdAutoConnect",
+                "advanced_only": true
+            },
             {
                 "name": "/driver_vrlink/client_version",
                 "control": "label",

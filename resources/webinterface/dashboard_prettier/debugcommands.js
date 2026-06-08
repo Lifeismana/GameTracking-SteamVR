@@ -1,4 +1,4 @@
-var CLSTAMP = "10630260";
+var CLSTAMP = "10715262";
 (() => {
   "use strict";
   var e,
@@ -410,7 +410,7 @@ var CLSTAMP = "10630260";
           pg: () => n.pg,
         });
         var n = r(2824),
-          o = (r(3389), r(4120), r(1230), r(5830), r(6186), r(3361)),
+          o = (r(119), r(4120), r(1230), r(5830), r(6186), r(3361)),
           s = (r(111), r(5723), r(3496)),
           i =
             (r(5178),
@@ -436,15 +436,17 @@ var CLSTAMP = "10630260";
             r(5459),
             r(8472),
             r(1184),
+            r(1321),
             r(3725));
         r(4367);
       },
       2824: (e, t, r) => {
         r.d(t, {
           I0: () => d,
+          Jv: () => m,
           M9: () => l,
           Wq: () => u,
-          _n: () => m,
+          _n: () => h,
           pg: () => c,
         });
         var n = r(1635),
@@ -455,8 +457,9 @@ var CLSTAMP = "10630260";
         const c = "vrcompositor_systemlayer",
           u = "vrcompositor_mailbox",
           l = "vrwebui_dashboardstore",
-          d = "binding_callouts/main";
-        class m {
+          d = "binding_callouts/main",
+          m = "scene_graph";
+        class h {
           constructor() {
             (this.m_wsWebSocketToServer = void 0),
               (this.connected = !1),
@@ -522,7 +525,7 @@ var CLSTAMP = "10630260";
           Init(e, t) {
             return (0, n.sH)(this, void 0, void 0, function* () {
               return (
-                (this.m_sMailboxName = m.EnsureUniqueName(e)),
+                (this.m_sMailboxName = h.EnsureUniqueName(e)),
                 (this.m_sWebSecret = null != t ? t : ""),
                 (this.connected = !1),
                 this.OpenWebSocketToHost()
@@ -653,14 +656,14 @@ var CLSTAMP = "10630260";
             this.WebSocketSend("debug_close");
           }
         }
-        (m.s_nNextMailboxNumber = 1),
-          (0, n.Cg)([o.observable], m.prototype, "connected", void 0),
-          (0, n.Cg)([s.o], m.prototype, "OpenWebSocketToHost", null),
-          (0, n.Cg)([s.o], m.prototype, "OnWebSocketOpen", null),
-          (0, n.Cg)([s.o], m.prototype, "OnWebSocketClose", null),
-          (0, n.Cg)([s.o], m.prototype, "OnWebSocketError", null),
-          (0, n.Cg)([s.o], m.prototype, "WebSocketSend", null),
-          (0, n.Cg)([s.o], m.prototype, "OnWebSocketMessage", null);
+        (h.s_nNextMailboxNumber = 1),
+          (0, n.Cg)([o.observable], h.prototype, "connected", void 0),
+          (0, n.Cg)([s.o], h.prototype, "OpenWebSocketToHost", null),
+          (0, n.Cg)([s.o], h.prototype, "OnWebSocketOpen", null),
+          (0, n.Cg)([s.o], h.prototype, "OnWebSocketClose", null),
+          (0, n.Cg)([s.o], h.prototype, "OnWebSocketError", null),
+          (0, n.Cg)([s.o], h.prototype, "WebSocketSend", null),
+          (0, n.Cg)([s.o], h.prototype, "OnWebSocketMessage", null);
       },
       3606: (e, t, r) => {
         r.d(t, { F2: () => n });

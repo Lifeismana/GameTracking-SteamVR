@@ -1,4 +1,4 @@
-var CLSTAMP = "10630260";
+var CLSTAMP = "10715262";
 (self.webpackChunkvrwebui = self.webpackChunkvrwebui || []).push([
   [305],
   {
@@ -42,18 +42,14 @@ var CLSTAMP = "10630260";
       var n = o(6540),
         r = o(3725),
         s = o(5723);
-      function i(e, t) {
-        return e ? { x: e.x ? e.x : t.x, y: e.y ? e.y : t.y } : t;
+      function i(e, t = { x: 0, y: 0 }) {
+        return Object.assign(Object.assign({}, t), e);
       }
-      function a(e, t) {
-        return e
-          ? { x: e.x ? e.x : t.x, y: e.y ? e.y : t.y, z: e.z ? e.z : t.z }
-          : t;
+      function a(e, t = { x: 0, y: 0, z: 0 }) {
+        return Object.assign(Object.assign({}, t), e);
       }
       function l(e, t) {
-        return e
-          ? { r: e.r ? e.r : t.r, g: e.g ? e.g : t.g, b: e.b ? e.b : t.b }
-          : t;
+        return Object.assign(Object.assign({}, t), e);
       }
       function g(e) {
         if (e) return [e.x, e.y];
@@ -74,11 +70,13 @@ var CLSTAMP = "10630260";
         return e && void 0 !== e.to;
       }
       function h(e) {
-        return "number" == typeof e
-          ? e
-          : (t = e) && void 0 !== t.to
-            ? [e.channel, e.interp, e.from, e.to]
-            : void 0;
+        return null == e
+          ? void 0
+          : "number" == typeof e
+            ? e
+            : (t = e) && void 0 !== t.to
+              ? [e.channel, e.interp, e.from, e.to]
+              : void 0;
         var t;
       }
       function b(e) {
@@ -103,16 +101,18 @@ var CLSTAMP = "10630260";
             (this.m_buildNodeOverride = null),
             (this.m_SGID = r._E);
           const o = e.id && "string" == typeof e.id;
-          o &&
-            this.BCanUseStableSGIDs() &&
-            m.s_mapStableSGIDsForIDs.has(e.id) &&
-            ((this.m_SGID = m.s_mapStableSGIDsForIDs.get(e.id)),
-            m.s_mapCurrentlyMountedSGIDs.has(this.m_SGID) &&
-              (console.error(
-                `Constructing SGBase component (ID="${e.id}") at the same time another component with that SGID is mounted. Using a new SGID.`,
-                this.m_SGID,
-              ),
-              (this.m_SGID = r._E))),
+          this.props.explicitSGID
+            ? (this.m_SGID = this.props.explicitSGID)
+            : o &&
+              this.BCanUseStableSGIDs() &&
+              m.s_mapStableSGIDsForIDs.has(e.id) &&
+              ((this.m_SGID = m.s_mapStableSGIDsForIDs.get(e.id)),
+              m.s_mapCurrentlyMountedSGIDs.has(this.m_SGID) &&
+                (console.error(
+                  `Constructing SGBase component (ID="${e.id}") at the same time another component with that SGID is mounted. Using a new SGID.`,
+                  this.m_SGID,
+                ),
+                (this.m_SGID = r._E))),
             this.m_SGID == r._E &&
               ((this.m_SGID =
                 null !==

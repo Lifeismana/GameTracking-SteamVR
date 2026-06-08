@@ -1,4 +1,4 @@
-var CLSTAMP = "10630260";
+var CLSTAMP = "10715262";
 (self.webpackChunkvrwebui = self.webpackChunkvrwebui || []).push([
   [384],
   {
@@ -7,7 +7,7 @@ var CLSTAMP = "10630260";
         r = o(3496),
         i = o(7019),
         a = o(3236);
-      class _ extends r._J {
+      class l extends r._J {
         constructor(e) {
           super(e),
             (this.m_latchedPosition = null),
@@ -31,10 +31,10 @@ var CLSTAMP = "10630260";
             ? (a = (0, r.PG)(this.props.location, { x: 0, y: 0 }))
             : "number" == typeof this.props.location &&
               (a = (0, i.Lr)(this.props.location));
-          let _ = this.createSgNode(t);
+          let l = this.createSgNode(t);
           if (this.props.latched && null !== this.m_latchedPosition)
-            (_.properties["anchor-u"] = this.m_latchedPosition.u),
-              (_.properties["anchor-v"] = this.m_latchedPosition.v);
+            (l.properties["anchor-u"] = this.m_latchedPosition.u),
+              (l.properties["anchor-v"] = this.m_latchedPosition.v);
           else if (a) {
             const t = { u: 0.5 * a.x + 0.5, v: -0.5 * a.y + 0.5 },
               o =
@@ -42,8 +42,8 @@ var CLSTAMP = "10630260";
                   ? t
                   : e.currentPanel.scaleLocalUVToGlobal(t);
             o &&
-              ((_.properties["anchor-u"] = o.u),
-              (_.properties["anchor-v"] = o.v));
+              ((l.properties["anchor-u"] = o.u),
+              (l.properties["anchor-v"] = o.v));
           } else {
             if (!e.currentPanel)
               return [
@@ -53,9 +53,9 @@ var CLSTAMP = "10630260";
             const r = t.ownerDocument,
               i = t.getBoundingClientRect(),
               a = i.left + i.width / 2,
-              l = i.top + i.height / 2,
+              _ = i.top + i.height / 2,
               s = e.currentPanel.m_Rect;
-            if (a < s.x || a > s.x + s.width || l < s.y || l > s.y + s.height)
+            if (a < s.x || a > s.x + s.width || _ < s.y || _ > s.y + s.height)
               return [
                 Object.assign(Object.assign({}, e), { bShouldAbort: !0 }),
                 null,
@@ -73,19 +73,19 @@ var CLSTAMP = "10630260";
                 Object.assign(Object.assign({}, e), { bShouldAbort: !0 }),
                 null,
               ];
-            (_.properties["anchor-u"] = a / d),
-              (_.properties["anchor-v"] = l / u);
+            (l.properties["anchor-u"] = a / d),
+              (l.properties["anchor-v"] = _ / u);
           }
           return (
             (this.m_latchedPosition = {
-              u: _.properties["anchor-u"],
-              v: _.properties["anchor-v"],
+              u: l.properties["anchor-u"],
+              v: l.properties["anchor-v"],
             }),
-            [e, _]
+            [e, l]
           );
         }
       }
-      (0, n.Cg)([a.o], _.prototype, "buildNode", null);
+      (0, n.Cg)([a.o], l.prototype, "buildNode", null);
     },
     6292: (e, t, o) => {
       function n(e, t) {
@@ -99,21 +99,21 @@ var CLSTAMP = "10630260";
           r = Math.cos(t),
           i = Math.cos(o),
           a = Math.cos(n),
-          _ = Math.sin(t),
-          l = Math.sin(o),
+          l = Math.sin(t),
+          _ = Math.sin(o),
           s = Math.sin(n);
         return {
-          w: r * i * a + _ * l * s,
-          x: _ * i * a + r * l * s,
-          y: r * l * a - _ * i * s,
-          z: r * i * s - _ * l * a,
+          w: r * i * a + l * _ * s,
+          x: l * i * a + r * _ * s,
+          y: r * _ * a - l * i * s,
+          z: r * i * s - l * _ * a,
         };
       }
       o.d(t, { Fb: () => r, tx: () => n });
     },
     3725: (e, t, o) => {
       var n, r, i, a;
-      function _() {
+      function l() {
         var e;
         return null !==
           (e =
@@ -123,7 +123,7 @@ var CLSTAMP = "10630260";
           ? e
           : n.Unknown;
       }
-      o.d(t, { OH: () => n, R$: () => _, _E: () => l }),
+      o.d(t, { OH: () => n, R$: () => l, _E: () => _ }),
         (function (e) {
           (e[(e.Desktop = 1)] = "Desktop"),
             (e[(e.Overlay = 2)] = "Overlay"),
@@ -155,8 +155,8 @@ var CLSTAMP = "10630260";
             (e[(e.Standing = 1)] = "Standing"),
             (e[(e.RawAndUncalibrated = 2)] = "RawAndUncalibrated");
         })(a || (a = {}));
-      let l = 0;
-      var s, d, u, c, p, S, m, g, D, R, I, B, y, h, C, F, v, M, f, P, A;
+      let _ = 0;
+      var s, d, u, c, p, S, m, g, D, R, B, y, h, I, C, F, v, M, f, P, A;
       !(function (e) {
         (e[(e.None = 0)] = "None"),
           (e[(e.Shown = 1)] = "Shown"),
@@ -224,16 +224,19 @@ var CLSTAMP = "10630260";
         })(D || (D = {})),
         (function (e) {
           (e[(e.LaserMouse = 1)] = "LaserMouse"),
-            (e[(e.Keyboard = 2)] = "Keyboard"),
-            (e[(e.RoomView = 4)] = "RoomView"),
-            (e[(e.DisplaySuppressed = 8)] = "DisplaySuppressed"),
-            (e[(e.SystemButtonDown = 16)] = "SystemButtonDown"),
-            (e[(e.DriverIsDrawingControllers = 32)] =
+            (e[(e.RoomViewFullyOccludingApp = 2)] =
+              "RoomViewFullyOccludingApp"),
+            (e[(e.DisplaySuppressed = 4)] = "DisplaySuppressed"),
+            (e[(e.SystemButtonDown = 8)] = "SystemButtonDown"),
+            (e[(e.DriverIsDrawingControllers = 16)] =
               "DriverIsDrawingControllers"),
-            (e[(e.DriverRequestsApplicationPause = 64)] =
+            (e[(e.DriverRequestsApplicationPause = 32)] =
               "DriverRequestsApplicationPause"),
-            (e[(e.DriverRequestsReducedRendering = 128)] =
-              "DriverRequestsReducedRendering");
+            (e[(e.DriverRequestsReducedRendering = 64)] =
+              "DriverRequestsReducedRendering"),
+            (e[(e.DashboardTutorial = 128)] = "DashboardTutorial"),
+            (e[(e.GamepadMode = 512)] = "GamepadMode"),
+            (e[(e.SystemKeyboardPrivacy = 1024)] = "SystemKeyboardPrivacy");
         })(R || (R = {})),
         (function (e) {
           (e[(e.BULK_DEFAULT = 0)] = "BULK_DEFAULT"),
@@ -251,20 +254,20 @@ var CLSTAMP = "10630260";
             (e[(e.ISO_30FPS = 12)] = "ISO_30FPS"),
             (e[(e.ISO_15FPS = 13)] = "ISO_15FPS"),
             (e[(e.MAX_CAMERA_COMPAT_MODES = 14)] = "MAX_CAMERA_COMPAT_MODES");
-        })(I || (I = {})),
+        })(B || (B = {})),
         (function (e) {
           (e[(e.ECameraExposure_Unknown = 0)] = "ECameraExposure_Unknown"),
             (e[(e.ECameraExposure_Nominal = 1)] = "ECameraExposure_Nominal"),
             (e[(e.ECameraExposure_HighExposure = 2)] =
               "ECameraExposure_HighExposure");
-        })(B || (B = {})),
+        })(y || (y = {})),
         (function (e) {
           (e[(e.None = 0)] = "None"),
             (e[(e.ThisSteamVR = 1)] = "ThisSteamVR"),
             (e[(e.AnotherSteamVR = 2)] = "AnotherSteamVR"),
             (e[(e.AnotherRuntime = 3)] = "AnotherRuntime"),
             (e[(e.Error = -1)] = "Error");
-        })(y || (y = {})),
+        })(h || (h = {})),
         (function (e) {
           (e[(e.TrackedControllerRole_Invalid = 0)] =
             "TrackedControllerRole_Invalid"),
@@ -278,7 +281,7 @@ var CLSTAMP = "10630260";
               "TrackedControllerRole_Treadmill"),
             (e[(e.TrackedControllerRole_Max = 5)] =
               "TrackedControllerRole_Max");
-        })(h || (h = {})),
+        })(I || (I = {})),
         (function (e) {
           (e[(e.Unknown = 0)] = "Unknown"),
             (e[(e.Steam_VRButton = 1)] = "Steam_VRButton"),
@@ -337,8 +340,8 @@ var CLSTAMP = "10630260";
         })(A || (A = {}));
     },
     4367: (e, t, o) => {
-      var n, r, i, a, _, l, s, d, u, c, p, S, m, g, D, R;
-      o.d(t, { fD: () => n }),
+      var n, r, i, a, l, _, s, d, u, c, p, S, m, g, D, R, B;
+      o.d(t, { fD: () => n, yW: () => m }),
         (function (e) {
           (e[(e.Invalid = 0)] = "Invalid"),
             (e[(e.TrackingSystemName_String = 1e3)] =
@@ -579,8 +582,8 @@ var CLSTAMP = "10630260";
               "Hmd_SupportsGpuBusMonitoring_Bool"),
             (e[(e.DriverProvidedIPDVisibility_Bool = 2108)] =
               "DriverProvidedIPDVisibility_Bool"),
-            (e[(e.Prop_Hmd_SupportsVRGamepadFocus_Bool = 2117)] =
-              "Prop_Hmd_SupportsVRGamepadFocus_Bool"),
+            (e[(e.Prop_SupportsVRGamepadMode_Bool = 2117)] =
+              "Prop_SupportsVRGamepadMode_Bool"),
             (e[(e.DriverRequestedMuraCorrectionMode_Int32 = 2200)] =
               "DriverRequestedMuraCorrectionMode_Int32"),
             (e[(e.DriverRequestedMuraFeather_InnerLeft_Int32 = 2201)] =
@@ -727,12 +730,12 @@ var CLSTAMP = "10630260";
             (e[(e.UserInteraction_Timeout = 2)] = "UserInteraction_Timeout"),
             (e[(e.Standby = 3)] = "Standby"),
             (e[(e.Idle_Timeout = 4)] = "Idle_Timeout");
-        })(_ || (_ = {})),
+        })(l || (l = {})),
         (function (e) {
           (e[(e.VRMouseButton_Left = 1)] = "VRMouseButton_Left"),
             (e[(e.VRMouseButton_Right = 2)] = "VRMouseButton_Right"),
             (e[(e.VRMouseButton_Middle = 4)] = "VRMouseButton_Middle");
-        })(l || (l = {})),
+        })(_ || (_ = {})),
         (function (e) {
           (e[(e.Notification_Shown = 600)] = "Notification_Shown"),
             (e[(e.Notification_Hidden = 601)] = "Notification_Hidden"),
@@ -784,21 +787,31 @@ var CLSTAMP = "10630260";
         })(m || (m = {})),
         (function (e) {
           (e[(e.Invalid = 0)] = "Invalid"),
-            (e[(e.System = 1)] = "System"),
-            (e[(e.SteamInput = 2)] = "SteamInput"),
-            (e[(e.VRInput = 3)] = "VRInput");
-        })(g || (g = {})),
-        (function (e) {
-          (e[(e.Invalid = 0)] = "Invalid"),
             (e[(e.SceneApp = 1)] = "SceneApp"),
             (e[(e.Panel = 2)] = "Panel");
+        })(g || (g = {})),
+        (function (e) {
+          (e[(e.ControllerPairing = 0)] = "ControllerPairing"),
+            (e[(e.WelcomeToSteamFrame = 1)] = "WelcomeToSteamFrame"),
+            (e[(e.SystemButtonHideDashboard = 2)] =
+              "SystemButtonHideDashboard"),
+            (e[(e.SystemButtonDashboardHidden = 3)] =
+              "SystemButtonDashboardHidden"),
+            (e[(e.SystemButtonShowDashboard = 4)] =
+              "SystemButtonShowDashboard"),
+            (e[(e.PairWifiDongle = 5)] = "PairWifiDongle"),
+            (e[(e.TourSendOff = 6)] = "TourSendOff"),
+            (e[(e.SteamGuidedTourFinished = 7)] = "SteamGuidedTourFinished");
         })(D || (D = {})),
         (function (e) {
           (e[(e.None = 0)] = "None"),
             (e[(e.ThirdPartyClient = 1)] = "ThirdPartyClient"),
             (e[(e.SteamVRClientUnified = 2)] = "SteamVRClientUnified"),
             (e[(e.SteamVRClientLegacyDual = 3)] = "SteamVRClientLegacyDual");
-        })(R || (R = {}));
+        })(R || (R = {})),
+        (function (e) {
+          (e[(e.Curved = 0)] = "Curved"), (e[(e.Flat = 1)] = "Flat");
+        })(B || (B = {}));
     },
   },
 ]); //# sourceMappingURL=file:///home/buildbot/buildslave/steamvr_rel_npm_vrwebui/build/public/runtime/resources/webinterface/dashboard/sourcemaps/chunk~bba50f336.js.map

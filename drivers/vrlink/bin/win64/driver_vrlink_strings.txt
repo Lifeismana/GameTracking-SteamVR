@@ -282,13 +282,13 @@ $\n k_EProtoServiceTypeSteamMessages
 .?AV<lambda_1b183cf92bfcc7a986ca41b48af450da>@@
 .?AV<lambda_1dab2bdf1e893592e9ed39f583e5875f>@@
 .?AV<lambda_1db60d98261e2e5ed663866066a32dcb>@@
+.?AV<lambda_2114b8c5f0941e9b036b7e87e031afc7>@@
 .?AV<lambda_2d4b9bd805c205933c366a2a96e134e0>@@
 .?AV<lambda_33478c8783614153bfe9aa6f88621db5>@@
 .?AV<lambda_3775199eb374ee8b8777545cef56c745>@@
 .?AV<lambda_3fd6e5ca82e0518e289160675f532929>@@
 .?AV<lambda_4034761bb2dd9685e1e3c01c30ab7f90>@@
 .?AV<lambda_45a768b69274d94452e24a9121231aff>@@
-.?AV<lambda_464f3c09c62c7563fe9e8d0867be1607>@@
 .?AV<lambda_5d28593e0d44957b6d4c7e93b1ccc634>@@
 .?AV<lambda_60eb63303e0c1f343ab64d1f44d258c8>@@
 .?AV<lambda_6a080fdf464447d22b6bc3e4b8e9e264>@@
@@ -314,6 +314,7 @@ $\n k_EProtoServiceTypeSteamMessages
 .?AV<lambda_d9fb5ad2b4779161ce72962e3eef40a0>@@
 .?AV<lambda_dc5d698f65e1a672a70e8828b33fb9d8>@@
 .?AV<lambda_e6c6d718dd3dc6eee0580ada32c627ff>@@
+.?AV<lambda_ea533f9b89f43d1da3c57557afd60bd2>@@
 .?AV<lambda_f0f7b39aef57b4d2c468cd45f5e39eea>@@
 .?AV<lambda_f6b5d47df092c684e925186f68bd5c46>@@
 .?AV?$TypeInfoT@VCAnimResource@@@Detail@Reflection@@
@@ -355,13 +356,13 @@ $\n k_EProtoServiceTypeSteamMessages
 .?AV?$_Func_impl_no_alloc@V<lambda_1b183cf92bfcc7a986ca41b48af450da>@@XW4ValueTransportID@@_N@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_1dab2bdf1e893592e9ed39f583e5875f>@@XW4ValueTransportID@@_N@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_1db60d98261e2e5ed663866066a32dcb>@@XAEBVValue@Json@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_2114b8c5f0941e9b036b7e87e031afc7>@@XW4ValueTransportID@@_N@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_2d4b9bd805c205933c366a2a96e134e0>@@XW4ELogLevel@@PEBDPEAX@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_33478c8783614153bfe9aa6f88621db5>@@XW4ValueTransportID@@_N@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_3775199eb374ee8b8777545cef56c745>@@XAEBVValue@Json@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_3fd6e5ca82e0518e289160675f532929>@@_NPEAXPEAU_SP_DEVINFO_DATA@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_4034761bb2dd9685e1e3c01c30ab7f90>@@XW4ValueTransportID@@_N@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_45a768b69274d94452e24a9121231aff>@@XW4ValueTransportID@@_N@std@@
-.?AV?$_Func_impl_no_alloc@V<lambda_464f3c09c62c7563fe9e8d0867be1607>@@XW4ValueTransportID@@_N@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_5d28593e0d44957b6d4c7e93b1ccc634>@@XW4ValueTransportID@@_N@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_60eb63303e0c1f343ab64d1f44d258c8>@@XW4ValueTransportID@@_N@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_6a080fdf464447d22b6bc3e4b8e9e264>@@XW4ValueTransportID@@_N@std@@
@@ -387,6 +388,7 @@ $\n k_EProtoServiceTypeSteamMessages
 .?AV?$_Func_impl_no_alloc@V<lambda_d9fb5ad2b4779161ce72962e3eef40a0>@@XW4ValueTransportID@@_N@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_dc5d698f65e1a672a70e8828b33fb9d8>@@XAEBVValue@Json@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_e6c6d718dd3dc6eee0580ada32c627ff>@@XW4ValueTransportID@@_N@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_ea533f9b89f43d1da3c57557afd60bd2>@@XW4ValueTransportID@@_N@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_f0f7b39aef57b4d2c468cd45f5e39eea>@@XW4ValueTransportID@@_N@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_f6b5d47df092c684e925186f68bd5c46>@@X_N@std@@
 .?AV?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8CVRMailbox@@EAAXAEBVValue@Json@@@ZPEAV3@AEBU?$_Ph@$00@2@@std@@XAEBVValue@Json@@@std@@
@@ -545,6 +547,7 @@ $\n k_EProtoServiceTypeSteamMessages
 .?AVVRLink_LaserMouseOverlay@@
 .?AVVRLink_LaserMouseOverlayUpdate@@
 .?AVVRLink_LaserMouseOverlay_TransformDetails@@
+.?AVVRLink_ShowSteamVRSettings@@
 .?AVVRLink_UnifiedDashboard_State@@
 .?AVWriter@Json@@
 .?AVZeroCopyInputStream@io@protobuf@google@@
@@ -850,6 +853,7 @@ $\n k_EProtoServiceTypeSteamMessages
 0000
 00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899
 00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899"
+00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899x
 00P`00P`
 0123456789abcdef
 0\v2;i
@@ -1614,6 +1618,7 @@ Failed to read file:
 Failed to request dashboard tutorial (%d)\n
 Failed to send OGS row update\n
 Failed to send link bandwidth measurement\n
+Failed to set QoS on socket (%s)\n
 Failed to set thread %p priority: invalid priority %d\n
 False
 Fatal
@@ -1741,6 +1746,8 @@ IAudioCaptureClient::GetBuffer said to read 0 frames on pass %u\n
 IAudioCaptureClient::GetBuffer() failed: hr = 0x%08x\n
 IAudioCaptureClient::GetNextPacketSize failed on pass %u: hr = 0x%08x\n
 IAudioCaptureClient::GetNextPacketSize() failed: hr = 0x%08x\n
+IAudioCaptureClient::GetNextPacketSize: device invalidated, attempting to reinitialize\n
+IAudioCaptureClient::GetNextPacketSize: failed, exiting loop and retrying\n
 IAudioCaptureClient::ReleaseBuffer(%u) failed on pass %u: hr = 0x%08x\n
 IAudioCaptureClient::ReleaseBuffer() failed: hr = 0x%08x\n
 IAudioClient::GetCurrentPadding failed on pass %u: hr = 0x%08x\n
@@ -2205,8 +2212,6 @@ RPCRT4.dll
 RRvM;;
 RSDS
 RX Fail:%d
-R\vpX
-R\vpt
 RaiseException
 Reached an unintended state: CPPTYPE_MESSAGE
 Reading dangerously large protocol message.  If the message turns out to be larger than 
@@ -2670,6 +2675,7 @@ VRLink_LaserMouseEvents
 VRLink_LaserMouseOverlay
 VRLink_LaserMouseOverlay.TransformDetails
 VRLink_LaserMouseOverlayUpdate
+VRLink_ShowSteamVRSettings
 VRLink_UnifiedDashboard_State
 VR_COMBINED_LOGGING
 VR_CONFIG_PATH
@@ -3217,9 +3223,9 @@ c:\buildslave\steamvr_rel_win64\build\src\thirdparty\protobuf-2.6.1\src\google\p
 c:\buildslave\steamvr_rel_win64\build\src\vrlink\common\svlfec.cpp:1078
 c:\buildslave\steamvr_rel_win64\build\src\vrlink\common\svlfec.cpp:761
 c:\buildslave\steamvr_rel_win64\build\src\vrlink\driver_vrlink\Retail\win64\2017\driver_vrlink.pdb
-c:\buildslave\steamvr_rel_win64\build\src\vrlink\driver_vrlink\hmd.cpp:2430
-c:\buildslave\steamvr_rel_win64\build\src\vrlink\driver_vrlink\hmd.cpp:2779
-c:\buildslave\steamvr_rel_win64\build\src\vrlink\driver_vrlink\hmd.cpp:2891
+c:\buildslave\steamvr_rel_win64\build\src\vrlink\driver_vrlink\hmd.cpp:2463
+c:\buildslave\steamvr_rel_win64\build\src\vrlink\driver_vrlink\hmd.cpp:2812
+c:\buildslave\steamvr_rel_win64\build\src\vrlink\driver_vrlink\hmd.cpp:2924
 c:\buildslave\steamvr_rel_win64\build\src\vrlink\driver_vrlink\hmdd3d11.cpp:1618
 c:\buildslave\steamvr_rel_win64\build\src\vrlink\driver_vrlink\steamvrlink.cpp
 c:\buildslave\steamvr_rel_win64\build\src\vrlink\driver_vrlink\videonvenc.cpp:1391
@@ -4053,6 +4059,7 @@ vrlink_
 vrlink_debug.json
 vrlink_frame_docklocation_request
 vrlink_room_setup
+vrlink_show_steamvr_setting
 vrlink_store
 vrshared_base.proto
 vs_5_0

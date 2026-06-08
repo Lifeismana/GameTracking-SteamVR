@@ -27,6 +27,7 @@
 	"Setting_FoveationOn": "On",
 	"Setting_FoveationOff": "Off",
 	"Setting_AllowMultipleLinks": "Allow Multiple Links",
+	"Setting_EnableHmdAutoConnect": "Automatically connect supported steamlink HMDs at SteamVR startup",
 
 	"svl_hand_interaction_augmented": "Hand Tracking Controller",
 	"/input/index_pinch": "Index Pinch",

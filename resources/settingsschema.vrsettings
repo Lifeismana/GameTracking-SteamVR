@@ -164,7 +164,7 @@
             }
         ]
 	},
-	
+
 	{
 		"title":		"#Settings_SectionTitle_EyeTracking",
 		"controller":	"eyetracking_settings"
@@ -276,6 +276,14 @@
 			},
 			{
 				"name": "/settings/dashboard/verticalOffsetCm_2",
+				"type": "number"
+			},
+			{
+				"name": "/settings/dashboard/relatchDotThreshold",
+				"type": "number"
+			},
+			{
+				"name": "/settings/dashboard/relatchDistanceThreshold",
 				"type": "number"
 			},
 			{

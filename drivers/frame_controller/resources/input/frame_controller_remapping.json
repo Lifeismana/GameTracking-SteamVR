@@ -1,0 +1,472 @@
+{
+  "to_controller_type": "frame_controller",
+  "layouts": [
+    {
+      "priority": 100,
+      "from_controller_type": "khr_generic_controller",
+      "simulate_controller_type": false,
+      "simulate_render_model": false,
+      "simulate_HMD": false,
+      "autoremappings": [
+        {
+          "from": "/user/hand/right/input/grip",
+          "to": "/user/hand/right/input/grip"
+        },
+        {
+          "from": "/user/hand/right/input/trigger",
+          "to": "/user/hand/right/input/trigger"
+        },
+        {
+          "from": "/user/hand/right/input/thumbstick",
+          "to": "/user/hand/right/input/thumbstick"
+        },
+        {
+          "from": "/user/hand/left/input/primary",
+          "to": "/user/hand/left/input/dpad_down",
+          "mirror": false
+        },
+        {
+          "from": "/user/hand/left/input/secondary",
+          "to": [
+            "/user/hand/left/input/dpad_left",
+            "/user/hand/left/input/dpad_right"
+          ],
+          "mirror": false
+        },
+        {
+          "from": "/user/hand/right/input/primary",
+          "to": "/user/hand/right/input/a",
+          "mirror": false
+        },
+        {
+          "from": "/user/hand/right/input/secondary",
+          "to": [
+            "/user/hand/right/input/b",
+            "/user/hand/right/input/x"
+          ],
+          "mirror": false
+        }
+      ]
+    },
+    {
+      "priority": 95,
+      "from_controller_type": "oculus_touch",
+      "simulate_controller_type": true,
+      "simulate_render_model": true,
+      "simulate_HMD": true,
+      "autoremappings": [
+        {
+          "from": "/user/hand/right/input/grip",
+          "to": "/user/hand/right/input/grip"
+        },
+        {
+          "from": "/user/hand/right/input/trigger",
+          "to": ["/user/hand/right/input/trigger","/user/hand/right/input/bumper"],
+          "parameters": {
+            "click_activate_threshold": "0.7",
+            "click_deactivate_threshold": "0.65",
+            "touch_activate_threshold": "0.05",
+            "touch_deactivate_threshold": "0.02"
+          }
+        },
+        {
+          "from": "/user/hand/right/input/joystick",
+          "to": "/user/hand/right/input/thumbstick"
+        },
+        {
+          "from": "/user/hand/left/input/x",
+          "to": "/user/hand/left/input/dpad_down",
+          "mirror": false
+        },
+        {
+          "from": "/user/hand/left/input/y",
+          "to": [
+            "/user/hand/left/input/dpad_left",
+            "/user/hand/left/input/dpad_right",
+            "/user/hand/left/input/dpad_up"
+          ],
+          "mirror": false
+        },
+        {
+          "from": "/user/hand/right/input/a",
+          "to": "/user/hand/right/input/a",
+          "mirror": false
+        },
+        {
+          "from": "/user/hand/right/input/b",
+          "to": [
+            "/user/hand/right/input/b",
+            "/user/hand/right/input/x",
+            "/user/hand/right/input/y"
+          ],
+          "mirror": false
+        }
+      ],
+      "remappings": [
+        {
+          "remapping_mode": "replace",
+          "from": {
+            "path": "/user/hand/left/input/menu"
+          },
+          "to": {
+            "path": "/user/hand/left/input/view"
+          }
+        },
+        {
+          "remapping_mode": "multiple",
+          "from": {
+            "path": "/user/hand/right/input/trigger",
+            "mode": "trigger",
+            "input": "click"
+          },
+          "to": {
+            "path": "/user/hand/right/input/trigger",
+            "mode": "button",
+            "input": "click",
+            "parameters": {
+              "click_activate_threshold": "0.7",
+              "click_deactivate_threshold": "0.65",
+              "haptic_amplitude": "0"
+            }
+          }
+        },
+        {
+          "remapping_mode": "multiple",
+          "from": {
+            "path": "/user/hand/left/input/trigger",
+            "mode": "trigger",
+            "input": "click"
+          },
+          "to": {
+            "path": "/user/hand/left/input/trigger",
+            "mode": "button",
+            "input": "click",
+            "parameters": {
+              "click_activate_threshold": "0.7",
+              "click_deactivate_threshold": "0.65",
+              "haptic_amplitude": "0"
+            }
+          }
+        },
+        {
+          "remapping_mode": "multiple",
+          "from": {
+            "path": "/user/hand/right/input/trigger",
+            "mode": "trigger",
+            "input": "click"
+          },
+          "to": {
+            "path": "/user/hand/right/input/bumper",
+            "mode": "button",
+            "input": "click"
+          }
+        },
+        {
+          "remapping_mode": "multiple",
+          "from": {
+            "path": "/user/hand/left/input/trigger",
+            "mode": "trigger",
+            "input": "click"
+          },
+          "to": {
+            "path": "/user/hand/left/input/bumper",
+            "mode": "button",
+            "input": "click"
+          }
+        },
+        {
+          "from": {
+            "path": "/user/hand/right/input/grip",
+            "mode": "trigger",
+            "input": "click"
+          },
+          "to": {
+            "path": "/user/hand/right/input/grip",
+            "mode": "button",
+            "input": "click",
+            "parameters": {
+              "click_activate_threshold": "0.7",
+              "click_deactivate_threshold": "0.65",
+              "haptic_amplitude": "0"
+            }
+          }
+        },
+        {
+          "from": {
+            "path": "/user/hand/left/input/grip",
+            "mode": "trigger",
+            "input": "click"
+          },
+          "to": {
+            "path": "/user/hand/left/input/grip",
+            "mode": "button",
+            "input": "click",
+            "parameters": {
+              "click_activate_threshold": "0.7",
+              "click_deactivate_threshold": "0.65",
+              "haptic_amplitude": "0"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "priority": 93,
+      "from_controller_type": "pico_controller",
+      "simulate_controller_type": true,
+      "simulate_render_model": true,
+      "simulate_HMD": true,
+      "autoremappings": [
+        {
+          "from": "/user/hand/right/input/grip",
+          "to": "/user/hand/right/input/grip"
+        },
+        {
+          "from": "/user/hand/right/input/trigger",
+          "to": "/user/hand/right/input/trigger",
+          "parameters": {
+            "click_activate_threshold": "0.7",
+            "click_deactivate_threshold": "0.65",
+            "touch_activate_threshold": "0.05",
+            "touch_deactivate_threshold": "0.02"
+          }
+        },
+        {
+          "from": "/user/hand/right/input/joystick",
+          "to": "/user/hand/right/input/thumbstick"
+        },
+        {
+          "from": "/user/hand/left/input/x",
+          "to": "/user/hand/left/input/dpad_down",
+          "mirror": false
+        },
+        {
+          "from": "/user/hand/left/input/y",
+          "to": [
+            "/user/hand/left/input/dpad_left",
+            "/user/hand/left/input/dpad_right",
+            "/user/hand/left/input/dpad_up"
+          ],
+          "mirror": false
+        },
+        {
+          "from": "/user/hand/right/input/a",
+          "to": "/user/hand/right/input/a",
+          "mirror": false
+        },
+        {
+          "from": "/user/hand/right/input/b",
+          "to": [
+            "/user/hand/right/input/b",
+            "/user/hand/right/input/x",
+            "/user/hand/right/input/y"
+          ],
+          "mirror": false
+        }
+      ],
+      "remappings": [
+        {
+          "remapping_mode": "replace",
+          "from": {
+            "path": "/user/hand/left/input/menu"
+          },
+          "to": {
+            "path": "/user/hand/left/input/view"
+          }
+        },
+        {
+          "from": {
+            "path": "/user/hand/right/input/trigger",
+            "mode": "trigger",
+            "input": "click"
+          },
+          "to": {
+            "path": "/user/hand/right/input/trigger",
+            "mode": "button",
+            "input": "click",
+            "parameters": {
+              "click_activate_threshold": "0.7",
+              "click_deactivate_threshold": "0.65",
+              "haptic_amplitude": "0"
+            }
+          }
+        },
+        {
+          "from": {
+            "path": "/user/hand/left/input/trigger",
+            "mode": "trigger",
+            "input": "click"
+          },
+          "to": {
+            "path": "/user/hand/left/input/trigger",
+            "mode": "button",
+            "input": "click",
+            "parameters": {
+              "click_activate_threshold": "0.7",
+              "click_deactivate_threshold": "0.65",
+              "haptic_amplitude": "0"
+            }
+          }
+        },
+        {
+          "from": {
+            "path": "/user/hand/right/input/grip",
+            "mode": "trigger",
+            "input": "click"
+          },
+          "to": {
+            "path": "/user/hand/right/input/grip",
+            "mode": "button",
+            "input": "click",
+            "parameters": {
+              "click_activate_threshold": "0.7",
+              "click_deactivate_threshold": "0.65",
+              "haptic_amplitude": "0"
+            }
+          }
+        },
+        {
+          "from": {
+            "path": "/user/hand/left/input/grip",
+            "mode": "trigger",
+            "input": "click"
+          },
+          "to": {
+            "path": "/user/hand/left/input/grip",
+            "mode": "button",
+            "input": "click",
+            "parameters": {
+              "click_activate_threshold": "0.7",
+              "click_deactivate_threshold": "0.65",
+              "haptic_amplitude": "0"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "priority": 90,
+      "from_controller_type": "knuckles",
+      "simulate_controller_type": true,
+      "simulate_render_model": true,
+      "simulate_HMD": true,
+      "autoremappings": [
+        {
+          "from": "/user/hand/right/input/grip",
+          "to": "/user/hand/right/input/grip"
+        },
+        {
+          "from": "/user/hand/right/input/trigger",
+          "to": ["/user/hand/right/input/trigger","/user/hand/right/input/bumper"],
+          "parameters": {
+            "click_activate_threshold": "0.7",
+            "click_deactivate_threshold": "0.65",
+            "touch_activate_threshold": "0.05",
+            "touch_deactivate_threshold": "0.02"
+          }
+        },
+        {
+          "from": "/user/hand/right/input/pinch",
+          "to": ["/user/hand/right/input/trigger","/user/hand/right/input/trigger"]
+        },
+        {
+          "from": "/user/hand/left/input/a",
+          "to": "/user/hand/left/input/dpad_down",
+          "mirror": false
+        },
+        {
+          "from": "/user/hand/left/input/b",
+          "to": [
+            "/user/hand/left/input/dpad_left",
+            "/user/hand/left/input/dpad_right",
+            "/user/hand/left/input/dpad_up"
+          ],
+          "mirror": false
+        },
+        {
+          "from": "/user/hand/right/input/a",
+          "to": "/user/hand/right/input/a",
+          "mirror": false
+        },
+        {
+          "from": "/user/hand/right/input/b",
+          "to": [
+            "/user/hand/right/input/b",
+            "/user/hand/right/input/x",
+            "/user/hand/right/input/y"
+          ],
+          "mirror": false
+        }
+      ]
+    },
+    {
+      "priority": 70,
+      "from_controller_type": "hand_interaction_ext",
+      "simulate_controller_type": false,
+      "simulate_render_model": false,
+      "simulate_HMD": false,
+      "autoremappings": [
+        {
+          "from": "/user/hand/right/input/grasp_ext",
+          "to": "/user/hand/right/input/grip"
+        },
+        {
+          "from": "/user/hand/right/input/pinch_ext",
+          "to": "/user/hand/right/input/trigger"
+        },
+        {
+          "from": "/user/hand/right/input/aim_activate_ext",
+          "to": "/user/hand/right/input/trigger"
+        }
+      ]
+    },
+    {
+      "priority": 20,
+      "from_controller_type": "vive_controller",
+      "simulate_controller_type": true,
+      "simulate_render_model": true,
+      "simulate_HMD": true,
+      "autoremappings": [
+        {
+          "from": "/user/hand/right/input/grip",
+          "to": "/user/hand/right/input/grip"
+        },
+        {
+          "from": "/user/hand/right/input/trigger",
+          "to": "/user/hand/right/input/trigger",
+          "parameters": {
+            "click_activate_threshold": "0.7",
+            "click_deactivate_threshold": "0.65",
+            "touch_activate_threshold": "0.05",
+            "touch_deactivate_threshold": "0.02"
+          }
+        },
+        {
+          "from": "/user/hand/right/input/trackpad",
+          "to": "/user/hand/right/input/thumbstick"
+        },
+        {
+          "from": "/user/hand/right/input/application_menu",
+          "to": "/user/hand/right/input/a"
+        }
+      ]
+    },
+    {
+      "priority": 10,
+      "from_controller_type": "khr_simple_controller",
+      "simulate_controller_type": false,
+      "simulate_render_model": false,
+      "simulate_HMD": false,
+      "autoremappings": [
+        {
+          "from": "/user/hand/right/input/select",
+          "to": "/user/hand/right/input/trigger"
+        },
+        {
+          "from": "/user/hand/right/input/menu",
+          "to": "/user/hand/right/input/a"
+        }
+      ]
+    }
+  ]
+}

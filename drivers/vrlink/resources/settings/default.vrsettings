@@ -24,7 +24,7 @@
         "openDashboardOnConnectionLoss" : true,
         "streamFormatWidth": 1024,
         "forceBaselineVideoFEC": false,
-        "wirelessShutdownTimeout" : 300,
+        "wirelessShutdownTimeout" : 30,
         "asyncSend" : false,
         "backoffRecoveryCoefficient" : 3.5,
         "enableAmfEncoder" : true,
@@ -36,6 +36,7 @@
         "allowVolumeSync" : true,
 		"asyncStartEncode" : true,
         "enableHandTracking" : true,
-        "allowMultipleLinks" :  true
+        "allowMultipleLinks" :  true,
+	"enableHmdAutoConnect" : true
     }
 }

@@ -588,7 +588,6 @@ java resource
 keylength >= 2^30
 labelInfo must be non-NULL
 layer 
-lb94
 ld-linux-x86-64.so.2
 libc.so.6
 libdl.so.2
@@ -611,7 +610,7 @@ memcpy
 memmove
 memset
 modf
-mold 1.10.1 (compatible with GNU ld)
+mold 2.36.0 (compatible with GNU ld)
 must be non-NULL
 name
 new 

@@ -132,7 +132,7 @@
 /user/waist
 /user/wrist/left
 /user/wrist/right
-15:18:01
+14:12:14
 1e+9999
 : exception thrown in JSON library
 <unknown>
@@ -203,9 +203,12 @@ Aborting due to fatal assertion failure.
 Another app was already launching (117)
 App info manager init failed (114)
 Assert( %s ) %s(%d)\n
+Attempting to start home app %s (hmd activated post launch)
+Attempting to start home app %s (startup check has hmd)
 Bad escape sequence in string
 Bad unicode escape sequence in string: four digits expected.
 Bad unicode escape sequence in string: hexadecimal digit expected.
+B|IAt
 CVRLog::LogDirect
 Cannot initialize crash handling in a project without the Steam API available
 CloseHandle
@@ -362,6 +365,7 @@ Invalid Arguments
 Invalid Interface (106)
 IsDebuggerPresent
 IsProcessorFeaturePresent
+Jun  5 2026
 K32EnumProcesses
 K32GetProcessImageFileNameA
 KERNEL32.dll
@@ -374,7 +378,6 @@ Log path could not be located (112)
 Low Power Watchdog Not Supported (129)
 MSVCP140.dll
 MainThrd
-May  1 2026
 Missing ',' or ']' in array declaration
 Missing ',' or '}' in object declaration
 Missing ':' after object member name
@@ -949,6 +952,7 @@ spanish
 stackLimit
 startup
 startup_reason
+startup_reason %s
 steam_api64
 steam_api64.dll
 steamvr

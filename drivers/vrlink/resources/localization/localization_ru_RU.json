@@ -26,6 +26,7 @@
 	"Setting_FoveationOn": "Вкл.",
 	"Setting_FoveationOff": "Выкл.",
 	"Setting_AllowMultipleLinks": "Разрешить несколько ссылок",
+	"Setting_EnableHmdAutoConnect": "Автоматически подключать поддерживаемые Steam Link шлемы при запуске SteamVR",
 	"svl_hand_interaction_augmented": "Контроллер для отслеживания движений рук",
 	"/input/index_pinch": "Сведение указательного и большого пальцев",
 	"/input/middle_pinch": "Сведение среднего и большого пальцев",

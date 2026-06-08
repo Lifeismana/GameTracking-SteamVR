@@ -834,39 +834,6 @@ div.BindingCalloutModifierIcon {
 .DashboardMain .ControlBarSpacing {
   flex-grow: 1;
 }
-.GrabHandleBar {
-  height: 10px;
-  background-color: var(--dashboard-control-bar-button-color-b);
-  border-radius: 20px;
-  transition: background-color var(--settings-control-hover-fade-duration);
-}
-.GrabHandleButton {
-  pointer-events: all;
-  padding: 30px;
-}
-.GrabHandleButton:hover .GrabHandleBar {
-  background-color: #fff;
-}
-.GrabHandleBar.ForceActive {
-  background-color: #fff;
-}
-.ResizeHandleBar {
-  width: 280px;
-  height: 10px;
-  background-color: var(--dashboard-control-bar-button-color-b);
-  border-radius: 20px;
-  transition: background-color var(--settings-control-hover-fade-duration);
-}
-.ResizeHandleButton {
-  pointer-events: all;
-  padding: 30px;
-}
-.ResizeHandleButton:hover .ResizeHandleBar {
-  background-color: #fff;
-}
-.ResizeHandleBar.ForceActive {
-  background-color: #fff;
-}
 .DashboardMain .PaginatedCarousel {
   --paginated-carousel-button-size: 4rem;
   position: relative;
@@ -1854,6 +1821,15 @@ div.BindingCalloutModifierIcon {
 .DashboardMain .NowPlaying .InfoColumn .ButtonControl:not(.Colorful):hover {
   background: rgba(255, 255, 255, 0.3);
 }
+.DashboardMain .NowPlaying .InfoColumn .ButtonControl.Advanced:not(.Colorful) {
+  background: var(--settings-advanced-control-background-color);
+}
+.DashboardMain
+  .NowPlaying
+  .InfoColumn
+  .ButtonControl.Advanced:not(.Colorful):hover {
+  background: var(--settings-advanced-control-hover-background-color);
+}
 .DashboardMain .DashboardPanel .ButtonControl.PanelTopRight {
   position: absolute;
   top: var(--dashboard-panel-padding);
@@ -2198,77 +2174,5 @@ div.BindingCalloutModifierIcon {
   width: 1em;
   height: 1em;
   margin: auto;
-}
-.RoomSetupUI {
-  width: 25em;
-  display: flex;
-  flex-direction: column;
-  background: radial-gradient(
-    155.42% 100% at 0% 0%,
-    var(--gamepadui-soft-black) 0 0%,
-    var(--gamepadui-darkest-grey) 100%
-  );
-  background-size: 100% 100%;
-  border-radius: 10px;
-  padding: 20px;
-  border: solid 1px rgba(255, 255, 255, 0.1);
-  color: var(--gamepadui-lightest-grey);
-}
-.RoomSetupUI.Slim {
-  width: 20em;
-}
-.RoomSetupUI .Title {
-  font-size: 1.6em;
-  font-weight: bold;
-  align-items: center;
-  justify-content: center;
-  margin: 20px;
-  margin-top: 0;
-  align-self: center;
-}
-.RoomSetupUI .Body {
-  margin: 20px;
-  margin-top: 0;
-  align-self: center;
-}
-.RoomSetupUI .ButtonRow {
-  display: flex;
-  flex-direction: row;
-  align-self: center;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-.RoomSetupUI .ButtonRow .Right {
-  justify-content: right;
-}
-.RoomSetupUI .ButtonRow .ButtonControl {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  width: fit-content;
-}
-.RoomSetupUI svg {
-  height: 1em;
-  margin-right: .8ch;
-  flex-shrink: 0;
-}
-.RoomSetupUI .ButtonRow .ButtonControl svg {
-  height: 1em;
-  margin-right: .8ch;
-  flex-shrink: 0;
-}
-.AdjustPlayspaceRoot {
-  width: 32px;
-  height: 32px;
-}
-.AdjustPlayspaceRoot .Invalid {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  box-sizing: border-box;
-  background: rgba(50, 0, 0, 0.75);
-  border: 1px solid red;
 }
 /*# sourceMappingURL=file:///home/buildbot/buildslave/steamvr_rel_npm_vrwebui/build/public/runtime/resources/webinterface/dashboard/sourcemaps/css/chunk~93a8598f9.css.map*/

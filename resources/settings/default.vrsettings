@@ -100,7 +100,11 @@
         "allowTrackingCameraRecording": false,
         "allowTrackingScreenRecording": false,
         "allowTrackingAudioRecording": false,
-        "advpredictweights": "advpredict.weights"
+        "advpredictweights": "advpredict.weights",
+        "recommendedResolutionMultiplierMin": 0.2,
+        "recommendedResolutionMultiplierMax": 5.0,
+        "recommendedResolutionMultiplierSteps": 0.02,
+        "showRecommendedResolutionPercentage": true
     },
     "openxr": {
         "metaUnityPluginCompatibility": 0
@@ -140,6 +144,7 @@
     },
     "perfcheck": {
         "perfGraphInHMD": false,
+        "recordStats": false,
         "allowTimingStore": false,
         "saveTimingsOnExit": false,
         "perfTestData": 0.0
@@ -226,6 +231,9 @@
         "scaleSliderMax": 1.5,
         "showPowerOptions": true,
         "allowAppQuitting": true,
+        "cursorScale": 1.0,
+        "cursorOpacity": 1.0,
+        "laserRayWidthScale": 1.0,
         "showDesktop": true,
         "showEscapeHatch": false,
         "lastAccessedExternalOverlayKey": "",

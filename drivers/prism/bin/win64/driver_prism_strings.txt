@@ -595,7 +595,7 @@ Projection
 QueryPerformanceCounter
 QueryPerformanceFrequency
 RPCRT4.dll
-RSDS;]
+RSDS
 RaiseException
 ReadFile
 ReadFile failed on %s after event was signaled because %s\n
@@ -801,10 +801,10 @@ c:\buildslave\steamvr_rel_win64\build\src\facet\src\vksync.cpp
 c:\buildslave\steamvr_rel_win64\build\src\facet\src\vkutils.cpp
 c:\buildslave\steamvr_rel_win64\build\src\prism\driver_prism\Retail\win64\2017\driver_prism.pdb
 c:\buildslave\steamvr_rel_win64\build\src\prism\driver_prism\prismdirect.cpp
-c:\buildslave\steamvr_rel_win64\build\src\prism\driver_prism\prismdirect.cpp:443
-c:\buildslave\steamvr_rel_win64\build\src\prism\driver_prism\prismdirect.cpp:478
-c:\buildslave\steamvr_rel_win64\build\src\prism\driver_prism\prismdirect.cpp:531
-c:\buildslave\steamvr_rel_win64\build\src\prism\driver_prism\prismdirect.cpp:547
+c:\buildslave\steamvr_rel_win64\build\src\prism\driver_prism\prismdirect.cpp:444
+c:\buildslave\steamvr_rel_win64\build\src\prism\driver_prism\prismdirect.cpp:479
+c:\buildslave\steamvr_rel_win64\build\src\prism\driver_prism\prismdirect.cpp:532
+c:\buildslave\steamvr_rel_win64\build\src\prism\driver_prism\prismdirect.cpp:548
 client
 create
 d3d11.dll
@@ -1678,3 +1678,4 @@ vkWriteMicromapsPropertiesEXT
 vrprismhost_startup
 vrprismhost_startup timed out after %u ms before being set by the new vrprismhost process
 vulkan-1.dll
+wO4_

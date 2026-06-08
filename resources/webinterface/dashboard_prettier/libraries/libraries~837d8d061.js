@@ -1,6 +1,6 @@
-var CLSTAMP = "10630260";
+var CLSTAMP = "10715262";
 (self.webpackChunkvrwebui = self.webpackChunkvrwebui || []).push([
-  [267, 260, 47],
+  [267],
   {
     6874: (e, t, r) => {
       var n,
@@ -32,8 +32,8 @@ var CLSTAMP = "10630260";
         return p;
       }
       var h,
-        b,
-        v = new (
+        v,
+        b = new (
           "undefined" != typeof FinalizationRegistry
             ? FinalizationRegistry
             : (function () {
@@ -98,7 +98,7 @@ var CLSTAMP = "10630260";
             name: t,
             subscribe: function (e) {
               return (
-                v.unregister(n),
+                b.unregister(n),
                 (n.onStoreChange = e),
                 n.reaction || (m(n), (n.stateVersion = Symbol())),
                 function () {
@@ -119,7 +119,7 @@ var CLSTAMP = "10630260";
           u,
           i = r.current;
         if (
-          (i.reaction || (m(i), v.register(r, i, i)),
+          (i.reaction || (m(i), b.register(r, i, i)),
           a.useDebugValue(i.reaction, f),
           s.useSyncExternalStore(i.subscribe, i.getSnapshot, i.getSnapshot),
           i.reaction.track(function () {
@@ -136,14 +136,14 @@ var CLSTAMP = "10630260";
       }
       var S,
         w = "function" == typeof Symbol && Symbol.for,
-        _ =
+        k =
           null !=
             (h =
               null ==
-              (b = Object.getOwnPropertyDescriptor(function () {}, "name"))
+              (v = Object.getOwnPropertyDescriptor(function () {}, "name"))
                 ? void 0
-                : b.configurable) && h,
-        k = w
+                : v.configurable) && h,
+        _ = w
           ? Symbol.for("react.forward_ref")
           : "function" == typeof u.forwardRef &&
             u.forwardRef(function (e) {
@@ -173,7 +173,7 @@ var CLSTAMP = "10630260";
         var n = t || r;
         return "function" != typeof n ? null : g(n);
       }
-      function O(e) {
+      function x(e) {
         var t = u.useState(function () {
           return o.observable(e, {}, { deep: !1 });
         })[0];
@@ -185,36 +185,15 @@ var CLSTAMP = "10630260";
         );
       }
       (E.displayName = "Observer"), l(i.unstable_batchedUpdates);
-      var P = null != (S = v.finalizeAllImmediately) ? S : function () {};
+      var P = null != (S = b.finalizeAllImmediately) ? S : function () {};
       t.useObserver = function (e, t) {
         return void 0 === t && (t = "observed"), g(e, t);
       };
     },
-    5266: (e, t, r) => {
-      r.r(t),
-        r.d(t, {
-          Observer: () => c,
-          _observerFinalizationRegistry: () => i.Y,
-          clearTimers: () => b,
-          enableStaticRendering: () => a.e,
-          isObserverBatched: () => o.m_,
-          isUsingStaticRendering: () => a.P,
-          observer: () => s.P,
-          observerBatching: () => o.tl,
-          useAsObservableSource: () => y,
-          useLocalObservable: () => d,
-          useLocalStore: () => h,
-          useObserver: () => v,
-          useStaticRendering: () => m,
-        });
-      r(724);
-      var n = r(9889),
-        o = r(8909),
-        u = r(4452),
-        a = r(3815),
-        i = r(3438),
-        s = r(6035);
-      function c(e) {
+    9712: (e, t, r) => {
+      r.d(t, { n: () => o });
+      var n = r(4452);
+      function o(e) {
         var t = e.children,
           r = e.render;
         t &&
@@ -222,45 +201,47 @@ var CLSTAMP = "10630260";
           console.error(
             "MobX Observer: Do not use children and render in the same time in `Observer`",
           );
-        var n = t || r;
-        return "function" != typeof n ? null : (0, u.q)(n);
+        var o = t || r;
+        return "function" != typeof o ? null : (0, n.q)(o);
       }
-      c.displayName = "Observer";
-      var l,
-        f = r(7813),
-        p = r(6540);
-      function d(e, t) {
-        return (0, p.useState)(function () {
-          return (0, f.observable)(e(), t, { autoBind: !0 });
-        })[0];
-      }
-      function y(e) {
-        var t = (0, p.useState)(function () {
-          return (0, f.observable)(e, {}, { deep: !1 });
+      o.displayName = "Observer";
+    },
+    3542: (e, t, r) => {
+      r.d(t, { W: () => u });
+      var n = r(7813),
+        o = r(6540);
+      function u(e) {
+        var t = (0, o.useState)(function () {
+          return (0, n.observable)(e, {}, { deep: !1 });
         })[0];
         return (
-          (0, f.runInAction)(function () {
+          (0, n.runInAction)(function () {
             Object.assign(t, e);
           }),
           t
         );
       }
-      function h(e, t) {
-        var r = t && y(t);
-        return (0, p.useState)(function () {
-          return (0, f.observable)(e(r), void 0, { autoBind: !0 });
+    },
+    5562: (e, t, r) => {
+      r.d(t, { i: () => u });
+      var n = r(7813),
+        o = r(6540);
+      function u(e, t) {
+        return (0, o.useState)(function () {
+          return (0, n.observable)(e(), t, { autoBind: !0 });
         })[0];
       }
-      (0, o.tl)(n.r);
-      var b =
-        null !== (l = i.Y.finalizeAllImmediately) && void 0 !== l
-          ? l
-          : function () {};
-      function v(e, t) {
-        return void 0 === t && (t = "observed"), (0, u.q)(e, t);
-      }
-      function m(e) {
-        (0, a.e)(e);
+    },
+    1154: (e, t, r) => {
+      r.d(t, { W: () => a });
+      var n = r(7813),
+        o = r(6540),
+        u = r(3542);
+      function a(e, t) {
+        var r = t && (0, u.W)(t);
+        return (0, o.useState)(function () {
+          return (0, n.observable)(e(r), void 0, { autoBind: !0 });
+        })[0];
       }
     },
     4452: (e, t, r) => {
@@ -538,37 +519,37 @@ var CLSTAMP = "10630260";
           enqueueSetState: function () {},
         },
         h = Object.assign,
-        b = {};
-      function v(e, t, r) {
+        v = {};
+      function b(e, t, r) {
         (this.props = e),
           (this.context = t),
-          (this.refs = b),
+          (this.refs = v),
           (this.updater = r || y);
       }
       function m() {}
       function g(e, t, r) {
         (this.props = e),
           (this.context = t),
-          (this.refs = b),
+          (this.refs = v),
           (this.updater = r || y);
       }
-      (v.prototype.isReactComponent = {}),
-        (v.prototype.setState = function (e, t) {
+      (b.prototype.isReactComponent = {}),
+        (b.prototype.setState = function (e, t) {
           if ("object" != typeof e && "function" != typeof e && null != e)
             throw Error(
               "setState(...): takes an object of state variables to update or a function which returns an object of state variables.",
             );
           this.updater.enqueueSetState(this, e, t, "setState");
         }),
-        (v.prototype.forceUpdate = function (e) {
+        (b.prototype.forceUpdate = function (e) {
           this.updater.enqueueForceUpdate(this, e, "forceUpdate");
         }),
-        (m.prototype = v.prototype);
+        (m.prototype = b.prototype);
       var S = (g.prototype = new m());
-      (S.constructor = g), h(S, v.prototype), (S.isPureReactComponent = !0);
+      (S.constructor = g), h(S, b.prototype), (S.isPureReactComponent = !0);
       var w = Array.isArray,
-        _ = Object.prototype.hasOwnProperty,
-        k = { current: null },
+        k = Object.prototype.hasOwnProperty,
+        _ = { current: null },
         R = { key: !0, ref: !0, __self: !0, __source: !0 };
       function C(e, t, n) {
         var o,
@@ -579,7 +560,7 @@ var CLSTAMP = "10630260";
           for (o in (void 0 !== t.ref && (i = t.ref),
           void 0 !== t.key && (a = "" + t.key),
           t))
-            _.call(t, o) && !R.hasOwnProperty(o) && (u[o] = t[o]);
+            k.call(t, o) && !R.hasOwnProperty(o) && (u[o] = t[o]);
         var s = arguments.length - 2;
         if (1 === s) u.children = n;
         else if (1 < s) {
@@ -594,13 +575,13 @@ var CLSTAMP = "10630260";
           key: a,
           ref: i,
           props: u,
-          _owner: k.current,
+          _owner: _.current,
         };
       }
       function E(e) {
         return "object" == typeof e && null !== e && e.$$typeof === r;
       }
-      var O = /\/+/g;
+      var x = /\/+/g;
       function P(e, t) {
         return "object" == typeof e && null !== e && null != e.key
           ? (function (e) {
@@ -614,7 +595,7 @@ var CLSTAMP = "10630260";
             })("" + e.key)
           : t.toString(36);
       }
-      function x(e, t, o, u, a) {
+      function O(e, t, o, u, a) {
         var i = typeof e;
         ("undefined" !== i && "boolean" !== i) || (e = null);
         var s = !1;
@@ -638,8 +619,8 @@ var CLSTAMP = "10630260";
             (e = "" === u ? "." + P(s, 0) : u),
             w(a)
               ? ((o = ""),
-                null != e && (o = e.replace(O, "$&/") + "/"),
-                x(a, t, o, "", function (e) {
+                null != e && (o = e.replace(x, "$&/") + "/"),
+                O(a, t, o, "", function (e) {
                   return e;
                 }))
               : null != a &&
@@ -658,7 +639,7 @@ var CLSTAMP = "10630260";
                     o +
                       (!a.key || (s && s.key === a.key)
                         ? ""
-                        : ("" + a.key).replace(O, "$&/") + "/") +
+                        : ("" + a.key).replace(x, "$&/") + "/") +
                       e,
                   )),
                 t.push(a)),
@@ -667,7 +648,7 @@ var CLSTAMP = "10630260";
         if (((s = 0), (u = "" === u ? "." : u + ":"), w(e)))
           for (var c = 0; c < e.length; c++) {
             var l = u + P((i = e[c]), c);
-            s += x(i, t, o, l, a);
+            s += O(i, t, o, l, a);
           }
         else if (
           ((l = (function (e) {
@@ -680,7 +661,7 @@ var CLSTAMP = "10630260";
           "function" == typeof l)
         )
           for (e = l.call(e), c = 0; !(i = e.next()).done; )
-            s += x((i = i.value), t, o, (l = u + P(i, c++)), a);
+            s += O((i = i.value), t, o, (l = u + P(i, c++)), a);
         else if ("object" === i)
           throw (
             ((t = String(e)),
@@ -699,7 +680,7 @@ var CLSTAMP = "10630260";
         var n = [],
           o = 0;
         return (
-          x(e, n, "", "", function (e) {
+          O(e, n, "", "", function (e) {
             return t.call(r, e, o++);
           }),
           n
@@ -724,13 +705,13 @@ var CLSTAMP = "10630260";
         throw e._result;
       }
       var V = { current: null },
-        T = { transition: null },
-        A = {
+        D = { transition: null },
+        N = {
           ReactCurrentDispatcher: V,
-          ReactCurrentBatchConfig: T,
-          ReactCurrentOwner: k,
+          ReactCurrentBatchConfig: D,
+          ReactCurrentOwner: _,
         };
-      function D() {
+      function T() {
         throw Error("act(...) is not supported in production builds of React.");
       }
       (t.Children = {
@@ -768,14 +749,14 @@ var CLSTAMP = "10630260";
           return e;
         },
       }),
-        (t.Component = v),
+        (t.Component = b),
         (t.Fragment = o),
         (t.Profiler = a),
         (t.PureComponent = g),
         (t.StrictMode = u),
         (t.Suspense = l),
-        (t.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED = A),
-        (t.act = D),
+        (t.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED = N),
+        (t.act = T),
         (t.cloneElement = function (e, t, n) {
           if (null == e)
             throw Error(
@@ -789,13 +770,13 @@ var CLSTAMP = "10630260";
             i = e._owner;
           if (null != t) {
             if (
-              (void 0 !== t.ref && ((a = t.ref), (i = k.current)),
+              (void 0 !== t.ref && ((a = t.ref), (i = _.current)),
               void 0 !== t.key && (u = "" + t.key),
               e.type && e.type.defaultProps)
             )
               var s = e.type.defaultProps;
             for (c in t)
-              _.call(t, c) &&
+              k.call(t, c) &&
                 !R.hasOwnProperty(c) &&
                 (o[c] = void 0 === t[c] && void 0 !== s ? s[c] : t[c]);
           }
@@ -853,15 +834,15 @@ var CLSTAMP = "10630260";
           return { $$typeof: f, type: e, compare: void 0 === t ? null : t };
         }),
         (t.startTransition = function (e) {
-          var t = T.transition;
-          T.transition = {};
+          var t = D.transition;
+          D.transition = {};
           try {
             e();
           } finally {
-            T.transition = t;
+            D.transition = t;
           }
         }),
-        (t.unstable_act = D),
+        (t.unstable_act = T),
         (t.useCallback = function (e, t) {
           return V.current.useCallback(e, t);
         }),

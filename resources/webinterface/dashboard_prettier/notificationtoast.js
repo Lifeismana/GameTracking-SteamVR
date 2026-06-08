@@ -1,4 +1,4 @@
-var CLSTAMP = "10630260";
+var CLSTAMP = "10715262";
 (() => {
   "use strict";
   var e,
@@ -17,7 +17,7 @@ var CLSTAMP = "10630260";
           fD: () => l.fD,
         });
         var i = a(2824),
-          r = (a(3389), a(4120), a(1230), a(5830), a(6186), a(3361)),
+          r = (a(119), a(4120), a(1230), a(5830), a(6186), a(3361)),
           n = (a(111), a(5723), a(3496)),
           o =
             (a(5178),
@@ -43,9 +43,20 @@ var CLSTAMP = "10630260";
             a(5459),
             a(8472),
             a(1184),
+            a(1321),
             a(3725)),
           l = a(4367);
         const c = VRHTML;
+      },
+      4728: (e, t, a) => {
+        function i(e, t) {
+          return (
+            (e = Math.ceil(e)),
+            (t = Math.floor(t)),
+            Math.floor(Math.random() * (t - e + 1)) + e
+          );
+        }
+        a.d(t, { Tg: () => i });
       },
       4170: (e, t, a) => {
         var i = a(1635),
@@ -56,9 +67,9 @@ var CLSTAMP = "10630260";
           l = a(3714),
           c = a(1333),
           d = a(7813),
-          v = a(582);
+          u = a(9125);
         (0, d.configure)({ enforceActions: "never" });
-        class u extends r.Component {
+        class v extends r.Component {
           constructor(e) {
             super(e),
               (this.m_toastMailbox = new s._n()),
@@ -136,16 +147,16 @@ var CLSTAMP = "10630260";
               : null;
           }
         }
-        (0, i.Cg)([o.o], u.prototype, "OnRenderToast", null),
+        (0, i.Cg)([o.o], v.prototype, "OnRenderToast", null),
           (0, l.uV)(
             [],
             null === s.Ay || void 0 === s.Ay ? void 0 : s.Ay.GetSteamLanguage(),
           )
             .then(() => {
-              (0, v.aj)().Init("SteamVR", CLSTAMP, (0, v.d4)()),
+              (0, u.aj)().Init("SteamVR", CLSTAMP, (0, u.d4)()),
                 n
                   .H(document.getElementById("root"))
-                  .render(r.createElement(u, null));
+                  .render(r.createElement(v, null));
             })
             .catch((e) =>
               console.error("Failed to initialize notification toast:", e),

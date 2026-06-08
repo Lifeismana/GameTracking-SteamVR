@@ -25,6 +25,8 @@
 	"Setting_Foveation": "포비에이티드",
 	"Setting_FoveationOn": "사용",
 	"Setting_FoveationOff": "사용 안 함",
+	"Setting_AllowMultipleLinks": "여러 링크 허용",
+	"Setting_EnableHmdAutoConnect": "SteamVR 시작 시 지원되는 Steam Link HMD 자동으로 연결",
 	"svl_hand_interaction_augmented": "핸드 트래킹 컨트롤러",
 	"/input/index_pinch": "엄지와 검지로 집기",
 	"/input/middle_pinch": "엄지와 중지로 집기",

@@ -27,6 +27,7 @@
 	"MenuPlayspaceSetup": "Playspace Setup",
 	"MenuPlayspaceAdjustFloorHeight": "Adjust Floor Height",
 	"MenuPlayspaceMenu": "Playspace Menu",
+	"MenuPlayspaceClearPlayspace": "Clear Playspace",
 	"PowerMenuTurnOffController": "Turn Off Controller",
 	"PowerMenuShutdown": "Shutdown",
 	"PowerMenuQuitSceneApp": "Exit %1$s",

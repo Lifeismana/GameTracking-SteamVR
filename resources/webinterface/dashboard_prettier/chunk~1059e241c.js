@@ -1,4 +1,4 @@
-var CLSTAMP = "10630260";
+var CLSTAMP = "10715262";
 (self.webpackChunkvrwebui = self.webpackChunkvrwebui || []).push([
   [692],
   {
@@ -269,17 +269,20 @@ var CLSTAMP = "10630260";
         (n.s_Instance = null);
     },
     1139: (e, t, s) => {
-      s.d(t, { FH: () => n });
+      s.d(t, { FH: () => i });
       var o = s(1635),
         r = (s(6540), s(3236)),
         l = s(7813);
-      function n(...e) {
+      function n(e) {
+        return "string" == typeof e || (Array.isArray(e) && e[1]);
+      }
+      function i(...e) {
         return e
-          .filter((e) => null != e && ("string" == typeof e || e[1]))
+          .filter(n)
           .map((e) => ("string" == typeof e ? e : e[0]))
           .join(" ");
       }
-      class i {
+      class a {
         constructor() {
           (this.onScroll = null),
             (this.onScrollStop = null),
@@ -300,17 +303,19 @@ var CLSTAMP = "10630260";
         updateScrollableParents() {
           for (let e of this.m_rScrollableParents)
             e.removeEventListener("scroll", this.onParentScroll);
-          this.m_rScrollableParents = (function (e) {
-            let t = [];
-            if (!e) return t;
-            let s = e.parentElement;
-            for (; s; ) {
-              const e = s.scrollWidth > s.clientWidth,
-                o = s.scrollHeight > s.clientHeight;
-              (e || o) && t.push(s), (s = s.parentElement);
-            }
-            return t;
-          })(this.m_elem);
+          this.m_elem
+            ? (this.m_rScrollableParents = (function (e) {
+                let t = [];
+                if (!e) return t;
+                let s = e.parentElement;
+                for (; s; ) {
+                  const e = s.scrollWidth > s.clientWidth,
+                    o = s.scrollHeight > s.clientHeight;
+                  (e || o) && t.push(s), (s = s.parentElement);
+                }
+                return t;
+              })(this.m_elem))
+            : (this.m_rScrollableParents = []);
           for (let e of this.m_rScrollableParents)
             e.addEventListener("scroll", this.onParentScroll);
         }
@@ -342,11 +347,11 @@ var CLSTAMP = "10630260";
             (this.m_bScrolling = !1);
         }
       }
-      (0, o.Cg)([l.observable], i.prototype, "m_bScrolling", void 0),
-        (0, o.Cg)([r.o], i.prototype, "ref", null),
-        (0, o.Cg)([l.computed], i.prototype, "isScrolling", null),
-        (0, o.Cg)([r.o], i.prototype, "onParentScroll", null),
-        (0, o.Cg)([r.o], i.prototype, "onScrollStopTimeout", null);
+      (0, o.Cg)([l.observable], a.prototype, "m_bScrolling", void 0),
+        (0, o.Cg)([r.o], a.prototype, "ref", null),
+        (0, o.Cg)([l.computed], a.prototype, "isScrolling", null),
+        (0, o.Cg)([r.o], a.prototype, "onParentScroll", null),
+        (0, o.Cg)([r.o], a.prototype, "onScrollStopTimeout", null);
     },
   },
 ]); //# sourceMappingURL=file:///home/buildbot/buildslave/steamvr_rel_npm_vrwebui/build/public/runtime/resources/webinterface/dashboard/sourcemaps/chunk~1059e241c.js.map

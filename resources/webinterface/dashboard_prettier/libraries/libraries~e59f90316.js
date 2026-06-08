@@ -1,4 +1,4 @@
-var CLSTAMP = "10630260";
+var CLSTAMP = "10715262";
 (self.webpackChunkvrwebui = self.webpackChunkvrwebui || []).push([
   [908],
   {
@@ -2308,23 +2308,32 @@ var CLSTAMP = "10630260";
       e.exports = n(8015);
     },
     7750: () => {},
-    5266: (e, t, n) => {
+    9712: (e, t, n) => {
+      "use strict";
+      n(4452);
+    },
+    2255: (e, t, n) => {
       "use strict";
       n.d(t, {
-        _observerFinalizationRegistry: () => o.Y,
-        isUsingStaticRendering: () => a.P,
-        observer: () => s.P,
+        _observerFinalizationRegistry: () => u.Y,
+        isUsingStaticRendering: () => c.P,
+        observer: () => l.P,
       });
       n(724);
       var r = n(9889),
-        i = n(8909),
-        o = (n(4452), n(3438)),
-        a = n(3815),
-        s = n(6035);
-      var u;
-      n(6540);
-      (0, i.tl)(r.r);
-      u = o.Y.finalizeAllImmediately;
+        i = n(7813);
+      function o(e) {
+        e();
+      }
+      n(4452);
+      var a,
+        s,
+        u = n(3438),
+        c = n(3815),
+        l = n(6035);
+      n(9712), n(5562), n(1154), n(3542);
+      (s = r.r) || (s = o), (0, i.configure)({ reactionScheduler: s });
+      a = u.Y.finalizeAllImmediately;
     },
     3815: (e, t, n) => {
       "use strict";
@@ -2333,6 +2342,18 @@ var CLSTAMP = "10630260";
       function i() {
         return r;
       }
+    },
+    3542: (e, t, n) => {
+      "use strict";
+      n(6540);
+    },
+    5562: (e, t, n) => {
+      "use strict";
+      n(6540);
+    },
+    1154: (e, t, n) => {
+      "use strict";
+      n(6540), n(3542);
     },
     4452: (e, t, n) => {
       "use strict";
@@ -2400,17 +2421,6 @@ var CLSTAMP = "10630260";
         )
           throw f;
         return l;
-      }
-    },
-    8909: (e, t, n) => {
-      "use strict";
-      n.d(t, { tl: () => o });
-      var r = n(7813);
-      function i(e) {
-        e();
-      }
-      function o(e) {
-        e || (e = i), (0, r.configure)({ reactionScheduler: e });
       }
     },
     3438: (e, t, n) => {

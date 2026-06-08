@@ -270,6 +270,7 @@ $3br
 %s: no timelines
 %s: not all required facet extensions were available
 %s: not supoported with external synchronization!
+%s: only Vulkan graphics devices are supported
 %s: physical device does not support the requested timeline handle type
 %s: physical device does not support timeline export
 %s: physical device does not support timeline import
@@ -669,8 +670,8 @@ $3br
 /data/src/vrclient/vrinput.cpp:1596
 /data/src/vrclient/vrmailboxclient.cpp
 /data/src/vrclient/vroverlay.cpp:1015
-/data/src/vrclient/vroverlay.cpp:1214
-/data/src/vrclient/vroverlay.cpp:1245
+/data/src/vrclient/vroverlay.cpp:1213
+/data/src/vrclient/vroverlay.cpp:1244
 /data/src/vrclient/vrsteamprivate.cpp
 /dev/null
 /device_was_drawn
@@ -815,8 +816,8 @@ $3br
 /tracker_manager/show_ui
 /trackpad
 /trigger/touch
-/u%d-%s-ValveIPCSharedObj-SteamVR
 /u%d-Shm_%x
+/u%d-ValveIPCSharedObj-SteamVR
 /user
 /user/ankle/left
 /user/ankle/right
@@ -1052,6 +1053,7 @@ $3br
 1/2/4/8/16-bit only
 10CDriverLog
 10CSxrAction
+10CVRMailbox
 10IXrBinding
 11 4 22 44 44 22 444444
 11CSxrSession
@@ -1276,6 +1278,7 @@ $3br
 19CVRSteamPrivate_024
 19CVRSteamPrivate_025
 19CVRSteamPrivate_026
+19CVRSteamPrivate_027
 19CVRWatchdogHost_001
 19CVkGarbageCollector
 19CVkPoolableResourceI20CVkCommandBufferPoolE
@@ -1513,6 +1516,7 @@ $3br
 30CSxrGraphicsRequirementsOpenVR
 30CVRMsg_AcknowledgeQuit_Exiting
 30CVRMsg_ApplicationInfo_Options
+30CVRMsg_ApplicationInfo_Runtime
 30CVRMsg_CancelApplicationLaunch
 30CVRMsg_CompositorDumpImagesAll
 30CVRMsg_CompositorKeyboardShown
@@ -1636,6 +1640,7 @@ $3br
 33SteamPrivateInterfaceRegistrationI19CVRSteamPrivate_024E
 33SteamPrivateInterfaceRegistrationI19CVRSteamPrivate_025E
 33SteamPrivateInterfaceRegistrationI19CVRSteamPrivate_026E
+33SteamPrivateInterfaceRegistrationI19CVRSteamPrivate_027E
 34CInputFilter_Scalar_ScaleAndOffset
 34CVRMsg_ApplicationManifestResponse
 34CVRMsg_CompositorRefSharedResource
@@ -2030,6 +2035,7 @@ CVRMsg_AcknowledgeQuit_Exiting
 CVRMsg_ApplicationInfo
 CVRMsg_ApplicationInfo_Manifest
 CVRMsg_ApplicationInfo_Options
+CVRMsg_ApplicationInfo_Runtime
 CVRMsg_ApplicationManifestRequest
 CVRMsg_ApplicationManifestResponse
 CVRMsg_CancelApplicationLaunch
@@ -2399,7 +2405,7 @@ Driver unable to initialize video encoder (499)
 DriverDirect_Acquired
 DriverDirect_NewFrame
 DriverDirect_Presented
-DriverManager %s load error %su
+DriverManager %s load error %s
 Duplicate action '
 Duplicate key: '
 ERROR
@@ -2561,6 +2567,7 @@ Failed to init property manager\n
 Failed to init scheduler: failed to get rlimit\n
 Failed to init scheduler: failed to get sched params %d\n
 Failed to init scheduler: failed to set rlimit\n
+Failed to init vrsteamprivate mailbox
 Failed to init vulkan binding: failed to get queue\n
 Failed to init vulkan binding: renderer init error\n
 Failed to init web server shared state\n
@@ -2608,6 +2615,7 @@ Failed to set thread priority: foreign thread unsupported\n
 Failed to set thread priority: scheduler init failed\n
 Failed to set thread priority: setschedparam failed %d: %d\n
 Failed to setup a shared camera frame (%d, %d) for the camera type %d
+Failed to setup the shared spline distortion images for the camera type %d
 Failed to signal shared fd server\n
 Failed to spawn share thread for shared fd: %d\n
 Failed to start VRDashboard from %s because %s\n
@@ -3077,6 +3085,7 @@ IVRSteamPrivate_024
 IVRSteamPrivate_025
 IVRSteamPrivate_026
 IVRSteamPrivate_027
+IVRSteamPrivate_028
 IVRSystem::GetOutputDevice: Failed to get required Vulkan device function pointer (vkGetPhysicalDeviceProperties2KHR)!\n
 IVRSystem::GetOutputDevice: Unsupported textureType, only TextureType_Vulkan supported on Linux.\n
 IVRSystem::GetOutputDevice: VkInstance_T *pInstance parameter is nullptr.  VkInstance must be specified for TextureType_Vulkan!\n
@@ -3410,6 +3419,7 @@ N2vr19IVRSteamPrivate_024E
 N2vr19IVRSteamPrivate_025E
 N2vr19IVRSteamPrivate_026E
 N2vr19IVRSteamPrivate_027E
+N2vr19IVRSteamPrivate_028E
 N2vr19IVRWatchdogProviderE
 N2vr20IVRResourcesInternalE
 N2vr21CVRApplicationsLatestE
@@ -3579,6 +3589,8 @@ Only images with a depth of 1 are supported right now (2D).
 Only one of `bufferView` or `uri` should be defined, but both are defined for image[
 OpenVR SDK version %s\n
 OpenXR::AddLegalInteractionProfile: g_pActiveInstance was unexpectedly null
+Opened keyboard for app.\n
+Opened keyboard for overlay %llX\n
 Optional vulkan device extension is unavailable: %s\n
 Optional vulkan instance extension is unavailable: %s\n
 Or filters need at least one input in filter %s\n
@@ -3878,6 +3890,8 @@ Refusing to add binding to %s from a sim action in %s and a mode in %s\n
 Refusing to create memory block because %u blocks are already outstanding\n
 RegisterCompositorResources
 RegisterSwapchainImage
+Rejecting ShowKeyboard call because no keyboard implementation exists.\n
+Rejecting ShowKeyboard call for overlay because keyboard is in use.\n
 Rejecting ShowKeyboard call from app because the dashboard is visible\n
 Rejecting attempt to ForceQuitProcess with 0\n
 Rejecting degenerate image.
@@ -3910,6 +3924,7 @@ RendermodelManager: Reading data for: '%s' from '%s'\n
 RendermodelManager: Unable to parse %s: %s\n
 RendermodelManager: name=%s inputRouting=%d filename=%s\n
 RendermodelManager: unsupported motion type: %s. { allowed: none, rotate, translate, trackpad }\n
+Reopening keyboard follow overlay focus: "%s"\n
 ReprojectVertices: Failed to invert projectin matrix\n
 Request for bool value from non-bool option %s\n
 Request to create shared vulkan image failed: format=%u dimensions=%ux%u\n
@@ -3973,6 +3988,7 @@ Server somehow created read event before reader %s\n
 ServerEventSignal
 Set thread %p priority to: %d\n
 SetDebugName
+SetGraphicsDevice
 SetHandLocationsInactive: locations was nullptr
 SetOverlayRaw can't take dimensions over %u, but was passed %u x %u. Really it shouldn't be called with anything over a hundred or two pixels in each direction.\n
 SetOverlayRaw failed to create a memory block for %u x %u texture\n
@@ -4056,6 +4072,7 @@ St16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE
 St16__numpunct_cacheIcE
 St16__numpunct_cacheIwE
 St16invalid_argument
+St17_Weak_result_typeIM10CVRMailboxFvRKN4Json5ValueEEE
 St17__timepunct_cacheIcE
 St17__timepunct_cacheIwE
 St17bad_function_call
@@ -4094,6 +4111,8 @@ St23__codecvt_abstract_baseIDsDu11__mbstate_tE
 St23__codecvt_abstract_baseIDsc11__mbstate_tE
 St23__codecvt_abstract_baseIcc11__mbstate_tE
 St23__codecvt_abstract_baseIwc11__mbstate_tE
+St24_Weak_result_type_memfunIM10CVRMailboxFvRKN4Json5ValueEELb1EE
+St5_BindIFM10CVRMailboxFvRKN4Json5ValueEEPS0_St12_PlaceholderILi1EEEE
 St5ctypeIcE
 St5ctypeIwE
 St7codecvtIDiDu11__mbstate_tE
@@ -4591,7 +4610,9 @@ VREvent_InvalidateSwapTextureSets
 VREvent_IpdChanged
 VREvent_KeyboardCharInput
 VREvent_KeyboardClosed
+VREvent_KeyboardClosed_Global
 VREvent_KeyboardDone
+VREvent_KeyboardOpened_Global
 VREvent_KeyboardSectionSettingChanged
 VREvent_LastKnownSectionSettingChanged
 VREvent_LeaveStandbyMode
@@ -4661,6 +4682,7 @@ VREvent_ShowDevTools
 VREvent_ShowKeyboard
 VREvent_ShowRenderModels
 VREvent_ShowUI
+VREvent_StandingZeroPoseReset
 VREvent_StandingZeroPoseReset: Sending XR_TYPE_EVENT_DATA_REFERENCE_SPACE_CHANGE_PENDING for XR_REFERENCE_SPACE_TYPE_LOCAL_FLOOR_EXT.
 VREvent_StandingZeroPoseReset: Sending XR_TYPE_EVENT_DATA_REFERENCE_SPACE_CHANGE_PENDING for XR_REFERENCE_SPACE_TYPE_STAGE.
 VREvent_StartDashboard
@@ -6015,7 +6037,9 @@ Zjz\v
 [CDownsampleRenderer] Failed to create src texture calling ImportTextureFromNativeTexture()!\n
 [CDownsampleRenderer] Releasing old resources.\n
 [CVRCameraPassthroughInternal] Failed to import the camera frame dma-buf.
+[CVRCameraPassthroughInternal] Failed to receive the shared spline distortion resource file descriptor.
 [CVRCameraPassthroughInternal] Failed to reference the shared image resource.
+[CVRCameraPassthroughInternal] Failed to reference the shared spline distortion resource.
 [CVRChaperoneClient]  invalidUniverseId in UpdateWorkingSet, do nothing
 [CVRChaperoneClient]  the working set is already updated %lu in UpdateWorkingSet, do nothing
 [CVRChaperoneClient] %s %d universe %s\n
@@ -6463,7 +6487,6 @@ alphaMode
 alphasort
 alse
 alwaysActivate
-alwaysEnableSteamInput
 amdwvr
 ampersand
 amplitude
@@ -6487,6 +6510,7 @@ atan2f
 atanf
 attributes
 audio
+auroraPlayspace
 auto
 auto:
 autoLaunchSteamVROnButtonPress
@@ -6750,6 +6774,7 @@ default.vrsettings
 default_bindings
 default_bindings is not an array
 default_main.vrsettings
+defocus_panel
 delete 
 delete[] 
 deleted virtual method called\n
@@ -6933,6 +6958,7 @@ float
 flock
 floorf
 fmodf
+focus_panel
 fopen
 fopen64
 forbidden_options
@@ -7081,6 +7107,7 @@ half
 hand_interaction_ext
 hand_right_poses.glb
 handgrip
+handlers
 hangInit
 haptic
 haptic_amplitude
@@ -7420,7 +7447,7 @@ mode
 modelnumber
 modelskins
 modf
-mold 1.10.1 (compatible with GNU ld)
+mold 2.36.0 (compatible with GNU ld)
 motion
 motionSmoothing
 mtllib
@@ -7732,6 +7759,8 @@ render_message
 rendermodel
 rendermodels
 request_binding_callouts
+request_handlers
+request_handlers_response
 request_tutorial_callout
 required_options
 requirement
@@ -7801,6 +7830,7 @@ scale
 scale_sao_%s%s%s
 scandir
 scene
+scene_graph
 scenes
 sched_get_priority_max
 sched_get_priority_min
@@ -7860,6 +7890,8 @@ shaders/vulkan/distort_geom_aa_lines_ps.spv
 shaders/vulkan/distort_geom_aa_lines_vs.spv
 shaders/vulkan/distort_geom_aa_quads_ps.spv
 shaders/vulkan/distort_geom_aa_quads_vs.spv
+shaders/vulkan/distort_geom_altcolorblend_ps.spv
+shaders/vulkan/distort_geom_aurora_ps.spv
 shaders/vulkan/distort_geom_colormap_lines_ps.spv
 shaders/vulkan/distort_geom_constant_ps.spv
 shaders/vulkan/distort_geom_drawregion_multitap_ps.spv
@@ -7870,6 +7902,7 @@ shaders/vulkan/distort_geom_drawregion_simplified_gamma_ps.spv
 shaders/vulkan/distort_geom_drawregion_simplified_ps.spv
 shaders/vulkan/distort_geom_drawregion_simplified_reflect_ps.spv
 shaders/vulkan/distort_geom_floor_aa_ps.spv
+shaders/vulkan/distort_geom_floor_auroralit_ps.spv
 shaders/vulkan/distort_geom_floor_ps.spv
 shaders/vulkan/distort_geom_floor_reflect_aa_ps.spv
 shaders/vulkan/distort_geom_floor_reflect_ps.spv
@@ -7887,14 +7920,19 @@ shaders/vulkan/distort_geom_ltc_spec_ps.spv
 shaders/vulkan/distort_geom_motes_ps.spv
 shaders/vulkan/distort_geom_multitap_ps.spv
 shaders/vulkan/distort_geom_pbr_ps.spv
+shaders/vulkan/distort_geom_playspace_drawing_area_ps.spv
 shaders/vulkan/distort_geom_ps.spv
 shaders/vulkan/distort_geom_ps16.spv
+shaders/vulkan/distort_geom_ps_debug_depth.spv
+shaders/vulkan/distort_geom_ps_debug_mvfloat.spv
 shaders/vulkan/distort_geom_psmvfloat.spv
 shaders/vulkan/distort_geom_reflect_multitap_ps.spv
 shaders/vulkan/distort_geom_reflect_ps.spv
+shaders/vulkan/distort_geom_simplified_altcolorblend_ps.spv
 shaders/vulkan/distort_geom_simplified_gamma_ps.spv
 shaders/vulkan/distort_geom_simplified_ps.spv
 shaders/vulkan/distort_geom_simplified_reflect_ps.spv
+shaders/vulkan/distort_geom_syntheticalpha_ps.spv
 shaders/vulkan/distort_geom_vignette_ps.spv
 shaders/vulkan/distort_geom_write_norm_ps.spv
 shaders/vulkan/distort_geom_write_norm_vs.spv
@@ -7951,6 +7989,7 @@ shaders/vulkan/downsample_filter_y_srgb_ps.spv
 shaders/vulkan/downsample_ps.spv
 shaders/vulkan/downsample_srgb_ps.spv
 shaders/vulkan/downsample_vs.spv
+shaders/vulkan/frame_hallucination_float_vs.spv
 shaders/vulkan/frame_hallucination_ps.spv
 shaders/vulkan/frame_hallucination_vs.spv
 shaders/vulkan/fsharp_2d_drawregion_gamma_ps.spv
@@ -7960,6 +7999,7 @@ shaders/vulkan/fsharp_2d_ps.spv
 shaders/vulkan/fsharp_vr_depth_only_ps.spv
 shaders/vulkan/fsharp_vr_depth_ps.spv
 shaders/vulkan/fsharp_vr_ps.spv
+shaders/vulkan/geom_aurora_vs.spv
 shaders/vulkan/geom_bounds_color_vs.spv
 shaders/vulkan/geom_curved_uvs_embedded_vs.spv
 shaders/vulkan/geom_curved_vs.spv
@@ -7971,10 +8011,12 @@ shaders/vulkan/geom_drawregion_ptnorm_uvs_embedded_vs.spv
 shaders/vulkan/geom_drawregion_ptnorm_vs.spv
 shaders/vulkan/geom_drawregion_uvs_embedded_vs.spv
 shaders/vulkan/geom_drawregion_vs.spv
+shaders/vulkan/geom_floor_auroralit_vs.spv
 shaders/vulkan/geom_floor_edge_vs.spv
 shaders/vulkan/geom_floor_vs.spv
 shaders/vulkan/geom_fresnel_vs.spv
 shaders/vulkan/geom_motes_vs.spv
+shaders/vulkan/geom_playspace_drawing_area_vs.spv
 shaders/vulkan/geom_ptnorm_curved_uvs_embedded_vs.spv
 shaders/vulkan/geom_ptnorm_curved_vs.spv
 shaders/vulkan/geom_ptnorm_ortho_out_vs.spv
@@ -8003,6 +8045,9 @@ shaders/vulkan/msaa_resolve_2x_ps.spv
 shaders/vulkan/msaa_resolve_4x_ps.spv
 shaders/vulkan/msaa_resolve_8x_ps.spv
 shaders/vulkan/msaa_resolve_vs.spv
+shaders/vulkan/mv_dilation_3x3_cs.spv
+shaders/vulkan/mv_dilation_5x5_cs.spv
+shaders/vulkan/mv_dilation_7x7_cs.spv
 shaders/vulkan/panel_mask_ps.spv
 shaders/vulkan/panel_mask_vs.spv
 shaders/vulkan/portal_stencil_apply_disp_vs.spv
@@ -8022,6 +8067,13 @@ shaders/vulkan/tracked_camera_reprojection_simplified_monochrome_devignette_ps.s
 shaders/vulkan/tracked_camera_reprojection_simplified_monochrome_nv12_ps.spv
 shaders/vulkan/tracked_camera_reprojection_simplified_monochrome_ps.spv
 shaders/vulkan/tracked_camera_reprojection_simplified_rgb_nv12_ps.spv
+shaders/vulkan/tracked_camera_reprojection_simplified_sharpen_devignette_vs.spv
+shaders/vulkan/tracked_camera_reprojection_simplified_sharpen_monochrome_devignette_nv12_ps.spv
+shaders/vulkan/tracked_camera_reprojection_simplified_sharpen_monochrome_devignette_ps.spv
+shaders/vulkan/tracked_camera_reprojection_simplified_sharpen_monochrome_nv12_ps.spv
+shaders/vulkan/tracked_camera_reprojection_simplified_sharpen_monochrome_ps.spv
+shaders/vulkan/tracked_camera_reprojection_simplified_sharpen_rgb_nv12_ps.spv
+shaders/vulkan/tracked_camera_reprojection_simplified_sharpen_vs.spv
 shaders/vulkan/tracked_camera_reprojection_simplified_vs.spv
 shaders/vulkan/tracked_camera_reprojection_vs.spv
 shaders/vulkan/tracked_camera_undistort_ps.spv
@@ -8029,6 +8081,7 @@ shaders/vulkan/tracked_camera_undistort_vs.spv
 shaders/vulkan/tracked_camera_vs.spv
 shaders/vulkan/unlit_2x_downsample_ps.spv
 shaders/vulkan/unlit_convert_to_nv12_ps.spv
+shaders/vulkan/unlit_cs.spv
 shaders/vulkan/unlit_gaussian_blur_u_ps.spv
 shaders/vulkan/unlit_gaussian_blur_v_ps.spv
 shaders/vulkan/unlit_motion_attenuation_ps.spv
@@ -8153,6 +8206,7 @@ stdout
 steam.app.
 steam.overlay.
 steamMatchesHMDFramerate
+steam_overlay_handle
 steam_streaming_launch
 steamlink_openvr-overlay
 steamrt
@@ -9276,6 +9330,7 @@ vrserver
 vrserver internal error (124)
 vrserver pid %d exited while waiting on IPC control file\n
 vrserver pid %d\n
+vrsteamprivate
 vrwebhelper
 vrwebui_dashboard
 vsnprintf

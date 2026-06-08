@@ -1,17 +1,25 @@
-var CLSTAMP = "10630260";
+var CLSTAMP = "10715262";
 (self.webpackChunkvrwebui = self.webpackChunkvrwebui || []).push([
   [737],
   {
     2824: (e, t, s) => {
-      s.d(t, { I0: () => h, M9: () => c, _n: () => l });
+      s.d(t, {
+        I0: () => l,
+        Jv: () => d,
+        M9: () => h,
+        _n: () => m,
+        pg: () => c,
+      });
       var o = s(1635),
         n = s(7813),
         i = s(3236),
         r = s(1295),
         a = s(776);
-      const c = "vrwebui_dashboardstore",
-        h = "binding_callouts/main";
-      class l {
+      const c = "vrcompositor_systemlayer",
+        h = "vrwebui_dashboardstore",
+        l = "binding_callouts/main",
+        d = "scene_graph";
+      class m {
         constructor() {
           (this.m_wsWebSocketToServer = void 0),
             (this.connected = !1),
@@ -77,7 +85,7 @@ var CLSTAMP = "10630260";
         Init(e, t) {
           return (0, o.sH)(this, void 0, void 0, function* () {
             return (
-              (this.m_sMailboxName = l.EnsureUniqueName(e)),
+              (this.m_sMailboxName = m.EnsureUniqueName(e)),
               (this.m_sWebSecret = null != t ? t : ""),
               (this.connected = !1),
               this.OpenWebSocketToHost()
@@ -208,14 +216,14 @@ var CLSTAMP = "10630260";
           this.WebSocketSend("debug_close");
         }
       }
-      (l.s_nNextMailboxNumber = 1),
-        (0, o.Cg)([n.observable], l.prototype, "connected", void 0),
-        (0, o.Cg)([i.o], l.prototype, "OpenWebSocketToHost", null),
-        (0, o.Cg)([i.o], l.prototype, "OnWebSocketOpen", null),
-        (0, o.Cg)([i.o], l.prototype, "OnWebSocketClose", null),
-        (0, o.Cg)([i.o], l.prototype, "OnWebSocketError", null),
-        (0, o.Cg)([i.o], l.prototype, "WebSocketSend", null),
-        (0, o.Cg)([i.o], l.prototype, "OnWebSocketMessage", null);
+      (m.s_nNextMailboxNumber = 1),
+        (0, o.Cg)([n.observable], m.prototype, "connected", void 0),
+        (0, o.Cg)([i.o], m.prototype, "OpenWebSocketToHost", null),
+        (0, o.Cg)([i.o], m.prototype, "OnWebSocketOpen", null),
+        (0, o.Cg)([i.o], m.prototype, "OnWebSocketClose", null),
+        (0, o.Cg)([i.o], m.prototype, "OnWebSocketError", null),
+        (0, o.Cg)([i.o], m.prototype, "WebSocketSend", null),
+        (0, o.Cg)([i.o], m.prototype, "OnWebSocketMessage", null);
     },
     3606: (e, t, s) => {
       s.d(t, { F2: () => o });

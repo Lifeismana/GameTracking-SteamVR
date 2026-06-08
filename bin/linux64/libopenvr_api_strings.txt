@@ -9,6 +9,7 @@
  throw
  transaction_safe
  volatile
+"rol|
 %s: __pos (which is %zu) > this->size() (which is %zu)
 ' is not a number.
 (anonymous namespace)
@@ -785,7 +786,7 @@ memmove
 memset
 mkdir
 modf
-mold 1.10.1 (compatible with GNU ld)
+mold 2.36.0 (compatible with GNU ld)
 new 
 new[]
 nfinity

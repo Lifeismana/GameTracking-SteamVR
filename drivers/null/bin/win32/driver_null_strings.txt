@@ -1,3 +1,4 @@
+%Vt3
 .00cfg
 .?AV<lambda_b7cebd3f8e796c6a40760637730fc3ce>@@
 .?AV?$_Func_base@XW4ELogLevel@@PBDPAX@std@@
@@ -90,7 +91,7 @@ IsProcessorFeaturePresent
 KERNEL32.dll
 MSVCP140.dll
 QueryPerformanceCounter
-RSDS
+RSDSS
 SetUnhandledExceptionFilter
 TerminateProcess
 UnhandledExceptionFilter
