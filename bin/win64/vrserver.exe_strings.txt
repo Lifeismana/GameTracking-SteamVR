@@ -567,7 +567,9 @@ $\n k_EProtoServiceTypeSteamMessages
 .?AV<lambda_0c2a13b62c82ef1ff1722fa6492bade4>@@
 .?AV<lambda_0f567b11c7f2708910c0fe8399d9ba5e>@@
 .?AV<lambda_11d26080b3820719662302cdf688baf3>@@
+.?AV<lambda_14801d40b6b3c080abc745486c003c8d>@@
 .?AV<lambda_1a546cd75712cd813bcecece4aff05b0>@@
+.?AV<lambda_1db48b0543684c93b50fe200d8199871>@@
 .?AV<lambda_2d4b9bd805c205933c366a2a96e134e0>@@
 .?AV<lambda_3182ac4ae678b07d5b5e3bcc5eda0ca2>@@
 .?AV<lambda_32ab21fb4e7efba0acf29e33f6c858a1>@@
@@ -667,6 +669,7 @@ $\n k_EProtoServiceTypeSteamMessages
 .?AV?$_Func_base@XAEBVCSteamVR_AudioSettings_ChangeSettings_Request@@@std@@
 .?AV?$_Func_base@XAEBVCSteamVR_AudioSettings_RegisterForSettings_Request@@@std@@
 .?AV?$_Func_base@XAEBVCSteamVR_ControllerPairing_Request@@@std@@
+.?AV?$_Func_base@XAEBVCSteamVR_ControllerUpdate_Request@@@std@@
 .?AV?$_Func_base@XAEBVCSteamVR_PushOverlayInputFocus_Message@@@std@@
 .?AV?$_Func_base@XAEBVCSteamVR_Settings_SetValue_Request@@@std@@
 .?AV?$_Func_base@XAEBVCSteamVR_VRGamepadUI_Message@@@std@@
@@ -702,7 +705,9 @@ $\n k_EProtoServiceTypeSteamMessages
 .?AV?$_Func_impl_no_alloc@V<lambda_0c2a13b62c82ef1ff1722fa6492bade4>@@_NAEBUHmdVector3_t@vr@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_0f567b11c7f2708910c0fe8399d9ba5e>@@UResult_t@?A0x94e1095d@@AEBU23@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_11d26080b3820719662302cdf688baf3>@@XAEBVValue@Json@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_14801d40b6b3c080abc745486c003c8d>@@XAEBVCSteamVR_ControllerUpdate_Request@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_1a546cd75712cd813bcecece4aff05b0>@@XV?$shared_ptr@VCVRClientContext@@@std@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1db48b0543684c93b50fe200d8199871>@@XAEBVValue@Json@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_2d4b9bd805c205933c366a2a96e134e0>@@XW4ELogLevel@@PEBDPEAX@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_3182ac4ae678b07d5b5e3bcc5eda0ca2>@@XAEBVCSteamVR_AudioSettings_ChangeSettings_Request@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_32ab21fb4e7efba0acf29e33f6c858a1>@@XAEBVValue@Json@@@std@@
@@ -847,6 +852,12 @@ $\n k_EProtoServiceTypeSteamMessages
 .?AVCSteamVR_ControllerPairing_Request_UnpairDisconnectedControllers@@
 .?AVCSteamVR_ControllerPairing_Request_Update@@
 .?AVCSteamVR_ControllerPairing_State_Message@@
+.?AVCSteamVR_ControllerUpdate_Controller@@
+.?AVCSteamVR_ControllerUpdate_Request@@
+.?AVCSteamVR_ControllerUpdate_Request_IdentifyController@@
+.?AVCSteamVR_ControllerUpdate_Request_StartUpdate@@
+.?AVCSteamVR_ControllerUpdate_Request_UpdateState@@
+.?AVCSteamVR_ControllerUpdate_State_Message@@
 .?AVCSteamVR_Header@@
 .?AVCSteamVR_OverlayInputFocusChanged_Message@@
 .?AVCSteamVR_PushOverlayInputFocus_Message@@
@@ -1693,18 +1704,14 @@ $\n k_EProtoServiceTypeSteamMessages
 00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899"
 0123456789ABCDEF
 0123456789abcdef
-0B4@
-0T7@
-0W9@
-0fE@
-0i9@
+0b6*
 1.2.5
 1/2/4/8/16-bit only
 11 4 22 44 44 22 444444
 11eU%
 127.0.0.1
 127.0.0.1:
-14:12:14
+14:09:59
 1A26b
 1\f514
 1e+9999
@@ -1714,7 +1721,6 @@ $\n k_EProtoServiceTypeSteamMessages
 2*.google.protobuf.FieldDescriptorProto.Type
 2+.google.protobuf.FieldDescriptorProto.Label
 258EAFA5-E914-47DA-95CA-C5AB0DC85B11
-4C4@
 4\f54d
 52F*
 5I)7
@@ -1725,14 +1731,12 @@ $\n k_EProtoServiceTypeSteamMessages
 7\n\tenum_type
 7^d[L
 7~8A
-8B4@
-8J5@
 8\n\textension
 8c8f13b1-60eb-4b6a-a433-de86104115ac
 8d8f13b1-60eb-4b6a-a433-de86104115ac
 8e8f13b1-60eb-4b6a-a433-de86104115ac
 8giP9giP9giP9giP9
-8h9@
+8l5@
 9\n\noneof_decl
 9a&g
 : Protocol message serialized to a size different from what was originally expected.  Perhaps it was modified by another thread during serialization?
@@ -2131,6 +2135,12 @@ CSteamVR_ControllerPairing_Request.UnpairController
 CSteamVR_ControllerPairing_Request.UnpairDisconnectedControllers
 CSteamVR_ControllerPairing_Request.Update
 CSteamVR_ControllerPairing_State_Message
+CSteamVR_ControllerUpdate_Controller
+CSteamVR_ControllerUpdate_Request
+CSteamVR_ControllerUpdate_Request.IdentifyController
+CSteamVR_ControllerUpdate_Request.StartUpdate
+CSteamVR_ControllerUpdate_Request.UpdateState
+CSteamVR_ControllerUpdate_State_Message
 CSteamVR_Header
 CSteamVR_OverlayInputFocusChanged_Message
 CSteamVR_PushOverlayInputFocus_Message
@@ -2518,7 +2528,6 @@ CurrentURL
 D3DKMTEnumAdapters2
 D3DKMTQueryAdapterInfo
 D7q/;M
-DA4@
 DELEGATE 
 DISABLED
 DXGI VSync Thread ended\n
@@ -2560,6 +2569,7 @@ Disabling
 Disabling texture compression on '%s' due to destination texture format.\n
 Discarding sequence mismatched message type: %d, sequence: %d, expected type: %d, expected sequence: %d, pipe: %s\n
 DismissedWarnings
+Dl5@
 Does not match user setting "forcedDriver" for the HMD
 Does not match user setting "forcedHmd"
 DominantHand
@@ -2717,6 +2727,7 @@ Failed to get app info for %s when getting app settings
 Failed to get camera frame buffering requirements for device index %u\n
 Failed to get process handle for app %s with pid %u\n
 Failed to handle invalid controller pairing action %d\n
+Failed to handle invalid controller update action %d\n
 Failed to import client event handle from pipe %s after connecting\n
 Failed to import server event handle from pipe %s after connecting\n
 Failed to init camera frame buffering for device index %u\n
@@ -2733,6 +2744,7 @@ Failed to parse chaperone file because universes was not an array\n
 Failed to parse chaperone file because version was %u\n
 Failed to parse malformed CSteamVR_PushOverlayInputFocus_Message
 Failed to parse malformed CSteamVR_VRGamepadUI_Message
+Failed to parse malformed mailbox firmware_update_state
 Failed to parse malformed mailbox overlay_input_focused_changed
 Failed to parse malformed mailbox pairing_state
 Failed to parse malformed mailbox vrgamepadui_message
@@ -2916,7 +2928,6 @@ H$6t
 H*0"ZOW
 HAPTICDEBUG %s:%d sec: %f\t freq: %f\t amp: %f\n
 HEAD
-HJ5@
 HMD Not Known (202)
 HMD already in use by another application (205)
 HMD detected over USB, but Monitor may be mirrored instead of extended (212)
@@ -2938,8 +2949,6 @@ HMD found, but unable to request config (1102)
 HMDManufacturer
 HMDModel
 HMDSerialNumber
-HR2@
-HT7@
 HTTP Version Not Supported
 HTTP parse, %lu bytes
 HTTP/
@@ -2958,7 +2967,6 @@ HTTP_REQUEST Static Content %s
 Hang the server for the specified number of seconds (default 3600)
 HasField
 Hex and octal numbers must be integers.
-Hf9@
 Hmd DriverId is invalid (125)
 Hmd DriverId is our of bounds (211)
 Hmd Not Found (108)
@@ -2966,7 +2974,6 @@ Hmd Not Found Presence Failed (126)
 HmdDriverFactory
 HostController
 How did we get here with a non-position slot?
-Hw9@
 I'm a teapot
 IAudioCaptureClient::GetBuffer failed on pass %u: hr = 0x%08x\n
 IAudioCaptureClient::GetBuffer said to read 0 frames on pass %u\n
@@ -3255,7 +3262,7 @@ JFIF
 JSON Chunk end does not aligned to a 4-byte boundary.
 JSON parse error
 JSON string too short.\n
-Jun  5 2026
+Jun 11 2026
 K32EnumProcesses
 K32GetProcessImageFileNameA
 KERNEL32.dll
@@ -3267,7 +3274,6 @@ Kill process?
 LABEL_OPTIONAL
 LABEL_REPEATED
 LABEL_REQUIRED
-LC4@
 LINEAR
 Label
 Language
@@ -3514,8 +3520,6 @@ Out of thread local storage!\n
 OutputDebugStringA
 OutputDebugStringW
 Overwriting default binding file from web: %s\n
-PA4@
-PC4@
 PCI\VEN_%x&DEV_%x&SUBSYS_%x&REV_%x
 PC_%08llx
 PICT
@@ -3571,13 +3575,13 @@ Path_Exists( absFilePath )
 Payload Too Large
 Payment Required
 Pe6^
-Pe9@
 PeekNamedPipe
 PerformApplicationPrelaunchCheck
 Permanent Redirect
 Perspective camera description not found.
 PerspectiveCamera
-Pg2@
+Pi8@
+Pl5@
 Playback devices:\n
 PoseUpdated for invalid object ID %d\n
 PoseUpdated from driver %s (%d) for device index %d which is owned by driver %s (%d)\n
@@ -3737,6 +3741,7 @@ Prop_HasDriverDirectModeComponent_Bool
 Prop_HasVirtualDisplayComponent_Bool
 Prop_HmdColumnCorrectionSettingPrefix_String
 Prop_HmdTrackingStyle_Int32
+Prop_Hmd_BlankOnFramerateChange_Bool
 Prop_Hmd_EnableParallelRenderCameras_Bool
 Prop_Hmd_SupportsAppThrottling_Bool
 Prop_Hmd_SupportsDisplayPortTrainingMode_Bool
@@ -4193,7 +4198,6 @@ Symbol name "
 Syntax error: value, object or array expected.
 System audio devices:\n
 SystemTimeToFileTime
-TB4@
 TdhEnumerateManifestProviderEvents
 Temporary Redirect
 TerminateProcess
@@ -5277,12 +5281,8 @@ WorkshopSelectConfig for BindingOutOfDate for %s(%s) attempt to set default bind
 WorkshopSelectConfig for BindingOutOfDate for %s(%s) when we don't have a binding at all for that controller type\n
 WriteFile
 X-Frame-Options: sameorigin\r\nContent-Security-Policy: default-src 'self'
-XB4@
-XR5@
 XXXX PNG chunk not known
-Xd9@
 XsBI
-Xt9@
 YUY2
 Zjz\v
 [%x:%x:%x:%x:%x:%x:%x:%x]
@@ -5683,6 +5683,7 @@ Zjz\v
 \r\n\tTYPE_BOOL
 \r\n\tTYPE_ENUM
 \rmj>zjZ
+\rp\f`\vP\n0 6*
 \t%s%s,%u,%s,%s,VID_%04X/PID_%04X,%s,%s\n
 \t\t\n\n\v\v\f\f\f\f\r\r\r\r
 \t\t\t\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r
@@ -5906,6 +5907,7 @@ application/txt
 application/x-font-ttf
 application/zip
 applications
+applying
 apps
 arguments
 arguments_windows
@@ -5921,7 +5923,6 @@ attributes
 audio
 audio/mpeg
 audio/wav
-auroraPlayspace
 auto-remapping_fromBinding.json
 auto-remapping_toBinding.json
 autolaunch
@@ -6163,6 +6164,7 @@ controller_role
 controller_type
 controller_type_changed
 controller_types
+controllers
 copy
 copy_all_except
 copyright
@@ -6179,6 +6181,7 @@ current_scene_process
 current_transforms
 current_transforms_without_controller
 current_user_persona_name
+custom
 czech
 dQy/
 da_dk
@@ -6329,6 +6332,7 @@ enum
 enum_description
 enum_value_description
 environment
+environmentMode
 err == vr::VRInitError_None
 error
 error %s when initing driver %s from %s.\n
@@ -6361,6 +6365,7 @@ extras
 eyetracking
 fP~V
 failIfExtra
+failed
 fakeHtcHmdMainboard
 fake_trackpad_click
 fake_trackpad_click_
@@ -6386,7 +6391,9 @@ file error
 file://
 filename
 filters
+finished
 finnish
+firmware_update_state
 firmwarerecovery
 firmwareupdate
 first not IHDR
@@ -6430,6 +6437,7 @@ fputs
 fputwc
 fr_fr
 frame_controller
+frame_controller_firmware_update
 frame_controller_pairing
 framesToThrottle
 fread
@@ -6481,10 +6489,7 @@ grip
 grip_limit_transforms
 group
 guid
-hB4@
-hC4@
 hPU3
-hR2@
 half_thresholds
 hand_interaction_ext
 hand_priority
@@ -6501,7 +6506,6 @@ has_force
 has_ready_ext
 has_touch
 has_value
-hb9@
 header
 header crc mismatch
 height
@@ -6510,6 +6514,7 @@ hex_property
 hidden
 hide_callout
 hide_dashboard_requested
+hl5@
 hlvr/mailbox
 hlvr/webui
 hmdAllowsClientToControlTextureIndex
@@ -6526,7 +6531,6 @@ https:
 https://
 hu_hu
 hungarian
-hz9@
 i91k
 i]Wb
 iauds
@@ -6866,7 +6870,6 @@ knuckles_ev1
 ko_kr
 koreana
 l6qnk
-lA4@
 lDa>
 label
 language_tag
@@ -7136,11 +7139,7 @@ overlays
 override_throttling
 overwrite.vrsettings
 owned
-p52@
-pA4@
-pB4@
 pBegin == pEnd
-pC4@
 pEnd > pBegin
 pMGConnect != nullptr
 pNewResource
@@ -7149,11 +7148,9 @@ pOutFormatCount MUST not be NULL.
 pOutModifierCount MUST not be NULL.
 pProcessId
 pQueue->GetMetaContainerHandle() == ulExistingQueue
-pR5@
 pSharedState != nullptr
 pUrl != nullptr
 pWebSocketMessage
-pa9@
 package
 packed
 paired_controllers
@@ -7172,11 +7169,14 @@ path_handle
 path_handles
 paths
 payload
+pb6*
 pbrMetallicRoughness
 pending_file_saved
 perfcheck
+performanceProfile
 personal
 perspective
+phase
 pico_controller
 pinch
 pinchgrab
@@ -7214,6 +7214,7 @@ position_z
 positional
 positive_int_value
 power
+powersaving
 powf
 precision
 prediction
@@ -7221,6 +7222,7 @@ prediction parameter out of range
 preferredRefreshRate
 preferred_refresh_rate
 prefersUpperDeviceIndices
+preparing
 press
 press_rotation_x
 press_rotation_y
@@ -7236,7 +7238,9 @@ priority
 prism.dll
 progress
 progress_icon
+progress_pct
 promptForChaperoneAtGameLaunch
+properties.json
 property_containers
 property_contents
 property_number
@@ -7262,6 +7266,7 @@ range
 read past buffer
 read_conn
 ready_ext
+readytoupdate
 realloc
 reason
 reboothmd
@@ -7476,6 +7481,8 @@ standaloneSystemLayer
 standing
 start
 start_pairing
+start_update
+started
 starts_theater_mode
 startup
 startup_reason
@@ -7496,6 +7503,7 @@ steam_vrbutton
 steammessages_unified_base.steamclient.proto
 steamvr
 steamvr.vrsettings
+steamvr.vrsettings.all
 steamvr/
 steamvr_
 steamvr_english.txt
@@ -7598,6 +7606,7 @@ thumbstick_settings_%s
 thumbstick_system_override
 time
 timeout_seconds
+tl5@
 tls:
 toType
 to_controller_type
@@ -7686,9 +7695,12 @@ unsupported data layout
 unsupported format
 update_component_states
 update_pairing_state
+update_state
 update_time
 updated_apps
+updating
 upper
+uptodate
 uri_to_path2
 usage
 usb_devices
@@ -7769,6 +7781,7 @@ vrdisplays
 vrdrivers
 vrgamepadui_message
 vrgamepadui_messages
+vrlink.client
 vrmonitor_
 vrmonitor_english.txt
 vrmonitor_errors_
@@ -7831,13 +7844,9 @@ wrong version
 ws handshake error
 wss:
 x-steamvr-secret
-xA4@
 x_path
 xdigit
-xm2@
 xmag
-xr9@
-xv9@
 y9*O
 y_path
 yfov

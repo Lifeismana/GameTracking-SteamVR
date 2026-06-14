@@ -117,7 +117,7 @@ CVkAllocator::AllocateMemory
 CVkAllocator::AllocateMemoryFromType
 CVkAllocator::CreateImageWithFlags
 CVkAllocator::GetCompatibleMemoryType
-CVkDevice::SetDebugName
+CVkDevice::SetObjectDebugName
 CVkQueue::Present
 CloseHandle
 CreateEventW
@@ -189,7 +189,7 @@ PRISM_Shutdown
 PRISM_Stop
 QueryPerformanceCounter
 RPCRT4.dll
-RSDSi<
+RSDS}
 RaiseException
 ResetEvent
 RtlCaptureContext
@@ -271,7 +271,6 @@ c:\buildslave\steamvr_rel_win64\build\src\facet\src\vkresource.cpp
 c:\buildslave\steamvr_rel_win64\build\src\facet\src\vksync.cpp
 c:\buildslave\steamvr_rel_win64\build\src\prism\plugins\prism_vulkandisplay\Retail\win64\2017\prism_vulkandisplay.pdb
 c:\buildslave\steamvr_rel_win64\build\src\prism\plugins\prism_vulkandisplay\prismdisplay_vulkan.cpp
-f-6E
 failed to acquire next HMD image
 free
 lhs->m_pTimeline == rhs->m_pTimeline

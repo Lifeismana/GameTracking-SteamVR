@@ -274,12 +274,10 @@ PID_8328
 Parsing of JSON file "%s" failed: %s\n
 QueryPerformanceCounter
 QueryPerformanceFrequency
-RSDS
+RSDSsMoj
 RaiseException
 RegCloseKey
 RegCreateKeyExW
-RegDeleteValueA
-RegDeleteValueW
 RegDisableReflectionKey
 RegEnumKeyExA
 RegEnumKeyExW
@@ -526,6 +524,7 @@ setopenxrruntime
 show
 stackLimit
 startup
+steamxr_win32.json
 steamxr_win64.json
 strftime
 strictRoot

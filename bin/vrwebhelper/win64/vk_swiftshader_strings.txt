@@ -1565,7 +1565,6 @@ $jumptable$__
 0E>X
 0X8b?~
 0iN>/
-0x\r5
 1#IND
 1#INF
 1#QNAN
@@ -1575,8 +1574,6 @@ $jumptable$__
 16-bit or 32-bit 
 2 Entry points cannot share the same name and ExecutionMode.
 2\n0\tP
-2\n0x\r5
-2\vpx\r5
 3 FB
 32-bit 
 37>k
@@ -3998,7 +3995,6 @@ Override with -verbose=none except for specified functions
 OverrideCoverageNV
 PA..\..\third_party\swiftshader\src\Vulkan\VkSemaphore.cpp
 PNaCl bitcode file
-PPR=U
 PackDouble2x32
 PackHalf2x16
 PackSnorm2x16
@@ -4159,10 +4155,8 @@ RND_INF
 RND_MIN_INF
 RND_ZERO
 RSDS
-R\fpx\r5
 R\n0\tP
 R\n0\tp
-R\vpx\r5
 Radians
 RaiseException
 RawAccessChainNV
@@ -5927,7 +5921,6 @@ Zig Software Foundation Zig Compiler
 \tcQr
 \tkE>fvw
 \vA03>A|
-\vpx\r5
 ]u9g
 ^<V7w
 ^RfN>
@@ -5963,9 +5956,9 @@ __moddi3
 __modsi3
 __nacl_read_tp
 __next_prime overflow
-__pascal
 __popcountdi2
 __popcountsi2
+__preserve_none
 __ptr64
 __restrict
 __stdcall
@@ -6690,7 +6683,6 @@ printf
 private-to-local
 protocol error
 protocol not supported
-px\r5
 q>F,3
 qS>g?h3
 quantization mode
@@ -6716,7 +6708,6 @@ r15w
 rNm>)
 r\n0\tP
 r\tVr.>T
-r\vpx\r5
 radians
 raw access chain operands
 ray flags

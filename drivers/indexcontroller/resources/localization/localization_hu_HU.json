@@ -1,0 +1,15 @@
+[
+    {
+        "language_tag": "hu_HU",
+        "knuckles": "Index játékvezérlő",
+        "knuckles_ev1": "Knuckles (EV1) játékvezérlő",
+        "/input/a": "„A” gomb",
+        "/input/b": "„B” gomb",
+        "/input/pinch": "Csippentő mozdulat",
+        "/input/finger/index": "Mutatóujjas",
+        "/input/finger/middle": "Középső ujjas",
+        "/input/finger/ring": "Gyűrűsujjas",
+        "/input/finger/pinky": "Kisujjas",
+        "/input/thumbstick": "Irányítókar"
+    }
+]

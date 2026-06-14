@@ -1,0 +1,15 @@
+[
+    {
+        "language_tag": "pl_PL",
+        "knuckles": "Kontroler Valve Index",
+        "knuckles_ev1": "Kontroler Knuckles (EV1)",
+        "/input/a": "Przycisk A",
+        "/input/b": "Przycisk B",
+        "/input/pinch": "Gest uszczypnięcia",
+        "/input/finger/index": "Palec wskazujący",
+        "/input/finger/middle": "Palec środkowy",
+        "/input/finger/ring": "Palec serdeczny",
+        "/input/finger/pinky": "Palec mały",
+        "/input/thumbstick": "Drążek pod kciukiem"
+    }
+]

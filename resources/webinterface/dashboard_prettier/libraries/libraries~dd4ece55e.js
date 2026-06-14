@@ -1,102 +1,12 @@
-var CLSTAMP = "10715262";
+var CLSTAMP = "10731156";
 (self.webpackChunkvrwebui = self.webpackChunkvrwebui || []).push([
   [978],
   {
-    6035: (e, r, t) => {
-      t.d(r, { P: () => p });
-      var n,
-        o,
-        i = t(6540),
-        a = t(3815),
-        s = t(4452),
-        c = "function" == typeof Symbol && Symbol.for,
-        l =
-          null !==
-            (o =
-              null ===
-                (n = Object.getOwnPropertyDescriptor(function () {}, "name")) ||
-              void 0 === n
-                ? void 0
-                : n.configurable) &&
-          void 0 !== o &&
-          o,
-        u = c
-          ? Symbol.for("react.forward_ref")
-          : "function" == typeof i.forwardRef &&
-            (0, i.forwardRef)(function (e) {
-              return null;
-            }).$$typeof,
-        f = c
-          ? Symbol.for("react.memo")
-          : "function" == typeof i.memo &&
-            (0, i.memo)(function (e) {
-              return null;
-            }).$$typeof;
-      function p(e, r) {
-        var t;
-        if (f && e.$$typeof === f)
-          throw new Error(
-            "[mobx-react-lite] You are trying to use `observer` on a function component wrapped in either another `observer` or `React.memo`. The observer already applies 'React.memo' for you.",
-          );
-        if ((0, a.P)()) return e;
-        var n =
-            null !== (t = null == r ? void 0 : r.forwardRef) &&
-            void 0 !== t &&
-            t,
-          o = e,
-          c = e.displayName || e.name;
-        if (
-          u &&
-          e.$$typeof === u &&
-          ((n = !0), "function" != typeof (o = e.render))
-        )
-          throw new Error(
-            "[mobx-react-lite] `render` property of ForwardRef was not a function",
-          );
-        var p,
-          b,
-          m = function (e, r) {
-            return (0, s.q)(function () {
-              return o(e, r);
-            }, c);
-          };
-        return (
-          (m.displayName = e.displayName),
-          l &&
-            Object.defineProperty(m, "name", {
-              value: e.name,
-              writable: !0,
-              configurable: !0,
-            }),
-          e.contextTypes && (m.contextTypes = e.contextTypes),
-          n && (m = (0, i.forwardRef)(m)),
-          (m = (0, i.memo)(m)),
-          (p = e),
-          (b = m),
-          Object.keys(p).forEach(function (e) {
-            d[e] ||
-              Object.defineProperty(
-                b,
-                e,
-                Object.getOwnPropertyDescriptor(p, e),
-              );
-          }),
-          m
-        );
-      }
-      var d = {
-        $$typeof: !0,
-        render: !0,
-        compare: !0,
-        type: !0,
-        displayName: !0,
-      };
-    },
-    2517: (e, r, t) => {
-      t.d(r, { Xr: () => o });
+    2517: (e, t, r) => {
+      r.d(t, { Xr: () => o });
       var n = (function () {
           function e(e) {
-            var r = this;
+            var t = this;
             Object.defineProperty(this, "finalize", {
               enumerable: !0,
               configurable: !0,
@@ -121,14 +31,14 @@ var CLSTAMP = "10715262";
                 writable: !0,
                 value: function (e) {
                   void 0 === e && (e = 1e4),
-                    clearTimeout(r.sweepTimeout),
-                    (r.sweepTimeout = void 0);
-                  var t = Date.now();
-                  r.registrations.forEach(function (n, o) {
-                    t - n.registeredAt >= e &&
-                      (r.finalize(n.value), r.registrations.delete(o));
+                    clearTimeout(t.sweepTimeout),
+                    (t.sweepTimeout = void 0);
+                  var r = Date.now();
+                  t.registrations.forEach(function (n, o) {
+                    r - n.registeredAt >= e &&
+                      (t.finalize(n.value), t.registrations.delete(o));
                   }),
-                    r.registrations.size > 0 && r.scheduleSweep();
+                    t.registrations.size > 0 && t.scheduleSweep();
                 },
               }),
               Object.defineProperty(this, "finalizeAllImmediately", {
@@ -136,7 +46,7 @@ var CLSTAMP = "10715262";
                 configurable: !0,
                 writable: !0,
                 value: function () {
-                  r.sweep(0);
+                  t.sweep(0);
                 },
               });
           }
@@ -145,9 +55,9 @@ var CLSTAMP = "10715262";
               enumerable: !1,
               configurable: !0,
               writable: !0,
-              value: function (e, r, t) {
-                this.registrations.set(t, {
-                  value: r,
+              value: function (e, t, r) {
+                this.registrations.set(r, {
+                  value: t,
                   registeredAt: Date.now(),
                 }),
                   this.scheduleSweep();
@@ -176,39 +86,39 @@ var CLSTAMP = "10715262";
         o =
           "undefined" != typeof FinalizationRegistry ? FinalizationRegistry : n;
     },
-    724: (e, r, t) => {
-      var n = t(7813);
-      if (!t(6540).useState)
+    724: (e, t, r) => {
+      var n = r(7813);
+      if (!r(6540).useState)
         throw new Error("mobx-react-lite requires React with Hooks support");
       if (!n.makeObservable)
         throw new Error(
           "mobx-react-lite@3 requires mobx at least version 6 to be available",
         );
     },
-    6356: (e, r, t) => {
-      t.d(r, { E: () => o });
-      var n = t(7813);
+    6356: (e, t, r) => {
+      r.d(t, { E: () => o });
+      var n = r(7813);
       function o(e) {
         return (0, n.getDependencyTree)(e);
       }
     },
-    9889: (e, r, t) => {
-      t.d(r, { r: () => n.unstable_batchedUpdates });
-      var n = t(961);
+    9889: (e, t, r) => {
+      r.d(t, { r: () => n.unstable_batchedUpdates });
+      var n = r(961);
     },
-    1370: (e, r, t) => {
-      t.d(r, { PA: () => w });
-      var n = t(7813),
-        o = t(6540),
-        i = t(2255);
-      function a(e, r) {
-        return e === r ? 0 !== e || 1 / e == 1 / r : e != e && r != r;
+    1370: (e, t, r) => {
+      r.d(t, { PA: () => y });
+      var n = r(7813),
+        o = r(6540),
+        i = r(9698);
+      function a(e, t) {
+        return e === t ? 0 !== e || 1 / e == 1 / t : e != e && t != t;
       }
       var s = Symbol("patchMixins"),
-        c = Symbol("patchedDefinition");
-      function l(e, r) {
+        l = Symbol("patchedDefinition");
+      function c(e, t) {
         for (
-          var t = this,
+          var r = this,
             n = arguments.length,
             o = new Array(n > 2 ? n - 2 : 0),
             i = 2;
@@ -216,107 +126,107 @@ var CLSTAMP = "10715262";
           i++
         )
           o[i - 2] = arguments[i];
-        r.locks++;
+        t.locks++;
         try {
           var a;
           return null != e && (a = e.apply(this, o)), a;
         } finally {
-          r.locks--,
-            0 === r.locks &&
-              r.methods.forEach(function (e) {
-                e.apply(t, o);
+          t.locks--,
+            0 === t.locks &&
+              t.methods.forEach(function (e) {
+                e.apply(r, o);
               });
         }
       }
-      function u(e, r) {
+      function u(e, t) {
         return function () {
-          for (var t = arguments.length, n = new Array(t), o = 0; o < t; o++)
+          for (var r = arguments.length, n = new Array(r), o = 0; o < r; o++)
             n[o] = arguments[o];
-          l.call.apply(l, [this, e, r].concat(n));
+          c.call.apply(c, [this, e, t].concat(n));
         };
       }
-      function f(e, r, t) {
-        var n = (function (e, r) {
-          var t = (e[s] = e[s] || {}),
-            n = (t[r] = t[r] || {});
+      function d(e, t, r) {
+        var n = (function (e, t) {
+          var r = (e[s] = e[s] || {}),
+            n = (r[t] = r[t] || {});
           return (n.locks = n.locks || 0), (n.methods = n.methods || []), n;
-        })(e, r);
-        n.methods.indexOf(t) < 0 && n.methods.push(t);
-        var o = Object.getOwnPropertyDescriptor(e, r);
-        if (!o || !o[c]) {
-          var i = e[r],
-            a = p(e, r, o ? o.enumerable : void 0, n, i);
-          Object.defineProperty(e, r, a);
+        })(e, t);
+        n.methods.indexOf(r) < 0 && n.methods.push(r);
+        var o = Object.getOwnPropertyDescriptor(e, t);
+        if (!o || !o[l]) {
+          var i = e[t],
+            a = p(e, t, o ? o.enumerable : void 0, n, i);
+          Object.defineProperty(e, t, a);
         }
       }
-      function p(e, r, t, n, o) {
+      function p(e, t, r, n, o) {
         var i,
           a = u(o, n);
         return (
-          ((i = {})[c] = !0),
+          ((i = {})[l] = !0),
           (i.get = function () {
             return a;
           }),
           (i.set = function (o) {
             if (this === e) a = u(o, n);
             else {
-              var i = p(this, r, t, n, o);
-              Object.defineProperty(this, r, i);
+              var i = p(this, t, r, n, o);
+              Object.defineProperty(this, t, i);
             }
           }),
           (i.configurable = !0),
-          (i.enumerable = t),
+          (i.enumerable = r),
           i
         );
       }
-      var d = Symbol("ObserverAdministration"),
+      var f = Symbol("ObserverAdministration"),
         b = Symbol("isMobXReactObserver");
-      function m(e) {
-        var r;
-        return null != (r = e[d])
-          ? r
-          : (e[d] = {
+      function v(e) {
+        var t;
+        return null != (t = e[f])
+          ? t
+          : (e[f] = {
               reaction: null,
               mounted: !1,
               reactionInvalidatedBeforeMount: !1,
               forceUpdate: null,
-              name: v(e.constructor),
+              name: h(e.constructor),
               state: void 0,
               props: void 0,
               context: void 0,
             });
       }
-      function v(e) {
+      function h(e) {
         return e.displayName || e.name || "<component>";
       }
-      function h(e) {
-        var r = e.bind(this),
-          t = m(this);
+      function m(e) {
+        var t = e.bind(this),
+          r = v(this);
         return function () {
-          t.reaction ||
-            ((t.reaction = (function (e) {
+          r.reaction ||
+            ((r.reaction = (function (e) {
               return new n.Reaction(e.name + ".render()", function () {
                 if (e.mounted)
                   try {
                     null == e.forceUpdate || e.forceUpdate();
-                  } catch (t) {
-                    var r;
-                    null == (r = e.reaction) || r.dispose(),
+                  } catch (r) {
+                    var t;
+                    null == (t = e.reaction) || t.dispose(),
                       (e.reaction = null);
                   }
                 else e.reactionInvalidatedBeforeMount = !0;
               });
-            })(t)),
-            t.mounted ||
-              i._observerFinalizationRegistry.register(this, t, this));
+            })(r)),
+            r.mounted ||
+              i._observerFinalizationRegistry.register(this, r, this));
           var e = void 0,
             o = void 0;
           if (
-            (t.reaction.track(function () {
+            (r.reaction.track(function () {
               try {
-                o = (0, n._allowStateChanges)(!1, r);
-              } catch (r) {
-                e = r;
+                o = (0, n._allowStateChanges)(!1, t);
+              } catch (t) {
+                e = t;
               }
             }),
             e)
@@ -325,37 +235,37 @@ var CLSTAMP = "10715262";
           return o;
         };
       }
-      function y(e, r) {
+      function w(e, t) {
         return (
           (0, i.isUsingStaticRendering)() &&
             console.warn(
               "[mobx-react] It seems that a re-rendering of a React component is triggered while in static (server-side) mode. Please make sure components are rendered only once server-side.",
             ),
-          this.state !== r ||
-            !(function (e, r) {
-              if (a(e, r)) return !0;
+          this.state !== t ||
+            !(function (e, t) {
+              if (a(e, t)) return !0;
               if (
                 "object" != typeof e ||
                 null === e ||
-                "object" != typeof r ||
-                null === r
+                "object" != typeof t ||
+                null === t
               )
                 return !1;
-              var t = Object.keys(e),
-                n = Object.keys(r);
-              if (t.length !== n.length) return !1;
-              for (var o = 0; o < t.length; o++)
+              var r = Object.keys(e),
+                n = Object.keys(t);
+              if (r.length !== n.length) return !1;
+              for (var o = 0; o < r.length; o++)
                 if (
-                  !Object.hasOwnProperty.call(r, t[o]) ||
-                  !a(e[t[o]], r[t[o]])
+                  !Object.hasOwnProperty.call(t, r[o]) ||
+                  !a(e[r[o]], t[r[o]])
                 )
                   return !1;
               return !0;
             })(this.props, e)
         );
       }
-      function w(e, r) {
-        if (r && "class" !== r.kind)
+      function y(e, t) {
+        if (t && "class" !== t.kind)
           throw new Error(
             "The @observer decorator can be used on classes only",
           );
@@ -367,72 +277,72 @@ var CLSTAMP = "10715262";
           Object.prototype.isPrototypeOf.call(o.Component, e) ||
           Object.prototype.isPrototypeOf.call(o.PureComponent, e)
             ? (function (e) {
-                var r = e.prototype;
+                var t = e.prototype;
                 if (e[b]) {
-                  var t = v(e);
+                  var r = h(e);
                   throw new Error(
                     "The provided component class (" +
-                      t +
+                      r +
                       ") has already been declared as an observer component.",
                   );
                 }
-                if (((e[b] = !0), r.componentWillReact))
+                if (((e[b] = !0), t.componentWillReact))
                   throw new Error(
                     "The componentWillReact life-cycle event is no longer supported",
                   );
                 if (e.__proto__ !== o.PureComponent)
-                  if (r.shouldComponentUpdate) {
-                    if (r.shouldComponentUpdate !== y)
+                  if (t.shouldComponentUpdate) {
+                    if (t.shouldComponentUpdate !== w)
                       throw new Error(
                         "It is not allowed to use shouldComponentUpdate in observer based components.",
                       );
-                  } else r.shouldComponentUpdate = y;
-                var n = r.render;
+                  } else t.shouldComponentUpdate = w;
+                var n = t.render;
                 if ("function" != typeof n) {
-                  var a = v(e);
+                  var a = h(e);
                   throw new Error(
                     "[mobx-react] class component (" +
                       a +
                       ") is missing `render` method.\n`observer` requires `render` being a function defined on prototype.\n`render = () => {}` or `render = function() {}` is not supported.",
                   );
                 }
-                r.render = function () {
+                t.render = function () {
                   return (
                     Object.defineProperty(this, "render", {
                       configurable: !1,
                       writable: !1,
                       value: (0, i.isUsingStaticRendering)()
                         ? n
-                        : h.call(this, n),
+                        : m.call(this, n),
                     }),
                     this.render()
                   );
                 };
-                var s = r.componentDidMount;
+                var s = t.componentDidMount;
                 return (
-                  (r.componentDidMount = function () {
+                  (t.componentDidMount = function () {
                     var e = this,
-                      r = m(this);
+                      t = v(this);
                     return (
-                      (r.mounted = !0),
+                      (t.mounted = !0),
                       i._observerFinalizationRegistry.unregister(this),
-                      (r.forceUpdate = function () {
+                      (t.forceUpdate = function () {
                         return e.forceUpdate();
                       }),
-                      (r.reaction && !r.reactionInvalidatedBeforeMount) ||
-                        r.forceUpdate(),
+                      (t.reaction && !t.reactionInvalidatedBeforeMount) ||
+                        t.forceUpdate(),
                       null == s ? void 0 : s.apply(this, arguments)
                     );
                   }),
-                  f(r, "componentWillUnmount", function () {
+                  d(t, "componentWillUnmount", function () {
                     var e;
                     if (!(0, i.isUsingStaticRendering)()) {
-                      var r = m(this);
-                      null == (e = r.reaction) || e.dispose(),
-                        (r.reaction = null),
-                        (r.forceUpdate = null),
-                        (r.mounted = !1),
-                        (r.reactionInvalidatedBeforeMount = !1);
+                      var t = v(this);
+                      null == (e = t.reaction) || e.dispose(),
+                        (t.reaction = null),
+                        (t.forceUpdate = null),
+                        (t.mounted = !1),
+                        (t.reactionInvalidatedBeforeMount = !1);
                     }
                   }),
                   e

@@ -2795,6 +2795,9 @@ $ui8_4pk@
 2021
 2405
 2\n0\tP
+2\n0p=
+2\vp(K
+2\vpp=
 2dMS
 2darray
 2darrayMS
@@ -6864,7 +6867,7 @@ REG_ESPACE
 REG_ESUBREG
 REG_INVARG
 REG_NOMATCH
-RSDSP
+RSDSUX
 RTAccelerationStructure
 RTINDEX
 RValueReference
@@ -6887,8 +6890,10 @@ RWTexture3D
 RWTextureCube
 RWTextureCubeArray
 RWThreadNodeInputRecord
+R\fpp=
 R\n0\tP
 R\n0\tp
+R\vpp=
 Race condition writing to shared memory detected, consider making this write conditional.
 RaiseException
 Range must not be empty!
@@ -8487,7 +8492,6 @@ Zlinker-input
 \nIsLibrary\n
 \nLoop 
 \nNumber of memory regions: 
-\nPPJ
 \nPreprocessor Memory: 
 \nPrinting <null> Function\n
 \nSTATISTICS FOR '
@@ -9377,6 +9381,7 @@ __objc_yes
 __overflow_arg_area
 __pascal
 __pixel
+__preserve_none
 __private
 __private_extern__
 __private_extern__ 
@@ -17560,6 +17565,7 @@ rNm>)
 r\n0\tP
 r\n0\tp
 r\tVr.>T
+r\vpp=
 r_brace
 r_paren
 r_square

@@ -63,6 +63,7 @@
 --resetroomheight
 --resetroomsetup
 --rewind
+--send-vrevent
 --set-settings-bool
 --set-settings-float
 --set-settings-string
@@ -109,6 +110,7 @@
 .?AV<lambda_20b84b0fb08762a3063e740444e60d61>@@
 .?AV<lambda_20de32b3bbe03e3f544eb33d3470af25>@@
 .?AV<lambda_24ee0f64233c465d2a374777ebcfa21d>@@
+.?AV<lambda_26ce73e46f96286cc17ff640bde0b053>@@
 .?AV<lambda_27f4ed82cb84a113c590671ccc572ec7>@@
 .?AV<lambda_323e7ed949adb52c6683dcf639e5bbdb>@@
 .?AV<lambda_3333ef97faf1700ff9f6955fd786b689>@@
@@ -181,6 +183,7 @@
 .?AV?$_Func_impl_no_alloc@V<lambda_20b84b0fb08762a3063e740444e60d61>@@X$$V@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_20de32b3bbe03e3f544eb33d3470af25>@@X$$V@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_24ee0f64233c465d2a374777ebcfa21d>@@X$$V@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_26ce73e46f96286cc17ff640bde0b053>@@X$$V@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_27f4ed82cb84a113c590671ccc572ec7>@@X$$V@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_323e7ed949adb52c6683dcf639e5bbdb>@@X$$V@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_3333ef97faf1700ff9f6955fd786b689>@@X$$V@std@@
@@ -787,6 +790,7 @@ Prop_HasDriverDirectModeComponent_Bool
 Prop_HasVirtualDisplayComponent_Bool
 Prop_HmdColumnCorrectionSettingPrefix_String
 Prop_HmdTrackingStyle_Int32
+Prop_Hmd_BlankOnFramerateChange_Bool
 Prop_Hmd_EnableParallelRenderCameras_Bool
 Prop_Hmd_SupportsAppThrottling_Bool
 Prop_Hmd_SupportsDisplayPortTrainingMode_Bool

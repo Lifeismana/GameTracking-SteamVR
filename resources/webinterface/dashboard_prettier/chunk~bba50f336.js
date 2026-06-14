@@ -1,4 +1,4 @@
-var CLSTAMP = "10715262";
+var CLSTAMP = "10731156";
 (self.webpackChunkvrwebui = self.webpackChunkvrwebui || []).push([
   [384],
   {
@@ -156,7 +156,7 @@ var CLSTAMP = "10715262";
             (e[(e.RawAndUncalibrated = 2)] = "RawAndUncalibrated");
         })(a || (a = {}));
       let _ = 0;
-      var s, d, u, c, p, S, m, g, D, R, B, y, h, I, C, F, v, M, f, P, A;
+      var s, d, u, c, p, S, m, g, D, R, B, y, h, I, C, F, v, f, M, P, A;
       !(function (e) {
         (e[(e.None = 0)] = "None"),
           (e[(e.Shown = 1)] = "Shown"),
@@ -266,6 +266,7 @@ var CLSTAMP = "10715262";
             (e[(e.ThisSteamVR = 1)] = "ThisSteamVR"),
             (e[(e.AnotherSteamVR = 2)] = "AnotherSteamVR"),
             (e[(e.AnotherRuntime = 3)] = "AnotherRuntime"),
+            (e[(e.ThisSteamVR64BitOnly = 4)] = "ThisSteamVR64BitOnly"),
             (e[(e.Error = -1)] = "Error");
         })(h || (h = {})),
         (function (e) {
@@ -304,7 +305,7 @@ var CLSTAMP = "10715262";
         })(v || (v = {})),
         (function (e) {
           (e[(e.Default = 1)] = "Default"), (e[(e.Floor = 2)] = "Floor");
-        })(M || (M = {})),
+        })(f || (f = {})),
         (function (e) {
           (e[(e.Inactive = 0)] = "Inactive"),
             (e[(e.PendingReset = 1)] = "PendingReset"),
@@ -312,7 +313,7 @@ var CLSTAMP = "10715262";
             (e[(e.Default = 3)] = "Default"),
             (e[(e.CV = 4)] = "CV"),
             (e[(e.Manual = 5)] = "Manual");
-        })(f || (f = {})),
+        })(M || (M = {})),
         (function (e) {
           (e[(e.OK = 1)] = "OK"),
             (e[(e.Warning = 100)] = "Warning"),
@@ -340,7 +341,7 @@ var CLSTAMP = "10715262";
         })(A || (A = {}));
     },
     4367: (e, t, o) => {
-      var n, r, i, a, l, _, s, d, u, c, p, S, m, g, D, R, B;
+      var n, r, i, a, l, _, s, d, u, c, p, S, m, g, D, R, B, y, h;
       o.d(t, { fD: () => n, yW: () => m }),
         (function (e) {
           (e[(e.Invalid = 0)] = "Invalid"),
@@ -810,8 +811,15 @@ var CLSTAMP = "10715262";
             (e[(e.SteamVRClientLegacyDual = 3)] = "SteamVRClientLegacyDual");
         })(R || (R = {})),
         (function (e) {
+          (e[(e.Default = 0)] = "Default"),
+            (e[(e.AuroraFloor = 1)] = "AuroraFloor");
+        })(B || (B = {})),
+        (function (e) {
           (e[(e.Curved = 0)] = "Curved"), (e[(e.Flat = 1)] = "Flat");
-        })(B || (B = {}));
+        })(y || (y = {})),
+        (function (e) {
+          (e[(e.Default = 0)] = "Default"), (e[(e.Aurora = 1)] = "Aurora");
+        })(h || (h = {}));
     },
   },
 ]); //# sourceMappingURL=file:///home/buildbot/buildslave/steamvr_rel_npm_vrwebui/build/public/runtime/resources/webinterface/dashboard/sourcemaps/chunk~bba50f336.js.map

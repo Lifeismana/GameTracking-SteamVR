@@ -180,7 +180,7 @@ CVkCommandBuffer::OnPreSubmit
 CVkCommandBuffer::ValidateReferencedResources
 CVkDescriptorArrayBase::AllocateSets
 CVkDescriptorBindings::CVkDescriptorBindings
-CVkDevice::SetDebugName
+CVkDevice::SetObjectDebugName
 CVkImage::CmdPipelineBarrier
 CVkMappedMemoryView<struct `anonymous namespace'::CopyUniformBufferObject_t>::Remap
 CVkMappedMemoryView<struct `anonymous namespace'::MainUniformBufferObject_t>::Remap

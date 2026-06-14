@@ -1,4 +1,4 @@
-var CLSTAMP = "10715262";
+var CLSTAMP = "10731156";
 (self.webpackChunkvrwebui = self.webpackChunkvrwebui || []).push([
   [838],
   {
@@ -355,6 +355,8 @@ var CLSTAMP = "10715262";
             (y.properties["texture-id"] = (0, c.bl)(this.props.texture_id)),
             (y.properties["sort-order"] = this.props.sort_order),
             (y.properties["sort-depth-bias"] = this.props.sort_depth_bias),
+            (y.properties["no-depth-write"] = this.props.no_depth_write),
+            (y.properties["no-depth-test"] = this.props.no_depth_test),
             (y.properties.visibility = this.visibility),
             (y.properties["frame-resize-scale-factor"] = M),
             (y.properties["main-panel-for-frame-page"] =
@@ -1066,6 +1068,7 @@ var CLSTAMP = "10715262";
             (e[(e.ThisSteamVR = 1)] = "ThisSteamVR"),
             (e[(e.AnotherSteamVR = 2)] = "AnotherSteamVR"),
             (e[(e.AnotherRuntime = 3)] = "AnotherRuntime"),
+            (e[(e.ThisSteamVR64BitOnly = 4)] = "ThisSteamVR64BitOnly"),
             (e[(e.Error = -1)] = "Error");
         })(C || (C = {})),
         (function (e) {
@@ -1141,11 +1144,11 @@ var CLSTAMP = "10715262";
     },
     4367: (e, t, i) => {
       "use strict";
-      var r, n, o, a, s, l, d, _, p, u, m, c, h, g, v, S, D;
+      var r, n, o, a, s, l, d, _, p, u, m, c, h, g, v, S, D, R, y;
       i.d(t, {
         $: () => p,
         $Z: () => u,
-        Do: () => D,
+        Do: () => R,
         Fz: () => S,
         JR: () => s,
         KI: () => _,
@@ -1154,6 +1157,7 @@ var CLSTAMP = "10715262";
         ZP: () => v,
         en: () => o,
         eo: () => m,
+        f9: () => y,
         fD: () => r,
         fk: () => c,
         yW: () => h,
@@ -1626,8 +1630,15 @@ var CLSTAMP = "10715262";
             (e[(e.SteamVRClientLegacyDual = 3)] = "SteamVRClientLegacyDual");
         })(S || (S = {})),
         (function (e) {
+          (e[(e.Default = 0)] = "Default"),
+            (e[(e.AuroraFloor = 1)] = "AuroraFloor");
+        })(D || (D = {})),
+        (function (e) {
           (e[(e.Curved = 0)] = "Curved"), (e[(e.Flat = 1)] = "Flat");
-        })(D || (D = {}));
+        })(R || (R = {})),
+        (function (e) {
+          (e[(e.Default = 0)] = "Default"), (e[(e.Aurora = 1)] = "Aurora");
+        })(y || (y = {}));
     },
     6185: (e, t, i) => {
       "use strict";

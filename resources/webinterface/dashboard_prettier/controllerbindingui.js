@@ -1,4 +1,4 @@
-var CLSTAMP = "10715262";
+var CLSTAMP = "10731156";
 (() => {
   "use strict";
   var e,
@@ -336,6 +336,7 @@ var CLSTAMP = "10715262";
               (e[(e.ThisSteamVR = 1)] = "ThisSteamVR"),
               (e[(e.AnotherSteamVR = 2)] = "AnotherSteamVR"),
               (e[(e.AnotherRuntime = 3)] = "AnotherRuntime"),
+              (e[(e.ThisSteamVR64BitOnly = 4)] = "ThisSteamVR64BitOnly"),
               (e[(e.Error = -1)] = "Error");
           })(b || (b = {})),
           (function (e) {

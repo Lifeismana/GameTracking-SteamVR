@@ -996,7 +996,6 @@ $\n k_EProtoServiceTypeSteamMessages
 ?_Xlength_error@std@@YAXPEBD@Z
 ?_Xout_of_range@std@@YAXPEBD@Z
 ?always_noconv@codecvt_base@std@@QEBA_NXZ
-?ffffff
 ?flush@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@XZ
 ?getline@?$basic_istream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@PEAD_J@Z
 ?getloc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QEBA?AVlocale@2@XZ
@@ -2210,8 +2209,10 @@ R##Fe
 R;vM;
 RPCRT4.dll
 RRvM;;
-RSDS
+RSDS\t
 RX Fail:%d
+R\vpH
+R\vpd
 RaiseException
 Reached an unintended state: CPPTYPE_MESSAGE
 Reading dangerously large protocol message.  If the message turns out to be larger than 
@@ -3223,9 +3224,9 @@ c:\buildslave\steamvr_rel_win64\build\src\thirdparty\protobuf-2.6.1\src\google\p
 c:\buildslave\steamvr_rel_win64\build\src\vrlink\common\svlfec.cpp:1078
 c:\buildslave\steamvr_rel_win64\build\src\vrlink\common\svlfec.cpp:761
 c:\buildslave\steamvr_rel_win64\build\src\vrlink\driver_vrlink\Retail\win64\2017\driver_vrlink.pdb
-c:\buildslave\steamvr_rel_win64\build\src\vrlink\driver_vrlink\hmd.cpp:2463
-c:\buildslave\steamvr_rel_win64\build\src\vrlink\driver_vrlink\hmd.cpp:2812
-c:\buildslave\steamvr_rel_win64\build\src\vrlink\driver_vrlink\hmd.cpp:2924
+c:\buildslave\steamvr_rel_win64\build\src\vrlink\driver_vrlink\hmd.cpp:2466
+c:\buildslave\steamvr_rel_win64\build\src\vrlink\driver_vrlink\hmd.cpp:2815
+c:\buildslave\steamvr_rel_win64\build\src\vrlink\driver_vrlink\hmd.cpp:2927
 c:\buildslave\steamvr_rel_win64\build\src\vrlink\driver_vrlink\hmdd3d11.cpp:1618
 c:\buildslave\steamvr_rel_win64\build\src\vrlink\driver_vrlink\steamvrlink.cpp
 c:\buildslave\steamvr_rel_win64\build\src\vrlink\driver_vrlink\videonvenc.cpp:1391

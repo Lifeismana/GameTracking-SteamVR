@@ -84,7 +84,7 @@ LeaveCriticalSection
 LoadLibraryExW
 NULL
 QueryPerformanceCounter
-RSDS_
+RSDS
 RaiseException
 RtlCaptureContext
 RtlLookupFunctionEntry
@@ -146,7 +146,7 @@ __int64
 __int8
 __intrinsic_setjmp
 __intrinsic_setjmpex
-__pascal
+__preserve_none
 __processing_throw
 __ptr64
 __report_gsfailure
@@ -293,7 +293,9 @@ static
 std::nullptr_t
 std::nullptr_t 
 strchr
+strcmp
 strcpy_s
+strlen
 strncmp
 strrchr
 strstr

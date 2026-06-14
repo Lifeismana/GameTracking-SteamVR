@@ -654,10 +654,10 @@ $3br
 /data/src/vrclient/vrchaperoneclient.cpp
 /data/src/vrclient/vrclientcore.cpp
 /data/src/vrclient/vrcompositorclient.cpp
-/data/src/vrclient/vrcompositorclient.cpp:1439
-/data/src/vrclient/vrcompositorclient.cpp:1695
-/data/src/vrclient/vrcompositorclient.cpp:2482
-/data/src/vrclient/vrcompositorclient.cpp:462
+/data/src/vrclient/vrcompositorclient.cpp:1440
+/data/src/vrclient/vrcompositorclient.cpp:1696
+/data/src/vrclient/vrcompositorclient.cpp:2497
+/data/src/vrclient/vrcompositorclient.cpp:463
 /data/src/vrclient/vrcompositorsharedtextures.cpp
 /data/src/vrclient/vrcompositorsharedtextures.cpp:2564
 /data/src/vrclient/vrcompositorsharedtextures.cpp:2758
@@ -667,11 +667,11 @@ $3br
 /data/src/vrclient/vrcompositorsharedtextures.cpp:4312
 /data/src/vrclient/vrdebug.cpp:49
 /data/src/vrclient/vrdebug.cpp:60
-/data/src/vrclient/vrinput.cpp:1596
+/data/src/vrclient/vrinput.cpp:1609
 /data/src/vrclient/vrmailboxclient.cpp
-/data/src/vrclient/vroverlay.cpp:1015
-/data/src/vrclient/vroverlay.cpp:1213
-/data/src/vrclient/vroverlay.cpp:1244
+/data/src/vrclient/vroverlay.cpp:1174
+/data/src/vrclient/vroverlay.cpp:1205
+/data/src/vrclient/vroverlay.cpp:976
 /data/src/vrclient/vrsteamprivate.cpp
 /dev/null
 /device_was_drawn
@@ -1148,14 +1148,14 @@ $3br
 14IHmdSystem_003
 14IVRLegacyInput
 15CIOBufferCursor
-15CSxrChildHandleI10CSxrActionP10XrAction_T13CSxrActionSetE
-15CSxrChildHandleI11CSxrSessionP11XrSession_T12CSxrInstanceE
-15CSxrChildHandleI13CSxrActionSetP13XrActionSet_T12CSxrInstanceE
-15CSxrChildHandleI17CSxrSwapchainBaseP13XrSwapchain_T11CSxrSessionE
-15CSxrChildHandleI18CSxrHandTrackerEXTP18XrHandTrackerEXT_T11CSxrSessionE
-15CSxrChildHandleI18CSxrRenderModelEXTP18XrRenderModelEXT_T11CSxrSessionE
-15CSxrChildHandleI20CSxrFoveationProfileP22XrFoveationProfileFB_T11CSxrSessionE
-15CSxrChildHandleI23CSxrRenderModelAssetEXTP23XrRenderModelAssetEXT_T11CSxrSessionE
+15CSxrChildHandleI10CSxrActionP10XrAction_T11XrActionTag13CSxrActionSetE
+15CSxrChildHandleI11CSxrSessionP11XrSession_T12XrSessionTag12CSxrInstanceE
+15CSxrChildHandleI13CSxrActionSetP13XrActionSet_T14XrActionSetTag12CSxrInstanceE
+15CSxrChildHandleI17CSxrSwapchainBaseP13XrSwapchain_T14XrSwapchainTag11CSxrSessionE
+15CSxrChildHandleI18CSxrHandTrackerEXTP18XrHandTrackerEXT_T19XrHandTrackerEXTTag11CSxrSessionE
+15CSxrChildHandleI18CSxrRenderModelEXTP18XrRenderModelEXT_T19XrRenderModelEXTTag11CSxrSessionE
+15CSxrChildHandleI20CSxrFoveationProfileP22XrFoveationProfileFB_T23XrFoveationProfileFBTag11CSxrSessionE
+15CSxrChildHandleI23CSxrRenderModelAssetEXTP23XrRenderModelAssetEXT_T24XrRenderModelAssetEXTTag11CSxrSessionE
 15CSyncLockThread
 15CVRIOBuffer_001
 15CVRIOBuffer_002
@@ -1328,16 +1328,16 @@ $3br
 22CKeyframedDataResource
 22CRenderModelLoadThread
 22CSxrCompositorHeadless
-22CSxrDispatchableHandleI10CSxrActionP10XrAction_TE
-22CSxrDispatchableHandleI11CSxrSessionP11XrSession_TE
-22CSxrDispatchableHandleI12CSxrInstanceP12XrInstance_TE
-22CSxrDispatchableHandleI13CSxrActionSetP13XrActionSet_TE
-22CSxrDispatchableHandleI17CSxrSwapchainBaseP13XrSwapchain_TE
-22CSxrDispatchableHandleI18CSxrHandTrackerEXTP18XrHandTrackerEXT_TE
-22CSxrDispatchableHandleI18CSxrRenderModelEXTP18XrRenderModelEXT_TE
-22CSxrDispatchableHandleI20CSxrFoveationProfileP22XrFoveationProfileFB_TE
-22CSxrDispatchableHandleI23CSxrRenderModelAssetEXTP23XrRenderModelAssetEXT_TE
-22CSxrDispatchableHandleI9CSxrSpaceP9XrSpace_TE
+22CSxrDispatchableHandleI10CSxrActionP10XrAction_T11XrActionTagE
+22CSxrDispatchableHandleI11CSxrSessionP11XrSession_T12XrSessionTagE
+22CSxrDispatchableHandleI12CSxrInstanceP12XrInstance_T13XrInstanceTagE
+22CSxrDispatchableHandleI13CSxrActionSetP13XrActionSet_T14XrActionSetTagE
+22CSxrDispatchableHandleI17CSxrSwapchainBaseP13XrSwapchain_T14XrSwapchainTagE
+22CSxrDispatchableHandleI18CSxrHandTrackerEXTP18XrHandTrackerEXT_T19XrHandTrackerEXTTagE
+22CSxrDispatchableHandleI18CSxrRenderModelEXTP18XrRenderModelEXT_T19XrRenderModelEXTTagE
+22CSxrDispatchableHandleI20CSxrFoveationProfileP22XrFoveationProfileFB_T23XrFoveationProfileFBTagE
+22CSxrDispatchableHandleI23CSxrRenderModelAssetEXTP23XrRenderModelAssetEXT_T24XrRenderModelAssetEXTTagE
+22CSxrDispatchableHandleI9CSxrSpaceP9XrSpace_T10XrSpaceTagE
 22CVRMsg_ApplicationInfo
 22CVRMsg_ConnectResponse
 22CVRMsg_GetDriverDetail
@@ -1499,7 +1499,7 @@ $3br
 28OverlayInterfaceRegistrationI14CVROverlay_027E
 28OverlayInterfaceRegistrationI14CVROverlay_028E
 29CInputFilter_JoystickSettings
-29CSxrChildVariableParentHandleI9CSxrSpaceP9XrSpace_T10CSxrAction11CSxrSessionE
+29CSxrChildVariableParentHandleI9CSxrSpaceP9XrSpace_T10XrSpaceTag10CSxrAction11CSxrSessionE
 29CSxrGraphicsRequirementsPrism
 29CVRMsg_CompositorBringToFront
 29CVRMsg_CompositorImportDmaBuf
@@ -3641,7 +3641,8 @@ PostPresentHandoff
 Primitive
 PrismTimeline:%lu
 Process %d failed to shm_open %s: %d\n
-Process called VR_Init a second time without an intervening VR_Shutdown. Returning success.\n
+Process called VR_Init or xrCreateInstance %u times without a matching VR_Shutdown or xrDestroyInstance. Behavior is undefined.\n
+Process called VR_Shutdown or xrDestroyInstance, but still has %u reference(s) to VRSystem or xrInstance. Behavior is undefined.\n
 ProcessDpadBindings
 Projection
 Prop_
@@ -3778,6 +3779,7 @@ Prop_HasDriverDirectModeComponent_Bool
 Prop_HasVirtualDisplayComponent_Bool
 Prop_HmdColumnCorrectionSettingPrefix_String
 Prop_HmdTrackingStyle_Int32
+Prop_Hmd_BlankOnFramerateChange_Bool
 Prop_Hmd_EnableParallelRenderCameras_Bool
 Prop_Hmd_SupportsAppThrottling_Bool
 Prop_Hmd_SupportsDisplayPortTrainingMode_Bool
@@ -3960,6 +3962,7 @@ STEAMVR_GPUVIS_ON_ASSERT
 STEAMVR_VERBOSE_HAPTIC_LOG
 STEAMVR_VKVALIDATION
 STEAMVR_WEBHELPER
+STEAM_COMPAT_PROTON
 STEAM_RUNTIME=0 LD_LIBRARY_PATH= lsusb -d %x:%x > /dev/null
 SUBOPTIMAL_KHR
 SXR_GL_CHECK: error:0x%x at %s:%i -> %s\n
@@ -3987,9 +3990,9 @@ Server could not create read event %s\n
 Server somehow created read event before reader %s\n
 ServerEventSignal
 Set thread %p priority to: %d\n
-SetDebugName
 SetGraphicsDevice
 SetHandLocationsInactive: locations was nullptr
+SetObjectDebugName
 SetOverlayRaw can't take dimensions over %u, but was passed %u x %u. Really it shouldn't be called with anything over a hundred or two pixels in each direction.\n
 SetOverlayRaw failed to create a memory block for %u x %u texture\n
 SetOverlayRawBlock_
@@ -6510,7 +6513,6 @@ atan2f
 atanf
 attributes
 audio
-auroraPlayspace
 auto
 auto:
 autoLaunchSteamVROnButtonPress
@@ -6742,6 +6744,7 @@ cs_cz
 currentUUID
 currentUniverseId
 cursor_index
+custom
 czech
 da_dk
 danish
@@ -6893,6 +6896,7 @@ end of input
 end_ctx
 english
 entries
+environmentMode
 equals-sign
 error
 error %s when initing driver %s from %s.\n
@@ -7630,6 +7634,7 @@ pbrMetallicRoughness
 pclose
 percent-sign
 perfcheck
+performanceProfile
 period
 perspective
 pglFramebufferRenderbuffer
@@ -7661,6 +7666,7 @@ position_z
 positional
 posix_memalign
 power
+powersaving
 powf
 ppCmdBuf
 precision
@@ -7891,6 +7897,7 @@ shaders/vulkan/distort_geom_aa_lines_vs.spv
 shaders/vulkan/distort_geom_aa_quads_ps.spv
 shaders/vulkan/distort_geom_aa_quads_vs.spv
 shaders/vulkan/distort_geom_altcolorblend_ps.spv
+shaders/vulkan/distort_geom_aurora_floor_ps.spv
 shaders/vulkan/distort_geom_aurora_ps.spv
 shaders/vulkan/distort_geom_colormap_lines_ps.spv
 shaders/vulkan/distort_geom_constant_ps.spv
@@ -9323,6 +9330,7 @@ vrcompositor_mailbox
 vrcompositor_notification
 vrcompositor_systemlayer
 vrdashboard
+vrlink.client
 vrmonitor
 vrntfyimg#%d
 vroverlaylatest

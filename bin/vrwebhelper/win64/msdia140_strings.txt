@@ -13,14 +13,14 @@
  new
  noexcept
  volatile
-#Blob
 #GUID
 #Pdb
 %08x
 %d%s (ordinal)
 %ihD
+%rp\nU
 %s<E&C%03.3d>
-&2 4n
+&2 4t
 &Sgw
 (null)
 * Linker *
@@ -28,6 +28,7 @@
 *StO9>T
 *k1H
 ,<ellipsis>
+-Microsoft MSFZ Container\r\n
 .00cfg
 .3Mx
 .?AUContentSizeError@ifc@@
@@ -99,7 +100,6 @@
 .PEAD
 .PEAX
 .bss
-.d24
 .data
 .data$r
 .data$rs
@@ -174,9 +174,13 @@
 .xJ>Hf
 .xdata
 .xdata$x
+/LinkInfo
 /TMCache
 /UDTSRCLINEUNDONE
 /names
+064*&F6 8 :
+08B 
+0L2p4 0$\f
 0LtER
 0iN>/
 1#IND
@@ -185,10 +189,11 @@
 1#SNAN
 1.2.13
 11Y@
-14.42.34436.0
+14.44.35215.0
 1YT[
 1vJ9c
 2*iZ
+2z>F@e\t
 3333333333333333UUUUUUUUUUUUUUUU0123456789abcdef
 37>k
 3>N;kU
@@ -196,12 +201,13 @@
 3s%a
 49v|
 4FVcK
+5(2+S
 6gcD
 6yXK
 7Q;P
 7aw=
 7w+z
-8@B N
+8@Bp
 8@HJ
 8@HPXZ
 8@HPX`hpx
@@ -224,17 +230,17 @@
 =cQ6
 =imb;D
 >cQ6
+>dB4
 >jtm}S
 ?7zQ6$
 ?UUUUUU
 ?f`Y4
 ?qBJ
 ?ysB
-@/LinkInfo
+@8@HJp
 @ILT
 @ILT+%d(%s)EnC
 @Range error during SafeInt constructor
-@hpx
 A9P`
 A>pP&
 ABCDEFGHIJKLMNOPQRSTUVWXYZ
@@ -278,7 +284,7 @@ CreateFileMappingW
 CreateFileW
 CreateThreadpoolWork
 D:\a\_work\1\s\binaries\amd64ret\bin\amd64\msdia140.pdb
-D:\a\_work\1\s\src\vctools\Compiler\utility\fs-api.hxx
+D:\a\_work\1\s\src\vctools\cxx-utility\fs-api.hxx
 December
 DeleteCriticalSection
 DeleteFileW
@@ -368,11 +374,13 @@ IDiaAddressMap
 IDiaDataSource
 IDiaDataSource11Internal
 IDiaDataSourceEx
+IDiaDataSourceEx2
 IDiaEnumDebugStreams
 IDiaEnumFrameData
 IDiaEnumInjectedSources
 IDiaEnumInputAssemblyFiles
 IDiaEnumLineNumbers
+IDiaEnumNamedStreams
 IDiaEnumSectionContribs
 IDiaEnumSegments
 IDiaEnumSourceFiles
@@ -394,9 +402,12 @@ IDiaStackFrame
 IDiaStackWalker
 IDiaSymbol
 IDiaTable
+IDynamicDeoptimizationData
+IDynamicDeoptimizationData2
+IDynamicDeoptimizationData3
+IEnumVARIANT
 IND)ind)
 INITY
-IShadowDebugData
 IiGM>nw
 InitializeCriticalSection
 InitializeCriticalSectionAndSpinCount
@@ -405,6 +416,7 @@ InitializeSListHead
 InitializeSRWLock
 Insufficient resources were available to use additional parallelism.
 InterlockedFlushSList
+Invalid type index
 IsDebuggerPresent
 IsProcessorFeaturePresent
 IsValidCodePage
@@ -578,7 +590,6 @@ Microsoft (R) LINK
 Microsoft (R) Optimizing Compiler
 Microsoft C/C++ MSF 7.00\r\n
 Microsoft C/C++ program database 2.00\r\n
-Microsoft MSFZ Container\r\n
 Module %d
 Monday
 MultiByteToWideChar
@@ -595,8 +606,6 @@ OZQ%
 October
 OfiD
 OutputDebugStringA
-P2`2
-P8@HJ
 PathFileExistsW
 PathFindFileNameW
 Prev
@@ -606,12 +615,12 @@ QueryInterface
 QueryPerformanceCounter
 REtL
 RPCRT4.dll
-RSDS,
+RSDS
+R\vp!H
 R]Fe
 RaiseException
 Range error during +=
 Range error during SafeAppend (pb.size() > ulong max)
-Range error during SafeReplace (pb.size() > ulong max)
 Range error during currentVoidPtr
 Range error during default makeSubRange
 Range error during makeSubRange
@@ -643,6 +652,7 @@ S9>H
 SHLWAPI.dll
 SNAN)
 S_ALIGN
+S_ALTOBJNAME
 S_ANNOTATION
 S_ANNOTATIONREF
 S_ARMSWITCHTABLE
@@ -931,7 +941,7 @@ __int16
 __int32
 __int64
 __int8
-__pascal
+__preserve_none
 __ptr64
 __restrict
 __stdcall
@@ -1108,9 +1118,9 @@ dir.empty
 dir.expr
 dir.pragma
 dir.specifiers-spread
+dir.stmt
 dir.struct-binding
 dir.tuple
-dir.unused0
 dir.unused1
 dir.unused10
 dir.unused11
@@ -1242,6 +1252,7 @@ findLinesByAddr
 findLinesByLinenum
 findLinesByRVA
 findLinesByVA
+findNamedStreams
 findSectionAddressByCrc
 findSymbolByAddr
 findSymbolByRVA
@@ -1273,12 +1284,14 @@ getFuncMDTokenMapSize
 getFunctionFragments_RVA
 getFunctionFragments_VA
 getFunctionRelocations
+getFunctionRelocations2
 getHeapAllocationSites
 getInlineeMDTokenMap
 getInlineeMDTokenMapSize
 getLinkInfo
 getNumberOfFunctionFragments_RVA
 getNumberOfFunctionFragments_VA
+getOptPdbGuidAndAge
 getPatchFrontiers
 getRvaNonOptFromRvaOpt
 getRvaOptFromRvaNonOpt
@@ -1610,6 +1623,7 @@ heap.spec
 heap.stmt
 heap.syn
 heap.type
+heap.vendor
 heap.word
 host unreachable
 iL5f!
@@ -1640,6 +1654,7 @@ invalid literal/length code
 invalid literal/lengths set
 invalid seek
 invalid stored block lengths
+invalid string position
 invalid vector subscript
 invalid window size
 io error
@@ -1721,8 +1736,8 @@ obwQ4
 ole32.dll
 one or more parameters are invalid
 open algorithm failed: 
+openDynamicDeoptimizationData
 openSession
-openShadowDebugData
 operation canceled
 operation in progress
 operation not permitted
@@ -1734,8 +1749,8 @@ operator co_await
 operator<=>
 owM&
 owner dead
-p2 N
-p6@k
+p08BP
+p2`s
 p8@HPXf
 p8@N
 permission denied
@@ -1757,6 +1772,7 @@ pp.string
 pp.to-string
 pp.tuple
 pragma-directive.
+pragma-directive.expr
 pragma-directive.vendor-extension
 pragma.state
 prepareEnCRebuild
@@ -1797,6 +1813,7 @@ stmt.block
 stmt.break
 stmt.continue
 stmt.decl
+stmt.dir
 stmt.do-while
 stmt.expansion
 stmt.expression
@@ -1873,6 +1890,7 @@ syntax.function-try-block
 syntax.goto-statement
 syntax.handler
 syntax.handler-seq
+syntax.if-consteval
 syntax.if-statement
 syntax.init-capture
 syntax.init-declarator
@@ -1993,6 +2011,12 @@ uzKs@>
 v2!L.2
 value too large
 vector too long
+vendor.
+vendor.explicit-object-function
+vendor.seh-except
+vendor.seh-finally
+vendor.seh-leave
+vendor.seh-try
 vfunctab
 virtual 
 void

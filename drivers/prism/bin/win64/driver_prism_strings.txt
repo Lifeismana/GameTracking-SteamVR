@@ -390,7 +390,7 @@ CVkDevice::CreateInstance
 CVkDevice::FindBestPhysicalDevice
 CVkDevice::Init - failed to get extension count
 CVkDevice::Init - no instance extensions supported
-CVkDevice::SetDebugName
+CVkDevice::SetObjectDebugName
 CVkDevice::UseDevice
 CVkDevice::UsePhysicalDevice
 CVkDeviceBuilder::AddQueue
@@ -1678,4 +1678,3 @@ vkWriteMicromapsPropertiesEXT
 vrprismhost_startup
 vrprismhost_startup timed out after %u ms before being set by the new vrprismhost process
 vulkan-1.dll
-wO4_

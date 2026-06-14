@@ -471,7 +471,6 @@ assert json failed
 atof
 atoi
 audio
-auroraPlayspace
 background
 backgroundCameraHeight
 backgroundDomeRadius
@@ -493,6 +492,7 @@ client
 collectComments
 collisionBounds
 config
+custom
 dashboard
 deactivateStandbyOverride
 default.vrsettings
@@ -509,6 +509,7 @@ driver_null
 enable
 enableCameraSurfaces
 enableHomeApp
+environmentMode
 exception thrown in JSON library
 exit
 expecting another \u token to begin the second half of a unicode surrogate pair
@@ -556,6 +557,7 @@ overlay_viewer.exe
 overlayviewer/
 overwrite.vrsettings
 perfcheck
+performanceProfile
 playAreaColor
 power
 preferredRefreshRate

@@ -1,0 +1,15 @@
+[
+    {
+        "language_tag": "pt_PT",
+        "knuckles": "Comando do Valve Index",
+        "knuckles_ev1": "Comando Knuckles (EV1)",
+        "/input/a": "Botão A",
+        "/input/b": "Botão B",
+        "/input/pinch": "Gesto de beliscar",
+        "/input/finger/index": "Dedo indicador",
+        "/input/finger/middle": "Dedo médio",
+        "/input/finger/ring": "Dedo anelar",
+        "/input/finger/pinky": "Dedo mindinho",
+        "/input/thumbstick": "Stick"
+    }
+]

@@ -1,4 +1,4 @@
-var CLSTAMP = "10715262";
+var CLSTAMP = "10731156";
 (self.webpackChunkvrwebui = self.webpackChunkvrwebui || []).push([
   [948],
   {
@@ -9,23 +9,23 @@ var CLSTAMP = "10715262";
       "use strict";
       e.exports = n(6874);
     },
-    2255: (e, t, n) => {
+    9698: (e, t, n) => {
       "use strict";
       n.r(t),
         n.d(t, {
-          Observer: () => v.n,
-          _observerFinalizationRegistry: () => f.Y,
-          clearTimers: () => b,
-          enableStaticRendering: () => l.e,
-          isObserverBatched: () => u,
-          isUsingStaticRendering: () => l.P,
-          observer: () => h.P,
+          Observer: () => h,
+          _observerFinalizationRegistry: () => l.Y,
+          clearTimers: () => y,
+          enableStaticRendering: () => c.e,
+          isObserverBatched: () => s,
+          isUsingStaticRendering: () => c.P,
+          observer: () => f.P,
           observerBatching: () => a,
-          useAsObservableSource: () => p.W,
-          useLocalObservable: () => d.i,
-          useLocalStore: () => _.W,
-          useObserver: () => y,
-          useStaticRendering: () => g,
+          useAsObservableSource: () => p,
+          useLocalObservable: () => _,
+          useLocalStore: () => b,
+          useObserver: () => g,
+          useStaticRendering: () => m,
         });
       n(724);
       var r = n(9889),
@@ -36,28 +36,59 @@ var CLSTAMP = "10715262";
       function a(e) {
         e || (e = o), (0, i.configure)({ reactionScheduler: e });
       }
-      var s,
-        u = function () {
+      var s = function () {
           return !0;
         },
-        c = n(4452),
-        l = n(3815),
-        f = n(3438),
-        h = n(6035),
-        v = n(9712),
-        d = n(5562),
-        _ = n(1154),
-        p = n(3542);
-      a(r.r);
-      var b =
-        null !== (s = f.Y.finalizeAllImmediately) && void 0 !== s
-          ? s
-          : function () {};
-      function y(e, t) {
-        return void 0 === t && (t = "observed"), (0, c.q)(e, t);
+        u = n(4452),
+        c = n(3815),
+        l = n(3438),
+        f = n(6035);
+      function h(e) {
+        var t = e.children,
+          n = e.render;
+        t &&
+          n &&
+          console.error(
+            "MobX Observer: Do not use children and render in the same time in `Observer`",
+          );
+        var r = t || n;
+        return "function" != typeof r ? null : (0, u.q)(r);
       }
-      function g(e) {
-        (0, l.e)(e);
+      h.displayName = "Observer";
+      var v,
+        d = n(6540);
+      function _(e, t) {
+        return (0, d.useState)(function () {
+          return (0, i.observable)(e(), t, { autoBind: !0 });
+        })[0];
+      }
+      function p(e) {
+        var t = (0, d.useState)(function () {
+          return (0, i.observable)(e, {}, { deep: !1 });
+        })[0];
+        return (
+          (0, i.runInAction)(function () {
+            Object.assign(t, e);
+          }),
+          t
+        );
+      }
+      function b(e, t) {
+        var n = t && p(t);
+        return (0, d.useState)(function () {
+          return (0, i.observable)(e(n), void 0, { autoBind: !0 });
+        })[0];
+      }
+      a(r.r);
+      var y =
+        null !== (v = l.Y.finalizeAllImmediately) && void 0 !== v
+          ? v
+          : function () {};
+      function g(e, t) {
+        return void 0 === t && (t = "observed"), (0, u.q)(e, t);
+      }
+      function m(e) {
+        (0, c.e)(e);
       }
     },
     3815: (e, t, n) => {
@@ -77,7 +108,7 @@ var CLSTAMP = "10715262";
         i = n(7813),
         o = n(6540),
         a = (r = o) && "object" == typeof r && "default" in r ? r.default : r,
-        s = n(2255);
+        s = n(9698);
       function u(e, t) {
         return e === t ? 0 !== e || 1 / e == 1 / t : e != e && t != t;
       }
@@ -620,7 +651,7 @@ var CLSTAMP = "10715262";
           makeAutoObservable: () => ar,
           makeObservable: () => ir,
           observable: () => De,
-          observe: () => Gn,
+          observe: () => qn,
           onBecomeObserved: () => rn,
           onBecomeUnobserved: () => on,
           onReactionError: () => Tt,
@@ -871,17 +902,17 @@ var CLSTAMP = "10715262";
       var I = Symbol("mobx-stored-annotations");
       function K(e) {
         return Object.assign(function (t, n) {
-          if (q(n)) return e.decorate_20223_(t, n);
-          G(t, n, e);
+          if (G(n)) return e.decorate_20223_(t, n);
+          q(t, n, e);
         }, e);
       }
-      function G(e, t, n) {
+      function q(e, t, n) {
         C(e, I) || w(e, I, V({}, e[I])),
           (function (e) {
             return e.annotationType_ === J;
           })(n) || (e[I][t] = n);
       }
-      function q(e) {
+      function G(e) {
         return "object" == typeof e && "string" == typeof e.kind;
       }
       var W = Symbol("mobx administration"),
@@ -1025,7 +1056,7 @@ var CLSTAMP = "10715262";
             return (
               $t(e) ||
                 ((u = e),
-                (e = qe(
+                (e = Ge(
                   null != (c = null == (l = a.options_) ? void 0 : l.name)
                     ? c
                     : i.toString(),
@@ -1055,7 +1086,7 @@ var CLSTAMP = "10715262";
           );
         } else
           o(function () {
-            G(this, i, a);
+            q(this, i, a);
           });
       }
       function re(e, t, n, r, i) {
@@ -1070,7 +1101,7 @@ var CLSTAMP = "10715262";
           o.bound &&
           (d = d.bind(null != (v = e.proxy_) ? v : e.target_));
         return {
-          value: qe(
+          value: Ge(
             null != (a = null == (s = t.options_) ? void 0 : s.name)
               ? a
               : n.toString(),
@@ -1270,7 +1301,7 @@ var CLSTAMP = "10715262";
         var i, o, a, s;
         if (n.get) return Me.make_(e, t, n, r);
         if (n.set) {
-          var c = qe(t.toString(), n.set);
+          var c = Ge(t.toString(), n.set);
           return r === e.target_
             ? null ===
               e.defineProperty_(t, {
@@ -1314,7 +1345,7 @@ var CLSTAMP = "10715262";
             t,
             {
               configurable: !Ot.safeDescriptors || e.isPlainObject_,
-              set: qe(t.toString(), n.set),
+              set: Ge(t.toString(), n.set),
             },
             r,
           );
@@ -1369,10 +1400,10 @@ var CLSTAMP = "10715262";
         var t, n, r;
       }
       function Re(e, t, n) {
-        return q(t)
+        return G(t)
           ? je.decorate_20223_(e, t)
           : y(t)
-            ? void G(e, t, je)
+            ? void q(e, t, je)
             : Rn(e)
               ? e
               : m(e)
@@ -1440,8 +1471,8 @@ var CLSTAMP = "10715262";
         Ve = ce(Ne),
         Le = ce("computed.struct", { equals: X.structural }),
         Me = function (e, t) {
-          if (q(t)) return Ve.decorate_20223_(e, t);
-          if (y(t)) return G(e, t, Ve);
+          if (G(t)) return Ve.decorate_20223_(e, t);
+          if (y(t)) return q(e, t, Ve);
           if (m(e)) return K(ce(Ne, e));
           var n = m(t) ? t : {};
           return (n.get = e), n.name || (n.name = e.name || ""), new et(n);
@@ -1455,13 +1486,13 @@ var CLSTAMP = "10715262";
               null == (Be = s(function () {}, "name"))
                 ? void 0
                 : Be.configurable) && Te,
-        Ge = {
+        qe = {
           value: "action",
           configurable: !0,
           writable: !1,
           enumerable: !1,
         };
-      function qe(e, t, n, r) {
+      function Ge(e, t, n, r) {
         function i() {
           return We(e, n, t, r || this, arguments);
         }
@@ -1471,7 +1502,7 @@ var CLSTAMP = "10715262";
           (i.toString = function () {
             return t.toString();
           }),
-          Ke && ((Ge.value = e), u(i, "name", Ge)),
+          Ke && ((qe.value = e), u(i, "name", qe)),
           i
         );
       }
@@ -1657,7 +1688,7 @@ var CLSTAMP = "10715262";
             e.get || r(31),
             (this.derivation = e.get),
             (this.name_ = e.name || "ComputedValue"),
-            e.set && (this.setter_ = qe("ComputedValue-setter", e.set)),
+            e.set && (this.setter_ = Ge("ComputedValue-setter", e.set)),
             (this.equals_ =
               e.equals ||
               (e.compareStructural || e.struct ? X.structural : X.default)),
@@ -2234,27 +2265,27 @@ var CLSTAMP = "10715262";
       var Ut = "action",
         It = "autoAction",
         Kt = "<unnamed action>",
-        Gt = Z(Ut),
-        qt = Z("action.bound", { bound: !0 }),
+        qt = Z(Ut),
+        Gt = Z("action.bound", { bound: !0 }),
         Wt = Z(It, { autoAction: !0 }),
         Ht = Z("autoAction.bound", { autoAction: !0, bound: !0 });
       function zt(e) {
         return function (t, n) {
           return b(t)
-            ? qe(t.name || Kt, t, e)
+            ? Ge(t.name || Kt, t, e)
             : b(n)
-              ? qe(t, n, e)
-              : q(n)
-                ? (e ? Wt : Gt).decorate_20223_(t, n)
+              ? Ge(t, n, e)
+              : G(n)
+                ? (e ? Wt : qt).decorate_20223_(t, n)
                 : y(n)
-                  ? G(t, n, e ? Wt : Gt)
+                  ? q(t, n, e ? Wt : qt)
                   : y(t)
                     ? K(Z(e ? It : Ut, { name: t, autoAction: e }))
                     : void 0;
         };
       }
       var Ft = zt(!1);
-      Object.assign(Ft, Gt);
+      Object.assign(Ft, qt);
       var Xt = zt(!0);
       function Yt(e) {
         return We(e.name || Kt, !1, e, this, void 0);
@@ -2301,7 +2332,7 @@ var CLSTAMP = "10715262";
           a.getDisposer_(null == (o = t) ? void 0 : o.signal)
         );
       }
-      Object.assign(Xt, Wt), (Ft.bound = K(qt)), (Xt.bound = K(Ht));
+      Object.assign(Xt, Wt), (Ft.bound = K(Gt)), (Xt.bound = K(Ht));
       var Qt = function (e) {
         return e();
       };
@@ -2496,8 +2527,8 @@ var CLSTAMP = "10715262";
       var gn = ie("flow"),
         mn = ie("flow.bound", { bound: !0 }),
         On = Object.assign(function (e, t) {
-          if (q(t)) return gn.decorate_20223_(e, t);
-          if (y(t)) return G(e, t, gn);
+          if (G(t)) return gn.decorate_20223_(e, t);
+          if (y(t)) return q(e, t, gn);
           var n = e,
             r = n.name || "<unnamed flow>",
             i = function () {
@@ -2719,7 +2750,7 @@ var CLSTAMP = "10715262";
         if (Br(e)) return e[W].ownKeys_();
         r(38);
       }
-      function Gn(e, t, n, r) {
+      function qn(e, t, n, r) {
         return b(n)
           ? (function (e, t, n, r) {
               return Xr(e, t).observe_(n, r);
@@ -2728,7 +2759,7 @@ var CLSTAMP = "10715262";
               return Xr(e).observe_(t, n);
             })(e, t, n);
       }
-      function qn(e, t, n) {
+      function Gn(e, t, n) {
         return e.set(t, n), n;
       }
       function Wn(e, t) {
@@ -2737,7 +2768,7 @@ var CLSTAMP = "10715262";
         if (Je(e) || rt(e)) return Wn(e.get(), t);
         if (t.has(e)) return t.get(e);
         if (yr(e)) {
-          var n = qn(t, e, new Array(e.length));
+          var n = Gn(t, e, new Array(e.length));
           return (
             e.forEach(function (e, r) {
               n[r] = Wn(e, t);
@@ -2746,7 +2777,7 @@ var CLSTAMP = "10715262";
           );
         }
         if (xr(e)) {
-          var r = qn(t, e, new Set());
+          var r = Gn(t, e, new Set());
           return (
             e.forEach(function (e) {
               r.add(Wn(e, t));
@@ -2755,7 +2786,7 @@ var CLSTAMP = "10715262";
           );
         }
         if (Ar(e)) {
-          var i = qn(t, e, new Map());
+          var i = Gn(t, e, new Map());
           return (
             e.forEach(function (e, n) {
               i.set(n, Wn(e, t));
@@ -2763,7 +2794,7 @@ var CLSTAMP = "10715262";
             i
           );
         }
-        var o = qn(t, e, {});
+        var o = Gn(t, e, {});
         return (
           Kn(e).forEach(function (n) {
             c.propertyIsEnumerable.call(e, n) && (o[n] = Wn(e[n], t));
@@ -2834,7 +2865,7 @@ var CLSTAMP = "10715262";
           }, n.timeout);
         }
         n.name = "When";
-        var o = qe("When-effect", t),
+        var o = Ge("When-effect", t),
           a = Jt(function (t) {
             Fe(!1, e) && (t.dispose(), r && clearTimeout(r), o());
           }, n);
@@ -4233,7 +4264,7 @@ var CLSTAMP = "10715262";
       function Nr(e, t, n) {}
       var Vr,
         Lr,
-        Mr = qr(0),
+        Mr = Gr(0),
         Ur = (function () {
           var e = !1,
             t = {};
@@ -4256,7 +4287,7 @@ var CLSTAMP = "10715262";
           : void 0 !== Vr.prototype.__proto__
             ? (Vr.prototype.__proto__ = Lr)
             : (Vr.prototype = Lr);
-      var Gr = (function (e) {
+      var qr = (function (e) {
         function t(t, n, r, i) {
           var o;
           return (
@@ -4317,7 +4348,7 @@ var CLSTAMP = "10715262";
           ])
         );
       })(Kr);
-      function qr(e) {
+      function Gr(e) {
         return {
           enumerable: !1,
           configurable: !0,
@@ -4330,7 +4361,7 @@ var CLSTAMP = "10715262";
         };
       }
       function Wr(e) {
-        u(Gr.prototype, "" + e, qr(e));
+        u(qr.prototype, "" + e, Gr(e));
       }
       function Hr(e) {
         if (e > Ir) {
@@ -4339,7 +4370,7 @@ var CLSTAMP = "10715262";
         }
       }
       function zr(e, t, n) {
-        return new Gr(e, t, n);
+        return new qr(e, t, n);
       }
       function Fr(e, t) {
         if ("object" == typeof e && null !== e) {
@@ -4393,7 +4424,7 @@ var CLSTAMP = "10715262";
       Object.entries(hr).forEach(function (e) {
         var t = e[0],
           n = e[1];
-        "concat" !== t && w(Gr.prototype, t, n);
+        "concat" !== t && w(qr.prototype, t, n);
       }),
         Hr(1e3);
       var Jr = c.toString;

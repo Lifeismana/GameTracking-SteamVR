@@ -1,0 +1,15 @@
+[
+    {
+        "language_tag": "ru_RU",
+        "knuckles": "Контроллер Valve Index",
+        "knuckles_ev1": "Контроллер Knuckles (EV1)",
+        "/input/a": "Кнопка А",
+        "/input/b": "Кнопка B",
+        "/input/pinch": "Щипок",
+        "/input/finger/index": "Указательный палец",
+        "/input/finger/middle": "Средний палец",
+        "/input/finger/ring": "Безымянный палец",
+        "/input/finger/pinky": "Мизинец",
+        "/input/thumbstick": "Стик"
+    }
+]

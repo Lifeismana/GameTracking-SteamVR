@@ -256,9 +256,10 @@ $Ib?s
 1#QNAN
 1#SNAN
 11Y@
-126.0.0-HEAD.3134+g1967f4c+chromium-126.0.6478.183
+126.0.0-HEAD.3142+gc84d005+chromium-126.0.6478.183
 126.0.6478.183
 2\n0\tP
+2\vp8
 37>k
 3>N;kU
 3>fvw
@@ -590,6 +591,7 @@ LCIDToLocaleName
 LCMapStringEx
 LCMapStringW
 LINEAR_HISTOGRAM
+LLD PDB.
 LOG_FATAL
 LWG>
 LWW>
@@ -864,6 +866,7 @@ Zjz\v
 [aOni*{
 [printf format error]
 \\.\pipe\crashpad_%lu_
+\fp\vPh
 \nh?oT
 \nk>oB
 \r8STs\ne
@@ -881,7 +884,7 @@ __eabi
 __fastcall
 __metadata
 __next_prime overflow
-__pascal
+__preserve_none
 __ptr64
 __restrict
 __stdcall
@@ -1486,5 +1489,4 @@ wrong protocol type
 x86_64
 xT?V
 ycwebcamerasource.ax
-}MLLD PDB.
 ~WaitableEvent while Signaled

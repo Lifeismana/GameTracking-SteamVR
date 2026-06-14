@@ -1,0 +1,15 @@
+[
+    {
+        "language_tag": "zh_CN",
+        "knuckles": "Index 控制器",
+        "knuckles_ev1": "Knuckles（EV1）控制器",
+        "/input/a": "A 键",
+        "/input/b": "B 键",
+        "/input/pinch": "捏合手势",
+        "/input/finger/index": "食指",
+        "/input/finger/middle": "中指",
+        "/input/finger/ring": "无名指",
+        "/input/finger/pinky": "小拇指",
+        "/input/thumbstick": "摇杆"
+    }
+]

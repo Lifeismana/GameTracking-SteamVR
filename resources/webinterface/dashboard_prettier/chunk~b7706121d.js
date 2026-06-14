@@ -1,4 +1,4 @@
-var CLSTAMP = "10715262";
+var CLSTAMP = "10731156";
 (self.webpackChunkvrwebui = self.webpackChunkvrwebui || []).push([
   [148],
   {
@@ -243,8 +243,9 @@ var CLSTAMP = "10715262";
             (s.properties.solid = this.props.solid),
             (s.properties.culling = this.props.culling),
             (s.properties.stencil_mask = this.props.stencil_mask),
-            (s.properties["no-depth-write"] = this.props["no-depth-write"]),
-            (s.properties["no-depth-test"] = this.props["no-depth-test"]),
+            (s.properties["no-depth-write"] = this.props.no_depth_write),
+            (s.properties["no-depth-test"] = this.props.no_depth_test),
+            (s.properties.shader = this.props.eShader),
             [e, s]
           );
         }
@@ -576,10 +577,7 @@ var CLSTAMP = "10715262";
                     t,
                     "acceleration-factor-scale-term",
                   )),
-                  (o.properties["remote-transform-tx"] = n(
-                    t,
-                    "remote-transform-tx",
-                  )),
+                  (o.properties["stored-transform"] = n(t, "stored-transform")),
                   (o.properties["reset-on-recenter"] = p(
                     t,
                     "reset-on-recenter",
@@ -611,8 +609,8 @@ var CLSTAMP = "10715262";
         b,
         f,
         S,
-        v,
-        _ = [],
+        _,
+        v = [],
         y = null,
         R = !0;
       function C(e, t, s) {
@@ -641,7 +639,7 @@ var CLSTAMP = "10715262";
           : m;
       }
       function N(e) {
-        _.push(e), T();
+        v.push(e), T();
       }
       function T() {
         y ||
@@ -655,7 +653,7 @@ var CLSTAMP = "10715262";
                   rootproperties: {
                     relatchDashboardTransform: S,
                     allowDismissOnClick: R,
-                    sceneColorCorrection: v,
+                    sceneColorCorrection: _,
                   },
                   children: h(
                     {
@@ -674,11 +672,11 @@ var CLSTAMP = "10715262";
                   type: "update_scene_graph",
                   owning_overlay_key: k(),
                   scene_graph: t,
-                  retired_sgids: _,
+                  retired_sgids: v,
                 };
                 g.SendMessage("vrcompositor_systemlayer", s),
                   (y = null),
-                  (_ = []),
+                  (v = []),
                   (S = !1);
               }),
             0,

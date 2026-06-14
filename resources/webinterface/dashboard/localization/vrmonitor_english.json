@@ -237,6 +237,8 @@
 
 	"Settings_OpenRemoteSetting": "Open Remote Setting",
 
+	"Settings_Unavailable_PowerSaving": "Some settings cannot be changed while in Power Saving mode. Open the Quick Access Menu, then toggle Power Saving Mode off in the Performance tab.",
+
 	"Settings_Video_FrameLimitForApp_Header": "Frame Limit",
 	"Settings_Video_FrameLimitForApp_FPS": "%1$s FPS",
 	"Settings_Video_FrameLimitForApp_Hz": " (%1$s Hz)",
@@ -443,6 +445,7 @@
 	"Settings_Dashboard_KeyboardPrivacy_Enabled": "Enabled",
 	"Settings_Dashboard_KeyboardPrivacy_Disabled": "Disabled",
 	"Settings_Dashboard_KeyboardPrivacy_DisabledWarning": "Warning: Disabling keyboard privacy will allow games to stream controller poses while the VR keyboard is in use. Please be careful entering passwords or other sensitive information on the VR keyboard while using multi-player / social applications.",
+	"Settings_Dashboard_LaserPointerLength": "Laser Pointer Length",
 
 	"SettingsTime_5s": "5 Seconds",
 	"SettingsTime_30s": "30 Seconds",
@@ -470,6 +473,14 @@
 	"Settings_Chaperone_Style_2": "Squares",
 	"Settings_Chaperone_Style_3": "Grid (Sparse)",
 	"Settings_Chaperone_Style_4": "Floor only",
+
+	"Settings_Playspace_Environment": "Environment",
+	"Settings_Playspace_Environment_Image": "Image",
+	"Settings_Playspace_Environment_Aurora": "Aurora",
+	"Settings_Playspace_Environment_Speed": "Speed",
+	"Settings_Playspace_Environment_Height": "Height",
+	"Settings_Playspace_Environment_Brightness": "Brightness",
+	"Settings_Playspace_Environment_Stars": "Stars",
 
 	"Settings_Appearance_Chaperone_CollisionBoundsGroundPerimeterOn": "Always show floor bounds",
 	"Settings_Appearance_Chaperone_CollisionBoundsGroundPerimeterOnDesc": " ",
@@ -556,6 +567,7 @@
 
 	"OpenXR_AnotherSteamVR": "Another copy of SteamVR",
 	"OpenXR_SteamVR": "SteamVR",
+	"OpenXR_SteamVR64BitOnly": "SteamVR (Not for 32-bit)",
 	"OpenXR_None": "None",
 	"OpenXR_Error": "Error Finding Runtime",
 	"OpenXR_Automatic": "Automatic",

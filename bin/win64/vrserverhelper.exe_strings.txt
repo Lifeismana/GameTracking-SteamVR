@@ -171,7 +171,6 @@ memmove
 memset
 ole32.dll
 pFwRules->Add( pRule ) failed: 0x%08lx\n
-sOYZ
 string too long
 strstr
 terminate

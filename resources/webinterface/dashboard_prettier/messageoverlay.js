@@ -1,4 +1,4 @@
-var CLSTAMP = "10715262";
+var CLSTAMP = "10731156";
 (() => {
   "use strict";
   var e,
@@ -55,8 +55,8 @@ var CLSTAMP = "10715262";
         (y.constructor = v), _(y, m.prototype), (y.isPureReactComponent = !0);
         var b = Array.isArray,
           O = Object.prototype.hasOwnProperty,
-          k = { current: null },
-          R = { key: !0, ref: !0, __self: !0, __source: !0 };
+          R = { current: null },
+          k = { key: !0, ref: !0, __self: !0, __source: !0 };
         function C(e, t, r) {
           var o,
             s = {},
@@ -66,7 +66,7 @@ var CLSTAMP = "10715262";
             for (o in (void 0 !== t.ref && (i = t.ref),
             void 0 !== t.key && (a = "" + t.key),
             t))
-              O.call(t, o) && !R.hasOwnProperty(o) && (s[o] = t[o]);
+              O.call(t, o) && !k.hasOwnProperty(o) && (s[o] = t[o]);
           var l = arguments.length - 2;
           if (1 === l) s.children = r;
           else if (1 < l) {
@@ -81,7 +81,7 @@ var CLSTAMP = "10715262";
             key: a,
             ref: i,
             props: s,
-            _owner: k.current,
+            _owner: R.current,
           };
         }
         function M(e) {
@@ -215,7 +215,7 @@ var CLSTAMP = "10715262";
           I = {
             ReactCurrentDispatcher: A,
             ReactCurrentBatchConfig: P,
-            ReactCurrentOwner: k,
+            ReactCurrentOwner: R,
           };
         function L() {
           throw Error(
@@ -278,14 +278,14 @@ var CLSTAMP = "10715262";
               i = e._owner;
             if (null != t) {
               if (
-                (void 0 !== t.ref && ((a = t.ref), (i = k.current)),
+                (void 0 !== t.ref && ((a = t.ref), (i = R.current)),
                 void 0 !== t.key && (s = "" + t.key),
                 e.type && e.type.defaultProps)
               )
                 var l = e.type.defaultProps;
               for (u in t)
                 O.call(t, u) &&
-                  !R.hasOwnProperty(u) &&
+                  !k.hasOwnProperty(u) &&
                   (o[u] = void 0 === t[u] && void 0 !== l ? l[u] : t[u]);
             }
             var u = arguments.length - 2;
@@ -717,7 +717,7 @@ var CLSTAMP = "10715262";
               (e[(e.RawAndUncalibrated = 2)] = "RawAndUncalibrated");
           })(a || (a = {}));
         let l = 0;
-        var u, c, d, h, f, p, _, g, m, S, v, y, b, O, k, R, C, M, T, w, E;
+        var u, c, d, h, f, p, _, g, m, S, v, y, b, O, R, k, C, M, T, w, E;
         !(function (e) {
           (e[(e.None = 0)] = "None"),
             (e[(e.Shown = 1)] = "Shown"),
@@ -828,6 +828,7 @@ var CLSTAMP = "10715262";
               (e[(e.ThisSteamVR = 1)] = "ThisSteamVR"),
               (e[(e.AnotherSteamVR = 2)] = "AnotherSteamVR"),
               (e[(e.AnotherRuntime = 3)] = "AnotherRuntime"),
+              (e[(e.ThisSteamVR64BitOnly = 4)] = "ThisSteamVR64BitOnly"),
               (e[(e.Error = -1)] = "Error");
           })(b || (b = {})),
           (function (e) {
@@ -855,10 +856,10 @@ var CLSTAMP = "10715262";
               (e[(e.AppLaunch_Steam = 21)] = "AppLaunch_Steam"),
               (e[(e.SteamVR_Restart = 30)] = "SteamVR_Restart"),
               (e[(e.SteamVR_VRStartup = 31)] = "SteamVR_VRStartup");
-          })(k || (k = {})),
+          })(R || (R = {})),
           (function (e) {
             e[(e.Hostname = 0)] = "Hostname";
-          })(R || (R = {})),
+          })(k || (k = {})),
           (function (e) {
             (e[(e.Unavailable = 0)] = "Unavailable"),
               (e[(e.Active = 1)] = "Active"),

@@ -1077,7 +1077,6 @@ $yNp
 0CgY
 0E>X
 0H>qr
-0LLD PDB.
 0X8b?~
 0YF2\
 0[o5
@@ -5252,6 +5251,7 @@ LCMapStringEx
 LCMapStringW
 LGRo
 LK$TG
+LLD PDB.
 LMc\t
 LOOP
 LWG>
@@ -5813,7 +5813,7 @@ RDEFp
 RGBA4IsNotSupportedForColorRendering
 RGBDXT1TexturesSampleZeroAlpha
 RONOS_validationVK_LAYER_KHRONOSCommand successfully completed
-RSDS5
+RSDS
 RTT?
 RW2DArray_float4_
 RW2DArray_int4_
@@ -7116,11 +7116,11 @@ __ipixelLocalANGLE
 __isamplerBuffer
 __isamplerCubeArray
 __next_prime overflow
-__pascal
 __pixelLocalANGLE
 __pixel_localEXT
 __pixel_local_inEXT
 __pixel_local_outEXT
+__preserve_none
 __ptr64
 __restrict
 __samplerBuffer

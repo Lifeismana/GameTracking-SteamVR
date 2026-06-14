@@ -1513,7 +1513,8 @@
 ?xsputn@?$basic_streambuf@GU?$char_traits@G@std@@@std@@MEAA_JPEBG_J@Z
 ?xsputn@?$basic_streambuf@_WU?$char_traits@_W@std@@@std@@MEAA_JPEB_W_J@Z
 @(>@AU]pBU]
-@08N
+@08N6
+@08~6
 AcquireSRWLockExclusive
 AreFileApisANSI
 CloseHandle
@@ -1578,13 +1579,10 @@ LocalFree
 M(knN0123456789abcdefghijklmnopqrstuvwxyz
 MSVCP140.dll
 MultiByteToWideChar
-P08@H^
-P08N
-P08~
-P2\fL
+P08@H^6
 QueryPerformanceCounter
 QueryPerformanceFrequency
-RSDSe
+RSDS
 RaiseException
 ReleaseSRWLockExclusive
 RtlCaptureContext
@@ -1810,6 +1808,7 @@ _callnewh
 _cexit
 _configure_narrow_argv
 _crt_atexit
+_dclass
 _endthreadex
 _errno
 _execute_onexit_table
@@ -1820,7 +1819,8 @@ _initialize_narrow_environment
 _initialize_onexit_table
 _initterm
 _initterm_e
-_invalid_parameter_noinfo_noreturn
+_invoke_watson
+_ldclass
 _lock_file
 _lock_locales
 _purecall
@@ -1836,7 +1836,10 @@ _wgetcwd
 _wremove
 _wrename
 _wrmdir
-`08N
+`08N6
+`08~6
+`0F6
+`0v6
 aAbBcCdDeFgGhHIjmMnprRStTuUVwWxXyYzZ
 abort
 address family not supported
@@ -1966,8 +1969,6 @@ operation not permitted
 operation not supported
 operation would block
 owner dead
-p08N
-p08~
 permission denied
 promise already satisfied
 protocol error
@@ -1978,7 +1979,7 @@ read only file system
 realloc
 regex_error
 regex_error(error_backref): The expression contained an invalid back reference.
-regex_error(error_badbrace): The expression contained an invalid range in a { expression }.
+regex_error(error_badbrace): The expression contained an invalid range in a {} expression.
 regex_error(error_badrepeat): One of *?+{ was not preceded by a valid regular expression.
 regex_error(error_brace): The expression contained mismatched { and }.
 regex_error(error_brack): The expression contained mismatched [ and ].
@@ -1998,9 +1999,11 @@ result out of range
 setlocale
 setvbuf
 state not recoverable
+strcmp
 strcspn
 stream timeout
 string too long
+strlen
 strtod
 strtof
 success
@@ -2020,6 +2023,7 @@ unknown error
 value too large
 w+bx
 wcscpy_s
+wcslen
 wcsnlen
 wrong protocol type
 xtime_get

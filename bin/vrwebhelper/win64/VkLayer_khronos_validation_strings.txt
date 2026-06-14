@@ -5535,7 +5535,9 @@ $Ib?s
 1D or 2D
 2 Entry points cannot share the same name and ExecutionMode.
 2\n0\tP
-2\vpD
+2\n0pE
+2\vp(S
+2\vppE
 32-bit 
 37>k
 3>N;kU
@@ -12504,6 +12506,7 @@ LCIDToLocaleName
 LCMapStringEx
 LCMapStringW
 LESS
+LLD PDB.
 LLVM
 LLVM LLVM SPIR-V Backend
 LLVM SPIR-V Backend
@@ -13678,10 +13681,11 @@ RND_CONV_ODD
 RND_INF
 RND_MIN_INF
 RND_ZERO
-RSDS<
+RSDSu
+R\fppE
 R\n0\tP
 R\n0\tp
-R\vpD
+R\vppE
 Radians
 RaiseException
 Range
@@ -40809,8 +40813,6 @@ Zig Software Foundation Zig Compiler
 [VUID-WorldToObjectKHR-WorldToObjectKHR-04435] 
 [VUID-WorldToObjectKHR-WorldToObjectKHR-04436] 
 [aOni*{
-\nKULLD PDB.
-\nPpR
 \nh?oT
 \nk>oB
 \tJR>8o
@@ -40818,6 +40820,7 @@ Zig Software Foundation Zig Compiler
 \tkE>fvw
 \vA03>A|
 \vk_layer_settings.txt
+\vppE
 ] NULL too.
 ] but the current device state for its 
 ] contains bindings (
@@ -40847,7 +40850,7 @@ __clrcall
 __eabi
 __fastcall
 __next_prime overflow
-__pascal
+__preserve_none
 __ptr64
 __restrict
 __stdcall
@@ -45288,8 +45291,6 @@ overlaps with %s on host address range %s.\n%s.hostAddress is %p and assumed scr
 owM&
 owner dead
 p>.G1
-p>6Z
-p>UZ
 p>Y3
 pAccelerationStructure
 pAccelerationStructure must be a valid pointer to a VkAccelerationStructureKHR handle
@@ -46884,6 +46885,7 @@ r must be a valid VkComponentSwizzle value
 rNm>)
 r\n0\tP
 r\tVr.>T
+r\vppE
 r_device_addressVK_KHR_buffer_demeline_semaphoreVK_KHR_timeline_VK_KHR_buffer_device_address
 radians
 range

@@ -55,7 +55,7 @@ IsProcessorFeaturePresent
 KERNEL32.dll
 LoadLibraryExW
 QueryPerformanceCounter
-RSDS{!]g.k
+RSDS
 RaiseException
 RtlCaptureContext
 RtlLookupFunctionEntry
@@ -83,7 +83,7 @@ __clrcall
 __current_exception
 __eabi
 __fastcall
-__pascal
+__preserve_none
 __processing_throw
 __ptr64
 __restrict
@@ -135,6 +135,7 @@ api-ms-win-crt-heap-l1-1-0.dll
 api-ms-win-crt-runtime-l1-1-0.dll
 api-ms-win-crt-string-l1-1-0.dll
 bad exception
+caZv
 calloc
 free
 malloc
@@ -145,6 +146,8 @@ operator ""
 operator co_await
 operator<=>
 restrict(
+strcmp
 strcpy_s
+strlen
 terminate
 wcsncmp

@@ -1,9 +1,9 @@
-var CLSTAMP = "10715262";
+var CLSTAMP = "10731156";
 (self.webpackChunkvrwebui = self.webpackChunkvrwebui || []).push([
   [652],
   {
     4367: (e, t, o) => {
-      var r, n, i, a, _, s, l, d, u, p, c, m, S, g, D, y, B;
+      var r, n, i, a, _, l, s, u, d, p, c, m, S, g, D, y, B, h, f;
       o.d(t, { en: () => i, fD: () => r, yW: () => S }),
         (function (e) {
           (e[(e.Invalid = 0)] = "Invalid"),
@@ -398,25 +398,25 @@ var CLSTAMP = "10715262";
           (e[(e.VRMouseButton_Left = 1)] = "VRMouseButton_Left"),
             (e[(e.VRMouseButton_Right = 2)] = "VRMouseButton_Right"),
             (e[(e.VRMouseButton_Middle = 4)] = "VRMouseButton_Middle");
-        })(s || (s = {})),
+        })(l || (l = {})),
         (function (e) {
           (e[(e.Notification_Shown = 600)] = "Notification_Shown"),
             (e[(e.Notification_Hidden = 601)] = "Notification_Hidden"),
             (e[(e.Notification_BeginInteraction = 602)] =
               "Notification_BeginInteraction"),
             (e[(e.Notification_Destroyed = 603)] = "Notification_Destroyed");
-        })(l || (l = {})),
+        })(s || (s = {})),
         (function (e) {
           (e[(e.TheaterFast = 0)] = "TheaterFast"),
             (e[(e.TheaterSlow = 1)] = "TheaterSlow");
-        })(d || (d = {})),
+        })(u || (u = {})),
         (function (e) {
           (e[(e.Constant = 0)] = "Constant"),
             (e[(e.Nearest = 1)] = "Nearest"),
             (e[(e.Linear = 2)] = "Linear"),
             (e[(e.SmoothStep = 3)] = "SmoothStep"),
             (e[(e.SmootherStep = 4)] = "SmootherStep");
-        })(u || (u = {})),
+        })(d || (d = {})),
         (function (e) {
           (e[(e.Invalid = 0)] = "Invalid"),
             (e[(e.RecenterCountdown = 1)] = "RecenterCountdown"),
@@ -473,19 +473,26 @@ var CLSTAMP = "10715262";
             (e[(e.SteamVRClientLegacyDual = 3)] = "SteamVRClientLegacyDual");
         })(y || (y = {})),
         (function (e) {
+          (e[(e.Default = 0)] = "Default"),
+            (e[(e.AuroraFloor = 1)] = "AuroraFloor");
+        })(B || (B = {})),
+        (function (e) {
           (e[(e.Curved = 0)] = "Curved"), (e[(e.Flat = 1)] = "Flat");
-        })(B || (B = {}));
+        })(h || (h = {})),
+        (function (e) {
+          (e[(e.Default = 0)] = "Default"), (e[(e.Aurora = 1)] = "Aurora");
+        })(f || (f = {}));
     },
     6138: (e, t, o) => {
-      o.d(t, { $: () => d, W: () => u });
+      o.d(t, { $: () => u, W: () => d });
       var r = o(1635),
         n = o(6540),
         i = o(3236),
         a = o(4963),
         _ = o(6090),
-        s = o(6189),
-        l = o(1139);
-      class d extends n.Component {
+        l = o(6189),
+        s = o(1139);
+      class u extends n.Component {
         constructor() {
           super(...arguments), (this.m_ref = n.createRef());
         }
@@ -519,7 +526,7 @@ var CLSTAMP = "10715262";
             (null === (o = (t = this.props).onClick) ||
               void 0 === o ||
               o.call(t, e),
-            u.temporarilySuppressSoundEffect(),
+            d.temporarilySuppressSoundEffect(),
             a.u.Instance.playSound(
               null !== (r = this.props.releaseSoundEffect) && void 0 !== r
                 ? r
@@ -533,13 +540,13 @@ var CLSTAMP = "10715262";
             o.call(t, e),
             this.disabled ||
               ((0, _.R$)() == _.OH.Overlay &&
-                s.W.Instance.triggerHaptic(_.en.ButtonEnter));
+                l.W.Instance.triggerHaptic(_.en.ButtonEnter));
         }
         onMouseLeave(e) {
           this.props.onMouseLeave && this.props.onMouseLeave(e),
             this.disabled ||
               ((0, _.R$)() == _.OH.Overlay &&
-                s.W.Instance.triggerHaptic(_.en.ButtonLeave));
+                l.W.Instance.triggerHaptic(_.en.ButtonLeave));
         }
         render() {
           let e = Object.assign({}, this.props);
@@ -547,7 +554,7 @@ var CLSTAMP = "10715262";
             delete e.enabled,
             delete e.pressSoundEffect,
             delete e.releaseSoundEffect,
-            (e.className = (0, l.FH)(e.className, ["Disabled", this.disabled])),
+            (e.className = (0, s.FH)(e.className, ["Disabled", this.disabled])),
             n.cloneElement(n.createElement("div", e, this.props.children), {
               onClick: this.onClick,
               onMouseDown: this.onMouseDown,
@@ -559,12 +566,12 @@ var CLSTAMP = "10715262";
           );
         }
       }
-      (0, r.Cg)([i.o], d.prototype, "onMouseDown", null),
-        (0, r.Cg)([i.o], d.prototype, "onMouseUp", null),
-        (0, r.Cg)([i.o], d.prototype, "onClick", null),
-        (0, r.Cg)([i.o], d.prototype, "onMouseEnter", null),
-        (0, r.Cg)([i.o], d.prototype, "onMouseLeave", null);
-      class u extends n.Component {
+      (0, r.Cg)([i.o], u.prototype, "onMouseDown", null),
+        (0, r.Cg)([i.o], u.prototype, "onMouseUp", null),
+        (0, r.Cg)([i.o], u.prototype, "onClick", null),
+        (0, r.Cg)([i.o], u.prototype, "onMouseEnter", null),
+        (0, r.Cg)([i.o], u.prototype, "onMouseLeave", null);
+      class d extends n.Component {
         static temporarilySuppressSoundEffect() {
           window.clearTimeout(this.s_nPlaySoundEffectTimeout),
             (this.s_nPlaySoundEffectTimeout = 0),
@@ -578,11 +585,11 @@ var CLSTAMP = "10715262";
           return this.s_nSuppressingSoundEffectsTimeout > 0;
         }
         onClick(e) {
-          u.suppressingSoundEffect ||
-            (window.clearTimeout(u.s_nPlaySoundEffectTimeout),
-            (u.s_nPlaySoundEffectTimeout = window.setTimeout(
-              u.playSoundEffect,
-              u.k_nSoundEffectDelay,
+          d.suppressingSoundEffect ||
+            (window.clearTimeout(d.s_nPlaySoundEffectTimeout),
+            (d.s_nPlaySoundEffectTimeout = window.setTimeout(
+              d.playSoundEffect,
+              d.k_nSoundEffectDelay,
             ))),
             this.props.onClick && this.props.onClick(e);
         }
@@ -600,13 +607,13 @@ var CLSTAMP = "10715262";
           );
         }
       }
-      (u.k_nSoundEffectSuppressionPeriod = 4),
-        (u.k_nSoundEffectDelay = 2),
-        (u.s_nSuppressingSoundEffectsTimeout = 0),
-        (u.s_nPlaySoundEffectTimeout = 0),
-        (0, r.Cg)([i.o], u.prototype, "onClick", null),
-        (0, r.Cg)([i.o], u, "endSoundEffectSuppression", null),
-        (0, r.Cg)([i.o], u, "playSoundEffect", null);
+      (d.k_nSoundEffectSuppressionPeriod = 4),
+        (d.k_nSoundEffectDelay = 2),
+        (d.s_nSuppressingSoundEffectsTimeout = 0),
+        (d.s_nPlaySoundEffectTimeout = 0),
+        (0, r.Cg)([i.o], d.prototype, "onClick", null),
+        (0, r.Cg)([i.o], d, "endSoundEffectSuppression", null),
+        (0, r.Cg)([i.o], d, "playSoundEffect", null);
     },
   },
 ]); //# sourceMappingURL=file:///home/buildbot/buildslave/steamvr_rel_npm_vrwebui/build/public/runtime/resources/webinterface/dashboard/sourcemaps/chunk~4e00f5086.js.map

@@ -147,10 +147,9 @@ $Ib?s
 1#QNAN
 1#SNAN
 11Y@
-2\n0H,
 2\n0\tP
 2\n0\tp
-2\vpH,
+2\vp8
 37>k
 3>N;kU
 3>fvw
@@ -175,7 +174,6 @@ $Ib?s
 ?qBJ
 ?rAj
 ?ysB
-@LLD PDB.
 A>pP&
 ABCDEFGHIJKLMNOPQRSTUVWXYZ
 ADVAPI32.dll
@@ -999,6 +997,7 @@ LAYER
 LCIDToLocaleName
 LCMapStringEx
 LCMapStringW
+LLD PDB.
 LUNARG_override
 LWG>
 LWW>
@@ -1089,11 +1088,9 @@ QueueSubmit
 QueueSubmit2
 QueueSubmit2KHR
 QueueWaitIdle
-RSDS/
-R\fpH,
+RSDS\v
 R\n0\tP
 R\n0\tp
-R\vpH,
 RaiseException
 Read-only file system
 ReadConsoleW
@@ -1310,21 +1307,19 @@ Y>kX>M
 Z\>z8
 [*ncd>0
 [aOni*{
-\nP09
 \nh?oT
 \nk>oB
 \tcQr
 \tkE>fvw
 \vA03>A|
 ^<V7w
-^JGg
 ^RfN>
 __based(
 __cdecl
 __clrcall
 __eabi
 __fastcall
-__pascal
+__preserve_none
 __ptr64
 __restrict
 __stdcall
@@ -1582,7 +1577,6 @@ protocol not supported
 qS>g?h3
 r\n0\tP
 r\tVr.>T
-r\vpH,
 read_data_files_in_search_paths: Failed to allocate space for search path of length %d
 remove_all_non_valid_override_layers: Multiple global override layers found. Using the first global layer found
 remove_all_non_valid_override_layers: Multiple override layers where the same path in app_keys was found. Using the first layer found

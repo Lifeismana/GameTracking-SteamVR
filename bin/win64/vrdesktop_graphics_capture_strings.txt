@@ -424,7 +424,7 @@ Parsing of JSON string "%s" failed: %s\n
 Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
-RSDSq
+RSDS
 R\npt
 RaiseException
 Recreate CaptureFramePool
@@ -628,7 +628,6 @@ expecting another \u token to begin the second half of a unicode surrogate pair
 false
 fi_fi
 finnish
-fj\tO
 fr_fr
 free
 french

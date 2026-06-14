@@ -1879,7 +1879,6 @@ $wtpt
 -0RV
 -2%tC
 -<qeY@c
--UYDB
 -Y %.20g +X %.20g\n
 -abcdefghijklmnopqrstuvwxyz
 -adaptive-blur
@@ -8049,7 +8048,7 @@ ROMAN
 ROSE
 RR Interval Window Number
 RR Window Offset
-RSDS
+RSDSD2
 RT Beam Limiting Device Type
 RT Dose ROI Sequence
 RT Image Description

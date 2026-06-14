@@ -731,7 +731,7 @@ $\t?contains@QRectF@@QEBA_NAEBVQPointF@@@Z
 1!?widget@QTabWidget@@QEBAPEAVQWidget@@H@Z
 100%
 1000
-14:12:14
+14:09:59
 1DoAcquireData()
 1DoInit()
 1DoParseString( const QString & )
@@ -4675,7 +4675,7 @@ J\n?drawForeground@QGraphicsScene@@MEAAXPEAVQPainter@@AEBVQRectF@@@Z
 J\r?indexOf@QString@@QEBAHVQChar@@HW4CaseSensitivity@Qt@@@Z
 J\t?brush@QPainter@@QEBAAEBVQBrush@@XZ
 JoysticksFound
-Jun  5 2026
+Jun 11 2026
 K32EnumProcessModules
 K32EnumProcesses
 K32GetModuleBaseNameA
@@ -5953,10 +5953,9 @@ R?scaledSize@QMovie@@QEAA?AVQSize@@XZ
 R?screens@QGuiApplication@@SA?AV?$QList@PEAVQScreen@@@@XZ
 REFRESH
 RPCRT4.dll
-RSDS
+RSDS!i
 RSSI: %1\n
 R\v?find@QPlainTextEdit@@QEAA_NAEBVQString@@V?$QFlags@W4FindFlag@QTextDocument@@@@@Z
-R\vpD
 Radio
 Radio Version:
 Radio Version: \t%1 / %2 %3 %4\n
@@ -5999,7 +5998,6 @@ Reconnection allowed: %d
 Refreshing audio devices\n
 RegCloseKey
 RegCreateKeyExW
-RegDeleteValueA
 RegDeleteValueW
 RegDisableReflectionKey
 RegEnumKeyExA
@@ -7855,7 +7853,6 @@ atan2
 atof
 atoi
 audio
-auroraPlayspace
 autoAddPlottableToLegend
 autoSubTicks
 autoTickCount
@@ -8029,6 +8026,7 @@ cs_cz
 ct_init: 256+dist != 512
 ct_init: dist != 256
 ct_tally: bad match
+custom
 customIconForceUpdate
 customIconStyle
 customOffIconStyle
@@ -8126,6 +8124,7 @@ entries
 entryName
 enum QCPAxis::AxisType __cdecl QCPAxis::marginSideToAxisType(enum QCP::MarginSide)
 environment
+environmentMode
 error
 errorBarSize
 errorBarSkipSymbol
@@ -8655,6 +8654,7 @@ penNegative
 penPositive
 perfGraphInHMD
 perfcheck
+performanceProfile
 pid_%04x
 pinned
 pinnedChanged
@@ -8927,6 +8927,7 @@ steamvr_vrstartup
 steamvrstatus
 steamvrstatus/geometry
 steamvrstatus/visible
+steamxr_win32.json
 steamxr_win64.json
 stoul argument out of range
 stoull argument out of range

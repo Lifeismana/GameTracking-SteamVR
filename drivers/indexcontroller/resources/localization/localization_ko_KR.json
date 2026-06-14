@@ -1,0 +1,15 @@
+[
+    {
+        "language_tag": "ko_KR",
+        "knuckles": "Index 컨트롤러",
+        "knuckles_ev1": "Knuckles (EV1) 컨트롤러",
+        "/input/a": "A 버튼",
+        "/input/b": "B 버튼",
+        "/input/pinch": "집기",
+        "/input/finger/index": "검지",
+        "/input/finger/middle": "중지",
+        "/input/finger/ring": "약지",
+        "/input/finger/pinky": "새끼손가락",
+        "/input/thumbstick": "엄지 스틱"
+    }
+]

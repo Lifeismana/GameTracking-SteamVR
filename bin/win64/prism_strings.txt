@@ -499,7 +499,7 @@ CVkDevice::CreateInstance
 CVkDevice::FindBestPhysicalDevice
 CVkDevice::Init - failed to get extension count
 CVkDevice::Init - no instance extensions supported
-CVkDevice::SetDebugName
+CVkDevice::SetObjectDebugName
 CVkDevice::UseDevice
 CVkDevice::UsePhysicalDevice
 CVkDeviceBuilder::AddQueue
@@ -903,7 +903,7 @@ RPS_ERROR_UNSUPPORTED_VERSION_TOO_OLD
 RPS_ERROR_VALIDATION_FAILED
 RPS_FAILED(m_status)
 RPS_OK
-RSDS{
+RSDS
 RaiseException
 RasterizerState
 RaytracingPipeline

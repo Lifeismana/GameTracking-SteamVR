@@ -1557,14 +1557,14 @@ body.SGApp .SettingsSidebarButton .Label {
 .SettingsMain .SettingsItem.Background .ButtonControl.Background::before {
   content: "";
   margin: auto;
-  padding-top: 50%;
   border-radius: var(--settings-button-image-border-radius);
   background-color: #000;
-  background-image: var(--background-url-value);
+  background-image: var(--background-url-value, none);
   background-size: 100% 100%;
   background-repeat: no-repeat;
   background-position: bottom center;
   width: 100%;
+  aspect-ratio: 2;
 }
 .SettingsMain .Modal.Backgrounds {
   display: flex;
@@ -1595,13 +1595,40 @@ body.SGApp .SettingsSidebarButton .Label {
 .SettingsMain .Modal.Backgrounds .ButtonControl.Background::before {
   content: "";
   margin: auto;
-  padding-top: 75%;
+  aspect-ratio: 2;
   border-radius: var(--settings-button-image-border-radius);
   background-image: var(--background-url-value);
   background-size: 100% 100%;
   background-repeat: no-repeat;
   background-position: center;
   width: 11em;
+}
+.SettingsMain .SettingsItem.Background .ButtonControl.Background.AuroraPalette {
+  display: flex;
+  padding: var(--settings-control-image-padding);
+}
+.SettingsMain
+  .SettingsItem.Background
+  .ButtonControl.Background.AuroraPalette::before,
+.SettingsMain
+  .Modal.Backgrounds
+  .ButtonControl.Background.AuroraPalette::before {
+  content: "";
+  margin: auto;
+  width: 50%;
+  aspect-ratio: 1;
+  border-radius: 1000px;
+  background: radial-gradient(circle at center, black 0%, rgba(0, 0, 0, 0) 100%),
+    conic-gradient(
+      from -45deg,
+      var(--aurora-color-n) 0deg,
+      var(--aurora-color-e) 90deg,
+      var(--aurora-color-s) 180deg,
+      var(--aurora-color-w) 270deg,
+      var(--aurora-color-n) 360deg
+    );
+  background-repeat: no-repeat;
+  box-shadow: 0 0 .5rem rgba(255, 255, 255, 0.25);
 }
 @keyframes SettingsLoadingLabelFadeIn {
   from {

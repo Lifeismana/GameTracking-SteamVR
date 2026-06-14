@@ -17,7 +17,6 @@
 &Sgw
 (null)
 *StO9>T
--HLLD PDB.
 ..\..\third_party\libc++\src\include\__memory\construct_at.h:40: assertion __location != nullptr failed: null pointer given to construct_at\n
 ..\..\third_party\libc++\src\include\__memory\construct_at.h:66: assertion __loc != nullptr failed: null pointer given to destroy_at\n
 ..\..\third_party\libc++\src\include\__string\char_traits.h:145: assertion !std::__is_pointer_in_range(__s1, __s1 + __n, __s2) failed: char_traits::copy: source and destination ranges overlap\n
@@ -113,9 +112,8 @@
 1#QNAN
 1#SNAN
 11Y@
-2\n0h
-2\vpP
-2\vph
+2\n0L
+2\vpL
 37>k
 3>N;kU
 3>fvw
@@ -358,6 +356,7 @@ L>ev
 LCIDToLocaleName
 LCMapStringEx
 LCMapStringW
+LLD PDB.
 LeaveCriticalSection
 LoadLibraryExW
 LoadLibraryW
@@ -385,11 +384,11 @@ October
 Operation not permitted
 Permission denied
 QueryPerformanceCounter
-RSDS
-R\fph
+RSDS,
+R\fpL
 R\n0\tP
 R\n0\tp
-R\vph
+R\vpL
 RaiseException
 Read-only file system
 ReadConsoleW
@@ -439,7 +438,7 @@ WriteConsoleW
 WriteFile
 X/4B
 [aOni*{
-\fp\vPT
+\fp\vP8
 \tcQr
 \tkE>fvw
 ^<V7w
@@ -448,7 +447,7 @@ __cdecl
 __clrcall
 __eabi
 __fastcall
-__pascal
+__preserve_none
 __ptr64
 __restrict
 __stdcall
@@ -697,7 +696,7 @@ owner dead
 protocol error
 protocol not supported
 r\tVr.>T
-r\vph
+r\vpL
 restrict(
 sinh
 snan)

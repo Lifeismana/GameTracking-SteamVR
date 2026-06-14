@@ -132,7 +132,7 @@
 /user/waist
 /user/wrist/left
 /user/wrist/right
-14:12:14
+14:09:59
 1e+9999
 : exception thrown in JSON library
 <unknown>
@@ -208,7 +208,6 @@ Attempting to start home app %s (startup check has hmd)
 Bad escape sequence in string
 Bad unicode escape sequence in string: four digits expected.
 Bad unicode escape sequence in string: hexadecimal digit expected.
-B|IAt
 CVRLog::LogDirect
 Cannot initialize crash handling in a project without the Steam API available
 CloseHandle
@@ -365,7 +364,7 @@ Invalid Arguments
 Invalid Interface (106)
 IsDebuggerPresent
 IsProcessorFeaturePresent
-Jun  5 2026
+Jun 11 2026
 K32EnumProcesses
 K32GetProcessImageFileNameA
 KERNEL32.dll

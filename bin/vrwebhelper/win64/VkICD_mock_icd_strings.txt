@@ -117,8 +117,9 @@
 1#QNAN
 1#SNAN
 11Y@
-2\n0h
-2\vph
+2\n0L
+2\vpL
+2\vpx
 37>k
 3>N;kU
 3>fvw
@@ -271,11 +272,11 @@ October
 Operation not permitted
 Permission denied
 QueryPerformanceCounter
-RSDS\n
-R\fph
+RSDS^\v
+R\fpL
 R\n0\tP
 R\n0\tp
-R\vph
+R\vpL
 RaiseException
 Read-only file system
 ReadConsoleW
@@ -699,9 +700,8 @@ WideCharToMultiByte
 WriteConsoleW
 WriteFile
 X/4B
-[LLD PDB.
 [aOni*{
-\fp\vPT
+\fp\vP8
 \tcQr
 \tkE>fvw
 ^<V7w
@@ -711,7 +711,7 @@ __clrcall
 __eabi
 __fastcall
 __next_prime overflow
-__pascal
+__preserve_none
 __ptr64
 __restrict
 __stdcall
@@ -788,6 +788,7 @@ inity
 ios_base::clear
 iostream
 k=yI
+l#LLD PDB.
 length_error was thrown in -fno-exceptions mode with message "%s"
 locale not supported
 log10
@@ -827,7 +828,7 @@ owner dead
 protocol error
 protocol not supported
 r\tVr.>T
-r\vph
+r\vpL
 restrict(
 snan)
 state not recoverable

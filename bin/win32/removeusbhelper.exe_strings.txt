@@ -274,8 +274,6 @@ RSDS
 RaiseException
 RegCloseKey
 RegCreateKeyExW
-RegDeleteValueA
-RegDeleteValueW
 RegDisableReflectionKey
 RegEnumKeyExA
 RegEnumKeyExW
@@ -519,6 +517,7 @@ setopenxrapilayerstate
 setopenxrruntime
 stackLimit
 startup
+steamxr_win32.json
 steamxr_win64.json
 strftime
 strictRoot

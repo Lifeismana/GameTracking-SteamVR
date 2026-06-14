@@ -939,7 +939,7 @@ Saturday
 Semantic index range overlap
 September
 Set thread %p priority to: %d\n
-SetDebugName
+SetObjectDebugName
 SharedObjMgr().Init() failed
 Shutdown
 Signal

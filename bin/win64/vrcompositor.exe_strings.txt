@@ -1117,6 +1117,7 @@ $\n k_EProtoServiceTypeSteamMessages
 /position/z
 /proximity
 /server_time_ticks
+/steam/locked
 /steam/oobe
 /steamvr/angulardebug_%u
 /transferlatencyms
@@ -1162,12 +1163,13 @@ $\n k_EProtoServiceTypeSteamMessages
 0123456789ABCDEF
 0123456789ABCDEFundefined
 0123456789abcdef
+0\rPR
 0x%02x 
 1.2.5
 1.5.26
 1/2/4/8/16-bit only
 123456789
-14:12:14
+14:09:59
 1A26b
 1e+9999
 1wsHp
@@ -2512,6 +2514,7 @@ Graphics
 Grid
 H$6t
 H*0"ZOW
+H82@
 HMD Not Known (202)
 HMD already in use by another application (205)
 HMD detected over USB, but Monitor may be mirrored instead of extended (212)
@@ -2786,7 +2789,7 @@ IsWorkstationLocked::IsRemoteSession unexpected response length %d != 1\n
 It shouldn't be possible to add a child twice because of move semantics
 JFIF
 Journaling %s\n
-Jun  5 2026
+Jun 11 2026
 KERNEL32.dll
 Kernel32.dll
 KillTimer
@@ -2864,7 +2867,7 @@ Mailbox %s received message %s, which it didn't have a handler for\n
 Main
 MainThrd
 MapViewOfFile
-Mb@?fff?o
+Mb@?fff?
 MeasureGpuMegaPixelsPerSecond(%d): Returning %d MP/sec. Total CPU time %.2f seconds.\n
 MeasureGpuMegaPixelsPerSecond(): Error! Initialize() failed! Skipping GPU measurement.\n
 Message class "
@@ -3186,6 +3189,7 @@ Prop_HasDriverDirectModeComponent_Bool
 Prop_HasVirtualDisplayComponent_Bool
 Prop_HmdColumnCorrectionSettingPrefix_String
 Prop_HmdTrackingStyle_Int32
+Prop_Hmd_BlankOnFramerateChange_Bool
 Prop_Hmd_EnableParallelRenderCameras_Bool
 Prop_Hmd_SupportsAppThrottling_Bool
 Prop_Hmd_SupportsDisplayPortTrainingMode_Bool
@@ -3265,7 +3269,7 @@ ProtoFloatVec
 Protocol Buffer reflection usage error:\n  Method      : google::protobuf::Reflection::
 Protocol message serialized itself in invalid fashion.
 Protocol message was modified concurrently during serialization.
-Q8>333?
+Q8>333?ff
 Q8ffv?
 Qkkbal
 QueryPerformanceCounter
@@ -3274,7 +3278,9 @@ QueryServiceConfigW
 R1h58
 RENDERDOC_GetAPI
 RPCRT4.dll
-RSDS~
+RSDS
+R\npR
+R\vpR
 RaiseException
 Raw ideal render target scale = %.2f\n
 Reached an unintended state: CPPTYPE_MESSAGE
@@ -3315,6 +3321,7 @@ Render
 Render Models (Pass_Background)
 Render Models (Pass_Foreground)
 Render Models (Pass_PostOverlay)
+Render Models (stars)
 Render Stencil Buffer
 Render thread ending\n
 Render thread joined\n
@@ -5092,8 +5099,12 @@ audio
 audiosource
 aurora-blur
 auroraBlur
+auroraBrightness
 auroraCentered
-auroraPlayspace
+auroraHeight
+auroraPalette
+auroraSpeed
+auroraStarBrightness
 auto-subdivide
 autoCenterPlayArea
 autoLowerPassthroughResolution
@@ -5211,26 +5222,26 @@ c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\Retail\win64\2017\vrcompo
 c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\framemanager.cpp
 c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\geometry.cpp
 c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:11078
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:11088
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:11236
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:11853
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:11878
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:12046
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:15686
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:17182
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:17837
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:18693
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:18980
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:3891
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:3942
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:481
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:4846
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:6678
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:6720
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:7131
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:8414
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:9356
+c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:11057
+c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:11067
+c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:11215
+c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:11832
+c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:11857
+c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:12025
+c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:15716
+c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:17222
+c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:17876
+c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:18732
+c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:19019
+c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:3892
+c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:3943
+c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:482
+c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:4847
+c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:6679
+c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:6721
+c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:7132
+c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:8415
+c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:9334
 c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\lasermouse.cpp
 c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\newframehandler.cpp:429
 c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\newframehandler.cpp:478
@@ -5244,8 +5255,8 @@ c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\simpledraw.cpp
 c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\standaloneoverlays.cpp
 c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\standaloneoverlays.cpp:37
 c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\systemlayer.cpp
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\systemlayer.cpp:1619
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\systemlayer.cpp:847
+c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\systemlayer.cpp:1636
+c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\systemlayer.cpp:848
 c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\trackeddevicerenderer.cpp:33
 c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\trackeddevicerenderer.cpp:334
 c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\vrcompositor.cpp:1067
@@ -5373,6 +5384,7 @@ cursor_owning_overlay_key
 curvature
 curvature-origin-id
 curvature-pitch
+custom
 czech
 d3d11.dll
 dQy/
@@ -5484,6 +5496,7 @@ english
 enum
 enum_description
 enum_value_description
+environmentMode
 error
 error %s when initing driver %s from %s.\n
 es_es
@@ -5745,6 +5758,7 @@ koreana
 l6qnk
 lDa>
 label
+laserLength
 laserMouseDebugging
 laserRayWidthScale
 laser_mouse_click
@@ -5755,7 +5769,6 @@ lasermouse-filtering
 lasermouse_face_inputdismiss
 latam
 latency_testing_toggle
-latlong sphere rad flRadius=%f flOffsetX=%f flOffsetZ=%f bDome=%d bOmitDomeFloor=%d
 lazy
 ldexp
 ldiv
@@ -5964,6 +5977,7 @@ override-pre-resize-main-panel-height
 overwrite.vrsettings
 owning_overlay
 owning_overlay_key
+p72@
 pBegin == pEnd
 pEnd > pBegin
 pGazeRays
@@ -6015,6 +6029,7 @@ pedestal-height
 pedestal-radius
 perfGraphInHMD
 perfcheck
+performanceProfile
 perfrecording-
 pidOwner
 pidRender
@@ -6035,6 +6050,7 @@ polish
 portuguese
 positive_int_value
 power
+powersaving
 powf
 preferredRefreshRate
 prefersUpperDeviceIndices
@@ -6079,7 +6095,6 @@ relatchDotThreshold
 remote
 remote-transform
 remote-transform-rx
-remote-transform-tx
 remote_perf_stats: dropped %d frames
 renderSystemLayerInDistortPass
 renderSystemLayerInDistortPassMSAA
@@ -6190,6 +6205,7 @@ sfixed64
 sg::cline
 sgid
 sgqueryservice
+shader
 shaders/d3d11/distort_bounds_color_ps.fxo
 shaders/d3d11/distort_cs.fxo
 shaders/d3d11/distort_cs_mc.fxo
@@ -6200,6 +6216,7 @@ shaders/d3d11/distort_geom_aa_lines_vs.fxo
 shaders/d3d11/distort_geom_aa_quads_ps.fxo
 shaders/d3d11/distort_geom_aa_quads_vs.fxo
 shaders/d3d11/distort_geom_altcolorblend_ps.fxo
+shaders/d3d11/distort_geom_aurora_floor_ps.fxo
 shaders/d3d11/distort_geom_aurora_ps.fxo
 shaders/d3d11/distort_geom_colormap_lines_ps.fxo
 shaders/d3d11/distort_geom_constant_ps.fxo
@@ -6425,6 +6442,7 @@ srand
 stable-fade
 stackLimit
 stage
+stars
 start
 start-angle
 start-buffer
@@ -6452,6 +6470,7 @@ stencil_mask
 stereoscopy
 stop-distance
 stop-quat-difference
+stored-transform
 stoul argument out of range
 stoull argument out of range
 strcat_s
@@ -6704,10 +6723,6 @@ wevtutil.exe
 width
 win64
 winrtdisplay.dll
-wipAuroraColorNegX
-wipAuroraColorNegZ
-wipAuroraColorPosX
-wipAuroraColorPosZ
 wireframe
 with contributions from tracking issues
 wn>Jj

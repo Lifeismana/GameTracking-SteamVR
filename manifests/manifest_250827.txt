@@ -1,10 +1,10 @@
 Content Manifest for Depot 250827 
 
-Manifest ID / date     : 9126840328386630080 / 07/02/2025 19:04:42 
+Manifest ID / date     : 9189639950626817778 / 06/11/2026 16:59:16 
 Total number of files  : 249 
 Total number of chunks : 238 
-Total bytes on disk    : 4834763 
-Total bytes compressed : 3070640 
+Total bytes on disk    : 4835023 
+Total bytes compressed : 3070688 
 
 
           Size Chunks File SHA                                 Flags Name
@@ -228,7 +228,7 @@ Total bytes compressed : 3070640
           1626      1 e2eca436d9b33296c2f349c347be0e03a389421a     0 drivers/htc/resources/localization/localization_it_IT.json
           1610      1 94071a8a2d31dcd1dd07f9dc7864c181e6130fbc     0 drivers/htc/resources/localization/localization_ja_JP.json
           1542      1 cc24e3d9d22de96f1993b66d9cd158c4e7e8ebfc     0 drivers/htc/resources/localization/localization_ko_KR.json
-          1268      1 1f0c9d0268d2aa40aab1144dee9e4fc59ae0bdae     0 drivers/htc/resources/localization/localization_nb_NO.json
+          1528      1 e04088a16a2336381894667009ae36560135980f     0 drivers/htc/resources/localization/localization_nb_NO.json
           1577      1 06546600c7fb18ea76a1f58329a68797086f3701     0 drivers/htc/resources/localization/localization_nl_NL.json
           1570      1 841955c92956945e394c8de9997fd47cceb047f0     0 drivers/htc/resources/localization/localization_pl_PL.json
           1667      1 c8a37cc425715270cac6900ca2e00eb4d687fc84     0 drivers/htc/resources/localization/localization_pt_BR.json

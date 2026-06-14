@@ -1,0 +1,15 @@
+[
+    {
+        "language_tag": "cs_CZ",
+        "knuckles": "Ovladač Valve Index",
+        "knuckles_ev1": "Ovladač Knuckles (EV1)",
+        "/input/a": "Tlačítko A",
+        "/input/b": "Tlačítko B",
+        "/input/pinch": "Špetka",
+        "/input/finger/index": "Ukazováček",
+        "/input/finger/middle": "Prostředníček",
+        "/input/finger/ring": "Prsteníček",
+        "/input/finger/pinky": "Malíček",
+        "/input/thumbstick": "Páčka"
+    }
+]

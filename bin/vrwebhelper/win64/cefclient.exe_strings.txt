@@ -302,8 +302,8 @@ $Ib?s
 11Y@
 11eU%
 127.0.0.1
+164aa1bb5f552c7de0b83bfe8c0685868c393e0a
 2\n0\tP
-2\vpL
 37>k
 3>N;kU
 3>fvw
@@ -314,7 +314,6 @@ $Ib?s
 7>I0
 7?GX
 7~xh
-8e4d334971e43b4e56c93030410b02d735d99c8b
 8ke?;
 9>70
 9a&g
@@ -373,7 +372,6 @@ $Ib?s
 ?qBJ
 ?rAj
 ?ysB
-@testSendProcessMessage
 A>pP&
 ABCDEFGHIJKLMNOPQRSTUVWXYZ
 ABNORMAL_TERMINATION
@@ -521,7 +519,7 @@ D3D11CreateDevice
 D3DCompile
 D7q"
 D7q/;M
-DNASYXOB@
+DNASYXOB
 DUMMY_HISTOGRAM
 Dark
 Debug
@@ -855,6 +853,7 @@ LCIDToLocaleName
 LCMapStringEx
 LCMapStringW
 LINEAR_HISTOGRAM
+LLD PDB.
 LOG_FATAL
 LWG>
 LWW>
@@ -1039,10 +1038,9 @@ QueryPerformanceCounter
 QueryPerformanceFrequency
 QueryThreadCycleTime
 REPLACE_THIS_STRING
-RSDS|
+RSDS{
 R\n0\tP
 R\n0\tp
-R\vpL
 Radio Item 1
 Radio Item 2
 Radio Item 3
@@ -1360,7 +1358,7 @@ __eabi
 __fastcall
 __metadata
 __next_prime overflow
-__pascal
+__preserve_none
 __ptr64
 __restrict
 __stdcall
@@ -1817,7 +1815,6 @@ e%s%d
 e+000
 eF>t
 eLK(w
-eLLD PDB.
 enable-background-thread-pool
 enable-chrome-policy
 enable-chrome-runtime
@@ -2204,6 +2201,7 @@ terminate_handler unexpectedly returned\n
 terminate_handler unexpectedly threw an exception\n
 test string
 testId
+testSendProcessMessage
 testSendProcessMessageResult(
 testSendSMRProcessMessage
 test_gpu

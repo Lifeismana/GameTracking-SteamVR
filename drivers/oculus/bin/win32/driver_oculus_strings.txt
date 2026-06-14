@@ -1445,6 +1445,7 @@ shaders/d3d11/distort_geom_aa_lines_vs.fxo
 shaders/d3d11/distort_geom_aa_quads_ps.fxo
 shaders/d3d11/distort_geom_aa_quads_vs.fxo
 shaders/d3d11/distort_geom_altcolorblend_ps.fxo
+shaders/d3d11/distort_geom_aurora_floor_ps.fxo
 shaders/d3d11/distort_geom_aurora_ps.fxo
 shaders/d3d11/distort_geom_colormap_lines_ps.fxo
 shaders/d3d11/distort_geom_constant_ps.fxo

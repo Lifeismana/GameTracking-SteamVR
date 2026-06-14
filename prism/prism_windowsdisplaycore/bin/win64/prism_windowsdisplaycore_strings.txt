@@ -131,7 +131,7 @@ CVkAllocator::AllocateMemory
 CVkAllocator::AllocateMemoryFromType
 CVkAllocator::CreateImageWithFlags
 CVkAllocator::GetCompatibleMemoryType
-CVkDevice::SetDebugName
+CVkDevice::SetObjectDebugName
 CloseHandle
 CoCreateFreeThreadedMarshaler
 CoIncrementMTAUsage
@@ -210,7 +210,7 @@ PRISM_Stop
 QueryPerformanceCounter
 QueryPerformanceFrequency
 RPCRT4.dll
-RSDS7
+RSDSX
 RaiseException
 ResetEvent
 RoGetActivationFactory
@@ -326,5 +326,5 @@ string too long
 strncpy
 tdh.dll
 terminate
-v!ne`
+v!nep
 vector<T> too long

@@ -1,0 +1,12 @@
+[
+    {
+        "knuckles": "Index-kontroller",
+        "/input/a": "A-knapp",
+        "/input/b": "B-knapp",
+        "/input/pinch": "Klypebevegelse",
+        "/input/finger/index": "Pekefinger",
+        "/input/finger/middle": "Langfinger",
+        "/input/finger/ring": "Ringfinger",
+        "/input/finger/pinky": "Lillefinger"
+    }
+]

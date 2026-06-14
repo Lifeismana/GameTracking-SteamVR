@@ -262,6 +262,10 @@
 .xdata$x
 1cY7.
 219}\
+2\fp0
+2\vP0
+2\vp0
+8@NF
 8hK7
 ?<Dispose>@Exception@Platform@@UE$AAAXXZ
 ?<Dispose>@String@Platform@@UE$AAAXXZ
@@ -544,7 +548,7 @@ F#q23n*.UY
 FUnknown exception
 FormatMessageW
 FrjlS
-Fvector too long
+Funordered_map/set too long
 GCTL
 GetCurrentProcess
 GetCurrentProcessId
@@ -567,8 +571,10 @@ LoadLibraryExW
 MSVCP140.dll
 OLEAUT32.dll
 OutputDebugStringW
+P20&
 QueryPerformanceCounter
-RSDSt]R
+RSDS
+R\vp0
 RaiseException
 ReleaseSRWLockExclusive
 ReleaseSRWLockShared
@@ -605,6 +611,7 @@ WindowsGetStringLen
 WindowsGetStringRawBuffer
 WindowsIsStringEmpty
 WindowsStringHasEmbeddedNull
+\fp\vP0
 _CxxThrowException
 _SetWinRTOutOfMemoryExceptionCallback
 __C_specific_handler
@@ -632,7 +639,6 @@ _initialize_narrow_environment
 _initialize_onexit_table
 _initterm
 _initterm_e
-_invalid_parameter_noinfo_noreturn
 _invoke_watson
 _purecall
 _register_onexit_function
@@ -653,6 +659,7 @@ free
 invalid hash bucket count
 kw~1
 malloc
+memcmp
 memcpy
 memmove
 memset
@@ -660,9 +667,10 @@ minATL$__a
 minATL$__m
 minATL$__z
 ole32.dll
+p20&
 string too long
 terminate
-unordered_map/set too long
 vccorlib140.DLL
+vector too long
 wcscpy_s
 zFyP

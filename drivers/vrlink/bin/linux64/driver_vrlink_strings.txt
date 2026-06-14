@@ -324,9 +324,9 @@ $\n k_EProtoServiceTypeSteamMessages
 /data/src/thirdparty/protobuf-2.6.1/src/google/protobuf/repeated_field.h
 /data/src/vrlink/common/SVLFEC.cpp:1078
 /data/src/vrlink/common/SVLFEC.cpp:761
-/data/src/vrlink/driver_vrlink/hmd.cpp:2463
-/data/src/vrlink/driver_vrlink/hmd.cpp:2812
-/data/src/vrlink/driver_vrlink/hmd.cpp:2924
+/data/src/vrlink/driver_vrlink/hmd.cpp:2466
+/data/src/vrlink/driver_vrlink/hmd.cpp:2815
+/data/src/vrlink/driver_vrlink/hmd.cpp:2927
 /data/src/vrlink/driver_vrlink/hmdvulkan.cpp
 /data/src/vrlink/driver_vrlink/steamvrlink.cpp
 /data/src/vrlink/driver_vrlink/videovulkan.cpp

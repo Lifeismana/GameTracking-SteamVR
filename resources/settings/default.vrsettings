@@ -104,7 +104,11 @@
         "recommendedResolutionMultiplierMin": 0.2,
         "recommendedResolutionMultiplierMax": 5.0,
         "recommendedResolutionMultiplierSteps": 0.02,
-        "showRecommendedResolutionPercentage": true
+        "showRecommendedResolutionPercentage": true,
+        "environmentMode": 0,
+        "framesToThrottle": 0,
+        "fovScale": 1,
+        "performanceProfile": "custom"
     },
     "openxr": {
         "metaUnityPluginCompatibility": 0
@@ -222,6 +226,7 @@
         "cefMaxFrameRate": 120.0,
         "dashboardScale": 1.0,
         "desktopScale": 1.1,
+        "laserLength": 0.5,
         "position_2": 1,
         "webUI": true,
         "useNewDesktop": true,

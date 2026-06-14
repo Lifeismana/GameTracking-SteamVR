@@ -287,10 +287,10 @@ $3br
 /data/src/vrclient/skeletalinpututils.cpp
 /data/src/vrclient/vrclientcore.cpp
 /data/src/vrclient/vrcompositorclient.cpp
-/data/src/vrclient/vrcompositorclient.cpp:1439
-/data/src/vrclient/vrcompositorclient.cpp:1695
-/data/src/vrclient/vrcompositorclient.cpp:2482
-/data/src/vrclient/vrcompositorclient.cpp:462
+/data/src/vrclient/vrcompositorclient.cpp:1440
+/data/src/vrclient/vrcompositorclient.cpp:1696
+/data/src/vrclient/vrcompositorclient.cpp:2497
+/data/src/vrclient/vrcompositorclient.cpp:463
 /data/src/vrclient/vrcompositorsharedtextures.cpp
 /data/src/vrclient/vrcompositorsharedtextures.cpp:2564
 /data/src/vrclient/vrcompositorsharedtextures.cpp:2758
@@ -300,11 +300,11 @@ $3br
 /data/src/vrclient/vrcompositorsharedtextures.cpp:4312
 /data/src/vrclient/vrdebug.cpp:49
 /data/src/vrclient/vrdebug.cpp:60
-/data/src/vrclient/vrinput.cpp:1596
+/data/src/vrclient/vrinput.cpp:1609
 /data/src/vrclient/vrmailboxclient.cpp
-/data/src/vrclient/vroverlay.cpp:1015
-/data/src/vrclient/vroverlay.cpp:1213
-/data/src/vrclient/vroverlay.cpp:1244
+/data/src/vrclient/vroverlay.cpp:1174
+/data/src/vrclient/vroverlay.cpp:1205
+/data/src/vrclient/vroverlay.cpp:976
 /data/src/vrclient/vrsteamprivate.cpp
 /dev/null
 /device_was_drawn
@@ -2743,7 +2743,8 @@ Positional emitter description not found.
 PostPresentHandoff
 Primitive
 Process %d failed to shm_open %s: %d\n
-Process called VR_Init a second time without an intervening VR_Shutdown. Returning success.\n
+Process called VR_Init or xrCreateInstance %u times without a matching VR_Shutdown or xrDestroyInstance. Behavior is undefined.\n
+Process called VR_Shutdown or xrDestroyInstance, but still has %u reference(s) to VRSystem or xrInstance. Behavior is undefined.\n
 Prop_
 Prop_ActualTrackingSystemName_String
 Prop_AdditionalDeviceSettingsPath_String
@@ -2878,6 +2879,7 @@ Prop_HasDriverDirectModeComponent_Bool
 Prop_HasVirtualDisplayComponent_Bool
 Prop_HmdColumnCorrectionSettingPrefix_String
 Prop_HmdTrackingStyle_Int32
+Prop_Hmd_BlankOnFramerateChange_Bool
 Prop_Hmd_EnableParallelRenderCameras_Bool
 Prop_Hmd_SupportsAppThrottling_Bool
 Prop_Hmd_SupportsDisplayPortTrainingMode_Bool
@@ -3046,6 +3048,7 @@ STEAMVR_GPUVIS_ON_ASSERT
 STEAMVR_VERBOSE_HAPTIC_LOG
 STEAMVR_VKVALIDATION
 STEAMVR_WEBHELPER
+STEAM_COMPAT_PROTON
 STEAM_RUNTIME=0 LD_LIBRARY_PATH= lsusb -d %x:%x > /dev/null
 SUBOPTIMAL_KHR
 SYSCONFDIR
@@ -4592,7 +4595,6 @@ asset
 asterisk
 attributes
 audio
-auroraPlayspace
 auto
 auto:
 autoLaunchSteamVROnButtonPress
@@ -4810,6 +4812,7 @@ count
 covariant return thunk to 
 cs_cz
 cursor_index
+custom
 czech
 da_dk
 danish
@@ -4946,6 +4949,7 @@ end of input
 end_ctx
 english
 entries
+environmentMode
 equals-sign
 error
 error %s when initing driver %s from %s.\n
@@ -5570,6 +5574,7 @@ pbrMetallicRoughness
 pclose
 percent-sign
 perfcheck
+performanceProfile
 period
 perspective
 pglFramebufferRenderbuffer
@@ -5600,6 +5605,7 @@ position_z
 positional
 posix_memalign
 power
+powersaving
 powf
 ppCmdBuf
 preferredRefreshRate
@@ -5819,6 +5825,7 @@ shaders/vulkan/distort_geom_aa_lines_vs.spv
 shaders/vulkan/distort_geom_aa_quads_ps.spv
 shaders/vulkan/distort_geom_aa_quads_vs.spv
 shaders/vulkan/distort_geom_altcolorblend_ps.spv
+shaders/vulkan/distort_geom_aurora_floor_ps.spv
 shaders/vulkan/distort_geom_aurora_ps.spv
 shaders/vulkan/distort_geom_colormap_lines_ps.spv
 shaders/vulkan/distort_geom_constant_ps.spv
@@ -7112,6 +7119,7 @@ vrcompositor_mailbox
 vrcompositor_notification
 vrcompositor_systemlayer
 vrdashboard
+vrlink.client
 vrmonitor
 vrntfyimg#%d
 vroverlaylatest

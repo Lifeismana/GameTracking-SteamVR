@@ -1,4 +1,4 @@
-var CLSTAMP = "10715262";
+var CLSTAMP = "10731156";
 (self.webpackChunkvrwebui = self.webpackChunkvrwebui || []).push([
   [198],
   {
@@ -346,6 +346,8 @@ var CLSTAMP = "10715262";
             (w.properties["texture-id"] = (0, m.bl)(this.props.texture_id)),
             (w.properties["sort-order"] = this.props.sort_order),
             (w.properties["sort-depth-bias"] = this.props.sort_depth_bias),
+            (w.properties["no-depth-write"] = this.props.no_depth_write),
+            (w.properties["no-depth-test"] = this.props.no_depth_test),
             (w.properties.visibility = this.visibility),
             (w.properties["frame-resize-scale-factor"] = P),
             (w.properties["main-panel-for-frame-page"] =

@@ -413,16 +413,16 @@ $tI(knN
 .?AU?$CFactoryMakerT@VCAnimSkeleton@@@?$CAnimFactoryBaseT@VCAnimResource@@@@
 .?AU?$CFactoryMakerT@VCBoneMaskResource@@@?$CAnimFactoryBaseT@VCAnimResource@@@@
 .?AU?$CFactoryMakerT@VCKeyframedDataResource@@@?$CAnimFactoryBaseT@VCAnimResource@@@@
-.?AU?$CSxrDispatchableHandle@VCSxrAction@@PEAUXrAction_T@@@@
-.?AU?$CSxrDispatchableHandle@VCSxrActionSet@@PEAUXrActionSet_T@@@@
-.?AU?$CSxrDispatchableHandle@VCSxrFoveationProfile@@PEAUXrFoveationProfileFB_T@@@@
-.?AU?$CSxrDispatchableHandle@VCSxrHandTrackerEXT@@PEAUXrHandTrackerEXT_T@@@@
-.?AU?$CSxrDispatchableHandle@VCSxrInstance@@PEAUXrInstance_T@@@@
-.?AU?$CSxrDispatchableHandle@VCSxrRenderModelAssetEXT@@PEAUXrRenderModelAssetEXT_T@@@@
-.?AU?$CSxrDispatchableHandle@VCSxrRenderModelEXT@@PEAUXrRenderModelEXT_T@@@@
-.?AU?$CSxrDispatchableHandle@VCSxrSession@@PEAUXrSession_T@@@@
-.?AU?$CSxrDispatchableHandle@VCSxrSpace@@PEAUXrSpace_T@@@@
-.?AU?$CSxrDispatchableHandle@VCSxrSwapchainBase@@PEAUXrSwapchain_T@@@@
+.?AU?$CSxrDispatchableHandle@VCSxrAction@@PEAUXrAction_T@@UXrActionTag@@@@
+.?AU?$CSxrDispatchableHandle@VCSxrActionSet@@PEAUXrActionSet_T@@UXrActionSetTag@@@@
+.?AU?$CSxrDispatchableHandle@VCSxrFoveationProfile@@PEAUXrFoveationProfileFB_T@@UXrFoveationProfileFBTag@@@@
+.?AU?$CSxrDispatchableHandle@VCSxrHandTrackerEXT@@PEAUXrHandTrackerEXT_T@@UXrHandTrackerEXTTag@@@@
+.?AU?$CSxrDispatchableHandle@VCSxrInstance@@PEAUXrInstance_T@@UXrInstanceTag@@@@
+.?AU?$CSxrDispatchableHandle@VCSxrRenderModelAssetEXT@@PEAUXrRenderModelAssetEXT_T@@UXrRenderModelAssetEXTTag@@@@
+.?AU?$CSxrDispatchableHandle@VCSxrRenderModelEXT@@PEAUXrRenderModelEXT_T@@UXrRenderModelEXTTag@@@@
+.?AU?$CSxrDispatchableHandle@VCSxrSession@@PEAUXrSession_T@@UXrSessionTag@@@@
+.?AU?$CSxrDispatchableHandle@VCSxrSpace@@PEAUXrSpace_T@@UXrSpaceTag@@@@
+.?AU?$CSxrDispatchableHandle@VCSxrSwapchainBase@@PEAUXrSwapchain_T@@UXrSwapchainTag@@@@
 .?AU?$ToBaseT@VCBoneMaskResource@@VCAnimResource@@@Detail@Reflection@@
 .?AU?$ToBaseT@VCKeyframedDataResource@@VCAnimResource@@@Detail@Reflection@@
 .?AU?$default_delete@VCCompositionClient@facet@@@std@@
@@ -532,15 +532,15 @@ $tI(knN
 .?AV?$CSharedTextureSetDriverDirect@USharedTextureDataD3D12_t@CVRCompositorSharedTextures@@@CVRCompositorSharedTextures@@
 .?AV?$CSharedTextureSetDriverDirect@USharedTextureDataGL_t@CVRCompositorSharedTextures@@@CVRCompositorSharedTextures@@
 .?AV?$CSharedTextureSetDriverDirect@USharedTextureDataVulkan_t@CVRCompositorSharedTextures@@@CVRCompositorSharedTextures@@
-.?AV?$CSxrChildHandle@VCSxrAction@@PEAUXrAction_T@@VCSxrActionSet@@@@
-.?AV?$CSxrChildHandle@VCSxrActionSet@@PEAUXrActionSet_T@@VCSxrInstance@@@@
-.?AV?$CSxrChildHandle@VCSxrFoveationProfile@@PEAUXrFoveationProfileFB_T@@VCSxrSession@@@@
-.?AV?$CSxrChildHandle@VCSxrHandTrackerEXT@@PEAUXrHandTrackerEXT_T@@VCSxrSession@@@@
-.?AV?$CSxrChildHandle@VCSxrRenderModelAssetEXT@@PEAUXrRenderModelAssetEXT_T@@VCSxrSession@@@@
-.?AV?$CSxrChildHandle@VCSxrRenderModelEXT@@PEAUXrRenderModelEXT_T@@VCSxrSession@@@@
-.?AV?$CSxrChildHandle@VCSxrSession@@PEAUXrSession_T@@VCSxrInstance@@@@
-.?AV?$CSxrChildHandle@VCSxrSwapchainBase@@PEAUXrSwapchain_T@@VCSxrSession@@@@
-.?AV?$CSxrChildVariableParentHandle@VCSxrSpace@@PEAUXrSpace_T@@VCSxrAction@@VCSxrSession@@@@
+.?AV?$CSxrChildHandle@VCSxrAction@@PEAUXrAction_T@@UXrActionTag@@VCSxrActionSet@@@@
+.?AV?$CSxrChildHandle@VCSxrActionSet@@PEAUXrActionSet_T@@UXrActionSetTag@@VCSxrInstance@@@@
+.?AV?$CSxrChildHandle@VCSxrFoveationProfile@@PEAUXrFoveationProfileFB_T@@UXrFoveationProfileFBTag@@VCSxrSession@@@@
+.?AV?$CSxrChildHandle@VCSxrHandTrackerEXT@@PEAUXrHandTrackerEXT_T@@UXrHandTrackerEXTTag@@VCSxrSession@@@@
+.?AV?$CSxrChildHandle@VCSxrRenderModelAssetEXT@@PEAUXrRenderModelAssetEXT_T@@UXrRenderModelAssetEXTTag@@VCSxrSession@@@@
+.?AV?$CSxrChildHandle@VCSxrRenderModelEXT@@PEAUXrRenderModelEXT_T@@UXrRenderModelEXTTag@@VCSxrSession@@@@
+.?AV?$CSxrChildHandle@VCSxrSession@@PEAUXrSession_T@@UXrSessionTag@@VCSxrInstance@@@@
+.?AV?$CSxrChildHandle@VCSxrSwapchainBase@@PEAUXrSwapchain_T@@UXrSwapchainTag@@VCSxrSession@@@@
+.?AV?$CSxrChildVariableParentHandle@VCSxrSpace@@PEAUXrSpace_T@@UXrSpaceTag@@VCSxrAction@@VCSxrSession@@@@
 .?AV?$CVkPoolGarbageCollector@VCVkCommandBuffer@@@@
 .?AV?$CVkPoolableResource@VCVkCommandBufferPool@@@@
 .?AV?$CVkResourcePool@VCVkCommandBuffer@@@@
@@ -2603,7 +2603,7 @@ CVkDevice::CreateInstance
 CVkDevice::FindBestPhysicalDevice
 CVkDevice::Init - failed to get extension count
 CVkDevice::Init - no instance extensions supported
-CVkDevice::SetDebugName
+CVkDevice::SetObjectDebugName
 CVkDevice::UseDevice
 CVkDevice::UsePhysicalDevice
 CVkDeviceBuilder::AddQueue
@@ -3840,7 +3840,8 @@ Pose
 Positional emitter description not found.
 Primitive
 PrismTimeline:%llu
-Process called VR_Init a second time without an intervening VR_Shutdown. Returning success.\n
+Process called VR_Init or xrCreateInstance %u times without a matching VR_Shutdown or xrDestroyInstance. Behavior is undefined.\n
+Process called VR_Shutdown or xrDestroyInstance, but still has %u reference(s) to VRSystem or xrInstance. Behavior is undefined.\n
 ProcessDpadBindings
 Projection
 Prop_
@@ -3977,6 +3978,7 @@ Prop_HasDriverDirectModeComponent_Bool
 Prop_HasVirtualDisplayComponent_Bool
 Prop_HmdColumnCorrectionSettingPrefix_String
 Prop_HmdTrackingStyle_Int32
+Prop_Hmd_BlankOnFramerateChange_Bool
 Prop_Hmd_EnableParallelRenderCameras_Bool
 Prop_Hmd_SupportsAppThrottling_Bool
 Prop_Hmd_SupportsDisplayPortTrainingMode_Bool
@@ -6712,7 +6714,6 @@ atof
 atoi
 attributes
 audio
-auroraPlayspace
 autoLaunchSteamVROnButtonPress
 axis
 bGraphicsCmd || m_eState == State_t::VulkanComputeTransitioned
@@ -7002,20 +7003,20 @@ c:\buildslave\steamvr_rel_win64\build\src\vrclient\skeletalinpututils.cpp
 c:\buildslave\steamvr_rel_win64\build\src\vrclient\vrchaperoneclient.cpp
 c:\buildslave\steamvr_rel_win64\build\src\vrclient\vrclientcore.cpp
 c:\buildslave\steamvr_rel_win64\build\src\vrclient\vrcompositorclient.cpp
-c:\buildslave\steamvr_rel_win64\build\src\vrclient\vrcompositorclient.cpp:1439
-c:\buildslave\steamvr_rel_win64\build\src\vrclient\vrcompositorclient.cpp:1695
-c:\buildslave\steamvr_rel_win64\build\src\vrclient\vrcompositorclient.cpp:2482
-c:\buildslave\steamvr_rel_win64\build\src\vrclient\vrcompositorclient.cpp:462
+c:\buildslave\steamvr_rel_win64\build\src\vrclient\vrcompositorclient.cpp:1440
+c:\buildslave\steamvr_rel_win64\build\src\vrclient\vrcompositorclient.cpp:1696
+c:\buildslave\steamvr_rel_win64\build\src\vrclient\vrcompositorclient.cpp:2497
+c:\buildslave\steamvr_rel_win64\build\src\vrclient\vrcompositorclient.cpp:463
 c:\buildslave\steamvr_rel_win64\build\src\vrclient\vrcompositorsharedtextures.cpp
 c:\buildslave\steamvr_rel_win64\build\src\vrclient\vrcompositorsharedtextures.cpp:2963
 c:\buildslave\steamvr_rel_win64\build\src\vrclient\vrcompositorsharedtextures.cpp:4312
 c:\buildslave\steamvr_rel_win64\build\src\vrclient\vrdebug.cpp:49
 c:\buildslave\steamvr_rel_win64\build\src\vrclient\vrdebug.cpp:60
-c:\buildslave\steamvr_rel_win64\build\src\vrclient\vrinput.cpp:1596
+c:\buildslave\steamvr_rel_win64\build\src\vrclient\vrinput.cpp:1609
 c:\buildslave\steamvr_rel_win64\build\src\vrclient\vrmailboxclient.cpp
-c:\buildslave\steamvr_rel_win64\build\src\vrclient\vroverlay.cpp:1015
-c:\buildslave\steamvr_rel_win64\build\src\vrclient\vroverlay.cpp:1213
-c:\buildslave\steamvr_rel_win64\build\src\vrclient\vroverlay.cpp:1244
+c:\buildslave\steamvr_rel_win64\build\src\vrclient\vroverlay.cpp:1174
+c:\buildslave\steamvr_rel_win64\build\src\vrclient\vroverlay.cpp:1205
+c:\buildslave\steamvr_rel_win64\build\src\vrclient\vroverlay.cpp:976
 c:\buildslave\steamvr_rel_win64\build\src\vrclient\vrsteamprivate.cpp
 c:\fake_app_container_config_path
 camera
@@ -7096,6 +7097,7 @@ cs_cz
 currentUUID
 currentUniverseId
 cursor_index
+custom
 czech
 d3d11.dll
 da_dk
@@ -7225,6 +7227,7 @@ enabled
 end of input
 english
 entries
+environmentMode
 error
 error %s when initing driver %s from %s.\n
 es_es
@@ -7910,6 +7913,7 @@ path
 pauseCompositorOnStandby
 pbrMetallicRoughness
 perfcheck
+performanceProfile
 perspective
 pico_controller
 pid_%04x
@@ -7935,6 +7939,7 @@ position_y
 position_z
 positional
 power
+powersaving
 powf
 ppCmdBuf
 precision
@@ -8067,6 +8072,7 @@ shaders/d3d11/distort_geom_aa_lines_vs.fxo
 shaders/d3d11/distort_geom_aa_quads_ps.fxo
 shaders/d3d11/distort_geom_aa_quads_vs.fxo
 shaders/d3d11/distort_geom_altcolorblend_ps.fxo
+shaders/d3d11/distort_geom_aurora_floor_ps.fxo
 shaders/d3d11/distort_geom_aurora_ps.fxo
 shaders/d3d11/distort_geom_colormap_lines_ps.fxo
 shaders/d3d11/distort_geom_constant_ps.fxo
@@ -8263,6 +8269,7 @@ shaders/vulkan/distort_geom_aa_lines_vs.spv
 shaders/vulkan/distort_geom_aa_quads_ps.spv
 shaders/vulkan/distort_geom_aa_quads_vs.spv
 shaders/vulkan/distort_geom_altcolorblend_ps.spv
+shaders/vulkan/distort_geom_aurora_floor_ps.spv
 shaders/vulkan/distort_geom_aurora_ps.spv
 shaders/vulkan/distort_geom_colormap_lines_ps.spv
 shaders/vulkan/distort_geom_constant_ps.spv
@@ -8545,6 +8552,7 @@ steamvr
 steamvr.vrsettings
 steamvr_input
 steamvr_vrclient_interop
+steamxr_win32.json
 steamxr_win64.json
 sticky
 sticky_activate_threshold
@@ -9606,6 +9614,7 @@ vrcompositor_mailbox
 vrcompositor_notification
 vrcompositor_systemlayer
 vrdashboard.exe
+vrlink.client
 vrmonitor.exe
 vrntfyimg#%d
 vroverlaylatest

@@ -184,6 +184,7 @@
 ?xsgetn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JPEAD_J@Z
 ?xsputn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JPEBD_J@Z
 A valid JSON document must be either an array or an object value.
+A$9K
 ADVAPI32.dll
 Active XrInstance handle already exists
 ActiveRuntime
