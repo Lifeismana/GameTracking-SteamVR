@@ -1,1 +1,15 @@
-[]
+[
+    {
+        "language_tag": "fr_FR",
+        "knuckles": "Contrôleur Index",
+        "knuckles_ev1": "Contrôleur Knuckles (EV1)",
+        "/input/a": "Bouton A",
+        "/input/b": "Bouton B",
+        "/input/pinch": "Pincement",
+        "/input/finger/index": "Index",
+        "/input/finger/middle": "Majeur",
+        "/input/finger/ring": "Annulaire",
+        "/input/finger/pinky": "Auriculaire",
+        "/input/thumbstick": "Stick analogique"
+    }
+]

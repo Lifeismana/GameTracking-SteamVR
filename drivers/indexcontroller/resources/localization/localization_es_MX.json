@@ -1,1 +1,15 @@
-[]
+[
+    {
+        "language_tag": "es_MX",
+        "knuckles": "Control de Index",
+        "knuckles_ev1": "Control Knuckles (EV1)",
+        "/input/a": "Botón A",
+        "/input/b": "Botón B",
+        "/input/pinch": "Gesto de pellizcar",
+        "/input/finger/index": "Dedo índice",
+        "/input/finger/middle": "Dedo medio",
+        "/input/finger/ring": "Dedo anular",
+        "/input/finger/pinky": "Dedo meñique",
+        "/input/thumbstick": "Joystick"
+    }
+]

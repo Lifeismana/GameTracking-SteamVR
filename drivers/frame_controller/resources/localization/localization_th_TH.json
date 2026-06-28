@@ -1,1 +1,7 @@
-[]
+[
+    {
+        "language_tag": "th_TH",
+        "frame_controller": "Steam Frame Controller",
+        "/input/thumbrest": "ที่วางนิ้วโป้ง"
+    }
+]

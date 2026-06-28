@@ -1,1 +1,7 @@
-[]
+[
+    {
+        "language_tag": "es_MX",
+        "frame_controller": "Control de Frame",
+        "/input/thumbrest": "Apoyapulgar"
+    }
+]

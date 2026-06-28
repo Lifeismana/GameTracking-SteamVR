@@ -132,7 +132,7 @@
 /user/waist
 /user/wrist/left
 /user/wrist/right
-14:09:59
+11:46:20
 1e+9999
 8c8f13b1-60eb-4b6a-a433-de86104115ac
 8d8f13b1-60eb-4b6a-a433-de86104115ac
@@ -341,7 +341,7 @@ InitializeCriticalSectionAndSpinCount
 InitializeSListHead
 IsDebuggerPresent
 IsProcessorFeaturePresent
-Jun 11 2026
+Jun 24 2026
 KERNEL32.dll
 LeaveCriticalSection
 Line %d, Column %d
@@ -370,7 +370,7 @@ ProcessVREvents
 QueryPerformanceCounter
 QueryPerformanceFrequency
 RPCRT4.dll
-RSDSlT
+RSDS
 RaiseException
 ReadFile
 RealMain

@@ -1,1 +1,15 @@
-[]
+[
+    {
+        "language_tag": "uk_UA",
+        "knuckles": "Контролер Index",
+        "knuckles_ev1": "Контролер Knuckles (EV1)",
+        "/input/a": "Кнопка A",
+        "/input/b": "Кнопка B",
+        "/input/pinch": "Щипок",
+        "/input/finger/index": "Вказівний палець",
+        "/input/finger/middle": "Середній палець",
+        "/input/finger/ring": "Безіменний палець",
+        "/input/finger/pinky": "Мізинець",
+        "/input/thumbstick": "Стік"
+    }
+]

@@ -11,6 +11,7 @@
  throw
  transaction_safe
  volatile
+$ORIGIN
 %02X
 %06d
 %4.4X:%4.4X\n

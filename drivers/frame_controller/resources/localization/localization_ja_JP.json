@@ -1,1 +1,7 @@
-[]
+[
+    {
+        "language_tag": "ja_JP",
+        "frame_controller": "Frameコントローラ",
+        "/input/thumbrest": "サムレスト"
+    }
+]

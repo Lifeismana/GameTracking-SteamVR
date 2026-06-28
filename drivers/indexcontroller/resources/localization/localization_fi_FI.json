@@ -1,1 +1,15 @@
-[]
+[
+    {
+        "language_tag": "fi_FI",
+        "knuckles": "Index-ohjain",
+        "knuckles_ev1": "Knuckles-ohjain (EV1)",
+        "/input/a": "A-painike",
+        "/input/b": "B-painike",
+        "/input/pinch": "Nipistysliike",
+        "/input/finger/index": "Etusormi",
+        "/input/finger/middle": "Keskisormi",
+        "/input/finger/ring": "Nimetön",
+        "/input/finger/pinky": "Pikkusormi",
+        "/input/thumbstick": "Ohjainsauva"
+    }
+]

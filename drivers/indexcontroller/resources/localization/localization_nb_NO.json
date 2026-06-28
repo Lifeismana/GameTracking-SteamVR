@@ -1,12 +1,15 @@
 [
     {
+        "language_tag": "nb_NO",
         "knuckles": "Index-kontroller",
+        "knuckles_ev1": "Knuckles-kontroller (EV1)",
         "/input/a": "A-knapp",
         "/input/b": "B-knapp",
         "/input/pinch": "Klypebevegelse",
         "/input/finger/index": "Pekefinger",
         "/input/finger/middle": "Langfinger",
         "/input/finger/ring": "Ringfinger",
-        "/input/finger/pinky": "Lillefinger"
+        "/input/finger/pinky": "Lillefinger",
+        "/input/thumbstick": "Styrespak"
     }
 ]

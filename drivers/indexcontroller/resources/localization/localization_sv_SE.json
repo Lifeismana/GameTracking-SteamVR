@@ -1,1 +1,15 @@
-[]
+[
+    {
+        "language_tag": "sv_SE",
+        "knuckles": "Index-kontroll",
+        "knuckles_ev1": "Knuckles-kontroll (EV1)",
+        "/input/a": "A-knapp",
+        "/input/b": "B-knapp",
+        "/input/pinch": "Nypgest",
+        "/input/finger/index": "Pekfinger",
+        "/input/finger/middle": "Långfinger",
+        "/input/finger/ring": "Ringfinger",
+        "/input/finger/pinky": "Lillfinger",
+        "/input/thumbstick": "Styrspak"
+    }
+]

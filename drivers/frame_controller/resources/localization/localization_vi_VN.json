@@ -1,1 +1,7 @@
-[]
+[
+    {
+        "language_tag": "vi_VN",
+        "frame_controller": "Frame Controller",
+        "/input/thumbrest": "Đỉnh cần trỏ"
+    }
+]

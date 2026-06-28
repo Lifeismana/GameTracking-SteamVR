@@ -2567,7 +2567,6 @@ Zjz\v
 \n\vallow_alias
 \n\voneof_index
 \n\voutput_type
-\p\fcj
 \r\n\tCODE_SIZE
 \r\n\tTYPE_BOOL
 \r\n\tTYPE_ENUM

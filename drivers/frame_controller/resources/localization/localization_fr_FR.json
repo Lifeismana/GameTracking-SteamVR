@@ -1,1 +1,7 @@
-[]
+[
+    {
+        "language_tag": "fr_FR",
+        "frame_controller": "Contrôleur du Steam Frame",
+        "/input/thumbrest": "Repose-pouce"
+    }
+]

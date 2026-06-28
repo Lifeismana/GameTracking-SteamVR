@@ -2,7 +2,14 @@
     {
         "language_tag": "bg_BG",
         "knuckles": "Index контролер",
+        "knuckles_ev1": "Knuckles (EV1) контролер",
         "/input/a": "Бутон A",
-        "/input/b": "Бутон B"
+        "/input/b": "Бутон B",
+        "/input/pinch": "Жестикулация за прищипване",
+        "/input/finger/index": "Показалец",
+        "/input/finger/middle": "Среден пръст",
+        "/input/finger/ring": "Безименен пръст",
+        "/input/finger/pinky": "Кутре",
+        "/input/thumbstick": "Аналогов стик"
     }
 ]

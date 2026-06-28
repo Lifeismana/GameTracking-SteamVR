@@ -1,1 +1,15 @@
-[]
+[
+    {
+        "language_tag": "it_IT",
+        "knuckles": "Controller Index",
+        "knuckles_ev1": "Controller Knuckles (EV1)",
+        "/input/a": "Pulsante A",
+        "/input/b": "Pulsante B",
+        "/input/pinch": "Gesto di pizzico",
+        "/input/finger/index": "Indice",
+        "/input/finger/middle": "Medio",
+        "/input/finger/ring": "Anulare",
+        "/input/finger/pinky": "Mignolo",
+        "/input/thumbstick": "Levetta"
+    }
+]

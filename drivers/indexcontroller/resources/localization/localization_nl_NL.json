@@ -1,1 +1,15 @@
-[]
+[
+    {
+        "language_tag": "nl_NL",
+        "knuckles": "Index-controller",
+        "knuckles_ev1": "Knuckles-controller (EV1)",
+        "/input/a": "A-knop",
+        "/input/b": "B-knop",
+        "/input/pinch": "Knijpgebaar",
+        "/input/finger/index": "Wijsvinger",
+        "/input/finger/middle": "Middelvinger",
+        "/input/finger/ring": "Ringvinger",
+        "/input/finger/pinky": "Pink",
+        "/input/thumbstick": "Analoge stick"
+    }
+]

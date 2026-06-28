@@ -1,36 +1,60 @@
+                    
                                                                 0000000000000000000000000000000000000000000000000000000000000000@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@PPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPP````````````````````````````````````````````````````````````````pppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppp
                                 00000000000000000000000000000000@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@PPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPP````````````````````````````````pppppppppppppppppppppppppppppppp
                 0000000000000000@@@@@@@@@@@@@@@@PPPPPPPPPPPPPPPP````````````````pppppppppppppppp
+  ##%%&&))**,,//1122447788;;==>>@@CCEEFFIIJJLLOOQQRRTTWWXX[[]]^^aabbddgghhkkmmnnppssuuvvyyzz||
   Comment started here.
+ !"#$%&'()*+,-./0123
  !"#$%&'()*+,-./0123456789:;<=>?
  !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
  !"#$%&'()*+,-./0123456789:;<=>?Sample message for keylen=blocklen
  !$%(),-"#&'*+./014589<=2367:;>?
  "!#$&%'(*)+,.-/021346578:9;<>=?
+ ' ) - 3 G M Q _ c e i w } 
+ (BGP MDT)
+ (MPLS)
+ (MPLS-labeled VPN)
+ (Multicast)
+ (Negative)
+ (Tunnel)
+ (Unicast)
+ (Unicast/Multicast)
+ (Unknown SAFI %u)
+ (VPLS)
  (does the path point to a directory?)
  = { <proto text format> }". To set fields within it, use syntax like "
+ GMT
  Outdent() without matching Indent().
  Tokenizer::ParseFloat() passed text that could not have been tokenized as a float: 
  Tokenizer::ParseInteger() passed text that could not have been tokenized as an integer: 
  Tokenizer::ParseStringAppend() passed text that could not have been tokenized as a string: 
  [default = $0
+ \vjpF
  args were given.  Full format string was: "
  at line 
  bytes).  To increase the limit (or to disable these warnings), see CodedInputStream::SetTotalBytesLimit() in google/protobuf/io/coded_stream.h.
  bytes, parsing will be halted for security reasons.  To increase the limit (or to disable these warnings), see CodedInputStream::SetTotalBytesLimit() in google/protobuf/io/coded_stream.h.
+ characters
  exceeds maximum allowed file size 
+ for 
  for detail.\n
  google/protobuf/descriptor.proto"\f\n\nNoResponse*]\n
  google/protobuf/descriptor.proto:;\n
+ iciNWq
  in Buffer\n
  is not valid for field 
  message of type "
+ name=
  of the Protocol Buffer runtime library, but the installed version is 
  of the Protocol Buffer runtime library, which is not compatible with the installed version (
  of type 
  wZiK
+ with 
+! !K+hcF&db
 !.google.protobuf.EnumValueOptions
+!5!A!I!O!Y![!_!s!}!
 !H88p
+!hcK+dbF&
 !tI)i
 !tX)i
 " because it is missing required fields: 
@@ -72,6 +96,7 @@
 " was not found or had errors.
 " which is not used.
 " which is.
+"!"%"+"1"9"K"O"c"g"s"u"
 "$0" does not declare $1 as an extension number.
 "%/28;=#$019:>?
 ") is not compatible with this reflection object (which is for type "
@@ -93,11 +118,14 @@
 "3ii
 "MutableRawRepeatedField"
 "Q>W1
+"`bB303
 "accessors" object not found in .gltf\n
 "asset" object not found in .gltf or not an object type\n
 "bufferViews" object not found in .gltf\n
 "buffers" object not found in .gltf\n
+"cs73KI
 "e" must be followed by exponent.
+"lbN.
 "nodes" object not found in .gltf\n
 "orthographic" is not a JSON object.
 "perspective" is not a JSON object.
@@ -109,11 +137,17 @@
 #################### NVENC: %s\n
 ##eF##eFii
 #0Kz9
+#:*S8,}gNzl
 #?RADIANCE
 #?RADIANCE\n
 #?RGBE
 #?RGBE\n
+#Q7z
+#\t#\v#'#)#/#3#5#E#Q#S#Y#c#k#
+#\v+(bF&drJ:x#
 #bundle
+$%&'()*+,-./0123456789:;<=
+$)$=$A$C$M$_$g$k$y$}$
 $0  extend .$1 {\n
 $0  extensions $1 to $2;\n
 $0  message $1
@@ -122,14 +156,76 @@ $0$1$2 $3 = $4
 $0enum $1 {\n
 $0option $1;\n
 $3br
+$Cw!R
+$O\tdwR\rox\\r*
+$XI(6
 $\n k_EProtoExecutionSiteSteamClient
 $\n k_EProtoServiceTypeSteamMessages
+$d`D-laM
 %%oJ%%oJ$$lH$$lHss
 %&'()*456789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
+%'%1%=%C%K%O%s%
+%*s      %s%s%s%s\n
+%*s    Info Entries:\n
+%*s    Profession OIDs:\n
+%*s    registrationNumber: 
+%*s  Profession Info Entry %0d:\n
+%*s  admissionAuthority:\n
+%*s  admissionAuthorityId: 
+%*s  namingAuthorityText: 
+%*s  namingAuthorityUrl: 
+%*s%s Private-Key:\n
+%*s%s Public-Key:\n
+%*s<EMPTY>\n
+%*s<INVALID PRIVATE KEY>\n
+%*s<INVALID PUBLIC KEY>\n
+%*sCPS: %s\n
+%*sCRL Issuer:\n
+%*sEntry %0d:\n
+%*sExplicit Text: %s\n
+%*sFull Name:\n
+%*sIPv4
+%*sIPv6
+%*sIndirect CRL\n
+%*sIssuer: 
+%*sNumber%s: 
+%*sOnly Attribute Certificates\n
+%*sOnly CA Certificates\n
+%*sOnly User Certificates\n
+%*sOrganization: %s\n
+%*sPath Length Constraint: 
+%*sPolicy Language: 
+%*sPolicy Text: %s\n
+%*sPolicy: 
+%*sRelative Name:\n%*s
+%*sSigned Certificate Timestamp:
+%*sUnknown AFI %u
+%*sUnknown Qualifier: 
+%*sUser Notice:\n
+%*sVersion: %ld (0x%lX)
+%*sadmissionAuthority:\n
+%*scrlNum: 
+%*scrlTime: 
+%*scrlUrl: 
+%*sinherit\n
+%*snamingAuthority: 
+%*spriv:\n
+%-18s
+%.14s.%03dZ
 %.1f ms
+%019llu
+%02X
+%02X%02X
+%02X:
 %02X:%02X:%02X
+%02d%02d%02d%02d%02d%02dZ
+%02x%c
+%02x%s
 %02x\t
+%04d%02d%02d%02d%02d%02dZ
 %04x%c
+%08lx
+%0nV4
 %12s: %9s
 %12s:%10.3f
 %13s:%9.3f
@@ -144,17 +240,32 @@ $\n k_EProtoServiceTypeSteamMessages
 %Y-%m-%d-%p_%I_%M_%S
 %a %b %d %H:%M:%S %Y
 %a %b %d %Y %H:%M:%S.%%03u
+%bw+s
 %c%sFailFuzz
 %d,%d,%d,%d
+%d.%d.%d.%d
+%d.%d.%d.%d/%d.%d.%d.%d
 %d/%d hw max [%d]\n%d in (%d bits)\nPair: %s
+%daE<<0\f6
 %dx%d
 %f %d %d %d %08x\n
+%llu
+%lu:%s:%s:%d:%s\n
+%s %2d %02d:%02d:%02d %d%s
+%s %2d %02d:%02d:%02d%.*s %d%s
+%s %s HTTP/1.0\r\n
 %s %s startup with PID=%u, config=%s, runtime=%s, arch=%s\n
+%s %s%lu (%s0x%lx)\n
+%s Salt Length: 0x
+%s%02x
+%s: (%d bit)\n
 %s: CoCreateInstance MMDeviceEnumerator failed: hr = 0x%08x\n
+%s:%d: OpenSSL internal error: %s\n
 %s[%s] %s file=%s
 %u of %u datalinks failed to initialize. Returning the last failure.
 %u,%u,%u,%u
 &&Lj66lZ??~A
+&'&)&5&;&?&K&S&Y&e&i&o&{&
 &'()*56789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
 &5L_jy
 &Lj&6lZ6?~A?
@@ -175,20 +286,32 @@ $\n k_EProtoServiceTypeSteamMessages
 ' value is not an integer type.\n
 '&%$#"! /.-,+*)(76543210?>=<;:98
 '.5<=6/7>????????????????
+'5'7'M'S'U'_'k'm's'w'
+'DAE
+'RL6
 'SrN
 '[', '{', or a literal
+'id' or 'name' missing
+'prB2
 'uri' is missing from non binary glTF file buffer.\n
+(!(1(=(?(I(Q([(](a(g(u(
 ("<6PZDNxrlf
+(0'yX
 (3-!0,1'8"5.*2$
 (Enumerating)
 (Failed Enumeration)
 (General Failure)
 (Hub Nested Too Deeply)
+(INVALID PSS PARAMETERS)\n
 (In Legacy Hub)
 (Not Enough Bandwidth)
 (Not Enough Power)
 (Overcurrent)
 (Reset)
+(TEST_ENG_OPENSSL_PKEY)Loading Private key %s\n
+(TEST_ENG_OPENSSL_RC4) test_init_key() called\n
+(U1h
+(ZdOt\n&
 (\t:P\n%vr_path_property_unset_on_steam_close
 (\v2 .google.protobuf.DescriptorProto
 (\v2!.google.protobuf.EnumValueOptions"
@@ -206,20 +329,43 @@ $\n k_EProtoServiceTypeSteamMessages
 (\v2-.google.protobuf.UninterpretedOption.NamePart
 (\v2/.google.protobuf.DescriptorProto.ExtensionRange
 (cannot determine missing fields for lite message)
+(fS{ggRcjh
+(h`H1pqA
 (merge 
+(null)
+(unknown)
+(wMww
+)!)#)?)G)])e)i)o)u)
 )", which is not defined. The innermost scope is searched first in name resolution. Consider using a leading '.'(i.e., "(.
+))Kb00\f<ZZ
 ).  Contact the program author for an update.  If you compiled the program yourself, make sure that your headers are from the same version of Protocol Buffers as your link-time library.  (Version verification failed in "
 )5lX8
+)TpH
+)Urz
+)haI
+*%*/*O*U*_*e*k*m*s*
+*0fT
 *\n&k_EProtoServiceTypeVRGamepadUIMessages
+*hbJ1
+*laM-\SO
++'+1+3+=+?+K+O+U+i+m+o+{+
++(#\v&dbF:xrJ'$#
 +2Hp
 +HpXhE
++en+eo+
+, Type=
 , binary size = 
 , but got 
 , column 
 , from:
 , last executing in 
+, name=
 , not just within "
+, path=
 , requestedBytes 
+, retcode=
+, value=
+,#,/,5,9,A,W,Y,i,w,
 ,\n\t"cPingHistogramv1" : [
 ,\n\t"cRXFailHistogramv1" : [
 ,\n\t"encTimeHistogramv1" : [
@@ -227,12 +373,18 @@ $\n k_EProtoServiceTypeSteamMessages
 ,\n\t"sAllTimePingHistogramSumOS" : [
 ,\n\t"sRXFailHistogramv1" : [
 ,fff
+,name:
+,value:
+-----BEGIN 
 -1e+9999
+-;-C-I-M-a-e-q-
+-DBF
 -Infinity
 -NIL
 -inf
 -startup
 .  Please update your library.  If you compiled the program yourself, make sure that your headers are from the same version of Protocol Buffers as your link-time library.  (Version verification failed in "
+.%.-.3.7.9.?.W.[.o.y.
 ../../../../src/thirdparty/livepp
 ..\src\google\protobuf\descriptor.cc
 ..\src\google\protobuf\descriptor.pb.cc
@@ -255,6 +407,7 @@ $\n k_EProtoServiceTypeSteamMessages
 ..\src\google\protobuf\wire_format.cc
 ..\src\google\protobuf\wire_format_lite.cc
 .00cfg
+.97yY
 .?AU?$CFactoryMakerT@VCAnimSkeleton@@@?$CAnimFactoryBaseT@VCAnimResource@@@@
 .?AU?$CFactoryMakerT@VCBoneMaskResource@@@?$CAnimFactoryBaseT@VCAnimResource@@@@
 .?AU?$CFactoryMakerT@VCKeyframedDataResource@@@?$CAnimFactoryBaseT@VCAnimResource@@@@
@@ -280,7 +433,6 @@ $\n k_EProtoServiceTypeSteamMessages
 .?AV<lambda_12d4145ead4c85e64ccd0b9edb9c3522>@@
 .?AV<lambda_18c16c7f54b6ef613ac8ab67a502910f>@@
 .?AV<lambda_1b183cf92bfcc7a986ca41b48af450da>@@
-.?AV<lambda_1dab2bdf1e893592e9ed39f583e5875f>@@
 .?AV<lambda_1db60d98261e2e5ed663866066a32dcb>@@
 .?AV<lambda_2114b8c5f0941e9b036b7e87e031afc7>@@
 .?AV<lambda_2d4b9bd805c205933c366a2a96e134e0>@@
@@ -288,6 +440,7 @@ $\n k_EProtoServiceTypeSteamMessages
 .?AV<lambda_3775199eb374ee8b8777545cef56c745>@@
 .?AV<lambda_3fd6e5ca82e0518e289160675f532929>@@
 .?AV<lambda_4034761bb2dd9685e1e3c01c30ab7f90>@@
+.?AV<lambda_440e6c3e54158a97e7a328a97a3bbcd5>@@
 .?AV<lambda_45a768b69274d94452e24a9121231aff>@@
 .?AV<lambda_5d28593e0d44957b6d4c7e93b1ccc634>@@
 .?AV<lambda_60eb63303e0c1f343ab64d1f44d258c8>@@
@@ -309,6 +462,7 @@ $\n k_EProtoServiceTypeSteamMessages
 .?AV<lambda_c802babf9ad5cf32d7caee1404d3fe40>@@
 .?AV<lambda_c95cdcc8ed7ab36646e90c1ce3a5ffde>@@
 .?AV<lambda_ca19800c162a615b14dbffc218e93f9c>@@
+.?AV<lambda_cc700db364696202065ffd680e4aef3a>@@
 .?AV<lambda_cdd09464f928a2ad6955ebdee1b202cb>@@
 .?AV<lambda_d857d3a3f83f65394e24abd4b6b43fde>@@
 .?AV<lambda_d9fb5ad2b4779161ce72962e3eef40a0>@@
@@ -354,7 +508,6 @@ $\n k_EProtoServiceTypeSteamMessages
 .?AV?$_Func_impl_no_alloc@V<lambda_12d4145ead4c85e64ccd0b9edb9c3522>@@XW4ValueTransportID@@_N@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_18c16c7f54b6ef613ac8ab67a502910f>@@XW4ValueTransportID@@_N@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_1b183cf92bfcc7a986ca41b48af450da>@@XW4ValueTransportID@@_N@std@@
-.?AV?$_Func_impl_no_alloc@V<lambda_1dab2bdf1e893592e9ed39f583e5875f>@@XW4ValueTransportID@@_N@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_1db60d98261e2e5ed663866066a32dcb>@@XAEBVValue@Json@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_2114b8c5f0941e9b036b7e87e031afc7>@@XW4ValueTransportID@@_N@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_2d4b9bd805c205933c366a2a96e134e0>@@XW4ELogLevel@@PEBDPEAX@std@@
@@ -362,6 +515,7 @@ $\n k_EProtoServiceTypeSteamMessages
 .?AV?$_Func_impl_no_alloc@V<lambda_3775199eb374ee8b8777545cef56c745>@@XAEBVValue@Json@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_3fd6e5ca82e0518e289160675f532929>@@_NPEAXPEAU_SP_DEVINFO_DATA@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_4034761bb2dd9685e1e3c01c30ab7f90>@@XW4ValueTransportID@@_N@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_440e6c3e54158a97e7a328a97a3bbcd5>@@XW4ValueTransportID@@_N@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_45a768b69274d94452e24a9121231aff>@@XW4ValueTransportID@@_N@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_5d28593e0d44957b6d4c7e93b1ccc634>@@XW4ValueTransportID@@_N@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_60eb63303e0c1f343ab64d1f44d258c8>@@XW4ValueTransportID@@_N@std@@
@@ -383,6 +537,7 @@ $\n k_EProtoServiceTypeSteamMessages
 .?AV?$_Func_impl_no_alloc@V<lambda_c802babf9ad5cf32d7caee1404d3fe40>@@XW4ValueTransportID@@_N@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_c95cdcc8ed7ab36646e90c1ce3a5ffde>@@XW4ELogLevel@@PEBDPEAX@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_ca19800c162a615b14dbffc218e93f9c>@@XAEBVValue@Json@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_cc700db364696202065ffd680e4aef3a>@@XAEBVValue@Json@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_cdd09464f928a2ad6955ebdee1b202cb>@@XAEBVValue@Json@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_d857d3a3f83f65394e24abd4b6b43fde>@@XW4ValueTransportID@@_N@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_d9fb5ad2b4779161ce72962e3eef40a0>@@XW4ValueTransportID@@_N@std@@
@@ -509,7 +664,8 @@ $\n k_EProtoServiceTypeSteamMessages
 .?AVSVLControllerDriver@@
 .?AVSVLCrypt@@
 .?AVSVLCryptIntelIpsec@@
-.?AVSVLCryptOpenSSL@@
+.?AVSVLCryptOpenSSL_EVP@@
+.?AVSVLCryptOpenSSL_Soft@@
 .?AVSVLCryptSoft@@
 .?AVSVLCryptWindows@@
 .?AVSVLDataLink@@
@@ -542,6 +698,7 @@ $\n k_EProtoServiceTypeSteamMessages
 .?AVUninterpretedOption@protobuf@google@@
 .?AVUninterpretedOption_NamePart@protobuf@google@@
 .?AVUnknownFieldSetFieldSkipper@internal@protobuf@google@@
+.?AVVRLink_DockEntry@@
 .?AVVRLink_LaserMouseEvent@@
 .?AVVRLink_LaserMouseEvents@@
 .?AVVRLink_LaserMouseOverlay@@
@@ -590,6 +747,7 @@ $\n k_EProtoServiceTypeSteamMessages
 .CRT$XTZ
 .EProtoExecutionSite:
 .EProtoServiceType: k_EProtoServiceTypeSteamMessages:D\n
+.HCK\v
 .HPN
 .P6A?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBV01@PEAX@Z
 .P6A_NAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PEAV01@PEAX@Z
@@ -601,6 +759,8 @@ $\n k_EProtoServiceTypeSteamMessages
 .P6A_NPEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0PEBUImage@tinygltf@@_NPEBUFsCallbacks@3@PEBUURICallbacks@3@PEAV01@PEAX@Z
 .PLACEHOLDER_VALUE
 .bss
+.cnf
+.conf
 .data
 .data$r
 .dummy
@@ -623,8 +783,11 @@ $\n k_EProtoServiceTypeSteamMessages
 .idata$4
 .idata$5
 .idata$6
+.include
+.lbN
 .pdata
 .placeholder.proto
+.pp@0
 .previous.txt
 .rdata
 .rdata$T
@@ -645,8 +808,11 @@ $\n k_EProtoServiceTypeSteamMessages
 .tls$
 .tls$ZZZ
 .txt
+.x7B
 .xdata
 .xdata$x
+/'/)/A/E/K/M/Q/W/o/u/}/
+/+ep+eqU
 //==============================================================================================\n
 /7?'rrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr
 /9RZ
@@ -853,67 +1019,129 @@ $\n k_EProtoServiceTypeSteamMessages
 0000
 00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899
 00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899"
-00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899x
 00P`00P`
+0123456789
+0123456789.
+0123456789.:abcdefABCDEF
+0123456789ABCDEF
+0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz./
 0123456789abcdef
+08bX
+0Z@q
+0\r0#0)070;0U0Y0[0g0q0y0}0
+0\tzc
 0\v2;i
 0`P0
-0a\v6<
 0n\n&pa
+0pp@5tqE?|sO541
 0x%I64x
 1 Sec
+1!1'1-191C1E1K1]1a1g1m1s1
 1/2/4/8/16-bit only
 10-bit format isn't supported by H264 encoder(NV_ENC_ERR_INVALID_PARAM)\n
 10.35.78.0
 10bit
 11 4 22 44 44 22 444444
+11M|
 11Sb11Sb""fD""fD77Yn77Yn66Zl66Zl
 11eU%
 127.
 127.0.0.1
+14 (default)
 169.254.
+1H@H
+1\v5#d
 1bS1
 1e+9999
 2#.google.protobuf.FieldOptions.CType:
 2).google.protobuf.FileOptions.OptimizeMode:
+2)252Y2]2c2k2o2u2w2{2
 2*.google.protobuf.FieldDescriptorProto.Type
 2+.google.protobuf.FieldDescriptorProto.Label
 2+ss
 255.255.255.0
+27;C
 2Ht\l
+2bT~
 2dV2:tN:\n
 2dataCount too high (%u)\n
+2prB
 3"((xP((xPWW
+3$ae
+3%3+3/353A3G3[3_3g3k3s3y3
+3--Jg
 3333333333333333333333333333333333333333333333333333333333333333
 33Uf33Uf
 33fU
 33s?
+3Wk1^
+3\v;8BJ\nH
+3ej\n
+3psC'dcG,
 3xU)"P
+3|rN>
 44\h44\h++}V++}V
+44\r9MMR
+474E4U4W4c4i4m4
+4@AA
 4ESample #4
+4T9\n
+4\fZQ
+4\nLx
 4h8px
 4h\4
+4tpD
+5-535;5A5Q5e5o5q5w5{5}5
+55Ly
 55_j55_j,,tX,,tX``
 55j_WW
 5I)7
 5\n\vnested_type
+5\tuy
+5mF\tfE
+5q\teH
+6#6165676;6M6O6S6Y6a6k6m6
 6-nn
-6666666666666666\\\\\\\\\\\\\\\\
+64CK\vH
+6666666666666666jjjjjjjjjjjjjjjj[
 6\n\fmessage_type
+6\rE(t
+6crypto\evp\evp_enc.c
+6qo~
+6tpD4
+6yy_&
+7,gm;
+77\nGJ
+7?7E7I7O7]7a7u7
+7XRJ
 7\n\tenum_type
 7^d[L
 7nY7m
+82\n:XPH
 88Hp88Hp
 88pH
+8A6j
+8GZS
 8\n\textension
+8\v8!83858A8G8K8S8W8_8e8o8q8}8
+8\vWzK
+8]Vc2
 8c8f13b1-60eb-4b6a-a433-de86104115ac
 8d8f13b1-60eb-4b6a-a433-de86104115ac
 8e8f13b1-60eb-4b6a-a433-de86104115ac
 8pH8
 8v?i
+8y\rW
+8z\rkt
+9#9%9)9/9=9A9M9[9k9y9}9
+9)PF
+9)jx
 9-UA
 99Kr99Kr
+99Ov
 99rKJJ
+9<n\nM
+9IGv
 9JLX
 9\n\noneof_decl
 9a&g
@@ -924,22 +1152,50 @@ $\n k_EProtoServiceTypeSteamMessages
 : Tried to copy from a message with a different type. to: 
 : Tried to merge from a message with a different type.  to: 
 : exception thrown in JSON library
+: inherit\n
 : one or more FS callback not set
+:':+:1:K:Q:[:c:g:m:y:
+:LBN
+:eaI
 :fff?
+:oc\ve
 ; expected 
 ; last read: '
+;!;#;-;9;E;S;Y;_;q;{;
+;"lY7
 ;22dV::tN\n\n
 ;2dt
+;83\v\nHBJ7
 ;fD4~
+;xsK
+<)<5<C<O<S<[<e<k<q<
+<0\f<pqA1
 <3"-xwfiDKZU
+<4E87
+<ASN1 11>
+<ASN1 13>
+<ASN1 14>
+<ASN1 15>
+<ASN1 29>
+<EMPTY>\n
+<INVALID>
+<NULL>
 <discarded>
+<invalid>
 <parse error>
 <uninitialized>
 <unknown>
+<unsupported>
+=!=-=3=7=?=C=o=s=u=y={=
 ================================================================================================\n
 ==zGdd
+=Uec
 =j&&LZ66lA??~
+=trF6,#
+>#>)>/>3>A>W>c>e>w>
+>\v?\r?7?;?=?A?Y?_?e?g?y?}?
 ?&&jL&&jLaa
+?456789:;<=
 ??0?$basic_ios@DU?$char_traits@D@std@@@std@@IEAA@XZ
 ??0?$basic_iostream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@@Z
 ??0?$basic_istream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@_N@Z
@@ -967,6 +1223,7 @@ $\n k_EProtoServiceTypeSteamMessages
 ??_7facet@locale@std@@6B@
 ??_7ios_base@std@@6B@
 ?Error: CreateBuffer could not generate draw geometry.\n
+?HAI\t81\t9dcG'
 ?_BADOFF@std@@3_JB
 ?_Decref@facet@locale@std@@UEAAPEAV_Facet_base@3@XZ
 ?_Execute_once@std@@YAHAEAUonce_flag@1@P6AHPEAX1PEAPEAX@Z1@Z
@@ -1004,6 +1261,7 @@ $\n k_EProtoServiceTypeSteamMessages
 ?imbue@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAXAEBVlocale@2@@Z
 ?in@?$codecvt@DDU_Mbstatet@@@std@@QEBAHAEAU_Mbstatet@@PEBD1AEAPEBDPEAD3AEAPEAD@Z
 ?in@?$codecvt@_WDU_Mbstatet@@@std@@QEBAHAEAU_Mbstatet@@PEBD1AEAPEBDPEA_W3AEAPEA_W@Z
+?jOb
 ?option requires an argument -- %c
 ?out@?$codecvt@DDU_Mbstatet@@@std@@QEBAHAEAU_Mbstatet@@PEBD1AEAPEBDPEAD3AEAPEAD@Z
 ?out@?$codecvt@_WDU_Mbstatet@@@std@@QEBAHAEAU_Mbstatet@@PEB_W1AEAPEB_WPEAD3AEAPEAD@Z
@@ -1030,19 +1288,69 @@ $\n k_EProtoServiceTypeSteamMessages
 ?write@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@PEBD_J@Z
 ?xsgetn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JPEAD_J@Z
 ?xsputn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JPEBD_J@Z
+@!@%@+@1@?@C@E@]@a@g@m@
+@0pp
 @fff>fff>fff>fff>
 @jAjB
+@n2w
 @option requires an argument -- %c
 A file with this name is already in the pool.
 A protocol message was rejected because it was too big (more than 
 A recoverable error happened to SVLAudioWSAPI.  This will happen until there is a sound source available.\n
 A valid JSON document must be either an array or an object value.
+A!A3A5A;A?AYAeAkAwA{A
 A"QT
+A2VPD
+A:3,]VOHyrkd
+AA Compromise
+AACompromise
 ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/
 ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789-_
+ACCESS_DESCRIPTION
 ACTIVE
+AD Time Stamping
+ADMISSIONS
+ADMISSION_SYNTAX
 ADVAPI32.dll
+AD_DVCS
+AES-128-CBC
+AES-128-CBC-HMAC-SHA1
+AES-128-CBC-HMAC-SHA256
+AES-128-CFB
+AES-128-CFB1
+AES-128-CFB8
+AES-128-CTR
+AES-128-ECB
+AES-128-OCB
+AES-128-OFB
+AES-128-XTS
+AES-192-CBC
+AES-192-CBC-HMAC-SHA1
+AES-192-CBC-HMAC-SHA256
+AES-192-CFB
+AES-192-CFB1
+AES-192-CFB8
+AES-192-CTR
+AES-192-ECB
+AES-192-OCB
+AES-192-OFB
+AES-256-CBC
+AES-256-CBC-HMAC-SHA1
+AES-256-CBC-HMAC-SHA256
+AES-256-CFB
+AES-256-CFB1
+AES-256-CFB8
+AES-256-CTR
+AES-256-ECB
+AES-256-OCB
+AES-256-OFB
+AES-256-XTS
 AES0
+AES128
+AES192
+AES256
+AI\tHpH8x
+AJsN
 AMF AMFVideoEncoder_HEVC capabilities query failed [ %s ]\n
 AMF AMFVideoEncoder_HEVC input capabilities query failed [ %s ]\n
 AMF AMFVideoEncoder_HEVC reports max bitrate %llu\n
@@ -1086,8 +1394,113 @@ AMF: AMF_VIDEO_ENCODER_HEVC_CAP_MAX_LEVEL reports %d\n
 AMF: AMF_VIDEO_ENCODER_HEVC_CAP_MAX_TIER reports %d\n
 AMFInit
 AMFQueryVersion
+ANSI X9.62
+ANY PRIVATE KEY
+AP"\nsQJ
 APing
+ARIA-128-CBC
+ARIA-128-CCM
+ARIA-128-CFB
+ARIA-128-CFB1
+ARIA-128-CFB8
+ARIA-128-CTR
+ARIA-128-ECB
+ARIA-128-GCM
+ARIA-128-OFB
+ARIA-192-CBC
+ARIA-192-CCM
+ARIA-192-CFB
+ARIA-192-CFB1
+ARIA-192-CFB8
+ARIA-192-CTR
+ARIA-192-ECB
+ARIA-192-GCM
+ARIA-192-OFB
+ARIA-256-CBC
+ARIA-256-CCM
+ARIA-256-CFB
+ARIA-256-CFB1
+ARIA-256-CFB8
+ARIA-256-CTR
+ARIA-256-ECB
+ARIA-256-GCM
+ARIA-256-OFB
+ARIA128
+ARIA192
+ARIA256
+ASCII
+ASIdOrRange
+ASIdentifierChoice
+ASIdentifierChoice_canonize
+ASIdentifierChoice_is_canonical
+ASIdentifiers
+ASN1 OID: %s
+ASN1 lib
+ASN1_ANY
+ASN1_BIT_STRING
+ASN1_BIT_STRING_set_bit
+ASN1_BMPSTRING
+ASN1_BOOLEAN
+ASN1_ENUMERATED
+ASN1_FBOOLEAN
+ASN1_GENERALIZEDTIME
+ASN1_GENERALIZEDTIME_adj
+ASN1_GENERALSTRING
+ASN1_IA5STRING
+ASN1_INTEGER
+ASN1_NULL
+ASN1_OBJECT
+ASN1_OBJECT_new
+ASN1_OCTET_STRING
+ASN1_OCTET_STRING_NDEF
+ASN1_PCTX_new
+ASN1_PRINTABLE
+ASN1_PRINTABLESTRING
+ASN1_SCTX_new
+ASN1_SEQUENCE
+ASN1_SEQUENCE_ANY
+ASN1_SET_ANY
+ASN1_STRING_TABLE_add
+ASN1_STRING_set
+ASN1_STRING_type_new
+ASN1_T61STRING
+ASN1_TBOOLEAN
+ASN1_TIME
+ASN1_TIME_adj
+ASN1_TYPE_get_int_octetstring
+ASN1_TYPE_get_octetstring
+ASN1_UNIVERSALSTRING
+ASN1_UTCTIME
+ASN1_UTCTIME_adj
+ASN1_UTF8STRING
+ASN1_VISIBLESTRING
+ASN1_d2i_fp
+ASN1_digest
+ASN1_dup
+ASN1_generate_v3
+ASN1_get_object
+ASN1_i2d_bio
+ASN1_i2d_fp
+ASN1_item_d2i_fp
+ASN1_item_dup
+ASN1_item_ex_i2d
+ASN1_item_i2d_bio
+ASN1_item_i2d_fp
+ASN1_item_pack
+ASN1_item_sign
+ASN1_item_sign_ctx
+ASN1_item_unpack
+ASN1_item_verify
+ASN1_mbstring_ncopy
+ASN1_sign
+ASN1_verify
+ASRange
 ASSERT: "%s" at %s:%d.\n
+ASYNC routines
+ASYNC_WAIT_CTX_set_wait_fd
+ASYNC_init_thread
+ASYNC_pause_job
+ASYNC_start_job
 AUDCLNT_BUFFERFLAGS_DATA_DISCONTINUITY\n
 AUDCLNT_E_OUT_OF_ORDER\n
 AUDIO FAILURE ON m_pAudioClient->GetBufferSize HR Returned: %d\n
@@ -1100,6 +1513,10 @@ AUDIO MIC FAILURE ON m_pAudioClient->Start HR Returned: %d\n
 AUDIO MIC FAULURE on m_pAudioClient->Initialize HR Returned: %d\n
 AUDIO: 
 AUDIO: %s
+AUTHORITY_INFO_ACCESS
+AUTHORITY_KEYID
+AcG\nt
+Acceptable OCSP Responses
 Accessor
 AcquireSRWLockExclusive
 AcquireSRWLockShared
@@ -1116,12 +1533,18 @@ AddMessage
 AddString
 AddUInt32
 AddUInt64
+Adds a directory from which ENGINEs can be loaded
 Adjust relative FOV
 Adobe
+Affiliation Changed
+Ag*g*
 AlexEkd JingThom
 All VTEs Invalidated.
 Already saw decimal point or exponent; can't have another one.
 AnimationChannel
+Any Extended Key Usage
+Any Purpose
+Any language
 Array length of `baseColorFactor` parameter in pbrMetallicRoughness must be 4, but got 
 Array length of `emissiveFactor` parameter in material must be 3, but got 
 Array length of `emissiveFactor` parameter in material must be 3, but got 4\n
@@ -1151,6 +1574,16 @@ AudioDeviceChangeNotice (noting refresh): %d, device = %s\n
 AudioThread Error in CoInitializeEx, hr = 0x%08x\n
 AudioThread finished\n
 AudioThread started\n
+AuthANY
+AuthDSS
+AuthECDSA
+AuthGOST01
+AuthGOST12
+AuthNULL
+AuthPSK
+AuthRSA
+AuthSRP
+Authority Information Access
 Auto
 Autodetected %s
 Autodetected Headset, using Oculus Quest 3 profile
@@ -1158,25 +1591,147 @@ Autodetected Headset, using Oculus Quest Pro profile
 Autodetected Headset, using Pico 4x profile
 Autodetected Headset, using Pico/HTC Eye tracking profile
 Autodetected Oculus Quest 2
+Autonomous System Numbers
 AvRevertMmThreadCharacteristics
 AvRevertMmThreadCharacteristics failed: last error is %d\n
 AvSetMmThreadCharacteristics failed: last error = %u
 AvSetMmThreadCharacteristicsA
 A~Se
+B#B)B/BCBSBUB[BaBsB}B
+B*k@5
+B-163
+B-233
+B-283
+B-409
+B-571
+B2pr
+B64_write_ASN1
 B7=fo
+BASIC_CONSTRAINTS
+BC (default)
+BCryptGenRandom
+BF-CBC
+BF-CFB
+BF-ECB
+BF-OFB
+BFUa.X
+BIGNUM
 BIN Chunk data length exceeds the GLB size.
 BIN Chunk end is not aligned to a 4-byte boundary.
 BIN Chunk end is not aligned to a 4-byte boundary.\n
+BIO lib
+BIO routines
+BIO_ACCEPT_new
+BIO_ADDR_new
+BIO_CONNECT_new
+BIO_accept
+BIO_accept_ex
+BIO_bind
+BIO_callback_ctrl
+BIO_connect
+BIO_ctrl
+BIO_get_host_ip
+BIO_get_new_index
+BIO_get_port
+BIO_gets
+BIO_listen
+BIO_lookup
+BIO_lookup_ex
+BIO_meth_new
+BIO_new
+BIO_new_NDEF
+BIO_new_dgram_sctp
+BIO_new_file
+BIO_new_mem_buf
+BIO_nread
+BIO_nread0
+BIO_nwrite
+BIO_nwrite0
+BIO_parse_hostserv
+BIO_puts
+BIO_read
+BIO_read_ex
+BIO_sock_info
+BIO_sock_init
+BIO_socket
+BIO_socket_nbio
+BIO_write
+BIO_write_ex
+BIT STRING
+BITLIST
+BITSTR
+BITSTRING
+BITWRAP
+BLAKE2b512
+BLAKE2s256
 BMP RLE
+BMPSTRING
+BN lib
+BN_BLINDING_convert_ex
+BN_BLINDING_create_param
+BN_BLINDING_invert_ex
+BN_BLINDING_new
+BN_BLINDING_update
+BN_CTX_get
+BN_CTX_new
+BN_CTX_start
+BN_GENCB_new
+BN_GF2m_mod
+BN_GF2m_mod_exp
+BN_GF2m_mod_mul
+BN_GF2m_mod_solve_quad
+BN_GF2m_mod_solve_quad_arr
+BN_GF2m_mod_sqr
+BN_GF2m_mod_sqrt
+BN_MONT_CTX_new
+BN_POOL_get
+BN_RECP_CTX_new
+BN_STACK_push
+BN_bn2dec
+BN_bn2hex
+BN_div
+BN_div_recp
+BN_exp
+BN_generate_dsa_nonce
+BN_generate_prime_ex
+BN_lshift
+BN_mod_exp2_mont
+BN_mod_exp_mont
+BN_mod_exp_mont_consttime
+BN_mod_exp_mont_word
+BN_mod_exp_recp
+BN_mod_exp_simple
+BN_mod_inverse
+BN_mod_inverse_no_branch
+BN_mod_lshift_quick
+BN_mod_sqrt
+BN_mpi2bn
+BN_new
+BN_rand
+BN_rand_range
+BN_rshift
+BN_to_felem
+BN_usub
+BOOL
+BOOLEAN
+BUF lib
+BUF_MEM_grow
+BUF_MEM_grow_clean
+BUF_MEM_new
 BWQP
 BackUp() can only be called after a successful Next().
 Bad escape sequence in string
 Bad link event: d=%0.01f ms %0.01f mbit/s -> %0.01f mbit/s, ping %0.01f ms, holdoff %d, auto %d\n
+Bad time value
 Bad unicode escape sequence in string: four digits expected.
 Bad unicode escape sequence in string: hexadecimal digit expected.
 Bandwidth Selected: %f; Ratio above 60ms: %f\n
+Basic OCSP Response
+Basis Type: %s\n
+Bh;+j
 BinW
 Binding UDP socket to %s\n
+Biometric Info
 BitBlt
 Bookend
 Boolean default must be true or false.
@@ -1185,19 +1740,69 @@ Broadcast Reply
 Buffer
 BufferView
 Byte size calculation and serialization were inconsistent.  This may indicate a bug in protocol buffers or it may be caused by concurrent modification of the message.
+C q'O
+C%C'C3C7C9COCWCiC
+C3ps
 C77nYmm
 C://temp//firstframes_
+C:\Program Files\Common Files\SSL
+C:\Program Files\OpenSSL\lib\engines-1_1
 C:\temp
 C:\temp\eventlog.txt
 C:\temp\firstframeslog.txt
 C:\temp\recentlog_
 C:\temp\vrlink_verboselog.json
 C@gw
+CA Compromise
+CA Issuers
+CA Repository
+CACompromise
+CAMELLIA-128-CBC
+CAMELLIA-128-CCM
+CAMELLIA-128-CFB
+CAMELLIA-128-CFB1
+CAMELLIA-128-CFB8
+CAMELLIA-128-CMAC
+CAMELLIA-128-CTR
+CAMELLIA-128-ECB
+CAMELLIA-128-GCM
+CAMELLIA-128-OFB
+CAMELLIA-192-CBC
+CAMELLIA-192-CCM
+CAMELLIA-192-CFB
+CAMELLIA-192-CFB1
+CAMELLIA-192-CFB8
+CAMELLIA-192-CMAC
+CAMELLIA-192-CTR
+CAMELLIA-192-ECB
+CAMELLIA-192-GCM
+CAMELLIA-192-OFB
+CAMELLIA-256-CBC
+CAMELLIA-256-CCM
+CAMELLIA-256-CFB
+CAMELLIA-256-CFB1
+CAMELLIA-256-CFB8
+CAMELLIA-256-CMAC
+CAMELLIA-256-CTR
+CAMELLIA-256-ECB
+CAMELLIA-256-GCM
+CAMELLIA-256-OFB
+CAMELLIA128
+CAMELLIA192
+CAMELLIA256
+CAST5-CBC
+CAST5-CFB
+CAST5-ECB
+CAST5-OFB
 CAnimResource
 CAudioEndpointVolumeCallback::CAudioEndpointVolumeCallback
 CAudioEndpointVolumeCallback::Register
 CAudioJitterBuffer init: %d,%d,%d,%d,%d,%d,%d,%d,%d,%d,%d,%d,%d\n
+CBIGNUM
 CBoneMaskResource
+CERTIFICATE
+CERTIFICATE REQUEST
+CERTIFICATEPOLICIES
 CHECK failed: !coded_out.HadError(): 
 CHECK failed: !out.HadError(): 
 CHECK failed: (&from) != (this): 
@@ -1243,8 +1848,98 @@ CHECK failed: result != NULL:
 CHECK failed: trees: 
 CHECK failed: uninterpreted_options_field != NULL: 
 CHECK failed: value.size() <= kint32max: 
+CIPHERS
 CKeyframedDataResource
+CMAC
+CMAC_CTX_new
+CMC Certificate Authority
+CMC Registration Authority
 CMMNotificationClient::Register
+CMS routines
+CMS_ATTRIBUTES
+CMS_Attributes_Sign
+CMS_Attributes_Verify
+CMS_AuthenticatedData
+CMS_CertificateChoices
+CMS_CompressedData
+CMS_ContentInfo
+CMS_DigestedData
+CMS_EncapsulatedContentInfo
+CMS_EncryptedContentInfo
+CMS_EncryptedData
+CMS_EncryptedData_decrypt
+CMS_EncryptedData_encrypt
+CMS_EncryptedData_set1_key
+CMS_EnvelopedData
+CMS_EnvelopedData_create
+CMS_IssuerAndSerialNumber
+CMS_KEKIdentifier
+CMS_KEKRecipientInfo
+CMS_KeyAgreeRecipientIdentifier
+CMS_KeyAgreeRecipientInfo
+CMS_KeyTransRecipientInfo
+CMS_OriginatorIdentifierOrKey
+CMS_OriginatorInfo
+CMS_OriginatorPublicKey
+CMS_OtherCertificateFormat
+CMS_OtherKeyAttribute
+CMS_OtherRecipientInfo
+CMS_OtherRevocationInfoFormat
+CMS_PasswordRecipientInfo
+CMS_Receipt
+CMS_ReceiptRequest
+CMS_ReceiptRequest_create0
+CMS_ReceiptsFrom
+CMS_RecipientEncryptedKey
+CMS_RecipientInfo
+CMS_RecipientInfo_decrypt
+CMS_RecipientInfo_encrypt
+CMS_RecipientInfo_kari_get0_alg
+CMS_RecipientInfo_kari_get0_orig_id
+CMS_RecipientInfo_kari_get0_reks
+CMS_RecipientInfo_kari_orig_id_cmp
+CMS_RecipientInfo_kekri_get0_id
+CMS_RecipientInfo_kekri_id_cmp
+CMS_RecipientInfo_ktri_cert_cmp
+CMS_RecipientInfo_ktri_get0_algs
+CMS_RecipientInfo_ktri_get0_signer_id
+CMS_RecipientInfo_set0_key
+CMS_RecipientInfo_set0_password
+CMS_RecipientInfo_set0_pkey
+CMS_RecipientKeyIdentifier
+CMS_RevocationInfoChoice
+CMS_SharedInfo
+CMS_SignedData
+CMS_SignerIdentifier
+CMS_SignerInfo
+CMS_SignerInfo_sign
+CMS_SignerInfo_verify
+CMS_SignerInfo_verify_content
+CMS_add0_cert
+CMS_add0_recipient_key
+CMS_add0_recipient_password
+CMS_add1_ReceiptRequest
+CMS_add1_recipient_cert
+CMS_add1_signer
+CMS_compress
+CMS_data
+CMS_dataFinal
+CMS_dataInit
+CMS_decrypt
+CMS_decrypt_set1_key
+CMS_decrypt_set1_password
+CMS_decrypt_set1_pkey
+CMS_digest_verify
+CMS_encrypt
+CMS_final
+CMS_get0_content
+CMS_set_detached
+CMS_si_check_attributes
+CMS_sign
+CMS_sign_receipt
+CMS_stream
+CMS_uncompress
+CMS_verify
 CN Got Bookend0 %d
 CN Got Bookend1 %d
 CN Got Bookend2 %d
@@ -1261,6 +1956,10 @@ CN Send WaitGetPosesN %d
 CN Unknown 2 %d
 CN Unknown0 %d
 CN Unknown1 %d
+CONF_dump_fp
+CONF_load
+CONF_load_fp
+CONF_parse_list
 CORD
 CPPTYPE_BOOL
 CPPTYPE_DOUBLE
@@ -1292,6 +1991,31 @@ CR Roll Double %d
 CR Roll Norm %d
 CR Roll Skip %d
 CR WaitGetPoses Up %d
+CRL Sign
+CRL signing
+CRLDistributionPoints
+CRLReason
+CRL_DIST_POINTS
+CRLissuer
+CRYPTO_dup_ex_data
+CRYPTO_free_ex_data
+CRYPTO_get_ex_new_index
+CRYPTO_memdup
+CRYPTO_new_ex_data
+CRYPTO_ocb128_copy_ctx
+CRYPTO_ocb128_init
+CRYPTO_set_ex_data
+CSPName
+CT Certificate SCTs
+CT Precertificate Poison
+CT Precertificate SCTs
+CT Precertificate Signer
+CT routines
+CTLOG_STORE_load_file
+CTLOG_STORE_new
+CTLOG_new
+CTLOG_new_from_base64
+CT_POLICY_EVAL_CTX_new
 CType
 CVRAudioDeviceImpl::CVRAudioDeviceImpl
 CVRAudioDeviceImpl::EnumAudioDevices
@@ -1304,6 +2028,9 @@ CVRAudioDeviceImpl::SetDeviceSoundVolumeMute
 CVRAudioDevices::GetDefaultAudioDevice
 CVRAudioDevices::Refresh
 CVRLog::LogDirect
+C\tD\vD
+C\t\nD4
+C\vo9
 Call to NvEncodeAPIGetMaxSupportedVersion failed.\n
 Camera
 Can't 
@@ -1311,6 +2038,12 @@ Can't get here.
 Can't get here: failed to get default value as string
 CancelIPChangeNotify
 Cannot allocate buffer larger than kint32max for 
+Cannot open file
+Certificate Hold
+Certificate Sign
+Cessation Of Operation
+ChaCha20
+ChaCha20-Poly1305
 Change Controller Prediction time.
 Change HMD Prediction in milliseconds.
 Change bandwidth limit.
@@ -1318,6 +2051,7 @@ Change frame phase of when waitgetposes is requested.
 Change target frame deadline.
 Channel: %d\n
 ChaperoneReceiver::SetChaperone (len %d)\n
+Char=
 Classic
 ClearField
 Client HMD type (%d) supports eye tracking, creating input component
@@ -1333,8 +2067,10 @@ CoInitializeEx, hr = 0x%08x\n
 CoTaskMemAlloc
 CoTaskMemFree
 CoUninitialize
+Code Signing
 CodecSet
 CodecSetOVR
+Cofactor: 
 Complete reinit success. Took: %0.1fms
 Completing videonvenc::GetEncodedDataThread
 Completing videonvenc::ManageFramesThread
@@ -1344,6 +2080,8 @@ Connection %s at %f\n
 Connection inactive for %f > %d seconds. Sending quit event.\n
 Connection inactive for %f > %d seconds. Waiting to quit for scene app %s.\n
 Connector GetDeviceIdConnectedTo() failed: hr = 0x%08x\n
+Content-Type: application/ocsp-request\r\nContent-Length: %d\r\n\r\n
+ConvertFiberToThread
 Could not acquire encoded data buffer from codec for frame: %i\n
 Could not create OpenGL Context/Window + Debug Window\n
 Could not create an instance of 
@@ -1379,6 +2117,7 @@ CreateThread for playback failed: last error is %u\n
 CreateWindowExA
 Creating canvas"%s"\n
 Creating playback mirror thread for device %s\n
+CrlID
 CryptAcquireContextA
 CryptDecrypt
 CryptDestroyKey
@@ -1389,29 +2128,135 @@ CryptImportKey
 CryptReleaseContext
 CryptSetKeyParam
 CryptSetKeyParam Failed to set cypher (%08x)
+Ctrl/Provision WAP Termination
+Ctrl/provision WAP Access
 CtrlCClk
 CtrlFClk
 CtrlHClk
 Current Driver Version does not support this NvEncodeAPI version, please upgrade driver\n
+D#D)D;D?DEDKDQDSDYDeDoD
 D3D11CreateDevice
 D3DCOMPILER_47.dll
 D3DCompile2
 D3DCompileFromFile
 D3DKMTEnumAdapters2
 D3DKMTQueryAdapterInfo
+D4tp
 D7q/;M
 D:E^F
+D@D/lcO+hcK
+DAE!
+DAL\fL@
+DBF-
 DD.9
 DDec
 DEBUG
 DEBUGGER FAST RESET STREAM\n
 DEBUGGER FULL RESET STREAM\n
 DEBUGGER RESET STREAM\n
+DEK-Info:
+DES-CBC
+DES-CDMF
+DES-CFB
+DES-CFB1
+DES-CFB8
+DES-ECB
+DES-EDE
+DES-EDE-CBC
+DES-EDE-CFB
+DES-EDE-ECB
+DES-EDE-OFB
+DES-EDE3
+DES-EDE3-CBC
+DES-EDE3-CFB
+DES-EDE3-CFB1
+DES-EDE3-CFB8
+DES-EDE3-ECB
+DES-EDE3-OFB
+DES-OFB
+DES3
+DESX
+DESX-CBC
 DEnc
+DH PARAMETERS
+DH Parameters
+DH Private-Key
+DH Public-Key
+DH lib
+DH_check_ex
+DH_check_params_ex
+DH_check_pub_key_ex
+DH_meth_dup
+DH_meth_new
+DH_meth_set1_name
+DH_new_by_nid
+DH_new_method
+DHparams
+DHparams_print_fp
+DIGESTS
+DIRECTORYSTRING
+DIR_ADD
+DIR_LOAD
 DISABLED
+DISPLAYTEXT
+DIST_POINT
+DIST_POINT_NAME
+DNS:
 DPing
+DSA lib
+DSA-Parameters
+DSA-SHA
+DSA-SHA1
+DSA-SHA1-old
+DSA-old
+DSA_SIG
+DSA_SIG_new
+DSA_do_sign
+DSA_do_verify
+DSA_meth_dup
+DSA_meth_new
+DSA_meth_set1_name
+DSA_new_method
+DSA_print_fp
+DSA_sign
+DSA_sign_setup
+DSAparams_print
+DSAparams_print_fp
+DSO failure
+DSO support routines
+DSO_bind_func
+DSO_convert_filename
+DSO_ctrl
+DSO_free
+DSO_get_filename
+DSO_global_lookup
+DSO_load
+DSO_merge
+DSO_new_method
+DSO_pathbyaddr
+DSO_set_filename
+DSO_up_ref
+DSTU 4145-2002 big endian
+DSTU 4145-2002 little endian
+DSTU Gost 28147-2009
+DSTU Gost 28147-2009 CFB mode
+DSTU Gost 28147-2009 OFB mode
+DSTU Gost 28147-2009 key wrap
+DSTU Gost 34311-95
+DSTU curve 0
+DSTU curve 1
+DSTU curve 2
+DSTU curve 3
+DSTU curve 4
+DSTU curve 5
+DSTU curve 6
+DSTU curve 7
+DSTU curve 8
+DSTU curve 9
 DSend
+DVCS
 Dashboard tutorial dismissed\n
+Data Encipherment
 Data Link Startup with Options: nTimedRetryOption = %d, nQoSOption = %d
 DataLinkUDP: Could not poll addresses\n
 DataLinkUber: Error waiting for single object %d\n
@@ -1419,28 +2264,161 @@ DataLinkUber: Scan thread received quit event\n
 DataLinkUber: could not create event listener for network changes Error = %d\n
 DataLinkUber:ScanForLinkChanges Done
 Datalink failed with %d\n
+DcO/lcK+hSK
 DeadL %4.1fms
 Debug
+Decipher Only
 DefWindowProcA
 Default automatic encoded video size: %i
 Default value for an enum field must be an identifier.
 DeleteCriticalSection
+DeleteFiber
 DeleteFileW
 DeleteObject
+DeregisterEventSource
 Description
 DescriptorProto
 DescriptorProtosH
 Detail
 Detected %d playback and %d record devices\n
 DeviceType %s\n
+Diffie-Hellman based MAC
+Diffie-Hellman routines
+Digital Signature
+DirName
+DirName:
+Directory
 DisableThreadLibraryCalls
 Disconnected VRLink Headset
 DispatchMessageA
+Domain
 Dump Frame Log to C:\temp\recentlog.tsv
 Dump Hist
 Duplicate key: '
+Dynamic engine loading support
+E+E1EAEIESEUEaEwE}E
 E+pqrstuvwxyz{|}~
+E,v\nX
+E-mail Protection
 E1;a
+E1t$
+E5\v\n6
+E5tq
+E>70aZSL}voh
+EC lib
+ECDH routines
+ECDH_compute_key
+ECDSA lib
+ECDSA routines
+ECDSA-Parameters
+ECDSA_SIG
+ECDSA_SIG_new
+ECDSA_do_sign_ex
+ECDSA_do_verify
+ECDSA_sign_ex
+ECDSA_sign_setup
+ECDSA_verify
+ECPARAMETERS
+ECPKPARAMETERS
+ECPKParameters_print
+ECPKParameters_print_fp
+ECParameters_print
+ECParameters_print_fp
+EC_GROUP_check
+EC_GROUP_check_discriminant
+EC_GROUP_copy
+EC_GROUP_get_curve
+EC_GROUP_get_curve_GF2m
+EC_GROUP_get_curve_GFp
+EC_GROUP_get_degree
+EC_GROUP_get_ecparameters
+EC_GROUP_get_ecpkparameters
+EC_GROUP_get_pentanomial_basis
+EC_GROUP_get_trinomial_basis
+EC_GROUP_new
+EC_GROUP_new_by_curve_name
+EC_GROUP_new_from_ecparameters
+EC_GROUP_new_from_ecpkparameters
+EC_GROUP_set_curve
+EC_GROUP_set_curve_GF2m
+EC_GROUP_set_curve_GFp
+EC_GROUP_set_generator
+EC_GROUP_set_seed
+EC_KEY_check_key
+EC_KEY_copy
+EC_KEY_generate_key
+EC_KEY_new
+EC_KEY_new_method
+EC_KEY_oct2priv
+EC_KEY_print
+EC_KEY_print_fp
+EC_KEY_priv2buf
+EC_KEY_priv2oct
+EC_KEY_set_public_key_affine_coordinates
+EC_POINT_add
+EC_POINT_bn2point
+EC_POINT_cmp
+EC_POINT_copy
+EC_POINT_dbl
+EC_POINT_get_Jprojective_coordinates_GFp
+EC_POINT_get_affine_coordinates
+EC_POINT_get_affine_coordinates_GF2m
+EC_POINT_get_affine_coordinates_GFp
+EC_POINT_invert
+EC_POINT_is_at_infinity
+EC_POINT_is_on_curve
+EC_POINT_make_affine
+EC_POINT_new
+EC_POINT_oct2point
+EC_POINT_point2buf
+EC_POINT_point2oct
+EC_POINT_set_Jprojective_coordinates_GFp
+EC_POINT_set_affine_coordinates
+EC_POINT_set_affine_coordinates_GF2m
+EC_POINT_set_affine_coordinates_GFp
+EC_POINT_set_compressed_coordinates
+EC_POINT_set_compressed_coordinates_GF2m
+EC_POINT_set_compressed_coordinates_GFp
+EC_POINT_set_to_infinity
+EC_POINTs_make_affine
+EC_POINTs_mul
+EC_PRIVATEKEY
+ED25519
+ED448
+EDIPARTYNAME
+EE\fl~5
+EMPTY
+ENCRYPTED
+ENCRYPTED PRIVATE KEY
+ENGINE lib
+ENGINE_add
+ENGINE_by_id
+ENGINE_cmd_is_executable
+ENGINE_ctrl
+ENGINE_ctrl_cmd
+ENGINE_ctrl_cmd_string
+ENGINE_finish
+ENGINE_get_cipher
+ENGINE_get_digest
+ENGINE_get_first
+ENGINE_get_last
+ENGINE_get_next
+ENGINE_get_pkey_asn1_meth
+ENGINE_get_pkey_meth
+ENGINE_get_prev
+ENGINE_init
+ENGINE_load_private_key
+ENGINE_load_public_key
+ENGINE_load_ssl_client_cert
+ENGINE_new
+ENGINE_pkey_asn1_find_str
+ENGINE_remove
+ENGINE_set_default_string
+ENGINE_set_id
+ENGINE_set_name
+ENGINE_up_ref
+ENUM
+ENUMERATED
 EProtoExecutionSite
 EProtoServiceType
 ERROR
@@ -1459,12 +2437,95 @@ ERROR: While trying to request retransmission of packet #%d, too many packets we
 ERROR: failed to create/reset encoder in videoamfenc::SubmitFrame()\n
 ERROR: frame metadata index mismatch\n
 ERROR: svl protocol version mismatch. Server expects %d, client is %d
+ETLL
+EVP lib
+EVP_CIPHER_CTX_copy
+EVP_CIPHER_CTX_ctrl
+EVP_CIPHER_CTX_set_key_length
+EVP_CIPHER_asn1_to_param
+EVP_CIPHER_param_to_asn1
+EVP_CipherInit_ex
+EVP_DecryptFinal_ex
+EVP_DecryptUpdate
+EVP_DigestFinalXOF
+EVP_DigestInit_ex
+EVP_EncryptFinal_ex
+EVP_EncryptUpdate
+EVP_MD_CTX_copy_ex
+EVP_MD_size
+EVP_OpenInit
+EVP_PBE_CipherInit
+EVP_PBE_alg_add
+EVP_PBE_alg_add_type
+EVP_PBE_scrypt
+EVP_PKCS82PKEY
+EVP_PKEY2PKCS8
+EVP_PKEY_CTX_ctrl
+EVP_PKEY_CTX_ctrl_str
+EVP_PKEY_CTX_dup
+EVP_PKEY_CTX_md
+EVP_PKEY_asn1_add0
+EVP_PKEY_check
+EVP_PKEY_copy_parameters
+EVP_PKEY_decrypt
+EVP_PKEY_decrypt_init
+EVP_PKEY_decrypt_old
+EVP_PKEY_derive
+EVP_PKEY_derive_init
+EVP_PKEY_derive_set_peer
+EVP_PKEY_encrypt
+EVP_PKEY_encrypt_init
+EVP_PKEY_encrypt_old
+EVP_PKEY_get0_DH
+EVP_PKEY_get0_DSA
+EVP_PKEY_get0_EC_KEY
+EVP_PKEY_get0_RSA
+EVP_PKEY_get0_hmac
+EVP_PKEY_get0_poly1305
+EVP_PKEY_get0_siphash
+EVP_PKEY_get_raw_private_key
+EVP_PKEY_get_raw_public_key
+EVP_PKEY_keygen
+EVP_PKEY_keygen_init
+EVP_PKEY_meth_add0
+EVP_PKEY_meth_new
+EVP_PKEY_new
+EVP_PKEY_new_CMAC_key
+EVP_PKEY_new_raw_private_key
+EVP_PKEY_new_raw_public_key
+EVP_PKEY_param_check
+EVP_PKEY_paramgen
+EVP_PKEY_paramgen_init
+EVP_PKEY_public_check
+EVP_PKEY_set1_engine
+EVP_PKEY_set_alias_type
+EVP_PKEY_sign
+EVP_PKEY_sign_init
+EVP_PKEY_verify
+EVP_PKEY_verify_init
+EVP_PKEY_verify_recover
+EVP_PKEY_verify_recover_init
+EVP_SignFinal
+EVP_VerifyFinal
+EXPAND_ONLY
+EXPLICIT
+EXTENDED_KEY_USAGE
+EXTERNAL
+EXTRACT_AND_EXPAND
+EXTRACT_ONLY
+E[3M
+E\foD
+E\r\f52
 Early TX Failure Streak Hit %d; Aborting and reconnecting.\n
+Ecrypto\bn\bn_prime.c
+EdiPartyName
+EdiPartyName:<unsupported>
 Empty escape sequence in string
 Empty file.
 EncModeFromString is set to auto. Defaulting to open mode unless overridden.
 EncQueueOverflows
 EncTimeHist
+Encipher Only
 Encryption mechanism failed encryption test.
 Encryption mechanism fialed to decode.
 Encryption mechanism fialed to encode.
@@ -1473,7 +2534,10 @@ Encryption type: %s\n
 End-of-file inside block comment.
 Endpoint Activate(IDeviceTopology) failed: id = %s hr = 0x%08x\n
 Endpoint topology GetConnector(0) failed: hr = 0x%08x\n
+Enter 
+Enter PEM pass phrase:
 EnterCriticalSection
+Enterprises
 Enum type "
 EnumAudioEndpoints failed: hr = 0x%08x\n
 EnumDescriptorProto
@@ -1489,6 +2553,7 @@ Error parsing json %s\n
 Error parsing text-format 
 Error reading %s: Bytes read invalid.\n
 Error while parsing option value for "
+Error writing file
 Error! EventWriteString Severe: %s\n
 Error: %s\n
 Error: Cannot open file %s\n
@@ -1552,6 +2617,7 @@ EventWriteStringThread\n
 EventWriteTransfer
 Exceeded stackLimit in readValue().
 Exception
+Excluded
 Expect a decimal number.
 Expected "
 Expected double.
@@ -1562,7 +2628,13 @@ Expected identifier.
 Expected integer or identifier.
 Expected integer.
 Expected string.
+Expecting: 
+Experimental
+Exponent:
+Extended OCSP Status
+Extension
 Extension "
+Extension Request
 Extension conflicts with extension already in database: extend 
 Extension factory's GetPrototype() returned NULL for extension: 
 Extension number $0 has already been used in "$1" by extension "$2" defined in $3.
@@ -1583,18 +2655,27 @@ Eye Pherphery Q Value
 Eye Trk %s
 Eye and Expressions
 F2`a
+F6tr
 FAILED to Activate DirectX 11 Device.\n
 FAILED: Could not create constant buffer.\n
 FALSE
 FATAL
 FATAL: Failed to open log file %s, failing out!\n
 FAULT: Packet too big!!! Can't send!!! Dropping\n
+FDA~i
 FEC decode fail %d %d %d\n
+FF!w
+FILE pointer
+FIPS routines
+FIPS_mode_set
 FJQ>Wb
+FORM
+FORMAT
 FORMAT=32-bit_rle_rgbe
 FPR: %5.0f%%
 FPR: UNSET
 FS callback[s] not set\n
+FV|FgUV
 F\n\foptimize_for
 Fail this % of packets, incoming on this side.
 Fail to TX this % of packets on this side.
@@ -1624,6 +2705,7 @@ Fatal
 Fatal: Bad server address with -c [server] : %s\n
 Fault, SVLFEC Received ExperiencedAnUnrecoverableError()\n
 Field "
+Field Type: %s\n
 Field does not match message type.
 Field is repeated; the method requires a singular field.
 Field is singular; the method requires a repeated field.
@@ -1633,6 +2715,7 @@ Field numbers cannot be greater than $0.
 Field numbers must be positive integers.
 Field with message or enum type missing type_name.
 Field with primitive type has type_name.
+Field=
 FieldDescriptorProto
 FieldDescriptorProto.extendee not set for extension field.
 FieldDescriptorProto.extendee set for non-extension field.
@@ -1657,6 +2740,9 @@ FileDescriptorProto
 FileDescriptorSet
 Files that do not use optimize_for = LITE_RUNTIME cannot import files which do use this option.  This file is not lite, but it imports "
 Files with optimize_for = LITE_RUNTIME cannot define services unless you set both options cc_generic_services and java_generic_sevices to false.
+FindClose
+FindFirstFileW
+FindNextFileW
 Finished encoder reinit (%d). Took: %0.3fms\n
 First argument to Swap() (of type "
 First argument to SwapFields() (of type "
@@ -1667,16 +2753,64 @@ Found settings for unknown hmd. Attempting to load.
 Found settings for unknown hmd. Attempting to retrieve serial number for activation.
 FreeLibrary
 Full Reinit
+Function not implemented
 F~Tb
 GAME
 GDI32.dll
+GENERALIZEDTIME
+GENERALSTRING
+GENERAL_NAME
+GENERAL_NAMES
+GENERAL_SUBTREE
+GENSTR
+GENTIME
+GOST 28147-89
+GOST 28147-89 Cryptocom ParamSet
+GOST 28147-89 MAC
+GOST 28147-89 TC26 parameter set
+GOST 34.10-2001 Cryptocom
+GOST 34.10-94 Cryptocom
+GOST R 34.10-2001
+GOST R 34.10-2001 DH
+GOST R 34.10-2012 (256 bit) ParamSet A
+GOST R 34.10-2012 (256 bit) ParamSet B
+GOST R 34.10-2012 (256 bit) ParamSet C
+GOST R 34.10-2012 (256 bit) ParamSet D
+GOST R 34.10-2012 (512 bit) ParamSet A
+GOST R 34.10-2012 (512 bit) ParamSet B
+GOST R 34.10-2012 (512 bit) ParamSet C
+GOST R 34.10-2012 (512 bit) testing parameter set
+GOST R 34.10-2012 with 256 bit modulus
+GOST R 34.10-2012 with 512 bit modulus
+GOST R 34.10-2012 with GOST R 34.11-2012 (256 bit)
+GOST R 34.10-2012 with GOST R 34.11-2012 (512 bit)
+GOST R 34.10-94
+GOST R 34.10-94 DH
+GOST R 34.11-2012 with 256 bit hash
+GOST R 34.11-2012 with 512 bit hash
+GOST R 34.11-94
+GOST R 34.11-94 PRF
+GOST R 34.11-94 with GOST R 34.10-2001
+GOST R 34.11-94 with GOST R 34.10-2001 Cryptocom
+GOST R 34.11-94 with GOST R 34.10-94
+GOST R 34.11-94 with GOST R 34.10-94 Cryptocom
+GOST R 3410-2001 Parameter Set Cryptocom
 GPU supports %dMB per frame\n
 GPU supports %dMB per second\n
 GPU supports 10BIT_ENCODE for video compression\n
+GRAPHICSTRING
+GSc\v3
+GXqN
+GeneralNames
+GeneralString
+Generator (compressed):
+Generator (hybrid):
+Generator (uncompressed):
 GetACP
 GetAdaptersAddresses
 GetBool
 GetClientRect
+GetConsoleMode
 GetCurrentProcess
 GetCurrentProcessId
 GetCurrentThread
@@ -1689,10 +2823,12 @@ GetDefaultAudioEndpoint failed: hr = 0x%08x\n
 GetDouble
 GetEnum
 GetEnvironmentVariableA
+GetEnvironmentVariableW
 GetFileAttributesExW
 GetFileAttributesW
 GetFileSizeEx
 GetFileTime
+GetFileType
 GetFloat
 GetFullPathNameW
 GetInt32
@@ -1706,6 +2842,7 @@ GetModuleFileNameW
 GetModuleHandleA
 GetModuleHandleW
 GetProcAddress
+GetProcessWindowStation
 GetRepeatedBool
 GetRepeatedDouble
 GetRepeatedEnum
@@ -1717,6 +2854,7 @@ GetRepeatedString
 GetRepeatedStringReference
 GetRepeatedUInt32
 GetRepeatedUInt64
+GetStdHandle
 GetString
 GetStringReference
 GetSystemDirectoryW
@@ -1725,21 +2863,48 @@ GetSystemTimeAsFileTime
 GetTickCount64
 GetUInt32
 GetUInt64
+GetUserObjectInformationW
 GetWindowRect
 Getting devnode property store failed: hr = 0x%08x\n
 Getting file size failed : 
 Getting render devnode via IMMDeviceEnumerator::GetDevice("%ls") failed: hr = 0x%08x\n
 Got Debug message from client
 GtH|ITJ8K
+H5gRR-
 H6s<
+H8xp
+H@H9xqI
+HBJ\nTRF
+HKDF
+HMAC
+HMAC DSTU Gost 34311-95
+HMAC GOST 34.11-2012 256 bit
+HMAC GOST 34.11-2012 512 bit
+HMAC GOST 34.11-94
+HMAC routines
+HMAC-MD5
+HMAC-SHA1
+HWyn
+H\fJxE\v
+Ha4\n
 HandAnimEvaluator
 HandleUnrecoverableError( %d )\n
 HasField
+Hash Algorithm: 
 Hex and octal numbers must be integers.
 HistogramC
 HistogramH
 HmdDriverFactory
+Hold Instruction Call Issuer
+Hold Instruction Code
+Hold Instruction None
+Hold Instruction Reject
 HostMacPrefix
+HqI9x
+H{1S
+I9xq
+IA5STRING
+IANA
 IAudioCaptureClient::GetBuffer failed on pass %u: hr = 0x%08x\n
 IAudioCaptureClient::GetBuffer said to read 0 frames on pass %u\n
 IAudioCaptureClient::GetBuffer() failed: hr = 0x%08x\n
@@ -1779,6 +2944,13 @@ IAudioEndpointVolume::SetMute failed: hr = 0x%08x\n
 IAudioRenderClient::GetBuffer(%u) failed: AUDCLNT_E_BUFFER_TOO_LARGE, dropping buffer\n
 IAudioRenderClient::GetBuffer(%u) failed: hr = 0x%08x\n
 IAudioRenderClient::ReleaseBuffer(%u) failed: hr = 0x%08x\n
+IB;4e^WP
+ICC or token signature
+IDEA-CBC
+IDEA-CFB
+IDEA-ECB
+IDEA-OFB
+IEEE Security in Storage Working Group
 IMFMediaBuffer::GetCurrentLength failed: hr = 0x%08x\n
 IMFMediaBuffer::Lock failed: hr = 0x%08x\n
 IMFMediaBuffer::SetCurrentLength failed: hr = 0x%08x\n
@@ -1797,15 +2969,42 @@ IMMDevice::GetId failed: hr = 0x%08x\n
 IMMDevice::GetState failed: hr = 0x%08x\n
 IMMDevice::Item(%u) failed: hr = 0x%08x\n
 IMMDevice::OpenPropertyStore failed: hr = 0x%08x\n
+IMPLICIT
 IN %d
 INFO
+INT32
+INT64
+INTEGER
+INVALID
 INVALID_CPPTYPE
+IP Address
+IP Address:%d.%d.%d.%d
+IP Address:<invalid>
+IPAddrBlocks
+IPAddressChoice
+IPAddressFamily
+IPAddressOrRange
+IPAddressRange
 IPHLPAPI.DLL
+IPSec End System
+IPSec Tunnel
+IPSec User
 IPolicyConfigVista::SetDefaultEndpoint failed: hr = 0x%08x\n
 IPolicyConfigVista::SetDefaultEndpoint failed: hr = E_INVALIDARG\n
 IPolicyConfigVista::SetDefaultEndpoint failed: hr = E_NOTFOUND\n
+IPv4
+IPv4-SAFI
 IPv6
+IPv6-SAFI
+ISO CN Member Body
+ISO Member Body
+ISO US Member Body
+ISO-CN
+ISO-UA
+ISO-US
+ISSUING_DIST_POINT
 IServerTrackedDeviceProvider_004
+ITU-T
 ITrackedDeviceServerDriver_005
 IVRApplicationsInternal_XXX
 IVRApplications_008
@@ -1853,15 +3052,21 @@ IVRSystem_026
 IVRTrackedCameraInternal_XXX
 IVRVirtualDisplay_002
 IVRWatchdogProvider_001
+I\nlQ
+I\tHA\t981G'dc
+Ik\f`dub`D
 Image data is empty for image[
 Image height mismatch. for image[
 Image width mismatch for image[
 Import "
 Increment Byte Scaling.
+Independent
 Index Controller CreateSkeletonComponent failed.  Error: %i\n
 Index out-of-bounds (field is empty).
 Infinity
 Info
+Inherit all
+Inhibit Policy Mapping
 Init state
 Init took: %0.3fms.\n
 InitializeConditionVariable
@@ -1876,6 +3081,7 @@ Insufficient Chunk1(BIN) data size.
 Insufficient storage space for Chunk1(BIN data). At least Chunk1 Must have 8 or more bytes, but got 
 Integer out of range.
 Intel IPSEC AES PERF: %f MByte/s\n
+International Organizations
 Interpreting non ascii codepoint %d.
 Invalid ChromaFormatIDC (NV_ENC_ERR_INVALID_PARAM)\n
 Invalid ChromaFormatIDC(NV_ENC_ERR_INVALID_PARAM)\n
@@ -1911,6 +3117,7 @@ Invalid wire type for CPPTYPE_INT64:
 Invalid wire type for CPPTYPE_MESSAGE: 
 Invalid wire type for CPPTYPE_UINT32: 
 Invalid wire type for CPPTYPE_UINT64: 
+Invalidity Date
 Is Steam running switched to %s
 IsDebuggerPresent
 IsProcessorFeaturePresent
@@ -1921,21 +3128,56 @@ Issues Stream Reset
 Issues complete stream teardown and reinit
 Issues fast stream reset
 J16(p
+J:xrG
 JFIF
+JOINT-ISO-ITU-T
 JSON Chunk end does not aligned to a 4-byte boundary.
 JSON string too short.\n
+J\nHBF
+K-163
+K-233
+K-283
+K-409
+K-571
+K4K 
+K;xs
+KDF routines
 KERNEL32.dll
 KHR_audio
 KHR_lights_punctual
+KISA
+KN>v
+K\rdSC\td?
+Ka\nTw
+Key Agreement
+Key Compromise
+Key Encipherment
 Key setup failure in transport subsystem. RX Status: %d
 Key setup failure in transport subsystem. TX Status: %d
 Khronos Generic (Left Controller)
 Khronos Generic (Right Controller)
+Kr\t=o
 KwZi
+KxANY
+KxDHE
+KxDHE-PSK
+KxECDHE
+KxECDHE-PSK
+KxGOST
+KxPSK
+KxRSA
+KxRSA_PSK
+KxSRP
+L8-\rHO
 LABEL_OPTIONAL
 LABEL_REPEATED
 LABEL_REQUIRED
+LAM\rhaI)|pL<
+LBN6
+LEGACY_GOST_PKCS12
 LINEAR
+LIST_ADD
+LOAD
 LZsYCB
 Label
 LaserMouseHmdAngleDegrees %f\n
@@ -1948,12 +3190,14 @@ Link BW hist: w %f  %s\n
 Link BW: Est %0.01f Mbit/s (auto: %d)\n
 Lj&&lZ66~A??
 Llist<T> too long
+Load up the ENGINE specified by other settings
 LoadCursorA
 LoadIconA
 LoadLibraryA
 LoadLibraryExW
 LocalAlloc
 LocalFree
+LocalKeySet
 LocalizationManager
 Location
 Logic
@@ -1961,6 +3205,7 @@ LwH'
 LwH'LwH'LwH'LwH'
 LwH'LwH'LwH'LwH'LwH'LwH'LwH'LwH'
 LwH'LwH'LwH'LwH'LwH'LwH'LwH'LwH'LwH'LwH'LwH'LwH'LwH'LwH'LwH'LwH'
+M-laO
 M3fU3
 M;;va
 MAJOR WARNING: Something went very wrong with the TX Frame queue\n
@@ -1968,20 +3213,30 @@ MAT2
 MAT3
 MAT4
 MAX %3d mbit
+MBb!\v
+MD5-SHA1
+MDC2
+MF?8ib[T
 MFCreateMediaType
 MFCreateMemoryBuffer
 MFCreateMemoryBuffer(%u) failed: hr = 0x%08x\n
 MFCreateSample
 MFCreateSample failed: hr = 0x%08x\n
+MGF1
 MGiI
 MID0
+MIME MHS
 MMfU33
 MSFT_lod
 MSVCP140.dll
+M\rLAI)haL<|p\t\t
+Mail
 Mailbox %s received message %s, which it didn't have a handler for\n
 MainThrd
+Management
 ManufacturerName %s\n
 MapViewOfFile
+Mask Algorithm: 
 Material has extension MSFT_lod, but does not reference other materials via their ids.\n
 MbP?\f
 Mbp?H
@@ -1991,13 +3246,29 @@ Message extensions cannot have required fields.
 Message missing required fields: 
 Message type "
 MessageBoxA
+MessageBoxW
 MessageOptions
 MessageSets cannot have fields, only extensions.
 Messages can't have default values!
 Messages can't have default values.
 MethodDescriptorProto
 Microsoft Base Cryptographic Provider v1.0
+Microsoft CSP Name
+Microsoft Commercial Code Signing
+Microsoft Encrypted File System
 Microsoft Enhanced RSA and AES Cryptographic Provider
+Microsoft Extension Request
+Microsoft Individual Code Signing
+Microsoft Local Key set
+Microsoft Server Gated Crypto
+Microsoft Smartcard Login
+Microsoft Trust List Signing
+Microsoft User Principal Name
+MinghuaQu
+MinghuaQu)
+MinghuaQuS
+MinghuaQuw
+Minimum
 Mirroring from %s to %ls\n
 Mirroring is same as source %s, not mirroring\n
 Missing ',' or ']' in array declaration
@@ -2007,7 +3278,9 @@ Missing '}' or object member name
 Missing field: FileDescriptorProto.name.
 Missing name.
 Missing required param "path"
+MkL\f
 ModelNumber %s\n
+Modulus:
 MoveFileExW
 MoveWindow
 MultiByteToWideChar
@@ -2015,9 +3288,43 @@ Multiple extension registrations for type "
 MutableRawRepeatedField
 MutableRepeatedMessage
 MyClass
+N.lb
+NAME_CONSTRAINTS
+NAMING_AUTHORITY
+NCONF_dump_bio
+NCONF_dump_fp
+NCONF_get_number_e
+NCONF_get_section
+NCONF_get_string
+NCONF_load
+NCONF_load_bio
+NCONF_load_fp
+NCONF_new
+NETSCAPE_SPKAC
+NETSCAPE_SPKI
+NETSCAPE_SPKI_b64_decode
+NETSCAPE_SPKI_b64_encode
+NEW CERTIFICATE REQUEST
+NIST CURVE: %s\n
+NIST/SECG curve over a 163 bit binary field
+NIST/SECG curve over a 224 bit prime field
+NIST/SECG curve over a 283 bit binary field
+NIST/SECG curve over a 384 bit prime field
+NIST/SECG curve over a 409 bit binary field
+NIST/SECG curve over a 521 bit prime field
+NIST/SECG curve over a 571 bit binary field
+NIST/SECG/WTLS curve over a 163 bit binary field
+NIST/SECG/WTLS curve over a 233 bit binary field
+NIST/X9.62/SECG curve over a 192 bit prime field
 NO SOUND
+NO X509_NAME
+NOTICEREF
 NOTPRESENT
+NO_VCHECK
 NULL
+NULL shared library method
+NUMERIC
+NUMERICSTRING
 NVENC EncodeAPI not found\n
 NVENC Failed to open an encode session\n
 NVENC Is now degated.\n
@@ -2035,7 +3342,6 @@ NV_ENC_CAPS_DYNAMIC_QUERY_ENCODER_CAPACITY
 NV_ENC_CAPS_EXPOSED_COUNT
 NV_ENC_CAPS_HEIGHT_MAX
 NV_ENC_CAPS_HEIGHT_MIN
-NV_ENC_CAPS_LEVEL_MAX
 NV_ENC_CAPS_LEVEL_MIN
 NV_ENC_CAPS_MB_NUM_MAX
 NV_ENC_CAPS_MB_PER_SEC_MAX
@@ -2081,15 +3387,33 @@ NV_ENC_CAPS_SUPPORT_WEIGHTED_PREDICTION
 NV_ENC_CAPS_SUPPORT_YUV444_ENCODE
 NV_ENC_CAPS_WIDTH_MAX
 NV_ENC_CAPS_WIDTH_MIN
+N\r\nyd
 N`O0P@Q
+Name
 NamePart
 Need space between identifier and decimal point.
 Need space between number and identifier.
 Neither required `bufferView` nor `uri` defined for image[
+Netscape
+Netscape Base Url
+Netscape CA Policy Url
+Netscape CA Revocation Url
+Netscape Cert Type
+Netscape Certificate Extension
+Netscape Certificate Sequence
+Netscape Comment
+Netscape Communications Corp.
+Netscape Data Type
+Netscape Renewal Url
+Netscape Revocation Url
+Netscape SSL Server Name
+Netscape SSL server
+Netscape Server Gated Crypto
 New Session detected; Invalidating.\n
 No IPSEC available\n
 No Link
 No LoadImageData callback specified.\n
+No PSS parameter restrictions\n
 No Pair
 No default audio device found to listen to\n
 No default value
@@ -2098,9 +3422,14 @@ No links? Server-as-client Mode?
 Node has extension KHR_audio, but does not reference a audio emitter.\n
 Node has extension KHR_lights_punctual, but does not reference a light source.\n
 Node has extension MSFT_lod, but does not reference other nodes via their ids.\n
+Non Repudiation
 Non-primitive types can't be packed.
 Non-repeated field "
+Nonce
 NormalTextureInfo
+Not After: 
+Not Before: 
+Not a regular file
 Note
 Note that enum values use C++ scoping rules, meaning that enum values are siblings of their type, not children of it.  Therefore, "
 NotifyAddrChange
@@ -2110,13 +3439,111 @@ Numbers starting with leading zero must be in octal.
 NvAPI_EnumPhysicalGPUs() returned %d\n
 NvEncodeAPICreateInstance
 NvEncodeAPIGetMaxSupportedVersion
+Nwh\v
+O/lc\r=<1\r-,!@
 O44h\
+O:t\vg
+OBJ lib
+OBJECT
+OBJECT DESCRIPTOR
+OBJ_NAME_new_index
+OBJ_add_object
+OBJ_add_sigid
+OBJ_create
+OBJ_dup
+OBJ_nid2ln
+OBJ_nid2obj
+OBJ_nid2sn
+OBJ_txt2obj
+OCSP
+OCSP Archive Cutoff
+OCSP CRL ID
+OCSP No Check
+OCSP Nonce
+OCSP Service Locator
+OCSP Signing
+OCSP helper
+OCSP request
+OCSP responder
+OCSP routines
+OCSPSigning
+OCSP_BASICRESP
+OCSP_CERTID
+OCSP_CERTSTATUS
+OCSP_CRLID
+OCSP_ONEREQ
+OCSP_REQINFO
+OCSP_REQUEST
+OCSP_RESPBYTES
+OCSP_RESPDATA
+OCSP_RESPID
+OCSP_RESPONSE
+OCSP_REVOKEDINFO
+OCSP_SERVICELOC
+OCSP_SIGNATURE
+OCSP_SINGLERESP
+OCSP_basic_add1_status
+OCSP_basic_sign
+OCSP_basic_sign_ctx
+OCSP_basic_verify
+OCSP_cert_id_new
+OCSP_check_validity
+OCSP_parse_url
+OCSP_request_sign
+OCSP_request_verify
+OCSP_response_get1_basic
+OCTET STRING
+OCTETSTRING
+OCTWRAP
+OGRN
 OPAQUE
 OPEN
+OPENSSL_CONF
+OPENSSL_ENGINES
+OPENSSL_LH_new
+OPENSSL_asc2uni
+OPENSSL_atexit
+OPENSSL_buf2hexstr
+OPENSSL_finish
+OPENSSL_hexstr2buf
+OPENSSL_init
+OPENSSL_init_crypto
+OPENSSL_sk_deep_copy
+OPENSSL_sk_dup
+OPENSSL_uni2asc
+OPENSSL_uni2utf8
+OPENSSL_utf82uni
 OSCInPort
 OSCOutPort
+OSSL_STORE_INFO_get1_CERT
+OSSL_STORE_INFO_get1_CRL
+OSSL_STORE_INFO_get1_NAME
+OSSL_STORE_INFO_get1_NAME_description
+OSSL_STORE_INFO_get1_PARAMS
+OSSL_STORE_INFO_get1_PKEY
+OSSL_STORE_INFO_new_CERT
+OSSL_STORE_INFO_new_CRL
+OSSL_STORE_INFO_new_NAME
+OSSL_STORE_INFO_new_PARAMS
+OSSL_STORE_INFO_new_PKEY
+OSSL_STORE_INFO_set0_NAME_description
+OSSL_STORE_LOADER_new
+OSSL_STORE_SEARCH_by_alias
+OSSL_STORE_SEARCH_by_issuer_serial
+OSSL_STORE_SEARCH_by_key_fingerprint
+OSSL_STORE_SEARCH_by_name
+OSSL_STORE_expect
+OSSL_STORE_find
+OSSL_STORE_open
+OTHERNAME
 OUT %d
+O\r\nP2
+Oakley-EC2N-3
+Oakley-EC2N-4
 Object
+Object Signer
+Object Signing
+Object Signing CA
 Oculus Quest Pro
 Oculus Quest Pro (Left Controller)
 Oculus Quest Pro (Right Controller)
@@ -2133,23 +3560,99 @@ OnDeviceRemoved: device = %s\n
 OnDeviceStateChanged: DEVICE_STATE_%s (0x%8.8x), device = %s\n
 Oneof must have at least one field.
 OneofDescriptorProto
+Only Some Reasons
 Only one of `bufferView` or `uri` should be defined, but both are defined for image[
 OpenFileMappingA
 OpenSCManagerW
-OpenSSL AES PERF: %f MByte/s\n
+OpenSSL CMAC method
+OpenSSL DH Method
+OpenSSL DSA method
+OpenSSL EC algorithm
+OpenSSL EC_KEY method
+OpenSSL ED25519 algorithm
+OpenSSL ED448 algorithm
+OpenSSL EVP (New) AES PERF: %f MByte/s\n
+OpenSSL HMAC method
+OpenSSL NIST SP 800-90A DRBG
+OpenSSL NULL UI
+OpenSSL PKCS#1 RSA
+OpenSSL PKCS#3 DH method
+OpenSSL POLY1305 method
+OpenSSL RSA method
+OpenSSL RSA-PSS method
+OpenSSL SIPHASH method
+OpenSSL Soft (Old) AES PERF: %f MByte/s\n
+OpenSSL X25519 algorithm
+OpenSSL X448 algorithm
+OpenSSL X9.42 DH method
+OpenSSL default
+OpenSSL default user interface
 OpenServiceW
 Option "
 Option field "
 Option must have a name.
 Option must not use reserved name "uninterpreted_option".
+Order: 
 Orthographic camera description not found.
 OrthographicCamera
 Other Encoder Sessions:
 Out of thread local storage!\n
 OutputDebugStringA
 OutputDebugStringW
+P-192
+P-224
+P-256
+P-384
+P-521
 P00`
+P1\t98"
 P<xD<
+PARAMETERS
+PBE-MD2-DES
+PBE-MD2-RC2-64
+PBE-MD5-DES
+PBE-MD5-RC2-64
+PBE-SHA1-2DES
+PBE-SHA1-3DES
+PBE-SHA1-DES
+PBE-SHA1-RC2-128
+PBE-SHA1-RC2-40
+PBE-SHA1-RC2-64
+PBE-SHA1-RC4-128
+PBE-SHA1-RC4-40
+PBE2PARAM
+PBEPARAM
+PBES2
+PBKDF2
+PBKDF2PARAM
+PBMAC1
+PCGNV_ENC_CAPS_LEVEL_MAX
+PEM lib
+PEM routines
+PEM type is '
+PEM_ASN1_read
+PEM_ASN1_read_bio
+PEM_ASN1_write
+PEM_ASN1_write_bio
+PEM_SignFinal
+PEM_X509_INFO_read
+PEM_X509_INFO_read_bio
+PEM_X509_INFO_write_bio
+PEM_def_callback
+PEM_do_header
+PEM_get_EVP_CIPHER_INFO
+PEM_read
+PEM_read_DHparams
+PEM_read_PrivateKey
+PEM_read_bio
+PEM_read_bio_DHparams
+PEM_read_bio_Parameters
+PEM_read_bio_PrivateKey
+PEM_read_bio_ex
+PEM_write
+PEM_write_PrivateKey
+PEM_write_bio
+PEM_write_bio_PrivateKey_traditional
 PICO 4
 PICO 4 (Left Controller)
 PICO 4 (Right Controller)
@@ -2162,10 +3665,129 @@ PICO Neo 3 (Right Controller)
 PICT
 PID_
 PID_%04X
+PKCS #7 SIGNED DATA
+PKCS12
+PKCS12 import password
+PKCS12 routines
+PKCS12_AUTHSAFES
+PKCS12_BAGS
+PKCS12_MAC_DATA
+PKCS12_PBE_keyivgen
+PKCS12_SAFEBAG
+PKCS12_SAFEBAGS
+PKCS12_SAFEBAG_create0_p8inf
+PKCS12_SAFEBAG_create0_pkcs8
+PKCS12_SAFEBAG_create_pkcs8_encrypt
+PKCS12_create
+PKCS12_gen_mac
+PKCS12_init
+PKCS12_item_decrypt_d2i
+PKCS12_item_i2d_encrypt
+PKCS12_item_pack_safebag
+PKCS12_key_gen_asc
+PKCS12_key_gen_uni
+PKCS12_key_gen_utf8
+PKCS12_newpass
+PKCS12_pack_p7data
+PKCS12_pack_p7encdata
+PKCS12_parse
+PKCS12_pbe_crypt
+PKCS12_set_mac
+PKCS12_setup_mac
+PKCS12_unpack_authsafes
+PKCS12_unpack_p7data
+PKCS12_verify_mac
+PKCS5_PBE_keyivgen
+PKCS5_pbe2_set_iv
+PKCS5_pbe2_set_scrypt
+PKCS5_pbe_set
+PKCS5_pbe_set0_algor
+PKCS5_pbkdf2_set
+PKCS5_v2_PBE_keyivgen
+PKCS5_v2_PBKDF2_keyivgen
+PKCS5_v2_scrypt_keyivgen
+PKCS7
+PKCS7 lib
+PKCS7 routines
+PKCS7_ATTRIBUTES
+PKCS7_ATTR_SIGN
+PKCS7_ATTR_VERIFY
+PKCS7_DIGEST
+PKCS7_ENCRYPT
+PKCS7_ENC_CONTENT
+PKCS7_ENVELOPE
+PKCS7_ISSUER_AND_SERIAL
+PKCS7_RECIP_INFO
+PKCS7_RECIP_INFO_set
+PKCS7_SIGNED
+PKCS7_SIGNER_INFO
+PKCS7_SIGNER_INFO_set
+PKCS7_SIGNER_INFO_sign
+PKCS7_SIGN_ENVELOPE
+PKCS7_add0_attrib_signing_time
+PKCS7_add_attrib_smimecap
+PKCS7_add_certificate
+PKCS7_add_crl
+PKCS7_add_recipient_info
+PKCS7_add_signature
+PKCS7_add_signer
+PKCS7_bio_add_digest
+PKCS7_ctrl
+PKCS7_dataDecode
+PKCS7_dataFinal
+PKCS7_dataInit
+PKCS7_dataVerify
+PKCS7_decrypt
+PKCS7_encrypt
+PKCS7_final
+PKCS7_find_digest
+PKCS7_get0_signers
+PKCS7_set_cipher
+PKCS7_set_content
+PKCS7_set_digest
+PKCS7_set_type
+PKCS7_sign
+PKCS7_sign_add_signer
+PKCS7_signatureVerify
+PKCS7_simple_smimecap
+PKCS7_to_TS_TST_INFO
+PKCS7_verify
+PKCS8 decrypt password
+PKCS8Encrypted
+PKCS8_PRIV_KEY_INFO
+PKCS8_encrypt
+PKCS8_set0_pbe
+PKEY
+PKEY_ASN1
+PKEY_CRYPTO
+PKEY_USAGE_PERIOD
+PKINIT Client Auth
+PKIX
+PK\ry
 PLACEHOLDER_VALUE
 PNG\r\n
+POLICYINFO
+POLICYQUALINFO
+POLICY_CONSTRAINTS
+POLICY_MAPPING
+POLICY_MAPPINGS
+POLY1305
 PPxD<<%
+PRB+
 PRECODE
+PRINTABLE
+PRINTABLESTRING
+PRIVATE KEY
+PRM=|q
+PRNG not seeded
+PROFESSION_INFO
+PROXY_CERT_INFO_EXTENSION
+PROXY_POLICY
+PSC\n
+PSPECIFIED
+PSS parameter restrictions:
+PUBKEY
+PUBLIC KEY
 Pairing to address: %s\n
 Pairing to broadcast address not allowed.\n
 Panic! Overwriting vCompleteFramePointer
@@ -2177,28 +3799,48 @@ PeekMessageA
 Peer Address List
 Perf warning: Getting from SubmitFrame to StartEncode took %0.3fms
 Performing shutdown.\n
+Permanent Identifier
+Permitted
 Perspective camera description not found.
 PerspectiveCamera
 Pico 4
+Pii[2cc
 Ping Packet
+Policy Qualifier CPS
+Policy Qualifier User Notice
+Poly1305
 PolyPolygon
 PolyPolyline
+Polynomial:
 Pong Packet
 Positional emitter description not found.
 PostQuitMessage
 PreC %4.1fms
 PreH %4.1fms
+Prime:
 Primitive
+Private
+Private-Key
+Private-Key: (%d bit, %d primes)\n
+PrivateKey
+Privilege Withdrawn
 Pro Audio
+Proc-Type:
+Professional Information or basis for Admission
 PropVariantClear
 ProtoFloatVec
 Protocol Buffer reflection usage error:\n  Method      : google::protobuf::Reflection::
 Protocol message serialized itself in invalid fashion.
 Protocol message was modified concurrently during serialization.
+Proxy Certificate Information
 Public
+Public-Key
+Public-Key: (%d bit)\n
+Q/xtJ2
 QPeA~S
 QSeA~
 QZ^&QZ^&QZ^&QZ^&QZ^&QZ^&QZ^&QZ^&
+Qjh/T
 Qkkbal
 QoS is Disabled.  Not setting SIO_SET_QOS\n
 QoSEnabled
@@ -2207,15 +3849,112 @@ QueryPerformanceFrequency
 QueryServiceConfigW
 R##Fe
 R;vM;
+RAND
+RAND_DRBG_generate
+RAND_DRBG_instantiate
+RAND_DRBG_new
+RAND_DRBG_reseed
+RAND_DRBG_set
+RAND_DRBG_set_defaults
+RAND_DRBG_uninstantiate
+RAND_bytes
+RAND_load_file
+RAND_pseudo_bytes
+RAND_write_file
+RC2-40-CBC
+RC2-64-CBC
+RC2-CBC
+RC2-CFB
+RC2-ECB
+RC2-OFB
+RC4-40
+RC4-HMAC-MD5
+RC5-CBC
+RC5-CFB
+RC5-ECB
+RC5-OFB
+RDNS
+REAL
+RFC 5639 curve over a 160 bit prime field
+RFC 5639 curve over a 192 bit prime field
+RFC 5639 curve over a 224 bit prime field
+RFC 5639 curve over a 256 bit prime field
+RFC 5639 curve over a 320 bit prime field
+RFC 5639 curve over a 384 bit prime field
+RFC 5639 curve over a 512 bit prime field
+RIPEMD160
 RPCRT4.dll
 RRvM;;
-RSDS\t
+RSA Data Security, Inc.
+RSA Data Security, Inc. PKCS
+RSA lib
+RSA-MD2
+RSA-MD4
+RSA-MD5
+RSA-MDC2
+RSA-NP-MD5
+RSA-PSS
+RSA-RIPEMD160
+RSA-SHA
+RSA-SHA1
+RSA-SHA1-2
+RSA-SHA224
+RSA-SHA256
+RSA-SHA3-224
+RSA-SHA3-256
+RSA-SHA3-384
+RSA-SHA3-512
+RSA-SHA384
+RSA-SHA512
+RSA-SHA512/224
+RSA-SHA512/256
+RSA-SM3
+RSAES-OAEP
+RSAPrivateKey
+RSAPublicKey
+RSASSA-PSS
+RSA_OAEP_PARAMS
+RSA_PRIME_INFO
+RSA_PSS_PARAMS
+RSA_check_key
+RSA_check_key_ex
+RSA_meth_dup
+RSA_meth_new
+RSA_meth_set1_name
+RSA_new_method
+RSA_padding_add_PKCS1_OAEP
+RSA_padding_add_PKCS1_OAEP_mgf1
+RSA_padding_add_PKCS1_PSS
+RSA_padding_add_PKCS1_PSS_mgf1
+RSA_padding_add_PKCS1_type_1
+RSA_padding_add_PKCS1_type_2
+RSA_padding_add_SSLv23
+RSA_padding_add_X931
+RSA_padding_add_none
+RSA_padding_check_PKCS1_OAEP
+RSA_padding_check_PKCS1_OAEP_mgf1
+RSA_padding_check_PKCS1_type_1
+RSA_padding_check_PKCS1_type_2
+RSA_padding_check_SSLv23
+RSA_padding_check_X931
+RSA_padding_check_none
+RSA_print
+RSA_print_fp
+RSA_setup_blinding
+RSA_sign
+RSA_sign_ASN1_OCTET_STRING
+RSA_verify
+RSA_verify_ASN1_OCTET_STRING
+RSA_verify_PKCS1_PSS_mgf1
+RSDS4@
 RX Fail:%d
-R\vpH
-R\vpd
 RaiseException
+Rbg.E
 Reached an unintended state: CPPTYPE_MESSAGE
+ReadConsoleA
+ReadConsoleW
 Reading dangerously large protocol message.  If the message turns out to be larger than 
+Reasons
 Received GPU Architecture %d\n
 Received frame outside of backtrack window.  Resetting.\n
 Received mirror reset event after %u passes, %llu samples\n
@@ -2229,6 +3968,9 @@ RegEnumValueW
 RegOpenKeyExW
 RegQueryValueExW
 RegisterClassA
+RegisterEventSourceW
+Registered ID
+Registered ID:
 Release
 ReleaseLast
 ReleaseMessage
@@ -2236,11 +3978,14 @@ ReleaseSRWLockExclusive
 ReleaseSRWLockShared
 Reliable
 Reliable Reply
+Remove From CRL
 RemoveLast
 RenderModelName %s\n
 Repeated fields can't have default values.
+ReportEventW
 ReqEncMode
 Requesting dashboard tutorial\n
+Require Explicit Policy
 Reserved1
 Reserved2
 Reserved3
@@ -2257,19 +4002,40 @@ Retransmit Request
 Retry
 RootNode
 RouterMacPrefix
+Routing Domain Identifiers
 RtlCaptureContext
 RtlGetNtVersionNumbers
 RtlLookupFunctionEntry
 RtlVirtualUnwind
+S#FI
 S-1-15-2-2765576060-2389096713-3079022642-4099546867-1445191215-3071396046-3987166893
 S-1-15-3-1024-2302894289-466761758-1166120688-1039016420-2430351297-4240214049-4028510897-3317428798
 S-1-15-3-1024-3424233489-972189580-2057154623-747635277-1604371224-316187997-3786583170-1043257646
+S/MIME
+S/MIME CA
+S/MIME Capabilities
+S/MIME email
+S/MIME encryption
+S/MIME signing
 S11b?
+S2zw
 SC Custom 0 %d
 SC Custom 1 %d
 SC Custom 2 %d
 SC Custom 3 %d
 SCALAR
+SCRYPT_PARAMS
+SCT_CTX_new
+SCT_CTX_verify
+SCT_new
+SCT_new_from_base64
+SCT_set0_log_id
+SCT_set1_extensions
+SCT_set1_log_id
+SCT_set1_signature
+SCT_set_log_entry_type
+SCT_set_signature_nid
+SCT_set_version
 SE Data Copy %d
 SE Data Copy Done %d
 SE Encode %d Time(us)=%d
@@ -2286,10 +4052,60 @@ SE Unknown 7 %d
 SE Unknown 8 %d
 SE Unknown 9 %d
 SE Wait For Encode Data %d
+SECG curve over a 112 bit prime field
+SECG curve over a 113 bit binary field
+SECG curve over a 128 bit prime field
+SECG curve over a 131 bit binary field
+SECG curve over a 160 bit prime field
+SECG curve over a 163 bit binary field
+SECG curve over a 192 bit prime field
+SECG curve over a 193 bit binary field
+SECG curve over a 224 bit prime field
+SECG curve over a 239 bit binary field
+SECG curve over a 256 bit prime field
+SECG/WTLS curve over a 112 bit prime field
+SECG/WTLS curve over a 131 bit binary field
+SECG/WTLS curve over a 160 bit prime field
+SEED
+SEED-CBC
+SEED-CFB
+SEED-ECB
+SEED-OFB
+SEQUENCE
+SEQWRAP
 SETUPAPI.dll
+SETWRAP
 SEnc
+SHA1
+SHA224
+SHA256
+SHA3-224
+SHA3-256
+SHA3-384
+SHA3-512
+SHA384
+SHA512
+SHA512-224
+SHA512-256
+SHAKE128
+SHAKE256
 SHELL32.dll
 SHGetFolderPathW
+SIPHASH
+SM2 curve over a 256 bit prime field
+SM2 routines
+SM2_Ciphertext
+SM4-CBC
+SM4-CFB
+SM4-CFB1
+SM4-CFB8
+SM4-CTR
+SM4-ECB
+SM4-OFB
+SMIME
+SMIME-CAPS
+SMIME_read_ASN1
+SMIME_text
 SN Debug Mark A %d
 SN Debug Mark B %d
 SN Debug Mark C %d
@@ -2313,6 +4129,9 @@ SN SendBookendN %d
 SN SendDone %d
 SN SendProcessRetry nr=%d
 SN Unknown1 %d
+SNILS
+SNMPv2
+SO_PATH
 SPEED
 SR PostPresent %d
 SR PostPresent Hold %d
@@ -2331,7 +4150,18 @@ SR Unknown5 %d
 SR Unknown6 %d
 SR WGP Acquired %d
 SR WGP Failed %d
+SSH Client
+SSH Server
+SSL CA
+SSL Client
+SSL Server
+SSL client
+SSL routines
+SSL server
+SSL_new
 SSend
+STORE lib
+STORE routines
 STRING
 SUCCESS: Shader compilation successful. %s\n
 SVLAudioWSAPI::AudioThread
@@ -2450,7 +4280,17 @@ SVLServer::Shutdown
 SVLServer::Shutdown()\n
 SVST_VIDEO_TRANSPORT: WARNING: Could not initialize frame on hardware.\n
 SVST_VIDEO_TRANSPORT_DESCRIPTION: WARNING: Could not initialize frame on hardware.\n
+SXNET
+SXNETID
+SXNET_add_id_INTEGER
+SXNET_add_id_asc
+SXNET_add_id_ulong
+SXNET_get_id_asc
+SXNET_get_id_ulong
+SXNetID
+S\fWj
 S\vJsf
+S\vQN
 Sample message for keylen=blocklen
 SbEwd
 Scaling %d
@@ -2458,8 +4298,16 @@ Scaling ?
 ScreenToClient
 Second argument to Swap() (of type "
 Second argument to SwapFields() (of type "
+Secure Electronic Transactions
+Security
 See 
+Seed:
 SelectObject
+Selected Attribute Types
+Send Owner
+Send Proxied Owner
+Send Proxied Router
+Send Router
 SendUpdatedFramerateRequest: Failed to find preferred refresh rate of %.2f in available display frequencies. Using set display frequency
 SendUpdatedFramerateRequest: Preferred refresh rate was available. Using %.2f
 SendUpdatedFramerateRequest: Requesting client use %.2f Hz
@@ -2476,6 +4324,7 @@ Set thread %p priority to: %d\n
 SetAllocatedMessage
 SetBitmapBits
 SetBool
+SetConsoleMode
 SetDefaultAudioDevice: device = %s, role = %d\n
 SetDouble
 SetEnum
@@ -2521,16 +4370,26 @@ ShellExecuteA
 ShowWindow
 Shutdown
 Sideband Err
+SigEd448
+Signing KDC Response
+Signing Tool of Issuer
+Signing Tool of Subject
 Single block msg
 Single block msgKU8O
+SipHash
 Skin
 Sleep
 SleepConditionVariableCS
 Socket bound to port %d\n
 Soft AES PERF: %f MByte/s\n
+Software engine support
 Sound
 SourceCodeInfo
 SparseAccessor
+Specifies an ENGINE id name for loading
+Specifies the path to the new ENGINE shared library
+Specifies to continue even if version checking fails (boolean)
+Specifies whether to load from 'DIR_ADD' directories (0=no,1=yes,2=mandatory)
 Spot light description not found.
 StartNvEnc
 Starting NVENC reset configuration Cause Mask: %d%d%d%d%d%d\n
@@ -2549,19 +4408,71 @@ SteamVRDriverVrlink
 Stopping playback mirror thread\n
 String literals cannot cross line boundaries.
 StringOutputStream.
+Strong Extranet ID
 SubFlags%d
+Subject Information Access
 Submit
+Superseded
 Swap
 Symbol name "
 Syntax error: value, object or array expected.
 SystemTimeToFileTime
+T*8U
+T0.S
 T00`P
+T61STRING
+TELETEXSTRING
 TEST
 THROTTLE EVENT: %d
+TLS Feature
+TLS Web Client Authentication
+TLS Web Server Authentication
+TLS1-PRF
+TLS_FEATURE
+TPD2
+TQ\v;83
+TRG7ts
 TRR: %d
 TRUE
+TRUSTED CERTIFICATE
+TSA server
+TSG.
+TS_ACCURACY_set_micros
+TS_ACCURACY_set_millis
+TS_ACCURACY_set_seconds
+TS_CONF_load_cert
+TS_CONF_load_certs
+TS_CONF_load_key
+TS_CONF_set_default_engine
+TS_MSG_IMPRINT_set_algo
+TS_REQ_set_msg_imprint
+TS_REQ_set_nonce
+TS_REQ_set_policy_id
+TS_RESP_CTX_add_failure_info
+TS_RESP_CTX_add_md
+TS_RESP_CTX_add_policy
+TS_RESP_CTX_new
+TS_RESP_CTX_set_accuracy
+TS_RESP_CTX_set_certs
+TS_RESP_CTX_set_def_policy
+TS_RESP_CTX_set_signer_cert
+TS_RESP_CTX_set_status_info
+TS_RESP_create_response
+TS_RESP_set_genTime_with_precision
+TS_RESP_set_status_info
+TS_RESP_set_tst_info
+TS_RESP_verify_signature
+TS_TST_INFO_set_accuracy
+TS_TST_INFO_set_msg_imprint
+TS_TST_INFO_set_nonce
+TS_TST_INFO_set_policy_id
+TS_TST_INFO_set_serial
+TS_TST_INFO_set_time
+TS_TST_INFO_set_tsa
+TS_VERIFY_CTX_new
 TX Fail:%d
 TX Failure Streak Hit %d; Aborting and reconnecting.\n
+TYPE=
 TdhEnumerateManifestProviderEvents
 Temporary AMF encoder Init() succeeded for 10-bit\n
 Temporary AMF encoder Init() with 10-bit failed [ %s ]; forcing 8-bit.\n
@@ -2574,25 +4485,34 @@ This ZeroCopyOutputStream doesn't support aliasing. Reaching here usually means 
 This program requires version 
 This program was compiled against version 
 This shouldn't be called if all the sizes are equal.
+Time Stamp signing
+Time Stamping
 Timed out waiting for another accepted video packet, trying to force the stream reset\n
 TlsAlloc
 TlsFree
+TlsGetValue
+TlsSetValue
 Toggle Cross in center of image.
 Toggle Eye Filtering.
 Toggle foveated transmission (eye tracking).
 Too short data size for glTF Binary.
 TrackingSystemName %s\n
+Trailer Field: 0x
 TranslateMessage
 Transport
 Transport Check
 Tried to merge messages of different types 
 True
+Trust Root
 Trying to submit frames out-of-order.  Only possible on catastrophic network failure\n
 Ts\ne
 Type
 Type appears to be in generated pool but wasn't 
 Type is already registered: 
+Type=
+U$qk.
 U(Px(
+U)l:T^8rv\n
 U1(\Q
 U33f
 U4ot
@@ -2603,13 +4523,43 @@ UBER (Single)
 UDP BIND: %d CONN: %d\n
 UDP Driver\n
 UDPServerAddresses:\n
+UI lib
+UI routines
+UINT32
+UINT64
+UI_construct_prompt
+UI_create_method
+UI_ctrl
+UI_dup_error_string
+UI_dup_info_string
+UI_dup_input_boolean
+UI_dup_input_string
+UI_dup_user_data
+UI_dup_verify_string
+UI_get0_result
+UI_get_result_length
+UI_new_method
+UI_process
+UI_set_result
+UI_set_result_ex
+UNDEF
+UNIV
+UNIVERSALSTRING
 UNKNOWN
 UNPLUGGED
 UPing
+URI:
 USER32.dll
 USERNAME
+USERNOTICE
+UTCTIME
+UTF8
+UTF8STRING
+UTF8String
 UUPx((
+UUUUUUUUUUUUUU<o(
 UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU
+UUUUUUUUUUUa\f\v
 U^cQ`
 UberWindow Flush %5d %4d\n
 Unable to determine VR Path Registry filename
@@ -2645,6 +4595,7 @@ Unknown method: "
 Unknown spatial encoding mode
 UnmapViewOfFile
 Unreliable
+Unspecified
 Unsupported `type` for accessor object. Got "
 Unused
 UpdateWindow
@@ -2654,6 +4605,7 @@ Using AVX\n
 Using NOAESNI\n
 Using SSE\n
 Using defaults as unknown headset: %d
+Ut]<E
 UuidFromStringA
 V22dN::t
 V?option requires an argument -- %c
@@ -2662,8 +4614,11 @@ VEC2
 VEC3
 VEC4
 VERSION MISMATCH
+VIDEOTEXSTRING
 VID_
 VID_%04X
+VISIBLE
+VISIBLESTRING
 VR Path Registry node %s is not an array\n
 VRAudioDevices_Init
 VRLINK_EVENT_QUIT
@@ -2671,6 +4626,7 @@ VRLink Hand Tracker (Left Hand)
 VRLink Hand Tracker (Right Hand)
 VRLinkRX
 VRLinkTX
+VRLink_DockEntry
 VRLink_LaserMouseEvent
 VRLink_LaserMouseEvents
 VRLink_LaserMouseOverlay
@@ -2709,8 +4665,12 @@ Value out of range for int32 option "
 Value out of range for int64 option "
 Value out of range for uint32 option "
 VerSetConditionMask
+Verify failure\n
 VerifyVersionInfoW
+Verifying - %s
 Version
+Vg3LE
+VggjeK uO5n
 Video
 Video RX
 Video Reply
@@ -2736,6 +4696,7 @@ WASAPI: pCurrentDevice->Activate = 0x%08x (Failed = %d)\n
 WASAPI: pCurrentDevice->Activate IAudioEndpointVolume = 0x%08x (Failed = %d)\n
 WASAPI: pCurrentDevice->Activate IAudioSessionManager2 = 0x%08x (Failed = %d)\n
 WGPRX
+WIN32
 WINMM.dll
 WS2_32.dll
 WSACloseEvent
@@ -2761,7 +4722,13 @@ WSAPI: Warning: Failed to find Steam Streaming Audio Devices.\n
 WSAPI: capture starting: ->Start() = %08x (Failed = %d)\n
 WSAResetEvent
 WSASocketA
+WSAStartup
 WSAStartup failed: %d\n
+WSAstartup
+WTLS curve over a 112 bit prime field
+WTLS curve over a 113 bit binary field
+WTLS curve over a 160 bit prime field
+WTLS curve over a 224 bit prime field
 WTSAPI32.dll
 WTSFreeMemory
 WTSQuerySessionInformationA
@@ -2796,20 +4763,178 @@ Warning: res field incorrect [encryption mode] %08x on packet size %d\n
 Warning: retransmit request for unknown message %d (frame number=%d\n
 Warning: unMaxBitRate (%u) over m_nMaxMBPerSecond (%u)\n
 Warning: unVbvBufferSizeBits (%u) over m_unMaxBitsPerFrame (%u)\n
+Wcr"
+Whether to add a loaded ENGINE to the internal list (0=no,1=yes,2=mandatory)
 WideCharToMultiByte
 Wire
 WiredSession
 WirelessHost
+WriteFile
 Wz*7
+X25519
+X400Name
+X400Name:<unsupported>
+X448
+X500
+X500algorithms
+X509
+X509 CERTIFICATE
+X509 CRL
+X509 V3 routines
+X509 lib
+X509CRL
+X509Certificate
+X509V3 lib
+X509V3_EXT_add
+X509V3_EXT_add_alias
+X509V3_EXT_i2d
+X509V3_EXT_nconf
+X509V3_add1_i2d
+X509V3_add_value
+X509V3_get_section
+X509V3_get_string
+X509V3_get_value_bool
+X509V3_parse_list
+X509_ALGOR
+X509_ALGORS
+X509_ATTRIBUTE
+X509_ATTRIBUTE_create_by_NID
+X509_ATTRIBUTE_create_by_OBJ
+X509_ATTRIBUTE_create_by_txt
+X509_ATTRIBUTE_get0_data
+X509_ATTRIBUTE_set1_data
+X509_CERT_AUX
+X509_CINF
+X509_CRL
+X509_CRL_INFO
+X509_CRL_METHOD_new
+X509_CRL_add0_revoked
+X509_CRL_diff
+X509_CRL_print_fp
+X509_EXTENSION
+X509_EXTENSIONS
+X509_EXTENSION_create_by_NID
+X509_EXTENSION_create_by_OBJ
+X509_INFO_new
+X509_LOOKUP_meth_new
+X509_LOOKUP_new
+X509_NAME
+X509_NAME_ENTRIES
+X509_NAME_ENTRY
+X509_NAME_ENTRY_create_by_NID
+X509_NAME_ENTRY_create_by_txt
+X509_NAME_ENTRY_set_object
+X509_NAME_INTERNAL
+X509_NAME_add_entry
+X509_NAME_oneline
+X509_NAME_print
+X509_OBJECT_new
+X509_PKEY_new
+X509_PUBKEY
+X509_PUBKEY_get
+X509_PUBKEY_get0
+X509_PUBKEY_set
+X509_PURPOSE_add
+X509_PURPOSE_set
+X509_REQ
+X509_REQ_INFO
+X509_REQ_check_private_key
+X509_REQ_print_ex
+X509_REQ_print_fp
+X509_REQ_to_X509
+X509_REVOKED
+X509_SIG
+X509_STORE_CTX_get1_issuer
+X509_STORE_CTX_init
+X509_STORE_CTX_new
+X509_STORE_CTX_purpose_inherit
+X509_STORE_add_cert
+X509_STORE_add_crl
+X509_STORE_add_lookup
+X509_STORE_new
+X509_TRUST_add
+X509_TRUST_set
+X509_VAL
+X509_VERIFY_PARAM_new
+X509_check_private_key
+X509_get_pubkey_parameters
+X509_load_cert_crl_file
+X509_load_cert_file
+X509_load_crl_file
+X509_print_ex_fp
+X509_to_X509_REQ
+X509_verify_cert
+X509at_add1_attr
+X509v3 AC Targeting
+X509v3 Any Policy
+X509v3 Authority Key Identifier
+X509v3 Basic Constraints
+X509v3 CRL Distribution Points
+X509v3 CRL Number
+X509v3 CRL Reason Code
+X509v3 Certificate Issuer
+X509v3 Certificate Policies
+X509v3 Delta CRL Indicator
+X509v3 Extended Key Usage
+X509v3 Freshest CRL
+X509v3 Inhibit Any Policy
+X509v3 Issuer Alternative Name
+X509v3 Issuing Distribution Point
+X509v3 Key Usage
+X509v3 Name Constraints
+X509v3 No Revocation Available
+X509v3 Policy Constraints
+X509v3 Policy Mappings
+X509v3 Private Key Usage Period
+X509v3 Subject Alternative Name
+X509v3 Subject Directory Attributes
+X509v3 Subject Key Identifier
+X509v3_add_ext
+X9-57
+X9.42 DH
+X9.42 DH PARAMETERS
+X9.57
+X9.57 CM ?
+X9.62 curve over a 163 bit binary field
+X9.62 curve over a 176 bit binary field
+X9.62 curve over a 191 bit binary field
+X9.62 curve over a 192 bit prime field
+X9.62 curve over a 208 bit binary field
+X9.62 curve over a 239 bit binary field
+X9.62 curve over a 239 bit prime field
+X9.62 curve over a 272 bit binary field
+X9.62 curve over a 304 bit binary field
+X9.62 curve over a 359 bit binary field
+X9.62 curve over a 368 bit binary field
+X9.62 curve over a 431 bit binary field
+X9.62/SECG curve over a 256 bit prime field
+X9_62_CHARACTERISTIC_TWO
+X9_62_CURVE
+X9_62_FIELDID
+X9_62_PENTANOMIAL
+X9cm
+XG[r
+XRJ2
 XXXX PNG chunk not known
 XhHp
 Y77n
 Y;;Mv;;Mv
 YWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWE=
+Yb6N4
+YnFpW
+You must type in 
 Your GPU supports %s for video compression\n
+ZINT32
+ZINT64
+ZLIB
+ZUINT32
+ZUINT64
+Z\fL+i
+Ze2Zh@
 ZiKw
 Zjz\v
 [%s] %s file=%s
+[%s] %s=%s\n
 [Alloc] Created bitstream buffer = %p\n
 [Alloc] Created d3d11 texture = %p\n
 [Alloc] Created m_vpCompletionEvent %p\n
@@ -2893,9 +5018,17 @@ Zjz\v
 [packed = true] can only be specified for repeated primitive fields.
 [vrlink] !!!! ReleaseSync FAILED with E_FAIL
 [vrlink] !!!! ReleaseSync FAILED with unknown hr
+\%02X
 \%03o
+\(a8Bk
 \44h
+\SO7tsG
+\U%04lX
 \U%08x
+\W%08lX
+\\\\\\\\\\\\\\\\crypto\rsa\rsa_lib.c
+\f%\f/\f1\fA\f[\f_\fa\fm\fs\fw\f
+\f<<0A1pq
 \frrrrrrrrrrrrrrrr
 \mfpmp.exe
 \n    Actual    : 
@@ -2906,7 +5039,20 @@ Zjz\v
 \n  Problem     : Enum value did not match field type:\n    Expected  : 
 \n  Problem     : Field is not the right type for this message:\n    Expected  : 
 \n google/protobuf/descriptor.proto
+\n!\n1\n9\n=\nI\nW\na\nc\ng\no\nu\n{\n
+\n%*s            
+\n%*sExtensions: 
+\n%*sLog       : %s
+\n%*sLog ID    : 
+\n%*sSignature : 
+\n%*sTimestamp : 
+\n%*sVersion   : 
+\n%*sZone: %s, User: 
 \n,steammessages_unified_base.steamclient.proto
+\n2gQ\v\tU
+\n3wV
+\n:82H
+\nW2a
 \n\fFieldOptions
 \n\fLITE_RUNTIME
 \n\fSTRING_PIECE
@@ -2929,6 +5075,8 @@ Zjz\v
 \n\rTYPE_SFIXED32
 \n\rTYPE_SFIXED64
 \n\rdefault_value
+\n\tIPSec/IKE/Oakley curve #3 over a 155 bit binary field.\n\tNot suitable for ECDSA.\n\tQuestionable extension field!
+\n\tIPSec/IKE/Oakley curve #4 over a 185 bit binary field.\n\tNot suitable for ECDSA.\n\tQuestionable extension field!
 \n\tname_part
 \n\ttype_name
 \n\vEnumOptions
@@ -2945,15 +5093,24 @@ Zjz\v
 \nbad png sig
 \ncbuffer VS_CONSTANT_BUFFER : register(b2)\n{\n\tfloat4  g_uvAppSubmittedMinMax;// uMin, vMin, uMax, vMax;\n\tfloat4  g_uvSystemSubmittedMinMax;\n\tfloat4  g_nonFovealColor;\n\tfloat2  g_RBSize;\n\tfloat   g_extraFlags;\n\tfloat   g_nEye;\n\tfloat2  g_GameTexSize; //NOT GAME TEXT SIZE!!!! OUTPUT TEXT SIZE!!!\n\tfloat2  g_CenterAreaOffsetXY;\n\tfloat2  g_GameSubmittedSizeXY;\n\tfloat   g_unused; // g_SpatialEncodingMode\n\tfloat   g_bDirectFoveatedSample;\n\tfloat   g_bHasSystemLayer;\n};\n\n\nstruct vs_in\n{\n\tfloat3 position_local : POS;\n\tfloat3 texture_local : TEX;\n};\n\nstruct vs_out\n{\n\tfloat4 position_clip : SV_POSITION;\n\tfloat4 position_scr : TEXCOORD0;\n};\n\nvs_out vs_main( vs_in input )\n{\n\tvs_out output = (vs_out)0;\n\toutput.position_clip = float4( input.position_local, 1.0 );\n\toutput.position_scr = float4( input.texture_local.x, input.texture_local.y, input.texture_local.z, 0.0 );\n\treturn output;\n}\n\nTexture2D  Texture0;\n\nSamplerState SampleType;\n\nfloat3 SrgbLinearToGamma( float3 vLinearColor )\n{\n\t// 15 asm instructions\n\tfloat3 vLinearSegment = vLinearColor.rgb * 12.92;\n\tfloat3 vExpSegment = ( 1.055 * pow( vLinearColor.rgb, float3( 1.0 / 2.4, 1.0 / 2.4, 1.0 / 2.4 ) ) ) - 0.055;\n\n\tfloat3 vGammaColor = float3( ( vLinearColor.r <= 0.0031308 ) ? vLinearSegment.r : vExpSegment.r,\n\t\t\t\t\t\t\t\t ( vLinearColor.g <= 0.0031308 ) ? vLinearSegment.g : vExpSegment.g,\n\t\t\t\t\t\t\t\t ( vLinearColor.b <= 0.0031308 ) ? vLinearSegment.b : vExpSegment.b );\n\treturn vGammaColor.rgb;\n}\n\n#define B 0.0\n#define C 0.25\n\nfloat CatmullRom( float x )\n{\n\tfloat f = abs( x );\n\tfloat f2 = f * f;\n\tfloat f3 = f2 * f;\n\n\tif ( f < 1.0 )\n\t{\n\t\treturn ( ( 12 - 9 * B - 6 * C ) * f3 +\n\t\t\t\t ( -18 + 12 * B + 6 * C ) * f2 +\n\t\t\t\t ( 6 - 2 * B ) ) / 6.0;\n\t}\n\telse if ( f >= 1.0 && f < 2.0 )\n\t{\n\t\treturn ( ( -B - 6 * C ) * f3\n\t\t\t\t + ( 6 * B + 30 * C ) * f2 +\n\t\t\t\t ( -( 12 * B ) - 48 * C ) * f +\n\t\t\t\t 8 * B + 24 * C ) / 6.0;\n\t}\n\telse\n\t{\n\t\treturn 0.0;\n\t}\n}\n\n#define _KernelFcn CatmullRom\n#define _KernelScale 1.0\n#define _MinRadius2 1.0\n\nfloat4 Kernel_Iso_Circle( Texture2D tex, SamplerState samplerState, float2 textureSize, float2 invTextureSize,\n\t\t\t\t\t\t  float2 vTexCoord, float2 vDdx, float2 vDdy )\n{\n\tvTexCoord *= textureSize;\n\tvDdx *= textureSize;\n\tvDdy *= textureSize;\n\tfloat2 baseNearestTexelCenter = floor( vTexCoord ) + 0.5;\n\tfloat4 total_samp = float4( 0.0, 0.0, 0.0, 0.0 );\n\tfloat total_weight = 0;\n\tfloat ddxyRadius2 = 0.5 * ( dot( vDdx, vDdx ) + dot( vDdy, vDdy ) );\n\tddxyRadius2 = max( _MinRadius2, ddxyRadius2 );\n\tfloat ddxyRadiusInv = 1.0 / sqrt( ddxyRadius2 );\n#define DIM 2\n\tfor ( int m = -DIM; m <= DIM; m++ )\n\t{\n\t\tfor ( int n = -DIM; n <= DIM; n++ )\n\t\t{\n#undef DIM\n\t\t\tfloat2 texelCenter = baseNearestTexelCenter + float2( m, n );\n\t\t\tfloat2 pixel_offset = texelCenter - vTexCoord;\n\t\t\tfloat2 rel = pixel_offset * ddxyRadiusInv * _KernelScale;\n\t\t\tfloat r2 = dot( rel, rel );\n\t\t\tfloat weight = _KernelFcn( sqrt( r2 ) );\n\t\t\ttotal_samp += weight * tex.SampleLevel( samplerState, texelCenter * invTextureSize, 0 );\n\t\t\ttotal_weight += weight;\n\t\t}\n\t}\n\n\ttotal_samp *= 1.0 / total_weight;\n\treturn total_samp;\n}\n\n#undef _KernelScale\n#undef _MinRadius2\n\nfloat4 FoveatedSample( vs_out input, float SampleScale )\n{\n\tfloat2 uv = input.position_scr.xy;\n\tfloat4 samp;\n\t\n\t#if PRECODE == 0\n\tif( uv.y < 0.5 )\n\t#elif PRECODE == 1\n\tif( uv.x < 0.5 )\n\t#else\n\tif( true )\n\t#endif\n\t{\n\t\t#if PRECODE == 0\n\t\t\t// Bottom Image (Fit) (Works the way for scene app + overlays)\n\t\t\tuv.y = uv.y * 2.0;\n\t\t#elif PRECODE == 1\n\t\t\tuv.x = uv.x * 2.0;\n\t\t#else\n\t\t\t// Don't do anything if 1:1\n\t\t#endif\n\t\n\t\tfloat2 rv = float2( uv.x, 1.0 - uv.y ); // Flip so we're in normal UV space. (the UV going in is flipped)\n\n\t\t// I think this is the right way to do this conversion, back into the soruce image's UVs.\n\t\trv.xy = rv.xy * (g_uvAppSubmittedMinMax.zw - g_uvAppSubmittedMinMax.xy) + g_uvAppSubmittedMinMax.xy;\n\n\t\tint3 texsizelevels;\n\t\tTexture0.GetDimensions( 0, texsizelevels.x, texsizelevels.y, texsizelevels.z );\n\t\tfloat2 textureSize = float2( texsizelevels.x, texsizelevels.y );\n\t\tfloat2 invTextureSize = 1.0 / textureSize;\n\t\tsamp.rgba = Kernel_Iso_Circle( Texture0, SampleType, textureSize, invTextureSize, rv.xy, SampleScale * ddx_fine( rv.xy ), SampleScale * ddy_fine( rv.xy ) );\n\t\tsamp.rgba *= g_nonFovealColor;\n\t}\n\telse if ( g_bDirectFoveatedSample > 0 )\n\t{\n\t\t// Top Image (Foveated), Luma\n\t\tint3 texsizelevels;\n\t\tTexture0.GetDimensions( 0, texsizelevels.x, texsizelevels.y, texsizelevels.z );\n\t\t\n\t\tfloat2 rv = input.position_clip.xy * ((int)SampleScale);\n\t\t\n\t\t#if PRECODE == 0\n\t\t// If we're drawing on the bottom part of the screen, do this, to make our 0,0 map to 0,0 not halfway through the image.\n\t\tif ( g_nEye > 0 )\n\t\t{\n\t\t\trv.y -= g_RBSize.y/2;\n\t\t}\n\t\t#elif PRECODE == 1\t\t\n\t\t// We're drawing on the right side of the image, need to do this to make our 0,0 map to 0,0 not halfway through the image.\n\t\tif ( g_nEye > 0 )\n\t\t{\n\t\t\trv.y -= g_RBSize.y/2;\n\t\t}\n\t\trv.x -= g_RBSize.y/2;\n\t\t#endif\n\t\t\n\t\t// Address it so (0,0) is in the top left\n\t\trv += g_CenterAreaOffsetXY;\n\t\t\n\t\t// Convert back into normalized space.\n\t\trv /= g_GameSubmittedSizeXY.xy;\n\n\t\t// Correctly apply app submitted UVs.\n\t\trv = g_uvAppSubmittedMinMax.xy + ( rv * (g_uvAppSubmittedMinMax.zw - g_uvAppSubmittedMinMax.xy ) );\n\n\t\t// We have to add 0.1 because if we do 0.0 then the floating point math will sometimes end us up on the wrong side of the pixel and we'll get crunchy pixels.\n\t\t// There's also occasionally an issue at 0.5, since that bumps us into the next pixels, so we're going to do +0.1\n\t\tint2 SampleCoordFromSubmittedTexture = int2( rv * texsizelevels.xy + 0.1 );\n\n\t\tsamp = Texture0.Load( int3( SampleCoordFromSubmittedTexture, 0 )  );\n\n\t\tif ( ( ( ( uint ) g_extraFlags ) & 0x100 ) ) // 256\n\t\t{\n\t\t\tfloat2 uvcx = (uv - float2(0.5,0.75)) * float2(1.0,2.0);\n\t\t\tuvcx = abs( uvcx );\n\t\t\tfloat centert = 0.;\n\t\t\t// Only show pip if filtering is off.\n\t\t\tif( !( ( ( uint ) g_extraFlags ) & 0x200 ) ) // 512\n\t\t\t{\n\t\t\t\tfloat r = length( uvcx );\n\t\t\t\tcentert =  saturate(sin(r*400.0+0.1)*0.5+0.5-r*30.);\n\t\t\t}\n\t\t\tfloat outert = max(uvcx.x, uvcx.y) > 0.48;\n\t\t\tsamp = lerp( samp, float( 1.0 ), max( centert, outert ) );\n\t\t}\n\t}\n\telse\n\t{\n\t\t// Chroma for foveated region.\n\t\t\n\t\tint3 texsizelevels;\n\t\tTexture0.GetDimensions( 0, texsizelevels.x, texsizelevels.y, texsizelevels.z );\n\t\t\n\t\tfloat2 rv = input.position_clip.xy * ((int)SampleScale);\n\t\t// If we're drawing on the bottom part of the screen, do this, to make our 0,0 map to 0,0 not halfway through the image.\n\t\t#if PRECODE == 0\n\t\tif ( g_nEye > 0 )\n\t\t{\n\t\t\trv.y -= g_RBSize.y/2;\n\t\t}\n\t\t#else\n\t\t// We're drawing on the right side of the image, need to do this to make our 0,0 map to 0,0 not halfway through the image.\n\t\tif ( g_nEye > 0 )\n\t\t{\n\t\t\trv.y -= g_RBSize.y/2;\n\t\t}\n\t\trv.x -= g_RBSize.y/2;\n\t\t#endif\n\t\t// rv is in 0...g_RBSize space.\n\n\t\trv += g_CenterAreaOffsetXY;\n\n\t\t// Now it's in [gamesubmittedxy] space, where top corner of box is 0,0.\n\t\t\n\t\t// Convert back into normalized space.\n\t\trv /= g_GameSubmittedSizeXY.xy;\n\n\t\t// Correctly apply app submitted UVs.\n\t\trv = g_uvAppSubmittedMinMax.xy + ( rv * (g_uvAppSubmittedMinMax.zw - g_uvAppSubmittedMinMax.xy ) );\n\t\tfloat2 textureSize = float2( texsizelevels.x, texsizelevels.y );\n\t\tfloat2 invTextureSize = 1.0 / textureSize;\n\t\tsamp.rgba = Kernel_Iso_Circle( Texture0, SampleType, textureSize, invTextureSize, rv.xy, SampleScale * ddx_fine( rv.xy ), SampleScale * ddy_fine( rv.xy ) );\n\t}\n\tsamp.rgb = SrgbLinearToGamma( samp.rgb );\n\t//samp.rgb = float3( 1000.0/1023.0, 100.0/1023.0, 100.0/1023.0 );\n\treturn samp;\n}\n\nfloat3 RGB709_to_YUV( float3 rgb )\n{\n\tfloat a = 0.2126;\n\tfloat b = 0.7152;\n\tfloat c = 0.0722;\n\tfloat d_inv = 0.5389092476826902;\n\tfloat e_inv = 0.63500127000254;\n\tfloat midpoint = 512.0/1023.0;\n\tfloat Y = a * rgb.r + b * rgb.g + c * rgb.b;\n\tfloat cb = ( rgb.b - Y ) * d_inv;\n\tfloat cr = ( rgb.r - Y ) * e_inv;\n\treturn saturate( float3( Y, cb + midpoint, cr + midpoint ) );\n}\n\nfloat4 ps_main( vs_out input, float4 screenSpace : SV_Position ) : SV_TARGET{\n\tfloat4 samp = FoveatedSample( input, 1.0 );\n\tfloat3 fYUV = RGB709_to_YUV( samp );\n\treturn float4( fYUV.r, 0, 0, samp.a );\n}\n\nfloat4 ps_main_chroma( vs_out input ) : SV_TARGET{\n\tfloat4 samp = FoveatedSample( input, 2.0 );\n\tfloat3 fYUV = RGB709_to_YUV( samp );\n\treturn float4( fYUV.g, fYUV.b, 0, samp.a );\n}\n
 \ncbuffer VS_CONSTANT_BUFFER : register(b2)\n{\n\tfloat4 uvMinMax;\n\tfloat4 clockParameters; // clockParameters[01] = coordinate of clock 0,0; clockParameters[2] = clock\n};\n\n/* vertex attributes go here to input to the vertex shader */\nstruct vs_in {\n    float3 position_local : POS;\n    float3 texture_local : TEX;\n};\n\n/* outputs from vertex shader go here. can be interpolated to pixel shader */\nstruct vs_out {\n    float4 position_clip : SV_POSITION; // required output of VS\n    float4 position_tex   : TEXCOORD0;\n};\n\nvs_out vs_main(vs_in input) {\n  //vs_out output = (vs_out)0; // zero the memory first\n  vs_out output;\n  output.position_clip = float4(input.position_local, 1.0);\n  output.position_tex = float4(input.texture_local, 1.0);\n\n  float4 muvMinMax = uvMinMax;\n  output.position_tex = float4( \n\tinput.texture_local.x * ( muvMinMax.z - muvMinMax.x ) + muvMinMax.x,\n\tinput.texture_local.y * ( muvMinMax.y - muvMinMax.w ) + muvMinMax.w,\n\t0. , 0. );\n\n  return output;\n}\n\nTexture2D  Texture0;\n\nSamplerState SampleType;\n\n#define CLOCKX 8\n#define CLOCKY 8\n\n#define CLOCK_CURSOR_SIZE (8.)\n#define CLOCK_TIME_STEP (1.)\n\nfloat4 ps_main(vs_out input, float4 Pos : SV_Position ) : SV_TARGET {\n\tint2 fragpos = (Pos.xy-clockParameters.xy)/CLOCK_CURSOR_SIZE;\n\tint fid = floor(clockParameters.z/CLOCK_TIME_STEP + 0.5 );\n\tint frameid = floor(clockParameters.z + 0.5);\n\tint fidx = 0;\n\tint fidy = (fid % (CLOCKX*CLOCKY)) / CLOCKX;\n\tif( fidy & 1 )\n\t{\n\t\tfidx = (CLOCKX-1) - fid % CLOCKX;\n\t}\n\telse\n\t{\n\t\tfidx = fid % CLOCKX;\n\t}\n\n\tfloat cx = fragpos.x%CLOCKX;\n\tfloat cy = (fragpos.y%CLOCKY);\n\t//float col;\n\tfloat col_r;\n\tfloat col_g;\n\tfloat col_b;\n\tint redpixel_at_zero_pos = 0; //used for debugging\n\t\n\t//if (redpixel_at_zero_pos && (!fidx && !fidy && !cx && !cy)) {\n\tif (redpixel_at_zero_pos && !(frameid % 64)) {\n\t\tcol_r = 1.0;\n\t\tcol_g = 0.0;\n\t\tcol_b = 0.0;\n\t}\n\telse {\n\t\tcol_r = (fidx == cx && fidy == cy) ? 1.0 : 0.0;\n\t\tcol_g = (fidx == cx && fidy == cy) ? 1.0 : 0.0;\n\t\tcol_b = (fidx == cx && fidy == cy) ? 1.0 : 0.0;\n\t}\n\n\treturn float4(col_r, col_g, col_b, 1.);\n}\n\n\nfloat4 ps_main_chroma(vs_out input, float4 Pos : SV_Position ) : SV_TARGET {\n\treturn 0.5;\n}\n\n
+\nkhT
+\r!\r+\r-\r=\r?\rO\rU\ri\ry\r
+\r7AO\n
 \r8STs\ne
 \r8STs\neTs\neTs\neTs\ne
 \r8STs\neTs\neTs\neTs\neTs\neTs\neTs\neTs\ne
 \r8STs\neTs\neTs\neTs\neTs\neTs\neTs\neTs\neTs\neTs\neTs\neTs\neTs\neTs\neTs\neTs\ne
+\rLAM
+\rMinghuaQu\f
+\rSNo
+\rUhF
 \r\fexpaexpaexpaexpand 3nd 3nd 3nd 32-by2-by2-by2-byte kte kte kte kexpand 32-byte k
 \r\fpacketCount too high (%u)\n
 \r\n\tCODE_SIZE
 \r\n\tTYPE_BOOL
 \r\n\tTYPE_ENUM
+\ri1I
+\sG7tPD
 \t"deltaTimingLog" : [\n
 \t"inputDebugDigital" : [\n
 \t"logVersion" : 1,\n
@@ -2964,18 +5121,33 @@ Zjz\v
 \t"remoteVersion" : %d,\n
 \t"thisVersion" : %d,\n
 \t"variables" : [\n
+\t#\t%\t+\t/\t5\tC\tI\tM\tO\tU\tY\t_\tk\tq\tw\t
+\t-f3F2
+\t6trF
+\tHAI8xpH\f
+\tOkI
+\tOzG\r
+\t\tCJAAQ
 \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t
 \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t
+\t\taJj
 \t],\n\t"eyeTracking" : [ 
 \t],\n\t"inputDebugAnalog" : [\n
 \t],\n\t"latencyLog" : [\n
 \t],\n\t"sPingHistogramv1" : [
 \t],\n\t"soundData" : [\n
+\ttqE5
 \txYn
 \u%04x
 \u%04x\u%04x
 \ufffd
+\v#\v)\v-\v?\vG\vQ\vW\v]\ve\vo\v{\v
 \vCreateSwapTextureSet: %dx%d(%d) %d
+\vHCK/
+\vZ\nyVR
+\v\vTSG
+\vjFF\r
+\vow5
 \x%02x
 ] buffer "
 ] bufferView "
@@ -2984,6 +5156,8 @@ Zjz\v
 ],"subtype":
 ]1bO
 ]c:\buildslave\steamvr_rel_win64\build\src\vrlink\driver_vrlink\hmdd3d11.cpp:1647
+^4MZ
+^J_spY
 ^lX8k
 _55j
 _Cnd_broadcast
@@ -3003,6 +5177,7 @@ _Mtx_init
 _Mtx_init_in_situ
 _Mtx_lock
 _Mtx_unlock
+_OPENSSL_isservice
 _Query_perf_counter
 _Query_perf_frequency
 _RDATA
@@ -3040,9 +5215,13 @@ _dsign
 _dtest
 _errno
 _execute_onexit_table
+_exit
 _fdtest
+_fileno
 _fseeki64
+_g@Cg
 _get_stream_buffer_pointers
+_gmtime64_s
 _initialize_narrow_environment
 _initialize_onexit_table
 _initterm
@@ -3058,6 +5237,8 @@ _recalloc
 _register_onexit_function
 _right
 _seh_filter_dll
+_setmode
+_stat64i32
 _strdup
 _stricmp
 _strnicmp
@@ -3068,17 +5249,23 @@ _time64
 _unlock_file
 _wcsicmp
 _wcsnicmp
+_wfopen
 _wfopen_s
 _wfsopen
 _wstat64i32
+_xU`u
 `3QbE
 `3SbE
+`D$daM-l
+`H(hqA1p
 `P00
+`VX:H
 `accessors' does not contain an JSON object.
 `animations' does not contain an JSON object.
 `bufferViews' does not contain an JSON object.
 `buffers' does not contain an JSON object.
 `cameras' does not contain an JSON object.
+`fPw.\vM
 `input` field is missing in animation.sampler\n
 `materials' does not contain an JSON object.
 `meshes' does not contain an JSON object.
@@ -3090,18 +5277,115 @@ _wstat64i32
 `scenes' does not contain an JSON object.
 `skins' does not contain an JSON object.
 `textures' does not contain an JSON object.
+`yNT
+a null shared library handle was used
+a2d_ASN1_OBJECT
+a2i_ASN1_INTEGER
+a2i_ASN1_STRING
+a2i_GENERAL_NAME
+a5<p
 a5j_5W
+a8Bk
 aAMCoCreateInstance(CLSID_CResamplerMediaObject) failed hr = 0x%08x\n
+aI)h
+aRecord
+aaControls
+aaY8GG
 aaj_55
 abort
+ac-auditEntity
+ac-proxying
+ac-targeting
+accept
+accept error
+acceptableResponses
 accessor[
 accessors
+account
 acosf
+acpt_state
 active
+ad dvcs
+ad_timestamping
+add signer error
+addProfessionInfo
+add_cert_dir
 add_ogs_row
+adding object
+additional input too long
 additional six characters expected to parse unicode surrogate pair.
+additional verification
+addr_strings
+addr_validate_path_internal
+addressFamily
+addrinfo addr is not af inet
+addrinfo_wrap
+admissionAuthority
+aes key setup failed
+aes-128-cbc
+aes-128-cbc-hmac-sha1
+aes-128-cbc-hmac-sha256
+aes-128-ccm
+aes-128-cfb
+aes-128-cfb1
+aes-128-cfb8
+aes-128-ctr
+aes-128-ecb
+aes-128-gcm
+aes-128-ocb
+aes-128-ofb
+aes-128-xts
+aes-192-cbc
+aes-192-cbc-hmac-sha1
+aes-192-cbc-hmac-sha256
+aes-192-ccm
+aes-192-cfb
+aes-192-cfb1
+aes-192-cfb8
+aes-192-ctr
+aes-192-ecb
+aes-192-gcm
+aes-192-ocb
+aes-192-ofb
+aes-256-cbc
+aes-256-cbc-hmac-sha1
+aes-256-cbc-hmac-sha256
+aes-256-ccm
+aes-256-cfb
+aes-256-cfb1
+aes-256-cfb8
+aes-256-ctr
+aes-256-ecb
+aes-256-gcm
+aes-256-ocb
+aes-256-ofb
+aes-256-xts
+aes128
+aes128-wrap
+aes192
+aes192-wrap
+aes256
+aes256-wrap
+aes_gcm_ctrl
+aes_init_key
+aes_ocb_cipher
+aes_t4_init_key
+aes_t4_xts_init_key
+aes_wrap_cipher
+aes_xts_init_key
+aesni_init_key
+aesni_xts_init_key
+affiliationChanged
 aggregate_value
 aiKwZ
+akid mismatch
+alg_module_init
+alg_section
+algor
+algorithm
+algorithm mismatch
+algorithms
+alias
 allowComments
 allowDroppedNullPlaceholders
 allowMultipleLinks
@@ -3111,12 +5395,22 @@ allowSpecialFloats
 allowVolumeSync
 alphaCutoff
 alphaMode
+already instantiated
+already loaded
 alse
+always
+ambiguous content type
+ambiguous host or service
 ambiguous option -- %.*s
 amfenc dropping metadata entry ( %lld , %lld )\n
+amplitude
 animations
 anims
+ansi-X9-62
+anyExtendedKeyUsage
+anyPolicy
 api-ms-win-crt-convert-l1-1-0.dll
+api-ms-win-crt-environment-l1-1-0.dll
 api-ms-win-crt-filesystem-l1-1-0.dll
 api-ms-win-crt-heap-l1-1-0.dll
 api-ms-win-crt-locale-l1-1-0.dll
@@ -3126,21 +5420,150 @@ api-ms-win-crt-stdio-l1-1-0.dll
 api-ms-win-crt-string-l1-1-0.dll
 api-ms-win-crt-time-l1-1-0.dll
 api-ms-win-crt-utility-l1-1-0.dll
+append_exp
+archiveCutoff
+arg2 lt arg3
+argument is not a number
+argument out of range
+aria key setup failed
+aria-128-cbc
+aria-128-ccm
+aria-128-cfb
+aria-128-cfb1
+aria-128-cfb8
+aria-128-ctr
+aria-128-ecb
+aria-128-gcm
+aria-128-ofb
+aria-192-cbc
+aria-192-ccm
+aria-192-cfb
+aria-192-cfb1
+aria-192-cfb8
+aria-192-ctr
+aria-192-ecb
+aria-192-gcm
+aria-192-ofb
+aria-256-cbc
+aria-256-ccm
+aria-256-cfb
+aria-256-cfb1
+aria-256-cfb8
+aria-256-ctr
+aria-256-ecb
+aria-256-gcm
+aria-256-ofb
+aria128
+aria192
+aria256
+aria_ccm_init_key
+aria_gcm_ctrl
+aria_gcm_init_key
+aria_init_key
 array
+asn1
+asn1 encoding routines
+asn1 error
+asn1 parse error
+asn1 sig parse error
+asn1_bio_init
+asn1_cb
+asn1_check_tlen
+asn1_collect
+asn1_d2i_ex_primitive
+asn1_d2i_read_bio
+asn1_do_adb
+asn1_do_lock
+asn1_enc_save
+asn1_ex_c2i
+asn1_find_end
+asn1_get_int64
+asn1_get_uint64
+asn1_int_oct
+asn1_item_embed_d2i
+asn1_item_embed_new
+asn1_item_flags_i2d
+asn1_output_data
+asn1_primitive_new
+asn1_str2type
+asn1_string_get_int64
+asn1_string_get_uint64
+asn1_string_to_bn
+asn1_template_ex_d2i
+asn1_template_new
+asn1_template_noexp_d2i
+asnum
 aspectRatio
 assert json failed
+assertion failed: EVP_CIPHER_CTX_iv_length(ctx) <= (int)sizeof(ctx->iv)
+assertion failed: b <= sizeof(ctx->buf)
+assertion failed: b <= sizeof(ctx->final)
+assertion failed: bl <= (int)sizeof(ctx->buf)
+assertion failed: ctx->buf_len <= (int)sizeof(ctx->buf)
+assertion failed: ctx->buf_len >= ctx->buf_off
+assertion failed: ctx->buf_off + i < (int)sizeof(ctx->buf)
+assertion failed: ctx->buf_off < (int)sizeof(ctx->buf)
+assertion failed: ctx->buf_off <= (int)sizeof(ctx->buf)
+assertion failed: ctx->cipher->block_size == 1 || ctx->cipher->block_size == 8 || ctx->cipher->block_size == 16
+assertion failed: ctx->digest->md_size <= EVP_MAX_MD_SIZE
+assertion failed: ctx->length <= (int)sizeof(ctx->enc_data)
+assertion failed: ctx->tmp_len <= 3
+assertion failed: i <= n
+assertion failed: j <= sizeof(c->iv)
+assertion failed: keylen <= sizeof(key)
+assertion failed: l <= sizeof(c->iv)
+assertion failed: niv <= EVP_MAX_IV_LENGTH
+assertion failed: nkey <= EVP_MAX_KEY_LENGTH
 asset
+associatedDomain
+associatedName
 asyncSend
 asyncStartEncode
+async_ctx_new
+async_job_new
+async_start_func
 atan2f
 atof
 atoi
+attrib
+attribute error
 attributes
+audio
+auth-any
+auth-dss
+auth-ecdsa
+auth-gost01
+auth-gost12
+auth-null
+auth-psk
+auth-rsa
+auth-srp
+authAttrs
+auth_attr
+authorityInfoAccess
+authorityKeyIdentifier
+authorityRevocationList
+authsafes
 auto
 automaticBandwidth
 automaticStreamFormatWidth
+aux error
 avrt.dll
+aybSr
+b2i_PVK_bio
+b2i_dss
+b2i_rsa
+b64_new
+b64_read_asn1
+bB"`3
+bJ*h
+bN.l
 bS11*?
+bV}TS
+b\fLM%
+b\fzUkm
+b\nS)7
+b]jY
 backoffRecoveryCoefficient
 bad AC huff
 bad APP len
@@ -3164,6 +5587,7 @@ bad TQ
 bad V
 bad allocation
 bad array new length
+bad base64 decode
 bad bpp
 bad cast
 bad code lengths
@@ -3173,21 +5597,86 @@ bad component count
 bad compression
 bad conversion
 bad ctype
+bad decrypt
 bad dist
+bad e value
+bad end line
 bad file
 bad filter method
+bad fixed header decrypt
+bad fopen mode
 bad format
+bad generator
 bad huffman code
 bad interlace method
+bad ip address
+bad iv chars
+bad key length
+bad magic number
 bad masks
+bad object
+bad object header
+bad pad byte count
 bad palette
+bad password read
+bad pkcs7 type
+bad q value
+bad reciprocal
 bad req_comp
+bad selector
+bad signature
 bad sizes
 bad tRNS len
+bad template
+bad type
+bad version number
+bad x509 filetype
 bad zlib header
+base
+base64 decode error
+base64 encoding
 baseColorFactor
 baseColorTexture
+basicConstraints
+basicOCSPResponse
+bcrypt.dll
+bf-cbc
+bf-cfb
+bf-ecb
+bf-ofb
 bg_bg
+bignum out of range
+bignum routines
+bignum too long
+bignum_to_string
+bind
+bind_engine
+bio write failure
+bio_make_pair
+bio_read_intern
+bio_write_intern
+biometricInfo
+bits too small
+bitstr_cb
+blake2b512
+blake2s256
+block type is not 01
+block type is not 02
+blockSize
+blowfish
+bmNP
+bmpstring is wrong length
+bn dec2bn error
+bn decode error
+bn error
+bn lib
+bn to asn1 integer error
+bn_compute_wNAF
+bn_expand_internal
+bn_set_words
+bn_to_asn1_string
+bnrand
+bnrand_range
 bonemask_fingeraux.txt
 bonemask_grip.txt
 bonemask_index.txt
@@ -3201,19 +5690,66 @@ bonemask_squeeze.txt
 bonemask_thumb.txt
 bonemask_thumb_and_wrist.txt
 bool
+boolean is wrong length
+brainpoolP160r1
+brainpoolP160t1
+brainpoolP192r1
+brainpoolP192t1
+brainpoolP224r1
+brainpoolP224t1
+brainpoolP256r1
+brainpoolP256t1
+brainpoolP320r1
+brainpoolP320t1
+brainpoolP384r1
+brainpoolP384t1
+brainpoolP512r1
+brainpoolP512t1
 brazilian
+broken pipe
 buffer
+buffer too small
 bufferFrameCount = %d, samples per sec = %d, channels = %d bits_per_sample=%d nBlockAlign=%d\n
 bufferView
 bufferViews
+buffer_ctrl
 buffers
+build_chain
+buildingName
 builtin
 bulgarian
+businessCategory
+by_file_ctrl
 byteLength
 byteOffset
 byteStride
 bytes
 c!!B0
+c2i_ASN1_BIT_STRING
+c2i_ASN1_INTEGER
+c2i_ASN1_OBJECT
+c2i_ibuf
+c2i_uint64_int
+c2onb191v4
+c2onb191v5
+c2onb239v4
+c2onb239v5
+c2pnb163v1
+c2pnb163v2
+c2pnb163v3
+c2pnb176v1
+c2pnb208w1
+c2pnb272w1
+c2pnb304w1
+c2pnb368w1
+c2tnb191v1
+c2tnb191v2
+c2tnb191v3
+c2tnb239v1
+c2tnb239v2
+c2tnb239v3
+c2tnb359v1
+c2tnb431r1
 c:\buildslave\steamvr_rel_win64\build\src\common\generated_proto_x64\steammessages_unified_base.steamclient.pb.cc
 c:\buildslave\steamvr_rel_win64\build\src\common\generated_proto_x64\vr_vrlink.pb.cc
 c:\buildslave\steamvr_rel_win64\build\src\common\generated_proto_x64\vrshared_base.pb.cc
@@ -3224,13 +5760,14 @@ c:\buildslave\steamvr_rel_win64\build\src\thirdparty\protobuf-2.6.1\src\google\p
 c:\buildslave\steamvr_rel_win64\build\src\vrlink\common\svlfec.cpp:1078
 c:\buildslave\steamvr_rel_win64\build\src\vrlink\common\svlfec.cpp:761
 c:\buildslave\steamvr_rel_win64\build\src\vrlink\driver_vrlink\Retail\win64\2017\driver_vrlink.pdb
-c:\buildslave\steamvr_rel_win64\build\src\vrlink\driver_vrlink\hmd.cpp:2466
-c:\buildslave\steamvr_rel_win64\build\src\vrlink\driver_vrlink\hmd.cpp:2815
-c:\buildslave\steamvr_rel_win64\build\src\vrlink\driver_vrlink\hmd.cpp:2927
+c:\buildslave\steamvr_rel_win64\build\src\vrlink\driver_vrlink\hmd.cpp:2483
+c:\buildslave\steamvr_rel_win64\build\src\vrlink\driver_vrlink\hmd.cpp:2832
+c:\buildslave\steamvr_rel_win64\build\src\vrlink\driver_vrlink\hmd.cpp:2944
 c:\buildslave\steamvr_rel_win64\build\src\vrlink\driver_vrlink\hmdd3d11.cpp:1618
 c:\buildslave\steamvr_rel_win64\build\src\vrlink\driver_vrlink\steamvrlink.cpp
 c:\buildslave\steamvr_rel_win64\build\src\vrlink\driver_vrlink\videonvenc.cpp:1391
 c=qx
+cACertificate
 cAoption requires an argument -- %c
 cAudBufAvg
 cAudBufMax
@@ -3244,7 +5781,9 @@ cAudOvf
 cAudRew
 cAudUnd
 cFramePhase
+cNAMERecord
 cPingAMS
+cRLSign
 cRXFailFuzz
 cRXerr
 cRXpass
@@ -3253,37 +5792,554 @@ cRunStartO
 cTXFailFuzz
 cTXerr
 cVTXFailFuzz
+caIssuers
+caRepository
+called a function that was disabled at compile-time
+called a function you should not call
+called with even modulus
 calloc
+camellia key setup failed
+camellia-128-cbc
+camellia-128-ccm
+camellia-128-cfb
+camellia-128-cfb1
+camellia-128-cfb8
+camellia-128-cmac
+camellia-128-ctr
+camellia-128-ecb
+camellia-128-gcm
+camellia-128-ofb
+camellia-192-cbc
+camellia-192-ccm
+camellia-192-cfb
+camellia-192-cfb1
+camellia-192-cfb8
+camellia-192-cmac
+camellia-192-ctr
+camellia-192-ecb
+camellia-192-gcm
+camellia-192-ofb
+camellia-256-cbc
+camellia-256-ccm
+camellia-256-cfb
+camellia-256-cfb1
+camellia-256-cfb8
+camellia-256-cmac
+camellia-256-ctr
+camellia-256-ecb
+camellia-256-gcm
+camellia-256-ofb
+camellia128
+camellia192
+camellia256
+camellia_init_key
 camera
 cameras
 can't merge dc and ac
+cannot find config variable
+cannot invert
+cannot load certificate
+cannot load private key
+cant check dh key
+cant pack structure
+capwapAC
+capwapWTP
+caseIgnoreIA5StringSyntax
+cast5-cbc
+cast5-cfb
+cast5-ecb
+cast5-ofb
 cc_generic_services
 ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU:
+cert
+cert already in hash table
+certBag
+certId
+certStatus
+cert_info
+certicom-arc
+certificate already present
+certificate extensions
+certificate has no keyid
+certificate verify error
+certificateHold
+certificateIssuer
+certificatePolicies
+certificateRevocationList
+certificates
+certs
+cessationOfOperation
+chacha20
+chacha20-poly1305
+chacha20_poly1305_ctrl
+challenge
+challengePassword
 channels
+characteristic-two-field
+check invalid j value
+check invalid q value
+check p not prime
+check p not safe prime
+check pubkey invalid
+check pubkey too large
+check pubkey too small
+check q not prime
+check_bitlen_dsa
+check_bitlen_rsa
+check_content
+check_name_constraints
+check_padding_md
+check_policy
 children
+cipher
+cipher has no object identifier
+cipher initialisation error
+cipher is null
+cipher not initialized
+cipher parameter error
+cipher parameter initialisation error
+cleanup method function failed
+clearance
+cleartext track 2
+client
+clientAuth
 clientTCPEnable
 clientTCPRemote
 clientUDPEnable
 clientUDPRemote
+close
+close_console
+closing session
+cmac
+cmcCA
+cmcRA
+cmd not executable
+cmll_t4_init_key
+cms datafinal error
+cms lib
+cms_CompressedData_create
+cms_CompressedData_init_bio
+cms_DigestAlgorithm_find_ctx
+cms_DigestAlgorithm_init_bio
+cms_DigestedData_do_final
+cms_EncryptedContent_init
+cms_EncryptedContent_init_bio
+cms_EnvelopedData_init_bio
+cms_Receipt_verify
+cms_RecipientInfo_kari_encrypt
+cms_RecipientInfo_kekri_decrypt
+cms_RecipientInfo_kekri_encrypt
+cms_RecipientInfo_ktri_decrypt
+cms_RecipientInfo_ktri_encrypt
+cms_RecipientInfo_pwri_crypt
+cms_SignerInfo_content_sign
+cms_add1_signingTime
+cms_copy_content
+cms_copy_messageDigest
+cms_encode_Receipt
+cms_env_asn1_ctrl
+cms_enveloped_data_init
+cms_get0_certificate_choices
+cms_get0_econtent_type
+cms_get0_enveloped
+cms_get0_revocation_choices
+cms_get0_signed
+cms_msgSigDigest_add1
+cms_sd_asn1_ctrl
+cms_set1_SignerIdentifier
+cms_set1_ias
+cms_set1_keyid
+cms_signed_data_init
+cms_signerinfo_verify_cert
+codeSigning
+coefficient%d:
+coefficient:
+cofactor
 collectComments
+collect_data
 color
 com.google.protobufB
+command not supported
+command takes input
+command takes no input
+common libcrypto routines
+common ok and cancel characters
+commonName
+compatible
 componentType
+compressionAlgorithm
+compute_key
 coneInnerAngle
 coneOuterAngle
 coneOuterGain
 config
+configuration file routines
+conflicting engine id
+conin$
+conn_ctrl
+conn_state
+connect
+connect error
+conout$
 const unsigned int __cdecl CAnimResource::MyTypeID(void)
 const unsigned int __cdecl CBoneMaskResource::MyTypeID(void)
 const unsigned int __cdecl CKeyframedDataResource::MyTypeID(void)
 const unsigned int __cdecl Reflection::Object::MyTypeID(void)
+content and data present
+content not found
+content type mismatch
+content type not compressed data
+content type not data
+content type not enveloped data
+content type not signed data
+content types
+content verify error
+contentEncryptionAlgorithm
+contentType
+content_type
+contentidentifier mismatch
+contents
+contentsOfAdmissions
+context not initialised
+control command failed
 controllerType
+coordinates out of range
+copy
+copy error
+copy_email
+copy_issuer
 copyright
 corrupt
+costParameter
+could not bind to the requested symbol name
+could not load the shared library
+could not set engine
+could not set time
+could not unload the shared library
 count
+counter
+counter:
+countersignature
+countryCode3c
+countryCode3n
+countryName
+critical
+crl already delta
+crl verify failure
+crlBag
+crlDistributionPoints
+crlNum
+crlNumber
+crlTime
+crlUrl
+crls
+crlsign
+crossCertificatePair
+crypto\asn1\a_bitstr.c
+crypto\asn1\a_d2i_fp.c
+crypto\asn1\a_digest.c
+crypto\asn1\a_dup.c
+crypto\asn1\a_int.c
+crypto\asn1\a_mbstr.c
+crypto\asn1\a_object.c
+crypto\asn1\a_strex.c
+crypto\asn1\a_strnid.c
+crypto\asn1\a_time.c
+crypto\asn1\a_verify.c
+crypto\asn1\ameth_lib.c
+crypto\asn1\asn1_gen.c
+crypto\asn1\asn1_lib.c
+crypto\asn1\asn_moid.c
+crypto\asn1\asn_mstbl.c
+crypto\asn1\asn_pack.c
+crypto\asn1\bio_asn1.c
+crypto\asn1\d2i_pr.c
+crypto\asn1\evp_asn1.c
+crypto\asn1\p5_scrypt.c
+crypto\asn1\t_pkey.c
+crypto\asn1\tasn_dec.c
+crypto\asn1\tasn_enc.c
+crypto\asn1\tasn_fre.c
+crypto\asn1\tasn_new.c
+crypto\asn1\tasn_utl.c
+crypto\asn1\x_int64.c
+crypto\async\async.c
+crypto\bio\b_print.c
+crypto\bio\bf_buff.c
+crypto\bio\bio_lib.c
+crypto\bio\bss_file.c
+crypto\bio\bss_mem.c
+crypto\bn\bn_add.c
+crypto\bn\bn_blind.c
+crypto\bn\bn_ctx.c
+crypto\bn\bn_div.c
+crypto\bn\bn_exp.c
+crypto\bn\bn_exp2.c
+crypto\bn\bn_gcd.c
+crypto\bn\bn_gf2m.c
+crypto\bn\bn_intern.c
+crypto\bn\bn_lib.c
+crypto\bn\bn_mod.c
+crypto\bn\bn_mont.c
+crypto\bn\bn_print.c
+crypto\bn\bn_rand.c
+crypto\bn\bn_recp.c
+crypto\bn\bn_shift.c
+crypto\bn\bn_sqrt.c
+crypto\buffer\buffer.c
+crypto\cmac\cmac.c
+crypto\cms\cms_asn1.c
+crypto\cms\cms_att.c
+crypto\cms\cms_dd.c
+crypto\cms\cms_enc.c
+crypto\cms\cms_env.c
+crypto\cms\cms_io.c
+crypto\cms\cms_kari.c
+crypto\cms\cms_lib.c
+crypto\cms\cms_pwri.c
+crypto\cms\cms_sd.c
+crypto\conf\conf_api.c
+crypto\conf\conf_def.c
+crypto\conf\conf_lib.c
+crypto\conf\conf_mod.c
+crypto\conf\conf_ssl.c
+crypto\ct\ct_oct.c
+crypto\ct\ct_sct.c
+crypto\ct\ct_x509v3.c
+crypto\dh\dh_ameth.c
+crypto\dh\dh_asn1.c
+crypto\dh\dh_check.c
+crypto\dh\dh_gen.c
+crypto\dh\dh_kdf.c
+crypto\dh\dh_key.c
+crypto\dh\dh_lib.c
+crypto\dh\dh_pmeth.c
+crypto\dh\dh_rfc7919.c
+crypto\dsa\dsa_ameth.c
+crypto\dsa\dsa_asn1.c
+crypto\dsa\dsa_gen.c
+crypto\dsa\dsa_lib.c
+crypto\dsa\dsa_ossl.c
+crypto\dsa\dsa_pmeth.c
+crypto\dso\dso_lib.c
+crypto\ec\ec2_oct.c
+crypto\ec\ec2_smpl.c
+crypto\ec\ec_ameth.c
+crypto\ec\ec_asn1.c
+crypto\ec\ec_check.c
+crypto\ec\ec_curve.c
+crypto\ec\ec_key.c
+crypto\ec\ec_kmeth.c
+crypto\ec\ec_lib.c
+crypto\ec\ec_mult.c
+crypto\ec\ec_oct.c
+crypto\ec\ec_pmeth.c
+crypto\ec\ec_print.c
+crypto\ec\ecdh_ossl.c
+crypto\ec\ecdsa_ossl.c
+crypto\ec\ecdsa_sign.c
+crypto\ec\ecdsa_vrf.c
+crypto\ec\eck_prn.c
+crypto\ec\ecp_mont.c
+crypto\ec\ecp_nistz256.c
+crypto\ec\ecp_oct.c
+crypto\ec\ecp_smpl.c
+crypto\ec\ecx_meth.c
+crypto\engine\eng_cnf.c
+crypto\engine\eng_ctrl.c
+crypto\engine\eng_dyn.c
+crypto\engine\eng_fat.c
+crypto\engine\eng_init.c
+crypto\engine\eng_lib.c
+crypto\engine\eng_list.c
+crypto\engine\eng_table.c
+crypto\engine\tb_asnmth.c
+crypto\engine\tb_cipher.c
+crypto\engine\tb_digest.c
+crypto\engine\tb_pkmeth.c
+crypto\err\err.c
+crypto\evp\bio_b64.c
+crypto\evp\bio_enc.c
+crypto\evp\cmeth_lib.c
+crypto\evp\digest.c
+crypto\evp\e_aes.c
+crypto\evp\e_aria.c
+crypto\evp\e_camellia.c
+crypto\evp\e_chacha20_poly1305.c
+crypto\evp\e_des3.c
+crypto\evp\encode.c
+crypto\evp\evp_cnf.c
+crypto\evp\evp_key.c
+crypto\evp\evp_lib.c
+crypto\evp\evp_pbe.c
+crypto\evp\evp_pkey.c
+crypto\evp\m_sigver.c
+crypto\evp\p5_crpt.c
+crypto\evp\p5_crpt2.c
+crypto\evp\p_lib.c
+crypto\evp\p_sign.c
+crypto\evp\pbe_scrypt.c
+crypto\evp\pmeth_fn.c
+crypto\evp\pmeth_lib.c
+crypto\ex_data.c
+crypto\hmac\hm_pmeth.c
+crypto\hmac\hmac.c
+crypto\init.c
+crypto\kdf\hkdf.c
+crypto\kdf\scrypt.c
+crypto\kdf\tls1_prf.c
+crypto\lhash\lhash.c
+crypto\modes\ocb128.c
+crypto\o_str.c
+crypto\objects\o_names.c
+crypto\objects\obj_dat.c
+crypto\objects\obj_lib.c
+crypto\objects\obj_xref.c
+crypto\ocsp\v3_ocsp.c
+crypto\pem\pem_lib.c
+crypto\pem\pem_pkey.c
+crypto\pkcs12\p12_add.c
+crypto\pkcs12\p12_crpt.c
+crypto\pkcs12\p12_decr.c
+crypto\pkcs12\p12_key.c
+crypto\pkcs12\p12_kiss.c
+crypto\pkcs12\p12_mutl.c
+crypto\pkcs12\p12_utl.c
+crypto\pkcs7\pk7_attr.c
+crypto\pkcs7\pk7_doit.c
+crypto\pkcs7\pk7_lib.c
+crypto\poly1305\poly1305_pmeth.c
+crypto\rand\drbg_lib.c
+crypto\rand\rand_lib.c
+crypto\rsa\rsa_ameth.c
+crypto\rsa\rsa_chk.c
+crypto\rsa\rsa_crpt.c
+crypto\rsa\rsa_gen.c
+crypto\rsa\rsa_mp.c
+crypto\rsa\rsa_none.c
+crypto\rsa\rsa_oaep.c
+crypto\rsa\rsa_ossl.c
+crypto\rsa\rsa_pk1.c
+crypto\rsa\rsa_pmeth.c
+crypto\rsa\rsa_pss.c
+crypto\rsa\rsa_saos.c
+crypto\rsa\rsa_sign.c
+crypto\rsa\rsa_ssl.c
+crypto\rsa\rsa_x931.c
+crypto\siphash\siphash_pmeth.c
+crypto\sm2\sm2_crypt.c
+crypto\sm2\sm2_pmeth.c
+crypto\sm2\sm2_sign.c
+crypto\stack\stack.c
+crypto\store\loader_file.c
+crypto\store\store_lib.c
+crypto\threads_win.c
+crypto\ui\ui_lib.c
+crypto\x509\x509_att.c
+crypto\x509\x509_cmp.c
+crypto\x509\x509_obj.c
+crypto\x509\x509name.c
+crypto\x509\x_name.c
+crypto\x509\x_pubkey.c
+crypto\x509v3\pcy_cache.c
+crypto\x509v3\pcy_data.c
+crypto\x509v3\v3_addr.c
+crypto\x509v3\v3_akey.c
+crypto\x509v3\v3_alt.c
+crypto\x509v3\v3_asid.c
+crypto\x509v3\v3_bcons.c
+crypto\x509v3\v3_bitst.c
+crypto\x509v3\v3_conf.c
+crypto\x509v3\v3_cpols.c
+crypto\x509v3\v3_crld.c
+crypto\x509v3\v3_enum.c
+crypto\x509v3\v3_extku.c
+crypto\x509v3\v3_ia5.c
+crypto\x509v3\v3_info.c
+crypto\x509v3\v3_ncons.c
+crypto\x509v3\v3_pci.c
+crypto\x509v3\v3_pcons.c
+crypto\x509v3\v3_pmaps.c
+crypto\x509v3\v3_skey.c
+crypto\x509v3\v3_sxnet.c
+crypto\x509v3\v3_tlsf.c
+crypto\x509v3\v3_utl.c
+cryptocom
+cryptopro
 cs_cz
+ct_base64_decode
+ct_cert_scts
+ct_precert_poison
+ct_precert_scts
+ct_precert_signer
+ct_v1_log_id_from_pkey
+ctlog_new_from_conf
+ctlog_store_load_ctx_new
+ctlog_store_load_log
+ctrl command not implemented
+ctrl error
+ctrl failure
+ctrl not implemented
+ctrl operation not implemented
 ctype
+cursor_index
+curve
+curve does not support ecdh
+curve does not support signing
 czech
+d e not congruent to 1
+d.allOrFirstTier
+d.authenticatedData
+d.certificate
+d.compressedData
+d.cpsuri
+d.crl
+d.dNSName
+d.data
+d.digest
+d.digestedData
+d.directoryName
+d.ediPartyName
+d.encrypted
+d.encryptedData
+d.enveloped
+d.envelopedData
+d.extendedCertificate
+d.iPAddress
+d.issuerAndSerialNumber
+d.kari
+d.kekri
+d.ktri
+d.ori
+d.originatorKey
+d.other
+d.otherName
+d.pwri
+d.rKeyId
+d.receiptList
+d.registeredID
+d.rfc822Name
+d.sign
+d.signedData
+d.signed_and_enveloped
+d.subjectKeyIdentifier
+d.uniformResourceIdentifier
+d.usernotice
+d.v1AttrCert
+d.v2AttrCert
+d.x400Address
+d2i ecpkparameters failure
+d2i_ASN1_OBJECT
+d2i_ASN1_UINTEGER
+d2i_AutoPrivateKey
+d2i_ECPKParameters
+d2i_ECParameters
+d2i_ECPrivateKey
+d2i_PKCS8PrivateKey_bio
+d2i_PKCS8PrivateKey_fp
+d2i_PrivateKey
+d2i_PublicKey
+d2i_ocsp_nonce
 d3d11.dll
 d45H
 dBWMux
@@ -3295,21 +6351,35 @@ dFrmsAddl
 dFrmsEarly
 dFrmsLate
 dHMDCompUS
+dITRedirect
 dInsideQ
+dNSDomain
 dOutsideQ
 dPingThr
+dPq\n
 dPresThr
 dProblemBW
 dQThrottle
 dRelFOV
 dRunStart
+dSAQuality
 dTXQ
 dTargetBW
 dV22tN::
+dZ!2.
 da_dk
+dane_i2d
 danish
 dashboard_tutorial_dismissed
 data
+data greater than mod len
+data is wrong
+data not multiple of block length
+data too large
+data too large for key size
+data too large for modulus
+data too small
+data too small for key size
 data:application/gltf-buffer;base64,
 data:application/octet-stream;base64,
 data:image/bmp;base64,
@@ -3317,21 +6387,181 @@ data:image/gif;base64,
 data:image/jpeg;base64,
 data:image/png;base64,
 data:text/plain;base64,
+dataEncipherment
+data_collect_method
+date
 dbgEncTimeMS
 dbgRemap
 dbgSendTimeMS
 dbgStartEnc
 dbgSyncOff
 dbgTXWaitMS
+dcObject
+dcobject
 de_de
 debugRegionColoring
+decipherOnly
+decode error
+decrypt error
+def_load
+def_load_bio
+def_serial_cb
+def_time_cb
+default
+default_algorithms
+deltaCRL
+deltaRevocationList
+depth exceeded
 deque<T> too long
+des-cbc
+des-cdmf
+des-cfb
+des-cfb1
+des-cfb8
+des-ecb
+des-ede
+des-ede-cbc
+des-ede-cfb
+des-ede-ecb
+des-ede-ofb
+des-ede3
+des-ede3-cbc
+des-ede3-cfb
+des-ede3-cfb1
+des-ede3-cfb8
+des-ede3-ecb
+des-ede3-ofb
+des-ofb
+des3
+des3-wrap
+des_ede3_wrap_cipher
+description
+destinationIndicator
+desx
+desx-cbc
+detached content
+dgram_sctp_new
+dgram_sctp_read
+dgram_sctp_write
+dh-cofactor-kdf
+dh-std-kdf
+dhKeyAgreement
+dhSinglePass-cofactorDH-sha1kdf-scheme
+dhSinglePass-cofactorDH-sha224kdf-scheme
+dhSinglePass-cofactorDH-sha256kdf-scheme
+dhSinglePass-cofactorDH-sha384kdf-scheme
+dhSinglePass-cofactorDH-sha512kdf-scheme
+dhSinglePass-stdDH-sha1kdf-scheme
+dhSinglePass-stdDH-sha224kdf-scheme
+dhSinglePass-stdDH-sha256kdf-scheme
+dhSinglePass-stdDH-sha384kdf-scheme
+dhSinglePass-stdDH-sha512kdf-scheme
+dh_builtin_genparams
+dh_cms_decrypt
+dh_cms_set_peerkey
+dh_cms_set_shared_info
+dh_pad
+dh_param
+dh_param_decode
+dh_paramgen_generator
+dh_paramgen_prime_len
+dh_paramgen_subprime_len
+dh_paramgen_type
+dh_pkey_public_check
+dh_priv_decode
+dh_priv_encode
+dh_pub_decode
+dh_pub_encode
+dh_rfc5114
+dhpublicnumber
+different key types
+different parameters
+digest
+digest and key type not supported
+digest does not match
+digest err
+digest failure
+digest not allowed
+digest too big for rsa key
+digestAlgorithm
+digestAlgorithms
+digest_alg
+digest_enc_alg
+digest_update
+digestsize
+digital envelope routines
+digitalSignature
+dinfo
+dirName
+dir_ctrl
+directory
+directory services (X.500)
+directory services - algorithms
+dirname error
 disableUberLink
+discriminant is zero
 displayFrequency
 distanceModel
+distinguishedName
+distpoint
+distpoint already set
+div by zero
+dl_bind_func
+dl_load
+dl_merger
+dl_name_converter
+dl_unload
+dlfcn_bind_func
+dlfcn_load
+dlfcn_merger
+dlfcn_name_converter
+dlfcn_unload
+dmdName
+dmp1
+dmp1 not congruent to d
+dmq1
+dmq1 not congruent to d
+dnQualifier
+dnsName
+do_EC_KEY_print
+do_PVK_body
+do_PVK_header
+do_b2i
+do_b2i_bio
+do_blob_header
+do_buf
+do_create
+do_dh_print
+do_dirname
+do_dump
+do_ext_i2d
+do_ext_nconf
+do_i2b
+do_pk8pkey
+do_pk8pkey_fp
+do_pkcs7_signed_attrib
+do_sigver_init
+do_tcreate
+doapr_outch
 docklocation
+document
+documentAuthor
+documentIdentifier
+documentLocation
+documentPublisher
+documentSeries
+documentTitle
+documentVersion
+domain
+domainComponent
+domainRelatedObject
 double
 doubleSided
+drbg already initialized
+drbg not initialised
+drbg_bytes
+drbg_get_entropy
+drbg_setup
 driver_vrlink
 driver_vrlink.dll
 driver_vrlink: Display Frequency: %f\n
@@ -3339,18 +6569,163 @@ driver_vrlink: IPD: %f\n
 driver_vrlink: Peer Minor Version Number: %d\n
 driver_vrlink: Render Target: %d %d\n
 driver_vrlink: Serial Number: %s\n
+dsa routines
+dsaEncryption
+dsaEncryption-old
+dsaWithSHA
+dsaWithSHA1
+dsaWithSHA1-old
+dsa_builtin_paramgen
+dsa_builtin_paramgen2
+dsa_param_decode
+dsa_paramgen_bits
+dsa_paramgen_md
+dsa_paramgen_q_bits
+dsa_priv_decode
+dsa_priv_encode
+dsa_pub_decode
+dsa_pub_encode
+dsa_with_SHA224
+dsa_with_SHA256
+dsa_with_SHA3-224
+dsa_with_SHA3-256
+dsa_with_SHA3-384
+dsa_with_SHA3-512
+dsa_with_SHA384
+dsa_with_SHA512
+dso already loaded
+dso not found
+dstu28147
+dstu28147-cfb
+dstu28147-ofb
+dstu28147-wrap
+dstu34311
+dstu4145be
+dstu4145le
 dummy
+duplicate zone id
+duration
 dutch
+dvcs
+dynamic
+dynamic_ctrl
+dynamic_get_data_ctx
+dynamic_load
+dynamic_path
+dynamic_set_data_ctx
 eCapture
 eCommunications
 eConsole
+eContent
+eContentType
 eMultimedia
 eRender
+e\roL
+ec group new by name failure
+ec_GF2m_montgomery_point_multiply
+ec_GF2m_simple_field_inv
+ec_GF2m_simple_group_check_discriminant
+ec_GF2m_simple_group_set_curve
+ec_GF2m_simple_ladder_post
+ec_GF2m_simple_ladder_pre
+ec_GF2m_simple_oct2point
+ec_GF2m_simple_point2oct
+ec_GF2m_simple_point_get_affine_coordinates
+ec_GF2m_simple_point_set_affine_coordinates
+ec_GF2m_simple_points_mul
+ec_GF2m_simple_set_compressed_coordinates
+ec_GFp_mont_field_decode
+ec_GFp_mont_field_encode
+ec_GFp_mont_field_inv
+ec_GFp_mont_field_mul
+ec_GFp_mont_field_set_to_one
+ec_GFp_mont_field_sqr
+ec_GFp_mont_group_set_curve
+ec_GFp_nist_field_mul
+ec_GFp_nist_field_sqr
+ec_GFp_nist_group_set_curve
+ec_GFp_nistp224_group_set_curve
+ec_GFp_nistp224_point_get_affine_coordinates
+ec_GFp_nistp224_points_mul
+ec_GFp_nistp256_group_set_curve
+ec_GFp_nistp256_point_get_affine_coordinates
+ec_GFp_nistp256_points_mul
+ec_GFp_nistp521_group_set_curve
+ec_GFp_nistp521_point_get_affine_coordinates
+ec_GFp_nistp521_points_mul
+ec_GFp_simple_blind_coordinates
+ec_GFp_simple_field_inv
+ec_GFp_simple_group_check_discriminant
+ec_GFp_simple_group_set_curve
+ec_GFp_simple_make_affine
+ec_GFp_simple_oct2point
+ec_GFp_simple_point2oct
+ec_GFp_simple_point_get_affine_coordinates
+ec_GFp_simple_point_set_affine_coordinates
+ec_GFp_simple_points_make_affine
+ec_GFp_simple_set_compressed_coordinates
+ec_asn1_group2curve
+ec_asn1_group2fieldid
+ec_group_new_from_data
+ec_key_simple_check_key
+ec_key_simple_oct2priv
+ec_key_simple_priv2oct
+ec_param_enc
+ec_paramgen_curve
+ec_pkey_check
+ec_pkey_param_check
+ec_pre_comp_new
+ec_scalar_mul_ladder
+ec_wNAF_mul
+ec_wNAF_precompute_mult
+ecd_item_verify
+ecdh_cms_decrypt
+ecdh_cms_set_shared_info
+ecdh_cofactor_mode
+ecdh_kdf_md
+ecdh_simple_compute_key
+ecdsa-with-Recommended
+ecdsa-with-SHA1
+ecdsa-with-SHA224
+ecdsa-with-SHA256
+ecdsa-with-SHA384
+ecdsa-with-SHA512
+ecdsa-with-Specified
+ecdsa_with_SHA3-224
+ecdsa_with_SHA3-256
+ecdsa_with_SHA3-384
+ecdsa_with_SHA3-512
+echo_console
+eckey_param2type
+eckey_param_decode
+eckey_priv_decode
+eckey_priv_encode
+eckey_pub_decode
+eckey_pub_encode
+eckey_type2param
+ecp_nistz256_get_affine
+ecp_nistz256_inv_mod_ord
+ecp_nistz256_mult_precompute
+ecp_nistz256_points_mul
+ecp_nistz256_pre_comp_new
+ecp_nistz256_windowed_mul
+ecx_key_op
+ecx_priv_encode
+ecx_pub_encode
+eeX=
+ei\t&H
 el_gr
+elliptic curve routines
+email
+email:
+emailAddress
+emailCA
+emailProtection
 emissiveFactor
 emissiveTexture
 emitter
 emitters
+empty file structure
 en_us
 enable
 enableAmfEncoder
@@ -3361,65 +6736,213 @@ enableQoS
 enableTimedRetry
 encResets
 encSubmitFrameMS
+enc_data
+enc_digest
+enc_key
+enc_new
+encapContentInfo
+encipherOnly
+encode error
+encode_pkcs1
+encoding error
+encrypt error
+encrypted track 2
+encryptedContent
+encryptedContentInfo
+encryptedKey
+encryption
+encryption ctrl failure
+encryption not supported for this key type
 end of input
+engine configuration error
+engine is not in the list
+engine routines
+engine section error
+engine_id
+engine_list_add
+engine_list_remove
+engine_table_register
+engine_unlocked_finish
+engines
+engines section error
 english
+enhancedSearchGuide
+enterprises
+entityUInfo
+entropy input too long
+entropy out of range
 enum
 enum_description
 enum_value_description
+err:%lx:%lx:%lx:%lx
 error
+error adding recipient
+error converting private key
+error converting zone
+error creating extension
+error entropy pool was ignored
+error getting public key
+error getting time
+error in extension
+error in nextupdate field
+error in thisupdate field
+error initialising drbg
+error instantiating drbg
+error loading dso
+error loading section
+error parsing url
+error reading messagedigest attribute
+error retrieving additional input
+error retrieving entropy
+error retrieving nonce
+error setting cipher
+error setting cipher params
+error setting encrypted data type
+error setting fips mode
+error setting key
+error setting recipientinfo
+error verifying pkcs12 mac
 error.png
+error:%08lX:%s:%s:%s
 errorsAsFatal
 es_es
 es_mx
+ess add signing cert error
+ess add signing cert v2 error
+ess signing certificate error
+ess_CERT_ID_new_init
+ess_SIGNING_CERT_new_init
+ess_add_signing_cert
+ess_add_signing_cert_v2
+ess_cert_id_v2_new_init
+ess_signing_cert_v2_new_init
 eventtest\n
 eventwritestringshm
+evp_EncryptDecryptUpdate
 evtype
 exception thrown in JSON library
+excluded
+excludedSubtrees
 exit
 expaexpaexpaexpand 3nd 3nd 3nd 32-by2-by2-by2-byte kte kte kte kexpand 32-byte k
 expand 32-byte k
 expand 32-byte kexpand 32-byte k
+expand on static bignum data
+expected a section name
 expected marker
+expecting a dh key
+expecting a dsa key
+expecting a ec key
+expecting a poly1305 key
+expecting a siphash key
+expecting an hmac key
+expecting an integer
+expecting an object
+expecting an rsa key
 expecting another \u token to begin the second half of a unicode surrogate pair
+expecting private key blob
+expecting public key blob
+experimental
 experimental_map_key
 expf
+explicit
+explicit length mismatch
+explicit tag not constructed
+explicitText
+exponent%d:
+exponent1:
+exponent2:
+exptext
+extReq
 extend .$0 {\n
+extendedCertificateAttributes
+extendedKeyUsage
+extendedStatus
 extendee
+extension exists
+extension name error
+extension not found
+extension setting not supported
+extension value error
 extension_range
 extensions
 extensionsRequired
 extensionsUsed
 external_drivers
 extras
+f&dy
+fC\tc
 fNt7
+facsimileTelephoneNumber
 failIfExtra
+failed loading private key
+failed loading public key
+failed to create lock
 failed to get EncodingTimeStartUS property from frame [ %s ]\n
 failed to get SubmitIndex propety from frame [ %s ]\n
 failed to get frame type property from frame [ %s ]\n
 failed to set EncodingTimeStartUS as propety on frame [ %s ]\n
 failed to set SubmitIndex as propety on frame [ %s ]\n
+failed to set pool
+failed to swap context
+failure
 false
 false literal
 false:4\n\vdescription
 false:<\n
+fatal
+favouriteDrink
 fcTZ
 fclose
+fcntl
 feof
+ferror
+ffdhe2048
+ffdhe3072
+ffdhe4096
+ffdhe6144
+ffdhe8192
 ffgvh
 fflush
+fflush()
 fgetc
 fgetpos
+fgets
 fi_fi
 field
+field missing
+field too large
+field=
+fieldID
+fieldType
 fields
 file
+file:
+file_ctrl
+file_find
+file_get_pass
+file_load
+file_load_try_decode
+file_name_to_uri
+file_open
+file_read
+filename too big
+fingerprint size does not match digest
+finish failed
 finnish
+fips mode not supported
+fips_mode
 first not IHDR
+first num too large
+first octet invalid
 fixed32
 fixed64
+flags
 float
+flushing
 fminf
 fopen
+fopen('
 force10bit
 forceBaselineVideoFEC
 force_emit_message
@@ -3428,6 +6951,7 @@ foveationMode
 foxnet
 fputc
 fputs
+fqi\tH
 fr_fr
 frame_controller
 frame_controller_
@@ -3436,22 +6960,62 @@ frameid
 fread
 free
 french
+frequency
+freshestCRL
+friendlyCountry
+friendlyCountryName
+friendlyName
 frmDeadline
 frmTarget
 fseek
 fsetpos
+fstat
 ftell
+fullname
+func(%lu)
+functionality not supported
 fwrite
 g&3g
+gB>d
 gK99r
 gLimitMBPS
 gain
+general_allocate_boolean
+general_allocate_prompt
+generate cryptogram
+generate error
+generate_key
+generationQualifier
 generator
+generator:
 generic
+generic cryptogram
 german
+get raw key failed
 getDeviceProperty returned empty\n
 getDeviceProperty returned wrong type %d\n
+get_and_lock
+get_cert_by_subject
+get_entropy
+get_header_and_data
+get_name
+get_next_file
+getaddrinfo
+getenv
+gethostbyname
+gethostbyname addr is not af inet
+getnameinfo
+getservbyname
+getsockname
+getsockname error
+getsockname truncated address
+getsockopt
+getting socktype
+gf2m not supported
+ggen
+givenName
 global
+gnames_from_sectname
 google.protobuf"G\n
 google.protobuf.Empty
 google.protobuf.EnumOptions
@@ -3463,28 +7027,450 @@ google.protobuf.MethodOptions
 google.protobuf.ServiceOptions
 google.protobuf.StreamOptions
 google/protobuf/descriptor.proto
+gost-mac
+gost-mac-12
+gost2001
+gost2001cc
+gost2012_256
+gost2012_512
+gost89
+gost89-cbc
+gost89-cnt
+gost89-cnt-12
+gost89-ctr
+gost89-ecb
+gost94
+gost94cc
+grasshopper-cbc
+grasshopper-cfb
+grasshopper-ctr
+grasshopper-ecb
+grasshopper-mac
+grasshopper-ofb
 greek
 group
+group2pkparameters failure
+group=
+h2Wl
 h8,4$
 hHpX
 hOM/
 h\44Q
+h\f90
 hand_right_closeanim.glb
 hand_right_poses.glb
 handle_recenter
 handlers
+hash
+hashAlgorithm
+hashFunc
+header too long
 height
+hex:
+hexinfo
+hexkey
+hexpass
+hexsalt
+hexsecret
+hexseed
 hist
+hkdf
+hl\tJ3o
+hmac
+hmac-md5
+hmac-sha1
+hmac-sha3-224
+hmac-sha3-256
+hmac-sha3-384
+hmac-sha3-512
+hmacWithDstu34311
+hmacWithMD5
+hmacWithSHA1
+hmacWithSHA224
+hmacWithSHA256
+hmacWithSHA384
+hmacWithSHA512
+hmacWithSHA512-224
+hmacWithSHA512-256
+holdInstructionCallIssuer
+holdInstructionCode
+holdInstructionNone
+holdInstructionReject
+homePostalAddress
+homeTelephoneNumber
+host
+houseIdentifier
 hu_hu
 hungarian
 hwnd
+i2a_ASN1_OBJECT
+i2b_PVK
+i2b_PVK_bio
+i2d ecpkparameters failure
+i2d_ASN1_OBJECT
+i2d_ASN1_bio_stream
+i2d_DSA_PUBKEY
+i2d_ECPKParameters
+i2d_ECParameters
+i2d_ECPrivateKey
+i2d_EC_PUBKEY
+i2d_PrivateKey
+i2d_PublicKey
+i2d_RSA_PUBKEY
+i2d_X509_AUX
+i2o_ECPublicKey
+i2o_SCT
+i2o_SCT_LIST
+i2o_SCT_signature
+i2s_ASN1_ENUMERATED
+i2s_ASN1_IA5STRING
+i2s_ASN1_INTEGER
+i2v_AUTHORITY_INFO_ACCESS
+iA5StringSyntax
+iFjt
 iFjtk
 iQ %5.2f
 iRXFrameID=%d
+i\fD8
 i]Wb
+ia5org
+iana
 iauds
+id-DHBasedMac
+id-Gost28147-89-CryptoPro-A-ParamSet
+id-Gost28147-89-CryptoPro-B-ParamSet
+id-Gost28147-89-CryptoPro-C-ParamSet
+id-Gost28147-89-CryptoPro-D-ParamSet
+id-Gost28147-89-CryptoPro-KeyMeshing
+id-Gost28147-89-CryptoPro-Oscar-1-0-ParamSet
+id-Gost28147-89-CryptoPro-Oscar-1-1-ParamSet
+id-Gost28147-89-CryptoPro-RIC-1-ParamSet
+id-Gost28147-89-None-KeyMeshing
+id-Gost28147-89-TestParamSet
+id-Gost28147-89-cc
+id-GostR3410-2001-CryptoPro-A-ParamSet
+id-GostR3410-2001-CryptoPro-B-ParamSet
+id-GostR3410-2001-CryptoPro-C-ParamSet
+id-GostR3410-2001-CryptoPro-XchA-ParamSet
+id-GostR3410-2001-CryptoPro-XchB-ParamSet
+id-GostR3410-2001-ParamSet-cc
+id-GostR3410-2001-TestParamSet
+id-GostR3410-2001DH
+id-GostR3410-94-CryptoPro-A-ParamSet
+id-GostR3410-94-CryptoPro-B-ParamSet
+id-GostR3410-94-CryptoPro-C-ParamSet
+id-GostR3410-94-CryptoPro-D-ParamSet
+id-GostR3410-94-CryptoPro-XchA-ParamSet
+id-GostR3410-94-CryptoPro-XchB-ParamSet
+id-GostR3410-94-CryptoPro-XchC-ParamSet
+id-GostR3410-94-TestParamSet
+id-GostR3410-94-a
+id-GostR3410-94-aBis
+id-GostR3410-94-b
+id-GostR3410-94-bBis
+id-GostR3410-94DH
+id-GostR3411-94-CryptoProParamSet
+id-GostR3411-94-TestParamSet
+id-GostR3411-94-with-GostR3410-2001
+id-GostR3411-94-with-GostR3410-2001-cc
+id-GostR3411-94-with-GostR3410-94
+id-GostR3411-94-with-GostR3410-94-cc
+id-HMACGostR3411-94
+id-PasswordBasedMAC
+id-aca
+id-aca-accessIdentity
+id-aca-authenticationInfo
+id-aca-chargingIdentity
+id-aca-encAttrs
+id-aca-group
+id-aca-role
+id-ad
+id-aes128-CCM
+id-aes128-GCM
+id-aes128-wrap
+id-aes128-wrap-pad
+id-aes192-CCM
+id-aes192-GCM
+id-aes192-wrap
+id-aes192-wrap-pad
+id-aes256-CCM
+id-aes256-GCM
+id-aes256-wrap
+id-aes256-wrap-pad
+id-alg
+id-alg-PWRI-KEK
+id-alg-des40
+id-alg-dh-pop
+id-alg-dh-sig-hmac-sha1
+id-alg-noSignature
+id-camellia128-wrap
+id-camellia192-wrap
+id-camellia256-wrap
+id-cct
+id-cct-PKIData
+id-cct-PKIResponse
+id-cct-crs
+id-ce
+id-characteristic-two-basis
+id-cmc
+id-cmc-addExtensions
+id-cmc-confirmCertAcceptance
+id-cmc-dataReturn
+id-cmc-decryptedPOP
+id-cmc-encryptedPOP
+id-cmc-getCRL
+id-cmc-getCert
+id-cmc-identification
+id-cmc-identityProof
+id-cmc-lraPOPWitness
+id-cmc-popLinkRandom
+id-cmc-popLinkWitness
+id-cmc-queryPending
+id-cmc-recipientNonce
+id-cmc-regInfo
+id-cmc-responseInfo
+id-cmc-revokeRequest
+id-cmc-senderNonce
+id-cmc-statusInfo
+id-cmc-transactionId
+id-ct-asciiTextWithCRLF
+id-ct-xml
+id-dsa-with-sha3-224
+id-dsa-with-sha3-256
+id-dsa-with-sha3-384
+id-dsa-with-sha3-512
+id-dsa-with-sha384
+id-dsa-with-sha512
+id-ecPublicKey
+id-ecdsa-with-sha3-224
+id-ecdsa-with-sha3-256
+id-ecdsa-with-sha3-384
+id-ecdsa-with-sha3-512
+id-hex-multipart-message
+id-hex-partial-message
+id-hmacWithSHA3-224
+id-hmacWithSHA3-256
+id-hmacWithSHA3-384
+id-hmacWithSHA3-512
+id-it
+id-it-caKeyUpdateInfo
+id-it-caProtEncCert
+id-it-confirmWaitTime
+id-it-currentCRL
+id-it-encKeyPairTypes
+id-it-implicitConfirm
+id-it-keyPairParamRep
+id-it-keyPairParamReq
+id-it-origPKIMessage
+id-it-preferredSymmAlg
+id-it-revPassphrase
+id-it-signKeyPairTypes
+id-it-subscriptionRequest
+id-it-subscriptionResponse
+id-it-suppLangTags
+id-it-unsupportedOIDs
+id-kp
+id-mod-attribute-cert
+id-mod-cmc
+id-mod-cmp
+id-mod-cmp2000
+id-mod-crmf
+id-mod-dvcs
+id-mod-kea-profile-88
+id-mod-kea-profile-93
+id-mod-ocsp
+id-mod-qualified-cert-88
+id-mod-qualified-cert-93
+id-mod-timestamp-protocol
+id-on
+id-on-permanentIdentifier
+id-on-personalData
+id-pda
+id-pda-countryOfCitizenship
+id-pda-countryOfResidence
+id-pda-dateOfBirth
+id-pda-gender
+id-pda-placeOfBirth
+id-pe
+id-pkinit
+id-pkip
+id-pkix-mod
+id-pkix1-explicit-88
+id-pkix1-explicit-93
+id-pkix1-implicit-88
+id-pkix1-implicit-93
+id-ppl
+id-ppl-anyLanguage
+id-ppl-independent
+id-ppl-inheritAll
+id-qcs
+id-qcs-pkixQCSyntax-v1
+id-qt
+id-qt-cps
+id-qt-unotice
+id-regCtrl
+id-regCtrl-authenticator
+id-regCtrl-oldCertID
+id-regCtrl-pkiArchiveOptions
+id-regCtrl-pkiPublicationInfo
+id-regCtrl-protocolEncrKey
+id-regCtrl-regToken
+id-regInfo
+id-regInfo-certReq
+id-regInfo-utf8Pairs
+id-rsassa-pkcs1-v1_5-with-sha3-224
+id-rsassa-pkcs1-v1_5-with-sha3-256
+id-rsassa-pkcs1-v1_5-with-sha3-384
+id-rsassa-pkcs1-v1_5-with-sha3-512
+id-scrypt
+id-set
+id-smime-aa
+id-smime-aa-contentHint
+id-smime-aa-contentIdentifier
+id-smime-aa-contentReference
+id-smime-aa-dvcs-dvc
+id-smime-aa-encapContentType
+id-smime-aa-encrypKeyPref
+id-smime-aa-equivalentLabels
+id-smime-aa-ets-CertificateRefs
+id-smime-aa-ets-RevocationRefs
+id-smime-aa-ets-archiveTimeStamp
+id-smime-aa-ets-certCRLTimestamp
+id-smime-aa-ets-certValues
+id-smime-aa-ets-commitmentType
+id-smime-aa-ets-contentTimestamp
+id-smime-aa-ets-escTimeStamp
+id-smime-aa-ets-otherSigCert
+id-smime-aa-ets-revocationValues
+id-smime-aa-ets-sigPolicyId
+id-smime-aa-ets-signerAttr
+id-smime-aa-ets-signerLocation
+id-smime-aa-macValue
+id-smime-aa-mlExpandHistory
+id-smime-aa-msgSigDigest
+id-smime-aa-receiptRequest
+id-smime-aa-securityLabel
+id-smime-aa-signatureType
+id-smime-aa-signingCertificate
+id-smime-aa-signingCertificateV2
+id-smime-aa-smimeEncryptCerts
+id-smime-aa-timeStampToken
+id-smime-alg
+id-smime-alg-3DESwrap
+id-smime-alg-CMS3DESwrap
+id-smime-alg-CMSRC2wrap
+id-smime-alg-ESDH
+id-smime-alg-ESDHwith3DES
+id-smime-alg-ESDHwithRC2
+id-smime-alg-RC2wrap
+id-smime-cd
+id-smime-cd-ldap
+id-smime-ct
+id-smime-ct-DVCSRequestData
+id-smime-ct-DVCSResponseData
+id-smime-ct-TDTInfo
+id-smime-ct-TSTInfo
+id-smime-ct-authData
+id-smime-ct-authEnvelopedData
+id-smime-ct-compressedData
+id-smime-ct-contentCollection
+id-smime-ct-contentInfo
+id-smime-ct-publishCert
+id-smime-ct-receipt
+id-smime-cti
+id-smime-cti-ets-proofOfApproval
+id-smime-cti-ets-proofOfCreation
+id-smime-cti-ets-proofOfDelivery
+id-smime-cti-ets-proofOfOrigin
+id-smime-cti-ets-proofOfReceipt
+id-smime-cti-ets-proofOfSender
+id-smime-mod
+id-smime-mod-cms
+id-smime-mod-ess
+id-smime-mod-ets-eSigPolicy-88
+id-smime-mod-ets-eSigPolicy-97
+id-smime-mod-ets-eSignature-88
+id-smime-mod-ets-eSignature-97
+id-smime-mod-msg-v3
+id-smime-mod-oid
+id-smime-spq
+id-smime-spq-ets-sqt-unotice
+id-smime-spq-ets-sqt-uri
+id-tc26
+id-tc26-agreement
+id-tc26-agreement-gost-3410-2012-256
+id-tc26-agreement-gost-3410-2012-512
+id-tc26-algorithms
+id-tc26-cipher
+id-tc26-cipher-constants
+id-tc26-cipher-gostr3412-2015-kuznyechik
+id-tc26-cipher-gostr3412-2015-kuznyechik-ctracpkm
+id-tc26-cipher-gostr3412-2015-kuznyechik-ctracpkm-omac
+id-tc26-cipher-gostr3412-2015-magma
+id-tc26-cipher-gostr3412-2015-magma-ctracpkm
+id-tc26-cipher-gostr3412-2015-magma-ctracpkm-omac
+id-tc26-constants
+id-tc26-digest
+id-tc26-digest-constants
+id-tc26-gost-28147-constants
+id-tc26-gost-28147-param-Z
+id-tc26-gost-3410-2012-256-constants
+id-tc26-gost-3410-2012-256-paramSetA
+id-tc26-gost-3410-2012-256-paramSetB
+id-tc26-gost-3410-2012-256-paramSetC
+id-tc26-gost-3410-2012-256-paramSetD
+id-tc26-gost-3410-2012-512-constants
+id-tc26-gost-3410-2012-512-paramSetA
+id-tc26-gost-3410-2012-512-paramSetB
+id-tc26-gost-3410-2012-512-paramSetC
+id-tc26-gost-3410-2012-512-paramSetTest
+id-tc26-hmac-gost-3411-2012-256
+id-tc26-hmac-gost-3411-2012-512
+id-tc26-mac
+id-tc26-sign
+id-tc26-sign-constants
+id-tc26-signwithdigest
+id-tc26-signwithdigest-gost3410-2012-256
+id-tc26-signwithdigest-gost3410-2012-512
+id-tc26-wrap
+id-tc26-wrap-gostr3412-2015-kuznyechik
+id-tc26-wrap-gostr3412-2015-kuznyechik-kexp15
+id-tc26-wrap-gostr3412-2015-magma
+id-tc26-wrap-gostr3412-2015-magma-kexp15
+idea-cbc
+idea-cfb
+idea-ecb
+idea-ofb
+identified-organization
 identifier_value
+idp mismatch
+ieee
+ieee-siswg
+ihD5
+ilRdV
+illegal bitstring format
+illegal boolean
+illegal characters
 illegal code in raster
+illegal empty extension
+illegal format
+illegal hex
+illegal hex digit
+illegal implicit tag
+illegal integer
+illegal negative value
+illegal nested tagging
+illegal null
+illegal null value
+illegal object
+illegal optional any
+illegal options on item template
+illegal or unsupported padding mode
+illegal padding
+illegal scrypt parameters
+illegal tagged any
+illegal time value
+illegal zero content
 image
 image/bmp
 image/gif
@@ -3502,37 +7488,157 @@ in Json::Value::operator[](int index) const: index cannot be negative
 in Json::Value::operator[](int index): index cannot be negative
 in Json::Value::resolveReference(key, end): requires objectValue
 in Json::Value::setComment(): Comments must start with /
+in error state
+in use
 inactive
+incompatible objects
+inconsistent header
+incorrect file syntax
+incorrect policy syntax tag
 index
+index too large
+index too small
 indexcontroller
 indexcontroller_anim_closesqueeze.glb
 indices
+indirectCRL
 inet_ntop
 inet_pton
+infinite
 infinity
+info
 info.png
+inherit
+inhibitAnyPolicy
+inhibitPolicyMapping
+init
+init fail
+init failed
+initialization error
+initials
 innerConeAngle
 input
+input not initialized
+input not reduced
 inputProfilePath
 int32
 int64
+int_cleanup_item
+int_ctrl_helper
+int_ctx_new
+int_dhvparams
+int_dhx942_dh
+int_engine_configure
+int_engine_module_init
+int_rsa_verify
+int_ts_RESP_verify_token
+integer not ascii format
+integer too large for long
 intensity
+internal error
+internal list error
+international-organizations
+internationaliSDNNumber
 interpolation
 invalid
 invalid BOM; must be 0xEF 0xBB 0xBF if given
 invalid PLTE
+invalid argument
+invalid asnumber
+invalid asrange
+invalid attributes
+invalid bit string bits left
+invalid bmpstring length
+invalid boolean string
+invalid cmd name
+invalid cmd number
 invalid comment; expecting '/' or '*' after '/'
 invalid comment; missing closing '*/'
+invalid compressed point
+invalid compression bit
+invalid curve
 invalid decoded scanline length
+invalid digest
+invalid digest length
+invalid digest type
+invalid digit
+invalid directory
+invalid encoding
+invalid encrypted key length
+invalid extension string
+invalid field
+invalid field name
 invalid filter
+invalid fips mode
+invalid form
+invalid group order
+invalid header
+invalid inheritance
+invalid init value
+invalid ipaddress
+invalid iv length
+invalid key
+invalid key encryption parameter
+invalid key length
+invalid label
+invalid length
 invalid literal
+invalid log id length
+invalid message length
+invalid mgf1 md
+invalid mime type
+invalid modifier
+invalid multi prime key
+invalid multiple rdns
+invalid name
+invalid null argument
+invalid null name
+invalid null pkcs12 pointer
+invalid null pointer
+invalid null value
+invalid number
 invalid number; expected '+', '-', or digit after exponent
 invalid number; expected digit after '-'
 invalid number; expected digit after '.'
 invalid number; expected digit after exponent sign
+invalid numbers
+invalid oaep parameters
+invalid object encoding
+invalid object identifier
+invalid operation
+invalid option
+invalid output length
+invalid padding
+invalid padding mode
+invalid parameter name
+invalid parameter nid
+invalid parameters
+invalid peer key
+invalid pentanomial basis
+invalid policy identifier
+invalid pool size
+invalid private key
+invalid proxy policy setting
+invalid pss parameters
+invalid pss saltlen
+invalid public key
+invalid purpose
+invalid range
+invalid safi
+invalid salt length
+invalid scheme
+invalid scrypt parameters
+invalid section
+invalid separator
+invalid shift
+invalid signed data type
+invalid signer certificate purpose
+invalid socket
 invalid stoi argument
 invalid stoul argument
+invalid string
 invalid string position
+invalid string table value
 invalid string: '\u' must be followed by 4 hex digits
 invalid string: control character U+0000 (NUL) must be escaped to \u0000
 invalid string: control character U+0001 (SOH) must be escaped to \u0001
@@ -3571,64 +7677,219 @@ invalid string: ill-formed UTF-8 byte
 invalid string: missing closing quote
 invalid string: surrogate U+D800..U+DBFF must be followed by U+DC00..U+DFFF
 invalid string: surrogate U+DC00..U+DFFF must follow U+D800..U+DBFF
+invalid syntax
+invalid trailer
+invalid trinomial basis
+invalid trust
+invalid universalstring length
 invalid unordered_map<K, T> key
+invalid utf8string
+invalid value
 invalid vector<T> subscript
+invalid x931 digest
+invalidityDate
 inverse
 inverseBindMatrices
+ioctl
+ioctlsocket
 iolj
+ipAddressChoice
 iphlpapi.dll
+ipsec Internet Key Exchange
+ipsec3
+ipsec4
+ipsecEndSystem
+ipsecIKE
+ipsecTunnel
+ipsecUser
+iqmp
+iqmp not inverse of q
+is not a
 isalnum
 isalpha
 isdigit
+isspace
+issuer
+issuer capabilities
+issuer decode error
+issuer mismatch
+issuerAltName
+issuerDomainPolicy
+issuerKeyHash
+issuerNameHash
+issuerSignTool
+issuerUID
+issuer_and_serial
+issuingDistributionPoint
 it_it
 italian
+iter
+itu-t
+iv gen error
+i~wKVA\
 ja_jp
+janetMailbox
 japanese
 java_generate_equals_and_hash
 java_generic_services
 java_multiple_files
 java_outer_classname
 java_string_check_utf8
+joint-iso-itu-t
 joints
+jrml[Q
+jurisdictionC
+jurisdictionCountryName
+jurisdictionL
+jurisdictionLocalityName
+jurisdictionST
+jurisdictionStateOrProvinceName
 k22Vd22Vd
 k?KPm?
+kV!DA
 kZ3nT]
 k_EProtoExecutionSiteUnknown
 k_EProtoExecutionSiteUnknown:m\n\fservice_type
+kdf parameter error
+kek_unwrap_key
+kekid
+key gen error
+key prime num invalid
+key setup failed
+key size too small
+key type mismatch
+key values mismatch
+keyAgreement
+keyAttr
+keyAttrId
+keyBag
+keyCertSign
+keyCompromise
+keyDerivationAlgorithm
+keyEncipherment
+keyEncryptionAlgorithm
+keyIdentifier
+keyInfo
+keyLength
+keyUsage
+key_enc_algor
+keyblob header parse error
+keyblob too short
+keyfunc
+keygen failure
+keyid
+keylength
 keylength >= 2^30
+keys not set
+ki!S
+kisa
 ko_kr
 koreana
+kx-any
+kx-dhe
+kx-dhe-psk
+kx-ecdhe
+kx-ecdhe-psk
+kx-gost
+kx-psk
+kx-rsa
+kx-rsa-psk
+kx-srp
+l97\v
 lHt\
 lNrZ
+l\vDZ2\fs
 label
+ladder post failure
+ladder pre failure
+ladder step failure
+language
+last octet invalid
+lastModifiedBy
+lastModifiedTime
+lastUpdate
 latam
 lazy
+lcO/<1\r=,!\r-@@@
 ldexp
 ldiv
 leading_comments
 left
 left_
+length
+length too long
+level_add_node
+lib(%lu)
 light
 lights
+line 
+linebuffer_ctrl
+linebuffer_new
+list cannot be null
+list error
+listen
+listen v6 only
+lm_haptic
+load_iv
+loader incomplete
+loading cert dir
+loading defaults
+loading started
+localKeyID
 localeconv
+localhost/
+localityName
 location
+locator
+log conf invalid
+log conf invalid key
+log conf missing description
+log conf missing key
+log key invalid
 logFirstFrames
 logf
+long_c2i
+lookup returned nothing
+lookup_certs_sk
 loop
 lpHP
+m>gh
+mC4\n
+mK1f
 mSx@
+mXRecord
 m_ka
 m_nMaxLogBufferingSize > 0
 m_pVideoEnc->SubmitFrame
 m_ulHandle != vr::k_ulInvalidMailbox
+mac absent
+mac generation error
+mac setup error
+mac string set error
+mac verify failure
+macAlgorithm
 magFilter
+magma-cbc
+magma-cfb
+magma-ctr
+magma-ecb
+magma-mac
+magma-ofb
+mail
+mailPreferenceOption
+malformed host or service
 malloc
+malloc failure
+manager
 manufacturerName
 map key must name a scalar or string field.
 map type is only allowed for fields with a message type.
 map type is only allowed for repeated fields.
 map/set<T> too long
 map_key must not name a repeated field.
+mask
+maskGenAlgorithm
+maskGenFunc
 material
 materials
 matrix
@@ -3637,56 +7898,259 @@ maxDistance
 maxNonFoveatedStreamFormatWidth
 maxStreamFormatWidth
 maxVideoQueueLatencyUs
+maximum
+maxmem_bytes
+maxsize=
 mbps
+md bio init error
+md2WithRSAEncryption
+md4WithRSAEncryption
+md5-sha1
+md5WithRSA
+md5WithRSAEncryption
+md_algs
+md_gost12_256
+md_gost12_512
+md_gost94
+mdc2
+mdc2WithRSA
+mem_write
+member
+member-body
 memchr
 memcmp
 memcpy
 memmove
+memory buffer
+memory buffer routines
+memory limit exceeded
 memset
+merchant initiated auth
 mesh
 meshes
 message
+message digest
+message digest is null
+message extensions
+message imprint mismatch
+messageDigest
 message_description
 message_id
 message_set_wire_format
+messagedigest attribute wrong length
+messagedigest wrong length
 metallicFactor
 metallicRoughnessTexture
 method
+method not supported
 method_description
 mfplat.dll
+mgf1
+mgf1 digest not allowed
+mgf1 with sha1 (default)
+mgmt
 micVolumeHasBeenInitialized
+mime no content type
+mime parse error
+mime sig parse error
+mime-mhs
+mime-mhs-bodies
+mime-mhs-headings
 mimeType
 minFilter
 minNonFoveatedStreamFormatWidth
 minStreamFormatWidth
 minVersion
+minimum
+minsize=
+missing OID
+missing asn1 eos
+missing close square bracket
 missing color table
+missing dek iv
+missing eoc
+missing equal sign
+missing init function
+missing iteration count
+missing key
+missing message digest
+missing ocspsigning usage
+missing parameter
+missing parameters
+missing pass
+missing private key
+missing pubkey
+missing salt
+missing second number
+missing secret
+missing seed
+missing value
+mmZ7EEP
+mobileTelephoneNumber
 mode
 modelNumber
 modf
+module initialization error
+module=
+module_add
+module_init
+module_load_dso
+module_run
+modulus too large
+modulus:
+move
+mp coefficient not inverse of r
+mp exponent not congruent to d
+mp r not prime
+msCTLSign
+msCodeCom
+msCodeInd
+msEFS
+msExtReq
+msSGC
+msSmartcardLogin
+msUPN
+msgsigdigest error
+msgsigdigest verification failure
+msgsigdigest wrong length
+mstring not universal
+mstring wrong tag
 multiple IHDR
 muted
+n does not equal p q
+n does not equal product of primes
+n6j/
+n:2C[
 nFramesSkippedPS
 nKeyLen + sConnectionInfo.length() < vPassKey.size() - 1
 nLayerCount
 nPrimaryLayer
+nSRecord
+nStf,a
+nSw}Z\tu
 nY77
+n\tMr
+n\vDsv
 name
+name too long
+name translation failed
+name.fullname
+name.relativename
+name=
+nameAssigner
+nameConstraints
+named_curve
+namingAuthority
+namingAuthorityId
+namingAuthorityText
+namingAuthorityUrl
 nb_no
+nbio connect error
+nbiof_new
+ndef_prefix
+ndef_suffix
+need new setup values
+need one signer
+need organization and numbers
 negative_int_value
+nested asn1 error
+nested asn1 string
+nested too deep
+new_dir
+newer crl not newer
+nextUpdate
+nextupdate before thisupdate
 nfinity
+nistp224_pre_comp_new
+nistp256_pre_comp_new
+nistp521_pre_comp_new
 nl_nl
 no IDAT
 no PLTE
 no SOF
 no SOI
+no accept addr or service specified
+no cert set for us to verify
+no certificate found
+no certificate or crl found
+no certificates in chain
+no cipher
+no cipher set
 no clear code
+no close brace
+no conf
+no conf or environment variable
+no config database
+no content
+no content type
+no control function
+no crl found
+no crl number
+no default digest
+no digest set
+no drbg implementation selected
+no filename
 no header height
+no hostname or service specified
+no index
+no inverse
+no issuer certificate
+no issuer details
+no key
+no key or cert
+no key set
+no load function
+no matching choice type
+no matching digest
+no matching digest type found
+no matching recipient
+no matching signature
+no msgsigdigest
+no multipart body failure
+no multipart boundary
+no operation set
+no parameters set
+no password
+no policy identifier
+no port defined
 no preset dict
+no private key
+no private value
+no proxy cert policy language defined
+no public exponent
+no public key
+no receipt request
+no recipient matches certificate
+no reference
+no response data
+no result buffer
+no revoked time
+no section
+no sig content type
+no signatures on data
+no signer key
+no signers
+no solution
+no start line
+no subject details
+no such engine
+no such file
+no time stamp token
+no value
+no:7
+noCheck
+noRevAvail
 no_standard_descriptor_accessor
 node
 nodes
+noecho_console
+nomask
+non hex characters
 nonFoveatedStreamFormatWidth
+nonRepudiation
+nonce mismatch
+nonce not returned
+none
 normalTexture
 normalized
 norwegian
@@ -3694,24 +8158,92 @@ not BMP
 not GIF
 not HDR
 not PSD
+not XOF or invalid length
+not a NIST prime
+not a certificate
+not a crl
+not a key
+not a name
+not a signed receipt
+not a square
+not ascii format
+not basic response
+not dek info
+not encrypted
+not encrypted data
+not enough data
 not enough pixels
+not implemented
+not initialised
+not initialized
+not instantiated
+not kek
+not key agreement
+not key transport
+not loaded
+not parameters
+not proc type
+not pwri
+not suitable generator
+not supported for this key type
+notAfter
+notBefore
+noticeNumbers
+notice_section
+noticenos
+noticeref
+nref_nos
+nsBaseUrl
+nsCaPolicyUrl
+nsCaRevocationUrl
+nsCertExt
+nsCertSequence
+nsCertType
+nsComment
+nsDataType
+nsRenewalUrl
+nsRevocationUrl
+nsSGC
+nsSslServerName
+nssslserver
 ntdll.dll
 null
+null before block missing
+null is wrong length
 null literal
+null parameter
 null}
 number
 number literal
 number overflow parsing '
+number too large
 nvEncDestroyEncoder() failed to destroy\n
 nvEncodeAPI64.dll
 nvapi_QueryInterface
 nvapi_pepQueryInterface
+o&1m&
+o2i_ECPublicKey
+o2i_SCT
+o2i_SCT_LIST
+o2i_SCT_signature
+oMinghuaQu
 oQ %5.2f
 oWASAPI: EnumAudioEndpoints failed: hr = 0x%08x\n
+oaep
+oaep decoding error
+objCA
 object
+object identifier routines
 object key
+object not ascii format
 object separator
+objsign
 occlusionTexture
+ocsp_check_delegated
+ocsp_check_ids
+ocsp_check_issuer
+ocsp_match_issuerid
+ocsphelper
 oculus
 oculus_quest2_controller
 oculus_quest2_hmd
@@ -3719,6 +8251,9 @@ oculus_quest_plus_controller
 oculus_quest_pro
 oculus_quest_pro_controller
 oculus_touch
+odd number of chars
+odd number of digits
+oeap
 off.png
 offsetDegX
 offsetDegY
@@ -3726,129 +8261,564 @@ offsetDegZ
 offsetPosX
 offsetPosY
 offsetPosZ
+oid exists
+oid_module_init
+oid_section
+ok_new
+old_dsa_priv_decode
+old_ec_priv_decode
+old_rsa_priv_decode
 ole32.dll
+onBasis
 only 8-bit
+only oneshot supported
+onlyAA
+onlyCA
+onlyattr
+onlysomereasons
+onlyuser
 open
 openDashboardOnConnectionLoss
+open_console
+opendir
+opening session
+openssl
+openssl.cnf
+openssl_conf
+openssl_fopen
 openvr
 openvr.tool.steamvr_environments
 openvr.tool.steamvr_media_player
 openvrpaths.vrpath
+operation fail
+operation not defined
+operation not supported
+operation not supported for this keytype
+operation not supported on this type
+operaton not initialized
 option doesn't take an argument -- %.*s
 option requires an argument -- %c
 option requires an argument -- %s
 optional
+optionalSignature
 options
+order
+organization
+organizationIdentifier
+organizationName
+organizationalStatus
+organizationalUnitName
+oriType
+oriValue
+originator
+originatorInfo
+originatorSignatureValue
 orthographic
+oscca
+ossl_ecdh_compute_key
+ossl_ecdsa_sign_sig
+ossl_ecdsa_verify_sig
+ossl_hmac_init
+ossl_store_attach_pem_bio
+ossl_store_file_attach_pem_bio_int
+ossl_store_get0_loader_int
+ossl_store_info_new_EMBEDDED
+ossl_store_init_once
+ossl_store_register_loader_int
+ossl_store_unregister_loader_int
+other
+otherCert
+otherCertFormat
+otherMailbox
+otherName
+otherRevInfo
+otherRevInfoFormat
+othername
+othername error
+othername:<unsupported>
 out_of_range
 outerConeAngle
 outofdata
 outofmem
 output
 output buffer limit
+overlay_handle
 overrideRenderHeight
 overrideRenderWidth
+owner
+p is not prime
+p not prime
+p+"\tHr9
+p.char_two
+p.onBasis
+p.other
+p.ppBasis
+p.prime
+p.tpBasis
+p5Z3
+p@0pqE5tsO?|1
+pD4t
 pH88
 pNewResource
 pNewResource->Load( absFilePath )
+pSourceFunc
+pSpecified
+pU>\AL
 pXhH
 pZlNr
 p\lHtW
+p\tK2
 p`q4r<s
 package
 packed
+padding check failed
+pagerTelephoneNumber
+parallelizationParameter
+parameter
+parameter encoding error
 parameter must be a string or number / number array.\n
+parameters
 params
+parent locking not enabled
+parent strength too weak
 parse
 parse error
 parse_error
+parse_http_line1
+parse_tagging
+partially overlapping buffers
+partyName
+pass
+pass phrase
+passed a null parameter
+passed null parameter
+passphrase callback error
+password based MAC
 path
+path must be absolute
+pathlen
+payment gateway capabilities
+pbeWithMD2AndDES-CBC
+pbeWithMD2AndRC2-CBC
+pbeWithMD5AndCast5CBC
+pbeWithMD5AndDES-CBC
+pbeWithMD5AndRC2-CBC
+pbeWithSHA1And128BitRC2-CBC
+pbeWithSHA1And128BitRC4
+pbeWithSHA1And2-KeyTripleDES-CBC
+pbeWithSHA1And3-KeyTripleDES-CBC
+pbeWithSHA1And40BitRC2-CBC
+pbeWithSHA1And40BitRC4
+pbeWithSHA1AndDES-CBC
+pbeWithSHA1AndRC2-CBC
+pbkdf2 error
 pbrMetallicRoughness
+pcPathLengthConstraint
+peer key error
+permitted
+permittedSubtrees
+personalSignature
+personalTitle
+personalisation string too long
 perspective
+photo
+physicalDeliveryOfficeName
 pico
 pico4_
 pico4u_
 pico_controller
+pilot
+pilotAttributeSyntax
+pilotAttributeType
+pilotAttributeType27
+pilotDSA
+pilotGroups
+pilotObject
+pilotObjectClass
+pilotOrganization
+pilotPerson
+pkInitClientAuth
+pkInitKDC
+pkcs
+pkcs decoding error
+pkcs1
+pkcs12 algor cipherinit error
+pkcs12 cipherfinal error
+pkcs12 pbe crypt error
+pkcs3
+pkcs5
+pkcs5_scrypt_set
+pkcs7
+pkcs7 add signature error
+pkcs7 add signed attr error
+pkcs7 add signer error
+pkcs7 datasign
+pkcs7 to ts tst info failed
+pkcs7-data
+pkcs7-digestData
+pkcs7-encryptedData
+pkcs7-envelopedData
+pkcs7-signedAndEnvelopedData
+pkcs7-signedData
+pkcs7_copy_existing_digest
+pkcs7_decrypt_rinfo
+pkcs7_encode_rinfo
+pkcs8ShroudedKeyBag
+pkcs9
+pkey
+pkey application asn1 method already registered
+pkey_dh_ctrl_str
+pkey_dh_derive
+pkey_dh_init
+pkey_dh_keygen
+pkey_dsa_ctrl
+pkey_dsa_ctrl_str
+pkey_dsa_keygen
+pkey_ec_ctrl
+pkey_ec_ctrl_str
+pkey_ec_derive
+pkey_ec_init
+pkey_ec_kdf_derive
+pkey_ec_keygen
+pkey_ec_paramgen
+pkey_ec_sign
+pkey_ecd_ctrl
+pkey_ecd_digestsign
+pkey_ecd_digestsign25519
+pkey_ecd_digestsign448
+pkey_ecx_derive
+pkey_hkdf_ctrl_str
+pkey_hkdf_derive
+pkey_hkdf_init
+pkey_hmac_init
+pkey_poly1305_init
+pkey_pss_init
+pkey_rsa_ctrl
+pkey_rsa_ctrl_str
+pkey_rsa_sign
+pkey_rsa_verify
+pkey_rsa_verifyrecover
+pkey_scrypt_ctrl_str
+pkey_scrypt_ctrl_uint64
+pkey_scrypt_derive
+pkey_scrypt_init
+pkey_scrypt_set_membuf
+pkey_set_type
+pkey_siphash_init
+pkey_tls1_prf_ctrl_str
+pkey_tls1_prf_derive
+pkey_tls1_prf_init
+pkeyalg
+pkparameters2group failure
 pl_pl
 playing
+point arithmetic failure
+point at infinity
+point coordinates blind failure
+point is not on curve
+policy
+policy language already defined
+policy mismatch
+policy path length
+policy path length already defined
+policy when proxy language requires no policy
+policyConstraints
+policyIdentifier
+policyLanguage
+policyMappings
+policy_cache_create
+policy_cache_new
+policy_data_new
+policy_section
+policyid
 polish
+poly1305
 portuguese
 positional
 positive_int_value
+postOfficeBox
+postalAddress
+postalCode
 powf
+ppBasis
+pp\rk
 pp|B>>q
+pqualid
+prediction resistance not supported
+preferredDeliveryMethod
 preferredRefreshRate
+presentationAddress
+prf-gostr3411-94
+prime%d:
+prime-field
+prime192v1
+prime192v2
+prime192v3
+prime1:
+prime239v1
+prime239v2
+prime239v3
+prime256v1
+prime2:
+prime:
+prime_infos
 primitive indices accessor out of bounds
 primitives
+priv:
+priv_key
+private
+private key decode error
+private key does not match certificate
+private key encode error
+private key too large
+private-key:
+privateExponent:
+privateKey
+privateKeyUsagePeriod
+privilegeWithdrawn
+problems getting password
+process_include
+process_pci_value
+processing
+processing error
+producedAt
+professionInfos
+professionItems
+professionOIDs
+protocolInformation
 providesOffsetOverride
+proxyCertInfo
+proxyPolicy
+psC3
 ps_5_0
 ps_main
 ps_main_chroma
+pseudonym
+pss saltlen too small
 pt_br
 pt_pt
+pub: 
+pub_key
+pubkey
+public key decode error
+public key encode error
+public key not rsa
+public-key:
+publicExponent:
+publicKey
 public_dependency
+public_key
+pvk data too short
+pvk too short
 py_generic_services
+pzKD)
+q not prime
+qCJ.
 qMFCreateMediaType failed hr = 0x%08x\n
+qUN1
 qWSAPI: SVLAudioWSAPI::Init( %d )
 qZt$
+qcStatements
+qsort
+qualifiers
+qualityLabelledData
 qualitySharpeningThresholdMbit
+r$0I
+r2i_certpol
+r2i_pci
+r3A~
+rB2pBB
+rF6t
+rFC822localPart
 rK99
+rUUT
 rZlN
+r\tU[B
+r_32_12_16_init_key
+raise
 rand
+rand_drbg_enable_locking
+rand_drbg_get_entropy
+rand_drbg_get_nonce
+rand_drbg_restart
+rand_pool_acquire_entropy
+rand_pool_add
+rand_pool_add_begin
+rand_pool_add_end
+rand_pool_attach
+rand_pool_bytes_needed
+rand_pool_grow
+rand_pool_new
+random number generation failed
+random number generator
+random pool overflow
+random pool underflow
 range
+rc2-40-cbc
+rc2-64-cbc
+rc2-cbc
+rc2-cfb
+rc2-ecb
+rc2-ofb
+rc2_magic_to_meth
+rc4-40
+rc4-hmac-md5
+rc5-cbc
+rc5-cfb
+rc5-ecb
+rc5-ofb
+rc5_ctrl
+read key
 read past buffer
+reading strings
 ready.png
 ready_low.png
 realloc
+reason(%lu)
+reasons
+receipt decode error
+receiptsFrom
+receiptsTo
 received EVTYPE_CLOSE_DASHBOARD
 received EVTYPE_LDASH_CONTINUE: Remote was continued
 received EVTYPE_LDASH_PAUSE: Remote was paused
 received EVTYPE_OPEN_DASHBOARD open_dashboard
 received EVTYPE_TOGGLE_DASHBOARD data.nEvPath %d
 received VTE_DRIVER_SYSTEM_FLAGS %d %d %d
+recipient error
+recipientEncryptedKeys
+recipientInfos
+recipientinfo
+recommended-private-length: %d bits\n
 recommendedRenderHeight
 recommendedRenderWidth
+recursive directory include
 refDistance
 registered: 
+registeredAddress
+registrationNumber
+reject
 rejectDupKeys
+relativename
 remote
 remote_dashboard_close
 remote_dashboard_open
 remote_dashboard_toggle
 remote_desktop_window_event
+removeFromCRL
 renderHeight
 renderModelName
 renderWidth
 repeated
+reqCert
 reqEncMode
+req_info
+request not signed
+request too large for drbg
+requestExtensions
+requestList
 request_dashboard_tutorial
 request_handlers
 request_handlers_response
 requestedDashboardTutorialForHands
+requestorName
+requireExplicitPolicy
 required
+reseed error
+reserved
 resourceRoot
+responderId
+response
+response contains no revocation data
+response setup error
+responseBytes
+responseExtensions
+responseStatus
+responseType
+responses
 result
+result too large
+result too small
 returnAddress
+revocationDate
+revocationReason
+revocationTime
+revoked
 rexmitReq
 rexmitSent
+rfc822Mailbox
 rift
 right
 right_
+ripemd
+ripemd160
+ripemd160WithRSA
+rm\niAB
+rmd160
 ro_ro
+role
+roleOccupant
 rolloffFactor
 romanian
+room
+roomNumber
+root ca not trusted
 rotation
 roughnessFactor
 roundf
 roy_k2
 roy_k2v3
+rsa operations not supported
+rsa routines
+rsaEncryption
+rsaOAEPEncryptionSET
+rsaSignature
+rsa_algor_to_md
+rsa_builtin_keygen
+rsa_cms_decrypt
+rsa_cms_verify
+rsa_item_verify
+rsa_keygen_bits
+rsa_keygen_primes
+rsa_keygen_pubexp
+rsa_mgf1_md
+rsa_multip_info_new
+rsa_oaep_label
+rsa_oaep_md
+rsa_ossl_private_decrypt
+rsa_ossl_private_encrypt
+rsa_ossl_public_decrypt
+rsa_ossl_public_encrypt
+rsa_padding_mode
+rsa_param_decode
+rsa_priv_decode
+rsa_priv_encode
+rsa_pss_get_param
+rsa_pss_keygen_md
+rsa_pss_keygen_mgf1_md
+rsa_pss_keygen_saltlen
+rsa_pss_saltlen
+rsa_pss_to_ctx
+rsa_pub_decode
+rsadsi
+rsaesOaep
+rsassaPss
 ru_ru
 runtime
 russian
+s(Fdi
 s11bS
+s2i_ASN1_IA5STRING
+s2i_ASN1_INTEGER
+s2i_ASN1_OCTET_STRING
+s2i_skey_id
+s390x_aes_gcm_ctrl
 sBWFECLim
+sC3pcG'd
 sChannel
 sFramePhase
+sK;xPL
+sOARecord
 sPingMS
 sRFTXRate
 sRXFailFuzz
@@ -3860,78 +8830,420 @@ sTXFailFuzz
 sTXerr
 sTimeConf
 sVTXFailFuzz
+safeContentsBag
+salt
+salt length check failed
+salt length recovery failed
+saltLength
 sampler
 samplers
+sao5
+sbgp-autonomousSysNum
+sbgp-ipAddrBlock
+sbgp-routerIdentifier
 sc_schinese
 scale
 scene
 scenes
 schinese
+scrypt
+sct future timestamp
+sct invalid
+sct invalid signature
+sct list invalid
+sct log id mismatch
+sct not set
+sct unsupported version
+sdsiCertificate
+search only supported for directories
+searchGuide
 searching.gif
+second number too large
+secp112r1
+secp112r2
+secp128r1
+secp128r2
+secp160k1
+secp160r1
+secp160r2
+secp192k1
+secp224k1
+secp224r1
+secp256k1
+secp384r1
+secp521r1
+secret
+secretBag
+secretary
+sect113r1
+sect113r2
+sect131r1
+sect131r2
+sect163k1
+sect163r1
+sect163r2
+sect193r1
+sect193r2
+sect233k1
+sect233r1
+sect239k1
+sect283k1
+sect283r1
+sect409k1
+sect409r1
+sect571k1
+sect571r1
+section not found
+section:
+section=
+secure device signature
+secure memory buffer
+secureShellClient
+secureShellServer
+security
+seeAlso
+seed
+seed-cbc
+seed-cfb
+seed-ecb
+seed-ofb
+seed:
+seed_len is less than the length of q
+selected-attribute-types
+selftest failure
+sendOwner
+sendProxiedOwner
+sendProxiedRouter
+sendRouter
 sendto error %d (return value: %d)\n
 sent VTE_DASHBOARD_EVENT EVTYPE_CLOSE_DASHBOARD
+sequence length mismatch
+sequence not constructed
+sequence or set needs config
+serial
 serialNumber
+server
+server response error
+server response parse error
+serverAuth
 serverTCPEnable
 serverUDPEnable
 service
+serviceLocator
 service_description
 service_execution_site
 session_id_field_name
 session_ogs_row
+set filename failed
+set-addPolicy
+set-attr
+set-brand
+set-brand-AmericanExpress
+set-brand-Diners
+set-brand-IATA-ATA
+set-brand-JCB
+set-brand-MasterCard
+set-brand-Novus
+set-brand-Visa
+set-certExt
+set-ctype
+set-msgExt
+set-policy
+set-policy-root
+set-rootKeyThumb
+setAttr-Cert
+setAttr-GenCryptgrm
+setAttr-IssCap
+setAttr-IssCap-CVM
+setAttr-IssCap-Sig
+setAttr-IssCap-T2
+setAttr-PGWYcap
+setAttr-SecDevSig
+setAttr-T2Enc
+setAttr-T2cleartxt
+setAttr-TokICCsig
+setAttr-Token-B0Prime
+setAttr-Token-EMV
+setAttr-TokenType
+setCext-IssuerCapabilities
+setCext-PGWYcapabilities
+setCext-TokenIdentifier
+setCext-TokenType
+setCext-Track2Data
+setCext-cCertRequired
+setCext-certType
+setCext-hashedRoot
+setCext-merchData
+setCext-setExt
+setCext-setQualf
+setCext-tunneling
+set_dist_point_name
+setct-AcqCardCodeMsg
+setct-AcqCardCodeMsgTBE
+setct-AuthReqTBE
+setct-AuthReqTBS
+setct-AuthResBaggage
+setct-AuthResTBE
+setct-AuthResTBEX
+setct-AuthResTBS
+setct-AuthResTBSX
+setct-AuthRevReqBaggage
+setct-AuthRevReqTBE
+setct-AuthRevReqTBS
+setct-AuthRevResBaggage
+setct-AuthRevResData
+setct-AuthRevResTBE
+setct-AuthRevResTBEB
+setct-AuthRevResTBS
+setct-AuthTokenTBE
+setct-AuthTokenTBS
+setct-BCIDistributionTBS
+setct-BatchAdminReqData
+setct-BatchAdminReqTBE
+setct-BatchAdminResData
+setct-BatchAdminResTBE
+setct-CRLNotificationResTBS
+setct-CRLNotificationTBS
+setct-CapReqTBE
+setct-CapReqTBEX
+setct-CapReqTBS
+setct-CapReqTBSX
+setct-CapResData
+setct-CapResTBE
+setct-CapRevReqTBE
+setct-CapRevReqTBEX
+setct-CapRevReqTBS
+setct-CapRevReqTBSX
+setct-CapRevResData
+setct-CapRevResTBE
+setct-CapTokenData
+setct-CapTokenSeq
+setct-CapTokenTBE
+setct-CapTokenTBEX
+setct-CapTokenTBS
+setct-CardCInitResTBS
+setct-CertInqReqTBS
+setct-CertReqData
+setct-CertReqTBE
+setct-CertReqTBEX
+setct-CertReqTBS
+setct-CertResData
+setct-CertResTBE
+setct-CredReqTBE
+setct-CredReqTBEX
+setct-CredReqTBS
+setct-CredReqTBSX
+setct-CredResData
+setct-CredResTBE
+setct-CredRevReqTBE
+setct-CredRevReqTBEX
+setct-CredRevReqTBS
+setct-CredRevReqTBSX
+setct-CredRevResData
+setct-CredRevResTBE
+setct-ErrorTBS
+setct-HODInput
+setct-MeAqCInitResTBS
+setct-OIData
+setct-PANData
+setct-PANOnly
+setct-PANToken
+setct-PCertReqData
+setct-PCertResTBS
+setct-PI
+setct-PI-TBS
+setct-PIData
+setct-PIDataUnsigned
+setct-PIDualSignedTBE
+setct-PIUnsignedTBE
+setct-PInitResData
+setct-PResData
+setct-RegFormReqTBE
+setct-RegFormResTBS
+setext-cv
+setext-genCrypt
+setext-miAuth
+setext-pinAny
+setext-pinSecure
+setext-track2
+setsockopt
+setup_tbuf
 setvbuf
 sfixed32
 sfixed64
+sha1
+sha1 (default)
+sha1WithRSA
+sha1WithRSAEncryption
+sha224
+sha224WithRSAEncryption
+sha256
+sha256WithRSAEncryption
+sha3-224
+sha3-256
+sha3-384
+sha3-512
+sha384
+sha384WithRSAEncryption
+sha512
+sha512-224
+sha512-224WithRSAEncryption
+sha512-256
+sha512-256WithRSAEncryption
+sha512WithRSAEncryption
+shaWithRSAEncryption
+shake128
+shake256
 shareEyeTrackingData
+shared info error
+short header
+short line
+should retry
 showAdvancedGraphs
+sig invalid mime type
+sig_alg
+sig_algor
+signal
+signature
+signature failure
+signatureAlgorithm
+signedAttrs
+signedContentIdentifier
+signer certificate not found
+signerInfos
+signer_info
+signfinal error
+signing ctrl failure
+signing not supported for this key type
+signingTime
+simpleSecurityObject
 sinf
+singleExtensions
+singleLevelQuality
+singleRequestExtensions
 sint32
 sint64
+siphash
+sk_reserve
 skeleton
 skeletons
 skin
 skins
+slg_write
+slot full
+sm-scheme
+sm3WithRSAEncryption
+sm4-cbc
+sm4-cfb
+sm4-cfb1
+sm4-cfb8
+sm4-ctr
+sm4-ecb
+sm4-ofb
+smime text error
+smime_sign
+smimeencrypt
+smimesign
+snmpv2
+socket
+soft_load
 source
 source_code_info
 sources
 span
 spanish
 sparse
+spkac
 spoofAtStart
 spot
+ssl command section empty
+ssl command section not found
+ssl section empty
+ssl section not found
+ssl3-md5
+ssl3-sha1
+sslCA
+ssl_client
+ssl_conf
+ssl_module_init
+ssl_server
+sslclient
+sslserver
+sslv23
+sslv3 rollback attack
+stable_get
 stackLimit
 start
 startcapture
+stat
+stateOrProvinceName
 statscontrol
+status expired
+status not yet valid
+status too old
+status_request
+status_request_v2
+stbl_module_init
+stbl_section
 steam://installaudiocapturedriver
 steammessages_unified_base.steamclient.proto
 steamvr
 stoi argument out of range
 stopcapture
+store init error
 stoul argument out of range
+str=
+str_copy
 strchr
 strcmp
+strcspn
 streamFormatWidth
+streaming not supported
+street
+streetAddress
 strength
 strerror
+strerror_s
 strftime
 strictRoot
 string
 string literal
 string too long
+string too short
+string=
 strings::Substitute format string invalid: asked for "$
 strncmp
 strncpy
 strncpy_s
 strpbrk
+strrchr
+strspn
 strstr
 strtod
 strtol
 strtoll
 strtoul
 strtoull
+subgroup factor:
+subgroup order:
+subject
+subjectAltName
+subjectDirectoryAttributes
+subjectDomainPolicy
+subjectInfoAccess
+subjectKeyIdentifier
+subjectSignTool
+subjectUID
+subtreeMaximumQuality
+subtreeMinimumQuality
 subtype mismatch
+superseded
+suppPubInfo
+supportedAlgorithms
+supportedApplicationContext
 supports10bit
 supportsEyeTracking
+surname
 sv_se
 svl/driver
 svl/linkbwmon
@@ -3940,6 +9252,11 @@ svl_hand_interaction_augmented
 svlserver:
 swedish
 syntax error 
+sys$assign error
+sys$dassgn error
+sys$qiow error
+system lib
+system library
 t4uLv
 tRNS after IDAT
 tRNS before PLTE
@@ -3947,77 +9264,347 @@ tRNS with alpha
 t\lHBW
 tabcdbcdecdefdefgefghfghighijhijkijkljklmklmnlmnomnopnopq
 table
+tag=
 target
 targetBandwidth
+targetInformation
 targets
+tbsRequest
+tbsResponseData
 tchinese
 tdh.dll
+telephoneNumber
+teletexTerminalIdentifier
+telexNumber
 terminate
 texCoord
 text format contains deprecated field "
 text/plain
+text:
+textEncodedORAddress
+textNotice
 textures
+tfjgvmfv
 th_th
 thai
+the asn1 object identifier is not known for this md
 the global scope
+the meth_data stack is corrupt
 the sparse object of this accessor doesn't have indices
 the sparse object of this accessor doesn't have values
+there must be one signer
+thisUpdate
+time not ascii format
+time stamp routines
+time syscall error
 timeBeginPeriod
 timeEndPeriod
 timeKillEvent
 timeSetEvent
+timeStamping
+timestampsign
+title
+tls1-prf
+tls1_prf_alg
+tlsfeature
+token not present
+token present
 tolower
 too large
+too little nonce requested
+too long
 too many codes
+too many iterations
+too many temporary variables
+too much nonce requested
+too small
 touch_poses_right.glb
 toupper
+tpBasis
 tr_tr
 tracked_device_index
 trackingSystemName
+trailerField
 trailing_comments
 translation
+tree_init
 true
 true literal
+trust
+trustRoot
+try_decode_PKCS12
+try_decode_PKCS8Encrypted
+try_decode_params
+ts datasign
 tsFrameTimeAbsolute\tWire\tEncode\tFEC\tXPort\tSound\tRetry\tLogic\tNote\tExceptions\tMCS\tDbgWait\tQThrottle\tTimeSinceLastWGPMS\tEstimatedPingMS\tExpectedPingMS\tX\tY\tZ\tW\tX\tY\tZ\ttEncodeTimeMS\nFramesToThrottle\nRemapTimeMS\nStartEncMS\n
+tsG7
 tsLastWGP
+ts_CONF_invalid
+ts_CONF_lookup_fail
+ts_RESP_create_tst_info
+ts_RESP_get_policy
+ts_RESP_sign
+ts_check_imprints
+ts_check_nonces
+ts_check_policy
+ts_check_signing_certs
+ts_check_status_info
+ts_compute_imprint
+ts_get_status_text
+ts_verify_cert
+tsa name mismatch
+tsa untrusted
+tst info setup error
 turkish
 txTimeMS
 type
+type not compressed data
+type not constructed
+type not data
+type not digested data
+type not encrypted data
+type not enveloped data
+type not primitive
+type_id
 t}WF<7
 u!!Bc
+u.addressPrefix
+u.addressRange
+u.addressesOrRanges
+u.asIdsOrRanges
+u.id
+u.inherit
+u.range
+u0Az
+u;{Gk
+u\fcc
+ua-pki
+uacurve0
+uacurve1
+uacurve2
+uacurve3
+uacurve4
+uacurve5
+uacurve6
+uacurve7
+uacurve8
+uacurve9
+ui process interrupted or cancelled
 uint32
+uint32_c2i
+uint32_new
 uint64
+uint64_c2i
+uint64_new
 uk_ua
 ukrainian
+unable to bind socket
+unable to check generator
+unable to create new section
+unable to create socket
+unable to finalize context
+unable to find certificate
+unable to find mem bio
+unable to find message digest
+unable to find parameters in chain
+unable to get certs public key
+unable to get issuer details
+unable to get issuer keyid
+unable to keepalive
+unable to listen socket
+unable to nodelay
+unable to reuseaddr
+unacceptable policy
+unauthAttrs
+unauth_attr
+unavailable ip family
+undefined
+undefined generator
+undefined order
 unexpected 
+unexpected dek iv
+unexpected eoc
 ungetc
+unimplemented cipher
+unimplemented digest
+unimplemented public key method
+uninitialized
 uninterpreted_option
+uniqueIdentifier
+uniqueMember
+universalstring is wrong length
 universeID
 universes
+unknown
 unknown BMP
+unknown algorithm type
+unknown bit string argument
+unknown cipher
 unknown code
+unknown cofactor
+unknown control command
+unknown digest
+unknown digest algorithm
+unknown digest type
+unknown extension
+unknown extension name
+unknown format
+unknown group
+unknown id
 unknown image type
+unknown info type
+unknown key type
+unknown library
 unknown marker
+unknown mask digest
+unknown message digest
+unknown message digest algorithm
+unknown module name
+unknown nid
+unknown object type
+unknown operation
+unknown option
 unknown option -- %c
 unknown option -- %s
+unknown order
+unknown padding type
+unknown parameter type
+unknown pbe algorithm
+unknown public key type
+unknown purpose id
+unknown signature algorithm
+unknown tag
 unknown token
+unknown trust id
+unknown ttyget errno value
+unknown\n%*s
 unknown_eureka
 unknown_panther
 unmuted
+unprotectedAttrs
+unrecognized signature nid
+unregistered scheme
+unsignedAttrs
+unspecified
+unstructuredAddress
+unstructuredName
+unsupported algorithm
+unsupported any defined by type
 unsupported bit depth
+unsupported cipher
+unsupported cipher type
+unsupported compression algorithm
+unsupported content type
 unsupported data layout
+unsupported drbg flags
+unsupported drbg type
+unsupported encryption
+unsupported encryption type
+unsupported entry type
+unsupported field
 unsupported format
+unsupported ip family
+unsupported kek algorithm
+unsupported key components
+unsupported key derivation function
+unsupported key encryption algorithm
+unsupported key size
+unsupported keylength
+unsupported label source
+unsupported mask algorithm
+unsupported mask parameter
+unsupported md algorithm
+unsupported method
+unsupported number of rounds
+unsupported operation
+unsupported option
+unsupported pkcs12 mode
+unsupported prf
+unsupported private key algorithm
+unsupported protocol family
+unsupported public key type
+unsupported recipient type
+unsupported recipientinfo type
+unsupported requestorname type
+unsupported salt type
+unsupported search type
+unsupported signature type
+unsupported type
+unsupported version
+unused
+unwrap error
+unwrap failure
+update
+uri authority unsupported
 useOSC
 useOSCFace
 usePool
+user
+user data duplication unsupported
+user too long
+userCertificate
+userClass
+userId
+userNotice
+userPassword
 user_interaction_click_info
+v07\v
+v1 (0x0)
+v2i_ASIdentifiers
+v2i_ASN1_BIT_STRING
+v2i_AUTHORITY_INFO_ACCESS
+v2i_AUTHORITY_KEYID
+v2i_BASIC_CONSTRAINTS
+v2i_EXTENDED_KEY_USAGE
+v2i_GENERAL_NAMES
+v2i_GENERAL_NAME_ex
+v2i_IPAddrBlocks
+v2i_NAME_CONSTRAINTS
+v2i_POLICY_CONSTRAINTS
+v2i_POLICY_MAPPINGS
+v2i_TLS_FEATURE
+v2i_crld
+v2i_idp
+v2i_issuer_alt
+v2i_subject_alt
+v3_generic_extension
 vRQ>
+v\fdn
+v\v]mE
+v_check
+valid
+validate_ecx_derive
+validity
 value
+value error
+value missing
+value.bag
+value.byKey
+value.byName
+value.good
+value.implicitlyCA
+value.keybag
+value.named_curve
+value.other
+value.parameters
+value.revoked
+value.safes
+value.sdsicert
+value.shkeybag
+value.unknown
+value.x509cert
+value.x509crl
+value=
 values
 valve.steam.desktopgame.
+var bad value
+variable expansion too long
+variable has no value
 vector<T> too long
 vector<bool> too long
+verification failure
 version
+version incompatibility
 vi_vn
 videoamfenc first frame or reset in SubmitFrame():  %d  %d  %d  %d  %d  %d\n
 videoamfenc: Failed on SubmitInput() error [ %s ]\n
@@ -4049,6 +9636,11 @@ vivefocusvision_off.png
 vivefocusvision_ready.png
 vivefocusvision_ready_low.png
 vivefocusvision_searching.gif
+vms_bind_sym
+vms_load
+vms_merger
+vms_unload
+vparams
 vr_glove_right_poses.glb
 vr_glove_right_skeleton.glb
 vr_path_property
@@ -4065,7 +9657,21 @@ vrlink_store
 vrshared_base.proto
 vs_5_0
 vs_main
+w8i_q
+w?6r
 wF\ro
+wap-wsg
+wap-wsg-idm-ecid-wtls1
+wap-wsg-idm-ecid-wtls10
+wap-wsg-idm-ecid-wtls11
+wap-wsg-idm-ecid-wtls12
+wap-wsg-idm-ecid-wtls3
+wap-wsg-idm-ecid-wtls4
+wap-wsg-idm-ecid-wtls5
+wap-wsg-idm-ecid-wtls6
+wap-wsg-idm-ecid-wtls7
+wap-wsg-idm-ecid-wtls8
+wap-wsg-idm-ecid-wtls9
 warning: could not set socket buffer size\n
 watchForShaderChanges
 wcsrchr
@@ -4073,31 +9679,82 @@ wcsstr
 weak
 weak_dependency
 weights
+while 
 while parsing 
+whirlpool
 width
+win32_bind_func
+win32_globallookup
+win32_joiner
+win32_load
+win32_merger
+win32_name_converter
+win32_splitter
+win32_unload
 win64
 wirelessShutdownTimeout
 wn>Jj
+wrap error
+wrap mode not allowed
 wrapS
 wrapT
+write to read only BIO
+writing strings
 wrong channel count
 wrong color format
+wrong content type
+wrong curve parameters
+wrong final block length
+wrong integer type
+wrong lookup type
+wrong order
+wrong pkcs7 type
+wrong public key type
+wrong signature length
 wrong submessage type
+wrong tag
+wrong type
 wrong version
 x((Pz
+x121Address
+x500UniqueIdentifier
+x509 certificate routines
+x509Certificate
+x509Crl
+x509ExtAdmission
+x509_name_canon
+x509_name_encode
+x509_name_ex_d2i
+x509_name_ex_new
+x509_pubkey_decode
+x931
+xUN'
 xmag
+xpH8
+xqI9
+xrJ:DCG
+xsK;
+xtq\t
+xts duplicated keys
 xxJo%%\r..8$
+xzxv
 y-au
 y3y3y3y3y3y3y3y3c
+yU\n2`
 yfov
 ymag
+z3T\vC
+zC\nsZ
 z^KD
 zfar
 zhOM
 zh_cn
 zh_tw
+zlib compression
 zlib corrupt
 znear
+zone
+zy:HO
 {frame_controller}/icons/
 {frame_controller}/input/frame_controller_profile.json
 {frame_controller}frame_controller_left
@@ -4173,6 +9830,8 @@ znear
 {vrlink}/shaders/cursor.vert
 {vrlink}/shaders/genforencode.hlsl
 {vrlink}/shaders/override_shader_params.json
+|<C!FReQ
+|sG2
 ~%d~%d~%d,%d,%d~~~~
 ~SeA
 ~TbF

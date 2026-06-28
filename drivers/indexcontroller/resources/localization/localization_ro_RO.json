@@ -1,1 +1,15 @@
-[]
+[
+    {
+        "language_tag": "ro_RO",
+        "knuckles": "Controler Index",
+        "knuckles_ev1": "Controler Knuckles (EV1)",
+        "/input/a": "Butonul A",
+        "/input/b": "Butonul B",
+        "/input/pinch": "Gest de ciupire",
+        "/input/finger/index": "Degetul arătător",
+        "/input/finger/middle": "Degetul mijlociu",
+        "/input/finger/ring": "Degetul inelar",
+        "/input/finger/pinky": "Degetul mic",
+        "/input/thumbstick": "Stick analogic"
+    }
+]

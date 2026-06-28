@@ -1,9 +1,9 @@
 Content Manifest for Depot 250827 
 
-Manifest ID / date     : 9189639950626817778 / 06/11/2026 16:59:16 
+Manifest ID / date     : 4144201462816264829 / 06/23/2026 20:26:15 
 Total number of files  : 249 
 Total number of chunks : 238 
-Total bytes on disk    : 4835023 
+Total bytes on disk    : 4835025 
 Total bytes compressed : 3070688 
 
 
@@ -239,7 +239,7 @@ Total bytes compressed : 3070688
           2030      1 2ab6e0305490cc45152318823b3f99533d1d8334     0 drivers/htc/resources/localization/localization_th_TH.json
           1481      1 ce80be4a69d4431c1900745ddaa34d0d50bb5d8a     0 drivers/htc/resources/localization/localization_tr_TR.json
           2137      1 21a82edc69de752ca8708f905a492d447eb02260     0 drivers/htc/resources/localization/localization_uk_UA.json
-          1689      1 8d4ae36fa83da329ae273f0d54cc59a151181c06     0 drivers/htc/resources/localization/localization_vi_VN.json
+          1691      1 521e5cc126f22e450ee6121cd9d2eb281038f15d     0 drivers/htc/resources/localization/localization_vi_VN.json
           1422      1 dabbb39be0f0d70b77dc89005dfd95fe0d8da05e     0 drivers/htc/resources/localization/localization_zh_CN.json
           1559      1 210c6e075b33974d9b7bf28e2236f45616d793dd     0 drivers/htc/resources/localization/localization_zh_TW.json
              0      0 0000000000000000000000000000000000000000    40 drivers/htc/resources/rendermodels

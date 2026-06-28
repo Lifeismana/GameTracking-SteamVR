@@ -1,1 +1,15 @@
-[]
+[
+    {
+        "language_tag": "ja_JP",
+        "knuckles": "Indexコントローラ",
+        "knuckles_ev1": "Knuckles (EV1)コントローラ",
+        "/input/a": "Aボタン",
+        "/input/b": "Bボタン",
+        "/input/pinch": "ピンチ（つまむ）動作",
+        "/input/finger/index": "人差し指",
+        "/input/finger/middle": "中指",
+        "/input/finger/ring": "薬指",
+        "/input/finger/pinky": "小指",
+        "/input/thumbstick": "サムスティック"
+    }
+]

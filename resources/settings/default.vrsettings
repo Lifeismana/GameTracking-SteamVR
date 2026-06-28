@@ -62,7 +62,7 @@
         "startCompositorFromAppLaunch": true,
         "startDashboardFromAppLaunch": true,
         "startOverlayAppsFromDashboard": true,
-        "enableHomeApp": true,
+        "enableHomeApp": false,
         "setInitialDefaultHomeApp": false,
         "CycleBackgroundImageTimeSec": -1,
         "retailDemo": false,
@@ -107,6 +107,8 @@
         "showRecommendedResolutionPercentage": true,
         "environmentMode": 0,
         "framesToThrottle": 0,
+        "envBrightnessNominal": 1.0,
+        "envBrightnessTheater": 0.0,
         "fovScale": 1,
         "performanceProfile": "custom"
     },
@@ -195,7 +197,8 @@
         "cameraBoundsColorGammaG": 255,
         "cameraBoundsColorGammaB": 255,
         "cameraBoundsColorGammaA": 153,
-        "cameraBoundsStrength": 78
+        "cameraBoundsStrength": 78,
+        "monochromeTintHue": 0.67
     },
     "audio": {
         "enablePlaybackMirror": false,
@@ -247,11 +250,12 @@
         "desktopIndex": 1,
         "autoShowGameTheater": true,
         "theaterCurvature": 0,
-        "theaterScreenSize": 0,
         "theaterScreenAlignment": 0,
         "theaterModeBrightness": 0.5,
         "theaterModeReflection": 0.5,
         "theaterModeSharpness": 0.5,
+        "defaultTheaterScale": 2.1,
+        "defaultTheaterDistance": 3.0,
         "enableLTCReflections": true,
         "inputCaptureEnabled": false,
         "allowSteamOverlays": true,

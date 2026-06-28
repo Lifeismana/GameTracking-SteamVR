@@ -1,4 +1,4 @@
-#!/bin/bash -x
+#!/bin/bash
 
 VRBINDIR=$(cd $(dirname $0)/; pwd)
 [[ -n $STEAMVR_VRENV ]] || exec "$VRBINDIR/vrenv.sh" "$0" "$@"

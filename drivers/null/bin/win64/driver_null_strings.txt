@@ -92,7 +92,7 @@ IsProcessorFeaturePresent
 KERNEL32.dll
 MSVCP140.dll
 QueryPerformanceCounter
-RSDS`
+RSDSQ^I
 RtlCaptureContext
 RtlLookupFunctionEntry
 RtlVirtualUnwind
@@ -101,6 +101,7 @@ UnhandledExceptionFilter
 Unknown exception
 Using settings values\n
 VCRUNTIME140.dll
+]aVD
 _CxxThrowException
 _Mtx_destroy_in_situ
 _Mtx_init_in_situ

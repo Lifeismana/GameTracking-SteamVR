@@ -225,6 +225,9 @@
 	"Settings_StatusWindowMinimizeToTray_Text": "When minimized, SteamVR Status minimizes to the system tray",
 	"Settings_SuppressWarnings_Text": "Suppress warnings and alerts when SteamVR Status is minimized",
 	"Settings_StatusCheckInterval": "Status Check Interval",
+	"Settings_ControllerTracking_Header": "Controller Tracking",
+	"Settings_ControllerTracking_Option_Classic": "Classic",
+	"Settings_ControllerTracking_Option_Alternate": "Alternate",
 	"StatusCheckInterval_Never": "Never",
 	"StatusCheckInterval_Normal": "Normal (1 sec)",
 	"StatusCheckInterval_Often": "Often (100 msec)",
@@ -235,7 +238,7 @@
 	"Settings_CreateSystemReport_Button": "Create System Report",
 	"Settings_ViewLogs_Button": "View Logs",
 
-	"Settings_OpenRemoteSetting": "Open Remote Setting",
+	"Settings_OpenRemoteSetting": "Open Remote Settings",
 
 	"Settings_Unavailable_PowerSaving": "Some settings cannot be changed while in Power Saving mode. Open the Quick Access Menu, then toggle Power Saving Mode off in the Performance tab.",
 
@@ -312,7 +315,9 @@
 	"Settings_PerApplication_Reprojection_Header": "Reprojection",
 	"Settings_PerApplication_Reprojection_Checkbox": "Use Legacy Reprojection Mode",
 	"Settings_PerApplication_Reprojection_Description": "Checking this option will disable asynchronous reprojection for this title.",
+
 	"Settings_PerApplication_RefreshRateOverride_Checkbox": "Refresh Rate Override",
+	"Settings_PerApplication_RefreshRateOverride_Label": "Display (Hz)",
 	"Settings_Perapplication_RefreshRateOverride_Description": "Checking this option will allow specifying a different refresh rate from the global setting for this application.",
 
 	"Settings_PerApplication_ThrottlingOverride_Description": "Throttling and prediction are handled automatically based on measured performance, however, some applications may benefit from forcing to run at a fixed slower rate in order to provide an overall smoother experience.",
@@ -320,8 +325,8 @@
 	"Settings_PerApplication_ThrottlingOverride_Toggle": "Selecting a fixed throttling value here will disable automatic throttling for this application.",
 	"Settings_PerApplication_ThrottlingOverride_Toggle_On": "Fixed",
 	"Settings_PerApplication_ThrottlingOverride_Toggle_Off": "Auto",
-	"Settings_PerApplication_ThrottlingOverride_Framerate": "Lock application framerate to (max fps):",
-	"Settings_PerApplication_ThrottlingOverride_Prediction": "Additional prediction (ms):",
+	"Settings_PerApplication_ThrottlingOverride_Framerate": "Frame Limit (fps)",
+	"Settings_PerApplication_ThrottlingOverride_Prediction": "Additional prediction (ms)",
 
 	"Settings_PerApplication_WorldScale_Description": "Override application's perceived scaling by adjusting head movement and eye separation.",
 	"Settings_PerApplication_WorldScale_Label": "Override World Scale",
@@ -349,6 +354,7 @@
 	"Settings_Camera_AllowCameraForRoomView_Desc": "Access Room View at any time by double clicking the System button",
 	"Settings_Camera_Compatibility": "Camera rate",
 	"Settings_Camera_Rate_Hz": "Camera Rate (Hz)",
+	"Settings_Camera_Color_Tint": "Camera Color Tint",
 	"Settings_Camera_CompatibilityExplanation": "If you experience a loss of tracking you may want to set a lower Camera Rate, disable the camera, or try a different USB port.",
 	"Settings_Camera_AntiFlicker": "Anti-Flicker",
 	"Settings_Camera_AntiFlicker_Desc": "Set Light Source Frequency detection mode",
@@ -477,10 +483,13 @@
 	"Settings_Playspace_Environment": "Environment",
 	"Settings_Playspace_Environment_Image": "Image",
 	"Settings_Playspace_Environment_Aurora": "Aurora",
+	"Settings_Playspace_Environment_Aurora_Brightness": "Brightness",
 	"Settings_Playspace_Environment_Speed": "Speed",
 	"Settings_Playspace_Environment_Height": "Height",
-	"Settings_Playspace_Environment_Brightness": "Brightness",
 	"Settings_Playspace_Environment_Stars": "Stars",
+
+	"Settings_Playspace_Environment_Brightness": "Environment Brightness",
+	"Settings_Playspace_Environment_Brightness_Theater": "Environment Brightness (Theater)",
 
 	"Settings_Appearance_Chaperone_CollisionBoundsGroundPerimeterOn": "Always show floor bounds",
 	"Settings_Appearance_Chaperone_CollisionBoundsGroundPerimeterOnDesc": " ",

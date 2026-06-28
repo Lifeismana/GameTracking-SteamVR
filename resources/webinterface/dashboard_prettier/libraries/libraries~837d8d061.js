@@ -1,6 +1,6 @@
-var CLSTAMP = "10731156";
+var CLSTAMP = "10770080";
 (self.webpackChunkvrwebui = self.webpackChunkvrwebui || []).push([
-  [267, 260, 47],
+  [267, 260, 154, 982, 47, 264],
   {
     6874: (e, t, r) => {
       var n,
@@ -33,7 +33,7 @@ var CLSTAMP = "10731156";
       }
       var h,
         m,
-        b = new (
+        v = new (
           "undefined" != typeof FinalizationRegistry
             ? FinalizationRegistry
             : (function () {
@@ -81,7 +81,7 @@ var CLSTAMP = "10731156";
           var t;
           null == (t = e.reaction) || t.dispose(), (e.reaction = null);
         });
-      function v(e) {
+      function b(e) {
         e.reaction = new o.Reaction("observer" + e.name, function () {
           (e.stateVersion = Symbol()),
             null == e.onStoreChange || e.onStoreChange();
@@ -98,9 +98,9 @@ var CLSTAMP = "10731156";
             name: t,
             subscribe: function (e) {
               return (
-                b.unregister(n),
+                v.unregister(n),
                 (n.onStoreChange = e),
-                n.reaction || (v(n), (n.stateVersion = Symbol())),
+                n.reaction || (b(n), (n.stateVersion = Symbol())),
                 function () {
                   var e;
                   (n.onStoreChange = null),
@@ -119,7 +119,7 @@ var CLSTAMP = "10731156";
           a,
           i = r.current;
         if (
-          (i.reaction || (v(i), b.register(r, i, i)),
+          (i.reaction || (b(i), v.register(r, i, i)),
           u.useDebugValue(i.reaction, f),
           c.useSyncExternalStore(i.subscribe, i.getSnapshot, i.getSnapshot),
           i.reaction.track(function () {
@@ -162,7 +162,7 @@ var CLSTAMP = "10731156";
           type: !0,
           displayName: !0,
         };
-      function x(e) {
+      function E(e) {
         var t = e.children,
           r = e.render;
         t &&
@@ -173,7 +173,7 @@ var CLSTAMP = "10731156";
         var n = t || r;
         return "function" != typeof n ? null : g(n);
       }
-      function E(e) {
+      function x(e) {
         var t = a.useState(function () {
           return o.observable(e, {}, { deep: !1 });
         })[0];
@@ -184,8 +184,8 @@ var CLSTAMP = "10731156";
           t
         );
       }
-      (x.displayName = "Observer"), l(i.unstable_batchedUpdates);
-      var P = null != (w = b.finalizeAllImmediately) ? w : function () {};
+      (E.displayName = "Observer"), l(i.unstable_batchedUpdates);
+      var P = null != (w = v.finalizeAllImmediately) ? w : function () {};
       t.useObserver = function (e, t) {
         return void 0 === t && (t = "observed"), g(e, t);
       };
@@ -556,33 +556,33 @@ var CLSTAMP = "10731156";
         },
         h = Object.assign,
         m = {};
-      function b(e, t, r) {
+      function v(e, t, r) {
         (this.props = e),
           (this.context = t),
           (this.refs = m),
           (this.updater = r || y);
       }
-      function v() {}
+      function b() {}
       function g(e, t, r) {
         (this.props = e),
           (this.context = t),
           (this.refs = m),
           (this.updater = r || y);
       }
-      (b.prototype.isReactComponent = {}),
-        (b.prototype.setState = function (e, t) {
+      (v.prototype.isReactComponent = {}),
+        (v.prototype.setState = function (e, t) {
           if ("object" != typeof e && "function" != typeof e && null != e)
             throw Error(
               "setState(...): takes an object of state variables to update or a function which returns an object of state variables.",
             );
           this.updater.enqueueSetState(this, e, t, "setState");
         }),
-        (b.prototype.forceUpdate = function (e) {
+        (v.prototype.forceUpdate = function (e) {
           this.updater.enqueueForceUpdate(this, e, "forceUpdate");
         }),
-        (v.prototype = b.prototype);
-      var w = (g.prototype = new v());
-      (w.constructor = g), h(w, b.prototype), (w.isPureReactComponent = !0);
+        (b.prototype = v.prototype);
+      var w = (g.prototype = new b());
+      (w.constructor = g), h(w, v.prototype), (w.isPureReactComponent = !0);
       var S = Array.isArray,
         k = Object.prototype.hasOwnProperty,
         _ = { current: null },
@@ -614,10 +614,10 @@ var CLSTAMP = "10731156";
           _owner: _.current,
         };
       }
-      function x(e) {
+      function E(e) {
         return "object" == typeof e && null !== e && e.$$typeof === r;
       }
-      var E = /\/+/g;
+      var x = /\/+/g;
       function P(e, t) {
         return "object" == typeof e && null !== e && null != e.key
           ? (function (e) {
@@ -655,12 +655,12 @@ var CLSTAMP = "10731156";
             (e = "" === a ? "." + P(c, 0) : a),
             S(u)
               ? ((o = ""),
-                null != e && (o = e.replace(E, "$&/") + "/"),
+                null != e && (o = e.replace(x, "$&/") + "/"),
                 $(u, t, o, "", function (e) {
                   return e;
                 }))
               : null != u &&
-                (x(u) &&
+                (E(u) &&
                   (u = (function (e, t) {
                     return {
                       $$typeof: r,
@@ -675,7 +675,7 @@ var CLSTAMP = "10731156";
                     o +
                       (!u.key || (c && c.key === u.key)
                         ? ""
-                        : ("" + u.key).replace(E, "$&/") + "/") +
+                        : ("" + u.key).replace(x, "$&/") + "/") +
                       e,
                   )),
                 t.push(u)),
@@ -778,14 +778,14 @@ var CLSTAMP = "10731156";
           );
         },
         only: function (e) {
-          if (!x(e))
+          if (!E(e))
             throw Error(
               "React.Children.only expected to receive a single React element child.",
             );
           return e;
         },
       }),
-        (t.Component = b),
+        (t.Component = v),
         (t.Fragment = o),
         (t.Profiler = u),
         (t.PureComponent = g),
@@ -858,7 +858,7 @@ var CLSTAMP = "10731156";
         (t.forwardRef = function (e) {
           return { $$typeof: s, render: e };
         }),
-        (t.isValidElement = x),
+        (t.isValidElement = E),
         (t.lazy = function (e) {
           return {
             $$typeof: p,
@@ -923,6 +923,70 @@ var CLSTAMP = "10731156";
           return V.current.useTransition();
         }),
         (t.version = "18.3.1");
+    },
+    6540: (e, t, r) => {
+      e.exports = r(5287);
+    },
+    8493: (e, t, r) => {
+      var n = r(6540);
+      var o =
+          "function" == typeof Object.is
+            ? Object.is
+            : function (e, t) {
+                return (
+                  (e === t && (0 !== e || 1 / e == 1 / t)) || (e != e && t != t)
+                );
+              },
+        a = n.useState,
+        u = n.useEffect,
+        i = n.useLayoutEffect,
+        c = n.useDebugValue;
+      function s(e) {
+        var t = e.getSnapshot;
+        e = e.value;
+        try {
+          var r = t();
+          return !o(e, r);
+        } catch (e) {
+          return !0;
+        }
+      }
+      var l =
+        "undefined" == typeof window ||
+        void 0 === window.document ||
+        void 0 === window.document.createElement
+          ? function (e, t) {
+              return t();
+            }
+          : function (e, t) {
+              var r = t(),
+                n = a({ inst: { value: r, getSnapshot: t } }),
+                o = n[0].inst,
+                l = n[1];
+              return (
+                i(
+                  function () {
+                    (o.value = r), (o.getSnapshot = t), s(o) && l({ inst: o });
+                  },
+                  [e, r, t],
+                ),
+                u(
+                  function () {
+                    return (
+                      s(o) && l({ inst: o }),
+                      e(function () {
+                        s(o) && l({ inst: o });
+                      })
+                    );
+                  },
+                  [e],
+                ),
+                c(r),
+                r
+              );
+            };
+      t.useSyncExternalStore =
+        void 0 !== n.useSyncExternalStore ? n.useSyncExternalStore : l;
     },
     9888: (e, t, r) => {
       e.exports = r(8493);

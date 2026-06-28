@@ -1,6 +1,6 @@
-var CLSTAMP = "10731156";
+var CLSTAMP = "10770080";
 (self.webpackChunkvrwebui = self.webpackChunkvrwebui || []).push([
-  [260, 47],
+  [260, 154, 982, 47, 264],
   {
     6874: (e, t, r) => {
       var n,
@@ -15,11 +15,11 @@ var CLSTAMP = "10731156";
         throw new Error(
           "mobx-react-lite@3 requires mobx at least version 6 to be available",
         );
-      function f(e) {
+      function s(e) {
         e();
       }
-      function s(e) {
-        e || (e = f), o.configure({ reactionScheduler: e });
+      function f(e) {
+        e || (e = s), o.configure({ reactionScheduler: e });
       }
       function l(e) {
         return o.getDependencyTree(e);
@@ -31,8 +31,8 @@ var CLSTAMP = "10731156";
       function d() {
         return p;
       }
-      var m,
-        v,
+      var v,
+        m,
         b = new (
           "undefined" != typeof FinalizationRegistry
             ? FinalizationRegistry
@@ -138,24 +138,24 @@ var CLSTAMP = "10731156";
         g = "function" == typeof Symbol && Symbol.for,
         _ =
           null !=
-            (m =
+            (v =
               null ==
-              (v = Object.getOwnPropertyDescriptor(function () {}, "name"))
+              (m = Object.getOwnPropertyDescriptor(function () {}, "name"))
                 ? void 0
-                : v.configurable) && m,
-        $ = g
+                : m.configurable) && v,
+        E = g
           ? Symbol.for("react.forward_ref")
           : "function" == typeof u.forwardRef &&
             u.forwardRef(function (e) {
               return null;
             }).$$typeof,
-        R = g
+        $ = g
           ? Symbol.for("react.memo")
           : "function" == typeof u.memo &&
             u.memo(function (e) {
               return null;
             }).$$typeof,
-        E = {
+        R = {
           $$typeof: !0,
           render: !0,
           compare: !0,
@@ -184,7 +184,7 @@ var CLSTAMP = "10731156";
           t
         );
       }
-      (C.displayName = "Observer"), s(a.unstable_batchedUpdates);
+      (C.displayName = "Observer"), f(a.unstable_batchedUpdates);
       var O = null != (w = b.finalizeAllImmediately) ? w : function () {};
       t.useObserver = function (e, t) {
         return void 0 === t && (t = "observed"), S(e, t);
@@ -198,7 +198,7 @@ var CLSTAMP = "10731156";
         i = r(3815),
         a = r(4452),
         c = "function" == typeof Symbol && Symbol.for,
-        f =
+        s =
           null !==
             (o =
               null ===
@@ -208,7 +208,7 @@ var CLSTAMP = "10731156";
                 : n.configurable) &&
           void 0 !== o &&
           o,
-        s = c
+        f = c
           ? Symbol.for("react.forward_ref")
           : "function" == typeof u.forwardRef &&
             (0, u.forwardRef)(function (e) {
@@ -234,8 +234,8 @@ var CLSTAMP = "10731156";
           o = e,
           c = e.displayName || e.name;
         if (
-          s &&
-          e.$$typeof === s &&
+          f &&
+          e.$$typeof === f &&
           ((n = !0), "function" != typeof (o = e.render))
         )
           throw new Error(
@@ -243,24 +243,24 @@ var CLSTAMP = "10731156";
           );
         var p,
           d,
-          m = function (e, t) {
+          v = function (e, t) {
             return (0, a.q)(function () {
               return o(e, t);
             }, c);
           };
         return (
-          (m.displayName = e.displayName),
-          f &&
-            Object.defineProperty(m, "name", {
+          (v.displayName = e.displayName),
+          s &&
+            Object.defineProperty(v, "name", {
               value: e.name,
               writable: !0,
               configurable: !0,
             }),
-          e.contextTypes && (m.contextTypes = e.contextTypes),
-          n && (m = (0, u.forwardRef)(m)),
-          (m = (0, u.memo)(m)),
+          e.contextTypes && (v.contextTypes = e.contextTypes),
+          n && (v = (0, u.forwardRef)(v)),
+          (v = (0, u.memo)(v)),
           (p = e),
-          (d = m),
+          (d = v),
           Object.keys(p).forEach(function (e) {
             y[e] ||
               Object.defineProperty(
@@ -269,7 +269,7 @@ var CLSTAMP = "10731156";
                 Object.getOwnPropertyDescriptor(p, e),
               );
           }),
-          m
+          v
         );
       }
       var y = {
@@ -281,21 +281,21 @@ var CLSTAMP = "10731156";
       };
     },
     4452: (e, t, r) => {
-      r.d(t, { q: () => s });
+      r.d(t, { q: () => f });
       var n = r(7813),
         o = r(6540),
         u = r(6356),
         i = r(3815),
         a = r(3438),
         c = r(9888);
-      function f(e) {
+      function s(e) {
         e.reaction = new n.Reaction("observer".concat(e.name), function () {
           var t;
           (e.stateVersion = Symbol()),
             null === (t = e.onStoreChange) || void 0 === t || t.call(e);
         });
       }
-      function s(e, t) {
+      function f(e, t) {
         if ((void 0 === t && (t = "observed"), (0, i.P)())) return e();
         var r = o.useRef(null);
         if (!r.current) {
@@ -308,7 +308,7 @@ var CLSTAMP = "10731156";
               return (
                 a.Y.unregister(n),
                 (n.onStoreChange = e),
-                n.reaction || (f(n), (n.stateVersion = Symbol())),
+                n.reaction || (s(n), (n.stateVersion = Symbol())),
                 function () {
                   var e;
                   (n.onStoreChange = null),
@@ -323,11 +323,11 @@ var CLSTAMP = "10731156";
           };
           r.current = n;
         }
-        var s,
+        var f,
           l,
           p = r.current;
         if (
-          (p.reaction || (f(p), a.Y.register(r, p, p)),
+          (p.reaction || (s(p), a.Y.register(r, p, p)),
           o.useDebugValue(p.reaction, u.E),
           (0, c.useSyncExternalStore)(
             p.subscribe,
@@ -336,7 +336,7 @@ var CLSTAMP = "10731156";
           ),
           p.reaction.track(function () {
             try {
-              s = e();
+              f = e();
             } catch (e) {
               l = e;
             }
@@ -344,7 +344,7 @@ var CLSTAMP = "10731156";
           l)
         )
           throw l;
-        return s;
+        return f;
       }
     },
     3438: (e, t, r) => {
@@ -363,8 +363,8 @@ var CLSTAMP = "10731156";
         i = Symbol.for("react.profiler"),
         a = Symbol.for("react.provider"),
         c = Symbol.for("react.context"),
-        f = Symbol.for("react.forward_ref"),
-        s = Symbol.for("react.suspense"),
+        s = Symbol.for("react.forward_ref"),
+        f = Symbol.for("react.suspense"),
         l = Symbol.for("react.memo"),
         p = Symbol.for("react.lazy"),
         y = Symbol.iterator;
@@ -376,19 +376,19 @@ var CLSTAMP = "10731156";
           enqueueReplaceState: function () {},
           enqueueSetState: function () {},
         },
-        m = Object.assign,
-        v = {};
+        v = Object.assign,
+        m = {};
       function b(e, t, r) {
         (this.props = e),
           (this.context = t),
-          (this.refs = v),
+          (this.refs = m),
           (this.updater = r || d);
       }
       function h() {}
       function S(e, t, r) {
         (this.props = e),
           (this.context = t),
-          (this.refs = v),
+          (this.refs = m),
           (this.updater = r || d);
       }
       (b.prototype.isReactComponent = {}),
@@ -404,12 +404,12 @@ var CLSTAMP = "10731156";
         }),
         (h.prototype = b.prototype);
       var w = (S.prototype = new h());
-      (w.constructor = S), m(w, b.prototype), (w.isPureReactComponent = !0);
+      (w.constructor = S), v(w, b.prototype), (w.isPureReactComponent = !0);
       var g = Array.isArray,
         _ = Object.prototype.hasOwnProperty,
-        $ = { current: null },
-        R = { key: !0, ref: !0, __self: !0, __source: !0 };
-      function E(e, t, n) {
+        E = { current: null },
+        $ = { key: !0, ref: !0, __self: !0, __source: !0 };
+      function R(e, t, n) {
         var o,
           u = {},
           i = null,
@@ -418,12 +418,12 @@ var CLSTAMP = "10731156";
           for (o in (void 0 !== t.ref && (a = t.ref),
           void 0 !== t.key && (i = "" + t.key),
           t))
-            _.call(t, o) && !R.hasOwnProperty(o) && (u[o] = t[o]);
+            _.call(t, o) && !$.hasOwnProperty(o) && (u[o] = t[o]);
         var c = arguments.length - 2;
         if (1 === c) u.children = n;
         else if (1 < c) {
-          for (var f = Array(c), s = 0; s < c; s++) f[s] = arguments[s + 2];
-          u.children = f;
+          for (var s = Array(c), f = 0; f < c; f++) s[f] = arguments[f + 2];
+          u.children = s;
         }
         if (e && e.defaultProps)
           for (o in (c = e.defaultProps)) void 0 === u[o] && (u[o] = c[o]);
@@ -433,7 +433,7 @@ var CLSTAMP = "10731156";
           key: i,
           ref: a,
           props: u,
-          _owner: $.current,
+          _owner: E.current,
         };
       }
       function C(e) {
@@ -504,22 +504,22 @@ var CLSTAMP = "10731156";
             1
           );
         if (((c = 0), (u = "" === u ? "." : u + ":"), g(e)))
-          for (var f = 0; f < e.length; f++) {
-            var s = u + O((a = e[f]), f);
-            c += j(a, t, o, s, i);
+          for (var s = 0; s < e.length; s++) {
+            var f = u + O((a = e[s]), s);
+            c += j(a, t, o, f, i);
           }
         else if (
-          ((s = (function (e) {
+          ((f = (function (e) {
             return null === e || "object" != typeof e
               ? null
               : "function" == typeof (e = (y && e[y]) || e["@@iterator"])
                 ? e
                 : null;
           })(e)),
-          "function" == typeof s)
+          "function" == typeof f)
         )
-          for (e = s.call(e), f = 0; !(a = e.next()).done; )
-            c += j((a = a.value), t, o, (s = u + O(a, f++)), i);
+          for (e = f.call(e), s = 0; !(a = e.next()).done; )
+            c += j((a = a.value), t, o, (f = u + O(a, s++)), i);
         else if ("object" === a)
           throw (
             ((t = String(e)),
@@ -567,7 +567,7 @@ var CLSTAMP = "10731156";
         D = {
           ReactCurrentDispatcher: T,
           ReactCurrentBatchConfig: V,
-          ReactCurrentOwner: $,
+          ReactCurrentOwner: E,
         };
       function I() {
         throw Error("act(...) is not supported in production builds of React.");
@@ -612,7 +612,7 @@ var CLSTAMP = "10731156";
         (t.Profiler = i),
         (t.PureComponent = S),
         (t.StrictMode = u),
-        (t.Suspense = s),
+        (t.Suspense = f),
         (t.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED = D),
         (t.act = I),
         (t.cloneElement = function (e, t, n) {
@@ -622,27 +622,27 @@ var CLSTAMP = "10731156";
                 e +
                 ".",
             );
-          var o = m({}, e.props),
+          var o = v({}, e.props),
             u = e.key,
             i = e.ref,
             a = e._owner;
           if (null != t) {
             if (
-              (void 0 !== t.ref && ((i = t.ref), (a = $.current)),
+              (void 0 !== t.ref && ((i = t.ref), (a = E.current)),
               void 0 !== t.key && (u = "" + t.key),
               e.type && e.type.defaultProps)
             )
               var c = e.type.defaultProps;
-            for (f in t)
-              _.call(t, f) &&
-                !R.hasOwnProperty(f) &&
-                (o[f] = void 0 === t[f] && void 0 !== c ? c[f] : t[f]);
+            for (s in t)
+              _.call(t, s) &&
+                !$.hasOwnProperty(s) &&
+                (o[s] = void 0 === t[s] && void 0 !== c ? c[s] : t[s]);
           }
-          var f = arguments.length - 2;
-          if (1 === f) o.children = n;
-          else if (1 < f) {
-            c = Array(f);
-            for (var s = 0; s < f; s++) c[s] = arguments[s + 2];
+          var s = arguments.length - 2;
+          if (1 === s) o.children = n;
+          else if (1 < s) {
+            c = Array(s);
+            for (var f = 0; f < s; f++) c[f] = arguments[f + 2];
             o.children = c;
           }
           return {
@@ -669,16 +669,16 @@ var CLSTAMP = "10731156";
             (e.Consumer = e)
           );
         }),
-        (t.createElement = E),
+        (t.createElement = R),
         (t.createFactory = function (e) {
-          var t = E.bind(null, e);
+          var t = R.bind(null, e);
           return (t.type = e), t;
         }),
         (t.createRef = function () {
           return { current: null };
         }),
         (t.forwardRef = function (e) {
-          return { $$typeof: f, render: e };
+          return { $$typeof: s, render: e };
         }),
         (t.isValidElement = C),
         (t.lazy = function (e) {
@@ -745,6 +745,70 @@ var CLSTAMP = "10731156";
           return T.current.useTransition();
         }),
         (t.version = "18.3.1");
+    },
+    6540: (e, t, r) => {
+      e.exports = r(5287);
+    },
+    8493: (e, t, r) => {
+      var n = r(6540);
+      var o =
+          "function" == typeof Object.is
+            ? Object.is
+            : function (e, t) {
+                return (
+                  (e === t && (0 !== e || 1 / e == 1 / t)) || (e != e && t != t)
+                );
+              },
+        u = n.useState,
+        i = n.useEffect,
+        a = n.useLayoutEffect,
+        c = n.useDebugValue;
+      function s(e) {
+        var t = e.getSnapshot;
+        e = e.value;
+        try {
+          var r = t();
+          return !o(e, r);
+        } catch (e) {
+          return !0;
+        }
+      }
+      var f =
+        "undefined" == typeof window ||
+        void 0 === window.document ||
+        void 0 === window.document.createElement
+          ? function (e, t) {
+              return t();
+            }
+          : function (e, t) {
+              var r = t(),
+                n = u({ inst: { value: r, getSnapshot: t } }),
+                o = n[0].inst,
+                f = n[1];
+              return (
+                a(
+                  function () {
+                    (o.value = r), (o.getSnapshot = t), s(o) && f({ inst: o });
+                  },
+                  [e, r, t],
+                ),
+                i(
+                  function () {
+                    return (
+                      s(o) && f({ inst: o }),
+                      e(function () {
+                        s(o) && f({ inst: o });
+                      })
+                    );
+                  },
+                  [e],
+                ),
+                c(r),
+                r
+              );
+            };
+      t.useSyncExternalStore =
+        void 0 !== n.useSyncExternalStore ? n.useSyncExternalStore : f;
     },
     9888: (e, t, r) => {
       e.exports = r(8493);

@@ -1,1 +1,7 @@
-[]
+[
+    {
+        "language_tag": "ro_RO",
+        "frame_controller": "Controler Steam Frame",
+        "/input/thumbrest": "Suport pentru degetul mare"
+    }
+]

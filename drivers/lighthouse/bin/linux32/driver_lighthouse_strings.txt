@@ -272,6 +272,7 @@ $3br
 %u %s@%s %s FPGA %u(%u.%u/%u/%u) BL %u%s%s%s
 %u_%02u
 &'()*56789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
+&BTIE
 ' is not a number.
 ' property is missing
 ' property is missing in 

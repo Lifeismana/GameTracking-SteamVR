@@ -1,674 +1,136 @@
-var CLSTAMP = "10731156";
+var CLSTAMP = "10770080";
 (() => {
   "use strict";
   var e,
     t = {
-      5287: (e, t) => {
-        var n = Symbol.for("react.element"),
-          r = Symbol.for("react.portal"),
-          o = Symbol.for("react.fragment"),
-          s = Symbol.for("react.strict_mode"),
-          a = Symbol.for("react.profiler"),
-          i = Symbol.for("react.provider"),
-          l = Symbol.for("react.context"),
-          u = Symbol.for("react.forward_ref"),
-          c = Symbol.for("react.suspense"),
-          d = Symbol.for("react.memo"),
-          h = Symbol.for("react.lazy"),
-          f = Symbol.iterator;
-        var p = {
-            isMounted: function () {
-              return !1;
-            },
-            enqueueForceUpdate: function () {},
-            enqueueReplaceState: function () {},
-            enqueueSetState: function () {},
-          },
-          _ = Object.assign,
-          g = {};
-        function m(e, t, n) {
-          (this.props = e),
-            (this.context = t),
-            (this.refs = g),
-            (this.updater = n || p);
-        }
-        function S() {}
-        function v(e, t, n) {
-          (this.props = e),
-            (this.context = t),
-            (this.refs = g),
-            (this.updater = n || p);
-        }
-        (m.prototype.isReactComponent = {}),
-          (m.prototype.setState = function (e, t) {
-            if ("object" != typeof e && "function" != typeof e && null != e)
-              throw Error(
-                "setState(...): takes an object of state variables to update or a function which returns an object of state variables.",
-              );
-            this.updater.enqueueSetState(this, e, t, "setState");
-          }),
-          (m.prototype.forceUpdate = function (e) {
-            this.updater.enqueueForceUpdate(this, e, "forceUpdate");
-          }),
-          (S.prototype = m.prototype);
-        var y = (v.prototype = new S());
-        (y.constructor = v), _(y, m.prototype), (y.isPureReactComponent = !0);
-        var b = Array.isArray,
-          O = Object.prototype.hasOwnProperty,
-          R = { current: null },
-          k = { key: !0, ref: !0, __self: !0, __source: !0 };
-        function C(e, t, r) {
-          var o,
-            s = {},
-            a = null,
-            i = null;
-          if (null != t)
-            for (o in (void 0 !== t.ref && (i = t.ref),
-            void 0 !== t.key && (a = "" + t.key),
-            t))
-              O.call(t, o) && !k.hasOwnProperty(o) && (s[o] = t[o]);
-          var l = arguments.length - 2;
-          if (1 === l) s.children = r;
-          else if (1 < l) {
-            for (var u = Array(l), c = 0; c < l; c++) u[c] = arguments[c + 2];
-            s.children = u;
-          }
-          if (e && e.defaultProps)
-            for (o in (l = e.defaultProps)) void 0 === s[o] && (s[o] = l[o]);
-          return {
-            $$typeof: n,
-            type: e,
-            key: a,
-            ref: i,
-            props: s,
-            _owner: R.current,
-          };
-        }
-        function M(e) {
-          return "object" == typeof e && null !== e && e.$$typeof === n;
-        }
-        var T = /\/+/g;
-        function w(e, t) {
-          return "object" == typeof e && null !== e && null != e.key
-            ? (function (e) {
-                var t = { "=": "=0", ":": "=2" };
-                return (
-                  "$" +
-                  e.replace(/[=:]/g, function (e) {
-                    return t[e];
-                  })
-                );
-              })("" + e.key)
-            : t.toString(36);
-        }
-        function E(e, t, o, s, a) {
-          var i = typeof e;
-          ("undefined" !== i && "boolean" !== i) || (e = null);
-          var l = !1;
-          if (null === e) l = !0;
-          else
-            switch (i) {
-              case "string":
-              case "number":
-                l = !0;
-                break;
-              case "object":
-                switch (e.$$typeof) {
-                  case n:
-                  case r:
-                    l = !0;
-                }
-            }
-          if (l)
-            return (
-              (a = a((l = e))),
-              (e = "" === s ? "." + w(l, 0) : s),
-              b(a)
-                ? ((o = ""),
-                  null != e && (o = e.replace(T, "$&/") + "/"),
-                  E(a, t, o, "", function (e) {
-                    return e;
-                  }))
-                : null != a &&
-                  (M(a) &&
-                    (a = (function (e, t) {
-                      return {
-                        $$typeof: n,
-                        type: e.type,
-                        key: t,
-                        ref: e.ref,
-                        props: e.props,
-                        _owner: e._owner,
-                      };
-                    })(
-                      a,
-                      o +
-                        (!a.key || (l && l.key === a.key)
-                          ? ""
-                          : ("" + a.key).replace(T, "$&/") + "/") +
-                        e,
-                    )),
-                  t.push(a)),
-              1
-            );
-          if (((l = 0), (s = "" === s ? "." : s + ":"), b(e)))
-            for (var u = 0; u < e.length; u++) {
-              var c = s + w((i = e[u]), u);
-              l += E(i, t, o, c, a);
-            }
-          else if (
-            ((c = (function (e) {
-              return null === e || "object" != typeof e
-                ? null
-                : "function" == typeof (e = (f && e[f]) || e["@@iterator"])
-                  ? e
-                  : null;
-            })(e)),
-            "function" == typeof c)
-          )
-            for (e = c.call(e), u = 0; !(i = e.next()).done; )
-              l += E((i = i.value), t, o, (c = s + w(i, u++)), a);
-          else if ("object" === i)
-            throw (
-              ((t = String(e)),
-              Error(
-                "Objects are not valid as a React child (found: " +
-                  ("[object Object]" === t
-                    ? "object with keys {" + Object.keys(e).join(", ") + "}"
-                    : t) +
-                  "). If you meant to render a collection of children, use an array instead.",
-              ))
-            );
-          return l;
-        }
-        function W(e, t, n) {
-          if (null == e) return e;
-          var r = [],
-            o = 0;
-          return (
-            E(e, r, "", "", function (e) {
-              return t.call(n, e, o++);
-            }),
-            r
-          );
-        }
-        function x(e) {
-          if (-1 === e._status) {
-            var t = e._result;
-            (t = t()).then(
-              function (t) {
-                (0 !== e._status && -1 !== e._status) ||
-                  ((e._status = 1), (e._result = t));
-              },
-              function (t) {
-                (0 !== e._status && -1 !== e._status) ||
-                  ((e._status = 2), (e._result = t));
-              },
-            ),
-              -1 === e._status && ((e._status = 0), (e._result = t));
-          }
-          if (1 === e._status) return e._result.default;
-          throw e._result;
-        }
-        var A = { current: null },
-          P = { transition: null },
-          I = {
-            ReactCurrentDispatcher: A,
-            ReactCurrentBatchConfig: P,
-            ReactCurrentOwner: R,
-          };
-        function L() {
-          throw Error(
-            "act(...) is not supported in production builds of React.",
-          );
-        }
-        (t.Children = {
-          map: W,
-          forEach: function (e, t, n) {
-            W(
-              e,
-              function () {
-                t.apply(this, arguments);
-              },
-              n,
-            );
-          },
-          count: function (e) {
-            var t = 0;
-            return (
-              W(e, function () {
-                t++;
-              }),
-              t
-            );
-          },
-          toArray: function (e) {
-            return (
-              W(e, function (e) {
-                return e;
-              }) || []
-            );
-          },
-          only: function (e) {
-            if (!M(e))
-              throw Error(
-                "React.Children.only expected to receive a single React element child.",
-              );
-            return e;
-          },
-        }),
-          (t.Component = m),
-          (t.Fragment = o),
-          (t.Profiler = a),
-          (t.PureComponent = v),
-          (t.StrictMode = s),
-          (t.Suspense = c),
-          (t.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED = I),
-          (t.act = L),
-          (t.cloneElement = function (e, t, r) {
-            if (null == e)
-              throw Error(
-                "React.cloneElement(...): The argument must be a React element, but you passed " +
-                  e +
-                  ".",
-              );
-            var o = _({}, e.props),
-              s = e.key,
-              a = e.ref,
-              i = e._owner;
-            if (null != t) {
-              if (
-                (void 0 !== t.ref && ((a = t.ref), (i = R.current)),
-                void 0 !== t.key && (s = "" + t.key),
-                e.type && e.type.defaultProps)
-              )
-                var l = e.type.defaultProps;
-              for (u in t)
-                O.call(t, u) &&
-                  !k.hasOwnProperty(u) &&
-                  (o[u] = void 0 === t[u] && void 0 !== l ? l[u] : t[u]);
-            }
-            var u = arguments.length - 2;
-            if (1 === u) o.children = r;
-            else if (1 < u) {
-              l = Array(u);
-              for (var c = 0; c < u; c++) l[c] = arguments[c + 2];
-              o.children = l;
-            }
-            return {
-              $$typeof: n,
-              type: e.type,
-              key: s,
-              ref: a,
-              props: o,
-              _owner: i,
-            };
-          }),
-          (t.createContext = function (e) {
-            return (
-              ((e = {
-                $$typeof: l,
-                _currentValue: e,
-                _currentValue2: e,
-                _threadCount: 0,
-                Provider: null,
-                Consumer: null,
-                _defaultValue: null,
-                _globalName: null,
-              }).Provider = { $$typeof: i, _context: e }),
-              (e.Consumer = e)
-            );
-          }),
-          (t.createElement = C),
-          (t.createFactory = function (e) {
-            var t = C.bind(null, e);
-            return (t.type = e), t;
-          }),
-          (t.createRef = function () {
-            return { current: null };
-          }),
-          (t.forwardRef = function (e) {
-            return { $$typeof: u, render: e };
-          }),
-          (t.isValidElement = M),
-          (t.lazy = function (e) {
-            return {
-              $$typeof: h,
-              _payload: { _status: -1, _result: e },
-              _init: x,
-            };
-          }),
-          (t.memo = function (e, t) {
-            return { $$typeof: d, type: e, compare: void 0 === t ? null : t };
-          }),
-          (t.startTransition = function (e) {
-            var t = P.transition;
-            P.transition = {};
-            try {
-              e();
-            } finally {
-              P.transition = t;
-            }
-          }),
-          (t.unstable_act = L),
-          (t.useCallback = function (e, t) {
-            return A.current.useCallback(e, t);
-          }),
-          (t.useContext = function (e) {
-            return A.current.useContext(e);
-          }),
-          (t.useDebugValue = function () {}),
-          (t.useDeferredValue = function (e) {
-            return A.current.useDeferredValue(e);
-          }),
-          (t.useEffect = function (e, t) {
-            return A.current.useEffect(e, t);
-          }),
-          (t.useId = function () {
-            return A.current.useId();
-          }),
-          (t.useImperativeHandle = function (e, t, n) {
-            return A.current.useImperativeHandle(e, t, n);
-          }),
-          (t.useInsertionEffect = function (e, t) {
-            return A.current.useInsertionEffect(e, t);
-          }),
-          (t.useLayoutEffect = function (e, t) {
-            return A.current.useLayoutEffect(e, t);
-          }),
-          (t.useMemo = function (e, t) {
-            return A.current.useMemo(e, t);
-          }),
-          (t.useReducer = function (e, t, n) {
-            return A.current.useReducer(e, t, n);
-          }),
-          (t.useRef = function (e) {
-            return A.current.useRef(e);
-          }),
-          (t.useState = function (e) {
-            return A.current.useState(e);
-          }),
-          (t.useSyncExternalStore = function (e, t, n) {
-            return A.current.useSyncExternalStore(e, t, n);
-          }),
-          (t.useTransition = function () {
-            return A.current.useTransition();
-          }),
-          (t.version = "18.3.1");
-      },
       6090: (e, t, n) => {
         n.d(t, {
-          Ay: () => u,
-          GM: () => s.GM,
-          I0: () => r.I0,
-          M9: () => r.M9,
-          OH: () => i.OH,
-          Ox: () => i.Ox,
-          R$: () => i.R$,
-          Rk: () => i.Rk,
-          Zk: () => a.Zk,
-          _n: () => r._n,
-          dL: () => o.d,
-          en: () => l.en,
+          $: () => k.$,
+          $Z: () => k.$Z,
+          Ay: () => P,
+          CU: () => r.CU,
+          Ci: () => p.C,
+          Do: () => k.Do,
+          Ee: () => k.Ee,
+          Em: () => c.Em,
+          Fb: () => r.Fb,
+          Fi: () => y.Fi,
+          Fz: () => k.Fz,
+          GM: () => d.GM,
+          GQ: () => D.GQ,
+          GS: () => a.GS,
+          Gz: () => D.Gz,
+          HW: () => D.HW,
+          I0: () => a.I0,
+          IS: () => l.I,
+          JZ: () => r.JZ,
+          Jv: () => a.Jv,
+          KI: () => k.KI,
+          Kl: () => D.Kl,
+          Ld: () => r.Ld,
+          M9: () => a.M9,
+          MQ: () => y.MQ,
+          MV: () => D.MV,
+          N: () => i.e,
+          N1: () => v.N,
+          NH: () => r.NH,
+          O5: () => m.O,
+          O6: () => r.O6,
+          OH: () => D.OH,
+          Oi: () => y.Oi,
+          Ox: () => D.Ox,
+          QB: () => r.QB,
+          QR: () => k.QR,
+          R$: () => D.R$,
+          Rk: () => D.Rk,
+          Se: () => r.Se,
+          Uj: () => r.Uj,
+          Vh: () => g.Vh,
+          Wi: () => d.Wi,
+          Wq: () => a.Wq,
+          Xl: () => D.Xl,
+          Xu: () => a.Xu,
+          Y4: () => s.Y,
+          YV: () => k.YV,
+          Yu: () => k.Yu,
+          ZP: () => k.ZP,
+          Zk: () => y.Zk,
+          _1: () => D._1,
+          _8: () => k._8,
+          _h: () => y._h,
+          _n: () => a._n,
+          aX: () => g.aX,
+          b: () => D.b,
+          b$: () => R.b,
+          b4: () => f.b,
+          cB: () => C.L,
+          dL: () => u.d,
+          ds: () => k.ds,
+          e_: () => r.e_,
+          en: () => k.en,
+          eo: () => k.eo,
+          f9: () => k.f9,
+          fD: () => k.fD,
+          fk: () => k.fk,
+          gN: () => D.gN,
+          k2: () => D.k2,
+          kG: () => D.kG,
+          ku: () => D.ku,
+          lq: () => h.l,
+          m$: () => f.m,
+          mH: () => g.mH,
+          mX: () => a.mX,
+          mu: () => D.mu,
+          nX: () => c.nX,
+          ne: () => D.ne,
+          nq: () => _.n,
+          o3: () => y.o3,
+          oN: () => r.oN,
+          pM: () => D.pM,
+          pg: () => a.pg,
+          q5: () => r.q5,
+          qF: () => r.qF,
+          rF: () => l.H,
+          rx: () => D.rx,
+          sJ: () => O.$,
+          sn: () => a.sn,
+          t$: () => S.t,
+          tx: () => r.tx,
+          uC: () => b.u,
+          uS: () => o.u,
+          vx: () => r.vx,
+          xO: () => y.xO,
+          yW: () => k.yW,
         });
-        var r = n(2824),
-          o = (n(119), n(4120), n(1230), n(5830), n(6186), n(3361)),
-          s = (n(111), n(5723), n(3496)),
-          a =
-            (n(5178),
-            n(428),
-            n(9011),
-            n(7350),
-            n(6847),
-            n(5227),
-            n(10),
-            n(1808),
-            n(7019)),
-          i =
-            (n(1988),
-            n(2527),
-            n(9864),
-            n(4189),
-            n(322),
-            n(1977),
-            n(6417),
-            n(2303),
-            n(8715),
-            n(4397),
-            n(5459),
-            n(8472),
-            n(1184),
-            n(1321),
-            n(3725)),
-          l = n(4367);
-        const u = VRHTML;
-      },
-      2824: (e, t, n) => {
-        n.d(t, {
-          I0: () => c,
-          Jv: () => d,
-          M9: () => u,
-          _n: () => h,
-          pg: () => l,
-        });
-        var r = n(1635),
-          o = n(7813),
-          s = n(3236),
-          a = n(1295),
-          i = n(776);
-        const l = "vrcompositor_systemlayer",
-          u = "vrwebui_dashboardstore",
-          c = "binding_callouts/main",
-          d = "scene_graph";
-        class h {
-          constructor() {
-            (this.m_wsWebSocketToServer = void 0),
-              (this.connected = !1),
-              (this.m_sMailboxName = ""),
-              (this.m_oHandlers = {}),
-              (this.m_oWaits = {}),
-              (this.m_oConnectWaits = []),
-              (this.m_sWebSecret = ""),
-              (this.m_nNextMessageNumber = 1),
-              (this.Log = new i.wd("Mailbox", () => this.m_sMailboxName)),
-              (0, o.makeObservable)(this);
-          }
-          OpenWebSocketToHost() {
-            return new Promise((e, t) => {
-              this.Log.Info("Opening Web Socket...");
-              let n = "ws://127.0.0.1:27062";
-              this.m_sWebSecret && (n += "?secret=" + this.m_sWebSecret),
-                this.m_wsWebSocketToServer &&
-                  (this.Log.Error(
-                    "OpenWebSocketToHost called on existing connection",
-                  ),
-                  this.CloseWebSocket());
-              let r = !1;
-              (this.m_wsWebSocketToServer = new WebSocket(n)),
-                this.m_wsWebSocketToServer.addEventListener("open", (t) => {
-                  this.OnWebSocketOpen(t), r || e(), (r = !0);
-                }),
-                this.m_wsWebSocketToServer.addEventListener(
-                  "message",
-                  this.OnWebSocketMessage,
-                ),
-                this.m_wsWebSocketToServer.addEventListener(
-                  "close",
-                  this.OnWebSocketClose,
-                ),
-                this.m_wsWebSocketToServer.addEventListener("error", (e) => {
-                  this.OnWebSocketError(e), r || t(), (r = !0);
-                });
-            });
-          }
-          CloseWebSocket() {
-            this.m_wsWebSocketToServer &&
-              (this.m_wsWebSocketToServer.removeEventListener(
-                "message",
-                this.OnWebSocketMessage,
-              ),
-              this.m_wsWebSocketToServer.removeEventListener(
-                "close",
-                this.OnWebSocketClose,
-              ),
-              this.m_wsWebSocketToServer.close(),
-              (this.m_wsWebSocketToServer = void 0)),
-              (this.connected = !1);
-          }
-          static EnsureUniqueName(e) {
-            if (e.includes("/")) return e;
-            let t;
-            return (
-              (t = VRHTML ? VRHTML.GetWebHelperId() : Date.now().toString()),
-              e + "/" + t + "_" + this.s_nNextMailboxNumber++
-            );
-          }
-          Init(e, t) {
-            return (0, r.sH)(this, void 0, void 0, function* () {
-              return (
-                (this.m_sMailboxName = h.EnsureUniqueName(e)),
-                (this.m_sWebSecret = null != t ? t : ""),
-                (this.connected = !1),
-                this.OpenWebSocketToHost()
-              );
-            });
-          }
-          Destroy() {
-            this.CloseWebSocket();
-          }
-          get name() {
-            return this.m_sMailboxName;
-          }
-          OnWebSocketOpen(e) {
-            (this.connected = !0),
-              this.Log.Info("Web Socket Opened"),
-              this.WebSocketSend("mailbox_open " + this.m_sMailboxName),
-              window.addEventListener("beforeunload", () => {
-                this.WebSocketSend("websocket_close");
-              });
-            for (let e of this.m_oConnectWaits) e();
-            this.m_oConnectWaits = [];
-          }
-          OnWebSocketClose(e) {
-            return (0, r.sH)(this, void 0, void 0, function* () {
-              this.Log.Warning("Lost connection to host. code:", e.code),
-                (this.connected = !1),
-                (this.m_wsWebSocketToServer = void 0),
-                yield (0, a.IP)(1e3),
-                this.OpenWebSocketToHost();
-            });
-          }
-          OnWebSocketError(e) {
-            return (0, r.sH)(this, void 0, void 0, function* () {
-              this.Log.ErrorOnceThenWarn(
-                "OnWebSocketError",
-                "Mailbox error:",
-                e.type,
-              ),
-                (this.connected = !1);
-            });
-          }
-          WebSocketSend(e) {
-            return (
-              null != this.m_wsWebSocketToServer &&
-              1 == this.m_wsWebSocketToServer.readyState &&
-              (this.m_wsWebSocketToServer.send(e), !0)
-            );
-          }
-          OnWebSocketMessage(e) {
-            let t = JSON.parse(e.data),
-              n = !1;
-            if (
-              (this.m_oHandlers.hasOwnProperty(t.type) &&
-                (this.m_oHandlers[t.type](t), (n = !0)),
-              this.m_oWaits.hasOwnProperty(t.type))
-            ) {
-              let e = !1;
-              for (let n of this.m_oWaits[t.type])
-                n.nMessageId == t.message_id && (n.callback(t), (e = !0));
-              e
-                ? (this.m_oWaits[t.type] = this.m_oWaits[t.type].filter(
-                    (e) => e.nMessageId != t.message_id,
-                  ))
-                : this.Log.Error(
-                    `Received a ${t.type} message, but didn't have a matching message_id. Did the other end forget to mirror message_id?`,
-                  ),
-                (n = !0);
-            }
-            n ||
-              this.Log.ErrorOnceThenWarn(
-                "OnWebsocket283",
-                "Received unhandled message: ",
-                t.type,
-                t,
-              );
-          }
-          RegisterHandler(e, t) {
-            this.m_oHandlers[e] = t;
-          }
-          SendMessage(e, t) {
-            return this.WebSocketSend(
-              "mailbox_send " + e + " " + JSON.stringify(t),
-            );
-          }
-          WaitForMessage(e, t) {
-            return new Promise((n, r) => {
-              this.m_oWaits[e] || (this.m_oWaits[e] = []),
-                this.m_oWaits[e].push({ callback: n, nMessageId: t });
-            });
-          }
-          WaitForConnect() {
-            return new Promise((e, t) => {
-              this.connected ? e() : this.m_oConnectWaits.push(e);
-            });
-          }
-          WaitForMailbox(e) {
-            return (0, r.sH)(this, void 0, void 0, function* () {
-              let t = {
-                type: "request_mailbox_registration_notification",
-                mailbox_name: e,
-              };
-              return this.SendMessageAndWaitForResponse(
-                "web_server_mailbox",
-                t,
-                "mailbox_registered",
-              );
-            });
-          }
-          SendMessageAndWaitForResponse(e, t, n) {
-            let r = Object.assign({}, t);
-            null == r.returnAddress && (r.returnAddress = this.m_sMailboxName),
-              (r.message_id = this.m_nNextMessageNumber++);
-            const o = this.WaitForMessage(n, r.message_id);
-            return this.SendMessage(e, r), o;
-          }
-          SendResponse(e, t) {
-            if (!e.returnAddress)
-              throw new Error("Missing return address on message");
-            let n = Object.assign(Object.assign({}, t), {
-              message_id: e.message_id,
-            });
-            (n.message_id = e.message_id), this.SendMessage(e.returnAddress, n);
-          }
-          SendDebugIllegalMsg() {
-            this.WebSocketSend("debug_send_illegal_msg");
-          }
-          SendDebugCloseMsg() {
-            this.WebSocketSend("debug_close");
-          }
-        }
-        (h.s_nNextMailboxNumber = 1),
-          (0, r.Cg)([o.observable], h.prototype, "connected", void 0),
-          (0, r.Cg)([s.o], h.prototype, "OpenWebSocketToHost", null),
-          (0, r.Cg)([s.o], h.prototype, "OnWebSocketOpen", null),
-          (0, r.Cg)([s.o], h.prototype, "OnWebSocketClose", null),
-          (0, r.Cg)([s.o], h.prototype, "OnWebSocketError", null),
-          (0, r.Cg)([s.o], h.prototype, "WebSocketSend", null),
-          (0, r.Cg)([s.o], h.prototype, "OnWebSocketMessage", null);
+        var a = n(2824),
+          r = n(6292),
+          o = n(119),
+          i = (n(4120), n(1230)),
+          s = n(5830),
+          l = n(6186),
+          u = n(3361),
+          c = (n(111), n(5723)),
+          d = n(3496),
+          m = n(5178),
+          g = (n(428), n(9011), n(7350)),
+          h = n(6847),
+          v = n(5227),
+          p = (n(10), n(1808)),
+          y = n(7019),
+          f = (n(1988), n(2527), n(9864)),
+          O = (n(4189), n(322), n(1977), n(6417)),
+          _ = n(2303),
+          C = n(8715),
+          R = (n(4397), n(5459)),
+          b = n(8472),
+          S = (n(1184), n(1321)),
+          D = n(3725),
+          k = n(4367);
+        const P = VRHTML;
       },
       3725: (e, t, n) => {
-        var r, o, s, a;
-        function i() {
+        var a, r, o, i;
+        function s() {
           var e;
           return null !==
             (e =
@@ -676,27 +138,43 @@ var CLSTAMP = "10731156";
                 ? void 0
                 : VRHTML.Environment()) && void 0 !== e
             ? e
-            : r.Unknown;
+            : a.Unknown;
         }
         n.d(t, {
-          OH: () => r,
-          Ox: () => _,
-          R$: () => i,
-          Rk: () => d,
+          GQ: () => M,
+          Gz: () => u,
+          HW: () => p,
+          Kl: () => _,
+          MV: () => o,
+          OH: () => a,
+          Ox: () => y,
+          R$: () => s,
+          Rk: () => g,
+          Xl: () => f,
+          _1: () => P,
           _E: () => l,
+          b: () => O,
+          gN: () => C,
+          k2: () => S,
+          kG: () => R,
+          ku: () => m,
+          mu: () => i,
+          ne: () => c,
+          pM: () => r,
+          rx: () => D,
         }),
           (function (e) {
             (e[(e.Desktop = 1)] = "Desktop"),
               (e[(e.Overlay = 2)] = "Overlay"),
               (e[(e.Unknown = 100)] = "Unknown");
-          })(r || (r = {})),
+          })(a || (a = {})),
           window.hasOwnProperty("VRHTML") || (window.VRHTML = null),
           (function (e) {
             (e[(e.Auto = 0)] = "Auto"),
               (e[(e.Low = 1)] = "Low"),
               (e[(e.Medium = 2)] = "Medium"),
               (e[(e.High = 3)] = "High");
-          })(o || (o = {})),
+          })(r || (r = {})),
           (function (e) {
             (e[(e.TrackingResult_Uninitialized = 1)] =
               "TrackingResult_Uninitialized"),
@@ -710,14 +188,16 @@ var CLSTAMP = "10731156";
                 "TrackingResult_Running_OutOfRange"),
               (e[(e.TrackingResult_Fallback_RotationOnly = 300)] =
                 "TrackingResult_Fallback_RotationOnly");
-          })(s || (s = {})),
+          })(o || (o = {})),
           (function (e) {
             (e[(e.Seated = 0)] = "Seated"),
               (e[(e.Standing = 1)] = "Standing"),
               (e[(e.RawAndUncalibrated = 2)] = "RawAndUncalibrated");
-          })(a || (a = {}));
-        let l = 0;
-        var u, c, d, h, f, p, _, g, m, S, v, y, b, O, R, k, C, M, T, w, E;
+          })(i || (i = {}));
+        let l = 0,
+          u = 0,
+          c = 4294967295;
+        var d, m, g, h, v, p, y, f, O, _, C, R, b, S, D, k, P, T, M;
         !(function (e) {
           (e[(e.None = 0)] = "None"),
             (e[(e.Shown = 1)] = "Shown"),
@@ -736,14 +216,14 @@ var CLSTAMP = "10731156";
             (e[(e.Close = 14)] = "Close"),
             (e[(e.TakeFocus = 15)] = "TakeFocus"),
             (e[(e.HitTest = 16)] = "HitTest");
-        })(u || (u = {})),
+        })(d || (d = {})),
           (function (e) {
             (e[(e.Activated = 0)] = "Activated"),
               (e[(e.Deactivated = 1)] = "Deactivated");
-          })(c || (c = {})),
+          })(m || (m = {})),
           (function (e) {
             (e[(e.None = 0)] = "None"), (e[(e.Mouse = 1)] = "Mouse");
-          })(d || (d = {})),
+          })(g || (g = {})),
           (function (e) {
             (e[(e.Invalid = 0)] = "Invalid"),
               (e[(e.HMD = 1)] = "HMD"),
@@ -756,7 +236,7 @@ var CLSTAMP = "10731156";
             (e[(e.Unknown = 0)] = "Unknown"),
               (e[(e.NVIDIA = 1)] = "NVIDIA"),
               (e[(e.AMD = 2)] = "AMD");
-          })(f || (f = {})),
+          })(v || (v = {})),
           (function (e) {
             (e[(e.None = 0)] = "None"),
               (e[(e.Starting = 1)] = "Starting"),
@@ -774,16 +254,16 @@ var CLSTAMP = "10731156";
               (e[(e.CouldntFindOrCreateClientOverlay = 5)] =
                 "CouldntFindOrCreateClientOverlay"),
               (e[(e.ApplicationQuit = 6)] = "ApplicationQuit");
-          })(_ || (_ = {})),
+          })(y || (y = {})),
           (function (e) {
             (e[(e.Normal = 0)] = "Normal"),
               (e[(e.Password = 1)] = "Password"),
               (e[(e.Submit = 2)] = "Submit");
-          })(g || (g = {})),
+          })(f || (f = {})),
           (function (e) {
             (e[(e.SingleLine = 0)] = "SingleLine"),
               (e[(e.MultipleLines = 1)] = "MultipleLines");
-          })(m || (m = {})),
+          })(O || (O = {})),
           (function (e) {
             (e[(e.LaserMouse = 1)] = "LaserMouse"),
               (e[(e.RoomViewFullyOccludingApp = 2)] =
@@ -799,30 +279,7 @@ var CLSTAMP = "10731156";
               (e[(e.DashboardTutorial = 128)] = "DashboardTutorial"),
               (e[(e.GamepadMode = 512)] = "GamepadMode"),
               (e[(e.SystemKeyboardPrivacy = 1024)] = "SystemKeyboardPrivacy");
-          })(S || (S = {})),
-          (function (e) {
-            (e[(e.BULK_DEFAULT = 0)] = "BULK_DEFAULT"),
-              (e[(e.BULK_64K_DMA = 1)] = "BULK_64K_DMA"),
-              (e[(e.BULK_16K_DMA = 2)] = "BULK_16K_DMA"),
-              (e[(e.BULK_8K_DMA = 3)] = "BULK_8K_DMA"),
-              (e[(e.ISO_52FPS = 4)] = "ISO_52FPS"),
-              (e[(e.ISO_50FPS = 5)] = "ISO_50FPS"),
-              (e[(e.ISO_48FPS = 6)] = "ISO_48FPS"),
-              (e[(e.ISO_46FPS = 7)] = "ISO_46FPS"),
-              (e[(e.ISO_44FPS = 8)] = "ISO_44FPS"),
-              (e[(e.ISO_42FPS = 9)] = "ISO_42FPS"),
-              (e[(e.ISO_40FPS = 10)] = "ISO_40FPS"),
-              (e[(e.ISO_35FPS = 11)] = "ISO_35FPS"),
-              (e[(e.ISO_30FPS = 12)] = "ISO_30FPS"),
-              (e[(e.ISO_15FPS = 13)] = "ISO_15FPS"),
-              (e[(e.MAX_CAMERA_COMPAT_MODES = 14)] = "MAX_CAMERA_COMPAT_MODES");
-          })(v || (v = {})),
-          (function (e) {
-            (e[(e.ECameraExposure_Unknown = 0)] = "ECameraExposure_Unknown"),
-              (e[(e.ECameraExposure_Nominal = 1)] = "ECameraExposure_Nominal"),
-              (e[(e.ECameraExposure_HighExposure = 2)] =
-                "ECameraExposure_HighExposure");
-          })(y || (y = {})),
+          })(_ || (_ = {})),
           (function (e) {
             (e[(e.None = 0)] = "None"),
               (e[(e.ThisSteamVR = 1)] = "ThisSteamVR"),
@@ -830,7 +287,7 @@ var CLSTAMP = "10731156";
               (e[(e.AnotherRuntime = 3)] = "AnotherRuntime"),
               (e[(e.ThisSteamVR64BitOnly = 4)] = "ThisSteamVR64BitOnly"),
               (e[(e.Error = -1)] = "Error");
-          })(b || (b = {})),
+          })(C || (C = {})),
           (function (e) {
             (e[(e.TrackedControllerRole_Invalid = 0)] =
               "TrackedControllerRole_Invalid"),
@@ -844,7 +301,7 @@ var CLSTAMP = "10731156";
                 "TrackedControllerRole_Treadmill"),
               (e[(e.TrackedControllerRole_Max = 5)] =
                 "TrackedControllerRole_Max");
-          })(O || (O = {})),
+          })(R || (R = {})),
           (function (e) {
             (e[(e.Unknown = 0)] = "Unknown"),
               (e[(e.Steam_VRButton = 1)] = "Steam_VRButton"),
@@ -856,18 +313,18 @@ var CLSTAMP = "10731156";
               (e[(e.AppLaunch_Steam = 21)] = "AppLaunch_Steam"),
               (e[(e.SteamVR_Restart = 30)] = "SteamVR_Restart"),
               (e[(e.SteamVR_VRStartup = 31)] = "SteamVR_VRStartup");
-          })(R || (R = {})),
+          })(b || (b = {})),
           (function (e) {
             e[(e.Hostname = 0)] = "Hostname";
-          })(k || (k = {})),
+          })(S || (S = {})),
           (function (e) {
             (e[(e.Unavailable = 0)] = "Unavailable"),
               (e[(e.Active = 1)] = "Active"),
               (e[(e.Off = 2)] = "Off");
-          })(C || (C = {})),
+          })(D || (D = {})),
           (function (e) {
             (e[(e.Default = 1)] = "Default"), (e[(e.Floor = 2)] = "Floor");
-          })(M || (M = {})),
+          })(k || (k = {})),
           (function (e) {
             (e[(e.Inactive = 0)] = "Inactive"),
               (e[(e.PendingReset = 1)] = "PendingReset"),
@@ -875,7 +332,7 @@ var CLSTAMP = "10731156";
               (e[(e.Default = 3)] = "Default"),
               (e[(e.CV = 4)] = "CV"),
               (e[(e.Manual = 5)] = "Manual");
-          })(T || (T = {})),
+          })(P || (P = {})),
           (function (e) {
             (e[(e.OK = 1)] = "OK"),
               (e[(e.Warning = 100)] = "Warning"),
@@ -893,39 +350,30 @@ var CLSTAMP = "10731156";
               (e[(e.Error_PlayAreaInvalid = 203)] = "Error_PlayAreaInvalid"),
               (e[(e.Error_CollisionBoundsInvalid = 204)] =
                 "Error_CollisionBoundsInvalid");
-          })(w || (w = {})),
+          })(T || (T = {})),
           (function (e) {
             (e[(e.Small = 0)] = "Small"),
               (e[(e.Medium = 1)] = "Medium"),
               (e[(e.Large = 2)] = "Large"),
               (e[(e.Gigantic = 3)] = "Gigantic"),
               (e[(e.Standing = 4)] = "Standing");
-          })(E || (E = {}));
+          })(M || (M = {}));
       },
-      3606: (e, t, n) => {
-        n.d(t, { F2: () => o, Qv: () => r });
-        const r = "system.messageoverlay",
-          o = "/settings/steamvr/showAdvancedSettings";
-      },
-      6139: (e, t, n) => {
-        var r = n(1635),
-          o = n(6540),
-          s = n(5338),
-          a = n(1370),
-          i = n(3236),
-          l = n(6090),
-          u = n(2505),
-          c = n.n(u);
-        class d {
+      3714: (e, t, n) => {
+        n.d(t, { A0: () => o, uV: () => l, we: () => i });
+        n(6540);
+        var a = n(2505),
+          r = n.n(a);
+        class o {
           constructor() {
             (this.m_mapTokens = new Map()),
               (this.m_mapFallbackTokens = new Map());
           }
-          InitFromObjects(e, t, n, r) {
+          InitFromObjects(e, t, n, a) {
             this.m_mapTokens.clear();
-            let o = [t, e, r, n];
-            for (let e in o) {
-              let t = o[e];
+            let r = [t, e, a, n];
+            for (let e in r) {
+              let t = r[e];
               for (let e in t) {
                 let n = t[e];
                 for (let e in n) {
@@ -953,28 +401,439 @@ var CLSTAMP = "10731156";
                   ? void 0
                   : VRHTML.GetSystemLocale();
               if (!t) return e;
-              d.s_Date.toLocaleTimeString(t);
+              o.s_Date.toLocaleTimeString(t);
               return t;
             } catch (t) {
               return e;
             }
           }
         }
-        d.s_Date = new Date();
-        const h = new d();
-        window.LocalizationManager = h;
-        var f = n(6138),
-          p = n(1333),
-          _ = n(3606);
+        function i(e, ...t) {
+          let n = s.LocalizeString(e);
+          return n
+            ? (t.length > 0 &&
+                (n = n.replace(/%(\d+)\$s/g, function (e, n) {
+                  return void 0 !== t[n - 1] ? String(t[n - 1]) : e;
+                })),
+              n)
+            : e;
+        }
+        o.s_Date = new Date();
+        const s = new o();
+        function l(e, t) {
+          t ||
+            (t = (function () {
+              let e = new Map([
+                ["en", "english"],
+                ["de", "german"],
+                ["fr", "french"],
+                ["it", "italian"],
+                ["ko", "korean"],
+                ["es-419", "latam"],
+                ["es", "spanish"],
+                ["zh-CN", "schinese"],
+                ["zh-TW", "tchinese"],
+                ["ru", "russian"],
+                ["th", "thai"],
+                ["ja", "japanese"],
+                ["pt", "portuguese"],
+                ["pl", "polish"],
+                ["da", "danish"],
+                ["nl", "dutch"],
+                ["fi", "finnish"],
+                ["no", "norwegian"],
+                ["sv", "swedish"],
+                ["hu", "hungarian"],
+                ["cs", "czech"],
+                ["ro", "romanian"],
+                ["tr", "turkish"],
+                ["pt-BR", "brazilian"],
+                ["bg", "bulgarian"],
+                ["el", "greek"],
+                ["uk", "ukranian"],
+                ["vi", "vietnamese"],
+              ]);
+              for (let t of navigator.languages) {
+                let n = t.split("-");
+                if (e.has(t)) return e.get(t);
+                if (e.has(n[0])) return e.get(n[0]);
+              }
+              return "english";
+            })());
+          let n = [],
+            a = (e, t, n) => {
+              let a,
+                o = Date.now().toString();
+              return (
+                (a =
+                  "drivers" == e
+                    ? `/input/localization.json?t=${o}`
+                    : "webhelper" == e
+                      ? `/dashboard/localization/${e}_${t}.json?t=${o}`
+                      : `localization/${e}_${t}.json?t=${o}`),
+                r()
+                  .get(a)
+                  .then((e) => {
+                    n(e.data);
+                  })
+                  .catch(() => {})
+              );
+            },
+            o = [],
+            i = [],
+            l = [],
+            u = [];
+          for (let r of e)
+            n.push(
+              a(r, t, (e) => {
+                o.push(e);
+              }),
+            ),
+              "english" != t &&
+                n.push(
+                  a(r, "english", (e) => {
+                    l.push(e);
+                  }),
+                );
+          for (let e of ["webhelper"])
+            n.push(
+              a(e, t, (e) => {
+                i.push(e);
+              }),
+            ),
+              "english" != t &&
+                n.push(
+                  a(e, "english", (e) => {
+                    u.push(e);
+                  }),
+                );
+          return (
+            n.push(
+              a("drivers", "", (e) => {
+                o.push(e);
+              }),
+            ),
+            Promise.all(n).then(() => {
+              s.InitFromObjects(o, i, l, u);
+            })
+          );
+        }
+        window.LocalizationManager = s;
+      },
+      4728: (e, t, n) => {
+        function a(e, t, n) {
+          return null == e || isNaN(e) ? e : Math.max(t, Math.min(n, e));
+        }
+        n.d(t, { OQ: () => a });
+      },
+      9383: (e, t, n) => {
+        n.d(t, {
+          CL: () => R,
+          JP: () => a,
+          JQ: () => C,
+          P9: () => _,
+          gU: () => b,
+          sj: () => O,
+        });
+        var a,
+          r = n(1635),
+          o = n(7813),
+          i = n(296),
+          s = n(6090),
+          l = n(6540),
+          u = n(3606),
+          c = n(921),
+          d = n(7727),
+          m = n(3779),
+          g = n(1651),
+          h = n(9961),
+          v = n(776),
+          p = n(4007),
+          y = n(2741),
+          f = n(1391);
+        !(function (e) {
+          (e[(e.Alive = 0)] = "Alive"), (e[(e.Destroyed = 1)] = "Destroyed");
+        })(a || (a = {}));
+        class O {
+          get OnDestroyed() {
+            return this.m_OnDestroyed;
+          }
+          get frame() {
+            return this.m_Frame;
+          }
+          get pageID() {
+            return this.m_unPageID;
+          }
+          get state() {
+            return this.m_eState;
+          }
+          get summonOverlayKey() {
+            return this.m_sSummonOverlayKey;
+          }
+          get isExternalDashboardOverlay() {
+            return !!this.m_bExternalDashboardOverlay;
+          }
+          get isActivePage() {
+            return this.m_Frame.activePageID === this.m_unPageID;
+          }
+          get isActiveAndVisiblePage() {
+            return this.isActivePage && this.frame.isCurrentlyVisible;
+          }
+          get mountableID() {
+            return `frame:${this.frame.frameID}:page:${this.pageID}:mountable`;
+          }
+          get latestContentSize() {
+            return this.size.latestContentSize;
+          }
+          get logPrefix() {
+            let e = this.frame.title;
+            return (
+              e.length > y.kr && (e = e.substring(0, y.kr - 3) + "..."),
+              `${this.frame.frameID}[${this.pageID}] "${e}"`
+            );
+          }
+          RegisterComponent(e) {
+            this.m_setComponents.add(e);
+          }
+          constructor(e, t, n) {
+            (this.props = void 0),
+              (this.m_eState = a.Alive),
+              (this.m_OnDestroyed = new g.l()),
+              (this.m_sSummonOverlayKey = void 0),
+              (this.m_bExternalDashboardOverlay = !1),
+              (this.m_mainPanel = void 0),
+              (this.Log = new v.wd("Frame", () => this.logPrefix)),
+              (this.m_setComponents = new Set()),
+              (this.keyboard = new m.Y(this)),
+              (this.sharing = void 0),
+              (this.size = new h.wP(this)),
+              (this.focus = new f.v(this)),
+              (this.m_Frame = e),
+              (this.m_unPageID = t),
+              (this.props = n),
+              (0, o.makeObservable)(this);
+          }
+          Init() {
+            for (const e of this.m_setComponents) e.Init();
+          }
+          DestroyPage() {
+            this.m_eState != a.Destroyed &&
+              ((this.m_eState = a.Destroyed),
+              this.m_OnDestroyed.Dispatch(),
+              this.m_OnDestroyed.ClearAllCallbacks());
+          }
+          SetSummonOverlayKey(e) {
+            this.m_sSummonOverlayKey = e;
+          }
+          SetIsExternalDashboardOverlay(e) {
+            this.m_bExternalDashboardOverlay = e;
+          }
+          SetMainPanel(e) {
+            if (!e) return { Unset: () => {} };
+            this.m_mainPanel = e;
+            const t = this.size.SetMainPanel(e).Unset;
+            return {
+              Unset: () => {
+                (this.m_mainPanel = void 0), t();
+              },
+            };
+          }
+          get mainPanelID() {
+            if (this.m_mainPanel) {
+              const e = this.m_mainPanel.getID();
+              if (null == e) return;
+              return (0, s.nX)(u.C6, e);
+            }
+            if (this.isExternalDashboardOverlay) {
+              if (null == this.summonOverlayKey) return;
+              return (0, s.nX)(u.cb, this.summonOverlayKey) + "_Panel";
+            }
+          }
+          get mainPanelSGID() {
+            var e;
+            return this.m_mainPanel
+              ? this.m_mainPanel.getSGID()
+              : (this.isExternalDashboardOverlay &&
+                  null != this.summonOverlayKey &&
+                  (null === (e = p.Q.GetOverlayInfo(this.summonOverlayKey)) ||
+                  void 0 === e
+                    ? void 0
+                    : e.unStandalonePanelSGID)) ||
+                  void 0;
+          }
+          GetPanelAnchorID(e) {
+            if (!this.isExternalDashboardOverlay)
+              return `frame:${this.frame.frameID}:page:${this.pageID}:anchor:${e}`;
+            {
+              if (null == this.summonOverlayKey) return;
+              const t = (0, s.nX)(u.cb, this.summonOverlayKey);
+              switch (e) {
+                case s.Oi.TopCenter:
+                  return t + "_TopCenter";
+                case s.Oi.CenterLeft:
+                  return t + "_CenterLeft";
+                case s.Oi.CenterRight:
+                  return t + "_CenterRight";
+                case s.Oi.BottomCenter:
+                  return t + "_BottomCenter";
+                case s.Oi.BottomRight:
+                  return t + "_BottomRight";
+              }
+            }
+          }
+        }
+        (0, r.Cg)([o.observable], O.prototype, "props", void 0),
+          (0, r.Cg)([o.observable], O.prototype, "m_eState", void 0),
+          (0, r.Cg)([o.observable], O.prototype, "m_sSummonOverlayKey", void 0),
+          (0, r.Cg)(
+            [o.observable],
+            O.prototype,
+            "m_bExternalDashboardOverlay",
+            void 0,
+          ),
+          (0, r.Cg)([o.observable], O.prototype, "m_mainPanel", void 0),
+          (0, r.Cg)([o.computed], O.prototype, "state", null),
+          (0, r.Cg)([o.computed], O.prototype, "summonOverlayKey", null),
+          (0, r.Cg)(
+            [o.computed],
+            O.prototype,
+            "isExternalDashboardOverlay",
+            null,
+          ),
+          (0, r.Cg)([o.computed], O.prototype, "isActivePage", null),
+          (0, r.Cg)([o.computed], O.prototype, "isActiveAndVisiblePage", null),
+          (0, r.Cg)([o.computed], O.prototype, "mountableID", null),
+          (0, r.Cg)([o.computed], O.prototype, "latestContentSize", null),
+          (0, r.Cg)([o.computed], O.prototype, "logPrefix", null),
+          (0, r.Cg)([o.action], O.prototype, "DestroyPage", null),
+          (0, r.Cg)([o.action], O.prototype, "SetSummonOverlayKey", null),
+          (0, r.Cg)(
+            [o.action],
+            O.prototype,
+            "SetIsExternalDashboardOverlay",
+            null,
+          ),
+          (0, r.Cg)([o.action], O.prototype, "SetMainPanel", null),
+          (0, r.Cg)([o.computed], O.prototype, "mainPanelID", null),
+          (0, r.Cg)([o.computed], O.prototype, "mainPanelSGID", null);
+        const _ = l.forwardRef(function (e, t) {
+            const { children: n, summonOverlayKey: a } = e,
+              { frame: r } = (0, d.N)(),
+              u = l.useMemo(() => r.CreatePage(e), [r]);
+            l.useLayoutEffect(() =>
+              (0, o.runInAction)(() => {
+                u.props = e;
+              }),
+            ),
+              l.useEffect(() => u.SetSummonOverlayKey(a), [u, r, a]),
+              (0, c.D5)(t, u),
+              l.useEffect(() => (u.Init(), () => u.DestroyPage()), [u]);
+            const m = (0, i.q3)(() => u.mountableID);
+            return l.createElement(
+              d.t.Provider,
+              { value: { frame: r, page: u } },
+              l.createElement(s.IS, { id: m }, n),
+            );
+          }),
+          C = l.forwardRef(function (e, t) {
+            var n, a;
+            const {
+                requireExternalOverlay: o = !0,
+                overlayKey: m,
+                componentProps: g,
+              } = e,
+              h = (0, r.Tt)(e, [
+                "requireExternalOverlay",
+                "overlayKey",
+                "componentProps",
+              ]),
+              { frame: v } = (0, d.N)(),
+              y = l.useCallback(
+                (e) => {
+                  null == e || e.SetIsExternalDashboardOverlay(!0),
+                    (0, c.cZ)(t, e);
+                },
+                [t],
+              ),
+              f = (0, i.q3)(() => v.curvature.curvatureTransformOriginID),
+              O = (0, i.q3)(() => p.Q.GetOverlayInfo(m)),
+              C =
+                null !== (n = null == O ? void 0 : O.unFlags) && void 0 !== n
+                  ? n
+                  : 0,
+              R = (16 & C) > 0,
+              b = (1073741824 & C) > 0;
+            return o && !O
+              ? null
+              : l.createElement(
+                  _,
+                  Object.assign({}, h, {
+                    summonOverlayKey:
+                      null !== (a = e.summonOverlayKey) && void 0 !== a ? a : m,
+                    ref: y,
+                    componentProps: Object.assign(Object.assign({}, g), {
+                      keyboard: Object.assign(
+                        { overlayKeyForKeyboardInput: m },
+                        null == g ? void 0 : g.keyboard,
+                      ),
+                      focus: Object.assign(
+                        {
+                          vrClientPID: R ? O.unClientPID : void 0,
+                          steamInputAppID: b ? O.unSteamInputAppID : void 0,
+                        },
+                        null == g ? void 0 : g.focus,
+                      ),
+                    }),
+                  }),
+                  l.createElement(s.rF, { mountedId: (0, s.nX)(u.cb, m) }),
+                  l.createElement(s.dL, {
+                    id: (0, s.nX)(u.cb, m) + "_CurvatureOrigin",
+                    parent_id: f,
+                  }),
+                  h.children,
+                );
+          });
+        function R(e) {
+          const { page: t } = (0, d.N)();
+          if ((0, i.q3)(() => (null == t ? void 0 : t.isActiveAndVisiblePage)))
+            return l.createElement(l.Fragment, null, e.children);
+        }
+        function b(e) {
+          const { frame: t, page: n } = (0, d.N)();
+          if (t && n && !n.isExternalDashboardOverlay)
+            return l.createElement(
+              l.Fragment,
+              null,
+              y.i_.map((e) =>
+                l.createElement(s.Ci, {
+                  key: e,
+                  id: n.GetPanelAnchorID(e),
+                  location: e,
+                }),
+              ),
+            );
+        }
+      },
+      1583: (e, t, n) => {
+        var a = n(1635),
+          r = n(6540),
+          o = n(5338),
+          i = n(1370),
+          s = n(3236),
+          l = n(6090),
+          u = n(3714),
+          c = n(6138),
+          d = n(1333),
+          m = n(3606);
         function g(e) {
-          return o.createElement(
-            f.$,
+          return r.createElement(
+            c.$,
             { className: "ButtonControl", onClick: e.onClick },
             e.label,
           );
         }
         (0, n(7813).configure)({ enforceActions: "never" });
-        let m = class extends o.Component {
+        let h = class extends r.Component {
           constructor(e) {
             super(e),
               (this.nMaxButtons = 4),
@@ -999,7 +858,7 @@ var CLSTAMP = "10731156";
                     this.OnProcessQuit,
                   );
               }),
-              p.HR.Init(!1);
+              d.HR.Init(!1);
           }
           ResetState() {
             this.setState({
@@ -1046,7 +905,7 @@ var CLSTAMP = "10731156";
               null === l.Ay ||
                 void 0 === l.Ay ||
                 l.Ay.VRClient.ShowDashboardOverlay({
-                  overlayKey: _.Qv,
+                  overlayKey: m.Qv,
                   sReason: "OnRenderMessageOverlay",
                 });
           }
@@ -1067,44 +926,44 @@ var CLSTAMP = "10731156";
               this.ResetState();
           }
           render() {
-            return o.createElement(
+            return r.createElement(
               "div",
               { className: "MessageOverlayContainer" },
-              o.createElement(
-                f.W,
+              r.createElement(
+                c.W,
                 { className: "MessageOverlayPanel" },
-                o.createElement(
+                r.createElement(
                   "div",
                   { className: "MessageOverlayTextPanel" },
-                  o.createElement("h1", null, this.state.sCaptionText),
-                  o.createElement("p", null, this.state.sMessageText),
+                  r.createElement("h1", null, this.state.sCaptionText),
+                  r.createElement("p", null, this.state.sMessageText),
                 ),
-                o.createElement(
+                r.createElement(
                   "div",
                   { className: "MessageOverlayButtonContainer" },
                   this.state.sButtonTexts[0] &&
-                    o.createElement(g, {
+                    r.createElement(g, {
                       label: this.state.sButtonTexts[0],
                       onClick: () => {
                         this.ButtonClicked(l.Ox.ButtonPress_0);
                       },
                     }),
                   this.state.sButtonTexts[1] &&
-                    o.createElement(g, {
+                    r.createElement(g, {
                       label: this.state.sButtonTexts[1],
                       onClick: () => {
                         this.ButtonClicked(l.Ox.ButtonPress_1);
                       },
                     }),
                   this.state.sButtonTexts[2] &&
-                    o.createElement(g, {
+                    r.createElement(g, {
                       label: this.state.sButtonTexts[2],
                       onClick: () => {
                         this.ButtonClicked(l.Ox.ButtonPress_2);
                       },
                     }),
                   this.state.sButtonTexts[3] &&
-                    o.createElement(g, {
+                    r.createElement(g, {
                       label: this.state.sButtonTexts[3],
                       onClick: () => {
                         this.ButtonClicked(l.Ox.ButtonPress_3);
@@ -1115,11 +974,11 @@ var CLSTAMP = "10731156";
             );
           }
         };
-        (0, r.Cg)([i.o], m.prototype, "OnProcessQuit", null),
-          (0, r.Cg)([i.o], m.prototype, "OnMessageOverlayCloseRequested", null),
-          (0, r.Cg)([i.o], m.prototype, "OnRenderMessageOverlay", null),
-          (0, r.Cg)([i.o], m.prototype, "ButtonClicked", null),
-          (m = (0, r.Cg)([a.PA], m)),
+        (0, a.Cg)([s.o], h.prototype, "OnProcessQuit", null),
+          (0, a.Cg)([s.o], h.prototype, "OnMessageOverlayCloseRequested", null),
+          (0, a.Cg)([s.o], h.prototype, "OnRenderMessageOverlay", null),
+          (0, a.Cg)([s.o], h.prototype, "ButtonClicked", null),
+          (h = (0, a.Cg)([i.PA], h)),
           null === l.Ay ||
             void 0 === l.Ay ||
             l.Ay.VROverlay.SetWidthInMeters(
@@ -1135,110 +994,13 @@ var CLSTAMP = "10731156";
               l.Ay.VROverlay.ThisOverlayHandle(),
               l.Rk.Mouse,
             ),
-          (function (e, t) {
-            t ||
-              (t = (function () {
-                let e = new Map([
-                  ["en", "english"],
-                  ["de", "german"],
-                  ["fr", "french"],
-                  ["it", "italian"],
-                  ["ko", "korean"],
-                  ["es-419", "latam"],
-                  ["es", "spanish"],
-                  ["zh-CN", "schinese"],
-                  ["zh-TW", "tchinese"],
-                  ["ru", "russian"],
-                  ["th", "thai"],
-                  ["ja", "japanese"],
-                  ["pt", "portuguese"],
-                  ["pl", "polish"],
-                  ["da", "danish"],
-                  ["nl", "dutch"],
-                  ["fi", "finnish"],
-                  ["no", "norwegian"],
-                  ["sv", "swedish"],
-                  ["hu", "hungarian"],
-                  ["cs", "czech"],
-                  ["ro", "romanian"],
-                  ["tr", "turkish"],
-                  ["pt-BR", "brazilian"],
-                  ["bg", "bulgarian"],
-                  ["el", "greek"],
-                  ["uk", "ukranian"],
-                  ["vi", "vietnamese"],
-                ]);
-                for (let t of navigator.languages) {
-                  let n = t.split("-");
-                  if (e.has(t)) return e.get(t);
-                  if (e.has(n[0])) return e.get(n[0]);
-                }
-                return "english";
-              })());
-            let n = [],
-              r = (e, t, n) => {
-                let r,
-                  o = Date.now().toString();
-                return (
-                  (r =
-                    "drivers" == e
-                      ? `/input/localization.json?t=${o}`
-                      : "webhelper" == e
-                        ? `/dashboard/localization/${e}_${t}.json?t=${o}`
-                        : `localization/${e}_${t}.json?t=${o}`),
-                  c()
-                    .get(r)
-                    .then((e) => {
-                      n(e.data);
-                    })
-                    .catch(() => {})
-                );
-              },
-              o = [],
-              s = [],
-              a = [],
-              i = [];
-            for (let s of e)
-              n.push(
-                r(s, t, (e) => {
-                  o.push(e);
-                }),
-              ),
-                "english" != t &&
-                  n.push(
-                    r(s, "english", (e) => {
-                      a.push(e);
-                    }),
-                  );
-            for (let e of ["webhelper"])
-              n.push(
-                r(e, t, (e) => {
-                  s.push(e);
-                }),
-              ),
-                "english" != t &&
-                  n.push(
-                    r(e, "english", (e) => {
-                      i.push(e);
-                    }),
-                  );
-            return (
-              n.push(
-                r("drivers", "", (e) => {
-                  o.push(e);
-                }),
-              ),
-              Promise.all(n).then(() => {
-                h.InitFromObjects(o, s, a, i);
-              })
-            );
-          })(
+          (0, u.uV)(
             [],
             null === l.Ay || void 0 === l.Ay ? void 0 : l.Ay.GetSteamLanguage(),
           )
             .then(() => {
-              s.H(document.getElementById("root")).render(
-                o.createElement(m, null),
+              o.H(document.getElementById("root")).render(
+                r.createElement(h, null),
               );
             })
             .catch((e) =>
@@ -1247,45 +1009,45 @@ var CLSTAMP = "10731156";
       },
     },
     n = {};
-  function r(e) {
-    var o = n[e];
-    if (void 0 !== o) return o.exports;
-    var s = (n[e] = { exports: {} });
-    return t[e](s, s.exports, r), s.exports;
+  function a(e) {
+    var r = n[e];
+    if (void 0 !== r) return r.exports;
+    var o = (n[e] = { exports: {} });
+    return t[e].call(o.exports, o, o.exports, a), o.exports;
   }
-  (r.m = t),
+  (a.m = t),
     (e = []),
-    (r.O = (t, n, o, s) => {
+    (a.O = (t, n, r, o) => {
       if (!n) {
-        var a = 1 / 0;
+        var i = 1 / 0;
         for (c = 0; c < e.length; c++) {
-          for (var [n, o, s] = e[c], i = !0, l = 0; l < n.length; l++)
-            (!1 & s || a >= s) && Object.keys(r.O).every((e) => r.O[e](n[l]))
+          for (var [n, r, o] = e[c], s = !0, l = 0; l < n.length; l++)
+            (!1 & o || i >= o) && Object.keys(a.O).every((e) => a.O[e](n[l]))
               ? n.splice(l--, 1)
-              : ((i = !1), s < a && (a = s));
-          if (i) {
+              : ((s = !1), o < i && (i = o));
+          if (s) {
             e.splice(c--, 1);
-            var u = o();
+            var u = r();
             void 0 !== u && (t = u);
           }
         }
         return t;
       }
-      s = s || 0;
-      for (var c = e.length; c > 0 && e[c - 1][2] > s; c--) e[c] = e[c - 1];
-      e[c] = [n, o, s];
+      o = o || 0;
+      for (var c = e.length; c > 0 && e[c - 1][2] > o; c--) e[c] = e[c - 1];
+      e[c] = [n, r, o];
     }),
-    (r.n = (e) => {
+    (a.n = (e) => {
       var t = e && e.__esModule ? () => e.default : () => e;
-      return r.d(t, { a: t }), t;
+      return a.d(t, { a: t }), t;
     }),
-    (r.d = (e, t) => {
+    (a.d = (e, t) => {
       for (var n in t)
-        r.o(t, n) &&
-          !r.o(e, n) &&
+        a.o(t, n) &&
+          !a.o(e, n) &&
           Object.defineProperty(e, n, { enumerable: !0, get: t[n] });
     }),
-    (r.g = (function () {
+    (a.g = (function () {
       if ("object" == typeof globalThis) return globalThis;
       try {
         return this || new Function("return this")();
@@ -1293,30 +1055,34 @@ var CLSTAMP = "10731156";
         if ("object" == typeof window) return window;
       }
     })()),
-    (r.o = (e, t) => Object.prototype.hasOwnProperty.call(e, t)),
+    (a.o = (e, t) => Object.prototype.hasOwnProperty.call(e, t)),
+    (a.r = (e) => {
+      "undefined" != typeof Symbol &&
+        Symbol.toStringTag &&
+        Object.defineProperty(e, Symbol.toStringTag, { value: "Module" }),
+        Object.defineProperty(e, "__esModule", { value: !0 });
+    }),
     (() => {
-      var e = { 868: 0, 527: 0, 500: 0 };
-      r.O.j = (t) => 0 === e[t];
+      var e = { 868: 0, 204: 0, 527: 0, 500: 0 };
+      a.O.j = (t) => 0 === e[t];
       var t = (t, n) => {
-          var o,
-            s,
-            [a, i, l] = n,
+          var r,
+            o,
+            [i, s, l] = n,
             u = 0;
-          if (a.some((t) => 0 !== e[t])) {
-            for (o in i) r.o(i, o) && (r.m[o] = i[o]);
-            if (l) var c = l(r);
+          if (i.some((t) => 0 !== e[t])) {
+            for (r in s) a.o(s, r) && (a.m[r] = s[r]);
+            if (l) var c = l(a);
           }
-          for (t && t(n); u < a.length; u++)
-            (s = a[u]), r.o(e, s) && e[s] && e[s][0](), (e[s] = 0);
-          return r.O(c);
+          for (t && t(n); u < i.length; u++)
+            (o = i[u]), a.o(e, o) && e[o] && e[o][0](), (e[o] = 0);
+          return a.O(c);
         },
         n = (self.webpackChunkvrwebui = self.webpackChunkvrwebui || []);
       n.forEach(t.bind(null, 0)), (n.push = t.bind(null, n.push.bind(n)));
     })();
-  var o = r.O(
-    void 0,
-    [967, 978, 655, 305, 527, 797, 148, 500, 198, 652, 692],
-    () => r(6139),
+  var r = a.O(void 0, [967, 991, 982, 305, 527, 170, 452, 797, 906, 500], () =>
+    a(1583),
   );
-  o = r.O(o);
+  r = a.O(r);
 })(); //# sourceMappingURL=file:///home/buildbot/buildslave/steamvr_rel_npm_vrwebui/build/public/runtime/resources/webinterface/dashboard/sourcemaps/messageoverlay.js.map

@@ -1,1 +1,7 @@
-[]
+[
+    {
+        "language_tag": "uk_UA",
+        "frame_controller": "Контролер Steam Frame",
+        "/input/thumbrest": "Підпальцева зона"
+    }
+]

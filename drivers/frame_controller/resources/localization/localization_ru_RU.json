@@ -1,6 +1,7 @@
 [
     {
         "language_tag": "ru_RU",
-        "frame_controller": "Контроллер Steam Frame"
+        "frame_controller": "Контроллер Steam Frame",
+        "/input/thumbrest": "Упор большого пальца"
     }
 ]

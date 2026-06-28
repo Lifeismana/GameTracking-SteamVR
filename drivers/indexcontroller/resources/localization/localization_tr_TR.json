@@ -1,1 +1,15 @@
-[]
+[
+    {
+        "language_tag": "tr_TR",
+        "knuckles": "Index Kontrolcüsü",
+        "knuckles_ev1": "Knuckles Kontrolcüsü (EV1)",
+        "/input/a": "A Butonu",
+        "/input/b": "B Butonu",
+        "/input/pinch": "Parmak Birleşimi",
+        "/input/finger/index": "İşaret Parmağı",
+        "/input/finger/middle": "Orta Parmak",
+        "/input/finger/ring": "Yüzük Parmağı",
+        "/input/finger/pinky": "Serçe Parmak",
+        "/input/thumbstick": "Analog Çubuk"
+    }
+]

@@ -1,1 +1,7 @@
-[]
+[
+    {
+        "language_tag": "sv_SE",
+        "frame_controller": "Frame-kontroll",
+        "/input/thumbrest": "Tumstöd"
+    }
+]

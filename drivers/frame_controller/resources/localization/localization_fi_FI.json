@@ -1,1 +1,7 @@
-[]
+[
+    {
+        "language_tag": "fi_FI",
+        "frame_controller": "Frame-ohjain",
+        "/input/thumbrest": "Peukalotuki"
+    }
+]

@@ -4577,3 +4577,8 @@ soundstacks/soundstacks_destinations_props.vsndstck
 soundstacks/soundstacks_destinations_utility.vsndstck
 soundstacks/soundstacks_hlvr.vsndstck
 third_party_content_credits.txt
+panorama/images/content_browser/screenshot_frame_png.vtex
+panorama/images/tutorial/tutorialteleport_frame_1_png.vtex
+panorama/images/tutorial/tutorialteleport_frame_2_png.vtex
+panorama/images/tutorial/tutorialwelcome_frame_3_png.vtex
+panorama/images/welcome_panel/destinations_welcome_black_frame_png.vtex

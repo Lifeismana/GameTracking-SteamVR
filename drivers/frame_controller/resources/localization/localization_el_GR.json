@@ -1,5 +1,7 @@
 [
     {
-        "language_tag": "el_GR"
+        "language_tag": "el_GR",
+        "frame_controller": "Χειριστήριο Frame",
+        "/input/thumbrest": "Θέση αντίχειρα"
     }
 ]

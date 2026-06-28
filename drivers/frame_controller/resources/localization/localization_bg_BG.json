@@ -1,5 +1,7 @@
 [
     {
-        "language_tag": "bg_BG"
+        "language_tag": "bg_BG",
+        "frame_controller": "Steam Frame контролер",
+        "/input/thumbrest": "Oпора за стик"
     }
 ]

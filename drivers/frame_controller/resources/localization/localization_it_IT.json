@@ -1,1 +1,7 @@
-[]
+[
+    {
+        "language_tag": "it_IT",
+        "frame_controller": "Controller di Steam Frame",
+        "/input/thumbrest": "Poggiadito"
+    }
+]

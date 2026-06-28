@@ -1,1 +1,15 @@
-[]
+[
+    {
+        "language_tag": "th_TH",
+        "knuckles": "คอนโทรลเลอร์ Valve Index",
+        "knuckles_ev1": "คอนโทรลเลอร์ Knuckles (EV1)",
+        "/input/a": "ปุ่ม A",
+        "/input/b": "ปุ่ม B",
+        "/input/pinch": "การจีบนิ้ว",
+        "/input/finger/index": "นิ้วชี้",
+        "/input/finger/middle": "นิ้วกลาง",
+        "/input/finger/ring": "นิ้วนาง",
+        "/input/finger/pinky": "นิ้วก้อย",
+        "/input/thumbstick": "ทัมบ์สติก"
+    }
+]

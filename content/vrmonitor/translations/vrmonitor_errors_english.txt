@@ -1081,8 +1081,8 @@
 "Warning_DismissableWarning_SteamStreamingAudioEndpointDisabled_ActionURL" "vrmonitor://soundcontrolpanel"
 
 "Warning_DismissableWarning_SteamFrameDongleDriverMissing_Header" "Steam Frame wireless adapter driver missing"
-"Warning_DismissableWarning_SteamFrameDongleDriverMissing_Description" "The Steam Frame wireless adapter is connected, but the driver is missing. Click the link below to exit SteamVR and install the driver."
-"Warning_DismissableWarning_SteamFrameDongleDriverMissing_Action" "Install and exit"
+"Warning_DismissableWarning_SteamFrameDongleDriverMissing_Description" "The Steam Frame wireless adapter is connected, but the driver is missing. Click the link below to install the driver with Steam."
+"Warning_DismissableWarning_SteamFrameDongleDriverMissing_Action" "Install"
 "Warning_DismissableWarning_SteamFrameDongleDriverMissing_ActionURL" "vrmonitor://installdriver/vrlinkdongledriver"
 
 }

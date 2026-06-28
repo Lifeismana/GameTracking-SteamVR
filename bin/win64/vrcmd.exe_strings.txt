@@ -792,6 +792,7 @@ Prop_HmdColumnCorrectionSettingPrefix_String
 Prop_HmdTrackingStyle_Int32
 Prop_Hmd_BlankOnFramerateChange_Bool
 Prop_Hmd_EnableParallelRenderCameras_Bool
+Prop_Hmd_RecommendedResolutionPixelsSteps_Int32
 Prop_Hmd_SupportsAppThrottling_Bool
 Prop_Hmd_SupportsDisplayPortTrainingMode_Bool
 Prop_Hmd_SupportsGpuBusMonitoring_Bool
@@ -1298,7 +1299,7 @@ WriteFile
 [IPC] SharedMem access invalid: %x\n
 [IPC] The owner SID is invalid.\n
 [IPC] Warning, existing file mapping for %s (%d) is too small (%d)\n
-\n     flags=0x%08X %s
+\n     flags=0x%08X %s  overlayhandle=0x%016llx
 \nDevice %d - %s.%s - %s - %s - %s\n
 \t%s (Serial number %s)\n
 \t%u pulses\n

@@ -1,7 +1,15 @@
 [
     {
         "language_tag": "el_GR",
+        "knuckles": "Χειριστήριο Index",
+        "knuckles_ev1": "Χειριστήριο Knuckles (EV1)",
         "/input/a": "Κουμπί Α",
-        "/input/b": "Κουμπί Β"
+        "/input/b": "Κουμπί Β",
+        "/input/pinch": "Χειρονομία ένωσης",
+        "/input/finger/index": "Δείκτης",
+        "/input/finger/middle": "Μέσος",
+        "/input/finger/ring": "Παράμεσος",
+        "/input/finger/pinky": "Μικρό δάκτυλο",
+        "/input/thumbstick": "Μοχλός"
     }
 ]

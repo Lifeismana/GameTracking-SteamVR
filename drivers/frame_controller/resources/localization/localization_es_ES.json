@@ -1,1 +1,7 @@
-[]
+[
+    {
+        "language_tag": "es_ES",
+        "frame_controller": "Mando de Frame",
+        "/input/thumbrest": "Reposapulgar"
+    }
+]

@@ -710,7 +710,7 @@ Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
 RPCRT4.dll
-RSDS
+RSDSA
 RaiseException
 ResetEvent
 RootNode
@@ -1454,7 +1454,10 @@ shaders/d3d11/distort_geom_aa_quads_ps.fxo
 shaders/d3d11/distort_geom_aa_quads_vs.fxo
 shaders/d3d11/distort_geom_altcolorblend_ps.fxo
 shaders/d3d11/distort_geom_aurora_floor_ps.fxo
-shaders/d3d11/distort_geom_aurora_ps.fxo
+shaders/d3d11/distort_geom_aurora_horizon_notexture_ps.fxo
+shaders/d3d11/distort_geom_aurora_horizon_ps.fxo
+shaders/d3d11/distort_geom_aurora_sky_notexture_ps.fxo
+shaders/d3d11/distort_geom_aurora_sky_ps.fxo
 shaders/d3d11/distort_geom_colormap_lines_ps.fxo
 shaders/d3d11/distort_geom_constant_ps.fxo
 shaders/d3d11/distort_geom_drawregion_multitap_ps.fxo
@@ -1486,6 +1489,7 @@ shaders/d3d11/distort_geom_pbr_ps.fxo
 shaders/d3d11/distort_geom_playspace_drawing_area_ps.fxo
 shaders/d3d11/distort_geom_ps.fxo
 shaders/d3d11/distort_geom_ps16.fxo
+shaders/d3d11/distort_geom_ps16_mv_split.fxo
 shaders/d3d11/distort_geom_ps_debug_depth.fxo
 shaders/d3d11/distort_geom_reflect_multitap_ps.fxo
 shaders/d3d11/distort_geom_reflect_ps.fxo
@@ -1586,8 +1590,10 @@ shaders/d3d11/gpu_measurement_vs.fxo
 shaders/d3d11/linepixelsim2_cs.fxo
 shaders/d3d11/linepixelsim_cs.fxo
 shaders/d3d11/motion_filter_attenuation_ps.fxo
+shaders/d3d11/motion_filter_attenuation_ps_split.fxo
 shaders/d3d11/motion_filter_blur_ps.fxo
 shaders/d3d11/motion_filter_cost_ps.fxo
+shaders/d3d11/motion_filter_cost_ps_split.fxo
 shaders/d3d11/motion_filter_early_out_vs.fxo
 shaders/d3d11/motion_filter_median3x3_ps.fxo
 shaders/d3d11/motion_filter_median_ps.fxo

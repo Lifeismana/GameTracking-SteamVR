@@ -1,5 +1,6 @@
 [
     {
+        "language_tag": "nb_NO",
         "frame_controller": "Frame-kontroller",
         "/input/thumbrest": "Tommelstøtte"
     }

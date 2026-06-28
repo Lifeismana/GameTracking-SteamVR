@@ -1,1 +1,7 @@
-[]
+[
+    {
+        "language_tag": "de_DE",
+        "frame_controller": "Frame Controller",
+        "/input/thumbrest": "Daumenauflage"
+    }
+]

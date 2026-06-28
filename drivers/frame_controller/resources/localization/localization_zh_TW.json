@@ -1,1 +1,7 @@
-[]
+[
+    {
+        "language_tag": "zh_TW",
+        "frame_controller": "Frame 控制器",
+        "/input/thumbrest": "指托"
+    }
+]

@@ -1,1 +1,15 @@
-[]
+[
+    {
+        "language_tag": "vi_VN",
+        "knuckles": "Tay cầm Index",
+        "knuckles_ev1": "Tay cầm Knuckles (EV1)",
+        "/input/a": "Nút A",
+        "/input/b": "Nút B",
+        "/input/pinch": "Cử động chụm ngón",
+        "/input/finger/index": "Ngón trỏ",
+        "/input/finger/middle": "Ngón giữa",
+        "/input/finger/ring": "Ngón áp út",
+        "/input/finger/pinky": "Ngón út",
+        "/input/thumbstick": "Cần trỏ"
+    }
+]

@@ -182,6 +182,8 @@ $3br
 , requestedBytes 
 -+xX0123456789abcdef0123456789ABCDEF
 -+xX0123456789abcdefABCDEF
+--alongside-steam
+--pass-env=LD_LIBRARY_PATH
 -0123456789
 -1e+9999
 -Infinity
@@ -243,6 +245,7 @@ $3br
 /chaperone/perimeter
 /chaperone/persistent_map_from_map/transform
 /chaperone/play_area
+/chaperone/room_setup/transform
 /chaperone/room_setup_done
 /chaperone/seated/transform
 /chaperone/setup_standing/transform
@@ -297,14 +300,14 @@ $3br
 /data/src/vrclient/vrcompositorsharedtextures.cpp:2963
 /data/src/vrclient/vrcompositorsharedtextures.cpp:2967
 /data/src/vrclient/vrcompositorsharedtextures.cpp:3072
-/data/src/vrclient/vrcompositorsharedtextures.cpp:4312
+/data/src/vrclient/vrcompositorsharedtextures.cpp:4286
 /data/src/vrclient/vrdebug.cpp:49
 /data/src/vrclient/vrdebug.cpp:60
 /data/src/vrclient/vrinput.cpp:1609
 /data/src/vrclient/vrmailboxclient.cpp
-/data/src/vrclient/vroverlay.cpp:1174
-/data/src/vrclient/vroverlay.cpp:1205
-/data/src/vrclient/vroverlay.cpp:976
+/data/src/vrclient/vroverlay.cpp:1175
+/data/src/vrclient/vroverlay.cpp:1206
+/data/src/vrclient/vroverlay.cpp:977
 /data/src/vrclient/vrsteamprivate.cpp
 /dev/null
 /device_was_drawn
@@ -404,6 +407,17 @@ $3br
 /user/stylus
 /user/treadmill
 /value
+/vrgamepadui/steamvr/dashboard_frames_remote
+/vrgamepadui/steamvr/dashboard_frames_tx
+/vrgamepadui/steamvr/desktop_windows_remote
+/vrgamepadui/steamvr/desktop_windows_tx
+/vrgamepadui/steamvr/unified_dashboard_state_remote
+/vrgamepadui/steamvr/vrlink_lasermouseactive_remote
+/vrgamepadui/steamvr/vrlink_lasermouseoverlay_remote
+/vrgamepadui/steamvr/vrlink_lasermouseoverlay_tx
+/vrlink_client_isSteamVR
+/vrlink_environment
+/vrlink_stream_active
 0 width
 0-pixel image
 00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899
@@ -1535,15 +1549,17 @@ Client
 Closing Keyboard
 Collision bounds distances: Hmd=%f->%f, Controllers=%f->%f\n
 CommandBuffer[%u]
+CommitFloorHeight failed. Cannot query GetRawZeroPoseToRoomSetupAbsoluteTrackingPose
 CommitFloorHeight failed. Cannot query GetRawZeroPoseToSeatedAbsoluteTrackingPose
+CommitFloorHeight failed. Cannot query GetRawZeroPoseToSetupStandingAbsoluteTrackingPose
 CommitFloorHeight failed. Cannot query GetRawZeroPoseToStandingAbsoluteTrackingPose
-CommitFloorHeight failed. Cannot query GetSetupZeroPoseToStandingAbsoluteTrackingPose
+CommitPlayspaceCircleBoundary failed. Cannot query GetRawZeroPoseToRoomSetupAbsoluteTrackingPose
 CommitPlayspaceCircleBoundary failed. Cannot query GetRawZeroPoseToSeatedAbsoluteTrackingPose
 CommitPlayspaceCircleBoundary failed. Cannot query GetRawZeroPoseToStandingAbsoluteTrackingPose
-CommitPlayspaceCircleBoundary failed. Cannot query GetSetupZeroPoseToStandingAbsoluteTrackingPose
 CommitPlayspaceCircleBoundary failed. Invalid radius
+CommitPlayspacePerimeter failed. Cannot query GetRawZeroPoseToRoomSetupAbsoluteTrackingPose
+CommitPlayspacePerimeter failed. Cannot query GetRawZeroPoseToSeatedAbsoluteTrackingPose
 CommitPlayspacePerimeter failed. Cannot query GetRawZeroPoseToStandingAbsoluteTrackingPose
-CommitPlayspacePerimeter failed. Cannot query GetSetupZeroPoseToStandingAbsoluteTrackingPose
 CommitPlayspacePerimeter failed. Too few perimeter points
 CommitWorkingCopy
 Completed
@@ -1696,6 +1712,7 @@ Failed to decode 'uri' for image[
 Failed to determine appropriate GL format for VkFormat: %d\n
 Failed to dup FD %d for plane %i.
 Failed to dup dmabuf fd for import\n
+Failed to execvp(): %s (%d)
 Failed to export vulkan memory for OGL interop\n
 Failed to export vulkan memory for interop\n
 Failed to export vulkan semaphore for OGL interop\n
@@ -2678,7 +2695,6 @@ Not looking for a good app key because Steam didn't start this app\n
 Not looking for a good app key because we were launched as a child of vrserver
 Not starting vrserver for %s application.\n
 Not starting vrserver for background app (121)
-Not starting vrserver inside app container.\n
 Not writing boolean value because it couldn't be read\n
 Not writing boolean value because it didn't change\n
 Not writing scalar value because it couldn't be read\n
@@ -2719,6 +2735,8 @@ PICT
 PN4Json9ExceptionE
 PNG\r\n
 POSITION
+PRESSURE_VESSEL_RUNTIME
+PS_AURORA
 PS_BLURSCENE
 PS_DISTORT
 PS_GEOM
@@ -2881,6 +2899,7 @@ Prop_HmdColumnCorrectionSettingPrefix_String
 Prop_HmdTrackingStyle_Int32
 Prop_Hmd_BlankOnFramerateChange_Bool
 Prop_Hmd_EnableParallelRenderCameras_Bool
+Prop_Hmd_RecommendedResolutionPixelsSteps_Int32
 Prop_Hmd_SupportsAppThrottling_Bool
 Prop_Hmd_SupportsDisplayPortTrainingMode_Bool
 Prop_Hmd_SupportsGpuBusMonitoring_Bool
@@ -2960,6 +2979,7 @@ PropertyContainer: High lock acquisition counters: sp:%u yd:%u re:%u\n
 PropertyContainerCreation
 Protocol message was modified concurrently during serialization.
 Purging all shared textures because the connection to vrserver was lost\n
+QT_PLUGIN_PATH
 QkkXa
 Qkkbal
 QuickCalibratePlayspace %d\n
@@ -3033,25 +3053,30 @@ RootNode
 RunInputFrame
 Running_OK
 Running_OutOfRange
+Runtime escape requested, but no SYSTEM_LD_LIBRARY_PATH provided!
 SCALAR
 SDL_GetError
 SDL_GetPowerInfo
 SDL_LinuxSetThreadPriorityAndPolicy
 SDL_SetThreadPriority
+SRT_LAUNCHER_SERVICE_ALONGSIDE_STEAM
 STEAMVR_APPKEY
 STEAMVR_DISABLE_ASSERT_MINIDUMP
 STEAMVR_DISABLE_CRASH_REPORTING
 STEAMVR_DISABLE_DMABUF_MODIFIERS
 STEAMVR_DISABLE_THREAD_WATCHDOGS
 STEAMVR_ENABLE_THREAD_WATCHDOGS
+STEAMVR_ENV
 STEAMVR_GPUVIS_ON_ASSERT
 STEAMVR_VERBOSE_HAPTIC_LOG
 STEAMVR_VKVALIDATION
 STEAMVR_WEBHELPER
 STEAM_COMPAT_PROTON
 STEAM_RUNTIME=0 LD_LIBRARY_PATH= lsusb -d %x:%x > /dev/null
+STEANM_RUNTIME
 SUBOPTIMAL_KHR
 SYSCONFDIR
+SYSTEM_LD_LIBRARY_PATH
 Saturday
 Saw pid %d exit after %d pipe connect attempts\n
 Scene create OpenGL, 
@@ -4944,6 +4969,7 @@ enableCameraSurfaces
 enableDriverBoundsImport
 enableHomeApp
 enableLegacyGameTheater
+enableSteamInput
 enabled
 end of input
 end_ctx
@@ -5344,6 +5370,7 @@ lighthouse
 lights
 linux32
 listen
+lm_haptic
 loadPriority
 locale::facet::_S_create_c_locale name not valid
 localeconv
@@ -5826,7 +5853,10 @@ shaders/vulkan/distort_geom_aa_quads_ps.spv
 shaders/vulkan/distort_geom_aa_quads_vs.spv
 shaders/vulkan/distort_geom_altcolorblend_ps.spv
 shaders/vulkan/distort_geom_aurora_floor_ps.spv
-shaders/vulkan/distort_geom_aurora_ps.spv
+shaders/vulkan/distort_geom_aurora_horizon_notexture_ps.spv
+shaders/vulkan/distort_geom_aurora_horizon_ps.spv
+shaders/vulkan/distort_geom_aurora_sky_notexture_ps.spv
+shaders/vulkan/distort_geom_aurora_sky_ps.spv
 shaders/vulkan/distort_geom_colormap_lines_ps.spv
 shaders/vulkan/distort_geom_constant_ps.spv
 shaders/vulkan/distort_geom_drawregion_multitap_ps.spv
@@ -5858,6 +5888,7 @@ shaders/vulkan/distort_geom_pbr_ps.spv
 shaders/vulkan/distort_geom_playspace_drawing_area_ps.spv
 shaders/vulkan/distort_geom_ps.spv
 shaders/vulkan/distort_geom_ps16.spv
+shaders/vulkan/distort_geom_ps16_mv_split.spv
 shaders/vulkan/distort_geom_ps_debug_depth.spv
 shaders/vulkan/distort_geom_ps_debug_mvfloat.spv
 shaders/vulkan/distort_geom_psmvfloat.spv
@@ -5967,8 +5998,10 @@ shaders/vulkan/gpu_measurement_vs.spv
 shaders/vulkan/linepixelsim2_cs.spv
 shaders/vulkan/linepixelsim_cs.spv
 shaders/vulkan/motion_filter_attenuation_ps.spv
+shaders/vulkan/motion_filter_attenuation_ps_split.spv
 shaders/vulkan/motion_filter_blur_ps.spv
 shaders/vulkan/motion_filter_cost_ps.spv
+shaders/vulkan/motion_filter_cost_ps_split.spv
 shaders/vulkan/motion_filter_early_out_vs.spv
 shaders/vulkan/motion_filter_median3x3_ps.spv
 shaders/vulkan/motion_filter_median_ps.spv
@@ -5976,6 +6009,7 @@ shaders/vulkan/motion_filter_vs.spv
 shaders/vulkan/motion_smoothing_debug_ps.spv
 shaders/vulkan/motion_smoothing_debug_vs.spv
 shaders/vulkan/motionvector_cost_cs.spv
+shaders/vulkan/motionvector_cost_cs_cvp.spv
 shaders/vulkan/msaa_resolve_2x_ps.spv
 shaders/vulkan/msaa_resolve_4x_ps.spv
 shaders/vulkan/msaa_resolve_8x_ps.spv
@@ -6134,6 +6168,7 @@ std::string
 stderr
 stdin
 stdout
+steam-runtime-launch-client
 steam.app.
 steam.overlay.
 steamMatchesHMDFramerate
@@ -6280,7 +6315,6 @@ translate
 translation
 trigger
 trigger_haptic
-trigger_laser_mouse_haptic_vibration
 trigger_path
 true
 true literal

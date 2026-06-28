@@ -1,10 +1,10 @@
 Content Manifest for Depot 250830 
 
-Manifest ID / date     : 1874458903680892192 / 08/15/2025 18:50:31 
-Total number of files  : 2179 
-Total number of chunks : 5293 
-Total bytes on disk    : 3359372759 
-Total bytes compressed : 1109881680 
+Manifest ID / date     : 3250777863279897716 / 06/12/2026 22:32:35 
+Total number of files  : 2180 
+Total number of chunks : 5297 
+Total bytes on disk    : 3361503705 
+Total bytes compressed : 1110226656 
 
 
           Size Chunks File SHA                                 Flags Name
@@ -2133,8 +2133,9 @@ Total bytes compressed : 1109881680
           7028      1 52daa3277669546821c7b1574ff91b82ce151f59     0 tools/steamvr_environments/game/core/tools/stylesheets/qanimgrapheditor.qss
          11141      1 2685ab7b08f822029a7b69ca5b51b529856f84b0     0 tools/steamvr_environments/game/core/tools/stylesheets/qtabbedstyle_colors.vsc
           2494      1 84bf9de212b319a86740c3a19cef34cbf90e05a9     0 tools/steamvr_environments/game/core/tools/stylesheets/qtimelineeditor.qss
-          6860      1 59c8fe7aff2a6457a2f82b0a22ea61c26efbb90a     0 tools/steamvr_environments/game/steamtours/cfg/actions.json
+          6965      1 321c544e7b27620b923a8f9c772dcdf6265f397a     0 tools/steamvr_environments/game/steamtours/cfg/actions.json
          14950      1 d7d1046486a032cc31e8f9340ace538e837b339f     0 tools/steamvr_environments/game/steamtours/cfg/bindings_cosmos.json
+         16165      1 07282de2f8a2e5f9c6e3888a427b4c0fbb739565     0 tools/steamvr_environments/game/steamtours/cfg/bindings_frame.json
           2538      1 333956e3c8f6f0f57ca15bbcb28daf0274686485     0 tools/steamvr_environments/game/steamtours/cfg/bindings_gamepad.json
          14919      1 8e61e80fa94caea76ea6c040c3994e22e6cfc1e6     0 tools/steamvr_environments/game/steamtours/cfg/bindings_generic.json
          16131      1 f8c60111a2e6db6b746c1cb3a3eb1aae27a91dab     0 tools/steamvr_environments/game/steamtours/cfg/bindings_holographic.json
@@ -2146,7 +2147,7 @@ Total bytes compressed : 1109881680
           5189      1 c099d7f016cb1e422c996a3b00ddc99c7f908160     0 tools/steamvr_environments/game/steamtours/gameinfo.gi
      105961596    105 3304ea9a91db44f8917f02984c387db9472e7997     0 tools/steamvr_environments/game/steamtours/pak01_000.vpk
      105550372    110 93ac8ca4885e9fd84fc8ce6f82d9995883cb8ba2     0 tools/steamvr_environments/game/steamtours/pak01_001.vpk
-     104189780    103 86a311bba160f0d07506703935752eef50ca6a41     0 tools/steamvr_environments/game/steamtours/pak01_002.vpk
+     106032964    105 4859bc210d12856d0f135018d952129448243f67     0 tools/steamvr_environments/game/steamtours/pak01_002.vpk
      104870396    108 b7094c2b78786ee3633001d2b47512e187b2d967     0 tools/steamvr_environments/game/steamtours/pak01_003.vpk
      104699504    101 a0c6552374e8e7dd9819c1941005aa7e089ab65a     0 tools/steamvr_environments/game/steamtours/pak01_004.vpk
      120972500    119 ca1f81c4dfc545f486ad712321c87fed53f132e2     0 tools/steamvr_environments/game/steamtours/pak01_005.vpk
@@ -2161,19 +2162,19 @@ Total bytes compressed : 1109881680
      100292593    102 88913c942c2bdb4b207f6cbc4a2349e0be5841d1     0 tools/steamvr_environments/game/steamtours/pak01_014.vpk
      104804112    106 23b2ec46d206052e3d83a60cc81bcff9f939afd0     0 tools/steamvr_environments/game/steamtours/pak01_015.vpk
      104005132    104 b9cf5425543db4461bf2faebbf4dbf7260bfc197     0 tools/steamvr_environments/game/steamtours/pak01_016.vpk
-     104796340    107 3cbeb54df9b20f0eaf8c3de24877205ebc60eeed     0 tools/steamvr_environments/game/steamtours/pak01_017.vpk
+     120554882    127 2eef8cf676606d383d375785b29287009f83cf85     0 tools/steamvr_environments/game/steamtours/pak01_017.vpk
      102131132    105 807ffd0f63e8eabd4a0784c4346a446b98b48377     0 tools/steamvr_environments/game/steamtours/pak01_018.vpk
-      78438770     83 b4deaf830e0a6b93af1eb75c2e4b790e228115cd     0 tools/steamvr_environments/game/steamtours/pak01_019.vpk
-        190991      1 322edf41cd52612349f44854b77618fd382ebacf     0 tools/steamvr_environments/game/steamtours/pak01_dir.vpk
-     104888980    107 9e534070df8cba41692857751d3cebafb1f33f5e     0 tools/steamvr_environments/game/steamtours/pak02_000.vpk
+      62944557     64 38bb0e35e7325f8f37699a024afcce858caf153d     0 tools/steamvr_environments/game/steamtours/pak01_019.vpk
+        191225      1 9f7a22c28b825102be5ae024c16403d7c3124160     0 tools/steamvr_environments/game/steamtours/pak01_dir.vpk
+     104895908    107 6360c6f19b7216d791a4aba9fdf1812e97c76a2e     0 tools/steamvr_environments/game/steamtours/pak02_000.vpk
      100034564    100 ec24bfc2622baf4544e457391293ebccc8bdce5a     0 tools/steamvr_environments/game/steamtours/pak02_001.vpk
-         18986      1 aa89cc8f9f084ff84167eb3ec750422d1e007e35     0 tools/steamvr_environments/game/steamtours/pak02_dir.vpk
+         18986      1 15683098b28da564db8c8d9172df1ef0262b2c65     0 tools/steamvr_environments/game/steamtours/pak02_dir.vpk
        4479576      5 15e50e2056ed841b3680b898051234283038c91e     0 tools/steamvr_environments/game/steamtours/panorama/fonts/notosansjp-regular.otf
        4559524      5 b4ca864a4eca2a6babf55ed53cc41e5d497e99b6     0 tools/steamvr_environments/game/steamtours/panorama/fonts/notosanskr-regular.otf
        8368828      8 9c4de9ee9fb2713c7694cde7d5a36380ac08e411     0 tools/steamvr_environments/game/steamtours/panorama/fonts/notosanssc-regular.otf
        5648604      6 849a4197595b4384b0572e09414a4b3f8777ad67     0 tools/steamvr_environments/game/steamtours/panorama/fonts/notosanstc-regular.otf
        1267938      3 6c7894b13ec1e24d6eef1e08c5efca310081938e     0 tools/steamvr_environments/game/steamtours/panorama/fonts/tenfoot.uifont
-           152      1 82b82a4bcf7d9dbc46235a096866f00ff89048a0     0 tools/steamvr_environments/game/steamtours/steam.inf
+           153      1 029815681a716630c32238c7ab5bbf65fa19794e     0 tools/steamvr_environments/game/steamtours/steam.inf
             55      1 738073a80ac0d19345fb32281a93268845b5599a     0 tools/steamvr_environments/game/steamtours_addons/addon_template/addoninfo.txt
             17      1 a50e077debdc3c819168bab85e29297e323f170e     0 tools/steamvr_environments/game/steamtours_addons/addon_template/panorama/localization/addon_english.txt
           1138      1 9d423f1902bb1a219027d32b7894ce7a52d1968d     0 tools/steamvr_environments/game/steamtours_addons/addon_template/readonly_tools_asset_info.bin

@@ -1,13 +1,13 @@
-var CLSTAMP = "10731156";
+var CLSTAMP = "10770080";
 (self.webpackChunkvrwebui = self.webpackChunkvrwebui || []).push([
   [554],
   {
     9125: (e, t, r) => {
-      r.d(t, { aj: () => W, d4: () => A });
+      r.d(t, { aj: () => O, d4: () => W });
       var n = r(1635),
-        o = r(6540),
+        i = r(6540),
         s = r(5339),
-        i = r.n(s),
+        o = r.n(s),
         a = r(3924);
       class l extends s.Message {
         static ImplementsStaticInterface() {}
@@ -50,7 +50,7 @@ var CLSTAMP = "10731156";
           return a.Uq(l.M(), e);
         }
         static deserializeBinary(e) {
-          let t = new (i().BinaryReader)(e),
+          let t = new (o().BinaryReader)(e),
             r = new l();
           return l.deserializeBinaryFromReader(r, t);
         }
@@ -58,14 +58,14 @@ var CLSTAMP = "10731156";
           return a.zj(l.MBF(), e, t);
         }
         serializeBinary() {
-          var e = new (i().BinaryWriter)();
+          var e = new (o().BinaryWriter)();
           return l.serializeBinaryToWriter(this, e), e.getResultBuffer();
         }
         static serializeBinaryToWriter(e, t) {
           a.i0(l.M(), e, t);
         }
         serializeBase64String() {
-          var e = new (i().BinaryWriter)();
+          var e = new (o().BinaryWriter)();
           return l.serializeBinaryToWriter(this, e), e.getResultBase64String();
         }
         getClassName() {
@@ -111,7 +111,7 @@ var CLSTAMP = "10731156";
           return a.Uq(c.M(), e);
         }
         static deserializeBinary(e) {
-          let t = new (i().BinaryReader)(e),
+          let t = new (o().BinaryReader)(e),
             r = new c();
           return c.deserializeBinaryFromReader(r, t);
         }
@@ -119,14 +119,14 @@ var CLSTAMP = "10731156";
           return a.zj(c.MBF(), e, t);
         }
         serializeBinary() {
-          var e = new (i().BinaryWriter)();
+          var e = new (o().BinaryWriter)();
           return c.serializeBinaryToWriter(this, e), e.getResultBuffer();
         }
         static serializeBinaryToWriter(e, t) {
           a.i0(c.M(), e, t);
         }
         serializeBase64String() {
-          var e = new (i().BinaryWriter)();
+          var e = new (o().BinaryWriter)();
           return c.serializeBinaryToWriter(this, e), e.getResultBase64String();
         }
         getClassName() {
@@ -134,16 +134,16 @@ var CLSTAMP = "10731156";
         }
       }
       var u = r(1286);
-      function p(e) {
+      function d(e) {
         return (0, n.sH)(this, arguments, void 0, function* (e, t = "SHA-256") {
           let r;
           var n;
           "string" == typeof e
             ? ((n = e), (r = new TextEncoder().encode(n).buffer))
             : (r = e);
-          const o = yield window.crypto.subtle.digest(t, r);
+          const i = yield window.crypto.subtle.digest(t, r);
           return (
-            (s = o),
+            (s = i),
             Array.prototype.map
               .call(new Uint8Array(s), (e) => ("00" + e.toString(16)).slice(-2))
               .join("")
@@ -151,19 +151,19 @@ var CLSTAMP = "10731156";
           var s;
         });
       }
-      var d = r(7600),
-        m = r(4728),
-        g = r(1333),
-        h = r(9118),
+      var m = r(7600),
+        h = r(4728),
+        p = r(1333),
+        g = r(9118),
         f = r(6090);
       const _ =
         window.addEventListener || (r.g && r.g.addEventListener) || (() => {});
-      let y,
-        S = [],
-        C = (e, t, r) =>
-          S.push({ error: e, cCallsitesToIgnore: t, strComponentStack: r });
-      const b = !0;
-      class I extends Error {
+      let b,
+        w = [],
+        R = (e, t, r) =>
+          w.push({ error: e, cCallsitesToIgnore: t, strComponentStack: r });
+      const S = !0;
+      class v extends Error {
         constructor(...e) {
           super(...e), (this.name = "Assertion Failed");
         }
@@ -172,42 +172,42 @@ var CLSTAMP = "10731156";
         const e = console.assert;
         console.assert = (t, r, ...n) => {
           if (!t) {
-            const e = R();
-            C(new I(M(r, ...n)), 2, e);
+            const e = I();
+            R(new v(k(r, ...n)), 2, e);
           }
           e.apply(console, [t, r, ...n]);
         };
         const t = console.error;
         (console.error = (e, ...r) => {
-          const n = R();
-          C(new Error(M(e, ...r)), 1, n), t.apply(console, [e, ...r]);
+          const n = I();
+          R(new Error(k(e, ...r)), 1, n), t.apply(console, [e, ...r]);
         }),
           (console.clogerror = (e, r, ...n) => {
-            const o = R();
-            C(new Error(M(r, ...n)), e + 1, o), t.apply(console, [r, ...n]);
+            const i = I();
+            R(new Error(k(r, ...n)), e + 1, i), t.apply(console, [r, ...n]);
           }),
           _("error", (e) => {
-            C(e.error, 0);
+            R(e.error, 0);
           }),
           _("unhandledrejection", (e) => {
-            C(e.reason, 0);
+            R(e.reason, 0);
           }),
-          (y = window.setTimeout(() => {
-            (S = []), (C = () => {});
+          (b = window.setTimeout(() => {
+            (w = []), (R = () => {});
           }, 3e4));
       }
-      const w = { cCallsitesToIgnore: 0, bIncludeMessageInIdentifier: !1 },
-        v = [
+      const T = { cCallsitesToIgnore: 0, bIncludeMessageInIdentifier: !1 },
+        y = [
           "chrome-extension://",
           "HTMLDivElement.onreset \\(/market",
           "/.millennium/Dist",
           "Refused unauthorized RPC command",
         ];
-      function R() {
+      function I() {
         try {
-          const e = o.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED,
+          const e = i.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED,
             t =
-              o.__CLIENT_INTERNALS_DO_NOT_USE_OR_WARN_USERS_THEY_CANNOT_UPGRADE;
+              i.__CLIENT_INTERNALS_DO_NOT_USE_OR_WARN_USERS_THEY_CANNOT_UPGRADE;
           if (
             e &&
             "object" == typeof e &&
@@ -226,32 +226,32 @@ var CLSTAMP = "10731156";
           }
         } catch (e) {}
       }
-      class T {
+      class M {
         constructor(e = !0) {
           (this.m_transport = null),
             (this.m_rgErrorQueue = []),
             (this.m_sendTimer = null),
             (this.m_bReportingPaused = !1),
             (this.m_pauseTimer = void 0),
-            (this.m_fnGetReportingInterval = j),
+            (this.m_fnGetReportingInterval = F),
             (this.m_bEnabled = !0),
             (this.m_bInitialized = !1),
             e
-              ? (S.forEach(
+              ? (w.forEach(
                   ({ error: e, cCallsitesToIgnore: t, strComponentStack: r }) =>
                     this.ReportError(e, {
                       cCallsitesToIgnore: t,
                       strComponentStack: r,
                     }),
                 ),
-                (C = (e, t, r) =>
+                (R = (e, t, r) =>
                   this.ReportError(e, {
                     cCallsitesToIgnore: t,
                     strComponentStack: r,
                   })))
-              : (C = () => {}),
-            (S = []),
-            clearTimeout(y),
+              : (R = () => {}),
+            (w = []),
+            clearTimeout(b),
             window.setTimeout(() => {
               this.m_bInitialized ||
                 ((this.m_bEnabled = !1), (this.m_rgErrorQueue = []));
@@ -284,20 +284,20 @@ var CLSTAMP = "10731156";
                 null
               );
             try {
-              const r = Object.assign(Object.assign({}, w), t);
+              const r = Object.assign(Object.assign({}, T), t);
               if (!this.m_bEnabled) return null;
               0;
-              const o = yield (function (e, t) {
+              const i = yield (function (e, t) {
                 try {
                   return e.stack && e.stack.match(E)
                     ? (function (e, t) {
                         return (0, n.sH)(this, void 0, void 0, function* () {
                           var r, n;
                           const {
-                              cCallsitesToIgnore: o,
+                              cCallsitesToIgnore: i,
                               bIncludeMessageInIdentifier: s,
                             } = t,
-                            i =
+                            o =
                               null !==
                                 (n =
                                   null === (r = e.stack) || void 0 === r
@@ -305,37 +305,37 @@ var CLSTAMP = "10731156";
                                     : r.split("\n")) && void 0 !== n
                                 ? n
                                 : [];
-                          let a = z(i.filter((e) => !!e.match(E))[o]);
+                          let a = L(o.filter((e) => !!e.match(E))[i]);
                           s && (a = `${a} ${e.message}`);
-                          const l = i
+                          const l = o
                             .map((e) => {
                               const t = e.match(/(.*)\((.*):(\d+):(\d+)\)/);
                               if (!t) return e;
                               if (5 === t.length) {
-                                const [e, r, n, o, s] = t,
-                                  i = parseInt(o),
+                                const [e, r, n, i, s] = t,
+                                  o = parseInt(i),
                                   a = parseInt(s);
-                                if (!isNaN(i) && !isNaN(a)) return [r, n, i, a];
+                                if (!isNaN(o) && !isNaN(a)) return [r, n, o, a];
                               }
                               return e;
                             })
                             .filter((e) => !!e);
                           return {
                             identifier: a,
-                            identifierHash: yield H(a),
+                            identifierHash: yield j(a),
                             message: l,
                           };
                         });
                       })(e, t)
-                    : e.stack && e.stack.match(B)
+                    : e.stack && e.stack.match(C)
                       ? (function (e, t) {
                           return (0, n.sH)(this, void 0, void 0, function* () {
                             var r, n;
                             const {
-                                cCallsitesToIgnore: o,
+                                cCallsitesToIgnore: i,
                                 bIncludeMessageInIdentifier: s,
                               } = t,
-                              i =
+                              o =
                                 null !==
                                   (n =
                                     null === (r = e.stack) || void 0 === r
@@ -343,30 +343,30 @@ var CLSTAMP = "10731156";
                                       : r.split("\n")) && void 0 !== n
                                   ? n
                                   : [];
-                            let a = z(i.filter((e) => !!e.match(B))[o]);
+                            let a = L(o.filter((e) => !!e.match(C))[i]);
                             s && (a = `${a} ${e.message}`);
-                            const l = i
+                            const l = o
                               .map((e) => {
                                 const t = e.match(/(.*@)?(.*):(\d+):(\d+)/);
                                 if (!t) return e;
                                 if (5 === t.length) {
-                                  const [e, r, n, o, s] = t,
-                                    i = parseInt(o),
+                                  const [e, r, n, i, s] = t,
+                                    o = parseInt(i),
                                     a = parseInt(s);
-                                  if (!isNaN(i) && !isNaN(a))
-                                    return [r, n, i, a];
+                                  if (!isNaN(o) && !isNaN(a))
+                                    return [r, n, o, a];
                                 }
                                 return e;
                               })
                               .filter((e) => !!e);
                             return {
                               identifier: a,
-                              identifierHash: yield H(a),
+                              identifierHash: yield j(a),
                               message: [e.message, ...l],
                             };
                           });
                         })(e, t)
-                      : e.stack && e.stack.match(O)
+                      : e.stack && e.stack.match(B)
                         ? (function (e, t) {
                             return (0, n.sH)(
                               this,
@@ -375,10 +375,10 @@ var CLSTAMP = "10731156";
                               function* () {
                                 var r, n;
                                 const {
-                                    bIncludeMessageInIdentifier: o,
+                                    bIncludeMessageInIdentifier: i,
                                     cCallsitesToIgnore: s,
                                   } = t,
-                                  i =
+                                  o =
                                     null !==
                                       (n =
                                         null === (r = e.stack) || void 0 === r
@@ -386,40 +386,40 @@ var CLSTAMP = "10731156";
                                           : r.split("\n")) && void 0 !== n
                                       ? n
                                       : [],
-                                  a = i[s],
+                                  a = o[s],
                                   l = a.split("/");
                                 let c = l[l.length - 1];
                                 a.indexOf("@") > -1 &&
                                   (c = a.split("@")[0] + "@" + c),
-                                  o && (c = `${c} ${e.message}`);
-                                const u = i
+                                  i && (c = `${c} ${e.message}`);
+                                const u = o
                                   .map((e) => {
                                     const t = e.match(/(.*@)?(.*):(\d+):(\d+)/);
                                     if (!t) return e;
                                     if (5 === t.length) {
-                                      const [e, r, n, o, s] = t,
-                                        i = parseInt(o),
+                                      const [e, r, n, i, s] = t,
+                                        o = parseInt(i),
                                         a = parseInt(s);
-                                      if (!isNaN(i) && !isNaN(a))
-                                        return [r, n, i, a];
+                                      if (!isNaN(o) && !isNaN(a))
+                                        return [r, n, o, a];
                                     }
                                     return e;
                                   })
                                   .filter((e) => !!e);
                                 return {
                                   identifier: c,
-                                  identifierHash: yield H(c),
+                                  identifierHash: yield j(c),
                                   message: [e.message, ...u],
                                 };
                               },
                             );
                           })(e, t)
-                        : (k ||
+                        : (N ||
                             (console.warn(
                               "Error reporter does not know how to parse generated stack:",
                             ),
                             console.warn(e.stack),
-                            (k = !0)),
+                            (N = !0)),
                           null);
                 } catch (e) {
                   return (
@@ -427,13 +427,13 @@ var CLSTAMP = "10731156";
                   );
                 }
               })(e, r);
-              return o
+              return i
                 ? (r.cCallsitesToIgnore &&
-                    o.message.splice(1, r.cCallsitesToIgnore),
+                    i.message.splice(1, r.cCallsitesToIgnore),
                   r.strComponentStack &&
-                    (o.strComponentStack = r.strComponentStack),
-                  this.SendErrorReport(o),
-                  o)
+                    (i.strComponentStack = r.strComponentStack),
+                  this.SendErrorReport(i),
+                  i)
                 : null;
             } catch (e) {
               return console.log(`Failed to report error: ${e}`), null;
@@ -459,7 +459,7 @@ var CLSTAMP = "10731156";
         BIsBlacklisted(e) {
           for (let t of e.message) {
             let r = JSON.stringify(t);
-            for (let t of v) {
+            for (let t of y) {
               const n = new RegExp(t);
               if (r.match(n))
                 return console.warn("Report", e, "matched regex", t), !0;
@@ -498,16 +498,16 @@ var CLSTAMP = "10731156";
             ),
             r = Object.keys(t).map((e) => {
               const { report: r, count: n } = t[e],
-                o = new c();
+                i = new c();
               return (
-                o.set_count(n),
-                o.set_identifier(r.identifier + " " + r.identifierHash),
-                o.set_message(JSON.stringify(r.message)),
+                i.set_count(n),
+                i.set_identifier(r.identifier + " " + r.identifierHash),
+                i.set_message(JSON.stringify(r.message)),
                 r.strComponentStack &&
-                  o.set_context(
+                  i.set_context(
                     JSON.stringify({ componentStack: r.strComponentStack }),
                   ),
-                o
+                i
               );
             }),
             n = new l();
@@ -520,14 +520,14 @@ var CLSTAMP = "10731156";
               ((null === VRHTML || void 0 === VRHTML
                 ? void 0
                 : VRHTML.HasHMD()) || e.push("no_hmd"),
-              null === g.HR || void 0 === g.HR ? void 0 : g.HR.systemInfo)
+              null === p.HR || void 0 === p.HR ? void 0 : p.HR.systemInfo)
             ) {
               const t = -103;
-              g.HR.systemInfo.os_type > 0
+              p.HR.systemInfo.os_type > 0
                 ? e.push("windows")
-                : g.HR.systemInfo.os_type <= t && e.push("linux");
+                : p.HR.systemInfo.os_type <= t && e.push("linux");
             }
-            (null === h.W || void 0 === h.W ? void 0 : h.W.IsSteamAvailable) ||
+            (null === g.W || void 0 === g.W ? void 0 : g.W.IsSteamAvailable) ||
               e.push("no_steam");
             const t =
               null === VRHTML || void 0 === VRHTML
@@ -551,10 +551,10 @@ var CLSTAMP = "10731156";
           return this.m_strProduct;
         }
         get reporting_enabled() {
-          return b;
+          return S;
         }
       }
-      function M(e, ...t) {
+      function k(e, ...t) {
         if ("string" == typeof e && 0 === t.length) return e;
         return [e, ...t]
           .map((e) => {
@@ -568,11 +568,11 @@ var CLSTAMP = "10731156";
           .join(", ");
       }
       const E = /^\s*at .*(\S+:\d+|\(native\))/m,
-        B = /(^|@)\S+:\d+/,
-        O = /.*\/bundle-[a-zA-Z0-9]+:\d+:\d+/;
-      let F,
-        k = !1;
-      function z(e) {
+        C = /(^|@)\S+:\d+/,
+        B = /.*\/bundle-[a-zA-Z0-9]+:\d+:\d+/;
+      let z,
+        N = !1;
+      function L(e) {
         return (function (e) {
           const t = "https://",
             r = e.indexOf(t);
@@ -588,23 +588,23 @@ var CLSTAMP = "10731156";
           })(e),
         );
       }
-      const W = () => (F || N(new T()), F),
-        N = (e) => {
-          (F = e), d.tH.InstallErrorReportingStore(F);
+      const O = () => (z || H(new M()), z),
+        H = (e) => {
+          (z = e), m.tH.InstallErrorReportingStore(z);
         };
-      function H(e) {
+      function j(e) {
         return (0, n.sH)(this, void 0, void 0, function* () {
           try {
-            return (yield p(e)).slice(0, 16);
+            return (yield d(e)).slice(0, 16);
           } catch (e) {
             return "";
           }
         });
       }
-      function j() {
-        return 1e3 * (0, m.Tg)(1, u.b - 1);
+      function F() {
+        return 1e3 * (0, h.Tg)(1, u.b - 1);
       }
-      class L {
+      class P {
         constructor(e) {
           this.m_strWebAPIBaseURL = e;
         }
@@ -624,358 +624,182 @@ var CLSTAMP = "10731156";
               .catch((e) => {});
         }
       }
-      let P;
-      const A = () => (P || (P = new L("https://api.steampowered.com/")), P);
+      let A;
+      const W = () => (A || (A = new P("https://api.steampowered.com/")), A);
     },
-    9118: (e, t, r) => {
-      r.d(t, { W: () => p });
-      var n = r(1635),
-        o = r(7813),
-        s = r(2505),
-        i = r.n(s),
-        a = r(3236),
-        l = r(3714),
-        c = r(6090);
-      class u {
+    3714: (e, t, r) => {
+      r.d(t, { A0: () => s, uV: () => l, we: () => o });
+      r(6540);
+      var n = r(2505),
+        i = r.n(n);
+      class s {
         constructor() {
-          (this.m_InputState = void 0),
-            (this.m_KnownControllerTypes = o.observable.map()),
-            (this.m_mailbox = new c._n()),
-            (this.m_bUpdateInputStateOnControllerTypChange = !1),
-            (0, o.makeObservable)(this);
+          (this.m_mapTokens = new Map()),
+            (this.m_mapFallbackTokens = new Map());
         }
-        Init(e) {
-          return (
-            this.m_mailbox.Init("input_state"),
-            this.m_mailbox.RegisterHandler(
-              "controller_type_changed",
-              this.OnControllerTypeChanged,
-            ),
-            this.m_mailbox.RegisterHandler(
-              "action_bindings_reloaded",
-              this.OnActionBindingsReloaded,
-            ),
-            null != e && (this.m_bUpdateInputStateOnControllerTypChange = e),
-            this.GetInputState()
-          );
-        }
-        OnActionBindingsReloaded() {
-          this.GetInputState();
-        }
-        OnControllerTypeChanged(e) {
-          this.UpdateControllerTypes(e.controller_types),
-            this.m_InputState &&
-              (this.m_InputState.controller_types = e.controller_types),
-            this.m_bUpdateInputStateOnControllerTypChange &&
-              this.GetInputState();
-        }
-        get ConnectedDevices() {
-          return null == this.m_InputState
-            ? []
-            : this.m_InputState.devices.filter(
-                (e) =>
-                  "TrackedDeviceClass_Controller" == e.class ||
-                  "TrackedDeviceClass_HMD" == e.class ||
-                  "TrackedDeviceClass_GenericTracker" == e.class,
-              );
-        }
-        get ControllerTypes() {
-          return this.m_InputState.controller_types;
-        }
-        get ShouldSendSystemButtonToAllApps() {
-          return this.m_InputState.send_system_button_to_all_apps;
-        }
-        get ShowHiddenInputs() {
-          return this.m_InputState.show_hidden_inputs;
-        }
-        get IsSteamAvailable() {
-          return !this.m_InputState || this.m_InputState.is_steam_available;
-        }
-        get BDevMode() {
-          return this.m_InputState.dev_mode;
-        }
-        get IsValid() {
-          return null != this.m_InputState;
-        }
-        get CurrentUserPersonaName() {
-          return this.m_InputState.current_user_persona_name
-            ? this.m_InputState.current_user_persona_name
-            : null;
-        }
-        GetControllerTypeInfo(e) {
-          return this.m_InputState.controller_types.find(
-            (t) => t.controller_type == e,
-          );
-        }
-        GetDeviceInfo(e) {
-          for (let t of this.m_InputState.devices)
-            if (t.root_path == e || t.device_path == e) return t;
-          return null;
-        }
-        LocalizeControllerString(e, t) {
-          let r = (0, l.we)("#" + t);
-          return r != "#" + t
-            ? r
-            : e &&
-                this.m_InputState &&
-                this.m_InputState.localization.hasOwnProperty(
-                  e.resource_root,
-                ) &&
-                this.m_InputState.localization[e.resource_root].hasOwnProperty(
-                  t.toLowerCase(),
-                )
-              ? this.m_InputState.localization[e.resource_root][t.toLowerCase()]
-              : t;
-        }
-        LocalizeDriverString(e, t) {
-          if (
-            this.m_InputState &&
-            this.m_InputState.localization.hasOwnProperty(e) &&
-            this.m_InputState.localization[e].hasOwnProperty(t.toLowerCase())
-          )
-            return this.m_InputState.localization[e][t.toLowerCase()];
-          let r = (0, l.we)("#" + t);
-          return r != "#" + t ? r : t;
-        }
-        UpdateControllerTypes(e) {
-          this.m_KnownControllerTypes.clear();
-          for (let t of e)
-            this.m_KnownControllerTypes.set(t.controller_type, t);
-        }
-        GetInputState() {
-          return (0, n.sH)(this, void 0, void 0, function* () {
-            yield new Promise(function (e, t) {
-              i()
-                .get("/input/getstate.json")
-                .then((t) => {
-                  e(t.data);
-                })
-                .catch((e) => {
-                  t(e);
-                });
-            }).then((e) => {
-              (0, o.runInAction)(() => {
-                for (let t of e.controller_types)
-                  t.controller_type = t.controller_type.toLowerCase();
-                for (let t of e.devices)
-                  t.controller_type = t.controller_type.toLowerCase();
-                this.UpdateControllerTypes(e.controller_types),
-                  (this.m_InputState = e);
-              });
-            });
-          });
-        }
-        get KnownControllerTypes() {
-          return this.m_KnownControllerTypes;
-        }
-        FindDeviceClassForControllerType(e) {
-          let t = this.GetControllerTypeInfo(e);
-          return null == t ? void 0 : t.device_class;
-        }
-        FindRootPathForControllerType(e) {
-          for (let t of this.m_InputState.devices)
-            if (t.controller_type == e) return t.root_path;
-          return null;
-        }
-      }
-      (0, n.Cg)([o.observable], u.prototype, "m_InputState", void 0),
-        (0, n.Cg)(
-          [o.observable],
-          u.prototype,
-          "m_KnownControllerTypes",
-          void 0,
-        ),
-        (0, n.Cg)([a.o], u.prototype, "OnActionBindingsReloaded", null),
-        (0, n.Cg)([a.o], u.prototype, "OnControllerTypeChanged", null),
-        (0, n.Cg)([o.computed], u.prototype, "ConnectedDevices", null),
-        (0, n.Cg)([o.computed], u.prototype, "ControllerTypes", null),
-        (0, n.Cg)(
-          [o.computed],
-          u.prototype,
-          "ShouldSendSystemButtonToAllApps",
-          null,
-        ),
-        (0, n.Cg)([o.computed], u.prototype, "ShowHiddenInputs", null),
-        (0, n.Cg)([o.computed], u.prototype, "IsSteamAvailable", null),
-        (0, n.Cg)([o.computed], u.prototype, "BDevMode", null),
-        (0, n.Cg)([o.computed], u.prototype, "IsValid", null),
-        (0, n.Cg)([o.computed], u.prototype, "CurrentUserPersonaName", null),
-        (0, n.Cg)([a.o], u.prototype, "GetControllerTypeInfo", null),
-        (0, n.Cg)([a.o], u.prototype, "LocalizeControllerString", null),
-        (0, n.Cg)([a.o], u.prototype, "LocalizeDriverString", null),
-        (0, n.Cg)([o.action], u.prototype, "UpdateControllerTypes", null),
-        (0, n.Cg)([o.action], u.prototype, "GetInputState", null),
-        (0, n.Cg)([o.computed], u.prototype, "KnownControllerTypes", null),
-        (0, n.Cg)([a.o], u.prototype, "FindDeviceClassForControllerType", null);
-      const p = new u();
-      window.inputState = p;
-    },
-    3924: (e, t, r) => {
-      r.d(t, {
-        BT: () => l,
-        Sg: () => p,
-        Uq: () => a,
-        gp: () => s,
-        i0: () => u,
-        qM: () => o,
-        w0: () => i,
-        zj: () => c,
-      });
-      var n = r(5339);
-      const o = n.BinaryReader.prototype,
-        s = n.BinaryWriter.prototype;
-      function i(e) {
-        const t = {},
-          { fields: r } = e;
-        for (const e in r) {
-          const n = r[e];
-          t[n.n] = n;
-        }
-        return t;
-      }
-      function a(e, t) {
-        const { proto: r, fields: o } = e,
-          s = new r();
-        if (null == t) return s;
-        for (const e in o) {
-          const { n: r, c: i, r: a, d: l, q: c } = o[e];
-          if (!Object.prototype.hasOwnProperty.call(t, e)) continue;
-          const u = t[e];
-          i
-            ? a
-              ? n.Message.setRepeatedWrapperField(
-                  s,
-                  r,
-                  Array.isArray(u) ? u.map((e) => i.fromObject(e)) : [],
-                )
-              : n.Message.setWrapperField(s, r, i.fromObject(u))
-            : n.Message.setField(s, r, u);
-        }
-        return s;
-      }
-      function l(e, t, r) {
-        const { proto: o, fields: s } = e,
-          i = {};
-        for (const e in s) {
-          const { n: o, c: a, r: l, d: c, q: u } = s[e];
-          if (a)
-            if (l)
-              i[e] = n.Message.toObjectList(
-                n.Message.getRepeatedWrapperField(r, a, o),
-                a.toObject,
-                t,
-              );
-            else {
-              const s = n.Message.getWrapperField(r, a, o, u ? 1 : 0);
-              s && (i[e] = a.toObject(t, s));
+        InitFromObjects(e, t, r, n) {
+          this.m_mapTokens.clear();
+          let i = [t, e, n, r];
+          for (let e in i) {
+            let t = i[e];
+            for (let e in t) {
+              let r = t[e];
+              for (let e in r) {
+                let t = e.toLowerCase();
+                this.m_mapTokens.has(t) || this.m_mapTokens.set(t, r[e]);
+              }
             }
-          else {
-            const t = n.Message.getFieldWithDefault(
-              r,
-              o,
-              void 0 !== c ? c : null,
-            );
-            (null !== t || u) && (i[e] = t);
           }
         }
-        return t && (i.$jspbMessageInstance = r), i;
-      }
-      function c(e, t, r) {
-        for (; r.nextField() && !r.isEndGroup(); ) {
-          const o = e[r.getFieldNumber()];
-          if (o) {
-            const { n: e, c: s, r: i, d: a, q: l, br: c } = o;
-            if (s) {
-              const o = new s();
-              r.readMessage(o, s.deserializeBinaryFromReader),
-                i
-                  ? n.Message.addToRepeatedWrapperField(t, e, o, s)
-                  : n.Message.setWrapperField(t, e, o);
-            } else if (c) {
-              const o = c.call(r);
-              i
-                ? n.Message.addToRepeatedField(t, e, o)
-                : n.Message.setField(t, e, o);
-            } else
-              console.assert(
-                !!c,
-                `Reader func not set for field number ${e} in class ${s}`,
-              ),
-                r.skipField();
-          } else r.skipField();
+        LocalizeString(e) {
+          if (!e || 0 == e.length || "#" != e.charAt(0)) return "";
+          let t = this.m_mapTokens.get(e.substring(1).toLowerCase());
+          return void 0 === t ? "" : t;
         }
-        return t;
+        LocalizeStringFromFallback(e) {
+          if (!e || 0 == e.length || "#" != e.charAt(0)) return "";
+          let t = this.m_mapFallbackTokens.get(e.substring(1).toLowerCase());
+          return void 0 === t ? "" : t;
+        }
+        static GetLocale() {
+          const e = navigator.languages[0];
+          try {
+            const t =
+              null === VRHTML || void 0 === VRHTML
+                ? void 0
+                : VRHTML.GetSystemLocale();
+            if (!t) return e;
+            s.s_Date.toLocaleTimeString(t);
+            return t;
+          } catch (t) {
+            return e;
+          }
+        }
       }
-      function u(e, t, r) {
-        const { fields: o } = e;
-        for (const e in o) {
-          const { n: s, c: i, r: a, d: l, q: c, bw: u } = o[e];
-          if (i)
-            if (a) {
-              const e = n.Message.getRepeatedWrapperField(t, i, s);
-              ((e && e.length) || c) &&
-                r.writeRepeatedMessage(s, e, i.serializeBinaryToWriter);
-            } else {
-              const e = n.Message.getWrapperField(t, i, s, c ? 1 : 0);
-              e && r.writeMessage(s, e, i.serializeBinaryToWriter);
+      function o(e, ...t) {
+        let r = a.LocalizeString(e);
+        return r
+          ? (t.length > 0 &&
+              (r = r.replace(/%(\d+)\$s/g, function (e, r) {
+                return void 0 !== t[r - 1] ? String(t[r - 1]) : e;
+              })),
+            r)
+          : e;
+      }
+      s.s_Date = new Date();
+      const a = new s();
+      function l(e, t) {
+        t ||
+          (t = (function () {
+            let e = new Map([
+              ["en", "english"],
+              ["de", "german"],
+              ["fr", "french"],
+              ["it", "italian"],
+              ["ko", "korean"],
+              ["es-419", "latam"],
+              ["es", "spanish"],
+              ["zh-CN", "schinese"],
+              ["zh-TW", "tchinese"],
+              ["ru", "russian"],
+              ["th", "thai"],
+              ["ja", "japanese"],
+              ["pt", "portuguese"],
+              ["pl", "polish"],
+              ["da", "danish"],
+              ["nl", "dutch"],
+              ["fi", "finnish"],
+              ["no", "norwegian"],
+              ["sv", "swedish"],
+              ["hu", "hungarian"],
+              ["cs", "czech"],
+              ["ro", "romanian"],
+              ["tr", "turkish"],
+              ["pt-BR", "brazilian"],
+              ["bg", "bulgarian"],
+              ["el", "greek"],
+              ["uk", "ukranian"],
+              ["vi", "vietnamese"],
+            ]);
+            for (let t of navigator.languages) {
+              let r = t.split("-");
+              if (e.has(t)) return e.get(t);
+              if (e.has(r[0])) return e.get(r[0]);
             }
-          else if (u) {
-            const e = n.Message.getField(t, s);
-            null != e && u.call(r, s, e);
-          } else
-            console.assert(
-              !!u,
-              `Writer func not set for field number ${s} in class ${i}`,
+            return "english";
+          })());
+        let r = [],
+          n = (e, t, r) => {
+            let n,
+              s = Date.now().toString();
+            return (
+              (n =
+                "drivers" == e
+                  ? `/input/localization.json?t=${s}`
+                  : "webhelper" == e
+                    ? `/dashboard/localization/${e}_${t}.json?t=${s}`
+                    : `localization/${e}_${t}.json?t=${s}`),
+              i()
+                .get(n)
+                .then((e) => {
+                  r(e.data);
+                })
+                .catch(() => {})
             );
-        }
+          },
+          s = [],
+          o = [],
+          l = [],
+          c = [];
+        for (let i of e)
+          r.push(
+            n(i, t, (e) => {
+              s.push(e);
+            }),
+          ),
+            "english" != t &&
+              r.push(
+                n(i, "english", (e) => {
+                  l.push(e);
+                }),
+              );
+        for (let e of ["webhelper"])
+          r.push(
+            n(e, t, (e) => {
+              o.push(e);
+            }),
+          ),
+            "english" != t &&
+              r.push(
+                n(e, "english", (e) => {
+                  c.push(e);
+                }),
+              );
+        return (
+          r.push(
+            n("drivers", "", (e) => {
+              s.push(e);
+            }),
+          ),
+          Promise.all(r).then(() => {
+            a.InitFromObjects(s, o, l, c);
+          })
+        );
       }
-      function p(e) {
-        const t = e.proto;
-        for (const r in e.fields) {
-          const o = e.fields[r],
-            { n: s, c: i, r: a, d: l, q: c } = o;
-          Object.prototype.hasOwnProperty.call(o, "d")
-            ? (t.prototype[r] = d(n.Message.getFieldWithDefault, s, l))
-            : (t.prototype[r] = i
-                ? a
-                  ? d(n.Message.getRepeatedWrapperField, i, s)
-                  : m(i, s)
-                : d(n.Message.getField, s)),
-            (t.prototype[`set_${r}`] = g(
-              i
-                ? a
-                  ? n.Message.setRepeatedWrapperField
-                  : n.Message.setWrapperField
-                : n.Message.setField,
-              s,
-            )),
-            a && (t.prototype[`add_${r}`] = h(s, i));
-        }
+      window.LocalizationManager = a;
+    },
+    4728: (e, t, r) => {
+      function n(e, t) {
+        return (
+          (e = Math.ceil(e)),
+          (t = Math.floor(t)),
+          Math.floor(Math.random() * (t - e + 1)) + e
+        );
       }
-      function d(e, ...t) {
-        return function () {
-          return e(this, ...t);
-        };
+      function i(e, t, r) {
+        return null == e || isNaN(e) ? e : Math.max(t, Math.min(r, e));
       }
-      function m(e, t) {
-        return function (r = !0) {
-          return n.Message.getWrapperField(this, e, t, r ? 1 : 0);
-        };
-      }
-      function g(e, t) {
-        return function (r) {
-          return e(this, t, r);
-        };
-      }
-      function h(e, t) {
-        return t
-          ? function (r, o) {
-              return n.Message.addToRepeatedWrapperField(this, e, r, t, o);
-            }
-          : function (t, r) {
-              n.Message.addToRepeatedField(this, e, t, r);
-            };
-      }
+      r.d(t, { OQ: () => i, Tg: () => n });
     },
   },
 ]); //# sourceMappingURL=file:///home/buildbot/buildslave/steamvr_rel_npm_vrwebui/build/public/runtime/resources/webinterface/dashboard/sourcemaps/chunk~56fe39318.js.map

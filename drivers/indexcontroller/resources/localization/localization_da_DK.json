@@ -1,1 +1,15 @@
-[]
+[
+    {
+        "language_tag": "da_DK",
+        "knuckles": "Index-controller",
+        "knuckles_ev1": "Knuckles-controller (EV1)",
+        "/input/a": "A-knap",
+        "/input/b": "B-knap",
+        "/input/pinch": "Knibebevægelse",
+        "/input/finger/index": "Pegefinger",
+        "/input/finger/middle": "Langfinger",
+        "/input/finger/ring": "Ringfinger",
+        "/input/finger/pinky": "Lillefinger",
+        "/input/thumbstick": "Styrepind"
+    }
+]

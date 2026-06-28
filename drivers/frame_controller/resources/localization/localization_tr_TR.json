@@ -1,1 +1,7 @@
-[]
+[
+    {
+        "language_tag": "tr_TR",
+        "frame_controller": "Frame Kontrolcüsü",
+        "/input/thumbrest": "Başparmak Alanı"
+    }
+]

@@ -1608,6 +1608,7 @@ $tI(knN
 /chaperone/perimeter
 /chaperone/persistent_map_from_map/transform
 /chaperone/play_area
+/chaperone/room_setup/transform
 /chaperone/room_setup_done
 /chaperone/seated/transform
 /chaperone/setup_standing/transform
@@ -1617,6 +1618,7 @@ $tI(knN
 /chaperone/temporary_playing_outside_playspace_time
 /click
 /controller_type/
+/dashboard_head_pose_from_standing
 /device_was_drawn
 /devices/htc/vive_tracker
 /dpad_
@@ -1971,6 +1973,18 @@ $tI(knN
 /user/wrist_htc/right/input/entity_htc/pose
 /user/wrist_htc/right/input/system/click
 /value
+/vrgamepadui/steamvr/dashboard_frames_remote
+/vrgamepadui/steamvr/dashboard_frames_tx
+/vrgamepadui/steamvr/desktop_windows_remote
+/vrgamepadui/steamvr/desktop_windows_tx
+/vrgamepadui/steamvr/unified_dashboard_state_remote
+/vrgamepadui/steamvr/vrlink_lasermouseactive_remote
+/vrgamepadui/steamvr/vrlink_lasermouseoverlay_remote
+/vrgamepadui/steamvr/vrlink_lasermouseoverlay_tx
+/vrlink_client_isSteamVR
+/vrlink_environment
+/vrlink_stream_active
+/vrlink_stream_packet_time
 /x/click
 /x/touch
 /y/click
@@ -1978,6 +1992,7 @@ $tI(knN
 0 width
 0-pixel image
 00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899
+00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899H
 0123456789ABCDEF
 0\tFAJ
 1.0.3.16
@@ -2703,15 +2718,17 @@ CoCreateGuid
 Collision bounds distances: Hmd=%f->%f, Controllers=%f->%f\n
 CommandBuffer[%u]
 CommandLineToArgvW
+CommitFloorHeight failed. Cannot query GetRawZeroPoseToRoomSetupAbsoluteTrackingPose
 CommitFloorHeight failed. Cannot query GetRawZeroPoseToSeatedAbsoluteTrackingPose
+CommitFloorHeight failed. Cannot query GetRawZeroPoseToSetupStandingAbsoluteTrackingPose
 CommitFloorHeight failed. Cannot query GetRawZeroPoseToStandingAbsoluteTrackingPose
-CommitFloorHeight failed. Cannot query GetSetupZeroPoseToStandingAbsoluteTrackingPose
+CommitPlayspaceCircleBoundary failed. Cannot query GetRawZeroPoseToRoomSetupAbsoluteTrackingPose
 CommitPlayspaceCircleBoundary failed. Cannot query GetRawZeroPoseToSeatedAbsoluteTrackingPose
 CommitPlayspaceCircleBoundary failed. Cannot query GetRawZeroPoseToStandingAbsoluteTrackingPose
-CommitPlayspaceCircleBoundary failed. Cannot query GetSetupZeroPoseToStandingAbsoluteTrackingPose
 CommitPlayspaceCircleBoundary failed. Invalid radius
+CommitPlayspacePerimeter failed. Cannot query GetRawZeroPoseToRoomSetupAbsoluteTrackingPose
+CommitPlayspacePerimeter failed. Cannot query GetRawZeroPoseToSeatedAbsoluteTrackingPose
 CommitPlayspacePerimeter failed. Cannot query GetRawZeroPoseToStandingAbsoluteTrackingPose
-CommitPlayspacePerimeter failed. Cannot query GetSetupZeroPoseToStandingAbsoluteTrackingPose
 CommitPlayspacePerimeter failed. Too few perimeter points
 Completed
 ComposeLayerProjection: failed to submit view %u: %s\n
@@ -3817,6 +3834,7 @@ PC_%08llx
 PICT
 PNG\r\n
 POSITION
+PS_AURORA
 PS_BLURSCENE
 PS_DISTORT
 PS_GEOM
@@ -3827,6 +3845,7 @@ PS_SAMPLESCENE
 PS_SAMPLESCENE0
 PS_STENCIL
 PS_main
+P\r0D
 Parse error in system resource manifest %s.\n
 Parse failed for JSON message in mailbox %s: %s\n
 Parsing of JSON file "%s" failed: %s\n
@@ -3980,6 +3999,7 @@ Prop_HmdColumnCorrectionSettingPrefix_String
 Prop_HmdTrackingStyle_Int32
 Prop_Hmd_BlankOnFramerateChange_Bool
 Prop_Hmd_EnableParallelRenderCameras_Bool
+Prop_Hmd_RecommendedResolutionPixelsSteps_Int32
 Prop_Hmd_SupportsAppThrottling_Bool
 Prop_Hmd_SupportsDisplayPortTrainingMode_Bool
 Prop_Hmd_SupportsGpuBusMonitoring_Bool
@@ -7009,14 +7029,14 @@ c:\buildslave\steamvr_rel_win64\build\src\vrclient\vrcompositorclient.cpp:2497
 c:\buildslave\steamvr_rel_win64\build\src\vrclient\vrcompositorclient.cpp:463
 c:\buildslave\steamvr_rel_win64\build\src\vrclient\vrcompositorsharedtextures.cpp
 c:\buildslave\steamvr_rel_win64\build\src\vrclient\vrcompositorsharedtextures.cpp:2963
-c:\buildslave\steamvr_rel_win64\build\src\vrclient\vrcompositorsharedtextures.cpp:4312
+c:\buildslave\steamvr_rel_win64\build\src\vrclient\vrcompositorsharedtextures.cpp:4286
 c:\buildslave\steamvr_rel_win64\build\src\vrclient\vrdebug.cpp:49
 c:\buildslave\steamvr_rel_win64\build\src\vrclient\vrdebug.cpp:60
 c:\buildslave\steamvr_rel_win64\build\src\vrclient\vrinput.cpp:1609
 c:\buildslave\steamvr_rel_win64\build\src\vrclient\vrmailboxclient.cpp
-c:\buildslave\steamvr_rel_win64\build\src\vrclient\vroverlay.cpp:1174
-c:\buildslave\steamvr_rel_win64\build\src\vrclient\vroverlay.cpp:1205
-c:\buildslave\steamvr_rel_win64\build\src\vrclient\vroverlay.cpp:976
+c:\buildslave\steamvr_rel_win64\build\src\vrclient\vroverlay.cpp:1175
+c:\buildslave\steamvr_rel_win64\build\src\vrclient\vroverlay.cpp:1206
+c:\buildslave\steamvr_rel_win64\build\src\vrclient\vroverlay.cpp:977
 c:\buildslave\steamvr_rel_win64\build\src\vrclient\vrsteamprivate.cpp
 c:\fake_app_container_config_path
 camera
@@ -7222,6 +7242,7 @@ enableCameraSurfaces
 enableDriverBoundsImport
 enableHomeApp
 enableLegacyGameTheater
+enableSteamInput
 enableYAMLCompatibility
 enabled
 end of input
@@ -7633,6 +7654,7 @@ light
 lighthouse
 lights
 list<T> too long
+lm_haptic
 loadPriority
 localeconv
 localization
@@ -8073,7 +8095,10 @@ shaders/d3d11/distort_geom_aa_quads_ps.fxo
 shaders/d3d11/distort_geom_aa_quads_vs.fxo
 shaders/d3d11/distort_geom_altcolorblend_ps.fxo
 shaders/d3d11/distort_geom_aurora_floor_ps.fxo
-shaders/d3d11/distort_geom_aurora_ps.fxo
+shaders/d3d11/distort_geom_aurora_horizon_notexture_ps.fxo
+shaders/d3d11/distort_geom_aurora_horizon_ps.fxo
+shaders/d3d11/distort_geom_aurora_sky_notexture_ps.fxo
+shaders/d3d11/distort_geom_aurora_sky_ps.fxo
 shaders/d3d11/distort_geom_colormap_lines_ps.fxo
 shaders/d3d11/distort_geom_constant_ps.fxo
 shaders/d3d11/distort_geom_drawregion_multitap_ps.fxo
@@ -8105,6 +8130,7 @@ shaders/d3d11/distort_geom_pbr_ps.fxo
 shaders/d3d11/distort_geom_playspace_drawing_area_ps.fxo
 shaders/d3d11/distort_geom_ps.fxo
 shaders/d3d11/distort_geom_ps16.fxo
+shaders/d3d11/distort_geom_ps16_mv_split.fxo
 shaders/d3d11/distort_geom_ps_debug_depth.fxo
 shaders/d3d11/distort_geom_reflect_multitap_ps.fxo
 shaders/d3d11/distort_geom_reflect_ps.fxo
@@ -8205,8 +8231,10 @@ shaders/d3d11/gpu_measurement_vs.fxo
 shaders/d3d11/linepixelsim2_cs.fxo
 shaders/d3d11/linepixelsim_cs.fxo
 shaders/d3d11/motion_filter_attenuation_ps.fxo
+shaders/d3d11/motion_filter_attenuation_ps_split.fxo
 shaders/d3d11/motion_filter_blur_ps.fxo
 shaders/d3d11/motion_filter_cost_ps.fxo
+shaders/d3d11/motion_filter_cost_ps_split.fxo
 shaders/d3d11/motion_filter_early_out_vs.fxo
 shaders/d3d11/motion_filter_median3x3_ps.fxo
 shaders/d3d11/motion_filter_median_ps.fxo
@@ -8270,7 +8298,10 @@ shaders/vulkan/distort_geom_aa_quads_ps.spv
 shaders/vulkan/distort_geom_aa_quads_vs.spv
 shaders/vulkan/distort_geom_altcolorblend_ps.spv
 shaders/vulkan/distort_geom_aurora_floor_ps.spv
-shaders/vulkan/distort_geom_aurora_ps.spv
+shaders/vulkan/distort_geom_aurora_horizon_notexture_ps.spv
+shaders/vulkan/distort_geom_aurora_horizon_ps.spv
+shaders/vulkan/distort_geom_aurora_sky_notexture_ps.spv
+shaders/vulkan/distort_geom_aurora_sky_ps.spv
 shaders/vulkan/distort_geom_colormap_lines_ps.spv
 shaders/vulkan/distort_geom_constant_ps.spv
 shaders/vulkan/distort_geom_drawregion_multitap_ps.spv
@@ -8302,6 +8333,7 @@ shaders/vulkan/distort_geom_pbr_ps.spv
 shaders/vulkan/distort_geom_playspace_drawing_area_ps.spv
 shaders/vulkan/distort_geom_ps.spv
 shaders/vulkan/distort_geom_ps16.spv
+shaders/vulkan/distort_geom_ps16_mv_split.spv
 shaders/vulkan/distort_geom_ps_debug_depth.spv
 shaders/vulkan/distort_geom_ps_debug_mvfloat.spv
 shaders/vulkan/distort_geom_psmvfloat.spv
@@ -8411,8 +8443,10 @@ shaders/vulkan/gpu_measurement_vs.spv
 shaders/vulkan/linepixelsim2_cs.spv
 shaders/vulkan/linepixelsim_cs.spv
 shaders/vulkan/motion_filter_attenuation_ps.spv
+shaders/vulkan/motion_filter_attenuation_ps_split.spv
 shaders/vulkan/motion_filter_blur_ps.spv
 shaders/vulkan/motion_filter_cost_ps.spv
+shaders/vulkan/motion_filter_cost_ps_split.spv
 shaders/vulkan/motion_filter_early_out_vs.spv
 shaders/vulkan/motion_filter_median3x3_ps.spv
 shaders/vulkan/motion_filter_median_ps.spv
@@ -8420,6 +8454,7 @@ shaders/vulkan/motion_filter_vs.spv
 shaders/vulkan/motion_smoothing_debug_ps.spv
 shaders/vulkan/motion_smoothing_debug_vs.spv
 shaders/vulkan/motionvector_cost_cs.spv
+shaders/vulkan/motionvector_cost_cs_cvp.spv
 shaders/vulkan/msaa_resolve_2x_ps.spv
 shaders/vulkan/msaa_resolve_4x_ps.spv
 shaders/vulkan/msaa_resolve_8x_ps.spv
@@ -8773,7 +8808,6 @@ translate
 translation
 trigger
 trigger_haptic
-trigger_laser_mouse_haptic_vibration
 trigger_path
 true
 true literal
@@ -9736,6 +9770,7 @@ xrDestroySession
 xrDestroySpace
 xrDestroySwapchain
 xrEndFrame
+xrEndFrame : projection view %u has bounds (x=%u, y=%u, w=%u, h=%u) (%.3f, %.3f, %.3f, %.3f)
 xrEndFrame error: passed XrCompositionLayerSpaceWarpInfoFB in next chain without enabling required XR_FB_space_warp
 xrEndFrame error: passed XrFrameSynthesisInfoEXT in next chain without enabling required XR_EXT_frame_synthesis
 xrEndFrame: compositor failed EndFrame()

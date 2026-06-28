@@ -2,7 +2,14 @@
     {
         "language_tag": "pt_BR",
         "knuckles": "Controle do Valve Index",
+        "knuckles_ev1": "Controle Knuckles (EV1)",
         "/input/a": "Botão A",
-        "/input/b": "Botão B"
+        "/input/b": "Botão B",
+        "/input/pinch": "Gesto de pinça",
+        "/input/finger/index": "Dedo indicador",
+        "/input/finger/middle": "Dedo médio",
+        "/input/finger/ring": "Dedo anelar",
+        "/input/finger/pinky": "Dedo mindinho",
+        "/input/thumbstick": "Alavanca"
     }
 ]

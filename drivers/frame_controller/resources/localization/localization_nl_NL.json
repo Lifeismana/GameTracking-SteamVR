@@ -1,1 +1,7 @@
-[]
+[
+    {
+        "language_tag": "nl_NL",
+        "frame_controller": "Frame-controller",
+        "/input/thumbrest": "Duimsteun"
+    }
+]

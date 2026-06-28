@@ -1,4 +1,4 @@
-var CLSTAMP = "10731156";
+var CLSTAMP = "10770080";
 (self.webpackChunkvrwebui = self.webpackChunkvrwebui || []).push([
   [797],
   {
@@ -12,96 +12,11 @@ var CLSTAMP = "10731156";
       s(4367), s(3361);
       i.Component;
     },
-    1184: (e, t, s) => {
-      var i,
-        r = s(1635),
-        o = s(3496),
-        a = s(3236);
-      !(function (e) {
-        (e[(e.Disabled = 0)] = "Disabled"),
-          (e[(e.WorldZeroY = 1)] = "WorldZeroY"),
-          (e[(e.WorldDynamicFloor = 2)] = "WorldDynamicFloor");
-      })(i || (i = {}));
-      class n extends o._J {
-        constructor(e) {
-          super(e), super.setBuildNodeOverride(this.buildNode);
-        }
-        getNodeType() {
-          return "constraint";
-        }
-        buildNode(e, t) {
-          const s = this.createSgNode(t);
-          return (
-            (s.properties["projection-constraint"] =
-              this.props.projection_constraint),
-            [e, s]
-          );
-        }
-      }
-      (0, r.Cg)([a.o], n.prototype, "buildNode", null);
-    },
-    4120: (e, t, s) => {
-      var i,
-        r = s(1635),
-        o = s(3496),
-        a = s(3236);
-      !(function (e) {
-        (e[(e.RoomSetupFloor = 1)] = "RoomSetupFloor"),
-          (e[(e.Locomotion = 2)] = "Locomotion"),
-          (e[(e.QuickRecenter = 4)] = "QuickRecenter");
-      })(i || (i = {}));
-      class n extends o._J {
-        constructor(e) {
-          super(e), super.setBuildNodeOverride(this.buildNode);
-        }
-        getNodeType() {
-          return "constructglobals";
-        }
-        buildNode(e, t) {
-          const s = this.createSgNode(t);
-          return (
-            (s.properties["scene-color-mult"] = (0, o.kJ)(
-              this.props["scene-color-mult"],
-            )),
-            (s.properties["floor-color-mult"] = (0, o.kJ)(
-              this.props["floor-color-mult"],
-            )),
-            (s.properties["scene-reflection-mult"] = (0, o.kJ)(
-              this.props["scene-reflection-mult"],
-            )),
-            (s.properties["skydome-mult"] = (0, o.kJ)(
-              this.props["skydome-mult"],
-            )),
-            (s.properties["aurora-blur"] = (0, o.kJ)(
-              this.props["aurora-blur"],
-            )),
-            (s.properties["roomview-mult"] = (0, o.UM)(
-              this.props["roomview-mult"],
-            )),
-            (s.properties["allowed-action-sets"] = this.props[
-              "allowed-action-sets"
-            ].reduce((e, t) => e | t, 0)),
-            (s.properties["inhibit-bounds-rendering"] =
-              this.props["inhibit-bounds-rendering"]),
-            (s.properties["pause-notifications"] =
-              this.props["pause-notifications"]),
-            (s.properties["roomview-enable-override"] =
-              this.props["roomview-enable-override"]),
-            (s.properties["systemlayer-msaa-enable-override"] =
-              this.props["systemlayer-msaa-enable-override"]),
-            (s.properties["construct-alpha-override"] =
-              this.props["construct-alpha-override"]),
-            [e, s]
-          );
-        }
-      }
-      (0, r.Cg)([a.o], n.prototype, "buildNode", null);
-    },
     4189: (e, t, s) => {
       var i = s(1635),
-        r = s(3496),
-        o = s(3236);
-      class a extends r._J {
+        n = s(3496),
+        a = s(3236);
+      class r extends n._J {
         constructor(e) {
           super(e), super.setBuildNodeOverride(this.buildNode);
         }
@@ -118,26 +33,125 @@ var CLSTAMP = "10731156";
           );
         }
       }
-      (0, i.Cg)([o.o], a.prototype, "buildNode", null);
+      (0, i.Cg)([a.o], r.prototype, "buildNode", null);
     },
-    10: (e, t, s) => {
-      s(6540);
-      var i = s(3496);
-      i._J;
+    5227: (e, t, s) => {
+      s.d(t, { N: () => a });
+      var i = s(6540),
+        n = s(3496);
+      class a extends n._J {
+        constructor(e) {
+          super(e);
+        }
+        internalRender() {
+          return i.createElement("vsg-line", {
+            "target-id": this.props.target_id,
+            thickness: this.props.thickness,
+            "start-buffer": this.props.start_buffer,
+            "end-buffer": this.props.end_buffer,
+          });
+        }
+      }
+    },
+    1808: (e, t, s) => {
+      s.d(t, { C: () => d });
+      var i = s(1635),
+        n = s(3496),
+        a = s(7019),
+        r = s(3236);
+      class d extends n._J {
+        constructor(e) {
+          super(e),
+            (this.m_latchedPosition = null),
+            super.setBuildNodeOverride(this.buildNode);
+        }
+        getNodeType() {
+          return "panel-anchor";
+        }
+        relatch() {
+          this.m_latchedPosition = null;
+        }
+        buildNode(e, t) {
+          var s, i;
+          if (!e.currentPanel && !e.bInsideReparentedPanel)
+            return [
+              Object.assign(Object.assign({}, e), { bShouldAbort: !0 }),
+              null,
+            ];
+          let r = null;
+          "object" == typeof this.props.location
+            ? (r = (0, n.PG)(this.props.location, { x: 0, y: 0 }))
+            : "number" == typeof this.props.location &&
+              (r = (0, a.Lr)(this.props.location));
+          let d = this.createSgNode(t);
+          if (this.props.latched && null !== this.m_latchedPosition)
+            (d.properties["anchor-u"] = this.m_latchedPosition.u),
+              (d.properties["anchor-v"] = this.m_latchedPosition.v);
+          else if (r) {
+            const t = { u: 0.5 * r.x + 0.5, v: -0.5 * r.y + 0.5 },
+              s =
+                !e.currentPanel || e.currentPanel.props.overlay_key
+                  ? t
+                  : e.currentPanel.scaleLocalUVToGlobal(t);
+            s &&
+              ((d.properties["anchor-u"] = s.u),
+              (d.properties["anchor-v"] = s.v));
+          } else {
+            if (!e.currentPanel)
+              return [
+                Object.assign(Object.assign({}, e), { bShouldAbort: !0 }),
+                null,
+              ];
+            const n = t.ownerDocument,
+              a = t.getBoundingClientRect(),
+              r = a.left + a.width / 2,
+              o = a.top + a.height / 2,
+              l = e.currentPanel.m_Rect;
+            if (r < l.x || r > l.x + l.width || o < l.y || o > l.y + l.height)
+              return [
+                Object.assign(Object.assign({}, e), { bShouldAbort: !0 }),
+                null,
+              ];
+            const m =
+                null === (s = n.defaultView) || void 0 === s
+                  ? void 0
+                  : s.innerWidth,
+              h =
+                null === (i = n.defaultView) || void 0 === i
+                  ? void 0
+                  : i.innerHeight;
+            if (!(h && h > 0 && m && m > 0))
+              return [
+                Object.assign(Object.assign({}, e), { bShouldAbort: !0 }),
+                null,
+              ];
+            (d.properties["anchor-u"] = r / m),
+              (d.properties["anchor-v"] = o / h);
+          }
+          return (
+            (this.m_latchedPosition = {
+              u: d.properties["anchor-u"],
+              v: d.properties["anchor-v"],
+            }),
+            [e, d]
+          );
+        }
+      }
+      (0, i.Cg)([r.o], d.prototype, "buildNode", null);
     },
     5178: (e, t, s) => {
       s.d(t, { O: () => m });
       var i = s(1635),
-        r = s(6540),
-        o = s(7019),
-        a = s(3236),
-        n = s(5723);
-      const d = new (s(776).wd)("EmbeddedPixels");
+        n = s(6540),
+        a = s(7019),
+        r = s(3236),
+        d = s(5723);
+      const o = new (s(776).wd)("EmbeddedPixels");
       var l;
       !(function (e) {
         (e[(e.Canvas = 0)] = "Canvas"), (e[(e.Image = 1)] = "Image");
       })(l || (l = {}));
-      class m extends r.Component {
+      class m extends n.Component {
         static get IsSceneGraphApp() {
           return null !== m.Current();
         }
@@ -176,11 +190,11 @@ var CLSTAMP = "10731156";
                 ? l.Canvas
                 : l.Image,
             }),
-            (this.m_DomRef = r.createRef()),
-            (this.m_scalingDomRef = r.createRef()),
-            (this.m_CanvasRef = r.createRef()),
-            (this.m_EmbeddedDataImgRef = r.createRef()),
-            (this.m_DebugPointerRef = r.createRef());
+            (this.m_DomRef = n.createRef()),
+            (this.m_scalingDomRef = n.createRef()),
+            (this.m_CanvasRef = n.createRef()),
+            (this.m_EmbeddedDataImgRef = n.createRef()),
+            (this.m_DebugPointerRef = n.createRef());
         }
         toggleDebugPointer() {
           this.setState({ bShowDebugPointer: !this.state.bShowDebugPointer });
@@ -196,7 +210,7 @@ var CLSTAMP = "10731156";
               "px )");
         }
         forceLayoutUpdate() {
-          (o.Zk.s_bPanelsAreDirty = !0),
+          (a.Zk.s_bPanelsAreDirty = !0),
             this.setState({
               nForcedUpdateNumber: this.state.nForcedUpdateNumber + 1,
             });
@@ -225,7 +239,7 @@ var CLSTAMP = "10731156";
             (t.forceLayoutUpdate = this.forceLayoutUpdate),
             (t.toggleDebugPointer = this.toggleDebugPointer),
             (this.props.owning_overlay_key || this.props.web_secret) &&
-              (0, n.Oe)(
+              (0, d.Oe)(
                 this.props.owning_overlay_key,
                 this.m_DomRef.current,
                 this.props.web_secret,
@@ -244,30 +258,30 @@ var CLSTAMP = "10731156";
           let s = [];
           return (
             this.state.bShowDebugPointer && s.push("ShowDebugPointer"),
-            r.createElement(
+            n.createElement(
               "vsg-app",
               {
                 class: s.join(" "),
                 ref: this.m_DomRef,
                 "sg-forced-update-number": this.state.nForcedUpdateNumber,
               },
-              r.createElement("div", {
+              n.createElement("div", {
                 className: "DebugPointer",
                 ref: this.m_DebugPointerRef,
               }),
               e &&
-                r.createElement("img", {
+                n.createElement("img", {
                   ref: this.m_EmbeddedDataImgRef,
                   className: "EmbeddedData",
                   height: m.k_EmbeddedDataRows,
                 }),
               t &&
-                r.createElement("canvas", {
+                n.createElement("canvas", {
                   ref: this.m_CanvasRef,
                   className: "EmbeddedData",
                   height: m.k_EmbeddedDataRows,
                 }),
-              r.createElement(
+              n.createElement(
                 "div",
                 { className: "AppSceneGraph", ref: this.m_scalingDomRef },
                 this.state.bFontsLoaded && this.props.children,
@@ -326,21 +340,21 @@ var CLSTAMP = "10731156";
             t = this.m_scalingDomRef.current.getBoundingClientRect(),
             s = t.width / this.m_fCurrentScale,
             i = t.height / this.m_fCurrentScale,
-            r = { x: e.innerWidth / s, y: e.innerHeight / i },
-            a = Math.min(r.x, r.y, 1);
-          a != this.m_fCurrentScale &&
-            (1 != a
+            n = { x: e.innerWidth / s, y: e.innerHeight / i },
+            r = Math.min(n.x, n.y, 1);
+          r != this.m_fCurrentScale &&
+            (1 != r
               ? this.m_scalingDomRef.current.setAttribute(
                   "style",
-                  "transform: scale(" + a + "); transform-origin: top left",
+                  "transform: scale(" + r + "); transform-origin: top left",
                 )
               : this.m_scalingDomRef.current.removeAttribute("style"),
-            (this.m_fCurrentScale = a),
-            (o.Zk.s_bPanelsAreDirty = !0)),
-            o.Zk.s_bPanelsAreDirty &&
+            (this.m_fCurrentScale = r),
+            (a.Zk.s_bPanelsAreDirty = !0)),
+            a.Zk.s_bPanelsAreDirty &&
               (this.m_mapPanels.forEach((e) => e.updateLayoutValues()),
-              (0, n.my)(),
-              (o.Zk.s_bPanelsAreDirty = !1),
+              (0, d.my)(),
+              (a.Zk.s_bPanelsAreDirty = !1),
               this.updateEmbeddedData());
         }
         updateEmbeddedData() {
@@ -358,19 +372,19 @@ var CLSTAMP = "10731156";
                 for (let e = 0; e < 3; e++) this.setPixel(t + e, 0, 0, 0, 0);
               }),
               (this.m_rEmbeddedIndicesToClear = []),
-              d.Debug("UPDATE EMBEDDED DATA ------------------"),
+              o.Debug("UPDATE EMBEDDED DATA ------------------"),
               this.m_mapPanels.forEach((e, t) => {
                 const s = e.m_Rect.x,
                   i = e.m_Rect.x + e.m_Rect.width,
-                  r = e.m_Rect.y,
-                  o = e.m_Rect.y + e.m_Rect.height,
-                  a = e.getEmbeddedIndex();
-                if (null == a) return;
-                const n = 1 + 3 * a;
+                  n = e.m_Rect.y,
+                  a = e.m_Rect.y + e.m_Rect.height,
+                  r = e.getEmbeddedIndex();
+                if (null == r) return;
+                const d = 1 + 3 * r;
                 let l = [0, 0, 0, 0, 0, 0, 0, 0, 0],
                   m = !1;
-                if (e.isExternal() || s >= i || r >= o)
-                  for (let e = 0; e < 3; e++) this.setPixel(n + 1, 0, 0, 0, 0);
+                if (e.isExternal() || s >= i || n >= a)
+                  for (let e = 0; e < 3; e++) this.setPixel(d + 1, 0, 0, 0, 0);
                 else
                   (m = !0),
                     (l[0] = (65280 & s) >> 8),
@@ -378,26 +392,26 @@ var CLSTAMP = "10731156";
                     (l[2] = 254),
                     (l[3] = (65280 & i) >> 8),
                     (l[4] = 255 & i),
-                    (l[5] = 255 & r),
-                    (l[6] = (65280 & o) >> 8),
-                    (l[7] = 255 & o),
-                    (l[8] = (65280 & r) >> 8),
-                    this.setPixel(n, l[0], l[1], l[2]),
-                    this.setPixel(n + 1, l[3], l[4], l[5]),
-                    this.setPixel(n + 2, l[6], l[7], l[8]);
-                d.Debug(
+                    (l[5] = 255 & n),
+                    (l[6] = (65280 & a) >> 8),
+                    (l[7] = 255 & a),
+                    (l[8] = (65280 & n) >> 8),
+                    this.setPixel(d, l[0], l[1], l[2]),
+                    this.setPixel(d + 1, l[3], l[4], l[5]),
+                    this.setPixel(d + 2, l[6], l[7], l[8]);
+                o.Debug(
                   "panel",
                   m ? "" : "XX",
                   e.props.debug_name,
                   "uvs",
                   s,
-                  r,
-                  i,
-                  o,
-                  "nPixelOffset",
                   n,
-                  "emIdx",
+                  i,
                   a,
+                  "nPixelOffset",
+                  d,
+                  "emIdx",
+                  r,
                   l,
                   e.getCurrentRootElement(),
                 );
@@ -432,23 +446,23 @@ var CLSTAMP = "10731156";
                 (this.m_nDirtyXMax = -1);
             }
         }
-        setPixel(e, t, s, i, r = 255) {
+        setPixel(e, t, s, i, n = 255) {
           if (
             this.m_EmbeddedDataImgRGBBuffer &&
             this.state.eRenderMode == l.Image
           ) {
-            const o = new DataView(this.m_EmbeddedDataImgRGBBuffer);
-            o.setUint8(4 * e + 0, t),
-              o.setUint8(4 * e + 1, s),
-              o.setUint8(4 * e + 2, i),
-              o.setUint8(4 * e + 3, r);
+            const a = new DataView(this.m_EmbeddedDataImgRGBBuffer);
+            a.setUint8(4 * e + 0, t),
+              a.setUint8(4 * e + 1, s),
+              a.setUint8(4 * e + 2, i),
+              a.setUint8(4 * e + 3, n);
           } else
             this.m_Pixels &&
               this.state.eRenderMode == l.Canvas &&
               ((this.m_Pixels.data[4 * e + 0] = t),
               (this.m_Pixels.data[4 * e + 1] = s),
               (this.m_Pixels.data[4 * e + 2] = i),
-              (this.m_Pixels.data[4 * e + 3] = r),
+              (this.m_Pixels.data[4 * e + 3] = n),
               (-1 === this.m_nDirtyXMin || e < this.m_nDirtyXMin) &&
                 (this.m_nDirtyXMin = e),
               (-1 === this.m_nDirtyXMax || e > this.m_nDirtyXMax) &&
@@ -457,99 +471,10 @@ var CLSTAMP = "10731156";
       }
       (m.s_Current = null),
         (m.k_EmbeddedDataRows = 1),
-        (0, i.Cg)([a.o], m.prototype, "toggleDebugPointer", null),
-        (0, i.Cg)([a.o], m.prototype, "onMouseMove", null),
-        (0, i.Cg)([a.o], m.prototype, "forceLayoutUpdate", null),
-        (0, i.Cg)([a.o], m.prototype, "onMutation", null);
-    },
-    9011: (e, t, s) => {
-      var i = s(1635),
-        r = s(3496),
-        o = s(3236);
-      class a extends r._J {
-        constructor(e) {
-          super(e), super.setBuildNodeOverride(this.buildNode);
-        }
-        getNodeType() {
-          return "tilefloor";
-        }
-        buildNode(e, t) {
-          var s, i, o, a, n, d, l;
-          const m = this.createSgNode(t);
-          if (
-            ((m.properties["tile-size"] = this.props["tile-size"]),
-            (m.properties["tile-gap"] = this.props["tile-gap"]),
-            (m.properties["inner-radius"] = this.props["inner-radius"]),
-            (m.properties["outer-radius"] = this.props["outer-radius"]),
-            (m.properties["fade-distance"] =
-              null === (s = this.props) || void 0 === s
-                ? void 0
-                : s["fade-distance"]),
-            (m.properties["min-tile-scale-at-periphery"] =
-              this.props["min-tile-scale-at-periphery"]),
-            (m.properties.height = (0, r.kJ)(this.props.height)),
-            null != this.props.offset &&
-              (m.properties.offset = [
-                null === (i = this.props.offset) || void 0 === i ? void 0 : i.x,
-                null === (o = this.props.offset) || void 0 === o ? void 0 : o.y,
-              ]),
-            "string" == typeof this.props.color)
-          )
-            m.properties.color = this.props.color;
-          else if (this.props.color) {
-            let e = (0, r.RH)(this.props.color, { r: 0, g: 0, b: 0 });
-            m.properties.color = [e.r, e.g, e.b];
-          }
-          return (
-            (m.properties["center-randomization"] =
-              null == this ? void 0 : this.props["center-randomization"]),
-            this.props["luma-randomization"] &&
-              ((m.properties["luma-randomization-min-gain"] =
-                this.props["luma-randomization"]["min-gain"]),
-              (m.properties["luma-randomization-max-gain"] =
-                this.props["luma-randomization"]["max-gain"])),
-            this.props["reflection-randomization"] &&
-              ((m.properties["reflection-randomization-min-gain"] =
-                this.props["reflection-randomization"]["min-gain"]),
-              (m.properties["reflection-randomization-max-gain"] =
-                this.props["reflection-randomization"]["max-gain"])),
-            (m.properties["normal-randomization-degrees"] =
-              null === (a = this.props) || void 0 === a
-                ? void 0
-                : a["normal-randomization-degrees"]),
-            this.props.chevron &&
-              ((m.properties["chevron-luma-scale"] =
-                this.props.chevron["luma-scale"]),
-              (m.properties["chevron-reflection-scale"] =
-                this.props.chevron["reflection-scale"])),
-            (m.properties["auto-subdivide"] =
-              null === (n = this.props) || void 0 === n
-                ? void 0
-                : n["auto-subdivide"]),
-            (m.properties["pedestal-height"] = (0, r.kJ)(
-              this.props["pedestal-height"],
-            )),
-            (m.properties["pedestal-radius"] = (0, r.kJ)(
-              this.props["pedestal-radius"],
-            )),
-            (m.properties["floor-aa-shader"] =
-              null === (d = this.props) || void 0 === d
-                ? void 0
-                : d["floor-aa-shader"]),
-            (m.properties["stable-fade"] =
-              null === (l = this.props) || void 0 === l
-                ? void 0
-                : l["stable-fade"]),
-            [e, m]
-          );
-        }
-      }
-      (0, i.Cg)([o.o], a.prototype, "buildNode", null);
-    },
-    111: (e, t, s) => {
-      s(6540);
-      var i = s(3496);
-      i._J;
+        (0, i.Cg)([r.o], m.prototype, "toggleDebugPointer", null),
+        (0, i.Cg)([r.o], m.prototype, "onMouseMove", null),
+        (0, i.Cg)([r.o], m.prototype, "forceLayoutUpdate", null),
+        (0, i.Cg)([r.o], m.prototype, "onMutation", null);
     },
   },
 ]); //# sourceMappingURL=file:///home/buildbot/buildslave/steamvr_rel_npm_vrwebui/build/public/runtime/resources/webinterface/dashboard/sourcemaps/chunk~7f75cbff5.js.map

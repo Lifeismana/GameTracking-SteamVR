@@ -25,13 +25,13 @@
  [CVRChaperoneServer] Wrote chaperone data to %s\n for persisting the universe %llu
  [IVRChaperoneServerDriver] Created and Switched to a chaperone universe %llu
  [IVRChaperoneServerDriver] Restored chaperone universe %llu
- [IVRChaperoneServerDriver] Saving the updated Chaperone file failed in TransformChaperoneAndSwitchToUniverse
- [IVRChaperoneServerDriver] Switched from chaperone universe %llu to  %llu
+ [IVRChaperoneServerDriver] Saving the updated Chaperone file failed in TransformChaperoneToCurrentMap
+ [IVRChaperoneServerDriver] Transformed chaperone universe %llu to the current map
  [IVRChaperoneServerDriver] fail to VRPaths get k_pathChaperoneStandingTransform in RestoreChaperoneUniverse
  [IVRChaperoneServerDriver] fail to find the chaperone universe %lu in RestoreChaperoneUniverse
- [IVRChaperoneServerDriver] fail to find the chaperone universe %lu in TransformChaperoneAndSwitchToUniverse
+ [IVRChaperoneServerDriver] fail to find the chaperone universe %lu in TransformChaperoneToCurrentMap
  [IVRChaperoneServerDriver] fail to load chaperone file in RestoreChaperoneUniverse
- [IVRChaperoneServerDriver] fail to load chaperone file in TransformChaperoneAndSwitchToUniverse
+ [IVRChaperoneServerDriver] fail to load chaperone file in TransformChaperoneToCurrentMap
  [IVRChaperoneServerDriver] inconsistent on the chaperone type isDefaultPerimeter %d, isChaperoneFull %d. This can happen and will continue restoring the chaperone universe if the universe id has not been changed. But it is problematic if this log repeatedly appears in a short time 
  [IVRChaperoneServerDriver] newly created chaperone can not be persisted 
  [default = $0
@@ -859,6 +859,8 @@ $\n k_EProtoServiceTypeSteamMessages
 .?AVCSteamVR_ControllerUpdate_Request_UpdateState@@
 .?AVCSteamVR_ControllerUpdate_State_Message@@
 .?AVCSteamVR_Header@@
+.?AVCSteamVR_LinkInfo@@
+.?AVCSteamVR_MultiLinkStatusUpdate_Message@@
 .?AVCSteamVR_OverlayInputFocusChanged_Message@@
 .?AVCSteamVR_PushOverlayInputFocus_Message@@
 .?AVCSteamVR_Settings_SetValue_Request@@
@@ -1458,6 +1460,7 @@ $\n k_EProtoServiceTypeSteamMessages
 /chaperone/perimeter
 /chaperone/persistent_map_from_map/transform
 /chaperone/play_area
+/chaperone/room_setup/transform
 /chaperone/room_setup_done
 /chaperone/seated/transform
 /chaperone/setup_standing/transform
@@ -1704,14 +1707,18 @@ $\n k_EProtoServiceTypeSteamMessages
 00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899"
 0123456789ABCDEF
 0123456789abcdef
-0b6*
+0A7@
+0A9@
+0D7@
+0S3@
+0d4@
 1.2.5
 1/2/4/8/16-bit only
 11 4 22 44 44 22 444444
+11:46:20
 11eU%
 127.0.0.1
 127.0.0.1:
-14:09:59
 1A26b
 1\f514
 1e+9999
@@ -1721,6 +1728,7 @@ $\n k_EProtoServiceTypeSteamMessages
 2*.google.protobuf.FieldDescriptorProto.Type
 2+.google.protobuf.FieldDescriptorProto.Label
 258EAFA5-E914-47DA-95CA-C5AB0DC85B11
+4B7@
 4\f54d
 52F*
 5I)7
@@ -1731,12 +1739,13 @@ $\n k_EProtoServiceTypeSteamMessages
 7\n\tenum_type
 7^d[L
 7~8A
+8A7@
+8A9@
 8\n\textension
 8c8f13b1-60eb-4b6a-a433-de86104115ac
 8d8f13b1-60eb-4b6a-a433-de86104115ac
 8e8f13b1-60eb-4b6a-a433-de86104115ac
 8giP9giP9giP9giP9
-8l5@
 9\n\noneof_decl
 9a&g
 : Protocol message serialized to a size different from what was originally expected.  Perhaps it was modified by another thread during serialization?
@@ -2142,6 +2151,8 @@ CSteamVR_ControllerUpdate_Request.StartUpdate
 CSteamVR_ControllerUpdate_Request.UpdateState
 CSteamVR_ControllerUpdate_State_Message
 CSteamVR_Header
+CSteamVR_LinkInfo
+CSteamVR_MultiLinkStatusUpdate_Message
 CSteamVR_OverlayInputFocusChanged_Message
 CSteamVR_PushOverlayInputFocus_Message
 CSteamVR_Settings_SetValue_Request
@@ -2387,6 +2398,7 @@ CVRServer::RunFrame/Connections
 CVRServer::RunFrame/Dead connections
 CVRServer::RunFrame/Events
 CVRServer::RunSteamFrame
+CVRServer::TrackedDevicePoseUpdated
 CVRServer::UpdateActivityLevels
 CVRServer::UpdateAudioDevices
 CVRServer::UpdateControllerRoles
@@ -2528,6 +2540,7 @@ CurrentURL
 D3DKMTEnumAdapters2
 D3DKMTQueryAdapterInfo
 D7q/;M
+DA7@
 DELEGATE 
 DISABLED
 DXGI VSync Thread ended\n
@@ -2548,7 +2561,7 @@ Default
 Default audio endpoint restored\n
 Default endpoint is correct. Skipping restore.\n
 Default value for an enum field must be an identifier.
-Delaying SteamVR Home launch because %s ran for only %f seconds\n
+Delaying NoMoreSceneAppTransition because %s ran for only %f seconds\n
 DeleteCriticalSection
 DeleteFileW
 DescriptorProto
@@ -2569,9 +2582,9 @@ Disabling
 Disabling texture compression on '%s' due to destination texture format.\n
 Discarding sequence mismatched message type: %d, sequence: %d, expected type: %d, expected sequence: %d, pipe: %s\n
 DismissedWarnings
-Dl5@
 Does not match user setting "forcedDriver" for the HMD
 Does not match user setting "forcedHmd"
+Doing NoMoreSceneAppTransition because %s exited after %f seconds\n
 DominantHand
 Driver %s claims it loaded but doesn't have a server provider\n
 Driver %s has no suitable devices.\n
@@ -2926,7 +2939,10 @@ GpuSpeed
 Guessing frequency of current display mode because SDL failed us\n
 H$6t
 H*0"ZOW
+HA9@
 HAPTICDEBUG %s:%d sec: %f\t freq: %f\t amp: %f\n
+HB7@
+HD7@
 HEAD
 HMD Not Known (202)
 HMD already in use by another application (205)
@@ -3262,7 +3278,7 @@ JFIF
 JSON Chunk end does not aligned to a 4-byte boundary.
 JSON parse error
 JSON string too short.\n
-Jun 11 2026
+Jun 24 2026
 K32EnumProcesses
 K32GetProcessImageFileNameA
 KERNEL32.dll
@@ -3520,6 +3536,12 @@ Out of thread local storage!\n
 OutputDebugStringA
 OutputDebugStringW
 Overwriting default binding file from web: %s\n
+P47@
+P57@
+P67@
+PA7@
+PA9@
+PB7@
 PCI\VEN_%x&DEV_%x&SUBSYS_%x&REV_%x
 PC_%08llx
 PICT
@@ -3580,8 +3602,6 @@ PerformApplicationPrelaunchCheck
 Permanent Redirect
 Perspective camera description not found.
 PerspectiveCamera
-Pi8@
-Pl5@
 Playback devices:\n
 PoseUpdated for invalid object ID %d\n
 PoseUpdated from driver %s (%d) for device index %d which is owned by driver %s (%d)\n
@@ -3743,6 +3763,7 @@ Prop_HmdColumnCorrectionSettingPrefix_String
 Prop_HmdTrackingStyle_Int32
 Prop_Hmd_BlankOnFramerateChange_Bool
 Prop_Hmd_EnableParallelRenderCameras_Bool
+Prop_Hmd_RecommendedResolutionPixelsSteps_Int32
 Prop_Hmd_SupportsAppThrottling_Bool
 Prop_Hmd_SupportsDisplayPortTrainingMode_Bool
 Prop_Hmd_SupportsGpuBusMonitoring_Bool
@@ -4141,10 +4162,9 @@ StartSceneApplicationTransitionFromProcess/WaitingForExternalLaunch
 StartService failed: %s
 StartServiceA
 Started auto launch dashboard %s.\n
-Starting SteamVR Home launch because %s exited after %f seconds\n
 Starting internal process %s %s (working directory %s) from app %s, pid %u. New PID %u\n
 Starting process %s %s (working directory %s) as app %s\n
-Starting vrcompositor process: %s args: %s, in folder %s\n
+Starting vrcompositor process: %s args: %s, in folder %s (escaping runtime: %s)\n
 SteamAPI_GetHSteamUser
 SteamAPI_GetSteamInstallPath
 SteamAPI_Init
@@ -5281,6 +5301,11 @@ WorkshopSelectConfig for BindingOutOfDate for %s(%s) attempt to set default bind
 WorkshopSelectConfig for BindingOutOfDate for %s(%s) when we don't have a binding at all for that controller type\n
 WriteFile
 X-Frame-Options: sameorigin\r\nContent-Security-Policy: default-src 'self'
+X37@
+XA7@
+XA9@
+XB7@
+XD7@
 XXXX PNG chunk not known
 XsBI
 YUY2
@@ -5683,7 +5708,6 @@ Zjz\v
 \r\n\tTYPE_BOOL
 \r\n\tTYPE_ENUM
 \rmj>zjZ
-\rp\f`\vP\n0 6*
 \t%s%s,%u,%s,%s,VID_%04X/PID_%04X,%s,%s\n
 \t\t\n\n\v\v\f\f\f\f\r\r\r\r
 \t\t\t\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r
@@ -6065,6 +6089,7 @@ c:\buildslave\steamvr_rel_win64\build\src\vrserver\Retail\win64\2017\vrserver.pd
 c:\buildslave\steamvr_rel_win64\build\src\vrserver\appinfomanager.cpp
 c:\buildslave\steamvr_rel_win64\build\src\vrserver\vrinputserver.cpp
 c:\buildslave\steamvr_rel_win64\build\src\vrserver\vrserver.cpp
+c:\buildslave\steamvr_rel_win64\build\src\vrserver\vrserver.cpp:5554
 c:\buildslave\steamvr_rel_win64\build\src\vrserver\webinterface\web_input.cpp
 c:\buildslave\steamvr_rel_win64\build\src\vrserver\webinterface\web_mailbox.cpp
 c:\buildslave\steamvr_rel_win64\build\src\vrserver\webinterface\web_server_thread.cpp
@@ -6183,6 +6208,7 @@ current_transforms_without_controller
 current_user_persona_name
 custom
 czech
+dB7@
 dQy/
 da_dk
 danish
@@ -6489,6 +6515,9 @@ grip
 grip_limit_transforms
 group
 guid
+hA7@
+hA9@
+hD7@
 hPU3
 half_thresholds
 hand_interaction_ext
@@ -6514,7 +6543,6 @@ hex_property
 hidden
 hide_callout
 hide_dashboard_requested
-hl5@
 hlvr/mailbox
 hlvr/webui
 hmdAllowsClientToControlTextureIndex
@@ -7139,6 +7167,9 @@ overlays
 override_throttling
 overwrite.vrsettings
 owned
+p37@
+pA7@
+pB7@
 pBegin == pEnd
 pEnd > pBegin
 pMGConnect != nullptr
@@ -7150,6 +7181,7 @@ pProcessId
 pQueue->GetMetaContainerHandle() == ulExistingQueue
 pSharedState != nullptr
 pUrl != nullptr
+pW5@
 pWebSocketMessage
 package
 packed
@@ -7169,7 +7201,6 @@ path_handle
 path_handles
 paths
 payload
-pb6*
 pbrMetallicRoughness
 pending_file_saved
 perfcheck
@@ -7270,6 +7301,7 @@ readytoupdate
 realloc
 reason
 reboothmd
+recommended_resolution_pixels_steps
 record_devices
 recording
 recordingDeviceOverride
@@ -7570,6 +7602,7 @@ system.vrresources
 systemreport_
 systemreport_*.html
 systemreport_template.html
+tA9@
 tRNS after IDAT
 tRNS before PLTE
 tRNS with alpha
@@ -7606,7 +7639,6 @@ thumbstick_settings_%s
 thumbstick_system_override
 time
 timeout_seconds
-tl5@
 tls:
 toType
 to_controller_type
@@ -7844,8 +7876,10 @@ wrong version
 ws handshake error
 wss:
 x-steamvr-secret
+xD7@
 x_path
 xdigit
+xf4@
 xmag
 y9*O
 y_path

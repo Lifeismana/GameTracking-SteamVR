@@ -1259,10 +1259,10 @@
 "HeadsetView_DebugCommands" "Open Debug Commands"
 
 "LinkType_link_unknown" "Unknown Link Type"
-"LinkType_link_usb" "USB Connection"
-"LinkType_link_dongle" "Wireless Streaming Adapter"
-"LinkType_link_wired_to_router" "PC Wired To Router"
-"LinkType_linkwireless_to_router" "PC Wirelessly Connected to Router"
+"LinkType_link_usb" "Wired USB"
+"LinkType_link_dongle" "Wireless Adapter"
+"LinkType_link_wired_to_router" "Wi-Fi Connection"
+"LinkType_linkwireless_to_router" "Wi-Fi Connection"
 
 "LinkQuality_linkquality_none" "No Link Status"
 "LinkQuality_linkquality_good" "Link Online"

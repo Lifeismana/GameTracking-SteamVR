@@ -90,7 +90,7 @@ IsProcessorFeaturePresent
 KERNEL32.dll
 MSVCP140.dll
 QueryPerformanceCounter
-RSDS
+RSDS3
 SetUnhandledExceptionFilter
 TerminateProcess
 UnhandledExceptionFilter
@@ -149,7 +149,6 @@ memset
 modelNumber
 renderHeight
 renderWidth
-s[CM
 secondsFromVsyncToPhotons
 serialNumber
 steamvr

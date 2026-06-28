@@ -14,7 +14,7 @@ log () {
 
 # Re-exec through vrenv.sh first if necessary, which sets up scout LD_* and additional VR environment
 VRBINDIR=$(cd $(dirname $0)/../../../bin; pwd)
-[[ -n $STEAMVR_VRENV ]] || ( log "re-exec through vrenv.sh" ; exec "$VRBINDIR/vrenv.sh" "$0" "$@" )
+[[ -n ${STEAMVR_VRENV:-} ]] || ( log "re-exec through vrenv.sh" ; exec "$VRBINDIR/vrenv.sh" "$0" "$@" )
 
 # Tell run.sh to add the current working directory to the search path
 export STEAM_COMPAT_FLAGS=search-cwd,search-cwd-first

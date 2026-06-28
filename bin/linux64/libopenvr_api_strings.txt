@@ -39,7 +39,6 @@
 .config
 0123456789
 1e+9999
-6zSW
 : exception thrown in JSON library
 A valid JSON document must be either an array or an object value.
 A wireless HMD driver is present, but the wireless HMD has not connected and Steam is not running (216)

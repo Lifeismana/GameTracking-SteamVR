@@ -1,5 +1,7 @@
 [
     {
-        "language_tag": "pt_BR"
+        "language_tag": "pt_BR",
+        "frame_controller": "Controle do Steam Frame",
+        "/input/thumbrest": "Toque na face do controle"
     }
 ]
