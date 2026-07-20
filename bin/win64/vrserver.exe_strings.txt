@@ -32,7 +32,6 @@
  [IVRChaperoneServerDriver] fail to find the chaperone universe %lu in TransformChaperoneToCurrentMap
  [IVRChaperoneServerDriver] fail to load chaperone file in RestoreChaperoneUniverse
  [IVRChaperoneServerDriver] fail to load chaperone file in TransformChaperoneToCurrentMap
- [IVRChaperoneServerDriver] inconsistent on the chaperone type isDefaultPerimeter %d, isChaperoneFull %d. This can happen and will continue restoring the chaperone universe if the universe id has not been changed. But it is problematic if this log repeatedly appears in a short time 
  [IVRChaperoneServerDriver] newly created chaperone can not be persisted 
  [default = $0
  args were given.  Full format string was: "
@@ -575,6 +574,7 @@ $\n k_EProtoServiceTypeSteamMessages
 .?AV<lambda_32ab21fb4e7efba0acf29e33f6c858a1>@@
 .?AV<lambda_36710ba34f60850543e95844aec2da55>@@
 .?AV<lambda_45fcc9f7a815f8703b7436c6199a5bc6>@@
+.?AV<lambda_53e6ea7c4a5169009148711c76958a89>@@
 .?AV<lambda_546a552fb27e114be7daaf2115f17be0>@@
 .?AV<lambda_5cb07d87fbb143573f0e5b51176c2232>@@
 .?AV<lambda_6621ce4ccffe91b6d8f57693eb1c2db2>@@
@@ -599,7 +599,6 @@ $\n k_EProtoServiceTypeSteamMessages
 .?AV<lambda_d8999f150ee7b7e4efc727f6848c8d54>@@
 .?AV<lambda_d9c8d5500ac3dfddb02459f8a53a1949>@@
 .?AV<lambda_dcd68f11e779e636b3af35198369d081>@@
-.?AV<lambda_e0969029e04896eaab2bf0a64e90ac01>@@
 .?AV<lambda_e8ce496b76c74e3642517b6b1e5cdb64>@@
 .?AV<lambda_f4f5e2f072afd4a5de41e85075878c7c>@@
 .?AV<lambda_fab710b62b81549586ca05ec44e81204>@@
@@ -619,9 +618,13 @@ $\n k_EProtoServiceTypeSteamMessages
 .?AV?$CCallResult@VCTaskUpdateBindingAutosave@@USubmitItemUpdateResult_t@@@@
 .?AV?$CCallResult@VCWebSettings@@USteamUGCQueryCompleted_t@@@@
 .?AV?$CCallback@VCSteamWorker@@USteamShutdown_t@@$0A@@@
+.?AV?$CCallback@VCVRStatsTracker@@UGameStatsSessionClosed_t@@$0A@@@
+.?AV?$CCallback@VCVRStatsTracker@@UGameStatsSessionIssued_t@@$0A@@@
 .?AV?$CCallbackImpl@$00@@
 .?AV?$CCallbackImpl@$0BA@@@
 .?AV?$CCallbackImpl@$0BI@@@
+.?AV?$CCallbackManual@VCVRStatsTracker@@UGameStatsSessionClosed_t@@$0A@@@
+.?AV?$CCallbackManual@VCVRStatsTracker@@UGameStatsSessionIssued_t@@$0A@@@
 .?AV?$ComponentAdapterBaseNoParent@VIVRCameraComponent001@@$1?k_pchCameraComponentPrefix@@3PADA$00VCVRCameraComponent_001@@@@
 .?AV?$ComponentAdapterBaseNoParent@VIVRControllerComponent@vr@@$1?k_pchControllerComponentPrefix@@3PADA$00VCVRControllerComponent_Latest@@@@
 .?AV?$ComponentAdapterBaseNoParent@VIVRDisplayComponent001@@$1?k_pchDisplayComponentPrefix@@3PADA$00VCVRDisplayComponent_001@@@@
@@ -660,6 +663,7 @@ $\n k_EProtoServiceTypeSteamMessages
 .?AV?$TypeInfoT@VObject@Reflection@@@Detail@Reflection@@
 .?AV?$_Binder@U_Unforced@std@@P8CVRInputServer@@EAAXAEBVValue@Json@@@ZPEAV3@AEBU?$_Ph@$00@2@@std@@
 .?AV?$_Binder@U_Unforced@std@@P8CVRMailbox@@EAAXAEBVValue@Json@@@ZPEAV3@AEBU?$_Ph@$00@2@@std@@
+.?AV?$_Binder@U_Unforced@std@@P8CVRStatsTracker@@EAAXAEBVValue@Json@@@ZPEAV3@AEBU?$_Ph@$00@2@@std@@
 .?AV?$_Func_base@PEAXPEBD@std@@
 .?AV?$_Func_base@UResult_t@?A0x94e1095d@@AEBU12@@std@@
 .?AV?$_Func_base@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBV12@PEAX@std@@
@@ -713,6 +717,7 @@ $\n k_EProtoServiceTypeSteamMessages
 .?AV?$_Func_impl_no_alloc@V<lambda_32ab21fb4e7efba0acf29e33f6c858a1>@@XAEBVValue@Json@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_36710ba34f60850543e95844aec2da55>@@XAEBVCSteamVR_Settings_SetValue_Request@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_45fcc9f7a815f8703b7436c6199a5bc6>@@_NAEBUHmdVector3_t@vr@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_53e6ea7c4a5169009148711c76958a89>@@XAEBVValue@Json@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_546a552fb27e114be7daaf2115f17be0>@@XAEBVValue@Json@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_5cb07d87fbb143573f0e5b51176c2232>@@_NAEBUHmdVector3_t@vr@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_6621ce4ccffe91b6d8f57693eb1c2db2>@@_NAEBUHmdVector3_t@vr@@@std@@
@@ -737,12 +742,12 @@ $\n k_EProtoServiceTypeSteamMessages
 .?AV?$_Func_impl_no_alloc@V<lambda_d8999f150ee7b7e4efc727f6848c8d54>@@_NAEBUHmdVector3_t@vr@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_d9c8d5500ac3dfddb02459f8a53a1949>@@X$$QEAUBindingFileOption_t@@_N@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_dcd68f11e779e636b3af35198369d081>@@XAEBVValue@Json@@@std@@
-.?AV?$_Func_impl_no_alloc@V<lambda_e0969029e04896eaab2bf0a64e90ac01>@@XAEBVValue@Json@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_e8ce496b76c74e3642517b6b1e5cdb64>@@VValue@Json@@PEBE@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_f4f5e2f072afd4a5de41e85075878c7c>@@X$$QEAUBindingFileOption_t@@_N@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_fab710b62b81549586ca05ec44e81204>@@_NW4ETrackedDeviceClass@vr@@@std@@
 .?AV?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8CVRInputServer@@EAAXAEBVValue@Json@@@ZPEAV3@AEBU?$_Ph@$00@2@@std@@XAEBVValue@Json@@@std@@
 .?AV?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8CVRMailbox@@EAAXAEBVValue@Json@@@ZPEAV3@AEBU?$_Ph@$00@2@@std@@XAEBVValue@Json@@@std@@
+.?AV?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8CVRStatsTracker@@EAAXAEBVValue@Json@@@ZPEAV3@AEBU?$_Ph@$00@2@@std@@XAEBVValue@Json@@@std@@
 .?AV?$_Iosb@H@std@@
 .?AV?$_LaunchPad@V?$unique_ptr@V?$tuple@P8CPoseExtrapolator@@EAAXXZPEAV1@@std@@U?$default_delete@V?$tuple@P8CPoseExtrapolator@@EAAXXZPEAV1@@std@@@2@@std@@@std@@
 .?AV?$_LaunchPad@V?$unique_ptr@V?$tuple@P8CRemotePerfStats@@EAAXXZPEAV1@@std@@U?$default_delete@V?$tuple@P8CRemotePerfStats@@EAAXXZPEAV1@@std@@@2@@std@@@std@@
@@ -1012,8 +1017,6 @@ $\n k_EProtoServiceTypeSteamMessages
 .?AVCVRMsg_GetDisplayInfo@@
 .?AVCVRMsg_GetDisplayInfoResponse@@
 .?AVCVRMsg_GetDisplayInfoResponse_DisplayInfo@@
-.?AVCVRMsg_GetDriverDetail@@
-.?AVCVRMsg_GetDriverDetailResponse@@
 .?AVCVRMsg_GetDriverInfo@@
 .?AVCVRMsg_GetDriverInfoResponse@@
 .?AVCVRMsg_GetDriverInfoResponse_DriverInfo@@
@@ -1467,7 +1470,6 @@ $\n k_EProtoServiceTypeSteamMessages
 /chaperone/showing_working_pid
 /chaperone/standing/transform
 /chaperone/state
-/chaperone/temporary_playing_outside_playspace_time
 /click
 /client_info/app_key
 /client_info/app_type
@@ -1504,6 +1506,7 @@ $\n k_EProtoServiceTypeSteamMessages
 /force
 /fullsettings.json
 /generation
+/gpudriverversion
 /grip_limit
 /haptic
 /index.html
@@ -1623,6 +1626,9 @@ $\n k_EProtoServiceTypeSteamMessages
 /simactions/
 /skeleton/hand/left
 /skeleton/hand/right
+/startup_app_id
+/startup_app_type
+/startup_exe_name
 /startup_reason
 /steam/is_running
 /steam/vr_connection_ready
@@ -1707,18 +1713,16 @@ $\n k_EProtoServiceTypeSteamMessages
 00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899"
 0123456789ABCDEF
 0123456789abcdef
-0A7@
-0A9@
-0D7@
-0S3@
-0d4@
+055@
+0b5@
+0d5@
 1.2.5
 1/2/4/8/16-bit only
 11 4 22 44 44 22 444444
-11:46:20
 11eU%
 127.0.0.1
 127.0.0.1:
+14:58:52
 1A26b
 1\f514
 1e+9999
@@ -1728,7 +1732,6 @@ $\n k_EProtoServiceTypeSteamMessages
 2*.google.protobuf.FieldDescriptorProto.Type
 2+.google.protobuf.FieldDescriptorProto.Label
 258EAFA5-E914-47DA-95CA-C5AB0DC85B11
-4B7@
 4\f54d
 52F*
 5I)7
@@ -1739,13 +1742,14 @@ $\n k_EProtoServiceTypeSteamMessages
 7\n\tenum_type
 7^d[L
 7~8A
-8A7@
-8A9@
 8\n\textension
 8c8f13b1-60eb-4b6a-a433-de86104115ac
+8d5@
 8d8f13b1-60eb-4b6a-a433-de86104115ac
 8e8f13b1-60eb-4b6a-a433-de86104115ac
 8giP9giP9giP9giP9
+8l3@
+8v6@
 9\n\noneof_decl
 9a&g
 : Protocol message serialized to a size different from what was originally expected.  Perhaps it was modified by another thread during serialization?
@@ -1931,11 +1935,13 @@ Aborting kill all because master process %s restarted\n
 Accept-Encoding
 Accepted
 Accessor
+AccountIDPlayer
 Action Set names may not be empty
 Action names may not be empty
 Action paths must take the form '/actions/<action set>/in|out/<action>'. "
 Active HMD set to %s.%s\n
 ActualHMDDriver
+ActualTrackingSystemID
 Add Json firmware manifest from %s\n
 AddAccessAllowedAce
 AddBool
@@ -1965,7 +1971,12 @@ AnimationChannel
 Another app was already launching (117)
 Another copy of this program is already running on this machine. Only one instance at a time is allowed.
 App %s wasn't found in shared memory despite being in the map. SetApplicationOptions failed\n
+App Performance Stats:\n
 App info manager init failed (114)
+AppHeadsetActiveSeconds
+AppHeadsetActiveSeconds: %f\n
+AppID
+AppID: %d\n
 AppInfoManager.ProcessConnected BEGIN %d %s %d %s\n
 AppInfoManager.ProcessConnected END\n
 AppInfoManager.ProcessDisconnected processid=%d eLaunchingApp=%s\n
@@ -1974,6 +1985,8 @@ AppInfoManager.ProcessDisconnected: Clearing application %s PID was %u\n
 AppInfoManager.RunFrame: Clearing application %s PID because bMarkNotRunning (was %u)\n
 AppInfoManager.StartSceneApplicationTransitionFromProcess: Found app info for starting key %s\n
 AppInfoManager.StartSceneApplicationTransitionFromProcess: No app info for starting key %s, unStartingProcessId=%d\n
+AppSeconds
+AppSeconds: %f\n
 AppTransition: Aborting external launch because of timeout after %g seconds\n
 Apps - Completed simple quit transition with exit of %u\n
 Apps - Initiated %s quit transition for %u\n
@@ -1997,6 +2010,18 @@ AvRevertMmThreadCharacteristics
 AvRevertMmThreadCharacteristics failed: last error is %d\n
 AvSetMmThreadCharacteristics failed: last error = %u
 AvSetMmThreadCharacteristicsA
+AvgApplicationCPUTimeMS
+AvgApplicationCPUTimeMS: %f\n
+AvgApplicationGPUTimeMS
+AvgApplicationGPUTimeMS: %f\n
+AvgCompositorCPUTimeMS
+AvgCompositorCPUTimeMS: %f\n
+AvgCompositorGPUTimeMS
+AvgCompositorGPUTimeMS: %f\n
+AvgSubmitsPerFrame
+AvgSubmitsPerFrame: %f\n
+AvgTargetFPS
+AvgTargetFPS: %f\n
 BC4S
 BC4U
 BC5S
@@ -2013,14 +2038,21 @@ Bad Request
 Bad escape sequence in string
 Bad unicode escape sequence in string: four digits expected.
 Bad unicode escape sequence in string: hexadecimal digit expected.
+BaseStationPowerManagementEnabled
+BasestationCount
+BasestationSyncType
+BetaBranchName
 Binding config missing required 'bindings' member
 Binding config missing required 'controller_type' member
 BlockQueueHeaderMutex_
 BlockQueueHeader_
 Blocking driver %s attempt to set setting %s/%s
+BluetoothEnabled
 Boolean default must be true or false.
+BoundsVisibleTime
 Buffer
 BufferView
+BuildID
 Byte size calculation and serialization were inconsistent.  This may indicate a bug in protocol buffers or it may be caused by concurrent modification of the message.
 C-Yn
 CAnimResource
@@ -2266,8 +2298,6 @@ CVRMsg_GetApplicationLaunchArgumentsResponse
 CVRMsg_GetDisplayInfo
 CVRMsg_GetDisplayInfoResponse
 CVRMsg_GetDisplayInfoResponse.DisplayInfo
-CVRMsg_GetDriverDetail
-CVRMsg_GetDriverDetailResponse
 CVRMsg_GetDriverInfo
 CVRMsg_GetDriverInfoResponse
 CVRMsg_GetDriverInfoResponse.DriverInfo
@@ -2416,6 +2446,8 @@ CWebThread::OnMsg_RegisterExternalWebRoot
 CWebThread::WriteStringToWebSocket
 Caching webfonts.\n
 Camera
+CameraEnabled
+CameraRequiresRecovery
 Can't 
 Can't add a second HMD
 Can't add device %s.%s: %s\n
@@ -2436,6 +2468,7 @@ Changing app type for %s: Refusing illegal change from %s to %s\n
 Changing app type for %s: Transition from %s to %s\n
 Chaperone Universe was missing ID\n
 CheckTokenMembership
+Checking input type %s::%s for path (%s)\n
 Chord for %s had %d bindings, which we don't know how to deal with yet\n
 Cleaning up audio defaults\n
 Cleaning up launching app %u\n
@@ -2486,6 +2519,8 @@ ControlService
 ControlService failed: %s
 Controller
 Controller (%s) not available for input to chord, ignoring chord\n
+ControllerButtonPresses
+ControllerModelId%d
 ConvertStringSecurityDescriptorToSecurityDescriptorW
 ConvertStringSecurityDescriptorToSecurityDescriptorW failed while creating pipe %s\n
 ConvertStringSidToSidA
@@ -2508,6 +2543,7 @@ Could not parse Origin URI when checking if request is allowed. Rejecting
 Couldn't find '%s' resource map entry for process %d.
 Couldn't find action %s. Ignoring it.\n
 Couldn't parse default value "
+CpuNameID
 CreateDXGIFactory1
 CreateDXGIFactory2
 CreateDirectoryW
@@ -2540,7 +2576,6 @@ CurrentURL
 D3DKMTEnumAdapters2
 D3DKMTQueryAdapterInfo
 D7q/;M
-DA7@
 DELEGATE 
 DISABLED
 DXGI VSync Thread ended\n
@@ -2556,6 +2591,7 @@ DXT2
 DXT3
 DXT4
 DXT5
+DashboardVisibleTime
 DebuggerEnabled
 Default
 Default audio endpoint restored\n
@@ -2582,6 +2618,7 @@ Disabling
 Disabling texture compression on '%s' due to destination texture format.\n
 Discarding sequence mismatched message type: %d, sequence: %d, expected type: %d, expected sequence: %d, pipe: %s\n
 DismissedWarnings
+DisplayFrequency
 Does not match user setting "forcedDriver" for the HMD
 Does not match user setting "forcedHmd"
 Doing NoMoreSceneAppTransition because %s exited after %f seconds\n
@@ -2657,6 +2694,7 @@ Error: Failure reading weights from file: %s
 Error: Invalid audio devices helper. Can't cleanup\n
 Error: LiquidVR ALVRDisplayManager::RegisterHiddenDisplay failed (%d)\n
 Error: failed to remove audio mirror device\n
+ErrorCode
 Errors when parsing manifest file list %s:\n%s\n
 EventRegister
 EventUnregister
@@ -2709,6 +2747,11 @@ Failed Watchdog timeout in thread %s after %f seconds\n
 Failed to Defer Command Job
 Failed to LiquidVR::D3D11CreateDeviceHP3D (Error = %d) (pD3D11Device is %svalid) / Feature Level: %d\n
 Failed to WaitForConnection on pipe %s because %s\n
+Failed to add OGS row because of parse errors\n
+Failed to add OGS row because request had no fields field\n
+Failed to add OGS row because request had no table field\n
+Failed to add OGS row because request's fields field was not an object\n
+Failed to add OGS session row because of parse errors\n
 Failed to allocate new VRCompositor image: format=%u dimensions=%ux%u\n
 Failed to allocate new VRCompositor semaphore\n
 Failed to connect to pipe %s because %s... retrying
@@ -2832,8 +2875,9 @@ FileTimeToSystemTime
 Files that do not use optimize_for = LITE_RUNTIME cannot import files which do use this option.  This file is not lite, but it imports "
 Files with optimize_for = LITE_RUNTIME cannot define services unless you set both options cc_generic_services and java_generic_sevices to false.
 Filter list was too gnarly. Not sorting the last %d filters\n
-FilterInputSourceName: Default flip: %s::%s\n
-FilterInputSourceName: Explicit flip: %s::%s\n
+FilterInputSourceName(%s). Mode: %s.  result: %s\n
+FilterInputSourceName: Default flip: from %s to %s\n
+FilterInputSourceName: Explicit flip: from %s to %s\n
 FilterInputSourceName: No flip: %s\n
 FilterInputSourceName: m_eDominantHand(%d) != left.  skip:%s\n
 FindClose
@@ -2862,6 +2906,8 @@ FreeTexture called with %p which has a zero refcount.\n
 Freeing RM %s because it is out of references.\n
 Freeing texture %s because it is out of references.\n
 GRGB
+GamepadButtonPresses
+GamepadsFound
 Gateway Timeout
 Generic tracker %u didn't have %s set\n
 GetACP
@@ -2918,6 +2964,7 @@ GetStartupInfoW
 GetString
 GetStringReference
 GetSystemDirectoryW
+GetSystemPowerStatus
 GetSystemTime
 GetSystemTimeAsFileTime
 GetTickCount
@@ -2935,14 +2982,16 @@ GlobalFree
 Gone
 Got 0 formats from VRMsg_CompositorImportDmaBuf.
 Got 0 modifiers from VRMsg_CompositorImportDmaBuf.
+GpuNameID
 GpuSpeed
+GraphicsDriver
 Guessing frequency of current display mode because SDL failed us\n
 H$6t
 H*0"ZOW
-HA9@
+H55@
+HAGS
+HAGS: %s\n
 HAPTICDEBUG %s:%d sec: %f\t freq: %f\t amp: %f\n
-HB7@
-HD7@
 HEAD
 HMD Not Known (202)
 HMD already in use by another application (205)
@@ -2981,15 +3030,19 @@ HTTP/1.1 302 OK\r\nLocation: /%s\r\n\r\n
 HTTP_REQUEST %s
 HTTP_REQUEST Static Content %s
 Hang the server for the specified number of seconds (default 3600)
+HasCamera
 HasField
+HeadsetActiveTime
 Hex and octal numbers must be integers.
 Hmd DriverId is invalid (125)
 Hmd DriverId is our of bounds (211)
 Hmd Not Found (108)
 Hmd Not Found Presence Failed (126)
 HmdDriverFactory
+HomeAppEnabled
 HostController
 How did we get here with a non-position slot?
+HwSchMode
 I'm a teapot
 IAudioCaptureClient::GetBuffer failed on pass %u: hr = 0x%08x\n
 IAudioCaptureClient::GetBuffer said to read 0 frames on pass %u\n
@@ -3229,7 +3282,7 @@ Invalid full path for input profile
 Invalid glTF binary.
 Invalid glTF binary. GLB data exceeds 4GB.
 Invalid image data for image[
-Invalid input type %s for controller (%s)\n
+Invalid input type %s::%s for path (%s)\n
 Invalid magic.
 Invalid output hand 
 Invalid parameter
@@ -3252,6 +3305,7 @@ Invalid wire type for CPPTYPE_MESSAGE:
 Invalid wire type for CPPTYPE_UINT32: 
 Invalid wire type for CPPTYPE_UINT64: 
 IsDebuggerPresent
+IsOnLaptop
 IsProcessorFeaturePresent
 IsValidSid
 Item %s in "chords" array invalid input type given modes selected (%s, %s)\n
@@ -3278,13 +3332,15 @@ JFIF
 JSON Chunk end does not aligned to a 4-byte boundary.
 JSON parse error
 JSON string too short.\n
-Jun 24 2026
+JoysticksFound
+Jul 17 2026
 K32EnumProcesses
 K32GetProcessImageFileNameA
 KERNEL32.dll
 KHR_audio
 KHR_lights_punctual
 Kernel32.dll
+KeyboardVisibleTime
 Kill process %s because it didn't quit in time\n
 Kill process?
 LABEL_OPTIONAL
@@ -3304,6 +3360,7 @@ LaunchingApp_ExternalLaunch
 LaunchingApp_Key
 LaunchingApp_None
 LaunchingApp_Process
+Lb5@
 LeaveCriticalSection
 LeftController
 Length Required
@@ -3387,6 +3444,7 @@ MacOS 10.6.7
 MacOS 10.7
 MacOS 10.8
 MacOS 10.9
+MachineHash
 Mailbox %s isn't registered, but is receiving unhandled message notifications
 Mailbox %s received message %s, which it didn't have a handler for\n
 Mailbox group %s is longer than the %u limit.\n
@@ -3425,7 +3483,9 @@ Missing field: FileDescriptorProto.name.
 Missing font file
 Missing font key
 Missing name.
+ModelNumberID
 Mongoose %.32s: %s
+MotionSmoothing
 MoveFileExW
 Moved Permanently
 Multi-Status
@@ -3461,6 +3521,7 @@ No default value
 No field named "uninterpreted_option" in the Options proto.
 No image for this app
 No log file found.
+No matPersistentMapFromMap in VRPath, use the identity
 Node has extension KHR_audio, but does not reference a audio emitter.\n
 Node has extension KHR_lights_punctual, but does not reference a light source.\n
 Node has extension MSFT_lod, but does not reference other nodes via their ids.\n
@@ -3484,8 +3545,39 @@ Not loading driver %s because it is disabled in settings\n
 Not loading driver %s because it was blocked by a previous safe mode event\n
 Not starting vrserver for background app (121)
 Note that enum values use C++ scoping rules, meaning that enum values are siblings of their type, not children of it.  Therefore, "
+NotificationCount
 Notification_BasestationsTooFarApart
 Notification_Detected
+NumDroppedFrames
+NumDroppedFrames: %d\n
+NumDroppedFramesLoading
+NumDroppedFramesLoading: %d\n
+NumDroppedFramesOnStartup
+NumDroppedFramesOnStartup: %d\n
+NumDroppedFramesTimedOut
+NumDroppedFramesTimedOut: %d\n
+NumFramePresents
+NumFramePresents: %d\n
+NumFramePresentsLoading
+NumFramePresentsLoading: %d\n
+NumFramePresentsOnStartup
+NumFramePresentsOnStartup: %d\n
+NumFramePresentsTimedOut
+NumFramePresentsTimedOut: %d\n
+NumFramesWithDepth
+NumFramesWithDepth: %d\n
+NumLoading
+NumLoading: %d\n
+NumReprojected
+NumReprojected: %d\n
+NumReprojectedFramesLoading
+NumReprojectedFramesLoading: %d\n
+NumReprojectedFramesOnStartup
+NumReprojectedFramesOnStartup: %d\n
+NumReprojectedFramesTimedOut
+NumReprojectedFramesTimedOut: %d\n
+NumTimedOut
+NumTimedOut: %d\n
 Numbers starting with leading zero must be in octal.
 NvAPI
 NvAPI DisplayModes:
@@ -3498,6 +3590,8 @@ O*9y]
 OOM %s
 OPAQUE
 OS made HMD audio %s endpoint default (%s). Taking responsibility for restoring the previous default. %s\n
+OSBuild
+OSType
 OZw3(?
 Object
 OculusSDKStart for %s\n
@@ -3536,19 +3630,15 @@ Out of thread local storage!\n
 OutputDebugStringA
 OutputDebugStringW
 Overwriting default binding file from web: %s\n
-P47@
-P57@
-P67@
-PA7@
-PA9@
-PB7@
 PCI\VEN_%x&DEV_%x&SUBSYS_%x&REV_%x
 PC_%08llx
 PICT
 PID_
+PL0@
 PLACEHOLDER_VALUE
 PNG\r\n
 POST
+PR9@
 PRISM_AcquireDisplay
 PRISM_ActivateRenderGraph
 PRISM_ClientDisconnected
@@ -3586,6 +3676,7 @@ PRISM_SetDisplayMode
 PRISM_SetFrameInfoCallback
 PRISM_Shutdown
 PRISM_Stop
+PW9@
 Parse error in system resource manifest %s.\n
 Parse failed
 Parse failed for JSON message in mailbox %s: %s\n
@@ -3596,18 +3687,23 @@ Path not found
 Path_Exists( absFilePath )
 Payload Too Large
 Payment Required
+Pb5@
+Pc5@
 Pe6^
 PeekNamedPipe
 PerformApplicationPrelaunchCheck
 Permanent Redirect
 Perspective camera description not found.
 PerspectiveCamera
+PlayAreaHeight
+PlayAreaWidth
 Playback devices:\n
 PoseUpdated for invalid object ID %d\n
 PoseUpdated from driver %s (%d) for device index %d which is owned by driver %s (%d)\n
 Positional emitter description not found.
 PowerOffTrackedDevice for %d - Could not find driver\n
 PowerOffTrackedDevice for %d\n
+Powersave
 Precondition Failed
 Precondition Required
 PreviousURL
@@ -3761,8 +3857,10 @@ Prop_HasDriverDirectModeComponent_Bool
 Prop_HasVirtualDisplayComponent_Bool
 Prop_HmdColumnCorrectionSettingPrefix_String
 Prop_HmdTrackingStyle_Int32
+Prop_Hmd_AppPreferencesSectionName_String
 Prop_Hmd_BlankOnFramerateChange_Bool
 Prop_Hmd_EnableParallelRenderCameras_Bool
+Prop_Hmd_RecommendedResolutionIsPerApp_Bool
 Prop_Hmd_RecommendedResolutionPixelsSteps_Int32
 Prop_Hmd_SupportsAppThrottling_Bool
 Prop_Hmd_SupportsDisplayPortTrainingMode_Bool
@@ -3845,6 +3943,7 @@ Protocol Buffer reflection usage error:\n  Method      : google::protobuf::Refle
 Protocol message serialized itself in invalid fashion.
 Protocol message was modified concurrently during serialization.
 Proxy Authentication Required
+Pv6@
 QkkXa
 Qkkbal
 Query failed
@@ -3900,6 +3999,7 @@ Refusing to add binding to %s from a sim action in %s and a mode in %s\n
 Refusing to quit pid 0.\n
 RegCloseKey
 RegEnumValueW
+RegGetValueA
 RegGetValueW
 RegOpenKeyA
 RegOpenKeyExA
@@ -3979,7 +4079,9 @@ SDL_GetDisplayBounds
 SDL_GetDisplayName
 SDL_GetNumVideoDisplays
 SDL_Init
+SDL_IsGameController
 SDL_MAC_BACKGROUND_APP
+SDL_NumJoysticks
 SDL_QuitSubSystem
 SDL_SetHint
 SDL_VIDEO_ALLOW_SCREENSAVER
@@ -4021,7 +4123,10 @@ STEAMVR_ENABLE_THREAD_WATCHDOGS
 STEAMVR_GPUVIS_ON_ASSERT
 STEAMVR_VERBOSE_HAPTIC_LOG
 STRING
+SafeMode
 Save failed
+SeatedResetViaAPICallCount
+SeatedResetViaSystemMenuCount
 Sec-WebSocket-Key
 Sec-WebSocket-Protocol
 Sec-WebSocket-Protocol: %.*s\r\n
@@ -4041,6 +4146,8 @@ Service start pending...
 Service started successfully.
 ServiceDescriptorProto
 ServiceOptions
+SessionID
+SessionTime
 Set thread %p priority to: %d\n
 SetAllocatedMessage
 SetApplicationPid
@@ -4092,6 +4199,7 @@ SettingsCamera_Compatibility_Value
 SettingsVideo_SupersamplingCurrentMetrics
 SettingsVideo_SupersamplingDefaultMetrics
 SetupDiBuildDriverInfoList
+SetupDiClassGuidsFromNameW
 SetupDiCreateDeviceInfoListExA
 SetupDiDestroyDeviceInfoList
 SetupDiEnumDeviceInfo
@@ -4126,6 +4234,7 @@ Shutting down server after %0.1f seconds. Recent Disconnect: %s; Waiting for con
 Simulated action 
 Skin
 Skipping OS external driver %s because it is not a directory\n
+Skipping add_ogs_row field %s because we don't support that type of field\n
 Skipping audio %s %s endpoint because it was not changed by SteamVR (%s)\n
 Skipping driver "%s".  Manifest file exists but is invalid.\n
 Skipping driver load for application %s because it is a utility\n
@@ -4165,6 +4274,14 @@ Started auto launch dashboard %s.\n
 Starting internal process %s %s (working directory %s) from app %s, pid %u. New PID %u\n
 Starting process %s %s (working directory %s) as app %s\n
 Starting vrcompositor process: %s args: %s, in folder %s (escaping runtime: %s)\n
+StartupAppId
+StartupApplicationType
+StartupExeName
+StartupReason
+Steam logging invalid\n
+Steam logging not valid\n
+Steam logging valid: %s\n
+SteamAPI_GetHSteamPipe
 SteamAPI_GetHSteamUser
 SteamAPI_GetSteamInstallPath
 SteamAPI_Init
@@ -4181,11 +4298,14 @@ SteamAPI_UnregisterCallback
 SteamAPI_UseBreakpadCrashHandler
 SteamAPI_WriteMiniDump
 SteamAppId
+SteamClient020
 SteamController008
 SteamFriends017
 SteamGameId
+SteamGameStats001
 SteamInput006
 SteamInternal_ContextInit
+SteamInternal_CreateInterface
 SteamInternal_FindOrCreateUserInterface
 SteamInternal_SteamAPI_Init
 SteamMatchGameSearch001
@@ -4204,6 +4324,9 @@ SteamStreamingVRTransitionInvite
 SteamUser023
 SteamUtils010
 SteamVR Service
+SteamVRPerformanceStats
+SteamVRSessionDetails
+SteamVRVersion
 SteamVR_Namespace
 SteamWorkerThread
 Stopping playback mirror thread\n
@@ -4218,6 +4341,7 @@ Symbol name "
 Syntax error: value, object or array expected.
 System audio devices:\n
 SystemTimeToFileTime
+System\CurrentControlSet\Control\GraphicsDrivers
 TdhEnumerateManifestProviderEvents
 Temporary Redirect
 TerminateProcess
@@ -4285,6 +4409,7 @@ TrackedProp_ValueNotProvidedByDevice
 TrackedProp_WrongDataType
 TrackedProp_WrongDeviceClass
 Tracker
+TrackerCount
 TrackerRole_Camera
 TrackerRole_Chest
 TrackerRole_Handed
@@ -4305,6 +4430,7 @@ TrackerRole_RightWrist
 TrackerRole_Waist
 TrackingOverrides
 TrackingReference
+TrackingSystemID
 Transfer-Encoding
 Tried to merge messages of different types 
 Tried to start binary process %s %s (working directory %s) as app %s but it failed\n
@@ -4455,8 +4581,11 @@ UnmapViewOfFile
 Unnamed simulated action failed to parse: 
 Unprocessable Entity
 UnrealEditor
+Unset or Default
 Unsupported Media Type
 Unsupported `type` for accessor object. Got "
+Update ZeroPose for the chaperone universe %lu
+Update eOrigin %d, translation %f %f %f
 Upgrade Required
 Upresing %s from %d to %d tris
 Usage: settings [name] [value]\n
@@ -4464,12 +4593,14 @@ Use Proxy
 User Canceled Init (116)
 User Config Directory Invalid (107)
 User had an invalid config selected for %s(%s) version %u < %u (%u) category %s != %s. Setting back to default URL %s\n
+UserIpd
 Using action manifest path from init: %s
 Using display adapter luid: %llu\n
 Using display redirect device id=%d for driver direct mode.\n
 Using existing HMD %s.%s\n
 Using existing non-HMD devices from %s\n
 Using fallback controller type for 
+UsingWireless
 UuidFromStringA
 VCRUNTIME140.dll
 VEC2
@@ -4932,6 +5063,7 @@ VRInitError_VendorSpecific_OculusLinkNotEnabled
 VRInitError_VendorSpecific_OculusRuntimeBadInstall
 VRInitError_VendorSpecific_UnableToConnectToOculusRuntime
 VRInitError_VendorSpecific_VRLink_NoAdapterFound
+VRInitError_VendorSpecific_VRLink_NoEncoderSupport
 VRInitError_VendorSpecific_VRLink_NoVideoSupport
 VRInitError_VendorSpecific_VRLink_OutdatedDriverMESA
 VRInitError_VendorSpecific_VRLink_OutdatedDriverNVIDIA
@@ -5206,6 +5338,7 @@ Value out of range for int64 option "
 Value out of range for uint32 option "
 Variant Also Negotiates
 Vc0a
+VendorNumberID
 VendorSpecificEvent %u for tracked device index not owned by driver\n
 VendorSpecificEvent %u outside of reserved range\n
 VerQueryValueA
@@ -5218,6 +5351,11 @@ VirtualDisplay_AllQueued
 VirtualDisplay_NewFrame
 VirtualDisplay_Presented
 VirtualQuery
+ViveUSBHCI
+ViveUSBHCI_date
+ViveUSBHCI_manufacturer
+ViveUSBHCI_provider
+ViveUSBHCI_version
 WARNING
 WARNING! CThread::Terminate: %s\n
 WINRT_AcquireDisplay
@@ -5288,6 +5426,7 @@ Windows ME
 Windows NT
 Windows Vista
 Windows XP
+WirelessSystem
 WorkshopLoadFromURLComplete failed for binding from %s:\n
 WorkshopLoadFromURLComplete for binding from %s, when we asked for:\n
 WorkshopSaveType_Autosave
@@ -5300,13 +5439,12 @@ WorkshopSaveType_Unknown
 WorkshopSelectConfig for BindingOutOfDate for %s(%s) attempt to set default binding failed\n
 WorkshopSelectConfig for BindingOutOfDate for %s(%s) when we don't have a binding at all for that controller type\n
 WriteFile
+Wrong Platform
 X-Frame-Options: sameorigin\r\nContent-Security-Policy: default-src 'self'
-X37@
-XA7@
-XA9@
-XB7@
-XD7@
+X55@
 XXXX PNG chunk not known
+Xc5@
+Xo5@
 XsBI
 YUY2
 Zjz\v
@@ -5529,8 +5667,15 @@ Zjz\v
 [Remapping] RemapChord failed. Input element in chord has odd number of elements. Should be 2, instead is %u
 [Remapping] RemapParameters failed. No parameter_mode named: '%s'.\n
 [Settings] %s %s unknown type\n
+[Settings] App preferences do not have section for headset '%s'\n
+[Settings] Failed to parse 'preferHalfFramerate'\n
+[Settings] Failed to parse 'preferMinRefreshRate'\n
+[Settings] Failed to parse 'preferMotionSmoothingMode'\n
+[Settings] Failed to parse 'preferResolution'\n
 [Settings] Load Json Settings from %s\n
+[Settings] Loading app-provided preferences from '%s'\n
 [Settings] No or invalid additional device settings at '%s'\n
+[Settings] No or invalid application preferences settings at '%s'\n
 [Settings] Parsing of json from "%s" failed: \n
 [Settings] Save Json Settings to %s: FAILED\n
 [Settings] Save Json Settings to %s\n
@@ -5771,6 +5916,7 @@ __stdio_common_vsnprintf_s
 __stdio_common_vsprintf
 __stdio_common_vsprintf_s
 __stdio_common_vsscanf
+__stdio_common_vswprintf
 _aligned_free
 _aligned_malloc
 _aligned_realloc
@@ -5877,6 +6023,7 @@ active
 activePlaybackMirrorDevice
 active_origin
 actual_display_frequency
+add_ogs_row
 additional six characters expected to parse unicode surrogate pair.
 additionalFramesToPredict
 advpredictweights
@@ -5897,6 +6044,7 @@ alphaCutoff
 alphaMode
 alse
 alwaysActivate
+alwaysOn
 always_activate
 amdwvr
 animations
@@ -6011,6 +6159,7 @@ bad zlib header
 baseColorFactor
 baseColorTexture
 base_pose
+basestationPowerManagement
 best_binding_url
 bg_bg
 bin\win64
@@ -6089,7 +6238,7 @@ c:\buildslave\steamvr_rel_win64\build\src\vrserver\Retail\win64\2017\vrserver.pd
 c:\buildslave\steamvr_rel_win64\build\src\vrserver\appinfomanager.cpp
 c:\buildslave\steamvr_rel_win64\build\src\vrserver\vrinputserver.cpp
 c:\buildslave\steamvr_rel_win64\build\src\vrserver\vrserver.cpp
-c:\buildslave\steamvr_rel_win64\build\src\vrserver\vrserver.cpp:5554
+c:\buildslave\steamvr_rel_win64\build\src\vrserver\vrserver.cpp:5640
 c:\buildslave\steamvr_rel_win64\build\src\vrserver\webinterface\web_input.cpp
 c:\buildslave\steamvr_rel_win64\build\src\vrserver\webinterface\web_mailbox.cpp
 c:\buildslave\steamvr_rel_win64\build\src\vrserver\webinterface\web_server_thread.cpp
@@ -6123,6 +6272,7 @@ chord_%d_%lu
 chords
 chunked
 class
+classicDashboardLayout
 click
 click_activate_threshold
 click_deactivate_threshold
@@ -6208,11 +6358,11 @@ current_transforms_without_controller
 current_user_persona_name
 custom
 czech
-dB7@
 dQy/
 da_dk
 danish
 dashboard
+dashboard_relatch
 data error
 data->vecBlocks[ unBlockIndex ].unReferences > 0
 data:application/gltf-buffer;base64,
@@ -6222,6 +6372,7 @@ data:image/gif;base64,
 data:image/jpeg;base64,
 data:image/png;base64,
 data:text/plain;base64,
+db5@
 de_de
 deactivateStandbyOverride
 deactivate_threshold
@@ -6295,6 +6446,7 @@ dominant_hand
 double
 doubleSided
 double_thresholds
+downsampleFiltering
 dpad
 dpad_
 dpad_click
@@ -6338,10 +6490,13 @@ emitters
 en_US
 en_us
 enable
+enableBluetooth
+enableCamera
 enableCameraSurfaces
 enableDriverBoundsImport
 enableHmdAutoConnect
 enableHomeApp
+enableHomeApp2
 enablePlaybackDeviceOverride
 enablePlaybackMirror
 enablePlaybackMirrorIndependentVolume
@@ -6412,6 +6567,7 @@ fgetpos
 fgetwc
 fi_fi
 field
+fields
 file
 file error
 file://
@@ -6504,7 +6660,13 @@ google.protobuf.MethodOptions
 google.protobuf.ServiceOptions
 google.protobuf.StreamOptions
 google/protobuf/descriptor.proto
+gpuSpeedDriver
+gpuSpeedHorsepower
+gpuSpeedManualOverride
+gpuSpeedManualOverrideScale
 gpuSpeedRenderTargetScale
+gpuSpeedVendor
+gpuSpeedVersion
 gpu_profiler_capture
 gqr<
 grab
@@ -6515,9 +6677,7 @@ grip
 grip_limit_transforms
 group
 guid
-hA7@
-hA9@
-hD7@
+h55@
 hPU3
 half_thresholds
 hand_interaction_ext
@@ -6559,6 +6719,7 @@ https:
 https://
 hu_hu
 hungarian
+hx8@
 i91k
 i]Wb
 iauds
@@ -6630,6 +6791,7 @@ input_server
 input_source
 input_state
 inputs
+installID
 insufficient memory
 int32
 int64
@@ -6667,6 +6829,7 @@ invalid stof argument
 invalid stoi argument
 invalid stored block lengths
 invalid stoul argument
+invalid stoull argument
 invalid string position
 invalid string: '\u' must be followed by 4 hex digits
 invalid string: control character U+0000 (NUL) must be escaped to \u0000
@@ -6911,6 +7074,7 @@ latch
 launch_type
 layouts
 lazy
+lc5@
 ldexp
 ldiv
 leading_comments
@@ -6923,6 +7087,7 @@ legacy_binding_manifest
 legacy_binding_uri
 library_priority
 light
+lighthouse
 lights
 links
 list
@@ -7073,7 +7238,6 @@ nb_no
 need dictionary
 negative_int_value
 neverKillProcesses
-newDashboardLayout
 newmtl
 news_url
 nfinity
@@ -7167,9 +7331,7 @@ overlays
 override_throttling
 overwrite.vrsettings
 owned
-p37@
-pA7@
-pB7@
+p43@
 pBegin == pEnd
 pEnd > pBegin
 pMGConnect != nullptr
@@ -7179,9 +7341,9 @@ pOutFormatCount MUST not be NULL.
 pOutModifierCount MUST not be NULL.
 pProcessId
 pQueue->GetMetaContainerHandle() == ulExistingQueue
+pR9@
 pSharedState != nullptr
 pUrl != nullptr
-pW5@
 pWebSocketMessage
 package
 packed
@@ -7201,7 +7363,9 @@ path_handle
 path_handles
 paths
 payload
+pb5@
 pbrMetallicRoughness
+pc5@
 pending_file_saved
 perfcheck
 performanceProfile
@@ -7245,11 +7409,16 @@ position_z
 positional
 positive_int_value
 power
-powersaving
+powersaveFramesToThrottle
 powf
 precision
 prediction
 prediction parameter out of range
+preferHalfFramerate
+preferMinRefreshRate
+preferMotionSmoothingMode
+preferResolution
+preference_settings_path
 preferredRefreshRate
 preferred_refresh_rate
 prefersUpperDeviceIndices
@@ -7343,7 +7512,11 @@ required_room_setup
 requirement
 resolution
 resolution parameter out of range
+resolutionOverride
 resolutionScale
+resolution_override
+resolution_override parameter out of range
+resolution_per_app
 resourceOnly
 resource_map
 resource_map_key
@@ -7444,6 +7617,8 @@ server_main
 service
 service_description
 service_execution_site
+session_id_field_name
+session_ogs_row
 setsockopt(SO_EXCLUSIVEADDRUSE): %d %d
 settings
 settings_close
@@ -7517,6 +7692,9 @@ start_update
 started
 starts_theater_mode
 startup
+startup_app_id
+startup_app_type
+startup_exe_name
 startup_reason
 state
 static_bool
@@ -7551,6 +7729,7 @@ stoi argument out of range
 stop_pairing
 stop_spew_stats
 stoul argument out of range
+stoull argument out of range
 strcat_s
 strchr
 strcmp
@@ -7599,13 +7778,14 @@ system.generated.
 system.generated.openxr.
 system.generated.vrmonitor.exe
 system.vrresources
+system_panel_interaction_mode
 systemreport_
 systemreport_*.html
 systemreport_template.html
-tA9@
 tRNS after IDAT
 tRNS before PLTE
 tRNS with alpha
+table
 tags
 target
 targets
@@ -7874,13 +8054,13 @@ wrong color format
 wrong submessage type
 wrong version
 ws handshake error
+wsprintfW
 wss:
 x-steamvr-secret
-xD7@
 x_path
 xdigit
-xf4@
 xmag
+xv6@
 y9*O
 y_path
 yfov

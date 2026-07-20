@@ -293,7 +293,7 @@ Out of thread local storage!\n
 Parsing of JSON file "%s" failed: %s\n
 PeekNamedPipe
 QueryPerformanceCounter
-RSDSA
+RSDS
 RaiseException
 ReadFile
 ReadFile failed on %s after event was signaled because %s\n
@@ -512,6 +512,7 @@ driver_null
 enable
 enableCameraSurfaces
 enableHomeApp
+enableHomeApp2
 environmentMode
 exception thrown in JSON library
 exit

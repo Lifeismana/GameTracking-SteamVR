@@ -549,7 +549,7 @@ PeekNamedPipe
 Pex?0
 QueryDepthSList
 QueryPerformanceCounter
-RSDSCY
+RSDS
 RaiseException
 ReadConsoleW
 ReadFile
@@ -875,6 +875,7 @@ VRInitError_VendorSpecific_OculusLinkNotEnabled
 VRInitError_VendorSpecific_OculusRuntimeBadInstall
 VRInitError_VendorSpecific_UnableToConnectToOculusRuntime
 VRInitError_VendorSpecific_VRLink_NoAdapterFound
+VRInitError_VendorSpecific_VRLink_NoEncoderSupport
 VRInitError_VendorSpecific_VRLink_NoVideoSupport
 VRInitError_VendorSpecific_VRLink_OutdatedDriverMESA
 VRInitError_VendorSpecific_VRLink_OutdatedDriverNVIDIA
@@ -1132,7 +1133,7 @@ protocol error
 protocol not supported
 r7Yr7=
 rLp>B
-raB3G
+raB3G4
 read only file system
 rejectDupKeys
 resource deadlock would occur

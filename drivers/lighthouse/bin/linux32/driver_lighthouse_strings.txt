@@ -272,7 +272,6 @@ $3br
 %u %s@%s %s FPGA %u(%u.%u/%u/%u) BL %u%s%s%s
 %u_%02u
 &'()*56789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
-&BTIE
 ' is not a number.
 ' property is missing
 ' property is missing in 
@@ -1759,7 +1758,10 @@ Protocol message was modified concurrently during serialization.
 Prototype
 Qk6eV5RE
 Qkkbal
+RENDERDOC API Not Found\n
+RENDERDOC Enabled
 RENDERDOC_GetAPI
+RENDERDOC_GetAPI failed with code %d
 Radio
 Reached an unintended state: CPPTYPE_MESSAGE
 Reading dangerously large protocol message.  If the message turns out to be larger than 
@@ -1772,6 +1774,7 @@ ReleaseMessage
 RemindVersion
 RemoveLast
 RenderDoc connected\n
+Renderdoc requested, but, could not load librenderdoc.so
 Repeated fields can't have default values.
 Replay failed to parse base configuration: 
 Replay failed to parse base dynamic state: 
@@ -2396,6 +2399,7 @@ VRInitError_VendorSpecific_OculusLinkNotEnabled
 VRInitError_VendorSpecific_OculusRuntimeBadInstall
 VRInitError_VendorSpecific_UnableToConnectToOculusRuntime
 VRInitError_VendorSpecific_VRLink_NoAdapterFound
+VRInitError_VendorSpecific_VRLink_NoEncoderSupport
 VRInitError_VendorSpecific_VRLink_NoVideoSupport
 VRInitError_VendorSpecific_VRLink_OutdatedDriverMESA
 VRInitError_VendorSpecific_VRLink_OutdatedDriverNVIDIA

@@ -84,7 +84,6 @@
 $P?pos@QCursor@@SA?AVQPoint@@XZ
 $\t?contains@QRectF@@QEBA_NAEBVQPointF@@@Z
 %02X
-%02x
 %1 (%2, %3 bytes)\n
 %1 / %2 / %3
 %1 is not available.\n\n
@@ -242,25 +241,19 @@ $\t?contains@QRectF@@QEBA_NAEBVQPointF@@@Z
 .?AV<lambda_3fd6e5ca82e0518e289160675f532929>@@
 .?AV<lambda_686bfc32f4bcce44b88d49e75aaf1c75>@@
 .?AV<lambda_687bbe8aaa1e7a7d821b415aa811bb6e>@@
-.?AV<lambda_7257f74de7e96abf43452d9052201b09>@@
+.?AV<lambda_c7298b5b8fc22256ffc62144976cec0d>@@
 .?AV<lambda_f616c03a6102f2dea4d043e167000184>@@
 .?AV?$CCallResult@VCQVRWorkshopUploadDialog@@UCreateItemResult_t@@@@
 .?AV?$CCallResult@VCQVRWorkshopUploadDialog@@USteamUGCQueryCompleted_t@@@@
 .?AV?$CCallResult@VCQVRWorkshopUploadDialog@@USubmitItemUpdateResult_t@@@@
 .?AV?$CCallback@VCQVRController@@USteamShutdown_t@@$0A@@@
-.?AV?$CCallback@VCVRStatsTracker@@UGameStatsSessionClosed_t@@$0A@@@
-.?AV?$CCallback@VCVRStatsTracker@@UGameStatsSessionIssued_t@@$0A@@@
 .?AV?$CCallbackImpl@$00@@
-.?AV?$CCallbackImpl@$0BA@@@
 .?AV?$CCallbackManual@VCQVRController@@USteamShutdown_t@@$0A@@@
-.?AV?$CCallbackManual@VCVRStatsTracker@@UGameStatsSessionClosed_t@@$0A@@@
-.?AV?$CCallbackManual@VCVRStatsTracker@@UGameStatsSessionIssued_t@@$0A@@@
 .?AV?$QFutureInterface@X@@
 .?AV?$RunFunctionTask@X@QtConcurrent@@
 .?AV?$RunFunctionTaskBase@X@QtConcurrent@@
 .?AV?$VoidStoredMemberFunctionPointerCall0@XVCQVRPlaylistPlayer@@@QtConcurrent@@
 .?AV?$_Binder@U_Unforced@std@@P8CVRMailbox@@EAAXAEBVValue@Json@@@ZPEAV3@AEBU?$_Ph@$00@2@@std@@
-.?AV?$_Binder@U_Unforced@std@@P8CVRStatsTracker@@EAAXAEBVValue@Json@@@ZPEAV3@AEBU?$_Ph@$00@2@@std@@
 .?AV?$_Func_base@PEAXPEBD@std@@
 .?AV?$_Func_base@XAEBVValue@Json@@@std@@
 .?AV?$_Func_base@XPEBDPEBDI_NPEAXPEA_N@std@@
@@ -274,10 +267,9 @@ $\t?contains@QRectF@@QEBA_NAEBVQPointF@@@Z
 .?AV?$_Func_impl_no_alloc@V<lambda_3fd6e5ca82e0518e289160675f532929>@@_NPEAXPEAU_SP_DEVINFO_DATA@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_686bfc32f4bcce44b88d49e75aaf1c75>@@_NPEAXPEAU_SP_DEVINFO_DATA@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_687bbe8aaa1e7a7d821b415aa811bb6e>@@_NPEAXPEAU_SP_DEVINFO_DATA@@@std@@
-.?AV?$_Func_impl_no_alloc@V<lambda_7257f74de7e96abf43452d9052201b09>@@PEAXPEBD@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_c7298b5b8fc22256ffc62144976cec0d>@@PEAXPEBD@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_f616c03a6102f2dea4d043e167000184>@@_NPEAXPEAU_SP_DEVINFO_DATA@@@std@@
 .?AV?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8CVRMailbox@@EAAXAEBVValue@Json@@@ZPEAV3@AEBU?$_Ph@$00@2@@std@@XAEBVValue@Json@@@std@@
-.?AV?$_Func_impl_no_alloc@V?$_Binder@U_Unforced@std@@P8CVRStatsTracker@@EAAXAEBVValue@Json@@@ZPEAV3@AEBU?$_Ph@$00@2@@std@@XAEBVValue@Json@@@std@@
 .?AV?$_Iosb@H@std@@
 .?AV?$basic_ios@DU?$char_traits@D@std@@@std@@
 .?AV?$basic_iostream@DU?$char_traits@D@std@@@std@@
@@ -447,7 +439,6 @@ $\t?contains@QRectF@@QEBA_NAEBVQPointF@@@Z
 .?AVException@Json@@
 .?AVFactory@CharReader@Json@@
 .?AVFactory@StreamWriter@Json@@
-.?AVFastWriter@Json@@
 .?AVIAudioEndpointVolumeCallbackImpl@@
 .?AVIBaseStationWirelessListener@@
 .?AVIEvent@IPC@@
@@ -698,7 +689,6 @@ $\t?contains@QRectF@@QEBA_NAEBVQPointF@@@Z
 /system/wakingbasestations
 /systemreport
 /systemreport/s2bug
-/total_component_updates
 /transferlatencymslong
 /uninstall
 /user/ankle/left
@@ -731,7 +721,7 @@ $\t?contains@QRectF@@QEBA_NAEBVQPointF@@@Z
 1!?widget@QTabWidget@@QEBAPEAVQWidget@@H@Z
 100%
 1000
-11:46:20
+14:58:52
 1DoAcquireData()
 1DoInit()
 1DoParseString( const QString & )
@@ -1776,7 +1766,6 @@ $\t?contains@QRectF@@QEBA_NAEBVQPointF@@@Z
 ?_New_Locimp@_Locimp@locale@std@@CAPEAV123@AEBV123@@Z
 ?_Osfx@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAXXZ
 ?_Pninc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAAPEADXZ
-?_Random_device@std@@YAIXZ
 ?_Throw_C_error@std@@YAXH@Z
 ?_Throw_Cpp_error@std@@YAXH@Z
 ?_Unlock@?$basic_streambuf@DU?$char_traits@D@std@@@std@@UEAAXXZ
@@ -2972,7 +2961,6 @@ A valid JSON document must be either an array or an object value.
 A wireless HMD driver is present, but the wireless HMD has not connected and Steam is not running (216)
 A wireless HMD driver is present, but the wireless HMD has not connected yet (215)
 A"QT
-ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/
 ACTIVE
 ADVAPI32.dll
 ALVRDisplayInit
@@ -2988,11 +2976,9 @@ About_DateString_Argument
 About_Title
 About_VersionPrefix
 Abstract
-AccountIDPlayer
 Action
 ActionButton
 ActionLabel
-ActualTrackingSystemID
 Add Json firmware manifest from %s\n
 AddAccessAllowedAce
 Address0
@@ -3034,16 +3020,7 @@ AllocateAndInitializeSid
 Already at maximum refresh rate: %f!\n
 Another app was already launching (117)
 Another copy of this program is already running on this machine. Only one instance at a time is allowed.
-App Performance Stats:\n
 App info manager init failed (114)
-AppHeadsetActiveSeconds
-AppHeadsetActiveSeconds: %f\n
-AppID
-AppID: %d\n
-AppPluggedIndexControllerActiveSeconds
-AppSeconds
-AppSeconds: %f\n
-AppUnpluggedIndexControllerActiveSeconds
 Application GPU (post)
 Application GPU (pre)
 Application Interval
@@ -3075,18 +3052,6 @@ AvRevertMmThreadCharacteristics
 AvRevertMmThreadCharacteristics failed: last error is %d\n
 AvSetMmThreadCharacteristics failed: last error = %u
 AvSetMmThreadCharacteristicsA
-AvgApplicationCPUTimeMS
-AvgApplicationCPUTimeMS: %f\n
-AvgApplicationGPUTimeMS
-AvgApplicationGPUTimeMS: %f\n
-AvgCompositorCPUTimeMS
-AvgCompositorCPUTimeMS: %f\n
-AvgCompositorGPUTimeMS
-AvgCompositorGPUTimeMS: %f\n
-AvgSubmitsPerFrame
-AvgSubmitsPerFrame: %f\n
-AvgTargetFPS
-AvgTargetFPS: %f\n
 Axis index out of bounds:
 Axis isn't in axis rect:
 AxisType
@@ -3176,7 +3141,6 @@ BaseStation Wired Update: copy %s to %s (%s)\n
 BaseStation Wired Update: delete %s (%s)\n
 BaseStation Wired Update: eject %s (%s)\n
 BaseStation Wireless Update: %s %s\n
-BaseStationPowerManagementEnabled
 BaseStationRadioOverride
 BaseStationUpdate
 BaseStationWiredUpdate
@@ -3203,12 +3167,8 @@ BaseStation_Mode_Text
 BaseStation_ReadProperties
 BaseStation_Scan
 Basestation
-BasestationCount
-BasestationDistance
-BasestationSyncType
 Battery
 Best Alias:
-BetaBranchName
 BluetoothControllerStatus_BluetoothDriverInstalling
 BluetoothControllerStatus_BluetoothDriverNeedsUpdate
 BluetoothControllerStatus_BluetoothDriverNotInstalled
@@ -3222,14 +3182,12 @@ BluetoothControllerStatus_NoBluetoothDeviceUpdateNeeded
 BluetoothControllerStatus_ServiceError
 BluetoothControllerStatus_ServiceNotFound
 BluetoothDetailLogging
-BluetoothEnabled
 Bootloader
 Bootloader Version:
 Bootloader Version: \t%1 / %2 %3\n
 Bootloader Version: \t%1 / %2\n
 Bootloader: %1\n
 BoundsLabel
-BoundsVisibleTime
 BracketStyle
 Branch:\t(?<VALUE>.*)
 Bug Report
@@ -3255,7 +3213,6 @@ BugReporter_SubjectRequired
 BugReporter_SubmissionFailure
 BugReporter_SubmissionSuccess
 BugReporter_Title
-BuildID
 BuiltLabel
 Button0
 Button1
@@ -3567,10 +3524,8 @@ Camera
 Camera Firmware:
 Camera Firmware: \t%1 / %2 (%3) %4\n
 Camera Firmware: \tVersion not available.\n
-CameraEnabled
 CameraRecovery1
 CameraRecovery2
-CameraRequiresRecovery
 Cameras and Bases
 Can not start firmware update at this time: there is already an update in progress.
 Can't add null element
@@ -3677,8 +3632,6 @@ ContentText
 ContentWidget
 Contents of chaperone_info.vrchap\n\n
 Controller
-Controller Active Accum: %u (%u)\n
-Controller Active Wired Accum: %u (%u)\n
 Controller Enter Bootloader Mode: %s\n
 Controller Exit Bootloader Mode: %s\n
 Controller Peripheral MCU Update: %s\n
@@ -3687,8 +3640,6 @@ Controller Type:
 Controller Type: \t%1\n
 Controller VRC Update: %s\n
 Controller Watchman FPGA Update: %s\n
-ControllerButtonPresses
-ControllerModelId%d
 ConvertStringSidToSidA
 CopySid
 Could not open %s for writing\n
@@ -3696,7 +3647,6 @@ Could not open pipe: 20 second wait timed out.(error_no:%lu)\n
 Couldn't activate painter on buffer. This usually happens because QCustomPlot has width or height zero.
 Couldn't create/open file
 Couldn't determine current display mode from current and available frequencies!\n  Current=%f Available=%s\n
-CpuNameID
 Crashing so we can test breakpad uploading
 CreateDXGIFactory1
 CreateDXGIFactory2
@@ -3745,7 +3695,6 @@ D\f?formats@QMimeData@@UEBA?AVQStringList@@XZ
 D\n?dataChanged@QAbstractItemModel@@QEAAXAEBVQModelIndex@@0AEBV?$QVector@H@@@Z
 D\t?boundingRect@QRegion@@QEBA?AVQRect@@XZ
 D\v?endsWith@QByteArray@@QEBA_ND@Z
-DashboardVisibleTime
 DebuggerEnabled
 Default Playback Audio Devices: %s, %s (Comm)\n
 Default Record Audio Device: %s, %s (Comm)\n
@@ -3877,7 +3826,6 @@ Display Mode:
 Display Mode:\t(?<VALUE>.*)
 Display:\t(?<VALUE>.*)
 DisplayFPGA
-DisplayFrequency
 Displays
 Divider
 DoAcquireData
@@ -3990,11 +3938,6 @@ Fail
 Failed
 Failed To Start.
 Failed to LiquidVR::D3D11CreateDeviceHP3D (Error = %d) (pD3D11Device is %svalid) / Feature Level: %d\n
-Failed to add OGS row because of parse errors\n
-Failed to add OGS row because request had no fields field\n
-Failed to add OGS row because request had no table field\n
-Failed to add OGS row because request's fields field was not an object\n
-Failed to add OGS session row because of parse errors\n
 Failed to allocate memory
 Failed to connect to pipe %s because %s... retrying
 Failed to connect to pipe %s because %s\n
@@ -4016,7 +3959,6 @@ Failed to find entrypoint WINRT_Release
 Failed to find entrypoint WINRT_ReleaseDisplay
 Failed to find entrypoint WINRT_SetDisplayMode
 Failed to find entrypoint WINRT_WaitForPresent
-Failed to get config path for persistent statistics.\n
 Failed to get property container for headset!\n
 Failed to import client event handle from pipe %s after connecting\n
 Failed to import server event handle from pipe %s after connecting\n
@@ -4024,7 +3966,6 @@ Failed to initialize mailbox!
 Failed to initialize mailbox!\n
 Failed to initialize settings.
 Failed to load playlist %s\n
-Failed to parse %s. Error %d ("%s")\n
 Failed to read device vid/pid.
 Failed to retrieve arguments for SteamVR Workshop Tools\n
 Failed to retrieve binary path for SteamVR Workshop Tools\n
@@ -4043,7 +3984,6 @@ Failed to start SteamVR Workshop Tools from %s because %s\n
 Failed to terminate '%s'\n
 Failed to write app container status to pipe %s after connecting because %s\n
 Failed to write event process handle after connecting because %s\n
-Failed to write file %s\n
 Failed with exit code: %d. Attempting retry: %d\n
 Failed with invalid or missing hardware revision. Attempting retry: %d\n
 Fails: %1
@@ -4324,8 +4264,6 @@ GPULabel5
 GPULabel6
 GPULabel7
 Game
-GamepadButtonPresses
-GamepadsFound
 Geometry:\t(?<VALUE>.*)
 GetACP
 GetCommandLineW
@@ -4373,7 +4311,6 @@ GetStartupInfoW
 GetStdHandle
 GetSystemDirectoryW
 GetSystemInfo
-GetSystemPowerStatus
 GetSystemTime
 GetSystemTimeAsFileTime
 GetTickCount64
@@ -4389,16 +4326,12 @@ Getting render devnode via IMMDeviceEnumerator::GetDevice("%ls") failed: hr = 0x
 GlobalAlloc
 GlobalFree
 Global\VRMonitorInstanceGlobal
-GpuNameID
 GpuSpeed
 GradientPreset
 Graph 
 Graphics:\t(?<VALUE>.*)
-GraphicsDriver
 H!?window@QWidget@@QEBAPEAV1@XZ
-HAGS
 HAGS status is %s
-HAGS: %s\n
 HID opened: VID %04x PID %04x serial %S seq %d | if %d\n
 HKEY_CLASSES_ROOT
 HKEY_CURRENT_USER\Software\Classes\vrmonitor
@@ -4434,11 +4367,9 @@ Hardware Id:
 Hardware Id: \t0x%1\n
 Hardware Revision:
 HardwareId
-HasCamera
 Header
 HeaderIcon
 Headset
-Headset Active Accum: %u (%u)\n
 Headset Audio Bridge Update: %s\n
 Headset Audio Update: %s\n
 Headset Camera Recovery: %s\n
@@ -4449,7 +4380,6 @@ Headset Image Bridge Update: %s\n
 Headset Watchman FPGA Update: %s\n
 Headset Watchman Update: %s\n
 Headset does not support multiple framerates!\n
-HeadsetActiveTime
 HeadsetPerfGraph
 HeadsetView_DebugCommands
 HeadsetView_DockButtonLabel
@@ -4483,7 +4413,6 @@ Hmd DriverId is our of bounds (211)
 Hmd Not Found (108)
 Hmd Not Found Presence Failed (126)
 HmdWarning_Title
-HomeAppEnabled
 Hoping to write frame timing info to %s (%d samples)\n
 HwSchMode
 IAudioCaptureClient::GetBuffer failed on pass %u: hr = 0x%08x\n
@@ -4621,7 +4550,6 @@ Image Bridge Firmware:
 Image Bridge Firmware: \t%1 / %2 %3\n
 ImageBridge
 InactivityTimeoutForBaseStations
-Index Controller: %f %f\n
 Index controllers active while wired\n
 Infinity
 Info
@@ -4661,7 +4589,6 @@ Invalid number format code (third char neither 'c' nor 'd'):
 Invalid range for logarithmic plot: 
 Invalid stretch factor, must be positive:
 IsDebuggerPresent
-IsOnLaptop
 IsProcessorFeaturePresent
 IsValidSid
 IsValidStyle
@@ -4674,8 +4601,7 @@ JN?metaObject@QMovie@@UEBAPEBUQMetaObject@@XZ
 J\n?drawForeground@QGraphicsScene@@MEAAXPEAVQPainter@@AEBVQRectF@@@Z
 J\r?indexOf@QString@@QEBAHVQChar@@HW4CaseSensitivity@Qt@@@Z
 J\t?brush@QPainter@@QEBAAEBVQBrush@@XZ
-JoysticksFound
-Jun 24 2026
+Jul 17 2026
 K32EnumProcessModules
 K32EnumProcesses
 K32GetModuleBaseNameA
@@ -4689,7 +4615,6 @@ KM?length@QVector2D@@QEBAMXZ
 KN?metaObject@QOffscreenSurface@@UEBAPEBUQMetaObject@@XZ
 K\r?end@QPainter@@QEAA_NXZ
 Key_Escape_Abbreviation
-KeyboardVisibleTime
 KnockKnockButton
 KnockKnockIcon
 KnockKnockText
@@ -4732,8 +4657,6 @@ LabelSide
 LabelType
 Language
 LastDismissedTime
-LastIndexControllerWarningDismissTime
-LastIndexControllerWarningShowTime
 LastKnown
 LastShownTime
 Launching url because of -launchurl %s\n
@@ -4819,8 +4742,6 @@ MacOS 10.6.7
 MacOS 10.7
 MacOS 10.8
 MacOS 10.9
-MachineHash
-Mailbox %s received message %s, which it didn't have a handler for\n
 MainFile
 MainThrd
 Manufacturer:
@@ -4928,7 +4849,6 @@ Missing required OpenVR interfaces!\n
 Mode
 Mode:
 Model: %1\n
-ModelNumberID
 Monitor
 Monitor %1 DeviceID:
 Monitor %1 DeviceID:\t(?<VALUE>.*)
@@ -4968,7 +4888,6 @@ Monitor_SpontaneousQuitDialog_Title
 Monitor_WakingBaseStations
 MoreContentText
 MotionEstimationLabel
-MotionSmoothing
 MoveFileExW
 MultiByteToWideChar
 N?metric@QPixmap@@MEBAHW4PaintDeviceMetric@QPaintDevice@@@Z
@@ -5027,39 +4946,10 @@ Not starting vrserver for background app (121)
 Not yet implemented
 NotReady
 Nothing set.
-NotificationCount
 Null element passed
 NumDroppedFrames
-NumDroppedFrames: %d\n
-NumDroppedFramesLoading
-NumDroppedFramesLoading: %d\n
-NumDroppedFramesOnStartup
-NumDroppedFramesOnStartup: %d\n
-NumDroppedFramesTimedOut
-NumDroppedFramesTimedOut: %d\n
 NumFramePresents
-NumFramePresents: %d\n
-NumFramePresentsLoading
-NumFramePresentsLoading: %d\n
-NumFramePresentsOnStartup
-NumFramePresentsOnStartup: %d\n
-NumFramePresentsTimedOut
-NumFramePresentsTimedOut: %d\n
-NumFramesWithDepth
-NumFramesWithDepth: %d\n
-NumLoading
-NumLoading: %d\n
 NumMisPresented
-NumReprojected
-NumReprojected: %d\n
-NumReprojectedFramesLoading
-NumReprojectedFramesLoading: %d\n
-NumReprojectedFramesOnStartup
-NumReprojectedFramesOnStartup: %d\n
-NumReprojectedFramesTimedOut
-NumReprojectedFramesTimedOut: %d\n
-NumTimedOut
-NumTimedOut: %d\n
 NvAPI
 NvAPI DisplayModes:
 NvAPI: DirectModeGetDisplayModes reported more than 1024 entries!\n
@@ -5077,8 +4967,6 @@ OS Version:
 OS Version:\t(?<VALUE>.*)
 OS:\t%1 (%2)\n
 OS:\t(?<VALUE>.*)
-OSBuild
-OSType
 OW?size@QOffscreenSurface@@UEBA?AVQSize@@XZ
 O\f?freeTree@QMapDataBase@@QEAAXPEAUQMapNodeBase@@H@Z
 Old Style single quad\n
@@ -5615,7 +5503,6 @@ P\f?free_helper@QHashData@@QEAAXP6AXPEAUNode@1@@Z@Z
 PainterMode
 PainterModes
 Parent plot of keyAxis is not the same as that of valueAxis.
-Parse failed for JSON message in mailbox %s: %s\n
 Parsing of JSON file "%s" failed: %s\n
 Parsing of JSON string "%s" failed: %s\n
 Passed formatCode is empty
@@ -5636,14 +5523,9 @@ Performance(.|\n)*?Total.*
 Peripheral MCU Version:
 Peripheral MCU Version: \t%1 / %2 %3\n
 PeripheralApplication
-Persistent statistics (%u -> %u):\n
-Persistent statistics file does not exist. Creating new %s\n
-Persistent statistics invalid. Resetting.\n
 Play Area Size:\t
 Play Area Size:\t%1\n\n
 Play Area Size:\t(?<VALUE>.*)
-PlayAreaHeight
-PlayAreaWidth
 PlaybackVolumeGainStatus
 Playlist Placecard
 Playlist Remote Control
@@ -5953,10 +5835,10 @@ R?scaledSize@QMovie@@QEAA?AVQSize@@XZ
 R?screens@QGuiApplication@@SA?AV?$QList@PEAVQScreen@@@@XZ
 REFRESH
 RPCRT4.dll
-RSDS
+RSDS;
 RSSI: %1\n
 R\v?find@QPlainTextEdit@@QEAA_NAEBVQString@@V?$QFlags@W4FindFlag@QTextDocument@@@@@Z
-R\vpD
+R\vptU
 Radio
 Radio Version:
 Radio Version: \t%1 / %2 %3 %4\n
@@ -5974,7 +5856,6 @@ ReadFile failed on %s after event was signaled because %s\n
 ReadFile failed on %s read %u bytes when only %u bytes were available in the buffer\n
 ReadFile() failed and reach max try count!!\n
 ReadFile(error_no:%ld) is failed!!\n
-Reading persistent statistics file from %s\n
 Ready
 ReadyAlert
 ReadyAlertLow
@@ -6062,12 +5943,6 @@ S?setClipRect@QPainter@@QEAAXAEBVQRectF@@W4ClipOperation@Qt@@@Z
 S?setColor@QBrush@@QEAAXAEBVQColor@@@Z
 S?setColor@QPen@@QEAAXAEBVQColor@@@Z
 S?setColorAt@QGradient@@QEAAXNAEBVQColor@@@Z
-SDL2.dll
-SDL_Init
-SDL_IsGameController
-SDL_NumJoysticks
-SDL_QuitSubSystem
-SDL_WasInit
 SERIAL
 SETUPAPI.dll
 SHELL32.dll
@@ -6228,7 +6103,6 @@ STEAMVR_DISABLE_CRASH_REPORTING
 STEAMVR_GPUVIS_ON_ASSERT
 SYSTEM\CurrentControlSet\Enum\USB\VID_%s&PID_%s
 SYSTEM\CurrentControlSet\Enum\USB\VID_%s&PID_%s\%s
-SafeMode
 ScaleType
 ScanForBaseStation_FoundStations
 ScanForBaseStation_Incomplete
@@ -6240,15 +6114,11 @@ ScatterShape
 ScrollArea
 Searching
 SearchingAlert
-SeatedResetViaAPICallCount
-SeatedResetViaSystemMenuCount
 See 
 Select System Report
 SelectablePart
 SelectableParts
 Serial: %1\n
-SessionID
-SessionTime
 SetCurrentProcessExplicitAppUserModelID
 SetEnvironmentVariableA
 SetEvent
@@ -6311,7 +6181,6 @@ Settings_UseBluetoothLink_Info
 Settings_UseBluetoothLink_Text
 Setup Mode
 SetupDiBuildDriverInfoList
-SetupDiClassGuidsFromNameW
 SetupDiCreateDeviceInfoListExA
 SetupDiDestroyDeviceInfoList
 SetupDiEnumDeviceInfo
@@ -6358,7 +6227,6 @@ Skipping OpenXR prompt because another runtime is set\n
 Skipping OpenXR prompt because it's been dismissed\n
 Skipping OpenXR prompt because streaming launch will force it automatically\n
 Skipping OpenXR prompt because we are set\n
-Skipping add_ogs_row field %s because we don't support that type of field\n
 Skipping version update notice because we notified about %s, which is newer than our current version of %s\n
 Sleep
 SleepConditionVariableCS
@@ -6375,16 +6243,8 @@ Start Firmware Update (Device Index:%d, Recovery:%d, ForceAll:%d, ForceFix:%d).\
 StartState
 Started RunOnceExecutable %S as pid %u\n
 Startup
-StartupAppId
-StartupApplicationType
-StartupExeName
-StartupReason
 Startup_OpenGLIsNotInstalled
 State
-StatsAccumHeadsetActiveSeconds
-StatsAccumPluggedIndexControllerActiveSeconds
-StatsAccumStart
-StatsAccumUnluggedIndexControllerActiveSeconds
 Status
 StatusAlwaysOnTop
 StatusWarning_System_Chaperone_Warning
@@ -6411,13 +6271,9 @@ Steam Branch:\t(?<VALUE>.*)
 Steam Streaming Microphone
 Steam Streaming Speakers
 Steam VR(.|\n)*?Render Target Size:.*
-Steam logging invalid\n
-Steam logging not valid\n
-Steam logging valid: %s\n
 Steam:
 Steam:\t%1 (%2)
 Steam:\t(?<VALUE>.*)
-SteamAPI_GetHSteamPipe
 SteamAPI_GetHSteamUser
 SteamAPI_GetSteamInstallPath
 SteamAPI_IsSteamRunning
@@ -6432,17 +6288,14 @@ SteamAPI_UnregisterCallback
 SteamAPI_UseBreakpadCrashHandler
 SteamAPI_WriteMiniDump
 SteamAppId
-SteamClient020
 SteamController008
 SteamEnableNativeController\t(?<VALUE>.*)
 SteamExe
 SteamFriends017
 SteamGameId
-SteamGameStats001
 SteamInitWorker
 SteamInput006
 SteamInternal_ContextInit
-SteamInternal_CreateInterface
 SteamInternal_FindOrCreateUserInterface
 SteamInternal_SteamAPI_Init
 SteamMatchGameSearch001
@@ -6476,9 +6329,7 @@ SteamVR Version:\t(?<VALUE>.*)
 SteamVR-%Y-%m-%d-%p_%I_%M_%S.txt
 SteamVR-Jira-%Y-%m-%d-%p_%I_%M_%S.txt
 SteamVR-Jira-system-report.txt
-SteamVRPerformanceStats
 SteamVRServiceNeedsInstallation
-SteamVRSessionDetails
 SteamVRSystemState_%s
 SteamVRSystemState_%s_Application
 SteamVRSystemState_Connecting
@@ -6503,7 +6354,6 @@ SteamVRSystemState_Startup
 SteamVRSystemState_Unknown_%1
 SteamVRSystemState_UnpauseRequested
 SteamVRSystemState_t
-SteamVRVersion
 SteamVR_Namespace
 Still more data to unzip
 Stop
@@ -6612,12 +6462,10 @@ Tracker Exit Bootloader Mode: %s\n
 Tracker Radio Update: %s\n
 Tracker VRC Update: %s\n
 Tracker Watchman FPGA Update: %s\n
-TrackerCount
 Tracking Reference
 Tracking:
 Tracking:\t%1\n
 Tracking:\t(?<VALUE>.*)
-TrackingSystemID
 TrayIcon_Tooltip_vrmonitor
 Try to connect to VR Runtime: Control panel interface couldn't be retrieved.\n
 Try to connect to VR Runtime: VRSystem might not point to the correct runtime.\n
@@ -6717,8 +6565,6 @@ User Canceled Init (116)
 User Config Directory Invalid (107)
 User IPD (m):
 User IPD (m):\t%1\n
-UserIpd
-UsingWireless
 UuidFromStringA
 V?setStyle@QBrush@@QEAAXW4BrushStyle@Qt@@@Z
 V?setStyle@QPen@@QEAAXW4PenStyle@Qt@@@Z
@@ -6976,6 +6822,7 @@ VRInitError_VendorSpecific_OculusLinkNotEnabled
 VRInitError_VendorSpecific_OculusRuntimeBadInstall
 VRInitError_VendorSpecific_UnableToConnectToOculusRuntime
 VRInitError_VendorSpecific_VRLink_NoAdapterFound
+VRInitError_VendorSpecific_VRLink_NoEncoderSupport
 VRInitError_VendorSpecific_VRLink_NoVideoSupport
 VRInitError_VendorSpecific_VRLink_OutdatedDriverMESA
 VRInitError_VendorSpecific_VRLink_OutdatedDriverNVIDIA
@@ -7029,7 +6876,6 @@ VSync to Photons:
 VSync to Photons: \t%1\nDisplay Frequency:\t%2\nUser IPD (m):\t%3\nCurrent Universe ID:\t%4\n
 VW?size@QPixmap@@QEBA?AVQSize@@XZ
 Valve
-VendorNumberID
 VerQueryValueA
 VerSetConditionMask
 Verdana
@@ -7039,11 +6885,6 @@ Version:\t(?<VALUE>.*)
 VersionLabel
 VirtualQuery
 ViveLinkLib_GetBaseStationWirelessInterface
-ViveUSBHCI
-ViveUSBHCI_date
-ViveUSBHCI_manufacturer
-ViveUSBHCI_provider
-ViveUSBHCI_version
 W?start@QMovie@@QEAAXXZ
 W?state@QMovie@@QEBA?AW4MovieState@1@XZ
 WINRT_AcquireDisplay
@@ -7123,7 +6964,6 @@ Windows Vista
 Windows XP
 Wired
 Wireless Dongle Update: %s\n
-WirelessSystem
 WorkshopUpload_Cancel
 WorkshopUpload_Desc
 WorkshopUpload_DialogTitle
@@ -7170,7 +7010,6 @@ WorkshopUpload_Visibility_Public
 Write Error.
 WriteFile
 WriteFile(error_no:%ld) is failed!!\n
-Writing persistent statistics to file %s\n
 Wrong Platform
 X?stop@QMovie@@QEAAXXZ
 X?style@QBrush@@QEBA?AW4BrushStyle@Qt@@XZ
@@ -7485,6 +7324,8 @@ Zjz\v
 \f?hoverLeaveEvent@QGraphicsItem@@MEAAXPEAVQGraphicsSceneHoverEvent@@@Z
 \f?hoverMoveEvent@QGraphicsItem@@MEAAXPEAVQGraphicsSceneHoverEvent@@@Z
 \f\f?getExistingDirectory@QFileDialog@@SA?AVQString@@PEAVQWidget@@AEBV2@1V?$QFlags@W4Option@QFileDialog@@@@@Z
+\fp86
+\fptU
 \mfpmp.exe
 \n ?type@QGraphicsItemGroup@@UEBAHXZ
 \n${Text_ThereMightBeIssuesDisclaimer}\n
@@ -7698,6 +7539,7 @@ Zjz\v
 \v?geometry@QLayout@@UEBA?AVQRect@@XZ
 \v?geometry@QSystemTrayIcon@@QEBA?AVQRect@@XZ
 \v\n?dragEnterEvent@QGraphicsItem@@MEAAXPEAVQGraphicsSceneDragDropEvent@@@Z
+\vptU
 ^%1( \t|\t)(?<VALUE>.*)
 ^M?light@QColor@@QEBA?AV1@H@Z
 ^V?setTransform@QPainter@@QEAAXAEBVQTransform@@_N@Z
@@ -7752,7 +7594,6 @@ __stdio_common_vsnprintf_s
 __stdio_common_vsprintf
 __stdio_common_vsprintf_s
 __stdio_common_vsscanf
-__stdio_common_vswprintf
 _c_exit
 _callnewh
 _cexit
@@ -7804,7 +7645,6 @@ abort
 abridge
 action_column_width
 adaptiveSampling
-add_ogs_row
 adddismissablewarning
 additional six characters expected to parse unicode surrogate pair.
 addressList
@@ -7815,7 +7655,6 @@ allowDroppedNullPlaceholders
 allowNumericKeys
 allowSingleQuotes
 allowSpecialFloats
-allowSupersampleFiltering
 allowTimingStore
 allow_master
 alse
@@ -7839,8 +7678,6 @@ api-ms-win-crt-stdio-l1-1-0.dll
 api-ms-win-crt-string-l1-1-0.dll
 api-ms-win-crt-time-l1-1-0.dll
 api-ms-win-crt-utility-l1-1-0.dll
-applaunch_steam
-applaunch_unknown
 application/x-qt-windows-mime;value="FileContents"
 approximateCount must be greater than zero:
 arguments
@@ -8074,7 +7911,6 @@ double __cdecl QCPBars::selectTest(const class QPointF &,bool,class QVariant *) 
 double __cdecl QCPGraph::pointDistance(const class QPointF &) const
 double __cdecl QCPGraph::selectTest(const class QPointF &,bool,class QVariant *) const
 double __cdecl QCPLayoutElement::selectTest(const class QPointF &,bool,class QVariant *) const
-downsampleFiltering
 driver_
 driver_defaults.vrsettings
 driver_holographic
@@ -8113,9 +7949,9 @@ element is not child of this margin group side
 en_us
 enable
 enableBluetooth
-enableCamera
 enableCameraSurfaces
 enableHomeApp
+enableHomeApp2
 enableSafeMode
 enableYAMLCompatibility
 enableappcontainers
@@ -8175,7 +8011,6 @@ fclose
 ffffff
 fflush
 fi_fi
-fields
 file://
 filename
 finnish
@@ -8212,7 +8047,6 @@ fullFilename
 fwrite
 g\n?dropEvent@QTreeWidget@@MEAAXPEAVQDropEvent@@@Z
 g\v?fitInView@QGraphicsView@@QEAAXAEBVQRectF@@W4AspectRatioMode@Qt@@@Z
-gamepad
 german
 getDeviceProperty returned empty\n
 getDeviceProperty returned wrong type %d\n
@@ -8236,13 +8070,7 @@ gpPolar
 gpSpectrum
 gpThermal
 gpuBusMonitoring
-gpuSpeedDriver
-gpuSpeedHorsepower
-gpuSpeedManualOverride
-gpuSpeedManualOverrideScale
 gpuSpeedRenderTargetScale
-gpuSpeedVendor
-gpuSpeedVersion
 gpu_profiler_capture
 gradient
 gradientChanged
@@ -8383,7 +8211,6 @@ indentation
 index
 index out of bounds:
 indexhmd
-installID
 installdriver
 insufficient lookahead
 int __cdecl QCPAxisRect::calculateAutoMargin(enum QCP::MarginSide)
@@ -8816,8 +8643,6 @@ selectionTolerance
 separator
 separator_color
 server
-session_id_field_name
-session_ogs_row
 setDataRange
 setDataScaleType
 setGradient
@@ -8889,6 +8714,9 @@ standaloneSystemLayer
 start
 startsteam
 startup
+startup_app_id
+startup_app_type
+startup_exe_name
 startup_reason
 state
 statesimulator
@@ -8916,15 +8744,11 @@ steam://url/CommunityFilePage/%llu
 steam://url/SteamWorkshopPage/%u
 steam_api64
 steam_api64.dll
-steam_start_steamvr
-steam_vrbutton
 steamvr
 steamvr.vrsettings
-steamvr.vrstats
 steamvr://overlayviewer
 steamvr://webconsole
 steamvr_restart
-steamvr_vrstartup
 steamvrstatus
 steamvrstatus/geometry
 steamvrstatus/visible
@@ -8999,7 +8823,6 @@ systemreport
 systemreport2/geometry
 systemreport2/last_directory
 systemreport2/visible
-table
 tail
 targetGraph is this graph itself
 targetGraph not in same plot
@@ -9239,9 +9062,6 @@ w\r?inputMethodQuery@QComboBox@@UEBA?AVQVariant@@W4InputMethodQuery@Qt@@@Z
 waitForNext
 waking_base_stations
 waking_base_stations_state_changed
-watchdog_controller
-watchdog_hmd
-watchdog_unknown
 wcsncmp
 wcsrchr
 wcsstr
@@ -9265,7 +9085,6 @@ wizard_width
 wn>Jj
 workingDirectory
 workshop_%s/lastFile
-wsprintfW
 wtAbsolute
 wtAxisRectRatio
 wtPlotCoords

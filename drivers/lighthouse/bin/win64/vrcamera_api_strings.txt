@@ -613,7 +613,7 @@ QueryDepthSList
 QueryPerformanceCounter
 QueryPerformanceFrequency
 QueryUmsThreadInformation
-RSDSDMawb
+RSDSW[
 RaiseException
 RegisterTraceGuidsW
 RegisterWaitForSingleObject
@@ -647,6 +647,7 @@ SleepConditionVariableCS
 SleepConditionVariableSRW
 SubmitThreadpoolWork
 SwitchToThread
+T8b 
 Target device found.
 TargetOversubscriptionFactor
 TerminateProcess

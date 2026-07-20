@@ -332,7 +332,7 @@
 }
 .inputfocusdevui_RestOfDataSection_3ScY_ {
   overflow: auto;
-  min-height: 300px;
+  min-height: 0px;
   display: flex;
   flex-direction: column;
 }

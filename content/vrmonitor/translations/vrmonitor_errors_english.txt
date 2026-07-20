@@ -527,6 +527,11 @@
 "VRInitError_VendorSpecific_VRLink_NoAdapterFound_Action" " "
 "VRInitError_VendorSpecific_VRLink_NoAdapterFound_ActionURL" " "
 
+"VRInitError_VendorSpecific_VRLink_NoEncoderSupport_Header" "No HEVC Support"
+"VRInitError_VendorSpecific_VRLink_NoEncoderSupport_Description" "No available Vulkan video device reported support for HEVC encoding."
+"VRInitError_VendorSpecific_VRLink_NoEncoderSupport_Action" " "
+"VRInitError_VendorSpecific_VRLink_NoEncoderSupport_ActionURL" " "
+
 "VRInitError_VendorSpecific_Oasis_UnlockRequired_Header" "Oasis Driver Requires Unlock"
 "VRInitError_VendorSpecific_Oasis_UnlockRequired_Description" "Every Mixed Reality headset and controller must be unlocked prior to using the Oasis driver. Follow the steps at the link below."
 "VRInitError_VendorSpecific_Oasis_UnlockRequired_Action" "Unlock Instructions"

@@ -252,7 +252,6 @@ $3br
 /chaperone/showing_working_pid
 /chaperone/standing/transform
 /chaperone/state
-/chaperone/temporary_playing_outside_playspace_time
 /click
 /controller_type/
 /dashboard/visible
@@ -290,9 +289,9 @@ $3br
 /data/src/vrclient/skeletalinpututils.cpp
 /data/src/vrclient/vrclientcore.cpp
 /data/src/vrclient/vrcompositorclient.cpp
-/data/src/vrclient/vrcompositorclient.cpp:1440
-/data/src/vrclient/vrcompositorclient.cpp:1696
-/data/src/vrclient/vrcompositorclient.cpp:2497
+/data/src/vrclient/vrcompositorclient.cpp:1429
+/data/src/vrclient/vrcompositorclient.cpp:1685
+/data/src/vrclient/vrcompositorclient.cpp:2486
 /data/src/vrclient/vrcompositorclient.cpp:463
 /data/src/vrclient/vrcompositorsharedtextures.cpp
 /data/src/vrclient/vrcompositorsharedtextures.cpp:2564
@@ -361,6 +360,7 @@ $3br
 /user/gamepad
 /user/hand/left
 /user/hand/left is %X\n
+/user/hand/left/input/bumper/click
 /user/hand/left/input/dpad_down/click
 /user/hand/left/input/dpad_left/click
 /user/hand/left/input/dpad_right/click
@@ -387,6 +387,7 @@ $3br
 /user/hand/right/input/a/click
 /user/hand/right/input/b
 /user/hand/right/input/b/click
+/user/hand/right/input/bumper/click
 /user/hand/right/input/grip/click
 /user/hand/right/input/grip/value
 /user/hand/right/input/menu/click
@@ -627,6 +628,7 @@ $3br
 19CVRSteamPrivate_025
 19CVRSteamPrivate_026
 19CVRSteamPrivate_027
+19CVRSteamPrivate_028
 19CVRWatchdogHost_001
 19InMemoryInputStream
 1e+9999
@@ -670,7 +672,6 @@ $3br
 22CRenderModelLoadThread
 22CVRMsg_ApplicationInfo
 22CVRMsg_ConnectResponse
-22CVRMsg_GetDriverDetail
 22CVRMsg_ReloadChaperone
 22CVRSharedVulkanTexture
 22CWatchdogDriverContext
@@ -840,7 +841,6 @@ $3br
 30CVRMsg_CancelApplicationLaunch
 30CVRMsg_CompositorDumpImagesAll
 30CVRMsg_CompositorKeyboardShown
-30CVRMsg_GetDriverDetailResponse
 30CVRMsg_Input_GetActionBindings
 30CVRMsg_RegisterExternalWebRoot
 30CVRMsg_SetApplicationProcessId
@@ -960,6 +960,7 @@ $3br
 33SteamPrivateInterfaceRegistrationI19CVRSteamPrivate_025E
 33SteamPrivateInterfaceRegistrationI19CVRSteamPrivate_026E
 33SteamPrivateInterfaceRegistrationI19CVRSteamPrivate_027E
+33SteamPrivateInterfaceRegistrationI19CVRSteamPrivate_028E
 34CInputFilter_Scalar_ScaleAndOffset
 34CVRMsg_ApplicationManifestResponse
 34CVRMsg_CompositorRefSharedResource
@@ -1370,8 +1371,6 @@ CVRMsg_GetApplicationLaunchArgumentsResponse
 CVRMsg_GetDisplayInfo
 CVRMsg_GetDisplayInfoResponse
 CVRMsg_GetDisplayInfoResponse.DisplayInfo
-CVRMsg_GetDriverDetail
-CVRMsg_GetDriverDetailResponse
 CVRMsg_GetDriverInfo
 CVRMsg_GetDriverInfoResponse
 CVRMsg_GetDriverInfoResponse.DriverInfo
@@ -1543,6 +1542,7 @@ ChangeAppType failed with %s
 Changing app type from %s to %s
 Chaperone Universe was missing ID\n
 Character is expected after a dash.
+Checking input type %s::%s for path (%s)\n
 Chord for %s had %d bindings, which we don't know how to deal with yet\n
 ClearSkyboxOverride\n
 Client
@@ -1821,8 +1821,9 @@ File size mismatch :
 File was empty
 File write error: 
 Filter list was too gnarly. Not sorting the last %d filters\n
-FilterInputSourceName: Default flip: %s::%s\n
-FilterInputSourceName: Explicit flip: %s::%s\n
+FilterInputSourceName(%s). Mode: %s.  result: %s\n
+FilterInputSourceName: Default flip: from %s to %s\n
+FilterInputSourceName: Explicit flip: from %s to %s\n
 FilterInputSourceName: No flip: %s\n
 FilterInputSourceName: m_eDominantHand(%d) != left.  skip:%s\n
 FinishOpenCommandBuffer (Vulkan)
@@ -2238,6 +2239,7 @@ IVRSteamPrivate_025
 IVRSteamPrivate_026
 IVRSteamPrivate_027
 IVRSteamPrivate_028
+IVRSteamPrivate_029
 IVRSystem::GetOutputDevice: Failed to get required Vulkan device function pointer (vkGetPhysicalDeviceProperties2KHR)!\n
 IVRSystem::GetOutputDevice: Unsupported textureType, only TextureType_Vulkan supported on Linux.\n
 IVRSystem::GetOutputDevice: VkInstance_T *pInstance parameter is nullptr.  VkInstance must be specified for TextureType_Vulkan!\n
@@ -2346,7 +2348,7 @@ Invalid file size :
 Invalid glTF binary.
 Invalid glTF binary. GLB data exceeds 4GB.
 Invalid image data for image[
-Invalid input type %s for controller (%s)\n
+Invalid input type %s::%s for path (%s)\n
 Invalid magic.
 Invalid max zone %f. Ignoring it.\n
 Invalid output hand 
@@ -2557,6 +2559,7 @@ N2vr19IVRSteamPrivate_025E
 N2vr19IVRSteamPrivate_026E
 N2vr19IVRSteamPrivate_027E
 N2vr19IVRSteamPrivate_028E
+N2vr19IVRSteamPrivate_029E
 N2vr19IVRWatchdogProviderE
 N2vr20IVRResourcesInternalE
 N2vr21CVRApplicationsLatestE
@@ -2759,6 +2762,7 @@ Plane count of DmabufAttributes_t not in range of 1 to %u. Was: %u
 Pose
 Positional emitter description not found.
 PostPresentHandoff
+Powersave
 Primitive
 Process %d failed to shm_open %s: %d\n
 Process called VR_Init or xrCreateInstance %u times without a matching VR_Shutdown or xrDestroyInstance. Behavior is undefined.\n
@@ -2897,8 +2901,10 @@ Prop_HasDriverDirectModeComponent_Bool
 Prop_HasVirtualDisplayComponent_Bool
 Prop_HmdColumnCorrectionSettingPrefix_String
 Prop_HmdTrackingStyle_Int32
+Prop_Hmd_AppPreferencesSectionName_String
 Prop_Hmd_BlankOnFramerateChange_Bool
 Prop_Hmd_EnableParallelRenderCameras_Bool
+Prop_Hmd_RecommendedResolutionIsPerApp_Bool
 Prop_Hmd_RecommendedResolutionPixelsSteps_Int32
 Prop_Hmd_SupportsAppThrottling_Bool
 Prop_Hmd_SupportsDisplayPortTrainingMode_Bool
@@ -3987,6 +3993,7 @@ VRInitError_VendorSpecific_OculusLinkNotEnabled
 VRInitError_VendorSpecific_OculusRuntimeBadInstall
 VRInitError_VendorSpecific_UnableToConnectToOculusRuntime
 VRInitError_VendorSpecific_VRLink_NoAdapterFound
+VRInitError_VendorSpecific_VRLink_NoEncoderSupport
 VRInitError_VendorSpecific_VRLink_NoVideoSupport
 VRInitError_VendorSpecific_VRLink_OutdatedDriverMESA
 VRInitError_VendorSpecific_VRLink_OutdatedDriverNVIDIA
@@ -4835,6 +4842,7 @@ copyright
 corrupt
 count
 covariant return thunk to 
+create_chaperone_bubble_if_meaningful
 cs_cz
 cursor_index
 custom
@@ -4843,6 +4851,7 @@ da_dk
 danish
 dashboard
 dashboard_overlay_destroyed
+dashboard_relatch
 data
 data->vecBlocks[ unBlockIndex ].unReferences > 0
 data:application/gltf-buffer;base64,
@@ -4968,6 +4977,7 @@ enable
 enableCameraSurfaces
 enableDriverBoundsImport
 enableHomeApp
+enableHomeApp2
 enableLegacyGameTheater
 enableSteamInput
 enabled
@@ -5632,7 +5642,8 @@ position_z
 positional
 posix_memalign
 power
-powersaving
+powersaveFovScale
+powersaveResolution
 powf
 ppCmdBuf
 preferredRefreshRate
@@ -5731,6 +5742,7 @@ request_handlers_response
 request_tutorial_callout
 required_options
 requirement
+resolutionOverride
 resolutionScale
 resourceOnly
 resources
@@ -5867,6 +5879,7 @@ shaders/vulkan/distort_geom_drawregion_simplified_gamma_ps.spv
 shaders/vulkan/distort_geom_drawregion_simplified_ps.spv
 shaders/vulkan/distort_geom_drawregion_simplified_reflect_ps.spv
 shaders/vulkan/distort_geom_floor_aa_ps.spv
+shaders/vulkan/distort_geom_floor_auroralit_aa_ps.spv
 shaders/vulkan/distort_geom_floor_auroralit_ps.spv
 shaders/vulkan/distort_geom_floor_ps.spv
 shaders/vulkan/distort_geom_floor_reflect_aa_ps.spv
@@ -5971,23 +5984,23 @@ shaders/vulkan/geom_curved_uvs_embedded_vs.spv
 shaders/vulkan/geom_curved_vs.spv
 shaders/vulkan/geom_drawregion_curved_uvs_embedded_vs.spv
 shaders/vulkan/geom_drawregion_curved_vs.spv
-shaders/vulkan/geom_drawregion_ptnorm_curved_uvs_embedded_vs.spv
-shaders/vulkan/geom_drawregion_ptnorm_curved_vs.spv
-shaders/vulkan/geom_drawregion_ptnorm_uvs_embedded_vs.spv
-shaders/vulkan/geom_drawregion_ptnorm_vs.spv
+shaders/vulkan/geom_drawregion_reflect_curved_uvs_embedded_vs.spv
+shaders/vulkan/geom_drawregion_reflect_curved_vs.spv
+shaders/vulkan/geom_drawregion_reflect_uvs_embedded_vs.spv
+shaders/vulkan/geom_drawregion_reflect_vs.spv
 shaders/vulkan/geom_drawregion_uvs_embedded_vs.spv
 shaders/vulkan/geom_drawregion_vs.spv
 shaders/vulkan/geom_floor_auroralit_vs.spv
 shaders/vulkan/geom_floor_edge_vs.spv
-shaders/vulkan/geom_floor_vs.spv
+shaders/vulkan/geom_floor_reflect_vs.spv
 shaders/vulkan/geom_fresnel_vs.spv
 shaders/vulkan/geom_motes_vs.spv
 shaders/vulkan/geom_playspace_drawing_area_vs.spv
-shaders/vulkan/geom_ptnorm_curved_uvs_embedded_vs.spv
-shaders/vulkan/geom_ptnorm_curved_vs.spv
 shaders/vulkan/geom_ptnorm_ortho_out_vs.spv
-shaders/vulkan/geom_ptnorm_uvs_embedded_vs.spv
-shaders/vulkan/geom_ptnorm_vs.spv
+shaders/vulkan/geom_reflect_curved_uvs_embedded_vs.spv
+shaders/vulkan/geom_reflect_curved_vs.spv
+shaders/vulkan/geom_reflect_uvs_embedded_vs.spv
+shaders/vulkan/geom_reflect_vs.spv
 shaders/vulkan/geom_spherical_vs.spv
 shaders/vulkan/geom_tan_vs.spv
 shaders/vulkan/geom_uvs_embedded_vs.spv
@@ -6139,6 +6152,9 @@ startCompositorFromAppLaunch
 startDashboardFromAppLaunch
 startMonitorFromAppLaunch
 startup
+startup_app_id
+startup_app_type
+startup_exe_name
 startup_reason
 startupshutdown_settings
 state
@@ -6240,6 +6256,7 @@ system.messageoverlay.clientpid.%d
 system.systemui
 system.vrresources
 system.window.
+system_panel_interaction_mode
 tRNS after IDAT
 tRNS before PLTE
 tRNS with alpha

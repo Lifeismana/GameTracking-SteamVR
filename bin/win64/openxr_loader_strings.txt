@@ -424,6 +424,7 @@ atoi
 bad allocation
 bad array new length
 bad cast
+c6\6
 c:\buildslave\steamvr_rel_win64\build\src\thirdparty\openxr\loader\Retail\win64\2017\openxr_loader.pdb
 collectComments
 deque<T> too long

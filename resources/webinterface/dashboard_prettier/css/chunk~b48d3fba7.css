@@ -1427,7 +1427,7 @@ body.SGApp .SettingsSidebarButton .Label {
   border-radius: 1000px;
   background: radial-gradient(circle at center, black 0%, rgba(0, 0, 0, 0) 100%),
     conic-gradient(
-      from -45deg,
+      from var(--aurora-color-rotation),
       var(--aurora-color-n) 0deg,
       var(--aurora-color-e) 90deg,
       var(--aurora-color-s) 180deg,

@@ -29,6 +29,10 @@
   "Exit_Game": "Exit Game",
   "Exit_Home": "Exit Home",
 
+  "Enter_Gamepad_Mode": "Enter Gamepad Mode",
+  "Press_GamepadButton_To_Enter_Gamepad_Mode": "Press %1$s For Gamepad Mode",
+  "Use_Laser_Mouse_To_Interact": "Use the Laser Pointer to Interact",
+
   "Menu": "Menu",
   "Desktops": "Desktops",
   "Volume": "Volume",
@@ -41,6 +45,8 @@
   "StoreSection_TopMultiplayer": "Top Multiplayer",
   "StoreSection_TopFree": "Top Free",
 
+  "PowerMenu": "Power",
+
   "Library": "Library",
   "OldLibrary": "Old Library",
   "RecentlyPlayed": "Recently Played",
@@ -50,7 +56,7 @@
   "Return_To_Home": "Return to Home",
   "Controller_Bindings": "Controller Bindings",
   "App_Video_Settings": "Video Settings",
-  "Clear_PerfCriteria_Status": "Clear Performance Criteria Status",
+  "Clear_PerfCriteria_Status": "Clear Performance Assessment Status",
 
   "Desktop": "Desktop",
   "Desktop_X": "Desktop %1$s",

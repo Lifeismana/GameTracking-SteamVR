@@ -62,7 +62,8 @@
         "startCompositorFromAppLaunch": true,
         "startDashboardFromAppLaunch": true,
         "startOverlayAppsFromDashboard": true,
-        "enableHomeApp": false,
+        "enableHomeApp": true,
+        "enableHomeApp2": false,
         "setInitialDefaultHomeApp": false,
         "CycleBackgroundImageTimeSec": -1,
         "retailDemo": false,
@@ -106,11 +107,9 @@
         "recommendedResolutionMultiplierSteps": 0.02,
         "showRecommendedResolutionPercentage": true,
         "environmentMode": 0,
-        "framesToThrottle": 0,
         "envBrightnessNominal": 1.0,
         "envBrightnessTheater": 0.0,
-        "fovScale": 1,
-        "performanceProfile": "custom"
+        "performanceProfile": "Performance"
     },
     "openxr": {
         "metaUnityPluginCompatibility": 0
@@ -221,12 +220,14 @@
     "modelskins": {
     },
     "dashboard": {
+        "modalGamepadAndLaser": true,
         "enableDashboard": true,
         "allowCurvature": true,
         "allowExitVR": true,
         "allowPlacementDuringRecenter": false,
         "arcadeMode": false,
         "cefMaxFrameRate": 120.0,
+        "classicDashboardLayout": false,
         "dashboardScale": 1.0,
         "desktopScale": 1.1,
         "laserLength": 0.5,
@@ -261,7 +262,6 @@
         "allowSteamOverlays": true,
         "allowVRGamepadUI": true,
         "allowVRGamepadUIViaGamescope": false,
-        "wipSteamGameOverlays": true,
         "steamMatchesHMDFramerate": true,
         "overlayBacksideColor": "#27272CB3",
         "grabHandleAcceleration": 1.0

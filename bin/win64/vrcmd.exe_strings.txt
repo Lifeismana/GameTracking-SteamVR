@@ -36,6 +36,7 @@
 --dumpapps
 --dumpsensors
 --dumpsensorstomaya
+--events
 --exitafterone
 --fastposes
 --gametheatersample
@@ -99,6 +100,7 @@
 -Infinity
 .00cfg
 .?AU_Crt_new_delete@std@@
+.?AV<lambda_023daec3d3d4f59a0a4d1476435b32b2>@@
 .?AV<lambda_035b20e2072e45b6dd970733f8369903>@@
 .?AV<lambda_041ee88a809af1d97d17062a5ac7fcfc>@@
 .?AV<lambda_076f0acee9e6b14b08cad2ce3c484fd4>@@
@@ -172,6 +174,7 @@
 .?AV<lambda_f8ad05e5702ae749a1d9b3e58d1a2c0d>@@
 .?AV?$_Func_base@PEAXPEBD@std@@
 .?AV?$_Func_base@X$$V@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_023daec3d3d4f59a0a4d1476435b32b2>@@X$$V@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_035b20e2072e45b6dd970733f8369903>@@X$$V@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_041ee88a809af1d97d17062a5ac7fcfc>@@X$$V@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_076f0acee9e6b14b08cad2ce3c484fd4>@@X$$V@std@@
@@ -501,11 +504,13 @@ Error: Model Number %s for %s:%s is %d characters, which breaks the promise in t
 Error: Serial Number %s for %s:%s is %d characters, which breaks the promise in the interface documentation.\n
 Errors
 Event: %s %s\n
+Event: %s bResetManually: %d\n
 Event: %s data %16llx %16llx\n
 Event: %s for %s: %s %s\n
 Event: %s from %u data %16llx %16llx %16llx\n
 Event: %s from %u: %llx.%s\n
 Event: %s from %u: ipd=%2.1fmm\n
+Event: %s new universe: %d, bPoseContinuityToPriorUniverse: %d\n
 Exceeded stackLimit in readValue().
 Extra non-whitespace after JSON value.
 Failed to WaitForConnection on pipe %s because %s\n
@@ -790,8 +795,10 @@ Prop_HasDriverDirectModeComponent_Bool
 Prop_HasVirtualDisplayComponent_Bool
 Prop_HmdColumnCorrectionSettingPrefix_String
 Prop_HmdTrackingStyle_Int32
+Prop_Hmd_AppPreferencesSectionName_String
 Prop_Hmd_BlankOnFramerateChange_Bool
 Prop_Hmd_EnableParallelRenderCameras_Bool
+Prop_Hmd_RecommendedResolutionIsPerApp_Bool
 Prop_Hmd_RecommendedResolutionPixelsSteps_Int32
 Prop_Hmd_SupportsAppThrottling_Bool
 Prop_Hmd_SupportsDisplayPortTrainingMode_Bool
@@ -872,7 +879,7 @@ PropertyContainer: High lock acquisition counters: sp:%u yd:%u re:%u\n
 PropertyContainerCreation
 QueryPerformanceCounter
 QueryPerformanceFrequency
-RSDS
+RSDS_X\
 RaiseException
 ReadFile
 ReadFile failed on %s after event was signaled because %s\n
@@ -1230,6 +1237,7 @@ VRInitError_VendorSpecific_OculusLinkNotEnabled
 VRInitError_VendorSpecific_OculusRuntimeBadInstall
 VRInitError_VendorSpecific_UnableToConnectToOculusRuntime
 VRInitError_VendorSpecific_VRLink_NoAdapterFound
+VRInitError_VendorSpecific_VRLink_NoEncoderSupport
 VRInitError_VendorSpecific_VRLink_NoVideoSupport
 VRInitError_VendorSpecific_VRLink_OutdatedDriverMESA
 VRInitError_VendorSpecific_VRLink_OutdatedDriverNVIDIA
@@ -1271,6 +1279,7 @@ Warning: Watchdog %s not properly cleaned up%s%s\n
 WideCharToMultiByte
 Worst (ms)
 WriteFile
+[%5llu.%06llu] 
 [IPC] AddAccessAllowedAce failed for administrator. GetLastError returned: %d\n
 [IPC] AddAccessAllowedAce failed for chrome 1. GetLastError returned: %d\n
 [IPC] AddAccessAllowedAce failed for steam. GetLastError returned: %d\n

@@ -1,0 +1,433 @@
+{
+   "action_manifest_version" : 0,
+   "alias_info" : {},
+   "app_key" : "steam.app.2897700",
+   "bindings" : {
+      "/actions/buggy" : {
+         "chords" : [],
+         "haptics" : [],
+         "poses" : [],
+         "skeleton" : [],
+         "sources" : []
+      },
+      "/actions/default" : {
+         "chords" : [],
+         "haptics" : [],
+         "poses" : [],
+         "skeleton" : [],
+         "sources" : []
+      },
+      "/actions/platformer" : {
+         "chords" : [],
+         "haptics" : [],
+         "poses" : [],
+         "skeleton" : [],
+         "sources" : []
+      },
+      "/actions/vertigo" : {
+         "haptics" : [
+            {
+               "output" : "/actions/vertigo/out/haptic",
+               "path" : "/user/hand/left/output/haptic"
+            },
+            {
+               "output" : "/actions/vertigo/out/haptic",
+               "path" : "/user/hand/right/output/haptic"
+            }
+         ],
+         "poses" : [
+            {
+               "output" : "/actions/vertigo/in/pose",
+               "path" : "/user/hand/right/pose/raw"
+            },
+            {
+               "output" : "/actions/vertigo/in/pose",
+               "path" : "/user/hand/left/pose/raw"
+            }
+         ],
+         "skeleton" : [
+            {
+               "output" : "/actions/vertigo/in/skeletonlefthand",
+               "path" : "/user/hand/left/input/skeleton/left"
+            },
+            {
+               "output" : "/actions/vertigo/in/skeletonrighthand",
+               "path" : "/user/hand/right/input/skeleton/right"
+            }
+         ],
+         "sources" : [
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/vertigo/in/grip0_axis1d"
+                  }
+               },
+               "mode" : "button",
+               "parameters" : {
+                  "click_activate_threshold" : "0.7",
+                  "click_deactivate_threshold" : "0.65"
+               },
+               "path" : "/user/hand/left/input/grip"
+            },
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/vertigo/in/applicationmenu_press"
+                  },
+                  "touch" : {
+                     "output" : "/actions/vertigo/in/applicationmenu_touch"
+                  }
+               },
+               "mode" : "button",
+               "parameters" : {},
+               "path" : "/user/hand/left/input/system"
+            },
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/vertigo/in/grip0_axis1d"
+                  }
+               },
+               "mode" : "button",
+               "parameters" : {
+                  "click_activate_threshold" : "0.7",
+                  "click_deactivate_threshold" : "0.65"
+               },
+               "path" : "/user/hand/right/input/grip"
+            },
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/vertigo/in/applicationmenu_press"
+                  },
+                  "touch" : {
+                     "output" : "/actions/vertigo/in/applicationmenu_touch"
+                  }
+               },
+               "mode" : "button",
+               "parameters" : {},
+               "path" : "/user/hand/right/input/system"
+            },
+            {
+               "inputs" : {
+                  "value" : {
+                     "output" : "/actions/vertigo/in/trigger0_axis1d"
+                  }
+               },
+               "mode" : "scalar_constant",
+               "parameters" : {},
+               "path" : "/user/hand/left/input/bumper"
+            },
+            {
+               "inputs" : {
+                  "pull" : {
+                     "output" : "/actions/vertigo/in/trigger0_axis1d"
+                  }
+               },
+               "mode" : "trigger",
+               "parameters" : {},
+               "path" : "/user/hand/left/input/trigger"
+            },
+            {
+               "inputs" : {
+                  "value" : {
+                     "output" : "/actions/vertigo/in/trigger0_axis1d"
+                  }
+               },
+               "mode" : "scalar_constant",
+               "parameters" : {},
+               "path" : "/user/hand/right/input/bumper"
+            },
+            {
+               "inputs" : {
+                  "pull" : {
+                     "output" : "/actions/vertigo/in/trigger0_axis1d"
+                  }
+               },
+               "mode" : "trigger",
+               "parameters" : {},
+               "path" : "/user/hand/right/input/trigger"
+            },
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/vertigo/in/trigger0_press"
+                  },
+                  "touch" : {
+                     "output" : "/actions/vertigo/in/trigger0_touch"
+                  }
+               },
+               "mode" : "button",
+               "parameters" : {},
+               "path" : "/user/hand/left/input/trigger"
+            },
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/vertigo/in/trigger0_press"
+                  },
+                  "touch" : {
+                     "output" : "/actions/vertigo/in/trigger0_touch"
+                  }
+               },
+               "mode" : "button",
+               "parameters" : {},
+               "path" : "/user/hand/left/input/bumper"
+            },
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/vertigo/in/trigger0_press"
+                  },
+                  "touch" : {
+                     "output" : "/actions/vertigo/in/trigger0_touch"
+                  }
+               },
+               "mode" : "button",
+               "parameters" : {},
+               "path" : "/user/hand/right/input/trigger"
+            },
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/vertigo/in/trigger0_press"
+                  },
+                  "touch" : {
+                     "output" : "/actions/vertigo/in/trigger0_touch"
+                  }
+               },
+               "mode" : "button",
+               "parameters" : {},
+               "path" : "/user/hand/right/input/bumper"
+            },
+            {
+               "inputs" : {
+                  "position" : {
+                     "output" : "/actions/vertigo/in/touchpad0_axis2d"
+                  }
+               },
+               "mode" : "trackpad",
+               "parameters" : {},
+               "path" : "/user/hand/left/input/trackpad"
+            },
+            {
+               "inputs" : {
+                  "position" : {
+                     "output" : "/actions/vertigo/in/touchpad0_axis2d"
+                  }
+               },
+               "mode" : "trackpad",
+               "parameters" : {},
+               "path" : "/user/hand/right/input/trackpad"
+            },
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/vertigo/in/touchpad0_press"
+                  },
+                  "touch" : {
+                     "output" : "/actions/vertigo/in/touchpad0_touch"
+                  }
+               },
+               "mode" : "button",
+               "parameters" : {},
+               "path" : "/user/hand/left/input/trackpad"
+            },
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/vertigo/in/touchpad0_press"
+                  },
+                  "touch" : {
+                     "output" : "/actions/vertigo/in/touchpad0_touch"
+                  }
+               },
+               "mode" : "button",
+               "parameters" : {},
+               "path" : "/user/hand/right/input/trackpad"
+            },
+            {
+               "inputs" : {
+                  "position" : {
+                     "output" : "/actions/vertigo/in/axis0_axis2d"
+                  }
+               },
+               "mode" : "joystick",
+               "parameters" : {},
+               "path" : "/user/hand/left/input/thumbstick"
+            },
+            {
+               "inputs" : {
+                  "position" : {
+                     "output" : "/actions/vertigo/in/axis0_axis2d"
+                  }
+               },
+               "mode" : "joystick",
+               "parameters" : {},
+               "path" : "/user/hand/right/input/thumbstick"
+            },
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/vertigo/in/axis0_press"
+                  },
+                  "touch" : {
+                     "output" : "/actions/vertigo/in/axis0_touch"
+                  }
+               },
+               "mode" : "button",
+               "parameters" : {},
+               "path" : "/user/hand/left/input/thumbstick"
+            },
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/vertigo/in/axis0_press"
+                  },
+                  "touch" : {
+                     "output" : "/actions/vertigo/in/axis0_touch"
+                  }
+               },
+               "mode" : "button",
+               "parameters" : {},
+               "path" : "/user/hand/right/input/thumbstick"
+            },
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/vertigo/in/button1_press"
+                  },
+                  "touch" : {
+                     "output" : "/actions/vertigo/in/button1_touch"
+                  }
+               },
+               "mode" : "button",
+               "parameters" : {},
+               "path" : "/user/hand/left/input/dpad_left"
+            },
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/vertigo/in/button1_press"
+                  },
+                  "touch" : {
+                     "output" : "/actions/vertigo/in/button1_touch"
+                  }
+               },
+               "mode" : "button",
+               "parameters" : {},
+               "path" : "/user/hand/left/input/dpad_right"
+            },
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/vertigo/in/button1_press"
+                  },
+                  "touch" : {
+                     "output" : "/actions/vertigo/in/button1_touch"
+                  }
+               },
+               "mode" : "button",
+               "parameters" : {},
+               "path" : "/user/hand/left/input/dpad_up"
+            },
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/vertigo/in/button1_press"
+                  },
+                  "touch" : {
+                     "output" : "/actions/vertigo/in/button1_touch"
+                  }
+               },
+               "mode" : "button",
+               "parameters" : {},
+               "path" : "/user/hand/right/input/b"
+            },
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/vertigo/in/button1_press"
+                  },
+                  "touch" : {
+                     "output" : "/actions/vertigo/in/button1_touch"
+                  }
+               },
+               "mode" : "button",
+               "parameters" : {},
+               "path" : "/user/hand/right/input/x"
+            },
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/vertigo/in/button1_press"
+                  },
+                  "touch" : {
+                     "output" : "/actions/vertigo/in/button1_touch"
+                  }
+               },
+               "mode" : "button",
+               "parameters" : {},
+               "path" : "/user/hand/right/input/y"
+            },
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/vertigo/in/button0_press"
+                  },
+                  "touch" : {
+                     "output" : "/actions/vertigo/in/button0_touch"
+                  }
+               },
+               "mode" : "button",
+               "parameters" : {},
+               "path" : "/user/hand/left/input/dpad_down"
+            },
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/vertigo/in/button0_press"
+                  },
+                  "touch" : {
+                     "output" : "/actions/vertigo/in/button0_touch"
+                  }
+               },
+               "mode" : "button",
+               "parameters" : {},
+               "path" : "/user/hand/right/input/a"
+            },
+            {
+               "inputs" : {
+                  "pull" : {
+                     "output" : "/actions/vertigo/in/grip1_axis1d"
+                  }
+               },
+               "mode" : "trigger",
+               "parameters" : {},
+               "path" : "/user/hand/left/input/grip"
+            },
+            {
+               "inputs" : {
+                  "pull" : {
+                     "output" : "/actions/vertigo/in/grip1_axis1d"
+                  }
+               },
+               "mode" : "trigger",
+               "parameters" : {},
+               "path" : "/user/hand/right/input/grip"
+            }
+         ]
+      }
+   },
+   "category" : "steamvr_input",
+   "controller_type" : "frame_controller",
+   "description" : "(auto-remapped from knuckles)",
+   "interaction_profile" : "",
+   "name" : "Arizona Sunshine® VR Remake configuration for Frame Controller",
+   "options" : {
+      "simulate_hmd" : true,
+      "simulate_rendermodel" : "name_only",
+      "simulated_controller_type" : "knuckles"
+   },
+   "simulated_actions" : []
+}

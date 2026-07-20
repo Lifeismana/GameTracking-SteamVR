@@ -854,7 +854,10 @@ R8_UINT
 R8_UNORM
 R9G9B9E5_SHAREDEXP
 RDMA_CAPABLE_BIT_NV
+RENDERDOC API Not Found\n
+RENDERDOC Enabled
 RENDERDOC_GetAPI
+RENDERDOC_GetAPI failed with code %d
 ROWMAJOR_IMAGE
 RPS_ERROR_COMMAND_ALREADY_FINAL
 RPS_ERROR_FILE_NOT_FOUND
@@ -900,6 +903,7 @@ Remap
 RenderGraph::AddPhase:
 RenderGraphSignature::Create(m_arena, pSignatureDesc, &pSignature)
 RenderTargetBlend
+Renderdoc requested, but, could not load librenderdoc.so
 Reproject Index Buffer-%s
 Reproject Vertex Buffer-%s
 Requested Force create but SharedObjectMutex already created\n

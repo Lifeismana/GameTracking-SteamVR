@@ -1,4 +1,4 @@
-var CLSTAMP = "10770080";
+var CLSTAMP = "10833373";
 (self.webpackChunkvrwebui = self.webpackChunkvrwebui || []).push([
   [797],
   {
@@ -383,7 +383,7 @@ var CLSTAMP = "10770080";
                 const d = 1 + 3 * r;
                 let l = [0, 0, 0, 0, 0, 0, 0, 0, 0],
                   m = !1;
-                if (e.isExternal() || s >= i || n >= a)
+                if (e.isExternal || s >= i || n >= a)
                   for (let e = 0; e < 3; e++) this.setPixel(d + 1, 0, 0, 0, 0);
                 else
                   (m = !0),

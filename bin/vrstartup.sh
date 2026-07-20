@@ -41,6 +41,13 @@ if [ -n "${PRESSURE_VESSEL_RUNTIME-}" ]; then
 	logger="$(which srt-logger)"
 else
 	if [ "${VALVE_SKIP_RUNTIME_SAFETY}" != "1" ]; then
+		# If the SLR exists in the steamapps directory, auto-launch ourselves into it
+		RUN_IN_SNIPER="${STEAM_BASE_FOLDER}/steamapps/common/SteamLinuxRuntime_sniper/run-in-sniper"
+		if [ -f "${RUN_IN_SNIPER}" ]; then
+			log "Re-exec'ing into Steam Linux Runtime located at $(dirname "${RUN_IN_SNIPER}")"
+			exec "${RUN_IN_SNIPER}" "$0" "$@"
+		fi
+
 		log "ERROR: no steam runtime environment set, please use sniper SLR"
 		exit 1
 	else

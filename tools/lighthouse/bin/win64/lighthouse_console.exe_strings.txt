@@ -181,7 +181,6 @@ $0option $1;\n
 )", which is not defined. The innermost scope is searched first in name resolution. Consider using a leading '.'(i.e., "(.
 ).  Contact the program author for an update.  If you compiled the program yourself, make sure that your headers are from the same version of Protocol Buffers as your link-time library.  (Version verification failed in "
 *5KS
-+CMi
 +laser0
 +laser1
 +motor0

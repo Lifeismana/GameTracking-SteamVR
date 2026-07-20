@@ -1,4 +1,4 @@
-var CLSTAMP = "10770080";
+var CLSTAMP = "10833373";
 (self.webpackChunkvrwebui = self.webpackChunkvrwebui || []).push([
   [170],
   {
@@ -998,28 +998,28 @@ var CLSTAMP = "10770080";
         v = o(8627),
         g = o(1333),
         f = o(7034),
-        _ = o(4007),
-        L = o(3606),
-        y = o(776),
-        M = o(4562),
-        b = o(3297),
-        w = o(1651),
-        H = o(249),
+        _ = o(3606),
+        L = o(776),
+        y = o(4562),
+        M = o(3297),
+        b = o(1651),
+        w = o(249),
         V = o(1331),
-        E = o(7727),
-        S = o(9961),
-        I = o(6539),
-        P = o(3758),
+        H = o(7727),
+        E = o(9961),
+        S = o(6539),
+        I = o(3758),
         D = o(9674),
-        F = o(5336),
+        P = o(5336),
         R = o(5735),
         k = o(2741),
-        Z = o(9926),
-        x = o(9285),
-        T = o(4182),
-        O = o(247),
-        z = o(9995);
-      const B = new y.wd("Frame");
+        F = o(9926),
+        Z = o(4182),
+        x = o(247),
+        T = o(9995),
+        O = o(5484),
+        z = o(1391);
+      const B = new L.wd("Frame");
       var N;
       !(function (e) {
         (e[(e.Uninitialized = 0)] = "Uninitialized"),
@@ -1047,23 +1047,22 @@ var CLSTAMP = "10770080";
             (this.m_rgControlsItems_TabHoverControls = []),
             (this.m_vrAppEntry = void 0),
             (this.m_mapSpatializeEnabledForPage = new Map()),
-            (this.m_actionToFocusMainPanel = void 0),
-            (this.m_actionToFocusLeftFrameMenu = void 0),
-            (this.m_refFrameMenu = l.createRef()),
-            (this.Log = new y.wd("Frame", () => this.logPrefix)),
+            (this.m_frameMenuPanel = void 0),
+            (this.Log = new L.wd("Frame", () => this.logPrefix)),
             (this.m_unNextPageID = 1),
             (this.m_setComponents = new Set()),
             (this.sharing = void 0),
             (this.curvature = new V.vm(this)),
             (this.docking = new v.bQ(this)),
-            (this.closing = new O.d(this)),
-            (this.size = new S.LD(this)),
-            (this.m_OnDestroyed = new w.l()),
+            (this.closing = new x.d(this)),
+            (this.size = new E.LD(this)),
+            (this.inputFocus = new z.i(this)),
+            (this.m_OnDestroyed = new b.l()),
             (this.m_bPendingLoadAppInfo = !1),
             (this.m_bPendingInitialSyncWithSteam = !1),
             (this.m_unOverridePageID = void 0),
             (this.m_unFrameID = e),
-            (this.tab = new z.n(this, t)),
+            (this.tab = new T.n(this, t)),
             (this.props = o),
             (0, n.makeObservable)(this);
         }
@@ -1121,11 +1120,11 @@ var CLSTAMP = "10770080";
         }
         get isCurrentlyVisible() {
           if (this.state != N.Alive) return !1;
-          if (T.N.isLocked && !this.m_bVisibleWhenLocked) return !1;
+          if (Z.N.isLocked && !this.m_bVisibleWhenLocked) return !1;
           switch (this.docking.dockLocation) {
             case a.yW.Dashboard:
               return (
-                !!s.SW.m_bDashboardVisible &&
+                !(!s.SW.isFullyVisible && !s.SW.isDashboardDiminished) &&
                 !!this.isActiveDashboardFrame &&
                 (null == d.JJ.framePreviewingDashboardDockSnap ||
                   d.JJ.framePreviewingDashboardDockSnap == this)
@@ -1155,6 +1154,9 @@ var CLSTAMP = "10770080";
         get isActiveDashboardFrame() {
           return (0, k.gp)(s.SW.activeFrame, this);
         }
+        get isActiveDashboardFrameInDiminishedMode() {
+          return this.isActiveDashboardFrame && s.SW.isDashboardDiminished;
+        }
         get pageIDs() {
           return Array.from(this.m_mapPages.keys());
         }
@@ -1172,21 +1174,23 @@ var CLSTAMP = "10770080";
             return h.r.GetRequestForID(this.m_unFrameMenuPopupID);
         }
         get shouldRenderFrameControls() {
-          var e, t;
+          var e;
           return (
             !D.T.isOOBE &&
-            !T.N.isLocked &&
-            (null ==
-              (null === (e = this.activePage) || void 0 === e
-                ? void 0
-                : e.summonOverlayKey) ||
-              !_.Q.GetOverlayFlag(
-                null === (t = this.activePage) || void 0 === t
-                  ? void 0
-                  : t.summonOverlayKey,
-                67108864,
-              ))
+            !Z.N.isLocked &&
+            !(null === (e = this.activePage) || void 0 === e
+              ? void 0
+              : e.shouldShowMinimalDecorations)
           );
+        }
+        get frameControlsVisibilityRequiresLaser() {
+          return this.isActiveDashboardFrameInDiminishedMode, !0;
+        }
+        get frameMenuVisibilityRequiresLaser() {
+          var e;
+          return !(null === (e = this.activePage) || void 0 === e
+            ? void 0
+            : e.isSystemPanel);
         }
         get isRemoteFrame() {
           return !1;
@@ -1204,7 +1208,7 @@ var CLSTAMP = "10770080";
               ? void 0
               : e.summonOverlayKey;
           for (const e of this.associatedSummonOverlayKeys)
-            if (e.startsWith(L.bl + ".")) {
+            if (e.startsWith(_.bl + ".")) {
               t = e;
               break;
             }
@@ -1215,8 +1219,8 @@ var CLSTAMP = "10770080";
             !!this.activePage &&
             !!g.HR.settings.get("/settings/audio/enableSpatializeGlobal") &&
               null != this.overlayKeyForSpatialize &&
-            (this.overlayKeyForSpatialize.startsWith(L.bl + ".") ||
-              this.overlayKeyForSpatialize == L.P)
+            (this.overlayKeyForSpatialize.startsWith(_.bl + ".") ||
+              this.overlayKeyForSpatialize == _.P)
           );
         }
         get isSpatializeEnabled() {
@@ -1281,7 +1285,7 @@ var CLSTAMP = "10770080";
             : (null === (t = this.m_vrAppEntry) || void 0 === t
                   ? void 0
                   : t.starts_theater_mode) ||
-                this.associatedSummonOverlayKeys.includes(L.P)
+                this.associatedSummonOverlayKeys.includes(_.P)
               ? (this.docking.SetInTheater(),
                 null ===
                   (o =
@@ -1293,7 +1297,7 @@ var CLSTAMP = "10770080";
               : this.associatedSummonOverlayKeys.some((e) =>
                   e.startsWith("gamescope."),
                 ) &&
-                s.SW.m_bDashboardVisible &&
+                s.SW.isFullyVisible &&
                 (null === (r = f.cQ.Instance) ||
                   void 0 === r ||
                   r.switchToFrameInternal(this, void 0, "OnPendingComplete"));
@@ -1333,27 +1337,7 @@ var CLSTAMP = "10770080";
                 }),
               );
             for (const e of this.m_setComponents) e.Init();
-            (this.m_actionToFocusMainPanel = this.CreateAction(
-              { invocation: 1 },
-              () => {
-                var e;
-                return null === (e = this.activePage) || void 0 === e
-                  ? void 0
-                  : e.focus.PushInputFocus();
-              },
-            )),
-              (this.m_actionToFocusLeftFrameMenu = this.CreateAction(
-                { invocation: 1 },
-                () => {
-                  var e;
-                  const t =
-                    null === (e = this.m_refFrameMenu.current) || void 0 === e
-                      ? void 0
-                      : e.getSGID();
-                  t && x.u.PushInputFocus(t);
-                },
-              )),
-              this.Log.Info("Frame initialized.");
+            this.Log.Info("Frame initialized.");
           }
         }
         OnPagesDestroyed(e) {
@@ -1404,13 +1388,13 @@ var CLSTAMP = "10770080";
             (this.m_rgControlsItems_TabHoverControls = t);
         }
         get protoForSteam() {
-          var e, t, o, r, n, i, l, s;
+          var e, t, o, r, n, i;
           if (this.state == N.Uninitialized || this.state == N.Destroyed)
             return;
-          const c =
-              Z.Mg.m_bIsVRLinkServer &&
-              Z.Mg.m_eVRLinkDashboardMode == a.Fz.SteamVRClientLegacyDual,
-            C = {
+          const l =
+              F.Mg.m_bIsVRLinkServer &&
+              F.Mg.m_eVRLinkDashboardMode == a.Fz.SteamVRClientLegacyDual,
+            s = {
               frame_id: this.frameID,
               menu: {
                 items_for_left_frame_menu:
@@ -1436,17 +1420,11 @@ var CLSTAMP = "10770080";
                     : [],
               },
               frame_actions: {
-                focus_main_panel_action:
-                  null === (n = this.m_actionToFocusMainPanel) || void 0 === n
-                    ? void 0
-                    : n.actionID,
+                focus_main_panel_action: this.inputFocus.focusMainPanelActionID,
                 focus_left_frame_menu_action:
-                  null === (i = this.m_actionToFocusLeftFrameMenu) ||
-                  void 0 === i
-                    ? void 0
-                    : i.actionID,
+                  this.inputFocus.focusLeftFrameMenuActionID,
               },
-              is_vrlink_remote: c,
+              is_vrlink_remote: l,
               is_streaming_client: this.isStreamingClient,
               steamui_page_overlay_keys:
                 this.associatedSummonOverlayKeys.filter((e) =>
@@ -1481,20 +1459,20 @@ var CLSTAMP = "10770080";
                   { type: 2 },
                   ...o,
                 ]);
-            })(C),
+            })(s),
             this.shouldRenderFrameControls ||
-              (C.controls.items_for_bottom_frame_controls = void 0),
-            (D.T.isOOBE || T.N.isLocked) &&
-              (C.menu.items_for_left_frame_menu = void 0);
-          const m = new Set();
+              (s.controls.items_for_bottom_frame_controls = void 0),
+            (D.T.isOOBE || Z.N.isLocked) &&
+              (s.menu.items_for_left_frame_menu = void 0);
+          const c = new Set();
           return (
-            null === (l = C.menu.items_for_left_frame_menu) ||
-              void 0 === l ||
-              l.forEach((e) => m.add(e.action_id)),
-            null === (s = C.menu.items_for_tab_hover_menu) ||
-              void 0 === s ||
-              s.forEach((e) => m.add(e.action_id)),
-            (C.action_definitions = [...m]
+            null === (n = s.menu.items_for_left_frame_menu) ||
+              void 0 === n ||
+              n.forEach((e) => c.add(e.action_id)),
+            null === (i = s.menu.items_for_tab_hover_menu) ||
+              void 0 === i ||
+              i.forEach((e) => c.add(e.action_id)),
+            (s.action_definitions = [...c]
               .map((e) => {
                 var t;
                 return null === (t = u.g.GetAction(e)) || void 0 === t
@@ -1502,8 +1480,8 @@ var CLSTAMP = "10770080";
                   : t.protoForSteam;
               })
               .filter(Boolean)),
-            b.F.HasCapability(20, a.fk.MutualLocal) || (0, H.Mx)(C.menu),
-            (C.dock_location = (function (e) {
+            M.F.HasCapability(20, a.fk.MutualLocal) || (0, w.Mx)(s.menu),
+            (s.dock_location = (function (e) {
               switch (e) {
                 case a.yW.Dashboard:
                   return 1;
@@ -1519,7 +1497,7 @@ var CLSTAMP = "10770080";
                   return 6;
               }
             })(this.docking.dockLocation)),
-            C
+            s
           );
         }
         get protoForVRLink() {
@@ -1588,6 +1566,7 @@ var CLSTAMP = "10770080";
           "m_mapSpatializeEnabledForPage",
           void 0,
         ),
+        (0, r.Cg)([n.observable.ref], W.prototype, "m_frameMenuPanel", void 0),
         (0, r.Cg)([n.computed], W.prototype, "logPrefix", null),
         (0, r.Cg)([n.computed], W.prototype, "state", null),
         (0, r.Cg)([n.observable], W.prototype, "m_bPendingLoadAppInfo", void 0),
@@ -1612,6 +1591,12 @@ var CLSTAMP = "10770080";
         (0, r.Cg)([n.computed], W.prototype, "activePageID", null),
         (0, r.Cg)([n.computed], W.prototype, "activePage", null),
         (0, r.Cg)([n.computed], W.prototype, "isActiveDashboardFrame", null),
+        (0, r.Cg)(
+          [n.computed],
+          W.prototype,
+          "isActiveDashboardFrameInDiminishedMode",
+          null,
+        ),
         (0, r.Cg)([n.computed], W.prototype, "pageIDs", null),
         (0, r.Cg)([n.computed], W.prototype, "pages", null),
         (0, r.Cg)(
@@ -1622,6 +1607,18 @@ var CLSTAMP = "10770080";
         ),
         (0, r.Cg)([n.computed], W.prototype, "frameMenuPopupRequest", null),
         (0, r.Cg)([n.computed], W.prototype, "shouldRenderFrameControls", null),
+        (0, r.Cg)(
+          [n.computed],
+          W.prototype,
+          "frameControlsVisibilityRequiresLaser",
+          null,
+        ),
+        (0, r.Cg)(
+          [n.computed],
+          W.prototype,
+          "frameMenuVisibilityRequiresLaser",
+          null,
+        ),
         (0, r.Cg)([n.computed], W.prototype, "frameControlsTransformID", null),
         (0, r.Cg)([n.computed], W.prototype, "overlayKeyForSpatialize", null),
         (0, r.Cg)([n.computed], W.prototype, "canSpatialize", null),
@@ -1646,111 +1643,120 @@ var CLSTAMP = "10770080";
         );
       const G = (0, i.PA)(
         l.forwardRef(function (e, t) {
-          var o, r, i, u, m;
-          const { children: p } = e,
-            h = l.useMemo(() => d.JJ.CreateCFrame(e), []);
+          var o, r, i, u, m, p;
+          const { children: h } = e,
+            v = l.useMemo(() => d.JJ.CreateCFrame(e), []);
           l.useLayoutEffect(() =>
             (0, n.runInAction)(() => {
-              h.props = e;
+              v.props = e;
             }),
           ),
-            (0, c.D5)(t, h),
-            l.useEffect(() => (h.Init(), () => h.DestroyFrame()), [h]);
-          let v = d.JJ.GetDockLocationTransformID(
-            h.docking.dockLocation,
-            h.frameID,
+            (0, c.D5)(t, v),
+            l.useEffect(() => (v.Init(), () => v.DestroyFrame()), [v]);
+          let g = d.JJ.GetDockLocationTransformID(
+            v.docking.dockLocation,
+            v.frameID,
           );
           return (
-            v ||
-              h.docking.dockLocation != a.yW.World ||
-              (v = d.JJ.GetDockLocationTransformID(a.yW.Dashboard, h.frameID)),
+            g ||
+              v.docking.dockLocation != a.yW.World ||
+              (g = d.JJ.GetDockLocationTransformID(a.yW.Dashboard, v.frameID)),
             l.createElement(
-              E.t.Provider,
-              { value: { frame: h, page: void 0 } },
+              H.t.Provider,
+              { value: { frame: v, page: void 0 } },
               l.createElement(
-                I.e,
+                S.e,
                 {
-                  frame_id: h.frameID,
-                  dock_location: h.docking.dockLocation,
-                  dock_location_preview: h.docking.previewDockLocation,
-                  resize_displacement: h.size.resizingDisplacementFactor,
-                  resize_scale_min: L.Ul,
-                  resize_scale_max: L.mB,
-                  ignore_resize_amount: h.size.ignoreResizeAmount,
-                  allow_input_capture: h.allowInputCapture,
+                  frame_id: v.frameID,
+                  dock_location: v.docking.dockLocation,
+                  dock_location_preview: v.docking.previewDockLocation,
+                  resize_displacement: v.size.resizingDisplacementFactor,
+                  resize_scale_min: _.Ul,
+                  resize_scale_max: _.mB,
+                  ignore_resize_amount: v.size.ignoreResizeAmount,
+                  allow_input_capture: v.allowInputCapture,
                   override_pre_resize_main_panel_height:
-                    h.size.mainPanelHeightOverride,
-                  suppress_panel_backsides: h.shouldSuppressPanelBacksides,
+                    v.size.mainPanelHeightOverride,
+                  suppress_panel_backsides: v.shouldSuppressPanelBacksides,
                   main_panel_input_focus_override:
                     null ===
                       (r =
-                        null === (o = h.activePage) || void 0 === o
+                        null === (o = v.activePage) || void 0 === o
                           ? void 0
-                          : o.focus) || void 0 === r
+                          : o.inputFocus) || void 0 === r
                       ? void 0
                       : r.inputFocusParams,
-                  main_panel_origin: h.docking.mainPanelOrigin,
+                  main_panel_origin: v.docking.mainPanelOrigin,
+                  main_panel_focus_outline:
+                    null === (i = v.activePage) || void 0 === i
+                      ? void 0
+                      : i.inputFocus.focusOutline,
                 },
-                p,
-                h.isCurrentlyVisible &&
-                  v &&
+                h,
+                v.isCurrentlyVisible &&
+                  g &&
                   l.createElement(
                     a.dL,
                     {
-                      parent_id: v,
+                      parent_id: g,
                       ignore_parent_scale: !0,
                       scale: s.SW.dashboardScale,
                     },
                     l.createElement(
                       a.dL,
-                      { scale: h.size.scaleForActivePage },
+                      { scale: v.size.scaleForActivePage },
                       l.createElement(
                         a.dL,
                         {
                           translation:
-                            h.docking.panelTranslationForResizeOrigin,
+                            v.docking.panelTranslationForResizeOrigin,
                         },
                         l.createElement(a.rF, {
                           mountedId:
-                            null === (i = h.activePage) || void 0 === i
+                            null === (u = v.activePage) || void 0 === u
                               ? void 0
-                              : i.mountableID,
+                              : u.mountableID,
                         }),
                       ),
                     ),
                     l.createElement(
                       a.dL,
                       {
-                        id: h.frameControlsTransformID,
+                        id: v.frameControlsTransformID,
                         parent_id:
-                          null === (u = h.activePage) || void 0 === u
+                          null === (m = v.activePage) || void 0 === m
                             ? void 0
-                            : u.GetPanelAnchorID(a.Oi.BottomCenter),
+                            : m.GetPanelAnchorID(a.Oi.BottomCenter),
                         scale:
-                          h.size.scaleForBottomControls /
-                          h.size.scaleForActivePage,
+                          v.size.scaleForBottomControls /
+                          v.size.scaleForActivePage,
                         frame_resize_scale_factor:
-                          h.docking.dockLocation == a.yW.Theater ? 0.5 : 0,
+                          v.docking.dockLocation == a.yW.Theater ? 0.5 : 0,
                       },
-                      l.createElement(M.t, { frame: h }),
+                      l.createElement(y.t, { frame: v }),
                     ),
-                    h.frameMenuPopupRequest &&
+                    v.frameMenuPopupRequest &&
                       l.createElement(
                         a.dL,
                         {
                           parent_id:
-                            null === (m = h.activePage) || void 0 === m
+                            null === (p = v.activePage) || void 0 === p
                               ? void 0
-                              : m.GetPanelAnchorID(a.Oi.CenterLeft),
+                              : p.GetPanelAnchorID(a.Oi.CenterLeft),
                         },
                         l.createElement(C.O2, {
-                          popupRequest: h.frameMenuPopupRequest,
-                          refPanel: h.m_refFrameMenu,
+                          popupRequest: v.frameMenuPopupRequest,
+                          refPanel: (e) => {
+                            v.m_frameMenuPanel = e;
+                          },
+                          only_visible_with_laser:
+                            v.frameMenuVisibilityRequiresLaser,
                         }),
                       ),
+                    l.createElement(O.y, null),
                     l.createElement(V.RS, null),
-                    l.createElement(P.X, null),
-                    h.size.showResizeHandle && l.createElement(F.W, null),
+                    l.createElement(I.X, null),
+                    v.size.showResizeHandle && l.createElement(P.W, null),
                   ),
               ),
             )
@@ -1798,7 +1804,7 @@ var CLSTAMP = "10770080";
         l = o(3714),
         s = o(6090),
         c = o(3514);
-      o(9285);
+      o(3215);
       const C = n.createContext({
         CreateControlsItemID: void 0,
         OnControlsItemRender: void 0,
@@ -3117,16 +3123,16 @@ var CLSTAMP = "10770080";
           M,
           b,
           w,
-          H,
           V,
+          H,
           E,
           S,
           I,
-          P,
           D,
-          F,
+          P,
           R,
           k,
+          F,
           Z,
           x,
           T,
@@ -3211,12 +3217,12 @@ var CLSTAMP = "10770080";
           le = {
             u:
               null !==
-                (V =
-                  null === (H = null == X ? void 0 : X.clip_rect) ||
-                  void 0 === H
+                (H =
+                  null === (V = null == X ? void 0 : X.clip_rect) ||
+                  void 0 === V
                     ? void 0
-                    : H.u_max) && void 0 !== V
-                ? V
+                    : V.u_max) && void 0 !== H
+                ? H
                 : 1,
             v:
               null !==
@@ -3231,27 +3237,27 @@ var CLSTAMP = "10770080";
           se = {
             x:
               null !==
-                (P =
+                (D =
                   null === (I = null == X ? void 0 : X.offset) || void 0 === I
                     ? void 0
-                    : I.x_pixels) && void 0 !== P
-                ? P
+                    : I.x_pixels) && void 0 !== D
+                ? D
                 : 0,
             y:
               null !==
-                (F =
-                  null === (D = null == X ? void 0 : X.offset) || void 0 === D
+                (R =
+                  null === (P = null == X ? void 0 : X.offset) || void 0 === P
                     ? void 0
-                    : D.y_pixels) && void 0 !== F
-                ? F
+                    : P.y_pixels) && void 0 !== R
+                ? R
                 : 0,
             z:
               null !==
-                (k =
-                  null === (R = null == X ? void 0 : X.offset) || void 0 === R
+                (F =
+                  null === (k = null == X ? void 0 : X.offset) || void 0 === k
                     ? void 0
-                    : R.z_pixels) && void 0 !== k
-                ? k
+                    : k.z_pixels) && void 0 !== F
+                ? F
                 : 0,
           },
           ce = {
@@ -3401,6 +3407,7 @@ var CLSTAMP = "10770080";
                       sort_order: ge,
                       no_depth_test: _e,
                       no_depth_write: Le,
+                      outline: n.mw.None,
                       frame_resize_scale_factor: 1,
                     },
                     oe,
@@ -3416,16 +3423,36 @@ var CLSTAMP = "10770080";
               { parent_overlay_key: null == X ? void 0 : X.parent_overlay_key },
               i.createElement(
                 n.Ci,
-                { key: X.dashboard_popup_id, location: ne },
+                {
+                  key: null == X ? void 0 : X.dashboard_popup_id,
+                  location: ne,
+                },
                 be,
               ),
             )
           : (null == X ? void 0 : X.parent_device_path)
-            ? i.createElement(
-                n.dL,
-                { parent_path: null == X ? void 0 : X.parent_device_path },
-                be,
-              )
+            ? 2 == (null == X ? void 0 : X.parent_enum)
+              ? i.createElement(
+                  n.dL,
+                  { parent_path: null == X ? void 0 : X.parent_device_path },
+                  i.createElement(
+                    n.m$,
+                    {
+                      rotation_start_angle_threshold: 10,
+                      rotation_stop_angle_threshold: 5,
+                      rotation_ease_out_angle_threshold: 20,
+                      rotation_min_angular_velocity: 75,
+                      rotation_ease_in_power: 1.5,
+                      lock_to_horizon: !1,
+                    },
+                    be,
+                  ),
+                )
+              : i.createElement(
+                  n.dL,
+                  { parent_path: null == X ? void 0 : X.parent_device_path },
+                  be,
+                )
             : be;
       }
       function g(e) {
@@ -3546,43 +3573,44 @@ var CLSTAMP = "10770080";
       const l = new a();
       window.TravelModeStore = l;
     },
-    9471: (e, t, o) => {
+    5751: (e, t, o) => {
       "use strict";
       o.d(t, {
-        eT: () => C,
-        xI: () => O,
-        Pq: () => M,
-        nl: () => d,
-        Jc: () => H,
-        Zy: () => f,
-        rx: () => g,
-        Ey: () => h,
-        oU: () => z,
-        Ki: () => Z,
-        I$: () => P,
-        _y: () => I,
-        s3: () => x,
-        Xj: () => b,
+        BS: () => H,
         DO: () => p,
+        Ey: () => h,
         FG: () => c,
-        YN: () => u,
-        aJ: () => V,
-        vN: () => R,
-        hU: () => v,
-        Sc: () => F,
-        wB: () => S,
-        _F: () => y,
-        PN: () => k,
-        jd: () => D,
-        y$: () => T,
-        Qt: () => E,
-        fr: () => w,
+        I$: () => P,
+        Ki: () => x,
+        PN: () => Z,
+        Pq: () => M,
+        Qt: () => S,
+        Sc: () => k,
         VR: () => m,
+        Xj: () => b,
+        YN: () => u,
+        Zy: () => f,
+        _F: () => y,
+        _y: () => D,
+        aJ: () => E,
+        bm: () => V,
+        eT: () => C,
+        fr: () => w,
+        hU: () => v,
+        jd: () => R,
+        nl: () => d,
+        oU: () => B,
+        rx: () => g,
+        s3: () => T,
+        vN: () => F,
+        wB: () => I,
+        xI: () => z,
+        y$: () => O,
       });
       var r = o(1635),
-        n = o(6540);
-      let i = 0;
-      var a = o(108),
+        n = o(6540),
+        i = o(6185),
+        a = o(108),
         l = o.n(a),
         s = o(9283);
       function c(e) {
@@ -4007,6 +4035,24 @@ var CLSTAMP = "10770080";
           }),
         );
       }
+      function V(e) {
+        return n.createElement(
+          "svg",
+          Object.assign(
+            {
+              xmlns: "http://www.w3.org/2000/svg",
+              className: "SVGIcon_Button SVGIcon_Close",
+              viewBox: "0 0 36 36",
+              fill: "none",
+            },
+            e,
+          ),
+          n.createElement("path", {
+            d: "M32.12 7.41L28.59 3.88L18 14.46L7.41 3.88L3.88 7.41L14.46 18L3.88 28.59L7.41 32.12L18 21.54L28.59 32.12L32.12 28.59L21.54 18L32.12 7.41Z",
+            fill: "currentColor",
+          }),
+        );
+      }
       function H(e) {
         return n.createElement(
           "svg",
@@ -4024,7 +4070,7 @@ var CLSTAMP = "10770080";
           }),
         );
       }
-      function V(e) {
+      function E(e) {
         return n.createElement(
           "svg",
           Object.assign(
@@ -4041,7 +4087,7 @@ var CLSTAMP = "10770080";
           }),
         );
       }
-      function E(e) {
+      function S(e) {
         return n.createElement(
           "svg",
           Object.assign(
@@ -4066,7 +4112,7 @@ var CLSTAMP = "10770080";
           }),
         );
       }
-      function S(e) {
+      function I(e) {
         return n.createElement(
           "svg",
           Object.assign(
@@ -4083,7 +4129,7 @@ var CLSTAMP = "10770080";
           }),
         );
       }
-      function I(e) {
+      function D(e) {
         return n.createElement(
           "svg",
           Object.assign(
@@ -4147,7 +4193,7 @@ var CLSTAMP = "10770080";
           }),
         );
       }
-      function D(e) {
+      function R(e) {
         return n.createElement(
           "svg",
           Object.assign(
@@ -4166,7 +4212,7 @@ var CLSTAMP = "10770080";
           }),
         );
       }
-      function F(e) {
+      function k(e) {
         return n.createElement(
           "svg",
           Object.assign(
@@ -4183,7 +4229,7 @@ var CLSTAMP = "10770080";
           }),
         );
       }
-      function R(e) {
+      function F(e) {
         return n.createElement(
           "svg",
           Object.assign(
@@ -4202,7 +4248,7 @@ var CLSTAMP = "10770080";
           }),
         );
       }
-      function k(e) {
+      function Z(e) {
         return n.createElement(
           "svg",
           Object.assign(
@@ -4221,7 +4267,7 @@ var CLSTAMP = "10770080";
           }),
         );
       }
-      function Z(e) {
+      function x(e) {
         return n.createElement(
           "svg",
           Object.assign(
@@ -4240,7 +4286,7 @@ var CLSTAMP = "10770080";
           }),
         );
       }
-      function x(e) {
+      function T(e) {
         return n.createElement(
           "svg",
           Object.assign(
@@ -4259,7 +4305,7 @@ var CLSTAMP = "10770080";
           }),
         );
       }
-      function T(e) {
+      function O(e) {
         return n.createElement(
           "svg",
           Object.assign(
@@ -4305,16 +4351,10 @@ var CLSTAMP = "10770080";
           }),
         );
       }
-      function O(e) {
+      function z(e) {
         const { type: t, partial: o } = e,
           a = (0, r.Tt)(e, ["type", "partial"]),
-          [l, s] = (function () {
-            const e = n.useRef(void 0);
-            return (
-              void 0 === e.current && (e.current = "svgid_" + i++),
-              [e.current, `url(#${e.current})`]
-            );
-          })();
+          [l, s] = (0, i.l)();
         return "triton" == t
           ? n.createElement(
               "svg",
@@ -4746,7 +4786,7 @@ var CLSTAMP = "10770080";
                                 )
                               : n.createElement(M, Object.assign({}, a));
       }
-      function z(e) {
+      function B(e) {
         const { off: t } = e;
         (0, r.Tt)(e, ["off"]);
         return t

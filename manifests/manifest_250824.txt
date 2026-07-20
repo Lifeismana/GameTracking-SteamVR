@@ -1,14 +1,14 @@
 Content Manifest for Depot 250824 
 
-Manifest ID / date     : 6413510358329140086 / 06/24/2026 19:08:51 
-Total number of files  : 3415 
-Total number of chunks : 3400 
-Total bytes on disk    : 698359413 
-Total bytes compressed : 366356432 
+Manifest ID / date     : 8629985184532610759 / 07/17/2026 22:25:00 
+Total number of files  : 3343 
+Total number of chunks : 3329 
+Total bytes on disk    : 698426219 
+Total bytes compressed : 366390832 
 
 
           Size Chunks File SHA                                 Flags Name
-            12      1 127ad39d7144293735f1daee8be7ad4e2377b313     0 bin/version.txt
+            12      1 4b990435a03f88b7779565c14184b11fcffc1494     0 bin/version.txt
              0      0 0000000000000000000000000000000000000000    40 content/vrmonitor/demoloop
          34709      1 f7557b27d169b830a48321e3760e38e08e771172     0 content/vrmonitor/demoloop/card_aperture.png
          21464      1 b32ccaa0cd6d5d8b4acbdb11ea0c28bfe2791d0d     0 content/vrmonitor/demoloop/card_archery.png
@@ -213,68 +213,68 @@ Total bytes compressed : 366356432
              0      0 0000000000000000000000000000000000000000    40 content/vrmonitor/textures
         619034      1 2a2b8b24ad538a64f6171b3762bf02bce70966a5     0 content/vrmonitor/textures/card_intro.png
              0      0 0000000000000000000000000000000000000000    40 content/vrmonitor/translations
-        170150      1 70d6fda9860193c2f37e23bc6ea6c6b2ab152683     0 content/vrmonitor/translations/vrmonitor_brazilian.txt
-        181942      1 fbb09f0acac3af52eb918cceb786a1018afdf10b     0 content/vrmonitor/translations/vrmonitor_bulgarian.txt
-        168772      1 7790fe331b167bf9103a3213839cf42ce6986fff     0 content/vrmonitor/translations/vrmonitor_czech.txt
-        165814      1 7fd82f727dd70a9f3e68b85a69886d3b4a59ea3d     0 content/vrmonitor/translations/vrmonitor_danish.txt
-        172316      1 eb685dd0344434f658cb374a64ec206295ebaa91     0 content/vrmonitor/translations/vrmonitor_dutch.txt
+        170016      1 163478a356bc7b76e562359004f98cfbc504833b     0 content/vrmonitor/translations/vrmonitor_brazilian.txt
+        181824      1 693fddec1b8e3c52fe187a2ef4fbacfa4d77c47c     0 content/vrmonitor/translations/vrmonitor_bulgarian.txt
+        168678      1 3784e4e272deeb467fc0bf6513099758084f6f31     0 content/vrmonitor/translations/vrmonitor_czech.txt
+        165750      1 b9cf77be59987410bcae4c061b0be49329213fa8     0 content/vrmonitor/translations/vrmonitor_danish.txt
+        172202      1 f688186f56d8ee93a8d2f0c6f36495e100a848a6     0 content/vrmonitor/translations/vrmonitor_dutch.txt
         163708      1 45e6b00c7bdecf9e071fa2182e9c78ffb47b9483     0 content/vrmonitor/translations/vrmonitor_english.txt
-        171554      1 53a4e5ef712250a3ecf9ac5c5f9356c896538753     0 content/vrmonitor/translations/vrmonitor_errors_brazilian.txt
-        179078      1 78bc9269f99841b2a7da6c5f22b88b41c6e867af     0 content/vrmonitor/translations/vrmonitor_errors_bulgarian.txt
-        171538      1 28a4b8ebc457d69e5b2055b1c1e07b119f807fbb     0 content/vrmonitor/translations/vrmonitor_errors_czech.txt
-        166710      1 58198158f3ade383783060ded2937dd0609f64ff     0 content/vrmonitor/translations/vrmonitor_errors_danish.txt
-        175338      1 40c840528c49e953220a98b2ce3fcd4dcee2605c     0 content/vrmonitor/translations/vrmonitor_errors_dutch.txt
-        169870      1 c75de0ca8512a5a56981f3009c5551870f10470c     0 content/vrmonitor/translations/vrmonitor_errors_english.txt
-        164870      1 dc458d834bd1ba0ad5ac44717315ca4cc7b67298     0 content/vrmonitor/translations/vrmonitor_errors_finnish.txt
-        180450      1 9e5544c2eb32d00fe3c30e5179865badc545d19a     0 content/vrmonitor/translations/vrmonitor_errors_french.txt
-        181638      1 f2812f187c4f0965159ee65b9b85cda5e1dce35b     0 content/vrmonitor/translations/vrmonitor_errors_german.txt
-        179012      1 f773350246116a912e8d44a5d883f35d1fbae1d1     0 content/vrmonitor/translations/vrmonitor_errors_greek.txt
-        172562      1 e4fa2468c0b8ae95f827c13426f378df8e29fd25     0 content/vrmonitor/translations/vrmonitor_errors_hungarian.txt
-        176746      1 32cc4a1dc401fe5cb3162082481beb3af0139b63     0 content/vrmonitor/translations/vrmonitor_errors_italian.txt
-        144094      1 ed8ffb6785128c058c757e51de86ec0500833c5e     0 content/vrmonitor/translations/vrmonitor_errors_japanese.txt
-        141978      1 878fad28669152398713e0430faf325c4e8a1f69     0 content/vrmonitor/translations/vrmonitor_errors_korean.txt
-        141978      1 878fad28669152398713e0430faf325c4e8a1f69     0 content/vrmonitor/translations/vrmonitor_errors_koreana.txt
-        176244      1 7b4b2cc04b8f081cbcd9d390e0995653c01783f4     0 content/vrmonitor/translations/vrmonitor_errors_latam.txt
-        165622      1 eff9b215d9fb9bf051b1aaa187ed942a6d061340     0 content/vrmonitor/translations/vrmonitor_errors_norwegian.txt
-        174234      1 d7520ab7d4111a193fbe10b28cf312edf31a5a17     0 content/vrmonitor/translations/vrmonitor_errors_polish.txt
-        176010      1 e25890142df91cad832f9238412fd2416d55675f     0 content/vrmonitor/translations/vrmonitor_errors_portuguese.txt
+        171526      1 05335713905b9e660369b2506d2777de330bd3d4     0 content/vrmonitor/translations/vrmonitor_errors_brazilian.txt
+        179020      1 133264933f7a74e429f3d8906529f1bf1aa08fc1     0 content/vrmonitor/translations/vrmonitor_errors_bulgarian.txt
+        171458      1 5c51f74e2520920f6919e9ea480845528083123a     0 content/vrmonitor/translations/vrmonitor_errors_czech.txt
+        166670      1 5fbb4a97204f04d2c1ffd164204aa6254f1f42b9     0 content/vrmonitor/translations/vrmonitor_errors_danish.txt
+        175294      1 5b9be3fc9b524e1a5dc33c116fbab95600c73c12     0 content/vrmonitor/translations/vrmonitor_errors_dutch.txt
+        170572      1 6771e4f1a9458c4e5afe8ae4378c6e77a3def26d     0 content/vrmonitor/translations/vrmonitor_errors_english.txt
+        164808      1 e6e455de9dbe2cff83c56a87ac449aed6097d57f     0 content/vrmonitor/translations/vrmonitor_errors_finnish.txt
+        180412      1 e685125e78fb92b08f2369d38c7350ccb6101d6c     0 content/vrmonitor/translations/vrmonitor_errors_french.txt
+        181570      1 fdd49f54f3313b966c6dd42a28363279f619dbe7     0 content/vrmonitor/translations/vrmonitor_errors_german.txt
+        178950      1 8c780d85449ce972dd07f981dc8e818f52de4d69     0 content/vrmonitor/translations/vrmonitor_errors_greek.txt
+        172512      1 d2b1ae6bad46d79ae3edd89bed2fc2fbe85f4a5a     0 content/vrmonitor/translations/vrmonitor_errors_hungarian.txt
+        176710      1 0165507ee0da572bd5aacb46b5ff1bb46bac7a85     0 content/vrmonitor/translations/vrmonitor_errors_italian.txt
+        144074      1 bda6b00a4232f11a88b38b54023edfbe1e8412bf     0 content/vrmonitor/translations/vrmonitor_errors_japanese.txt
+        141956      1 92ed5e73149523ab974dffbe3ca512e828d63216     0 content/vrmonitor/translations/vrmonitor_errors_korean.txt
+        141956      1 92ed5e73149523ab974dffbe3ca512e828d63216     0 content/vrmonitor/translations/vrmonitor_errors_koreana.txt
+        176210      1 ebc8acdc4041f41063554829222cca25de1e6a2e     0 content/vrmonitor/translations/vrmonitor_errors_latam.txt
+        165592      1 8eccf1136febb4bad11d9381071c3369c6c046ca     0 content/vrmonitor/translations/vrmonitor_errors_norwegian.txt
+        174198      1 bdf6730ebf5d5d38bc8b8bb902e866c263987e51     0 content/vrmonitor/translations/vrmonitor_errors_polish.txt
+        176004      1 8403efff828d866590fec2d2aa47f2005fdfa904     0 content/vrmonitor/translations/vrmonitor_errors_portuguese.txt
          65000      1 ae8917de4c66c1e8e9a143334396e0e4f652c1ad     0 content/vrmonitor/translations/vrmonitor_errors_pseudo.txt
-        178242      1 2cb3031c314f0f37928aad77c12e6c88845affc4     0 content/vrmonitor/translations/vrmonitor_errors_romanian.txt
-        168348      1 5b3a5e9fbf53701d3a1ca6510b64fb38321d46a7     0 content/vrmonitor/translations/vrmonitor_errors_russian.txt
-        135890      1 7d485f141f180dfc726a1d6d0d39ecb76d6ed771     0 content/vrmonitor/translations/vrmonitor_errors_schinese.txt
-        174776      1 0bf693ae71783a13ab755cdb970a2a285e1938d8     0 content/vrmonitor/translations/vrmonitor_errors_spanish.txt
-        167986      1 0537a468aa9e2ce1a781c92772e268af303a862c     0 content/vrmonitor/translations/vrmonitor_errors_swedish.txt
-        137378      1 9c8533f5b3eb4f007a318717f29577bbcac7cad6     0 content/vrmonitor/translations/vrmonitor_errors_tchinese.txt
-        168652      1 a48f8814d9d050314db2898613b78359fc42c5f3     0 content/vrmonitor/translations/vrmonitor_errors_thai.txt
-        171636      1 4cbe5f4e1c2a629ced1f74b729ae6c13257bddd5     0 content/vrmonitor/translations/vrmonitor_errors_turkish.txt
-        170002      1 f49bd62fbc535b36e4a433c99eaf8cc9688493db     0 content/vrmonitor/translations/vrmonitor_errors_ukrainian.txt
-        165644      1 13d1c541faa7678c005d6def4f1e0ef9da684aea     0 content/vrmonitor/translations/vrmonitor_errors_vietnamese.txt
-        165644      1 55b850a7fb4b682f1628c8758dbbdae8fe28b10f     0 content/vrmonitor/translations/vrmonitor_finnish.txt
-        180210      1 65d8392652dfb5c987eb67a2b1093369c6d37084     0 content/vrmonitor/translations/vrmonitor_french.txt
-        177532      1 38640f74636133094edec674adde2ba32dc2e8d8     0 content/vrmonitor/translations/vrmonitor_german.txt
-        178200      1 3cd75a6be8dede0fbee2c818ea37cfa482b4e21c     0 content/vrmonitor/translations/vrmonitor_greek.txt
-        170774      1 5228dab3448e4646a5820a07dd00f5b4eb8ebb82     0 content/vrmonitor/translations/vrmonitor_hungarian.txt
+        178200      1 2c1ffd2acc7a33e63d01790247bb73acec3d2ec6     0 content/vrmonitor/translations/vrmonitor_errors_romanian.txt
+        168326      1 a8200e632261c6b3fd6158c13907e6f6a5b98e92     0 content/vrmonitor/translations/vrmonitor_errors_russian.txt
+        135878      1 2375329d4e40e4a35bedcf88c19d82ee722f0154     0 content/vrmonitor/translations/vrmonitor_errors_schinese.txt
+        174742      1 20ac464fe7c03473a543eb05f2948a174e345efb     0 content/vrmonitor/translations/vrmonitor_errors_spanish.txt
+        167942      1 5ba0f15c96660de827c5beee9d8f859f143112cb     0 content/vrmonitor/translations/vrmonitor_errors_swedish.txt
+        137366      1 bfae08fe4c89ca8aa57c51e03a15b785159d9409     0 content/vrmonitor/translations/vrmonitor_errors_tchinese.txt
+        168624      1 ced9b8b30244d041d7bc66279f1399a7e76bda99     0 content/vrmonitor/translations/vrmonitor_errors_thai.txt
+        171610      1 52ec746d1c68883fabd3c8b8a60ace9cc818e13f     0 content/vrmonitor/translations/vrmonitor_errors_turkish.txt
+        169964      1 0b6ea2e468614fb23fc65a5b87f4f1b6f76114d2     0 content/vrmonitor/translations/vrmonitor_errors_ukrainian.txt
+        165632      1 0b667b4737e8f9d87d4bda7a1db66ac85c6f5a3d     0 content/vrmonitor/translations/vrmonitor_errors_vietnamese.txt
+        165534      1 8aa9c715d920fa19431f28dd38a3775a2a4ef5c8     0 content/vrmonitor/translations/vrmonitor_finnish.txt
+        180052      1 1706b4b15f654390f8c0366da816d9a8b650cdb4     0 content/vrmonitor/translations/vrmonitor_french.txt
+        177446      1 b1739589002209bb216200ac1979d780b77bf40d     0 content/vrmonitor/translations/vrmonitor_german.txt
+        178034      1 1c3727f6a2775b39e40509636f7cd37663c8380e     0 content/vrmonitor/translations/vrmonitor_greek.txt
+        170650      1 6e567865be0081fac4843c15d5708f95703a2e2a     0 content/vrmonitor/translations/vrmonitor_hungarian.txt
            736      1 9942720eede6c277491b632fd367fb9813ef7a32     0 content/vrmonitor/translations/vrmonitor_issues_english.txt
-        177444      1 c4d719179a8ea171e221531d367df1bb35af6ba1     0 content/vrmonitor/translations/vrmonitor_italian.txt
-        130660      1 c7f9713e1896d1b767884a4efb97896038d61208     0 content/vrmonitor/translations/vrmonitor_japanese.txt
-        129934      1 bfd179e7ea4cb076f83eb83fc8d0109d3e4741cd     0 content/vrmonitor/translations/vrmonitor_korean.txt
-        129934      1 bfd179e7ea4cb076f83eb83fc8d0109d3e4741cd     0 content/vrmonitor/translations/vrmonitor_koreana.txt
-        176782      1 dc700d4caeec89a58e5325f1ffd331f2b6daa416     0 content/vrmonitor/translations/vrmonitor_latam.txt
-        163470      1 73c6b672d0c2c054fe1420b19edece8843872c3f     0 content/vrmonitor/translations/vrmonitor_norwegian.txt
+        177360      1 38d6b439478c6b727fa32747d456f440f590101a     0 content/vrmonitor/translations/vrmonitor_italian.txt
+        130618      1 cf4f8455089aa85c18380c5e1a739bf157460753     0 content/vrmonitor/translations/vrmonitor_japanese.txt
+        129904      1 d2fd10d84aa8056402201f3bce44964ab1c5feeb     0 content/vrmonitor/translations/vrmonitor_korean.txt
+        129904      1 d2fd10d84aa8056402201f3bce44964ab1c5feeb     0 content/vrmonitor/translations/vrmonitor_koreana.txt
+        176682      1 c1de698f28eb0184f551572124d90bc82b7d8f16     0 content/vrmonitor/translations/vrmonitor_latam.txt
+        163358      1 302a6acf34da5b3fe81483a89f5d0e661821dfbd     0 content/vrmonitor/translations/vrmonitor_norwegian.txt
           4646      1 7519e3b0e55adb98394a26256610a65e87b0eba6     0 content/vrmonitor/translations/vrmonitor_pirate.txt
-        173918      1 a0113c3068b0336e05d069d1d1fbe41d7bcf7b7b     0 content/vrmonitor/translations/vrmonitor_polish.txt
-        173034      1 047453ad0ef7dc7f15cf807949b16570928b1647     0 content/vrmonitor/translations/vrmonitor_portuguese.txt
+        173808      1 bf83c4507fd2fa75191ea82b92bfc355331bb442     0 content/vrmonitor/translations/vrmonitor_polish.txt
+        172942      1 59e1e5191be454a0539d2e3b5921cf45abc8139b     0 content/vrmonitor/translations/vrmonitor_portuguese.txt
          93864      1 9a052312e0e09b087513af9ab5afdca6f754955f     0 content/vrmonitor/translations/vrmonitor_pseudo.txt
-        178346      1 9e9e32cc239794d0d94380b2322145dae8915507     0 content/vrmonitor/translations/vrmonitor_romanian.txt
-        169396      1 25fd3589835d2dd5d080c9a29df0fe27f8ca49df     0 content/vrmonitor/translations/vrmonitor_russian.txt
-        115788      1 25db1b4215f44c20e4bcc8594da881452db7c877     0 content/vrmonitor/translations/vrmonitor_schinese.txt
-        176802      1 a044a4cc45ff3ef5a2ab05b889594ae64b67467f     0 content/vrmonitor/translations/vrmonitor_spanish.txt
-        165076      1 78b6f9208b5c71d30b1cf694349fdceda5d23b30     0 content/vrmonitor/translations/vrmonitor_swedish.txt
-        118160      1 6b7651dd8aea70b5b09020d32140965a482559f8     0 content/vrmonitor/translations/vrmonitor_tchinese.txt
-        163442      1 d6039fc977edb4654eb7d7f6d0c8d4f5cf2184fe     0 content/vrmonitor/translations/vrmonitor_thai.txt
-        168624      1 cb86482b2935dc89e350e8a884b42708e6f348d6     0 content/vrmonitor/translations/vrmonitor_turkish.txt
-        170222      1 031457153d3fd1bbcf85a5e068663cf4531f9b9a     0 content/vrmonitor/translations/vrmonitor_ukrainian.txt
-        164244      1 893d77b7fb79df765bed2fdcc8c9a0febd925644     0 content/vrmonitor/translations/vrmonitor_vietnamese.txt
+        178246      1 1d4bba8a31c54b7791a2ad8799c62925c4b044b7     0 content/vrmonitor/translations/vrmonitor_romanian.txt
+        169266      1 f2bd6795c7294631bae145370df7f096eacd81f9     0 content/vrmonitor/translations/vrmonitor_russian.txt
+        115758      1 c1cb2dfe274c9ea319e57c4deba20aeee40fe01d     0 content/vrmonitor/translations/vrmonitor_schinese.txt
+        176690      1 9e1930cd64a118d1abee2ce50d4ef239524fe523     0 content/vrmonitor/translations/vrmonitor_spanish.txt
+        165002      1 d27083b538432ecfe7a1b5ddcf43d056fd87bb04     0 content/vrmonitor/translations/vrmonitor_swedish.txt
+        118152      1 cbac237aa0c2c79698dd99291962b652746d400b     0 content/vrmonitor/translations/vrmonitor_tchinese.txt
+        163358      1 7aa811ae56593d902c4d24105bc10d6f497747be     0 content/vrmonitor/translations/vrmonitor_thai.txt
+        168494      1 0f6e79b08a05faf3d41b537d8480da5036e706c9     0 content/vrmonitor/translations/vrmonitor_turkish.txt
+        170102      1 e14af89867ef2a9644e7695411df01b1f6d6ea03     0 content/vrmonitor/translations/vrmonitor_ukrainian.txt
+        164172      1 da5aab3ba1159d1e39453a4a0cd854f095751e3e     0 content/vrmonitor/translations/vrmonitor_vietnamese.txt
              0      0 0000000000000000000000000000000000000000    40 content/vrmonitor/welcome
              0      0 0000000000000000000000000000000000000000    40 content/vrmonitor/welcome/en
           2406      1 b549275a119f1f15b508c80b1b7a2e3055c00a1a     0 content/vrmonitor/welcome/en/index.html
@@ -311,8 +311,9 @@ Total bytes compressed : 366356432
          10369      1 7bbf754d6671f0accf25d965ba1878d3c55b1df2     0 drivers/frame_controller/resources/icons/right_frame_controller_seaching.gif
          18067      1 515d1a4ac4162d39275c842cb485db8c651bdca8     0 drivers/frame_controller/resources/icons/right_frame_controller_seaching_2x.gif
              0      0 0000000000000000000000000000000000000000    40 drivers/frame_controller/resources/input
+         14471      1 1de13af524c713367f5c7255616358bef8876a92     0 drivers/frame_controller/resources/input/arizona_sunshine_vr_remake_bindings_frame_controller.json
          19171      1 57605b70a7cbafad3c7d2bf7fc26f1f7564e1acb     0 drivers/frame_controller/resources/input/beat_saber_bindings_frame_controller.json
-          6885      1 1088fa1c7983d0e77b9862a15898938aa7355234     0 drivers/frame_controller/resources/input/frame_controller_profile.json
+          7021      1 e6bec097d3cc1839b5348fae9fa3fcb064f9416f     0 drivers/frame_controller/resources/input/frame_controller_profile.json
          13969      1 3c050980b03de56f9bd9621e13b13206361460fa     0 drivers/frame_controller/resources/input/frame_controller_remapping.json
          23733      1 4fea830953a6ba6c45f2edc4e199824d1847a52b     0 drivers/frame_controller/resources/input/half_life_alyx_bindings_frame_controller.json
          23739      1 e81dd91de1c0f303a5f0b125dc6977eef9ca07f4     0 drivers/frame_controller/resources/input/half_life_alyx_bindings_left_frame_controller.json
@@ -320,38 +321,10 @@ Total bytes compressed : 366356432
           8754      1 3bfb26195e6091a8009b4c03e1bddb55c37bb8dd     0 drivers/frame_controller/resources/input/in_death_legacy_bindings_frame_controller.json
          10416      1 6bb9b7c219e8b01f2accd7aaa90141e736d65055     0 drivers/frame_controller/resources/input/legacy_bindings_frame_controller.json
            560      1 db0ce18eb102890f9c21555afc577d7e1587464b     0 drivers/frame_controller/resources/input/steam_vrgamepad_bindings_frame_controller.json
-         11318      1 6c2b28060476946e5e88c62f4e785fd41875a203     0 drivers/frame_controller/resources/input/vrcompositor_bindings_frame_controller.json
+         12634      1 0688c0382846148173710cbba8d19c9867ed101f     0 drivers/frame_controller/resources/input/vrcompositor_bindings_frame_controller.json
          10221      1 234526c9bae4eea126cffe28b5933c3b62ff1888     0 drivers/frame_controller/resources/input/vrlink_legacy_bindings_frame_controller.json
              0      0 0000000000000000000000000000000000000000    40 drivers/frame_controller/resources/localization
-           130      1 47b2790cc1337f234d6d14876bc3350be95d9782     0 drivers/frame_controller/resources/localization/localization.json
-           172      1 4b54251ac2ba338c969f34ce24e3063ceaa43b71     0 drivers/frame_controller/resources/localization/localization_bg_BG.json
-           152      1 d624ba3a93f0dd7dadf0e7a2e523e9c31f40a0f6     0 drivers/frame_controller/resources/localization/localization_cs_CZ.json
-           148      1 5a935200253b876c6bbf92aed1ff74f1c0072b70     0 drivers/frame_controller/resources/localization/localization_da_DK.json
-           148      1 a29608f585777a0a122372bf390e8dbb970e9eb4     0 drivers/frame_controller/resources/localization/localization_de_DE.json
-           174      1 4b5421ca373dbe262d620f6f00f9e2157991ba8c     0 drivers/frame_controller/resources/localization/localization_el_GR.json
-           145      1 4e7bdb97713dcb534a25a1d740883f28f4169618     0 drivers/frame_controller/resources/localization/localization_es_ES.json
-           146      1 62633df9d741d44d46212c54e52bce8d8aa8a78e     0 drivers/frame_controller/resources/localization/localization_es_MX.json
-           142      1 94d901f85dc42dcfefd4d9817304a43774442216     0 drivers/frame_controller/resources/localization/localization_fi_FI.json
-           158      1 cb7ec6a703e8f601f135d152821a3980e5e76881     0 drivers/frame_controller/resources/localization/localization_fr_FR.json
-           148      1 9968458a08429913493f4c6c276ae02694811d22     0 drivers/frame_controller/resources/localization/localization_hu_HU.json
-             4      1 454dae4c2edf2c8ea4c7f57f8344f5f55842a865     0 drivers/frame_controller/resources/localization/localization_id_ID.json
-           154      1 5ea6f9d30feb5b5f4f7716bde974d35a4272386d     0 drivers/frame_controller/resources/localization/localization_it_IT.json
-           157      1 0d727204982c25daea28137ae2b223fe1954216e     0 drivers/frame_controller/resources/localization/localization_ja_JP.json
-           159      1 feb0a7b4319a9d3d7170d9e4c73f405efbad813f     0 drivers/frame_controller/resources/localization/localization_ko_KR.json
-           148      1 055af7ac59f5fb5007c45e4089a50358e2444008     0 drivers/frame_controller/resources/localization/localization_nb_NO.json
-           144      1 2272d564b3dbf15450d872fbb011ac0454e085a6     0 drivers/frame_controller/resources/localization/localization_nl_NL.json
-           156      1 fa095c75c0debaa52fd64fcda514e4b0e30e5219     0 drivers/frame_controller/resources/localization/localization_pl_PL.json
-           167      1 be7c9f378ecdf74a2488b5fefdc3a4accc090c8a     0 drivers/frame_controller/resources/localization/localization_pt_BR.json
-           167      1 f29ccf141f200f0c457fb518a72822a34066d49e     0 drivers/frame_controller/resources/localization/localization_pt_PT.json
-           166      1 1215a632d9056f442633a3efe27a0f8a1a122346     0 drivers/frame_controller/resources/localization/localization_ro_RO.json
-           189      1 d3f1ee33099c7761ad6c3716be58e2c0c70040bd     0 drivers/frame_controller/resources/localization/localization_ru_RU.json
-           141      1 f52eb54675bb34aacc1e6d26b5173667f013dbfe     0 drivers/frame_controller/resources/localization/localization_sv_SE.json
-           183      1 0318cc84ea72b8b2c164d357fa928582229e1512     0 drivers/frame_controller/resources/localization/localization_th_TH.json
-           155      1 43ae71e302c7f66b3d45f7b287bc9e8501ab0b8f     0 drivers/frame_controller/resources/localization/localization_tr_TR.json
-           180      1 4e7931c01687dc01875dcbadbbb50c3ac77abcb9     0 drivers/frame_controller/resources/localization/localization_uk_UA.json
-           154      1 a346098f5cea620983ed1350b71174ee0b223dd5     0 drivers/frame_controller/resources/localization/localization_vi_VN.json
-           143      1 859968c6456b90d2b37d2adc5d04c32fd02029d3     0 drivers/frame_controller/resources/localization/localization_zh_CN.json
-           140      1 7058534bde1b18dd1a0ad06f2fb6146d5bfffb0c     0 drivers/frame_controller/resources/localization/localization_zh_TW.json
+         20570      1 136bfdc0061c8198c5c6a1090e41051881096109     0 drivers/frame_controller/resources/localization/localization.json
              0      0 0000000000000000000000000000000000000000    40 drivers/frame_controller/resources/rendermodels
              0      0 0000000000000000000000000000000000000000    40 drivers/frame_controller/resources/rendermodels/frame_controller_left
          11459      1 039a2b94da9f344e62740051ea1abbc35829f69c     0 drivers/frame_controller/resources/rendermodels/frame_controller_left/frame_controller_left.json
@@ -522,35 +495,7 @@ Total bytes compressed : 366356432
           2900      1 21b4c8911050d8c07b39757f54264a2f15554c82     0 drivers/indexcontroller/resources/input/knuckles_ev1_profile.json
          14261      1 0747b8610ac0c29ddae9aa9b827106eef077d37f     0 drivers/indexcontroller/resources/input/legacy_bindings_index_controller.json
              0      0 0000000000000000000000000000000000000000    40 drivers/indexcontroller/resources/localization
-           455      1 c32e25a4bbcaa475b1c9eecc170b0f237d90bcb0     0 drivers/indexcontroller/resources/localization/localization.json
-           600      1 41ec52062149f05368365d1a3b1d64224e988416     0 drivers/indexcontroller/resources/localization/localization_bg_BG.json
-           494      1 c169fceb06364bd3129e01684f0df2a3efea3642     0 drivers/indexcontroller/resources/localization/localization_cs_CZ.json
-           482      1 88137d897080f4decb857c678ce3720894341af9     0 drivers/indexcontroller/resources/localization/localization_da_DK.json
-           495      1 f08c8c216e2c7c5ae3fd4db1e9659784220a1403     0 drivers/indexcontroller/resources/localization/localization_de_DE.json
-           571      1 aee6e6d9215b56b4398b0446c4bd02994d58eaee     0 drivers/indexcontroller/resources/localization/localization_el_GR.json
-           498      1 b4313764c14a4a74917c571fc9ba24a3b8fc6ca9     0 drivers/indexcontroller/resources/localization/localization_es_ES.json
-           490      1 f9e5b739925126e086298a27c5bec9ae59702fe2     0 drivers/indexcontroller/resources/localization/localization_es_MX.json
-           475      1 ac96ea590245c5dae2041c91a6d0b210ddf7ee1e     0 drivers/indexcontroller/resources/localization/localization_fi_FI.json
-           479      1 7fdfe1b2f673af2034ed04f837205022f104a222     0 drivers/indexcontroller/resources/localization/localization_fr_FR.json
-           523      1 3307b970d5948bf17dc0b49f6dd5eec5203c3090     0 drivers/indexcontroller/resources/localization/localization_hu_HU.json
-             4      1 454dae4c2edf2c8ea4c7f57f8344f5f55842a865     0 drivers/indexcontroller/resources/localization/localization_id_ID.json
-           473      1 c1c600be40fe30f9d9c36bca9bbe07ffb6864660     0 drivers/indexcontroller/resources/localization/localization_it_IT.json
-           520      1 34073549b7690f22baeee5ad7f5d8b2dc1cdffee     0 drivers/indexcontroller/resources/localization/localization_ja_JP.json
-           477      1 a81ddcfecc0c7e8940ea18786ef5b1d2c8316d87     0 drivers/indexcontroller/resources/localization/localization_ko_KR.json
-           483      1 50a49aef0298f84ab97bf464a4df7a23f1e4df65     0 drivers/indexcontroller/resources/localization/localization_nb_NO.json
-           477      1 6801977337f0d5e881e5f99fff99a62e6c706090     0 drivers/indexcontroller/resources/localization/localization_nl_NL.json
-           527      1 ee509d05c1587d9a16ff0ecf9454054ac9c51eae     0 drivers/indexcontroller/resources/localization/localization_pl_PL.json
-           498      1 e632b518131264d2c1055996bb65745fdd92ca48     0 drivers/indexcontroller/resources/localization/localization_pt_BR.json
-           495      1 6f738f1c661d3ba5336c15fcba009e838efb4acc     0 drivers/indexcontroller/resources/localization/localization_pt_PT.json
-           509      1 d7aa3996ca8ea28f1715d2903a0d25caf30ac983     0 drivers/indexcontroller/resources/localization/localization_ro_RO.json
-           583      1 a86f44be49864449c1beed05404355229c315585     0 drivers/indexcontroller/resources/localization/localization_ru_RU.json
-           470      1 f9cff85c3459c8bef1b485efb05ea7486ac6f6b4     0 drivers/indexcontroller/resources/localization/localization_sv_SE.json
-           638      1 319528dceab00506358c9316253916f16532a2c8     0 drivers/indexcontroller/resources/localization/localization_th_TH.json
-           516      1 f48558f977b977808ad05a7fc7ba8c8dae01cd4d     0 drivers/indexcontroller/resources/localization/localization_tr_TR.json
-           576      1 34ef2ce2e262ee1a69fc4780d61658f0fc19098a     0 drivers/indexcontroller/resources/localization/localization_uk_UA.json
-           496      1 31cc33fb6d9f3059c0b27751c69b9d4d35eab68e     0 drivers/indexcontroller/resources/localization/localization_vi_VN.json
-           463      1 0b8b877d6746d96200130d5d9d4b7c5463043e17     0 drivers/indexcontroller/resources/localization/localization_zh_CN.json
-           466      1 5ce4124f34fa8c53a4c92536c137fcf828440377     0 drivers/indexcontroller/resources/localization/localization_zh_TW.json
+         15481      1 8f86f492c69a1434b18299c7ab0f11e3fc42912e     0 drivers/indexcontroller/resources/localization/localization.json
              0      0 0000000000000000000000000000000000000000    40 drivers/indexcontroller/resources/rendermodels
              0      0 0000000000000000000000000000000000000000    40 drivers/indexcontroller/resources/rendermodels/valve_controller_knu_1_0_left
            332      1 edebf60975341b7c86c2b34f002c9c9ea2e0abef     0 drivers/indexcontroller/resources/rendermodels/valve_controller_knu_1_0_left/body.mtl
@@ -952,7 +897,7 @@ Total bytes compressed : 366356432
            268      1 c2d7485f00585db205e3d7b351fa8771354e6676     0 drivers/lighthouse/resources/webhelperoverlays.json
              0      0 0000000000000000000000000000000000000000    40 drivers/lighthouse/resources/webinterface
              0      0 0000000000000000000000000000000000000000    40 drivers/lighthouse/resources/webinterface/css
-         22562      1 5347a74039262631074549cc105cea8ef2c6c7c4     0 drivers/lighthouse/resources/webinterface/css/pairing.css
+         23974      1 34c215d8ef041e49b91f4cca98d26cf209ed22c6     0 drivers/lighthouse/resources/webinterface/css/pairing.css
              0      0 0000000000000000000000000000000000000000    40 drivers/lighthouse/resources/webinterface/images
              0      0 0000000000000000000000000000000000000000    40 drivers/lighthouse/resources/webinterface/images/pairingui
          72213      1 d4c7158572d91a72b944143cd162b90a257f0729     0 drivers/lighthouse/resources/webinterface/images/pairingui/background.png
@@ -968,7 +913,7 @@ Total bytes compressed : 366356432
           5707      1 44f43289f6e2f1f15b3f8c778e6687289206db10     0 drivers/lighthouse/resources/webinterface/images/pairingui/vive_wand_callouts.svg
           6043      1 7ecb337cfd5795f7e0ff416225080f05797c35a4     0 drivers/lighthouse/resources/webinterface/images/pairingui/vive_wand_callouts_text.svg
              0      0 0000000000000000000000000000000000000000    40 drivers/lighthouse/resources/webinterface/libraries
-        325014      1 ae7e729571a1944f1a624273e3bf44c6c0d8cded     0 drivers/lighthouse/resources/webinterface/libraries/libraries~782e4a39d.js
+        325014      1 e21eb79e74b5aa9aaff71094501abcf0900c7bcb     0 drivers/lighthouse/resources/webinterface/libraries/libraries~782e4a39d.js
              0      0 0000000000000000000000000000000000000000    40 drivers/lighthouse/resources/webinterface/localization
           2643      1 f66cc2854a5164eb744d3b632b039659cb5c273b     0 drivers/lighthouse/resources/webinterface/localization/lighthouse_web_brazilian.json
           3753      1 06a8a651bf900cae9f77708ae450207b00153f9b     0 drivers/lighthouse/resources/webinterface/localization/lighthouse_web_bulgarian.json
@@ -998,8 +943,8 @@ Total bytes compressed : 366356432
           2873      1 8c4d7efbb7b1d73b8001765ae5c3999801ef0613     0 drivers/lighthouse/resources/webinterface/localization/lighthouse_web_turkish.json
           3570      1 df5830bbf45f712892f465b9485cc3555d0e3afb     0 drivers/lighthouse/resources/webinterface/localization/lighthouse_web_ukrainian.json
           3107      1 9720cf264a2f461590a5801d66acd1a650631599     0 drivers/lighthouse/resources/webinterface/localization/lighthouse_web_vietnamese.json
-          1622      1 96b896e879448796a711dd5a08575ee143b981df     0 drivers/lighthouse/resources/webinterface/pairing.html
-       1102230      2 3567115302dee85671e1989e27992beb00c63c07     0 drivers/lighthouse/resources/webinterface/pairing.js
+          1622      1 bd9efbea5587af5bf40290716862afc926d94b06     0 drivers/lighthouse/resources/webinterface/pairing.html
+       1131289      2 e2125b217f9e587fefcce0e58ac7bea0feeb3755     0 drivers/lighthouse/resources/webinterface/pairing.js
          21742      1 787df7b3fa16a276eb9f08474609b91613d5fef3     0 drivers/lighthouse/resources/webinterface/third_party_legal_notices_web.txt
              0      0 0000000000000000000000000000000000000000    40 drivers/null/bin
            136      1 22eb5482a4d344a6fe9a4ac2298639a76ce841a9     0 drivers/null/driver.vrdrivermanifest
@@ -1321,7 +1266,7 @@ Total bytes compressed : 366356432
              0      0 0000000000000000000000000000000000000000    40 drivers/vrlink/bin
            132      1 4313cc5034939b7f9f308e019bd96dd67a74ef8f     0 drivers/vrlink/driver.vrdrivermanifest
              0      0 0000000000000000000000000000000000000000    40 drivers/vrlink/resources
-      41330759     42 22ed4ec379243afd5a7eb4baa8a5e4c094980884     0 drivers/vrlink/resources/android-steamlinkvr-release.apk
+      41367679     42 d866fabad8631d307487a0615cb5073d8cccc29a     0 drivers/vrlink/resources/android-steamlinkvr-release.apk
           3023      1 37b130e9d3acdde1b0b6b8486995eadc4f286b78     0 drivers/vrlink/resources/driver.vrresources
              0      0 0000000000000000000000000000000000000000    40 drivers/vrlink/resources/drivers
              0      0 0000000000000000000000000000000000000000    40 drivers/vrlink/resources/icons
@@ -2195,7 +2140,7 @@ Total bytes compressed : 366356432
              0      0 0000000000000000000000000000000000000000    40 resources/rendermodels/stars
            215      1 e24a7d9a581316eec87b55687d616a5befd00029     0 resources/rendermodels/stars/stars.mtl
        3505663      4 09acc8456fdc1e5e569926a627bcd5a82e869b33     0 resources/rendermodels/stars/stars.obj
-          3116      1 4cf3f900e0c992ba7e938d24ceee643d59d397ba     0 resources/rendermodels/stars/stars.tga
+          3116      1 4728de29ca59efaf319d6e6e598b545fc309401c     0 resources/rendermodels/stars/stars.tga
              0      0 0000000000000000000000000000000000000000    40 resources/rendermodels/steam_controller_02_freeman
            208      1 fa57164d0d9c0b6f1376fc379311234bf07ffbf6     0 resources/rendermodels/steam_controller_02_freeman/steam_controller_02_freeman.mtl
        1046039      1 6adfd1008dc9b07bfff7356ce2b8a324b648e91e     0 resources/rendermodels/steam_controller_02_freeman/steam_controller_02_freeman.obj
@@ -2299,9 +2244,9 @@ Total bytes compressed : 366356432
         762744      1 5a1251449ec0efcdc31ee0a78905b36ed963fc97     0 resources/rendermodels/vr_glove/vr_glove_right_model_slim.glb
            188      1 9ef9809f83847d4beaf403fbecad7ae8eb0b0ebd     0 resources/safe_mode_driver_whitelist.json
              0      0 0000000000000000000000000000000000000000    40 resources/settings
-         10715      1 332fabcd2d10bd5c4111e25459ea7444480659f8     0 resources/settings/default.vrsettings
+         10739      1 5238b612ce33793104b982b1d9451931d66c4df3     0 resources/settings/default.vrsettings
            181      1 82fc369c6d891f2d251d3721856db84d30128539     0 resources/settings/driver_defaults.vrsettings
-         13846      1 b296737abb4b3a03295e5125b74af7931fc3a1e9     0 resources/settingsschema.vrsettings
+         13432      1 b3bda4c1d7c8b924cdcbe060cec9b8d40cd0045a     0 resources/settingsschema.vrsettings
              0      0 0000000000000000000000000000000000000000    40 resources/shaders
              0      0 0000000000000000000000000000000000000000    40 resources/shaders/d3d11
           5636      1 08d226917e4aaef007e25a7a9945abefceadd43f     0 resources/shaders/d3d11/camera_motion_backout_cs.fxo
@@ -2309,100 +2254,99 @@ Total bytes compressed : 366356432
            532      1 726b03bddd4fd34fb72f038746e002b9d0d2ed0e     0 resources/shaders/d3d11/distort_bounds_color_ps.fxo
          14988      1 03d9432b965309de284119454c83ec38739c2bbb     0 resources/shaders/d3d11/distort_cs.fxo
          16124      1 5a56243f9425d5f5519d1153f94a80e414acd8d5     0 resources/shaders/d3d11/distort_cs_mc.fxo
-          3884      1 f1aa9e9f08014a45c8a2221af9c3eecf4d0219b3     0 resources/shaders/d3d11/distort_ds.fxo
-          3780      1 7cac0c11963e1de37d8bc2050b3c3d64c9651c66     0 resources/shaders/d3d11/distort_geom_aa_circles_ps.fxo
-          4024      1 3a6aa5ae0efd600c858a346cce81875ea6725037     0 resources/shaders/d3d11/distort_geom_aa_circles_vs.fxo
-          3700      1 09245a03af17228b6421c1bb657ef119ac29b893     0 resources/shaders/d3d11/distort_geom_aa_lines_ps.fxo
-          4024      1 3a6aa5ae0efd600c858a346cce81875ea6725037     0 resources/shaders/d3d11/distort_geom_aa_lines_vs.fxo
-          3828      1 08bad195b318db8cae7c0ddbc03372220632963a     0 resources/shaders/d3d11/distort_geom_aa_quads_ps.fxo
-          4024      1 3a6aa5ae0efd600c858a346cce81875ea6725037     0 resources/shaders/d3d11/distort_geom_aa_quads_vs.fxo
-          4256      1 33ab3692b6ea2a189f0767eaa3b965bb162e89eb     0 resources/shaders/d3d11/distort_geom_altcolorblend_ps.fxo
-          4188      1 a296cbd7c421a1314f7c7454ecba0d02a377eaab     0 resources/shaders/d3d11/distort_geom_aurora_floor_ps.fxo
-          4804      1 4c5bb88c61a120e232b19a183e520ac3f45b741a     0 resources/shaders/d3d11/distort_geom_aurora_horizon_notexture_ps.fxo
-          5744      1 10fad8f256abe936561eaafb4fc730f09d3f19a6     0 resources/shaders/d3d11/distort_geom_aurora_horizon_ps.fxo
-          6928      1 e2c17c82610c9a95db6305f4b9689da737289daf     0 resources/shaders/d3d11/distort_geom_aurora_ps.fxo
-          3252      1 7f754f4258da255afe1c45a6164070582133c2dd     0 resources/shaders/d3d11/distort_geom_aurora_sky_notexture_ps.fxo
-          3960      1 c0fe7404ff348614aa56f0866537fa4b63741c2f     0 resources/shaders/d3d11/distort_geom_aurora_sky_ps.fxo
-          4892      1 38e78155640c9d693d7115a1580f73a1205dc278     0 resources/shaders/d3d11/distort_geom_aurora_vs.fxo
-          3952      1 8876a06b66b80c482e1f8805654c6c3cceba874f     0 resources/shaders/d3d11/distort_geom_bounds_color_vs.fxo
+          3880      1 463cb4035534e29386016a10ab8092fa75ee7f32     0 resources/shaders/d3d11/distort_ds.fxo
+          3776      1 de35e162fa6d2298d5690788219a63b6a5c5c7dc     0 resources/shaders/d3d11/distort_geom_aa_circles_ps.fxo
+          4020      1 748c7858a71503b08b6170d92cb0f5eb4b498ac6     0 resources/shaders/d3d11/distort_geom_aa_circles_vs.fxo
+          3696      1 b7497c9a4e8987f6da1ed7c6cce100d3cbc8014b     0 resources/shaders/d3d11/distort_geom_aa_lines_ps.fxo
+          4020      1 748c7858a71503b08b6170d92cb0f5eb4b498ac6     0 resources/shaders/d3d11/distort_geom_aa_lines_vs.fxo
+          3824      1 5b94eac64af683072671373c67a642209b93c908     0 resources/shaders/d3d11/distort_geom_aa_quads_ps.fxo
+          4020      1 748c7858a71503b08b6170d92cb0f5eb4b498ac6     0 resources/shaders/d3d11/distort_geom_aa_quads_vs.fxo
+          4252      1 0cfdaa3d6ace8c29e4ce8425191d0f13dfb7d0a9     0 resources/shaders/d3d11/distort_geom_altcolorblend_ps.fxo
+          4312      1 14faf823f9abd5f75a35edb84176999130abec35     0 resources/shaders/d3d11/distort_geom_aurora_floor_ps.fxo
+          4968      1 6f1331b3a664f8be5d3f0dd7a4e38c80c1c345db     0 resources/shaders/d3d11/distort_geom_aurora_horizon_notexture_ps.fxo
+          5760      1 e3a13a9f4f1d13abe860f110050fd4549f31b1ff     0 resources/shaders/d3d11/distort_geom_aurora_horizon_ps.fxo
+          3248      1 2160874b714ae20573a96d37ce6721b1ce433449     0 resources/shaders/d3d11/distort_geom_aurora_sky_notexture_ps.fxo
+          3816      1 6fb6880e60a1b38bf083062d2778cfae7bd20d98     0 resources/shaders/d3d11/distort_geom_aurora_sky_ps.fxo
+          4984      1 cc02c2a9245da409dce906776ccb66cc3f7b5c4a     0 resources/shaders/d3d11/distort_geom_aurora_vs.fxo
+          3948      1 bce664f8024c1dc8eba9b3ffce9b02e66eb0c5ec     0 resources/shaders/d3d11/distort_geom_bounds_color_vs.fxo
            796      1 dbbd6ec1f813c39da013dfb9cc7360de2c881f83     0 resources/shaders/d3d11/distort_geom_colormap_lines_ps.fxo
-          3164      1 0de906ab0bbbc2a03a17602cc96b25ef17c0feb2     0 resources/shaders/d3d11/distort_geom_constant_ps.fxo
-          7812      1 89700b51d46120087ef37fda051221e5e36ae25c     0 resources/shaders/d3d11/distort_geom_curved_uvs_embedded_vs.fxo
-          4624      1 49c3a615c5d0ed75d73ff4d606af65587b947ade     0 resources/shaders/d3d11/distort_geom_curved_vs.fxo
-          7876      1 6dc32d765c47a91f8c4bf1da487a633e59445e83     0 resources/shaders/d3d11/distort_geom_drawregion_curved_uvs_embedded_vs.fxo
-          4708      1 66670201024f3ce396067a547683542048e4cd7d     0 resources/shaders/d3d11/distort_geom_drawregion_curved_vs.fxo
-          5920      1 46599d6e8da721355edcef87b20be438ae820708     0 resources/shaders/d3d11/distort_geom_drawregion_multitap_ps.fxo
-          4388      1 dfeb8cc29036481f45387cc24b5b441ba8ed18f0     0 resources/shaders/d3d11/distort_geom_drawregion_ps.fxo
-          9676      1 404511cb4e9d86f2828080bc62ac2b9e4e807fa8     0 resources/shaders/d3d11/distort_geom_drawregion_ptnorm_curved_uvs_embedded_vs.fxo
-          6484      1 0ba14399d1dce4131921d3c687b9839af1f60442     0 resources/shaders/d3d11/distort_geom_drawregion_ptnorm_curved_vs.fxo
-          9376      1 734fa9e1d8053ce5d7e53caa5408a86b057aed82     0 resources/shaders/d3d11/distort_geom_drawregion_ptnorm_uvs_embedded_vs.fxo
-          6152      1 124e6404fa69fd40e3aa66130eeae3cbc324defd     0 resources/shaders/d3d11/distort_geom_drawregion_ptnorm_vs.fxo
-          6240      1 142e4432598a5510cea6c1c49aabb28d971ff2e9     0 resources/shaders/d3d11/distort_geom_drawregion_reflect_multitap_ps.fxo
-          4708      1 e9271cedf9e080f0c06e685861a8e2454e15bf51     0 resources/shaders/d3d11/distort_geom_drawregion_reflect_ps.fxo
-          4228      1 3191763cf4993e16c93f3ea99461dfcb3e776802     0 resources/shaders/d3d11/distort_geom_drawregion_simplified_gamma_ps.fxo
-          3972      1 513c9c1b8deffe14d3238b6f034760abeac6e885     0 resources/shaders/d3d11/distort_geom_drawregion_simplified_ps.fxo
-          4292      1 32f75be177ace83e85542af7d89b527f929ce5e1     0 resources/shaders/d3d11/distort_geom_drawregion_simplified_reflect_ps.fxo
-          7560      1 12bb9ca4321b5c58d8a153737766fc126b0c5309     0 resources/shaders/d3d11/distort_geom_drawregion_uvs_embedded_vs.fxo
-          4392      1 e14f27831f08f85752c17af13e715f4b6e4191c5     0 resources/shaders/d3d11/distort_geom_drawregion_vs.fxo
-          4276      1 059480c15bc42f6d326ff3c4bdc8da2de5c5f122     0 resources/shaders/d3d11/distort_geom_floor_aa_ps.fxo
-          3912      1 b5a1863f9b48943c3f05712d492ab54f8ac23127     0 resources/shaders/d3d11/distort_geom_floor_auroralit_ps.fxo
-          6752      1 251ad7359ce62dfa1c919b3c6cfb7b0d73c9a361     0 resources/shaders/d3d11/distort_geom_floor_auroralit_vs.fxo
-          3928      1 61e1b97dc7c8c2e7e7af276bf549aca0174bba62     0 resources/shaders/d3d11/distort_geom_floor_edge_vs.fxo
-          3824      1 c94f3baf8cf69484c03a7374c11e6b0c4d5527ec     0 resources/shaders/d3d11/distort_geom_floor_ps.fxo
-          4532      1 d32d8ed25a5622c9298d8835cb10996efb0b439f     0 resources/shaders/d3d11/distort_geom_floor_reflect_aa_ps.fxo
-          4060      1 b37dd962eb203a83d8bcb582b595422ac4a77637     0 resources/shaders/d3d11/distort_geom_floor_reflect_ps.fxo
-          5952      1 316a6a2edf73be1b56d36b70595d395ef82ec668     0 resources/shaders/d3d11/distort_geom_floor_vs.fxo
-          4132      1 5e4ba9dee9a17d60e4fb074fe347eeb5c1c758d3     0 resources/shaders/d3d11/distort_geom_fresnel_ps.fxo
-          5284      1 0b5fa83a90227972b8e0f0d3270dde4f20d55573     0 resources/shaders/d3d11/distort_geom_fresnel_vs.fxo
-          5604      1 7d7427ceca41f3357b299e85348891ceed37e05e     0 resources/shaders/d3d11/distort_geom_grid_ps.fxo
-          4036      1 7ef6836ef472d6e2eab0fc60aaabab28d2999081     0 resources/shaders/d3d11/distort_geom_grid_vs.fxo
-          4784      1 3af32d8811cf9cbec2741d01d5836093fa2da406     0 resources/shaders/d3d11/distort_geom_hard_bounds_aa_lines_ps.fxo
-          4136      1 154d2d29b1d386ef0dd5f1ceda0bdfbc8993afe0     0 resources/shaders/d3d11/distort_geom_hard_bounds_aa_lines_vs.fxo
-          5000      1 136b326130f5f0859038fbcd6fa03fdc2363e32b     0 resources/shaders/d3d11/distort_geom_hard_bounds_aa_squares_ps.fxo
-          4136      1 154d2d29b1d386ef0dd5f1ceda0bdfbc8993afe0     0 resources/shaders/d3d11/distort_geom_hard_bounds_aa_squares_vs.fxo
+          3160      1 ee9dd84bc777ac96cb0a3da0646dcdfaff041233     0 resources/shaders/d3d11/distort_geom_constant_ps.fxo
+          7808      1 39fa4dfa758abff95d7c683755ab1088306a380d     0 resources/shaders/d3d11/distort_geom_curved_uvs_embedded_vs.fxo
+          4620      1 3df81640356f75d4abd442434b87cc99054f3bea     0 resources/shaders/d3d11/distort_geom_curved_vs.fxo
+          7872      1 0155f6d903b0bf631b01a621fe213a91e136f98e     0 resources/shaders/d3d11/distort_geom_drawregion_curved_uvs_embedded_vs.fxo
+          4704      1 f3e55598d5cdbcc8c69abef473cd7dc58a1cf2d0     0 resources/shaders/d3d11/distort_geom_drawregion_curved_vs.fxo
+          5916      1 f705bbc71851d2555433244e4b992074ef12db2d     0 resources/shaders/d3d11/distort_geom_drawregion_multitap_ps.fxo
+          4384      1 f32a0124d9370fea887bf984f14dfc3c4d0920d1     0 resources/shaders/d3d11/distort_geom_drawregion_ps.fxo
+          9672      1 b3b871bc432eabf95fba39c1ff6eaa32b17a7cfb     0 resources/shaders/d3d11/distort_geom_drawregion_reflect_curved_uvs_embedded_vs.fxo
+          6480      1 fee0ce8204c2b05eaa65031f05dc5eb3196feb8d     0 resources/shaders/d3d11/distort_geom_drawregion_reflect_curved_vs.fxo
+          6236      1 ddb7f9e2f7e6e1e6597d1d37f4ed6b450abb3152     0 resources/shaders/d3d11/distort_geom_drawregion_reflect_multitap_ps.fxo
+          4704      1 2f953f4770d1907781f6f1bdb81d53c69da70c39     0 resources/shaders/d3d11/distort_geom_drawregion_reflect_ps.fxo
+          9372      1 5872cd8d22082e7629ac45ad80f955f3548734bb     0 resources/shaders/d3d11/distort_geom_drawregion_reflect_uvs_embedded_vs.fxo
+          6148      1 f50e8127ce194cd65b85f100cf80853ef36e967e     0 resources/shaders/d3d11/distort_geom_drawregion_reflect_vs.fxo
+          4224      1 09f2286821aac0c1d3556c4af02080fb63bd0b64     0 resources/shaders/d3d11/distort_geom_drawregion_simplified_gamma_ps.fxo
+          3968      1 6fbd6179e03ef18d3a27ff4c54fef019b5cf6181     0 resources/shaders/d3d11/distort_geom_drawregion_simplified_ps.fxo
+          4288      1 e419e45498c4243a548b5521bcde64ce7a705bba     0 resources/shaders/d3d11/distort_geom_drawregion_simplified_reflect_ps.fxo
+          7556      1 f7f30cdce445737d5db8a3247372cf7a595ec0c1     0 resources/shaders/d3d11/distort_geom_drawregion_uvs_embedded_vs.fxo
+          4388      1 72e83369d2afc374e0b0f31cab7a9a0425fc39e6     0 resources/shaders/d3d11/distort_geom_drawregion_vs.fxo
+          4272      1 b1f2cfd9af5b1718ce3536474663b5a0b43790cf     0 resources/shaders/d3d11/distort_geom_floor_aa_ps.fxo
+          4592      1 08ac4ba70f4970ca688734f3208bf6fb3daac4df     0 resources/shaders/d3d11/distort_geom_floor_auroralit_aa_ps.fxo
+          4120      1 119691ea40d2d0fe0de508f243a874a53a82eced     0 resources/shaders/d3d11/distort_geom_floor_auroralit_ps.fxo
+          5220      1 ad9f559c7c958b36ebdcf0eab857b0a226fee64b     0 resources/shaders/d3d11/distort_geom_floor_auroralit_vs.fxo
+          3924      1 3086e2d062bb71f5c22766de6b65d36148c45147     0 resources/shaders/d3d11/distort_geom_floor_edge_vs.fxo
+          3820      1 1e5d1d543930e02b0cb87056402a199deedc7871     0 resources/shaders/d3d11/distort_geom_floor_ps.fxo
+          4528      1 eaa41c85a6e3139c847b5d73107832e25b9fdced     0 resources/shaders/d3d11/distort_geom_floor_reflect_aa_ps.fxo
+          4056      1 e27e68954a4677a583d68ba43272b2192121b9f8     0 resources/shaders/d3d11/distort_geom_floor_reflect_ps.fxo
+          5948      1 97d9a935f43477f80deda3c736b9fa4a611261e0     0 resources/shaders/d3d11/distort_geom_floor_reflect_vs.fxo
+          4128      1 e2cf931a5f638b4abd8047bdabe75e6b06a26cc6     0 resources/shaders/d3d11/distort_geom_fresnel_ps.fxo
+          5312      1 0cf3cec61059431b7f326e1dead8650f9cf0f7be     0 resources/shaders/d3d11/distort_geom_fresnel_vs.fxo
+          5600      1 001593f2084e2db086e5bf6071b4dc3bc7a50809     0 resources/shaders/d3d11/distort_geom_grid_ps.fxo
+          4032      1 92c43091ce97abb1439d2634184f419b38c0ba9a     0 resources/shaders/d3d11/distort_geom_grid_vs.fxo
+          4780      1 9e1fe31df9489d594c4fbd30fb52bede06aa1c85     0 resources/shaders/d3d11/distort_geom_hard_bounds_aa_lines_ps.fxo
+          4132      1 3d2076dfebe0266a5185310745943eb8f209cc54     0 resources/shaders/d3d11/distort_geom_hard_bounds_aa_lines_vs.fxo
+          4996      1 f02d791462aa9e1d715ada8761dfa40818315ea0     0 resources/shaders/d3d11/distort_geom_hard_bounds_aa_squares_ps.fxo
+          4132      1 3d2076dfebe0266a5185310745943eb8f209cc54     0 resources/shaders/d3d11/distort_geom_hard_bounds_aa_squares_vs.fxo
           1076      1 153aebe7eec2f4a2120d5eb5a9a6630974fc62c8     0 resources/shaders/d3d11/distort_geom_horizon_ps.fxo
-          8096      1 346cc99af5ab3ef2627d884ac9cef5c944c2ea81     0 resources/shaders/d3d11/distort_geom_ltc_diff_ps.fxo
-         13080      1 035c32af77eb0ba5beae1ab66a0e30beefa8feb6     0 resources/shaders/d3d11/distort_geom_ltc_ps.fxo
-          9268      1 7446980228670283abda44a80295b1166f85f754     0 resources/shaders/d3d11/distort_geom_ltc_spec_ps.fxo
-          4108      1 f3a0b9a6c35bb4ad4ed445a420ba68005b204710     0 resources/shaders/d3d11/distort_geom_motes_ps.fxo
-         16360      1 ba71ecc2302d70b0e17ee0dcc2139541055369cc     0 resources/shaders/d3d11/distort_geom_motes_vs.fxo
-          5556      1 f89b2bf622743112cad630a6fa7e6356a723fdaf     0 resources/shaders/d3d11/distort_geom_multitap_ps.fxo
-          6372      1 43732850d8f4812debf463780d6d11f2c5ed13b9     0 resources/shaders/d3d11/distort_geom_pbr_ps.fxo
-          3452      1 329e79da9f69b405f8046b9c7ecff10e4805e68e     0 resources/shaders/d3d11/distort_geom_playspace_drawing_area_ps.fxo
-          3948      1 53c95b1a3cc0034754daf980a29b3b6a41ce7660     0 resources/shaders/d3d11/distort_geom_playspace_drawing_area_vs.fxo
-          4024      1 e7846533767e2831b1c6a4616c49038ac1440e00     0 resources/shaders/d3d11/distort_geom_ps.fxo
-          4084      1 dc62e31b4d7bf9697253ead6c1692a40d98e6cb1     0 resources/shaders/d3d11/distort_geom_ps16.fxo
-          4348      1 3aba8a47a769d080013fbd16e9bad7c483c8fa80     0 resources/shaders/d3d11/distort_geom_ps16_mv_split.fxo
-          4016      1 3595a505f1f265622ab6f14db80b9902753eb3eb     0 resources/shaders/d3d11/distort_geom_psmvfloat.fxo
-          4080      1 3d18322f3160dcf7c4a61f449474b728fc669215     0 resources/shaders/d3d11/distort_geom_ps_debug_depth.fxo
-          3960      1 a481a0bc07aa6a041eeef96a89dd0d7097144aa2     0 resources/shaders/d3d11/distort_geom_ps_debug_mvfloat.fxo
-          9612      1 5e79931b19ef9259af503cd8606086e80e29731a     0 resources/shaders/d3d11/distort_geom_ptnorm_curved_uvs_embedded_vs.fxo
-          6400      1 06a33ea8f4711134dfdea1acf295ba164d79466d     0 resources/shaders/d3d11/distort_geom_ptnorm_curved_vs.fxo
-          5472      1 36a80599d197d4cde33c2109d14b82f531ffcbb9     0 resources/shaders/d3d11/distort_geom_ptnorm_ortho_out_vs.fxo
-          9296      1 a5030e03b42abbc2eafac2d6847432822c75ef99     0 resources/shaders/d3d11/distort_geom_ptnorm_uvs_embedded_vs.fxo
-          6068      1 40f5b729578bced606c4277aae88349dc0c328be     0 resources/shaders/d3d11/distort_geom_ptnorm_vs.fxo
-          5896      1 6a091fab2c763259fa2d03a8c72e8e5107af238f     0 resources/shaders/d3d11/distort_geom_reflect_multitap_ps.fxo
-          4364      1 955eefbab1afab8d112e44a7de1d018aa4ef45c3     0 resources/shaders/d3d11/distort_geom_reflect_ps.fxo
-          3840      1 afd60cd217315c6409c1747f76cb012c493eef39     0 resources/shaders/d3d11/distort_geom_simplified_altcolorblend_ps.fxo
-          3864      1 848bd763ab13883773bbf9bcf9bf3601ada10e12     0 resources/shaders/d3d11/distort_geom_simplified_gamma_ps.fxo
-          3608      1 4aee51e0dc7c81244e3f6136dcdcc2f4af004e69     0 resources/shaders/d3d11/distort_geom_simplified_ps.fxo
-          3948      1 ef2d3cdcb9f27f2600367a6d0d8554d9346d58a8     0 resources/shaders/d3d11/distort_geom_simplified_reflect_ps.fxo
-          4660      1 3bfee9573de28b0a98903f9ac0adb2bc1ab749c8     0 resources/shaders/d3d11/distort_geom_spherical_vs.fxo
-          3796      1 835dcc844845ee02f9dbd4b06980d2ac0133ca03     0 resources/shaders/d3d11/distort_geom_syntheticalpha_ps.fxo
-          6328      1 3182464b77a73d9f6774a1a957bceb8bed2ee179     0 resources/shaders/d3d11/distort_geom_tan_vs.fxo
-          7496      1 9224495fe7cdf8b2f28f44125533c53f97ccc769     0 resources/shaders/d3d11/distort_geom_uvs_embedded_vs.fxo
-          4716      1 46464a5564336c948b2ea3c7d69351de95bac9ab     0 resources/shaders/d3d11/distort_geom_vignette_ps.fxo
-          4364      1 c17ca4f11724c372dff081ff2fa07c25ba33dea0     0 resources/shaders/d3d11/distort_geom_vignette_vs.fxo
-          4308      1 261fa006ddfa6c924b8a6321c3c51ecb9bae0c72     0 resources/shaders/d3d11/distort_geom_vs.fxo
+          8092      1 2dbb8201469a86a2368b68d9ad47f877f653cfb9     0 resources/shaders/d3d11/distort_geom_ltc_diff_ps.fxo
+         13076      1 a61f97717c5f9d9eb8e04d359d4f460ac3920cf3     0 resources/shaders/d3d11/distort_geom_ltc_ps.fxo
+          9264      1 dce5483cd529fce59ce80736b7ac8185a681744a     0 resources/shaders/d3d11/distort_geom_ltc_spec_ps.fxo
+          4104      1 584e4802abc7d4cf87434c1d18a76a38e036c963     0 resources/shaders/d3d11/distort_geom_motes_ps.fxo
+         16356      1 bc2fa84f71fdd6c9eb68cee5d68e26784829c988     0 resources/shaders/d3d11/distort_geom_motes_vs.fxo
+          5552      1 6f9dbb42ec7694ee047395fd2e3ba445167113a1     0 resources/shaders/d3d11/distort_geom_multitap_ps.fxo
+          6368      1 283545c258be26c00f8248509b0a9b1df62d5ade     0 resources/shaders/d3d11/distort_geom_pbr_ps.fxo
+          3448      1 af5c6cd5c78b1067e6d36a84ef91e70628b56be3     0 resources/shaders/d3d11/distort_geom_playspace_drawing_area_ps.fxo
+          3944      1 1d3a1a81e335b4bc61d94d9e0a712cd3594d6316     0 resources/shaders/d3d11/distort_geom_playspace_drawing_area_vs.fxo
+          4020      1 48b3d9e15837cc74d16e55ead4e480099cf62018     0 resources/shaders/d3d11/distort_geom_ps.fxo
+          4080      1 671920556db9dfe00d928b9d3ffa0e4cfec640e3     0 resources/shaders/d3d11/distort_geom_ps16.fxo
+          4344      1 98af9e45fcdbdf7fd5ee9f325b9b9c4bda7c7390     0 resources/shaders/d3d11/distort_geom_ps16_mv_split.fxo
+          4012      1 eb4266511187010359324111ceed3056b8af3f6c     0 resources/shaders/d3d11/distort_geom_psmvfloat.fxo
+          4076      1 28b02714cba3ecb9c12426b8f286c88f36706615     0 resources/shaders/d3d11/distort_geom_ps_debug_depth.fxo
+          3956      1 823228cb9bb77944ff8690113d96475cba3964bd     0 resources/shaders/d3d11/distort_geom_ps_debug_mvfloat.fxo
+          5468      1 8af1380f1119c975fcacbcc58af4ced5e43474a2     0 resources/shaders/d3d11/distort_geom_ptnorm_ortho_out_vs.fxo
+          9608      1 aa7ac46edc7de44b4da26236e57d2ee22c583048     0 resources/shaders/d3d11/distort_geom_reflect_curved_uvs_embedded_vs.fxo
+          6396      1 0474f677b9048fd890c2869fa06249c7c354d5e2     0 resources/shaders/d3d11/distort_geom_reflect_curved_vs.fxo
+          5892      1 939bdaa7af324b90d11bf5d173fb73698385ef3b     0 resources/shaders/d3d11/distort_geom_reflect_multitap_ps.fxo
+          4360      1 1544bd19c9005107f84ec3e06c0d280a9b23212d     0 resources/shaders/d3d11/distort_geom_reflect_ps.fxo
+          9292      1 8a612c7aa6fbad879fbaa85fdef77500f44b8dad     0 resources/shaders/d3d11/distort_geom_reflect_uvs_embedded_vs.fxo
+          6064      1 23f7567a604cfba86bd31e00369197553733b95e     0 resources/shaders/d3d11/distort_geom_reflect_vs.fxo
+          3836      1 6e3178f430ad0eceb8000975b918a5f88cf177fb     0 resources/shaders/d3d11/distort_geom_simplified_altcolorblend_ps.fxo
+          3860      1 e30c26144acba57b2070e9e004fc77e914e6b86b     0 resources/shaders/d3d11/distort_geom_simplified_gamma_ps.fxo
+          3604      1 02cb6fafa0b2ee5e7e609092e8f48ec7f128e618     0 resources/shaders/d3d11/distort_geom_simplified_ps.fxo
+          3944      1 f4ca6c4ea80a3f672aa76e256477325eb637daa5     0 resources/shaders/d3d11/distort_geom_simplified_reflect_ps.fxo
+          4656      1 c90f5b96236b96c993bbfe46910fcf8cb439968c     0 resources/shaders/d3d11/distort_geom_spherical_vs.fxo
+          3792      1 0b3d38357d63556d42d67b854740bb99012f6d9a     0 resources/shaders/d3d11/distort_geom_syntheticalpha_ps.fxo
+          6324      1 eb211351b767c8cbd801ade4c7124906306d95e9     0 resources/shaders/d3d11/distort_geom_tan_vs.fxo
+          7492      1 0f7fde784ad19317e0b20033809dcfe3a8b7b224     0 resources/shaders/d3d11/distort_geom_uvs_embedded_vs.fxo
+          4712      1 3dd021c00b0eb40708e0ccb6363c9c229bf043fe     0 resources/shaders/d3d11/distort_geom_vignette_ps.fxo
+          4360      1 164b99eee56393d895a21cb1247e714e86974d25     0 resources/shaders/d3d11/distort_geom_vignette_vs.fxo
+          4304      1 6186f926bfe099580d6b90532bd5cc433f872d48     0 resources/shaders/d3d11/distort_geom_vs.fxo
            772      1 74cbd80bf9437dd3f40f789b4fce42b03cae635b     0 resources/shaders/d3d11/distort_geom_write_norm_ps.fxo
-          5728      1 3323705e44ac1d14cfea5b41383b1a00f3c6b63e     0 resources/shaders/d3d11/distort_geom_write_norm_vs.fxo
-          4016      1 4a9170548e8213125409cdbdd9592963aef42bb8     0 resources/shaders/d3d11/distort_grid_ds.fxo
-          3264      1 162a8e124e95cc7b1d0a6f54f94f3fe97b54f1bd     0 resources/shaders/d3d11/distort_grid_gs.fxo
+          5724      1 00a456451ec192e945e5e1fee67fe6f589abe5ca     0 resources/shaders/d3d11/distort_geom_write_norm_vs.fxo
+          4012      1 9e3b1632bb6334b3943d729b24f763e12d7efa03     0 resources/shaders/d3d11/distort_grid_ds.fxo
           1404      1 5cd7fa8431cb09b4eb642671df2666f46c0a4d44     0 resources/shaders/d3d11/distort_grid_hs.fxo
           1356      1 2e1470402ea3bb22cb64e3d5223d9e42ce856962     0 resources/shaders/d3d11/distort_hs.fxo
-          3968      1 044c4ef06876b9b45f576456cb30f6da34e9c17b     0 resources/shaders/d3d11/distort_line_grid_gs.fxo
-          3884      1 98b992fc4f4882369c5521057d652d60e696ddd3     0 resources/shaders/d3d11/distort_line_gs.fxo
-          4092      1 1434a9659e12e4e4fd74a25fd9581da8e19cebaa     0 resources/shaders/d3d11/distort_line_ptnorm_gs.fxo
+          3964      1 91a2c5d27c756e640ce9ce7cbaa9bb379ccd57c9     0 resources/shaders/d3d11/distort_line_grid_gs.fxo
+          3880      1 062da2cbc2abb719a660787898fbe460ae0fcf85     0 resources/shaders/d3d11/distort_line_gs.fxo
+          4088      1 4d58a5b879dd4684dcb30757a21f017ab4d18271     0 resources/shaders/d3d11/distort_line_ptnorm_gs.fxo
           1304      1 3d5b6ed1c20261ae05fead358f38cbb125f1f519     0 resources/shaders/d3d11/distort_none_ps.fxo
           1560      1 84dd90c75e1ee055b30f205a7bd641aa4ccc5b54     0 resources/shaders/d3d11/distort_none_ps_gamma.fxo
           3388      1 0cd392666f6d0fb11b0e94707a8eae608c4a5c8d     0 resources/shaders/d3d11/distort_none_ps_layered.fxo
@@ -2412,9 +2356,9 @@ Total bytes compressed : 366356432
           4904      1 9f48a3ea56b31cbbf1cb39fba50214e5f7753d1f     0 resources/shaders/d3d11/distort_panorama_ps.fxo
           2340      1 0a7d976981b7f217055818477a09c6aae4044dac     0 resources/shaders/d3d11/distort_panorama_solid_color_ps.fxo
            616      1 0649027e4bbb27ae73193d941ce7c29f90affff2     0 resources/shaders/d3d11/distort_panorama_vs.fxo
-          3700      1 ef91834534a01f9e7559f1f7db672ae63efd44ca     0 resources/shaders/d3d11/distort_point_grid_gs.fxo
-          3640      1 c9d5b5fc9ccf3da496e5acc13b1b16dc3b745e99     0 resources/shaders/d3d11/distort_point_gs.fxo
-          3824      1 2546aae342ad0828c81319b3b4ce2ce825c2020b     0 resources/shaders/d3d11/distort_point_ptnorm_gs.fxo
+          3696      1 cfb853f7616afeadb3fa81788e21f0e81b8fb303     0 resources/shaders/d3d11/distort_point_grid_gs.fxo
+          3636      1 69f849045a90d7b6845600fef289c5ca6f7d7122     0 resources/shaders/d3d11/distort_point_gs.fxo
+          3820      1 b7f3fa7cf651dec15b61d252b35e919b0da85873     0 resources/shaders/d3d11/distort_point_ptnorm_gs.fxo
           4540      1 a6be054a400280ecdc6fe79974fe84c799358ce1     0 resources/shaders/d3d11/distort_ps.fxo
           2712      1 3ded1f06d4c130928b2e10dcb5c1fa9ca07ce57b     0 resources/shaders/d3d11/distort_ps_achromatic.fxo
           2712      1 c3113c9ea50d7492379275c41990532719d99fa3     0 resources/shaders/d3d11/distort_ps_achromatic_alphaed.fxo
@@ -2441,21 +2385,18 @@ Total bytes compressed : 366356432
           1080      1 25fc7e12adf9b3baf5d8dc93747e5dd9a2fc6bcd     0 resources/shaders/d3d11/distort_ps_scene.fxo
            708      1 e908532052fbda087ae2814d114cbe0e8bb3a94f     0 resources/shaders/d3d11/distort_ps_scene0.fxo
           3584      1 9d96cc33c318704261a52c17d7642a3f18e0b036     0 resources/shaders/d3d11/distort_ps_scene_blur.fxo
-          2452      1 11dc9fb337ab8233e71dda8d0f05639e9e32659d     0 resources/shaders/d3d11/distort_ps_simplified.fxo
-          4136      1 b3ae351ffa1549be109b95614da306751b20e184     0 resources/shaders/d3d11/distort_ptnorm_ds.fxo
-          3344      1 59b8184a922b14bd6052b82f9747ded3d809b6c2     0 resources/shaders/d3d11/distort_ptnorm_gs.fxo
+          4132      1 5b51ea88276755c5aa76d27d642234dcde3f6f40     0 resources/shaders/d3d11/distort_ptnorm_ds.fxo
           1452      1 a1714a9eea203fcf35dfbc2579c0418925b458f4     0 resources/shaders/d3d11/distort_ptnorm_hs.fxo
-          4700      1 7c2295b558a4470a521818349f3d2258615af754     0 resources/shaders/d3d11/distort_tri_floor_gs.fxo
-          4236      1 4eae5837bd1a426312199658edc6306636fb6e0c     0 resources/shaders/d3d11/distort_tri_grid_gs.fxo
-          4128      1 131b27c49f5d031e9266f5f07ece78d6c9bead6a     0 resources/shaders/d3d11/distort_tri_gs.fxo
-          4360      1 e2b62e16883a851543b0e0428e63168683e388d1     0 resources/shaders/d3d11/distort_tri_ptnorm_gs.fxo
-          4824      1 33d3fc36a275a0b5d72d1c53a8d6d03622845c15     0 resources/shaders/d3d11/distort_tri_tan_gs.fxo
+          4696      1 d7e63da69855dc1be638e5d708187e0729629fe6     0 resources/shaders/d3d11/distort_tri_floor_gs.fxo
+          4232      1 cbab96d4ece1da6776ef7f58390ba9aaa1ba0b64     0 resources/shaders/d3d11/distort_tri_grid_gs.fxo
+          4124      1 eec15c3c1c023f747c68aa5979cb4ecd25d6e482     0 resources/shaders/d3d11/distort_tri_gs.fxo
+          4356      1 fa62d4c32cf7315e047c2135e9c466e4fe43be74     0 resources/shaders/d3d11/distort_tri_ptnorm_gs.fxo
+          4820      1 70b7847d63754bf9f35b95a8ee7b69a55932c8c8     0 resources/shaders/d3d11/distort_tri_tan_gs.fxo
           4292      1 b30b51db7a4df91ae26a27c32de425c38f16b59b     0 resources/shaders/d3d11/distort_vs.fxo
           3296      1 7238e8cc4a958fa4988681b795954bf0b235065c     0 resources/shaders/d3d11/distort_vs_latest_nd.fxo
           4352      1 e19d5961ae25664af831515eecbf214b90add965     0 resources/shaders/d3d11/distort_vs_layered.fxo
           4352      1 e88e879b41896b2422154e23a4956c183b12c1e5     0 resources/shaders/d3d11/distort_vs_layered_nd.fxo
           4076      1 69588c55b2751268b8aad9c23e5126b0632e31a0     0 resources/shaders/d3d11/distort_vs_nd.fxo
-          8892      1 c66f13c7afe280a412b1b6915834bd17693e444b     0 resources/shaders/d3d11/distort_vs_reproject.fxo
           5732      1 000872e63f729170d4f39094f99c7bf64be01613     0 resources/shaders/d3d11/distort_vs_reproject_fv.fxo
           3044      1 5ef4bc8bd233ab5bad56b465501dcc14b79887f7     0 resources/shaders/d3d11/distort_vs_reproject_fv_dr.fxo
           8976      1 205047a03a344057dd92e6530a13f82103e32305     0 resources/shaders/d3d11/distort_vs_reproject_layered.fxo
@@ -2472,41 +2413,41 @@ Total bytes compressed : 366356432
           5040      1 ee618b0190b4b57f7f0a32aae2ba5ec8177f979f     0 resources/shaders/d3d11/frame_hallucination_float_vs.fxo
            672      1 93527a02d2f12d40b55e5b9b7610d33fa28e119f     0 resources/shaders/d3d11/frame_hallucination_ps.fxo
           5060      1 76a6cf06444534471648118994eec5b553577f35     0 resources/shaders/d3d11/frame_hallucination_vs.fxo
-         10400      1 0177d086337c0d19c774af97d04030283d1c5293     0 resources/shaders/d3d11/fsharp_2d_drawregion_gamma_ps.fxo
-         10144      1 efeefbcd604a06533e1d00df5696d80c8eb51b7b     0 resources/shaders/d3d11/fsharp_2d_drawregion_ps.fxo
-         10056      1 dea1c6e86869426703aa81d9c50fa9e4b04123a7     0 resources/shaders/d3d11/fsharp_2d_gamma_ps.fxo
-          9800      1 fad711e2eef224cf67a5d3af56044f786c0810b1     0 resources/shaders/d3d11/fsharp_2d_ps.fxo
+         10396      1 80b2891155a21a0b888b66a34c5bf17e2e6aaf91     0 resources/shaders/d3d11/fsharp_2d_drawregion_gamma_ps.fxo
+         10140      1 071bc0a881d4dd56bd62939d355e0a982b0e09fb     0 resources/shaders/d3d11/fsharp_2d_drawregion_ps.fxo
+         10052      1 af882646a20674e71ea4afa65cccbf964db595b0     0 resources/shaders/d3d11/fsharp_2d_gamma_ps.fxo
+          9796      1 7b72929e424bc1bbdb9f568767a27f6af0320b8c     0 resources/shaders/d3d11/fsharp_2d_ps.fxo
           3744      1 102baccae154c2b535ff090df4ba76e652b71326     0 resources/shaders/d3d11/fsharp_vr_depth_only_ps.fxo
          10240      1 7e44ac72c199f60c7a1fbb96790dc38f321a6c53     0 resources/shaders/d3d11/fsharp_vr_depth_ps.fxo
           9320      1 66e09e3f39464b0179793e24ad4022fe603c821c     0 resources/shaders/d3d11/fsharp_vr_ps.fxo
-          4608      1 be7068590daef9ce035ecca5565cd905cc075af4     0 resources/shaders/d3d11/geom_aurora_vs.fxo
-          3668      1 6742dd6112029891405c188af4f04569a1c82ee1     0 resources/shaders/d3d11/geom_bounds_color_vs.fxo
-          7524      1 ec56702e5b57b7e8c70c8e2926b75e90021860d3     0 resources/shaders/d3d11/geom_curved_uvs_embedded_vs.fxo
-          4340      1 0be8903ffb376d38558aed6a59db607921122d76     0 resources/shaders/d3d11/geom_curved_vs.fxo
-          7588      1 f15451ea002fe6ae69cc6fe1ecac63756f9de03d     0 resources/shaders/d3d11/geom_drawregion_curved_uvs_embedded_vs.fxo
-          4424      1 8f9f58f83054324b9486f2b041b5a6f545c07eec     0 resources/shaders/d3d11/geom_drawregion_curved_vs.fxo
-          9388      1 bfa396dc85fa7252f0090d96b0003eae6391ddfd     0 resources/shaders/d3d11/geom_drawregion_ptnorm_curved_uvs_embedded_vs.fxo
-          6200      1 3b5d56bdad2896c5ba6b69203157d96461eccda4     0 resources/shaders/d3d11/geom_drawregion_ptnorm_curved_vs.fxo
-          9088      1 611083f3d91b91365189beef9d59ef4194a75481     0 resources/shaders/d3d11/geom_drawregion_ptnorm_uvs_embedded_vs.fxo
-          5868      1 8958bfb8d277089f9a0efefd1da0f77459eca193     0 resources/shaders/d3d11/geom_drawregion_ptnorm_vs.fxo
-          7272      1 c319d2ef8c6884a1bab7997d5939743107c9224a     0 resources/shaders/d3d11/geom_drawregion_uvs_embedded_vs.fxo
-          4108      1 a4150b05658c1cb349661a58ca9a8492b41a441b     0 resources/shaders/d3d11/geom_drawregion_vs.fxo
-          6468      1 82a27a0c972302b8c89615b9cd4639194a392a61     0 resources/shaders/d3d11/geom_floor_auroralit_vs.fxo
-          3644      1 8bfdc7a0cfc6dc9e6aa0d5ef015c8303854bd91e     0 resources/shaders/d3d11/geom_floor_edge_vs.fxo
-          5668      1 b003c46674697291b45d4304fef046be2a767ad2     0 resources/shaders/d3d11/geom_floor_vs.fxo
-          5000      1 148d6d9eaddd1fc1aa626e4ceec49ef918f118d8     0 resources/shaders/d3d11/geom_fresnel_vs.fxo
-         16076      1 4cc6534a3eec2ac2418ec96d5efe84fbe3cf38c8     0 resources/shaders/d3d11/geom_motes_vs.fxo
-          3664      1 5179e926d9547f119d9a959a7c004a59169f0b43     0 resources/shaders/d3d11/geom_playspace_drawing_area_vs.fxo
-          9324      1 eee3bce02e25f4eb1000ebe14abd771de0284c0a     0 resources/shaders/d3d11/geom_ptnorm_curved_uvs_embedded_vs.fxo
-          6116      1 05f86d6e2a80ba7928ac375770df68f9586ec6de     0 resources/shaders/d3d11/geom_ptnorm_curved_vs.fxo
-          5244      1 8e41d5c733eba22c3b4f3773a4fa31c9e6e5b867     0 resources/shaders/d3d11/geom_ptnorm_ortho_out_vs.fxo
-          9008      1 c299364c8939508d6943ab4445d970bb636acb7f     0 resources/shaders/d3d11/geom_ptnorm_uvs_embedded_vs.fxo
-          5784      1 19036df31f97ceef190eb131154759bfb86f0276     0 resources/shaders/d3d11/geom_ptnorm_vs.fxo
-          4376      1 2693464cfbc9c95ab0e226e0ac8ef5f1d8b7b129     0 resources/shaders/d3d11/geom_spherical_vs.fxo
-          6044      1 7ac11cb977efa25891694509562603bf9ecb3c35     0 resources/shaders/d3d11/geom_tan_vs.fxo
-          7208      1 44c565f0ff5fd0555410215fa815520abda967b8     0 resources/shaders/d3d11/geom_uvs_embedded_vs.fxo
-          4080      1 6a6c0ed4c77153b3ee3156d36c1c7131fe35688c     0 resources/shaders/d3d11/geom_vignette_vs.fxo
-          4024      1 3a6aa5ae0efd600c858a346cce81875ea6725037     0 resources/shaders/d3d11/geom_vs.fxo
+          4700      1 7750810568a9a68bb12a174eae2514883639fcbc     0 resources/shaders/d3d11/geom_aurora_vs.fxo
+          3664      1 3a79df5244af859619fd51aceb9036bc08f7a86f     0 resources/shaders/d3d11/geom_bounds_color_vs.fxo
+          7520      1 56d9688550b66d46bc0e267bf8a13e32f9650f8b     0 resources/shaders/d3d11/geom_curved_uvs_embedded_vs.fxo
+          4336      1 245052b1aa8d330316ea862c1fcb6c4ec0942207     0 resources/shaders/d3d11/geom_curved_vs.fxo
+          7584      1 830c7d295928b74a5f1244114659de912a774985     0 resources/shaders/d3d11/geom_drawregion_curved_uvs_embedded_vs.fxo
+          4420      1 57f30de61c26684d2537397b37e2e37a0615149a     0 resources/shaders/d3d11/geom_drawregion_curved_vs.fxo
+          9384      1 17cce169881587a231eed575244e54bad9adb4ad     0 resources/shaders/d3d11/geom_drawregion_reflect_curved_uvs_embedded_vs.fxo
+          6196      1 67b0997bdae8bc1ee66364baf1b8162c2d596c41     0 resources/shaders/d3d11/geom_drawregion_reflect_curved_vs.fxo
+          9084      1 dbca87bde0f9e6a26abfb54f90444f0ce2306e2f     0 resources/shaders/d3d11/geom_drawregion_reflect_uvs_embedded_vs.fxo
+          5864      1 cccae8671117bef2f0f7d29217fff487a2ef5fd1     0 resources/shaders/d3d11/geom_drawregion_reflect_vs.fxo
+          7268      1 506635233ee0d888dcdc443aca75c5086996206e     0 resources/shaders/d3d11/geom_drawregion_uvs_embedded_vs.fxo
+          4104      1 b5c7f61dc7ae1baf79aa35cb844744e720654116     0 resources/shaders/d3d11/geom_drawregion_vs.fxo
+          4936      1 bcc4f3ee02d3d720a540fada802c6ba09dda9ff2     0 resources/shaders/d3d11/geom_floor_auroralit_vs.fxo
+          3640      1 31dc31faaa459c5bc927c2fb0cb49eefdb3d8b3d     0 resources/shaders/d3d11/geom_floor_edge_vs.fxo
+          5664      1 fce0c26e15ea2fbf24814c9a318fc33886d0d5df     0 resources/shaders/d3d11/geom_floor_reflect_vs.fxo
+          5028      1 05f12239ed3a78c0ae633f684d5aa275b1b42486     0 resources/shaders/d3d11/geom_fresnel_vs.fxo
+         16072      1 0e1a22d8d5151dc2e06c555ab5992496d3190fb4     0 resources/shaders/d3d11/geom_motes_vs.fxo
+          3660      1 f0070a36ae8170973b388fe740d94ee5be81d3d0     0 resources/shaders/d3d11/geom_playspace_drawing_area_vs.fxo
+          5240      1 41a355693e1ed0063548305260b88b7cf10093fb     0 resources/shaders/d3d11/geom_ptnorm_ortho_out_vs.fxo
+          9320      1 db26a4aff2633b747d291ebef6fbec3420d91baa     0 resources/shaders/d3d11/geom_reflect_curved_uvs_embedded_vs.fxo
+          6112      1 f05c48c9782972283f883994430ebf1604f1dce7     0 resources/shaders/d3d11/geom_reflect_curved_vs.fxo
+          9004      1 4b6700b7530c20b0823a6d3af24c6468080bae07     0 resources/shaders/d3d11/geom_reflect_uvs_embedded_vs.fxo
+          5780      1 28537842197b11da651e8332f15e07bdd4ffa082     0 resources/shaders/d3d11/geom_reflect_vs.fxo
+          4372      1 b80891ab3ffc2bd9db2c3bbd1b5f1a7b84faa1a0     0 resources/shaders/d3d11/geom_spherical_vs.fxo
+          6040      1 fbe2f857c194066d3390498b8f68d236ca9a720b     0 resources/shaders/d3d11/geom_tan_vs.fxo
+          7204      1 05d804c3ecf411821bcf491a2cfc8754a28825e1     0 resources/shaders/d3d11/geom_uvs_embedded_vs.fxo
+          4076      1 549b06245e5b6b7c695df2e9576f9ba5666543f3     0 resources/shaders/d3d11/geom_vignette_vs.fxo
+          4020      1 748c7858a71503b08b6170d92cb0f5eb4b498ac6     0 resources/shaders/d3d11/geom_vs.fxo
           9208      1 f8d34377fde1c2e411fcdcb6281040606d332c28     0 resources/shaders/d3d11/gpu_measurement_ps.fxo
           4060      1 c4be52039ee1a27b7fc12a525f4c142a60cf378a     0 resources/shaders/d3d11/gpu_measurement_vs.fxo
           9236      1 b49c59c82805d7a5c159676a51c49adb0fa55255     0 resources/shaders/d3d11/linepixelsim2_cs.fxo
@@ -2551,12 +2492,10 @@ Total bytes compressed : 366356432
           3856      1 475ae120a8b7e4daa4be46393f7fff68b439e4a0     0 resources/shaders/d3d11/tracked_camera_ps.fxo
           5684      1 84c267f7df1c7f0a90c7289f766ccfe6fb742c46     0 resources/shaders/d3d11/tracked_camera_reprojection_ps.fxo
           5500      1 2e0c361556a1b8cdb087ed9e6ae55a34bc245993     0 resources/shaders/d3d11/tracked_camera_reprojection_simplified_devignette_vs.fxo
-          3464      1 bd49126165fa32a26a00507235387576f2eaa83e     0 resources/shaders/d3d11/tracked_camera_reprojection_simplified_gs.fxo
           3000      1 15c1a58fc494e4b4574f8f74f4e8a33d85433a2a     0 resources/shaders/d3d11/tracked_camera_reprojection_simplified_monochrome_devignette_nv12_ps.fxo
           3000      1 10154a6a5cc2d9f02e7ae4b991bc7b609c0fd8d5     0 resources/shaders/d3d11/tracked_camera_reprojection_simplified_monochrome_devignette_ps.fxo
           2964      1 6b816b6e81140c0044ddec2b19c369b67eac58f4     0 resources/shaders/d3d11/tracked_camera_reprojection_simplified_monochrome_nv12_ps.fxo
           2964      1 39e8e56f101301e364b6a887643a4f1e47d43f95     0 resources/shaders/d3d11/tracked_camera_reprojection_simplified_monochrome_ps.fxo
-          2760      1 1f301c955b54e31d90877118668a2c1b66c5991d     0 resources/shaders/d3d11/tracked_camera_reprojection_simplified_ps.fxo
           3272      1 44b91b384aa5768fd1d775246b87129cc84a1c8d     0 resources/shaders/d3d11/tracked_camera_reprojection_simplified_rgb_nv12_ps.fxo
           5644      1 b3e3cd001d670b4a4964b10e0f4ea07b8b4174d4     0 resources/shaders/d3d11/tracked_camera_reprojection_simplified_sharpen_devignette_vs.fxo
           8740      1 33d65de0c195d3d2967468d98cf26c44f59870aa     0 resources/shaders/d3d11/tracked_camera_reprojection_simplified_sharpen_monochrome_devignette_nv12_ps.fxo
@@ -2566,7 +2505,6 @@ Total bytes compressed : 366356432
           9084      1 3d6edcb622f772d00ce6abaaf7db20fe510bb8ea     0 resources/shaders/d3d11/tracked_camera_reprojection_simplified_sharpen_rgb_nv12_ps.fxo
           4900      1 835f5ff8a99672bde264e3d3861e9f6cf4a49b4a     0 resources/shaders/d3d11/tracked_camera_reprojection_simplified_sharpen_vs.fxo
           4756      1 9a763e9c40beb085df96363a533aefab842405b6     0 resources/shaders/d3d11/tracked_camera_reprojection_simplified_vs.fxo
-          2040      1 b383aa9ed2fc65a9e8076d4d9d48f27e6d8ea458     0 resources/shaders/d3d11/tracked_camera_reprojection_simplified_ycbcr_ps.fxo
           2632      1 e55a2250e0c0e7e353835c5511baf36c2362b2d4     0 resources/shaders/d3d11/tracked_camera_reprojection_vs.fxo
           2588      1 356dfd5423ad7072a64905cb98b97b32d9b2a388     0 resources/shaders/d3d11/tracked_camera_undistort_ps.fxo
            648      1 bd4d2ccf45aace8208ad06e55258975037dcae66     0 resources/shaders/d3d11/tracked_camera_undistort_vs.fxo
@@ -2590,100 +2528,99 @@ Total bytes compressed : 366356432
            348      1 0ab5a752c50e0f4ac6912363db6e6e3c6845705f     0 resources/shaders/vulkan/distort_bounds_color_ps.spv
          16108      1 2f43ea963c0f406d8cc1e137684b11d19e795ce9     0 resources/shaders/vulkan/distort_cs.spv
          18632      1 c830f43621363eee8dd5fa82ce8815f2db3ef9ec     0 resources/shaders/vulkan/distort_cs_mc.spv
-          3344      1 e169d1737dfde4c3ed41fbbf72c797d43f6a77e0     0 resources/shaders/vulkan/distort_ds.spv
-          2408      1 8b29b92f123d14dd0e5cb1d2eb9f26e95e481187     0 resources/shaders/vulkan/distort_geom_aa_circles_ps.spv
-          2892      1 86859efad639142eaa538cf2daaee6515da461ec     0 resources/shaders/vulkan/distort_geom_aa_circles_vs.spv
-          2404      1 d64f1eec84a5063ddd9c0e5a8d99b89cb8a93a33     0 resources/shaders/vulkan/distort_geom_aa_lines_ps.spv
-          2892      1 86859efad639142eaa538cf2daaee6515da461ec     0 resources/shaders/vulkan/distort_geom_aa_lines_vs.spv
-          2612      1 6aa6b16d64c226b4be4403867ea6db60af257bb6     0 resources/shaders/vulkan/distort_geom_aa_quads_ps.spv
-          2892      1 86859efad639142eaa538cf2daaee6515da461ec     0 resources/shaders/vulkan/distort_geom_aa_quads_vs.spv
-          4800      1 9cd8ffed38f428f064f787f4bf8da05b80010c1c     0 resources/shaders/vulkan/distort_geom_altcolorblend_ps.spv
-          3120      1 24711b8623cef452219952e2bad3d45d6af243fe     0 resources/shaders/vulkan/distort_geom_aurora_floor_ps.spv
-          3728      1 3a9cc94199eec94fa7e385f89c29240e2b542b5d     0 resources/shaders/vulkan/distort_geom_aurora_horizon_notexture_ps.spv
-          5172      1 b4c401570fb679b052db7761a83ec50833d00bd2     0 resources/shaders/vulkan/distort_geom_aurora_horizon_ps.spv
-          6760      1 e0570f947cb003f42b13a6e8cd553228623d1913     0 resources/shaders/vulkan/distort_geom_aurora_ps.spv
-          2096      1 4fde2517491037dd6faf1935e6257d208cd00b6b     0 resources/shaders/vulkan/distort_geom_aurora_sky_notexture_ps.spv
-          3384      1 b4b10d53daa14acb22c1e6e7d36529df66df1357     0 resources/shaders/vulkan/distort_geom_aurora_sky_ps.spv
-          5164      1 49c1e3c95920d4359ef2a96868847339d6579c5d     0 resources/shaders/vulkan/distort_geom_aurora_vs.spv
-          2852      1 423533823d704fe248c5c293a50b75f639651c43     0 resources/shaders/vulkan/distort_geom_bounds_color_vs.spv
+          3320      1 136a5da67b6074ceba9a2491ffc6e7a4a0b1c0dd     0 resources/shaders/vulkan/distort_ds.spv
+          2384      1 d2fe654db62490e2a0e207642fc1d667fc4d7ec5     0 resources/shaders/vulkan/distort_geom_aa_circles_ps.spv
+          2868      1 ec930951b3376f3e23faed3e2a33068b3bd869f6     0 resources/shaders/vulkan/distort_geom_aa_circles_vs.spv
+          2380      1 8670396a3d7b6d0982ab328a0c32ae101bfaad05     0 resources/shaders/vulkan/distort_geom_aa_lines_ps.spv
+          2868      1 ec930951b3376f3e23faed3e2a33068b3bd869f6     0 resources/shaders/vulkan/distort_geom_aa_lines_vs.spv
+          2588      1 b48fb2b60e8bbe3de5cfd9593c91004d6a8ef0b9     0 resources/shaders/vulkan/distort_geom_aa_quads_ps.spv
+          2868      1 ec930951b3376f3e23faed3e2a33068b3bd869f6     0 resources/shaders/vulkan/distort_geom_aa_quads_vs.spv
+          4776      1 c695fab6185baea666106e5a03ffd2b3b4e41f34     0 resources/shaders/vulkan/distort_geom_altcolorblend_ps.spv
+          3376      1 f0db81e78322147e1d9c3a45a45fd20ea61bc255     0 resources/shaders/vulkan/distort_geom_aurora_floor_ps.spv
+          4040      1 cd84f2667670a11f476e5b7557fc92bdbc0d5772     0 resources/shaders/vulkan/distort_geom_aurora_horizon_notexture_ps.spv
+          5372      1 d75d8c21c944cf5fc3092530ed78053476deebec     0 resources/shaders/vulkan/distort_geom_aurora_horizon_ps.spv
+          2072      1 821b43f20a27d18476bba9416c6698e9ddd691fb     0 resources/shaders/vulkan/distort_geom_aurora_sky_notexture_ps.spv
+          3232      1 7eabecdc7421147993d60c0837b612a3c4781ca1     0 resources/shaders/vulkan/distort_geom_aurora_sky_ps.spv
+          5164      1 980be6877ee6a230f40e4eb4b3984a149f4f7138     0 resources/shaders/vulkan/distort_geom_aurora_vs.spv
+          2828      1 54ccf107dba4569415acba93ec287c927e252552     0 resources/shaders/vulkan/distort_geom_bounds_color_vs.spv
           1512      1 c460928abaa29e4250d70a76f90f09d9638c92d6     0 resources/shaders/vulkan/distort_geom_colormap_lines_ps.spv
-          1744      1 c2353cb377dc7568ec1424f1dc466e83716b14eb     0 resources/shaders/vulkan/distort_geom_constant_ps.spv
-         10076      1 6a1983cc1ead0d693d9205152335fc5ceb63387a     0 resources/shaders/vulkan/distort_geom_curved_uvs_embedded_vs.spv
-          4124      1 19205db6de0c31c38f83ffd6e800cd79b3f43dc8     0 resources/shaders/vulkan/distort_geom_curved_vs.spv
-         10244      1 1382515102f2d766e52aad61dd06630384e3cb15     0 resources/shaders/vulkan/distort_geom_drawregion_curved_uvs_embedded_vs.spv
-          4292      1 2fce200be62ab2e8a94b50a656c130215446e376     0 resources/shaders/vulkan/distort_geom_drawregion_curved_vs.spv
-          6636      1 33e72b8f41ac370487a43c8a2b11ea924eba68ee     0 resources/shaders/vulkan/distort_geom_drawregion_multitap_ps.spv
-          4612      1 89e0487c76e0637f0f9004afecee0b663ec7e58d     0 resources/shaders/vulkan/distort_geom_drawregion_ps.spv
-         11260      1 c812aaa5452e098321abd2673403e15c4c20bc82     0 resources/shaders/vulkan/distort_geom_drawregion_ptnorm_curved_uvs_embedded_vs.spv
-          5308      1 9fd577d473bf2a11da0848edaa50671dda3226fe     0 resources/shaders/vulkan/distort_geom_drawregion_ptnorm_curved_vs.spv
-         10696      1 a63810d0e6ed73efce25f4ea7b1946e35def07fc     0 resources/shaders/vulkan/distort_geom_drawregion_ptnorm_uvs_embedded_vs.spv
-          4728      1 9e400211f001be3f2d30e7a143200836e9bed964     0 resources/shaders/vulkan/distort_geom_drawregion_ptnorm_vs.spv
-          7224      1 6dd5cb6e101fa7b6e56300f7fae3999b22f91e9e     0 resources/shaders/vulkan/distort_geom_drawregion_reflect_multitap_ps.spv
-          5200      1 5fd95cde99ca21686b494a83e16155184869641c     0 resources/shaders/vulkan/distort_geom_drawregion_reflect_ps.spv
-          4112      1 2656b4f6bcbe26be05a02768bbefbded8bb37633     0 resources/shaders/vulkan/distort_geom_drawregion_simplified_gamma_ps.spv
-          3432      1 03b019e8678e3207b2cbc5df67e0c25d8b99b093     0 resources/shaders/vulkan/distort_geom_drawregion_simplified_ps.spv
-          4020      1 898dc8ab5dd565acf823cd085e4e614305a45550     0 resources/shaders/vulkan/distort_geom_drawregion_simplified_reflect_ps.spv
-          9680      1 afd3ebcc97ac10854ac0118224c40303a1ff9e4d     0 resources/shaders/vulkan/distort_geom_drawregion_uvs_embedded_vs.spv
-          3712      1 b6068089d1398846a35bbd3ce0dbdaf5e8eb86cc     0 resources/shaders/vulkan/distort_geom_drawregion_vs.spv
-          3880      1 ae60b078ce6a6f98f86aab3ca36b9f67f597dc96     0 resources/shaders/vulkan/distort_geom_floor_aa_ps.spv
-          4464      1 60f64d19194ca392de770aac16411633a9f2de80     0 resources/shaders/vulkan/distort_geom_floor_auroralit_ps.spv
-          6116      1 287d29a6debd194d1c613ad50ab6ba95c0b316e5     0 resources/shaders/vulkan/distort_geom_floor_auroralit_vs.spv
-          2792      1 f5e09229260847a490573a143fbd758dd62dbdc7     0 resources/shaders/vulkan/distort_geom_floor_edge_vs.spv
-          3444      1 f9ce522ba6c300966ffb39849d3cf6e081cc3adc     0 resources/shaders/vulkan/distort_geom_floor_ps.spv
-          4260      1 b2d3f1074f4ce266e68712c5374904416031eda8     0 resources/shaders/vulkan/distort_geom_floor_reflect_aa_ps.spv
-          3824      1 2cd03bcffd0907495b15b440b1fcd896928f465c     0 resources/shaders/vulkan/distort_geom_floor_reflect_ps.spv
-          4256      1 c42e976581f06b790b5f4aff5b87a972d3411a74     0 resources/shaders/vulkan/distort_geom_floor_vs.spv
-          4284      1 847f0580d4789f0b69c6bbd07c8f5f4169db000e     0 resources/shaders/vulkan/distort_geom_fresnel_ps.spv
-          5052      1 beda02b5c2e2cdfc15f7bf61aaaad41c0206bbb9     0 resources/shaders/vulkan/distort_geom_fresnel_vs.spv
-          4224      1 bfaa31d82da4add01924afc4bcbfb0bba2ce39fe     0 resources/shaders/vulkan/distort_geom_grid_ps.spv
-          2964      1 5c68f9d30739cbb9e4694bf2e7d475dc4a2545ce     0 resources/shaders/vulkan/distort_geom_grid_vs.spv
-          3928      1 84df9fc02882bf4fb57349817152ba585c36ffbf     0 resources/shaders/vulkan/distort_geom_hard_bounds_aa_lines_ps.spv
-          3068      1 c0bc39139caeb6731f8a2b6d6aeadc109b090bbb     0 resources/shaders/vulkan/distort_geom_hard_bounds_aa_lines_vs.spv
-          4432      1 c157d7de2a4e107479e17ada04d9ec25c7a87176     0 resources/shaders/vulkan/distort_geom_hard_bounds_aa_squares_ps.spv
-          3068      1 c0bc39139caeb6731f8a2b6d6aeadc109b090bbb     0 resources/shaders/vulkan/distort_geom_hard_bounds_aa_squares_vs.spv
+          1720      1 a886f94ab46d797cd3e4f91fe2d69d3c116652aa     0 resources/shaders/vulkan/distort_geom_constant_ps.spv
+         10052      1 0d512b3f9e82c39d4ad35494a69d8f9164ab9a74     0 resources/shaders/vulkan/distort_geom_curved_uvs_embedded_vs.spv
+          4100      1 88e4a23c9f4b209511e55beecc00b654faf6bb0d     0 resources/shaders/vulkan/distort_geom_curved_vs.spv
+         10220      1 3bf34d8f4ce336e9859fdea043b5e4e081d4fccc     0 resources/shaders/vulkan/distort_geom_drawregion_curved_uvs_embedded_vs.spv
+          4268      1 b6aa01964f3a9dcbb3c5112d9a183279db034ede     0 resources/shaders/vulkan/distort_geom_drawregion_curved_vs.spv
+          6612      1 b3cc9fbec86b11ad8916ef2daadaa95ae65939f6     0 resources/shaders/vulkan/distort_geom_drawregion_multitap_ps.spv
+          4588      1 fd85a0ea0504c84d0100896bee5fcf5f67dc26b5     0 resources/shaders/vulkan/distort_geom_drawregion_ps.spv
+         11236      1 53a3a7ab5e9b49eddd8bc244c0e94cf1f6412d72     0 resources/shaders/vulkan/distort_geom_drawregion_reflect_curved_uvs_embedded_vs.spv
+          5284      1 b95d6e12da343ac8865978f686c1de9e1f3d3785     0 resources/shaders/vulkan/distort_geom_drawregion_reflect_curved_vs.spv
+          7200      1 c8c407684ab5b23eb0fb9d919df44f295c0187f1     0 resources/shaders/vulkan/distort_geom_drawregion_reflect_multitap_ps.spv
+          5176      1 825d830d8b04ac84bb3f3114b98ccbb8c8892831     0 resources/shaders/vulkan/distort_geom_drawregion_reflect_ps.spv
+         10672      1 68d7e243d3280890434ac9f42e088dcf6431d99d     0 resources/shaders/vulkan/distort_geom_drawregion_reflect_uvs_embedded_vs.spv
+          4704      1 7e966de8ed9f2d3c9d06c847aaf582d93236a31b     0 resources/shaders/vulkan/distort_geom_drawregion_reflect_vs.spv
+          4088      1 1331d48f65997a27dc6ee1ceca4a524c79191988     0 resources/shaders/vulkan/distort_geom_drawregion_simplified_gamma_ps.spv
+          3408      1 75de9874a7116afcb6538f52969638e05bce599f     0 resources/shaders/vulkan/distort_geom_drawregion_simplified_ps.spv
+          3996      1 cf83ddda69a2ae940205254526fe6e8984ee51d1     0 resources/shaders/vulkan/distort_geom_drawregion_simplified_reflect_ps.spv
+          9656      1 db1a6de7ded5c5fb72e6ccf9b88fc14939aa4429     0 resources/shaders/vulkan/distort_geom_drawregion_uvs_embedded_vs.spv
+          3688      1 cc6b8543e910c5872b4b8a2a7bd11189de4cb7a1     0 resources/shaders/vulkan/distort_geom_drawregion_vs.spv
+          3872      1 e952d5c6ff229e4189496bf05b8af701b5871ec7     0 resources/shaders/vulkan/distort_geom_floor_aa_ps.spv
+          5216      1 3a8b6775d7e5f2648f09477f99504c74fdf26b03     0 resources/shaders/vulkan/distort_geom_floor_auroralit_aa_ps.spv
+          4780      1 36a2ab02b387a60c33b2a964226926b52dadfc95     0 resources/shaders/vulkan/distort_geom_floor_auroralit_ps.spv
+          5180      1 1507f8e5ba200b53762b34975527f2395048d67a     0 resources/shaders/vulkan/distort_geom_floor_auroralit_vs.spv
+          2768      1 763d94464a47b06c948f6304877bd9b8c04ef5d6     0 resources/shaders/vulkan/distort_geom_floor_edge_vs.spv
+          3436      1 80a1d4210f4cbb8fdcfb6302a6295c7a38d10a93     0 resources/shaders/vulkan/distort_geom_floor_ps.spv
+          4236      1 1f89063fc53c33c45d77beea734b18f910de3c61     0 resources/shaders/vulkan/distort_geom_floor_reflect_aa_ps.spv
+          3800      1 579313408998ed78571dabfd3dbffacf65333dc7     0 resources/shaders/vulkan/distort_geom_floor_reflect_ps.spv
+          4232      1 04edac41cfccc10b064d8a437f1c20af6eded649     0 resources/shaders/vulkan/distort_geom_floor_reflect_vs.spv
+          4260      1 8e3da704b7934739d3a36fc7c954c44f1730c6c4     0 resources/shaders/vulkan/distort_geom_fresnel_ps.spv
+          5136      1 71cfd3841b3c114edfd3f64013aeaca816a48e0d     0 resources/shaders/vulkan/distort_geom_fresnel_vs.spv
+          4200      1 5a590a4625f9775d147b9ac4a4398bcb452f1655     0 resources/shaders/vulkan/distort_geom_grid_ps.spv
+          2940      1 dea8101c07cd78228d7f66199bfd31d6e74615fb     0 resources/shaders/vulkan/distort_geom_grid_vs.spv
+          3904      1 d5d49edb3dad6c06ea8ad02ae9d8e7873a04267b     0 resources/shaders/vulkan/distort_geom_hard_bounds_aa_lines_ps.spv
+          3044      1 03c4839d7c40eca3b23951c4ad1a90989855a31a     0 resources/shaders/vulkan/distort_geom_hard_bounds_aa_lines_vs.spv
+          4408      1 f8a5b60ed8b6b3a69aec155b414d8c89916138b5     0 resources/shaders/vulkan/distort_geom_hard_bounds_aa_squares_ps.spv
+          3044      1 03c4839d7c40eca3b23951c4ad1a90989855a31a     0 resources/shaders/vulkan/distort_geom_hard_bounds_aa_squares_vs.spv
           1360      1 f832bbffc96a451af97d568e4ae2710a4bf8d20e     0 resources/shaders/vulkan/distort_geom_horizon_ps.spv
-          7832      1 a70d79f01191693a153c32628e01b7e2c72cb027     0 resources/shaders/vulkan/distort_geom_ltc_diff_ps.spv
-         13252      1 95921d7130235f816721ee790ccc28f431ada7bc     0 resources/shaders/vulkan/distort_geom_ltc_ps.spv
-          9456      1 d1db92bb7f7488239d6d6d54aa92596ce0cdb79d     0 resources/shaders/vulkan/distort_geom_ltc_spec_ps.spv
-          4352      1 b2e52804b894e6bad48e684a193482684632a636     0 resources/shaders/vulkan/distort_geom_motes_ps.spv
-         17224      1 a1271620ef4550f14feb12eea918c2fdaaec34aa     0 resources/shaders/vulkan/distort_geom_motes_vs.spv
-          6124      1 2c3ba1de2b87a7e6d4bd1a23d3be85f50cbbb31b     0 resources/shaders/vulkan/distort_geom_multitap_ps.spv
-          6632      1 92e026e3efdaa94d21a4ddb78a8878fefb6af8ca     0 resources/shaders/vulkan/distort_geom_pbr_ps.spv
-          2316      1 e19f5bfb7d39b1fcabd091eda65f4b7e2af0bf3d     0 resources/shaders/vulkan/distort_geom_playspace_drawing_area_ps.spv
-          2768      1 afa7de82c2575397ce6e59d5fe80a2e24ba3d2b0     0 resources/shaders/vulkan/distort_geom_playspace_drawing_area_vs.spv
-          4100      1 0e9ef44ea226fa74ee027f49e1ab84e56044ebc8     0 resources/shaders/vulkan/distort_geom_ps.spv
-          4312      1 e268776df61f9d02b2d7bc7950250393569fdf3a     0 resources/shaders/vulkan/distort_geom_ps16.spv
-          4752      1 234a5fc6a581f3e128d0692354cd2d8901fd7f9f     0 resources/shaders/vulkan/distort_geom_ps16_mv_split.spv
-          4336      1 7e1350cd54537337d98bbd9b41f88952dfb19b09     0 resources/shaders/vulkan/distort_geom_psmvfloat.spv
-          4300      1 c71c6008c47d3e9b5c5bb7f0773e752f96dacbc6     0 resources/shaders/vulkan/distort_geom_ps_debug_depth.spv
-          4208      1 54bd25eb3cfe567d983686364654af5952a0e219     0 resources/shaders/vulkan/distort_geom_ps_debug_mvfloat.spv
-         11092      1 f716bb6e23d29bfe2f4f1f990f270f13dec6650b     0 resources/shaders/vulkan/distort_geom_ptnorm_curved_uvs_embedded_vs.spv
-          5140      1 8054aaf1a61e0333dcfffd3799ea5d57e9e54874     0 resources/shaders/vulkan/distort_geom_ptnorm_curved_vs.spv
-          3752      1 e6f3661373c590c377796f325f82c356318c86e6     0 resources/shaders/vulkan/distort_geom_ptnorm_ortho_out_vs.spv
-         10528      1 d8a2d5fc82f223668950513218c24a81fd32fc25     0 resources/shaders/vulkan/distort_geom_ptnorm_uvs_embedded_vs.spv
-          4560      1 a220c9389256d459dce2fb3551d31dd588568c38     0 resources/shaders/vulkan/distort_geom_ptnorm_vs.spv
-          6712      1 420fdbc2dc20d02e7963052d59deaee338421787     0 resources/shaders/vulkan/distort_geom_reflect_multitap_ps.spv
-          4688      1 8bd0b4e95816e9708b59e2b9ead0bc3abb72f3ac     0 resources/shaders/vulkan/distort_geom_reflect_ps.spv
-          3620      1 9200dbf17e999766892917918c94ac1c8036c398     0 resources/shaders/vulkan/distort_geom_simplified_altcolorblend_ps.spv
-          3600      1 945338f99b4dac3c2f37a62e6e9dc1c1f1a3158b     0 resources/shaders/vulkan/distort_geom_simplified_gamma_ps.spv
-          2920      1 b7c0a6543b9511fbd1765b95a9b0c010a746e2df     0 resources/shaders/vulkan/distort_geom_simplified_ps.spv
-          3508      1 20c836f8e19374d59f550c7a163f0fa2d7f19a54     0 resources/shaders/vulkan/distort_geom_simplified_reflect_ps.spv
-          4176      1 7942084c75428ab2228a881b7968af2a74d44f44     0 resources/shaders/vulkan/distort_geom_spherical_vs.spv
-          3240      1 1762341a2e257189ba057fa3b3341315027ddbac     0 resources/shaders/vulkan/distort_geom_syntheticalpha_ps.spv
-          4784      1 321e01d80597674adf92b2a0dddb5a138b2b0f62     0 resources/shaders/vulkan/distort_geom_tan_vs.spv
-          9512      1 9ad5595f646f61250fc004459afb5bd7aac5bfcb     0 resources/shaders/vulkan/distort_geom_uvs_embedded_vs.spv
-          5388      1 0438c35dad1a902079b5315e1b2247555f04d722     0 resources/shaders/vulkan/distort_geom_vignette_ps.spv
-          3640      1 65576faba9afd5a122bceafd3acdfde03c247733     0 resources/shaders/vulkan/distort_geom_vignette_vs.spv
-          3544      1 b015326448541be818066501b6f81755a0773cfe     0 resources/shaders/vulkan/distort_geom_vs.spv
+          7808      1 d0fe4136d18438a65bf2d15cb16f0c2b763165e9     0 resources/shaders/vulkan/distort_geom_ltc_diff_ps.spv
+         13228      1 2af33bd5f3513bb140cd79e25938e5c033d9b0ee     0 resources/shaders/vulkan/distort_geom_ltc_ps.spv
+          9432      1 533158ab51e3c2d1e94b922de1cd1309abafb99d     0 resources/shaders/vulkan/distort_geom_ltc_spec_ps.spv
+          4328      1 dcf1d8a75a934445d9e75236e11056a7e204efbf     0 resources/shaders/vulkan/distort_geom_motes_ps.spv
+         17200      1 ed494a7c88eff403ea2acf9d782c7ad15424736c     0 resources/shaders/vulkan/distort_geom_motes_vs.spv
+          6100      1 a38fcf715ad934874d204df06d91fe0852c2bb75     0 resources/shaders/vulkan/distort_geom_multitap_ps.spv
+          6608      1 f47ac2bc0ed58573354eadd887297237611938b3     0 resources/shaders/vulkan/distort_geom_pbr_ps.spv
+          2292      1 05ba508f92862995d8be382d4b503c2222bed6c7     0 resources/shaders/vulkan/distort_geom_playspace_drawing_area_ps.spv
+          2744      1 6a6834ea3e4780ef0dd7dd422ef2f6a053e359eb     0 resources/shaders/vulkan/distort_geom_playspace_drawing_area_vs.spv
+          4076      1 28819ecb593c539bbfc847710ce3b280520eb185     0 resources/shaders/vulkan/distort_geom_ps.spv
+          4288      1 498ef2e751be9edc47369c93fc3d3b34f45d8173     0 resources/shaders/vulkan/distort_geom_ps16.spv
+          4728      1 e2f7666b8d090a89582ff6e2aa62668d7ff4cde2     0 resources/shaders/vulkan/distort_geom_ps16_mv_split.spv
+          4312      1 f80ec2b37dde88607ba31e1b12277ed1f3778984     0 resources/shaders/vulkan/distort_geom_psmvfloat.spv
+          4276      1 3021485105b7d11d225cbb9f4c99df2de8a47d10     0 resources/shaders/vulkan/distort_geom_ps_debug_depth.spv
+          4184      1 0abb1995af3362a29db612543c94bff3e3e69d05     0 resources/shaders/vulkan/distort_geom_ps_debug_mvfloat.spv
+          3728      1 1606e8e70cb2c4172f2b60d3d02078c9aa755d57     0 resources/shaders/vulkan/distort_geom_ptnorm_ortho_out_vs.spv
+         11068      1 7a6e5022cea534b2bae90c875faf036365246246     0 resources/shaders/vulkan/distort_geom_reflect_curved_uvs_embedded_vs.spv
+          5116      1 14bc9c222ffea66f43803f306ff98aa9c6128dfa     0 resources/shaders/vulkan/distort_geom_reflect_curved_vs.spv
+          6688      1 4dd3bc89b2fd39104dcad80e71d53236df3885e8     0 resources/shaders/vulkan/distort_geom_reflect_multitap_ps.spv
+          4664      1 9806d5bccbb8454c86fbe9b5eb235bdb627ea7a5     0 resources/shaders/vulkan/distort_geom_reflect_ps.spv
+         10504      1 6a6dd73bcb740d67e855192bd1d3f5a3dda9687e     0 resources/shaders/vulkan/distort_geom_reflect_uvs_embedded_vs.spv
+          4536      1 dd8d03b04ef194b1959bffa55d7064124876cff4     0 resources/shaders/vulkan/distort_geom_reflect_vs.spv
+          3596      1 e18e413445b01be6d603061a5d636ad4419f25c8     0 resources/shaders/vulkan/distort_geom_simplified_altcolorblend_ps.spv
+          3576      1 51d4e635d1457091a00692f9e175e32ca75550f9     0 resources/shaders/vulkan/distort_geom_simplified_gamma_ps.spv
+          2896      1 9187eb8d65d3e68af92c29607079e63f10b548aa     0 resources/shaders/vulkan/distort_geom_simplified_ps.spv
+          3484      1 13d4ecbf1aec6e30eeea6c582447319a4fb81d9e     0 resources/shaders/vulkan/distort_geom_simplified_reflect_ps.spv
+          4152      1 7b650b5505833ec35b2889dfb3456ac9393beb10     0 resources/shaders/vulkan/distort_geom_spherical_vs.spv
+          3216      1 a2127f209403a19121661a5bdffaac70fe3f53e4     0 resources/shaders/vulkan/distort_geom_syntheticalpha_ps.spv
+          4760      1 a021f16d03d90c4700f80ed189a1980d39d480cc     0 resources/shaders/vulkan/distort_geom_tan_vs.spv
+          9488      1 b82e53881dc4f10560e6ad1d4878cdb0eb7da87f     0 resources/shaders/vulkan/distort_geom_uvs_embedded_vs.spv
+          5364      1 d4bbbc03e36fc0de1bae5401e6c5b30348fb1ac9     0 resources/shaders/vulkan/distort_geom_vignette_ps.spv
+          3616      1 2984b64d5ce3637df91813fa826a7769515c5d4e     0 resources/shaders/vulkan/distort_geom_vignette_vs.spv
+          3520      1 ce2bc777dfb017983f3718aaf29d65c71194edac     0 resources/shaders/vulkan/distort_geom_vs.spv
           1036      1 ebf4e5588bb2253db5804e84af0963d827a276cf     0 resources/shaders/vulkan/distort_geom_write_norm_ps.spv
-          3652      1 2f07a822b6d161e97b035da46ca4ab3ea22946b6     0 resources/shaders/vulkan/distort_geom_write_norm_vs.spv
-          3720      1 822b587591fc858b737ee967cd4bca4502510e96     0 resources/shaders/vulkan/distort_grid_ds.spv
-          3596      1 47df7f21f53be262439bad374f146ae9ec9889be     0 resources/shaders/vulkan/distort_grid_gs.spv
+          3628      1 17be1a4069fcc96e578156e6bb077642f663cbd1     0 resources/shaders/vulkan/distort_geom_write_norm_vs.spv
+          3696      1 8b63566e6622c1a164bcc7c84d551da6b3f7517b     0 resources/shaders/vulkan/distort_grid_ds.spv
           2684      1 dd6048918e191cc863a4f2456e80f18942fed76a     0 resources/shaders/vulkan/distort_grid_hs.spv
           2324      1 7166f1d1c00e6c982a328556b59db9d453ffb79f     0 resources/shaders/vulkan/distort_hs.spv
-          3412      1 2dbd9fb606f995d9ef5eb4995821b0be42a98fa3     0 resources/shaders/vulkan/distort_line_grid_gs.spv
-          3204      1 3e734f73ff31d13a3036afb568dd0d7c6517e161     0 resources/shaders/vulkan/distort_line_gs.spv
-          3604      1 0aeb907bc3dbab32f459a2fc28abe1719eb14385     0 resources/shaders/vulkan/distort_line_ptnorm_gs.spv
+          3388      1 07254e75f43d9c20d0e19fd827bb26c28d797e5d     0 resources/shaders/vulkan/distort_line_grid_gs.spv
+          3180      1 af0d5b77dcb2aa825308c5234d4955e02446600d     0 resources/shaders/vulkan/distort_line_gs.spv
+          3580      1 864f18a2b6b14c09e022b14813b8bc38181e8e55     0 resources/shaders/vulkan/distort_line_ptnorm_gs.spv
           2140      1 e0788861e41c8374b91bbdd4011a0814f029f703     0 resources/shaders/vulkan/distort_none_ps.spv
           2760      1 aee01501916b679080ba84b296d4fb119d9dd077     0 resources/shaders/vulkan/distort_none_ps_gamma.spv
           3924      1 2836cce5f49da88a6833941b278b2ca4a2fb441b     0 resources/shaders/vulkan/distort_none_ps_layered.spv
@@ -2693,9 +2630,9 @@ Total bytes compressed : 366356432
           3824      1 7a86806a4c574b67a06197d5359abea43bcd5464     0 resources/shaders/vulkan/distort_panorama_ps.spv
           1784      1 2bd5b5875ba3164a800b751cd33070fff31d2c04     0 resources/shaders/vulkan/distort_panorama_solid_color_ps.spv
            452      1 f6eec5cc056633685284cad9b2235e247ed7f7c6     0 resources/shaders/vulkan/distort_panorama_vs.spv
-          2812      1 4899c430233bb7380bd6d62cf4047239319381bc     0 resources/shaders/vulkan/distort_point_grid_gs.spv
-          2652      1 f53499bb0a57b65fef9a114ae3c51e44a06012ba     0 resources/shaders/vulkan/distort_point_gs.spv
-          2956      1 daeb117f46534b8f16f7a66063099a33f2bb2c5b     0 resources/shaders/vulkan/distort_point_ptnorm_gs.spv
+          2788      1 6dbd58f15584a9673cb82ddcce5421f4ab3a61e1     0 resources/shaders/vulkan/distort_point_grid_gs.spv
+          2628      1 9a62b848b75295f4dcfb4d558d45e00856e70475     0 resources/shaders/vulkan/distort_point_gs.spv
+          2932      1 9fb565d8b484d31986553b939dd232171357ac27     0 resources/shaders/vulkan/distort_point_ptnorm_gs.spv
           6096      1 d328f612144eb41979fc7407439200d3ad67f527     0 resources/shaders/vulkan/distort_ps.spv
           2012      1 0a55d2a404fed16243749e0ce0e58553f2f6b55a     0 resources/shaders/vulkan/distort_ps_achromatic.spv
           1972      1 b2e6b0f5927dae1cca151b980bad9f5edd442709     0 resources/shaders/vulkan/distort_ps_achromatic_alphaed.spv
@@ -2721,23 +2658,19 @@ Total bytes compressed : 366356432
           3532      1 ef5383d767715c1d622f8da6c947c0acd658f509     0 resources/shaders/vulkan/distort_ps_nd.spv
           1636      1 e2a95eecc099e70feade0b2ea14fc904460ff5ad     0 resources/shaders/vulkan/distort_ps_scene.spv
            892      1 c4f41c748b649f22f4b868b6dd39981e24bea30e     0 resources/shaders/vulkan/distort_ps_scene0.spv
-          2940      1 e30a59ccd6fc6a6fee14c56d4b736b60651786f1     0 resources/shaders/vulkan/distort_ps_scene0y_blur.spv
-          2376      1 1f10c7372b0eb4c0369f1d495d33f0dd2b4615cc     0 resources/shaders/vulkan/distort_ps_scene0_blur.spv
           4516      1 481af87343e166baf030871705f8dbb47d88db12     0 resources/shaders/vulkan/distort_ps_scene_blur.spv
-          4096      1 41812cb935770bd1cb9df93b605dce10701b0239     0 resources/shaders/vulkan/distort_ptnorm_ds.spv
-          3812      1 ebb43416c35c6bf40f93bcd2d877e76af475de6b     0 resources/shaders/vulkan/distort_ptnorm_gs.spv
+          4072      1 c5dcd22b5fe7bbb6c2fc2ee9df72231611e11c7b     0 resources/shaders/vulkan/distort_ptnorm_ds.spv
           2948      1 2b47e1d9c0351218fffb6130f097f8509e8b4b4d     0 resources/shaders/vulkan/distort_ptnorm_hs.spv
-          4872      1 b424bc5ca68fb74d2af4fa05b3acbae16b1b2073     0 resources/shaders/vulkan/distort_tri_floor_gs.spv
-          4008      1 19c38f33ccf97d08b41a2ff189b29bd7199ba1b7     0 resources/shaders/vulkan/distort_tri_grid_gs.spv
-          3752      1 8d803763fd09f99ab6e5c34989d867c1c46332a7     0 resources/shaders/vulkan/distort_tri_gs.spv
-          4248      1 98455b3789e5cbdf2241dd7f3132b5a3e2260f76     0 resources/shaders/vulkan/distort_tri_ptnorm_gs.spv
-          4544      1 ab72fcd9047f0b933e2eb96ad1eede46fe1ed16d     0 resources/shaders/vulkan/distort_tri_tan_gs.spv
+          4848      1 0b0be9f8ea687fd23115f67d7856c36ac0e87aac     0 resources/shaders/vulkan/distort_tri_floor_gs.spv
+          3984      1 a58430495b1d710ebb78a8c592a67190d95d7b32     0 resources/shaders/vulkan/distort_tri_grid_gs.spv
+          3728      1 310fd982c475133120af8d7f6698dee4d6573e29     0 resources/shaders/vulkan/distort_tri_gs.spv
+          4224      1 052d7f58c4acc229ecb30e9fb71fda1119dcd893     0 resources/shaders/vulkan/distort_tri_ptnorm_gs.spv
+          4520      1 061211fb534f90fdedd5a9162c4894db2f3ced52     0 resources/shaders/vulkan/distort_tri_tan_gs.spv
           3800      1 3c728d712d07a1861db2fb3748a3bdfe9970228c     0 resources/shaders/vulkan/distort_vs.spv
           2752      1 568460a3a07ec8b962ca17120db6c0d1eb5ae502     0 resources/shaders/vulkan/distort_vs_latest_nd.spv
           4324      1 3f84606253141d76cd899516980e38a91266534b     0 resources/shaders/vulkan/distort_vs_layered.spv
           3848      1 e8996d8dfa474519d711d37d2b16ce7d03dd1ecb     0 resources/shaders/vulkan/distort_vs_layered_nd.spv
           3512      1 3b132cbabdd702f338943bfdb3de8817254c86c9     0 resources/shaders/vulkan/distort_vs_nd.spv
-          8648      1 2cf06f52d1dc3cb1bc4dc385fb4796142e521796     0 resources/shaders/vulkan/distort_vs_reproject.spv
           5220      1 2327700f3df74b1157e1f33cc57b873a22799f94     0 resources/shaders/vulkan/distort_vs_reproject_fv.spv
           3172      1 3b3682682f6ec57891fc767e4f88692ecf367f2b     0 resources/shaders/vulkan/distort_vs_reproject_fv_dr.spv
           9044      1 c9be39c47180c6a2d22f825b94ec3de8aa8177b5     0 resources/shaders/vulkan/distort_vs_reproject_layered.spv
@@ -2754,49 +2687,47 @@ Total bytes compressed : 366356432
           4832      1 b2cf31b11c7ac7b3e2495031cb9c841d604b9b51     0 resources/shaders/vulkan/frame_hallucination_float_vs.spv
            736      1 e02ac9b6200b8fb65ef0ce60eee6bc7b50eef38b     0 resources/shaders/vulkan/frame_hallucination_ps.spv
           4928      1 6e4cbe1329a978c5cb5c99fd10f3c29814fe9a7c     0 resources/shaders/vulkan/frame_hallucination_vs.spv
-         15332      1 3720d297f9bba77c75886a1c7edb0ce8e8081fde     0 resources/shaders/vulkan/fsharp_2d_drawregion_gamma_ps.spv
-         14652      1 1dd12c916187883c0338dcdd7d521c28787cc027     0 resources/shaders/vulkan/fsharp_2d_drawregion_ps.spv
-         14820      1 93eb0d6b4a850b260136942dbcb81d862926991f     0 resources/shaders/vulkan/fsharp_2d_gamma_ps.spv
-         14140      1 567bb293525adc229594808622278f8b06d37ba7     0 resources/shaders/vulkan/fsharp_2d_ps.spv
+         15308      1 a9e654bf36653a72c97cc7316e837e29687d6a04     0 resources/shaders/vulkan/fsharp_2d_drawregion_gamma_ps.spv
+         14628      1 ad0711fda41cc7aae49d653a04bd82920ac8c826     0 resources/shaders/vulkan/fsharp_2d_drawregion_ps.spv
+         14796      1 c9571b97f8b73bc33aa3aedb1733cb5806a1ffc7     0 resources/shaders/vulkan/fsharp_2d_gamma_ps.spv
+         14116      1 e5ecda2fc10a14f71b3c6fed6754e09397a56ad4     0 resources/shaders/vulkan/fsharp_2d_ps.spv
           8276      1 4e5dc5bb4d6442d3256130fb8280bad72586c9a7     0 resources/shaders/vulkan/fsharp_vr_depth_only_ps.spv
          19100      1 85f7c41c827de49a416892050428b5d5f165a5ad     0 resources/shaders/vulkan/fsharp_vr_depth_ps.spv
          13164      1 da002228b875d7553545775b2afdbd5c1a02899b     0 resources/shaders/vulkan/fsharp_vr_ps.spv
-          4512      1 7698751243fdc9a0e3fb6b4f34ca1444464a1d86     0 resources/shaders/vulkan/geom_aurora_vs.spv
-          2168      1 998f1bcb7e8a89eb42581bfdf7fea926883cf273     0 resources/shaders/vulkan/geom_bounds_color_vs.spv
-          9476      1 7ccb03201e8e1dc85f217e92b90f2058a975df2a     0 resources/shaders/vulkan/geom_curved_uvs_embedded_vs.spv
-          3472      1 ce33cf1248e3cb350c22c6ea4fc9c668301dd81f     0 resources/shaders/vulkan/geom_curved_vs.spv
-          9644      1 b5f2ccc2fb54e89e8991113f17d6700359407d4d     0 resources/shaders/vulkan/geom_drawregion_curved_uvs_embedded_vs.spv
-          3640      1 b6bc34cdbaf5620552de4235812f16e6ddb57d9f     0 resources/shaders/vulkan/geom_drawregion_curved_vs.spv
-         10660      1 09a0f4fce8a1d8ea0e45202803a2fd81ca649f00     0 resources/shaders/vulkan/geom_drawregion_ptnorm_curved_uvs_embedded_vs.spv
-          4656      1 c1e0f9e2a824cdaf1dfa3334db1cee3e943f32a7     0 resources/shaders/vulkan/geom_drawregion_ptnorm_curved_vs.spv
-         10096      1 88889fe3e896ea72141c48751fc8ddef58c4a820     0 resources/shaders/vulkan/geom_drawregion_ptnorm_uvs_embedded_vs.spv
-          4076      1 4366148ee2a9d29bfbf0b0d283703feabed31ed8     0 resources/shaders/vulkan/geom_drawregion_ptnorm_vs.spv
-          9080      1 ce80e344811d11a100ad8b3e55aa070bf929724b     0 resources/shaders/vulkan/geom_drawregion_uvs_embedded_vs.spv
-          3060      1 c81ccf92b44d3bdaea05b4e9b837bf1813d2bd8e     0 resources/shaders/vulkan/geom_drawregion_vs.spv
-          5464      1 403cd12619ad8f356647a8ba98ab89c4642e5fe4     0 resources/shaders/vulkan/geom_floor_auroralit_vs.spv
-          2108      1 99bdba1736d659e877a6a564df6c82d5741072a6     0 resources/shaders/vulkan/geom_floor_edge_vs.spv
-          3604      1 5e3832876b4a2c926da7742bbaf62d45cf836981     0 resources/shaders/vulkan/geom_floor_vs.spv
-          4400      1 b210ebe9a757f7d37d52641865a4aacdbb451057     0 resources/shaders/vulkan/geom_fresnel_vs.spv
-         16572      1 5ad3a27cf9d4a00bb1693accae645e0d61a9e61d     0 resources/shaders/vulkan/geom_motes_vs.spv
-          2100      1 f6d4e571fb177159e34c0f2cc24aa7e8634ecab5     0 resources/shaders/vulkan/geom_playspace_drawing_area_vs.spv
-         10492      1 de192a245d4420c979358ce6229822219ee9dec0     0 resources/shaders/vulkan/geom_ptnorm_curved_uvs_embedded_vs.spv
-          4488      1 0eac9098bf5e65b2e0b6d4017648a3898f442f53     0 resources/shaders/vulkan/geom_ptnorm_curved_vs.spv
-          3164      1 06bfc9f165193122a6b13d04ed818309092710bd     0 resources/shaders/vulkan/geom_ptnorm_ortho_out_vs.spv
-          9928      1 4ca108b7f5dfa6d47cf14871eda133175609f792     0 resources/shaders/vulkan/geom_ptnorm_uvs_embedded_vs.spv
-          3908      1 5c5c1ca1c51593fde042749e862a413bb25dfc10     0 resources/shaders/vulkan/geom_ptnorm_vs.spv
-          3524      1 f04d6bf6a846cf7add01b3b2dc5c5c054476c2ca     0 resources/shaders/vulkan/geom_spherical_vs.spv
-          4132      1 cb21735438ff280b1c2ab98dac875b9f92e3640c     0 resources/shaders/vulkan/geom_tan_vs.spv
-          8912      1 a9370e6ba38bfb546380ae667204d704321d5a5f     0 resources/shaders/vulkan/geom_uvs_embedded_vs.spv
-          2988      1 36c52d6ad8b807b2c5d8d0ef836c660375d0bf48     0 resources/shaders/vulkan/geom_vignette_vs.spv
-          2892      1 e0b6b16f4463cf709626bf8bf1ba231882073a39     0 resources/shaders/vulkan/geom_vs.spv
+          4512      1 2755c63952b660d2dc683b30058049b284edf8d2     0 resources/shaders/vulkan/geom_aurora_vs.spv
+          2144      1 008a48dff1e73c2e47740aa9aa9b156643b9377b     0 resources/shaders/vulkan/geom_bounds_color_vs.spv
+          9452      1 0c11ec518cce5ce329f1376618f0412e7828cf10     0 resources/shaders/vulkan/geom_curved_uvs_embedded_vs.spv
+          3448      1 d5a4436e0c95166272f0a21bc76d2319053dfb46     0 resources/shaders/vulkan/geom_curved_vs.spv
+          9620      1 f1edbbfd0663b3491d238329fa1ba9206db4f664     0 resources/shaders/vulkan/geom_drawregion_curved_uvs_embedded_vs.spv
+          3616      1 b15b94ecabe5e7af3eb4c2e64c8e0b7ad221bf40     0 resources/shaders/vulkan/geom_drawregion_curved_vs.spv
+         10636      1 3115d15161d092468ab6839c2ac6e2f977a05275     0 resources/shaders/vulkan/geom_drawregion_reflect_curved_uvs_embedded_vs.spv
+          4632      1 af1a83290a6b2990e7c5319acad9aef665932f14     0 resources/shaders/vulkan/geom_drawregion_reflect_curved_vs.spv
+         10072      1 729743b7439632d5dc580cabebdde3baf6502247     0 resources/shaders/vulkan/geom_drawregion_reflect_uvs_embedded_vs.spv
+          4052      1 fae7d3f66b33fba7a1c8013248c331ca2a95fa7d     0 resources/shaders/vulkan/geom_drawregion_reflect_vs.spv
+          9056      1 2bd4d43fa5bdc059c132993967829498eb2e1b5d     0 resources/shaders/vulkan/geom_drawregion_uvs_embedded_vs.spv
+          3036      1 b54e68b00d84d2314f790626599fc0cf64eaee06     0 resources/shaders/vulkan/geom_drawregion_vs.spv
+          4528      1 06deff3a78bc6321cd58b83f721c0940889c850a     0 resources/shaders/vulkan/geom_floor_auroralit_vs.spv
+          2084      1 7f0a87861d81d431389711d52141f53bcb9379cc     0 resources/shaders/vulkan/geom_floor_edge_vs.spv
+          3580      1 9a74645a41027538626d8ae31894f8a139f0666f     0 resources/shaders/vulkan/geom_floor_reflect_vs.spv
+          4484      1 a1acc9bfef269b1fd014766f36aeaf9d403a308c     0 resources/shaders/vulkan/geom_fresnel_vs.spv
+         16548      1 01e89c288d83f238f2da62d60b135a6df9cb4468     0 resources/shaders/vulkan/geom_motes_vs.spv
+          2076      1 c8d90872c3966dcd748c0d61025bab595db69f17     0 resources/shaders/vulkan/geom_playspace_drawing_area_vs.spv
+          3140      1 66e4f35c8ef26a165638f66989023231b68cf5d8     0 resources/shaders/vulkan/geom_ptnorm_ortho_out_vs.spv
+         10468      1 fd78c994e754e36771935462689d0676d302cbad     0 resources/shaders/vulkan/geom_reflect_curved_uvs_embedded_vs.spv
+          4464      1 2b6512a84217724079b056ce617a8bf301a52eff     0 resources/shaders/vulkan/geom_reflect_curved_vs.spv
+          9904      1 1172f6921892e109aa34c04e8800fcbbbdfb6880     0 resources/shaders/vulkan/geom_reflect_uvs_embedded_vs.spv
+          3884      1 17bd053cc1a87892fdc84e05378db870e03c0723     0 resources/shaders/vulkan/geom_reflect_vs.spv
+          3500      1 9ea0648725fdcb55de4f23ea0d40ed5e57e231a2     0 resources/shaders/vulkan/geom_spherical_vs.spv
+          4108      1 d269d85f2e32b34f3f77f7fbcf6f0b098ef58d12     0 resources/shaders/vulkan/geom_tan_vs.spv
+          8888      1 5cca281f0a5a760239e6d8d467e7bcf31f2dde25     0 resources/shaders/vulkan/geom_uvs_embedded_vs.spv
+          2964      1 75c9ca450f3aa5fd9dfd9627e1ec9899ee8b5ec9     0 resources/shaders/vulkan/geom_vignette_vs.spv
+          2868      1 000c3ac818b9ca90f2358b9af51cc9828431e4d0     0 resources/shaders/vulkan/geom_vs.spv
          12400      1 cb03fb2282ef49badbf6d88383d59a69b23983f9     0 resources/shaders/vulkan/gpu_measurement_ps.spv
           5040      1 58c85f3e3753ea7ceb331cf958ac8df67130a2cf     0 resources/shaders/vulkan/gpu_measurement_vs.spv
          11976      1 9a6b165885f6942c311b740bd49bdcccd184ab2a     0 resources/shaders/vulkan/linepixelsim2_cs.spv
           7268      1 c74a5487849b2d06b3941b710d1035617e4bac04     0 resources/shaders/vulkan/linepixelsim_cs.spv
           1112      1 fecb571d7bdefa5664f380baca2ebcff09a649b0     0 resources/shaders/vulkan/motionvector_cost_cs.spv
           1172      1 37614a5639e45114984d717f9194ee7cb556cdf0     0 resources/shaders/vulkan/motionvector_cost_cs_cvp.spv
-          4228      1 2c56c77549b7e4630ea800ee5fc2b156df2d7440     0 resources/shaders/vulkan/motion_attenuation_ps.spv
-           568      1 23cb0fd2aedfa86ee46c1d49ef761b2bb96315ff     0 resources/shaders/vulkan/motion_attenuation_vs.spv
           5796      1 5777835cb0b69c8f1095d5241703d6ae28e90fe7     0 resources/shaders/vulkan/motion_filter_attenuation_ps.spv
           5720      1 3b0cd6b06db9c55e78410a08b81177c49e074873     0 resources/shaders/vulkan/motion_filter_attenuation_ps_split.spv
           2652      1 8586b2b8de1c00d87a35520cf6476375ed63f408     0 resources/shaders/vulkan/motion_filter_blur_ps.spv
@@ -2823,7 +2754,6 @@ Total bytes compressed : 366356432
           1852      1 ab855504f80d79c593e187aff0054865ac48e4fa     0 resources/shaders/vulkan/portal_stencil_apply_disp_vs.spv
           2020      1 68a66c98d4124995215bf1da7875b9bb11e6f782     0 resources/shaders/vulkan/portal_stencil_distort_vs.spv
           2212      1 737f623951f295cf83f2d2dc6b9d4c1a3f112f65     0 resources/shaders/vulkan/portal_stencil_estimate_disp_ps.spv
-          3460      1 f26c585337f7609dcc4bbe5ffbd05657c6174ded     0 resources/shaders/vulkan/portal_stencil_estimate_disp_vs.spv
           2772      1 29a5937c7e293243ea11091792d98c0a855b7a67     0 resources/shaders/vulkan/portal_stencil_gs.spv
            344      1 26f05d79f2b03e3bf9c3020f3559c29ffcc7bbab     0 resources/shaders/vulkan/portal_stencil_ps.spv
           1336      1 c8ba0c71a46b15f537d8babfc69383e2fb3446bf     0 resources/shaders/vulkan/portal_stencil_vs.spv
@@ -2836,12 +2766,10 @@ Total bytes compressed : 366356432
           4812      1 15b5e017992975204bfd8305f510a1fc24bd4982     0 resources/shaders/vulkan/tracked_camera_ps.spv
           9456      1 1a8453482194afab974d5c82fb757aaf1aa00e9d     0 resources/shaders/vulkan/tracked_camera_reprojection_ps.spv
           6280      1 8f9d28d7ce9b730c27f8231538a0b1309f531250     0 resources/shaders/vulkan/tracked_camera_reprojection_simplified_devignette_vs.spv
-          4060      1 cb471a5d973598dbda73d856d1161797490f7307     0 resources/shaders/vulkan/tracked_camera_reprojection_simplified_gs.spv
           2612      1 86e5e464d5f858e062bd5c1e8f4bf5b9f87aad07     0 resources/shaders/vulkan/tracked_camera_reprojection_simplified_monochrome_devignette_nv12_ps.spv
           2612      1 15c2e05466c78bf18a48547affa62fd6ec17f313     0 resources/shaders/vulkan/tracked_camera_reprojection_simplified_monochrome_devignette_ps.spv
           2576      1 a244d769a59d506a64eff7f13af129275c516e9b     0 resources/shaders/vulkan/tracked_camera_reprojection_simplified_monochrome_nv12_ps.spv
           2576      1 8471d1b64033c2d38790763f326504fd74eb7fe3     0 resources/shaders/vulkan/tracked_camera_reprojection_simplified_monochrome_ps.spv
-          2416      1 53cf5b294cd7a0e2915659bf9267263792ac4cb9     0 resources/shaders/vulkan/tracked_camera_reprojection_simplified_ps.spv
           3648      1 4c204f57fbdae952a015ea054eab812e78b0f02e     0 resources/shaders/vulkan/tracked_camera_reprojection_simplified_rgb_nv12_ps.spv
           6604      1 5e74a30902e2f0d883212a62afcc7442f133a5a3     0 resources/shaders/vulkan/tracked_camera_reprojection_simplified_sharpen_devignette_vs.spv
          13100      1 ab09f606a1bce30660ae78c06a235190f0cf7d99     0 resources/shaders/vulkan/tracked_camera_reprojection_simplified_sharpen_monochrome_devignette_nv12_ps.spv
@@ -2851,7 +2779,6 @@ Total bytes compressed : 366356432
          14152      1 4db1334006d1c808d2e37047397acc3ec94538e8     0 resources/shaders/vulkan/tracked_camera_reprojection_simplified_sharpen_rgb_nv12_ps.spv
           5372      1 df5b1d95773e9cd8d023c9815c253df447dea4e3     0 resources/shaders/vulkan/tracked_camera_reprojection_simplified_sharpen_vs.spv
           5048      1 333060e1a3b7693bd4a7de620b759c25b2746792     0 resources/shaders/vulkan/tracked_camera_reprojection_simplified_vs.spv
-          2320      1 f8f7189d27921ed2e93f9c226363ffb70c586413     0 resources/shaders/vulkan/tracked_camera_reprojection_simplified_ycbcr_ps.spv
           1676      1 63d2cbdfb91edb40730c7cec5db48df8f2ffc00a     0 resources/shaders/vulkan/tracked_camera_reprojection_vs.spv
           1980      1 2d72ea0ff09ac8fef828a1ee604a34d131501d67     0 resources/shaders/vulkan/tracked_camera_undistort_ps.spv
            532      1 048bfc9fb97260d00773094d2a346d6bcfd1afd9     0 resources/shaders/vulkan/tracked_camera_undistort_vs.spv
@@ -2883,32 +2810,32 @@ Total bytes compressed : 366356432
            985      1 e40938f3cce2387e1b2d9b22056e66574f508731     0 resources/webinterface/console/console_colors.js
           2021      1 bd3b80338a12c2e5f06e6ec8d22f157cbde8060b     0 resources/webinterface/console/index.html
              0      0 0000000000000000000000000000000000000000    40 resources/webinterface/dashboard
-          2473      1 b891eabf07517f70312be00c995aed99d20fb7e8     0 resources/webinterface/dashboard/bindingcallouts.html
-         24892      1 e354c527c3c12d9a000faba5b1b2883ee36add30     0 resources/webinterface/dashboard/bindingcallouts.js
-         32807      1 16b6635630c0bb55dc3cadde80fda585faae9ce4     0 resources/webinterface/dashboard/chunk~1a88854fa.js
-        165089      1 74d7797c912d066720c42bc87de4bdc44f73f96a     0 resources/webinterface/dashboard/chunk~2e670652e.js
-         19223      1 11ae6021566619aed6109992d69bc9a5d9206c83     0 resources/webinterface/dashboard/chunk~336cd93ad.js
-         14004      1 53746e4c930d99338cfb64dfd70ca0a523ad313c     0 resources/webinterface/dashboard/chunk~56fe39318.js
-         10174      1 ce1b1c20cee440c98c371775a8d3e3c9de98b8fc     0 resources/webinterface/dashboard/chunk~7f75cbff5.js
-        653181      1 be133e4b30971c5e7874d313fc84e31353416f69     0 resources/webinterface/dashboard/chunk~8012d0c89.js
-         88591      1 de9069a2edc49198820945cc5b0f5feba5747031     0 resources/webinterface/dashboard/chunk~bd288592d.js
-         13224      1 f025aadae24cf2c2d8ca4da9db5f14131f3ff3db     0 resources/webinterface/dashboard/chunk~c7d28d90e.js
-         34720      1 db7cd67dce135f867a8a594260f15361cac62b6e     0 resources/webinterface/dashboard/chunk~edeac9135.js
-          2396      1 d57f3f790a96cd5eed942a48c12b7b27595f6074     0 resources/webinterface/dashboard/controllerbinding.html
-        301165      1 7df68c6e54437b23dbfb707cdb6b903f9dbd5b41     0 resources/webinterface/dashboard/controllerbindingui.js
+          2473      1 4ec9432e4b39e75d1b7ccf617c38a7370db48c7f     0 resources/webinterface/dashboard/bindingcallouts.html
+         24940      1 82d794dcec594012ec38731e03bc5ac8742b8e4d     0 resources/webinterface/dashboard/bindingcallouts.js
+         14646      1 a58f6777fb35a1d6c46089a6f04e8c25d89a5837     0 resources/webinterface/dashboard/chunk~1a88854fa.js
+        165972      1 a2898d7edbc9b1a459b02fdc1b57af978d08084b     0 resources/webinterface/dashboard/chunk~2e670652e.js
+         19917      1 9debeb75c5130cf45077d99250471f9995227c84     0 resources/webinterface/dashboard/chunk~336cd93ad.js
+         14004      1 937fad0190f073db38e4ec6b53dd7ba55b855e6f     0 resources/webinterface/dashboard/chunk~56fe39318.js
+         10172      1 a8cb258c7f6623de7a27c4e184da0d32daa1b05c     0 resources/webinterface/dashboard/chunk~7f75cbff5.js
+        699521      1 ce17e81a1b46dc9fb4a6dcc690eddb6c189531b1     0 resources/webinterface/dashboard/chunk~8012d0c89.js
+         88591      1 481e575e66a3a1c2e8575ad56da150129531974e     0 resources/webinterface/dashboard/chunk~bd288592d.js
+         13968      1 794fa7cbae23d6130ab9e4ec55a4169dd0cfeaec     0 resources/webinterface/dashboard/chunk~c7d28d90e.js
+         16559      1 51a16ad7904368ee7df99cfbec334f36fcca7cdf     0 resources/webinterface/dashboard/chunk~edeac9135.js
+          2396      1 d13a4dea7162f15de9987d3d39a211b25831de2c     0 resources/webinterface/dashboard/controllerbinding.html
+        301165      1 c3f9b28737d52543b01286088b91636320b78c09     0 resources/webinterface/dashboard/controllerbindingui.js
              0      0 0000000000000000000000000000000000000000    40 resources/webinterface/dashboard/css
          22285      1 c8524f296a642b2d10171107e00b96da327247bf     0 resources/webinterface/dashboard/css/chunk~66c0d1388.css
-         56122      1 bc022fd7aaec9e429312a7fd7f7b17eb340beb7e     0 resources/webinterface/dashboard/css/chunk~93a8598f9.css
-         41686      1 8c879b0115584cfee2bfc126bbc1d8c1e8121637     0 resources/webinterface/dashboard/css/chunk~b48d3fba7.css
-         52781      1 7c90a24cfbe54e2b1e73313c65524e5da20f3a1c     0 resources/webinterface/dashboard/css/controllerbindingui.css
-         19094      1 ea3f2c00e93682674702456c5d96e0883e11f4ce     0 resources/webinterface/dashboard/css/debugcommands.css
+         57534      1 7829e01f666541790f09122e67d858058774c51e     0 resources/webinterface/dashboard/css/chunk~93a8598f9.css
+         41708      1 038ecb2d00e0a2715dfb7fe2506a938efa21a8a6     0 resources/webinterface/dashboard/css/chunk~b48d3fba7.css
+         54193      1 033bc85e5b0ed7736eac3b6c20c6ddd34f6746a7     0 resources/webinterface/dashboard/css/controllerbindingui.css
+         20506      1 040b6919da59cc1bd901aca97b2cebf3b80667be     0 resources/webinterface/dashboard/css/debugcommands.css
           1944      1 d7aa265f507dddf02e0ef2634fe1df724386b997     0 resources/webinterface/dashboard/css/keyboard.css
           1376      1 427cbd701cf2bed1be178f62b05046a386971d65     0 resources/webinterface/dashboard/css/notificationtoast.css
-          9370      1 4411105e717a1f4884829de2ca2239cb5ce29676     0 resources/webinterface/dashboard/css/settings_desktop.css
+         10782      1 5bc403e2837cb180a484621728986ac9ba10a216     0 resources/webinterface/dashboard/css/settings_desktop.css
           7434      1 db11f3b87380bee0b79208e94b38568de0f05ab9     0 resources/webinterface/dashboard/css/systemreportviewer.css
-          9124      1 bf2afc8d420f13c54d248ce20c02d7ad30a1f0a6     0 resources/webinterface/dashboard/css/systemui.css
-          2188      1 d89e1214dfe1dbd11ef0e58076693f89d4d719be     0 resources/webinterface/dashboard/debugcommands.html
-         39847      1 435d0631278ef35ef5356be77a6f933b7cb3aeed     0 resources/webinterface/dashboard/debugcommands.js
+          9122      1 1f7fb014137ae472aa2cdc3abfa0ef4ddfce7a19     0 resources/webinterface/dashboard/css/systemui.css
+          2291      1 bb6844f68361fb14c22a2843987abf344dbc45ad     0 resources/webinterface/dashboard/debugcommands.html
+         27756      1 c1f738ad4ff082d65014c8116b3ef1e83712d1ad     0 resources/webinterface/dashboard/debugcommands.js
              0      0 0000000000000000000000000000000000000000    40 resources/webinterface/dashboard/images
         161535      1 be0971632f9eeb21c69f21bca2e07b94e7689489     0 resources/webinterface/dashboard/images/appimage_default.png
           4488      1 c34f552b150f52c5b54a17a9542b356797653b6b     0 resources/webinterface/dashboard/images/appimage_default_portrait.png
@@ -3115,8 +3042,8 @@ Total bytes compressed : 366356432
           2694      1 9ffc0fa19e2a436b6e40a667a55aa6bc392a1e8f     0 resources/webinterface/dashboard/images/vrkeyboard/shift.png
           1779      1 5556d5b252131a74fc73ad0f4e4b4fbf39ca413f     0 resources/webinterface/dashboard/images/vrkeyboard/symbols.png
           2372      1 4ade0a5e8df8a980597e0d56ecf739dda27691d1     0 resources/webinterface/dashboard/images/vrkeyboard/textinput_touchpointer.png
-          2628      1 2665e65ab61c07653cda1f411368aa7803e00839     0 resources/webinterface/dashboard/keyboard.html
-         15528      1 6717f265f19e4df7e66552a83c7c7c36d14191bb     0 resources/webinterface/dashboard/keyboard.js
+          2628      1 88bb6a28d277262f5180f2ad50fc24017e7b10d1     0 resources/webinterface/dashboard/keyboard.html
+         15528      1 07865d37b5c3df345f213e5ff5749ed8ffc347ce     0 resources/webinterface/dashboard/keyboard.js
              0      0 0000000000000000000000000000000000000000    40 resources/webinterface/dashboard/keyboards
           3481      1 53406bba10a649542c44da02b3e69e2c4cb3541f     0 resources/webinterface/dashboard/keyboards/layout_base_overlay.json
           7074      1 2fe200da46cbf0660aa2daae3a52cfaf749a9138     0 resources/webinterface/dashboard/keyboards/layout_brazilian_overlay.json
@@ -3138,16 +3065,17 @@ Total bytes compressed : 366356432
           7065      1 24ed81cb282a08a0c670f4762d9d5cc67f0b3412     0 resources/webinterface/dashboard/keyboards/layout_turkish_overlay.json
           7123      1 af317dd439c8c7bff954a1de199a988fbd588541     0 resources/webinterface/dashboard/keyboards/layout_ukranian_overlay.json
              0      0 0000000000000000000000000000000000000000    40 resources/webinterface/dashboard/libraries
-         13099      1 dbb974960a6733d8556eff04aa5e95a90ef7ea3c     0 resources/webinterface/dashboard/libraries/libraries~2f4d5a466.js
-         13099      1 761434551a2c91ce653cc6967cfa8c921a81a146     0 resources/webinterface/dashboard/libraries/libraries~384a8a9f6.js
-         13099      1 8dfdec5ec82ddb5bb92ab462af2220cf183d1ea0     0 resources/webinterface/dashboard/libraries/libraries~462078e7f.js
-         13099      1 6310e32b474d81155bbe2f4964aa5f30f34d1bca     0 resources/webinterface/dashboard/libraries/libraries~7316aad94.js
-        160433      1 5804f4ee32f86b23a1991bc6a7d678e2bc0bfb0b     0 resources/webinterface/dashboard/libraries/libraries~8012d0c89.js
-         15677      1 581cccee0752cfdc32fdc912dcb0e76a3875376a     0 resources/webinterface/dashboard/libraries/libraries~837d8d061.js
-        152426      1 37bece3d14e52253a0380a5ffd842c2a0f01d303     0 resources/webinterface/dashboard/libraries/libraries~989880c99.js
-         13099      1 f0b274ee7728499c48615306a22e0ff1a5cf650d     0 resources/webinterface/dashboard/libraries/libraries~d57015099.js
-         57314      1 6e28a81a4c10f17484f52d43642535987ef86dae     0 resources/webinterface/dashboard/libraries/libraries~e59f90316.js
-         61424      1 da1f9c0c8c5716cda26835d30984f17910f5b685     0 resources/webinterface/dashboard/libraries/libraries~f9de2b6b6.js
+         13103      1 a9ab26e3fa04e1a709284d73b5104d3659ab3224     0 resources/webinterface/dashboard/libraries/libraries~2f4d5a466.js
+         13103      1 dcc924f93748c31e57b7c7ab07729099188491a0     0 resources/webinterface/dashboard/libraries/libraries~384a8a9f6.js
+         13103      1 0d3fed91f16299222ce152f79c0134e1c1438ae3     0 resources/webinterface/dashboard/libraries/libraries~462078e7f.js
+         13103      1 7a803d1018ede93cddabbbc07280b33228409c70     0 resources/webinterface/dashboard/libraries/libraries~7316aad94.js
+        160433      1 a0581723e70482200fab8119db3b8d6a50bd042c     0 resources/webinterface/dashboard/libraries/libraries~8012d0c89.js
+         15681      1 6bd84cac6164a69df146bebd91d822f6bdbf826e     0 resources/webinterface/dashboard/libraries/libraries~837d8d061.js
+        152426      1 b07793d62135134ec2db95379c1ead8e19bed17c     0 resources/webinterface/dashboard/libraries/libraries~989880c99.js
+         13103      1 935da876889adc430803f9159b48e6fa47acede7     0 resources/webinterface/dashboard/libraries/libraries~b09699436.js
+         13103      1 14adb30e269ff760416f5761279abdf80a91fdf5     0 resources/webinterface/dashboard/libraries/libraries~d57015099.js
+         57318      1 998e5b5a7c678e601cacb3eb7065a53e4b720a0c     0 resources/webinterface/dashboard/libraries/libraries~e59f90316.js
+         61424      1 2201cd85e949a3540667bd6372ba7c0bea868659     0 resources/webinterface/dashboard/libraries/libraries~f9de2b6b6.js
              0      0 0000000000000000000000000000000000000000    40 resources/webinterface/dashboard/localization
          44859      1 720bb06e648c6fc486a8892a559e41a64678c389     0 resources/webinterface/dashboard/localization/bindingui_brazilian.json
          62903      1 f3dbacc0d555edcbe25e5c7ea8327309d96c1e47     0 resources/webinterface/dashboard/localization/bindingui_bulgarian.json
@@ -3163,7 +3091,7 @@ Total bytes compressed : 366356432
          46176      1 cb9cb348b85f92c3a6886ca85ddfb5f99667906f     0 resources/webinterface/dashboard/localization/bindingui_italian.json
          48978      1 8c3b48aa8be3164fed833958a8994529918da2d5     0 resources/webinterface/dashboard/localization/bindingui_japanese.json
          45373      1 3ad4472b78e11761fd7b68b56831ead8fe2356fb     0 resources/webinterface/dashboard/localization/bindingui_korean.json
-         46541      1 1acf01c9f3039ef4ddeffd8d4b5a006003e6a2bb     0 resources/webinterface/dashboard/localization/bindingui_latam.json
+         46566      1 a18c2eb80aa7959c45be2c0c7834fecedbf3802e     0 resources/webinterface/dashboard/localization/bindingui_latam.json
          42824      1 ebc23faf1720d81193b0dcc15e3ae575f82ba7d4     0 resources/webinterface/dashboard/localization/bindingui_norwegian.json
          45997      1 46ed23097f7a08ec0d95d4462c6c84f0a37c1f24     0 resources/webinterface/dashboard/localization/bindingui_polish.json
          45008      1 842fcc82568ca52b365dd9b4a240c37c1c498393     0 resources/webinterface/dashboard/localization/bindingui_portuguese.json
@@ -3177,62 +3105,62 @@ Total bytes compressed : 366356432
          44917      1 a44df04b1da80cfb01eb7c497dc3a25f4b231751     0 resources/webinterface/dashboard/localization/bindingui_turkish.json
          59649      1 761e0a98f1c856723b41017d287d3a78020e5ffd     0 resources/webinterface/dashboard/localization/bindingui_ukrainian.json
          47798      1 bb9c2a2389076c7c57929e204569e26d9539cef5     0 resources/webinterface/dashboard/localization/bindingui_vietnamese.json
-          4762      1 8a57f408299d6e5b8f98f698c4a70a25f08f615e     0 resources/webinterface/dashboard/localization/dashboard_brazilian.json
-          7174      1 098276eb6cb595317c49d3acb4e303307730a8d5     0 resources/webinterface/dashboard/localization/dashboard_bulgarian.json
-          4731      1 be66d20cb124f48d6fbc9cf8b423a025e7f733ec     0 resources/webinterface/dashboard/localization/dashboard_czech.json
-          4491      1 825d18d57d80c13d010969420e9166ed30f080fa     0 resources/webinterface/dashboard/localization/dashboard_danish.json
-          4676      1 af0ec76e3affe0a2a0b6e8ddeb706b534c5181e7     0 resources/webinterface/dashboard/localization/dashboard_dutch.json
-          4246      1 3c352d11295488c23d0ad542855c283550d3b5e5     0 resources/webinterface/dashboard/localization/dashboard_english.json
-          4734      1 df38e295177c637df04784b7baf9468f4aa010c6     0 resources/webinterface/dashboard/localization/dashboard_finnish.json
-          4834      1 7cd10ee694a498c7589d18c376ce48405ffba149     0 resources/webinterface/dashboard/localization/dashboard_french.json
-          4846      1 384822cd0faf03d53fb8582041570e14f8473dfa     0 resources/webinterface/dashboard/localization/dashboard_german.json
-          6782      1 98a5ccb6e5da6ce9d0f15eba310d283af9dea09e     0 resources/webinterface/dashboard/localization/dashboard_greek.json
-          4994      1 11f5f0919cc95916e536da057441d65924071898     0 resources/webinterface/dashboard/localization/dashboard_hungarian.json
-          4760      1 50c2fcd185c78986069838d92567d63deb3ac83e     0 resources/webinterface/dashboard/localization/dashboard_italian.json
-          5508      1 d203bc918987293b8034bdc9dd2f98db24802bdb     0 resources/webinterface/dashboard/localization/dashboard_japanese.json
-          4907      1 2e19d8b0fb457ba939b55b2673611c4e3ebd724e     0 resources/webinterface/dashboard/localization/dashboard_korean.json
-          4857      1 c824091eed99277b8b4066ea6c6b3f576088595a     0 resources/webinterface/dashboard/localization/dashboard_latam.json
-          4430      1 8393b1624eb9e8705ffab353f98c02ea265e19c6     0 resources/webinterface/dashboard/localization/dashboard_norwegian.json
-          4725      1 70d93124ed636e3babdadca57c1786d2806e2f5c     0 resources/webinterface/dashboard/localization/dashboard_polish.json
-          4711      1 d79ddc15e8d334f0f0abf258aa145db1e03b107c     0 resources/webinterface/dashboard/localization/dashboard_portuguese.json
-          4961      1 2e1d33c0b0eaee428d89771dba0260ceea7f64f9     0 resources/webinterface/dashboard/localization/dashboard_romanian.json
-          6499      1 67d3d44c82b30da08848649e1ad98a2bebc4c2e2     0 resources/webinterface/dashboard/localization/dashboard_russian.json
-          4350      1 7bc0024e5fcd552edd31f92d792203c36af9d475     0 resources/webinterface/dashboard/localization/dashboard_schinese.json
-          4831      1 dc5892c10b116ec258cb366757c3c276a4d636a6     0 resources/webinterface/dashboard/localization/dashboard_spanish.json
-          4477      1 6655e4a4a4f6ab0db84afafdf605cc85b1ed64de     0 resources/webinterface/dashboard/localization/dashboard_swedish.json
-          4377      1 2f8a67fe14d0414adf0c222614a791e30280a65f     0 resources/webinterface/dashboard/localization/dashboard_tchinese.json
-          7300      1 ab9a01f4148abad2d5178e11a5ffdf061ec6af59     0 resources/webinterface/dashboard/localization/dashboard_thai.json
-          4719      1 a4faee95544a28c640bb96a78d7fc8667a31a7de     0 resources/webinterface/dashboard/localization/dashboard_turkish.json
-          6498      1 c3e8e7d04344dbc38691a26b8a3ffa4a755c8c3b     0 resources/webinterface/dashboard/localization/dashboard_ukrainian.json
-          5047      1 e7ee4f9bc6882749f6299ce22ff3cf72423a6d0b     0 resources/webinterface/dashboard/localization/dashboard_vietnamese.json
-         39471      1 e1fbe9599fef0f8e8d95d474b743c044dba55bb8     0 resources/webinterface/dashboard/localization/vrmonitor_brazilian.json
-         56112      1 23a3f8e22b28ce8943d4810ed15c7367e98cae2f     0 resources/webinterface/dashboard/localization/vrmonitor_bulgarian.json
-         38718      1 b40ad404432b58697620a730a8be6c1080894f94     0 resources/webinterface/dashboard/localization/vrmonitor_czech.json
-         37673      1 69e52ba03ce3c801598db11a9dc163c5da67edd7     0 resources/webinterface/dashboard/localization/vrmonitor_danish.json
-         38605      1 748b670da24f76889a75ea3a2f02374eadf68858     0 resources/webinterface/dashboard/localization/vrmonitor_dutch.json
-         36574      1 d238701a2292daf61df6552cab90a770254dc0e0     0 resources/webinterface/dashboard/localization/vrmonitor_english.json
-         38869      1 64e60047321daddbfea37a240da7d2a164cce5c3     0 resources/webinterface/dashboard/localization/vrmonitor_finnish.json
-         41277      1 7f4abe950c69b7d57e5408679495cf199a35deb6     0 resources/webinterface/dashboard/localization/vrmonitor_french.json
-         39555      1 7d1ae76dfd460f49acc436cb675200f0fe7f86ce     0 resources/webinterface/dashboard/localization/vrmonitor_german.json
-         54298      1 7071e332344226805e4bb09fa45490c382cd191c     0 resources/webinterface/dashboard/localization/vrmonitor_greek.json
-         40217      1 112b54f12daaadaa24280d6900a3efc7e1185d98     0 resources/webinterface/dashboard/localization/vrmonitor_hungarian.json
-         39881      1 6183f6eb4c99a28cc968dd232ed299a41b2ddfa2     0 resources/webinterface/dashboard/localization/vrmonitor_italian.json
-         43684      1 06b50e1a96b5d77d7ff7cc7b69ba5cb78805c3d4     0 resources/webinterface/dashboard/localization/vrmonitor_japanese.json
-         39501      1 4083237fdd21f2a87c180ca87305be9553727bac     0 resources/webinterface/dashboard/localization/vrmonitor_korean.json
-         40290      1 793a8db979940fad1711313f709c34d36c8cd32a     0 resources/webinterface/dashboard/localization/vrmonitor_latam.json
-         37191      1 154bb7819dda93ad86c8312b45718b9144495e58     0 resources/webinterface/dashboard/localization/vrmonitor_norwegian.json
-         39414      1 58c529f674a9c15951f0d02e0edfcaed064a0921     0 resources/webinterface/dashboard/localization/vrmonitor_polish.json
-         38858      1 5af9850944dae2792b86700ff9e6d5ecbbe11fc5     0 resources/webinterface/dashboard/localization/vrmonitor_portuguese.json
-         40992      1 6461493a1509a0f65d28fb3f8287d70058c5456c     0 resources/webinterface/dashboard/localization/vrmonitor_romanian.json
-         52515      1 20235b12739f16a255a61cb56bb809983b7cbed7     0 resources/webinterface/dashboard/localization/vrmonitor_russian.json
-         35175      1 aa741464d70e9b462f1d62766b81fa5a27ff53fb     0 resources/webinterface/dashboard/localization/vrmonitor_schinese.json
-         40233      1 839934500a3ae9b5298012576a534abbfad2a07e     0 resources/webinterface/dashboard/localization/vrmonitor_spanish.json
-         38079      1 0b3a3bab19873068e1774c9733ab5bb48c7d3056     0 resources/webinterface/dashboard/localization/vrmonitor_swedish.json
-         35122      1 59e7f2a30e055fc203ad526d9cf6b3d8dfc43da3     0 resources/webinterface/dashboard/localization/vrmonitor_tchinese.json
-         64334      1 23a36c7a9ac7051664ede418755e9ee58196a7d4     0 resources/webinterface/dashboard/localization/vrmonitor_thai.json
-         39251      1 02ce88a91f7c2539b68f962ae28f4753a24c9405     0 resources/webinterface/dashboard/localization/vrmonitor_turkish.json
-         52282      1 49a504c48910b79f3bc802aa691803c0ed3c97bd     0 resources/webinterface/dashboard/localization/vrmonitor_ukrainian.json
-         41573      1 7355617e024a55d07bb400bf39b9b8ff4f34872a     0 resources/webinterface/dashboard/localization/vrmonitor_vietnamese.json
+          5010      1 feb200168d8710fd78f6449bcd2a5fef95149b94     0 resources/webinterface/dashboard/localization/dashboard_brazilian.json
+          7531      1 cd3529931f22660c535927818bf735c287849818     0 resources/webinterface/dashboard/localization/dashboard_bulgarian.json
+          4988      1 d93f7027e1488b558ce71f3fb0598d257a64c825     0 resources/webinterface/dashboard/localization/dashboard_czech.json
+          4724      1 bddb99d252733d980346e85562045a094d09781b     0 resources/webinterface/dashboard/localization/dashboard_danish.json
+          4912      1 63496895ee3d32e85c6f5185ce19b37ccd8eab97     0 resources/webinterface/dashboard/localization/dashboard_dutch.json
+          4474      1 f9c055fba1d173923fd928ebae4dbadb7033f2eb     0 resources/webinterface/dashboard/localization/dashboard_english.json
+          4982      1 45ec616c3f09201da95c1e1e52a6f6115e691c12     0 resources/webinterface/dashboard/localization/dashboard_finnish.json
+          5095      1 d0487b043c891080e8861f812898e888aa1ef8f4     0 resources/webinterface/dashboard/localization/dashboard_french.json
+          5104      1 4935642c89e26ce25383c0266580471886e761e3     0 resources/webinterface/dashboard/localization/dashboard_german.json
+          7164      1 0f537f2c326430a5b296ad33de87fb8c88178822     0 resources/webinterface/dashboard/localization/dashboard_greek.json
+          5277      1 40f6ec2ab1d8bfb079ce5a89a8a393754f97247b     0 resources/webinterface/dashboard/localization/dashboard_hungarian.json
+          5008      1 cf01be682c5d1181405d3fdfa4130df264316493     0 resources/webinterface/dashboard/localization/dashboard_italian.json
+          5792      1 01de988cae04dd570476be3b7611de1125d958b6     0 resources/webinterface/dashboard/localization/dashboard_japanese.json
+          5181      1 636167fa633fa880717f3bb3522c1f23f723522c     0 resources/webinterface/dashboard/localization/dashboard_korean.json
+          5118      1 8ecb9318dacd97dba1e626821619551791715155     0 resources/webinterface/dashboard/localization/dashboard_latam.json
+          4673      1 af1960b41c3defb50f52836771797e968bf79f3a     0 resources/webinterface/dashboard/localization/dashboard_norwegian.json
+          4977      1 a23d3cc40e15e909894d31662784247775078b92     0 resources/webinterface/dashboard/localization/dashboard_polish.json
+          4967      1 47844eae1c8ff7ae89b2be289add17c12ba19967     0 resources/webinterface/dashboard/localization/dashboard_portuguese.json
+          5217      1 c605dae702c0447d02292ccb8f32699140ad4f88     0 resources/webinterface/dashboard/localization/dashboard_romanian.json
+          6864      1 516a5a09f1aeb323ca3e9679413f6d4dac858838     0 resources/webinterface/dashboard/localization/dashboard_russian.json
+          4570      1 35cfdac340790ecf5d475b8e87d2745366f41c32     0 resources/webinterface/dashboard/localization/dashboard_schinese.json
+          5070      1 4bef975474bcb822aacc428c8e8db8b3b62b22ba     0 resources/webinterface/dashboard/localization/dashboard_spanish.json
+          4728      1 01cf736aaad24965cadce35a50f7ea1fdebf516c     0 resources/webinterface/dashboard/localization/dashboard_swedish.json
+          4615      1 707a4f838c439d4bbfc96347286fb3a03eed0aa7     0 resources/webinterface/dashboard/localization/dashboard_tchinese.json
+          7668      1 45eb5d025a2e124413bc622865744860f62d31c3     0 resources/webinterface/dashboard/localization/dashboard_thai.json
+          5004      1 c3a921c6eb9b35dd35a1c09cfc29bdc6e2e44f15     0 resources/webinterface/dashboard/localization/dashboard_turkish.json
+          6884      1 436425bf1e5fa08b6667f9a26e5af6f01d551117     0 resources/webinterface/dashboard/localization/dashboard_ukrainian.json
+          5312      1 91a33d1688f6064a99945601bbee2982464ca747     0 resources/webinterface/dashboard/localization/dashboard_vietnamese.json
+         39951      1 b9b63b8e1590c3fb444469e44951b916bd8eeee9     0 resources/webinterface/dashboard/localization/vrmonitor_brazilian.json
+         56646      1 e2f7af05afc350766e3e4e9aadf313594e7efbb0     0 resources/webinterface/dashboard/localization/vrmonitor_bulgarian.json
+         39187      1 869f8a74a812c313b5c75520be3738dd92195548     0 resources/webinterface/dashboard/localization/vrmonitor_czech.json
+         38040      1 246c241b2858863b4ae2c1c1c70fa2bc851f1977     0 resources/webinterface/dashboard/localization/vrmonitor_danish.json
+         39066      1 07804453c7c50d0d30199d0e8b88ebb827be8fb7     0 resources/webinterface/dashboard/localization/vrmonitor_dutch.json
+         36567      1 f311c513a8a9b8420833fab0839e0adc3db9a126     0 resources/webinterface/dashboard/localization/vrmonitor_english.json
+         39327      1 61ada7f3c7c520173d2b6bd1d618e339ed8bb6a7     0 resources/webinterface/dashboard/localization/vrmonitor_finnish.json
+         41773      1 7e67844a6249b9371af0c75251027fb3b6c64adb     0 resources/webinterface/dashboard/localization/vrmonitor_french.json
+         40007      1 bbf350714dd900e992c7ff1547a8740de929a86e     0 resources/webinterface/dashboard/localization/vrmonitor_german.json
+         54886      1 9a039f02e454c75bf3371d80965e95ba861682de     0 resources/webinterface/dashboard/localization/vrmonitor_greek.json
+         40843      1 4ce465191d51dddfa54adcf77419b8030ba084de     0 resources/webinterface/dashboard/localization/vrmonitor_hungarian.json
+         40363      1 a35141bde7f90590dcabced21ba80ad9dc7cb29d     0 resources/webinterface/dashboard/localization/vrmonitor_italian.json
+         44150      1 7ddba87cb5c0f1d897ee4db6c0c168930a42b240     0 resources/webinterface/dashboard/localization/vrmonitor_japanese.json
+         39938      1 b5b8ac563b5417775d5548eca9a9ee73d0fd7e56     0 resources/webinterface/dashboard/localization/vrmonitor_korean.json
+         40738      1 c6ac896626b935925b1bf4529608133be28a9481     0 resources/webinterface/dashboard/localization/vrmonitor_latam.json
+         37648      1 66fe90c6f250fbc313f1eee8a1fb87b426aaa23e     0 resources/webinterface/dashboard/localization/vrmonitor_norwegian.json
+         39852      1 050fd731c007fedb69af7fb81681a80dc5662f3a     0 resources/webinterface/dashboard/localization/vrmonitor_polish.json
+         39326      1 70ec4f883f4eac7461c5c7e00a594ad0936b223c     0 resources/webinterface/dashboard/localization/vrmonitor_portuguese.json
+         41445      1 0ffd117cd666d9e3832f0ea1ed17d39911f79f4a     0 resources/webinterface/dashboard/localization/vrmonitor_romanian.json
+         53111      1 3413704aa5b65e31de7ae395f91f9851c33ea9a0     0 resources/webinterface/dashboard/localization/vrmonitor_russian.json
+         35619      1 4f57345b904a885f5e8f3992780d218c81dcfc7d     0 resources/webinterface/dashboard/localization/vrmonitor_schinese.json
+         40596      1 aec6538a0ce866599ee14752f4322a53bea492cf     0 resources/webinterface/dashboard/localization/vrmonitor_spanish.json
+         38538      1 314db0c9de7a0278f253098f75032226e82c683a     0 resources/webinterface/dashboard/localization/vrmonitor_swedish.json
+         35557      1 d74ad09a25f4b4c5faf26160c9410dc3df810baf     0 resources/webinterface/dashboard/localization/vrmonitor_tchinese.json
+         64955      1 1d88da49f85060ea4a1523be2a1842ef17a1a1c8     0 resources/webinterface/dashboard/localization/vrmonitor_thai.json
+         39717      1 ee586a50a8a8dad4746b2b0ba209b5be83c0ff6d     0 resources/webinterface/dashboard/localization/vrmonitor_turkish.json
+         52835      1 7422420e62b4827350f043f707d61e320e635296     0 resources/webinterface/dashboard/localization/vrmonitor_ukrainian.json
+         42059      1 6f6397b351c883405cefcae25c14ad82ac9ec1be     0 resources/webinterface/dashboard/localization/vrmonitor_vietnamese.json
           4167      1 a0d6a0e2f876c5461e71e0cef46d1ade520e4403     0 resources/webinterface/dashboard/localization/webhelper_brazilian.json
           5345      1 bf9dcec319892efb80589ca1effaeb82808e2fbf     0 resources/webinterface/dashboard/localization/webhelper_bulgarian.json
           4265      1 0feef3a79b50bb3b216852afdd33f53b98b491a2     0 resources/webinterface/dashboard/localization/webhelper_czech.json
@@ -3247,7 +3175,7 @@ Total bytes compressed : 366356432
           4183      1 f182495a756f63b9f768226a6039e28f0eaab5ca     0 resources/webinterface/dashboard/localization/webhelper_italian.json
           4530      1 96335b8b255f7d7f5ed47ef32cdba8b85474eac7     0 resources/webinterface/dashboard/localization/webhelper_japanese.json
           4202      1 7ece4874a49d6441eccfab9adf8ed7286c1d8717     0 resources/webinterface/dashboard/localization/webhelper_korean.json
-          4181      1 14857f5242b876b7e05099c3cc041778af4fcdbd     0 resources/webinterface/dashboard/localization/webhelper_latam.json
+          4193      1 20d25459ef0968f0fbe19111d2e127b51a7817b5     0 resources/webinterface/dashboard/localization/webhelper_latam.json
           4017      1 cb992f6bd1bc633c1a654ce6bf6f63f893aec309     0 resources/webinterface/dashboard/localization/webhelper_norwegian.json
           4171      1 6822ec84a5530af4d0e4326966c67bfdcec667dd     0 resources/webinterface/dashboard/localization/webhelper_polish.json
           4099      1 d173183226648f35a681e6eb34333a017955f22f     0 resources/webinterface/dashboard/localization/webhelper_portuguese.json
@@ -3261,12 +3189,12 @@ Total bytes compressed : 366356432
           4084      1 0539f5363d26ca75f53bc1587294074236af58ff     0 resources/webinterface/dashboard/localization/webhelper_turkish.json
           5054      1 4223462e7a6e4bc5ea4ca4c97b5c5afa630c3e35     0 resources/webinterface/dashboard/localization/webhelper_ukrainian.json
           4319      1 c09b1ca841d4f8cb00ec4eb6944a8f378a0af343     0 resources/webinterface/dashboard/localization/webhelper_vietnamese.json
-          2382      1 42d442926dd1e2dc5ab372015a27c1ee5676a52a     0 resources/webinterface/dashboard/messageoverlay.html
-         20960      1 6c9b608b27e35cd206be1e0c4e046dbd5f43de02     0 resources/webinterface/dashboard/messageoverlay.js
-          2566      1 bdc70f69afded55a8a964f6010ff360ab5a6147f     0 resources/webinterface/dashboard/notificationtoast.html
-         16337      1 19fda5bece37642ca18ddbf9c0939f20b5c33011     0 resources/webinterface/dashboard/notificationtoast.js
-          2563      1 188615195abcdd1c9cfc53546b5be8b6a628165f     0 resources/webinterface/dashboard/settings_desktop.html
-         15489      1 18707e7e612f56394cda0b9f386245bb30febd65     0 resources/webinterface/dashboard/settings_desktop.js
+          2382      1 e17825d87c4971ae49c08759280986231ba4404e     0 resources/webinterface/dashboard/messageoverlay.html
+         21704      1 506a6d33af0209cae8dae60fb8aa419bf11c7036     0 resources/webinterface/dashboard/messageoverlay.js
+          2566      1 85ab6e2f4374b6d1684c91781fde9c58bd4f9e23     0 resources/webinterface/dashboard/notificationtoast.html
+         17081      1 0fce42c5b2a9144e6eb7b0479d6e3a4c5b79190a     0 resources/webinterface/dashboard/notificationtoast.js
+          2563      1 74f4ec68e08bc6ad5a0d8f7378d6160fce6759be     0 resources/webinterface/dashboard/settings_desktop.html
+         16233      1 8abdb42bdc0bd921744357c3c4ef331c08c93fbd     0 resources/webinterface/dashboard/settings_desktop.js
              0      0 0000000000000000000000000000000000000000    40 resources/webinterface/dashboard/sounds
         151956      1 caf6737eafb496dc300b7d7e0ec7a9e8f87f799e     0 resources/webinterface/dashboard/sounds/activation.wav
         118218      1 7641783cfac973ee2cd4bde3825e50dce3947e6b     0 resources/webinterface/dashboard/sounds/activation_change_fail.wav
@@ -3319,10 +3247,10 @@ Total bytes compressed : 366356432
        2089014      2 e57e3548b85061188a27d73ef3f6c222db732d61     0 resources/webinterface/dashboard/suggestions/russian_compiled_words.dict
        1899183      2 ea052b25ca43011621259565e168992670d09030     0 resources/webinterface/dashboard/suggestions/spanish_compiled_words.dict
        1844461      2 ba84b935f9aef2457d8e030f3e97ab663924c442     0 resources/webinterface/dashboard/suggestions/swedish_compiled_words.dict
-          1845      1 fdaf7affe477f2f62018116cf424debcfd90e649     0 resources/webinterface/dashboard/systemreportviewer.html
-         17308      1 28d46bb0ad06a954232ca8d30f2be9955e2bf264     0 resources/webinterface/dashboard/systemreportviewer.js
-          2537      1 7b072c0a5a6e227587943aeb80d6e2a40020a414     0 resources/webinterface/dashboard/systemui.html
-        243589      1 e0e052853457a85ced1edd4135744dc7c47e431e     0 resources/webinterface/dashboard/systemui.js
+          1845      1 5ce65ed6e446118fe5ad62a4e9cb4b3f8e630928     0 resources/webinterface/dashboard/systemreportviewer.html
+         17308      1 0257719aa15c50c4d95e6752a169f58842b18764     0 resources/webinterface/dashboard/systemreportviewer.js
+          2537      1 dc0b94300200760558e016103ac28e8fb8e6d8b9     0 resources/webinterface/dashboard/systemui.html
+        244662      1 e55055a509a4f2aa76b97bd18eb1eee871e3c731     0 resources/webinterface/dashboard/systemui.js
           1406      1 57477c2180cc7b6b9e3064a46cf8da4ad7555540     0 resources/webinterface/favicon.ico
              0      0 0000000000000000000000000000000000000000    40 resources/webinterface/fonts
              0      0 0000000000000000000000000000000000000000     0 resources/webinterface/fonts/empty.dir
@@ -3351,7 +3279,7 @@ Total bytes compressed : 366356432
              0      0 0000000000000000000000000000000000000000    40 resources/webinterface/shared/js
          86713      1 042dd055cd289215835a58507c9531f808e1648a     0 resources/webinterface/shared/js/jquery-3.1.1.min.js
            170      1 b3ef450f5d820f683f5e78f3faf0eaec406c4fc4     0 resources/white.png
-        256533      1 f7a5e90fbf75cfb1418af653b5eaad4bbe7535b0     0 third_party_legal_notices.txt
+        257675      1 1fcaf54f391c3119fe6ca8534063db23c2c26907     0 third_party_legal_notices.txt
          30658      1 71e7ba74ec391dd09898cb615e2f365e8eebc83c     0 third_party_legal_notices_web.txt
          64954      1 56538caa6bf7850953f3126aed94d8870ef6f97c     0 tools/content/media_player_capsule_main.png
         117517      1 c2b6fffb2484abff1453824f5ca13f4e1c833e33     0 tools/content/room_setup_capsule_main.png

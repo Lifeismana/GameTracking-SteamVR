@@ -486,8 +486,8 @@ $tI(knN
 .?AV<lambda_8dbfae96c65b0de9f81017ab99416c2f>@@
 .?AV<lambda_9719fca677a58d282439f7f8b139a74f>@@
 .?AV<lambda_b4bb3ccaa58babf72cd0ad9aeee44f48>@@
-.?AV<lambda_b90c08237eef627d1d17b1b420ecd941>@@
 .?AV<lambda_baf9a13ae88e0e395bddf77b7a139e01>@@
+.?AV<lambda_c72308ce6664706c80316d4c9bd9560a>@@
 .?AV<lambda_cec0a822e624efbc14f454d954ffa5d1>@@
 .?AV<lambda_d4103c8e33b4176fc4fc67aa595b6930>@@
 .?AV<lambda_d8999f150ee7b7e4efc727f6848c8d54>@@
@@ -702,6 +702,7 @@ $tI(knN
 .?AV?$SteamPrivateInterfaceRegistration@VCVRSteamPrivate_025@@@@
 .?AV?$SteamPrivateInterfaceRegistration@VCVRSteamPrivate_026@@@@
 .?AV?$SteamPrivateInterfaceRegistration@VCVRSteamPrivate_027@@@@
+.?AV?$SteamPrivateInterfaceRegistration@VCVRSteamPrivate_028@@@@
 .?AV?$SystemInterfaceRegistration@VCHmdSystem_001@@@@
 .?AV?$SystemInterfaceRegistration@VCHmdSystem_004@@@@
 .?AV?$SystemInterfaceRegistration@VCVRClientCore_001@@@@
@@ -776,8 +777,8 @@ $tI(knN
 .?AV?$_Func_impl_no_alloc@V<lambda_8dbfae96c65b0de9f81017ab99416c2f>@@_NW4ETrackedDeviceClass@vr@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_9719fca677a58d282439f7f8b139a74f>@@_NPEBUXrBindingModificationsKHR@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_b4bb3ccaa58babf72cd0ad9aeee44f48>@@_NAEBUHmdVector3_t@vr@@@std@@
-.?AV?$_Func_impl_no_alloc@V<lambda_b90c08237eef627d1d17b1b420ecd941>@@PEAXPEBD@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_baf9a13ae88e0e395bddf77b7a139e01>@@_NPEBUXrActiveActionSetPrioritiesEXT@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_c72308ce6664706c80316d4c9bd9560a>@@PEAXPEBD@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_cec0a822e624efbc14f454d954ffa5d1>@@_NAEBUHmdVector3_t@vr@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_d4103c8e33b4176fc4fc67aa595b6930>@@_NPEBUXrInteractionProfileAnalogThresholdVALVE@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_d8999f150ee7b7e4efc727f6848c8d54>@@_NAEBUHmdVector3_t@vr@@@std@@
@@ -1102,8 +1103,6 @@ $tI(knN
 .?AVCVRMsg_GetDisplayInfo@@
 .?AVCVRMsg_GetDisplayInfoResponse@@
 .?AVCVRMsg_GetDisplayInfoResponse_DisplayInfo@@
-.?AVCVRMsg_GetDriverDetail@@
-.?AVCVRMsg_GetDriverDetailResponse@@
 .?AVCVRMsg_GetDriverInfo@@
 .?AVCVRMsg_GetDriverInfoResponse@@
 .?AVCVRMsg_GetDriverInfoResponse_DriverInfo@@
@@ -1297,6 +1296,7 @@ $tI(knN
 .?AVCVRSteamPrivate_025@@
 .?AVCVRSteamPrivate_026@@
 .?AVCVRSteamPrivate_027@@
+.?AVCVRSteamPrivate_028@@
 .?AVCVRSystemLatest@@
 .?AVCVRSystem_001@@
 .?AVCVRSystem_002@@
@@ -1452,6 +1452,7 @@ $tI(knN
 .?AVIVRSteamPrivate_026@vr@@
 .?AVIVRSteamPrivate_027@vr@@
 .?AVIVRSteamPrivate_028@vr@@
+.?AVIVRSteamPrivate_029@vr@@
 .?AVIVRSystem@vr@@
 .?AVIVRTrackedCamera@vr@@
 .?AVIVRTrackedCameraInternal@vr@@
@@ -1615,7 +1616,6 @@ $tI(knN
 /chaperone/showing_working_pid
 /chaperone/standing/transform
 /chaperone/state
-/chaperone/temporary_playing_outside_playspace_time
 /click
 /controller_type/
 /dashboard_head_pose_from_standing
@@ -1992,9 +1992,10 @@ $tI(knN
 0 width
 0-pixel image
 00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899
-00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899H
 0123456789ABCDEF
+0J>5
 0\tFAJ
+0d"5
 1.0.3.16
 1/2/4/8/16-bit only
 11 4 22 44 44 22 444444
@@ -2096,6 +2097,7 @@ $tI(knN
 ?flush@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@XZ
 ?getline@?$basic_istream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@PEAD_J@Z
 ?getloc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QEBA?AVlocale@2@XZ
+?hl8
 ?id@?$codecvt@DDU_Mbstatet@@@std@@2V0locale@2@A
 ?id@?$codecvt@_WDU_Mbstatet@@@std@@2V0locale@2@A
 ?id@?$collate@D@std@@2V0locale@2@A
@@ -2474,8 +2476,6 @@ CVRMsg_GetApplicationLaunchArgumentsResponse
 CVRMsg_GetDisplayInfo
 CVRMsg_GetDisplayInfoResponse
 CVRMsg_GetDisplayInfoResponse.DisplayInfo
-CVRMsg_GetDriverDetail
-CVRMsg_GetDriverDetailResponse
 CVRMsg_GetDriverInfo
 CVRMsg_GetDriverInfoResponse
 CVRMsg_GetDriverInfoResponse.DriverInfo
@@ -2687,6 +2687,7 @@ Capturing Scene Focus\n
 ChangeAppType failed with %s
 Changing app type from %s to %s
 Chaperone Universe was missing ID\n
+Checking input type %s::%s for path (%s)\n
 Chord for %s had %d bindings, which we don't know how to deal with yet\n
 ClearSkyboxOverride\n
 Client
@@ -3103,8 +3104,9 @@ File size mismatch :
 File was empty
 File write error: 
 Filter list was too gnarly. Not sorting the last %d filters\n
-FilterInputSourceName: Default flip: %s::%s\n
-FilterInputSourceName: Explicit flip: %s::%s\n
+FilterInputSourceName(%s). Mode: %s.  result: %s\n
+FilterInputSourceName: Default flip: from %s to %s\n
+FilterInputSourceName: Explicit flip: from %s to %s\n
 FilterInputSourceName: No flip: %s\n
 FilterInputSourceName: m_eDominantHand(%d) != left.  skip:%s\n
 FindClose
@@ -3549,6 +3551,7 @@ IVRSteamPrivate_025
 IVRSteamPrivate_026
 IVRSteamPrivate_027
 IVRSteamPrivate_028
+IVRSteamPrivate_029
 IVRSystem::GetOutputDevice: Failed to get required Vulkan device function pointer (vkGetPhysicalDeviceProperties2KHR)!\n
 IVRSystem::GetOutputDevice: VkInstance_T *pInstance parameter is nullptr.  VkInstance must be specified for TextureType_Vulkan!\n
 IVRSystem::GetOutputDevice: failed to find VkPhysicalDevice matching adapter UUID\n
@@ -3660,7 +3663,7 @@ Invalid file size :
 Invalid glTF binary.
 Invalid glTF binary. GLB data exceeds 4GB.
 Invalid image data for image[
-Invalid input type %s for controller (%s)\n
+Invalid input type %s::%s for path (%s)\n
 Invalid magic.
 Invalid max zone %f. Ignoring it.\n
 Invalid output hand 
@@ -3832,6 +3835,7 @@ OutputDebugStringW
 PATH_TO_LOCAL_STRING failed with %s
 PC_%08llx
 PICT
+PJ>5
 PNG\r\n
 POSITION
 PS_AURORA
@@ -3845,18 +3849,20 @@ PS_SAMPLESCENE
 PS_SAMPLESCENE0
 PS_STENCIL
 PS_main
-P\r0D
+P\r0d"5
 Parse error in system resource manifest %s.\n
 Parse failed for JSON message in mailbox %s: %s\n
 Parsing of JSON file "%s" failed: %s\n
 Parsing of JSON string "%s" failed: %s\n
 Path_Exists( absFilePath )
+Pd"5
 PeekNamedPipe
 Perspective camera description not found.
 PerspectiveCamera
 PoolGC
 Pose
 Positional emitter description not found.
+Powersave
 Primitive
 PrismTimeline:%llu
 Process called VR_Init or xrCreateInstance %u times without a matching VR_Shutdown or xrDestroyInstance. Behavior is undefined.\n
@@ -3997,8 +4003,10 @@ Prop_HasDriverDirectModeComponent_Bool
 Prop_HasVirtualDisplayComponent_Bool
 Prop_HmdColumnCorrectionSettingPrefix_String
 Prop_HmdTrackingStyle_Int32
+Prop_Hmd_AppPreferencesSectionName_String
 Prop_Hmd_BlankOnFramerateChange_Bool
 Prop_Hmd_EnableParallelRenderCameras_Bool
+Prop_Hmd_RecommendedResolutionIsPerApp_Bool
 Prop_Hmd_RecommendedResolutionPixelsSteps_Int32
 Prop_Hmd_SupportsAppThrottling_Bool
 Prop_Hmd_SupportsDisplayPortTrainingMode_Bool
@@ -4091,7 +4099,7 @@ QuickCalibratePlayspace couldn't get a pose from the HMD\n
 RADV
 RGBG
 RPCRT4.dll
-RSDS
+RSDSIR
 RadialMenu missing X axis input.\n
 RadialMenu missing Y axis input.\n
 RadialMenu setting 'num_buttons' not specified.\n
@@ -5067,6 +5075,7 @@ VRInitError_VendorSpecific_OculusLinkNotEnabled
 VRInitError_VendorSpecific_OculusRuntimeBadInstall
 VRInitError_VendorSpecific_UnableToConnectToOculusRuntime
 VRInitError_VendorSpecific_VRLink_NoAdapterFound
+VRInitError_VendorSpecific_VRLink_NoEncoderSupport
 VRInitError_VendorSpecific_VRLink_NoVideoSupport
 VRInitError_VendorSpecific_VRLink_OutdatedDriverMESA
 VRInitError_VendorSpecific_VRLink_OutdatedDriverNVIDIA
@@ -6547,6 +6556,8 @@ ZvFailed to create fence %ls.\n
 [xrRenderModel] parameter was nullptr
 [xrRenderModel] renderModelIdCountOutput was nullptr
 [xrRenderModel] session is not running
+\fpJ>5
+\fpd"5
 \mfpmp.exe
 \nbad png sig
 \t%s::%llx.\n
@@ -6670,6 +6681,7 @@ a value in the array could not be converted to a number
 abort
 accessor[
 accessors
+acos
 acosf
 action
 actionSet
@@ -7023,9 +7035,9 @@ c:\buildslave\steamvr_rel_win64\build\src\vrclient\skeletalinpututils.cpp
 c:\buildslave\steamvr_rel_win64\build\src\vrclient\vrchaperoneclient.cpp
 c:\buildslave\steamvr_rel_win64\build\src\vrclient\vrclientcore.cpp
 c:\buildslave\steamvr_rel_win64\build\src\vrclient\vrcompositorclient.cpp
-c:\buildslave\steamvr_rel_win64\build\src\vrclient\vrcompositorclient.cpp:1440
-c:\buildslave\steamvr_rel_win64\build\src\vrclient\vrcompositorclient.cpp:1696
-c:\buildslave\steamvr_rel_win64\build\src\vrclient\vrcompositorclient.cpp:2497
+c:\buildslave\steamvr_rel_win64\build\src\vrclient\vrcompositorclient.cpp:1429
+c:\buildslave\steamvr_rel_win64\build\src\vrclient\vrcompositorclient.cpp:1685
+c:\buildslave\steamvr_rel_win64\build\src\vrclient\vrcompositorclient.cpp:2486
 c:\buildslave\steamvr_rel_win64\build\src\vrclient\vrcompositorclient.cpp:463
 c:\buildslave\steamvr_rel_win64\build\src\vrclient\vrcompositorsharedtextures.cpp
 c:\buildslave\steamvr_rel_win64\build\src\vrclient\vrcompositorsharedtextures.cpp:2963
@@ -7113,6 +7125,7 @@ corrupt
 cosf
 count
 create
+create_chaperone_bubble_if_meaningful
 cs_cz
 currentUUID
 currentUniverseId
@@ -7124,6 +7137,7 @@ da_dk
 danish
 dashboard
 dashboard_overlay_destroyed
+dashboard_relatch
 data
 data->IsInitialized()
 data->vecBlocks[ unBlockIndex ].unReferences > 0
@@ -7241,6 +7255,7 @@ enable
 enableCameraSurfaces
 enableDriverBoundsImport
 enableHomeApp
+enableHomeApp2
 enableLegacyGameTheater
 enableSteamInput
 enableYAMLCompatibility
@@ -7903,6 +7918,7 @@ pHandle
 pImage != nullptr
 pInput != nullptr
 pInstance
+pJ>5
 pLast->m_pointLastUsed <= pTimeline->m_pointLastUsed
 pNewResource
 pNewResource->Load( absFilePath )
@@ -7934,6 +7950,7 @@ parse_error
 path
 pauseCompositorOnStandby
 pbrMetallicRoughness
+pd"5
 perfcheck
 performanceProfile
 perspective
@@ -7961,7 +7978,9 @@ position_y
 position_z
 positional
 power
-powersaving
+powersaveFovScale
+powersaveFramesToThrottle
+powersaveResolution
 powf
 ppCmdBuf
 precision
@@ -8010,6 +8029,7 @@ request_handlers_response
 request_tutorial_callout
 required_options
 requirement
+resolutionOverride
 resolutionScale
 resourceOnly
 resources
@@ -8109,6 +8129,7 @@ shaders/d3d11/distort_geom_drawregion_simplified_gamma_ps.fxo
 shaders/d3d11/distort_geom_drawregion_simplified_ps.fxo
 shaders/d3d11/distort_geom_drawregion_simplified_reflect_ps.fxo
 shaders/d3d11/distort_geom_floor_aa_ps.fxo
+shaders/d3d11/distort_geom_floor_auroralit_aa_ps.fxo
 shaders/d3d11/distort_geom_floor_auroralit_ps.fxo
 shaders/d3d11/distort_geom_floor_ps.fxo
 shaders/d3d11/distort_geom_floor_reflect_aa_ps.fxo
@@ -8204,23 +8225,23 @@ shaders/d3d11/geom_curved_uvs_embedded_vs.fxo
 shaders/d3d11/geom_curved_vs.fxo
 shaders/d3d11/geom_drawregion_curved_uvs_embedded_vs.fxo
 shaders/d3d11/geom_drawregion_curved_vs.fxo
-shaders/d3d11/geom_drawregion_ptnorm_curved_uvs_embedded_vs.fxo
-shaders/d3d11/geom_drawregion_ptnorm_curved_vs.fxo
-shaders/d3d11/geom_drawregion_ptnorm_uvs_embedded_vs.fxo
-shaders/d3d11/geom_drawregion_ptnorm_vs.fxo
+shaders/d3d11/geom_drawregion_reflect_curved_uvs_embedded_vs.fxo
+shaders/d3d11/geom_drawregion_reflect_curved_vs.fxo
+shaders/d3d11/geom_drawregion_reflect_uvs_embedded_vs.fxo
+shaders/d3d11/geom_drawregion_reflect_vs.fxo
 shaders/d3d11/geom_drawregion_uvs_embedded_vs.fxo
 shaders/d3d11/geom_drawregion_vs.fxo
 shaders/d3d11/geom_floor_auroralit_vs.fxo
 shaders/d3d11/geom_floor_edge_vs.fxo
-shaders/d3d11/geom_floor_vs.fxo
+shaders/d3d11/geom_floor_reflect_vs.fxo
 shaders/d3d11/geom_fresnel_vs.fxo
 shaders/d3d11/geom_motes_vs.fxo
 shaders/d3d11/geom_playspace_drawing_area_vs.fxo
-shaders/d3d11/geom_ptnorm_curved_uvs_embedded_vs.fxo
-shaders/d3d11/geom_ptnorm_curved_vs.fxo
 shaders/d3d11/geom_ptnorm_ortho_out_vs.fxo
-shaders/d3d11/geom_ptnorm_uvs_embedded_vs.fxo
-shaders/d3d11/geom_ptnorm_vs.fxo
+shaders/d3d11/geom_reflect_curved_uvs_embedded_vs.fxo
+shaders/d3d11/geom_reflect_curved_vs.fxo
+shaders/d3d11/geom_reflect_uvs_embedded_vs.fxo
+shaders/d3d11/geom_reflect_vs.fxo
 shaders/d3d11/geom_spherical_vs.fxo
 shaders/d3d11/geom_tan_vs.fxo
 shaders/d3d11/geom_uvs_embedded_vs.fxo
@@ -8312,6 +8333,7 @@ shaders/vulkan/distort_geom_drawregion_simplified_gamma_ps.spv
 shaders/vulkan/distort_geom_drawregion_simplified_ps.spv
 shaders/vulkan/distort_geom_drawregion_simplified_reflect_ps.spv
 shaders/vulkan/distort_geom_floor_aa_ps.spv
+shaders/vulkan/distort_geom_floor_auroralit_aa_ps.spv
 shaders/vulkan/distort_geom_floor_auroralit_ps.spv
 shaders/vulkan/distort_geom_floor_ps.spv
 shaders/vulkan/distort_geom_floor_reflect_aa_ps.spv
@@ -8416,23 +8438,23 @@ shaders/vulkan/geom_curved_uvs_embedded_vs.spv
 shaders/vulkan/geom_curved_vs.spv
 shaders/vulkan/geom_drawregion_curved_uvs_embedded_vs.spv
 shaders/vulkan/geom_drawregion_curved_vs.spv
-shaders/vulkan/geom_drawregion_ptnorm_curved_uvs_embedded_vs.spv
-shaders/vulkan/geom_drawregion_ptnorm_curved_vs.spv
-shaders/vulkan/geom_drawregion_ptnorm_uvs_embedded_vs.spv
-shaders/vulkan/geom_drawregion_ptnorm_vs.spv
+shaders/vulkan/geom_drawregion_reflect_curved_uvs_embedded_vs.spv
+shaders/vulkan/geom_drawregion_reflect_curved_vs.spv
+shaders/vulkan/geom_drawregion_reflect_uvs_embedded_vs.spv
+shaders/vulkan/geom_drawregion_reflect_vs.spv
 shaders/vulkan/geom_drawregion_uvs_embedded_vs.spv
 shaders/vulkan/geom_drawregion_vs.spv
 shaders/vulkan/geom_floor_auroralit_vs.spv
 shaders/vulkan/geom_floor_edge_vs.spv
-shaders/vulkan/geom_floor_vs.spv
+shaders/vulkan/geom_floor_reflect_vs.spv
 shaders/vulkan/geom_fresnel_vs.spv
 shaders/vulkan/geom_motes_vs.spv
 shaders/vulkan/geom_playspace_drawing_area_vs.spv
-shaders/vulkan/geom_ptnorm_curved_uvs_embedded_vs.spv
-shaders/vulkan/geom_ptnorm_curved_vs.spv
 shaders/vulkan/geom_ptnorm_ortho_out_vs.spv
-shaders/vulkan/geom_ptnorm_uvs_embedded_vs.spv
-shaders/vulkan/geom_ptnorm_vs.spv
+shaders/vulkan/geom_reflect_curved_uvs_embedded_vs.spv
+shaders/vulkan/geom_reflect_curved_vs.spv
+shaders/vulkan/geom_reflect_uvs_embedded_vs.spv
+shaders/vulkan/geom_reflect_vs.spv
 shaders/vulkan/geom_spherical_vs.spv
 shaders/vulkan/geom_tan_vs.spv
 shaders/vulkan/geom_uvs_embedded_vs.spv
@@ -8570,6 +8592,9 @@ startCompositorFromAppLaunch
 startDashboardFromAppLaunch
 startMonitorFromAppLaunch
 startup
+startup_app_id
+startup_app_type
+startup_exe_name
 startup_reason
 startupshutdown_settings
 state
@@ -8734,6 +8759,7 @@ system.messageoverlay.clientpid.%d
 system.systemui
 system.vrresources
 system.window.
+system_panel_interaction_mode
 tRNS after IDAT
 tRNS before PLTE
 tRNS with alpha
@@ -9737,6 +9763,7 @@ xrCreateInstance error: attempted to enable XR_FB_foveation_vulkan without enabl
 xrCreateInstance error: extension unsupported %s\n
 xrCreateInstance error: failed to create instance\n
 xrCreateInstance error: maximum 1 instance\n
+xrCreateInstance: Application is requesting the following extensions:
 xrCreateReferenceSpace
 xrCreateRenderModelAssetEXT
 xrCreateRenderModelEXT

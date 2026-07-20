@@ -131,6 +131,7 @@ $\n k_EProtoServiceTypeSteamMessages
 %3.1fms Wt
 %6.3f mbps %3d FPS\n
 %F-%H-%M-%S
+%Y-%m-%d %H:%M:%S %z (%Z)
 %Y-%m-%d-%p_%I_%M_%S
 %a %b %d %H:%M:%S %Y
 %a %b %d %Y %H:%M:%S.%%06u
@@ -141,6 +142,7 @@ $\n k_EProtoServiceTypeSteamMessages
 %s %s startup with PID=%u, config=%s, runtime=%s, arch=%s\n
 %s: __pos (which is %zu) > this->size() (which is %zu)
 %u of %u datalinks failed to initialize. Returning the last failure.
+%u,%u,%u,%u,%u,%u,%u,%u,%u,%u,%u,%u,%d,%d,%d,%d,%u,%u,%u,%u,%d\n
 &'()*56789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
 ' is not a number.
 ' property is missing
@@ -240,7 +242,7 @@ $\n k_EProtoServiceTypeSteamMessages
 *ZN9SVLServer4InitEvEUl16ValueTransportIDbE11_
 *ZN9SVLServer4InitEvEUl16ValueTransportIDbE12_
 *ZN9SVLServer4InitEvEUl16ValueTransportIDbE13_
-*ZN9SVLServer4InitEvEUl16ValueTransportIDbE7_
+*ZN9SVLServer4InitEvEUl16ValueTransportIDbE14_
 *ZN9SVLServer4InitEvEUl16ValueTransportIDbE8_
 *ZN9SVLServer4InitEvEUl16ValueTransportIDbE9_
 *ZN9SVLServer4InitEvEUlRKN4Json5ValueEE0_
@@ -250,6 +252,7 @@ $\n k_EProtoServiceTypeSteamMessages
 *ZN9SVLServer4InitEvEUlRKN4Json5ValueEE4_
 *ZN9SVLServer4InitEvEUlRKN4Json5ValueEE5_
 *ZN9SVLServer4InitEvEUlRKN4Json5ValueEE6_
+*ZN9SVLServer4InitEvEUlRKN4Json5ValueEE7_
 *ZN9SVLServer4InitEvEUlRKN4Json5ValueEE_
 *\n&k_EProtoServiceTypeVRGamepadUIMessages
 , binary size = 
@@ -283,6 +286,7 @@ $\n k_EProtoServiceTypeSteamMessages
 .EProtoServiceType: k_EProtoServiceTypeSteamMessages:D\n
 .PLACEHOLDER_VALUE
 .config
+.csv
 .dummy
 .foo = value".
 .google.protobuf.EnumOptions
@@ -296,6 +300,8 @@ $\n k_EProtoServiceTypeSteamMessages
 .google.protobuf.ServiceOptions
 .google.protobuf.ServiceOptions"
 .google.protobuf.SourceCodeInfo"
+.h265
+.json
 .placeholder.proto
 .previous.txt
 .txt
@@ -316,6 +322,7 @@ $\n k_EProtoServiceTypeSteamMessages
 /data/src/common/generated_proto/steammessages_unified_base.steamclient.pb.cc
 /data/src/common/generated_proto/vr_vrlink.pb.cc
 /data/src/common/generated_proto/vrshared_base.pb.cc
+/data/src/common/generated_proto/vrshared_vrgamepadui_common.pb.cc
 /data/src/common/vrcommon/animation/animresourcemanager.cpp
 /data/src/common/vrcommon/vrmailbox.cpp
 /data/src/common/vrcommon/vrrenderer/sharedresource_linux.cpp
@@ -326,9 +333,9 @@ $\n k_EProtoServiceTypeSteamMessages
 /data/src/thirdparty/protobuf-2.6.1/src/google/protobuf/repeated_field.h
 /data/src/vrlink/common/SVLFEC.cpp:1078
 /data/src/vrlink/common/SVLFEC.cpp:761
-/data/src/vrlink/driver_vrlink/hmd.cpp:2483
-/data/src/vrlink/driver_vrlink/hmd.cpp:2832
-/data/src/vrlink/driver_vrlink/hmd.cpp:2944
+/data/src/vrlink/driver_vrlink/hmd.cpp:2499
+/data/src/vrlink/driver_vrlink/hmd.cpp:2848
+/data/src/vrlink/driver_vrlink/hmd.cpp:2960
 /data/src/vrlink/driver_vrlink/hmdvulkan.cpp
 /data/src/vrlink/driver_vrlink/steamvrlink.cpp
 /data/src/vrlink/driver_vrlink/videovulkan.cpp
@@ -488,7 +495,10 @@ $\n k_EProtoServiceTypeSteamMessages
 /sys/kernel/debug/tracing/trace_marker
 /sys/kernel/tracing/trace_marker
 /tmp/svl_val_errors.txt
-/tmp/vrlink_debug.h265
+/tmp/vrlink_aftm_
+/tmp/vrlink_bitstream_
+/tmp/vrlink_bytelog_
+/tmp/vrlink_verboselog_
 /tracking/eye/CenterVecFull
 /tracking/eye/EyesClosedAmount
 /transferlatencyms
@@ -693,8 +703,6 @@ C* google::protobuf::internal::scoped_ptr<C>::operator->() const [with C = googl
 C* google::protobuf::internal::scoped_ptr<C>::operator->() const [with C = google::protobuf::DynamicMessageFactory::PrototypeMap]
 C* google::protobuf::internal::scoped_ptr<C>::operator->() const [with C = google::protobuf::Message]
 C* google::protobuf::internal::scoped_ptr<C>::operator->() const [with C = google::protobuf::UnknownFieldSet]
-C:\temp\recentlog_
-C:\temp\vrlink_verboselog.json
 CAnimResource
 CAudioJitterBuffer fade in %d %d\n
 CAudioJitterBuffer fade out %d %d\n
@@ -938,8 +946,10 @@ DeviceType %s\n
 Disconnected VRLink Headset
 Don't lookup extension types if they aren't present (1). 
 Don't lookup extension types if they aren't present (2). 
-Dump Frame Log to C:\temp\recentlog.tsv
+Dump CSV %s
+Dump H265 %s
 Dump Hist
+Dump byte log to /tmp/
 Duplicate key: '
 ENABLE_VULKAN_RENDERDOC_CAPTURE
 EProtoExecutionSite
@@ -1329,6 +1339,7 @@ JSON string too short.\n
 January
 July
 June
+K-c)Q
 KHR_audio
 KHR_lights_punctual
 Key setup failure in transport subsystem. RX Status: %d
@@ -1582,7 +1593,6 @@ Orthographic camera description not found.
 OrthographicCamera
 Other Encoder Sessions:
 Out of thread local storage!\n
-P?s8
 PFSsRKSsPvE
 PFbPKSsS0_PKN8tinygltf5ImageEbPKNS1_11FsCallbacksEPKNS1_12URICallbacksEPSsPvE
 PFbPN8tinygltf5ImageEiPSsS2_iiPKhiPvE
@@ -1621,6 +1631,7 @@ Pre-existing XClassHint\n
 PreC %4.1fms
 PreH %4.1fms
 Present
+Present ID,WGP Release,App Submit,Encode Begin,Encode End,Send Start,Send Done,Predicted Display,Receive,Decode,Submit Illumination,Decode Query,Run Start At WGP Degate,Ping Time At Send Start,Filter Ping Time At Send Start,Upstream Ping At Send Start,Receive Time (remote),Decode Time (remote),Submit Illumination (remote),Decode Query (remote),TX ID\n
 Primitive
 Process %d failed to shm_open %s: %d\n
 ProcessEvent
@@ -1956,6 +1967,7 @@ To google::protobuf::internal::down_cast(From*) [with To = const google::protobu
 To google::protobuf::internal::down_cast(From*) [with To = google::protobuf::Message*; From = google::protobuf::MessageLite]
 Toggle Cross in center of image.
 Toggle Eye Filtering.
+Toggle dumping H265 bitstream to /tmp/
 Toggle foveated transmission (eye tracking).
 Too short data size for glTF Binary.
 TracerPid:
@@ -1986,6 +1998,7 @@ Unable to create shared memory %s for IPC client\n
 Unable to create shared mutex %s for IPC client\n
 Unable to create shared state %s because namespace wasn't available\n
 Unable to determine VR Path Registry filename
+Unable to open AFTM CSV file: %s
 Unable to open svl/driver device mailbox
 Unable to parse 
 Unable to parse token length
@@ -2203,6 +2216,7 @@ Zjz\v
 [HMDVulkan]    imageType: %d
 [HMDVulkan]    imageUsageFlags: %d
 [HMDVulkan]  Created VkDevice with Compute Queue Family: %d and Video Encode Queue Family: %d.
+[HMDVulkan] %d physical devices available
 [HMDVulkan] %s
 [HMDVulkan] %s: unknown vulkan message severity
 [HMDVulkan] AcquireSync: Couldn't find a backbuffer to use! Waiting...
@@ -2245,6 +2259,7 @@ Zjz\v
 [HMDVulkan] Failed to load shader files
 [HMDVulkan] Failed to setup debug utils! %x
 [HMDVulkan] Failed to setup encoder... Exiting...
+[HMDVulkan] Found %d candidate devices
 [HMDVulkan] Found dedicated async compute queue
 [HMDVulkan] Found no discrete GPUs, trying integrated GPUs...
 [HMDVulkan] Found regular graphics queue!
@@ -2257,8 +2272,8 @@ Zjz\v
 [HMDVulkan] Oh no! There's no CVRIPCResourceManager.\n
 [HMDVulkan] Rejecting Nvidia driver '%s' because it is older than 575.64.5
 [HMDVulkan] Rejecting RADV driver '%s' because it is older than 25.2.1
-[HMDVulkan] Rejecting driver '%s' as it does not support HEVC encoding
-[HMDVulkan] Rejecting driver '%s' as it was compiled without H265 support
+[HMDVulkan] Rejecting driver '%s' as it does not seem to support HEVC encoding
+[HMDVulkan] Rejecting driver '%s' as it was explicitly compiled without H265 support
 [HMDVulkan] Using device '%s' with driver '%s'
 [HMDVulkan] VRLINK_VK DEBUG(%s): %s
 [HMDVulkan] VRSystem adapter LUID set to 0x%lx
@@ -2345,6 +2360,7 @@ Zjz\v
 [lazy = true] can only be specified for submessage fields.
 [libprotobuf %s %s:%d] %s\n
 [packed = true] can only be specified for repeated primitive fields.
+[videoenc] Received keyframe, beginning bitstream dump
 \%03o
 \U%08x
 \n    Actual    : 
@@ -2400,8 +2416,9 @@ Zjz\v
 \t"logVersion" : 1,\n
 \t"networkBandwidthTarget" : %f,\n
 \t"networkBandwidthTest" : "%s",\n
-\t"nowTS" : %u,\n
+\t"nowStr" : "%s",\n
 \t"nowUS" : %llu,\n
+\t"realtimeUS" : %llu,\n
 \t"remoteVersion" : %d,\n
 \t"thisVersion" : %d,\n
 \t"variables" : [\n
@@ -3115,6 +3132,7 @@ lm_haptic
 locale::facet::_S_create_c_locale name not valid
 localeconv
 localtime
+localtime_r
 location
 logf
 loop
@@ -3624,7 +3642,7 @@ transaction clone for operator new[](unsigned long)
 translation
 true
 true literal
-tsFrameTimeAbsolute\tWire\tEncode\tFEC\tXPort\tSound\tRetry\tLogic\tNote\tExceptions\tMCS\tDbgWait\tQThrottle\tTimeSinceLastWGPMS\tEstimatedPingMS\tExpectedPingMS\tX\tY\tZ\tW\tX\tY\tZ\ttEncodeTimeMS\nFramesToThrottle\nRemapTimeMS\nStartEncMS\n
+tsFrameTimeAbsolute\tWire\tEncode\tFEC\tXPort\tSound\tRetry\tLogic\tNote\tVTE\tExceptions\tMCS\tDbgWait\tQThrottle\tTimeSinceLastWGPMS\tEstimatedPingMS\tExpectedPingMS\tpX\tpY\tpZ\tqW\tqX\tqY\tqZ\ttEncodeTimeMS\tFramesToThrottle\tRemapTimeMS\tStartEncMS\n
 tsLastWGP
 txTimeMS
 type
@@ -4462,6 +4480,7 @@ vrlink-sink
 vrlink-source
 vrlink_
 vrlink_debug.json
+vrlink_focus_dashboard_bar_request
 vrlink_frame_docklocation_request
 vrlink_microphone
 vrlink_output

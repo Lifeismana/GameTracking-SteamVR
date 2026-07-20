@@ -283,6 +283,42 @@
 					},
 					"mode": "button",
 					"path": "/user/hand/right/input/trigger"
+				},
+				{
+					"inputs": {
+						"click": {
+							"output": "/actions/lasermouse_secondary/in/switchlaserhand"
+						}
+					},
+					"mode": "button",
+					"path": "/user/hand/left/input/bumper"
+				},
+				{
+					"inputs": {
+						"click": {
+							"output": "/actions/lasermouse_secondary/in/switchlaserhand"
+						}
+					},
+					"mode": "button",
+					"path": "/user/hand/right/input/bumper"
+				},
+				{
+					"inputs": {
+						"click": {
+							"output": "/actions/lasermouse_secondary/in/switchlaserhand"
+						}
+					},
+					"mode": "trigger",
+					"path": "/user/hand/left/input/grip"
+				},
+				{
+					"inputs": {
+						"click": {
+							"output": "/actions/lasermouse_secondary/in/switchlaserhand"
+						}
+					},
+					"mode": "trigger",
+					"path": "/user/hand/right/input/grip"
 				}
 			]
 		},
@@ -359,6 +395,32 @@
 						],
 						[
 							"/user/hand/right/input/trigger",
+							"click"
+						]
+					],
+					"output": "/actions/system/in/TakeScreenshot"
+				},
+				{
+					"inputs": [
+						[
+							"/user/hand/left/input/system",
+							"held"
+						],
+						[
+							"/user/hand/right/input/trigger",
+							"click"
+						]
+					],
+					"output": "/actions/system/in/TakeScreenshot"
+				},
+				{
+					"inputs": [
+						[
+							"/user/hand/right/input/system",
+							"held"
+						],
+						[
+							"/user/hand/left/input/trigger",
 							"click"
 						]
 					],

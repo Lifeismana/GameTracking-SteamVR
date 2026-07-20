@@ -256,7 +256,7 @@ $Ib?s
 1#QNAN
 1#SNAN
 11Y@
-126.0.0-HEAD.3151+g8d97708+chromium-126.0.6478.183
+126.0.0-HEAD.3160+g0042b35+chromium-126.0.6478.183
 126.0.6478.183
 2\n0\tP
 2\vp8
@@ -287,6 +287,7 @@ $Ib?s
 =cQ6
 =e2m
 =imb;D
+>)LLD PDB.
 >cQ6
 >jtm}S
 ?..\..\third_party\crashpad\crashpad\util\file\file_reader.cc
@@ -591,7 +592,6 @@ LCIDToLocaleName
 LCMapStringEx
 LCMapStringW
 LINEAR_HISTOGRAM
-LLD PDB.
 LOG_FATAL
 LWG>
 LWW>
@@ -700,7 +700,7 @@ Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
 QueryThreadCycleTime
-RSDS
+RSDSMtN
 R\n0\tP
 R\n0\tp
 RaiseException

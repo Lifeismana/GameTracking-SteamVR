@@ -185,6 +185,7 @@
 .tls$
 .tls$ZZZ
 .xdata$x
+/3cib
 /P8i
 /yQA
 0x1105xxxx
@@ -547,7 +548,7 @@ Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
 R1h58
-RSDSi:
+RSDS
 Radio version:      
 RaiseException
 ReadFile

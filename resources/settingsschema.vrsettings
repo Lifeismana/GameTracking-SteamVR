@@ -4,7 +4,6 @@
 		"controller":	"general_settings",
 		"values": [
 			 { "name": "/settings/notifications/DoNotDisturb", "label": "#Settings_NotificationDoNotDisturb_Text", "text": "#Settings_General_DoNotDisturb_Text" }
-			,{ "name": "/settings/steamvr/performanceProfile", "type": "string" }
 			,{ "name": "/settings/steamvr/nightmode", "type": "bool" }
 			,{ "name": "/settings/steamvr/analogGain", "type": "float" }
 			,{ "name": "/settings/steamvr/allowDisplayLockedMode", "type": "bool" }
@@ -12,10 +11,8 @@
 
 			,{ "name": "/settings/steamvr/preferredRefreshRate", "type": "float" }
 			,{ "name": "/settings/steamvr/motionSmoothing", "type": "bool" }
-			,{ "name": "/settings/steamvr/framesToThrottle", "type": "bool" }
 			,{ "name": "/settings/steamvr/supersampleManualOverride", "type": "bool" }
 			,{ "name": "/settings/steamvr/supersampleScale", "type": "float" }
-			,{ "name": "/settings/steamvr/fovScale", "type": "float" }
 
 			,{ "name": "/settings/LastKnown/HMDManufacturer", "type": "string" }
 			,{ "name": "/settings/LastKnown/HMDModel", "type": "string" }
@@ -132,15 +129,12 @@
 		"title":		"#Settings_SectionTitle_Video",
 		"controller":	"video_settings",
 		"values": [
-			 { "name": "/settings/steamvr/performanceProfile", "type": "string" }
-			,{ "name": "/settings/steamvr/preferredRefreshRate", "type": "float" }
+			 { "name": "/settings/steamvr/preferredRefreshRate", "type": "float" }
 			,{ "name": "/settings/steamvr/analogGain", "type": "float" }
 			,{ "name": "/settings/steamvr/nightmode", "type": "bool" }
 			,{ "name": "/settings/steamvr/motionSmoothing", "type": "bool" }
-			,{ "name": "/settings/steamvr/framesToThrottle", "type": "bool" }
 			,{ "name": "/settings/steamvr/supersampleManualOverride", "type": "bool" }
 			,{ "name": "/settings/steamvr/supersampleScale", "type": "float" }
-			,{ "name": "/settings/steamvr/fovScale", "type": "float" }
 			,{ "name": "/settings/power/pauseCompositorOnStandby",			"control": "toggle",		"label": "#Settings_PauseOnStandby" }
 			,{ "name": "/settings/perfcheck/gpuBusMonitoring",				"control": "toggle",		"label": "#Settings_GpuBusMonitoring" }
 			,{ "name": "/settings/steamvr/allowSupersampleFiltering",		"control": "toggle",		"label": "#Settings_Advanced_AllowSupersampleFiltering" }

@@ -5,6 +5,7 @@ shopt -s failglob
 set -u
 
 BASENAME="$(basename "$0")"
+SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
 
 QUIET="${QUIET:-1}"
 
@@ -31,9 +32,11 @@ if [ -d "$STEAMVR_TOOLSDIR/../sdk" ]; then
 	SDKDIR=$(cd "$STEAMVR_TOOLSDIR/../sdk"; pwd)
 fi
 
-VRSTARTUP="$STEAMVR_TOOLSDIR/bin/linux64/vrstartup"
-QT_DIR="$STEAMVR_TOOLSDIR/bin/linux64/qt"
-export LD_LIBRARY_PATH="$(pwd)${SDKDIR+:$SDKDIR/bin/linux64}:$QT_DIR/lib:$STEAMVR_TOOLSDIR/bin/linux64${LD_LIBRARY_PATH+:$LD_LIBRARY_PATH}"
+# linux64-only for now
+VRSTARTUP_PLATFORM=linux64
+VRSTARTUP="$STEAMVR_TOOLSDIR/bin/${VRSTARTUP_PLATFORM}/vrstartup"
+QT_DIR="$STEAMVR_TOOLSDIR/bin/${VRSTARTUP_PLATFORM}/qt"
+export LD_LIBRARY_PATH="${SCRIPT_DIR}/${VRSTARTUP_PLATFORM}${SDKDIR+:$SDKDIR/bin/${VRSTARTUP_PLATFORM}}:$QT_DIR/lib:$STEAMVR_TOOLSDIR/bin/${VRSTARTUP_PLATFORM}${LD_LIBRARY_PATH+:$LD_LIBRARY_PATH}"
 
 if [[ -z "${SRT_LAUNCHER_SERVICE_ALONGSIDE_STEAM:-}" ]]; then
 	if command -v steam-runtime-launch-client &>/dev/null; then

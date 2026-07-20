@@ -1,4 +1,4 @@
-var CLSTAMP = "10770080";
+var CLSTAMP = "10833373";
 (() => {
   "use strict";
   var e,
@@ -32,7 +32,7 @@ var CLSTAMP = "10770080";
           MQ: () => h.MQ,
           MV: () => D.MV,
           N: () => o.e,
-          N1: () => p.N,
+          N1: () => v.N,
           NH: () => a.NH,
           O5: () => c.O,
           O6: () => a.O6,
@@ -71,14 +71,17 @@ var CLSTAMP = "10770080";
           fD: () => I.fD,
           fk: () => I.fk,
           gN: () => D.gN,
+          hq: () => I.hq,
           k2: () => D.k2,
           kG: () => D.kG,
+          ke: () => I.ke,
           ku: () => D.ku,
-          lq: () => v.l,
+          lq: () => p.l,
           m$: () => _.m,
           mH: () => g.mH,
           mX: () => r.mX,
           mu: () => D.mu,
+          mw: () => h.mw,
           nX: () => d.nX,
           ne: () => D.ne,
           nq: () => O.n,
@@ -97,6 +100,7 @@ var CLSTAMP = "10770080";
           uC: () => b.u,
           uS: () => i.u,
           vx: () => a.vx,
+          wB: () => I.wB,
           xO: () => h.xO,
           yW: () => I.yW,
         });
@@ -111,8 +115,8 @@ var CLSTAMP = "10770080";
           m = n(3496),
           c = n(5178),
           g = (n(428), n(9011), n(7350)),
-          v = n(6847),
-          p = n(5227),
+          p = n(6847),
+          v = n(5227),
           y = (n(10), n(1808)),
           h = n(7019),
           _ = (n(1988), n(2527), n(9864)),
@@ -193,7 +197,7 @@ var CLSTAMP = "10770080";
         let s = 0,
           u = 0,
           d = 4294967295;
-        var m, c, g, v, p, y, h, _, f, O, S, R, b, C, D, I, P, k, M;
+        var m, c, g, p, v, y, h, _, f, O, S, R, b, C, D, I, P, k, M;
         !(function (e) {
           (e[(e.None = 0)] = "None"),
             (e[(e.Shown = 1)] = "Shown"),
@@ -227,12 +231,12 @@ var CLSTAMP = "10770080";
               (e[(e.GenericTracker = 3)] = "GenericTracker"),
               (e[(e.TrackingReference = 4)] = "TrackingReference"),
               (e[(e.DisplayRedirect = 5)] = "DisplayRedirect");
-          })(v || (v = {})),
+          })(p || (p = {})),
           (function (e) {
             (e[(e.Unknown = 0)] = "Unknown"),
               (e[(e.NVIDIA = 1)] = "NVIDIA"),
               (e[(e.AMD = 2)] = "AMD");
-          })(p || (p = {})),
+          })(v || (v = {})),
           (function (e) {
             (e[(e.None = 0)] = "None"),
               (e[(e.Starting = 1)] = "Starting"),
@@ -273,8 +277,9 @@ var CLSTAMP = "10770080";
               (e[(e.DriverRequestsReducedRendering = 64)] =
                 "DriverRequestsReducedRendering"),
               (e[(e.DashboardTutorial = 128)] = "DashboardTutorial"),
-              (e[(e.GamepadMode = 512)] = "GamepadMode"),
-              (e[(e.SystemKeyboardPrivacy = 1024)] = "SystemKeyboardPrivacy");
+              (e[(e.GamepadMode_Left = 512)] = "GamepadMode_Left"),
+              (e[(e.SystemKeyboardPrivacy = 1024)] = "SystemKeyboardPrivacy"),
+              (e[(e.GamepadMode_Right = 2048)] = "GamepadMode_Right");
           })(O || (O = {})),
           (function (e) {
             (e[(e.None = 0)] = "None"),
@@ -355,14 +360,26 @@ var CLSTAMP = "10770080";
               (e[(e.Standing = 4)] = "Standing");
           })(M || (M = {}));
       },
+      6185: (e, t, n) => {
+        n.d(t, { l: () => i });
+        var r = n(6540);
+        let a = 0;
+        function i() {
+          const e = r.useRef(void 0);
+          return (
+            void 0 === e.current && (e.current = "svgid_" + a++),
+            [e.current, `url(#${e.current})`]
+          );
+        }
+      },
       9383: (e, t, n) => {
         n.d(t, {
-          CL: () => R,
+          CL: () => b,
           JP: () => r,
-          JQ: () => S,
-          P9: () => O,
-          gU: () => b,
-          sj: () => f,
+          JQ: () => R,
+          P9: () => S,
+          gU: () => C,
+          sj: () => O,
         });
         var r,
           a = n(1635),
@@ -375,15 +392,16 @@ var CLSTAMP = "10770080";
           m = n(7727),
           c = n(3779),
           g = n(1651),
-          v = n(9961),
-          p = n(776),
+          p = n(9961),
+          v = n(776),
           y = n(4007),
           h = n(2741),
-          _ = n(1391);
+          _ = n(1391),
+          f = n(3676);
         !(function (e) {
           (e[(e.Alive = 0)] = "Alive"), (e[(e.Destroyed = 1)] = "Destroyed");
         })(r || (r = {}));
-        class f {
+        class O {
           get OnDestroyed() {
             return this.m_OnDestroyed;
           }
@@ -431,12 +449,12 @@ var CLSTAMP = "10770080";
               (this.m_sSummonOverlayKey = void 0),
               (this.m_bExternalDashboardOverlay = !1),
               (this.m_mainPanel = void 0),
-              (this.Log = new p.wd("Frame", () => this.logPrefix)),
+              (this.Log = new v.wd("Frame", () => this.logPrefix)),
               (this.m_setComponents = new Set()),
               (this.keyboard = new c.Y(this)),
               (this.sharing = void 0),
-              (this.size = new v.wP(this)),
-              (this.focus = new _.v(this)),
+              (this.size = new p.wP(this)),
+              (this.inputFocus = new _.v(this)),
               (this.m_Frame = e),
               (this.m_unPageID = t),
               (this.props = n),
@@ -510,42 +528,62 @@ var CLSTAMP = "10770080";
               }
             }
           }
+          get isSystemPanel() {
+            return (
+              this.inputFocus.componentProps.steamInputAppID == u.qx ||
+              (0, f.n)(this.inputFocus.componentProps.steamInputAppID) ||
+              (this.m_mainPanel && !this.m_mainPanel.isExternal)
+            );
+          }
+          get shouldShowMinimalDecorations() {
+            return (
+              null != this.summonOverlayKey &&
+              y.Q.GetOverlayFlag(this.summonOverlayKey, 67108864)
+            );
+          }
         }
-        (0, a.Cg)([i.observable], f.prototype, "props", void 0),
-          (0, a.Cg)([i.observable], f.prototype, "m_eState", void 0),
-          (0, a.Cg)([i.observable], f.prototype, "m_sSummonOverlayKey", void 0),
+        (0, a.Cg)([i.observable], O.prototype, "props", void 0),
+          (0, a.Cg)([i.observable], O.prototype, "m_eState", void 0),
+          (0, a.Cg)([i.observable], O.prototype, "m_sSummonOverlayKey", void 0),
           (0, a.Cg)(
             [i.observable],
-            f.prototype,
+            O.prototype,
             "m_bExternalDashboardOverlay",
             void 0,
           ),
-          (0, a.Cg)([i.observable], f.prototype, "m_mainPanel", void 0),
-          (0, a.Cg)([i.computed], f.prototype, "state", null),
-          (0, a.Cg)([i.computed], f.prototype, "summonOverlayKey", null),
+          (0, a.Cg)([i.observable], O.prototype, "m_mainPanel", void 0),
+          (0, a.Cg)([i.computed], O.prototype, "state", null),
+          (0, a.Cg)([i.computed], O.prototype, "summonOverlayKey", null),
           (0, a.Cg)(
             [i.computed],
-            f.prototype,
+            O.prototype,
             "isExternalDashboardOverlay",
             null,
           ),
-          (0, a.Cg)([i.computed], f.prototype, "isActivePage", null),
-          (0, a.Cg)([i.computed], f.prototype, "isActiveAndVisiblePage", null),
-          (0, a.Cg)([i.computed], f.prototype, "mountableID", null),
-          (0, a.Cg)([i.computed], f.prototype, "latestContentSize", null),
-          (0, a.Cg)([i.computed], f.prototype, "logPrefix", null),
-          (0, a.Cg)([i.action], f.prototype, "DestroyPage", null),
-          (0, a.Cg)([i.action], f.prototype, "SetSummonOverlayKey", null),
+          (0, a.Cg)([i.computed], O.prototype, "isActivePage", null),
+          (0, a.Cg)([i.computed], O.prototype, "isActiveAndVisiblePage", null),
+          (0, a.Cg)([i.computed], O.prototype, "mountableID", null),
+          (0, a.Cg)([i.computed], O.prototype, "latestContentSize", null),
+          (0, a.Cg)([i.computed], O.prototype, "logPrefix", null),
+          (0, a.Cg)([i.action], O.prototype, "DestroyPage", null),
+          (0, a.Cg)([i.action], O.prototype, "SetSummonOverlayKey", null),
           (0, a.Cg)(
             [i.action],
-            f.prototype,
+            O.prototype,
             "SetIsExternalDashboardOverlay",
             null,
           ),
-          (0, a.Cg)([i.action], f.prototype, "SetMainPanel", null),
-          (0, a.Cg)([i.computed], f.prototype, "mainPanelID", null),
-          (0, a.Cg)([i.computed], f.prototype, "mainPanelSGID", null);
-        const O = s.forwardRef(function (e, t) {
+          (0, a.Cg)([i.action], O.prototype, "SetMainPanel", null),
+          (0, a.Cg)([i.computed], O.prototype, "mainPanelID", null),
+          (0, a.Cg)([i.computed], O.prototype, "mainPanelSGID", null),
+          (0, a.Cg)([i.computed], O.prototype, "isSystemPanel", null),
+          (0, a.Cg)(
+            [i.computed],
+            O.prototype,
+            "shouldShowMinimalDecorations",
+            null,
+          );
+        const S = s.forwardRef(function (e, t) {
             const { children: n, summonOverlayKey: r } = e,
               { frame: a } = (0, m.N)(),
               u = s.useMemo(() => a.CreatePage(e), [a]);
@@ -564,19 +602,19 @@ var CLSTAMP = "10770080";
               s.createElement(l.IS, { id: c }, n),
             );
           }),
-          S = s.forwardRef(function (e, t) {
+          R = s.forwardRef(function (e, t) {
             var n, r;
             const {
                 requireExternalOverlay: i = !0,
                 overlayKey: c,
                 componentProps: g,
               } = e,
-              v = (0, a.Tt)(e, [
+              p = (0, a.Tt)(e, [
                 "requireExternalOverlay",
                 "overlayKey",
                 "componentProps",
               ]),
-              { frame: p } = (0, m.N)(),
+              { frame: v } = (0, m.N)(),
               h = s.useCallback(
                 (e) => {
                   null == e || e.SetIsExternalDashboardOverlay(!0),
@@ -584,19 +622,19 @@ var CLSTAMP = "10770080";
                 },
                 [t],
               ),
-              _ = (0, o.q3)(() => p.curvature.curvatureTransformOriginID),
+              _ = (0, o.q3)(() => v.curvature.curvatureTransformOriginID),
               f = (0, o.q3)(() => y.Q.GetOverlayInfo(c)),
-              S =
+              O =
                 null !== (n = null == f ? void 0 : f.unFlags) && void 0 !== n
                   ? n
                   : 0,
-              R = (16 & S) > 0,
-              b = (1073741824 & S) > 0;
+              R = (16 & O) > 0,
+              b = (1073741824 & O) > 0;
             return i && !f
               ? null
               : s.createElement(
-                  O,
-                  Object.assign({}, v, {
+                  S,
+                  Object.assign({}, p, {
                     summonOverlayKey:
                       null !== (r = e.summonOverlayKey) && void 0 !== r ? r : c,
                     ref: h,
@@ -605,12 +643,12 @@ var CLSTAMP = "10770080";
                         { overlayKeyForKeyboardInput: c },
                         null == g ? void 0 : g.keyboard,
                       ),
-                      focus: Object.assign(
+                      inputFocus: Object.assign(
                         {
                           vrClientPID: R ? f.unClientPID : void 0,
                           steamInputAppID: b ? f.unSteamInputAppID : void 0,
                         },
-                        null == g ? void 0 : g.focus,
+                        null == g ? void 0 : g.inputFocus,
                       ),
                     }),
                   }),
@@ -619,15 +657,15 @@ var CLSTAMP = "10770080";
                     id: (0, l.nX)(u.cb, c) + "_CurvatureOrigin",
                     parent_id: _,
                   }),
-                  v.children,
+                  p.children,
                 );
           });
-        function R(e) {
+        function b(e) {
           const { page: t } = (0, m.N)();
           if ((0, o.q3)(() => (null == t ? void 0 : t.isActiveAndVisiblePage)))
             return s.createElement(s.Fragment, null, e.children);
         }
-        function b(e) {
+        function C(e) {
           const { frame: t, page: n } = (0, m.N)();
           if (t && n && !n.isExternalDashboardOverlay)
             return s.createElement(
@@ -655,8 +693,8 @@ var CLSTAMP = "10770080";
           m = n(5802),
           c = n(6646),
           g = n(6663),
-          v = n(1835),
-          p = n(4007),
+          p = n(1835),
+          v = n(4007),
           y = n(7813),
           h = n(9125),
           _ = n(6379),
@@ -681,8 +719,8 @@ var CLSTAMP = "10770080";
                 ]),
                   yield Promise.all([
                     O.m0.Init(!1),
-                    p.Q.Init(),
-                    v.SW.Init(),
+                    v.Q.Init(),
+                    p.SW.Init(),
                     _.c.Init(),
                   ]),
                   yield Promise.all([f.Mg.Init(!1)]);
@@ -773,7 +811,7 @@ var CLSTAMP = "10770080";
     })();
   var a = r.O(
     void 0,
-    [967, 991, 260, 305, 527, 170, 452, 797, 906, 554, 17],
+    [967, 991, 260, 305, 527, 170, 452, 797, 554, 906, 17],
     () => r(292),
   );
   a = r.O(a);

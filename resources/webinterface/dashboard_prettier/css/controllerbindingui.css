@@ -256,6 +256,72 @@
   path {
   stroke-width: 4.2857142857;
 }
+.framegamepadmodebutton_Container_2PgNr {
+  display: flex;
+}
+.framegamepadmodebutton_ButtonHitArea_2v1eJ {
+  padding: 20px;
+  display: flex;
+  gap: 20px;
+}
+.framegamepadmodebutton_ButtonHitArea_2v1eJ:first-child {
+  padding-left: 60px;
+}
+.framegamepadmodebutton_ButtonHitArea_2v1eJ:last-child {
+  padding-right: 60px;
+}
+.framegamepadmodebutton_ButtonPill_1ML_a {
+  text-transform: uppercase;
+  font-weight: 500;
+  background: #1a9fff;
+  background: #0056d6;
+  color: #fff;
+  border-radius: 9001px;
+  padding: .2em 1em;
+  display: flex;
+  white-space: nowrap;
+  align-items: center;
+  gap: .5ch;
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.25);
+  animation: framegamepadmodebutton_slide-up_ju26z .2s;
+  animation-fill-mode: both;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-out;
+}
+.framegamepadmodebutton_ButtonHitArea_2v1eJ:not(
+    .framegamepadmodebutton_Disabled_2Grai
+  ):hover:not(:active)
+  .framegamepadmodebutton_ButtonPill_1ML_a {
+  background: #1a9fff;
+}
+.framegamepadmodebutton_ButtonHitArea_2v1eJ.framegamepadmodebutton_Disabled_2Grai
+  .framegamepadmodebutton_ButtonPill_1ML_a {
+  background: #3d4450;
+}
+.framegamepadmodebutton_ButtonPill_1ML_a
+  .framegamepadmodebutton_GlyphContainer_3xgmy {
+  width: 2ch;
+  margin-left: 1ch;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 1.15em;
+}
+.framegamepadmodebutton_ButtonPill_1ML_a
+  .framegamepadmodebutton_GlyphContainer_3xgmy
+  svg {
+  height: 100%;
+}
+@keyframes framegamepadmodebutton_slide-up_ju26z {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
 .guidedtour_steamframe_TourTooltipContainer_mmSdZ {
   display: flex;
   height: fit-content;
