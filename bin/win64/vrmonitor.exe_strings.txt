@@ -721,7 +721,6 @@ $\t?contains@QRectF@@QEBA_NAEBVQPointF@@@Z
 1!?widget@QTabWidget@@QEBAPEAVQWidget@@H@Z
 100%
 1000
-14:58:52
 1DoAcquireData()
 1DoInit()
 1DoParseString( const QString & )
@@ -1150,6 +1149,7 @@ $\t?contains@QRectF@@QEBA_NAEBVQPointF@@@Z
 1setDataScaleType(QCPAxis::ScaleType)
 1setGradient(QCPColorGradient)
 1updateStyle()
+22:07:48
 2DoInit()
 2DoShutdown()
 2PlaybackVolumeGainStatus( bool )
@@ -4601,7 +4601,7 @@ JN?metaObject@QMovie@@UEBAPEBUQMetaObject@@XZ
 J\n?drawForeground@QGraphicsScene@@MEAAXPEAVQPainter@@AEBVQRectF@@@Z
 J\r?indexOf@QString@@QEBAHVQChar@@HW4CaseSensitivity@Qt@@@Z
 J\t?brush@QPainter@@QEBAAEBVQBrush@@XZ
-Jul 17 2026
+Jul 20 2026
 K32EnumProcessModules
 K32EnumProcesses
 K32GetModuleBaseNameA
@@ -5835,7 +5835,7 @@ R?scaledSize@QMovie@@QEAA?AVQSize@@XZ
 R?screens@QGuiApplication@@SA?AV?$QList@PEAVQScreen@@@@XZ
 REFRESH
 RPCRT4.dll
-RSDS;
+RSDS96
 RSSI: %1\n
 R\v?find@QPlainTextEdit@@QEAA_NAEBVQString@@V?$QFlags@W4FindFlag@QTextDocument@@@@@Z
 R\vptU

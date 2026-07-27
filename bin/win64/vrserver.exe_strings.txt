@@ -1716,13 +1716,13 @@ $\n k_EProtoServiceTypeSteamMessages
 055@
 0b5@
 0d5@
+0i0@
 1.2.5
 1/2/4/8/16-bit only
 11 4 22 44 44 22 444444
 11eU%
 127.0.0.1
 127.0.0.1:
-14:58:52
 1A26b
 1\f514
 1e+9999
@@ -1731,6 +1731,7 @@ $\n k_EProtoServiceTypeSteamMessages
 2).google.protobuf.FileOptions.OptimizeMode:
 2*.google.protobuf.FieldDescriptorProto.Type
 2+.google.protobuf.FieldDescriptorProto.Label
+22:07:48
 258EAFA5-E914-47DA-95CA-C5AB0DC85B11
 4\f54d
 52F*
@@ -3333,7 +3334,7 @@ JSON Chunk end does not aligned to a 4-byte boundary.
 JSON parse error
 JSON string too short.\n
 JoysticksFound
-Jul 17 2026
+Jul 20 2026
 K32EnumProcesses
 K32GetProcessImageFileNameA
 KERNEL32.dll
@@ -3634,7 +3635,6 @@ PCI\VEN_%x&DEV_%x&SUBSYS_%x&REV_%x
 PC_%08llx
 PICT
 PID_
-PL0@
 PLACEHOLDER_VALUE
 PNG\r\n
 POST
@@ -7337,6 +7337,7 @@ pEnd > pBegin
 pMGConnect != nullptr
 pNewResource
 pNewResource->Load( absFilePath )
+pO0@
 pOutFormatCount MUST not be NULL.
 pOutModifierCount MUST not be NULL.
 pProcessId

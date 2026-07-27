@@ -41,6 +41,7 @@
 %s: Read config of %u bytes from [vid:%hx, pid:%hx] (%s) and inflated to %u bytes\n
 %s: Received short %d byte packet when expecting config\n
 %s: Unable to request config start from device\n
+&DQG
 *.bin
 *5KS
 , IMU susp: 
@@ -185,7 +186,6 @@
 .tls$
 .tls$ZZZ
 .xdata$x
-/3cib
 /P8i
 /yQA
 0x1105xxxx
@@ -548,7 +548,7 @@ Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
 R1h58
-RSDS
+RSDSZ
 Radio version:      
 RaiseException
 ReadFile

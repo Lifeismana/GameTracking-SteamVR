@@ -1167,12 +1167,12 @@ $\n k_EProtoServiceTypeSteamMessages
 0123456789ABCDEF
 0123456789ABCDEFundefined
 0123456789abcdef
+0\rPB
 0x%02x 
 1.2.5
 1.5.26
 1/2/4/8/16-bit only
 123456789
-14:58:52
 1A26b
 1e+9999
 1wsHp
@@ -1181,6 +1181,7 @@ $\n k_EProtoServiceTypeSteamMessages
 2*.google.protobuf.FieldDescriptorProto.Type
 2+.google.protobuf.FieldDescriptorProto.Label
 214l5
+22:07:48
 3333
 3333UUUU
 416.16
@@ -2793,7 +2794,7 @@ IsWorkstationLocked::IsRemoteSession unexpected response length %d != 1\n
 It shouldn't be possible to add a child twice because of move semantics
 JFIF
 Journaling %s\n
-Jul 17 2026
+Jul 20 2026
 KERNEL32.dll
 Kernel32.dll
 KillTimer
@@ -3293,6 +3294,8 @@ RENDERDOC_GetAPI
 RENDERDOC_GetAPI failed with code %d
 RPCRT4.dll
 RSDS
+R\npB
+R\vpB
 RaiseException
 Raw ideal render target scale = %.2f\n
 Reached an unintended state: CPPTYPE_MESSAGE
@@ -6112,6 +6115,7 @@ read past buffer
 read_fsr_settings
 realloc
 recordStats
+recordStatsRaw
 recvPerfStats
 redirectsDisplay
 reflect

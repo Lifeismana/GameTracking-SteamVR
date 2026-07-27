@@ -1339,7 +1339,6 @@ JSON string too short.\n
 January
 July
 June
-K-c)Q
 KHR_audio
 KHR_lights_punctual
 Key setup failure in transport subsystem. RX Status: %d

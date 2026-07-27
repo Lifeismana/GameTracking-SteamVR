@@ -798,6 +798,7 @@ openvrpaths.vrpath
 operator
 operator 
 operator"" 
+ow[yxR
 poll
 print
 pthread_mutex_lock

@@ -4953,6 +4953,7 @@ ZiKw
 Zjz\v
 [%s] %s file=%s
 [%s] %s=%s\n
+[8N0
 [Alloc] Created bitstream buffer = %p\n
 [Alloc] Created d3d11 texture = %p\n
 [Alloc] Created m_vpCompletionEvent %p\n
