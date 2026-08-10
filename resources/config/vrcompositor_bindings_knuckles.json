@@ -257,6 +257,11 @@
 						}
 					},
 					"mode": "button",
+					"parameters": {
+						"click_activate_threshold": "0.7",
+						"click_deactivate_threshold": "0.65",
+						"haptic_amplitude": "0"
+					},
 					"path": "/user/hand/left/input/trigger"
 				},
 				{
@@ -266,6 +271,11 @@
 						}
 					},
 					"mode": "button",
+					"parameters": {
+						"click_activate_threshold": "0.7",
+						"click_deactivate_threshold": "0.65",
+						"haptic_amplitude": "0"
+					},
 					"path": "/user/hand/right/input/trigger"
 				}
 			]
@@ -494,12 +504,12 @@
 				}
 			]
 		},
-		"/actions/roomsetup_floor": {
+		"/actions/roomsetup": {
 			"sources": [
 				{
 					"inputs": {
 						"position": {
-							"output": "/actions/roomsetup_floor/in/FloorFineAdjust"
+							"output": "/actions/roomsetup/in/FloorFineAdjust"
 						}
 					},
 					"mode": "joystick",
@@ -508,11 +518,47 @@
 				{
 					"inputs": {
 						"position": {
-							"output": "/actions/roomsetup_floor/in/FloorFineAdjust"
+							"output": "/actions/roomsetup/in/FloorFineAdjust"
 						}
 					},
 					"mode": "joystick",
 					"path": "/user/hand/right/input/thumbstick"
+				},
+				{
+					"inputs": {
+						"click": {
+							"output": "/actions/roomsetup/in/Accept"
+						}
+					},
+					"mode": "button",
+					"path": "/user/hand/left/input/a"
+				},
+				{
+					"inputs": {
+						"click": {
+							"output": "/actions/roomsetup/in/Back"
+						}
+					},
+					"mode": "button",
+					"path": "/user/hand/left/input/b"
+				},
+				{
+					"inputs": {
+						"click": {
+							"output": "/actions/roomsetup/in/Accept"
+						}
+					},
+					"mode": "button",
+					"path": "/user/hand/right/input/a"
+				},
+				{
+					"inputs": {
+						"click": {
+							"output": "/actions/roomsetup/in/Back"
+						}
+					},
+					"mode": "button",
+					"path": "/user/hand/right/input/b"
 				}
 			]
 		}

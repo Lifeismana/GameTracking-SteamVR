@@ -703,6 +703,7 @@ $tI(knN
 .?AV?$SteamPrivateInterfaceRegistration@VCVRSteamPrivate_026@@@@
 .?AV?$SteamPrivateInterfaceRegistration@VCVRSteamPrivate_027@@@@
 .?AV?$SteamPrivateInterfaceRegistration@VCVRSteamPrivate_028@@@@
+.?AV?$SteamPrivateInterfaceRegistration@VCVRSteamPrivate_029@@@@
 .?AV?$SystemInterfaceRegistration@VCHmdSystem_001@@@@
 .?AV?$SystemInterfaceRegistration@VCHmdSystem_004@@@@
 .?AV?$SystemInterfaceRegistration@VCVRClientCore_001@@@@
@@ -1297,6 +1298,7 @@ $tI(knN
 .?AVCVRSteamPrivate_026@@
 .?AVCVRSteamPrivate_027@@
 .?AVCVRSteamPrivate_028@@
+.?AVCVRSteamPrivate_029@@
 .?AVCVRSystemLatest@@
 .?AVCVRSystem_001@@
 .?AVCVRSystem_002@@
@@ -1453,6 +1455,7 @@ $tI(knN
 .?AVIVRSteamPrivate_027@vr@@
 .?AVIVRSteamPrivate_028@vr@@
 .?AVIVRSteamPrivate_029@vr@@
+.?AVIVRSteamPrivate_030@vr@@
 .?AVIVRSystem@vr@@
 .?AVIVRTrackedCamera@vr@@
 .?AVIVRTrackedCameraInternal@vr@@
@@ -1618,7 +1621,6 @@ $tI(knN
 /chaperone/state
 /click
 /controller_type/
-/dashboard_head_pose_from_standing
 /device_was_drawn
 /devices/htc/vive_tracker
 /dpad_
@@ -1978,13 +1980,13 @@ $tI(knN
 /vrgamepadui/steamvr/desktop_windows_remote
 /vrgamepadui/steamvr/desktop_windows_tx
 /vrgamepadui/steamvr/unified_dashboard_state_remote
+/vrgamepadui/steamvr/unified_lasermouse_state_remote
 /vrgamepadui/steamvr/vrlink_lasermouseactive_remote
 /vrgamepadui/steamvr/vrlink_lasermouseoverlay_remote
 /vrgamepadui/steamvr/vrlink_lasermouseoverlay_tx
+/vrgamepadui/steamvr/vrlink_lasermousestate_tx
+/vrlink/steamvr/remoteClientRefreshRate
 /vrlink_client_isSteamVR
-/vrlink_environment
-/vrlink_stream_active
-/vrlink_stream_packet_time
 /x/click
 /x/touch
 /y/click
@@ -1992,10 +1994,11 @@ $tI(knN
 0 width
 0-pixel image
 00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899
+00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899X
 0123456789ABCDEF
-0J>5
+0Da5
+0PD5
 0\tFAJ
-0d"5
 1.0.3.16
 1/2/4/8/16-bit only
 11 4 22 44 44 22 444444
@@ -2060,7 +2063,6 @@ $tI(knN
 ??_7codecvt_base@std@@6B@
 ??_7facet@locale@std@@6B@
 ??_7ios_base@std@@6B@
-?UUUUUU
 ?_BADOFF@std@@3_JB
 ?_Decref@facet@locale@std@@UEAAPEAV_Facet_base@3@XZ
 ?_Execute_once@std@@YAHAEAUonce_flag@1@P6AHPEAX1PEAPEAX@Z1@Z
@@ -2097,7 +2099,6 @@ $tI(knN
 ?flush@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@XZ
 ?getline@?$basic_istream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@PEAD_J@Z
 ?getloc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QEBA?AVlocale@2@XZ
-?hl8
 ?id@?$codecvt@DDU_Mbstatet@@@std@@2V0locale@2@A
 ?id@?$codecvt@_WDU_Mbstatet@@@std@@2V0locale@2@A
 ?id@?$collate@D@std@@2V0locale@2@A
@@ -2822,7 +2823,7 @@ Driver Not Known (201)
 Driver Not Loaded (203)
 Driver Tracked Device Interface unknown (209)
 Driver lacks support for KHR vulkan interop: 0x%x\n
-Driver manager failed to start.\n
+Driver manager failed to start: %s (%d).\n
 Driver runtime is out of date (204)
 Driver unable to initialize video encoder (499)
 DriverDirect_Acquired
@@ -3104,7 +3105,6 @@ File size mismatch :
 File was empty
 File write error: 
 Filter list was too gnarly. Not sorting the last %d filters\n
-FilterInputSourceName(%s). Mode: %s.  result: %s\n
 FilterInputSourceName: Default flip: from %s to %s\n
 FilterInputSourceName: Explicit flip: from %s to %s\n
 FilterInputSourceName: No flip: %s\n
@@ -3552,6 +3552,7 @@ IVRSteamPrivate_026
 IVRSteamPrivate_027
 IVRSteamPrivate_028
 IVRSteamPrivate_029
+IVRSteamPrivate_030
 IVRSystem::GetOutputDevice: Failed to get required Vulkan device function pointer (vkGetPhysicalDeviceProperties2KHR)!\n
 IVRSystem::GetOutputDevice: VkInstance_T *pInstance parameter is nullptr.  VkInstance must be specified for TextureType_Vulkan!\n
 IVRSystem::GetOutputDevice: failed to find VkPhysicalDevice matching adapter UUID\n
@@ -3835,9 +3836,9 @@ OutputDebugStringW
 PATH_TO_LOCAL_STRING failed with %s
 PC_%08llx
 PICT
-PJ>5
 PNG\r\n
 POSITION
+PPD5
 PS_AURORA
 PS_BLURSCENE
 PS_DISTORT
@@ -3849,13 +3850,11 @@ PS_SAMPLESCENE
 PS_SAMPLESCENE0
 PS_STENCIL
 PS_main
-P\r0d"5
 Parse error in system resource manifest %s.\n
 Parse failed for JSON message in mailbox %s: %s\n
 Parsing of JSON file "%s" failed: %s\n
 Parsing of JSON string "%s" failed: %s\n
 Path_Exists( absFilePath )
-Pd"5
 PeekNamedPipe
 Perspective camera description not found.
 PerspectiveCamera
@@ -4005,6 +4004,7 @@ Prop_HmdColumnCorrectionSettingPrefix_String
 Prop_HmdTrackingStyle_Int32
 Prop_Hmd_AppPreferencesSectionName_String
 Prop_Hmd_BlankOnFramerateChange_Bool
+Prop_Hmd_CameraSettingsModel_Int32
 Prop_Hmd_EnableParallelRenderCameras_Bool
 Prop_Hmd_RecommendedResolutionIsPerApp_Bool
 Prop_Hmd_RecommendedResolutionPixelsSteps_Int32
@@ -4099,7 +4099,7 @@ QuickCalibratePlayspace couldn't get a pose from the HMD\n
 RADV
 RGBG
 RPCRT4.dll
-RSDS
+RSDSOS
 RadialMenu missing X axis input.\n
 RadialMenu missing Y axis input.\n
 RadialMenu setting 'num_buttons' not specified.\n
@@ -4336,6 +4336,8 @@ SystemBehaviorFlag_DisplaySuppressed
 SystemBehaviorFlag_DriverIsDrawingControllers
 SystemBehaviorFlag_DriverRequestsApplicationPause
 SystemBehaviorFlag_DriverRequestsReducedRendering
+SystemBehaviorFlag_GamepadMode_Left
+SystemBehaviorFlag_GamepadMode_Right
 SystemBehaviorFlag_LaserMouse
 SystemBehaviorFlag_RoomViewFullyOccludingApp
 SystemBehaviorFlag_SystemButtonDown
@@ -4422,6 +4424,7 @@ UNKNOWN_ERROR
 UNNAMED
 USB Service Busy (140)
 USER32.dll
+UUUUUU
 UYVY
 Uanble to find enablement index for extension %s
 Unable to SetNamedPipeHandleState on pipe %s after connecting because %s\n
@@ -6169,6 +6172,7 @@ XrProto:loop:timeout!
 XrProto:suspended
 XrQueryPerformanceMetricsCounterMETA was passed a counter struct with the wrong type member.
 XrQueryPerformanceMetricsCounterMETA was passed a null counter pointer.
+Xrvj
 Y?fff?
 YUY2
 Zjz\v
@@ -6223,6 +6227,7 @@ ZvFailed to create fence %ls.\n
 [CVRChaperoneClient] ResetZeroPose for both Seated and Standing
 [CVRChaperoneClient] the bounds is already a defualt one. No action is needed for RemoveCurrentChaperoneBounds
 [CVRChaperoneClient] try to set the default bounds for the current chaperone universe
+[Chaperone] Exceeded wall count limitation (%llu), ignoring excess.
 [Compatibility Mode] Could not get notification interface. %d\n
 [Compatibility Mode] Could not get overlay interface. %d\n
 [Compatibility Mode] Notification failed: %d\n
@@ -6556,8 +6561,6 @@ ZvFailed to create fence %ls.\n
 [xrRenderModel] parameter was nullptr
 [xrRenderModel] renderModelIdCountOutput was nullptr
 [xrRenderModel] session is not running
-\fpJ>5
-\fpd"5
 \mfpmp.exe
 \nbad png sig
 \t%s::%llx.\n
@@ -6661,6 +6664,8 @@ _wfopen_s
 _wfsopen
 _wgetcwd
 _wstat64i32
+`Da5
+`PD5
 `accessors' does not contain an JSON object.
 `animations' does not contain an JSON object.
 `bufferViews' does not contain an JSON object.
@@ -6855,8 +6860,8 @@ c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrmailbox.cpp
 c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrrenderer\d3d11renderer.cpp
 c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrrenderer\ivrrenderer.h
 c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrrenderer\vulkanrenderer.cpp
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrrenderer\vulkanrenderer.cpp:4321
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrrenderer\vulkanrenderer.cpp:4405
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrrenderer\vulkanrenderer.cpp:4325
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrrenderer\vulkanrenderer.cpp:4409
 c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrsystem.cpp
 c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrsystemlayersharedstate.cpp
 c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vulkan.cpp
@@ -7035,16 +7040,16 @@ c:\buildslave\steamvr_rel_win64\build\src\vrclient\skeletalinpututils.cpp
 c:\buildslave\steamvr_rel_win64\build\src\vrclient\vrchaperoneclient.cpp
 c:\buildslave\steamvr_rel_win64\build\src\vrclient\vrclientcore.cpp
 c:\buildslave\steamvr_rel_win64\build\src\vrclient\vrcompositorclient.cpp
-c:\buildslave\steamvr_rel_win64\build\src\vrclient\vrcompositorclient.cpp:1429
-c:\buildslave\steamvr_rel_win64\build\src\vrclient\vrcompositorclient.cpp:1685
-c:\buildslave\steamvr_rel_win64\build\src\vrclient\vrcompositorclient.cpp:2486
-c:\buildslave\steamvr_rel_win64\build\src\vrclient\vrcompositorclient.cpp:463
+c:\buildslave\steamvr_rel_win64\build\src\vrclient\vrcompositorclient.cpp:1530
+c:\buildslave\steamvr_rel_win64\build\src\vrclient\vrcompositorclient.cpp:1786
+c:\buildslave\steamvr_rel_win64\build\src\vrclient\vrcompositorclient.cpp:2597
+c:\buildslave\steamvr_rel_win64\build\src\vrclient\vrcompositorclient.cpp:464
 c:\buildslave\steamvr_rel_win64\build\src\vrclient\vrcompositorsharedtextures.cpp
 c:\buildslave\steamvr_rel_win64\build\src\vrclient\vrcompositorsharedtextures.cpp:2963
-c:\buildslave\steamvr_rel_win64\build\src\vrclient\vrcompositorsharedtextures.cpp:4286
+c:\buildslave\steamvr_rel_win64\build\src\vrclient\vrcompositorsharedtextures.cpp:4295
 c:\buildslave\steamvr_rel_win64\build\src\vrclient\vrdebug.cpp:49
 c:\buildslave\steamvr_rel_win64\build\src\vrclient\vrdebug.cpp:60
-c:\buildslave\steamvr_rel_win64\build\src\vrclient\vrinput.cpp:1609
+c:\buildslave\steamvr_rel_win64\build\src\vrclient\vrinput.cpp:1606
 c:\buildslave\steamvr_rel_win64\build\src\vrclient\vrmailboxclient.cpp
 c:\buildslave\steamvr_rel_win64\build\src\vrclient\vroverlay.cpp:1175
 c:\buildslave\steamvr_rel_win64\build\src\vrclient\vroverlay.cpp:1206
@@ -7171,6 +7176,7 @@ device_path
 digit
 directory
 disableAsyncCompositor
+disableStageRecentering1_0
 disable_watchdogs
 discrete
 discrete_scroll_joystick_deadzone_horizontal
@@ -7254,6 +7260,7 @@ en_us
 enable
 enableCameraSurfaces
 enableDriverBoundsImport
+enableHmdLatencyHidingDisplayOffset
 enableHomeApp
 enableHomeApp2
 enableLegacyGameTheater
@@ -7414,6 +7421,7 @@ fvtaa
 fwrite
 gain
 gamepad
+gamepad_input_unsupported_over_vrlink
 generator
 generic
 generic_hmd
@@ -7672,6 +7680,7 @@ list<T> too long
 lm_haptic
 loadPriority
 localeconv
+localhost
 localization
 localization_files
 localized_action_name
@@ -7911,6 +7920,7 @@ pClient
 pCmdBuf
 pCmdBuf != nullptr
 pCreateInfo->createFlags == 0
+pDa5
 pDevice
 pFovScale
 pFrameData->m_ulFrameIndex > 0
@@ -7918,7 +7928,6 @@ pHandle
 pImage != nullptr
 pInput != nullptr
 pInstance
-pJ>5
 pLast->m_pointLastUsed <= pTimeline->m_pointLastUsed
 pNewResource
 pNewResource->Load( absFilePath )
@@ -7926,6 +7935,7 @@ pOutFormatCount MUST not be NULL.
 pOutModifierCount MUST not be NULL.
 pOutReport != nullptr
 pOutput != nullptr
+pPD5
 pParams->unArrayIndex < srcDesc.ArraySize
 pQueue->GetMetaContainerHandle() == ulExistingQueue
 pReport->m_nReportId != 0
@@ -7950,7 +7960,6 @@ parse_error
 path
 pauseCompositorOnStandby
 pbrMetallicRoughness
-pd"5
 perfcheck
 performanceProfile
 perspective
@@ -7981,6 +7990,7 @@ power
 powersaveFovScale
 powersaveFramesToThrottle
 powersaveResolution
+powersaveSteamOSManagerCustomProfile
 powf
 ppCmdBuf
 precision
@@ -8137,6 +8147,7 @@ shaders/d3d11/distort_geom_floor_reflect_ps.fxo
 shaders/d3d11/distort_geom_fresnel_ps.fxo
 shaders/d3d11/distort_geom_grid_ps.fxo
 shaders/d3d11/distort_geom_grid_vs.fxo
+shaders/d3d11/distort_geom_halo_ps.fxo
 shaders/d3d11/distort_geom_hard_bounds_aa_lines_ps.fxo
 shaders/d3d11/distort_geom_hard_bounds_aa_lines_vs.fxo
 shaders/d3d11/distort_geom_hard_bounds_aa_squares_ps.fxo
@@ -8208,6 +8219,7 @@ shaders/d3d11/distort_vs_reproject_fv_dr.fxo
 shaders/d3d11/distort_vs_reproject_layered.fxo
 shaders/d3d11/distort_vs_reproject_layered_nd.fxo
 shaders/d3d11/distort_vs_reproject_mv.fxo
+shaders/d3d11/distort_vs_reproject_mv_dr.fxo
 shaders/d3d11/distort_vs_reproject_nd.fxo
 shaders/d3d11/downsample_filter_x_ps.fxo
 shaders/d3d11/downsample_filter_x_srgb_ps.fxo
@@ -8216,9 +8228,12 @@ shaders/d3d11/downsample_filter_y_srgb_ps.fxo
 shaders/d3d11/downsample_ps.fxo
 shaders/d3d11/downsample_srgb_ps.fxo
 shaders/d3d11/downsample_vs.fxo
+shaders/d3d11/frame_hallucination_depth_vs.fxo
+shaders/d3d11/frame_hallucination_float_depth_vs.fxo
 shaders/d3d11/frame_hallucination_float_vs.fxo
 shaders/d3d11/frame_hallucination_ps.fxo
 shaders/d3d11/frame_hallucination_vs.fxo
+shaders/d3d11/frame_hallucination_wireframe_ps.fxo
 shaders/d3d11/geom_aurora_vs.fxo
 shaders/d3d11/geom_bounds_color_vs.fxo
 shaders/d3d11/geom_curved_uvs_embedded_vs.fxo
@@ -8341,6 +8356,7 @@ shaders/vulkan/distort_geom_floor_reflect_ps.spv
 shaders/vulkan/distort_geom_fresnel_ps.spv
 shaders/vulkan/distort_geom_grid_ps.spv
 shaders/vulkan/distort_geom_grid_vs.spv
+shaders/vulkan/distort_geom_halo_ps.spv
 shaders/vulkan/distort_geom_hard_bounds_aa_lines_ps.spv
 shaders/vulkan/distort_geom_hard_bounds_aa_lines_vs.spv
 shaders/vulkan/distort_geom_hard_bounds_aa_squares_ps.spv
@@ -8414,6 +8430,7 @@ shaders/vulkan/distort_vs_reproject_fv_dr.spv
 shaders/vulkan/distort_vs_reproject_layered.spv
 shaders/vulkan/distort_vs_reproject_layered_nd.spv
 shaders/vulkan/distort_vs_reproject_mv.spv
+shaders/vulkan/distort_vs_reproject_mv_dr.spv
 shaders/vulkan/distort_vs_reproject_nd.spv
 shaders/vulkan/downsample_filter_x_ps.spv
 shaders/vulkan/downsample_filter_x_srgb_ps.spv
@@ -8422,9 +8439,12 @@ shaders/vulkan/downsample_filter_y_srgb_ps.spv
 shaders/vulkan/downsample_ps.spv
 shaders/vulkan/downsample_srgb_ps.spv
 shaders/vulkan/downsample_vs.spv
+shaders/vulkan/frame_hallucination_depth_vs.spv
+shaders/vulkan/frame_hallucination_float_depth_vs.spv
 shaders/vulkan/frame_hallucination_float_vs.spv
 shaders/vulkan/frame_hallucination_ps.spv
 shaders/vulkan/frame_hallucination_vs.spv
+shaders/vulkan/frame_hallucination_wireframe_ps.spv
 shaders/vulkan/fsharp_2d_drawregion_gamma_ps.spv
 shaders/vulkan/fsharp_2d_drawregion_ps.spv
 shaders/vulkan/fsharp_2d_gamma_ps.spv
@@ -9685,6 +9705,7 @@ vrsteamprivate
 vrwebhelper
 vrwebhelper.exe
 vrwebui_dashboard
+vrwebui_dashboardstore
 vulkan-1.dll
 watchdog_controller
 watchdog_hmd
@@ -9769,6 +9790,7 @@ xrCreateRenderModelAssetEXT
 xrCreateRenderModelEXT
 xrCreateRenderModelSpaceEXT
 xrCreateSession
+xrCreateSession: Creating session for %s
 xrCreateSession: Failed to create binding
 xrCreateSession: Failed to create compositor
 xrCreateSession: Failed to create session
@@ -9867,6 +9889,7 @@ xrGetVulkanGraphicsDeviceKHR
 xrGetVulkanGraphicsRequirements2KHR
 xrGetVulkanGraphicsRequirementsKHR
 xrGetVulkanInstanceExtensionsKHR
+xrInitializeLoaderKHR
 xrInsertTimingUtilsLabelVALVE
 xrLocateHandJoints: Time was invalid
 xrLocateHandJoints: XrHandTrackingDataSourceStateEXT was provided without first providing sources.

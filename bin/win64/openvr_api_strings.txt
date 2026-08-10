@@ -612,7 +612,7 @@ QAf?
 QueryDepthSList
 QueryPerformanceCounter
 QueryUmsThreadInformation
-RSDSPS
+RSDS
 RaiseException
 ReadConsoleW
 ReadFile
@@ -1254,6 +1254,7 @@ vrclient Shared Lib Not Found (102)
 vrclient_x64.dll
 vrserver internal error (124)
 wrong protocol type
+w}wD
 xT?V
 xpxxxx
 xwpwpp

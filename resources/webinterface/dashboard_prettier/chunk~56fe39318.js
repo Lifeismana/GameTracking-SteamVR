@@ -1,4 +1,4 @@
-var CLSTAMP = "10838627";
+var CLSTAMP = "10893990";
 (self.webpackChunkvrwebui = self.webpackChunkvrwebui || []).push([
   [554],
   {
@@ -534,7 +534,7 @@ var CLSTAMP = "10838627";
                 ? void 0
                 : VRHTML.VRProperties.GetStringProperty(
                     "/user/head",
-                    f.fD.ActualTrackingSystemName_String,
+                    f.fD8.ActualTrackingSystemName_String,
                   );
             return t && e.push(t), e;
           })())

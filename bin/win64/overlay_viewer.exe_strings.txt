@@ -553,6 +553,7 @@ Alpha
 Associated=%1, Input=%2
 Attempt to init shared state %s twice
 Auto Curve Distance Range
+BName
 Background
 Background Color
 Bad escape sequence in string
@@ -727,7 +728,6 @@ Missing '}' or object member name
 Mouse Capture
 Mouse Scale
 NULL
-Name
 OnBackgroundColor
 OnExitAction
 OnLinearClicked

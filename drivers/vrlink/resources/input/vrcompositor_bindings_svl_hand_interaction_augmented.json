@@ -116,7 +116,12 @@
 						}
 					},
 					"mode": "button",
-					"path": "/user/hand/left/input/trigger"
+					"parameters": {
+						"click_activate_threshold": "0.7",
+						"click_deactivate_threshold": "0.65",
+						"haptic_amplitude": "0"
+					},
+					"path": "/user/hand/left/input/index_pinch"
 				},
 				{
 					"inputs": {
@@ -125,7 +130,12 @@
 						}
 					},
 					"mode": "button",
-					"path": "/user/hand/right/input/trigger"
+					"parameters": {
+						"click_activate_threshold": "0.7",
+						"click_deactivate_threshold": "0.65",
+						"haptic_amplitude": "0"
+					},
+					"path": "/user/hand/right/input/index_pinch"
 				}
 			]
 		},

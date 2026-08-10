@@ -141,28 +141,96 @@
 .controllerstatus_ControllerStatusRoot_15qWt {
   width: 256px;
   height: 256px;
-}
-.controllerstatus_ControllerHandFrame_2Ttrk {
-  width: 210px;
-  margin-left: 23px;
-  height: 110px;
-  margin-top: 18px;
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  --hand-icon-height: 112px;
+  --gamepad-icon-size: 108px;
+  --battery-status-width: 210px;
+  --battery-status-padding-top: 60px;
+}
+.controllerstatus_ControllerStatusRoot_15qWt.controllerstatus_LargeStatusArea_3lkbs {
+  justify-content: flex-end;
+  --hand-icon-height: 87px;
+  --gamepad-icon-size: 84px;
+  --battery-status-width: 160px;
+  --battery-status-padding-top: 20px;
+}
+.controllerstatus_ControllerStatusRootLeft_xXAAS {
+  padding-left: 0;
+}
+.controllerstatus_ControllerStatusRootRight_TTKbP {
+  padding-right: 0;
+}
+.controllerstatus_ControllerPrimaryIconFrame_3l-zR {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.controllerstatus_ControllerHand_1lnd2 {
+  height: var(--hand-icon-height);
+  display: block;
+  object-fit: contain;
+  flex: 0 0 auto;
+}
+.controllerstatus_ControllerGamepadIcon_1QU-S {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
 }
 .controllerstatus_ControllerAppIcon_27WgZ {
-  margin: auto;
-  height: 64px;
+  position: absolute;
   width: 64px;
-  border-radius: 4px;
+  height: 64px;
+  visibility: hidden;
+  box-sizing: border-box;
+  border-radius: 12px;
+}
+.controllerstatus_ControllerAppIconLoaded_xXhlY {
+  position: static;
+  visibility: visible;
+  flex: 0 0 auto;
+}
+.controllerstatus_ControllerConnectionDots_3LiSR {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  flex: 0 0 auto;
+  padding-top: 10px;
+}
+.controllerstatus_ControllerConnectionDots_3LiSR span {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #525252;
+}
+.controllerstatus_ControllerRoleIcon_7VrFp {
+  height: var(--gamepad-icon-size);
+  flex: 0 0 auto;
+}
+.controllerstatus_ControllerGamepadIconWithApp_DtA4s {
+  gap: 8px;
+  padding-bottom: 0;
 }
 .controllerstatus_ControllerBatteryFrame_4AIPw {
-  width: 210px;
-  margin-left: 23px;
-  height: 110px;
-  margin-top: 18px;
+  width: var(--battery-status-width);
+  flex: 0 0 auto;
+  padding-top: var(--battery-status-padding-top);
+  padding-bottom: 3px;
   opacity: 0.85;
 }
 .controllerstatus_ControllerBattery_3I629 {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
   filter: brightness(65%);
 }
 .legacydashboardframecontrols_FrameControlsContainer_27B1e {
@@ -177,8 +245,13 @@
   opacity: 1;
   flex-wrap: nowrap;
 }
-.legacydashboardframecontrols_FrameControlsContainer_27B1e:not(:hover) {
+.legacydashboardframecontrols_FrameControlsContainer_27B1e:not(:hover):not(
+    .legacydashboardframecontrols_HasGamepadFocus_2rN3T
+  ) {
   opacity: 0.6;
+}
+.legacydashboardframecontrols_FrameControlsContainer_27B1e.legacydashboardframecontrols_HasGamepadFocus_2rN3T {
+  transition: opacity 0s;
 }
 .legacydashboardframecontrols_FrameControlsContainer_27B1e
   .legacydashboardframecontrols_Section_1KwWq {
@@ -201,8 +274,9 @@
   pointer-events: none;
   opacity: 0.3;
 }
+.legacydashboardframecontrols_FrameControlsContainer_27B1e .ButtonControl:hover,
 .legacydashboardframecontrols_FrameControlsContainer_27B1e
-  .ButtonControl:hover {
+  .ButtonControl.legacydashboardframecontrols_GamepadFocused_OxA82 {
   background: var(--gamepadui-dark-grey);
 }
 .legacydashboardframecontrols_FrameControlsContainer_27B1e
@@ -283,10 +357,6 @@
   align-items: center;
   gap: .5ch;
   box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.25);
-  animation: framegamepadmodebutton_slide-up_ju26z .2s;
-  animation-fill-mode: both;
-  animation-iteration-count: 1;
-  animation-timing-function: ease-out;
 }
 .framegamepadmodebutton_ButtonHitArea_2v1eJ:not(
     .framegamepadmodebutton_Disabled_2Grai
@@ -311,16 +381,6 @@
   .framegamepadmodebutton_GlyphContainer_3xgmy
   svg {
   height: 100%;
-}
-@keyframes framegamepadmodebutton_slide-up_ju26z {
-  from {
-    opacity: 0;
-    transform: translateY(10px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
 }
 .guidedtour_steamframe_TourTooltipContainer_mmSdZ {
   display: flex;

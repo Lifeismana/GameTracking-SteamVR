@@ -64,6 +64,7 @@
 /user/waist
 /user/wrist/left
 /user/wrist/right
+3qvj
 ?_Throw_C_error@std@@YAXH@Z
 ?_Xlength_error@std@@YAXPEBD@Z
 DisableThreadLibraryCalls
@@ -92,7 +93,7 @@ IsProcessorFeaturePresent
 KERNEL32.dll
 MSVCP140.dll
 QueryPerformanceCounter
-RSDS
+RSDSr
 RtlCaptureContext
 RtlLookupFunctionEntry
 RtlVirtualUnwind

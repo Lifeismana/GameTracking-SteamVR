@@ -171,7 +171,6 @@
 ?xsgetn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JPEAD_J@Z
 ?xsputn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JPEBD_J@Z
 A valid JSON document must be either an array or an object value.
-A$ZM
 ASSERT: "%s" at %s:%d.\n
 AbortMessage({ Thread Watchdog Abort - %s /+/ %f second timeout })
 Access to desktop duplication lost for desktop %d.\n

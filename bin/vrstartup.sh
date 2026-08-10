@@ -12,6 +12,7 @@ BASENAME="$(basename "$0")"
 # this captures the script launch work and stdout/stderr
 LOGFILE=vrstartup-linux.txt
 
+RUNTIME_DIR="$(dirname "$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )" )"
 STEAM_BASE_FOLDER="${STEAM_BASE_FOLDER:-$(realpath ~/.steam/steam)}"
 mkdir -p "${STEAM_BASE_FOLDER}/${STEAM_CLIENT_LOG_FOLDER:-logs}"
 
@@ -45,10 +46,10 @@ else
 		RUN_IN_SNIPER="${STEAM_BASE_FOLDER}/steamapps/common/SteamLinuxRuntime_sniper/run-in-sniper"
 		if [ -f "${RUN_IN_SNIPER}" ]; then
 			log "Re-exec'ing into Steam Linux Runtime located at $(dirname "${RUN_IN_SNIPER}")"
-			exec "${RUN_IN_SNIPER}" "$0" "$@"
+			exec "${RUN_IN_SNIPER}" --filesystem="${RUNTIME_DIR}" "$0" "$@"
 		fi
 
-		log "ERROR: no steam runtime environment set, please use sniper SLR"
+		log "ERROR: no steam runtime environment set, no sniper SLR found to fallback to - please configure"
 		exit 1
 	else
 		log "WARNING: Skipping runtime safety check (VALVE_SKIP_RUNTIME_SAFETY enabled)"

@@ -59,6 +59,10 @@
 	"/actions/scroll_discrete": "Mousewheel-style Scrolling",
 	"/actions/scroll_smooth": "Trackpad-style Scrolling",
 
-	"/actions/roomsetup_floor/in/FloorFineAdjust": "Fine Floor Adjustment",
-	"/actions/quickrecenter/in/Recenter": "Recenter"
+	"/actions/quickrecenter/in/Recenter": "Recenter",
+
+	"/actions/roomsetup": "Room Setup",
+	"/actions/roomsetup/in/FloorFineAdjust": "Fine Floor Adjustment",
+	"/actions/roomsetup/in/Accept": "Accept / Next",
+	"/actions/roomsetup/in/Back": "Back"
 }

@@ -707,7 +707,7 @@ Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
 RPCRT4.dll
-RSDS1
+RSDSN
 RaiseException
 ResetEvent
 S-1-15-2-2765576060-2389096713-3079022642-4099546867-1445191215-3071396046-3987166893
@@ -1468,6 +1468,7 @@ shaders/d3d11/distort_geom_floor_reflect_ps.fxo
 shaders/d3d11/distort_geom_fresnel_ps.fxo
 shaders/d3d11/distort_geom_grid_ps.fxo
 shaders/d3d11/distort_geom_grid_vs.fxo
+shaders/d3d11/distort_geom_halo_ps.fxo
 shaders/d3d11/distort_geom_hard_bounds_aa_lines_ps.fxo
 shaders/d3d11/distort_geom_hard_bounds_aa_lines_vs.fxo
 shaders/d3d11/distort_geom_hard_bounds_aa_squares_ps.fxo
@@ -1539,6 +1540,7 @@ shaders/d3d11/distort_vs_reproject_fv_dr.fxo
 shaders/d3d11/distort_vs_reproject_layered.fxo
 shaders/d3d11/distort_vs_reproject_layered_nd.fxo
 shaders/d3d11/distort_vs_reproject_mv.fxo
+shaders/d3d11/distort_vs_reproject_mv_dr.fxo
 shaders/d3d11/distort_vs_reproject_nd.fxo
 shaders/d3d11/downsample_filter_x_ps.fxo
 shaders/d3d11/downsample_filter_x_srgb_ps.fxo
@@ -1547,9 +1549,12 @@ shaders/d3d11/downsample_filter_y_srgb_ps.fxo
 shaders/d3d11/downsample_ps.fxo
 shaders/d3d11/downsample_srgb_ps.fxo
 shaders/d3d11/downsample_vs.fxo
+shaders/d3d11/frame_hallucination_depth_vs.fxo
+shaders/d3d11/frame_hallucination_float_depth_vs.fxo
 shaders/d3d11/frame_hallucination_float_vs.fxo
 shaders/d3d11/frame_hallucination_ps.fxo
 shaders/d3d11/frame_hallucination_vs.fxo
+shaders/d3d11/frame_hallucination_wireframe_ps.fxo
 shaders/d3d11/geom_aurora_vs.fxo
 shaders/d3d11/geom_bounds_color_vs.fxo
 shaders/d3d11/geom_curved_uvs_embedded_vs.fxo

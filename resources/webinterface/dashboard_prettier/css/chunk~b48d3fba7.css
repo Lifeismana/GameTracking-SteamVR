@@ -539,9 +539,6 @@ body.SGApp .SettingsSidebarButton .Label {
   flex-direction: column;
   background: #0a0f14;
 }
-.SettingsMain.Desktop .SettingsPageContainer {
-  background: #171d25;
-}
 .SettingsPageContainer > .SettingsItem {
   flex-shrink: 0;
 }
@@ -694,6 +691,11 @@ body.SGApp .SettingsSidebarButton .Label {
 }
 .SettingsItem.SegmentedControl .SegmentedControlGroup:hover::before {
   opacity: var(--settings-control-background-new-hover-a);
+}
+.SettingsItem.SegmentedControl .SegmentedControlGroup.Disabled {
+  opacity: 0.4;
+  pointer-events: none;
+  cursor: default;
 }
 .SettingsItem.SegmentedControl
   .SegmentedControlGroup:not(.DualValue)
@@ -1410,22 +1412,54 @@ body.SGApp .SettingsSidebarButton .Label {
   background-position: center;
   width: 11em;
 }
-.SettingsMain .SettingsItem.Background .ButtonControl.Background.AuroraPalette {
+.SettingsMain .AuroraPaletteButton {
+  display: inline-flex;
+  margin-right: var(--grid-item-spacing);
+  margin-bottom: var(--grid-item-spacing);
+  border: none;
+  border-radius: var(--settings-control-inner-border-radius);
+  font-weight: var(--settings-font-weight);
+  font-size: var(--settings-font-size);
+  box-sizing: border-box;
+  text-transform: uppercase;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  min-height: var(--settings-control-default-height);
+  justify-content: center;
+  flex-direction: row;
+  text-align: center;
+  transition: none;
+  border: solid 6px transparent;
+}
+.SettingsMain .AuroraPaletteButton:not(.ButtonControl) {
+  width: calc(var(--grid-item-width) - var(--grid-item-spacing));
+}
+.SettingsMain .AuroraPaletteButton:not(.ButtonControl):hover {
+  border-color: var(--settings-control-hover-background);
+}
+.SettingsMain .AuroraPaletteButton:not(.ButtonControl).Selected {
+  border-color: #1a9fff;
+}
+.SettingsMain .AuroraPaletteButton:not(.ButtonControl).Selected:hover {
+  border-color: #0bf;
+}
+.SettingsMain .SettingsItem.Background .AuroraPaletteButton.AuroraPalette {
   display: flex;
   padding: var(--settings-control-image-padding);
 }
 .SettingsMain
   .SettingsItem.Background
-  .ButtonControl.Background.AuroraPalette::before,
-.SettingsMain
-  .Modal.Backgrounds
-  .ButtonControl.Background.AuroraPalette::before {
+  .AuroraPaletteButton.AuroraPalette::before,
+.SettingsMain .Modal.Backgrounds .AuroraPaletteButton.AuroraPalette::before {
   content: "";
   margin: auto;
-  width: 50%;
   aspect-ratio: 1;
-  border-radius: 1000px;
-  background: radial-gradient(circle at center, black 0%, rgba(0, 0, 0, 0) 100%),
+  border-radius: 100%;
+  background: radial-gradient(
+      closest-side circle at center,
+      black 38%,
+      rgba(0, 0, 0, 0) 40%
+    ),
     conic-gradient(
       from var(--aurora-color-rotation),
       var(--aurora-color-n) 0deg,
@@ -1436,6 +1470,21 @@ body.SGApp .SettingsSidebarButton .Label {
     );
   background-repeat: no-repeat;
   box-shadow: 0 0 .5rem rgba(255, 255, 255, 0.25);
+}
+.SettingsMain .Modal.Backgrounds .BackgroundsGrid.AuroraPalette {
+  --grid-item-width: calc(var(--grid-width) / 6);
+  --grid-item-spacing: 0.1rem;
+}
+.SettingsMain
+  .SettingsItem.Background
+  .AuroraPaletteButton.AuroraPalette::before {
+  width: 50%;
+}
+.SettingsMain .Modal.Backgrounds .AuroraPaletteButton.AuroraPalette::before {
+  width: 100%;
+}
+.SettingsMain .Modal.Backgrounds .AuroraPaletteButton.AuroraPalette {
+  border-radius: 100%;
 }
 @keyframes SettingsLoadingLabelFadeIn {
   from {

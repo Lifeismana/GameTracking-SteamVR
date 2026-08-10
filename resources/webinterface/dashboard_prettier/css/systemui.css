@@ -136,6 +136,40 @@
   font-size: 18px;
   border-radius: 32px;
 }
+.persistentnotifications_CastingVRScreenNotification_22Xoq {
+  display: flex;
+  width: 36px;
+  height: 36px;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 18px;
+  border-radius: 32px;
+}
+.persistentnotifications_CastingVRScreenNotification_22Xoq {
+  display: flex;
+  width: 25px;
+  background-color: rgba(97, 97, 97, 0.75);
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 18px;
+  border-radius: 32px;
+  animation: persistentnotifications_AnimationFadeOutIn_18k2T 15s infinite
+    linear;
+}
+.persistentnotifications_CastingVRScreenNotification_22Xoq .SVGIcon_Button {
+  width: 32px;
+  height: 32px;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #2bff00;
+  opacity: 0.75;
+}
 .loadingthrobber_LoadingThrobberContainer_1ao7p {
   position: relative;
   display: flex;
@@ -448,5 +482,49 @@
     opacity: 0;
     border-width: 1px;
   }
+}
+.framerate_FramerateRoot_3SNxS {
+  display: inline-flex;
+  align-items: center;
+  gap: .8ch;
+  width: max-content;
+  padding: 12px 16px;
+  white-space: nowrap;
+  opacity: 1;
+  transition: opacity 500ms ease-out;
+  background: var(--gamepadui-darker-grey);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  color: var(--gamepadui-lightest-grey);
+}
+.framerate_FramerateRoot_3SNxS svg {
+  width: 1.25em;
+  height: 1.25em;
+  flex-shrink: 0;
+}
+.framerate_FramerateRoot_3SNxS.framerate_Fading_3MHWW {
+  opacity: 0;
+}
+.gamepadunsupportedmessage_GamepadUnsupportedRoot_2kTje {
+  display: inline-flex;
+  align-items: center;
+  gap: .8ch;
+  width: max-content;
+  padding: 12px 16px;
+  white-space: nowrap;
+  opacity: 1;
+  background: var(--gamepadui-darker-grey);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  color: var(--gamepadui-lightest-grey);
+}
+.gamepadunsupportedmessage_GamepadUnsupportedRoot_2kTje svg {
+  width: 1.25em;
+  height: 1.25em;
+  flex-shrink: 0;
+}
+.gamepadunsupportedmessage_GamepadUnsupportedRoot_2kTje.gamepadunsupportedmessage_Fading_2TJVM {
+  opacity: 0;
+  transition: opacity 1000ms ease-out;
 }
 /*# sourceMappingURL=file:///home/buildbot/buildslave/steamvr_rel_npm_vrwebui/build/public/runtime/resources/webinterface/dashboard/sourcemaps/css/systemui.css.map*/

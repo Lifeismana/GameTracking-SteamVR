@@ -67,7 +67,6 @@ $Ib?s
 , survival rate: 
 , swept bytes: 
 ,HR>O
-,LLD PDB.
 -----------------------
 -BH>t
 -hosted window; 
@@ -855,6 +854,7 @@ LCIDToLocaleName
 LCMapStringEx
 LCMapStringW
 LINEAR_HISTOGRAM
+LLD PDB.
 LOG_FATAL
 LWG>
 LWW>
@@ -1039,7 +1039,7 @@ QueryPerformanceCounter
 QueryPerformanceFrequency
 QueryThreadCycleTime
 REPLACE_THIS_STRING
-RSDS
+RSDS^
 R\n0\tP
 R\n0\tp
 Radio Item 1

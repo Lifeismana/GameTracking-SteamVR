@@ -6,8 +6,6 @@
  - %dx%d format=%d refresh=%d/%d scan=%d scale=%d dsc: mode=%d version=%d slice=%d out16=%d
  /name 
  /page 
- ?type@QGraphicsEllipseItem@@UEBAHXZ
- ?type@QGraphicsSimpleTextItem@@UEBAHXZ
  ?validate@QDoubleSpinBox@@UEBA?AW4State@QValidator@@AEAVQString@@AEAH@Z
  ?validate@QSpinBox@@MEBA?AW4State@QValidator@@AEAVQString@@AEAH@Z
  ?value@QAbstractSlider@@QEBAHXZ
@@ -56,7 +54,6 @@
 !?wheelEvent@QAbstractSlider@@MEAAXPEAVQWheelEvent@@@Z
 !?wheelEvent@QAbstractSpinBox@@MEAAXPEAVQWheelEvent@@@Z
 !?wheelEvent@QComboBox@@MEAAXPEAVQWheelEvent@@@Z
-!?wheelEvent@QGraphicsItem@@MEAAXPEAVQGraphicsSceneWheelEvent@@@Z
 !?wheelEvent@QGraphicsScene@@MEAAXPEAVQGraphicsSceneWheelEvent@@@Z
 !?wheelEvent@QMenu@@MEAAXPEAVQWheelEvent@@@Z
 !?wheelEvent@QPlainTextEdit@@MEAAXPEAVQWheelEvent@@@Z
@@ -77,7 +74,6 @@
 #81b818
 #999999
 #\f?getSaveFileName@QFileDialog@@SA?AVQString@@PEAVQWidget@@AEBV2@11PEAV2@V?$QFlags@W4Option@QFileDialog@@@@@Z
-#\n?dragMoveEvent@QGraphicsItem@@MEAAXPEAVQGraphicsSceneDragDropEvent@@@Z
 #c80a0a
 #f4d330
 #ff38ff
@@ -92,7 +88,6 @@ $\t?contains@QRectF@@QEBA_NAEBVQPointF@@@Z
 %1.vrpl
 %1/1 %2/2 %3/3 %4/4 %5/%6
 %1/fullFilename
-%1: (%2 cm, %3 cm)
 %1: \t%2 / %3 %4 %5\n
 %1: \t%2\nFOV Left: \t%3\nFOV Right:\t%4\nFOV Top:\t%5\nFOV Bottom:\t%6\nRange Minimum (m):\t%7\nRange Maximum (m):\t%8\n
 %1:%2:%3:%4
@@ -142,7 +137,6 @@ $\t?contains@QRectF@@QEBA_NAEBVQPointF@@@Z
 &\t?contains@QSettings@@QEBA_NAEBVQString@@@Z
 &\v?end@QListData@@QEBAPEAPEAXXZ
 ' is not a number.
-'\v?extension@QGraphicsEllipseItem@@MEBA?AVQVariant@@AEBV2@@Z
 (<Device\d*_Additional>.*<\/Device\d*_Additional>\n)*
 (?<DATE>.*) - (=*\n.*)
 (?<DATE>.*) - (\/\/=*)
@@ -167,18 +161,15 @@ $\t?contains@QRectF@@QEBA_NAEBVQPointF@@@Z
 (VID:%04X PID:%04X)
 (W?sharedPainter@QPaintDevice@@MEBAPEAVQPainter@@XZ
 (\n?dragMoveEvent@QLineEdit@@MEAAXPEAVQDragMoveEvent@@@Z
-(\v?extension@QGraphicsItem@@MEBA?AVQVariant@@AEBV2@@Z
 )P?pos@QMouseEvent@@QEBA?AVQPoint@@XZ
 )\n?dragMoveEvent@QListView@@MEAAXPEAVQDragMoveEvent@@@Z
 )\r?indexOfTopLevelItem@QTreeWidget@@QEBAHPEAVQTreeWidgetItem@@@Z
 *.dmp
 *.txt
 *\n?dragMoveEvent@QPlainTextEdit@@MEAAXPEAVQDragMoveEvent@@@Z
-*\v?extension@QGraphicsPathItem@@MEBA?AVQVariant@@AEBV2@@Z
 +!?widget@QLayoutItem@@UEAAPEAVQWidget@@XZ
 +Y?toImage@QPixmap@@QEBA?AVQImage@@XZ
 +\n?dragMoveEvent@QTextEdit@@MEAAXPEAVQDragMoveEvent@@@Z
-+\v?extension@QGraphicsPixmapItem@@MEBA?AVQVariant@@AEBV2@@Z
 , Provider: 
 , last executing in 
 ,\n?dragMoveEvent@QTreeView@@MEAAXPEAVQDragMoveEvent@@@Z
@@ -374,7 +365,6 @@ $\t?contains@QRectF@@QEBA_NAEBVQPointF@@@Z
 .?AVCQSupportToolDropArea@@
 .?AVCQSystemReportWorker@@
 .?AVCQSystemStatusButton@@
-.?AVCQTrackedItemGroup@@
 .?AVCQVRBaseStatusEntry@@
 .?AVCQVRBaseStatusFrame@@
 .?AVCQVRBugReporter@@
@@ -457,7 +447,6 @@ $\t?contains@QRectF@@QEBA_NAEBVQPointF@@@Z
 .?AVOurCharReader@Json@@
 .?AVQAbstractAnimation@@
 .?AVQAbstractButton@@
-.?AVQAbstractGraphicsShapeItem@@
 .?AVQAbstractItemDelegate@@
 .?AVQAbstractItemView@@
 .?AVQAbstractNativeEventFilter@@
@@ -495,14 +484,8 @@ $\t?contains@QRectF@@QEBA_NAEBVQPointF@@@Z
 .?AVQFutureInterfaceBase@@
 .?AVQGLFramebufferObject@@
 .?AVQGraphicsEffect@@
-.?AVQGraphicsEllipseItem@@
-.?AVQGraphicsItem@@
-.?AVQGraphicsItemGroup@@
 .?AVQGraphicsOpacityEffect@@
-.?AVQGraphicsPathItem@@
-.?AVQGraphicsPixmapItem@@
 .?AVQGraphicsScene@@
-.?AVQGraphicsSimpleTextItem@@
 .?AVQGridLayout@@
 .?AVQHBoxLayout@@
 .?AVQIODevice@@
@@ -590,7 +573,6 @@ $\t?contains@QRectF@@QEBA_NAEBVQPointF@@@Z
 .P6AXPEBD0I_NPEAXPEA_N@Z
 .P6A_ND@Z
 .P?pos@QWheelEvent@@QEBA?AVQPoint@@XZ
-.\v?extension@QGraphicsSimpleTextItem@@MEBA?AVQVariant@@AEBV2@@Z
 .arc
 .arj
 .backup
@@ -721,6 +703,7 @@ $\t?contains@QRectF@@QEBA_NAEBVQPointF@@@Z
 1!?widget@QTabWidget@@QEBAPEAVQWidget@@H@Z
 100%
 1000
+16:56:26
 1DoAcquireData()
 1DoInit()
 1DoParseString( const QString & )
@@ -822,7 +805,6 @@ $\t?contains@QRectF@@QEBA_NAEBVQPointF@@@Z
 1OnControllerExitBootloaderMode()
 1OnControllerFirmwareRecovery()
 1OnCopyToClipboard()
-1OnCrashAction()
 1OnCreateSystemReportAction()
 1OnCurrentConfigRowChanged( int )
 1OnCurrentLogFileEntryRowChanged( int )
@@ -840,7 +822,6 @@ $\t?contains@QRectF@@QEBA_NAEBVQPointF@@@Z
 1OnDeviceChanged()
 1OnDeviceOverviewDoneClicked()
 1OnDismissButtonClicked()
-1OnDisplayFrameTimingAction()
 1OnDoConnectToSteam()
 1OnDoDisconnectFromSteam()
 1OnDone()
@@ -1010,18 +991,15 @@ $\t?contains@QRectF@@QEBA_NAEBVQPointF@@@Z
 1OnSetupEnded()
 1OnSetupRunRoomSetup()
 1OnShortcutActivated()
-1OnShowConfigDirectoryAction()
 1OnShowContextMenu(const QPoint&)
 1OnShowControllerBindingAction()
 1OnShowDisplayMirror()
 1OnShowEditWorkshopItemDialogAction()
 1OnShowHeadsetView()
 1OnShowKnockKnockAction()
-1OnShowLogDirectoryAction()
 1OnShowManageTrackers()
 1OnShowManageTrackersAction()
 1OnShowPerfGraph()
-1OnShowRuntimeDirectoryAction()
 1OnShowUploadWorkshopItemDialogAction()
 1OnShutdownVRAppsCancelClicked()
 1OnShutdownVRAppsYesClicked()
@@ -1061,7 +1039,6 @@ $\t?contains@QRectF@@QEBA_NAEBVQPointF@@@Z
 1OnStartHeadsetWatchmanRecovery()
 1OnStartHeadsetWatchmanUpdate()
 1OnStartHeadsetWatchmanV3Recovery()
-1OnStartRecordingAction()
 1OnStartUpdateBaseStationWithDriveTarget()
 1OnStartUpdateControllerWithSerialNumberTarget()
 1OnStartUpdateGenericTrackerWithSerialNumberTarget()
@@ -1077,7 +1054,6 @@ $\t?contains@QRectF@@QEBA_NAEBVQPointF@@@Z
 1OnStop()
 1OnStopClicked()
 1OnStopPlaylistAction()
-1OnStopRecordingAction()
 1OnSubjectChanged()
 1OnSubmit()
 1OnSystemInactivityTimeout()
@@ -1149,7 +1125,6 @@ $\t?contains@QRectF@@QEBA_NAEBVQPointF@@@Z
 1setDataScaleType(QCPAxis::ScaleType)
 1setGradient(QCPColorGradient)
 1updateStyle()
-22:07:48
 2DoInit()
 2DoShutdown()
 2PlaybackVolumeGainStatus( bool )
@@ -1262,6 +1237,7 @@ $\t?contains@QRectF@@QEBA_NAEBVQPointF@@@Z
 2SetPlaybackVolumeGainStatus( bool )
 2T?setDropAction@QDropEvent@@QEAAXW4DropAction@Qt@@@Z
 2\v?endGroup@QSettings@@QEAAXXZ
+2\vP!k
 2aboutToQuit()
 2aboutToShow()
 2activated( QSystemTrayIcon::ActivationReason )
@@ -1317,7 +1293,6 @@ $\t?contains@QRectF@@QEBA_NAEBVQPointF@@@Z
 3\t?boundingRect@QFontMetrics@@QEBA?AVQRect@@AEBV2@HAEBVQString@@HPEAH@Z
 466.47
 4Q?qt_metacast@QOffscreenSurface@@UEAAPEAXPEBD@Z
-4S?setAlpha@QColor@@QEAAXH@Z
 4\f54d
 5I)7
 5Q?qt_metacast@QOpenGLContext@@UEAAPEAXPEBD@Z
@@ -1352,7 +1327,6 @@ $\t?contains@QRectF@@QEBA_NAEBVQPointF@@@Z
 <B><I>%1</I></B><BR>
 <B>Device %1 - %2 %3</B><BR>
 <B>SteamVR Version %1</B><BR>
-<BR><B>${Header_NotCheckingIssuesAtThisTime}</B><BR>
 <BR><B>Displays</B> - %1<BR>
 <BR><B>No chaperone file available.</B></BR>
 <BR><B>No driver specific file available.</B></BR>
@@ -1448,14 +1422,9 @@ $\t?contains@QRectF@@QEBA_NAEBVQPointF@@@Z
 ??0QFutureInterfaceBase@@QEAA@AEBV0@@Z
 ??0QFutureInterfaceBase@@QEAA@W4State@0@@Z
 ??0QGLFramebufferObject@@QEAA@HHI@Z
-??0QGraphicsEllipseItem@@QEAA@NNNNPEAVQGraphicsItem@@@Z
-??0QGraphicsItemGroup@@QEAA@PEAVQGraphicsItem@@@Z
 ??0QGraphicsOpacityEffect@@QEAA@PEAVQObject@@@Z
-??0QGraphicsPathItem@@QEAA@PEAVQGraphicsItem@@@Z
-??0QGraphicsPixmapItem@@QEAA@AEBVQPixmap@@PEAVQGraphicsItem@@@Z
 ??0QGraphicsScene@@QEAA@PEAVQObject@@@Z
 ??0QGraphicsSceneMouseEvent@@QEAA@W4Type@QEvent@@@Z
-??0QGraphicsSimpleTextItem@@QEAA@AEBVQString@@PEAVQGraphicsItem@@@Z
 ??0QGridLayout@@QEAA@PEAVQWidget@@@Z
 ??0QGridLayout@@QEAA@XZ
 ??0QHBoxLayout@@QEAA@PEAVQWidget@@@Z
@@ -1603,14 +1572,9 @@ $\t?contains@QRectF@@QEBA_NAEBVQPointF@@@Z
 ??1QFrame@@UEAA@XZ
 ??1QFutureInterfaceBase@@UEAA@XZ
 ??1QGLFramebufferObject@@UEAA@XZ
-??1QGraphicsEllipseItem@@UEAA@XZ
-??1QGraphicsItemGroup@@UEAA@XZ
 ??1QGraphicsOpacityEffect@@UEAA@XZ
-??1QGraphicsPathItem@@UEAA@XZ
-??1QGraphicsPixmapItem@@UEAA@XZ
 ??1QGraphicsScene@@UEAA@XZ
 ??1QGraphicsSceneMouseEvent@@UEAA@XZ
-??1QGraphicsSimpleTextItem@@UEAA@XZ
 ??1QGridLayout@@UEAA@XZ
 ??1QHBoxLayout@@UEAA@XZ
 ??1QIcon@@QEAA@XZ
@@ -1685,7 +1649,6 @@ $\t?contains@QRectF@@QEBA_NAEBVQPointF@@@Z
 ??4QBrush@@QEAAAEAV0@AEBV0@@Z
 ??4QByteArray@@QEAAAEAV0@$$QEAV0@@Z
 ??4QByteArray@@QEAAAEAV0@AEBV0@@Z
-??4QByteRef@@QEAAAEAV0@D@Z
 ??4QColor@@QEAAAEAV0@AEBV0@@Z
 ??4QDateTime@@QEAAAEAV0@AEBV0@@Z
 ??4QFont@@QEAAAEAV0@$$QEAV0@@Z
@@ -1734,13 +1697,11 @@ $\t?contains@QRectF@@QEBA_NAEBVQPointF@@@Z
 ??AQString@@QEBA?BVQChar@@H@Z
 ??BQByteArray@@QEBAPEBDXZ
 ??BQCharRef@@QEBA?AVQChar@@XZ
-??BQColor@@QEBA?AVQVariant@@XZ
 ??Bid@locale@std@@QEAA_KXZ
 ??IQRect@@QEBA?AV0@AEBV0@@Z
 ??MQListWidgetItem@@UEBA_NAEBV0@@Z
 ??MQTreeWidgetItem@@UEBA_NAEBV0@@Z
 ??UQRect@@QEBA?AV0@AEBV0@@Z
-??UQRectF@@QEBA?AV0@AEBV0@@Z
 ??YQString@@QEAAAEAV0@PEBD@Z
 ??YQString@@QEAAAEAV0@VQChar@@@Z
 ??_0QSize@@QEAAAEAV0@N@Z
@@ -1787,10 +1748,8 @@ $\t?contains@QRectF@@QEBA_NAEBVQPointF@@@Z
 ?addAction@QMenu@@QEAAPEAVQAction@@AEBVQString@@PEBVQObject@@PEBDAEBVQKeySequence@@@Z
 ?addAction@QWidget@@QEAAXPEAVQAction@@@Z
 ?addButton@QDialogButtonBox@@QEAAPEAVQPushButton@@AEBVQString@@W4ButtonRole@1@@Z
-?addEllipse@QPainterPath@@QEAAXAEBVQRectF@@@Z
 ?addItem@QBoxLayout@@UEAAXPEAVQLayoutItem@@@Z
 ?addItem@QFormLayout@@UEAAXPEAVQLayoutItem@@@Z
-?addItem@QGraphicsScene@@QEAAXPEAVQGraphicsItem@@@Z
 ?addItem@QGridLayout@@MEAAXPEAVQLayoutItem@@@Z
 ?addLayout@QBoxLayout@@QEAAXPEAVQLayout@@H@Z
 ?addMSecs@QTime@@QEBA?AV1@H@Z
@@ -1805,8 +1764,6 @@ $\t?contains@QRectF@@QEBA_NAEBVQPointF@@@Z
 ?addSpacing@QBoxLayout@@QEAAXH@Z
 ?addStretch@QBoxLayout@@QEAAXH@Z
 ?addTab@QTabWidget@@QEAAHPEAVQWidget@@AEBVQString@@@Z
-?addText@QPainterPath@@QEAAXAEBVQPointF@@AEBVQFont@@AEBVQString@@@Z
-?addToGroup@QGraphicsItemGroup@@QEAAXPEAVQGraphicsItem@@@Z
 ?addWidget@QBoxLayout@@QEAAXPEAVQWidget@@HV?$QFlags@W4AlignmentFlag@Qt@@@@@Z
 ?addWidget@QGraphicsScene@@QEAAPEAVQGraphicsProxyWidget@@PEAVQWidget@@V?$QFlags@W4WindowType@Qt@@@@@Z
 ?addWidget@QGridLayout@@QEAAXPEAVQWidget@@HHHHV?$QFlags@W4AlignmentFlag@Qt@@@@@Z
@@ -1815,7 +1772,6 @@ $\t?contains@QRectF@@QEBA_NAEBVQPointF@@@Z
 ?addWidget@QSplitter@@QEAAXPEAVQWidget@@@Z
 ?adjustSize@QWidget@@QEAAXXZ
 ?adjusted@QRect@@QEBA?AV1@HHHH@Z
-?advance@QGraphicsItem@@UEAAXH@Z
 ?alignedRect@QStyle@@SA?AVQRect@@W4LayoutDirection@Qt@@V?$QFlags@W4AlignmentFlag@Qt@@@@AEBVQSize@@AEBV2@@Z
 ?allWidgets@QApplication@@SA?AV?$QList@PEAVQWidget@@@@XZ
 ?allocate@QArrayData@@SAPEAU1@_K00V?$QFlags@W4AllocationOption@QArrayData@@@@@Z
@@ -1857,11 +1813,6 @@ $\t?contains@QRectF@@QEBA_NAEBVQPointF@@@Z
 ?beginGroup@QSettings@@QEAAXAEBVQString@@@Z
 ?bind@QGLFramebufferObject@@QEAA_NXZ
 ?bits@QImage@@QEAAPEAEXZ
-?boundingRect@QGraphicsEllipseItem@@UEBA?AVQRectF@@XZ
-?boundingRect@QGraphicsItemGroup@@UEBA?AVQRectF@@XZ
-?boundingRect@QGraphicsPathItem@@UEBA?AVQRectF@@XZ
-?boundingRect@QGraphicsPixmapItem@@UEBA?AVQRectF@@XZ
-?boundingRect@QGraphicsSimpleTextItem@@UEBA?AVQRectF@@XZ
 ?boundingRectFor@QGraphicsEffect@@UEBA?AVQRectF@@AEBV2@@Z
 ?bytesAvailable@QProcess@@UEBA_JXZ
 ?bytesToWrite@QProcess@@UEBA_JXZ
@@ -1927,8 +1878,6 @@ $\t?contains@QRectF@@QEBA_NAEBVQPointF@@@Z
 ?closeEvent@QProgressDialog@@MEAAXPEAVQCloseEvent@@@Z
 ?closeEvent@QWidget@@MEAAXPEAVQCloseEvent@@@Z
 ?cmp@QVariant@@QEBA_NAEBV1@@Z
-?collidesWithItem@QGraphicsItem@@UEBA_NPEBV1@W4ItemSelectionMode@Qt@@@Z
-?collidesWithPath@QGraphicsItem@@UEBA_NAEBVQPainterPath@@W4ItemSelectionMode@Qt@@@Z
 ?columnCount@QTableWidget@@QEBAHXZ
 ?columnCount@QTreeWidget@@QEBAHXZ
 ?commitData@QAbstractItemView@@MEAAXPEAVQWidget@@@Z
@@ -1943,11 +1892,6 @@ $\t?contains@QRectF@@QEBA_NAEBVQPointF@@@Z
 ?constData@QByteArray@@QEBAPEBDXZ
 ?constData@QString@@QEBAPEBVQChar@@XZ
 ?constData@QVariant@@QEBAPEBXXZ
-?contains@QGraphicsEllipseItem@@UEBA_NAEBVQPointF@@@Z
-?contains@QGraphicsItem@@UEBA_NAEBVQPointF@@@Z
-?contains@QGraphicsPathItem@@UEBA_NAEBVQPointF@@@Z
-?contains@QGraphicsPixmapItem@@UEBA_NAEBVQPointF@@@Z
-?contains@QGraphicsSimpleTextItem@@UEBA_NAEBVQPointF@@@Z
 ?contentsMargins@QLayout@@QEBA?AVQMargins@@XZ
 ?contentsMargins@QWidget@@QEBA?AVQMargins@@XZ
 ?contentsRect@QWidget@@QEBA?AVQRect@@XZ
@@ -1956,7 +1900,6 @@ $\t?contains@QRectF@@QEBA_NAEBVQPointF@@@Z
 ?contextMenuEvent@QAbstractSpinBox@@MEAAXPEAVQContextMenuEvent@@@Z
 ?contextMenuEvent@QComboBox@@MEAAXPEAVQContextMenuEvent@@@Z
 ?contextMenuEvent@QDialog@@MEAAXPEAVQContextMenuEvent@@@Z
-?contextMenuEvent@QGraphicsItem@@MEAAXPEAVQGraphicsSceneContextMenuEvent@@@Z
 ?contextMenuEvent@QGraphicsScene@@MEAAXPEAVQGraphicsSceneContextMenuEvent@@@Z
 ?contextMenuEvent@QLabel@@MEAAXPEAVQContextMenuEvent@@@Z
 ?contextMenuEvent@QLineEdit@@MEAAXPEAVQContextMenuEvent@@@Z
@@ -2011,11 +1954,6 @@ $\t?contains@QRectF@@QEBA_NAEBVQPointF@@@Z
 ?isMaximized@QWidget@@QEBA_NXZ
 ?isMinimized@QWidget@@QEBA_NXZ
 ?isNull@QString@@QEBA_NXZ
-?isObscuredBy@QGraphicsEllipseItem@@UEBA_NPEBVQGraphicsItem@@@Z
-?isObscuredBy@QGraphicsItemGroup@@UEBA_NPEBVQGraphicsItem@@@Z
-?isObscuredBy@QGraphicsPathItem@@UEBA_NPEBVQGraphicsItem@@@Z
-?isObscuredBy@QGraphicsPixmapItem@@UEBA_NPEBVQGraphicsItem@@@Z
-?isObscuredBy@QGraphicsSimpleTextItem@@UEBA_NPEBVQGraphicsItem@@@Z
 ?isOpen@QIODevice@@QEBA_NXZ
 ?isRelative@QFileInfo@@QEBA_NXZ
 ?isSequential@QProcess@@UEBA_NXZ
@@ -2024,7 +1962,6 @@ $\t?contains@QRectF@@QEBA_NAEBVQPointF@@@Z
 ?itemAt@QBoxLayout@@UEBAPEAVQLayoutItem@@H@Z
 ?itemAt@QFormLayout@@UEBAPEAVQLayoutItem@@H@Z
 ?itemAt@QGridLayout@@UEBAPEAVQLayoutItem@@H@Z
-?itemChange@QGraphicsItem@@MEAA?AVQVariant@@W4GraphicsItemChange@1@AEBV2@@Z
 ?itemData@QComboBox@@QEBA?AVQVariant@@HH@Z
 ?keyPressEvent@QAbstractButton@@MEAAXPEAVQKeyEvent@@@Z
 ?keyPressEvent@QAbstractItemView@@MEAAXPEAVQKeyEvent@@@Z
@@ -2033,7 +1970,6 @@ $\t?contains@QRectF@@QEBA_NAEBVQPointF@@@Z
 ?keyPressEvent@QAbstractSpinBox@@MEAAXPEAVQKeyEvent@@@Z
 ?keyPressEvent@QComboBox@@MEAAXPEAVQKeyEvent@@@Z
 ?keyPressEvent@QDialog@@MEAAXPEAVQKeyEvent@@@Z
-?keyPressEvent@QGraphicsItem@@MEAAXPEAVQKeyEvent@@@Z
 ?keyPressEvent@QGraphicsScene@@MEAAXPEAVQKeyEvent@@@Z
 ?keyPressEvent@QLabel@@MEAAXPEAVQKeyEvent@@@Z
 ?keyPressEvent@QLineEdit@@MEAAXPEAVQKeyEvent@@@Z
@@ -2048,7 +1984,6 @@ $\t?contains@QRectF@@QEBA_NAEBVQPointF@@@Z
 ?keyReleaseEvent@QAbstractButton@@MEAAXPEAVQKeyEvent@@@Z
 ?keyReleaseEvent@QAbstractSpinBox@@MEAAXPEAVQKeyEvent@@@Z
 ?keyReleaseEvent@QComboBox@@MEAAXPEAVQKeyEvent@@@Z
-?keyReleaseEvent@QGraphicsItem@@MEAAXPEAVQKeyEvent@@@Z
 ?keyReleaseEvent@QGraphicsScene@@MEAAXPEAVQKeyEvent@@@Z
 ?keyReleaseEvent@QPlainTextEdit@@MEAAXPEAVQKeyEvent@@@Z
 ?keyReleaseEvent@QTextEdit@@MEAAXPEAVQKeyEvent@@@Z
@@ -2154,7 +2089,6 @@ $\t?contains@QRectF@@QEBA_NAEBVQPointF@@@Z
 ?model@QAbstractItemView@@QEBAPEAVQAbstractItemModel@@XZ
 ?mouseDoubleClickEvent@QAbstractItemView@@MEAAXPEAVQMouseEvent@@@Z
 ?mouseDoubleClickEvent@QAbstractScrollArea@@MEAAXPEAVQMouseEvent@@@Z
-?mouseDoubleClickEvent@QGraphicsItem@@MEAAXPEAVQGraphicsSceneMouseEvent@@@Z
 ?mouseDoubleClickEvent@QGraphicsScene@@MEAAXPEAVQGraphicsSceneMouseEvent@@@Z
 ?mouseDoubleClickEvent@QLineEdit@@MEAAXPEAVQMouseEvent@@@Z
 ?mouseDoubleClickEvent@QPlainTextEdit@@MEAAXPEAVQMouseEvent@@@Z
@@ -2166,7 +2100,6 @@ $\t?contains@QRectF@@QEBA_NAEBVQPointF@@@Z
 ?mouseMoveEvent@QAbstractScrollArea@@MEAAXPEAVQMouseEvent@@@Z
 ?mouseMoveEvent@QAbstractSpinBox@@MEAAXPEAVQMouseEvent@@@Z
 ?mouseMoveEvent@QCheckBox@@MEAAXPEAVQMouseEvent@@@Z
-?mouseMoveEvent@QGraphicsItem@@MEAAXPEAVQGraphicsSceneMouseEvent@@@Z
 ?mouseMoveEvent@QGraphicsScene@@MEAAXPEAVQGraphicsSceneMouseEvent@@@Z
 ?mouseMoveEvent@QLabel@@MEAAXPEAVQMouseEvent@@@Z
 ?mouseMoveEvent@QLineEdit@@MEAAXPEAVQMouseEvent@@@Z
@@ -2184,7 +2117,6 @@ $\t?contains@QRectF@@QEBA_NAEBVQPointF@@@Z
 ?mousePressEvent@QAbstractScrollArea@@MEAAXPEAVQMouseEvent@@@Z
 ?mousePressEvent@QAbstractSpinBox@@MEAAXPEAVQMouseEvent@@@Z
 ?mousePressEvent@QComboBox@@MEAAXPEAVQMouseEvent@@@Z
-?mousePressEvent@QGraphicsItem@@MEAAXPEAVQGraphicsSceneMouseEvent@@@Z
 ?mousePressEvent@QGraphicsScene@@MEAAXPEAVQGraphicsSceneMouseEvent@@@Z
 ?mousePressEvent@QLabel@@MEAAXPEAVQMouseEvent@@@Z
 ?mousePressEvent@QLineEdit@@MEAAXPEAVQMouseEvent@@@Z
@@ -2200,7 +2132,6 @@ $\t?contains@QRectF@@QEBA_NAEBVQPointF@@@Z
 ?mouseReleaseEvent@QAbstractScrollArea@@MEAAXPEAVQMouseEvent@@@Z
 ?mouseReleaseEvent@QAbstractSpinBox@@MEAAXPEAVQMouseEvent@@@Z
 ?mouseReleaseEvent@QComboBox@@MEAAXPEAVQMouseEvent@@@Z
-?mouseReleaseEvent@QGraphicsItem@@MEAAXPEAVQGraphicsSceneMouseEvent@@@Z
 ?mouseReleaseEvent@QGraphicsScene@@MEAAXPEAVQGraphicsSceneMouseEvent@@@Z
 ?mouseReleaseEvent@QLabel@@MEAAXPEAVQMouseEvent@@@Z
 ?mouseReleaseEvent@QLineEdit@@MEAAXPEAVQMouseEvent@@@Z
@@ -2213,7 +2144,6 @@ $\t?contains@QRectF@@QEBA_NAEBVQPointF@@@Z
 ?mouseReleaseEvent@QTreeView@@MEAAXPEAVQMouseEvent@@@Z
 ?mouseReleaseEvent@QWidget@@MEAAXPEAVQMouseEvent@@@Z
 ?move@QWidget@@QEAAXAEBVQPoint@@@Z
-?moveBy@QGraphicsItem@@QEAAXNN@Z
 ?moveCenter@QRect@@QEAAXAEBVQPoint@@@Z
 ?moveCursor@QListView@@MEAA?AVQModelIndex@@W4CursorAction@QAbstractItemView@@V?$QFlags@W4KeyboardModifier@Qt@@@@@Z
 ?moveCursor@QPlainTextEdit@@QEAAXW4MoveOperation@QTextCursor@@W4MoveMode@3@@Z
@@ -2241,20 +2171,10 @@ $\t?contains@QRectF@@QEBA_NAEBVQPointF@@@Z
 ?number@QString@@SA?AV1@IH@Z
 ?number@QString@@SA?AV1@NDH@Z
 ?number@QString@@SA?AV1@_KH@Z
-?opaqueArea@QGraphicsEllipseItem@@UEBA?AVQPainterPath@@XZ
-?opaqueArea@QGraphicsItemGroup@@UEBA?AVQPainterPath@@XZ
-?opaqueArea@QGraphicsPathItem@@UEBA?AVQPainterPath@@XZ
-?opaqueArea@QGraphicsPixmapItem@@UEBA?AVQPainterPath@@XZ
-?opaqueArea@QGraphicsSimpleTextItem@@UEBA?AVQPainterPath@@XZ
 ?open@QDialog@@UEAAXXZ
 ?open@QFile@@UEAA_NV?$QFlags@W4OpenModeFlag@QIODevice@@@@@Z
 ?open@QProcess@@UEAA_NV?$QFlags@W4OpenModeFlag@QIODevice@@@@@Z
 ?out@?$codecvt@_WDU_Mbstatet@@@std@@QEBAHAEAU_Mbstatet@@PEB_W1AEAPEB_WPEAD3AEAPEAD@Z
-?paint@QGraphicsEllipseItem@@UEAAXPEAVQPainter@@PEBVQStyleOptionGraphicsItem@@PEAVQWidget@@@Z
-?paint@QGraphicsItemGroup@@UEAAXPEAVQPainter@@PEBVQStyleOptionGraphicsItem@@PEAVQWidget@@@Z
-?paint@QGraphicsPathItem@@UEAAXPEAVQPainter@@PEBVQStyleOptionGraphicsItem@@PEAVQWidget@@@Z
-?paint@QGraphicsPixmapItem@@UEAAXPEAVQPainter@@PEBVQStyleOptionGraphicsItem@@PEAVQWidget@@@Z
-?paint@QGraphicsSimpleTextItem@@UEAAXPEAVQPainter@@PEBVQStyleOptionGraphicsItem@@PEAVQWidget@@@Z
 ?paint@QStyledItemDelegate@@UEBAXPEAVQPainter@@AEBVQStyleOptionViewItem@@AEBVQModelIndex@@@Z
 ?paintEngine@QGLFramebufferObject@@UEBAPEAVQPaintEngine@@XZ
 ?paintEngine@QWidget@@UEBAPEAVQPaintEngine@@XZ
@@ -2283,10 +2203,8 @@ $\t?contains@QRectF@@QEBA_NAEBVQPointF@@@Z
 ?parent@QObject@@QEBAPEAV1@XZ
 ?path@QUrl@@QEBA?AVQString@@V?$QFlags@W4ComponentFormattingOption@QUrl@@@@@Z
 ?peekNext@QRegularExpressionMatchIterator@@QEBA?AVQRegularExpressionMatch@@XZ
-?pixmap@QGraphicsPixmapItem@@QEBA?AVQPixmap@@XZ
 ?pixmap@QLabel@@QEBAPEBVQPixmap@@XZ
 ?play@QSoundEffect@@QEAAXXZ
-?pos@QGraphicsItem@@QEBA?AVQPointF@@XZ
 ?pos@QIODevice@@UEBA_JXZ
 ?pos@QWidget@@QEBA?AVQPoint@@XZ
 ?prepend@QListData@@QEAAPEAPEAXXZ
@@ -2419,7 +2337,6 @@ $\t?contains@QRectF@@QEBA_NAEBVQPointF@@@Z
 ?remove@QString@@QEAAAEAV1@HH@Z
 ?remove@QString@@QEAAAEAV1@VQChar@@W4CaseSensitivity@Qt@@@Z
 ?removeAction@QWidget@@QEAAXPEAVQAction@@@Z
-?removeItem@QGraphicsScene@@QEAAXPEAVQGraphicsItem@@@Z
 ?removeNativeEventFilter@QCoreApplication@@QEAAXPEAVQAbstractNativeEventFilter@@@Z
 ?removeRecursively@QDir@@QEAA_NXZ
 ?removeWidget@QLayout@@QEAAXPEAVQWidget@@@Z
@@ -2467,10 +2384,6 @@ $\t?contains@QRectF@@QEBA_NAEBVQPointF@@@Z
 ?saveState@QHeaderView@@QEBA?AVQByteArray@@XZ
 ?sbumpc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QEAAHXZ
 ?scaled@QSize@@QEBA?AV1@AEBV1@W4AspectRatioMode@Qt@@@Z
-?scene@QGraphicsView@@QEBAPEAVQGraphicsScene@@XZ
-?sceneEvent@QGraphicsItem@@MEAA_NPEAVQEvent@@@Z
-?sceneEventFilter@QGraphicsItem@@MEAA_NPEAV1@PEAVQEvent@@@Z
-?scenePos@QGraphicsItem@@QEBA?AVQPointF@@XZ
 ?screenGeometry@QDesktopWidget@@QEBA?BVQRect@@H@Z
 ?screenNumber@QDesktopWidget@@QEBAHAEBVQPoint@@@Z
 ?screenNumber@QDesktopWidget@@QEBAHPEBVQWidget@@@Z
@@ -2513,7 +2426,6 @@ $\t?contains@QRectF@@QEBA_NAEBVQPointF@@@Z
 ?setBackgroundColor@QListWidgetItem@@UEAAXAEBVQColor@@@Z
 ?setBackgroundColor@QTreeWidgetItem@@QEAAXHAEBVQColor@@@Z
 ?setBackgroundRole@QWidget@@QEAAXW4ColorRole@QPalette@@@Z
-?setBrush@QAbstractGraphicsShapeItem@@QEAAXAEBVQBrush@@@Z
 ?setButton@QGraphicsSceneMouseEvent@@QEAAXW4MouseButton@Qt@@@Z
 ?setButtonDownPos@QGraphicsSceneMouseEvent@@QEAAXW4MouseButton@Qt@@AEBVQPointF@@@Z
 ?setButtonDownScenePos@QGraphicsSceneMouseEvent@@QEAAXW4MouseButton@Qt@@AEBVQPointF@@@Z
@@ -2541,7 +2453,6 @@ $\t?contains@QRectF@@QEBA_NAEBVQPointF@@@Z
 ?setCurrentRow@QListWidget@@QEAAXH@Z
 ?setCurrentWidget@QTabWidget@@QEAAXPEAVQWidget@@@Z
 ?setCursor@QWidget@@QEAAXAEBVQCursor@@@Z
-?setData@QGraphicsItem@@QEAAXHAEBVQVariant@@@Z
 ?setData@QListWidgetItem@@UEAAXHAEBVQVariant@@@Z
 ?setData@QTreeWidgetItem@@UEAAXHHAEBVQVariant@@@Z
 ?setDefault@QPushButton@@QEAAX_N@Z
@@ -2559,19 +2470,12 @@ $\t?contains@QRectF@@QEBA_NAEBVQPointF@@@Z
 ?setEnabled@QGraphicsEffect@@QEAAX_N@Z
 ?setEnabled@QWidget@@QEAAX_N@Z
 ?setEndValue@QVariantAnimation@@QEAAXAEBVQVariant@@@Z
-?setExtension@QGraphicsEllipseItem@@MEAAXW4Extension@QGraphicsItem@@AEBVQVariant@@@Z
-?setExtension@QGraphicsItem@@MEAAXW4Extension@1@AEBVQVariant@@@Z
-?setExtension@QGraphicsPathItem@@MEAAXW4Extension@QGraphicsItem@@AEBVQVariant@@@Z
-?setExtension@QGraphicsPixmapItem@@MEAAXW4Extension@QGraphicsItem@@AEBVQVariant@@@Z
-?setExtension@QGraphicsSimpleTextItem@@MEAAXW4Extension@QGraphicsItem@@AEBVQVariant@@@Z
 ?setFile@QFileInfo@@QEAAXAEBVQString@@@Z
 ?setFileName@QFile@@QEAAXAEBVQString@@@Z
 ?setFixedHeight@QWidget@@QEAAXH@Z
 ?setFixedSize@QWidget@@QEAAXAEBVQSize@@@Z
 ?setFixedSize@QWidget@@QEAAXHH@Z
 ?setFixedWidth@QWidget@@QEAAXH@Z
-?setFlag@QGraphicsItem@@QEAAXW4GraphicsItemFlag@1@_N@Z
-?setFlags@QGraphicsItem@@QEAAXV?$QFlags@W4GraphicsItemFlag@QGraphicsItem@@@@@Z
 ?setFlags@QTreeWidgetItem@@QEAAXV?$QFlags@W4ItemFlag@Qt@@@@@Z
 ?setFocus@QWidget@@QEAAXW4FocusReason@Qt@@@Z
 ?setFocusPolicy@QWidget@@QEAAXW4FocusPolicy@Qt@@@Z
@@ -2635,15 +2539,12 @@ $\t?contains@QRectF@@QEBA_NAEBVQPointF@@@Z
 ?setPalette@QWidget@@QEAAXAEBVQPalette@@@Z
 ?setParent@QObject@@QEAAXPEAV1@@Z
 ?setParent@QWidget@@QEAAXPEAV1@@Z
-?setPath@QGraphicsPathItem@@QEAAXAEBVQPainterPath@@@Z
 ?setPattern@QRegularExpression@@QEAAXAEBVQString@@@Z
 ?setPatternOptions@QRegularExpression@@QEAAXV?$QFlags@W4PatternOption@QRegularExpression@@@@@Z
-?setPen@QAbstractGraphicsShapeItem@@QEAAXAEBVQPen@@@Z
 ?setPermissions@QFile@@UEAA_NV?$QFlags@W4Permission@QFileDevice@@@@@Z
 ?setPixmap@QLabel@@QEAAXAEBVQPixmap@@@Z
 ?setPlaceholderText@QLineEdit@@QEAAXAEBVQString@@@Z
 ?setPlaceholderText@QPlainTextEdit@@QEAAXAEBVQString@@@Z
-?setPos@QGraphicsItem@@QEAAXAEBVQPointF@@@Z
 ?setPos@QGraphicsSceneMouseEvent@@QEAAXAEBVQPointF@@@Z
 ?setProcessEnvironment@QProcess@@QEAAXAEBVQProcessEnvironment@@@Z
 ?setProperty@QObject@@QEAA_NPEBDAEBVQVariant@@@Z
@@ -2678,8 +2579,6 @@ $\t?contains@QRectF@@QEBA_NAEBVQPointF@@@Z
 ?setSource@QTextBrowser@@UEAAXAEBVQUrl@@@Z
 ?setSpacing@QBoxLayout@@QEAAXH@Z
 ?setSpacing@QGridLayout@@QEAAXH@Z
-?setSpanAngle@QGraphicsEllipseItem@@QEAAXH@Z
-?setStartAngle@QGraphicsEllipseItem@@QEAAXH@Z
 ?setStartValue@QVariantAnimation@@QEAAXAEBVQVariant@@@Z
 ?setStretch@QBoxLayout@@QEAAXHH@Z
 ?setStretchFactor@QSplitter@@QEAAXHH@Z
@@ -2702,10 +2601,8 @@ $\t?contains@QRectF@@QEBA_NAEBVQPointF@@@Z
 ?setTextInteractionFlags@QTextEdit@@QEAAXV?$QFlags@W4TextInteractionFlag@Qt@@@@@Z
 ?setThreadPool@QFutureInterfaceBase@@QEAAXPEAVQThreadPool@@@Z
 ?setTitle@QMenu@@QEAAXAEBVQString@@@Z
-?setToolTip@QGraphicsItem@@QEAAXAEBVQString@@@Z
 ?setToolTip@QSystemTrayIcon@@QEAAXAEBVQString@@@Z
 ?setToolTip@QWidget@@QEAAXAEBVQString@@@Z
-?setTransform@QGraphicsView@@QEAAXAEBVQTransform@@_N@Z
 ?setValue@QAbstractSlider@@QEAAXH@Z
 ?setValue@QDoubleSpinBox@@QEAAXN@Z
 ?setValue@QProgressDialog@@QEAAXH@Z
@@ -2714,7 +2611,6 @@ $\t?contains@QRectF@@QEBA_NAEBVQPointF@@@Z
 ?setVerticalScrollBarPolicy@QAbstractScrollArea@@QEAAXW4ScrollBarPolicy@Qt@@@Z
 ?setVisible@QAction@@QEAAX_N@Z
 ?setVisible@QDialog@@UEAAX_N@Z
-?setVisible@QGraphicsItem@@QEAAX_N@Z
 ?setVisible@QSystemTrayIcon@@QEAAX_N@Z
 ?setVisible@QWidget@@UEAAX_N@Z
 ?setVolume@QSoundEffect@@QEAAXN@Z
@@ -2728,18 +2624,12 @@ $\t?contains@QRectF@@QEBA_NAEBVQPointF@@@Z
 ?setWindowTitle@QWidget@@QEAAXAEBVQString@@@Z
 ?setWordWrap@QLabel@@QEAAX_N@Z
 ?setWorkingDirectory@QProcess@@QEAAXAEBVQString@@@Z
-?setZValue@QGraphicsItem@@QEAAXN@Z
 ?setbuf@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAPEAV12@PEAD_J@Z
 ?setstate@?$basic_ios@DU?$char_traits@D@std@@@std@@QEAAXH_N@Z
 ?setupChildProcess@QProcess@@MEAAXXZ
 ?setupViewport@QAbstractScrollArea@@UEAAXPEAVQWidget@@@Z
 ?setw@std@@YA?AU?$_Smanip@_J@1@_J@Z
 ?sgetc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QEAAHXZ
-?shape@QGraphicsEllipseItem@@UEBA?AVQPainterPath@@XZ
-?shape@QGraphicsItem@@UEBA?AVQPainterPath@@XZ
-?shape@QGraphicsPathItem@@UEBA?AVQPainterPath@@XZ
-?shape@QGraphicsPixmapItem@@UEBA?AVQPainterPath@@XZ
-?shape@QGraphicsSimpleTextItem@@UEBA?AVQPainterPath@@XZ
 ?sharedPainter@QWidget@@MEBAPEAVQPainter@@XZ
 ?shared_null@QArrayData@@2QBU1@B
 ?shared_null@QHashData@@2U1@B
@@ -2795,7 +2685,6 @@ $\t?contains@QRectF@@QEBA_NAEBVQPointF@@@Z
 ?snextc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QEAAHXZ
 ?sourceChanged@QGraphicsEffect@@MEAAXV?$QFlags@W4ChangeFlag@QGraphicsEffect@@@@@Z
 ?spacerItem@QLayoutItem@@UEAAPEAVQSpacerItem@@XZ
-?spanAngle@QGraphicsEllipseItem@@QEBAHXZ
 ?split@QString@@QEBA?AVQStringList@@AEBV1@W4SplitBehavior@1@W4CaseSensitivity@Qt@@@Z
 ?split@QString@@QEBA?AVQStringList@@VQChar@@W4SplitBehavior@1@W4CaseSensitivity@Qt@@@Z
 ?sprintf@QString@@QEAAAEAV1@PEBDZZ
@@ -2823,7 +2712,6 @@ $\t?contains@QRectF@@QEBA_NAEBVQPointF@@@Z
 ?staticMetaObject@QCoreApplication@@2UQMetaObject@@B
 ?staticMetaObject@QDialog@@2UQMetaObject@@B
 ?staticMetaObject@QFrame@@2UQMetaObject@@B
-?staticMetaObject@QGraphicsView@@2UQMetaObject@@B
 ?staticMetaObject@QLabel@@2UQMetaObject@@B
 ?staticMetaObject@QMediaPlayer@@2UQMetaObject@@B
 ?staticMetaObject@QNetworkAccessManager@@2UQMetaObject@@B
@@ -2853,11 +2741,6 @@ $\t?contains@QRectF@@QEBA_NAEBVQPointF@@@Z
 ?supportedDropActions@QListWidget@@MEBA?AV?$QFlags@W4DropAction@Qt@@@@XZ
 ?supportedDropActions@QTableWidget@@MEBA?AV?$QFlags@W4DropAction@Qt@@@@XZ
 ?supportedDropActions@QTreeWidget@@MEBA?AV?$QFlags@W4DropAction@Qt@@@@XZ
-?supportsExtension@QGraphicsEllipseItem@@MEBA_NW4Extension@QGraphicsItem@@@Z
-?supportsExtension@QGraphicsItem@@MEBA_NW4Extension@1@@Z
-?supportsExtension@QGraphicsPathItem@@MEBA_NW4Extension@QGraphicsItem@@@Z
-?supportsExtension@QGraphicsPixmapItem@@MEBA_NW4Extension@QGraphicsItem@@@Z
-?supportsExtension@QGraphicsSimpleTextItem@@MEBA_NW4Extension@QGraphicsItem@@@Z
 ?sync@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAHXZ
 ?sync@QSettings@@QEAAXXZ
 ?systemEnvironment@QProcessEnvironment@@SA?AV1@XZ
@@ -2926,7 +2809,6 @@ $\t?contains@QRectF@@QEBA_NAEBVQPointF@@@Z
 ?topLevelItemCount@QTreeWidget@@QEBAHXZ
 ?tr@QMetaObject@@QEBA?AVQString@@PEBD0H@Z
 ?tr@QObject@@SA?AVQString@@PEBD0H@Z
-?transform@QGraphicsView@@QEBA?AVQTransform@@XZ
 ?translate@QTranslator@@UEBA?AVQString@@PEBD00H@Z
 ?translated@QRect@@QEBA?AV1@HH@Z
 ?triggered@QAction@@QEAAX_N@Z
@@ -3026,6 +2908,7 @@ Application GPU (pre)
 Application Interval
 Area
 Args
+Argument of %d bytes exceeds the %d byte limit of the vrmonitor argument channel, dropping it\n
 Arial
 Assert( %s ) %s(%d)\n
 Async Reprojection:\t%1\n
@@ -3047,6 +2930,7 @@ Audio Firmware: \t%1 / %2 %3\n
 AudioBridge
 AudioDeviceChangeNotice (noting refresh): %d, device = %s\n
 AudioWorker
+Aug  7 2026
 Autoplaying loaded playlist\n
 AvRevertMmThreadCharacteristics
 AvRevertMmThreadCharacteristics failed: last error is %d\n
@@ -3293,7 +3177,6 @@ CQHeadsetViewRenderThread::render
 CQHeadsetViewWidget
 CQHeadsetViewWindow
 CQHorizontalSpacerWidget
-CQJumpList
 CQKnockKnockWindow
 CQLabelWithDragAndDrop
 CQMessageBoxLabel
@@ -3301,9 +3184,7 @@ CQMessageBoxPushButton
 CQPreviewReport
 CQRebootHelper
 CQRebootHelper::IHardwareRebootHelper
-CQRoomOverviewGraphicsView
 CQScanForBaseStationsWindow
-CQSliderVRHMD
 CQSteamInitWorker
 CQSteamStatusAlertLabel
 CQSteamStatusPopoverLabel
@@ -3347,7 +3228,6 @@ CQVRBugReporter
 CQVRComboBox
 CQVRController
 CQVRController::CheckHmdDriverName
-CQVRControllerStatusOverlay
 CQVRDismissableWarningEntry
 CQVRDismissableWarningEntry::OnDismissButtonClicked
 CQVRDismissableWarningLabel
@@ -3449,7 +3329,6 @@ CQVRStatusController
 CQVRStatusDismissableWarning
 CQVRStatusObject
 CQVRStatusPopover
-CQVRStatusPopoverBaseStationNoPowerManagement
 CQVRStatusPopoverBaseStationsTooFarApart
 CQVRStatusPopoverChaperoneWarning
 CQVRStatusPopoverConnectionRefusedBySteam
@@ -4601,7 +4480,6 @@ JN?metaObject@QMovie@@UEBAPEBUQMetaObject@@XZ
 J\n?drawForeground@QGraphicsScene@@MEAAXPEAVQPainter@@AEBVQRectF@@@Z
 J\r?indexOf@QString@@QEBAHVQChar@@HW4CaseSensitivity@Qt@@@Z
 J\t?brush@QPainter@@QEBAAEBVQBrush@@XZ
-Jul 20 2026
 K32EnumProcessModules
 K32EnumProcesses
 K32GetModuleBaseNameA
@@ -4718,7 +4596,6 @@ Low Power Watchdog Not Supported (129)
 LowerText
 M?logicalDotsPerInch@QScreen@@QEBANXZ
 M?makeCurrent@QOpenGLContext@@QEAA_NPEAVQSurface@@@Z
-M?map@QTransform@@QEBA?AVQPointF@@AEBV2@@Z
 M?mapRect@QTransform@@QEBA?AVQRect@@AEBV2@@Z
 MFCreateMediaType
 MFCreateMemoryBuffer
@@ -4755,7 +4632,6 @@ MenuAction_BaseStationSettings
 MenuAction_BluetoothSettings
 MenuAction_CalibrateController
 MenuAction_ClearRecentPlaylist
-MenuAction_Crash
 MenuAction_CreateSystemReport
 MenuAction_DebugCommands
 MenuAction_Developer
@@ -4780,21 +4656,16 @@ MenuAction_PowerOffController
 MenuAction_PowerOffTracker
 MenuAction_Quit
 MenuAction_RebootVive
-MenuAction_RecentPlaylist
 MenuAction_RecentPlaylists
 MenuAction_Recenter
-MenuAction_RecordTrackingData
 MenuAction_ReportABug
 MenuAction_RunMediaPlayer
 MenuAction_RunPlaylist
 MenuAction_RunRoomSetup
 MenuAction_RunTutorial
 MenuAction_Settings
-MenuAction_ShowConfigDirectory
 MenuAction_ShowControllerBinding
-MenuAction_ShowLogDirectory
 MenuAction_ShowManageTrackers
-MenuAction_ShowRuntimeDirectory
 MenuAction_StatusBar
 MenuAction_SteamVRCommunity
 MenuAction_SteamVRCommunity_URL
@@ -4806,11 +4677,9 @@ MenuAction_SteamVRWebsite
 MenuAction_SteamVRWebsite_URL
 MenuAction_SteamWorksDeveloperSupport
 MenuAction_SteamWorksDeveloperSupport_URL
-MenuAction_StopRecording
 MenuAction_SystemReportViewer
 MenuAction_ToggleDashboard
 MenuAction_UpdateFirmware
-MenuAction_ViewLogDirectory
 MenuAction_WebConsole
 MenuAction_WebDevTools
 MenuAction_WebDevToolsPlaceholder
@@ -4897,6 +4766,7 @@ N?modifiers@QKeyEvent@@QEBA?AV?$QFlags@W4KeyboardModifier@Qt@@@@XZ
 N?mouseButtons@QGuiApplication@@SA?AV?$QFlags@W4MouseButton@Qt@@@@XZ
 N?moveTo@QPainterPath@@QEAAXAEBVQPointF@@@Z
 N?name@QColor@@QEBA?AVQString@@XZ
+N@33
 NAME
 NOTPRESENT
 NRFSerLib_GetBaseStationWirelessInterface
@@ -5076,7 +4946,6 @@ OnCurrentProcessStateChanged
 OnCurrentTabIndexChanged
 OnDebugCommands
 OnDefaultDeviceChanged: flow = %s, role = %s, device = %s\n
-OnDeleteControlPointAction
 OnDeletePlaylistEntry
 OnDeleteProcess
 OnDescriptionChanged
@@ -5154,7 +5023,6 @@ OnIdentifyTimeout
 OnIgnoreDismissableWarning
 OnIndexCameraFirmwareRecovery
 OnIndexControllerActivityTimeout
-OnInsertControlPointAction
 OnInstallDriver
 OnIntervalTimeout
 OnKnockKnock
@@ -5396,7 +5264,6 @@ OnStopPlaylistAction
 OnStopSteamVRAction
 OnSubjectChanged
 OnSubmit
-OnSupportTool
 OnSurpressWarnings
 OnSwitchRefreshRate
 OnSystemInactivityTimeout
@@ -5416,12 +5283,10 @@ OnToggleDashboardAction
 OnToggleHDCPCompatibility
 OnToggleHeadsetView
 OnTrackedDeviceActivated
-OnTrackingData
 OnTreeEntriesItemChanged
 OnTreeHeaderResized
 OnTreeItemSelectionChanged
 OnUndockHeadsetViewClicked
-OnUpdateContents
 OnUpdateDevice
 OnUpdateDeviceDone
 OnUpdateFirmware
@@ -5835,10 +5700,10 @@ R?scaledSize@QMovie@@QEAA?AVQSize@@XZ
 R?screens@QGuiApplication@@SA?AV?$QList@PEAVQScreen@@@@XZ
 REFRESH
 RPCRT4.dll
-RSDS96
+RSDST
 RSSI: %1\n
 R\v?find@QPlainTextEdit@@QEAA_NAEBVQString@@V?$QFlags@W4FindFlag@QTextDocument@@@@@Z
-R\vptU
+R\vpt
 Radio
 Radio Version:
 Radio Version: \t%1 / %2 %3 %4\n
@@ -5986,7 +5851,6 @@ SIG_ChaperoneDataHasChanged
 SIG_Clicked
 SIG_CloseHeadsetViewClicked
 SIG_Closed
-SIG_CollisionBoundsChanged
 SIG_ContentIsAvailable
 SIG_DesktopStylesheetHasChanged
 SIG_DeviceChanged
@@ -6027,7 +5891,6 @@ SIG_TenSecondsSinceStartup
 SIG_TetherDisconnected
 SIG_TetherReconnected
 SIG_UndockHeadsetViewClicked
-SIG_UpdateMeasurement
 SIG_UpdateProgressLabel
 SIG_VREvent_ApplicationStateHasChanged
 SIG_VREvent_BackgroundSettingHasChanged
@@ -6074,8 +5937,6 @@ SIG_VREvent_UserInterfaceSectionSettingChanged
 SIG_VRInitFail
 SIG_VRInitSuccess
 SIG_VRStylesheetHasChanged
-SIG_ValueChanged
-SIG_ValueDragReleased
 SIG_WakingBaseStationsStateChanged
 SIG_WidgetVisibilityChanged
 SIG_WiredUpdateFinished
@@ -6127,16 +5988,9 @@ SetFilePointer
 SetLastError
 SetNamedPipeHandleState
 SetNamedPipeHandleState(error_no:%ld) is failed!!\n
-SetPercentValue
 SetPlaybackVolumeGainStatus
-SetRecommendedPercentValue
 SetSecurityDescriptorDacl
-SetToOneHundredPercent
-SetToRecommended
 SetUnhandledExceptionFilter
-SetUpdateOnlyOnMouseReleaseEnabled
-SetValue
-SetValueDirect
 SetWindowLongPtrA
 SetWindowLongPtrW
 SetWindowPos
@@ -6379,7 +6233,6 @@ SystemReport_DiscoverDisplays
 SystemReport_DiscoverDriverSpecific
 SystemReport_DiscoverLighthouseDB
 SystemReport_DiscoverUSB
-SystemReport_Issues
 SystemReport_LighthouseDB
 SystemReport_Logs
 SystemReport_Main
@@ -6554,7 +6407,6 @@ UnmapViewOfFile
 Unpaused
 UnregisterHotKey
 Unset or Default
-Update Chaperone Data in Room Setup Window\n
 Update necessary\n
 UpdateApplicationLabel
 UpdatePhase
@@ -6878,7 +6730,6 @@ VW?size@QPixmap@@QEBA?AVQSize@@XZ
 Valve
 VerQueryValueA
 VerSetConditionMask
-Verdana
 VerifyVersionInfoW
 Version
 Version:\t(?<VALUE>.*)
@@ -6962,7 +6813,6 @@ Windows ME
 Windows NT
 Windows Vista
 Windows XP
-Wired
 Wireless Dongle Update: %s\n
 WorkshopUpload_Cancel
 WorkshopUpload_Desc
@@ -7254,8 +7104,6 @@ Zjz\v
 [Translator] Failed to load vrmonitor_english.txt\n
 [Translator] Failed to load vrmonitor_errors_%s.txt\n
 [Translator] Failed to load vrmonitor_errors_english.txt\n
-[Translator] Failed to load vrmonitor_issues_%s.txt\n
-[Translator] Failed to load vrmonitor_issues_english.txt\n
 [Translator] Loaded vrmonitor_overwrite.txt\n
 [Translator] Loaded vrmonitor_overwrite_%s.txt\n
 [Unknown]
@@ -7272,8 +7120,6 @@ Zjz\v
 \\bugsub.valve.org\bugsub_jira
 \\f?hasHeightForWidth@QGridLayout@@UEBA_NXZ
 \\n?deallocate@QArrayData@@SAXPEAU1@_K1@Z
-\\n?dropEvent@QGraphicsItem@@MEAAXPEAVQGraphicsSceneDragDropEvent@@@Z
-\f ?type@QGraphicsPathItem@@UEBAHXZ
 \f?drawLines@QPainter@@QEAAXAEBV?$QVector@VQPointF@@@@@Z
 \f?drawLines@QPainter@@QEAAXPEBVQLine@@H@Z
 \f?drawLines@QPainter@@QEAAXPEBVQLineF@@H@Z
@@ -7320,15 +7166,8 @@ Zjz\v
 \f?horizontalScrollbarAction@QTableView@@MEAAXH@Z
 \f?horizontalScrollbarAction@QTreeView@@MEAAXH@Z
 \f?horizontalScrollbarValueChanged@QAbstractItemView@@MEAAXH@Z
-\f?hoverEnterEvent@QGraphicsItem@@MEAAXPEAVQGraphicsSceneHoverEvent@@@Z
-\f?hoverLeaveEvent@QGraphicsItem@@MEAAXPEAVQGraphicsSceneHoverEvent@@@Z
-\f?hoverMoveEvent@QGraphicsItem@@MEAAXPEAVQGraphicsSceneHoverEvent@@@Z
 \f\f?getExistingDirectory@QFileDialog@@SA?AVQString@@PEAVQWidget@@AEBV2@1V?$QFlags@W4Option@QFileDialog@@@@@Z
-\fp86
-\fptU
 \mfpmp.exe
-\n ?type@QGraphicsItemGroup@@UEBAHXZ
-\n${Text_ThereMightBeIssuesDisclaimer}\n
 \n==================================================================================================\n\n
 \n?currentFrameNumber@QMovie@@QEBAHXZ
 \n?currentPixmap@QMovie@@QEBA?AVQPixmap@@XZ
@@ -7346,7 +7185,6 @@ Zjz\v
 \n?dragEnterEvent@QWidget@@MEAAXPEAVQDragEnterEvent@@@Z
 \n?dragLeaveEvent@QAbstractItemView@@MEAAXPEAVQDragLeaveEvent@@@Z
 \n?dragLeaveEvent@QAbstractScrollArea@@MEAAXPEAVQDragLeaveEvent@@@Z
-\n?dragLeaveEvent@QGraphicsItem@@MEAAXPEAVQGraphicsSceneDragDropEvent@@@Z
 \n?dragLeaveEvent@QGraphicsScene@@MEAAXPEAVQGraphicsSceneDragDropEvent@@@Z
 \n?dragLeaveEvent@QLineEdit@@MEAAXPEAVQDragLeaveEvent@@@Z
 \n?dragLeaveEvent@QListView@@MEAAXPEAVQDragLeaveEvent@@@Z
@@ -7411,7 +7249,6 @@ Zjz\v
 \nlit data: dyn %ld, stat %ld
 \nlit tree: sent %ld
 \nopt %lu(%lu) stat %lu(%lu) stored %lu lit %u dist %u 
-\r ?type@QGraphicsPixmapItem@@UEBAHXZ
 \r?family@QFont@@QEBA?AVQString@@XZ
 \r?fill@QImage@@QEAAXI@Z
 \r?fill@QPixmap@@QEAAXAEBVQColor@@@Z
@@ -7504,7 +7341,6 @@ Zjz\v
 \v?expandingDirections@QFormLayout@@UEBA?AV?$QFlags@W4Orientation@Qt@@@@XZ
 \v?fileName@QFileInfo@@QEBA?AVQString@@XZ
 \v?files@QFileSystemWatcher@@QEBA?AVQStringList@@XZ
-\v?focusInEvent@QGraphicsItem@@MEAAXPEAVQFocusEvent@@@Z
 \v?focusInEvent@QGraphicsScene@@MEAAXPEAVQFocusEvent@@@Z
 \v?focusInEvent@QLabel@@MEAAXPEAVQFocusEvent@@@Z
 \v?focusInEvent@QLineEdit@@MEAAXPEAVQFocusEvent@@@Z
@@ -7524,7 +7360,6 @@ Zjz\v
 \v?focusOutEvent@QAbstractItemView@@MEAAXPEAVQFocusEvent@@@Z
 \v?focusOutEvent@QAbstractSpinBox@@MEAAXPEAVQFocusEvent@@@Z
 \v?focusOutEvent@QComboBox@@MEAAXPEAVQFocusEvent@@@Z
-\v?focusOutEvent@QGraphicsItem@@MEAAXPEAVQFocusEvent@@@Z
 \v?focusOutEvent@QGraphicsScene@@MEAAXPEAVQFocusEvent@@@Z
 \v?focusOutEvent@QLabel@@MEAAXPEAVQFocusEvent@@@Z
 \v?focusOutEvent@QLineEdit@@MEAAXPEAVQFocusEvent@@@Z
@@ -7538,10 +7373,7 @@ Zjz\v
 \v?frameGeometry@QWidget@@QEBA?AVQRect@@XZ
 \v?geometry@QLayout@@UEBA?AVQRect@@XZ
 \v?geometry@QSystemTrayIcon@@QEBA?AVQRect@@XZ
-\v\n?dragEnterEvent@QGraphicsItem@@MEAAXPEAVQGraphicsSceneDragDropEvent@@@Z
-\vptU
 ^%1( \t|\t)(?<VALUE>.*)
-^M?light@QColor@@QEBA?AV1@H@Z
 ^V?setTransform@QPainter@@QEAAXAEBVQTransform@@_N@Z
 ^\n?dropEvent@QGraphicsScene@@MEAAXPEAVQGraphicsSceneDragDropEvent@@@Z
 ^\s*Hardware revision:\s*(?<HWID>\d{1,8})\s*
@@ -7687,7 +7519,6 @@ atBottom
 atLeft
 atRight
 atTop
-atan2
 atof
 atoi
 audio
@@ -7777,8 +7608,6 @@ bool __cdecl QCustomPlot::removePlottable(class QCPAbstractPlottable *)
 bool __cdecl QCustomPlot::setCurrentLayer(class QCPLayer *)
 bool __cdecl QCustomPlot::setCurrentLayer(const class QString &)
 borderPen
-bounds_label_color
-bounds_point_color
 brazilian
 brush
 brushNegative
@@ -7799,7 +7628,6 @@ c:\buildslave\steamvr_rel_win64\build\src\overlay_viewer\d3drenderer_shared.cpp:
 c:\buildslave\steamvr_rel_win64\build\src\overlay_viewer\d3drenderer_shared.cpp:421
 c:\buildslave\steamvr_rel_win64\build\src\vrmonitor\Retail\win64\2017\vrmonitor.pdb
 c:\buildslave\steamvr_rel_win64\build\src\vrmonitor\imagetool.cpp
-cR?reset@QTransform@@QEAAXXZ
 c\n?dropEvent@QListWidget@@UEAAXPEAVQDropEvent@@@Z
 c\v?finished@QDialog@@QEAAXH@Z
 calibratetrackpad
@@ -7853,7 +7681,6 @@ config:steamvr.vrsettings
 const class QPointF __cdecl QCPAbstractPlottable::coordsToPixels(double,double) const
 const class QPolygonF __cdecl QCPGraph::getChannelFillPolygon(const class QVector<class QPointF> *) const
 content
-control_point_color
 controlpanel
 count
 crash
@@ -7950,6 +7777,7 @@ en_us
 enable
 enableBluetooth
 enableCameraSurfaces
+enableHmdLatencyHidingDisplayOffset
 enableHomeApp
 enableHomeApp2
 enableSafeMode
@@ -8027,9 +7855,6 @@ font-size: 16pt;
 fopen
 forceAudioVolume
 forceFadeOnBadTracking
-fov1_color
-fov2_color
-fov3_color
 fpga
 fputs
 fr_fr
@@ -8046,7 +7871,6 @@ ftell
 fullFilename
 fwrite
 g\n?dropEvent@QTreeWidget@@MEAAXPEAVQDropEvent@@@Z
-g\v?fitInView@QGraphicsView@@QEAAXAEBVQRectF@@W4AspectRatioMode@Qt@@@Z
 german
 getDeviceProperty returned empty\n
 getDeviceProperty returned wrong type %d\n
@@ -8082,10 +7906,6 @@ graphKey
 greek
 green_color
 grid
-grid_background_color
-grid_color
-grid_width
-h:mm ap
 hContext
 hK?initPainter@QPaintDevice@@MEBAXPEAVQPainter@@@Z
 hWebConsole
@@ -8142,12 +7962,6 @@ iconBorderPen
 iconSize
 iconTextPadding
 icon_column_width
-iconname_base
-iconname_controller
-iconname_headset
-iconname_origin
-iconname_tracker
-iconname_unknown
 icons
 icons:about_steamvr.png
 icons:app_icon.png
@@ -8243,7 +8057,6 @@ item not in list:
 itemClick
 itemDoubleClick
 j\f?drawEllipse@QPainter@@QEAAXAEBVQRect@@@Z
-j\r?inputMethodEvent@QGraphicsItem@@MEAAXPEAVQInputMethodEvent@@@Z
 ja_jp
 japanese
 jsonData
@@ -8265,7 +8078,6 @@ label
 labelColor
 labelFont
 labelPadding
-label_text_color
 lastVersionNotice
 lastVersionNoticeDate
 latam
@@ -8338,8 +8150,6 @@ map/set<T> too long
 margins
 maximum
 maximumSize
-measure_color
-measure_text_color
 median
 medianPen
 memchr
@@ -8494,8 +8304,6 @@ play
 playAreaColor
 playSoundBeforeEnd
 playSoundBeforeEndSeconds
-play_area_color
-play_area_outline_color
 playlist
 playlist/lastSavedPath
 playlist/recent
@@ -8547,7 +8355,6 @@ q\t?createData@QMapDataBase@@SAPEAU1@XZ
 q\v?erase@QListData@@QEAAPEAPEAXPEAPEAX@Z
 quit
 r\r?inputMethodEvent@QWidget@@MEAAXPEAVQInputMethodEvent@@@Z
-r\v?flags@QGraphicsItem@@QEBA?AV?$QFlags@W4GraphicsItemFlag@QGraphicsItem@@@@XZ
 rand
 range
 rangeChanged
@@ -8672,7 +8479,6 @@ setupwindow
 shaders/d3d11/overlay_viewer_ps.fxo
 shaders/d3d11/overlay_viewer_vs.fxo
 shell32.dll,Control_RunDLL mmsys.cpl,,0
-showIssues
 showMirrorView
 showPerfGraph
 show_window
@@ -8813,7 +8619,6 @@ subTickPen
 successful
 supersampleManualOverride
 supersampleScale
-supporttool
 supporttool/lastFile
 surpresswarnings
 sv_se
@@ -8865,11 +8670,9 @@ togglehdcpcompatibility
 tolower
 too many codes
 tools
-tooltip_text_color
 tr_tr
 trackedCamera
 trackers
-trackingdata
 trackpadcalibrate
 transformMode
 transformationMode
@@ -8878,8 +8681,6 @@ translations:vrmonitor_
 translations:vrmonitor_english.txt
 translations:vrmonitor_errors_
 translations:vrmonitor_errors_english.txt
-translations:vrmonitor_issues_
-translations:vrmonitor_issues_english.txt
 translations:vrmonitor_overwrite.txt
 translations:vrmonitor_overwrite_
 triage*
@@ -9020,6 +8821,9 @@ vrlink
 vrmCheckForSteam
 vrmStatusCheckInterval
 vrmonitor
+vrmonitor argument channel is corrupt, discarding %d bytes\n
+vrmonitor argument channel is corrupt, resetting it\n
+vrmonitor argument channel is full (%d of %d bytes used), dropping argument\n
 vrmonitor.exe
 vrmonitor.txt
 vrmonitor://
@@ -9088,7 +8892,6 @@ workshop_%s/lastFile
 wtAbsolute
 wtAxisRectRatio
 wtPlotCoords
-x\r?inputMethodQuery@QGraphicsItem@@MEBA?AVQVariant@@W4InputMethodQuery@Qt@@@Z
 xrclient_*.txt
 y\n?create@QOffscreenSurface@@QEAAXXZ
 z\f?heightForWidth@QBoxLayout@@UEBAHH@Z

@@ -289,6 +289,7 @@ OpenProcessToken failed. GetLastError returned: %d\n
 Out of thread local storage!\n
 Parsing of JSON file "%s" failed: %s\n
 PeekNamedPipe
+Qqvj
 QueryPerformanceCounter
 RSDS
 RaiseException
@@ -508,6 +509,7 @@ driver_lighthouse
 driver_null
 enable
 enableCameraSurfaces
+enableHmdLatencyHidingDisplayOffset
 enableHomeApp
 enableHomeApp2
 environmentMode

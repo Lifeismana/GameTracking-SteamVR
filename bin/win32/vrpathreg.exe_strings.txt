@@ -242,6 +242,7 @@
 .idata$4
 .idata$5
 .idata$6
+.qvj
 .rdata
 .rdata$T
 .rdata$r
@@ -516,7 +517,7 @@ PeekNamedPipe
 Pex?0
 QueryDepthSList
 QueryPerformanceCounter
-RSDSs=\nxk
+RSDS
 RaiseException
 ReadConsoleW
 ReadFile

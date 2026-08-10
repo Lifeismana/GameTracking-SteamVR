@@ -497,6 +497,9 @@
 			"sources": [
 				{
 					"mode": "button",
+					"parameters": {
+						"haptic_amplitude": "0"
+					},
 					"path": "/user/hand/left/input/trigger",
 					"inputs": {
 						"click": {
@@ -506,6 +509,9 @@
 				},
 				{
 					"mode": "button",
+					"parameters": {
+						"haptic_amplitude": "0"
+					},
 					"path": "/user/hand/right/input/trigger",
 					"inputs": {
 						"click": {

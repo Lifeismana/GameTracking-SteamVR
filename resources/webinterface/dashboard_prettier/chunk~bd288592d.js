@@ -1,4 +1,4 @@
-var CLSTAMP = "10838627";
+var CLSTAMP = "10893990";
 (self.webpackChunkvrwebui = self.webpackChunkvrwebui || []).push([
   [452],
   {
@@ -778,12 +778,12 @@ var CLSTAMP = "10838627";
         ComputeControllerTypeScore(e) {
           let t = this.CountDevicesWithControllerType(e.controller_type),
             i =
-              ((null === a.Ay || void 0 === a.Ay ? void 0 : a.Ay.HasHMD())
-                ? null === a.Ay || void 0 === a.Ay
+              ((null === a.Ay$ || void 0 === a.Ay$ ? void 0 : a.Ay$.HasHMD())
+                ? null === a.Ay$ || void 0 === a.Ay$
                   ? void 0
-                  : a.Ay.VRProperties.GetStringProperty(
+                  : a.Ay$.VRProperties.GetStringProperty(
                       "/user/head",
-                      a.fD.Prop_ExpectedControllerType_String,
+                      a.fD8.Prop_ExpectedControllerType_String,
                     )
                 : void 0) == e.controller_type
                 ? 2
@@ -3317,8 +3317,8 @@ var CLSTAMP = "10838627";
             history.pushState({ direction: "current" }, "current"),
             history.pushState({ direction: "forward" }, "forward"),
             history.back();
-          let e = "bindingui/" + d.OH[(0, d.R$)()];
-          (this.m_mailbox = new d._n()),
+          let e = "bindingui/" + d.OH$[(0, d.R$f)()];
+          (this.m_mailbox = new d._nH()),
             this.m_mailbox.Init(e),
             this.m_mailbox.RegisterHandler(
               "show_app_select",
@@ -3339,9 +3339,9 @@ var CLSTAMP = "10838627";
             (0, l.autorun)(this.UpdateWindowTitle);
         }
         ShowOverlayInDashboard() {
-          null === d.Ay ||
-            void 0 === d.Ay ||
-            d.Ay.VRClient.ShowDashboardOverlay({
+          null === d.Ay$ ||
+            void 0 === d.Ay$ ||
+            d.Ay$.VRClient.ShowDashboardOverlay({
               overlayKey: "system.vrwebhelper.controllerbinding",
               sReason: "cinputui_showoverlayindashboard",
             });
@@ -3357,9 +3357,9 @@ var CLSTAMP = "10838627";
             (this.Loading = !0),
             p.s.UpdateApplications().then(() => {
               if (
-                ((0, d.R$)() == d.OH.Overlay
+                ((0, d.R$f)() == d.OH$.Overlay
                   ? this.ShowOverlayInDashboard()
-                  : (0, d.R$)() == d.OH.Desktop && d.Ay.ShowBindingUI(!0),
+                  : (0, d.R$f)() == d.OH$.Desktop && d.Ay$.ShowBindingUI(!0),
                 !p.s.GetApp(e.app_key))
               )
                 return (
@@ -3416,7 +3416,7 @@ var CLSTAMP = "10838627";
                   o,
                 ),
               ),
-                null === d.Ay || void 0 === d.Ay || d.Ay.ShowBindingUI(!1);
+                null === d.Ay$ || void 0 === d.Ay$ || d.Ay$.ShowBindingUI(!1);
             });
         }
         SetStandaloneSettingsPage(e) {
@@ -3529,9 +3529,9 @@ var CLSTAMP = "10838627";
         }
         ReturnToSettingsUI() {
           this.ShowAppSelect(),
-            null === d.Ay ||
-              void 0 === d.Ay ||
-              d.Ay.ShowSettingsUI((0, d.R$)() == d.OH.Desktop);
+            null === d.Ay$ ||
+              void 0 === d.Ay$ ||
+              d.Ay$.ShowSettingsUI((0, d.R$f)() == d.OH$.Desktop);
         }
         ShowAppSelect() {
           (this.m_bStandaloneSettingsPage = !1),
@@ -3576,7 +3576,7 @@ var CLSTAMP = "10838627";
                     this.UpdatePathsTimeout,
                     500,
                   )),
-                  d.Ay.ShowBindingUI((0, d.R$)() == d.OH.Desktop);
+                  d.Ay$.ShowBindingUI((0, d.R$f)() == d.OH$.Desktop);
               })
               .catch(() => {
                 this.Loading = !1;

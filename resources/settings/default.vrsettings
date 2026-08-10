@@ -10,6 +10,7 @@
         "007": "these defaults."
     },
     "steamvr": {
+        "showFloor": true,
         "contrast": 0.0,
         "requireHmd": true,
         "forcedDriver": "",
@@ -29,6 +30,11 @@
         "backgroundUseDomeProjection": false,
         "backgroundCameraHeight": 1.6,
         "backgroundDomeRadius": 0.0,
+        "auroraPalette" : 0,
+        "auroraSpeed": 1.0,
+        "auroraHeight": 1.0,
+        "auroraColorBrightness": 0.85,
+        "auroraLightShafts": true,
         "environment": "",
         "hdcp14legacyCompatibility": false,
         "gridColor": "",

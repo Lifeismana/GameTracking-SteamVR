@@ -89,6 +89,7 @@ IsDebuggerPresent
 IsProcessorFeaturePresent
 KERNEL32.dll
 MSVCP140.dll
+PW$SuuJ
 QueryPerformanceCounter
 RSDS
 SetUnhandledExceptionFilter

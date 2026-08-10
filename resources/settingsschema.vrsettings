@@ -207,20 +207,8 @@
 					{"value": "1800", "label": "#SettingsTime_30m" }
 				]
 			},
-			{ "name": "/settings/power/powerOffOnExit",				"control": "toggle",		"label": "#Settings_Power_ControllerOffOnExit" },
-			{
-				"name": "/settings/power/returnToWatchdogTimeout",
-				"control": "select",
-				"label": "#Settings_Power_ReturnToWatchdogTimeout",
-				"type": "int",
-				"options": [
-					{"value": "0", "label": "#SettingsTime_Never" },
-					{"value": "600", "label": "#SettingsTime_10m" },
-					{"value": "1200", "label": "#SettingsTime_20m" },
-					{"value": "1800", "label": "#SettingsTime_30m" },
-					{"value": "3600", "label": "#SettingsTime_1h" }
-				]
-			}
+			{ "name": "/settings/power/powerOffOnExit",	"type": "bool", "label": "#Settings_Power_ControllerOffOnExit" },
+			{ "name": "/settings/power/returnToWatchdogTimeout", "type": "int", "label": "#Settings_Power_ReturnToWatchdogTimeout" }
 		]
 	},
 

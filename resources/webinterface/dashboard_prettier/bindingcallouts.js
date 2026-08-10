@@ -1,113 +1,118 @@
-var CLSTAMP = "10838627";
+var CLSTAMP = "10893990";
 (() => {
   "use strict";
   var t,
     e = {
       6090: (t, e, n) => {
         n.d(e, {
-          $: () => x.$,
-          $Z: () => x.$Z,
-          Ay: () => w,
-          CU: () => i.CU,
-          Ci: () => g.C,
-          Do: () => x.Do,
-          Ee: () => x.Ee,
-          Em: () => c.Em,
-          FN: () => C.F,
-          Fb: () => i.Fb,
-          Fi: () => f.Fi,
-          Fz: () => x.Fz,
-          GM: () => p.GM,
-          GQ: () => N.GQ,
-          GS: () => o.GS,
-          Gz: () => N.Gz,
-          HW: () => N.HW,
-          I0: () => o.I0,
-          IS: () => r.I,
-          JZ: () => i.JZ,
-          Jv: () => o.Jv,
-          KI: () => x.KI,
-          Kl: () => N.Kl,
-          Ld: () => i.Ld,
-          M9: () => o.M9,
-          MQ: () => f.MQ,
-          MV: () => N.MV,
-          N: () => a.e,
-          N1: () => m.N,
-          NH: () => i.NH,
-          Nu: () => y.N,
-          O5: () => d.O,
-          O6: () => i.O6,
-          OH: () => N.OH,
-          Oi: () => f.Oi,
-          QB: () => i.QB,
-          QR: () => x.QR,
-          R$: () => N.R$,
-          Rk: () => N.Rk,
-          Se: () => i.Se,
-          Uj: () => i.Uj,
-          Vh: () => h.Vh,
-          Wi: () => p.Wi,
-          Wq: () => o.Wq,
-          Xl: () => N.Xl,
-          Xu: () => o.Xu,
-          Y4: () => l.Y,
-          YV: () => x.YV,
-          Yu: () => x.Yu,
-          ZP: () => x.ZP,
-          Zk: () => f.Zk,
+          $Zy: () => M.$Z,
+          $ab: () => M.$,
+          $lc: () => S.$,
+          Ay$: () => w,
+          CUZ: () => i.CU,
+          Ci8: () => g.C,
+          Doe: () => M.Do,
+          Ee9: () => M.Ee,
+          EmM: () => u.Em,
+          FNN: () => C.F,
+          FbK: () => i.Fb,
+          FiV: () => f.Fi,
+          Fzk: () => M.Fz,
+          GMj: () => p.GM,
+          GQ2: () => N.GQ,
+          GS9: () => o.GS,
+          Gze: () => N.Gz,
+          HWH: () => N.HW,
+          HWh: () => r.H,
+          I0c: () => o.I0,
+          IS7: () => r.I,
+          JZN: () => i.JZ,
+          JcD: () => o.Jc,
+          Jv8: () => o.Jv,
+          KIK: () => M.KI,
+          KlS: () => N.Kl,
+          LdJ: () => A.L,
+          LdK: () => i.Ld,
+          M9N: () => o.M9,
+          MQJ: () => f.MQ,
+          MVt: () => N.MV,
+          N1A: () => m.N,
+          NHZ: () => i.NH,
+          Nuf: () => y.N,
+          O54: () => d.O,
+          O6e: () => i.O6,
+          OH$: () => N.OH,
+          OiK: () => f.Oi,
+          QB1: () => i.QB,
+          QRg: () => M.QR,
+          R$f: () => N.R$,
+          RkM: () => N.Rk,
+          SeR: () => i.Se,
+          Ujb: () => i.Uj,
+          VhJ: () => h.Vh,
+          WiO: () => p.Wi,
+          Wqq: () => o.Wq,
+          XlW: () => N.Xl,
+          Xun: () => o.Xu,
+          Y4E: () => l.Y,
+          YVg: () => M.YV,
+          YsR: () => u.Ys,
+          Yup: () => M.Yu,
+          ZPA: () => M.ZP,
+          Zkm: () => f.Zk,
           _1: () => N._1,
-          _8: () => x._8,
-          _h: () => f._h,
-          _n: () => o._n,
-          aX: () => h.aX,
-          b: () => N.b,
-          b$: () => O.b,
+          _81: () => M._8,
+          _h3: () => f._h,
+          _nH: () => o._n,
+          aXN: () => h.aX,
+          aqc: () => N.aq,
+          b$J: () => R.b,
           b4: () => v.b,
-          cB: () => A.L,
-          dL: () => u.d,
-          ds: () => x.ds,
-          e_: () => i.e_,
-          en: () => x.en,
-          eo: () => x.eo,
-          f9: () => x.f9,
-          fD: () => x.fD,
-          fk: () => x.fk,
-          gN: () => N.gN,
-          hq: () => x.hq,
-          k2: () => N.k2,
-          kG: () => N.kG,
-          ke: () => x.ke,
-          ku: () => N.ku,
-          lq: () => _.l,
-          m$: () => v.m,
-          mH: () => h.mH,
-          mS: () => b.m,
-          mX: () => o.mX,
-          mo: () => N.mo,
-          mu: () => N.mu,
+          ba0: () => N.b,
+          dLy: () => c.d,
+          ds4: () => M.ds,
+          e_0: () => i.e_,
+          enJ: () => M.en,
+          eod: () => M.eo,
+          eyj: () => a.e,
+          f9c: () => M.f9,
+          fD8: () => M.fD,
+          fkw: () => M.fk,
+          gNj: () => N.gN,
+          hqo: () => M.hq,
+          k2$: () => N.k2,
+          kGj: () => N.kG,
+          kSV: () => o.kS,
+          ke3: () => M.ke,
+          kuU: () => N.ku,
+          lqd: () => _.l,
+          m$_: () => v.m,
+          mHe: () => h.mH,
+          mSM: () => b.m,
+          mXc: () => o.mX,
+          mo7: () => N.mo,
+          muq: () => N.mu,
           mw: () => f.mw,
-          nX: () => c.nX,
-          ne: () => N.ne,
-          nq: () => k.n,
-          o3: () => f.o3,
-          oN: () => i.oN,
-          pM: () => N.pM,
-          pg: () => o.pg,
-          q5: () => i.q5,
-          qF: () => i.qF,
-          rF: () => r.H,
-          rx: () => N.rx,
-          sJ: () => S.$,
-          sn: () => o.sn,
-          t$: () => T.t,
-          tx: () => i.tx,
-          uC: () => R.u,
-          uS: () => s.u,
-          vx: () => i.vx,
-          wB: () => x.wB,
-          xO: () => f.xO,
-          yW: () => x.yW,
+          nXw: () => u.nX,
+          neN: () => N.ne,
+          nqf: () => k.n,
+          o3u: () => f.o3,
+          oN_: () => i.oN,
+          pMg: () => N.pM,
+          pgT: () => o.pg,
+          q5z: () => i.q5,
+          qFr: () => i.qF,
+          rxR: () => N.rx,
+          snv: () => o.sn,
+          t$O: () => T.t,
+          txk: () => i.tx,
+          uC0: () => O.u,
+          uS7: () => s.u,
+          vxi: () => i.vx,
+          wBp: () => M.wB,
+          xOm: () => f.xO,
+          yWq: () => M.yW,
+          zwf: () => M.zw,
         });
         var o = n(2824),
           i = n(6292),
@@ -115,8 +120,8 @@ var CLSTAMP = "10838627";
           a = (n(4120), n(1230)),
           l = n(5830),
           r = n(6186),
-          u = n(3361),
-          c = (n(111), n(5723)),
+          c = n(3361),
+          u = (n(111), n(5723)),
           p = n(3496),
           d = n(5178),
           h = (n(428), n(9011), n(7350)),
@@ -131,11 +136,11 @@ var CLSTAMP = "10838627";
           S = n(6417),
           k = n(2303),
           A = n(8715),
-          O = (n(4397), n(5459)),
-          R = n(8472),
+          R = (n(4397), n(5459)),
+          O = n(8472),
           T = (n(1184), n(1321)),
           N = n(3725),
-          x = n(4367);
+          M = n(4367);
         const w = VRHTML;
       },
       1977: (t, e, n) => {
@@ -366,13 +371,13 @@ var CLSTAMP = "10838627";
                 s = e.getBoundingClientRect(),
                 a = s.left + s.width / 2,
                 r = s.top + s.height / 2,
-                u = t.currentPanel.m_Rect;
-              if (a < u.x || a > u.x + u.width || r < u.y || r > u.y + u.height)
+                c = t.currentPanel.m_Rect;
+              if (a < c.x || a > c.x + c.width || r < c.y || r > c.y + c.height)
                 return [
                   Object.assign(Object.assign({}, t), { bShouldAbort: !0 }),
                   null,
                 ];
-              const c =
+              const u =
                   null === (n = i.defaultView) || void 0 === n
                     ? void 0
                     : n.innerWidth,
@@ -380,12 +385,12 @@ var CLSTAMP = "10838627";
                   null === (o = i.defaultView) || void 0 === o
                     ? void 0
                     : o.innerHeight;
-              if (!(p && p > 0 && c && c > 0))
+              if (!(p && p > 0 && u && u > 0))
                 return [
                   Object.assign(Object.assign({}, t), { bShouldAbort: !0 }),
                   null,
                 ];
-              (l.properties["anchor-u"] = a / c),
+              (l.properties["anchor-u"] = a / u),
                 (l.properties["anchor-v"] = r / p);
             }
             return (
@@ -406,8 +411,8 @@ var CLSTAMP = "10838627";
           a = n(3236),
           l = n(6090),
           r = n(5802),
-          u = n(3714),
-          c = n(9118),
+          c = n(3714),
+          u = n(9118),
           p = n(1532),
           d = n(6138),
           h = n(1333),
@@ -550,7 +555,7 @@ var CLSTAMP = "10838627";
                     { className: "BindingCalloutModeSlot" },
                     this.props.localizedInputName,
                     " : ",
-                    (0, u.we)("#SourceInputMode_" + t.slot),
+                    (0, c.we)("#SourceInputMode_" + t.slot),
                   ),
                 ),
               )
@@ -569,7 +574,7 @@ var CLSTAMP = "10838627";
             return i.createElement(
               "div",
               { className: "BindingCalloutContainer" },
-              i.createElement(l.mS, {
+              i.createElement(l.mSM, {
                 id: e,
                 sDevicePath: this.props.devicePath,
                 sInputPath: this.props.inputCallout.input_path,
@@ -585,10 +590,10 @@ var CLSTAMP = "10838627";
                   "div",
                   { className: "CalloutAnchorPoint" },
                   i.createElement(
-                    l.Ci,
+                    l.Ci8,
                     null,
                     this.props.inputActive &&
-                      i.createElement(l.N1, {
+                      i.createElement(l.N1A, {
                         target_id: e,
                         thickness: 0.002,
                         start_buffer: 0,
@@ -636,12 +641,12 @@ var CLSTAMP = "10838627";
                   i.createElement(
                     "div",
                     { className: "BindingCalloutModeSlot", key: o + "_text" },
-                    c.W.LocalizeControllerString(
+                    u.W.LocalizeControllerString(
                       this.props.controllerTypeInfo,
                       n.input_path,
                     ),
                     " : ",
-                    (0, u.we)("#SourceInputMode_" + n.slot),
+                    (0, c.we)("#SourceInputMode_" + n.slot),
                   ),
                 );
             }
@@ -669,7 +674,7 @@ var CLSTAMP = "10838627";
         class S extends i.Component {
           constructor(t) {
             super(t),
-              (this.m_mailbox = new l._n()),
+              (this.m_mailbox = new l._nH()),
               (this.m_sMailboxName = void 0),
               (this.m_sMailboxName =
                 "devicecallout/" +
@@ -684,7 +689,7 @@ var CLSTAMP = "10838627";
                   device_path: this.props.device.device_path,
                   mailbox: this.m_sMailboxName,
                 };
-                this.m_mailbox.SendMessage(l.mX, t);
+                this.m_mailbox.SendMessage(l.mXc, t);
               });
             let e = {};
             for (let t of Object.keys(this.props.device.input_callouts))
@@ -701,7 +706,7 @@ var CLSTAMP = "10838627";
               device_path: this.props.device.device_path,
               mailbox: this.m_sMailboxName,
             };
-            this.m_mailbox.SendMessage(l.mX, t);
+            this.m_mailbox.SendMessage(l.mXc, t);
           }
           render() {
             if (!VRHTML) return null;
@@ -714,17 +719,17 @@ var CLSTAMP = "10838627";
               n = !0;
             "/user/hand/left" == this.props.device.device_path &&
               ((e.x = -e.x), (t = -t), (n = !1));
-            let o = c.W.GetControllerTypeInfo(this.props.controllerType);
+            let o = u.W.GetControllerTypeInfo(this.props.controllerType);
             if (!o) return null;
             let s = [],
               a = Object.keys(this.props.device.input_callouts);
             for (let t of a) {
               let e = this.props.device.input_callouts[t],
                 l = t;
-              o && (l = c.W.LocalizeControllerString(o, t));
+              o && (l = u.W.LocalizeControllerString(o, t));
               let r = o.input_source[t],
-                u = 999;
-              r && r.order && (u = r.order);
+                c = 999;
+              r && r.order && (c = r.order);
               let p = i.createElement(b, {
                 devicePath: this.props.device.device_path,
                 inputCallout: e,
@@ -735,48 +740,48 @@ var CLSTAMP = "10838627";
                 controllerType: this.props.controllerType,
                 key: this.props.device.device_path + t,
               });
-              s.push({ order: u, callout: p });
+              s.push({ order: c, callout: p });
             }
             s.sort((t, e) => t.order - e.order);
             let r = s.map((t) => t.callout),
-              u = [];
+              c = [];
             for (let t of this.props.device.chords) {
               let e = !1;
               for (let n of t.inputs)
                 e = e || this.state.input_state[n.input_path];
-              u.push(
+              c.push(
                 i.createElement(y, {
                   controllerTypeInfo: o,
                   chordCallout: t,
                   controllerType: this.props.controllerType,
-                  key: "chord_" + u.length,
+                  key: "chord_" + c.length,
                   inputActive: e,
                 }),
               );
             }
             return i.createElement(
-              l.dL,
+              l.dLy,
               { parent_path: this.props.device.device_path },
               i.createElement(
-                l.Nu,
+                l.Nuf,
                 { vOffset: e },
                 i.createElement(
-                  l.FN,
+                  l.FNN,
                   null,
                   i.createElement(
-                    l.dL,
+                    l.dLy,
                     { rotation: { y: n ? 7 : -7 } },
                     i.createElement(
-                      l.dL,
+                      l.dLy,
                       { translation: { x: t } },
                       i.createElement(
-                        l.Zk,
+                        l.Zkm,
                         { width: 0.1, debug_name: "bindingcallouts-2" },
                         i.createElement(
                           "div",
                           { className: "FlexColumn BindingCalloutColumn" },
                           r,
-                          u,
+                          c,
                         ),
                       ),
                     ),
@@ -814,8 +819,8 @@ var CLSTAMP = "10838627";
         let A = class extends i.Component {
           constructor(t) {
             super(t),
-              (this.m_mailbox = new l._n()),
-              this.m_mailbox.Init(l.I0).then(() => {
+              (this.m_mailbox = new l._nH()),
+              this.m_mailbox.Init(l.I0c).then(() => {
                 this.m_mailbox.RegisterHandler(
                   "request_binding_callouts",
                   this.OnRequestBindingCallouts,
@@ -838,13 +843,13 @@ var CLSTAMP = "10838627";
           }
           GetDefaultControllerType() {
             let t = VRHTML.VRSystem.GetTrackedDeviceClasses(),
-              e = t.find((t) => t.eClass == l.mo.Controller);
+              e = t.find((t) => t.eClass == l.mo7.Controller);
             return (
-              e || (e = t.find((t) => t.eClass == l.mo.HMD)),
+              e || (e = t.find((t) => t.eClass == l.mo7.HMD)),
               e
                 ? VRHTML.VRProperties.GetStringProperty(
                     e.unIndex,
-                    l.fD.ControllerType_String,
+                    l.fD8.ControllerType_String,
                   )
                 : null
             );
@@ -1197,19 +1202,19 @@ var CLSTAMP = "10838627";
                   "div",
                   { className: "CalloutActionSetDialogContainer" },
                   i.createElement(
-                    l.dL,
+                    l.dLy,
                     { parent_path: "/user/head" },
                     i.createElement(
-                      l.m$,
+                      l.m$_,
                       {
                         rotation_start_angle_threshold: 40,
                         rotation_stop_angle_threshold: 5,
                       },
                       i.createElement(
-                        l.dL,
+                        l.dLy,
                         { rotation: { x: -10, y: 10, z: 0 } },
                         i.createElement(
-                          l.dL,
+                          l.dLy,
                           {
                             translation: {
                               x: -0,
@@ -1218,7 +1223,7 @@ var CLSTAMP = "10838627";
                             },
                           },
                           i.createElement(
-                            l.Zk,
+                            l.Zkm,
                             {
                               width: 0.65 * m.SW.dashboardScale,
                               interactive: !0,
@@ -1290,22 +1295,22 @@ var CLSTAMP = "10838627";
             void 0 === VRHTML ||
             VRHTML.VROverlay.SetInputMethod(
               VRHTML.VROverlay.ThisOverlayHandle(),
-              l.Rk.Mouse,
+              l.RkM.Mouse,
             ),
-          (0, u.uV)(
+          (0, c.uV)(
             ["bindingui"],
             null === VRHTML || void 0 === VRHTML
               ? void 0
               : VRHTML.GetSteamLanguage(),
           )
-            .then(() => c.W.Init())
+            .then(() => u.W.Init())
             .then(() => p.s.Init())
             .then(() => {
               (0, f.aj)().Init("SteamVR", CLSTAMP, (0, f.d4)()),
                 s
                   .H(document.getElementById("root"))
                   .render(
-                    i.createElement(l.O5, null, i.createElement(A, null)),
+                    i.createElement(l.O54, null, i.createElement(A, null)),
                   );
             });
       },
@@ -1322,22 +1327,22 @@ var CLSTAMP = "10838627";
     (o.O = (e, n, i, s) => {
       if (!n) {
         var a = 1 / 0;
-        for (c = 0; c < t.length; c++) {
-          for (var [n, i, s] = t[c], l = !0, r = 0; r < n.length; r++)
+        for (u = 0; u < t.length; u++) {
+          for (var [n, i, s] = t[u], l = !0, r = 0; r < n.length; r++)
             (!1 & s || a >= s) && Object.keys(o.O).every((t) => o.O[t](n[r]))
               ? n.splice(r--, 1)
               : ((l = !1), s < a && (a = s));
           if (l) {
-            t.splice(c--, 1);
-            var u = i();
-            void 0 !== u && (e = u);
+            t.splice(u--, 1);
+            var c = i();
+            void 0 !== c && (e = c);
           }
         }
         return e;
       }
       s = s || 0;
-      for (var c = t.length; c > 0 && t[c - 1][2] > s; c--) t[c] = t[c - 1];
-      t[c] = [n, i, s];
+      for (var u = t.length; u > 0 && t[u - 1][2] > s; u--) t[u] = t[u - 1];
+      t[u] = [n, i, s];
     }),
     (o.n = (t) => {
       var e = t && t.__esModule ? () => t.default : () => t;
@@ -1371,14 +1376,14 @@ var CLSTAMP = "10838627";
           var i,
             s,
             [a, l, r] = n,
-            u = 0;
+            c = 0;
           if (a.some((e) => 0 !== t[e])) {
             for (i in l) o.o(l, i) && (o.m[i] = l[i]);
-            if (r) var c = r(o);
+            if (r) var u = r(o);
           }
-          for (e && e(n); u < a.length; u++)
-            (s = a[u]), o.o(t, s) && t[s] && t[s][0](), (t[s] = 0);
-          return o.O(c);
+          for (e && e(n); c < a.length; c++)
+            (s = a[c]), o.o(t, s) && t[s] && t[s][0](), (t[s] = 0);
+          return o.O(u);
         },
         n = (self.webpackChunkvrwebui = self.webpackChunkvrwebui || []);
       n.forEach(e.bind(null, 0)), (n.push = e.bind(null, n.push.bind(n)));

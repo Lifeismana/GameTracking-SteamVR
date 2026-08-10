@@ -379,6 +379,7 @@ WideCharToMultiByte
 [vrlink winregistry] Writing vrlink driver registry value succeeded
 [vrlink winregistry] failed to query registry value inside key %d
 \ApiLayers\
+\vrvj
 _Cnd_destroy_in_situ
 _Cnd_init_in_situ
 _Cnd_signal

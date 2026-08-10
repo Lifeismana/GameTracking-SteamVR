@@ -137,6 +137,9 @@
 						}
 					},
 					"mode": "button",
+					"parameters": {
+						"haptic_amplitude": "0"
+					},
 					"path": "/user/gamepad/input/trigger_right"
 				}
 			]

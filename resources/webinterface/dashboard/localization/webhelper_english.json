@@ -40,7 +40,9 @@
 	"Loading_PleaseRestartMaybeContactSupport": "Please restart to try again. If the problem persists, please contact Steam Support at %1$s.",
 	"Loading_RestartSteamFrame": "Restart Steam Frame",
 	"Loading_RestartSteamOSDevice": "Restart Device",
-	
+	"FramerateChangePopup_Hz": "%1$s Hz",
+	"VRLink_GamepadNotSupported": "Gamepad input is not yet supported while streaming VR",
+
 	"IPD_Description" : "Distance Between Lenses",
 	"NoSteamWarning" : "Steam is not available. Some features may be disabled.",
 

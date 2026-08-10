@@ -592,6 +592,7 @@ $\n k_EProtoServiceTypeSteamMessages
 .?AV<lambda_b4bb3ccaa58babf72cd0ad9aeee44f48>@@
 .?AV<lambda_bd0776a7d896d1a1e148df92584ea887>@@
 .?AV<lambda_bd1a83319b220d7e34be44617ed4547e>@@
+.?AV<lambda_c34c6f524e370278fb6bf6d1057dffd3>@@
 .?AV<lambda_ce3fbf3c947ad2e658381da75700eeba>@@
 .?AV<lambda_cec0a822e624efbc14f454d954ffa5d1>@@
 .?AV<lambda_d4ea458dafa46560c4bdc7db4653ba2d>@@
@@ -674,6 +675,7 @@ $\n k_EProtoServiceTypeSteamMessages
 .?AV?$_Func_base@XAEBVCSteamVR_AudioSettings_RegisterForSettings_Request@@@std@@
 .?AV?$_Func_base@XAEBVCSteamVR_ControllerPairing_Request@@@std@@
 .?AV?$_Func_base@XAEBVCSteamVR_ControllerUpdate_Request@@@std@@
+.?AV?$_Func_base@XAEBVCSteamVR_GuidedTour_StartPlayspaceSetup@@@std@@
 .?AV?$_Func_base@XAEBVCSteamVR_PushOverlayInputFocus_Message@@@std@@
 .?AV?$_Func_base@XAEBVCSteamVR_Settings_SetValue_Request@@@std@@
 .?AV?$_Func_base@XAEBVCSteamVR_VRGamepadUI_Message@@@std@@
@@ -735,6 +737,7 @@ $\n k_EProtoServiceTypeSteamMessages
 .?AV?$_Func_impl_no_alloc@V<lambda_b4bb3ccaa58babf72cd0ad9aeee44f48>@@_NAEBUHmdVector3_t@vr@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_bd0776a7d896d1a1e148df92584ea887>@@PEAXPEBD@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_bd1a83319b220d7e34be44617ed4547e>@@X$$QEAUBindingFileOption_t@@_N@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_c34c6f524e370278fb6bf6d1057dffd3>@@XAEBVCSteamVR_GuidedTour_StartPlayspaceSetup@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_ce3fbf3c947ad2e658381da75700eeba>@@X$$V@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_cec0a822e624efbc14f454d954ffa5d1>@@_NAEBUHmdVector3_t@vr@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_d4ea458dafa46560c4bdc7db4653ba2d>@@UResult_t@?A0x94e1095d@@AEBU23@@std@@
@@ -863,6 +866,7 @@ $\n k_EProtoServiceTypeSteamMessages
 .?AVCSteamVR_ControllerUpdate_Request_StartUpdate@@
 .?AVCSteamVR_ControllerUpdate_Request_UpdateState@@
 .?AVCSteamVR_ControllerUpdate_State_Message@@
+.?AVCSteamVR_GuidedTour_StartPlayspaceSetup@@
 .?AVCSteamVR_Header@@
 .?AVCSteamVR_LinkInfo@@
 .?AVCSteamVR_MultiLinkStatusUpdate_Message@@
@@ -1489,7 +1493,6 @@ $\n k_EProtoServiceTypeSteamMessages
 /controller_type/
 /dashboard/controllerbinding.html
 /dashboard/systemreportviewer.html
-/dashboard_head_pose_from_standing
 /data
 /device_path
 /devices.json
@@ -1697,13 +1700,13 @@ $\n k_EProtoServiceTypeSteamMessages
 /vrgamepadui/steamvr/desktop_windows_remote
 /vrgamepadui/steamvr/desktop_windows_tx
 /vrgamepadui/steamvr/unified_dashboard_state_remote
+/vrgamepadui/steamvr/unified_lasermouse_state_remote
 /vrgamepadui/steamvr/vrlink_lasermouseactive_remote
 /vrgamepadui/steamvr/vrlink_lasermouseoverlay_remote
 /vrgamepadui/steamvr/vrlink_lasermouseoverlay_tx
+/vrgamepadui/steamvr/vrlink_lasermousestate_tx
+/vrlink/steamvr/remoteClientRefreshRate
 /vrlink_client_isSteamVR
-/vrlink_environment
-/vrlink_stream_active
-/vrlink_stream_packet_time
 /vrpathreg.json
 /without_controller_data
 /yQA
@@ -1711,18 +1714,16 @@ $\n k_EProtoServiceTypeSteamMessages
 0-pixel image
 00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899
 00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899"
+00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899pO<@
 0123456789ABCDEF
 0123456789abcdef
-055@
-0b5@
-0d5@
-0i0@
 1.2.5
 1/2/4/8/16-bit only
 11 4 22 44 44 22 444444
 11eU%
 127.0.0.1
 127.0.0.1:
+16:56:26
 1A26b
 1\f514
 1e+9999
@@ -1731,9 +1732,9 @@ $\n k_EProtoServiceTypeSteamMessages
 2).google.protobuf.FileOptions.OptimizeMode:
 2*.google.protobuf.FieldDescriptorProto.Type
 2+.google.protobuf.FieldDescriptorProto.Label
-22:07:48
 258EAFA5-E914-47DA-95CA-C5AB0DC85B11
 4\f54d
+4c6@
 52F*
 5I)7
 5JCy7
@@ -1743,14 +1744,15 @@ $\n k_EProtoServiceTypeSteamMessages
 7\n\tenum_type
 7^d[L
 7~8A
+8B5@
+8M3@
+8N3@
 8\n\textension
+8c6@
 8c8f13b1-60eb-4b6a-a433-de86104115ac
-8d5@
 8d8f13b1-60eb-4b6a-a433-de86104115ac
 8e8f13b1-60eb-4b6a-a433-de86104115ac
 8giP9giP9giP9giP9
-8l3@
-8v6@
 9\n\noneof_decl
 9a&g
 : Protocol message serialized to a size different from what was originally expected.  Perhaps it was modified by another thread during serialization?
@@ -1854,6 +1856,7 @@ $\n k_EProtoServiceTypeSteamMessages
 ?_Xout_of_range@std@@YAXPEBD@Z
 ?_Xregex_error@std@@YAXW4error_type@regex_constants@1@@Z
 ?always_noconv@codecvt_base@std@@QEBA_NXZ
+?c:\buildslave\steamvr_rel_win64\build\src\vrserver\vrserver.cpp:5766
 ?clear@?$basic_ios@_WU?$char_traits@_W@std@@@std@@QEAAXH_N@Z
 ?ffffff
 ?flush@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@XZ
@@ -2003,6 +2006,7 @@ Attempted to change property type from %d to %d
 Attempted to read payload of %d bytes from pipe but failed\n
 Attempting to start home app %s (NoMoreSceneAppTransition)
 AudioDeviceChangeNotice (noting refresh): %d, device = %s\n
+Aug  7 2026
 Authorization
 Auto launch dashboard %s has not started after %u checks. Giving up waiting.\n
 Autobinding role for device path: %s
@@ -2183,6 +2187,7 @@ CSteamVR_ControllerUpdate_Request.IdentifyController
 CSteamVR_ControllerUpdate_Request.StartUpdate
 CSteamVR_ControllerUpdate_Request.UpdateState
 CSteamVR_ControllerUpdate_State_Message
+CSteamVR_GuidedTour_StartPlayspaceSetup
 CSteamVR_Header
 CSteamVR_LinkInfo
 CSteamVR_MultiLinkStatusUpdate_Message
@@ -2646,6 +2651,8 @@ DriverManager %s init called SetUnhandledExceptionFilter\n
 DriverManager %s load error %s
 DriverManager::Cleanup
 DriverVersion
+Dropped duplicate HTTP '%s' header
+Dropping duplicate header [%.*s]
 Duplicate action '
 Duplicate key: '
 Duplicate mailbox name %s. Make one of those unique.\n
@@ -2876,7 +2883,6 @@ FileTimeToSystemTime
 Files that do not use optimize_for = LITE_RUNTIME cannot import files which do use this option.  This file is not lite, but it imports "
 Files with optimize_for = LITE_RUNTIME cannot define services unless you set both options cc_generic_services and java_generic_sevices to false.
 Filter list was too gnarly. Not sorting the last %d filters\n
-FilterInputSourceName(%s). Mode: %s.  result: %s\n
 FilterInputSourceName: Default flip: from %s to %s\n
 FilterInputSourceName: Explicit flip: from %s to %s\n
 FilterInputSourceName: No flip: %s\n
@@ -2989,7 +2995,6 @@ GraphicsDriver
 Guessing frequency of current display mode because SDL failed us\n
 H$6t
 H*0"ZOW
-H55@
 HAGS
 HAGS: %s\n
 HAPTICDEBUG %s:%d sec: %f\t freq: %f\t amp: %f\n
@@ -3015,6 +3020,7 @@ HMD found, but unable to request config (1102)
 HMDManufacturer
 HMDModel
 HMDSerialNumber
+HN3@
 HTTP Version Not Supported
 HTTP parse, %lu bytes
 HTTP/
@@ -3033,6 +3039,8 @@ HTTP_REQUEST Static Content %s
 Hang the server for the specified number of seconds (default 3600)
 HasCamera
 HasField
+Hb6@
+Hc6@
 HeadsetActiveTime
 Hex and octal numbers must be integers.
 Hmd DriverId is invalid (125)
@@ -3334,7 +3342,6 @@ JSON Chunk end does not aligned to a 4-byte boundary.
 JSON parse error
 JSON string too short.\n
 JoysticksFound
-Jul 20 2026
 K32EnumProcesses
 K32GetProcessImageFileNameA
 KERNEL32.dll
@@ -3361,7 +3368,6 @@ LaunchingApp_ExternalLaunch
 LaunchingApp_Key
 LaunchingApp_None
 LaunchingApp_Process
-Lb5@
 LeaveCriticalSection
 LeftController
 Length Required
@@ -3636,9 +3642,9 @@ PC_%08llx
 PICT
 PID_
 PLACEHOLDER_VALUE
+PM3@
 PNG\r\n
 POST
-PR9@
 PRISM_AcquireDisplay
 PRISM_ActivateRenderGraph
 PRISM_ClientDisconnected
@@ -3676,7 +3682,6 @@ PRISM_SetDisplayMode
 PRISM_SetFrameInfoCallback
 PRISM_Shutdown
 PRISM_Stop
-PW9@
 Parse error in system resource manifest %s.\n
 Parse failed
 Parse failed for JSON message in mailbox %s: %s\n
@@ -3687,14 +3692,14 @@ Path not found
 Path_Exists( absFilePath )
 Payload Too Large
 Payment Required
-Pb5@
-Pc5@
+Pd3@
 Pe6^
 PeekNamedPipe
 PerformApplicationPrelaunchCheck
 Permanent Redirect
 Perspective camera description not found.
 PerspectiveCamera
+Ph3@
 PlayAreaHeight
 PlayAreaWidth
 Playback devices:\n
@@ -3859,6 +3864,7 @@ Prop_HmdColumnCorrectionSettingPrefix_String
 Prop_HmdTrackingStyle_Int32
 Prop_Hmd_AppPreferencesSectionName_String
 Prop_Hmd_BlankOnFramerateChange_Bool
+Prop_Hmd_CameraSettingsModel_Int32
 Prop_Hmd_EnableParallelRenderCameras_Bool
 Prop_Hmd_RecommendedResolutionIsPerApp_Bool
 Prop_Hmd_RecommendedResolutionPixelsSteps_Int32
@@ -3943,7 +3949,7 @@ Protocol Buffer reflection usage error:\n  Method      : google::protobuf::Refle
 Protocol message serialized itself in invalid fashion.
 Protocol message was modified concurrently during serialization.
 Proxy Authentication Required
-Pv6@
+Pz0@
 QkkXa
 Qkkbal
 Query failed
@@ -4342,6 +4348,8 @@ Syntax error: value, object or array expected.
 System audio devices:\n
 SystemTimeToFileTime
 System\CurrentControlSet\Control\GraphicsDrivers
+Tb6@
+Tc6@
 TdhEnumerateManifestProviderEvents
 Temporary Redirect
 TerminateProcess
@@ -5090,6 +5098,7 @@ VRInputError_NoSteam
 VRInputError_None
 VRInputError_PermissionDenied
 VRInputError_WrongType
+VRLink client disconnected
 VRMsg_AbortApplicationTransition
 VRMsg_AcknowledgeQuit_Exiting
 VRMsg_AddApplicationManifest
@@ -5441,15 +5450,14 @@ WorkshopSelectConfig for BindingOutOfDate for %s(%s) when we don't have a bindin
 WriteFile
 Wrong Platform
 X-Frame-Options: sameorigin\r\nContent-Security-Policy: default-src 'self'
-X55@
 XXXX PNG chunk not known
-Xc5@
-Xo5@
+Xc6@
 XsBI
 YUY2
 Zjz\v
 [%x:%x:%x:%x:%x:%x:%x:%x]
 [AnimSkeleton] Failed to load GLTF file: %s
+[CVRChaperoneServer] Rejecting new committed universe since IMU fallback is active
 [Console] 
 [Controller Setup] AssignActiveIndicatorForInput failed. Input %s specified %s as its input_activity_path, but that component doesn't exist\n
 [Controller Setup] CreateControllerTypeFromPath failed. Unable to load default input profile %s: %s
@@ -5544,6 +5552,12 @@ Zjz\v
 [IPC] SharedMem access invalid: %x\n
 [IPC] The owner SID is invalid.\n
 [IPC] Warning, existing file mapping for %s (%d) is too small (%d)\n
+[IVRChaperoneServerDriver] Failed to find the chaperone universe %lu in UpdatePersistentMapFromMapJumpHiding
+[IVRChaperoneServerDriver] Failed to load chaperone file in UpdatePersistentMapFromMapJumpHiding
+[IVRChaperoneServerDriver] Failed to query persistentMapFromMap and/or standing in UpdatePersistentMapFromMapJumpHiding
+[IVRChaperoneServerDriver] Failed to query persistentMapFromMap and/or standing, setup standing in EndPersistentMapFromMapJumpHiding
+[IVRChaperoneServerDriver] Failed to query setup standing in UpdatePersistentMapFromMapJumpHiding
+[IVRChaperoneServerDriver] Release persistentMapFromMap jump immediately since it is too large (translation %f, rotation %f)
 [IVRChaperoneServerDriver] update the standing for an invalid universe, failed
 [Init] %d: (%d, %d) %dx%d "%s" refresh %d\n
 [Init] Attached Displays:\n
@@ -5656,9 +5670,6 @@ Zjz\v
 [Remapping] Parsing remapping data failed for controller type: %s.\n
 [Remapping] Parsing remapping data succeeded for controller type: %s.\n
 [Remapping] Parsing remapping did not finish for controller type: %s.\n
-[Remapping] RemapBinding COMPONENT success. RemapModeBinding of path:: %s::\n
-[Remapping] RemapBinding INPUT success. RemapModeInputBinding of path::mode::input: %s::%s::%s. grp::mul %s::%s\n
-[Remapping] RemapBinding MODE success. RemapModeBinding of path::mode: %s::%s\n
 [Remapping] RemapBinding failed. ModeInput binding has no inputs. path::mode::num inputs: %s::%s::%lu\n
 [Remapping] RemapBinding failed. ModeInput binding has too many inputs. path::mode::num inputs: %s::%s::%lu\n
 [Remapping] RemapBinding failed. RemapModeBinding of path::mode: %s::%s\n
@@ -5668,6 +5679,8 @@ Zjz\v
 [Remapping] RemapParameters failed. No parameter_mode named: '%s'.\n
 [Settings] %s %s unknown type\n
 [Settings] App preferences do not have section for headset '%s'\n
+[Settings] Failed to parse '%s'\n
+[Settings] Failed to parse 'preferDepthReprojectionMode'\n
 [Settings] Failed to parse 'preferHalfFramerate'\n
 [Settings] Failed to parse 'preferMinRefreshRate'\n
 [Settings] Failed to parse 'preferMotionSmoothingMode'\n
@@ -5684,6 +5697,7 @@ Zjz\v
 [Settings] Using default values. No Json Settings available at %s\n
 [Steam] Connected to Steam, calling StartVRDashboard\n
 [Steam] Invalid setting type specified for %s.%s
+[Steam] Starting stats session
 [Steam] Steam API %s\n
 [Steam] Steam INIT.\n
 [Steam] Steam SHUTDOWN.\n
@@ -6089,6 +6103,7 @@ aspectRatio
 assert json failed
 asset
 atan2
+atan2f
 atof
 atoi
 attributes
@@ -6238,13 +6253,13 @@ c:\buildslave\steamvr_rel_win64\build\src\vrserver\Retail\win64\2017\vrserver.pd
 c:\buildslave\steamvr_rel_win64\build\src\vrserver\appinfomanager.cpp
 c:\buildslave\steamvr_rel_win64\build\src\vrserver\vrinputserver.cpp
 c:\buildslave\steamvr_rel_win64\build\src\vrserver\vrserver.cpp
-c:\buildslave\steamvr_rel_win64\build\src\vrserver\vrserver.cpp:5640
 c:\buildslave\steamvr_rel_win64\build\src\vrserver\webinterface\web_input.cpp
 c:\buildslave\steamvr_rel_win64\build\src\vrserver\webinterface\web_mailbox.cpp
 c:\buildslave\steamvr_rel_win64\build\src\vrserver\webinterface\web_server_thread.cpp
 c:\buildslave\steamvr_rel_win64\build\src\vrserver\webinterface\web_steam.cpp
 c:\buildslave\steamvr_rel_win64\build\src\vrserver\webinterface\web_steam.h
 c:\buildslave\steamvr_rel_win64\build\src\vrserver\webinterface\web_steam_audiosettings.cpp
+cA`L3@
 cache_path
 calloc
 camera
@@ -6372,7 +6387,6 @@ data:image/gif;base64,
 data:image/jpeg;base64,
 data:image/png;base64,
 data:text/plain;base64,
-db5@
 de_de
 deactivateStandbyOverride
 deactivate_threshold
@@ -6398,6 +6412,7 @@ deliberate hang
 delta_x
 delta_y
 delta_z
+depthReprojectionOverride
 deque<T> too long
 description
 destroy_overlays
@@ -6432,6 +6447,7 @@ direct_mode
 directory
 disableAsync
 disableAsyncCompositor
+disableStageRecentering1_0
 disable_async_reprojection
 disconnect_all_controllers
 disconnect_controller
@@ -6495,6 +6511,7 @@ enableCamera
 enableCameraSurfaces
 enableDriverBoundsImport
 enableHmdAutoConnect
+enableHmdLatencyHidingDisplayOffset
 enableHomeApp
 enableHomeApp2
 enablePlaybackDeviceOverride
@@ -6677,7 +6694,9 @@ grip
 grip_limit_transforms
 group
 guid
-h55@
+guided_tour_room_setup
+hM3@
+hN3@
 hPU3
 half_thresholds
 hand_interaction_ext
@@ -6695,11 +6714,13 @@ has_force
 has_ready_ext
 has_touch
 has_value
+hc6@
 header
 header crc mismatch
 height
 held
 hex_property
+hh3@
 hidden
 hide_callout
 hide_dashboard_requested
@@ -6719,7 +6740,6 @@ https:
 https://
 hu_hu
 hungarian
-hx8@
 i91k
 i]Wb
 iauds
@@ -7074,7 +7094,7 @@ latch
 launch_type
 layouts
 lazy
-lc5@
+lb6@
 ldexp
 ldiv
 leading_comments
@@ -7176,6 +7196,7 @@ method_description
 mfplat.dll
 mg_close_conn
 mg_error
+mg_http_parse_headers
 mg_io_send
 mg_iobuf_resize
 mg_listen
@@ -7331,18 +7352,15 @@ overlays
 override_throttling
 overwrite.vrsettings
 owned
-p43@
 pBegin == pEnd
 pEnd > pBegin
 pMGConnect != nullptr
 pNewResource
 pNewResource->Load( absFilePath )
-pO0@
 pOutFormatCount MUST not be NULL.
 pOutModifierCount MUST not be NULL.
 pProcessId
 pQueue->GetMetaContainerHandle() == ulExistingQueue
-pR9@
 pSharedState != nullptr
 pUrl != nullptr
 pWebSocketMessage
@@ -7364,9 +7382,7 @@ path_handle
 path_handles
 paths
 payload
-pb5@
 pbrMetallicRoughness
-pc5@
 pending_file_saved
 perfcheck
 performanceProfile
@@ -7397,6 +7413,7 @@ pose.qWorldFromDriverRotation
 pose.vAcceleration
 pose.vAngularAcceleration
 pose.vAngularVelocity
+pose.vFilteredAngularAcceleration
 pose.vPosition
 pose.vVelocity
 pose_component
@@ -7411,10 +7428,12 @@ positional
 positive_int_value
 power
 powersaveFramesToThrottle
+powersaveSteamOSManagerCustomProfile
 powf
 precision
 prediction
 prediction parameter out of range
+preferDepthReprojectionMode
 preferHalfFramerate
 preferMinRefreshRate
 preferMotionSmoothingMode
@@ -7691,7 +7710,6 @@ start
 start_pairing
 start_update
 started
-starts_theater_mode
 startup
 startup_app_id
 startup_app_type
@@ -7999,8 +8017,6 @@ vrmonitor_
 vrmonitor_english.txt
 vrmonitor_errors_
 vrmonitor_errors_english.txt
-vrmonitor_issues_
-vrmonitor_issues_english.txt
 vrresourcedrivers
 vrserver
 vrserver internal error (124)
@@ -8058,10 +8074,11 @@ ws handshake error
 wsprintfW
 wss:
 x-steamvr-secret
+xL3@
 x_path
+xb6@
 xdigit
 xmag
-xv6@
 y9*O
 y_path
 yfov

@@ -162,6 +162,9 @@
 				{
 					"path": "/user/hand/left/input/trigger",
 					"mode": "button",
+					"parameters": {
+						"haptic_amplitude": "0"
+					},
 					"inputs": {
 						"click": {
 							"output": "/actions/lasermouse_secondary/in/SwitchLaserHand"
@@ -171,6 +174,9 @@
 				{
 					"path": "/user/hand/right/input/trigger",
 					"mode": "button",
+					"parameters": {
+						"haptic_amplitude": "0"
+					},
 					"inputs": {
 						"click": {
 							"output": "/actions/lasermouse_secondary/in/SwitchLaserHand"

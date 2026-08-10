@@ -202,9 +202,19 @@
 			"type": "vector2"
 		},
 		{
-			"name": "/actions/roomsetup_floor/in/FloorFineAdjust",
+			"name": "/actions/roomsetup/in/FloorFineAdjust",
 			"requirement": "optional",
 			"type": "vector2"
+		},
+		{
+			"name": "/actions/roomsetup/in/Accept",
+			"requirement": "optional",
+			"type": "boolean"
+		},
+		{
+			"name": "/actions/roomsetup/in/Back",
+			"requirement": "optional",
+			"type": "boolean"
 		},
 		{
 			"name": "/actions/quickrecenter/in/Recenter",
@@ -296,7 +306,7 @@
 			"usage": "leftright"
 		},
 		{
-			"name": "/actions/roomsetup_floor",
+			"name": "/actions/roomsetup",
 			"usage": "leftright"
 		}
 	],

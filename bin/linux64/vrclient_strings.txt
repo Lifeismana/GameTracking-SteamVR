@@ -8,6 +8,8 @@
     faceCount: %d, arraySize: %d, mipCount: %d\n
     format: %d, sampleCount: %d\n
     size: %d %d\n
+   - %s: FALSE
+   - %s: TRUE
   %s -> %s\n
   driver %s implements interfaces %s\n
   what():  
@@ -483,8 +485,8 @@ $3br
 /data/src/common/vrcommon/vrrenderer/ivrrenderer.h
 /data/src/common/vrcommon/vrrenderer/sharedresource_linux.cpp
 /data/src/common/vrcommon/vrrenderer/vulkanrenderer.cpp
-/data/src/common/vrcommon/vrrenderer/vulkanrenderer.cpp:4321
-/data/src/common/vrcommon/vrrenderer/vulkanrenderer.cpp:4405
+/data/src/common/vrcommon/vrrenderer/vulkanrenderer.cpp:4325
+/data/src/common/vrcommon/vrrenderer/vulkanrenderer.cpp:4409
 /data/src/common/vrcommon/vrsystem.cpp
 /data/src/common/vrcommon/vrsystemlayersharedstate.cpp
 /data/src/common/vrcommon/vulkan.cpp
@@ -656,20 +658,20 @@ $3br
 /data/src/vrclient/vrchaperoneclient.cpp
 /data/src/vrclient/vrclientcore.cpp
 /data/src/vrclient/vrcompositorclient.cpp
-/data/src/vrclient/vrcompositorclient.cpp:1429
-/data/src/vrclient/vrcompositorclient.cpp:1685
-/data/src/vrclient/vrcompositorclient.cpp:2486
-/data/src/vrclient/vrcompositorclient.cpp:463
+/data/src/vrclient/vrcompositorclient.cpp:1530
+/data/src/vrclient/vrcompositorclient.cpp:1786
+/data/src/vrclient/vrcompositorclient.cpp:2597
+/data/src/vrclient/vrcompositorclient.cpp:464
 /data/src/vrclient/vrcompositorsharedtextures.cpp
 /data/src/vrclient/vrcompositorsharedtextures.cpp:2564
 /data/src/vrclient/vrcompositorsharedtextures.cpp:2758
 /data/src/vrclient/vrcompositorsharedtextures.cpp:2963
 /data/src/vrclient/vrcompositorsharedtextures.cpp:2967
 /data/src/vrclient/vrcompositorsharedtextures.cpp:3072
-/data/src/vrclient/vrcompositorsharedtextures.cpp:4286
+/data/src/vrclient/vrcompositorsharedtextures.cpp:4295
 /data/src/vrclient/vrdebug.cpp:49
 /data/src/vrclient/vrdebug.cpp:60
-/data/src/vrclient/vrinput.cpp:1609
+/data/src/vrclient/vrinput.cpp:1606
 /data/src/vrclient/vrmailboxclient.cpp
 /data/src/vrclient/vroverlay.cpp:1175
 /data/src/vrclient/vroverlay.cpp:1206
@@ -1047,12 +1049,13 @@ $3br
 /vrgamepadui/steamvr/desktop_windows_remote
 /vrgamepadui/steamvr/desktop_windows_tx
 /vrgamepadui/steamvr/unified_dashboard_state_remote
+/vrgamepadui/steamvr/unified_lasermouse_state_remote
 /vrgamepadui/steamvr/vrlink_lasermouseactive_remote
 /vrgamepadui/steamvr/vrlink_lasermouseoverlay_remote
 /vrgamepadui/steamvr/vrlink_lasermouseoverlay_tx
+/vrgamepadui/steamvr/vrlink_lasermousestate_tx
+/vrlink/steamvr/remoteClientRefreshRate
 /vrlink_client_isSteamVR
-/vrlink_environment
-/vrlink_stream_active
 /x/click
 /x/touch
 /y/click
@@ -1293,6 +1296,7 @@ $3br
 19CVRSteamPrivate_026
 19CVRSteamPrivate_027
 19CVRSteamPrivate_028
+19CVRSteamPrivate_029
 19CVRWatchdogHost_001
 19CVkGarbageCollector
 19CVkPoolableResourceI20CVkCommandBufferPoolE
@@ -1654,6 +1658,7 @@ $3br
 33SteamPrivateInterfaceRegistrationI19CVRSteamPrivate_026E
 33SteamPrivateInterfaceRegistrationI19CVRSteamPrivate_027E
 33SteamPrivateInterfaceRegistrationI19CVRSteamPrivate_028E
+33SteamPrivateInterfaceRegistrationI19CVRSteamPrivate_029E
 34CInputFilter_Scalar_ScaleAndOffset
 34CVRMsg_ApplicationManifestResponse
 34CVRMsg_CompositorRefSharedResource
@@ -2413,7 +2418,7 @@ Driver Failed (200)
 Driver Not Known (201)
 Driver Not Loaded (203)
 Driver Tracked Device Interface unknown (209)
-Driver manager failed to start.\n
+Driver manager failed to start: %s (%d).\n
 Driver runtime is out of date (204)
 Driver unable to initialize video encoder (499)
 DriverDirect_Acquired
@@ -2670,7 +2675,6 @@ File size mismatch :
 File was empty
 File write error: 
 Filter list was too gnarly. Not sorting the last %d filters\n
-FilterInputSourceName(%s). Mode: %s.  result: %s\n
 FilterInputSourceName: Default flip: from %s to %s\n
 FilterInputSourceName: Explicit flip: from %s to %s\n
 FilterInputSourceName: No flip: %s\n
@@ -2817,6 +2821,7 @@ GetPresentableDepthTexture
 GetPresentableTexture
 GetPresentableTextureHandle
 GetRecommendedLayerResolutionMETA
+GetReferenceSpaceFromRaw: Failed to fetch transform for specified reference space type %u
 GetRenderModelAbsolutePath
 GetTextureLOD
 GetTextureLODLayer
@@ -3102,6 +3107,7 @@ IVRSteamPrivate_026
 IVRSteamPrivate_027
 IVRSteamPrivate_028
 IVRSteamPrivate_029
+IVRSteamPrivate_030
 IVRSystem::GetOutputDevice: Failed to get required Vulkan device function pointer (vkGetPhysicalDeviceProperties2KHR)!\n
 IVRSystem::GetOutputDevice: Unsupported textureType, only TextureType_Vulkan supported on Linux.\n
 IVRSystem::GetOutputDevice: VkInstance_T *pInstance parameter is nullptr.  VkInstance must be specified for TextureType_Vulkan!\n
@@ -3437,6 +3443,7 @@ N2vr19IVRSteamPrivate_026E
 N2vr19IVRSteamPrivate_027E
 N2vr19IVRSteamPrivate_028E
 N2vr19IVRSteamPrivate_029E
+N2vr19IVRSteamPrivate_030E
 N2vr19IVRWatchdogProviderE
 N2vr20IVRResourcesInternalE
 N2vr21CVRApplicationsLatestE
@@ -3800,6 +3807,7 @@ Prop_HmdColumnCorrectionSettingPrefix_String
 Prop_HmdTrackingStyle_Int32
 Prop_Hmd_AppPreferencesSectionName_String
 Prop_Hmd_BlankOnFramerateChange_Bool
+Prop_Hmd_CameraSettingsModel_Int32
 Prop_Hmd_EnableParallelRenderCameras_Bool
 Prop_Hmd_RecommendedResolutionIsPerApp_Bool
 Prop_Hmd_RecommendedResolutionPixelsSteps_Int32
@@ -3970,7 +3978,7 @@ RootNode
 RunInputFrame
 Running_OK
 Running_OutOfRange
-Runtime escape requested, but no SYSTEM_LD_LIBRARY_PATH provided!
+Runtime escape requested for %s, but no SYSTEM_LD_LIBRARY_PATH provided!
 SCALAR
 SDL_GetError
 SDL_GetPowerInfo
@@ -4217,6 +4225,8 @@ SystemBehaviorFlag_DisplaySuppressed
 SystemBehaviorFlag_DriverIsDrawingControllers
 SystemBehaviorFlag_DriverRequestsApplicationPause
 SystemBehaviorFlag_DriverRequestsReducedRendering
+SystemBehaviorFlag_GamepadMode_Left
+SystemBehaviorFlag_GamepadMode_Right
 SystemBehaviorFlag_LaserMouse
 SystemBehaviorFlag_RoomViewFullyOccludingApp
 SystemBehaviorFlag_SystemButtonDown
@@ -6079,6 +6089,7 @@ Zjz\v
 [CVRChaperoneClient] ResetZeroPose for both Seated and Standing
 [CVRChaperoneClient] the bounds is already a defualt one. No action is needed for RemoveCurrentChaperoneBounds
 [CVRChaperoneClient] try to set the default bounds for the current chaperone universe
+[Chaperone] Exceeded wall count limitation (%lu), ignoring excess.
 [Compatibility Mode] Could not get notification interface. %d\n
 [Compatibility Mode] Could not get overlay interface. %d\n
 [Compatibility Mode] Notification failed: %d\n
@@ -6826,6 +6837,7 @@ dgettext
 digit
 directory
 disableAsyncCompositor
+disableStageRecentering1_0
 disable_watchdogs
 discarded
 discrete
@@ -6920,6 +6932,7 @@ en_us
 enable
 enableCameraSurfaces
 enableDriverBoundsImport
+enableHmdLatencyHidingDisplayOffset
 enableHomeApp
 enableHomeApp2
 enableLegacyGameTheater
@@ -7041,6 +7054,7 @@ fvtaa
 fwrite
 gain
 gamepad
+gamepad_input_unsupported_over_vrlink
 generator
 generic
 generic_hmd
@@ -7372,6 +7386,7 @@ lm_haptic
 loadPriority
 locale::facet::_S_create_c_locale name not valid
 localeconv
+localhost
 localization
 localization_files
 localized_action_name
@@ -7704,6 +7719,7 @@ power
 powersaveFovScale
 powersaveFramesToThrottle
 powersaveResolution
+powersaveSteamOSManagerCustomProfile
 powf
 ppCmdBuf
 precision
@@ -7958,6 +7974,7 @@ shaders/vulkan/distort_geom_floor_reflect_ps.spv
 shaders/vulkan/distort_geom_fresnel_ps.spv
 shaders/vulkan/distort_geom_grid_ps.spv
 shaders/vulkan/distort_geom_grid_vs.spv
+shaders/vulkan/distort_geom_halo_ps.spv
 shaders/vulkan/distort_geom_hard_bounds_aa_lines_ps.spv
 shaders/vulkan/distort_geom_hard_bounds_aa_lines_vs.spv
 shaders/vulkan/distort_geom_hard_bounds_aa_squares_ps.spv
@@ -8031,6 +8048,7 @@ shaders/vulkan/distort_vs_reproject_fv_dr.spv
 shaders/vulkan/distort_vs_reproject_layered.spv
 shaders/vulkan/distort_vs_reproject_layered_nd.spv
 shaders/vulkan/distort_vs_reproject_mv.spv
+shaders/vulkan/distort_vs_reproject_mv_dr.spv
 shaders/vulkan/distort_vs_reproject_nd.spv
 shaders/vulkan/downsample_filter_x_ps.spv
 shaders/vulkan/downsample_filter_x_srgb_ps.spv
@@ -8039,9 +8057,12 @@ shaders/vulkan/downsample_filter_y_srgb_ps.spv
 shaders/vulkan/downsample_ps.spv
 shaders/vulkan/downsample_srgb_ps.spv
 shaders/vulkan/downsample_vs.spv
+shaders/vulkan/frame_hallucination_depth_vs.spv
+shaders/vulkan/frame_hallucination_float_depth_vs.spv
 shaders/vulkan/frame_hallucination_float_vs.spv
 shaders/vulkan/frame_hallucination_ps.spv
 shaders/vulkan/frame_hallucination_vs.spv
+shaders/vulkan/frame_hallucination_wireframe_ps.spv
 shaders/vulkan/fsharp_2d_drawregion_gamma_ps.spv
 shaders/vulkan/fsharp_2d_drawregion_ps.spv
 shaders/vulkan/fsharp_2d_gamma_ps.spv
@@ -9391,6 +9412,7 @@ vrserver pid %d\n
 vrsteamprivate
 vrwebhelper
 vrwebui_dashboard
+vrwebui_dashboardstore
 vsnprintf
 vtable for 
 vtable for __cxxabiv1::__class_type_info
@@ -9475,6 +9497,7 @@ xrCreateRenderModelAssetEXT
 xrCreateRenderModelEXT
 xrCreateRenderModelSpaceEXT
 xrCreateSession
+xrCreateSession: Creating session for %s
 xrCreateSession: Failed to create binding
 xrCreateSession: Failed to create compositor
 xrCreateSession: Failed to create session
@@ -9572,6 +9595,7 @@ xrGetVulkanGraphicsDeviceKHR
 xrGetVulkanGraphicsRequirements2KHR
 xrGetVulkanGraphicsRequirementsKHR
 xrGetVulkanInstanceExtensionsKHR
+xrInitializeLoaderKHR
 xrInsertTimingUtilsLabelVALVE
 xrLocateHandJoints: Time was invalid
 xrLocateHandJoints: XrHandTrackingDataSourceStateEXT was provided without first providing sources.

@@ -67,6 +67,7 @@
 --send-vrevent
 --set-settings-bool
 --set-settings-float
+--set-settings-int
 --set-settings-string
 --set-vsync-to-photons-offset-ms
 --settings-bool
@@ -129,6 +130,7 @@
 .?AV<lambda_5bb49cc7e122936b34195f22a654d27b>@@
 .?AV<lambda_6010c80f147b9df2ed84dd2933f5472f>@@
 .?AV<lambda_61a40b0f56387bf547ce7c42ad09251b>@@
+.?AV<lambda_6354d0bd8a600dd49a985c765b6ff5b6>@@
 .?AV<lambda_655794d6c24d03a4eb901fceee36ee3c>@@
 .?AV<lambda_655ab12a61fb059c0c4cdfd3d1a25a39>@@
 .?AV<lambda_662d8de06dabd83193f2cb18a12f4766>@@
@@ -203,6 +205,7 @@
 .?AV?$_Func_impl_no_alloc@V<lambda_5bb49cc7e122936b34195f22a654d27b>@@X$$V@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_6010c80f147b9df2ed84dd2933f5472f>@@X$$V@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_61a40b0f56387bf547ce7c42ad09251b>@@X$$V@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_6354d0bd8a600dd49a985c765b6ff5b6>@@X$$V@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_655794d6c24d03a4eb901fceee36ee3c>@@X$$V@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_655ab12a61fb059c0c4cdfd3d1a25a39>@@X$$V@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_662d8de06dabd83193f2cb18a12f4766>@@X$$V@std@@
@@ -504,13 +507,13 @@ Error: Model Number %s for %s:%s is %d characters, which breaks the promise in t
 Error: Serial Number %s for %s:%s is %d characters, which breaks the promise in the interface documentation.\n
 Errors
 Event: %s %s\n
+Event: %s \tdevice=%u \tdata= 0x%llx 0x%llx 0x%llx 0x%llx 0x%llx 0x%llx\n
 Event: %s bResetManually: %d\n
 Event: %s data %16llx %16llx\n
 Event: %s for %s: %s %s\n
-Event: %s from %u data %16llx %16llx %16llx\n
 Event: %s from %u: %llx.%s\n
 Event: %s from %u: ipd=%2.1fmm\n
-Event: %s new universe: %d, bPoseContinuityToPriorUniverse: %d\n
+Event: %s new universe: %d, prior universe %d\n
 Exceeded stackLimit in readValue().
 Extra non-whitespace after JSON value.
 Failed to WaitForConnection on pipe %s because %s\n
@@ -797,6 +800,7 @@ Prop_HmdColumnCorrectionSettingPrefix_String
 Prop_HmdTrackingStyle_Int32
 Prop_Hmd_AppPreferencesSectionName_String
 Prop_Hmd_BlankOnFramerateChange_Bool
+Prop_Hmd_CameraSettingsModel_Int32
 Prop_Hmd_EnableParallelRenderCameras_Bool
 Prop_Hmd_RecommendedResolutionIsPerApp_Bool
 Prop_Hmd_RecommendedResolutionPixelsSteps_Int32
@@ -1340,6 +1344,7 @@ WriteFile
 \tsetAttr ".s" -type "double3" %lf %lf %lf ;\n
 \tsetAttr ".t" -type "double3" %lf %lf %lf ;\n
 \tsetAttr - k off ".v";\n
+^rvj
 _Cnd_destroy
 _Cnd_destroy_in_situ
 _Cnd_do_broadcast_at_thread_exit

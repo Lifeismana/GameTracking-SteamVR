@@ -1,4 +1,4 @@
-var CLSTAMP = "10838627";
+var CLSTAMP = "10893990";
 (self.webpackChunkvrwebui = self.webpackChunkvrwebui || []).push([
   [838],
   {
@@ -352,27 +352,28 @@ var CLSTAMP = "10838627";
           : a.Unknown;
       }
       n.d(t, {
-        GQ: () => M,
+        GQ: () => w,
         Gz: () => d,
-        HW: () => p,
+        HW: () => _,
         Kl: () => D,
         MV: () => r,
         OH: () => a,
         R$: () => o,
         Rk: () => c,
-        Xl: () => f,
+        Xl: () => b,
         _1: () => I,
         _E: () => l,
-        b: () => y,
-        gN: () => b,
+        aq: () => y,
+        b: () => f,
+        gN: () => R,
         k2: () => P,
-        kG: () => R,
+        kG: () => C,
         ku: () => h,
-        mo: () => g,
+        mo: () => p,
         mu: () => s,
         ne: () => m,
         pM: () => i,
-        rx: () => S,
+        rx: () => E,
       }),
         (function (e) {
           (e[(e.Desktop = 1)] = "Desktop"),
@@ -408,7 +409,7 @@ var CLSTAMP = "10838627";
       let l = 0,
         d = 0,
         m = 4294967295;
-      var u, h, c, g, _, p, v, f, y, D, b, R, C, P, S, E, I, O, M;
+      var u, h, c, p, g, _, v, y, b, f, D, R, C, S, P, E, O, I, M, w;
       !(function (e) {
         (e[(e.None = 0)] = "None"),
           (e[(e.Shown = 1)] = "Shown"),
@@ -442,19 +443,19 @@ var CLSTAMP = "10838627";
             (e[(e.GenericTracker = 3)] = "GenericTracker"),
             (e[(e.TrackingReference = 4)] = "TrackingReference"),
             (e[(e.DisplayRedirect = 5)] = "DisplayRedirect");
-        })(g || (g = {})),
+        })(p || (p = {})),
         (function (e) {
           (e[(e.Unknown = 0)] = "Unknown"),
             (e[(e.NVIDIA = 1)] = "NVIDIA"),
             (e[(e.AMD = 2)] = "AMD");
-        })(_ || (_ = {})),
+        })(g || (g = {})),
         (function (e) {
           (e[(e.None = 0)] = "None"),
             (e[(e.Starting = 1)] = "Starting"),
             (e[(e.Quitting = 2)] = "Quitting"),
             (e[(e.Running = 3)] = "Running"),
             (e[(e.Waiting = 4)] = "Waiting");
-        })(p || (p = {})),
+        })(_ || (_ = {})),
         (function (e) {
           (e[(e.ButtonPress_0 = 0)] = "ButtonPress_0"),
             (e[(e.ButtonPress_1 = 1)] = "ButtonPress_1"),
@@ -466,14 +467,17 @@ var CLSTAMP = "10838627";
             (e[(e.ApplicationQuit = 6)] = "ApplicationQuit");
         })(v || (v = {})),
         (function (e) {
+          (e[(e.Accept = 0)] = "Accept"), (e[(e.Back = 1)] = "Back");
+        })(y || (y = {})),
+        (function (e) {
           (e[(e.Normal = 0)] = "Normal"),
             (e[(e.Password = 1)] = "Password"),
             (e[(e.Submit = 2)] = "Submit");
-        })(f || (f = {})),
+        })(b || (b = {})),
         (function (e) {
           (e[(e.SingleLine = 0)] = "SingleLine"),
             (e[(e.MultipleLines = 1)] = "MultipleLines");
-        })(y || (y = {})),
+        })(f || (f = {})),
         (function (e) {
           (e[(e.LaserMouse = 1)] = "LaserMouse"),
             (e[(e.RoomViewFullyOccludingApp = 2)] =
@@ -498,7 +502,7 @@ var CLSTAMP = "10838627";
             (e[(e.AnotherRuntime = 3)] = "AnotherRuntime"),
             (e[(e.ThisSteamVR64BitOnly = 4)] = "ThisSteamVR64BitOnly"),
             (e[(e.Error = -1)] = "Error");
-        })(b || (b = {})),
+        })(R || (R = {})),
         (function (e) {
           (e[(e.TrackedControllerRole_Invalid = 0)] =
             "TrackedControllerRole_Invalid"),
@@ -512,7 +516,7 @@ var CLSTAMP = "10838627";
               "TrackedControllerRole_Treadmill"),
             (e[(e.TrackedControllerRole_Max = 5)] =
               "TrackedControllerRole_Max");
-        })(R || (R = {})),
+        })(C || (C = {})),
         (function (e) {
           (e[(e.Unknown = 0)] = "Unknown"),
             (e[(e.Steam_VRButton = 1)] = "Steam_VRButton"),
@@ -524,7 +528,7 @@ var CLSTAMP = "10838627";
             (e[(e.AppLaunch_Steam = 21)] = "AppLaunch_Steam"),
             (e[(e.SteamVR_Restart = 30)] = "SteamVR_Restart"),
             (e[(e.SteamVR_VRStartup = 31)] = "SteamVR_VRStartup");
-        })(C || (C = {})),
+        })(S || (S = {})),
         (function (e) {
           e[(e.Hostname = 0)] = "Hostname";
         })(P || (P = {})),
@@ -532,10 +536,10 @@ var CLSTAMP = "10838627";
           (e[(e.Unavailable = 0)] = "Unavailable"),
             (e[(e.Active = 1)] = "Active"),
             (e[(e.Off = 2)] = "Off");
-        })(S || (S = {})),
+        })(E || (E = {})),
         (function (e) {
           (e[(e.Default = 1)] = "Default"), (e[(e.Floor = 2)] = "Floor");
-        })(E || (E = {})),
+        })(O || (O = {})),
         (function (e) {
           (e[(e.Inactive = 0)] = "Inactive"),
             (e[(e.PendingReset = 1)] = "PendingReset"),
@@ -561,14 +565,14 @@ var CLSTAMP = "10838627";
             (e[(e.Error_PlayAreaInvalid = 203)] = "Error_PlayAreaInvalid"),
             (e[(e.Error_CollisionBoundsInvalid = 204)] =
               "Error_CollisionBoundsInvalid");
-        })(O || (O = {})),
+        })(M || (M = {})),
         (function (e) {
           (e[(e.Small = 0)] = "Small"),
             (e[(e.Medium = 1)] = "Medium"),
             (e[(e.Large = 2)] = "Large"),
             (e[(e.Gigantic = 3)] = "Gigantic"),
             (e[(e.Standing = 4)] = "Standing");
-        })(M || (M = {}));
+        })(w || (w = {}));
     },
     6185: (e, t, n) => {
       n.d(t, { l: () => r });
@@ -584,10 +588,10 @@ var CLSTAMP = "10838627";
     },
     9383: (e, t, n) => {
       n.d(t, {
-        CL: () => C,
+        CL: () => S,
         JP: () => a,
-        JQ: () => R,
-        P9: () => b,
+        JQ: () => C,
+        P9: () => R,
         gU: () => P,
         sj: () => D,
       });
@@ -602,12 +606,13 @@ var CLSTAMP = "10838627";
         u = n(7727),
         h = n(3779),
         c = n(1651),
-        g = n(9961),
-        _ = n(776),
-        p = n(4007),
+        p = n(9961),
+        g = n(776),
+        _ = n(4007),
         v = n(2741),
-        f = n(1391),
-        y = n(3676);
+        y = n(1391),
+        b = n(3676),
+        f = n(1333);
       !(function (e) {
         (e[(e.Alive = 0)] = "Alive"), (e[(e.Destroyed = 1)] = "Destroyed");
       })(a || (a = {}));
@@ -659,12 +664,13 @@ var CLSTAMP = "10838627";
             (this.m_sSummonOverlayKey = void 0),
             (this.m_bExternalDashboardOverlay = !1),
             (this.m_mainPanel = void 0),
-            (this.Log = new _.wd("Frame", () => this.logPrefix)),
+            (this.m_bSpatialize = void 0),
+            (this.Log = new g.wd("Frame", () => this.logPrefix)),
             (this.m_setComponents = new Set()),
             (this.keyboard = new h.Y(this)),
             (this.sharing = void 0),
-            (this.size = new g.wP(this)),
-            (this.inputFocus = new f.v(this)),
+            (this.size = new p.wP(this)),
+            (this.inputFocus = new y.v(this)),
             (this.m_Frame = e),
             (this.m_unPageID = t),
             (this.props = n),
@@ -699,11 +705,11 @@ var CLSTAMP = "10838627";
           if (this.m_mainPanel) {
             const e = this.m_mainPanel.getID();
             if (null == e) return;
-            return (0, o.nX)(d.C6, e);
+            return (0, o.nXw)(d.C6, e);
           }
           if (this.isExternalDashboardOverlay) {
             if (null == this.summonOverlayKey) return;
-            return (0, o.nX)(d.cb, this.summonOverlayKey) + "_Panel";
+            return (0, o.nXw)(d.cb, this.summonOverlayKey) + "_Panel";
           }
         }
         get mainPanelSGID() {
@@ -712,7 +718,7 @@ var CLSTAMP = "10838627";
             ? this.m_mainPanel.getSGID()
             : (this.isExternalDashboardOverlay &&
                 null != this.summonOverlayKey &&
-                (null === (e = p.Q.GetOverlayInfo(this.summonOverlayKey)) ||
+                (null === (e = _.Q.GetOverlayInfo(this.summonOverlayKey)) ||
                 void 0 === e
                   ? void 0
                   : e.unStandalonePanelSGID)) ||
@@ -723,17 +729,17 @@ var CLSTAMP = "10838627";
             return `frame:${this.frame.frameID}:page:${this.pageID}:anchor:${e}`;
           {
             if (null == this.summonOverlayKey) return;
-            const t = (0, o.nX)(d.cb, this.summonOverlayKey);
+            const t = (0, o.nXw)(d.cb, this.summonOverlayKey);
             switch (e) {
-              case o.Oi.TopCenter:
+              case o.OiK.TopCenter:
                 return t + "_TopCenter";
-              case o.Oi.CenterLeft:
+              case o.OiK.CenterLeft:
                 return t + "_CenterLeft";
-              case o.Oi.CenterRight:
+              case o.OiK.CenterRight:
                 return t + "_CenterRight";
-              case o.Oi.BottomCenter:
+              case o.OiK.BottomCenter:
                 return t + "_BottomCenter";
-              case o.Oi.BottomRight:
+              case o.OiK.BottomRight:
                 return t + "_BottomRight";
             }
           }
@@ -741,15 +747,43 @@ var CLSTAMP = "10838627";
         get isSystemPanel() {
           return (
             this.inputFocus.componentProps.steamInputAppID == d.qx ||
-            (0, y.n)(this.inputFocus.componentProps.steamInputAppID) ||
+            (0, b.n)(this.inputFocus.componentProps.steamInputAppID) ||
             (this.m_mainPanel && !this.m_mainPanel.isExternal)
           );
         }
         get shouldShowMinimalDecorations() {
           return (
             null != this.summonOverlayKey &&
-            p.Q.GetOverlayFlag(this.summonOverlayKey, 67108864)
+            _.Q.GetOverlayFlag(this.summonOverlayKey, 67108864)
           );
+        }
+        get canSpatialize() {
+          var e;
+          return (
+            !!f.HR.settings.get("/settings/audio/enableSpatializeGlobal") &&
+            ((null === (e = this.summonOverlayKey) || void 0 === e
+              ? void 0
+              : e.startsWith(d.bl + ".")) ||
+              this.summonOverlayKey == d.P)
+          );
+        }
+        get isSpatializeEnabled() {
+          return (
+            !!this.summonOverlayKey &&
+            !!this.canSpatialize &&
+            (null == this.m_bSpatialize &&
+              ((this.m_bSpatialize = !1),
+              f.HR.GetAppSettings(this.summonOverlayKey).then(
+                (e) => (this.m_bSpatialize = e.spatialize),
+              )),
+            this.m_bSpatialize)
+          );
+        }
+        SetSpatializeEnabled(e) {
+          if (!this.summonOverlayKey) return;
+          this.m_bSpatialize = e;
+          let t = {};
+          (t.spatialize = e), f.HR.SetAppSettings(this.summonOverlayKey, t);
         }
       }
       (0, i.Cg)([r.observable], D.prototype, "props", void 0),
@@ -762,6 +796,7 @@ var CLSTAMP = "10838627";
           void 0,
         ),
         (0, i.Cg)([r.observable], D.prototype, "m_mainPanel", void 0),
+        (0, i.Cg)([r.observable], D.prototype, "m_bSpatialize", void 0),
         (0, i.Cg)([r.computed], D.prototype, "state", null),
         (0, i.Cg)([r.computed], D.prototype, "summonOverlayKey", null),
         (0, i.Cg)(
@@ -792,8 +827,11 @@ var CLSTAMP = "10838627";
           D.prototype,
           "shouldShowMinimalDecorations",
           null,
-        );
-      const b = l.forwardRef(function (e, t) {
+        ),
+        (0, i.Cg)([r.computed], D.prototype, "canSpatialize", null),
+        (0, i.Cg)([r.computed], D.prototype, "isSpatializeEnabled", null),
+        (0, i.Cg)([r.action.bound], D.prototype, "SetSpatializeEnabled", null);
+      const R = l.forwardRef(function (e, t) {
           const { children: n, summonOverlayKey: a } = e,
             { frame: i } = (0, u.N)(),
             d = l.useMemo(() => i.CreatePage(e), [i]);
@@ -809,22 +847,22 @@ var CLSTAMP = "10838627";
           return l.createElement(
             u.t.Provider,
             { value: { frame: i, page: d } },
-            l.createElement(o.IS, { id: h }, n),
+            l.createElement(o.IS7, { id: h }, n),
           );
         }),
-        R = l.forwardRef(function (e, t) {
+        C = l.forwardRef(function (e, t) {
           var n, a;
           const {
               requireExternalOverlay: r = !0,
               overlayKey: h,
               componentProps: c,
             } = e,
-            g = (0, i.Tt)(e, [
+            p = (0, i.Tt)(e, [
               "requireExternalOverlay",
               "overlayKey",
               "componentProps",
             ]),
-            { frame: _ } = (0, u.N)(),
+            { frame: g } = (0, u.N)(),
             v = l.useCallback(
               (e) => {
                 null == e || e.SetIsExternalDashboardOverlay(!0),
@@ -832,19 +870,19 @@ var CLSTAMP = "10838627";
               },
               [t],
             ),
-            f = (0, s.q3)(() => _.curvature.curvatureTransformOriginID),
-            y = (0, s.q3)(() => p.Q.GetOverlayInfo(h)),
-            D =
-              null !== (n = null == y ? void 0 : y.unFlags) && void 0 !== n
+            y = (0, s.q3)(() => g.curvature.curvatureTransformOriginID),
+            b = (0, s.q3)(() => _.Q.GetOverlayInfo(h)),
+            f =
+              null !== (n = null == b ? void 0 : b.unFlags) && void 0 !== n
                 ? n
                 : 0,
-            R = (16 & D) > 0,
-            C = (1073741824 & D) > 0;
-          return r && !y
+            D = (16 & f) > 0,
+            C = (1073741824 & f) > 0;
+          return r && !b
             ? null
             : l.createElement(
-                b,
-                Object.assign({}, g, {
+                R,
+                Object.assign({}, p, {
                   summonOverlayKey:
                     null !== (a = e.summonOverlayKey) && void 0 !== a ? a : h,
                   ref: v,
@@ -855,22 +893,22 @@ var CLSTAMP = "10838627";
                     ),
                     inputFocus: Object.assign(
                       {
-                        vrClientPID: R ? y.unClientPID : void 0,
-                        steamInputAppID: C ? y.unSteamInputAppID : void 0,
+                        vrClientPID: D ? b.unClientPID : void 0,
+                        steamInputAppID: C ? b.unSteamInputAppID : void 0,
                       },
                       null == c ? void 0 : c.inputFocus,
                     ),
                   }),
                 }),
-                l.createElement(o.rF, { mountedId: (0, o.nX)(d.cb, h) }),
-                l.createElement(o.dL, {
-                  id: (0, o.nX)(d.cb, h) + "_CurvatureOrigin",
-                  parent_id: f,
+                l.createElement(o.HWh, { mountedId: (0, o.nXw)(d.cb, h) }),
+                l.createElement(o.dLy, {
+                  id: (0, o.nXw)(d.cb, h) + "_CurvatureOrigin",
+                  parent_id: y,
                 }),
-                g.children,
+                p.children,
               );
         });
-      function C(e) {
+      function S(e) {
         const { page: t } = (0, u.N)();
         if ((0, s.q3)(() => (null == t ? void 0 : t.isActiveAndVisiblePage)))
           return l.createElement(l.Fragment, null, e.children);
@@ -882,7 +920,7 @@ var CLSTAMP = "10838627";
             l.Fragment,
             null,
             v.i_.map((e) =>
-              l.createElement(o.Ci, {
+              l.createElement(o.Ci8, {
                 key: e,
                 id: n.GetPanelAnchorID(e),
                 location: e,
