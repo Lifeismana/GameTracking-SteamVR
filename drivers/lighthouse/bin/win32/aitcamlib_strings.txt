@@ -4,6 +4,7 @@
 #?RGBE\n
 '.5<=6/7>????????????????
 (Enumerating)
+(Failed Enumeration)
 (General Failure)
 (Hub Nested Too Deeply)
 (In Legacy Hub)
@@ -137,7 +138,6 @@
 ?id@?$codecvt@_WDU_Mbstatet@@@std@@2V0locale@2@A
 ?in@?$codecvt@_WDU_Mbstatet@@@std@@QBEHAAU_Mbstatet@@PBD1AAPBDPA_W3AAPA_W@Z
 ?out@?$codecvt@_WDU_Mbstatet@@@std@@QBEHAAU_Mbstatet@@PB_W1AAPB_WPAD3AAPAD@Z
-@(Failed Enumeration)
 ADVAPI32.dll
 AITAPI_AitExtGet
 AITAPI_AitExtSet
@@ -454,6 +454,7 @@ da_dk
 danish
 de_de
 deque<T> too long
+driver_lighthouse
 dutch
 el_gr
 en_us
@@ -521,7 +522,6 @@ portuguese
 pt_br
 pt_pt
 pvBuffer != nullptr
-qdriver_lighthouse
 read past buffer
 ro_ro
 romanian

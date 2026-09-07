@@ -425,7 +425,6 @@ Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
 RSDS
-R\npt
 RaiseException
 Recreate CaptureFramePool
 Reinitializing output duplication for desktop %d.\n

@@ -87,6 +87,7 @@ CreateDXGIFactory1
 CreateEventW
 DeleteCriticalSection
 DisableThreadLibraryCalls
+EnterCriticalSection
 EventRegister
 EventUnregister
 FreeLibrary
@@ -105,6 +106,7 @@ InitializeSListHead
 IsDebuggerPresent
 IsProcessorFeaturePresent
 KERNEL32.dll
+LeaveCriticalSection
 LiquidVR
 LiquidVR: Failed to close display! Error=%d
 LiquidVR: Failed to create fence!
@@ -158,14 +160,16 @@ PRISM_Stop
 QueryPerformanceCounter
 QueryPerformanceFrequency
 RPCRT4.dll
-RSDSAC
+RSDS
 RaiseException
+ResetEvent
 RtlCaptureContext
 RtlLookupFunctionEntry
 RtlVirtualUnwind
 S-1-15-2-2765576060-2389096713-3079022642-4099546867-1445191215-3071396046-3987166893
 S-1-15-3-1024-2302894289-466761758-1166120688-1039016420-2430351297-4240214049-4028510897-3317428798
 S-1-15-3-1024-3424233489-972189580-2057154623-747635277-1604371224-316187997-3786583170-1043257646
+SetEvent
 SetUnhandledExceptionFilter
 SleepConditionVariableCS
 TdhEnumerateManifestProviderEvents
@@ -191,6 +195,7 @@ VR_CONFIG_PATH
 VR_LOG_PATH
 VR_OVERRIDE
 VerQueryValueA
+WaitForSingleObjectEx
 WakeAllConditionVariable
 Warning: Watchdog %s not properly cleaned up%s%s\n
 _Cnd_destroy_in_situ

@@ -291,24 +291,6 @@
 							"output": "/actions/lasermouse_secondary/in/switchlaserhand"
 						}
 					},
-					"mode": "button",
-					"path": "/user/hand/left/input/bumper"
-				},
-				{
-					"inputs": {
-						"click": {
-							"output": "/actions/lasermouse_secondary/in/switchlaserhand"
-						}
-					},
-					"mode": "button",
-					"path": "/user/hand/right/input/bumper"
-				},
-				{
-					"inputs": {
-						"click": {
-							"output": "/actions/lasermouse_secondary/in/switchlaserhand"
-						}
-					},
 					"mode": "trigger",
 					"path": "/user/hand/left/input/grip"
 				},
@@ -320,6 +302,24 @@
 					},
 					"mode": "trigger",
 					"path": "/user/hand/right/input/grip"
+				},
+				{
+					"inputs": {
+						"click": {
+							"output": "/actions/lasermouse_secondary/in/switchlaserhand"
+						}
+					},
+					"mode": "button",
+					"path": "/user/hand/left/input/bumper"
+				},
+				{
+					"inputs": {
+						"click": {
+							"output": "/actions/lasermouse_secondary/in/switchlaserhand"
+						}
+					},
+					"mode": "button",
+					"path": "/user/hand/right/input/bumper"
 				}
 			]
 		},

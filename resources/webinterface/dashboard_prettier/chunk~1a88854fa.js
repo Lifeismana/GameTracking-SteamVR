@@ -1,4 +1,4 @@
-var CLSTAMP = "10893990";
+var CLSTAMP = "10951329";
 (self.webpackChunkvrwebui = self.webpackChunkvrwebui || []).push([
   [458],
   {
@@ -296,10 +296,10 @@ var CLSTAMP = "10893990";
             this.m_UVsMax &&
               (y.properties.uv_max =
                 null !== (r = I(this.m_UVsMax)) && void 0 !== r ? r : void 0);
-          const R = 1 / m.O.Current().m_fCurrentScale;
-          let M = this.props.frame_resize_scale_factor;
+          const M = 1 / m.O.Current().m_fCurrentScale;
+          let R = this.props.frame_resize_scale_factor;
           return (
-            this.props.is_frame_page_main_panel && (M = null != M ? M : 1),
+            this.props.is_frame_page_main_panel && (R = null != R ? R : 1),
             (y.properties.width =
               null !== (i = this.props.width) && void 0 !== i ? i : void 0),
             (y.properties.height =
@@ -318,7 +318,7 @@ var CLSTAMP = "10893990";
               this.props.target_dpi_multiplier),
             (y.properties["meters-per-pixel"] =
               null != this.props.meters_per_pixel
-                ? this.props.meters_per_pixel * R
+                ? this.props.meters_per_pixel * M
                 : void 0),
             (y.properties["subview-parent-panel-key"] =
               this.props.subview_parent_panel_key),
@@ -369,7 +369,7 @@ var CLSTAMP = "10893990";
             (y.properties["no-depth-write"] = this.props.no_depth_write),
             (y.properties["no-depth-test"] = this.props.no_depth_test),
             (y.properties.visibility = this.visibility),
-            (y.properties["frame-resize-scale-factor"] = M),
+            (y.properties["frame-resize-scale-factor"] = R),
             (y.properties["main-panel-for-frame-page"] =
               this.props.is_frame_page_main_panel),
             (y.properties["steam-input-appid"] =
@@ -643,7 +643,7 @@ var CLSTAMP = "10893990";
       o.d(t, {
         $: () => d,
         $Z: () => u,
-        Do: () => R,
+        Do: () => M,
         Ee: () => w,
         Fz: () => D,
         JR: () => s,
@@ -656,7 +656,7 @@ var CLSTAMP = "10893990";
         ds: () => B,
         en: () => n,
         eo: () => m,
-        f9: () => M,
+        f9: () => R,
         fD: () => r,
         fk: () => c,
         hq: () => C,
@@ -1129,15 +1129,16 @@ var CLSTAMP = "10893990";
             (e[(e.ControllerPairing = 1)] = "ControllerPairing"),
             (e[(e.WelcomeToSteamFrame = 2)] = "WelcomeToSteamFrame"),
             (e[(e.PlayspaceSetup = 3)] = "PlayspaceSetup"),
-            (e[(e.SystemButtonHideDashboard = 4)] =
+            (e[(e.LaserMouse = 4)] = "LaserMouse"),
+            (e[(e.SystemButtonHideDashboard = 5)] =
               "SystemButtonHideDashboard"),
-            (e[(e.SystemButtonDashboardHidden = 5)] =
+            (e[(e.SystemButtonDashboardHidden = 6)] =
               "SystemButtonDashboardHidden"),
-            (e[(e.SystemButtonShowDashboard = 6)] =
+            (e[(e.SystemButtonShowDashboard = 7)] =
               "SystemButtonShowDashboard"),
-            (e[(e.PairWifiDongle = 7)] = "PairWifiDongle"),
-            (e[(e.TourSendOff = 8)] = "TourSendOff"),
-            (e[(e.SteamGuidedTourFinished = 9)] = "SteamGuidedTourFinished");
+            (e[(e.PairWifiDongle = 8)] = "PairWifiDongle"),
+            (e[(e.TourSendOff = 9)] = "TourSendOff"),
+            (e[(e.SteamGuidedTourFinished = 10)] = "SteamGuidedTourFinished");
         })(v || (v = {})),
         (function (e) {
           (e[(e.None = 0)] = "None"),
@@ -1161,10 +1162,11 @@ var CLSTAMP = "10893990";
           (e[(e.None = 0)] = "None"),
             (e[(e.LargeDeadZone = 4)] = "LargeDeadZone"),
             (e[(e.SmallDeadZone = 8)] = "SmallDeadZone"),
-            (e[(e.NoDeadZone = 12)] = "NoDeadZone");
+            (e[(e.NoDeadZoneThenSmallElastic = 12)] =
+              "NoDeadZoneThenSmallElastic");
         })(C || (C = {}));
       const F = C.SmallDeadZone;
-      var f, R, M, P, w, A;
+      var f, M, R, P, w, A;
       !(function (e) {
         (e[(e.Rect = 0)] = "Rect"),
           (e[(e.Panorama = 1)] = "Panorama"),
@@ -1173,10 +1175,10 @@ var CLSTAMP = "10893990";
       })(f || (f = {})),
         (function (e) {
           (e[(e.Curved = 0)] = "Curved"), (e[(e.Flat = 1)] = "Flat");
-        })(R || (R = {})),
+        })(M || (M = {})),
         (function (e) {
           (e[(e.Default = 0)] = "Default"), (e[(e.Aurora = 1)] = "Aurora");
-        })(M || (M = {})),
+        })(R || (R = {})),
         (function (e) {
           (e[(e.ECameraExposure_Unknown = 0)] = "ECameraExposure_Unknown"),
             (e[(e.ECameraExposure_Nominal = 1)] = "ECameraExposure_Nominal"),

@@ -6,12 +6,14 @@
  formatting error code 
  pose jump: %0.3f cm\n
 !!! There were %u read failures\n
+# sources = %d\n
 %-11s%10d%10d%15lf%15lf%15lf%15d\n
 %-11s%10s%10s%15s%15s%15s%15s\n
 %04x, %04x -> %s\n
 %7d bytes
 %d poses, %lf time\n
 %d,%g,%g,%g,%g,%g,%g\n
+%d: %s / %s / (%f, %f, %f) / %d\n
 %f %f %f %f\n
 %s : %s : %s\n
 %s play area size: \n
@@ -33,6 +35,7 @@
 --cmdhmd
 --compositorcmd
 --dock-overlay
+--dump-positions
 --dumpapps
 --dumpsensors
 --dumpsensorstomaya
@@ -60,6 +63,7 @@
 --printexportlivetobuffer
 --prop
 --recenter
+--reload-shaders
 --replay
 --resetroomheight
 --resetroomsetup
@@ -109,6 +113,7 @@
 .?AV<lambda_0f1c2df097fdebec82bd0a2df7b17557>@@
 .?AV<lambda_124ad2de1529221a6014ff59603fe040>@@
 .?AV<lambda_1426f16503e1a727439b55d2cca69a57>@@
+.?AV<lambda_1d4708d73330fcdc9413f7b42cf02484>@@
 .?AV<lambda_1ecd3b48a05adf783036af8718bb8837>@@
 .?AV<lambda_20b84b0fb08762a3063e740444e60d61>@@
 .?AV<lambda_20de32b3bbe03e3f544eb33d3470af25>@@
@@ -117,6 +122,7 @@
 .?AV<lambda_27f4ed82cb84a113c590671ccc572ec7>@@
 .?AV<lambda_323e7ed949adb52c6683dcf639e5bbdb>@@
 .?AV<lambda_3333ef97faf1700ff9f6955fd786b689>@@
+.?AV<lambda_334600ab054e7588bf8f70bb8794414d>@@
 .?AV<lambda_360280414641a81bf48c7e62f497588d>@@
 .?AV<lambda_3b74b7b94778e034323273b122ec9fc2>@@
 .?AV<lambda_444bb943929d4056ea829c159cbf5a2e>@@
@@ -184,6 +190,7 @@
 .?AV?$_Func_impl_no_alloc@V<lambda_0f1c2df097fdebec82bd0a2df7b17557>@@X$$V@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_124ad2de1529221a6014ff59603fe040>@@PEAXPEBD@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_1426f16503e1a727439b55d2cca69a57>@@X$$V@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1d4708d73330fcdc9413f7b42cf02484>@@X$$V@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_1ecd3b48a05adf783036af8718bb8837>@@X$$V@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_20b84b0fb08762a3063e740444e60d61>@@X$$V@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_20de32b3bbe03e3f544eb33d3470af25>@@X$$V@std@@
@@ -192,6 +199,7 @@
 .?AV?$_Func_impl_no_alloc@V<lambda_27f4ed82cb84a113c590671ccc572ec7>@@X$$V@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_323e7ed949adb52c6683dcf639e5bbdb>@@X$$V@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_3333ef97faf1700ff9f6955fd786b689>@@X$$V@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_334600ab054e7588bf8f70bb8794414d>@@X$$V@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_360280414641a81bf48c7e62f497588d>@@X$$V@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_3b74b7b94778e034323273b122ec9fc2>@@X$$V@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_444bb943929d4056ea829c159cbf5a2e>@@X$$V@std@@
@@ -347,7 +355,15 @@
 .xdata
 .xdata$x
 //Maya ASCII 2015 scene\n
+/audiosource/
+/audiosource/count
+/channel
 /client_info/app_key
+/forcestereo
+/name
+/position/x
+/position/y
+/position/z
 /user/ankle/left
 /user/ankle/right
 /user/camera
@@ -489,6 +505,8 @@ Driver %s : %d displays\n
 Duplicate key: '
 DuplicateHandle
 ERROR: --mailboxcmd is no longer supported.\nFor docking overlays to theater mode etc, use --dock-overlay <location> [overlay_key].\nFor toggling stereo theater mode to theater mode etc, use --toggle-theater-stereo.\n
+ERROR: Unable to read audio source count\n
+ERROR: Unable to read audio source positions\n
 Empty escape sequence in string
 Encountered error 
 Encountered unexpected delayed initialization of CPropertyManager\n
@@ -621,6 +639,7 @@ Invalid dock location "%s". Possible values are:
 IsDebuggerPresent
 IsHmdPresent time=%lf\n
 IsProcessorFeaturePresent
+IsValid()
 IsValidSid
 Iter
 K32EnumProcesses
@@ -883,7 +902,7 @@ PropertyContainer: High lock acquisition counters: sp:%u yd:%u re:%u\n
 PropertyContainerCreation
 QueryPerformanceCounter
 QueryPerformanceFrequency
-RSDS
+RSDS#(J
 RaiseException
 ReadFile
 ReadFile failed on %s after event was signaled because %s\n
@@ -1344,7 +1363,6 @@ WriteFile
 \tsetAttr ".s" -type "double3" %lf %lf %lf ;\n
 \tsetAttr ".t" -type "double3" %lf %lf %lf ;\n
 \tsetAttr - k off ".v";\n
-^rvj
 _Cnd_destroy
 _Cnd_destroy_in_situ
 _Cnd_do_broadcast_at_thread_exit
@@ -1444,6 +1462,7 @@ bg_bg
 brazilian
 bulgarian
 c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\ilockablepropertycontainer.h
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\openvr_internal.cpp
 c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\propertymanager.cpp
 c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\ipcpipe.cpp
 c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\ipcwin32.cpp
@@ -1563,6 +1582,10 @@ openvrpaths.vrpath
 operation
 output_path
 overlay_key
+pRead->unBufferSize > 0u
+pRead->unRequiredBufferSize == sizeof( T )
+pRead->unTag == unTag
+pRead->unTag == vr::k_unStringPropertyTag
 params
 path
 pid_%04x
@@ -1593,6 +1616,7 @@ seated
 server
 set_vsync_to_photons_offset
 setvbuf
+shaders_force_reload
 spanish
 srand
 stackLimit

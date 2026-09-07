@@ -82,6 +82,7 @@ CreateThread
 D3D11CreateDevice
 DeleteCriticalSection
 DisableThreadLibraryCalls
+EnterCriticalSection
 Error! EventWriteString Severe: %s\n
 EventRegister
 EventUnregister
@@ -127,6 +128,7 @@ IsDebuggerPresent
 IsProcessorFeaturePresent
 KERNEL32.dll
 LIBOVR_DLL_DIR
+LeaveCriticalSection
 LoadLibraryA
 LoadLibraryW
 MSVCP140.dll
@@ -138,8 +140,9 @@ Oculus
 Out of thread local storage!\n
 QueryPerformanceCounter
 RPCRT4.dll
-RSDSW
+RSDS
 RaiseException
+ResetEvent
 SDL2.dll
 SDL_CreateWindow
 SDL_DestroyWindow
@@ -168,6 +171,7 @@ VR_CONFIG_PATH
 VR_LOG_PATH
 VR_OVERRIDE
 WaitForSingleObject
+WaitForSingleObjectEx
 WakeAllConditionVariable
 Warning: Watchdog %s not properly cleaned up%s%s\n
 [OculusDirect] Begin ReleaseSync

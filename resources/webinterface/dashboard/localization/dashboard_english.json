@@ -31,7 +31,13 @@
 
   "Enter_Gamepad_Mode": "Enter Gamepad Mode",
   "Press_GamepadButton_To_Enter_Gamepad_Mode": "Press %1$s For Gamepad Mode",
-  "Use_Laser_Mouse_To_Interact": "Use the Laser Pointer to Interact",
+  "Use_Laser_Mouse_To_Interact": "Use Laser Mouse to Interact",
+
+  "Jump_To_DashboardBar": "Jump to dashboard bar",
+  "Jump_To_Frame_Menu": "Jump to %1$s menu",
+  "Jump_To_Frame_Controls": "Jump to %1$s controls",
+  "Jump_To_Frame": "Jump to %1$s",
+  "Cycle_View_Focus": "Cycle view",
 
   "Menu": "Menu",
   "Desktops": "Desktops",
@@ -52,10 +58,11 @@
   "RecentlyPlayed": "Recently Played",
   "SwitchDesktops": "Switch Desktops",
 
-  "Return_To_Game": "Return to Game",
+  "Return_To_Game": "Resume Game",
   "Return_To_Home": "Return to Home",
+  "VR_Controller_Bindings": "VR Controller Bindings",
   "Controller_Bindings": "Controller Bindings",
-  "App_Video_Settings": "Video Settings",
+  "VR_App_Video_Settings": "VR Video Settings",
   "Clear_PerfCriteria_Status": "Clear Performance Assessment Status",
 
   "Desktop": "Desktop",
@@ -88,6 +95,8 @@
   "Move": "Move",
   "EnableSpatialAudioTooltip": "Enable Spatial Audio",
   "DisableSpatialAudioTooltip": "Disable Spatial Audio",
+  "AdditionalOptionsTooltip": "More Options",
+  "ToggleCurvatureTooltip": "Toggle Curvature",
 
   "Mute": "Mute",
   "Unmute": "Unmute",

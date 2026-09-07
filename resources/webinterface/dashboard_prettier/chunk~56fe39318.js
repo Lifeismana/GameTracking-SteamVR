@@ -1,4 +1,4 @@
-var CLSTAMP = "10893990";
+var CLSTAMP = "10951329";
 (self.webpackChunkvrwebui = self.webpackChunkvrwebui || []).push([
   [554],
   {
@@ -155,15 +155,16 @@ var CLSTAMP = "10893990";
         h = r(4728),
         p = r(1333),
         g = r(9118),
-        f = r(6090);
-      const _ =
+        f = r(6090),
+        _ = r(5026);
+      const b =
         window.addEventListener || (r.g && r.g.addEventListener) || (() => {});
-      let b,
-        w = [],
-        R = (e, t, r) =>
-          w.push({ error: e, cCallsitesToIgnore: t, strComponentStack: r });
+      let w,
+        R = [],
+        v = (e, t, r) =>
+          R.push({ error: e, cCallsitesToIgnore: t, strComponentStack: r });
       const S = !0;
-      class v extends Error {
+      class T extends Error {
         constructor(...e) {
           super(...e), (this.name = "Assertion Failed");
         }
@@ -172,38 +173,38 @@ var CLSTAMP = "10893990";
         const e = console.assert;
         console.assert = (t, r, ...n) => {
           if (!t) {
-            const e = I();
-            R(new v(k(r, ...n)), 2, e);
+            const e = M();
+            v(new T(E(r, ...n)), 2, e);
           }
           e.apply(console, [t, r, ...n]);
         };
         const t = console.error;
         (console.error = (e, ...r) => {
-          const n = I();
-          R(new Error(k(e, ...r)), 1, n), t.apply(console, [e, ...r]);
+          const n = M();
+          v(new Error(E(e, ...r)), 1, n), t.apply(console, [e, ...r]);
         }),
           (console.clogerror = (e, r, ...n) => {
-            const i = I();
-            R(new Error(k(r, ...n)), e + 1, i), t.apply(console, [r, ...n]);
+            const i = M();
+            v(new Error(E(r, ...n)), e + 1, i), t.apply(console, [r, ...n]);
           }),
-          _("error", (e) => {
-            R(e.error, 0);
+          b("error", (e) => {
+            v(e.error, 0);
           }),
-          _("unhandledrejection", (e) => {
-            R(e.reason, 0);
+          b("unhandledrejection", (e) => {
+            v(e.reason, 0);
           }),
-          (b = window.setTimeout(() => {
-            (w = []), (R = () => {});
+          (w = window.setTimeout(() => {
+            (R = []), (v = () => {});
           }, 3e4));
       }
-      const T = { cCallsitesToIgnore: 0, bIncludeMessageInIdentifier: !1 },
-        y = [
+      const y = { cCallsitesToIgnore: 0, bIncludeMessageInIdentifier: !1 },
+        I = [
           "chrome-extension://",
           "HTMLDivElement.onreset \\(/market",
           "/.millennium/Dist",
           "Refused unauthorized RPC command",
         ];
-      function I() {
+      function M() {
         try {
           const e = i.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED,
             t =
@@ -226,32 +227,32 @@ var CLSTAMP = "10893990";
           }
         } catch (e) {}
       }
-      class M {
+      class k {
         constructor(e = !0) {
           (this.m_transport = null),
             (this.m_rgErrorQueue = []),
             (this.m_sendTimer = null),
             (this.m_bReportingPaused = !1),
             (this.m_pauseTimer = void 0),
-            (this.m_fnGetReportingInterval = F),
+            (this.m_fnGetReportingInterval = P),
             (this.m_bEnabled = !0),
             (this.m_bInitialized = !1),
             e
-              ? (w.forEach(
+              ? (R.forEach(
                   ({ error: e, cCallsitesToIgnore: t, strComponentStack: r }) =>
                     this.ReportError(e, {
                       cCallsitesToIgnore: t,
                       strComponentStack: r,
                     }),
                 ),
-                (R = (e, t, r) =>
+                (v = (e, t, r) =>
                   this.ReportError(e, {
                     cCallsitesToIgnore: t,
                     strComponentStack: r,
                   })))
-              : (R = () => {}),
-            (w = []),
-            clearTimeout(b),
+              : (v = () => {}),
+            (R = []),
+            clearTimeout(w),
             window.setTimeout(() => {
               this.m_bInitialized ||
                 ((this.m_bEnabled = !1), (this.m_rgErrorQueue = []));
@@ -284,12 +285,12 @@ var CLSTAMP = "10893990";
                 null
               );
             try {
-              const r = Object.assign(Object.assign({}, T), t);
+              const r = Object.assign(Object.assign({}, y), t);
               if (!this.m_bEnabled) return null;
               0;
               const i = yield (function (e, t) {
                 try {
-                  return e.stack && e.stack.match(E)
+                  return e.stack && e.stack.match(C)
                     ? (function (e, t) {
                         return (0, n.sH)(this, void 0, void 0, function* () {
                           var r, n;
@@ -305,7 +306,7 @@ var CLSTAMP = "10893990";
                                     : r.split("\n")) && void 0 !== n
                                 ? n
                                 : [];
-                          let a = L(o.filter((e) => !!e.match(E))[i]);
+                          let a = H(o.filter((e) => !!e.match(C))[i]);
                           s && (a = `${a} ${e.message}`);
                           const l = o
                             .map((e) => {
@@ -322,12 +323,12 @@ var CLSTAMP = "10893990";
                             .filter((e) => !!e);
                           return {
                             identifier: a,
-                            identifierHash: yield j(a),
+                            identifierHash: yield F(a),
                             message: l,
                           };
                         });
                       })(e, t)
-                    : e.stack && e.stack.match(C)
+                    : e.stack && e.stack.match(B)
                       ? (function (e, t) {
                           return (0, n.sH)(this, void 0, void 0, function* () {
                             var r, n;
@@ -343,7 +344,7 @@ var CLSTAMP = "10893990";
                                       : r.split("\n")) && void 0 !== n
                                   ? n
                                   : [];
-                            let a = L(o.filter((e) => !!e.match(C))[i]);
+                            let a = H(o.filter((e) => !!e.match(B))[i]);
                             s && (a = `${a} ${e.message}`);
                             const l = o
                               .map((e) => {
@@ -361,12 +362,12 @@ var CLSTAMP = "10893990";
                               .filter((e) => !!e);
                             return {
                               identifier: a,
-                              identifierHash: yield j(a),
+                              identifierHash: yield F(a),
                               message: [e.message, ...l],
                             };
                           });
                         })(e, t)
-                      : e.stack && e.stack.match(B)
+                      : e.stack && e.stack.match(z)
                         ? (function (e, t) {
                             return (0, n.sH)(
                               this,
@@ -408,7 +409,7 @@ var CLSTAMP = "10893990";
                                   .filter((e) => !!e);
                                 return {
                                   identifier: c,
-                                  identifierHash: yield j(c),
+                                  identifierHash: yield F(c),
                                   message: [e.message, ...u],
                                 };
                               },
@@ -459,7 +460,7 @@ var CLSTAMP = "10893990";
         BIsBlacklisted(e) {
           for (let t of e.message) {
             let r = JSON.stringify(t);
-            for (let t of y) {
+            for (let t of I) {
               const n = new RegExp(t);
               if (r.match(n))
                 return console.warn("Report", e, "matched regex", t), !0;
@@ -515,28 +516,42 @@ var CLSTAMP = "10893990";
             n.set_version(this.m_strVersion),
             n.set_errors(r);
           for (const e of (function () {
-            const e = [];
+            var e;
+            const t = [];
             if (
               ((null === VRHTML || void 0 === VRHTML
                 ? void 0
-                : VRHTML.HasHMD()) || e.push("no_hmd"),
+                : VRHTML.HasHMD()) || t.push("no_hmd"),
               null === p.HR || void 0 === p.HR ? void 0 : p.HR.systemInfo)
             ) {
-              const t = -103;
+              const e = -103;
               p.HR.systemInfo.os_type > 0
-                ? e.push("windows")
-                : p.HR.systemInfo.os_type <= t && e.push("linux");
+                ? t.push("windows")
+                : p.HR.systemInfo.os_type <= e && t.push("linux");
             }
             (null === g.W || void 0 === g.W ? void 0 : g.W.IsSteamAvailable) ||
-              e.push("no_steam");
-            const t =
+              t.push("no_steam");
+            const r =
               null === VRHTML || void 0 === VRHTML
                 ? void 0
                 : VRHTML.VRProperties.GetStringProperty(
                     "/user/head",
                     f.fD8.ActualTrackingSystemName_String,
                   );
-            return t && e.push(t), e;
+            r && t.push(r);
+            const n = String(
+              null !== (e = f.Fzk[_.Mg.m_eVRLinkDashboardMode]) && void 0 !== e
+                ? e
+                : "",
+            ).toLowerCase();
+            return (
+              _.Mg.m_bIsVRLinkClient && t.push("vrlink_client:" + n),
+              _.Mg.m_bIsVRLinkServer && t.push("vrlink_server:" + n),
+              (null === VRHTML || void 0 === VRHTML
+                ? void 0
+                : VRHTML.IsSteamFrame()) && t.push("frame"),
+              t
+            );
           })())
             n.add_tags(e);
           this.m_transport.SendNoResponse(
@@ -554,7 +569,7 @@ var CLSTAMP = "10893990";
           return S;
         }
       }
-      function k(e, ...t) {
+      function E(e, ...t) {
         if ("string" == typeof e && 0 === t.length) return e;
         return [e, ...t]
           .map((e) => {
@@ -567,12 +582,12 @@ var CLSTAMP = "10893990";
           })
           .join(", ");
       }
-      const E = /^\s*at .*(\S+:\d+|\(native\))/m,
-        C = /(^|@)\S+:\d+/,
-        B = /.*\/bundle-[a-zA-Z0-9]+:\d+:\d+/;
-      let z,
+      const C = /^\s*at .*(\S+:\d+|\(native\))/m,
+        B = /(^|@)\S+:\d+/,
+        z = /.*\/bundle-[a-zA-Z0-9]+:\d+:\d+/;
+      let L,
         N = !1;
-      function L(e) {
+      function H(e) {
         return (function (e) {
           const t = "https://",
             r = e.indexOf(t);
@@ -588,11 +603,11 @@ var CLSTAMP = "10893990";
           })(e),
         );
       }
-      const O = () => (z || H(new M()), z),
-        H = (e) => {
-          (z = e), m.tH.InstallErrorReportingStore(z);
+      const O = () => (L || j(new k()), L),
+        j = (e) => {
+          (L = e), m.tH.InstallErrorReportingStore(L);
         };
-      function j(e) {
+      function F(e) {
         return (0, n.sH)(this, void 0, void 0, function* () {
           try {
             return (yield d(e)).slice(0, 16);
@@ -601,10 +616,10 @@ var CLSTAMP = "10893990";
           }
         });
       }
-      function F() {
+      function P() {
         return 1e3 * (0, h.Tg)(1, u.b - 1);
       }
-      class P {
+      class A {
         constructor(e) {
           this.m_strWebAPIBaseURL = e;
         }
@@ -624,8 +639,8 @@ var CLSTAMP = "10893990";
               .catch((e) => {});
         }
       }
-      let A;
-      const W = () => (A || (A = new P("https://api.steampowered.com/")), A);
+      let V;
+      const W = () => (V || (V = new A("https://api.steampowered.com/")), V);
     },
     3714: (e, t, r) => {
       r.d(t, { A0: () => s, uV: () => l, we: () => o });

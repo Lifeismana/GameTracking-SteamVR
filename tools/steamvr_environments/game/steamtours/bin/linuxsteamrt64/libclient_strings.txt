@@ -1605,7 +1605,6 @@ $spriteRenderMode
 -useforcedmparms
 -voicerecord
 -vr_force_cosmos_controller
--vr_force_frame_controller
 -vr_force_gamepad_controller
 -vr_force_generic_tracked
 -vr_force_knuckles_controller
@@ -1940,6 +1939,7 @@ $spriteRenderMode
 1.5.2
 1.75
 1.CPlayer_UpdateSteamAnnouncementLastRead_Response"4
+1/mE
 10.0
 10.0f
 100.0
@@ -10141,7 +10141,6 @@ Frame.FocusTransitionEffectTime
 Frame.OutOfFocusBgColor
 Frame.TitleTextInsetX
 Frame.TransitionEffectTime
-FrameController
 FrameGrip.Color1
 FrameGrip.Color2
 FrameSection

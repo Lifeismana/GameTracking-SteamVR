@@ -865,7 +865,6 @@ Distortion_Type
 Dogleg step size: 
 Dogleg subspace step size (1D): 
 Dogleg subspace step size: 
-Drvj
 Duplicate parameter blocks detected in a cost function. 
 Duplicate parameter blocks in a residual parameter 
 Dynamic e block size because the block size changed from 
@@ -1216,6 +1215,7 @@ OpenVR
 Optional:\n
 Original radius=%lf, expanded radius=%lf, inverse check %lf / %lf\n
 OutputDebugStringA
+P\r0x
 Parameter Block %d, size: %d\n
 Parameter Blocks: 
 Parameter block not found: 
@@ -1235,7 +1235,9 @@ QUADRATIC
 QueryPerformanceCounter
 RAW_LOG ERROR: The Message was too long!\n
 RE-SOLVING DUE TO OUTLIER REMOVAL\n
-RSDSn2
+RSDS
+R\v0x
+R\vpx
 Rank of subspace basis is 0. 
 Rank of the subspace basis matrix is reported to be 
 Re-solve with %s, rough center, and cut-down radius to get the final focal length (channel %d):\n

@@ -265,6 +265,7 @@ $\n k_EProtoServiceTypeSteamMessages
 ' property is not an object.\n
 ' to value '
 ' value is not an integer type.\n
+'(Failed Enumeration)
 '. Must be /action/<set>/in/<action> or /action/<set>/out/<action>.
 '.5<=6/7>????????????????
 '[', '{', or a literal
@@ -278,7 +279,6 @@ $\n k_EProtoServiceTypeSteamMessages
 ( vecData.size() % arrayEntrySize ) == 0
 ()$^.*+?[]|\-{},:=!\n\r
 (Enumerating)
-(Failed Enumeration)
 (General Failure)
 (Hub Nested Too Deeply)
 (In Legacy Hub)
@@ -1714,16 +1714,18 @@ $\n k_EProtoServiceTypeSteamMessages
 0-pixel image
 00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899
 00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899"
-00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899pO<@
+000102030405060708091011121314151617181920212223242526272829303132333435363738394041424344454647484950515253545556575859606162636465666768697071727374757677787980818283848586878889909192939495969798990O<@
 0123456789ABCDEF
 0123456789abcdef
+0b6@
+0h3@
 1.2.5
 1/2/4/8/16-bit only
 11 4 22 44 44 22 444444
 11eU%
 127.0.0.1
 127.0.0.1:
-16:56:26
+14:18:00
 1A26b
 1\f514
 1e+9999
@@ -1734,7 +1736,6 @@ $\n k_EProtoServiceTypeSteamMessages
 2+.google.protobuf.FieldDescriptorProto.Label
 258EAFA5-E914-47DA-95CA-C5AB0DC85B11
 4\f54d
-4c6@
 52F*
 5I)7
 5JCy7
@@ -1744,9 +1745,7 @@ $\n k_EProtoServiceTypeSteamMessages
 7\n\tenum_type
 7^d[L
 7~8A
-8B5@
-8M3@
-8N3@
+8L3@
 8\n\textension
 8c6@
 8c8f13b1-60eb-4b6a-a433-de86104115ac
@@ -1772,6 +1771,7 @@ $\n k_EProtoServiceTypeSteamMessages
 <unknown>
 ===== %s: state=%d, %s empty, uri=%s\n
 ================================================================================================\n
+?8L3@
 ??0?$basic_ios@DU?$char_traits@D@std@@@std@@IEAA@XZ
 ??0?$basic_ios@_WU?$char_traits@_W@std@@@std@@IEAA@XZ
 ??0?$basic_iostream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@@Z
@@ -1856,7 +1856,7 @@ $\n k_EProtoServiceTypeSteamMessages
 ?_Xout_of_range@std@@YAXPEBD@Z
 ?_Xregex_error@std@@YAXW4error_type@regex_constants@1@@Z
 ?always_noconv@codecvt_base@std@@QEBA_NXZ
-?c:\buildslave\steamvr_rel_win64\build\src\vrserver\vrserver.cpp:5766
+?c:\buildslave\steamvr_rel_win64\build\src\vrserver\vrserver.cpp:5769
 ?clear@?$basic_ios@_WU?$char_traits@_W@std@@@std@@QEAAXH_N@Z
 ?ffffff
 ?flush@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@XZ
@@ -1913,6 +1913,7 @@ $\n k_EProtoServiceTypeSteamMessages
 ?xsgetn@?$basic_streambuf@_WU?$char_traits@_W@std@@@std@@MEAA_JPEA_W_J@Z
 ?xsputn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JPEBD_J@Z
 ?xsputn@?$basic_streambuf@_WU?$char_traits@_W@std@@@std@@MEAA_JPEB_W_J@Z
+@8L3@
 @fff>fff>fff>fff>
 A file with this name is already in the pool.
 A protocol message was rejected because it was too big (more than 
@@ -2006,7 +2007,7 @@ Attempted to change property type from %d to %d
 Attempted to read payload of %d bytes from pipe but failed\n
 Attempting to start home app %s (NoMoreSceneAppTransition)
 AudioDeviceChangeNotice (noting refresh): %d, device = %s\n
-Aug  7 2026
+Aug 29 2026
 Authorization
 Auto launch dashboard %s has not started after %u checks. Giving up waiting.\n
 Autobinding role for device path: %s
@@ -3020,7 +3021,6 @@ HMD found, but unable to request config (1102)
 HMDManufacturer
 HMDModel
 HMDSerialNumber
-HN3@
 HTTP Version Not Supported
 HTTP parse, %lu bytes
 HTTP/
@@ -3040,9 +3040,9 @@ Hang the server for the specified number of seconds (default 3600)
 HasCamera
 HasField
 Hb6@
-Hc6@
 HeadsetActiveTime
 Hex and octal numbers must be integers.
+Hh3@
 Hmd DriverId is invalid (125)
 Hmd DriverId is our of bounds (211)
 Hmd Not Found (108)
@@ -3351,6 +3351,7 @@ Kernel32.dll
 KeyboardVisibleTime
 Kill process %s because it didn't quit in time\n
 Kill process?
+L=8L3@
 LABEL_OPTIONAL
 LABEL_REPEATED
 LABEL_REQUIRED
@@ -3641,8 +3642,8 @@ PCI\VEN_%x&DEV_%x&SUBSYS_%x&REV_%x
 PC_%08llx
 PICT
 PID_
+PL3@
 PLACEHOLDER_VALUE
-PM3@
 PNG\r\n
 POST
 PRISM_AcquireDisplay
@@ -3692,14 +3693,12 @@ Path not found
 Path_Exists( absFilePath )
 Payload Too Large
 Payment Required
-Pd3@
 Pe6^
 PeekNamedPipe
 PerformApplicationPrelaunchCheck
 Permanent Redirect
 Perspective camera description not found.
 PerspectiveCamera
-Ph3@
 PlayAreaHeight
 PlayAreaWidth
 Playback devices:\n
@@ -3949,7 +3948,7 @@ Protocol Buffer reflection usage error:\n  Method      : google::protobuf::Refle
 Protocol message serialized itself in invalid fashion.
 Protocol message was modified concurrently during serialization.
 Proxy Authentication Required
-Pz0@
+Py0@
 QkkXa
 Qkkbal
 Query failed
@@ -3972,7 +3971,7 @@ Quitting parent process %u because a quit was requested for its child %u.\n
 R1h58
 RGBG
 RPCRT4.dll
-RSDS
+RSDSoD
 RaiseException
 Range
 Reached an unintended state: CPPTYPE_MESSAGE
@@ -4349,7 +4348,6 @@ System audio devices:\n
 SystemTimeToFileTime
 System\CurrentControlSet\Control\GraphicsDrivers
 Tb6@
-Tc6@
 TdhEnumerateManifestProviderEvents
 Temporary Redirect
 TerminateProcess
@@ -5450,8 +5448,9 @@ WorkshopSelectConfig for BindingOutOfDate for %s(%s) when we don't have a bindin
 WriteFile
 Wrong Platform
 X-Frame-Options: sameorigin\r\nContent-Security-Policy: default-src 'self'
+XM3@
+XN3@
 XXXX PNG chunk not known
-Xc6@
 XsBI
 YUY2
 Zjz\v
@@ -6259,7 +6258,7 @@ c:\buildslave\steamvr_rel_win64\build\src\vrserver\webinterface\web_server_threa
 c:\buildslave\steamvr_rel_win64\build\src\vrserver\webinterface\web_steam.cpp
 c:\buildslave\steamvr_rel_win64\build\src\vrserver\webinterface\web_steam.h
 c:\buildslave\steamvr_rel_win64\build\src\vrserver\webinterface\web_steam_audiosettings.cpp
-cA`L3@
+cA8L3@
 cache_path
 calloc
 camera
@@ -6695,8 +6694,6 @@ grip_limit_transforms
 group
 guid
 guided_tour_room_setup
-hM3@
-hN3@
 hPU3
 half_thresholds
 hand_interaction_ext
@@ -6714,13 +6711,11 @@ has_force
 has_ready_ext
 has_touch
 has_value
-hc6@
 header
 header crc mismatch
 height
 held
 hex_property
-hh3@
 hidden
 hide_callout
 hide_dashboard_requested
@@ -7354,6 +7349,8 @@ overwrite.vrsettings
 owned
 pBegin == pEnd
 pEnd > pBegin
+pL3@
+pM3@
 pMGConnect != nullptr
 pNewResource
 pNewResource->Load( absFilePath )
@@ -7382,6 +7379,7 @@ path_handle
 path_handles
 paths
 payload
+pb6@
 pbrMetallicRoughness
 pending_file_saved
 perfcheck
@@ -7808,6 +7806,7 @@ table
 tags
 target
 targets
+tb6@
 tchinese
 tcps:
 tdh.dll
@@ -8074,10 +8073,9 @@ ws handshake error
 wsprintfW
 wss:
 x-steamvr-secret
-xL3@
 x_path
-xb6@
 xdigit
+xk5@
 xmag
 y9*O
 y_path

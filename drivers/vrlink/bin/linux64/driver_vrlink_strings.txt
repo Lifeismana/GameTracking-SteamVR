@@ -130,7 +130,6 @@ $ORIGIN/../../../../bin/linux64
 *ZN9SVLServer4InitEvEUl16ValueTransportIDbE15_
 *ZN9SVLServer4InitEvEUl16ValueTransportIDbE16_
 *ZN9SVLServer4InitEvEUl16ValueTransportIDbE17_
-*ZN9SVLServer4InitEvEUl16ValueTransportIDbE18_
 *ZN9SVLServer4InitEvEUlRKN4Json5ValueEE0_
 *ZN9SVLServer4InitEvEUlRKN4Json5ValueEE1_
 *ZN9SVLServer4InitEvEUlRKN4Json5ValueEE2_
@@ -187,11 +186,11 @@ $ORIGIN/../../../../bin/linux64
 /data/src/common/vrcore/src/ipcposix.cpp
 /data/src/common/vrcore/src/logbuffer.cpp
 /data/src/common/vrcore/src/vripcsharedstate.cpp
-/data/src/vrlink/common/SVLFEC.cpp:1079
-/data/src/vrlink/common/SVLFEC.cpp:761
-/data/src/vrlink/driver_vrlink/hmd.cpp:2554
-/data/src/vrlink/driver_vrlink/hmd.cpp:2903
-/data/src/vrlink/driver_vrlink/hmd.cpp:3015
+/data/src/vrlink/common/SVLFEC.cpp:1095
+/data/src/vrlink/common/SVLFEC.cpp:762
+/data/src/vrlink/driver_vrlink/hmd.cpp:2572
+/data/src/vrlink/driver_vrlink/hmd.cpp:2921
+/data/src/vrlink/driver_vrlink/hmd.cpp:3033
 /data/src/vrlink/driver_vrlink/hmdvulkan.cpp
 /data/src/vrlink/driver_vrlink/steamvrlink.cpp
 /data/src/vrlink/driver_vrlink/videovulkan.cpp
@@ -201,10 +200,11 @@ $ORIGIN/../../../../bin/linux64
 /driver_vrlink/client_version
 /driver_vrlink/effective_foveated_resolution
 /driver_vrlink/foveation_enabled
-/driver_vrlink/got_eye_and_expression
 /driver_vrlink/max_stream_format_width
 /driver_vrlink/min_stream_format_width
 /driver_vrlink/network_tested_bandwidth
+/driver_vrlink/supports_eye_and_face_tracking
+/driver_vrlink/supports_hand_tracking
 /eyetracking
 /input/a/click
 /input/a/touch
@@ -2190,6 +2190,7 @@ height
 hist
 hwnd
 iQ %5.2f
+iRXFrameID %d != pRXFrame->m_iFrameNumber %d
 iRXFrameID=%d
 i]Wb
 iconv
@@ -2561,7 +2562,7 @@ received EVTYPE_CLOSE_DASHBOARD
 received EVTYPE_LDASH_CONTINUE: Remote was continued
 received EVTYPE_LDASH_PAUSE: Remote was paused
 received EVTYPE_OPEN_DASHBOARD open_dashboard
-received EVTYPE_TOGGLE_DASHBOARD data.nEvPath %d
+received EVTYPE_TOGGLE_DASHBOARD
 received VTE_DRIVER_SYSTEM_FLAGS %d %d %d
 recommendedRenderHeight
 recommendedRenderWidth
@@ -2771,7 +2772,6 @@ too large
 too many codes
 touch_poses_right.glb
 toupper
-tracked_device_index
 trackingSystemName
 transaction clone for operator delete(void*)
 transaction clone for operator new[](unsigned long)

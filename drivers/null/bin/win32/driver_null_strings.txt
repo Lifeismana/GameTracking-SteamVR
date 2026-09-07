@@ -15,7 +15,10 @@
 .CRT$XCU
 .CRT$XCZ
 .CRT$XIA
+.CRT$XIC
 .CRT$XIZ
+.CRT$XLA
+.CRT$XLZ
 .CRT$XPA
 .CRT$XPZ
 .CRT$XTA
@@ -30,6 +33,7 @@
 .idata$5
 .idata$6
 .rdata
+.rdata$T
 .rdata$r
 .rdata$zzzdbg
 .rsrc$01
@@ -42,6 +46,9 @@
 .text$mn
 .text$x
 .text$yd
+.tls
+.tls$
+.tls$ZZZ
 .xdata$x
 /user/ankle/left
 /user/ankle/right
@@ -63,10 +70,16 @@
 /user/wrist/right
 ?_Throw_C_error@std@@YAXH@Z
 ?_Xlength_error@std@@YAXPBD@Z
+CloseHandle
+CreateEventW
+DeleteCriticalSection
 DisableThreadLibraryCalls
+EnterCriticalSection
 GetCurrentProcess
 GetCurrentProcessId
 GetCurrentThreadId
+GetModuleHandleW
+GetProcAddress
 GetSystemTimeAsFileTime
 HmdDriverFactory
 IServerTrackedDeviceProvider_004
@@ -84,22 +97,28 @@ IVRServerDriverHost_006
 IVRSettings_003
 IVRVirtualDisplay_002
 IVRWatchdogProvider_001
+InitializeConditionVariable
+InitializeCriticalSectionAndSpinCount
 InitializeSListHead
 IsDebuggerPresent
 IsProcessorFeaturePresent
 KERNEL32.dll
+LeaveCriticalSection
 MSVCP140.dll
-PW$SuuJ
 QueryPerformanceCounter
 RSDS
+ResetEvent
+SetEvent
 SetUnhandledExceptionFilter
+SleepConditionVariableCS
 TerminateProcess
 UnhandledExceptionFilter
 Unknown exception
 Using settings values\n
 VCRUNTIME140.dll
+WaitForSingleObjectEx
+WakeAllConditionVariable
 _CxxThrowException
-_Mtx_destroy_in_situ
 _Mtx_init_in_situ
 _Mtx_lock
 _Mtx_unlock

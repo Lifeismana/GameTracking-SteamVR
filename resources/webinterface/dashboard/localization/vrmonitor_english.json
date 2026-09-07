@@ -487,8 +487,11 @@
 	"Settings_Playspace_Environment_Speed": "Speed",
 	"Settings_Playspace_Environment_Light_Shafts": "Light Shafts",
 	"Settings_Playspace_Environment_Height": "Height",
-	"Settings_Playspace_Color_Anim_Speed": "Color Animation Speed",
+	"Settings_Playspace_Rainbow_Speed": "Rainbow Speed",
 	"Settings_Playspace_Environment_Stars": "Stars",
+
+	"Settings_Playspace_ContentAwareAuroraColor": "Content-Aware Aurora Color",
+	"Settings_Playspace_ContentAwareCameraTint": "Content-Aware Camera Tint",
 
 	"Settings_Playspace_Environment_Brightness": "Environment Brightness",
 	"Settings_Playspace_Environment_Brightness_Theater": "Environment Brightness (Theater)",

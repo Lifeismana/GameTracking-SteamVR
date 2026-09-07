@@ -110,7 +110,6 @@ $ORIGIN
 /P8i
 0123456789ABCDEF
 0: Bilinear, 1: Trilinear, 2: Aniso 2x, 3: Aniso 4x, 4: Aniso 8x, 5: Aniso 16x
-0rQb<
 0x%016llX
 0x%p
 1.2.5

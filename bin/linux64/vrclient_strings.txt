@@ -281,7 +281,6 @@ $3br
 %s: pre-submit failed
 %s: prism process not found
 %s: state %d must be set via CImage::Transition only
-%s: texture set not specified
 %s: too many verts; aborting
 %s: unknown vulkan message severity
 %s: unsupported graphics binding type: %d
@@ -485,8 +484,8 @@ $3br
 /data/src/common/vrcommon/vrrenderer/ivrrenderer.h
 /data/src/common/vrcommon/vrrenderer/sharedresource_linux.cpp
 /data/src/common/vrcommon/vrrenderer/vulkanrenderer.cpp
-/data/src/common/vrcommon/vrrenderer/vulkanrenderer.cpp:4325
-/data/src/common/vrcommon/vrrenderer/vulkanrenderer.cpp:4409
+/data/src/common/vrcommon/vrrenderer/vulkanrenderer.cpp:4335
+/data/src/common/vrcommon/vrrenderer/vulkanrenderer.cpp:4419
 /data/src/common/vrcommon/vrsystem.cpp
 /data/src/common/vrcommon/vrsystemlayersharedstate.cpp
 /data/src/common/vrcommon/vulkan.cpp
@@ -658,9 +657,9 @@ $3br
 /data/src/vrclient/vrchaperoneclient.cpp
 /data/src/vrclient/vrclientcore.cpp
 /data/src/vrclient/vrcompositorclient.cpp
-/data/src/vrclient/vrcompositorclient.cpp:1530
-/data/src/vrclient/vrcompositorclient.cpp:1786
-/data/src/vrclient/vrcompositorclient.cpp:2597
+/data/src/vrclient/vrcompositorclient.cpp:1534
+/data/src/vrclient/vrcompositorclient.cpp:1790
+/data/src/vrclient/vrcompositorclient.cpp:2601
 /data/src/vrclient/vrcompositorclient.cpp:464
 /data/src/vrclient/vrcompositorsharedtextures.cpp
 /data/src/vrclient/vrcompositorsharedtextures.cpp:2564
@@ -1297,6 +1296,7 @@ $3br
 19CVRSteamPrivate_027
 19CVRSteamPrivate_028
 19CVRSteamPrivate_029
+19CVRSteamPrivate_030
 19CVRWatchdogHost_001
 19CVkGarbageCollector
 19CVkPoolableResourceI20CVkCommandBufferPoolE
@@ -1659,6 +1659,7 @@ $3br
 33SteamPrivateInterfaceRegistrationI19CVRSteamPrivate_027E
 33SteamPrivateInterfaceRegistrationI19CVRSteamPrivate_028E
 33SteamPrivateInterfaceRegistrationI19CVRSteamPrivate_029E
+33SteamPrivateInterfaceRegistrationI19CVRSteamPrivate_030E
 34CInputFilter_Scalar_ScaleAndOffset
 34CVRMsg_ApplicationManifestResponse
 34CVRMsg_CompositorRefSharedResource
@@ -3108,6 +3109,7 @@ IVRSteamPrivate_027
 IVRSteamPrivate_028
 IVRSteamPrivate_029
 IVRSteamPrivate_030
+IVRSteamPrivate_031
 IVRSystem::GetOutputDevice: Failed to get required Vulkan device function pointer (vkGetPhysicalDeviceProperties2KHR)!\n
 IVRSystem::GetOutputDevice: Unsupported textureType, only TextureType_Vulkan supported on Linux.\n
 IVRSystem::GetOutputDevice: VkInstance_T *pInstance parameter is nullptr.  VkInstance must be specified for TextureType_Vulkan!\n
@@ -3444,6 +3446,7 @@ N2vr19IVRSteamPrivate_027E
 N2vr19IVRSteamPrivate_028E
 N2vr19IVRSteamPrivate_029E
 N2vr19IVRSteamPrivate_030E
+N2vr19IVRSteamPrivate_031E
 N2vr19IVRWatchdogProviderE
 N2vr20IVRResourcesInternalE
 N2vr21CVRApplicationsLatestE
@@ -3613,6 +3616,7 @@ Only one of `bufferView` or `uri` should be defined, but both are defined for im
 OpenVR SDK version %s\n
 OpenXR::AddLegalInteractionProfile: g_pActiveInstance was unexpectedly null
 Opened keyboard for app.\n
+Opened keyboard for overlay %llX, forwarded from overlay %llX\n
 Opened keyboard for overlay %llX\n
 Optional vulkan device extension is unavailable: %s\n
 Optional vulkan instance extension is unavailable: %s\n
@@ -3641,12 +3645,14 @@ PRESSURE_VESSEL_RUNTIME
 PS_AURORA
 PS_BLURSCENE
 PS_DISTORT
+PS_DOWNSAMPLE_DEPTH
 PS_GEOM
 PS_MAIN
 PS_PANORAMA
 PS_QUAD
 PS_SAMPLESCENE
 PS_SAMPLESCENE0
+PS_SAMPLESCENEDEPTH
 PS_STENCIL
 PS_main
 Parenthesis is not closed.
@@ -5127,6 +5133,7 @@ VR_VirtualDisplayState
 VR_WebServerMutex
 VR_WebServerState
 VS_DISTORT
+VS_DOWNSAMPLE_DEPTH
 VS_FOVEATED
 VS_GEOM
 VS_MAIN
@@ -6089,6 +6096,7 @@ Zjz\v
 [CVRChaperoneClient] ResetZeroPose for both Seated and Standing
 [CVRChaperoneClient] the bounds is already a defualt one. No action is needed for RemoveCurrentChaperoneBounds
 [CVRChaperoneClient] try to set the default bounds for the current chaperone universe
+[Chaperone] Computed play area was invalid! Defaulting to 1x1
 [Chaperone] Exceeded wall count limitation (%lu), ignoring excess.
 [Compatibility Mode] Could not get notification interface. %d\n
 [Compatibility Mode] Could not get overlay interface. %d\n
@@ -7055,6 +7063,8 @@ fwrite
 gain
 gamepad
 gamepad_input_unsupported_over_vrlink
+gamescope.
+gamescope.gamescope-
 generator
 generic
 generic_hmd
@@ -7644,6 +7654,7 @@ pHeader->resourceInfo.image.uHeight
 pHeader->resourceInfo.image.uWidth
 pHeader->resourceInfo.image.unArraySize
 pHeader->resourceInfo.image.unMipLevels
+pIndexBufferBase
 pInput != nullptr
 pInstance
 pLast->m_pointLastUsed <= pTimeline->m_pointLastUsed
@@ -7671,6 +7682,8 @@ pTextureHandle != nullptr
 pTimeline
 pTimeline != nullptr
 pTimeline->m_nRefCount > 0
+pUpdateData
+pVertexBufferBase
 pVkSemaphore != VK_NULL_HANDLE
 pVulkanDevice->m_pDevice == m_pExportDevice
 page
@@ -7723,6 +7736,7 @@ powersaveSteamOSManagerCustomProfile
 powf
 ppCmdBuf
 precision
+preferGamepadMode
 preferredRefreshRate
 prefersUpperDeviceIndices
 prepare_internal_process_transition
@@ -7952,8 +7966,12 @@ shaders/vulkan/distort_geom_aa_quads_ps.spv
 shaders/vulkan/distort_geom_aa_quads_vs.spv
 shaders/vulkan/distort_geom_altcolorblend_ps.spv
 shaders/vulkan/distort_geom_aurora_floor_ps.spv
-shaders/vulkan/distort_geom_aurora_horizon_notexture_ps.spv
-shaders/vulkan/distort_geom_aurora_horizon_ps.spv
+shaders/vulkan/distort_geom_aurora_horizon_floor_dark_notexture_ps.spv
+shaders/vulkan/distort_geom_aurora_horizon_floor_dark_ps.spv
+shaders/vulkan/distort_geom_aurora_horizon_floor_notexture_ps.spv
+shaders/vulkan/distort_geom_aurora_horizon_floor_ps.spv
+shaders/vulkan/distort_geom_aurora_horizon_sky_notexture_ps.spv
+shaders/vulkan/distort_geom_aurora_horizon_sky_ps.spv
 shaders/vulkan/distort_geom_aurora_sky_notexture_ps.spv
 shaders/vulkan/distort_geom_aurora_sky_ps.spv
 shaders/vulkan/distort_geom_colormap_lines_ps.spv
@@ -7989,9 +8007,15 @@ shaders/vulkan/distort_geom_pbr_ps.spv
 shaders/vulkan/distort_geom_playspace_drawing_area_ps.spv
 shaders/vulkan/distort_geom_ps.spv
 shaders/vulkan/distort_geom_ps16.spv
+shaders/vulkan/distort_geom_ps16_filtered.spv
 shaders/vulkan/distort_geom_ps16_mv_split.spv
 shaders/vulkan/distort_geom_ps_debug_depth.spv
+shaders/vulkan/distort_geom_ps_debug_filtered.spv
+shaders/vulkan/distort_geom_ps_debug_filtered_magnitude.spv
 shaders/vulkan/distort_geom_ps_debug_mvfloat.spv
+shaders/vulkan/distort_geom_ps_debug_mvrepair.spv
+shaders/vulkan/distort_geom_ps_debug_mvsint16.spv
+shaders/vulkan/distort_geom_ps_debug_mvsint16_magnitude.spv
 shaders/vulkan/distort_geom_psmvfloat.spv
 shaders/vulkan/distort_geom_reflect_multitap_ps.spv
 shaders/vulkan/distort_geom_reflect_ps.spv
@@ -8038,6 +8062,7 @@ shaders/vulkan/distort_ps_nd.spv
 shaders/vulkan/distort_ps_scene.spv
 shaders/vulkan/distort_ps_scene0.spv
 shaders/vulkan/distort_ps_scene_blur.spv
+shaders/vulkan/distort_ps_scene_depth.spv
 shaders/vulkan/distort_vs.spv
 shaders/vulkan/distort_vs_latest_nd.spv
 shaders/vulkan/distort_vs_layered.spv
@@ -8048,7 +8073,6 @@ shaders/vulkan/distort_vs_reproject_fv_dr.spv
 shaders/vulkan/distort_vs_reproject_layered.spv
 shaders/vulkan/distort_vs_reproject_layered_nd.spv
 shaders/vulkan/distort_vs_reproject_mv.spv
-shaders/vulkan/distort_vs_reproject_mv_dr.spv
 shaders/vulkan/distort_vs_reproject_nd.spv
 shaders/vulkan/downsample_filter_x_ps.spv
 shaders/vulkan/downsample_filter_x_srgb_ps.spv
@@ -8058,8 +8082,11 @@ shaders/vulkan/downsample_ps.spv
 shaders/vulkan/downsample_srgb_ps.spv
 shaders/vulkan/downsample_vs.spv
 shaders/vulkan/frame_hallucination_depth_vs.spv
+shaders/vulkan/frame_hallucination_downsample_depth_ps.spv
+shaders/vulkan/frame_hallucination_downsample_depth_vs.spv
 shaders/vulkan/frame_hallucination_float_depth_vs.spv
 shaders/vulkan/frame_hallucination_float_vs.spv
+shaders/vulkan/frame_hallucination_motion_align_vs.spv
 shaders/vulkan/frame_hallucination_ps.spv
 shaders/vulkan/frame_hallucination_vs.spv
 shaders/vulkan/frame_hallucination_wireframe_ps.spv
@@ -8119,9 +8146,13 @@ shaders/vulkan/msaa_resolve_2x_ps.spv
 shaders/vulkan/msaa_resolve_4x_ps.spv
 shaders/vulkan/msaa_resolve_8x_ps.spv
 shaders/vulkan/msaa_resolve_vs.spv
+shaders/vulkan/mv_depth_consistency_cs.spv
 shaders/vulkan/mv_dilation_3x3_cs.spv
 shaders/vulkan/mv_dilation_5x5_cs.spv
 shaders/vulkan/mv_dilation_7x7_cs.spv
+shaders/vulkan/mv_distrust_dilate_cs.spv
+shaders/vulkan/mv_repair_cs.spv
+shaders/vulkan/mv_static_reject_cs.spv
 shaders/vulkan/panel_mask_ps.spv
 shaders/vulkan/panel_mask_vs.spv
 shaders/vulkan/portal_stencil_apply_disp_vs.spv
@@ -8135,15 +8166,9 @@ shaders/vulkan/tracked_camera_lines_ps.spv
 shaders/vulkan/tracked_camera_lines_vs.spv
 shaders/vulkan/tracked_camera_ps.spv
 shaders/vulkan/tracked_camera_reprojection_ps.spv
-shaders/vulkan/tracked_camera_reprojection_simplified_devignette_vs.spv
-shaders/vulkan/tracked_camera_reprojection_simplified_monochrome_devignette_nv12_ps.spv
-shaders/vulkan/tracked_camera_reprojection_simplified_monochrome_devignette_ps.spv
 shaders/vulkan/tracked_camera_reprojection_simplified_monochrome_nv12_ps.spv
 shaders/vulkan/tracked_camera_reprojection_simplified_monochrome_ps.spv
 shaders/vulkan/tracked_camera_reprojection_simplified_rgb_nv12_ps.spv
-shaders/vulkan/tracked_camera_reprojection_simplified_sharpen_devignette_vs.spv
-shaders/vulkan/tracked_camera_reprojection_simplified_sharpen_monochrome_devignette_nv12_ps.spv
-shaders/vulkan/tracked_camera_reprojection_simplified_sharpen_monochrome_devignette_ps.spv
 shaders/vulkan/tracked_camera_reprojection_simplified_sharpen_monochrome_nv12_ps.spv
 shaders/vulkan/tracked_camera_reprojection_simplified_sharpen_monochrome_ps.spv
 shaders/vulkan/tracked_camera_reprojection_simplified_sharpen_rgb_nv12_ps.spv
@@ -8164,6 +8189,8 @@ shaders/vulkan/unlit_motion_cost_ps.spv
 shaders/vulkan/unlit_motion_vector_diff_ps.spv
 shaders/vulkan/unlit_motion_vectors_ps.spv
 shaders/vulkan/unlit_ps.spv
+shaders/vulkan/unlit_show_depth_ps.spv
+shaders/vulkan/unlit_show_disocclusion_ps.spv
 shaders/vulkan/unlit_sint16_ps.spv
 shaders/vulkan/unlit_vs.spv
 shared_memory_block

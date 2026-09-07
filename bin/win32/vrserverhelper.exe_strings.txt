@@ -45,7 +45,6 @@
 .tls$
 .tls$ZZZ
 .xdata$x
-2qvj
 ?_Throw_C_error@std@@YAXH@Z
 ?_Xbad_function_call@std@@YAXXZ
 ?_Xlength_error@std@@YAXPBD@Z
@@ -82,11 +81,12 @@ L09n
 LeaveCriticalSection
 LocalFree
 MSVCP140.dll
+Nf`\tx
 OLEAUT32.dll
 PathCchAppend
 PathRemoveFileSpecW
 QueryPerformanceCounter
-RSDS("p
+RSDS
 ResetEvent
 SHLWAPI.dll
 SetEvent
@@ -107,7 +107,6 @@ WindowsFirewallAddRule failed to query firewall rule %d 0x%08lx\n
 WindowsFirewallInitialize failed: 0x%08lx\n
 [,i33L
 _CxxThrowException
-_Mtx_destroy_in_situ
 _Mtx_init_in_situ
 _Mtx_lock
 _Mtx_unlock

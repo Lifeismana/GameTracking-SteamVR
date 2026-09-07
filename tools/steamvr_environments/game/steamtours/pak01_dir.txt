@@ -3271,7 +3271,6 @@ panorama/images/content_browser/rating_fourstars_png.vtex_c CRC:00167692e3 size:
 panorama/images/content_browser/rating_onestar_png.vtex_c CRC:002c697222 size:241972
 panorama/images/content_browser/rating_threestars_png.vtex_c CRC:009558867d size:241972
 panorama/images/content_browser/rating_twostars_png.vtex_c CRC:00e4413ab8 size:241972
-panorama/images/content_browser/screenshot_frame_png.vtex_c CRC:00033bee52 size:264336
 panorama/images/content_browser/screenshot_touch_png.vtex_c CRC:00b5d2d238 size:264336
 panorama/images/content_browser/screenshot_vive_png.vtex_c CRC:00fccfbbb3 size:264336
 panorama/images/content_browser/screenshot_winmr_png.vtex_c CRC:00fbbfb7a3 size:264336
@@ -3615,8 +3614,6 @@ panorama/images/gestures/gesture_point_png.vtex_c CRC:00893e8c12 size:1001924
 panorama/images/gestures/gesture_thumb_png.vtex_c CRC:00c390ec6b size:1001924
 panorama/images/tutorial/tutorialteleport_cosmos_1_png.vtex_c CRC:00514e0825 size:526496
 panorama/images/tutorial/tutorialteleport_cosmos_2_png.vtex_c CRC:00b187db14 size:526496
-panorama/images/tutorial/tutorialteleport_frame_1_png.vtex_c CRC:005b293346 size:526496
-panorama/images/tutorial/tutorialteleport_frame_2_png.vtex_c CRC:0062c4484b size:526496
 panorama/images/tutorial/tutorialteleport_knuckles_1_png.vtex_c CRC:00843e900b size:526496
 panorama/images/tutorial/tutorialteleport_knuckles_2_png.vtex_c CRC:006894c831 size:526496
 panorama/images/tutorial/tutorialteleport_reverbg2_1_png.vtex_c CRC:005a125beb size:526496
@@ -3624,13 +3621,11 @@ panorama/images/tutorial/tutorialteleport_reverbg2_2_png.vtex_c CRC:00000c017f s
 panorama/images/tutorial/tutorialteleport_winmr_1_png.vtex_c CRC:008d572fdf size:526480
 panorama/images/tutorial/tutorialteleport_winmr_2_png.vtex_c CRC:00f3627a99 size:526480
 panorama/images/tutorial/tutorialwelcome_cosmos_3_png.vtex_c CRC:00b3d8afad size:526496
-panorama/images/tutorial/tutorialwelcome_frame_3_png.vtex_c CRC:0018e8387a size:526480
 panorama/images/tutorial/tutorialwelcome_knuckles_3_png.vtex_c CRC:00842201f3 size:526496
 panorama/images/tutorial/tutorialwelcome_reverbg2_3_png.vtex_c CRC:00befaf79a size:526496
 panorama/images/tutorial/tutorialwelcome_winmr_3_png.vtex_c CRC:00317f54f3 size:526480
 panorama/images/welcome_panel/destinations_title_large_png.vtex_c CRC:0083394b80 size:558932
 panorama/images/welcome_panel/destinations_welcome_black_cosmos_png.vtex_c CRC:0005781fef size:264400
-panorama/images/welcome_panel/destinations_welcome_black_frame_png.vtex_c CRC:002f5b0620 size:264400
 panorama/images/welcome_panel/destinations_welcome_black_knuckles_png.vtex_c CRC:005a724083 size:264416
 panorama/images/welcome_panel/destinations_welcome_black_rift_s_png.vtex_c CRC:0002355b27 size:264400
 panorama/images/welcome_panel/destinations_welcome_black_winmr_png.vtex_c CRC:00abf4609b size:264384
@@ -3650,7 +3645,7 @@ panorama/layout/player_billboard.vxml_c CRC:00caecc700 size:5131
 panorama/layout/tool_hint_drop.vxml_c CRC:0092774758 size:726
 panorama/layout/ugc_image.vxml_c CRC:00a524134c size:2556
 panorama/layout/vimeo_player.vxml_c CRC:005db5988a size:3009
-panorama/layout/welcome_panel.vxml_c CRC:005bc3f4a8 size:10458
+panorama/layout/welcome_panel.vxml_c CRC:00eb16535c size:9798
 panorama/layout/youtube_player.vxml_c CRC:003cec8749 size:3013
 panorama/localization/steamtours_brazilian.txt CRC:0097e0b3d2 size:152234
 panorama/localization/steamtours_bulgarian.txt CRC:0068649086 size:225825
@@ -3705,7 +3700,7 @@ panorama/styles/tool_hint_drop.vcss_c CRC:00514b0d90 size:958
 panorama/styles/trackpad_ui.vcss_c CRC:00ddfe1007 size:2013
 panorama/styles/ugc_image.vcss_c CRC:00101a40bd size:1191
 panorama/styles/vimeo_player.vcss_c CRC:0001790b7d size:1716
-panorama/styles/welcome_panel.vcss_c CRC:00e39d8f4b size:6157
+panorama/styles/welcome_panel.vcss_c CRC:00617f8d31 size:6082
 panorama/styles/youtube_player.vcss_c CRC:00dc779526 size:1687
 particles/boxing_fx/boxing_team_glow.vpcf_c CRC:003b18ab58 size:1617
 particles/boxing_fx/kapow.vpcf_c CRC:00914ba4fb size:1206

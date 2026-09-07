@@ -219,6 +219,7 @@ VK_KHR_external_semaphore_win32
 VK_KHR_timeline_semaphore
 VK_KHR_win32_keyed_mutex
 VK_NV_compute_shader_derivatives
+VP|O
 VR_CONFIG_PATH
 VR_LOG_PATH
 VR_OVERRIDE

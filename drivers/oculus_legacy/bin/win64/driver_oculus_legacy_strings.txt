@@ -68,7 +68,6 @@
 8c8f13b1-60eb-4b6a-a433-de86104115ac
 8d8f13b1-60eb-4b6a-a433-de86104115ac
 8e8f13b1-60eb-4b6a-a433-de86104115ac
-;qvj
 ?_Throw_C_error@std@@YAXH@Z
 ?_Throw_Cpp_error@std@@YAXH@Z
 ?_Xbad_function_call@std@@YAXXZ
@@ -85,6 +84,7 @@ CreateThread
 D3D11CreateDevice
 DeleteCriticalSection
 DisableThreadLibraryCalls
+EnterCriticalSection
 Error! EventWriteString Severe: %s\n
 EventRegister
 EventUnregister
@@ -130,6 +130,7 @@ IsDebuggerPresent
 IsProcessorFeaturePresent
 KERNEL32.dll
 LIBOVR_DLL_DIR
+LeaveCriticalSection
 LoadLibraryA
 LoadLibraryW
 MSVCP140.dll
@@ -141,8 +142,9 @@ Oculus
 Out of thread local storage!\n
 QueryPerformanceCounter
 RPCRT4.dll
-RSDS
+RSDS.
 RaiseException
+ResetEvent
 RtlCaptureContext
 RtlLookupFunctionEntry
 RtlVirtualUnwind
@@ -174,6 +176,7 @@ VR_CONFIG_PATH
 VR_LOG_PATH
 VR_OVERRIDE
 WaitForSingleObject
+WaitForSingleObjectEx
 WakeAllConditionVariable
 Warning: Watchdog %s not properly cleaned up%s%s\n
 [OculusDirect] Begin ReleaseSync
@@ -293,6 +296,7 @@ strstr
 tdh.dll
 terminate
 vector<T> too long
+z4uK
 {ERR-001}
 {ERR-079}
 {oculus_legacy}/icons/%s_%s_alert_searching.gif

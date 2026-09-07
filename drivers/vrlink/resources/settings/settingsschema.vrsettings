@@ -76,7 +76,7 @@
                 "label": "#{vrlink}Setting_useOSC",
                 "advanced_only": true,
                 "requires_paths": {
-                    "/driver_vrlink/got_eye_and_expression": true
+                    "/driver_vrlink/supports_eye_and_face_tracking": true
                 }
             },
 			{
@@ -85,7 +85,7 @@
                 "label": "#{vrlink}Setting_useOSCFace",
                 "advanced_only": true,
                 "requires_paths": {
-                    "/driver_vrlink/got_eye_and_expression": true
+                    "/driver_vrlink/supports_eye_and_face_tracking": true
                 },
 				"requires": {
                     "/settings/driver_vrlink/useOSC": true
@@ -97,7 +97,7 @@
                 "label": "#{vrlink}Setting_OSCOutPort",
                 "advanced_only": true,
                 "requires_paths": {
-                    "/driver_vrlink/got_eye_and_expression": true
+                    "/driver_vrlink/supports_eye_and_face_tracking": true
                 },
 				"requires": {
                     "/settings/driver_vrlink/useOSC": true
@@ -113,13 +113,16 @@
                 "label": "#{vrlink}Setting_shareEyeTrackingData",
                 "advanced_only": false,
                 "requires_paths": {
-                    "/driver_vrlink/got_eye_and_expression": true
+                    "/driver_vrlink/supports_eye_and_face_tracking": true
                 }
             },
             {
                 "name": "/settings/driver_vrlink/enableHandTracking",
                 "control": "toggle",
-                "label": "#{vrlink}Setting_enableHandTracking"
+                "label": "#{vrlink}Setting_enableHandTracking",
+                "requires_paths": {
+                    "/driver_vrlink/supports_hand_tracking": true
+                }
             },
             {
                 "name": "/settings/driver_vrlink/showAdvancedGraphs",

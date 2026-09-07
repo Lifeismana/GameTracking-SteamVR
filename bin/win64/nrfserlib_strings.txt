@@ -1074,6 +1074,7 @@ QueueUserAPC
 RESERVED_5
 RESET_PERFORMED
 RSDS
+R\v0n
 RaiseException
 Read Characteristic String
 Read Characteristic Value (handle: %d, offset: %d)\n

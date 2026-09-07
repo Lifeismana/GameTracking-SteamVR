@@ -1758,7 +1758,6 @@ force
 fprintf
 fputc
 frame
-frame_controller
 fread
 fread() error on 
 free

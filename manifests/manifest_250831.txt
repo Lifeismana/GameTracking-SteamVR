@@ -1,17 +1,17 @@
 Content Manifest for Depot 250831 
 
-Manifest ID / date     : 1952343309786248804 / 06/12/2026 22:32:46 
+Manifest ID / date     : 3374051727602264819 / 08/15/2025 18:50:43 
 Total number of files  : 99 
 Total number of chunks : 383 
-Total bytes on disk    : 342866141 
-Total bytes compressed : 172493088 
+Total bytes on disk    : 342865629 
+Total bytes compressed : 172356112 
 
 
           Size Chunks File SHA                                 Flags Name
        2591384      3 00e625ac64436de2a29778e873472f51bbf44b0d     0 tools/steamvr_environments/game/bin/win64/animationsystem.dll
-       5460632      6 7b734ea950e4a5215906c6fa723d7a18fd54f9f1     0 tools/steamvr_environments/game/bin/win64/assetpreview.dll
+       5460632      6 6a092c7400a9bb362455e6661cf7e23396647c81     0 tools/steamvr_environments/game/bin/win64/assetpreview.dll
         742400      1 7b6673d033d875347ac38f44c2b26fc6a6185f2b     0 tools/steamvr_environments/game/bin/win64/ati_compress_wrapper.dll
-       2185880      3 3ed154a19979a1fe674e4c1332156996ff5048e5     0 tools/steamvr_environments/game/bin/win64/bakedlodbuilder.dll
+       2185880      3 b03df1b6dff915506221f220f09127b1c96d437a     0 tools/steamvr_environments/game/bin/win64/bakedlodbuilder.dll
         197272      1 a79c0dd8f219714b2fff2f54ae936a28ec0b834d     0 tools/steamvr_environments/game/bin/win64/bugreporter_filequeue.dll
        2526056      3 207321f1b449985b2d06ed50b989fa6259e4eb8e     0 tools/steamvr_environments/game/bin/win64/d3dcompiler_43.dll
        1907552      2 c28525d941f1db5169cd56839559a3e9c0bb0c13     0 tools/steamvr_environments/game/bin/win64/d3dcsx_43.dll
@@ -20,7 +20,7 @@ Total bytes compressed : 172493088
        2401112      3 2bf450850a522a09e8d1ce0f1e443d86d934f4ad     0 tools/steamvr_environments/game/bin/win64/d3dx9_43.dll
        1558912      2 4ef5d229709e40f3f84e46c3a28341eadbd1a044     0 tools/steamvr_environments/game/bin/win64/dbghelp.dll
       21566976     21 a58eec40719e34ec35d1c2ca5cb172a65492b42d     0 tools/steamvr_environments/game/bin/win64/embree3.dll
-       5717144      6 87e782b32c014a8767b082c5aee7fe8c3382b533     0 tools/steamvr_environments/game/bin/win64/engine2.dll
+       5716632      6 8785e675104fc0c9fdfc634bfb21f9c93a380cd5     0 tools/steamvr_environments/game/bin/win64/engine2.dll
        2400408      3 fb3d8ca3e265074248a5539cfb1609b1008a0285     0 tools/steamvr_environments/game/bin/win64/environmentmapbuilder.dll
         333976      1 e8e407dc1061e2f6f8bbdb68f2626c9f7e581c82     0 tools/steamvr_environments/game/bin/win64/filesystem_stdio.dll
         561816      1 e88b6ce07f4524cf7bd005509605f4537228b16d     0 tools/steamvr_environments/game/bin/win64/helpsystem.dll
@@ -44,38 +44,38 @@ Total bytes compressed : 172493088
         378368      1 9dfbae78751c9ef1b60bbba78bc6b7ce924cde9e     0 tools/steamvr_environments/game/bin/win64/libpangoft2-1.0-0.dll
         910336      1 dbc0563e51a627c2b4104df7d94514fbb0cb1b6a     0 tools/steamvr_environments/game/bin/win64/libswscale-4.dll
         132760      1 d4423b200318a816cf1d15700d53d89ec67b6425     0 tools/steamvr_environments/game/bin/win64/localize.dll
-       1021080      1 55194e41b9966dbb8b014c7a48c1e94b5658acb1     0 tools/steamvr_environments/game/bin/win64/materialsystem2.dll
+       1021080      1 fa7935be652511386c1a4e295fb977366201d66c     0 tools/steamvr_environments/game/bin/win64/materialsystem2.dll
         867480      1 d36183be26e43dfc2b2cb67f644a557d207f53e9     0 tools/steamvr_environments/game/bin/win64/meshsystem.dll
        9156248      9 a7be5fc633f212b1b91ab8f07071ba26d0d74184     0 tools/steamvr_environments/game/bin/win64/modelprocessing.dll
         658072      1 17d402cd416d6c08b6b7acd1de8b24dff9a1b739     0 tools/steamvr_environments/game/bin/win64/navsystem.dll
-       2560152      3 b2fa45b7e73d92bfa7bdd1f01bc0463dbe7659c9     0 tools/steamvr_environments/game/bin/win64/networksystem.dll
+       2560152      3 8b598bb7ca2485933c05a038117392a7fb747a2f     0 tools/steamvr_environments/game/bin/win64/networksystem.dll
         815568      1 be4c3e29ea6960e58c80a6b5437623d319a6c752     0 tools/steamvr_environments/game/bin/win64/openvr_api.dll
          43672      1 3b7c456ac7fcaf20e4bd56812f585ceb1122f943     0 tools/steamvr_environments/game/bin/win64/p4lib.dll
        4989080      5 de196b94f370fbdf0e17ec11c3162df6c74bfbb5     0 tools/steamvr_environments/game/bin/win64/panorama.dll
        2973848      3 b47e65064598d0ebaefad21eb62989099ca01e8a     0 tools/steamvr_environments/game/bin/win64/panorama_text_pango.dll
-       2727576      3 cacab646fd0e713657846b6711ea4ca2a66f346d     0 tools/steamvr_environments/game/bin/win64/particles.dll
+       2727576      3 d0a1269c01f654625ea4d2a0fe7b81401d3ba5c3     0 tools/steamvr_environments/game/bin/win64/particles.dll
       12151584     13 a1ac76bdf8533a5aed284be6b266a9f267fc6061     0 tools/steamvr_environments/game/bin/win64/phonon.dll
         556032      1 6e38aae997b36221c6e9d6bdd8c42e2ac38a4739     0 tools/steamvr_environments/game/bin/win64/phonon4.dll
        3113624      3 efcfbc16c3d7553f8ce3f8fcc96bfa344bd3ca93     0 tools/steamvr_environments/game/bin/win64/physicsbuilder.dll
        1640600      2 1506d96dcc0403a46ab84df3c4ab03e6ba8a4856     0 tools/steamvr_environments/game/bin/win64/propertyeditor.dll
-        381080      1 a9ace4ba62aa0acfab67434025b743491963e570     0 tools/steamvr_environments/game/bin/win64/renderingpipelines.dll
-       1861272      2 d753d0b35144be569a6a03e85fd8abd82735becc     0 tools/steamvr_environments/game/bin/win64/rendersystemdx11.dll
-       1733784      2 1117545612a2cbfe314db3873434555579ddf8e4     0 tools/steamvr_environments/game/bin/win64/rendersystemdx9.dll
-       1039512      1 c633fb2c79d22c191a9d6b43c801981be7eb641a     0 tools/steamvr_environments/game/bin/win64/rendersystemempty.dll
-      11273368     11 67a9a6b4ffb0642c899add377d4a8b814b2c1502     0 tools/steamvr_environments/game/bin/win64/resourcecompiler.dll
+        381080      1 dc3d7aed99633bfb1bbdd5752de84a45e9d698cf     0 tools/steamvr_environments/game/bin/win64/renderingpipelines.dll
+       1861272      2 bcc48a563b1a069c863200207fbd1937bb1cb7ab     0 tools/steamvr_environments/game/bin/win64/rendersystemdx11.dll
+       1733784      2 58d4b375f46e63af9994c61050692c5743971761     0 tools/steamvr_environments/game/bin/win64/rendersystemdx9.dll
+       1039512      1 55cd27c13b959e7de124031e2d76b7d07aec46b5     0 tools/steamvr_environments/game/bin/win64/rendersystemempty.dll
+      11273880     11 9d6921834798ce2e2a63f97ca0df9e292bb9f37a     0 tools/steamvr_environments/game/bin/win64/resourcecompiler.dll
         414872      1 440a7a3cea1cb7554b9e8387bf67ade9bd39afbd     0 tools/steamvr_environments/game/bin/win64/resourcesystem.dll
         200856      1 e33cad27b163dda717ba87ab7fe7fd364b6535a1     0 tools/steamvr_environments/game/bin/win64/scenefilecache.dll
-       2960536      3 eb1d1474a88ad2dade18d06a890180f32d80f956     0 tools/steamvr_environments/game/bin/win64/scenesystem.dll
+       2960536      3 81886d690d9d86d558066b7fcdd6f6ee143c2666     0 tools/steamvr_environments/game/bin/win64/scenesystem.dll
         340120      1 a06aaebbc5bbe8ed86fd01d6bce406c984136083     0 tools/steamvr_environments/game/bin/win64/schemasystem.dll
        1077712      2 90a965c408c99cdebb91827e8515bccd25ae5d4f     0 tools/steamvr_environments/game/bin/win64/SDL2.dll
        1563800      2 878e80c479ae55cabe42bf51ff82b633e9929b39     0 tools/steamvr_environments/game/bin/win64/soundsystem.dll
-        376984      1 a711a4f4c130280a7d9436e5cc7db309b8a04a31     0 tools/steamvr_environments/game/bin/win64/steamaudio.dll
+        376984      1 9bc4ec89104ddd3c3e6804fb1845faea5f74be94     0 tools/steamvr_environments/game/bin/win64/steamaudio.dll
        3475744      4 37baf8e1b85dd541ea0d75e0042c5e9f9658382e     0 tools/steamvr_environments/game/bin/win64/steamnetworkingsockets.dll
         321176      1 604d84dab7da7632ee5d19bd7a3cf6718947fddd     0 tools/steamvr_environments/game/bin/win64/steamtours.exe
         291280      1 e4136a0fc74125e620c5a9f489487fd7f8b67b4f     0 tools/steamvr_environments/game/bin/win64/steam_api64.dll
         149264      1 4b46db2a99a47ff6a6ee376f4d79f5298bff28a2     0 tools/steamvr_environments/game/bin/win64/symsrv.dll
         980632      1 c399d5506c1d7e80cca2faa708f33fb21c92850c     0 tools/steamvr_environments/game/bin/win64/tier0.dll
-       1948824      2 a7a9f030abf9a4a741bba09e385c5b26f366ae7e     0 tools/steamvr_environments/game/bin/win64/toolframework2.dll
+       1948824      2 f46f7f775d087c5af8462a2e3a330abb394b78e1     0 tools/steamvr_environments/game/bin/win64/toolframework2.dll
         117400      1 7da503018ec376c00c9c4c845a4af2a7969bd550     0 tools/steamvr_environments/game/bin/win64/toolscript.dll
       18042880     18 4316c19f2d4e1e65a9c2bcee8c2e4467d7c47f18     0 tools/steamvr_environments/game/bin/win64/v8.dll
        1178112      2 51d27bdfbf5a66ecf2ca870fc432a1c7f3a98eb0     0 tools/steamvr_environments/game/bin/win64/v8_libbase.dll
@@ -92,17 +92,17 @@ Total bytes compressed : 172493088
        3938256      4 0e32f4a1a9a869f2fe25aec261d634c7bf92bd09     0 tools/steamvr_environments/game/bin/win64/video64.dll
        1717912      2 3ebb030c4f414b625a9d3604db2c7e40714bd766     0 tools/steamvr_environments/game/bin/win64/visbuilder.dll
        2988696      3 c572c6104d31757d08bf81f0a6d10c8d514da5a2     0 tools/steamvr_environments/game/bin/win64/vphysics2.dll
-       1169560      2 531aae9ddf89534e7629d7e885fab8e992955c95     0 tools/steamvr_environments/game/bin/win64/vr.dll
+       1169560      2 79dc3114bd1e2f1efd3b146676e0b568247df646     0 tools/steamvr_environments/game/bin/win64/vr.dll
         789656      1 a334720d926aac7dc27b8669eb07a5aab18055c7     0 tools/steamvr_environments/game/bin/win64/vscript.dll
         443032      1 4c11fd5ebf97285c2084b287eff7574cdf0d6eaa     0 tools/steamvr_environments/game/bin/win64/vstdlib.dll
        2403992      3 64270b5a1dd8b3eda308bf682f88470baee7eea4     0 tools/steamvr_environments/game/bin/win64/workshop.dll
        1348248      2 bbb585933ca621d1c27a48fb5fc0ae89b5588fdb     0 tools/steamvr_environments/game/bin/win64/worldrenderer.dll
-       5195416      5 574c78dee3d84b1422ee58417c42fabdfc7d185d     0 tools/steamvr_environments/game/bin/win64/worldrendererbuilder.dll
+       5195416      5 a33df2eb7bf8c0fb6f541c808dd865f30adfdfe5     0 tools/steamvr_environments/game/bin/win64/worldrendererbuilder.dll
        3979513      4 6542593be4cca6f471a5999fbef0c12adc1abbdc     0 tools/steamvr_environments/game/core/shaders_pc_000.vpk
          18124      1 44cee6061914dfaed28403f13dce3f8834b94ee5     0 tools/steamvr_environments/game/core/shaders_pc_dir.vpk
-      13452952     13 9159bb780902285d8fcfd7d5b50821d2648c969c     0 tools/steamvr_environments/game/steamtours/bin/win64/client.dll
-       1537176      2 b9afe1dfe188ace93964b2ba6e382885247bc3b8     0 tools/steamvr_environments/game/steamtours/bin/win64/host.dll
-      14070424     14 15280736d7fbe1306bec74e5dab588ac02fbcc06     0 tools/steamvr_environments/game/steamtours/bin/win64/server.dll
+      13452952     13 6d499a6754cefe98724b181de62fc74b14bab8b8     0 tools/steamvr_environments/game/steamtours/bin/win64/client.dll
+       1537176      2 4ddf4d54a78f1b622f02f3426bc55f4ef55386d7     0 tools/steamvr_environments/game/steamtours/bin/win64/host.dll
+      14069912     14 6fa82748d1e0405bcd1654068f59dd6301a9847c     0 tools/steamvr_environments/game/steamtours/bin/win64/server.dll
            535      1 e24a50a1cfbd869fac2d4f4be0ea0c15970b4756   100 tools/steamvr_environments/game/steamtours/install.vdf
      104736730    100 338aacd3caafaabc5eceb8798ed8dbe0e5195349     0 tools/steamvr_environments/game/steamtours/shaders_pc_000.vpk
          64667      1 fcd94b8e81b4afa3a820226541952712cccd6c47     0 tools/steamvr_environments/game/steamtours/shaders_pc_001.vpk

@@ -478,6 +478,7 @@ $0option $1;\n
 /yQA
 00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899"
 0123456789abcdef
+0lk\t
 0x%X\n
 1.2.5
 1A26b
@@ -1136,6 +1137,7 @@ Panic in TDM. basestation offset is invalid: %f\n
 Pe6^
 PeekMessageA
 Peripheral MCU Application Version: %i\n
+Plk\t
 Protocol Buffer reflection usage error:\n  Method      : google::protobuf::Reflection::
 Protocol message serialized itself in invalid fashion.
 Protocol message was modified concurrently during serialization.
@@ -1144,8 +1146,7 @@ QueryPerformanceCounter
 QueryPerformanceFrequency
 R1h58
 RPCRT4.dll
-RSDS
-R\vpo
+RSDSj
 Radio Version: %i\n
 RaiseException
 Raw mapped input (%2d):
@@ -1458,7 +1459,7 @@ Zjz\v
 \r\n\tTYPE_ENUM
 \rlighthouse.pb"(\n
 \rmj>zjZ
-\rp\f`\v0\nP<k\t
+\rp\f`\v0\nPlk\t
 \tPID  0x%04X\n
 \tVID  0x%04X\n
 \t\t\n\n\v\v\f\f\f\f\r\r\r\r
@@ -1957,6 +1958,7 @@ period
 period\tPrint sync statistics\n
 pitch
 pl_pl
+plk\t
 plus_x
 plus_z
 polish

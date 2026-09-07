@@ -1,4 +1,4 @@
-var CLSTAMP = "10893990";
+var CLSTAMP = "10951329";
 (self.webpackChunkvrwebui = self.webpackChunkvrwebui || []).push([
   [906, 458],
   {
@@ -1192,15 +1192,16 @@ var CLSTAMP = "10893990";
             (e[(e.ControllerPairing = 1)] = "ControllerPairing"),
             (e[(e.WelcomeToSteamFrame = 2)] = "WelcomeToSteamFrame"),
             (e[(e.PlayspaceSetup = 3)] = "PlayspaceSetup"),
-            (e[(e.SystemButtonHideDashboard = 4)] =
+            (e[(e.LaserMouse = 4)] = "LaserMouse"),
+            (e[(e.SystemButtonHideDashboard = 5)] =
               "SystemButtonHideDashboard"),
-            (e[(e.SystemButtonDashboardHidden = 5)] =
+            (e[(e.SystemButtonDashboardHidden = 6)] =
               "SystemButtonDashboardHidden"),
-            (e[(e.SystemButtonShowDashboard = 6)] =
+            (e[(e.SystemButtonShowDashboard = 7)] =
               "SystemButtonShowDashboard"),
-            (e[(e.PairWifiDongle = 7)] = "PairWifiDongle"),
-            (e[(e.TourSendOff = 8)] = "TourSendOff"),
-            (e[(e.SteamGuidedTourFinished = 9)] = "SteamGuidedTourFinished");
+            (e[(e.PairWifiDongle = 8)] = "PairWifiDongle"),
+            (e[(e.TourSendOff = 9)] = "TourSendOff"),
+            (e[(e.SteamGuidedTourFinished = 10)] = "SteamGuidedTourFinished");
         })(v || (v = {})),
         (function (e) {
           (e[(e.None = 0)] = "None"),
@@ -1224,7 +1225,8 @@ var CLSTAMP = "10893990";
           (e[(e.None = 0)] = "None"),
             (e[(e.LargeDeadZone = 4)] = "LargeDeadZone"),
             (e[(e.SmallDeadZone = 8)] = "SmallDeadZone"),
-            (e[(e.NoDeadZone = 12)] = "NoDeadZone");
+            (e[(e.NoDeadZoneThenSmallElastic = 12)] =
+              "NoDeadZoneThenSmallElastic");
         })(C || (C = {}));
       const F = C.SmallDeadZone;
       var f, M, P, R, w, b;

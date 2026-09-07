@@ -1,4 +1,4 @@
-var CLSTAMP = "10893990";
+var CLSTAMP = "10951329";
 (() => {
   "use strict";
   var e,
@@ -25,6 +25,7 @@ var CLSTAMP = "10893990";
           HWh: () => a.H,
           I0c: () => o.I0,
           IS7: () => a.I,
+          IlB: () => I.Il,
           JZN: () => i.JZ,
           JcD: () => o.Jc,
           Jv8: () => o.Jv,
@@ -41,6 +42,7 @@ var CLSTAMP = "10893990";
           O6e: () => i.O6,
           OH$: () => I.OH,
           OiK: () => _.Oi,
+          Op7: () => I.Op,
           QB1: () => i.QB,
           QRg: () => w.QR,
           R$f: () => I.R$,
@@ -83,6 +85,7 @@ var CLSTAMP = "10893990";
           kSV: () => o.kS,
           ke3: () => w.ke,
           kuU: () => I.ku,
+          lo4: () => o.lo,
           lqd: () => m.l,
           m$_: () => C.m,
           mHe: () => u.mH,
@@ -149,27 +152,29 @@ var CLSTAMP = "10893990";
             : o.Unknown;
         }
         n.d(t, {
-          GQ: () => k,
+          GQ: () => N,
           Gz: () => c,
-          HW: () => S,
-          Kl: () => b,
+          HW: () => _,
+          Il: () => p,
+          Kl: () => v,
           MV: () => l,
           OH: () => o,
+          Op: () => T,
           R$: () => s,
-          Rk: () => u,
-          Xl: () => y,
-          _1: () => M,
+          Rk: () => m,
+          Xl: () => f,
+          _1: () => O,
           _E: () => a,
-          aq: () => C,
-          b: () => f,
-          gN: () => v,
-          k2: () => I,
-          kG: () => A,
-          ku: () => h,
+          aq: () => y,
+          b: () => b,
+          gN: () => A,
+          k2: () => w,
+          kG: () => B,
+          ku: () => u,
           mu: () => r,
           ne: () => d,
           pM: () => i,
-          rx: () => w,
+          rx: () => E,
         }),
           (function (e) {
             (e[(e.Desktop = 1)] = "Desktop"),
@@ -205,33 +210,47 @@ var CLSTAMP = "10893990";
         let a = 0,
           c = 0,
           d = 4294967295;
-        var p, h, u, m, g, S, _, C, y, f, b, v, A, B, I, w, E, M, O, k;
+        var p, h, u, m, g, S, _, C, y, f, b, v, A, B, I, w, E, M, O, k, N;
+        function T(e) {
+          let t = p.None;
+          return (
+            e.getModifierState("CapsLock") && (t |= 1),
+            e.getModifierState("NumLock") && (t |= 2),
+            t
+          );
+        }
         !(function (e) {
           (e[(e.None = 0)] = "None"),
-            (e[(e.Shown = 1)] = "Shown"),
-            (e[(e.Hidden = 2)] = "Hidden"),
-            (e[(e.Exposed = 3)] = "Exposed"),
-            (e[(e.Moved = 4)] = "Moved"),
-            (e[(e.Resized = 5)] = "Resized"),
-            (e[(e.SizeChanged = 6)] = "SizeChanged"),
-            (e[(e.Minimized = 7)] = "Minimized"),
-            (e[(e.Maximized = 8)] = "Maximized"),
-            (e[(e.Restored = 9)] = "Restored"),
-            (e[(e.Enter = 10)] = "Enter"),
-            (e[(e.Leave = 11)] = "Leave"),
-            (e[(e.FocusGained = 12)] = "FocusGained"),
-            (e[(e.FocusLost = 13)] = "FocusLost"),
-            (e[(e.Close = 14)] = "Close"),
-            (e[(e.TakeFocus = 15)] = "TakeFocus"),
-            (e[(e.HitTest = 16)] = "HitTest");
+            (e[(e.Head = 1)] = "Head"),
+            (e[(e.HandLeft = 2)] = "HandLeft"),
+            (e[(e.HandRight = 3)] = "HandRight");
         })(p || (p = {})),
+          (function (e) {
+            (e[(e.None = 0)] = "None"),
+              (e[(e.Shown = 1)] = "Shown"),
+              (e[(e.Hidden = 2)] = "Hidden"),
+              (e[(e.Exposed = 3)] = "Exposed"),
+              (e[(e.Moved = 4)] = "Moved"),
+              (e[(e.Resized = 5)] = "Resized"),
+              (e[(e.SizeChanged = 6)] = "SizeChanged"),
+              (e[(e.Minimized = 7)] = "Minimized"),
+              (e[(e.Maximized = 8)] = "Maximized"),
+              (e[(e.Restored = 9)] = "Restored"),
+              (e[(e.Enter = 10)] = "Enter"),
+              (e[(e.Leave = 11)] = "Leave"),
+              (e[(e.FocusGained = 12)] = "FocusGained"),
+              (e[(e.FocusLost = 13)] = "FocusLost"),
+              (e[(e.Close = 14)] = "Close"),
+              (e[(e.TakeFocus = 15)] = "TakeFocus"),
+              (e[(e.HitTest = 16)] = "HitTest");
+          })(h || (h = {})),
           (function (e) {
             (e[(e.Activated = 0)] = "Activated"),
               (e[(e.Deactivated = 1)] = "Deactivated");
-          })(h || (h = {})),
+          })(u || (u = {})),
           (function (e) {
             (e[(e.None = 0)] = "None"), (e[(e.Mouse = 1)] = "Mouse");
-          })(u || (u = {})),
+          })(m || (m = {})),
           (function (e) {
             (e[(e.Invalid = 0)] = "Invalid"),
               (e[(e.HMD = 1)] = "HMD"),
@@ -239,19 +258,19 @@ var CLSTAMP = "10893990";
               (e[(e.GenericTracker = 3)] = "GenericTracker"),
               (e[(e.TrackingReference = 4)] = "TrackingReference"),
               (e[(e.DisplayRedirect = 5)] = "DisplayRedirect");
-          })(m || (m = {})),
+          })(g || (g = {})),
           (function (e) {
             (e[(e.Unknown = 0)] = "Unknown"),
               (e[(e.NVIDIA = 1)] = "NVIDIA"),
               (e[(e.AMD = 2)] = "AMD");
-          })(g || (g = {})),
+          })(S || (S = {})),
           (function (e) {
             (e[(e.None = 0)] = "None"),
               (e[(e.Starting = 1)] = "Starting"),
               (e[(e.Quitting = 2)] = "Quitting"),
               (e[(e.Running = 3)] = "Running"),
               (e[(e.Waiting = 4)] = "Waiting");
-          })(S || (S = {})),
+          })(_ || (_ = {})),
           (function (e) {
             (e[(e.ButtonPress_0 = 0)] = "ButtonPress_0"),
               (e[(e.ButtonPress_1 = 1)] = "ButtonPress_1"),
@@ -262,19 +281,19 @@ var CLSTAMP = "10893990";
               (e[(e.CouldntFindOrCreateClientOverlay = 5)] =
                 "CouldntFindOrCreateClientOverlay"),
               (e[(e.ApplicationQuit = 6)] = "ApplicationQuit");
-          })(_ || (_ = {})),
+          })(C || (C = {})),
           (function (e) {
             (e[(e.Accept = 0)] = "Accept"), (e[(e.Back = 1)] = "Back");
-          })(C || (C = {})),
+          })(y || (y = {})),
           (function (e) {
             (e[(e.Normal = 0)] = "Normal"),
               (e[(e.Password = 1)] = "Password"),
               (e[(e.Submit = 2)] = "Submit");
-          })(y || (y = {})),
+          })(f || (f = {})),
           (function (e) {
             (e[(e.SingleLine = 0)] = "SingleLine"),
               (e[(e.MultipleLines = 1)] = "MultipleLines");
-          })(f || (f = {})),
+          })(b || (b = {})),
           (function (e) {
             (e[(e.LaserMouse = 1)] = "LaserMouse"),
               (e[(e.RoomViewFullyOccludingApp = 2)] =
@@ -291,7 +310,7 @@ var CLSTAMP = "10893990";
               (e[(e.GamepadMode_Left = 512)] = "GamepadMode_Left"),
               (e[(e.SystemKeyboardPrivacy = 1024)] = "SystemKeyboardPrivacy"),
               (e[(e.GamepadMode_Right = 2048)] = "GamepadMode_Right");
-          })(b || (b = {})),
+          })(v || (v = {})),
           (function (e) {
             (e[(e.None = 0)] = "None"),
               (e[(e.ThisSteamVR = 1)] = "ThisSteamVR"),
@@ -299,7 +318,7 @@ var CLSTAMP = "10893990";
               (e[(e.AnotherRuntime = 3)] = "AnotherRuntime"),
               (e[(e.ThisSteamVR64BitOnly = 4)] = "ThisSteamVR64BitOnly"),
               (e[(e.Error = -1)] = "Error");
-          })(v || (v = {})),
+          })(A || (A = {})),
           (function (e) {
             (e[(e.TrackedControllerRole_Invalid = 0)] =
               "TrackedControllerRole_Invalid"),
@@ -313,7 +332,7 @@ var CLSTAMP = "10893990";
                 "TrackedControllerRole_Treadmill"),
               (e[(e.TrackedControllerRole_Max = 5)] =
                 "TrackedControllerRole_Max");
-          })(A || (A = {})),
+          })(B || (B = {})),
           (function (e) {
             (e[(e.Unknown = 0)] = "Unknown"),
               (e[(e.Steam_VRButton = 1)] = "Steam_VRButton"),
@@ -325,18 +344,18 @@ var CLSTAMP = "10893990";
               (e[(e.AppLaunch_Steam = 21)] = "AppLaunch_Steam"),
               (e[(e.SteamVR_Restart = 30)] = "SteamVR_Restart"),
               (e[(e.SteamVR_VRStartup = 31)] = "SteamVR_VRStartup");
-          })(B || (B = {})),
+          })(I || (I = {})),
           (function (e) {
             e[(e.Hostname = 0)] = "Hostname";
-          })(I || (I = {})),
+          })(w || (w = {})),
           (function (e) {
             (e[(e.Unavailable = 0)] = "Unavailable"),
               (e[(e.Active = 1)] = "Active"),
               (e[(e.Off = 2)] = "Off");
-          })(w || (w = {})),
+          })(E || (E = {})),
           (function (e) {
             (e[(e.Default = 1)] = "Default"), (e[(e.Floor = 2)] = "Floor");
-          })(E || (E = {})),
+          })(M || (M = {})),
           (function (e) {
             (e[(e.Inactive = 0)] = "Inactive"),
               (e[(e.PendingReset = 1)] = "PendingReset"),
@@ -344,7 +363,7 @@ var CLSTAMP = "10893990";
               (e[(e.Default = 3)] = "Default"),
               (e[(e.CV = 4)] = "CV"),
               (e[(e.Manual = 5)] = "Manual");
-          })(M || (M = {})),
+          })(O || (O = {})),
           (function (e) {
             (e[(e.OK = 1)] = "OK"),
               (e[(e.Warning = 100)] = "Warning"),
@@ -362,14 +381,14 @@ var CLSTAMP = "10893990";
               (e[(e.Error_PlayAreaInvalid = 203)] = "Error_PlayAreaInvalid"),
               (e[(e.Error_CollisionBoundsInvalid = 204)] =
                 "Error_CollisionBoundsInvalid");
-          })(O || (O = {})),
+          })(k || (k = {})),
           (function (e) {
             (e[(e.Small = 0)] = "Small"),
               (e[(e.Medium = 1)] = "Medium"),
               (e[(e.Large = 2)] = "Large"),
               (e[(e.Gigantic = 3)] = "Gigantic"),
               (e[(e.Standing = 4)] = "Standing");
-          })(k || (k = {}));
+          })(N || (N = {}));
       },
       5802: (e, t, n) => {
         n.d(t, {

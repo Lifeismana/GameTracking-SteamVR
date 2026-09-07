@@ -20,6 +20,7 @@ $@unknown error
 %d / %m / %y
 %m / %d / %y
 &Sgw
+&Tmv
 ' is not a number.
 ( 8PX
 ('8PW
@@ -549,7 +550,7 @@ PeekNamedPipe
 Pex?0
 QueryDepthSList
 QueryPerformanceCounter
-RSDS
+RSDSVA
 RaiseException
 ReadConsoleW
 ReadFile
@@ -1175,5 +1176,4 @@ xwpwpp
 z1}B
 zyC7
 {4Wf
-{pvj
 |W8A=

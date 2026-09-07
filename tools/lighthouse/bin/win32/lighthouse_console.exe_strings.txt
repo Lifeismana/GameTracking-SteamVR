@@ -498,6 +498,7 @@ $0option $1;\n
 : Tried to copy from a message with a different type. to: 
 : Tried to merge from a message with a different type.  to: 
 <unknown>
+>CSyncDetect: Detected large-scale timebase non-monotonicity. last: %lf current: %lf - Resetting....\n
 >UUUUUU
 >hid.dll
 ?&x0O
@@ -689,7 +690,6 @@ CPPTYPE_UINT64
 CRC (%08X) does not match expected value (%08X)\n
 CRC valid (%08X)\n
 CRecord
-CSyncDetect: Detected large-scale timebase non-monotonicity. last: %lf current: %lf - Resetting....\n
 CType
 CVec3
 Camera

@@ -242,7 +242,6 @@
 .idata$4
 .idata$5
 .idata$6
-.qvj
 .rdata
 .rdata$T
 .rdata$r

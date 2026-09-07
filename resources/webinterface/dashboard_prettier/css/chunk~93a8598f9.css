@@ -52,6 +52,135 @@
 .svg_library_Spinner_1q9tu > path:nth-child(8) {
   animation-delay: -0.4s;
 }
+.gamepaduibutton_GamepadUIButton_3cM9m {
+  position: relative;
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  margin: 2px 0;
+  padding: .5em 1em;
+  border: 0;
+  border-radius: 4px;
+  background: #3d4450;
+  color: #dfe3e6;
+  font: inherit;
+  font-size: 14px;
+  line-height: 32px;
+  text-align: center;
+  text-transform: none;
+  cursor: pointer;
+  user-select: none;
+  transition-property: opacity, background, color, box-shadow;
+  transition-duration: .2s;
+  transition-timing-function: ease-out;
+}
+.gamepaduibutton_GamepadUIButton_3cM9m::before {
+  content: " ";
+  position: absolute;
+  inset: 0;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.3);
+  opacity: 0;
+  pointer-events: none;
+  user-select: none;
+  transition: opacity 200ms ease-in-out;
+}
+.gamepaduibutton_GamepadUIButton_3cM9m:hover::before {
+  opacity: 1;
+}
+.gamepaduibutton_GamepadUIButton_3cM9m:active::before {
+  opacity: 0;
+}
+.gamepaduibutton_GamepadUIButton_3cM9m:hover,
+.gamepaduibutton_GamepadUIButton_3cM9m.gpfocus {
+  background: #464d58;
+  color: #fff;
+}
+.gamepaduibutton_GamepadUIButton_3cM9m:active,
+.gamepaduibutton_GamepadUIButton_3cM9m:active:hover,
+.gamepaduibutton_GamepadUIButton_3cM9m:active.gpfocus {
+  background: #393f49;
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.6);
+  transition-duration: .04s;
+}
+.gamepaduibutton_GamepadUIButton_3cM9m.gamepaduibutton_Primary_lgv_H:not(
+    .Disabled
+  ).gamepaduibutton_Highlighted_a5G_1 {
+  background: linear-gradient(to right, #47bfff 0%, #1a44c2 60%);
+  background-position: 25%;
+  background-size: 330% 100%;
+  color: #fff;
+}
+.gamepaduibutton_GamepadUIButton_3cM9m.gamepaduibutton_Primary_lgv_H:not(
+    .Disabled
+  ):hover,
+.gamepaduibutton_GamepadUIButton_3cM9m.gamepaduibutton_Primary_lgv_H:not(
+    .Disabled
+  ).gpfocus {
+  background: linear-gradient(to right, #47bfff 0%, #1a44c2 60%);
+  background-position: 0%;
+  background-size: 330% 100%;
+  color: #fff;
+}
+.gamepaduibutton_GamepadUIButton_3cM9m.gamepaduibutton_Primary_lgv_H:not(
+    .Disabled
+  ):active {
+  background: linear-gradient(to right, #47bfff 0%, #1a44c2 60%);
+  background-position: 40%;
+  background-size: 330% 100%;
+  color: #fff;
+  transition-duration: .04s;
+}
+.gamepaduibutton_GamepadUIButton_3cM9m.Disabled,
+.gamepaduibutton_GamepadUIButton_3cM9m.Disabled:hover,
+.gamepaduibutton_GamepadUIButton_3cM9m.Disabled.gpfocus {
+  background: rgba(61, 68, 80, 0.35);
+  color: #464d58;
+  box-shadow: none;
+  cursor: default;
+  pointer-events: none;
+}
+.gamepaduibutton_GamepadUIButton_3cM9m.Disabled::before {
+  opacity: 0;
+}
+.gamepaduibutton_GamepadUIButton_3cM9m.gamepaduibutton_FocusRing_3Fr_z.gpfocus::after {
+  content: " ";
+  position: absolute;
+  inset: 0;
+  outline: 4px solid rgba(255, 255, 255, 0.6);
+  outline-offset: 4px;
+  pointer-events: none;
+  animation:
+    gamepaduibutton_Flash_38oyX .5s ease, gamepaduibutton_GrowOutline_3AwG- .4s ease, gamepaduibutton_FadeOutline_109PU .4s ease, gamepaduibutton_Blinker_2GJbD 1.2s ease-in-out .4s 20;
+}
+@keyframes gamepaduibutton_Flash_38oyX {
+  0% {
+    background-color: rgba(255, 255, 255, 0.08);
+  }
+  100% {
+    background-color: rgba(255, 255, 255, 0);
+  }
+}
+@keyframes gamepaduibutton_GrowOutline_3AwG- {
+  0% {
+    outline: 12px solid;
+  }
+  100% {
+    outline: 2px solid;
+  }
+}
+@keyframes gamepaduibutton_FadeOutline_109PU {
+  0% {
+    outline-color: rgba(255, 255, 255, 0);
+  }
+  100% {
+    outline-color: rgba(255, 255, 255, 0.6);
+  }
+}
+@keyframes gamepaduibutton_Blinker_2GJbD {
+  50% {
+    opacity: 0.4;
+  }
+}
 .grabhandle_GrabHandleBar_2EnMy {
   --grab-handle-grow-scale-x: 1.1;
   height: 12px;
@@ -197,6 +326,10 @@
   background: var(--gamepadui-darker-grey);
   border-radius: 10px;
 }
+.legacydashboardframecontrols_FrameControlsContainer_27B1e
+  .legacydashboardframecontrols_Section_1KwWq.legacydashboardframecontrols_WideGapBefore_1lLW2 {
+  margin-left: 30px;
+}
 .legacydashboardframecontrols_FrameControlsContainer_27B1e .ButtonControl {
   background-color: none;
   background: none;
@@ -217,6 +350,72 @@
 .legacydashboardframecontrols_FrameControlsContainer_27B1e
   .ButtonControl:active {
   background: var(--gamepadui-grey);
+}
+.legacydashboardframecontrols_FrameControlsContainer_27B1e
+  .ButtonControl.legacydashboardframecontrols_HasPopoutAnchor_1anSI {
+  position: relative;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+.legacydashboardframecontrols_PopoutAnchor_QH9hH {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 0;
+  height: 0;
+}
+.legacydashboardframecontrols_AdditionalOptions_SVI8j {
+  display: flex;
+  flex-direction: column;
+  background: var(--gamepadui-darkish-grey);
+  border-radius: 10px;
+  overflow: hidden;
+}
+.legacydashboardframecontrols_AdditionalOptions_SVI8j
+  .ButtonControl.legacydashboardframecontrols_AdditionalOptionsRow_27am2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 16px;
+  margin: 0;
+  padding: 8px 24px 8px 20px;
+  border-radius: 0;
+  background: none;
+  white-space: nowrap;
+}
+.legacydashboardframecontrols_AdditionalOptions_SVI8j
+  .ButtonControl.legacydashboardframecontrols_AdditionalOptionsRow_27am2:first-child {
+  padding-top: 14px;
+}
+.legacydashboardframecontrols_AdditionalOptions_SVI8j
+  .ButtonControl.legacydashboardframecontrols_AdditionalOptionsRow_27am2:last-child {
+  padding-bottom: 14px;
+}
+.legacydashboardframecontrols_AdditionalOptions_SVI8j
+  .ButtonControl.legacydashboardframecontrols_AdditionalOptionsRow_27am2.Disabled {
+  pointer-events: none;
+  opacity: 0.3;
+}
+.legacydashboardframecontrols_AdditionalOptions_SVI8j
+  .ButtonControl.legacydashboardframecontrols_AdditionalOptionsRow_27am2:hover,
+.legacydashboardframecontrols_AdditionalOptions_SVI8j
+  .ButtonControl.legacydashboardframecontrols_AdditionalOptionsRow_27am2.legacydashboardframecontrols_GamepadFocused_OxA82 {
+  background: var(--gamepadui-dark-grey);
+}
+.legacydashboardframecontrols_AdditionalOptions_SVI8j
+  .ButtonControl.legacydashboardframecontrols_AdditionalOptionsRow_27am2:active {
+  background: var(--gamepadui-grey);
+}
+.legacydashboardframecontrols_AdditionalOptions_SVI8j
+  > .ButtonControl:not(:first-child) {
+  border-top: 1px solid rgba(255, 255, 255, 0.07);
+}
+.legacydashboardframecontrols_AdditionalOptions_SVI8j
+  .ButtonControl.legacydashboardframecontrols_AdditionalOptionsRow_27am2
+  > .legacydashboardframecontrols_AdditionalOptionsLabel_3PYs0 {
+  text-align: left;
+  margin-right: 0;
 }
 .frameresizehandle_ResizeHandleButton_3BhgE {
   --resize-corner-size: 128px;
@@ -2333,7 +2532,7 @@ div.BindingCalloutModifierIcon {
   flex-grow: 1;
   flex-shrink: 1;
   margin-left: 150px;
-  margin-right: 0px;
+  margin-right: 200px;
 }
 .DashboardMain .NowPlayingAppTitle {
   font-size: 3em;
@@ -2341,14 +2540,14 @@ div.BindingCalloutModifierIcon {
   margin-bottom: 100px;
   margin-top: 70px;
 }
-.DashboardMain .NowPlaying .InfoColumn .ButtonControl {
+.DashboardMain .NowPlaying .InfoColumn .GamepadUIButton {
   margin-left: 0px;
   margin-right: 0px;
   font-size: 1.5em;
   margin-bottom: 25px;
 }
-.DashboardMain .NowPlaying .InfoColumn .ButtonControl.Colorful {
-  margin-bottom: 40px;
+.DashboardMain .NowPlaying .InfoColumn .GamepadUIButton.ResumeButton {
+  margin-bottom: 45px;
 }
 .DashboardMain .NoDesktopFound .ButtonControl {
   margin-top: 100px;

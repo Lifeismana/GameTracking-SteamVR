@@ -82,6 +82,7 @@ CloseHandle
 CreateEventW
 DeleteCriticalSection
 DisableThreadLibraryCalls
+EnterCriticalSection
 Gamepad
 GetCurrentProcess
 GetCurrentProcessId
@@ -112,12 +113,14 @@ InitializeSListHead
 IsDebuggerPresent
 IsProcessorFeaturePresent
 KERNEL32.dll
+LeaveCriticalSection
 MSVCP140.dll
 MainThrd
 Out of thread local storage!\n
 QueryPerformanceCounter
-RSDS
+RSDS7{
 RaiseException
+ResetEvent
 SDL2.dll
 SDL_GAMECONTROLLER_ALLOW_STEAM_VIRTUAL_GAMEPAD
 SDL_GAMECONTROLLER_IGNORE_DEVICES
@@ -144,6 +147,7 @@ SDL_NumJoysticks
 SDL_PollEvent
 SDL_QuitSubSystem
 SetEnvironmentVariableA
+SetEvent
 SetUnhandledExceptionFilter
 Skipping controller %d because it has the Valve VID\n
 SleepConditionVariableCS
@@ -153,6 +157,7 @@ TlsFree
 UnhandledExceptionFilter
 Unknown exception
 VCRUNTIME140.dll
+WaitForSingleObjectEx
 WakeAllConditionVariable
 _Cnd_destroy
 _Cnd_do_broadcast_at_thread_exit

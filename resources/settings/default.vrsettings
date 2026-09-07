@@ -261,7 +261,7 @@
         "theaterModeBrightness": 0.5,
         "theaterModeReflection": 0.5,
         "theaterModeSharpness": 0.5,
-        "defaultTheaterScale": 2.1,
+        "defaultTheaterScale": 2.8,
         "defaultTheaterDistance": 3.0,
         "enableLTCReflections": true,
         "inputCaptureEnabled": false,

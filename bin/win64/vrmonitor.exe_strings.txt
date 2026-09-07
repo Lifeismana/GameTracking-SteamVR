@@ -137,6 +137,7 @@ $\t?contains@QRectF@@QEBA_NAEBVQPointF@@@Z
 &\t?contains@QSettings@@QEBA_NAEBVQString@@@Z
 &\v?end@QListData@@QEBAPEAPEAXXZ
 ' is not a number.
+'(Failed Enumeration)
 (<Device\d*_Additional>.*<\/Device\d*_Additional>\n)*
 (?<DATE>.*) - (=*\n.*)
 (?<DATE>.*) - (\/\/=*)
@@ -149,7 +150,6 @@ $\t?contains@QRectF@@QEBA_NAEBVQPointF@@@Z
 (?<VALUE>(\d)*) in (?<VALUE2>(\d)*) frames
 (?<VALUE>(\d)*) single frame
 (Enumerating)
-(Failed Enumeration)
 (General Failure)
 (Hub Nested Too Deeply)
 (In Legacy Hub)
@@ -703,7 +703,7 @@ $\t?contains@QRectF@@QEBA_NAEBVQPointF@@@Z
 1!?widget@QTabWidget@@QEBAPEAVQWidget@@H@Z
 100%
 1000
-16:56:26
+14:18:00
 1DoAcquireData()
 1DoInit()
 1DoParseString( const QString & )
@@ -2930,7 +2930,7 @@ Audio Firmware: \t%1 / %2 %3\n
 AudioBridge
 AudioDeviceChangeNotice (noting refresh): %d, device = %s\n
 AudioWorker
-Aug  7 2026
+Aug 29 2026
 Autoplaying loaded playlist\n
 AvRevertMmThreadCharacteristics
 AvRevertMmThreadCharacteristics failed: last error is %d\n
@@ -5700,10 +5700,10 @@ R?scaledSize@QMovie@@QEAA?AVQSize@@XZ
 R?screens@QGuiApplication@@SA?AV?$QList@PEAVQScreen@@@@XZ
 REFRESH
 RPCRT4.dll
-RSDST
+RSDSb
 RSSI: %1\n
 R\v?find@QPlainTextEdit@@QEAA_NAEBVQString@@V?$QFlags@W4FindFlag@QTextDocument@@@@@Z
-R\vpt
+R\vpD
 Radio
 Radio Version:
 Radio Version: \t%1 / %2 %3 %4\n

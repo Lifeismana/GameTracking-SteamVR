@@ -6,6 +6,7 @@
  exceeds maximum allowed file size 
  in Buffer\n
  w/ VirtualDesktop.Injector64.dll
+!(pCreateInfo->flags.bRenderable && pCreateInfo->flags.bDepthStencil)
 " not found in the scene.
 "%/28;=#$019:>?
 ". Must be "perspective" or "orthographic"
@@ -304,7 +305,6 @@ $3br
 11eU%
 1e+9999
 2.5.4.3
-7!(pCreateInfo->flags.bRenderable && pCreateInfo->flags.bDepthStencil)
 8c8f13b1-60eb-4b6a-a433-de86104115ac
 8d8f13b1-60eb-4b6a-a433-de86104115ac
 8e8f13b1-60eb-4b6a-a433-de86104115ac
@@ -707,7 +707,7 @@ Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
 RPCRT4.dll
-RSDSN
+RSDSs<
 RaiseException
 ResetEvent
 S-1-15-2-2765576060-2389096713-3079022642-4099546867-1445191215-3071396046-3987166893
@@ -1388,8 +1388,11 @@ ovr_TestBoundaryPoint
 ovr_TraceMessage
 ovr_WaitToBeginFrame
 ovr_WaitToBeginFrame(%d) failed: %s\n
+pIndexBuffer
 pNewResource
 pNewResource->Load( absFilePath )
+pUpdateData
+pVertexBuffer
 parameter must be a string or number / number array.\n
 parse error
 parse_error
@@ -1446,8 +1449,12 @@ shaders/d3d11/distort_geom_aa_quads_ps.fxo
 shaders/d3d11/distort_geom_aa_quads_vs.fxo
 shaders/d3d11/distort_geom_altcolorblend_ps.fxo
 shaders/d3d11/distort_geom_aurora_floor_ps.fxo
-shaders/d3d11/distort_geom_aurora_horizon_notexture_ps.fxo
-shaders/d3d11/distort_geom_aurora_horizon_ps.fxo
+shaders/d3d11/distort_geom_aurora_horizon_floor_dark_notexture_ps.fxo
+shaders/d3d11/distort_geom_aurora_horizon_floor_dark_ps.fxo
+shaders/d3d11/distort_geom_aurora_horizon_floor_notexture_ps.fxo
+shaders/d3d11/distort_geom_aurora_horizon_floor_ps.fxo
+shaders/d3d11/distort_geom_aurora_horizon_sky_notexture_ps.fxo
+shaders/d3d11/distort_geom_aurora_horizon_sky_ps.fxo
 shaders/d3d11/distort_geom_aurora_sky_notexture_ps.fxo
 shaders/d3d11/distort_geom_aurora_sky_ps.fxo
 shaders/d3d11/distort_geom_colormap_lines_ps.fxo
@@ -1530,6 +1537,7 @@ shaders/d3d11/distort_ps_nd.fxo
 shaders/d3d11/distort_ps_scene.fxo
 shaders/d3d11/distort_ps_scene0.fxo
 shaders/d3d11/distort_ps_scene_blur.fxo
+shaders/d3d11/distort_ps_scene_depth.fxo
 shaders/d3d11/distort_vs.fxo
 shaders/d3d11/distort_vs_latest_nd.fxo
 shaders/d3d11/distort_vs_layered.fxo
@@ -1540,7 +1548,6 @@ shaders/d3d11/distort_vs_reproject_fv_dr.fxo
 shaders/d3d11/distort_vs_reproject_layered.fxo
 shaders/d3d11/distort_vs_reproject_layered_nd.fxo
 shaders/d3d11/distort_vs_reproject_mv.fxo
-shaders/d3d11/distort_vs_reproject_mv_dr.fxo
 shaders/d3d11/distort_vs_reproject_nd.fxo
 shaders/d3d11/downsample_filter_x_ps.fxo
 shaders/d3d11/downsample_filter_x_srgb_ps.fxo
@@ -1550,8 +1557,11 @@ shaders/d3d11/downsample_ps.fxo
 shaders/d3d11/downsample_srgb_ps.fxo
 shaders/d3d11/downsample_vs.fxo
 shaders/d3d11/frame_hallucination_depth_vs.fxo
+shaders/d3d11/frame_hallucination_downsample_depth_ps.fxo
+shaders/d3d11/frame_hallucination_downsample_depth_vs.fxo
 shaders/d3d11/frame_hallucination_float_depth_vs.fxo
 shaders/d3d11/frame_hallucination_float_vs.fxo
+shaders/d3d11/frame_hallucination_motion_align_vs.fxo
 shaders/d3d11/frame_hallucination_ps.fxo
 shaders/d3d11/frame_hallucination_vs.fxo
 shaders/d3d11/frame_hallucination_wireframe_ps.fxo
@@ -1612,15 +1622,9 @@ shaders/d3d11/tracked_camera_lines_ps.fxo
 shaders/d3d11/tracked_camera_lines_vs.fxo
 shaders/d3d11/tracked_camera_ps.fxo
 shaders/d3d11/tracked_camera_reprojection_ps.fxo
-shaders/d3d11/tracked_camera_reprojection_simplified_devignette_vs.fxo
-shaders/d3d11/tracked_camera_reprojection_simplified_monochrome_devignette_nv12_ps.fxo
-shaders/d3d11/tracked_camera_reprojection_simplified_monochrome_devignette_ps.fxo
 shaders/d3d11/tracked_camera_reprojection_simplified_monochrome_nv12_ps.fxo
 shaders/d3d11/tracked_camera_reprojection_simplified_monochrome_ps.fxo
 shaders/d3d11/tracked_camera_reprojection_simplified_rgb_nv12_ps.fxo
-shaders/d3d11/tracked_camera_reprojection_simplified_sharpen_devignette_vs.fxo
-shaders/d3d11/tracked_camera_reprojection_simplified_sharpen_monochrome_devignette_nv12_ps.fxo
-shaders/d3d11/tracked_camera_reprojection_simplified_sharpen_monochrome_devignette_ps.fxo
 shaders/d3d11/tracked_camera_reprojection_simplified_sharpen_monochrome_nv12_ps.fxo
 shaders/d3d11/tracked_camera_reprojection_simplified_sharpen_monochrome_ps.fxo
 shaders/d3d11/tracked_camera_reprojection_simplified_sharpen_rgb_nv12_ps.fxo
@@ -1640,6 +1644,8 @@ shaders/d3d11/unlit_motion_cost_ps.fxo
 shaders/d3d11/unlit_motion_vector_diff_ps.fxo
 shaders/d3d11/unlit_motion_vectors_ps.fxo
 shaders/d3d11/unlit_ps.fxo
+shaders/d3d11/unlit_show_depth_ps.fxo
+shaders/d3d11/unlit_show_disocclusion_ps.fxo
 shaders/d3d11/unlit_sint16_ps.fxo
 shaders/d3d11/unlit_vs.fxo
 skeleton
