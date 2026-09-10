@@ -1109,6 +1109,7 @@ semget
 semicolon
 semop
 serial
+setenv
 setlocale
 setpriority
 setrlimit
@@ -1218,6 +1219,7 @@ uninitialized __any_string
 unknown compression method
 unknown zip result code
 unlink
+unsetenv
 unsigned
 unsigned __int128
 unsigned char

@@ -1,4 +1,4 @@
-var CLSTAMP = "10951329";
+var CLSTAMP = "10979762";
 (self.webpackChunkvrwebui = self.webpackChunkvrwebui || []).push([
   [300],
   {
@@ -24,8 +24,8 @@ var CLSTAMP = "10951329";
       n.d(t, {
         CL: () => P,
         JP: () => r,
-        JQ: () => C,
-        P9: () => S,
+        JQ: () => S,
+        P9: () => C,
         gU: () => _,
         sj: () => f,
       });
@@ -42,8 +42,8 @@ var CLSTAMP = "10951329";
         h = n(1651),
         c = n(9961),
         v = n(776),
-        g = n(4007),
-        d = n(2741),
+        d = n(4007),
+        g = n(2741),
         b = n(1391),
         O = n(3676),
         D = n(1333);
@@ -84,7 +84,7 @@ var CLSTAMP = "10951329";
         get logPrefix() {
           let e = this.frame.title;
           return (
-            e.length > d.kr && (e = e.substring(0, d.kr - 3) + "..."),
+            e.length > g.kr && (e = e.substring(0, g.kr - 3) + "..."),
             `${this.frame.frameID}[${this.pageID}] "${e}"`
           );
         }
@@ -152,7 +152,7 @@ var CLSTAMP = "10951329";
             ? this.m_mainPanel.getSGID()
             : (this.isExternalDashboardOverlay &&
                 null != this.summonOverlayKey &&
-                (null === (e = g.Q.GetOverlayInfo(this.summonOverlayKey)) ||
+                (null === (e = d.Q.GetOverlayInfo(this.summonOverlayKey)) ||
                 void 0 === e
                   ? void 0
                   : e.unStandalonePanelSGID)) ||
@@ -188,16 +188,18 @@ var CLSTAMP = "10951329";
         get shouldShowMinimalDecorations() {
           return (
             null != this.summonOverlayKey &&
-            g.Q.GetOverlayFlag(this.summonOverlayKey, 67108864)
+            d.Q.GetOverlayFlag(this.summonOverlayKey, 67108864)
           );
         }
         get canSpatialize() {
-          var e;
+          var e, t;
           return (
-            !!D.HR.settings.get("/settings/audio/enableSpatializeGlobal") &&
-            ((null === (e = this.summonOverlayKey) || void 0 === e
+            !!(null === (e = D.HR.audioDevices) || void 0 === e
               ? void 0
-              : e.startsWith(m.bl + ".")) ||
+              : e.spatialize) &&
+            ((null === (t = this.summonOverlayKey) || void 0 === t
+              ? void 0
+              : t.startsWith(m.bl + ".")) ||
               this.summonOverlayKey == m.P)
           );
         }
@@ -265,7 +267,7 @@ var CLSTAMP = "10951329";
         (0, a.Cg)([i.computed], f.prototype, "canSpatialize", null),
         (0, a.Cg)([i.computed], f.prototype, "isSpatializeEnabled", null),
         (0, a.Cg)([i.action.bound], f.prototype, "SetSpatializeEnabled", null);
-      const S = l.forwardRef(function (e, t) {
+      const C = l.forwardRef(function (e, t) {
           const { children: n, summonOverlayKey: r } = e,
             { frame: a } = (0, p.N)(),
             m = l.useMemo(() => a.CreatePage(e), [a]);
@@ -284,7 +286,7 @@ var CLSTAMP = "10951329";
             l.createElement(s.IS7, { id: y }, n),
           );
         }),
-        C = l.forwardRef(function (e, t) {
+        S = l.forwardRef(function (e, t) {
           var n, r;
           const {
               requireExternalOverlay: i = !0,
@@ -297,7 +299,7 @@ var CLSTAMP = "10951329";
               "componentProps",
             ]),
             { frame: v } = (0, p.N)(),
-            d = l.useCallback(
+            g = l.useCallback(
               (e) => {
                 null == e || e.SetIsExternalDashboardOverlay(!0),
                   (0, u.cZ)(t, e);
@@ -305,21 +307,21 @@ var CLSTAMP = "10951329";
               [t],
             ),
             b = (0, o.q3)(() => v.curvature.curvatureTransformOriginID),
-            O = (0, o.q3)(() => g.Q.GetOverlayInfo(y)),
+            O = (0, o.q3)(() => d.Q.GetOverlayInfo(y)),
             D =
               null !== (n = null == O ? void 0 : O.unFlags) && void 0 !== n
                 ? n
                 : 0,
             f = (16 & D) > 0,
-            C = (1073741824 & D) > 0;
+            S = (1073741824 & D) > 0;
           return i && !O
             ? null
             : l.createElement(
-                S,
+                C,
                 Object.assign({}, c, {
                   summonOverlayKey:
                     null !== (r = e.summonOverlayKey) && void 0 !== r ? r : y,
-                  ref: d,
+                  ref: g,
                   componentProps: Object.assign(Object.assign({}, h), {
                     keyboard: Object.assign(
                       { overlayKeyForKeyboardInput: y },
@@ -328,7 +330,7 @@ var CLSTAMP = "10951329";
                     inputFocus: Object.assign(
                       {
                         vrClientPID: f ? O.unClientPID : void 0,
-                        steamInputAppID: C ? O.unSteamInputAppID : void 0,
+                        steamInputAppID: S ? O.unSteamInputAppID : void 0,
                       },
                       null == h ? void 0 : h.inputFocus,
                     ),
@@ -353,7 +355,7 @@ var CLSTAMP = "10951329";
           return l.createElement(
             l.Fragment,
             null,
-            d.i_.map((e) =>
+            g.i_.map((e) =>
               l.createElement(s.Ci8, {
                 key: e,
                 id: n.GetPanelAnchorID(e),

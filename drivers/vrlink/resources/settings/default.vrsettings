@@ -20,6 +20,8 @@
         "forceOpenMode" : false,
         "watchForShaderChanges" : false,
         "enableEncryption": false,
+        "useSharpening": true,
+        "sharpeningStrength": 0.2,
         "automaticStreamFormatWidth": true,
         "streamFormatWidth": 1024,
         "forceBaselineVideoFEC": false,
@@ -36,6 +38,6 @@
 		"asyncStartEncode" : true,
         "enableHandTracking" : true,
         "allowMultipleLinks" :  true,
-	"enableHmdAutoConnect" : true
+	    "enableHmdAutoConnect" : true
     }
 }

@@ -28,6 +28,8 @@
 	"Setting_FoveationOff": "Off",
 	"Setting_AllowMultipleLinks": "Allow Multiple Links",
 	"Setting_EnableHmdAutoConnect": "Automatically connect supported steamlink HMDs at SteamVR startup",
+	"Setting_Sharpening": "Sharpen image before encoding (FidelityFX CAS)",
+	"Setting_SharpeningStrength": "Sharpening Strength",
 
 	"svl_hand_interaction_augmented": "Hand Tracking Controller",
 	"/input/index_pinch": "Index Pinch",

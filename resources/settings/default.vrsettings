@@ -257,7 +257,7 @@
         "desktopIndex": 1,
         "autoShowGameTheater": true,
         "theaterCurvature": 0,
-        "theaterScreenAlignment": 0,
+        "theaterScreenAlignment": 1,
         "theaterModeBrightness": 0.5,
         "theaterModeReflection": 0.5,
         "theaterModeSharpness": 0.5,

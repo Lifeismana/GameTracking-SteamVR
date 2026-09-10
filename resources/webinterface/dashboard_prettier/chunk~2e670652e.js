@@ -1,4 +1,4 @@
-var CLSTAMP = "10951329";
+var CLSTAMP = "10979762";
 (self.webpackChunkvrwebui = self.webpackChunkvrwebui || []).push([
   [170],
   {
@@ -1396,9 +1396,9 @@ var CLSTAMP = "10951329";
         P = o(2741),
         F = o(5026),
         x = o(3215),
-        T = o(4182),
-        Z = o(247),
-        O = o(9995),
+        Z = o(4182),
+        O = o(247),
+        T = o(9995),
         A = o(5484),
         B = o(1391),
         N = o(3696),
@@ -1438,7 +1438,7 @@ var CLSTAMP = "10951329";
             (this.sharing = void 0),
             (this.curvature = new H.vm(this)),
             (this.docking = new v.bQ(this)),
-            (this.closing = new Z.d(this)),
+            (this.closing = new O.d(this)),
             (this.size = new S.LD(this)),
             (this.inputFocus = new B.i(this)),
             (this.panels = new z.X(this)),
@@ -1447,7 +1447,7 @@ var CLSTAMP = "10951329";
             (this.m_bPendingInitialSyncWithSteam = !1),
             (this.m_unOverridePageID = void 0),
             (this.m_unFrameID = e),
-            (this.tab = new O.n(this, t)),
+            (this.tab = new T.n(this, t)),
             (this.props = o),
             (0, n.makeObservable)(this);
         }
@@ -1505,7 +1505,7 @@ var CLSTAMP = "10951329";
         }
         get isCurrentlyVisible() {
           if (this.state != G.Alive) return !1;
-          if (T.N.isLocked && !this.props.visibleWhenSteamLocked) return !1;
+          if (Z.N.isLocked && !this.props.visibleWhenSteamLocked) return !1;
           if (N.H.inRoomSetup) return !1;
           switch (this.docking.dockLocation) {
             case a.yWq.Dashboard:
@@ -1563,7 +1563,7 @@ var CLSTAMP = "10951329";
           var e;
           return (
             !R.T.isOOBE &&
-            !T.N.isLocked &&
+            !Z.N.isLocked &&
             !(null === (e = this.activePage) || void 0 === e
               ? void 0
               : e.shouldShowMinimalDecorations)
@@ -1864,7 +1864,7 @@ var CLSTAMP = "10951329";
             })(s),
             this.shouldRenderFrameControls ||
               (s.controls.items_for_bottom_frame_controls = void 0),
-            (R.T.isOOBE || T.N.isLocked) &&
+            (R.T.isOOBE || Z.N.isLocked) &&
               (s.menu.items_for_left_frame_menu = void 0);
           const c = new Set();
           return (
@@ -2909,26 +2909,6 @@ var CLSTAMP = "10951329";
                 () =>
                   this.frames_local.filter((e) => e.state == C.Iu.Destroyed),
                 this.OnLocalFramesDestroyed,
-              ),
-              (0, n.reaction)(
-                () => L.isTheaterMode,
-                (e) => {
-                  null === VRHTML ||
-                    void 0 === VRHTML ||
-                    VRHTML.VRCompositor.SetAnimatedValue(
-                      p.KIK.TheaterFast,
-                      e,
-                      0.25,
-                    ),
-                    null === VRHTML ||
-                      void 0 === VRHTML ||
-                      VRHTML.VRCompositor.SetAnimatedValue(
-                        p.KIK.TheaterSlow,
-                        e,
-                        e ? 2 : 1,
-                      );
-                },
-                { fireImmediately: !0 },
               ),
               (0, n.autorun)(this.SendUpdatesToSteam, { delay: 1e-4 });
           });
@@ -4014,9 +3994,9 @@ var CLSTAMP = "10951329";
           P,
           F,
           x,
-          T,
           Z,
           O,
+          T,
           A,
           B,
           N,
@@ -4143,19 +4123,19 @@ var CLSTAMP = "10951329";
           ce = {
             x:
               null !==
-                (T =
+                (Z =
                   null === (x = null == X ? void 0 : X.offset) || void 0 === x
                     ? void 0
-                    : x.x_meters) && void 0 !== T
-                ? T
+                    : x.x_meters) && void 0 !== Z
+                ? Z
                 : 0,
             y:
               null !==
-                (O =
-                  null === (Z = null == X ? void 0 : X.offset) || void 0 === Z
+                (T =
+                  null === (O = null == X ? void 0 : X.offset) || void 0 === O
                     ? void 0
-                    : Z.y_meters) && void 0 !== O
-                ? O
+                    : O.y_meters) && void 0 !== T
+                ? T
                 : 0,
             z:
               null !==
@@ -4473,11 +4453,11 @@ var CLSTAMP = "10951329";
         I$: () => D,
         Ki: () => A,
         LG: () => F,
-        PN: () => O,
+        PN: () => T,
         Pq: () => b,
         Qt: () => E,
         Sc: () => P,
-        Ut: () => T,
+        Ut: () => Z,
         VR: () => C,
         Xj: () => M,
         YN: () => u,
@@ -4495,7 +4475,7 @@ var CLSTAMP = "10951329";
         oU: () => q,
         rx: () => g,
         s3: () => B,
-        vN: () => Z,
+        vN: () => O,
         wB: () => I,
         xI: () => z,
         y$: () => N,
@@ -5164,7 +5144,7 @@ var CLSTAMP = "10951329";
           }),
         );
       }
-      function T(e) {
+      function Z(e) {
         return n.createElement(
           "svg",
           Object.assign(
@@ -5195,7 +5175,7 @@ var CLSTAMP = "10951329";
           }),
         );
       }
-      function Z(e) {
+      function O(e) {
         return n.createElement(
           "svg",
           Object.assign(
@@ -5214,7 +5194,7 @@ var CLSTAMP = "10951329";
           }),
         );
       }
-      function O(e) {
+      function T(e) {
         return n.createElement(
           "svg",
           Object.assign(

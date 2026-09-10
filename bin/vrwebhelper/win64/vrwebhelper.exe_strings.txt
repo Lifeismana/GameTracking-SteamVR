@@ -647,9 +647,9 @@
 /vrgamepadui/steamvr/vrlink_lasermousestate_tx
 /vrlink/steamvr/remoteClientRefreshRate
 /vrlink_client_isSteamVR
+11:45:22
 126.0.0-HEAD.3163+g5c4eb82+chromium-126.0.6478.183
 127.0.0.1
-14:18:00
 1e+9999
 5I)7
 7^d[L
@@ -766,7 +766,6 @@ ArrayBuffer
 Assert( %s ) %s(%d)\n
 Attempt to init shared state %s twice
 AudioDeviceChangeNotice (noting refresh): %d, device = %s\n
-Aug 29 2026
 AvRevertMmThreadCharacteristics
 AvRevertMmThreadCharacteristics failed: last error is %d\n
 AvSetMmThreadCharacteristics failed: last error = %u
@@ -1404,7 +1403,7 @@ QueryPerformanceFrequency
 QuitSceneApp
 QuitSteamVR
 RPCRT4.dll
-RSDS/
+RSDSb
 RaiseException
 ReadFile
 ReadFile failed on %s after event was signaled because %s\n
@@ -1524,6 +1523,7 @@ Searching for LUID:
 Second argument must be a TransformTRS
 Second argument must be a string
 See 
+Sep  9 2026
 SetCurrentProcessExplicitAppUserModelID
 SetEnvironmentVariableA
 SetEvent
@@ -2748,6 +2748,7 @@ spanish
 stackLimit
 start_tracking_recording %d %d %d
 startup
+steam.app.
 steam_api64
 steam_api64.dll
 steamvr

@@ -363,7 +363,7 @@ $3br
 *ZN19CRenderModelManager10TessellateEPN2vr13RenderModel_tEPKcEUlRKNS0_12HmdVector3_tEE5_
 *ZN19CRenderModelManager10TessellateEPN2vr13RenderModel_tEPKcEUlRKNS0_12HmdVector3_tEE6_
 *ZN19CRenderModelManager10TessellateEPN2vr13RenderModel_tEPKcEUlRKNS0_12HmdVector3_tEE7_
-*ZN19CRenderModelManager10TessellateEPN2vr13RenderModel_tEPKcEUltttE12_
+*ZN19CRenderModelManager10TessellateEPN2vr13RenderModel_tEPKcEUltttE11_
 *ZN6CVRLog7InitLogEPKcS1_bmEUl9ELogLevelS1_PvE_
 +2cursor
 +clickstab
@@ -484,8 +484,8 @@ $3br
 /data/src/common/vrcommon/vrrenderer/ivrrenderer.h
 /data/src/common/vrcommon/vrrenderer/sharedresource_linux.cpp
 /data/src/common/vrcommon/vrrenderer/vulkanrenderer.cpp
-/data/src/common/vrcommon/vrrenderer/vulkanrenderer.cpp:4335
-/data/src/common/vrcommon/vrrenderer/vulkanrenderer.cpp:4419
+/data/src/common/vrcommon/vrrenderer/vulkanrenderer.cpp:4336
+/data/src/common/vrcommon/vrrenderer/vulkanrenderer.cpp:4420
 /data/src/common/vrcommon/vrsystem.cpp
 /data/src/common/vrcommon/vrsystemlayersharedstate.cpp
 /data/src/common/vrcommon/vulkan.cpp
@@ -662,12 +662,12 @@ $3br
 /data/src/vrclient/vrcompositorclient.cpp:2601
 /data/src/vrclient/vrcompositorclient.cpp:464
 /data/src/vrclient/vrcompositorsharedtextures.cpp
-/data/src/vrclient/vrcompositorsharedtextures.cpp:2564
-/data/src/vrclient/vrcompositorsharedtextures.cpp:2758
-/data/src/vrclient/vrcompositorsharedtextures.cpp:2963
-/data/src/vrclient/vrcompositorsharedtextures.cpp:2967
-/data/src/vrclient/vrcompositorsharedtextures.cpp:3072
-/data/src/vrclient/vrcompositorsharedtextures.cpp:4295
+/data/src/vrclient/vrcompositorsharedtextures.cpp:2568
+/data/src/vrclient/vrcompositorsharedtextures.cpp:2764
+/data/src/vrclient/vrcompositorsharedtextures.cpp:2969
+/data/src/vrclient/vrcompositorsharedtextures.cpp:2973
+/data/src/vrclient/vrcompositorsharedtextures.cpp:3078
+/data/src/vrclient/vrcompositorsharedtextures.cpp:4301
 /data/src/vrclient/vrdebug.cpp:49
 /data/src/vrclient/vrdebug.cpp:60
 /data/src/vrclient/vrinput.cpp:1606
@@ -3815,6 +3815,7 @@ Prop_Hmd_AppPreferencesSectionName_String
 Prop_Hmd_BlankOnFramerateChange_Bool
 Prop_Hmd_CameraSettingsModel_Int32
 Prop_Hmd_EnableParallelRenderCameras_Bool
+Prop_Hmd_MaxRefreshRateForAppRenderModels_Float
 Prop_Hmd_RecommendedResolutionIsPerApp_Bool
 Prop_Hmd_RecommendedResolutionPixelsSteps_Int32
 Prop_Hmd_SupportsAppThrottling_Bool

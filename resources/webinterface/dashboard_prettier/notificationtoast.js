@@ -1,4 +1,4 @@
-var CLSTAMP = "10951329";
+var CLSTAMP = "10979762";
 (() => {
   "use strict";
   var e,
@@ -572,12 +572,14 @@ var CLSTAMP = "10951329";
             );
           }
           get canSpatialize() {
-            var e;
+            var e, t;
             return (
-              !!S.HR.settings.get("/settings/audio/enableSpatializeGlobal") &&
-              ((null === (e = this.summonOverlayKey) || void 0 === e
+              !!(null === (e = S.HR.audioDevices) || void 0 === e
                 ? void 0
-                : e.startsWith(u.bl + ".")) ||
+                : e.spatialize) &&
+              ((null === (t = this.summonOverlayKey) || void 0 === t
+                ? void 0
+                : t.startsWith(u.bl + ".")) ||
                 this.summonOverlayKey == u.P)
             );
           }

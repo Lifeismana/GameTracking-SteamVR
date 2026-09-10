@@ -387,6 +387,7 @@
 2 Button Caption!
 3 Button Caption!
 4 button caption!
+6GwO
 : exception thrown in JSON library
 <unknown>
 ??0?$basic_ios@DU?$char_traits@D@std@@@std@@IEAA@XZ
@@ -821,6 +822,7 @@ Prop_Hmd_AppPreferencesSectionName_String
 Prop_Hmd_BlankOnFramerateChange_Bool
 Prop_Hmd_CameraSettingsModel_Int32
 Prop_Hmd_EnableParallelRenderCameras_Bool
+Prop_Hmd_MaxRefreshRateForAppRenderModels_Float
 Prop_Hmd_RecommendedResolutionIsPerApp_Bool
 Prop_Hmd_RecommendedResolutionPixelsSteps_Int32
 Prop_Hmd_SupportsAppThrottling_Bool
@@ -902,7 +904,7 @@ PropertyContainer: High lock acquisition counters: sp:%u yd:%u re:%u\n
 PropertyContainerCreation
 QueryPerformanceCounter
 QueryPerformanceFrequency
-RSDS#(J
+RSDS">
 RaiseException
 ReadFile
 ReadFile failed on %s after event was signaled because %s\n

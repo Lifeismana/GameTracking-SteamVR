@@ -15,6 +15,7 @@
 %s: failed to export memory (%d)\n
 %s: failed to set debug name
 %s: usage must be specified when allocating images
+(qO1
 , last executing in 
 .00cfg
 .?AVCPrismDisplay_NvAPI@@

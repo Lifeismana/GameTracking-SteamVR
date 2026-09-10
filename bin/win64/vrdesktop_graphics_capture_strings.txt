@@ -624,6 +624,7 @@ es_es
 es_mx
 exception thrown in JSON library
 expecting another \u token to begin the second half of a unicode surrogate pair
+fK:M
 false
 fi_fi
 finnish

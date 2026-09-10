@@ -530,6 +530,7 @@ GetCurrentThreadId
 GetDeviceRemovedReason: 0x%X
 GetDriveTypeA
 GetEnvironmentVariableA
+GetEnvironmentVariableAsBool(%s): Unable to parse value '%s', using default %d\n
 GetExitCodeThread
 GetFileAttributesW
 GetFullPathNameW
@@ -707,7 +708,7 @@ Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
 RPCRT4.dll
-RSDSs<
+RSDSK\v@
 RaiseException
 ResetEvent
 S-1-15-2-2765576060-2389096713-3079022642-4099546867-1445191215-3071396046-3987166893
@@ -719,6 +720,7 @@ SDL_CreateWindow
 SDL_DestroyWindow
 SDL_WaitEventTimeout
 SETUPAPI.dll
+STEAMVR_DISABLE_LOG_RATE_LIMITING
 SearchPathW
 Session created!\n
 Set thread %p priority to: %d\n
@@ -803,7 +805,25 @@ Zjz\v
 [OculusDirect] !!!! AcquireSync FAILED with unknown hr
 [OculusDirect] !!!! ReleaseSync FAILED with E_FAIL
 [OculusDirect] !!!! ReleaseSync FAILED with unknown hr
+[OculusDirect] AcquireSync FAILED with E_FAIL
+[OculusDirect] AcquireSync FAILED with E_FAIL [%u messages suppressed]
+[OculusDirect] AcquireSync FAILED with E_FAIL [OMITTING additional logs for %d seconds]
+[OculusDirect] AcquireSync FAILED with WAIT_ABANDONED
+[OculusDirect] AcquireSync FAILED with WAIT_ABANDONED [%u messages suppressed]
+[OculusDirect] AcquireSync FAILED with WAIT_ABANDONED [OMITTING additional logs for %d seconds]
+[OculusDirect] AcquireSync FAILED with WAIT_TIMEOUT
+[OculusDirect] AcquireSync FAILED with WAIT_TIMEOUT [%u messages suppressed]
+[OculusDirect] AcquireSync FAILED with WAIT_TIMEOUT [OMITTING additional logs for %d seconds]
+[OculusDirect] AcquireSync FAILED with unknown hr 0x%08x
+[OculusDirect] AcquireSync FAILED with unknown hr 0x%08x [%u messages suppressed]
+[OculusDirect] AcquireSync FAILED with unknown hr 0x%08x [OMITTING additional logs for %d seconds]
 [OculusDirect] PostPresent:%lli th=%d pr=%d(%d)
+[OculusDirect] ReleaseSync FAILED with E_FAIL
+[OculusDirect] ReleaseSync FAILED with E_FAIL [%u messages suppressed]
+[OculusDirect] ReleaseSync FAILED with E_FAIL [OMITTING additional logs for %d seconds]
+[OculusDirect] ReleaseSync FAILED with unknown hr 0x%08x
+[OculusDirect] ReleaseSync FAILED with unknown hr 0x%08x [%u messages suppressed]
+[OculusDirect] ReleaseSync FAILED with unknown hr 0x%08x [OMITTING additional logs for %d seconds]
 [OculusDirect] Vsync: %.2f(%.2f) th=%d pf=%d qa=%.2fms pt=%.2f asw=%d
 [json.exception.
 \nbad png sig
@@ -818,7 +838,7 @@ Zjz\v
 ] invalid bufferView
 ] is not a JSON object.
 ],"subtype":
-]c:\buildslave\steamvr_rel_win32\build\src\drivers\oculus\oculusdirect.cpp:982
+]c:\buildslave\steamvr_rel_win32\build\src\drivers\oculus\oculusdirect.cpp:983
 _CIacos
 _CIfmod
 _CIpow
@@ -850,9 +870,11 @@ _Thrd_sleep
 _Thrd_start
 _Xtime_get_ticks
 __CxxFrameHandler3
+__acrt_iob_func
 __std_exception_copy
 __std_exception_destroy
 __std_type_info_destroy_list
+__stdio_common_vfprintf
 __stdio_common_vsnprintf_s
 __stdio_common_vsprintf
 __stdio_common_vsprintf_s
@@ -931,6 +953,7 @@ aspectRatio
 assert json failed
 asset
 atof
+atoi
 attributes
 bSharedKeyedMutex and bShareable are mutually exclusive on D3D11. Failed to create texture.
 bad AC huff
@@ -1002,11 +1025,11 @@ c:\buildslave\steamvr_rel_win32\build\src\common\vrcommon\vrrenderer\ivrrenderer
 c:\buildslave\steamvr_rel_win32\build\src\drivers\oculus\Retail\win32\2017\driver_oculus.pdb
 c:\buildslave\steamvr_rel_win32\build\src\drivers\oculus\driver_oculus.cpp
 c:\buildslave\steamvr_rel_win32\build\src\drivers\oculus\oculusdirect.cpp
-c:\buildslave\steamvr_rel_win32\build\src\drivers\oculus\oculusdirect.cpp:1041
-c:\buildslave\steamvr_rel_win32\build\src\drivers\oculus\oculusdirect.cpp:1068
-c:\buildslave\steamvr_rel_win32\build\src\drivers\oculus\oculusdirect.cpp:1166
-c:\buildslave\steamvr_rel_win32\build\src\drivers\oculus\oculusdirect.cpp:1197
-c:\buildslave\steamvr_rel_win32\build\src\drivers\oculus\oculusdirect.cpp:294
+c:\buildslave\steamvr_rel_win32\build\src\drivers\oculus\oculusdirect.cpp:1046
+c:\buildslave\steamvr_rel_win32\build\src\drivers\oculus\oculusdirect.cpp:1075
+c:\buildslave\steamvr_rel_win32\build\src\drivers\oculus\oculusdirect.cpp:1173
+c:\buildslave\steamvr_rel_win32\build\src\drivers\oculus\oculusdirect.cpp:1204
+c:\buildslave\steamvr_rel_win32\build\src\drivers\oculus\oculusdirect.cpp:295
 camera
 cameras
 can't merge dc and ac
@@ -1182,6 +1205,7 @@ invalid vector<T> subscript
 inverse
 inverseBindMatrices
 isalnum
+isdigit
 it_it
 italian
 ja_jp

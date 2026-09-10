@@ -1,4 +1,4 @@
-var CLSTAMP = "10951329";
+var CLSTAMP = "10979762";
 (self.webpackChunkvrwebui = self.webpackChunkvrwebui || []).push([
   [838],
   {
@@ -774,12 +774,14 @@ var CLSTAMP = "10951329";
           );
         }
         get canSpatialize() {
-          var e;
+          var e, t;
           return (
-            !!b.HR.settings.get("/settings/audio/enableSpatializeGlobal") &&
-            ((null === (e = this.summonOverlayKey) || void 0 === e
+            !!(null === (e = b.HR.audioDevices) || void 0 === e
               ? void 0
-              : e.startsWith(d.bl + ".")) ||
+              : e.spatialize) &&
+            ((null === (t = this.summonOverlayKey) || void 0 === t
+              ? void 0
+              : t.startsWith(d.bl + ".")) ||
               this.summonOverlayKey == d.P)
           );
         }

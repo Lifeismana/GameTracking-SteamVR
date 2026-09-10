@@ -684,6 +684,7 @@ char32_t
 char8_t
 chdir
 chmod
+clock_gettime
 cntrl
 collectComments
 complex 
@@ -737,6 +738,7 @@ getc
 getcwd
 getenv
 gettext
+gettimeofday
 getwc
 global constructors keyed to 
 global destructors keyed to 
@@ -768,8 +770,10 @@ libc.so.6
 libdl.so.2
 libm.so.6
 libpthread.so.0
+librt.so.1
 linux64
 locale::facet::_S_create_c_locale name not valid
+localtime
 long
 long double
 long long
@@ -785,8 +789,10 @@ memcpy
 memmove
 memset
 mkdir
+mktime
 modf
 mold 2.36.0 (compatible with GNU ld)
+nanosleep
 new 
 new[]
 nfinity
@@ -853,6 +859,7 @@ strchr
 strcmp
 strdup
 strerror
+strftime
 strictRoot
 string literal
 strlen
@@ -875,6 +882,7 @@ terminate called without an active exception\n
 this
 throw
 throw 
+time
 tolower
 toupper
 transaction clone for 

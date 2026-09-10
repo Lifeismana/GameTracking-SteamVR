@@ -1,4 +1,4 @@
-var CLSTAMP = "10951329";
+var CLSTAMP = "10979762";
 (() => {
   var e,
     t = {
@@ -3578,26 +3578,6 @@ var CLSTAMP = "10951329";
                   () =>
                     this.frames_local.filter((e) => e.state == p.Iu.Destroyed),
                   this.OnLocalFramesDestroyed,
-                ),
-                (0, r.reaction)(
-                  () => y.isTheaterMode,
-                  (e) => {
-                    null === VRHTML ||
-                      void 0 === VRHTML ||
-                      VRHTML.VRCompositor.SetAnimatedValue(
-                        m.KIK.TheaterFast,
-                        e,
-                        0.25,
-                      ),
-                      null === VRHTML ||
-                        void 0 === VRHTML ||
-                        VRHTML.VRCompositor.SetAnimatedValue(
-                          m.KIK.TheaterSlow,
-                          e,
-                          e ? 2 : 1,
-                        );
-                  },
-                  { fireImmediately: !0 },
                 ),
                 (0, r.autorun)(this.SendUpdatesToSteam, { delay: 1e-4 });
             });
@@ -7953,7 +7933,7 @@ var CLSTAMP = "10951329";
                     l.OH$[(0, l.R$f)()],
                 );
               console.log("Bootstrapping " + e, o);
-              const a = 1e3 * (null !== (t = 1788038312) ? t : 0);
+              const a = 1e3 * (null !== (t = 1788979559) ? t : 0);
               console.log(
                 "SteamVR Version Info: " +
                   JSON.stringify({

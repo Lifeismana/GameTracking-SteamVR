@@ -71,6 +71,22 @@
                 ]
             },
             {
+                "name": "/settings/driver_vrlink/useSharpening",
+                "control": "toggle",
+                "label": "#{vrlink}Setting_Sharpening",
+                "on_subsection": [
+                    {
+                        "name": "/settings/driver_vrlink/sharpeningStrength",
+                        "control": "slider",
+                        "label": "#{vrlink}Setting_SharpeningStrength",
+                        "min": 0,
+                        "max": 1,
+                        "step": 0.05,
+                        "decimals": 2
+                    }
+                ]
+            },
+            {
                 "name": "/settings/driver_vrlink/useOSC",
                 "control": "toggle",
                 "label": "#{vrlink}Setting_useOSC",
@@ -148,7 +164,7 @@
                 "label": "#{vrlink}Setting_AllowMultipleLinks",
                 "advanced_only": true
             },
-	    {
+	        {
                 "name": "/settings/driver_vrlink/enableHmdAutoConnect",
                 "control": "toggle",
                 "label": "#{vrlink}Setting_EnableHmdAutoConnect",

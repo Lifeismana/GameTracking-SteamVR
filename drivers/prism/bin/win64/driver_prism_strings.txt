@@ -19,10 +19,21 @@
 %s: %s #%d already pending release
 %s: %s #%d already pending release (lock)
 %s: AcquireSync FAILED with DXGI_ERROR_INVALID_CALL
+%s: AcquireSync FAILED with DXGI_ERROR_INVALID_CALL [%u messages suppressed]
+%s: AcquireSync FAILED with DXGI_ERROR_INVALID_CALL [OMITTING additional logs for %d seconds]
 %s: AcquireSync FAILED with E_FAIL
+%s: AcquireSync FAILED with E_FAIL [%u messages suppressed]
+%s: AcquireSync FAILED with E_FAIL [OMITTING additional logs for %d seconds]
 %s: AcquireSync FAILED with WAIT_ABANDONED
+%s: AcquireSync FAILED with WAIT_ABANDONED [%u messages suppressed]
+%s: AcquireSync FAILED with WAIT_ABANDONED [OMITTING additional logs for %d seconds]
 %s: AcquireSync FAILED with WAIT_TIMEOUT
+%s: AcquireSync FAILED with WAIT_TIMEOUT [%u messages suppressed]
+%s: AcquireSync FAILED with WAIT_TIMEOUT [OMITTING additional logs for %d seconds]
 %s: AcquireSync FAILED with unknown hr
+%s: AcquireSync FAILED with unknown hr 0x%08x
+%s: AcquireSync FAILED with unknown hr 0x%08x [%u messages suppressed]
+%s: AcquireSync FAILED with unknown hr 0x%08x [OMITTING additional logs for %d seconds]
 %s: An error occurred while recording command buffer: %s
 %s: D3D11 feature level required for interop
 %s: Failed to allocate command buffer: %d
@@ -43,7 +54,12 @@
 %s: Interdependent timelines are not supported
 %s: Invalid interop API: %d
 %s: ReleaseSync FAILED with E_FAIL
+%s: ReleaseSync FAILED with E_FAIL [%u messages suppressed]
+%s: ReleaseSync FAILED with E_FAIL [OMITTING additional logs for %d seconds]
 %s: ReleaseSync FAILED with unknown hr
+%s: ReleaseSync FAILED with unknown hr 0x%08x
+%s: ReleaseSync FAILED with unknown hr 0x%08x [%u messages suppressed]
+%s: ReleaseSync FAILED with unknown hr 0x%08x [OMITTING additional logs for %d seconds]
 %s: allocator not initialized
 %s: at least one signal point is required
 %s: attempt to block on incomplete query set: %s
@@ -595,7 +611,7 @@ Projection
 QueryPerformanceCounter
 QueryPerformanceFrequency
 RPCRT4.dll
-RSDS'
+RSDS
 RaiseException
 ReadFile
 ReadFile failed on %s after event was signaled because %s\n
@@ -614,6 +630,7 @@ RtlVirtualUnwind
 S-1-15-2-2765576060-2389096713-3079022642-4099546867-1445191215-3071396046-3987166893
 S-1-15-3-1024-2302894289-466761758-1166120688-1039016420-2430351297-4240214049-4028510897-3317428798
 S-1-15-3-1024-3424233489-972189580-2057154623-747635277-1604371224-316187997-3786583170-1043257646
+STEAMVR_DISABLE_LOG_RATE_LIMITING
 SetEvent
 SetNamedPipeHandleState
 SetSecurityDescriptorDacl
@@ -794,8 +811,8 @@ c:\buildslave\steamvr_rel_win64\build\src\facet\src\vkcommand.cpp
 c:\buildslave\steamvr_rel_win64\build\src\facet\src\vkcommand.cpp:308
 c:\buildslave\steamvr_rel_win64\build\src\facet\src\vkdevice.cpp
 c:\buildslave\steamvr_rel_win64\build\src\facet\src\vkinterop_d3d11.cpp
-c:\buildslave\steamvr_rel_win64\build\src\facet\src\vkinterop_d3d11.cpp:282
-c:\buildslave\steamvr_rel_win64\build\src\facet\src\vkinterop_d3d11.cpp:334
+c:\buildslave\steamvr_rel_win64\build\src\facet\src\vkinterop_d3d11.cpp:283
+c:\buildslave\steamvr_rel_win64\build\src\facet\src\vkinterop_d3d11.cpp:340
 c:\buildslave\steamvr_rel_win64\build\src\facet\src\vkresource.cpp
 c:\buildslave\steamvr_rel_win64\build\src\facet\src\vksync.cpp
 c:\buildslave\steamvr_rel_win64\build\src\facet\src\vkutils.cpp

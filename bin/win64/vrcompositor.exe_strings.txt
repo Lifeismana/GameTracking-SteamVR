@@ -365,17 +365,17 @@ $\n k_EProtoServiceTypeSteamMessages
 .?AV<lambda_0bf5a7df96a4fb61efd027f9ca188239>@@
 .?AV<lambda_0e9c682e6668453b3ee5636a438a502c>@@
 .?AV<lambda_0edd1c727e57e3e264339f5f1157a7be>@@
-.?AV<lambda_12b31429e13a6d31e129d4ccdf270343>@@
+.?AV<lambda_0f38c1854a3e22ae4de5bda68d04b7cd>@@
 .?AV<lambda_1632588a5637fc88bae8c08feee1c11c>@@
 .?AV<lambda_25430a8ba8254b9e2f7e202d7ed3a736>@@
 .?AV<lambda_2b6946a8720252ff5d48d62f7b228872>@@
+.?AV<lambda_2bce1d05a33c7d1bc4dad80ee985224d>@@
 .?AV<lambda_2d123b72a81c3a08505f3763cbbd4b1f>@@
 .?AV<lambda_2d4b9bd805c205933c366a2a96e134e0>@@
 .?AV<lambda_30d0f29d2aa872ae28db230989e45d5d>@@
 .?AV<lambda_34f2e444be6b87859e7d70c75d276085>@@
 .?AV<lambda_34fefb42b515d6eacd9e2f709e8b040e>@@
 .?AV<lambda_365adaeade691c6cde68fb743fbb4d92>@@
-.?AV<lambda_377097fe43edfba295bbe1c98e1cec88>@@
 .?AV<lambda_389c8fe41f46b7f8c4c8989530d782e7>@@
 .?AV<lambda_4424f60dc6272e432e2332fad7aeb9c5>@@
 .?AV<lambda_4a9b2774a285f4dfe924e0309f606eba>@@
@@ -408,6 +408,7 @@ $\n k_EProtoServiceTypeSteamMessages
 .?AV<lambda_b6a49a309ad208974985388b8cfa7310>@@
 .?AV<lambda_b999e20ffa6154705556996545c644f8>@@
 .?AV<lambda_c64c1a9cc02f8aeec11a8ac013daf78e>@@
+.?AV<lambda_c6dc75a7e6506e106da2f449de6f0957>@@
 .?AV<lambda_c86511a2709f120373415027cb7bae9a>@@
 .?AV<lambda_d63a6a0b02fe18ae73a4fbbf54ba63e0>@@
 .?AV<lambda_dd161f87c3bd507aee296b7734833dcf>@@
@@ -445,17 +446,17 @@ $\n k_EProtoServiceTypeSteamMessages
 .?AV?$_Func_impl_no_alloc@V<lambda_0bf5a7df96a4fb61efd027f9ca188239>@@XAEBVValue@Json@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_0e9c682e6668453b3ee5636a438a502c>@@XAEBVValue@Json@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_0edd1c727e57e3e264339f5f1157a7be>@@XAEBVValue@Json@@@std@@
-.?AV?$_Func_impl_no_alloc@V<lambda_12b31429e13a6d31e129d4ccdf270343>@@X$$V@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_0f38c1854a3e22ae4de5bda68d04b7cd>@@X$$V@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_1632588a5637fc88bae8c08feee1c11c>@@XAEBVValue@Json@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_25430a8ba8254b9e2f7e202d7ed3a736>@@XAEBVValue@Json@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_2b6946a8720252ff5d48d62f7b228872>@@XAEBVValue@Json@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_2bce1d05a33c7d1bc4dad80ee985224d>@@XAEBVValue@Json@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_2d123b72a81c3a08505f3763cbbd4b1f>@@XAEBVValue@Json@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_2d4b9bd805c205933c366a2a96e134e0>@@XW4ELogLevel@@PEBDPEAX@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_30d0f29d2aa872ae28db230989e45d5d>@@PEAXPEBD@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_34f2e444be6b87859e7d70c75d276085>@@X$$V@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_34fefb42b515d6eacd9e2f709e8b040e>@@XAEBVValue@Json@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_365adaeade691c6cde68fb743fbb4d92>@@XAEBVValue@Json@@@std@@
-.?AV?$_Func_impl_no_alloc@V<lambda_377097fe43edfba295bbe1c98e1cec88>@@XAEBVValue@Json@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_389c8fe41f46b7f8c4c8989530d782e7>@@XAEBVValue@Json@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_4424f60dc6272e432e2332fad7aeb9c5>@@XAEBVValue@Json@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_4a9b2774a285f4dfe924e0309f606eba>@@_NW4EVREye@vr@@W4EVRDistortionChannel@3@_NIPEBUDistortionCoordinate_t@3@PEAU53@@std@@
@@ -488,6 +489,7 @@ $\n k_EProtoServiceTypeSteamMessages
 .?AV?$_Func_impl_no_alloc@V<lambda_b6a49a309ad208974985388b8cfa7310>@@XAEBVValue@Json@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_b999e20ffa6154705556996545c644f8>@@XAEBVValue@Json@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_c64c1a9cc02f8aeec11a8ac013daf78e>@@XAEBVValue@Json@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_c6dc75a7e6506e106da2f449de6f0957>@@X$$V@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_c86511a2709f120373415027cb7bae9a>@@_NAEAUVRFocusEntry_t@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_d63a6a0b02fe18ae73a4fbbf54ba63e0>@@XAEBVValue@Json@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_dd161f87c3bd507aee296b7734833dcf>@@XHHAEAUSDFBlock_t@CBlockedSDFGrid@vr@@@std@@
@@ -1225,12 +1227,13 @@ $\n k_EProtoServiceTypeSteamMessages
 0123456789ABCDEF
 0123456789ABCDEFundefined
 0123456789abcdef
+0V5@
 0x%02x 
 1.2.5
 1.5.26
 1/2/4/8/16-bit only
+11:45:22
 123456789
-14:18:00
 1A26b
 1e+9999
 1wsHp
@@ -1408,7 +1411,6 @@ Attempted to read payload of %d bytes from pipe but failed\n
 Audio Transform Quad Debug
 Audio devices initialized
 AudioDeviceChangeNotice (noting refresh): %d, device = %s\n
-Aug 29 2026
 Aurora Far Floor Geom
 Aurora Horizon Floor Geom
 Aurora Horizon Sky Geom
@@ -1426,6 +1428,7 @@ BackUp() can only be called after a successful Next().
 Backbuffer count = %d
 Backbuffer-Depth
 Backbuffer-DepthStencil
+Background Render Models (composite)
 Bad escape sequence in string
 Bad scene texture index data in CGraphicsDevice::WaitForPresent\n
 Bad shared resource parameter: invalid graphics device\n
@@ -3124,6 +3127,7 @@ PNG load error %s\n
 PNG load warning %s\n
 PNG\r\n
 POSITION
+PW5@
 Panel Mask
 Panel Masks
 PanelMaskConstantBuffer
@@ -3149,6 +3153,8 @@ PowerClearRequest
 PowerCreateRequest
 PowerSetRequest
 Powersave
+PreRenderColor
+PreRenderDepth
 Precise timer is disabled, compositor will use additional cpu resources!\n
 Preferred refresh rate for '%s' is %.2fHz
 Present offset = %f
@@ -3296,6 +3302,7 @@ Prop_Hmd_AppPreferencesSectionName_String
 Prop_Hmd_BlankOnFramerateChange_Bool
 Prop_Hmd_CameraSettingsModel_Int32
 Prop_Hmd_EnableParallelRenderCameras_Bool
+Prop_Hmd_MaxRefreshRateForAppRenderModels_Float
 Prop_Hmd_RecommendedResolutionIsPerApp_Bool
 Prop_Hmd_RecommendedResolutionPixelsSteps_Int32
 Prop_Hmd_SupportsAppThrottling_Bool
@@ -3426,6 +3433,12 @@ RegisterClassExW
 ReleaseLast
 ReleaseMessage
 ReleaseMutex
+ReleaseSync FAILED with E_FAIL
+ReleaseSync FAILED with E_FAIL [%u messages suppressed]
+ReleaseSync FAILED with E_FAIL [OMITTING additional logs for %d seconds]
+ReleaseSync FAILED with unknown hr 0x%08x
+ReleaseSync FAILED with unknown hr 0x%08x [%u messages suppressed]
+ReleaseSync FAILED with unknown hr 0x%08x [OMITTING additional logs for %d seconds]
 Releasing OS object failed: invalid parameter\n
 RemoveLast
 Render
@@ -3467,6 +3480,7 @@ SPEED
 STEAMVR_APPKEY
 STEAMVR_DISABLE_ASSERT_MINIDUMP
 STEAMVR_DISABLE_CRASH_REPORTING
+STEAMVR_DISABLE_LOG_RATE_LIMITING
 STEAMVR_DISABLE_THREAD_WATCHDOGS
 STEAMVR_ENABLE_THREAD_WATCHDOGS
 STEAMVR_GPUVIS_ON_ASSERT
@@ -3517,6 +3531,7 @@ Second argument to SwapFields() (of type "
 See 
 Selected: width=%d height=%d refresh=%d/%d\n
 SendHmdDebugRequest resp: %s\n
+Sep  9 2026
 Server
 ServiceDescriptorProto
 ServiceOptions
@@ -4573,6 +4588,30 @@ VerifyVersionInfoW
 Video Capture Quad Debug
 Video Capture View
 Video Feed
+VirtualDisplay AcquireSync FAILED with DXGI_ERROR_INVALID_CALL
+VirtualDisplay AcquireSync FAILED with DXGI_ERROR_INVALID_CALL [%u messages suppressed]
+VirtualDisplay AcquireSync FAILED with DXGI_ERROR_INVALID_CALL [OMITTING additional logs for %d seconds]
+VirtualDisplay AcquireSync FAILED with E_FAIL
+VirtualDisplay AcquireSync FAILED with E_FAIL [%u messages suppressed]
+VirtualDisplay AcquireSync FAILED with E_FAIL [OMITTING additional logs for %d seconds]
+VirtualDisplay AcquireSync FAILED with WAIT_ABANDONED
+VirtualDisplay AcquireSync FAILED with WAIT_ABANDONED [%u messages suppressed]
+VirtualDisplay AcquireSync FAILED with WAIT_ABANDONED [OMITTING additional logs for %d seconds]
+VirtualDisplay AcquireSync FAILED with WAIT_TIMEOUT
+VirtualDisplay AcquireSync FAILED with WAIT_TIMEOUT [%u messages suppressed]
+VirtualDisplay AcquireSync FAILED with WAIT_TIMEOUT [OMITTING additional logs for %d seconds]
+VirtualDisplay AcquireSync FAILED with unknown hr 0x%08x
+VirtualDisplay AcquireSync FAILED with unknown hr 0x%08x [%u messages suppressed]
+VirtualDisplay AcquireSync FAILED with unknown hr 0x%08x [OMITTING additional logs for %d seconds]
+VirtualDisplay CopyPixel AcquireSync FAILED with hr 0x%08x
+VirtualDisplay CopyPixel AcquireSync FAILED with hr 0x%08x [%u messages suppressed]
+VirtualDisplay CopyPixel AcquireSync FAILED with hr 0x%08x [OMITTING additional logs for %d seconds]
+VirtualDisplay ReleaseSync FAILED with hr 0x%08x
+VirtualDisplay ReleaseSync FAILED with hr 0x%08x [%u messages suppressed]
+VirtualDisplay ReleaseSync FAILED with hr 0x%08x [OMITTING additional logs for %d seconds]
+VirtualDisplay initial AcquireSync FAILED with hr 0x%08x
+VirtualDisplay initial AcquireSync FAILED with hr 0x%08x [%u messages suppressed]
+VirtualDisplay initial AcquireSync FAILED with hr 0x%08x [OMITTING additional logs for %d seconds]
 VirtualQuery
 VisitNodes
 WARNING
@@ -4605,6 +4644,9 @@ Wait for layer
 Wait for present time
 Wait for signal thread
 Wait query
+WaitForAcquire timed out (FAILED); rendering the next frame before the driver took the sync texture
+WaitForAcquire timed out (FAILED); rendering the next frame before the driver took the sync texture [%u messages suppressed]
+WaitForAcquire timed out (FAILED); rendering the next frame before the driver took the sync texture [OMITTING additional logs for %d seconds]
 WaitForConnection got an already-disconnected pipe on %s. Recreating listener\n
 WaitForDebugger
 WaitForMultipleObjects
@@ -4837,6 +4879,19 @@ Zjz\v
 [Compositor] !!!! AcquireSync FAILED with unknown hr
 [Compositor] !!!! ReleaseSync FAILED with E_FAIL
 [Compositor] !!!! ReleaseSync FAILED with unknown hr
+[Compositor] !!!! VirtualDisplay ReleaseSync FAILED
+[Compositor] AcquireSync FAILED with E_FAIL
+[Compositor] AcquireSync FAILED with E_FAIL [%u messages suppressed]
+[Compositor] AcquireSync FAILED with E_FAIL [OMITTING additional logs for %d seconds]
+[Compositor] AcquireSync FAILED with WAIT_ABANDONED
+[Compositor] AcquireSync FAILED with WAIT_ABANDONED [%u messages suppressed]
+[Compositor] AcquireSync FAILED with WAIT_ABANDONED [OMITTING additional logs for %d seconds]
+[Compositor] AcquireSync FAILED with WAIT_TIMEOUT
+[Compositor] AcquireSync FAILED with WAIT_TIMEOUT [%u messages suppressed]
+[Compositor] AcquireSync FAILED with WAIT_TIMEOUT [OMITTING additional logs for %d seconds]
+[Compositor] AcquireSync FAILED with unknown hr 0x%08x
+[Compositor] AcquireSync FAILED with unknown hr 0x%08x [%u messages suppressed]
+[Compositor] AcquireSync FAILED with unknown hr 0x%08x [OMITTING additional logs for %d seconds]
 [Compositor] Activating interleaved reprojection\n
 [Compositor] Adding %fms to compositor timing for virtual display driver slip
 [Compositor] Bad present: FramesSinceLastPresent=%d
@@ -4947,6 +5002,9 @@ Zjz\v
 [MotionVector] Invalid shared handle for MV texture resource
 [MotionVector] Invalid shared handle for downsampled texture for level %d
 [MotionVector] Invalid shared handle for pTextureL of resource %s
+[NewFrameHandler] AcquireSync FAILED with hr 0x%08x after %ums
+[NewFrameHandler] AcquireSync FAILED with hr 0x%08x after %ums [%u messages suppressed]
+[NewFrameHandler] AcquireSync FAILED with hr 0x%08x after %ums [OMITTING additional logs for %d seconds]
 [NewFrameHandler] AcquireSync FAILED!!!
 [NewFrameHandler] Failed to acquire lock on texture!
 [NvAPI WaitForPresent] NvAPI_DISP_DirectModeGetPresentWaitableObject returned %d
@@ -4993,6 +5051,7 @@ Zjz\v
 [NvEnc]Lock output(end)
 [NvEnc]MapResource(begin)
 [NvEnc]MapResource(end)
+[Pre]Render Models (Pass_Background)
 [RenderDoc] Connected\n
 [RenderThread] Layer render completing out of vsync
 [RenderThread] Skipped layer wait
@@ -5013,7 +5072,6 @@ Zjz\v
 [systemlayer] Creating chaperone bubble because room view was turned off and room view is currently forced by compositor.
 \%03o
 \U%08x
-\fp\v`\n0\tPr!!
 \gpuvis.exe
 \mfpmp.exe
 \n    Actual    : 
@@ -5065,8 +5123,7 @@ Zjz\v
 \r\n\tTYPE_BOOL
 \r\n\tTYPE_ENUM
 \rmj>zjZ
-\rp\f`\v0\nPr!!
-\rp\f`\vP\n0r!!
+\rp\f`\v0\nP0!!
 \t\t\n\n\v\v\f\f\f\f\r\r\r\r
 \t\t\t\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r
 \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t
@@ -5239,7 +5296,6 @@ atof
 atoi
 audio
 audiosource
-auroraCentered
 auroraColorBrightness
 auroraHeight
 auroraHueAnimSpeed
@@ -5370,31 +5426,31 @@ c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\Retail\win64\2017\vrcompo
 c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\framemanager.cpp
 c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\geometry.cpp
 c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:11701
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:11711
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:11859
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:12476
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:12501
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:12669
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:17946
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:19099
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:19735
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:20591
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:20880
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:4013
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:4025
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:4828
+c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:11876
+c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:11886
+c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:12034
+c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:12663
+c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:12688
+c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:12856
+c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:18147
+c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:19310
+c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:19949
+c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:20806
+c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:21099
+c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:4022
+c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:4034
+c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:4837
 c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:515
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:6675
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:6717
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:7134
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:8242
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:8454
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:8848
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:9822
+c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:6688
+c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:6730
+c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:7148
+c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:8395
+c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:8607
+c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:9001
+c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\graphicsdevice.cpp:9986
 c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\lasermouse.cpp
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\newframehandler.cpp:429
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\newframehandler.cpp:478
+c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\newframehandler.cpp:430
+c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\newframehandler.cpp:480
 c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\rendererutils.cpp
 c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\scenegraph.cpp
 c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\scenegraphrenderer.cpp
@@ -5405,20 +5461,20 @@ c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\simpledraw.cpp
 c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\standaloneoverlays.cpp
 c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\standaloneoverlays.cpp:37
 c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\systemlayer.cpp
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\systemlayer.cpp:1795
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\systemlayer.cpp:975
+c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\systemlayer.cpp:1798
+c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\systemlayer.cpp:979
 c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\trackeddevicerenderer.cpp:33
 c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\trackeddevicerenderer.cpp:334
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\vrcompositor.cpp:1073
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\vrcompositor.cpp:1323
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\vrcompositor.cpp:1333
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\vrcompositor.cpp:1436
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\vrcompositor.cpp:1705
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\vrcompositor.cpp:1994
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\vrcompositor.cpp:244
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\vrcompositor.cpp:455
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\vrcompositor.cpp:5761
-c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\vrcompositor.cpp:816
+c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\vrcompositor.cpp:1078
+c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\vrcompositor.cpp:1328
+c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\vrcompositor.cpp:1338
+c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\vrcompositor.cpp:1441
+c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\vrcompositor.cpp:1710
+c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\vrcompositor.cpp:2000
+c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\vrcompositor.cpp:245
+c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\vrcompositor.cpp:456
+c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\vrcompositor.cpp:5770
+c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\vrcompositor.cpp:817
 c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\vrmotionvectors.cpp
 c:\buildslave\steamvr_rel_win64\build\src\vrcompositor\vrmotionvectors.cpp:2052
 cached.last.poseIsValid
@@ -6183,6 +6239,7 @@ pSharedState != nullptr
 pSourceColorTexture
 pSourceTexture
 pSystemLayerState
+pT5@
 pTexture == nullptr || pTexture->unWidth == m_nAlignGridResolution
 pTexture == nullptr || pTexture->unWidth == m_nInputWidth
 pTexture == nullptr || pTexture->unWidth == nResolution
@@ -6258,7 +6315,6 @@ qMFCreateMediaType failed hr = 0x%08x\n
 qsort
 quad
 quick_reset_room_setup
-r\vPD
 radius-range
 rand
 rawCaptureNumberOfFrames
@@ -6349,6 +6405,7 @@ runas
 runtime
 russian
 sDebugName
+sL:2O
 safe_mode_driver_whitelist.json
 sampler
 sc_schinese

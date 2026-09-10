@@ -299,6 +299,7 @@ char
 char16_t
 char32_t
 char8_t
+clock_gettime
 cntrl
 complex 
 const_cast
@@ -345,7 +346,9 @@ ftello64
 fwrite
 generic
 getc
+getenv
 gettext
+gettimeofday
 getwc
 global constructors keyed to 
 global destructors keyed to 
@@ -366,7 +369,9 @@ ld-linux-x86-64.so.2
 libc.so.6
 libm.so.6
 libpthread.so.0
+librt.so.1
 locale::facet::_S_create_c_locale name not valid
+localtime
 long
 long double
 long long
@@ -381,9 +386,11 @@ memcmp
 memcpy
 memmove
 memset
+mktime
 modelNumber
 modf
 mold 2.36.0 (compatible with GNU ld)
+nanosleep
 new 
 new[]
 non-transaction clone for 
@@ -408,6 +415,7 @@ renderHeight
 renderWidth
 secondsFromVsyncToPhotons
 serialNumber
+setenv
 setlocale
 setvbuf
 short
@@ -444,6 +452,7 @@ strchr
 strcmp
 strdup
 strerror
+strftime
 string literal
 strlen
 strncasecmp
@@ -451,6 +460,7 @@ strncmp
 strncpy
 strpbrk
 strtod
+strtol
 strtold_l
 strtoul
 strtoull
@@ -463,6 +473,7 @@ terminate called without an active exception\n
 this
 throw
 throw 
+time
 tolower
 toupper
 transaction clone for 
@@ -485,6 +496,7 @@ typeinfo name for
 ungetc
 ungetwc
 uninitialized __any_string
+unsetenv
 unsigned
 unsigned __int128
 unsigned char

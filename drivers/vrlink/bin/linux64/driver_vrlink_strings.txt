@@ -188,9 +188,9 @@ $ORIGIN/../../../../bin/linux64
 /data/src/common/vrcore/src/vripcsharedstate.cpp
 /data/src/vrlink/common/SVLFEC.cpp:1095
 /data/src/vrlink/common/SVLFEC.cpp:762
-/data/src/vrlink/driver_vrlink/hmd.cpp:2572
-/data/src/vrlink/driver_vrlink/hmd.cpp:2921
-/data/src/vrlink/driver_vrlink/hmd.cpp:3033
+/data/src/vrlink/driver_vrlink/hmd.cpp:2592
+/data/src/vrlink/driver_vrlink/hmd.cpp:2941
+/data/src/vrlink/driver_vrlink/hmd.cpp:3053
 /data/src/vrlink/driver_vrlink/hmdvulkan.cpp
 /data/src/vrlink/driver_vrlink/steamvrlink.cpp
 /data/src/vrlink/driver_vrlink/videovulkan.cpp
@@ -2673,6 +2673,7 @@ setrlimit
 setsockopt
 setvbuf
 shareEyeTrackingData
+sharpeningStrength
 shm_open
 shm_open of %s, %X failed: %d
 shm_open without O_CREAT of %s, %X failed: %d
@@ -2814,6 +2815,7 @@ unsupported format
 upper
 useOSC
 useOSCFace
+useSharpening
 user_interaction_click_info
 usleep
 value

@@ -583,11 +583,11 @@ $\n k_EProtoServiceTypeSteamMessages
 .?AV<lambda_7207bd48646ee98f0ccd3edd2a23475f>@@
 .?AV<lambda_7279be59127ec4c7605f4ea650037eca>@@
 .?AV<lambda_7ae16b2637cba7bd77168fd784026ad4>@@
-.?AV<lambda_819d6e727c32014dc6eae969efe567db>@@
 .?AV<lambda_86ef558310816f2df58623fa9115c944>@@
 .?AV<lambda_97a9cdda7ab58672ccc551d0827e40cc>@@
 .?AV<lambda_97dc34652a95e80f3e06d51d5fa1110f>@@
 .?AV<lambda_a2b1270928719d40205e22d4bbf193cf>@@
+.?AV<lambda_ad65ac8970f4dd395d4f1e16325755ac>@@
 .?AV<lambda_b3cb281c1fd3441462ba2d86317f0012>@@
 .?AV<lambda_b4bb3ccaa58babf72cd0ad9aeee44f48>@@
 .?AV<lambda_bd0776a7d896d1a1e148df92584ea887>@@
@@ -728,11 +728,11 @@ $\n k_EProtoServiceTypeSteamMessages
 .?AV?$_Func_impl_no_alloc@V<lambda_7207bd48646ee98f0ccd3edd2a23475f>@@_NAEBUHmdVector3_t@vr@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_7279be59127ec4c7605f4ea650037eca>@@XAEBVCSteamVR_AudioSettings_RegisterForSettings_Request@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_7ae16b2637cba7bd77168fd784026ad4>@@UResult_t@?A0x94e1095d@@AEBU23@@std@@
-.?AV?$_Func_impl_no_alloc@V<lambda_819d6e727c32014dc6eae969efe567db>@@_NGGG@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_86ef558310816f2df58623fa9115c944>@@XV?$shared_ptr@VCVRClientContext@@@std@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_97a9cdda7ab58672ccc551d0827e40cc>@@VValue@Json@@PEBE@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_97dc34652a95e80f3e06d51d5fa1110f>@@XAEBVCSteamVR_VRGamepadUI_Message@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_a2b1270928719d40205e22d4bbf193cf>@@VValue@Json@@PEBE@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_ad65ac8970f4dd395d4f1e16325755ac>@@_NGGG@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_b3cb281c1fd3441462ba2d86317f0012>@@XAEBVValue@Json@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_b4bb3ccaa58babf72cd0ad9aeee44f48>@@_NAEBUHmdVector3_t@vr@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_bd0776a7d896d1a1e148df92584ea887>@@PEAXPEBD@std@@
@@ -1714,18 +1714,17 @@ $\n k_EProtoServiceTypeSteamMessages
 0-pixel image
 00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899
 00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899"
-000102030405060708091011121314151617181920212223242526272829303132333435363738394041424344454647484950515253545556575859606162636465666768697071727374757677787980818283848586878889909192939495969798990O<@
 0123456789ABCDEF
 0123456789abcdef
-0b6@
-0h3@
+0s6@
+0x3@
 1.2.5
 1/2/4/8/16-bit only
 11 4 22 44 44 22 444444
+11:45:22
 11eU%
 127.0.0.1
 127.0.0.1:
-14:18:00
 1A26b
 1\f514
 1e+9999
@@ -1745,9 +1744,7 @@ $\n k_EProtoServiceTypeSteamMessages
 7\n\tenum_type
 7^d[L
 7~8A
-8L3@
 8\n\textension
-8c6@
 8c8f13b1-60eb-4b6a-a433-de86104115ac
 8d8f13b1-60eb-4b6a-a433-de86104115ac
 8e8f13b1-60eb-4b6a-a433-de86104115ac
@@ -1771,7 +1768,6 @@ $\n k_EProtoServiceTypeSteamMessages
 <unknown>
 ===== %s: state=%d, %s empty, uri=%s\n
 ================================================================================================\n
-?8L3@
 ??0?$basic_ios@DU?$char_traits@D@std@@@std@@IEAA@XZ
 ??0?$basic_ios@_WU?$char_traits@_W@std@@@std@@IEAA@XZ
 ??0?$basic_iostream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@@Z
@@ -1856,7 +1852,7 @@ $\n k_EProtoServiceTypeSteamMessages
 ?_Xout_of_range@std@@YAXPEBD@Z
 ?_Xregex_error@std@@YAXW4error_type@regex_constants@1@@Z
 ?always_noconv@codecvt_base@std@@QEBA_NXZ
-?c:\buildslave\steamvr_rel_win64\build\src\vrserver\vrserver.cpp:5769
+?c:\buildslave\steamvr_rel_win64\build\src\vrserver\vrserver.cpp:5794
 ?clear@?$basic_ios@_WU?$char_traits@_W@std@@@std@@QEAAXH_N@Z
 ?ffffff
 ?flush@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@XZ
@@ -1913,7 +1909,6 @@ $\n k_EProtoServiceTypeSteamMessages
 ?xsgetn@?$basic_streambuf@_WU?$char_traits@_W@std@@@std@@MEAA_JPEA_W_J@Z
 ?xsputn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JPEBD_J@Z
 ?xsputn@?$basic_streambuf@_WU?$char_traits@_W@std@@@std@@MEAA_JPEB_W_J@Z
-@8L3@
 @fff>fff>fff>fff>
 A file with this name is already in the pool.
 A protocol message was rejected because it was too big (more than 
@@ -2007,7 +2002,6 @@ Attempted to change property type from %d to %d
 Attempted to read payload of %d bytes from pipe but failed\n
 Attempting to start home app %s (NoMoreSceneAppTransition)
 AudioDeviceChangeNotice (noting refresh): %d, device = %s\n
-Aug 29 2026
 Authorization
 Auto launch dashboard %s has not started after %u checks. Giving up waiting.\n
 Autobinding role for device path: %s
@@ -2142,7 +2136,7 @@ CRenderModelManager::GetRenderModelAbsolutePath
 CRenderModelManager::LoadRenderModelInternal
 CRenderModelManager::LoadRenderModel_Async
 CRenderModelManager::Tessellate
-CRenderModelManager::Tessellate::<lambda_20a8e0c0a31c68b97ad28c678f4b4c79>::operator ()
+CRenderModelManager::Tessellate::<lambda_7bb8ab980a0ec41ca07730e807959e9a>::operator ()
 CSettingsManager::GenerateChangeNotifications
 CSettingsManager::WriteToDiskIfNeeded
 CSharedResourceNamespaceClient::Init(): failed connect\n
@@ -2582,6 +2576,7 @@ Creating webui for %s=%s
 CurrentURL
 D3DKMTEnumAdapters2
 D3DKMTQueryAdapterInfo
+D57@
 D7q/;M
 DELEGATE 
 DISABLED
@@ -2654,6 +2649,7 @@ DriverManager::Cleanup
 DriverVersion
 Dropped duplicate HTTP '%s' header
 Dropping duplicate header [%.*s]
+Ds6@
 Duplicate action '
 Duplicate key: '
 Duplicate mailbox name %s. Make one of those unique.\n
@@ -2686,6 +2682,7 @@ EnumValueDescriptorProto
 EnumValueOptions
 Enums must contain at least one value.
 Error
+Error creating driver direct shared state
 Error loading remapping file.
 Error parsing text-format 
 Error while parsing option value for "
@@ -3039,10 +3036,8 @@ HTTP_REQUEST Static Content %s
 Hang the server for the specified number of seconds (default 3600)
 HasCamera
 HasField
-Hb6@
 HeadsetActiveTime
 Hex and octal numbers must be integers.
-Hh3@
 Hmd DriverId is invalid (125)
 Hmd DriverId is our of bounds (211)
 Hmd Not Found (108)
@@ -3052,6 +3047,7 @@ HomeAppEnabled
 HostController
 How did we get here with a non-position slot?
 HwSchMode
+Hx3@
 I'm a teapot
 IAudioCaptureClient::GetBuffer failed on pass %u: hr = 0x%08x\n
 IAudioCaptureClient::GetBuffer said to read 0 frames on pass %u\n
@@ -3351,7 +3347,7 @@ Kernel32.dll
 KeyboardVisibleTime
 Kill process %s because it didn't quit in time\n
 Kill process?
-L=8L3@
+L57@
 LABEL_OPTIONAL
 LABEL_REPEATED
 LABEL_REQUIRED
@@ -3642,7 +3638,6 @@ PCI\VEN_%x&DEV_%x&SUBSYS_%x&REV_%x
 PC_%08llx
 PICT
 PID_
-PL3@
 PLACEHOLDER_VALUE
 PNG\r\n
 POST
@@ -3865,6 +3860,7 @@ Prop_Hmd_AppPreferencesSectionName_String
 Prop_Hmd_BlankOnFramerateChange_Bool
 Prop_Hmd_CameraSettingsModel_Int32
 Prop_Hmd_EnableParallelRenderCameras_Bool
+Prop_Hmd_MaxRefreshRateForAppRenderModels_Float
 Prop_Hmd_RecommendedResolutionIsPerApp_Bool
 Prop_Hmd_RecommendedResolutionPixelsSteps_Int32
 Prop_Hmd_SupportsAppThrottling_Bool
@@ -3948,7 +3944,8 @@ Protocol Buffer reflection usage error:\n  Method      : google::protobuf::Refle
 Protocol message serialized itself in invalid fashion.
 Protocol message was modified concurrently during serialization.
 Proxy Authentication Required
-Py0@
+Ps6@
+Pt9@
 QkkXa
 Qkkbal
 Query failed
@@ -3971,7 +3968,9 @@ Quitting parent process %u because a quit was requested for its child %u.\n
 R1h58
 RGBG
 RPCRT4.dll
-RSDSoD
+RSDS
+R\npp
+R\vpp
 RaiseException
 Range
 Reached an unintended state: CPPTYPE_MESSAGE
@@ -4141,6 +4140,7 @@ See
 See Other
 Self queried namespace: %u\n
 Sending Quit event to process %s\n
+Sep  9 2026
 Server
 Server could not create read event %s\n
 Server somehow created read event before reader %s\n
@@ -4347,7 +4347,6 @@ Syntax error: value, object or array expected.
 System audio devices:\n
 SystemTimeToFileTime
 System\CurrentControlSet\Control\GraphicsDrivers
-Tb6@
 TdhEnumerateManifestProviderEvents
 Temporary Redirect
 TerminateProcess
@@ -5448,8 +5447,6 @@ WorkshopSelectConfig for BindingOutOfDate for %s(%s) when we don't have a bindin
 WriteFile
 Wrong Platform
 X-Frame-Options: sameorigin\r\nContent-Security-Policy: default-src 'self'
-XM3@
-XN3@
 XXXX PNG chunk not known
 XsBI
 YUY2
@@ -6258,7 +6255,7 @@ c:\buildslave\steamvr_rel_win64\build\src\vrserver\webinterface\web_server_threa
 c:\buildslave\steamvr_rel_win64\build\src\vrserver\webinterface\web_steam.cpp
 c:\buildslave\steamvr_rel_win64\build\src\vrserver\webinterface\web_steam.h
 c:\buildslave\steamvr_rel_win64\build\src\vrserver\webinterface\web_steam_audiosettings.cpp
-cA8L3@
+cA8\3@
 cache_path
 calloc
 camera
@@ -6650,6 +6647,7 @@ ftell
 fu`z
 full
 fwrite
+f{0j
 g_QuickLinks.ActivateKnockKnock()
 g_QuickLinks.ActivateRoomSetup()
 g_QuickLinks.ActivateTutorial()
@@ -6727,6 +6725,8 @@ hmd_settings_key
 holographic
 holographic_controller
 hpmotioncontroller
+hs6@
+ht9@
 html
 http:
 http://
@@ -6831,6 +6831,7 @@ invalid distance code
 invalid distance too far back
 invalid distances set
 invalid filter
+invalid hash bucket count
 invalid listening URL: %s
 invalid literal
 invalid literal/length code
@@ -7089,7 +7090,6 @@ latch
 launch_type
 layouts
 lazy
-lb6@
 ldexp
 ldiv
 leading_comments
@@ -7129,6 +7129,7 @@ mSx@
 m_bIsInitialized
 m_cameraPassthroughSharedState.BInit(...) failed. Returning VRInitError_IPC_SharedStateInitFailed\n
 m_compositorSharedState.BInit(...) failed. Returning VRInitError_IPC_SharedStateInitFailed\n
+m_driverDirectSharedState.IsValid()
 m_eventSharedState.BInit(...) failed. Returning VRInitError_IPC_SharedStateInitFailed\n
 m_nMaxLogBufferingSize > 0
 m_pData
@@ -7349,8 +7350,6 @@ overwrite.vrsettings
 owned
 pBegin == pEnd
 pEnd > pBegin
-pL3@
-pM3@
 pMGConnect != nullptr
 pNewResource
 pNewResource->Load( absFilePath )
@@ -7379,7 +7378,6 @@ path_handle
 path_handles
 paths
 payload
-pb6@
 pbrMetallicRoughness
 pending_file_saved
 perfcheck
@@ -7478,6 +7476,7 @@ quarter_thresholds
 query_results
 quit
 quitall
+r\npp
 rand
 rand_s
 range
@@ -7698,6 +7697,7 @@ spanish
 sparse
 spatialAnchorsSupport
 spatialize
+spatialize_surround
 spew_stats
 spot
 ssl:
@@ -7806,7 +7806,6 @@ table
 tags
 target
 targets
-tb6@
 tchinese
 tcps:
 tdh.dll
@@ -7880,6 +7879,7 @@ trigger_haptic
 trigger_path
 true
 true literal
+ts6@
 turkish
 turnOffControllersTimeout
 turnOffScreensTimeout
@@ -8054,6 +8054,7 @@ while parsing
 width
 win64
 winrtdisplay.dll
+wipGamepadInputWithVRLink
 wn>Jj
 woff
 working_directory
@@ -8073,9 +8074,9 @@ ws handshake error
 wsprintfW
 wss:
 x-steamvr-secret
+xC4@
 x_path
 xdigit
-xk5@
 xmag
 y9*O
 y_path

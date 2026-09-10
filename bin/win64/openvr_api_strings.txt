@@ -1087,6 +1087,7 @@ bad message
 broken pipe
 c:\buildslave\steamvr_rel_win64\build\src\openvr_api\Retailopenvr_api\win64\2017\openvr_api.pdb
 c?FA@s}
+cXt"
 ceil
 collectComments
 config

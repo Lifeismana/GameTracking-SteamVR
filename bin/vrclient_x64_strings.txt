@@ -103,10 +103,21 @@ $tI(knN
 %s: %s #%d already pending release
 %s: %s #%d already pending release (lock)
 %s: AcquireSync FAILED with DXGI_ERROR_INVALID_CALL
+%s: AcquireSync FAILED with DXGI_ERROR_INVALID_CALL [%u messages suppressed]
+%s: AcquireSync FAILED with DXGI_ERROR_INVALID_CALL [OMITTING additional logs for %d seconds]
 %s: AcquireSync FAILED with E_FAIL
+%s: AcquireSync FAILED with E_FAIL [%u messages suppressed]
+%s: AcquireSync FAILED with E_FAIL [OMITTING additional logs for %d seconds]
 %s: AcquireSync FAILED with WAIT_ABANDONED
+%s: AcquireSync FAILED with WAIT_ABANDONED [%u messages suppressed]
+%s: AcquireSync FAILED with WAIT_ABANDONED [OMITTING additional logs for %d seconds]
 %s: AcquireSync FAILED with WAIT_TIMEOUT
+%s: AcquireSync FAILED with WAIT_TIMEOUT [%u messages suppressed]
+%s: AcquireSync FAILED with WAIT_TIMEOUT [OMITTING additional logs for %d seconds]
 %s: AcquireSync FAILED with unknown hr
+%s: AcquireSync FAILED with unknown hr 0x%08x
+%s: AcquireSync FAILED with unknown hr 0x%08x [%u messages suppressed]
+%s: AcquireSync FAILED with unknown hr 0x%08x [OMITTING additional logs for %d seconds]
 %s: An error occurred while recording command buffer: %s
 %s: Application requested an incompatible vulkan major version
 %s: D3D11 feature level required for interop
@@ -134,7 +145,12 @@ $tI(knN
 %s: Invalid interop API: %d
 %s: Not all facet extensions were supported
 %s: ReleaseSync FAILED with E_FAIL
+%s: ReleaseSync FAILED with E_FAIL [%u messages suppressed]
+%s: ReleaseSync FAILED with E_FAIL [OMITTING additional logs for %d seconds]
 %s: ReleaseSync FAILED with unknown hr
+%s: ReleaseSync FAILED with unknown hr 0x%08x
+%s: ReleaseSync FAILED with unknown hr 0x%08x [%u messages suppressed]
+%s: ReleaseSync FAILED with unknown hr 0x%08x [OMITTING additional logs for %d seconds]
 %s: Required facet extensions were missing from device
 %s: Timed out waiting for gpu!
 %s: Unable to find provided instance that was created using xrCreateVulkanInstance
@@ -480,10 +496,10 @@ $tI(knN
 .?AV<lambda_7207bd48646ee98f0ccd3edd2a23475f>@@
 .?AV<lambda_79cc3d4038e33a7314ddfae30008a641>@@
 .?AV<lambda_7b0c6bf315357d0e20ca3c0b709e1137>@@
-.?AV<lambda_819d6e727c32014dc6eae969efe567db>@@
 .?AV<lambda_8962991448d06d1e6826effaa3e282d2>@@
 .?AV<lambda_8dbfae96c65b0de9f81017ab99416c2f>@@
 .?AV<lambda_9719fca677a58d282439f7f8b139a74f>@@
+.?AV<lambda_ad65ac8970f4dd395d4f1e16325755ac>@@
 .?AV<lambda_b4bb3ccaa58babf72cd0ad9aeee44f48>@@
 .?AV<lambda_baf9a13ae88e0e395bddf77b7a139e01>@@
 .?AV<lambda_c72308ce6664706c80316d4c9bd9560a>@@
@@ -773,10 +789,10 @@ $tI(knN
 .?AV?$_Func_impl_no_alloc@V<lambda_7207bd48646ee98f0ccd3edd2a23475f>@@_NAEBUHmdVector3_t@vr@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_79cc3d4038e33a7314ddfae30008a641>@@W4XrResult@@AEAV?$vector@UXrView@@V?$allocator@UXrView@@@std@@@std@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_7b0c6bf315357d0e20ca3c0b709e1137>@@PEAXPEBD@std@@
-.?AV?$_Func_impl_no_alloc@V<lambda_819d6e727c32014dc6eae969efe567db>@@_NGGG@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_8962991448d06d1e6826effaa3e282d2>@@W4XrResult@@PEAUXrAction_T@@_KPEAUXrActionStateBoolean@@PEA_K@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_8dbfae96c65b0de9f81017ab99416c2f>@@_NW4ETrackedDeviceClass@vr@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_9719fca677a58d282439f7f8b139a74f>@@_NPEBUXrBindingModificationsKHR@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_ad65ac8970f4dd395d4f1e16325755ac>@@_NGGG@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_b4bb3ccaa58babf72cd0ad9aeee44f48>@@_NAEBUHmdVector3_t@vr@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_baf9a13ae88e0e395bddf77b7a139e01>@@_NPEBUXrActiveActionSetPrioritiesEXT@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_c72308ce6664706c80316d4c9bd9560a>@@PEAXPEBD@std@@
@@ -1996,9 +2012,8 @@ $tI(knN
 0 width
 0-pixel image
 00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899
-00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899h
+00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899H;B
 0123456789ABCDEF
-0@v5
 0\tFAJ
 1.0.3.16
 1/2/4/8/16-bit only
@@ -2282,7 +2297,7 @@ CRenderModelManager::GetRenderModelAbsolutePath
 CRenderModelManager::LoadRenderModelInternal
 CRenderModelManager::LoadRenderModel_Async
 CRenderModelManager::Tessellate
-CRenderModelManager::Tessellate::<lambda_20a8e0c0a31c68b97ad28c678f4b4c79>::operator ()
+CRenderModelManager::Tessellate::<lambda_7bb8ab980a0ec41ca07730e807959e9a>::operator ()
 CS_MAIN
 CSharedResourceNamespaceClient::Init(): failed connect\n
 CSharedResourceNamespaceClient::Init(): failed to get server response\n
@@ -3836,7 +3851,6 @@ OrthographicCamera
 Out of thread local storage!\n
 OutputDebugStringA
 OutputDebugStringW
-P@v5
 PATH_TO_LOCAL_STRING failed with %s
 PC_%08llx
 PICT
@@ -3855,6 +3869,7 @@ PS_SAMPLESCENE0
 PS_SAMPLESCENEDEPTH
 PS_STENCIL
 PS_main
+P\r0t
 Parse error in system resource manifest %s.\n
 Parse failed for JSON message in mailbox %s: %s\n
 Parsing of JSON file "%s" failed: %s\n
@@ -4011,6 +4026,7 @@ Prop_Hmd_AppPreferencesSectionName_String
 Prop_Hmd_BlankOnFramerateChange_Bool
 Prop_Hmd_CameraSettingsModel_Int32
 Prop_Hmd_EnableParallelRenderCameras_Bool
+Prop_Hmd_MaxRefreshRateForAppRenderModels_Float
 Prop_Hmd_RecommendedResolutionIsPerApp_Bool
 Prop_Hmd_RecommendedResolutionPixelsSteps_Int32
 Prop_Hmd_SupportsAppThrottling_Bool
@@ -4104,7 +4120,7 @@ QuickCalibratePlayspace couldn't get a pose from the HMD\n
 RADV
 RGBG
 RPCRT4.dll
-RSDS1<
+RSDS
 RadialMenu missing X axis input.\n
 RadialMenu missing Y axis input.\n
 RadialMenu setting 'num_buttons' not specified.\n
@@ -4202,6 +4218,7 @@ SHGetFolderPathW
 STEAMVR_APPKEY
 STEAMVR_DISABLE_ASSERT_MINIDUMP
 STEAMVR_DISABLE_CRASH_REPORTING
+STEAMVR_DISABLE_LOG_RATE_LIMITING
 STEAMVR_DISABLE_THREAD_WATCHDOGS
 STEAMVR_ENABLE_THREAD_WATCHDOGS
 STEAMVR_GPUVIS_ON_ASSERT
@@ -6244,6 +6261,18 @@ ZvFailed to create fence %ls.\n
 [Compositor Client] !!!! AcquireSync FAILED with unknown hr
 [Compositor Client] !!!! ReleaseSync FAILED with E_FAIL
 [Compositor Client] !!!! ReleaseSync FAILED with unknown hr
+[Compositor Client] AcquireSync FAILED with E_FAIL
+[Compositor Client] AcquireSync FAILED with E_FAIL [%u messages suppressed]
+[Compositor Client] AcquireSync FAILED with E_FAIL [OMITTING additional logs for %d seconds]
+[Compositor Client] AcquireSync FAILED with WAIT_ABANDONED
+[Compositor Client] AcquireSync FAILED with WAIT_ABANDONED [%u messages suppressed]
+[Compositor Client] AcquireSync FAILED with WAIT_ABANDONED [OMITTING additional logs for %d seconds]
+[Compositor Client] AcquireSync FAILED with WAIT_TIMEOUT
+[Compositor Client] AcquireSync FAILED with WAIT_TIMEOUT [%u messages suppressed]
+[Compositor Client] AcquireSync FAILED with WAIT_TIMEOUT [OMITTING additional logs for %d seconds]
+[Compositor Client] AcquireSync FAILED with unknown hr 0x%08x
+[Compositor Client] AcquireSync FAILED with unknown hr 0x%08x [%u messages suppressed]
+[Compositor Client] AcquireSync FAILED with unknown hr 0x%08x [OMITTING additional logs for %d seconds]
 [Compositor Client] Begin ReleaseSync
 [Compositor Client] End AcquireSync
 [Compositor Client] End ReleaseSync
@@ -6255,6 +6284,12 @@ ZvFailed to create fence %ls.\n
 [Compositor Client] Flush (GL) - End
 [Compositor Client] Large mismatch between render (%d) and simulation (%d) poses!\n
 [Compositor Client] Received Idx=%d Id=%d
+[Compositor Client] ReleaseSync FAILED with E_FAIL
+[Compositor Client] ReleaseSync FAILED with E_FAIL [%u messages suppressed]
+[Compositor Client] ReleaseSync FAILED with E_FAIL [OMITTING additional logs for %d seconds]
+[Compositor Client] ReleaseSync FAILED with unknown hr 0x%08x
+[Compositor Client] ReleaseSync FAILED with unknown hr 0x%08x [%u messages suppressed]
+[Compositor Client] ReleaseSync FAILED with unknown hr 0x%08x [OMITTING additional logs for %d seconds]
 [Compositor Client] Repredicting render poses (%d) to match simulation (%d)\n
 [Compositor Client] SceneTextureIndex=%d Id=%d Target=%d Predicted=%d Flags=(%d|%d)
 [Compositor Client] Submit (suspended)
@@ -6865,8 +6900,8 @@ c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrmailbox.cpp
 c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrrenderer\d3d11renderer.cpp
 c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrrenderer\ivrrenderer.h
 c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrrenderer\vulkanrenderer.cpp
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrrenderer\vulkanrenderer.cpp:4335
-c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrrenderer\vulkanrenderer.cpp:4419
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrrenderer\vulkanrenderer.cpp:4336
+c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrrenderer\vulkanrenderer.cpp:4420
 c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrsystem.cpp
 c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrsystemlayersharedstate.cpp
 c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vulkan.cpp
@@ -6906,8 +6941,8 @@ c:\buildslave\steamvr_rel_win64\build\src\facet\src\vkcommand.cpp
 c:\buildslave\steamvr_rel_win64\build\src\facet\src\vkcommand.cpp:308
 c:\buildslave\steamvr_rel_win64\build\src\facet\src\vkdevice.cpp
 c:\buildslave\steamvr_rel_win64\build\src\facet\src\vkinterop_d3d11.cpp
-c:\buildslave\steamvr_rel_win64\build\src\facet\src\vkinterop_d3d11.cpp:282
-c:\buildslave\steamvr_rel_win64\build\src\facet\src\vkinterop_d3d11.cpp:334
+c:\buildslave\steamvr_rel_win64\build\src\facet\src\vkinterop_d3d11.cpp:283
+c:\buildslave\steamvr_rel_win64\build\src\facet\src\vkinterop_d3d11.cpp:340
 c:\buildslave\steamvr_rel_win64\build\src\facet\src\vkresource.cpp
 c:\buildslave\steamvr_rel_win64\build\src\facet\src\vksync.cpp
 c:\buildslave\steamvr_rel_win64\build\src\facet\src\vkutils.cpp
@@ -7050,8 +7085,8 @@ c:\buildslave\steamvr_rel_win64\build\src\vrclient\vrcompositorclient.cpp:1790
 c:\buildslave\steamvr_rel_win64\build\src\vrclient\vrcompositorclient.cpp:2601
 c:\buildslave\steamvr_rel_win64\build\src\vrclient\vrcompositorclient.cpp:464
 c:\buildslave\steamvr_rel_win64\build\src\vrclient\vrcompositorsharedtextures.cpp
-c:\buildslave\steamvr_rel_win64\build\src\vrclient\vrcompositorsharedtextures.cpp:2963
-c:\buildslave\steamvr_rel_win64\build\src\vrclient\vrcompositorsharedtextures.cpp:4295
+c:\buildslave\steamvr_rel_win64\build\src\vrclient\vrcompositorsharedtextures.cpp:2969
+c:\buildslave\steamvr_rel_win64\build\src\vrclient\vrcompositorsharedtextures.cpp:4301
 c:\buildslave\steamvr_rel_win64\build\src\vrclient\vrdebug.cpp:49
 c:\buildslave\steamvr_rel_win64\build\src\vrclient\vrdebug.cpp:60
 c:\buildslave\steamvr_rel_win64\build\src\vrclient\vrinput.cpp:1606
@@ -7564,6 +7599,7 @@ invalid comment; expecting '/' or '*' after '/'
 invalid comment; missing closing '*/'
 invalid decoded scanline length
 invalid filter
+invalid hash bucket count
 invalid literal
 invalid map<K, T> key
 invalid number; expected '+', '-', or digit after exponent
@@ -7922,7 +7958,6 @@ overlay_input_focused_changed
 overlay_key
 override_device_class
 overwrite.vrsettings
-p@v5
 pBuffer != nullptr
 pClient
 pCmdBuf

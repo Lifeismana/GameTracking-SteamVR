@@ -406,6 +406,7 @@ $3br
 .placeholder.proto
 .tmp
 .vrstats
+/F004W
 /\n\vbase_config
 /data/src/aitcamlib/aitcamera.cpp
 /data/src/aitcamlib/cbasecamera.cpp
