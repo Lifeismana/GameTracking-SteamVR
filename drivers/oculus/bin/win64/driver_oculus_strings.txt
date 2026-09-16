@@ -31,6 +31,13 @@ $3br
 %a %b %d %H:%M:%S %Y
 %a %b %d %Y %H:%M:%S.%%03u
 %llu
+%s: DXGI format %d has no single packed layout\n
+%s: failed to create a %ux%u staging texture\n
+%s: failed to create a resolve target\n
+%s: failed to map the staging texture\n
+%s: texture has no mip %u layer %u (%u mip(s), %u layer(s))\n
+%s: texture is a combined depth/stencil image, which cannot be read back\n
+%s: texture is multisampled and has no typed format to resolve to\n
 %s[%s] %s file=%s
 &'()*56789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
 ' is not a number.
@@ -303,6 +310,7 @@ $3br
 0 width
 0-pixel image
 00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899
+000102030405060708091011121314151617181920212223242526272829303132333435363738394041424344454647484950515253545556575859606162636465666768697071727374757677787980818283848586878889909192939495969798990W\f
 1/2/4/8/16-bit only
 11 4 22 44 44 22 444444
 11eU%
@@ -434,6 +442,7 @@ CD3D11VRRenderer::Initialize(): Failed to create vertex shader %s!\n
 CD3D11VRRenderer::Initialize(): Failed to load compute shader %s! (size=%d)\n
 CD3D11VRRenderer::Initialize(): Failed to load pixel shader %s! (size=%d)\n
 CD3D11VRRenderer::Initialize(): Failed to load vertex shader %s! (size=%d)\n
+CD3D11VRRenderer::ReadbackTexture
 CD3D11VRRenderer::Signal
 CD3D11VRRenderer::UnampTexture: dangling data pointer\n
 CKeyframedDataResource
@@ -711,7 +720,7 @@ Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
 RPCRT4.dll
-RSDS
+RSDSESl@
 RaiseException
 ResetEvent
 RootNode
@@ -1258,6 +1267,7 @@ modf
 multiple IHDR
 nIndex=%lli
 name
+nativeTexture
 nb_no
 nl_nl
 no IDAT
@@ -1421,6 +1431,7 @@ ovr_WaitToBeginFrame(%d) failed: %s\n
 pIndexBuffer
 pNewResource
 pNewResource->Load( absFilePath )
+pTexture
 pUpdateData
 pVertexBuffer
 parameter must be a string or number / number array.\n
@@ -1570,6 +1581,8 @@ shaders/d3d11/distort_ps_scene.fxo
 shaders/d3d11/distort_ps_scene0.fxo
 shaders/d3d11/distort_ps_scene_blur.fxo
 shaders/d3d11/distort_ps_scene_depth.fxo
+shaders/d3d11/distort_ps_scene_depth_stencil.fxo
+shaders/d3d11/distort_ps_scene_stencil_mask.fxo
 shaders/d3d11/distort_vs.fxo
 shaders/d3d11/distort_vs_latest_nd.fxo
 shaders/d3d11/distort_vs_layered.fxo
@@ -1590,6 +1603,7 @@ shaders/d3d11/downsample_srgb_ps.fxo
 shaders/d3d11/downsample_vs.fxo
 shaders/d3d11/frame_hallucination_depth_vs.fxo
 shaders/d3d11/frame_hallucination_downsample_depth_ps.fxo
+shaders/d3d11/frame_hallucination_downsample_depth_stencil_ps.fxo
 shaders/d3d11/frame_hallucination_downsample_depth_vs.fxo
 shaders/d3d11/frame_hallucination_float_depth_vs.fxo
 shaders/d3d11/frame_hallucination_float_vs.fxo

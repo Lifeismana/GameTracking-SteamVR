@@ -114,7 +114,6 @@
 .xdata
 .xdata$x
 3dj6
-4zX(L`@
 76F\
 8c8f13b1-60eb-4b6a-a433-de86104115ac
 8d8f13b1-60eb-4b6a-a433-de86104115ac
@@ -310,6 +309,7 @@ c:\buildslave\steamvr_rel_win64\build\src\prism\plugins\prism_windowsdisplaycore
 d3d11.dll
 dxgi.dll
 free
+lC=L
 lhs->m_pTimeline == rhs->m_pTimeline
 m_nMapCount == 0
 malloc

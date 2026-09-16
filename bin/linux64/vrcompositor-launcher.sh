@@ -33,6 +33,15 @@ elif [ -n "${STEAM_RUNTIME-}" ]; then
 	# continue
 elif [[ "${ARCH}" == x86_64* ]]; then
 	log "Relaunch under scout LDLP runtime."
+	# Prefer the LegacySteamRuntime compat tool (the supported modern path for
+	# scout LDLP) if it is installed, and fall back to the legacy location
+	# under ~/.steam/root otherwise.
+	LEGACY_RUNTIME="${STEAM_BASE_FOLDER}/steamapps/common/LegacySteamRuntime/legacy-steam-runtime"
+	if [ -x "${LEGACY_RUNTIME}" ]; then
+		log exec "${LEGACY_RUNTIME}" "$0" "$@"
+		exec "${LEGACY_RUNTIME}" "$0" "$@"
+	fi
+	log "LegacySteamRuntime compat tool not found at ${LEGACY_RUNTIME}, falling back to legacy scout path. This may fail under newer Steam client configurations."
 	log exec "$HOME/.steam/root/ubuntu12_32/steam-runtime/run.sh" "$0" "$@"
 	exec "$HOME/.steam/root/ubuntu12_32/steam-runtime/run.sh" "$0" "$@"
 	# unreachable

@@ -1854,6 +1854,7 @@ strstr
 strtod
 strtol
 strtold_l
+strtoll
 strtoul
 strtoull
 subgraphStack.empty()

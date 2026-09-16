@@ -160,7 +160,7 @@ PRISM_Stop
 QueryPerformanceCounter
 QueryPerformanceFrequency
 RPCRT4.dll
-RSDS
+RSDSuL
 RaiseException
 ResetEvent
 RtlCaptureContext

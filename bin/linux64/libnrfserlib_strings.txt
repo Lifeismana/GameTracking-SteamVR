@@ -1165,6 +1165,7 @@ strtod
 strtof
 strtol
 strtold_l
+strtoll
 strtoul
 strtoull
 syscall

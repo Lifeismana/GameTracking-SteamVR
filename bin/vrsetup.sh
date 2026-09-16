@@ -13,6 +13,7 @@ log () {
 }
 
 VRBINDIR="$(cd "$(dirname "$0")" && echo "${PWD}")"
+STEAM_BASE_FOLDER="${STEAM_BASE_FOLDER:-$(realpath ~/.steam/steam)}"
 if [ -z "${STEAMVR_VRENV-}" ]; then
 	log exec "$VRBINDIR/vrenv.sh" "$0" "$@"
 	exec "$VRBINDIR/vrenv.sh" "$0" "$@"
@@ -38,6 +39,12 @@ function SteamVRLauncherSetup()
 	# We still require the scout LDLP environment however, so consider one more relaunch
 	if [ -z "${STEAM_RUNTIME-}" ]; then
 		log "Relaunching under scout LDLP runtime."
+		LEGACY_RUNTIME="${STEAM_BASE_FOLDER}/steamapps/common/LegacySteamRuntime/legacy-steam-runtime"
+		if [ -x "${LEGACY_RUNTIME}" ]; then
+			log exec "${LEGACY_RUNTIME}" "$0" "$@"
+			exec "${LEGACY_RUNTIME}" "$0" "$@"
+		fi
+		log "LegacySteamRuntime compat tool not found at ${LEGACY_RUNTIME}, falling back to legacy scout path. This may fail under newer Steam client configurations."
 		log exec "$HOME/.steam/bin/steam-runtime/run.sh" "$0" "$@"
 		exec "$HOME/.steam/bin/steam-runtime/run.sh" "$0" "$@"
 	fi

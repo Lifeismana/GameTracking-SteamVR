@@ -20,7 +20,7 @@
         "forceOpenMode" : false,
         "watchForShaderChanges" : false,
         "enableEncryption": false,
-        "useSharpening": true,
+        "useSharpening": false,
         "sharpeningStrength": 0.2,
         "automaticStreamFormatWidth": true,
         "streamFormatWidth": 1024,

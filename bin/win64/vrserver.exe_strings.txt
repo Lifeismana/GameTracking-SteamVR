@@ -1721,7 +1721,7 @@ $\n k_EProtoServiceTypeSteamMessages
 1.2.5
 1/2/4/8/16-bit only
 11 4 22 44 44 22 444444
-11:45:22
+11:37:58
 11eU%
 127.0.0.1
 127.0.0.1:
@@ -1852,7 +1852,7 @@ $\n k_EProtoServiceTypeSteamMessages
 ?_Xout_of_range@std@@YAXPEBD@Z
 ?_Xregex_error@std@@YAXW4error_type@regex_constants@1@@Z
 ?always_noconv@codecvt_base@std@@QEBA_NXZ
-?c:\buildslave\steamvr_rel_win64\build\src\vrserver\vrserver.cpp:5794
+?c:\buildslave\steamvr_rel_win64\build\src\vrserver\vrserver.cpp:5800
 ?clear@?$basic_ios@_WU?$char_traits@_W@std@@@std@@QEAAXH_N@Z
 ?ffffff
 ?flush@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@XZ
@@ -3969,8 +3969,6 @@ R1h58
 RGBG
 RPCRT4.dll
 RSDS
-R\npp
-R\vpp
 RaiseException
 Range
 Reached an unintended state: CPPTYPE_MESSAGE
@@ -4140,7 +4138,7 @@ See
 See Other
 Self queried namespace: %u\n
 Sending Quit event to process %s\n
-Sep  9 2026
+Sep 15 2026
 Server
 Server could not create read event %s\n
 Server somehow created read event before reader %s\n
@@ -6647,7 +6645,6 @@ ftell
 fu`z
 full
 fwrite
-f{0j
 g_QuickLinks.ActivateKnockKnock()
 g_QuickLinks.ActivateRoomSetup()
 g_QuickLinks.ActivateTutorial()
@@ -7476,7 +7473,6 @@ quarter_thresholds
 query_results
 quit
 quitall
-r\npp
 rand
 rand_s
 range

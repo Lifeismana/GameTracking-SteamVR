@@ -1235,7 +1235,7 @@ QUADRATIC
 QueryPerformanceCounter
 RAW_LOG ERROR: The Message was too long!\n
 RE-SOLVING DUE TO OUTLIER REMOVAL\n
-RSDS
+RSDS"
 R\v0x
 R\vpx
 Rank of subspace basis is 0. 

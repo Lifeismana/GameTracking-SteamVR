@@ -703,7 +703,7 @@ $\t?contains@QRectF@@QEBA_NAEBVQPointF@@@Z
 1!?widget@QTabWidget@@QEBAPEAVQWidget@@H@Z
 100%
 1000
-11:45:22
+11:37:58
 1DoAcquireData()
 1DoInit()
 1DoParseString( const QString & )
@@ -5699,7 +5699,7 @@ R?scaledSize@QMovie@@QEAA?AVQSize@@XZ
 R?screens@QGuiApplication@@SA?AV?$QList@PEAVQScreen@@@@XZ
 REFRESH
 RPCRT4.dll
-RSDSN
+RSDS
 RSSI: %1\n
 R\v?find@QPlainTextEdit@@QEAA_NAEBVQString@@V?$QFlags@W4FindFlag@QTextDocument@@@@@Z
 R\vpD
@@ -5978,7 +5978,7 @@ See
 Select System Report
 SelectablePart
 SelectableParts
-Sep  9 2026
+Sep 15 2026
 Serial: %1\n
 SetCurrentProcessExplicitAppUserModelID
 SetEnvironmentVariableA
@@ -8062,7 +8062,6 @@ japanese
 jsonData
 jsonid
 k ?updateGeometries@QListView@@MEAAXXZ
-k+UL
 k\f?drawEllipse@QPainter@@QEAAXAEBVQRectF@@@Z
 keyAxis
 keyAxis and valueAxis must be orthogonal to each other.

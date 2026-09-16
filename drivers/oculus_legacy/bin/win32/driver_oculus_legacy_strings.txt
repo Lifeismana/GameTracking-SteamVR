@@ -140,7 +140,7 @@ Oculus
 Out of thread local storage!\n
 QueryPerformanceCounter
 RPCRT4.dll
-RSDSi?
+RSDS
 RaiseException
 ResetEvent
 SDL2.dll

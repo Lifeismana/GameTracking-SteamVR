@@ -647,7 +647,7 @@
 /vrgamepadui/steamvr/vrlink_lasermousestate_tx
 /vrlink/steamvr/remoteClientRefreshRate
 /vrlink_client_isSteamVR
-11:45:22
+11:37:58
 126.0.0-HEAD.3163+g5c4eb82+chromium-126.0.6478.183
 127.0.0.1
 1e+9999
@@ -1403,7 +1403,7 @@ QueryPerformanceFrequency
 QuitSceneApp
 QuitSteamVR
 RPCRT4.dll
-RSDSb
+RSDS
 RaiseException
 ReadFile
 ReadFile failed on %s after event was signaled because %s\n
@@ -1523,7 +1523,7 @@ Searching for LUID:
 Second argument must be a TransformTRS
 Second argument must be a string
 See 
-Sep  9 2026
+Sep 15 2026
 SetCurrentProcessExplicitAppUserModelID
 SetEnvironmentVariableA
 SetEvent

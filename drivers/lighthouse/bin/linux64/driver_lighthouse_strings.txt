@@ -1989,6 +1989,7 @@ Start test failed\n
 StartVideoStream\n
 Started pairing dongle serial=%s timeout=%f\n
 Starting test\n
+Steam Frame
 Still waiting for Direct Mode Display...\n
 StopVideoStream\n
 Stopped tracking with universe %llu\n
@@ -2423,10 +2424,13 @@ Value out of range for int64 option "
 Value out of range for uint32 option "
 Valve
 Valve Corporation
+Valve Index HMD
 Valve SR
 Valve SR Blinker
 Valve SR EV2
 Valve SR Imp
+Valve Unidentified
+Valve VMinus1
 Valve VR Radio & HMD Mic
 VerifyUSBUserDataInDirectory: %s data stream failed crc validation. Expected crc=%08X, found crc=%08X (%d bytes)\n
 VerifyUSBUserDataInDirectory: %s data stream failed size validation. Expected %d bytes, copied %d from device\n
@@ -2458,7 +2462,6 @@ Vive. EVT
 Vive. MV
 Vive_Pro
 Vive_Pro DVT
-Vq`c-
 VrController
 Vulkan Direk'
 WARNING
@@ -2667,6 +2670,7 @@ __xstat
 __xstat64
 _exit
 _parsefailed.json
+`TMk
 `accessors' does not contain an JSON object.
 `animations' does not contain an JSON object.
 `bufferViews' does not contain an JSON object.
@@ -3131,6 +3135,7 @@ fork
 fprintf
 fputc
 fputs
+frame_hmd
 framer
 fread
 free
@@ -3377,6 +3382,7 @@ known_objects
 known_universes
 knuckles
 knuckles_ev1
+l21[&
 l?Nb0?
 lEyeFile:%s width:%d height:%d components:%d\n
 label
@@ -4144,6 +4150,7 @@ znear
 {"driver":"etronlib", "usbVID":1234, "usbPID":1234, "streams": [ "2,1,'YUYV',16", "4,1,'MJPG',32" ] }
 {\n   "tracked_cameras" : [\n      {\n         "name" : "left",\n         "intrinsics" : {\n            "center_x" : 480,\n            "center_y" : 480,\n            "distort" : {\n               "coeffs" : [ 0.19177723522150192, 0.032730482055951374, -0.20839806147916953, 0.08274204359123152 ],\n               "type" : "DISTORT_EXTENDED_FTHETA"\n            },\n            "focal_x" : 417,\n            "focal_y" : 417,\n            "height" : 960,\n            "width" : 960\n         },\n         "extrinsics" : {\n            "plus_x" : [ -0.9961946980917455, 0, 0.08715574274765797 ],\n            "plus_z" : [ -0.08715574274765797, 0.0, -0.9961946980917455 ],\n            "position" : [ 0.06749, -0.03294, 0.06881 ]\n         }\n      },\n      {\n         "name" : "right",\n         "intrinsics" : {\n            "center_x" : 480,\n            "center_y" : 480,\n            "distort" : {\n               "coeffs" : [ 0.19177723522150192, 0.032730482055951374, -0.20839806147916953, 0.08274204359123152 ],\n               "type" : "DISTORT_EXTENDED_FTHETA"\n            },\n            "focal_x" : 417,\n            "focal_y" : 417,\n            "height" : 960,\n            "width" : 960\n         },\n         "extrinsics" : {\n            "plus_x" : [ -0.9961946980917455, 0, -0.08715574274765797 ],\n            "plus_z" : [  0.08715574274765797, 0.0, -0.9961946980917455 ],\n            "position" : [ -0.06749, -0.03294, 0.06881 ]\n         }\n      }\n   ]\n}
 {default arg#
+{frame_hmd}/input/input_profile.json
 {htc}
 {htc}/input/vive_controller_profile.json
 {htc}/input/vive_pro_profile.json

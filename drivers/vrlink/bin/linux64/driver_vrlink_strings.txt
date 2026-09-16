@@ -188,9 +188,9 @@ $ORIGIN/../../../../bin/linux64
 /data/src/common/vrcore/src/vripcsharedstate.cpp
 /data/src/vrlink/common/SVLFEC.cpp:1095
 /data/src/vrlink/common/SVLFEC.cpp:762
-/data/src/vrlink/driver_vrlink/hmd.cpp:2592
-/data/src/vrlink/driver_vrlink/hmd.cpp:2941
-/data/src/vrlink/driver_vrlink/hmd.cpp:3053
+/data/src/vrlink/driver_vrlink/hmd.cpp:2593
+/data/src/vrlink/driver_vrlink/hmd.cpp:2955
+/data/src/vrlink/driver_vrlink/hmd.cpp:3067
 /data/src/vrlink/driver_vrlink/hmdvulkan.cpp
 /data/src/vrlink/driver_vrlink/steamvrlink.cpp
 /data/src/vrlink/driver_vrlink/videovulkan.cpp
@@ -1320,6 +1320,7 @@ Starting session in mode %d\n
 Starting session with AES Mode 0
 Starting session with ID: %08x
 Steam Argument Count: %d\n
+Steam Frame
 Steam Link
 SteamStreaming
 SteamVR
@@ -2033,6 +2034,7 @@ dbgStartEnc
 dbgSyncOff
 dbgTXWaitMS
 debugRegionColoring
+deckard
 default
 deque::_M_new_elements_at_back
 device.icon-name
@@ -2711,6 +2713,7 @@ std::bad_cast
 stderr
 stdin
 stdout
+steam frame
 steamvr
 steamvr.internal
 stoi

@@ -424,7 +424,7 @@ Parsing of JSON string "%s" failed: %s\n
 Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
-RSDS
+RSDS/
 RaiseException
 Recreate CaptureFramePool
 Reinitializing output duplication for desktop %d.\n
@@ -624,7 +624,6 @@ es_es
 es_mx
 exception thrown in JSON library
 expecting another \u token to begin the second half of a unicode surrogate pair
-fK:M
 false
 fi_fi
 finnish

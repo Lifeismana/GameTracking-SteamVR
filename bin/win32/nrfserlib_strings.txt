@@ -927,7 +927,6 @@ GetTickCount64
 HCI_COMMAND_PACKET
 HCI_EVENT_PACKET
 HTC BS
-H\v!GL
 HeapAlloc
 HeapFree
 IO_RESOURCES_UNAVAILABLE
@@ -1068,7 +1067,7 @@ QueryPerformanceFrequency
 QueueUserAPC
 RESERVED_5
 RESET_PERFORMED
-RSDS
+RSDS.
 RaiseException
 Read Characteristic String
 Read Characteristic Value (handle: %d, offset: %d)\n

@@ -1073,7 +1073,7 @@ QueryPerformanceFrequency
 QueueUserAPC
 RESERVED_5
 RESET_PERFORMED
-RSDS
+RSDS3
 R\v0n
 RaiseException
 Read Characteristic String

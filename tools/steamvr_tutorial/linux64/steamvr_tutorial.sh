@@ -28,6 +28,12 @@ if [ -n "${STEAM_RUNTIME-}" ]; then
 	# continue
 else
 	log "Executing under scout LDLP runtime."
+	LEGACY_RUNTIME="${STEAM_BASE_FOLDER}/steamapps/common/LegacySteamRuntime/legacy-steam-runtime"
+	if [ -x "${LEGACY_RUNTIME}" ]; then
+		log exec "${LEGACY_RUNTIME}" "$0" "$@"
+		exec "${LEGACY_RUNTIME}" "$0" "$@"
+	fi
+	log "LegacySteamRuntime compat tool not found at ${LEGACY_RUNTIME}, falling back to legacy scout path. This may fail under newer Steam client configurations."
 	log exec "$HOME/.steam/bin/steam-runtime/run.sh" "$0" "$@"
 	exec "$HOME/.steam/bin/steam-runtime/run.sh" "$0" "$@"
 	# unreachable

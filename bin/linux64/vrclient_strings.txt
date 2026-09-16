@@ -144,6 +144,7 @@ $3br
 %s: allocator not initialized
 %s: at least one signal point is required
 %s: attempt to block on incomplete query set: %s
+%s: cannot read back while recording into an external command buffer\n
 %s: cmdbuf references a resource that has been released: %s
 %s: concurrent sharing mode requires queue family indices
 %s: device does not support host query reset.
@@ -163,6 +164,7 @@ $3br
 %s: failed to add projection layer
 %s: failed to add quad layer
 %s: failed to allocate Null aliased vulkan texture
+%s: failed to allocate a %u byte staging buffer\n
 %s: failed to allocate buffer memory
 %s: failed to allocate image memory
 %s: failed to allocate timestamp query pool %d
@@ -174,10 +176,9 @@ $3br
 %s: failed to create buffer (%d)
 %s: failed to create image %s
 %s: failed to create image view (%d)
-%s: failed to create image view for mip=%d(%d) layer=%d(%d)
+%s: failed to create image view for mip=%d(%d) layer=%d(%d) aspect=0x%x
 %s: failed to create interop device
 %s: failed to create local timeline
-%s: failed to create lod%d image view
 %s: failed to create mapped memory view
 %s: failed to create resources
 %s: failed to create shared timeline
@@ -221,6 +222,7 @@ $3br
 %s: failed to initialize vulkan allocator
 %s: failed to initialize vulkan interop device
 %s: failed to map staging buffer %d
+%s: failed to map the staging buffer\n
 %s: failed to map vulkan memory
 %s: failed to mark end of frame rendering
 %s: failed to mark start of frame rendering
@@ -246,6 +248,7 @@ $3br
 %s: failed to wait for the composition client frame
 %s: feature hostQueryReset missing
 %s: forcing acquire of %s to avoid deadlock!
+%s: format %d has no single packed layout\n
 %s: frame was discarded due to CCompositionClient::CSwapchain::WaitImage timeout!
 %s: high priority compute requested, but %s is missing
 %s: id mismatch when registering client resources
@@ -269,6 +272,7 @@ $3br
 %s: missing required layer: %s
 %s: missing validation layer extension %s
 %s: no color swapchain available for index: %d
+%s: no stencil plane, vkformat=%d depthstencil=%d\n
 %s: no timelines
 %s: not all required facet extensions were available
 %s: not supoported with external synchronization!
@@ -281,11 +285,15 @@ $3br
 %s: pre-submit failed
 %s: prism process not found
 %s: state %d must be set via CImage::Transition only
+%s: texture has no mip %u layer %u (%u mip(s), %u layer(s))\n
+%s: texture is a combined depth/stencil image, which cannot be read back\n
+%s: texture is multisampled; read back its resolve target instead\n
 %s: too many verts; aborting
 %s: unknown vulkan message severity
 %s: unsupported graphics binding type: %d
 %s: usage changed from quad to %s, sampler not updated
 %s: usage must be specified when allocating images
+%s: vkWaitForFences failed with %d\n
 %s:ForceAcquireImageTimeline
 %s:SyncTexture
 %s:Timeline
@@ -392,6 +400,7 @@ $3br
 -+xX0123456789abcdef0123456789ABCDEF
 -+xX0123456789abcdefABCDEF
 --alongside-steam
+--directory=
 --pass-env=LD_LIBRARY_PATH
 -0123456789
 -1e+9999
@@ -484,8 +493,8 @@ $3br
 /data/src/common/vrcommon/vrrenderer/ivrrenderer.h
 /data/src/common/vrcommon/vrrenderer/sharedresource_linux.cpp
 /data/src/common/vrcommon/vrrenderer/vulkanrenderer.cpp
-/data/src/common/vrcommon/vrrenderer/vulkanrenderer.cpp:4336
-/data/src/common/vrcommon/vrrenderer/vulkanrenderer.cpp:4420
+/data/src/common/vrcommon/vrrenderer/vulkanrenderer.cpp:4473
+/data/src/common/vrcommon/vrrenderer/vulkanrenderer.cpp:4557
 /data/src/common/vrcommon/vrsystem.cpp
 /data/src/common/vrcommon/vrsystemlayersharedstate.cpp
 /data/src/common/vrcommon/vulkan.cpp
@@ -670,7 +679,7 @@ $3br
 /data/src/vrclient/vrcompositorsharedtextures.cpp:4301
 /data/src/vrclient/vrdebug.cpp:49
 /data/src/vrclient/vrdebug.cpp:60
-/data/src/vrclient/vrinput.cpp:1606
+/data/src/vrclient/vrinput.cpp:1612
 /data/src/vrclient/vrmailboxclient.cpp
 /data/src/vrclient/vroverlay.cpp:1175
 /data/src/vrclient/vroverlay.cpp:1206
@@ -681,7 +690,6 @@ $3br
 /devices/htc/vive_tracker
 /dpad_
 /entity_htc/pose
-/etc/os-release
 /eyetracking
 /filters/
 /force
@@ -699,6 +707,7 @@ $3br
 /input/application_menu/touch
 /input/back
 /input/back/click
+/input/bumper
 /input/dpad_
 /input/finger/index
 /input/finger/middle
@@ -722,6 +731,7 @@ $3br
 /input/palm_ext/pose
 /input/pinch_ext/pose
 /input/poke_ext/pose
+/input/shoulder
 /input/squeeze
 /input/squeeze/click
 /input/system
@@ -895,6 +905,7 @@ $3br
 /user/hand/left/input/secondary/click
 /user/hand/left/input/select/click
 /user/hand/left/input/shoulder/click
+/user/hand/left/input/shoulder/touch
 /user/hand/left/input/skeleton/left/data
 /user/hand/left/input/skeleton/left/tracking_level
 /user/hand/left/input/skeleton/left/without_controller_data
@@ -963,6 +974,7 @@ $3br
 /user/hand/right/input/secondary/click
 /user/hand/right/input/select/click
 /user/hand/right/input/shoulder/click
+/user/hand/right/input/shoulder/touch
 /user/hand/right/input/skeleton/right/data
 /user/hand/right/input/skeleton/right/tracking_level
 /user/hand/right/input/skeleton/right/without_controller_data
@@ -2375,6 +2387,7 @@ Could not retrieve path from handle.
 Could not translate path %s. Trying the raw path\n
 Couldn't find action %s. Ignoring it.\n
 Create
+CreateAliasView
 CreateBuffer
 CreateDevice
 CreateImage
@@ -2824,8 +2837,7 @@ GetPresentableTextureHandle
 GetRecommendedLayerResolutionMETA
 GetReferenceSpaceFromRaw: Failed to fetch transform for specified reference space type %u
 GetRenderModelAbsolutePath
-GetTextureLOD
-GetTextureLODLayer
+GetTextureStencilLayer
 GetVRTextureFromSharedTexuture: unsupported target texture type %d\n
 GetVulkanDeviceData( &textureData )
 GetVulkanDeviceExtensionsRequired - failed to initialize Vulkan.\n
@@ -3653,6 +3665,7 @@ PS_QUAD
 PS_SAMPLESCENE
 PS_SAMPLESCENE0
 PS_SAMPLESCENEDEPTH
+PS_SAMPLESCENESTENCILMASK
 PS_STENCIL
 PS_main
 Parenthesis is not closed.
@@ -3916,6 +3929,7 @@ ReadBooleanValue returned %s, time=%llu, origin=%s\n
 ReadCachedActionState
 ReadScalarValue of %s path\n
 ReadScalarValue returned %g, time=%llu, origin=%s\n
+ReadbackTexture
 Reading dangerously large protocol message.  If the message turns out to be larger than 
 Reads of container handles can't be mixed with reads of actual values in the same wildcard\n
 Rebooting In Progress (137)
@@ -3985,7 +3999,7 @@ RootNode
 RunInputFrame
 Running_OK
 Running_OutOfRange
-Runtime escape requested for %s, but no SYSTEM_LD_LIBRARY_PATH provided!
+Runtime escape requested for %s, using steam-runtime-launch-client --alongside-steam
 SCALAR
 SDL_GetError
 SDL_GetPowerInfo
@@ -4209,6 +4223,7 @@ SteamVR/OpenXR
 SteamVR@
 SteamVR_Namespace
 SteamXR Interop Device
+StencilImageView%d[%d]
 StringOutputStream.
 Submit
 SubmitExplicitTimingData
@@ -5172,6 +5187,7 @@ Warning: Analog threshold added to [%s -> %s]. This method is deprecated. Please
 Warning: Dpad bindings can only be added to a single action set.
 Warning: Dpad modifications already set for this component [%s]. Successive modification parameters for this component will be ignored.
 Warning: Provided input path (%s) is not valid for this interaction profile (%s)
+Warning: Runtime escape requested for %s, but no explicit SYSTEM_LD_LIBRARY_PATH provided! Unsetting container LD_LIBRARY_PATH and hoping for the best.
 Warning: Watchdog %s not properly cleaned up%s%s\n
 Warning: unexpected vulkan major version
 Watchdog disabled in settings (132)
@@ -7515,6 +7531,7 @@ modf
 mold 2.36.0 (compatible with GNU ld)
 motion
 motionSmoothing
+motionSmoothingOverride
 mtllib
 multiple IHDR
 multiple signals per batch not allowed
@@ -8017,6 +8034,8 @@ shaders/vulkan/distort_geom_ps_debug_mvfloat.spv
 shaders/vulkan/distort_geom_ps_debug_mvrepair.spv
 shaders/vulkan/distort_geom_ps_debug_mvsint16.spv
 shaders/vulkan/distort_geom_ps_debug_mvsint16_magnitude.spv
+shaders/vulkan/distort_geom_ps_debug_stencil.spv
+shaders/vulkan/distort_geom_ps_debug_stencil_downsample.spv
 shaders/vulkan/distort_geom_psmvfloat.spv
 shaders/vulkan/distort_geom_reflect_multitap_ps.spv
 shaders/vulkan/distort_geom_reflect_ps.spv
@@ -8064,6 +8083,8 @@ shaders/vulkan/distort_ps_scene.spv
 shaders/vulkan/distort_ps_scene0.spv
 shaders/vulkan/distort_ps_scene_blur.spv
 shaders/vulkan/distort_ps_scene_depth.spv
+shaders/vulkan/distort_ps_scene_depth_stencil.spv
+shaders/vulkan/distort_ps_scene_stencil_mask.spv
 shaders/vulkan/distort_vs.spv
 shaders/vulkan/distort_vs_latest_nd.spv
 shaders/vulkan/distort_vs_layered.spv
@@ -8084,6 +8105,7 @@ shaders/vulkan/downsample_srgb_ps.spv
 shaders/vulkan/downsample_vs.spv
 shaders/vulkan/frame_hallucination_depth_vs.spv
 shaders/vulkan/frame_hallucination_downsample_depth_ps.spv
+shaders/vulkan/frame_hallucination_downsample_depth_stencil_ps.spv
 shaders/vulkan/frame_hallucination_downsample_depth_vs.spv
 shaders/vulkan/frame_hallucination_float_depth_vs.spv
 shaders/vulkan/frame_hallucination_float_vs.spv
@@ -8315,7 +8337,6 @@ steamMatchesHMDFramerate
 steam_overlay_handle
 steam_streaming_launch
 steamlink_openvr-overlay
-steamrt
 steamtours
 steamvr
 steamvr.vrsettings

@@ -470,6 +470,7 @@ invalid messenger pointer
 invalid properties
 invalid string position
 isValidJson indicates 
+jT9M
 keylength >= 2^30
 labelInfo must be non-NULL
 layer 

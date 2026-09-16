@@ -84,14 +84,22 @@ $3br
 %s-Depth
 %s: Timed out waiting for gpu!
 %s: __pos (which is %zu) > this->size() (which is %zu)
-%s: failed to create image view for mip=%d(%d) layer=%d(%d)
-%s: failed to create lod%d image view
+%s: cannot read back while recording into an external command buffer\n
+%s: failed to allocate a %u byte staging buffer\n
+%s: failed to create image view for mip=%d(%d) layer=%d(%d) aspect=0x%x
+%s: failed to map the staging buffer\n
 %s: failed to submit texture set info %d error=%s
 %s: failed to tessellate %s
+%s: format %d has no single packed layout\n
 %s: index %d out of range %d
 %s: invalid count %d
+%s: no stencil plane, vkformat=%d depthstencil=%d\n
 %s: only Vulkan graphics devices are supported
+%s: texture has no mip %u layer %u (%u mip(s), %u layer(s))\n
+%s: texture is a combined depth/stencil image, which cannot be read back\n
+%s: texture is multisampled; read back its resolve target instead\n
 %s: too many verts; aborting
+%s: vkWaitForFences failed with %d\n
 &'()*56789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
 ' is not a number.
 ' property is missing
@@ -184,6 +192,7 @@ $3br
 -+xX0123456789abcdef0123456789ABCDEF
 -+xX0123456789abcdefABCDEF
 --alongside-steam
+--directory=
 --pass-env=LD_LIBRARY_PATH
 -0123456789
 -1e+9999
@@ -271,8 +280,8 @@ $3br
 /data/src/common/vrcommon/vrrenderer/ivrrenderer.h
 /data/src/common/vrcommon/vrrenderer/sharedresource_linux.cpp
 /data/src/common/vrcommon/vrrenderer/vulkanrenderer.cpp
-/data/src/common/vrcommon/vrrenderer/vulkanrenderer.cpp:4336
-/data/src/common/vrcommon/vrrenderer/vulkanrenderer.cpp:4420
+/data/src/common/vrcommon/vrrenderer/vulkanrenderer.cpp:4473
+/data/src/common/vrcommon/vrrenderer/vulkanrenderer.cpp:4557
 /data/src/common/vrcommon/vrsystem.cpp
 /data/src/common/vrcommon/vrsystemlayersharedstate.cpp
 /data/src/common/vrcommon/vulkan.cpp
@@ -303,7 +312,7 @@ $3br
 /data/src/vrclient/vrcompositorsharedtextures.cpp:4301
 /data/src/vrclient/vrdebug.cpp:49
 /data/src/vrclient/vrdebug.cpp:60
-/data/src/vrclient/vrinput.cpp:1606
+/data/src/vrclient/vrinput.cpp:1612
 /data/src/vrclient/vrmailboxclient.cpp
 /data/src/vrclient/vroverlay.cpp:1175
 /data/src/vrclient/vroverlay.cpp:1206
@@ -311,7 +320,6 @@ $3br
 /data/src/vrclient/vrsteamprivate.cpp
 /dev/null
 /device_was_drawn
-/etc/os-release
 /filters/
 /force
 /generation
@@ -1584,6 +1592,7 @@ Could not find factor function in driver %s from %s.\n
 Could not find named path %s when loading %s\n
 Could not read x for vec2\n
 Couldn't find action %s. Ignoring it.\n
+CreateAliasView
 Created remote GL texture 0x%llx, dimensions %d x %d, format %d
 Created remote Vulkan image 0x%llx, dimensions %d x %d, format %d, memory size %d and memory type %d.\n
 Deactivation threshold of %f will be set to the minimum allowed value %f in filter %s.
@@ -1962,8 +1971,7 @@ GetInstanceExtensionProperties - failed to get extension count\n
 GetInstanceExtensionProperties - no instance extensions supported\n
 GetNextMessage failed while waiting for message of type %d on pipe %s\n
 GetRenderModelAbsolutePath
-GetTextureLOD
-GetTextureLODLayer
+GetTextureStencilLayer
 GetVRTextureFromSharedTexuture: unsupported target texture type %d\n
 GetVulkanDeviceData( &textureData )
 GetVulkanDeviceExtensionsRequired - failed to initialize Vulkan.\n
@@ -2760,6 +2768,7 @@ PS_QUAD
 PS_SAMPLESCENE
 PS_SAMPLESCENE0
 PS_SAMPLESCENEDEPTH
+PS_SAMPLESCENESTENCILMASK
 PS_STENCIL
 PS_main
 Parenthesis is not closed.
@@ -3015,6 +3024,7 @@ ReadBooleanValue of %s path\n
 ReadBooleanValue returned %s, time=%llu, origin=%s\n
 ReadScalarValue of %s path\n
 ReadScalarValue returned %g, time=%llu, origin=%s\n
+ReadbackTexture
 Reading dangerously large protocol message.  If the message turns out to be larger than 
 Reads of container handles can't be mixed with reads of actual values in the same wildcard\n
 Rebooting In Progress (137)
@@ -3073,7 +3083,7 @@ RootNode
 RunInputFrame
 Running_OK
 Running_OutOfRange
-Runtime escape requested for %s, but no SYSTEM_LD_LIBRARY_PATH provided!
+Runtime escape requested for %s, using steam-runtime-launch-client --alongside-steam
 SCALAR
 SDL_GetError
 SDL_GetPowerInfo
@@ -3276,6 +3286,7 @@ SteamGameId
 SteamStreaming
 SteamVR
 SteamVR_Namespace
+StencilImageView%d[%d]
 StringOutputStream.
 Submit
 SubmitExplicitTimingData
@@ -4185,6 +4196,7 @@ WaitLatchSync
 WaitSemaphore LastSignaledFrameIndex=%llu
 Waiting for shared fd client failed\n
 Warning
+Warning: Runtime escape requested for %s, but no explicit SYSTEM_LD_LIBRARY_PATH provided! Unsetting container LD_LIBRARY_PATH and hoping for the best.
 Warning: Watchdog %s not properly cleaned up%s%s\n
 Watchdog disabled in settings (132)
 Watchdog namespace: %u\n
@@ -5944,6 +5956,8 @@ shaders/vulkan/distort_geom_ps_debug_mvfloat.spv
 shaders/vulkan/distort_geom_ps_debug_mvrepair.spv
 shaders/vulkan/distort_geom_ps_debug_mvsint16.spv
 shaders/vulkan/distort_geom_ps_debug_mvsint16_magnitude.spv
+shaders/vulkan/distort_geom_ps_debug_stencil.spv
+shaders/vulkan/distort_geom_ps_debug_stencil_downsample.spv
 shaders/vulkan/distort_geom_psmvfloat.spv
 shaders/vulkan/distort_geom_reflect_multitap_ps.spv
 shaders/vulkan/distort_geom_reflect_ps.spv
@@ -5991,6 +6005,8 @@ shaders/vulkan/distort_ps_scene.spv
 shaders/vulkan/distort_ps_scene0.spv
 shaders/vulkan/distort_ps_scene_blur.spv
 shaders/vulkan/distort_ps_scene_depth.spv
+shaders/vulkan/distort_ps_scene_depth_stencil.spv
+shaders/vulkan/distort_ps_scene_stencil_mask.spv
 shaders/vulkan/distort_vs.spv
 shaders/vulkan/distort_vs_latest_nd.spv
 shaders/vulkan/distort_vs_layered.spv
@@ -6011,6 +6027,7 @@ shaders/vulkan/downsample_srgb_ps.spv
 shaders/vulkan/downsample_vs.spv
 shaders/vulkan/frame_hallucination_depth_vs.spv
 shaders/vulkan/frame_hallucination_downsample_depth_ps.spv
+shaders/vulkan/frame_hallucination_downsample_depth_stencil_ps.spv
 shaders/vulkan/frame_hallucination_downsample_depth_vs.spv
 shaders/vulkan/frame_hallucination_float_depth_vs.spv
 shaders/vulkan/frame_hallucination_float_vs.spv
@@ -6238,7 +6255,6 @@ steamMatchesHMDFramerate
 steam_overlay_handle
 steam_streaming_launch
 steamlink_openvr-overlay
-steamrt
 steamtours
 steamvr
 steamvr.vrsettings
@@ -6401,6 +6417,7 @@ typeinfo for __cxxabiv1::__pointer_type_info
 typeinfo for __cxxabiv1::__si_class_type_info
 typeinfo for __cxxabiv1::__vmi_class_type_info
 typeinfo name for 
+u,zP
 uk_ua
 ukrainian
 umask

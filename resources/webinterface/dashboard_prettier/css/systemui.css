@@ -493,7 +493,7 @@
   opacity: 1;
   transition: opacity 500ms ease-out;
   background: var(--gamepadui-darker-grey);
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  border: 3px solid rgba(255, 255, 255, 0.1);
   border-radius: 10px;
   color: var(--gamepadui-lightest-grey);
 }

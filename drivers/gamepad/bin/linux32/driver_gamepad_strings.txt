@@ -570,6 +570,7 @@ strpbrk
 strtod
 strtol
 strtold_l
+strtoll
 strtoul
 strtoull
 syscall

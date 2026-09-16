@@ -1,395 +1,10 @@
-var CLSTAMP = "10979762";
+var CLSTAMP = "11000037";
 (() => {
   "use strict";
   var e,
     t = {
-      6090: (e, t, n) => {
-        n.d(t, {
-          $Zy: () => E.$Z,
-          $ab: () => E.$,
-          $lc: () => C.$,
-          Ay$: () => T,
-          CUZ: () => o.CU,
-          Ci8: () => _.C,
-          Doe: () => E.Do,
-          Ee9: () => E.Ee,
-          EmM: () => l.Em,
-          FbK: () => o.Fb,
-          FiV: () => S.Fi,
-          Fzk: () => E.Fz,
-          GMj: () => d.GM,
-          GQ2: () => R.GQ,
-          GS9: () => r.GS,
-          Gze: () => R.Gz,
-          HWH: () => R.HW,
-          HWh: () => u.H,
-          I0c: () => r.I0,
-          IS7: () => u.I,
-          IlB: () => R.Il,
-          JZN: () => o.JZ,
-          JcD: () => r.Jc,
-          Jv8: () => r.Jv,
-          KIK: () => E.KI,
-          KlS: () => R.Kl,
-          LdJ: () => w.L,
-          LdK: () => o.Ld,
-          M9N: () => r.M9,
-          MQJ: () => S.MQ,
-          MVt: () => R.MV,
-          N1A: () => p.N,
-          NHZ: () => o.NH,
-          O54: () => m.O,
-          O6e: () => o.O6,
-          OH$: () => R.OH,
-          OiK: () => S.Oi,
-          Op7: () => R.Op,
-          QB1: () => o.QB,
-          QRg: () => E.QR,
-          R$f: () => R.R$,
-          SeR: () => o.Se,
-          Ujb: () => o.Uj,
-          VhJ: () => h.Vh,
-          WiO: () => d.Wi,
-          Wqq: () => r.Wq,
-          XlW: () => R.Xl,
-          Xun: () => r.Xu,
-          Y4E: () => i.Y,
-          YVg: () => E.YV,
-          YsR: () => l.Ys,
-          Yup: () => E.Yu,
-          ZPA: () => E.ZP,
-          Zkm: () => S.Zk,
-          _1: () => R._1,
-          _81: () => E._8,
-          _h3: () => S._h,
-          _nH: () => r._n,
-          aXN: () => h.aX,
-          aqc: () => R.aq,
-          b$J: () => k.b,
-          b4: () => f.b,
-          ba0: () => R.b,
-          dLy: () => c.d,
-          ds4: () => E.ds,
-          e_0: () => o.e_,
-          enJ: () => E.en,
-          eod: () => E.eo,
-          eyj: () => s.e,
-          f9c: () => E.f9,
-          fD8: () => E.fD,
-          fkw: () => E.fk,
-          gNj: () => R.gN,
-          hqo: () => E.hq,
-          k2$: () => R.k2,
-          kGj: () => R.kG,
-          kSV: () => r.kS,
-          ke3: () => E.ke,
-          kuU: () => R.ku,
-          lo4: () => r.lo,
-          lqd: () => g.l,
-          m$_: () => f.m,
-          mHe: () => h.mH,
-          mXc: () => r.mX,
-          muq: () => R.mu,
-          mw: () => S.mw,
-          nXw: () => l.nX,
-          neN: () => R.ne,
-          nqf: () => v.n,
-          o3u: () => S.o3,
-          oN_: () => o.oN,
-          pMg: () => R.pM,
-          pgT: () => r.pg,
-          q5z: () => o.q5,
-          qFr: () => o.qF,
-          rxR: () => R.rx,
-          snv: () => r.sn,
-          t$O: () => b.t,
-          txk: () => o.tx,
-          uC0: () => y.u,
-          uS7: () => a.u,
-          vxi: () => o.vx,
-          wBp: () => E.wB,
-          xOm: () => S.xO,
-          yWq: () => E.yW,
-          zwf: () => E.zw,
-        });
-        var r = n(2824),
-          o = n(6292),
-          a = n(119),
-          s = (n(4120), n(1230)),
-          i = n(5830),
-          u = n(6186),
-          c = n(3361),
-          l = (n(111), n(5723)),
-          d = n(3496),
-          m = n(5178),
-          h = (n(428), n(9011), n(7350)),
-          g = n(6847),
-          p = n(5227),
-          _ = (n(10), n(1808)),
-          S = n(7019),
-          f = (n(1988), n(2527), n(9864)),
-          C = (n(4189), n(322), n(1977), n(6417)),
-          v = n(2303),
-          w = n(8715),
-          k = (n(4397), n(5459)),
-          y = n(8472),
-          b = (n(1184), n(1321)),
-          R = n(3725),
-          E = n(4367);
-        const T = VRHTML;
-      },
-      3725: (e, t, n) => {
-        var r, o, a, s;
-        function i() {
-          var e;
-          return null !==
-            (e =
-              null === VRHTML || void 0 === VRHTML
-                ? void 0
-                : VRHTML.Environment()) && void 0 !== e
-            ? e
-            : r.Unknown;
-        }
-        n.d(t, {
-          GQ: () => N,
-          Gz: () => c,
-          HW: () => S,
-          Il: () => d,
-          Kl: () => k,
-          MV: () => a,
-          OH: () => r,
-          Op: () => D,
-          R$: () => i,
-          Xl: () => v,
-          _1: () => O,
-          _E: () => u,
-          aq: () => C,
-          b: () => w,
-          gN: () => y,
-          k2: () => E,
-          kG: () => b,
-          ku: () => h,
-          mu: () => s,
-          ne: () => l,
-          pM: () => o,
-          rx: () => T,
-        }),
-          (function (e) {
-            (e[(e.Desktop = 1)] = "Desktop"),
-              (e[(e.Overlay = 2)] = "Overlay"),
-              (e[(e.Unknown = 100)] = "Unknown");
-          })(r || (r = {})),
-          window.hasOwnProperty("VRHTML") || (window.VRHTML = null),
-          (function (e) {
-            (e[(e.Auto = 0)] = "Auto"),
-              (e[(e.Low = 1)] = "Low"),
-              (e[(e.Medium = 2)] = "Medium"),
-              (e[(e.High = 3)] = "High");
-          })(o || (o = {})),
-          (function (e) {
-            (e[(e.TrackingResult_Uninitialized = 1)] =
-              "TrackingResult_Uninitialized"),
-              (e[(e.TrackingResult_Calibrating_InProgress = 100)] =
-                "TrackingResult_Calibrating_InProgress"),
-              (e[(e.TrackingResult_Calibrating_OutOfRange = 101)] =
-                "TrackingResult_Calibrating_OutOfRange"),
-              (e[(e.TrackingResult_Running_OK = 200)] =
-                "TrackingResult_Running_OK"),
-              (e[(e.TrackingResult_Running_OutOfRange = 201)] =
-                "TrackingResult_Running_OutOfRange"),
-              (e[(e.TrackingResult_Fallback_RotationOnly = 300)] =
-                "TrackingResult_Fallback_RotationOnly");
-          })(a || (a = {})),
-          (function (e) {
-            (e[(e.Seated = 0)] = "Seated"),
-              (e[(e.Standing = 1)] = "Standing"),
-              (e[(e.RawAndUncalibrated = 2)] = "RawAndUncalibrated");
-          })(s || (s = {}));
-        let u = 0,
-          c = 0,
-          l = 4294967295;
-        var d, m, h, g, p, _, S, f, C, v, w, k, y, b, R, E, T, M, O, L, N;
-        function D(e) {
-          let t = d.None;
-          return (
-            e.getModifierState("CapsLock") && (t |= 1),
-            e.getModifierState("NumLock") && (t |= 2),
-            t
-          );
-        }
-        !(function (e) {
-          (e[(e.None = 0)] = "None"),
-            (e[(e.Head = 1)] = "Head"),
-            (e[(e.HandLeft = 2)] = "HandLeft"),
-            (e[(e.HandRight = 3)] = "HandRight");
-        })(d || (d = {})),
-          (function (e) {
-            (e[(e.None = 0)] = "None"),
-              (e[(e.Shown = 1)] = "Shown"),
-              (e[(e.Hidden = 2)] = "Hidden"),
-              (e[(e.Exposed = 3)] = "Exposed"),
-              (e[(e.Moved = 4)] = "Moved"),
-              (e[(e.Resized = 5)] = "Resized"),
-              (e[(e.SizeChanged = 6)] = "SizeChanged"),
-              (e[(e.Minimized = 7)] = "Minimized"),
-              (e[(e.Maximized = 8)] = "Maximized"),
-              (e[(e.Restored = 9)] = "Restored"),
-              (e[(e.Enter = 10)] = "Enter"),
-              (e[(e.Leave = 11)] = "Leave"),
-              (e[(e.FocusGained = 12)] = "FocusGained"),
-              (e[(e.FocusLost = 13)] = "FocusLost"),
-              (e[(e.Close = 14)] = "Close"),
-              (e[(e.TakeFocus = 15)] = "TakeFocus"),
-              (e[(e.HitTest = 16)] = "HitTest");
-          })(m || (m = {})),
-          (function (e) {
-            (e[(e.Activated = 0)] = "Activated"),
-              (e[(e.Deactivated = 1)] = "Deactivated");
-          })(h || (h = {})),
-          (function (e) {
-            (e[(e.None = 0)] = "None"), (e[(e.Mouse = 1)] = "Mouse");
-          })(g || (g = {})),
-          (function (e) {
-            (e[(e.Invalid = 0)] = "Invalid"),
-              (e[(e.HMD = 1)] = "HMD"),
-              (e[(e.Controller = 2)] = "Controller"),
-              (e[(e.GenericTracker = 3)] = "GenericTracker"),
-              (e[(e.TrackingReference = 4)] = "TrackingReference"),
-              (e[(e.DisplayRedirect = 5)] = "DisplayRedirect");
-          })(p || (p = {})),
-          (function (e) {
-            (e[(e.Unknown = 0)] = "Unknown"),
-              (e[(e.NVIDIA = 1)] = "NVIDIA"),
-              (e[(e.AMD = 2)] = "AMD");
-          })(_ || (_ = {})),
-          (function (e) {
-            (e[(e.None = 0)] = "None"),
-              (e[(e.Starting = 1)] = "Starting"),
-              (e[(e.Quitting = 2)] = "Quitting"),
-              (e[(e.Running = 3)] = "Running"),
-              (e[(e.Waiting = 4)] = "Waiting");
-          })(S || (S = {})),
-          (function (e) {
-            (e[(e.ButtonPress_0 = 0)] = "ButtonPress_0"),
-              (e[(e.ButtonPress_1 = 1)] = "ButtonPress_1"),
-              (e[(e.ButtonPress_2 = 2)] = "ButtonPress_2"),
-              (e[(e.ButtonPress_3 = 3)] = "ButtonPress_3"),
-              (e[(e.CouldntFindSystemOverlay = 4)] =
-                "CouldntFindSystemOverlay"),
-              (e[(e.CouldntFindOrCreateClientOverlay = 5)] =
-                "CouldntFindOrCreateClientOverlay"),
-              (e[(e.ApplicationQuit = 6)] = "ApplicationQuit");
-          })(f || (f = {})),
-          (function (e) {
-            (e[(e.Accept = 0)] = "Accept"), (e[(e.Back = 1)] = "Back");
-          })(C || (C = {})),
-          (function (e) {
-            (e[(e.Normal = 0)] = "Normal"),
-              (e[(e.Password = 1)] = "Password"),
-              (e[(e.Submit = 2)] = "Submit");
-          })(v || (v = {})),
-          (function (e) {
-            (e[(e.SingleLine = 0)] = "SingleLine"),
-              (e[(e.MultipleLines = 1)] = "MultipleLines");
-          })(w || (w = {})),
-          (function (e) {
-            (e[(e.LaserMouse = 1)] = "LaserMouse"),
-              (e[(e.RoomViewFullyOccludingApp = 2)] =
-                "RoomViewFullyOccludingApp"),
-              (e[(e.DisplaySuppressed = 4)] = "DisplaySuppressed"),
-              (e[(e.SystemButtonDown = 8)] = "SystemButtonDown"),
-              (e[(e.DriverIsDrawingControllers = 16)] =
-                "DriverIsDrawingControllers"),
-              (e[(e.DriverRequestsApplicationPause = 32)] =
-                "DriverRequestsApplicationPause"),
-              (e[(e.DriverRequestsReducedRendering = 64)] =
-                "DriverRequestsReducedRendering"),
-              (e[(e.DashboardTutorial = 128)] = "DashboardTutorial"),
-              (e[(e.GamepadMode_Left = 512)] = "GamepadMode_Left"),
-              (e[(e.SystemKeyboardPrivacy = 1024)] = "SystemKeyboardPrivacy"),
-              (e[(e.GamepadMode_Right = 2048)] = "GamepadMode_Right");
-          })(k || (k = {})),
-          (function (e) {
-            (e[(e.None = 0)] = "None"),
-              (e[(e.ThisSteamVR = 1)] = "ThisSteamVR"),
-              (e[(e.AnotherSteamVR = 2)] = "AnotherSteamVR"),
-              (e[(e.AnotherRuntime = 3)] = "AnotherRuntime"),
-              (e[(e.ThisSteamVR64BitOnly = 4)] = "ThisSteamVR64BitOnly"),
-              (e[(e.Error = -1)] = "Error");
-          })(y || (y = {})),
-          (function (e) {
-            (e[(e.TrackedControllerRole_Invalid = 0)] =
-              "TrackedControllerRole_Invalid"),
-              (e[(e.TrackedControllerRole_LeftHand = 1)] =
-                "TrackedControllerRole_LeftHand"),
-              (e[(e.TrackedControllerRole_RightHand = 2)] =
-                "TrackedControllerRole_RightHand"),
-              (e[(e.TrackedControllerRole_OptOut = 3)] =
-                "TrackedControllerRole_OptOut"),
-              (e[(e.TrackedControllerRole_Treadmill = 4)] =
-                "TrackedControllerRole_Treadmill"),
-              (e[(e.TrackedControllerRole_Max = 5)] =
-                "TrackedControllerRole_Max");
-          })(b || (b = {})),
-          (function (e) {
-            (e[(e.Unknown = 0)] = "Unknown"),
-              (e[(e.Steam_VRButton = 1)] = "Steam_VRButton"),
-              (e[(e.Steam_StartSteamVRApp = 2)] = "Steam_StartSteamVRApp"),
-              (e[(e.Watchdog_Unknown = 10)] = "Watchdog_Unknown"),
-              (e[(e.Watchdog_Controller = 11)] = "Watchdog_Controller"),
-              (e[(e.Watchdog_Hmd = 12)] = "Watchdog_Hmd"),
-              (e[(e.AppLaunch_Unknown = 20)] = "AppLaunch_Unknown"),
-              (e[(e.AppLaunch_Steam = 21)] = "AppLaunch_Steam"),
-              (e[(e.SteamVR_Restart = 30)] = "SteamVR_Restart"),
-              (e[(e.SteamVR_VRStartup = 31)] = "SteamVR_VRStartup");
-          })(R || (R = {})),
-          (function (e) {
-            e[(e.Hostname = 0)] = "Hostname";
-          })(E || (E = {})),
-          (function (e) {
-            (e[(e.Unavailable = 0)] = "Unavailable"),
-              (e[(e.Active = 1)] = "Active"),
-              (e[(e.Off = 2)] = "Off");
-          })(T || (T = {})),
-          (function (e) {
-            (e[(e.Default = 1)] = "Default"), (e[(e.Floor = 2)] = "Floor");
-          })(M || (M = {})),
-          (function (e) {
-            (e[(e.Inactive = 0)] = "Inactive"),
-              (e[(e.PendingReset = 1)] = "PendingReset"),
-              (e[(e.PendingResetIfNeeded = 2)] = "PendingResetIfNeeded"),
-              (e[(e.Default = 3)] = "Default"),
-              (e[(e.CV = 4)] = "CV"),
-              (e[(e.Manual = 5)] = "Manual");
-          })(O || (O = {})),
-          (function (e) {
-            (e[(e.OK = 1)] = "OK"),
-              (e[(e.Warning = 100)] = "Warning"),
-              (e[(e.Warning_BaseStationMayHaveMoved = 101)] =
-                "Warning_BaseStationMayHaveMoved"),
-              (e[(e.Warning_BaseStationRemoved = 102)] =
-                "Warning_BaseStationRemoved"),
-              (e[(e.Warning_SeatedBoundsInvalid = 103)] =
-                "Warning_SeatedBoundsInvalid"),
-              (e[(e.Error = 200)] = "Error"),
-              (e[(e.Error_BaseStationUninitialized = 201)] =
-                "Error_BaseStationUninitialized"),
-              (e[(e.Error_BaseStationConflict = 202)] =
-                "Error_BaseStationConflict"),
-              (e[(e.Error_PlayAreaInvalid = 203)] = "Error_PlayAreaInvalid"),
-              (e[(e.Error_CollisionBoundsInvalid = 204)] =
-                "Error_CollisionBoundsInvalid");
-          })(L || (L = {})),
-          (function (e) {
-            (e[(e.Small = 0)] = "Small"),
-              (e[(e.Medium = 1)] = "Medium"),
-              (e[(e.Large = 2)] = "Large"),
-              (e[(e.Gigantic = 3)] = "Gigantic"),
-              (e[(e.Standing = 4)] = "Standing");
-          })(N || (N = {}));
-      },
       3714: (e, t, n) => {
-        n.d(t, { A0: () => r, we: () => o });
+        n.d(t, { A0: () => r, we: () => s });
         n(6540), n(2505);
         class r {
           constructor() {
@@ -398,9 +13,9 @@ var CLSTAMP = "10979762";
           }
           InitFromObjects(e, t, n, r) {
             this.m_mapTokens.clear();
-            let o = [t, e, r, n];
-            for (let e in o) {
-              let t = o[e];
+            let s = [t, e, r, n];
+            for (let e in s) {
+              let t = s[e];
               for (let e in t) {
                 let n = t[e];
                 for (let e in n) {
@@ -435,8 +50,8 @@ var CLSTAMP = "10979762";
             }
           }
         }
-        function o(e, ...t) {
-          let n = a.LocalizeString(e);
+        function s(e, ...t) {
+          let n = o.LocalizeString(e);
           return n
             ? (t.length > 0 &&
                 (n = n.replace(/%(\d+)\$s/g, function (e, n) {
@@ -446,17 +61,17 @@ var CLSTAMP = "10979762";
             : e;
         }
         r.s_Date = new Date();
-        const a = new r();
-        window.LocalizationManager = a;
+        const o = new r();
+        window.LocalizationManager = o;
       },
       9513: (e, t, n) => {
         var r = n(1635),
-          o = n(6540),
-          a = n(5338),
-          s = n(3236),
+          s = n(6540),
+          o = n(5338),
+          a = n(3236),
           i = n(6090),
-          u = n(7813),
-          c = n(1370),
+          c = n(7813),
+          u = n(1370),
           l = n(1333);
         class d {
           constructor(e, t, n) {
@@ -624,8 +239,8 @@ var CLSTAMP = "10979762";
             if (3 !== t.length) return null;
             let n = Number.parseInt(t[0]),
               r = Number.parseInt(t[1]),
-              o = Number.parseInt(t[2]);
-            return new d(n, r > 0, o > 0);
+              s = Number.parseInt(t[2]);
+            return new d(n, r > 0, s > 0);
           }
           toSerializedString() {
             return [
@@ -643,15 +258,15 @@ var CLSTAMP = "10979762";
             );
           }
           render() {
-            return o.createElement(
+            return s.createElement(
               "span",
               null,
               this.control && "control",
               this.control &&
-                o.createElement("span", { className: "Plus" }, " + "),
+                s.createElement("span", { className: "Plus" }, " + "),
               this.shift && "shift",
               this.shift &&
-                o.createElement("span", { className: "Plus" }, " + "),
+                s.createElement("span", { className: "Plus" }, " + "),
               this.character,
             );
           }
@@ -661,11 +276,11 @@ var CLSTAMP = "10979762";
             (this.shortcut = void 0),
               (this.sCommand = e),
               (this.sMailbox = t),
-              (this.refButton = o.createRef()),
-              (0, u.makeObservable)(this);
+              (this.refButton = s.createRef()),
+              (0, c.makeObservable)(this);
           }
         }
-        (0, r.Cg)([u.observable], m.prototype, "shortcut", void 0);
+        (0, r.Cg)([c.observable], m.prototype, "shortcut", void 0);
         class h {
           dumpShortcuts() {
             let e = ["Defaults:"];
@@ -794,9 +409,9 @@ var CLSTAMP = "10979762";
             vsync_to_photons_decrement: new d(219, !1, !1),
             vsync_to_photons_increment: new d(221, !1, !1),
           }),
-          (0, r.Cg)([s.o], h.prototype, "dumpShortcuts", null),
-          (0, r.Cg)([s.o], h.prototype, "resetCommandShortcut", null);
-        let g = class extends o.Component {
+          (0, r.Cg)([a.o], h.prototype, "dumpShortcuts", null),
+          (0, r.Cg)([a.o], h.prototype, "resetCommandShortcut", null);
+        let g = class extends s.Component {
           constructor(e) {
             super(e),
               (this.previousOnKeyDown = null),
@@ -807,7 +422,7 @@ var CLSTAMP = "10979762";
                 sSearch: sessionStorage.getItem("search") || "",
                 bFocused: document.hasFocus(),
               }),
-              (this.refSearchInput = o.createRef()),
+              (this.refSearchInput = s.createRef()),
               l.HR.Init(!1),
               (this.mailbox = new i._nH()),
               this.mailbox.Init("debugcommands").then(() =>
@@ -837,9 +452,9 @@ var CLSTAMP = "10979762";
                       r = r.concat(t.commands);
                     }
                   } catch (e) {}
-                  let o = new h(r.map((e) => new m(e.command, e.mailbox)));
-                  yield o.initializeKeyboardShortcuts(),
-                    this.setState({ commands: o });
+                  let s = new h(r.map((e) => new m(e.command, e.mailbox)));
+                  yield s.initializeKeyboardShortcuts(),
+                    this.setState({ commands: s });
                 }),
               );
           }
@@ -933,16 +548,16 @@ var CLSTAMP = "10979762";
             let e = ["DebugCommandsList"];
             return (
               this.isEditing && e.push("Editing"),
-              o.createElement(
+              s.createElement(
                 "div",
                 { className: "DebugCommands" },
-                o.createElement(
+                s.createElement(
                   "div",
                   { className: "Header" },
-                  o.createElement(
+                  s.createElement(
                     "div",
                     { className: "InnerContainer" },
-                    o.createElement("input", {
+                    s.createElement("input", {
                       type: "text",
                       placeholder: "Search debug commands",
                       ref: this.refSearchInput,
@@ -950,7 +565,7 @@ var CLSTAMP = "10979762";
                       value: this.state.sSearch || "",
                     }),
                     this.state.sSearch &&
-                      o.createElement(
+                      s.createElement(
                         "div",
                         {
                           className: "ClearSearchButton",
@@ -958,17 +573,17 @@ var CLSTAMP = "10979762";
                         },
                         "×",
                       ),
-                    o.createElement(
+                    s.createElement(
                       "div",
                       {
                         className: "ButtonControl",
                         onClick: this.onResetShortcuts,
                       },
-                      o.createElement("span", null, "Reset Shortcuts"),
+                      s.createElement("span", null, "Reset Shortcuts"),
                     ),
                   ),
                 ),
-                o.createElement(
+                s.createElement(
                   "div",
                   { className: e.join(" ") },
                   this.state.commands.rCommands
@@ -985,16 +600,16 @@ var CLSTAMP = "10979762";
                       n && t.push("Editing");
                       let r = !!e.shortcut;
                       t.push(r ? "Bound" : "Unbound");
-                      let a = o.createElement("span", null, "unbound");
+                      let o = s.createElement("span", null, "unbound");
                       return (
                         n
-                          ? (a = o.createElement(
+                          ? (o = s.createElement(
                               "span",
                               null,
                               "type shortcut...",
                             ))
-                          : e.shortcut && (a = e.shortcut.render()),
-                        o.createElement(
+                          : e.shortcut && (o = e.shortcut.render()),
+                        s.createElement(
                           "div",
                           {
                             key: e.sCommand,
@@ -1002,12 +617,12 @@ var CLSTAMP = "10979762";
                             onClick: () => this.sendDebugCommand(e),
                             className: t.join(" "),
                           },
-                          o.createElement(
+                          s.createElement(
                             "div",
                             { className: "CommandName" },
                             e.sCommand,
                           ),
-                          o.createElement(
+                          s.createElement(
                             "div",
                             {
                               className: "KeyboardShortcut",
@@ -1015,22 +630,22 @@ var CLSTAMP = "10979762";
                                 t.stopPropagation(), this.startEdit(e);
                               },
                             },
-                            a,
+                            o,
                           ),
                         )
                       );
                     }),
                 ),
                 this.isEditing &&
-                  o.createElement("div", {
+                  s.createElement("div", {
                     className: "EditingFade",
                     onClick: this.endEdit,
                   }),
                 !this.state.bFocused &&
-                  o.createElement(
+                  s.createElement(
                     "div",
                     { className: "Footer" },
-                    o.createElement(
+                    s.createElement(
                       "h1",
                       null,
                       "Click to enable keyboard shortcuts",
@@ -1040,47 +655,47 @@ var CLSTAMP = "10979762";
             );
           }
         };
-        (0, r.Cg)([s.o], g.prototype, "onWindowFocus", null),
-          (0, r.Cg)([s.o], g.prototype, "onWindowBlur", null),
-          (0, r.Cg)([s.o], g.prototype, "endEdit", null),
-          (0, r.Cg)([s.o], g.prototype, "onKeyDown", null),
-          (0, r.Cg)([u.computed], g.prototype, "isEditing", null),
-          (0, r.Cg)([s.o], g.prototype, "onSearchChanged", null),
-          (0, r.Cg)([s.o], g.prototype, "clearSearch", null),
-          (0, r.Cg)([s.o], g.prototype, "onResetShortcuts", null),
-          (g = (0, r.Cg)([c.PA], g)),
-          a.H(document.getElementById("root")).render(o.createElement(g, null)),
+        (0, r.Cg)([a.o], g.prototype, "onWindowFocus", null),
+          (0, r.Cg)([a.o], g.prototype, "onWindowBlur", null),
+          (0, r.Cg)([a.o], g.prototype, "endEdit", null),
+          (0, r.Cg)([a.o], g.prototype, "onKeyDown", null),
+          (0, r.Cg)([c.computed], g.prototype, "isEditing", null),
+          (0, r.Cg)([a.o], g.prototype, "onSearchChanged", null),
+          (0, r.Cg)([a.o], g.prototype, "clearSearch", null),
+          (0, r.Cg)([a.o], g.prototype, "onResetShortcuts", null),
+          (g = (0, r.Cg)([u.PA], g)),
+          o.H(document.getElementById("root")).render(s.createElement(g, null)),
           (window.document.title = "Debug Commands");
       },
     },
     n = {};
   function r(e) {
-    var o = n[e];
-    if (void 0 !== o) return o.exports;
-    var a = (n[e] = { exports: {} });
-    return t[e].call(a.exports, a, a.exports, r), a.exports;
+    var s = n[e];
+    if (void 0 !== s) return s.exports;
+    var o = (n[e] = { exports: {} });
+    return t[e].call(o.exports, o, o.exports, r), o.exports;
   }
   (r.m = t),
     (e = []),
-    (r.O = (t, n, o, a) => {
+    (r.O = (t, n, s, o) => {
       if (!n) {
-        var s = 1 / 0;
+        var a = 1 / 0;
         for (l = 0; l < e.length; l++) {
-          for (var [n, o, a] = e[l], i = !0, u = 0; u < n.length; u++)
-            (!1 & a || s >= a) && Object.keys(r.O).every((e) => r.O[e](n[u]))
-              ? n.splice(u--, 1)
-              : ((i = !1), a < s && (s = a));
+          for (var [n, s, o] = e[l], i = !0, c = 0; c < n.length; c++)
+            (!1 & o || a >= o) && Object.keys(r.O).every((e) => r.O[e](n[c]))
+              ? n.splice(c--, 1)
+              : ((i = !1), o < a && (a = o));
           if (i) {
             e.splice(l--, 1);
-            var c = o();
-            void 0 !== c && (t = c);
+            var u = s();
+            void 0 !== u && (t = u);
           }
         }
         return t;
       }
-      a = a || 0;
-      for (var l = e.length; l > 0 && e[l - 1][2] > a; l--) e[l] = e[l - 1];
-      e[l] = [n, o, a];
+      o = o || 0;
+      for (var l = e.length; l > 0 && e[l - 1][2] > o; l--) e[l] = e[l - 1];
+      e[l] = [n, s, o];
     }),
     (r.n = (e) => {
       var t = e && e.__esModule ? () => e.default : () => e;
@@ -1111,23 +726,23 @@ var CLSTAMP = "10979762";
       var e = { 866: 0 };
       r.O.j = (t) => 0 === e[t];
       var t = (t, n) => {
-          var o,
-            a,
-            [s, i, u] = n,
-            c = 0;
-          if (s.some((t) => 0 !== e[t])) {
-            for (o in i) r.o(i, o) && (r.m[o] = i[o]);
-            if (u) var l = u(r);
+          var s,
+            o,
+            [a, i, c] = n,
+            u = 0;
+          if (a.some((t) => 0 !== e[t])) {
+            for (s in i) r.o(i, s) && (r.m[s] = i[s]);
+            if (c) var l = c(r);
           }
-          for (t && t(n); c < s.length; c++)
-            (a = s[c]), r.o(e, a) && e[a] && e[a][0](), (e[a] = 0);
+          for (t && t(n); u < a.length; u++)
+            (o = a[u]), r.o(e, o) && e[o] && e[o][0](), (e[o] = 0);
           return r.O(l);
         },
         n = (self.webpackChunkvrwebui = self.webpackChunkvrwebui || []);
       n.forEach(t.bind(null, 0)), (n.push = t.bind(null, n.push.bind(n)));
     })();
-  var o = r.O(void 0, [967, 991, 602, 305, 170, 452, 797, 906, 300], () =>
+  var s = r.O(void 0, [967, 991, 602, 305, 170, 452, 797, 906, 57, 300], () =>
     r(9513),
   );
-  o = r.O(o);
+  s = r.O(s);
 })(); //# sourceMappingURL=file:///home/buildbot/buildslave/steamvr_rel_npm_vrwebui/build/public/runtime/resources/webinterface/dashboard/sourcemaps/debugcommands.js.map

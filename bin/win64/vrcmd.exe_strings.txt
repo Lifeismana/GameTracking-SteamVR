@@ -387,7 +387,6 @@
 2 Button Caption!
 3 Button Caption!
 4 button caption!
-6GwO
 : exception thrown in JSON library
 <unknown>
 ??0?$basic_ios@DU?$char_traits@D@std@@@std@@IEAA@XZ
@@ -904,7 +903,7 @@ PropertyContainer: High lock acquisition counters: sp:%u yd:%u re:%u\n
 PropertyContainerCreation
 QueryPerformanceCounter
 QueryPerformanceFrequency
-RSDS">
+RSDSr^
 RaiseException
 ReadFile
 ReadFile failed on %s after event was signaled because %s\n
