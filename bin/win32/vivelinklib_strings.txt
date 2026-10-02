@@ -464,7 +464,7 @@ RANDOM
 RAW:
 READ -H %4.4X
 RESET
-RSDS
+RSDSJ\fM
 RaiseException
 ReadFile
 ReadPipeResponse

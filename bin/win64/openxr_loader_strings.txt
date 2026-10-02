@@ -503,7 +503,6 @@ string too long
 strncmp
 strncpy
 strtoul
-tT>c.
 true
 ungetc
 unknown type in properties
