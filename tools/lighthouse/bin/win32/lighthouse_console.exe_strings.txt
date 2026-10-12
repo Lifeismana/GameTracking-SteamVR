@@ -1143,7 +1143,7 @@ QueryPerformanceCounter
 QueryPerformanceFrequency
 R1h58
 RPCRT4.dll
-RSDS
+RSDSZ
 Radio Version: %i\n
 RaiseException
 Raw mapped input (%2d):
@@ -2104,6 +2104,7 @@ turkish
 type
 uKb!?6mH
 uKbA?
+uSh4
 uint32
 uint64
 uk_ua

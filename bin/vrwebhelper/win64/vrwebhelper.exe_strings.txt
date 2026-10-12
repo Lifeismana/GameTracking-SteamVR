@@ -126,6 +126,7 @@
 .?AV<lambda_686456ba8eb4ba1f3b6ab34bc8408e75>@@
 .?AV<lambda_6a85c820fbb5aa7649e79fe6db1a25c3>@@
 .?AV<lambda_6a9239578a0b25acb00adc3c44c08a12>@@
+.?AV<lambda_6bbc8246d3078d4ee96b5dc645160a13>@@
 .?AV<lambda_6c8a8c8827b367418ccb37c6891d574b>@@
 .?AV<lambda_6d70c864b98bb5e21997e124e3ba787c>@@
 .?AV<lambda_6f32643a67ecb809a9748fddfe1aecac>@@
@@ -328,6 +329,7 @@
 .?AV?$_Func_impl_no_alloc@V<lambda_686456ba8eb4ba1f3b6ab34bc8408e75>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF8@@@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_6a85c820fbb5aa7649e79fe6db1a25c3>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF8@@@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_6a9239578a0b25acb00adc3c44c08a12>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF8@@@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_6bbc8246d3078d4ee96b5dc645160a13>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF8@@@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_6c8a8c8827b367418ccb37c6891d574b>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF8@@@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_6d70c864b98bb5e21997e124e3ba787c>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF8@@@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_6f32643a67ecb809a9748fddfe1aecac>@@XPEAVCVRWebHelperRendererHandler@@V?$scoped_refptr@VCefV8Value@@@@AEBV?$vector@V?$scoped_refptr@VCefV8Value@@@@V?$allocator@V?$scoped_refptr@VCefV8Value@@@@@std@@@std@@AEAV3@AEAV?$CefStringBase@UCefStringTraitsUTF8@@@@@std@@
@@ -645,10 +647,9 @@
 /vrgamepadui/steamvr/vrlink_lasermousestate_tx
 /vrlink/steamvr/remoteClientRefreshRate
 /vrlink_client_isSteamVR
-00O\r
 126.0.0-HEAD.3171+gbbb7596+chromium-126.0.6478.183
 127.0.0.1
-14:57:24
+14:22:51
 1e+9999
 5I)7
 7^d[L
@@ -1371,7 +1372,7 @@ Not starting vrserver for background app (121)
 Num Lock
 Num Lock Toggle
 OPENGL32.dll
-Oct  1 2026
+Oct  9 2026
 On laptop, HMD detected over USB, but Monitor not found (213)
 OnAcceleratedPaint error, no valid d3d11 device
 OnBeforeClose %d, browser shutdown complete
@@ -1405,7 +1406,7 @@ QueryPerformanceFrequency
 QuitSceneApp
 QuitSteamVR
 RPCRT4.dll
-RSDS-
+RSDSW
 RaiseException
 ReadFile
 ReadFile failed on %s after event was signaled because %s\n
@@ -2102,6 +2103,7 @@ VRTrackedCameraInternal.GetCameraTestFrame
 VRTrackedCameraInternal.SetCameraCompatibilityMode
 VRTrackedCameraInternal.StartCameraTest
 VRTrackedCameraInternal.StopCameraTest
+VRUtil.BAppIdFromSteamAppKey
 VRUtil.BSupportsCEFCanvas
 VRUtil.CreateEmbeddedRGBScanline
 VRUtil.GetEmbeddedScanlineAsURIImage
@@ -2317,7 +2319,7 @@ bg_bg
 bindingui
 blank
 boolean
-boolean|numeric|string|null
+boolean|numeric|string|null|undefined
 brazilian
 browser_size
 bulgarian
@@ -2338,9 +2340,9 @@ c:\buildslave\steamvr_rel_win64\build\src\vrwebhelper\cefexecuteprocess_handler.
 c:\buildslave\steamvr_rel_win64\build\src\vrwebhelper\vrwebhelper_app.cpp
 c:\buildslave\steamvr_rel_win64\build\src\vrwebhelper\vrwebhelper_app.cpp:687
 c:\buildslave\steamvr_rel_win64\build\src\vrwebhelper\vrwebhelper_javascript.cpp
-c:\buildslave\steamvr_rel_win64\build\src\vrwebhelper\vrwebhelper_javascript.cpp:5001
-c:\buildslave\steamvr_rel_win64\build\src\vrwebhelper\vrwebhelper_javascript.cpp:5111
-c:\buildslave\steamvr_rel_win64\build\src\vrwebhelper\vrwebhelper_javascript.cpp:5554
+c:\buildslave\steamvr_rel_win64\build\src\vrwebhelper\vrwebhelper_javascript.cpp:5016
+c:\buildslave\steamvr_rel_win64\build\src\vrwebhelper\vrwebhelper_javascript.cpp:5126
+c:\buildslave\steamvr_rel_win64\build\src\vrwebhelper\vrwebhelper_javascript.cpp:5569
 cefMaxFrameRate
 cef_api_hash
 cef_browser_host_create_browser
@@ -2656,7 +2658,6 @@ overlay_key
 overlay_name
 overlays
 owning_overlay
-p0O\r
 pName && *pName != '\0'
 pScreenSurface
 pairing
@@ -2765,7 +2766,7 @@ strftime
 strictRoot
 string
 string too long
-string|null
+string|null|undefined
 strncat
 strncmp
 strncpy

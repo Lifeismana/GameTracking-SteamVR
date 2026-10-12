@@ -119,7 +119,7 @@ MSVCP140.dll
 MainThrd
 Out of thread local storage!\n
 QueryPerformanceCounter
-RSDS.Z
+RSDS>
 RaiseException
 ResetEvent
 SDL2.dll

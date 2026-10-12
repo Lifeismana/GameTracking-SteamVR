@@ -1,4 +1,4 @@
-var CLSTAMP = "11069895";
+var CLSTAMP = "11111783";
 (() => {
   "use strict";
   var t,
@@ -76,7 +76,7 @@ var CLSTAMP = "11069895";
           e_0: () => i.e_,
           enJ: () => N.en,
           eod: () => N.eo,
-          eyj: () => l.e,
+          eyj: () => s.e,
           f9c: () => N.f9,
           fD8: () => N.fD,
           fkw: () => N.fk,
@@ -90,6 +90,7 @@ var CLSTAMP = "11069895";
           kuU: () => w.ku,
           lo4: () => n.lo,
           lqd: () => _.l,
+          ltU: () => N.lt,
           m$_: () => v.m,
           mHe: () => d.mH,
           mSM: () => b.m,
@@ -111,7 +112,7 @@ var CLSTAMP = "11069895";
           t$O: () => R.t,
           txk: () => i.tx,
           uC0: () => A.u,
-          uS7: () => s.u,
+          uS7: () => l.u,
           vxi: () => i.vx,
           wBp: () => N.wB,
           xOm: () => f.xO,
@@ -120,8 +121,8 @@ var CLSTAMP = "11069895";
         });
         var n = o(2824),
           i = o(6292),
-          s = o(119),
-          l = (o(4120), o(1230)),
+          l = o(119),
+          s = (o(4120), o(1230)),
           a = o(5830),
           r = o(6186),
           c = o(3361),
@@ -148,10 +149,10 @@ var CLSTAMP = "11069895";
         const E = VRHTML;
       },
       1977: (t, e, o) => {
-        o.d(e, { N: () => s });
+        o.d(e, { N: () => l });
         var n = o(6540),
           i = o(3496);
-        class s extends i._J {
+        class l extends i._J {
           constructor(t) {
             super(t);
           }
@@ -165,11 +166,11 @@ var CLSTAMP = "11069895";
         }
       },
       322: (t, e, o) => {
-        o.d(e, { m: () => l });
+        o.d(e, { m: () => s });
         var n = o(6540),
           i = o(4367),
-          s = o(3361);
-        class l extends n.Component {
+          l = o(3361);
+        class s extends n.Component {
           constructor(t) {
             super(t);
             let e = {};
@@ -205,7 +206,7 @@ var CLSTAMP = "11069895";
           }
           render() {
             return n.createElement(
-              s.d,
+              l.d,
               {
                 id: this.props.id,
                 parent_path: this.props.sDevicePath,
@@ -217,14 +218,14 @@ var CLSTAMP = "11069895";
         }
       },
       9864: (t, e, o) => {
-        o.d(e, { b: () => n, m: () => l });
+        o.d(e, { b: () => n, m: () => s });
         var n,
           i = o(6540),
-          s = o(3496);
+          l = o(3496);
         !(function (t) {
           (t[(t.Parent = 0)] = "Parent"), (t[(t.World = 1)] = "World");
         })(n || (n = {}));
-        class l extends s._J {
+        class s extends l._J {
           constructor(t) {
             super(t);
           }
@@ -237,10 +238,10 @@ var CLSTAMP = "11069895";
               n = this.props.rotation_stop_angle_threshold
                 ? (this.props.rotation_stop_angle_threshold * Math.PI) / 180
                 : null,
-              s = this.props.rotation_ease_out_angle_threshold
+              l = this.props.rotation_ease_out_angle_threshold
                 ? (this.props.rotation_ease_out_angle_threshold * Math.PI) / 180
                 : null,
-              l = this.props.rotation_min_angular_velocity
+              s = this.props.rotation_min_angular_velocity
                 ? (this.props.rotation_min_angular_velocity * Math.PI) / 180
                 : null,
               a = this.props.rotation_max_angular_velocity
@@ -253,9 +254,9 @@ var CLSTAMP = "11069895";
                 "rotation-stop-angle-threshold": n,
                 "rotation-ease-in-time": this.props.rotation_ease_in_time,
                 "rotation-ease-in-power": this.props.rotation_ease_in_power,
-                "rotation-ease-out-angle-threshold": s,
+                "rotation-ease-out-angle-threshold": l,
                 "rotation-ease-out-power": this.props.rotation_ease_out_power,
-                "rotation-min-angular-velocity": l,
+                "rotation-min-angular-velocity": s,
                 "rotation-max-angular-velocity": a,
                 "translation-start-distance-threshold":
                   this.props.translation_start_distance_threshold,
@@ -281,11 +282,11 @@ var CLSTAMP = "11069895";
         }
       },
       4189: (t, e, o) => {
-        o.d(e, { F: () => l });
+        o.d(e, { F: () => s });
         var n = o(1635),
           i = o(3496),
-          s = o(3236);
-        class l extends i._J {
+          l = o(3236);
+        class s extends i._J {
           constructor(t) {
             super(t), super.setBuildNodeOverride(this.buildNode);
           }
@@ -302,13 +303,13 @@ var CLSTAMP = "11069895";
             );
           }
         }
-        (0, n.Cg)([s.o], l.prototype, "buildNode", null);
+        (0, n.Cg)([l.o], s.prototype, "buildNode", null);
       },
       5227: (t, e, o) => {
-        o.d(e, { N: () => s });
+        o.d(e, { N: () => l });
         var n = o(6540),
           i = o(3496);
-        class s extends i._J {
+        class l extends i._J {
           constructor(t) {
             super(t);
           }
@@ -326,8 +327,8 @@ var CLSTAMP = "11069895";
         o.d(e, { C: () => a });
         var n = o(1635),
           i = o(3496),
-          s = o(7019),
-          l = o(3236);
+          l = o(7019),
+          s = o(3236);
         class a extends i._J {
           constructor(t) {
             super(t),
@@ -347,17 +348,17 @@ var CLSTAMP = "11069895";
                 Object.assign(Object.assign({}, t), { bShouldAbort: !0 }),
                 null,
               ];
-            let l = null;
+            let s = null;
             "object" == typeof this.props.location
-              ? (l = (0, i.PG)(this.props.location, { x: 0, y: 0 }))
+              ? (s = (0, i.PG)(this.props.location, { x: 0, y: 0 }))
               : "number" == typeof this.props.location &&
-                (l = (0, s.Lr)(this.props.location));
+                (s = (0, l.Lr)(this.props.location));
             let a = this.createSgNode(e);
             if (this.props.latched && null !== this.m_latchedPosition)
               (a.properties["anchor-u"] = this.m_latchedPosition.u),
                 (a.properties["anchor-v"] = this.m_latchedPosition.v);
-            else if (l) {
-              const e = { u: 0.5 * l.x + 0.5, v: -0.5 * l.y + 0.5 },
+            else if (s) {
+              const e = { u: 0.5 * s.x + 0.5, v: -0.5 * s.y + 0.5 },
                 o =
                   !t.currentPanel || t.currentPanel.props.overlay_key
                     ? e
@@ -372,11 +373,11 @@ var CLSTAMP = "11069895";
                   null,
                 ];
               const i = e.ownerDocument,
-                s = e.getBoundingClientRect(),
-                l = s.left + s.width / 2,
-                r = s.top + s.height / 2,
+                l = e.getBoundingClientRect(),
+                s = l.left + l.width / 2,
+                r = l.top + l.height / 2,
                 c = t.currentPanel.m_Rect;
-              if (l < c.x || l > c.x + c.width || r < c.y || r > c.y + c.height)
+              if (s < c.x || s > c.x + c.width || r < c.y || r > c.y + c.height)
                 return [
                   Object.assign(Object.assign({}, t), { bShouldAbort: !0 }),
                   null,
@@ -394,7 +395,7 @@ var CLSTAMP = "11069895";
                   Object.assign(Object.assign({}, t), { bShouldAbort: !0 }),
                   null,
                 ];
-              (a.properties["anchor-u"] = l / u),
+              (a.properties["anchor-u"] = s / u),
                 (a.properties["anchor-v"] = r / p);
             }
             return (
@@ -406,14 +407,14 @@ var CLSTAMP = "11069895";
             );
           }
         }
-        (0, n.Cg)([l.o], a.prototype, "buildNode", null);
+        (0, n.Cg)([s.o], a.prototype, "buildNode", null);
       },
       1139: (t, e, o) => {
         o.d(e, { CH: () => p, FH: () => r, aw: () => u, jE: () => c });
         var n = o(1635),
           i = o(6540),
-          s = o(3236),
-          l = o(7813);
+          l = o(3236),
+          s = o(7813);
         function a(t) {
           return "string" == typeof t || (Array.isArray(t) && t[1]);
         }
@@ -437,7 +438,7 @@ var CLSTAMP = "11069895";
               (this.m_rScrollableParents = []),
               (this.m_bScrolling = !1),
               (this.m_scrollStopTimeoutHandle = void 0),
-              (0, l.makeObservable)(this);
+              (0, s.makeObservable)(this);
           }
           ref(t) {
             this.m_elem && this.cleanup(),
@@ -500,17 +501,17 @@ var CLSTAMP = "11069895";
           const [, t] = i.useState(0);
           return i.useCallback(() => t((t) => t + 1), []);
         }
-        (0, n.Cg)([l.observable], u.prototype, "m_bScrolling", void 0),
-          (0, n.Cg)([s.o], u.prototype, "ref", null),
-          (0, n.Cg)([l.computed], u.prototype, "isScrolling", null),
-          (0, n.Cg)([s.o], u.prototype, "onParentScroll", null),
-          (0, n.Cg)([s.o], u.prototype, "onScrollStopTimeout", null);
+        (0, n.Cg)([s.observable], u.prototype, "m_bScrolling", void 0),
+          (0, n.Cg)([l.o], u.prototype, "ref", null),
+          (0, n.Cg)([s.computed], u.prototype, "isScrolling", null),
+          (0, n.Cg)([l.o], u.prototype, "onParentScroll", null),
+          (0, n.Cg)([l.o], u.prototype, "onScrollStopTimeout", null);
       },
       2741: (t, e, o) => {
-        o.d(e, { VB: () => s, gp: () => a, i_: () => l, kr: () => i });
+        o.d(e, { VB: () => l, gp: () => a, i_: () => s, kr: () => i });
         var n = o(6090);
         const i = 20,
-          s = [
+          l = [
             "Steam",
             "Desktop",
             "Desktop 1",
@@ -521,7 +522,7 @@ var CLSTAMP = "11069895";
             "Library",
             "Settings",
           ],
-          l = [
+          s = [
             n.OiK.TopCenter,
             n.OiK.CenterLeft,
             n.OiK.CenterRight,
@@ -535,8 +536,8 @@ var CLSTAMP = "11069895";
       1278: (t, e, o) => {
         var n = o(1635),
           i = o(6540),
-          s = o(5338),
-          l = o(3236),
+          l = o(5338),
+          s = o(3236),
           a = o(6090),
           r = o(5802),
           c = o(3714),
@@ -626,8 +627,8 @@ var CLSTAMP = "11069895";
                   src: n,
                 })
               : i.createElement("div", { className: "BindingCalloutIcon" });
-            let s,
-              l = (function (t) {
+            let l,
+              s = (function (t) {
                 let e = "/dashboard/images/bindingcallouts/";
                 switch (t.mode) {
                   case "dpad":
@@ -657,10 +658,10 @@ var CLSTAMP = "11069895";
                 return null;
               })(t);
             return (
-              (s = l
+              (l = s
                 ? i.createElement("img", {
                     className: "BindingCalloutModifierIcon",
-                    src: l,
+                    src: s,
                   })
                 : i.createElement("div", {
                     className: "BindingCalloutModifierIcon",
@@ -669,7 +670,7 @@ var CLSTAMP = "11069895";
                 "div",
                 { className: "BindingCalloutContents", key: e },
                 o,
-                s,
+                l,
                 i.createElement(
                   "div",
                   { className: "BindingCalloutLabelContainer" },
@@ -742,7 +743,7 @@ var CLSTAMP = "11069895";
               e = [];
             for (let o of this.props.chordCallout.inputs) {
               let n = o.device_path + o.input_path + o.slot,
-                s = {
+                l = {
                   device_path: o.device_path,
                   input_path: o.input_path,
                   mode: C(o.slot),
@@ -762,7 +763,7 @@ var CLSTAMP = "11069895";
                   i.createElement("img", {
                     className: "BindingCalloutIcon",
                     key: n + "_icon",
-                    src: v(this.props.controllerType, s),
+                    src: v(this.props.controllerType, l),
                   }),
                 ),
                 e.push(
@@ -849,9 +850,9 @@ var CLSTAMP = "11069895";
               ((e.x = -e.x), (t = -t), (o = !1));
             let n = u.W.GetControllerTypeInfo(this.props.controllerType);
             if (!n) return null;
-            let s = [],
-              l = Object.keys(this.props.device.input_callouts);
-            for (let t of l) {
+            let l = [],
+              s = Object.keys(this.props.device.input_callouts);
+            for (let t of s) {
               let e = this.props.device.input_callouts[t],
                 a = t;
               n && (a = u.W.LocalizeControllerString(n, t));
@@ -863,15 +864,15 @@ var CLSTAMP = "11069895";
                 inputCallout: e,
                 leftAlign: o,
                 inputActive:
-                  1 == l.length || this.state.input_state[e.input_path],
+                  1 == s.length || this.state.input_state[e.input_path],
                 localizedInputName: a,
                 controllerType: this.props.controllerType,
                 key: this.props.device.device_path + t,
               });
-              s.push({ order: c, callout: p });
+              l.push({ order: c, callout: p });
             }
-            s.sort((t, e) => t.order - e.order);
-            let r = s.map((t) => t.callout),
+            l.sort((t, e) => t.order - e.order);
+            let r = l.map((t) => t.callout),
               c = [];
             for (let t of this.props.device.chords) {
               let e = !1;
@@ -919,7 +920,7 @@ var CLSTAMP = "11069895";
             );
           }
         }
-        (0, n.Cg)([l.o], S.prototype, "OnInputActiveState", null);
+        (0, n.Cg)([s.o], S.prototype, "OnInputActiveState", null);
         class k extends i.Component {
           constructor(t) {
             super(t);
@@ -1095,7 +1096,7 @@ var CLSTAMP = "11069895";
           }
           ShowCallouts(t, e, o, n) {
             let i = null,
-              s = null;
+              l = null;
             if (t.action) {
               t: for (let e of o.action_sets)
                 if (this.DoesActionSetHaveBindings(e, n))
@@ -1104,7 +1105,7 @@ var CLSTAMP = "11069895";
                       i = e.name;
                       break t;
                     }
-              s = t.action.toUpperCase();
+              l = t.action.toUpperCase();
             } else
               i = t.action_sets
                 ? t.action_sets[0]
@@ -1114,7 +1115,7 @@ var CLSTAMP = "11069895";
                 actionManifest: o,
                 bindingConfig: n,
                 sActionSet: i,
-                sRestrictToAction: s,
+                sRestrictToAction: l,
                 sAppKey: t.app_key,
                 sControllerType: e,
               });
@@ -1133,11 +1134,11 @@ var CLSTAMP = "11069895";
                       i.output.toUpperCase() != this.state.sRestrictToAction
                     )
                       continue;
-                    let s = n.path.indexOf("/input");
-                    if (-1 == s) continue;
-                    let l = {
-                        device_path: n.path.substring(0, s),
-                        input_path: n.path.substring(s),
+                    let l = n.path.indexOf("/input");
+                    if (-1 == l) continue;
+                    let s = {
+                        device_path: n.path.substring(0, l),
+                        input_path: n.path.substring(l),
                         mode: n.mode,
                         slot: o,
                         localized_action_name: null,
@@ -1153,7 +1154,7 @@ var CLSTAMP = "11069895";
                           this.state.bindingConfig.alias_info[a.name];
                       if (e && (e.alias_name && (t = e.alias_name), e.hidden))
                         continue;
-                      l.localized_action_name = t;
+                      s.localized_action_name = t;
                     } else if (i.output.startsWith("/simactions/")) {
                       let t = parseInt(
                           i.output.slice(i.output.lastIndexOf("/") + 1),
@@ -1162,9 +1163,9 @@ var CLSTAMP = "11069895";
                           (e) => e.id == t,
                         );
                       if (!e) continue;
-                      l.localized_action_name = e.name;
+                      s.localized_action_name = e.name;
                     }
-                    l.localized_action_name && e.push(l);
+                    s.localized_action_name && e.push(s);
                   }
             return e;
           }
@@ -1406,11 +1407,11 @@ var CLSTAMP = "11069895";
             );
           }
         };
-        (0, n.Cg)([l.o], T.prototype, "OnShouldShowBindingCallouts", null),
-          (0, n.Cg)([l.o], T.prototype, "OnRequestBindingCallouts", null),
-          (0, n.Cg)([l.o], T.prototype, "OnCancelBindingCallouts", null),
-          (0, n.Cg)([l.o], T.prototype, "OnRequestTutorialCallout", null),
-          (0, n.Cg)([l.o], T.prototype, "OnCloseCallouts", null),
+        (0, n.Cg)([s.o], T.prototype, "OnShouldShowBindingCallouts", null),
+          (0, n.Cg)([s.o], T.prototype, "OnRequestBindingCallouts", null),
+          (0, n.Cg)([s.o], T.prototype, "OnCancelBindingCallouts", null),
+          (0, n.Cg)([s.o], T.prototype, "OnRequestTutorialCallout", null),
+          (0, n.Cg)([s.o], T.prototype, "OnCloseCallouts", null),
           (T = (0, n.Cg)([_.PA], T)),
           null === VRHTML ||
             void 0 === VRHTML ||
@@ -1435,7 +1436,7 @@ var CLSTAMP = "11069895";
             .then(() => p.s.Init())
             .then(() => {
               (0, f.aj)().Init("SteamVR", CLSTAMP, (0, f.d4)()),
-                s
+                l
                   .H(document.getElementById("root"))
                   .render(
                     i.createElement(a.O54, null, i.createElement(T, null)),
@@ -1447,19 +1448,19 @@ var CLSTAMP = "11069895";
   function n(t) {
     var i = o[t];
     if (void 0 !== i) return i.exports;
-    var s = (o[t] = { exports: {} });
-    return e[t].call(s.exports, s, s.exports, n), s.exports;
+    var l = (o[t] = { exports: {} });
+    return e[t].call(l.exports, l, l.exports, n), l.exports;
   }
   (n.m = e),
     (t = []),
-    (n.O = (e, o, i, s) => {
+    (n.O = (e, o, i, l) => {
       if (!o) {
-        var l = 1 / 0;
+        var s = 1 / 0;
         for (u = 0; u < t.length; u++) {
-          for (var [o, i, s] = t[u], a = !0, r = 0; r < o.length; r++)
-            (!1 & s || l >= s) && Object.keys(n.O).every((t) => n.O[t](o[r]))
+          for (var [o, i, l] = t[u], a = !0, r = 0; r < o.length; r++)
+            (!1 & l || s >= l) && Object.keys(n.O).every((t) => n.O[t](o[r]))
               ? o.splice(r--, 1)
-              : ((a = !1), s < l && (l = s));
+              : ((a = !1), l < s && (s = l));
           if (a) {
             t.splice(u--, 1);
             var c = i();
@@ -1468,9 +1469,9 @@ var CLSTAMP = "11069895";
         }
         return e;
       }
-      s = s || 0;
-      for (var u = t.length; u > 0 && t[u - 1][2] > s; u--) t[u] = t[u - 1];
-      t[u] = [o, i, s];
+      l = l || 0;
+      for (var u = t.length; u > 0 && t[u - 1][2] > l; u--) t[u] = t[u - 1];
+      t[u] = [o, i, l];
     }),
     (n.n = (t) => {
       var e = t && t.__esModule ? () => t.default : () => t;
@@ -1502,15 +1503,15 @@ var CLSTAMP = "11069895";
       n.O.j = (e) => 0 === t[e];
       var e = (e, o) => {
           var i,
-            s,
-            [l, a, r] = o,
+            l,
+            [s, a, r] = o,
             c = 0;
-          if (l.some((e) => 0 !== t[e])) {
+          if (s.some((e) => 0 !== t[e])) {
             for (i in a) n.o(a, i) && (n.m[i] = a[i]);
             if (r) var u = r(n);
           }
-          for (e && e(o); c < l.length; c++)
-            (s = l[c]), n.o(t, s) && t[s] && t[s][0](), (t[s] = 0);
+          for (e && e(o); c < s.length; c++)
+            (l = s[c]), n.o(t, l) && t[l] && t[l][0](), (t[l] = 0);
           return n.O(u);
         },
         o = (self.webpackChunkvrwebui = self.webpackChunkvrwebui || []);

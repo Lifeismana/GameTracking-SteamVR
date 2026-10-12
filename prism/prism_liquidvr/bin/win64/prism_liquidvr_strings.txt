@@ -161,7 +161,7 @@ PRISM_Stop
 QueryPerformanceCounter
 QueryPerformanceFrequency
 RPCRT4.dll
-RSDSB
+RSDS
 RaiseException
 ResetEvent
 RtlCaptureContext
@@ -261,3 +261,4 @@ strncpy
 tdh.dll
 terminate
 vector<T> too long
+}S%;moC

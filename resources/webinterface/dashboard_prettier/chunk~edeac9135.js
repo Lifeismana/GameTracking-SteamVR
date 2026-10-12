@@ -1,4 +1,4 @@
-var CLSTAMP = "11069895";
+var CLSTAMP = "11111783";
 (self.webpackChunkvrwebui = self.webpackChunkvrwebui || []).push([
   [906, 458],
   {
@@ -708,13 +708,13 @@ var CLSTAMP = "11069895";
         $: () => u,
         $Z: () => m,
         Do: () => R,
-        Ee: () => b,
+        Ee: () => k,
         Fz: () => y,
         JR: () => l,
         KI: () => d,
         QR: () => s,
         YV: () => S,
-        Yu: () => w,
+        Yu: () => b,
         ZP: () => D,
         _8: () => C,
         ds: () => f,
@@ -726,9 +726,10 @@ var CLSTAMP = "11069895";
         hm: () => i,
         hq: () => B,
         ke: () => F,
+        lt: () => w,
         wB: () => v,
         yW: () => g,
-        zw: () => k,
+        zw: () => A,
       }),
         (function (e) {
           (e[(e.Invalid = 0)] = "Invalid"),
@@ -1233,7 +1234,7 @@ var CLSTAMP = "11069895";
               "NoDeadZoneThenSmallElastic");
         })(B || (B = {}));
       const F = B.SmallDeadZone;
-      var M, R, P, w, b, k;
+      var M, R, P, w, b, k, A;
       !(function (e) {
         (e[(e.Rect = 0)] = "Rect"),
           (e[(e.Panorama = 1)] = "Panorama"),
@@ -1247,11 +1248,15 @@ var CLSTAMP = "11069895";
           (e[(e.Default = 0)] = "Default"), (e[(e.Aurora = 1)] = "Aurora");
         })(P || (P = {})),
         (function (e) {
+          (e[(e.Default = 0)] = "Default"),
+            (e[(e.Sensitive = 1)] = "Sensitive");
+        })(w || (w = {})),
+        (function (e) {
           (e[(e.ECameraExposure_Unknown = 0)] = "ECameraExposure_Unknown"),
             (e[(e.ECameraExposure_Nominal = 1)] = "ECameraExposure_Nominal"),
             (e[(e.ECameraExposure_HighExposure = 2)] =
               "ECameraExposure_HighExposure");
-        })(w || (w = {})),
+        })(b || (b = {})),
         (function (e) {
           (e[(e.BULK_DEFAULT = 0)] = "BULK_DEFAULT"),
             (e[(e.BULK_64K_DMA = 1)] = "BULK_64K_DMA"),
@@ -1268,13 +1273,13 @@ var CLSTAMP = "11069895";
             (e[(e.ISO_30FPS = 12)] = "ISO_30FPS"),
             (e[(e.ISO_15FPS = 13)] = "ISO_15FPS"),
             (e[(e.MAX_CAMERA_COMPAT_MODES = 14)] = "MAX_CAMERA_COMPAT_MODES");
-        })(b || (b = {})),
+        })(k || (k = {})),
         (function (e) {
           (e[(e.ECameraSettingsModel_Default = 0)] =
             "ECameraSettingsModel_Default"),
             (e[(e.ECameraSettingsModel_SteamFrame = 1)] =
               "ECameraSettingsModel_SteamFrame");
-        })(k || (k = {}));
+        })(A || (A = {}));
     },
   },
 ]); //# sourceMappingURL=file:///home/buildbot/buildslave/steamvr_rel_npm_vrwebui/build/public/runtime/resources/webinterface/dashboard/sourcemaps/chunk~edeac9135.js.map

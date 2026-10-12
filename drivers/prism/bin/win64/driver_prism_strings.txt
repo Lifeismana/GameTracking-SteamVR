@@ -612,7 +612,7 @@ Projection
 QueryPerformanceCounter
 QueryPerformanceFrequency
 RPCRT4.dll
-RSDSe
+RSDS
 RaiseException
 ReadFile
 ReadFile failed on %s after event was signaled because %s\n
@@ -729,6 +729,7 @@ WriteFile
 [IPC] SharedMem access invalid: %x\n
 [IPC] The owner SID is invalid.\n
 [IPC] Warning, existing file mapping for %s (%d) is too small (%d)\n
+]GLw
 _Cnd_broadcast
 _Cnd_destroy_in_situ
 _Cnd_init_in_situ

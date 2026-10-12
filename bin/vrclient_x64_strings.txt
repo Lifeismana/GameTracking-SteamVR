@@ -511,12 +511,12 @@ $tI(knN
 .?AV<lambda_79cc3d4038e33a7314ddfae30008a641>@@
 .?AV<lambda_7b0c6bf315357d0e20ca3c0b709e1137>@@
 .?AV<lambda_8962991448d06d1e6826effaa3e282d2>@@
+.?AV<lambda_89f2b376f675a2a88774ad02ebf539a3>@@
 .?AV<lambda_8dbfae96c65b0de9f81017ab99416c2f>@@
 .?AV<lambda_9719fca677a58d282439f7f8b139a74f>@@
 .?AV<lambda_ad65ac8970f4dd395d4f1e16325755ac>@@
 .?AV<lambda_b4bb3ccaa58babf72cd0ad9aeee44f48>@@
 .?AV<lambda_baf9a13ae88e0e395bddf77b7a139e01>@@
-.?AV<lambda_c72308ce6664706c80316d4c9bd9560a>@@
 .?AV<lambda_cec0a822e624efbc14f454d954ffa5d1>@@
 .?AV<lambda_d4103c8e33b4176fc4fc67aa595b6930>@@
 .?AV<lambda_d8999f150ee7b7e4efc727f6848c8d54>@@
@@ -806,12 +806,12 @@ $tI(knN
 .?AV?$_Func_impl_no_alloc@V<lambda_79cc3d4038e33a7314ddfae30008a641>@@W4XrResult@@AEAV?$vector@UXrView@@V?$allocator@UXrView@@@std@@@std@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_7b0c6bf315357d0e20ca3c0b709e1137>@@PEAXPEBD@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_8962991448d06d1e6826effaa3e282d2>@@W4XrResult@@PEAUXrAction_T@@_KPEAUXrActionStateBoolean@@PEA_K@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_89f2b376f675a2a88774ad02ebf539a3>@@PEAXPEBD@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_8dbfae96c65b0de9f81017ab99416c2f>@@_NW4ETrackedDeviceClass@vr@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_9719fca677a58d282439f7f8b139a74f>@@_NPEBUXrBindingModificationsKHR@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_ad65ac8970f4dd395d4f1e16325755ac>@@_NGGG@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_b4bb3ccaa58babf72cd0ad9aeee44f48>@@_NAEBUHmdVector3_t@vr@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_baf9a13ae88e0e395bddf77b7a139e01>@@_NPEBUXrActiveActionSetPrioritiesEXT@@@std@@
-.?AV?$_Func_impl_no_alloc@V<lambda_c72308ce6664706c80316d4c9bd9560a>@@PEAXPEBD@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_cec0a822e624efbc14f454d954ffa5d1>@@_NAEBUHmdVector3_t@vr@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_d4103c8e33b4176fc4fc67aa595b6930>@@_NPEBUXrInteractionProfileAnalogThresholdVALVE@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_d8999f150ee7b7e4efc727f6848c8d54>@@_NAEBUHmdVector3_t@vr@@@std@@
@@ -1783,6 +1783,9 @@ $tI(knN
 /skeleton/hand/right
 /squeeze/value
 /startup_reason
+/steam/is_running
+/steam/scene_app_input_preference/app_id
+/steam/scene_app_input_preference/prefers_steam_input
 /system/click
 /system/steamvr/
 /thumbstick
@@ -2035,7 +2038,6 @@ $tI(knN
 0 width
 0-pixel image
 00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899
-00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899X
 0123456789ABCDEF
 0\tFAJ
 1.0.3.16
@@ -3556,7 +3558,7 @@ IVRRenderModels_004
 IVRRenderModels_005
 IVRRenderModels_006
 IVRResources_001
-IVRRunntimeInformation_
+IVRRuntimeInformation_
 IVRRuntimeInformation_001
 IVRScreenshots_
 IVRScreenshots_001
@@ -3845,7 +3847,6 @@ Not Initialized (109)
 Not available to watchdog apps (131)
 Not looking for a good app key because Steam didn't start this app\n
 Not looking for a good app key because we were launched as a child of vrserver
-Not starting vrserver for %s application but allowing client library load.
 Not starting vrserver for %s application.\n
 Not starting vrserver for background app (121)
 Not starting vrserver inside app container.\n
@@ -7413,7 +7414,6 @@ enableDriverBoundsImport
 enableHmdLatencyHidingDisplayOffset
 enableHomeApp
 enableLegacyGameTheater
-enableSteamInput
 enableYAMLCompatibility
 enabled
 end of input

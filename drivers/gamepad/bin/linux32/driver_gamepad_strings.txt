@@ -59,6 +59,7 @@
 0123456789
 20CGamepadDeviceDriver
 21CServerDriver_Gamepad
+4~jf
 AKST
 ASCII
 ASCII//TRANSLIT

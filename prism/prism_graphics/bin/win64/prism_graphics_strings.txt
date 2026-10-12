@@ -361,6 +361,7 @@ Warning: Watchdog %s not properly cleaned up%s%s\n
 [CPrismNode_CompositeLayersGraphics] Failed to initialize composite graphics pipeline
 [CPrismNode_PanelMaskCompute] Failed to initialize panel mask
 [CPrismRenderGraphFactory] Failed to initialize volk: %i
+[OiR
 [PrismNode_CompositeLayersGraphics] Failed to get renderpass: %i
 [PrismNode_CompositeLayersGraphics] Failed to initialize composite graphics pipeline
 [PrismNode_PanelMaskGraphics] Failed to initialize panel mask

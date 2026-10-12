@@ -124,7 +124,8 @@
         "envBrightnessNominal": 1.0,
         "envBrightnessTheater": 0.0,
         "envBrightnessSceneAppDimming": 1.0,
-        "performanceProfile": "Performance"
+        "performanceProfile": "Performance",
+        "proxThresholdMode": 0
     },
     "openxr": {
         "metaUnityPluginCompatibility": 0

@@ -9,10 +9,10 @@ option java_multiple_files = true;
 
 message TensorShapeProto {
 	message Dim {
-		optional int64 size = 1;
-		optional string name = 2;
+		int64 size = 1;
+		string name = 2;
 	}
 
 	repeated .opencv_tensorflow.TensorShapeProto.Dim dim = 2;
-	optional bool unknown_rank = 3;
+	bool unknown_rank = 3;
 }

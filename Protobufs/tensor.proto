@@ -10,10 +10,10 @@ option java_outer_classname = "TensorProtos";
 option java_multiple_files = true;
 
 message TensorProto {
-	optional .opencv_tensorflow.DataType dtype = 1 [default = DT_INVALID];
-	optional .opencv_tensorflow.TensorShapeProto tensor_shape = 2;
-	optional int32 version_number = 3;
-	optional bytes tensor_content = 4;
+	.opencv_tensorflow.DataType dtype = 1;
+	.opencv_tensorflow.TensorShapeProto tensor_shape = 2;
+	int32 version_number = 3;
+	bytes tensor_content = 4;
 	repeated int32 half_val = 13 [packed = true];
 	repeated float float_val = 5 [packed = true];
 	repeated double double_val = 6 [packed = true];

@@ -26,7 +26,7 @@ message AttrValue {
 		int64 i = 3;
 		float f = 4;
 		bool b = 5;
-		.opencv_tensorflow.DataType type = 6 [default = DT_INVALID];
+		.opencv_tensorflow.DataType type = 6;
 		.opencv_tensorflow.TensorShapeProto shape = 7;
 		.opencv_tensorflow.TensorProto tensor = 8;
 		.opencv_tensorflow.AttrValue.ListValue list = 1;
@@ -36,11 +36,6 @@ message AttrValue {
 }
 
 message NameAttrList {
-	message AttrEntry {
-		optional string key = 1;
-		optional .opencv_tensorflow.AttrValue value = 2;
-	}
-
-	optional string name = 1;
-	repeated .opencv_tensorflow.NameAttrList.AttrEntry attr = 2;
+	string name = 1;
+	map<string, .opencv_tensorflow.AttrValue> attr = 2;
 }

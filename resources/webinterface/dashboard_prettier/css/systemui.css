@@ -136,18 +136,7 @@
   font-size: 18px;
   border-radius: 32px;
 }
-.persistentnotifications_CastingVRScreenNotification_22Xoq {
-  display: flex;
-  width: 36px;
-  height: 36px;
-  align-content: center;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  font-size: 18px;
-  border-radius: 32px;
-}
-.persistentnotifications_CastingVRScreenNotification_22Xoq {
+.persistentnotifications_RemoteStreamingNotification_wW1xh {
   display: flex;
   width: 25px;
   background-color: rgba(97, 97, 97, 0.75);
@@ -160,7 +149,7 @@
   animation: persistentnotifications_AnimationFadeOutIn_18k2T 15s infinite
     linear;
 }
-.persistentnotifications_CastingVRScreenNotification_22Xoq .SVGIcon_Button {
+.persistentnotifications_RemoteStreamingNotification_wW1xh .SVGIcon_Button {
   width: 32px;
   height: 32px;
   align-self: center;

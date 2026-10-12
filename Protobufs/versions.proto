@@ -8,7 +8,7 @@ option java_outer_classname = "VersionsProtos";
 option java_multiple_files = true;
 
 message VersionDef {
-	optional int32 producer = 1;
-	optional int32 min_consumer = 2;
+	int32 producer = 1;
+	int32 min_consumer = 2;
 	repeated int32 bad_consumers = 3;
 }

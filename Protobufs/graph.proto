@@ -12,20 +12,15 @@ option java_multiple_files = true;
 
 message GraphDef {
 	repeated .opencv_tensorflow.NodeDef node = 1;
-	optional .opencv_tensorflow.VersionDef versions = 4;
-	optional int32 version = 3 [deprecated = true];
-	optional .opencv_tensorflow.FunctionDefLibrary library = 2;
+	.opencv_tensorflow.VersionDef versions = 4;
+	int32 version = 3 [deprecated = true];
+	.opencv_tensorflow.FunctionDefLibrary library = 2;
 }
 
 message NodeDef {
-	message AttrEntry {
-		optional string key = 1;
-		optional .opencv_tensorflow.AttrValue value = 2;
-	}
-
-	optional string name = 1;
-	optional string op = 2;
+	string name = 1;
+	string op = 2;
 	repeated string input = 3;
-	optional string device = 4;
-	repeated .opencv_tensorflow.NodeDef.AttrEntry attr = 5;
+	string device = 4;
+	map<string, .opencv_tensorflow.AttrValue> attr = 5;
 }

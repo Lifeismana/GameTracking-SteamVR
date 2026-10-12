@@ -100,6 +100,7 @@ $3br
 %a %b %d %H:%M:%S %Y
 %a %b %d %Y %H:%M:%S.%%06u
 %d drivers initialized for watchdog mode.\n
+%lld:%lld
 %llu
 %s %s startup with PID=%u, config=%s, runtime=%s, arch=%s\n
 %s (%X)-> %s\n
@@ -822,7 +823,13 @@ $3br
 /skeleton/hand/right
 /squeeze/value
 /startup_reason
+/steam/is_running
+/steam/scene_app_input_preference/app_id
+/steam/scene_app_input_preference/prefers_steam_input
 /steamvr/
+/sys/class/drm
+/sys/class/drm/%s/dev
+/sys/class/drm/%s/edid
 /sys/kernel/debug/tracing/trace_marker
 /sys/kernel/tracing/trace_marker
 /system/click
@@ -1852,6 +1859,7 @@ $3br
 <unknown>
 =====================================
 ================================================================================================\n
+>PKY
 ?FbPKSsS0_PKN8tinygltf5ImageEbPKNS1_11FsCallbacksEPKNS1_12URICallbacksEPSsPvE
 ?N2vr10IVRMCStoreE
 ?N5facet15IVkInteropImageE
@@ -2438,6 +2446,7 @@ Display: %d Period: %d Budget: %d [%fms] Fs:%f Vs:%f
 Dmabuf modifiers disabled by environment variable STEAMVR_DISABLE_DMABUF_MODIFIERS!
 DoMaintenance
 DominantHand
+Done reading EDID vendor Id.\n
 Dpad binding modification received for component (%s) and interaction profile (%s)
 Driver Failed (200)
 Driver Not Known (201)
@@ -2840,6 +2849,9 @@ GetDeviceExtensionProperties - failed to get extension count\n
 GetDeviceExtensionProperties - no instance extensions supported\n
 GetEnvironmentVariableAsBool(%s): Unable to parse value '%s', using default %d\n
 GetFrameTiming
+GetHMDDRMDeviceId: failed to find DRM matching HMD edid vendor id %04x.\n
+GetHMDDRMDeviceId: failed to open /sys/class/drm.\n
+GetHMDDRMDeviceId: found HMD %s on %s (%lld:%lld).\n
 GetHiddenAreaMeshData: failed to invert projectin matrix\n
 GetHiddenAreaMeshData: no hidden area mesh data available\n
 GetIndices
@@ -3098,7 +3110,7 @@ IVRRenderModels_004
 IVRRenderModels_005
 IVRRenderModels_006
 IVRResources_001
-IVRRunntimeInformation_
+IVRRuntimeInformation_
 IVRRuntimeInformation_001
 IVRScreenshots_
 IVRScreenshots_001
@@ -3145,8 +3157,11 @@ IVRSteamPrivate_030
 IVRSteamPrivate_031
 IVRSystem::GetOutputDevice: Failed to get required Vulkan device function pointer (vkGetPhysicalDeviceProperties2KHR)!\n
 IVRSystem::GetOutputDevice: Unsupported textureType, only TextureType_Vulkan supported on Linux.\n
-IVRSystem::GetOutputDevice: VkInstance_T *pInstance parameter is nullptr.  VkInstance must be specified for TextureType_Vulkan!\n
-IVRSystem::GetOutputDevice: failed to find VkPhysicalDevice matching deviceUUID\n
+IVRSystem::GetOutputDevice: VkInstance_T *pInstance parameter is nullptr. VkInstance must be specified for TextureType_Vulkan!\n
+IVRSystem::GetOutputDevice: failed to find VkPhysicalDevice matching HMD DRM device %lld:%lld\n
+IVRSystem::GetOutputDevice: failed to find VkPhysicalDevice matching deviceUUID; trying DRM lookup.\n
+IVRSystem::GetOutputDevice: failed to get HMD EDID vendor ID.\n
+IVRSystem::GetOutputDevice: failed to identify the VkPhysicalDevice driving the HMD.\n
 IVRSystem::GetOutputDevice: failed to initialize Vulkan function pointers.\n
 IVRSystem::GetOutputDevice: vkEnumeratePhysicalDevices failed with error %d\n
 IVRSystemLayerInternal_XXX
@@ -3636,7 +3651,6 @@ Not Initialized (109)
 Not available to watchdog apps (131)
 Not looking for a good app key because Steam didn't start this app\n
 Not looking for a good app key because we were launched as a child of vrserver
-Not starting vrserver for %s application but allowing client library load.
 Not starting vrserver for %s application.\n
 Not starting vrserver for background app (121)
 Not writing boolean value because it couldn't be read\n
@@ -3667,6 +3681,7 @@ Or filters need at least one input in filter %s\n
 Orthographic camera description not found.
 OrthographicCamera
 Out of thread local storage!\n
+Overriding pid with %d (was %d)
 P010
 PATH_TO_LOCAL_STRING failed with %s
 PC_%08llx
@@ -3964,6 +3979,8 @@ ReadCachedActionState
 ReadScalarValue of %s path\n
 ReadScalarValue returned %g, time=%llu, origin=%s\n
 ReadbackTexture
+Reading EDID vendor Id timed out.\n
+Reading EDID vendor id from firmware...\n
 Reading dangerously large protocol message.  If the message turns out to be larger than 
 Reads of container handles can't be mixed with reads of actual values in the same wildcard\n
 Rebooting In Progress (137)
@@ -4550,6 +4567,7 @@ VK WARNING %s %llu:%d: %s\n
 VK_EXT_debug_report
 VK_EXT_debug_utils
 VK_EXT_global_priority
+VK_EXT_physical_device_drm
 VK_EXT_queue_family_foreign
 VK_EXT_validation_features
 VK_KHR_dedicated_allocation
@@ -6528,6 +6546,7 @@ Zjz\v
 ] is not a JSON object.
 ],"subtype":
 ^$\.*+?()[]{}|
+^6C.\vON
 _Accum
 _Fract
 _GLOBAL_
@@ -7118,7 +7137,6 @@ enableDriverBoundsImport
 enableHmdLatencyHidingDisplayOffset
 enableHomeApp
 enableLegacyGameTheater
-enableSteamInput
 enableYAMLCompatibility
 enabled
 end of input
@@ -7224,6 +7242,7 @@ free_stage_model
 french
 frequency
 frexpf
+fscanf
 fseek
 fseeko64
 ftell

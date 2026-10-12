@@ -1,4 +1,4 @@
-var CLSTAMP = "11069895";
+var CLSTAMP = "11111783";
 (() => {
   "use strict";
   var e,
@@ -88,6 +88,7 @@ var CLSTAMP = "11069895";
           kuU: () => I.ku,
           lo4: () => o.lo,
           lqd: () => m.l,
+          ltU: () => w.lt,
           m$_: () => C.m,
           mHe: () => u.mH,
           mXc: () => o.mX,
@@ -3012,21 +3013,25 @@ var CLSTAMP = "11069895";
           }
           SaveCurrentBinding(e, t, n) {
             return (0, i.sH)(this, void 0, void 0, function* () {
+              var o;
               this.HasUnboundActions,
                 (this.m_sName = e),
                 (this.m_sDescription = t);
-              let o = this.m_sInteractionProfile.trim(),
-                i = {
+              let i =
+                  null === (o = this.m_sInteractionProfile) || void 0 === o
+                    ? void 0
+                    : o.trim(),
+                l = {
                   app_key: this.SelectedApp,
                   controller_type:
                     this.SelectedControllerTypeInfo.controller_type,
                   save_type: n,
                 };
-              i.binding = {
+              l.binding = {
                 name: e,
                 description: t,
                 action_manifest_version: this.m_SelectedAppActions.version,
-                interaction_profile: o,
+                interaction_profile: i,
                 category: this.m_SelectedAppActions.category,
                 controller_type:
                   this.SelectedControllerTypeInfo.controller_type,
@@ -3038,7 +3043,7 @@ var CLSTAMP = "11069895";
                 ),
                 app_key: this.SelectedApp,
               };
-              const l = (0, m.E)(i);
+              const r = (0, m.E)(l);
               return (
                 console.log(
                   "Saving binding " +
@@ -3051,7 +3056,7 @@ var CLSTAMP = "11069895";
                   let o = new O(n, e, t);
                   this.m_OutstandingSaveBindingCalls.push(o),
                     s()
-                      .post("/input/savebinding.action", l)
+                      .post("/input/savebinding.action", r)
                       .then((e) => {
                         e.data.error
                           ? (console.log(

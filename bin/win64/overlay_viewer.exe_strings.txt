@@ -615,7 +615,6 @@ E!?winId@QWidget@@QEBA_KXZ
 Empty escape sequence in string
 Encountered error 
 EnterCriticalSection
-Eo\rV
 Error! EventWriteString Severe: %s\n
 EventRegister
 EventUnregister

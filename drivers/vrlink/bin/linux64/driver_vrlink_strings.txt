@@ -1448,7 +1448,6 @@ VK_KHR_get_memory_requirements2
 VK_KHR_get_physical_device_properties2
 VK_KHR_image_format_list
 VK_KHR_maintenance1
-VK_KHR_maintenance9
 VK_KHR_sampler_ycbcr_conversion
 VK_KHR_timeline_semaphore
 VK_KHR_video_encode_h265
@@ -1729,6 +1728,8 @@ Zjz\v
 [VideoVulkan] Is 10 bit SUPPORTED? %s
 [VideoVulkan] Is Ultra Low Latency SUPPORTED? %s
 [VideoVulkan] No link to submit frames to!.
+[VideoVulkan] RGB conversion cannot provide required format: models=0x%x ranges=0x%x xOffsets=0x%x yOffsets=0x%x; using shader yuv conversion
+[VideoVulkan] RGB conversion profile unsupported, using shader yuv conversion
 [VideoVulkan] Resize: %d %d
 [VideoVulkan] Setting video capabilties: 10bit: %s, ull: %s
 [VideoVulkan] Unhandled nSpatialEncodeMode, cannot determine nNumSlices

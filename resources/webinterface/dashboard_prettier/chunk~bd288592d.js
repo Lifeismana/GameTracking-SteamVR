@@ -1,4 +1,4 @@
-var CLSTAMP = "11069895";
+var CLSTAMP = "11111783";
 (self.webpackChunkvrwebui = self.webpackChunkvrwebui || []).push([
   [452],
   {
@@ -2528,21 +2528,25 @@ var CLSTAMP = "11069895";
         }
         SaveCurrentBinding(e, t, i) {
           return (0, n.sH)(this, void 0, void 0, function* () {
+            var o;
             this.HasUnboundActions,
               (this.m_sName = e),
               (this.m_sDescription = t);
-            let o = this.m_sInteractionProfile.trim(),
-              n = {
+            let n =
+                null === (o = this.m_sInteractionProfile) || void 0 === o
+                  ? void 0
+                  : o.trim(),
+              s = {
                 app_key: this.SelectedApp,
                 controller_type:
                   this.SelectedControllerTypeInfo.controller_type,
                 save_type: i,
               };
-            n.binding = {
+            s.binding = {
               name: e,
               description: t,
               action_manifest_version: this.m_SelectedAppActions.version,
-              interaction_profile: o,
+              interaction_profile: n,
               category: this.m_SelectedAppActions.category,
               controller_type: this.SelectedControllerTypeInfo.controller_type,
               bindings: this.m_ModifiedBindingSet,
@@ -2553,7 +2557,7 @@ var CLSTAMP = "11069895";
               ),
               app_key: this.SelectedApp,
             };
-            const s = (0, g.E)(n);
+            const r = (0, g.E)(s);
             return (
               console.log(
                 "Saving binding " + e + " for app '" + this.SelectedApp + "'.",
@@ -2562,7 +2566,7 @@ var CLSTAMP = "11069895";
                 let o = new w(i, e, t);
                 this.m_OutstandingSaveBindingCalls.push(o),
                   l()
-                    .post("/input/savebinding.action", s)
+                    .post("/input/savebinding.action", r)
                     .then((e) => {
                       e.data.error
                         ? (console.log(
