@@ -39,6 +39,13 @@
 !std::equal(resourceCounts.begin(), resourceCounts.end(), blockInfo.numResources) || (blockInfo.localIndex != localLoopIndex) || (blockInfo.numChildren != numChildren)
 !std::isnan( flSystemTimeInSeconds )
 %*csubgraph cluster_%d { style="rounded%s"
+%*s_%d
+%.*s
+%.*s [
+%s%.*s
+%s%s%s%s%s
+%s%s\n
+%s%u
 %s(%s): concurrent batches not allowed
 %s-CommandBuffer-%d
 %s-Image
@@ -209,6 +216,7 @@
 %sRpsShaderStageBits(0x%x)
 %s[%s] %s file=%s
 %s\n           
+%u != %zu
 ( %u x %u ), fmt : %s, array : %u, mip : %u, samples : %u
 ( %u x %u x %u ), fmt : %s, mip : %u
 ( %u x 1 ), fmt : %s, array : %u, mip : %u
@@ -351,7 +359,6 @@
 ??_7_Facet_base@std@@6B@
 ??_7codecvt_base@std@@6B@
 ??_7facet@locale@std@@6B@
-?SteamVR_Namespace
 ?_Decref@facet@locale@std@@UEAAPEAV_Facet_base@3@XZ
 ?_Incref@facet@locale@std@@UEAAXXZ
 ?_Init@locale@std@@CAPEAV_Locimp@12@_N@Z
@@ -436,7 +443,6 @@ C:\workspace\vr\steamvr\main\src\thirdparty\renderpipelineshaders\src\runtime\vk
 C:\workspace\vr\steamvr\main\src\thirdparty\renderpipelineshaders\src\runtime\vk\rps_vk_runtime_device.cpp
 CClientSwapchain::Import
 CClientSwapchain::ImportSampler
-CFailed to set thread %p priority: invalid priority %d\n
 CLIENT: I:%6dC:%6dS:%6dP:%6d[%d|%d]
 CMotionEstimation::CRenderPipeline::CreateFramebuffer
 CMotionEstimation::CRenderPipeline::CreateRenderPass
@@ -616,6 +622,7 @@ Failed to import client event handle from pipe %s after connecting\n
 Failed to import server event handle from pipe %s after connecting\n
 Failed to parse log message
 Failed to set thread %p priority: SetThreadPriority failed with %x\n
+Failed to set thread %p priority: invalid priority %d\n
 Failed to write app container status to pipe %s after connecting because %s\n
 Failed to write event process handle after connecting because %s\n
 Foreign timelines unsupported. Leaking resource.
@@ -908,7 +915,6 @@ RPS_ERROR_UNSUPPORTED_VERSION_TOO_OLD
 RPS_ERROR_VALIDATION_FAILED
 RPS_FAILED(m_status)
 RPS_OK
-RSDS9>(
 RaiseException
 RasterizerState
 RaytracingPipeline
@@ -982,6 +988,7 @@ Software\Valve\Steam\ActiveProcess
 Somebody beat us to creating event %s to go with pipe %s in WaitForConnection\n
 Somebody else should have created event %s to go with pipe %s in WaitForConnection\n
 Somebody locked a non-leaf shared memory %s while %s was already locked
+SteamVR_Namespace
 StreamOutDesc
 StreamOutLayout
 Subprogram::Create(m_device, &createInfo.mainEntryCreateInfo, &m_pMainEntry)
@@ -1384,6 +1391,7 @@ nExistingSize >= nSize
 nFrameIndex >> ( 64 - k_TimelineEventShift ) == 0
 nImageIndex < ARRAY_SIZE( m_descriptorClientImages )
 nSizeInBytes <= m_unSizeInBytes
+n_%d
 newNodeId == RPS_INDEX_NONE_U32
 newRangeOffset == RPS_INDEX_NONE_U32
 newTransNodeId == RPS_INDEX_NONE_U32
@@ -1570,6 +1578,7 @@ subgraph_begin
 subgraph_end
 subroutine_begin
 subroutine_end
+t_%d
 tableIdx < RPS_COUNTOF(c_builtInNodeNames)
 tanf
 tanhf

@@ -1,6 +1,4 @@
                           
- !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
- !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
  Base Class Array'
  Base Class Descriptor at (
  Class Hierarchy Descriptor'
@@ -9,11 +7,12 @@
  delete
  delete[]
  new
+%s%s
+%s/%s
 %s\steamclient.dll
-&Sgw
-( 8PX
 ( CMilesAudioOutputStream * ) m_vecAudioOutputStreams[i]
 ( CMilesAudioSound * ) m_vecAudioSounds[i]
+(%s%d)
 (null)
 .00cfg
 .?AV?$CDynamicFunc@P6GHI@Z@@
@@ -127,8 +126,6 @@
 1#QNAN
 1#SNAN
 700WP
-<5IkQ
-=87M
 ?5Wg4p
 ??0?$CDbgFmtSafeImplT@$00@@QAE@PBD@Z
 ??0?$CDbgFmtSafeImplT@$0A@@@QAA@PBDZZ
@@ -193,7 +190,6 @@ Download failed
 EnterCriticalSection
 Error State on string being set.
 ExitProcess
-FEMh\f
 Failed setting downloads
 Failed setting updates
 Failed to get IAutomaticUpdates
@@ -296,7 +292,6 @@ Plat_FloatTime
 Plat_IsInDebugSession
 PureClass
 QueryPerformanceCounter
-RSDS
 RUNASADMIN
 RaiseException
 Ramp Time
@@ -369,11 +364,7 @@ WideCharToMultiByte
 WriteConsoleW
 WriteFile
 WriteMiniDump
-X/4B
-[aOni*{
 \bin\
-\tcQr
-^<V7w
 _AIL_allocate_sample_handle@4
 _AIL_close_digital_driver@4
 _AIL_digital_latency@4
@@ -497,12 +488,10 @@ c:\buildslave\vrpanorama_main_win32\build\src\tier1\utlsymbol.cpp
 ceil
 cosh
 csgolauncher.exe
-d8L2
 dddd, MMMM dd, yyyy
 dota2launcher.exe
 dota2launcher_nexon.exe
 e+000
-eLK(w
 fabs
 failed to load miles library
 floor
@@ -514,12 +503,9 @@ get_Count failed
 get_RebootRequired failed
 get_Updates failed
 getcwd_utf8
-h0'D
-k=yI
 ldexp
 log10
 lzZ?
-m\nXo
 m_Elements
 m_Lookup
 m_Memory
@@ -538,13 +524,10 @@ modf
 nBytesItem is %d in UtlMemory_CalcNewAllocationCount
 nan(ind)
 nan(snan)
-obwQ4
 operator
 operator "" 
 operator co_await
-owM&
 restrict(
-s1q4
 s_pAudioController
 s_pSymbolTable
 sinh
@@ -554,6 +537,4 @@ steamcmd
 steamcmd.exe
 tanh
 tier0_vr.dll
-v2!L.2
 vstdlib_vr.dll
-xpxxxx

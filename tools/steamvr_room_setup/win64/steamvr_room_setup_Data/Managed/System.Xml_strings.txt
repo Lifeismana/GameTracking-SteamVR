@@ -24,8 +24,19 @@
 $1HV
 $1QV
 $Ds1
+%%oM,
 %1YV
 %J\tYT
+%oJ)
+%oJ,
+%o^3
+%ob+
+%oi+
+%oq%
+%or%
+%os%
+%oz%
+%si)
 &!&!*!+!.!.!
 &.Q8Q
 &1bV
@@ -117,6 +128,7 @@ $Ds1
 ,a\tti
 ,asO-
 ,cs5
+-%sL+
 -&rrL
 -0rc
 -1rk!
@@ -10224,6 +10236,8 @@ Zt8t
 \frar
 \fsubstitution
 \f{ToString()}
+\n%oA
+\n%oF
 \n%rB4
 \n(\n*\n0\n2\n3\n5\n6\n8\n9\n<\n<\n>\nB\nG\nH\nK\nM\nY\n\\n^\n^\nf\nt\n
 \n(\n*\n0\n2\n3\n5\n6\n8\n9\nY\n\\n^\n^\nr\nt\n
@@ -10242,6 +10256,7 @@ Zt8t
 \nXsQ1
 \nYs9
 \nZ\tXT
+\n\r%oG
 \n\t\t\t\t\t\t\t\t\t\t
 \n\toVA
 \n\toY3
@@ -10292,6 +10307,7 @@ Zt8t
 \r\trVN
 \rdocumentation(System.Xml.Schema.XmlSchemaDocumentation
 \rsimpleContent(System.Xml.Schema.XmlSchemaSimpleContent
+\t.%+e
 \t3Z\to
 \t9\t<\tM\tQ\tT\tX\tc\tf\to\t
 \t9\t=\t=\tX\ta\t
@@ -10331,6 +10347,7 @@ Zt8t
 \vcomplexType&System.Xml.Schema.XmlSchemaComplexType
 \venumeration+System.Xml.Schema.XmlSchemaEnumerationFacet
 \vmemberTypes
+\vr%p
 \vraq
 \vrestriction
 \vrestriction0System.Xml.Schema.XmlSchemaSimpleTypeRestriction

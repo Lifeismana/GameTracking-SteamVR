@@ -6,6 +6,8 @@
 #GUID
 #Mono Common Language Infrastructure
 #Strings
+%%o\v
+%os\n
 &r1r
 &r9r
 (c) Various Mono authors
@@ -3272,6 +3274,8 @@ ZeroTextWithEndElement
 [jio
 [jis
 \fUnrestricted
+\n%o1
+\n%oC
 \n%r1r
 \n%rEr
 \n*2ruC

@@ -196,7 +196,6 @@ GetWindowsDirectoryW
 InitializeCriticalSectionAndSpinCount
 IsDebuggerPresent
 IsProcessorFeaturePresent
-J\rr3u
 KERNEL32.dll
 LocalFree
 MJPG
@@ -209,7 +208,6 @@ PackWavFile
 PathRemoveFileSpecW
 PeekMessageW
 QueryPerformanceCounter
-RSDS
 SECSAPI_FirmwareBuildDay
 SECSAPI_GetEndpointSetting
 SECSAPI_GetVersion

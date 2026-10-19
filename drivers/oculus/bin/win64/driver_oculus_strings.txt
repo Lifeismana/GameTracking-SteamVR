@@ -26,8 +26,8 @@
 #?RGBE
 #?RGBE\n
 #oculus_requested_quit
-$3br
-%&'()*456789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
+%%.%dg
+%.2X
 %a %b %d %H:%M:%S %Y
 %a %b %d %Y %H:%M:%S.%%03u
 %llu
@@ -39,7 +39,6 @@ $3br
 %s: texture is a combined depth/stencil image, which cannot be read back\n
 %s: texture is multisampled and has no typed format to resolve to\n
 %s[%s] %s file=%s
-&'()*56789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
 ' is not a number.
 ' property is missing
 ' property is missing in 
@@ -70,7 +69,6 @@ $3br
 -1e+9999
 -3003
 -Infinity
--startup
 .00cfg
 .?AU?$CFactoryMakerT@VCAnimSkeleton@@@?$CAnimFactoryBaseT@VCAnimResource@@@@
 .?AU?$CFactoryMakerT@VCBoneMaskResource@@@?$CAnimFactoryBaseT@VCAnimResource@@@@
@@ -288,6 +286,7 @@ $3br
 /output/haptic
 /pose/raw
 /proximity
+/skeleton/hand/left
 /skeleton/hand/right
 /user/ankle/left
 /user/ankle/right
@@ -312,21 +311,19 @@ $3br
 00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899
 1/2/4/8/16-bit only
 11 4 22 44 44 22 444444
-11eU%
 1e+9999
 2.5.4.3
 8c8f13b1-60eb-4b6a-a433-de86104115ac
 8d8f13b1-60eb-4b6a-a433-de86104115ac
 8e8f13b1-60eb-4b6a-a433-de86104115ac
-9a&g
 : one or more FS callback not set
 ; expected 
 ; last read: '
+<U+%.4X>
 <discarded>
 <parse error>
 <uninitialized>
 <unknown>
-?/skeleton/hand/left
 ??0?$basic_ios@DU?$char_traits@D@std@@@std@@IEAA@XZ
 ??0?$basic_iostream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@@Z
 ??0?$basic_istream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@_N@Z
@@ -659,7 +656,6 @@ LocalizationManager
 MAT2
 MAT3
 MAT4
-MGiI
 MSFT_lod
 MSVCP140.dll
 MainThrd
@@ -718,11 +714,9 @@ PerspectiveCamera
 Positional emitter description not found.
 Primitive
 Program Files
-Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
 RPCRT4.dll
-RSDS@q*-
 RaiseException
 ResetEvent
 RootNode
@@ -774,8 +768,8 @@ TlsFree
 TlsGetValue
 TlsSetValue
 Too short data size for glTF Binary.
-U1(\Q
 UNNAMED
+Unable to create texture set for pid %u: %s\n
 Unable to destroy %d swap textures due to invalid session\n
 Unable to init Oculus Touch controller\n
 Unable to init Oculus tracker\n
@@ -813,7 +807,6 @@ WakeAllConditionVariable
 Warning: Watchdog %s not properly cleaned up%s%s\n
 WinVerifyTrust
 XXXX PNG chunk not known
-Zjz\v
 [AnimSkeleton] Failed to load GLTF file: %s
 [KeyFramedDataResource] Failed to load GLTF file: %s
 [OculusDirect] !!!! AcquireSync FAILED with E_FAIL
@@ -843,13 +836,9 @@ Zjz\v
 [OculusDirect] ReleaseSync FAILED with unknown hr 0x%08x [OMITTING additional logs for %d seconds]
 [OculusDirect] Vsync: %.2f(%.2f) th=%d pf=%d qa=%.2fms pt=%.2f asw=%d
 [json.exception.
-\nbad png sig
-\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t
-\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t
 \u%04x
 \u%04x\u%04x
 \ufffd
-\vUnable to create texture set for pid %u: %s\n
 ] buffer "
 ] bufferView "
 ] invalid bufferView
@@ -1008,6 +997,7 @@ bad huffman code
 bad interlace method
 bad masks
 bad palette
+bad png sig
 bad req_comp
 bad sizes
 bad tRNS len
@@ -1138,7 +1128,6 @@ headset
 height
 hu_hu
 hungarian
-i]Wb
 illegal code in raster
 image
 image/bmp
@@ -1237,7 +1226,6 @@ lights
 list<T> too long
 localeconv
 loop
-mSx@
 m_frameInfo.nFramesToThrottleApp == 0
 m_pidCache.empty()
 m_ulHandle != vr::k_ulInvalidMailbox
@@ -1454,7 +1442,6 @@ primitives
 pt_br
 pt_pt
 quest
-r\vp!K
 range
 read past buffer
 realloc
@@ -1712,6 +1699,7 @@ spanish
 sparse
 spot
 standing
+startup
 strcmp
 strength
 strftime
@@ -1790,7 +1778,6 @@ vrcompositor_mailbox
 weights
 while parsing 
 width
-wn>Jj
 wrapS
 wrapT
 wrong channel count
@@ -1799,12 +1786,12 @@ wrong version
 xmag
 yfov
 ymag
-z^KD
 zfar
 zh_cn
 zh_tw
 zlib corrupt
 znear
+{%s}%s
 {\n\t\t"collision_bounds" : [\n\t\t[\n\t\t\t[ -0.5, 0, -0.5 ],\n\t\t\t[ -0.5, 2.43, -0.5 ],\n\t\t\t[ -0.5, 2.43, 0.5 ],\n\t\t\t[ -0.5, 0, 0.5 ]\n\t\t],\n\t\t[\n\t\t\t[ -0.5, 0, 0.5 ],\n\t\t\t[ -0.5, 2.43, 0.5 ],\n\t\t\t[ 0.5, 2.43, 0.5 ],\n\t\t\t[ 0.5, 0, 0.5 ]\n\t\t],\n\t\t[\n\t\t\t[ 0.5, 0, 0.5 ],\n\t\t\t[ 0.5, 2.43, 0.5 ],\n\t\t\t[ 0.5, 2.43, -0.5 ],\n\t\t\t[ 0.5, 0, -0.5 ]\n\t\t],\n\t\t[\n\t\t\t[ 0.5, 0, -0.5 ],\n\t\t\t[ 0.5, 2.43, -0.5 ],\n\t\t\t[ -0.5, 2.43, -0.5 ],\n\t\t\t[ -0.5, 0, -0.5 ]\n\t\t]\n\t\t],\n\t\t"play_area" : [ 1, 1 ],\n\t\t"seated" : {\n\t\t\t"translation" : [ 0, 0, 0 ],\n\t\t\t"yaw" : 0\n\t\t},\n\t\t"standing" : {\n\t\t\t"translation" : [ 0, 0, 0 ],\n\t\t\t"yaw" : 0\n\t\t},\n\t}
 {oculus}/icons/%s_%s_alert_searching.gif
 {oculus}/icons/%s_%s_error.png

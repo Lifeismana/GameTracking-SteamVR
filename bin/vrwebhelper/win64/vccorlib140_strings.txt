@@ -1,4 +1,3 @@
-&cIiV
 .00cfg
 .?AU?$IBoxArray@E@Platform@@
 .?AU?$IBoxArray@F@Platform@@
@@ -260,13 +259,6 @@
 .text$yd
 .xdata
 .xdata$x
-1cY7.
-219}\
-2\fp0
-2\vP0
-2\vp0
-8@NF
-8hK7
 ?<Dispose>@Exception@Platform@@UE$AAAXXZ
 ?<Dispose>@String@Platform@@UE$AAAXXZ
 ?<Dispose>@Type@Platform@@UE$AAAXXZ
@@ -526,7 +518,6 @@
 ?set@TrackingLevel@Heap@Details@Platform@@SAXW4HeapAllocationTrackingLevel@34@@Z
 AcquireSRWLockExclusive
 AcquireSRWLockShared
-BSTag
 CloseHandle
 CoAddRefServerProcess
 CoCreateFreeThreadedMarshaler
@@ -544,11 +535,7 @@ DecodePointer
 DeleteCriticalSection
 DisableThreadLibraryCalls
 EnterCriticalSection
-F#q23n*.UY
-FUnknown exception
 FormatMessageW
-FrjlS
-Funordered_map/set too long
 GCTL
 GetCurrentProcess
 GetCurrentProcessId
@@ -573,8 +560,6 @@ OLEAUT32.dll
 OutputDebugStringW
 P20&
 QueryPerformanceCounter
-RSDS
-R\vp0
 RaiseException
 ReleaseSRWLockExclusive
 ReleaseSRWLockShared
@@ -595,10 +580,10 @@ RtlVirtualUnwind
 SetEvent
 SetRestrictedErrorInfo
 SetUnhandledExceptionFilter
-T@:VBD
 TerminateProcess
 TryAcquireSRWLockShared
 UnhandledExceptionFilter
+Unknown exception
 VCRUNTIME140.dll
 VCRUNTIME140_1.dll
 WaitForMultipleObjectsEx
@@ -611,7 +596,6 @@ WindowsGetStringLen
 WindowsGetStringRawBuffer
 WindowsIsStringEmpty
 WindowsStringHasEmbeddedNull
-\fp\vP0
 _CxxThrowException
 _SetWinRTOutOfMemoryExceptionCallback
 __C_specific_handler
@@ -654,10 +638,8 @@ api-ms-win-crt-string-l1-1-0.dll
 bad allocation
 bad array new length
 ceilf
-e`Ek
 free
 invalid hash bucket count
-kw~1
 malloc
 memcmp
 memcpy
@@ -670,7 +652,7 @@ ole32.dll
 p20&
 string too long
 terminate
+unordered_map/set too long
 vccorlib140.DLL
 vector too long
 wcscpy_s
-zFyP

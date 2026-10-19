@@ -6,6 +6,7 @@
 18CClientDriver_Null
 18CServerDriver_Null
 A valid JSON document must be either an array or an object value.
+A%%.%dg
 Bad escape sequence in string
 Bad unicode escape sequence in string: four digits expected.
 Bad unicode escape sequence in string: hexadecimal digit expected.
@@ -67,7 +68,9 @@ Unable to parse token length
 Using settings values\n
 VR_FORCE_NULL_DRIVER
 VTT for std::basic_istringstream<char, std::char_traits<char>, std::allocator<char>>
+VTT for std::basic_istringstream<char, std::char_traits<char>, std::allocator<char>>@@GLIBCXX_3.4
 VTT for std::basic_ostringstream<char, std::char_traits<char>, std::allocator<char>>
+VTT for std::basic_ostringstream<char, std::char_traits<char>, std::allocator<char>>@@GLIBCXX_3.4
 Value is not convertible to Int.
 Value is not convertible to Int64.
 Value is not convertible to UInt.
@@ -76,78 +79,6 @@ Value is not convertible to bool.
 Value is not convertible to double.
 Value is not convertible to float.
 _Jv_RegisterClasses
-_ZNKSs4findEcj@@GLIBCXX_3.4
-_ZNKSs5rfindEcj@@GLIBCXX_3.4
-_ZNKSs7compareEPKc@@GLIBCXX_3.4
-_ZNKSt15basic_stringbufIcSt11char_traitsIcESaIcEE3strEv@@GLIBCXX_3.4
-_ZNKSt5ctypeIcE13_M_widen_initEv@@GLIBCXX_3.4.11
-_ZNSbIwSt11char_traitsIwESaIwEE4_Rep20_S_empty_rep_storageE@@GLIBCXX_3.4
-_ZNSbIwSt11char_traitsIwESaIwEE6appendEjw@@GLIBCXX_3.4
-_ZNSbIwSt11char_traitsIwESaIwEED1Ev@@GLIBCXX_3.4
-_ZNSi10_M_extractIdEERSiRT_@@GLIBCXX_3.4.9
-_ZNSolsEPSt15basic_streambufIcSt11char_traitsIcEE@@GLIBCXX_3.4
-_ZNSolsEi@@GLIBCXX_3.4
-_ZNSs12_M_leak_hardEv@@GLIBCXX_3.4
-_ZNSs4_Rep10_M_destroyERKSaIcE@@GLIBCXX_3.4
-_ZNSs4_Rep20_S_empty_rep_storageE@@GLIBCXX_3.4
-_ZNSs4_Rep9_S_createEjjRKSaIcE@@GLIBCXX_3.4
-_ZNSs4swapERSs@@GLIBCXX_3.4
-_ZNSs5eraseEN9__gnu_cxx17__normal_iteratorIPcSsEES2_@@GLIBCXX_3.4
-_ZNSs6appendEPKcj@@GLIBCXX_3.4
-_ZNSs6appendERKSs@@GLIBCXX_3.4
-_ZNSs6appendEjc@@GLIBCXX_3.4
-_ZNSs6assignEPKcj@@GLIBCXX_3.4
-_ZNSs6assignERKSs@@GLIBCXX_3.4
-_ZNSs6insertEjPKcj@@GLIBCXX_3.4
-_ZNSs6resizeEjc@@GLIBCXX_3.4
-_ZNSs7replaceEjjPKcj@@GLIBCXX_3.4
-_ZNSs7reserveEj@@GLIBCXX_3.4
-_ZNSsC1EPKcRKSaIcE@@GLIBCXX_3.4
-_ZNSsC1EPKcjRKSaIcE@@GLIBCXX_3.4
-_ZNSsC1ERKSs@@GLIBCXX_3.4
-_ZNSsC1ERKSsjj@@GLIBCXX_3.4
-_ZNSsC1EjcRKSaIcE@@GLIBCXX_3.4
-_ZNSsD1Ev@@GLIBCXX_3.4
-_ZNSt15basic_streambufIcSt11char_traitsIcEED2Ev@@GLIBCXX_3.4
-_ZNSt15basic_stringbufIcSt11char_traitsIcESaIcEE7_M_syncEPcjj@@GLIBCXX_3.4
-_ZNSt19basic_istringstreamIcSt11char_traitsIcESaIcEED1Ev@@GLIBCXX_3.4
-_ZNSt19basic_ostringstreamIcSt11char_traitsIcESaIcEEC1ESt13_Ios_Openmode@@GLIBCXX_3.4
-_ZNSt19basic_ostringstreamIcSt11char_traitsIcESaIcEED1Ev@@GLIBCXX_3.4
-_ZNSt6localeC1Ev@@GLIBCXX_3.4
-_ZNSt6localeD1Ev@@GLIBCXX_3.4
-_ZNSt8ios_baseC2Ev@@GLIBCXX_3.4
-_ZNSt8ios_baseD2Ev@@GLIBCXX_3.4
-_ZNSt9basic_iosIcSt11char_traitsIcEE4initEPSt15basic_streambufIcS1_E@@GLIBCXX_3.4
-_ZNSt9basic_iosIcSt11char_traitsIcEED2Ev@@GLIBCXX_3.4
-_ZNSt9exceptionD2Ev@@GLIBCXX_3.4
-_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_i@@GLIBCXX_3.4.9
-_ZSt16__throw_bad_castv@@GLIBCXX_3.4
-_ZSt17__throw_bad_allocv@@GLIBCXX_3.4
-_ZSt18_Rb_tree_decrementPKSt18_Rb_tree_node_base@@GLIBCXX_3.4
-_ZSt18_Rb_tree_decrementPSt18_Rb_tree_node_base@@GLIBCXX_3.4
-_ZSt18_Rb_tree_incrementPKSt18_Rb_tree_node_base@@GLIBCXX_3.4
-_ZSt18_Rb_tree_incrementPSt18_Rb_tree_node_base@@GLIBCXX_3.4
-_ZSt19__throw_logic_errorPKc@@GLIBCXX_3.4
-_ZSt20__throw_length_errorPKc@@GLIBCXX_3.4
-_ZSt20__throw_out_of_rangePKc@@GLIBCXX_3.4
-_ZSt28_Rb_tree_rebalance_for_erasePSt18_Rb_tree_node_baseRS_@@GLIBCXX_3.4
-_ZSt29_Rb_tree_insert_and_rebalancebPSt18_Rb_tree_node_baseS0_RS_@@GLIBCXX_3.4
-_ZSt7getlineIcSt11char_traitsIcESaIcEERSt13basic_istreamIT_T0_ES7_RSbIS4_S5_T1_ES4_@@GLIBCXX_3.4
-_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc@@GLIBCXX_3.4
-_ZTISt9exception@@GLIBCXX_3.4
-_ZTTSt19basic_istringstreamIcSt11char_traitsIcESaIcEE@@GLIBCXX_3.4
-_ZTTSt19basic_ostringstreamIcSt11char_traitsIcESaIcEE@@GLIBCXX_3.4
-_ZTVN10__cxxabiv117__class_type_infoE@@CXXABI_1.3
-_ZTVN10__cxxabiv120__si_class_type_infoE@@CXXABI_1.3
-_ZTVSt15basic_streambufIcSt11char_traitsIcEE@@GLIBCXX_3.4
-_ZTVSt15basic_stringbufIcSt11char_traitsIcESaIcEE@@GLIBCXX_3.4
-_ZTVSt19basic_istringstreamIcSt11char_traitsIcESaIcEE@@GLIBCXX_3.4
-_ZTVSt19basic_ostringstreamIcSt11char_traitsIcESaIcEE@@GLIBCXX_3.4
-_ZTVSt9basic_iosIcSt11char_traitsIcEE@@GLIBCXX_3.4
-_ZdaPv@@GLIBCXX_3.4
-_ZdlPv@@GLIBCXX_3.4
-_Znaj@@GLIBCXX_3.4
-_Znwj@@GLIBCXX_3.4
 __bss_start
 __cxa_allocate_exception
 __cxa_allocate_exception@@CXXABI_1.3
@@ -282,9 +213,13 @@ modf
 modf@@GLIBC_2.0
 nfinity
 operator delete(void*)
+operator delete(void*)@@GLIBCXX_3.4
 operator delete[](void*)
+operator delete[](void*)@@GLIBCXX_3.4
 operator new(unsigned int)
+operator new(unsigned int)@@GLIBCXX_3.4
 operator new[](unsigned int)
+operator new[](unsigned int)@@GLIBCXX_3.4
 precision
 pthread_cancel
 pthread_cancel@@GLIBC_2.0
@@ -309,63 +244,121 @@ sscanf
 sscanf@@GLIBC_2.0
 stackLimit
 std::_Rb_tree_decrement(std::_Rb_tree_node_base const*)
+std::_Rb_tree_decrement(std::_Rb_tree_node_base const*)@@GLIBCXX_3.4
 std::_Rb_tree_decrement(std::_Rb_tree_node_base*)
+std::_Rb_tree_decrement(std::_Rb_tree_node_base*)@@GLIBCXX_3.4
 std::_Rb_tree_increment(std::_Rb_tree_node_base const*)
+std::_Rb_tree_increment(std::_Rb_tree_node_base const*)@@GLIBCXX_3.4
 std::_Rb_tree_increment(std::_Rb_tree_node_base*)
+std::_Rb_tree_increment(std::_Rb_tree_node_base*)@@GLIBCXX_3.4
 std::_Rb_tree_insert_and_rebalance(bool, std::_Rb_tree_node_base*, std::_Rb_tree_node_base*, std::_Rb_tree_node_base&)
+std::_Rb_tree_insert_and_rebalance(bool, std::_Rb_tree_node_base*, std::_Rb_tree_node_base*, std::_Rb_tree_node_base&)@@GLIBCXX_3.4
 std::_Rb_tree_rebalance_for_erase(std::_Rb_tree_node_base*, std::_Rb_tree_node_base&)
+std::_Rb_tree_rebalance_for_erase(std::_Rb_tree_node_base*, std::_Rb_tree_node_base&)@@GLIBCXX_3.4
 std::__throw_bad_alloc()
+std::__throw_bad_alloc()@@GLIBCXX_3.4
 std::__throw_bad_cast()
+std::__throw_bad_cast()@@GLIBCXX_3.4
 std::__throw_length_error(char const*)
+std::__throw_length_error(char const*)@@GLIBCXX_3.4
 std::__throw_logic_error(char const*)
+std::__throw_logic_error(char const*)@@GLIBCXX_3.4
 std::__throw_out_of_range(char const*)
+std::__throw_out_of_range(char const*)@@GLIBCXX_3.4
 std::basic_ios<char, std::char_traits<char>>::init(std::basic_streambuf<char, std::char_traits<char>>*)
+std::basic_ios<char, std::char_traits<char>>::init(std::basic_streambuf<char, std::char_traits<char>>*)@@GLIBCXX_3.4
 std::basic_ios<char, std::char_traits<char>>::~basic_ios()
+std::basic_ios<char, std::char_traits<char>>::~basic_ios()@@GLIBCXX_3.4
 std::basic_istream<char, std::char_traits<char>>& std::getline<char, std::char_traits<char>, std::allocator<char>>(std::basic_istream<char, std::char_traits<char>>&, std::basic_string<char, std::char_traits<char>, std::allocator<char>>&, char)
+std::basic_istream<char, std::char_traits<char>>& std::getline<char, std::char_traits<char>, std::allocator<char>>(std::basic_istream<char, std::char_traits<char>>&, std::basic_string<char, std::char_traits<char>, std::allocator<char>>&, char)@@GLIBCXX_3.4
 std::basic_istringstream<char, std::char_traits<char>, std::allocator<char>>::~basic_istringstream()
+std::basic_istringstream<char, std::char_traits<char>, std::allocator<char>>::~basic_istringstream()@@GLIBCXX_3.4
 std::basic_ostream<char, std::char_traits<char>>& std::__ostream_insert<char, std::char_traits<char>>(std::basic_ostream<char, std::char_traits<char>>&, char const*, int)
+std::basic_ostream<char, std::char_traits<char>>& std::__ostream_insert<char, std::char_traits<char>>(std::basic_ostream<char, std::char_traits<char>>&, char const*, int)@@GLIBCXX_3.4.9
 std::basic_ostream<char, std::char_traits<char>>& std::operator<< <std::char_traits<char>>(std::basic_ostream<char, std::char_traits<char>>&, char const*)
+std::basic_ostream<char, std::char_traits<char>>& std::operator<< <std::char_traits<char>>(std::basic_ostream<char, std::char_traits<char>>&, char const*)@@GLIBCXX_3.4
 std::basic_ostringstream<char, std::char_traits<char>, std::allocator<char>>::basic_ostringstream(std::_Ios_Openmode)
+std::basic_ostringstream<char, std::char_traits<char>, std::allocator<char>>::basic_ostringstream(std::_Ios_Openmode)@@GLIBCXX_3.4
 std::basic_ostringstream<char, std::char_traits<char>, std::allocator<char>>::~basic_ostringstream()
+std::basic_ostringstream<char, std::char_traits<char>, std::allocator<char>>::~basic_ostringstream()@@GLIBCXX_3.4
 std::basic_streambuf<char, std::char_traits<char>>::~basic_streambuf()
+std::basic_streambuf<char, std::char_traits<char>>::~basic_streambuf()@@GLIBCXX_3.4
 std::basic_string<char, std::char_traits<char>, std::allocator<char>>::basic_string(char const*, std::allocator<char> const&)
+std::basic_string<char, std::char_traits<char>, std::allocator<char>>::basic_string(char const*, std::allocator<char> const&)@@GLIBCXX_3.4
 std::basic_string<char, std::char_traits<char>, std::allocator<char>>::basic_string(char const*, unsigned int, std::allocator<char> const&)
+std::basic_string<char, std::char_traits<char>, std::allocator<char>>::basic_string(char const*, unsigned int, std::allocator<char> const&)@@GLIBCXX_3.4
 std::basic_string<char, std::char_traits<char>, std::allocator<char>>::basic_string(std::string const&)
+std::basic_string<char, std::char_traits<char>, std::allocator<char>>::basic_string(std::string const&)@@GLIBCXX_3.4
 std::basic_string<char, std::char_traits<char>, std::allocator<char>>::basic_string(std::string const&, unsigned int, unsigned int)
+std::basic_string<char, std::char_traits<char>, std::allocator<char>>::basic_string(std::string const&, unsigned int, unsigned int)@@GLIBCXX_3.4
 std::basic_string<char, std::char_traits<char>, std::allocator<char>>::basic_string(unsigned int, char, std::allocator<char> const&)
+std::basic_string<char, std::char_traits<char>, std::allocator<char>>::basic_string(unsigned int, char, std::allocator<char> const&)@@GLIBCXX_3.4
 std::basic_string<char, std::char_traits<char>, std::allocator<char>>::~basic_string()
+std::basic_string<char, std::char_traits<char>, std::allocator<char>>::~basic_string()@@GLIBCXX_3.4
 std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t>>::_Rep::_S_empty_rep_storage
+std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t>>::_Rep::_S_empty_rep_storage@@GLIBCXX_3.4
 std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t>>::append(unsigned int, wchar_t)
+std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t>>::append(unsigned int, wchar_t)@@GLIBCXX_3.4
 std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t>>::~basic_string()
+std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t>>::~basic_string()@@GLIBCXX_3.4
 std::basic_stringbuf<char, std::char_traits<char>, std::allocator<char>>::_M_sync(char*, unsigned int, unsigned int)
+std::basic_stringbuf<char, std::char_traits<char>, std::allocator<char>>::_M_sync(char*, unsigned int, unsigned int)@@GLIBCXX_3.4
 std::basic_stringbuf<char, std::char_traits<char>, std::allocator<char>>::str() const
+std::basic_stringbuf<char, std::char_traits<char>, std::allocator<char>>::str() const@@GLIBCXX_3.4
 std::ctype<char>::_M_widen_init() const
+std::ctype<char>::_M_widen_init() const@@GLIBCXX_3.4.11
 std::exception::~exception()
+std::exception::~exception()@@GLIBCXX_3.4
 std::ios_base::ios_base()
+std::ios_base::ios_base()@@GLIBCXX_3.4
 std::ios_base::~ios_base()
+std::ios_base::~ios_base()@@GLIBCXX_3.4
 std::istream& std::istream::_M_extract<double>(double&)
+std::istream& std::istream::_M_extract<double>(double&)@@GLIBCXX_3.4.9
 std::locale::locale()
+std::locale::locale()@@GLIBCXX_3.4
 std::locale::~locale()
+std::locale::~locale()@@GLIBCXX_3.4
 std::ostream::operator<<(int)
+std::ostream::operator<<(int)@@GLIBCXX_3.4
 std::ostream::operator<<(std::basic_streambuf<char, std::char_traits<char>>*)
+std::ostream::operator<<(std::basic_streambuf<char, std::char_traits<char>>*)@@GLIBCXX_3.4
 std::string::_M_leak_hard()
+std::string::_M_leak_hard()@@GLIBCXX_3.4
 std::string::_Rep::_M_destroy(std::allocator<char> const&)
+std::string::_Rep::_M_destroy(std::allocator<char> const&)@@GLIBCXX_3.4
 std::string::_Rep::_S_create(unsigned int, unsigned int, std::allocator<char> const&)
+std::string::_Rep::_S_create(unsigned int, unsigned int, std::allocator<char> const&)@@GLIBCXX_3.4
 std::string::_Rep::_S_empty_rep_storage
+std::string::_Rep::_S_empty_rep_storage@@GLIBCXX_3.4
 std::string::append(char const*, unsigned int)
+std::string::append(char const*, unsigned int)@@GLIBCXX_3.4
 std::string::append(std::string const&)
+std::string::append(std::string const&)@@GLIBCXX_3.4
 std::string::append(unsigned int, char)
+std::string::append(unsigned int, char)@@GLIBCXX_3.4
 std::string::assign(char const*, unsigned int)
+std::string::assign(char const*, unsigned int)@@GLIBCXX_3.4
 std::string::assign(std::string const&)
+std::string::assign(std::string const&)@@GLIBCXX_3.4
 std::string::compare(char const*) const
+std::string::compare(char const*) const@@GLIBCXX_3.4
 std::string::erase(__gnu_cxx::__normal_iterator<char*, std::string>, __gnu_cxx::__normal_iterator<char*, std::string>)
+std::string::erase(__gnu_cxx::__normal_iterator<char*, std::string>, __gnu_cxx::__normal_iterator<char*, std::string>)@@GLIBCXX_3.4
 std::string::find(char, unsigned int) const
+std::string::find(char, unsigned int) const@@GLIBCXX_3.4
 std::string::insert(unsigned int, char const*, unsigned int)
+std::string::insert(unsigned int, char const*, unsigned int)@@GLIBCXX_3.4
 std::string::replace(unsigned int, unsigned int, char const*, unsigned int)
+std::string::replace(unsigned int, unsigned int, char const*, unsigned int)@@GLIBCXX_3.4
 std::string::reserve(unsigned int)
+std::string::reserve(unsigned int)@@GLIBCXX_3.4
 std::string::resize(unsigned int, char)
+std::string::resize(unsigned int, char)@@GLIBCXX_3.4
 std::string::rfind(char, unsigned int) const
+std::string::rfind(char, unsigned int) const@@GLIBCXX_3.4
 std::string::swap(std::string&)
+std::string::swap(std::string&)@@GLIBCXX_3.4
 stderr
 stderr@@GLIBC_2.0
 steamvr
@@ -395,6 +388,7 @@ toupper
 toupper@@GLIBC_2.0
 true
 typeinfo for std::exception
+typeinfo for std::exception@@GLIBCXX_3.4
 unsetenv
 unsetenv@@GLIBC_2.0
 useSpecialFloats
@@ -402,12 +396,19 @@ vector::reserve
 vsnprintf
 vsnprintf@@GLIBC_2.0
 vtable for __cxxabiv1::__class_type_info
+vtable for __cxxabiv1::__class_type_info@@CXXABI_1.3
 vtable for __cxxabiv1::__si_class_type_info
+vtable for __cxxabiv1::__si_class_type_info@@CXXABI_1.3
 vtable for std::basic_ios<char, std::char_traits<char>>
+vtable for std::basic_ios<char, std::char_traits<char>>@@GLIBCXX_3.4
 vtable for std::basic_istringstream<char, std::char_traits<char>, std::allocator<char>>
+vtable for std::basic_istringstream<char, std::char_traits<char>, std::allocator<char>>@@GLIBCXX_3.4
 vtable for std::basic_ostringstream<char, std::char_traits<char>, std::allocator<char>>
+vtable for std::basic_ostringstream<char, std::char_traits<char>, std::allocator<char>>@@GLIBCXX_3.4
 vtable for std::basic_streambuf<char, std::char_traits<char>>
+vtable for std::basic_streambuf<char, std::char_traits<char>>@@GLIBCXX_3.4
 vtable for std::basic_stringbuf<char, std::char_traits<char>, std::allocator<char>>
+vtable for std::basic_stringbuf<char, std::char_traits<char>, std::allocator<char>>@@GLIBCXX_3.4
 windowHeight
 windowWidth
 windowX

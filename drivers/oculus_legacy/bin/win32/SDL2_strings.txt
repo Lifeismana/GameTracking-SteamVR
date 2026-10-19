@@ -7,19 +7,14 @@
      precision mediump float;     uniform sampler2D u_texture;     uniform vec4 u_modulation;     varying vec2 v_texCoord;         void main()     {         vec4 abgr = texture2D(u_texture, v_texCoord);         gl_FragColor = abgr;         gl_FragColor.r = abgr.b;         gl_FragColor.b = abgr.r;         gl_FragColor.a = 1.0;         gl_FragColor *= u_modulation;     } 
      precision mediump float;     uniform vec4 u_color;         void main()     {         gl_FragColor = u_color;     } 
      uniform mat4 u_projection;     attribute vec2 a_position;     attribute vec2 a_texCoord;     attribute float a_angle;     attribute vec2 a_center;     varying vec2 v_texCoord;         void main()     {         float angle = radians(a_angle);         float c = cos(angle);         float s = sin(angle);         mat2 rotationMatrix = mat2(c, -s, s, c);         vec2 position = rotationMatrix * (a_position - a_center) + a_center;         v_texCoord = a_texCoord;         gl_Position = u_projection * vec4(position, 0.0, 1.0);        gl_PointSize = 1.0;     } 
- !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
- "$&(*,.02468:<>@BDFHJLNPRTVXZ\^`bdfhjlnprtvxz|~
- $(,048<@DHLPUY]aeimquy}
- )19AJRZbjs{
-!)@:F,@zj/@\G1@|
-!QPW
-!\t@Present()
-"3DUfw
 #define UVCoordScale 1.0\n
 #define sampler2D sampler2DRect\n#define texture2D texture2DRect\n#define UVCoordScale 0.5\n
 %d bpp BMP files not supported
 %s not available
+%s%s%s
 %s() DirectX error 0x%8.8lx
+%s,%s,%s
+%s: %s
 %s: %s (%d): %s %s
 %s: %s (%d): %s %s (0x%X)
 %s: Unknown DirectSound error: 0x%x
@@ -30,35 +25,15 @@
 0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ0x
 0123456789abcdef
 25090500000000000000504944564944,PS3 DualShock,a:b2,b:b1,back:b9,dpdown:h0.8,dpleft:h0.4,dpright:h0.2,dpup:h0.1,guide:,leftshoulder:b6,leftstick:b10,lefttrigger:b4,leftx:a0,lefty:a1,rightshoulder:b7,rightstick:b11,righttrigger:b5,rightx:a2,righty:a3,start:b8,x:b0,y:b3,
-33333
 341a3608000000000000504944564944,Afterglow PS3 Controller,a:b1,b:b2,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b12,leftshoulder:b4,leftstick:b10,lefttrigger:b6,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b11,righttrigger:b7,rightx:a2,righty:a3,start:b9,x:b0,y:b3,
 4c056802000000000000504944564944,PS3 Controller,a:b14,b:b13,back:b0,dpdown:b6,dpleft:b7,dpright:b5,dpup:b4,guide:b16,leftshoulder:b10,leftstick:b1,lefttrigger:b8,leftx:a0,lefty:a1,rightshoulder:b11,rightstick:b2,righttrigger:b9,rightx:a2,righty:a3,start:b3,x:b15,y:b12,
 4c05c405000000000000504944564944,PS4 Controller,a:b1,b:b2,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b12,leftshoulder:b4,leftstick:b10,lefttrigger:a3,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b11,righttrigger:a4,rightx:a2,righty:a5,start:b9,x:b0,y:b3,
 4d6963726f736f66742050432d6a6f79,OUYA Controller,a:b0,b:b3,dpdown:b9,dpleft:b10,dpright:b11,dpup:b8,guide:b14,leftshoulder:b4,leftstick:b6,lefttrigger:b12,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b7,righttrigger:b13,rightx:a5,righty:a4,x:b1,y:b2,
-5cjMT
 6d0416c2000000000000504944564944,Generic DirectInput Controller,a:b1,b:b2,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,leftshoulder:b4,leftstick:b10,lefttrigger:b6,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b11,righttrigger:b7,rightx:a2,righty:a3,start:b9,x:b0,y:b3,
 6d0419c2000000000000504944564944,Logitech F710 Gamepad,a:b1,b:b2,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,leftshoulder:b4,leftstick:b10,lefttrigger:b6,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b11,righttrigger:b7,rightx:a2,righty:a3,start:b9,x:b0,y:b3,
-6lo"
 8859-1
 88880803000000000000504944564944,PS3 Controller,a:b2,b:b1,back:b8,dpdown:h0.8,dpleft:h0.4,dpright:h0.2,dpup:h0.1,guide:b12,leftshoulder:b4,leftstick:b9,lefttrigger:b6,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b10,righttrigger:b7,rightx:a3,righty:a4,start:b11,x:b0,y:b3,
-;GL_TABLE_TOO_LARGE
-;glBufferSubData
-<\rUUUUU
-<cUUUUU
 <qsort.c gjm 1.12 1998-03-19>
-=@zj?@L~@@\GA@l
-?1cb
-?>UUUUU
-?Application didn't initialize properly, did you include SDL_main.h in the file containing your main() function?
-?Created renderer: %s
-?Haptic error %s
-?IUUUUU
-?LUUUUU
-?UUUUUU
-?Unable to lock source surface
-?Unsupported YUV format
-?v<y5
-@Couldn't open %s
 AC Back
 AC Bookmarks
 AC Forward
@@ -66,8 +41,6 @@ AC Home
 AC Refresh
 AC Search
 AC Stop
-ACouldn't create mixer lock
-APassed NULL destination surface
 ASCII
 Abort
 Acquiring DirectInput device
@@ -77,6 +50,7 @@ All SDL assertions between last init/quit:\n\n
 AltErase
 Always Ignore
 Application
+Application didn't initialize properly, did you include SDL_main.h in the file containing your main() function?
 Application not compiled with SDL %d.%d\n
 Assertion Failed
 Assertion failure at %s (%s:%d), triggered %u %s:\r\n  '%s'
@@ -172,6 +146,7 @@ Couldn't create XInput haptic mutex
 Couldn't create XInput haptic thread
 Couldn't create a prefpath.
 Couldn't create audio thread
+Couldn't create mixer lock
 Couldn't create semaphore
 Couldn't create window
 Couldn't find GetModuleFileNameExW
@@ -189,6 +164,7 @@ Couldn't load psapi.dll
 Couldn't locate our .exe
 Couldn't locate our prefpath
 Couldn't lock event queue
+Couldn't open %s
 Couldn't open clipboard
 Couldn't parse %s
 Couldn't parse GUID from %s
@@ -218,6 +194,7 @@ CreateTexture(D3DPOOL_DEFAULT)
 CreateTexture(D3DPOOL_SYSTEMMEM)
 CreateThread
 CreateWindowExW
+Created renderer: %s
 Creating DirectInput device
 CurrencySubUnit
 CurrencyUnit
@@ -225,7 +202,6 @@ Cursor hot spot doesn't lie within cursor
 Cursor not associated with the current mouse
 Cursors are not currently supported
 D3D9.DLL
-DC?h
 DEBUG
 DEST
 DEVICELOST
@@ -273,11 +249,11 @@ DrawPrimitiveUP()
 DrawTextW
 EGL implementation does not support sRGB system framebuffers
 EGL not initialized
-EGL_DestroyRenderer
 EGL_KHR_create_context
 EGL_KHR_gl_colorspace
 ENABLED
 ERROR
+ERROR: NumPoints = %i\n
 Eject
 Empty destination palette
 EmptyClipboard
@@ -301,7 +277,6 @@ ExitProcess
 F32LSB
 F32MSB
 F32SYS
-FHaptic: Invalid haptic device identifier
 FOURCC pixel formats are not supported
 Failed getting OpenGL glGetError entry point
 Failed getting OpenGL glGetFramebufferAttachmentParameteriv entry point
@@ -310,12 +285,12 @@ Failed getting OpenGL glGetString entry point
 Failed loading 
 Failed to compile shader:\n%s%s\n%s
 Failed to create message window for joystick autodetect
+Failed to create notify device for joystick autodetect
 Failed to create register class for joystick autodetect
 Failed to link shader program
 Failed to load the shader
 Failed to load the shader: %s
 Failed to obtain XInput device capabilities. Device disconnected?
-Fc?u(5
 File is not a Windows BMP file
 Find
 FormatMessageW
@@ -329,6 +304,7 @@ GLES2_RenderCopy
 GLES2_RenderCopyEx
 GLES2_RenderDrawLines
 GLES2_RenderFillRects
+GLES2_RenderReadPixels
 GLES2_ResetState
 GLES2_UpdateTexture
 GLES2_UpdateTextureYUV
@@ -342,6 +318,7 @@ GL_ARB_texture_non_power_of_two
 GL_ARB_texture_rectangle
 GL_ARB_vertex_shader
 GL_CreateTexture
+GL_DestroyRenderer
 GL_EXT_framebuffer_object
 GL_EXT_texture_rectangle
 GL_INVALID_ENUM
@@ -357,6 +334,7 @@ GL_RenderReadPixels
 GL_ResetState
 GL_STACK_OVERFLOW
 GL_STACK_UNDERFLOW
+GL_TABLE_TOO_LARGE
 GL_UpdateTexture
 GL_UpdateTextureYUV
 GL_UpdateViewport
@@ -422,6 +400,7 @@ GlobalAlloc
 GlobalLock
 GlobalMemoryStatusEx
 GlobalUnlock
+Haptic error %s
 Haptic: Autocenter must be between 0 and 100.
 Haptic: Device does not support setting autocenter.
 Haptic: Device does not support setting gain.
@@ -432,6 +411,7 @@ Haptic: Effect not supported by haptic device.
 Haptic: Gain must be between 0 and 100.
 Haptic: Internal error on finding supported effects.
 Haptic: Invalid effect identifier.
+Haptic: Invalid haptic device identifier
 Haptic: Joystick isn't a haptic device.
 Haptic: Joystick isn't valid.
 Haptic: Mouse isn't a haptic device.
@@ -598,7 +578,6 @@ Mixing buffer was lost
 ModeSwitch
 MulDiv
 Mute
-NEJ(~
 NOTAVAILABLE
 NOTFOUND
 Negative swap interval unsupported in this GL
@@ -639,14 +618,13 @@ OpenGL shaders: %s
 Oper
 Out of memory
 OutputDebugStringW
-PIDVID8y\v
-PIDVID^
 PINTLGNT.IME
 PageDown
 PageUp
 Palettized textures are not supported
 Parameter '%s' is invalid
 Passed NULL cursor surface
+Passed NULL destination surface
 Passed a NULL condition variable
 Passed a NULL mutex
 Passed a NULL sem
@@ -656,12 +634,12 @@ Pause
 Pausing the device
 PeekMessageW
 Power
+Present()
 PrintScreen
 Prior
 QueryPerformanceCounter
 QueryPerformanceFrequency
 Querying DirectInput interface
-RSDS"
 ReadFile
 RegisterClassExW
 RegisterClassW
@@ -1417,7 +1395,6 @@ SystemParametersInfoA
 SystemParametersInfoW
 TINTLGNT.IME
 TOOMANYOPERATIONS
-TTar
 Texture dimensions are limited to %dx%d
 Texture dimensions can't be 0
 Texture format %s not supported by OpenGL
@@ -1480,7 +1457,7 @@ UTF32
 UTF32BE
 UTF32LE
 UTF8
-UUUUU
+UUUUUU
 Unable to create DIB
 Unable to create DXGI interface
 Unable to create Direct3D interface
@@ -1490,6 +1467,7 @@ Unable to create effect
 Unable to destroy Helper Window
 Unable to destroy Helper Window Class
 Unable to lock destination surface
+Unable to lock source surface
 Unable to make EGL context current
 Unable to stop effect
 Unable to update effect
@@ -1515,6 +1493,7 @@ Unrecognized file type (not WAVE)
 UnregisterClassW
 UnregisterDeviceNotification
 Unsupported YUV destination format
+Unsupported YUV format
 Unsupported YUV format in copy
 Unsupported audio format
 Unsupported interface -- Is DirectX 8.0 or later installed?
@@ -1586,7 +1565,6 @@ Yplane
 _SDL_DummySurface
 _SDL_WindowRenderData
 _SDL_WindowTextureData
-`5Sf
 `ff9@No displays available
 a_angle
 a_center
@@ -1598,13 +1576,11 @@ always_ignore
 back
 break
 c:\buildslave\sdl_win32\build\dev\VisualC\Win32\Release\SDL2.pdb
-c\t4
 callback
 could not read any dollar gesture from rwops
 count
 d3dcompiler_43.dll
 d3dcompiler_46.dll
-dNtsq
 direct-to-disk audio
 direct3d
 directsound
@@ -1617,7 +1593,6 @@ dpup
 dst_pitch
 dummy
 e8206058000000000000504944564944,Cideko AK08b,a:b2,b:b1,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,leftshoulder:b4,leftstick:b10,lefttrigger:b6,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b11,righttrigger:b7,rightx:a2,righty:a3,start:b9,x:b3,y:b0,
-eFlv!@r
 eglBindAPI
 eglChooseConfig
 eglCreateContext
@@ -1654,6 +1629,7 @@ glBindTexture
 glBlendFunc
 glBlendFuncSeparate
 glBufferData
+glBufferSubData
 glCheckFramebufferStatus
 glCheckFramebufferStatusEXT
 glClear
@@ -1757,7 +1733,6 @@ imm32.dll
 index must be -1 or in the range of 0 - %d
 index must be in the range of 0 - %d
 info
-k\vtH
 leftshoulder
 leftstick
 lefttrigger
@@ -1776,11 +1751,9 @@ messageboxdata
 min_h
 min_w
 mode
-n5Failed to create notify device for joystick autodetect
 name
 ncolors
 nearest
-nmP:F
 no gesture touch devices registered
 none
 numrects
@@ -1788,18 +1761,16 @@ ole32.dll
 opengl
 opengles2
 outputIndex
-p?ramp
-p@ERROR: NumPoints = %i\n
 palette
 pitch
 pixels
 platform:
 points
+ramp
 rect
 rects
 result
 retry
-ri7f>
 rightshoulder
 rightstick
 righttrigger
@@ -1824,7 +1795,6 @@ u_projection
 u_texture
 u_texture_u
 u_texture_v
-v@GLES2_RenderReadPixels
 varying vec4 v_color;\n\nvoid main()\n{\n    gl_FragColor = v_color;\n}
 varying vec4 v_color;\n\nvoid main()\n{\n    gl_Position = gl_ModelViewProjectionMatrix * gl_Vertex;\n    v_color = gl_Color;\n}
 varying vec4 v_color;\nvarying vec2 v_texCoord;\n\nvoid main()\n{\n    gl_Position = gl_ModelViewProjectionMatrix * gl_Vertex;\n    v_color = gl_Color;\n    v_texCoord = vec2(gl_MultiTexCoord0);\n}

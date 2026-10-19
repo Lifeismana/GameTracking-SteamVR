@@ -1,7 +1,5 @@
                           
- !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
  !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
- !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
  Base Class Array'
  Base Class Descriptor at (
  Class Hierarchy Descriptor'
@@ -10,10 +8,8 @@
  delete
  delete[]
  new
-( 8PX
 ('8PW
 (null)
--64OS
 .?AVCAitStreamGraph@@
 .?AVUsbScsiCmd@@
 .?AVbad_alloc@std@@
@@ -179,7 +175,6 @@ FlushFileBuffers
 FreeEnvironmentStringsA
 FreeEnvironmentStringsW
 Friday
-GAIsProcessorFeaturePresent
 GetACP
 GetActiveWindow
 GetCPInfo
@@ -217,7 +212,6 @@ GetTickCount
 GetUserObjectInformationA
 GetWindowsDirectoryW
 HH:mm:ss
-HMXB
 HeapAlloc
 HeapCreate
 HeapDestroy
@@ -228,8 +222,8 @@ InitializeCriticalSectionAndSpinCount
 InterlockedDecrement
 InterlockedIncrement
 IsDebuggerPresent
+IsProcessorFeaturePresent
 IsValidCodePage
-J\rr3u
 JanFebMarAprMayJunJulAugSepOctNovDec
 January
 July
@@ -240,6 +234,7 @@ LCMapStringA
 LCMapStringW
 LeaveCriticalSection
 LoadLibraryA
+MJPG
 MM/dd/yy
 March
 MessageBoxA
@@ -247,7 +242,6 @@ MessageBoxW
 Microsoft Visual C++ Runtime Library
 Monday
 MultiByteToWideChar
-NKeb
 NV12_to_RGB
 November
 OLEAUT32.dll
@@ -274,12 +268,10 @@ R6031\r\n- Attempt to initialize the CRT more than once.\nThis indicates a bug i
 R6032\r\n- not enough space for locale information\r\n
 R6033\r\n- Attempt to use MSIL code from this assembly during native code initialization\nThis indicates a bug in your application. It is most likely the result of calling an MSIL-compiled (/clr) function from a native constructor or from DllMain.\r\n
 R6034\r\nAn application has made an attempt to load the C runtime library incorrectly.\nPlease contact the application's support team for more information.\r\n
-RSDSwu
 RaiseException
 ReadFile
 RtlUnwind
 Runtime Error!\n\nProgram: 
-S;uD
 SHLWAPI.dll
 SING error\r\n
 Saturday
@@ -316,7 +308,6 @@ USER32.DLL
 USER32.dll
 UnhandledExceptionFilter
 Unknown exception
-Vbad allocation
 VirtualAlloc
 VirtualFree
 WaitForSingleObject
@@ -352,7 +343,6 @@ __unaligned
 `eh vector destructor iterator'
 `eh vector vbase constructor iterator'
 `eh vector vbase copy constructor iterator'
-`h`hhh
 `local static guard'
 `local static thread guard'
 `local vftable constructor closure'
@@ -379,16 +369,11 @@ __unaligned
 `vftable'
 `virtual displacement map'
 abcdefghijklmnopqrstuvwxyz
+bad allocation
 bad exception
 d:\VCProject\Namuga\AitH264CamSample\release\AitUVCExtApi.pdb
 dddd, MMMM dd, yyyy
 e+000
-kU'9
 ole32.dll
 operator
-qMJPG
 runtime error 
-xppwpp
-xpxxxx
-z?aUY
-zc%C1

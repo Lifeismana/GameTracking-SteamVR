@@ -1,8 +1,6 @@
                           
- !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
  !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
- !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
-#D5p
+%1.3f 
 %dx%d -> %dx%d is invalid scaling dimension\n
 %dx%d -> %dx%d\n
 %ibpp not supported by yuv2rgb\n
@@ -10,7 +8,6 @@
 %s is not supported as output pixel format\n
 %s output is not supported with half chroma resolution, switching to full\n
 --prefix=/c/buildslave/libav_win32/build/dev/build_win32 --toolchain=msvc --enable-shared --disable-static --enable-runtime-cpudetect --disable-all --enable-avcodec --enable-avutil --enable-avresample --enable-avformat --enable-swscale --enable-parser=h264 --enable-decoder='aac,h264,vp8,vp9,gif,vorbis' --enable-demuxer='aac,matroska,gif,ogg,mov' --enable-hwaccels --enable-dxva2 --disable-decoder=mpeg1video --disable-decoder=mpeg2video --disable-decoder=vc1 --disable-decoder=h263 --enable-libvpx
--64OS
 0P(H6V.Np
 1#IND
 1#INF
@@ -19,39 +16,20 @@
 2ieO=
 333333
 4T,L2R*Jt
-4g%6
-<8bunz8
-<@En[vP
-?1mm
-?3xj
-?5a1
-?7Tf(
 ?IT$7
-?Ltm
-?PiB
-?RbSQ
-?UUUUUU
-?X&eB
-?pow
-?uZEeu
-@VNQ
 ABCDEFGHIJKLMNOPQRSTUVWXYZ
-Ai0T
-AiFC.
 April
 Area Averaging scaler, 
 Assertion %s failed at %s:%d\n
 August
 BICUBIC scaler, 
 BILINEAR scaler, 
-Bfe9
 Bicubic spline scaler, 
 Cannot allocate memory.\n
 CloseThreadpoolTimer
 CloseThreadpoolWait
 CompareStringEx
 CorExitProcess
-CqTR;
 CreateEventExW
 CreateSemaphoreExW
 CreateSymbolicLinkW
@@ -62,7 +40,6 @@ Eb2]A=
 EnumSystemLocalesEx
 Exactly one scaler algorithm must be chosen\n
 Experimental scaler, 
-F0$?3=1
 FAST_BILINEAR scaler, 
 February
 FlsAlloc
@@ -88,30 +65,21 @@ GetTimeFormatEx
 GetUserDefaultLocaleName
 GetUserObjectInformationW
 HH:mm:ss
-HMXB
-Ht=c
 InitializeCriticalSectionEx
 IsValidLocaleName
 January
 July
 June
 LCMapStringEx
-La8i
 Lanczos scaler, 
-Le?2
 MM/dd/yy
 March
 MessageBoxW
-MkK?
 Monday
-NKeb
 Nearest Neighbor / POINT scaler, 
 No accelerated colorspace conversion found from %s to %s.\n
 November
 October
-Pex?0
-RSDS-T
-S;uD
 SWScaler
 Saturday
 September
@@ -127,12 +95,11 @@ SwScaler: reducing / aligning filtersize %d -> %d\n
 SystemFunction036
 Thursday
 Tuesday
-T~OXu
 Unknown format
+V%A+=
 WaitForThreadpoolTimerCallbacks
 Warning: dstStride is not aligned!\n         ->cannot do aligned memory accesses anymore\n
 Wednesday
-X4I+
 _cabs
 _hypot
 _logb
@@ -156,7 +123,6 @@ bitexact
 c:\buildslave\libav_win32\build\dev\libswscale/swscale_internal.h
 c:\buildslave\libav_win32\build\dev\libswscale\libswscale-3.pdb
 c:\buildslave\libav_win32\build\dev\libswscale\swscale_internal.h
-c?e2
 ceil
 chr srcW=%d srcH=%d dstW=%d dstH=%d xInc=%d yInc=%d\n
 cosh
@@ -171,11 +137,9 @@ dst_range
 dsth
 dstw
 e+000
-e<bN
 ehh flags invalid?! 
 exp10
 experimental
-fUUU
 fabs
 fast bilinear
 fast_bilinear
@@ -190,13 +154,8 @@ full_chroma_inp
 full_chroma_int
 gauss
 gaussian
-hI{L[
-hb?O2
 internal error %s -> %s converter\n
 j\n @8X&F>^`
-k:UG
-kU'9
-l,kg<i
 lanczos
 ldexp
 libswscale license: LGPL version 2.1 or later
@@ -208,19 +167,16 @@ ls1=
 lum srcW=%d srcH=%d dstW=%d dstH=%d xInc=%d yInc=%d\n
 luma BICUBIC / chroma BILINEAR scaler, 
 luma bicubic, chroma bilinear
-m1WY$
 modf
 natural bicubic spline
 nearest neighbor
 neighbor
-np?z 
 param0
 param1
 pnJ=
 print info
 print_info
 r7Yr7=
-sU0&?W
 scaler flags
 scaler param 0
 scaler param 1
@@ -274,17 +230,10 @@ swscale_configuration
 swscale_license
 swscale_version
 swscaler
-tLVv
 tanh
 u?^p?o4
 uXO=
-uZEeu
 unsupported planar RGB conversion %s -> %s\n
 using C\n
 using unscaled %s -> %s special converter\n
-z1}B
-z?aUY
-zc%C1
-zyC7
-{4Wf
 |W8A=

@@ -16,7 +16,12 @@
    Usage:
    mat_print_shader_info: Error! Shader "%s" not loaded!\n
   %2d: FontHandle:0x%8.8llx, %s, %s, font:%s, tall:%f.0%s\n
+ %*s
+ %2dx 
+ %3d:
+ %5d
  %7sK
+ %7sK 
  ( %d references )
  ( def. "%s" )
  (Fallback Shader)
@@ -49,6 +54,8 @@
  [error.vfx]
  mat_print_material_info <mod\path\file.vmat>\n
  mat_print_shader_info <file.vfx> [options]\n
+ max. %f
+ min. %f
  using substring "%s"
 "%s" = "%s"
 "ikrig
@@ -62,6 +69,7 @@
 #line
 #undef
 $ORIGIN
+%*s 
 %-120s - %s\n
 %-120s\n
 %.15lf
@@ -70,6 +78,8 @@ $ORIGIN
 %15.15s 
 %6d %-50s
 %6s %-50s %5s %5s %5s %5s %5s %5s %5s %10s\n
+%d..%d
+%d..%d\n
 %f %f %f %f
 %i %i %i %i
 %lld
@@ -80,9 +90,13 @@ $ORIGIN
 %s allocation count overflow( %llu > %llu )\n
 %s allocation count overflow( %llu >= %llu )\n
 %s allocation count overflow( add %llu + current %llu > max %llu )\n
+%s%d
+%s%s
+%s%s-%s
 %s() isn't a known function.
 %s(): Trying to add an empty VS input signature\n
 %s+-- Schema Class: %s\n
+%s: %s\n
 %s: Input vector has incorrect length\n
 %s: Warning: No compile targets specified! Shader will not be compiled!\n
 %s: string format requested %d chars\n
@@ -165,8 +179,6 @@ $ORIGIN
 ../public/tier1/utlrbtree.h
 ../public/tier1/utlsymbol.h
 ../public/tier1/utltshash.h
-.M;UU
-.eB5
 .ini
 .vcs
 .vfont
@@ -275,7 +287,6 @@ $ORIGIN
 28ISchemaCollectionManipulator
 29IRuntimeShaderCreateCallbacks
 31CCompileTargetExprOpCodeHandler
-333?B`
 33CBaseIntrospectedToKV3TypeManager
 34CKV3Transfer_ResourceLoadInterface
 34IKV3TransferInterface_ResourceLoad
@@ -294,7 +305,6 @@ $ORIGIN
 4_1_vulkan
 5_0_gl
 5_0_vulkan
-5t~BC
 6ConVar
 7IConVar
 8CFmtStrNILi256ELb0EE
@@ -741,7 +751,6 @@ DynamicCombo
 DynamicComboFromFeature
 DynamicComboRule
 DynamicConfigList
-E3:0
 EMaterialReloaded
 ERROR!
 ERROR! Renderable pass data is being used across frame boundaries! Renderable pass has frame count %u. Current frame count is %u.\n
@@ -951,7 +960,6 @@ LoggingSystem_Log(int, LoggingSeverity_t, LeafCodeInfo_t const&, char const*, ..
 LoggingSystem_Log(int, LoggingSeverity_t, LoggingMetaData_t const*, Color, char const*, ...)
 LoggingSystem_LogDirect
 LoggingSystem_RegisterLoggingChannel
-LrwcE
 MATCHFRAMEWORK_001
 MClassHasCustomAlignedNewDelete
 MD5 match on %s, loading from vcs\n
@@ -1139,7 +1147,6 @@ Plat_ShouldCollectMiniDumpsForFatalErrors
 Plat_UUIDFromString
 Plat_UUIDToString
 Plat_UnloadModule
-Po5H
 Polygon too large (%d points / max %d, %d indices / max %d), ignoring
 PostProcessing
 PostProcessingBloomParameters_t
@@ -1236,7 +1243,6 @@ ResourceCompilerSystem001
 ResourceHandleUtils001
 ResourceManifestRegistry001
 ResourceSystem013
-S+Ot
 SHADER_SOURCE
 SHADER_SOURCE_ROOT
 SSE and SSE2 are required.
@@ -1300,6 +1306,7 @@ StaticCombo
 StaticComboRule
 StatsService_001
 SteamAudio001
+Tag: %s \n
 TestFormatA
 TestFormatB
 TestFormatC
@@ -1592,7 +1599,6 @@ ZN37CTypesafeIntrospectedToKV3TypeManagerILy500152889462E24PostProcessingResourc
 \n*** vfx_common.cpp(5608): Error opening file "%s"!\n\n
 \n*** vfx_common.cpp(5712): Error opening file "%s"!\n\n
 \n//-----------------------------------\n
-\nCwf\r
 \nPS_RENDER_STATE
 \nSkipped %d%% of all combos\n
 \nUsage: mat_assert_on_shader_use [shader_substring]\n       (no arguments disables the assert)\n\nExample: mat_assert_on_shader_use error.vfx - Assert when the error shader is used\n         mat_assert_on_shader_use sky       - Assert when sky.vfx or sky_cheap.vfx is used\n\n
@@ -1708,7 +1714,6 @@ break_uniform_burst
 breakable_count
 breakable_model
 breakable_skin
-bt3V
 burst_randomize
 burst_scale
 cable
@@ -1837,7 +1842,6 @@ is_debris
 keyvalues.cpp
 kv3format_manager.cpp
 last_sniff
-lcQe
 ld-linux-x86-64.so.2
 length
 lerp
@@ -1860,7 +1864,6 @@ loop_break_on_damage
 loop_break_on_flashlight
 loop_in_action
 looping
-mXr4
 m_Bone
 m_ChainData
 m_Children
@@ -2184,7 +2187,6 @@ nBatchIndices <= nMaxIndexCountPerPass
 nCachePage >= 0 && nCachePage < m_PageList.Count()
 nCombos
 nTries < 10000000
-n\f"pA3Q
 nav_attribute_avoid
 nav_data
 near '%c' :\n
@@ -2395,7 +2397,5 @@ wcslen
 width
 yaw_end
 yaw_start
-z:KEZ
-{YIN?
 {}[]()=&, \t\n'"*;
 {}[]=, \t\n'":|;

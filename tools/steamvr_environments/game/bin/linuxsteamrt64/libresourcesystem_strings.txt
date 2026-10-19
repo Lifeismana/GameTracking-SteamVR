@@ -2,6 +2,8 @@
  ( def. "%s" )
  -> Matched %d of %d loaded resources\n
  [%.3f server clamped to %.3f]
+ max. %f
+ min. %f
 !m_bNeedsSort
 "%s" = "%s"
 $ORIGIN
@@ -15,9 +17,13 @@ $ORIGIN
 %d Strong handle references (Still holding onto a CStrongHandle somewhere)\n
 %i %i %i %i
 %lld
+%lld, 
 %llu
 %s$Fence%d
+%s%d
+%s%s
 %s%s%s%s\nFinal operation count %llu
+%s.%s
 %s: string format requested %d chars\n
 %sResource System profile stats unavailable. Compile with RESOURCE_SYSTEM_GATHER_STATS as 1 to gather stats.\n
 (None)
@@ -114,7 +120,6 @@ $ORIGIN
 34CSchemaRegistration_resourcesystem
 34CVConResourceProfileCommandHandler
 36CSchemaRegistration_mathlib_extended
-5t~BC
 6ConVar
 7IConVar
 8CFmtStrNILi256ELb0EE
@@ -129,6 +134,7 @@ $ORIGIN
 <unknown>
 ?Trailing Data
 ?ikrig
+@%hu
 AABB_t
 AE_ACTION_SET_TURN_RATE_SCALE
 AE_BLIND_ZOMBIE_SNIFF
@@ -436,7 +442,6 @@ DevMsg(char const*, ...)
 DotaCardGameClient_001
 Double-register of KV3 conversion (from '%s' to '%s')
 DynamicConfigList
-E3:0
 ENABLED
 ERROR: %s resource %016llX is the wrong resource type!\n
 ERROR: %s resource %016llX requested but not resident. (Missing from from a manifest?)\n
@@ -605,7 +610,6 @@ LoggingSystem_Log(int, LoggingSeverity_t, LoggingMetaData_t const*, Color, char 
 LoggingSystem_LogDirect
 LoggingSystem_RegisterLoggingChannel
 LoggingSystem_SetChannelVerbosity
-LrwcE
 MATCHFRAMEWORK_001
 MATERIAL_LIGHT_DIRECTIONAL
 MATERIAL_LIGHT_DISABLE
@@ -701,7 +705,6 @@ Plat_TickDiffMilliSecF
 Plat_USTime
 Plat_UUIDFromString
 Plat_UUIDToString
-Po5H
 PostProcessingSystem_001
 PreviewAttachmentModel
 PreviewBoneAttachedModel
@@ -756,7 +759,6 @@ ResourceSystem
 ResourceSystem/SpewBlockingLoads
 ResourceSystem013
 ResourceSystemWaitingForFutureWork
-S+Ot
 SSE and SSE2 are required.
 SceneSystem_002
 SceneUtils_001
@@ -940,7 +942,6 @@ WorkshopSetup001
 WorldRendererBuilderMgr001
 WorldRendererMgr001
 [refcount % 4d] 
-\nCwf\r
 \rvrnmd
 \tIndividual reference records '%s'\n
 \tRKS_DEFAULT = 
@@ -1025,7 +1026,6 @@ break_uniform_burst
 breakable_count
 breakable_model
 breakable_skin
-bt3V
 burst_randomize
 burst_scale
 cable
@@ -1115,7 +1115,6 @@ keep_all_records
 keepall
 kv3format_manager.cpp
 last_sniff
-lcQe
 ld-linux-x86-64.so.2
 length
 libc.so.6
@@ -1135,7 +1134,6 @@ loop_break_on_damage
 loop_break_on_flashlight
 loop_in_action
 looping
-mXr4
 m_Attenuation0
 m_Attenuation1
 m_Attenuation2
@@ -1341,7 +1339,6 @@ modeldoc8
 modeldoc9
 multiplayer_break
 nTries < 10000000
-n\f"pA3Q
 nav_attribute_avoid
 nav_data
 nogroup
@@ -1526,9 +1523,7 @@ wcscmp
 wcslen
 yaw_end
 yaw_start
-z:KEZ
 zero
-{YIN?
 {}[]()=&, \t\n'"*;
 {}[]=, \t\n'":|;
 ~CLoadingResource

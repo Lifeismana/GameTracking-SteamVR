@@ -1,4 +1,3 @@
-#3/"C3s\Y
 *NSt13__future_base15_Deferred_stateISt12_Bind_simpleIFZN16EnvironmentProxy21environmentalRendererEvEUlPvS3_20IPLRenderingSettings14IPLAudioFormatE_S3_S3_S4_S5_EES3_EE
 *NSt13__future_base17_Async_state_implISt12_Bind_simpleIFZN16EnvironmentProxy21environmentalRendererEvEUlPvS3_20IPLRenderingSettings14IPLAudioFormatE_S3_S3_S4_S5_EES3_EE
 *NSt6thread5_ImplISt12_Bind_simpleIFZNSt13__future_base17_Async_state_implIS1_IFZN16EnvironmentProxy21environmentalRendererEvEUlPvS5_20IPLRenderingSettings14IPLAudioFormatE_S5_S5_S6_S7_EES5_EC1EOSA_EUlvE_vEEEE
@@ -172,63 +171,6 @@ _ITM_registerTMCloneTable
 _Jv_RegisterClasses
 _Unwind_Resume
 _Unwind_Resume@@GCC_3.0
-_ZNKSs13find_first_ofEPKcmm@@GLIBCXX_3.4
-_ZNKSs4findEPKcmm@@GLIBCXX_3.4
-_ZNKSs7compareEPKc@@GLIBCXX_3.4
-_ZNKSt8__detail20_Prime_rehash_policy11_M_next_bktEm@@GLIBCXX_3.4.18
-_ZNKSt8__detail20_Prime_rehash_policy14_M_need_rehashEmmm@@GLIBCXX_3.4.18
-_ZNSs4_Rep10_M_destroyERKSaIcE@@GLIBCXX_3.4
-_ZNSs4_Rep10_M_disposeERKSaIcE@@GLIBCXX_3.4
-_ZNSs4_Rep20_S_empty_rep_storageE@@GLIBCXX_3.4
-_ZNSs4swapERSs@@GLIBCXX_3.4
-_ZNSs6insertEmPKcm@@GLIBCXX_3.4
-_ZNSsC1EPKcRKSaIcE@@GLIBCXX_3.4
-_ZNSsC1ERKSs@@GLIBCXX_3.4
-_ZNSsC1ERKSsmm@@GLIBCXX_3.4
-_ZNSt11logic_errorC2ERKSs@@GLIBCXX_3.4
-_ZNSt12future_errorD1Ev@@GLIBCXX_3.4.14
-_ZNSt13__future_base11_State_baseD2Ev@@GLIBCXX_3.4.15
-_ZNSt13__future_base12_Result_baseC2Ev@@GLIBCXX_3.4.15
-_ZNSt13__future_base12_Result_baseD2Ev@@GLIBCXX_3.4.15
-_ZNSt15__exception_ptr13exception_ptr4swapERS0_@@CXXABI_1.3.3
-_ZNSt15__exception_ptr13exception_ptrC1ERKS0_@@CXXABI_1.3.3
-_ZNSt15__exception_ptr13exception_ptrD1Ev@@CXXABI_1.3.3
-_ZNSt15__exception_ptreqERKNS_13exception_ptrES2_@@CXXABI_1.3.3
-_ZNSt18condition_variable10notify_allEv@@GLIBCXX_3.4.11
-_ZNSt18condition_variable10notify_oneEv@@GLIBCXX_3.4.11
-_ZNSt18condition_variable4waitERSt11unique_lockISt5mutexE@@GLIBCXX_3.4.11
-_ZNSt18condition_variableC1Ev@@GLIBCXX_3.4.11
-_ZNSt18condition_variableD1Ev@@GLIBCXX_3.4.11
-_ZNSt6chrono3_V212system_clock3nowEv@@GLIBCXX_3.4.19
-_ZNSt6thread15_M_start_threadESt10shared_ptrINS_10_Impl_baseEE@@GLIBCXX_3.4.11
-_ZNSt6thread4joinEv@@GLIBCXX_3.4.11
-_ZNSt9exceptionD1Ev@@GLIBCXX_3.4
-_ZNSt9exceptionD2Ev@@GLIBCXX_3.4
-_ZSt11_Hash_bytesPKvmm@@CXXABI_1.3.5
-_ZSt11__once_call@@GLIBCXX_3.4.11
-_ZSt15__once_callable@@GLIBCXX_3.4.11
-_ZSt15future_categoryv@@GLIBCXX_3.4.15
-_ZSt17__throw_bad_allocv@@GLIBCXX_3.4
-_ZSt17current_exceptionv@@CXXABI_1.3.3
-_ZSt17rethrow_exceptionNSt15__exception_ptr13exception_ptrE@@CXXABI_1.3.3
-_ZSt20__throw_future_errori@@GLIBCXX_3.4.14
-_ZSt20__throw_length_errorPKc@@GLIBCXX_3.4
-_ZSt20__throw_system_errori@@GLIBCXX_3.4.11
-_ZSt25__throw_bad_function_callv@@GLIBCXX_3.4.14
-_ZSt9terminatev@@GLIBCXX_3.4
-_ZTINSt13__future_base11_State_baseE@@GLIBCXX_3.4.15
-_ZTINSt13__future_base12_Result_baseE@@GLIBCXX_3.4.15
-_ZTISt12future_error@@GLIBCXX_3.4.14
-_ZTISt9exception@@GLIBCXX_3.4
-_ZTVN10__cxxabiv117__class_type_infoE@@CXXABI_1.3
-_ZTVN10__cxxabiv119__pointer_type_infoE@@CXXABI_1.3
-_ZTVN10__cxxabiv120__si_class_type_infoE@@CXXABI_1.3
-_ZTVNSt13__future_base11_State_baseE@@GLIBCXX_3.4.15
-_ZTVSt11logic_error@@GLIBCXX_3.4
-_ZTVSt12future_error@@GLIBCXX_3.4.14
-_ZTVSt9exception@@GLIBCXX_3.4
-_ZdlPv@@GLIBCXX_3.4
-_Znwm@@GLIBCXX_3.4
 __FRAME_END__
 __JCR_END__
 __JCR_LIST__
@@ -381,7 +323,9 @@ memset@@GLIBC_2.2.5
 mix_return_effect.cpp
 onLoad()
 operator delete(void*)
+operator delete(void*)@@GLIBCXX_3.4
 operator new(unsigned long)
+operator new(unsigned long)@@GLIBCXX_3.4
 processAmbisonicDecoder(UnityAudioEffectState*, float*, float*, unsigned int, int, int)
 processMixEffect(UnityAudioEffectState*, float*, float*, unsigned int, int, int)
 processReverbEffect(UnityAudioEffectState*, float*, float*, unsigned int, int, int)
@@ -417,6 +361,7 @@ std::_Function_handler<void* (), AudioEngineSettings::createPendingBinauralRende
 std::_Function_handler<void* (), std::reference_wrapper<std::_Bind_simple<EnvironmentProxy::environmentalRenderer()::'lambda'(void*, void*, IPLRenderingSettings, IPLAudioFormat) (void*, void*, IPLRenderingSettings, IPLAudioFormat)>>>::_M_invoke(std::_Any_data const&)
 std::_Function_handler<void* (), std::reference_wrapper<std::_Bind_simple<std::reference_wrapper<std::function<void* ()>> ()>>>::_M_invoke(std::_Any_data const&)
 std::_Hash_bytes(void const*, unsigned long, unsigned long)
+std::_Hash_bytes(void const*, unsigned long, unsigned long)@@CXXABI_1.3.5
 std::_Hashtable<std::string, std::pair<std::string const, BinauralRendererInfo>, std::allocator<std::pair<std::string const, BinauralRendererInfo>>, std::__detail::_Select1st, std::equal_to<std::string>, std::hash<std::string>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, false, true>>::_M_insert_unique_node(unsigned long, unsigned long, std::__detail::_Hash_node<std::pair<std::string const, BinauralRendererInfo>, true>*)
 std::_Hashtable<std::string, std::pair<std::string const, BinauralRendererInfo>, std::allocator<std::pair<std::string const, BinauralRendererInfo>>, std::__detail::_Select1st, std::equal_to<std::string>, std::hash<std::string>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, false, true>>::clear()
 std::_Hashtable<std::string, std::pair<std::string const, BinauralRendererInfo>, std::allocator<std::pair<std::string const, BinauralRendererInfo>>, std::__detail::_Select1st, std::equal_to<std::string>, std::hash<std::string>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, false, true>>::find(std::string const&)
@@ -454,11 +399,17 @@ std::_Sp_counted_ptr_inplace<std::thread::_Impl<std::_Bind_simple<void (*(Worker
 std::__basic_future<void*>::_Reset::~_Reset()
 std::__detail::_Map_base<std::string, std::pair<std::string const, BinauralRendererInfo>, std::allocator<std::pair<std::string const, BinauralRendererInfo>>, std::__detail::_Select1st, std::equal_to<std::string>, std::hash<std::string>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, false, true>, true>::operator[](std::string&&)
 std::__detail::_Prime_rehash_policy::_M_need_rehash(unsigned long, unsigned long, unsigned long) const
+std::__detail::_Prime_rehash_policy::_M_need_rehash(unsigned long, unsigned long, unsigned long) const@@GLIBCXX_3.4.18
 std::__detail::_Prime_rehash_policy::_M_next_bkt(unsigned long) const
+std::__detail::_Prime_rehash_policy::_M_next_bkt(unsigned long) const@@GLIBCXX_3.4.18
 std::__exception_ptr::exception_ptr::exception_ptr(std::__exception_ptr::exception_ptr const&)
+std::__exception_ptr::exception_ptr::exception_ptr(std::__exception_ptr::exception_ptr const&)@@CXXABI_1.3.3
 std::__exception_ptr::exception_ptr::swap(std::__exception_ptr::exception_ptr&)
+std::__exception_ptr::exception_ptr::swap(std::__exception_ptr::exception_ptr&)@@CXXABI_1.3.3
 std::__exception_ptr::exception_ptr::~exception_ptr()
+std::__exception_ptr::exception_ptr::~exception_ptr()@@CXXABI_1.3.3
 std::__exception_ptr::operator==(std::__exception_ptr::exception_ptr const&, std::__exception_ptr::exception_ptr const&)
+std::__exception_ptr::operator==(std::__exception_ptr::exception_ptr const&, std::__exception_ptr::exception_ptr const&)@@CXXABI_1.3.3
 std::__future_base::_Async_state_common::_M_run_deferred()
 std::__future_base::_Async_state_common::~_Async_state_common()
 std::__future_base::_Async_state_impl<std::_Bind_simple<EnvironmentProxy::environmentalRenderer()::'lambda'(void*, void*, IPLRenderingSettings, IPLAudioFormat) (void*, void*, IPLRenderingSettings, IPLAudioFormat)>, void*>::~_Async_state_impl()
@@ -467,57 +418,93 @@ std::__future_base::_Deferred_state<std::_Bind_simple<EnvironmentProxy::environm
 std::__future_base::_Result<void*>::_M_destroy()
 std::__future_base::_Result<void*>::~_Result()
 std::__future_base::_Result_base::_Result_base()
+std::__future_base::_Result_base::_Result_base()@@GLIBCXX_3.4.15
 std::__future_base::_Result_base::~_Result_base()
+std::__future_base::_Result_base::~_Result_base()@@GLIBCXX_3.4.15
 std::__future_base::_State_base::_M_do_set(std::function<std::unique_ptr<std::__future_base::_Result_base, std::__future_base::_Result_base::_Deleter> ()>&, bool&)
 std::__future_base::_State_base::_M_run_deferred()
 std::__future_base::_State_base::~_State_base()
+std::__future_base::_State_base::~_State_base()@@GLIBCXX_3.4.15
 std::__future_base::_Task_state<std::function<void* ()>, std::allocator<int>, void* ()>::_M_reset()
 std::__future_base::_Task_state<std::function<void* ()>, std::allocator<int>, void* ()>::_M_run()
 std::__future_base::_Task_state<std::function<void* ()>, std::allocator<int>, void* ()>::~_Task_state()
 std::__future_base::_Task_state_base<void* ()>::~_Task_state_base()
 std::__once_call
+std::__once_call@@GLIBCXX_3.4.11
 std::__once_callable
+std::__once_callable@@GLIBCXX_3.4.11
 std::__throw_bad_alloc()
+std::__throw_bad_alloc()@@GLIBCXX_3.4
 std::__throw_bad_function_call()
+std::__throw_bad_function_call()@@GLIBCXX_3.4.14
 std::__throw_future_error(int)
+std::__throw_future_error(int)@@GLIBCXX_3.4.14
 std::__throw_length_error(char const*)
+std::__throw_length_error(char const*)@@GLIBCXX_3.4
 std::__throw_system_error(int)
+std::__throw_system_error(int)@@GLIBCXX_3.4.11
 std::basic_string<char, std::char_traits<char>, std::allocator<char>>::basic_string(char const*, std::allocator<char> const&)
+std::basic_string<char, std::char_traits<char>, std::allocator<char>>::basic_string(char const*, std::allocator<char> const&)@@GLIBCXX_3.4
 std::basic_string<char, std::char_traits<char>, std::allocator<char>>::basic_string(std::string const&)
+std::basic_string<char, std::char_traits<char>, std::allocator<char>>::basic_string(std::string const&)@@GLIBCXX_3.4
 std::basic_string<char, std::char_traits<char>, std::allocator<char>>::basic_string(std::string const&, unsigned long, unsigned long)
+std::basic_string<char, std::char_traits<char>, std::allocator<char>>::basic_string(std::string const&, unsigned long, unsigned long)@@GLIBCXX_3.4
 std::chrono::_V2::system_clock::now()
+std::chrono::_V2::system_clock::now()@@GLIBCXX_3.4.19
 std::condition_variable::condition_variable()
+std::condition_variable::condition_variable()@@GLIBCXX_3.4.11
 std::condition_variable::notify_all()
+std::condition_variable::notify_all()@@GLIBCXX_3.4.11
 std::condition_variable::notify_one()
+std::condition_variable::notify_one()@@GLIBCXX_3.4.11
 std::condition_variable::wait(std::unique_lock<std::mutex>&)
+std::condition_variable::wait(std::unique_lock<std::mutex>&)@@GLIBCXX_3.4.11
 std::condition_variable::~condition_variable()
+std::condition_variable::~condition_variable()@@GLIBCXX_3.4.11
 std::current_exception()
+std::current_exception()@@CXXABI_1.3.3
 std::deque<std::packaged_task<void* ()>, std::allocator<std::packaged_task<void* ()>>>::~deque()
 std::exception::~exception()
+std::exception::~exception()@@GLIBCXX_3.4
 std::future_category()
+std::future_category()@@GLIBCXX_3.4.15
 std::future_error::~future_error()
+std::future_error::~future_error()@@GLIBCXX_3.4.14
 std::logic_error::logic_error(std::string const&)
+std::logic_error::logic_error(std::string const&)@@GLIBCXX_3.4
 std::packaged_task<void* ()>::~packaged_task()
 std::pair<std::string const, BinauralRendererInfo>::~pair()
 std::rethrow_exception(std::__exception_ptr::exception_ptr)
+std::rethrow_exception(std::__exception_ptr::exception_ptr)@@CXXABI_1.3.3
 std::shared_ptr<AudioEngineSettings>::~shared_ptr()
 std::shared_ptr<EnvironmentProxy>::~shared_ptr()
 std::string::_Rep::_M_destroy(std::allocator<char> const&)
+std::string::_Rep::_M_destroy(std::allocator<char> const&)@@GLIBCXX_3.4
 std::string::_Rep::_M_dispose(std::allocator<char> const&)
+std::string::_Rep::_M_dispose(std::allocator<char> const&)@@GLIBCXX_3.4
 std::string::_Rep::_S_empty_rep_storage
+std::string::_Rep::_S_empty_rep_storage@@GLIBCXX_3.4
 std::string::compare(char const*) const
+std::string::compare(char const*) const@@GLIBCXX_3.4
 std::string::find(char const*, unsigned long, unsigned long) const
+std::string::find(char const*, unsigned long, unsigned long) const@@GLIBCXX_3.4
 std::string::find_first_of(char const*, unsigned long, unsigned long) const
+std::string::find_first_of(char const*, unsigned long, unsigned long) const@@GLIBCXX_3.4
 std::string::insert(unsigned long, char const*, unsigned long)
+std::string::insert(unsigned long, char const*, unsigned long)@@GLIBCXX_3.4
 std::string::swap(std::string&)
+std::string::swap(std::string&)@@GLIBCXX_3.4
 std::terminate()
+std::terminate()@@GLIBCXX_3.4
 std::thread::_Impl<std::_Bind_simple<std::__future_base::_Async_state_impl<std::_Bind_simple<EnvironmentProxy::environmentalRenderer()::'lambda'(void*, void*, IPLRenderingSettings, IPLAudioFormat) (void*, void*, IPLRenderingSettings, IPLAudioFormat)>, void*>::_Async_state_impl(std::_Bind_simple<EnvironmentProxy::environmentalRenderer()::'lambda'(void*, void*, IPLRenderingSettings, IPLAudioFormat) (void*, void*, IPLRenderingSettings, IPLAudioFormat)>&&)::'lambda'() ()>>::_M_run()
 std::thread::_Impl<std::_Bind_simple<std::__future_base::_Async_state_impl<std::_Bind_simple<EnvironmentProxy::environmentalRenderer()::'lambda'(void*, void*, IPLRenderingSettings, IPLAudioFormat) (void*, void*, IPLRenderingSettings, IPLAudioFormat)>, void*>::_Async_state_impl(std::_Bind_simple<EnvironmentProxy::environmentalRenderer()::'lambda'(void*, void*, IPLRenderingSettings, IPLAudioFormat) (void*, void*, IPLRenderingSettings, IPLAudioFormat)>&&)::'lambda'() ()>>::~_Impl()
 std::thread::_Impl<std::_Bind_simple<void (*(WorkerThread<void*>*))(WorkerThread<void*>*)>>::_M_run()
 std::thread::_Impl<std::_Bind_simple<void (*(WorkerThread<void*>*))(WorkerThread<void*>*)>>::~_Impl()
 std::thread::_Impl_base::~_Impl_base()
 std::thread::_M_start_thread(std::shared_ptr<std::thread::_Impl_base>)
+std::thread::_M_start_thread(std::shared_ptr<std::thread::_Impl_base>)@@GLIBCXX_3.4.11
 std::thread::join()
+std::thread::join()@@GLIBCXX_3.4.11
 std::unique_lock<std::mutex>::unlock()
 std::unordered_map<std::string, BinauralRendererInfo, std::hash<std::string>, std::equal_to<std::string>, std::allocator<std::pair<std::string const, BinauralRendererInfo>>>::~unordered_map()
 std::vector<float*, std::allocator<float*>>::_M_default_append(unsigned long)
@@ -544,12 +531,16 @@ typeinfo for std::__future_base::_Async_state_impl<std::_Bind_simple<Environment
 typeinfo for std::__future_base::_Deferred_state<std::_Bind_simple<EnvironmentProxy::environmentalRenderer()::'lambda'(void*, void*, IPLRenderingSettings, IPLAudioFormat) (void*, void*, IPLRenderingSettings, IPLAudioFormat)>, void*>
 typeinfo for std::__future_base::_Result<void*>
 typeinfo for std::__future_base::_Result_base
+typeinfo for std::__future_base::_Result_base@@GLIBCXX_3.4.15
 typeinfo for std::__future_base::_State_base
+typeinfo for std::__future_base::_State_base@@GLIBCXX_3.4.15
 typeinfo for std::__future_base::_Task_setter<std::unique_ptr<std::__future_base::_Result<void*>, std::__future_base::_Result_base::_Deleter>, void*>
 typeinfo for std::__future_base::_Task_state<std::function<void* ()>, std::allocator<int>, void* ()>
 typeinfo for std::__future_base::_Task_state_base<void* ()>
 typeinfo for std::exception
+typeinfo for std::exception@@GLIBCXX_3.4
 typeinfo for std::future_error
+typeinfo for std::future_error@@GLIBCXX_3.4.14
 typeinfo for std::thread::_Impl<std::_Bind_simple<std::__future_base::_Async_state_impl<std::_Bind_simple<EnvironmentProxy::environmentalRenderer()::'lambda'(void*, void*, IPLRenderingSettings, IPLAudioFormat) (void*, void*, IPLRenderingSettings, IPLAudioFormat)>, void*>::_Async_state_impl(std::_Bind_simple<EnvironmentProxy::environmentalRenderer()::'lambda'(void*, void*, IPLRenderingSettings, IPLAudioFormat) (void*, void*, IPLRenderingSettings, IPLAudioFormat)>&&)::'lambda'() ()>>
 typeinfo for std::thread::_Impl<std::_Bind_simple<void (*(WorkerThread<void*>*))(WorkerThread<void*>*)>>
 typeinfo for std::thread::_Impl_base
@@ -585,8 +576,11 @@ void std::__once_call_impl<std::_Bind_simple<std::_Mem_fn<void (std::thread::*)(
 void std::deque<std::packaged_task<void* ()>, std::allocator<std::packaged_task<void* ()>>>::_M_push_back_aux<std::packaged_task<void* ()>>(std::packaged_task<void* ()>&&)
 void std::vector<std::string, std::allocator<std::string>>::_M_emplace_back_aux<std::string>(std::string&&)
 vtable for __cxxabiv1::__class_type_info
+vtable for __cxxabiv1::__class_type_info@@CXXABI_1.3
 vtable for __cxxabiv1::__pointer_type_info
+vtable for __cxxabiv1::__pointer_type_info@@CXXABI_1.3
 vtable for __cxxabiv1::__si_class_type_info
+vtable for __cxxabiv1::__si_class_type_info@@CXXABI_1.3
 vtable for std::_Sp_counted_base<(__gnu_cxx::_Lock_policy)2>
 vtable for std::_Sp_counted_ptr_inplace<AudioEngineSettings, std::allocator<AudioEngineSettings>, (__gnu_cxx::_Lock_policy)2>
 vtable for std::_Sp_counted_ptr_inplace<EnvironmentProxy, std::allocator<EnvironmentProxy>, (__gnu_cxx::_Lock_policy)2>
@@ -600,11 +594,15 @@ vtable for std::__future_base::_Async_state_impl<std::_Bind_simple<EnvironmentPr
 vtable for std::__future_base::_Deferred_state<std::_Bind_simple<EnvironmentProxy::environmentalRenderer()::'lambda'(void*, void*, IPLRenderingSettings, IPLAudioFormat) (void*, void*, IPLRenderingSettings, IPLAudioFormat)>, void*>
 vtable for std::__future_base::_Result<void*>
 vtable for std::__future_base::_State_base
+vtable for std::__future_base::_State_base@@GLIBCXX_3.4.15
 vtable for std::__future_base::_Task_state<std::function<void* ()>, std::allocator<int>, void* ()>
 vtable for std::__future_base::_Task_state_base<void* ()>
 vtable for std::exception
+vtable for std::exception@@GLIBCXX_3.4
 vtable for std::future_error
+vtable for std::future_error@@GLIBCXX_3.4.14
 vtable for std::logic_error
+vtable for std::logic_error@@GLIBCXX_3.4
 vtable for std::thread::_Impl<std::_Bind_simple<std::__future_base::_Async_state_impl<std::_Bind_simple<EnvironmentProxy::environmentalRenderer()::'lambda'(void*, void*, IPLRenderingSettings, IPLAudioFormat) (void*, void*, IPLRenderingSettings, IPLAudioFormat)>, void*>::_Async_state_impl(std::_Bind_simple<EnvironmentProxy::environmentalRenderer()::'lambda'(void*, void*, IPLRenderingSettings, IPLAudioFormat) (void*, void*, IPLRenderingSettings, IPLAudioFormat)>&&)::'lambda'() ()>>
 vtable for std::thread::_Impl<std::_Bind_simple<void (*(WorkerThread<void*>*))(WorkerThread<void*>*)>>
 vtable for std::thread::_Impl_base

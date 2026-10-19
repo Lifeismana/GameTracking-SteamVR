@@ -1,7 +1,5 @@
                           
- !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
  !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
- !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
  Base Class Array'
  Base Class Descriptor at (
  Class Hierarchy Descriptor'
@@ -16,15 +14,9 @@
  unzip 1.01 Copyright 1998-2004 Gilles Vollant - http://www.winimage.com/zLibDll
  volatile
  zip 1.01 Copyright 1998-2004 Gilles Vollant - http://www.winimage.com/zLibDll
-!AxU
-#bML"
 %02X
-&Sgw
-( 8PX
 ('8PW
 (null)
-*5KS
-*StO9>T
 ,<ellipsis>
 .?AVDNameNode@@
 .?AVDNameStatusNode@@
@@ -33,51 +25,23 @@
 .?AVpairNode@@
 .?AVpcharNode@@
 .?AVtype_info@@
-.xJ>Hf
 .zip
-/P8i
-/yQA
-0iN>/
 1#IND
 1#INF
 1#QNAN
 1#SNAN
 1.2.5
-11Y@
-1A26b
-1wsHp
-37>k
-3>N;kU
-3>fvw
-52F*
-700PP
 700WP
-7~8A
-9a&g
 <ellipsis>
 <unknown>
-=87M
-=cQ6
-=imb;D
->cQ6
->jtm}S
-?7zQ6$
-?UUUUUU
-?f`Y4
-?qBJ
-?ysB
-A>pP&
 ABCDEFGHIJKLMNOPQRSTUVWXYZ
 April
 AreFileApisANSI
 Arg list too long
 August
-BC?>6t9^\tc:>
-BF>^G
 Bad address
 Bad file descriptor
 Broken pipe
-C-Yn
 C:\build\output\Unity-Technologies\mono\msvc\build\bdwgc\x64\bin\Release\MonoPosixHelper.pdb
 CloseZStream
 CompareStringEx
@@ -86,7 +50,6 @@ CreateZStream
 December
 Directory not empty
 Domain error
-ET5>
 EnumSystemLocalesEx
 Error allocating memory\n
 EventRegister
@@ -94,7 +57,6 @@ EventSetInformation
 EventUnregister
 EventWriteTransfer
 Exec format error
-FEMh\f
 February
 File exists
 File too large
@@ -119,12 +81,9 @@ GetTimeFormatEx
 GetUserDefaultLocaleName
 GetUserObjectInformationW
 GetXStateFeaturesMask
-H$6t
-H*0"ZOW
 HH:mm:ss
 IND)ind)
 INITY
-IiGM>nw
 Illegal byte sequence
 Improper link
 Inappropriate I/O control operation
@@ -139,13 +98,10 @@ JanFebMarAprMayJunJulAugSepOctNovDec
 January
 July
 June
-L>ev
 LCIDToLocaleName
 LCMapStringEx
 LocaleNameToLCID
 LocateXStateFeature
-M8MF
-MGiI
 MM/dd/yy
 March
 MessageBoxA
@@ -269,7 +225,6 @@ Mono_Posix_ToXattrFlags
 Mono_Unix_VersionString
 NAN(IND)
 NAN(SNAN)
-NJ2"v
 NULL
 No child processes
 No error
@@ -282,16 +237,9 @@ No such process
 Not a directory
 Not enough space
 November
-O*9y]
-OZQ%
-OZw3(?
 October
 Operation not permitted
-Pe6^
 Permission denied
-Qkkbal
-R1h58
-RSDS
 Read-only file system
 ReadZStream
 Resource deadlock avoided
@@ -300,8 +248,6 @@ Resource temporarily unavailable
 Result too large
 RoInitialize
 RoUninitialize
-S9>H
-SKyu
 SNAN)
 Saturday
 September
@@ -323,22 +269,9 @@ UTF-8
 UUUUUU
 Unknown error
 Usage : minizip [-o] [-a] [-0 to -9] [-p password] file.zip [files_to_add]\n\n  -o  Overwrite existing file.zip\n  -a  Append to existing file.zip\n  -0  Store only\n  -1  Compress faster\n  -9  Compress better\n\n
-Vc0a
 Wednesday
 WriteZStream
-X/4B
-XsBI
-Zjz\v
-[aOni*{
-[h1R
 [thunk]:
-\rmj>zjZ
-\t\t\n\n\v\v\f\f\f\f\r\r\r\r
-\t\t\t\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r
-\tcQr
-\tkE>fvw
-^<V7w
-^oEZ_
 __based(
 __cdecl
 __clrcall
@@ -374,7 +307,6 @@ _nextafter
 `eh vector vbase copy constructor iterator'
 `generic-class-parameter-
 `generic-method-parameter-
-`h`hhh
 `local static destructor helper'
 `local static guard'
 `local static thread guard'
@@ -430,14 +362,10 @@ const
 const 
 cosh
 creating %s\n
-d8L2
-dQy/
 data error
 dddd, MMMM dd, yyyy
 double
 e+000
-eF>t
-eLK(w
 enum 
 error in closing %s in the zipfile\n
 error in closing %s\n
@@ -446,9 +374,7 @@ error in opening %s in zipfile\n
 error in reading %s\n
 error in writing %s in the zipfile\n
 error opening %s\n
-ewh/?y
 extern "C" 
-fP~V
 fabs
 file %s crc %x\n
 file error
@@ -456,14 +382,8 @@ float
 floor
 fmod
 frexp
-fu`z
 generic-type-
-gqr<
-h0'D
-hPU3
 header crc mismatch
-i91k
-i]Wb
 incompatible version
 incorrect data check
 incorrect header check
@@ -482,33 +402,23 @@ invalid literal/length code
 invalid literal/lengths set
 invalid stored block lengths
 invalid window size
-k=yI
-l6qnk
-lDa>
 ldexp
 log10
 log10f
 logf
 long
 long 
-mG4>
-m\nXo
 modf
 more info at http://www.winimage.com/zLibDll/unzip.html\n\n
-n03>Pu
 nan(ind)
 nan(snan)
 need dictionary
-obwQ4
 operator
 operator "" 
-owM&
 private: 
 protected: 
 public: 
-r\tVr.>T
 restrict(
-ru&o
 short
 short 
 signed 
@@ -538,22 +448,12 @@ unzOpen2
 unzOpenCurrentFile2
 unzReadCurrentFile
 unztell
-uzKs@>
-v2!L.2
-vQO+t
 virtual 
 void
 void 
 volatile
 volatile 
-w+OQvr
-w3Xc
-wXR\r
 wchar_t
-wn>Jj
-xpxxxx
-xwpwpp
-y9*O
 zipClose
 zipCloseFileInZip
 zipOpen2
@@ -561,4 +461,3 @@ zipOpenNewFileInZip
 zipWriteInFileInZip
 {flat}
 {for 
-{kHw

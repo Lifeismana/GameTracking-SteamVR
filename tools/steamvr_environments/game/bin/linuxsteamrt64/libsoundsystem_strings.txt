@@ -4,6 +4,8 @@
  : %s : vol: %4.2f, sndlvl: %4.2f \n
  ReadToken overflow
  [%.3f server clamped to %.3f]
+ max. %f
+ min. %f
 "%s" = "%s"
 "ikrig
 #OS_Default_Device
@@ -14,6 +16,7 @@
 #include is NULL 
 #int#
 $ORIGIN
+%*s%s.%s: 
 %*s(%08x):Pausing: %s (%08x) : elapsed time: %.2fs\n
 %*s(%08x):Stopping: %s (%08x) : elapsed time: %.2fs\n
 %*sOperator Stack: %s\n%*sSize: %i\n
@@ -24,7 +27,9 @@ $ORIGIN
 %.15lf
 %02X
 %08x %s size %08x\n
+%d %s %s\n
 %d) %s %s -> %s\n
+%d) %s\n
 %dOffset: %i\n
 %f %f %f %f
 %f Async I/O Bumped priority for %s (%8.2f msec)\n
@@ -35,6 +40,7 @@ $ORIGIN
 %i %i %i %i
 %lld
 %ls [wstring, len = %d]
+%s %s
 %s = %s: %i : %i : %i : %i : %i : %i\n
 %s Operator Fields: %i\n
 %s allocation count overflow
@@ -44,17 +50,28 @@ $ORIGIN
 %s set to %.2f\n
 %s set to %x (%s)\n
 %s unable to allocate %u bytes\n
+%s%d
+%s%s 
+%s%s%f
+%s%s%i
 %s%s%llu
+%s%s%s
+%s%s%u
 %s+-- Schema Class: %s\n
 %s, UNKNOWN %i
+%s.%s
+%s: %s
 %s: %s (%i : %i)\n
 %s: Has a failed library stack message.\n
 %s: Has a failed sound event message.\n
 %s: Sound event executionlist has exceeded MAX_VOICES. Index %i : %s\n
 %s: params.pSfx is NULL.\n
 %s: string format requested %d chars\n
+%s:%i
 %s:%s needs base %s:%s to be registered\n
+%s::%s
 %s::Execute: Can't find operator stack %s in %s\n
+%s\n%s
 %s_%s_linear
 %s_%s_mapping_curve
 %s_KV3
@@ -73,6 +90,7 @@ $ORIGIN
 %s| SizeOf: %d\n
 %s| Virtual: %s; Abstract: %s; TrivialConstr: %s; TrivialDestr: %s\n
 (%2db) %6i : %s\n
+(%s) %d
 (None)
 (Steam Audio) Update physics material attribute of a VMAT file. They are used for picking acoustic material property for Steam Audio.
 (connected: %s %i )
@@ -358,7 +376,6 @@ $ORIGIN
 35CSosOperatorLogicSwitchStringHandle
 4000
 40CSchemaRegistration_soundsystem_lowlevel
-5t~BC
 6ConVar
 7IConVar
 8CFmtStrNILi256ELb0EE
@@ -384,7 +401,6 @@ $ORIGIN
 <unknown>
 >math_lerp_speakers
 >soundsystem_lowlevel
-?333333
 ?NEW DSP NODE: size:(%.0f,%.0f) height:(%.0f) dif %.4f : refl %.4f : cobj: %.0f : sky %.0f \n
 ?Sound Disabled.\n
 ?Unknown graph input %s\n
@@ -505,6 +521,7 @@ Audio Capture Device
 Audio device starved %d samples \n
 AudioMixer
 Available Operators:\n
+BPM: %f\n
 Bad Audio file '%s'\n
 Bad KV3 data for resource '%s': %s\n
 Bad command in vmix!\n
@@ -895,7 +912,6 @@ Duration: %f\n
 Dynamic
 DynamicConfigList
 Dynamics
-E3:0
 EMPHASIS
 EMPHASIS\r\n
 ERROR: Invalid Group Branch Index\n
@@ -1150,7 +1166,6 @@ Logic Error in CExpressionEvaluator
 LowPass
 Lowest
 Lowpass4Tap
-LrwcE
 MASK_WATER
 MATCHFRAMEWORK_001
 MClassHasCustomAlignedNewDelete
@@ -1183,7 +1198,6 @@ Match SubString ?: %s\n
 MaterialUtils_001
 MathLib_Init
 Max Time
-MbP?+
 Medium
 MemAlloc_AllocFunc
 MemAlloc_FreeFunc
@@ -1341,7 +1355,6 @@ Plat_WindowToOsSpecificHandle
 Play a note from a specified sampler
 Play a sound at a specified volume.
 Play a sound.
-Po5H
 PostProcessingSystem_001
 PresetDSP
 PreviewAttachmentModel
@@ -1389,6 +1402,7 @@ Random Modulation
 RandomFloat
 RandomInt
 RandomSeed
+Rate:\t\t%d\n
 RecursiveLoadFromBuffer:  got EOF instead of keyname
 RecursiveLoadFromBuffer:  got NULL key
 RecursiveLoadFromBuffer:  got conditional between key and value
@@ -1428,7 +1442,6 @@ Reverb Height ms
 Reverb Width ms
 Running snd_get_physics_surface_properties for %s mod.\n
 Running snd_set_physics_surface_properties for %s mod.\n
-S+Ot
 SDL Audio Device: %s\n
 SEQUENCER ERROR: Loading sequence file(error %s)!\n
 SEQUENCER ERROR: Loading vmidi manifest file(error %s)!\n
@@ -1855,7 +1868,6 @@ Y@sos_import_stack
 \n%*sName: %s\n
 \n%*sName: %s\n%*sNameSpace: %s\n
 \nActive Sound events: %d\n
-\nCwf\r
 \nOperator Field: %s\n
 \nSOS PRINT STRING: %s: %s\n
 \nType Name: %s\n
@@ -2002,7 +2014,6 @@ break_uniform_burst
 breakable_count
 breakable_model
 breakable_skin
-bt3V
 burst_randomize
 burst_scale
 cable
@@ -2138,7 +2149,6 @@ explosive_radius
 fabs
 faceMergeAngle
 false
-fff?
 field_curve_2d_editor
 field_linear_atten_editor
 field_override
@@ -2458,7 +2468,6 @@ key_groups
 keyvalues.cpp
 kv3format_manager.cpp
 last_sniff
-lcQe
 ld-linux-x86-64.so.2
 left_front
 left_front1
@@ -2490,7 +2499,6 @@ loop_break_on_damage
 loop_break_on_flashlight
 loop_in_action
 lvl: %3.2f 
-mXr4
 m_Angles
 m_Bone
 m_ChainData
@@ -2856,7 +2864,6 @@ mute
 mute: %3.2f\n
 nOffset < m_nAllocationSize
 nTries < 10000000
-n\f"pA3Q
 named
 nav_attribute_avoid
 nav_data
@@ -3479,10 +3486,8 @@ wcslen
 weights_field_name
 yaw_end
 yaw_start
-z:KEZ
 z>{}[]()=&, \t\n'"*;
 zDprocessors
 zero
-{YIN?
 {}[]=, \t\n'":|;
 ~CSosOperatorSystem: Deleting orphaned CSosOperatorStack pointer for %s via shutdown\n

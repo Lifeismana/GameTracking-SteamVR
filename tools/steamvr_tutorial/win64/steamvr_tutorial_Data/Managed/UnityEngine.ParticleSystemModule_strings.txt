@@ -51,6 +51,8 @@ $Unity.InternalAPIEngineBridgeDev.003
 $Unity.InternalAPIEngineBridgeDev.004
 $Unity.InternalAPIEngineBridgeDev.005
 $UnityEngine.UnityWebRequestWWWModule
+%0.e
+%0.g
 %Unity.IntegrationTests.UnityAnalytics
 %x"3V
 &UnityEngine.PerformanceReportingModule

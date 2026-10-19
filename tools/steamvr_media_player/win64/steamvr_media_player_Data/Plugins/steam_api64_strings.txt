@@ -1,7 +1,5 @@
                           
- !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
  !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
- !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
  Base Class Array'
  Base Class Descriptor at (
  Class Hierarchy Descriptor'
@@ -13,10 +11,10 @@
 %02d:%02d:%02d
 %04d%02d%02d%02d%02d%02d
 %llu
-( 8PX
+%s%c%s
+%s\%s
 ('8PW
 (null)
--64OS
 .?AV?$CCallResult@VCAddAppDependencyResult_t_result@@UAddAppDependencyResult_t@@@@
 .?AV?$CCallResult@VCAddUGCDependencyResult_t_result@@UAddUGCDependencyResult_t@@@@
 .?AV?$CCallResult@VCAssociateWithClanResult_t_result@@UAssociateWithClanResult_t@@@@
@@ -98,30 +96,12 @@
 .?AVout_of_range@std@@
 .?AVtype_info@@
 0123456789ABCDEF
-03B;
-04B;
-08B;
-0yB;
 1#IND
 1#INF
 1#QNAN
 1#SNAN
-43B;
-49B;
 700PP
 700WP
-82B;
-83B;
-87B;
-8NB;
-8OB;
-8PB;
-8QB;
-8RB;
-8UB;
-8VB;
-8WB;
-8zB;
 ABCDEFGHIJKLMNOPQRSTUVWXYZ
 ADVAPI32.dll
 April
@@ -268,8 +248,6 @@ CreateSemaphoreExW
 CreateSymbolicLinkW
 CreateThreadpoolTimer
 CreateThreadpoolWait
-D3B;
-D9B;
 December
 DecodePointer
 DeleteCriticalSection
@@ -331,8 +309,6 @@ GetTickCount64
 GetTimeFormatEx
 GetUserDefaultLocaleName
 GetUserObjectInformationW
-H3B;
-H6B;
 HH:mm:ss
 HKCR
 HKCU
@@ -340,11 +316,6 @@ HKEY_CLASSES_ROOT
 HKEY_CURRENT_USER
 HKEY_LOCAL_MACHINE
 HKLM
-HMXB
-HNB;
-HQB;
-HTB;
-HWB;
 HeapAlloc
 HeapFree
 HeapReAlloc
@@ -360,8 +331,6 @@ January
 July
 June
 KERNEL32.dll
-L3B;
-L9B;
 LCMapStringEx
 LCMapStringW
 LeaveCriticalSection
@@ -373,47 +342,12 @@ March
 MessageBoxW
 Monday
 MultiByteToWideChar
-NKeb
 November
 October
 OpenProcess
 OutputDebugStringA
 OutputDebugStringW
-P2B;
-P3B;
-P4B;
-P8B;
-PPB;
-PRB;
-PVB;
-PYB;
-PZB;
-PaB;
-PbB;
-PcB;
-PdB;
-PeB;
-PfB;
-PgB;
-PhB;
-PiB;
-PiC;
-PjB;
-PkB;
-PlB;
-PmB;
-PnB;
-PoB;
-PoC;
-PpB;
-PqB;
-PrB;
-PsB;
-PtB;
-PuB;
-PvB;
 QueryPerformanceCounter
-RSDS(e
 RaiseException
 ReadConsoleW
 ReadFile
@@ -425,7 +359,6 @@ RtlLookupFunctionEntry
 RtlPcToFileHeader
 RtlUnwindEx
 RtlVirtualUnwind
-S;uD
 SHELL32.dll
 Saturday
 September
@@ -1178,8 +1111,6 @@ Steam_RunCallbacks
 Steam_SetMinidumpSteamID:  Caching Steam ID:  %lld [API loaded %s]\n
 Steam_SetMinidumpSteamID:  Setting Steam ID:  %lld\n
 Sunday
-T3B;
-T9B;
 TerminateProcess
 Thursday
 TlsAlloc
@@ -1198,10 +1129,6 @@ Wednesday
 WideCharToMultiByte
 WriteConsoleW
 WriteFile
-X3B;
-XOB;
-XTB;
-XUB;
 [S_API FAIL] SteamAPI_Init() failed; SteamAPI_IsSteamRunning() failed.\n
 [S_API FAIL] SteamAPI_Init() failed; Sys_LoadModule failed to load: %s\n
 [S_API FAIL] SteamAPI_Init() failed; connect to global user failed.
@@ -1236,7 +1163,6 @@ _nextafter
 `eh vector destructor iterator'
 `eh vector vbase constructor iterator'
 `eh vector vbase copy constructor iterator'
-`h`hhh
 `local static guard'
 `local static thread guard'
 `local vftable constructor closure'
@@ -1298,8 +1224,6 @@ connection_refused
 connection_reset
 cosh
 cross device link
-d3B;
-d9B;
 dddd, MMMM dd, yyyy
 destination address required
 destination_address_required
@@ -1319,13 +1243,6 @@ function not supported
 g_pSteamClientGameServer
 gameoverlayrenderer64.dll
 generic
-h3B;
-h5B;
-h9B;
-hPB;
-hTB;
-hUB;
-hVB;
 host unreachable
 host_unreachable
 identifier removed
@@ -1340,9 +1257,6 @@ io error
 iostream
 iostream stream error
 is a directory
-kU'9
-l3B;
-l9B;
 ldexp
 log10
 map/set<T> too long
@@ -1388,20 +1302,11 @@ operation_not_supported
 operation_would_block
 operator
 owner dead
-p2B;
-p3B;
-p4B;
-p6B;
-p9B;
-pOB;
-pQB;
-pRB;
 permission denied
 permission_denied
 protocol error
 protocol not supported
 protocol_not_supported
-puC;
 read only file system
 resource deadlock would occur
 resource unavailable try again
@@ -1422,7 +1327,6 @@ steamui.dll
 stream timeout
 string too long
 system
-t3B;
 tanh
 text file busy
 timed out
@@ -1437,13 +1341,3 @@ value too large
 win64\audio.dll
 wrong protocol type
 wrong_protocol_type
-x3B;
-x9B;
-xNB;
-xSB;
-xTB;
-xUB;
-xppwpp
-xpxxxx
-z?aUY
-zc%C1

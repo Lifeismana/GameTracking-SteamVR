@@ -1,7 +1,5 @@
                           
- !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
  !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
- !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
  Base Class Array'
  Base Class Descriptor at (
  Class Hierarchy Descriptor'
@@ -10,7 +8,6 @@
  delete
  delete[]
  new
-( 8PX
 ('8PW
 (null)
 .?AVbad_alloc@std@@
@@ -133,7 +130,6 @@ November
 October
 PeekNamedPipe
 QueryPerformanceCounter
-RSDS
 RaiseException
 ReadFile
 RtlCaptureContext
@@ -195,7 +191,6 @@ __unaligned
 `eh vector destructor iterator'
 `eh vector vbase constructor iterator'
 `eh vector vbase copy constructor iterator'
-`h`hhh
 `local static guard'
 `local static thread guard'
 `local vftable constructor closure'
@@ -234,5 +229,3 @@ string too long
 vrclient Shared Lib Not Found (102)
 vrclient_x64.dll
 vrtest_api_x64.dll
-xppwpp
-xpxxxx

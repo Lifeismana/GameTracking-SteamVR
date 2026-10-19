@@ -1,6 +1,4 @@
                           
- !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
- !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
  Base Class Array'
  Base Class Descriptor at (
  Class Hierarchy Descriptor'
@@ -23,11 +21,8 @@
 %s:pKsInfo is NULL!!\n
 %s:pMoniker->GetDisplayName() is failed!!\n
 %s\ait_setting.ini
-&Sgw
-( 8PX
 ('8PW
 (null)
-*StO9>T
 .00cfg
 .?AVAitRomBootConfig@@
 .?AVUsbScsiCmd@@
@@ -81,27 +76,13 @@
 .tls
 .tls$
 .tls$ZZZ
-.xJ>Hf
 .xdata
 .xdata$x
-0iN>/
 1#IND
 1#INF
 1#QNAN
 1#SNAN
-11Y@
-37>k
-3>N;kU
-3>fvw
-700PP
 700WP
-;Hfind_node_by_guid
-=87M
-=cQ6
-=imb;D
->cQ6
->jtm}S
-?7zQ6$
 ?AITROMAPI_BurnFw@@YAJPEAXPEBDPEAI@Z
 ?AITROMAPI_BurnPcCamFw@@YAJPEAXPEBDPEAI@Z
 ?AITROMAPI_BurnPcCamFwPnsV2@@YAJPEAXPEBDPEAI@Z
@@ -128,11 +109,6 @@
 ?AITROMAPI_SwitchModePCAM_SPI_NAND@@YAJPEAXE@Z
 ?AITROMAPI_UpdateLinuxFwPkg@@YAJPEAXPEBDII@Z
 ?AITROMAPI_UpdateLinuxFwPkg_@@YAJPEAXPEBDI@Z
-?UUUUUU
-?f`Y4
-?qBJ
-?ysB
-A>pP&
 ABCDEFGHIJKLMNOPQRSTUVWXYZ
 AITAPI_CloseBootloader
 AITAPI_CloseDevice
@@ -158,8 +134,6 @@ Adr=0x%X, Len=0x%X Flag=0x%X\r\n
 April
 AreFileApisANSI
 August
-BC?>6t9^\tc:>
-BF>^G
 CameraFirmwareUpgradeDLL.dll
 Cannot CloseDeivce()!!\n
 Cannot OpenDeivce()!!\n
@@ -179,11 +153,9 @@ DeleteCriticalSection
 DeviceIoControl
 DevicePid
 DeviceVid
-ET5>
 EncodePointer
 EnterCriticalSection
 ExitProcess
-FEMh\f
 Failed to create destination file.\r\n
 Failed to select storage type -> AIT_STORAGE_EMMC.\r\n
 Failed to select storage type -> AIT_STORAGE_PCAM_DRAM.\r\n
@@ -242,12 +214,10 @@ IsBootloaderMode
 IsDebuggerPresent
 IsProcessorFeaturePresent
 IsValidCodePage
-J\rr3u
 January
 July
 June
 KERNEL32.dll
-L>ev
 LCMapStringEx
 LCMapStringW
 LeaveCriticalSection
@@ -262,7 +232,6 @@ MultiByteToWideChar
 NAN(IND)
 NAN(SNAN)
 November
-OZQ%
 October
 OpenDevice
 OutputDebugStringA
@@ -278,7 +247,6 @@ RtlLookupFunctionEntry
 RtlPcToFileHeader
 RtlUnwindEx
 RtlVirtualUnwind
-S9>H
 SHLWAPI.dll
 Saturday
 Select storage type 'AIT_STORAGE_SPI_NAND'\r\n
@@ -316,11 +284,6 @@ Wednesday
 WideCharToMultiByte
 WriteConsoleW
 WriteFile
-X/4B
-[aOni*{
-\tcQr
-\tkE>fvw
-^<V7w
 __based(
 __cdecl
 __clrcall
@@ -343,7 +306,6 @@ __vectorcall
 `eh vector destructor iterator'
 `eh vector vbase constructor iterator'
 `eh vector vbase copy constructor iterator'
-`h`hhh
 `local static guard'
 `local static thread guard'
 `local vftable constructor closure'
@@ -373,34 +335,20 @@ abcdefghijklmnopqrstuvwxyz
 bad allocation
 bad array new length
 bad exception
-d8L2
 dddd, MMMM dd, yyyy
 e+000
-eF>t
-eLK(w
+find_node_by_guid
 fopen(%s) is failed!!\n
 fread():a:%ld is failed!!\n
 getLibVersion
-h0'D
 invalid string position
-k=yI
 log10
-mG4>
-m\nXo
 malloc() is failed!!\n
-n03>Pu
 nan(ind)
 nan(snan)
-obwQ4
 ole32.dll
 operator
 operator "" 
-owM&
-r\tVr.>T
 restrict(
 string too long
-uzKs@>
-v2!L.2
 vid_%.4x&pid_%.4x
-xpxxxx
-xwpwpp

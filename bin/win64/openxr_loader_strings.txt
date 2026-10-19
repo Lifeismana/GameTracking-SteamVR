@@ -27,6 +27,10 @@
  was not found
  with error 
 !!! WARNING !!! Environment variable 
+%.*f
+%.*g
+%u.%u
+%u.%u.%u
 ' is not a number.
 ' will NOT be used.
 (unknown)
@@ -282,7 +286,6 @@ OpenXR-Loader
 OutputDebugStringA
 PERF
 QueryPerformanceCounter
-RSDS^9
 ReadLayerDataFilesInRegistry - failed to read registry location 
 ReadRuntimeDataFilesInRegistry - failed to open registry key 
 ReadRuntimeDataFilesInRegistry - failed to read registry value 

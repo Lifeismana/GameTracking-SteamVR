@@ -1,6 +1,7 @@
 #Blob
 #GUID
 #Strings
+%S,M
 &KhJ
 .ctor
 0V0\t

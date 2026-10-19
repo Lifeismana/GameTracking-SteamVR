@@ -1,40 +1,26 @@
- !?wheelEvent@QWidget@@MEAAXPEAVQWheelEvent@@@Z
  (Desktop)
  (Disabled)
  (SteamVR Main)
  (SteamVR)
  (SteamWebHelper)
- ?verticalHeader@QTableView@@QEBAPEAVQHeaderView@@XZ
- ?verticalOffset@QTableView@@MEBAHXZ
- ?verticalScrollbarAction@QTableView@@MEAAXH@Z
- ?verticalScrollbarValueChanged@QAbstractItemView@@MEAAXH@Z
- ?viewOptions@QTableView@@MEBA?AVQStyleOptionViewItem@@XZ
- ?viewportEvent@QAbstractItemView@@MEAA_NPEAVQEvent@@@Z
- ?viewportSizeHint@QTableView@@MEBA?AVQSize@@XZ
- ?visualRect@QTableView@@UEBA?AVQRect@@AEBVQModelIndex@@@Z
  Drag: [Middle Mouse Click] 
  Scale: [Mouse Wheel] 
  for detail.\n
  formatting error code 
-!?visualRegionForSelection@QTableView@@MEBA?AVQRegion@@AEBVQItemSelection@@@Z
-!?warning@QMessageBox@@SA?AW4StandardButton@1@PEAVQWidget@@AEBVQString@@1V?$QFlags@W4StandardButton@QMessageBox@@@@W421@@Z
-!?wheelEvent@QAbstractScrollArea@@MEAAXPEAVQWheelEvent@@@Z
-!\n?dragMoveEvent@QAbstractItemView@@MEAAXPEAVQDragMoveEvent@@@Z
 " id="W5M0MpCehiHzreSzNTczkc9d"?> <x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 5.3-c011 66.145661, 2012/02/06-14:56:27        "> <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"> <rdf:Description rdf:about="" xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:stRef="http://ns.adobe.com/xap/1.0/sType/ResourceRef#" xmp:CreatorTool="Adobe Photoshop CS6 (Windows)" xmpMM:InstanceID="xmp.iid:7E78E02ABD8A11E6A4CDA757A7D2B17B" xmpMM:DocumentID="xmp.did:7E78E02BBD8A11E6A4CDA757A7D2B17B"> <xmpMM:DerivedFrom stRef:instanceID="xmp.iid:7E78E028BD8A11E6A4CDA757A7D2B17B" stRef:documentID="xmp.did:7E78E029BD8A11E6A4CDA757A7D2B17B"/> </rdf:Description> </rdf:RDF> </x:xmpmeta> <?xpacket end="r"?>
 " id="W5M0MpCehiHzreSzNTczkc9d"?> <x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 5.3-c011 66.145661, 2012/02/06-14:56:27        "> <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"> <rdf:Description rdf:about="" xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:stRef="http://ns.adobe.com/xap/1.0/sType/ResourceRef#" xmp:CreatorTool="Adobe Photoshop CS6 (Windows)" xmpMM:InstanceID="xmp.iid:8F28E0FABD8A11E6BFF5CDAA4B2A4809" xmpMM:DocumentID="xmp.did:8F28E0FBBD8A11E6BFF5CDAA4B2A4809"> <xmpMM:DerivedFrom stRef:instanceID="xmp.iid:8F28E0F8BD8A11E6BFF5CDAA4B2A4809" stRef:documentID="xmp.did:8F28E0F9BD8A11E6BFF5CDAA4B2A4809"/> </rdf:Description> </rdf:RDF> </x:xmpmeta> <?xpacket end="r"?>
-"\r?indexOf@QLayout@@UEBAHPEAVQWidget@@@Z
 "iTXtXML:com.adobe.xmp
+%%.%dg
 %010lu:%010lu
 %s: failed with error '%s' (%d)
 %s[%s] %s file=%s
+%u != %zu
 ' is not a number.
 *** Blank Key ***
-+!?widget@QLayoutItem@@UEAAPEAVQWidget@@XZ
 , last executing in 
 -1e+9999
 -IPCWrapper
 -Infinity
--\n?dragMoveEvent@QWidget@@MEAAXPEAVQDragMoveEvent@@@Z
 .00cfg
 .?AU_Crt_new_delete@std@@
 .?AV<lambda_16a5580a0fa0c5048dce7eec37c70dc3>@@
@@ -177,22 +163,18 @@
 1OnRendererInitializationError()
 1OnStatePollTimeout()
 1OnTableItemSelectionChanged()
-1db \r
 1e+9999
 2clicked()
 2itemSelectionChanged()
 2timeout()
 2triggered()
-4S?setAlpha@QColor@@QEAAXH@Z
 8c8f13b1-60eb-4b6a-a433-de86104115ac
 8d8f13b1-60eb-4b6a-a433-de86104115ac
 8e8f13b1-60eb-4b6a-a433-de86104115ac
 : exception thrown in JSON library
 :/icons
-;\r?initPainter@QWidget@@MEBAXPEAVQPainter@@@Z
 <?xpacket begin="
 <unknown>
-= ?unsetCursor@QWidget@@QEAAXXZ
 ??0?$basic_ios@DU?$char_traits@D@std@@@std@@IEAA@XZ
 ??0?$basic_istream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@_N@Z
 ??0?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@_N@Z
@@ -295,6 +277,7 @@
 ?arg@QString@@QEBA?AV1@NHDHVQChar@@@Z
 ?arg@QString@@QEBA?AV1@_KHHVQChar@@@Z
 ?begin@QListData@@QEBAPEAPEAXXZ
+?blue@QColor@@QEBAHXZ
 ?changeEvent@QAbstractButton@@MEAAXPEAVQEvent@@@Z
 ?changeEvent@QFrame@@MEAAXPEAVQEvent@@@Z
 ?changeEvent@QLabel@@MEAAXPEAVQEvent@@@Z
@@ -327,10 +310,93 @@
 ?createHandle@QSplitter@@MEAAPEAVQSplitterHandle@@XZ
 ?createPopupMenu@QMainWindow@@UEAAPEAVQMenu@@XZ
 ?currentChanged@QTableView@@MEAAXAEBVQModelIndex@@0@Z
+?customEvent@QObject@@MEAAXPEAVQEvent@@@Z
+?data@QTableWidgetItem@@UEBA?AVQVariant@@H@Z
+?dataChanged@QAbstractItemView@@MEAAXAEBVQModelIndex@@0AEBV?$QVector@H@@@Z
+?detach@QListData@@QEAAPEAUData@1@H@Z
+?detach_grow@QListData@@QEAAPEAUData@1@PEAHH@Z
+?devType@QWidget@@UEBAHXZ
+?disconnectNotify@QObject@@MEAAXAEBVQMetaMethod@@@Z
+?dispose@QListData@@QEAAXXZ
+?dispose@QListData@@SAXPEAUData@1@@Z
+?doItemsLayout@QTableView@@UEAAXXZ
+?dragEnterEvent@QAbstractItemView@@MEAAXPEAVQDragEnterEvent@@@Z
+?dragEnterEvent@QWidget@@MEAAXPEAVQDragEnterEvent@@@Z
+?dragLeaveEvent@QAbstractItemView@@MEAAXPEAVQDragLeaveEvent@@@Z
+?dragLeaveEvent@QWidget@@MEAAXPEAVQDragLeaveEvent@@@Z
+?dragMoveEvent@QAbstractItemView@@MEAAXPEAVQDragMoveEvent@@@Z
+?dragMoveEvent@QWidget@@MEAAXPEAVQDragMoveEvent@@@Z
+?dropEvent@QTableWidget@@MEAAXPEAVQDropEvent@@@Z
+?dropEvent@QWidget@@MEAAXPEAVQDropEvent@@@Z
+?dropMimeData@QTableWidget@@MEAA_NHHPEBVQMimeData@@W4DropAction@Qt@@@Z
+?dynamicMetaObject@QObjectData@@QEBAPEAUQMetaObject@@XZ
+?edit@QAbstractItemView@@MEAA_NAEBVQModelIndex@@W4EditTrigger@1@PEAVQEvent@@@Z
+?editorDestroyed@QAbstractItemView@@MEAAXPEAVQObject@@@Z
+?enterEvent@QWidget@@MEAAXPEAVQEvent@@@Z
+?event@QAction@@MEAA_NPEAVQEvent@@@Z
+?event@QCheckBox@@MEAA_NPEAVQEvent@@@Z
+?event@QLabel@@MEAA_NPEAVQEvent@@@Z
+?event@QMainWindow@@MEAA_NPEAVQEvent@@@Z
+?event@QObject@@UEAA_NPEAVQEvent@@@Z
+?event@QPushButton@@MEAA_NPEAVQEvent@@@Z
+?event@QSplitter@@MEAA_NPEAVQEvent@@@Z
+?event@QTableWidget@@MEAA_NPEAVQEvent@@@Z
+?event@QWidget@@MEAA_NPEAVQEvent@@@Z
+?eventFilter@QAbstractScrollArea@@MEAA_NPEAVQObject@@PEAVQEvent@@@Z
+?eventFilter@QObject@@UEAA_NPEAV1@PEAVQEvent@@@Z
+?exec@QApplication@@SAHXZ
+?expandingDirections@QBoxLayout@@UEBA?AV?$QFlags@W4Orientation@Qt@@@@XZ
+?fillRect@QPainter@@QEAAXAEBVQRect@@AEBVQColor@@@Z
 ?flush@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@XZ
+?focusInEvent@QAbstractButton@@MEAAXPEAVQFocusEvent@@@Z
+?focusInEvent@QAbstractItemView@@MEAAXPEAVQFocusEvent@@@Z
+?focusInEvent@QLabel@@MEAAXPEAVQFocusEvent@@@Z
+?focusInEvent@QPushButton@@MEAAXPEAVQFocusEvent@@@Z
+?focusInEvent@QWidget@@MEAAXPEAVQFocusEvent@@@Z
+?focusNextPrevChild@QAbstractItemView@@MEAA_N_N@Z
+?focusNextPrevChild@QLabel@@MEAA_N_N@Z
+?focusNextPrevChild@QWidget@@MEAA_N_N@Z
+?focusOutEvent@QAbstractButton@@MEAAXPEAVQFocusEvent@@@Z
+?focusOutEvent@QAbstractItemView@@MEAAXPEAVQFocusEvent@@@Z
+?focusOutEvent@QLabel@@MEAAXPEAVQFocusEvent@@@Z
+?focusOutEvent@QPushButton@@MEAAXPEAVQFocusEvent@@@Z
+?focusOutEvent@QWidget@@MEAAXPEAVQFocusEvent@@@Z
+?fromAscii_helper@QString@@CAPEAU?$QTypedArrayData@G@@PEBDH@Z
+?fromUtf8@QString@@SA?AV1@PEBDH@Z
+?fromWCharArray@QString@@SA?AV1@PEB_WH@Z
+?geometry@QLayout@@UEBA?AVQRect@@XZ
+?getColor@QColorDialog@@SA?AVQColor@@AEBV2@PEAVQWidget@@AEBVQString@@V?$QFlags@W4ColorDialogOption@QColorDialog@@@@@Z
+?globalPos@QMouseEvent@@QEBA?AVQPoint@@XZ
+?globalPos@QWheelEvent@@QEBA?AVQPoint@@XZ
+?green@QColor@@QEBAHXZ
+?hasHeightForWidth@QBoxLayout@@UEBA_NXZ
+?hasHeightForWidth@QWidget@@UEBA_NXZ
+?heightForWidth@QBoxLayout@@UEBAHH@Z
+?heightForWidth@QLabel@@UEBAHH@Z
+?heightForWidth@QWidget@@UEBAHH@Z
+?hide@QWidget@@QEAAXXZ
+?hideColumn@QTableView@@QEAAXH@Z
+?hideEvent@QWidget@@MEAAXPEAVQHideEvent@@@Z
+?hitButton@QAbstractButton@@MEBA_NAEBVQPoint@@@Z
+?hitButton@QCheckBox@@MEBA_NAEBVQPoint@@@Z
+?horizontalHeader@QTableView@@QEBAPEAVQHeaderView@@XZ
+?horizontalOffset@QTableView@@MEBAHXZ
+?horizontalScrollbarAction@QTableView@@MEAAXH@Z
+?horizontalScrollbarValueChanged@QAbstractItemView@@MEAAXH@Z
 ?id@?$codecvt@_WDU_Mbstatet@@@std@@2V0locale@2@A
 ?imbue@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAXAEBVlocale@2@@Z
 ?in@?$codecvt@_WDU_Mbstatet@@@std@@QEBAHAEAU_Mbstatet@@PEBD1AEAPEBDPEA_W3AEAPEA_W@Z
+?indexAt@QTableView@@UEBA?AVQModelIndex@@AEBVQPoint@@@Z
+?indexOf@QLayout@@UEBAHPEAVQWidget@@@Z
+?initPainter@QWidget@@MEBAXPEAVQPainter@@@Z
+?inputMethodEvent@QAbstractItemView@@MEAAXPEAVQInputMethodEvent@@@Z
+?inputMethodEvent@QWidget@@MEAAXPEAVQInputMethodEvent@@@Z
+?inputMethodQuery@QAbstractItemView@@UEBA?AVQVariant@@W4InputMethodQuery@Qt@@@Z
+?inputMethodQuery@QWidget@@UEBA?AVQVariant@@W4InputMethodQuery@Qt@@@Z
+?insertPermanentWidget@QStatusBar@@QEAAHHPEAVQWidget@@H@Z
+?insertRow@QTableWidget@@QEAAXH@Z
+?invalidate@QBoxLayout@@UEAAXXZ
+?invalidate@QColor@@AEAAXXZ
 ?isChecked@QAbstractButton@@QEBA_NXZ
 ?isEmpty@QLayout@@UEBA_NXZ
 ?isIndexHidden@QTableView@@MEBA_NAEBVQModelIndex@@@Z
@@ -419,6 +485,7 @@
 ?qt_metacast@QVBoxLayout@@UEAAPEAXPEBD@Z
 ?qt_metacast@QWidget@@UEAAPEAXPEBD@Z
 ?read@QTableWidgetItem@@UEAAXAEAVQDataStream@@@Z
+?red@QColor@@QEBAHXZ
 ?redirected@QWidget@@MEBAPEAVQPaintDevice@@PEAVQPoint@@@Z
 ?removeRow@QTableWidget@@QEAAXH@Z
 ?reset@QAbstractItemView@@UEAAXXZ
@@ -429,6 +496,7 @@
 ?restoreGeometry@QWidget@@QEAA_NAEBVQByteArray@@@Z
 ?restoreState@QMainWindow@@QEAA_NAEBVQByteArray@@H@Z
 ?restoreState@QSplitter@@QEAA_NAEBVQByteArray@@@Z
+?rgb@QColor@@QEBAIXZ
 ?row@QTableWidget@@QEBAHPEBVQTableWidgetItem@@@Z
 ?rowCount@QTableWidget@@QEBAHXZ
 ?rowsAboutToBeRemoved@QAbstractItemView@@MEAAXAEBVQModelIndex@@HH@Z
@@ -445,10 +513,12 @@
 ?selectionCommand@QAbstractItemView@@MEBA?AV?$QFlags@W4SelectionFlag@QItemSelectionModel@@@@AEBVQModelIndex@@PEBVQEvent@@@Z
 ?setAlignment@QLabel@@QEAAXV?$QFlags@W4AlignmentFlag@Qt@@@@@Z
 ?setAlignment@QLayoutItem@@QEAAXV?$QFlags@W4AlignmentFlag@Qt@@@@@Z
+?setAlpha@QColor@@QEAAXH@Z
 ?setAlternatingRowColors@QAbstractItemView@@QEAAX_N@Z
 ?setApplicationName@QCoreApplication@@SAXAEBVQString@@@Z
 ?setAttribute@QWidget@@QEAAXW4WidgetAttribute@Qt@@_N@Z
 ?setAutoFillBackground@QWidget@@QEAAX_N@Z
+?setBlue@QColor@@QEAAXH@Z
 ?setCentralWidget@QMainWindow@@QEAAXPEAVQWidget@@@Z
 ?setCheckState@QCheckBox@@QEAAXW4CheckState@Qt@@@Z
 ?setChecked@QAbstractButton@@QEAAX_N@Z
@@ -465,6 +535,7 @@
 ?setFocusPolicy@QWidget@@QEAAXW4FocusPolicy@Qt@@@Z
 ?setFrameStyle@QFrame@@QEAAXH@Z
 ?setGeometry@QBoxLayout@@UEAAXAEBVQRect@@@Z
+?setGreen@QColor@@QEAAXH@Z
 ?setHandleWidth@QSplitter@@QEAAXH@Z
 ?setHorizontalHeaderLabels@QTableWidget@@QEAAXAEBVQStringList@@@Z
 ?setIcon@QAbstractButton@@QEAAXAEBVQIcon@@@Z
@@ -476,6 +547,8 @@
 ?setModel@QTableWidget@@EEAAXPEAVQAbstractItemModel@@@Z
 ?setOrganizationDomain@QCoreApplication@@SAXAEBVQString@@@Z
 ?setOrganizationName@QCoreApplication@@SAXAEBVQString@@@Z
+?setRed@QColor@@QEAAXH@Z
+?setRgb@QColor@@QEAAXHHHH@Z
 ?setRootIndex@QTableView@@UEAAXAEBVQModelIndex@@@Z
 ?setSelection@QTableView@@MEAAXAEBVQRect@@V?$QFlags@W4SelectionFlag@QItemSelectionModel@@@@@Z
 ?setSelectionBehavior@QAbstractItemView@@QEAAXW4SelectionBehavior@1@@Z
@@ -540,7 +613,26 @@
 ?tr@QMetaObject@@QEBA?AVQString@@PEBD0H@Z
 ?uflow@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAHXZ
 ?uncaught_exception@std@@YA_NXZ
+?unsetCursor@QWidget@@QEAAXXZ
+?updateEditorData@QAbstractItemView@@MEAAXXZ
+?updateEditorGeometries@QAbstractItemView@@MEAAXXZ
+?updateGeometries@QTableView@@MEAAXXZ
 ?value@QSettings@@QEBA?AVQVariant@@AEBVQString@@AEBV2@@Z
+?verticalHeader@QTableView@@QEBAPEAVQHeaderView@@XZ
+?verticalOffset@QTableView@@MEBAHXZ
+?verticalScrollbarAction@QTableView@@MEAAXH@Z
+?verticalScrollbarValueChanged@QAbstractItemView@@MEAAXH@Z
+?viewOptions@QTableView@@MEBA?AVQStyleOptionViewItem@@XZ
+?viewportEvent@QAbstractItemView@@MEAA_NPEAVQEvent@@@Z
+?viewportSizeHint@QTableView@@MEBA?AVQSize@@XZ
+?visualRect@QTableView@@UEBA?AVQRect@@AEBVQModelIndex@@@Z
+?visualRegionForSelection@QTableView@@MEBA?AVQRegion@@AEBVQItemSelection@@@Z
+?warning@QMessageBox@@SA?AW4StandardButton@1@PEAVQWidget@@AEBVQString@@1V?$QFlags@W4StandardButton@QMessageBox@@@@W421@@Z
+?wheelEvent@QAbstractScrollArea@@MEAAXPEAVQWheelEvent@@@Z
+?wheelEvent@QWidget@@MEAAXPEAVQWheelEvent@@@Z
+?widget@QLayoutItem@@UEAAPEAVQWidget@@XZ
+?winId@QWidget@@QEBA_KXZ
+?write@QTableWidgetItem@@UEBAXAEAVQDataStream@@@Z
 ?xsgetn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JPEAD_J@Z
 ?xsputn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JPEBD_J@Z
 A valid JSON document must be either an array or an object value.
@@ -553,7 +645,6 @@ Alpha
 Associated=%1, Input=%2
 Attempt to init shared state %s twice
 Auto Curve Distance Range
-BName
 Background
 Background Color
 Bad escape sequence in string
@@ -611,7 +702,6 @@ DeleteCriticalSection
 Dev Tools
 Duplicate key: '
 DuplicateHandle
-E!?winId@QWidget@@QEBA_KXZ
 Empty escape sequence in string
 Encountered error 
 EnterCriticalSection
@@ -650,7 +740,6 @@ GetSystemTimeAsFileTime
 GetTickCount64
 GetTokenInformation
 GetTokenInformation failed. GetLastError returned: %d\n
-IDATx
 IEND
 IPC::CIPCHandle::InitForExport
 IPCPipe(%s) failed to read payload of %u bytes
@@ -708,8 +797,6 @@ Input Method
 IsDebuggerPresent
 IsProcessorFeaturePresent
 IsValidSid
-J?green@QColor@@QEBAHXZ
-K?invalidate@QColor@@AEAAXXZ
 KERNEL32.dll
 LeaveCriticalSection
 Line %d, Column %d
@@ -730,6 +817,7 @@ Missing '}' or object member name
 Mouse Capture
 Mouse Scale
 NULL
+Name
 OnBackgroundColor
 OnExitAction
 OnLinearClicked
@@ -753,23 +841,18 @@ Overlay Key
 Overlay Viewer
 Overlay=%1
 OverlayViewer
-P5Q \rF07
-PNG\r\n
 POSITION
 Parent Handle
 PeekNamedPipe
+Present
 Projection
 Property
 Protected
-Q?red@QColor@@QEBAHXZ
-QJ?globalPos@QMouseEvent@@QEBA?AVQPoint@@XZ
 Qt5Core.dll
 Qt5Gui.dll
 Qt5Widgets.dll
 QueryPerformanceCounter
-R?rgb@QColor@@QEBAIXZ
 RPCRT4.dll
-RSDS
 RaiseException
 ReadFile
 ReadFile failed on %s after event was signaled because %s\n
@@ -809,9 +892,7 @@ Steam AppID
 SteamVR_Namespace
 Subview
 Syntax error: value, object or array expected.
-T?setGreen@QColor@@QEAAXH@Z
 TEXCOORD
-TJ?globalPos@QWheelEvent@@QEBA?AVQPoint@@XZ
 TdhEnumerateManifestProviderEvents
 Texel Aspect Ratio
 Texture Bounds U
@@ -826,9 +907,6 @@ TrackedDeviceRelative: device=%d, component=%s
 TrackedDeviceRelative: xlate=(%f, %f, %f), device=%d
 Transform Type
 True
-U?setRed@QColor@@QEAAXH@Z
-U?setRgb@QColor@@QEAAXHHHH@Z
-U\f?fromAscii_helper@QString@@CAPEAU?$QTypedArrayData@G@@PEBDH@Z
 Unable to SetNamedPipeHandleState on pipe %s after connecting because %s\n
 Unable to create event %s to go with pipe %s in WaitForConnection\n
 Unable to create shared memory %s for IPC client\n
@@ -911,7 +989,6 @@ Warning: Watchdog %s not properly cleaned up%s%s\n
 WideCharToMultiByte
 Width In Meters
 WriteFile
-Z\f?hasHeightForWidth@QBoxLayout@@UEBA_NXZ
 [IPC] AddAccessAllowedAce failed for administrator. GetLastError returned: %d\n
 [IPC] AddAccessAllowedAce failed for chrome 1. GetLastError returned: %d\n
 [IPC] AddAccessAllowedAce failed for steam. GetLastError returned: %d\n
@@ -940,70 +1017,8 @@ Z\f?hasHeightForWidth@QBoxLayout@@UEBA_NXZ
 [IPC] SharedMem access invalid: %x\n
 [IPC] The owner SID is invalid.\n
 [IPC] Warning, existing file mapping for %s (%d) is too small (%d)\n
-\f?fromUtf8@QString@@SA?AV1@PEBDH@Z
-\f?fromWCharArray@QString@@SA?AV1@PEB_WH@Z
-\f?getColor@QColorDialog@@SA?AVQColor@@AEBV2@PEAVQWidget@@AEBVQString@@V?$QFlags@W4ColorDialogOption@QColorDialog@@@@@Z
-\f?heightForWidth@QWidget@@UEBAHH@Z
-\f?hide@QWidget@@QEAAXXZ
-\f?hideColumn@QTableView@@QEAAXH@Z
-\f?hideEvent@QWidget@@MEAAXPEAVQHideEvent@@@Z
-\f?hitButton@QAbstractButton@@MEBA_NAEBVQPoint@@@Z
-\f?hitButton@QCheckBox@@MEBA_NAEBVQPoint@@@Z
-\f?horizontalHeader@QTableView@@QEBAPEAVQHeaderView@@XZ
-\f?horizontalOffset@QTableView@@MEBAHXZ
-\f?horizontalScrollbarAction@QTableView@@MEAAXH@Z
-\f?horizontalScrollbarValueChanged@QAbstractItemView@@MEAAXH@Z
-\n?detach@QListData@@QEAAPEAUData@1@H@Z
-\n?detach_grow@QListData@@QEAAPEAUData@1@PEAHH@Z
-\n?disconnectNotify@QObject@@MEAAXAEBVQMetaMethod@@@Z
-\n?dispose@QListData@@QEAAXXZ
-\n?dispose@QListData@@SAXPEAUData@1@@Z
-\n?dragEnterEvent@QWidget@@MEAAXPEAVQDragEnterEvent@@@Z
-\n?dragLeaveEvent@QAbstractItemView@@MEAAXPEAVQDragLeaveEvent@@@Z
-\n?dragLeaveEvent@QWidget@@MEAAXPEAVQDragLeaveEvent@@@Z
-\n?dynamicMetaObject@QObjectData@@QEBAPEAUQMetaObject@@XZ
-\n?enterEvent@QWidget@@MEAAXPEAVQEvent@@@Z
-\n?event@QAction@@MEAA_NPEAVQEvent@@@Z
-\n?event@QCheckBox@@MEAA_NPEAVQEvent@@@Z
-\n?event@QLabel@@MEAA_NPEAVQEvent@@@Z
-\n?event@QMainWindow@@MEAA_NPEAVQEvent@@@Z
-\n?event@QPushButton@@MEAA_NPEAVQEvent@@@Z
-\n?event@QSplitter@@MEAA_NPEAVQEvent@@@Z
-\n?event@QTableWidget@@MEAA_NPEAVQEvent@@@Z
-\n?event@QWidget@@MEAA_NPEAVQEvent@@@Z
-\n?eventFilter@QAbstractScrollArea@@MEAA_NPEAVQObject@@PEAVQEvent@@@Z
 \nFailed to Initialize Rendering Device.\n
-\r?fillRect@QPainter@@QEAAXAEBVQRect@@AEBVQColor@@@Z
-\r?indexAt@QTableView@@UEBA?AVQModelIndex@@AEBVQPoint@@@Z
-\r?inputMethodQuery@QWidget@@UEBA?AVQVariant@@W4InputMethodQuery@Qt@@@Z
-\r?insertPermanentWidget@QStatusBar@@QEAAHHPEAVQWidget@@H@Z
-\r?insertRow@QTableWidget@@QEAAXH@Z
-\r?invalidate@QBoxLayout@@UEAAXXZ
 \rIHDR
-\t?blue@QColor@@QEBAHXZ
-\t?customEvent@QObject@@MEAAXPEAVQEvent@@@Z
-\t?data@QTableWidgetItem@@UEBA?AVQVariant@@H@Z
-\t?dataChanged@QAbstractItemView@@MEAAXAEBVQModelIndex@@0AEBV?$QVector@H@@@Z
-\t?devType@QWidget@@UEBAHXZ
-\t?doItemsLayout@QTableView@@UEAAXXZ
-\t\n?dragEnterEvent@QAbstractItemView@@MEAAXPEAVQDragEnterEvent@@@Z
-\v?event@QObject@@UEAA_NPEAVQEvent@@@Z
-\v?eventFilter@QObject@@UEAA_NPEAV1@PEAVQEvent@@@Z
-\v?exec@QApplication@@SAHXZ
-\v?expandingDirections@QBoxLayout@@UEBA?AV?$QFlags@W4Orientation@Qt@@@@XZ
-\v?focusInEvent@QLabel@@MEAAXPEAVQFocusEvent@@@Z
-\v?focusInEvent@QPushButton@@MEAAXPEAVQFocusEvent@@@Z
-\v?focusInEvent@QWidget@@MEAAXPEAVQFocusEvent@@@Z
-\v?focusNextPrevChild@QAbstractItemView@@MEAA_N_N@Z
-\v?focusNextPrevChild@QLabel@@MEAA_N_N@Z
-\v?focusNextPrevChild@QWidget@@MEAA_N_N@Z
-\v?focusOutEvent@QAbstractButton@@MEAAXPEAVQFocusEvent@@@Z
-\v?focusOutEvent@QAbstractItemView@@MEAAXPEAVQFocusEvent@@@Z
-\v?focusOutEvent@QLabel@@MEAAXPEAVQFocusEvent@@@Z
-\v?focusOutEvent@QPushButton@@MEAAXPEAVQFocusEvent@@@Z
-\v?focusOutEvent@QWidget@@MEAAXPEAVQFocusEvent@@@Z
-\v?geometry@QLayout@@UEBA?AVQRect@@XZ
-_ ?updateEditorData@QAbstractItemView@@MEAAXXZ
 _Cnd_destroy_in_situ
 _Cnd_init_in_situ
 _Cnd_signal
@@ -1051,8 +1066,6 @@ _set_fmode
 _set_new_mode
 _wfsopen
 _wstat64i32
-` ?updateEditorGeometries@QAbstractItemView@@MEAAXXZ
-a\f?hasHeightForWidth@QWidget@@UEBA_NXZ
 additional six characters expected to parse unicode surrogate pair.
 allowComments
 allowDroppedNullPlaceholders
@@ -1097,7 +1110,6 @@ de_de
 deque<T> too long
 dutch
 dxgi.dll
-e\n?dropEvent@QTableWidget@@MEAAXPEAVQDropEvent@@@Z
 el_gr
 en_us
 english
@@ -1120,12 +1132,9 @@ ftell
 geometry
 german
 greek
-h\n?dropEvent@QWidget@@MEAAXPEAVQDropEvent@@@Z
-h\r?inputMethodEvent@QAbstractItemView@@MEAAXPEAVQInputMethodEvent@@@Z
 horizontalSplitterSizes
 hu_hu
 hungarian
-iPresent
 icons
 icons:not_visible.png
 icons:visible.png
@@ -1147,10 +1156,8 @@ japanese
 keylength >= 2^30
 ko_kr
 koreana
-l ?updateGeometries@QTableView@@MEAAXXZ
 latam
 linear
-m\n?dropMimeData@QTableWidget@@MEAA_NHHPEBVQMimeData@@W4DropAction@Qt@@@Z
 m_pData
 malloc
 map/set<T> too long
@@ -1165,7 +1172,6 @@ nfinity
 nl_nl
 norwegian
 ntdll.dll
-o!?write@QTableWidgetItem@@UEBAXAEAVQDataStream@@@Z
 opaqueOverlay
 openvr
 openvr_api.dll
@@ -1176,15 +1182,12 @@ portuguese
 powf
 pt_br
 pt_pt
-r\r?inputMethodEvent@QWidget@@MEAAXPEAVQInputMethodEvent@@@Z
 rejectDupKeys
 ro_ro
 romanian
 ru_ru
 runtime
 russian
-sS?setBlue@QColor@@QEAAXH@Z
-s\n?edit@QAbstractItemView@@MEAA_NAEBVQModelIndex@@W4EditTrigger@1@PEAVQEvent@@@Z
 sc_schinese
 schinese
 server
@@ -1211,7 +1214,6 @@ thai
 tr_tr
 true
 turkish
-u\r?inputMethodQuery@QAbstractItemView@@UEBA?AVQVariant@@W4InputMethodQuery@Qt@@@Z
 uk_ua
 ukrainian
 valvesoftware.com
@@ -1223,10 +1225,5 @@ vi_vn
 vietnamese
 vrwebhelper
 wcstombs_s
-z\f?heightForWidth@QBoxLayout@@UEBAHH@Z
 zh_cn
 zh_tw
-{\v?focusInEvent@QAbstractButton@@MEAAXPEAVQFocusEvent@@@Z
-|\v?focusInEvent@QAbstractItemView@@MEAAXPEAVQFocusEvent@@@Z
-~\f?heightForWidth@QLabel@@UEBAHH@Z
-~\n?editorDestroyed@QAbstractItemView@@MEAAXPEAVQObject@@@Z

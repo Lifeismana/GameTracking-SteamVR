@@ -1,6 +1,7 @@
  RDT
  The memory needed by this module
  The session ID for this process.
+!%o5
 !The base priority of this thread.
 !The current state of this thread.
 !The time this thread was started.
@@ -123,6 +124,7 @@ $no DefaultCredential support in Mono
 6\r\VjVuV
 75L\n
 7Under Unix, only root is allowed to raise the priority.
+8%c@
 8)cE
 8J.N
 8Occurs when a file/directory creation matches the filter
@@ -7149,6 +7151,7 @@ ZvY}Y
 \RbT
 \T7U
 \fParse dmesg?
+\n%ow
 \nA\fJ\fR\f[\fj\f|\f
 \nSystem.dll
 \nYo9

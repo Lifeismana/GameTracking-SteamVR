@@ -1,16 +1,22 @@
 !! Last miles service delay: %u\n
 #!/bin/sh\nexit 0\n
 %.18g
+%A %b %d
+%d%s
 %d:00
 %lld
 %llu
 %s overflow!\n
+%s%c%s
 %s%c.temp_write_%x
+%s%s
 %s.async%u.tmp
+%s/%s
 %s/.steam/%s
 %s/.steam/steam
 ( CMilesAudioOutputStream * ) m_vecAudioOutputStreams[i]
 ( CMilesAudioSound * ) m_vecAudioSounds[i]
+(%s%d)
 (%zu) Descend: %s, (%s), %s\n
 (%zu) readdir failed to find '%s' in '%s'\n
 ../common/audio/audiocontroller.cpp
@@ -367,13 +373,6 @@ WeakRandomUint32
 _ITM_deregisterTMCloneTable
 _ITM_registerTMCloneTable
 _Jv_RegisterClasses
-_ZSt9terminatev@@GLIBCXX_3.4
-_ZTVN10__cxxabiv117__class_type_infoE@@CXXABI_1.3
-_ZTVN10__cxxabiv120__si_class_type_infoE@@CXXABI_1.3
-_ZdaPv@@GLIBCXX_3.4
-_ZdlPv@@GLIBCXX_3.4
-_Znam@@GLIBCXX_3.4
-_Znwm@@GLIBCXX_3.4
 __bss_start
 __ctype_b_loc
 __ctype_b_loc@@GLIBC_2.3
@@ -566,9 +565,13 @@ open@@GLIBC_2.2.5
 opendir
 opendir@@GLIBC_2.2.5
 operator delete(void*)
+operator delete(void*)@@GLIBCXX_3.4
 operator delete[](void*)
+operator delete[](void*)@@GLIBCXX_3.4
 operator new(unsigned long)
+operator new(unsigned long)@@GLIBCXX_3.4
 operator new[](unsigned long)
+operator new[](unsigned long)@@GLIBCXX_3.4
 org.valvesoftware.steam
 pa_context_connect
 pa_context_connect@@PULSE_0
@@ -745,6 +748,7 @@ statvfs64
 statvfs64@@GLIBC_2.2.5
 statvfs@@GLIBC_2.2.5
 std::terminate()
+std::terminate()@@GLIBCXX_3.4
 stderr
 stderr@@GLIBC_2.2.5
 strcasecmp
@@ -799,5 +803,7 @@ utime
 utime@@GLIBC_2.2.5
 utimes@@GLIBC_2.2.5
 vtable for __cxxabiv1::__class_type_info
+vtable for __cxxabiv1::__class_type_info@@CXXABI_1.3
 vtable for __cxxabiv1::__si_class_type_info
+vtable for __cxxabiv1::__si_class_type_info@@CXXABI_1.3
 write@@GLIBC_2.2.5

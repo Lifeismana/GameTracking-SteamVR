@@ -59,10 +59,12 @@ $Microsoft Root Certificate Authority0
 $QPW
 $fc9efd44-682f-42fd-a857-643b527c24b7
 $t73
+%#Le
 %VeriSign Class 3 Code Signing 2004 CA
 %VeriSign Class 3 Code Signing 2004 CA0
 %VeriSign Class 3 Code Signing 2010 CA
 %VeriSign Class 3 Code Signing 2010 CA0
+%pJ{
 &0<0B0`0
 &9GG]
 &CCC
@@ -85,6 +87,7 @@ $t73
 )E\f9U\fr4
 )gCw
 *NOS
+*u%E
 +$+%$+$++$++ +
 +0U0x0
 +BRSF
@@ -110,6 +113,7 @@ $t73
 ,u6I
 -64OS
 -FHO
+-N%g
 -QQJJKFHDBPXE.9?7
 -RSS
 .?AVCAtlException@ATL@@
@@ -4726,6 +4730,7 @@ u"WV
 u$L9
 u$SS
 u$V3
+u%C@
 u%HcM
 u%jW^
 u&D9c
@@ -4981,6 +4986,7 @@ zu^SSS
 zuiE3
 zzww
 {hBtwUh
+|$%A8
 |$0E3
 |$5A8
 |$8fD

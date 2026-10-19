@@ -1,22 +1,11 @@
-            
-               
-                   
                           
                                        
-                                        
                                           
                                             
                                                             
-                         abcdefghijklmnopqrstuvwxyz      abcdefghijklmnopqrstuvwxyz     
-                         abcdefghijklmnopqrstuvwxyz      abcdefghijklmnopqrstuvwxyz      
-                         abcdefghijklmnopqrstuvwxyz      abcdefghijklmnopqrstuvwxyz                                      
-                         abcdefghijklmnopqrstuvwxyz      abcdefghijklmnopqrstuvwxyz                                        
-                         abcdefghijklmnopqrstuvwxyz      abcdefghijklmnopqrstuvwxyz                                               
                          abcdefghijklmnopqrstuvwxyz      abcdefghijklmnopqrstuvwxyz                                                          
                          abcdefghijklmnopqrstuvwxyz      abcdefghijklmnopqrstuvwxyz                                                                      
  !"#$%&'()*+,-./01
- !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
- !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
  Base Class Array'
  Base Class Descriptor at (
  Class Hierarchy Descriptor'
@@ -25,22 +14,18 @@
  delete
  delete[]
  new
-"\tuset_clear_52
-#D5p
 %%CollationBin
 %%Parent
 %%ReorderCodes
+%+1.*e
+%+1.1f
+%.*g
 %1.15e
 %Translit%
 %Translit%%
-&2@UUUUUU
-&Sgw
-&\tuset_close_52
-( 8PX
 (?m)^([ \t]*(?:#.*?)?)$|^(?:\s*([0-9A-F]{4,})(?:..([0-9A-F]{4,}))?\s*;\s*([A-Za-z]+)\s*;\s*([A-Za-z]+)\s*;\s*(?:(A)|(L))[ \t]*(?:#.*?)?)$|^(.*?)$
 (?m)^[ \t]*([0-9A-Fa-f]+)[ \t]+;[ \t]*([0-9A-Fa-f]+(?:[ \t]+[0-9A-Fa-f]+)*)[ \t]*;\s*(?:(SL)|(SA)|(ML)|(MA))[ \t]*(?:#.*?)?$|^([ \t]*(?:#.*?)?)$|^(.*?)$
 (null)
-+*tsJ
 +Infinity
 +Normal
 +Subnormal
@@ -352,7 +337,6 @@
 0.6931471805599453094172321214581765680755
 0123456789abcdefghijklmnopqrstuvwxyz%
 09C>
-0\tuset_contains_52
 0vB-
 1#IND
 1#INF
@@ -361,43 +345,11 @@
 2.302585092994045684017991454684364207601
 2147483647
 2ieO=
-2n{a
-333333
-3\tuset_getItemCount_52
-44sV
-4\tuset_getItem_52
-4g%6
-4lkQg
-5DKB
-5M[g
-5SmT4
 5s3R6=
-6m4A2
 700WP
-7Z8>\t
 9223372036854775807
-:Esp
-;SRD
-<8bunz8
-<@En[vP
-<\tuset_openPatternOptions_52
 <empty>
-=87M
-=\tuset_openPattern_52
->Xzv
->\tuset_open_52
->o3fW
-?$rxxx
-?1mm
-?333333
-?3xj
-?43-s
-?4Td
 ?5Wg4p
-?5a1
-?6FID
-?765@Z
-?7Tf(
 ??0?$EnumSet@W4UDateFormatBooleanAttribute@@$0A@$01@icu_52@@QAE@ABV01@@Z
 ??0?$EnumSet@W4UDateFormatBooleanAttribute@@$0A@$01@icu_52@@QAE@XZ
 ??0?$EnumSet@W4UNumberFormatAttribute@@$0BAAA@$0BAAC@@icu_52@@QAE@ABV01@@Z
@@ -1147,7 +1099,6 @@
 ??_FHorizon@CalendarAstronomer@icu_52@@QAEXXZ
 ??_UUMemory@icu_52@@SAPAXI@Z
 ??_VUMemory@icu_52@@SAXPAX@Z
-?A%My
 ?ASCII@IdentifierInfo@icu_52@@0PAVUnicodeSet@2@A
 ?CHINESE@IdentifierInfo@icu_52@@0PAVScriptSet@2@A
 ?CHINESE_DATE_PRECEDENCE@ChineseCalendar@icu_52@@0QAY1M@7$$CBHA
@@ -1155,13 +1106,11 @@
 ?Dj0Q:W$=
 ?FULL_MOON@CalendarAstronomer@icu_52@@SA?BVMoonAge@12@XZ
 ?Flush@ByteSink@icu_52@@UAEXXZ
-?FnH
 ?IT$7
 ?IncrementTime@RegexMatcher@icu_52@@AAEXAAW4UErrorCode@@@Z
 ?JAPANESE@IdentifierInfo@icu_52@@0PAVScriptSet@2@A
 ?KOREAN@IdentifierInfo@icu_52@@0PAVScriptSet@2@A
 ?KYC
-?Ltm
 ?Ly5
 ?MAX_YEAR@AnnualTimeZoneRule@icu_52@@2HB
 ?MatchAt@RegexMatcher@icu_52@@AAEX_JCAAW4UErrorCode@@@Z
@@ -1169,21 +1118,13 @@
 ?NEW_MOON@CalendarAstronomer@icu_52@@SA?BVMoonAge@12@XZ
 ?PASS_STRING@CompoundTransliterator@icu_52@@2QB_WB
 ?PI@CalendarAstronomer@icu_52@@2NB
-?PV3
-?P`E5
-?PiB
-?QNT\t
 ?ReportFindProgress@RegexMatcher@icu_52@@AAEC_JAAW4UErrorCode@@@Z
 ?STATICMONTHLENGTH@SimpleTimeZone@icu_52@@0QBCB
 ?SUMMER_SOLSTICE@CalendarAstronomer@icu_52@@SANXZ
 ?SYNODIC_MONTH@CalendarAstronomer@icu_52@@2NB
 ?StateSave@RegexMatcher@icu_52@@AAEPAUREStackFrame@2@PAU32@_JAAW4UErrorCode@@@Z
-?UUUUUU
 ?Union@ScriptSet@icu_52@@QAEAAV12@ABV12@@Z
 ?WINTER_SOLSTICE@CalendarAstronomer@icu_52@@SANXZ
-?X&eB
-?X1U
-?Zxg
 ?_countAvailableSources@Transliterator@icu_52@@KAHXZ
 ?_countAvailableTargets@Transliterator@icu_52@@KAHABVUnicodeString@2@@Z
 ?_countAvailableVariants@Transliterator@icu_52@@KAHABVUnicodeString@2@0@Z
@@ -1311,7 +1252,6 @@
 ?areSignificantDigitsUsed@DecimalFormat@icu_52@@QBECXZ
 ?argNameMatches@MessageFormat@icu_52@@AAECHABVUnicodeString@2@H@Z
 ?arrayCompare@DateFormatSymbols@icu_52@@CACPBVUnicodeString@2@0H@Z
-?asin
 ?assign@UVector32@icu_52@@QAEXABV12@AAW4UErrorCode@@@Z
 ?assign@UVector64@icu_52@@QAEXABV12@AAW4UErrorCode@@@Z
 ?assignArray@DateFormatSymbols@icu_52@@CAXAAPAVUnicodeString@2@AAHPBV32@H@Z
@@ -1322,8 +1262,6 @@
 ?boundsCheck@GregorianCalendar@icu_52@@ABECHW4UCalendarDateFields@@@Z
 ?buildImmutableIndex@AlphabeticIndex@icu_52@@QAEPAVImmutableIndex@12@AAW4UErrorCode@@@Z
 ?buildTrie@TextTrieMap@icu_52@@AAEXAAW4UErrorCode@@@Z
-?c3y
-?c3y?
 ?cacheExplicitFormats@MessageFormat@icu_52@@AAEXAAW4UErrorCode@@@Z
 ?calendarFieldToIntervalIndex@DateIntervalInfo@icu_52@@CA?AW4IntervalPatternIndex@12@W4UCalendarDateFields@@AAW4UErrorCode@@@Z
 ?caseCompare@UnicodeString@icu_52@@QBECABV12@I@Z
@@ -1574,7 +1512,6 @@
 ?createWithLastResortData@DecimalFormatSymbols@icu_52@@SAPAV12@AAW4UErrorCode@@@Z
 ?createWordInstance@BreakIterator@icu_52@@SAPAV12@ABVLocale@2@AAW4UErrorCode@@@Z
 ?createZoneStrings@DateFormatSymbols@icu_52@@AAEXPBQBVUnicodeString@2@@Z
-?dDR
 ?daysToMillis@ChineseCalendar@icu_52@@ABENN@Z
 ?decimals@FixedDecimal@icu_52@@SAHN@Z
 ?decodeEndRule@SimpleTimeZone@icu_52@@AAEXAAW4UErrorCode@@@Z
@@ -1622,7 +1559,6 @@
 ?eclipticToEquatorial@CalendarAstronomer@icu_52@@QAEAAVEquatorial@12@AAV312@N@Z
 ?eclipticToEquatorial@CalendarAstronomer@icu_52@@QAEAAVEquatorial@12@AAV312@NN@Z
 ?eclipticToHorizon@CalendarAstronomer@icu_52@@QAEAAVHorizon@12@AAV312@N@Z
-?edf
 ?elementAt@UVector@icu_52@@QBEPAXH@Z
 ?elementAti@UVector@icu_52@@QBEHH@Z
 ?end64@RegexMatcher@icu_52@@UBE_JAAW4UErrorCode@@@Z
@@ -2676,7 +2612,6 @@
 ?isZero@DigitList@icu_52@@QBECXZ
 ?jdToCE@CECalendar@icu_52@@KAXHHAAH00@Z
 ?joinIDs@CompoundTransliterator@icu_52@@AAE?AVUnicodeString@2@QBQAVTransliterator@2@H@Z
-?ju!4
 ?julianDayToDayOfWeek@Calendar@icu_52@@KAEN@Z
 ?julianDayToMillis@GregorianCalendar@icu_52@@CANN@Z
 ?kDOWPrecedence@Calendar@icu_52@@1QAY1M@7$$CBHA
@@ -3205,7 +3140,6 @@
 ?setupCurrencyAffixPatterns@DecimalFormat@icu_52@@AAEXAAW4UErrorCode@@@Z
 ?setupCurrencyAffixes@DecimalFormat@icu_52@@AAEXABVUnicodeString@2@CCAAW4UErrorCode@@@Z
 ?setupCurrencyPluralPattern@CurrencyPluralInfo@icu_52@@AAEXABVLocale@2@AAW4UErrorCode@@@Z
-?sin
 ?size@MatchInfoCollection@TimeZoneNames@icu_52@@QBEHXZ
 ?size@UnicodeSet@icu_52@@UBEHXZ
 ?skipBidiMarks@DecimalFormat@icu_52@@CAHABVUnicodeString@2@H@Z
@@ -3290,7 +3224,6 @@
 ?truncate@UnicodeString@icu_52@@QAECH@Z
 ?truncateOffsetPattern@TimeZoneFormat@icu_52@@CAAAVUnicodeString@2@ABV32@AAV32@AAW4UErrorCode@@@Z
 ?tzFormat@SimpleDateFormat@icu_52@@ABEPAVTimeZoneFormat@2@XZ
-?uZEeu
 ?umtx_initImplPostInit@icu_52@@YAXAAUUInitOnce@1@@Z
 ?umtx_initImplPreInit@icu_52@@YACAAUUInitOnce@1@@Z
 ?unBogus@UnicodeString@icu_52@@AAEXXZ
@@ -3347,14 +3280,7 @@
 ?zap@RegexPattern@icu_52@@AAEXXZ
 ?zeroPaddingNumber@SimpleDateFormat@icu_52@@ABEXPAVNumberFormat@2@AAVUnicodeString@2@HHH@Z
 ?zoneOffsetAt@OlsonTimeZone@icu_52@@ABEHF@Z
-?{fHn
-@@@@@@@@@@@
-@@@@@@@@@@@@@@@@@@@@@@
-@@@@@@@@@@@@@@@@@@@@@@@
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@BBDEFGGIJKLMNOPIRSTUVVXXZ[\]^_`abcceeggijklmnoiqqstuvwwyz{|}~
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@BCDEFGHI@@@@@@@QR@@UVWXY@@@@@@@@bcdefghi@@@@@@pqrstuvwxy@@@@@@
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ABCDEFGHI@@@@@@@QRSTUVWXY@@@@@@@@bcdefghi@@@@@@@q@@@@@@@@@@@
-@VNQ
 @calendar=Indian
 @calendar=buddhist
 @calendar=chinese
@@ -3367,10 +3293,7 @@
 @collation=
 @wKA
 ABCDEFGHIJKLMNOPQRSTUVWXYZ
-A]?VJ
 Access violation - no RTTI data!
-Ai0T
-AiFC.
 AmPmMarkers
 April
 Attempted a typeid of nullptr pointer!
@@ -3378,7 +3301,6 @@ August
 AuxExemplarCharacters
 Bad dynamic_cast!
 Bad read pointer - no RTTI data!
-Bfe9
 Big5
 CURRENCY
 Clamped
@@ -3386,14 +3308,12 @@ CloseHandle
 Conversion syntax
 CorExitProcess
 Countries
-CqTR;
 CreateFileW
 Currencies
 CurrencyMap
 CurrencyMeta
 CurrencyPlurals
 CurrencyUnitPatterns
-D<xZu
 DEFAULT
 DIGIT
 DateTimePatterns
@@ -3405,7 +3325,6 @@ Division by zero
 Division impossible
 Division undefined
 DurationRules
-E0d\f
 EUC-JP
 EUC-KR
 EURO
@@ -3416,10 +3335,6 @@ ExemplarCharactersIndex
 ExemplarCharactersPunctuation
 ExitProcess
 F"VM>
-F0$?3=1
-F=J4
-F?cf
-FEMh\f
 F\IE>
 February
 FileTimeToSystemTime
@@ -3467,14 +3382,11 @@ GetSystemTimeAsFileTime
 GetTimeFormatW
 GetTimeZoneInformation
 HH:mm:ss
-HN?h
 HeapAlloc
 HeapFree
 HeapReAlloc
 HeapSize
 Hour
-Ht=c
-H|As
 IBM420_ltr
 IBM420_rtl
 IBM424_ltr
@@ -3515,14 +3427,10 @@ July
 June
 KERNEL32.dll
 KOI8-R
-K\tuset_size_52
 Keys
 LCMapStringEx
 LCMapStringW
-L\rPA
-La8i
 Languages
-Le?2
 LeaveCriticalSection
 LoadLibraryExW
 LocaleNameToLCID
@@ -3532,7 +3440,6 @@ MVx:>
 March
 MeasurementSystem
 Minute
-MkK?
 Monday
 Month
 Mpm<
@@ -3544,26 +3451,20 @@ Names
 NcB>
 No status
 November
-Nu?-HF
 NumberElements
 NumberPatterns
 NumberingSystemRules
-O,ib
 OD:A
 October
 OrdinalRules
 Overflow
 PD:A
-PO79
 PREEURO
 PUNCT
 PaperSize
-Pex?0
 Quarter
 QueryPerformanceCounter
 RBNFRules
-RSDS
-RUUUUU
 RaiseException
 Regions
 Rounded
@@ -3587,7 +3488,6 @@ SpelloutRules
 Subnormal
 Sunday
 SystemTimeToTzSpecificLocalTime
-TUUUU
 TZVersion
 T_CString_integerToString_52
 T_CString_toUpperCase_52
@@ -3601,77 +3501,26 @@ TlsSetValue
 TransliteratorNamePattern
 Tuesday
 Types
-T~OXu
 UCARules
+UTF-16BE
 UTF-16LE
 UTF-32BE
 UTF-32LE
 UTF-8
-UUUUU
 UUUUUU
 Underflow
 UnhandledExceptionFilter
 Unknown exception
-V-Ai
-V@                                       
-V\tustr_hashCharsN_52
+V%A+=
 Variants
 Wednesday
 Week
 WideCharToMultiByte
 WriteConsoleW
 WriteFile
-X/4B
-X2CQ
-X4I+
-X\tustr_hashUCharsN_52
 Year
-Z\tutext_clone_52
 Zones
-ZyrI
-[\tutext_close_52
-[aOni*{
-\5YyV
 \f \f!\f"\f#\f$\f%\f&\f'\f(\f)\f*\f+\f,\f-\f.\f/\f0\f1\f2\f3\f4\f5\f6\f7\f8\f9\f:\f;\f<\f=\f>\f?\f@\fA\fB\fC\fD\fE\fF\ficui18n.dll
-\fO4W
-\f\t\f\n\f\v\f\f\f\r\f
-\f\tuscript_getName_52
-\n \n!\n"\n#\n$\n%\n&\n'\n(\n)\n*\n+\n,\n-\n.\n/\n0\n1\n2\n3\n4\n5\n6\n7\n8\n9\n:\n;\n<\n=\n>\n?\n@\nA\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL\nM\nN\nO\nP\nQ\nR\nS\nT\nU\nV\nW\nX\nY\nZ\n[\n\\n]\n^\n_\n`\na\nb\nc\nd\ne\nf\ng\nh\ni\nj\nk\nl\nm\nn\no\np\nq\nr\ns\nt\nu\nv\nw\nx\ny\nz\n{\n|\n}\n~\n
-\n\t\n\n\n\v\n\f\n\r\n
-\t \t!\t"\t#\t$\t%\t&\t'\t(\t)\t*\t+\t,\t-\t.\t/\t0\t1\t2\t3\t4\t5\t6\t7\t8\t9\t:\t;\t<\t=\t>\t?\t@\tA\tB\tC\tD\tE\tF\tG\tH\tI\tJ\tK\tL\tM\tN\tO\tP\tQ\tR\tS\tT\tU\tV\tW\tX\tY\tZ\t[\t\\t]\t^\t_\t`\ta\tb\tc\td\te\tf\tg\th\ti\tj\tk\tl\tm\tn\to\tp\tq\tr\ts\tt\tu\tv\tw\tx\ty\tz\t{\t|\t}\t~\t
-\t\t\t\n\t\v\t\f\t\r\t
-\tcQr
-\tures_hasNext_52
-\tures_initStackObject_52
-\tures_openDirect_52
-\tures_openFillIn_52
-\tures_open_52
-\tures_resetIterator_52
-\tuscript_getScriptExtensions_52
-\tuscript_getScript_52
-\tuscript_getShortName_52
-\tuset_addAll_52
-\tuset_addRange_52
-\tuset_addString_52
-\tuset_add_52
-\tuset_applyPattern_52
-\tutrie2_close_52
-\tutrie2_freeze_52
-\tutrie2_get32_52
-\tutrie2_openFromSerialized_52
-\tutrie2_open_52
-\tutrie2_serialize_52
-\tutrie2_set32_52
-\tutrie2_setRange32_52
-\tutrie2_swap_52
-\tutrie_clone_52
-\tutrie_close_52
-\tutrie_enum_52
-\tutrie_get32_52
-\tutrie_open_52
-\tutrie_serialize_52
-\tutrie_set32_52
-\tutrie_unserialize_52
 \u00a3
 \u00a5
 \u20a4
@@ -3680,14 +3529,6 @@ ZyrI
 \ufe69
 \uff04
 \uffe5
-\v \v!\v"\v#\v$\v%\v&\v'\v(\v)\v*\v+\v,\v-\v.\v/\v0\v1\v2\v3\v4\v5\v6\v7\v8\v9\v:\v;\v<\v=\v>\v?\v@\vA\vB\vC\vD\vE\vF\vG\vH\vI\vJ\vK\vL\vM\vN\vO\vP\vQ\vR\vS\vT\vU\vV\vW\vX\vY\vZ\v[\v\\v]\v^\v_\v`\va\vb\vc\vd\ve\vf\vg\vh\vi\vj\vk\vl\vm\vn\vo\vp\vq\vr\vs\vt\vu\vv\vw\vx\vy\vz\v{\v|\v}\v~\v
-\v\t\v\n\v\v\v\f\v\r\v
-\v\tuscript_getCode_52
-]\tutext_current32_52
-^<V7w
-^\sY0
-^\tutext_equals_52
-_\tutext_extract_52
 __based(
 __cdecl
 __clrcall
@@ -3740,7 +3581,6 @@ _nextafter
 `vftable'
 `virtual displacement map'
 aDJ=
-a\tutext_getNativeIndex_52
 abbreviated
 abcdefghijklmnopqrstuvwxyz
 acos
@@ -3759,10 +3599,8 @@ bad exception
 beforeCurrency
 buddhist
 c:\buildslave\v8_win32\build\build\ReleaseSteam_VS2015\icui18n.pdb
-c?e2
 calendar
 calendarPreferenceData
-cb~q
 ceil
 chinese
 cldrVersion
@@ -3783,7 +3621,6 @@ currencyMatch
 currencyNumericCodes
 currencySpacing
 cyclicNameSets
-d8L2
 dangi
 day-format-except-narrow
 day-narrow
@@ -3800,8 +3637,6 @@ desc
 direction
 duration
 e+000
-e-CS
-eLK(w
 era-abbr
 era-name
 era-narrow
@@ -3809,10 +3644,7 @@ eras
 ethiopic
 ethiopic-amete-alem
 exponential
-f6\tn
 f7O>
-fSOs
-f\tutext_moveIndex32_52
 fabs
 fallback
 fallbackFormat
@@ -3826,7 +3658,6 @@ fmod
 format
 frexp
 from
-g\tutext_nativeLength_52
 genderList
 gmtFormat
 gmtZeroFormat
@@ -3834,17 +3665,11 @@ gregorian
 group
 grouping
 gsL>
-h0'D
-hI{L[
-hb?O2
 hebr
 hebrew
 host
 hour
 hourFormat
-hsz?
-i\tutext_next32_52
-ibzP
 icudt52l-coll
 icudt52l-curr
 icudt52l-lang
@@ -3882,9 +3707,6 @@ izrule_isEquivalentTo_52
 izrule_open_52
 jVa?
 japanese
-k:UG
-k=yI
-k\tutext_openConstUnicodeString_52
 keyTypeData
 keyTypePattern
 languages
@@ -3900,9 +3722,6 @@ locales_ordinals
 log10
 ls1=
 lzZ?
-m1WY$
-m\nXo
-m\tutext_openUChars_52
 maleTaints
 mapTimezones
 measurementData
@@ -3928,19 +3747,14 @@ narrow
 native
 neutral
 nfkc
-np?z 
 numberingSystems
 numbers
 numbers=
 numeric
 n}in
-o3fW
-o\tutext_openUnicodeString_52
-obwQ4
 operator
 operator "" 
 other
-owM&
 pattern
 patterns
 patternsLong
@@ -3954,15 +3768,11 @@ plusSign
 pnJ=
 primaryZones
 pup7@
-q\tutext_previous32_52
 quarter
 quarters
 quotationEnd
 quotationStart
 r7Yr7=
-r@UTF-16BE
-r\nly
-r\tutext_replace_52
 radix
 regionCodes
 regionFormat
@@ -3973,8 +3783,6 @@ restrict(
 root
 rules
 sNaN
-sU0&?W
-s\tutext_setNativeIndex_52
 scientificFormat
 script
 second
@@ -3988,8 +3796,6 @@ standard
 supplementalData
 surroundingMatch
 symbols
-s{c|H
-tLVv
 tanh
 territory
 territoryAlias
@@ -4003,10 +3809,8 @@ type
 typeAlias
 typeMap
 typeOffsets
-u+E6
 u?^p?o4
 uXO=
-uZEeu
 u_UCharsToChars_52
 u_charDigitValue_52
 u_charFromName_52
@@ -4686,6 +4490,17 @@ ures_getType_52
 ures_getUTF8StringByKey_52
 ures_getUTF8String_52
 ures_getVersionByKey_52
+ures_hasNext_52
+ures_initStackObject_52
+ures_openDirect_52
+ures_openFillIn_52
+ures_open_52
+ures_resetIterator_52
+uscript_getCode_52
+uscript_getName_52
+uscript_getScriptExtensions_52
+uscript_getScript_52
+uscript_getShortName_52
 usearch_close_52
 usearch_first_52
 usearch_following_52
@@ -4713,6 +4528,20 @@ usearch_setCollator_52
 usearch_setOffset_52
 usearch_setPattern_52
 usearch_setText_52
+uset_addAll_52
+uset_addRange_52
+uset_addString_52
+uset_add_52
+uset_applyPattern_52
+uset_clear_52
+uset_close_52
+uset_contains_52
+uset_getItemCount_52
+uset_getItem_52
+uset_openPatternOptions_52
+uset_openPattern_52
+uset_open_52
+uset_size_52
 uspoof_areConfusableUTF8_52
 uspoof_areConfusableUnicodeString_52
 uspoof_areConfusable_52
@@ -4745,6 +4574,26 @@ uspoof_swap(): Spoof Data header is invalid.\n
 uspoof_swap(): data format %02x.%02x.%02x.%02x (format version %02x %02x %02x %02x) is not recognized\n
 uspoof_swap(): too few bytes (%d after ICU Data header) for spoof data.\n
 uspoof_swap_52
+ustr_hashCharsN_52
+ustr_hashUCharsN_52
+utext_clone_52
+utext_close_52
+utext_current32_52
+utext_equals_52
+utext_extract_52
+utext_getNativeIndex_52
+utext_moveIndex32_52
+utext_nativeLength_52
+utext_next32_52
+utext_openConstUnicodeString_52
+utext_openUChars_52
+utext_openUnicodeString_52
+utext_previous32_52
+utext_replace_52
+utext_setNativeIndex_52
+utf8_back1SafeBody_52
+utf8_nextCharSafeBody_52
+utf8_prevCharSafeBody_52
 utmscale_fromInt64_52
 utmscale_getTimeScaleValue_52
 utmscale_toInt64_52
@@ -4767,8 +4616,23 @@ utrans_transUChars_52
 utrans_trans_52
 utrans_unregisterID_52
 utrans_unregister_52
-v2!L.2
-v\tutf8_back1SafeBody_52
+utrie2_close_52
+utrie2_freeze_52
+utrie2_get32_52
+utrie2_openFromSerialized_52
+utrie2_open_52
+utrie2_serialize_52
+utrie2_set32_52
+utrie2_setRange32_52
+utrie2_swap_52
+utrie_clone_52
+utrie_close_52
+utrie_enum_52
+utrie_get32_52
+utrie_open_52
+utrie_serialize_52
+utrie_set32_52
+utrie_unserialize_52
 variant
 vzone_clone_52
 vzone_close_52
@@ -4795,7 +4659,6 @@ vzone_useDaylightTime_52
 vzone_writeFromStart_52
 vzone_writeSimple_52
 vzone_write_52
-w7H-
 week
 weekData
 weekday
@@ -4808,13 +4671,8 @@ windows-1254
 windows-1255
 windows-1256
 windowsZones
-x\tutf8_nextCharSafeBody_52
-xpxxxx
-y\tutf8_prevCharSafeBody_52
 year
 years
-yx|o
-z1}B
 zone
 zone-long
 zone-short
@@ -4841,8 +4699,4 @@ ztrans_open_52
 ztrans_setFrom_52
 ztrans_setTime_52
 ztrans_setTo_52
-zyC7
-{4Wf
 |W8A=
-}6lw
-}Tw5

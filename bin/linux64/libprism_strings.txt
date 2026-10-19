@@ -48,6 +48,14 @@
 !std::equal(resourceCounts.begin(), resourceCounts.end(), blockInfo.numResources) || (blockInfo.localIndex != localLoopIndex) || (blockInfo.numChildren != numChildren)
 !std::isnan( flSystemTimeInSeconds )
 %*csubgraph cluster_%d { style="rounded%s"
+%*s_%d
+%.*Lf
+%.*s
+%.*s [
+%s%.*s
+%s%s%s%s%s
+%s%s\n
+%s%u
 %s(%s): concurrent batches not allowed
 %s-CommandBuffer-%d
 %s-Image
@@ -797,7 +805,6 @@ Prism_Graphics
 Prism_RPS: %s
 Process %d failed to shm_open %s: %d\n
 ProcessTransition(graph, nodeId, resState.access, currAccess.access, currAccess.resourceId, currAccess.range)
-QkkXa
 R10G10B10A2_TYPELESS
 R10G10B10A2_UINT
 R10G10B10A2_UNORM
@@ -1600,6 +1607,7 @@ munmap
 nFrameIndex >> ( 64 - k_TimelineEventShift ) == 0
 nImageIndex < ARRAY_SIZE( m_descriptorClientImages )
 nSizeInBytes <= m_unSizeInBytes
+n_%d
 nanosleep
 new 
 newNodeId == RPS_INDEX_NONE_U32
@@ -1933,6 +1941,7 @@ subroutine_end
 syscall
 sysconf
 system
+t_%d
 tableIdx < RPS_COUNTOF(c_builtInNodeNames)
 tanf
 tanhf

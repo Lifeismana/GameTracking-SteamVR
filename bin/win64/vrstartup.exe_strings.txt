@@ -1,9 +1,11 @@
  for detail.\n
 !! refusing to trigger minidump with debugger attached\n
+%%.%dg
 %Y-%m-%d-%p_%I_%M_%S
 %a %b %d %H:%M:%S %Y
 %a %b %d %Y %H:%M:%S.%%03u
 %s %s startup with PID=%u, config=%s, runtime=%s, arch=%s\n
+%s%s\n
 ' is not a number.
 , last executing in 
 -1e+9999
@@ -132,7 +134,7 @@
 /user/waist
 /user/wrist/left
 /user/wrist/right
-14:22:51
+13:51:51
 1e+9999
 : exception thrown in JSON library
 <unknown>
@@ -193,7 +195,6 @@
 ?widen@?$basic_ios@DU?$char_traits@D@std@@@std@@QEBADD@Z
 ?xsgetn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JPEAD_J@Z
 ?xsputn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JPEBD_J@Z
-@false
 A valid JSON document must be either an array or an object value.
 A wireless HMD driver is present, but the wireless HMD has not connected and Steam is not running (216)
 A wireless HMD driver is present, but the wireless HMD has not connected yet (215)
@@ -389,7 +390,7 @@ None
 Not Initialized (109)
 Not available to watchdog apps (131)
 Not starting vrserver for background app (121)
-Oct  9 2026
+Oct 16 2026
 On laptop, HMD detected over USB, but Monitor not found (213)
 OpenProcess
 Out of thread local storage!\n
@@ -397,7 +398,6 @@ OutputDebugStringA
 Platform handles tutorial / initial home app launch %s. Starting Event Polling...
 QueryPerformanceCounter
 QueryPerformanceFrequency
-RSDS6
 RaiseException
 Rebooting In Progress (137)
 RegCloseKey
@@ -864,6 +864,7 @@ exit
 expecting another \u token to begin the second half of a unicode surrogate pair
 external_drivers
 failIfExtra
+false
 fclose
 fflush
 fi_fi

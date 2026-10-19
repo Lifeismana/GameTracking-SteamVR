@@ -49,6 +49,8 @@ $Use Background.FromTexture2D instead
 $lf\vp
 $lz\v0
 %Unity.IntegrationTests.UnityAnalytics
+%oF\t
+%r%e
 %r1c
 %r3e
 %r3g

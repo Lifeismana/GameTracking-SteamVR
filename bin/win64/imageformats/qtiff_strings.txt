@@ -4,7 +4,6 @@
   Group 3 Options:
   Group 4 Options:
   Predictor: 
- !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
  (%lu = 0x%lx)\n
  (%u = 0x%x)\n
  clean
@@ -22,6 +21,7 @@
 %lu: Strip out of range, max %lu
 %lu: Tile out of range, max %lu
 %s %s decoding is not implemented
+%s %s encoding is not implemented
 %s at line %u of %s %u (got %u, expected %u)
 %s compression support is not configured
 %s data at scanline %lu (%I64u != %I64u)
@@ -44,8 +44,7 @@
 %s: Unknown %stag %u
 %sEOL padding
 %suncompressed data
-,T?setDotsPerMeterX@QImage@@QEAAXH@Z
--Q?qt_metacast@QImageIOPlugin@@UEAAPEAXPEBD@Z
+%u (0x%x)\n
 .00cfg
 .?AVQImageIOHandler@@
 .?AVQImageIOPlugin@@
@@ -68,7 +67,6 @@
 .CRT$XPZ
 .CRT$XTA
 .CRT$XTZ
-.T?setDotsPerMeterY@QImage@@QEAAXH@Z
 .bss
 .data
 .data$r
@@ -102,9 +100,7 @@
 .xdata$x
 0 (0x0)
 1.2.5
-2\vpN
 7 (0x7)
-8&Kx
 ??0QByteArray@@QEAA@PEBDH@Z
 ??0QImage@@QEAA@AEBVQSize@@W4Format@0@@Z
 ??0QImageIOHandler@@QEAA@XZ
@@ -121,20 +117,59 @@
 ?allocate@QArrayData@@SAPEAU1@_K00V?$QFlags@W4AllocationOption@QArrayData@@@@@Z
 ?bits@QImage@@QEAAPEAEXZ
 ?childEvent@QObject@@MEAAXPEAVQChildEvent@@@Z
+?colorTable@QImage@@QEBA?AV?$QVector@I@@XZ
 ?connectNotify@QObject@@MEAAXAEBVQMetaMethod@@@Z
 ?constData@QByteArray@@QEBAPEBDXZ
+?convertToFormat@QImage@@QEHAA?AV1@W4Format@1@V?$QFlags@W4ImageConversionFlag@Qt@@@@@Z
+?copy@QImage@@QEBA?AV1@AEBVQRect@@@Z
+?currentImageNumber@QImageIOHandler@@UEBAHXZ
+?currentImageRect@QImageIOHandler@@UEBA?AVQRect@@XZ
+?customEvent@QObject@@MEAAXPEAVQEvent@@@Z
+?deallocate@QArrayData@@SAXPEAU1@_K1@Z
+?device@QImageIOHandler@@QEBAPEAVQIODevice@@XZ
+?disconnectNotify@QObject@@MEAAXAEBVQMetaMethod@@@Z
+?dotsPerMeterX@QImage@@QEBAHXZ
+?dotsPerMeterY@QImage@@QEBAHXZ
+?dynamicMetaObject@QObjectData@@QEBAPEAUQMetaObject@@XZ
+?event@QObject@@UEAA_NPEAVQEvent@@@Z
+?eventFilter@QObject@@UEAA_NPEAV1@PEAVQEvent@@@Z
 ?format@QImage@@QEBA?AW4Format@1@XZ
+?fromRawData@QByteArray@@SA?AV1@PEBDH@Z
+?getAndRef@ExternalRefCountData@QtSharedPointer@@SAPEAU12@PEBVQObject@@@Z
+?hasAlphaChannel@QImage@@QEBA_NXZ
+?height@QImage@@QEBAHXZ
+?imageCount@QImageIOHandler@@UEBAHXZ
+?isNull@QImage@@QEBA_NXZ
 ?isOpen@QIODevice@@QEBA_NXZ
 ?isReadable@QIODevice@@QEBA_NXZ
 ?isWritable@QIODevice@@QEBA_NXZ
+?jumpToImage@QImageIOHandler@@UEAA_NH@Z
+?jumpToNextImage@QImageIOHandler@@UEAA_NXZ
+?logicalDpiX@QPaintDevice@@QEBAHXZ
+?logicalDpiY@QPaintDevice@@QEBAHXZ
+?loopCount@QImageIOHandler@@UEBAHXZ
+?nextImageDelay@QImageIOHandler@@UEBAHXZ
 ?peek@QIODevice@@QEAA?AVQByteArray@@_J@Z
 ?qstrcmp@@YAHAEBVQByteArray@@PEBD@Z
+?qt_metacall@QImageIOPlugin@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
+?qt_metacast@QImageIOPlugin@@UEAAPEAXPEBD@Z
 ?read@QIODevice@@QEAA_JPEAD_J@Z
+?scanLine@QImage@@QEAAPEAEH@Z
+?scanLine@QImage@@QEBAPEBEH@Z
+?setColorTable@QImage@@QEAAXV?$QVector@I@@@Z
+?setDevice@QImageIOHandler@@QEAAXPEAVQIODevice@@@Z
+?setDotsPerMeterX@QImage@@QEAAXH@Z
+?setDotsPerMeterY@QImage@@QEAAXH@Z
+?setFormat@QImageIOHandler@@QEAAXAEBVQByteArray@@@Z
+?setFormat@QImageIOHandler@@QEBAXAEBVQByteArray@@@Z
 ?shared_null@QArrayData@@2QBU1@B
+?size@QImage@@QEBA?AVQSize@@XZ
+?staticMetaObject@QImageIOPlugin@@2UQMetaObject@@B
 ?timerEvent@QObject@@MEAAXPEAVQTimerEvent@@@Z
 ?toInt@QVariant@@QEBAHPEA_N@Z
 ?type@QVariant@@QEBA?AW4Type@1@XZ
 ?warning@QMessageLogger@@QEBAXPEBDZZ
+?width@QImage@@QEBAHXZ
 ?write@QIODevice@@QEAA_JPEBD_J@Z
 ASCII value for tag "%s" contains null byte in value; value incorrectly truncated during reading due to implementation limitations
 ASCII value for tag "%s" does not end in null byte
@@ -151,7 +186,6 @@ AsShotWhiteXY
 Assuming 8-bit colormap
 Attempt to reset field on directory not already on disk.
 Attempt to write value larger than 0xFFFFFFFF in Classic TIFF file.
-B\f?dotsPerMeterX@QImage@@QEBAHXZ
 Bad code word at line %u of %s %u (x %u)
 BadFaxLines
 BaselineExposure
@@ -179,7 +213,6 @@ CFALayout
 CFAPattern
 CFAPlaneColor
 CIE L*a*b*
-CTag 
 CalibrationIlluminant1
 CalibrationIlluminant2
 CameraCalibration1
@@ -231,7 +264,6 @@ CustomRendered
 DNGBackwardVersion
 DNGPrivateData
 DNGVersion
-D\f?dotsPerMeterY@QImage@@QEBAHXZ
 Data buffer too small to hold part of strip %lu
 Data buffer too small to hold strip %lu
 Data buffer too small to hold tile %lu
@@ -272,7 +304,6 @@ ExposureMode
 ExposureProgram
 ExposureTime
 ExtraSamples
-FK?imageCount@QImageIOHandler@@UEBAHXZ
 FNumber
 Failed to allocate fields array
 Failed to allocate memory for %s (%ld elements of %ld bytes each)
@@ -310,7 +341,6 @@ Fractional scanlines cannot be read
 Fractional scanlines cannot be written
 FreeByteCounts
 FreeOffsets
-G%s %s encoding is not implemented
 GPSIFDOffset
 GainControl
 GetCurrentProcess
@@ -370,13 +400,8 @@ Invalid strip byte count %I64u, strip %lu
 Invalid td_samplesperpixel value
 IsDebuggerPresent
 IsProcessorFeaturePresent
-J?hasAlphaChannel@QImage@@QEBA_NXZ
 JPEG
-K?height@QImage@@QEBAHXZ
 KERNEL32.dll
-L?isNull@QImage@@QEBA_NXZ
-L?jumpToImage@QImageIOHandler@@UEAA_NH@Z
-L?jumpToNextImage@QImageIOHandler@@UEAA_NXZ
 LIBTIFF, Version 4.0.3\nCopyright (c) 1988-1996 Sam Leffler\nCopyright (c) 1991-1996 Silicon Graphics, Inc.
 LZMA
 LZWDecode
@@ -401,10 +426,6 @@ LogLuvInitState
 LogLuvSetupDecode
 LogLuvSetupEncode
 LogLuvVSetField
-M?logicalDpiX@QPaintDevice@@QEBAHXZ
-M?logicalDpiY@QPaintDevice@@QEBAHXZ
-M?loopCount@QImageIOHandler@@UEBAHXZ
-MW?size@QImage@@QEBA?AVQSize@@XZ
 Make
 MakerNote
 MakerNoteSafety
@@ -474,7 +495,6 @@ Not enough data for scanline %ld
 Not enough data for scanline %lu
 Not enough data for scanline %lu, expected a request for at most %I64d bytes, got a request for %I64d bytes
 NumberOfInks
-O?nextImageDelay@QImageIOHandler@@UEBAHXZ
 Old-style JPEG
 Old-style LZW codes, convert file
 OldSubfileType
@@ -488,7 +508,6 @@ Out of memory allocating %lld byte temp buffer.
 Out of memory for colormap copy
 Out of memory reading of "%s"
 Out of memory reading of "%s"; tag ignored
-P?qt_metacall@QImageIOPlugin@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
 PackBits
 PackBitsDecode
 PageName
@@ -526,8 +545,6 @@ QTiffPlugin
 Qt5Core.dll
 Qt5Gui.dll
 QueryPerformanceCounter
-R?scanLine@QImage@@QEAAPEAEH@Z
-R?scanLine@QImage@@QEBAPEBEH@Z
 RGB color
 RawDataUniqueID
 Read error at row %lu, col %lu, tile %lu; got %I64u bytes, expected %I64u
@@ -549,7 +566,6 @@ RowsPerStrip
 RtlCaptureContext
 RtlLookupFunctionEntry
 RtlVirtualUnwind
-S?setColorTable@QImage@@QEAAXV?$QVector@I@@@Z
 SGILog
 SGILog compression cannot handle non-contiguous data
 SGILog compression supported only for %s, or raw data
@@ -609,7 +625,6 @@ SubjectDistance
 SubjectDistanceRange
 SubjectLocation
 T82Options
-T?setDevice@QImageIOHandler@@QEAAXPEAVQIODevice@@@Z
 TIFF directory is missing required "%s" field
 TIFF directory is missing required "StripByteCounts" field, calculating from imagelength
 TIFFAdvanceDirectory
@@ -665,6 +680,7 @@ TIFFVTileSize64
 TIFFWriteBufferSetup
 TIFFWriteDirectorySec
 TIFFWriteDirectoryTagCheckedRationalArray
+TIFFWriteDirectoryTagCheckedSrationalArray
 TIFFWriteDirectoryTagColormap
 TIFFWriteDirectoryTagData
 TIFFWriteDirectoryTagIfdIfd8Array
@@ -678,6 +694,7 @@ TIFFWriteEncodedTile
 TIFFWriteRawStrip
 TIFFWriteRawTile
 TIFFWriteScanline
+Tag 
 Tag %d
 TargetPrinter
 TerminateProcess
@@ -709,7 +726,6 @@ UserComment
 VCRUNTIME140.dll
 Value exceeds 32bit range of output type.
 VersionYear
-W?staticMetaObject@QImageIOPlugin@@2UQMetaObject@@B
 WaitForSingleObjectEx
 WakeAllConditionVariable
 Warning, 
@@ -732,7 +748,6 @@ YCbCrSubsampling
 YClipPathUnits
 YPosition
 YResolution
-Z?width@QImage@@QEBAHXZ
 ZIPDecode
 ZIPEncode
 ZIPPostEncode
@@ -743,24 +758,11 @@ ZIPSetupEncode
 ZIPVSetField
 ZLib cannot deal with buffers this size
 ZLib error: %s
-[\n?convertToFormat@QImage@@QEHAA?AV1@W4Format@1@V?$QFlags@W4ImageConversionFlag@Qt@@@@@Z
-\\n?deallocate@QArrayData@@SAXPEAU1@_K1@Z
-\f?getAndRef@ExternalRefCountData@QtSharedPointer@@SAPEAU12@PEBVQObject@@@Z
-\n?colorTable@QImage@@QEBA?AV?$QVector@I@@XZ
-\n?currentImageNumber@QImageIOHandler@@UEBAHXZ
-\n?currentImageRect@QImageIOHandler@@UEBA?AVQRect@@XZ
-\n?disconnectNotify@QObject@@MEAAXAEBVQMetaMethod@@@Z
-\n?dynamicMetaObject@QObjectData@@QEBAPEAUQMetaObject@@XZ
-\t?customEvent@QObject@@MEAAXPEAVQEvent@@@Z
-\v?device@QImageIOHandler@@QEBAPEAVQIODevice@@XZ
-\v?event@QObject@@UEAA_NPEAVQEvent@@@Z
-\v?eventFilter@QObject@@UEAA_NPEAV1@PEAVQEvent@@@Z
 _CxxThrowException
 _TIFFMergeFields
 _TIFFSetupFields
 _TIFFVGetField
 _TIFFVSetField
-_TIFFWriteDirectoryTagCheckedSrationalArray
 __C_specific_handler
 __acrt_iob_func
 __std_exception_copy
@@ -792,7 +794,6 @@ bad allocation
 bad array new length
 bsearch
 custom tag binary object
-f\n?copy@QImage@@QEBA?AV1@AEBVQRect@@@Z
 floating point predictor 
 floor
 for "StripByteCounts" array
@@ -819,7 +820,6 @@ memset
 min-is-black
 min-is-white
 must be either LogLUV or LogL
-n$Kx
 none 
 palette color (RGB from colormap)
 pseudo-
@@ -827,7 +827,6 @@ qsort
 qt_plugin_instance
 qt_plugin_query_metadata
 qtiff.dll
-r\f?fromRawData@QByteArray@@SA?AV1@PEBDH@Z
 rand
 realloc
 row 0 bottom, col 0 lhs
@@ -851,9 +850,7 @@ tile
 tiles
 to read TIFF directory
 transparency mask
-uT?setFormat@QImageIOHandler@@QEAAXAEBVQByteArray@@@Z
 unknown tagname
-vT?setFormat@QImageIOHandler@@QEBAXAEBVQByteArray@@@Z
 z_deflate
 z_deflateEnd
 z_deflateInit_

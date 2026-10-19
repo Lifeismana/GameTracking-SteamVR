@@ -47,7 +47,6 @@
  seeing 
  sensors~
  syncs=
-!AxU
 " because it is missing required fields: 
 " conflicts with the existing symbol "
 " for field "
@@ -87,7 +86,6 @@
 " which is not used.
 " which is.
 "$0" does not declare $1 as an extension number.
-"'\n\vCBaseConfig
 ") is not compatible with this reflection object (which is for type "
 ") to start from the outermost scope.
 ").  Note that the exact same class is required; not just the same descriptor.
@@ -103,9 +101,6 @@
 "0x" must be followed by hex digits.
 "MutableRawRepeatedField"
 "e" must be followed by exponent.
-"r\n\nCImuSample
-"z\n\rMethodOptions
-#bML"
 $0  extend .$1 {\n
 $0  extensions $1 to $2;\n
 $0  message $1
@@ -113,11 +108,20 @@ $0 oneof $1 {\n
 $0$1$2 $3 = $4
 $0enum $1 {\n
 $0option $1;\n
+%%.%dg
+%- 9.2g 
+%-28s: %u\n
+%.*g
+%.1f
+%.2f Hz\n
 %.8lf l=%05d r=%05d \tsample=%02d width=%4.0lf angle=%4.4lf %s\n
 %.8lf l=%05d r=%05d \tsync %08X:%d width=%4.0lf width_delta=%+0.0lf ootxBit=%d ootxIndex=%d\n
 %0.0f
 %02x
 %04X
+%7.0f 
+%8.1f 
+%d.%d.%d
 %d\t\t%s\t\t%s\t\t%s\t\t%s\t\t%s\n
 %hu,%hu,'%4c',%hu
 %lf         sample   %d.%02d\n
@@ -159,28 +163,10 @@ $0option $1;\n
 %s: Wireless controller %s disconnected\n
 %u %s@%s %s FPGA %u(%u.%u/%u/%u) BL %u%s%s%s
 ' is not a number.
-(\t"+\n\rCDynamicState
-(\v2 .google.protobuf.DescriptorProto
-(\v2!.google.protobuf.EnumValueOptions"
-(\v2$.google.protobuf.EnumDescriptorProto
-(\v2$.google.protobuf.FileDescriptorProto"
-(\v2$.google.protobuf.UninterpretedOption"/\n
-(\v2$.google.protobuf.UninterpretedOption":\n\fOptimizeMode
-(\v2$.google.protobuf.UninterpretedOption*\t
-(\v2%.google.protobuf.FieldDescriptorProto
-(\v2%.google.protobuf.OneofDescriptorProto
-(\v2&.google.protobuf.MethodDescriptorProto
-(\v2'.google.protobuf.ServiceDescriptorProto
-(\v2(.google.protobuf.SourceCodeInfo.Location
-(\v2).google.protobuf.EnumValueDescriptorProto
-(\v2).lighthouse.pb.CBaseConfigAndDynamicState"
-(\v2-.google.protobuf.UninterpretedOption.NamePart
-(\v2/.google.protobuf.DescriptorProto.ExtensionRange
 (cannot determine missing fields for lite message)
 (merge 
 )", which is not defined. The innermost scope is searched first in name resolution. Consider using a leading '.'(i.e., "(.
 ).  Contact the program author for an update.  If you compiled the program yourself, make sure that your headers are from the same version of Protocol Buffers as your link-time library.  (Version verification failed in "
-*5KS
 +laser0
 +laser1
 +motor0
@@ -196,10 +182,7 @@ $0option $1;\n
 ------ WARNING!  Lighthouse config has %d sensors!\n
 -1e+9999
 -Infinity
--\n\nimu_sample
 -inf
--t1?Ks
--tA?Ks
 .  Please update your library.  If you compiled the program yourself, make sure that your headers are from the same version of Protocol Buffers as your link-time library.  (Version verification failed in "
 ..\src\google\protobuf\descriptor.cc
 ..\src\google\protobuf\descriptor.pb.cc
@@ -391,25 +374,12 @@ $0option $1;\n
 .dummy
 .edata
 .foo = value".
-.google.protobuf.EnumOptions"l\n
-.google.protobuf.FieldOptions"
-.google.protobuf.FileOptions
-.google.protobuf.MessageOptions
-.google.protobuf.MethodOptions"
-.google.protobuf.ServiceOptions"
-.google.protobuf.SourceCodeInfo"
 .idata$2
 .idata$3
 .idata$4
 .idata$5
 .idata$6
 .json
-.lighthouse.pb.CBaseConfig
-.lighthouse.pb.CDynamicState"
-.lighthouse.pb.CImuSample
-.lighthouse.pb.COpticalFrame
-.lighthouse.pb.COpticalSample
-.lighthouse.pb.CVec3
 .pdata
 .placeholder.proto
 .rdata
@@ -432,8 +402,6 @@ $0option $1;\n
 .tls$ZZZ
 .xdata
 .xdata$x
-/P8i
-/\n\vbase_config
 /axis
 /bin/mail
 /button
@@ -475,37 +443,15 @@ $0option $1;\n
 /user/waist
 /user/wrist/left
 /user/wrist/right
-/yQA
 00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899"
 0123456789abcdef
-0pk\t
 0x%X\n
 1.2.5
-1A26b
 1e+9999
-1wsHp
-2#.google.protobuf.FieldOptions.CType:
-2).google.protobuf.FileOptions.OptimizeMode:
-2*.google.protobuf.FieldDescriptorProto.Type
-2+.google.protobuf.FieldDescriptorProto.Label
-3\n\rdynamic_state
-3\n\roptical_frame
-52F*
-53t"
-5\n\vnested_type
-6/aG
-6\n\fmessage_type
-7\n\tenum_type
-7~8A
-8\n\textension
-9\n\noneof_decl
-9a&g
 : Protocol message serialized to a size different from what was originally expected.  Perhaps it was modified by another thread during serialization?
 : Tried to copy from a message with a different type. to: 
 : Tried to merge from a message with a different type.  to: 
 <unknown>
-?&x0O
-?333333
 ??0?$basic_ios@DU?$char_traits@D@std@@@std@@IEAA@XZ
 ??0?$basic_iostream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@@Z
 ??0?$basic_istream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@_N@Z
@@ -534,7 +480,6 @@ $0option $1;\n
 ??_7facet@locale@std@@6B@
 ??_7ios_base@std@@6B@
 ?UUUUUU
-?VUUUUU
 ?_BADOFF@std@@3_JB
 ?_Decref@facet@locale@std@@UEAAPEAV_Facet_base@3@XZ
 ?_Incref@facet@locale@std@@UEAAXXZ
@@ -556,14 +501,10 @@ $0option $1;\n
 ?cin@std@@3V?$basic_istream@DU?$char_traits@D@std@@@1@A
 ?cout@std@@3V?$basic_ostream@DU?$char_traits@D@std@@@1@A
 ?es-8R
-?ffffff
 ?flush@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@XZ
-?hid.dll
 ?id@?$codecvt@_WDU_Mbstatet@@@std@@2V0locale@2@A
 ?imbue@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAXAEBVlocale@2@@Z
 ?in@?$codecvt@_WDU_Mbstatet@@@std@@QEBAHAEAU_Mbstatet@@PEBD1AEAPEBDPEA_W3AEAPEA_W@Z
-?interface
-?name
 ?out@?$codecvt@_WDU_Mbstatet@@@std@@QEBAHAEAU_Mbstatet@@PEB_W1AEAPEB_WPEAD3AEAPEAD@Z
 ?pbackfail@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAHH@Z
 ?put@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@D@Z
@@ -581,7 +522,6 @@ $0option $1;\n
 ?sputc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QEAAHD@Z
 ?sputn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QEAA_JPEBD_J@Z
 ?sync@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAHXZ
-?tTyY1
 ?uflow@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAHXZ
 ?uncaught_exception@std@@YA_NXZ
 ?underflow@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAHXZ
@@ -619,7 +559,6 @@ BL requested by app
 BL requested by buttons
 BQ27421
 BQ27520
-B\reBh
 BackUp() can only be called after a successful Next().
 Backlight Init
 Backlight Init Error
@@ -632,8 +571,6 @@ Batt:
 Boolean default must be true or false.
 Boot to app
 Byte size calculation and serialization were inconsistent.  This may indicate a bug in protocol buffers or it may be caused by concurrent modification of the message.
-C-Yn
-CBaseConfigAndDynamicState
 CDisambiguatorFramer: Non monotonicity in ProcessSensorHit\n
 CHECK failed: !coded_out.HadError(): 
 CHECK failed: !out.HadError(): 
@@ -676,10 +613,7 @@ CHECK failed: result != NULL:
 CHECK failed: trees: 
 CHECK failed: uninterpreted_options_field != NULL: 
 CHECK failed: value.size() <= kint32max: 
-CHeader
 CHidDevice: Can't open USB device VID %08x, PID %08x %s %d\n
-CORD
-COpticalSample
 CPPTYPE_BOOL
 CPPTYPE_DOUBLE
 CPPTYPE_ENUM
@@ -692,10 +626,7 @@ CPPTYPE_UINT32
 CPPTYPE_UINT64
 CRC (%08X) does not match expected value (%08X)\n
 CRC valid (%08X)\n
-CRecord
 CSyncDetect: Detected large-scale timebase non-monotonicity. last: %lf current: %lf - Resetting....\n
-CType
-CVec3
 Camera
 CameraSync
 Can't 
@@ -753,8 +684,6 @@ DefWindowProcA
 Default value for an enum field must be an identifier.
 Delayed State Change
 DeleteCriticalSection
-DescriptorProto
-DescriptorProtosH
 DestroyWindow
 Device was not open when attempting to read its config\n
 DeviceIoControl
@@ -794,9 +723,6 @@ End-of-file inside block comment.
 EnterCriticalSection
 Entered Debug
 Enum type "
-EnumDescriptorProto
-EnumValueDescriptorProto
-EnumValueOptions
 Enums must contain at least one value.
 Error parsing UserData header for %s\n
 Error parsing config JSON: 
@@ -832,7 +758,6 @@ Extension numbers must be positive integers.
 Extension range $0 to $1 includes field "$2" ($3).
 Extension range $0 to $1 overlaps with already-defined range $2 to $3.
 Extension range end number must be greater than start number.
-ExtensionRange
 Extensions of MessageSets must be optional messages.
 Extensions to non-lite types can only be declared in non-lite files.  Note that you cannot extend a non-lite type to contain a lite type, but the reverse is allowed.
 FATAL
@@ -843,7 +768,6 @@ FW BL
 FW Update Finish
 FW Update Load
 FW Update Start
-F\n\foptimize_for
 Failed to create window in DeviceMessageWindow_t::Create
 Failed to erase dongle pairing\n
 Failed to get HINSTANCE in DeviceMessageWindow_t::Create
@@ -866,7 +790,6 @@ Field numbers cannot be greater than $0.
 Field numbers must be positive integers.
 Field with message or enum type missing type_name.
 Field with primitive type has type_name.
-FieldDescriptorProto
 FieldDescriptorProto.extendee not set for extension field.
 FieldDescriptorProto.extendee set for non-extension field.
 FieldDescriptorProto.oneof_index $0 is out of range for type "$1".
@@ -878,8 +801,6 @@ File appears to be in generated pool but wasn't registered:
 File is already registered: 
 File recursively imports itself: 
 File: 
-FileDescriptorProto
-FileDescriptorSet
 Files that do not use optimize_for = LITE_RUNTIME cannot import files which do use this option.  This file is not lite, but it imports "
 Files with optimize_for = LITE_RUNTIME cannot define services unless you set both options cc_generic_services and java_generic_sevices to false.
 First argument to Swap() (of type "
@@ -953,8 +874,6 @@ GetTickCount64
 GetUInt32
 GetUInt64
 GetWindowLongPtrA
-H$6t
-H*0"ZOW
 HID opened: VID %04x PID %04x serial %S seq %d | if %d\n
 HMD Device Connect:\n
 HWID Signature not found
@@ -996,7 +915,6 @@ IVRSettings_003
 IVRSystemLayerInternal_XXX
 IVRVirtualDisplay_002
 IVRWatchdogProvider_001
-IiGM>nw
 Import "
 In BL: 
 Index out-of-bounds (field is empty).
@@ -1036,13 +954,9 @@ IsProcessorFeaturePresent
 JSON
 JSON Update
 KERNEL32.dll
-LABEL_OPTIONAL
-LABEL_REPEATED
-LABEL_REQUIRED
 LHR-%08X
 LPC11 App
 LPC11 BL
-Label
 Last sample %d %lf %lf\n
 LeaveCriticalSection
 Lighthouse %s HID device error\n
@@ -1054,11 +968,8 @@ Line:
 LoadLibraryA
 LocalFree
 LocalizationManager
-Location
 Log Erase
-M8MF
 MAX10
-MGiI
 MIPI Init
 MIPI Init Error
 MSB 
@@ -1071,18 +982,13 @@ Mark 2
 Mark 3
 Mark 4
 Max watchdog reset count
-Mb ?QFo
-MbP?
-Mbp?UUUUUU
 Message class "
 Message extensions cannot have required fields.
 Message missing required fields: 
 Message type "
-MessageOptions
 MessageSets cannot have fields, only extensions.
 Messages can't have default values!
 Messages can't have default values.
-MethodDescriptorProto
 Missing ',' or ']' in array declaration
 Missing ',' or '}' in object declaration
 Missing ':' after object member name
@@ -1095,10 +1001,8 @@ Multiple TDM slaves in mode A/C.\n
 Multiple basestations locked to same phase. Please confirm TDM cable is plugged in and bases are in proper A/B modes.\n
 MutableRawRepeatedField
 MutableRepeatedMessage
-NJ2"v
 NRF52
 NRF52 DTM
-NamePart
 Need space between identifier and decimal point.
 Need space between number and identifier.
 Neo V0
@@ -1114,10 +1018,7 @@ Non-primitive types can't be packed.
 Non-repeated field "
 Note that enum values use C++ scoping rules, meaning that enum values are siblings of their type, not children of it.  Therefore, "
 Numbers starting with leading zero must be in octal.
-O*9y]
-OZw3(?
 Oneof must have at least one field.
-OneofDescriptorProto
 Open failed from from vid 0x%X pid 0x%X serial %s when looking for all controllers\n
 Open failed from from vid 0x%X pid 0x%X serial %s when looking for controller id %X\n
 OpenVR
@@ -1135,19 +1036,14 @@ Pairing Success
 Panel Init
 Panel Init Error
 Panic in TDM. basestation offset is invalid: %f\n
-Pe6^
 PeekMessageA
 Peripheral MCU Application Version: %i\n
-Ppk\t
 Protocol Buffer reflection usage error:\n  Method      : google::protobuf::Reflection::
 Protocol message serialized itself in invalid fashion.
 Protocol message was modified concurrently during serialization.
-Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
-R1h58
 RPCRT4.dll
-RSDS
 Radio Version: %i\n
 RaiseException
 Raw mapped input (%2d):
@@ -1174,11 +1070,9 @@ RtlLookupFunctionEntry
 RtlVirtualUnwind
 S-%d%s %c %2d %4d 
 SETUPAPI.dll
-SKyu
 SOB total=
 SOB: add 
 SOB: drop 
-SPEED
 STEREO_DEV_BENCRUSHER2_MICROVISION
 STEREO_DEV_BENCRUSHER_MICROVISION
 STEREO_DEV_DANHAT_EMAGIN_SXGA
@@ -1196,7 +1090,6 @@ STEREO_DEV_ST1080_FLIP_UPWARD
 STEREO_DEV_ST1080_UPWARD_GLUE_GUN_SPECIAL
 STEREO_DEV_TEST
 STEREO_DEV_VUZIX_STAR_1200
-STRING
 SUCCESS: Changing attached device ID from %s to %u\n
 SUCCESS: Setting attached device ID to %u\n
 Saw demod rate %.0f/s, enabling Sync on Beam\n
@@ -1207,8 +1100,6 @@ Send FPGA reset request...  Nothing good is likely to happen!\n
 Sensor Scheduling is '%s'\n
 Sensor Scheduling is in test mode.  Scheduling is simulated.\n\tAll sensor events that would be ignored will have 8000 added to their width.\n
 SensorID\tHitCount\tMaxWidthTicks\tSensorIndex\tDemodCount\tExample\n
-ServiceDescriptorProto
-ServiceOptions
 SetAllocatedMessage
 SetBool
 SetDouble
@@ -1242,7 +1133,6 @@ Skipping connected dongle %s\n
 Sleep
 SleepConditionVariableCS
 Software Reset
-SourceCodeInfo
 Specify a device serial number with /serial preceding /pair\n
 Specify a device serial number with /serial preceding /pairstop\n
 Stable
@@ -1286,7 +1176,6 @@ TlsSetValue
 TranslateMessage
 Tried to merge messages of different types 
 True
-Type
 Type appears to be in generated pool but wasn't 
 Type is already registered: 
 U:\p4clients\thirdpartycode\nonredist\protobuf\protobuf-2.6.1\src\google/protobuf/repeated_field.h
@@ -1310,7 +1199,6 @@ Unexpected end of string.
 Unexpected failure while serializing option submessage 
 UnhandledExceptionFilter
 Unimplemented type: 
-UninterpretedOption
 Unknown
 Unknown Hmd Interrupt packet: report ID %d\n
 Unknown command.  Type "help"\n
@@ -1355,7 +1243,6 @@ Value must be quoted string for string option "
 Value out of range for int32 option "
 Value out of range for int64 option "
 Value out of range for uint32 option "
-Vc0a
 VerQueryValueA
 Version:  %s  %s\n
 Video Failure
@@ -1395,9 +1282,6 @@ Writing... %s\n
 Wrote %d bytes to %s\n
 Wrote 0x%X to 0x%X\n
 Wrote the contents of %s as the config on the device\n
-XsBI
-Zjz\v
-[h1R
 [invalid]\t%d\n
 [lazy = true] can only be specified for submessage fields.
 [libprotobuf %s %s:%d] %s\n
@@ -1415,57 +1299,9 @@ Zjz\v
 \n  Problem     : 
 \n  Problem     : Enum value did not match field type:\n    Expected  : 
 \n  Problem     : Field is not the right type for this message:\n    Expected  : 
-\n google/protobuf/descriptor.proto
-\n\fFieldOptions
-\n\fLITE_RUNTIME
-\n\fSTRING_PIECE
-\n\fTYPE_FIXED32
-\n\fTYPE_FIXED64
-\n\fTYPE_MESSAGE
-\n\fdouble_value
-\n\fideal_period
-\n\fis_extension
-\n\fjava_package
-\n\fstring_value
-\n\nTYPE_BYTES
-\n\nTYPE_FLOAT
-\n\nTYPE_GROUP
-\n\nTYPE_INT32
-\n\nTYPE_INT64
-\n\ndependency
-\n\ndeprecated
-\n\ngo_package
-\n\ninput_type
-\n\nsync_width
-\n\rCOpticalFrame
-\n\rTYPE_SFIXED32
-\n\rTYPE_SFIXED64
-\n\rdefault_value
-\n\rserial_number
-\n\tname_part
-\n\ttype_name
-\n\vEnumOptions
-\n\vFileOptions
-\n\vTYPE_DOUBLE
-\n\vTYPE_SINT32
-\n\vTYPE_SINT64
-\n\vTYPE_STRING
-\n\vTYPE_UINT32
-\n\vTYPE_UINT64
-\n\vallow_alias
-\n\voneof_index
-\n\voutput_type
-\r\n\tCODE_SIZE
-\r\n\tTYPE_BOOL
-\r\n\tTYPE_ENUM
-\rlighthouse.pb"(\n
-\rmj>zjZ
 \tPID  0x%04X\n
 \tVID  0x%04X\n
-\t\t\n\n\v\v\f\f\f\f\r\r\r\r
-\t\t\t\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r
 \x%02x
-^oEZ_
 _CxxThrowException
 _Mtx_destroy_in_situ
 _Mtx_init_in_situ
@@ -1521,12 +1357,9 @@ _wstat64i32
 abort
 acc_bias
 acc_scale
-accel
 active
 additional six characters expected to parse unicode surrogate pair.
-aggregate_value
 alse
-angle
 api-ms-win-crt-convert-l1-1-0.dll
 api-ms-win-crt-environment-l1-1-0.dll
 api-ms-win-crt-filesystem-l1-1-0.dll
@@ -1551,7 +1384,6 @@ audio_recording_device_name
 audio_recording_device_pid
 audio_recording_device_vid
 auto
-average_period
 axis
 axis: %d (filter:%d, printInterval:%d)\n
 axis=%3d 
@@ -1565,7 +1397,6 @@ bad conversion
 base
 base %08X u%d r%d (i%d)\n
 base:%08X axis:%d min_sensor_ppm: %0.2f\n
-base_config_json
 battery
 battery (charging): %d\n
 battery (not charging): %d\n
@@ -1593,7 +1424,6 @@ c:\buildslave\steamvr_rel_win64\build\src\vortexlib\stereo_setup.cpp
 cal_method
 calloc
 capsensecalibrate
-cc_generic_services
 center
 center_x
 center_y
@@ -1603,15 +1433,12 @@ clear
 clear\tClear the record buffer and accumulated statistics.\n
 closed
 coeffs
-com.google.protobufB
 configuration string is empty
 connected lighthouse device found.
 controller
 couldn't parse configuration %s: %s\n
 cs_cz
-ctype
 czech
-dQy/
 da_dk
 danish
 data %d %d %.17g %08x %08x\n
@@ -1640,6 +1467,7 @@ display_gc
 display_hdr10
 display_mc
 display_multiframerate
+display_serial_number
 display_usb_pid
 display_usb_protocol
 display_usb_vid
@@ -1656,6 +1484,7 @@ down
 downloadconfig
 downloadconfig [<filename>]\tDownload the config file\n
 doze
+driver
 driver_lighthouse message window
 drivers
 drop %08X u%d (i%d)\n
@@ -1667,7 +1496,6 @@ dump
 dump: %d\n
 dump\tToggle all dumping to the console. You must also turn on the individual { imu, sync, sample } flags.\n
 dutch
-dynamic_state_json
 eEYE_FIRST
 eEYE_L
 eEYE_LEFT
@@ -1682,7 +1510,6 @@ english
 enum
 errors
 errors\tDump the lighthouse error/status structure.\n
-es-8R
 es_es
 es_mx
 event
@@ -1692,40 +1519,31 @@ event\tToggle lighthouse aux event dumping\n
 eventmask
 eventmask\tSelect lighthouse aux events to report\n
 eventrate
-ewh/?y
 exception thrown in JSON library
 exit
 expected_bases
 expected_controllers
 expecting another \u token to begin the second half of a unicode surrogate pair
-experimental_map_key
 extend .$0 {\n
-extendee
-extension_range
 extrinsics
 eye_target_height_in_pixels
 eye_target_width_in_pixels
 eye_to_head
 eye_tracking
-fP~V
 failed
 false
 fclose
 fflush
 fi_fi
-field
-file
 file error
 file is empty or does not exist
 finnish
 firmware_config
-firmware_version
 first_eye
 fixcalib
 fixed32
 fixed64
 flags
-flags2
 float
 fmod
 focal_x
@@ -1747,12 +1565,10 @@ free
 french
 fseek
 ftell
-fu`z
 fwrite
 generic_tracker
 german
 getenv
-google.protobuf"G\n
 google.protobuf.Empty
 google.protobuf.EnumOptions
 google.protobuf.EnumValueOptions
@@ -1763,24 +1579,21 @@ google.protobuf.MethodOptions
 google.protobuf.ServiceOptions
 google.protobuf.StreamOptions
 google/protobuf/descriptor.proto
-gqr<
 greek
 group
 grow_for_undistort
-gyro
 gyro_bias
 gyro_scale
-hPU3
 haptic
 haptic [<duration_us>] [<interval_us>] [<repeat_count>]\tTrigger haptic pulse\n
 haptic2
 haptic2 [<frequency_hz>] [<duration_ms>] [<amplitude_percent>]\tTrigger haptics\n
-hardware_revision
 head
 head_from_camera
 header crc mismatch
 height
 help
+hid.dll
 hid_close
 hid_enumerate
 hid_error
@@ -1800,19 +1613,16 @@ hid_send_feature_report
 hid_set_nonblocking
 hid_write
 hidden_area_mesh
-high_frame_jitter
 high_mm
 hmdhidtest
 hu_hu
 hungarian
-i91k
-i]Wb
-identifier_value
 identifycontroller
 identifycontroller \tTrigger haptic pulses on the active serial number to identify it\n
 image
 imu %.17g %.17g %.17g %.17g %.17g %.17g %.17g %u\n
 imu %u rate %0.1fHz interval %0.1fms sigma %0.3fms grav %0.2fm/s/s sigma %0.3f\n
+imu: %d\n
 imu\tToggle IMU data packet dumping\n
 imustats
 imustats: %d\n
@@ -1840,6 +1650,7 @@ input_profile
 insufficient memory
 int32
 int64
+interface
 intrinsics
 invalid bit length repeat
 invalid block type
@@ -1870,33 +1681,19 @@ it_it
 italian
 ja_jp
 japanese
-java_generate_equals_and_hash
-java_generic_services
-java_multiple_files
-java_outer_classname
-java_string_check_utf8
 ko_kr
 koreana
-l6qnk
-lDa>
-label
 last_eye
 latam
-lazy
 ldiv
-leading_comments
 left
-left_sync_is_real
-left_sync_time
 lighthouse_config
 lighthouse_console
 lighthouse_console.exe
 lighthouse_console.exe usage:\n
 lighthouse_console_save.txt
-lighthouse_db_json
 lighthouse_debug.proto
 list<T> too long
-location
 long_optical_packet_delay
 long_sync
 low_mm
@@ -1915,8 +1712,6 @@ memcpy
 memmove
 memset
 message
-message_set_wire_format
-method
 mfg_build_info
 minimum_ipd_step
 minstep_mm
@@ -1931,29 +1726,20 @@ nSplineCtrlPts
 name
 nb_no
 need dictionary
-negative_int_value
 nl_nl
-no_standard_descriptor_accessor
 none
 norwegian
 not running
 null
 num_windows
-number
 off!
 offset
-ootx
 ootx %08X u%d r%d (i%d)\n
-optical_sample
 optional
-options
-package
-packed
 pair
 pairall
 parallel_render_cameras
 parse
-path
 period
 period\tPrint sync statistics\n
 pitch
@@ -1967,22 +1753,16 @@ pose %08X %.17g %.8g %.8g %.8g %.8g %.8g %.8g %.8g\n
 pose solver: %d%s\n
 pose\tToggle static pose solver. Is 'dis' is not active, it will enable it.\n
 position
-positive_int_value
 poweroff
 poweroff\tTurn off the active controller\n
-ppk\t
 prescale
-previous_period
 product %u rev %u.%u.%u lot %u/%u/%u %u
 proximity
 proximity=%d (%f) prox_triggered=%d\n
 pt_br
 pt_pt
-public_dependency
 pulse_queue_overflow
 putchar
-pxE"
-py_generic_services
 queue_overflow
 quit
 quit\tQuit\n
@@ -2008,24 +1788,18 @@ required_peer_driver
 resource_root
 revision
 right
-right_sync_is_real_as_it_gets
-right_sync_time
 ro_ro
 roll
 romanian
 rotation
 roundf
-ru&o
 ru_ru
 runtime
 russian
-s?Ks
 sample
 sample %d %.17g %.17g\n
 sample: %d\n
 sample\tToggle sample dumping\n
-sample_angle_estimate
-samples
 save
 save [<filename="lighthouse_console_save.txt">]\tSave recorded events to a file on disk\n
 saw base %08X model %u firmware %u resets %u mode %s faults %s ootx %d nonce %d [
@@ -2043,7 +1817,6 @@ sensorcheck: %d\n
 sensorcheck\tPrint out hits (and widths) per sensor\n
 serial
 serial\tSelect a device to open by serial number substring\n
-service
 sfixed32
 sfixed64
 short_sync
@@ -2051,11 +1824,8 @@ sint32
 sint64
 sleep
 sleep <milliseconds>\tReally just sleep\n
-source_code_info
 spammy_sensor
-span
 spanish
-start
 stby
 stoi argument out of range
 strchr
@@ -2086,7 +1856,7 @@ sync: %d\n
 sync\tToggle sync dumping\n
 syncd\tToggle sw sync detect\n
 synconbeam
-systime
+tTyY1
 tchinese
 tdm sync acquired\n
 tdm sync lost\n
@@ -2096,7 +1866,6 @@ text format contains deprecated field "
 th_th
 thai
 the global scope
-time
 timeBeginPeriod
 timeEndPeriod
 tolower
@@ -2107,7 +1876,6 @@ tracked_camera
 tracked_camera1
 tracked_cameras
 tracked_controller_role
-tracked_object_json
 tracking_camera_intrinsics
 tracking_camera_unique_id
 tracking_reference
@@ -2117,12 +1885,10 @@ trackpadcalibrate\tTrigger trackpad recalibration on the active controller\n
 trackpaddebug
 trackref_from_head
 trackref_from_imu
-trailing_comments
 translation
 true
 turkish
 type
-uKb!?6mH
 uKbA?
 uint32
 uint64
@@ -2132,7 +1898,6 @@ undist_height
 undist_width
 undistort_r2_cutoff
 uninterpreted_option
-unique_base_id
 unknown
 unknown compression method
 unknown header flags set
@@ -2156,35 +1921,21 @@ userdatadownload name\n
 userdatadownloadraw
 userdatadownloadraw <addr> <size> [<filename>]\tDownload and store the user data at specified address\n
 userdatadownloadraw address size filename\n
-vQO+t
-value
 vector<T> too long
 version
 version\tPrints the firmware and hardware version on the Watchman board\n
 vi_vn
 vietnamese
 vortex
-w+OQvr
-w3Xc
-wXR\r
 wait
 wake
 watchimustats
 wcsncmp
-weak
-weak_dependency
 white_balance
 width
 wipe
 wipeUnable to request wireless pairing\n
-wireless_dongle_serial_number
-wn>Jj
 wrong submessage type
-y9*O
-y?driver
-y@display_serial_number
 zDUUPE
-zd?/n
 zh_cn
 zh_tw
-{kHw

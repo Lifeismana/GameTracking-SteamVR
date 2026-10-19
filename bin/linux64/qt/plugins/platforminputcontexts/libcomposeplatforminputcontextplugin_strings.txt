@@ -1,8 +1,6 @@
- !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
  Control
 "# !$%'&()*+,
 "%s" is not a legal field name\n
-$%&'()*+,-./0123
 $ORIGIN/../../lib
 $QTCOMPOSE
 %15s
@@ -10,6 +8,9 @@ $QTCOMPOSE
 %d include paths searched:\n
 %s of boolean values not permitted\n
 %s of strings not permitted\n
+%s%s
+%s%s(
+%s%s()%s
 %s%s(button=
 %s%s(controls=%s%s)%s
 %s%s(group=%s%d%s%s)%s
@@ -17,6 +18,8 @@ $QTCOMPOSE
 %s%s(screen=%s%d,%ssame)%s
 %s%s(type=0x%02x,data[0]=0x%02x,data[1]=0x%02x,data[2]=0x%02x,data[3]=0x%02x,data[4]=0x%02x,data[5]=0x%02x,data[6]=0x%02x)%s
 %s%s(x=%s%d,y=%s%d%s)%s
+%s+%s(%s)
+%s/%s/%s
 %s/.xkb
 %s: no buffer specified\n
 %s: no file specified\n
@@ -47,7 +50,6 @@ $QTCOMPOSE
 (input string)
 (unknown file)
 (unnamed)
-+TOEk
 ,!accel
 ,\n\t\tactions[Group%u]= [ 
 ,affect=lock
@@ -95,7 +97,6 @@ $QTCOMPOSE
 3270_Setup
 3270_Test
 34QComposePlatformInputContextPlugin
-45678
 >?CBJ
 A private action has 7 data bytes; Illegal data ignored\n
 ABBBCDDDEEFGGGGGHHIIJJJJJJJJKKLLLLLLLLLLLLLLLMMMNOPQQRRSTTUUVWXXXYYYYYZZ[\]^^__`aabbbbbccddeeffghhijjkkkllmnooooppqqqqqqqqqqqrrsssssttuuvvvvvvwwwwwwwwxxyzzzz{{{{||}}}}~

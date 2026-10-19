@@ -17,9 +17,9 @@
  ReadToken overflow
  [%.3f server clamped to %.3f]
  libpng version 1.5.2 - March 31, 2011\n\n
-!1AQaq
+ max. %f
+ min. %f
 "%s" = "%s"
-"2BRbr
 "channels" attribute not found in the header.
 "compression" attribute not found in the header.
 "dataWindow" attribute not found in the header or invalid.
@@ -29,7 +29,6 @@
 "screenWindowCenter" attribute not found in the header.
 "screenWindowWidth" attribute not found in the header.
 # of channels is zero.\n
-#3CScs
 #RenderSystem_CannotCreateDevice
 #RenderSystem_UnableToStartGame
 #bML
@@ -39,7 +38,6 @@
 #include
 #include is NULL 
 #int#
-$4DTdt
 $ORIGIN
 %-120s - %s\n
 %-120s\n
@@ -49,7 +47,6 @@ $ORIGIN
 %04d
 %05d
 %06d
-%5EUeu
 %d %s %d %02d:%02d:%02d +0000
 %f %f %f %f
 %i %i %i %i
@@ -57,14 +54,10 @@ $ORIGIN
 %lld
 %llu
 %ls [wstring, len = %d]
+%s%d
 %s: string format requested %d chars\n
-&6FVfv
-'7GWgw
 (%s): ADD %s = %s\n
 (%s): Setting %s to %s\n
-(8HXhx
-)9IYiy
-*:JZjz
 +OQv
 , channels = 
 , height = 
@@ -100,7 +93,6 @@ $ORIGIN
 ../public/tier1/utllinkedlist.h
 ../public/tier1/utlrbtree.h
 ../public/tier1/utltshash.h
-.eB5
 .exr
 .jpg
 .pfm
@@ -175,7 +167,6 @@ $ORIGIN
 28ISchemaCollectionManipulator
 37CSchemaRegistration_rendersystemempty
 5cfg/moddefaults.txt
-5t~BC
 6ConVar
 7IConVar
 8CFmtStrNILi256ELb0EE
@@ -198,7 +189,6 @@ $ORIGIN
 ?N24CFieldPathHuffmanEncoder5INodeE
 ?Out of Memory
 @vb_created_input_layout
-A!;I2
 AJob
 ALIGN_TYPE is wrong, please fix
 APPSYSTEM: In ConnectInterfaces(), s_nRegistrationCount is %d!\n
@@ -242,7 +232,6 @@ BGRA4444
 BGRA5551
 BGRA8888_LINEAR
 BGRX8888_LINEAR
-BKbhTb~XBK!;
 Backing store not supported
 Bad VTEX data for '%s'\n
 Bad expression operator: '%c%c', expected C style boolean expression operator.
@@ -1316,6 +1305,7 @@ ZEo^
 ZFP compression is not supported in this build
 ZFP compression is not supported.
 Zero length tRNS chunk
+\nF%u
 \nlibpng version 1.5.2 - March 31, 2011\nCopyright (c) 1998-2011 Glenn Randers-Pehrson\nCopyright (c) 1996-1997 Andreas Dilger\nCopyright (c) 1995-1996 Guy Eric Schalnat, Group 42, Inc.\n
 \r<unknown>
 ^oEZ
@@ -1602,7 +1592,6 @@ rgb to gray red coefficient
 rnd_down
 rnd_up
 roundf
-sAmTb
 sPLT chunk has bad length
 sPLT chunk requires too much memory
 schemabindings.cpp

@@ -1,4 +1,5 @@
   what():  
+ %d%c
  (does the path point to a directory?)
  at line 
  exceeds maximum allowed file size 
@@ -23,10 +24,15 @@
 #?RGBE
 #?RGBE\n
 #bundle
-$3br
 $ORIGIN/../../../../bin/linux64
-%&'()*456789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
+%%.%dg
+%.*Lf
+%.0f
 %.1f ms
+%.2X
+%.2g
+%.3f\n
+%.3f\t
 %02x\t
 %04x%c
 %12s: %9s
@@ -44,16 +50,20 @@ $ORIGIN/../../../../bin/linux64
 %a %b %d %H:%M:%S %Y
 %a %b %d %Y %H:%M:%S.%%06u
 %c%sFailFuzz
+%d%c
+%d%s
+%d, %d%c
 %d/%d hw max [%d]\n%d in (%d bits)\nPair: %s
 %llu
+%s %d
 %s %s (Steam Link)
 %s %s startup with PID=%u, config=%s, runtime=%s, arch=%s\n
+%s%c%s
 %s: Clamped historical frame length from %d -> %d
 %s: Clamping nHistoricalFrames to maximum value of %d
 %s: __pos (which is %zu) > this->size() (which is %zu)
 %u of %u datalinks failed to initialize. Returning the last failure.
 %u,%u,%u,%u,%u,%u,%u,%u,%u,%u,%u,%u,%u,%d,%d,%d,%d,%lu,%lu,%u,%u,%u,%u,%u,%d\n
-&'()*56789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
 ' is not a number.
 ' property is missing
 ' property is missing in 
@@ -192,7 +202,7 @@ $ORIGIN/../../../../bin/linux64
 /data/src/common/vrcore/src/ipcposix.cpp
 /data/src/common/vrcore/src/logbuffer.cpp
 /data/src/common/vrcore/src/vripcsharedstate.cpp
-/data/src/vrlink/common/SVLFEC.cpp:1102
+/data/src/vrlink/common/SVLFEC.cpp:1104
 /data/src/vrlink/common/SVLFEC.cpp:769
 /data/src/vrlink/driver_vrlink/hmd.cpp:2682
 /data/src/vrlink/driver_vrlink/hmd.cpp:3044
@@ -398,7 +408,6 @@ $ORIGIN/../../../../bin/linux64
 11 4 22 44 44 22 444444
 11SVLDataLink
 11SVLFECRAID6
-11eU%
 11videovulkan
 127.
 127.0.0.1
@@ -446,14 +455,13 @@ $ORIGIN/../../../../bin/linux64
 8SVLCrypt
 8videoenc
 9CRefCount
-9JLX
 9SVLDriver
 9SVLServer
-9a&g
 : exception thrown in JSON library
 : one or more FS callback not set
 ; expected 
 ; last read: '
+<U+%.4X>
 <discarded>
 <parse error>
 <uninitialized>
@@ -671,6 +679,7 @@ Eye Cross %s
 Eye Filt %s
 Eye Pherphery Q Value
 Eye Trk %s
+F %d
 FATAL: Failed to open log file %s, failing out!\n
 FAULT: Packet too big!!! Can't send!!! Dropping\n
 FEC decode fail %d %d %d\n
@@ -897,7 +906,6 @@ MAT2
 MAT3
 MAT4
 MAX %3d mbit
-MGiI
 MID0
 MSFT_lod
 MTU %s
@@ -1050,7 +1058,6 @@ PICO Neo 3
 PICO Neo 3 (Left Controller)
 PICO Neo 3 (Right Controller)
 PICT
-PNG\r\n
 Packet Ping
 Pairing to address: %s\n
 Pairing to broadcast address not allowed.\n
@@ -1079,9 +1086,8 @@ Process %d failed to shm_open %s: %d\n
 ProcessEvent
 ProcessTXVideoFrameThreadFunction
 Public
-QkkXa
-Qkkbal
 QoSEnabled
+RFOV: %d%%
 RGBAdobe
 RTTimeUSecMax
 RX Done
@@ -1386,7 +1392,6 @@ TrackingSystemName %s\n
 Transport
 Trying to submit frames out-of-order.  Only possible on catastrophic network failure\n
 Tuesday
-U1(\Q
 UBER
 UBER 
 UBER (Single)
@@ -1579,7 +1584,6 @@ XSetWMProtocols
 XXXX PNG chunk not known
 YWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWE=
 ZN13CommandThread8ShutdownEvEUlvE_
-Zjz\v
 [%s] %s=%lu tgid=%d file=%s %s
 [%s] tgid=%d file=%s %s
 [AnimSkeleton] Failed to load GLTF file: %s
@@ -1749,8 +1753,8 @@ Zjz\v
 \t"remoteVersion" : %d,\n
 \t"thisVersion" : %d,\n
 \t"variables" : [\n
-\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t
-\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t
+\t%f Hz\n
+\t%s %c\n
 \t],\n\t"eyeTracking" : [ 
 \t],\n\t"inputDebugAnalog" : [\n
 \t],\n\t"latencyLog" : [\n
@@ -1764,6 +1768,7 @@ Zjz\v
 ] invalid bufferView
 ] is not a JSON object.
 ],"subtype":
+_%lx_%d
 _ITM_RU1
 _ITM_RU8
 _ITM_addUserCommitAction
@@ -2291,7 +2296,6 @@ hwnd
 iQ %5.2f
 iRXFrameID %d != pRXFrame->m_iFrameNumber %d
 iRXFrameID=%d
-i]Wb
 iconv
 iconv_close
 iconv_open
@@ -2424,9 +2428,7 @@ log10f
 logf
 loop
 lower
-lpHP
 lseek64
-mSx@
 m_eChosenRateControlMode: %u\n
 m_nMaxLogBufferingSize > 0
 m_pResourceData->m_uTextureGL == 0
@@ -3745,7 +3747,6 @@ wmemcmp
 wmemcpy
 wmemmove
 wmemset
-wn>Jj
 wrapS
 wrapT
 write
@@ -3758,10 +3759,10 @@ xdigit
 xmag
 yfov
 ymag
-z^KD
 zfar
 zlib corrupt
 znear
+{%s}%s
 {frame_controller}/icons/
 {frame_controller}/input/frame_controller_profile.json
 {frame_controller}frame_controller_left

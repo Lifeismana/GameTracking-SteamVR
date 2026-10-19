@@ -18,7 +18,6 @@ NETSCAPE
 QGifHandler::canRead() called with no device
 QGifPlugin
 QVector<T>::at
-RSDSY
 SleepConditionVariableCS
 Unknown exception
 WakeAllConditionVariable

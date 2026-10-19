@@ -1,8 +1,6 @@
                           
                                 
- !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
  !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
- !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
  (Read only)
 !-Result = %d
 !-Result = %f
@@ -13,16 +11,15 @@
 !-Result = 0x%lX
 !Miles detected memory error - Double freed memory...?(%X)
 !Miles memory allocation failed! (requested %d bytes)
-"$&(    #%')    #%')!!!!$&(*!!!!$&(*""""%')+""""%')+####&(*,####&(*,$$$$')+-$$$$')+-%%%%(*,.%%%%(*,.&&&&)+-/&&&&)+-/''''*,.0''''*,.0((((+-/1((((+-/1)))),.02)))),.02****-/13****-/13++++.024++++.024,,,,/135,,,,/135----0246----0246....1357....1357////2468////246800003579000035791111468:1111468:2222579;2222579;333368:<333368:<444479;=444479;=55558:<>55558:<>66669;=?66669;=?7777:<>@7777:<>@8888;=?A8888;=?A9999<>@B9999<>@B::::=?AC::::=?AC;;;;>@BD;;;;>@BD<<<<?ACE<<<<?ACE====@BDF====@BDF>>>>ACEG>>>>ACEG????BDFH????BDFH@@@@CEGI@@@@CEGIAAAADFHJAAAADFHJBBBBEGIKBBBBEGIKCCCCFHJLCCCCFHJLDDDDGIKMDDDDGIKMEEEEHJLNEEEEHJLNFFFFIKMOFFFFIKMOGGGGJLNPGGGGJLNPHHHHKMOQHHHHKMOQIIIILNPRIIIILNPRJJJJMOQSJJJJMOQSKKKKNPRTKKKKNPRTLLLLOQSULLLLOQSUMMMMPRTVMMMMPRTVNNNNQSUWNNNNQSUWOOOORTVXOOOORTVXPPPPSUWXPPPPSUWXQQQQTVXXQQQQTVXXRRRRUWXXRRRRUWXXSSSSVXXXSSSSVXXXTTTTWXXXTTTTWXXXUUUUXXXXUUUUXXXXVVVVXXXXVVVVXXXXWWWWXXXXWWWWXXXX
-#D5p
 %00d
 %04x;
 %3.1f
+%3.1f%%
+%c;%s;%d;
 %f;%f;%f;%f;%f;%f;
 %s;%f;%f;%d;%d;%f;%f;%f;
 %s;%s;%s;%s;%d;%d;%d;%02x;%d;
 %s;%s;%s;%s;%s;%s;%s;%s;
-( 8PX
 ('8PW
 (Marker name not found)
 (null)
@@ -30,7 +27,6 @@
 *.flt
 *.mix
 -------------------------------------------------------------------------------
--64OS
 .SPEEX16
 .SPEEX32
 .SPEEX8
@@ -50,43 +46,14 @@
 1#INF
 1#QNAN
 1#SNAN
-1@B`e>X94<
-1t9,
 2ieO=
-333333
-333?333
-4g%6
-4lkQg
-5SmT4
 700PP
 700WP
-7Z8>\t
-8HBzL
 ;%s;%s;%f;%s;%x;%x;%x;
-<8bunz8
-<@En[vP
 <program name unknown>
 =X94<
-?$rxxx
-?333333
-?3xj
-?4Td
-?5a1
-?765@Z
-?7Tf(
-?FnH
 ?IT$7
 ?KYC
-?Ltm
-?PV3
-?PiB
-?UUUUUU
-?X&eB
-?X94<
-?Zxg
-?dDR
-?ju!4
-?pow
 @AIL_3D_distance_factor(0x%lX)
 @AIL_3D_doppler_factor(0x%lX)
 @AIL_3D_rolloff_factor(0x%lX)
@@ -299,9 +266,6 @@
 @AIL_stream_user_data(0x%lX,%lu)
 @AIL_update_listener_3D_position(0x%lX,%f)
 @AIL_update_sample_3D_position(0x%lX,%f)
-@VNQ
-A'z2
-A8r.-
 ABCDEFGHIJKLMNOPQRSTUVWXYZ
 ADCPM decompression
 AIL_add_event_system(0x%lX)
@@ -345,15 +309,12 @@ ASI_stream_open
 ASI_stream_process
 ASI_stream_property
 ASI_stream_seek
-Ai0T
-AiFC.
 April
 Attempt to load obsolete (pre-V1.30) RIB
 August
 Bank Dump:\n
 Bank file name doesn't match the loaded file.
 Bank file version doesn't match this runtime.
-Bfe9
 Bink Audio decompression
 Bink Audio provider failed to initialize.
 Bink Audio provider not found.
@@ -402,7 +363,6 @@ Could not get buffer position
 Could not load DirectSound to query speaker configuration
 Could not start output buffer
 Couldn't find provider for this file type -- check your AIL_set_redist_directory() call.
-CqTR;
 CreateFileA
 CreateMutexA
 CreateSemaphoreA
@@ -415,7 +375,6 @@ Creative Labs EAX 4 (TM)
 Cue point not found
 Current Instances:\n
 Current Persists:\n
-D<xZu
 DOMAIN error\r\n
 DSOUND.DLL
 DSP filters
@@ -440,9 +399,7 @@ DirectSoundCreate() failed.
 DirectSoundEnumerateA
 Dolby Surround Matrix Filter
 Driver_state_size
-E0d\f
 Eb2]A=
-EmYLm,
 Emulated DirectSound - 
 EncodePointer
 End of buffer callbacks
@@ -456,8 +413,6 @@ Event System Count: %d\n
 Exact get position
 Exact seek
 ExitProcess
-F0$?3=1
-F?X94<
 FLTSMP_close_sample
 FLTSMP_open_sample
 FLTSMP_sample_process
@@ -494,7 +449,6 @@ FreeEnvironmentStringsA
 FreeEnvironmentStringsW
 FreeLibrary
 Friday
-GAIsProcessorFeaturePresent
 GYM=
 GetACP
 GetActiveWindow
@@ -543,9 +497,7 @@ GetWindowThreadProcessId
 GetWindowsDirectoryA
 GlobalAlloc
 GlobalFree
-H Te
 HH:mm:ss
-HMXB
 Hardware voice assignment failed.
 HeapAlloc
 HeapCreate
@@ -553,8 +505,6 @@ HeapDestroy
 HeapFree
 HeapReAlloc
 HeapSize
-Ht=c
-H|As
 InitializeCriticalSection
 InitializeCriticalSectionAndSpinCount
 Input
@@ -573,6 +523,7 @@ Invalid event version - required version is: 4
 Invalid or missing data block.
 Invalid sample interval specified.
 IsDebuggerPresent
+IsProcessorFeaturePresent
 IsValidCodePage
 IsWindow
 JanFebMarAprMayJunJulAugSepOctNovDec
@@ -584,9 +535,6 @@ KERNEL32.dll
 LCMapStringA
 LCMapStringW
 LIST
-L_b;x
-La8i
-Le?2
 LeaveCriticalSection
 LoadLibraryA
 Loaded Bank Count: %d\n
@@ -613,8 +561,6 @@ Marker not found
 Matrix filter already associated with driver
 Matrix filters require 16-bit PCM output format
 MbP?
-MbP?o
-MbP?{
 MessageBoxA
 Microsoft Visual C++ Runtime Library
 Miles API mutex
@@ -657,10 +603,8 @@ Minimum input block size
 Minimum input stream size
 Minimum sample buffer size
 Mismatched Miles/Telemetry versions.
-MkK?
 Monday
 MultiByteToWideChar
-NKeb
 Network Bank
 No codec found for requested input type.
 No list chunk found
@@ -693,11 +637,9 @@ Output reservoir
 Output sample rate
 Output sample width
 OutputDebugStringA
-PO79
 PROVIDER_property
 Percent done
 Persistent Preset Count: %d\n
-Pex?0
 Pipeline filter driver services
 Pipeline filter sample services
 Position
@@ -722,7 +664,7 @@ R6031\r\n- Attempt to initialize the CRT more than once.\nThis indicates a bug i
 R6032\r\n- not enough space for locale information\r\n
 R6033\r\n- Attempt to use MSIL code from this assembly during native code initialization\nThis indicates a bug in your application. It is most likely the result of calling an MSIL-compiled (/clr) function from a native constructor or from DllMain.\r\n
 R6034\r\nAn application has made an attempt to load the C runtime library incorrectly.\nPlease contact the application's support team for more information.\r\n
-RSDS?
+RAD_USE_TGT
 RaiseException
 Raw source channels
 Raw source sample rate
@@ -740,8 +682,6 @@ ResumeThread
 Reverb mix
 RtlUnwind
 Runtime Error!\n\nProgram: 
-S%A40C
-S;uD
 SING error\r\n
 SRS Circle Surround 6.1 Matrix Filter
 Sample's ASI Decoder doesn't support looping at sample accuracy.
@@ -789,13 +729,11 @@ TlsGetValue
 TlsSetValue
 True
 Tuesday
-T~OXu
 UNICODE
 USER32.DLL
 USER32.dll
 UTF-16LE
 UTF-8
-UUUUUU
 Unable to create file.
 Unable to obtain a sample handle.
 Unable to open file.
@@ -808,7 +746,7 @@ Unsupported multichannel PCM data format.
 Unsupported multichannel format.
 Unsupported output format (MSS_MC_SPEC enum required)
 Unsupported wave file format.
-V-Ai
+V%A+=
 VDRV_driver_property
 VDRV_force_update
 VFLT_assign_sample_voice
@@ -839,15 +777,13 @@ WideCharToMultiByte
 WriteConsoleA
 WriteConsoleW
 WriteFile
-X4I+
+X94<
 XDIR
 XDLS
-ZyrI
 [%.02d:%.02d:%.02d.%.03d] 
 \r\nThis application has requested the Runtime to terminate it in an unusual way.\nPlease contact the application's support team for more information.\r\n
 \t%s, labeled (%s) - status %s\n
 \t%s: refcount: %d\n
-^\sY0
 _AIL_3D_distance_factor@4
 _AIL_3D_doppler_factor@4
 _AIL_3D_rolloff_factor@4
@@ -1246,7 +1182,6 @@ _hypot
 _logb
 _nextafter
 `EdFIhJ
-`h`hhh
 aDJ=
 abcdefghijklmnopqrstuvwxyz
 acos
@@ -1254,8 +1189,6 @@ adtl
 asin
 atan
 atan2
-c?e2
-cb~q
 ceil
 complete
 cosh
@@ -1264,36 +1197,24 @@ data
 dddd, MMMM dd, yyyy
 e+000
 exp10
-fSOs
 fabs
 fact
 floor
 fmod
 fmt 
 frexp
-hI{L[
-hb?O2
-ibzP
-k:UG
-kU'9
 labl
 ldexp
 log10
 ls1=
 lstrcatA
-m1WY$
 modf
 mss32.dll
-np?z 
 pending
 playing
 pnJ=
-qRAD_USE_TGT
 r7Yr7=
-r\nly
-raB3G
 runtime error 
-sU0&?W
 sffd4d4fff
 sinh
 smpl
@@ -1303,7 +1224,6 @@ sssd1
 ssssd4d4d4c4d4
 sssssc1d1fd1
 ssssssssd4d1d1uuc1c1sfffffd1d1
-tLVv
 tanh
 timeBeginPeriod
 timeEndPeriod
@@ -1312,7 +1232,6 @@ u?^p?o4
 uXO=
 unknown
 vH7B
-w7H-
 waveInAddBuffer
 waveInAddBuffer() failed, code = 0x%X\n
 waveInClose
@@ -1334,15 +1253,4 @@ waveOutReset
 waveOutUnprepareHeader
 waveOutWrite
 wsprintfA
-xppwpp
-xpxxxx
-yE>H
-yx|o
-z1}B
-z?aUY
-zc%C1
-zyC7
-{4Wf
 |W8A=
-}6lw
-}Tw5

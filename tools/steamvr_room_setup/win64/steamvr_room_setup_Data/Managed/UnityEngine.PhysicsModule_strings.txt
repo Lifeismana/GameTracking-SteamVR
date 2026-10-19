@@ -579,6 +579,7 @@ ZThe sleepAngularVelocity is no longer supported. Set Use sleepThreshold to spec
 \vUnityEngine
 _CorDllMain
 `Please use Physics.defaultSolverIterations instead. (UnityUpgradable) -> defaultSolverIterations
+a%E\r
 angularForce
 collider
 collider1

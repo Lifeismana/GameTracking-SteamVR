@@ -55,6 +55,7 @@ $Unity.InternalAPIEngineBridgeDev.005
 $UnityEngine.UnityWebRequestWWWModule
 %GetGUIState().GetNameOfFocusedControl
 %Unity.IntegrationTests.UnityAnalytics
+%n9^
 &Please use 'text' instead of 'content'
 &UnityEngine.PerformanceReportingModule
 &UnityEngine.UnityWebRequestAudioModule

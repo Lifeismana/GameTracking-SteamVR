@@ -5,10 +5,7 @@
     with %d x %d thumbnail image
   Ss=%d, Se=%d, Ah=%d, Al=%d
 !weakref.load()
-$3br
-%&'()*456789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
 %ld%c
-&'()*56789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
 ..\..\..\gui\image\qjpeghandler.cpp
 .?AVQImageIOHandler@@
 .?AVQImageIOPlugin@@
@@ -21,7 +18,6 @@ $3br
 .?AVtype_info@@
 /TF<)VGy#WH
 8c  16-Jan-2011
-A!;I2
 ALIGN_TYPE is wrong, please fix
 Adobe APP14 marker: version %d, flags 0x%04x 0x%04x, transform %d
 Ahd=<c]^7if1Rjg
@@ -30,7 +26,6 @@ Application transferred too many scanlines
 Arithmetic table 0x%02x was not defined
 Assumption in Q_ASSUME("features != 0") was not correct
 At marker 0x%02x, recovery action %d
-BKbhTb~XBK!;
 Backing store not supported
 Bogus DAC index %d
 Bogus DAC value 0x%x
@@ -130,7 +125,6 @@ Q_ASSUME()
 Quantization table 0x%02x was not defined
 Quantizing to %d = %d*%d*%d colors
 Quantizing to %d colors
-RSDS
 RST%d
 Read failed on temporary file
 Read from EMS failed
@@ -168,9 +162,7 @@ Write to EMS failed
 Write to XMS failed
 Wrong JPEG library version: library is %d, caller expects %d
 YpU_Z
-Z@&LHA'\r:C(
 Zpm"U
-\tN1a
 bad allocation
 bad array new length
 bool __cdecl QJpegHandler::canRead(class QIODevice *)
@@ -189,7 +181,6 @@ qRegisterNormalizedMetaType was called with a not normalized type name, please c
 qjpegd.dll
 qt_plugin_instance
 qt_plugin_query_metadata
-sAmTb
 strongref.load() <= 0
 void __cdecl my_error_exit(struct jpeg_common_struct *)
 void __cdecl my_output_message(struct jpeg_common_struct *)

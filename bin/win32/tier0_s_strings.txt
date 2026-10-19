@@ -8,9 +8,7 @@
   ---------------------------------------------------- ----------- ----------- ------ ----------- ------ ----------- ----------- -----------\n
   HEAP_ZERO_MEMORY is specified.\n
   Scope                                                      Calls  Time+Child    Pct        Time    Pct   Avg+Child         Avg        Peak\n
- !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
  !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
- !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
  Avg Time/Frame (ms)\n
  Base Class Array'
  Base Class Descriptor at (
@@ -21,6 +19,7 @@
  delete
  delete[]
  new
+%%.%if%s
 %*s%s %s --> %d blocks = %s (%s larger)\n
 %*s%s %s --> %d blocks = %s (new)\n
 %*s%s --> %d blocks = %s\n
@@ -30,12 +29,12 @@
 %d frames sampled for %.2f seconds\n
 %d validator nodes, %d nodes larger than %s\n
 %d,%p,%u,%u,%u,%u,%u,%d,%s\n
+%i%s
 %u MB address space used assuming maximum PageHeap overhead.\n
 %u MB allocated.\n
 %u MB memory used assuming maximum PageHeap overhead.\n
 %u lifetime allocations (%u delta).\n
 %u outstanding allocations (%d delta).\n
-( 8PX
 ('8PW
 (Function name not found)
 (null)
@@ -49,7 +48,6 @@
 -- Profile scopes sorted by time (including children) --
 -- Profile scopes sorted by time (without children) --
 -- Summary --\n
--64OS
 -NOPROCESSHEAP
 -PROCESSHEAP
 -PROCESSHEAPZEROMEM
@@ -83,8 +81,6 @@
 .?AVlogic_error@std@@
 .?AVout_of_range@std@@
 .?AVtype_info@@
-.AC Runtime heap
-/Tw\n4
 1#IND
 1#INF
 1#QNAN
@@ -273,7 +269,6 @@
 ?LockForWrite@CThreadRWLock@@QBEXXZ
 ?LockForWrite@CThreadSpinRWLock@@QAEXXZ
 ?LockForWrite@CThreadSpinRWLock@@QBEXXZ
-?MainThrd
 ?MarkFrame@CVProfNode@@QAEXXZ
 ?MarkFrame@CVProfile@@QAEXPBD@Z
 ?NGetPC@CStack@@QAE_KH@Z
@@ -283,7 +278,6 @@
 ?PMEEnable@CVProfile@@QAEX_N@Z
 ?PMEInitialized@CVProfile@@QAEX_N@Z
 ?PValObjectFirst@CValidator@@QAEPAVCValObject@@XZ
-?PageHeap is on. Memory use will be larger than normal.\n
 ?Pause@CVProfNode@@QAEXXZ
 ?Pause@CVProfile@@QAEXXZ
 ?PeekCall@CWorkerThread@@QAE_NPAI@Z
@@ -344,7 +338,6 @@
 ?TryLockForWrite@CThreadSpinRWLock@@AAE_NI@Z
 ?TryLockForWrite@CThreadSpinRWLock@@QAE_NXZ
 ?TryLockForWrite@CThreadSpinRWLock@@QBE_NXZ
-?Unknown exception
 ?Unlock@CThreadFullMutex@@QAEXXZ
 ?Unlock@CThreadMutex@@QAEXXZ
 ?Unlock@CThreadMutex@@QBEXXZ
@@ -372,22 +365,9 @@
 ?WaitForReply@CWorkerThread@@IAEHIP6GIIPBQAXHI@Z@Z
 ?WaitForReply@CWorkerThread@@QAEHI@Z
 ?Yield@CThread@@SAXXZ
-?__based(
-?bad allocation
-?bad exception
-?c:\buildslave\steam_rel_client_win32\build\src\tier0\memstd.h
-?csm
 ?g_bInException@@3_NC
-?generic
-?iostream
-?kernel32
 ?oldValue@?4??TryLockForWrite@CThreadSpinRWLock@@AAE_NI@Z@4ULockInfo_t@2@B
 ?s_iCurrentUniqueNodeID@CVProfNode@@0HA
-?system
-@CTSListBase: Misaligned list\n
-@Fv^k
-@WARNING: Disabling vprof spike dumping and stopping profile for thread %d - %s because of exceeded rate limit, try a higher threshold.\n
-@vprof.cpp
 ABCDEFGHIJKLMNOPQRSTUVWXYZ
 ADVAPI32.dll
 About to request trace recording.
@@ -439,7 +419,6 @@ Assertion Failed: pTracker->Find( pKey ) != NULL
 Assertion Failed: ppFrames[iFrame] != NULL
 Assertion Failed: pszName == NULL || *pszName == '/' || (isalpha((unsigned char) *pszName) && pszName[1] == ':' && pszName[2] == '/')
 Assertion Failed: stack%2d: %s (%d): %s
-Atestthread.cpp
 Attempting to create a named event with a null name
 August
 AuthenticAMD
@@ -454,9 +433,11 @@ BWritingNonFatalMiniDump
 Bad Event handle (handle 0x%p)
 Bad thread local
 Busy, please retry.\n
+C Runtime heap
 C-runtime internal
 CL2Cache
 CRT Heap index=%p, Default Heap index=%p\n
+CTSListBase: Misaligned list\n
 CTSQueue bad node count
 CTSQueue bad peek pointer when empty
 CTSQueue bad tail pointer
@@ -709,7 +690,6 @@ GlobalMemoryStatusEx
 GlobalUnlock
 Global\
 HH:mm:ss
-HMXB
 HasStackTrackingFilters
 Heap#,Heap Handle,Allocated Bytes,Allocated Bytes(with overhead),Free Bytes,Total Bytes,Blocks,Heap Type,HeapNote\n
 Heap(%4.4d) Base=0x%p TotalAlloc=0x%p AllocWithOverhead=0x%p TotalFree=0x%p TotalBytes=0x%p Blocks=%8d Type=%2.2d Note=%12.12s\n
@@ -771,6 +751,7 @@ Logger
 Logical bytes allocated (no heap overhead/fragmentation, but includes sbh block size overhead): %s\n
 MM/dd/yy
 Main thread
+MainThrd
 March
 MessageBoxA
 MessageBoxUTF8
@@ -782,7 +763,6 @@ MoveFileExW
 MoveFileUTF8
 MoveFileW
 MultiByteToWideChar
-NKeb
 NULL
 Network
 No Process Heaps!
@@ -804,13 +784,13 @@ Out of thread local storage!\n
 OutputDebugStringA
 OutputDebugStringUTF8
 OutputDebugStringW
-Ovalobject.cpp
 OverlayInput
 OverlayRendering
 PME Initialized.\n
 PME Uninitialized.\n
 PS3 Unattributed
 PageHeap is off. Memory use will be normal.\n
+PageHeap is on. Memory use will be larger than normal.\n
 PageHeapFlags
 Peak %.2f ms frame\n
 Plat_AbsoluteTime
@@ -856,7 +836,6 @@ Process32First
 Process32Next
 QueryPerformanceCounter
 QueryPerformanceFrequency
-RSDS
 RaiseException
 ReadConsoleW
 ReadFile
@@ -879,7 +858,6 @@ Root
 RtlCaptureStackBackTrace
 RtlUnwind
 RunCallbacks
-S;uD
 SBH:\n
 SHELL32.dll
 SHGetFolderPathUTF8
@@ -1045,6 +1023,7 @@ Uncommitted OverHead %llu\n
 Uncommitted blocks %u\n
 Uncommitted size %llu\n
 UnhandledExceptionFilter
+Unknown exception
 Unrecognized HeapInformation reported for heap %p.\n
 Used %llu\n
 Used Overhead %llu\n
@@ -1065,6 +1044,7 @@ VirtualFree
 VirtualProtect
 VirtualQuery
 WARNING! CThread::Terminate: %s\n
+WARNING: Disabling vprof spike dumping and stopping profile for thread %d - %s because of exceeded rate limit, try a higher threshold.\n
 WaitForMultipleEvents
 WaitForMultipleObjects
 WaitForSingleObject
@@ -1091,6 +1071,7 @@ _ExitOnFatalAssert\n
 _SpewInfo
 _SpewMessage
 _SpewMessageType
+__based(
 __cdecl
 __clrcall
 __eabi
@@ -1116,7 +1097,6 @@ _nextafter
 `eh vector destructor iterator'
 `eh vector vbase constructor iterator'
 `eh vector vbase copy constructor iterator'
-`h`hhh
 `local static guard'
 `local static thread guard'
 `local vftable constructor closure'
@@ -1159,6 +1139,8 @@ atan
 atan2
 audio.dll
 bad address
+bad allocation
+bad exception
 bad file descriptor
 bad message
 bad_address
@@ -1167,6 +1149,7 @@ broken pipe
 c:\buildslave\steam_rel_client_win32\build\src\public\tier0/threadtools.h
 c:\buildslave\steam_rel_client_win32\build\src\public\tier0/vprof.h
 c:\buildslave\steam_rel_client_win32\build\src\tier0\Release\tier0_s.pdb
+c:\buildslave\steam_rel_client_win32\build\src\tier0\memstd.h
 ceil
 chdir_utf8
 chromehtml.dll
@@ -1218,6 +1201,7 @@ g_VProfile
 g_dwClockSpeed
 g_dwDllEntryThreadId
 g_pMemAllocSteam
+generic
 getcwd_utf8
 gsoapwrapper.dll
 hHeap %p\n
@@ -1237,10 +1221,11 @@ invalid seek
 invalid string position
 invalid_argument
 io error
+iostream
 iostream stream error
 is a directory
 item %p sentinel corrupted. skipping.\n
-kU'9
+kernel32
 kernel32.dll
 ldexp
 log10
@@ -1328,8 +1313,10 @@ steamservice.dll
 steamui.dll
 stream timeout
 string too long
+system
 tanh
 tenfoot.dll
+testthread.cpp
 text file busy
 threadtools.cpp
 tier0_s.dll
@@ -1344,11 +1331,13 @@ total bytes
 unknown
 unknown error
 validator.cpp
+valobject.cpp
 value too large
 vector<T> too long
 vgui2_s.dll
 video.dll
 visualstudioautomation.exe -attachtoprocessid %u
+vprof.cpp
 vsjitdebugger.exe -p %u
 vtune
 vtuneapi.dll
@@ -1357,7 +1346,3 @@ wrong_protocol_type
 wsprintfA
 xlocale
 xmemory
-xppwpp
-xpxxxx
-z?aUY
-zc%C1

@@ -4,6 +4,8 @@
  Not Depth Pre-passed
  ReadToken overflow
  [%.3f server clamped to %.3f]
+ max. %f
+ min. %f
  postprocess
 !m_bNeedsSort
 "%s" = "%s"
@@ -18,6 +20,7 @@
 #include is NULL 
 #int#
 $ORIGIN
+%%%s
 %-120s - %s\n
 %-120s\n
 %.15lf
@@ -30,8 +33,14 @@ $ORIGIN
 %s (Color)
 %s (Material)
 %s (mat_fullbright: %d)
+%s * %s
+%s + %s
+%s - %s
+%s / %s
 %s allocation count overflow
 %s allocation count overflow( %llu >= %llu )\n
+%s%d
+%s%s
 %s: string format requested %d chars\n
 %s_color
 %s_matgrp
@@ -50,7 +59,6 @@ $ORIGIN
 ../public/tier1/utlleanvector.h
 ../public/tier1/utllinkedlist.h
 ../public/tier1/utlrbtree.h
-.M;UU
 0=Off, 1=DebugWireframe, 2=DebugSolidBlink
 0x%016llX
 0x%p
@@ -114,7 +122,6 @@ $ORIGIN
 3DSkyboxLightBinnerVr
 41CVrClearQuadOverdrawVisualizationTextures
 42CTemplateSceneViewFactory_RenderVRMonitors
-5t~BC
 60.0
 6ConVar
 7IConVar
@@ -517,7 +524,6 @@ Dynamic Opaque Forward
 DynamicAmbientOcclusion
 DynamicConfigList
 DynamicGBuffer
-E3:0
 ERROR! Cannot load RenderingPipelineVrStartup resource manifest for the vr render pipeline!\n
 ERROR: Resource name "%s" has the incorrect extension "%s" for the specified resource type (expected "%s")!\n
 ERROR: Specified full path %s does not lie under the mod search path!)\n
@@ -682,7 +688,6 @@ LoggingSystem_LogDirect
 LoggingSystem_RegisterLoggingChannel
 LookAtList
 LowerEyelid( 
-LrwcE
 MATCHFRAMEWORK_001
 MDefaultString
 MESH_DRAW_FLAGS_DRAW_LAST
@@ -704,7 +709,6 @@ MaterialResourceData_t
 MaterialSystem2/ShaderIDColors
 MaterialUtils_001
 MathLib_Init
-MbP?+
 MemAlloc_AllocFunc
 MemAlloc_FreeFunc
 MeshSystem001
@@ -808,7 +812,6 @@ Plat_ShouldCollectMiniDumpsForFatalErrors
 Plat_UUIDFromString
 Plat_UUIDToString
 Pm_nValue
-Po5H
 PosXYZ
 PostDecalForwardDynamic
 PostDecalForwardNoDecals
@@ -907,7 +910,6 @@ RetinaBurnRt0
 RetinaBurnRt1
 RetinaBurnSplat
 Rigid; 
-S+Ot
 SSAOBlurH
 SSAOBlurV
 SSE and SSE2 are required.
@@ -956,7 +958,6 @@ Static World Overlays
 StatsService_001
 SteamAudio001
 Syntax Error at offset: %d\n
-TH)GTH)GTH)GTH)Gx!
 TILT_TWIST
 TMonitor
 TestFormatA
@@ -1182,7 +1183,6 @@ X360_DST16
 X360_DST24
 X360_DST24F
 Yaw; 
-\nCwf\r
 \ng default\n
 \tFlags: 
 _ITM_deregisterTMCloneTable
@@ -1216,6 +1216,7 @@ _edata
 _end
 _fini
 _test_conversion_counter
+abs( %s )
 ai_model_info
 allowstatic
 anchor_angles
@@ -1230,7 +1231,6 @@ attachment
 attachment_offset
 attachment_type
 auto_unragdoll_duration
-az%q
 bUpdate
 baselayer
 bentnormal
@@ -1254,7 +1254,6 @@ break_uniform_burst
 breakable_count
 breakable_model
 breakable_skin
-bt3V
 burst_randomize
 burst_scale
 cable
@@ -1278,6 +1277,7 @@ composite
 config_state
 configvalue.cpp
 control_point
+cos( %s )
 create_particle
 curvature
 default
@@ -1297,6 +1297,7 @@ encoding
 event_class
 event_keys
 eventindex
+exp( %s )
 explosion_behavior
 explosion_buildup
 explosion_delay
@@ -1304,7 +1305,6 @@ explosion_type
 explosive_damage
 explosive_radius
 f %d %d %d\n
-f093
 faceMergeAngle
 false
 float( %f )
@@ -1345,7 +1345,6 @@ jiggle bone %u
 keyvalues.cpp
 kv3format_manager.cpp
 last_sniff
-lcQe
 ld-linux-x86-64.so.2
 length
 libc.so.6
@@ -1366,7 +1365,6 @@ loop_in_action
 looping
 lowprecisionuv
 lowprecisionuv1
-mXr4
 m_AttachmentName
 m_AttachmentType
 m_Bone
@@ -1790,7 +1788,6 @@ modeldoc7
 modeldoc8
 modeldoc9
 multiplayer_break
-n\f"pA3Q
 nav_attribute_avoid
 nav_data
 norm
@@ -1912,12 +1909,14 @@ sequence_number
 server_can_execute
 shapeType
 sharpStartAngle
+sin( %s )
 singleplayer
 size
 source_filename
 spawn_motion_disabled
 speeds
 springConstant
+sqrt( %s )
 sqrtf
 ss_added
 ssaoBlurTemp1
@@ -2044,7 +2043,6 @@ wcslen
 width
 yaw_end
 yaw_start
-{YIN?
 {}[]()=&, \t\n'"*;
 {}[]=, \t\n'":|;
 }\n %llu aggs, %s total data\n

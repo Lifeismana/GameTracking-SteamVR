@@ -1,14 +1,12 @@
                           
  !"#$%&'()*+,-./0123456789:;<
- !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
  !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
- !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
  (%d = %3.1f%%)
+ (0x%lX)
  (flags = 0x%x)
  000000000000
  Base Class Array'
  Base Class Descriptor at (
- C>TQ
  Class Hierarchy Descriptor'
  Complete Object Locator'
  Type Descriptor'
@@ -19,8 +17,8 @@
  new
  recorded 
  samples
-"e?<<<<<<l?
-$Ib?s
+ {%3.1f%%}
+%*s:%s
 %.0Lf
 %08X%x
 %08x-%04hx-%04hx-%02hhx%02hhx-%02hhx%02hhx%02hhx%02hhx%02hhx%02hhx
@@ -32,18 +30,14 @@ $Ib?s
 %llu
 %llx
 %s (errno: %d, %s)
-&?PPPPPPP?
-&Sgw
-'bQvE
+%s%s %s\n
+%s:%d: %s
 (null)
-)yIx
-*StO9>T
 *p[[[[[[[[[[[[[[[[
 , mean = %.1f
 , observed 
 , survival rate: 
 , swept bytes: 
-,HR>O
 --initial-client-data=
 --max-db-age=
 --max-db-size=
@@ -54,7 +48,7 @@ $Ib?s
 --no-rate-limit
 --type=
 --user-data-dir=
--BH>t
+-inf
 -inl
 ..\..\base\allocator\partition_allocator\src\partition_alloc\starscan\stats_collector.cc
 ..\..\base\check.cc
@@ -76,6 +70,7 @@ $Ib?s
 ..\..\third_party\crashpad\crashpad\util\file\directory_reader_win.cc
 ..\..\third_party\crashpad\crashpad\util\file\file_io.cc
 ..\..\third_party\crashpad\crashpad\util\file\file_io_win.cc
+..\..\third_party\crashpad\crashpad\util\file\file_reader.cc
 ..\..\third_party\crashpad\crashpad\util\file\file_writer.cc
 ..\..\third_party\crashpad\crashpad\util\file\filesystem_win.cc
 ..\..\third_party\crashpad\crashpad\util\win\critical_section_with_debug_info.cc
@@ -146,6 +141,7 @@ $Ib?s
 ..\..\third_party\libc++\src\src\mutex.cpp:40: assertion ec == 0 failed: call to mutex::unlock failed. A possible reason is that the mutex wasn't locked\n
 ..\..\third_party\perfetto\include\perfetto\tracing\track_event_category_registry.h
 ..\..\third_party\perfetto\include\perfetto\tracing\track_event_interned_data_index.h
+..\..\third_party\perfetto\src\base\time.cc
 ..\..\third_party\perfetto\src\protozero\field.cc
 ..\..\third_party\perfetto\src\protozero\scattered_heap_buffer.cc
 ..\..\third_party\perfetto\src\tracing\core\null_trace_writer.cc
@@ -153,7 +149,6 @@ $Ib?s
 ..\..\third_party\perfetto\src\tracing\core\shared_memory_arbiter_impl.cc
 ..\..\third_party\perfetto\src\tracing\core\trace_writer_impl.cc
 ..\..\third_party\perfetto\src\tracing\internal\tracing_muxer_fake.cc
-.>\rfJBGo
 .?AU?$__num_get@D@__Cr@std@@
 .?AU?$__num_get@_W@__Cr@std@@
 .?AU?$__num_put@D@__Cr@std@@
@@ -231,7 +226,6 @@ $Ib?s
 .?AVsystem_error@__Cr@std@@
 .?AVtime_base@__Cr@std@@
 .?AVtype_info@@
-.AFeatureList-feature-accessed-too-early
 .Mutator
 .Mutator.Clear
 .Mutator.Scan
@@ -240,40 +234,18 @@ $Ib?s
 .Scanner.Clear
 .Scanner.Scan
 .Scanner.Sweep
-.xJ>Hf
-/2GG>!B
 0123456789
 0123456789ABCDEF
 0123456789abcdef
 0123456789abcdefABCDEFxX+-pPiInN
-0E..\..\third_party\perfetto\src\base\time.cc
-0E>X
-0X8b?~
-0iN>/
 0x%x,0x%x,0x%x,0x%x,0x%x,0x%llx,0x%llx,0x%llx
 1#IND
 1#INF
 1#QNAN
 1#SNAN
-11Y@
 126.0.0-HEAD.3171+gbbb7596+chromium-126.0.6478.183
 126.0.6478.183
-2\n0P
-2\n0\tP
-2\vpP
-37>k
-3>N;kU
-3>fvw
-51>W
-6NK>
-6\fXO>\ntA
-7>I0
-7?GX
-7~xh
-8ke?;
 949ba8b6a9.dll
-9>70
-9a&g
 : not a directory
 ::DeleteProcThreadAttributeList
 ::GetUserNameW
@@ -281,32 +253,12 @@ $Ib?s
 ::InitializeProcThreadAttributeList
 ::SHGetSpecialFolderPathW
 ::UpdateProcThreadAttribute
-::WTSFreeMemory
-::WTSQuerySessionInformationW
 <NULL>
-=87M
-=cQ6
-=e2m
-=imb;D
->cQ6
->jtm}S
-?..\..\third_party\crashpad\crashpad\util\file\file_reader.cc
-?7zQ6$
-?8bunz8
-?@En[vP
-?Histogram.MismatchedConstructionArguments
-?R0I?
 ?UUUUUU
-?f`Y4
-?qBJ
-?rAj
-?ysB
-A>pP&
 ABCDEFGHIJKLMNOPQRSTUVWXYZ
 ADVAPI32.dll
 AES for Intel AES-NI, CRYPTOGAMS by <appro@openssl.org>
 AES-NI GCM module for x86_64, CRYPTOGAMS by <appro@openssl.org>
-AK>(v
 AccountFetcherService
 AcquireSRWLockExclusive
 AddACEToPath
@@ -318,8 +270,6 @@ April
 AreFileApisANSI
 Arg list too long
 August
-BC?>6t9^\tc:>
-BF>^G
 BOOLEAN_HISTOGRAM
 Bad address
 Bad file descriptor
@@ -330,17 +280,13 @@ BuildExplicitAccessWithNameW
 BuildSecurityDescriptor
 BuildSecurityDescriptorW
 BuildTrusteeWithSidW
-C5R?\t
 C:\buildworker\cef_win64\build\root\chromium\src\out\Release_GN_x64\chrome_elf.dll.pdb
 CEF_CRASH_REPORTER_PRODUCT_VERSION
 CEF_CRASH_REPORTER_RATE_LIMIT_ENABLED
 CEF_CRASH_REPORTER_SERVER_URL
 CHROME_CRASHPAD_PIPE_NAME
-CL:>8
 CR_SOURCE_ROOT
-CUMA.NegativeSamples.Reason
 CUSTOM_HISTOGRAM
-CWD>~3
 CacheStorage
 Calculators
 CameraStream
@@ -385,8 +331,6 @@ CreateProcess
 CreateProcessW
 CreateRemoteThread
 CreateThread
-D7q"
-D7q/;M
 DUMMY_HISTOGRAM
 Days
 December
@@ -403,10 +347,7 @@ DumpHungProcessWithPtype_ExportThunk
 DumpProcessWithoutCrash
 DumpWithoutCrashing
 DuplicateHandle
-E>nEA
 ERROR
-ET5>
-E[\rn?gc
 Empty directory path
 EncodePointer
 EnforceNoExecutableFileHandles
@@ -419,12 +360,10 @@ ExitProcess
 ExitThread
 ExpandEnvironmentStringsW
 ExpandedPrefetchRange
-F>qUxv
 FATAL
-FEMh\f
 FeatureList-early-access-allow-list
+FeatureList-feature-accessed-too-early
 February
-FfW?
 File exists
 File too large
 File::Close
@@ -456,7 +395,6 @@ FreeLibrary
 FreeLibraryAndExitThread
 Friday
 Function not implemented
-G>US
 GAMEPAD
 GHASH for x86_64, CRYPTOGAMS by <appro@openssl.org>
 GenuineIntel
@@ -538,13 +476,13 @@ GetWindowsDirectoryW
 HH:mm:ss
 HISTOGRAM
 Histogram.BadConstructionArguments
+Histogram.MismatchedConstructionArguments
 Histogram.TooManyBuckets.1000
 Histogram: 
 IND)ind)"
 IND)ind)d
 INFO
 INITY
-Il?333333c?
 Illegal byte sequence
 Improper link
 Inappropriate I/O control operation
@@ -587,15 +525,11 @@ June
 K32GetMappedFileNameW
 KERNEL32.dll
 Kernel32.dll
-L>ev
-L?UUUUUUU?
 LCIDToLocaleName
 LCMapStringEx
 LCMapStringW
 LINEAR_HISTOGRAM
 LOG_FATAL
-LWG>
-LWW>
 LeaveCriticalSection
 LoadLibraryExA
 LoadLibraryExW
@@ -607,8 +541,6 @@ LogMessage
 Logging-DUMP_WILL_BE_CHECK_MESSAGE
 Logging-FATAL_MILESTONE
 Logging-NOTREACHED_MESSAGE
-LwH'
-MGiI
 MM/dd/yy
 MakeAbsoluteFilePath
 MakeLongFilePath
@@ -619,15 +551,10 @@ Monday
 MonitorNextJankWindowIfNecessary
 Montgomery Multiplication with scatter/gather for x86_64, CRYPTOGAMS by <appro@openssl.org>
 MultiByteToWideChar
-M|1}0
-N3`d?
-N>O=I9
-N>VF
 NAN(IND)
 NAN(SNAN)
 NOTREACHED hit. 
 NOTREACHED log messages are omitted in official builds. Sorry!
-NQ?s
 No child processes
 No error
 No locks available
@@ -649,7 +576,6 @@ NtOpenKeyEx
 NtQueryValueKey
 NtSetValueKey
 OPENSSL_ia32cap
-OZQ%
 October
 OpenProcess
 Operation not permitted
@@ -695,17 +621,9 @@ PersistentMemoryAllocator-type_id
 PersistentSampleMap-corrupted
 PlatformMalloc
 ProcessPrng
-Q5rHg,>
-QAf?
-Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
 QueryThreadCycleTime
-RSDS
-R\fpP
-R\n0\tP
-R\n0\tp
-R\vpP
 RaiseException
 Read
 Read-only file system
@@ -742,8 +660,6 @@ RtlPcToFileHeader
 RtlUnwind
 RtlUnwindEx
 RtlVirtualUnwind
-S9>H
-S>$hkDh$h>[2
 SHA1 block transform for x86_64, CRYPTOGAMS by <appro@openssl.org>
 SHA512 block transform for x86_64, CRYPTOGAMS by <appro@openssl.org>
 SHELL32.dll
@@ -756,6 +672,7 @@ SampleVector-min
 SampleVector-range_max
 SampleVector-range_min
 Saturday
+ScopedAllowBaseSyncPrimitivesOutsideBlockingScope
 ScopedBlockingCall
 ScopedBlockingCallWithBaseSyncPrimitives
 Seek
@@ -810,15 +727,12 @@ TransactNamedPipe
 TransactNamedPipe: expected 
 TriggerNotReached
 TryAcquireSRWLockExclusive
-Ts\ne
 Tuesday
-UA>N0Wl
 UMA.NegativeSamples.Histogram
 UMA.NegativeSamples.Increment
+UMA.NegativeSamples.Reason
 UNKNOWN
 UUUUUU
-UUUUUUUUUUUUUUUU3333333333333333
-U\f2>Y
 UnhandledExceptionFilter
 Unknown error
 Unknown exception
@@ -840,7 +754,8 @@ VirtualQuery
 Visual C++ CRT: Not enough memory to complete call to strerror.
 WARNING
 WINMM.dll
-WaNd?
+WTSFreeMemory
+WTSQuerySessionInformationW
 WaitForSingleObject
 WaitNamedPipe
 WaitNamedPipeW
@@ -858,29 +773,10 @@ WriteConsoleW
 WriteFile
 WriteIoVec(): no iovecs
 WriteProcessMemory
-W}9D*
-X/4B
-Y8a:
-Y>kX>M
-Z\>z8
-Zjz\v
 [%03u.%03u] 
-[*ncd>0
-[aOni*{
 [printf format error]
 \\.\pipe\crashpad_%lu_
-\fp\vP8
-\nh?oT
-\nk>oB
-\r8STs\ne
 \t\n\vSHA256 block transform for x86_64, CRYPTOGAMS by <appro@openssl.org>
-\tcQr
-\tkE>fvw
-\vA03>A|
-\vLLD PDB.
-^<V7w
-^RfN>
-_ScopedAllowBaseSyncPrimitivesOutsideBlockingScope
 __based(
 __cdecl
 __clrcall
@@ -903,7 +799,6 @@ _cabs
 _hypot
 _logb
 _nextafter
-_oD>Kg
 `RTTI
 `anonymous namespace'
 `copy constructor closure'
@@ -940,7 +835,6 @@ _oD>Kg
 `vector vbase copy constructor iterator'
 `vftable'
 `virtual displacement map'
-a6>r
 abcdefghijklmnopqrstuvwxyz
 accessibility
 acos
@@ -1016,7 +910,6 @@ browser,startup
 browsing_data
 bsvc.dll
 bucket_count
-c?FA@s}
 camera
 cast.mdns
 cast.mdns.socket
@@ -1060,9 +953,6 @@ crash server failed to launch, self-terminating
 crashpad-handler
 crdli.dll
 crdli64.dll
-d8L2
-d?000000`?
-dRL>
 database
 datamngr.dll
 dbghelp.dll
@@ -1198,16 +1088,12 @@ dwrite
 dwrite,fonts
 e%s%d
 e+000
-eF>t
-eLK(w
 enable-background-thread-pool
 evdev
 event
 explore_sites
 explorerex.dll
 extensions
-fD>b
-fWi?
 fabs
 failed to read header
 failed to read records
@@ -1238,15 +1124,12 @@ gpu.angle,startup
 gpu.angle.texture_metrics
 gpu.capture
 graphics.pipeline
-h0'D
-h>1my
 header
 headless
 history
 hk.dll
 host unreachable
 hwoverlays
-i]Wb
 ia64
 identifier removed
 identity
@@ -1271,7 +1154,6 @@ iostream
 ipc,security
 ipc,toplevel
 jpeg
-k=yI
 kernel32.dll
 latency
 latencyInfo
@@ -1295,9 +1177,6 @@ login
 login,screenlock_monitor
 lstrcmpiA
 lstrlenA
-m?H7
-mG4>
-m\nXo
 media
 media,gpu
 media,rail
@@ -1312,8 +1191,6 @@ modf
 mojom
 money_get error
 mutex lock failed
-n03>Pu
-n]?iJ
 name
 nan(ind)
 nan(snan)
@@ -1338,10 +1215,6 @@ not a stream
 not connected
 not supported
 ntdll.dll
-o.hs
-o?GS
-oI>O7
-obwQ4
 offerswizarddll.dll
 offline_pages
 ole32.dll
@@ -1358,7 +1231,6 @@ operator co_await
 operator<=>
 osarch
 out_of_range was thrown in -fno-exceptions mode with message "%s"
-owM&
 owner dead
 ozone
 page-serialization
@@ -1375,11 +1247,7 @@ product
 protocol error
 protocol not supported
 ptype
-qS>g?h3
 quarantine size: 
-r\n0\tP
-r\tVr.>T
-r\vpP
 raf_investigation
 rail
 record size out of range
@@ -1458,14 +1326,11 @@ unspecified generic_category error
 unspecified iostream_category error
 unspecified system_category error
 unsupported locale for standard input
-uzKs@>
-v2!L.2
 v8,devtools.timeline
 v8,devtools.timeline,disabled-by-default-v8.compile
 v8,disabled-by-default-v8.compile
 v8.execute
 v8.wasm
-vRQ>
 value too large
 vector
 version
@@ -1489,9 +1354,7 @@ webrtc_stats
 win64
 windowsapihookdll32.dll
 windowsapihookdll64.dll
-wn>Jj
 wrong protocol type
 x86_64
-xT?V
 ycwebcamerasource.ax
 ~WaitableEvent while Signaled

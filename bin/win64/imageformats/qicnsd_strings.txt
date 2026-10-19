@@ -24,7 +24,6 @@ QICNSPlugin
 QVector<T>::at
 Q_UNREACHABLE was reached
 Q_UNREACHABLE()
-RSDS
 Scan of the icon variant container ("%s") failed at pos %s.\nReason: Scan didn't reach the end of this container's block, delta: %s bytes. This file may be corrupted.
 SleepConditionVariableCS
 Unknown exception

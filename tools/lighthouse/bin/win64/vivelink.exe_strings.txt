@@ -269,11 +269,8 @@
   status:%d
   suspend:%d
  !"#$%&'()*+,-./0123456789:;<=>?@ABCDE
- !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
  !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
- !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
  !"#$%&012345@ABCDEFGHIJKLMNOPQRSTU`a
- !$%&'./123
  %02d "%s" - %02x:%02x:%02x:%02x:%02x:%02x, rssi = %d
  %llu
  (0x%02x)
@@ -290,6 +287,7 @@
  ADDR:%02X%02X%02X%02X%02X%02X NAME:"" RSSI:%d%s
  ADDR:%02X%02X%02X%02X%02X%02X NAME:"%s" RSSI:%d%s
  AND 
+ AS %s
  Animation
  Apple Video
  BLE Passkey request for bdaddr   %02x:%02x:%02x:%02x:%02x:%02x\n
@@ -442,18 +440,14 @@
  btui_sco_get_dw_sample: fd:%d error=%d
  chnl %x
  cmac_generate_subkey
- cms 
  delete
  delete[]
  disconnection ID: [%d] not used by BTA
- elr@
  flags=%d 
  get_act=%d
  hidden
- lru
  missing from index 
  new
- nru
  oper=%d
  p_dev_rec->sec_flags=0x%x
  ptr
@@ -465,11 +459,7 @@
  timer stopped  
  vCard Received 
  vCard Received Failed
- war
- warp
 !!! L2CAP - Multi-AV payload dropped
-!5Ng
-!\t@CMFCStandardColorsPropertyPage
 " />\n</MAP-event-report>
 " attachment_size = "
 " datetime = "
@@ -486,22 +476,29 @@
 " sender_addressing = "
 " sender_name = "
 " subject = "
+"%s",%d
 "%s",%d,%d,"%c%c%c%c",%d,"%s"\n
 "8584538400"
 ##### l2c_fcr_clone_buf (NumBytes %d) -> Exceeds poolsize %d [bytes %d + BT_HDR %d + offset %d]
 #*$*%*&*'*(*)***P*
 #32768
-$-6?HAZSle~w
+%.*f
+%.*s"%w"%s
 %.16g
+%.2x
+%.8s.%03d 
 %016u
 %02X
 %02X 
 %02X%02X%02X%02X
 %02X%02X%02X%02X%02X%02X
 %02X%02X%02X%02X%02X%02X%02X%02X%02X%02X%02X%02X%02X%02X%02X%02X
+%02X, 
+%02X,  
 %02X:%02X:%02X:%02X:%02X:%02X
 %02X:%02X:%02X:%02X:%02X:%02X %d %s\n
 %02d
+%02d: 
 %02d: (P), %4d, %3d, %3d, %3d
 %02d: (R), %4d, %3d, %3d, %3d
 %02d:%02d:%02d
@@ -514,6 +511,7 @@ $-6?HAZSle~w
 %02x:%02x:%02x:%02x:%02x:%02x \n
 %03d
 %04X
+%04X, 
 %04X-%04X
 %04d
 %04d%02d%02dT%02d%02d%02d
@@ -522,6 +520,7 @@ $-6?HAZSle~w
 %04d-%02d-%02d
 %04d-%02d-%02d %02d:%02d:%02d
 %04x
+%04x: 
 %06.3f
 %08X
 %08lX, 
@@ -537,23 +536,30 @@ $-6?HAZSle~w
 %2u   %-8s %-5s  0x%04X     0x%04X Bytes
 %2u  %-8s %-5s %04X    %04X %7u %u/%u Bytes\n
 %2x:%2x:%2x:%2x:%2x:%2x
+%35s%s :
 %3d: 0x%02x %4d %10s\n
 %40s
 %40s 
 %40s %7d 0x%08x %c%c%c%c %d\n
+%40s :
+%40s : 
+%40s :  0x
 %40s :  0x%04X %s
 %40s :  0x%08X %s
 %40s :  power = %ddBm
 %40s :  unknown extra %d bytes
 %40s : %02x-%02x-%02x
 %40s : %02x-%02x-%02x-%02x-%02x-%02x
+%40s : %d
 %40s : %d (0x%02x)
 %40s : %d (0x%04x)
+%40s : %s
 %40s : %s  (len: %d)
 %40s : %s (%02x)
 %40s : %s (%d)
 %40s : %s (0x%02x)
 %40s : %s | %s (0x%02x)
+%40s : %u 
 %40s : %u (%s)
 %40s : %u (0x%02x)
 %40s : %u (0x%02x) (%s)
@@ -578,6 +584,8 @@ $-6?HAZSle~w
 %40s : bit 1 %s
 %40s : bit 2 %s
 %40s : bit 7 %s
+%40s :%d
+%40s: %s
 %40s: %s(%d)
 %40s: list_start_offset = %d
 %40s: msg_type = 0x%02x
@@ -591,17 +599,24 @@ $-6?HAZSle~w
 %40s: subject len = %d
 %43s%s
 %73s  %10s
+%c%c
+%c%d%c%s
+%d %d
 %d buffer in codec Q
 %d of %d pages missing from overflow list starting at %d
 %d state %d, handle %d, src 0x%x, dst 0x%x, BD %x.%x.%x.%x.%x.%x
 %d values for %d columns
+%d%%
 %d%02d%02d
+%d*%d
 %d*%d-%d*%d
 %d*%s-%d*%d
+%d**-%d*%d
 %d,%d,%d,0,%d,"%s",%d
 %d.%d.%d.%d
 %d.%d.%d.%d#%s
 %d/x%04x rej_evt_mask:x%04x
+%d: %s
 %d: Type=%d, Task=%d: %s\n
 %d:%s av_fmt: x%x
 %d:0x%x (Q:%d,Task:%s,Stat:%d,%s) %04x %04x %04x %04x %04x %04x %04x %04x\n
@@ -612,7 +627,11 @@ $-6?HAZSle~w
 %r ORDER BY term does not match any column in the result set
 %s    - %6s dlci:%2d [d:%d, scn:%2d] cr:%d pf:%d len:%d %s
 %s %T cannot reference objects in database %s
+%s %s
+%s %s (%d)
+%s %s\n
 %s (%s [Chan %d])
+%s (%s:%d)
 %s (%s:%d)\n%s
 %s (Vendor Specific)
 %s APP rawdata length >>> %d <<< for APP \n
@@ -693,13 +712,24 @@ $-6?HAZSle~w
 %s result = %d
 %s result: %d, fail reason: 0x%02X
 %s#%llu
+%s%.*s"%w"
+%s%c%s
 %s%c%s%c%s%c%s
+%s%s
+%s%s.%s
 %s%s.wav
 %s(%02X:%02X:%02X:%02X:%02X:%02X)
+%s(%d)
+%s(%s)\n
 %s(find %d same version)\n
+%s, %x
 %s, Create PIPE failed
+%s,%d
+%s-%s
 %s-mjXXXXXX9XXz
 %s-shm
+%s.%s
+%s.%s.%s
 %s.msg
 %s.rowid
 %s.txt
@@ -707,7 +737,10 @@ $-6?HAZSle~w
 %s: !!!!! After Filter C1\n
 %s: %3d %u %02X:%02X:%02X:%02X:%02X:%02X %u %d %c[%02X%02X][%c] RSSI=%4d LR=%u LT=%u \n
 %s: %d %u %s\n
+%s: %s
+%s: %s.%s
 %s: %s.%s.%s
+%s: %s\n
 %s: === Print all BS list ===\n
 %s: === Total %d BS printed ===\n
 %s: Add new record to BS device list\n
@@ -880,7 +913,9 @@ $-6?HAZSle~w
 %s: executePMProcThread Release Sema result = %d previous = %ld\n
 %s: executePMProcThread(error_no:%d) is failed!!
 %s: is not an BMP file\n
+%s:%d
 %s:%x:%x:%x:%x
+%s="%s
 %sBasePane-%d
 %sBasePane-%d%x
 %sDockablePaneAdapter-%d
@@ -900,14 +935,22 @@ $-6?HAZSle~w
 %s[Dequeue][Type %d] queue size: %d, Bsv2DequeueNum=%ld
 %s[Enqueue] Abnormal queue size increase
 %s[Enqueue][Type %d] queue size: %d, Bsv2EnqueueNum=%ld
+%s\%s
 %s\%s.msg
 %s\%s.txt
+%s\%s\
+%s\%s\%s
+%s\%s\%s%s
 %s\%s\%s%s*
+%s\%s\%s*
+%s\%s\%s\
 %s\%s\%s\%s
 %s\%s\%s\%s\%s
 %s\%s\%s\%s\*.*
+%s\%s\%s\*
 %s\%s\%s\*.txt
 %s\%s\%s\now%08d.txt
+%s\%s\*.md
 %s\%s\measurement.log
 %s\%s\metadata.dat
 %s\%s\msg\*.txt
@@ -917,6 +960,7 @@ $-6?HAZSle~w
 %s\%s_native.txt
 %s\%s_stackNVRAM_1234.nv
 %s\%s_utf8.txt
+%s\*.msg
 %s\BTManagerService_%d%02d%02d_%02d%02d%02d.txt
 %s\Log\BTManagerService_%d%02d%02d_%02d%02d%02d.txt
 %s\Log\[BTMGRSRV]BTALog_%d%02d%02d_%02d%02d.txt
@@ -926,6 +970,7 @@ $-6?HAZSle~w
 %s\bin\btui_cfg.txt
 %s\bin\btui_hh_testdata.txt
 %s\bin\patchram.bin
+%s\r\n%s
 %s\telecom\%s.msg
 %s\telecom\msg\%s.msg
 %s\telecom\msg\deleted\%s.msg
@@ -952,6 +997,7 @@ $-6?HAZSle~w
 %s_native.txt
 %s_utf8.txt
 %x: aloc:%d, lcb:0x%x/0x%x, ccb:0x%x/0x%x
+&%d %s
 &(btui_inq_db[i]) is NULL!
 &Edit
 &Edit,0,2
@@ -960,8 +1006,8 @@ $-6?HAZSle~w
 &apos;
 &quot;
 '%c%c%c%c' 
-( 8PX
 ("call",(0,1)),("callsetup",(0-3)),("service",(0-3)),("signal",(0-6)),("roam",(0,1)),("battchg",(0-5)),("callheld",(0-2)),("bearer",(0-7))
+(%.20s)
 ('8PW
 ()*xxxx/0
 (0,1,1x,2,2x,3,4)
@@ -1006,7 +1052,6 @@ $-6?HAZSle~w
 (No traffic)
 (None)
 (PCM)
-(PQRSTU
 (Powered Down)
 (Range Related)
 (Reserved)
@@ -1029,6 +1074,7 @@ $-6?HAZSle~w
 (digit erased)
 (entry completed)
 (entry started)
+(knN0123456789abcdefghijklmnopqrstuvwxyz
 (mSBC)
 (null)
 (req)
@@ -1082,7 +1128,6 @@ $-6?HAZSle~w
 + Spk Vol
 + Vol
 +/- Headset
-+45679:J
 +=+=+=+=+=+= +=+=+=+=+=+= +=+=+=+=+=+= +=+=+=+=+=+= +=+=+=+=+=+=\n
 +BAC
 +BCC
@@ -1154,11 +1199,9 @@ $-6?HAZSle~w
 , Channels = mono, AveBitrate = %d)
 , Channels = stereo, AveBitrate = %d)
 ,"%s",%d,,4
-,':1XSNEt
 - Mic Vol
 - Spk Vol
 - Vol
--&;0YRODu~ch
 -- TRIGGER %s
 --- GKI Buffer Pool Summary (R - restricted, P - public) ---
 ------------------------------
@@ -1168,7 +1211,6 @@ $-6?HAZSle~w
 ----------------------------\n
 ---> Deregister Boot Report ID: %d
 ---> Deregister Report ID: %d
--64OS
 -=-=-=-=-=-=-=-   Corrupting %s packet (0x%04x) tc: %u  Buf Len: %u  xx: %u  count: %d
 -=-=-=-=-=-=-=-   Dropping %s packet (0x%04x) tc: %u  Buf Len: %u  xx: %u  count: %d
 -ADDR
@@ -1186,8 +1228,6 @@ $-6?HAZSle~w
 -journal
 -mj%06X9%02X
 -wal
-."0*0*(#0*No Alert
-.'<5BKPYfot}
 .?AUCThreadData@@
 .?AUIAccessible@@
 .?AUIAccessibleProxy@@
@@ -1789,6 +1829,7 @@ $-6?HAZSle~w
 /init/
 /log/
 0%16u
+0*0*(#0*No Alert
 0,0,1,3,0,3,0,0
 0.vcf
 00.0.0.000(%s:device pluged/driver killed)\n
@@ -1827,6 +1868,7 @@ $-6?HAZSle~w
 0123456789ABCDEFabcdef-+XxPp
 0123456789ABCDEFonoffalseyestruefull
 0123456789abcdefABCDEF
+0123456789abcdefghijklmnopqrstuvwxyz
 01search
 02now_playing
 0: Vendor-specific Commands
@@ -1842,6 +1884,7 @@ $-6?HAZSle~w
 1#INF
 1#QNAN
 1#SNAN
+1&0 %s
 1,0,"Sing Tel"
 1.5 stop bits
 1.vcf
@@ -1870,7 +1913,6 @@ $-6?HAZSle~w
 19200
 192K
 1OAK Technologies
-1QVS
 1cva
 1st msg list fragment peer_mtu=%d msg_list_size=%d
 2 EIR/LE remote name = %s
@@ -1886,13 +1928,10 @@ $-6?HAZSle~w
 20:73:6A:82:18:67
 224K
 230400
-23PQRSzUVWXYZ[\]^_
-23cdefghi
 2400
 256K
 28113
 29113
-2?(%nctyZW@M
 2mks5pg3seid: %d
 2nd reference to page %d
 2vuY
@@ -1910,9 +1949,6 @@ $-6?HAZSle~w
 3.8.11.1
 3.vcf
 320K
-333333
-362d0
-362s
 38400
 3COM
 3D SYNCHRONIZATION
@@ -1923,7 +1959,6 @@ $-6?HAZSle~w
 3DSP CORP
 3D_DISPLAY
 3D_GLASSES
-3QVS
 4 Blk
 4 Sband
 4 btapp_mce_xml_folder_parse: XML_FolderParse ( final:%d, status:%d, len:%d entries %d): %d\r\n
@@ -1931,10 +1966,7 @@ $-6?HAZSle~w
 4.vcf
 44.1K
 44.1kHz 16-bit
-46oc 
 4800
-49.#her
-4:(&|r`nDJXV79+%
 4e2%!m
 5 bits
 5 btapp_mce_xml_folder_parse: done=%d p_list->final=%d error=%d\r\n
@@ -1942,9 +1974,7 @@ $-6?HAZSle~w
 5 slot packets
 5-Slot Enhanced Data Rate ACL
 5.vcf
-53PF
 57600
-5`abe
 6 XML_FolderParse type:%d, len:%d, data=%s
 6 XML_MlParse attachment_size=%s len=%d
 6 XML_MlParse datetime=%s len=%d
@@ -1973,7 +2003,6 @@ $-6?HAZSle~w
 700PP
 700WP
 7200
-7:- m`wzYTCN
 8 Blk
 8 Sband
 8 bits
@@ -1986,22 +2015,18 @@ $-6?HAZSle~w
 802_TX_PRIORITY_ASSERT_OFFSET
 802_TX_PRIORITY_DEASSERT_JITTER
 802_TX_PRIORITY_DEASSERT_OFFSET
-85"/di~sP]JG
 8581231230
 8581231231
 8581231232
 8584535735
 8584538400
 8587953512
-86$*p~lbHFTZ
 8BIT
-9$oz
 9.vcf
 91.vcf
 92.vcf
 922337203685477580
 9600
-9JLX
 9SOLUTIONS OY
 : %d (0x%X)
 : %u (0x%X)
@@ -2013,8 +2038,6 @@ $-6?HAZSle~w
 </MAP-msg-listing>
 </folder-listing>
 </vCard-listing>
-<5IkQ
-<8bunz8
 <<<TRUNCATED>>>
 <================ End Explore Queue =============>
 <================End Server Cache =============>
@@ -2022,7 +2045,6 @@ $-6?HAZSle~w
 <================Start Server Cache =============>
 <?xml version="1.0"?>\n<!DOCTYPE folder-listing SYSTEM "obex-folder-listing.dtd">\n<folder-listing version="1.0">\n
 <?xml version="1.0"?>\n<!DOCTYPE vcard-listing SYSTEM "vcard-listing.dtd">\n<vCard-listing version="1.0">\n
-<@En[vP
 <MAP-event-report version="1.0">\n<event type = "
 <MAP-event-report version="1.1">\n<event type = "
 <MAP-msg-listing version="1.0">\n
@@ -2057,9 +2079,6 @@ $-6?HAZSle~w
 =====> handle = [0x%04x] uuid16 = [0x%04x] perm=0x%02x 
 =====> handle = [0x%04x] uuid32 = [0x%08x] perm=0x%02x 
 =>?@ABCDEFGHI`a
->3$)boxuV[LAal{vUXOB\t
-?1mm
-?333333
 ?? Unknown ??
 ?? Unknown Vendor Specific Command ??
 ??? Unknown BLE event ???
@@ -2068,18 +2087,11 @@ $-6?HAZSle~w
 ?OtaUpgrade_Close@@YAJXZ
 ?OtaUpgrade_Initialize@@YAJKPAD@Z
 ?OtaUpgrade_StartTransfer@@YAJP6AXH@Z@Z
-?RbSQ
-?UUUUUU
-?ffffff
-?uZEeu
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@G
-@@L2CAP - failed to clone buffer on HCI_ACL_POOL_ID Utilization: %u
-@CMFCColorMenuButton
 @wKA
 A & R CAMBRIDGE
 A&D ENGINEERING
 A-law log synchronous data
-A0123456789abcdefghijklmnopqrstuvwxyz
 A2DP SDP complete, start SEP DISCOVER
 A2D_AddRecord
 A2D_AddRecord uuid: %x
@@ -2294,7 +2306,6 @@ ANY(%s)
 ANY_CLOSE_PIPE
 ANY_GET_PARAM
 ANY_OPEN_PIPE
-AO]Sywek1?-#\t
 API call with %s database connection pointer
 API called with NULL prepared statement
 API called with finalized prepared statement
@@ -4954,7 +4965,6 @@ BluDotz Ltd
 Blue Maestro Limited
 Bluetooth Disabled
 Bluetooth Enabled
-BmT}
 Body
 Bond
 Bond 
@@ -5118,6 +5128,7 @@ CComboBox
 CCommonDialog
 CControlBar
 CCriticalSection
+CD2DResource
 CDMA SMS
 CDMA_SMS
 CDialog
@@ -5223,6 +5234,7 @@ CMFCButton
 CMFCCaptionBar
 CMFCColorBar
 CMFCColorButton
+CMFCColorMenuButton
 CMFCColorPopupMenu
 CMFCColorPropertySheet
 CMFCControlRenderer
@@ -5274,6 +5286,7 @@ CMFCRibbonLaunchButton
 CMFCRibbonMainPanel
 CMFCRibbonMiniToolBar
 CMFCRibbonPanel
+CMFCRibbonPanelMenu
 CMFCRibbonPanelMenuBar
 CMFCRibbonQuickAccessCustomizeButton
 CMFCRibbonQuickAccessToolBar
@@ -5287,6 +5300,7 @@ CMFCShadowRenderer
 CMFCShellListCtrl
 CMFCShellTreeCtrl
 CMFCShowAllButton
+CMFCStandardColorsPropertyPage
 CMFCStatusBar
 CMFCTabCtrl
 CMFCTasksPane
@@ -5470,6 +5484,7 @@ CWinApp
 CWinAppEx
 CWinThread
 CWindowDC
+CWnd
 Call %d (BLDN) moved to OUTGOING
 Call %d (CKPD) moved to OUTGOING
 Call %d (dial) moved to OUTGOING
@@ -5576,7 +5591,6 @@ CaptionText
 Cast
 Category
 Category_Main
-Ccva 
 Ceruus
 Cfg Control Point
 Cfg TX Notify
@@ -6196,6 +6210,7 @@ DestroyIcon
 DestroyMenu
 DestroyPropertySheetPage
 DestroyWindow
+Dev %d:\n
 Device   Authorized
 Device   Deleted
 Device   Saved
@@ -6603,6 +6618,7 @@ EnumFontFamiliesExA
 EnumSystemLocalesEx
 Envelope
 EqualRect
+Err %s: %d
 Err Starting LE Inquiry.
 Err: No GKI buffer to send event for SCO data 
 Erroneous Data Reporting
@@ -6718,7 +6734,6 @@ FAX_SUPPORTED
 FCOFF
 FCON
 FCS_SET
-FCWnd
 FDK CORPORATION
 FEATURE
 FEATURES
@@ -6737,9 +6752,7 @@ FLOATY
 FM Files
 FM Radio
 FM TX
-FMP[ja|w
 FMTX
-FNGON
 FOLDER
 FOLDER ITEMS
 FONT
@@ -7385,14 +7398,9 @@ GET_REPORT   REPORT ID: None         REPORT TYPE: %d
 GET_RPT_BUF_SIZE
 GET_RS
 GET_S
-GGGG
-GHIJKLMNOPQRS
-GHIJKLMNOPQRS3UVWXYZ[\]^_
-GHIJKLMNOPQRSzUVWXYZ[\]^_
 GIBSON GUITARS
 GIF header version %3.3s
 GIGALANE.CO.,LTD
-GI[U
 GKI Exceptions:\n
 GKI buffers
 GKI task %d: Execution error.
@@ -7402,14 +7410,12 @@ GKI_Exception(%s) called with code: 0x%04x
 GKI_get_buf_start:: bad addr
 GKI_get_remaining_ticks: No timer entry in the list
 GLOBALS
-GLQZk`}v
 GLUCOSE_METER
 GM measurement not found!
 GN NETCOM
 GN RESOUND
 GNSS
 GNSS SERVER
-GNU\cjqx
 GOEP:  Register with SDP returns handle 0x%08x
 GOEP:  Register with SDP(2):  psm 0x%x, record:0x%08x
 GOEP:  Register with SDP:  scn %d, record:0x%08x
@@ -7673,6 +7679,7 @@ GetNumaHighestNodeNumber
 GetOEMCP
 GetObjectA
 GetObjectType
+GetOpenFileNameA
 GetOverlappedResult
 GetPaletteEntries
 GetParent
@@ -7831,7 +7838,6 @@ HC ACL Data Packet Length
 HC Synchronous Data Packet Length
 HC Total Num ACL Data Packets
 HC Total Num Synchronous Data Packets
-HCD2DResource
 HCI ACL Data
 HCI Command
 HCI Event
@@ -8272,12 +8278,10 @@ HID_HostWriteDev
 HID_HostWriteDev Error 
 HID_REPORT
 HID_UCDFindDevHdl
-HIJKLMNOPQRS
 HITACHI
 HL Agent
 HL Manager
 HL_SUPPORTED
-HMXB
 HOME
 HOME NETWORK
 HOP Ubiquitous
@@ -8545,8 +8549,6 @@ ID_ADDR_EVT
 ID_HDPI
 ID_INFO_EVT
 ID_PREFIX
-IIII8J
-IJKLMNOPQRS
 IMAGE
 IMAGE_LARGE
 IMAGE_SMALL
@@ -8618,7 +8620,6 @@ ISS CORP
 ISS TAIWAN
 ITEM
 ITEMS
-IVW)*GGJ|
 Icon Health and Fitness
 IconSize
 Identifier
@@ -8681,6 +8682,7 @@ ImageList_Destroy
 ImageList_Draw
 ImageList_GetIcon
 ImageList_GetIconSize
+ImageList_GetImageCount
 ImageList_GetImageInfo
 ImageList_LoadImageA
 ImageList_Remove
@@ -8908,12 +8910,9 @@ J&M CORP
 J*K*L*M*"*2*3*N*M*
 JAPANESE
 JAWBONE
-JJJJJJ
-JKRPHQ
 JPEG
 JPEG image is %uw * %uh, %d color components, %d bits per sample
 JUSTIFY_COLUMNS
-J\8Ws
 Jan 10 2020
 JanFebMarAprMayJunJulAugSepOctNovDec
 January
@@ -8937,19 +8936,15 @@ June
 K&'\n(bEEf
 KC TECHNOLOGIES
 KERNEL32.dll
-KEWYs}oa
 KEYPR_NOTIF_EVT
 KEYS
 KEYS_MENU
 KEYTIP
 KEY_ENTRY
 KEY_READY_EVT
-KKK)K*KK
-KKKKHK
 KOI8-R
 KOREAN
 KOUKAAM a.s.
-KPKKKKKK
 KS Technologies
 Kawantech
 Keiser Corporation
@@ -9043,6 +9038,7 @@ L2CAP - disconnect_chnl CID: 0x%04x Ignored
 L2CAP - dropping incomplete pkt
 L2CAP - dropping too long pkt BufLen: %d  total_len: %d  hci_len: %d
 L2CAP - expected pkt start or complete, got: %d
+L2CAP - failed to clone buffer on HCI_ACL_POOL_ID Utilization: %u
 L2CAP - failed to clone buffer, Pool: %u  Count: %u
 L2CAP - got incorrect hci header
 L2CAP - holding ACL for unknown handle:%d ls:%d cid:%d opcode:%d cur count:%d
@@ -9283,6 +9279,7 @@ L2C_HI_PRI_CHAN_QUOTA
 LABEL
 LAIRD TECHNOLOGIES
 LANGUAGE
+LAP [%d]
 LAPIS Semiconductor Co.
 LAST CONNECTED
 LAST_CLOSED_MDL_ID
@@ -9407,8 +9404,6 @@ LIST
 LIST ATTR'TS
 LISTBOX
 LL Alert
-LLLLG
-LL\nrs
 LL_CLOSE_EVT
 LL_CONG_EVT
 LL_MSG_EVT
@@ -9672,7 +9667,6 @@ LresultFromObject
 LtGray
 Luna
 L~<b\f=s}?@0tnaturaleftouterightfullinnercross
-M(knN0123456789abcdefghijklmnopqrstuvwxyz
 M12 codec info = 0x%02x-0x%02x-0x%02x-0x%02x-0x%02x-0x%02x\n
 MA OBX Event Callback: mse_obx_event [%s]
 MA connectino OPEN to [%s]
@@ -9747,12 +9741,10 @@ MCE: GetMsg Operation Aborted or Error [%s], status 0x%02x
 MCE_CBACK: Bad connect response 0x%02x
 MCE_SUPPORTED
 MCE_SUPPORTED_FEATURES
-MCQ_u{ig=3!/
 MCU FW file path name:%s, version=(%d)
 MCU_FOTA
 MDIClientArea
 MDITabsState
-MD_Vi`{r
 MEDIATEK
 MEDIA_ALBUM
 MEDIA_ARTIST
@@ -10002,8 +9994,6 @@ Maximum CE Length
 Maximum Latency
 Maximum Length
 Maximum Page Number
-MbP?
-Mbp?333333
 Measurement Off
 Measurement On
 Media Album
@@ -10150,7 +10140,6 @@ NEWLOGIC
 NEW_MSG
 NICKNAME
 NIKE INC
-NKeb
 NLst
 NO ACTION
 NO CALL
@@ -10442,7 +10431,6 @@ NwA Server
 NwS Update
 Nymi Inc.
 Nytec, Inc.
-O8M.
 OBEX File Transfer
 OBEX Synchronization
 OBEX_FILE_TRANSFER
@@ -10581,7 +10569,6 @@ OK_C
 OLD_FOLDER
 OLEACC.dll
 OLEAUT32.dll
-OLWIV
 OOB Data Flag
 OOB Data Present Flag
 OPC Disabled!!!
@@ -11172,7 +11159,6 @@ PORT_WriteData() max_len:%d
 PORT_WriteData() no port state:%d
 PORT_WriteData() peer_mtu:%d
 POSTAL
-PQRSTUVWXYZ[\]^_lmn
 PRAGMA vacuum_db.synchronous=OFF
 PRECONDITION FAILED for:
 PREF
@@ -11399,7 +11385,6 @@ Please enter digit: %06d
 Please enter digit: %06d on peer device
 Please use script cmd to enable MCE!!
 Plug in PnP info: product_id = %02x, vendor_id = %04x, version = %04x
-PoZF
 Podo Labs, Inc
 Pointer map page %d is referenced
 Polar Electro Europe
@@ -11681,7 +11666,6 @@ RS in progress - Set DISC Pending flag in btm_sec_send_hci_disconnect to delay d
 RSC Collector
 RSC Control Point operation %s(%d): %s(%d)
 RSC Control Point operation (%d): %s(%d)
-RSDS
 RSP_TOUT_EVT
 RSSI
 RSSI callback can not be NULL
@@ -12215,7 +12199,6 @@ Rx L2CAP PDU: CID: 0x%04x  Len too short: %u
 Rx L2CAP PDU: CID: 0x%04x  Lost frames Exp: %u  Got: %u  p_rx_sdu: 0x%08x
 Rx S-Frame
 S-Power Electronics
-S;uD
 SABME
 SALTO SYSTEMS S.L.
 SAMPLE mp4s MP4_ST_MPEG4_SAMPLE_TYPE
@@ -13641,6 +13624,7 @@ Type of interval %d
 Type of period %d
 TypeLib
 Typo Products, LLC
+U id: %d
 UART_CLOCK_RATE
 UCODEC
 UCODEC_Close
@@ -13766,8 +13750,6 @@ UUID_32bits mask
 UUID_SERVCLASS_VRBS
 UUID_SERVCLASS_VRBS_FOTA_LAST2BYTES
 UUUUUU
-UVWXYZ[\]^_
-UVWXYZ[\]^_B
 Ubiquitous Computing Tech
 Un-Muting Speaker
 Unable to add a service change client
@@ -14291,7 +14273,6 @@ WriteConsoleW
 WriteFile
 Wrong file name
 Wrong report type or zero data length! Write Command only valid for output report!
-X+AB\f
 X-BT-SPEEDDIALKEY
 X-BT-UCI
 X-BT-UID
@@ -14301,7 +14282,6 @@ X-IRMC-CALL-DATETIME
 X-IRMC-CALL-DATETIME;MISSED:
 X-IRMC-LUID
 X400
-X@ImageList_GetImageCount
 XML pixel is %d*%d-%d*%d
 XML_ATTRIBUTE: XML_ERR reported
 XML_CHARDATA: v:%s, last:%d
@@ -14331,9 +14311,7 @@ XON char,
 XON/XOFF on input, 
 XON/XOFF on output, 
 XTel ApS
-XYZZ[[\\]]^_`aabcddefgghhiijkklmnnoppqqrrsstttttttuvwwxyzz{||||||||||||||||||||||||||||||||||||||}~~
 Xensr
-Y@fffff
 YAHOO_EMAIL
 YMAIL
 Yahoo EMAIL
@@ -14368,6 +14346,7 @@ Zuli
 [%d] state: %d/%d, ssn:%d offset:x%x
 [%d] timeout: %d state:%d ssn:%d offset:%d, BDA: %08x
 [%d] type:%d len left:%d
+[%d]: 0x%x
 [%d]: state:%d, info:x%x
 [%s]%02x:%02x:%02x:%02x:%02x:%02x
 [%s]:%s:(plugged) \n
@@ -14546,12 +14525,14 @@ Zuli
 [AncsStack][NfReg][ERR] BTA_GATTC_RegisterForNotifications failed, status = %d
 [AncsStack][NfReg][ERR] BTA_GATTC_RegisterForNotifications new p_char_id is not stored
 [AncsStack][Notify] Get ancs notification
+[BSV2] %s\n
 [BTA FTC]FTP Service Id 
 [BTA FTC]OPP Service Id 
 [BTA FTC]PBAP Service Id 
 [BTA PBC]PBAP Service Id 
 [Broadcom Stack]
 [CDATA[
+[COS] %s
 [COS] BDA: %06x%06x ssn:%d, state:%d
 [COS] alloc/reuse sess_cb[%d] app_id:%d sess_st:%d
 [COS] alloc/unused sess_cb[%d]n
@@ -15026,9 +15007,9 @@ Zuli
 \Log
 \Log\
 \Log\*.txt
-\QFK
 \\ and \" are the only valid escape sequences
 \\.\BTWUSB-%d
+\\.\COM%d
 \\.\pipe\BaseStationFirmwareUpgrade
 \\.\pipe\BaseStationFirmwareUpgradeStatus
 \\.\pipe\HTCAudioControl
@@ -15042,9 +15023,6 @@ Zuli
 \\.\pipe\HTC_BT_PAIRING_PIPE_NAME
 \\.\pipe\VIVE_PIPE_BS_PM_MESSAGE
 \f\r\f\r\f\robx_ca_close_sess_req shandle:0x%x, sess_st:%d
-\f\t\f\t\f\t\f\t\f\t\f\t\f\t
-\fcgpfgh
-\fensxIB_T
 \inf\
 \n%lX: %02X, 
 \n%lX: %04X, 
@@ -15053,7 +15031,6 @@ Zuli
 \n\n [ERR] Can't alloc memory for attribute content !\n\n\n
 \n\n################ Get Notification Attributes ################\n
 \n\nAncsNtfResult.CommandID: 0x%02X\n
-\r\f\v\v\n\n\t\t\t\t\t
 \r\nBEGIN:BBODY
 \r\nBEGIN:BENV
 \r\nBEGIN:MSG
@@ -15074,7 +15051,6 @@ Zuli
 \r\nTYPE:
 \r\nVERSION:
 \r\nVERSION:1.0
-\rdoryHC^U
 \rv>ic
 \t Accumulated Energy Supported: %s
 \t Accumulated Torque Supported: %s
@@ -15124,7 +15100,6 @@ Zuli
 \t\t [%s- 0x%04x] [Type: %s], [ReportID: %d] [inst_id: %d]  [Clt_cfg: %d]
 \t\t\t attr_mask[%04x] state [%d] sub_class[%02x] index = %d
 \t\t\t\t\n\n\n\n\n\n\n\n\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r
-\t\t\t\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r
 \telecom\msg
 \vivelink-btver.txt
 \vivelink-driver.txt
@@ -15149,7 +15124,6 @@ _init
 _logb
 _nextafter
 _rowid_
-`GetOpenFileNameA
 `RTTI
 `copy constructor closure'
 `default constructor closure'
@@ -15160,7 +15134,6 @@ _rowid_
 `eh vector destructor iterator'
 `eh vector vbase constructor iterator'
 `eh vector vbase copy constructor iterator'
-`h`hhh
 `local static guard'
 `local static thread guard'
 `local vftable constructor closure'
@@ -15192,13 +15165,10 @@ a NATURAL join may not have an ON or USING clause
 a2d_cb
 a2d_sdp_cback status: %d
 a2d_set_avdt_sdp_ver
-a4pmP
+aTR'
 aac read frame error
-ab!d
-abab
 abcdefghijklmnopqrstuvwxyz
 abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789
-abcz
 abort at %d in [%s]: %s
 abort due to ROLLBACK
 aborted
@@ -15250,7 +15220,6 @@ ag_mgmt_cback : code = %d, port_handle = %d, handle = %d
 ag_mgmt_cback ignoring handle:%d
 ag_port_cback ignoring handle:%d conn_handle = %d other handle = %d
 aggregate functions are not allowed in the GROUP BY clause
-aidm@
 al:%d media:%d
 al:%d media:%d frag_org_len:%d frag_off:%d
 al_len:%d != (frag_org_len:%d - frag_off:%d) %d
@@ -15276,14 +15245,12 @@ already has a pending command!!
 already_connected
 altertab_
 ambiguous column name
-amrf
 ancsQueryNameByFile
 ancsServerTriggerSearch
 angel_fire.md
 angel_fire_w44.wav
 another command is pending
 another command is pending queue_volume:%d delta_volume:%d
-apjm 
 apos
 app_init stack already running
 app_init success
@@ -15299,7 +15266,6 @@ ask_len: %d, got_len:%d
 at most %d tables in a join
 atan
 atan2
-atdu
 attach xx:%d, total:%d
 attached databases must use the same text encoding as main database
 attachment
@@ -15584,7 +15550,6 @@ avrc_prep_end_frag
 avrc_proc_vendor_command continue pdu: 0x%x does not match current re-assembly pdu: 0x%x
 avrc_sdp_cback status: %d
 avrc_send_continue_frag len(%d) / AVRC_MAX_CTRL_DATA_LEN
-azpr`
 b closing
 b unbind_disc
 b:JM
@@ -15701,7 +15666,6 @@ bond cancel complete evt, fail
 bond cancel complete evt, success
 bool
 bool8
-bpjm@
 bpp_ca_proc_soap_get:: after body_end sts = %02x
 bpp_ca_proc_soap_get:: sts = %02x
 bpp_cb
@@ -18066,7 +18030,6 @@ build_bMessage=%d
 busy
 busy:%d n=%d o=%d, ao:x%x, a2e:x%x, a3e:x%x
 busy_timeout
-bwas
 bytes_per_fr:%d out_q_max:%d
 cache
 cache_size
@@ -18289,10 +18252,7 @@ created
 credit:%d
 crop
 cross device link
-crsr
-crve@
 csm offset:%d
-csts@
 ctype %d
 cur av br path: %s
 cur_sec_level=%d req_sec_level=%d sec_req_act=%d
@@ -18303,8 +18263,6 @@ current volume: %d
 current_date
 current_time
 current_timestamp
-cved
-cves@
 data bits, 
 data exceed max adv packet length
 data len = %d
@@ -18339,7 +18297,6 @@ dbg bta_mse_set_mn_oper old=%d new=%d
 dbg1
 dbg2
 dbg3
-dcpk
 dddd, MMMM dd, yyyy
 dealloc ccb
 debug_mp4.txt
@@ -18379,15 +18336,9 @@ device_type in inq_db=0x%x
 devs
 dflt_value
 dg server match:%d [chk name? %d]
-dhdm oN
 dhkey chcks do no match
 dhkey chcks match
 dhkt
-dhmn
-dhms
-dhmt
-dhmv
-dhvm0XN
 diag_hci_command
 diag_hci_event
 dir change failed
@@ -18408,19 +18359,15 @@ discover range [%d ~ %d]
 discovery on server failed
 disengage srm:0x%x
 disk I/O error
-divc
 dm status: %d
 dm_pm_timer expires
 dm_pm_timer expires %d ,timer_idx = %d
 dm_pm_timer expires out
 dm_pm_timer[%d] in use? %d
-dnpdplN
 do not find existing link
 door-open
-dopmPmN
 draft
 dropped
-dsts@
 dun_cb
 dun_sdp_cback status: %d
 duplicate WITH table name: %s
@@ -18429,11 +18376,7 @@ dwmapi.dll
 dynamic PSM:0x%x in legacy mode - postponed for upper layer
 e+000
 e.solutions
-e<bN
 eSCO change event (inx %d): rtrans %d, rxlen %d, txlen %d, txint %d
-eYZ[
-eaab
-eerf@
 elem=%d elem_len: %d psc_mask=0x%x
 elems:%d, bytes so far:%d
 else
@@ -18477,7 +18420,6 @@ error getting file length!
 error rsc measearement reading, len = %d
 errorcode8
 etilqs_
-evaw
 even
 event
 event p_saved_req:%d, pkt:%d, final: %d
@@ -18523,7 +18465,6 @@ f:\dd\vctools\vc7libs\ship\atlmfc\src\mfc\olestrm.cpp
 f:\dd\vctools\vc7libs\ship\atlmfc\src\mfc\viewcore.cpp
 f:\dd\vctools\vc7libs\ship\atlmfc\src\mfc\winctrl2.cpp
 f:\dd\vctools\vc7libs\ship\atlmfc\src\mfc\winfrm.cpp
-fUUU
 fabs
 fail pairing when in secure connections only mode and the peer doesn't support secure connections
 fail_reason != 0, consider failure
@@ -18550,9 +18491,7 @@ fav.vcf
 fd:%d
 feature already enabled/disabled
 features:x%x, service: %d/0x%x
-ferd0cN
-fert 
-fghO
+fffff
 file
 file %s open succeed.
 file codec info = 0x%02x-0x%02x-0x%02x-0x%02x-0x%02x-0x%02x\n
@@ -18593,8 +18532,6 @@ flag = %d round = %d
 floor
 fmod
 fmt: x%x
-fnid
-fnim`
 folder
 folder = "<%s>"\n
 folder listing size = %d
@@ -18677,7 +18614,6 @@ full_column_names
 fullfsync
 function not supported
 functions
-g3xt
 gap_attr_db_init service_handle = %d
 gap_ble_accept_cl_operation max connection reached
 gap_ble_accept_cl_operation() - BDA: %08x%04x  cl_op_uuid: 0x%04x
@@ -18778,8 +18714,6 @@ gatts_write_attr_perm_check p_attr->permission =0x%04x min_key_size==0x%04x
 gct-present
 gdiplus.dll
 generic
-gepj`
-gepm
 get buffer failure for btm_ble_hw_setup
 getBCMCurrentFwVersion(mac:%02X:%02X:%02X:%02X:%02X:%02X) is failed
 getBCMUpgradeFilePathName() is failed!!
@@ -18795,7 +18729,6 @@ getbuf: out of buffers
 getpoolbuf bad pool
 gifchecksize: adjusted height to %d
 gifchecksize: adjusted width to %d
-gj}pS^ID
 glgps socket %s, port %i
 glob
 goep_cb
@@ -18880,7 +18813,6 @@ immediate alert already been initialized
 immediate alert has already been instantiate
 immediate alert level write complete
 immutable
-imvp
 in smp_data_ind cmd = 0x%02x, peer_auth_req = 0x%02x,loc_auth_req = 0x%02x
 inMusic Brands, Inc
 in_authen 
@@ -18968,25 +18900,19 @@ is_local=%d local sign counter=%d peer sign counter=%d
 is_notify
 is_originator:%d 
 iso-8859-1
-isvp
 it is left-over, drop it
 item index:%d
-itvp
-i|.23
 journal_mode
 journal_size_limit
 julianday
+k(%d
 k8BitOffsetBinaryFormat
-kU'9
 kart
 kdev[%d] in_use[%d]  handle[%d] 
 kernel32.dll
 key size = %d
 key to send = %02x, i = %d
 keybd_event
-kfq|_REH
-knil
-l,kg<i
 l2c_ble_link_adjust_allocation  num_hipri: %u  num_lowpri: %u  low_quota: %u  round_robin_quota: %u  qq: %u
 l2c_ble_link_adjust_allocation LCB %d   Priority: %d  XmitQuota: %d
 l2c_bypass_sframe_packet (count %d)
@@ -19067,7 +18993,6 @@ language not specified
 language=%d
 large file support is disabled
 last_insert_rowid
-lbts
 lbvp
 ldexp
 leftshift_onebit 
@@ -19097,10 +19022,7 @@ linkkey = %02x:%02x:%02x:%02x:%02x:%02x
 list<T> too long
 list_cnt=%d
 little_endian
-lmn%E
-lmnF
 lmnopjk1
-lmns
 lmpopcode16
 lmpopcode8
 load_extension
@@ -19118,7 +19040,6 @@ locking_mode
 log10
 low alert
 lower
-lpHP
 lstrcmpA
 lstrcmpW
 lstrcmpiA
@@ -19321,7 +19242,6 @@ no such trigger: %S
 no such vfs: %s
 no such view
 no tables specified
-no\t@ABDEpqtuv}
 no_buffer_space
 no_inc_ssp=%d
 no_protocol_option
@@ -19393,7 +19313,6 @@ num_trip:%d, option_userid:%d
 num_variant:%d, num_attach:%d
 number of columns in foreign key does not match the number of columns in the referenced table
 number-sets
-o8,I
 object name reserved for internal use: %s
 obx offset=%d byte_left=%d
 obx_add_port handle:0x%x
@@ -19496,7 +19415,6 @@ obx_stop_timer p_tle:0x%x
 obx_unauthorize_rsp: %d
 obx_verify_request opcode 0x%x: final:%d
 obx_verify_target rsp: %x, id:%x, code:%x
-octsp
 offset =0x%x len=%d
 offset: 0x%x ssn:%d obj_offset:0x%x srm:0x%x
 offset:%d
@@ -19562,8 +19480,7 @@ output-area-almost-full
 output-area-full
 owner
 owner dead
-p4Dw
-pAEGHIJKLMNOPQRS\vUVWXYZ[\]^_
+p: %s
 pContext
 pEvents
 pExecutionResource
@@ -19643,8 +19560,6 @@ pbc_xml_vlist_parse: Out of Resources,discard partial data.
 pbc_xml_vlist_parse: XML_VlistInit\r\n
 pbc_xml_vlist_parse: XML_VlistParse ( final:%d, status:%d, len:%d entries %d): %d\r\n
 pbc_xml_vlist_parse: allocate buffer No.[%d], entry %d\r\n
-pcqd
-pcqs@
 pdts
 pdu:x%x
 peer DHKey check calculation failed
@@ -19677,7 +19592,6 @@ photographic-high-gloss
 photographic-matte
 photographic-satin
 photographic-semi-gloss
-piks
 pixel
 pixel is required (img-desc)
 pixel is required (img-fmt)
@@ -19803,16 +19717,11 @@ psc_mask x%x
 psc_mask: cfg: 0x%x, req:0x%x, cur: 0x%x
 psc_mask=0x%x elem_len=%d
 psow
-ptds
-pytf
 qualified table names are not allowed on INSERT, UPDATE, and DELETE statements within triggers
 query_only
 quick_check
 quot
 quote
-r@CMFCRibbonPanelMenu
-rLp>B
-raB3G
 random
 random: 0x%02x, round: %d, i: %d, j: %d
 randomblob
@@ -19989,9 +19898,6 @@ rfc_port_timer_start - timeout:%d
 rfc_port_timer_stop
 rfc_timer_start - timeout:%d
 rfc_timer_stop
-rldh
-rmad
-rmas0
 rmt_io_caps:%d, sec_flags:x%x, dev_class[1]:x%02x
 roam
 role:x%x
@@ -20012,13 +19918,10 @@ rsp_code:x%x, file:%s
 rsp_code:x%x, reqd:%d
 rssi reading: %02x
 rssi value %d
-rtib
 rtrim
 run away item index:%d
 run_sm:%d event: 0x%x
 running_counts
-s1q4
-s4pm
 s_hdl = %d num_handle = %d
 s_hdl=%d e_hdl=%d type=0x%x svc_inst=%d sdp_hdl=0x%x
 samp_freq: x%x, x%x
@@ -20052,7 +19955,6 @@ sco rx data timeout (%d ms)
 sco_dump
 screen
 screen-paged
-sdoi
 sdp_cb
 sdp_config_ind(CONFIG) -> Please try again with BASIC mode
 sdp_config_ind(CONFIG) -> Please try again with SMALLER TX WINDOW
@@ -20064,7 +19966,6 @@ sdp_set_max_attr_list_size
 sdpu_build_partial_attrib_entry cannot get a buffer!
 sdpu_compare_bt_uuids
 sdpu_get_len_from_type
-sdse
 search_services = 0x%08x ble_services = 0x%08x
 sec mode: %d sm4:x%x
 sec_flags:0x%x
@@ -20125,14 +20026,12 @@ set random address failed
 set srv_changed to TRUE
 setting BTM_SEC_NAME_KNOWN sec_flags:0x%x
 sf %d num of channels %d bytes per tick period %d
-sfmw0
 shared
 shdl:%d, srch:%d
 short_column_names
 shrink_memory
 signal
 signature received with out dated sign counter
-sila`jN
 sinh
 size
 size %d
@@ -20369,7 +20268,6 @@ ssn:%d resume ssn:%d
 ssn:%d resume ssn:%d, op:%d
 ssn:0x%x
 ssn:0x%x/0x%x
-ssts`
 stackNVRAM
 standard-print
 start
@@ -20415,7 +20313,6 @@ status:0x%x
 status=%d
 status=%d 
 status=%d bta_mse_add_body_contents
-stde
 stereo
 stoi argument out of range
 stop
@@ -20432,8 +20329,6 @@ stretch
 strftime
 string or blob too big
 string too long
-sttc
-stts
 subclass = 0x%2x
 subject
 subject = "<%s>"\n
@@ -20455,7 +20350,6 @@ sync_info.path=%s
 synchronous
 syntax error
 system
-szahW^EL
 tBTM_SEC_DEV:0x%x rs_disc_pending=%d
 tU6p
 tab-stock
@@ -20473,7 +20367,6 @@ table %s may not be modified
 table %s: xBestIndex returned an invalid plan
 table contains no data
 table_info
-tadm
 tanh
 target_bda = %02X%02X%02X%02X%02X%02X, target_name = %s, connect_time = %d
 taskit GmbH
@@ -20559,7 +20452,6 @@ timer adjusted: adjust = %d, to_read = %d
 timer resolution value %d
 title: %s
 tlen = %d p_mac = %d
-tnih
 too many SQL variables
 too many arguments on function %T
 too many attached databases - max %d
@@ -20591,13 +20483,9 @@ trigger
 trigger %T already exists
 trim
 trimming
-trpc@
-trtb
 true
 truncate
 ts: x%x, ntp: 0x%x.x%x, m%d, %d
-tsle
-tvz|
 two-sided-long-edge
 two-sided-short-edge
 tx size not multiple of frag size : %d
@@ -20612,7 +20500,6 @@ type='trigger' AND (%s)
 type='trigger' AND name='%q'
 typeof
 u-law log synchronous data
-uZEeu
 uavp
 ucodec_alloc_buffer -> buffer too small: BufSize %d, Offset %d, len %d
 ucodec_dump_buffer full-> codec: Offset %d buf_size %d
@@ -20758,8 +20645,6 @@ usrt
 utf8
 uuid128
 uuid16
-v4pm
-v;VN
 vCal 1.0
 vCal 2.0
 vCard 2.1
@@ -20802,14 +20687,12 @@ voip.test@broadcom.com
 voip1.sample@broadcom.com
 voip2.sample@broadcom.com
 voip3.sample@broadcom.com
-voom
 vrbi-stage.htcvive.com
 vrbi.htcvive.com
 vtab:%p
 vtable constructor called recursively: %s
 vtable constructor did not declare schema: %s
 vtable constructor failed: %s
-vxjdN@R\
 vyzybl Inc.
 wBitsPerSample  %d
 wFormatTag      %d
@@ -20948,21 +20831,13 @@ xml_ml_parse obj: %x, max: %d, num: %d, res: %d
 xml_ml_proc_attr: bad name:%s
 xml_ml_proc_tag: bad name:%s
 xmlns
-xppwpp
-xpxxxx
 yIr-{b2$
 year
 yikes
 ypkb]TOF
-z;7q
-z?aUY
-zc%C1
 zer01.tv
 zeroblob
 zeroblob(%d)
-zqlgV]@K")4?
-zsts
-ztfhBL^P\n
 {"metadata":[{"action":"disconnect"}],"msg_type":"bsp"}
 {"metadata":[{"action":"unpair"}],"msg_type":"bluetooth"}
 {"metadata":{"enable":false},"msg_type":"auto_reconnect"}
@@ -20975,9 +20850,6 @@ ztfhBL^P\n
 {"msg_type":"filters"
 {"msg_type":"filters","metadata":[{"phonecall":true},{"sms":true},{"calendar":true}]}
 {%02x:%02x:%02x:%02x:%02x:%02x}
-{pmfW\AJ#(5>
-|23ab
-|ungXQJC4=&/
 ~ANCSServer, Close ANCS pipe failed\n
 ~ANCSServer, Close ANCS pipe success\n
 ~ANCSServer, Close ANCS send pipe failed\n

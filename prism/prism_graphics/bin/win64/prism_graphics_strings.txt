@@ -140,7 +140,6 @@
 8c8f13b1-60eb-4b6a-a433-de86104115ac
 8d8f13b1-60eb-4b6a-a433-de86104115ac
 8e8f13b1-60eb-4b6a-a433-de86104115ac
-;C:\workspace\vr\steamvr\main\src\thirdparty\renderpipelineshaders\src\runtime\common\rps_render_graph.cpp
 <unknown>
 ??0?$codecvt@_WDU_Mbstatet@@@std@@QEAA@_K@Z
 ??4?$_Yarn@D@std@@QEAAAEAV01@PEBD@Z
@@ -158,7 +157,6 @@
 ?_Throw_Cpp_error@std@@YAXH@Z
 ?_Xbad_function_call@std@@YAXXZ
 ?_Xlength_error@std@@YAXPEBD@Z
-?ffv?
 ?id@?$codecvt@_WDU_Mbstatet@@@std@@2V0locale@2@A
 ?in@?$codecvt@_WDU_Mbstatet@@@std@@QEBAHAEAU_Mbstatet@@PEBD1AEAPEBDPEA_W3AEAPEA_W@Z
 ADVAPI32.dll
@@ -166,6 +164,7 @@ ASSERT: "%s" at %s:%d.\n
 AddStage and CopyStages are mutually exclusive.
 Already initialized
 Blank
+C:\workspace\vr\steamvr\main\src\thirdparty\renderpipelineshaders\src\runtime\common\rps_render_graph.cpp
 C:\workspace\vr\steamvr\main\src\thirdparty\renderpipelineshaders\src\runtime\vk\rps_vk_runtime_backend.cpp
 CPrismNode_CompositeLayersCompute::Initialize
 CPrismNode_CompositeLayersGraphics::Initialize
@@ -316,7 +315,6 @@ QueryPerformanceCounter
 RPCRT4.dll
 RPSM
 RPSMt
-RSDS
 RaiseException
 ResetEvent
 Right Eye
@@ -361,7 +359,6 @@ Warning: Watchdog %s not properly cleaned up%s%s\n
 [CPrismNode_CompositeLayersGraphics] Failed to initialize composite graphics pipeline
 [CPrismNode_PanelMaskCompute] Failed to initialize panel mask
 [CPrismRenderGraphFactory] Failed to initialize volk: %i
-[OiR
 [PrismNode_CompositeLayersGraphics] Failed to get renderpass: %i
 [PrismNode_CompositeLayersGraphics] Failed to initialize composite graphics pipeline
 [PrismNode_PanelMaskGraphics] Failed to initialize panel mask

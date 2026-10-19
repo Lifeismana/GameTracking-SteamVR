@@ -93,24 +93,35 @@
 #OriginString_HandController
 #OriginString_HandSource
 #OriginString_Source
-$3br
-%&'()*456789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
+%%.%dg
+%.*Lf
+%.2X
 %LocalAppData%
 %Y-%m-%d-%p_%I_%M_%S
 %a %b %d %H:%M:%S %Y
 %a %b %d %Y %H:%M:%S.%%06u
 %d drivers initialized for watchdog mode.\n
+%d.%d.%d
 %lld:%lld
 %llu
 %s %s startup with PID=%u, config=%s, runtime=%s, arch=%s\n
 %s (%X)-> %s\n
 %s View
 %s called without first releasing previous slot!
+%s%c%s
+%s%d
+%s%s%s%s%s
+%s%s\n
+%s-%d
 %s-CommandBuffer-%d
 %s-Depth
 %s-Image
 %s-ImageView
 %s-Memory
+%s.x
+%s.y
+%s.z
+%s: %s
 %s: %s #%d already pending acquire
 %s: %s #%d already pending release
 %s: %s #%d already pending release (lock)
@@ -299,8 +310,9 @@ $3br
 %s:ForceAcquireImageTimeline
 %s:SyncTexture
 %s:Timeline
+%s_%3d
+%s_%s%s
 %u prior
-&'()*56789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
 ' is not a number.
 ' property is missing
 ' property is missing in 
@@ -1101,7 +1113,6 @@ $3br
 11CVRIOBuffer
 11CVkTimeline
 11IVRRenderer
-11eU%
 12CLegacyInput
 12CNonCopyable
 12CSxrInstance
@@ -1844,13 +1855,13 @@ $3br
 9CSxrSpace
 9CVkBuffer
 9CVkMemory
-9a&g
 : exception thrown in JSON library
 : one or more FS callback not set
 ::GetSystemBaseTicks() == m_pRequirementsClient->GetCompositorBaseTicks()
 ; expected 
 ; last read: '
 <NONE>
+<U+%.4X>
 <discarded>
 <invalid handle>
 <non-buildbot build>\n
@@ -3355,7 +3366,6 @@ Low Power Watchdog Not Supported (129)
 MAT2
 MAT3
 MAT4
-MGiI
 MSFT_lod
 MakeThreadHighPriority
 MakeThreadHighPriorityWithPID
@@ -3621,6 +3631,7 @@ NSt8__detail15_BracketMatcherISt12regex_traitsIcELb1ELb1EEE
 NSt8ios_base7failureB5cxx11E
 NSt8ios_base7failureE
 NV12
+NVIDIA
 Neither required `bufferView` nor `uri` defined for image[
 NextScanout: %dus NextScanoutIllumination: %dus ScanoutInterval: %dus
 No Error (0)
@@ -3692,7 +3703,6 @@ PFbcE
 PFvPKcS0_jbPvPbE
 PICT
 PN4Json9ExceptionE
-PNG\r\n
 POSITION
 PRESSURE_VESSEL_RUNTIME
 PS_AURORA
@@ -3955,8 +3965,6 @@ PropertyContainerCreation
 Protocol message was modified concurrently during serialization.
 Purging all shared textures because the connection to vrserver was lost\n
 QT_PLUGIN_PATH
-QkkXa
-Qkkbal
 QueryPerformanceMetricsCounterMETA was passed a known path but has no logic to handle it (%s)
 QuickCalibratePlayspace %d\n
 QuickCalibratePlayspace %f %f %f
@@ -3964,6 +3972,7 @@ QuickCalibratePlayspace couldn't get a pose from the HMD\n
 RADV
 RGBAdobe
 RTTimeUSecMax
+Radeon
 RadialMenu missing X axis input.\n
 RadialMenu missing Y axis input.\n
 RadialMenu setting 'num_buttons' not specified.\n
@@ -4385,7 +4394,6 @@ Translating path: %s\t%s
 Tuesday
 Turning on pipe debugging at the server's request\n
 Tutorial
-U1(\Q
 UNKNOWN_ERROR
 USB Service Busy (140)
 USER
@@ -6214,7 +6222,6 @@ XrProto:loop:timeout!
 XrProto:suspended
 XrQueryPerformanceMetricsCounterMETA was passed a counter struct with the wrong type member.
 XrQueryPerformanceMetricsCounterMETA was passed a null counter pointer.
-Zjz\v
 [%s] %s=%lu tgid=%d file=%s %s
 [AnimSkeleton] Failed to load GLTF file: %s
 [CAdaptiveQuality:XR_META_recommended_layer_resolution] Default quality level: %i (%.2f)
@@ -6531,8 +6538,6 @@ Zjz\v
 [xrRenderModel] renderModelIdCountOutput was nullptr
 [xrRenderModel] session is not running
 \nDDS 
-\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t
-\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t
 \u%04x
 \u%04x\u%04x
 \ufffd
@@ -6542,6 +6547,7 @@ Zjz\v
 ] is not a JSON object.
 ],"subtype":
 ^$\.*+?()[]{}|
+_%lx_%d
 _Accum
 _Fract
 _GLOBAL_
@@ -7392,7 +7398,6 @@ https://
 hu_hu
 hungarian
 hyphen
-i]Wb
 icon_steamvr_desktopgame.png
 iconv
 iconv_close
@@ -7610,7 +7615,6 @@ long_press_expiry
 loop
 lower
 lseek64
-mSx@
 m_acquireMutexes.size() == m_acquireKeys.size()
 m_acquireMutexes.size() == m_acquireTimeouts.size()
 m_acquiredFrameIndices.size() > 0
@@ -9692,7 +9696,6 @@ wmemcmp
 wmemcpy
 wmemmove
 wmemset
-wn>Jj
 worldScale
 wrapS
 wrapT
@@ -9883,13 +9886,13 @@ xrconformance/driver
 y_path
 yfov
 ymag
-z^KD
 zero
 zfar
 zh_cn
 zh_tw
 zlib corrupt
 znear
+{%s}%s
 {default arg#
 {lambda(
 {parm#

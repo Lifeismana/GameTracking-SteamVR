@@ -24,6 +24,7 @@ $eoYi
 *nr\fx
 *pAa
 ,!rer
+,%sv\t
 ,1-:-C-L-U-c-k-s-
 ,s+li
 -*r2g
@@ -1776,6 +1777,7 @@ ZoneMinute
 \fMf7!
 \f\v\f \fC\fS\fn\fu\f
 \l6b
+\n&%sm
 \n*fsk
 \n,\vL\vq\vt\vw\v
 \n2\vrH

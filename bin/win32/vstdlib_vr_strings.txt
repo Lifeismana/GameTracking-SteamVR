@@ -1,7 +1,4 @@
                           
-   ! " % & ' : < G H I 
- !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
- !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
  Base Class Array'
  Base Class Descriptor at (
  Class Hierarchy Descriptor'
@@ -15,21 +12,22 @@
  delete
  delete[]
  new
-!AxU
-".dll
-#FLR
-#tDq
-$\nY8O
 %$%a%b%V%U%c%Q%W%]%\%[%
+%%.%if%s
+%.*s://%s
 %.18g
 %0.8X%0.4X%0.4X%0.2X%0.2X%0.2X%0.2X%0.2X%0.2X%0.2X%0.2X
 %0.8X-%0.4X-%0.4X-%0.2X%0.2X-%0.2X%0.2X%0.2X%0.2X%0.2X%0.2X
+%4%,%
 %8X%4X%4X%2X%2X%2X%2X%2X%2X%2X%2X
 %8X-%4X-%4X-%2X%2X-%2X%2X%2X%2X%2X%2X
 %<%^%_%Z%T%i%f%`%P%l%g%h%d%e%Y%X%R%S%k%j%
+%i%s
 %lld
 %s not implemented
 %s overflow!\n
+%s%s
+%s=%s
 &AElig;
 &Aacute;
 &Acirc;
@@ -54,7 +52,6 @@ $\nY8O
 &Oslash;
 &Otilde;
 &Ouml;
-&Sgw
 &THORN;
 &Uacute;
 &Ucirc;
@@ -72,7 +69,6 @@ $\nY8O
 &atilde;
 &auml;
 &brvbar;
-&bzi
 &ccedil;
 &cedil;
 &cent;
@@ -135,12 +131,10 @@ $\nY8O
 &yacute;
 &yen;
 &yuml;
-( 8PX
 (main)
 (no name set)
 (none)
 (null)
-+ulsX
 ----------------------------------------\n
 .00cfg
 .?AV?$CUtlHashMap@PBD_NVCDefCaselessStringEquals@@UHashFunctorStringCaseless@@@@
@@ -191,6 +185,7 @@ $\nY8O
 .bss
 .data
 .data$r
+.dll
 .edata
 .idata$2
 .idata$3
@@ -211,48 +206,18 @@ $\nY8O
 .text$mn
 .text$yd
 .xdata$x
-.y4w
-0,d?M
-0-d?y
 0123456789ABCDEF
 0123456789abcdef
-01d?
-0;0A0C0E0G0I0c0
-0F`8
-0\n0\f0
-0\t0\v0\r0
-0d?F
-0d?p
 0x%4.4X is both the source and destination of a normalization mapping
-0xc?
-0yc?
 1#IND
 1#INF
 1#QNAN
 1#SNAN
-1c?h
-1d?sinh
-2c?,2c?
-30!]^JV
-49fN
-4Ad?
-52F*
-5M[g
-5T&w&
 5s3R6=
-6 PQ
 700WP
-7~8A
-81d?
-8\foQS
-8xc?
-8yc?
-8zc?
-9a&g
 </script>
 <PSU
 <empty>\n
-=87M
 ?5Wg4p
 ??0?$CDbgFmtSafeImplT@$00@@QAE@PAUDbgFmtFatalMsgTag_t@@PBD@Z
 ??0?$CDbgFmtSafeImplT@$00@@QAE@PBD@Z
@@ -358,10 +323,6 @@ $\nY8O
 ?V_stristr@@YAPBDPBD0@Z
 ?ValidateStatics@CStringNormalization@@SAXAAVCValidator@@PBD@Z
 ?ValidateStatics@CURLUtils@@SAXAAVCValidator@@PBD@Z
-?d? ra?vstdlib_s.dll
-?{fHn
-@0d?i
-A@qVc"
 ABCDEFGHIJKLMNOPQRSTUVWXYZ
 ACADEMY
 ACCOUNTANTS
@@ -379,7 +340,6 @@ ATTORNEY
 AUCTION
 AUDIO
 AUTOS
-Ad?X@d?
 April
 AssertMsgImplementation
 Assertion Failed: !(nStringCaseFlags & STRINGCASE_FLAG_TURKISH)
@@ -516,7 +476,6 @@ BUILD
 BUILDERS
 BUZZ
 Bucket size : count\n
-C-Yn
 CAMERA
 CAMP
 CANCERRESEARCH
@@ -565,6 +524,7 @@ COOKING
 COOL
 COOP
 COUNTRY
+CPathString
 CREDIT
 CREDITCARD
 CRUISES
@@ -597,10 +557,8 @@ Coroutine_YieldToMain
 CreateFileW
 CreateInterface
 CreateVProfile
-D*d?J
 DANCE
 DATING
-DAd?LAd?
 DEALS
 DEGREE
 DEMOCRAT
@@ -614,11 +572,9 @@ DIRECTORY
 DISCOUNT
 DOMAINS
 DURBAN
-D\vvf:
 DebugStatsSystem
 December
 DeleteCriticalSection
-Dzc?
 EDUCATION
 EMAIL
 ENGINEER
@@ -636,9 +592,7 @@ Error State on string being set.
 ExitProcess
 FAIL
 FARM
-FCZ&
 FEEDBACK
-FEMh\f
 FINANCE
 FINANCIAL
 FISH
@@ -718,10 +672,6 @@ GetStdHandle
 GetStringTypeW
 GetSystemTimeAsFileTime
 GetVersionExA
-H$6t
-H*0"ZOW
-H-d?f
-H1d?
 HAMBURG
 HAUS
 HH:mm:ss
@@ -733,7 +683,6 @@ HORSE
 HOST
 HOUSE
 HeapAlloc
-Hxc?
 IMMOBILIEN
 IND)ind)S
 INDUSTRIES
@@ -759,7 +708,6 @@ JETZT
 JOBS
 JOBURG
 JUEGOS
-JZJ{.
 January
 July
 June
@@ -769,12 +717,9 @@ KITCHEN
 KIWI
 KOELN
 KRED
-K`?@L`?@L`?pL`?
 KeyValues::RecursiveSaveToFile: TODO, missing code for TYPE_COLOR.\n
 KeyValuesSystem()
 KeyValuesSystemSteam
-L0d?o
-L1d? 
 LACAIXA
 LAND
 LAWYER
@@ -792,7 +737,6 @@ LONDON
 LOTTO
 LUXE
 LUXURY
-L`?VEngineCvar002
 Leaked KeyValues (%u):\n
 LeaveCriticalSection
 Linux
@@ -813,7 +757,6 @@ Linux 4.x
 LoadLibraryExW
 LocaleNameToLCID
 Lyc>=
-Lyc?
 MAISON
 MANAGEMENT
 MANGO
@@ -823,7 +766,6 @@ MEDIA
 MEET
 MELBOURNE
 MENU
-MGiI
 MIAMI
 MINI
 MM/dd/yy
@@ -861,15 +803,12 @@ NEUSTAR
 NINJA
 NULL buffer passed to V_atof()
 NULL buffer passed to V_atoi()
-N`?PN`?c:\buildslave\vrpanorama_main_win32\build\src\vstdlib\debugstatssystem.cpp
 Not continuing coroutine due to g_bPreventCoroutineContinue, %s
 November
 OKINAWA
 ORGANIC
 OSTypesAreCompatible
 October
-P.d?X
-P1d?\f
 PARIS
 PARTNERS
 PARTS
@@ -895,13 +834,9 @@ Plat_OutputDebugString
 Plat_OutputDebugStringRaw
 Plat_RelativeTicks
 PureClass
-Pxc?
-Pzc?
 QPON
 QUEBEC
-Qkkbal
 QueryPerformanceCounter
-R1h58
 RECIPES
 REHAB
 REISE
@@ -915,7 +850,6 @@ REVIEWS
 RICH
 ROCKS
 RODEO
-RSDSHl#
 RUHR
 RYUKYU
 RaiseException
@@ -931,7 +865,6 @@ SEXY
 SHIKSHA
 SHOES
 SINGLES
-SKyu
 SNAN)
 SOCIAL
 SOFTWARE
@@ -958,12 +891,11 @@ SetFileTime
 SetLastError
 SetStdHandle
 SetUnhandledExceptionFilter
-Sm"\vg
+String pool bytes used %u, max %u, %u pools\n
 StringAfterPrefix
 StringAfterPrefixCaseSensitive
 StringFindSuffix
 Sunday
-T1d?\v
 TATTOO
 TECHNOLOGY
 TIENDA
@@ -977,8 +909,6 @@ TOYS
 TRADE
 TRAINING
 TRAVEL
-T`?Pb`?Pc`?pW`?`W`?0X`?
-T`?String pool bytes used %u, max %u, %u pools\n
 Target buffer for V_URLEncode should be 3x source length, plus one for terminating null\n
 Target buffer too short to terminate\n
 Target buffer too short\n
@@ -996,7 +926,6 @@ Total of %u buckets with %u hash collisions\n
 Tuesday
 UNIVERSITY
 USER32.dll
-UUUUU
 Unbuffered read should be called with cubData length that is aligned to system page size (4kb)
 Unbuffered read should be called with pvData buffer that is aligned to system page size (4kb)
 UnhandledExceptionFilter
@@ -1005,6 +934,7 @@ VACATIONS
 VEGAS
 VENTURES
 VERSICHERUNG
+VEngineCvar002
 VIAJES
 VILLAS
 VISION
@@ -1165,7 +1095,6 @@ V_wcsncpy
 V_wcstoi64
 V_wcstoui64
 V_whextobinary
-Vc0a
 VerSetConditionMask
 VerifyVersionInfoW
 WANG
@@ -1210,8 +1139,6 @@ Windows XP
 WriteConsoleW
 WriteFile
 WriteMiniDump
-X/4B
-X0d?
 XN--3BST00M
 XN--3DS443G
 XN--3E0B707E
@@ -1277,23 +1204,13 @@ XN--XKC2DL3A5EE0H
 XN--YFRO4I67O
 XN--YGBI2AMMX
 XN--ZFR164B
-Xxc?
-Xyc?
-Xzc?
 YACHTS
 YANDEX
 YOKOHAMA
 ZONE
-Zjz\v
-[aOni*{
-\fO4W
-\nYg:a
-\rRoOs
-\tcQr
-]JldN
-^<V7w
 _DMsg
 _UaX
+__based(
 __cdecl
 __clrcall
 __eabi
@@ -1331,7 +1248,6 @@ _nextafter
 `placement delete[] closure'
 `scalar deleting destructor'
 `string'
-`tun%
 `typeof'
 `udt returning'
 `vbase destructor'
@@ -1345,17 +1261,11 @@ _nextafter
 `vector vbase copy constructor iterator'
 `vftable'
 `virtual displacement map'
-a?CPathString
-a?c:\buildslave\vrpanorama_main_win32\build\src\tier1\utlbuffer.cpp
-a\rxg[
 abcdefghijklmnopqrstuvwxyz
 acos
 asin
 atan
 atan2
-b,uZ
-b?INF
-bwiO'
 c:\buildslave\vrpanorama_main_win32\build\src\public\tier1\bitstring.h
 c:\buildslave\vrpanorama_main_win32\build\src\public\tier1\utldict.h
 c:\buildslave\vrpanorama_main_win32\build\src\public\tier1\utllinkedlist.h
@@ -1366,38 +1276,28 @@ c:\buildslave\vrpanorama_main_win32\build\src\tier1\bitstring.cpp
 c:\buildslave\vrpanorama_main_win32\build\src\tier1\fileio.cpp
 c:\buildslave\vrpanorama_main_win32\build\src\tier1\keyvalues.cpp
 c:\buildslave\vrpanorama_main_win32\build\src\tier1\mempool.cpp
+c:\buildslave\vrpanorama_main_win32\build\src\tier1\utlbuffer.cpp
 c:\buildslave\vrpanorama_main_win32\build\src\tier1\utlmemory.cpp
 c:\buildslave\vrpanorama_main_win32\build\src\tier1\utlstring.cpp
 c:\buildslave\vrpanorama_main_win32\build\src\vstdlib\Release\vstdlib_vr.pdb
 c:\buildslave\vrpanorama_main_win32\build\src\vstdlib\commandline.cpp
 c:\buildslave\vrpanorama_main_win32\build\src\vstdlib\coroutine.cpp
 c:\buildslave\vrpanorama_main_win32\build\src\vstdlib\cvar.cpp
+c:\buildslave\vrpanorama_main_win32\build\src\vstdlib\debugstatssystem.cpp
 c:\buildslave\vrpanorama_main_win32\build\src\vstdlib\keyvaluessystem.cpp
 c:\buildslave\vrpanorama_main_win32\build\src\vstdlib\parseurl.cpp
 c:\buildslave\vrpanorama_main_win32\build\src\vstdlib\stringnormalize.cpp
 c:\buildslave\vrpanorama_main_win32\build\src\vstdlib\strtools.cpp
 c:\buildslave\vrpanorama_main_win32\build\src\vstdlib\strtools_unicode.cpp
-c?__based(
 ceil
 console
 cosh
-d!d?a
-d1d?
-d8L2
-d?4Ad?
-d?pAd?
-dQy/
 dddd, MMMM dd, yyyy
-dyc?
-dzc?
 e+000
-eLK(w
-f.N%H
 fabs
 floor
 fmod
 frexp
-gAY:
 gCURLUtils_hashTLDs
 g_VProfManager
 g_VProfile
@@ -1407,26 +1307,13 @@ g_dwDllEntryThreadId
 g_mapPairs
 g_pMemAllocSteam
 getcwd_utf8
-h0'D
-h0d?
-hxc?
-i]Wb
 if\fg
-ig,o
 inity
 invalid input pointer
-k2U\v
-k=yI
-l,d?N
-l1d?
-lDa>
-lEd/
 ldexp
 linux
 log10
 lzZ?
-lzc?
-m\nXo
 m_Elements
 m_HashItemMemPool
 m_LeakTrack
@@ -1446,54 +1333,33 @@ m_vecParms[i]
 macos
 memoverride.cpp
 modf
-mwa!
 nBytesItem is %d in UtlMemory_CalcNewAllocationCount
 nTotal number of strings %u, longest string size %u, avg size %u\n
 nan(ind)
 nan(snan)
-obwQ4
 operator
 operator "" 
 operator co_await
 out of order normalization entry
-owM&
-pCRF
-pxc?
-pyc?
-qR5FE%
 restrict(
-ru&o
 script
+sinh
 snan)
 sqrt
 steam://openurl/
 steam://openurl_external/
-t)d?k
-t1d?
 tanh
 test string
 the 
 tier0_vr.dll
 unknown
 unsupported flags 0x%x passed to CFileReader::BOpenFile
-v2!L.2
+vstdlib_s.dll
 vstdlib_vr.dll
 vstdlib_wcsicmp
 vstdlib_wcsnicmp
 vstdlib_wcstoi64
 vstdlib_wcstoui64
-w+OQvr
-wXR\r
 windows
-wn>Jj
-x,d?t
-x0d?
-xpxxxx
-xxc?
-xyc?
-xzc?
-y9*O
-zC`G;
 {%0.8X-%0.4X-%0.4X-%0.2X%0.2X-%0.2X%0.2X%0.2X%0.2X%0.2X%0.2X}
 {%8X-%4X-%4X-%2X%2X-%2X%2X%2X%2X%2X%2X}
-{kHw

@@ -71,7 +71,6 @@ Photoshop ICC profile
 Playtime out of bounds
 QMngHandler::canRead() called with no device
 QMngPlugin
-RSDScV
 Reading suspended; waiting for I/O to catch up
 Requested nEED resources are not supported
 SEEK suspension; application decides

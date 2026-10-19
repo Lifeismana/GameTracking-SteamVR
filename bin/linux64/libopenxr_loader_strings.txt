@@ -34,7 +34,12 @@
  volatile
  was not found
 !!! WARNING !!! Environment variable 
+%.*Lf
+%.*f
+%.*g
 %s: __pos (which is %zu) > this->size() (which is %zu)
+%u.%u
+%u.%u.%u
 ' is not a number.
 ' will NOT be used.
 (anonymous namespace)

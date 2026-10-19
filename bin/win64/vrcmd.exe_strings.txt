@@ -1,12 +1,15 @@
     %d pose jumps > 0.5 cm\n
     %d,  %lf %lf %lf, %lf %lf %lf\n
     sensor index, position (head space), rotation xyz (degrees) (head space)\n
+  %7.3f
+  %7d
  driver 
  for detail.\n
  formatting error code 
  pose jump: %0.3f cm\n
 !!! There were %u read failures\n
 # sources = %d\n
+%%.%dg
 %-11s%10d%10d%15lf%15lf%15lf%15d\n
 %-11s%10s%10s%15s%15s%15s%15s\n
 %04x, %04x -> %s\n
@@ -14,11 +17,19 @@
 %d poses, %lf time\n
 %d,%g,%g,%g,%g,%g,%g\n
 %d: %s / %s / (%f, %f, %f) / %d\n
+%dx%d 
 %f %f %f %f\n
+%f %f %f\n
 %s : %s : %s\n
 %s play area size: \n
+%s%d
+%s%s
+%s.%s=%d\n
+%s.%s=%f\n
+%s.%s=%s\n
 %s: Unable to connect to pipe\n
 %s: failed with error '%s' (%d)
+%u != %zu
 %u applications registered\n
 %u,%g,%g,%g,%g,%g,%g\n
 ' is not a number.
@@ -657,7 +668,6 @@ Lost listen pipe %s\n
 MSVCP140.dll
 MainThrd
 MapViewOfFile
-MbP?{
 Medium Data
 Missing ',' or ']' in array declaration
 Missing ',' or '}' in object declaration
@@ -905,7 +915,6 @@ PropertyContainer: High lock acquisition counters: sp:%u yd:%u re:%u\n
 PropertyContainerCreation
 QueryPerformanceCounter
 QueryPerformanceFrequency
-RSDSf
 RaiseException
 ReadFile
 ReadFile failed on %s after event was signaled because %s\n

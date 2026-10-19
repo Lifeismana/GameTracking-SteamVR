@@ -1,4 +1,3 @@
-                                
          Card name: 
     checking  
   Color: 
@@ -24,7 +23,6 @@
  HTML=
  Image=
  Inactive: 
- Ng4
  PFD_DIRECT3D_ACCELERATED
  PFD_DOUBLEBUFFER
  PFD_DRAW_TO_BITMAP
@@ -163,7 +161,6 @@
  tracked window =
  virtual desktop
  weight=
-!]KwG
 !face_
 !isEmpty()
 !m_fontDatas.contains(key)
@@ -175,17 +172,14 @@
 !result || int(*length) > 0
 !weakref.load()
 !x->ref.isStatic()
-#*2IOu
-$27:Mcz
-$7Rz
+% xS
 %!FontType
 %!PS-Adobe-3.0 Resource-CIDFont
 %!PS-AdobeFont
 %!PS-TrueTypeFont
-%&&201<CDPber
+%.2X 
 %1 specification: v%2.%3 implementation: v%4.%5 options: 0x%6
 %ADOBeginFontDict
-%IDATx^
 %s invoked with no native dialog present.
 %s%s%p%s%zd%s%d%s%s%s%s%s
 %s: '%s' requested for null backingstore or backingstore without handle.
@@ -246,22 +240,11 @@ $7Rz
 %s: wglCreateContext failed.
 %s: wglGetPixelFormatAttribIVARB() failed for basic parameters.
 %s: wglShareLists() failed.
-&2&6&:&>&B&F&J&N&R&V0
-&nfq
-' '$'(','0'4'8'<'@0
 ' is being used without being initialized.
 ' is not available. Available formats: 
 ' was corrupted.
-'!$J$N$R$V$Z$^$b$f$j$n0
-'1nD
-'\'`'d'h'l'p't'x'|'
-'\r%2%6%:%>%B%F%J%N%R%V0
-'p\fvL
 'zO{T
-( ($(((,(0(4(8(<(@0
 (Hex)
-(Z(^(b(f(j(n(r(v(z1
-(eE\fv
 (packet
 ) for format: 
 *.otf
@@ -284,8 +267,6 @@ $7Rz
 , version=
 ,SampleBuffers
 ,Scaling=
--.9>?IJKT
--j'j2j>jU
 .        c None
 ...............XXXX.....
 .............XXaaaaXX...
@@ -430,85 +411,39 @@ $7Rz
 .?AVexception@std@@
 .?AVtype_info@@
 .AppleDouble/
-.B.F.J.N.R.V.Z.^2
 .Current/.
-.P%B.NJJNNJJ.P%*.@
-.\v1o0
 .notdef
 .null
 .resource/
 /..namedfork/rsrc
-/27:Mcz
-/5\n,6,:,>,B,F,J,N,R,V,Z0
 /Fonts
 /rsrc
 /sfnts
-0!0%0)0-014
 001.000
 001.001
 001.002
 001.003
-050s0
-0\fDQ
-1"1i3
-1*1V1[0
 1.1.4
 10646
-1:1>1B1F1J1N1R0
-1a1e1
-2)202<2U2e2
 24 30 3 1
-2C2L
-2H+h
-2IDATx^
-2q2z2
-3)323A3O3
-3h3q
-4%43
-4G4Pe
-4XeZP
-4j4r4}4
-575A
-5G5S
-5Y!2
-5_5i5p
 5gib
-646B
-6K6S
-6o6v6
-797k7
-7F7W7c
-7\n0K0O0S0W0[0_0c0g0k0o0
 8859
-8n8y
-9@9Y9`9y9
-9D`y
-9F9O
-9g9p
-9mG-
 : Invalid CLSID: 
 : Unable to convert DIB image. The image converter plugin for '
 : Unhandled scheme: 
 : on curve =
 : wglCreateContextAttribsARB() failed (GL error code: 0x
-:4\t/B/F/J/N/R/V/Z/^/b0
 :qmemoryfonts/
 ;index=
 <!--EndFragment-->
 <!--StartFragment-->
 <unknown error>
-<wt2
->7>Ba
-@Qm6t
 A cast to a smaller data type has caused a loss of data.  If this was intentional, you should mask the source of the cast with the appropriate bitmask.  For example:  \n\r\tchar c = (i & 0xFF);\n\rChanging the code in this way will not affect the quality of the resulting optimized code.\n\r
 A local variable was used before it was initialized\n\r
 A variable is being used without being initialized.
 A'qQU\v
-A*A3
-A;AAA[
 ADD_STYLE_NAME
 AEsmall
-AJAU
 ARB::choosePixelFormat
 ARB::createContext
 ARB::qSurfaceFormatFromHDC
@@ -530,7 +465,6 @@ Adieresissmall
 Agrave
 Agravesmall
 Aharoni
-AiAtA
 Andale Mono
 Andalus
 Angsana New
@@ -552,16 +486,11 @@ Automatic mouse capture
 Automatic mouse capture for missing buttondown event
 AxisLabel
 AxisType
-B5*S
-B<B{B
-BBBhhh
-BFBQB[Bb
 BITMAP
 Basic wglCreateContext gives version %d.%d
 Baskerville
 Batang
 BeUNO
-BiBr
 Bitstream Vera Sans
 Black
 BlendAxisTypes
@@ -601,9 +530,7 @@ COPYRIGHT
 CO_E_ALREADYINITIALIZED
 CO_E_NOTINITIALIZED
 CO_E_NOT_SUPPORTED
-CQCtC
 CURSORPOS 
-CWCf
 C\nM4
 Cacute
 Cannot launch '%s': There is no mail program installed.
@@ -642,7 +569,6 @@ Creating context version
 Csmall
 CursorEntry:
 CursorShape
-D&D4a
 D:\qt5\qtbase\plugins\platforms\qwindowsd.pdb
 DEFAULT_CHAR
 DEST
@@ -651,8 +577,6 @@ DEVICE_FONT_NAME
 DFKai-SB
 DFKaiSho-SB
 DFKaiShu
-DL-t(
-DWDbDgD
 DWIDTH
 Dark Courier
 David
@@ -670,7 +594,6 @@ Disabling ANGLE:
 Disabling D3D11: 
 Disabling D3D9: 
 Disabling Desktop GL: 
-DmDs
 Dotaccentsmall
 DpiAwareness=
 Droid Sans
@@ -679,15 +602,11 @@ DropAction
 Dsmall
 DwmEnableBlurBehindWindow
 DwmIsCompositionEnabled
-E+E\HTH\HfHrH
-E3EAEL
 ENCODING
 ENDCHAR
 ENDFONT
 ENDPROPERTIES
 END_SPACE
-EQC 
-ET2g(
 EVENT: hwd=
 E_ABORT
 E_FAIL
@@ -705,7 +624,6 @@ Edieresis
 Edieresissmall
 Egrave
 Egravesmall
-EnEyE
 Encoding
 EncodingScheme
 EndAxis
@@ -727,15 +645,11 @@ Event window:
 ExpansionFactor
 ExpertEncoding
 External WM_DESTROY received for 
-F'F2F>F\Fsa
 FACE_NAME
 FAMILY_NAME
-FC\r4
 FDArray
 FDBytes
-FH-H
 FIGURE_WIDTH
-FKFV
 FONT
 FONTBOUNDINGBOX
 FONTDATA
@@ -757,7 +671,6 @@ FamilyBlues
 FamilyName
 FamilyOtherBlues
 FangSong_GB2312
-FbFi
 Fixed Miriam Transparent
 FontBBox
 FontDirectory
@@ -772,19 +685,13 @@ Franklin Gothic Medium
 FreesiaUPC
 Fsmall
 FullName
-G!G&C
-G+GXGfGkGpGuG{G
 G7G;G@GEGJM
-G87M
-G9\n-.-2-6-:->-B-F-J-N-R0
 GDBytes
 GDI::choosePixelFormat
 GDI::createContext
 GL_ARB_multisample 
 GL_ARB_robustness
-GPGTB
 GPU features:
-G^GbF
 Garamond
 Gautami
 Gbreve
@@ -802,7 +709,6 @@ GpuDescription(vendorId=
 Gravesmall
 Gsmall
 Gulim
-H=HF
 HCURSOR
 HEZLOCUS
 HFONT
@@ -811,14 +717,10 @@ HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion\FontSubstitutes
 HPLTE
 Helvetica
 Helvetica Neue
-Ho\thwh
 Hsmall
 HuaTianKaiTi?
 HuaTianSongTi?
 Hungarumlautsmall
-I&I,I:IJ
-I7{^A
-IDATx^
 IEND
 IFileDialog::Advise failed
 IID_IAccessible
@@ -843,8 +745,6 @@ IID_IUnknown
 INSERTCHAR 
 ISOLatin1Encoding
 ITALIC_ANGLE
-IZgnM
-IaIrI
 Iacute
 Iacutesmall
 Icircumflex
@@ -857,7 +757,6 @@ Igravesmall
 Image is null.
 Impact
 InitializeConditionVariable
-Inr?
 Internal KeyRecorder
 Invalid value
 Invalid value set for 
@@ -871,30 +770,18 @@ IsTouchWindow
 Ismall
 Italic
 ItalicAngle
-J1J7JU
-J?JH
 JasmineUPC
 Jsmall
-JvKsK}l\tJ
-K&K8KFKQ
-KUMUX
-K^Kd
 KaiTi_GB2312
 Keyboard recorder buffer overflow, consider increasing QT_MAX_KEY_RECORDINGS
 KeyboardModifiers
 Klqt
 KodchiangUPC
 Ksmall
-L'LZa
-L0L:LA
-LHLQ
 LOGFONT
-LaLj
 LanguageGroup
 Latha
 Launching
-Lb`w
-Lc8g
 Legacy Sans Fonts
 Levenim MT
 Liberation Sans
@@ -902,7 +789,6 @@ Light
 LilyUPC
 Lobster
 Local variable used before initialization
-LrMDM
 LresultFromObject
 Lslash
 Lslashsmall
@@ -914,15 +800,12 @@ Lucida Sans Unicode
 MAX_SPACE
 MINMAXINFO maxSize=
 MIN_SPACE
-MJM|a
-MRM\Mc
 MS Gothic
 MS Legacy Fonts
 MS Mincho
 MS Shell Dlg
 MS UI Gothic
 MV Boli
-M^5X
 Macronsmall
 Mangal
 MappingScheme
@@ -942,36 +825,25 @@ Miriam
 Miriam Fixed
 Miriam Transparent
 Misc Legacy Fonts
-MjMs
 Monaco
 MouseButtons
 Msmall
-MtY&
 N$XA
-N;NHNQNkN
 NCCALCSIZE_PARAMS 
 NOMOVECARET 
 NORM_SPACE
 NOTICE
-NWNb
-N_3haO
 Narkisim
 New Monitor: 
 Normal
 Notice
-NqNy
 Nsmall
 Ntilde
 Ntildesmall
-O(hHj
-O5OFO\OgO
 OEsmall
-OIDATx^c 
 OLE_E_WRONGCOMPOBJ
-OQOV
 OS/2
 OTTO
-OY<0
 Oacute
 Oacutesmall
 Oblique
@@ -985,7 +857,6 @@ Ogravesmall
 OleSetClipboard: Failed to clear the clipboard: 0x%lx
 OleSetClipboard: Failed to set mime data (%s) on clipboard: %s
 Omega
-OpOti
 OpenGL 1.x entry points not found
 OpenGL 2.0 entry points available
 OpenGL 2.0 entry points not found
@@ -1001,23 +872,17 @@ Osmall
 OtherBlues
 Otilde
 Otildesmall
-P.P5
-PAPU
 PDBOpenValidate5
 PIXELFORMATDESCRIPTOR 
 PIXEL_SIZE
 PLTE
 PMingLiU
-PNG\r\n
 POINT_SIZE
 Packet #
 PaintType
 Palatino Linotype
-PmXh]=b
 Private
 Psmall
-Q)Q7QWQ
-Q=QH
 QApplication::regClass: Registering window class '%s' failed.
 QFlags(
 QFontDatabase: Cannot find font directory %s - is Qt installed correctly?
@@ -1211,15 +1076,12 @@ QWindowsWindow::setWindowState_sys
 QWindowsWindow::setWindowTitle
 QWindowsXpNativeFileDialog
 Q_ASSUME()
-Q_Qd
 Q_UNREACHABLE was reached
 Q_UNREACHABLE()
 Qsmall
 Qt: Internal keyboard buffer overflow
 Qt: Using WGL and OpenGL from
 QtMetaTypePrivate::QSequentialIterableImpl
-R%R<RqS
-R+R2
 RAW_ASCENT
 RAW_AVERAGE_WIDTH
 RAW_AVG_CAPITAL_WIDTH
@@ -1248,7 +1110,6 @@ RAW_SUPERSCRIPT_Y
 RAW_UNDERLINE_POSITION
 RAW_UNDERLINE_THICKNESS
 RAW_X_HEIGHT
-RC%jA
 RECT: left/top=
 RELATIVE_SETWIDTH
 RELATIVE_WEIGHT
@@ -1256,12 +1117,9 @@ RESOLUTION
 RESOLUTION_X
 RESOLUTION_Y
 RESULTSTR 
-RFRQR\Rf
 RPC_E_CHANGED_MODE
 RPC_E_THREAD_NOT_INIT
 RPC_E_WRONG_THREAD
-RSDS[v
-RX0e
 Raavi
 Ready:
 RegCloseKey
@@ -1283,8 +1141,6 @@ Role:
 Roman
 Rsmall
 Run-Time Check Failure #%d - %s
-S%S?a
-S+S6
 SDBytes
 SETWIDTH_NAME
 SHCreateItemFromIDList
@@ -1294,10 +1150,8 @@ SHGetKnownFolderIDList
 SHGetStockIconInfo
 SIZE
 SLANT
-SLSnSzS
 SMALL_CAP_SIZE
 SPACING
-SRSd
 STARTCHAR
 STARTFONT
 STARTPROPERTIES
@@ -1310,7 +1164,6 @@ SUPERSCRIPT_SIZE
 SUPERSCRIPT_X
 SUPERSCRIPT_Y
 SWIDTH
-S[bH
 S_FALSE
 S_OK
 Scaron
@@ -1370,13 +1223,8 @@ Supplement
 Sylfaen
 Symbol
 Synthetic leave for 
-T#T.Tk
-T4T;
-TETNTc
 THEZOCQS
-THxV
 TPLTE
-TTT[
 Tablet PC:
 Tablet support: 
 TabletDevice id:
@@ -1403,11 +1251,9 @@ Tsmall
 Tunga
 Type 1
 Type 42
-UEUeUt
 UIDBase
 UNDERLINE_POSITION
 UNDERLINE_THICKNESS
-U\r8r+
 Uacute
 Uacutesmall
 Ubuntu
@@ -1438,8 +1284,6 @@ UnregisterTouchWindow
 UpdateLayeredWindow
 UpdateLayeredWindowIndirect
 Usmall
-V$VYW
-V,V7VB
 VVector
 Value
 Verdana
@@ -1447,15 +1291,10 @@ Verdana Clones
 Verdana and Clones
 Version
 Version:1.0\r\nStartHTML:0000000107\r\nEndHTML:0000000000\r\nStartFragment:0000000000\r\nEndFragment:0000000000\r\n\r\n
-VgVrV
-Vh`D
 Vsmall
-W$W>WBWSW
 W'tVa
-W,W6
 WEIGHT
 WEIGHT_NAME
-WJ?,C
 WM_ACTIVATE
 WM_ACTIVATEAPP
 WM_APPCOMMAND
@@ -1548,7 +1387,6 @@ WakeAllConditionVariable
 Webdings
 Weight
 WeightVector
-WiWr
 Width
 WinDisc
 WindowCreationData: 
@@ -1564,36 +1402,22 @@ Wrote
 Wsmall
 X        c #FFFFFF
 X7iii9P
-XCXVXac
-XClK
 XHeight
 XIDATx^c
-XIXP
 XJQ\vx
 X_HEIGHT
 Xsmall
-YFDAt
-YLYVh
-Y]Ym[u[
 Yacute
 Yacutesmall
 Ydieresis
 Ydieresissmall
-YeYii
 Ysmall
-Z!Z1
-ZDZUZ]Zj
 Zcaron
 Zcaronsmall
-ZkHm~
 Zsmall
 Z{\r\n    "name": "Qt built-in GPU driver blacklist",\r\n    "version": "5.5",\r\n    "entries": [\r\n        {\r\n            "id": 1,\r\n            "description": "Desktop OpenGL is unreliable on some Intel HD laptops (QTBUG-43263, QTBUG-42240)",\r\n            "vendor_id": "0x8086",\r\n            "device_id": [ "0x0A16" ],\r\n            "os": {\r\n                "type": "win"\r\n            },\r\n            "driver_version": {\r\n                "op": "<=",\r\n                "value": "10.18.10.3277"\r\n            },\r\n            "features": [\r\n                "disable_desktopgl"\r\n            ]\r\n        }\r\n    ]\r\n}\r\n
-[#[/[:[[[c[n
 [0-9A-Fa-f]{8}-[0-9A-Fa-f]{4}-[0-9A-Fa-f]{4}-[0-9A-Fa-f]{4}-[0-9A-Fa-f]{8}
-\!\(\A\\\~\
 \Fonts\
-\f(\f6\fC\fP\f_\fn\f|\f
-\fQ0D
 \n         Device ID: 0x
 \n         SubSys ID: 0x
 \n         Vendor ID: 0x
@@ -1615,24 +1439,14 @@ Z{\r\n    "name": "Qt built-in GPU driver blacklist",\r\n    "version": "5.5",\r
 \n  topLevel=
 \n from 
 \n resulting 
-\n"\n)\n7\nA\nH\nS\nc\np\n|\n
 \nAddress: 0x
 \nAllocation number within this function: 
 \nExtensions: 
 \nFormat: 
 \nSize: 
-\nZmG
 \nrequested: 
-\r%\r1\rB\rQ\rZ\rf\rr\r~\r
-\rIDATx^
 \rIHDR
-\rVXE
-\t \t$\t6\tI\tY\th\ts\tz\t
-\t49Z
-\t89Q&
-\v"\v,\v9\vE\vR\v[\ve\vr\v
 ]/qNn
-^a=Wl
 _MULE_BASELINE_OFFSET
 _MULE_RELATIVE_COMPOSE
 _XFREE86_GLYPH_RANGES
@@ -1665,10 +1479,7 @@ _q_windowsDropShadow
 `anonymous-namespace'::CustomFontFileLoader::CustomFontFileLoader
 `anonymous-namespace'::DirectWriteFontFileLoader::CreateStreamFromKey
 a        c #000000
-a'aCaYb"b8b
-a-a8
 a.....aXXa..............
-aJaP
 aXXXXXXXXXa.............
 aXXXXXXXXa..............
 aXXXXXXXa...............
@@ -1682,7 +1493,6 @@ aXXa....................
 aXXaaXXa................
 aXa.....................
 aXa..aXXa...............
-a\ft/tOtet
 aa......................
 aa...aXXa...............
 aacute
@@ -1697,7 +1507,6 @@ acircumflex
 acute
 addFontToDatabase
 adieresis
-aeam
 agrave
 ahoj
 allowedEffects=0x
@@ -1721,13 +1530,6 @@ atilde
 attributes
 auto
 autofitter
-b(b0
-bBbMb
-bONI
-bTbm
-b\fp\v0
-b\rVBP
-b^be
 ba.ref.isStatic()
 backslash
 bad allocation
@@ -1775,13 +1577,8 @@ bsuperior
 bullet
 button:
 buttons
-bwb~
-c c2
 c.bitmap()
 c.mask()
-c7cPc
-c>cG
-cZcccqc
 cacute
 called with
 capacity() >= asize
@@ -1862,7 +1659,6 @@ d->data()
 d->size == asize
 d3d11
 d3d9
-d6d?a
 d:\qt5\qtbase\include\qtcore\../../src/corelib/global/qglobal.h
 d:\qt5\qtbase\include\qtcore\../../src/corelib/kernel/qmetatype.h
 d:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qbytearray.h
@@ -1879,8 +1675,6 @@ d:\qt5\qtbase\include\qtcore\5.5.0\qtcore\private\../../../../../src/corelib/too
 d:\qt5\qtbase\include\qtgui\5.5.0\qtgui\private\../../../../../src/gui/painting/qdrawhelper_p.h
 d:\qt5\qtbase\include\qtgui\5.5.0\qtgui\private\../../../../../src/gui/text/qfragmentmap_p.h
 d:\qt5\qtbase\src\plugins\platforms\windows\accessible\qwindowsmsaaaccessible.h
-dX&L
-d]dbdpdyd
 dagger
 daggerdbl
 darkening-parameters
@@ -1888,7 +1682,6 @@ dcroat
 default-script
 degree
 desktop
-dhdl3
 dialogs=
 dieresis
 directWriteFont
@@ -1917,11 +1710,7 @@ dragmovecursor_64.png
 dropAction=
 dsuperior
 dwFlags=
-e e%e.e=eM
-eZe}e
-e\rxG+E\4XR
 eacute
-ebegeq
 ecircumflex
 edieresis
 eexec
@@ -1951,11 +1740,7 @@ exclam
 exclamdown
 exclamdownsmall
 exclamsmall
-f!f=fEfwf
-f'f5
 fEscapePressed=
-fPfo
-fWfc
 fails
 fallback-script
 ffffff
@@ -1987,8 +1772,6 @@ foursuperior
 fraction
 franc
 freetype
-g5g>gK
-gZgnhKhWhci
 gamma: 
 gbreve
 germandbls
@@ -2058,23 +1841,16 @@ guillemotleft
 guillemotright
 guilsinglleft
 guilsinglright
-h>5q
-hJuA
 handle
 handled=
-hhh/09GGG+,7
 hideFiltersDetails
 hinting-engine
-hj(5W<
 hotspot:
 hr=0x
-hsxD
 hungarumlaut
 hyphen
 hypheninferior
 hyphensuperior
-i(i4i:iP
-iIDATx^
 iacute
 icircumflex
 icon
@@ -2112,21 +1888,12 @@ isDetached()
 isFixedPitch
 isuperior
 iterator hasn't a next item
-jDjK
-j[ros
-jsIM]G
-k k.k;m
-kZkjk
-k\vnK
 kerning
 key=
 keyName=
 keys=
 kjO}
 known
-l*l3
-lElblrl
-lKlV
 launchMail
 leave proximity for device #
 lenBuildCharArray
@@ -2250,9 +2017,6 @@ lozenge
 lslash
 lsuperior
 ltuo
-mRmom}m
-mXme
-m\tm9e
 m_clipboardViewer:
 m_data.hwnd
 m_directWriteFontFace
@@ -2277,11 +2041,7 @@ msg=0x
 msuperior
 multi-masters
 multiply
-n2n?
 nArgErr
-nNy~
-nPnq
-n^nf
 name
 native
 native=
@@ -2301,14 +2061,11 @@ notequal
 nsuperior
 ntilde
 numbersign
-oEoOoZoaozo
-oIDATx^
 oacute
 ocircumflex
 odieresis
 ogonek
 ograve
-ohoq
 oleacc
 onedotenleader
 oneeighth
@@ -2335,7 +2092,6 @@ oversubscribed distance tree
 oversubscribed dynamic bit lengths tree
 oversubscribed literal/length tree
 owner
-p#p7pP
 paragraph
 parenleft
 parenleftinferior
@@ -2374,11 +2130,8 @@ psaux
 psei
 pshinter
 psnames
-q4qIqQ
-qIDATx^
 qRegisterNormalizedMetaType
 qRegisterNormalizedMetaType was called with a not normalized type name, please call qRegisterMetaType instead.
-qYqaqnq
 qt.qpa.accessibility
 qt.qpa.backingstore
 qt.qpa.dialogs
@@ -2433,9 +2186,6 @@ qwindowsservices.cpp
 qwindowstabletsupport.cpp
 qwindowstheme.cpp
 qwindowswindow.cpp
-r*r4r;
-r?RJ
-rQr\
 radical
 raster1
 raster5
@@ -2461,8 +2211,6 @@ ring
 rotation:
 rsuperior
 rupiah
-s&sg
-s1s:sHsX
 scaron
 scedilla
 section
@@ -2489,7 +2237,6 @@ slot->bitmap.pixel_mode == FT_PIXEL_MODE_MONO
 smooth
 smooth-lcd
 smooth-lcdv
-smsv
 snaw
 software
 space
@@ -2515,11 +2262,8 @@ summation
 surface->surface()->supportsOpenGL()
 symbol
 t1cid
-t5tF
 tName
 tRNS
-tUt[
-tXT9bq^F
 tabletabsoluterange
 tag =
 tagName.size() == 4
@@ -2539,9 +2283,7 @@ threequartersemdash
 threesuperior
 tilde
 tilt:
-tlt~
 too many length or distance symbols
-tq\n$S
 trademark
 triggered=
 true
@@ -2557,28 +2299,22 @@ twosuperior
 twothirds
 type1
 type42
-u,uEu
-uKu`
-uX\tP
 uacute
 ucircumflex
 udieresis
 ugrave
 uint(d->size) <= d->alloc
-uluzu
 underscore
 uniqueID: 
 unknown compression method
 unregisterWindowsMime
 unsigned int __cdecl QStringIterator::next(unsigned int)
 unsigned int __cdecl parseOptions(const class QStringList &,int *,enum QtWindows::ProcessDpiAwareness *)
-v8vUb
 vaResult
 verbose
 version
 verticalDpi
 vk > 0 && vk < 256
-vnvyv
 void (__cdecl *__cdecl QWindowsGLContext::getProcAddress(const class QByteArray &))(void)
 void *__cdecl QWindowsGdiNativeInterface::nativeResourceForBackingStore(const class QByteArray &,class QBackingStore *)
 void *__cdecl QWindowsNativeInterface::nativeResourceForContext(const class QByteArray &,class QOpenGLContext *)
@@ -2647,9 +2383,6 @@ void __cdecl WindowCreationData::initialize(const class QWindow *,struct HWND__ 
 void __cdecl accessibleDebugClientCalls_helper(const char *,const class QAccessibleInterface *)
 void __cdecl describeFormats(struct HDC__ *)
 void __cdecl imeNotifyCancelComposition(struct HWND__ *)
-w%nc
-wBz)
-wDwNwYw`wy
 warp
 wglChoosePixelFormatARB
 wglCreateContext
@@ -2665,7 +2398,6 @@ wglSetPixelFormat
 wglShareLists
 wglSwapBuffers
 wglSwapIntervalEXT
-wgwp
 widget=
 win%1_%2.png
 windir
@@ -2677,23 +2409,12 @@ windows_generic_MSG
 winfonts
 writeDib
 x->ref.isSharable() || options.testFlag(QArrayData::Unsharable)
-x>xoxyx~
-xIxRx[xe
 xf86-driver-name
 xzroesc
-y#uL
-y'y6y?yMa
-yZygy
 yacute
 ydieresis
-ymyx
-z<zRz_zvz
-zCzI
 zcaron
 zero
 zeroinferior
 zerooldstyle
 zerosuperior
-zezn
-{Sl"v
-}D"pN

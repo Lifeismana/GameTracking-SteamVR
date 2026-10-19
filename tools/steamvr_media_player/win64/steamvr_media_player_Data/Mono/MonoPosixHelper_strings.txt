@@ -1,26 +1,13 @@
                           
- !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
  !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
- !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
  deflate 1.2.3.3 Copyright 1995-2006 Jean-loup Gailly 
  inflate 1.2.3.3 Copyright 1995-2006 Mark Adler 
-!AxU
-#bML"
 %02X
-( 8PX
 ('8PW
 (null)
-*5KS
-/P8i
-/yQA
 1.2.3.3
-1A26b
-1wsHp
-52F*
 700PP
 700WP
-7~8A
-9a&g
 ABCDEFGHIJKLMNOPQRSTUVWXYZ
 April
 Arg list too long
@@ -28,7 +15,6 @@ August
 Bad address
 Bad file descriptor
 Broken pipe
-C-Yn
 C:\buildslave\mono\build\msvc\x64_Release_eglib\bin\monoposixhelper.pdb
 CloseHandle
 CloseZStream
@@ -83,8 +69,6 @@ GetSystemTimeAsFileTime
 GetTickCount
 GetUserObjectInformationW
 GetVersion
-H$6t
-H*0"ZOW
 HH:mm:ss
 HeapAlloc
 HeapCreate
@@ -93,7 +77,6 @@ HeapFree
 HeapReAlloc
 HeapSetInformation
 HeapSize
-IiGM>nw
 Illegal byte sequence
 Improper link
 Inappropriate I/O control operation
@@ -112,8 +95,6 @@ KERNEL32.dll
 LCMapStringW
 LeaveCriticalSection
 LoadLibraryW
-M8MF
-MGiI
 MM/dd/yy
 March
 MessageBoxW
@@ -212,7 +193,6 @@ Mono_Posix_ToSyslogOptions
 Mono_Posix_ToWaitOptions
 Mono_Posix_ToXattrFlags
 MultiByteToWideChar
-NJ2"v
 No child processes
 No error
 No locks available
@@ -224,16 +204,10 @@ No such process
 Not a directory
 Not enough space
 November
-O*9y]
-OZw3(?
 October
 Operation not permitted
-Pe6^
 Permission denied
-Qkkbal
 QueryPerformanceCounter
-R1h58
-RSDS
 Read-only file system
 ReadFile
 ReadZStream
@@ -245,7 +219,6 @@ RtlCaptureContext
 RtlLookupFunctionEntry
 RtlUnwindEx
 RtlVirtualUnwind
-SKyu
 Saturday
 September
 SetFilePointer
@@ -263,34 +236,17 @@ Too many open files in system
 Tuesday
 UnhandledExceptionFilter
 Unknown error
-Vc0a
 Wednesday
 WideCharToMultiByte
 WriteConsoleW
 WriteFile
 WriteZStream
-XsBI
-Zjz\v
-[h1R
-\rmj>zjZ
-\t\t\n\n\v\v\f\f\f\f\r\r\r\r
-\t\t\t\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r
-^oEZ_
-`h`hhh
 abcdefghijklmnopqrstuvwxyz
 buffer error
-dQy/
 data error
 dddd, MMMM dd, yyyy
-ewh/?y
-fP~V
 file error
-fu`z
-gqr<
-hPU3
 header crc mismatch
-i91k
-i]Wb
 incompatible version
 incorrect data check
 incorrect header check
@@ -306,21 +262,9 @@ invalid literal/length code
 invalid literal/lengths set
 invalid stored block lengths
 invalid window size
-l6qnk
-lDa>
 need dictionary
-ru&o
 stream end
 stream error
 too many length or distance symbols
 unknown compression method
 unknown header flags set
-vQO+t
-w+OQvr
-w3Xc
-wXR\r
-wn>Jj
-xppwpp
-xpxxxx
-y9*O
-{kHw

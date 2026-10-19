@@ -1,7 +1,5 @@
                           
- !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
  !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
- !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
  Base Class Array'
  Base Class Descriptor at (
  Class Hierarchy Descriptor'
@@ -14,9 +12,8 @@
 %H:%M:%S%m/%d/%y%Y-%m-%d%I:%M:%S %p%H:%M%H:%M:%S
 %I:%M:%S %p
 %a %b %d %H:%M:%S %Y
-&Sgw
+%s.%s
 (null)
-*StO9>T
 ..\..\third_party\libc++\src\include\__memory\construct_at.h:40: assertion __location != nullptr failed: null pointer given to construct_at\n
 ..\..\third_party\libc++\src\include\__memory\construct_at.h:66: assertion __loc != nullptr failed: null pointer given to destroy_at\n
 ..\..\third_party\libc++\src\include\__string\char_traits.h:145: assertion !std::__is_pointer_in_range(__s1, __s1 + __n, __s2) failed: char_traits::copy: source and destination ranges overlap\n
@@ -103,31 +100,12 @@
 .?AVsystem_error@__Cr@std@@
 .?AVtime_base@__Cr@std@@
 .?AVtype_info@@
-.xJ>Hf
 0123456789
 0123456789abcdefABCDEFxX+-pPiInN
-0iN>/
 1#IND
 1#INF
 1#QNAN
 1#SNAN
-11Y@
-2\n0L
-2\vpL
-37>k
-3>N;kU
-3>fvw
-=87M
-=cQ6
-=imb;D
->cQ6
->jtm}S
-?7zQ6$
-?UUUUUU
-?f`Y4
-?qBJ
-?ysB
-A>pP&
 ABCDEFGHIJKLMNOPQRSTUVWXYZ
 AcquireSRWLockExclusive
 AppPolicyGetProcessTerminationMethod
@@ -135,8 +113,6 @@ April
 AreFileApisANSI
 Arg list too long
 August
-BC?>6t9^\tc:>
-BF>^G
 Bad address
 Bad file descriptor
 Broken pipe
@@ -263,7 +239,6 @@ EGL_WaitNative
 EGL_WaitSync
 EGL_WaitSyncKHR
 EGL_WaitUntilWorkScheduledANGLE
-ET5>
 EncodePointer
 EnterCriticalSection
 EnumSystemLocalesEx
@@ -272,7 +247,6 @@ Error generating library path: 0x%x
 Error loading EGL entry points: %s\n
 Exec format error
 ExitProcess
-FEMh\f
 February
 File exists
 File too large
@@ -352,7 +326,6 @@ January
 July
 June
 KERNEL32.dll
-L>ev
 LCIDToLocaleName
 LCMapStringEx
 LCMapStringW
@@ -379,16 +352,11 @@ No such process
 Not a directory
 Not enough space
 November
-OZQ%
 October
 Operation not permitted
 Permission denied
 QueryPerformanceCounter
 RSDS,
-R\fpL
-R\n0\tP
-R\n0\tp
-R\vpL
 RaiseException
 Read-only file system
 ReadConsoleW
@@ -405,7 +373,6 @@ RtlPcToFileHeader
 RtlUnwind
 RtlUnwindEx
 RtlVirtualUnwind
-S9>H
 SNAN)
 Saturday
 September
@@ -436,12 +403,6 @@ Wednesday
 WideCharToMultiByte
 WriteConsoleW
 WriteFile
-X/4B
-[aOni*{
-\fp\vP8
-\tcQr
-\tkE>fvw
-^<V7w
 __based(
 __cdecl
 __clrcall
@@ -519,12 +480,9 @@ connection already in progress
 connection refused
 connection reset
 cosh
-d8L2
 dddd, MMMM dd, yyyy
 destination address required
 e+000
-eF>t
-eLK(w
 eglAcquireExternalContextANGLE
 eglBindAPI
 eglBindTexImage
@@ -646,25 +604,20 @@ false
 floor
 fmod
 frexp
-h0'D
 host unreachable
 identifier removed
 inity
 ios_base::clear
 iostream
-k=yI
 ldexp
 length_error was thrown in -fno-exceptions mode with message "%s"
 libEGL.dll
 libGLESv2
 locale not supported
 log10
-mG4>
-m\nXo
 message size
 modf
 money_get error
-n03>Pu
 nan(ind)
 nan(snan)
 network down
@@ -681,7 +634,6 @@ not a stream
 not connected
 not supported
 ntdll.dll
-obwQ4
 operation canceled
 operation in progress
 operation not supported
@@ -691,12 +643,9 @@ operator ""
 operator co_await
 operator<=>
 out_of_range was thrown in -fno-exceptions mode with message "%s"
-owM&
 owner dead
 protocol error
 protocol not supported
-r\tVr.>T
-r\vpL
 restrict(
 sinh
 snan)
@@ -711,8 +660,6 @@ true
 unknown error %d
 unspecified iostream_category error
 unsupported locale for standard input
-uzKs@>
-v2!L.2
 value too large
 vector
 wrong protocol type

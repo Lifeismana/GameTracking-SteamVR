@@ -9,15 +9,6 @@
   field is using array manipulator, current size returned %d\n
   merged new baseline:\n
   possible match %d of %d:  %s %s.%s\n
- !"#$%&'()*+,-./0123
- #GameUI_Disconnect_ExitingEngine
- #GameUI_Disconnect_InternalError
- #GameUI_Disconnect_SnapshotError
- #GameUI_Disconnect_SoundsMessage
- #GameUI_Disconnect_SteamIDBanned
- #GameUI_ServerRejectBadChallenge
- #Valve_Reject_Connect_From_Lobby
- #Valve_Reject_Reserved_For_Lobby
  ( def. "%s" )
  (procedural)
  = { <proto text format> }". To set fields within it, use syntax like "
@@ -48,8 +39,9 @@
  count(%d)
  details: 
  encoder(%s)
- google/protobuf/descriptor.proto*
+ max. %f
  message of type "
+ min. %f
  not found
  of the Protocol Buffer runtime library, but the installed version is 
  of the Protocol Buffer runtime library, which is not compatible with the installed version (
@@ -61,17 +53,6 @@
  unexpected for field 
  was modified concurrently during serialization.
  with type 
-!#GameUI_Disconnect_ConnectionLost
-!#GameUI_Disconnect_HLTVRestricted
-!#GameUI_Disconnect_LoopDeactivate
-!#GameUI_Disconnect_RejectedByGame
-!#GameUI_Disconnect_Request_HSIdle
-!#GameUI_Disconnect_ServerShutdown
-!#GameUI_Disconnect_SteamDeny_Misc
-!#GameUI_Disconnect_SteamOwnership
-!#GameUI_Disconnect_TempEntMessage
-!#GameUI_ServerRejectFailedChannel
-!.google.protobuf.EnumValueOptions
 !m_bNeedsSort
 " because it is missing required fields: 
 " conflicts with field "
@@ -114,13 +95,15 @@
 " was not found or had errors.
 " which is a proto3 message type.
 " which is.
-"#GameUI_Disconnect_DeltaEntMessage
-"#GameUI_Disconnect_HLTVUnavailable
-"#GameUI_ServerRejectInvalidCertLen
-"#\n\nCEntityMsg
 "$0" does not declare $1 as an extension number.
-"$\n\fCMsgVector2D
 "%s" = "%s"
+"%s":%.3f
+"%s":%d
+"%s":%f
+"%s":%lld
+"%s":%llu
+"%s":%s
+"%s":%u
 ") is not compatible with this reflection object (which is for type "
 ") to start from the outermost scope.
 ").  Note that the exact same class is required; not just the same descriptor.
@@ -129,7 +112,6 @@
 ", field number 
 ", which is not defined. The innermost scope is searched first in name resolution. Consider using a leading '.'(i.e., ".
 ", which is not imported by "
-"-\n\nCMsgQAngle
 ".  To use it here, please add the necessary import.
 ". If this is intended, set 'option allow_alias = true;' to the enum definition.
 ". This appears to be a value from a sibling type.
@@ -137,7 +119,6 @@
 ". Value: "
 "/*" inside block comment.  Block comments cannot be nested.
 "0x" must be followed by hex digits.
-"<\n CNETMsg_SpawnGroup_LoadCompleted
 "DeleteMapValue"
 "GetMapData"
 "GetRawRepeatedField"
@@ -147,61 +128,8 @@
 "MapEnd"
 "MapSize"
 "MutableRawRepeatedField"
-"^\n\fOneofOptions
 "e" must be followed by exponent.
 "ikrig
-"k\n"CNETMsg_SpawnGroup_SetCreationTick
-"u\n!CNETMsg_SpawnGroup_ManifestUpdate
-##GameUI_Disconnect_BadRelayPassword
-##GameUI_Disconnect_ReliableOverflow
-##GameUI_Disconnect_SnapshotOverflow
-#GameUI_ClientConsistencyFail
-#GameUI_ClientDifferentMap
-#GameUI_ClientNoMap
-#GameUI_ClientUnableToCRCMap
-#GameUI_Disconnect_BanAdded
-#GameUI_Disconnect_Disconnected
-#GameUI_Disconnect_HLTVDirect
-#GameUI_Disconnect_HLTVStop
-#GameUI_Disconnect_Host_EndGame
-#GameUI_Disconnect_KickBanAdded
-#GameUI_Disconnect_Kicked
-#GameUI_Disconnect_LeavingSplit
-#GameUI_Disconnect_LoopShutdown
-#GameUI_Disconnect_NoMoreSplits
-#GameUI_Disconnect_NoSpectators
-#GameUI_Disconnect_Server
-#GameUI_Disconnect_SteamDropped
-#GameUI_Disconnect_SteamIDInUse
-#GameUI_Disconnect_SteamInUse
-#GameUI_Disconnect_SteamLogon
-#GameUI_Disconnect_SteamTicket
-#GameUI_Disconnect_SteamTimeOut
-#GameUI_Disconnect_SteamVAC
-#GameUI_Disconnect_TickMessage
-#GameUI_Disconnect_TimedOut
-#GameUI_Disconnect_Unusual
-#GameUI_Disconnect_User
-#GameUI_Disconnect_UserCmd
-#GameUI_ServerAuthDisabled
-#GameUI_ServerCDKeyAuthInvalid
-#GameUI_ServerNoLobby
-#GameUI_ServerRejectBadPassword
-#GameUI_ServerRejectBanned:E\n
-#GameUI_ServerRejectLANRestrict
-#GameUI_ServerRejectNewProtocol
-#GameUI_ServerRejectOldProtocol
-#GameUI_ServerRejectServerFull
-#GameUI_ServerRejectSteam
-#GameUI_ServerRequireSteams
-#Valve_Reject_Background_Map
-#Valve_Reject_Hidden_Game
-#Valve_Reject_Single_Player
-#\n\npause_type
-$#GameUI_Disconnect_BadServerPassword
-$#GameUI_Disconnect_ConnectionFailure
-$#GameUI_Disconnect_MessageParseError
-$#GameUI_Disconnect_Request_HLTVRelay
 $0  extend .$1 {\n
 $0  extensions $1 to $2;\n
 $0  reserved 
@@ -212,18 +140,8 @@ $0oneof $1 {
 $0option $1;\n
 $0rpc $1($4.$2) returns ($5.$3)
 $ORIGIN
-$\n\rresource_type
-%#GameUI_Disconnect_BadClientDeltaTick
-%#GameUI_Disconnect_ConnectionOverflow
-%#GameUI_Disconnect_ConnectionTimedout
-%#GameUI_Disconnect_CreateServerFailed
-%#GameUI_Disconnect_LocalProblem_Other
-%#GameUI_Disconnect_ReplayIncompatible
-%#GameUI_Disconnect_ServerIncompatible
-%#GameUI_Disconnect_ServerInfoOverflow
-%#GameUI_Disconnect_StringTableMessage
-%#GameUI_ServerRejectInvalidConnection
-%#GameUI_ServerReject_InvalidKeyLength
+%%%d.%ds 
+%%s 
 %-10s % 5d % 5d % 5d: %-20s: 0x%p encoding field %s %s%s: %s\n
 %-10s % 5d %-20s:  %-32s:  received non-zero array count for FAKE deleted field in demo file, can't continue since don't know how to parse the members\n
 %-10s % 5d no fastpath because field %s %s changed the array size from %d to %d\n
@@ -232,7 +150,9 @@ $\n\rresource_type
 %-10s %d %s: %s at offset %d, 0x%p array %s struct %s: index %d array size %d in %s\n
 %-120s - %s\n
 %-120s\n
+%.*g
 %.15lf
+%.1f
 %02X
 %12.12s %21.21s[%d]
 %12.12s:  @ %.3f [%s]
@@ -247,19 +167,21 @@ $\n\rresource_type
 %8.3f: %s: ParseMessagesSNP RELIABLE %d bytes\n
 %8.3f: %s: ParseMessagesSNP UNRELIABLE Seq=%d %d bytes\n
 %8.3f: PollSocket(%d)\n
-%\n!eQueryCvarValueStatus_ValueIntact
+%d %s %u, 
 %d (%d peak) fields allocated in mempool\n
 %d == %u: %s\n
 %d bits
 %d of %d empty (%.3f %%)\n
 %d total.\n
 %d,'%s','%s',%d\n
+%d.%d.%d
 %d.%d.%d.%d:%d
 %i %i %i %i
 %i.%i.%i.%i
 %i.%i.%i.%i:%i
 %lld
 %llu
+%s %s %s
 %s %s = %s\n
 %s %s:  [%d] %s queue %s [type %s] %son 0x%p [alloc %u] [order %d] %s\n
 %s - Argument expected (message ID or name).\n
@@ -276,14 +198,18 @@ $\n\rresource_type
 %s depth %d\n
 %s encoding as %d bits '
 %s had %d different permutations\n
+%s%d
+%s%s
 %s%s %s::%s recursively\n
 %s%s found %s in path %s\n
 %s%s: failed to find match for offset %llu [path %s]\n
 %s%s::%s marked %s by group %s at %s\n
 %s%s::%s marked %s by name at %s\n
 %s%s::%s under consideration\n
+%s%s\n
 %s+-- Schema Class: %s\n
 %s,%s,'%s',%d,%d,%.3f,%d,%.3f,%d,%d,=E%d/K$1,%s,%s\n
+%s.%s
 %s/%d:  AddFieldPathAndOffset (%s) added too large of a bit offset (%u : prev=%u) at element %d\n
 %s/%d:  AddFieldPathAndOffset (%s) added unexpected offset (%u : prev=%u) at element %d\n
 %s0x%p %s Ignoring %s offset %u, storing in 0x%p\n
@@ -322,12 +248,15 @@ $\n\rresource_type
 %s: !CanPacket() - SNPQueueTime=%.1fms.\n
 %s: !CanPacket() - m_bSuppressingTransmit.\n
 %s: %s exists only in %s\n
+%s: %s\n
 %s: SendMessage reliable failed with k_EResultLimitExceeded, crashing connection.
 %s: SendMessage unreliable failed with k_EResultLimitExceeded, crashing connection.
 %s: string format requested %d chars\n
+%s:%d
 %s:%d reliable sequence\n
 %s:%s needs base %s:%s to be registered\n
 %s:%s packet %i at %i\n
+%s::%s
 %s::%s was in the original serializer at offset %u but that offset isn't in the ignore list!!!\n
 %s:Dropped %i packets at %i\n
 %sApplying %s\n
@@ -350,93 +279,31 @@ $\n\rresource_type
 %s| SizeOf: %d\n
 %s| Virtual: %s; Abstract: %s; TrivialConstr: %s; TrivialDestr: %s\n
 %u serializers with %u fields (approx memory %llu / %llu in fields ) bytes (field size %d, serializer size %d)\n
-&#GameUI_Disconnect_InvalidMessageError
-&#GameUI_Disconnect_NoPeerGroupHandlers
-&#GameUI_Disconnect_PureServer_Mismatch
-&#GameUI_Disconnect_RemoteProblem_Other
-&#GameUI_ServerRejectInvalidReservation
-&\n"SPAWN_GROUP_IS_INITIAL_SPAWN_GROUP
-&\n"eQueryCvarValueStatus_CvarNotFound
-'#GameUI_Disconnect_BadSpectatorPassword
-'#GameUI_Disconnect_DifferentClassTables
-'#GameUI_ServerRejectInvalidSteamCertLen
-'\n"SPAWN_GROUP_CREATE_NEW_SCENE_WORLD
-'\n#SPAWN_GROUP_LOAD_ENTITIES_FROM_SAVE
-'\n#eQueryCvarValueStatus_CvarProtected
-'\n\rsignedPayload
 'out_location' must not be NULL
-(#GameUI_Disconnect_LoopLevelLoadActivate
-(#GameUI_Disconnect_RemoteProblem_BadCert
-(#GameUI_Disconnect_RemoteProblem_Timeout
 (%d) is > avg (%.2f) with stddev*scale (%.2f * %.2f) and threshold (%.2f)
+(%s)%s
 (%u %u %u %u)
 (Message Info)
 (NULL)
 (None)
-(\r"R\n\nCMsg_CVars
-(\r"~\n\vOperation_t
-(\t"<\n\fCSVCMsg_Menu
-(\t"J\n\fCCLCMsg_Move
-(\t"\r\n\vCNETMsg_NOP"'\n
-(\v2 .ProtoFlattenedSerializerField_t"!\n
-(\v2 .google.protobuf.DescriptorProto
-(\v2!.CSVCMsg_GameSessionConfiguration
-(\v2!.google.protobuf.EnumValueOptions"
-(\v2#.CSVCMsgList_UserMessages.usermsg_t
-(\v2#.CSVCMsg_GameEventList.descriptor_t
-(\v2$.google.protobuf.EnumDescriptorProto
-(\v2$.google.protobuf.FileDescriptorProto"
-(\v2$.google.protobuf.UninterpretedOption"/\n
-(\v2$.google.protobuf.UninterpretedOption":\n\fOptimizeMode
-(\v2$.google.protobuf.UninterpretedOption"P\n
-(\v2$.google.protobuf.UninterpretedOption*\t
-(\v2%.google.protobuf.FieldDescriptorProto
-(\v2%.google.protobuf.OneofDescriptorProto
-(\v2&.google.protobuf.ExtensionRangeOptions
-(\v2&.google.protobuf.MethodDescriptorProto
-(\v2'.google.protobuf.ServiceDescriptorProto
-(\v2(.google.protobuf.SourceCodeInfo.Location
-(\v2).google.protobuf.EnumValueDescriptorProto
-(\v2-.google.protobuf.GeneratedCodeInfo.Annotation
-(\v2-.google.protobuf.UninterpretedOption.NamePart
-(\v2..google.protobuf.DescriptorProto.ReservedRange
-(\v2/.google.protobuf.DescriptorProto.ExtensionRange
-(\v21.CBidirMsg_RelayPacket.SignedDestinationAddress_t
-(\v26.google.protobuf.EnumDescriptorProto.EnumReservedRange
-(\v2\v.CMsgQAngle
-(\v2\v.CMsgQAngle"
-(\v2\v.CMsgQAngle"4\n
-(\v2\v.CMsgVector
-(\v2\v.CMsg_CVars"
 (cannot determine missing fields for lite message)
 (merge 
 (no node).%s
 (root)
 (stream: %s local: %s) %s
 )", which is not defined. The innermost scope is searched first in name resolution. Consider using a leading '.'(i.e., "(.
-)#GameUI_Disconnect_PureServer_ClientExtra
-)#GameUI_Disconnect_RemoteProblem_BadCrypt
-)#GameUI_Disconnect_SteamDeny_BadAntiCheat
 ), this value label conflicts with 
 ).  Contact the program author for an update.  If you compiled the program yourself, make sure that your headers are from the same version of Protocol Buffers as your link-time library.  (Version verification failed in "
-)\n!host_framestarttime_std_deviation
-*#GameUI_Disconnect_LocalProblem_ManyRelays
-*M\n#Bidirectional_Messages_LowFrequency
 *N6google8protobuf12_GLOBAL__N_123AggregateErrorCollectorE
 *N6google8protobuf12_GLOBAL__N_123GeneratedMessageFactoryE
 *N6google8protobuf12_GLOBAL__N_123StringBaseTextGeneratorE
 *N6google8protobuf12_GLOBAL__N_124FieldValuePrinterWrapperE
 *N6google8protobuf12_GLOBAL__N_133FastFieldValuePrinterUtf8EscapingE
-*\n"host_computationtime_std_deviation
-*h\n\vDIALOG_TYPE
 *pEnd > *pStart
 +++ %s[%d]: 
-+\n'SPAWN_GROUP_CREATE_CLIENT_ONLY_ENTITIES
-+\n\rReservedRange
 +inf
 , not just within "
 , now outside range
-,#GameUI_Disconnect_Splitpacket_Send_Overflow
 - %d Scratch Buffers in use (%llu bytes)\n
 - Config: %s, %i connections\n
 - Data:    net total out  %.1f, in %.1f kB/s\n
@@ -451,7 +318,6 @@ $\n\rresource_type
 - reliable: %s\n
 - remote IP: %s\n
 - total: in %.1f, out %.1f MB\n\n
--#GameUI_Disconnect_LocalProblem_NetworkConfig
 --- %s[%d]: 
 ->error
 -avx
@@ -507,39 +373,9 @@ $\n\rresource_type
 ./google/protobuf/stubs/stringpiece.h
 ./google/protobuf/unknown_field_set.h
 ./google/protobuf/wire_format_lite_inl.h
-.CMsgIPCAddress
-.CMsgServerNetworkStats.Player
-.CMsgServerNetworkStats.Port
-.CMsgServerPeer"/\n
-.CMsgVoiceAudio
-.CMsg_CVars.CVar
-.CSVCMsgList_GameEvents.event_t
-.CSVCMsg_ClassInfo.class_t
-.CSVCMsg_GameEvent"9\n
-.CSVCMsg_GameEvent.key_t
-.CSVCMsg_GameEventList.key_t"
-.CSVCMsg_SendTable.sendprop_t
-.CSVCMsg_Sounds.sounddata_t
-.CSVCMsg_UserMessage"
-.ENetworkDisconnectionReason"
-.ESplitScreenMessageType
 .PLACEHOLDER_VALUE
-.ProtoFlattenedSerializer_t
-.RequestPause_t
-.SerializedNetAddress_t
-.SignedPayload_t
-.VoiceDataFormat_t:
 .dummy
-.eB5
 .foo = value".
-.google.protobuf.EnumOptions
-.google.protobuf.FieldOptions"
-.google.protobuf.FileOptions
-.google.protobuf.MessageOptions
-.google.protobuf.MethodOptions
-.google.protobuf.OneofOptions"
-.google.protobuf.ServiceOptions"
-.google.protobuf.SourceCodeInfo
 .placeholder.proto
 0 bit issue, changes
 0 bit issue, spot 1
@@ -549,7 +385,6 @@ $\n\rresource_type
 00000000-0000-0000-0000-000000000000
 00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899
 0123456789abcdef
-0\n\vserializers
 0x%p assigned %d to '%s'\n
 1000
 10CEntityMsg
@@ -639,15 +474,6 @@ $\n\rresource_type
 19ISerializedEntities
 19NetMessagePacketEnd
 1DBlend
-1\n-NETWORK_DISCONNECT_DIRECT_CONNECT_RESERVATION
-2 .CBidirMsg_RelayInfo.Operation_t
-2#.google.protobuf.FieldOptions.CType:
-2#GameUI_Disconnect_RemoteProblem_TimeoutConnecting
-2$.google.protobuf.FieldOptions.JSType:\tJS_NORMAL
-2).google.protobuf.FileOptions.OptimizeMode:
-2*.google.protobuf.FieldDescriptorProto.Type
-2+.google.protobuf.FieldDescriptorProto.Label
-2/.google.protobuf.MethodOptions.IdempotencyLevel:
 20CCLCMsg_CmdKeyValues
 20CCLCMsg_FileCRCCheck
 20CCLCMsg_ListenEvents
@@ -714,7 +540,6 @@ $\n\rresource_type
 29CCLCMsg_SplitPlayerDisconnect
 29CMsgServerNetworkStats_Player
 29NetMessageConnectionCrashed_t
-2\r.PrefetchType"5\n
 30CBidirMsg_RebroadcastGameEvent
 30CSVCMsgList_GameEvents_event_t
 31ProtoFlattenedSerializerField_t
@@ -732,25 +557,15 @@ $\n\rresource_type
 34CSVCMsg_GameEventList_descriptor_t
 34NetMessageSplitscreenUserChanged_t
 38Source2SteamNetworkingSocketsCallbacks
-3\n\toperation
-456789:;<=
 48CBidirMsg_RelayPacket_SignedDestinationAddress_t
-5\n\vnested_type
-5t~BC
 6ConVar
-6\n\fmessage_type
 7IConVar
-7\n\tenum_type
-8#GameUI_Disconnect_LocalProblem_HostedServerPrimaryRelay
 8CFmtStrNILi1024ELb0EE
 8CFmtStrNILi256ELb0EE
 8CFunctor
 8CMsgRGBA
 8CNetChan
 8CUtlSlot
-8\n\textension
-8\n\vdescriptors
-9\n\noneof_decl
 : Protocol message serialized to a size different from what was originally expected.  Perhaps it was modified by another thread during serialization?
 : Tried to copy from a message with a different type. to: 
 : Tried to merge from a message with a different type.  to: 
@@ -764,17 +579,15 @@ $\n\rresource_type
 <!-- kv3 encoding:%s:version{%s} format:%s:version{%s} -->\n
 <"C_OP_RemapSpeedtoCP
 <No schemasystem>
-<\n\tusermsg_t
 <deferred>
 <no deferred ref found>
 <no failure reason set>
 <null>
 <unconnected>
 <unknown>
-=\n NETWORK_DISCONNECT_CLIENT_NO_MAP
 >mathlib.cpp
+?%u:%u:%u
 ?%x (int:%d, float:%f)
-?456789:;<=
 @@min
 A file with this name is already in the pool.
 A protobuf object %s with a repeated field %s was used in a container, this will crash
@@ -818,8 +631,6 @@ ALREADY_EXISTS
 ANIMATION_TYPE_FIT_LIFETIME
 ANIMATION_TYPE_FIXED_RATE
 APPSYSTEM: In ConnectInterfaces(), s_nRegistrationCount is %d!\n
-A\n!NETWORK_DISCONNECT_REJECT_NOLOBBY
-A\n\nannotation
 AbsolutePoseControl
 Accepting Steam Net connection %s\n
 Access of unconnected ConVarRef\n
@@ -895,7 +706,6 @@ BaseIKRig
 BasePhysicsShape
 BenchmarkService001
 BentNormalData
-Bidirectional_Messages
 BinaryProperties_GetValue
 BlendList
 BodyGroup
@@ -924,30 +734,12 @@ C* google::protobuf::internal::scoped_ptr<C>::operator->() const [with C = googl
 CANCELLED
 CAuthPhysBody
 CAuthPhysJoint
-CBidirMsg_RebroadcastGameEvent
-CBidirMsg_RebroadcastSource
-CBidirMsg_RelayInfo
-CBidirMsg_RelayPacket
 CBufferString::AppendFormatV(char const*, __va_list_tag*)
 CBufferString::Concat(char const*, char const*, ...)
 CBufferString::Format(char const*, ...)
 CBufferString::Insert(int, char const*, int, bool)
 CBufferString::Purge(int)
 CBufferString::Relinquish(CBufferString::EAllocationOption_t)
-CCLCMsg_BaselineAck
-CCLCMsg_ClientInfo
-CCLCMsg_ClientMessage
-CCLCMsg_CmdKeyValues
-CCLCMsg_FileCRCCheck
-CCLCMsg_ListenEvents
-CCLCMsg_LoadingProgress
-CCLCMsg_RequestPause
-CCLCMsg_RespondCvarValue
-CCLCMsg_ServerPing"P\n
-CCLCMsg_ServerStatus
-CCLCMsg_SplitPlayerConnect
-CCLCMsg_SplitPlayerDisconnect
-CCLCMsg_VoiceData
 CCommand::Tokenize: Encountered command which overflows the argument buffer.. Clamped!\n
 CCommand::Tokenize: Encountered command which overflows the tokenizer buffer.. Skipping!\n
 CDeltaCalculator::FieldCalcDelta fromBits
@@ -1227,19 +1019,6 @@ CHECK failed: z.first != NULL:
 CHandle<
 CMemAllocSystemInitialize
 CMergedEntityOffsetBuilder::Expecting at least one bit in offset
-CMsgIPCAddress
-CMsgPlayerInfo
-CMsgRGBA
-CMsgServerNetworkStats
-CMsgServerPeer
-CMsgVoiceAudio
-CNETMsg_Disconnect
-CNETMsg_SetConVar
-CNETMsg_SignonState
-CNETMsg_SpawnGroup_Load
-CNETMsg_SpawnGroup_Unload
-CNETMsg_SplitScreenUser
-CNETMsg_StringCmd
 CNetChan %p "%s" is naively talking to self\n
 CNetChan::ProcessConnectionIDHeader() Connection ID with system "%s" reset using id %X:%X. Was %X:%X\n
 CNetChan::ProcessConnectionIDHeader() received connection id header %X %X from "%s"\n
@@ -1276,7 +1055,6 @@ COLLISION_MODE_PER_FRAME_PLANESET
 COLLISION_MODE_PER_PARTICLE_TRACE
 COLLISION_MODE_USE_NEAREST_TRACE
 COLORCORRECTION_VERSION_1
-CORD
 CPPTYPE_BOOL
 CPPTYPE_DOUBLE
 CPPTYPE_ENUM
@@ -1288,38 +1066,6 @@ CPPTYPE_STRING
 CPPTYPE_UINT32
 CPPTYPE_UINT64
 CParticleSystemDefinition
-CSVCMsgList_GameEvents
-CSVCMsgList_UserMessages
-CSVCMsg_BSPDecal
-CSVCMsg_ClassInfo
-CSVCMsg_ClearAllStringTables
-CSVCMsg_CmdKeyValues
-CSVCMsg_CreateStringTable
-CSVCMsg_CrosshairAngle
-CSVCMsg_FixAngle
-CSVCMsg_FlattenedSerializer
-CSVCMsg_FullFrameSplit
-CSVCMsg_GameEvent
-CSVCMsg_GameEventList
-CSVCMsg_GetCvarValue
-CSVCMsg_HLTVStatus
-CSVCMsg_PacketEntities
-CSVCMsg_PacketReliable
-CSVCMsg_PeerList
-CSVCMsg_Prefetch
-CSVCMsg_SendTable
-CSVCMsg_ServerInfo
-CSVCMsg_ServerSteamID
-CSVCMsg_SetPause
-CSVCMsg_SetView
-CSVCMsg_Sounds
-CSVCMsg_SplitScreen
-CSVCMsg_StopSound
-CSVCMsg_TempEntities
-CSVCMsg_UpdateStringTable
-CSVCMsg_UserMessage
-CSVCMsg_VoiceData
-CSVCMsg_VoiceInit
 CSerializedEntities::CompareSerializedEntities field %d path's differ from '%s' to '%s'\n
 CSerializedEntities::CompareSerializedEntities from field %s not present in to\n
 CSerializedEntities::CompareSerializedEntities to field %s not present in from\n
@@ -1348,7 +1094,6 @@ CThreadSpinRWLock::UnlockWrite(char const*, int)
 CThreadSyncObject::WaitImpl(unsigned int)
 CThreadSyncObject::~CThreadSyncObject()
 CTransform
-CType
 CUtlBinaryBlock
 CUtlBuffer::VaPrintf: String overflowed buffer [%llu]\n
 CUtlLinkedList overflow! (exhausted index range)\n
@@ -1361,7 +1106,6 @@ CUtlStringToken
 CUtlSymbol
 CUtlSymbolLarge
 CUtlVector
-CVar
 CXXABI_1.3
 C_INIT_AddVectorToVector
 C_INIT_AgeNoise
@@ -1518,7 +1262,6 @@ CreateHostedDedicatedServerListenSocket for socket '%s' failed /+/ port %u vport
 CreateSerializedEntityBlob:  removing %s from field path list, culled by another change.\n
 DATA_LOSS
 DEADLINE_EXCEEDED
-DIALOG_ASKCONNECT
 DTI %s\n
 DTI reset\n
 DTI: wrote client stats into %s.\n
@@ -1530,8 +1273,6 @@ Decompression failure
 Default
 Default value for an enum field must be an identifier.
 DegreeEuler
-DescriptorProto
-DescriptorProtosH
 DetermineFieldSerializerGroup
 DevMsg
 DevMsg(char const*, ...)
@@ -1549,17 +1290,12 @@ Dump UDP packets summary to console
 Dump non-loopback udp only
 Duplicate entry %s already exists in field dict!\n
 DynamicConfigList
-E3:0
-ENetworkDisconnectionReason
-EQueryCvarValueStatus
 ERROR
 ERROR! SendData %s data too big (%i)\n
 ERROR: Field %s::%s unable to deduce unserializer for type (%s)!\n
 ERROR: Schema registration error - class '%s' is not marked as MModuleLocalTypeScope but contains member '%s' with locally-scoped type '%s'\n
 ERROR: Schema registration error - class '%s' is not marked as MModuleLocalTypeScope but derives from locally-scoped class '%s'\n
-ESplitScreenMessageType
 EXPORTSYSTEM_INTERFACE_VERSION_001
-E\n NETWORK_DISCONNECT_REJECT_BANNED
 EarlyInit_Tier0
 EconItemToolModel_001
 EditorDynamicConfig
@@ -1578,10 +1314,7 @@ Enum value "$0" is reserved multiple times.
 Enum value "$0" is reserved.
 Enum value "$0" uses reserved number $1.
 Enum value in map must define 0 as the first value.
-EnumDescriptorProto
 EnumOptions
-EnumReservedRange
-EnumValueDescriptorProto
 EnumValueOptions
 Enums must contain at least one value.
 EnvironmentMapBuilder_001
@@ -1640,8 +1373,6 @@ Extension range $0 to $1 overlaps with already-defined range $2 to $3.
 Extension range $0 to $1 overlaps with reserved range $2 to $3.
 Extension range end number must be greater than start number.
 Extension ranges are not allowed in proto3.
-ExtensionRange
-ExtensionRangeOptions
 Extensions in proto3 are only allowed for defining options.
 Extensions of MessageSets must be optional messages.
 Extensions to non-lite types can only be declared in non-lite files.  Note that you cannot extend a non-lite type to contain a lite type, but the reverse is allowed.
@@ -1651,8 +1382,6 @@ FALSE
 FATAL
 FATAL ERROR: unable to register all schema data: %s\n
 FCVAR_NEVER_AS_STRING
-F\n%NETWORK_DISCONNECT_DISCONNECT_BY_USER
-F\n\foptimize_for
 Failed to create poll group for socket '%s'?\n
 Failed to install message handler for message %s in channel %s!\n
 Failed to open P2P network socket '%s'\n
@@ -1693,7 +1422,6 @@ Field numbers must be positive integers.
 Field with message or enum type missing type_name.
 Field with primitive type has type_name.
 Field: 
-FieldDescriptorProto
 FieldDescriptorProto.extendee not set for extension field.
 FieldDescriptorProto.extendee set for non-extension field.
 FieldDescriptorProto.oneof_index $0 is out of range for type "$1".
@@ -1707,8 +1435,6 @@ File already exists in database:
 File appears to be in generated pool but wasn't registered: 
 File is already registered: 
 File recursively imports itself: 
-FileDescriptorProto
-FileDescriptorSet
 FileOptions
 Files that do not use optimize_for = LITE_RUNTIME cannot import files which do use this option.  This file is not lite, but it imports "
 Files with optimize_for = LITE_RUNTIME cannot define services unless you set both options cc_generic_services and java_generic_sevices to false.
@@ -1741,7 +1467,6 @@ GameUIService_001
 GatherAllFieldOffsets_R
 GatherAllFieldOffsets_R:  local offset of %s::%s %u is too large (%u max)\n
 Generated new connection id %X for use with remote system "%s"\n
-GeneratedCodeInfo
 GenericGameData
 GetBitRange
 GetBitRange( %u -> %u ) end is before or same as start\n
@@ -1775,12 +1500,10 @@ GetString
 GetStringReference
 GetUInt32
 GetUInt64
-Google.Protobuf.Reflection
 Got ISteamNetworkingSockets user interfaces from standalone lib\n
 Got ISteamNetworkingSockets user interfaces from steam client\n
 Got message on poll group for socket %s, but cannot find connection in table?
 Groups are not supported in proto3 syntax.
-H\n\rrecipientList
 HammerMapLoader001
 HasField
 HelpSystem_001
@@ -1789,7 +1512,6 @@ HookUpConfigValue
 Host game server ip
 HostStateMgr001
 How long p2p connection requests should linger before we completely ignore them
-IDEMPOTENCY_UNKNOWN
 IKChain
 IKChainOld
 IKData
@@ -1804,10 +1526,6 @@ INetChannel::SetCategories: Network category wasn't registered!\n
 INetworkSystem::RegisterNetworkCategory: Attempted to register category %u twice (debug name: %s and %s)\n
 INetworkSystem::RegisterNetworkCategory: all categories must have ids between 0-31!\n
 IQuickTime001
-I\n NETWORK_DISCONNECT_STEAM_DROPPED
-I\n$NETWORK_DISCONNECT_STEAM_VACBANSTATE
-I\n%NETWORK_DISCONNECT_REJECT_HIDDEN_GAME
-IdempotencyLevel
 If set, only net_showmsg spew for data inbound on this socket name e.g. client, server, etc.
 If unable to bind to initial port, how many more to try binding.
 Illegal jstype for int64, uint64, sint64, fixed64 or sfixed64 field: 
@@ -1857,24 +1575,11 @@ Invalid wire type for CPPTYPE_MESSAGE:
 Invalid wire type for CPPTYPE_UINT32: 
 Invalid wire type for CPPTYPE_UINT64: 
 InvokeMiniDumpHandler
-JSType
-J\n NETWORK_DISCONNECT_SNAPSHOTERROR
-J\n'NETWORK_DISCONNECT_DISCONNECT_BY_SERVER
-K\n!NETWORK_DISCONNECT_INTERNAL_ERROR
-K\n#NETWORK_DISCONNECT_TICKMSG_OVERFLOW
-K\n$NETWORK_DISCONNECT_STEAM_AUTHINVALID
-K\n'NETWORK_DISCONNECT_CLIENT_DIFFERENT_MAP
 Key in map fields cannot be enum types.
 Key in map fields cannot be float/double, bytes or message types.
 KeyValueCache001
 KeyValuesSystem
-LABEL_OPTIONAL
-LABEL_REPEATED
-LABEL_REQUIRED
 LOG_GENERAL
-L\n!NETWORK_DISCONNECT_HLTVRESTRICTED
-L\n!NETWORK_DISCONNECT_LOOPDEACTIVATE
-Label
 Leaked channel %s remote %s\n
 Like net_showmsg, but only spew reliable messages
 Line %d at "%s": %s
@@ -1883,7 +1588,6 @@ Line %d: %s
 Line %d: Invalid value "%s"
 List all registered net messages
 Localize_001
-Location
 Log network processing
 Log packets to files
 LogHandler
@@ -1895,7 +1599,6 @@ LoggingSystem_Log(int, LoggingSeverity_t, LoggingMetaData_t const*, char const*,
 LoggingSystem_LogDirect
 LoggingSystem_RegisterLoggingChannel
 Logic problem? szsrc = 
-LrwcE
 MATCHFRAMEWORK_001
 MClassHasCustomAlignedNewDelete
 MNetworkAlias
@@ -1930,15 +1633,6 @@ MNetworkVarsDisable
 MODEL_PROCESSING_SCRIPT_INTERFACE_001
 MODEL_PROCESSING_SERVICES_INTERFACE_001
 MResourceTypeForInfoType
-MSG_SPLITSCREEN_ADDUSER
-MSG_SPLITSCREEN_REMOVEUSER
-M\n"NETWORK_DISCONNECT_SERVER_SHUTDOWN
-M\n"NETWORK_DISCONNECT_STEAM_DENY_MISC
-M\n"NETWORK_DISCONNECT_STEAM_OWNERSHIP
-M\n$NETWORK_DISCONNECT_REJECT_SERVERFULL
-M\n&NETWORK_DISCONNECT_STEAM_AUTHCANCELLED
-M\n'NETWORK_DISCONNECT_REJECT_SINGLE_PLAYER
-M\n(NETWORK_DISCONNECT_SERVER_REQUIRES_STEAM
 MakeSerializersMatchByMeta failed for %s\n
 MapKey::GetBoolValue
 MapKey::GetInt32Value
@@ -1980,7 +1674,6 @@ MessageSet is not supported in proto3.
 MessageSets cannot have fields, only extensions.
 Messages can't have default values!
 Messages can't have default values.
-MethodDescriptorProto
 MethodOptions
 Mismatch between client %s and server %s\n
 Missing field: FileDescriptorProto.name.
@@ -2129,33 +1822,6 @@ N6snappy15ByteArraySourceE
 N6snappy22UncheckedByteArraySinkE
 N6snappy4SinkE
 N6snappy6SourceE
-NETWORK_DISCONNECT_BADDELTATICK
-NETWORK_DISCONNECT_BANADDED
-NETWORK_DISCONNECT_DISCONNECTED
-NETWORK_DISCONNECT_EXITING
-NETWORK_DISCONNECT_HLTVDIRECT
-NETWORK_DISCONNECT_HLTVSTOP
-NETWORK_DISCONNECT_HOST_ENDGAME
-NETWORK_DISCONNECT_INVALID
-NETWORK_DISCONNECT_KICKBANADDED
-NETWORK_DISCONNECT_KICKED
-NETWORK_DISCONNECT_LEAVINGSPLIT
-NETWORK_DISCONNECT_LOOPSHUTDOWN
-NETWORK_DISCONNECT_LOST
-NETWORK_DISCONNECT_NOMORESPLITS
-NETWORK_DISCONNECT_NOSPECTATORS
-NETWORK_DISCONNECT_OVERFLOW
-NETWORK_DISCONNECT_RECONNECTION
-NETWORK_DISCONNECT_REJECT_STEAM
-NETWORK_DISCONNECT_REMOTE_OTHER
-NETWORK_DISCONNECT_SHUTDOWN
-NETWORK_DISCONNECT_STEAM_BANNED
-NETWORK_DISCONNECT_STEAM_INUSE
-NETWORK_DISCONNECT_STEAM_LOGON
-NETWORK_DISCONNECT_STEAM_TICKET
-NETWORK_DISCONNECT_TIMEDOUT
-NETWORK_DISCONNECT_UNUSUAL
-NETWORK_DISCONNECT_USERCMD
 NETWORK_FIELD_CHANGED_ARRAY_WITH_VALUE
 NETWORK_FIELD_CHANGED_NO_VALUE
 NETWORK_FIELD_CHANGED_NO_VALUE_NO_CONTEXT
@@ -2168,12 +1834,8 @@ NETWORK_FIELD_DEFAULT_PRIORITY
 NETWORK_FIELD_HIGHEST_PRIORITY
 NETWORK_FIELD_LOWEST_PRIORITY
 NOT_FOUND
-NO_SIDE_EFFECTS
 NULL
 NULL output boolean given.
-N\n"NETWORK_DISCONNECT_HLTVUNAVAILABLE
-N\n#NETWORK_DISCONNECT_REJECTED_BY_GAME
-NamePart
 Need space between identifier and decimal point.
 Need space between number and identifier.
 Net graph %s\n
@@ -2182,10 +1844,6 @@ Net status for host %s:\n
 NetChan %s ProcessMessages has taken more than %dms to process %d messages.  (Current message type: '%s')\n
 NetChannel '%s':\n
 NetMessage '%s' still using auto-assigned, has to generate id from name CUtlStringToken hashcode = %d\n
-NetMessageConnectionClosed
-NetMessageConnectionCrashed
-NetMessagePacketEndB
-NetMessagePacketStart"
 NetSteamConn
 Network System Initialized\n
 Network field tried to use a priority that has not been registered!\n
@@ -2224,16 +1882,7 @@ Number of CFieldPaths(Reconstruct):  %d\n
 Number of CSerializedEntities     :  %d\n
 Numbers starting with leading zero must be in octal.
 OUT_OF_RANGE
-O\n%NETWORK_DISCONNECT_REJECT_BADPASSWORD
-O\n%NETWORK_DISCONNECT_REJECT_LANRESTRICT
-O\n%NETWORK_DISCONNECT_REJECT_NEWPROTOCOL
-O\n%NETWORK_DISCONNECT_REJECT_OLDPROTOCOL
-O\n%NETWORK_DISCONNECT_SOUNDSMSG_OVERFLOW
-O\n(NETWORK_DISCONNECT_REJECT_BACKGROUND_MAP
-O\n(NETWORK_DISCONNECT_STEAM_AUTHALREADYUSED
-O\n\nAnnotation
 Oneof must have at least one field.
-OneofDescriptorProto
 OneofOptions
 Opened Steam Net Connection on socket '%s' to %s, connection %s\n
 Option "
@@ -2265,9 +1914,6 @@ PF_TYPE_RANDOM_UNIFORM
 PLACEHOLDER_VALUE
 PVEC_TYPE_LITERAL
 PVEC_TYPE_LITERAL_COLOR
-P\n#NETWORK_DISCONNECT_BADRELAYPASSWORD
-P\n#NETWORK_DISCONNECT_RELIABLEOVERFLOW
-P\n#NETWORK_DISCONNECT_SNAPSHOTOVERFLOW
 PanoramaTextServices001
 PanoramaUIClient001
 PanoramaUIEngine001
@@ -2315,11 +1961,9 @@ Plat_TickDiffMilliSecF
 Plat_USTime
 Plat_UUIDFromString
 Plat_UUIDToString
-Player
 PlusFour
 PlusThree
 PlusTwo
-Po5H
 Pointer to CUtlVector not supported by networking:  %s::%s\n
 PopAllButOnePlusN
 PopAllButOnePlusNPack3Bits
@@ -2330,7 +1974,6 @@ PopNPlusN
 PopNPlusOne
 PopOnePlusN
 PopOnePlusOne
-Port
 PostProcessingSystem_001
 PreviewAttachmentModel
 PreviewBoneAttachedModel
@@ -2357,8 +2000,6 @@ ProtoBufHelper::ParseJSON: Ignoring extra JSON key '%s', which is not found in p
 ProtoBufHelper::ParseJSON: Object Begin found on invalid field!\n
 ProtoBufHelper::ParseJSON: received callback with message field but no message!\n
 ProtoBufHelper::ParseJSON: received callback with no current message field!\n
-ProtoFlattenedSerializerField_t
-ProtoFlattenedSerializer_t
 Protobuf: %s(%d): %s\n
 Protocol Buffer map usage error:\n
 Protocol Buffer reflection usage error:\n  Method      : google::protobuf::Reflection::
@@ -2388,22 +2029,11 @@ PushTwoPack5LeftDeltaN
 PushTwoPack5LeftDeltaOne
 PushTwoPack5LeftDeltaZero
 QAngle
-Q\n&NETWORK_DISCONNECT_REJECT_BADCHALLENGE
-Q\n&NETWORK_DISCONNECT_TEMPENTMSG_OVERFLOW
-Q\n*NETWORK_DISCONNECT_CLIENT_CONSISTENCY_FAIL
-Q\n+NETWORK_DISCONNECT_CLIENT_UNABLE_TO_CRC_MAP
-Q\n,NETWORK_DISCONNECT_REJECT_SERVERAUTHDISABLED
 Quaternion
 QueueChange
 QueueDuplicate
 QueuedLoaderVersion001
 RESOURCE_EXHAUSTED
-RIO_ESTABLISH_CONNECTION
-RIO_REJECT_RELAY
-RIO_REQUEST_RELAY
-RIO_WILL_RELAY
-RP_PAUSE
-RP_TOGGLEPAUSE
 RadianEuler
 RandomFloat
 RandomInt
@@ -2441,7 +2071,6 @@ RenderSystemSurface001
 RenderUtils_001
 Repeated fields can't have default values.
 ReportClassError
-RequestPause_t
 Requested max packet size before packets are 'split'.
 Requested size is too large to fit into size_t.
 Required fields are not allowed in proto3.
@@ -2452,7 +2081,6 @@ ResourceCompilerSystem001
 ResourceHandleUtils001
 ResourceManifestRegistry001
 ResourceSystem013
-S+Ot
 SDR connect
 SIGNONSTATE_CHALLENGE
 SIGNONSTATE_CHANGELEVEL
@@ -2462,11 +2090,6 @@ SIGNONSTATE_NEW
 SIGNONSTATE_NONE
 SIGNONSTATE_PRESPAWN
 SIGNONSTATE_SPAWN
-SPAWN_GROUP_BLOCK_UNTIL_LOADED
-SPAWN_GROUP_DONT_SPAWN_ENTITIES
-SPAWN_GROUP_LOAD_STREAMING_DATA
-SPAWN_GROUP_SYNCHRONOUS_SPAWN
-SPEED
 SSE and SSE2 are required.
 STEAMAPPLIST_INTERFACE_VERSION001
 STEAMAPPS_INTERFACE_VERSION008
@@ -2481,13 +2104,6 @@ STEAMSCREENSHOTS_INTERFACE_VERSION003
 STEAMUGC_INTERFACE_VERSION013
 STEAMUSERSTATS_INTERFACE_VERSION011
 STEAMVIDEO_INTERFACE_V002
-STRING
-SVC_Messages_LowFrequency
-S\n!NETWORK_DISCONNECT_REMOTE_TIMEOUT
-S\n%NETWORK_DISCONNECT_CONNECTION_FAILURE
-S\n'NETWORK_DISCONNECT_DELTAENTMSG_OVERFLOW
-S\n'NETWORK_DISCONNECT_REJECT_FAILEDCHANNEL
-S\n,NETWORK_DISCONNECT_STEAM_LOGGED_IN_ELSEWHERE
 SceneSystem_002
 SceneUtils_001
 Schema
@@ -2500,12 +2116,10 @@ Sending %d byte message to %s on socket %s\n
 SequenceMarkup
 SequenceMarkupList
 SerializedEntitiesVersion001
-SerializedNetAddress_t
 Serializer for %s has two fields of same name (%s)\n
 Serializer,Field,Field Path,Decode Count,Total Bits,Avg Bits,Total Index Bits,Avg Index Bits,Priority,Best Priority,=SUM(E:E),Full Name,Notes\n
 Server upper bound on net_maxroutable that a client can use.
 ServerUploadGameStats001
-ServiceDescriptorProto
 ServiceOptions
 SetAllocatedMessage
 SetBool
@@ -2540,8 +2154,6 @@ Show messages for large packets only: <size>
 Show netchannel fragments
 Shows current network status
 Shows net channel info
-SignedDestinationAddress_t
-SignedPayload_t
 SkipPropData_
 Socket '%s' bound to '%s' [%s]:\n
 Socket '%s' listening for %s on port %d:\n
@@ -2562,8 +2174,6 @@ Source2GameEntities001
 Source2Host001
 Source2Server001
 Source2ServerSerializers002
-SourceCodeInfo
-SpawnGroupFlags_t
 Specified different usergroup proxies for %s\n
 Spew CSerializedEntity memory
 Spew CSerializedEntity metadata information
@@ -2627,11 +2237,6 @@ Symbol name "
 System
 TCP/UDP Disabled.\n
 TRUE
-T\n%NETWORK_DISCONNECT_LOCALPROBLEM_OTHER
-T\n&NETWORK_DISCONNECT_BAD_SERVER_PASSWORD
-T\n&NETWORK_DISCONNECT_MESSAGE_PARSE_ERROR
-T\n)NETWORK_DISCONNECT_REQUEST_HOSTSTATE_IDLE
-T\n+NETWORK_DISCONNECT_STEAM_VAC_CHECK_TIMEDOUT
 TestFormatA
 TestFormatB
 TestFormatC
@@ -2670,7 +2275,6 @@ Tried to send ad-hoc to address %s, but address is not in list of steam net conn
 True
 Truncated data
 Two Bone
-Type
 Type appears to be in generated pool but wasn't 
 Type is already registered: 
 UDP -> %s: sz=%5i seq=%5i ack=%5i rel=%1i tm=%8.3f\n
@@ -2684,18 +2288,12 @@ UNKNOWN
 UNKNOWN_ENUM_VALUE_%s_%d
 UPDATE_STRING_TOKEN_DATABASE
 UTF-8 data when 
-U\n"NETWORK_DISCONNECT_REMOTE_BADCRYPT
-U\n&NETWORK_DISCONNECT_REPLAY_INCOMPATIBLE
-U\n&NETWORK_DISCONNECT_SERVERINFO_OVERFLOW
-U\n&NETWORK_DISCONNECT_SERVER_INCOMPATIBLE
-U\n(NETWORK_DISCONNECT_REJECT_INVALIDCERTLEN
 Unable to write file '%s'\n
 Unexpected end of file
 Unexpected end of string.
 Unexpected failure while serializing option submessage 
 Unimplemented Map Reflection API.
 Unimplemented type: 
-UninterpretedOption
 Unknown enumeration value of "
 Unrecognized flag name '%s'
 Unrecognized syntax: 
@@ -2738,8 +2336,6 @@ VMaterialSystem2_001
 VMatrix
 VMediaFoundation001
 VNewAsyncFileSystem001
-VOICEDATA_FORMAT_ENGINE
-VOICEDATA_FORMAT_STEAM
 VP4003
 VPhysX Interface ResourceMgr v0.1
 VPhysics2_Handle_Interface_001
@@ -2753,8 +2349,6 @@ VScript
 VScriptDbg
 VScriptManager010
 VStringTokenSystem001
-V\n&NETWORK_DISCONNECT_PURESERVER_MISMATCH
-V\n'NETWORK_DISCONNECT_CREATE_SERVER_FAILED
 V_FixDoubleSlashes
 V_FixSlashes
 V_GetErrno
@@ -2838,10 +2432,7 @@ Vector2D
 Vector4D
 VectorAligned
 VisBuilder_001
-VoiceDataFormat_t
 WARNING
-W\n,NETWORK_DISCONNECT_REJECT_CONNECT_FROM_LOBBY
-W\n,NETWORK_DISCONNECT_REJECT_RESERVED_FOR_LOBBY
 Warning
 Warning parsing text-format 
 Warning:  %s = '%s' is infinite, clamping value.\n
@@ -2854,36 +2445,32 @@ WriteFieldList
 WriteFields
 WriteToBuffer Message %s is not initialized! Probably missing required fields!\n
 Writing %d bits for path %s of serializer %s entity %d, this will fail to parse\n
-X\n'NETWORK_DISCONNECT_BADSPECTATORPASSWORD
-X\n'NETWORK_DISCONNECT_DIFFERENTCLASSTABLES
-X\n(NETWORK_DISCONNECT_INVALID_MESSAGE_ERROR
-Y\n)NETWORK_DISCONNECT_NO_PEER_GROUP_HANDLERS
-Y\n*NETWORK_DISCONNECT_STRINGTABLEMSG_OVERFLOW
-Y\n0NETWORK_DISCONNECT_REJECT_SERVERCDKEYAUTHINVALID
-Y\n\fdescriptor_t
-Z>github.com/golang/protobuf/protoc-gen-go/descriptor;descriptor
-Z\n(NETWORK_DISCONNECT_REMOTE_CERTNOTTRUSTED
-Z\n*NETWORK_DISCONNECT_REJECT_INVALIDKEYLENGTH
-Z\n+NETWORK_DISCONNECT_CONNECT_REQUEST_TIMEDOUT
 [ Net Message Info: %s ]\n
 [A:%u:%u:%u]
+[C:%u:%u]
+[G:%u:%u]
 [GroupID]
 [Group]
+[I:%u:%u]
+[L:%u:%u]
 [M:%u:%u:%u]
 [Name]
+[P:%u:%u]
+[T:%u:%u]
 [Type]
 [U:%u:%u:%u]
-[\n+NETWORK_DISCONNECT_REJECT_INVALIDCONNECTION
+[U:%u:%u]
+[a:%u:%u]
+[c:%u:%u]
 [context entity 0x%p]
+[g:%u:%u]
+[i:%u:%u]
 [lazy = true] can only be specified for submessage fields.
 [libprotobuf %s %s:%d] %s\n
 [opaque]
 [packed = true] can only be specified for repeated primitive fields.
 \%03o
 \U%08x
-\\n)NETWORK_DISCONNECT_PURESERVER_CLIENTEXTRA
-\\n*NETWORK_DISCONNECT_LOOP_LEVELLOAD_ACTIVATE
-\\n.NETWORK_DISCONNECT_REQUEST_HOSTSTATE_HLTVRELAY
 \n    Actual    : 
 \n    Field type: 
 \n  Field       : 
@@ -2891,186 +2478,6 @@ Z\n+NETWORK_DISCONNECT_CONNECT_REQUEST_TIMEDOUT
 \n  Problem     : 
 \n  Problem     : Enum value did not match field type:\n    Expected  : 
 \n  Problem     : Field is not the right type for this message:\n    Expected  : 
-\n CSVCMsg_GameSessionConfiguration
-\n google/protobuf/descriptor.proto
-\n!networksystem_protomessages.proto"0\n NetMessageSplitscreenUserChanged
-\nCwf\r
-\n\fCLC_Messages
-\n\fCNETMsg_Tick
-\n\fDIALOG_ENTRY
-\n\fFieldOptions
-\n\fLITE_RUNTIME
-\n\fNET_Messages
-\n\fPrefetchType
-\n\fRIO_NO_ROUTE
-\n\fSTRING_PIECE
-\n\fSVC_Messages
-\n\fTYPE_FIXED32
-\n\fTYPE_FIXED64
-\n\fTYPE_MESSAGE
-\n\faudible_mask
-\n\favg_data_out
-\n\favg_loss_out
-\n\fbi_GameEvent
-\n\fbi_RelayInfo
-\n\fdouble_value
-\n\fencode_flags
-\n\fentity_index
-\n\ffields_index
-\n\ffriends_name
-\n\fis_dedicated
-\n\fis_extension
-\n\fis_localonly
-\n\fjava_package
-\n\flandmarkname
-\n\flow_priority
-\n\fmessagessize
-\n\fnum_commands
-\n\fnum_elements
-\n\fplayer_index
-\n\fposttoserver
-\n\fprevhopcount
-\n\fsavegamename
-\n\fserver_count
-\n\fsignon_state
-\n\fstring_value
-\n\fsvc_BSPDecal
-\n\fsvc_PeerList
-\n\fsvc_Prefetch
-\n\fsvc_SetPause
-\n\fswift_prefix
-\n\fvar_name_sym
-\n\fvar_type_sym
-\n\fworldgroupid
-\n\nDIALOG_MSG
-\n\nIDEMPOTENT
-\n\nRP_UNPAUSE
-\n\nTYPE_BYTES
-\n\nTYPE_FLOAT
-\n\nTYPE_GROUP
-\n\nTYPE_INT32
-\n\nTYPE_INT64
-\n\naddon_name
-\n\nclass_name
-\n\ndelta_from
-\n\ndependency
-\n\ndeprecated
-\n\nevent_mask
-\n\nevent_name
-\n\nfakeplayer
-\n\nfriends_id
-\n\ngo_package
-\n\nhigh_value
-\n\ninput_type
-\n\nis_ambient
-\n\nplayername
-\n\nprocess_id
-\n\ns1_mapname
-\n\nsendprop_t
-\n\nsimplified
-\n\nsvc_Sounds
-\n\nval_string
-\n\nval_uint64
-\n\nvoice_data
-\n\rCSVCMsg_Print
-\n\rMethodOptions
-\n\rTYPE_SFIXED32
-\n\rTYPE_SFIXED64
-\n\rbaseline_tick
-\n\rclc_VoiceData
-\n\rcode_filename
-\n\rcomputer_guid
-\n\rdefault_value
-\n\ris_transition
-\n\rneeds_decoder
-\n\rnet_SetConVar
-\n\rnet_StringCmd
-\n\rnum_tv_relays
-\n\rphp_namespace
-\n\rpreviouslevel
-\n\rreserved_name
-\n\rsend_node_sym
-\n\rsvc_ClassInfo
-\n\rsvc_StopSound
-\n\rsvc_VoiceData
-\n\rsvc_VoiceInit
-\n\rtarget_entity
-\n\rthey_hear_you
-\n\rtick_interval
-\n\rtotal_data_in
-\n\ryou_hear_them
-\n\tbit_count
-\n\tcode_path
-\n\tcpu_usage
-\n\tcvar_name
-\n\tdedicated
-\n\thost_loss
-\n\thost_name
-\n\tis_replay
-\n\tjson_name
-\n\tlow_value
-\n\tmap_entry
-\n\tname_part
-\n\tproximity
-\n\tsignature
-\n\tsound_num
-\n\tsvc_dummy
-\n\ttickcount
-\n\ttype_name
-\n\tval_float
-\n\tval_short
-\n\tworldname
-\n\vDIALOG_MENU
-\n\vDIALOG_TEXT
-\n\vEnumOptions
-\n\vFileOptions
-\n\vTYPE_DOUBLE
-\n\vTYPE_SINT32
-\n\vTYPE_SINT64
-\n\vTYPE_STRING
-\n\vTYPE_UINT32
-\n\vTYPE_UINT64
-\n\vallow_alias
-\n\vavg_data_in
-\n\vavg_loss_in
-\n\vbaseline_nr
-\n\vdelay_value
-\n\vdialog_type
-\n\ventity_data
-\n\veventsource
-\n\vis_headless
-\n\vis_sentence
-\n\vmax_classes
-\n\vmax_clients
-\n\vmax_entries
-\n\vmodel_index
-\n\vnum_clients
-\n\vnum_entries
-\n\voneof_index
-\n\voutput_type
-\n\vpause_group
-\n\vpayloadData
-\n\vping_avg_ms
-\n\vplayer_slot
-\n\vrandom_seed
-\n\vremote_addr
-\n\vsample_rate
-\n\vsound_index
-\n\vsound_level
-\n\vsounddata_t
-\n\vsource_file
-\n\vspawn_count
-\n\vstatus_code
-\n\vstring_data
-\n\vsvc_SetView
-\r\n\tCODE_SIZE
-\r\n\tJS_NORMAL
-\r\n\tJS_NUMBER
-\r\n\tJS_STRING
-\r\n\tPFT_SOUND
-\r\n\tTYPE_BOOL
-\r\n\tTYPE_ENUM
-\r\n\tsvc_Print
 \tCannotBeNetworked        = %s\n
 \tCategory Mask            = %08X\n
 \tClass                    = '%s'\n
@@ -3081,8 +2488,6 @@ Z\n+NETWORK_DISCONNECT_CONNECT_REQUEST_TIMEDOUT
 \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t
 \u00
 \x%02x
-]\n,NETWORK_DISCONNECT_REJECT_INVALIDRESERVATION
-^\n*NETWORK_DISCONNECT_LOCALPROBLEM_MANYRELAYS
 _ITM_deregisterTMCloneTable
 _ITM_registerTMCloneTable
 _Jv_RegisterClasses
@@ -3100,8 +2505,6 @@ _V_strncmp
 _V_strncpy
 _V_strnicmp_fast
 _V_strnistr_fast
-_\n,NETWORK_DISCONNECT_STEAM_DENY_BAD_ANTI_CHEAT
-_\n-NETWORK_DISCONNECT_REJECT_INVALIDSTEAMCERTLEN
 __UNKNOWN__
 __assert_fail
 __bss_start
@@ -3132,16 +2535,11 @@ _end
 _fini
 _test_conversion_counter
 a\v6C
-active_spawngroup_handle
-additionalHops
-addons
-aggregate_value
 ai_model_info
 allowed in proto3.
 allowstatic
 anchor_angles
 anchor_position
-angle
 anim_name
 anim_name_a
 anim_name_b
@@ -3155,31 +2553,19 @@ attach_point
 attachment
 attachment_offset
 attachment_type
-audio
 auto_unragdoll_duration
 available
 average metadata list is %f entries\n
-avg_latency_in
 avg_latency_local
 avg_latency_net
-avg_latency_out
 avg_latency_peer
 avg_packet_in
 avg_packet_loss
 avg_packet_out
-avg_packets_in
-avg_packets_out
-bPayloadEncrypted
 bUpdate
-b\n,NETWORK_DISCONNECT_SPLITPACKET_SEND_OVERFLOW
 backing paths
 badpacket%03i.dat
-baseline
 basic_string::_S_construct null not valid
-begin
-bi_RebroadcastGameEvent
-bi_RebroadcastSource
-bi_RelayPacket
 binary
 binary_auto
 binary_bc
@@ -3205,23 +2591,17 @@ breakable_count
 breakable_model
 breakable_skin
 broadcast
-bt3V
 buffer. Use the 'bytes' type if you intend to send raw 
-buftype
 burst_randomize
 burst_scale
 bytes
 bytes. 
-c_os
 cable
 calloc
 can't reach here.
 cantdie
-cc_enable_arenas
-cc_generic_services
 ceil
 center
-channel
 char google::protobuf::StringPiece::operator[](google::protobuf::stringpiece_ssize_type) const
 cheat
 children
@@ -3229,29 +2609,9 @@ cl_cmdrate
 cl_interp
 cl_interp_ratio
 cl_updaterate
-class_id
-class_t
-classes
-clc_BaselineAck
-clc_ClientInfo
-clc_ClientMessage
-clc_CmdKeyValues
-clc_FileCRCCheck
-clc_ListenEvents
-clc_LoadingProgress
-clc_Move
-clc_RequestPause
-clc_RespondCvarValue
-clc_ServerPing
-clc_ServerStatus
-clc_SplitPlayerConnect
-clc_SplitPlayerDisconnect
 client
 client_interpolation_amount
-client_streaming
-clientbitcount
 clientcmd_can_execute
-clients
 close
 close() failed: 
 closed by peer
@@ -3261,39 +2621,23 @@ cloth_collision_layer1
 cloth_collision_layer2
 cloth_collision_layer3
 cmd_info
-codec
 collision_group
 collision_prop
-com.google.protobufB
-command
-command_number
 composite
 compressed 
 configvalue.cpp
 const google::protobuf::UnknownFieldSet& google::protobuf::UnknownField::group() const
 const string& google::protobuf::UnknownField::length_delimited() const
 control_point
-convars
-cookie
 coord
 coord_integral
-create_on_client
 create_particle
 create_poll_group
-creationsequence
-csharp_namespace
-ctype
 cull rule %d:  %s -> %s\n
 cull rule %d:  %s\n
 culling for client %d of %d rules\n
-cvars
-d\n-NETWORK_DISCONNECT_LOCALPROBLEM_NETWORKCONFIG
-data
-data_compressed
-data_table_name
 databytes
 deactivated
-decal_texture_index
 decode
 decoding FAKE
 default
@@ -3306,28 +2650,19 @@ dmg.explosive
 dmg.fire
 double
 dropped
-dt_name
 dti_client_%02d%02d%02d-%02d%02d%02d.csv
 dti_report_stddev_threshold
 duplicate
 dynamic_interaction
-eQueryCvarValueStatus_NotACvar
 embedded field
 emitFromWorld
 enable_limit
 enabled
 encoding
-encryptedPayloadKey
-entityfiltername
-entitylumpname
 enum
-event
 event_class
 event_keys
-event_t
-eventid
 eventindex
-events
 exclude
 excluding
 explosion_behavior
@@ -3337,32 +2672,22 @@ explosion_type
 explosive_damage
 explosive_radius
 extend .$0 {\n
-extendee
-extension_range
 f == __null || dynamic_cast<To>(f) != __null
 faceMergeAngle
 failed to construct fake field from metadata %s::%s in %s\n
 false
-false"
 fc=%d, m=%d, sum=%d, bits=%u
 fflush
-field
 field %s had different encoding for %d bits\n
 field %s had different spans [%d -> %d (%d)] vs. [%d -> %d (%d)]\n
 field %s not present in %s\n
 field not in previous encoding
-field_serializer_name_sym
-field_serializer_version
 fieldname
 fieldpath_%02d%02d%02d-%02d%02d%02d.csv
 fieldpathpacker.cpp
-fields
-file
-filename
 filesystem_stdio
 fixed32
 fixed64
-flags
 flattenedserializer.cpp
 flattenedserializers.cpp
 float
@@ -3397,11 +2722,7 @@ g_pSteamNetworkingUtils
 g_pThreadPool
 game
 game_class
-game_dir
 game_keys
-game_session_config
-game_session_manifest
-gamemode
 generated_proto/linuxsteamrt64/netmessages.pb.cc
 generated_proto/linuxsteamrt64/networkbasetypes.pb.cc
 generated_proto/linuxsteamrt64/networksystem_protomessages.pb.cc
@@ -3410,7 +2731,6 @@ gethostbyname
 gethostname
 getsockname
 glow
-google.protobuf"G\n
 google.protobuf.
 google.protobuf.Any
 google.protobuf.DescriptorProto.name
@@ -3496,23 +2816,15 @@ gravity
 group
 groupindex
 groupnames
-guid
-h\n,NETWORK_DISCONNECT_REMOTE_TIMEOUT_CONNECTING
 handindex
 headtype
 health
 health_override
-host_computationtime
-host_frametime
-host_frametime_std_deviation
 host_limitlocal
 hostip
-hostname
 hurt_me
 hurt_them
 i < length_
-idempotency_level
-identifier_value
 ikdata
 import "$0";\n
 import public "$0";\n
@@ -3535,40 +2847,16 @@ internal error in map key sorting
 invalid
 invalid_address
 invert_orientation
-is_background_map
-is_bot
 is_debris
-is_delta
-is_end
-is_hltv
-is_listenserver_host
-is_loadsavegame
-is_multiplayer
-ishltv
-java_generate_equals_and_hash
-java_generic_services
-java_multiple_files
-java_outer_classname
-java_string_check_utf8
 json_name = "
-jstype
 jstype is only allowed on int64, uint64, sint64, fixed64 or sfixed64 fields.
-key_t
-keys
 kv3format_manager.cpp
-label
-last_cmd_number
 last_sniff
 latency_seconds
-lazy
-lcQe
 ld-linux-x86-64.so.2
-leading_comments
-leading_detached_comments
 len >= input_len
 length
 length_ >= n
-leveltransition
 libc.so.6
 libm.so.6
 libnetworksystem.so
@@ -3580,8 +2868,6 @@ libtier0.so
 libvstdlib.so
 listen
 localhost
-localnamefixup
-location
 lockRotationAlpha
 loop
 loop_break_on_damage
@@ -3591,7 +2877,6 @@ loopback:%d
 loopback_t CUtlMemoryPool
 looping
 lseek
-mXr4
 m_Bone
 m_ChainData
 m_Children
@@ -3717,14 +3002,9 @@ m_vLiteralValue
 m_vecColorScale
 m_vecTailColorScale
 malloc
-manifestincomplete
-manifestloadpriority
 map keys are not unique
 map<$0, $1>
 map_entry should not be set explicitly. Use map<KeyType, ValueType> instead.
-map_name
-mapname
-master
 master_morph_weight
 material
 matrix3x4_t
@@ -3732,24 +3012,16 @@ matrix3x4a_t
 maxHullVertices
 maxVerticesPerHull
 max_angle
-max_client_limit
-max_spawngroup_creationsequence
 memchr
 memcmp
 memcpy
 memmove
-memory_free_mb
-memory_used_mb
 mempool.cpp
 memset
-menu_key_values
 mesh
 meshes
 message
-message_set_wire_format
-method
 min_angle
-min_client_limit
 model_name
 modeldoc0
 modeldoc1
@@ -3780,27 +3052,12 @@ modeldoc6
 modeldoc7
 modeldoc8
 modeldoc9
-msg_data
-msg_type
 multiplayer_break
 nIndex != m_priorityToOrderMap.InvalidIndex()
 nPriority != NETWORK_FIELD_CHANGE_DEFAULT_PRIORITY
 nTries < 10000000
-n\f"pA3Q
-name
 nav_attribute_avoid
 nav_data
-negative_int_value
-net_Disconnect
-net_NOP
-net_SignonState
-net_SpawnGroup_Load
-net_SpawnGroup_LoadCompleted
-net_SpawnGroup_ManifestUpdate
-net_SpawnGroup_SetCreationTick
-net_SpawnGroup_Unload
-net_SplitScreenUser
-net_Tick
 net_channels
 net_compresspackets
 net_compresspackets_minsize
@@ -3838,7 +3095,6 @@ net_showudp_remoteonly
 net_spewcounts
 net_spewserializer
 net_status
-net_table_name
 net_usesocketsforloopback
 net_validatemessages
 net_validatemessages = %d\n
@@ -3847,10 +3103,7 @@ netchan_t::reliabledata
 netchan_t::unreliabledata
 netmessages.proto
 network_connection.proto
-network_connection.proto"-\n\nCMsgVector
-network_connection_token
 networkbasetypes.proto
-networkbasetypes.proto"
 networking/%04d_%02d_%02d_%02d_%02d_%02d
 networkmessages.h
 networkserializer.cpp
@@ -3862,8 +3115,6 @@ no CSerializedEntity memory being used\n
 no cull rules\n
 no fastpath
 no metadata!\n
-no_standard_descriptor_accessor
-no_steam_server
 non-parallel
 none
 normal
@@ -3873,14 +3124,7 @@ nothing
 notify
 null
 nullptr
-num_bits
-num_bots
-num_changed_entries
-num_server_players
-num_spectators
-number
 numsegments
-objc_class_prefix
 operator delete(void*)
 operator delete(void*, std::nothrow_t const&)
 operator delete[](void*)
@@ -3889,70 +3133,43 @@ operator new(unsigned long, std::nothrow_t const&)
 operator new[](unsigned long)
 operator new[](unsigned long, std::nothrow_t const&)
 optional
-options
 org(%g,%g,%g) ang(%g,%g,%g)
 origin_max_delta
 origin_relative
-origin_x
-origin_y
-origin_z
-originalSender
 out of order
 outgoing
 outgoing_data_bytespersecond
 outgoing_sequence
 outgoing_sequence_start
 output specified is NULL
-package
 package $0;\n\n
-packed
-packet_loss_pct
 packet_status
-parentnamefixup
 parse
 parsing
 particles/
-path
-paused
-peer
 pending data
-pending_full_frame
-php_class_prefix
-php_generic_services
 physgun_interactions
 physicsmode
-ping_stddev_ms
-pitch
 placement_attach
 placement_bone
 placement_mode
 play_endcap
-players
-players_networkids
 please implement MergeFrom for your type.
 point0
 point1
 pointer
 pointer field
-port
-ports
 pose_control
 pose_control_type
-positive_int_value
 preferred_carryangles
 previous only
 pri(%u)
-priority
 problem detected locally
 procedural path
-progress
 prop_data
-props
 proto
 proto2
 proto3
-protocol
-proxies
 pthread_cancel
 pthread_mutex_destroy
 pthread_mutex_init
@@ -3964,34 +3181,25 @@ pthread_mutexattr_init
 pthread_mutexattr_settype
 pthread_once
 ptr_ != __null
-public_dependency
-py_generic_services
 qangle
 qangle_pitch_yaw
-quality
 queued
 radius0
 radius1
 read
 reason
-receivingclients
 recenter_on_parent_bone
 registered: 
-relative
 relative_angles
 relative_origin
-reliable
-reliable_sound
 render_interpolation_fraction
 repeated
 replicated
 required
-reserved_range
 resource
 rnd_down
 rnd_up
 rootNode
-savegamefilename
 sched_yield
 schema
 schemabindings.cpp
@@ -3999,28 +3207,16 @@ schemaclassinfo.cpp
 schemasystem
 sdr config option not found\n
 secondary
-section
-section_number
-send_table_crc
 sent
 sentinel
-sequence_bytes
 sequence_name
 sequence_number
 serialize
-serializedAddr
-serializedAddress
-serializedTargetAddress
-serializer_name_sym
-serializer_version
 serializing
 server
 server_can_execute
 server_framerate
 server_framerate_stddev
-server_ip_address
-server_streaming
-service
 service $0 {\n
 service thread gave up on lock
 sfixed32
@@ -4034,29 +3230,14 @@ sint64
 size too big: 
 size_t to int conversion
 skip
-sky_name
-slot
-slots
-sound_num_handle
-sound_resource_id
-sounds
-source_code_info
 source_filename
-span
 spawn_motion_disabled
-spawngrouphandle
-spawngroupmanifest
-spawngroupownerhandle
-spawngroupparenthandle
-speaker_entity
 speed
 splitpacket
 sprintf
 sqrt
 sqrtf
 ss_added
-start
-state
 std::_Rb_tree_decrement(std::_Rb_tree_node_base const*)
 std::_Rb_tree_decrement(std::_Rb_tree_node_base*)
 std::_Rb_tree_increment(std::_Rb_tree_node_base const*)
@@ -4158,8 +3339,6 @@ std::string::substr(unsigned long, unsigned long) const
 std::string::swap(std::string&)
 std::tr1::__detail::__prime_list
 stderr
-steam_id
-steamid
 stop_immediately
 stop_instantly
 stop_on_seq_change
@@ -4184,40 +3363,16 @@ succeeded
 suppress
 surface_prop
 sv_maxroutable
-svc_ClearAllStringTables
-svc_CmdKeyValues
-svc_CreateStringTable
-svc_FlattenedSerializer
-svc_FullFrameSplit
-svc_GetCvarValue
-svc_HLTVStatus
-svc_Menu
-svc_PacketEntities
-svc_PacketReliable
-svc_ServerInfo
-svc_ServerSteamID
-svc_SplitScreen
-svc_UpdateStringTable
-symbols
-syntax
 syntax = "$0";\n\n
-table_id
 test_angles_relative
 text
 text format contains deprecated field "
 texturescale
 the actual field type (for enums T should be the generated enum 
 the global scope
-tick
 to missing
-total
-total_data_out
-total_packets_in
-total_packets_out
-trailing_comments
 true
 turn_rate
-type
 type or int32).
 type() == TYPE_FIXED32
 type() == TYPE_FIXED64
@@ -4235,36 +3390,21 @@ typeinfo name for std::string
 uint32
 uint64
 unable to match %s::%s (type %s) in %s, no likely matches found\n
-uncompressed_sample_offset
-uncompressed_size
 uninterpreted_option
 unknown
 unreliable
 unreliable_bits
-update_baseline
-updated_entries
-uptime
 usage:  net_spewserializer <name>\n
 use_additional_offset
 user
-user_data_fixed_size
-user_data_size
-user_data_size_bits
-userid
-usermsgs
 utlbuffer.cpp
 utlstring.cpp
 utlsymbol.cpp
 utlvector count
-val_bool
-val_byte
-val_long
 value
 value 
 valve
 vanmgrph
-var_encoder_sym
-var_name
 vector::_M_fill_insert
 vector::_M_insert_aux
 vector::reserve
@@ -4288,7 +3428,6 @@ void google::protobuf::MethodOptions::set_idempotency_level(google::protobuf::Me
 void google::protobuf::StringPiece::remove_prefix(google::protobuf::stringpiece_ssize_type)
 void google::protobuf::strings::SubstituteAndAppend(std::string*, const char*, const google::protobuf::strings::internal::SubstituteArg&, const google::protobuf::strings::internal::SubstituteArg&, const google::protobuf::strings::internal::SubstituteArg&, const google::protobuf::strings::internal::SubstituteArg&, const google::protobuf::strings::internal::SubstituteArg&, const google::protobuf::strings::internal::SubstituteArg&, const google::protobuf::strings::internal::SubstituteArg&, const google::protobuf::strings::internal::SubstituteArg&, const google::protobuf::strings::internal::SubstituteArg&, const google::protobuf::strings::internal::SubstituteArg&)
 void std::vector<int, std::allocator<int>>::_M_emplace_back_aux<int const&>(int const&)
-volume
 vpcf
 vpcf1
 vpcf10
@@ -4325,20 +3464,13 @@ vtable for std::exception
 warning
 wcscmp
 wcslen
-weak
-weak_dependency
 width
 with a type that does not implement MergeFrom. This is unsafe; 
-world_offset_angle
-world_offset_pos
 write
 writing (in %s)
 wrong submessage type
-xuid
 yaw_end
 yaw_start
-z\n8NETWORK_DISCONNECT_LOCALPROBLEM_HOSTEDSERVERPRIMARYRELAY
 zero
-{YIN?
 {}[]()=&, \t\n'"*;
 {}[]=, \t\n'":|;

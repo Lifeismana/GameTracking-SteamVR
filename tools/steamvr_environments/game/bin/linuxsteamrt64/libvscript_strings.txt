@@ -1,11 +1,14 @@
- !"#$%&'()*+,-./0123
  ( def. "%s" )
  ReadToken overflow
  [%.3f server clamped to %.3f]
+ at %p
  in function '%s'
  in function <%s:%d>
  in main chunk
+ max. %f
+ min. %f
 "%s" = "%s"
+"%s":%d
 #base
 #base is NULL 
 #empty#
@@ -25,6 +28,7 @@ $ORIGIN
 %lld
 %llu
 %ls [wstring, len = %d]
+%p:%d
 %s %p [%f %f %f]
 %s <null>
 %s at line %d
@@ -34,8 +38,13 @@ $ORIGIN
 %s has no instance glue - are you doing objectName.%s instead of objectName:%s?
 %s near '%s'
 %s parameter %d: expected %s but got %s.\n
+%s%d
+%s%s
 %s.so
+%s: %p
 %s: string format requested %d chars\n
+%s:%d: %s
+%s|%d
 '%s' cannot be indexed
 '%s' cannot be indexed with '%s'
 '%s' expected
@@ -53,6 +62,7 @@ $ORIGIN
 'package.preload' must be a table
 'setfenv' cannot change environment of given object
 'tostring' must return a string to 'print'
+(%s) %s:%d
 (*temporary)
 (*vararg)
 (for control)
@@ -71,7 +81,6 @@ $ORIGIN
 ../public/tier1/utlrbtree.h
 ./?.lua;/usr/local/share/luajit-2.0.4/?.lua;/usr/local/share/lua/5.1/?.lua;/usr/local/share/lua/5.1/?/init.lua
 ./?.so;/usr/local/lib/lua/5.1/?.so;/usr/local/lib/lua/5.1/loadall.so
-.eB5
 .local
 .lua
 .steam
@@ -125,7 +134,6 @@ $ORIGIN
 =(load)
 =stdin
 ><![CDATA[%s]]>
-?456789:;<=
 ?VScript
 @0123456789ABCDEF
 @libvscript.so
@@ -267,7 +275,6 @@ IsBitSet
 IsNull
 IsNull called without an object - did you call obj.IsNull() instead of obj:IsNull()?
 JIT compiler disabled, CPU does not support SSE2
-K2K2K2
 KeyValueCache001
 KeyValuesSystem
 LOADLIB: %s
@@ -611,13 +618,12 @@ WorldRendererBuilderMgr001
 WorldRendererMgr001
 Xbox VDP is not supported on this platform.
 [none]
-\f2K2K
 \n\t[builtin#%d]:
 \n\tno field package.preload['%s']
 \n\tno file '%s'
 \n\tno module '%s' in file '%s'
-\nrandomseed
 \vgetregistry\fgetmetatable\fsetmetatable
+_%x%llx_%s
 _Bool
 _Complex
 _IO_getc
@@ -719,15 +725,12 @@ __volatile__
 _edata
 _end
 _fini
-_zsu
 abort
 accept
 acos
 activelines
-alignof
 ambiguous syntax (function call x new statement)
 appid
-arch
 archive
 arshift
 asin
@@ -782,12 +785,10 @@ cannot resume dead coroutine
 cannot resume non-suspended coroutine
 cannot resume running coroutine
 cannot use '...' outside a vararg function
-cast
 ccode:/
 cdata
 cdata<%s>: %d
 cdata<%s>: %p
-cdef
 ceilDsqrt
 char
 char(%d)
@@ -819,7 +820,6 @@ context
 context_get
 context_names
 control structure too long
-copy
 coroutine
 coroutine expected
 coroutine_list
@@ -853,7 +853,6 @@ elseif
 enabled
 encoding
 enum
-errno
 error in error handling
 error loading module '%s' from file '%s':\n\t%s
 errorEpcall
@@ -878,7 +877,6 @@ file (closed)
 file:///e:/work/valve/source2/main/game/core/scripts/vscripts/animationsystem/animationsysteminit.lua
 filename
 fileuri
-fill
 find
 flnSu
 float
@@ -937,7 +935,6 @@ hit_count
 hit_value
 hscript
 hscript_lightbinding
-huge
 idekey
 index
 index out of range
@@ -972,7 +969,6 @@ invalid replacement value (a %s)
 invalid value
 invalid value (%s) at index %d in table for 'concat'
 ioctl
-istype
 isvararg
 js_array
 js_object
@@ -1001,7 +997,6 @@ lineno
 lines
 listen
 lj_alloc_f_VALVE_OVERRIDEN
-load
 load\nloadstring
 loaded
 loaders
@@ -1155,6 +1150,7 @@ luaopen_math
 luaopen_package
 luaopen_string
 luaopen_table
+l|%d|%s
 main function has more than %d %s
 malformed number
 malformed pattern (ends with '%')
@@ -1174,7 +1170,6 @@ memmove
 mempool.cpp
 memset
 metamethod
-metatype
 missing '[' after '%f' in pattern
 missing declaration for symbol '%s'
 mmap64
@@ -1201,8 +1196,6 @@ nparams
 number
 numchildren
 nups
-offsetof
-oh\rD
 on\f3
 open
 operator delete(void*)
@@ -1242,7 +1235,6 @@ ptrdiff_t
 qangle
 quaternion
 radClogEatan2
-random
 rawequal
 rawset
 read
@@ -1371,7 +1363,6 @@ type parameter
 typeDnext
 typedef
 typeinfo for CThreadSyncObject
-typeof
 u64( %lld = 0x%llX )
 uint16
 uint16_t
@@ -1411,6 +1402,7 @@ userdata length overflow
 utlbuffer.cpp
 utlstring.cpp
 utlstringtoken
+u|%d|%s
 va_list
 value expected
 variable names

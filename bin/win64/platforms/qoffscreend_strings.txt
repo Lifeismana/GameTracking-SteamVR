@@ -1,4 +1,3 @@
-                                
   close cubicTo
   closeSubpath
   cubicTo
@@ -15,21 +14,13 @@
 %!PS-AdobeFont
 %!PS-TrueTypeFont
 %ADOBeginFontDict
-&2&6&:&>&B&F&J&N&R&V0
-' '$'(','0'4'8'<'@0
-'!$J$N$R$V$Z$^$b$f$j$n0
-'\'`'d'h'l'p't'x'|'
-'\r%2%6%:%>%B%F%J%N%R%V0
-( ($(((,(0(4(8(<(@0
 (Hex)
-(Z(^(b(f(j(n(r(v(z1
 *.otf
 *.pfa
 *.pfb
 *.ttc
 *.ttf
 *node == e || (*node)->next
--j'j2j>jU
 ..\gui\text\qfontengine_ft.cpp
 .?AV?$QOffscreenEventDispatcher@VQEventDispatcherWin32@@@@
 .?AVQAbstractEventDispatcher@@
@@ -61,59 +52,24 @@
 .?AVexception@std@@
 .?AVtype_info@@
 .AppleDouble/
-.B.F.J.N.R.V.Z.^2
-.\v1o0
 .notdef
 .null
 .resource/
 /..namedfork/rsrc
-/5\n,6,:,>,B,F,J,N,R,V,Z0
 /rsrc
 /sfnts
-0!0%0)0-014
 001.000
 001.001
 001.002
 001.003
-050s0
-1"1i3
-1*1V1[0
 1.1.4
 10646
-1:1>1B1F1J1N1R0
-1a1e1
-2)202<2U2e2
-2C2L
-2q2z2
-3)323A3O3
-3h3q
-4%43
-4G4Pe
-4j4r4}4
-575A
-5G5S
-5_5i5p
 5gib
-646B
-6K6S
-6o6v6
-797k7
-7F7W7c
-7\n0K0O0S0W0[0_0c0g0k0o0
 8859
-8n8y
-9@9Y9`9y9
-9F9O
-9g9p
 : on curve =
-:4\t/B/F/J/N/R/V/Z/^/b0
 :qmemoryfonts/
->7>Ba
-A*A3
-A;AAA[
 ADD_STYLE_NAME
 AEsmall
-AJAU
 AVERAGE_WIDTH
 AVG_CAPITAL_WIDTH
 AVG_LOWERCASE_WIDTH
@@ -127,7 +83,6 @@ Adieresissmall
 Agrave
 Agravesmall
 Aharoni
-AiAtA
 Andale Mono
 Andalus
 Angsana New
@@ -146,12 +101,9 @@ Atilde
 Atildesmall
 AxisLabel
 AxisType
-B<B{B
-BFBQB[Bb
 BITMAP
 Baskerville
 Batang
-BiBr
 Bitstream Vera Sans
 Black
 BlendAxisTypes
@@ -184,8 +136,6 @@ CIDFontVersion
 CIDMapOffset
 COMMENT
 COPYRIGHT
-CQCtC
-CWCf
 Cacute
 CapHeight
 Caronsmall
@@ -208,7 +158,6 @@ CordiaUPC
 Core MS Legacy Fonts
 Courier New
 Csmall
-D&D4a
 D:\qt5\qtbase\plugins\platforms\qoffscreend.pdb
 DEFAULT_CHAR
 DESTINATION
@@ -216,7 +165,6 @@ DEVICE_FONT_NAME
 DFKai-SB
 DFKaiSho-SB
 DFKaiShu
-DWDbDgD
 DWIDTH
 Dark Courier
 David
@@ -227,13 +175,10 @@ Descender
 DesignVector
 Dieresissmall
 DilleniaUPC
-DmDs
 Dotaccentsmall
 Droid Sans
 Droid Sans Mono
 Dsmall
-E+E\HTH\HfHrH
-E3EAEL
 ENCODING
 ENDCHAR
 ENDFONT
@@ -247,7 +192,6 @@ Edieresis
 Edieresissmall
 Egrave
 Egravesmall
-EnEyE
 Encoding
 EncodingScheme
 EndAxis
@@ -265,14 +209,11 @@ Ethsmall
 EucrosiaUPC
 ExpansionFactor
 ExpertEncoding
-F'F2F>F\Fsa
 FACE_NAME
 FAMILY_NAME
-FC\r4
 FDArray
 FDBytes
 FIGURE_WIDTH
-FKFV
 FONT
 FONTBOUNDINGBOX
 FONTNAME_REGISTRY
@@ -286,7 +227,6 @@ FamilyBlues
 FamilyName
 FamilyOtherBlues
 FangSong_GB2312
-FbFi
 Fixed Miriam Transparent
 FontBBox
 FontDirectory
@@ -300,13 +240,8 @@ Franklin Gothic Medium
 FreesiaUPC
 Fsmall
 FullName
-G!G&C
-G+GXGfGkGpGuG{G
 G7G;G@GEGJM
-G9\n-.-2-6-:->-B-F-J-N-R0
 GDBytes
-GPGTB
-G^GbF
 Garamond
 Gautami
 Gbreve
@@ -316,19 +251,15 @@ Gill Sans
 Gravesmall
 Gsmall
 Gulim
-H=HF
 HEZLOCUS
 Helvetica
 Helvetica Neue
-Ho\thwh
 Hsmall
 HuaTianKaiTi?
 HuaTianSongTi?
 Hungarumlautsmall
-I&I,I:IJ
 ISOLatin1Encoding
 ITALIC_ANGLE
-IaIrI
 Iacute
 Iacutesmall
 Icircumflex
@@ -348,21 +279,11 @@ IsFixedV
 Ismall
 Italic
 ItalicAngle
-J1J7JU
-J?JH
 JasmineUPC
 Jsmall
-JvKsK}l\tJ
-K&K8KFKQ
-KUMUX
-K^Kd
 KaiTi_GB2312
 KodchiangUPC
 Ksmall
-L'LZa
-L0L:LA
-LHLQ
-LaLj
 LanguageGroup
 Latha
 Legacy Sans Fonts
@@ -371,7 +292,6 @@ Liberation Sans
 Light
 LilyUPC
 Lobster
-LrMDM
 Lslash
 Lslashsmall
 Lsmall
@@ -381,8 +301,6 @@ Lucida Sans Typewriter
 Lucida Sans Unicode
 MAX_SPACE
 MIN_SPACE
-MJM|a
-MRM\Mc
 MS Gothic
 MS Legacy Fonts
 MS Mincho
@@ -403,23 +321,17 @@ Miriam
 Miriam Fixed
 Miriam Transparent
 Misc Legacy Fonts
-MjMs
 Monaco
 Msmall
-N;NHNQNkN
 NORM_SPACE
 NOTICE
-NWNb
 Narkisim
 Normal
 Notice
-NqNy
 Nsmall
 Ntilde
 Ntildesmall
-O5OFO\OgO
 OEsmall
-OQOV
 OTTO
 Oacute
 Oacutesmall
@@ -432,7 +344,6 @@ Ogoneksmall
 Ograve
 Ogravesmall
 Omega
-OpOti
 OpticalSize
 Optima
 Ordering
@@ -442,18 +353,13 @@ Osmall
 OtherBlues
 Otilde
 Otildesmall
-P.P5
-PAPU
 PIXEL_SIZE
 PMingLiU
 POINT_SIZE
 PaintType
 Palatino Linotype
-PmXh]=b
 Private
 Psmall
-Q)Q7QWQ
-Q=QH
 QFontDatabase: Cannot find font directory %s - is Qt installed correctly?
 QFontEngine: Glyph neither outline nor bitmap format=%d
 QList<T>::at
@@ -465,12 +371,9 @@ QUAD_WIDTH
 QVarLengthArray::QVarLengthArray()
 QVector::insert
 QVector<T>::at
-Q_Qd
 Q_UNREACHABLE was reached
 Q_UNREACHABLE()
 Qsmall
-R%R<RqS
-R+R2
 RAW_ASCENT
 RAW_AVERAGE_WIDTH
 RAW_AVG_CAPITAL_WIDTH
@@ -504,8 +407,6 @@ RELATIVE_WEIGHT
 RESOLUTION
 RESOLUTION_X
 RESOLUTION_Y
-RFRQR\Rf
-RSDSp!
 Raavi
 Registry
 Regular
@@ -516,16 +417,12 @@ Ringsmall
 Rod Transparent
 Roman
 Rsmall
-S%S?a
-S+S6
 SDBytes
 SETWIDTH_NAME
 SIZE
 SLANT
-SLSnSzS
 SMALL_CAP_SIZE
 SPACING
-SRSd
 STARTCHAR
 STARTFONT
 STARTPROPERTIES
@@ -575,11 +472,7 @@ Subrs
 Supplement
 Sylfaen
 Symbol
-T#T.Tk
-T4T;
-TETNTc
 THEZOCQS
-TTT[
 Tahoma
 Tcommaaccent
 The specified iterator argument 'before' is invalid
@@ -596,7 +489,6 @@ Tsmall
 Tunga
 Type 1
 Type 42
-UEUeUt
 UIDBase
 UNDERLINE_POSITION
 UNDERLINE_THICKNESS
@@ -614,66 +506,41 @@ UnderlineThickness
 UniqueID
 Unknown exception
 Usmall
-V$VYW
-V,V7VB
 VVector
 Verdana
 Verdana Clones
 Verdana and Clones
 Version
-VgVrV
 Vsmall
-W$W>WBWSW
-W,W6
 WEIGHT
 WEIGHT_NAME
 WakeAllConditionVariable
 Webdings
 Weight
 WeightVector
-WiWr
 Width
 Windows FNT
 Wingdings
 Wsmall
-XCXVXac
 XHeight
-XIXP
 X_HEIGHT
 Xsmall
-YLYVh
-Y]Ym[u[
 Yacute
 Yacutesmall
 Ydieresis
 Ydieresissmall
-YeYii
 Ysmall
-Z!Z1
-ZDZUZ]Zj
 Zcaron
 Zcaronsmall
 Zsmall
-[#[/[:[[[c[n
-\!\(\A\\\~\
-\f(\f6\fC\fP\f_\fn\f|\f
-\n"\n)\n7\nA\nH\nS\nc\np\n|\n
-\r%\r1\rB\rQ\rZ\rf\rr\r~\r
-\t \t$\t6\tI\tY\th\ts\tz\t
-\v"\v,\v9\vE\vR\v[\ve\vr\v
 _MULE_BASELINE_OFFSET
 _MULE_RELATIVE_COMPOSE
 _XFREE86_GLYPH_RANGES
-a'aCaYb"b8b
-a-a8
-aJaP
-a\ft/tOtet
 aacute
 aalloc ? d != Data::sharedNull() : d == Data::sharedNull()
 acircumflex
 acute
 adieresis
-aeam
 agrave
 ahoj
 ampersand
@@ -689,10 +556,6 @@ asterisk
 asuperior
 atilde
 autofitter
-b(b0
-bBbMb
-bTbm
-b^be
 backslash
 bad allocation
 bad array new length
@@ -706,11 +569,6 @@ breve
 brokenbar
 bsuperior
 bullet
-bwb~
-c c2
-c7cPc
-c>cG
-cZcccqc
 cacute
 caron
 ccaron
@@ -737,7 +595,6 @@ d != Data::unsharableEmpty()
 d->alloc >= uint(aalloc)
 d->data()
 d->size == asize
-d6d?a
 d:\qt5\qtbase\include\qtcore\../../src/corelib/kernel/qmetatype.h
 d:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qhash.h
 d:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qlist.h
@@ -747,14 +604,12 @@ d:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qvarlengtharray.h
 d:\qt5\qtbase\include\qtcore\../../src/corelib/tools/qvector.h
 d:\qt5\qtbase\include\qtcore\5.5.0\qtcore\private\../../../../../src/corelib/tools/qstringiterator_p.h
 d:\qt5\qtbase\include\qtgui\5.5.0\qtgui\private\../../../../../src/gui/text/qfragmentmap_p.h
-d]dbdpdyd
 dagger
 daggerdbl
 darkening-parameters
 dcroat
 default-script
 degree
-dhdl3
 dieresis
 divide
 dollar
@@ -764,10 +619,7 @@ dollarsuperior
 dotaccent
 dotlessi
 dsuperior
-e e%e.e=eM
-eZe}e
 eacute
-ebegeq
 ecircumflex
 edieresis
 eexec
@@ -786,10 +638,6 @@ exclam
 exclamdown
 exclamdownsmall
 exclamsmall
-f!f=fEfwf
-f'f5
-fPfo
-fWfc
 fallback-script
 field < Fragment::size_array_max
 figuredash
@@ -808,8 +656,6 @@ fouroldstyle
 foursuperior
 fraction
 franc
-g5g>gK
-gZgnhKhWhci
 gbreve
 germandbls
 glyph-dict
@@ -828,7 +674,6 @@ hungarumlaut
 hyphen
 hypheninferior
 hyphensuperior
-i(i4i:iP
 iacute
 icircumflex
 idieresis
@@ -855,16 +700,8 @@ isDetached()
 isFixedPitch
 isuperior
 iterator hasn't a next item
-jDjK
-j[ros
-k k.k;m
-kZkjk
-k\vnK
 kerning
 known
-l*l3
-lElblrl
-lKlV
 lenBuildCharArray
 lenIV
 less
@@ -876,17 +713,11 @@ lozenge
 lslash
 lsuperior
 ltuo
-mRmom}m
-mXme
-m\tm9e
 macron
 minus
 msuperior
 multi-masters
 multiply
-n2n?
-nPnq
-n^nf
 need dictionary
 nine
 nineinferior
@@ -900,14 +731,12 @@ notequal
 nsuperior
 ntilde
 numbersign
-oEoOoZoaozo
 oacute
 ocircumflex
 odieresis
 offscreen
 ogonek
 ograve
-ohoq
 onedotenleader
 oneeighth
 onefitted
@@ -925,7 +754,6 @@ otilde
 oversubscribed distance tree
 oversubscribed dynamic bit lengths tree
 oversubscribed literal/length tree
-p#p7pP
 paragraph
 parenleft
 parenleftinferior
@@ -953,10 +781,8 @@ properties
 psaux
 pshinter
 psnames
-q4qIqQ
 qRegisterNormalizedMetaType
 qRegisterNormalizedMetaType was called with a not normalized type name, please call qRegisterMetaType instead.
-qYqaqnq
 qoffscreend.dll
 qt_plugin_instance
 qt_plugin_query_metadata
@@ -972,8 +798,6 @@ quoteleft
 quoteright
 quotesinglbase
 quotesingle
-r*r4r;
-rQr\
 radical
 raster1
 raster5
@@ -982,8 +806,6 @@ resource.frk/
 ring
 rsuperior
 rupiah
-s&sg
-s1s:sHsX
 scaron
 scedilla
 section
@@ -1005,7 +827,6 @@ slot->bitmap.pixel_mode == FT_PIXEL_MODE_MONO
 smooth
 smooth-lcd
 smooth-lcdv
-smsv
 snaw
 space
 ssuperior
@@ -1015,8 +836,6 @@ struct QFontEngineFT::Glyph *__cdecl QFontEngineFT::loadGlyph(struct QFontEngine
 summation
 symbol
 t1cid
-t5tF
-tUt[
 tag =
 tcommaaccent
 thorn
@@ -1028,7 +847,6 @@ threequarters
 threequartersemdash
 threesuperior
 tilde
-tlt~
 too many length or distance symbols
 trademark
 true
@@ -1044,39 +862,24 @@ twosuperior
 twothirds
 type1
 type42
-u,uEu
-uKu`
 uacute
 ucircumflex
 udieresis
 ugrave
 uint(d->size) <= d->alloc
-uluzu
 underscore
 unknown compression method
 unsigned int __cdecl QStringIterator::next(unsigned int)
-v8vUb
 version
-vnvyv
 void __cdecl QBasicFontDatabase::populateFontDatabase(void)
-wDwNwYw`wy
-wgwp
 winfonts
 x->ref.isSharable() || options.testFlag(QArrayData::Unsharable)
-x>xoxyx~
-xIxRx[xe
 xf86-driver-name
 xzroesc
-y'y6y?yMa
-yZygy
 yacute
 ydieresis
-ymyx
-z<zRz_zvz
-zCzI
 zcaron
 zero
 zeroinferior
 zerooldstyle
 zerosuperior
-zezn

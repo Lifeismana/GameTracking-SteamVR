@@ -1,22 +1,16 @@
-            
-               
-                   
                                        
                                         
                                           
                                             
                                                             
-                         abcdefghijklmnopqrstuvwxyz      abcdefghijklmnopqrstuvwxyz     
-                         abcdefghijklmnopqrstuvwxyz      abcdefghijklmnopqrstuvwxyz      
-                         abcdefghijklmnopqrstuvwxyz      abcdefghijklmnopqrstuvwxyz                                      
-                         abcdefghijklmnopqrstuvwxyz      abcdefghijklmnopqrstuvwxyz                                        
-                         abcdefghijklmnopqrstuvwxyz      abcdefghijklmnopqrstuvwxyz                                               
                          abcdefghijklmnopqrstuvwxyz      abcdefghijklmnopqrstuvwxyz                                                          
                          abcdefghijklmnopqrstuvwxyz      abcdefghijklmnopqrstuvwxyz                                                                      
  !"#$%&'()*+,-./01
 %%CollationBin
+%+1.*e
+%+1.1f
+%.*g
 %1.15e
-%v@3333
 (?m)^[ \t]*([0-9A-Fa-f]+)[ \t]+;[ \t]*([0-9A-Fa-f]+(?:[ \t]+[0-9A-Fa-f]+)*)[ \t]*;\s*(?:(SL)|(SA)|(ML)|(MA))[ \t]*(?:#.*?)?$|^([ \t]*(?:#.*?)?)$|^(.*?)$
 (anonymous namespace)::KeywordsSink::put(char const*, icu_58::ResourceValue&, signed char, UErrorCode&)
 (anonymous namespace)::KeywordsSink::~KeywordsSink()
@@ -55,17 +49,13 @@
 -Zero
 -narrow
 -short
-.*000K0L0
 /DateTimePatterns
 0.6931471805599453094172321214581765680755
 0123456789abcdefghijklmnopqrstuvwxyz
 1234...........IXO..SN..LU......
-1W[X[
 2.302585092994045684017991454684364207601
 2147483647
-44sV
 5walgorithmic
-6m4A2
 9223372036854775807
 <dummy>
 <empty>
@@ -78,13 +68,11 @@
 @calendar=islamic-civil
 @calendar=persian
 @calendar=roc
-@wKA
 ANY
 AmPmMarkers
 AmPmMarkersAbbr
 AmPmMarkersNarrow
 AuxExemplarCharacters
-BA7R
 Big5
 CAL_TYPES
 CLOSE
@@ -134,7 +122,6 @@ GLIBC_2.3.4
 GLIBC_2.4
 GMT_ID
 HALF_ENDERS
-HN?T\r
 Hour
 ID_CURRENCY
 ID_DATE
@@ -181,7 +168,6 @@ LEN_CANONICAL_SYSTEM_ZONES
 LEN_SYSTEM_ZONES
 LIMITS
 LNnn
-L\rPA
 MAP_CANONICAL_SYSTEM_LOCATION_ZONES
 MAP_CANONICAL_SYSTEM_ZONES
 MAP_SYSTEM_ZONES
@@ -527,10 +513,6 @@ Zones
 [hiraganaQ on] is not supported
 [import langTag] failed
 [import langTag] is not supported
-\5YyV
-\r>\r?\rM\rN\rW\rX\r
-\t<\t=\tM\tN\tQ\tU\t
-\v<\v=\v>\v?\vM\vN\vV\vX\v
 _DYNAMIC
 _GLOBAL_OFFSET_TABLE_
 _GMT
@@ -987,6 +969,7 @@ gigahertz
 gigawatt
 gmtFormat
 gmtZeroFormat
+gold 1.11
 gram
 gregocal.cpp
 gregoimp.cpp
@@ -1004,7 +987,6 @@ hertz
 horsepower
 hour
 hourFormat
-hsz?
 i18n_cleanup()
 icu_58::(anonymous namespace)::AllowedHourFormatsSink::put(char const*, icu_58::ResourceValue&, signed char, UErrorCode&)
 icu_58::(anonymous namespace)::AllowedHourFormatsSink::~AllowedHourFormatsSink()
@@ -6605,7 +6587,6 @@ primary tailoring gap too small
 primaryZones
 private-
 punct
-pup7@
 quant.cpp
 quantityformatter.cpp
 quart

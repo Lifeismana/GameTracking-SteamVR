@@ -16,7 +16,6 @@ PNG\r\n
 QICOPlugin
 QList<T>::operator[]
 QtIcoHandler::canRead() called with no device
-RSDS%yUw
 SleepConditionVariableCS
 Unknown exception
 WakeAllConditionVariable

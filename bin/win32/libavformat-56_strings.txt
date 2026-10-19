@@ -6,9 +6,9 @@
   Program %d %s\n
   duration=%0.3f\n
   keyframe=%d\n
- !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
+  size=%d\n
  !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
- !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
+ %.2s:%.2s
  %02x
  (clean effects)
  (comment)
@@ -19,8 +19,8 @@
  (lyrics)
  (original)
  (visual impaired)
- 23\fq
 %+08.4f%+09.4f/
+%0*d
 %0.3f
 %02d:%02d:%02d.%02d
 %02d:%02d:%02d.%03d
@@ -29,26 +29,28 @@
 %Y-%m-%d %H:%M:%S
 %d kb/s
 %d.%06d
+%d/%d
 %s  %-16s: %s\n
 %s #%d, %s, %s '%s':\n
+%s-%s
+%s/%s
 %sMetadata:\n
 %sSide data:\n
 %ti bytes of comment header remain\n
-( 8PX
 ('8PW
 (none)
 (null)
 *pkt_buffer
+, %1.0f %s
 , %1.0fk %s
+, %3.2f %s
 , %d, %d/%d
 , PAR %d:%d DAR %d:%d
 , bitrate: 
 , start: 
+-%.2s-%.2s
 --prefix=/c/buildslave/libav_win32/build/dev/build_win32 --toolchain=msvc --enable-shared --disable-static --enable-runtime-cpudetect --disable-all --enable-avcodec --enable-avutil --enable-avresample --enable-avformat --enable-swscale --enable-parser=h264 --enable-decoder='aac,h264,vp8,vp9,gif,vorbis' --enable-demuxer='aac,matroska,gif,ogg,mov' --enable-hwaccels --enable-dxva2 --disable-decoder=mpeg1video --disable-decoder=mpeg2video --disable-decoder=vc1 --disable-decoder=h263 --enable-libvpx
--64OS
 .mp1
-.mp2
-.mp3
 0123456789ABCDEF0123456789abcdef
 1#IND
 1#INF
@@ -68,10 +70,8 @@
 700PP
 700WP
 8BPS2
-:Feje$
 A bright coloured fish
 A capella
-A(L4
 AAS4K
 AASCL
 ABCDEFGHIJKLMNOPQRSTUVWXYZ
@@ -314,7 +314,6 @@ GAVC
 GEOB
 GEOV\r
 GEOX\r
-GH7z^U
 GIF87a
 GIF89a
 GXVE
@@ -345,7 +344,6 @@ HDX4\r
 HDYC
 HFYUD
 HH:mm:ss
-HMXB
 Hard Rock
 Hardcore
 Headers mismatch for stream %d: expected %d received %d.\n
@@ -489,9 +487,7 @@ Multiple fisbone for the same stream
 Multiple mdhd?\n
 Musical
 NAME
-NKeb
 NO16
-NONE
 NULL
 NV12
 NV21
@@ -503,7 +499,6 @@ New Wave
 Noise
 Non-increasing DTS in stream %d: packet %d with DTS %lld, packet %d with DTS %lld\n
 November
-Oc:\buildslave\libav_win32\build\dev\libavutil/file_open.c
 October
 Oldies
 Opera
@@ -547,8 +542,6 @@ QDMC$P
 QIVG
 QMP4\r
 QPEG=
-Qclp
-Qclq
 QuickTime / MOV
 R10g
 R10k
@@ -561,7 +554,6 @@ REPLAYGAIN_TRACK_PEAK
 RGBA
 RMP4\r
 RPZA+
-RSDSv
 RT21M
 Rave
 Read error at pos. %llu (0x%llx)\n
@@ -576,19 +568,16 @@ Rhythmic Soul
 Rock
 Rock & Roll
 S263W
-S;uD
 SEDG\r
 SIPP\r
 SL25
 SLDV
 SLMJ
 SM4V\r
-SMI 
 SMP4\r
 SMV2
 SN40\r
 SP54|
-SPXN
 SVQ1
 SVQ3
 SVQ3\r
@@ -715,7 +704,6 @@ VDTZ
 VIDM\r
 VIXL=
 VMnc^
-VNna
 VP30[
 VP31
 VP31+
@@ -800,11 +788,10 @@ ZLIB#
 ZMBVV
 ZMP4\r
 ZyGo
-`h`hhh
+[0x%x]
 abcdefghijklmnopqrstuvwxyz
 abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+-.
 abort decoding on minor error detection
-ac-3
 agsm<P
 ai12
 ai13
@@ -880,7 +867,6 @@ av_url_split
 av_write_frame
 av_write_trailer
 avc1
-avcC )
 avformat_alloc_context
 avformat_close_input
 avformat_configuration
@@ -941,7 +927,6 @@ avio_write
 avpriv_new_chapter
 avpriv_set_pts_info
 avs2u
-avss
 azpr+
 b16g
 b48r
@@ -953,15 +938,11 @@ bxrg
 bxy2
 bxyv
 c:\buildslave\libav_win32\build\dev\libavformat\libavformat-56.pdb
+c:\buildslave\libav_win32\build\dev\libavutil/file_open.c
 cannot find sync word\n
 cdvc
-chan
 channel count %lu, 
 channel layout: %s, 
-chap
-chpl
-cmov
-co64`,
 comment
 compatible_brands
 composer
@@ -973,13 +954,10 @@ cram/
 crccheck
 creation_time
 cryptokey
-ctts
 cvid1
 cvid4
-dac3
 date
 dddd, MMMM dd, yyyy
-dec3p
 decoding for stream %d failed\n
 decryption key
 default delay between frames (in hundredths of second)
@@ -988,7 +966,6 @@ description
 detect bitstream specification deviations
 detect improper bitstream length
 dimensions not set\n
-dinf`7
 dir %s\n
 disable AVParsers, this needs nofillin too
 disc
@@ -1002,17 +979,11 @@ do not write random/volatile data
 dpx 
 drac+
 dracd
-dref
-dtsc
-dtsh
-dtsl
 dv25
 dv50
 dv5n
 dv5p
 dvc 
-dvc1
-dvca
 dvcp
 dvcs
 dvh1
@@ -1030,19 +1001,14 @@ dvsd
 dvsl
 e+000
 eac3
-ec-3
-edts`7
-elstP%
 encoded_by
 encoder
 end %f\n
-endaP"
 episode_id
 episode_sort
 err_detect
 error reading header: %d\n
 error unaligned chunk\n
-esdsp\v
 experimental
 explode
 exr 
@@ -1054,7 +1020,6 @@ fdebug
 ff_read_packet stream=%d, pts=%lld, dts=%lld, size=%d, duration=%d, flags=%d\n
 fffff3ff
 fflags
-fiel
 file
 filename
 filename %s, len %d\n
@@ -1067,18 +1032,15 @@ flush_packets
 fpsprobesize
 framerate
 from
-ftyp`
 gapless_playback
 generate pts
 genpts
 genre
 gif >
-glbl )
 h263
 h263 macroblock info
 h264
 hd_video
-hdlr
 hdv1
 hdv2
 hdv3
@@ -1094,7 +1056,6 @@ how many microseconds are analyzed to estimate duration
 how strictly to follow the standards
 how strictly to follow the standards (deprecated; use strict, save via avconv)
 hvc1
-hvcC )
 icod
 igndts
 ignidx
@@ -1103,8 +1064,6 @@ ignore index
 ignore loop setting (netscape extension)
 ignore_loop
 ilbc\tP
-ilstP\n
-ima4
 image/bmp
 image/gif
 image/jpeg
@@ -1124,9 +1083,7 @@ invalid dts/pts combination\n
 invalid extended header length
 invalid frame id, assuming padding
 invalid size %lu in stsd\n
-jp2h
 jpeg
-kU'9
 language
 latm
 libavformat license: LGPL version 2.1 or later
@@ -1171,15 +1128,10 @@ max_delay
 max_interleave_delta
 maximum buffering duration for interleaving
 maximum muxing or demuxing delay in microseconds
-mdat
-mdhd@
-mdia`7
 media_type
-meta
 mime_type
 mimetype
 min_delay
-minf`7
 minimum valid delay between frames (in hundredths of second)
 minor_version
 mjp2Y
@@ -1187,12 +1139,9 @@ mjp2^
 mjpa
 mjpa\n
 mjpb
-moof
-moov
 moov atom not found\n
 mov,mp4,m4a,3gp,3g2,mj2
 mp2vY
-mp4a
 mp4v\r
 mpeg
 mpegts
@@ -1204,8 +1153,6 @@ mrle.
 msvc/
 multiple edit list entries, a/v desync might occur, patch welcome\n
 multiple fourcc not supported\n
-mvex`7
-mvhd
 mx3n
 mx3p
 mx4n
@@ -1231,7 +1178,6 @@ packetsize
 palette
 palette: 
 paramchange: 
-pasp@
 path %s\n
 pdvc
 performer
@@ -1262,9 +1208,6 @@ sac3
 sample aspect ratio already set to %d:%d, ignoring 'pasp' atom (%d:%d)\n
 sample rate not set\n
 sample_rate %lu, 
-samr
-sawb
-sbgp
 season_number
 set error detection flags
 set error detection flags (deprecated; use err_detect, save via avconv)
@@ -1278,38 +1221,25 @@ sm"P
 smc 8
 sowt
 spex$P
-sqcp
 st:%d has too large timebase, reducing\n
 st:%d removing common factor %d from timebase\n
 start %f, 
 start time is not set in estimate_timings_from_pts\n
-stbl`7
-stco`,
-stps
 stream #%d:\n
 stream %d, error opening alias: path='%s', dir='%s', filename='%s', volume='%s', nlvl_from=%d, nlvl_to=%d\n
 stream %d, missing mandatory atoms, broken header\n
 stream %d, offset 0x%llx: partial file\n
 stream %d, timescale not set\n
 stream index %d is not valid\n
-strfp+
 strict
 strictly conform to all the things in the spec no matter what the consequences
 strptime() unavailable on this system, cannot convert the date string.\n
-stsc
-stsdp;
-stss
-stsz
-stts
-stz2
 svq1
 svq19
 svqi
 synopsis
 text
 text/plain
-tfdt 
-tfhd
 tga >
 tga a
 theoN
@@ -1320,23 +1250,16 @@ tiffb
 timecode
 title
 title-sort
-tkhdp
 too big INFO subchunk\n
 track
 track gain
 track peak
-traf`7
-trak
-tref`7
-trex`
-trun@
 truncated comment header, %i comments not found\n
 truncated file\n
 tscc:
 twos
 tx3g
 type %d, len %d\n
-udta`7
 ulaw
 unknown
 unknown param
@@ -1346,22 +1269,18 @@ uyv1
 v210
 v410
 vc-1X
-vdva
 verify embedded CRCs
 version
 video
 viv1\r
 volume %s, len %d\n
 vorbis
-wave
 webm
 wfex
 wham,
-wide
 width %lu height %lu
 wrong chunk count %d\n
 wrong sample count\n
-wwwUUUDDD"""
 x264
 xd51
 xd54
@@ -1390,10 +1309,6 @@ xdvc
 xdvd
 xdve
 xdvf
-xppwpp
-xpxxxx
 xtor
 yuv2
 yuvs
-z?aUY
-zc%C1

@@ -82,7 +82,6 @@ libpthread.so.0
 libstdc++.so.6
 memcpy
 memset
-nX(r
 operator delete(void*)
 operator delete[](void*)
 operator new(unsigned long)

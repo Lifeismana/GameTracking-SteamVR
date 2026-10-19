@@ -1,15 +1,8 @@
                     
-                                                                0000000000000000000000000000000000000000000000000000000000000000@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@PPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPP````````````````````````````````````````````````````````````````pppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppp
-                                00000000000000000000000000000000@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@PPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPP````````````````````````````````pppppppppppppppppppppppppppppppp
-                0000000000000000@@@@@@@@@@@@@@@@PPPPPPPPPPPPPPPP````````````````pppppppppppppppp
-  ##%%&&))**,,//1122447788;;==>>@@CCEEFFIIJJLLOOQQRRTTWWXX[[]]^^aabbddgghhkkmmnnppssuuvvyyzz||
- !"#$%&'()*+,-./0123
- !"#$%&'()*+,-./0123456789:;<=>?
  !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
  !"#$%&'()*+,-./0123456789:;<=>?Sample message for keylen=blocklen
- !$%(),-"#&'*+./014589<=2367:;>?
  "!#$&%'(*)+,.-/021346578:9;<>=?
- ' ) - 3 G M Q _ c e i w } 
+ %d%c
  (BGP MDT)
  (MPLS)
  (MPLS-labeled VPN)
@@ -22,37 +15,22 @@
  (VPLS)
  (does the path point to a directory?)
  GMT
- \vjpF
  at line 
  characters
  exceeds maximum allowed file size 
  for 
  for detail.\n
- iciNWq
  in Buffer\n
  name=
- wZiK
  with 
-! !K+hcF&db
-!5!A!I!O!Y![!_!s!}!
-!H88p
 !hcK+dbF&
-!tI)i
-!tX)i
 " not found in the scene.
-"!"%"+"1"9"K"O"c"g"s"u"
 "%/28;=#$019:>?
 ". Must be "perspective" or "orthographic"
-"3DUfw
-"3ii
-"Q>W1
-"`bB303
 "accessors" object not found in .gltf\n
 "asset" object not found in .gltf or not an object type\n
 "bufferViews" object not found in .gltf\n
 "buffers" object not found in .gltf\n
-"cs73KI
-"lbN.
 "nodes" object not found in .gltf\n
 "orthographic" is not a JSON object.
 "perspective" is not a JSON object.
@@ -61,27 +39,13 @@
 "spot" is not a JSON object.
 "subtype": 
 #################### NVENC: %s\n
-##eF##eFii
-#0Kz9
-#:*S8,}gNzl
 #?RADIANCE
 #?RADIANCE\n
 #?RGBE
 #?RGBE\n
-#Q7z
-#\t#\v#'#)#/#3#5#E#Q#S#Y#c#k#
-#\v+(bF&drJ:x#
 #bundle
-$%&'()*+,-./0123456789:;<=
-$)$=$A$C$M$_$g$k$y$}$
-$3br
-$Cw!R
-$O\tdwR\rox\\r*
-$XI(6
-$d`D-laM
-%%oJ%%oJ$$lH$$lHss
-%&'()*456789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
-%'%1%=%C%K%O%s%
+%%.%dg
+%*s  
 %*s      %s%s%s%s\n
 %*s    Info Entries:\n
 %*s    Profession OIDs:\n
@@ -91,8 +55,13 @@ $d`D-laM
 %*s  admissionAuthorityId: 
 %*s  namingAuthorityText: 
 %*s  namingAuthorityUrl: 
+%*s%04x - 
 %*s%s Private-Key:\n
 %*s%s Public-Key:\n
+%*s%s-
+%*s%s:\n
+%*s%s:\n%*s
+%*s%s\n
 %*s<EMPTY>\n
 %*s<INVALID PRIVATE KEY>\n
 %*s<INVALID PUBLIC KEY>\n
@@ -127,9 +96,16 @@ $d`D-laM
 %*sinherit\n
 %*snamingAuthority: 
 %*spriv:\n
+%*spub:\n
 %-18s
+%-8d
+%.0f
 %.14s.%03dZ
 %.1f ms
+%.2X
+%.2g
+%.3f\n
+%.3f\t
 %019llu
 %02X
 %02X%02X
@@ -142,7 +118,6 @@ $d`D-laM
 %04d%02d%02d%02d%02d%02dZ
 %04x%c
 %08lx
-%0nV4
 %12s: %9s
 %12s:%10.3f
 %13s:%9.3f
@@ -158,24 +133,34 @@ $d`D-laM
 %Y-%m-%d-%p_%I_%M_%S
 %a %b %d %H:%M:%S %Y
 %a %b %d %Y %H:%M:%S.%%03u
-%bw+s
 %c%sFailFuzz
+%d%c
+%d%s
+%d, %d%c
+%d,%d
 %d,%d,%d,%d
 %d.%d.%d.%d
 %d.%d.%d.%d/%d.%d.%d.%d
 %d/%d hw max [%d]\n%d in (%d bits)\nPair: %s
-%daE<<0\f6
 %dx%d
 %f %d %d %d %08x\n
+%jd\n
+%ju\n
 %llu
 %lu:%s:%s:%d:%s\n
 %s %2d %02d:%02d:%02d %d%s
 %s %2d %02d:%02d:%02d%.*s %d%s
+%s %d
 %s %s HTTP/1.0\r\n
 %s %s startup with PID=%u, config=%s, runtime=%s, arch=%s\n
 %s %s%lu (%s0x%lx)\n
+%s - %s
+%s 0\n
 %s Salt Length: 0x
 %s%02x
+%s%s%s
+%s%s%s%s\n
+%s%s\n
 %s: (%d bit)\n
 %s: Clamped historical frame length from %d -> %d
 %s: Clamping nHistoricalFrames to maximum value of %d
@@ -183,13 +168,10 @@ $d`D-laM
 %s:%d: OpenSSL internal error: %s\n
 %s[%s] %s file=%s
 %u of %u datalinks failed to initialize. Returning the last failure.
+%u,%u
 %u,%u,%u,%u
 %u,%u,%u,%u,%u,%u,%u,%u,%u,%u,%u,%u,%u,%d,%d,%d,%d,%llu,%llu,%u,%u,%u,%u,%u,%d\n
-&&Lj66lZ??~A
-&'&)&5&;&?&K&S&Y&e&i&o&{&
-&'()*56789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
-&5L_jy
-&Lj&6lZ6?~A?
+%x%s
 ' is not a number.
 ' property is missing
 ' property is missing in 
@@ -205,21 +187,11 @@ $d`D-laM
 ' property is not an integer type.\n
 ' property is not an object.\n
 ' value is not an integer type.\n
-'&%$#"! /.-,+*)(76543210?>=<;:98
 '.5<=6/7>????????????????
-'5'7'M'S'U'_'k'm's'w'
-'72q
-'DAE
-'RL6
-'SrN
 '[', '{', or a literal
 'id' or 'name' missing
-'prB2
 'uri' is missing from non binary glTF file buffer.\n
-(!(1(=(?(I(Q([(](a(g(u(
 ("<6PZDNxrlf
-(0'yX
-(3-!0,1'8"5.*2$
 (Enumerating)
 (Failed Enumeration)
 (General Failure)
@@ -232,29 +204,9 @@ $d`D-laM
 (Reset)
 (TEST_ENG_OPENSSL_PKEY)Loading Private key %s\n
 (TEST_ENG_OPENSSL_RC4) test_init_key() called\n
-(U1h
-(ZdOt\n&
-(fS{ggRcjh
-(h`H1pqA
 (null)
 (unknown)
-(wMww
-)!)#)?)G)])e)i)o)u)
-))Kb00\f<ZZ
-)5lX8
-)TpH
-)Urz
-)haI
-*%*/*O*U*_*e*k*m*s*
-*0fT
-*hbJ1
-*laM-\SO
-+'+1+3+=+?+K+O+U+i+m+o+{+
-+(#\v&dbF:xrJ'$#
 +10ms
-+2Hp
-+HpXhE
-+en+eo+
 , Type=
 , binary size = 
 , but got 
@@ -265,7 +217,6 @@ $d`D-laM
 , requestedBytes 
 , retcode=
 , value=
-,#,/,5,9,A,W,Y,i,w,
 ,\n\t"cPingHistogramv1" : [
 ,\n\t"cRXFailHistogramv1" : [
 ,\n\t"encTimeHistogramv1" : [
@@ -278,15 +229,10 @@ $d`D-laM
 -----BEGIN 
 -10ms
 -1e+9999
--;-C-I-M-a-e-q-
--DBF
 -Infinity
--NIL
--startup
-.%.-.3.7.9.?.W.[.o.y.
+.%lu
 ../../../../src/thirdparty/livepp
 .00cfg
-.97yY
 .?AU?$CFactoryMakerT@VCAnimSkeleton@@@?$CAnimFactoryBaseT@VCAnimResource@@@@
 .?AU?$CFactoryMakerT@VCBoneMaskResource@@@?$CAnimFactoryBaseT@VCAnimResource@@@@
 .?AU?$CFactoryMakerT@VCKeyframedDataResource@@@?$CAnimFactoryBaseT@VCAnimResource@@@@
@@ -575,7 +521,6 @@ $d`D-laM
 .CRT$XPZ
 .CRT$XTA
 .CRT$XTZ
-.HCK\v
 .HPN
 .P6A?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBV01@PEAX@Z
 .P6A_NAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PEAV01@PEAX@Z
@@ -600,9 +545,7 @@ $d`D-laM
 .idata$6
 .include
 .json
-.lbN
 .pdata
-.pp@0
 .previous.txt
 .rdata
 .rdata$T
@@ -623,14 +566,10 @@ $d`D-laM
 .tls$
 .tls$ZZZ
 .txt
-.x7B
 .xdata
 .xdata$x
-/'/)/A/E/K/M/Q/W/o/u/}/
-/+ep+eqU
 //==============================================================================================\n
 /7?'rrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr
-/9RZ
 /avatar/parameters/LeftEyeLid
 /avatar/parameters/LeftEyeLidExpandedSqueeze
 /avatar/parameters/LeftEyeSqueezeToggle
@@ -825,157 +764,44 @@ $d`D-laM
 /vrgamepadui/steamvr/vrlink_lasermousestate_tx
 /vrlink/steamvr/remoteClientRefreshRate
 /vrlink_client_isSteamVR
-0 ::Nt::NtVV
-0 Umv
 0 width
-0(`xPH
 0-pixel image
 0.0.0.0
 0000
 00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899
-000102030405060708091011121314151617181920212223242526272829303132333435363738394041424344454647484950515253545556575859606162636465666768697071727374757677787980818283848586878889909192939495969798998
-00P`00P`
 0123456789
 0123456789.
 0123456789.:abcdefABCDEF
 0123456789ABCDEF
 0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz./
 0123456789abcdef
-08bX
-0Z@q
-0\r0#0)070;0U0Y0[0g0q0y0}0
-0\tzc
-0\v2;i
-0`P0
-0a\v6<`G
-0n\n&pa
-0pp@5tqE?|sO541
 0x%I64x
 1 Sec
-1!1'1-191C1E1K1]1a1g1m1s1
 1/2/4/8/16-bit only
 10-bit format isn't supported by H264 encoder(NV_ENC_ERR_INVALID_PARAM)\n
 10.35.78.0
 10bit
 11 4 22 44 44 22 444444
-11M|
-11Sb11Sb""fD""fD77Yn77Yn66Zl66Zl
-11eU%
 127.
 127.0.0.1
 14 (default)
 169.254.
-1H@H
-1\v5#d
-1bS1
 1e+9999
-2)252Y2]2c2k2o2u2w2{2
-2+ss
 255.255.255.0
-27;C
-2Ht\l
-2bT~
-2dV2:tN:\n
-2dataCount too high (%u)\n
-2prB
-3"((xP((xPWW
-3$ae
-3%3+3/353A3G3[3_3g3k3s3y3
-3--Jg
 3333333333333333333333333333333333333333333333333333333333333333
-33Uf33Uf
-33fU
 33s?
-3Wk1^
-3\v;8BJ\nH
-3ej\n
-3psC'dcG,
-3xU)"P
-3|rN>
-44\h44\h++}V++}V
-44\r9MMR
-474E4U4W4c4i4m4
-4@AA
-4ESample #4
-4T9\n
-4\fZQ
-4\nLx
-4h8px
-4h\4
-4tpD
-5-535;5A5Q5e5o5q5w5{5}5
-55Ly
-55_j55_j,,tX,,tX``
-55j_WW
-5I)7
-5\tuy
-5mF\tfE
-5q\teH
-6#6165676;6M6O6S6Y6a6k6m6
-6-nn
-64CK\vH
 6666666666666666jjjjjjjjjjjjjjjj[
-6\rE(t
-6crypto\evp\evp_enc.c
-6qo~
-6tpD4
-6yy_&
-7,gm;
-77\nGJ
-7?7E7I7O7]7a7u7
-7XRJ
-7^d[L
-7nY7m
-82\n:XPH
-88Hp88Hp
-88pH
-8A6j
-8GZS
-8\v8!83858A8G8K8S8W8_8e8o8q8}8
 8\vWzK
-8]Vc2
 8c8f13b1-60eb-4b6a-a433-de86104115ac
 8d8f13b1-60eb-4b6a-a433-de86104115ac
 8e8f13b1-60eb-4b6a-a433-de86104115ac
-8pH8
-8v?i
-8y\rW
-8z\rkt
-9#9%9)9/9=9A9M9[9k9y9}9
-9)PF
-9)jx
-9-UA
-99Kr99Kr
-99Ov
-99rKJJ
-9<n\nM
-9IGv
-9JLX
-9a&g
-9hwN6p
-9p:T;x<
-9rK9J
 : exception thrown in JSON library
 : inherit\n
 : one or more FS callback not set
-:':+:1:K:Q:[:c:g:m:y:
-:LBN
-:eaI
 :fff?
-:oc\ve
 ; expected 
 ; last read: '
-;!;#;-;9;E;S;Y;_;q;{;
-;"lY7
-;22dV::tN\n\n
-;2dt
-;83\v\nHBJ7
-;fD4~
-;xsK
-<)<5<C<O<S<[<e<k<q<
-<0\f<pqA1
 <3"-xwfiDKZU
-<4E87
 <ASN1 11>
 <ASN1 13>
 <ASN1 14>
@@ -984,22 +810,14 @@ $d`D-laM
 <EMPTY>\n
 <INVALID>
 <NULL>
+<U+%.4X>
 <discarded>
 <invalid>
 <parse error>
 <uninitialized>
 <unknown>
 <unsupported>
-=!=-=3=7=?=C=o=s=u=y={=
 ================================================================================================\n
-==zGdd
-=Uec
-=j&&LZ66lA??~
-=trF6,#
->#>)>/>3>A>W>c>e>w>
->\v?\r?7?;?=?A?Y?_?e?g?y?}?
-?&&jL&&jLaa
-?456789:;<=
 ??0?$basic_ios@DU?$char_traits@D@std@@@std@@IEAA@XZ
 ??0?$basic_iostream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@@Z
 ??0?$basic_istream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@_N@Z
@@ -1026,8 +844,6 @@ $d`D-laM
 ??_7codecvt_base@std@@6B@
 ??_7facet@locale@std@@6B@
 ??_7ios_base@std@@6B@
-?Error: CreateBuffer could not generate draw geometry.\n
-?HAI\t81\t9dcG'
 ?_BADOFF@std@@3_JB
 ?_Decref@facet@locale@std@@UEAAPEAV_Facet_base@3@XZ
 ?_Execute_once@std@@YAHAEAUonce_flag@1@P6AHPEAX1PEAPEAX@Z1@Z
@@ -1064,7 +880,6 @@ $d`D-laM
 ?imbue@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAXAEBVlocale@2@@Z
 ?in@?$codecvt@DDU_Mbstatet@@@std@@QEBAHAEAU_Mbstatet@@PEBD1AEAPEBDPEAD3AEAPEAD@Z
 ?in@?$codecvt@_WDU_Mbstatet@@@std@@QEBAHAEAU_Mbstatet@@PEBD1AEAPEBDPEA_W3AEAPEA_W@Z
-?jOb
 ?option requires an argument -- %c
 ?out@?$codecvt@DDU_Mbstatet@@@std@@QEBAHAEAU_Mbstatet@@PEBD1AEAPEBDPEAD3AEAPEAD@Z
 ?out@?$codecvt@_WDU_Mbstatet@@@std@@QEBAHAEAU_Mbstatet@@PEB_W1AEAPEB_WPEAD3AEAPEAD@Z
@@ -1086,23 +901,14 @@ $d`D-laM
 ?uflow@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAHXZ
 ?uncaught_exception@std@@YA_NXZ
 ?unshift@?$codecvt@DDU_Mbstatet@@@std@@QEBAHAEAU_Mbstatet@@PEAD1AEAPEAD@Z
-?vr_glove_left_skeleton.glb
 ?widen@?$basic_ios@DU?$char_traits@D@std@@@std@@QEBADD@Z
 ?write@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@PEBD_J@Z
 ?xsgetn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JPEAD_J@Z
 ?xsputn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JPEBD_J@Z
-@!@%@+@1@?@C@E@]@a@g@m@
-@0pp
 @fff>fff>fff>fff>
-@jAjB
-@n2w
 @option requires an argument -- %c
 A recoverable error happened to SVLAudioWSAPI.  This will happen until there is a sound source available.\n
 A valid JSON document must be either an array or an object value.
-A!A3A5A;A?AYAeAkAwA{A
-A"QT
-A2VPD
-A:3,]VOHyrkd
 AA Compromise
 AACompromise
 ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/
@@ -1150,8 +956,6 @@ AES0
 AES128
 AES192
 AES256
-AI\tHpH8x
-AJsN
 AMF AMFVideoEncoder_HEVC capabilities query failed [ %s ]\n
 AMF AMFVideoEncoder_HEVC input capabilities query failed [ %s ]\n
 AMF AMFVideoEncoder_HEVC reports max bitrate %llu\n
@@ -1197,7 +1001,6 @@ AMFInit
 AMFQueryVersion
 ANSI X9.62
 ANY PRIVATE KEY
-AP"\nsQJ
 APing
 ARIA-128-CBC
 ARIA-128-CCM
@@ -1316,7 +1119,6 @@ AUDIO:
 AUDIO: %s
 AUTHORITY_INFO_ACCESS
 AUTHORITY_KEYID
-AcG\nt
 Acceptable OCSP Responses
 Accessor
 AcquireSRWLockExclusive
@@ -1341,7 +1143,6 @@ Adjust relative FOV
 Adobe
 AdvancedFrameTimeMonitoring::SetCSVLogging
 Affiliation Changed
-Ag*g*
 AlexEkd JingThom
 All VTEs Invalidated.
 AnimationChannel
@@ -1399,17 +1200,12 @@ AvRevertMmThreadCharacteristics
 AvRevertMmThreadCharacteristics failed: last error is %d\n
 AvSetMmThreadCharacteristics failed: last error = %u
 AvSetMmThreadCharacteristicsA
-A~Se
-B#B)B/BCBSBUB[BaBsB}B
-B*k@5
 B-163
 B-233
 B-283
 B-409
 B-571
-B2pr
 B64_write_ASN1
-B7=fo
 BASIC_CONSTRAINTS
 BC (default)
 BCryptGenRandom
@@ -1417,7 +1213,6 @@ BF-CBC
 BF-CFB
 BF-ECB
 BF-OFB
-BFUa.X
 BIGNUM
 BIN Chunk data length exceeds the GLB size.
 BIN Chunk end is not aligned to a 4-byte boundary.
@@ -1521,7 +1316,6 @@ BUF lib
 BUF_MEM_grow
 BUF_MEM_grow_clean
 BUF_MEM_new
-BWQP
 Bad escape sequence in string
 Bad link event: d=%0.01f ms %0.01f mbit/s -> %0.01f mbit/s, ping %0.01f ms, holdoff %d, auto %d\n
 Bad time value
@@ -1530,7 +1324,6 @@ Bad unicode escape sequence in string: hexadecimal digit expected.
 Bandwidth Selected: %f; Ratio above 60ms: %f\n
 Basic OCSP Response
 Basis Type: %s\n
-Bh;+j
 BinW
 Binding UDP socket to %s\n
 Biometric Info
@@ -1540,10 +1333,6 @@ Broadcast
 Broadcast Reply
 Buffer
 BufferView
-C q'O
-C%C'C3C7C9COCWCiC
-C3ps
-C77nYmm
 C://temp//firstframes_
 C:\Program Files\Common Files\SSL
 C:\Program Files\OpenSSL\lib\engines-1_1
@@ -1554,7 +1343,6 @@ C:\temp\vrlink_aftm_
 C:\temp\vrlink_bitstream_
 C:\temp\vrlink_bytelog_
 C:\temp\vrlink_verboselog_
-C@gw
 CA Compromise
 CA Issuers
 CA Repository
@@ -1773,9 +1561,6 @@ CVRAudioDeviceImpl::SetDeviceSoundVolumeMute
 CVRAudioDevices::GetDefaultAudioDevice
 CVRAudioDevices::Refresh
 CVRLog::LogDirect
-C\tD\vD
-C\t\nD4
-C\vo9
 Call to NvEncodeAPIGetMaxSupportedVersion failed.\n
 Camera
 CancelIPChangeNotify
@@ -1801,6 +1586,7 @@ CloseHandle
 CloseServiceHandle
 CoCreateInstance
 CoCreateInstance CPolicyConfigVistaClient failed: hr = 0x%08x\n
+CoCreateInstance(CLSID_CResamplerMediaObject) failed hr = 0x%08x\n
 CoInitializeEx
 CoInitializeEx, hr = 0x%08x\n
 CoTaskMemAlloc
@@ -1848,6 +1634,7 @@ CreateMediaType(pwfxOut) failed hr = 0x%08x\n
 CreateResampler failed: hr = 0x%08x\n
 CreateResamplerBuffer (input) failed: hr = 0x%08x\n
 CreateResamplerBuffer (output) failed: hr = 0x%08x\n
+CreateSwapTextureSet: %dx%d(%d) %d
 CreateThread
 CreateThread for playback failed: last error is %u\n
 CreateWindowExA
@@ -1870,20 +1657,11 @@ CtrlCClk
 CtrlFClk
 CtrlHClk
 Current Driver Version does not support this NvEncodeAPI version, please upgrade driver\n
-D#D)D;D?DEDKDQDSDYDeDoD
 D3D11CreateDevice
 D3DCOMPILER_47.dll
 D3DKMTEnumAdapters2
 D3DKMTQueryAdapterInfo
 D3DReadFileToBlob
-D4tp
-D7q/;M
-D:E^F
-D@D/lcO+hcK
-DAE!
-DAL\fL@
-DBF-
-DD.9
 DEBUG
 DEBUGGER FAST RESET STREAM\n
 DEBUGGER FULL RESET STREAM\n
@@ -1996,7 +1774,6 @@ DataLinkUber: Scan thread received quit event\n
 DataLinkUber: could not create event listener for network changes Error = %d\n
 DataLinkUber:ScanForLinkChanges Done
 Datalink failed with %d\n
-DcO/lcK+hSK
 DeadL %4.1fms
 Debug
 Decipher Only
@@ -2029,15 +1806,7 @@ Dump Hist
 Dump byte log to C:\temp\
 Duplicate key: '
 Dynamic engine loading support
-E+E1EAEIESEUEaEwE}E
-E+pqrstuvwxyz{|}~
-E,v\nX
 E-mail Protection
-E1;a
-E1t$
-E5\v\n6
-E5tq
-E>70aZSL}voh
 EC lib
 ECDH routines
 ECDH_compute_key
@@ -2168,7 +1937,6 @@ ERROR: While trying to request retransmission of packet #%d, too many packets we
 ERROR: failed to create/reset encoder in videoamfenc::SubmitFrame()\n
 ERROR: frame metadata index mismatch\n
 ERROR: svl protocol version mismatch. Server expects %d, client is %d
-ETLL
 EVP lib
 EVP_CIPHER_CTX_copy
 EVP_CIPHER_CTX_ctrl
@@ -2244,12 +2012,8 @@ EXTENDED_KEY_USAGE
 EXTERNAL
 EXTRACT_AND_EXPAND
 EXTRACT_ONLY
-E[3M
-E\foD
-E\r\f52
 Eambiguous option -- %.*s
 Early TX Failure Streak Hit %d; Aborting and reconnecting.\n
-Ecrypto\bn\bn_prime.c
 EdiPartyName
 EdiPartyName:<unsupported>
 Empty escape sequence in string
@@ -2287,6 +2051,7 @@ Error: Could not bind socket\n
 Error: Could not connect to host connect(%d)\n
 Error: Could not create sampler\n
 Error: Could not create socket: %d\n
+Error: CreateBuffer could not generate draw geometry.\n
 Error: CreateRenderTargetView could not generate target view.\n
 Error: Failed during nvEncReconfigureEncoder. Errorcode: %d // Would be fatal: %d // %d / %d / %d / %d / %d\n
 Error: Failed nvEncEncodePicture. Errorcode: %d\n
@@ -2351,8 +2116,7 @@ Eye Filt %s
 Eye Pherphery Q Value
 Eye Trk %s
 Eye and Expressions
-F2`a
-F6tr
+F %d
 FAILED to Activate DirectX 11 Device.\n
 FAILED to CreateInputLayout with file '%s': 0x%08x\n
 FAILED to CreatePixelShader with file '%s': 0x%08x\n
@@ -2362,20 +2126,16 @@ FAILED: Could not create constant buffer.\n
 FALSE
 FATAL: Failed to open log file %s, failing out!\n
 FAULT: Packet too big!!! Can't send!!! Dropping\n
-FDA~i
 FEC decode fail %d %d %d\n
-FF!w
 FILE pointer
 FIPS routines
 FIPS_mode_set
-FJQ>Wb
 FORM
 FORMAT
 FORMAT=32-bit_rle_rgbe
 FPR: %5.0f%%
 FPR: UNSET
 FS callback[s] not set\n
-FV|FgUV
 Fail this % of packets, incoming on this side.
 Fail to TX this % of packets on this side.
 Fail to Video TX this % of packets on this side
@@ -2430,7 +2190,6 @@ Frame Done
 FreeLibrary
 Full Reinit
 Function not implemented
-F~Tb
 GAME
 GDI32.dll
 GENERALIZEDTIME
@@ -2475,8 +2234,6 @@ GPU supports %dMB per frame\n
 GPU supports %dMB per second\n
 GPU supports 10BIT_ENCODE for video compression\n
 GRAPHICSTRING
-GSc\v3
-GXqN
 GeneralNames
 GeneralString
 Generator (compressed):
@@ -2526,12 +2283,6 @@ Getting file size failed :
 Getting render devnode via IMMDeviceEnumerator::GetDevice("%ls") failed: hr = 0x%08x\n
 Got Debug message from client
 Grow
-GtH|ITJ8K
-H5gRR-
-H6s<
-H8xp
-H@H9xqI
-HBJ\nTRF
 HKDF
 HMAC
 HMAC DSTU Gost 34311-95
@@ -2541,9 +2292,6 @@ HMAC GOST 34.11-94
 HMAC routines
 HMAC-MD5
 HMAC-SHA1
-HWyn
-H\fJxE\v
-Ha4\n
 HandAnimEvaluator
 HandleUnrecoverableError( %d )\n
 Hash Algorithm: 
@@ -2555,9 +2303,6 @@ Hold Instruction Code
 Hold Instruction None
 Hold Instruction Reject
 HostMacPrefix
-HqI9x
-H{1S
-I9xq
 IA5STRING
 IANA
 IAudioCaptureClient::GetBuffer failed on pass %u: hr = 0x%08x\n
@@ -2599,7 +2344,6 @@ IAudioEndpointVolume::SetMute failed: hr = 0x%08x\n
 IAudioRenderClient::GetBuffer(%u) failed: AUDCLNT_E_BUFFER_TOO_LARGE, dropping buffer\n
 IAudioRenderClient::GetBuffer(%u) failed: hr = 0x%08x\n
 IAudioRenderClient::ReleaseBuffer(%u) failed: hr = 0x%08x\n
-IB;4e^WP
 ICC or token signature
 IDEA-CBC
 IDEA-CFB
@@ -2706,9 +2450,6 @@ IVRSystem_026
 IVRTrackedCameraInternal_XXX
 IVRVirtualDisplay_002
 IVRWatchdogProvider_001
-I\nlQ
-I\tHA\t981G'dc
-Ik\f`dub`D
 Image data is empty for image[
 Image height mismatch. for image[
 Image width mismatch for image[
@@ -2761,28 +2502,20 @@ IsWorkstationLocked::IsRemoteSession unexpected response length %d != 1\n
 Issues Stream Reset
 Issues complete stream teardown and reinit
 Issues fast stream reset
-J16(p
-J:xrG
 JFIF
 JOINT-ISO-ITU-T
 JSON Chunk end does not aligned to a 4-byte boundary.
 JSON string too short.\n
-J\nHBF
 K-163
 K-233
 K-283
 K-409
 K-571
-K4K 
-K;xs
 KDF routines
 KERNEL32.dll
 KHR_audio
 KHR_lights_punctual
 KISA
-KN>v
-K\rdSC\td?
-Ka\nTw
 Key Agreement
 Key Compromise
 Key Encipherment
@@ -2791,7 +2524,6 @@ Key setup failure in transport subsystem. TX Status: %d
 Khronos Generic (Left Controller)
 Khronos Generic (Right Controller)
 Kr\t=o
-KwZi
 KxANY
 KxDHE
 KxDHE-PSK
@@ -2802,14 +2534,10 @@ KxPSK
 KxRSA
 KxRSA_PSK
 KxSRP
-L8-\rHO
-LAM\rhaI)|pL<
-LBN6
 LEGACY_GOST_PKCS12
 LINEAR
 LIST_ADD
 LOAD
-LZsYCB
 LaserMouseHmdAngleDegrees %f\n
 LastKnown
 Latency
@@ -2818,8 +2546,6 @@ Left Controller
 Line %d, Column %d
 Link BW hist: w %f  %s\n
 Link BW: Est %0.01f Mbit/s (auto: %d)\n
-Lj&&lZ66~A??
-Llist<T> too long
 Load up the ENGINE specified by other settings
 LoadCursorA
 LoadIconA
@@ -2830,36 +2556,25 @@ LocalFree
 LocalKeySet
 LocalizationManager
 Logic
-LwH'
-LwH'LwH'LwH'LwH'
-LwH'LwH'LwH'LwH'LwH'LwH'LwH'LwH'
-LwH'LwH'LwH'LwH'LwH'LwH'LwH'LwH'LwH'LwH'LwH'LwH'LwH'LwH'LwH'LwH'
-M-laO
-M3fU3
-M;;va
 MAJOR WARNING: Something went very wrong with the TX Frame queue\n
 MAT2
 MAT3
 MAT4
 MAX %3d mbit
-MBb!\v
 MD5-SHA1
 MDC2
-MF?8ib[T
 MFCreateMediaType
+MFCreateMediaType failed hr = 0x%08x\n
 MFCreateMemoryBuffer
 MFCreateMemoryBuffer(%u) failed: hr = 0x%08x\n
 MFCreateSample
 MFCreateSample failed: hr = 0x%08x\n
 MGF1
-MGiI
 MID0
 MIME MHS
-MMfU33
 MSFT_lod
 MSVCP140.dll
 MTU %s
-M\rLAI)haL<|p\t\t
 Mail
 Mailbox %s received message %s, which it didn't have a handler for\n
 MainThrd
@@ -2868,8 +2583,6 @@ ManufacturerName %s\n
 MapViewOfFile
 Mask Algorithm: 
 Material has extension MSFT_lod, but does not reference other materials via their ids.\n
-MbP?\f
-Mbp?H
 Message Prompt
 MessageBoxA
 MessageBoxW
@@ -2885,10 +2598,6 @@ Microsoft Server Gated Crypto
 Microsoft Smartcard Login
 Microsoft Trust List Signing
 Microsoft User Principal Name
-MinghuaQu
-MinghuaQu)
-MinghuaQuS
-MinghuaQuw
 Minimum
 Mirroring from %s to %ls\n
 Mirroring is same as source %s, not mirroring\n
@@ -2897,14 +2606,12 @@ Missing ',' or '}' in object declaration
 Missing ':' after object member name
 Missing '}' or object member name
 Missing required param "path"
-MkL\f
 ModelNumber %s\n
 Modulus:
 MoveFileExW
 MoveWindow
 MultiByteToWideChar
 MyClass
-N.lb
 NAME_CONSTRAINTS
 NAMING_AUTHORITY
 NCONF_dump_bio
@@ -3004,8 +2711,6 @@ NV_ENC_CAPS_SUPPORT_WEIGHTED_PREDICTION
 NV_ENC_CAPS_SUPPORT_YUV444_ENCODE
 NV_ENC_CAPS_WIDTH_MAX
 NV_ENC_CAPS_WIDTH_MIN
-N\r\nyd
-N`O0P@Q
 Name
 Neither required `bufferView` nor `uri` defined for image[
 NetCfgInstanceId
@@ -3044,14 +2749,10 @@ Not a regular file
 Note
 NotifyAddrChange
 NotifyRouteChange
-NrZl
 NvAPI_EnumPhysicalGPUs() returned %d\n
 NvEncodeAPICreateInstance
 NvEncodeAPIGetMaxSupportedVersion
-Nwh\v
 O/lc\r=<1\r-,!@
-O44h\
-O:t\vg
 OBJ lib
 OBJECT
 OBJECT DESCRIPTOR
@@ -3146,7 +2847,6 @@ OSSL_STORE_find
 OSSL_STORE_open
 OTHERNAME
 OUT %d
-O\r\nP2
 Oakley-EC2N-3
 Oakley-EC2N-4
 Object
@@ -3208,9 +2908,6 @@ P-224
 P-256
 P-384
 P-521
-P00`
-P1\t98"
-P<xD<
 PARAMETERS
 PBE-MD2-DES
 PBE-MD2-RC2-64
@@ -3366,7 +3063,6 @@ PKEY_CRYPTO
 PKEY_USAGE_PERIOD
 PKINIT Client Auth
 PKIX
-PK\ry
 PNG\r\n
 POLICYINFO
 POLICYQUALINFO
@@ -3374,17 +3070,13 @@ POLICY_CONSTRAINTS
 POLICY_MAPPING
 POLICY_MAPPINGS
 POLY1305
-PPxD<<%
-PRB+
 PRINTABLE
 PRINTABLESTRING
 PRIVATE KEY
-PRM=|q
 PRNG not seeded
 PROFESSION_INFO
 PROXY_CERT_INFO_EXTENSION
 PROXY_POLICY
-PSC\n
 PSPECIFIED
 PSS parameter restrictions:
 PUBKEY
@@ -3406,7 +3098,6 @@ Permitted
 Perspective camera description not found.
 PerspectiveCamera
 Pico 4
-Pii[2cc
 Ping Packet
 Policy Qualifier CPS
 Policy Qualifier User Notice
@@ -3438,19 +3129,11 @@ Proxy Certificate Information
 Public
 Public-Key
 Public-Key: (%d bit)\n
-Q/xtJ2
-QPeA~S
-QSeA~
-QZ^&QZ^&QZ^&QZ^&QZ^&QZ^&QZ^&QZ^&
-Qjh/T
-Qkkbal
 QoS is Disabled.  Not setting SIO_SET_QOS\n
 QoSEnabled
 QueryPerformanceCounter
 QueryPerformanceFrequency
 QueryServiceConfigW
-R##Fe
-R;vM;
 RAND
 RAND_DRBG_generate
 RAND_DRBG_instantiate
@@ -3484,9 +3167,10 @@ RFC 5639 curve over a 256 bit prime field
 RFC 5639 curve over a 320 bit prime field
 RFC 5639 curve over a 384 bit prime field
 RFC 5639 curve over a 512 bit prime field
+RFOV: %d%%
 RIPEMD160
 RPCRT4.dll
-RRvM;;
+RR%%
 RSA Data Security, Inc.
 RSA Data Security, Inc. PKCS
 RSA lib
@@ -3548,11 +3232,9 @@ RSA_sign_ASN1_OCTET_STRING
 RSA_verify
 RSA_verify_ASN1_OCTET_STRING
 RSA_verify_PKCS1_PSS_mgf1
-RSDS
 RX Done
 RX Fail:%d
 RaiseException
-Rbg.E
 ReadConsoleA
 ReadConsoleW
 Reasons
@@ -3615,7 +3297,6 @@ RtlCaptureContext
 RtlGetNtVersionNumbers
 RtlLookupFunctionEntry
 RtlVirtualUnwind
-S#FI
 S-1-15-2-2765576060-2389096713-3079022642-4099546867-1445191215-3071396046-3987166893
 S-1-15-3-1024-2302894289-466761758-1166120688-1039016420-2430351297-4240214049-4028510897-3317428798
 S-1-15-3-1024-3424233489-972189580-2057154623-747635277-1604371224-316187997-3786583170-1043257646
@@ -3625,8 +3306,6 @@ S/MIME Capabilities
 S/MIME email
 S/MIME encryption
 S/MIME signing
-S11b?
-S2zw
 SC Custom 0 %d
 SC Custom 1 %d
 SC Custom 2 %d
@@ -3894,11 +3573,8 @@ SXNET_add_id_ulong
 SXNET_get_id_asc
 SXNET_get_id_ulong
 SXNetID
-S\fWj
-S\vJsf
-S\vQN
+Sample #4
 Sample message for keylen=blocklen
-SbEwd
 Scaling %d
 Scaling ?
 ScreenToClient
@@ -3960,7 +3636,6 @@ Signing KDC Response
 Signing Tool of Issuer
 Signing Tool of Subject
 Single block msg
-Single block msgKU8O
 SipHash
 Skin
 Sleep
@@ -3999,9 +3674,6 @@ Submit
 Superseded
 Syntax error: value, object or array expected.
 SystemTimeToFileTime
-T*8U
-T0.S
-T00`P
 T61STRING
 TELETEXSTRING
 TEST
@@ -4011,14 +3683,10 @@ TLS Web Client Authentication
 TLS Web Server Authentication
 TLS1-PRF
 TLS_FEATURE
-TPD2
-TQ\v;83
-TRG7ts
 TRR: %d
 TRUE
 TRUSTED CERTIFICATE
 TSA server
-TSG.
 TS_ACCURACY_set_micros
 TS_ACCURACY_set_millis
 TS_ACCURACY_set_seconds
@@ -4086,14 +3754,7 @@ Transport Check
 True
 Trust Root
 Trying to submit frames out-of-order.  Only possible on catastrophic network failure\n
-Ts\ne
 Type=
-U$qk.
-U(Px(
-U)l:T^8rv\n
-U1(\Q
-U33f
-U4ot
 UBER
 UBER 
 UBER (Single)
@@ -4135,11 +3796,7 @@ UTCTIME
 UTF8
 UTF8STRING
 UTF8String
-UUPx((
-UUUUUUUUUUUUUU<o(
 UUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU
-UUUUUUUUUUUa\f\v
-U^cQ`
 UberWindow Flush %5d %4d\n
 Unable to determine VR Path Registry filename
 Unable to get IMMDeviceEnumerator, hr = 0x%08x\n
@@ -4180,9 +3837,7 @@ Using AVX\n
 Using NOAESNI\n
 Using SSE\n
 Using defaults as unknown headset: %d
-Ut]<E
 UuidFromStringA
-V22dN::t
 V?option requires an argument -- %c
 VCRUNTIME140.dll
 VEC2
@@ -4224,15 +3879,12 @@ Verify failure\n
 VerifyVersionInfoW
 Verifying - %s
 Version
-Vg3LE
-VggjeK uO5n
 Video
 Video RX
 Video Reply
 Vive Focus 3 (Left Controller)
 Vive Focus 3 (Right Controller)
 Vive Focus Vision
-W  `@  `@LL
 WARNING Initializing frame number %d.  Expected size too large (%d > %d).\n
 WARNING: Corrupt UDP packet went long (%d size, %d left, %d total length)\n
 WARNING: Could not find steam streaming microphone output.
@@ -4240,6 +3892,7 @@ WARNING: GPU Does not support 10BIT_ENCODE for video compression\n
 WARNING: Packet was XMITTed that was too big. [%d %d %d %d / %d]\n
 WARNING: Too many bytes in TX Audio aggregate.  This should be impossible.\n
 WASAPI Could not get policy config\n
+WASAPI: EnumAudioEndpoints failed: hr = 0x%08x\n
 WASAPI: FAILED to find Steam Streaming Microphone\n
 WASAPI: Found Device ID match\n
 WASAPI: Found Device: %s\n
@@ -4272,6 +3925,7 @@ WSAPI: Found Steam Streaming Speakers but it is disabled (%d): %s\n
 WSAPI: Found Steam Streaming Speakers: %s\n
 WSAPI: Requesting Steam Streaming Audio Device driver install.\n
 WSAPI: SUCCESS: m_pCaptureClient=%p\n
+WSAPI: SVLAudioWSAPI::Init( %d )
 WSAPI: Warning: Failed to find Steam Streaming Audio Devices.\n
 WSAPI: capture starting: ->Start() = %08x (Failed = %d)\n
 WSAResetEvent
@@ -4317,14 +3971,12 @@ Warning: retransmit request for unknown message %d (frame number=%d\n
 Warning: unMaxBitRate (%u) over m_nMaxMBPerSecond (%u)\n
 Warning: unVbvBufferSizeBits (%u) over m_unMaxBitsPerFrame (%u)\n
 Waterfall
-Wcr"
 Whether to add a loaded ENGINE to the internal list (0=no,1=yes,2=mandatory)
 WideCharToMultiByte
 Wire
 WiredSession
 WirelessHost
 WriteFile
-Wz*7
 X25519
 X400Name
 X400Name:<unsupported>
@@ -4467,15 +4119,8 @@ X9_62_CURVE
 X9_62_FIELDID
 X9_62_PENTANOMIAL
 X9cm
-XG[r
-XRJ2
 XXXX PNG chunk not known
-XhHp
-Y77n
-Y;;Mv;;Mv
 YWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWFhYWE=
-Yb6N4
-YnFpW
 You must type in 
 Your GPU supports %s for video compression\n
 ZINT32
@@ -4483,10 +4128,6 @@ ZINT64
 ZLIB
 ZUINT32
 ZUINT64
-Z\fL+i
-Ze2Zh@
-ZiKw
-Zjz\v
 [%s] %s file=%s
 [%s] %s=%s\n
 [Alloc] Created bitstream buffer = %p\n
@@ -4580,17 +4221,11 @@ Zjz\v
 [vrlink] !!!! ReleaseSync FAILED with E_FAIL
 [vrlink] !!!! ReleaseSync FAILED with unknown hr
 \%02X
-\(a8Bk
-\44h
-\SO7tsG
 \U%04lX
 \W%08lX
 \\\\\\\\\\\\\\\\crypto\rsa\rsa_lib.c
-\f%\f/\f1\fA\f[\f_\fa\fm\fs\fw\f
-\f<<0A1pq
-\frrrrrrrrrrrrrrrr
 \mfpmp.exe
-\n!\n1\n9\n=\nI\nW\na\nc\ng\no\nu\n{\n
+\n%*s
 \n%*s            
 \n%*sExtensions: 
 \n%*sLog       : %s
@@ -4599,28 +4234,10 @@ Zjz\v
 \n%*sTimestamp : 
 \n%*sVersion   : 
 \n%*sZone: %s, User: 
-\n2gQ\v\tU
-\n3wV
-\n:82H
-\nW2a
 \n\tIPSec/IKE/Oakley curve #3 over a 155 bit binary field.\n\tNot suitable for ECDSA.\n\tQuestionable extension field!
 \n\tIPSec/IKE/Oakley curve #4 over a 185 bit binary field.\n\tNot suitable for ECDSA.\n\tQuestionable extension field!
-\nbad png sig
 \nkhT
-\r!\r+\r-\r=\r?\rO\rU\ri\ry\r
-\r7AO\n
-\r8STs\ne
-\r8STs\neTs\neTs\neTs\ne
-\r8STs\neTs\neTs\neTs\neTs\neTs\neTs\neTs\ne
-\r8STs\neTs\neTs\neTs\neTs\neTs\neTs\neTs\neTs\neTs\neTs\neTs\neTs\neTs\neTs\neTs\ne
-\rLAM
-\rMinghuaQu\f
-\rSNo
-\rUhF
 \r\fexpaexpaexpaexpand 3nd 3nd 3nd 32-by2-by2-by2-byte kte kte kte kexpand 32-byte k
-\r\fpacketCount too high (%u)\n
-\ri1I
-\sG7tPD
 \t"deltaTimingLog" : [\n
 \t"inputDebugDigital" : [\n
 \t"logVersion" : 1,\n
@@ -4632,44 +4249,21 @@ Zjz\v
 \t"remoteVersion" : %d,\n
 \t"thisVersion" : %d,\n
 \t"variables" : [\n
-\t#\t%\t+\t/\t5\tC\tI\tM\tO\tU\tY\t_\tk\tq\tw\t
-\t-f3F2
-\t6trF
-\tHAI8xpH\f
-\tOkI
-\tOzG\r
-\t\tCJAAQ
-\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t
-\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t
-\t\taJj
+\t%f Hz\n
+\t%s %c\n
 \t],\n\t"eyeTracking" : [ 
 \t],\n\t"inputDebugAnalog" : [\n
 \t],\n\t"latencyLog" : [\n
 \t],\n\t"sPingHistogramv1" : [
 \t],\n\t"soundData" : [\n
-\ttqE5
-\txYn
 \u%04x
 \u%04x\u%04x
 \ufffd
-\v#\v)\v-\v?\vG\vQ\vW\v]\ve\vo\v{\v
-\vCreateSwapTextureSet: %dx%d(%d) %d
-\vHCK/
-\vZ\nyVR
-\v\vTSG
-\vjFF\r
-\vow5
 ] buffer "
 ] bufferView "
 ] invalid bufferView
 ] is not a JSON object.
 ],"subtype":
-]1bO
-]c:\buildslave\steamvr_rel_win64\build\src\vrlink\driver_vrlink\hmdd3d11.cpp:1181
-^4MZ
-^J_spY
-^lX8k
-_55j
 _Cnd_broadcast
 _Cnd_destroy
 _Cnd_destroy_in_situ
@@ -4691,7 +4285,6 @@ _OPENSSL_isservice
 _Query_perf_counter
 _Query_perf_frequency
 _RDATA
-_TbF~
 _Thrd_id
 _Thrd_join
 _Thrd_sleep
@@ -4729,7 +4322,6 @@ _exit
 _fdtest
 _fileno
 _fseeki64
-_g@Cg
 _get_stream_buffer_pointers
 _gmtime64_s
 _initialize_narrow_environment
@@ -4738,7 +4330,6 @@ _initterm
 _initterm_e
 _invalid_parameter_noinfo
 _invalid_parameter_noinfo_noreturn
-_jbF~T
 _left
 _localtime64
 _localtime64_s
@@ -4762,19 +4353,11 @@ _wfopen
 _wfopen_s
 _wfsopen
 _wstat64i32
-_xU`u
-`3QbE
-`3SbE
-`D$daM-l
-`H(hqA1p
-`P00
-`VX:H
 `accessors' does not contain an JSON object.
 `animations' does not contain an JSON object.
 `bufferViews' does not contain an JSON object.
 `buffers' does not contain an JSON object.
 `cameras' does not contain an JSON object.
-`fPw.\vM
 `input` field is missing in animation.sampler\n
 `materials' does not contain an JSON object.
 `meshes' does not contain an JSON object.
@@ -4786,21 +4369,13 @@ _xU`u
 `scenes' does not contain an JSON object.
 `skins' does not contain an JSON object.
 `textures' does not contain an JSON object.
-`yNT
 a null shared library handle was used
 a2d_ASN1_OBJECT
 a2i_ASN1_INTEGER
 a2i_ASN1_STRING
 a2i_GENERAL_NAME
-a5<p
-a5j_5W
-a8Bk
-aAMCoCreateInstance(CLSID_CResamplerMediaObject) failed hr = 0x%08x\n
-aI)h
 aRecord
 aaControls
-aaY8GG
-aaj_55
 abort
 ac-auditEntity
 ac-proxying
@@ -4885,7 +4460,6 @@ aes_xts_init_key
 aesni_init_key
 aesni_xts_init_key
 affiliationChanged
-aiKwZ
 akid mismatch
 alg_module_init
 alg_section
@@ -5037,6 +4611,7 @@ attrib
 attribute error
 attributes
 audio
+auds
 auth-any
 auth-dss
 auth-ecdsa
@@ -5058,21 +4633,11 @@ automaticBandwidth
 automaticStreamFormatWidth
 aux error
 avrt.dll
-aybSr
 b2i_PVK_bio
 b2i_dss
 b2i_rsa
 b64_new
 b64_read_asn1
-bB"`3
-bJ*h
-bN.l
-bS11*?
-bV}TS
-b\fLM%
-b\fzUkm
-b\nS)7
-b]jY
 backoffRecoveryCoefficient
 bad AC huff
 bad APP len
@@ -5129,6 +4694,7 @@ bad pad byte count
 bad palette
 bad password read
 bad pkcs7 type
+bad png sig
 bad q value
 bad reciprocal
 bad req_comp
@@ -5173,7 +4739,6 @@ block type is not 01
 block type is not 02
 blockSize
 blowfish
-bmNP
 bmpstring is wrong length
 bn dec2bn error
 bn decode error
@@ -5230,7 +4795,6 @@ by_file_ctrl
 byteLength
 byteOffset
 byteStride
-c!!B0
 c2i_ASN1_BIT_STRING
 c2i_ASN1_INTEGER
 c2i_ASN1_OBJECT
@@ -5260,16 +4824,16 @@ c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\animation\animresource
 c:\buildslave\steamvr_rel_win64\build\src\common\vrcommon\vrmailbox.cpp
 c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\logbuffer.cpp
 c:\buildslave\steamvr_rel_win64\build\src\common\vrcore\src\strtools_public.cpp
-c:\buildslave\steamvr_rel_win64\build\src\vrlink\common\svlfec.cpp:1102
+c:\buildslave\steamvr_rel_win64\build\src\vrlink\common\svlfec.cpp:1104
 c:\buildslave\steamvr_rel_win64\build\src\vrlink\common\svlfec.cpp:769
 c:\buildslave\steamvr_rel_win64\build\src\vrlink\driver_vrlink\Retail\win64\2017\driver_vrlink.pdb
 c:\buildslave\steamvr_rel_win64\build\src\vrlink\driver_vrlink\hmd.cpp:2682
 c:\buildslave\steamvr_rel_win64\build\src\vrlink\driver_vrlink\hmd.cpp:3044
 c:\buildslave\steamvr_rel_win64\build\src\vrlink\driver_vrlink\hmd.cpp:3156
 c:\buildslave\steamvr_rel_win64\build\src\vrlink\driver_vrlink\hmdd3d11.cpp:1150
+c:\buildslave\steamvr_rel_win64\build\src\vrlink\driver_vrlink\hmdd3d11.cpp:1181
 c:\buildslave\steamvr_rel_win64\build\src\vrlink\driver_vrlink\steamvrlink.cpp
 c:\buildslave\steamvr_rel_win64\build\src\vrlink\driver_vrlink\videonvenc.cpp:1417
-c=qx
 cACertificate
 cAoption requires an argument -- %c
 cAudBufAvg
@@ -5352,7 +4916,6 @@ cast5-cbc
 cast5-cfb
 cast5-ecb
 cast5-ofb
-ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU:
 cert
 cert already in hash table
 certBag
@@ -5583,6 +5146,7 @@ crypto\bn\bn_intern.c
 crypto\bn\bn_lib.c
 crypto\bn\bn_mod.c
 crypto\bn\bn_mont.c
+crypto\bn\bn_prime.c
 crypto\bn\bn_print.c
 crypto\bn\bn_rand.c
 crypto\bn\bn_recp.c
@@ -5671,6 +5235,7 @@ crypto\evp\e_chacha20_poly1305.c
 crypto\evp\e_des3.c
 crypto\evp\encode.c
 crypto\evp\evp_cnf.c
+crypto\evp\evp_enc.c
 crypto\evp\evp_key.c
 crypto\evp\evp_lib.c
 crypto\evp\evp_pbe.c
@@ -5842,7 +5407,6 @@ d2i_PrivateKey
 d2i_PublicKey
 d2i_ocsp_nonce
 d3d11.dll
-d45H
 dBWMux
 dCTRCompUS
 dCurBW
@@ -5859,7 +5423,6 @@ dInsideQ
 dNSDomain
 dOutsideQ
 dPingThr
-dPq\n
 dPresThr
 dProblemBW
 dQThrottle
@@ -5868,8 +5431,6 @@ dRunStart
 dSAQuality
 dTXQ
 dTargetBW
-dV22tN::
-dZ!2.
 da_dk
 dane_i2d
 danish
@@ -5890,6 +5451,7 @@ data:image/gif;base64,
 data:image/jpeg;base64,
 data:image/png;base64,
 data:text/plain;base64,
+dataCount too high (%u)\n
 dataEncipherment
 data_collect_method
 date
@@ -6123,7 +5685,6 @@ eContent
 eContentType
 eMultimedia
 eRender
-e\roL
 ec group new by name failure
 ec_GF2m_montgomery_point_multiply
 ec_GF2m_simple_field_inv
@@ -6215,8 +5776,6 @@ ecp_nistz256_windowed_mul
 ecx_key_op
 ecx_priv_encode
 ecx_pub_encode
-eeX=
-ei\t&H
 el_gr
 elliptic curve routines
 email
@@ -6325,7 +5884,6 @@ excluded
 excludedSubtrees
 exit
 expaexpaexpaexpand 3nd 3nd 3nd 32-by2-by2-by2-byte kte kte kte kexpand 32-byte k
-expand 32-byte k
 expand 32-byte kexpand 32-byte k
 expand on static bignum data
 expected a section name
@@ -6366,9 +5924,6 @@ extensionsRequired
 extensionsUsed
 external_drivers
 extras
-f&dy
-fC\tc
-fNt7
 facsimileTelephoneNumber
 failIfExtra
 failed loading private key
@@ -6396,7 +5951,6 @@ ffdhe3072
 ffdhe4096
 ffdhe6144
 ffdhe8192
-ffgvh
 fflush
 fflush()
 fgetc
@@ -6442,7 +5996,6 @@ foveationMode
 foxnet
 fputc
 fputs
-fqi\tH
 fr_fr
 frame_controller
 frame_controller_
@@ -6467,9 +6020,6 @@ fullname
 func(%lu)
 functionality not supported
 fwrite
-g&3g
-gB>d
-gK99r
 gLimitMBPS
 gain
 general_allocate_boolean
@@ -6531,12 +6081,6 @@ grasshopper-ofb
 greek
 group2pkparameters failure
 group=
-h2Wl
-h8,4$
-hHpX
-hOM/
-h\44Q
-h\f90
 hand_right_closeanim.glb
 hand_right_poses.glb
 handle_recenter
@@ -6556,7 +6100,6 @@ hexseed
 hist
 history
 hkdf
-hl\tJ3o
 hmac
 hmac-md5
 hmac-sha1
@@ -6608,16 +6151,11 @@ i2s_ASN1_IA5STRING
 i2s_ASN1_INTEGER
 i2v_AUTHORITY_INFO_ACCESS
 iA5StringSyntax
-iFjt
-iFjtk
 iQ %5.2f
 iRXFrameID %d != pRXFrame->m_iFrameNumber %d
 iRXFrameID=%d
-i\fD8
-i]Wb
 ia5org
 iana
-iauds
 id-DHBasedMac
 id-Gost28147-89-CryptoPro-A-ParamSet
 id-Gost28147-89-CryptoPro-B-ParamSet
@@ -6927,8 +6465,6 @@ identified-organization
 idp mismatch
 ieee
 ieee-siswg
-ihD5
-ilRdV
 illegal bitstring format
 illegal boolean
 illegal characters
@@ -7170,7 +6706,6 @@ inverse
 inverseBindMatrices
 ioctl
 ioctlsocket
-iolj
 ipAddressChoice
 iphlpapi.dll
 ipsec Internet Key Exchange
@@ -7204,23 +6739,17 @@ italian
 iter
 itu-t
 iv gen error
-i~wKVA\
 ja_jp
 janetMailbox
 japanese
 joint-iso-itu-t
 joints
-jrml[Q
 jurisdictionC
 jurisdictionCountryName
 jurisdictionL
 jurisdictionLocalityName
 jurisdictionST
 jurisdictionStateOrProvinceName
-k22Vd22Vd
-k?KPm?
-kV!DA
-kZ3nT]
 kdf parameter error
 kek_unwrap_key
 kekid
@@ -7252,7 +6781,6 @@ keyid
 keylength
 keylength >= 2^30
 keys not set
-ki!S
 kisa
 ko_kr
 koreana
@@ -7266,10 +6794,6 @@ kx-psk
 kx-rsa
 kx-rsa-psk
 kx-srp
-l97\v
-lHt\
-lNrZ
-l\vDZ2\fs
 ladder post failure
 ladder pre failure
 ladder step failure
@@ -7295,6 +6819,7 @@ linebuffer_ctrl
 linebuffer_new
 list cannot be null
 list error
+list<T> too long
 listen
 listen v6 only
 lm_haptic
@@ -7321,14 +6846,8 @@ long_c2i
 lookup returned nothing
 lookup_certs_sk
 loop
-lpHP
 luma
-m>gh
-mC4\n
-mK1f
-mSx@
 mXRecord
-m_ka
 m_nMaxLogBufferingSize > 0
 m_pVideoEnc->SubmitFrame
 m_ulHandle != vr::k_ulInvalidMailbox
@@ -7447,7 +6966,6 @@ missing second number
 missing secret
 missing seed
 missing value
-mmZ7EEP
 mobileTelephoneNumber
 mode
 modelNumber
@@ -7481,18 +6999,11 @@ multiple IHDR
 muted
 n does not equal p q
 n does not equal product of primes
-n6j/
-n:2C[
 nFramesSkippedPS
 nKeyLen + sConnectionInfo.length() < vPassKey.size() - 1
 nLayerCount
 nPrimaryLayer
 nSRecord
-nStf,a
-nSw}Z\tu
-nY77
-n\tMr
-n\vDsv
 name
 name too long
 name translation failed
@@ -7598,7 +7109,6 @@ no such engine
 no such file
 no time stamp token
 no value
-no:7
 noCheck
 noRevAvail
 node
@@ -7681,14 +7191,11 @@ nvEncDestroyEncoder() failed to destroy\n
 nvEncodeAPI64.dll
 nvapi_QueryInterface
 nvapi_pepQueryInterface
-o&1m&
 o2i_ECPublicKey
 o2i_SCT
 o2i_SCT_LIST
 o2i_SCT_signature
-oMinghuaQu
 oQ %5.2f
-oWASAPI: EnumAudioEndpoints failed: hr = 0x%08x\n
 oaep
 oaep decoding error
 objCA
@@ -7805,28 +7312,17 @@ overrideRenderWidth
 owner
 p is not prime
 p not prime
-p+"\tHr9
 p.char_two
 p.onBasis
 p.other
 p.ppBasis
 p.prime
 p.tpBasis
-p5Z3
-p@0pqE5tsO?|1
-pD4t
-pH88
 pNewResource
 pNewResource->Load( absFilePath )
 pSourceFunc
 pSpecified
-pU>\AL
-pXhH
-pZlNr
-p\lHtW
-p\rP\f0
-p\tK2
-p`q4r<s
+packetCount too high (%u)\n
 padding check failed
 pagerTelephoneNumber
 parallelizationParameter
@@ -7995,8 +7491,6 @@ postalAddress
 postalCode
 powf
 ppBasis
-pp\rk
-pp|B>>q
 pqualid
 prediction resistance not supported
 preferredDeliveryMethod
@@ -8043,7 +7537,6 @@ protocolInformation
 providesOffsetOverride
 proxyCertInfo
 proxyPolicy
-psC3
 pseudonym
 pss saltlen too small
 pt_br
@@ -8060,29 +7553,15 @@ publicKey
 public_key
 pvk data too short
 pvk too short
-pzKD)
 q not prime
-qCJ.
-qMFCreateMediaType failed hr = 0x%08x\n
-qUN1
-qWSAPI: SVLAudioWSAPI::Init( %d )
-qZt$
 qcStatements
 qsort
 qualifiers
 qualityLabelledData
 qualitySharpeningThresholdMbit
-r$0I
 r2i_certpol
 r2i_pci
-r3A~
-rB2pBB
-rF6t
 rFC822localPart
-rK99
-rUUT
-rZlN
-r\tU[B
 r_32_12_16_init_key
 raise
 rand
@@ -8201,7 +7680,6 @@ right_
 ripemd
 ripemd160
 ripemd160WithRSA
-rm\niAB
 rmd160
 ro_ro
 role
@@ -8254,18 +7732,14 @@ rsassaPss
 ru_ru
 runtime
 russian
-s(Fdi
-s11bS
 s2i_ASN1_IA5STRING
 s2i_ASN1_INTEGER
 s2i_ASN1_OCTET_STRING
 s2i_skey_id
 s390x_aes_gcm_ctrl
 sBWFECLim
-sC3pcG'd
 sChannel
 sFramePhase
-sK;xPL
 sOARecord
 sPingMS
 sRFTXRate
@@ -8285,7 +7759,6 @@ salt length recovery failed
 saltLength
 sampler
 samplers
-sao5
 sbgp-autonomousSysNum
 sbgp-ipAddrBlock
 sbgp-routerIdentifier
@@ -8614,6 +8087,7 @@ sslv3 rollback attack
 stable_get
 stackLimit
 startcapture
+startup
 stat
 stateOrProvinceName
 statscontrol
@@ -8693,12 +8167,9 @@ sys$dassgn error
 sys$qiow error
 system lib
 system library
-t4uLv
 tRNS after IDAT
 tRNS before PLTE
 tRNS with alpha
-t\lHBW
-tabcdbcdecdefdefgefghfghighijhijkijkljklmklmnlmnomnopnopq
 table
 tag=
 target
@@ -8719,7 +8190,6 @@ text:
 textEncodedORAddress
 textNotice
 textures
-tfjgvmfv
 th_th
 thai
 the asn1 object identifier is not known for this md
@@ -8769,7 +8239,6 @@ try_decode_PKCS8Encrypted
 try_decode_params
 ts datasign
 tsFrameTimeAbsolute\tWire\tEncode\tFEC\tXPort\tSound\tRetry\tLogic\tNote\tVTE\tExceptions\tMCS\tDbgWait\tQThrottle\tTimeSinceLastWGPMS\tEstimatedPingMS\tExpectedPingMS\tpX\tpY\tpZ\tqW\tqX\tqY\tqZ\ttEncodeTimeMS\tFramesToThrottle\tRemapTimeMS\tStartEncMS\n
-tsG7
 tsLastWGP
 ts_CONF_invalid
 ts_CONF_lookup_fail
@@ -8799,8 +8268,6 @@ type not encrypted data
 type not enveloped data
 type not primitive
 type_id
-t}WF<7
-u!!Bc
 u.addressPrefix
 u.addressRange
 u.addressesOrRanges
@@ -8808,9 +8275,6 @@ u.asIdsOrRanges
 u.id
 u.inherit
 u.range
-u0Az
-u;{Gk
-u\fcc
 ua-pki
 uacurve0
 uacurve1
@@ -8979,7 +8443,6 @@ userId
 userNotice
 userPassword
 user_interaction_click_info
-v07\v
 v1 (0x0)
 v2i_ASIdentifiers
 v2i_ASN1_BIT_STRING
@@ -8999,9 +8462,6 @@ v2i_idp
 v2i_issuer_alt
 v2i_subject_alt
 v3_generic_extension
-vRQ>
-v\fdn
-v\v]mE
 v_check
 valid
 validate_ecx_derive
@@ -9072,6 +8532,7 @@ vms_load
 vms_merger
 vms_unload
 vparams
+vr_glove_left_skeleton.glb
 vr_glove_right_poses.glb
 vr_glove_right_skeleton.glb
 vrcombined_log.previous.txt
@@ -9090,9 +8551,6 @@ vrlink_room_setup
 vrlink_show_steamvr_setting
 vrlink_store
 vrwebui_dashboardactionstore
-w8i_q
-w?6r
-wF\ro
 wap-wsg
 wap-wsg-idm-ecid-wtls1
 wap-wsg-idm-ecid-wtls10
@@ -9124,7 +8582,6 @@ win32_splitter
 win32_unload
 win64
 wirelessShutdownTimeout
-wn>Jj
 wrap error
 wrap mode not allowed
 wrapS
@@ -9145,7 +8602,6 @@ wrong signature length
 wrong tag
 wrong type
 wrong version
-x((Pz
 x121Address
 x500UniqueIdentifier
 x509 certificate routines
@@ -9158,33 +8614,19 @@ x509_name_ex_d2i
 x509_name_ex_new
 x509_pubkey_decode
 x931
-xUN'
 xmag
-xpH8
-xqI9
-xrJ:DCG
-xsK;
-xtq\t
 xts duplicated keys
-xxJo%%\r..8$
-xzxv
 y-au
-y3y3y3y3y3y3y3y3c
-yU\n2`
 yfov
 ymag
-z3T\vC
-zC\nsZ
-z^KD
 zfar
-zhOM
 zh_cn
 zh_tw
 zlib compression
 zlib corrupt
 znear
 zone
-zy:HO
+{%s}%s
 {frame_controller}/icons/
 {frame_controller}/input/frame_controller_profile.json
 {frame_controller}frame_controller_left
@@ -9264,8 +8706,4 @@ zy:HO
 {vrlink}/shaders/d3d11/genforencode_vs.fxo
 {vrlink}/shaders/override_shader_params.json
 |<C!FReQ
-|sG2
 ~%d~%d~%d,%d,%d~~~~
-~SeA
-~TbF
-~X0S

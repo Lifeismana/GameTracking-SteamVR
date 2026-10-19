@@ -62,7 +62,6 @@ R3G3B2
 R5G6B5
 R8G8B8
 R8G8_B8G8
-RSDS\v
 RXGB
 S8Lockable
 Sequential devices are not supported

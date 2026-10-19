@@ -2870,6 +2870,7 @@ ZkXk
 \f/user/camera
 \fRandom Pitch
 \n"333?6
+\n%op
 \n+3r6
 \n,WrqK
 \n/user/head

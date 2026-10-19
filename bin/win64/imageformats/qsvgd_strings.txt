@@ -13,7 +13,6 @@
 F:\qt5\qtsvg\plugins\imageformats\qsvgd.pdb
 InitializeConditionVariable
 QSvgPlugin
-RSDS
 SleepConditionVariableCS
 Unknown exception
 WakeAllConditionVariable
@@ -29,4 +28,3 @@ qt_plugin_instance
 qt_plugin_query_metadata
 strongref.load() <= 0
 svgz
-x!lO

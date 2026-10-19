@@ -1,9 +1,9 @@
 %02d:%02d:%02d
 %04d%02d%02d%02d%02d%02d
 %llu
+%s%c%s
 %s/.steam/%s
 %s/.steam/steam
-'wF1
 (%zu) Descend: %s, (%s), %s\n
 (%zu) readdir failed to find '%s' in '%s'\n
 /proc/self/cmdline
@@ -1112,14 +1112,6 @@ Using breakpad crash handler\n
 _ITM_deregisterTMCloneTable
 _ITM_registerTMCloneTable
 _Jv_RegisterClasses
-_ZSt18_Rb_tree_incrementPSt18_Rb_tree_node_base@@GLIBCXX_3.4
-_ZSt28_Rb_tree_rebalance_for_erasePSt18_Rb_tree_node_baseRS_@@GLIBCXX_3.4
-_ZSt29_Rb_tree_insert_and_rebalancebPSt18_Rb_tree_node_baseS0_RS_@@GLIBCXX_3.4
-_ZTVN10__cxxabiv117__class_type_infoE@@CXXABI_1.3
-_ZTVN10__cxxabiv120__si_class_type_infoE@@CXXABI_1.3
-_ZTVN10__cxxabiv121__vmi_class_type_infoE@@CXXABI_1.3
-_ZdlPv@@GLIBCXX_3.4
-_Znwm@@GLIBCXX_3.4
 __bss_start
 __ctype_tolower_loc
 __ctype_tolower_loc@@GLIBC_2.3
@@ -1273,7 +1265,9 @@ open64@@GLIBC_2.2.5
 open@@GLIBC_2.2.5
 opendir@@GLIBC_2.2.5
 operator delete(void*)
+operator delete(void*)@@GLIBCXX_3.4
 operator new(unsigned long)
+operator new(unsigned long)@@GLIBCXX_3.4
 pthread_mutex_lock
 pthread_mutex_lock@@GLIBC_2.2.5
 pthread_mutex_unlock
@@ -1302,8 +1296,11 @@ statfs@@GLIBC_2.2.5
 statvfs64@@GLIBC_2.2.5
 statvfs@@GLIBC_2.2.5
 std::_Rb_tree_increment(std::_Rb_tree_node_base*)
+std::_Rb_tree_increment(std::_Rb_tree_node_base*)@@GLIBCXX_3.4
 std::_Rb_tree_insert_and_rebalance(bool, std::_Rb_tree_node_base*, std::_Rb_tree_node_base*, std::_Rb_tree_node_base&)
+std::_Rb_tree_insert_and_rebalance(bool, std::_Rb_tree_node_base*, std::_Rb_tree_node_base*, std::_Rb_tree_node_base&)@@GLIBCXX_3.4
 std::_Rb_tree_rebalance_for_erase(std::_Rb_tree_node_base*, std::_Rb_tree_node_base&)
+std::_Rb_tree_rebalance_for_erase(std::_Rb_tree_node_base*, std::_Rb_tree_node_base&)@@GLIBCXX_3.4
 stderr
 stderr@@GLIBC_2.2.5
 steam.pid
@@ -1339,5 +1336,8 @@ unlink@@GLIBC_2.2.5
 utime@@GLIBC_2.2.5
 utimes@@GLIBC_2.2.5
 vtable for __cxxabiv1::__class_type_info
+vtable for __cxxabiv1::__class_type_info@@CXXABI_1.3
 vtable for __cxxabiv1::__si_class_type_info
+vtable for __cxxabiv1::__si_class_type_info@@CXXABI_1.3
 vtable for __cxxabiv1::__vmi_class_type_info
+vtable for __cxxabiv1::__vmi_class_type_info@@CXXABI_1.3

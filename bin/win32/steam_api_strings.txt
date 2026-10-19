@@ -1,6 +1,4 @@
                           
- !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
- !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
  Base Class Array'
  Base Class Descriptor at (
  Class Hierarchy Descriptor'
@@ -12,9 +10,9 @@
 %02d:%02d:%02d
 %04d%02d%02d%02d%02d%02d
 %llu
+%s%c%s
+%s\%s
 %u.%u.%u.%u:%i
-&Sgw
-'sK#F
 (null)
 .00cfg
 .?AV?$CCallback@VCCallbackMgr@@USteamAPICallCompleted_t@@$00@@
@@ -77,30 +75,17 @@
 .tls$ZZZ
 .xdata$x
 0123456789ABCDEF
-0TB;
-0xB;
 1#IND
 1#INF
 1#QNAN
 1#SNAN
-4B;dAB;
-4wB;
-4xB;
-8TB;"
-8xB;
-8zB;
-=87M
 ?5Wg4p
-@;appid
 ABCDEFGHIJKLMNOPQRSTUVWXYZ
 ADVAPI32.dll
 AppPolicyGetProcessTerminationMethod
 April
 AreFileApisANSI
 August
-B;INF
-B;Sun
-B;sinh
 Breakpad_SteamMiniDumpInit
 Breakpad_SteamSetAppID
 Breakpad_SteamSetSteamID
@@ -120,11 +105,9 @@ CreateLocalUser failed
 December
 DecodePointer
 DeleteCriticalSection
-DxB;
 EncodePointer
 EnterCriticalSection
 ExitProcess
-FEMh\f
 Failed to load module '%s'
 February
 FindClose
@@ -181,8 +164,6 @@ HeapAlloc
 HeapFree
 HeapReAlloc
 HeapSize
-HwB;\t
-HxB;
 IND)ind)
 INITY
 InitGameServer failed
@@ -207,8 +188,6 @@ LoadLibraryExA
 LoadLibraryExW
 LocaleNameToLCID
 Looking up breakpad interfaces from steamclient\n
-LxB;
-LyB;
 MM/dd/yy
 March
 Monday
@@ -221,9 +200,7 @@ November
 October
 OpenProcess
 OutputDebugStringA
-PxB;
 QueryPerformanceCounter
-RSDSO
 RaiseException
 ReadConsoleW
 ReadFile
@@ -231,7 +208,6 @@ RegCloseKey
 RegOpenKeyExW
 RegQueryValueExW
 ResetEvent
-RrA;
 RtlUnwind
 SHELL32.dll
 SNAN)
@@ -1362,6 +1338,7 @@ SteamUser023
 SteamUtils010
 SteamWriteMiniDumpSetComment
 SteamWriteMiniDumpUsingExceptionInfoWithBuildId
+Steam_BGetCallback
 Steam_FreeLastCallback
 Steam_GetAPICallResult
 Steam_IsKnownInterface
@@ -1375,13 +1352,11 @@ TlsFree
 TlsGetValue
 TlsSetValue
 Tuesday
-TwB;\n
-TxB;
-TzB;
 UTF-16LEUNICODE
 UTF-8
 Unable to locate interface factory in %s.\n
 UnhandledExceptionFilter
+Unknown exception
 Using breakpad crash handler\n
 WaitForSingleObjectEx
 WakeAllConditionVariable
@@ -1389,8 +1364,6 @@ Wednesday
 WideCharToMultiByte
 WriteConsoleW
 WriteFile
-X/4B
-XxB;
 [S_API FAIL] Standard callback dispatch cannot be used; manual dispatch has already been selected.\n
 [S_API FAIL] SteamAPI_ManualDispatch_GetNextCallback() Cannot be used, must call SteamAPI_ManualDispatch_Init first.\n
 [S_API FAIL] SteamAPI_ManualDispatch_Init() Cannot be used yet, must init library first.\n
@@ -1404,10 +1377,7 @@ XxB;
 [S_API] SteamAPI_Init(): Loaded '%s' OK.\n
 [S_API] SteamAPI_Init(): Loaded local '%s' OK.\n
 [S_API] SteamAPI_Init(): SteamAPI_IsSteamRunning() did not locate a running instance of Steam.\n
-[aOni*{
 \steam.exe
-\tcQr
-^<V7w
 __based(
 __cdecl
 __clrcall
@@ -1464,58 +1434,40 @@ _nextafter
 `virtual displacement map'
 abcdefghijklmnopqrstuvwxyz
 acos
+appid
 asin
 atan
 atan2
 bad allocation
+bad array new length
+bad exception
 bin\audio.dll
 bin\clientui.dll
 c:\buildslave\steam_rel_client_win32\build\src\steam_api\Release\steam_api.pdb
 ceil
 cosh
-d8L2
 dddd, MMMM dd, yyyy
-dxB;
-dzB;
 e+000
-eLK(w
-fB;(fB;<fB;PfB;hfB;DgB;
-fB;a
 fabs
 floor
 fmod
 frexp
 g_pSteamClientGameServer
 gameoverlayrenderer.dll
-h0'D
-h@;Steam_BGetCallback
-hTB;"
-hxB;
-hzB;
 inity
-k=yI
-laB;
 ldexp
 log10
-lwB;\f
-lxB;
-lyB;
 lzZ?
-m\nXo
 map/set too long
 modf
 nan(ind)
 nan(snan)
-obwQ4
 operator
 operator "" 
 operator co_await
 operator<=>
-owM&
-pxB;
-pzB;
-qB;P
 restrict(
+sinh
 snan)
 sqrt
 steam.dll
@@ -1529,10 +1481,3 @@ steamclient64.dll
 steamconsole.dll
 steamui.dll
 tanh
-tsB;
-txB;
-v2!L.2
-x@;Unknown exception
-x@;bad array new length
-x@;bad exception
-xxB;

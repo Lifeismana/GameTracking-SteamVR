@@ -45,8 +45,8 @@
   XMLPacket (XMP Metadata):\n
   YCbCr Positioning: 
   YCbCr Subsampling: %u, %u\n
- !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
  %5I64u
+ %5u
  (%lu = 0x%lx)\n
  (%u = 0x%x)\n
  (unit %u = 0x%x)
@@ -75,6 +75,7 @@
 %lu: Sample out of range, max %lu
 %lu: Strip out of range, max %lu
 %lu: Tile out of range, max %lu
+%lu\n
 %s %s decoding is not implemented
 %s %s encoding is not implemented
 %s at line %u of %s %u (got %u, expected %u)
@@ -109,6 +110,7 @@
 %sunassoc-alpha
 %suncompressed data
 %sunspecified
+%u (0x%x)\n
 (infinite)\n
 (present)\n
 .?AVQImageIOHandler@@
@@ -126,10 +128,8 @@
 0x%x
 1.2.5
 7 (0x7)
-8&Kx
 <unknown>
 <unsupported data type in TIFFPrint>
-?EPredictorSetup
 ASCII value for tag "%s" contains null byte in value; value incorrectly truncated during reading due to implementation limitations
 ASCII value for tag "%s" does not end in null byte
 ActiveArea
@@ -310,7 +310,6 @@ Fractional scanlines cannot be written
 FreeByteCounts
 FreeOffsets
 GPSIFDOffset
-GTIFFAdvanceDirectory
 GainControl
 GlobalParametersIFD
 GrayResponseCurve
@@ -498,6 +497,7 @@ Planarconfig tag value assumed incorrect, assuming data is contig instead of chu
 Planarconfiguration
 Predictor
 PredictorEncodeTile
+PredictorSetup
 Premature EOF at line %u of %s %u (x %u)
 Premature EOL
 PrimaryChromaticities
@@ -511,7 +511,6 @@ QVector<T>::operator[]
 Q_UNREACHABLE was reached
 Q_UNREACHABLE()
 RGB color
-RSDS\vo
 RawDataUniqueID
 Read error at row %lu, col %lu, tile %lu; got %I64u bytes, expected %I64u
 Read error at row %lu, col %lu; got %I64u bytes, expected %I64u
@@ -593,6 +592,7 @@ T82Options
 TIFF Directory at offset 0x%I64x (%I64u)\n
 TIFF directory is missing required "%s" field
 TIFF directory is missing required "StripByteCounts" field, calculating from imagelength
+TIFFAdvanceDirectory
 TIFFAppendToStrip
 TIFFClientOpen
 TIFFComputeStrip
@@ -785,7 +785,6 @@ min-is-black
 min-is-white
 msb-to-lsb\n
 must be either LogLUV or LogL
-n$Kx
 none 
 palette color (RGB from colormap)
 pseudo-

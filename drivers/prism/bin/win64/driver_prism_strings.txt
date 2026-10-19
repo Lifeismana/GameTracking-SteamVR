@@ -10,7 +10,9 @@
 !bGraphicsCmd || m_eState == State_t::ApplicationReleased
 !bGraphicsCmd || m_eState == State_t::VulkanGraphicsTransitioned
 !m_stackFreeResources.empty()
+!std::isnan( flSystemTimeInSeconds )
 %s called without first releasing previous slot!
+%s-%d
 %s-CommandBuffer-%d
 %s-Image
 %s-ImageView
@@ -213,6 +215,7 @@
 %s:SyncTexture
 %s:Timeline
 %s[%s] %s file=%s
+%u != %zu
 , last executing in 
 -IPCWrapper
 .00cfg
@@ -321,7 +324,6 @@
 8e8f13b1-60eb-4b6a-a433-de86104115ac
 ::GetSystemBaseTicks() == m_client.GetCompositorBaseTicks()
 <unknown>
-?!std::isnan( flSystemTimeInSeconds )
 ??0?$basic_istream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@_N@Z
 ??0?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAA@XZ
 ??0?$codecvt@_WDU_Mbstatet@@@std@@QEAA@_K@Z
@@ -612,7 +614,6 @@ Projection
 QueryPerformanceCounter
 QueryPerformanceFrequency
 RPCRT4.dll
-RSDS
 RaiseException
 ReadFile
 ReadFile failed on %s after event was signaled because %s\n
@@ -729,7 +730,6 @@ WriteFile
 [IPC] SharedMem access invalid: %x\n
 [IPC] The owner SID is invalid.\n
 [IPC] Warning, existing file mapping for %s (%d) is too small (%d)\n
-]GLw
 _Cnd_broadcast
 _Cnd_destroy_in_situ
 _Cnd_init_in_situ

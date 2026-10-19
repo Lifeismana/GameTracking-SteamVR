@@ -81,25 +81,35 @@
 #OriginString_HandController
 #OriginString_HandSource
 #OriginString_Source
-$3br
 $tI(knN
-%&'()*456789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
+%%.%dg
+%.2X
 %LocalAppData%
 %Y-%m-%d-%p_%I_%M_%S
 %a %b %d %H:%M:%S %Y
 %a %b %d %Y %H:%M:%S.%%03u
 %d drivers initialized for watchdog mode.\n
 %d.%02d
+%d.%d
+%d.%d.%d
 %d.%d.%d.%d
 %llu
 %s %s startup with PID=%u, config=%s, runtime=%s, arch=%s\n
 %s (%X)-> %s\n
 %s View
 %s called without first releasing previous slot!
+%s%d
+%s%s%s%s%s
+%s%s\n
+%s-%d
 %s-CommandBuffer-%d
 %s-Image
 %s-ImageView
 %s-Memory
+%s.x
+%s.y
+%s.z
+%s: %s
 %s: %s #%d already pending acquire
 %s: %s #%d already pending release
 %s: %s #%d already pending release (lock)
@@ -344,8 +354,10 @@ $tI(knN
 %s:SyncTexture
 %s:Timeline
 %s[%s] %s file=%s
+%s_%3d
+%s_%s%s
+%u != %zu
 %u prior
-&'()*56789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
 ' is not a number.
 ' property is missing
 ' property is missing in 
@@ -412,10 +424,8 @@ $tI(knN
 , last executing in 
 , requestedBytes 
 -1e+9999
--ID3D11On12Device::CreateWrappedResource failed.\n
 -IPCWrapper
 -Infinity
--Unable to create shared state %s because namespace wasn't available\n
 -alpha
 -bar
 -dash
@@ -511,10 +521,10 @@ $tI(knN
 .?AV<lambda_79cc3d4038e33a7314ddfae30008a641>@@
 .?AV<lambda_7b0c6bf315357d0e20ca3c0b709e1137>@@
 .?AV<lambda_8962991448d06d1e6826effaa3e282d2>@@
-.?AV<lambda_89f2b376f675a2a88774ad02ebf539a3>@@
 .?AV<lambda_8dbfae96c65b0de9f81017ab99416c2f>@@
 .?AV<lambda_9719fca677a58d282439f7f8b139a74f>@@
 .?AV<lambda_ad65ac8970f4dd395d4f1e16325755ac>@@
+.?AV<lambda_ae0173a73f2bfb31704a35139dfd18a4>@@
 .?AV<lambda_b4bb3ccaa58babf72cd0ad9aeee44f48>@@
 .?AV<lambda_baf9a13ae88e0e395bddf77b7a139e01>@@
 .?AV<lambda_cec0a822e624efbc14f454d954ffa5d1>@@
@@ -806,10 +816,10 @@ $tI(knN
 .?AV?$_Func_impl_no_alloc@V<lambda_79cc3d4038e33a7314ddfae30008a641>@@W4XrResult@@AEAV?$vector@UXrView@@V?$allocator@UXrView@@@std@@@std@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_7b0c6bf315357d0e20ca3c0b709e1137>@@PEAXPEBD@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_8962991448d06d1e6826effaa3e282d2>@@W4XrResult@@PEAUXrAction_T@@_KPEAUXrActionStateBoolean@@PEA_K@std@@
-.?AV?$_Func_impl_no_alloc@V<lambda_89f2b376f675a2a88774ad02ebf539a3>@@PEAXPEBD@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_8dbfae96c65b0de9f81017ab99416c2f>@@_NW4ETrackedDeviceClass@vr@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_9719fca677a58d282439f7f8b139a74f>@@_NPEBUXrBindingModificationsKHR@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_ad65ac8970f4dd395d4f1e16325755ac>@@_NGGG@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_ae0173a73f2bfb31704a35139dfd18a4>@@PEAXPEBD@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_b4bb3ccaa58babf72cd0ad9aeee44f48>@@_NAEBUHmdVector3_t@vr@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_baf9a13ae88e0e395bddf77b7a139e01>@@_NPEBUXrActiveActionSetPrioritiesEXT@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_cec0a822e624efbc14f454d954ffa5d1>@@_NAEBUHmdVector3_t@vr@@@std@@
@@ -1566,7 +1576,6 @@ $tI(knN
 .CRT$XPZ
 .CRT$XTA
 .CRT$XTZ
-.HPN
 .P6A?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBV01@PEAX@Z
 .P6AXPEBD0I_NPEAXPEA_N@Z
 .P6A_NAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PEAV01@PEAX@Z
@@ -1658,6 +1667,7 @@ $tI(knN
 /chaperone/state
 /click
 /controller_type/
+/dashboard/visible
 /device_was_drawn
 /devices/htc/vive_tracker
 /dpad_
@@ -2043,20 +2053,15 @@ $tI(knN
 1.0.3.16
 1/2/4/8/16-bit only
 11 4 22 44 44 22 444444
-11eU%
 1e+9999
 361.75
 416.16
 440.97
-4\f54d
 528.49
 650000
-7Failed to create readable frame info buffer (D3D10)!\n
-7\f%74
 8c8f13b1-60eb-4b6a-a433-de86104115ac
 8d8f13b1-60eb-4b6a-a433-de86104115ac
 8e8f13b1-60eb-4b6a-a433-de86104115ac
-9a&g
 : LUID=
 : exception thrown in JSON library
 : one or more FS callback not set
@@ -2064,6 +2069,7 @@ $tI(knN
 ; expected 
 ; last read: '
 <NONE>
+<U+%.4X>
 <discarded>
 <invalid handle>
 <parse error>
@@ -2072,8 +2078,6 @@ $tI(knN
 <unknown>
 =====================================
 ================================================================================================\n
->@ASSERT: "%s" at %s:%d.\n
-?/dashboard/visible
 ??0?$basic_ios@DU?$char_traits@D@std@@@std@@IEAA@XZ
 ??0?$basic_iostream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@@Z
 ??0?$basic_istream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@_N@Z
@@ -2137,7 +2141,6 @@ $tI(knN
 ?_Xregex_error@std@@YAXW4error_type@regex_constants@1@@Z
 ?always_noconv@codecvt_base@std@@QEBA_NXZ
 ?cout@std@@3V?$basic_ostream@DU?$char_traits@D@std@@@1@A
-?ffffff
 ?flush@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@XZ
 ?getline@?$basic_istream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@PEAD_J@Z
 ?getloc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QEBA?AVlocale@2@XZ
@@ -2188,6 +2191,7 @@ ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/
 ADVAPI32.dll
 ALVRDisplayInit
 ALVRInit
+ASSERT: "%s" at %s:%d.\n
 ATI1
 ATI2
 AbortMessage({ Thread Watchdog Abort - %s /+/ %f second timeout })
@@ -2273,7 +2277,6 @@ BackUp() can only be called after a successful Next().
 Bad escape sequence in string
 Bad unicode escape sequence in string: four digits expected.
 Bad unicode escape sequence in string: hexadecimal digit expected.
-Bdi.
 Begin
 BeginFrame -> EndFrame is not re-entrant (i.e. calls must be serialized).
 BeginFrame called outside of a valid session.
@@ -2919,6 +2922,7 @@ Encountered unexpected delayed initialization of CPropertyManager\n
 EndFrame called w/ incorrect client frame index.
 EnterCriticalSection
 Error
+Error calling pDownsampleRenderer->Draw()!\n
 Error creating VR renderer.\n
 Error creating depth texture '%s' %dx%d (Format=%d, SampleCount=%d)\n
 Error creating shared texture '%s' %dx%d (%d mips)\n
@@ -3015,7 +3019,9 @@ Failed to create d3d11 swapchain image: Unsupported number of images: %d\n
 Failed to create d3d11 swapchain image: failed to create %d\n
 Failed to create descriptor heap to clear blank texture\n
 Failed to create event for fence %ls to signal gpu completion.\n
+Failed to create fence %ls.\n
 Failed to create internal command allocator %d\n
+Failed to create internal command allocator\n
 Failed to create internal command list %i\n
 Failed to create internal command list\n
 Failed to create opengl swapchain image: MakeCurrent failed\n
@@ -3025,6 +3031,7 @@ Failed to create opengl swapchain image: failed to create %d\n
 Failed to create opengl swapchain image: sample count %d unsupported\n
 Failed to create pixel shader module %s!\n
 Failed to create prism swapchain: Unsupported number of faces: %d\n
+Failed to create readable frame info buffer (D3D10)!\n
 Failed to create readable frame info buffer (D3D11)!\n
 Failed to create swapchain image: Foveation not supported
 Failed to create swapchain image: Unsupported format: %d\n
@@ -3361,6 +3368,7 @@ IClientTrackedDeviceProvider_003
 IClientTrackedDeviceProvider_004
 ID not specified
 ID3D11DeviceContext4::Signal
+ID3D11On12Device::CreateWrappedResource failed.\n
 IHmdSystem_001
 IHmdSystem_002
 IHmdSystem_003
@@ -3799,7 +3807,6 @@ Low Power Watchdog Not Supported (129)
 MAT2
 MAT3
 MAT4
-MGiI
 MSFT_lod
 MSVCP140.dll
 MainThrd
@@ -4143,8 +4150,6 @@ Property container - found and recovered a locked container at generation %x\n
 PropertyContainer: High lock acquisition counters: sp:%u yd:%u re:%u\n
 PropertyContainerCreation
 Purging all shared textures because the connection to vrserver was lost\n
-QFailed to create internal command allocator\n
-Qkkbal
 Quad
 QueryPerformanceCounter
 QueryPerformanceFrequency
@@ -4156,7 +4161,6 @@ QuickCalibratePlayspace couldn't get a pose from the HMD\n
 RADV
 RGBG
 RPCRT4.dll
-RSDS
 RadialMenu missing X axis input.\n
 RadialMenu missing Y axis input.\n
 RadialMenu setting 'num_buttons' not specified.\n
@@ -4479,7 +4483,6 @@ Transitioning XrSession from %s to %s\n
 Translating path: %s\t%s
 Turning on pipe debugging at the server's request\n
 Tutorial
-U1(\Q
 UNKNOWN_ERROR
 UNNAMED
 USB Service Busy (140)
@@ -4509,6 +4512,7 @@ Unable to create property container %s because creation was not requested\n
 Unable to create property container %s because it already existed\n
 Unable to create shared memory %s for IPC client\n
 Unable to create shared mutex %s for IPC client\n
+Unable to create shared state %s because namespace wasn't available\n
 Unable to create tracked camera service shared memory for IPC %s\n
 Unable to create tracked camera service shared mutex for IPC %s\n
 Unable to create tracked camera shared memory buffer (%d/%d, %d bytes) for IPC %s\n
@@ -6306,8 +6310,6 @@ XrQueryPerformanceMetricsCounterMETA was passed a counter struct with the wrong 
 XrQueryPerformanceMetricsCounterMETA was passed a null counter pointer.
 Y?fff?
 YUY2
-Zjz\v
-ZvFailed to create fence %ls.\n
 [%s] Begin Frame Timing: %d
 [%s] End Frame Timing: %d
 [%s] End Reading Timestamps: %d
@@ -6382,6 +6384,7 @@ ZvFailed to create fence %ls.\n
 [Compositor Client] AcquireSync FAILED with unknown hr 0x%08x
 [Compositor Client] AcquireSync FAILED with unknown hr 0x%08x [%u messages suppressed]
 [Compositor Client] AcquireSync FAILED with unknown hr 0x%08x [OMITTING additional logs for %d seconds]
+[Compositor Client] Begin AcquireSync
 [Compositor Client] Begin ReleaseSync
 [Compositor Client] End AcquireSync
 [Compositor Client] End ReleaseSync
@@ -6712,20 +6715,15 @@ ZvFailed to create fence %ls.\n
 [xrRenderModel] renderModelIdCountOutput was nullptr
 [xrRenderModel] session is not running
 \mfpmp.exe
-\nbad png sig
 \t%s::%llx.\n
-\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t
-\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t
 \u%04x
 \u%04x\u%04x
 \ufffd
-\vm_pSyncTexture == nullptr
 ] buffer "
 ] bufferView "
 ] invalid bufferView
 ] is not a JSON object.
 ],"subtype":
-][Compositor Client] Begin AcquireSync
 _Cnd_broadcast
 _Cnd_destroy
 _Cnd_destroy_in_situ
@@ -6949,6 +6947,7 @@ bad huffman code
 bad interlace method
 bad masks
 bad palette
+bad png sig
 bad req_comp
 bad sizes
 bad tRNS len
@@ -7518,7 +7517,6 @@ false
 false literal
 fclose
 feof
-ffffff
 fflush
 fgetc
 fgetpos
@@ -7651,8 +7649,6 @@ http://
 https://
 hu_hu
 hungarian
-iError calling pDownsampleRenderer->Draw()!\n
-i]Wb
 icon_steamvr_desktopgame.png
 illegal code in raster
 illum
@@ -7807,7 +7803,6 @@ khr_simple_controller
 knuckles
 ko_kr
 koreana
-laIO
 language_tag
 latam
 latch
@@ -7846,7 +7841,6 @@ long_press_expiry
 loop
 lower
 lrintf
-mSx@
 m_acquireMutexes.size() == m_acquireKeys.size()
 m_acquireMutexes.size() == m_acquireTimeouts.size()
 m_acquiredFrameIndices.size() > 0
@@ -7882,6 +7876,7 @@ m_pInstance == VK_NULL_HANDLE
 m_pPhysicalDevice != VK_NULL_HANDLE
 m_pPhysicalDevice == VK_NULL_HANDLE
 m_pSyncDevice == nullptr
+m_pSyncTexture == nullptr
 m_pTextureIndex == nullptr
 m_pTextureIndexStaging == nullptr
 m_pendingLock.empty()
@@ -9938,7 +9933,6 @@ while parsing
 width
 win64
 winrtdisplay.dll
-wn>Jj
 worldScale
 wrapS
 wrapT
@@ -10132,11 +10126,11 @@ xrconformance/driver
 y_path
 yfov
 ymag
-z^KD
 zfar
 zh_cn
 zh_tw
 zlib corrupt
 znear
+{%s}%s
 }/localization/localization.json
 ~universe:

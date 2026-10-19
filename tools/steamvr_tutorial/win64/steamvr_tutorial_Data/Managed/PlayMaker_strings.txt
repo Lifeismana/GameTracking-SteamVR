@@ -3,6 +3,7 @@
 #GUID
 #Strings
 $e45cefd6-a7ac-4665-bb9d-fec5e6655afb
+%-%&
 *BSJB
 .cctor
 .ctor

@@ -201,8 +201,10 @@ $yNp
 %EIa2
 %H:%M:%S%m/%d/%y%Y-%m-%d%I:%M:%S %p%H:%M%H:%M:%S
 %I:%M:%S %p
+%S`3
 %a %b %d %H:%M:%S %Y
 %b;Eq
+%c;Y
 %s %llu
 %s called on default-constructed iterator.
 %s called on end() iterator.
@@ -210,6 +212,9 @@ $yNp
 %s failed to acquire mutex
 %s failed to broadcast
 %s failed to release mutex
+%s/%s
+%s:%d: %s
+%s@%u
 %s@%u: error %d: %s\n
 &Dq3hZE
 &Vcm
@@ -322,6 +327,7 @@ $yNp
 ,rFM
 ,z6a
 - Type=
+-%d.%08d
 --> Heap index 
 -component vector of 
 -epq
@@ -1941,6 +1947,7 @@ FREE
 FXftC
 FXuM
 F\3q6
+F^?%g
 FaCp
 Failed to allocate enough memory to serialize a program. (%zu bytes)
 Failed to allocate enough memory to serialize a shader. (%zu bytes)
@@ -4827,6 +4834,7 @@ U|o3
 U~jM
 V2G{Fh
 V8Y\
+V@%d
 VERTEX
 VK_ARM_rasterization_order_attachment_access
 VK_EXT_blend_operation_advanced
@@ -5239,6 +5247,7 @@ Zz7 \fj
 \nmediump vec4 applyLogicOp(mediump vec4 currentFragment)\n{\n    return currentFragment;\n}\n
 \nout mediump vec4 frag_color;\n
 \nvoid main()\n{\n    if (enable_clip_planes && !enable_draw_texture)\n    {\n        if (!doClipPlaneTest())\n        {\n            discard;\n        }\n    }\n\n    mediump vec4 vertex_color;\n\n    if (shade_model_flat)\n    {\n        vertex_color = color_varying_flat;\n    }\n    else\n    {\n        vertex_color = color_varying;\n    }\n\n    mediump vec4 currentFragment = vertex_color;\n\n    mediump vec4 texturePrevColor = currentFragment;\n\n    for (uint i = 0u; i < kTexUnits; i++)\n    {\n        mediump vec4 textureColor;\n\n        if (point_rasterization && point_sprite_enabled &&\n            point_sprite_coord_replace[i]) {\n            textureColor = getPointSpriteTextureColor(i);\n        } else {\n            textureColor = getTextureColor(i);\n        }\n\n        currentFragment = textureFunction(\n            i, texture_format[i], texture_env_mode[i], combine_rgb[i], combine_alpha[i],\n            src0_rgb[i], src0_alpha[i], src1_rgb[i], src1_alpha[i], src2_rgb[i], src2_alpha[i],\n            op0_rgb[i], op0_alpha[i], op1_rgb[i], op1_alpha[i], op2_rgb[i], op2_alpha[i],\n            texture_env_color[i], texture_env_rgb_scale[i], texture_env_alpha_scale[i],\n            vertex_color, texturePrevColor, textureColor);\n\n        texturePrevColor = currentFragment;\n    }\n\n    if (enable_fog)\n    {\n        currentFragment = doFog(currentFragment);\n    }\n\n    if (enable_alpha_test && !doAlphaTest(currentFragment))\n    {\n        discard;\n    }\n\n    frag_color = applyLogicOp(currentFragment);\n}\n
+\r%s6\H
 \r5X1X
 \rf9D
 \t \t"\t$\t&\t(\t*\t,\t.\t0\t2\t4\t6\t9\t;\t=\t?\t@\tA\tB\tC\tD\tE\tF\tG\tH\tK\tL\tM\tW\t]\t_\ta\tc\te\tm\to\tp\tp\tq\tq\tq\tr\ts\tt\tu\tv\ty\tz\t{\t|\t}\t~\t
@@ -10516,6 +10525,7 @@ qualifier sequence
 queryAndAdjustSurfaceCaps
 queryCounterBitsGeneratesErrors
 r"cv
+r%e<
 r';xN
 r0UA
 r32f
@@ -12451,6 +12461,7 @@ xq-y
 xqKf
 xqd7^O
 y%Y{k!g
+y)%G
 y1|+sXO.
 y9X)
 y>X,7 l

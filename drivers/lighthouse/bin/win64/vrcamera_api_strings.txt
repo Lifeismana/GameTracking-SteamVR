@@ -281,7 +281,6 @@
 0123456789ABCDEFabcdef-+Xx
 0123456789ABCDEFabcdef-+XxPp
 0123456789abcdefghijklmnopqrstuvwxyz
-1eaB@
 :AM:am:PM:pm
 :Jan:January:Feb:February:Mar:March:Apr:April:May:May:Jun:June:Jul:July:Aug:August:Sep:September:Oct:October:Nov:November:Dec:December
 :Sun:Sunday:Mon:Monday:Tue:Tuesday:Wed:Wednesday:Thu:Thursday:Fri:Friday:Sat:Saturday
@@ -324,7 +323,6 @@
 ?DumpScaledDepth@IVRCameraFrame@vrcamera@@UEAAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
 ?EndStreamingDepth@CVRCameraWindows@vrcamera@@UEAA?AW4ECameraResult@2@XZ
 ?EndStreamingVideo@CVRCameraWindows@vrcamera@@UEAA?AW4ECameraResult@2@XZ
-?Failed to RenderStream: 
 ?GetAutoExposureTarget@IVRCamera@vrcamera@@UEAAGXZ
 ?GetCameraRegister@CVRCameraWindows@vrcamera@@UEAA?AW4ECameraResult@2@GAEAGW4RegisterType@IVRCamera@2@E_N@Z
 ?GetColorConfig@CVRCameraWindows@vrcamera@@UEAA?AW4ColorStreamConfig@IVRCamera@2@XZ
@@ -458,7 +456,6 @@ CreateTimerQueue
 CreateTimerQueueTimer
 CreateUmsCompletionList
 CreateUmsThreadContext
-DFailed to EnumPins.
 DecodePointer
 DeleteCriticalSection
 DeleteProcThreadAttributeList
@@ -493,6 +490,7 @@ Failed to AddToRot:
 Failed to BindToObject.
 Failed to BindToStorage.
 Failed to CreateClassEnumerator.
+Failed to EnumPins.
 Failed to GetNumberOfCapabilities.
 Failed to GetStreamCaps.
 Failed to KsProperty.
@@ -502,6 +500,7 @@ Failed to QI IAMVideoProcAmp.
 Failed to QI IMediaControl.
 Failed to QI IMediaEventEx.
 Failed to QueryPinInfo.
+Failed to RenderStream: 
 Failed to Run Graph.
 Failed to SetFiltergraph.
 Failed to apply depth format.
@@ -587,7 +586,6 @@ InterlockedPopEntrySList
 InterlockedPushEntrySList
 IsDebuggerPresent
 IsProcessorFeaturePresent
-J\rr3u
 KERNEL32.dll
 LCMapStringEx
 LCMapStringW
@@ -600,7 +598,6 @@ MJPEG color format is not yet implemented.
 MaxConcurrency
 MaxPolicyElementKey
 MbP?
-Mbp?333333
 MinConcurrency
 MultiByteToWideChar
 No Description
@@ -613,7 +610,6 @@ QueryDepthSList
 QueryPerformanceCounter
 QueryPerformanceFrequency
 QueryUmsThreadInformation
-RSDS
 RaiseException
 RegisterTraceGuidsW
 RegisterWaitForSingleObject
@@ -700,7 +696,6 @@ White Balance:\t\t\t
 WideCharToMultiByte
 WinRTInitialization
 Writing failed at 0x%X/0x%X Bytes\n
-\r\f\v\v\n\n\t\t\t\t\t
 _CxxThrowException
 _Getdays
 _Getmonths
@@ -839,7 +834,6 @@ is a directory
 islower
 isspace
 isupper
-jyvids
 ldexp
 localeconv
 lower
@@ -893,7 +887,6 @@ proc
 protocol error
 protocol not supported
 punct
-rLp>B
 raB3G
 read only file system
 realloc
@@ -946,6 +939,7 @@ value too large
 vector<T> too long
 vector<bool> too long
 version
+vids
 vrcamera_api.dll
 wcsnlen
 wcstoul

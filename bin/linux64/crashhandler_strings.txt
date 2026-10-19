@@ -22,6 +22,7 @@
 !dumper_->IsPostMortem()
 !member || mapping_id < mappings_.size()
 #!/bin/sh\nexit 0\n
+%%.%if%s
 %*s%s %s --> %d blocks = %s (%s larger)\n
 %*s%s %s --> %d blocks = %s (new)\n
 %.18g
@@ -32,17 +33,23 @@
 %04d%02d%02d%02d%02d%02d
 %8X%4X%4X%2X%2X%2X%2X%2X%2X%2X%2X
 %8X-%4X-%4X-%2X%2X-%2X%2X%2X%2X%2X%2X
+%A %b %d
 %d frames sampled for %.2f seconds\n
 %d validator nodes, %d nodes larger than %s\n
+%d%s
 %d.%d.%d.%d:%d
 %d:00
+%i%s
 %lld
 %llu
+%s %i %s
 %s --> %d blocks = %s\n
 %s not implemented
 %s overflow!\n
+%s%c%s
 %s%c.temp_write_%x
 %s.async%u.tmp
+%s/%s
 %s/.steam/%s
 %s/.steam/steam
 %s_%d%.2d%.2d%.2d%.2d%.2d_%d
@@ -190,6 +197,7 @@
 /bin/steamerrorreporter
 /dev
 /dev/
+/e%s%s
 /etc/lsb-release
 /etc/mtab
 /home/buildbot/buildslave/vrpanorama_main_ubuntu64_linux/build/src/public/tier0/threadtools.h
@@ -533,37 +541,6 @@ _ExitOnFatalAssert\n
 _ITM_deregisterTMCloneTable
 _ITM_registerTMCloneTable
 _Jv_RegisterClasses
-_ZNKSt8__detail20_Prime_rehash_policy11_M_next_bktEm@@GLIBCXX_3.4.18
-_ZNKSt8__detail20_Prime_rehash_policy14_M_need_rehashEmmm@@GLIBCXX_3.4.18
-_ZNSs12_M_leak_hardEv@@GLIBCXX_3.4
-_ZNSs4_Rep10_M_destroyERKSaIcE@@GLIBCXX_3.4
-_ZNSs4_Rep10_M_disposeERKSaIcE@@GLIBCXX_3.4
-_ZNSs4_Rep20_S_empty_rep_storageE@@GLIBCXX_3.4
-_ZNSs6appendEPKcm@@GLIBCXX_3.4
-_ZNSs6appendERKSs@@GLIBCXX_3.4
-_ZNSs6assignEPKcm@@GLIBCXX_3.4
-_ZNSs6assignERKSs@@GLIBCXX_3.4
-_ZNSs9_M_mutateEmmm@@GLIBCXX_3.4
-_ZNSsC1EPKcRKSaIcE@@GLIBCXX_3.4
-_ZNSsC1ERKSs@@GLIBCXX_3.4
-_ZNSsD1Ev@@GLIBCXX_3.4
-_ZNSt8__detail15_List_node_base7_M_hookEPS0_@@GLIBCXX_3.4.15
-_ZNSt8__detail15_List_node_base9_M_unhookEv@@GLIBCXX_3.4.15
-_ZSt17__throw_bad_allocv@@GLIBCXX_3.4
-_ZSt18_Rb_tree_decrementPSt18_Rb_tree_node_base@@GLIBCXX_3.4
-_ZSt18_Rb_tree_incrementPKSt18_Rb_tree_node_base@@GLIBCXX_3.4
-_ZSt18_Rb_tree_incrementPSt18_Rb_tree_node_base@@GLIBCXX_3.4
-_ZSt20__throw_length_errorPKc@@GLIBCXX_3.4
-_ZSt20__throw_out_of_rangePKc@@GLIBCXX_3.4
-_ZSt29_Rb_tree_insert_and_rebalancebPSt18_Rb_tree_node_baseS0_RS_@@GLIBCXX_3.4
-_ZSt9terminatev@@GLIBCXX_3.4
-_ZTIi@@CXXABI_1.3
-_ZTVN10__cxxabiv117__class_type_infoE@@CXXABI_1.3
-_ZTVN10__cxxabiv120__si_class_type_infoE@@CXXABI_1.3
-_ZdaPv@@GLIBCXX_3.4
-_ZdlPv@@GLIBCXX_3.4
-_Znam@@GLIBCXX_3.4
-_Znwm@@GLIBCXX_3.4
 __assert_fail
 __assert_fail@@GLIBC_2.2.5
 __bss_start
@@ -937,9 +914,13 @@ open@@GLIBC_2.2.5
 opendir
 opendir@@GLIBC_2.2.5
 operator delete(void*)
+operator delete(void*)@@GLIBCXX_3.4
 operator delete[](void*)
+operator delete[](void*)@@GLIBCXX_3.4
 operator new(unsigned long)
+operator new(unsigned long)@@GLIBCXX_3.4
 operator new[](unsigned long)
+operator new[](unsigned long)@@GLIBCXX_3.4
 output
 p2pcore.so
 p2prelayserver.so
@@ -1090,30 +1071,54 @@ statvfs64
 statvfs64@@GLIBC_2.2.5
 statvfs@@GLIBC_2.2.5
 std::_Rb_tree_decrement(std::_Rb_tree_node_base*)
+std::_Rb_tree_decrement(std::_Rb_tree_node_base*)@@GLIBCXX_3.4
 std::_Rb_tree_increment(std::_Rb_tree_node_base const*)
+std::_Rb_tree_increment(std::_Rb_tree_node_base const*)@@GLIBCXX_3.4
 std::_Rb_tree_increment(std::_Rb_tree_node_base*)
+std::_Rb_tree_increment(std::_Rb_tree_node_base*)@@GLIBCXX_3.4
 std::_Rb_tree_insert_and_rebalance(bool, std::_Rb_tree_node_base*, std::_Rb_tree_node_base*, std::_Rb_tree_node_base&)
+std::_Rb_tree_insert_and_rebalance(bool, std::_Rb_tree_node_base*, std::_Rb_tree_node_base*, std::_Rb_tree_node_base&)@@GLIBCXX_3.4
 std::_Rb_tree_iterator<std::pair<std::string const, std::string>> std::_Rb_tree<std::string, std::pair<std::string const, std::string>, std::_Select1st<std::pair<std::string const, std::string>>, std::less<std::string>, std::allocator<std::pair<std::string const, std::string>>>::_M_emplace_hint_unique<std::piecewise_construct_t const&, std::tuple<std::string&&>, std::tuple<>>(std::_Rb_tree_const_iterator<std::pair<std::string const, std::string>>, std::piecewise_construct_t const&, std::tuple<std::string&&>&&, std::tuple<>&&)
 std::__detail::_List_node_base::_M_hook(std::__detail::_List_node_base*)
+std::__detail::_List_node_base::_M_hook(std::__detail::_List_node_base*)@@GLIBCXX_3.4.15
 std::__detail::_List_node_base::_M_unhook()
+std::__detail::_List_node_base::_M_unhook()@@GLIBCXX_3.4.15
 std::__detail::_Prime_rehash_policy::_M_need_rehash(unsigned long, unsigned long, unsigned long) const
+std::__detail::_Prime_rehash_policy::_M_need_rehash(unsigned long, unsigned long, unsigned long) const@@GLIBCXX_3.4.18
 std::__detail::_Prime_rehash_policy::_M_next_bkt(unsigned long) const
+std::__detail::_Prime_rehash_policy::_M_next_bkt(unsigned long) const@@GLIBCXX_3.4.18
 std::__throw_bad_alloc()
+std::__throw_bad_alloc()@@GLIBCXX_3.4
 std::__throw_length_error(char const*)
+std::__throw_length_error(char const*)@@GLIBCXX_3.4
 std::__throw_out_of_range(char const*)
+std::__throw_out_of_range(char const*)@@GLIBCXX_3.4
 std::basic_string<char, std::char_traits<char>, std::allocator<char>>::basic_string(char const*, std::allocator<char> const&)
+std::basic_string<char, std::char_traits<char>, std::allocator<char>>::basic_string(char const*, std::allocator<char> const&)@@GLIBCXX_3.4
 std::basic_string<char, std::char_traits<char>, std::allocator<char>>::basic_string(std::string const&)
+std::basic_string<char, std::char_traits<char>, std::allocator<char>>::basic_string(std::string const&)@@GLIBCXX_3.4
 std::basic_string<char, std::char_traits<char>, std::allocator<char>>::~basic_string()
+std::basic_string<char, std::char_traits<char>, std::allocator<char>>::~basic_string()@@GLIBCXX_3.4
 std::string::_M_leak_hard()
+std::string::_M_leak_hard()@@GLIBCXX_3.4
 std::string::_M_mutate(unsigned long, unsigned long, unsigned long)
+std::string::_M_mutate(unsigned long, unsigned long, unsigned long)@@GLIBCXX_3.4
 std::string::_Rep::_M_destroy(std::allocator<char> const&)
+std::string::_Rep::_M_destroy(std::allocator<char> const&)@@GLIBCXX_3.4
 std::string::_Rep::_M_dispose(std::allocator<char> const&)
+std::string::_Rep::_M_dispose(std::allocator<char> const&)@@GLIBCXX_3.4
 std::string::_Rep::_S_empty_rep_storage
+std::string::_Rep::_S_empty_rep_storage@@GLIBCXX_3.4
 std::string::append(char const*, unsigned long)
+std::string::append(char const*, unsigned long)@@GLIBCXX_3.4
 std::string::append(std::string const&)
+std::string::append(std::string const&)@@GLIBCXX_3.4
 std::string::assign(char const*, unsigned long)
+std::string::assign(char const*, unsigned long)@@GLIBCXX_3.4
 std::string::assign(std::string const&)
+std::string::assign(std::string const&)@@GLIBCXX_3.4
 std::terminate()
+std::terminate()@@GLIBCXX_3.4
 stderr
 stderr@@GLIBC_2.2.5
 steam://openurl/
@@ -1190,6 +1195,7 @@ towupper
 towupper@@GLIBC_2.2.5
 true
 typeinfo for int
+typeinfo for int@@CXXABI_1.3
 ucontext_
 unReadAheadChunkSize should be zero when using bUnbuffered = true
 uname
@@ -1230,7 +1236,9 @@ vsnprintf@@GLIBC_2.2.5
 vswprintf
 vswprintf@@GLIBC_2.2.5
 vtable for __cxxabiv1::__class_type_info
+vtable for __cxxabiv1::__class_type_info@@CXXABI_1.3
 vtable for __cxxabiv1::__si_class_type_info
+vtable for __cxxabiv1::__si_class_type_info@@CXXABI_1.3
 waitpid
 waitpid@@GLIBC_2.2.5
 wcslen

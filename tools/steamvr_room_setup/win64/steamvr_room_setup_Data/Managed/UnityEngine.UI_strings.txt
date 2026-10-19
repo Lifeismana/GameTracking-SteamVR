@@ -15,6 +15,7 @@ $d4f464c7-9b15-460d-b4bc-2cacd1c1df73
 *UnityEngine.UI.Button+<OnFinishSubmit>d__9
 +QoF\n
 +UnityEngine.UI.Scrollbar+<ClickRepeat>d__57
++n*%o
 ,UnityEngine.UI.InputField+<CaretBlink>d__159
 ,Use OnPopulateMesh(VertexHelper vh) instead.
 -lastSelectedGameObject is no longer supported
@@ -1141,6 +1142,9 @@ ZF\ro
 \ffadeDuration
 \fkeyboardType
 \fpressedColor
+\n%oj
+\n%oq
+\n&%oA
 \n*rsB
 \nV2(x
 \nXV~x

@@ -3,7 +3,6 @@
     %8d % 3d %% %s\n
     %8d KB %8d %-48s\n
     i                   i   f   v    ii  i   ff  ii  ii  i   i           i   v  i    i  ff   ii ii  i    i               i   i  i   ii  ii  i   f   f   fi  fi  i   i   ii  ii  v   v   vi  vi       i   i   ii i   i   f   f                    i   i   i  ii  ii  ii  ii  ii  if  if  ix  ix  ix  i   i   i   i   i   ix  iv  ii  ii  ii  ii  ii  ii  ii  ii  fi  fi  xi  xi  vi  iii iii iii iii iii iii iii iii iii iii iii iii iii iii iii iii iii i   i   i   i   i   i       ii  ii  ff  vv  v   ii  ii  ii  ii  ii  ii  ii  ii  ii  ii  ii  ii  ii                  i   i   i   i   i                                                                                                                   iii iii iii iii iii iii iii iii iii iii iii iii iii ii  ii  ii  ii  ii  ii  fi  fi  ii  ii  ii  ii  ii  ii  ii  iii iii iii iii iii iii ii  ii  ii  ii  ii  ii  ii  ii  ii  ii  ii  ii  ii  ii  ii  ii  ii  ii  i   i   i   i   i   fi  ii  ii  ii  ii  ii  ii  ii  ii  ii  ii  ii  ii  ii  ii                                          fii fii fii iii iii iii iii iii iii iii iii iii iii iii iii iii iii ii  ii  ii  ii  ii  ii  fi  fi  ii  ii  fi  ii  ii  ii  ii  ii  ii  iii iii iii iii iii iii ii  ii  ii  ii  ii  ii  ii  ii  ii  ii  ii  ii  ii  ii  ii  ii  ii  ii  iii ii  iii ii  iii iii ii  ii  ii  ii  ii  ii  ii  ii  ii  ii  ii  ii  ii  i   i   i   i   i                                                                                   fff fff fff fff fff fff fff ff  ff  if  if  if  if  ff  ff  if  if  if  if  if  if  if  fff fff fff fff fff fff if  if  if  if  if  if  if  if  if  if  if  if  if  if  if  if  if  if  iff iff iff iff iff ifi ifi ifi ifi ifi if  ff  if  if  i   i       ii           i      iii iii iii iii iii iii iii iii iii iii iii iii iii ii  iii ii  iii ii  iii ii   i  ii  ii  ii  ii  ii  ii      ii  iii iii iii iii ff  ff  ff  ff  ff  ff  ff  ii  ii  ii   ii                     i   i    i           i  xxx xxx xxx xxx xxx xxx xxx xxx xxx xxx xxx xxx xxx xxx xx  xx  xx  xx  xx  xx  xx  xx  xxx xxx xxx xxx xxx xxx xxx xxx xxx xxx xxx xxx xxx xxx xx  xx  ix  xxx xxx xxx xxx xxx xxx xxx xxx xxx xxx xxx xxx xxx xxx xxx xxx xxx xxx xxx xxx xxx xxx xxx xxx xxx xxx xxx xxx xxx xxx xxx xxx xxx xxx xxx xxx xxx xxx xxx xxx xxx xxx xxx xxx xxx xxx xxx xxx xxx xxx xxx xxx xxx xxx xxx xxx xxx xxx xxx xxx xxx xxx xxx xx  xxx xx  xxx xx  xxx xx  xxx xx  xxx xx  xxx xx  xxx xx  xxx ix  fi  ix  ix  ix  ix  fx  ix  xxi ix  xii xxi xxf xxf xxi xf  ix  xi  xi  xi  xi  xf  xi  xf   i  xx  x   x   iii iii ii  ii  iii iii iii ii  ii  iii     iiiiiiiiiii iii iii iii iii iii iii iii iii iii iii iii iii iii iii iii iii iii iii iii          i   ii  i       i   ii ii   i  ii   i   i   i   i   i   i   ii  ii  ii  ii  ii  ii iii iii iii iii iii iii  i       i   i   i  iii ii   ii  f  fi  fi   i   i       i  ff  ff   ii  i   ii  ii  i   ii  ii  ii  ii  ii  ii  ii  i   i   i   i   i   i  iii iii iii iii iii iii iii     
-   ! " # $ % & ' ( ) * + , - . / 0 1 2 3 4 5 6 7 8 9 : ; < = > ? @ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z [ \ ] ^ _ ` a b c d e f g h i j k l m n o p q r s t u v w x y z { | } ~ 
   Callers (with count) that contribute at least for 1%%:\n
   R%d -> R%d\n
   Type failed due to %s\n
@@ -22,9 +21,7 @@
   timeout=<n>\t\t\tTimeout for connecting in milliseconds.\n
   transport=<transport>\t\tTransport to use for connecting to the debugger (mandatory, possible values: 'dt_socket')\n
  !"#$%&'()*+,-./0123
- !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
  !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
- !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
  %02X
  %s + 0x%x (%p %p) [%p - %s]
  (Espanya)
@@ -33,6 +30,7 @@
  (Slovensk
  (delta is %d)\n
  (temporary)\n
+ + 0x%lx
  ---> heapsize = %lu bytes\n
  1ai
  1ff
@@ -40,23 +38,25 @@
  9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
  99999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
  <spill ins>\n
- A E M O Q a e i k 
  Add load for R%d (R%d -> R%d) at BB%d -> BB%d [%x - %x]\n
  Add move for R%d (R%d -> R%d) at BB%d -> BB%d [%x - %x]\n
  Add store for R%d (R%d -> R%d) at BB%d -> BB%d [%x - %x]\n
  BB%d
+ BB%d(%d)
  Cannot bind to the target method because its signature differs from that of the delegate type
  EXPRESSED OR IMPLIED.  ANY USE IS AT YOUR OWN RISK.
+ R%d
  Spill load added for R%d (R%d -> R%d) at %x\n
  Spill store added for R%d (R%d -> R%d) at %x\n
  Spill store/load added for R%d (R%d -> R%d) at %x\n
+ [%lld]
  [%s + 0x%lx]
  [%s + 0x%lx] <-
  [%s <- R%d]
+ [B%dB%d]
+ [BB%d]
  [R%d + 0x%lx]
  [R%d + 0x%lx] <-
- \t \n \v \f \r 
- ]Acosh
  adai
  aii
  aiii
@@ -74,11 +74,8 @@
  object at %p (klass: %p)\n
  republika)
  with value 
-! !!!"!#!$!%!&!'!(!)!*!+!,!-!.!/!0!1!2!3!4!5!6!7!8!9!:!;!<!=!>!?!@!A!B!C!D!E!F!G!H!I!J!K!L!M!N!O!P!Q!R!S!T!U!V!W!X!Y!Z![!\!]!^!_!`!a!b!c!d!e!f!g!h!i!j!k!l!m!n!o!`!a!b!c!d!e!f!g!h!i!j!k!l!m!n!o!
-! !!!"!#!$!%!&!'!(!)!*!+!,!-!.!/!0!1!2!3!4!5!6!7!8!9!:!;!<!=!>!?!@!A!B!C!D!E!F!G!H!I!J!K!L!M!N!O!P!Q!R!S!T!U!V!W!X!Y!Z![!\!]!^!_!p!q!r!s!t!u!v!w!x!y!z!{!|!}!~!
 ! is_global_freg (hreg)
 ! is_global_ireg (hreg)
-!!!#!'!3!5!7!?!A!C!I!K!M!Q!S!U!W!Y!_!g!i!o!q!s!u!y!{!}!
 !(cfg->comp_done & MONO_COMP_DFRONTIER)
 !(cfg->comp_done & MONO_COMP_DOM)
 !(cfg->comp_done & MONO_COMP_LIVENESS)
@@ -93,7 +90,6 @@
 !(res->flags & METHOD_ATTRIBUTE_PINVOKE_IMPL)
 !(res->iflags & METHOD_IMPL_ATTRIBUTE_INTERNAL_CALL)
 !This program cannot be run in DOS mode.\r\r\n$
-!\t!\n!\v!\f!\r!
 !addr
 !aot
 !array_is_full(array)
@@ -113,8 +109,8 @@
 !cman->read_only
 !cmethod->klass->valuetype
 !container->is_method
+!context->method_inst || !context->method_inst->is_open
 !context_used
-!dV9^U
 !domain->jit_info_free_queue
 !domain->thunk_free_lists [0]
 !error
@@ -151,9 +147,9 @@
 !mono_method_check_context_used (cmethod)
 !mono_method_signature (method)->pinvoke
 !mono_method_signature (method)->ret->byref
+!n%n
 !obj
 !obj->vtable->klass->marshalbyref
-!p!q!r!s!t!u!v!w!x!y!z!{!|!}!~!
 !pass_vtable
 !pinvoke
 !return_var
@@ -164,22 +160,14 @@
 !subclass->generic_class
 !t->byref
 !this
-!u]Ju
 !use_bin_writer
 !vmethod->klass->generic_class || !vmethod->klass->generic_class->context.class_inst->is_open
 !vmethod->klass->generic_container
 !vtable->klass->generic_container
 !vtable_arg
 !vtable_slot
-" "!"""#"$"%"&"'"(")"*"+","-"."/"0"1"2"3"4"5"6"7"8"9":";"<"=">"?"@"A"B"C"D"E"F"G"H"I"J"K"L"M"N"O"P"Q"R"S"T"U"V"W"X"Y"Z"["\"]"^"_"`"a"b"c"d"e"f"g"h"i"j"k"l"m"n"o"p"q"r"s"t"u"v"w"x"y"z"{"|"}"~"
-"+bmiw
-",02080+
 "L%L%L%L.LDLHL"L
 "SkipVerification"
-"Y,CH
-"\t"\n"\v"\f"\r"
-# #!#"###$#%#&#'#(#)#*#+#,#-#.#/#0#1#2#3#4#5#6#7#8#9#:#;#<#=#>#?#@#A#B#C#D#E#F#G#H#I#J#K#L#M#N#O#P#Q#R#S#T#U#V#W#X#Y#Z#[#\#]#^#_#`#a#b#c#d#e#f#g#h#i#j#k#l#m#n#o#p#q#r#s#t#u#v#w#x#y#z#{#|#}#~#
-# ' G ] c g o y q } { w 
 # Bytes in all Heaps
 # GC Handles
 # Gen 0 Collections
@@ -208,20 +196,14 @@
 ########################\n%8d KB %s\n
 #Blob
 #GUID
-#Png
 #Strings
 #VER:2
 #\r%\r)\r-\r/\r1\r
-#\t#\n#\v#\f#\r#
-#nsa
-$ $!$"$#$$$%$&$'$($)$*$+$,$-$.$/$0$1$2$3$4$5$6$7$8$9$:$;$<$=$>$?$@$A$B$C$D$E$F$G$H$I$J$K$L$M$N$O$P$Q$R$S$T$U$V$W$X$Y$Z$[$\$]$^$_$`$a$b$c$d$e$f$g$h$i$j$k$l$m$n$o$p$q$r$s$t$u$v$w$x$y$z${$|$}$~$
 $PRIVATE$
-$\t$\n$\v$\f$\r$
-$fWmSx@
 $graph->set_legend(qw(
-$lVX
 $stattitle = 'Compilations times for %s';\n
 $stattitle = 'Mono Benchmark Results (various optimizations)';\n
+% 8.3f 
 % DCP Time
 % Interrupt Time
 % Privileged Time
@@ -230,16 +212,21 @@ $stattitle = 'Mono Benchmark Results (various optimizations)';\n
 % Time in JIT
 % Time in RT checks
 % User Time
-%'%4%C%T%i%z%W
 %-10s
 %-36s: %.2f\n
+%-36s: %d\n
 %-36s: %lld\n
 %-36s: %llu\n
+%-36s: %s\n
+%-36s: %u\n
+%-9s %s\n
 %02X%02X%02X%02X-%02X%02X-%02X%02X-%02X%02X-%02X%02X%02X%02X%02X%02X
 %02x,
 %08x
 %08x_%08x_%08x
 %32s\n
+%7d 
+%7d\t%5.2f %% %s\n
 %Ak=sinh
 %Lu %Lu %Lu %Lu %Lu %Lu %Lu
 %d item(s) on exit from B%d\n
@@ -249,6 +236,7 @@ $stattitle = 'Mono Benchmark Results (various optimizations)';\n
 %d methods have other problems (%d%%)\n
 %d threads suspended.\n
 %d.%d.%d.%d_%s_%s
+%d/%s
 %ld%ld%ld%ld%ld%ld%ld%*d%ld%ld%ld%ld%ld%ld%ld
 %ld.%ld.%ld.0
 %lld\n
@@ -272,18 +260,38 @@ $stattitle = 'Mono Benchmark Results (various optimizations)';\n
 %rdx
 %rsi
 %rsp
+%s %s
 %s %s (%d) in memory: base register %s + %d\n
 %s %s (%d) in register %s\n
+%s (%s %s)
+%s (%s)
+%s - %s
+%s - %s %d
 %s - %s + %d
 %s - UNLOADED
 %s ValueType (type: %p) at %p\n
 %s doesn't implement interface %s\n
+%s%c
+%s%c%s
+%s%d
+%s%s
+%s%s%s
+%s%s%s%s
+%s%s%s:%s
+%s%s%s::%s(%s)
+%s%s%s\n
+%s%s:%s%s
 %s%s:%s%s (%s)
+%s%s:\n
 %s, Version=%d.%d.%d.%d, Culture=%s, PublicKeyToken=%s%s
+%s-%s%s
 %s-mono-cachepath
+%s.%s
 %s.config
 %s.dll
 %s.mdb
+%s.o
+%s.s
 %s.tmp
 %s/.mono/aot-profile-data/%s-%d
 %s/test.o
@@ -294,15 +302,22 @@ $stattitle = 'Mono Benchmark Results (various optimizations)';\n
 %s: cannot use mono_trace_pop without calling mono_trace_init first.
 %s: cannot use mono_trace_push without calling mono_trace_init first.
 %s:%d: assertion '%s' failed
+%s:%d\n
+%s:%s (%s)
+%s::%s)
+%sK_I_%x
 %s\nException Rethrown at:\n
+%s_p
 %sas %s %s -o %s
+%se_%x_p
 %sglobals
 %sglobals_hash
+%sm_%x
+%sm_%x_p
 %sme_%x
 %snamed_%s
+%sp_%d
 %u.%u.%u.%u
-&)*).)2)6):)>)B)F)J)N)R)W
-&M,2q
 &a,a,a,a,aJa
 ' H:mm:ss
 ' dd MM, dddd
@@ -313,7 +328,6 @@ $stattitle = 'Mono Benchmark Results (various optimizations)';\n
 'den 'd MMM yyyy
 'den 'd MMM yyyy HH.mm.ss z
 'den 'd MMM yyyy HH:mm:ss
-( 8PX
 (%lu:%lu,%lu)
 ('8PW
 (((((((((((((((((((((
@@ -325,7 +339,6 @@ $stattitle = 'Mono Benchmark Results (various optimizations)';\n
 ((ins->dreg == -1) && (regtype == ' ')) || ((ins->dreg != -1) && (regtype != ' '))
 ((sreg == -1) && (regtype == ' ')) || ((sreg != -1) && (regtype != ' '))
 (N.N.N.N>NjGnGWGPN
-(Qf5Q
 (assembly->code.index % 4) == 0
 (assembly->resources.index % 4) == 0
 (attempt %ld)\n
@@ -368,12 +381,9 @@ $stattitle = 'Mono Benchmark Results (various optimizations)';\n
 (wrapper delegate-invoke):%s (%s)
 (wrapper runtime-invoke):%s (%s)
 (wrapper runtime-invoke-dynamic)
-(yaX
-)=d11
 )P/P/P/PCP
 * Assertion at %s:%d, condition `%s' not met\n
 * Assertion: should not be reached at %s:%d\n
-*&*+*4*?*F*U*`*m*W
 *(table->next_value (value)) == NULL
 ***>Full mark for collection %lu after %ld allocd bytes\n
 ***Section from 0x%lx to 0x%lx\n
@@ -382,11 +392,6 @@ $stattitle = 'Mono Benchmark Results (various optimizations)';\n
 *endbuf <= limit
 *sig == 0x06
 *vtable_slot
-*zLrz
-+"2"8"?"D"J"P"V"Z"^"b"f"j"n"r"z"
-+&+1+<+H+K+P+U+Z+_+d+i+v+
-+LR2~N
-+gu'2
 , %s, Version=%d.%d.%d.%d, Culture=%s, PublicKeyToken=%s%s
 , ,!,",#,$,%,&,',(,),*,+,,,-,.,
 , Retargetable=Yes
@@ -394,12 +399,9 @@ $stattitle = 'Mono Benchmark Results (various optimizations)';\n
 , ranges already computed, result: \n
 , ranges not computed\n
 , uncaught
-,#,),/,5,;,A,H,O,W
 ,W2W2W2WBW
 ,Z2Z2Z2ZBZWZ)I
-,\t,\n,\v,\f,\r,
 - -!-"-#-$-%-
--"-3-D-M-X-c-p-}-
 --> Marking for collection %lu 
 --agent=
 --aot
@@ -443,10 +445,8 @@ $stattitle = 'Mono Benchmark Results (various optimizations)';\n
 --verify-all
 --version
 --wapi=
--64OS
 -I0I0I0I:I@IDI-I
 -Infinity
--\t-\n-\v-\f-\r-
 ..\eglib\src\garray.c
 ..\eglib\src\gdate-win32.c
 ..\eglib\src\gdir-win32.c
@@ -588,7 +588,6 @@ $stattitle = 'Mono Benchmark Results (various optimizations)';\n
 .NET CLR Memory
 .NET CLR Remoting
 .NET CLR Security
-.V9b
 .XXXXXX
 .bat
 .bss
@@ -612,7 +611,6 @@ $stattitle = 'Mono Benchmark Results (various optimizations)';\n
 .debug_line
 .debug_loc
 .dll
-.eNQ
 .exe
 .hword
 .long
@@ -628,7 +626,6 @@ $stattitle = 'Mono Benchmark Results (various optimizations)';\n
 .stabs\t"<BB>",100,0,0,.Ltext0\n
 .string
 .text
-.uwx
 /G2G2G2G<GOGSG/G
 /proc/
 /proc/%d/cmdline
@@ -640,13 +637,12 @@ $stattitle = 'Mono Benchmark Results (various optimizations)';\n
 /x3x
 0,1,2,3,4,5,6,7,8,9,:,;,<,=,>,?,@,A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z,[,\,],^,
 0.0.0.0
+0.0.0.0:%u
 0.0.0.0_%s_%s
 0123456789
 0123456789ABCDEF
 0123456789abcdef
 0123456789abcdef'%s' in MONO_PATH doesn't exist or has wrong permissions.
-0\r5"t
-0\rU"t
 0]6]6]6]K]^]_HY
 0x%016llx, 
 0x%08x
@@ -657,10 +653,6 @@ $stattitle = 'Mono Benchmark Results (various optimizations)';\n
 1#INF
 1#QNAN
 1#SNAN
-1$gq
-1.1A1T1j1}1
-11UT
-11eU%
 127.0.0.1
 16sb
 1H4H4H4H<HBHFH1H
@@ -671,50 +663,17 @@ $stattitle = 'Mono Benchmark Results (various optimizations)';\n
 1iib
 1iii
 1iis
-1l@J
 1xxx
-2!212A2T2[2e2u2
-2?<X<12q<
 2V8V8V8VQV
-2\vpx>
 2]fQ\t?acos
-3"3&3*3.3r"z"2383
-3.;.F.P.[.d.m.w.z.}.
-3/#eD
-33333333ffffffff
-3DKDTD]D
 3DKDTD]DhDqD~D
-3G C
-3\rE%t
-3if-
-4)4B4U4_4i4v4
-4AHx
 4\tgA
-4f:k
 4l8l
-4v.5
-5#535O5e5{5W
-5'@'J'S'^'j'u'
-59E9^9q9
-5:I,U
-5WdIo
 5k9k
-6$4K
-646M6]6s6
 65535
-6A_p
-6QIw
 6T<T<T<TQT
-6WB\r7\t-
-6\fXO>
-7!7.7A7`7y7
-7#B#O#^#k#x#
 700PP
 700WP
-752!
-7uKHO
-7yp>
-9+959E9^9q9
 99,!-9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
 99999
 9999999999999999999999999
@@ -726,17 +685,14 @@ $stattitle = 'Mono Benchmark Results (various optimizations)';\n
 99999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
 9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
 999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
-9g>@3
 :%ld, sz=%ld)\n
 :%ld, sz=%ld, 
 :.ctor(int)
 :.ctor(int,int,int,int)
 :M=M=M=MEMUMO
 :R@R@R@RSR
-;*;C;V;l;s;
 ;K>K>K>KIKSKWK;K
 <%p - JIT trampoline for %s>
-<.1A1
 <0x%08x>
 <INVALID UTF8>
 <Module>
@@ -745,47 +701,22 @@ $stattitle = 'Mono Benchmark Results (various optimizations)';\n
 <bundled>
 <cBcBcBcScsc+G
 <generic_trampoline>
-<gny
 <invalid signature>
-<j1}1
 <no_image>
 <null>
 <smashed>, appr. sz = %ld)\n
 <unknown>
-= =*=0=7=?=C=]\vG=L=P=T=Y=a=j=p=v={=
-=12q<
-=9tau
 =YCYCYCYXYjY
-=bC-T
 =hAh
-=j1}1
 =tAt
 >\D\D\D\S\o\+G
->`jcF
-?1cb
-?3E3L3U3\3d3W
-?456789:;<=
-?JV8f
-?N]TUUU
-?RSDShz3
-?image->assembly->image == image
-?mHh
 ?sCs
-?tanh
 ?vCv
-@%s%s%s::%s(%s)
-@3PH
-@8UUUUU
-@BXV
-@aQY
 @cab
 @cai
 @cfb
 @cfi
-@co1
-@igO
 A null value was found where an object instance was required
-A0U0\
 ABCDEFGHIJKLMNOPQRSTUVWXYZ
 ADVAPI32.dll
 AFTER DECOMPOSE-ARRAY-ACCESS-OPTS 
@@ -834,9 +765,6 @@ ASSEMBLY
 ASSEMBLY_LOAD
 ASSEMBLY_UNLOAD
 ATOMIC UNCOLLECTABLE
-AUUUUUU
-AWi@
-A`1w>
 Abandoned stopped marking after 
 Abandoning stopped marking after 
 Abort_internal(object)
@@ -1019,8 +947,6 @@ Available_internal(intptr,int&)
 Average
 Azerbaijan
 Azerbaijanian Manat
-B'KU&
-B9/u
 BB%d -> BB%d;\n
 BB%d [%sshape=record,labeljust=l,label="{BB%d|
 BB%d [color=blue];\n
@@ -1034,9 +960,6 @@ BEFORE LOWER-VTYPE-OPTS
 BINPATH_PROBE_ONLY
 BREAKPOINT
 BSJB
-BVtube
-BZo>
-B\fp\v0
 Back height not available: Rebuild collector with -DMAKE_BACK_GRAPH\n
 Bad VirtualAlloc result
 Bad address
@@ -1130,10 +1053,8 @@ Bytes Received/sec
 Bytes Sent/sec
 Bytes Total/sec
 Bytes in Loader Heap
-C!context->method_inst || !context->method_inst->is_open
 C:\buildslave\mono\build\builds\embedruntimes\win64\mono.pdb
 C:\temp
-C:j+ep
 CACHE_BASE
 CCOPY/2: R%d -> R%d\n
 CCOPY: R%d -> R%d\n
@@ -1300,7 +1221,6 @@ Caught ACCESS_VIOLATION in marker. Memory mapping disappeared.\n
 Cayman Islands
 Cayman Islands Dollar
 Central African Republic
-ChN"
 Chad
 Channels
 Char
@@ -1525,7 +1445,6 @@ CustomMod: invalid TypeDefOrRef token %x
 Cy-az-AZ
 Cy-sr-SP
 Cy-uz-UZ
-Cy2@K>
 Cycle found while resolving parent
 Cyprus
 Cyprus Pound
@@ -1534,7 +1453,6 @@ Czech (Czech Republic)
 Czech Republic
 Czech Republic Koruna
 DBNull
-DG-nDRR
 DISABLED
 DSJSJSJS[S_JcJKJoS
 DUMP BLOCK %d:\n
@@ -1625,7 +1543,6 @@ Donderdag
 Donnerstag
 Double
 Download a newer corlib or a newer runtime at http://www.go-mono.com/daily.\n
-DqD~D
 Dump interface flags:
 Duplicate
 Duplicate large block deallocation
@@ -1641,7 +1558,6 @@ Duplicated metadata stream header %s
 Dutch
 Dutch (Belgium)
 Dutch (Netherlands)
-Duu\T
 Dynamic code allocs:    %ld\n
 Dynamic code bytes:     %ld\n
 Dynamic code frees:     %ld\n
@@ -1649,10 +1565,6 @@ DynamicAssembly %s
 DynamicInvoke
 DynamicMethod
 DynamicType 0x%08x
-E)[pE
-E9Er\n
-E:F<F
-E:FaF
 EEE, yyyy'eko' MMM'ren' dd'a'
 EEE, yyyy'eko' MMM'ren' dd'a' HH:mm:ss
 EMPTY(smashed?)
@@ -1668,7 +1580,6 @@ EXCEPTION: catch found at clause %d of %s\n
 EXCEPTION: fault clause %d of %s\n
 EXCEPTION: finally clause %d of %s\n
 East Caribbean Dollar
-EcEfEjEnEsEwEyE
 Ecuador
 Ecuador Sucre
 Eesti
@@ -1676,7 +1587,6 @@ Eesti (Eesti)
 EfEjEnEsEwEyE
 EfEjEnEsEwEyE\f
 EfEjEnEsEwEyE\t
-EfEjEnEsEwEyE\v
 Egypt
 Egyptian Pound
 Either SizeConst or SizeParamIndex should be specified when marshalling arrays to managed code.
@@ -1748,7 +1658,6 @@ EventList overlap in Event Map row %d
 EventMap
 EventPtr
 EwEyE
-EwEyE\t
 Exception
 Exception %s.%s raised in C code
 Exception clause inside filter
@@ -1800,21 +1709,9 @@ ExportedType table row %d has null Implementation token
 ExportedType table should be empty if File table is empty
 ExtractByteMask
 EyIy
-E{E$F
-E{E6F
-E{EAF
-E{ENF
-E{E\F
-E{E\vF
-E{E\vG
-E{E_F
-E{E~F
-E}aj
-F8\r2
 FALSE
-FF\n@Y
 FORCE_CACHE_INSTALL
-FSystem.Runtime.InteropServices
+FP=%f\n
 Failed shared generic lookups
 Failed to allocate freelist for new kind
 Failed to convert StringBuilder from utf16 to utf8
@@ -1849,14 +1746,12 @@ FastMonitorExit
 Fatal error in gc
 FatalAppExitA
 FcEfEjEnEsEwEyE
-FcEfEjEnEsEwEyE\v
 Febreiro
 Februar
 Februari
 Februarie
 February
 Fi-FI
-FiYW
 Field
 Field `%s' is inaccessible from method `%s'\n
 Field doesn't have an RVA
@@ -1956,10 +1851,6 @@ From 0x%lx to 0x%lx
 FromOADate
 Function not implemented
 Function pointer signature '%s' doesn't match delegate's signature '%s' at 0x%04x
-Fw^(9
-G'G+G
-G/O/d
-G9Bz
 GC Warning: Deregistering nonexistent thread %ld\n
 GC Warning: Finalization cycle involving %lx\n
 GC Warning: Header allocation failed: Dropping block.\n
@@ -1997,7 +1888,6 @@ GC_printf clobbered stack
 GC_root_size incorrect: %ld!!\n
 GC_stop_world() called before GC_thr_init()
 GC_try_to_collect_inner: finishing collection in progress\n
-GTh@
 Gabon
 Gallegan
 Gallegan (Spain)
@@ -2276,7 +2166,6 @@ GetVolumeInformationW
 GetWindowsFolderPath
 GetWorkingSet_internal(intptr,int&,int&)
 GetterAdapterFrame
-GfZ+?p
 Ghana
 Ghana Cedi
 Gibraltar
@@ -2284,7 +2173,6 @@ Gibraltar Pound
 GlobalAlloc
 GlobalFree
 GlobalReAlloc
-GrJoq>@
 Greece
 Greek
 Greek (Greece)
@@ -2305,13 +2193,11 @@ Gujarati
 Gujarati (India)
 Guyana
 Guyana Dollar
-H H)H-H
 H'h'm'min's's' z
 H.mm.ss
 H:mm
 H:mm:ss
 H:mm:ss z
-H>r1
 HH.mm
 HH.mm.ss
 HH.mm.ss z
@@ -2321,11 +2207,9 @@ HH:mm:ss (z)
 HH:mm:ss d MMMM yyyy
 HH:mm:ss z
 HIKIKIKIRIYI]IHI
-HMXB
 HOMEDRIVE
 HOMEPATH
 HXNXNXNX^XUMO
-H\tI\rI
 Handle
 HandleRef
 HandleRefs can not be returned from unmanaged code (or passed by ref)
@@ -2344,7 +2228,6 @@ Hebrew
 Hebrew (Israel)
 Hindi
 Hindi (India)
-HoZh
 Hoduras Lempira
 Honduras
 Hong Kong Dollar
@@ -2356,14 +2239,12 @@ Hungarian
 Hungarian (Hungary)
 Hungarian Forint
 Hungary
-I%I)I
 I18N
 I18N.CJK
 I18N.MidEast
 I18N.Other
 I18N.Rare
 I18N.West
-I;u>A
 ICollection`1
 IComparable`1
 ICustomMarshaler
@@ -2868,19 +2749,13 @@ Italian (Switzerland)
 Italy
 IwMw
 IxMx
-J!J)J-J
-J0b8L%
-JHJHJHQH[H_HY
 JIT info table inserts: %ld\n
 JIT info table lookups: %ld\n
 JIT info table removes: %ld\n
 JIT time: %d ms, Generation time: %d ms, Assembly+Link time: %d ms.\n
 JITted code
-JLdz9)
-JNt3
 J^P^P^P^d^{^_HY
 Ja-JP
-JaTg
 Jamaica
 Jamaican Dollar
 JanFebMarAprMayJunJulAugSepOctNovDec
@@ -2892,7 +2767,6 @@ Japan
 Japanese
 Japanese (Japan)
 Japanese Yen
-Jg,(k7
 Join_internal
 Jordan
 Jordanian Dinar
@@ -2911,11 +2785,7 @@ Juni
 Junie
 K!K!K!K)K3K7K
 KERNEL32.dll
-KFsUr
 KJNJNJNJVJ_JcJKJ
-KKh0
-KP'REt
-K\r87
 K]\fyK
 K]\fyKaU
 Kamis
@@ -2940,7 +2810,6 @@ Kuwait
 Kuwaiti Dinar
 Kyrgystan Som
 Kyrgyzstan
-L#^r{Nx
 LAST AOT METHOD: %p %d\n
 LAST AOT METHOD: %s%s%s.%s.\n
 LCMapStringW
@@ -2954,8 +2823,6 @@ LEAVE: %s
 LIVENESS 3 %s\n
 LIVENESS BLOCK BB%d:\n
 LLOLOLOLWLaLeLLL
-LVxC
-L\fP\fO
 Laos
 Laotian Kip
 Lapkri
@@ -3035,10 +2902,6 @@ Lt-sr-SP
 Lt-uz-UZ
 Luns
 Luxembourg
-Lzw\n
-M"M2M6M
-M'G+G
-M'y>0y
 M/d/yy
 M/d/yyyy
 METHOD
@@ -3384,9 +3247,6 @@ MultiplyStoreHigh
 Must be >= 0
 Myanmar
 Myanmar Kyat
-N.kE5m<=
-N0sk
-NKeb
 NORMAL
 NOT REGVAR: %d\n
 NOTOTOTOTO\rH
@@ -3398,7 +3258,6 @@ Native code size:       %ld\n
 Native int is not a verifiable type to reference a field at 0x%04x
 Nauru
 NbTbTbTbTbjb
-NdP#
 NdTdTdTdgd{d-H
 Nede
 Nederlands
@@ -3425,7 +3284,6 @@ Nigeria
 Nigerian Naira
 Nisan
 Niue
-NlDw`z
 No PInvoke conversion exists for value passed to Object-typed parameter.
 No child processes
 No clauses for ex info block %d
@@ -3471,14 +3329,9 @@ NtQueryInformationProcess
 NullReferenceException
 Nullable`1
 Num chunks: %d\n
-O)qF
-O8M2
 OBHFH1H
 OBJECT_REF
-OBuf
-OC,i
 OLEAUT32.dll
-O[H_HY
 Object
 Object does not match target type.
 Object is not a managed pointer for a constrained call at 0x%04x
@@ -3518,7 +3371,6 @@ Outubro
 Overall results: tests: %d, 100%% pass, opt combinations: %d\n
 Overall results: tests: %d, failed: %d, opt combinations: %d (pass: %.2f%%)\n
 OverflowException
-OxH|HcH
 PATH
 PEAPI
 PHI (
@@ -3526,7 +3378,6 @@ PRECOMPILE: %s.\n
 PRIVATE_BINPATH
 PSAPI.DLL
 PTRFREE
-P\tI\rI
 PackWithSignedSaturation
 PackWithUnsignedSaturation
 Packed interface table for class %s has size %d\n
@@ -3587,7 +3438,6 @@ Portugal
 Portuguese
 Portuguese (Brazil)
 Portuguese (Portugal)
-Pr*Zw
 Precompile all methods before executing Main
 PrefetchNonTemporal
 PrefetchTemporal1stLevelCache
@@ -3642,8 +3492,6 @@ PublicKey=
 PublicKeyToken=
 Puerto Rico
 Q#Q=Q=QXQ@InQrQuQ
-Q%I)I
-Q9Mc{[
 QYI]IHI
 QaWaWaWaka
 Qatar
@@ -3654,11 +3502,10 @@ QueryPerformanceFrequency
 Queue Length / sec
 Queue Length Peak
 QueueUserAPC
-QzI~IaI
+R%d %d
 R%d END=0x%x\n
 R%d START=0x%x\n
 R%d is volatile 
-R)J-J
 RECURSIVELY_ASCENDING
 RECURSIVELY_DESCENDING
 RECURSIVELY_INDEFINITE
@@ -3677,8 +3524,6 @@ RGCTX template bytes allocted
 RGCTX template num allocted
 RGCTX unmanaged lookups
 RTSpecialName needs also SpecialName set in Field row %d
-R\vpx>
-R^Zc
 Rabu
 RaiseException
 Ran out of trampolines of type %d in '%s' (%d)\n
@@ -3780,7 +3625,6 @@ Romanian (Romania)
 Romanian Leu
 Round
 Round2
-RtR/A
 RtlCaptureContext
 RtlDeleteFunctionTable
 RtlInstallFunctionTableCallback
@@ -3807,7 +3651,6 @@ Russian (Russia)
 Russian Ruble (1991-1998)
 Rwanda
 Rwandan Franc
-S;uD
 SByte
 SCJGJ1JAS
 SFr.
@@ -3818,7 +3661,6 @@ SIGILL
 SKIPPING DEAD OP at %x\n
 SNYNYNYNjNzN
 SPILLED LOAD (%d at 0x%08lx(%%ebp)) R%d (freed %s)\n
-SQlN
 SSA based Partial Redundancy Elimination
 SSE2 instructions on x86
 STACK_FRAME
@@ -4207,6 +4049,7 @@ System.Reflection.ParameterInfo
 System.Runtime.CompilerServices
 System.Runtime.CompilerServices.RuntimeHelpers
 System.Runtime.ConstrainedExecution
+System.Runtime.InteropServices
 System.Runtime.InteropServices.GCHandle
 System.Runtime.InteropServices.Marshal
 System.Runtime.Remoting
@@ -4266,9 +4109,6 @@ System_Reflection_Emit_TypeBuilder
 System_Reflection_Emit_UnmanagedMarshalClass
 System_Reflection_MonoGenericClass
 System_Version
-Sz/vd
-T(+EW
-T3K7K
 TEMP
 THIS MATERIAL IS PROVIDED AS IS, WITH ABSOLUTELY NO WARRANTY
 THREAD
@@ -4277,12 +4117,9 @@ THREAD_START
 TMPDIR
 TRUE
 TRUE:%d
-TSKWK;K
-TUUU
 TYPE
 TYPE: %d\n
 TYPE_LOAD
-T\fY\f]\fa\ff\fl\ft\f
 Table schemata size (%d) too small to for decoding row counts (requires %d bytes)
 Table schemata size (%d) too small to for initial decoding (requires 24 bytes)
 Tables data require %d bytes but the only %d are available in the #~ stream
@@ -4310,7 +4147,6 @@ TerminateProcess
 Test '%s' failed compilation.\n
 Test '%s' failed result (got %d, expected %d).\n
 Test run: image=%s, opts=%s\n
-TfAX
 Th 2
 Th 3
 Th 4
@@ -4441,7 +4277,6 @@ Trinidad and Tobago Dollar
 True
 Try to enter try block with a non-empty stack at 0x%04x
 Trying to instantiate an abstract or interface type at 0x%04x
-Tt6*
 TtySetup
 Tuesday
 Tunisia
@@ -4513,8 +4348,6 @@ Typedbyref field is an unverfiable type in store static field at 0x%04x
 Typedef table must have exactly at least one row
 Typespec 0x%08x
 U.S. Virgin Islands
-U1(\Q
-U9KW 
 UInt16
 UInt32
 UInt64
@@ -4531,10 +4364,7 @@ UTF-16LE
 UTF-8
 UTF8
 UTF_16LE
-UUUU
-UUUUU
 UUUUUU
-UXmu
 Uganda
 Ugandan Shilling
 Ukraine
@@ -4622,7 +4452,6 @@ Using profile data file '%s'\n
 Utorok
 Uzbekistan
 Uzbekistan Sum
-V?UUUUUU
 VALUERET:%p, 
 VAR %d (%s) cannot be expanded in this context with %d instantiations
 VARIABLE %d, delta %d
@@ -4637,7 +4466,7 @@ VREG R%d used in BB%d and BB%d made global.\n
 VTable %s (vtable entries = %d, interfaces = %d)\n
 VTable data size:       %ld\n
 VTable setup of type %s failed
-VaLeLLL
+V_%d
 Value
 ValueType
 Vanuatu
@@ -4740,7 +4569,6 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 WW]W]W]WnW
-W^p8G
 WaitAll_internal
 WaitAny_internal
 WaitForExit_internal(intptr,int)
@@ -4752,7 +4580,6 @@ WaitForSingleObject
 WaitForSingleObjectEx
 WaitOne_internal
 Waiting for %d(%d) threads to suspend...\n
-Wak>E
 Wallis and Futuna
 Wednesday
 Weird VirtualQuery result
@@ -4775,37 +4602,23 @@ WriteIntPtr
 WriteStringToUnityLog(string)
 WriteToFile
 WriteWindowsDebugString
-X)X2M6M
-XRi}l]
 XXXXXX
 Xaneiro
-Xe\RR?V
 XlMpMYMPN
 Xoves
 Xullo
 Xv\v
-Y@%7d\t%5.2f %% %s\n
-YJ9?
 YM\M\M\MeMlMpMYM
-Y_HY
-YdeT
 Yemen
 Yemeni Rial
 Yugoslavia
 Yugoslavian Noviy Dinar
-Z"cd
-Z5d@4
-Z8J/*
 ZP`P`P`PpP
-ZPq:0
-ZSq>
 Zambia
 Zambian Kwacha
-Zf<T7
 Zimbabwe
 Zimbabwe Dollar
 Zo^o
-Z~IaI
 [%p: %.5f %d] 
 [%p:] EXCEPTION handling: %s\n
 [%p] (%d) Resuming vm...\n
@@ -4830,8 +4643,8 @@ Z~IaI
 [%p] Thread started, obj=%p, tls=%p.\n
 [%p] Thread terminated, obj=%p, tls=%p.\n
 [%p] thread_start () called multiple times for %p, ignored.\n
+[%s.%s:%p]
 [%s.%s:%p], 
-[*ncd>TQ
 [BOOLEAN:%p:%d]
 [BYREF:%p], 
 [INT32:%p:%d]
@@ -4841,12 +4654,10 @@ Z~IaI
 [LEVEL %d] Implemented interfaces by class %s:\n
 [MarshalAs] attribute required to marshal arrays to managed code.
 [OBJECT:%p]
-[OKC
 [STRING:%p:%s]
 [STRING:%p:%s], 
 [STRING:null], 
 [TYPE:%s], 
-[UuFR+
 [ZaZaZaZ|Z
 [dbg] Agent thread started, pid=%p\n
 [dbg] Bad client connection\n
@@ -4886,13 +4697,8 @@ Z~IaI
 \StringFileInfo\%02X%02X%02X%02X\ProductVersion
 \StringFileInfo\%02X%02X%02X%02X\SpecialBuild
 \VarFileInfo\Translation
-\f \f!\f"\f#\f$\f%\f&\f'\f(\f)\f*\f+\f,\f-\f.\f/\f0\f1\f2\f3\f4\f5\f6\f7\f8\f9\f:\f;\f<\f=\f>\f?\f@\fA\fB\fC\fD\fE\fF\fG\fH\fI\fJ\fK\fL\fM\fN\fO\fP\fQ\fR\fS\fT\fU\fV\fW\fX\fY\fZ\f[\f\\f]\f^\f_\f`\fa\fb\fc\fd\fe\ff\fg\fh\fi\fj\fk\fl\fm\fn\fo\fp\fq\fr\fs\ft\fu\fv\fw\fx\fy\fz\f{\f|\f}\f~\f
-\f#\f*\f5\f<\fD\fL\fP\fO
 \f$\f*\f0\f6\f<\fB\fH\fN\f
 \f1ii
-\f\t\f\n\f\v\f\f\f\r\f
-\n \n!\n"\n#\n$\n%\n&\n'\n(\n)\n*\n+\n,\n-\n.\n/\n0\n1\n2\n3\n4\n5\n6\n7\n8\n9\n:\n;\n<\n=\n>\n?\n@\nA\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL\nM\nN\nO\nP\nQ\nR\nS\nT\nU\nV\nW\nX\nY\nZ\n[\n\\n]\n^\n_\n`\na\nb\nc\nd\ne\nf\ng\nh\ni\nj\nk\nl\nm\nn\no\np\nq\nr\ns\nt\nu\nv\nw\nx\ny\nz\n{\n|\n}\n~\n
-\n \n&\n,\n2\n8\n>\nD\nJ\nP\nV\n\\nb\nh\nn\nt\nz\n
 \n!\n(\n/\n6\n=\nF\nO\nV\n]\nd\nk\nW
 \n"<threadpool thread>"
 \n"<unnamed thread>"
@@ -4932,24 +4738,17 @@ Z~IaI
 \nUnhandled Exception: %s\n
 \nWhen you update one from svn you need to update, compile and install\nthe other too.\n
 \nYour mono runtime and class libraries are out of sync.\n
-\n\n\n\n\n\n\n\n\n\n\n
-\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n
-\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n
-\n\n\n\n\n\n\n\n\n\n\n\n\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t
-\n\t\n\n\n\v\n\f\n\r\n
+\n\t.byte %d
 \n\tidom: BB%d\n
 \nblocks = %lu, bytes = %lu\n
-\njkq'
-\r \r!\r"\r#\r$\r%\r&\r'\r(\r)\r*\r+\r,\r-\r.\r/\r0\r1\r2\r3\r4\r5\r6\r7\r8\r9\r:\r;\r<\r=\r>\r?\r@\rA\rB\rC\rD\rE\rF\rG\rH\rI\rJ\rK\rL\rM\rN\rO\rP\rQ\rR\rS\rT\rU\rV\rW\rX\rY\rZ\r[\r\\r]\r^\r_\r`\ra\rb\rc\rd\re\rf\rg\rh\ri\rj\rk\rl\rm\rn\ro\rp\rq\rr\rs\rt\ru\rv\rw\rx\ry\rz\r{\r|\r}\r~\r
-\r'\r1\r9\rE\rM\rW\r`\rc\rf\ri\rl\ro\rr\ru\r~\r
 \r1iib
-\r\t\r\n\r\v\r\f\r\r\r
-\t \t!\t"\t#\t$\t%\t&\t'\t(\t)\t*\t+\t,\t-\t.\t/\t0\t1\t2\t3\t4\t5\t6\t7\t8\t9\t:\t;\t<\t=\t>\t?\t@\tA\tB\tC\tD\tE\tF\tG\tH\tI\tJ\tK\tL\tM\tN\tO\tP\tQ\tR\tS\tT\tU\tV\tW\tX\tY\tZ\t[\t\\t]\t^\t_\t`\ta\tb\tc\td\te\tf\tg\th\ti\tj\tk\tl\tm\tn\to\tp\tq\tr\ts\tt\tu\tv\tw\tx\ty\tz\t{\t|\t}\t~\t
+\t %.3s %d
 \t cfold -> 
 \t!"#$%&'()89999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
-\t!\t%\v'\v*\v.\v$\tP\vR\vU\v
-\t$\t*\t0\t6\t<\tB\tH\tN\tT\tZ\t`\tf\tl\tr\tx\t~\t
 \t$\t+\t2\t9\t@\tU\tl\t{\t
+\t%-2d %s
+\t%s %d\n
+\t%s %s\n
 \t.balign %d\n
 \t.globl _%s\n
 \t.local %s\n
@@ -4980,11 +4779,9 @@ Z~IaI
 \tInterval R%d became active\n
 \tInterval R%d became inactive\n
 \tInterval R%d has expired\n
-\tJR>8o
 \tNo cfold on 
 \tNo free register found, splitting and spilling R%d\n
 \tPreferred register is hreg %d\n
-\tQw1
 \tR%d needs PHI functions in 
 \tRegister %d is available until %x, splitting current.\n
 \tReverse copyprop in BB%d on 
@@ -5003,7 +4800,6 @@ Z~IaI
 \t\tBlock not on free list %ld!!\n
 \t\tBlock on list %ld, should be on %ld!!\n
 \t\tUse lvreg R%d for R%d.\n
-\t\t\t\n\t\v\t\f\t\r\t
 \t\tavailable regmask: 0x%08d\n
 \t\texcluding dreg %s\n
 \t\texcluding sreg%d %s %d\n
@@ -5038,24 +4834,11 @@ Z~IaI
 \tstart regmask to assign R%d: 0x%08d (R%d <- R%d R%d R%d)\n
 \tthis: 
 \tused for blocks of size 0x%lx bytes\n
-\v \v!\v"\v#\v$\v%\v&\v'\v(\v)\v*\v+\v,\v-\v.\v/\v0\v1\v2\v3\v4\v5\v6\v7\v8\v9\v:\v;\v<\v=\v>\v?\v@\vA\vB\vC\vD\vE\vF\vG\vH\vI\vJ\vK\vL\vM\vN\vO\vP\vQ\vR\vS\vT\vU\vV\vW\vX\vY\vZ\v[\v\\v]\v^\v_\v`\va\vb\vc\vd\ve\vf\vg\vh\vi\vj\vk\vl\vm\vn\vo\vp\vq\vr\vs\vt\vu\vv\vw\vx\vy\vz\v{\v|\v}\v~\v
-\v"\v(\v.\v4\v:\v@\vF\vL\vR\vX\v^\vd\vj\vp\vv\v|\v
 \v1ii
-\v8'8=8S8i8
-\v\t\v\n\v\v\v\f\v\r\v
-\v\v\v\v\v\v\v\v\v\v\v\v
 \ws2_32
 \wship6
 ]E`E]E`E]E`E
-]E`E]E`E]E`E,FcEfEjEnEsEwEyE\v
-]E`E]E`E]E`EDFcEfEjEnEsEwEyE\v
-]E`E]E`E]E`ERFcEfEjEnEsEwEyE\v
-]E`E]E`E]E`EfFcEfEjEnEsEwEyE\v
-]E`E]E`E]E`EtFcEfEjEnEsEwEyE\v
-]xEc
-^5Y'6
-^axb
-_#vEP8
+_%s@%d
 _CanSecure
 _CorDllMain
 _CorExeMain
@@ -5063,7 +4846,6 @@ _Deleted
 _GetRoles
 _IsMachineProtected
 _IsUserProtected
-_Le7
 _ProtectMachine
 _ProtectUser
 _Total
@@ -5098,11 +4880,9 @@ _scalb
 _scalbf
 ` ` ` `/`K`+G
 `!a!b!c!d!e!f!g!h!i!j!k!l!m!n!o!
-`h`hhh
 a method does not have any IL associated
 a-feira
 aIdIdIdIoIzI~IaI
-a\fb-H
 abcdefghijklmnopqrstuvwxyz
 abcrem
 abendua
@@ -5306,7 +5086,6 @@ avgust
 avr.
 avril
 azaroa
-b)bGb+G
 background_change_event != NULL
 bad kind
 bado
@@ -5368,19 +5147,13 @@ brtrue
 brtrue.s
 buf_len >= sizeof (DynCallArgs)
 build_metadata
-byLQB_
 byte
 byte == 1
 c"c5c-H
 c->cb->mhandle
 c0->opcode == OP_ICONST
 c:\buildslave\mono\build\mono\mini\ir-emit.h
-c>F2
-cA0123456789ABCDEF
-cEfEjEnEsEwEyE\v
 cHfHfHfHmHxH|HcH
-c\rd-H
-c\rf\rV
 ca-ES
 ca-es
 call
@@ -5637,6 +5410,7 @@ core-clr
 core-clr-test
 corlib
 cosf
+cosh
 costs > 0
 could not find a caller outside reflection
 count > 0
@@ -5727,9 +5501,6 @@ d.MM.yyyy
 d/M/yyyy
 d/MM/yy
 d/MM/yyyy
-d0dGd-H
-dUjUjUjU}U
-dYNyGyG
 d\r9\r7\r;\r=\r?\rA\rC\rK\rM\r
 da-DK
 da-dk
@@ -5929,8 +5700,6 @@ e mart
 e premte
 e shtun
 e+000
-e0u0j
-e\fq\fb\fn\fk\fw\fh\ft\f
 ec->inited
 eclass->reflection_info && !eclass->wastypebuilder
 eglib: g_filename_from_uri: hostname not handled
@@ -6100,11 +5869,6 @@ ezen
 f->fb->handle
 f->field->parent
 f->type->attrs & FIELD_ATTRIBUTE_STATIC
-f/A/xs
-fGa>
-fU\f\nW
-fVfQp
-f\n_MR;uD
 fa-IR
 fa-ir
 fabs
@@ -6154,6 +5918,7 @@ file != NULL
 file %s: line %d: assertion failed: (%s)
 file:
 file://
+file:///%s
 file=
 file_info
 filebuildpart
@@ -6454,7 +6219,6 @@ gusht
 h.mm.ss tt
 h.mm.ss.t z
 h.mm.t
-h:OH~
 h:mm t
 h:mm tt
 h:mm:ss t
@@ -6524,9 +6288,7 @@ i == nmethods
 i == nprops
 i == vmv->idx
 i hai
-i8(2
 i8const
-i>VF
 iLlLlLlLrL
 iadienis
 ianuarie
@@ -6559,6 +6321,7 @@ ilist_offset >= 0 && icollection_offset >= 0 && ienumerable_offset >= 0
 illegal
 image
 image != NULL
+image->assembly->image == image
 image->heap_guid.data
 image->heap_guid.size >= 16
 image->references [assembly_idx - 1]
@@ -6810,10 +6573,6 @@ iulie
 iunie
 ival < 0x20000000
 j == new_table->num_chunks
-j%VM
-j+2#N
-j1Vx
-jRpRpRpR
 ja-JP
 ja-jp
 jaan
@@ -6827,7 +6586,6 @@ januari
 janv
 janv.
 janvier
-jeTb
 jeu.
 jeudi
 ji->data.method
@@ -6868,11 +6626,7 @@ junio
 juny
 juuli
 juuni
-jvZ(
 k < G_N_ELEMENTS (basic_types)
-k>4\tF
-kPKtf
-kU'9
 ka-GE
 ka-ge
 kedd
@@ -7198,8 +6952,6 @@ m->klass->generic_class || m->klass->generic_container
 m->mb->mhandle
 m->orig_conv_args [argnum]
 m->retobj_var
-mLLYU\tl3
-mO-B
 mVsVsVsV
 m_Address
 m_Numbers
@@ -7315,7 +7067,6 @@ mk-mk
 mklass != NULL
 mkrefany
 mn-MN
-mnD"
 modf
 module->image
 modulename
@@ -8340,11 +8091,7 @@ mul_imm
 mulpd
 mulps
 n >= 0 && n < 30
-n7fX
-nTtTtTtT
-nXPO
 nYtYtYtYtY
-n]dB
 nachm.
 nadagur
 name
@@ -8436,10 +8183,7 @@ num_sregs <= 2
 num_sregs == info->sig->param_count
 nvtypes < 256
 o != NULL
-oK+5
 oOuOuOuO
-oPe*
-o\fmC!
 obj ptr
 obj->type
 obj->vtable->klass->marshalbyref
@@ -8474,7 +8218,6 @@ offset < (1 << 30)
 offset >= 0
 offset >= 0 && offset < klass->method.count
 offset1 <= offset
-ojdB;?
 okt.
 oktober
 oktobris
@@ -8498,7 +8241,6 @@ ol (Puerto Rico)
 ol (Rep
 ol (Uruguay)
 ol (Venezuela)
-ol&b<P
 oldVersion
 oldhandle
 ole32.dll
@@ -8553,7 +8295,6 @@ p - buf < size
 p - buf <= buf_size
 p - buf <= size
 p - buffer <= buflen
-p!Sz
 p!q!r!s!t!u!v!w!x!y!z!{!|!}!~!
 p:xmm0
 p:xmm1
@@ -8571,9 +8312,6 @@ p:xmm6
 p:xmm7
 p:xmm8
 p:xmm9
-p>.G1
-p>Y3
-pUn's
 pUnk
 pa-IN
 packd
@@ -8750,10 +8488,6 @@ ptr ptr ptr ptr
 publicKeyToken
 puerto-rico
 pxor
-q!be
-q4u!%
-q<PF
-q>F,3
 qbwbwbwb
 qershor
 quarta-feira
@@ -8761,11 +8495,7 @@ quinta-feira
 r11_save_code == after_r11_save_code
 r4const
 r8const
-rGyGyGyG
-rHJ:
-rNm>)
 rSxSxSxS
-r\vpx>
 rank <= 255
 rank == pcount
 rate of recognized threads / sec
@@ -8862,7 +8592,6 @@ s != NULL
 s (Brasil)
 s (Portugal)
 s1 != NULL
-s1\vm\
 s2 != NULL
 s:xmm0
 s:xmm1
@@ -8889,7 +8618,6 @@ samedi
 save-symfiles
 save-temps
 save_lmf
-sax~Z
 sb->str
 sb_ctor
 sbb_imm
@@ -9231,11 +8959,8 @@ t h:mm
 t hh'
 t hh:mm
 t hh:mm:ss
-t%rv
 t->attrs & PARAM_ATTRIBUTE_OUT
 t->type == MONO_TYPE_OBJECT
-t7Pr^2>#
-tB{B
 tMxMxMxM
 ta-IN
 ta-in
@@ -9258,6 +8983,7 @@ tailc
 tailcall
 tammi
 tammikuu
+tanh
 target
 target->type == MONO_TYPE_ARRAY
 tb->fields != NULL
@@ -9392,8 +9118,6 @@ type_from_obj
 type_is_assignable_from
 type_is_subtype_of
 u (Latvija)
-u.?Z8
-uYy\f
 ubat
 ucs_2
 uint
@@ -9407,7 +9131,6 @@ uk-UA
 uk-ua
 ulong
 ulong double
-um=Q
 unable to handle jump info %d
 unaligned.
 unbox
@@ -9565,8 +9288,6 @@ value__
 var->klass == klass
 var->opcode == OP_REGOFFSET
 variant_clear
-vc6;F
-vcC1]
 vcall
 vcall2
 vcall2_membase
@@ -9640,7 +9361,6 @@ we don't encode constant type 0x%02x yet
 windows
 woensdag
 wordsize
-wqBv/?
 wrapper_native_
 wrapper_native_%p
 wrapper_type < MONO_WRAPPER_NUM
@@ -9652,7 +9372,6 @@ wrong maximal instruction length of instruction %s (expected %d, got %ld)
 wrong signature for locals blob
 wrong token %x to get_generic_param_row
 wrzesie
-wsj=
 wtorek
 x86-64
 x86_add_membase_imm
@@ -9696,8 +9415,6 @@ x86_xchg
 x86_xor_membase_imm
 x86_xor_membase_reg
 x86_xor_reg_membase
-x95K
-xNe;
 xQ~Q~Q~Q
 x_unicode_1_1_utf_7
 x_unicode_1_1_utf_8
@@ -9714,16 +9431,12 @@ xor_imm
 xorpd
 xorps
 xphi
-xppwpp
-xpxxxx
 xxxf
 xxxi
 xzero
 y MMMM
 y MMMM d
 y MMMM d HH:mm:ss z
-yK|K|K|K
-ymL{
 yn}n
 yy'-'MM'-'dd
 yy-M-d
@@ -9763,12 +9476,7 @@ yyyy/M/d
 yyyy/M/d' ('ddd')'
 yyyy/MM/d
 yyyy/MM/dd
-yz@l
-z>h4
-z?aUY
-z^KD
 zaterdag
-zc%C1
 zext_i1
 zext_i2
 zext_i4
@@ -9789,10 +9497,8 @@ zh-tw
 zondag
 zt~t
 zzzz
-{8pjU'9
 {E}E{E}E{E}E
 }xyz{pq
 }xyz{pq)
 }xyz{pqidom
 }xyz{pq}\n
-~cU4

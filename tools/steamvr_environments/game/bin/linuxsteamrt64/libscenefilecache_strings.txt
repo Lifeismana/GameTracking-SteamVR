@@ -8,6 +8,8 @@
  ( def. "%s" )
  [%.3f server clamped to %.3f]
  and 
+ max. %f
+ min. %f
 "%s" = "%s"
 #include
 $ORIGIN
@@ -18,7 +20,10 @@ $ORIGIN
 %s allocation count overflow
 %s allocation count overflow( %llu >= %llu )\n
 %s%20s : %40s %5.3f\n
+%s%d
+%s%s
 %s(token %i) : %s
+%s,%s
 %s/%s:  discarded rule because of invalid criterion %i:  %s\n
 '%20s' vs. '%20s' = 
 , score %4.2f\n
@@ -64,17 +69,18 @@ $ORIGIN
 28ISchemaCollectionManipulator
 31CResponseRulesToEngineInterface
 34CSchemaRegistration_scenefilecache
-5t~BC
 6ConVar
 7IConVar
 8CFmtStrNILi1024ELb0EE
 :../public/tier1/utlrbtree.h
+<%s%.3f
 <deferred>
 <no deferred ref found>
 <no failure reason set>
 <null>
 <unconnected>
 <unknown>
+>%s%.3f
 >utlbuffer.cpp
 ???CRR_Response bogus index
 @An RR_Concept couldn't find its string in the symbol table!\n
@@ -499,6 +505,7 @@ WorkshopSetup001
 World contexts: '%s', 
 WorldRendererBuilderMgr001
 WorldRendererMgr001
+[%s%03i]
 \n%d total counted strings.
 \nDictionary: %s\n
 \tRule %d/%d: %s\n

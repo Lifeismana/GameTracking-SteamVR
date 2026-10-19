@@ -13,7 +13,6 @@ IsProcessorFeaturePresent
 KERNEL32.dll
 MSVCR120.dll
 QueryPerformanceCounter
-RSDS
 SetCameraRoomViewVisible
 SetDashboardEnabled
 UnityVRControlPanel.dll

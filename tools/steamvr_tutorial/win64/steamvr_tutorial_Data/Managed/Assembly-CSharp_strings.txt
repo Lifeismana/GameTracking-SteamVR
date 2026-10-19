@@ -26,6 +26,7 @@
 #TriggerTool_Eval+<RunCooldown>d__34
 $0$?$D$J$b$
 $overrideBillboardsFaceCameraPosition
+%1A'
 %1A1
 %1A7
 %1AL
@@ -38,10 +39,17 @@ $overrideBillboardsFaceCameraPosition
 %1AS
 %1AT
 %1AU
+%1A\
 %1Ag
+%1C 
+%1C!
+%1C/
 %1C0
 %1C6
 %1C7
+%1C:
+%1a&
+%1a'
 %1aL
 %1aM
 %1aN
@@ -54,6 +62,8 @@ $overrideBillboardsFaceCameraPosition
 %1aU
 %1av
 %1aw
+%1c 
+%1c/
 %1c0
 %1c1
 %1c5
@@ -84,6 +94,7 @@ $overrideBillboardsFaceCameraPosition
 *TutorialManager+<SoundCheckCoroutine>d__79
 *VsV
 *rIN
++%o6
 +CFX_AutoDestructShuriken+<CheckIfAlive>d__2
 +Time in seconds to reach the target volume.
 ,ObjectPool+<AllowReallocationNextFrame>d__19
@@ -130,6 +141,7 @@ $overrideBillboardsFaceCameraPosition
 6Shows Debug Overlay [Shift+F1] or launch with -vrdebug
 7MovePlayerToStartTransform+<MovePlayerWhenHMDReady>d__4
 7SuperSplines/Other/Spline Mesh Modifiers/Twist Modifier
+8%%1
 8.C1
 87137E630C3837BC71D4E9D0A4EB1E7CF85C9909
 8Use min and max random pitch levels when playing sounds.
@@ -2974,6 +2986,7 @@ Zk}a\n
 ZombieLookAt
 [As percentage of logical processors used on end users machine. Minimum of 1 thread is used.
 \As percentage of logical processors used on developers machine. Minimum of 1 thread is used.
+\f%o6
 \f+nr2
 \fGradient Fog
 \fLightmap UVs
@@ -2981,6 +2994,12 @@ ZombieLookAt
 \fTurret setup
 \f\f\f\f\f\f\f\f\f\f\f
 \f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f
+\n%o1
+\n%o2
+\n%o6
+\n%o7
+\n%oU
+\n%oq
 \n*Vsn
 \nAudio Pool
 \nHeight Fog

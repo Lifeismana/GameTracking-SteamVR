@@ -1,8 +1,6 @@
                           
     Objects: 
- !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
  !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
- !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
  %s feature is not enabled.
  %s is enabled but VkPhysicalDeviceVulkan12Features::samplerMirrorClampToEdge is not VK_TRUE.
  (%s) is not compatible with the video profile %s was created with.
@@ -49,7 +47,6 @@
  Base Class Descriptor at (
  Buffer referenced in pDecodeInfo->srcBuffer.
  Buffer referenced in pEncodeInfo->dstBuffer.
- C>TQ
  Class Hierarchy Descriptor'
  Complete Object Locator'
  Constituent <id> 
@@ -528,15 +525,12 @@
  | ResultType = 
  | scope = 
  }, offset {
-"e?<<<<<<l?
-#4o>w
-#Ib?AG
-$Ib?s
 %.0Lf
 %H:%M:%S%m/%d/%y%Y-%m-%d%I:%M:%S %p%H:%M%H:%M:%S
 %I:%M:%S %p
 %a %b %d %H:%M:%S %Y
 %d but the multiview feature is not enabled.
+%d-%d-%d
 %f, but the minLod feature is not enabled.
 %lld
 %llu
@@ -550,6 +544,7 @@ $Ib?s
 %llu must be small enough such that any descriptor binding referenced by layout without the VK_DESCRIPTOR_BINDING_VARIABLE_DESCRIPTOR_COUNT_BIT flag computes a valid address inside the underlying VkBuffer
 %llu or %s %llu is invalid.
 %s %s %s %s%s
+%s %s %s%s
 %s %s %s: called with enabled robustBufferAccess. Use robustBufferAccess as a debugging tool during development. Enabling it causes loss in performance for accesses to uniform buffers and shader storage buffers. Disable robustBufferAccess in release builds. Only leave it enabled if the application use-case requires the additional level of reliability due to the use of unverified user-supplied draw parameters.
 %s %s A second pipeline cache is in use. Consider using only one pipeline cache to improve cache hit rate.
 %s %s Don't issue read-to-read barriers. Get the resource in the right state the first time you use it.
@@ -583,6 +578,7 @@ $Ib?s
 %s Creating a sampler object with unnormalized coordinates. This will lead to less efficient descriptors being created and may cause reduced performance.
 %s Creating a sampler object with wrapping modes which do not match (U = %u, V = %u, W = %u). This may cause reduced performance even if only U (1D image) or U/V wrapping modes (2D image) are actually used. If you need different wrapping modes, disregard this warning.
 %s Depth attachment %s is primarily rendered with depth compare op %s, but some draws use %s. Z-cull is disabled for the least used direction, which harms depth testing performance. The Z-cull direction can be reset by clearing the depth attachment, transitioning from VK_IMAGE_LAYOUT_UNDEFINED, using VK_ATTACHMENT_LOAD_OP_DONT_CARE, or using VK_ATTACHMENT_STORE_OP_DONT_CARE.
+%s Descriptor set memory was allocated via vkAllocateDescriptorSets() for sets which were previously freed in the same logical device. On some drivers or architectures it may be most optimal to re-use existing descriptor sets.
 %s Dynamic States usage incurs a performance cost. Ensure that they are truly needed
 %s In this frame, %u barriers were already submitted. Barriers have a high cost and can stall the GPU. Consider consolidating and re-organizing the frame to use fewer barriers.
 %s Pipeline is multisampled and color attachment #%u makes use of a format which cannot be blended at full throughput when using MSAA.
@@ -773,8 +769,6 @@ $Ib?s
 %u) is not less than or equal to maxDrawIndirectCount (%u).
 %u, but Maximum value returned by vkGetPhysicalDeviceImageFormatProperties() is %d for imageFormat %s with tiling VK_IMAGE_TILING_OPTIMAL.
 %u, which is outside the bounds returned by vkGetPhysicalDeviceSurfaceCapabilitiesKHR() (i.e. minImageCount = %d, maxImageCount = %d).
-&?PPPPPPP?
-&Sgw
 ' but binding 
 ' decorated with 
 ' decorated with both 
@@ -1635,9 +1629,6 @@ $Ib?s
 ). Overlapped memory is (
 ). Truncating buffer device address table could result in invalid validation
 ): msgNum: 
-)yIx
-*StO9>T
-*Vc>L
 , Column = 
 , Line Number = 
 , OpTypeRuntimeArray must only be used for the last member of an OpTypeStruct
@@ -1692,10 +1683,7 @@ $Ib?s
 , which is bound, is type '
 , write_barriers: 
 , zero found
-,HR><y5
-,HR>O
 ->stride (
--BH>t
 -bit 
 -bit float literals
 -bit integer for the addressing model used in the module)
@@ -1772,7 +1760,6 @@ $Ib?s
 ..\..\third_party\libc++\src\include\vector:622: assertion !empty() failed: back() called on an empty vector\n
 ..\..\third_party\libc++\src\include\vector:626: assertion !empty() failed: back() called on an empty vector\n
 ..\..\third_party\libc++\src\src\mutex.cpp:40: assertion ec == 0 failed: call to mutex::unlock failed. A possible reason is that the mutex wasn't locked\n
-.>\rfJBGo
 .?AU?$__num_get@D@__Cr@std@@
 .?AU?$__num_get@_W@__Cr@std@@
 .?AU?$__num_put@D@__Cr@std@@
@@ -5510,18 +5497,13 @@ $Ib?s
 .debug_action
 .log_filename
 .report_flags
-.xJ>Hf
 /.cache
-/2GG>!B
 /instrumented_shader_cache
 /shader_validation_cache
 /vk_layer_settings.txt
 00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899GetSystemTimePreciseAsFileTime
 0123456789
 0123456789abcdefABCDEFxX+-pPiInN
-0E>X
-0X8b?~
-0iN>/
 0x%llx is larger than the total array size 0x%llx
 0x%llx plus size 0x%llx (total 0x%llx) oversteps total array size 0x%llx.
 1#IND
@@ -5529,37 +5511,15 @@ $Ib?s
 1#QNAN
 1#SNAN
 1.3-extensions
-11UT
-11Y@
 16-bit or 32-bit 
 1D or 2D
 2 Entry points cannot share the same name and ExecutionMode.
-2\n0\tP
-2\n0pE
-2\vp(S
-2\vppE
 32-bit 
-37>k
-3>N;kU
-3>fvw
-51>W
 64-bits unsigned integer scalar type
-6NK>
-6\fXO>\ntA
-7>I0
-7?GX
-7yp>
-7~xh
 8- or 16-bit loads must be a scalar, vector or matrix type
 8- or 16-bit stores must be a scalar, vector or matrix type
 8- or 16-bit types can only be used with width-only conversions
-8Csin
-8ke?;
 9241a58a8028c49510bc174b6c970e3c2b4b8e51
-9>70
-9>exp
-9a>d
-9g>@3
 : 64-bit atomics require the Int64Atomics capability
 : Component Count must be 
 : Component Count must be 32-bit integer OpConstant
@@ -5646,142 +5606,7 @@ $Ib?s
 ; Schema: 
 ; Types, variables and constants
 ; Version: 
-;1cb
 ;BIb?
-;VK_SAMPLER_YCBCR_MODEL_CONVERSION_RGB_IDENTITY
-;VUID-VkAccelerationStructureCreateInfoKHR-sType-unique
-;VUID-VkAccelerationStructureCreateInfoNV-sType-unique
-;VUID-VkAccelerationStructureGeometryTrianglesDataKHR-sType-sType
-;VUID-VkAttachmentDescription2-sType-unique
-;VUID-VkAttachmentReference2-sType-unique
-;VUID-VkBindBufferMemoryInfo-sType-unique
-;VUID-VkBindImageMemoryInfo-sType-unique
-;VUID-VkBindSparseInfo-sType-unique
-;VUID-VkBlitImageInfo2-sType-sType
-;VUID-VkBlitImageInfo2-sType-unique
-;VUID-VkBufferCreateInfo-sType-unique
-;VUID-VkBufferImageCopy2-sType-unique
-;VUID-VkBufferMemoryBarrier-sType-unique
-;VUID-VkBufferMemoryBarrier2-sType-unique
-;VUID-VkBufferViewCreateInfo-sType-unique
-;VUID-VkCommandBufferBeginInfo-sType-unique
-;VUID-VkCommandBufferInheritanceInfo-sType-unique
-;VUID-VkCommandBufferSubmitInfo-sType-unique
-;VUID-VkComputePipelineCreateInfo-sType-unique
-;VUID-VkDebugUtilsMessengerCallbackDataEXT-sType-unique
-;VUID-VkDepthBiasInfoEXT-sType-unique
-;VUID-VkDescriptorBufferBindingInfoEXT-sType-unique
-;VUID-VkDescriptorPoolCreateInfo-sType-unique
-;VUID-VkDescriptorSetAllocateInfo-sType-unique
-;VUID-VkDescriptorSetLayoutCreateInfo-sType-unique
-;VUID-VkDescriptorSetLayoutSupport-sType-sType
-;VUID-VkDescriptorSetLayoutSupport-sType-unique
-;VUID-VkDeviceCreateInfo-sType-unique
-;VUID-VkDeviceImageMemoryRequirements-planeAspect-parameter
-;VUID-VkDeviceImageMemoryRequirements-sType-sType
-;VUID-VkDeviceQueueCreateInfo-sType-unique
-;VUID-VkEventCreateInfo-sType-unique
-;VUID-VkExecutionGraphPipelineCreateInfoAMDX-sType-unique
-;VUID-VkFenceCreateInfo-sType-unique
-;VUID-VkFormatProperties2-sType-unique
-;VUID-VkFramebufferCreateInfo-sType-unique
-;VUID-VkGeneratedCommandsInfoNV-sType-sType
-;VUID-VkGraphicsPipelineCreateInfo-sType-unique
-;VUID-VkImageBlit2-sType-unique
-;VUID-VkImageCreateInfo-sType-unique
-;VUID-VkImageFormatProperties2-sType-unique
-;VUID-VkImageMemoryBarrier-sType-unique
-;VUID-VkImageMemoryBarrier2-sType-unique
-;VUID-VkImageMemoryRequirementsInfo2-sType-unique
-;VUID-VkImageSparseMemoryRequirementsInfo2-sType-sType
-;VUID-VkImageSubresource2KHR-sType-sType
-;VUID-VkImageViewCreateInfo-sType-unique
-;VUID-VkImportFenceWin32HandleInfoKHR-sType-sType
-;VUID-VkInstanceCreateInfo-sType-unique
-;VUID-VkMemoryAllocateInfo-sType-unique
-;VUID-VkMemoryGetWin32HandleInfoKHR-sType-sType
-;VUID-VkMemoryMapInfoKHR-sType-unique
-;VUID-VkMemoryRequirements2-sType-unique
-;VUID-VkOpticalFlowSessionCreateInfoNV-sType-unique
-;VUID-VkPhysicalDeviceExternalBufferInfo-sType-unique
-;VUID-VkPhysicalDeviceExternalSemaphoreInfo-sType-unique
-;VUID-VkPhysicalDeviceImageFormatInfo2-sType-unique
-;VUID-VkPhysicalDeviceMemoryProperties2-sType-unique
-;VUID-VkPhysicalDeviceSurfaceInfo2KHR-sType-unique
-;VUID-VkPhysicalDeviceVideoFormatInfoKHR-sType-unique
-;VUID-VkPipelineColorBlendStateCreateInfo-sType-unique
-;VUID-VkPipelineLibraryCreateInfoKHR-sType-sType
-;VUID-VkPipelineMultisampleStateCreateInfo-sType-unique
-;VUID-VkPipelineRasterizationStateCreateInfo-sType-unique
-;VUID-VkPipelineShaderStageCreateInfo-sType-unique
-;VUID-VkPipelineTessellationStateCreateInfo-sType-unique
-;VUID-VkPipelineVertexInputStateCreateInfo-sType-unique
-;VUID-VkPipelineViewportStateCreateInfo-sType-unique
-;VUID-VkPresentInfoKHR-swapchainCount-arraylength
-;VUID-VkPushDescriptorSetWithTemplateInfoKHR-sType-sType
-;VUID-VkQueryPoolCreateInfo-sType-unique
-;VUID-VkQueueFamilyProperties2-sType-unique
-;VUID-VkRayTracingPipelineCreateInfoKHR-pGroups-parameter
-;VUID-VkRayTracingPipelineCreateInfoKHR-sType-unique
-;VUID-VkRayTracingPipelineCreateInfoNV-groupCount-arraylength
-;VUID-VkRayTracingPipelineCreateInfoNV-sType-unique
-;VUID-VkRenderPassBeginInfo-sType-unique
-;VUID-VkRenderPassCreateInfo-sType-unique
-;VUID-VkRenderPassCreateInfo2-sType-unique
-;VUID-VkRenderingInfo-sType-unique
-;VUID-VkSamplerCreateInfo-sType-unique
-;VUID-VkSamplerYcbcrConversionCreateInfo-sType-unique
-;VUID-VkSemaphoreCreateInfo-sType-unique
-;VUID-VkShaderCreateInfoEXT-sType-unique
-;VUID-VkSubmitInfo-sType-unique
-;VUID-VkSubmitInfo2-sType-unique
-;VUID-VkSubpassBeginInfo-sType-sType
-;VUID-VkSubpassDependency2-sType-unique
-;VUID-VkSubpassDescription2-pPreserveAttachments-parameter
-;VUID-VkSubpassDescription2-pResolveAttachments-parameter
-;VUID-VkSubpassDescription2-sType-unique
-;VUID-VkSubpassEndInfo-sType-unique
-;VUID-VkSubresourceLayout2KHR-sType-unique
-;VUID-VkSurfaceCapabilities2KHR-sType-sType
-;VUID-VkSurfaceCapabilities2KHR-sType-unique
-;VUID-VkSurfaceFormat2KHR-sType-unique
-;VUID-VkSwapchainCreateInfoKHR-sType-unique
-;VUID-VkVideoBeginCodingInfoKHR-sType-unique
-;VUID-VkVideoCapabilitiesKHR-sType-sType
-;VUID-VkVideoCapabilitiesKHR-sType-unique
-;VUID-VkVideoCodingControlInfoKHR-sType-unique
-;VUID-VkVideoDecodeInfoKHR-pReferenceSlots-parameter
-;VUID-VkVideoDecodeInfoKHR-sType-unique
-;VUID-VkVideoEncodeInfoKHR-pReferenceSlots-parameter
-;VUID-VkVideoEncodeInfoKHR-sType-unique
-;VUID-VkVideoEncodeQualityLevelPropertiesKHR-sType-sType
-;VUID-VkVideoEncodeQualityLevelPropertiesKHR-sType-unique
-;VUID-VkVideoEncodeSessionParametersFeedbackInfoKHR-sType-unique
-;VUID-VkVideoEncodeSessionParametersGetInfoKHR-sType-unique
-;VUID-VkVideoReferenceSlotInfoKHR-sType-unique
-;VUID-VkVideoSessionCreateInfoKHR-pictureFormat-parameter
-;VUID-VkVideoSessionCreateInfoKHR-sType-unique
-;VUID-VkVideoSessionParametersCreateInfoKHR-sType-unique
-;VUID-VkVideoSessionParametersUpdateInfoKHR-sType-unique
-;VUID-VkWriteDescriptorSet-sType-unique
-;VUID-vkCmdBeginQuery-flags-parameter
-;VUID-vkCmdPipelineBarrier-pImageMemoryBarriers-parameter
-;VUID-vkCmdPipelineBarrier2-pDependencyInfo-parameter
-;VUID-vkCmdUpdatePipelineIndirectBufferNV-pipelineBindPoint-parameter
-;VUID-vkCmdWriteBufferMarker2AMD-stage-parameter
-;VUID-vkCmdWriteTimestamp2-stage-parameter
-;VUID-vkCreateSharedSwapchainsKHR-pSwapchains-parameter
-;VUID-vkGetDeviceBufferMemoryRequirements-pMemoryRequirements-parameter
-;VUID-vkGetDeviceImageSparseMemoryRequirements-pInfo-parameter
-;VUID-vkGetDeviceImageSparseMemoryRequirements-pSparseMemoryRequirementCount-parameter
-;VUID-vkGetDynamicRenderingTilePropertiesQCOM-pProperties-parameter
-;VUID-vkGetPhysicalDeviceCooperativeMatrixPropertiesKHR-pPropertyCount-parameter
-;VUID-vkGetPhysicalDeviceSurfaceFormats2KHR-pSurfaceFormatCount-parameter
-;VUID-vkGetPhysicalDeviceSurfacePresentModes2EXT-pPresentModes-parameter
-;VUID-vkGetPipelineIndirectMemoryRequirementsNV-pMemoryRequirements-parameter
-;VUID-vkGetSemaphoreCounterValue-pValue-parameter
-<?WUUUUU
-<acos
 <instruction>
 <unknown state, report bug>
 <unrecognized>
@@ -5801,37 +5626,11 @@ $Ib?s
 = %u while expected to be %u
 = %u while must be VK_ATTACHMENT_UNUSED
 = %u) is not multiple of %u. 
-=1cb
-=87M
-=cQ6
-=e2m
-=imb;D
 > is later referenced by 
 > is used by entry point '
 > which is called with execution model 
 >, but is not listed as an interface
->0Av
->cQ6
->jtm}S
-?1cb
-?7zQ6$
-?8UUUUU
-?8bunz8
-?@En[vP
-?JV8f
-?R0I?
 ?UUUUUU
-?WUUUUU
-?asin
-?depthBiasEnable == VK_TRUE without a depth-stencil attachment.
-?f`Y4
-?issued on %s prior to any Draw Cmds in current render pass. It is recommended you use RenderPass LOAD_OP_CLEAR on attachments instead.
-?qBJ
-?rAj
-?sqrt
-?ysB
-@^8U)zj
-@pn>6
 A BuiltIn variable (id 
 A FunctionCall must happen within a function body.
 A Swapchain is being created which specifies a sharing mode of VK_SHARING_MODE_EXCLUSIVE while specifying multiple queues (queueFamilyIndexCount of %u).
@@ -5845,18 +5644,15 @@ A type T that is an array sized with a specialization constant must neither be, 
 A valid %s pipeline must be bound with vkCmdBindPipeline before calling this command.
 A valid %s pipeline must be bound with vkCmdBindPipeline or shader objects with vkCmdBindShadersEXT before calling this command.
 A variable with HitAttributeKHR Storage Class must only be written to in an intersection shader
-A>pP&
 ABCDEF
 ABCDEFGHIJKLMNOPQRSTUVWXYZ
 ABGR
 ADVAPI32.dll
-AK>(v
 ANGLE Shader Compiler
 API Version of current instance, %s is higher than API Version on device, %s
 ARGB
 AType
 AV1 decode session parameters cannot be updated.
-A`1w>
 AbsISubINTEL
 AbsUSubINTEL
 Access violation - no RTTI data!
@@ -6251,8 +6047,6 @@ Attempting to use memory (%s) that is not currently host mapped.
 Attributes must be an OpString
 August
 AutoINTEL
-BC?>6t9^\tc:>
-BF>^G
 BFloat16ConversionINTEL
 BGRA
 BType
@@ -6540,14 +6334,11 @@ BuiltIn (No allowed mixing of built-in variables and
 BuiltIns can only target variables, structure members or constants
 BurstCoalesceINTEL
 ByVal
-C5R?\t
 C:\buildworker\cef_win64\build\root\chromium\src\out\Release_GN_x64\VkLayer_khronos_validation.dll.pdb
 CHASSIS
-CL:>8
 CPP_for_OpenCL
 CPacked
 CType
-CWD>~3
 CacheControlLoadINTEL
 CacheControlStoreINTEL
 CacheControlsINTEL
@@ -6808,7 +6599,6 @@ Custom allocator not specified while destroying %s obj 0x%llx but specified at c
 Custom allocator specified while destroying %s obj 0x%llx but not specified at creation.
 CustomData
 CustomPools
-Cy2@K>
 D3D emulation layers, and applications ported from D3D, by adding functionality specific to D3D
 DEBUG_PRINTF_TO_STDOUT
 DEBUG_PRINTF_TO_STDOUT was set, this is deprecated, please use VK_LAYER_PRINTF_TO_STDOUT
@@ -7002,11 +6792,8 @@ Dynamic scissor(s) (0x%x) are used by pipeline state object, but were not provid
 Dynamic viewport and scissor with count 0x%x are used by pipeline state object, but were not provided via matching calls to vkCmdSetViewportWithCountEXT and vkCmdSetScissorWithCountEXT().
 Dynamic viewport with count 0x%x are used by pipeline state object, but were not provided via calls to vkCmdSetViewportWithCountEXT().
 Dynamic viewport(s) (0x%x) are used by pipeline state object, but were not provided via calls to vkCmdSetViewport().
-E>nEA
 ERROR_not_op_extension
 ESSL
-ET5>
-E[\rn?gc
 Each OpEntryPoint must not have more than one Input variable assigned the same Component word inside a Location slot, either explicitly or implicitly
 Each OpEntryPoint must not have more than one Output variable assigned the same Component word inside a Location slot, either explicitly or implicitly
 Each OpEntryPoint must not have more than one variable decorated with InputAttachmentIndex per image aspect of the attachment image bound to it, either explicitly or implicitly as described by input attachment interface
@@ -7178,7 +6965,6 @@ Each video picture resource specified by any non-NULL pPictureResource member sp
 Each view index must not be set in more than one element of pCorrelationMasks
 EarlyAndLateFragmentTestsAMD
 EarlyFragmentTests
-EiU>
 Either the vertexInputDynamicState feature or the shaderObject feature or both must be enabled
 ElemSize must be a 32-bit unsigned integer OpConstant
 Element type is not defined.
@@ -7476,13 +7262,11 @@ ExtInst
 ExtInstImport
 Extended instruction GLSLstd450IMix is not supported
 Extension
-F>qUxv
 FAbs
 FAdd
 FClamp
 FConvert
 FDiv
-FEMh\f
 FLOAT
 FMax
 FMax3AMD
@@ -7550,7 +7334,6 @@ Fast
 February
 FetchMicroTriangleVertexBarycentricNV
 FetchMicroTriangleVertexPositionNV
-FfW?
 File
 File ID = 
 File exists
@@ -8009,7 +7792,6 @@ FuseLoopsInFunctionINTEL
 Fwidth
 FwidthCoarse
 FwidthFine
-G>US
 GLCompute
 GLSL
 GLSL.std.450
@@ -8112,7 +7894,6 @@ Google Tint Compiler
 Google rspirv
 Google spiregg
 GpuavLogError(u1;u1;u1;u1;
-GrJoq>@
 Grad
 Graphics pipeline incompatible with viewport/scissor inheritance.
 Graphics shader objects are bound, an element of pExclusiveScissorEnables set with vkCmdSetExclusiveScissorEnableNV() was VK_TRUE, but vkCmdSetExclusiveScissorNV() was not called.
@@ -8333,7 +8114,6 @@ However, a library with pre-raster state is specified in VkPipelineLibraryCreate
 However, a library with pre-raster state is specified in VkPipelineLibraryCreateInfoKHR::pLibraries with a null descriptor set layout at the same pSetLayouts index (
 However, a library with pre-raster state is specified in VkPipelineLibraryCreateInfoKHR::pLibraries with non-null descriptor set layout at the same pSetLayouts index (
 However, the descriptor set layout at the same index (
-I;u>A
 IAdd
 IAddCarry
 IAddSatINTEL
@@ -8349,7 +8129,6 @@ IMAGE_UNKNOWN
 IMix
 IMul
 IMul32x16INTEL
-IND)ind)
 IND)ind)d
 INITY
 INTERNAL-ERROR-VkFence-state-timeout
@@ -12151,7 +11930,6 @@ If ycbcrModel is not VK_SAMPLER_YCBCR_MODEL_CONVERSION_RGB_IDENTITY, then compon
 If ycbcrRange is VK_SAMPLER_YCBCR_RANGE_ITU_NARROW then the R, G and B components obtained by applying the component swizzle to format must each have a bit-depth greater than or equal to 8
 IgnoreIntersectionKHR
 IgnoreIntersectionNV
-Il?333333c?
 Illegal byte sequence
 Illegal number of components (
 Illegal use of QCOM image processing decorated texture
@@ -12496,9 +12274,6 @@ Khronos SPIR-V Tools Linker
 Khronos Validation Layer
 Khronos Validation Layer Active:\n    Settings File: %s\n    Current Enables: %s.\n    Current Disables: %s.\n
 Kill
-L-n>4
-L>ev
-L?UUUUUUU?
 LAYER
 LAYER SETTING (%s) error: %s\n
 LAZILY_ALLOCATED
@@ -12511,8 +12286,6 @@ LLVM
 LLVM LLVM SPIR-V Backend
 LLVM SPIR-V Backend
 LLVM/SPIR-V Translator
-LWG>
-LWW>
 Label
 Label instructions must be in a function body
 Language
@@ -12573,7 +12346,6 @@ LoopMerge
 Luminance
 LunarG
 LunarG validation Layer
-M'y>0y
 MLIR SPIR-V Serializer
 MM/dd/yy
 MMHostInterfaceAddressWidthINTEL
@@ -12723,16 +12495,12 @@ Multiple case constructs have branches to the case construct that targets
 Multiple queues are created with queueFamilyIndex %u, but one has global priority %s and another %s.
 Multiview is not enabled but correlation masks are still provided
 Must be only one constituent
-N3`d?
-N>O=I9
-N>VF
 NAN(IND)
 NAN(SNAN)
 NClamp
 NMax
 NMin
 NONE
-NQ?s
 NSize
 NULL
 NVIDIA
@@ -12839,7 +12607,6 @@ Number of local variables ('Function' Storage Class) exceeded the valid limit (
 Number of resource buffers is %u. There must be no more than maxResourceDescriptorBufferBindings (%u) descriptor buffers containing resource descriptor data bound.
 Number of sampler buffers is %u. There must be no more than maxSamplerDescriptorBufferBindings (%u) descriptor buffers containing sampler descriptor data bound. 
 OBJ ERROR : For %s, %s has not been destroyed.
-OZQ%
 Object 
 ObjectOffset must be a 32-bit unsigned integer OpConstant
 ObjectRayDirectionKHR
@@ -13634,8 +13401,6 @@ PushConstantNumWorkgroups
 PushConstantRegionGroupOffset
 PushConstantRegionOffset
 PushConstants
-Q5rHg,>
-QAf?
 QuadControlKHR
 QuadDerivativesKHR
 Quads
@@ -13682,10 +13447,6 @@ RND_INF
 RND_MIN_INF
 RND_ZERO
 RSDSu
-R\fppE
-R\n0\tP
-R\n0\tp
-R\vppE
 Radians
 RaiseException
 Range
@@ -13914,8 +13675,6 @@ RuntimeAlignedINTEL
 RuntimeDescriptorArray
 RuntimeDescriptorArrayEXT
 Rust GPU Compiler Backend
-S9>H
-S>$hkDh$h>[2
 SAT_SYM
 SAT_ZERO
 SAbs
@@ -16051,7 +15810,6 @@ TypeStructContinuedINTEL
 TypeVector
 TypeVmeImageINTEL
 TypeVoid
-UA>N0Wl
 UAddSatINTEL
 UAverageINTEL
 UAverageRoundedINTEL
@@ -16139,7 +15897,6 @@ USMStorageClassesINTEL
 USubSatINTEL
 UTF-16LEUNICODE
 UTF-8
-UUUU
 UUUUUU
 Unable to allocate %u descriptorSets from %s. This pool only has %u descriptorSets remaining.
 Unable to allocate %u descriptors of type %s from %s. This pool only has %u descriptors of this type remaining.
@@ -18072,6 +17829,7 @@ VK_SAMPLER_REDUCTION_MODE_MAX
 VK_SAMPLER_REDUCTION_MODE_MIN
 VK_SAMPLER_REDUCTION_MODE_WEIGHTED_AVERAGE
 VK_SAMPLER_REDUCTION_MODE_WEIGHTED_AVERAGE_RANGECLAMP_QCOM
+VK_SAMPLER_YCBCR_MODEL_CONVERSION_RGB_IDENTITY
 VK_SAMPLER_YCBCR_MODEL_CONVERSION_YCBCR_2020
 VK_SAMPLER_YCBCR_MODEL_CONVERSION_YCBCR_601
 VK_SAMPLER_YCBCR_MODEL_CONVERSION_YCBCR_709
@@ -19871,11 +19629,13 @@ VUID-VkAccelerationStructureCreateInfoKHR-offset-03734
 VUID-VkAccelerationStructureCreateInfoKHR-pNext-08109
 VUID-VkAccelerationStructureCreateInfoKHR-pNext-pNext
 VUID-VkAccelerationStructureCreateInfoKHR-sType-sType
+VUID-VkAccelerationStructureCreateInfoKHR-sType-unique
 VUID-VkAccelerationStructureCreateInfoKHR-type-parameter
 VUID-VkAccelerationStructureCreateInfoNV-compactedSize-02421
 VUID-VkAccelerationStructureCreateInfoNV-info-parameter
 VUID-VkAccelerationStructureCreateInfoNV-pNext-pNext
 VUID-VkAccelerationStructureCreateInfoNV-sType-sType
+VUID-VkAccelerationStructureCreateInfoNV-sType-unique
 VUID-VkAccelerationStructureDeviceAddressInfoKHR-accelerationStructure-parameter
 VUID-VkAccelerationStructureDeviceAddressInfoKHR-pNext-pNext
 VUID-VkAccelerationStructureDeviceAddressInfoKHR-sType-sType
@@ -19896,6 +19656,7 @@ VUID-VkAccelerationStructureGeometryMotionTrianglesDataNV-sType-sType
 VUID-VkAccelerationStructureGeometryTrianglesDataKHR-indexType-03798
 VUID-VkAccelerationStructureGeometryTrianglesDataKHR-indexType-parameter
 VUID-VkAccelerationStructureGeometryTrianglesDataKHR-pNext-pNext
+VUID-VkAccelerationStructureGeometryTrianglesDataKHR-sType-sType
 VUID-VkAccelerationStructureGeometryTrianglesDataKHR-sType-unique
 VUID-VkAccelerationStructureGeometryTrianglesDataKHR-vertexFormat-03797
 VUID-VkAccelerationStructureGeometryTrianglesDataKHR-vertexFormat-parameter
@@ -20058,6 +19819,7 @@ VUID-VkAttachmentDescription2-pNext-06704
 VUID-VkAttachmentDescription2-pNext-06705
 VUID-VkAttachmentDescription2-pNext-pNext
 VUID-VkAttachmentDescription2-sType-sType
+VUID-VkAttachmentDescription2-sType-unique
 VUID-VkAttachmentDescription2-samples-08745
 VUID-VkAttachmentDescription2-samples-parameter
 VUID-VkAttachmentDescription2-separateDepthStencilLayouts-03284
@@ -20085,6 +19847,7 @@ VUID-VkAttachmentReference2-layout-03077
 VUID-VkAttachmentReference2-layout-parameter
 VUID-VkAttachmentReference2-pNext-pNext
 VUID-VkAttachmentReference2-sType-sType
+VUID-VkAttachmentReference2-sType-unique
 VUID-VkAttachmentReference2-separateDepthStencilLayouts-03313
 VUID-VkAttachmentReference2-synchronization2-06910
 VUID-VkAttachmentReferenceStencilLayout-sType-sType
@@ -20133,6 +19896,7 @@ VUID-VkBindBufferMemoryInfo-memoryOffset-01036
 VUID-VkBindBufferMemoryInfo-pNext-01605
 VUID-VkBindBufferMemoryInfo-pNext-pNext
 VUID-VkBindBufferMemoryInfo-sType-sType
+VUID-VkBindBufferMemoryInfo-sType-unique
 VUID-VkBindBufferMemoryInfo-size-01037
 VUID-VkBindDescriptorBufferEmbeddedSamplersInfoEXT-None-09495
 VUID-VkBindDescriptorBufferEmbeddedSamplersInfoEXT-layout-09496
@@ -20212,6 +19976,7 @@ VUID-VkBindImageMemoryInfo-pNext-01631
 VUID-VkBindImageMemoryInfo-pNext-01632
 VUID-VkBindImageMemoryInfo-pNext-pNext
 VUID-VkBindImageMemoryInfo-sType-sType
+VUID-VkBindImageMemoryInfo-sType-unique
 VUID-VkBindImageMemorySwapchainInfoKHR-imageIndex-01644
 VUID-VkBindImageMemorySwapchainInfoKHR-sType-sType
 VUID-VkBindImageMemorySwapchainInfoKHR-swapchain-07756
@@ -20246,6 +20011,7 @@ VUID-VkBindSparseInfo-pWaitSemaphores-03246
 VUID-VkBindSparseInfo-pWaitSemaphores-03250
 VUID-VkBindSparseInfo-pWaitSemaphores-parameter
 VUID-VkBindSparseInfo-sType-sType
+VUID-VkBindSparseInfo-sType-unique
 VUID-VkBindVertexBufferIndirectCommandNV-None-02949
 VUID-VkBindVertexBufferIndirectCommandNV-None-02950
 VUID-VkBindVideoSessionMemoryInfoKHR-memory-parameter
@@ -20287,6 +20053,8 @@ VUID-VkBlitImageInfo2-pRegions-00217
 VUID-VkBlitImageInfo2-pRegions-04561
 VUID-VkBlitImageInfo2-pRegions-parameter
 VUID-VkBlitImageInfo2-regionCount-arraylength
+VUID-VkBlitImageInfo2-sType-sType
+VUID-VkBlitImageInfo2-sType-unique
 VUID-VkBlitImageInfo2-srcImage-00219
 VUID-VkBlitImageInfo2-srcImage-00220
 VUID-VkBlitImageInfo2-srcImage-00229
@@ -20358,6 +20126,7 @@ VUID-VkBufferCreateInfo-pNext-01571
 VUID-VkBufferCreateInfo-pNext-08100
 VUID-VkBufferCreateInfo-pNext-pNext
 VUID-VkBufferCreateInfo-sType-sType
+VUID-VkBufferCreateInfo-sType-unique
 VUID-VkBufferCreateInfo-sharingMode-00913
 VUID-VkBufferCreateInfo-sharingMode-00914
 VUID-VkBufferCreateInfo-sharingMode-01419
@@ -20393,6 +20162,7 @@ VUID-VkBufferImageCopy2-imageExtent-06661
 VUID-VkBufferImageCopy2-imageSubresource-parameter
 VUID-VkBufferImageCopy2-pNext-pNext
 VUID-VkBufferImageCopy2-sType-sType
+VUID-VkBufferImageCopy2-sType-unique
 VUID-VkBufferMemoryBarrier-None-09049
 VUID-VkBufferMemoryBarrier-None-09050
 VUID-VkBufferMemoryBarrier-None-09051
@@ -20406,6 +20176,7 @@ VUID-VkBufferMemoryBarrier-dstQueueFamilyIndex-09100
 VUID-VkBufferMemoryBarrier-offset-01187
 VUID-VkBufferMemoryBarrier-pNext-pNext
 VUID-VkBufferMemoryBarrier-sType-sType
+VUID-VkBufferMemoryBarrier-sType-unique
 VUID-VkBufferMemoryBarrier-size-01188
 VUID-VkBufferMemoryBarrier-size-01189
 VUID-VkBufferMemoryBarrier-srcQueueFamilyIndex-04087
@@ -20474,6 +20245,7 @@ VUID-VkBufferMemoryBarrier2-dstStageMask-parameter
 VUID-VkBufferMemoryBarrier2-offset-01187
 VUID-VkBufferMemoryBarrier2-pNext-pNext
 VUID-VkBufferMemoryBarrier2-sType-sType
+VUID-VkBufferMemoryBarrier2-sType-unique
 VUID-VkBufferMemoryBarrier2-size-01188
 VUID-VkBufferMemoryBarrier2-size-01189
 VUID-VkBufferMemoryBarrier2-srcAccessMask-03900
@@ -20561,6 +20333,7 @@ VUID-VkBufferViewCreateInfo-range-00929
 VUID-VkBufferViewCreateInfo-range-00930
 VUID-VkBufferViewCreateInfo-range-04059
 VUID-VkBufferViewCreateInfo-sType-sType
+VUID-VkBufferViewCreateInfo-sType-unique
 VUID-VkCalibratedTimestampInfoEXT-timeDomain-02354
 VUID-VkCalibratedTimestampInfoKHR-pNext-pNext
 VUID-VkCalibratedTimestampInfoKHR-sType-sType
@@ -20618,6 +20391,7 @@ VUID-VkCommandBufferBeginInfo-flags-09240
 VUID-VkCommandBufferBeginInfo-flags-parameter
 VUID-VkCommandBufferBeginInfo-pNext-pNext
 VUID-VkCommandBufferBeginInfo-sType-sType
+VUID-VkCommandBufferBeginInfo-sType-unique
 VUID-VkCommandBufferInheritanceConditionalRenderingInfoEXT-conditionalRenderingEnable-01977
 VUID-VkCommandBufferInheritanceConditionalRenderingInfoEXT-sType-sType
 VUID-VkCommandBufferInheritanceInfo-commonparent
@@ -20628,6 +20402,7 @@ VUID-VkCommandBufferInheritanceInfo-pipelineStatistics-02789
 VUID-VkCommandBufferInheritanceInfo-queryFlags-00057
 VUID-VkCommandBufferInheritanceInfo-queryFlags-02788
 VUID-VkCommandBufferInheritanceInfo-sType-sType
+VUID-VkCommandBufferInheritanceInfo-sType-unique
 VUID-VkCommandBufferInheritanceRenderPassTransformInfoQCOM-sType-sType
 VUID-VkCommandBufferInheritanceRenderPassTransformInfoQCOM-transform-02864
 VUID-VkCommandBufferInheritanceRenderingInfo-colorAttachmentCount-06004
@@ -20659,6 +20434,7 @@ VUID-VkCommandBufferSubmitInfo-deviceMask-03891
 VUID-VkCommandBufferSubmitInfo-pNext-09446
 VUID-VkCommandBufferSubmitInfo-pNext-pNext
 VUID-VkCommandBufferSubmitInfo-sType-sType
+VUID-VkCommandBufferSubmitInfo-sType-unique
 VUID-VkCommandPoolCreateInfo-flags-02860
 VUID-VkCommandPoolCreateInfo-flags-parameter
 VUID-VkCommandPoolCreateInfo-pNext-pNext
@@ -20695,6 +20471,7 @@ VUID-VkComputePipelineCreateInfo-pNext-pNext
 VUID-VkComputePipelineCreateInfo-pipelineCreationCacheControl-02875
 VUID-VkComputePipelineCreateInfo-pipelineStageCreationFeedbackCount-06566
 VUID-VkComputePipelineCreateInfo-sType-sType
+VUID-VkComputePipelineCreateInfo-sType-unique
 VUID-VkComputePipelineCreateInfo-shaderEnqueue-09177
 VUID-VkComputePipelineCreateInfo-stage-00701
 VUID-VkComputePipelineCreateInfo-stage-00702
@@ -21204,6 +20981,7 @@ VUID-VkDebugUtilsMessengerCallbackDataEXT-pNext-pNext
 VUID-VkDebugUtilsMessengerCallbackDataEXT-pObjects-parameter
 VUID-VkDebugUtilsMessengerCallbackDataEXT-pQueueLabels-parameter
 VUID-VkDebugUtilsMessengerCallbackDataEXT-sType-sType
+VUID-VkDebugUtilsMessengerCallbackDataEXT-sType-unique
 VUID-VkDebugUtilsMessengerCreateInfoEXT-flags-zerobitmask
 VUID-VkDebugUtilsMessengerCreateInfoEXT-messageSeverity-parameter
 VUID-VkDebugUtilsMessengerCreateInfoEXT-messageSeverity-requiredbitmask
@@ -21256,6 +21034,7 @@ VUID-VkDependencyInfo-sType-sType
 VUID-VkDepthBiasInfoEXT-depthBiasClamp-08950
 VUID-VkDepthBiasInfoEXT-pNext-pNext
 VUID-VkDepthBiasInfoEXT-sType-sType
+VUID-VkDepthBiasInfoEXT-sType-unique
 VUID-VkDepthBiasRepresentationInfoEXT-depthBiasExact-08949
 VUID-VkDepthBiasRepresentationInfoEXT-depthBiasRepresentation-parameter
 VUID-VkDepthBiasRepresentationInfoEXT-floatRepresentation-08948
@@ -21277,6 +21056,7 @@ VUID-VkDescriptorBufferBindingInfoEXT-address-08057
 VUID-VkDescriptorBufferBindingInfoEXT-bufferlessPushDescriptors-08056
 VUID-VkDescriptorBufferBindingInfoEXT-pNext-pNext
 VUID-VkDescriptorBufferBindingInfoEXT-sType-sType
+VUID-VkDescriptorBufferBindingInfoEXT-sType-unique
 VUID-VkDescriptorBufferBindingInfoEXT-usage-08122
 VUID-VkDescriptorBufferBindingInfoEXT-usage-08123
 VUID-VkDescriptorBufferBindingInfoEXT-usage-08124
@@ -21351,6 +21131,7 @@ VUID-VkDescriptorPoolCreateInfo-pPoolSizes-04787
 VUID-VkDescriptorPoolCreateInfo-pPoolSizes-09424
 VUID-VkDescriptorPoolCreateInfo-pPoolSizes-parameter
 VUID-VkDescriptorPoolCreateInfo-sType-sType
+VUID-VkDescriptorPoolCreateInfo-sType-unique
 VUID-VkDescriptorPoolInlineUniformBlockCreateInfo-sType-sType
 VUID-VkDescriptorPoolSize-descriptorCount-00302
 VUID-VkDescriptorPoolSize-type-02218
@@ -21368,6 +21149,7 @@ VUID-VkDescriptorSetAllocateInfo-pSetLayouts-08009
 VUID-VkDescriptorSetAllocateInfo-pSetLayouts-09380
 VUID-VkDescriptorSetAllocateInfo-pSetLayouts-parameter
 VUID-VkDescriptorSetAllocateInfo-sType-sType
+VUID-VkDescriptorSetAllocateInfo-sType-unique
 VUID-VkDescriptorSetBindingReferenceVALVE-descriptorSetLayout-parameter
 VUID-VkDescriptorSetBindingReferenceVALVE-pNext-pNext
 VUID-VkDescriptorSetBindingReferenceVALVE-sType-sType
@@ -21425,9 +21207,12 @@ VUID-VkDescriptorSetLayoutCreateInfo-pBindings-07303
 VUID-VkDescriptorSetLayoutCreateInfo-pBindings-parameter
 VUID-VkDescriptorSetLayoutCreateInfo-pNext-pNext
 VUID-VkDescriptorSetLayoutCreateInfo-sType-sType
+VUID-VkDescriptorSetLayoutCreateInfo-sType-unique
 VUID-VkDescriptorSetLayoutHostMappingInfoVALVE-pNext-pNext
 VUID-VkDescriptorSetLayoutHostMappingInfoVALVE-sType-sType
 VUID-VkDescriptorSetLayoutSupport-pNext-pNext
+VUID-VkDescriptorSetLayoutSupport-sType-sType
+VUID-VkDescriptorSetLayoutSupport-sType-unique
 VUID-VkDescriptorSetVariableDescriptorCountAllocateInfo-descriptorSetCount-03045
 VUID-VkDescriptorSetVariableDescriptorCountAllocateInfo-pDescriptorCounts-parameter
 VUID-VkDescriptorSetVariableDescriptorCountAllocateInfo-sType-sType
@@ -21490,6 +21275,7 @@ VUID-VkDeviceCreateInfo-ppEnabledLayerNames-parameter
 VUID-VkDeviceCreateInfo-queueCreateInfoCount-arraylength
 VUID-VkDeviceCreateInfo-queueFamilyIndex-02802
 VUID-VkDeviceCreateInfo-sType-sType
+VUID-VkDeviceCreateInfo-sType-unique
 VUID-VkDeviceCreateInfo-shadingRateImage-04478
 VUID-VkDeviceCreateInfo-shadingRateImage-04479
 VUID-VkDeviceCreateInfo-shadingRateImage-04480
@@ -21567,6 +21353,8 @@ VUID-VkDeviceImageMemoryRequirements-pCreateInfo-parameter
 VUID-VkDeviceImageMemoryRequirements-pNext-06996
 VUID-VkDeviceImageMemoryRequirements-pNext-08962
 VUID-VkDeviceImageMemoryRequirements-pNext-pNext
+VUID-VkDeviceImageMemoryRequirements-planeAspect-parameter
+VUID-VkDeviceImageMemoryRequirements-sType-sType
 VUID-VkDeviceImageSubresourceInfoKHR-arrayLayer-01717
 VUID-VkDeviceImageSubresourceInfoKHR-aspectMask-00997
 VUID-VkDeviceImageSubresourceInfoKHR-format-04462
@@ -21599,6 +21387,7 @@ VUID-VkDeviceQueueCreateInfo-queueCount-00382
 VUID-VkDeviceQueueCreateInfo-queueCount-arraylength
 VUID-VkDeviceQueueCreateInfo-queueFamilyIndex-00381
 VUID-VkDeviceQueueCreateInfo-sType-sType
+VUID-VkDeviceQueueCreateInfo-sType-unique
 VUID-VkDeviceQueueGlobalPriorityCreateInfoKHR-globalPriority-parameter
 VUID-VkDeviceQueueGlobalPriorityCreateInfoKHR-sType-sType
 VUID-VkDeviceQueueInfo2-flags-06225
@@ -21689,6 +21478,7 @@ VUID-VkEventCreateInfo-flags-parameter
 VUID-VkEventCreateInfo-pNext-06790
 VUID-VkEventCreateInfo-pNext-pNext
 VUID-VkEventCreateInfo-sType-sType
+VUID-VkEventCreateInfo-sType-unique
 VUID-VkExecutionGraphPipelineCreateInfoAMDX-CoalescedInputCountAMDX-09137
 VUID-VkExecutionGraphPipelineCreateInfoAMDX-None-09134
 VUID-VkExecutionGraphPipelineCreateInfoAMDX-None-09135
@@ -21725,6 +21515,7 @@ VUID-VkExecutionGraphPipelineCreateInfoAMDX-pStages-09129
 VUID-VkExecutionGraphPipelineCreateInfoAMDX-pStages-parameter
 VUID-VkExecutionGraphPipelineCreateInfoAMDX-pipelineCreationCacheControl-02875
 VUID-VkExecutionGraphPipelineCreateInfoAMDX-sType-sType
+VUID-VkExecutionGraphPipelineCreateInfoAMDX-sType-unique
 VUID-VkExecutionGraphPipelineCreateInfoAMDX-stage-09128
 VUID-VkExecutionGraphPipelineScratchSizeAMDX-sType-sType
 VUID-VkExportFenceCreateInfo-handleTypes-01446
@@ -21809,6 +21600,7 @@ VUID-VkExternalSemaphoreProperties-sType-sType
 VUID-VkFenceCreateInfo-flags-parameter
 VUID-VkFenceCreateInfo-pNext-pNext
 VUID-VkFenceCreateInfo-sType-sType
+VUID-VkFenceCreateInfo-sType-unique
 VUID-VkFenceGetFdInfoKHR-fence-01455
 VUID-VkFenceGetFdInfoKHR-fence-parameter
 VUID-VkFenceGetFdInfoKHR-handleType-01453
@@ -21830,6 +21622,7 @@ VUID-VkFilterCubicImageViewImageFormatPropertiesEXT-pNext-02627
 VUID-VkFilterCubicImageViewImageFormatPropertiesEXT-sType-sType
 VUID-VkFormatProperties2-pNext-pNext
 VUID-VkFormatProperties2-sType-sType
+VUID-VkFormatProperties2-sType-unique
 VUID-VkFormatProperties3-sType-sType
 VUID-VkFragmentShadingRateAttachmentInfoKHR-pFragmentShadingRateAttachment-04524
 VUID-VkFragmentShadingRateAttachmentInfoKHR-pFragmentShadingRateAttachment-04525
@@ -21916,6 +21709,7 @@ VUID-VkFramebufferCreateInfo-renderPass-06502
 VUID-VkFramebufferCreateInfo-renderPass-08921
 VUID-VkFramebufferCreateInfo-renderPass-parameter
 VUID-VkFramebufferCreateInfo-sType-sType
+VUID-VkFramebufferCreateInfo-sType-unique
 VUID-VkFramebufferCreateInfo-samples-06881
 VUID-VkFramebufferCreateInfo-samples-07009
 VUID-VkFramebufferCreateInfo-width-00885
@@ -21943,6 +21737,7 @@ VUID-VkGeneratedCommandsInfoNV-preprocessBuffer-02971
 VUID-VkGeneratedCommandsInfoNV-preprocessBuffer-parameter
 VUID-VkGeneratedCommandsInfoNV-preprocessOffset-02919
 VUID-VkGeneratedCommandsInfoNV-preprocessSize-02920
+VUID-VkGeneratedCommandsInfoNV-sType-sType
 VUID-VkGeneratedCommandsInfoNV-sequencesCount-02917
 VUID-VkGeneratedCommandsInfoNV-sequencesCountBuffer-02921
 VUID-VkGeneratedCommandsInfoNV-sequencesCountBuffer-02922
@@ -22315,6 +22110,7 @@ VUID-VkGraphicsPipelineCreateInfo-renderpass-06624
 VUID-VkGraphicsPipelineCreateInfo-renderpass-06625
 VUID-VkGraphicsPipelineCreateInfo-renderpass-06631
 VUID-VkGraphicsPipelineCreateInfo-sType-sType
+VUID-VkGraphicsPipelineCreateInfo-sType-unique
 VUID-VkGraphicsPipelineCreateInfo-sampleLocationsEnable-01524
 VUID-VkGraphicsPipelineCreateInfo-sampleShadingEnable-04900
 VUID-VkGraphicsPipelineCreateInfo-shaderTessellationAndGeometryPointSize-08776
@@ -22396,6 +22192,7 @@ VUID-VkImageBlit2-layerCount-08800
 VUID-VkImageBlit2-layerCount-08801
 VUID-VkImageBlit2-pNext-pNext
 VUID-VkImageBlit2-sType-sType
+VUID-VkImageBlit2-sType-unique
 VUID-VkImageBlit2-srcSubresource-parameter
 VUID-VkImageCaptureDescriptorDataInfoEXT-image-08079
 VUID-VkImageCaptureDescriptorDataInfoEXT-image-parameter
@@ -22547,6 +22344,7 @@ VUID-VkImageCreateInfo-pNext-09457
 VUID-VkImageCreateInfo-pNext-pNext
 VUID-VkImageCreateInfo-physicalDeviceCount-01421
 VUID-VkImageCreateInfo-sType-sType
+VUID-VkImageCreateInfo-sType-unique
 VUID-VkImageCreateInfo-samples-02083
 VUID-VkImageCreateInfo-samples-02257
 VUID-VkImageCreateInfo-samples-02258
@@ -22598,6 +22396,7 @@ VUID-VkImageFormatListCreateInfo-sType-sType
 VUID-VkImageFormatListCreateInfo-viewFormatCount-09540
 VUID-VkImageFormatProperties2-pNext-pNext
 VUID-VkImageFormatProperties2-sType-sType
+VUID-VkImageFormatProperties2-sType-unique
 VUID-VkImageMemoryBarrier-None-09052
 VUID-VkImageMemoryBarrier-None-09053
 VUID-VkImageMemoryBarrier-None-09054
@@ -22633,6 +22432,7 @@ VUID-VkImageMemoryBarrier-oldLayout-02088
 VUID-VkImageMemoryBarrier-oldLayout-parameter
 VUID-VkImageMemoryBarrier-pNext-pNext
 VUID-VkImageMemoryBarrier-sType-sType
+VUID-VkImageMemoryBarrier-sType-unique
 VUID-VkImageMemoryBarrier-srcQueueFamilyIndex-03938
 VUID-VkImageMemoryBarrier-srcQueueFamilyIndex-03939
 VUID-VkImageMemoryBarrier-srcQueueFamilyIndex-04065
@@ -22743,6 +22543,7 @@ VUID-VkImageMemoryBarrier2-oldLayout-02088
 VUID-VkImageMemoryBarrier2-oldLayout-parameter
 VUID-VkImageMemoryBarrier2-pNext-pNext
 VUID-VkImageMemoryBarrier2-sType-sType
+VUID-VkImageMemoryBarrier2-sType-unique
 VUID-VkImageMemoryBarrier2-srcAccessMask-03900
 VUID-VkImageMemoryBarrier2-srcAccessMask-03901
 VUID-VkImageMemoryBarrier2-srcAccessMask-03902
@@ -22832,6 +22633,7 @@ VUID-VkImageMemoryRequirementsInfo2-image-08961
 VUID-VkImageMemoryRequirementsInfo2-image-parameter
 VUID-VkImageMemoryRequirementsInfo2-pNext-pNext
 VUID-VkImageMemoryRequirementsInfo2-sType-sType
+VUID-VkImageMemoryRequirementsInfo2-sType-unique
 VUID-VkImagePipeSurfaceCreateInfoFUCHSIA-flags-zerobitmask
 VUID-VkImagePipeSurfaceCreateInfoFUCHSIA-imagePipeHandle-04863
 VUID-VkImagePipeSurfaceCreateInfoFUCHSIA-pNext-pNext
@@ -22854,6 +22656,7 @@ VUID-VkImageResolve2-sType-sType
 VUID-VkImageResolve2-srcSubresource-parameter
 VUID-VkImageSparseMemoryRequirementsInfo2-image-parameter
 VUID-VkImageSparseMemoryRequirementsInfo2-pNext-pNext
+VUID-VkImageSparseMemoryRequirementsInfo2-sType-sType
 VUID-VkImageStencilUsageCreateInfo-sType-sType
 VUID-VkImageStencilUsageCreateInfo-stencilUsage-02539
 VUID-VkImageStencilUsageCreateInfo-stencilUsage-parameter
@@ -22862,6 +22665,7 @@ VUID-VkImageSubresource-aspectMask-parameter
 VUID-VkImageSubresource-aspectMask-requiredbitmask
 VUID-VkImageSubresource2KHR-imageSubresource-parameter
 VUID-VkImageSubresource2KHR-pNext-pNext
+VUID-VkImageSubresource2KHR-sType-sType
 VUID-VkImageSubresourceLayers-aspectMask-00167
 VUID-VkImageSubresourceLayers-aspectMask-00168
 VUID-VkImageSubresourceLayers-aspectMask-02247
@@ -22978,6 +22782,7 @@ VUID-VkImageViewCreateInfo-pNext-06957
 VUID-VkImageViewCreateInfo-pNext-08107
 VUID-VkImageViewCreateInfo-pNext-pNext
 VUID-VkImageViewCreateInfo-sType-sType
+VUID-VkImageViewCreateInfo-sType-unique
 VUID-VkImageViewCreateInfo-subResourceRange-01021
 VUID-VkImageViewCreateInfo-subresourceRange-01478
 VUID-VkImageViewCreateInfo-subresourceRange-01718
@@ -23051,6 +22856,7 @@ VUID-VkImportFenceWin32HandleInfoKHR-handleType-01460
 VUID-VkImportFenceWin32HandleInfoKHR-handleType-01461
 VUID-VkImportFenceWin32HandleInfoKHR-name-01540
 VUID-VkImportFenceWin32HandleInfoKHR-pNext-pNext
+VUID-VkImportFenceWin32HandleInfoKHR-sType-sType
 VUID-VkImportMemoryBufferCollectionFUCHSIA-collection-parameter
 VUID-VkImportMemoryBufferCollectionFUCHSIA-index-06406
 VUID-VkImportMemoryBufferCollectionFUCHSIA-sType-sType
@@ -23192,6 +22998,7 @@ VUID-VkInstanceCreateInfo-pNext-pNext
 VUID-VkInstanceCreateInfo-ppEnabledExtensionNames-parameter
 VUID-VkInstanceCreateInfo-ppEnabledLayerNames-parameter
 VUID-VkInstanceCreateInfo-sType-sType
+VUID-VkInstanceCreateInfo-sType-unique
 VUID-VkLatencySleepInfoNV-sType-sType
 VUID-VkLatencySleepInfoNV-signalSemaphore-09361
 VUID-VkLatencySleepInfoNV-signalSemaphore-parameter
@@ -23277,6 +23084,7 @@ VUID-VkMemoryAllocateInfo-pNext-08945
 VUID-VkMemoryAllocateInfo-pNext-08946
 VUID-VkMemoryAllocateInfo-pNext-pNext
 VUID-VkMemoryAllocateInfo-sType-sType
+VUID-VkMemoryAllocateInfo-sType-unique
 VUID-VkMemoryAllocateInfo-screenBufferImport-08941
 VUID-VkMemoryBarrier-dstAccessMask-parameter
 VUID-VkMemoryBarrier-pNext-pNext
@@ -23432,6 +23240,7 @@ VUID-VkMemoryGetWin32HandleInfoKHR-handleType-00664
 VUID-VkMemoryGetWin32HandleInfoKHR-handleType-parameter
 VUID-VkMemoryGetWin32HandleInfoKHR-memory-parameter
 VUID-VkMemoryGetWin32HandleInfoKHR-pNext-pNext
+VUID-VkMemoryGetWin32HandleInfoKHR-sType-sType
 VUID-VkMemoryGetZirconHandleInfoFUCHSIA-handleType-04775
 VUID-VkMemoryGetZirconHandleInfoFUCHSIA-handleType-04776
 VUID-VkMemoryGetZirconHandleInfoFUCHSIA-handleType-parameter
@@ -23456,6 +23265,7 @@ VUID-VkMemoryMapInfoKHR-memory-parameter
 VUID-VkMemoryMapInfoKHR-offset-07959
 VUID-VkMemoryMapInfoKHR-pNext-pNext
 VUID-VkMemoryMapInfoKHR-sType-sType
+VUID-VkMemoryMapInfoKHR-sType-unique
 VUID-VkMemoryMapInfoKHR-size-07960
 VUID-VkMemoryMapInfoKHR-size-07961
 VUID-VkMemoryMapPlacedInfoEXT-flags-09576
@@ -23467,6 +23277,7 @@ VUID-VkMemoryPriorityAllocateInfoEXT-priority-02602
 VUID-VkMemoryPriorityAllocateInfoEXT-sType-sType
 VUID-VkMemoryRequirements2-pNext-pNext
 VUID-VkMemoryRequirements2-sType-sType
+VUID-VkMemoryRequirements2-sType-unique
 VUID-VkMemoryToImageCopyEXT-aspectMask-09103
 VUID-VkMemoryToImageCopyEXT-imageExtent-06659
 VUID-VkMemoryToImageCopyEXT-imageExtent-06660
@@ -23588,6 +23399,7 @@ VUID-VkOpticalFlowSessionCreateInfoNV-outputGridSize-requiredbitmask
 VUID-VkOpticalFlowSessionCreateInfoNV-pNext-pNext
 VUID-VkOpticalFlowSessionCreateInfoNV-performanceLevel-parameter
 VUID-VkOpticalFlowSessionCreateInfoNV-sType-sType
+VUID-VkOpticalFlowSessionCreateInfoNV-sType-unique
 VUID-VkOpticalFlowSessionCreateInfoNV-width-07581
 VUID-VkOpticalFlowSessionCreatePrivateDataInfoNV-pPrivateData-parameter
 VUID-VkOpticalFlowSessionCreatePrivateDataInfoNV-sType-sType
@@ -23686,6 +23498,7 @@ VUID-VkPhysicalDeviceExternalBufferInfo-flags-parameter
 VUID-VkPhysicalDeviceExternalBufferInfo-handleType-parameter
 VUID-VkPhysicalDeviceExternalBufferInfo-pNext-pNext
 VUID-VkPhysicalDeviceExternalBufferInfo-sType-sType
+VUID-VkPhysicalDeviceExternalBufferInfo-sType-unique
 VUID-VkPhysicalDeviceExternalFenceInfo-handleType-parameter
 VUID-VkPhysicalDeviceExternalFenceInfo-pNext-pNext
 VUID-VkPhysicalDeviceExternalFenceInfo-sType-sType
@@ -23699,6 +23512,7 @@ VUID-VkPhysicalDeviceExternalMemoryScreenBufferFeaturesQNX-sType-sType
 VUID-VkPhysicalDeviceExternalSemaphoreInfo-handleType-parameter
 VUID-VkPhysicalDeviceExternalSemaphoreInfo-pNext-pNext
 VUID-VkPhysicalDeviceExternalSemaphoreInfo-sType-sType
+VUID-VkPhysicalDeviceExternalSemaphoreInfo-sType-unique
 VUID-VkPhysicalDeviceFaultFeaturesEXT-sType-sType
 VUID-VkPhysicalDeviceFeatures2-sType-sType
 VUID-VkPhysicalDeviceFloatControlsProperties-sType-sType
@@ -23742,6 +23556,7 @@ VUID-VkPhysicalDeviceImageFormatInfo2-flags-parameter
 VUID-VkPhysicalDeviceImageFormatInfo2-format-parameter
 VUID-VkPhysicalDeviceImageFormatInfo2-pNext-pNext
 VUID-VkPhysicalDeviceImageFormatInfo2-sType-sType
+VUID-VkPhysicalDeviceImageFormatInfo2-sType-unique
 VUID-VkPhysicalDeviceImageFormatInfo2-tiling-02249
 VUID-VkPhysicalDeviceImageFormatInfo2-tiling-02313
 VUID-VkPhysicalDeviceImageFormatInfo2-tiling-parameter
@@ -23785,6 +23600,7 @@ VUID-VkPhysicalDeviceMemoryDecompressionPropertiesNV-sType-sType
 VUID-VkPhysicalDeviceMemoryPriorityFeaturesEXT-sType-sType
 VUID-VkPhysicalDeviceMemoryProperties2-pNext-pNext
 VUID-VkPhysicalDeviceMemoryProperties2-sType-sType
+VUID-VkPhysicalDeviceMemoryProperties2-sType-unique
 VUID-VkPhysicalDeviceMeshShaderFeaturesEXT-multiviewMeshShader-07032
 VUID-VkPhysicalDeviceMeshShaderFeaturesEXT-primitiveFragmentShadingRateMeshShader-07033
 VUID-VkPhysicalDeviceMeshShaderFeaturesEXT-sType-sType
@@ -23925,6 +23741,7 @@ VUID-VkPhysicalDeviceSubpassShadingPropertiesHUAWEI-sType-sType
 VUID-VkPhysicalDeviceSurfaceInfo2KHR-pNext-02672
 VUID-VkPhysicalDeviceSurfaceInfo2KHR-pNext-pNext
 VUID-VkPhysicalDeviceSurfaceInfo2KHR-sType-sType
+VUID-VkPhysicalDeviceSurfaceInfo2KHR-sType-unique
 VUID-VkPhysicalDeviceSurfaceInfo2KHR-surface-07919
 VUID-VkPhysicalDeviceSwapchainMaintenance1FeaturesEXT-sType-sType
 VUID-VkPhysicalDeviceSynchronization2Features-sType-sType
@@ -23955,6 +23772,7 @@ VUID-VkPhysicalDeviceVideoFormatInfoKHR-imageUsage-parameter
 VUID-VkPhysicalDeviceVideoFormatInfoKHR-imageUsage-requiredbitmask
 VUID-VkPhysicalDeviceVideoFormatInfoKHR-pNext-pNext
 VUID-VkPhysicalDeviceVideoFormatInfoKHR-sType-sType
+VUID-VkPhysicalDeviceVideoFormatInfoKHR-sType-unique
 VUID-VkPhysicalDeviceVideoMaintenance1FeaturesKHR-sType-sType
 VUID-VkPhysicalDeviceVulkan11Features-sType-sType
 VUID-VkPhysicalDeviceVulkan11Properties-sType-sType
@@ -24011,6 +23829,7 @@ VUID-VkPipelineColorBlendStateCreateInfo-pAttachments-parameter
 VUID-VkPipelineColorBlendStateCreateInfo-pNext-pNext
 VUID-VkPipelineColorBlendStateCreateInfo-rasterizationOrderColorAttachmentAccess-06465
 VUID-VkPipelineColorBlendStateCreateInfo-sType-sType
+VUID-VkPipelineColorBlendStateCreateInfo-sType-unique
 VUID-VkPipelineColorWriteCreateInfoEXT-attachmentCount-06655
 VUID-VkPipelineColorWriteCreateInfoEXT-attachmentCount-07608
 VUID-VkPipelineColorWriteCreateInfoEXT-pAttachments-04801
@@ -24141,6 +23960,7 @@ VUID-VkPipelineLibraryCreateInfoKHR-pipeline-07404
 VUID-VkPipelineLibraryCreateInfoKHR-pipeline-07405
 VUID-VkPipelineLibraryCreateInfoKHR-pipeline-07406
 VUID-VkPipelineLibraryCreateInfoKHR-pipeline-07407
+VUID-VkPipelineLibraryCreateInfoKHR-sType-sType
 VUID-VkPipelineMultisampleStateCreateInfo-alphaToOneEnable-00785
 VUID-VkPipelineMultisampleStateCreateInfo-flags-zerobitmask
 VUID-VkPipelineMultisampleStateCreateInfo-minSampleShading-00786
@@ -24149,6 +23969,7 @@ VUID-VkPipelineMultisampleStateCreateInfo-pSampleMask-parameter
 VUID-VkPipelineMultisampleStateCreateInfo-rasterizationSamples-01415
 VUID-VkPipelineMultisampleStateCreateInfo-rasterizationSamples-parameter
 VUID-VkPipelineMultisampleStateCreateInfo-sType-sType
+VUID-VkPipelineMultisampleStateCreateInfo-sType-unique
 VUID-VkPipelineMultisampleStateCreateInfo-sampleShadingEnable-00784
 VUID-VkPipelinePropertiesIdentifierEXT-pNext-pNext
 VUID-VkPipelinePropertiesIdentifierEXT-sType-sType
@@ -24180,6 +24001,7 @@ VUID-VkPipelineRasterizationStateCreateInfo-polygonMode-01414
 VUID-VkPipelineRasterizationStateCreateInfo-polygonMode-01507
 VUID-VkPipelineRasterizationStateCreateInfo-polygonMode-parameter
 VUID-VkPipelineRasterizationStateCreateInfo-sType-sType
+VUID-VkPipelineRasterizationStateCreateInfo-sType-unique
 VUID-VkPipelineRasterizationStateRasterizationOrderAMD-rasterizationOrder-parameter
 VUID-VkPipelineRasterizationStateRasterizationOrderAMD-sType-sType
 VUID-VkPipelineRasterizationStateStreamCreateInfoEXT-flags-zerobitmask
@@ -24229,6 +24051,7 @@ VUID-VkPipelineShaderStageCreateInfo-pNext-pNext
 VUID-VkPipelineShaderStageCreateInfo-pSpecializationInfo-06849
 VUID-VkPipelineShaderStageCreateInfo-pSpecializationInfo-parameter
 VUID-VkPipelineShaderStageCreateInfo-sType-sType
+VUID-VkPipelineShaderStageCreateInfo-sType-unique
 VUID-VkPipelineShaderStageCreateInfo-stage-00704
 VUID-VkPipelineShaderStageCreateInfo-stage-00705
 VUID-VkPipelineShaderStageCreateInfo-stage-00706
@@ -24263,6 +24086,7 @@ VUID-VkPipelineTessellationStateCreateInfo-flags-zerobitmask
 VUID-VkPipelineTessellationStateCreateInfo-pNext-pNext
 VUID-VkPipelineTessellationStateCreateInfo-patchControlPoints-01214
 VUID-VkPipelineTessellationStateCreateInfo-sType-sType
+VUID-VkPipelineTessellationStateCreateInfo-sType-unique
 VUID-VkPipelineVertexInputDivisorStateCreateInfoKHR-pVertexBindingDivisors-parameter
 VUID-VkPipelineVertexInputDivisorStateCreateInfoKHR-sType-sType
 VUID-VkPipelineVertexInputDivisorStateCreateInfoKHR-vertexBindingDivisorCount-arraylength
@@ -24274,6 +24098,7 @@ VUID-VkPipelineVertexInputStateCreateInfo-pVertexAttributeDescriptions-parameter
 VUID-VkPipelineVertexInputStateCreateInfo-pVertexBindingDescriptions-00616
 VUID-VkPipelineVertexInputStateCreateInfo-pVertexBindingDescriptions-parameter
 VUID-VkPipelineVertexInputStateCreateInfo-sType-sType
+VUID-VkPipelineVertexInputStateCreateInfo-sType-unique
 VUID-VkPipelineVertexInputStateCreateInfo-vertexAttributeDescriptionCount-00614
 VUID-VkPipelineVertexInputStateCreateInfo-vertexBindingDescriptionCount-00613
 VUID-VkPipelineViewportCoarseSampleOrderStateCreateInfoNV-pCustomSampleOrders-02234
@@ -24296,6 +24121,7 @@ VUID-VkPipelineViewportStateCreateInfo-offset-02822
 VUID-VkPipelineViewportStateCreateInfo-offset-02823
 VUID-VkPipelineViewportStateCreateInfo-pNext-pNext
 VUID-VkPipelineViewportStateCreateInfo-sType-sType
+VUID-VkPipelineViewportStateCreateInfo-sType-unique
 VUID-VkPipelineViewportStateCreateInfo-scissorCount-01217
 VUID-VkPipelineViewportStateCreateInfo-scissorCount-01219
 VUID-VkPipelineViewportStateCreateInfo-scissorCount-04134
@@ -24331,6 +24157,7 @@ VUID-VkPresentInfoKHR-pSwapchains-parameter
 VUID-VkPresentInfoKHR-pWaitSemaphores-parameter
 VUID-VkPresentInfoKHR-sType-sType
 VUID-VkPresentInfoKHR-sType-unique
+VUID-VkPresentInfoKHR-swapchainCount-arraylength
 VUID-VkPresentRegionKHR-pRectangles-parameter
 VUID-VkPresentRegionsKHR-pRegions-parameter
 VUID-VkPresentRegionsKHR-sType-sType
@@ -24391,6 +24218,7 @@ VUID-VkPushDescriptorSetWithTemplateInfoKHR-layout-parameter
 VUID-VkPushDescriptorSetWithTemplateInfoKHR-pData-01686
 VUID-VkPushDescriptorSetWithTemplateInfoKHR-pData-parameter
 VUID-VkPushDescriptorSetWithTemplateInfoKHR-pNext-pNext
+VUID-VkPushDescriptorSetWithTemplateInfoKHR-sType-sType
 VUID-VkPushDescriptorSetWithTemplateInfoKHR-sType-unique
 VUID-VkPushDescriptorSetWithTemplateInfoKHR-set-07304
 VUID-VkPushDescriptorSetWithTemplateInfoKHR-set-07305
@@ -24411,6 +24239,7 @@ VUID-VkQueryPoolCreateInfo-queryType-07907
 VUID-VkQueryPoolCreateInfo-queryType-09534
 VUID-VkQueryPoolCreateInfo-queryType-parameter
 VUID-VkQueryPoolCreateInfo-sType-sType
+VUID-VkQueryPoolCreateInfo-sType-unique
 VUID-VkQueryPoolPerformanceCreateInfoKHR-counterIndexCount-arraylength
 VUID-VkQueryPoolPerformanceCreateInfoKHR-pCounterIndices-03321
 VUID-VkQueryPoolPerformanceCreateInfoKHR-pCounterIndices-parameter
@@ -24427,6 +24256,7 @@ VUID-VkQueueFamilyCheckpointPropertiesNV-sType-sType
 VUID-VkQueueFamilyGlobalPriorityPropertiesKHR-sType-sType
 VUID-VkQueueFamilyProperties2-pNext-pNext
 VUID-VkQueueFamilyProperties2-sType-sType
+VUID-VkQueueFamilyProperties2-sType-unique
 VUID-VkQueueFamilyQueryResultStatusPropertiesKHR-sType-sType
 VUID-VkQueueFamilyVideoPropertiesKHR-sType-sType
 VUID-VkRayTracingPipelineCreateInfoKHR-None-09497
@@ -24459,6 +24289,7 @@ VUID-VkRayTracingPipelineCreateInfoKHR-layout-parameter
 VUID-VkRayTracingPipelineCreateInfoKHR-maxPipelineRayRecursionDepth-03589
 VUID-VkRayTracingPipelineCreateInfoKHR-pDynamicState-parameter
 VUID-VkRayTracingPipelineCreateInfoKHR-pDynamicStates-03602
+VUID-VkRayTracingPipelineCreateInfoKHR-pGroups-parameter
 VUID-VkRayTracingPipelineCreateInfoKHR-pLibraries-03591
 VUID-VkRayTracingPipelineCreateInfoKHR-pLibraryInfo-03590
 VUID-VkRayTracingPipelineCreateInfoKHR-pLibraryInfo-03592
@@ -24476,6 +24307,7 @@ VUID-VkRayTracingPipelineCreateInfoKHR-rayTracingPipelineShaderGroupHandleCaptur
 VUID-VkRayTracingPipelineCreateInfoKHR-rayTraversalPrimitiveCulling-03596
 VUID-VkRayTracingPipelineCreateInfoKHR-rayTraversalPrimitiveCulling-03597
 VUID-VkRayTracingPipelineCreateInfoKHR-sType-sType
+VUID-VkRayTracingPipelineCreateInfoKHR-sType-unique
 VUID-VkRayTracingPipelineCreateInfoKHR-stage-03425
 VUID-VkRayTracingPipelineCreateInfoKHR-stage-06899
 VUID-VkRayTracingPipelineCreateInfoNV-None-09497
@@ -24496,6 +24328,7 @@ VUID-VkRayTracingPipelineCreateInfoNV-flags-07984
 VUID-VkRayTracingPipelineCreateInfoNV-flags-07985
 VUID-VkRayTracingPipelineCreateInfoNV-flags-07986
 VUID-VkRayTracingPipelineCreateInfoNV-flags-07998
+VUID-VkRayTracingPipelineCreateInfoNV-groupCount-arraylength
 VUID-VkRayTracingPipelineCreateInfoNV-layout-03428
 VUID-VkRayTracingPipelineCreateInfoNV-layout-07987
 VUID-VkRayTracingPipelineCreateInfoNV-layout-07988
@@ -24510,6 +24343,7 @@ VUID-VkRayTracingPipelineCreateInfoNV-pStages-parameter
 VUID-VkRayTracingPipelineCreateInfoNV-pipelineCreationCacheControl-02905
 VUID-VkRayTracingPipelineCreateInfoNV-pipelineStageCreationFeedbackCount-06651
 VUID-VkRayTracingPipelineCreateInfoNV-sType-sType
+VUID-VkRayTracingPipelineCreateInfoNV-sType-unique
 VUID-VkRayTracingPipelineCreateInfoNV-stage-06232
 VUID-VkRayTracingPipelineCreateInfoNV-stage-06898
 VUID-VkRayTracingPipelineCreateInfoNV-stageCount-arraylength
@@ -24586,6 +24420,7 @@ VUID-VkRenderPassBeginInfo-perViewRenderAreaCount-07860
 VUID-VkRenderPassBeginInfo-renderPass-00904
 VUID-VkRenderPassBeginInfo-renderPass-parameter
 VUID-VkRenderPassBeginInfo-sType-sType
+VUID-VkRenderPassBeginInfo-sType-unique
 VUID-VkRenderPassCreateInfo-attachment-00834
 VUID-VkRenderPassCreateInfo-flags-parameter
 VUID-VkRenderPassCreateInfo-fragmentDensityMapAttachment-06471
@@ -24612,6 +24447,7 @@ VUID-VkRenderPassCreateInfo-pNext-02515
 VUID-VkRenderPassCreateInfo-pNext-pNext
 VUID-VkRenderPassCreateInfo-pSubpasses-parameter
 VUID-VkRenderPassCreateInfo-sType-sType
+VUID-VkRenderPassCreateInfo-sType-unique
 VUID-VkRenderPassCreateInfo-subpassCount-arraylength
 VUID-VkRenderPassCreateInfo2-None-03049
 VUID-VkRenderPassCreateInfo2-attachment-02525
@@ -24645,6 +24481,7 @@ VUID-VkRenderPassCreateInfo2-pSubpasses-06473
 VUID-VkRenderPassCreateInfo2-pSubpasses-parameter
 VUID-VkRenderPassCreateInfo2-rasterizationSamples-04905
 VUID-VkRenderPassCreateInfo2-sType-sType
+VUID-VkRenderPassCreateInfo2-sType-unique
 VUID-VkRenderPassCreateInfo2-sampleShadingEnable-04906
 VUID-VkRenderPassCreateInfo2-srcSubpass-02526
 VUID-VkRenderPassCreateInfo2-subpassCount-arraylength
@@ -24845,6 +24682,7 @@ VUID-VkRenderingInfo-perViewRenderAreaCount-07858
 VUID-VkRenderingInfo-resolveMode-09321
 VUID-VkRenderingInfo-resolveMode-09322
 VUID-VkRenderingInfo-sType-sType
+VUID-VkRenderingInfo-sType-unique
 VUID-VkRenderingInfo-viewMask-06069
 VUID-VkRenderingInfo-viewMask-06128
 VUID-VkRenderingInputAttachmentIndexInfoKHR-colorAttachmentCount-09525
@@ -24958,6 +24796,7 @@ VUID-VkSamplerCreateInfo-pNext-06726
 VUID-VkSamplerCreateInfo-pNext-08111
 VUID-VkSamplerCreateInfo-pNext-pNext
 VUID-VkSamplerCreateInfo-sType-sType
+VUID-VkSamplerCreateInfo-sType-unique
 VUID-VkSamplerCreateInfo-samplerMipLodBias-04467
 VUID-VkSamplerCreateInfo-unnormalizedCoordinates-01072
 VUID-VkSamplerCreateInfo-unnormalizedCoordinates-01073
@@ -24992,6 +24831,7 @@ VUID-VkSamplerYcbcrConversionCreateInfo-pNext-09208
 VUID-VkSamplerYcbcrConversionCreateInfo-pNext-09209
 VUID-VkSamplerYcbcrConversionCreateInfo-pNext-pNext
 VUID-VkSamplerYcbcrConversionCreateInfo-sType-sType
+VUID-VkSamplerYcbcrConversionCreateInfo-sType-unique
 VUID-VkSamplerYcbcrConversionCreateInfo-xChromaOffset-01651
 VUID-VkSamplerYcbcrConversionCreateInfo-xChromaOffset-01652
 VUID-VkSamplerYcbcrConversionCreateInfo-xChromaOffset-parameter
@@ -25017,6 +24857,7 @@ VUID-VkSemaphoreCreateInfo-flags-zerobitmask
 VUID-VkSemaphoreCreateInfo-pNext-06789
 VUID-VkSemaphoreCreateInfo-pNext-pNext
 VUID-VkSemaphoreCreateInfo-sType-sType
+VUID-VkSemaphoreCreateInfo-sType-unique
 VUID-VkSemaphoreGetFdInfoKHR-handleType-01132
 VUID-VkSemaphoreGetFdInfoKHR-handleType-01134
 VUID-VkSemaphoreGetFdInfoKHR-handleType-01135
@@ -25164,6 +25005,7 @@ VUID-VkShaderCreateInfoEXT-pPushConstantRanges-parameter
 VUID-VkShaderCreateInfoEXT-pSetLayouts-parameter
 VUID-VkShaderCreateInfoEXT-pSpecializationInfo-parameter
 VUID-VkShaderCreateInfoEXT-sType-sType
+VUID-VkShaderCreateInfoEXT-sType-unique
 VUID-VkShaderCreateInfoEXT-stage-08418
 VUID-VkShaderCreateInfoEXT-stage-08419
 VUID-VkShaderCreateInfoEXT-stage-08420
@@ -25288,6 +25130,7 @@ VUID-VkSubmitInfo-pWaitSemaphores-03239
 VUID-VkSubmitInfo-pWaitSemaphores-03243
 VUID-VkSubmitInfo-pWaitSemaphores-parameter
 VUID-VkSubmitInfo-sType-sType
+VUID-VkSubmitInfo-sType-unique
 VUID-VkSubmitInfo-variableSampleLocations-06017
 VUID-VkSubmitInfo2-flags-03886
 VUID-VkSubmitInfo2-flags-03887
@@ -25297,6 +25140,7 @@ VUID-VkSubmitInfo2-pNext-pNext
 VUID-VkSubmitInfo2-pSignalSemaphoreInfos-parameter
 VUID-VkSubmitInfo2-pWaitSemaphoreInfos-parameter
 VUID-VkSubmitInfo2-sType-sType
+VUID-VkSubmitInfo2-sType-unique
 VUID-VkSubmitInfo2-semaphore-03881
 VUID-VkSubmitInfo2-semaphore-03882
 VUID-VkSubmitInfo2-semaphore-03883
@@ -25309,6 +25153,7 @@ VUID-VkSubmitInfo2KHR-variableSampleLocations-06013
 VUID-VkSubpassBeginInfo-contents-09382
 VUID-VkSubpassBeginInfo-contents-parameter
 VUID-VkSubpassBeginInfo-pNext-pNext
+VUID-VkSubpassBeginInfo-sType-sType
 VUID-VkSubpassDependency-dependencyFlags-02520
 VUID-VkSubpassDependency-dependencyFlags-02521
 VUID-VkSubpassDependency-dependencyFlags-parameter
@@ -25362,6 +25207,7 @@ VUID-VkSubpassDependency2-dstStageMask-07949
 VUID-VkSubpassDependency2-dstStageMask-parameter
 VUID-VkSubpassDependency2-pNext-pNext
 VUID-VkSubpassDependency2-sType-sType
+VUID-VkSubpassDependency2-sType-unique
 VUID-VkSubpassDependency2-srcAccessMask-03088
 VUID-VkSubpassDependency2-srcAccessMask-parameter
 VUID-VkSubpassDependency2-srcStageMask-03937
@@ -25475,11 +25321,14 @@ VUID-VkSubpassDescription2-pNext-06870
 VUID-VkSubpassDescription2-pNext-06871
 VUID-VkSubpassDescription2-pNext-pNext
 VUID-VkSubpassDescription2-pPreserveAttachments-03074
+VUID-VkSubpassDescription2-pPreserveAttachments-parameter
 VUID-VkSubpassDescription2-pResolveAttachments-03067
 VUID-VkSubpassDescription2-pResolveAttachments-09343
+VUID-VkSubpassDescription2-pResolveAttachments-parameter
 VUID-VkSubpassDescription2-pipelineBindPoint-04953
 VUID-VkSubpassDescription2-pipelineBindPoint-parameter
 VUID-VkSubpassDescription2-sType-sType
+VUID-VkSubpassDescription2-sType-unique
 VUID-VkSubpassDescription2-viewMask-06706
 VUID-VkSubpassDescriptionDepthStencilResolve-depthResolveMode-03183
 VUID-VkSubpassDescriptionDepthStencilResolve-pDepthStencilResolveAttachment-02651
@@ -25501,6 +25350,7 @@ VUID-VkSubpassDescriptionDepthStencilResolve-sType-sType
 VUID-VkSubpassDescriptionDepthStencilResolve-stencilResolveMode-03184
 VUID-VkSubpassEndInfo-pNext-pNext
 VUID-VkSubpassEndInfo-sType-sType
+VUID-VkSubpassEndInfo-sType-unique
 VUID-VkSubpassFragmentDensityMapOffsetEndInfoQCOM-fragmentDensityMapAttachment-06504
 VUID-VkSubpassFragmentDensityMapOffsetEndInfoQCOM-fragmentDensityMapOffsets-06503
 VUID-VkSubpassFragmentDensityMapOffsetEndInfoQCOM-fragmentDensityOffsetCount-06510
@@ -25523,15 +25373,19 @@ VUID-VkSubpassShadingPipelineCreateInfoHUAWEI-subpass-04946
 VUID-VkSubresourceHostMemcpySizeEXT-sType-sType
 VUID-VkSubresourceLayout2KHR-pNext-pNext
 VUID-VkSubresourceLayout2KHR-sType-sType
+VUID-VkSubresourceLayout2KHR-sType-unique
 VUID-VkSurfaceCapabilities2EXT-pNext-pNext
 VUID-VkSurfaceCapabilities2EXT-sType-sType
 VUID-VkSurfaceCapabilities2EXT-supportedSurfaceCounters-01246
 VUID-VkSurfaceCapabilities2KHR-pNext-pNext
+VUID-VkSurfaceCapabilities2KHR-sType-sType
+VUID-VkSurfaceCapabilities2KHR-sType-unique
 VUID-VkSurfaceCapabilitiesFullScreenExclusiveEXT-sType-sType
 VUID-VkSurfaceCapabilitiesPresentBarrierNV-sType-sType
 VUID-VkSurfaceFormat2KHR-pNext-06750
 VUID-VkSurfaceFormat2KHR-pNext-pNext
 VUID-VkSurfaceFormat2KHR-sType-sType
+VUID-VkSurfaceFormat2KHR-sType-unique
 VUID-VkSurfaceFullScreenExclusiveInfoEXT-fullScreenExclusive-parameter
 VUID-VkSurfaceFullScreenExclusiveInfoEXT-sType-sType
 VUID-VkSurfaceFullScreenExclusiveWin32InfoEXT-hmonitor-02673
@@ -25587,6 +25441,7 @@ VUID-VkSwapchainCreateInfoKHR-presentMode-01427
 VUID-VkSwapchainCreateInfoKHR-presentMode-02839
 VUID-VkSwapchainCreateInfoKHR-presentMode-parameter
 VUID-VkSwapchainCreateInfoKHR-sType-sType
+VUID-VkSwapchainCreateInfoKHR-sType-unique
 VUID-VkSwapchainCreateInfoKHR-surface-01270
 VUID-VkSwapchainCreateInfoKHR-surface-parameter
 VUID-VkSwapchainDisplayNativeHdrCreateInfoAMD-localDimmingEnable-04449
@@ -25728,6 +25583,7 @@ VUID-VkVideoBeginCodingInfoKHR-pPictureResource-07242
 VUID-VkVideoBeginCodingInfoKHR-pPictureResource-07243
 VUID-VkVideoBeginCodingInfoKHR-pReferenceSlots-parameter
 VUID-VkVideoBeginCodingInfoKHR-sType-sType
+VUID-VkVideoBeginCodingInfoKHR-sType-unique
 VUID-VkVideoBeginCodingInfoKHR-slotIndex-04856
 VUID-VkVideoBeginCodingInfoKHR-slotIndex-07245
 VUID-VkVideoBeginCodingInfoKHR-slotIndex-07246
@@ -25742,12 +25598,15 @@ VUID-VkVideoBeginCodingInfoKHR-videoSessionParameters-04857
 VUID-VkVideoBeginCodingInfoKHR-videoSessionParameters-parameter
 VUID-VkVideoBeginCodingInfoKHR-videoSessionParameters-parent
 VUID-VkVideoCapabilitiesKHR-pNext-pNext
+VUID-VkVideoCapabilitiesKHR-sType-sType
+VUID-VkVideoCapabilitiesKHR-sType-unique
 VUID-VkVideoCodingControlInfoKHR-flags-07018
 VUID-VkVideoCodingControlInfoKHR-flags-08349
 VUID-VkVideoCodingControlInfoKHR-flags-parameter
 VUID-VkVideoCodingControlInfoKHR-flags-requiredbitmask
 VUID-VkVideoCodingControlInfoKHR-pNext-pNext
 VUID-VkVideoCodingControlInfoKHR-sType-sType
+VUID-VkVideoCodingControlInfoKHR-sType-unique
 VUID-VkVideoDecodeAV1CapabilitiesKHR-sType-sType
 VUID-VkVideoDecodeAV1DpbSlotInfoKHR-pStdReferenceInfo-parameter
 VUID-VkVideoDecodeAV1DpbSlotInfoKHR-sType-sType
@@ -25797,10 +25656,12 @@ VUID-VkVideoDecodeInfoKHR-dstPictureResource-parameter
 VUID-VkVideoDecodeInfoKHR-flags-zerobitmask
 VUID-VkVideoDecodeInfoKHR-pNext-pNext
 VUID-VkVideoDecodeInfoKHR-pPictureResource-07172
+VUID-VkVideoDecodeInfoKHR-pReferenceSlots-parameter
 VUID-VkVideoDecodeInfoKHR-pSetupReferenceSlot-07168
 VUID-VkVideoDecodeInfoKHR-pSetupReferenceSlot-07169
 VUID-VkVideoDecodeInfoKHR-pSetupReferenceSlot-parameter
 VUID-VkVideoDecodeInfoKHR-sType-sType
+VUID-VkVideoDecodeInfoKHR-sType-unique
 VUID-VkVideoDecodeInfoKHR-slotIndex-07171
 VUID-VkVideoDecodeInfoKHR-srcBuffer-07165
 VUID-VkVideoDecodeInfoKHR-srcBuffer-parameter
@@ -25909,15 +25770,19 @@ VUID-VkVideoEncodeInfoKHR-dstBufferRange-08238
 VUID-VkVideoEncodeInfoKHR-flags-zerobitmask
 VUID-VkVideoEncodeInfoKHR-pNext-pNext
 VUID-VkVideoEncodeInfoKHR-pPictureResource-08242
+VUID-VkVideoEncodeInfoKHR-pReferenceSlots-parameter
 VUID-VkVideoEncodeInfoKHR-pSetupReferenceSlot-08239
 VUID-VkVideoEncodeInfoKHR-pSetupReferenceSlot-08240
 VUID-VkVideoEncodeInfoKHR-pSetupReferenceSlot-parameter
 VUID-VkVideoEncodeInfoKHR-sType-sType
+VUID-VkVideoEncodeInfoKHR-sType-unique
 VUID-VkVideoEncodeInfoKHR-slotIndex-08241
 VUID-VkVideoEncodeInfoKHR-srcPictureResource-parameter
 VUID-VkVideoEncodeQualityLevelInfoKHR-qualityLevel-08311
 VUID-VkVideoEncodeQualityLevelInfoKHR-sType-sType
 VUID-VkVideoEncodeQualityLevelPropertiesKHR-pNext-pNext
+VUID-VkVideoEncodeQualityLevelPropertiesKHR-sType-sType
+VUID-VkVideoEncodeQualityLevelPropertiesKHR-sType-unique
 VUID-VkVideoEncodeRateControlInfoKHR-flags-zerobitmask
 VUID-VkVideoEncodeRateControlInfoKHR-layerCount-08245
 VUID-VkVideoEncodeRateControlInfoKHR-layerCount-08357
@@ -25941,8 +25806,10 @@ VUID-VkVideoEncodeRateControlLayerInfoKHR-sType-sType
 VUID-VkVideoEncodeRateControlLayerInfoKHR-sType-unique
 VUID-VkVideoEncodeSessionParametersFeedbackInfoKHR-pNext-pNext
 VUID-VkVideoEncodeSessionParametersFeedbackInfoKHR-sType-sType
+VUID-VkVideoEncodeSessionParametersFeedbackInfoKHR-sType-unique
 VUID-VkVideoEncodeSessionParametersGetInfoKHR-pNext-pNext
 VUID-VkVideoEncodeSessionParametersGetInfoKHR-sType-sType
+VUID-VkVideoEncodeSessionParametersGetInfoKHR-sType-unique
 VUID-VkVideoEncodeSessionParametersGetInfoKHR-videoSessionParameters-parameter
 VUID-VkVideoEncodeUsageInfoKHR-sType-sType
 VUID-VkVideoEncodeUsageInfoKHR-tuningMode-parameter
@@ -25982,6 +25849,7 @@ VUID-VkVideoProfileListInfoKHR-sType-sType
 VUID-VkVideoReferenceSlotInfoKHR-pNext-pNext
 VUID-VkVideoReferenceSlotInfoKHR-pPictureResource-parameter
 VUID-VkVideoReferenceSlotInfoKHR-sType-sType
+VUID-VkVideoReferenceSlotInfoKHR-sType-unique
 VUID-VkVideoSessionCreateInfoKHR-flags-08371
 VUID-VkVideoSessionCreateInfoKHR-flags-parameter
 VUID-VkVideoSessionCreateInfoKHR-maxActiveReferencePictures-04849
@@ -25998,17 +25866,20 @@ VUID-VkVideoSessionCreateInfoKHR-pVideoProfile-08252
 VUID-VkVideoSessionCreateInfoKHR-pVideoProfile-parameter
 VUID-VkVideoSessionCreateInfoKHR-pictureFormat-04853
 VUID-VkVideoSessionCreateInfoKHR-pictureFormat-04854
+VUID-VkVideoSessionCreateInfoKHR-pictureFormat-parameter
 VUID-VkVideoSessionCreateInfoKHR-protectedMemory-07189
 VUID-VkVideoSessionCreateInfoKHR-referencePictureFormat-04852
 VUID-VkVideoSessionCreateInfoKHR-referencePictureFormat-06814
 VUID-VkVideoSessionCreateInfoKHR-referencePictureFormat-parameter
 VUID-VkVideoSessionCreateInfoKHR-sType-sType
+VUID-VkVideoSessionCreateInfoKHR-sType-unique
 VUID-VkVideoSessionMemoryRequirementsKHR-pNext-pNext
 VUID-VkVideoSessionMemoryRequirementsKHR-sType-sType
 VUID-VkVideoSessionParametersCreateInfoKHR-commonparent
 VUID-VkVideoSessionParametersCreateInfoKHR-flags-zerobitmask
 VUID-VkVideoSessionParametersCreateInfoKHR-pNext-pNext
 VUID-VkVideoSessionParametersCreateInfoKHR-sType-sType
+VUID-VkVideoSessionParametersCreateInfoKHR-sType-unique
 VUID-VkVideoSessionParametersCreateInfoKHR-videoSession-04839
 VUID-VkVideoSessionParametersCreateInfoKHR-videoSession-04840
 VUID-VkVideoSessionParametersCreateInfoKHR-videoSession-04841
@@ -26035,6 +25906,7 @@ VUID-VkVideoSessionParametersCreateInfoKHR-videoSessionParametersTemplate-parame
 VUID-VkVideoSessionParametersCreateInfoKHR-videoSessionParametersTemplate-parent
 VUID-VkVideoSessionParametersUpdateInfoKHR-pNext-pNext
 VUID-VkVideoSessionParametersUpdateInfoKHR-sType-sType
+VUID-VkVideoSessionParametersUpdateInfoKHR-sType-unique
 VUID-VkViewport-apiVersion-07917
 VUID-VkViewport-height-01773
 VUID-VkViewport-maxDepth-01235
@@ -26126,6 +25998,7 @@ VUID-VkWriteDescriptorSet-dstSet-00320
 VUID-VkWriteDescriptorSet-dstSet-04611
 VUID-VkWriteDescriptorSet-pNext-pNext
 VUID-VkWriteDescriptorSet-sType-sType
+VUID-VkWriteDescriptorSet-sType-unique
 VUID-VkWriteDescriptorSetAccelerationStructureKHR-accelerationStructureCount-02236
 VUID-VkWriteDescriptorSetAccelerationStructureKHR-accelerationStructureCount-arraylength
 VUID-VkWriteDescriptorSetAccelerationStructureKHR-pAccelerationStructures-03579
@@ -26413,6 +26286,7 @@ VUID-vkCmdBeginQuery-commandBuffer-cmdpool
 VUID-vkCmdBeginQuery-commandBuffer-parameter
 VUID-vkCmdBeginQuery-commandBuffer-recording
 VUID-vkCmdBeginQuery-commonparent
+VUID-vkCmdBeginQuery-flags-parameter
 VUID-vkCmdBeginQuery-query-00802
 VUID-vkCmdBeginQuery-query-00808
 VUID-vkCmdBeginQuery-queryPool-01922
@@ -35187,6 +35061,7 @@ VUID-vkCmdPipelineBarrier-pBufferMemoryBarriers-02818
 VUID-vkCmdPipelineBarrier-pBufferMemoryBarriers-parameter
 VUID-vkCmdPipelineBarrier-pImageMemoryBarriers-02819
 VUID-vkCmdPipelineBarrier-pImageMemoryBarriers-02820
+VUID-vkCmdPipelineBarrier-pImageMemoryBarriers-parameter
 VUID-vkCmdPipelineBarrier-pMemoryBarriers-parameter
 VUID-vkCmdPipelineBarrier-srcAccessMask-02815
 VUID-vkCmdPipelineBarrier-srcAccessMask-06257
@@ -35225,6 +35100,7 @@ VUID-vkCmdPipelineBarrier2-image-09373
 VUID-vkCmdPipelineBarrier2-image-09374
 VUID-vkCmdPipelineBarrier2-image-09555
 VUID-vkCmdPipelineBarrier2-oldLayout-01181
+VUID-vkCmdPipelineBarrier2-pDependencyInfo-parameter
 VUID-vkCmdPipelineBarrier2-srcQueueFamilyIndex-01182
 VUID-vkCmdPipelineBarrier2-srcStageMask-03849
 VUID-vkCmdPipelineBarrier2-srcStageMask-09556
@@ -36536,6 +36412,7 @@ VUID-vkCmdUpdatePipelineIndirectBufferNV-pipeline-09019
 VUID-vkCmdUpdatePipelineIndirectBufferNV-pipeline-09020
 VUID-vkCmdUpdatePipelineIndirectBufferNV-pipeline-parameter
 VUID-vkCmdUpdatePipelineIndirectBufferNV-pipelineBindPoint-09018
+VUID-vkCmdUpdatePipelineIndirectBufferNV-pipelineBindPoint-parameter
 VUID-vkCmdUpdatePipelineIndirectBufferNV-renderpass
 VUID-vkCmdUpdatePipelineIndirectBufferNV-videocoding
 VUID-vkCmdWaitEvents-commandBuffer-01167
@@ -36657,6 +36534,7 @@ VUID-vkCmdWriteBufferMarker2AMD-stage-04957
 VUID-vkCmdWriteBufferMarker2AMD-stage-04995
 VUID-vkCmdWriteBufferMarker2AMD-stage-07316
 VUID-vkCmdWriteBufferMarker2AMD-stage-07946
+VUID-vkCmdWriteBufferMarker2AMD-stage-parameter
 VUID-vkCmdWriteBufferMarker2AMD-synchronization2-03893
 VUID-vkCmdWriteBufferMarker2AMD-videocoding
 VUID-vkCmdWriteBufferMarkerAMD-commandBuffer-cmdpool
@@ -36742,6 +36620,7 @@ VUID-vkCmdWriteTimestamp2-stage-04957
 VUID-vkCmdWriteTimestamp2-stage-04995
 VUID-vkCmdWriteTimestamp2-stage-07316
 VUID-vkCmdWriteTimestamp2-stage-07946
+VUID-vkCmdWriteTimestamp2-stage-parameter
 VUID-vkCmdWriteTimestamp2-synchronization2-03858
 VUID-vkCmdWriteTimestamp2-timestampValidBits-03863
 VUID-vkCompileDeferredNV-device-parameter
@@ -37109,6 +36988,7 @@ VUID-vkCreateShadersEXT-pShaders-parameter
 VUID-vkCreateSharedSwapchainsKHR-device-parameter
 VUID-vkCreateSharedSwapchainsKHR-pAllocator-parameter
 VUID-vkCreateSharedSwapchainsKHR-pCreateInfos-parameter
+VUID-vkCreateSharedSwapchainsKHR-pSwapchains-parameter
 VUID-vkCreateSharedSwapchainsKHR-swapchainCount-arraylength
 VUID-vkCreateStreamDescriptorSurfaceGGP-instance-parameter
 VUID-vkCreateStreamDescriptorSurfaceGGP-pAllocator-parameter
@@ -37606,6 +37486,7 @@ VUID-vkGetDeviceAccelerationStructureCompatibilityKHR-pCompatibility-parameter
 VUID-vkGetDeviceAccelerationStructureCompatibilityKHR-pVersionInfo-parameter
 VUID-vkGetDeviceBufferMemoryRequirements-device-parameter
 VUID-vkGetDeviceBufferMemoryRequirements-pInfo-parameter
+VUID-vkGetDeviceBufferMemoryRequirements-pMemoryRequirements-parameter
 VUID-vkGetDeviceFaultInfoEXT-device-07336
 VUID-vkGetDeviceFaultInfoEXT-device-parameter
 VUID-vkGetDeviceFaultInfoEXT-pFaultCounts-07337
@@ -37634,6 +37515,8 @@ VUID-vkGetDeviceImageMemoryRequirements-device-parameter
 VUID-vkGetDeviceImageMemoryRequirements-pInfo-parameter
 VUID-vkGetDeviceImageMemoryRequirements-pMemoryRequirements-parameter
 VUID-vkGetDeviceImageSparseMemoryRequirements-device-parameter
+VUID-vkGetDeviceImageSparseMemoryRequirements-pInfo-parameter
+VUID-vkGetDeviceImageSparseMemoryRequirements-pSparseMemoryRequirementCount-parameter
 VUID-vkGetDeviceImageSparseMemoryRequirements-pSparseMemoryRequirements-parameter
 VUID-vkGetDeviceImageSubresourceLayoutKHR-device-parameter
 VUID-vkGetDeviceImageSubresourceLayoutKHR-pInfo-parameter
@@ -37689,6 +37572,7 @@ VUID-vkGetDisplayPlaneSupportedDisplaysKHR-planeIndex-01249
 VUID-vkGetDrmDisplayEXT-display-parameter
 VUID-vkGetDrmDisplayEXT-physicalDevice-parameter
 VUID-vkGetDynamicRenderingTilePropertiesQCOM-device-parameter
+VUID-vkGetDynamicRenderingTilePropertiesQCOM-pProperties-parameter
 VUID-vkGetDynamicRenderingTilePropertiesQCOM-pRenderingInfo-parameter
 VUID-vkGetEncodedVideoSessionParametersKHR-device-parameter
 VUID-vkGetEncodedVideoSessionParametersKHR-pData-parameter
@@ -37881,6 +37765,7 @@ VUID-vkGetPhysicalDeviceCalibrateableTimeDomainsKHR-pTimeDomainCount-parameter
 VUID-vkGetPhysicalDeviceCalibrateableTimeDomainsKHR-pTimeDomains-parameter
 VUID-vkGetPhysicalDeviceCalibrateableTimeDomainsKHR-physicalDevice-parameter
 VUID-vkGetPhysicalDeviceCooperativeMatrixPropertiesKHR-pProperties-parameter
+VUID-vkGetPhysicalDeviceCooperativeMatrixPropertiesKHR-pPropertyCount-parameter
 VUID-vkGetPhysicalDeviceCooperativeMatrixPropertiesKHR-physicalDevice-parameter
 VUID-vkGetPhysicalDeviceCooperativeMatrixPropertiesNV-pProperties-parameter
 VUID-vkGetPhysicalDeviceCooperativeMatrixPropertiesNV-pPropertyCount-parameter
@@ -38019,6 +37904,7 @@ VUID-vkGetPhysicalDeviceSurfaceCapabilitiesKHR-physicalDevice-parameter
 VUID-vkGetPhysicalDeviceSurfaceCapabilitiesKHR-surface-06211
 VUID-vkGetPhysicalDeviceSurfaceCapabilitiesKHR-surface-06523
 VUID-vkGetPhysicalDeviceSurfaceCapabilitiesKHR-surface-parameter
+VUID-vkGetPhysicalDeviceSurfaceFormats2KHR-pSurfaceFormatCount-parameter
 VUID-vkGetPhysicalDeviceSurfaceFormats2KHR-pSurfaceFormats-parameter
 VUID-vkGetPhysicalDeviceSurfaceFormats2KHR-pSurfaceInfo-06521
 VUID-vkGetPhysicalDeviceSurfaceFormats2KHR-pSurfaceInfo-06522
@@ -38032,6 +37918,7 @@ VUID-vkGetPhysicalDeviceSurfaceFormatsKHR-surface-06524
 VUID-vkGetPhysicalDeviceSurfaceFormatsKHR-surface-06525
 VUID-vkGetPhysicalDeviceSurfaceFormatsKHR-surface-parameter
 VUID-vkGetPhysicalDeviceSurfacePresentModes2EXT-pPresentModeCount-parameter
+VUID-vkGetPhysicalDeviceSurfacePresentModes2EXT-pPresentModes-parameter
 VUID-vkGetPhysicalDeviceSurfacePresentModes2EXT-pSurfaceInfo-06521
 VUID-vkGetPhysicalDeviceSurfacePresentModes2EXT-pSurfaceInfo-06522
 VUID-vkGetPhysicalDeviceSurfacePresentModes2EXT-pSurfaceInfo-parameter
@@ -38114,6 +38001,7 @@ VUID-vkGetPipelineIndirectMemoryRequirementsNV-device-parameter
 VUID-vkGetPipelineIndirectMemoryRequirementsNV-deviceGeneratedComputePipelines-09082
 VUID-vkGetPipelineIndirectMemoryRequirementsNV-pCreateInfo-09083
 VUID-vkGetPipelineIndirectMemoryRequirementsNV-pCreateInfo-parameter
+VUID-vkGetPipelineIndirectMemoryRequirementsNV-pMemoryRequirements-parameter
 VUID-vkGetPipelinePropertiesEXT-None-06766
 VUID-vkGetPipelinePropertiesEXT-device-parameter
 VUID-vkGetPipelinePropertiesEXT-pPipelineInfo-parameter
@@ -38209,6 +38097,7 @@ VUID-vkGetScreenBufferPropertiesQNX-buffer-parameter
 VUID-vkGetScreenBufferPropertiesQNX-device-parameter
 VUID-vkGetScreenBufferPropertiesQNX-pProperties-parameter
 VUID-vkGetSemaphoreCounterValue-device-parameter
+VUID-vkGetSemaphoreCounterValue-pValue-parameter
 VUID-vkGetSemaphoreCounterValue-semaphore-03255
 VUID-vkGetSemaphoreCounterValue-semaphore-parameter
 VUID-vkGetSemaphoreCounterValue-semaphore-parent
@@ -40412,12 +40301,10 @@ WRITE_AFTER_READ
 WRITE_AFTER_WRITE
 WRITE_RACING_READ
 WRITE_RACING_WRITE
-WaNd?
 Wait operation is ignored for this event.
 WaitForSingleObjectEx
 WaitKernel
 WaitWorkGroup
-Wak>E
 WakeAllConditionVariable
 WakeConditionVariable
 WarpIDARM
@@ -40475,8 +40362,6 @@ WriteThroughINTEL
 X must be a 32-bit unsigned integer OpConstant
 X-LEGEND
 X-LEGEND Mesa-IR/SPIR-V Translator
-X/4B
-X>0S
 XDG_CACHE_HOME
 Xderef
 Xenia
@@ -40485,23 +40370,16 @@ Xenia Xenia Emulator Microcode Translator
 XfbBuffer
 XfbStride
 Y must be a 32-bit unsigned integer OpConstant
-Y8a:
-Y>kX>
-Y>kX>M
 You cannot start a render pass using a framebuffer with a different number of attachments (%u vs %u).
 You cannot start a render pass using attachment %u where the render pass initial layout is %s and the %s layout of the attachment is %s. The layouts must match, or the render pass initial layout for the attachment must be VK_IMAGE_LAYOUT_UNDEFINED.
 You must call vkEndCommandBuffer() on %s before this call.
 Z must be a 32-bit unsigned integer OpConstant
-Z>w_F
-ZSq>
-Z\>z8
 ZeroExtend
 Zext
 Zig Compiler
 Zig Software Foundation
 Zig Software Foundation Zig Compiler
 [%u].primitiveCount (%u) is superior to VkPhysicalDeviceAccelerationStructurePropertiesKHR::maxInstanceCount (%llu).
-[*ncd>0
 [AppName: 
 [If flags includes VK_SAMPLER_CREATE_IMAGE_PROCESSING_BIT_QCOM, then minLod and maxLod must be zero
 [VUID-BaryCoordKHR-BaryCoordKHR-04154] 
@@ -40812,15 +40690,7 @@ Zig Software Foundation Zig Compiler
 [VUID-WorldToObjectKHR-WorldToObjectKHR-04434] 
 [VUID-WorldToObjectKHR-WorldToObjectKHR-04435] 
 [VUID-WorldToObjectKHR-WorldToObjectKHR-04436] 
-[aOni*{
-\nh?oT
-\nk>oB
-\tJR>8o
-\tcQr
-\tkE>fvw
-\vA03>A|
 \vk_layer_settings.txt
-\vppE
 ] NULL too.
 ] but the current device state for its 
 ] contains bindings (
@@ -40832,12 +40702,9 @@ Zig Software Foundation Zig Compiler
 ].imageView
 ].resolveImageView
 ].usage (
-]xEc
 ^([0-9]+([-][0-9]+){0,2})(,([0-9]+([-][0-9]+){0,2}))*$
 ^-?([0-9]*|0x[0-9|a-z|A-Z]*)$
 ^-?[0-9]*([.][0-9]*f?)?$
-^<V7w
-^RfN>
 ^\s*#\s*line\s+([0-9]+)(\s+)?(".+")?.*
 _FEATURE_ENABLE_VK_VALIDATION_FE_ENABLE_
 _MAGIC_ANNOTATED_SPEC_TYPE_
@@ -40865,11 +40732,9 @@ _after.spv
 _arr_
 _before.spv
 _cabs
-_f>PH
 _hypot
 _logb
 _nextafter
-_oD>Kg
 _opt.spv
 _ptr_
 _runtimearr_
@@ -40916,7 +40781,6 @@ a VK_QUERY_TYPE_PRIMITIVES_GENERATED_EXT query is active and pipeline was create
 a must be a valid VkComponentSwizzle value
 a storage class of PhysicalStorageBuffer.
 a union of layouts [ 
-a6>r
 aabbData
 aabbs
 aabbs must be a valid VkGeometryAABBNV structure
@@ -41246,9 +41110,6 @@ but there is no VkSubpassDescriptionDepthStencilResolve in the pNext chain of th
 but this state 
 byte_offset
 c792273ba6623357939ac3e0ab02307fbcbbc2ad
-c>F2
-c>v\tk
-c?FA@s}
 cadsupport
 callableShaderBindingOffset
 callableShaderBindingOffset must be a multiple of VkPhysicalDeviceRayTracingPropertiesNV::shaderGroupBaseAlignment
@@ -41610,9 +41471,6 @@ customSampleOrderCount
 custom_stype_list
 d3demulation
 d3demulation, glemulation
-d8L2
-d?000000`?
-dRL>
 data
 dataOffset
 dataSize
@@ -41683,6 +41541,7 @@ depthBiasClamp
 depthBiasConstantFactor
 depthBiasControl
 depthBiasEnable
+depthBiasEnable == VK_TRUE without a depth-stencil attachment.
 depthBiasExact
 depthBiasRepresentation
 depthBiasRepresentation must be a valid VkDepthBiasRepresentationEXT value
@@ -42029,9 +41888,6 @@ dynamicRenderingUnusedAttachments
 dynamicStateCount
 dynamically
 e+000
-e>US
-eF>t
-eLK(w
 each element of pStreamStrides must be greater than 0 and less than or equal to VkPhysicalDeviceDeviceGeneratedCommandsPropertiesNV::maxIndirectCommandsStreamStride. Furthermore the alignment of each token input must be ensured
 earliestPresentTime
 earlyFragmentMultisampleCoverageAfterSampleCounting
@@ -42459,9 +42315,6 @@ extraCount must be 0
 extraPrimitiveOverestimationSize
 extraPrimitiveOverestimationSize must be in the range of 0.0 to VkPhysicalDeviceConservativeRasterizationPropertiesEXT::maxExtraPrimitiveOverestimationSize inclusive
 extraPrimitiveOverestimationSizeGranularity
-fD>b
-fGa>
-fWi?
 fabs
 faceMask
 faceMask must be a valid combination of VkStencilFaceFlagBits values
@@ -42737,7 +42590,6 @@ function parameter attribute
 function required extension %s which has not been enabled.\n
 future
 g must be a valid VkComponentSwizzle value
-gd>Z
 generalShader
 generatePrefixNalu
 generic
@@ -42854,8 +42706,6 @@ groupIndex
 groupIndex must be 0 or less than the effective VkGraphicsPipelineShaderGroupsCreateInfoNV::groupCount including the referenced pipelines
 groupShader
 groupShader must be a valid VkShaderGroupShaderKHR value
-h0'D
-h>1my
 half
 half_cos
 half_divide
@@ -43041,7 +42891,6 @@ hitShaderBindingTableSize
 hitShaderBindingTableStride
 hitShaderBindingTableStride must be a multiple of VkPhysicalDeviceRayTracingPipelinePropertiesKHR::shaderGroupHandleAlignment
 hitShaderBindingTableStride must be less than or equal to VkPhysicalDeviceRayTracingPipelinePropertiesKHR::maxShaderGroupStride
-hj>>d
 hmonitor
 hmonitor must be a valid HMONITOR
 host access qualifier
@@ -43758,6 +43607,7 @@ is %d, but the view mask for subpass %u in renderPass (%s) includes layer %i, wi
 is %d, but the view mask for subpass %u in renderPass (%s) includes layer %i, with that attachment specified as a depth/stencil resolve attachment.
 is %d, but the view mask for subpass %u in renderPass (%s) includes layer %i, with that attachment specified as a resolve attachment %u.
 is %d, but the view mask for subpass %u in renderPass (%s) includes layer %i, with that attachment specified as an input attachment %u.
+is %d.
 is %f
 is %f (not 1.0), but wideLines was not enabled.
 is %f (not within the [0.0, 1.0] range) but VK_EXT_depth_range_unrestricted extension is not enabled.
@@ -43768,6 +43618,7 @@ is %f, but the depthBiasClamp device feature was not enabled.
 is %f, but the depthBiasClamp feature was not enabled
 is %f, but the line width state is static (pCreateInfos[%u].pDynamicState->pDynamicStates does not contain VK_DYNAMIC_STATE_LINE_WIDTH) and wideLines feature was not enabled.
 is %f, depthBoundsTestEnable is VK_TRUE, but VK_EXT_depth_range_unrestricted extension is not enabled (and not using VK_DYNAMIC_STATE_DEPTH_BOUNDS).
+is %f.
 is %llu and arrayLayers is 1.
 is %llu and extext.depth is 1.
 is %llu and is not aligned to the minimum component byte size (%u) of its corresponding vertex format (%s).
@@ -43914,6 +43765,7 @@ is %s, but there is a VkImageDrmFormatModifierListCreateInfoEXT in the pNext cha
 is %s, but using a Color format (%s)
 is %s, magFilter is %s and minFilter is %s, but extension %s is not enabled.
 is %s, which contains SUBSAMPLED_BIT and CUBE_COMPATIBLE.
+is %s.
 is %u (greater than 1) but inputRate is %s.
 is %u (greater than 1) but vertexAttributeInstanceRateDivisor feature was not enabled
 is %u (not a multiple of 4), but type is VK_DESCRIPTOR_TYPE_INLINE_UNIFORM_BLOCK_EXT.
@@ -43985,6 +43837,7 @@ is %u, pAttachments[%u].format is VK_FORMAT_UNDEFINED, but viewMask is %u.
 is %u, pAttachments[%u].format is VK_FORMAT_UNDEFINED, nullColorAttachmentWithExternalFormatResolve is VK_FALSE, but %s is VK_ATTACHMENT_UNUSED.
 is %u, pAttachments[%u].format is VK_FORMAT_UNDEFINED, nullColorAttachmentWithExternalFormatResolve is VK_TRUE, but %s is %u.
 is %u, which when added to the buffer descriptor's range (%llu) and offset (%llu) is greater than the size of the buffer (%llu) in descriptorSet #%u binding #%u descriptor[%u].
+is %u.
 is %zu, but the pipeline does not have a pre-rasterization or fragment shader state.
 is (%f), which is not between 0.0 and maxExtraPrimitiveOverestimationSize (%f).
 is (%s) but VkRenderPassCreateInfo::VkSubpassDescription::flags == %s
@@ -44357,12 +44210,9 @@ isText
 issued on %s for color attachment #%u in this subpass, but LOAD_OP_LOAD was used. If you need to clear the framebuffer, always use LOAD_OP_CLEAR as it is more efficient.
 issued on %s for the depth attachment in this subpass, but LOAD_OP_LOAD was used. If you need to clear the framebuffer, always use LOAD_OP_CLEAR as it is more efficient.
 issued on %s for the stencil attachment in this subpass, but LOAD_OP_LOAD was used. If you need to clear the framebuffer, always use LOAD_OP_CLEAR as it is more efficient.
+issued on %s prior to any Draw Cmds in current render pass. It is recommended you use RenderPass LOAD_OP_CLEAR on attachments instead.
 issued on queue %s. All binds should happen on an asynchronous copy queue to hide the OS scheduling and submit costs.
 its block.
-jeTb
-k=yI
-k>4\tF
-k>RU
 kVUIDUndefined
 kernel enqeue flags
 kernel profiling info
@@ -44469,10 +44319,6 @@ lumaBitDepth
 lumaBitDepth must be a valid combination of VkVideoComponentBitDepthFlagBitsKHR values
 lumaBitDepth must have a single bit set
 lumaBitDepth must not be 0
-m?H7
-mG4>
-mO-B
-m\nXo
 magFilter
 magFilter must be a valid VkFilter value
 main
@@ -45069,8 +44915,6 @@ mutableComparisonSamplers
 mutableDescriptorType
 mutableDescriptorTypeListCount
 mutex lock failed
-n03>Pu
-n]?iJ
 naluSliceEntryCount
 naluSliceEntryCount must be between 1 and VkVideoEncodeH264CapabilitiesKHR::maxSliceCount, inclusive, as returned by vkGetPhysicalDeviceVideoCapabilitiesKHR for the used video profile
 naluSliceEntryCount must be greater than 0
@@ -45175,9 +45019,6 @@ number of H.265 VPS entries to add (%u) plus the already used capacity (%zu) is 
 number of H.265 VPS entries to add (%zu) is larger than VkVideoDecodeH265SessionParametersCreateInfoKHR::maxStdVPSCount (%u).
 number of H.265 VPS entries to add (%zu) is larger than VkVideoEncodeH265SessionParametersCreateInfoKHR::maxStdVPSCount (%u).
 number-sign
-o?GS
-oI>O7
-oI>b
 object
 object must be a Vulkan object of the type associated with objectType as defined in VkDebugReportObjectTypeEXT and Vulkan Handle Relationship
 object must be a Vulkan object or VK_NULL_HANDLE
@@ -45194,7 +45035,6 @@ objectType must not be VK_DEBUG_REPORT_OBJECT_TYPE_UNKNOWN_EXT
 objectType must not be VK_OBJECT_TYPE_UNKNOWN
 object_lifetime
 obsoleted by
-obwQ4
 occlusionQueryEnable
 occlusionQueryPrecise
 of Result Type struct
@@ -45288,10 +45128,7 @@ overallocationBehavior
 overallocationBehavior must be a valid VkMemoryOverallocationBehaviorAMD value
 overflow mode
 overlaps with %s on host address range %s.\n%s.hostAddress is %p and assumed scratch size is %llu.\n%s.hostAddress is %p and assumed scratch size is %llu.
-owM&
 owner dead
-p>.G1
-p>Y3
 pAccelerationStructure
 pAccelerationStructure must be a valid pointer to a VkAccelerationStructureKHR handle
 pAccelerationStructure must be a valid pointer to a VkAccelerationStructureNV handle
@@ -46644,7 +46481,6 @@ planeIndex must be less than the number of display planes supported by the devic
 planeReorderPossible
 planeStackIndex
 plus-sign
-pm>6/
 pointClippingBehavior
 pointPolygons
 pointSizeGranularity
@@ -46815,8 +46651,6 @@ pushconstantPipelineLayout
 pushconstantShaderStageFlags
 pushconstantShaderStageFlags must be a valid combination of VkShaderStageFlagBits values
 pushconstantSize
-q>F,3
-qS>g?h3
 quadDivergentImplicitLod
 quadOperationsInAllStages
 qualityLevel
@@ -46882,10 +46716,6 @@ queueType
 queueType must be a valid VkOutOfBandQueueTypeNV value
 quotation-mark
 r must be a valid VkComponentSwizzle value
-rNm>)
-r\n0\tP
-r\tVr.>T
-r\vppE
 r_device_addressVK_KHR_buffer_demeline_semaphoreVK_KHR_timeline_VK_KHR_buffer_device_address
 radians
 range
@@ -47110,7 +46940,6 @@ s type.
 s vector component count.
 s vector element type.
 sBGRA
-sHF'
 sRGB
 sRGBA
 sRGBx
@@ -49119,8 +48948,6 @@ using VK_PIPELINE_STAGE_2_ALL_GRAPHICS_BIT_KHR
 using VK_PIPELINE_STAGE_ALL_COMMANDS_BIT
 using VK_PIPELINE_STAGE_ALL_GRAPHICS_BIT
 uuid
-uzKs@>
-v2!L.2
 validate_best_practices
 validate_best_practices_amd
 validate_best_practices_arm
@@ -50134,7 +49961,6 @@ x must be greater than or equal to viewportBoundsRange[0]
 x must be less than or equal to VkPhysicalDeviceLimits::maxComputeWorkGroupCount[0]
 xChromaOffset
 xChromaOffset must be a valid VkChromaLocation value
-xT?V
 xcoeff
 xdigit
 y (%f) + height (%f) is %f which exceeds VkPhysicalDeviceLimits::viewportBoundsRange[1] (%f).
@@ -50145,7 +49971,6 @@ y must be less than or equal to VkPhysicalDeviceLimits::maxComputeWorkGroupCount
 y must be less than or equal to viewportBoundsRange[1]
 yChromaOffset
 yChromaOffset must be a valid VkChromaLocation value
-yE>cb
 ycbcr2plane444Formats
 ycbcrConversion
 ycbcrDegamma
@@ -50157,8 +49982,6 @@ ycbcrRange must be a valid VkSamplerYcbcrRange value
 ycoeff
 z must be a valid VkViewportCoordinateSwizzleNV value
 z must be less than or equal to VkPhysicalDeviceLimits::maxComputeWorkGroupCount[2]
-z>h4
-zD%s Descriptor set memory was allocated via vkAllocateDescriptorSets() for sets which were previously freed in the same logical device. On some drivers or architectures it may be most optimal to re-use existing descriptor sets.
 zero
 zirconHandle
 zirconHandle must have ZX_RIGHTS_BASIC and ZX_RIGHTS_SIGNAL rights

@@ -463,6 +463,7 @@ LogWarningFormat
 LostHostOnClient
 LostHostOnHost
 MSH\r
+M\t%%
 MarkForReset
 MatchInfoSnapshot
 Math
@@ -1034,6 +1035,7 @@ X\v8R
 YHow often (in seconds) that this object should update the set of players that can see it.
 YqH >
 [KI+d
+\n&%oC
 \n'\n4\n;\nX\n^\np\n
 \n*ZrH
 \nrPD

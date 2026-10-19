@@ -4,6 +4,8 @@
  Child collection: [%p]
  Child: 
  [%.3f server clamped to %.3f]
+ max. %f
+ min. %f
  next: %p, parent: %p\n
 !m_bNeedsSort
 "%s" = "%s"
@@ -37,6 +39,7 @@ $SPECULARCOLOR
 $SPECULAREXPONENT
 $SPECULAREXPONENTBLENDTOFULL
 $SPECULARSCALE
+%%%s
 %-120s - %s\n
 %-120s\n
 %.15lf
@@ -47,13 +50,21 @@ $SPECULARSCALE
 %i %i %i %i
 %lld
 %llu
+%s %d
 %s (Color)
 %s (Material)
+%s * %s
+%s + %s
+%s - %s
+%s / %s
 %s allocation count overflow
 %s allocation count overflow( %llu >= %llu )\n
 %s is trying to get CP object %d but the function read limit is %d\n
 %s is trying to get CP renderable %d but the function read limit is %d\n
+%s%d
+%s%s
 %s+-- Schema Class: %s\n
+%s: %s\n
 %s: Out of range control point %d in %s
 %s: Overflowed control point array for point %d in %s
 %s: string format requested %d chars\n
@@ -100,8 +111,6 @@ $SPECULARSCALE
 .02 .02 .02
 .125 .125 .125
 .25 .25 .25
-.M;UU
-.eB9
 0 -128 0
 0 0 -800
 0 0 0 0
@@ -874,7 +883,6 @@ $SPECULARSCALE
 39C_OP_RemapControlPointDirectionToVector
 39C_OP_RemapDistanceToLineSegmentToScalar
 39C_OP_RemapDistanceToLineSegmentToVector
-3L?Zb%
 40C_INIT_InitSkinnedPositionFromCPSnapshot
 40C_INIT_RemapInitialCPDirectionToRotation
 40C_INIT_RemapInitialDirectionToCPToVector
@@ -888,20 +896,17 @@ $SPECULARSCALE
 44C_OP_SetControlPointPositionToTimeOfDayValue
 45.0
 45CInputLayoutRegistration_s_hRenderInputLayout
-4?Ku
 5000
 50C_INIT_RemapParticleCountToNamedModelElementScalar
 51C_INIT_RemapParticleCountToNamedModelBodyPartScalar
 51C_INIT_RemapParticleCountToNamedModelSequenceScalar
 52C_INIT_RemapParticleCountToNamedModelMeshGroupScalar
-5t~BC
 60.0
 64.0
 6ConVar
 75.0
 7IConVar
 8CFmtStrNILi256ELb0EE
-8f?D
 9C_OP_Cull
 9C_OP_Spin
 9ISequence
@@ -921,7 +926,7 @@ $SPECULARSCALE
 <null>
 <unconnected>
 <unimplemented>
-=2qg
+>%lg
 ?  (data type of container field %d does not match particle attribute %s)\n
 ?/?????/?.>??????????????>>??;?/?+???;?/?**?/?;???+?/?;??>>??????????????>.?/?????/?
 ?????????>&7'7????/?/????>6773???;???;???:
@@ -1040,7 +1045,6 @@ Apply fog of war to color
 Apply fog to particle
 Apply global light to color
 Apply motion vectors
-Aq?S
 Arc Duration Maximum
 Arc Speed
 AssertMsg_ConditionFailed
@@ -1758,7 +1762,6 @@ Dual sequence controls
 Dump all new particles, optional name substring.
 Duration value for path point
 DynamicConfigList
-E3:0
 ERROR: Resource name "%s" has the incorrect extension "%s" for the specified resource type (expected "%s")!\n
 ERROR: Schema registration error - class '%s' is not marked as MModuleLocalTypeScope but contains member '%s' with locally-scoped type '%s'\n
 ERROR: Schema registration error - class '%s' is not marked as MModuleLocalTypeScope but derives from locally-scoped class '%s'\n
@@ -1915,8 +1918,6 @@ GetResourceManifests
 Globally Scale Initial Attributes
 Glow Alpha
 Glow RGB
-HAT\tK 
-HAT\tKAT\tKAT\tKAT\tK 
 HELPER_BONE
 HITBOX_INDEX
 HITBOX_LERP_CONSTANT
@@ -2060,7 +2061,6 @@ LoggingSystem_LogDirect
 LoggingSystem_RegisterLoggingChannel
 LookAtList
 LowerEyelid( 
-LrwcE
 MANUAL_ANIMATION_FRAME
 MATCHFRAMEWORK_001
 MAX_PATTACH_TYPES
@@ -2492,7 +2492,6 @@ Plat_USTime
 Plat_UUIDFromString
 Plat_UUIDToString
 Play EndCap when Finished
-Po5H
 Point vector at next particle position
 PointDefinitionWithTimeValues_t
 PointDefinition_t
@@ -2699,7 +2698,6 @@ Rotation spin roll
 Rotation spin yaw
 Rotation yaw flip random
 Rotation yaw random
-S+Ot
 SCALAR_EXPRESSION_ADD
 SCALAR_EXPRESSION_DIVIDE
 SCALAR_EXPRESSION_INPUT_1
@@ -3111,13 +3109,11 @@ Y Dimension Count
 Y Dimension Spacing
 Y axis scaling scalar field
 Y offset of center point
-Y?Mi
 Yaw; 
 Z Dimension Count
 Z Dimension Spacing
 Z axis scaling scalar field
 ZN18CNewParticleEffect7RestartEvEUlvE_
-\nCwf\r
 \n\n----------------------------\nInstance Count:\n
 \ng default\n
 \r<unknown>
@@ -3157,6 +3153,7 @@ _end
 _fini
 _procedural_particle_snapshot.vsnap
 _test_conversion_counter
+abs( %s )
 accelerate position
 activity
 activity override
@@ -3216,8 +3213,6 @@ avg_num_tests
 avg_num_traces
 avg_render
 avg_sim
-b>mUf
-b?/n3>j
 bUpdate
 baked_light_indexing
 bakelightindex
@@ -3262,7 +3257,6 @@ breakable_count
 breakable_model
 breakable_skin
 brush only
-bt3V
 bulge control 0=random 1=orientation of start pnt 2=orientation of end point
 burst_randomize
 burst_scale
@@ -3363,6 +3357,7 @@ control point with snapshot data
 control points to broadcast to children (n + 1)
 control_point
 control_point_number
+cos( %s )
 count back from last particle
 count to maintain
 cp field
@@ -3508,6 +3503,7 @@ even distribution count
 event_class
 event_keys
 eventindex
+exp( %s )
 explosion_behavior
 explosion_buildup
 explosion_delay
@@ -3518,7 +3514,6 @@ explosive_radius
 exponential falloff exponent
 expression
 f %d %d %d\n
-f>KZ}
 faceMergeAngle
 fade bias
 fade end time
@@ -3630,7 +3625,6 @@ how long before a trail grows to its full length
 hue adjust
 hurt_me
 hurt_them
-iWy?
 idle
 ignore delta time
 ignore normal
@@ -3691,12 +3685,10 @@ kill on no collision
 kill particle on collision
 kill unused
 kv3format_manager.cpp
-l @(knN_p
 l=!attributes
 last_sniff
 latency CP
 latency CP field
-lcQe
 ld-linux-x86-64.so.2
 length max
 length min
@@ -3781,8 +3773,6 @@ looping
 low violence definition
 lowprecisionuv
 lowprecisionuv1
-lwK?
-mXr4
 m_ActivityName
 m_AttachmentName
 m_AttachmentType
@@ -5401,9 +5391,7 @@ modeldoc8
 modeldoc9
 motion vectors texture
 multiplayer_break
-n?9a
 nTries < 10000000
-n\f"pA3Q
 nav_attribute_avoid
 nav_data
 noise amount 0
@@ -5643,7 +5631,6 @@ pthread_mutexattr_init
 pthread_mutexattr_settype
 pvec_color_black
 pvec_color_white
-quX?
 r_draw_particle_children_with_parents
 r_drawparticles
 r_freezeparticles
@@ -5835,6 +5822,7 @@ sharpStartAngle
 sheet
 sheet animation time scale
 shuffle
+sin( %s )
 singleplayer
 size at which to fade away
 size at which to start fading
@@ -5883,6 +5871,7 @@ spritecardparticlestrailwithnormal
 spritecardparticlestrailwithselfillum
 spritecardtessvb
 sqrt
+sqrt( %s )
 sqrtf
 srgbgammatolinear
 ss_added
@@ -6120,9 +6109,7 @@ yaw offset min
 yaw random exponent
 yaw_end
 yaw_start
-z:KEZ
 zero
-{YIN?
 {}[]()=&, \t\n'"*;
 {}[]=, \t\n'":|;
 }\n %llu aggs, %s total data\n

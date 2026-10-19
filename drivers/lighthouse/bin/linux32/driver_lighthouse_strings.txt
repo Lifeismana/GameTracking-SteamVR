@@ -172,7 +172,6 @@
 " which is.
 "$0" does not declare $1 as an extension number.
 "%/28;=#$019:>?
-"'\n\vCBaseConfig
 ") is not compatible with this reflection object (which is for type "
 ") to start from the outermost scope.
 ").  Note that the exact same class is required; not just the same descriptor.
@@ -199,11 +198,9 @@
 "orthographic" is not a JSON object.
 "perspective" is not a JSON object.
 "positional" is not a JSON object.
-"r\n\nCImuSample
 "scenes" object not found in .gltf or not an array type\n
 "spot" is not a JSON object.
 "subtype": 
-"z\n\rMethodOptions
 #?RADIANCE
 #?RADIANCE\n
 #?RGBE
@@ -216,12 +213,18 @@ $0$1$2 $3 = $4
 $0enum $1 {\n
 $0option $1;\n
 $0rpc $1(.$2) returns (.$3)
-$3br
-%&'()*456789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
+%%.%dg
+%.*Lf
+%.*g
+%.1f
+%.2X
 %02x
 %04X
+%d.%d
+%d.%d.%d
 %hu,%hu,'%4c',%hu
 %llu
+%s %c: 
 %s - Unable to init\n
 %s - Unable to start replay of "%s"\n
 %s created to play "%s"\n
@@ -230,8 +233,10 @@ $3br
 %s%s%s%s%s%s%s
 %s/.steam/steam
 %s: %d, %d, %d, %d\n
+%s: %s
 %s: %s IMU calibration: Accel bias change %.2fm/s/s%s\n
 %s: %s thread: Unknown USB report ID %d (vid %04x pid %04x). %d total\n
+%s: %s\n
 %s: Applying scale %0.04f from reference object %s\n
 %s: Attached device ID not set.  No controller input available.\n
 %s: Can't create source of type "%s"\n
@@ -271,7 +276,7 @@ $3br
 %s: __pos (which is %zu) > this->size() (which is %zu)
 %u %s@%s %s FPGA %u(%u.%u/%u/%u) BL %u%s%s%s
 %u_%02u
-&'()*56789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
+%x:%hx:%hx
 ' is not a number.
 ' property is missing
 ' property is missing in 
@@ -286,23 +291,6 @@ $3br
 '[', '{', or a literal
 'out_location' must not be NULL
 'uri' is missing from non binary glTF file buffer.\n
-(\t"+\n\rCDynamicState
-(\v2 .google.protobuf.DescriptorProto
-(\v2!.google.protobuf.EnumValueOptions"
-(\v2$.google.protobuf.EnumDescriptorProto
-(\v2$.google.protobuf.FileDescriptorProto"
-(\v2$.google.protobuf.UninterpretedOption"/\n
-(\v2$.google.protobuf.UninterpretedOption":\n\fOptimizeMode
-(\v2$.google.protobuf.UninterpretedOption*\t
-(\v2%.google.protobuf.FieldDescriptorProto
-(\v2%.google.protobuf.OneofDescriptorProto
-(\v2&.google.protobuf.MethodDescriptorProto
-(\v2'.google.protobuf.ServiceDescriptorProto
-(\v2(.google.protobuf.SourceCodeInfo.Location
-(\v2).google.protobuf.EnumValueDescriptorProto
-(\v2).lighthouse.pb.CBaseConfigAndDynamicState"
-(\v2-.google.protobuf.UninterpretedOption.NamePart
-(\v2/.google.protobuf.DescriptorProto.ExtensionRange
 (anonymous namespace)
 (cannot determine missing fields for lite message)
 (merge 
@@ -371,10 +359,7 @@ $3br
 -0123456789
 -1e+9999
 -Infinity
--\n\nimu_sample
 -inf
--t1?Ks
--tA?Ks
 .  Please update your library.  If you compiled the program yourself, make sure that your headers are from the same version of Protocol Buffers as your link-time library.  (Version verification failed in "
 ... Moving the base for tracking too, which might cause a pop\n
 .... BaseStation Map has %d entries\n
@@ -389,24 +374,10 @@ $3br
 .config
 .dummy
 .foo = value".
-.google.protobuf.EnumOptions"l\n
-.google.protobuf.FieldOptions"
-.google.protobuf.FileOptions
-.google.protobuf.MessageOptions
-.google.protobuf.MethodOptions"
-.google.protobuf.ServiceOptions"
-.google.protobuf.SourceCodeInfo"
 .json
-.lighthouse.pb.CBaseConfig
-.lighthouse.pb.CDynamicState"
-.lighthouse.pb.CImuSample
-.lighthouse.pb.COpticalFrame
-.lighthouse.pb.COpticalSample
-.lighthouse.pb.CVec3
 .placeholder.proto
 .tmp
 .vrstats
-/\n\vbase_config
 /data/src/aitcamlib/aitcamera.cpp
 /data/src/aitcamlib/cbasecamera.cpp
 /data/src/aitcamlib/work_thread.cpp
@@ -511,7 +482,6 @@ $3br
 10CVRMailbox
 11 4 22 44 44 22 444444
 11CBaseCamera
-11eU%
 12CEtronCamera
 12CNonCopyable
 12IAitCamGraph
@@ -555,10 +525,6 @@ $3br
 18IUsbDeviceCallback
 19CWirelessDecoderWv2
 1e+9999
-2#.google.protobuf.FieldOptions.CType:
-2).google.protobuf.FileOptions.OptimizeMode:
-2*.google.protobuf.FieldDescriptorProto.Type
-2+.google.protobuf.FieldDescriptorProto.Label
 20CLighthouseHmdDriver
 20IVRAudioNotification
 22CKeyframedDataResource
@@ -571,17 +537,9 @@ $3br
 26CWirelessConnectionMonitor
 30CHandPoseLogic_IndexController
 3Pole
-3\n\rdynamic_state
-3\n\roptical_frame
 4Pole
-5\n\vnested_type
-6\n\fmessage_type
 7CThread
-7\n\tenum_type
-8\n\textension
 9CRefCount
-9\n\noneof_decl
-9a&g
 : Protocol message serialized to a size different from what was originally expected.  Perhaps it was modified by another thread during serialization?
 : Tried to copy from a message with a different type. to: 
 : Tried to merge from a message with a different type.  to: 
@@ -593,19 +551,16 @@ $3br
 ::google::protobuf::FileOptions_OptimizeMode_IsValid(value)
 ; expected 
 ; last read: '
+<U+%.4X>
 <discarded>
 <hidden>
 <parse error>
 <redirected>
 <uninitialized>
 <unknown>
->X9t?
-?&x0O
 ?17CKalmanQuaternion
 ???\f???????\n???\r?\t?\v
-?Nbp?
 ?UUUUUU
-?es-8R
 A file with this name is already in the pool.
 A protocol message was rejected because it was too big (more than 
 A valid JSON document must be either an array or an object value.
@@ -705,7 +660,6 @@ C* google::protobuf::internal::scoped_ptr<C>::operator->() const [with C = googl
 C* google::protobuf::internal::scoped_ptr<C>::operator->() const [with C = google::protobuf::UnknownFieldSet]
 CAMCMD_GET_OPENCAMERA_RESULT\n
 CAnimResource
-CBaseConfigAndDynamicState
 CBoneMaskResource
 CDisambiguatorFramer: Non monotonicity in ProcessSensorHit\n
 CHECK failed: !checkpoints_.empty(): 
@@ -838,16 +792,12 @@ CHECK failed: type > 0 && type <= FieldDescriptor::MAX_TYPE:
 CHECK failed: type > 0 && type <= WireFormatLite::MAX_FIELD_TYPE: 
 CHECK failed: uninterpreted_options_field != NULL: 
 CHECK failed: value.size() <= kint32max: 
-CH\f1
-CHeader
 CHidDevice: Can't open USB device VID %08x, PID %08x %s %d\n
 CKeyframedDataResource
 CLighthouseHmdDriver::RunFrame/ControllerState
 CLighthouseHmdProvider::RunFrame/HapticDispatch
 CLighthouseHmdProvider::RunFrame/LighthouseDB
 CLighthouseHmdProvider::RunFrame/WirelessDeviceDiscovery
-CORD
-COpticalSample
 CPPTYPE_BOOL
 CPPTYPE_DOUBLE
 CPPTYPE_ENUM
@@ -858,10 +808,7 @@ CPPTYPE_MESSAGE
 CPPTYPE_STRING
 CPPTYPE_UINT32
 CPPTYPE_UINT64
-CRecord
 CSyncDetect: Detected large-scale timebase non-monotonicity. last: %lf current: %lf - Resetting....\n
-CType
-CVec3
 Cal Fail
 Calibration failed
 Camera
@@ -921,8 +868,6 @@ December
 Default value for an enum field must be an identifier.
 Defaulting Edid to TSB and 0x8888 because we don't know it\n
 Delayed State Change
-DescriptorProto
-DescriptorProtosH
 Dev Error
 Device %s powering off upon entering standby.\n
 Device %s requires driver %s, which is not present
@@ -977,9 +922,6 @@ End-of-file inside block comment.
 Entered Debug
 Entry #
 Enum type "
-EnumDescriptorProto
-EnumValueDescriptorProto
-EnumValueOptions
 Enumerating displays...\n
 Enums must contain at least one value.
 Error - IMU Sample IOBuffer can't be or is already established (%p,%llX)\n
@@ -1047,7 +989,6 @@ Extension numbers must be positive integers.
 Extension range $0 to $1 includes field "$2" ($3).
 Extension range $0 to $1 overlaps with already-defined range $2 to $3.
 Extension range end number must be greater than start number.
-ExtensionRange
 Extensions of MessageSets must be optional messages.
 Extensions to non-lite types can only be declared in non-lite files.  Note that you cannot extend a non-lite type to contain a lite type, but the reverse is allowed.
 Extra non-whitespace after JSON value.
@@ -1063,7 +1004,6 @@ FW BL
 FW Update Finish
 FW Update Load
 FW Update Start
-F\n\foptimize_for
 Failed
 Failed to acquire raw camera block for writing: %d
 Failed to create IMU IOBuffer for %d (error=%d, handle=%d)\n
@@ -1106,7 +1046,6 @@ Field numbers must be positive integers.
 Field with message or enum type missing type_name.
 Field with primitive type has type_name.
 Field: 
-FieldDescriptorProto
 FieldDescriptorProto.extendee not set for extension field.
 FieldDescriptorProto.extendee set for non-extension field.
 FieldDescriptorProto.oneof_index $0 is out of range for type "$1".
@@ -1127,15 +1066,12 @@ File size
 File size mismatch : 
 File write error: 
 File: 
-FileDescriptorProto
-FileDescriptorSet
 Files that do not use optimize_for = LITE_RUNTIME cannot import files which do use this option.  This file is not lite, but it imports "
 Files with optimize_for = LITE_RUNTIME cannot define services unless you set both options cc_generic_services and java_generic_sevices to false.
 Firmware
 First argument to Swap() (of type "
 First argument to SwapFields() (of type "
 Flextronics
-FoCLcx
 Found Direct Mode Display\n
 Found default audio playback device %s, VID:%04x/PID:%04x %s\n
 Found default audio recording device %s, VID:%04x/PID:%04x %s\n
@@ -1372,9 +1308,6 @@ Knu RevB
 Knuckles
 Knuckles EV1.3
 Knuckles EV1.4
-LABEL_OPTIONAL
-LABEL_REPEATED
-LABEL_REQUIRED
 LG Prototype
 LHB-%08X
 LHR-
@@ -1384,7 +1317,6 @@ LIBUDEV_183
 LINEAR
 LPC11 App
 LPC11 BL
-Label
 Last sample %d %lf %lf\n
 Lighthouse %s HID device error\n
 Lighthouse %s HID opened\n
@@ -1403,7 +1335,6 @@ Loading MC file '%s'\n
 Loading of firmware manifest file (%s) not successful: (%d)\n
 Loading override file: %s\n
 LocalizationManager
-Location
 Log Erase
 LookForNewDevices
 Looking for default audio playback device matching VID:%04x/PID:%04x %s\n
@@ -1414,7 +1345,6 @@ MAT2
 MAT3
 MAT4
 MAX10
-MGiI
 MIPI Init
 MIPI Init Error
 MSB 
@@ -1429,17 +1359,14 @@ Mark 3
 Mark 4
 Material has extension MSFT_lod, but does not reference other materials via their ids.\n
 Max watchdog reset count
-Mb ?QFo
 Message class "
 Message extensions cannot have required fields.
 Message missing required fields: 
 Message of type "
 Message type "
-MessageOptions
 MessageSets cannot have fields, only extensions.
 Messages can't have default values!
 Messages can't have default values.
-MethodDescriptorProto
 Missing ',' or ']' in array declaration
 Missing ',' or '}' in object declaration
 Missing ':' after object member name
@@ -1660,7 +1587,6 @@ NSt7__cxx119money_putIcSt19ostreambuf_iteratorIcSt11char_traitsIcEEEE
 NSt7__cxx119money_putIwSt19ostreambuf_iteratorIwSt11char_traitsIwEEEE
 NSt8ios_base7failureB5cxx11E
 NSt8ios_base7failureE
-NamePart
 Need space between identifier and decimal point.
 Need space between number and identifier.
 Neither required `bufferView` nor `uri` defined for image[
@@ -1701,7 +1627,6 @@ Object
 October
 Old Normal: %f %f %f \n
 Oneof must have at least one field.
-OneofDescriptorProto
 Only one of `bufferView` or `uri` should be defined, but both are defined for image[
 Open failed from from vid 0x%X pid 0x%X serial %s when looking for controller id %X\n
 OpenVR
@@ -1731,7 +1656,6 @@ PFbRKSsPvE
 PICT
 PLACEHOLDER_VALUE
 PLAY-
-PNG\r\n
 Pairing Failed
 Pairing Start
 Pairing Success
@@ -1760,7 +1684,6 @@ Protocol message serialized itself in invalid fashion.
 Protocol message was modified concurrently during serialization.
 Prototype
 Qk6eV5RE
-Qkkbal
 RENDERDOC API Not Found\n
 RENDERDOC Enabled
 RENDERDOC_GetAPI
@@ -1812,17 +1735,14 @@ SDL_SetThreadPriority
 SOB total=
 SOB: add 
 SOB: drop 
-SPEED
 SRB-0
 STEAMVR_VERBOSE_HAPTIC_LOG
-STRING
 Samples didn't yield successful bootstrap pose\n
 Saturday
 Saved LighthouseDB rev %u to %s\n
 Saw %d early IMU related panics, using factory IMU cal\n
 Saw %u bases and none are the preferred base %08X\n
 Saw demod rate %.0f/s, enabling Sync on Beam\n
-Sc?Nb
 Searching for camera extrinsics calibration override (deviceKey=%08X)\n
 Second argument to Swap() (of type "
 Second argument to SwapFields() (of type "
@@ -1849,8 +1769,6 @@ SelectVideoConfig: driver_lighthouse.disableRuntimeEdidOverride=true. Leaving de
 SelectVideoConfig: driver_lighthouse.forceSoloEdid=true\n
 Selected existing universe %llu (%08X is %s)\n
 September
-ServiceDescriptorProto
-ServiceOptions
 SessionID
 Set column correction %f %d %f %d\n
 Set index backlight gain: %f\n
@@ -1886,7 +1804,6 @@ Skin
 Skipping TrackedCameraCalibrations Extrinsics Override, dual cameras not found in incoming json\n
 Software Reset
 Source: %s -- Preferred basestation %08X\n
-SourceCodeInfo
 SparseAccessor
 Spot light description not found.
 St10bad_typeid
@@ -2086,10 +2003,8 @@ Trying to %s %08X: %s
 Tuesday
 Tundra Labs
 Tundra Tracker
-Type
 Type appears to be in generated pool but wasn't 
 Type is already registered: 
-U1(\Q
 USAGE: set_lenscal <device_json_path>
 USAGE: set_subpixel r_dx_pixels r_dy_pixels b_dx_pixels b_dy_pixels\n
 USB status (rates over 
@@ -2132,7 +2047,6 @@ Unexpected failure while serializing option submessage
 Unidentified
 Unimplemented type: 
 Uninitialized
-UninterpretedOption
 Universe %llu already has an origin, can't set it to %08X\n
 Unknown
 Unknown Hmd Interrupt packet: report ID %d\n
@@ -2518,7 +2432,6 @@ WinRT
 WorkerThreadInitFailed
 XDG_CONFIG_HOME
 XXXX PNG chunk not known
-Zjz\v
 [AnimSkeleton] Failed to load GLTF file: %s
 [Camera] OnCamSyncEvent(%d,%d,%lf)
 [Camera] OnISPSyncEvent(%d,%lf)
@@ -2542,53 +2455,7 @@ Zjz\v
 \n  Problem     : 
 \n  Problem     : Enum value did not match field type:\n    Expected  : 
 \n  Problem     : Field is not the right type for this message:\n    Expected  : 
-\n google/protobuf/descriptor.proto
-\n\fFieldOptions
-\n\fLITE_RUNTIME
-\n\fSTRING_PIECE
-\n\fTYPE_FIXED32
-\n\fTYPE_FIXED64
-\n\fTYPE_MESSAGE
-\n\fdouble_value
-\n\fideal_period
-\n\fis_extension
-\n\fjava_package
-\n\fstring_value
-\n\nTYPE_BYTES
-\n\nTYPE_FLOAT
-\n\nTYPE_GROUP
-\n\nTYPE_INT32
-\n\nTYPE_INT64
-\n\ndependency
-\n\ndeprecated
-\n\ngo_package
-\n\ninput_type
-\n\nsync_width
-\n\rCOpticalFrame
-\n\rTYPE_SFIXED32
-\n\rTYPE_SFIXED64
-\n\rdefault_value
-\n\rserial_number
-\n\tname_part
-\n\ttype_name
-\n\vEnumOptions
-\n\vFileOptions
-\n\vTYPE_DOUBLE
-\n\vTYPE_SINT32
-\n\vTYPE_SINT64
-\n\vTYPE_STRING
-\n\vTYPE_UINT32
-\n\vTYPE_UINT64
-\n\vallow_alias
-\n\voneof_index
-\n\voutput_type
-\r\n\tCODE_SIZE
-\r\n\tTYPE_BOOL
-\r\n\tTYPE_ENUM
-\rlighthouse.pb"(\n
 \tEdid already edid_id %d and hdcp14legacycompat %d, no change needed\n
-\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t
-\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t
 \u%04x
 \u%04x\u%04x
 \ufffd
@@ -2696,7 +2563,6 @@ _parsefailed.json
 abort
 acc_bias
 acc_scale
-accel
 accept
 accessor[
 accessors
@@ -2725,7 +2591,6 @@ alphasort64
 alse
 amps
 analogGain
-angle
 animations
 anims
 aref
@@ -2747,8 +2612,6 @@ audio_recording_device_pid
 audio_recording_device_vid
 auto
 auto:
-average_period
-axis
 bInterfaceNumber
 backtrace
 backtrace_symbols
@@ -2800,7 +2663,6 @@ baseCalibration
 baseColorFactor
 baseColorTexture
 baseName
-base_config_json
 base_serial_number
 base_stations
 basestation_mode
@@ -2891,7 +2753,6 @@ cannot get value
 cannot set backlight gain
 cannot use erase() with 
 cannot use key() for non-object iterators
-cc_generic_services
 center
 center_x
 center_y
@@ -2918,7 +2779,6 @@ cntrl
 coeffs
 collectComments
 color
-com.google.protobufB
 compatible 
 complex 
 componentType
@@ -2943,7 +2803,6 @@ count
 covariant return thunk to 
 crc32
 ctime
-ctype
 data:application/gltf-buffer;base64,
 data:application/octet-stream;base64,
 data:image/bmp;base64,
@@ -3037,7 +2896,6 @@ dualSpeakerAndJackOutput
 dual_extrinsics
 dynamic_cast
 dynamic_state
-dynamic_state_json
 dynamic_states
 eEYE_FIRST
 eEYE_L
@@ -3059,7 +2917,6 @@ enableRawMode
 end of input
 enum
 error
-es-8R
 etronlib
 exception thrown in JSON library
 expected marker
@@ -3070,7 +2927,6 @@ expecting another \u token to begin the second half of a unicode surrogate pair
 experimental_map_key
 extend .$0 {\n
 extendee
-extension_range
 extensions
 extensionsRequired
 extensionsUsed
@@ -3097,9 +2953,7 @@ fdopen
 feof
 fflush
 fgets
-field
 fields
-file
 file is empty or does not exist
 filename
 fileno
@@ -3112,8 +2966,6 @@ first_eye
 first_id
 fixed32
 fixed64
-flags
-flags2
 float
 flock
 fmod
@@ -3170,7 +3022,6 @@ global
 global constructors keyed to 
 global destructors keyed to 
 go_package
-google.protobuf"G\n
 google.protobuf.Empty
 google.protobuf.EnumOptions
 google.protobuf.EnumValueOptions
@@ -3213,14 +3064,12 @@ gravity_vector
 group
 grow_for_undistort
 guard variable for 
-gyro
 gyro_bias
 gyro_scale
 half
 hand_right_closeanim.glb
 hand_right_poses.glb
 handlers
-hardware_revision
 hdcp14legacyCompatibility
 head
 head_from_camera
@@ -3229,13 +3078,11 @@ hidden alias for
 hidden_area_mesh
 hidraw
 highFrameJitter
-high_frame_jitter
 high_mm
 hits: 
 htc/vive_controller
 htc/vive_tracker
 https://developer.valvesoftware.com/wiki/SteamVR/HowTo_Update_Firmware
-i]Wb
 iconv
 iconv_close
 iconv_open
@@ -3365,12 +3212,8 @@ iterator does not fit current value
 iterator out of range
 java Class for 
 java resource 
-java_generate_equals_and_hash
-java_generic_services
-java_multiple_files
 java_outer_classname
 java_package
-java_string_check_utf8
 joints
 keylength >= 2^30
 kill
@@ -3378,20 +3221,15 @@ known_objects
 known_universes
 knuckles
 knuckles_ev1
-l?Nb0?
 lEyeFile:%s width:%d height:%d components:%d\n
-label
 lastChaperoneCommit
 last_eye
 last_id
-lazy
 ld-linux.so.2
 leading_comments
 left
 left eye
 left_hand
-left_sync_is_real
-left_sync_time
 lenscal
 lh_basestation_01_boysandgirls
 lh_basestation_03_robin
@@ -3410,7 +3248,6 @@ light
 lighthouse
 lighthouse:
 lighthouse_config
-lighthouse_db_json
 lighthouse_debug.proto
 lighthouse_pairing
 lighthousedb write error: baseStation is not an array type, but is %d\n
@@ -3421,7 +3258,6 @@ listen
 locale::facet::_S_create_c_locale name not valid
 localeconv
 localtime
-location
 logs
 long
 long double
@@ -3431,7 +3267,6 @@ low_mm
 lower
 lseek
 lseek64
-mSx@
 m_ulHandle != vr::k_ulInvalidMailbox
 magFilter
 malloc
@@ -3462,7 +3297,6 @@ meshes
 message
 message $0
 message_id
-message_set_wire_format
 metallicFactor
 metallicRoughnessTexture
 method
@@ -3493,7 +3327,6 @@ nSplineCtrlPts
 name
 name_part
 nanosleep
-negative_int_value
 new 
 new[]
 nfinity
@@ -3505,7 +3338,6 @@ no clear code
 no header height
 no optical samples 
 no preset dict
-no_standard_descriptor_accessor
 noclk
 node
 nodes
@@ -3541,7 +3373,6 @@ off!
 offset
 onesided
 only 8-bit
-ootx
 ootx %08X u%d r%d (i%d)\n
 ootxVersion
 open
@@ -3554,9 +3385,7 @@ operator
 operator 
 operator"" 
 opt_out
-optical_sample
 optional
-options
 orthographic
 otds
 otg_device
@@ -3572,7 +3401,6 @@ pNewResource
 pNewResource->Load( absFilePath )
 package
 package $0;\n\n
-packed
 pairing_result
 panel_burn_time_s: %d %d\n
 panel_on_time_deprecated_s: %d %d\n
@@ -3598,7 +3426,6 @@ pose
 position
 position out of bounds 
 positional
-positive_int_value
 posix_memalign
 power
 powerOffOnExit
@@ -3607,7 +3434,6 @@ preferred
 preferredRefreshRate
 prescale
 previous_id
-previous_period
 primary
 primarybasestation
 primitive indices accessor out of bounds
@@ -3658,7 +3484,6 @@ pthread_setname_np
 pthread_setschedparam
 pthread_setspecific
 ptr_ != __null
-public_dependency
 punct
 pure virtual method called\n
 putc
@@ -3666,7 +3491,6 @@ putchar
 puts
 putwc
 pvBuffer != nullptr
-py_generic_services
 r2max
 rEyeFile:%s width:%d height:%d components:%d\n
 rand
@@ -3714,8 +3538,6 @@ rewind
 right
 right eye
 right_hand
-right_sync_is_real_as_it_gets
-right_sync_time
 roll
 rolloffFactor
 rootserial
@@ -3723,10 +3545,8 @@ rotating at
 rotation
 roughnessFactor
 runtime
-sample_angle_estimate
 sampler
 samplers
-samples
 scalar
 scale
 scandir64
@@ -3754,7 +3574,6 @@ serial
 serialNumber
 serialize
 serializing
-service
 service $0 {\n
 session_id_field_name
 set_chromatic_correction_factors
@@ -3799,10 +3618,8 @@ snprintf
 sobChannel
 socket
 source
-source_code_info
 sources
 space
-span
 sparse
 special_value_zero
 spks
@@ -3810,7 +3627,6 @@ spot
 sprintf
 sscanf
 stackLimit
-start
 start tracking from base
 start_pairing
 start_tracking_recording %d %d %d
@@ -3888,7 +3704,6 @@ syscall
 sysconf
 syslog
 system
-systime
 tRNS after IDAT
 tRNS before PLTE
 tRNS with alpha
@@ -3935,7 +3750,6 @@ tracked_camera
 tracked_camera1
 tracked_cameras
 tracked_controller_role
-tracked_object_json
 tracking_camera_intrinsics
 tracking_camera_unique_id
 tracking_reference
@@ -4004,7 +3818,6 @@ ungetc
 ungetwc
 uninitialized __any_string
 uninterpreted_option
-unique_base_id
 unit
 unknown
 unknown BMP
@@ -4105,19 +3918,15 @@ wcsncmp
 wcsncpy
 wcsnrtombs
 wctob
-weak
-weak_dependency
 weights
 while parsing 
 white_balance
 width
-wireless_dongle_serial_number
 wmemchr
 wmemcmp
 wmemcpy
 wmemmove
 wmemset
-wn>Jj
 world_from_global
 world_identity
 wrapS
@@ -4134,14 +3943,13 @@ xdigit
 xmag
 yfov
 ymag
-z?X9T?
-z^KD
 zfar
 zlib corrupt
 znear
 { "driver": "aitcamlib", "usbVID":1234, "usbPID":1234, "streams": [ "1,1,'NV12'" ] }
 { "driver": "aitcamlib", "usbVID":1234, "usbPID":1234, "streams": [ "1,2,'NV12'" ] }
 {"driver":"etronlib", "usbVID":1234, "usbPID":1234, "streams": [ "2,1,'YUYV',16", "4,1,'MJPG',32" ] }
+{%s}%s
 {\n   "tracked_cameras" : [\n      {\n         "name" : "left",\n         "intrinsics" : {\n            "center_x" : 480,\n            "center_y" : 480,\n            "distort" : {\n               "coeffs" : [ 0.19177723522150192, 0.032730482055951374, -0.20839806147916953, 0.08274204359123152 ],\n               "type" : "DISTORT_EXTENDED_FTHETA"\n            },\n            "focal_x" : 417,\n            "focal_y" : 417,\n            "height" : 960,\n            "width" : 960\n         },\n         "extrinsics" : {\n            "plus_x" : [ -0.9961946980917455, 0, 0.08715574274765797 ],\n            "plus_z" : [ -0.08715574274765797, 0.0, -0.9961946980917455 ],\n            "position" : [ 0.06749, -0.03294, 0.06881 ]\n         }\n      },\n      {\n         "name" : "right",\n         "intrinsics" : {\n            "center_x" : 480,\n            "center_y" : 480,\n            "distort" : {\n               "coeffs" : [ 0.19177723522150192, 0.032730482055951374, -0.20839806147916953, 0.08274204359123152 ],\n               "type" : "DISTORT_EXTENDED_FTHETA"\n            },\n            "focal_x" : 417,\n            "focal_y" : 417,\n            "height" : 960,\n            "width" : 960\n         },\n         "extrinsics" : {\n            "plus_x" : [ -0.9961946980917455, 0, -0.08715574274765797 ],\n            "plus_z" : [  0.08715574274765797, 0.0, -0.9961946980917455 ],\n            "position" : [ -0.06749, -0.03294, 0.06881 ]\n         }\n      }\n   ]\n}
 {default arg#
 {frame_hmd}/input/input_profile.json

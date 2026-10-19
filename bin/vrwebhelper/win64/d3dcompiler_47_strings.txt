@@ -27,11 +27,17 @@
    primID
   special
   v%-4u %-3u 
- !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
  !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
- !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
  !"#$%&'().
+ %-20s
+ %4u
+ %5u
+ %7s
+ %8s
+ %8u
+ %c%-4u
  %u, %u, %u
+ (%.9g
  (%u texture, %u arithmetic)
  (second)
  -         - 
@@ -46,7 +52,6 @@
  : register(%c%u)
  Base Class Array'
  Base Class Descriptor at (
- C>TQ
  Class Hierarchy Descriptor'
  Complete Object Locator'
  FLT
@@ -142,7 +147,6 @@
  x%i[%i], %d
  { nonuniform }
 "%s" with respect to "%s"
-"e?<<<<<<l?
 ##Internal error##
 #Blob
 #GUID
@@ -167,7 +171,6 @@ $%%&&'''())**++++,,,,-----------..////0011223344555666666789:;<=>?@ABCD
 $CBufferForClipPlane_%u
 $Element
 $Globals
-$Ib?s
 $Invalid
 $IsAnyDeriv(x)/dz -> $IsAnyDeriv(dx/dz) <| SR.GenDerivatives_Unary
 $IsAnyShift(x, and(31, y)) <| MR.GenSimplifyInstructionsOpt1_NoExcl
@@ -202,9 +205,19 @@ $clip_outputs
 $super
 %-17s
 %-20s
+%-5u
+%.*s
 %.14fl
+%.9g
+%08x
+%2u %9u 
+%4u%c 
 %4u: Illegal instruction index\n
+%7u 
+%7u\n
+%c%u
 %cnorm can not be used with type
+%cs_%d_%d
 %d constant registers (c#) read by instruction.  Max. constant registers readable per instruction (even if they are the same) is %d.  This is in addition to the read port limit of %d for constants, which restricts how many *different* constants can be read. (There is one exception: none of this applies to the SINCOS macro instruction.)
 %d different constant registers (c#) read by instruction.  Max. different constant registers readable per instruction is %d.
 %d different constant registers (c#) read by instruction.  Max. different constant registers readable per instruction is %d. 
@@ -221,8 +234,11 @@ $super
 %d different texture coordinate registers (t#) read by instruction.  Max. different texture registers readable per instruction is %d.
 %d different texture registers (t#) read by instruction.  Max. different texture registers readable per instruction is %d.
 %d different texture registers (t#) read over 2 co-issued instructions. Max. different register numbers from any one register type readable across co-issued instructions is %d.
-%ihD
+%d%s (ordinal)
+%d[%d].
+%s %s
 %s %s[%d] = \n{\n
+%s X%u: 
 %s array index must be a literal expression
 %s array signature parameter %s cannot be indexed dynamically.
 %s bem cannot be co-issued.
@@ -316,15 +332,28 @@ $super
 %s snap offset must be in the range -8 to 7
 %s target does not support texture lookups
 %s tessfactor %ss missing
+%s%d
 %s%d must be a four-component vector
+%s%d%s
+%s%s
 %s%s contains a system-interpreted value (%s) which must be written in every execution path of the shader.  Unconditional initialization may help. <| A%u (B%u)
 %s%s contains a system-interpreted value (%s) which should be written in every execution path of the shader <| A%u (B%u)
 %s%s requires replicate swizzle for this parameter in order to select component. i.e. .x | .y | .z | .w (or rgba equivalent)
+%s%u
 %s%u,space%u
+%s%u.%c
+%s%u[%u:
 %s%ux%u
+%s+%s
+%s.a
+%s.b
+%s.g
+%s.r
 %s: ERROR: If either a HullShader or DomainShader is set then both must be set. Technique %s, Pass %s.
 %s: ERROR: No valid %s-%s combination could be found in Technique %s, Pass %s.
 %s: WARNING: There exist invalid %s-%s combinations in Technique %s, Pass %s, depending on which elements of the specified shader array(s) are chosen.
+%s<%d
+%s<E&C%03.3d>
 %sInvalid register number: %d.  Max allowed for this type is %d.
 %sInvalid register number: %d. Max allowed for this type is %d.
 %sInvalid register type.
@@ -344,14 +373,19 @@ $super
 %sSource swizzles not allowed on tex* instruction.
 %sTexture coordinate registers (t#) are not available to arithmetic instructions.
 %sUnexpected source parameter.
+%s[%s]
+%s[%u +
+%s[%u]
+%s[%u].%c
 %s[%u][%u].%c
 %s[eval(
 %s[r%u.%c/%u]<
 %s[r%u.%c]<
+%s\%s
 %s_%s_n%u_%u
+%s_n%u_%u
+%u%s
 %ux%u
-&?PPPPPPP?
-&Sgw
 '#pragma def' is no longer supported on DX10+ and 10level9 targets.  Use compatibility mode to allow compilation for now.
 '%s' : macro redefinition
 '%s' : unknown pragma ignored
@@ -507,6 +541,8 @@ $super
 'label' is only permitted directly after a 'ret' instruction. Aborting shader validation. 
 'ret' instruction not permitted from inside any flow control block. Aborting shader validation. 
 (%f, %f, %f, %f)
+(%fl, %fl)
+(%i,%i,%i)
 (%s source param) Invalid register number: %d.  Max allowed for this type is %d.
 (%s source param) Modifiers are not allowed on constants for ps_1_x.
 (%s source param) Negate or abs modifiers not permitted on source parameters to texld*
@@ -597,15 +633,15 @@ $super
 (unknown scope value kind)
 (unknown)
 (unnamed)
-(yaX
-)yIx
 * Linker *
 ***globals***
-*StO9>T
 +#INF
 +,,,,,,,,,,,,,,,,-----....///000111112223344556677889:;<
+, %.9g
 , dynamicIndexed
+, fb%u
 , forcing loop to unroll
+, ft%u
 , immediateIndexed
 , mode_comparison
 , mode_default
@@ -615,18 +651,15 @@ $super
 , stride=%u
 , texm3x2depth
 ,<ellipsis>
-,HR>O
 ,\n                              
 -#INF
 --- Compilation status for library function '%s' ---\n
--BH>t
 -dtof(x) -> dtof(-x) <| MR.GenSimplifyInstructionsOpt1_Excl
 -ftod(x) -> ftod(-x) <| MR.GenSimplifyInstructionsOpt1_Excl
 -sin(x) -> sin(-x) <| MR.GenSimplifyInstructionsOpt1_Excl
 . The compiler cannot always detect that an array is fully assigned to. Fully initializing the array in its declaration may help avoid this error
 .$super
 .00cfg
-.>\rfJBGo
 .?AVDNameNode@@
 .?AVDNameStatusNode@@
 .?AVbad_exception@std@@
@@ -652,6 +685,7 @@ $super
 .CRT$XPZ
 .CRT$XTA
 .CRT$XTZ
+._m%u%u
 .bss
 .data
 .data$brc
@@ -697,7 +731,6 @@ $super
 .tls
 .tls$
 .tls$ZZZ
-.xJ>Hf
 .xdata
 .xdata$x
 /* Interface parameter %u bound to: %s
@@ -838,17 +871,12 @@ $super
 // | Type ID  |%4u-%-4u|
 //\n// Created by:  %s\n//\n
 //\n// Library:  flags %x, %u functions:\n
-/2GG>!B
 /Cube/CubeArray
 /LinkInfo
 /names
 00ffff
 0123456789abcdef
-0E>X
-0TT)
 0WEIGHTS
-0X8b?~
-0iN>/
 0x%016I64xUI64
 0x%02x
 0x%08X: 
@@ -865,46 +893,20 @@ $super
 1.#INF
 1.#QNAN
 1.#SNAN
-1/2B
-11UT
-11Y@
 14.20.27412.1
 1WEIGHTS
-1YT[
 1darray
 2WEIGHTS
-2\vpTT)
 2darray
 32-bit floating-point operations flush denorm float literals to zero, %g is losing precision (this warning will only be shown once per compile)
-3333333333333333UUUUUUUUUUUUUUUU
-37>k
-3>N;kU
-3>fvw
 3WEIGHTS
 4 component with no swizzle expected for operand #%d of opcode #%d (counts are 1-based). 
-4560*+;<E
-4SV_VertexID
 4\tgA
-51>W
 5869
 64 UAV slots
-6NK>
-6\fXO>
-6\fXO>\ntA
-7>I0
-7?GX
-7xicuU
-7yp>
-7~xh
-8ke?;
-9>70
-9a&g
-9g>@3
+::<unnamed-tag>
 ::__unnamed
 :;<=>?@ABCD
-;1cb
-;Wtq
-;\f9cH
 <!-- id=%d -->
 <%s return value>
 </font>
@@ -954,38 +956,11 @@ $super
 <unnamed>
 <unused>
 <| dependent on I%u (B%u), A%u (B%u)
-=1cb
-=87M
-=FALSE
-=cQ6
-=e2m
-=imb;D
->cQ6
->jtm}S
-?1cb
-?7zQ6$
-?8UUUUU
-?8bunz8
-?@En[vP
-?JV8f
 ?N]TUUU
-?R0I?
 ?UUUUUU
-?f`Y4
-?qBJ
-?rAj
-?ysB
-@%08x
-@%d%s (ordinal)
-@%s<E&C%03.3d>
-@::<unnamed-tag>
-@Cannot access 32-bit type pool with 16-bit APIs
 @ILT
+@ILT+%d(
 @ILT+%d(%s)EnC
-@Module %d
-@\t@\r \n@\r \f@\v@\n@\v@\r@
-@^8U)zj
-@potentially uninitialized data accessed at this location <| I%u (B%u)
 A 'ret' instruction must be followed by either (1) the end of the shader or (2) a 'label' instruction. Aborting shader validation.
 A * (1/A) = 1 <| Explicit
 A * B for boolean A & B -> AND A, B <| MR.GenSimplifyInstructionsOpt1_NoExcl
@@ -1005,7 +980,6 @@ A*L2 REL L where L2 > 0 divides L as an INT <| MR.GenSimplifyInstructionsOpt1_No
 A*L2 REL L where L2 divides L as a UINT <| MR.GenSimplifyInstructionsOpt1_NoExcl
 A+A REL L (double) <| MR.GenSimplifyInstructionsOpt1_NoExcl
 A+A REL L <| MR.GenSimplifyInstructionsOpt1_NoExcl
-A>pP&
 ABCDEFGHIJKLMNOPQRSTUVWXYZ
 AB_BlendFactor
 AB_SampleMask
@@ -1020,7 +994,6 @@ ADDSIGNED
 ADDSIGNED2X
 ADDSMOOTH
 ADVAPI32.dll
-AK>(v
 ALLOW_INPUT_ASSEMBLER_INPUT_LAYOUT
 ALLOW_STREAM_OUTPUT
 ALPHA
@@ -1039,7 +1012,6 @@ AMBIENTMATERIALSOURCE
 AMPLIFICATION
 ANISOTROPIC
 ANTIALIASEDLINEENABLE
-A`1w>
 Abs modifier not allowed for operand #%d of opcode #%d (counts are 1-based). 
 Absolute and relative addressing of constant registers cannot be combined in one instruction.
 Absolute and relative addressing of input registers cannot be combined in one instruction.
@@ -1089,7 +1061,6 @@ Attributes
 August
 B*!(A * -B + B) -> A * B <| MR.GenSimplifyInstructionsOpt1_NoExcl
 BACK
-BC?>6t9^\tc:>
 BCryptCloseAlgorithmProvider
 BCryptCreateHash
 BCryptDestroyHash
@@ -1097,7 +1068,6 @@ BCryptFinishHash
 BCryptGetProperty
 BCryptHashData
 BCryptOpenAlgorithmProvider
-BF>^G
 BINORMAL
 BLENDCURRENTALPHA
 BLENDDIFFUSEALPHA
@@ -1167,17 +1137,16 @@ By default, unbounded size descriptor tables are disabled to support frame captu
 By the end of a vertex shader, any oTn register written must not have gaps in components, starting from x, in order xyzw. To satisfy this, oT%d requires writing of the additional component%s(*): %s 
 ByteAddressBuffer
 Bytecode appears corrupt - integrity check failed.
-C5R?\t
 CAMERASPACENORMAL
 CAMERASPACEPOSITION
 CAMERASPACEREFLECTIONVECTOR
 CB%d
+CB%d[%d:
 CB[%d] already declared, repeated declaration on opcode #%d (count is 1-based). 
 CCW_STENCILFAIL
 CCW_STENCILFUNC
 CCW_STENCILPASS
 CCW_STENCILZFAIL
-CL:>8
 CLAMP
 CLIPDST
 CLIPPING
@@ -1239,12 +1208,12 @@ CUBIC
 CULLDST
 CULLMODE
 CURRENT
-CWD>~3
 CalculateLevelOfDetail
 CalculateLevelOfDetailUnclamped
 Can't continue validation - aborting.
 Can't create/set an invalid shader. Make sure your shader is valid, and make sure you're not using asm shaders in SM4.0
 Can't fall through case/default unless case/default has no code. Opcode #%d (count 1-based). Aborting validation.
+Cannot access 32-bit type pool with 16-bit APIs
 Cannot append range with implicit lower bound after an unbounded range (descriptor table slot [%u], root parameter [%u]).\n
 Cannot apply a negation source modifier on data that was last written with the saturate destination modifier. Affected components(*) of %s source param: %s
 Cannot call subroutine label defined earlier in shader (label #%d in this case).  Subroutine call must reference label defined later in shader. Aborting shader validation. 
@@ -1351,7 +1320,6 @@ CryptGetHashParam
 CryptHashData
 CryptReleaseContext
 CullMode
-Cy2@K>
 Cycle Counter already declared.  Opcode #%d (count is 1-based). 
 Cycle Counter declaration must have mask of .x or .xy.  Opcode #%d (count is 1-based). 
 D0x%I64x
@@ -1422,7 +1390,6 @@ D3DX: (WARN) D3DX11 relies upon this behavior.\r\n
 D3DX: (WARN) Overloaded ::new and ::delete operators do not conform to C++ standards:\r\n
 D3DX: (WARN) least zero bytes. Deletion of a null pointer should quietly do nothing.\r\n
 D3DX_VERSION
-D=>3[FG
 DATA_STATIC
 DATA_STATIC_WHILE_SET_AT_EXECUTE
 DATA_VOLATILE
@@ -1578,15 +1545,12 @@ Dst modifiers not allowed for vertex shaders.
 Duplicate non-system value semantic definition: %s and %s
 Duplicate system value semantic definition: %s and %s
 Duplicated input semantics can't change type, size, or layout ('%s').
-E>nEA
 ELEMENTINDEX
 EMISSIVEMATERIALSOURCE
 ENABLEADAPTIVETESSELLATION
 EQUAL
 ERROR: Semantic %s is not supported in fx_4_1.
-ET5>
 EXP2
-E[\rn?gc
 Earlier texld instruction used _dz(=_db) modifier on source param. When a phase marker is present, the _dz modifier is only permitted after the phase marker.
 Early depth-stencil
 Effect file is too large, try reducing the number of techniques or compiling without debug info
@@ -1639,7 +1603,7 @@ Expected sample count of 0 but encountered %d for resource t%d.  Opcode #%d (cou
 Expected single component mask (or in certain cases also NULL or single component output operand allowed) for operand #%d of opcode #%d (counts are 1-based). 
 Extended 11.1 double operations not supported unless globalFlags includes enable11_1DoubleExtensions.
 Extended 11.1 shader operations not supported unless globalFlags includes enable11_1ShaderExtensions.
-F>qUxv
+FALSE
 FCIAddFile
 FCICreate
 FCIDestroy
@@ -1647,7 +1611,6 @@ FCIFlushCabinet
 FDICopy
 FDICreate
 FDIDestroy
-FEMh\f
 FFACE
 FILLMODE
 FILTER
@@ -1708,7 +1671,6 @@ Failed to log error, redirecting to debug output:\n
 Failed to parse shader using reference shader parser: 0x%x
 Fall-throughs in switch statements are not allowed.
 February
-FfW?
 FillMode
 Filter
 FindClose
@@ -1745,8 +1707,6 @@ FrontFaceStencilDepthFail
 FrontFaceStencilFail
 FrontFaceStencilFunc
 FrontFaceStencilPass
-FzX\v
-G>US
 GAUSSIANQUAD
 GCTL
 GEOMETRY
@@ -1830,15 +1790,12 @@ GetSystemTimeAsFileTime
 GetTimeFormatEx
 GetUserDefaultLCID
 GetUserDefaultLocaleName
-GfZ+?p
 Global flags already declared once.  Opcode #%d (count is 1-based). 
-GrJoq>@
 Group shared data for %s must be an array of elements\n
 Group shared data for %s must have a count of elements (%u) equal to the number of threads in the thread group (%u)\n
 Group shared data for %s must have an element size (%u) of at most %u bytes when compiling for %u theads\n
 GroupMemoryBarrier
 GroupMemoryBarrierWithGroupSync
-H>r1
 HH:mm:ss
 HLSL_VERSION
 HULL
@@ -1872,7 +1829,6 @@ Hull Shader output control point ID already declared.  Opcode #%d (count is 1-ba
 Hull Shader output control point count already declared. Aborting.  Opcode #%d (count is 1-based). 
 Hull Shader output max tessfactor already declared. Aborting.  Opcode #%d (count is 1-based). 
 HullShader
-I;u>A
 ID3D10Effect::ParseSODecl - Invalid output slot
 ID3D10Effect::ParseSODecl - Non-digit '%c' in output slot
 ID3D10Effect::ParseSODecl - invalid mask declaration '%s'
@@ -2089,7 +2045,6 @@ INV_SRC_ALPHA
 INV_SRC_COLOR
 ISOLINE
 Identifier invalid or not found (were you attempting a forward reference?)
-Il?333333c?
 Illegal character in shader file
 Illegal initializer
 Illegal initializer for a numeric variable
@@ -2284,7 +2239,6 @@ IsValidLocaleName
 Isoline
 It is invalid to use eval_* on position input due to hardware limitation.  Opcode #%d (count is 1-based). 
 January
-JhKz
 Join phase declared the same component(s) of output patch constant register o[#d] as already declared for output by a previous fork phase or other joint phase.
 Join phase declaring component(s) of input patch constant register vpc[%d] which have not been output by previous fork phase(s) or other join phase(s).
 July
@@ -2301,8 +2255,6 @@ L REL A*L2 where L2 > 0 divides L as an INT <| MR.GenSimplifyInstructionsOpt1_No
 L REL A*L2 where L2 divides L as a UINT <| MR.GenSimplifyInstructionsOpt1_NoExcl
 L REL A+A (double) <| MR.GenSimplifyInstructionsOpt1_NoExcl
 L REL A+A <| MR.GenSimplifyInstructionsOpt1_NoExcl
-L>ev
-L?UUUUUUU?
 LASTBETA_D3DCOLOR
 LASTBETA_UBYTE4
 LASTPIXEL
@@ -2463,10 +2415,7 @@ LIGHTTYPE
 LINEAR
 LINEDEN
 LINEDET
-LMIRSZWT
 LOCALVIEWER
-LWG>
-LWW>
 Label is defined inside a subroutine or main program. Label must follow the ret instruction. Aborting shader validation. 
 LeaveCriticalSection
 Legacy !A * (A + B) => !A * B <| MR.GenSimplifyInstructionsOpt1_NoExcl
@@ -2500,7 +2449,6 @@ Local root signatures only support shader visibility flag D3D12_SHADER_VISIBILIT
 LocalAlloc
 LocalFree
 LocaleNameToLCID
-M'y>0y
 M*x* matrix instructions cannot write to scalar output register.
 M*x* matrix instructions cannot write to scalar output registers (oFog, oPts).
 M3x2
@@ -2520,7 +2468,6 @@ MAXLOD
 MAXMIPLEVEL
 MAXTESSELLATIONLEVEL
 MESH
-MGiI
 MINFILTER
 MINTESSELLATIONLEVEL
 MIN_LINEAR_MAG_MIP_POINT
@@ -2566,7 +2513,6 @@ Maximum of 4 dp4 instructions allowed.
 Maximum semantic index (%d) exceeded: %d
 Method and Parameters
 Method.#%X
-Microsoft
 Microsoft (R) D3D Shader Disassembler\n
 Microsoft (R) D3DX9 Shader Assembler 10.1
 Microsoft (R) D3DX9 Shader Disassembler
@@ -2590,6 +2536,7 @@ Mismatch between shader declaration of 11.1 shader extensions and accompanying S
 Mismatch between shader declaration of double precision floats and accompanying Shader Feature Info blob (or lack thereof). Both the shader must declare double precision float use and a Shader Feature Info blob must specify the same thing as well, or neither should request it. 
 Mismatch between shader declaration of minimum precision and accompanying Shader Feature Info blob (or lack thereof). Both the shader must declare minimum precision use and a Shader Feature Info blob must specify the same thing as well, or neither should request it. 
 Mismatch between shader declaration of raw and structured buffers for shader 4_x and accompanying Shader Feature Info blob (or lack thereof). Both the shader must declare raw and structured buffer use and a Shader Feature Info blob must specify the same thing as well, or neither should request it. 
+Module %d
 Monday
 More than 2 constants (even identical ones) cannot be read by an instruction. (There is one exception: this rule does not apply to the SINCOS instruction.)
 MostRecentApplication
@@ -2610,15 +2557,11 @@ Multiply by 0 reduces to literal 0 <| Explicit
 Multiply by 2, 4, or 8 <| Explicit
 MultisampleEnable
 Must use texture register a dest param for tex* instructions.
-N3`d?
-N>O=I9
-N>VF
 NAN(IND)
 NAN(SNAN)
 NEVER
 NMLK
 NONE
-NOPQ9:?@H
 NORMAL
 NORMALDEGREE
 NORMALIZENORMALS
@@ -2636,7 +2579,6 @@ NOT BUGE => BULT <| MR.GenSimplifyInstructionsOpt1_Excl
 NOT BULT => BUGE <| MR.GenSimplifyInstructionsOpt1_Excl
 NOTEQUAL
 NOT_EQUAL
-NQ?s
 NULL
 NaN and infinity literals not allowed by shader model
 Name
@@ -2657,13 +2599,10 @@ November
 NumDescriptors cannot be 0 (descriptor table slot [%u], root parameter [%u]).\n
 Number of instruction slots used too high: %d. Max. allowed is %d.
 Numeric variables ('%s') can't be shared; share the containing cbuffer instead
-O8T>[
 OMSetRenderTargets
-OZQ%
 Objects not allowed in structures
 October
 Odd Fractional
-OfiD
 On current device, %s requires the condition%s parameter to be boolean constant register (b#). 
 On current device, %s requires the condition%s parameter to be predicate register (p0). 
 One of the instructions in a co-issue pair must write to alpha only (.a writemask).
@@ -2788,14 +2727,11 @@ ProcessTriTessFactorsAvg
 ProcessTriTessFactorsMax
 ProcessTriTessFactorsMin
 Psize
-Q5rHg,>
-QAf?
 QUAD
 QUADEDGE
 QUADINT
 QUADRATIC
 QUINTIC
-Qkkbal
 Quadrilateral
 QueryPerformanceCounter
 RANGEFOGENABLE
@@ -2804,7 +2740,6 @@ RESULTARG
 REVSUBTRACT
 REV_SUBTRACT
 RPCRT4.dll
-RSDSY2,B
 RTINDEX
 RWBuffer
 RWByteAddressBuffer
@@ -2817,8 +2752,6 @@ RWTexture1DArray
 RWTexture2D
 RWTexture2DArray
 RWTexture3D
-R\fpTT)
-R\vpTT)
 RaiseException
 Raster Ordered UAVs
 Rasterizer
@@ -2976,8 +2909,6 @@ RtlLookupFunctionEntry
 RtlPcToFileHeader
 RtlUnwindEx
 RtlVirtualUnwind
-S9>H
-S>$hkDh$h>[2
 SAMPLE
 SAMPLER
 SCISSORTESTENABLE
@@ -3074,6 +3005,7 @@ SV_Target
 SV_Target outputs must be contiguous from SV_Target0 to SV_TargetN
 SV_Target0
 SV_TessFactor
+SV_VertexID
 SV_ViewportArrayIndex
 S_ALIGN
 S_ANNOTATION
@@ -3667,7 +3599,6 @@ Try to reduce known values to movs <| Explicit
 Tuesday
 Tunnel through temp arrays on load <| Explicit
 Typed UAV Load Additional Formats
-UA>N0Wl
 UAV reference u%d has invalid flag.  Opcode #%d (count is 1-based). 
 UAV reference u%d must have a structure byte stride that is a multiple of 4 that is greater than 0 but no greater than %d when declared as structured (%d specified).  Opcode #%d (count is 1-based). 
 UAV reference u%d specified with invalid flag.  Opcode #%d (count is 1-based). 
@@ -3686,7 +3617,6 @@ ULT a,a -> false <| MR.GenSimplifyInstructionsOpt1_NoExcl
 UNKN
 UNKNOWN
 USEW
-UUUU
 UUUUU
 UUUUUU
 Unable to calculate derivative of %s. %s
@@ -3815,9 +3745,7 @@ WRAP6
 WRAP7
 WRAP8
 WRAP9
-WaNd?
 WaitForSingleObjectEx
-Wak>E
 WakeAllConditionVariable
 Wednesday
 When a %s shader writes to oCn, it must write to all of oC(n-1) down to oC0 (no gaps).
@@ -3857,7 +3785,6 @@ X OR Y : if( or_is_identity(x,y) => X <| MR.GenSimplifyInstructionsOpt1_NoExcl
 X OR Y : if( or_is_identity(y,x) => Y <| MR.GenSimplifyInstructionsOpt1_NoExcl
 X OR ~X => btrue <| MR.GenSimplifyInstructionsOpt1_NoExcl
 X,Y,Z
-X/4B
 XNA Prepass
 XYZB1
 XYZB2
@@ -3866,25 +3793,18 @@ XYZB4
 XYZB5
 XYZRHW
 XYZW
-Y2,B
-Y8a:
-Y>kX>M
 ZENABLE
 ZERO
 ZFUNC
-ZSq>
 ZWRITEENABLE
-Z\>z8
 Zero character semantics aren't allowed
-Zjz\v
 [%8I64u] 
+[%s%d.%c]
 [%s%d[%s].%c]
+[%s.%c]
 [%s[%s].%c]
 [%s[%u + %s].%c]
 [%s[%u].%c]
-[*ncd>0
-[*ncd>TQ
-[aOni*{
 [internal error]
 [thunk]:
 \n    NULL,\n
@@ -3897,17 +3817,8 @@ Zjz\v
 \n// approximately %u instruction%s used\n
 \n// | Table ID |         |
 \n\n[RootSignature(%s)]void ___DummyMainForRS(){}\n
-\nh?oT
-\nk>oB
 \nvoid main(
-\tJR>8o
-\tcQr
-\tkE>fvw
-\vA03>A|
-\vpTT)
-^<V7w
-^RfN>
-^axb
+_%d_%d.
 _RDATA
 __%s_n%u_%u
 ___DummyMainForRS
@@ -3962,7 +3873,6 @@ _fog
 _glc
 _indexable
 _normal
-_oD>Kg
 _opc
 _position
 _positiont
@@ -3986,7 +3896,6 @@ _volume
 `OTHER
 `PACKED
 `RTTI
-`Rs%a
 `TEMP
 `UUe?
 `adjustor{
@@ -4052,7 +3961,6 @@ a uint specifying the number of iterations to unroll
 a | r : if( known_bfi_bitmask_noshift_impmask(a,r) && and_is_zero(a,r) ) -> bfi(bfi_bitwidth_noshift_impmask(a,r), 0i, a, r) <| MR.GenD3D10_OptimizeEarlyTranslate_Excl
 a*(1/(b*a)) -> 1 / b <| MR.GenSimplifyInstructionsOpt1_Excl
 a0a0a0
-a6>r
 aL can only be referenced in the following scenarios: (1) inside a loop/endloop block, or (2) in a subroutine for which in all cases some call below in the stack is in a loop/endloop block. 
 abcdefghijklmnopqrstuvwxyz
 abort
@@ -4185,6 +4093,7 @@ b = ubfe/ushr(a,o), movc((b >> o) & iv_pow2, bfi(w, 0, b, -iv_pow2)) -> ibfe(get
 b | (a & c) | (a & d) -> or(b, and(a, or(c,d)) <| MR.GenSimplifyInstructionsOpt1_Excl
 b%d already def'd in the shader. 
 b%d must only be defined as true (0x00000001) or false (0x00000000). 
+b_%s
 back-propagate negate through iadd <| MR.GenSimplifyInstructionsOpt1_Excl
 back-propagate negate through imul <| MR.GenSimplifyInstructionsOpt1_Excl
 bad exception
@@ -4340,8 +4249,7 @@ byte
 byteOffset
 c%d already def'd in the shader. 
 c1, c2, c3, c4, c5, c6
-c>F2
-c?FA@s}
+c_%s
 calclod1d fp_flags <| SFPS
 calclod1d_a fp_flags <| SFPS
 calclod1d_u fp_flags <| SFPS
@@ -4555,6 +4463,7 @@ countbits fp_flags <| SFPS
 countbits int_literal <| SFPS
 countbits(i) -> and/shift/add sequence <| MR.Gen_RequiredTranslate
 cross
+cs_%d_%d\n
 cs_4_0
 cs_4_1
 cs_5_0
@@ -4595,9 +4504,6 @@ d(x+eps)/dz -> dx/dz <| SR.GenDerivatives_Unary
 d(x^-0.5)/dz -> -0.5*x^-1.5 * dx/dz <| SR.GenDerivatives_Unary
 d3ds_dotswiz
 d3ds_noiseswiz
-d8L2
-d?000000`?
-dRL>
 dabs float_literal <| SFPS
 dabs fp_flags <| SFPS
 dabs fp_range <| SFPS
@@ -4805,6 +4711,7 @@ drcp_approx float_literal <| SFPS
 drcp_approx fp_flags <| SFPS
 drcp_approx fp_range <| SFPS
 drcp_approx fp_specials <| SFPS
+ds_%d_%d\n
 ds_5_0
 ds_5_1
 dsat float_literal <| SFPS
@@ -4863,8 +4770,6 @@ dword
 dynamic_cast
 e+000
 e0e0e0
-eF>t
-eLK(w
 earlydepthstencil
 element type of texture too large. Cannot exceed 4 components
 elements
@@ -4948,9 +4853,6 @@ f32tof16 fp_flags <| SFPS
 f32tof16 int_literal <| SFPS
 f32tof16 int_range <| SFPS
 f32tof16(i) -> conversion sequence <| MR.Gen_RequiredTranslate
-fD>b
-fGa>
-fWi?
 faceforward
 failed to open source file: '%s'
 false
@@ -5173,17 +5075,16 @@ gradient operation uses a value that may not be defined for all pixels (in %s UA
 gradient-based operations must be moved out of flow control to prevent divergence. Performance may improve by using a non-gradient operation
 groupshared
 groupshared variables cannot contain resources such as textures, samplers or UAVs
+gs_%d_%d\n
 gs_4_0
 gs_4_1
 gs_5_0
 gs_5_1
-h0'D
-h>1my
-hW[G
 half
 height
 hex value truncated to 64 bits
 hlsl_full_path
+hs_%d_%d\n
 hs_5_0
 hs_5_0 control point
 hs_5_0 patch constant
@@ -5203,8 +5104,7 @@ i%d.x (which represents rep iteration count) cannot be negative. i%d.x is curren
 i%d.y (which represents loop initial value) must be in the range [0, %d]. i%d.y is currently def'd as %d. 
 i%d.yzw have no meaning in this shader model; they must simply be 0. 
 i%d.z (which represents loop step value) must be in the range [-%d, %d]. i%d.z is currently def'd as %d. 
-i>VF
-i]Wb
+i_%s
 iadd
 iadd bits_known <| SFPS
 iadd fp_flags <| SFPS
@@ -5600,9 +5500,6 @@ itod fp_flags <| SFPS
 itof
 itof fp_flags <| SFPS
 itof(ftoi(x)) -> trunc(x) <| MR.GenSimplifyInstructionsOpt1_NoExcl
-jeTb
-k=yI
-k>4\tF
 l-value specifies const object
 label
 label (%d) already defined. Opcode #%d (count 1-based). 
@@ -5640,6 +5537,7 @@ lerp(fbool, a, b) -> append_arg(a,b) <| SMR.RangeDataAnalysis
 lerp(fbool, finite a, 0) -> append_arg(a,0) <| SMR.RangeDataAnalysis
 lerp(fbool, finite a, finite b) -> append_arg(a,b) <| SMR.RangeDataAnalysis
 levels
+lib_%d_%d\n
 lib_4_0
 lib_4_0_level_9_1
 lib_4_0_level_9_1_ps
@@ -5710,15 +5608,12 @@ lt fp_flags <| SFPS
 lt fp_range <| SFPS
 lt of known range reduction <| Explicit
 lt(a, b) -> cmp(a - b, 0f, 1f) <| MR.Gen_RequiredTranslate
+m%u:
 m3x2
 m3x3
 m3x4
 m4x3
 m4x4
-m?H7
-mG4>
-mO-B
-m\nXo
 mad float_literal <| SFPS
 mad fp_flags <| SFPS
 mad fp_range <| SFPS
@@ -5902,8 +5797,6 @@ multiple concrete base types specified
 multiple variables found with the same user-specified location
 multiply
 mutable
-n03>Pu
-n]?iJ
 namespace
 namespace %s\n{    \n
 nan(ind)
@@ -5955,7 +5848,6 @@ numDescriptors
 numthreads
 o = $IsStandardLoad(a, chain) -> append_addressed(o, chain) (all sources) <| SMR.DataFlagAnalysis_NoPlaceHolder
 o = dfuse(ab) -> o->append_dfuse() <| SMR.DataFlagAnalysis
-o?GS
 oC%d already written. (oCn registers can only be written at most once each)
 oC%u
 oCn registers may only be written using the mov instruction.
@@ -5967,7 +5859,6 @@ oDepth may only be written using the mov instruction.
 oDepthGE
 oDepthLE
 oFog
-oI>O7
 oMask
 oPos
 oPts
@@ -5977,7 +5868,6 @@ oX%u
 object element type cannot be an object type
 object literals are not allowed inside functions
 object's templated type must have at least one element
-obwQ4
 octal value truncated to 64 bits
 offset
 offset texture instructions must take offset which can resolve to integer literal in the range -8 to 7
@@ -6024,11 +5914,6 @@ overlapping output semantics
 overlapping register semantics not yet implemented '%c%u'
 overlapping register semantics not yet implemented 'c%u'
 overloaded function not found
-owM&
-p>.G1
-p>Y3
-pTT)
-p\rP\f0
 pack_matrix
 packoffset
 packoffset cannot have a target qualifier
@@ -6066,6 +5951,7 @@ position already declared for output.  Opcode #%d (count is 1-based).
 position declaration must have xyzw mask.  Opcode #%d (count is 1-based). 
 positiont
 positive sqrt(x*x) identity <| MR.GenSimplifyInstructionsOpt1_NoExcl
+potentially uninitialized data accessed at this location <| I%u (B%u)
 potentially unintended use of a comma expression in a return statement
 potentially unintended use of a comma expression in a variable initializer
 pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
@@ -6114,6 +6000,7 @@ ps.2.sw
 ps.2.x
 ps.3.0
 ps.3.sw
+ps_%d_%d\n
 ps_1_0
 ps_1_0 is no longer supported.  It turned out that pixel shader capable hardware will always support at least ps_1_1 (which is not as limited a model as ps_1_0 was). To convert a ps_1_0 shader up to ps_1_1, the only change needed is to make the version number 1_1. 
 ps_1_0 is no longer supported; using ps_1_1
@@ -6146,8 +6033,6 @@ ps_5_1
 psize
 public
 public: 
-q>F,3
-qS>g?h3
 quad
 r | (a & n) : if( known_bfi_bitmask_noshift(n,a,r) && and_is_zero(n,r) ) -> bfi(bfi_bitwidth_noshift(n,a,r), 0i, a, r) <| MR.GenD3D10_OptimizeEarlyTranslate_Excl
 r | (a = bfi(w, o, v, 0i)) : if( mask_is_zero(w,o,r) ) -> bfi(w, o, v, r) <| MR.GenSimplifyInstructionsOpt1_Excl
@@ -6158,9 +6043,6 @@ r0 must be written by shader. Uninitialized component%s(*): %s
 r0 must be written by shader. Uninitialized component%s(*): %s. Note that an unfortunate effect of the phase marker in the shader is that the moment it is encountered in certain hardware, values previously written to alpha in any r# register, including r0, are lost. So after a phase marker, the alpha component of r0 must be written.
 r0 must be written by shader. Uninitialized component%s(*): %s. Note that when texcrd is used with a .xy(==.rg) writemask, as it is in this shader, a side effect is that anything previously written to the z(==b) component of the destination r# register is lost and this component becomes uninitialized. The blue component of r0 must to be written after the texcrd.
 r0 must be written by shader. Uninitialized component%s(*): %s. Note that when texcrd is used with a .xy(==.rg) writemask, as it is in this shader, a side effect is that anything previously written to the z(==b) component of the destination r# register is lost and this component becomes uninitialized. The blue component of r0 must to be written after the texcrd. Also: Note that an unfortunate effect of the phase marker in the shader is that the moment it is encountered in certain hardware, values previously written to alpha in any r# register, including r0, are lost. So after a phase marker, the alpha component of r0 must be written.
-rNm>)
-r\tVr.>T
-r\vpTT)
 race condition writing to shared memory detected, consider making this write conditional.
 race condition writing to shared memory detected, note that threads will be writing the same value, but performance may be diminished due to contention.
 race condition writing to shared resource detected, consider making this write conditional.
@@ -6265,7 +6147,7 @@ rsq(x) * rsq(x) -> rcp(x) <| MR.GenSimplifyInstructionsOpt1_Excl
 rsq(x) * rsq(x) -> rcp(x) for positive x <| MR.GenSimplifyInstructionsOpt1_Excl
 rsqrt
 ruledisable
-sHF'
+s_%s
 sample
 sample 
 sample count must be non-zero
@@ -6892,9 +6774,7 @@ utof
 utof fp_flags <| SFPS
 utof(sampleinfo_uint(x)) -> sampleinfo(x) <| MR.GenSimplifyInstructionsOpt1_NoExcl
 utof(sampleinfo_uint_rt(x)) -> sampleinfo_rt(x) <| MR.GenSimplifyInstructionsSampleMask_Both
-uzKs@>
 v# register read by instruction(s) before phase marker.  This is not permitted. When a phase marker is present, v# register reads are only permitted after the phase marker.
-v2!L.2
 vCoverage
 vCycleCounter
 vCycleCounter can only be used with the mov instruction.  Opcode #%d, operand #%d (counts are 1-based). 
@@ -6966,6 +6846,7 @@ vs.2.sw
 vs.2.x
 vs.3.0
 vs.3.sw
+vs_%d_%d\n
 vs_1_0
 vs_1_0 is no longer supported.  It turned out that vertex shader capable hardware will always support at least vs_1_1 (which is not as limited a model as vs_1_0 was). To convert a vs_1_0 shader up to vs_1_1, the only change needed is to make the version number 1_1. 
 vs_1_0 is no longer supported; using vs_1_1
@@ -6994,10 +6875,8 @@ wchar_t
 when multiple GS output streams are used they must be pointlists
 while
 width
-wn>Jj
 x / x -> 1 <| MR.GenSimplifyInstructionsOpt1_NoExcl
 x ? firstbit*(x) : -1 -> firstbit*(x) <| MR.GenSimplifyInstructionsOpt1_NoExcl
-xT?V
 xor bits_known <| SFPS
 xor fp_flags <| SFPS
 xor int_flags <| SFPS
@@ -7007,11 +6886,8 @@ xrai
 xrao
 xyzw
 xyzw (same as not specifying mask)
-yE>cb
 z or w components of vPos register are not available in this shader version, and cannot be dcl'd.
-z>h4
 { %d, %d, %d, %d }
 { %g, %g, %g, %g }
 {flat}
 {for 
-}yXZ,

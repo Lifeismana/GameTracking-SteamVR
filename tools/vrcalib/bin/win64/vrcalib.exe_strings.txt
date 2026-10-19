@@ -88,7 +88,6 @@
  (z < %.5g%%)\n
  ** On entry to 
  ------ (%d,%d,%d) Relative error worse than %g
- @F:\vr\main\src\thirdparty\ceres-solver\1.13.0\suitesparse-metis-for-windows-master\SuiteSparse\CHOLMOD\Include\../Cholesky/cholmod_resymbol.c
  BODY:
  DLAMC2,
  Filename base: 
@@ -132,6 +131,10 @@
 % 10d % 10d %17f\n
 % 4d % 8e   % 3.2e   % 3.2e  % 3.2e  % 3.2e % 3.2e     % 4d   % 3.2e   % 3.2e
 % 4d: f:% 8e d:% 3.2e g:% 3.2e h:% 3.2e s:% 3.2e e:% 3d it:% 3.2e tt:% 3.2e
+%#.*E
+%#.*f
+%%.%dg
+%+.2d
 %02x
 %04X
 %12g 
@@ -140,8 +143,11 @@
 %c%02d%02d %02d:%02d:%02d.%06d %5u %s:%d] RAW: 
 %f  %f  %f  %f  %f  %f  %f  %f\n
 %hu,%hu,'%4c',%hu
+%s,%s,%s
+%s: %s\n
 %s: end of file\n
 %s: illegal error number %d\n
+%s:%d
 ' is not a number.
 'A' Must be non NULL
 'A->block_structure()' Must be non NULL
@@ -413,7 +419,6 @@
 .?AVrange_error@std@@
 .?AVruntime_error@std@@
 .?AVtype_info@@
-.AGLOG_v
 .CRT$XCA
 .CRT$XCAA
 .CRT$XCL
@@ -517,7 +522,6 @@
 0123456789ABCDEF
 1e+9999
 333333
-4\nU#t4
 < Solver::Options::line_search_sufficient_curvature_decrease.
 < Solver::Options::min_line_search_step_contraction.
 <= Solver::Options::initial_trust_region_radius.
@@ -550,6 +554,8 @@
 ??1_Lockit@std@@QEAA@XZ
 ??1ios_base@std@@UEAA@XZ
 ??4?$_Yarn@D@std@@QEAAAEAV01@PEBD@Z
+??4Mat@cv@@QEAAAEAV01@$$QEAV01@@Z
+??4Mat@cv@@QEAAAEAV01@AEBV01@@Z
 ??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@G@Z
 ??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@H@Z
 ??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@I@Z
@@ -560,6 +566,9 @@
 ??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@_J@Z
 ??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@_K@Z
 ??Bid@locale@std@@QEAA_KXZ
+??Gcv@@YA?AVMatExpr@0@AEBVMat@0@0@Z
+??Hcv@@YA?AVMatExpr@0@AEBVMat@0@AEBV10@@Z
+??Ncv@@YA?AVMatExpr@0@AEBVMat@0@N@Z
 ??_7?$basic_ios@DU?$char_traits@D@std@@@std@@6B@
 ??_7?$codecvt@_WDU_Mbstatet@@@std@@6B@
 ??_7_Facet_base@std@@6B@
@@ -591,7 +600,6 @@
 ?_Xlength_error@std@@YAXPEBD@Z
 ?_Xout_of_range@std@@YAXPEBD@Z
 ?always_noconv@codecvt_base@std@@QEBA_NXZ
-?cal_method
 ?circle@cv@@YAXAEBV_InputOutputArray@1@V?$Point_@H@1@HAEBV?$Scalar_@N@1@HHH@Z
 ?clone@Mat@cv@@QEBA?AV12@XZ
 ?connectedComponents@cv@@YAHAEBV_InputArray@1@AEBV_OutputArray@1@HH@Z
@@ -601,11 +609,9 @@
 ?cout@std@@3V?$basic_ostream@DU?$char_traits@D@std@@@1@A
 ?create@_OutputArray@cv@@QEBAXHHHH_NW4DepthMask@12@@Z
 ?cvtColor@cv@@YAXAEBV_InputArray@1@AEBV_OutputArray@1@HH@Z
-?display_serial_number
 ?divide@cv@@YAXAEBV_InputArray@1@0AEBV_OutputArray@1@NH@Z
 ?empty@Mat@cv@@QEBA_NXZ
 ?error@cv@@YAXHAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PEBD1H@Z
-?ffffff
 ?flush@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@XZ
 ?getMat_@_InputArray@cv@@QEBA?AVMat@2@H@Z
 ?getRotationMatrix2D_@cv@@YA?AV?$Matx@N$01$02@1@V?$Point_@M@1@NN@Z
@@ -618,9 +624,7 @@
 ?imwrite@cv@@YA_NAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBV_InputArray@1@AEBV?$vector@HV?$allocator@H@std@@@3@@Z
 ?in@?$codecvt@DDU_Mbstatet@@@std@@QEBAHAEAU_Mbstatet@@PEBD1AEAPEBDPEAD3AEAPEAD@Z
 ?in@?$codecvt@_WDU_Mbstatet@@@std@@QEBAHAEAU_Mbstatet@@PEBD1AEAPEBDPEA_W3AEAPEA_W@Z
-?interface
 ?kind@_InputArray@cv@@QEBA?AW4KindFlag@12@XZ
-?leading dimension invalid
 ?merge@cv@@YAXAEBV_InputArray@1@AEBV_OutputArray@1@@Z
 ?mul@Mat@cv@@QEBA?AVMatExpr@2@AEBV_InputArray@2@N@Z
 ?ones@Mat@cv@@SA?AVMatExpr@2@V?$Size_@H@2@H@Z
@@ -648,7 +652,6 @@
 ?split@cv@@YAXAEBV_InputArray@1@AEBV_OutputArray@1@@Z
 ?sputc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QEAAHD@Z
 ?sputn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QEAA_JPEBD_J@Z
-?startio
 ?sync@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAHXZ
 ?tellg@?$basic_istream@DU?$char_traits@D@std@@@std@@QEAA?AV?$fpos@U_Mbstatet@@@2@XZ
 ?threshold@cv@@YANAEBV_InputArray@1@AEBV_OutputArray@1@NNH@Z
@@ -682,7 +685,6 @@ Argument:
 BFGS
 BFGS line search being created with: 
 BISECTION
-B\fp\v0
 BackSubstitute
 Bad escape sequence in string
 Bad unicode escape sequence in string: four digits expected.
@@ -807,6 +809,7 @@ CreateHessianGraph
 Created distortion maps\n
 Creating terminal font...\n
 Creating terminal output...\n
+DENSE_NORMAL_CHOLESKY
 DENSE_QR
 DENSE_SCHUR
 DGELQ2
@@ -1009,6 +1012,7 @@ F:\vr\main\src\thirdparty\ceres-solver\1.13.0\suitesparse-metis-for-windows-mast
 F:\vr\main\src\thirdparty\ceres-solver\1.13.0\suitesparse-metis-for-windows-master\SuiteSparse\CHOLMOD\Include\../Cholesky/cholmod_etree.c
 F:\vr\main\src\thirdparty\ceres-solver\1.13.0\suitesparse-metis-for-windows-master\SuiteSparse\CHOLMOD\Include\../Cholesky/cholmod_factorize.c
 F:\vr\main\src\thirdparty\ceres-solver\1.13.0\suitesparse-metis-for-windows-master\SuiteSparse\CHOLMOD\Include\../Cholesky/cholmod_postorder.c
+F:\vr\main\src\thirdparty\ceres-solver\1.13.0\suitesparse-metis-for-windows-master\SuiteSparse\CHOLMOD\Include\../Cholesky/cholmod_resymbol.c
 F:\vr\main\src\thirdparty\ceres-solver\1.13.0\suitesparse-metis-for-windows-master\SuiteSparse\CHOLMOD\Include\../Cholesky/cholmod_rowcolcounts.c
 F:\vr\main\src\thirdparty\ceres-solver\1.13.0\suitesparse-metis-for-windows-master\SuiteSparse\CHOLMOD\Include\../Cholesky/cholmod_rowfac.c
 F:\vr\main\src\thirdparty\ceres-solver\1.13.0\suitesparse-metis-for-windows-master\SuiteSparse\CHOLMOD\Include\../Cholesky/cholmod_solve.c
@@ -1064,6 +1068,7 @@ GLOG_logtostderr
 GLOG_max_log_size
 GLOG_minloglevel
 GLOG_stop_logging_if_full_disk
+GLOG_v
 GLOG_vmodule
 GOOGLE_ALSOLOGTOSTDERR
 GOOGLE_LOGTOSTDERR
@@ -1175,7 +1180,6 @@ Maximum number of iterations reached.
 Maximum number of iterations reached. Number of iterations: %d.
 Maximum solver time reached.
 Maximum solver time reached. Total solver time: %e >= %e.
-MbP?
 Microsoft Windows
 Minimum trust region radius reached. Trust region radius: %e <= %e
 Missing ',' or ']' in array declaration
@@ -1235,7 +1239,6 @@ QUADRATIC
 QueryPerformanceCounter
 RAW_LOG ERROR: The Message was too long!\n
 RE-SOLVING DUE TO OUTLIER REMOVAL\n
-RSDS
 Rank of subspace basis is 0. 
 Rank of the subspace basis matrix is reported to be 
 Re-solve with %s, rough center, and cut-down radius to get the final focal length (channel %d):\n
@@ -1486,13 +1489,8 @@ Zoom phase found step size:
 \InternalName
 \StringFileInfo\
 \VarFileInfo\Translation
-\f??Gcv@@YA?AVMatExpr@0@AEBVMat@0@0@Z
-\f??Hcv@@YA?AVMatExpr@0@AEBVMat@0@AEBV10@@Z
-\f??Ncv@@YA?AVMatExpr@0@AEBVMat@0@N@Z
 \n Jacobian matrix : 
 \n%s\n                                   Delta   Cumulative\n
-\n??4Mat@cv@@QEAAAEAV01@$$QEAV01@@Z
-\n??4Mat@cv@@QEAAAEAV01@AEBV01@@Z
 \nCHOLMOD ERROR: %s: 
 \nCalibration solve with ( %d, %d, %d ) points.\n\n
 \nDetected %d bad Jacobian component(s). Worst relative error was %g.\n
@@ -1505,7 +1503,6 @@ Zoom phase found step size:
 _A.txt
 _CxxThrowException
 _D.txt
-_DENSE_NORMAL_CHOLESKY
 _Dtest
 _Mtx_destroy_in_situ
 _Mtx_init_in_situ
@@ -1662,6 +1659,7 @@ c:\buildslave\steamvr_rel_win64\build\src\vortexlib\stereo_setup.cpp
 c:\buildslave\steamvr_rel_win64\build\src\vrcalib\Retailvrcalib_public\win64\2017\vrcalib_public.pdb
 c:\buildslave\steamvr_rel_win64\build\src\vrcalib\terminal.cpp
 c:\buildslave\steamvr_rel_win64\build\src\vrcalib\vrcalib_utils.cpp
+cal_method
 calibrate_eye_to_head
 calloc
 camera1 != camera2
@@ -1732,6 +1730,7 @@ display_gc
 display_hdr10
 display_mc
 display_multiframerate
+display_serial_number
 display_usb_pid
 display_usb_protocol
 display_usb_vid
@@ -1747,6 +1746,7 @@ dot_diameter
 dot_pattern.json
 dot_separation
 dots
+driver
 drivers
 dsc_bppx16
 dsc_slices
@@ -1758,7 +1758,6 @@ dst_height %d\n
 dst_width %d\n
 dual_extrinsics
 duplicate key: 
-eDx"
 eEYE_FIRST
 eEYE_L
 eEYE_LEFT
@@ -1873,6 +1872,7 @@ initialLeft %f %f\n
 initialRight %f %f\n
 input_profile
 instead.
+interface
 internal
 intrinsics
 invalid
@@ -1902,6 +1902,7 @@ last format: %s\n
 last_eye
 lately %s %s %s %s
 ldexp
+leading dimension invalid
 left
 left centerDst %f %f\n
 left dxDst %f %f\n
@@ -2030,8 +2031,6 @@ out of memory
 out of memory; L now symbolic
 outlier_error_threshold
 output->num_nonzeros() == input.num_nonzeros()
-p\r0\fP
-p\rP\f0!p
 parallel_render_cameras
 parameter_block->index() != -1
 parameter_block_sizes.size() == parameter_blocks.size()
@@ -2112,6 +2111,7 @@ srcX0 + copyW <= gw && srcY0 + copyH <= gh
 srcX0 >= 0 && srcY0 >= 0
 src_height %d\n
 src_width %d\n
+startio
 status: ERROR, GPU had a fatal error\n
 status: ERROR, invalid parameter\n
 status: ERROR, method not installed\n
@@ -2216,7 +2216,6 @@ x_plus_delta = Plus(x, delta) failed.
 xtype invalid
 xtype of A and F do not match
 xtype of A and L do not match
-y?driver
 you can get its local parameterization.
 z < %.5g%%) or
 zDUUUUUU

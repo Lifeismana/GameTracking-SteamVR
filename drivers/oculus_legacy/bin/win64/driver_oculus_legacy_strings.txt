@@ -143,7 +143,6 @@ Oculus
 Out of thread local storage!\n
 QueryPerformanceCounter
 RPCRT4.dll
-RSDS
 RaiseException
 ResetEvent
 RtlCaptureContext
@@ -167,6 +166,7 @@ TlsAlloc
 TlsFree
 TlsGetValue
 TlsSetValue
+Unable to create texture set for pid %u: %s\n
 Unable to init oculus camera tracker\n
 UnhandledExceptionFilter
 Unknown exception
@@ -180,13 +180,12 @@ WaitForSingleObject
 WaitForSingleObjectEx
 WakeAllConditionVariable
 Warning: Watchdog %s not properly cleaned up%s%s\n
+[OculusDirect] Begin AcquireSync
 [OculusDirect] Begin ReleaseSync
 [OculusDirect] End AcquireSync
 [OculusDirect] End ReleaseSync
 [OculusDirect] ovr_SubmitFrame - Begin
 [OculusDirect] ovr_SubmitFrame - End
-\vUnable to create texture set for pid %u: %s\n
-][OculusDirect] Begin AcquireSync
 _Camera
 _Cnd_destroy_in_situ
 _Cnd_init_in_situ

@@ -84,7 +84,6 @@ LeaveCriticalSection
 LoadLibraryExW
 NULL
 QueryPerformanceCounter
-RSDS
 RaiseException
 RtlCaptureContext
 RtlLookupFunctionEntry

@@ -4,6 +4,8 @@
  ReadToken overflow
  [%.3f server clamped to %.3f]
  fnumber=%d ofs=0x%x sz=%d
+ max. %f
+ min. %f
  need to hook up zip for linux
 !pRequest->m_bUsedAsContext
 !pRequestBase->m_bUsedAsContext
@@ -19,12 +21,14 @@ $ORIGIN
 %-120s - %s\n
 %-120s\n
 %-20s "%s" %s%s\n
+%-20s %s\n
 %d_%d_%d_%d_%d.tmp
 %f %f %f %f
 %i %i %i %i
 %lld
 %ls [wstring, len = %d]
 %s %20s %30s = %8.2fms (call count = %d)\n
+%s%d
 %s%s%s crc=0x%x metadatasz=%d
 %s, %s, %s\n
 %s.360%s
@@ -116,7 +120,6 @@ $ORIGIN
 25CFileSystemReloadFileList
 26CDefaultKeyValuesErrorSpew
 26CFileAsyncDirectoryScanJob
-5t~BC
 6ConVar
 7IConVar
 8CFmtStrNILi256ELb0EE

@@ -7,6 +7,7 @@
 #GUID
 #Mono Common Language Infrastructure
 #Strings
+%%Jo..\r
 %Named mappings scope is process local
 &&Lj66lZ??~A
 &Lj&6lZ6?~A?
@@ -1028,6 +1029,7 @@ CustomAttributeExtensions
 CustomProperty
 CustomRestriction
 CustomRestrictionHash
+D%G}
 DD.9
 DEBUG
 DEFAULT_ARRAY_SIZE
@@ -3737,6 +3739,7 @@ ZipQueryOperator`3
 \44h
 \fThe second data source of a binary operator must be of type System.Linq.ParallelQuery<T> rather than System.Collections.Generic.IEnumerable<T>. To fix this problem, use the AsParallel() extension method to convert the right data source to System.Linq.ParallelQuery<T>.
 \fUnrestricted
+\n%oh\t
 \n%ra9
 \n0\vrw
 \nY57
@@ -3750,6 +3753,7 @@ ZipQueryOperator`3
 \nrW1
 \nro9
 \nry0
+\nz%%{
 \nzrM8
 \nzse\t
 \rAllowMultiple
@@ -5192,6 +5196,7 @@ numUpgradeWaiters
 numWaiters
 numWriteUpgradeWaiters
 numWriteWaiters
+o%%Jr..\$
 o\nDV
 objExpression
 objVar
@@ -5714,6 +5719,7 @@ subType
 succeeds
 suppressOrder
 switchValue
+t%G}
 t(0B
 t0QP
 t\fK8

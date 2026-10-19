@@ -14,12 +14,9 @@
   setruntime <path> - Sets the runtime path\n
   setthis - Sets the runtime path to the runtime that vrpathreg lives in\n
   show - Display the current paths\n
- !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
  !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
- !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
  Base Class Array'
  Base Class Descriptor at (
- C>TQ
  Class Hierarchy Descriptor'
  Complete Object Locator'
  Type Descriptor'
@@ -27,29 +24,20 @@
  delete[]
  for detail.\n
  new
-"e?<<<<<<l?
-$Ib?s
+%%.%dg
 %.0Lf
 %H : %M : %S
 %I : %M : %S %p
 %b %d %H : %M : %S %Y
 %d / %m / %y
 %m / %d / %y
-&?PPPPPPP?
-&Sgw
 ' is not a number.
-( 8PX
 ('8PW
 (null)
-)yIx
-*StO9>T
 +v$x+v$xv$+xv+$xv$+x+$vx+$vx$v+x+$vx$+vx+v $+v $v $+v +$v $++$ v+$ v$ v++$ v$+ v+xv$+ v$v$ +v+ $v$ ++x$v+ $v$v ++ $v$ +v
-,HR>O
 -1e+9999
--BH>t
 -Infinity
 .00cfg
-.>\rfJBGo
 .?AUBuiltStyledStreamWriter@Json@@
 .?AUIExecutionContext@Concurrency@@
 .?AUIExecutionResource@Concurrency@@
@@ -269,10 +257,8 @@ $Ib?s
 .tls
 .tls$
 .tls$ZZZ
-.xJ>Hf
 .xdata
 .xdata$x
-/2GG>!B
 /user/ankle/left
 /user/ankle/right
 /user/camera
@@ -296,75 +282,29 @@ $Ib?s
 0123456789ABCDEFabcdef-+Xx
 0123456789ABCDEFabcdef-+XxPp
 0123456789abcdefghijklmnopqrstuvwxyz
-0E>X
-0X8b?~
-0iN>/
 1#IND
 1#INF
 1#QNAN
 1#SNAN
-11Y@
 1e+9999
-1eaB@
-3 FB
-37>k
-3>N;kU
-3>fvw
-3?tr
-51>W
-6NK>
-6\fXO>\ntA
-700PP
 700WP
-7>I0
-7?GX
-7~xh
-8ke?;
-9>70
-9>powf
 : exception thrown in JSON library
 :AM:am:PM:pm
 :Jan:January:Feb:February:Mar:March:Apr:April:May:May:Jun:June:Jul:July:Aug:August:Sep:September:Oct:October:Nov:November:Dec:December
 :Sun:Sunday:Mon:Monday:Tue:Tuesday:Wed:Wednesday:Thu:Thursday:Fri:Friday:Sat:Saturday
-=87M
-=cQ6
-=e2m
-=imb;D
->cQ6
->jtm}S
-?!5WOo
-?49HoKC
-?7zQ6$
-?7{KV\nU
-?8bunz8
-?@En[vP
-?R0I?
 ?UUUUUU
-?f`Y4
-?kxG2)
-?lZE
-?qBJ
-?rAj
-?ysB
 A valid JSON document must be either an array or an object value.
-A>pP&
 ABCDEFGHIJKLMNOPQRSTUVWXYZ
-AK>(v
 Access violation - no RTTI data!
 AcquireSRWLockExclusive
 AppPolicyGetProcessTerminationMethod
 April
 AreFileApisANSI
 August
-BC?>6t9^\tc:>
-BF>^G
 Bad dynamic_cast!
 Bad escape sequence in string
 Bad unicode escape sequence in string: four digits expected.
 Bad unicode escape sequence in string: hexadecimal digit expected.
-C5R?\t
-CL:>8
-CWD>~3
 Cannot search for empty driver name\n
 ChangeTimerQueueTimer
 CloseHandle
@@ -406,10 +346,6 @@ DequeueUmsCompletionListItems
 Duplicate key: '
 DuplicateHandle
 DynamicProgressFeedback
-E>nEA
-ET5>
-E[\rn?gc
-EiUL
 Empty escape sequence in string
 EncodePointer
 EnterCriticalSection
@@ -421,11 +357,8 @@ ExecuteUmsThread
 ExitProcess
 External Drivers:\n
 Extra non-whitespace after JSON value.
-F>qUxv
-FEMh\f
 Failed to parse log message
 February
-FfW?
 FileTimeToSystemTime
 FindClose
 FindFirstFileExW
@@ -441,7 +374,6 @@ FreeLibrary
 FreeLibraryAndExitThread
 FreeLibraryWhenCallbackReturns
 Friday
-G>US
 GetACP
 GetCPInfo
 GetCommandLineA
@@ -511,7 +443,6 @@ IND)ind)
 IND)ind).
 INITY
 IVRSystem_026
-Il?333333c?
 Infinity
 InitOnceExecuteOnce
 InitializeConditionVariable
@@ -532,13 +463,9 @@ January
 July
 June
 KERNEL32.dll
-L>ev
-L?UUUUUUU?
 LCIDToLocaleName
 LCMapStringEx
 LCMapStringW
-LWG>
-LWW>
 LargestInt out of Int range
 LargestInt out of UInt range
 LargestInt out of UInt64 range
@@ -557,7 +484,6 @@ MM/dd/yy
 March
 MaxConcurrency
 MaxPolicyElementKey
-Mbp?333333
 MinConcurrency
 Missing ',' or ']' in array declaration
 Missing ',' or '}' in object declaration
@@ -565,24 +491,16 @@ Missing ':' after object member name
 Missing '}' or object member name
 Monday
 MultiByteToWideChar
-N3`d?
-N>O=I9
-N>VF
 NAN(IND)
 NAN(SNAN)
-NQ?s
 None
 November
-OZQ%
 October
 Parsing of JSON file "%s" failed: %s\n
 PeekNamedPipe
-Q5rHg,>
-QAf?
 QueryDepthSList
 QueryPerformanceCounter
 QueryUmsThreadInformation
-RSDS/
 RaiseException
 ReadConsoleW
 ReadFile
@@ -599,8 +517,6 @@ RtlPcToFileHeader
 RtlUnwindEx
 RtlVirtualUnwind
 Runtime path = %s\n
-S9>H
-S>$hkDh$h>[2
 SHELL32.dll
 SHGetFolderPathW
 SNAN)
@@ -647,7 +563,6 @@ TraceEvent
 TryAcquireSRWLockExclusive
 TryEnterCriticalSection
 Tuesday
-UA>N0Wl
 UUUUUU
 UmsThreadYield
 Unable to create path registry directory %s\n
@@ -680,7 +595,6 @@ VR_ShutdownInternal
 VirtualAlloc
 VirtualFree
 VirtualProtect
-WaNd?
 WaitForSingleObjectEx
 WaitForThreadpoolTimerCallbacks
 WakeAllConditionVariable
@@ -690,21 +604,7 @@ WideCharToMultiByte
 WinRTInitialization
 WriteConsoleW
 WriteFile
-X/4B
-Y8a:
-Y>kX>M
-Z\>z8
 [ NO DRIVER NAME FOUND ]
-[*ncd>0
-[aOni*{
-\nh?oT
-\nk>oB
-\r\f\v\v\n\n\t\t\t\t\t
-\tcQr
-\tkE>fvw
-\vA03>A|
-^<V7w
-^RfN>
 __based(
 __cdecl
 __clrcall
@@ -722,7 +622,6 @@ _cabs
 _hypot
 _logb
 _nextafter
-_oD>Kg
 `RTTI
 `copy constructor closure'
 `default constructor closure'
@@ -733,7 +632,6 @@ _oD>Kg
 `eh vector destructor iterator'
 `eh vector vbase constructor iterator'
 `eh vector vbase copy constructor iterator'
-`h`hhh
 `local static guard'
 `local static thread guard'
 `local vftable constructor closure'
@@ -759,7 +657,6 @@ _oD>Kg
 `vector vbase copy constructor iterator'
 `vftable'
 `virtual displacement map'
-a6>r
 abcdefghijklmnopqrstuvwxyz
 acos
 activateOtherDriversWhenEnabled
@@ -795,7 +692,6 @@ bad locale name
 bad message
 broken pipe
 c:\buildslave\steamvr_rel_win64\build\src\vrpathreg\Retail\win64\2017\vrpathreg.pdb
-c?FA@s}
 ceil
 collectComments
 commentStyle
@@ -808,9 +704,6 @@ connection reset
 cosh
 count
 cross device link
-d8L2
-d?000000`?
-dRL>
 dddd, MMMM dd, yyyy
 deque<T> too long
 destination address required
@@ -824,16 +717,12 @@ double out of UInt64 range
 driver.vrdrivermanifest
 dropNullPlaceholders
 e+000
-eF>t
-eLK(w
 enableYAMLCompatibility
 eventObject
 exception thrown in JSON library
 executable format error
 expecting another \u token to begin the second half of a unicode surrogate pair
 external_drivers
-fD>b
-fWi?
 fabs
 failIfExtra
 false
@@ -846,8 +735,6 @@ fmod
 frexp
 function not supported
 generic
-h0'D
-h>1my
 hmd_presence
 host unreachable
 identifier removed
@@ -878,18 +765,12 @@ iostream
 iostream stream error
 is a directory
 jsonid
-k=yI
 keylength >= 2^30
 ldexp
 log10
-m?H7
-mG4>
-m\nXo
 map/set<T> too long
 message size
 modf
-n03>Pu
-n]?iJ
 name
 nan(ind)
 nan(snan)
@@ -917,9 +798,6 @@ not connected
 not enough memory
 not supported
 null
-o?GS
-oI>O7
-obwQ4
 openvr
 openvr_api.dll
 openvrpaths.vrpath
@@ -932,7 +810,6 @@ operator
 operator "" 
 operator co_await
 other_presence
-owM&
 owner dead
 pContext
 pEvents
@@ -940,15 +817,13 @@ pExecutionResource
 pScheduler
 pThreadProxy
 permission denied
+powf
 ppVirtualProcessorRoots
 precision
 prefersUpperDeviceIndices
 proc
 protocol error
 protocol not supported
-qS>g?h3
-rLp>B
-r\tVr.>T
 raB3G
 read only file system
 redirectsDisplay
@@ -988,8 +863,6 @@ too many symbolic link levels
 true
 unknown error
 useSpecialFloats
-uzKs@>
-v2!L.2
 value too large
 vector<T> too long
 version
@@ -997,6 +870,3 @@ vrmonitor://driverinstalled
 vrpathreg
 vrpathreg only accepts absolute paths. This is not absolute: %s\n
 wrong protocol type
-xT?V
-xpxxxx
-xwpwpp

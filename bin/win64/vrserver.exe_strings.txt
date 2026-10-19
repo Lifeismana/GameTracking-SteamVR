@@ -14,7 +14,6 @@
  -startupinfo 
  = { <proto text format> }". To set fields within it, use syntax like "
  Outdent() without matching Indent().
- SetDefaultAudioDevice: device = %s, role = %d\n
  Tokenizer::ParseFloat() passed text that could not have been tokenized as a float: 
  Tokenizer::ParseInteger() passed text that could not have been tokenized as an integer: 
  Tokenizer::ParseStringAppend() passed text that could not have been tokenized as a string: 
@@ -46,8 +45,6 @@
  for device 
  formatting error code 
  from path 
- google/protobuf/descriptor.proto"\f\n\nNoResponse*]\n
- google/protobuf/descriptor.proto:;\n
  https://*.valve.org/
  https://api.steampowered.com
  in Buffer\n
@@ -59,8 +56,6 @@
  of the Protocol Buffer runtime library, which is not compatible with the installed version (
  of type 
 !! refusing to trigger minidump with debugger attached\n
-!.google.protobuf.EnumValueOptions
-!AxU
 !g_bTestMode
 !g_pSharedResourceNamespaceServer
 !m_dashboardStartedEvent.Check()
@@ -142,7 +137,6 @@
 "sources" member must be an array
 "spot" is not a JSON object.
 "subtype": 
-"z\n\rMethodOptions
 #?RADIANCE
 #?RADIANCE\n
 #?RGBE
@@ -154,7 +148,6 @@
 #SaveError_BindingManifestNotFound
 #SaveError_BindingWriteFailed
 #SaveError_UnableToParseBinding
-#bML"
 #input_binding_load_below_minimum_version
 #input_binding_load_failed
 #input_binding_load_failed_no_url
@@ -165,15 +158,18 @@ $0 oneof $1 {\n
 $0$1$2 $3 = $4
 $0enum $1 {\n
 $0option $1;\n
-$3br
-$\n k_EProtoExecutionSiteSteamClient
-$\n k_EProtoServiceTypeSteamMessages
-%&'()*456789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
+%%.%dg
 %-10lu
 %-20s - %s\n
+%.*g
+%.*s
+%.1f
+%.2X
+%.3f
 %04X
 %08lx
 %3.1f
+%M:%hu
 %Y-%m-%d-%p_%I_%M_%S
 %a %b %d %H:%M:%S %Y
 %a %b %d %Y %H:%M:%S.%%03u
@@ -187,15 +183,19 @@ $\n k_EProtoServiceTypeSteamMessages
 %d commands.\n
 %d%m%Y-%H%M%S
 %d.%02d
+%d.%d.%d
 %d.%d.%d.%d
 %d/%d Matches.\n
+%d: %s
 %llX
 %lld->%lld
 %llu
 %llu %d %llu\n
 %lu %.*s -> %s %d
 %lu %c%c %c%c%c%c%c %lu %lu
+%lu %ld %d
 %lu %ld %lu:%lu:%lu %ld err %d
+%lu %ld %s
 %lu %ld accepted %M -> %M
 %lu %ld closed
 %lu %ld snd %ld/%ld rcv %ld/%ld n=%ld err=%d
@@ -203,6 +203,7 @@ $\n k_EProtoServiceTypeSteamMessages
 %lu WS CLOSE
 %lu accept failed, errno %d
 %lu detaching HTTP handler
+%lx\r\n
 %s %lf , %lf , %lf , %lf , %f , %f , %f
 %s %s startup with PID=%u, config=%s, runtime=%s, arch=%s\n
 %s - %dth app has no app key. Skipping.\n
@@ -226,8 +227,16 @@ $\n k_EProtoServiceTypeSteamMessages
 %s - Unable to read manifest. Removing that file for the next startup\n
 %s contains one or more NaNs. Discarding pose for %u from %s%s
 %s parameter out of range
+%s%d
+%s%s%s%s%s
+%s%s\n
+%s(%d)
 %s.gz
+%s.x
+%s.y
+%s.z
 %s: %p port=%d
+%s: %s
 %s: CoCreateInstance MMDeviceEnumerator failed: hr = 0x%08x\n
 %s: CreatePipe failed: %d
 %s: CreateProcess failed: %d
@@ -246,9 +255,12 @@ $\n k_EProtoServiceTypeSteamMessages
 %s: failed to unzip data (%s)
 %s: failed with error '%s' (%d)
 %s: too many verts; aborting
+%s:%d:%s
 %s[%s] %s file=%s
+%s_%3d
+%s_%s%s
+%u != %zu
 %u.%u.%u.%u
-&'()*56789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
 ' is not a number.
 ' property is missing
 ' property is missing in 
@@ -265,7 +277,6 @@ $\n k_EProtoServiceTypeSteamMessages
 ' property is not an object.\n
 ' to value '
 ' value is not an integer type.\n
-'(Failed Enumeration)
 '. Must be /action/<set>/in/<action> or /action/<set>/out/<action>.
 '.5<=6/7>????????????????
 '[', '{', or a literal
@@ -279,6 +290,7 @@ $\n k_EProtoServiceTypeSteamMessages
 ( vecData.size() % arrayEntrySize ) == 0
 ()$^.*+?[]|\-{},:=!\n\r
 (Enumerating)
+(Failed Enumeration)
 (General Failure)
 (Hub Nested Too Deeply)
 (In Legacy Hub)
@@ -287,22 +299,6 @@ $\n k_EProtoServiceTypeSteamMessages
 (Overcurrent)
 (Reset)
 (VID:%04X PID:%04X)
-(\t:P\n%vr_path_property_unset_on_steam_close
-(\v2 .google.protobuf.DescriptorProto
-(\v2!.google.protobuf.EnumValueOptions"
-(\v2$.google.protobuf.EnumDescriptorProto
-(\v2$.google.protobuf.FileDescriptorProto"
-(\v2$.google.protobuf.UninterpretedOption"/\n
-(\v2$.google.protobuf.UninterpretedOption":\n\fOptimizeMode
-(\v2$.google.protobuf.UninterpretedOption*\t
-(\v2%.google.protobuf.FieldDescriptorProto
-(\v2%.google.protobuf.OneofDescriptorProto
-(\v2&.google.protobuf.MethodDescriptorProto
-(\v2'.google.protobuf.ServiceDescriptorProto
-(\v2(.google.protobuf.SourceCodeInfo.Location
-(\v2).google.protobuf.EnumValueDescriptorProto
-(\v2-.google.protobuf.UninterpretedOption.NamePart
-(\v2/.google.protobuf.DescriptorProto.ExtensionRange
 (auto-remapped from 
 (cannot determine missing fields for lite message)
 (merge 
@@ -311,8 +307,6 @@ $\n k_EProtoServiceTypeSteamMessages
 **.shtml$|**.shtm$|**.html$|**.htm$
 *.json
 *.ttf
-*5KS
-*\n&k_EProtoServiceTypeVRGamepadUIMessages
 *gzip*
 , binary size = 
 , but got 
@@ -1346,8 +1340,6 @@ $\n k_EProtoServiceTypeSteamMessages
 .CRT$XPZ
 .CRT$XTA
 .CRT$XTZ
-.EProtoExecutionSite:
-.EProtoServiceType: k_EProtoServiceTypeSteamMessages:D\n
 .P6A?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBV01@PEAX@Z
 .P6AXPEBD0I_NPEAXPEA_N@Z
 .P6AX_N@Z
@@ -1370,17 +1362,6 @@ $\n k_EProtoServiceTypeSteamMessages
 .dll
 .dummy
 .foo = value".
-.google.protobuf.EnumOptions
-.google.protobuf.EnumOptions"l\n
-.google.protobuf.FieldOptions
-.google.protobuf.FieldOptions"
-.google.protobuf.FileOptions
-.google.protobuf.MessageOptions
-.google.protobuf.MethodOptions
-.google.protobuf.MethodOptions"
-.google.protobuf.ServiceOptions
-.google.protobuf.ServiceOptions"
-.google.protobuf.SourceCodeInfo"
 .html
 .idata$2
 .idata$3
@@ -1422,7 +1403,6 @@ $\n k_EProtoServiceTypeSteamMessages
 //==============================================================================================\n
 /Crash
 /Debug
-/P8i
 /TKR_LEFT
 /TKR_RIGHT
 /action_manifest/load_app_key
@@ -1712,50 +1692,24 @@ $\n k_EProtoServiceTypeSteamMessages
 /vrlink_client_isSteamVR
 /vrpathreg.json
 /without_controller_data
-/yQA
 0 width
 0-pixel image
 00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899
 00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899"
-00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899P
 0123456789ABCDEF
 0123456789abcdef
-098@
-0v5@
 1.2.5
 1/2/4/8/16-bit only
 11 4 22 44 44 22 444444
-11eU%
 127.0.0.1
 127.0.0.1:
-14:22:51
-1A26b
-1\f514
+13:51:51
 1e+9999
-1wsHp
-2#.google.protobuf.FieldOptions.CType:
-2).google.protobuf.FileOptions.OptimizeMode:
-2*.google.protobuf.FieldDescriptorProto.Type
-2+.google.protobuf.FieldDescriptorProto.Label
 258EAFA5-E914-47DA-95CA-C5AB0DC85B11
-4\f54d
-52F*
 5I)7
-5JCy7
-5JCy7JCy7JCy7JCy7
-5\n\vnested_type
-6\n\fmessage_type
-7\n\tenum_type
-7^d[L
-7~8A
-888@
-8\n\textension
 8c8f13b1-60eb-4b6a-a433-de86104115ac
 8d8f13b1-60eb-4b6a-a433-de86104115ac
 8e8f13b1-60eb-4b6a-a433-de86104115ac
-8giP9giP9giP9giP9
-9\n\noneof_decl
-9a&g
 : Protocol message serialized to a size different from what was originally expected.  Perhaps it was modified by another thread during serialization?
 : Tried to copy from a message with a different type. to: 
 : Tried to merge from a message with a different type.  to: 
@@ -1766,6 +1720,7 @@ $\n k_EProtoServiceTypeSteamMessages
 ; last read: '
 <!-- DATA -->
 </script>\n\n
+<U+%.4X>
 <discarded>
 <empty>
 <parse error>
@@ -1820,7 +1775,6 @@ $\n k_EProtoServiceTypeSteamMessages
 ??_7codecvt_base@std@@6B@
 ??_7facet@locale@std@@6B@
 ??_7ios_base@std@@6B@
-?PoseUpdated for invalid object ID %d\n
 ?_BADOFF@std@@3_JB
 ?_Decref@facet@locale@std@@UEAAPEAV_Facet_base@3@XZ
 ?_Execute_once@std@@YAHAEAUonce_flag@1@P6AHPEAX1PEAPEAX@Z1@Z
@@ -1919,7 +1873,6 @@ A protocol message was rejected because it was too big (more than
 A valid JSON document must be either an array or an object value.
 A wireless HMD driver is present, but the wireless HMD has not connected and Steam is not running (216)
 A wireless HMD driver is present, but the wireless HMD has not connected yet (215)
-A"QT
 ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/
 ACTIVE
 ADVAPI32.dll
@@ -2058,7 +2011,6 @@ Buffer
 BufferView
 BuildID
 Byte size calculation and serialization were inconsistent.  This may indicate a bug in protocol buffers or it may be caused by concurrent modification of the message.
-C-Yn
 CAnimResource
 CAppInfoManager::LaunchApplication
 CAppInfoManager::NoMoreSceneAppTransition
@@ -2119,7 +2071,6 @@ CHECK failed: uninterpreted_options_field != NULL:
 CHECK failed: value.size() <= kint32max: 
 CKeyframedDataResource
 CMMNotificationClient::Register
-CORD
 CPPTYPE_BOOL
 CPPTYPE_DOUBLE
 CPPTYPE_ENUM
@@ -2197,7 +2148,6 @@ CSteamVR_Settings_SetValue_Response
 CSteamVR_VRGamepadUI_Message
 CSteamWorker::ReleaseCurrentThreadMemory
 CSteamWorker::RunFrame
-CType
 CVRAudioDeviceImpl::CVRAudioDeviceImpl
 CVRAudioDeviceImpl::EnumAudioDevices
 CVRAudioDeviceImpl::GetDeviceSoundVolume
@@ -2487,6 +2437,7 @@ CloseServiceHandle
 Closing pipe %s because it was broken from the other end\n
 CoCreateInstance
 CoCreateInstance CPolicyConfigVistaClient failed: hr = 0x%08x\n
+CoCreateInstance(CLSID_CResamplerMediaObject) failed hr = 0x%08x\n
 CoInitializeEx
 CoInitializeEx, hr = 0x%08x\n
 CoTaskMemFree
@@ -2579,8 +2530,6 @@ Creating webui for %s=%s
 CurrentURL
 D3DKMTEnumAdapters2
 D3DKMTQueryAdapterInfo
-D7q/;M
-D98@
 DELEGATE 
 DISABLED
 DXGI VSync Thread ended\n
@@ -2605,8 +2554,6 @@ Default value for an enum field must be an identifier.
 Delaying NoMoreSceneAppTransition because %s ran for only %f seconds\n
 DeleteCriticalSection
 DeleteFileW
-DescriptorProto
-DescriptorProtosH
 Detail
 Detected %d playback and %d record devices\n
 Determined this is a legacy app.
@@ -2656,8 +2603,6 @@ Duplicate action '
 Duplicate key: '
 Duplicate mailbox name %s. Make one of those unique.\n
 DuplicateHandle
-EProtoExecutionSite
-EProtoServiceType
 ERROR
 ERROR: Failed to open log file %s, attempting timestamped filename\n
 ETrackedControllerRole_%d
@@ -2677,11 +2622,8 @@ Endpoint topology GetConnector(0) failed: hr = 0x%08x\n
 EnterCriticalSection
 Enum type "
 EnumAudioEndpoints failed: hr = 0x%08x\n
-EnumDescriptorProto
 EnumDisplayDevicesA
 EnumDisplayMonitors
-EnumValueDescriptorProto
-EnumValueOptions
 Enums must contain at least one value.
 Error
 Error creating driver direct shared state
@@ -2734,7 +2676,6 @@ Extension numbers must be positive integers.
 Extension range $0 to $1 includes field "$2" ($3).
 Extension range $0 to $1 overlaps with already-defined range $2 to $3.
 Extension range end number must be greater than start number.
-ExtensionRange
 Extensions of MessageSets must be optional messages.
 Extensions to non-lite types can only be declared in non-lite files.  Note that you cannot extend a non-lite type to contain a lite type, but the reverse is allowed.
 ExternalHub
@@ -2743,7 +2684,6 @@ FATAL
 FATAL: Failed to open log file %s, failing out!\n
 FORMAT=32-bit_rle_rgbe
 FS callback[s] not set\n
-F\n\foptimize_for
 Factory Function Not Found (104)
 Failed (err=0x%X) to create D3D surface for %s (%dx%d). Trying again with mipmaps disabled.\n
 Failed Dependency
@@ -2857,7 +2797,6 @@ Field numbers cannot be greater than $0.
 Field numbers must be positive integers.
 Field with message or enum type missing type_name.
 Field with primitive type has type_name.
-FieldDescriptorProto
 FieldDescriptorProto.extendee not set for extension field.
 FieldDescriptorProto.extendee set for non-extension field.
 FieldDescriptorProto.oneof_index $0 is out of range for type "$1".
@@ -2879,8 +2818,6 @@ File size
 File size mismatch : 
 File was empty
 File write error: 
-FileDescriptorProto
-FileDescriptorSet
 FileTimeToSystemTime
 Files that do not use optimize_for = LITE_RUNTIME cannot import files which do use this option.  This file is not lite, but it imports "
 Files with optimize_for = LITE_RUNTIME cannot define services unless you set both options cc_generic_services and java_generic_sevices to false.
@@ -2995,9 +2932,6 @@ GpuNameID
 GpuSpeed
 GraphicsDriver
 Guessing frequency of current display mode because SDL failed us\n
-H$6t
-H*0"ZOW
-H88@
 HAGS
 HAGS: %s\n
 HAPTICDEBUG %s:%d sec: %f\t freq: %f\t amp: %f\n
@@ -3212,7 +3146,6 @@ If-None-Match
 Ignoring connection from %s in CVRInputServer::OnClientConnect because it has no app key\n
 Ignoring duplicate app manifest path %s\n
 Ignoring user setting "forcedDriver": "%s" because %s\n
-IiGM>nw
 Image data is empty for image[
 Image height mismatch. for image[
 Image width mismatch for image[
@@ -3353,12 +3286,7 @@ Kernel32.dll
 KeyboardVisibleTime
 Kill process %s because it didn't quit in time\n
 Kill process?
-L98@
-LABEL_OPTIONAL
-LABEL_REPEATED
-LABEL_REQUIRED
 LINEAR
-Label
 Language
 LastKnown
 LaunchApplication
@@ -3410,7 +3338,6 @@ LocalAlloc
 LocalFree
 Localization files must be either an array (old-style) or an object (new-style). %s is neither\n
 LocalizationManager
-Location
 Location: %s\r\n
 Locked
 Log Level Set to %d\n
@@ -3420,12 +3347,11 @@ Lost master process %u due to pipe corruption. Quitting all in %g seconds if it 
 Lost master process %u due to restart hint. Quitting all in %g seconds if it doesn't reconnect. \n
 Lost master process %u for an unknown reason. Quitting all immediately. \n
 Low Power Watchdog Not Supported (129)
-LwH'
-M8MF
 MAT2
 MAT3
 MAT4
 MFCreateMediaType
+MFCreateMediaType failed hr = 0x%08x\n
 MFCreateMemoryBuffer
 MFCreateMemoryBuffer(%u) failed: hr = 0x%08x\n
 MFCreateSample
@@ -3436,7 +3362,6 @@ MG_EV_WS_MSG
 MG_EV_WS_OPEN
 MG_IO_SIZE: %lu, TLS: %s
 MG_MAX_RECV_SIZE
-MGiI
 MSFT_lod
 MSVCP140.dll
 Mac OS
@@ -3461,18 +3386,15 @@ Mailbox name %s is longer than the %u limit.\n
 MainThrd
 MapViewOfFile
 Material has extension MSFT_lod, but does not reference other materials via their ids.\n
-Mbp?{
 Message class "
 Message extensions cannot have required fields.
 Message missing required fields: 
 Message type "
 MessageBoxA
-MessageOptions
 MessageSets cannot have fields, only extensions.
 Messages can't have default values!
 Messages can't have default values.
 Method Not Allowed
-MethodDescriptorProto
 Microsoft/Windows/OpenVR/controller
 Minidump comment truncated
 Mirroring from %s to %ls\n
@@ -3504,13 +3426,11 @@ Multiple extension registrations for type "
 Must pass array of (string, value) elements.
 MutableRawRepeatedField
 MutableRepeatedMessage
-NJ2"v
 NOTPRESENT
 NULL
 NVAPI_DEBUG_DISPLAY_MODES
 NVAPI_SKIP_UNLOAD
 NVIDIA
-NamePart
 Need space between identifier and decimal point.
 Need space between number and identifier.
 NeedToUpdateAutosave
@@ -3595,15 +3515,13 @@ NvAPI: DirectModeGetDisplayModes trying again with older API!\n
 NvAPI: EnumerateDirectModeDisplays reported more than 1024 entries for mode: %d!\n
 NvAPI: Failed to get direct display modes! Error='%s' NumModes=%d\n
 NvAPI: Skipping NvAPI_Unload
-O*9y]
 OOM %s
 OPAQUE
 OS made HMD audio %s endpoint default (%s). Taking responsibility for restoring the previous default. %s\n
 OSBuild
 OSType
-OZw3(?
 Object
-Oct  9 2026
+Oct 16 2026
 OculusSDKStart for %s\n
 Old connection found for pid %d. Forcing it to disconnect before processing Msg_Connect\n
 On laptop, HMD detected over USB, but Monitor not found (213)
@@ -3613,7 +3531,6 @@ OnDeviceRemoved: device = %s\n
 OnDeviceStateChanged: DEVICE_STATE_%s (0x%8.8x), device = %s\n
 OnRegisterExternalWebRoot: Ignoring request from '%d' (focus=%d)
 Oneof must have at least one field.
-OneofDescriptorProto
 Only one of `bufferView` or `uri` should be defined, but both are defined for image[
 OpenEventA
 OpenFileMappingA
@@ -3640,11 +3557,8 @@ Out of thread local storage!\n
 OutputDebugStringA
 OutputDebugStringW
 Overwriting default binding file from web: %s\n
-P00@
-P30@
 PCI\VEN_%x&DEV_%x&SUBSYS_%x&REV_%x
 PC_%08llx
-PH6@
 PICT
 PID_
 PLACEHOLDER_VALUE
@@ -3687,7 +3601,6 @@ PRISM_SetDisplayMode
 PRISM_SetFrameInfoCallback
 PRISM_Shutdown
 PRISM_Stop
-PYG@
 Parse error in system resource manifest %s.\n
 Parse failed
 Parse failed for JSON message in mailbox %s: %s\n
@@ -3698,7 +3611,6 @@ Path not found
 Path_Exists( absFilePath )
 Payload Too Large
 Payment Required
-Pe6^
 PeekNamedPipe
 PerformApplicationPrelaunchCheck
 Permanent Redirect
@@ -3707,6 +3619,7 @@ PerspectiveCamera
 PlayAreaHeight
 PlayAreaWidth
 Playback devices:\n
+PoseUpdated for invalid object ID %d\n
 PoseUpdated from driver %s (%d) for device index %d which is owned by driver %s (%d)\n
 Positional emitter description not found.
 PowerOffTrackedDevice for %d - Could not find driver\n
@@ -3953,8 +3866,6 @@ Protocol Buffer reflection usage error:\n  Method      : google::protobuf::Refle
 Protocol message serialized itself in invalid fashion.
 Protocol message was modified concurrently during serialization.
 Proxy Authentication Required
-QkkXa
-Qkkbal
 Query failed
 QueryFullProcessImageNameA
 QueryPerformanceCounter
@@ -3972,10 +3883,8 @@ Quit requested while app transition was in progress. Aborting transition\n
 QuitProcessRequested
 Quitting all OpenVR processes because master process %u disconnected\n
 Quitting parent process %u because a quit was requested for its child %u.\n
-R1h58
 RGBG
 RPCRT4.dll
-RSDS!&
 RaiseException
 Range
 Reached an unintended state: CPPTYPE_MESSAGE
@@ -4106,8 +4015,6 @@ SERVICE_STOP_PENDING
 SETUPAPI.dll
 SHELL32.dll
 SHGetFolderPathW
-SKyu
-SPEED
 SSI not enabled
 STATIC Content Request
 STEAMAPPLIST_INTERFACE_VERSION001
@@ -4131,7 +4038,6 @@ STEAMVR_DISABLE_THREAD_WATCHDOGS
 STEAMVR_ENABLE_THREAD_WATCHDOGS
 STEAMVR_GPUVIS_ON_ASSERT
 STEAMVR_VERBOSE_HAPTIC_LOG
-STRING
 SafeMode
 Save failed
 SeatedResetViaAPICallCount
@@ -4153,8 +4059,6 @@ Service Unavailable
 Service not started.
 Service start pending...
 Service started successfully.
-ServiceDescriptorProto
-ServiceOptions
 SessionID
 SessionTime
 SetAllocatedMessage
@@ -4165,6 +4069,7 @@ SetApplicationPid: Setting app %s PID to %u\n
 SetApplicationPid: Unsetting %s PID %u because SetApplicationPid came in with a different key\n
 SetBool
 SetConsoleCtrlHandler
+SetDefaultAudioDevice: device = %s, role = %d\n
 SetDisplayEyeToHead for invalid HMD ID %u\n
 SetDisplayProjectionRaw for invalid HMD ID %u\n
 SetDouble
@@ -4264,7 +4169,6 @@ Somehow component llu ended up in our set to send even though it doesn't exist
 Something went wrong in ReadPathBatch. %u != %u\n
 Something went wrong in WritePathBatch. %u != %u\n
 Source mode for %s for controller %s had %d bindings, which we don't know how to deal with yet\n
-SourceCodeInfo
 SparseAccessor
 Spot light description not found.
 Standing transform was not updated when writing the universe to paths
@@ -4350,7 +4254,6 @@ Syntax error: value, object or array expected.
 System audio devices:\n
 SystemTimeToFileTime
 System\CurrentControlSet\Control\GraphicsDrivers
-T88@
 TdhEnumerateManifestProviderEvents
 Temporary Redirect
 TerminateProcess
@@ -4445,12 +4348,8 @@ Tried to merge messages of different types
 Tried to start binary process %s %s (working directory %s) as app %s but it failed\n
 Tried to start internal process %s %s (working directory %s) from app %s, pid %u but it failed\n
 True
-Ts\ne
-Type
 Type appears to be in generated pool but wasn't 
 Type is already registered: 
-U1(\Q
-U4ot
 U:\p4clients\thirdpartycode\nonredist\protobuf\protobuf-2.6.1\src\google/protobuf/repeated_field.h
 UNKNOWN
 UNKNOWN STATE
@@ -4556,7 +4455,6 @@ Unexpected end of string.
 Unexpected failure while serializing option submessage 
 UnhandledExceptionFilter
 Unimplemented type: 
-UninterpretedOption
 Unknown
 Unknown Command\n
 Unknown EVRApplicationType (%d)
@@ -5350,7 +5248,6 @@ Value out of range for int32 option "
 Value out of range for int64 option "
 Value out of range for uint32 option "
 Variant Also Negotiates
-Vc0a
 VendorNumberID
 VendorSpecificEvent %u for tracked device index not owned by driver\n
 VendorSpecificEvent %u outside of reserved range\n
@@ -5454,11 +5351,8 @@ WorkshopSelectConfig for %d for %s(%s) when we don't have a binding at all for t
 WriteFile
 Wrong Platform
 X-Frame-Options: sameorigin\r\nContent-Security-Policy: default-src 'self'
-X98@
 XXXX PNG chunk not known
-XsBI
 YUY2
-Zjz\v
 [%x:%x:%x:%x:%x:%x:%x:%x]
 [AnimSkeleton] Failed to load GLTF file: %s
 [CVRChaperoneServer] Rejecting new committed universe since IMU fallback is active
@@ -5644,6 +5538,7 @@ Zjz\v
 [OpenXR] SetXrInputConfig: Created default binding for app '%s'. Controller type '%s': %s\n
 [OpenXR] SetXrInputConfig: Loading %d bindings into context.\n
 [Port%d]
+[Port%d]: 
 [Port%d]: %s 
 [Remapping] AutoRemapBinding failed. No remapping available for controller type: %s.\n
 [Remapping] AutoRemapBinding failed. No remapping available from controller type: %s to controller type: %s.\n
@@ -5719,6 +5614,7 @@ Zjz\v
 [VirtualDisplay] WaitForPresent(%d) Done
 [VirtualDisplay] Woken up with no data!
 [WebRTC] Sent=%d bps Received=%d bps
+[Web] %s
 [Web] Server not Started. Document root directory %s does not exist.
 [Web] Server not started. Cannot bind webserver to port %u
 [Web] Shutting down web server.
@@ -5803,7 +5699,6 @@ Zjz\v
 [Workshop] [Query] ReadImports failed. Unable to read import file %s\n
 [Workshop] [Remapping] Failed to auto-remap binding file from %s to %s. Error: %s.\n
 [Workshop] [Remapping] Successfully auto-remapped binding file from %s to %s.\n
-[h1R
 [json.exception.
 [lazy = true] can only be specified for submessage fields.
 [libprotobuf %s %s:%d] %s\n
@@ -5829,56 +5724,9 @@ Zjz\v
 \n  Problem     : 
 \n  Problem     : Enum value did not match field type:\n    Expected  : 
 \n  Problem     : Field is not the right type for this message:\n    Expected  : 
-\n google/protobuf/descriptor.proto
-\n,steammessages_unified_base.steamclient.proto
 \n-- %lu %M %s %M %ld
 \n<script type="
-\n\fFieldOptions
-\n\fLITE_RUNTIME
-\n\fSTRING_PIECE
-\n\fTYPE_FIXED32
-\n\fTYPE_FIXED64
-\n\fTYPE_MESSAGE
-\n\fdouble_value
-\n\fis_extension
-\n\fjava_package
-\n\fstring_value
-\n\nTYPE_BYTES
-\n\nTYPE_FLOAT
-\n\nTYPE_GROUP
-\n\nTYPE_INT32
-\n\nTYPE_INT64
-\n\ndependency
-\n\ndeprecated
-\n\ngo_package
-\n\ninput_type
-\n\rTYPE_SFIXED32
-\n\rTYPE_SFIXED64
-\n\rdefault_value
-\n\tname_part
-\n\ttype_name
-\n\vEnumOptions
-\n\vFileOptions
-\n\vTYPE_DOUBLE
-\n\vTYPE_SINT32
-\n\vTYPE_SINT64
-\n\vTYPE_STRING
-\n\vTYPE_UINT32
-\n\vTYPE_UINT64
-\n\vallow_alias
-\n\voneof_index
-\n\voutput_type
-\nbad png sig
-\r8STs\ne
-\r\n\tCODE_SIZE
-\r\n\tTYPE_BOOL
-\r\n\tTYPE_ENUM
-\rmj>zjZ
 \t%s%s,%u,%s,%s,VID_%04X/PID_%04X,%s,%s\n
-\t\t\n\n\v\v\f\f\f\f\r\r\r\r
-\t\t\t\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r
-\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t
-\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t
 \u%04x
 \u%04x\u%04x
 \ufffd
@@ -5888,7 +5736,6 @@ Zjz\v
 ] invalid bufferView
 ] is not a JSON object.
 ],"subtype":
-^oEZ_
 _Bool
 _Cnd_destroy
 _Cnd_destroy_in_situ
@@ -6020,7 +5867,6 @@ _wstat64i32
 `scenes' does not contain an JSON object.
 `skins' does not contain an JSON object.
 `textures' does not contain an JSON object.
-aAMCoCreateInstance(CLSID_CResamplerMediaObject) failed hr = 0x%08x\n
 abort
 accept_conn
 accessor[
@@ -6048,7 +5894,6 @@ add_ogs_row
 additional six characters expected to parse unicode surrogate pair.
 additionalFramesToPredict
 advpredictweights
-aggregate_value
 alias_info
 alias_info field exists, but it is not an object
 allowAdvPredict
@@ -6117,6 +5962,7 @@ attributes
 audio
 audio/mpeg
 audio/wav
+auds
 auto-remapping_fromBinding.json
 auto-remapping_toBinding.json
 autolaunch
@@ -6174,6 +6020,7 @@ bad huffman code
 bad interlace method
 bad masks
 bad palette
+bad png sig
 bad req_comp
 bad sizes
 bad tRNS len
@@ -6266,7 +6113,6 @@ c:\buildslave\steamvr_rel_win64\build\src\vrserver\webinterface\web_server_threa
 c:\buildslave\steamvr_rel_win64\build\src\vrserver\webinterface\web_steam.cpp
 c:\buildslave\steamvr_rel_win64\build\src\vrserver\webinterface\web_steam.h
 c:\buildslave\steamvr_rel_win64\build\src\vrserver\webinterface\web_steam_audiosettings.cpp
-cAH|3@
 cache_path
 calloc
 camera
@@ -6283,7 +6129,6 @@ cancel_input_state_updates
 capsense
 capsense_source
 category
-cc_generic_services
 center
 changed
 channels
@@ -6310,7 +6155,6 @@ collisionBounds
 collision_bounds
 collision_radius
 color
-com.google.protobufB
 commentStyle
 commentStyle must be 'All' or 'None'
 communications
@@ -6371,7 +6215,6 @@ cover_landscape_image
 cover_square_image.jpg
 create_overlays
 cs_cz
-ctype
 current setting
 current_binding_url
 current_scene_process
@@ -6380,7 +6223,6 @@ current_transforms_without_controller
 current_user_persona_name
 custom
 czech
-dQy/
 da_dk
 danish
 dashboard
@@ -6533,8 +6375,6 @@ end of input
 english
 entries
 enum
-enum_description
-enum_value_description
 environment
 environmentMode
 err == vr::VRInitError_None
@@ -6544,13 +6384,11 @@ error_param
 error_to_show
 es_es
 es_mx
-ewh/?y
 exception thrown in JSON library
 exe_name
 exit
 expected marker
 expecting another \u token to begin the second half of a unicode surrogate pair
-experimental_map_key
 expf
 exponent
 exponent_%s
@@ -6558,8 +6396,6 @@ export_
 exports
 extend .$0 {\n
 extended_mode
-extendee
-extension_range
 extensions
 extensionsRequired
 extensionsUsed
@@ -6567,7 +6403,6 @@ external transition
 external_drivers
 extras
 eyetracking
-fP~V
 failIfExtra
 failed
 fakeHtcHmdMainboard
@@ -6579,8 +6414,6 @@ fallback
 fallback_controller_type
 false
 false literal
-false:4\n\vdescription
-false:<\n
 fclose
 feof
 ffffff
@@ -6589,7 +6422,6 @@ fgetc
 fgetpos
 fgetwc
 fi_fi
-field
 fields
 file
 file error
@@ -6618,8 +6450,6 @@ fopen_s
 forbidden_options
 force
 forceSystemLayerUseAppPoses
-force_emit_message
-force_emit_service
 force_input
 force_sensor
 force_source
@@ -6654,7 +6484,6 @@ from_controller_type
 fseek
 fsetpos
 ftell
-fu`z
 full
 fwrite
 g_QuickLinks.ActivateKnockKnock()
@@ -6672,7 +6501,6 @@ getDeviceProperty returned empty\n
 getDeviceProperty returned wrong type %d\n
 global
 global_remappings
-google.protobuf"G\n
 google.protobuf.Empty
 google.protobuf.EnumOptions
 google.protobuf.EnumValueOptions
@@ -6691,7 +6519,6 @@ gpuSpeedRenderTargetScale
 gpuSpeedVendor
 gpuSpeedVersion
 gpu_profiler_capture
-gqr<
 grab
 grab_value_and_force
 graph
@@ -6701,9 +6528,6 @@ grip_limit_transforms
 group
 guid
 guided_tour_room_setup
-h88@
-h98@
-hPU3
 half_thresholds
 hand_interaction_ext
 hand_priority
@@ -6744,10 +6568,6 @@ https:
 https://
 hu_hu
 hungarian
-i91k
-i]Wb
-iauds
-identifier_value
 identify_controller
 illegal code in raster
 illum
@@ -6925,11 +6745,6 @@ italian
 items
 ja_jp
 japanese
-java_generate_equals_and_hash
-java_generic_services
-java_multiple_files
-java_outer_classname
-java_string_check_utf8
 joints
 joystick
 joystick_rotation_x
@@ -6939,8 +6754,6 @@ jpeg
 json
 json_file_path
 jsonid
-k_EProtoExecutionSiteUnknown
-k_EProtoExecutionSiteUnknown:m\n\fservice_type
 k_EResultAccessDenied
 k_EResultAccountActivityLimitExceeded
 k_EResultAccountAssociatedToMultiplePartners
@@ -7085,9 +6898,6 @@ knuckles
 knuckles_ev1
 ko_kr
 koreana
-l6qnk
-lDa>
-label
 language_tag
 lastHmdPlaybackDeviceId
 last_launch
@@ -7098,10 +6908,8 @@ latam
 latch
 launch_type
 layouts
-lazy
 ldexp
 ldiv
-leading_comments
 leaf
 left
 leftright
@@ -7126,7 +6934,6 @@ localhost
 localization
 localization_files
 localized_name
-location
 logitech_stylus
 loglevel
 logmessage
@@ -7134,7 +6941,6 @@ long
 loop
 lower
 lrintf
-mSx@
 m_bIsInitialized
 m_cameraPassthroughSharedState.BInit(...) failed. Returning VRInitError_IPC_SharedStateInitFailed\n
 m_compositorSharedState.BInit(...) failed. Returning VRInitError_IPC_SharedStateInitFailed\n
@@ -7190,14 +6996,10 @@ memset
 mesh
 meshes
 message
-message_description
 message_id
-message_set_wire_format
 message_type
 metallicFactor
 metallicRoughnessTexture
-method
-method_description
 mfplat.dll
 mg_close_conn
 mg_error
@@ -7262,7 +7064,6 @@ name
 name_only
 nb_no
 need dictionary
-negative_int_value
 neverKillProcesses
 newmtl
 news_url
@@ -7280,7 +7081,6 @@ no settings available
 no_click
 no_force
 no_ready_ext
-no_standard_descriptor_accessor
 no_touch
 no_value
 noapp
@@ -7299,13 +7099,11 @@ not PSD
 not enough pixels
 not http
 notifications
-ns3G
 ntdll.dll
 null
 null literal
 null}
 num_controller_slots
-number
 number literal
 number overflow parsing '
 nvapi_QueryInterface
@@ -7357,7 +7155,6 @@ overlays
 override_throttling
 overwrite.vrsettings
 owned
-p88@
 pBegin == pEnd
 pEnd > pBegin
 pMGConnect != nullptr
@@ -7370,8 +7167,6 @@ pQueue->GetMetaContainerHandle() == ulExistingQueue
 pSharedState != nullptr
 pUrl != nullptr
 pWebSocketMessage
-package
-packed
 paired_controllers
 pairing_state
 param1
@@ -7431,7 +7226,6 @@ position_x
 position_y
 position_z
 positional
-positive_int_value
 power
 powersaveFramesToThrottle
 powersaveSteamOSManagerCustomProfile
@@ -7474,13 +7268,10 @@ proximity
 pt_br
 pt_pt
 public
-public_dependency
 publishedfileid
 pull
 punct
 putchar
-py_generic_services
-qMFCreateMediaType failed hr = 0x%08x\n
 qsort
 quarter_thresholds
 query_results
@@ -7571,7 +7362,6 @@ rotation
 roughnessFactor
 round
 roundf
-ru&o
 ru_ru
 runtime
 russian
@@ -7640,9 +7430,6 @@ serial_number
 server
 server_cleanup
 server_main
-service
-service_description
-service_execution_site
 session_id_field_name
 session_ogs_row
 setsockopt(SO_EXCLUSIVEADDRUSE): %d %d
@@ -7695,13 +7482,11 @@ smoothing parameter out of range
 socket error
 socket: %d
 source
-source_code_info
 source_is_vrlink_remote
 source_type
 sources
 south
 space
-span
 spanish
 sparse
 spatialAnchorsSupport
@@ -7713,7 +7498,6 @@ ssl:
 stackLimit
 standaloneSystemLayer
 standing
-start
 start_pairing
 start_update
 started
@@ -7809,7 +7593,6 @@ system_panel_interaction_mode
 systemreport_
 systemreport_*.html
 systemreport_template.html
-t98@
 tRNS after IDAT
 tRNS before PLTE
 tRNS with alpha
@@ -7882,7 +7665,6 @@ trackpad_scroll
 trackpad_scroll has been removed. Please use scroll instead\n
 trackpad_scroll_
 trackpad_touch
-trailing_comments
 translate
 translation
 trigger
@@ -7950,8 +7732,6 @@ useNewChaperone
 useSpecialFloats
 usemtl
 userinterface
-vQO+t
-vRQ>
 valid_roles
 value
 value_mapping
@@ -8000,7 +7780,6 @@ vr_input_get_tracker_bindings
 vr_input_load_binding_from_url
 vr_launch_application
 vr_notifications
-vr_path_property
 vr_quick_links
 vr_settings
 vr_settings_schema
@@ -8041,9 +7820,6 @@ vrwebhelper/main
 vrwebui.config.json
 vrwebui_dashboard
 vrwebui_dashboardstore
-w+OQvr
-w3Xc
-wXR\r
 wants_compositor_pause
 warning
 watchdog_controller
@@ -8051,8 +7827,6 @@ watchdog_hmd
 watchdog_unknown
 wcsrchr
 wcsstr
-weak
-weak_dependency
 web_server_mailbox
 web_steam_mailbox
 webinterface
@@ -8065,7 +7839,6 @@ width
 win64
 winrtdisplay.dll
 wipGamepadInputWithVRLink
-wn>Jj
 woff
 working_directory
 workshop_state_changed
@@ -8084,20 +7857,18 @@ ws handshake error
 wsprintfW
 wss:
 x-steamvr-secret
-x88@
 x_path
 xdigit
 xmag
-y9*O
 y_path
 yfov
 ymag
-z^KD
 zfar
 zh_cn
 zh_tw
 zlib corrupt
 znear
+{%s}%s
 {empty}
 {frame_controller}/input/frame_controller_profile.json
 {gamepad}/input/gamepad_profile.json
@@ -8109,7 +7880,6 @@ znear
 {htc}/input/vive_tracker_profile.json
 {indexcontroller}/input/index_controller_profile.json
 {indexhmd}/input/indexhmd_profile.json
-{kHw
 {oculus}/input/rift_profile.json
 {oculus}/input/touch_profile.json
 {setting}

@@ -40,8 +40,6 @@
 .text$mn$00
 .text$x
 .xdata
-2qzd
-7-7k
 AVX XState info is not allowed in Triage dump files due to potential PII exposure.\nTriage dumps cannot contain PII. 0x%x
 AcquireSRWLockExclusive
 AcquireSRWLockShared
@@ -315,7 +313,6 @@ IsWow64Process2
 K32EnumProcessModules
 K32GetModuleFileNameExW
 K32GetProcessMemoryInfo
-KBg\f
 Kernel minidump write failed, 0x%08x
 LoadLibraryExA
 LoadLibraryExW
@@ -434,7 +431,6 @@ QueryServiceStatusEx
 QuerySystemMemoryInformation failed, 0x%08x
 QueueUserWorkItem
 RPCRT4.dll
-RSDS)"
 ReadEventLogA
 ReadProcessMemory
 Realloc(0x%x) failed
@@ -720,7 +716,6 @@ combase.dll
 crypt32.dll
 dbgcore.dll
 dbgcore.pdb
-dc4c
 ext-ms-win-kernel32-package-l1-1-1.dll
 ext-ms-win-session-usermgr-l1-1-0.dll
 kernel.appcore.dll

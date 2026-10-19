@@ -243,10 +243,7 @@
     width = max(width >> lod, 1);\n
     } else {\n
    selectView(output, input[
- !"#$%&&&&'()*&&+,-./012&3
- !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
  !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
- !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
  !%&'()*+,-./01234
  %$__imageCubeArray
  (const float)\n
@@ -267,9 +264,7 @@
  * u_scale + u_offset;\n
  + dx_VertexID
  + float(
- ,rXIX
  ... (message truncated)\n
- 6AHy
  : enable\n
  : register(
  : register(b
@@ -285,10 +280,8 @@
  = min(int(floor(
  = transpose(mul(transpose(
  = true; break;}\n
- B\kji2
  Base Class Array'
  Base Class Descriptor at (
- C>TQ
  Class Hierarchy Descriptor'
  Complete Object Locator'
  Direct3D11
@@ -298,7 +291,6 @@
  PLS{
  Retrying with 
  SHADER END\n
- SIFh4
  Type Descriptor'
  _value;\n
  and 
@@ -307,7 +299,6 @@
  cannot initialize this type of qualifier 
  clip distances are supported by the driver.
  clip distances, 
- cm0
  color = 
  combined AtomicCounterBuffers count exceeds limit
  combined clip/cull distances are supported by the driver.
@@ -396,13 +387,8 @@
 ! Destroying fence...
 !(IsPixel2(mPhysicalDeviceProperties.vendorID, mPhysicalDeviceProperties.deviceID) && (mPhysicalDeviceProperties.driverVersion < kPixel2DriverWithRelaxedPrecision)) && !IsPixel4(mPhysicalDeviceProperties.vendorID, mPhysicalDeviceProperties.deviceID)
 !(isIvyBridge || isBroadwell || isHaswell)
-!3nAI
 !CanMapBufferForRead(functions)
-!W7:3N
-!Z%F3lKpb
 !deviceCaps.supportsVpRtIndexWriteFromVertexShader
-!eKlM
-!ifa
 !isFeatureLevel9_3
 !isIntel && functions->standard == STANDARD_GL_ES && functions->isAtLeastGLES(gl::Version(3, 1)) && functions->hasGLESExtension("GL_EXT_texture_norm16")
 !isMesa && isQualcomm
@@ -421,15 +407,7 @@
 !mGraphicsPipelineLibraryProperties.graphicsPipelineLibraryFastLinking || isSwiftShader
 !mPhysicalDeviceFeatures.textureCompressionETC2 && kSupportTranscodeEtcToBc && (mSubgroupProperties.supportedOperations & kRequiredSubgroupOp) == kRequiredSubgroupOp && (limitsVk.maxTexelBufferElements >= kMaxTexelBufferSize)
 !nativegl::SupportsVertexArrayObjects(functions)
-!r^bz
-"#H722
 "\f&\f*\f+\f.\f"\n&\n*\n+\n.\n"\r&\r*\r+\r.\r
-"bN0
-"e?<<<<<<l?
-"jXhjx\n\kX\f
-#17V
-#9fm
-#davf
 #define
 #define 
 #define ANGLE_POINT_SPRITE_SHADER\n\nstatic float2 pointSpriteCorners[] = \n{\n    float2( 0.5f, -0.5f),\n    float2( 0.5f,  0.5f),\n    float2(-0.5f, -0.5f),\n    float2(-0.5f,  0.5f)\n};\n\nstatic float2 pointSpriteTexcoords[] = \n{\n    float2(1.0f, 1.0f),\n    float2(1.0f, 0.0f),\n    float2(0.0f, 1.0f),\n    float2(0.0f, 0.0f)\n};\n\nstatic float minPointSize = 
@@ -524,33 +502,16 @@
 #version 310 es\nvoid main()\n{\n    gl_Position = vec4(mix(vec2(-1), vec2(1), equal(gl_VertexID & ivec2(1, 2), ivec2(0))), 0, 1);\n}
 #version directive must occur before anything else, except for comments and white space
 #version directive must occur on the first line of the shader
-$GGrR
-$Ib?s
-$OGr
-$iLr
-$qIIR
-$y"iJ
-$yNp
-%$neh
 %.0Lf
-%EIa2
 %H:%M:%S%m/%d/%y%Y-%m-%d%I:%M:%S %p%H:%M%H:%M:%S
 %I:%M:%S %p
 %a %b %d %H:%M:%S %Y
-%b;Eq
 %s %llu
 %s called on default-constructed iterator.
 %s called on end() iterator.
 %s called on invalid iterator. The element might have been erased or the table might have rehashed. Consider running with --config=asan to diagnose rehashing issues.
-&?PPPPPPP?
-&Dq3hZE
-&Sgw
-&Vcm
-&c$ad
-&o7xU,=
-&uIAcI
-&uOJ
-&~Xzu
+%s.%s
+%s: %s\n
 ' (or there is no acceptable conversion)
 ' aliases attribute '
 ' and a right operand of type '
@@ -564,9 +525,6 @@ $yNp
 ' is not an array to be captured by element.
 ' member '
 ' will be slow to compile. 
-'BVy
-'S5m.
-'\Direct3DCreate9
 'dpy' not a valid EGLDisplay handle
 'dpy' not initialized
 'imageAtomic' cannot be used with images qualified as 'readonly'
@@ -575,10 +533,8 @@ $yNp
 'imageStore' cannot be used with images qualified as 'readonly'
 'in' can be only used to specify the local group size
 'layout'
-'mSN
 'max_vertices' is not specified in the geometry shader.
 'noncoherent' qualifier must be used when GL_EXT_shader_framebuffer_fetch_non_coherent extension is used
-'v0X
 (!isMesa && isQualcomm) || (IsApple() && isIntel && GetMacOSVersion() < OSVersion(10, 14, 0))
 (!isMesa && isQualcomm) || (isIntel && IsApple())
 ((float2[3])gl_CullDistance)[2];\n
@@ -589,7 +545,6 @@ $yNp
 (IsAndroid() && isSwiftShader)
 (IsApple() && functions->standard == STANDARD_GL_DESKTOP) || (IsLinux() && isAMD)
 (IsLinux() && isVMWare) || (IsAndroid() && isNvidia) || (IsAndroid() && GetAndroidSDKVersion() < 27 && IsAdreno5xxOrOlder(functions)) || (!isMesa && IsMaliT8xxOrOlder(functions)) || (!isMesa && IsMaliG31OrOlder(functions))
-(MqO
 (RWByteAddressBuffer buffer, uint loc)\n
 (RWByteAddressBuffer buffer, uint loc, 
 (color);\n
@@ -608,7 +563,6 @@ $yNp
 (loc, _value);\n
 (null)
 (out 
-(ova
 (part1 <= 13u && part2 < 6881) && isNvidia && driverVersionValid
 (samplerMetadata[samplerIndex].intBorderColor) : 
 (symbol id 
@@ -627,26 +581,13 @@ $yNp
 ), index
 ), transpose(
 ).length())
-)8gL=
 );  Imported=
 )\n{\n    return 
-)amh
-)cUs
-)rn4=
 )uniform readonly 
 )uniform writeonly 
-)yIx
 * Available memory budget and usage per heap:
 * Available memory heaps:
 * Available memory types:
-*.poz
-*FjH
-*StO9>T
-*w2E
-+3X>X
-+7(Rt
-+7X!X
-+7X\nl
 , (compressedSize + chunkSize) = 
 , 0, gl_NumSamples - 1))
 , Actual CRC = 
@@ -712,21 +653,12 @@ $yNp
 , uint4 data
 , uncompressedCacheDataSize = 
 , uncompressedCacheDataSize = 0x
-,DS*x
-,HR>O
-,XwsZY
 ,color=green
 ,pixelCoord)
 ,pixelCoord,
-,rFM
-,z6a
 - Type=
 --> Heap index 
--9D\t/9a
--BH>t
--Failed to open share handle, 
 -component vector of 
--epq
 . Skipping multisample checks.
 . Treating as 0
 ..\..\third_party\abseil-cpp\absl\base\internal\throw_delegate.cc
@@ -893,9 +825,7 @@ $yNp
 ..\..\third_party\libc++\src\src\mutex.cpp:40: assertion ec == 0 failed: call to mutex::unlock failed. A possible reason is that the mutex wasn't locked\n
 .0 (ANGLE 
 .0, aborting!
-.0AJc
 .0f;\nstatic float maxPointSize = 
-.>\rfJBGo
 .?AU?$__num_get@D@__Cr@std@@
 .?AU?$__num_get@_W@__Cr@std@@
 .?AU?$__num_put@D@__Cr@std@@
@@ -1014,7 +944,6 @@ $yNp
 .?AVsystem_error@__Cr@std@@
 .?AVtime_base@__Cr@std@@
 .?AVtype_info@@
-.EY6%F
 .GatherCmp(
 .GetDimensions(baseLevel + mip, width, height, depth, levels);\n
 .GetDimensions(baseLevel + mip, width, height, layers, levels);\n
@@ -1029,9 +958,7 @@ $yNp
 .GetDimensions(width, height, depth);\n
 .GetDimensions(width, height, depth, samples);\n
 .GetDimensions(width, height, samples);\n
-.HPN
 .Load(
-.M;vT
 .P6AXW4VkResult@@W4Result@angle@@PEAX@Z
 .P6A_NPEBUValidationContext@egl@@PEBVDisplay@1@_J@Z
 .Sample(
@@ -1041,14 +968,11 @@ $yNp
 .SampleGrad(
 .SampleLevel(
 .\vk_swiftshader_icd.json
-.bjw
 .dump
-.eBcasting a negative float to uint is undefined
 .essl
 .layer)] = data;\n
 .length()
 .program
-.xJ>Hf
 .xyz
 .xyzw
 // @@ IMAGE2D DECLARATION FUNCTION STRING @@
@@ -1063,26 +987,10 @@ $yNp
 // Uniform Blocks\n\n
 // Uniforms\n\n
 // Varyings\n
-/2GG>!B
-/?wct
-/Bei*XIZ9
-/Qw\vX
-/jZT
-/ppW)
 0 (ANGLE 
 00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899GetSystemTimePreciseAsFileTime
 0123456789
 0123456789abcdefABCDEFxX+-pPiInN
-0CgY
-0E>X
-0H>qr
-0X8b?~
-0YF2\
-0[o5
-0iN>/
-0xZd
-0{d9X
-0{n%x3{n
 1 << sampleID
 1#IND
 1#INF
@@ -1092,28 +1000,9 @@ $yNp
 1.3.0.1-motley
 1.5 (ANGLE 
 10Dx4
-11Y@
 16) ? gl_ClipDistance[4] : 0;\n
-17mw
-183U
-1:ShaderCache initialize
-1F1w
-1MH\
-1O1/G
-1VG8
-1a30R
-1a<c
-1fw-
-1gubz<
-1jc.^G
-1kL<
-1kL>
-1wj\v
 1x1 and 2x2 mips of depth/stencil textures aren't sampled correctly
-1xVb7[
 2.1.23105 git hash: 5d4df51d1d7d
-21+%3
-27s]{n
 2D && imageIndex < 
 2DArray
 2DArray = 
@@ -1140,127 +1029,18 @@ $yNp
 2D_snorm_float4_
 2D_uint4_
 2D_unorm_float4_
-2Z/r
-2\n0\tP
-2aeX
-2bM>
-2gU8
-2lL=u
-2o'xZ|
-2q*j
-3 FB
-3+5<t
-3,eX)t
 333333
-33s?
-37>k
-3>Ci
-3>N;kU
-3>fvw
-3>lp
-3?OM
-3?tr
 3D && imageIndex < 
-3D+4
 3D[index].GetDimensions(width, height, depth);\n
 3D[index][uint3(p.x, p.y, 
 3D_int4_
 3D_snorm_float4_
 3D_uint4_
 3D_unorm_float4_
-3M;Gx0`
-3QG9
-3S>Ok?
-3[mRH
-3nu<&
-3uf>
-3z9s
-4"\r-4LD
-4$y2
-4*1.N5ZK
-4*CN
-4.N5
-4=iMm
-4GCI
-4Po'O
-4\tgA
-4hMB
-4mG}
-4x|K
-4yE,
-5(VPS
-5(VRL9
-5/gC
-51>W
-54gt.z
-554P
-582[
-5NG\
-5]w5
-5f9L\1
-5hUz
-5l_G
-5sx%
-5u\rq
-5uy>
-5vh{
-5wK*
-5|^1v
-6$InJ
-6$sq{"U
-60.a
-68^&vU
-6>5b
-6NK>
-6\fXO>
-6\fXO>\ntA
-6l[M
-6lm&
-7,DZ
-789:;<=>?&@ABCDE&FGHIJKLMNOPQR
-79n,
-7>I0
-7?GX
-7M4}
-7MSO
-7Q7:
-7bf 
-7h>?8
-7lAg
-7oBS
-7~xh
-86^P
-8Csinf
-8J;@ts
-8JQoY
-8WM.
-8gL>
-8ixUX
-8jPn
-8kA_
-8kM.
-8ke?;
-8lT=
-8}CNK
-9+j]Gg,
-98Cn
-9>70
-9JWn
-9Kw\
-9M>68
-9Q0Wvg
-9`ZC
-9a&g
-9na}[
-9r]Gg
-9xVc7[\rZr
-9y@k
 :  Allocated=
 : Total=
 : register(u
 : size=
-:!7EN
-:0,AVyV
 :ANGLE_base_vertex_base_instance_shader_builtin:
 :ANGLE_clip_cull_distance:
 :ANGLE_multi_draw:
@@ -1285,7 +1065,6 @@ $yNp
 :EXT_tessellation_shader:
 :EXT_texture_buffer:
 :EXT_texture_cube_map_array:
-:FMT
 :FragmentPrecisionHigh:
 :MaxAtomicCounterBindings:
 :MaxAtomicCounterBufferSize:
@@ -1382,25 +1161,15 @@ $yNp
 :OES_texture_cube_map_array:
 :OVR_multiview2:
 :OVR_multiview:
-:ZMT
-:kAg5
 ; ++i)\n    {\n        
 ; ++i)\n    {\n        if (
 ; handle=
 ; heapIdx=
 ; type=
-;1cb
-;CO5
-;KCA
-;YyW
 ;\nbool Break
-<9cn
 <Command Buffer Label Hierarchy:>
-<C~1D
-<GY6
 <Queue Label Hierarchy:>
 <Unrecognized>
-<acosf
 <buffer>
 <buffer> must be non null
 <buffer> must be null
@@ -1411,7 +1180,6 @@ $yNp
 <buftype> doesn't support setting texture offset
 <buftype> doesn't support texture internal format
 <buftype> doesn't support texture type
-<clBuildProgram
 <float4>
 <input>
 <int4>
@@ -1440,71 +1208,8 @@ $yNp
 <validateNullNodes>
 <validateSingleParent>
 <vector array>
-=1cb
-=87M
-=ANGLE_lumv3
-=G%Q"rP\na
-=Icf
-=Obo
-=P=4e
-=b8lc
-=bLq
-=cQ6
-=e2m
-=imb;D
->4lu
->9bv
->ANGLEFragmentInput
->I}nO
->L1\fo
->W8C
->cQ6
->fKc
->jtm}S
->otc
->xEFk?q
->ytZ_
->zjJ
-?!5WOo
-?1cb
 ?333?
 ?333?333?333?
-?3Fx
-?49HoKC
-?7zQ6$
-?7{KV\nU
-?8UUUUU
-?8bunz8
-?@En[vP
-?Clear11VertexBuffer
-?Error allocating BlendState
-?Ji@9
-?N]TUUU
-?Qr&C
-?R0I?
-?UUUUUU
-?UfN
-?\rz0w
-?\vxMW
-?asinf
-?axuX
-?b;z7
-?expf
-?f`Y4
-?fff?
-?id7
-?kxG2)
-?lZE
-?logf
-?qBJ
-?rAj
-?rx::Blit9::initialize
-?rx::vk::OneOffCommandPool::getCommandBuffer
-?rx::vk::SetDebugUtilsObjectName
-?vf2
-?virtual rx::Renderer11::loadExecutable
-?ysB
-@?InvalidateSubFramebuffer ignored due to area not covering the render area
 @@ MAIN PROLOGUE @@
 @@ MAIN PROLOGUE @@\n
 @@ PIXEL MAIN PARAMETERS @@
@@ -1514,10 +1219,6 @@ $yNp
 @@ VERTEX ATTRIBUTES @@\n\n
 @@ VERTEX OUTPUT @@
 @@ VERTEX OUTPUT @@\n\n
-@Invalid D3D device passed into EGLDeviceEXT
-@JhA
-@RG7
-@Renderer11::initialize (DXGICheck)
 A buffer must be bound.
 A device memory allocation has failed
 A fence or query has not yet completed
@@ -1538,11 +1239,7 @@ A swapchain no longer matches the surface properties exactly, but can still be u
 A texture must be bound.
 A transform feedback buffer that would be written to is also bound to a non-transform-feedback target, which would cause undefined behavior.
 A wait operation has not completed in the specified time
-A*ud
-A00E
-A>pP&
 ABCDEFGHIJKLMNOPQRSTUVWXYZ
-AK>(v
 ANDROID_extension_pack_es31a
 ANGLE
 ANGLE (
@@ -1562,6 +1259,7 @@ ANGLECubeMapCoordTransformImplicit
 ANGLECullDistance
 ANGLEDepthRangeParams
 ANGLEDither
+ANGLEFragmentInput
 ANGLEGetDisplayPlatform
 ANGLEGetXfbOffsets
 ANGLEInputAttachment
@@ -1611,6 +1309,7 @@ ANGLE_blend_src
 ANGLE_clip_color
 ANGLE_clip_cull_distance
 ANGLE_f
+ANGLE_lumv3
 ANGLE_maxv3
 ANGLE_minv3
 ANGLE_multi_draw
@@ -1630,7 +1329,6 @@ ANGLE_yuv_2_rgb_highp
 ANGLE_yuv_2_rgb_lowp
 ANGLE_yuv_2_rgb_mediump
 APPLE_clip_distance
-AP\f2
 ARB_blend_func_extended does not pass the tests
 ARB_draw_buffers
 ARB_texture_rectangle
@@ -1639,8 +1337,6 @@ ASTC CPU decomp not available
 ASTC decompression failed: 
 ATOMIC_COUNTERS
 AUUUUUU
-AW#94
-AYez
 Acceleration Structure
 Access info (usage: SYNC_COMPUTE_SHADER_SHADER_STORAGE_WRITE, prior_usage: SYNC_VERTEX_ATTRIBUTE_INPUT_VERTEX_ATTRIBUTE_READ
 Access info (usage: SYNC_COPY_TRANSFER_WRITE, prior_usage: SYNC_VERTEX_ATTRIBUTE_INPUT_VERTEX_ATTRIBUTE_READ
@@ -1666,7 +1362,6 @@ Adreno (TM) 530
 Adreno (TM) 540
 Advanced blend equation can only be used when only one draw buffer is not NONE
 Advanced blend equations are not supported when pixel local storage is active.
-Aj\fJ
 All Mac drivers do not handle struct scopes correctly. This workaround overwrites a structname with a unique prefix.
 All contexts within a share group must be created with the same value of EGL_DISPLAY_SEMAPHORE_SHARE_GROUP_ANGLE.
 All contexts within a share group must be created with the same value of EGL_DISPLAY_TEXTURE_SHARE_GROUP_ANGLE.
@@ -1682,7 +1377,6 @@ Allow glFlush to be deferred until renderpass ends
 Always call useProgram after a successful link to avoid a driver bug
 Always write explicit location layout qualifiers for fragment outputs.
 Ambiguous field '
-AmiE
 An active buffer is mapped
 An enabled vertex array has no buffer and no pointer.
 An enabled vertex array has no buffer.
@@ -1769,19 +1463,7 @@ Attribute must be EGL_TRUE or EGL_FALSE.
 Attributes that begin with 'gl_' are not allowed.
 Attributes that begin with 'webgl_', or '_webgl_' are not allowed.
 August
-A~eK
-B,fK
-B-a_L
-B:5&?I\20)H
-B@h4ADRd
-BC1%M
-BC?>6t9^\tc:>
-BF>^G
-BK:b
-BR5&F
 BUFFER
-BXK 
-B^4(a
 BackBufferRTV
 BackBufferSRV
 BackBufferTexture
@@ -1863,6 +1545,7 @@ Blit11 2D PassthroughRGB2DI pixel shader
 Blit11 2D PassthroughRGB2DUI pixel shader
 Blit11 2D PassthroughRGBA2D 4444 pixel shader
 Blit11 2D PassthroughRGBA2D 5551 pixel shader
+Blit11 2D PassthroughRGBA2D pixel shader
 Blit11 2D PassthroughRGBA2DI pixel shader
 Blit11 2D PassthroughRGBA2DUI pixel shader
 Blit11 2D UI swizzle pixel shader
@@ -1986,7 +1669,6 @@ Blits are only supported to 2D texture, renderbuffer or default framebuffer atta
 Blitting to or from a YUV framebuffer is disallowed.
 Blob cache callbacks cannot be null.
 Blob cache functions can only be set once in the lifetime of a Display
-Bo'x
 Border must be 0.
 Both compute and graphics shaders are attached to the same program.
 Both width and height argument of drawn texture must be positive.
@@ -2033,27 +1715,16 @@ Buffer_uint4_
 Buffer_unorm_float4_
 Bug in some drivers triggers a TDR when using CopySubresourceRegion from a staging texture to a depth/stencil
 BuiltInResultType
-Bw]W
 Bypass deferredFlush with calling swapbuffers on flush or finish when in Shared Present mode
-BzX`zX
-Bzft
-B|{NP
-C51]
-C5R?\t
 C:\buildworker\cef_win64\build\root\chromium\src\out\Release_GN_x64\libGLESv2.dll.pdb
 C:\fakepath
-C?7J
-CDmo)
-CGL_OES_point_size_array not enabled.
 CING
-CL:>8
 COLOR
 COMPUTE
 CONSTANT_COLOR (or ONE_MINUS_CONSTANT_COLOR) and CONSTANT_ALPHA (or ONE_MINUS_CONSTANT_ALPHA) cannot be used together as source and destination color factors in the blend function.
 CRC check failed; possible pipeline cache data corruption.
 CRITICAL
 CTAB
-CWD>~3
 Calculation of loop conditions in for and while loop has bug
 Call a built-in function
 Call a user-defined function
@@ -2088,17 +1759,14 @@ Cannot pop the default debug group.
 Cannot push more than GL_MAX_DEBUG_GROUP_STACK_DEPTH debug groups.
 Cannot use GL_LINEAR filter when blitting a integer framebuffer.
 Cap 0x%04X cannot be enabled or disabled while pixel local storage is active.
+Capture of array elements is undefined and not supported.
 Capture of arrays is undefined and not supported.
 Case\n
-Cb3ilHn
-Cc<A
-Ccoshf
 Change in cache header version detected: 
 Check the filesystem for shaders to use instead of those provided through glShaderSource
 Check the filesystem for translated shaders to use instead of the shader translator's
 ChoosePixelFormat
 Chunking upload of texture data to work around driver hangs.
-Ck{J
 Clamp uniform array access to avoid reading invalid memory.
 Clear called for non-existing buffers
 Clear effectively discarding previous draw call results. Suggest earlier Clear followed by masked color or depth/stencil draw calls instead, or glInvalidateFramebuffer to discard data instead
@@ -2136,6 +1804,7 @@ Clear11::ensureResourcesInitialized
 Clear11ConstantBuffer
 Clear11RasterizerStateWithScissorDisabled
 Clear11RasterizerStateWithScissorEnabled
+Clear11VertexBuffer
 Clearing an FBO with multiple attachments may need a flush to avoid race conditions
 Clears when the clear color is all zeros or ones do not work.
 Client buffer is not a IDirect3DTexture9
@@ -2207,6 +1876,7 @@ Context flushed due to out-of-memory error.
 Context has been lost.
 Context lost.
 Context with no config is not supported.
+ContextVk::ContextVk
 ContextVk::clearAllGarbage
 ContextVk::finishImpl
 ContextVk::flushAndSubmitOutsideRenderPassCommands
@@ -2225,6 +1895,7 @@ Could not create D3D11 device,
 Could not create D3D11 device.
 Could not create D3D9 device.
 Could not create DXGI factory
+Could not create DXGI factory.
 Could not create a counting index buffer for glDrawArraysInstanced.
 Could not create additional swap chains or offscreen surfaces, 
 Could not create compute shader.
@@ -2257,7 +1928,6 @@ Could not retrieve DXGI adapter
 Could not retrieve the window dimensions
 Could not use provided offscreen texture, texture not renderable.
 Count exceeds MAX_TRANSFORM_FEEDBACK_SEPARATE_ATTRIBS.
-Cp^fz
 Create flags must only include bits defined by GL_ANGLE_external_objects_flags
 CreateDXGIFactory
 CreateDXGIFactory1
@@ -2272,7 +1942,6 @@ CreateThread
 CreateWindowEx
 CreateWindowExA
 CreateWindowExW
-Csinhf
 Cube
 Cube_comparison
 Cube_float4_
@@ -2291,11 +1960,6 @@ Current matrix stack is full.
 Current renderer doesn't support alpha-to-coverage.
 Currently allocated size for memory allocation type (
 CustomData
-Cv^q
-Cx]q
-Cz>V
-D,H9
-D1&q
 D3D Compiler LoadLibrary failed. GetLastError=
 D3D workarounds
 D3D11
@@ -2315,79 +1979,16 @@ D3DPERF_SetMarker
 D3d9Ex_QueryInterface
 D3d9_CreateDevice
 D3d9_CreateDevice2
-D83YIz!
 DCompositionCreateDevice
 DEPTH
-DO\r\t8
-DP!Q@i\f
-DP<M
-DPL3
-DQCT
 DRAW_BUFFERS
 DUAL_SOURCE_
 DXBC
-DXBC(
-DXBC*
-DXBC+
-DXBC+t
-DXBC,
-DXBC-
-DXBC/
-DXBC/#D.
-DXBC1KE
-DXBC3
-DXBC4Y
-DXBC<
-DXBC=
-DXBCAB
-DXBCB
-DXBCC}s
-DXBCD
-DXBCD]
-DXBCH
-DXBCI
 DXBCJ
-DXBCK\
-DXBCNq`\nK
-DXBCO/
-DXBCP
-DXBCT
-DXBCTT\t0F4d
-DXBCU
-DXBCW
-DXBCX
-DXBCY
 DXBC[[BL
-DXBC\t
-DXBC\t'
-DXBC\v
-DXBC]7
-DXBC]=7
-DXBC_
-DXBC`[
-DXBCb
-DXBCe
-DXBCh
-DXBCk
-DXBCl
-DXBCn%
-DXBCp
-DXBCs
-DXBCt
-DXBCtm\|.
-DXBCu!w[
-DXBCw
-DXBCx
 DXBCxE
-DXBCy
-DXBCz
-DXBCzP
-DXBC{B
-DXBC}
 DXGI 1.2 required to present to HWNDs owned by another process.
 DXGISwapChainWindowSurfaceWGL requires an orientation of EGL_SURFACE_ORIENTATION_INVERT_Y_ANGLE.
-D\3q6\v
-D^u7
 Data extracted from the cache headers: 
 Data is not evenly divisible into the number of bytes needed to store in memory a datum indicated by type.
 Debug Utils Messenger
@@ -2444,7 +2045,6 @@ Device was lost while querying result of an event query.
 Device was lost while waiting for sync.
 DeviceContext
 DeviceMemoryBarrier(
-Dfa?
 Direct3D platform is unsupported.
 Direct3DCreate9
 Direct3DCreate9Ex
@@ -2497,11 +2097,8 @@ DrawID
 Drivers generate errors when querying the number of bits in timer queries
 Drivers returning raw sRGB values instead of linearized values when calling glReadPixels on unsized sRGB texture formats
 Dropped texture update that is superseded by a more recent one
-Ds:r2
-DtMam
 Dual-source blending functions limit the number of supported draw buffers.
 Due to a Vulkan spec ambiguity, some drivers interpret depthBiasConstantFactor as half the expected value
-Dufw
 Dumped program: 
 Dumped shader source: 
 Dumped translated source: 
@@ -2516,10 +2113,6 @@ Duplicated vertices specified
 During initialization, assign the current vertex attributes to the spec-mandated defaults
 Dynamic indexing of swizzled l-values doesn't work correctly on various platforms.
 Dynamic recompilation error log: 
-D|TQ
-E)n[V
-E>ZX
-E>nEA
 EGL 
 EGL image internal format is not supported as a renderbuffer.
 EGL image internal format is not supported as a texture.
@@ -2873,10 +2466,8 @@ EGL_color_buffer_type invalid attribute: 0x%X
 EGL_native_renderable invalid attribute: 0x%X
 EGL_transparent_type invalid attribute: 0x%X
 EOF while in a comment
-EPh4
 ERROR
 ERROR: 
-ET5>
 EVENT
 EXT/OES_draw_buffers_indexed is not available.
 EXT/OES_draw_buffers_indexed or ES 3.1 are required but not available.
@@ -2906,11 +2497,7 @@ EXT_shadow_samplers
 EXT_tessellation_shader
 EXT_texture_buffer
 EXT_texture_cube_map_array
-E[\rn?gc
-E\nyB\rvH
 Each cubemap face must have equal width and height.
-EeS=I
-EiUL
 Element value exceeds element range.
 Element value exceeds maximum element index.
 Embedded struct definitions are not allowed
@@ -2951,8 +2538,8 @@ Enum requires GLES 3.0
 Enum requires GLES 3.1
 EnumSystemLocalesEx
 EnumSystemLocalesW
-Epf3B
 Error
+Error allocating BlendState
 Error allocating Buffer
 Error allocating ComputeShader
 Error allocating DepthStencilState
@@ -3006,7 +2593,6 @@ Evaluating unary minus operator on integer may get wrong answer in vertex shader
 Even if FrameCapture is enabled, enable GL_OES_get_program_binary
 Event
 Every binding point used in transform feedback mode must have a buffer object bound.
-Ew49
 Exceeded maximum uniform location size
 Except for images with the r32f, r32i and r32ui format qualifiers, image variables must be qualified readonly and/or writeonly
 Exec format error
@@ -3057,24 +2643,12 @@ External texture extension not enabled
 ExternalPreInitialized
 ExternalShadersReadOnly
 ExternalShadersWrite
-Ey%y*G
-F!QxP
-F#tM!
-F&F(F*F
-F3vZ^
-F>qUxv
 FAIL
 FATAL
 FD%d
-FEMh\f
-FGE{
 FLATTEN 
 FRAGMENT
 FREE
-FXftC
-FXuM
-F\3q6
-FaCp
 Failed creating Debug D3D11 device - falling back to release runtime.
 Failed to DescribePixelFormat, 
 Failed to allocate D3D texture initialization data.
@@ -3162,6 +2736,7 @@ Failed to make the placeholder WGL context current.
 Failed to map D3D11 resource.
 Failed to open "
 Failed to open D3D device.
+Failed to open share handle, 
 Failed to present swap chain, 
 Failed to query ID3D11Texture2D object from share handle.
 Failed to query surface of internal blit texture
@@ -3203,7 +2778,6 @@ Fence
 Fence must be set.
 Fence reset failed: 
 Fetch
-FfW?
 Field location
 Field name
 Field number
@@ -3219,7 +2793,6 @@ First Swap Image Use
 FirstPixelOffset
 FirstSlice
 Fix spec difference between GLSL 4.1 or lower and ESSL3
-Fj#9
 Float overflow
 Floating-point suffix unsupported prior to GLSL ES 3.00
 FlsAlloc
@@ -3284,9 +2857,6 @@ Found symbol with undefined precision <validatePrecision>
 Found two declarations of the same function argument <validateVariableReferences>
 Found two declarations of the same variable <validateVariableReferences>
 Found unary node with non-unary op <validateOps>
-FpL"
-Fpvo
-FrWvk
 FragColor
 FragCoord
 FragData
@@ -3346,7 +2916,6 @@ Friday
 FrontFacing
 Frontend features
 Frontend workarounds
-Fs&b
 Function Definition:\n
 Function Prototype
 Function call discards the 'coherent' qualifier from image
@@ -3356,18 +2925,10 @@ Function call discards the 'writeonly' qualifier from image
 Function has too many parameters.
 Function not implemented
 Function parameter type cannot be a structure definition
-FzO+
-G,On
-G.ro
-G5yg&\5
-G:lRN
-G>US
 GDI32.dll
 GEOMETRY
-GGL 
 GL call 
 GL framebuffer returned incomplete: 
-GL<hc
 GLES1-only function.
 GLES1Renderer program link failed.
 GLES1Renderer shader compile failed.
@@ -4298,6 +3859,7 @@ GL_OES_mapbuffer
 GL_OES_matrix_palette
 GL_OES_packed_depth_stencil
 GL_OES_point_size_array
+GL_OES_point_size_array not enabled.
 GL_OES_point_sprite
 GL_OES_primitive_bounding_box
 GL_OES_query_matrix
@@ -4661,14 +4223,12 @@ GPU.ANGLE.D3DShaderBlobSizeKB
 GPU.ANGLE.D3DShaderCompilationTimeUs
 GPU.ANGLE.ProgramCache.ProgramCacheHitTimeUS
 GPU.ANGLE.SupportsDXGI1_2
-GSb3
 GarbageObject::destroy
 Gather
 GatherAlpha
 GatherBlue
 GatherGreen
 GatherRed
-GcX/F
 Geometry
 Geometry shader input variable must be declared as an array
 Geometry shader is not supported in this shader version.
@@ -4726,29 +4286,16 @@ GetUserDefaultLCID
 GetUserDefaultLocaleName
 GetVertexExecutableTask::run
 GetWindowThreadProcessId
-GjtEc
-Gkvb
 Global
 GlobalInvocationID
 Google
-Goq6}
 Grad
 GraphicsPipelineDesc used for warmup differs from the one used by draw.
 GroupMemoryBarrier(
 GroupMemoryBarrierWithGroupSync(
-Gs+r
-GwF>r
-G|9W
-H.Z\nU
-H/63
-H5DHC
-H6#P
-H>Gm
-H>r1
 HFz<\n
 HH:mm:ss
 HIGH
-HJ!X
 HLSL compiler had an unexpected failure
 HLSL's function texture.Load returns 0 when the parameter Location is negative, even if the sum of Offset and Location is in range
 HLSLCompiler::initialize
@@ -4766,7 +4313,6 @@ Hazard WRITE_AFTER_READ for VkBuffer
 Hazard WRITE_AFTER_READ for dstBuffer VkBuffer
 Hazard WRITE_AFTER_WRITE for VkImageView 
 Hazard WRITE_AFTER_WRITE in subpass 
-He]t
 HeapAlloc
 HeapFree
 HeapReAlloc
@@ -4774,13 +4320,6 @@ HeapSize
 HelperInvocation
 High
 HostCopy
-Hs/6!
-I&RKlc
-I85>r
-I: IR
-I=/0z
-IEin$s8
-IJx*
 IMAGE_LINEAR
 IMAGE_OPTIMAL
 IMAGE_UNIFORMS
@@ -4798,9 +4337,6 @@ ISGNT
 ISGNh
 ISGNl
 ISGNt
-I\1n
-I\tIAMD
-I\tmLL
 If a fragment shader statically uses the gl_ClipDistance built-in array, the array must have the same size as in the previous shader stage. 
 If a size is specified for a tessellation control or evaluation user-defined input variable, it must match the maximum patch size (gl_MaxPatchVertices).
 If a size is specified for a tessellation control user-defined per-vertex output variable, it must match the the number of vertices in the output patch.
@@ -4821,8 +4357,6 @@ If the read buffer contains signed integer values the draw buffer must as well.
 If the read buffer contains unsigned integer values the draw buffer must as well.
 If true, sub tasks of the link job are always threaded, regardless of GL_KHR_parallel_shader_compile
 If you crashed here, your aligned allocation is incorrect: 
-IjOR
-Il?333333c?
 Illegal byte sequence
 Illegal character at fieldname start
 Illegal use of reserved word
@@ -4943,6 +4477,7 @@ Interrupted function call
 Invalid
 Invalid Attachment Type.
 Invalid Context attribute.
+Invalid D3D device passed into EGLDeviceEXT
 Invalid D3D11on12 attribute
 Invalid EGLImage texture internal format: 0x
 Invalid EGL_LOCK_USAGE_HINT_KHR value
@@ -5131,9 +4666,9 @@ Invalid width.
 Invalid wrap mode for texture type.
 InvalidateRect
 InvalidateSubFramebuffer discarded due to increased scissor region
+InvalidateSubFramebuffer ignored due to area not covering the render area
 Invariance
 Invariant Declaration:\n
-IpLQl
 Is a directory
 IsAdreno42xOr3xx(functions)
 IsAndroid()
@@ -5199,65 +4734,23 @@ It is undefined behaviour to clear a render buffer which is not normalized fixed
 It is undefined behaviour to have a used but unbound uniform buffer.
 It is undefined behaviour to use a uniform buffer that is too small.
 Ith value does not match COLOR_ATTACHMENTi or NONE.
-J/yO
-J8Nx_
-JEy:r#
-JFEo}
-JLsy
-JTX&l6\fNEF
-JTX&l6\fX
-J\ntz)
-J\tYQ\n
-JakS
 January
-Jmja
-JnFz
-Jr;xW
-Js\fX
-JtJw
-Ju;c^Sf
 July
 June
-Jx<C
-K(HJc^
-K;l2
-K?bk
-KE7H
 KERNEL32.dll
 KHR_blend_equation_advanced
 KHR_gl_renderbuffer_image not supported.
 KHR_gl_texture_2D_image not supported.
 KHR_gl_texture_3D_image not supported.
 KHR_gl_texture_cubemap_image not supported.
-KJ6/}a^r
-KNC}
-KV"n
-KXo`
-Kh]U
-Kh]e
-KlUU
-Kv\F
-Kz>Z
-L,)t.pS
-L4+5
 L=33s?33s?FramebufferVk::readPixelsImpl
-L>ev
-L?UUUUUUU?
 L?fff?
 LAYER
 LCIDToLocaleName
 LCMapStringEx
 LCMapStringW
-LGRo
-LK$TG
 LLD PDB.
-LMc\t
 LOOP
-LWG>
-LWW>
-L\rKC>I
-L\vzo
-L_q3}Y
 Label length is larger than GL_MAX_LABEL_LENGTH.
 LastFragColor
 LastFragData
@@ -5272,7 +4765,6 @@ Length must not be zero.
 Level is larger than texture level count.
 Level is negative.
 Level of detail outside of range.
-Lg}Q
 Light parameter out of range.
 Limit max 3d texture size and max array texture layers to 1024 to avoid system hang
 Limit sample count to 2 to save memory on low end devices.
@@ -5294,8 +4786,6 @@ LinkTaskD3D::link
 LinkTaskGL::getResult
 LinkTaskVk::linkImpl
 Linked transform feedback stage 
-Lkh25,
-Lkh45
 Load
 Load Operation GL_LOAD_OP_LOAD_ANGLE is invalid for memoryless planes.
 LoadCursorW
@@ -5329,32 +4819,13 @@ Loop index cannot be initialized with non-constant expression
 Loop index cannot be modified by non-constant expression
 Loop index cannot be statically assigned to within the body of the loop
 Loop with condition 
-Lrx::Renderer11::populateRenderer11DeviceCaps
-LzG!IRIeR
-LzZ/
-Lz[!IRIyR
-Lzg!IRIeR
-L{Xjz
-L{Xnz
-M%x}PGj
-M.>3L\rs
-M4<D
 MAX_
 MAX_NUM_ACTIVE_VARIABLES requires a buffer or block interface.
 MAX_TEXTURE_IMAGE_UNITS
-MC?s
 MEDIUM
-MGiI
 MM/dd/yy
-MP=K
-MP=k
-MQMK
-MQMO
-MQ}k
 MSRTTEmulationColorUnresolveAndResolve
 MSRTTEmulationDepthStencilUnresolveAndResolve
-M\fh4
-M\nI6<m
 Mac incorrectly executes both sides of && and || expressions when they should short-circuit.
 Maintain a shadow copy of buffer data when the GL API does not permit reading data back.
 Make egl surface uncurrent when calling eglDestroySurface(), if the surface is still bound by the context of current render thread
@@ -5370,9 +4841,6 @@ Marker
 MaskNumber cannot be greater than or equal to the value of MAX_SAMPLE_MASK_WORDS.
 Material parameter out of range.
 Matrix Packing
-Maw8
-Mb-S
-Mb]r
 Medium
 Memory heap info
 Mesa
@@ -5381,8 +4849,6 @@ Message length is larger than GL_MAX_DEBUG_MESSAGE_LENGTH.
 Metal features
 Metal platform is unsupported.
 Metal workarounds
-Mh]U
-Mh]e
 Microsoft
 Microsoft (R) HLSL Shader Compiler 10.1
 Microsoft (R) HLSL Shader Compiler 6.3.9600.16384
@@ -5407,13 +4873,10 @@ Missing required attribute for EGL_IOSURFACE
 Missing required parameter 0x%X for image target EGL_LINUX_DMA_BUF_EXT.
 Missing required parameter 0x%X for image target EGL_VULKAN_IMAGE_ANGLE.
 Missing shader object
-Mj=F
-Mnoz
 Module was not loaded\n
 Monday
 MonitorFromWindow
 More parameters are required than were provided.
-MuH *u
 MultiByteToWideChar
 Multiple planes bound to same texture object
 Multiple uniforms bound to location 
@@ -5421,19 +4884,10 @@ Multisampled depth/stencil blit is not supported by this extension.
 Multisampling not supported for client buffer texture
 Must have element array buffer bound.
 Must specify major version if you specify a minor version.
-N'\fck
-N'qz
-N2(B&
-N3`d?
-N9+p
-N>O=I9
-N>VF
 NAN(IND)
 NAN(SNAN)
-NGHc
 NODEVICE_SELECT
 NOTIFICATION
-NQ?s
 NULL
 NULL buffer.
 NULL share handle.
@@ -5441,8 +4895,6 @@ NVIDIA
 NV_EGL_stream_consumer_external
 NV_shader_framebuffer_fetch
 NV_shader_noperspective_interpolation
-N\4W
-N\f0P
 Name
 Name conflicts between a uniform and a uniform block field: 
 Name conflicts between a uniform and an attribute: 
@@ -5463,11 +4915,6 @@ Negative number of attachments.
 Negative offset.
 Negative size.
 New vertex buffer size would result in an overflow.
-Ng5:cNgM
-NgC,p
-NhwI
-NhwQ
-NjP_u
 No D3D9 module found.
 No DeviceVk instance.
 No Texture is bound to the specified target.
@@ -5519,24 +4966,11 @@ Not initialized.
 Not supported multiplanar format: 
 Note: Additional non-conformant packing restrictions are enforced on D3D9.
 Notification
-NouL
 November
-NuOP
 NumSamples
 NumWorkGroups
 Number of constructor parameters does not match the number of structure fields
 Number of views does not match the previous declaration
-Nw0u}
-Ny$6
-NzV:z
-O#kv
-O24q
-O4br
-O:kNG
-O:sNG
-O;aZ
-OCCN
-OCapture of array elements is undefined and not supported.
 OES_EGL_image_external
 OES_EGL_image_external_essl3
 OES_compressed_EAC_R11_signed_texture
@@ -5560,7 +4994,6 @@ OES_texture_3D
 OES_texture_buffer
 OES_texture_cube_map_array
 OES_texture_storage_multisample_2d_array
-OPb\rJ
 OSGN
 OSGN,
 OSGNL
@@ -5572,9 +5005,6 @@ OSGN|
 OVR_multiview
 OVR_multiview or OVR_multiview2 are not available.
 OVR_multiview2
-OY[76o
-OYm*|
-OZQ%
 Object cannot be used because it has not been generated.
 Object: 
 October
@@ -5606,8 +5036,6 @@ Offset))), int(
 Offset)));\n
 Offset)), 0, int(
 Offset));\n
-Oh]U
-Ohwg7
 On some GPUs, program binaries don't contain transform feedback varyings
 On some drivers the return value from RWByteAddressBuffer.InterlockedAdd does not resolve when used in the .yzw components of a RWByteAddressBuffer.Store operation
 On some drivers when rendering with no render target, two bugs lead to incorrect behavior
@@ -5624,7 +5052,6 @@ Only std140 layout is allowed in WebGL
 Only use the default VAO because of missing support or driver bugs
 Only whole-buffer blit is supported from a multisampled read buffer in this extension.
 Only whole-buffer depth and stencil blits are supported by this extension.
-Oowr
 Opaque types are not allowed in interface blocks
 OpenGL 
 OpenGL ES 
@@ -5655,14 +5082,10 @@ Outputs:
 OutsideRenderPassCommandBufferHelper::flushToPrimary
 Overflowed the 
 Override surface format GL_RGB8 to GL_RGBA8
-P7J^
-PE't
 POSITION
-PQBZ)
 PSIZE
 PS_INPUT input
 PS_OUTPUT main(@@ PIXEL MAIN PARAMETERS @@)
-P\fMjw
 Packed color formats are buggy on Macs with AMD GPUs
 Parameter cannot be used if target is not EGL_LINUX_DMA_BUF_EXT
 Parameter cannot be used without EGL_EXT_image_dma_buf_import support.
@@ -5723,7 +5146,6 @@ Post-Increment
 Post-link task unexpectedly failed. Performance may degrade, or device may soon be lost
 Potential inefficiency emulating uint8 vertex attributes due to lack of hardware support
 PowerVR Rogue
-Pr2o
 Pre-Decrement
 Pre-Increment
 PreFragmentShadersReadOnly
@@ -5776,16 +5198,6 @@ ProgramPipeline link failed
 Proj
 Protected Texture must match Protected Context
 Provided buffer is not a IDirect3DTexture9 or ID3D11Texture2D.
-Pv2o
-Q*rN'
-Q5iT
-Q5rHg,>
-QA7IQ
-QAf?
-Q\oY
-Q\t7R
-Qkkbal
-Qs1i
 Qualcomm
 Query Pool
 Query extension not enabled.
@@ -5798,12 +5210,7 @@ QueryVk::getResult
 Querying age of a surface will make it retain its content
 Queue
 Quite some OpenGL ES drivers don't implement readPixels for RGBA/UNSIGNED_SHORT from EXT_texture_norm16 correctly
-R5.|M
-R5m-
-R7+4
-R;f4l
 RADV
-RB7c
 RDEF
 RDEF 
 RDEFD
@@ -5812,8 +5219,6 @@ RDEFp
 RGBA4IsNotSupportedForColorRendering
 RGBDXT1TexturesSampleZeroAlpha
 RONOS_validationVK_LAYER_KHRONOSCommand successfully completed
-RSDS
-RTT?
 RW2DArray_float4_
 RW2DArray_int4_
 RW2DArray_snorm_float4_
@@ -5860,8 +5265,6 @@ RWTexture3D<int4>
 RWTexture3D<snorm float4>
 RWTexture3D<uint4>
 RWTexture3D<unorm float4>
-R\n0\tP
-R\n0\tp
 RaiseException
 RasterizerOrdered
 Reactivate already started render pass on draw.
@@ -5941,6 +5344,7 @@ Renderbuffer width and height cannot be negative and cannot exceed maximum textu
 Renderer does not support PS 
 Renderer does not support StretctRect from textures.
 Renderer11::initialize (ComQueries)
+Renderer11::initialize (DXGICheck)
 Renderer11::initialize (HideWarnings)
 Renderer11::initialize (Load DLLs)
 Renderer11::initializeDevice
@@ -5976,8 +5380,6 @@ Retain debug info in SPIR-V blob.
 Return a default descriptor count for external formats.
 Rewrite row major matrices in shaders as column major as a driver bug workaround
 Rewrite vec/mat constructors to work around driver bugs
-RjhNQ
-Rnv5}
 RoInitialize
 RoUninitialize
 Round output after dithering to workaround a driver bug that rounds the output up
@@ -5992,33 +5394,15 @@ RtlUnwindEx
 RtlVirtualUnwind
 Run out of queue serial index. All 
 Running out of reserved outsideRenderPass queueSerial. ending renderPass now.
-RwQJ
-RwR(
-R}Qh
-S9>H
-S;dmB
-S>$hkDh$h>[2
-SD=,A
 SHADER_STORAGE_BLOCKS
 SHDR
-SHDR$
-SHDR,
-SHDR0
-SHDR4
 SHDR8
 SHDR<
-SHDR@
-SHDRL
 SHDRP
-SHDRT
-SHDRX
 SHDR\
-SHDR\f
 SHDRd
-SHDRp
 SHDRx
 SNAN)
-SO]t
 SPRITEPOSITION
 SPRITETEXCOORD
 SPV_EXT_fragment_shader_interlock
@@ -6027,7 +5411,6 @@ SPV_KHR_multiview
 SPV_KHR_non_semantic_info
 STATt
 SUCCESS
-SUz~=
 SV_ClipDistance
 SV_CullDistance
 SV_DEPTH
@@ -6047,12 +5430,10 @@ SV_SAMPLEINDEX
 SV_TARGET
 SV_Target
 SV_VertexID
-SXM-n
 SYNC-HAZARD-READ-AFTER-WRITE
 SYNC-HAZARD-WRITE-AFTER-READ
 SYNC-HAZARD-WRITE-AFTER-WRITE
 SYNC_COLOR_ATTACHMENT_OUTPUT_COLOR_ATTACHMENT_READ
-SaKL
 SampleID
 SampleMask
 SampleMaskIn
@@ -6070,9 +5451,7 @@ Samsung Electronics Co., Ltd.
 Saturday
 Saving program binary with transform feedback, which is not supported on this driver.
 Saving program binary without GL_PROGRAM_BINARY_RETRIEVABLE_HINT is suboptimal.
-Sb<o
 Scaling and flipping in BlitFramebufferANGLE not supported by this implementation.
-Sco5y
 SecondaryCommandBuffer::executeCommands
 SecondaryFragColorEXT
 SecondaryFragDataEXT
@@ -6093,8 +5472,6 @@ SetStdHandle
 SetUnhandledExceptionFilter
 Setting texture buffer offset alignment to 
 Setting uniform buffer offset alignment to 
-SeyI
-Sh<P
 Shader Compiler
 Shader Module
 Shader attachment already has a shader.
@@ -6104,9 +5481,11 @@ Shader parsing failed (mTreeRoot == nullptr)
 Shader source:
 Shader substitute found, loading from 
 Shader to be detached must be currently attached to the program.
+ShaderCache initialize
 ShaderTranslateTask::run
 ShaderTranslateTaskD3D::run
 Shared memory declarations cannot have layout specified
+SharedFence::wait
 SharedPresent
 Simultaneous use of GL_CONSTANT_ALPHA/GL_ONE_MINUS_CONSTANT_ALPHA and GL_CONSTANT_COLOR/GL_ONE_MINUS_CONSTANT_COLOR as color factors is not supported by this implementation.
 Single barrier call is preferred over multiple calls with fine grained pipeline stage dependency information
@@ -6122,10 +5501,8 @@ Skip syncing pipeline cache data due to out of memory.
 Skip syncing pipeline cache data when it's larger than maxTotalSize.
 Skip syncing pipeline cache data when the last task is not ready.
 Skipping invalidate is preferred for emulated formats that have extra channels over re-clearing the image
-Skjh
 Sleep
 SleepConditionVariableSRW
-SoZi
 Some D3D11 renderers do not support geometry shaders for pointsprite emulation
 Some GLSL constructs involving do-while loops cause GPU hangs
 Some devices genenerate errors when querying the clip control state
@@ -6153,7 +5530,6 @@ Source texture must level 0 defined.
 Specified unit must be in [GL_TEXTURE0, GL_TEXTURE0 + GL_MAX_COMBINED_IMAGE_UNITS)
 Specified unit must be in [GL_TEXTURE0, GL_TEXTURE0 + GL_MAX_TEXTURE_UNITS)
 Speculative fix for issues on Linux/Wayland where exposing GLX_OML_sync_control renders Chrome unusable
-Sso3<g
 StagingImage
 Stencil
 Stencil reference and mask values must be the same for front facing and back facing triangles.
@@ -6200,7 +5576,6 @@ Surface not compatible with OpenGL ES 2.x.
 Surface not compatible with OpenGL ES 3.x.
 Surface supports the EGL_KHR_lock_surface3 extension
 Surface type is not compatible.
-SwZt
 Swap chain uninitialized
 Swap surface cannot be EGL_NO_SURFACE.
 SwapBuffers
@@ -6228,14 +5603,10 @@ SyncHelper::clientWait
 SyncHelper::clientWait block (unlocked)
 SyncHelperNativeFence::clientWait
 SyncHelperNativeFence::clientWait block (unlocked)
-T=4R
 TESS_CONTROL
 TESS_EVALUATION
 TEXCOORD
 TEXTURE_IMAGE_UNITS
-THR?
-TJzl
-TUUU
 TUUUU
 Target is TRANSFORM_FEEDBACK_BUFFER and transform feedback is currently active.
 Target must be TEXTURE_2D_MULTISAMPLE_ARRAY_OES.
@@ -6461,7 +5832,6 @@ Too many open files
 Too many open files in system
 Total size of declared private variables exceeds implementation-defined limit
 TotalBytes
-Toxueu
 TransferDst
 TransferDstAndComputeWrite
 TransferSrc
@@ -6484,28 +5854,16 @@ Two transform feedback varyings specify the same output variable (
 Type
 Type is INT_10_10_10_2_OES or UNSIGNED_INT_10_10_10_2_OES and size is not 3 or 4.
 Type is INT_2_10_10_10_REV or UNSIGNED_INT_2_10_10_10_REV and size is not 4.
-U>Oj_W
-U>b8b(
-UA>N0Wl
 UNASSIGNED-CoreValidation-DrawState-InvalidImageLayout
 UNIFORM_BUFFERS
 UNIFORM_COMPONENTS
 UNIFORM_VECTORS
 UNKNOWN
 UNKOWN ERROR: 
-UNbgVb
-UNwu
-UOhw
 USER32.dll
-USY9
 UTF-16LEUNICODE
 UTF-8
-UUUU
-UUUUU
 UUUUUU
-UYWr1
-UbZD'D.
-Ufh|
 Undefined
 Undefined behavior
 Undefined function '
@@ -6557,7 +5915,6 @@ Unsupported format
 Unused std140 or shared uniform blocks will be treated as inactive
 UnusedBytes
 UnusedRanges
-Up1\
 Upload image data on host
 Upload texture data in <120kb chunks to work around Mac driver hangs and crashes.
 Usage
@@ -6587,11 +5944,7 @@ Using clear() may not take effect
 Using glClear for robust resource initialization is buggy on some drivers and leads to texture corruption. Default to data uploads except on MacOS where it is very slow.
 Using isnan() on highp float will get wrong answer
 Utilize VMA for image memory suballocation.
-UzWlb
-U|o3
-U~jM
-V2G{Fh
-V8Y\
+V@%d
 VERTEX
 VK_ARM_rasterization_order_attachment_access
 VK_EXT_blend_operation_advanced
@@ -6678,7 +6031,6 @@ VK_LAYER_LUNARG_standard_validation
 VK_LAYER_PATH
 VK_NULL_HANDLE
 VK_QCOM_render_pass_store_ops
-VKlUU
 VMware
 VPOS
 VS_OUTPUT generateOutput(VS_INPUT input)\n
@@ -6750,7 +6102,6 @@ VertexBuffer11(static)
 VertexID
 VertexShaderReadOnly
 VertexShaderWrite
-VfG9
 ViewIDOVR
 ViewID_OVR
 Viewport size cannot be negative.
@@ -6848,21 +6199,10 @@ Vulkan supports VK_KHR_portability_enumeration extension
 Vulkan swapchain is not returning VK_ERROR_OUT_OF_DATE when window resizing
 Vulkan validation layers are missing.
 Vulkan workarounds
-VvNg
-Vw^0
-Vw^|kVF
-Vwr8
-Vx)%G
-W 7x
-W!nc_{v
-W3kPK
-W6Uw
 WARN
 WARNING
 WARNING: 
-WCSF
 WEBGL_video_texture
-WF,Oc
 WGL_ARB_create_context
 WGL_ARB_create_context_robustness
 WGL_ARB_create_context_robustness exists but unable to create a context with robustness.
@@ -6875,10 +6215,6 @@ WGL_EXT_swap_control
 WGL_NV_DX_interop
 WGL_NV_DX_interop2
 WGL_NV_DX_interop2 is required but not present.
-WKjK
-WV}O
-W_7'2
-WaNd?
 WaitForSingleObjectEx
 Waiting on an unsubmitted serial.
 WakeAllConditionVariable
@@ -6887,7 +6223,6 @@ Warm up the Vulkan pipeline cache at link time
 Warning: D3D shader compilation failed with 
 WebGPU platform is unsupported.
 Wednesday
-Wg&L
 When EXT_separate_shader_objects is enabled, both gl_Position and gl_PointSize must be redeclared before either is used
 When GL_PRIMITIVE_RESTART_FIXED_INDEX is not available, emulate it with GL_PRIMITIVE_RESTART and glPrimitiveRestartIndex.
 When tessellation is active the primitive mode must be GL_PATCHES.
@@ -6916,8 +6251,6 @@ WindowSurfaceVk::lockSurface
 WindowSurfaceVk::present
 WindowSurfaceVk::swapImpl
 WindowSurfaceVk::throttleCPU
-Wll"
-Wn^l
 Work around a driver bug where 0 in stencil write mask static state would make the corresponding dynamic state malfunction in the presence of discard or alpha to coverage
 Work group size does not match the previous declaration
 Work group size is not specified.
@@ -6929,79 +6262,20 @@ WriteConsoleW
 WriteFile
 Writeonly value cannot be passed for 'in' or 'inout' parameters.
 Writing to multiple blocks on the same buffer is not allowed.
-Wy>N\r
-W|7\C
-X*gC
-X/4B
-X/lg
-X4S4
-X<a1
 X?fff?
-XB2B
-XClBlRlJlZlFlV
-XEl@lH
-XF~T
-XH)T
-XIa*
-XYlUU
-XxwFn'L
-Y fQ
-Y&n:c
-Y0/v
-Y1{mb
-Y8a:
-Y>kX>M
-YCku
-YG=r
-YR_H
-YTg9
 YUV 4:2:0 textures must have even width and height.
-YkO"~
-YnW!
-Ys[n
-Ysm2
-Z#bj
-Z.sd
-Z0nq
-Z9Mk
-ZM)K
-ZNgmk(
 ZOvp,
-ZVr^+
-Z[,RA
-Z\>z8
-Z\il
 Zero divided by zero during constant folding generated NaN
 Zero is bound to target.
-ZetF
-Zjz\v
-ZkE#
-ZrNg
-Zu;aZ
-Zz7 \fj
-[%gpX
 [%s : %d] RAW: 
-[)5ekc
-[)xJw
-[*ncd>0
-[*ncd>TQ
-[G9K'C
-[IXC
-[OSQ
-[YYlse
-[aOni*{
-[dMD
 [earlydepthstencil]\n
 [index]
 [kMaxClipPlanes] = bool[kMaxClipPlanes](
 [kMaxLights] = bool[kMaxLights](
 [kMaxTexUnits] = bool[kMaxTexUnits](
 [kMaxTexUnits] = uint[kMaxTexUnits](
-[kSQ
-[lUE
 [maxvertexcount(
 [numthreads(
-[ojXHlgjX
 [p] = data;\n
 [samplerArrayIndex]
 [samplerIndex]
@@ -7009,15 +6283,6 @@ Zz7 \fj
 [uint(p.x)];\n
 [uint2(p.x, p.y)];\n
 [uint3(p.x, p.y, p.z)];\n
-\0\tYi
-\5NJ
-\5lq
-\CQ4
-\Fg2
-\Jrt
-\aXg
-\fo\vg~e2
-\fqnr
 \n    float4 dx_Position = input[0].dx_Position;\n    float gl_PointSize = clamp(input[0].gl_PointSize, minPointSize, maxPointSize);\n    float2 viewportScale = float2(1.0f / dx_ViewCoords.x, 1.0f / dx_ViewCoords.y) * dx_Position.w;\n
 \n    output.dx_Position = dx_Position + float4(pointSpriteCorners[
 \n#define ATOMIC_COUNTER_ARRAY_STRIDE 4\n\n
@@ -7029,19 +6294,13 @@ Zz7 \fj
 \n// INITIAL HLSL END\n\n\n
 \n// Varyings\n
 \nPaste the following SPIR-V binary in https://www.khronos.org/spir/visualizer/\n\nSetting the environment variable ANGLE_FEATURE_OVERRIDES_ENABLED=retainSPIRVDebugInfo will retain debug info\n\n
-\nRKE(
 \nShared memory size exceeds GL_MAX_COMPUTE_SHARED_MEMORY_SIZE
 \nThe total number of invocations within a work group exceeds MAX_COMPUTE_WORK_GROUP_INVOCATIONS.
 \n\n// Texture units ///////////////////////////////////////////////////////////////\n\n// These are not arrays because hw support for arrays\n// of samplers is rather lacking.\n\nuniform mediump sampler2D tex_sampler0;\nuniform mediump samplerCube tex_cube_sampler0;\n\nuniform mediump sampler2D tex_sampler1;\nuniform mediump samplerCube tex_cube_sampler1;\n\nuniform mediump sampler2D tex_sampler2;\nuniform mediump samplerCube tex_cube_sampler2;\n\nuniform mediump sampler2D tex_sampler3;\nuniform mediump samplerCube tex_cube_sampler3;\n\nuniform mediump vec4 texture_env_color[kMaxTexUnits];\nuniform mediump float texture_env_rgb_scale[kMaxTexUnits];\nuniform mediump float texture_env_alpha_scale[kMaxTexUnits];\n\n// Vertex attributes////////////////////////////////////////////////////////////\n\nin vec4 pos_varying;\nin vec3 normal_varying;\nin mediump vec4 color_varying;\nflat in mediump vec4 color_varying_flat;\n#if kTexUnits >= 1u\nin mediump vec3 texcoord0_varying;\n#endif\n#if kTexUnits >= 2u\nin mediump vec3 texcoord1_varying;\n#endif\n#if kTexUnits >= 3u\nin mediump vec3 texcoord2_varying;\n#endif\n#if kTexUnits >= 4u\nin mediump vec3 texcoord3_varying;\n#endif\n\n// Alpha test///////////////////////////////////////////////////////////////////\n\nuniform mediump float alpha_test_ref;\n\n// Fog /////////////////////////////////////////////////////////////////////////\n\nuniform float fog_density;\nuniform float fog_start;\nuniform float fog_end;\nuniform mediump vec4 fog_color;\n\n// User clip plane /////////////////////////////////////////////////////////////\n\nuniform vec4 clip_planes[kMaxClipPlanes];\n\n// Logic Op ////////////////////////////////////////////////////////////////////\n\n// Format is:\n// - 4x4 bits depicting the bit width of each channel of color output\n// - 4 bits for the op based on LogicalOperation's packing\nuniform highp uint logic_op;\n\n// Point rasterization//////////////////////////////////////////////////////////\n\n// GL_OES_draw_texture//////////////////////////////////////////////////////////\n
 \n\nbool doAlphaTest(mediump vec4 currentFragment)\n{\n    bool shouldPassAlpha   = false;\n    mediump float incAlpha = currentFragment.a;\n\n    switch (alpha_func)\n    {\n        case kNever:\n            shouldPassAlpha = false;\n            break;\n        case kLess:\n            shouldPassAlpha = incAlpha < alpha_test_ref;\n            break;\n        case kLequal:\n            shouldPassAlpha = incAlpha <= alpha_test_ref;\n            break;\n        case kEqual:\n            shouldPassAlpha = incAlpha == alpha_test_ref;\n            break;\n        case kGequal:\n            shouldPassAlpha = incAlpha >= alpha_test_ref;\n            break;\n        case kGreater:\n            shouldPassAlpha = incAlpha > alpha_test_ref;\n            break;\n        case kNotequal:\n            shouldPassAlpha = incAlpha != alpha_test_ref;\n            break;\n        case kAlways:\n        default:\n            shouldPassAlpha = true;\n            break;\n    }\n\n    return shouldPassAlpha;\n}\n\nbool doClipPlaneTest()\n{\n    bool res = true;\n\n    for (uint i = 0u; i < kMaxClipPlanes; i++)\n    {\n        if (clip_plane_enables[i])\n        {\n            float dist = dot(clip_planes[i].xyz, pos_varying.xyz) + clip_planes[i].w * pos_varying.w;\n            res        = res && (dist >= 0.0);\n        }\n    }\n\n    return res;\n}\n\nmediump vec4 doFog(mediump vec4 currentFragment)\n{\n\n    float eyeDist = -pos_varying.z / pos_varying.w;\n    float f       = 1.0;\n    switch (fog_mode)\n    {\n        case kExp:\n            f = exp(-fog_density * eyeDist);\n            break;\n        case kExp2:\n            f = exp(-(pow(fog_density * eyeDist, 2.0)));\n            break;\n        case kLinear:\n            f = (fog_end - eyeDist) / (fog_end - fog_start);\n            break;\n        default:\n            break;\n    }\n\n    f = clamp(f, 0.0, 1.0);\n    mediump vec4 result = vec4(f * currentFragment.rgb + (1.0 - f) * fog_color.rgb, currentFragment.a);\n    return result;\n}\n
 \n\nbool isTextureUnitEnabled(uint unit)\n{\n    return enable_texture_2d[unit] || enable_texture_cube_map[unit];\n}\n\nmediump vec4 getTextureColor(uint unit)\n{\n    mediump vec4 res;\n\n    switch (unit)\n    {\n#if kTexUnits >= 1u\n        case 0u:\n            if (enable_texture_2d[0])\n            {\n                res = texture(tex_sampler0, texcoord0_varying.xy);\n            }\n            else if (enable_texture_cube_map[0])\n            {\n                res = texture(tex_cube_sampler0, texcoord0_varying);\n            }\n            break;\n#endif\n#if kTexUnits >= 2u\n        case 1u:\n            if (enable_texture_2d[1])\n            {\n                res = texture(tex_sampler1, texcoord1_varying.xy);\n            }\n            else if (enable_texture_cube_map[1])\n            {\n                res = texture(tex_cube_sampler1, texcoord1_varying);\n            }\n            break;\n#endif\n#if kTexUnits >= 3u\n        case 2u:\n            if (enable_texture_2d[2])\n            {\n                res = texture(tex_sampler2, texcoord2_varying.xy);\n            }\n            else if (enable_texture_cube_map[2])\n            {\n                res = texture(tex_cube_sampler2, texcoord2_varying);\n            }\n            break;\n#endif\n#if kTexUnits >= 4u\n        case 3u:\n            if (enable_texture_2d[3])\n            {\n                res = texture(tex_sampler3, texcoord3_varying.xy);\n            }\n            else if (enable_texture_cube_map[3])\n            {\n                // TODO: Weird stuff happens\n                // res = texture(tex_cube_sampler3, texcoord3_varying);\n            }\n            break;\n#endif\n        default:\n            break;\n    }\n\n    return res;\n}\n\nmediump vec4 getPointSpriteTextureColor(uint unit)\n{\n    mediump vec4 res;\n\n    switch (unit)\n    {\n        case 0u:\n            if (enable_texture_2d[0])\n            {\n                res = texture(tex_sampler0, gl_PointCoord.xy);\n            }\n            break;\n        case 1u:\n            if (enable_texture_2d[1])\n            {\n                res = texture(tex_sampler1, gl_PointCoord.xy);\n            }\n            break;\n        case 2u:\n            if (enable_texture_2d[2])\n            {\n                res = texture(tex_sampler2, gl_PointCoord.xy);\n            }\n            break;\n        case 3u:\n            if (enable_texture_2d[3])\n            {\n                res = texture(tex_sampler3, gl_PointCoord.xy);\n            }\n            break;\n        default:\n            break;\n    }\n\n    return res;\n}\n\nmediump vec3 textureCombineSrcnOpnRgb(uint srcnRgb,\n                                      uint opnRgb,\n                                      mediump vec4 textureEnvColor,\n                                      mediump vec4 vertexColor,\n                                      mediump vec4 texturePrevColor,\n                                      mediump vec4 textureColor)\n{\n    mediump vec3 res;\n    mediump vec4 op;\n\n    switch (srcnRgb)\n    {\n        case kTexture:\n            op = textureColor;\n            break;\n        case kConstant:\n            op = textureEnvColor;\n            break;\n        case kPrimaryColor:\n            op = vertexColor;\n            break;\n        case kPrevious:\n            op = texturePrevColor;\n            break;\n        default:\n            op = texturePrevColor;\n            break;\n    }\n\n    switch (opnRgb)\n    {\n        case kSrcColor:\n            res = op.rgb;\n            break;\n        case kOneMinusSrcColor:\n            res = 1.0 - op.rgb;\n            break;\n        case kSrcAlpha:\n            res = vec3(op.a, op.a, op.a);\n            break;\n        case kOneMinusSrcAlpha:\n            res = vec3(1.0 - op.a, 1.0 - op.a, 1.0 - op.a);\n            break;\n        default:\n            break;\n    }\n\n    return res;\n}\n\nmediump float textureCombineSrcnOpnAlpha(uint srcn,\n                                         uint opn,\n                                         mediump vec4 textureEnvColor,\n                                         mediump vec4 vertexColor,\n                                         mediump vec4 texturePrevColor,\n                                         mediump vec4 textureColor)\n{\n    mediump float res;\n    mediump vec4 op;\n\n    switch (srcn)\n    {\n        case kTexture:\n            op = textureColor;\n            break;\n        case kConstant:\n            op = textureEnvColor;\n            break;\n        case kPrimaryColor:\n            op = vertexColor;\n            break;\n        case kPrevious:\n            op = texturePrevColor;\n            break;\n        default:\n            op = texturePrevColor;\n            break;\n    }\n\n    switch (opn)\n    {\n        case kSrcAlpha:\n            res = op.a;\n            break;\n        case kOneMinusSrcAlpha:\n            res = 1.0 - op.a;\n            break;\n        default:\n            break;\n    }\n\n    return res;\n}\n\nmediump vec4 textureCombine(uint combineRgb,\n                            uint combineAlpha,\n                            uint src0Rgb,\n                            uint src0Alpha,\n                            uint src1Rgb,\n                            uint src1Alpha,\n                            uint src2Rgb,\n                            uint src2Alpha,\n                            uint op0Rgb,\n                            uint op0Alpha,\n                            uint op1Rgb,\n                            uint op1Alpha,\n                            uint op2Rgb,\n                            uint op2Alpha,\n                            mediump vec4 textureEnvColor,\n                            mediump float rgbScale,\n                            mediump float alphaScale,\n                            mediump vec4 vertexColor,\n                            mediump vec4 texturePrevColor,\n                            mediump vec4 textureColor)\n{\n\n    mediump vec3 resRgb;\n    mediump float resAlpha;\n\n    mediump vec3 arg0Rgb;\n    mediump float arg0Alpha;\n    mediump vec3 arg1Rgb;\n    mediump float arg1Alpha;\n    mediump vec3 arg2Rgb;\n    mediump float arg2Alpha;\n    mediump float dotVal;\n\n    arg0Rgb   = textureCombineSrcnOpnRgb(src0Rgb, op0Rgb, textureEnvColor, vertexColor,\n                                       texturePrevColor, textureColor);\n    arg0Alpha = textureCombineSrcnOpnAlpha(src0Alpha, op0Alpha, textureEnvColor, vertexColor,\n                                           texturePrevColor, textureColor);\n\n    if (combineRgb != kReplace)\n    {\n        arg1Rgb = textureCombineSrcnOpnRgb(src1Rgb, op1Rgb, textureEnvColor, vertexColor,\n                                           texturePrevColor, textureColor);\n    }\n\n    if (combineAlpha != kReplace)\n    {\n        arg1Alpha = textureCombineSrcnOpnAlpha(src1Alpha, op1Alpha, textureEnvColor, vertexColor,\n                                               texturePrevColor, textureColor);\n    }\n\n    if (combineRgb == kInterpolate)\n    {\n        arg2Rgb = textureCombineSrcnOpnRgb(src2Rgb, op2Rgb, textureEnvColor, vertexColor,\n                                           texturePrevColor, textureColor);\n    }\n\n    if (combineAlpha == kInterpolate)\n    {\n        arg2Alpha = textureCombineSrcnOpnAlpha(src2Alpha, op2Alpha, textureEnvColor, vertexColor,\n                                               texturePrevColor, textureColor);\n    }\n\n    switch (combineRgb)\n    {\n        case kReplace:\n            resRgb = arg0Rgb;\n            break;\n        case kModulate:\n            resRgb = arg0Rgb * arg1Rgb;\n            break;\n        case kAdd:\n            resRgb = arg0Rgb + arg1Rgb;\n            break;\n        case kAddSigned:\n            resRgb = arg0Rgb + arg1Rgb - 0.5;\n            break;\n        case kInterpolate:\n            resRgb = arg0Rgb * arg2Rgb + arg1Rgb * (1.0 - arg2Rgb);\n            break;\n        case kSubtract:\n            resRgb = arg0Rgb - arg1Rgb;\n            break;\n        default:\n            break;\n    }\n\n    switch (combineAlpha)\n    {\n        case kReplace:\n            resAlpha = arg0Alpha;\n            break;\n        case kModulate:\n            resAlpha = arg0Alpha * arg1Alpha;\n            break;\n        case kAdd:\n            resAlpha = arg0Alpha + arg1Alpha;\n            break;\n        case kAddSigned:\n            resAlpha = arg0Alpha + arg1Alpha - 0.5;\n            break;\n        case kInterpolate:\n            resAlpha = arg0Alpha * arg2Alpha + arg1Alpha * (1.0 - arg2Alpha);\n            break;\n        case kSubtract:\n            resAlpha = arg0Alpha - arg1Alpha;\n            break;\n        default:\n            break;\n    }\n\n    if (combineRgb == kDot3Rgb || combineRgb == kDot3Rgba)\n    {\n        dotVal = 4.0 * dot(arg0Rgb - 0.5, arg1Rgb - 0.5);\n\n        if (combineRgb == kDot3Rgb)\n        {\n            return vec4(dotVal, dotVal, dotVal, resAlpha);\n        }\n        else\n        {\n            return vec4(dotVal, dotVal, dotVal, dotVal);\n        }\n    }\n    else\n    {\n        return vec4(resRgb, resAlpha);\n    }\n}\n\nmediump vec4 textureFunction(uint unit,\n                             uint texFormat,\n                             uint envMode,\n                             uint combineRgb,\n                             uint combineAlpha,\n                             uint src0Rgb,\n                             uint src0Alpha,\n                             uint src1Rgb,\n                             uint src1Alpha,\n                             uint src2Rgb,\n                             uint src2Alpha,\n                             uint op0Rgb,\n                             uint op0Alpha,\n                             uint op1Rgb,\n                             uint op1Alpha,\n                             uint op2Rgb,\n                             uint op2Alpha,\n                             mediump vec4 textureEnvColor,\n                             mediump float rgbScale,\n                             mediump float alphaScale,\n                             mediump vec4 vertexColor,\n                             mediump vec4 texturePrevColor,\n                             mediump vec4 textureColor)\n{\n\n    if (!isTextureUnitEnabled(unit))\n    {\n        return texturePrevColor;\n    }\n\n    mediump vec4 res;\n\n    switch (envMode)\n    {\n        case kReplace:\n            switch (texFormat)\n            {\n                case kAlpha:\n                    res.rgb = texturePrevColor.rgb;\n                    res.a   = textureColor.a;\n                    break;\n                case kRGBA:\n                case kLuminanceAlpha:\n                    res.rgba = textureColor.rgba;\n                    break;\n                case kRGB:\n                case kLuminance:\n                default:\n                    res.rgb = textureColor.rgb;\n                    res.a   = texturePrevColor.a;\n                    break;\n            }\n            break;\n        case kModulate:\n            switch (texFormat)\n            {\n                case kAlpha:\n                    res.rgb = texturePrevColor.rgb;\n                    res.a   = texturePrevColor.a * textureColor.a;\n                    break;\n                case kRGBA:\n                case kLuminanceAlpha:\n                    res.rgba = texturePrevColor.rgba * textureColor.rgba;\n                    break;\n                case kRGB:\n                case kLuminance:\n                default:\n                    res.rgb = texturePrevColor.rgb * textureColor.rgb;\n                    res.a   = texturePrevColor.a;\n                    break;\n            }\n            break;\n        case kDecal:\n            switch (texFormat)\n            {\n                case kRGB:\n                    res.rgb = textureColor.rgb;\n                    res.a   = texturePrevColor.a;\n                    break;\n                case kRGBA:\n                    res.rgb = texturePrevColor.rgb * (1.0 - textureColor.a) +\n                              textureColor.rgb * textureColor.a;\n                    res.a = texturePrevColor.a;\n                    break;\n                case kAlpha:\n                case kLuminance:\n                case kLuminanceAlpha:\n                default:\n                    res.rgb = texturePrevColor.rgb * textureColor.rgb;\n                    res.a   = texturePrevColor.a;\n                    break;\n            }\n            break;\n        case kBlend:\n            switch (texFormat)\n            {\n                case kAlpha:\n                    res.rgb = texturePrevColor.rgb;\n                    res.a   = textureColor.a * texturePrevColor.a;\n                    break;\n                case kLuminance:\n                case kRGB:\n                    res.rgb = texturePrevColor.rgb * (1.0 - textureColor.rgb) +\n                              textureEnvColor.rgb * textureColor.rgb;\n                    res.a = texturePrevColor.a;\n                    break;\n                case kLuminanceAlpha:\n                case kRGBA:\n                default:\n                    res.rgb = texturePrevColor.rgb * (1.0 - textureColor.rgb) +\n                              textureEnvColor.rgb * textureColor.rgb;\n                    res.a = textureColor.a * texturePrevColor.a;\n                    break;\n            }\n            break;\n        case kAdd:\n            switch (texFormat)\n            {\n                case kAlpha:\n                    res.rgb = texturePrevColor.rgb;\n                    res.a   = textureColor.a * texturePrevColor.a;\n                    break;\n                case kLuminance:\n                case kRGB:\n                    res.rgb = texturePrevColor.rgb + textureColor.rgb;\n                    res.a   = texturePrevColor.a;\n                    break;\n                case kLuminanceAlpha:\n                case kRGBA:\n                default:\n                    res.rgb = texturePrevColor.rgb + textureColor.rgb;\n                    res.a   = textureColor.a * texturePrevColor.a;\n                    break;\n            }\n            break;\n        case kCombine:\n            res = textureCombine(combineRgb, combineAlpha, src0Rgb, src0Alpha, src1Rgb, src1Alpha,\n                                 src2Rgb, src2Alpha, op0Rgb, op0Alpha, op1Rgb, op1Alpha, op2Rgb,\n                                 op2Alpha, textureEnvColor, rgbScale, alphaScale, vertexColor,\n                                 texturePrevColor, textureColor);\n            res.rgb *= rgbScale;\n            res.a *= alphaScale;\n            break;\n        default:\n            break;\n    }\n\n    return clamp(res, 0.0, 1.0);\n}\n
 \n\nin vec4 pos;\nin vec3 normal;\nin mediump vec4 color;\nin float pointsize;\n#if kTexUnits >= 1u\nin mediump vec4 texcoord0;\n#endif\n#if kTexUnits >= 2u\nin mediump vec4 texcoord1;\n#endif\n#if kTexUnits >= 3u\nin mediump vec4 texcoord2;\n#endif\n#if kTexUnits >= 4u\nin mediump vec4 texcoord3;\n#endif\n\nuniform mat4 projection;\nuniform mat4 modelview;\nuniform mat4 modelview_invtr;\nuniform mat4 texture_matrix[kMaxTexUnits];\n\n// Point rasterization//////////////////////////////////////////////////////////\n\nuniform float point_size_min;\nuniform float point_size_max;\nuniform vec3 point_distance_attenuation;\n\n// Shading: flat shading, lighting, and materials///////////////////////////////\n\nuniform mediump vec4 material_ambient;\nuniform mediump vec4 material_diffuse;\nuniform mediump vec4 material_specular;\nuniform mediump vec4 material_emissive;\nuniform float material_specular_exponent;\n\nuniform mediump vec4 light_model_scene_ambient;\n\nuniform mediump vec4 light_ambients[kMaxLights];\nuniform mediump vec4 light_diffuses[kMaxLights];\nuniform mediump vec4 light_speculars[kMaxLights];\nuniform vec4 light_positions[kMaxLights];\nuniform vec3 light_directions[kMaxLights];\nuniform float light_spotlight_exponents[kMaxLights];\nuniform float light_spotlight_cutoff_angles[kMaxLights];\nuniform float light_attenuation_consts[kMaxLights];\nuniform float light_attenuation_linears[kMaxLights];\nuniform float light_attenuation_quadratics[kMaxLights];\n\n// GL_OES_draw_texture uniforms/////////////////////////////////////////////////\n\nuniform vec4 draw_texture_coords;\nuniform vec2 draw_texture_dims;\nuniform mediump vec4 draw_texture_normalized_crop_rect[kMaxTexUnits];\n\n// Varyings/////////////////////////////////////////////////////////////////////\n\nout vec4 pos_varying;\nout vec3 normal_varying;\nout mediump vec4 color_varying;\nflat out mediump vec4 color_varying_flat;\n#if kTexUnits >= 1u\nout mediump vec3 texcoord0_varying;\n#endif\n#if kTexUnits >= 2u\nout mediump vec3 texcoord1_varying;\n#endif\n#if kTexUnits >= 3u\nout mediump vec3 texcoord2_varying;\n#endif\n#if kTexUnits >= 4u\nout mediump vec3 texcoord3_varying;\n#endif\n\nfloat posDot(vec3 a, vec3 b)\n{\n    return max(dot(a, b), 0.0);\n}\n\nmediump vec4 doLighting(mediump vec4 vertexColor)\n{\n    mediump vec4 materialAmbientActual = material_ambient;\n    mediump vec4 materialDiffuseActual = material_diffuse;\n\n    if (enable_color_material)\n    {\n        materialAmbientActual = vertexColor;\n        materialDiffuseActual = vertexColor;\n    }\n\n    mediump vec4 lightingResult = material_emissive + materialAmbientActual * light_model_scene_ambient;\n\n    for (uint i = 0u; i < kMaxLights; i++)\n    {\n\n        if (!light_enables[i])\n            continue;\n\n        mediump vec4 lightAmbient  = light_ambients[i];\n        mediump vec4 lightDiffuse  = light_diffuses[i];\n        mediump vec4 lightSpecular = light_speculars[i];\n        vec4 lightPos      = light_positions[i];\n        vec3 lightDir      = light_directions[i];\n        float attConst     = light_attenuation_consts[i];\n        float attLinear    = light_attenuation_linears[i];\n        float attQuadratic = light_attenuation_quadratics[i];\n        float spotAngle    = light_spotlight_cutoff_angles[i];\n        float spotExponent = light_spotlight_exponents[i];\n\n        vec3 toLight;\n        if (lightPos.w == 0.0)\n        {\n            toLight = lightPos.xyz;\n        }\n        else\n        {\n            toLight = (lightPos.xyz / lightPos.w - pos_varying.xyz);\n        }\n\n        float lightDist = length(toLight);\n        vec3 toLightNormalized = normalize(toLight);\n        vec3 h                 = toLightNormalized + vec3(0.0, 0.0, 1.0);\n        float ndotL            = posDot(normal_varying, toLightNormalized);\n        float ndoth            = posDot(normal_varying, normalize(h));\n\n        float specAtt;\n\n        if (ndotL != 0.0)\n        {\n            specAtt = 1.0;\n        }\n        else\n        {\n            specAtt = 0.0;\n        }\n\n        float att;\n\n        if (lightPos.w != 0.0)\n        {\n            float attDenom =\n                (attConst + attLinear * lightDist + attQuadratic * lightDist * lightDist);\n            att = 1.0 / attDenom;\n        }\n        else\n        {\n            att = 1.0;\n        }\n\n        mediump float spot;\n\n        mediump float spotAngleCos = cos(radians(spotAngle));\n        vec3 toSurfaceDir  = -toLightNormalized;\n        mediump float spotDot      = posDot(toSurfaceDir, normalize(lightDir));\n\n        if (spotAngle == 180.0 || lightPos.w == 0.0)\n        {\n            spot = 1.0;\n        }\n        else\n        {\n            if (spotDot < spotAngleCos)\n            {\n                spot = 0.0;\n            }\n            else\n            {\n                spot = pow(spotDot, spotExponent);\n            }\n        }\n\n        mediump vec4 contrib = materialAmbientActual * lightAmbient;\n        contrib += ndotL * materialDiffuseActual * lightDiffuse;\n        if (ndoth > 0.0 && material_specular_exponent > 0.0)\n        {\n            contrib += specAtt * pow(ndoth, material_specular_exponent) * material_specular *\n                       lightSpecular;\n        }\n        else\n        {\n            if (ndoth > 0.0)\n            {\n                contrib += specAtt * material_specular * lightSpecular;\n            }\n        }\n        contrib *= att * spot;\n        lightingResult += contrib;\n    }\n\n    return lightingResult;\n}\n\nconst mediump vec4 drawTextureVertices[6] = vec4[](\n    vec4(0.0, 0.0, 0.0, 1.0),\n    vec4(1.0, 0.0, 0.0, 1.0),\n    vec4(1.0, 1.0, 0.0, 1.0),\n    vec4(0.0, 0.0, 0.0, 1.0),\n    vec4(1.0, 1.0, 0.0, 1.0),\n    vec4(0.0, 1.0, 0.0, 1.0));\n\nmediump vec4 drawTexturePosition(int vertexId)\n{\n    // The texture is drawn in the XY plane, so Z is constant.\n    vec2 positionXY = draw_texture_coords.xy + drawTextureVertices[vertexId].xy * draw_texture_dims;\n    return vec4(positionXY, draw_texture_coords.z, 1.0);\n}\n\nmediump vec3 drawTextureTexCoord(int vertexId, uint textureUnit)\n{\n    // The texture is drawn in the XY plane, so Z is 0.\n    mediump vec2 texCropPos = draw_texture_normalized_crop_rect[textureUnit].xy;\n    mediump vec2 texCropDim = draw_texture_normalized_crop_rect[textureUnit].zw;\n    mediump vec2 texCoords  = texCropPos + drawTextureVertices[vertexId].xy * texCropDim;\n\n    return vec3(texCoords, 0.0);\n}\n\nvec4 calcWorldPosition(vec4 posInput)\n{\n    return modelview * posInput;\n}\n\nvec4 calcNdcFromWorldPosition(vec4 worldPos)\n{\n    return projection * worldPos;\n}\n\nfloat calcPointSize(vec4 ndcPos)\n{\n    float dist         = length(ndcPos.z);\n    float attConst     = point_distance_attenuation[0];\n    float attLinear    = point_distance_attenuation[1];\n    float attQuad      = point_distance_attenuation[2];\n    float attPart      = attConst + attLinear * dist + attQuad * dist * dist;\n    float attPointSize = pointsize / pow(attPart, 0.5);\n\n    return clamp(attPointSize, point_size_min, point_size_max);\n}\n\nvec3 calcNormal(vec3 normalInput)\n{\n    mat3 mvInvTr3 = mat3(modelview_invtr);\n    vec3 result   = mvInvTr3 * normalInput;\n\n    if (enable_rescale_normal)\n    {\n        float rescale   = 1.0;\n        vec3 rescaleVec = vec3(mvInvTr3[2]);\n        float len       = length(rescaleVec);\n        if (len > 0.0)\n        {\n            rescale = 1.0 / len;\n        }\n        result *= rescale;\n    }\n\n    if (enable_normalize)\n    {\n        result = normalize(result);\n    }\n\n    return result;\n}\n\nvoid main()\n{\n    if (enable_draw_texture)\n    {\n        int vertexId        = gl_VertexID;\n        mediump vec4 posDrawTexture = drawTexturePosition(vertexId);\n\n        gl_Position = posDrawTexture;\n        pos_varying = posDrawTexture;\n\n        normal_varying = normal;\n\n        gl_PointSize = pointsize;\n\n#if kTexUnits >= 1u\n        texcoord0_varying = drawTextureTexCoord(vertexId, 0u);\n#endif\n#if kTexUnits >= 2u\n        texcoord1_varying = drawTextureTexCoord(vertexId, 1u);\n#endif\n#if kTexUnits >= 3u\n        texcoord2_varying = drawTextureTexCoord(vertexId, 2u);\n#endif\n#if kTexUnits >= 4u\n        texcoord3_varying = drawTextureTexCoord(vertexId, 3u);\n#endif\n    }\n    else\n    {\n        vec4 worldPos = calcWorldPosition(pos);\n        vec4 ndcPos   = calcNdcFromWorldPosition(worldPos);\n\n        gl_Position = ndcPos;\n        pos_varying = worldPos;\n\n        normal_varying = calcNormal(normal);\n\n        // Avoid calculating point size stuff\n        // if we are not rendering points.\n        if (point_rasterization)\n        {\n            gl_PointSize = calcPointSize(ndcPos);\n        }\n        else\n        {\n            gl_PointSize = pointsize;\n        }\n\n#if kTexUnits >= 1u\n        texcoord0_varying = (texture_matrix[0] * texcoord0).xyz;\n#endif\n#if kTexUnits >= 2u\n        texcoord1_varying = (texture_matrix[1] * texcoord1).xyz;\n#endif\n#if kTexUnits >= 3u\n        texcoord2_varying = (texture_matrix[2] * texcoord2).xyz;\n#endif\n#if kTexUnits >= 4u\n        texcoord3_varying = (texture_matrix[3] * texcoord3).xyz;\n#endif\n    }\n\n    mediump vec4 vertex_color = color;\n\n    if (enable_lighting)\n    {\n        vertex_color = doLighting(color);\n    }\n\n    vertex_color = clamp(vertex_color, vec4(0), vec4(1));\n\n    color_varying      = vertex_color;\n    color_varying_flat = vertex_color;\n}\n
-\n]MUz
-\nakR
-\nh?oT
 \ninout mediump vec4 frag_color;\n
-\nk61
-\nk>oB
 \nlayout(noncoherent) inout mediump vec4 frag_color;\n
 \nmediump vec4 applyLogicOp(mediump vec4 currentFragment)\n{\n    mediump vec4 previousFragment = frag_color;\n\n    mediump uvec4 channelWidths = uvec4(logic_op & 0xFu,\n                                        logic_op >> 4u & 0xFu,\n                                        logic_op >> 8u & 0xFu,\n                                        logic_op >> 12u & 0xFu);\n\n    mediump uvec4 channelMasks = (uvec4(1) << channelWidths) - 1u;\n\n    mediump uvec4 src = uvec4(round(currentFragment * vec4(channelMasks)));\n    mediump uvec4 dst = uvec4(round(previousFragment * vec4(channelMasks)));\n    mediump uvec4 result;\n\n    switch (logic_op >> 16u & 0xFu)\n    {\n        case kAnd:\n            result = src & dst;\n            break;\n        case kAndInverted:\n            result = ~src & dst;\n            break;\n        case kAndReverse:\n            result = src & ~dst;\n            break;\n        case kClear:\n            result = uvec4(0);\n            break;\n        case kCopy:\n            result = src;\n            break;\n        case kCopyInverted:\n            result = ~src;\n            break;\n        case kEquiv:\n            result = ~(src ^ dst);\n            break;\n        case kInvert:\n            result = ~dst;\n            break;\n        case kNand:\n            result = ~(src & dst);\n            break;\n        case kNoop:\n            result = dst;\n            break;\n        case kNor:\n            result = ~(src | dst);\n            break;\n        case kOr:\n            result = src | dst;\n            break;\n        case kOrInverted:\n            result = ~src | dst;\n            break;\n        case kOrReverse:\n            result = src | ~dst;\n            break;\n        case kSet:\n            result = channelMasks;\n            break;\n        case kXor:\n            result = src ^ dst;\n            break;\n    }\n\n    result &= channelMasks;\n\n    // Avoid division by zero for formats without alpha\n    channelMasks.a = max(channelMasks.a, 1u);\n\n    return vec4(result) / vec4(channelMasks);\n}\n
 \nmediump vec4 applyLogicOp(mediump vec4 currentFragment)\n{\n    return currentFragment;\n}\n
@@ -7050,56 +6309,19 @@ Zz7 \fj
 \nstruct CS_INPUT\n{\n
 \nvoid initGLBuiltins(CS_INPUT input)\n
 \nvoid main()\n{\n    if (enable_clip_planes && !enable_draw_texture)\n    {\n        if (!doClipPlaneTest())\n        {\n            discard;\n        }\n    }\n\n    mediump vec4 vertex_color;\n\n    if (shade_model_flat)\n    {\n        vertex_color = color_varying_flat;\n    }\n    else\n    {\n        vertex_color = color_varying;\n    }\n\n    mediump vec4 currentFragment = vertex_color;\n\n    mediump vec4 texturePrevColor = currentFragment;\n\n    for (uint i = 0u; i < kTexUnits; i++)\n    {\n        mediump vec4 textureColor;\n\n        if (point_rasterization && point_sprite_enabled &&\n            point_sprite_coord_replace[i]) {\n            textureColor = getPointSpriteTextureColor(i);\n        } else {\n            textureColor = getTextureColor(i);\n        }\n\n        currentFragment = textureFunction(\n            i, texture_format[i], texture_env_mode[i], combine_rgb[i], combine_alpha[i],\n            src0_rgb[i], src0_alpha[i], src1_rgb[i], src1_alpha[i], src2_rgb[i], src2_alpha[i],\n            op0_rgb[i], op0_alpha[i], op1_rgb[i], op1_alpha[i], op2_rgb[i], op2_alpha[i],\n            texture_env_color[i], texture_env_rgb_scale[i], texture_env_alpha_scale[i],\n            vertex_color, texturePrevColor, textureColor);\n\n        texturePrevColor = currentFragment;\n    }\n\n    if (enable_fog)\n    {\n        currentFragment = doFog(currentFragment);\n    }\n\n    if (enable_alpha_test && !doAlphaTest(currentFragment))\n    {\n        discard;\n    }\n\n    frag_color = applyLogicOp(currentFragment);\n}\n
-\r5X1X
-\rf9D
-\t \t"\t$\t&\t(\t*\t,\t.\t0\t2\t4\t6\t9\t;\t=\t?\t@\tA\tB\tC\tD\tE\tF\tG\tH\tK\tL\tM\tW\t]\t_\ta\tc\te\tm\to\tp\tp\tq\tq\tq\tr\ts\tt\tu\tv\ty\tz\t{\t|\t}\t~\t
-\t9sv
 \tMessage: 
 \tSeverity: 
 \tSource: 
 \tType: 
-\t\t\n\n\v\v\f\f\f\f\r\r\r\r
-\t\t\t\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r
-\tbGb
-\tcQr
-\tkE>fvw
-\tlfB
 \tlogMemoryReportCallbacks
 \tlogMemoryReportStats
-\tu@yV
-\v698
-\vA03>A|
-\v\fcpf
-\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v
-\veBV
-\vinP
-\vl2a
-\vovcj
-\vvirtual rx::FenceNV11::finish
-\vx7gf
-\yjR.f
 ] * viewportScale * gl_PointSize, 0.0f, 0.0f);\n
 ] : packoffset(c
 ], input[lastVertexIndex]);\n
-]F]Jo
-]QMO
-]ViE
-]hhs
-]mUh)
-]u9g
-^<V7w
-^Mp>7c
-^Q5q
-^RfN>
-^izD
-^rIWr
-_0zN2
 _ANGLE_ZEROS_
-_ContextVk::ContextVk
 _EXT
 _External
 _Length_
-_QyM
 _RWTS_invalid_
 _TTS_invalid_
 __VERSION__
@@ -7142,13 +6364,11 @@ __vectorcall
 _acbase_
 _cabs
 _ctor
-_dmu
 _emu
 _hypot
 _level_9_3
 _logb
 _nextafter
-_oD>Kg
 _offset
 _ssbo_atomicAdd_
 _ssbo_atomicAnd_
@@ -7161,7 +6381,6 @@ _ssbo_atomicXor_
 _type
 _webgl_
 _webgl_struct_
-`@10B
 `RTTI
 `anonymous namespace'
 `copy constructor closure'
@@ -7187,7 +6406,6 @@ _webgl_struct_
 `string'
 `typeof'
 `udt returning'
-`uky
 `vbase destructor'
 `vbtable'
 `vcall'
@@ -7200,13 +6418,6 @@ _webgl_struct_
 `vftable'
 `virtual displacement map'
 a struct cannot be used as a constructor argument for this type
-a-Po^x}
-a-QoQx}O
-a6>r
-a7ux
-aND{
-aN|wE1&q
-a\t5,65
 a_texcoord
 abcdefghijklmnopqrstuvwxyz
 abs(
@@ -7228,6 +6439,7 @@ acos(00B
 acos(10B
 acos(20B
 acos(30B
+acosf
 acosh
 acosh(00B
 acosh(10B
@@ -7244,7 +6456,6 @@ address in use
 address not available
 adjustClearColorPrecision
 adjustSrcDstRegionForBlitFramebuffer
-al@9
 all identifiers containing two consecutive underscores (__) are reserved - unintented behaviors are possible
 all(
 all(10F
@@ -7268,11 +6479,11 @@ alwaysCallUseProgramAfterLink
 alwaysRunLinkSubJobsThreaded
 alwaysUnbindFramebufferTexture2D
 an interface block cannot be used as a constructor argument for this type
-anF|
 angle
 angle.dump_pipeline_cache_graph
 angle.pipeline_cache_graph_dump_path
 angle::AlignedAlloc
+angle::CompressBlob
 angle::DecompressBlob
 angle::LoadASTCToRGBA8Inner
 angle::TrimCache
@@ -7334,6 +6545,7 @@ asin(00B
 asin(10B
 asin(20B
 asin(30B
+asinf
 asinh
 asinh(00B
 asinh(10B
@@ -7404,27 +6616,10 @@ atomicXor(00E00E
 atomic_uint
 attribute
 attribute is not valid.
-av-2
 avoid flow control
 avoid1BitAlphaTextureFormats
 avoidOpSelectWithMismatchingRelaxedPrecision
-awMa
-ayUW
-a|bN
-a|bn
-b&aO
 b/266235549
-b2hSL
-b8lc
-b8r:C
-b>7b
-b?9B
-b@DR\t
-bBx6
-bH5\n
-bLu&
-bVQO
-b\Nr
 bad allocation
 bad array new length
 bad exception
@@ -7446,7 +6641,6 @@ beginInvocationInterlockARB(
 beginInvocationInterlockNV
 beginInvocationInterlockNV(
 behavior invalid
-bgROy?#
 bias(
 binarysize out of valid range.
 bindCompleteFramebufferForTimerQueries
@@ -7519,7 +6713,6 @@ blend_support_overlay
 blend_support_qualifier
 blend_support_screen
 blend_support_softlight
-bn0C
 bool
 bool 
 bool isnan_emu(float x) { return (x > 0.0 || x < 0.0) ? false : x != 0.0; }
@@ -7538,11 +6731,9 @@ bool4 isnan_emu(float4 x)\n{\n    bool4 isnan;\n    for (int i = 0; i < 4; i++)\
 boolean expression expected
 borderColorSrgb
 bottomLeftOriginPresentRegionRectangles
-bq>1
 break
 break statement only allowed in loops and switch statements
 bresenhamLineRasterization
-bsS 8
 bs_unspecified
 buffer
 buffer cannot reference a 2D texture with the name 0.
@@ -7564,13 +6755,7 @@ bvec3
 bvec3 isnan_emu(vec3 x)\n{\n    bvec3 isnan;\n    for (int i = 0; i < 3; i++)\n    {\n        isnan[i] = (x[i] > 0.0 || x[i] < 0.0) ? false : x[i] != 0.0;\n    }\n    return isnan;\n}\n
 bvec4
 bvec4 isnan_emu(vec4 x)\n{\n    bvec4 isnan;\n    for (int i = 0; i < 4; i++)\n    {\n        isnan[i] = (x[i] > 0.0 || x[i] < 0.0) ? false : x[i] != 0.0;\n    }\n    return isnan;\n}\n
-bz<f
-c)v3
 c305f85c30d08eb336217101d9372b67
-c9gt
-c<\vT3
-c?FA@s}
-cYR\t
 cacheCompiledShader
 cacheProgram
 cacheVersion = 
@@ -7639,6 +6824,7 @@ case label must be constant
 case label must have a condition
 case label type does not match switch init-expression type
 case labels need to be inside switch statements
+casting a negative float to uint is undefined
 cbase
 cbuffer 
 cbuffer DriverConstants : register(b0)\n{\n
@@ -7654,7 +6840,7 @@ centroid in
 centroid out 
 checkCacheVersion = 
 check_shaders
-cjX_
+clBuildProgram
 clCloneKernel
 clCompileProgram
 clCreateBuffer
@@ -7878,10 +7064,9 @@ cosh(00B
 cosh(10B
 cosh(20B
 cosh(30B
+coshf
 countbits(
 counters
-covPS
-cr>2
 createRenderTarget.BlitSRV
 createRenderTarget.DSV
 createRenderTarget.RTV
@@ -7892,24 +7077,13 @@ cross product
 cross(
 cross(20B20B
 csat
-cta/
-cttD
 ctx must be EGL_NO_CONTEXT.
 currentTime
-cvhH
-d-Ro
-d-Sg
-d0&ML
 d3d9.dll
 d3dcompiler_43.dll
 d3dcompiler_46.dll
 d3dcompiler_47.dll
-d8-t
-d8L2
-d8lc
-d?000000`?
 dAGX
-dF?F
 dFdx
 dFdx(00B
 dFdx(10B
@@ -7922,16 +7096,11 @@ dFdy(20B
 dFdy(30B
 dPdx
 dPdy
-dRL>
 dUVdx
 dUVdy
-d\nca
-d_Mf
 damage region has already been set on surface since the most recent frame boundary
 data error
 dataSize is too small
-dbk]
-dbrn
 dddd, MMMM dd, yyyy
 ddx(
 ddy(
@@ -7986,8 +7155,6 @@ determinant(transpose(
 device is EGL_NO_DEVICE.
 device is not valid.
 deviceMemoryImageAllocationFallbacks
-df~3
-dg2\n
 diff
 digraph {\n
 dimension mismatch
@@ -8054,7 +7221,6 @@ draw_texture_coords
 draw_texture_dims
 draw_texture_normalized_crop_rect
 drawbuffer
-du;D
 dumpShaderSource
 dumpTranslatedShaders
 duplicate case label
@@ -8068,17 +7234,7 @@ dxgi.dll
 dyn_index_
 dynamicBufferAllocations
 e+000
-e9b.
-eBN\f
-eF7D
-eF>t
-eLK(w
-eN4z
-eT{.n
-eYB~
-e_\tVA?S
 early_fragment_tests
-eg\r3
 egl::BlobCache::get
 egl::Debug::insertMessage
 egl::Display::initialize
@@ -8204,7 +7360,6 @@ eglWaitNative
 eglWaitSync
 eglWaitSyncKHR
 eglWaitUntilWorkScheduledANGLE
-ej]Cg
 elif
 else
 else if (
@@ -8235,7 +7390,6 @@ emulateTransformFeedback
 emulatedPrerotation180
 emulatedPrerotation270
 emulatedPrerotation90
-emu~;
 enable
 enable pipeline cache data compression.
 enableAdditionalBlendFactorsForDithering
@@ -8288,7 +7442,6 @@ erase()
 error
 error: 
 essl
-eu;D
 exp(
 exp(00B
 exp(10B
@@ -8301,6 +7454,7 @@ exp2(10B
 exp2(20B
 exp2(30B
 expandIntegerPowExpressions
+expf
 explicitFragmentLocations
 explicitlyCastMediumpFloatTo16Bit
 explicitlyEnablePerSampleShading
@@ -8318,15 +7472,6 @@ extension is being used
 extension is disabled
 extension is not supported
 extraneous layout qualifier: only has an effect on matrix types
-ey/O0
-f&c8o
-f/7G
-fD>b
-fHsSJ
-fIp_
-fIq_
-fJ?a
-fWi?
 fabs
 face
 faceforward
@@ -8344,7 +7489,6 @@ fatal error - scanner input buffer overflow
 fatal flex scanner internal error--end of buffer missed
 fatal flex scanner internal error--no action found
 features->emulatePrimitiveRestartFixedIndex.enabled && IsApple() && isIntel
-fiMy
 file error
 findLSB
 findLSB(00D
@@ -8489,8 +7633,6 @@ fma(10B10B10B
 fma(20B20B20B
 fma(30B30B30B
 fmod
-fn7C
-fo0K
 fog_color
 fog_density
 fog_end
@@ -8520,7 +7662,6 @@ forceTextureLodOffset4
 forceWaitForSubmissionToCompleteForQueryResult
 format is not one of supported image unit formats.
 format should be one of the formats advertised by QueryDmaBufFormatsEXT
-fp'T
 frac(
 fract
 fract(00B
@@ -8595,19 +7736,6 @@ fwidth(00B
 fwidth(10B
 fwidth(20B
 fwidth(30B
-fx:Z
-f|3\tW
-f}d>\rqS
-g/wh.
-g2"31
-g>Cq
-gMnxg{?
-gRjJL
-g\fm.W
-g]rT
-gcH\tR
-gd^Qro+
-geAtomicExchangeimageAtomicExcha7ia
 generateOutput()
 generateOutput(input)
 generic
@@ -8620,10 +7748,6 @@ getDimensionsIgnoresBaseLevel
 getEnableValidationLayers()
 getSyncValues: surface requires Direct Composition to be enabled
 getTraceCategoryEnabledFlag
-ggv@[
-gjz{
-gk#9
-gkKr{
 gl::(anonymous namespace)::CompileTask::postTranslate
 gl::Buffer::bufferDataImpl
 gl::CastStateValues
@@ -10642,21 +9766,6 @@ greaterThanEqual(30E30E
 groupMemoryBarrier
 groupMemoryBarrier(
 groupshared 
-gug*gu
-gz/U
-h"PJ
-h0'D
-h0[W
-h0[o
-h11V
-h>1my
-hD4,jtQ
-hS*u
-hTl4*
-hTl4z
-hXAX
-h[kkeY
-h\njN!
 halfPixelSize
 hasEffectivePipelineCacheSerialization
 header crc mismatch
@@ -10667,8 +9776,6 @@ histogramBoolean
 histogramCustomCounts
 histogramEnumeration
 histogramSparse
-hk#5
-hmb@
 host unreachable
 http://anglebug.com/1085
 http://anglebug.com/1423136
@@ -10864,19 +9971,6 @@ https://issuetracker.google.com/328301788
 https://issuetracker.google.com/328837151
 https://issuetracker.google.com/336844257
 https://issuetracker.google.com/issues/166475273
-i(8\rj
-i24~
-i=NQ
-i=lm]
-i>VF
-iCould not create DXGI factory.
-iN?%o
-iP[O
-iP[O<w
-iQ1*
-iQ>w
-iTHLy
-i]Wb
 identifier removed
 identifiers containing two consecutive underscores (__) are reserved as possible future keywords
 if (!Break
@@ -10884,7 +9978,6 @@ if level is zero and the texture is incomplete, it must have all of its faces sp
 if level is zero and the texture is incomplete, it must have no mip levels specified except zero.
 if max_formats is positive, formats should not be NULL
 if max_modifiers is positive, modifiers should not be NULL
-if<M&
 ifdef
 ifndef
 iimage2D
@@ -11764,7 +10857,6 @@ invocations contradicts to the earlier declaration
 ios_base::clear
 iostream
 ipixelLocalANGLE
-ips0];
 isAMD
 isAMD && !(deviceCaps.featureLevel < D3D_FEATURE_LEVEL_10_1)
 isAMD && mPhysicalDeviceProperties.driverVersion < 0x800106
@@ -11839,62 +10931,12 @@ ivec
 ivec2
 ivec3
 ivec4
-j)fE
-j1Z7
-j45L
-j4=Y
-j7G\f
-j>yz
-jEg&
-jGg.
-jXze
-jY7d
-jhMU
-jt7?
-jtyF
-jz'G
-jzy4
-j|b'3
-k1h1,
-k7M~
-k=yI
 kExposeNonConformantExtensionsAndVersions && !isVenus
-kJFl
-kKTQ
-kO}e
-kQSx
-kUq-3
-k\fX\tls
-k\ru`ZC
-ka)QO
 kan Mock Device
-kcvl
-kcv|
 keepBufferShadowCopy
 key and binary must both be null or both non-null.
 keysize and binarysize must always be valid pointers.
-kk"y
-kk-L
-km0k
-koUE
-kp+c8
-kp\rgJ
-ktyF`
 l-value required
-l1aI`7
-l3a]
-l6pF
-l:aC
-l>w9
-lA\nmi
-lGLZ{
-lKa-SgI
-lOx>B
-lWi]
-lXt=
-l\va-RoAx}M
-l]]9ej
-l^Wi)
 label statement nested inside control flow
 layout
 layout (
@@ -11940,7 +10982,6 @@ lessThanEqual(20E20E
 lessThanEqual(30B30B
 lessThanEqual(30D30D
 lessThanEqual(30E30E
-lfm1
 libGLESv2.dll
 libraryBlobsAreReusedByMonolithicPipelines && !isQualcommProprietary && !(IsLinux() && isIntel) && !(IsChromeOS() && isSwiftShader)
 light_ambients
@@ -11968,7 +11009,6 @@ linear
 lines
 lines_adjacency
 linkJobIsThreadSafe
-lkXIR
 load
 load with loadOp VK_ATTACHMENT_LOAD_OP_DONT_CARE. Access info (usage: SYNC_EARLY_FRAGMENT_TESTS_DEPTH_STENCIL_ATTACHMENT_WRITE, prior_usage: SYNC_FRAGMENT_SHADER_SHADER_
 local function prototype declarations are not allowed
@@ -11998,28 +11038,20 @@ logInfo
 logMemoryReportCallbacks
 logMemoryReportStats
 logWarning
+logf
 logic_op
 logical-and
 logical-or
 logical-xor
 loseContextOnOutOfMemory
 lowp
-lsa-
-lsvW
-l}d>\vq3
 m16BitStorageFeatures.storageBuffer16BitAccess == 1U
 m16BitStorageFeatures.storageInputOutput16 == 1U
 m16BitStorageFeatures.storagePushConstant16 == 1U
 m16BitStorageFeatures.uniformAndStorageBuffer16BitAccess == 1U
-m21<
-m25V
-m29N
 m8BitStorageFeatures.storageBuffer8BitAccess == 1U
 m8BitStorageFeatures.storagePushConstant8 == 1U
 m8BitStorageFeatures.uniformAndStorageBuffer8BitAccess == 1U
-m8\v\vB
-m?H7
-m?zI
 mCustomBorderColorFeatures.customBorderColors == 1U && mCustomBorderColorFeatures.customBorderColorWithoutFormat == 1U
 mDepthClampZeroOneFeatures.depthClampZeroOne == 1U
 mDepthClipControlFeatures.depthClipControl == 1U
@@ -12049,8 +11081,6 @@ mFunctions->copyTexImage2D(GL_TEXTURE_2D, 0, copyTexImageFormat.internalFormat, 
 mFunctions->texImage2D(GL_TEXTURE_2D, 0, copyTexImageFormat.internalFormat, sourceArea.width, sourceArea.height, 0, gl::GetUnsizedFormat(copyTexImageFormat.internalFormat), readType, nullptr)
 mFunctions->texImage2D(ToGLenum(scratchTextureType), 0, texImageFormat.internalFormat, sourceArea.width, sourceArea.height, 0, texImageFormat.format, texImageFormat.type, nullptr)
 mFunctions->texImage2D(ToGLenum(target), static_cast<GLint>(level), internalFormat, sourceArea.width, sourceArea.height, 0, format, readType, nullptr)
-mG4>
-mGO[
 mGraphicsPipelineLibraryFeatures.graphicsPipelineLibrary == 1U && (!isNvidia || nvidiaVersion.major >= 531) && !isRADV
 mHostImageCopyFeatures.hostImageCopy == 1U && mHostImageCopyProperties.identicalMemoryTypeRequirements && !IsFuchsia()
 mHostQueryResetFeatures.hostQueryReset == 1U
@@ -12059,7 +11089,6 @@ mImagelessFramebufferFeatures.imagelessFramebuffer == 1U && !isSamsungDriverWith
 mIndexTypeUint8Features.indexTypeUint8 == 1U
 mLineRasterizationFeatures.bresenhamLines == 1U
 mMultiviewFeatures.multiview == 1U
-mNqkbAF[X
 mPhysicalDeviceFeatures.imageCubeArray == 1U
 mPhysicalDeviceFeatures.multiDrawIndirect == 1U
 mPhysicalDeviceFeatures.pipelineStatisticsQuery == 1U
@@ -12073,9 +11102,6 @@ mShaderFloat16Int8Features.shaderFloat16 == 1U
 mSwapchainMaintenance1Features.swapchainMaintenance1 == 1U && useVulkanSwapchain == UseVulkanSwapchain::Yes
 mTimelineSemaphoreFeatures.timelineSemaphore == 1U
 mVertexInputDynamicStateFeatures.vertexInputDynamicState == 1U && !(IsWindows() && isIntel)
-mVmh
-m\fYAB
-m\nXo
 macro invocation chain too deep
 macro name is reserved
 macro name with a double underscore is reserved - unintented behavior is possible
@@ -12163,8 +11189,6 @@ message controls must be EGL_TRUE or EGL_FALSE.
 message size
 method takes no parameters
 methods supported in GLSL ES 3.00 and above only
-mfcf
-mi"U
 min(
 min(00B00B
 min(00D00D
@@ -12239,7 +11263,6 @@ monotonicallyIncreasingTime
 move second child to first child
 mrtPerfWorkaround
 msc is null
-msh.
 msh\f
 mul(
 mul(transpose(
@@ -12253,19 +11276,6 @@ must use 'flat' interpolation here
 mutableMipmapTextureUpload
 mutableTexturesUploaded
 mutex lock failed
-n'Lk
-n03>Pu
-n11+
-n1n1a
-n4lR;c4
-n5*v
-n9\ro
-n:KNG
-n:sNG
-n:s^M
-nOV_
-nQg5_
-n]?iJ
 n_rects cannot be greater than zero when rects is NULL.
 n_rects cannot be negative.
 name is not a valid buffer.
@@ -12351,7 +11361,6 @@ notEqual(30B30B
 notEqual(30D30D
 notEqual(30E30E
 notEqual(30F30F
-nrF,
 ntdll.dll
 null pointer in arguments.
 numChunks = 0x
@@ -12367,38 +11376,18 @@ num_groups_z cannot be greater than MAX_COMPUTE_WORK_GROUP_COUNT[2]
 num_views
 num_views greater than the value of GL_MAX_VIEWS_OVR
 numerator is null
-n}rb
-o#|OEW
-o3j7"
-o5_n4%
-o5rh
-o9q<\n
-o9sp
-o?GS
-oABlit11 2D PassthroughRGBA2D pixel shader
-oI>O7
-oL9c
-oMq^
-oQ{p
-oSm}
-oT/0
-oWGP\f
-oZJ.d
-obwQ4
 offset
 offset = 
 offset must be a multiple of 4.
 offset.x
 offset.y
 offset.z
-oj n
 on12
 only allowed at global scope
 only blend equations are allowed as layout qualifier when not declaring a variable
 only early_fragment_tests is allowed as layout qualifier when not declaring a variable
 op0_alpha
 op0_rgb
-op1F'
 op1_alpha
 op1_rgb
 op2_alpha
@@ -12419,7 +11408,6 @@ operator++
 operator->
 operator<=>
 optimize
-orr/
 other message
 out of dynamic memory in yy_create_buffer()
 out of dynamic memory in yy_get_next_buffer()
@@ -12456,14 +11444,8 @@ outerProduct(30B30B
 output array locations would exceed 
 output location must be < 
 overrideSurfaceFormatRGB8ToRGBA8
-owM&
-owcJ
 owner dead
-p.wD\
-pZ4\v
-p\"Fw
 p\t9wXc
-p]kk"q
 pack
 packHalf2x16
 packHalf2x16(10B
@@ -12492,7 +11474,6 @@ perFrameWindowSizeQuery
 performance
 permanentlySwitchToFramebufferFetchMode
 persistentlyMappedBuffers
-pft~
 pipelineCreationCacheHits
 pipelineCreationCacheMisses
 pipelineCreationTotalCacheHitsDurationNs
@@ -12512,14 +11493,11 @@ pixelLocalStoreANGLE
 pixelLocalStoreANGLE(01g30B
 pixelLocalStoreANGLE(01h30D
 pixelLocalStoreANGLE(01i30E
-pk,0
 placeholder
 placeholder1
 placeholder2
 placeholder3
 pls._
-pmf>k
-pnt~
 point
 point_distance_attenuation
 point_mode
@@ -12573,42 +11551,13 @@ protocol error
 protocol not supported
 provokingVertex
 ps_2_0
-pz_qz
-pzq\n
-p{6,0
-q f5y<
-q#qS
-q%3a
-q1|\vsx
-qGu2
-qJ6F<
-qKG\
-qLV!N
-qQ6~
-qS>g?h3
-qSVq
-qZeA
-q\tyi
-qbGc
-qlB}
 quads
 qualifier sequence
 qualifier supported in GLSL ES 3.00 and above only
 queryCounterBitsGeneratesErrors
-r"cv
-r';xN
-r0UA
-r1?h!
 r32f
 r32i
 r32ui
-r9#ns
-r>T>9
-r>co
-rFYw}
-r\n0\tP
-r\tVr.>T
-r]Cg
 radians
 radians(
 radians(00B
@@ -12674,7 +11623,6 @@ retainSPIRVDebugInfo
 retireFinishedCommandsLocked
 return
 return 
-rev5
 reversebits(
 rewriteFloatUnaryMinusOperator
 rewriteRepeatedAssignToSwizzled
@@ -12692,8 +11640,6 @@ rgba8
 rgba8_snorm
 rgba8i
 rgba8ui
-rn:i
-roQj
 round
 round(
 round(00B
@@ -12708,7 +11654,6 @@ roundEven(30B
 roundOutputAfterDithering
 row_major
 rsqrt(
-ru\w
 rx::(anonymous namespace)::CheckCompileStatus
 rx::(anonymous namespace)::CheckLinkStatus
 rx::(anonymous namespace)::ClearErrors
@@ -12728,6 +11673,7 @@ rx::Blit11::getSwizzleShader
 rx::Blit11::mapBlitShader
 rx::Blit9::copy
 rx::Blit9::copySurfaceToTexture
+rx::Blit9::initialize
 rx::Blit9::setShader
 rx::BlitGL::blitColorBufferWithShader
 rx::BlitGL::copyImageToLUMAWorkaroundTexture
@@ -12787,6 +11733,7 @@ rx::Renderer11::finish
 rx::Renderer11::getScratchMemoryBuffer
 rx::Renderer11::initializeD3DDevice
 rx::Renderer11::mapResource
+rx::Renderer11::populateRenderer11DeviceCaps
 rx::Renderer9::allocateEventQuery
 rx::Renderer9::copyToRenderTarget
 rx::Renderer9::drawIndexedPoints
@@ -12888,6 +11835,7 @@ rx::vk::InitMappableDeviceMemory
 rx::vk::InitShaderModule
 rx::vk::MemoryReport::logMemoryReportStats
 rx::vk::MemoryReport::processCallback
+rx::vk::OneOffCommandPool::getCommandBuffer
 rx::vk::PersistentCommandPool::allocateCommandBuffer
 rx::vk::PersistentCommandPool::collect
 rx::vk::PersistentCommandPool::init
@@ -12911,6 +11859,7 @@ rx::vk::Renderer::setupDevice
 rx::vk::Renderer::submitPriorityDependency
 rx::vk::Renderer::syncPipelineCacheVk
 rx::vk::SamplerDesc::init
+rx::vk::SetDebugUtilsObjectName
 rx::vk::ShaderProgramHelper::getOrCreateComputePipeline
 rx::vk::StagingBuffer::init
 rx::vk::SyncHelperNativeFence::initializeWithFd
@@ -12919,18 +11868,6 @@ s can't be function return values
 s count exceeds 
 s must be uniform
 s of 
-s#q3
-s%Fx
-sAK.
-sB]p.
-sHF'
-sI=E
-sKkU_
-sM`O
-sO"o^A
-sSiB
-sZrR
-s\t&qkM\r
 sample
 sample in
 sample in 
@@ -13003,6 +11940,7 @@ sin(00B
 sin(10B
 sin(20B
 sin(30B
+sinf
 singleThreadedTextureDecompression
 sinh
 sinh(
@@ -13010,6 +11948,7 @@ sinh(00B
 sinh(10B
 sinh(20B
 sinh(30B
+sinhf
 size=
 skip optimization
 skip validation
@@ -13034,7 +11973,6 @@ smoothstep(20B20B20B
 smoothstep(30B30B30B
 snan)
 source
-sp+q-
 sqrt
 sqrt(
 sqrt(00B
@@ -13048,7 +11986,6 @@ src1_alpha
 src1_rgb
 src2_alpha
 src2_rgb
-srn1
 ssat
 start of group
 state not recoverable
@@ -13261,7 +12198,6 @@ swapchainResolveInSubpass
 swapchainResolveOutsideSubpass
 switch
 switch (
-sy0%n
 sync object is not valid.
 syncControlCHROMIUM extension not active
 syncControlRateANGLE extension not active
@@ -13270,15 +12206,6 @@ syncVertexArraysToDefault
 sync_queue_submit
 syntax error
 system
-t)Ko
-t*`7a
-t+RT
-t7q-
-tJ\rGe
-tKq}M
-tX?l
-t\vuU
-t^z:GO
 tan(
 tan(00B
 tan(10B
@@ -13737,7 +12664,6 @@ timed out
 timestamp collection is not enabled for this surface.
 timestamp not supported by surface.
 timestamps is NULL.
-tmd>
 token too long
 too complex expressions inside a switch statement
 too many arguments
@@ -13772,24 +12698,11 @@ trunc(00B
 trunc(10B
 trunc(20B
 trunc(30B
-tss\v
-tx\vp
 type must be an array
 type: VK_DESCRIPTOR_TYPE_COMBINED_IMAGE_SAMPLER, imageLayout: VK_IMAGE_LAYOUT_DEPTH_STENCIL_READ_ONLY_OPTIMAL
 type: VK_DESCRIPTOR_TYPE_COMBINED_IMAGE_SAMPLER, imageLayout: VK_IMAGE_LAYOUT_SHADER_READ_ONLY_OPTIMAL
 type: VK_DESCRIPTOR_TYPE_COMBINED_IMAGE_SAMPLER, imageLayout: VK_IMAGE_LAYOUT_SHADER_READ_ONLY_OPTIMAL, binding #0, index 0. Access info (usage: SYNC_COMPUTE_SHADER_SHADER_
 type: VK_DESCRIPTOR_TYPE_UNIFORM_BUFFER_DYNAMIC
-t{.IRI>
-u3|\vn3\
-u5y<
-u:Y,p
-u<fk
-uAS8
-uQ^I
-uWOqOG-
-uZ4+QW
-u\)XK}w1
-u\nv\vX
 u_multiply_alpha
 u_offset
 u_scale
@@ -13801,7 +12714,6 @@ uaddCarry(00E00E00E
 uaddCarry(10E10E10E
 uaddCarry(20E20E20E
 uaddCarry(30E30E30E
-uc"s`
 uimage2D
 uimage2DArray
 uimage3D
@@ -13846,7 +12758,6 @@ uintBitsToFloat(00E
 uintBitsToFloat(10E
 uintBitsToFloat(20E
 uintBitsToFloat(30E
-ujGs?
 umulExtended
 umulExtended(00E00E00E00E
 umulExtended(10E10E10E10E
@@ -13945,8 +12856,6 @@ updateSubresourceLevel::intermediateTextureHelper
 updateTraceEventDuration
 upixelLocalANGLE
 uploadTextureDataInChunks
-upwY
-up{6
 usage: SYNC_COMPUTE_SHADER_SHADER_SAMPLED_READ
 usage: SYNC_FRAGMENT_SHADER_SHADER_
 usage: SYNC_INDEX_INPUT_INDEX_READ
@@ -13994,16 +12903,6 @@ uvec2
 uvec3
 uvec4
 uvec4(pls._
-uzKs@>
-v0\/p
-v1F'|
-v1r~
-v2!L.2
-v7a)`
-vAI)
-vC\fGC\rG
-vJ4t
-vU>E
 validate_core
 validate_sync
 value
@@ -14015,7 +12914,6 @@ variable expected
 variables with qualifier 'const' must be initialized
 varying
 varyingsRequireMatchingPrecisionInSpirv
-vdf 
 vec2
 vec2 unpackUnorm2x16_emu(uint u)\n{\n    float x = float(u & 0xFFFFu) / 65535.0;\n    float y = float(u >> 16) / 65535.0;\n    return vec2(x, y);\n}\n
 vec2(textureSize(u_source_texture))
@@ -14034,8 +12932,6 @@ vertex shader output cannot be an array of arrays
 vertexArraySyncStateCalls
 vertexIDDoesNotIncludeBaseVertex
 vertices
-vg%9
-vir)
 virtual gl::Texture::onDestroy
 virtual rx::(anonymous namespace)::ShaderTranslateTaskGL::getResult
 virtual rx::Buffer11::EmulatedIndexedStorage::resize
@@ -14066,6 +12962,7 @@ virtual rx::Context9::multiDrawElementsInstancedBaseVertexBaseInstance
 virtual rx::ContextVk::handleError
 virtual rx::DisplayVk::handleError
 virtual rx::DisplayVkWin32::terminate
+virtual rx::FenceNV11::finish
 virtual rx::FenceNV9::set
 virtual rx::FenceNVSyncGL::finish
 virtual rx::FenceNVSyncGL::set
@@ -14098,6 +12995,7 @@ virtual rx::RenderbufferGL::setStorage
 virtual rx::RenderbufferGL::setStorageMultisample
 virtual rx::Renderer11::compileToExecutable
 virtual rx::Renderer11::getVertexSpaceRequired
+virtual rx::Renderer11::loadExecutable
 virtual rx::Renderer11::resetDevice
 virtual rx::Renderer11::testDeviceLost
 virtual rx::Renderer9::compileToExecutable
@@ -14220,7 +13118,6 @@ virtual rx::vk::CommandProcessor::handleError
 virtual rx::vk::DynamicQueryPool::allocatePoolImpl
 virtual rx::vk::SyncHelperNativeFence::getStatus
 virtual rx::vk::SyncHelperNativeFence::serverWait
-vi{l
 vk::CanSupportTransformFeedbackExtension(mTransformFeedbackFeatures)
 vkAcquireDrmDisplayEXT
 vkAcquireFullScreenExclusiveModeEXT
@@ -14854,9 +13751,6 @@ vkWaitSemaphores
 vkWaitSemaphoresKHR
 vkWriteAccelerationStructuresPropertiesKHR
 vkWriteMicromapsPropertiesEXT
-vk\zK
-vlRn
-voF|
 void
 void 
 void copyVertex(inout GS_OUTPUT output, GS_INPUT input, GS_INPUT flatinput)\n
@@ -14877,34 +13771,11 @@ void umulExtended_emu(uint4 x, uint4 y, out uint4 msb, out uint4 lsb)\n{\n    um
 volatile
 volatile 
 vs_2_0
-vt#y
 vulkan
 vulkan-1.dll
-vvvg
-vzj/m
-v|Oq
-v|o3
-v~oq~3
-w#m^N
-w$IOZS
-w&ZY
-w-Fg
-w1s/t
-w6~s
-w>U4{M
-wJW8?6
-wK*|w
-wS4}
-wSjX-]
-wSwt\
-wT\rZ
-wU$%Uk,p
-wW9~
-w\tY9
 waitIdleBeforeSwapchainRecreation
 warmUpPipelineCacheAtLink
 warn
-wd<oj
 webgl_
 webgl_FragColor
 webgl_FragData
@@ -14962,14 +13833,10 @@ wglUseFontBitmapsW
 wglUseFontOutlines
 wglUseFontOutlinesA
 wglUseFontOutlinesW
-whPf
 when object type is EGL_OBJECT_DISPLAY_KHR, the object must be the same as the display.
 while
 while (
 width
-wkof
-wn>Jj
-wpV3
 wrapR
 wrapS
 wrapT
@@ -14981,89 +13848,27 @@ writeonly
 wrong operand type - no operation '
 wrong operand types - no operation '
 wrong protocol type
-wv`s
 x = y = or z cannot be negative.
-x-Q=3
-x-VE
-xB~I
-xI!V
-xT?V
 xV4?xV4?xV4?xV4? 
-x^6V
-xcP_j
 xfbBufferOffsets
 xfbOut
 xfbVerticesPerInstance
-xg+#1
-xo2l#gC{
 xor(
-xq-y
-xqKf
-xqd7^O
-y%Y{k!g
-y1|+sXO.
-y9X)
-y>X,7 l
-y>bN5
-yAbt}
-yGNn
-yGt\r&lo!
-y[IM
-y\vq6S
-yhE4
-ynN=
-yscu
 yuvCscStandardEXT
 yuv_2_rgb
 yuv_2_rgb(20B00H
-ywO|
 yyset_column called with no buffer
 yyset_lineno called with no buffer
-y{Zc
-z2>5
-z4":c
-z@Ng
-zDangle::CompressBlob
-zFCU
-zI]w
-zKcN
-zL>w
-zPnVl
 zValueF_Float
 zValueF_Sint
 zValueF_Uint
 zValue_Depth
 zeroMaxLodWorkaround
-zhMU
 zoffset is larger than MAX_3D_TEXTURE_SIZE-1
-zt?SharedFence::wait
-zyuYS
-{/94o
-{4L8\r
-{79,os
 {Break
-{RRQ
 {\n    for (int i = 0; i < 
 {\n    return 
 {int 
-{l\n2y
-|4gw
-|NPs
-|so3
-|{IOZS
 };\n    return structure;\n}\n
 };\n\nPS_OUTPUT generateOutput()\n{\n    PS_OUTPUT output;\n
 };\n\nvoid initAttributes(VS_INPUT input)\n{\n
-}B\fos{tT\f
-}K8d
-}NLw&
-}OEn
-}OFn
-}V{gp
-}mM1dS
-}oDpn
-~2kef
-~3w0
-~O8e"
-~Xi1
-~~~~~~~~~~~~~~~~

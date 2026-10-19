@@ -115,7 +115,6 @@
   translating interpreted frame 
   translating tail caller frame 
   unreachable\n
- !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
  "const(nostack):
  "dead"
  "dom-loop-succ"
@@ -125,6 +124,9 @@
  "stack:%d"
  %8.3f ms / %4.1f %% 
  %9zu bytes / %4.1f %%\n
+ %d %d
+ %d M
+ %s:%d
  (+ %.1f ms in %d steps since start of marking, biggest step %.1f ms, walltime since start of marking %.f ms)
  (BoundTargetFunction %p)>
  (OSR entry)
@@ -162,18 +164,11 @@
  => node=%d, args=%d, height=%d; inputs:\n
  => node=%d, height=%d%s\n
  @%d => node=%d, pc=0x%08lx, caller sp=0x%08lx, state=%s, took %0.3f ms]\n
- APH
- APM
- APPH
- AQH
- ASH
- ASPH
- ATH
- ATPL
- AVH
+ B#%d
  Ctrl:
  Ctx:
  Dead block replaced with B%d
+ E#%d
  Eff:
  Encoding attached reference %d\n
  Encoding back reference to: 
@@ -184,30 +179,8 @@
  Encoding hot object %d:
  Encoding root %d:
  Goto
- H9q
- H9s
- LcB
- LcZ
- McX\vM;
+ H#%d
  OSR
- PRWW
- PSH
- PSL
- PSQH
- PWH
- PWRW
- PWRWH
- PWW
- QPH
- RPH
- RSV
- SPH
- SWW
- VPH
- VQA
- VQWR
- WRARH
- YRQ3
  YRj
  [DISABLED]
  [dead]
@@ -242,6 +215,7 @@
  anonymous(
  array
  as it has already been optimized.\n
+ at %s:%d
  at <unknown>:%d
  at <unknown>:<unknown>
  at AST id %d]\n
@@ -262,7 +236,6 @@
  during unoptimized compile]\n
  eagerly (shared function marked for tier up)]\n
  eff 
- fff
  field
  for 
  for %s recompilation, reason: %s
@@ -328,6 +301,7 @@
  uses node #
  using 
  using Turbofan
+ v%d
  value = 
  values)
  var[
@@ -473,14 +447,14 @@
 #%d Phi is not truncating Number because of #%d %s\n
 #%d Phi is not truncating Smi because of #%d %s\n
 #%d Phi is used by real #%d %s as %s\n
+#%d:%s
+#%d:%s 
 #%d:%s should be followed by IfSuccess/IfException, but is followed by #%d:%s
-#APL
 $$AZAYAX_^][ZXY
 $$AZAYAX_^][ZXYI
 $$A[AZAYAX^][ZXY
 $$A[AZAYAX^][ZXYI
 $$A[AZAYAX^][ZXY_
-$$A[AZAYAX^][ZXY_I
 $$A[AZAYAX_][XH
 $$A[AZAYAX_][ZH
 $$A[AZAYAX_^]ZXY
@@ -491,11 +465,6 @@ $$A[AZAYAX_^][H
 $$A[AZAYAX_^][ZY
 $$A[AZAYAX_^][ZYI
 $$A[AZAYAX_^][ZYX
-$1M9e
-$3M9a
-$;M9a
-$\vL9f
-$\vM9a
 % argument must be between 0 and 20
 % called on non-object
 % called on null or undefined
@@ -521,6 +490,8 @@ $\vM9a
 %*s bailed out due to '%s'\n
 %*s;;;     Inline point: script_id %d position: %zu.\n
 %*s;;; deopted at script_id: %d position: %zu with reason '%s'.\n
+%.*lx
+%.0f
 %016zx.%s.wasm
 %02d:%02d:%02d GMT%c%02d%02d (%s)
 %02x
@@ -538,6 +509,8 @@ $\vM9a
 %33s %8.3f ms           %7.3f kB allocated\n
 %33s %8.3f ms           %9zu bytes\n
 %33s %8.3f ms / %4.1f %% \n
+%4d:%*s
+%5d: 
 %5u %*s %s%s %d #%d
 %6zu @%6u %*c %s%s: 
 %8.0f ms: evacuation-summary: parallel=%s pages=%d aborted=%d wanted_tasks=%d tasks=%d cores=%zu live_bytes=%ld compaction_speed=%.f\n
@@ -548,38 +521,69 @@ $\vM9a
 %cell_value
 %closure
 %context
+%d %s
 %d %s maps { 
 %d ; (int) [fp %c %d] 
 %d detached contexts are collected out of %d\n
 %d objects were skipped\n
+%d,%d,
 %d.%d.%d%s%s
 %d.%d.%d.%d%s%s
+%d: %o\n
 %e ; %s (double)
 %e ; %s (float)
 %e ; (double) [fp %c %d] 
 %e ; (float) [fp %c %d] 
 %elements
+%ld ; %s 
 %ld ; %s (bool)
 %length
 %lu ; %s (uint)
 %lx %x %.*s\n
 %map
 %new.target
+%p %5d %s\n
+%s "B%d"\n
+%s #%u
+%s %.40s\n
 %s %d000\n
+%s %d\n
+%s %s
 %s %s %02d %4d
 %s %s %02d %4d %02d:%02d:%02d GMT%c%02d%02d (%s)
+%s %s,
+%s %s,%s
+%s %s,%s,
 %s %u out of bounds (%d entries)
 %s / %ld entries
+%s / %s
 %s found empty stack
 %s of %u exceeds internal limit of %zu
 %s rax,%s
 %s st%d
 %s#%d:%.*s:%.*s
+%s%c
+%s%c 
+%s%c %s
+%s%c %s,
 %s, %02d %s %4d %02d:%02d:%02d GMT
+%s,"%s"
+%s,%d
+%s,%d,
+%s,%ld
+%s,%p
+%s,%s,
+%s,%s,%d,
+%s,%s,-2,
+%s-%s.%s
+%s.%s
+%s:%i: %s\n
 %s[%d] expected type %s, found %s of type %s
 %s\n\nFROM\n
 %s_%s-%s.%s
+%s_%s.%s
 %this
+%u #%u
 %u ; (bool) [fp %c %d] 
 %u ; (uint) [fp %c %d] 
 ' wasn't found
@@ -588,7 +592,6 @@ $\vM9a
 '%' on proxy: trap returned falsish for property '%'
 '%' returned for property '%' of object '%' is not a function
 '.' == buffer[fraction_cursor]
-'I9V
 'Unimplemented Instruction'
 'await' is not a valid identifier name in an async function
 'caller' and 'arguments' are restricted function properties and cannot be accessed in this context.
@@ -833,7 +836,6 @@ $\vM9a
 *FIXED_ARRAY_STRING_TABLE_SUB_TYPE
 *FIXED_ARRAY_TEMPLATE_INFO_SUB_TYPE
 *FIXED_ARRAY_WEAK_NEW_SPACE_OBJECT_TO_CODE_SUB_TYPE
-*\ty@\tYO\tAl\t
 *default*
 +%06d-%02d-%02dT%02d:%02d:%02d.%03dZ
 ++ Unobserved store S%d overwritten by S%d\n
@@ -847,6 +849,7 @@ $\vM9a
 , dictionary_index: 
 , generic ICs: %d/%d (%d%%)
 , hidden_fields: [ 
+, line %d\n
 , not enough type info: %d/%d (%d%%)]\n
 , reason: %s]\n
 ,"control":
@@ -864,8 +867,14 @@ $\vM9a
 ,"rankWithInput":[
 ,"target":
 ,"trace_function_count":
+,%d,%d,
+,%s,%d
+,%s,%s,
 ,%s,%s,%s,%s,%s,%s,%s
+,%s,0x%x,
+,%s,cl
 ,0x%x
+,1,"%s%s"
 ,1,symbol("%s%s" hash %x)
 ,1,symbol(hash %x)
 ,overflow
@@ -925,7 +934,6 @@ $\vM9a
 -1 == offset
 -Infinity
 -candidate
--rLq
 -trunc
 . Loop changes 
 ...<omitted>...
@@ -1251,12 +1259,6 @@ $\vM9a
 0-length search_string
 0123456789ABCDEF
 0123456789abcdefghijklmnopqrstuvwxyz
-0CfI
-0Kc\&
-0M\rr
-0\t%2F
-0\t\r2F
-0\tq4
 0u == gc_count_
 0u == output_frame_offset
 0u == output_offset
@@ -1271,109 +1273,23 @@ $\vM9a
 1 == input_count
 1 == value_count
 1 Argument case
-11eU%
-1889
-1Mr("4
 1U == uint32_value()
-1\rr(a
-1\t?8F5\t
 2 == control_count
 2 == input_count
 2 Argument case
-2WRH
-2\t13\t
 3 == value_count
-3$S=A
 32 bit value in register is not zero-extended
-333333
-3APH
-3AQH
-3L9Z
-3\tY5
-3\ta4
-3\ta4\t
-3\ta4\tq4\t
-4!M9s
-4!fF
-4$API
-4$AQI
-4$ASI
-4$PI
-4$RI
-4$VI
-4$WI
-4'M9s
-44M9s
-48H;
-4<M9p
-4@Hc
-4[Hc
-4\fM9s
-4\tY5\ti5\t
-4\tY5\ti5\t!6\t
-4\tq4
-4vHc
 5 == value_count
 5.8.283
-5Y5I
-5\tM6
 6 == input_count
-7PRSUVAPAQARASI
-889;
-88<9
-8989
-89898
-8989898989
-89F!
-89F%
-89F)
-89F1
-89F9
-89F=
-89FA
-89FI
-89FU
-89FY
-89F\r
-89F\t
-89Fa
-89Fi
-89Fq
-89F}
 8?8?8?8?8?8?8?8?8?
 8?8?8?8?8?8?8?8?8?8?8?8?8?8?8?8?8?8?8?8?8?8?8?8?
-8\nA\t9
-8\tYO
-8\tmD
-8\tmO
 96?A??A9?A)?
-9898
 98988
 989898
-9898F
-98Fq
-9999
-99\nA\t
-9:9:9:9:9:F
-9:F1
-9:F9
-9:FA
-9:FE
-9:FI
-9:FQ
-9:Fi
-9:Fq
-9:Fu
-9L9F
-9M9X
-9\t1I
-9\t9f
-9\tmD
 9\v?L95?
 :%d] [bytecode=%p offset=%d]
 :%d] [pc=%p]
-:;:;:;:;:;:
-:L9A
 :debug
 :monitor
 :~%d] [pc=%p]
@@ -1400,12 +1316,7 @@ $\vM9a
 ;;; Safepoint table.
 ;;; Save clobbered callee double registers
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;L9F
-;\tEDF
-;\tMDF
-<0H9y
-<2H9y
-<3H9y
+<%sa%s 
 <AccessCheckInfo>
 <AccessorInfo>
 <AccessorPair>
@@ -1474,8 +1385,6 @@ $\vM9a
 <TypeFeedbackInfo>
 <Very long string[%u]>
 <WASM UNNAMED>
-<\tY2F
-<\vH9z
 <anonymous>
 <closure>
 <context>
@@ -1503,33 +1412,21 @@ $\vM9a
 <unresolved>
 <var>
 <warm-up>
-=99999
 === Stress deopt counter: %u\n
 ==== Key         ============================================\n\n
 ========= Dispatch
 =========================================================
 ===================================================================================================================
 =====================\n\n
-=>=>=>=>=>=>=>=>=
 =init
-><><><><><><><><><><
 >=>=>=>=>=>=
 >=>=>=>=>=F
 >A2D
->ASI
 ? ?\r?&? ?\r?\r?
 ? ?\r?4?(?\r?\r?
-?8F5
-?8FA
-?8FE
-?8FI
-?8FQ
 ????????????????????????????????????????????????????????????????????????????????????????????????????????????????
 ?A ?A)?A5?I7?A3?I:?A9?I:?A6?I3?A2?A=?
-?A ?A3?A??9
-?A!?A-?A9?I;?A7?I>?A=?I>?A:?I7?A6?A
 ?A#?A)?A5?I7?A3?I:?A6?I7?A3?I0?A2?A
-?A$?A$?A,?A
 ?A$?A.?A;?I;?A8?I>?A;?I;?A8?I4?A6?A"?I:?A4?I6?A4?I
 ?A%?A1?97?A/?99?A4?9:?A2?93?A.?A8?
 ?A%?A1?97?A/?99?A4?9:?A2?93?A.?A\f?
@@ -1537,30 +1434,12 @@ $\vM9a
 ?A'?A*?e)I\v?<A\tc
 ?A(?A1?A=?I??A;?I
 ?A(?A2?A>?I??A;?I
-?A,?A3?A??I??A<?I
-?A0?A6?A5?A
-?A4?A
-?A7?A0?
-?A9?A;?A7?A
-?AVH
-?CfI
-?E2?:?\vcA9?
-?I)?\tcA,?9?
-?I4?9
 ?I6?\tcA,?2?
-?I9?\vcA9?
-?I\f?I\f?I\f?I*?A\v?\tc/?
-?\t5GF
-?\tMGF
 ?\tcA1?A)?I9?A??I
 ?\tcA1?A5?
-?\vc145p
 ?h9)?9)?9#?9+?A2?9!?97?
-?qm5I6?
-@'I9E
 @wKA
 A JavaScript to Wasm adapter
-A L9C
 A SharedArrayBuffer could not be cloned. SharedArrayBuffer must not be transferred.
 A Wasm function
 A Wasm to Interpreter adapter
@@ -1572,27 +1451,14 @@ A load IC from the snapshot
 A load global IC from the snapshot
 A store IC from the snapshot
 A stub from the snapshot
-A#?yI
-A&?A)?A/?A(?A
-A'H9P_
-A'I9E
 A+?91?A8?
-A/AQH
 A1?A
-A1?q
-A2?\vcA9?
-A3?A+?A3?A
-A7?(?A(?A,?A#?
-A8V3
-A9?\vcA9?
 AArch64 instruction statistics log file.
 AArch64 instruction statistics logging period.
 ACCESSORS
 ACCESSOR_INFO_TYPE
 ACCESSOR_PAIR_TYPE
 ACCESS_CHECK_INFO_TYPE
-AHL9@
-AHL9C
 ALIASED_ARGUMENTS_ENTRY_TYPE
 ALLOCATION_MEMENTO_TYPE
 ALLOCATION_SITE_TYPE
@@ -1746,24 +1612,14 @@ API_Value_TypeOf
 APPSH
 APRH
 AQAPPH
-AQASQ
 AQQH
-ARARI
 ARATAUAVAWSI
 ARGUMENTS_ADAPTOR
-ARL;
 ARPQRSVWAPAQASATAVAWH
-ARPSR
 ARQj
 ARROW
-ARRP
 ARRPRPj
 ARSR3
-ARSRW
-ARVPX^H
-ARV^H
-ARWRH
-ARWRP
 ASAQPH
 ASCII
 ASSIGN
@@ -1779,9 +1635,7 @@ ASSIGN_SAR
 ASSIGN_SHL
 ASSIGN_SHR
 ASSIGN_SUB
-ASWVQ
 ASYNC
-ATAQ
 ATPSH
 AVXFloat32Abs
 AVXFloat32Add
@@ -1809,7 +1663,6 @@ AXSUVWAPAQARASH
 AXXY
 AXXZ
 AXX[
-AXY3
 AXZY
 AYPUVWAPAQARASH
 AYRSUVWAPAQARASH
@@ -1822,8 +1675,6 @@ AZAYAX_^][XZY
 AZAYAX_^][XZYI
 AZAYAX_^][ZXY
 AZAYAX_^][ZXYI
-AZWARH
-AZWRARH
 A[AZAX_^][XZY
 A[AZAX_^][XZYI
 A[AZAX_^][ZH
@@ -1882,7 +1733,6 @@ A[RSUVWAPAQARASH
 A[RUVWAPAQARASH
 A[SUVWAPAQARASH
 A[XY
-A\t89FE\t
 A^RSUVAPAQARASI
 A^XY
 AbnormalExit
@@ -2092,7 +1942,6 @@ ArrayIterator_string
 ArrayJoin
 ArrayLastIndexOf
 ArrayLengths
-ArrayMap
 ArrayNArgumentsConstructor Descriptor
 ArrayNArgumentsConstructorStub
 ArrayNoArgumentConstructor Descriptor
@@ -2105,7 +1954,6 @@ ArrayPrototypeKeys
 ArrayPrototypeValues
 ArrayPush
 ArrayReduce
-ArrayReduceRight
 ArrayReverse
 ArrayShift
 ArraySingleArgumentConstructor Descriptor
@@ -2182,12 +2030,10 @@ AtomicsXor
 AttachedRefIndex
 AvailableLocalesOf
 Average per kB source
+B%d 
 B%d checkmaps-table %s from B%d:\n
 B%d checkmaps-table merged with B%d table:\n
 B%d | B%d on 
-B'H;E
-B'I9E
-BHL9C
 BINARY_OP_IC
 BIT_AND
 BIT_NOT
@@ -2204,7 +2050,6 @@ BYTECODE_ARRAY_TYPE
 BYTECODE_HANDLER
 BYTES_PER_ELEMENT
 BYTE_ARRAY_TYPE
-B\tNC
 BackRefSkipDistance
 BackRefValue
 BackingStoreFields
@@ -2586,8 +2431,6 @@ Builtin_TypedArrayPrototypeCopyWithin
 Builtin_UnsupportedThrower
 Byte
 BytecodeHandler
-C!CA7?
-C"CA7?*?A\v?
 CALL_AND_RETRY_LAST
 CALL_HANDLER_INFO_TYPE
 CALL_IC
@@ -2656,8 +2499,6 @@ CSWTCH.835
 CSWTCH.850
 CSWTCH.852
 CXXABI_1.3
-C\nCE5?\rc
-C\tC9
 Call
 Call Runtime
 Call Runtime Unchecked
@@ -3104,10 +2945,8 @@ Creating snapshot took %0.3f ms\n
 Currency code is required with currency style.
 Cyclic __proto__ value
 Cyclic object state detected by escape analysis
-D$0H
 D$PH
 D$PL
-D$XL
 DEBUGGER
 DEBUG_INFO_TYPE
 DEFAULT
@@ -3120,7 +2959,6 @@ DICTIONARY_ELEMENTS
 DICTIONARY_ELEMENTS_SUB_TYPE
 DICTIONARY_PROPERTIES_SUB_TYPE
 DISALLOW_TAIL_CALLS
-D\t9E\t
 Dampen: old size: %zu KB, old limit: %zu KB, new limit: %zu KB (%.1f)\n
 Data
 Data cannot be cloned, out of memory.
@@ -3162,7 +3000,6 @@ DataViewPrototypeSetInt8
 DataViewPrototypeSetUint16
 DataViewPrototypeSetUint32
 DataViewPrototypeSetUint8
-DataView\tV!
 Date
 Date.prototype
 Date.prototype [ @@toPrimitive ]
@@ -3415,7 +3252,6 @@ Duplicate export of '%'
 Duplicate parameter name not allowed in this context
 Duplicated case label.
 DynamicImportCall
-E I9E
 ELLIPSIS
 ELSE
 EMBEDDED_OBJECT_SUB_TYPE
@@ -3435,7 +3271,6 @@ EXTERNAL_ONE_BYTE_INTERNALIZED_STRING_TYPE
 EXTERNAL_ONE_BYTE_STRING_TYPE
 EXTERNAL_STRING_TYPE
 EXTERNAL_STRING_WITH_ONE_BYTE_DATA_TYPE
-E\rr\fa
 Eager
 Early optimized
 Early trimmed
@@ -3540,9 +3375,6 @@ ExternalPointer
 ExternalStringGetChar
 ExtraWide
 Extract lane
-F'I9x_
-F(L9C
-F8L9C
 FALSE_LITERAL
 FAST_DOUBLE_ELEMENTS
 FAST_ELEMENTS
@@ -3823,9 +3655,6 @@ FunctionTemplate already instantiated
 FunctionToString
 Function_string
 Functions may only define inner variables.
-G'H9P_
-G0L9F
-G8L9F
 GC in old space forced by flags
 GC in old space requested
 GCC: (Ubuntu 4.8.1-2ubuntu1~12.04+steamrt2+srt1) 4.8.1
@@ -3836,8 +3665,6 @@ GCPrologueCallback
 GC_AllAvailableGarbage
 GENERIC
 GETTER_STUB
-GHL9@
-GHL9F
 GLIBCXX_3.4
 GLIBCXX_3.4.11
 GLIBCXX_3.4.14
@@ -3848,7 +3675,6 @@ GLIBC_2.14
 GLIBC_2.2.5
 GLIBC_2.3.4
 GLIBC_2.4
-G\v9O
 GenAll_AttributesMismatchProtoMap
 GenAll_CantHaveMoreTransitions
 GenAll_Incompatible
@@ -3919,7 +3745,6 @@ GetIterator
 GetIterator(
 GetLanguageModeFromSlotKind(feedback_vector_spec()->GetKind(slot)) == language_mode
 GetLanguageSingletonRE
-GetLanguageTagRE\tU
 GetLanguageTagVariants
 GetLanguageVariantRE
 GetMaxInstanceMemoryPages(v8::internal::Isolate*, v8::internal::Handle<v8::internal::WasmInstanceObject>)
@@ -3989,28 +3814,12 @@ GrowArrayElementsStub
 GrowFastDoubleElements
 GrowFastSmiOrObjectElements
 GrowMemoryBuffer(v8::internal::Isolate*, v8::internal::MaybeHandle<v8::internal::JSArrayBuffer>, unsigned int, unsigned int)
-H'E3
-H(L9H
-H/PH
-H0L9O
-H8L9O
 H9B/
-H9D7
-H9D:
-H9D;
-H9D\v
-H9H_
-H9L0
-H9T;
-H9{7
 HANDLER
 HANDLER_TABLE_SUB_TYPE
 HAllocate with AllocationSite %p %s\n
 HEAP_NUMBER_TYPE
-HHL9O
 HStringAdd with AllocationSite %p %s\n
-H\vA9H
-H\vA9p
 H_Assign dominators
 H_Block building
 H_Block ordering
@@ -4076,43 +3885,6 @@ HasProperty Descriptor
 HasSloppyArgumentsElements
 HashToEntry
 HaveSameMap
-Hc@sH
-HcA#H
-HcAS
-HcB#H
-HcBS
-HcC+
-HcGS
-HcH+
-HcIs
-HcJ#H
-HcJ+
-HcJ\vH
-HcJ\vH;
-HcK#H
-HcK\vH
-HcK\vH;
-HcP#H
-HcP+
-HcS#H
-HcS+
-HcS\vH
-HcS\vH;
-HcX#H
-HcZsI
-Hc[sH
-Hc[sH+
-Hcp#H
-Hcq\vH
-Hcr#H
-Hcr+@
-Hcr\v
-Hcs#H
-Hcs;H;
-Hcz#H
-Hcz\vH;
-Hc~#H
-Hc~\vH
 Heap access index is out of bounds
 Heap access index must be a 32-bit unsigned integer.
 Heap access index must be int.
@@ -4161,21 +3933,6 @@ HtmlEscape
 I"?I%?I%?I-?A1?I
 I2?A4?I6?A4?I
 I9?I
-I9D8
-I9E 
-I9E8
-I9EP
-I9Ep
-I9MP
-I9Mp
-I9U 
-I9UP
-I9Up
-I9]P
-I9]p
-I9uP
-I9}P
-I9}p
 IC_HandlerCacheHit
 IDENTIFIER
 IDLE
@@ -4198,18 +3955,6 @@ INTERPRETER_COMPARE_IC
 INVALID
 IS_VAR
 I\f?DI9%?9"?9
-I\f?DeA
-I\f?DuA"?9$?
-I\t89FM\t
-I\v?HI
-I\v?Qqyy
-IcC#H
-IcCS
-IcD$#M
-IcD>
-Ic[#H
-Ic_#H
-Icx;L;
 Idempotent
 Identifier '%' has already been declared
 Identifier does not name a function table.
@@ -4317,7 +4062,6 @@ Inlining builtin
 InnerAllocatedObject
 InnerArrayEvery
 InnerArrayFill
-InnerArrayFilter
 InnerArrayFind
 InnerArrayFindIndex
 InnerArrayForEach
@@ -4334,9 +4078,7 @@ Input positions array is not sorted or contains duplicate values.
 Input string too long
 InstallClassNameAccessor
 InstallClassNameAccessorWithCheck
-InstallConstants
 InstallFunction
-InstallFunctions
 InstallGetter
 InstallToContext
 Instance
@@ -4755,17 +4497,6 @@ IterableToArrayLike
 Iterator result % is not an object
 Iterator value % is not an entry object
 IteratorPrototype
-J H9H
-J H9K
-J(H9K
-J/Hcy\vL
-J0H9K
-J7Hcy\vL
-J8H9H
-J8H9K
-J?Hcy\vL
-JGHcy\vL
-JPH9K
 JSAdd
 JSArray
 JSArray::cast(*object)->length()->ToArrayLength(&old_length)
@@ -4944,7 +4675,6 @@ JS_WEAK_COLLECTION_SUB_TYPE
 JS_WEAK_MAP_TYPE
 JS_WEAK_SET_TYPE
 J\nYG
-J\t\rLF
 Join
 JsonParse
 JsonStringify
@@ -4967,19 +4697,11 @@ JumpIfTrueConstant
 JumpIfUndefined
 JumpIfUndefinedConstant
 JumpLoop
-K H9H
-K(H9H
-K(L9H
-K/L9D
 KEYED_LOAD_IC
 KEYED_STORE_IC
 KEYED_STORE_SLOPPY_IC
 KEYED_STORE_STRICT_IC
 KNOWN_RECEIVER
-KcD&
-KcL&
-KcL&\tH
-KcT&
 KeyIsNegative
 KeySortCompare
 Keyed
@@ -5042,13 +4764,8 @@ KeyedStorePolymorphicIC
 KeyedStoreSloppyArgumentsStub
 Keyword must not contain escaped characters
 L$0H
-L$0L
-L$8H
 L$PH
 L$XH
-L5\rr
-L9\f1
-L9\f7
 LBRACE
 LBRACK
 LDoubleConstant::min_int
@@ -5084,10 +4801,6 @@ Last %d objects were skipped\n
 Late optimized
 Late trimmed
 LazyCompile
-LcF#I
-LcF\vI;
-LcN\vL;
-LcX+A
 LdaConstant
 LdaContextSlot
 LdaCurrentContextSlot
@@ -5270,18 +4983,6 @@ Loops peeled
 LostPrecision
 LostPrecisionOrNaN
 Lowered typed
-M I9M
-M QH
-M9E 
-M9EP
-M9M 
-M9MP
-M9\f8
-M9]P
-M9e 
-M9eP
-M9u@
-M;UPt\vA
 MAPPED_ARGUMENTS
 MAP_CODE_CACHE_SUB_TYPE
 MAP_SPACE
@@ -5297,7 +4998,6 @@ MR2I
 MR4I
 MR8I
 MUTABLE_HEAP_NUMBER_TYPE
-M\t5DF
 Machine
 MachineRepresentation::kBit == inferrer_->GetRepresentation(node->InputAt(0))
 MachineRepresentation::kFloat32 != rep
@@ -5423,19 +5123,6 @@ Maximum call stack size exceeded
 Maybe value is Nothing.
 MaybeGrowElements
 MaybeGrowFastElements
-McA\vI
-McC#I
-McC\v
-McH#I
-McH#M
-McH\vI
-McK\vI
-McX\vM;
-McY#I
-McY\vI
-Mcs#M
-Mct$#I
-Mc~#I
 MementoFound
 Memory
 Memory allocator,   used: %6zu KB, available: %6zu KB\n
@@ -5499,8 +5186,6 @@ Moving second check #%d after first check #%d\n
 Multiple export statements.
 Multiply
 MultiplyWithFeedbackStub
-N L9K
-N'M9H'
 NEGATIVE_INFINITY
 NEW_SPACE
 NE_STRICT
@@ -5515,7 +5200,6 @@ NULL_LITERAL
 NULL_OR_UNDEFINED
 NUMBER
 NUMBER_STRING_CACHE_SUB_TYPE
-N\tiN
 Name
 NameDictionaryLookup
 NameDictionaryLookupStub
@@ -5723,10 +5407,6 @@ NumberToUint8Clamped
 NumberTrunc
 Number_string
 NyU[
-O L9N
-O'H9
-O/WH
-O9D\v
 OBJECT_TEMPLATE_INFO_TYPE
 OBJECT_TO_CODE_SUB_TYPE
 ODDBALL_TYPE
@@ -5882,13 +5562,10 @@ OutsideOfRange
 Overflow
 OverrideFunction
 PAPH
-PAPRA
-PAPVA
 PAQH
 PERIOD
 POSITIVE_INFINITY
 PQRSUVWAPAQARASH
-PQRSUVWAPAQARASI
 PQRSVWAPAQASATAVAWH
 PQSH
 PQWH
@@ -5898,15 +5575,6 @@ PROPERTY_CELL_TYPE
 PROTOTYPE_INFO_TYPE
 PROTOTYPE_USERS_SUB_TYPE
 PRSH
-PSAQA
-PSQH
-PSRH
-PSRVASAQI
-PVSL
-PWAPL
-PWSA
-P\tYO\t
-P\tmO\t
 PackedArrayReverse
 Parameter
 Parameter count 
@@ -6049,7 +5717,6 @@ ProxyConstructor
 ProxyConstructor_ConstructStub
 ProxyCreateRevocable
 Proxy_string
-Pu\tr
 Push(
 PushArguments
 PushBlockContext
@@ -6059,16 +5726,11 @@ PushModuleContext
 PushWithContext
 Pushing % elements on an array-like of length % is disallowed, as the total surpasses 2**53-1
 QSPH
-Q\f8\t1
-Q\rr,a
 Qmeq
 Quad
 Quadruple
-R'I9U
 R*xJ
 RAIL mode: %s\n
-RAPP
-RAQS
 RBRACE
 RBRACK
 RECEIVER
@@ -6080,11 +5742,7 @@ REST_PARAMETER
 RETAINED_MAPS_SUB_TYPE
 RETURN
 REX.W 
-RPAQVL
 RPAREN
-RQSH
-RQSL
-R\t!S\t}S\t=U\t
 Range out of order in character class
 Range(
 Range: 
@@ -6872,9 +6530,6 @@ RuntimeError
 RuntimeError_string
 RuntimeId
 RuntimeToFastProperties
-S H9P
-S(H9P
-S8H9P
 SCOPE_INFO_SUB_TYPE
 SCRIPT_LIST_SUB_TYPE
 SCRIPT_TYPE
@@ -6883,7 +6538,6 @@ SERIALIZED_TEMPLATES_SUB_TYPE
 SETTER_STUB
 SHARED_FUNCTION_INFOS_SUB_TYPE
 SHARED_FUNCTION_INFO_TYPE
-SHH9P
 SHORT_EXTERNAL_INTERNALIZED_STRING_TYPE
 SHORT_EXTERNAL_INTERNALIZED_STRING_WITH_ONE_BYTE_DATA_TYPE
 SHORT_EXTERNAL_ONE_BYTE_INTERNALIZED_STRING_TYPE
@@ -6896,7 +6550,6 @@ SLICED_STRING_TYPE
 SLOW_SLOPPY_ARGUMENTS_ELEMENTS
 SLOW_STRING_WRAPPER_ELEMENTS
 SLOW_TEMPLATE_INSTANTIATIONS_CACHE_SUB_TYPE
-SPH9P
 SQRT1_2
 SQRT2
 SSE3=%d SSSE3=%d SSE4_1=%d SAHF=%d AVX=%d FMA3=%d BMI1=%d BMI2=%d LZCNT=%d POPCNT=%d ATOM=%d\n
@@ -7120,7 +6773,6 @@ Smi::cast(length)->value() == 0
 Smi::kZero == array_buffer->byte_length()
 SmiLexicographicCompare
 Snapshot blob consists of:\n%10d bytes for startup\n
-SoI;U
 Soft
 Sort unhandled\n
 Source is too large
@@ -7186,8 +6838,6 @@ StackDump
 StackGuard
 StackGuard::address_of_jslimit()
 StackGuard::address_of_real_jslimit()
-StackHas
-StackPop
 StackPush
 StackSlot
 Stacktrace (%x-%x) %p %p: %s\n
@@ -7296,7 +6946,6 @@ String.prototype.lastIndexOf
 String.prototype.localeCompare
 String.prototype.normalize
 String.prototype.replace
-String.prototype.replacer
 String.prototype.split
 String.prototype.startsWith
 String.prototype.substr
@@ -7460,16 +7109,13 @@ Symbol_string
 SyntaxError
 SyntaxError_string
 SystemBreak
-T$0H
 T$0L
 T$8H
 T$8I
-T$8L
 T$HH
 T$PL
 T$XH
 T$XL
-T$hH
 TAIL_CALLER_FRAME
 TEMPLATE_INFO_SUB_TYPE
 TEMPLATE_SPAN
@@ -7708,7 +7354,6 @@ Typed
 Typed array
 TypedArray
 TypedArrayConstructor
-TypedArrayCreate
 TypedArrayDefaultConstructor
 TypedArrayElements
 TypedArrayEvery
@@ -7757,11 +7402,7 @@ TypedStateValues
 Typeof
 Typeof Descriptor
 TypeofIsAndBranch
-U H;U
-U HcBS
 U)AA
-U1(\Q
-U8M9S
 UINT16_ELEMENTS
 UINT32_ELEMENTS
 UINT8_CLAMPED_ELEMENTS
@@ -7771,9 +7412,6 @@ UNINITIALIZED
 UNIQUE_NAME
 UNKNOWN
 UNMAPPED_ARGUMENTS
-UPL9P
-UPL9R
-UPL9S
 URI malformed
 URIError
 URIError_string
@@ -8010,9 +7648,7 @@ UseSparseVariant
 Used by tracing internally to enable gc statistics
 Used with --prof, turns on browser-compatible mode for profiling.
 Using optimistic loop invariant code motion: %s\n
-V'H9z_
 V0A!
-V3C9T&
 V8 Code
 V8 Executable Allocation capacity exceeded
 V8.AsmWasmTranslationMicroSeconds
@@ -8944,19 +8580,10 @@ V8InternalType#internalSubtype
 V8_Fatal
 VOID
 VR+d
-VRSQH
-VSPH
-VSPRL
 VTT for std::basic_ostringstream<char, std::char_traits<char>, std::allocator<char>>
 VTT for std::basic_stringstream<char, std::char_traits<char>, std::allocator<char>>
 VTT for v8::internal::OFStream
-VWAP
-VWAPRH
-VWAPS
 VWAR
-VWPH
-VWPQRH
-VWRH
 ValidateWasmInstancesChain
 ValidateWasmModuleState
 ValidateWasmOrphanedInstance
@@ -8987,11 +8614,8 @@ WEAK_NEW_SPACE_OBJECT_TO_CODE_SUB_TYPE
 WHILE
 WHITESPACE
 WITH
-WPQRH
 WPSH
 WRQH
-WSQH
-WSRQ
 Warming up snapshot took %0.3f ms\n
 Wasm Module
 Wasm code generation disallowed in this context
@@ -9099,9 +8723,6 @@ Wrong number of arguments for intrinsic
 Wrong size %6d: %p %6d. Next address is %p\n
 WrongInstanceType
 WrongMap
-X'I9]
-X'Mcc\vM
-X/J9D
 X64Add
 X64Add32
 X64And
@@ -9187,28 +8808,9 @@ XPSUVWAPAQARH
 XPSUVWAPARASH
 XPSUVWAQARASH
 XPSUWAPAQARASH
-X\t9Y\t
-Y L9Z
-Y L9_
-Y'H9X'
-Y(L9X
-Y/J9D
-Y7M9
-Y8M9X
-YHL9_
-YHM9X
 YIELD
-YPL9^
-YRQ3
-YRSQH
-Y\f9\tY
-Y\tc2?
-Y\vA9y
 Yield expression not allowed in formal parameter
 Young generation mutator utilization = %.3f (mutator_speed=%.f, gc_speed=%.f)\n
-Z'H9
-Z7ff
-ZAX_^
 ZPRUWAPAQARASH
 ZRSUVAPAQARASH
 ZRSUVWAPAQARASH
@@ -9216,9 +8818,7 @@ ZRSUVWAPAQARH
 ZRSUVWAPARASH
 ZRSUVWAQARASH
 ZRSUWAPAQARASH
-ZYX_^
 Z_Code generation
-Z_XH
 Zak)
 Zap free memory in code space with 0xCC while sweeping.
 Zone
@@ -9234,8 +8834,10 @@ Zone
 [%s elements length not a number in 
 [%s elements length not integer value in 
 [%s with state %p in B%d: #%d %s]\n
+[%s%s0x%x]
 [%s*%d%s0x%x]
 [%s+%s*%d%s0x%x]
+[%s+%s*%d]
 [%s]: %d pages, %d (%.1f%%) free\n
 [0;35m
 [0;36m
@@ -9291,7 +8893,6 @@ Zone
 [RSUWAPAQARASH
 [Running deserialized script
 [SUVWAPAQARASH
-[SUVWAPAQARASL
 [Serializing from
 [Serializing to %d bytes took %0.3f ms]\n
 [Symbol.asyncIterator]
@@ -9363,6 +8964,7 @@ Zone
 [generating %s code for %s function: %s]\n
 [generating bytecode for function: 
 [hole]
+[id=%d|
 [immediate:
 [in-object]
 [map 
@@ -9388,7 +8990,6 @@ Zone
 [object String]
 [object Undefined]
 [object Unknown]
-[object r
 [optimizing 
 [optimizing method 
 [parsing eval
@@ -9407,8 +9008,6 @@ Zone
 [switching method 
 \ at end of pattern
 \$HE3
-\f2I9O
-\fRHc
 \n          
 \n### Allocations = %u, hash = 0x%08x\n
 \n#\n# Fatal %s OOM in %s\n#\n\n
@@ -9423,32 +9022,13 @@ Zone
 \n<--- Last few GCs --->\n%s\n
 \n==== Details ================================================\n\n
 \n==== JS stack trace =========================================\n\n
-\nAPI
 \nBegin HeapObjectsMap::FindUntrackedObjects. %d entries in map.\n
 \n\nAttempt to print stack while printing stack (double fault)\n
-\nnov
-\rcA9?
-\rr0a
-\t1E\t%GF
-\t1P\tup
-\t1h\tMQ\t5
-\tEGF
-\tIL\tU
-\tM9X
-\tM\n\t)A\tMf\tat
 \ta4\tq4
-\taT\tqT\t
-\te;<\tu<\t%<\t
-\toct
-\tqI\t5
-\tqK\t9t
-\tu0\ti
-\tyB\t=DF
 \u%04X
 \u%04x
 \u0000
-\vL9B
-\vdec
+\u{%06x}
 \x%02x
 ] CopyFixedArrayElements
 ] Extend storage
@@ -9460,8 +9040,6 @@ Zone
 ], function #%u ('%s'), pc=%p, pos=%d\n
 ], length 
 ],\n"edges":[
-]\tu]\tmb\t5c\t
-^ L9X
 ^PSUVAPAQARASH
 ^PUVWAPAQARASH
 ^RSUVWAPAQARASH
@@ -10044,7 +9622,6 @@ _WeakCollectionGet
 _WeakCollectionHas
 _WeakCollectionInitialize
 _WeakCollectionSet
-_ZXH
 __FRAME_END__
 __JCR_END__
 __JCR_LIST__
@@ -10087,15 +9664,9 @@ _edata
 _end
 _fini
 _init
-` L9g
-`\tIa999\t
-a L9b
-a L9g
-a'Mct$\vM
 a->length()->ToArrayLength(&actual_new_len)
 a1?A
 a5?A
-a\f9\ty
 abort by crashing
 abort program (dump core) when an uncaught exception is thrown
 abort: %s\n
@@ -10671,30 +10242,8 @@ bytecode_array_map
 bytecodes.cc
 bytes <= length_
 bzhi%c %s,
-c L9a
-c L9f
-c L9g
-c(*?A!?A9?A2?
-c(L9`
 c-call
 c-linkage.cc
-c.?yE
-c0?\tc
-c1?E
-c1?I\t?E
-c4?\vcI
-c5'?\tcM
-c5?\vc
-c6?\vcI
-c7?\rc
-c8?\vc
-c8M9a
-c90?i
-c91?
-c92?
-c97?
-c98?\tcA??A(?
-c99?A.?A$?91?\rc\v?
 c:V8.AliveAfterLastGC
 c:V8.ArgumentsAdaptors
 c:V8.BoundsChecksEliminated
@@ -11214,63 +10763,16 @@ c:V8.WasmGeneratedCodeBytes
 c:V8.WasmRelocBytes
 c:V8.WriteBarriersDynamic
 c:V8.WriteBarriersStatic
-c=4mI4?\tc;?U\vc;?
-cA"?A5?
-cA"?I#?)I\f?D
-cA"?I#?)I\f?DuI$?I;?
-cA"?I#?uI$?I"?
-cA&?A1?A+?I)?=?I
-cA&?I#?)I\f?DI
-cA'?1
-cA'?qm5I6?
-cA)?U
 cA*?I
-cA*?I#?IA\f?
-cA1?;?I
 cA2?
-cA2?"?A+?A7?A
-cA2?%?A.?A8?A
-cA2?)?A
-cA2?-?A
-cA2?6?
-cA2?A
-cA3?9\f?
-cA3?A+?A3?A
 cA4?
-cA6?A
-cA6?A1?A*?A
-cA9?
-cA:?A5?A.?A
-cA<?A
-cA<?A&?A:?A
-cA=?9
-cA=?A
-cA=?A6?A9?A2?A
-cA=?A8?\vcA9?
-cA=?A=?A=?A
 cA>?A
-cA>?A5?A!?I<?
 cA??I
-cA??I??A<?I8?A:?A\t?
 cA\rc
-cE5?
-cE6?
-cE8?
-cHM9`
-cHM9a
 cI3?A0?I;?A
 cI5?
-cI5?i
-cI8?I&?
-cI9?
-cI9?I
 cI??A>?A=?A"?A9?
-cQ=Q
 cY\rc
-cY\rc%
-cY\rce
-c\tqe\t9f\t
-c\vE9C
 cache prototype transitions
 cache_prototype_transitions
 cached-powers.cc
@@ -11469,7 +10971,6 @@ codegen-x64.cc
 codegen.cc
 cold_snapshot_blob.raw_size > 0 && cold_snapshot_blob.data != NULL
 collator
-collator\t)
 collect type information
 collect_megamorphic_maps_from_stub_cache
 collecting
@@ -11833,7 +11334,6 @@ cpuProfile
 cpu_features
 cpu_profiler_sampling_interval
 cpuid
-cqA4?A>?A
 crankshaft
 crankshaft harvests type feedback from stub cache
 create
@@ -11876,8 +11376,6 @@ d$ A_A^A\A[AYAX_^[ZYX
 d$ A_A^A\A[AYAX_^[ZYXAZUH
 d$ A_A^A\A[AYAX_^[ZYXH
 d$ A_A^A\A[AYAX_^[ZYXI
-dQ\rr0a
-d\tUb
 data
 data segment is out of bounds
 data segments count
@@ -11934,7 +11432,6 @@ defineProperties
 defineProperty
 defineProperty_string
 defineWECProperty
-defineWEProperty
 delayed_regular_chunks_.empty()
 delete
 delete,%s,%p
@@ -12087,11 +11584,6 @@ duplicated object #%d
 eager
 early graph trimming
 early optimization
-eee\veeeeeeeeeeeeeeeeeeeeeeeeeee
-eeeeeeeeeeeee
-eeeeeeeeeeeeeeeeeeeeeeeeeeeee
-eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
-eeeei9
 effect
 effect linearization
 effect-control-linearizer.cc
@@ -12385,10 +11877,6 @@ extractps
 extras-libraries.cc
 extras_binding_object
 extras_utils_object
-f L9`
-f L9a
-f L9c
-f'M9
 f->RemovePrototype()
 f->nargs < 0 || f->nargs == num_arguments
 f2xm1
@@ -12494,7 +11982,6 @@ f64.trunc
 f64_acos_wrapper
 f64_asin_wrapper
 f64_mod_wrapper
-f\tmg\t9h\t
 fabs
 factor > 1.0
 factor by which to grow the new space
@@ -12795,10 +12282,6 @@ fwait
 fwrite
 fxch
 fyl2x
-g L9f
-g7UH
-g\tUf\t
-g\tUh\t
 gap 
 gap-resolver.cc
 garbage collect after <n> allocations
@@ -12874,7 +12357,6 @@ get lastParen
 get leftContext
 get length
 get multiline
-get next\t>\n
 get rightContext
 get size
 get source
@@ -12958,6 +12440,7 @@ global_proxy_object
 global_string
 globalhandles
 globals count
+gold 1.11
 goto
 graph builder
 graph creation
@@ -12987,9 +12470,6 @@ guard variable for v8::internal::wasm::ReturnRegistersCreateTrait::Construct(v8:
 guard variable for v8::internal::wasm::ReturnRegistersCreateTrait::Construct(v8::internal::wasm::(anonymous namespace)::Allocator*)::kGPReturnRegisters
 guard variable for v8_inspector::(anonymous namespace)::WasmVirtualScript::emptyString()::singleEmptyString
 gvn_iterations
-h\tmg
-h\tqi
-h\tqs
 handle unitinitialized
 handle_count_ < HandleScope::kCheckHandleThreshold
 handle_unitinitialized
@@ -13780,9 +13260,9 @@ iterated_string->IsString()
 iterator
 iterator != current_assessments->map().end()
 iterator->kind()->IsSmi()
-iterator\t
 iterator_result_map
 iterator_symbol
+j%s %s
 java-script-call-frame.cc
 javaScriptBreakopints
 javascript
@@ -14092,7 +13572,6 @@ killing #%d:%s\n
 kind
 kind == JSMapIterator::kKindKeys || kind == JSMapIterator::kKindValues || kind == JSMapIterator::kKindEntries
 kind == JSSetIterator::kKindValues || kind == JSSetIterator::kKindEntries
-l\tel\t
 label
 label.label_id < labels_.size()
 lane
@@ -14265,8 +13744,6 @@ low memory notification
 lower
 lowering
 lzcnt%c %s,
-m9\tiR\t
-mSx@
 m\rr(a
 machine-graph-verifier.cc
 machine-operator-reducer.cc
@@ -14884,7 +14361,6 @@ ownKeys_string
 ownProperties
 p->SweepingDone()
 p->area_end() > free_start
-p/PH
 pabsb %s,
 pabsd %s,
 pabsw %s,
@@ -14894,7 +14370,6 @@ packsswb
 packusdw %s,
 packuswb
 padEnd
-padStart
 paddb
 paddd
 paddsb
@@ -15167,30 +14642,15 @@ put a break point before deoptimizing
 put a break point before deoptimizing a stub
 puts
 pxor
-q H9r
-q(H9r
-q(H9s
-q0H9p
-q8H9p
-q\rr(a
-q\tIr\t
-q`H9r
 quaternary
 query
 query_colon_string
-r H9p
-r H9s
-r,QI
 r10l
 r11l
 r12l
 r13l
 r14l
 r15l
-rDa>
-rHA\v
-rHBD
-rX!?rT
 race
 random
 random_seed
@@ -15203,10 +14663,6 @@ rate_ > 0u
 raw-machine-assembler.cc
 raw_result->IsSharedFunctionInfo()
 rcpps
-rd"M
-rdA\vX,
-rdA\vY,
-rdA\vZ,
 reading %d bytes would underflow/overflow
 realloc
 reason
@@ -15308,7 +14764,6 @@ rewind
 rewriter.cc
 rightContext
 right_block->HasPredecessor()
-rlaUr
 root
 root_index
 roots: 
@@ -15361,13 +14816,6 @@ runtime_call_stats
 runtime_calls
 runtime_profiler_ticks
 runtime_stats
-rx"2
-rx"U
-rxaUr
-r|b4
-r}\tre
-s(H9p
-s(L9p
 s128
 s128.and
 s128.not
@@ -15382,12 +14830,9 @@ s1x8
 s32x4.select
 s32x4.shuffle
 s32x4.swizzle
-s8H9p
 s8x16.select
 s8x16.shuffle
 s8x16.swizzle
-sHH9p
-s\tUv\t
 safepoint-table.cc
 sahf
 sal-t
@@ -16645,7 +16090,6 @@ sub-i
 sub-t
 sub_string_native
 sub_string_runtime
-subarray
 subps
 subsd
 subss
@@ -16734,10 +16178,6 @@ system / Script
 system / Tuple2
 system / Tuple3
 system / TypeFeedbackInfo
-t$HL
-t$HM9q
-t$HM9s
-t$PH
 t0ZYI
 t1XYI
 t1XZI
@@ -16793,23 +16233,10 @@ t4AYXYI
 t4A[XYI
 t4XZYI
 t4ZXYI
-t4[H
 t4[XYI
-t4^H
 t4^XYI
 t4_XYI
 t5AXXYI
-t5XH
-t5ZH
-t5[H
-t5^H
-t5_H
-t6ZH
-t6^H
-t7AXH
-t7ZH
-tNWQL
-t\tUt\t
 table
 table count
 table elements
@@ -16942,7 +16369,6 @@ toPrimitive
 toString
 toString() radix argument must be between 2 and 36
 toStringTag
-toString\t
 toString_string
 toTimeString
 toTitleCaseTimezoneLocation
@@ -17247,7 +16673,6 @@ typed_array_key_iterator_map
 typed_array_max_size_in_heap
 typed_array_prototype
 typedarray
-typename
 typeof
 typeof-is-and-branch
 typer
@@ -17256,8 +16681,6 @@ types count
 types.cc
 typing.cc
 tzcnt%c %s,
-u RH
-u\t1w\t
 u_foldCase_58
 u_getPropertyEnum_58
 u_getPropertyName_58
@@ -43567,8 +42990,6 @@ v8threads.cc
 v8value
 v???il??*fdssss
 vH7B
-v\tuv\t
-v\vHc{
 vaddsd %s,%s,
 vaddss %s,%s,
 val <= std::numeric_limits<N>::max()
@@ -46204,7 +45625,6 @@ vucomisd %s,
 vucomiss %s,
 vxorpd %s,%s,
 vxorps %s,%s,
-w\tMw\t9t\t
 wait
 wake
 warmup_source != NULL
@@ -46326,10 +45746,6 @@ wrong instance type
 wrong magic word
 wrong map
 wrong wasm version
-x'H9
-x/APH
-x\tMy\t
-x_XZH
 xchg
 xchg%c rax,%s
 xhandlers
@@ -46352,20 +45768,9 @@ xmm8
 xmm9
 xorpd
 xorps
-y'H9
-y(H9x
-y(H9z
-y(H9{
-y/LcG\vM
-y7LcG\vM
-y\tiy\t
 year
 year_string
 yield
-z\fr#t
-z\fw#t
-z\tEz\t
-z^KD
 zap_code_space
 zero capacity path
 zj4T
@@ -46383,8 +45788,6 @@ zone.cc
 {"type": "zone", "isolate": "%p", "time": %f, "allocated": %zu,"pooled": %zu}\n
 {"type": "zonecreation", "isolate": "%p", "time": %f, "ptr": "%p", "name": "%s","nesting": %zu}\n
 {"type": "zonedestruction", "isolate": "%p", "time": %f, "ptr": "%p", "name": "%s", "size": %zu,"nesting": %zu}\n
-{(H9x
-{(L9x
 {\n"nodes":[
 {symbol 
 {symbol %p}
@@ -46401,10 +45804,3 @@ zone.cc
 |w64
 } -> tail call ->\n
 } start{
-~ H9x
-~ H9y
-~(H9y
-~0H9x
-~0H9y
-~8H9{
-~HH9y

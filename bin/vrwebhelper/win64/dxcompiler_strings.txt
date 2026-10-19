@@ -49,9 +49,7 @@
   error opening file for writing!
   resource: 
   special
- !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
  !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
- !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
  #define.\n
  #else/#elif.\n
  #endif.\n
@@ -100,14 +98,12 @@
  Arg[
  AssumeSafety
  Attrs: 
- B\kji2
  Base Class Array'
  Base Class Descriptor at (
  BestCase
  Block decls, 
  Buffer Definitions:\n
  ByRef
- C>TQ
  CFG blocks built.\n
  CXXConstructor decls, 
  CXXConversion decls, 
@@ -453,8 +449,6 @@
  [[wavesensitive]]
  [[wavesize(
  [shape=record,
- ]Acosh
- ]Asinh
  _Alignas(
  _Nonnull
  _Noreturn
@@ -1023,18 +1017,13 @@
 "aapcs"
 "aapcs-vfp"
 "can't happen" -- you found a bug
-"e?<<<<<<l?
-"jZ0G
 # Code generation passes\n-opt-mod-passes\n
 # Empty Buckets: %d\n
 # Identifiers:   %d\n
 # Per-function passes\n-opt-fn-passes\n
 # Per-module passes\n-opt-mod-passes\n
 # formal arguments must match # of arguments for function type!
-#4o>w
-#9fm
 #;/?:@&=+$,_.!~*'()[]
-#Ib?AG
 #__include_macros "
 #define 
 #elif after #else
@@ -1113,16 +1102,13 @@
 #pragma warning(pop)
 #pragma warning(push
 #pragma warning(push, level) requires a level between 0 and 4
-#pragma-messages\t#warnings
 #ptr
 #undef 
 #undefined
 #vref
 #warning is a language extension
-$@endptr
 $Element
 $Globals
-$Ib?s
 $Invalid
 $URL: https://llvm.org/svn/llvm-project/cfe/tags/RELEASE_370/final/lib/Basic/Version.cpp $
 $f16@
@@ -1139,6 +1125,7 @@ $min16ui@
 $ui8_4pk@
 %"type 
 %.0Lf
+%.2x
 %0 %1 component value must be between 1 and 65,535 (2^16-1) inclusive
 %0 '%1' is acquired exclusively and shared in the same scope
 %0 '%1' is not held on every path through here
@@ -1240,6 +1227,7 @@ $ui8_4pk@
 %0 has unknown type, which is not supported for this kind of declaration
 %0 has unknown type; cast it to its declared type to use it
 %0 has virtual functions but non-virtual destructor
+%0 in '%1'
 %0 in capture list does not name a variable
 %0 is a %select{struct|interface|union|class|enum}1 here
 %0 is a C11-specific feature
@@ -1341,10 +1329,10 @@ $ui8_4pk@
 %0: '%1' input unused in cpp mode
 %0: '%1' input unused%select{ when '%3' is present|}2
 %0: previously preprocessed input%select{ unused when '%2' is present|}1
-%0[local resource not guaranteed to map to unique global resource.
 %1 %0 is hidden by a non-type declaration of %0 here
 %1 is a %select{private|protected}0 member of %3
 %2 defined as %select{a struct|an interface|a class}0%select{| template}1 here but previously declared as %select{a struct|an interface|a class}3%select{| template}1
+%7.4f] 
 %9lld  
 %H:%M:%S%m/%d/%y%Y-%m-%d%I:%M:%S %p%H:%M%H:%M:%S
 %I:%M:%S %p
@@ -1355,7 +1343,6 @@ $ui8_4pk@
 %diff{$ and $ are not pointers to compatible types|pointers to incompatible types}0,1
 %diff{promoted type $ of K&R function parameter is not compatible with the parameter type $|promoted type of K&R function parameter is not compatible with parameter type}0,1 declared in a previous prototype
 %diff{return type $ must match previous return type $|return type must match previous return type}0,1 when %select{block literal|lambda expression}2 has unspecified explicit return type
-%ihD
 %plural{1:enumeration value %1 not explicitly handled in switch|2:enumeration values %1 and %2 not explicitly handled in switch|3:enumeration values %1, %2, and %3 not explicitly handled in switch|:%0 enumeration values not explicitly handled in switch: %1, %2, %3...}0
 %plural{1:enumeration value %1 not handled in switch|2:enumeration values %1 and %2 not handled in switch|3:enumeration values %1, %2, and %3 not handled in switch|:%0 enumeration values not handled in switch: %1, %2, %3...}0
 %q0 cannot be thread local when declared %q1
@@ -1366,7 +1353,9 @@ $ui8_4pk@
 %q0 must have external linkage when declared %q1
 %q0 redeclared inline; %1 attribute ignored
 %q0 redeclared without %1 attribute: previous %1 ignored
+%s%u
 %s%ux%u
+%s:%d:%d]
 %select{#line|GNU line marker}0 directive interprets number as decimal, not octal
 %select{#line|GNU line marker}0 directive requires a simple digit sequence
 %select{%1 is a virtual base class of base class %2 declared here|virtual base class %1 declared here}0
@@ -1560,8 +1549,6 @@ $ui8_4pk@
 %select{||reinterpret_cast||C-style cast|}0 from scalar %1 to vector %2 of different size
 %select{||reinterpret_cast||C-style cast|}0 from vector %1 to scalar %2 of different size
 %select{||reinterpret_cast||C-style cast|}0 from vector %1 to vector %2 of different size
-&?PPPPPPP?
-&Sgw
 &amp;
 &apos;
 &quot;
@@ -1889,6 +1876,7 @@ $ui8_4pk@
 '~' in destructor name should be after nested name specifier
 ("%s", %d, %d) = 
 ("%s", %d, %d) = invalid
+(%s:%d:%d)
 (%s:%d:%d) = %s
 (%s:%d:%d):%s%s
 ('%s', '...', %ld)
@@ -2037,23 +2025,18 @@ $ui8_4pk@
 (waveMatrixPtr,value)
 (waveMatrixPtr,waveMatProps)
 (width,offset,value,replacedValue)
-(yaX
 (zext 
 ) in CBuffer '
 ) in space 
 ) is not fully bound in root signature.\n
 ) then 
-)yIx
 *** IR Dump After 
 *** IR Dump Before 
 *** unknown regexp error code ***
 ***COULDNOTCOMPUTE***
-*StO9>T
-*Vc>L
 *no default*
 +++ %u completion results\n
 +++ %u translation units\n
-+i9O
 , "avg ms":
 , "name":"Total 
 , "ph":"X", "ts":
@@ -2085,8 +2068,6 @@ $ui8_4pk@
 , vertex outputs: 
 , which is invalid since RegisterSpace values in the range 
 ,AllowPreserves=
-,HR><y5
-,HR>O
 ,InlineThreshold=
 ,InsertLifetime=
 ,MaxIterationAttempt=
@@ -2099,16 +2080,16 @@ $ui8_4pk@
 ,space
 - Corruption of the global PassRegistry
 - Pass misconfiguration (e.g.: missing macros)
+-%%%%%%
+-%%%%%%.
 --- %u completion results\n
 --- %u translation units\n
 --------------------------------------------------\n
 --spartan
 -0.000000e+00
 -0123456789
--9D\t/9a
 ->isa
 -?:,[]{}#&*!|>'"%@`
--BH>t
 -E or -x required when input is from standard input
 -Gsize=7.5,10
 -Nfontname=Courier
@@ -2392,6 +2373,7 @@ $ui8_4pk@
 ..\..\third_party\libc++\src\include\__hash_table:355: assertion __node_ != nullptr failed: Attempted to dereference a non-dereferenceable unordered container const_iterator\n
 ..\..\third_party\libc++\src\include\__hash_table:360: assertion __node_ != nullptr failed: Attempted to dereference a non-dereferenceable unordered container const_iterator\n
 ..\..\third_party\libc++\src\include\__iterator\advance.h:70: assertion __n >= 0 || __has_bidirectional_iterator_category<_InputIter>::value failed: Attempt to advance(it, n) with negative n on a non-bidirectional iterator\n
+..\..\third_party\libc++\src\include\__memory\construct_at.h:40: assertion __location != nullptr failed: null pointer given to construct_at\n
 ..\..\third_party\libc++\src\include\__memory\construct_at.h:66: assertion __loc != nullptr failed: null pointer given to destroy_at\n
 ..\..\third_party\libc++\src\include\__string\char_traits.h:145: assertion !std::__is_pointer_in_range(__s1, __s1 + __n, __s2) failed: char_traits::copy: source and destination ranges overlap\n
 ..\..\third_party\libc++\src\include\__string\char_traits.h:222: assertion !std::__is_pointer_in_range(__s1, __s1 + __n, __s2) failed: char_traits::copy: source and destination ranges overlap\n
@@ -2426,6 +2408,7 @@ $ui8_4pk@
 ..\..\third_party\libc++\src\include\string:973: assertion __s != nullptr failed: basic_string(const char*) detected nullptr\n
 ..\..\third_party\libc++\src\include\string:990: assertion __n == 0 || __s != nullptr failed: basic_string(const char*, n) detected nullptr\n
 ..\..\third_party\libc++\src\include\string_view:268: assertion __s != nullptr failed: null pointer passed to non-null argument of char_traits<...>::length\n
+..\..\third_party\libc++\src\include\string_view:318: assertion __len <= static_cast<size_type>(numeric_limits<difference_type>::max()) failed: string_view::string_view(_CharT *, size_t): length does not fit in difference_type\n
 ..\..\third_party\libc++\src\include\string_view:320: assertion __len == 0 || __s != nullptr failed: string_view::string_view(_CharT *, size_t): received nullptr\n
 ..\..\third_party\libc++\src\include\string_view:330: assertion (__end - __begin) >= 0 failed: std::string_view::string_view(iterator, sentinel) received invalid range\n
 ..\..\third_party\libc++\src\include\vector:1411: assertion __n < size() failed: vector[] index out of bounds\n
@@ -2440,7 +2423,6 @@ $ui8_4pk@
 ..\..\third_party\libc++\src\src\mutex.cpp:54: assertion e == 0 failed: call to ~recursive_mutex() failed\n
 ..\..\third_party\libc++\src\src\mutex.cpp:67: assertion e == 0 failed: call to recursive_mutex::unlock() failed. A possible reason is that the mutex wasn't locked\n
 .1dim
-.>\rfJBGo
 .?AU?$__num_get@D@__Cr@std@@
 .?AU?$__num_get@_W@__Cr@std@@
 .?AU?$__num_put@D@__Cr@std@@
@@ -2721,7 +2703,6 @@ $ui8_4pk@
 .us-lcssa
 .val
 .wide
-.xJ>Hf
 .xdata
 /* DISABLES CODE */ (
 /* empty struct */\n
@@ -2736,8 +2717,6 @@ $ui8_4pk@
 //entry point not found\n
 //found 
 //no unused globals found - no work to be done\n
-/2GG>!B
-/@Unsupported RangeType value 
 /Gec flag is a deprecated functionality.
 /Gec is not supported with HLSLVersion 
 /Zss requires debug info (/Zi or /Zs)
@@ -2754,9 +2733,6 @@ $ui8_4pk@
 0123456789abcdef
 0123456789abcdefABCDEFxX+-pPiInN
 0123456789abcdefUb
-0E>X
-0X8b?~
-0iN>/
 1#IND
 1#INF
 1#QNAN
@@ -2772,8 +2748,6 @@ $ui8_4pk@
 1.92592994438723585305597794258492732e-34
 1002
 10objc_class
-11UT
-11Y@
 11objc_object
 11ocl_image1d
 11ocl_image2d
@@ -2794,33 +2768,20 @@ $ui8_4pk@
 2018
 2021
 2405
-2\n0\tP
-2\n0p=
-2\vp(K
-2\vpp=
 2dMS
 2darray
 2darrayMS
-3 FB
-3+5<t
 3.36210314311209350626267781732175260e-4932
 3.36210314311209350626e-4932
 3.40282347e+38
 3.64519953188247460253e-4951
-333333
 3412
-37>k
-3>N;kU
-3>fvw
-3?tr
 3eut
 4.94065645841246544176568792868221e-324
 4.9406564584124654e-324
 4321
 4\tgA
-51>W
 5TEJ
-5m8>8=t
 6.47517511943802511092443895822764655e-4966
 64 UAV slots
 64-Bit integer
@@ -2828,30 +2789,9 @@ $ui8_4pk@
 64-bit Atomics on Heap Resources
 64-bit Atomics on Typed Resources
 64-bit atomic operations
-6NK>
 6S-M
-6\fXO>
-6\fXO>\ntA
-7#\n`9xE
-7>I0
-7?GX
 7E-M
-7h>?8
-7xicuU
-7yp>
-7~xh
 8.1-A
-82Pa8
-8B0j\t
-8Csinf
-8J;@ts
-8ke?;
-99jd9
-9>70
-9>expf
-9Z=K7
-9a>d
-9g>@3
 9ocl_event
 : CommandLine Error: Option '
 : Function profile not used
@@ -2874,7 +2814,6 @@ $ui8_4pk@
 ; shader debug name present; corruption detected\n
 ; shader debug name: 
 ; shader hash: 
-;1cb
 ;BIb?
 </M group>
 </integer>
@@ -2888,7 +2827,6 @@ $ui8_4pk@
 <<Unknown>>
 <<unknown expr type>>
 <<work-group-local>>
-<?WUUUUU
 <ARC unbridged cast type>
 <CompileOnly group>
 <Function Return>
@@ -2903,8 +2841,6 @@ $ui8_4pk@
 <W (with value) group>
 <W group>
 <X>() argument of incompatible type!\n
-<acos
-<acosf
 <action group>
 <anonymous>
 <arg>
@@ -3031,64 +2967,28 @@ $ui8_4pk@
 <unknown type>
 <unknown>
 <unknown> parser at unknown location\n
+<unknown>:
 <unnamed>
 <using-directive>
 <warning>
 <yes|no|target>
-=1cb
-=87M
 =============================--------------------------------\n
-=cQ6
-=e2m
-=imb;D
 > calls 
->0Av
->cQ6
->jtm}S
-?!5WOo
 ?$TSS
-?1cb
-?3Fx
-?49HoKC
-?7zQ6$
-?7{KV\nU
-?8UUUUU
-?8bunz8
 ?: operator with omitted middle operand cannot be mangled
-?<unknown>:
-??0?$RayQuery@$
 ??? ??? ?? ??:??:?? ????\n
 ??_7type_info@@6B@
-?@En[vP
-?Fail to lower matrix load/store.
-?JV8f
-?Ji@9
 ?N]TUUU
-?PIX_ConstantColorCB_Type
-?R0I?
 ?UUUUUU
-?WUUUUU
-?\rz0w
-?\vxMW
-?asin
-?asinf
-?f`Y4
 ?filt$
 ?fin$
 ?float
 ?half
 ?i16
 ?i32
-?id7
-?kxG2)
-?lZE
-?qBJ
-?rAj
-?ysB
 @%0 must be followed by a number to form an NSNumber object
 @4IA
 @@3U__s_GUID@@B
-@^8U)zj
 @autoreleasepool
 @catch (...) { /* todo */ } \n
 @catch parameter cannot have storage specifier '%0'
@@ -3113,7 +3013,6 @@ $ui8_4pk@
 @interface 
 @macro@
 @optional\n
-@pn>6
 @private
 @property
 @protected
@@ -3141,7 +3040,6 @@ A text line is less indented than the block scalar
 A value of coveragemap_error has no message.
 A value of instrprof_error has no message.
 A value of sampleprof_error has no message.
-A>pP&
 ABCDEFGHIJKLMNOPQRSTUVWXYZ
 ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz
 ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789
@@ -3151,7 +3049,6 @@ ABI alignment specification must be >0 for non-aggregate types
 ABORT
 ADVAPI32.dll
 AD_Partial diags should not be delayed
-AK>(v
 ALLOW_INPUT_ASSEMBLER_INPUT_LAYOUT
 ALLOW_STREAM_OUTPUT
 ALL_MEMORY
@@ -3188,7 +3085,6 @@ ASTContext: selectors
 ASTContext: side tables
 ASThreadId
 AUUUUUU
-A`1w>
 Abbrev record with no operands
 Abbreviation starts with an Array or a Blob
 Abort
@@ -3327,7 +3223,6 @@ Apply modifications and produces temporary files that conform to ARC
 Apply modifications and produces temporary files to migrate to modern ObjC syntax
 Apply modifications to files to conform to ARC
 April
-ArF&
 ArcWeakrefUnavailable
 AreFileApisANSI
 Arg list too long
@@ -3420,14 +3315,9 @@ Avoid FPU mode dependent operations when used with the O32 ABI
 Avoid flow control constructs
 B of Sloc address space used.\n
 B total
-B,fK
 BARRIER_SEMANTIC_FLAG
 BARYCEN
 BB_null
-BC1%M
-BC?>6t9^\tc:>
-BF>^G
-BOAs
 BOCU-1
 Backend
 Backend Issue
@@ -3534,7 +3424,6 @@ C++11 only allows consecutive left square brackets when introducing an attribute
 C++98 requires an accessible copy constructor for class %2 when binding a reference to a temporary; was %select{private|protected}0
 C++98 requires newline at end of file
 C11NoReturn
-C5R?\t
 C99 forbids casting nonscalar type %0 to the same type
 C99 forbids conditional expressions with only one void side
 C:\buildworker\cef_win64\build\root\chromium\src\out\Release_GN_x64\dxcompiler.dll.pdb
@@ -3558,11 +3447,9 @@ CFL-Based AA implementation
 CFReturnsNotRetained
 CFReturnsRetained
 CFString literal is not a string constant
-CFString-literal
 CFUnknownTransfer
 CGSCCPass-Function
 CL.EXE COMPATIBILITY OPTIONS
-CL:>8
 CLASSPATH
 CLASSPATH=
 CLIPDST
@@ -3598,7 +3485,6 @@ CUDALaunchBounds
 CUDAShared
 CULLDST
 CULLPRIM
-CWD>~3
 CXX11NoReturn
 CXXAccessSpecifier
 CXXBindTemporaryExpr
@@ -3637,7 +3523,6 @@ CXXTryStmt
 CXXTypeidExpr
 CXXUnresolvedConstructExpr
 CXXUuidofExpr
-C\rH\rM\rR\rU\rW\rX\r]\rr\rs\rw\rx\ry\rz\r{\r|\r
 Cache global code completions for 
 CalculateLOD
 CalculateLevelOfDetail
@@ -3747,7 +3632,6 @@ Casting to type that is not first-class
 CatName
 Catch operand does not have pointer type!
 Cbuffer access out of bound.
-Ccoshf
 Change diagnostic formatting to match IDE and command line tools
 Char is unsigned
 CharacterLiteral
@@ -3913,10 +3797,8 @@ CreateNodeInputRecordHandle
 CreateNodeOutputHandle
 CreateSymbolicLinkW
 CreateThread
-Csinhf
 CurrentRayT
 CutStream
-Cy2@K>
 Cycle found in TBAA metadata.
 Cycle in acquired_before/after dependencies, starting with '%0'
 CycleCounterLegacy
@@ -4571,20 +4453,14 @@ DxilConvergentMark
 Dynamic
 DynamicallyBoundResources=
 DynamicallyIndexedBindPoints=
-E>nEA
 EPSILON__
-ET5>
 EXTRACTVAL: Invalid array index
 EXTRACTVAL: Invalid instruction with 0 indices
 EXTRACTVAL: Invalid struct index
 EXTRACTVAL: Invalid type
-E[\rn?gc
 E_packed_decimalDW_ATE_packed_deE_numeric_stringDW_ATE_numeric_s_imaginary_floatDW_ATE_imaginaryATE_signed_fixedDW_ATE_signed_fiE_unsigned_fixedDW_ATE_decimal_fITY_pure_virtualDW_VIRTUALITY_puRTUALITY_virtualDW_VIRTUALITY_viDW_VIRTUALITY_none
 Eagerly assume the truth/falseness of some symbolic constraints
 Early CSE
-EiU>
-EiUL
-Einput.hlsl
 Elaborated
 Elaborated type keyword is not a tag type kind.
 ElementOffset
@@ -4836,11 +4712,8 @@ ExternalASTSource: mmap'ed memory buffers
 Extra argument '%0' not allowed for shader function '%1'.
 Extract root signature from shader bytecode (must be used with /Fo <file>)
 ExtractValue should only be used on dxil struct types and cmpxchg.
-F..\..\third_party\libc++\src\include\__memory\construct_at.h:40: assertion __location != nullptr failed: null pointer given to construct_at\n
-F>qUxv
 FAbs
 FC*cC*
-FEMh\f
 FFACE
 FILTER_ANISOTROPIC
 FILTER_COMPARISON_ANISOTROPIC
@@ -4905,6 +4778,7 @@ FPToUI source must be FP or FP vector
 FPTrunc only operates on FP
 FPTrunc only produces an FP
 Fail to lower createHandle.
+Fail to lower matrix load/store.
 Fail to map resource to resource table.
 Failed to allocate all input signature elements in available space.
 Failed to allocate all output signature elements in available space.
@@ -4921,7 +4795,6 @@ Feature Info
 February
 FeedbackTexture2D
 FeedbackTexture2DArray
-FfW?
 Field
 FieldDecl
 File 
@@ -5079,7 +4952,6 @@ FunctionTemplate
 FunctionToPointerDecay
 Functions cannot return aggregate values!
 Functions may not have common linkage
-G>US
 GB-18030
 GCC does not allow %0 attribute in this position on a function definition
 GCC does not allow an attribute in this position on a function declaration
@@ -5215,7 +5087,6 @@ GetUserDefaultLCID
 GetUserDefaultLocaleName
 Getter
 Getter&Setter
-GfZ+?p
 Gfa option cannot be used in SM_5_1+ unless all_resources_bound flag is specified
 Give global types 'default' visibility and global functions and variables 'hidden' visibility by default
 Give inline C++ member functions default visibility by default
@@ -5229,7 +5100,6 @@ Got CXCursor_NoDeclFound
 Got empty alias or anchor
 Got empty plain scalar
 GotoStmt
-GrJoq>@
 Gradient operations are not affected by wave-sensitive data or control flow.
 Graphviz
 Group 
@@ -5247,7 +5117,6 @@ Grouped accesses:\n
 GuardedBy
 GuardedVar
 Guarded_by declared here.
-H>r1
 HAS_DENORM__
 HAS_INFINITY__
 HAS_QUIET_NAN__
@@ -5423,7 +5292,6 @@ Hull Shader declared with IsoLine Domain must specify output primitive point or 
 Hull Shader declared with Tri Domain must specify output primitive point, triangle_cw or triangle_ccw. Line output is not compatible with the Tri domain.
 HullShader
 I8 can only be used as immediate value for intrinsic or as i8* via bitcast by lifetime intrinsics.
-I;u>A
 IBAction
 IBOutlet
 IBOutletCollection
@@ -5471,7 +5339,6 @@ Ignore the semantic define passed as a value to this flag.
 Ignore unexpected diagnostic messages
 IgnoreHit
 Ignoring unsupported '%0' in the target attribute string
-Il?333333c?
 Illegal ICmp code!
 Illegal byte sequence
 Illegal cast to X86_MMX
@@ -5518,7 +5385,6 @@ Incorrect register type '%s' in Sampler/StaticSampler (expected s#)
 Incorrect register type '%s' in UAV (expected u#)
 IncrementCounter
 IncrementOutputCount
-IndependentClass-attribute
 Index
 Index for resource array inside cbuffer must be a literal expression
 Index out of bound when extract value from dxil struct types.
@@ -5856,8 +5722,6 @@ It should have at least one range!
 IterationAttemptMaxIterationAttelarLoadThresholdScalarLoadThreshFirstInstructionmergefunc-sanityrewrite-map-fileElementThresholdArrayElementThretMemberThresholdStructMemberThrexits
 JanFebMarAprMayJunJulAugSepOctNovDec
 January
-Ju"r
-Ju"rh
 July
 Jump Threading
 June
@@ -5866,9 +5730,6 @@ K&R type lists aren't allowed in C++
 KERNEL32.dll
 Keep name when appending binding
 Keep reflection data in shader bytecode
-L-n>4
-L>ev
-L?UUUUUUU?
 LANG_C_plus_plusDW_LANG_Fortran77
 LCIDToLocaleName
 LCMapStringEx
@@ -5885,7 +5746,6 @@ LIBCLANG_RESOURCE_USAGE
 LIBCLANG_TIMING
 LINEDEN
 LINEDET
-LLD PDB.
 LLLiLLLiD*LLLi.
 LLLiLLLiD*LLLiLLLi.
 LLVM ERROR: 
@@ -5906,8 +5766,6 @@ LRKZl4=8
 LValueBitCast
 LValueReference
 LValueToRValue
-LWG>
-LWW>
 L__FUNCTION__
 Label
 LabelRef
@@ -6014,7 +5872,6 @@ Lower bitset metadata
 Lower bound for a buffer to be considered for stack protection
 Lower resource into handle
 Lower static global into Alloca
-M'y>0y
 MANT_DIG__
 MAX_10_EXP__
 MAX_EXP__
@@ -6128,8 +5985,6 @@ Metadata id is already used
 Metadata must be well-formed in operand count and types.
 Metadata value must be within range.
 Microsoft ABI is not Itanium-based
-Microsoft C/C++ 
-Microsoft C/C++ MSF 7.00\r\n
 Microsoft compiler version number to report in _MSC_VER (0 = don't define it (default))
 Migrate source code
 MinMip
@@ -6177,16 +6032,12 @@ MultiplyAccumulate
 Must disable validation for unsupported lib_6_1 or lib_6_2 targets.
 Must enable debug info with /Zi for /Qembed_debug
 Mutate resource to handle
-N3`d?
-N>O=I9
-N>VF
 NAN(IND)
 NAN(SNAN)
 NODE_INPUT_MEMORY
 NODE_INPUT_MEMORY or NODE_OUTPUT_MEMORY may only be specified for Barrier operation in a node shader
 NODE_OUTPUT_MEMORY
 NONE
-NQ?s
 NSArray must be available to use Objective-C array literals
 NSConstantString
 NSConsumed
@@ -6201,7 +6052,6 @@ NSLogv
 NSMutableString
 NSNumber must be available to use Objective-C literals
 NSObject
-NSObject-attribute
 NSReturnsAutoreleased
 NSReturnsNotRetained
 NSReturnsRetained
@@ -6369,7 +6219,6 @@ ORedForUAVStart
 OS X
 OS X (App Extension)
 OVERLOAD: 
-OZQ%
 ObjC
 ObjC migration
 ObjC++
@@ -6463,7 +6312,6 @@ OffsetByteIndex
 OffsetOfExpr
 Offsets to texture access operations must be between -8 and 7. 
 Offsets to texture access operations must be immediate values. 
-OfiD
 Old-style alloca with a non-pointer type
 Omit frame pointer setup for leaf functions
 Only DeclRefExprs or MemberExprs should be added for potential captures
@@ -6604,6 +6452,7 @@ PIXOffsetOr
 PIXUAV
 PIX_AS2MS_Expanded_Type
 PIX_ConstantColorCBName
+PIX_ConstantColorCB_Type
 PIX_Constant_Color_CB_Handle
 PIX_Constant_Color_Value
 PIX_Constant_Color_Value0
@@ -6800,8 +6649,6 @@ PtrToInt type mismatch
 Pure
 Put each data item in its own section
 Put each function in its own section
-Q5rHg,>
-QAf?
 QIfist
 QUADEDGE
 QUADINT
@@ -6867,7 +6714,6 @@ REG_ESPACE
 REG_ESUBREG
 REG_INVARG
 REG_NOMATCH
-RSDSUX
 RTAccelerationStructure
 RTINDEX
 RValueReference
@@ -6890,10 +6736,6 @@ RWTexture3D
 RWTextureCube
 RWTextureCubeArray
 RWThreadNodeInputRecord
-R\fpp=
-R\n0\tP
-R\n0\tp
-R\vpp=
 Race condition writing to shared memory detected, consider making this write conditional.
 RaiseException
 Range must not be empty!
@@ -7116,8 +6958,6 @@ Running 'xdot.py' program...
 Running pass '
 Runtime
 Runtime Data (RDAT)
-S9>H
-S>$hkDh$h>[2
 SAMPLE
 SAMPLER
 SAMPLER_FEEDBACK_MIN_MIP
@@ -7496,7 +7336,6 @@ Synthesize retain and release calls for Objective-C pointers
 Synthetic enumerators which should never get here
 SysVABI
 System value %0 appears more than once in the same signature.
-T9K<
 TARGET
 TBuffer
 TDK_success while diagnosing bad deduction
@@ -7707,7 +7546,6 @@ TypoExpr
 U13block_pointer
 U7_Atomic
 U8__kindof
-UA>N0Wl
 UAV write mask must be contiguous, starting at x: .x, .xy, .xyz, or .xyzw.
 UAVIncResult
 UAVIncResult2
@@ -7744,7 +7582,6 @@ UTF-32 (BE)
 UTF-32 (LE)
 UTF-7
 UTF-EBCDIC
-UUUU
 UUUUU
 UUUUUU
 Ua9enable_ifI
@@ -8007,6 +7844,7 @@ Unsortable locations found
 Unsupported ABI
 Unsupported CC for mangling
 Unsupported ParameterType value 
+Unsupported RangeType value 
 Unsupported ShaderVisibility value 
 Unsupported access specifier
 Unsupported architecture '%0' for MS-style inline assembly
@@ -8201,10 +8039,7 @@ VirtualQuery
 Visibility
 Volatile loads and stores have acquire and release semantics
 Volatile loads and stores have standard semantics
-W 7x
-WaNd?
 WaitForSingleObject
-Wak>E
 WakeAllConditionVariable
 Wall
 Warn if a function definition returns or accepts an object larger in bytes than a given value
@@ -8354,10 +8189,7 @@ Writing '
 Wrong token kind
 Wrong types for attribute: 
 Wwrite-strings
-X 843"8
-X/4B
 X86ForceAlignArgPointer
-X>0S
 X?fff?
 XIndex
 XLdGH.
@@ -8374,9 +8206,6 @@ XfXf
 XfXfXf
 Xlinker
 Xpreprocessor
-Y8a:
-Y>kX>
-Y>kX>M
 Y@Ungrouped TimersMiscellaneous Un----------------Error opening info-output-file '
 YAML
 YAXXZ
@@ -8388,11 +8217,8 @@ You can't GV->destroyConstantImpl()!
 Z-Xlinker-no-demangle
 Z-reserved-lib-cckext
 Z-reserved-lib-stdc++
-Z>w_F
 ZExt only operates on integer
 ZExt only produces an integer
-ZSq>
-Z\>z8
 Zc:auto
 Zc:forScope
 Zc:inline
@@ -8412,8 +8238,6 @@ Zlinker-input
 [%s:%d:%d - 
 [(default) 
 [(default) template 
-[*ncd>0
-[*ncd>TQ
 [AllowSparseNodes]\n
 [MaxRecords(
 [MaxRecordsSharedWith("
@@ -8430,7 +8254,6 @@ Zlinker-input
 [NodeTrackRWInputSharing]\n
 [RootSignature("
 [UnboundedSparseNodes]\n
-[aOni*{
 [allow_uav_condition]\n
 [branch]\n
 [call]\n
@@ -8498,33 +8321,17 @@ Zlinker-input
 \nSTATISTICS:\n
 \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r<<<MISSING SOURCE FILE>>>\n
 \ngraph: 
-\nh?oT
-\nk>oB
 \r\fInvalid Cast Combination
-\t9sv
-\tJR>8o
 \tNode
 \t\tExits: 
-\t\t\t\t\n\n\n\n\n\n\n\n\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r
-\t\t\t\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r
-\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t
-\tcQr
-\tkE>fvw
 \tlabel="
-\vA03>A|
-\veBV
 ] are reserved for system use.\n
 ] descriptor table entry [
 ] specifies RegisterSpace=
 ], root parameter [
 ], stack top [
-]u9g
-]xEc
 ^([0-9]+)\.?([0-9]+)?: ([0-9]+)(.*)$
 ^([^0-9].*):([0-9]+):([0-9]+)$
-^<V7w
-^RfN>
-^axb
 _Alignas
 _Alignof
 _Atomic
@@ -9592,11 +9399,9 @@ _except_handler3y_v0
 _exception_code
 _exception_info
 _exit
-_f>PH
 _fastcall
 _legacy
 _longjmp
-_oD>Kg
 _pascal
 _purecall
 _returns_retaine_sanitize_addresbjc_method_familboutletcollectiosert_shared_lockno_sanitize_thread
@@ -9672,7 +9477,6 @@ a type named %0 is hidden by a declaration in a different namespace
 a typedef cannot be a template
 a variable cannot appear in more than one aligned clause
 a vector in out indices array must be accessed as a whole
-a6>r
 aapcs
 aapcs-vfp
 aarch64
@@ -9681,11 +9485,8 @@ abcdefghijklmnopqrstuvwxyz
 abort
 abscond
 absolute value function %0 given an argument of type %1 but has parameter of type %2 which may cause truncation of value
-absolute-value
 abstract
 abstract class is marked '%select{final|sealed}0'
-abstract-final-class
-abstract-vbase-init
 acceptHitAndEndSearch
 access
 access declaration
@@ -9756,8 +9557,6 @@ address space cast is illegal in DxilCounters.
 address space is larger than the maximum supported (%0)
 address space is negative
 address taken in non-type template argument for template parameter of reference type %0
-address-of-array-temporary
-address-of-temporary
 addressU
 addressV
 addressW
@@ -9772,7 +9571,6 @@ agg.tmp
 agg.tmp.ensured
 aggregate binary expression
 aggregate expression
-aggregate-return
 alert
 alias
 alias 
@@ -9837,7 +9635,6 @@ altivec.h
 always-inline
 always_inline
 alwaysinline
-ambig-lit-shift
 ambiguous cast from base %0 to derived %1:%2
 ambiguous constructor call when %select{copying variable|copying parameter|returning object|throwing object|copying member subobject|copying array element|allocating object|copying temporary|initializing base subobject|initializing vector element|capturing value}0 of type %1
 ambiguous conversion for %select{|static_cast|reinterpret_cast|dynamic_cast|C-style cast|functional-style cast}0 from %1 to %2
@@ -9851,9 +9648,6 @@ ambiguous expansion of macro %0
 ambiguous partial specializations of %0
 ambiguous type for bit shift; use a type suffix on literal values, like 'L' or 'U', or a cast
 ambiguous vftable component for %0 introduced via covariant thunks; this is an inherent limitation of the ABI
-ambiguous-ellipsis
-ambiguous-macro
-ambiguous-member-template
 amdgpu
 amdgpu_num_sgpr
 amdgpu_num_vgpr
@@ -9890,7 +9684,6 @@ analyzer-disable-checker=
 analyzer-disable-retry-exhausted
 analyzer-display-progress
 analyzer-eagerly-assume
-analyzer-incompatible-plugin
 analyzer-inline-max-stack-depth
 analyzer-inline-max-stack-depth=
 analyzer-inlining-mode
@@ -9968,7 +9761,6 @@ anonymous types declared in an anonymous %select{struct|union}0 are an extension
 anonymous union at class scope must not have a storage specifier
 anonymous unions are a C11 extension
 anonymous unions at namespace or global scope must be declared 'static'
-anonymous-pack-parens
 ansi
 anti
 any pointer
@@ -9979,13 +9771,6 @@ append
 appending 
 application of '%select{alignof|sizeof}1' to interface %0 is not supported on this architecture and platform
 arange_sections
-arc%arc-bridge-casts-disallowed-in-nonarc
-arc-maybe-repeated-use-of-weak
-arc-non-pod-memaccess
-arc-performSelector-leaks
-arc-repeated-use-of-weak
-arc-retain-cycles
-arc-unsafe-retained-assign\farray-bounds
 arch
 arch:
 arch_errors_fatal
@@ -10104,7 +9889,6 @@ array subscript is not an integer
 array subscript is of type 'char'
 array type %0 is not assignable
 array types cannot be value-initialized
-array-bounds-pointer-arithmetic
 array.atend
 array.begin
 array.cur
@@ -10162,7 +9946,6 @@ asm
 asm constraint has an unexpected number of alternatives: %0 vs %1
 asm label
 asm operand has incomplete type %0
-asm-operand-widths\vassign-enum
 assemble
 assert
 assert=
@@ -10179,7 +9962,6 @@ assigning to 'readonly' return result of an Objective-C message not allowed
 assignment of a weak-unavailable object to a __weak object
 assignment to Objective-C's isa is deprecated in favor of object_setClass()
 assignment to cast is illegal, lvalue casts are not supported
-assume\vat-protocol
 assume_aligned
 assume_safety
 assumption-cache-tracker
@@ -10226,8 +10008,6 @@ atomic store must have explicit non-zero alignment
 atomic store operand must be power-of-two byte-sized integer
 atomic store operand must have integer type!
 atomic-load
-atomic-memory-ordering
-atomic-properties*atomic-property-with-user-defined-accessor
 atomic-temp
 atomic-to-nonatomic.temp
 atomicBinOp
@@ -10311,8 +10091,6 @@ attribute(override)
 attribute(packed)
 attribute(pure)
 attribute(shared)
-attribute-statement
-attribute-type\nattributes
 attributeAtVertex
 attribute_availability_app_extension
 attribute_availability_with_message
@@ -10338,8 +10116,6 @@ auto property synthesis will not synthesize property %0 because it is 'readwrite
 auto property synthesis will not synthesize property %0 declared in protocol %1
 auto property synthesis will not synthesize property %0; it will be implemented by its superclass, use @dynamic to acknowledge intention
 auto-binding-space
-auto-disable-vptr-sanitizer\vauto-import
-auto-storage-class\vauto-var-id\favailability
 automatic variable qualified with an address space
 autorelease
 autoreleasing
@@ -10368,10 +10144,8 @@ bUiCUiCUi*
 backedge-taken count is 
 backend data layout '%0' does not match expected target description '%1'
 backend-option
-backend-plugin
 backslash
 backslash and newline separated by space
-backslash-newline-escape
 backspace
 bad ABI kind
 bad allocation
@@ -10397,8 +10171,6 @@ bad type for named register variable
 bad type kind!
 bad visibility computation kind
 bad visibility kind
-bad-array-new-length
-bad-function-cast
 bad_alloc
 barrier
 barrierByMemoryHandle
@@ -10467,7 +10239,6 @@ binary integer literals are a GNU extension
 binary integer literals are incompatible with C++ standards before C++14
 binaryWithCarryOrBorrow
 binaryWithTwoOuts
-bind-to-temporary-copy
 bind_at_load
 binding
 binding reference %select{|subobject of }1member %0 to a temporary value
@@ -10491,7 +10262,6 @@ bitcastI32toF32
 bitcastI64toF64
 bitfield
 bitfield member cannot have an in-class initializer
-bitfield-constant-conversion
 bitfields are not allowed with HLSL annotations
 bitfields are not supported in HLSL
 bitfields are not supported in OpenCL
@@ -10501,7 +10271,6 @@ bits
 bits_use
 bitwidth for integer type out of range!
 bitwise comparison always evaluates to %select{false|true}0
-bitwise-op-parentheses
 bjcClassCompleteDIFlagObjcClassCBlockByrefStructDIFlagBlockByrefDIFlagAppleBlockDIFlagArtificialDIFlagPrototypedDIFlagStaticMember
 bjc_precise_lifelock
 blank
@@ -10538,8 +10307,6 @@ bogus token kind
 bonus-inst-threse-licm-promotiondisable-licm-proe-scoped-noaliasenable-scoped-noteger-bw
 bonus-inst-threshold
 bool
-bool-conversion
-bool-conversions
 bootclasspath
 bootclasspath=
 borderColor
@@ -10548,7 +10315,6 @@ both values to select must have same type
 bound after an unbounded range (descriptor 
 bound0
 bound1
-braced-scalar-init\vbridge-cast
 braces around scalar initializer
 braces not balanced
 bracket nesting level exceeded maximum of %0
@@ -10585,9 +10351,6 @@ builtin function
 builtin functions are handled elsewhere
 builtin functions must be directly called
 builtin warning check macro requires a parenthesized string
-builtin-macro-redefined
-builtin-memcpy-chk-size
-builtin-requires-header\nc++-compat\fc++0x-compat
 builtin_unreachable
 bundle
 bundle_loader
@@ -10618,31 +10381,12 @@ c*cC*cC*
 c*cC*i
 c*cC*z
 c++-compat
-c++0x-extensions
-c++0x-narrowing\fc++11-compat(c++11-compat-deprecated-writable-strings
 c++11-compat
-c++11-compat-pedantic*c++11-compat-reserved-user-defined-literal
 c++11-extensions
-c++11-extra-semi
-c++11-long-long
-c++11-narrowing\fc++14-compat
-c++14-compat-pedantic
-c++14-extensions
 c++1y-extensions
-c++1z-extensions
-c++98-c++11-c++14-compat!c++98-c++11-c++14-compat-pedantic
-c++98-c++11-compat
-c++98-c++11-compat-pedantic\fc++98-compat#c++98-compat-bind-to-temporary-copy%c++98-compat-local-type-template-args
 c++98-compat
 c++98-compat-pedantic
-c++98-compat-pedantic'c++98-compat-unnamed-type-template-args
 c-isystem
-c11-extensions\nc99-compat
-c99-extensions\ncast-align
-c>F2
-c>v\tk
-c?FA@s}
-cB/{x
 c_generic_selectversions
 c_personality_v0__objc_personalisum
 cabs
@@ -10994,7 +10738,6 @@ cast to %1 from smaller integer type %0
 cast to incomplete type %0
 cast to union type from type %0 not present in union
 cast to union type is a GNU extension
-cast-of-sel-type\tcast-qual\nchar-align
 cast.nonnull
 cast.result
 castToVec4
@@ -11074,7 +10817,6 @@ change the argument to be the free space in the destination buffer minus the ter
 change this ',' to a ';' to call %0
 char
 char type should fit into long long
-char-subscripts\rclass-varargs\rcomma-in-init
 char16_t
 char32_t
 char_constant
@@ -11161,7 +10903,7 @@ class template partial specialization %0 cannot be redeclared
 class with specified objc_requires_property_definitions attribute is declared here
 class.
 class.PointStreaclass.LineStreamream
-class.TriangleSt@
+class.TriangleSt
 class.matrix.
 classdesign
 classpath
@@ -11275,7 +11017,6 @@ common
 compare
 compare operands must have the same type
 compare value and pointer type do not match
-compare-distinct-pointer-types
 compareValue
 comparing floating point with == or != is unsafe
 comparison between NULL and non-pointer %select{(%1 and NULL)|(NULL and %1)}0
@@ -11310,7 +11051,6 @@ complex initialization specifying real and imaginary components is an extension
 complex integer types are a GNU extension
 complex numbers are an extension in a freestanding C99 implementation
 complex va_arg expression
-complex-component-init
 complex.h
 compound literal
 compound literals are a C99-specific feature
@@ -11338,8 +11078,6 @@ conditional operator only supports condition with scalar, vector, or matrix type
 conditional operator only supports results with numeric scalar, vector, or matrix types.
 conditional operator result component types mismatch.
 conditional operator result dimensions mismatch.
-conditional-type-mismatch
-conditional-uninitialized\rconfig-macros
 config
 configMacros
 configuration macros are only allowed in top-level modules
@@ -11386,7 +11124,6 @@ consider using vld1q_%0%1() to initialize a vector from memory, or vcombine_%0%1
 consistent 
 const
 const &
-const-expr-overflow
 const-qualified variable cannot be %0
 const_cast
 const_seg
@@ -11400,9 +11137,7 @@ constant vector must not be empty
 constant-alpha
 constant-blue
 constant-cfstrings
-constant-conversion
 constant-green
-constant-logical-operand
 constant-red
 constant_id
 constexpr
@@ -11424,7 +11159,6 @@ constexpr union constructor does not initialize any member
 constexpr variable %0 must be initialized by a constant expression
 constexpr variable cannot have non-literal type %0
 constexpr variable declaration must be a definition
-constexpr-not-const
 constmerge
 constrained by %select{|implicitly }1%select{private|protected}0 inheritance here
 constraint '%0' expects an integer constant expression
@@ -11447,7 +11181,6 @@ consumable_set_state_on_read
 consume
 consumed
 consumed analysis attribute is attached to member of class '%0' which isn't marked as consumable
-consumed\nconversion
 consumer
 container access result unused - container access should not be used for side effects
 containingType
@@ -11491,7 +11224,6 @@ conversion not found in set!
 conversion to %select{integral|enumeration}0 type %1
 conversion to %select{integral|enumeration}0 type %1 declared here
 conversion to pointer type %0
-conversion-null
 converting delete expression from type %0 to type %1 invokes an explicit conversion function
 coord uninitialized.
 copy
@@ -11534,7 +11266,6 @@ coverage-file
 coverage-file=
 coverage-no-function-names-in-data
 coverage-version=
-covered-switch-default
 cpow
 cpowf
 cpowl
@@ -11581,7 +11312,6 @@ csqrtf
 csqrtl
 cstdlib
 cstr
-cstring-format-directive
 ctan
 ctanf
 ctanh
@@ -11589,7 +11319,6 @@ ctanhf
 ctanhl
 ctanl
 ctermid
-ctor-dtor-privacy\vcuda-compat
 cttz
 cube
 cubearray
@@ -11603,7 +11332,6 @@ current file is older than dependency %0
 current_version
 cursor is not referencing a declaration
 custom offset mis-aligned.
-custom-atomic-properties\rdangling-else
 cutStream
 cxx-isystem
 cxx_decltype_incomplete_return_types
@@ -11617,14 +11345,8 @@ cycles detected in value remapping
 cyclic dependency in module '%0': %1
 cygnus
 d2Zi+
-d8-t
-d8L2
-d?000000`?
-dRL>
 da analyze - 
 da analyze - split level = 
-dangling-field
-dangling-initializer-list\tdate-time
 darwin
 data
 data argument not used by format string
@@ -11644,14 +11366,11 @@ ddx_coarse
 ddx_fine
 ddy_coarse
 ddy_fine
-deM6\fD
 dead_strip
 deadargelim
 deadarghaX0r
 dealloc return type must be correctly specified as 'void' under ARC, instead of %0
-dealloc-in-category
 debug
-debug-compression-unavailable
 debug-nops
 debug=
 decayed type locs not expected here!
@@ -11685,7 +11404,6 @@ declaration requires a global destructor
 declaration requires an exit-time destructor
 declaration shadows a %select{local variable|variable in %2|static data member of %2|field of %2}1
 declaration specifier missing, defaulting to 'int'
-declaration-after-statement
 declarations
 declarator requires an identifier
 declare
@@ -11771,13 +11489,10 @@ degrees
 del.first
 delegating constructors are incompatible with C++98
 delegating constructors are permitted only in C++11
-delegating-ctor-cycles
 delete
 delete 
 delete called on %0 that has virtual functions but non-virtual destructor
 delete called on %0 that is abstract but has non-virtual destructor
-delete-incomplete
-delete-non-virtual-dtor\ndeprecated
 delete.end
 delete[]
 deleted constructor was inherited here
@@ -11803,12 +11518,6 @@ dependent using declaration resolved to type without 'typename'
 dependent-lib=
 deprecated
 deprecated effect object
-deprecated-declarations
-deprecated-implementations
-deprecated-increment-bool
-deprecated-objc-isa-usage%deprecated-objc-pointer-introspection5deprecated-objc-pointer-introspection-performSelector
-deprecated-register
-deprecated-writable-strings
 depth
 depth_unchanged
 dereference of pointer to incomplete type %0
@@ -11884,7 +11593,6 @@ direct comparison of %select{an array literal|a dictionary literal|a numeric lit
 direct comparison of a string literal has undefined behavior
 direct list initialization of a lambda init-capture will change meaning in a future version of Clang; insert an '=' to avoid a change in behavior
 direct list initialization of a variable with a deduced type will change meaning in a future version of Clang; insert an '=' to avoid a change in behavior
-direct-ivar-access
 directive '#pragma omp %0' cannot contain more than one '%1' clause
 directive '#pragma omp atomic' cannot contain more than one 'read', 'write', 'update' or 'capture' clause
 directive may only be specified in protocols only
@@ -11901,8 +11609,6 @@ disable-objc-default-synthesize-properties
 disable-payload-qualifiers
 disable-red-zone
 disabled expansion of recursive macro
-disabled-macro-expansion
-disabled-optimization\fdiscard-qual
 discard
 discard;\n
 discriminator
@@ -11914,31 +11620,22 @@ dispatchRaysDimensions
 dispatchRaysIndex
 distance
 distinct 
-distributed-object-modifiers\vdiv-by-zero
 divd
 divf
 division by zero
 division by zero in preprocessor expression
 division by zero is undefined
-division-by-zero
 divrem_overflow
 djust.trampolinedjust_trampoline__builtin_adjust_init_trampoline__builtin_init_tin_stack_restore__builtin_stack_
-dll-attribute-on-redeclaration%dllexport-explicit-instantiation-decl
 dllexport
 dllexport 
 dllimport
 dllimport 
 dllimport cannot be applied to non-inline function definition
-dllimport-static-field-def\rdocumentation
 do not infer Objective-C related result type based on method family
 do-while
 do/while
-documentation-deprecated-sync
-documentation-html
-documentation-pedantic
-documentation-unknown-command
 doesn't pass 'hasMemoryWrite' predicate
-dollar-in-identifier-extension
 dollar-sign
 domain
 domainLocation
@@ -11957,7 +11654,6 @@ dotty
 dot|fdp|neato|twopi|circo
 double
 double precision constant requires cl_khr_fp64, casting to single precision
-double-promotion
 double-quoted include "%0" cannot be aliased to angle-bracketed include <%1>
 dragonfly
 driver-mode=
@@ -12000,10 +11696,6 @@ duplicate macro parameter name %0
 duplicate member %0
 duplicate nullability specifier %0
 duplicate protocol definition of %0 is ignored
-duplicate-decl-specifier
-duplicate-enum
-duplicate-method-arg
-duplicate-method-match
 duplicated command '%select{\|@}0%1'
 during field initialization in %select{this|the implicit default}0 constructor
 during template argument deduction for class template partial specialization %0 %1
@@ -12096,7 +11788,6 @@ dx.valver
 dx.version
 dx.viewIdState
 dx.wave-sensitive
-dx9-deprecation
 dxcompiler
 dxcompiler.dll
 dxcoob 1.8.2405.0
@@ -12138,7 +11829,6 @@ dynamic
 dynamic class with no vbases and no virtual functions
 dynamic exception specifications are deprecated
 dynamic property cannot have instance variable specification
-dynamic-class-memaccess
 dynamic-vector-to-array
 dynamic_cast
 dynamic_type_cache_miss
@@ -12146,19 +11836,14 @@ dynamiclib
 e+000
 e-m:e-p:32:32-i1:32-i8:32-i16:32-i32:32-i64:64-f16:32-f32:32-f64:64-n8:16:32:64
 e-m:e-p:32:32-i1:32-i8:8-i16:16-i32:32-i64:64-f16:16-f32:32-f64:64-n8:16:32:64
-e>US
-eF>t
-eLK(w
 early-cse
 early_and_late_tests
 earlydepthstencil
 ectorizer.unrollllvm.vectorizer...\..\third_party\dawn\third_party\dxc\lib\IR\AutoUpgrade.cpp
-effc++
 effect object ignored - effect syntax is deprecated
 effect sampler_state assignment ignored - effect syntax is deprecated
 effect state block ignored - effect syntax is deprecated. To use braces as an initializer use them with equal signs.
 effect technique ignored - effect syntax is deprecated
-effects-syntax
 eh.CatchHandlerType
 eh.CatchableType
 eh.CatchableTypeArray.
@@ -12183,7 +11868,6 @@ elim-avail-extern
 ellipsis
 ellipsis conversion in converted constant expression
 else
-embedded-directive\nempty-body
 embedding a #%0 directive within macro arguments is not supported
 embedding a directive within macro arguments has undefined behavior
 emissionKind
@@ -12213,7 +11897,6 @@ empty parentheses interpreted as a function declaration
 empty string not expected here
 empty symbolic operand name in inline assembly string
 empty-set
-empty-translation-unit\vencode-type\fendif-labels\fenum-compare
 enable
 enable extended encoding of block type signature
 enable-16bit-types
@@ -12239,6 +11922,7 @@ endif
 endlatexonly
 endmanonly
 endmsc
+endptr
 endregion
 endrtfonly
 endverbatim
@@ -12257,8 +11941,6 @@ enum class
 enum is unsupported in HLSL before 2017
 enum partial specialization
 enum template
-enum-conversion
-enum-too-large\nexceptions
 enumeration cannot be a template
 enumeration previously declared as %select{un|}0scoped
 enumeration previously declared with %select{non|}0fixed underlying type
@@ -12339,7 +12021,6 @@ existing instance variable %1 for property %0 with %select{unsafe_unretained| as
 existing instance variable %1 for strong property %0 may not be %select{|__unsafe_unretained||__weak}2
 existing instance variable %1 for strong property %0 may not be __weak
 exit
-exit-time-destructors
 exitcond
 exn.byref
 exn.byref.tmp
@@ -12694,8 +12375,6 @@ explicit specialization of %0 in function scope
 explicit specialization of %0 within class scope is a Microsoft extension
 explicit template instantiation %0 will emit a vtable in every translation unit
 explicit template instantiation cannot have a definition; if this definition is meant to be an explicit specialization, add '<>' after the 'template' keyword
-explicit-initialize-call
-explicit-ownership-type
 explicitly assigning value of variable of type %0 to itself
 explicitly cast the argument to size_t to silence this warning
 explicitly cast the pointer to silence this warning
@@ -12753,7 +12432,6 @@ extdirs=
 extend.cast
 extend.sext
 extend.zext
-extended-offsetof
 extension used
 extern
 extern 
@@ -12764,7 +12442,6 @@ extern declaration of %0 follows non-extern declaration
 extern templates are a C++11 extension
 extern templates are incompatible with C++98
 extern-c-compat
-extern-initializer
 extern_weak 
 external
 external 
@@ -12776,7 +12453,6 @@ external-contente
 external-contents
 external-fn
 externally_initialized 
-extra
 extra '&' taking address of overloaded function
 extra ';' %select{outside of a function|inside a %1|inside instance variable list|after member function definition}0
 extra ';' after member function definition
@@ -12786,7 +12462,6 @@ extra qualification on member %0
 extra tokens at end of #%0 directive
 extra tokens at end of '#pragma %0' - ignored
 extra tokens at the end of '#pragma omp %0' are ignored
-extra-qualification\nextra-semi\fextra-tokens
 extra-warnings
 extraData
 extract
@@ -12810,8 +12485,6 @@ extraneous template parameter list in template specialization or out-of-line tem
 f128
 f16tof32
 f32tof16
-fD>b
-fGa>
 fP:0:
 fP:1:
 fP:2:
@@ -12819,7 +12492,6 @@ fPIC
 fPIE
 fS:0:
 fS:1:
-fWi?
 fabs
 fabsf
 fabsl
@@ -12845,7 +12517,6 @@ falign-loops
 falign-loops=
 fall-intrinsics
 fallback
-fallback\tflag-enum
 falling back to %0
 fallow-half-arguments-and-returns
 fallow-unsupported
@@ -13169,12 +12840,10 @@ flexible array member %0 not allowed in otherwise empty %select{struct|interface
 flexible array member %0 of type %1 with non-trivial destruction
 flexible array members are a C99 feature
 flexible array requires brace-enclosed initializer
-flexible-array-extensions
 flimit-debug-info
 flimited-precision=
 float
 float-cast-overflow
-float-conversion\vfloat-equal
 float-divide-by-nonnull-attributonnull-attributereturns-nonnull-integer-overflowsigned-integer-ounsigned-integercfi-unrelated-cast
 float/int/uint
 float16_t
@@ -13568,8 +13237,6 @@ for simd
 for type %0
 for-linker
 for-linker=
-for-loop-analysis
-for-redefinition
 force root signature version (rootsig_1_1 if omitted)
 force-early-z
 force-link
@@ -13597,14 +13264,6 @@ format string is not a string literal (potentially insecure)
 format string is not null-terminated
 format string missing
 format string should not be a wide string
-format-extra-args
-format-invalid-specifier
-format-non-iso
-format-nonliteral
-format-pedantic
-format-security\nformat-y2k
-format-zero-length
-format=2
 format_arg
 forming non-member reference to ivar?
 forward declaration of %0
@@ -13624,7 +13283,6 @@ found in loop.\n
 found near match '%0'
 found.conflict
 four
-four-char-constants
 foutput-class-dir=
 foverride-record-layout=
 fp128
@@ -13685,7 +13343,6 @@ fputc
 fputs
 fputs$UNIX2003
 frac
-frame-larger-than=
 framework
 frandom-seed=
 frange-check
@@ -13894,7 +13551,6 @@ function with deduced return type cannot be virtual
 function with no prototype cannot use the %0 calling convention
 function with trailing return type must specify return type 'auto', not %0
 function without a body cannot have metadata
-function-def-in-objc-container\rfuture-compat\ngcc-compat
 function-local metadata not in basic block
 function-local metadata used in wrong function
 function-local metadata used outside a function
@@ -13960,7 +13616,6 @@ fwrite
 fwrite$UNIX2003
 fzero-initialized-in-bss
 fzvector
-g9@x!8
 gather requires resource declared as texture/2D/Cube/2DArray/CubeArray.
 gc relocate is incorrectly tied to the statepoint
 gc relocate on unwind path incorrectly linked to the statepoint
@@ -14006,7 +13661,6 @@ gcc-toolchain
 gcc-toolchain=
 gcoff
 gcolumn-info
-gd>Z
 gdwarf-2
 gdwarf-3
 gdwarf-4
@@ -14070,7 +13724,6 @@ global values must be constants
 global variable
 global variable reference must have pointer type
 global variables must have a constant address space qualifier
-global-constructors
 global-dynamic
 global-extern-by-default
 global.
@@ -14085,27 +13738,7 @@ gmlt
 gno-column-info
 gno-record-gcc-switches
 gno-strict-dwarf
-gnu-alignof-expression
-gnu-anonymous-struct
-gnu-array-member-paren-init
-gnu-binary-literal
-gnu-case-range
-gnu-complex-integer gnu-compound-literal-initializer
-gnu-conditional-omitted-operand
-gnu-designator
-gnu-empty-initializer
-gnu-empty-struct
-gnu-flexible-array-initializer
-gnu-flexible-array-union-member
-gnu-folding-constant
-gnu-imaginary-constant
-gnu-label-as-value
 gnu-pubnames
-gnu-redeclared-enum
-gnu-statement-expression
-gnu-static-float-init$gnu-string-literal-operator-template
-gnu-union-cast"gnu-variable-sized-type-not-at-end
-gnu-zero-line-directive!gnu-zero-variadic-macro-arguments\fheader-guard
 gnu_inline
 goto
 goto 
@@ -14150,8 +13783,6 @@ guided
 gused
 gvms
 gxcoff
-h0'D
-h>1my
 haiku
 half
 half_float
@@ -14165,7 +13796,6 @@ hashat
 hashhash
 hcos.x
 header
-header-hygiene
 header-include-file
 header_
 headerfile
@@ -14185,17 +13815,14 @@ hidden
 hidden 
 hidden overloaded virtual function %q0 declared here%select{|: different classes%diff{ ($ vs $)|}2,3|: different number of parameters (%2 vs %3)|: type mismatch at %ordinal2 parameter%diff{ ($ vs $)|}3,4|: different return type%diff{ ($ vs $)|}2,3|: different qualifiers (%select{none|const|restrict|const and restrict|volatile|const and volatile|volatile and restrict|const, volatile, and restrict}2 vs %select{none|const|restrict|const and restrict|volatile|const and volatile|volatile and restrict|const, volatile, and restrict}3)}1
 hitKind
-hj>>d
 hl-dfe
 hl-expand-store-intrinsics
 hl-legalize-parameter
 hl-preprocess
-hllvm.dbg.
 hlmatrixlower
 hlmatrixlower.mat2vec
 hlmatrixlower.vec2mat
 hlsl
-hlsl-availability\fhlsl-barrier
 hlsl-cleanup-dxbreak
 hlsl-dxil-PIX-add-tid-to-as-payload
 hlsl-dxil-add-pixel-hit-instrmentation
@@ -14229,7 +13856,6 @@ hlsl-entry
 hlsl-hca
 hlsl-hlemit
 hlsl-hlensure
-hlsl-legacy-literal
 hlsl-lower-wavematrix-type
 hlsl-passes-nopause
 hlsl-passes-pause
@@ -14273,7 +13899,6 @@ hypotl
 i128
 i64/f64 rawBufferLoad/Store overloads are allowed after SM 6.3.
 i8_4pk
-i>VF
 iLLi
 iOS (App Extension)
 iP*RcC*R.
@@ -14315,7 +13940,6 @@ identifier after literal will be treated as a reserved user-defined literal suff
 identifier after literal will be treated as a user-defined literal suffix in C++11
 identifier followed by '<' indicates a class template specialization but %0 %select{does not refer to a template|refers to a function template|<unused>|refers to a variable template|<unused>}1
 identifier removed
-idiomatic-parentheses
 idirafter
 idx argument of llvm.localrecover must be a constant int
 idx.ext
@@ -14334,10 +13958,6 @@ ignored
 ignored %0 qualifier on asm
 ignored asm label '%0' on automatic variable
 ignored trigraph would end block comment
-ignored-attributes
-ignored-optimization-argument
-ignored-pragmas
-ignored-qualifiers
 ignoring %0 attribute because its argument is invalid
 ignoring '%select{static|inline}0' keyword on explicit template instantiation
 ignoring '-mnan=2008' option because the '%0' architecture does not support it
@@ -14388,7 +14008,6 @@ image_base
 image_format
 imaginary constants are a GNU extension
 imaginary types are not supported
-implicit
 implicit %select{default constructor|copy constructor|move constructor|copy assignment operator|move assignment operator|destructor}0 for %1 first required here
 implicit %select{default constructor|copy constructor|move constructor|copy assignment operator|move assignment operator|destructor}0 inferred target collision: call to both %select{__device__|__global__|__host__|__host__ __device__}1 and %select{__device__|__global__|__host__|__host__ __device__}2 members
 implicit boolean conversion of Objective-C object literal always evaluates to true
@@ -14417,20 +14036,14 @@ implicit default constructor suppressed by user-declared constructor
 implicit instantiation of undefined member %0
 implicit truncation from %2 to bitfield changes value from %0 to %1
 implicit truncation of vector type
-implicit-atomic-properties*implicit-conversion-floating-point-to-bool implicit-exception-spec-mismatch
-implicit-fallthrough!implicit-fallthrough-per-function
-implicit-function-declaration\fimplicit-int
-implicit-retain-self
 implicitly declaring library function '%0' with type %1
 implicitly determined as %0
 implicitly disabling vptr sanitizer because rtti wasn't enabled
 implicitly enabling rtti for exception handling
-implicitly-unsigned-literal
 import
 import of C++ module '%0' appears within extern "C" language linkage specification
 import of module '%0' appears within %1
 import of module '%0' appears within same top-level module '%1'
-import&import-preprocessor-directive-pedantic
 import-binding-table
 imported by %select{|module '%2' in }1'%0'
 imports
@@ -14464,7 +14077,6 @@ in-class initializer for static data member is not a constant expression
 in-class initializer for static data member is not a constant expression; folding it to a constant is a GNU extension
 in-class initializer for static data member of type %0 is a GNU extension
 in-class initializer for static data member of type %0 requires 'constexpr' specifier
-inaccessible-base"incompatible-library-redeclaration
 inalloca
 inalloca 
 inalloca argument for call has mismatched alloca
@@ -14512,9 +14124,6 @@ incompatible pointer types passing retainable parameter of type %0to a CF functi
 incompatible redeclaration of library function %0
 incompatible types casting %0 to %1 with a %select{__bridge|__bridge_transfer|__bridge_retained}2 cast
 incompatible vector types %select{%diff{assigning to $ from $|assigning to different types}0,1|%diff{passing $ to parameter of type $|passing to parameter of different type}0,1|%diff{returning $ from a function with result type $|returning from function with different return type}0,1|%diff{converting $ to type $|converting between types}0,1|%diff{initializing $ with an expression of type $|initializing with expression of different type}0,1|%diff{sending $ to parameter of type $|sending to parameter of different type}0,1|%diff{casting $ to type $|casting between types}0,1}2
-incompatible-ms-struct
-incompatible-pointer-types.incompatible-pointer-types-discards-qualifiers
-incompatible-property-type
 incomplete definition of type %0
 incomplete format specifier
 incomplete receiver type %0
@@ -14529,13 +14138,8 @@ incomplete type %0 where a complete type is required
 incomplete type in call to object of type %0
 incomplete universal character name
 incomplete universal character name; treating as '\' followed by identifier
-incomplete-implementation
-incomplete-module
-incomplete-umbrella
 inconsistency in registered CommandLine options
 inconsistent number of instance variables specified
-inconsistent-dllimport
-inconsistent-missing-override
 incorrect format for -preamble-bytes=N,END
 incorrect number of entry parameters for raytracing stage '%0': %1 parameter(s) provided, expected %select{no parameters|one payload parameter|two parameters for payload and attributes|one argument parameter}2
 incorrect number of operands in llvm.ident metadata
@@ -14573,14 +14177,12 @@ indvars
 inferred framework modules cannot be 'explicit'
 inferred submodule cannot be a framework submodule
 inferred submodules require a module with an umbrella
-infinite-recursion
 infloop
 ingroup
 inheritance model does not match %select{definition|previous declaration}0
 inheritance model ignored on %select{primary template|partial specialization}0
 inherited from here
 inherited virtual base class %1 has %select{private|protected}2 destructor
-inherited-variadic-ctor\tinit-self
 inheriting constructor does not inherit ellipsis
 inheriting constructor for %0 first required here
 inheriting constructors are incompatible with C++98
@@ -14621,7 +14223,6 @@ initializer of %0 is not a constant expression
 initializer on function does not look like a pure-specifier
 initializer overrides prior initialization of this subobject
 initializer with struct type has wrong # elements
-initializer-overrides
 initializer-string for char array is too long
 initializer_list
 initializing char array with wide string literal
@@ -14640,8 +14241,6 @@ inline namespace cannot be reopened as a non-inline namespace
 inline namespaces are a C++11 feature
 inline namespaces are incompatible with C++98
 inline-cost
-inline-new-delete
-inline\ninline-asm
 inlined-at should be a location
 inlinedAt
 inlinehint
@@ -14654,6 +14253,7 @@ input is not a PCH file: '%0'
 input parameter conflicts with geometry specifier of previous input parameters
 input types for geometry shader must be constant size arrays
 input.
+input.hlsl
 input_attachment_index
 inreg
 insert
@@ -14701,10 +14301,6 @@ instruction requires integer or integer vector operands
 instructions returning void cannot have a name
 insts
 int or unsigned int type required
-int-conversion
-int-conversions
-int-to-pointer-cast
-int-to-void-pointer-cast
 int16
 int16_t
 int32_t
@@ -14724,7 +14320,6 @@ integer literal is too large to be represented in type 'long', interpreting as '
 integer literal is too large to be represented in type 'long', interpreting as 'unsigned long' per C89; this literal will %select{have type 'long long'|be ill-formed}0 in C99 onwards
 integer overflow in preprocessor expression
 integer,fractional_even,fractional_odd,pow2
-integer-overflow
 integral constant expression has incomplete class type %0
 integral constant expression must have integral or unscoped enumeration type, not %0
 integral constant expression requires explicit conversion from %0 to %1
@@ -15011,14 +14606,6 @@ invalid version number
 invalid version number in '%0'
 invalid virtual filesystem overlay file '%0'
 invalid vtable holder
-invalid-command-line-argument
-invalid-constexpr
-invalid-iboutlet&invalid-initializer-from-system-header
-invalid-noreturn
-invalid-offsetof\vinvalid-pch
-invalid-pp-token
-invalid-source-encoding
-invalid-token-paste
 invalid\n
 invalid_enum
 invalidate-undef-resource
@@ -15078,7 +14665,6 @@ iwithsysroot
 iwmmxt
 iwmmxt2
 izvCD*
-jeTb
 joined argument expects additional value: '%0'
 jump bypasses auto release push of @autoreleasepool block
 jump bypasses initialization of @catch block
@@ -15125,15 +14711,11 @@ jump from this goto statement to its label is a Microsoft extension
 jump from this goto statement to its label is incompatible with C++98
 jump from this indirect goto statement to one of its possible targets is incompatible with C++98
 jump out of __finally block has undefined behavior
-jump-seh-finally
 jump-threading
 jump-threading-threshold
 jump-threading-tight
 jumptable
 k::stencil_ref_greater_equal_back
-k=yI
-k>4\tF
-k>RU
 kalimba
 keConstantString__CFStringMakeCo..\..\third_party\dawn\third_party\dxc\tools\clang\lib\Sema\SemaDecl.cpp
 keep-name
@@ -15151,14 +14733,11 @@ key missing from Keys
 keyword '%0' will be made available as an identifier %select{here|for the remainder of the translation unit}1
 keyword 'using'
 keyword is hidden by macro definition
-keyword-compat\rkeyword-macro
 kfreebsd
 kind
 known but unsupported action '%1' for '#pragma %0' - ignored
-knr-promoted-parameter
 l-value expression
 l.gc.statepoint.xperimental.gc.sl.gc.result.ptr.xperimental.gc.rl.gc.result.int.gc.result.float.ental.gc.result.elocate.
-lWi]
 l_brace
 l_paren
 l_square
@@ -15180,10 +14759,8 @@ landingpad
 lane
 language
 language not recognized: '%0'
-language-extension-token
 language=
 large
-large-by-value-copy
 largest
 lastprivate
 latexonly
@@ -15286,7 +14863,6 @@ literal operator must have C++ linkage
 literal operators are incompatible with C++98
 literal string
 literal value is treated as signed in HLSL 2021 and earlier, and unsigned in later language versions
-literal-conversion\rliteral-range
 llabs
 llow_uav_condition
 llrint
@@ -15328,6 +14904,7 @@ llvm.ctlz
 llvm.ctlz.
 llvm.ctpop
 llvm.cttz
+llvm.dbg.
 llvm.dbg.args
 llvm.dbg.contents
 llvm.dbg.cu
@@ -15381,7 +14958,6 @@ llvm.gcroot parameter #2 must be a constant.
 llvm.gcwrite
 llvm.global.annotations
 llvm.global_ctors
-llvm.global_dtor
 llvm.global_dtors
 llvm.ident
 llvm.init.trampoline
@@ -15493,12 +15069,12 @@ local %select{struct|interface|union|class|enum}0 cannot be declared __module_pr
 local declaration nearly matches
 local declaration of %0 hides instance variable
 local label
+local resource not guaranteed to map to unique global resource.
 local type %0 as template argument is incompatible with C++98
 local variable
 local variable requires a valid scope
 local-dynamic
 local-exec
-local-type-template-args
 locale not supported
 location
 location requires a valid scope
@@ -15523,8 +15099,6 @@ logbl
 logf
 logical not is only applied to the left hand side of this comparison
 logical not requires an operand expression convertible to boolean
-logical-not-parentheses
-logical-op-parentheses\tlong-long\rloop-analysis
 logl
 long
 long double
@@ -15596,10 +15170,6 @@ ly-branch-weightunlikely-branch-tial
 ly_constructibleis_trivially_conially_assignableis_trivially_assivially_copyableis_trivially_cop hidden
 m3dnow
 m3dnowa
-m?H7
-mG4>
-mO-B
-m\nXo
 mabi=
 mabicalls
 mac68k alignment pragma is not supported on this target
@@ -15617,14 +15187,12 @@ macro name is a reserved identifier
 macro name missing
 macro name must be an identifier
 macro was %select{defined|#undef'd}0 here
-macro-redefined
 madx
 maes
 magnitude of floating-point constant too large for type %0; maximum is %1
 magnitude of floating-point constant too small for type %0; minimum is %1
 main
 main-file-name
-main-return-type
 mainpage
 makeDouble
 malformed block record in PCH file: '%0'
@@ -15632,7 +15200,6 @@ malformed line
 malformed or corrupted AST file: '%0'
 malformed regex in line 
 malformed sanitizer blacklist: '%0'
-malformed-warning-check
 malign-functions=
 malign-jumps=
 malign-loops=
@@ -15644,7 +15211,6 @@ mallocsize
 maltivec
 mangling a placeholder type
 manonly
-many-braces-around-scalar-init
 map::at:  key not found
 march=
 mark
@@ -15786,7 +15352,6 @@ memrchr
 memset
 memset_pattern16
 memset_pattern16basicaa
-memsize-comparison
 menable-no-infs
 menable-no-nans
 menable-unsafe-fp-math
@@ -15826,7 +15391,6 @@ method possibly missing a [super %0] call
 method returns unexpected type %0 (should be an object type)
 method type specifier must start with '-' or '+'
 method was declared as %select{an 'alloc'|a 'copy'|an 'init'|a 'new'}0 method, but its implementation doesn't match because %select{its result type is not an object pointer|its result type is unrelated to its receiver type}1
-method-signatures\tmicrosoft
 methodgroup
 mf16c
 mfancy-math-387
@@ -15851,7 +15415,6 @@ mhard-float
 mhtm
 mhwdiv
 mhwdiv=
-microsoft-exists
 mieee-fp
 mieee-rnd-near
 migrate
@@ -15907,11 +15470,6 @@ mips_type
 misel
 mismatch handle annotation
 mismatched subprogram between llvm.dbg.
-mismatched-new-delete
-mismatched-parameter-types
-mismatched-return-types
-mismatched-tags
-misplaced-attributes
 miss
 miss,closesthit,anyhit,raygeneration
 missed a case
@@ -15965,18 +15523,6 @@ missing terminating ' character
 missing terminating '"' character
 missing terminating ')' character
 missing type bound %0 for type parameter %1 in %select{@interface|@class}2
-missing-braces
-missing-declarations
-missing-field-initializers
-missing-format-attribute
-missing-include-dirs
-missing-method-return-type
-missing-noreturn
-missing-prototype-for-cc
-missing-prototypes
-missing-selector-name
-missing-sysroot
-missing-variable-declarations\fmodule-build
 missing_return
 mkdir
 mkernel
@@ -16106,7 +15652,6 @@ module asm "
 module file '%0' not found
 module flag identifiers must be unique (or of 'require' type)
 module map file '%0' not found
-module-conflict
 module-dependency-dir
 module-file-deps
 module-file-info
@@ -16123,9 +15668,7 @@ more than 32 guarded initializations
 more than four positions are referenced in '%0'
 more than one unbounded resource (
 moslib=
-most
 move
-move\fmsvc-include\tmultichar
 moving a local object in a return statement prevents copy elision
 moving a temporary object prevents copy elision
 mpascal-strings
@@ -16223,7 +15766,6 @@ multiple return statements in constexpr function is a C++14 extension
 multiple return statements in constexpr function is incompatible with C++ standards before C++14
 multiple suitable %0 functions in %1
 multiple unsequenced modifications to %0
-multiple-move-vbase\tnarrowing
 multiply_defined
 multiply_defined_unused
 munaligned-access
@@ -16253,11 +15795,9 @@ mx32
 mxgot
 mxop
 mzvector
-n03>Pu
 nFP:1:
 nFP:2:
 nFp:2:
-n]?iJ
 nacl
 naked
 name
@@ -16298,8 +15838,6 @@ nested namespace definition must define each namespace separately
 nested redefinition of %0
 nested teams construct here
 nested typedefs are not supported in HLSL
-nested-anon-types
-nested-externs
 netbsd
 network down
 network reset
@@ -16311,7 +15849,6 @@ new expression for type %0 contains multiple constructor arguments
 new expression for type %0 has incompatible constructor argument of type %1
 new expression for type %0 requires a constructor argument
 new value and pointer type do not match
-new-returns-null\vnewline-eof
 new.isnull
 new[]
 newgv
@@ -16402,6 +15939,7 @@ no viable conversion%diff{ from $ to incomplete type $|}0,1
 no viable overloaded '%0'
 no viable overloaded operator[] for type %0
 no visible @interface for %0 declares the selector %1
+no-aa
 no-canonical-prefixes
 no-code-completion-globals
 no-cpp-precomp
@@ -16494,17 +16032,13 @@ non-deducible template parameter %0
 non-deleted function %0 cannot override a deleted function
 non-extern declaration of %0 follows extern declaration
 non-friend class member %0 cannot have a qualified name
-non-gcc
 non-integral type %0 is an invalid underlying type
 non-library targets
 non-literal type %0 cannot be used in a constant expression
-non-literal-null-conversion'non-modular-include-in-framework-module
 non-local lambda expression cannot have a capture-default
-non-modular-include-in-module
 non-musttail call
 non-namespace scope '%0' cannot have a literal operator member
 non-object type %0 is not assignable
-non-pod-varargs
 non-pointer operand type %0 incompatible with %select{NULL|nullptr}1
 non-simple lvalue dynamic_cast
 non-static data member cannot be constexpr%select{; did you intend to make it %select{const|static}0?|}1
@@ -16545,7 +16079,6 @@ non-type template parameter of reference type %diff{$ cannot bind to template ar
 non-type template parameter of variably modified type %0
 non-variable declaration in 'for' loop
 non-virtual member function marked '%0' hides virtual member %select{function|functions}1
-non-virtual-dtor
 non-void %select{function|method}1 %0 should return a value
 non-void block should return a value
 non-void constexpr function %0 should return a value
@@ -16561,7 +16094,6 @@ nonnull applies only to pointer types
 nonnull parameter '%0' will evaluate to 'true' on first encounter
 nonnull_arg
 nonnull_return
-nonportable-cfstrings!nonportable-vector-initialization
 nontemporal
 noperspective
 noperspective 
@@ -16646,10 +16178,6 @@ null non-type template argument of type %0 does not match template parameter of 
 null passed to a callee that requires a non-null argument
 null returned from %select{function|method}0 that requires a non-null return value
 null template argument in TreeTransform
-null-arithmetic
-null-character
-null-conversion
-null-dereference\vnullability
 null_resettable
 null_unspecified
 null_unspecified 
@@ -16657,12 +16185,8 @@ nullability keyword %0 cannot be applied to multi-level pointer type %1
 nullability specifier %0 cannot be applied to non-pointer type %1
 nullability specifier %0 cannot be applied to non-pointer type %1; did you mean to apply the specifier to the %select{pointer|block pointer|member pointer|function pointer|member function pointer}2?
 nullability specifier %0 conflicts with existing specifier %1
-nullability-completeness
-nullability-declspec
-nullability-extension
 nullable
 nullable 
-nullable-to-nonnull-conversion+objc-autosynthesis-property-ivar-name-match
 nullptr
 nullptr_t
 num-pixels
@@ -16687,10 +16211,6 @@ nuw only applies to integer operations
 nuw><
 nvcl
 nvptx
-o9sp
-o?GS
-oI>O7
-oI>b
 o_sanitize_thread
 o_thread_safety_e_locks_requiredxclusive_locks_rssert_shared_caphared_trylock_fulign_arg_pointerorce_align_arg_pve_lock_functionxclusive_lock_furns_not_retainedf_returns_not_rery_acquire_capabndependent_classbjc_independent_o_instrument_funnt_with_type_tagrgument_with_typtype
 obj dependent should go dependent type path, not reach here
@@ -16698,29 +16218,7 @@ objc(cs)
 objc(cy)
 objc(ext)
 objc(pl)
-objc-circular-container
-objc-cocoa-api
-objc-designated-initializers
-objc-forward-class-redefinition
-objc-interface-ivars
 objc-isystem
-objc-literal-compare
-objc-literal-conversion
-objc-method-access
-objc-missing-property-synthesis
-objc-missing-super-calls
-objc-multiple-method-names"objc-noncopy-retain-block-property
-objc-nonunified-exceptions
-objc-property-implementation
-objc-property-implicit-mismatch*objc-property-matches-cocoa-ownership-rule
-objc-property-no-attribute
-objc-property-synthesis#objc-protocol-method-implementation objc-protocol-property-synthesis
-objc-protocol-qualifiers"objc-readonly-with-setter-property
-objc-redundant-api-use
-objc-redundant-literal-use
-objc-root-class
-objc-string-compare
-objc-string-concatenation
 objc/message.h
 objc/objc-auto.h
 objc/objc-exception.h
@@ -16815,7 +16313,6 @@ objective-c++-cpobjective-c-headader
 objective-c++-heid
 objects
 obsoleted in 
-obwQ4
 octal escape sequence out of range
 odemaxdispatchgrid
 of an entry function or patch constant function
@@ -16832,8 +16329,6 @@ offsetof requires struct, union, or class type, %0 invalid
 offsetof(
 offsetptr
 ointer_with_typetime
-old-style-cast
-old-style-definition
 oldret
 ole32.dll
 omnipotent char
@@ -16867,8 +16362,6 @@ openbsd
 opendir
 openmp
 openmp-
-openmp-clauses
-openmp-loop-form
 operand of ? changes signedness: %0 to %1
 operand of type %0 cannot be cast to a pointer type
 operand of type %0 where arithmetic or pointer type is required
@@ -16986,7 +16479,6 @@ out-of-line %select{declaration|definition}2 of %0 does not match any declaratio
 out-of-line constructor for %0 cannot have template arguments
 out-of-line declaration of a member must be a definition
 out-of-line definition of %0 from class %1 without definition
-out-of-line-declaration\fover-aligned
 out_of_bounds
 output
 output 
@@ -17003,14 +16495,12 @@ outputControlPointID
 outputcontrolpoints
 outputs 
 outputtopology
-overflow
 overflow converting case value to switch condition type (%0 to %1)
 overflow in enumeration value
 overflow in expression; result is %0 with type %1
 overflow in the expression when converting to %0 type
 overflow_arg_area
 overlapping comparisons always evaluate to %select{false|true}0
-overlength-strings
 overload
 overload of intrinsic %0 requires shader model %1 or greater
 overload resolution selected %select{unavailable|deleted}0 operator '%1'%2
@@ -17022,14 +16512,11 @@ overloaded %0 must be a non-static member function
 overloaded %0 must have at least one parameter of class or enumeration type
 overloaded function decl survived to here
 overloaded operator %select{>>|<<}0 has higher precedence than comparison operator
-overloaded-shift-op-parentheses
-overloaded-virtual
 overloading %select{|non-member }1%0 is not allowed
 overridden method is here
 overridden method returns an instance of its class type
 overridden virtual function is here
 override
-override-module
 override-semdef
 overriding '%0' option with '%1'
 overriding method %select{introduced after|deprecated before|obsoleted before}0 overridden method on %1 (%2 vs. %3)
@@ -17037,9 +16524,6 @@ overriding method cannot be unavailable on %0 when its overridden method is avai
 overriding method has mismatched ns_consumed attribute on its parameter
 overriding method has mismatched ns_returns_%select{not_retained|retained}0 attributes
 overriding the module target triple with %0
-overriding-method-mismatch
-overriding-t-option
-owM&
 owner dead
 ownership
 ownership_holds
@@ -17049,8 +16533,6 @@ oxed_expressionsobjc_boxed_expre_cf_code_auditedarc_cf_code_audialue_expressions
 p-output
 p32i8
 p32u8
-p>.G1
-p>Y3
 pack expansion contains parameter pack %0 that has a different length (%1 vs. %2) from outer parameter packs
 pack expansion contains parameter packs %0 and %1 that have different lengths (%2 vs. %3)
 pack expansion does not contain any unexpanded parameter packs
@@ -17079,10 +16561,8 @@ packoffset is only allowed within a constant buffer, not on the constant buffer 
 packoffset is overridden by another packoffset annotation
 packoffset on resource
 packoffset overlap between %0, %1
-packoffset-override
 pad.arraybegin
 pad.arrayend
-padded
 padding %select{struct|interface|class}0 %1 with %2 %select{byte|bit}3%select{|s}4 to align %5
 padding %select{struct|interface|class}0 %1 with %2 %select{byte|bit}3%select{|s}4 to align anonymous bit-field
 padding size of %0 with %1 %select{byte|bit}2%select{|s}3 to alignment boundary
@@ -17119,7 +16599,6 @@ parameter of type %0 is declared here
 parameter pack %0 declared here
 parameter pack cannot have a default argument
 parameter references not allowed in naked functions
-parameter-usage\vparentheses
 parameter0
 parameter1
 parameter2
@@ -17133,7 +16612,6 @@ parentheses are required around macro argument containing braced initializer lis
 parentheses must be omitted if %0 attribute's argument list is empty
 parentheses not balanced
 parentheses were disambiguated as a function declaration
-parentheses-equality
 parenthesized initialization of a member array is a GNU extension
 parser should not have allowed this
 parsing function body
@@ -17143,12 +16621,10 @@ partial ordering for explicit instantiation of %0 is ambiguous
 partial specialization cannot be declared as a friend
 partial specialization matches %0
 partial specialization of %0 does not use any of its template parameters
-partial-availability
 partial-lifetime-markers
 partitioning
 pascal
 pass-exit-codes
-pass\rpass-analysis\vpass-failed\vpass-missed
 passes.txt
 passing a qualified payload to an extern function can cause undefined behavior if payload qualifiers mismatch
 passing address of %select{non-local|non-scalar}0 object to __autoreleasing parameter for write-back
@@ -17207,11 +16683,6 @@ payload field '%0' has no payload access qualifiers.
 payload field '%0' is a payload struct. Payload access qualifiers are not allowed on payload types.
 payload qualifier on resource
 payload type '%0' requires that all fields carry payload access qualifiers.
-payload-access-call
-payload-access-perf
-payload-access-qualifier
-payload-access-shader
-payload-access-trace
 pclose
 pcs(
 pedantic
@@ -17225,7 +16696,6 @@ performance
 period
 periodstar
 perror
-pessimizing-move\rpointer-arith
 phi node must have first class type
 phi(
 phi/select disallowed on pointers to local resources.
@@ -17260,7 +16730,6 @@ plus
 plus-sign
 plusequal
 plusplus
-pm>6/
 point
 point 
 point,line,triangle,triangle_cw,triangle_ccw
@@ -17270,10 +16739,7 @@ pointer is initialized by a temporary array, which will be destroyed at the end 
 pointer to function type %0 may not be 'restrict' qualified
 pointer to this type is invalid
 pointer type mismatch%diff{ ($ and $)|}0,1
-pointer-bool-conversion\fpointer-sign
-pointer-to-int-cast
 pointer-to-member function type %0 can only be called on an %select{rvalue|lvalue}1
-pointer-type-mismatch potentially-evaluated-expression
 pointer/integer type mismatch in conditional expression%diff{ ($ and $)|}0,1
 pointer_with_type_tag
 pointers are unsupported in HLSL
@@ -17325,7 +16791,6 @@ pragma once
 pragma pop_macro could not pop '%0', no matching push_macro
 pragma warning
 pragma-unroll-threshold
-pragmas&predefined-identifier-outside-function
 pread
 preamble-bytes=
 prebind
@@ -17409,8 +16874,6 @@ printf
 private
 private 
 private field %0 is not used
-private-extern
-private-header
 private_bundle
 proc_bind(
 producer
@@ -17418,8 +16881,6 @@ prof
 profile
 profile data may be out of date: of %0 function%s0, %1 %plural{1:has|:have}1 no data and %2 %plural{1:has|:have}2 mismatched data that will be ignored
 profile-blocks
-profile-instr-out-of-date
-profile-instr-unprofiled
 prol.iter
 propagating dll attribute to %select{already instantiated|explicitly specialized}0 base class template without dll attribute is not supported
 properties are an Objective-C 2 feature
@@ -17472,8 +16933,6 @@ property synthesize requires specification of an ivar
 property synthesized here
 property type %0 is incompatible with type %1 inherited from %2
 property with '%0' attribute must be of object type
-property-access-dot-syntax
-property-attribute-mismatch
 protected
 protected 
 protected %select{constructor|destructor}0 can only be used to %select{construct|destroy}0 a base class subobject
@@ -17486,7 +16945,6 @@ protocol is declared here
 protocol method is expected to return an instance of the implementing class, but is declared to return %0
 protocol not supported
 protocol qualifiers must precede type arguments
-protocol%protocol-property-synthesis-ambiguity
 prune-eh
 ps_4_0
 ps_4_1
@@ -17522,8 +16980,6 @@ putchar
 puts
 putter for property must be specified as 'put', not 'set'
 pwrite
-q>F,3
-qS>g?h3
 qsetjmp
 qsort
 quadLane
@@ -17537,7 +16993,6 @@ qualified name refers into a specialization of %select{function|variable}0 templ
 qualified reference to %0 is a constructor name rather than a template name wherever a constructor can be declared
 qualified reference to %0 is a constructor name rather than a type wherever a constructor can be declared
 qualified type locs not expected here!
-qualified-void-return-type
 qualifier
 qualifier in explicit instantiation of %q0 requires a template-id (a typedef is not permitted)
 qualifiers
@@ -17560,12 +17015,6 @@ r64i
 r64ui
 r8snorm
 r8ui
-r9T6
-rNm>)
-r\n0\tP
-r\n0\tp
-r\tVr.>T
-r\vpp=
 r_brace
 r_paren
 r_square
@@ -17579,7 +17028,6 @@ range-based for loop has empty body
 range-based for loop is a C++11 extension
 range-based for loop is incompatible with C++98
 range-based for loop requires type for loop variable
-range-loop-analysis
 raw string delimiter longer than 16 characters; use PREFIX( )PREFIX to delimit raw string
 raw string literals are incompatible with C++98
 raw string missing terminating delimiter )%0"
@@ -17618,7 +17066,6 @@ readnone
 readonly
 readonly IBOutlet property %0 when auto-synthesized may not work correctly with 'nib' loader
 readonly properties should be processed differently
-readonly-iboutlet-property\rreceiver-expr
 readwrite
 real
 real_mul_phi
@@ -17634,8 +17081,6 @@ receiver is treated with 'id' type for purpose of method lookup
 receiver type %0 for instance message is a forward declaration
 receiver type %0 is not 'id' or interface pointer, consider casting it to 'id'
 receiver type %0 is not an Objective-C class
-receiver-forward-class
-receiver-is-weak
 recompile
 recompile from DXIL container with Debug Info or Debug Info bitcode file
 record handle invalidated by OutputComplete
@@ -17657,7 +17102,6 @@ redeclaration of already-defined enum %0 is a GNU extension
 redeclaration of method parameter %0
 redeclaration of type parameter %0
 redeclaration of using decl
-redeclared-class-member
 redeclaring non-static %0 as static is a Microsoft extension
 redefining builtin macro
 redefinition of %0
@@ -17689,8 +17133,6 @@ reduction(
 redundant %0 availability change; only the last specified change will be used
 redundant move in return statement
 redundant parentheses surrounding address non-type template argument are incompatible with C++98
-redundant-decls
-redundant-move
 ref-qualifier '%select{&&|&}0' is not allowed on a constructor
 ref-qualifier '%select{&&|&}0' is not allowed on a destructor
 ref.tmp
@@ -17745,7 +17187,6 @@ regparm
 regparm(
 reimplementation of category %1 for class %0
 reimplementation of class %0
-reinterpret-base-class
 reinterpret_cast
 reinterpret_cast cannot resolve overloaded function %0 to type %1
 reinterpret_cast from %0 to %1 has undefined behavior
@@ -17771,7 +17212,6 @@ remaining %0 candidate%s0 omitted; pass -fshow-overloads=all to show them
 remap
 remap-file
 remark
-remark-backend-plugin
 remark: 
 remarks
 remove
@@ -17787,7 +17227,6 @@ remove-unused-globals
 rename
 renderTargetGetSampleCount
 renderTargetGetSamplePosition
-reorder
 repetition-operator operand invalid
 replace parentheses with an initializer to declare a variable
 replacement function %0 cannot be declared 'inline'
@@ -17800,7 +17239,6 @@ requested alignment is not a power of 2
 requested alignment must be %0 bytes or smaller
 requested shift is a vector of type %0 but the first operand is not a vector (%1)
 requires
-requires-super-attribute
 requires_capability
 requires_shared_capability
 reroll
@@ -17808,8 +17246,6 @@ reroll-num-tolerated-failed-matches
 res-may-alias
 res_may_alias
 reserved
-reserved-id-macro
-reserved-user-defined-literal
 resource
 resource 
 resource types in a descriptor table (root 
@@ -17827,7 +17263,6 @@ resume
 resval
 retain
 retain'ed block property does not copy the block - use copy attribute instead
-retained-language-linkage
 retainedTypes
 return
 return 
@@ -17844,8 +17279,6 @@ return type of virtual function %3 is not covariant with the return type of the 
 return value cannot be qualified with address space
 return value not in expected state; expected '%0', observed '%1'
 return value of %0 is a large (%1 bytes) pass-by-value object; pass it by reference instead ?
-return-stack-address\vreturn-type
-return-type-c-linkage
 return_typestate
 returned
 returning address of label, which is local
@@ -17940,7 +17373,6 @@ rtems
 rtfonly
 rtlib
 rtlib=
-rtti-for-exceptions
 rtti.TypeDescriptor
 runtime
 runtimeLang
@@ -17949,9 +17381,7 @@ rvalue reference %diff{to type $ cannot bind to lvalue of type $|cannot bind to 
 rvalue reference type %0 is not allowed in exception specification
 rvalue references are a C++11 extension
 rvalue references are incompatible with C++98
-s'mF
 s390
-sHF'
 sadd
 sadd.overflow
 sadd.result
@@ -17994,7 +17424,6 @@ sampler_state
 sampler_t
 sampler_t variable required - got %0
 samples
-sanitize-address
 sanitize_address
 sanitize_memory
 sanitize_thread
@@ -18079,26 +17508,19 @@ select.unfold
 selectany
 selected '%select{begin|end}0' %select{function|template }1%2 with iterator type %3
 selected values for vector select must be vectors
-selector
 selector element is not a valid lvalue
 selector element of type %0 cannot be a constant l-value expression
 selector element type %0 is not a valid object
-selector-type-mismatch\vself-assign
 self
-self-assign-field\tself-move
 semantic
 semantic '
-semantic-identifier-collision
 semi
 semicolon
 semicolon before method body is ignored
-semicolon-before-method-body
 sentinel
 seq_cst
-sequence-point
 serialize-diagnostic-file
 serialize-diagnostics
-serialized-diagnostics
 setMeshOutputCounts
 set_typestate
 setbuf
@@ -18131,7 +17553,6 @@ shader register must be defined for each CBV/SRV/UAV
 shader register range 
 shader_record_ext
 shader_record_nv
-shadow\vshadow-ivar
 shared
 shared 
 shared-libasan
@@ -18144,17 +17565,10 @@ shave
 shift count %0 >= width of type %1 (%2 bit%s2)
 shift count >= width of type
 shift count is negative
-shift-count-negative
-shift-count-overflow
-shift-negative-value
-shift-op-parentheses
-shift-overflow
-shift-sign-overflow
 shift_out_of_bounds
 shifting a negative signed value is undefined
 shl.mask
 short
-shorten-64-to-32\fsign-compare
 should break from structTy
 should have emitted these statements as simple
 should not be emitting lvalue bitcast as rvalue
@@ -18178,7 +17592,6 @@ sig_ld
 sig_st
 siglongjmp
 sign
-sign-conversion\nsign-promo
 signature %0 specifies unrecognized or invalid component type.
 signature element %0 at location (%1, %2) size (%3, %4) has data width that differs from another element packed into the same row.
 signature element %0 at location (%1,%2) size (%3,%4) has an indexing conflict with another signature element packed into the same row.
@@ -18234,9 +17647,6 @@ sizeof
 sizeof on array function parameter will return size of %0 instead of %1
 sizeof on pointer operation will return size of %0 instead of %1
 sizeof(
-sizeof-array-argument
-sizeof-array-decay
-sizeof-pointer-memaccess
 sizeof...(
 skip-fn-body
 skip-serialization
@@ -18263,11 +17673,9 @@ snprintf
 solaris
 solidus
 somehow reached end of routine
-sometimes-uninitialized
 sorry, non-type template argument of pointer-to-member type %1 that refers to member %q0 of a different class is not supported yet
 source
 source file is not valid UTF-8
-source-uses-openmp
 source_mark
 space
 space number should be an integral numeric string
@@ -18275,7 +17683,6 @@ sparc
 specialization of member %q0 does not specialize an instantiated member
 specified %0 type tag requires a null pointer
 specified.\n
-specifier-override
 specifying both a name and alignment to 'pop' is undefined
 specifying character '%0' with a universal character name is incompatible with C++98
 specs
@@ -18361,14 +17768,10 @@ static member %0 cannot be a bit-field
 static members cannot be declared in an anonymous %select{struct|union}0
 static variable %0 is suspiciously used within its own initialization
 static-define
-static-float-init
 static-global-to-alloca
-static-in-inline$static-inline-explicit-instantiation
 static-libgcc
 static-libgfortran
 static-libstdc++
-static-local-in-inline
-static-self-init
 static_assert
 static_assert declarations are incompatible with C++98
 static_assert expression is not an integral constant expression
@@ -18430,19 +17833,6 @@ stream timeout
 stream-output object must be an inout parameter
 strerror
 strftime format attribute requires 3rd parameter to be 0
-strict-aliasing
-strict-aliasing=0
-strict-aliasing=1
-strict-aliasing=2
-strict-overflow
-strict-overflow=0
-strict-overflow=1
-strict-overflow=2
-strict-overflow=3
-strict-overflow=4
-strict-overflow=5
-strict-prototypes
-strict-selector-match
 stride
 string
 string literal after 'operator' cannot have an encoding prefix
@@ -18453,18 +17843,13 @@ string literal of length %0 exceeds maximum length %1 that %select{C90|ISO C99|C
 string literal operator templates are a GNU extension
 string literal with user-defined suffix cannot be used here
 string type
-string-compare
-string-conversion
 string-literal
-string-plus-char
-string-plus-int
 string.h
 string_literal
 strings.h
 strip-dead-prototypes
 strlcat
 strlcpy
-strlcpy-strlcat-size\fstrncat-size+structurize-exits-lifetime-markers-conflict
 strlen
 strlenfirst
 strncasecmp
@@ -18541,7 +17926,6 @@ successful failed overload
 suffix with parentheses to turn this into a function call
 suggest braces around initialization of subobject
 super
-super-class-method-mismatch
 super.
 superclass
 support for type '__float128' is not yet implemented
@@ -18556,7 +17940,6 @@ switch condition has incomplete class type %0
 switch condition must have integer type
 switch condition type %0 requires explicit conversion to %1
 switch statement has empty body
-switch-default\vswitch-enum%sync-fetch-and-nand-semantics-changed
 switch.cast
 switch.downshift
 switch.edge
@@ -18577,13 +17960,11 @@ switch.shifted
 switch.table
 switch.tableidx
 switch.tableidx.zext
-switch\vswitch-bool
 symbol with local linkage must have default visibility
 sync can't specify both _ugroup and _uglobal. If both are needed, just specify _uglobal.
 sync in a non-Compute/Amplification/Mesh/Node Shader must only sync UAV (sync_uglobal).
 sync in a non-Node Shader must not sync node record memory.
 sync must include some form of memory barrier - _u (UAV) and/or _g (Thread Group Shared Memory).  Only _t (thread group sync) is optional.
-synth
 synthesized properties %0 and %1 both claim instance variable %2
 synthesized properties %0 and %1 both claim setter %2 - use of this setter will cause unexpected behavior
 synthesized property %0 must either be named the same as a compatible instance variable or must explicitly name an instance variable
@@ -18631,10 +18012,6 @@ task
 taskgroup
 taskwait
 taskyield
-tautological-compare*tautological-constant-out-of-range-compare
-tautological-overlap-compare
-tautological-pointer-compare
-tautological-undefined-compare$tentative-definition-incomplete-type\rthread-safety
 tbaa
 tbaa.struct
 tbuffer
@@ -18818,13 +18195,6 @@ thread-local declaration of %0 with %select{static|dynamic}1 initialization foll
 thread-local storage is not supported for the current target
 thread-local variable has non-trivial ownership: type is %0
 thread-pre-split
-thread-safety-analysis
-thread-safety-attributes
-thread-safety-beta
-thread-safety-negative
-thread-safety-precise
-thread-safety-reference
-thread-safety-verbose\ttrigraphs\vtype-limits\vtype-safety
 threadGroupCountX
 threadGroupCountY
 threadGroupCountZ
@@ -19007,7 +18377,6 @@ typedef declarator cannot be qualified
 typedef member %0 cannot be a bit-field
 typedef name must be an identifier
 typedef requires a name
-typedef-redefinition
 typeid
 typeid applied to expression of polymorphic type %0 is not allowed in a constant expression
 typeid(
@@ -19017,7 +18386,6 @@ typename is allowed for identifiers only
 typename specifier refers to a dependent using declaration for a value %0 in %1
 typename specifier refers to a non-type template
 typename specifier refers to non-type member %0 in %1
-typename-missing
 typeof
 typeof 
 typeof(
@@ -19047,7 +18415,6 @@ uint8_t4_packed
 uint8_t_packed
 uints
 uitofp
-ujGs?
 ulong
 umax
 umbrella
@@ -19088,7 +18455,6 @@ unary negate of unsigned value is still unsigned
 unaryBits
 unassert
 unavailable
-unavailable-declarations
 unbounded
 unbounded 
 unbounded resources are not supported with -flegacy-resource-reservation
@@ -19099,22 +18465,16 @@ undeclared identifier
 undeclared selector %0
 undeclared selector %0; did you mean %1?
 undeclared variable %0 used as an argument for '#pragma unused'
-undeclared-selector
 undeduced auto type in IR-generation
 undef
 undef all system defines
 undefine-macro
 undefine-macro=
 undefined
-undefined-bool-conversion
-undefined-inline
-undefined-internal
-undefined-reinterpret-cast
 undefined\n
 undefining builtin macro
 underscore
 unelaborated friend declaration is a C++11 extension; specify '%select{struct|interface|union|class|enum}0' to befriend %1
-unevaluated-expression
 unexpected
 unexpected %0 in function call; perhaps remove the %0?
 unexpected %0, expected to see one of %select{|'best_case', 'full_generality', }1'single_inheritance', 'multiple_inheritance', or 'virtual_inheritance'
@@ -19186,7 +18546,6 @@ unicode
 unicode literals are incompatible with C++ standards before C++1z
 unicode literals are incompatible with C++98
 unicode literals are incompatible with C99
-unicode-whitespace\runinitialized
 uniform
 uniform 
 unimplemented pure virtual method %0 in %1
@@ -19290,11 +18649,6 @@ unknown visibility %0
 unknown visibility!
 unknown warning group '%0', ignored
 unknown wrapping kind
-unknown-attributes
-unknown-escape-sequence
-unknown-pragmas
-unknown-sanitizers
-unknown-warning-option
 unlikely-branch-weight
 unlink
 unlock_function
@@ -19303,10 +18657,7 @@ unnamed enumeration must be a definition
 unnamed type as template argument is incompatible with C++98
 unnamed type used in template argument was declared here
 unnamed variable cannot be implicitly captured in a lambda expression
-unnamed-type-template-args
 unnamed_addr 
-unneeded-internal-declaration
-unneeded-member-function
 unop
 unoptimized-cfg
 unordered_map::at: key not found
@@ -19326,11 +18677,6 @@ unpack_u8u16
 unpack_u8u32
 unqualified friend declaration referring to type outside of the nearest enclosing namespace is a Microsoft extension; add a nested name specifier
 unreachable
-unreachable-code
-unreachable-code-aggressive
-unreachable-code-break
-unreachable-code-loop-increment
-unreachable-code-return\vunsequenced#unsupported-dll-base-class-template
 unrecognized parameter passing direction, valid directions are '[in]', '[out]' and '[in,out]'
 unresolved type ref
 unroll
@@ -19373,9 +18719,6 @@ unsupported option '%0' for target '%1'
 unsupported runtime library '%0' for platform '%1'
 unsupported style of char literal - use a single-character char-based literal
 unsupported use of internal gcc -Z option '%0'
-unsupported-friend
-unsupported-nan
-unsupported-visibility
 unsupported: typedef changes linkage of anonymous type, but linkage was already computed
 unterminated /* comment
 unterminated attribute group
@@ -19391,21 +18734,6 @@ unused label %0
 unused member function %0
 unused parameter %0
 unused variable %0
-unused-argument
-unused-command-line-argument
-unused-comparison
-unused-const-variable
-unused-exception-parameter
-unused-function
-unused-getter-return-value\funused-label
-unused-local-typedef
-unused-local-typedefs\runused-macros
-unused-member-function
-unused-parameter
-unused-private-field
-unused-property-ivar\runused-result\funused-value
-unused-variable
-unused-volatile-lvalue
 update
 upper
 urem
@@ -19513,12 +18841,10 @@ used type %0 where arithmetic or pointer type is required
 used type %0 where floating point type is not allowed
 used type %0 where integer is required
 used type %0 where integer or floating point type is required
-used-but-marked-unused
 uselistorder
 user defined constant buffer slots cannot be target specific
 user defined type
 user-defined literal suffixes not starting with '_' are reserved%select{; no literal will invoke this operator|}0
-user-defined-literals
 user-dependencies
 ushort
 using
@@ -19559,7 +18885,6 @@ utimes
 uuid
 uuid attribute contains a malformed GUID
 uwtable
-uzKs@>
 v*IUi
 v*v*iz
 v*v*izz
@@ -19584,7 +18909,6 @@ v1i16
 v1i32
 v1i64
 v1i8
-v2!L.2
 v2f16
 v2f32
 v2f64
@@ -19633,7 +18957,6 @@ vGH.
 vLLLiD*.
 vLLiD*.
 vM*H.
-vOY63M
 vSJi
 va_arg
 va_arg requires operand with first class type
@@ -19662,7 +18985,6 @@ value too large
 value will be undefined inside TraceRay ('%0' is not qualified 'write' for 'caller')
 values
 vararg
-varargs
 variable
 variable %0 cannot be implicitly captured in a lambda with no capture-default specified
 variable %0 cannot be threadprivate because it is %select{thread-local|a global named register variable}1
@@ -19724,7 +19046,6 @@ variadic macros not supported in OpenCL
 variadic templates are a C++11 extension
 variadic templates are incompatible with C++98
 variadic templates are not supported in HLSL
-variadic-macros
 vasinf
 vasinhf
 vatanf
@@ -19769,8 +19090,6 @@ vector size not an integral multiple of component size
 vector size too large
 vector swizzle '%0' is out of bounds
 vector swizzle is empty '%0'
-vector-conversion
-vector-conversions\fvexing-parse\nvisibility
 vector-library
 vector[]
 vector_size
@@ -19840,7 +19159,6 @@ vla.inc
 vla.index
 vla.negsize
 vla.next
-vla\rvla-extension
 vla_bound_not_positive
 vlog10f
 vlog1pf
@@ -19850,10 +19168,8 @@ void
 void %select{function|method|block}1 %0 should not return void expression
 void block should not return a value
 void type only allowed for function results
-void-ptr-dereference
 volatile
 volatile 
-volatile-register-var
 volatile:iso
 volatile:ms
 vprintf
@@ -19965,7 +19281,6 @@ weak attribute declared on a __strong type property in GC mode
 weak declaration cannot have internal linkage
 weak identifier %0 never declared
 weak-l
-weak-template-vtables\fweak-vtables
 weak_framework
 weak_import
 weak_library
@@ -20011,7 +19326,6 @@ worldRayDirection
 worldRayOrigin
 worldToObject
 writable atomic property %0 cannot pair a synthesized %select{getter|setter}1 with a user defined %select{getter|setter}2
-writable-strings\rwrite-strings
 write
 write will be dropped ('%0' is not qualified 'write' for shader stage '%1')
 write with atomic ordering or volatile write
@@ -20038,8 +19352,6 @@ x86_stdcallcc
 x86_thiscallcc
 x86_vectorcallcc
 x86mmx
-x8}0\t9
-xT?V
 xception
 xcore
 xdg-open
@@ -20051,12 +19363,9 @@ xscale
 xt_decorate_string
 xtraiter
 xyzw
-yE>cb
 you need to include <guiddef.h> before using the '__uuidof' operator
 you need to include <typeinfo> before using the 'typeid' operator
 ype_tag_for_dataired
-z>h4
-z\r8Pf
 zc*cC*z
 zc*cC*zz
 zcC*
@@ -20079,14 +19388,9 @@ zvC*i
 { "pid":1, "tid":
 { "pid":1, "tid":0, "ph":"X", "ts":
 { "traceEvents": [\n
-{EoB
-{KAI
 {RW}DispatchNodeInputRecord
 {RW}GroupNodeInputRecords or EmptyNodeInput
 {RW}ThreadNodeInputRecord
 {objc_class=}
 {objc_object=}
-|..\..\third_party\libc++\src\include\string_view:318: assertion __len <= static_cast<size_type>(numeric_limits<difference_type>::max()) failed: string_view::string_view(_CharT *, size_t): length does not fit in difference_type\n
 |<s64>truncated...
-}yXZ,
-~Mno-aa

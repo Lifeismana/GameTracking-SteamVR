@@ -2,17 +2,20 @@
  formatting error code 
 !! refusing to trigger minidump with debugger attached\n
 !s_sWriteImagePath.empty()
-"%/28;=#$019:>?
+%%.%dg
 %Y-%m-%d-%p_%I_%M_%S
 %a %b %d %H:%M:%S %Y
 %a %b %d %Y %H:%M:%S.%%03u
 %s %s startup with PID=%u, config=%s, runtime=%s, arch=%s\n
+%s%s%s%s%s
+%s%s\n
 %s-%llu.png
 %s: failed to create screenshots path: %s
 %s: failed to get display modes for display
 %s: failed to open prism mailbox (error:%d)\n
 %s: failed with error '%s' (%d)
 %s: unable to determine refresh rate
+%u != %zu
 ' is not a number.
 , last executing in 
 -1e+9999
@@ -153,12 +156,11 @@
 /user/waist
 /user/wrist/left
 /user/wrist/right
-14:22:51
+13:51:51
 1e+9999
 8c8f13b1-60eb-4b6a-a433-de86104115ac
 8d8f13b1-60eb-4b6a-a433-de86104115ac
 8e8f13b1-60eb-4b6a-a433-de86104115ac
-9a&g
 : exception thrown in JSON library
 <unknown>
 ================================================================================================\n
@@ -181,8 +183,6 @@
 ??_7codecvt_base@std@@6B@
 ??_7facet@locale@std@@6B@
 ??_7ios_base@std@@6B@
-?IPC::CIPCHandle::InitForExport
-?VR_OVERRIDE
 ?_BADOFF@std@@3_JB
 ?_Decref@facet@locale@std@@UEAAPEAV_Facet_base@3@XZ
 ?_Incref@facet@locale@std@@UEAAXXZ
@@ -342,6 +342,7 @@ GetTickCount64
 GetTokenInformation
 GetTokenInformation failed. GetLastError returned: %d\n
 Host
+IPC::CIPCHandle::InitForExport
 IPCPipe(%s) failed to read payload of %u bytes
 IPCPipe(%s) failed to write message of %u bytes because %s\n
 IPCPipe(%s): Next message type %u, seq %u, len %u\n
@@ -417,7 +418,6 @@ LoadPluginsFailed
 LocalAlloc
 LocalFree
 LocalizationManager
-MGiI
 MSVCP140.dll
 Mailbox %s received message %s, which it didn't have a handler for\n
 MainThrd
@@ -439,7 +439,7 @@ NoValidMotionEstimators
 NoValidRenderGraphs
 NotSupported
 NvAPI: Connected to renderdoc
-Oct  9 2026
+Oct 16 2026
 OpenEventA
 OpenFileMappingA
 OpenMutexA
@@ -490,7 +490,6 @@ Parsing of JSON string "%s" failed: %s\n
 PeekNamedPipe
 PhysicalDeviceMissingFeatures
 Predicting: %fms
-Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
 RENDERDOC API Not Found\n
@@ -498,7 +497,6 @@ RENDERDOC Enabled
 RENDERDOC_GetAPI
 RENDERDOC_GetAPI failed with code %d
 RPCRT4.dll
-RSDS
 RaiseException
 ReadFile
 ReadFile failed on %s after event was signaled because %s\n
@@ -822,6 +820,7 @@ VR_InitInternal2
 VR_IsInterfaceVersionValid
 VR_LOG_DEBUG
 VR_LOG_PATH
+VR_OVERRIDE
 VR_PATHREG_OVERRIDE
 VR_ShutdownInternal
 VerSetConditionMask
@@ -838,7 +837,6 @@ Warning
 Warning: Watchdog %s not properly cleaned up%s%s\n
 WideCharToMultiByte
 WriteFile
-Zjz\v
 [CPrismHost::SelectRenderGraph] Using render graph: %s
 [CPrismPluginManager] Failed to load prism plugin: %s from %s. Load error: %s
 [CPrismPluginManager] Failed to read path registry
@@ -1017,7 +1015,6 @@ greek
 handlers
 hu_hu
 hungarian
-i]Wb
 in Json::Value::duplicateAndPrefixStringValue(): Failed to allocate string value buffer
 in Json::Value::duplicateAndPrefixStringValue(): length too big for prefixing
 in Json::Value::duplicateStringValue(): Failed to allocate string value buffer
@@ -1132,7 +1129,6 @@ vrprismhost.exe
 vrprismhost_startup
 vrwebhelper
 win64
-wn>Jj
 zh_cn
 zh_tw
 {"is_system_process" : true }

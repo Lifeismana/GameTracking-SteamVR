@@ -25,7 +25,6 @@ InitializeConditionVariable
 QTgaFile
 QTgaHandler::canRead() called with no device
 QTgaPlugin
-RSDS2/
 Seek file/device for image read failed
 Sequential device (eg socket) for image read not supported
 SleepConditionVariableCS

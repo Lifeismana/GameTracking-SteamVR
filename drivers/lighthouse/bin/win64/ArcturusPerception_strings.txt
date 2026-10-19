@@ -3,7 +3,6 @@
   gyroDelivered
   gyroToRender
  !"#$%&'()*+,-./0123
- !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
  (error code 
  (expected: '
  (line 
@@ -14,8 +13,8 @@
  in number
  in string
  inflate 1.2.8 Copyright 1995-2013 Mark Adler 
+!!%s %c
 !!binary |
-!AxU
 !_connect_timer_started
 !_current_out
 !_engine
@@ -75,7 +74,6 @@
 !it->second.active
 !left_view.empty() && (left_view.depth() == CV_8U) && (left_view.channels() == 3 || left_view.channels() == 1)
 !parser.empty() && ptr
-!puhQ*
 !ret_buf
 !src.empty()
 !src.empty() && (src.depth() == CV_8U || src.depth() == CV_16S || src.depth() == CV_16U || src.depth() == CV_32F) && src.channels()<=4
@@ -88,7 +86,6 @@
 #"timestampInSeconds", "worldFromDevice.translation",,, "worldFromDevice.quaternion",,,, "linearVelocityOfDeviceInWorld",,, "angularVelocityOfDeviceInWorld",,, "gyroBiasesRadPerSec",,, "accelBiasesMetersPerSecSqr",,, "gravityInWorldInMetersPerSecSqr",,, "realImuFromPrecalibratedImu.quaternion",,,, "accelScaleFactor",,, "latencyInSeconds", "confidence"
 #"ts", "tx", "ty", "tz", "qw", "qx", "qy", "qz", "vx", "vy", "vz", "wx", "wy", "wz", "bg_x", "bg_y", "bg_z", "ba_x", "ba_y", "ba_z", "gx", "gy", "gz", "imu_qw", "imu_qx", "imu_qy", "imu_qz", "accel_scale_x", "accel_scale_y", "accel_scale_z", "latency", "confidence"
 #%02x%02x%02x
-#bML"
 #description: OpenCV trace file
 #iterations:     
 #thread file: %s\n
@@ -102,22 +99,29 @@ $base64$
 %.25g
 %016llx
 %512s %512[^\n]
-%6tB
 %RED%
 %Y-%m-%d_%H-%M-%S
 %YAML
 %YAML 1.
 %YAML:1.
 %YAML:1.0\n---\n
+%d.0
 %i %i %i %i
 %i//%i%i//%i%i//%i
+%s %s: %s\n
+%s %s\n
 %s (%s:%d)\n
 %s - NOT AVAILABLE\n
+%s = %s
+%s%s%s
+%s(%d): %s
 %s-%03d.txt
 %s/depth_%06d.png
 %s/filtered_depth_%06d.png
 %s/left_%06d.png
 %s/right_%06d.png
+%s: %s
+%s: %s\n
 %sC%d
 '"' - right-quote of string is missing
 '), where
@@ -142,21 +146,17 @@ $base64$
 (method != DECOMP_LU && method != DECOMP_CHOLESKY) || is_normal || src.rows == src.cols
 (mtype == CV_8U || mtype == CV_8S) && _mask.sameSize(*psrc1)
 (mtype == CV_8UC1 || mtype == CV_8SC1) && _mask.sameSize(*psrc1)
-(noLb5
 (size_t) res->ai_addrlen <= sizeof (*ip_addr_)
 (size_t)sz < _src.size()
 (size_t)valueInt == sz
 (symmetryType & (KERNEL_SYMMETRICAL | KERNEL_ASYMMETRICAL)) != 0
 (symmetryType & (KERNEL_SYMMETRICAL | KERNEL_ASYMMETRICAL)) != 0 && this->ksize <= 5
 (type == (((5) & ((1 << 3) - 1)) + (((1)-1) << 3)) || type == (((6) & ((1 << 3) - 1)) + (((1)-1) << 3)) || type == (((5) & ((1 << 3) - 1)) + (((2)-1) << 3)) || type == (((6) & ((1 << 3) - 1)) + (((2)-1) << 3)))
-):9ld
 ){O)I*E+@-;073370;-@+E*I)O)U*[+_-d0i3m7q;t@wEyIzO{U{[z_ydwitmqqmtiwdy_z[{U{OzIyEw@t;q7m3i0d-_+[*U)O)
 *.bmp;*.dib
 *.hdr;*.pic
 *.pbm;*.pgm;*.ppm;*.pxm;*.pnm
-*5KS
 *C33
-*NV12
 *buff_
 ,parentThread=%d,parent=%lld
 ,skip=%d
@@ -1448,11 +1448,9 @@ $base64$
 .xdata$x
 .xml
 .xml.gz
-/P8i
 /Resources/decimatedLeftController.obj
 /Resources/decimatedRightController.obj
 /tmp
-/yQA
 0 && "Not supported"
 0 < cn && cn <= CV_CN_MAX
 0 < thickness && thickness <= MAX_THICKNESS
@@ -1468,33 +1466,15 @@ $base64$
 0 <= roi.x && 0 <= roi.width && roi.x + roi.width <= m.cols && 0 <= roi.y && 0 <= roi.height && roi.y + roi.height <= m.rows
 0 <= shift && shift <= XY_SHIFT
 0 <= shift && shift <= XY_SHIFT && thickness >= 0
-009A
 0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ.-:+=^!/*?&<>()[]{}@%$#
-1!0D/i.
 1.2.8
-1:z8
-1>ocC>
-1A26b
-1wsHp
 2.0.0
 20161127
-3 FB
-333333
 33s?
-3?tr
 4.1.0
-4I7-
-4y5d6Q7@819$:
-52F*
-5r?lt
 6\n?fff?
 7Z:RARRo @RQo ?RRr Z"VJRr
-7~8A
-87;y)5'
 9D)5:
-9a&g
-9tzm
-;$:19@8Q7d6y5
 <!-- %s -->
 </opencv_storage>
 </opencv_storage> tag is missing
@@ -1510,18 +1490,9 @@ $base64$
 <opencv_storage>\n
 <tag:yaml.org,2002:
 =333?33
-=LUUUUU
-=cv::getGaussianKernel
 >f>RfR
 >fRAPCMDJDGCEA>H@JAMAZB]D_G`M`PaRc RATCWDZD]C_AfHdJcMcZb]`_]`W`TaRc
-? 5WOo
-?0#EG
-?333333
-?39HoKC
 ?456789:;<=
-?7zQ6$
-?7{KV\nU
-?8bunz8
 ??0?$basic_ios@DU?$char_traits@D@std@@@std@@IEAA@XZ
 ??0?$basic_iostream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@@Z
 ??0?$basic_istream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@_N@Z
@@ -1755,20 +1726,15 @@ $base64$
 ??_7CaptureSessionDelegate@ST@@6B@
 ??_FCSVFileWriter@ST@@QEAAXXZ
 ??_FXRIPCClient@PE@@QEAAXXZ
-?@En[vP
-?AT5h14
 ?BlockForever@SharedMemoryBuffer@PE@@2KB
 ?Detach@CurrentScheduler@Concurrency@@SAXXZ
 ?Free@Concurrency@@YAXPEAX@Z
 ?Get@CurrentScheduler@Concurrency@@SAPEAVScheduler@2@XZ
-?IUUUUU
 ?Id@CurrentScheduler@Concurrency@@SAIXZ
 ?Identity@Intrinsics@ST@@SA?BU12@HH@Z
 ?InvalidSize@SharedMemoryBuffer@PE@@2_KB
 ?PPLParallelForEventGuid@Concurrency@@3U_GUID@@B
-?UUUUUU
 ?Zero@Intrinsics@ST@@SA?BU12@XZ
-?\fAVk
 ?_CheckTaskCollection@_UnrealizedChore@details@Concurrency@@IEAAXXZ
 ?_Confirm_cancel@_Cancellation_beacon@details@Concurrency@@QEAA_NXZ
 ?_CurrentContext@_Context@details@Concurrency@@SA?AV123@XZ
@@ -1911,7 +1877,6 @@ $base64$
 ?enqueuePoseDataForWarping@DepthFromStereo@PE@@QEAAXAEBUMatrix4@ST@@AEBM00@Z
 ?estimateClockOffset@ClockSynchronizerToHost@ST@@QEAAXXZ
 ?extrapolatePose@Matrix4@ST@@QEBA?AU12@AEAU?$Vector3@M@2@000N@Z
-?f`Y4
 ?ffffff
 ?fillExternalStereoCalibrationData@VisualInertialCalibration@ST@@QEAAXQEAUIntrinsics@2@QEAUKBIntrinsics@2@AEAUExtrinsics@2@@Z
 ?fillFrom@Intrinsics@ST@@QEAAXW4FillingStrategy@12@AEBU12@HH@Z
@@ -1926,7 +1891,6 @@ $base64$
 ?formattedStringFromLocaltime@ST@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBV23@@Z
 ?fromExtrinsics@Matrix4@ST@@QEAAXMMMMMMM@Z
 ?fromRotationVector@Matrix4@ST@@QEAAXAEBU?$Vector3@M@2@@Z
-?g^FT
 ?getBlueGain@WhiteBalanceGains@ST@@QEBAMXZ
 ?getColorFrame@MultiCameraColorFrame@ST@@QEBA?AUColorFrame@2@H@Z
 ?getCurrentMetrics@XRSession@PE@@QEAA?AW4XRStatus@2@AEAUPerformanceMetrics@2@@Z
@@ -1967,7 +1931,6 @@ $base64$
 ?getWidth@KBIntrinsics@ST@@QEBAHXZ
 ?getloc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QEBA?AVlocale@2@XZ
 ?getloc@ios_base@std@@QEBA?AVlocale@2@XZ
-?gkM
 ?glProjectionMatrix@ColorFrame@ST@@QEBA?AUMatrix4@2@XZ
 ?glProjectionMatrix@DepthFrame@ST@@QEBA?AUMatrix4@2@XZ
 ?hasNan@Matrix4@ST@@QEBA_NXZ
@@ -2019,8 +1982,6 @@ $base64$
 ?isZero@Matrix4@ST@@QEBA_NXZ
 ?k1k2k3p1p2AreZero@Intrinsics@ST@@QEBA_NXZ
 ?k3p1p2AreZero@Intrinsics@ST@@QEBA_NXZ
-?kxG2)
-?lZE
 ?lastSessionError@XRSession@PE@@QEBAPEBDXZ
 ?lock@SystemWideMutex@PE@@QEAAXXZ
 ?lookAt@Matrix4@ST@@SA?AU12@AEBU?$Vector3@M@2@00@Z
@@ -2060,8 +2021,6 @@ $base64$
 ?provideFrameAndPose@RoomLayoutEstimation@PE@@QEAAXAEBUMultiCameraColorFrame@ST@@AEBUMatrix4@4@@Z
 ?put@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@D@Z
 ?put@?$time_put@DV?$ostreambuf_iterator@DU?$char_traits@D@std@@@std@@@std@@QEBA?AV?$ostreambuf_iterator@DU?$char_traits@D@std@@@2@V32@AEAVios_base@2@DPEBUtm@@PEBD3@Z
-?qBJ
-?r95
 ?rawFromRectified@ColorFrame@ST@@QEBA?AUMatrix4@2@XZ
 ?read@?$basic_istream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@PEAD_J@Z
 ?readByte@SharedMemoryBuffer@PE@@QEAA_NAEAEK@Z
@@ -2217,8 +2176,6 @@ $base64$
 ?xsputn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JPEBD_J@Z
 ?yData@ColorFrame@ST@@QEBAPEBEXZ
 ?ySize@ColorFrame@ST@@QEBA_KXZ
-?ysB
-@#K#K#K#K#K#K#K#K
 @aEMCLBJBICGEFFFHGIIIKHPGTE[ GTJLLHMGOFPFRGSISKRPQTO[ QTTLVHWGYFZF\G]I]K\PZWZZ[[\[^Z_YaV
 @cAQBODMFMGNHPHSF[ GNGSE[ GPFTD[F[ HSJPLNNMPMRNSPSSQ[ RNRSP[ RPQTO[Q[ SSUPWNYM[M]N^P^S\X ]N]R\V\Z ]P[U[X\Z][_[aYbW
 @cTGSHTIUHTGRFOFLGJIIKHNGRE[D_Ca OFMGKIJKINGWF[E^D`CaAb?b>a>`?_@`?a ^G]H^I_H_G]F aFZFWGUITKSNRRP[O_Na ZFXGVIUKTNRWQ[P^O`NaLbJbIaI`J_K`Ja `F\T[X[Z\[_[aYbW aF]T\X\Z][ DM^M
@@ -2270,7 +2227,6 @@ Assertion failed: %s [%i] (%s:%d)\n
 Attribute name should be followed by '='
 Attribute value should be put into single or double quotes
 Autotrace call
-B\vp\n0
 BaGBQPFb FBPP EBPQ EB\B^I[B Ga\a Fb\b^[[b
 Background full depth estimation
 Backtrace
@@ -2299,7 +2255,6 @@ BitBlt
 Block sequence elements must be preceded with '-'
 Both input images must have CV_8UC1
 Brute Force Search
-C-Yn
 C.type() == type
 CANCEL
 COI is not supported by the function
@@ -2393,11 +2348,9 @@ CurveZMQMESSAGEC
 CurveZMQMESSAGES
 CurveZMQREADY---
 D % 16 == 0
-D7q/;M
 DEALER
 DEBUG
 DISABLED
-D]eV
 D`DOGQKSPTTTYS]Q`O
 D`DRJR ORUR ZR`R
 D`DR`R
@@ -2445,7 +2398,6 @@ Distortion coefficients must be 1x4, 4x1, 1x5, 5x1, 1x8, 8x1, 1x12, 12x1, 1x14 o
 Division by zero occurred
 Do we want to get a right depth frame from the pipeline.
 Double hyphen '--' is not allowed in the comments
-E$F1G@HQIdJyK
 E:\code\arcturus-xr\ext\opencv\miniopencv\modules\imgcodecs\src\bitstrm.cpp
 EHT3256741209
 ERROR
@@ -2505,7 +2457,6 @@ E`VNULSKQKOLNMMOMRNTOUQVSVUUVS OMNONROT QKPLOOORPUQV VKVSWUYVZV\U]R]O\L[JYHWGTFQ
 E`WMTKQKOLNMMOMRNTOUQVTVWT WMTLQLOMNONROTQUTUWT VKVSWUYVZV\U]S]O\L[JYHWGTFQFNGLHJJILHOHRIUJWLYNZQ[U[YZ VKWKWSXUZV YV[U\S\O[LZJYIWHTGQGNHLIKJJLIOIRJUKWLXNYQZUZYYYZ
 E`WNVLTKQKOLNMMPMSNUPVSVUUVS QKOMNPNSOUPV WKVSVUXVZV\T]Q]O\L[JYHWGTFQFNGLHJJILHOHRIUJWLYNZQ[T[WZYYZX XKWSWUXV
 EfNSOUQVSVUUVSVQUOSNQNOONPMSMVNYP[S\V\Y[[Y\W]T]P\MZJXIUHRHOIMJKLIOHSHXI]KaMcPeTfYf]e`cba KLJNIRIXJ\L`NbQdUeYe]d_cba POTO OPUP NQVQ NRVR NSVS OTUT PUTU aLaNcNcLaL bLbN aMcM aVaXcXcVaV bVbX aWcW
-EiUL
 Empty tags are not supported
 Empty type name
 EmptyClipboard
@@ -2687,9 +2638,6 @@ Frame associated to multiview Depth
 Frame given to an OCCFileWriter thatis not currently writing.
 Frame window can not be created
 FreeLibrary
-Fv[Yu
-Fw?Mex?Rpy?
-GC$P
 GDI32.dll
 GL 1.1 and up are not supported
 GLX 1.2 and up are not supported
@@ -2927,6 +2875,7 @@ GL_ARB_viewport_array
 GL_ARB_window_pos
 GL_ATIX_point_sprites
 GL_ATIX_texture_env_combine3
+GL_ATIX_texture_env_route
 GL_ATIX_vertex_shader_output_point_size
 GL_ATI_draw_buffers
 GL_ATI_element_array
@@ -3511,10 +3460,9 @@ Global\Occipital_XRClient_Unique_Lock
 Global\Occipital_XRClient_VeryLow_Lock
 Global\Occipital_XRService_Unique_Lock
 Gpu API call
-H$6t
-H*0"ZOW
 H264
 HELLO
+HEVC
 HYLFL[ LFXF
 HYLFL[ L[X[
 HZLFL[ LFYF LPTP
@@ -3757,12 +3705,9 @@ Host is down
 Host not found
 Host unreachable
 How to build the splat matrix
-I.S(ja
-IBJGQ$%&'()*+,-./0123456789:;<=M
 IDAT
 IDispatch error #%d
 IEND
-IFEA
 IHDR
 IIDFromString
 IMU Extrinsics
@@ -3914,8 +3859,6 @@ I][MQMONMPLSLVMYNZP[R[TZVXWUWRVOUNSM
 I]]Z]X\U[SXPVOSNONLOJPIQISJTLUOVSVVUXT[Q\O]L]J
 I^LRJTIWIYJ[L[NZPX RRPXPZQ[S[UZWXXUXR XRYVZW\W^V
 Identity
-If3Q8
-IiGM>nw
 IjNQOOQNSNUOVQVSUUSVQVOUNTMQMNNKPISHWH[I^K`NaRaW`[_]]`ZcVfQiMk WHZI]K_N`R`W_[^]\`YcTgQi POTO OPUP NQVQ NRVR NSVS OTUT PUTU eLeNgNgLeL fLfN eMgM eVeXgXgVeV fVfX eWgW
 Image step is wrong
 Images will get downsampled until they width is smaller than the given value. Default is 4096.
@@ -4236,7 +4179,6 @@ K[UUTSRRPRNSMTLVLXMZO[Q[SZTX PRNTMVMYO[ VRTXTZV[XZYY[V WRUXUZV[
 K[UUTSRRPRNSMTLVLXMZO[Q[SZTX PRNTMVMYO[ ZFTXTZV[XZYY[V [FUXUZV[
 K[VLWKWOVLTKQKOLNMMPMSNVOWQXTXVW QKOMNPNSOVQX TXUWVU VSVX WSWX TSYS
 K[YOQOOPNQMSMUNWPXRXTWUVVTVRUPYP QOOQNSNVPX RXTVUTUQSO
-K\fAd\rq
 KeHxKxeNz)347BqNQgjDF3Y6INBHZwv6(mKJ@c4R
 Kernel32.dll
 Key is empty
@@ -4389,9 +4331,6 @@ LocalAlloc
 LocalFree
 Local\
 LodePNG
-LwH'
-LyKdJQI@H1G$F
-M8MF
 MESSAGE
 MFCopyImage
 MFCreateMediaType
@@ -4399,7 +4338,6 @@ MFCreateMemoryBuffer
 MFCreateSample
 MFStartup
 MFTEnumEx
-MGiI
 MSVCP140.dll
 MVOMOV OMUM
 MVOMOV OMUM OQSQ
@@ -4618,7 +4556,6 @@ MultiByteToWideChar
 Multiview Depth
 Multiview Depth (Filtered)
 NEON
-NJ2"v
 NO_ERROR
 NRRROPNNNLOKPK
 NULL
@@ -4630,6 +4567,7 @@ NULL or empty filename
 NULL window
 NUSMQSQURVSV PPTP
 NUSMSTRVPVOTOS
+NV12
 NVNNNVVVVNNN OOOU POPU QOQU RORU SOSU TOTU UOUU
 NVNVPSRO UFOXOZQ[SZTYVV VFPXPZQ[
 NVNVPSRO UFOXOZQ[SZTYVV VFPXPZQ[ PNVN
@@ -4713,9 +4651,6 @@ Not supported escape character
 Null comment
 Null pointer
 Null string pointer
-N}Xo
-O*9y]
-O1A[
 OPENCV: Trying to disable baseline CPU feature: '%s'. This has very limited effect, because code optimizations for this feature are executed unconditionally in the most cases.\n
 OPENCV: Trying to disable unavailable CPU feature on the current platform: '%s'.\n
 OPENCV: Trying to disable unknown CPU feature: '%s'.\n
@@ -4756,8 +4691,6 @@ OWOVSQUNVLWIWGVFTGSIQQNZKaJdJfKgMfNcOZP[R[TZUYWV
 OXOVQSSO VFPXPZQ[S[UZVYXV PNWN
 OXRRUOWLXIXGWFUGTIKdKfLgNfOcPZQ[S[UZVYXV TISNRRO[M`Kd
 OXXROMOWXR URPO URPU RRPQ RRPS
-OZQ%
-OZw3(?
 OffsetRect
 One of arguments' values is out of range
 Only collections as YAML streams are supported by this parser
@@ -4797,7 +4730,6 @@ OptionMissingValueException
 OptionNotRecognizedException
 Output after filtering
 OutputDebugStringA
-P09A
 PAIR
 PE::SharedMemoryBuffer::That::initialize_Create
 PE::SharedMemoryBuffer::That::initialize_Open
@@ -4842,8 +4774,6 @@ Parent region exceeds children count. Bailout
 Parsing error
 PathFindExtensionA
 PathFindFileNameA
-Pd#93-
-Pe6^
 PeekMessageA
 Peer-Address
 PerceptionEngine HUD
@@ -4860,13 +4790,10 @@ Protocol family not supported
 Protocol not supported
 Protocol wrong type for socket
 Providing a value for option key `%s' is mandatory.
-Q!RDSiT
 QSRQQRRSSRRQ
-Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
 R [%.3f %.3f %.3f] T [%.4f %.4f %.4f]
-R1h58
 READY
 ROUTER
 RRR>Rf
@@ -4906,12 +4833,10 @@ RtlCaptureContext
 RtlLookupFunctionEntry
 RtlVirtualUnwind
 SADWindowSize must be odd, be within 5..255 and be not larger than image width or height
-SAnT
 SEND
 SHELL32.dll
 SHGetFolderPathA
 SHLWAPI.dll
-SKyu
 SSE2
 SSE3
 SSE4.1
@@ -4920,7 +4845,6 @@ SSSE3
 STREAM
 STWIN
 SUBSCRIBE
-SY?gds
 Sampling Points Ref %lu
 Scale Accuracy
 ScreenToClient
@@ -4984,7 +4908,6 @@ SwapBuffers
 SyntheticLighthouse
 System call failure in %s [%s]: %s (context: %s)\n
 System call failure in %s [%s]: %s (context: %s)\nMake sure all XR/Steam processes have been killed and try again.
-T>ocC>
 TRUE
 TSRH
 Tabs are prohibited in YAML!
@@ -5045,7 +4968,6 @@ TranslateMessage
 True
 Try to prevent background grid cell to leak in foreground
 TryEnterCriticalSection
-Ts\ne
 UKF Accel Bias
 UKF Gyro Bias
 UKF imuFromFrame
@@ -5103,7 +5025,6 @@ VScn::contains(scn)
 Valid XML should start with '<?xml ...?>'
 Valid name no data record of requested
 Value 'null' is not supported by this parser
-Vc0a
 Vectors with element size %d are not supported. Please, modify OutputArray::create()\n
 VisualInertialTracker
 VisualLogger
@@ -5175,7 +5096,6 @@ WSAIoctl
 WSAPoll
 WSASocketA
 WSAWaitForMultipleEvents
-WZTz-
 WaitForSingleObject
 WaitForSingleObjectEx
 WakeAllConditionVariable
@@ -5211,14 +5131,10 @@ XRServiceControlOutput_Mid
 XRServiceControlOutput_VeryLow
 XRSession::readWorldFromCameraPoses is not yet implemented!
 XSUB
-XsBI
-Y@Zq[
-YOQ=Nm}
 YT5K
 You should explicitly call download method for cuda::GpuMat object
 You should explicitly call mapHost/unmapHost methods for ogl::Buffer object
 ZMQbg/
-Zjz\v
 [ INFO:
 [ WARN:
 [%s (%i)] - %s\n
@@ -5245,7 +5161,6 @@ Zjz\v
 [StructureApps]
 [Temp]
 [empty_any]
-[h1R
 [normal=%.3f %.3f %.3f] [distToOrigin=%.3f] [abcd=%.3f, %.3f, %.3f, %.3f]
 \Dropbox\info.json
 \n        attribute vec4 bcde;\n        attribute vec2 adcc;\n        uniform mat4 aaa;\n        uniform mat4 bcb;\n        varying vec2 bedb;\n        void main()\n        {\n            gl_Position = aaa*bcb*bcde;\n            bedb  = adcc;\n        }\n        
@@ -5305,16 +5220,10 @@ Zjz\v
 \n<!-- next stream -->\n
 \nOpenCV build configuration is:\n%s\n
 \nRequired baseline features:\n
-\rmj>zjZ
-\rr?pxs?d
-\t\t\n\n\v\v\f\f\f\f\r\r\r\r
-\t\t\t\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r
 \u%04x
 \u2028
 \u2029
-\vp09A
 ^RROR
-^oEZ_
 _Cnd_broadcast
 _Cnd_destroy
 _Cnd_destroy_in_situ
@@ -5493,11 +5402,8 @@ _ubabd
 _ubbdc
 _ubbed
 _unlock_file
-_vOn?
 _wopen
 _write
-`09A
-aAM"
 a_size.height == len
 a_size.width == len
 aabd
@@ -5554,7 +5460,6 @@ atoi
 atyp == 0x01 || atyp == 0x03 || atyp == 0x04
 b,%d,%lld,%lld,%lld
 bKGD
-b\vp\n0
 bad \u escape: 
 bad allocation
 bad array new length
@@ -5942,6 +5847,7 @@ cv::fs::symbolToType
 cv::gemm
 cv::getContinuousSize2D
 cv::getFontData
+cv::getGaussianKernel
 cv::getKernelType
 cv::getStructuringElement
 cv::hal::cpu_baseline::`anonymous-namespace'::RGB2Gray<unsigned char>::RGB2Gray
@@ -6152,7 +6058,6 @@ cvUpdateWindow
 d == 2 && ((sizes[0] == sz.height && sizes[1] == sz.width) || (allowTransposed && sizes[0] == sz.width && sizes[1] == sz.height))
 d == 2 && (sizes[0] == 1 || sizes[1] == 1 || sizes[0]*sizes[1] == 0)
 d == 2 && sz.area() == sizes[0]*sizes[1]
-dQy/
 data && m_current && count >= 0
 data == datastart
 data error
@@ -6216,7 +6121,6 @@ errno == EAGAIN
 error
 error not defined
 estimated error: 
-ewh/?y
 exceeded maximum nesting depth
 exit
 expand 32-byte k
@@ -6228,7 +6132,6 @@ expected value, got
 expf
 extrinsics
 extrinsicsOffsets
-fP~V
 face
 false
 fatal
@@ -6264,7 +6167,6 @@ fs->eof()
 fseek
 fsetpos
 ftell
-fu`z
 func
 func != 0
 func != 0 && cn <= 4
@@ -8770,14 +8672,11 @@ glWindowRectanglesEXT
 glWriteMaskEXT
 glewInit failed: %s (%i)
 global_queue
-gqr<
 greater than
 greater than or equal to
 green
 guide.depth() == CV_8U && (guide.channels() == 1 || guide.channels() == 3)
 guide.type() == CV_8UC1 || guide.type() == CV_8UC3
-gz?Rpy?Mex?
-hPU3
 header crc mismatch
 height
 hint score %f
@@ -8794,10 +8693,8 @@ i < sz.height
 i > 0 && i < sz.height
 i >= 0 && (size_t)i < vv.size()
 i1 >= 0 && j < ndsts && dst[j].depth() == depth
-i91k
 iDepth == CV_8U || iDepth == CV_8S
 iTXt
-i]Wb
 id_ == linger_timer_id
 id_ == reconnect_timer_id
 id_ == reconnect_timer_id || id_ == connect_timer_id
@@ -8969,8 +8866,6 @@ ksize.width > 0 && ksize.width % 2 == 1 && ksize.height > 0 && ksize.height % 2 
 ktype == CV_32F || ktype == CV_64F
 ktype == CV_8U || ktype == CV_32S || ktype == CV_32F || ktype == CV_64F
 l,%lld,"%s",%d,"%s",0x%llX\n
-l6qnk
-lDa>
 leading 0s not permitted in numbers
 left-brace of top level is missing
 left.size() == right.size() && left.type() == right.type() && left.depth() == CV_8U
@@ -9048,7 +8943,6 @@ mv && n > 0
 mv[i].size == mv[0].size && mv[i].depth() == depth
 my_object
 n.isString() && String(n) == name_
-nV@'1
 name
 name_len <= UCHAR_MAX
 narrays <= 1000
@@ -9106,9 +9000,6 @@ options.recv_routing_id
 options.type == ZMQ_DISH || options.type == ZMQ_RADIO || options.type == ZMQ_DGRAM
 out of memory
 output_size
-p09A
-p6te
-p@ucwsifdh
 pHYs
 parallel_for
 parallel_for_body
@@ -9158,8 +9049,6 @@ property uchar red\n
 psrc1->sameSize(*psrc2) && type1 == type2
 ptr >= bufferstart && ptr <= bufferEnd()
 ptr is NULL
-px]y
-qHEVC
 quot
 r == Range::all() || (0 <= r.start && r.start < r.end && r.end <= m.size[i])
 radius >= 0 && thickness <= MAX_THICKNESS && 0 <= shift && shift <= XY_SHIFT
@@ -9184,11 +9073,9 @@ rewind
 rgn1 != 0
 rgn2 != 0
 rhs.data == 0 || (rhs.type() == type && rhs.rows == m)
-rlRN
 round
 roundf
 rowFilter && columnFilter
-ru&o
 sa_ && sa_len_ > 0
 same
 scaleFactorsCrossAxis_accel
@@ -9301,7 +9188,6 @@ sz.width
 sz.width % 2 == 0 && sz.height % 2 == 0
 sz.width % 2 == 0 && sz.height % 3 == 0
 sz[i] <= (size_t)INT_MAX
-t?pxs?
 tEXt
 tIME
 tRNS
@@ -9355,6 +9241,7 @@ u->refcount == 0
 u->urefcount == 0
 u.cols >= nm && vt.rows >= nm && (w.size() == Size(nm, 1) || w.size() == Size(1, nm) || w.size() == Size(vt.rows, u.cols))
 uchar
+ucwsifdh
 uint
 uint16
 uint8
@@ -9386,7 +9273,6 @@ use_half
 usemtl
 username.length () <= UCHAR_MAX
 ushort
-vQO+t
 v[j].empty()
 value[0] == value[1] && value[0] == value[2] && value[0] == value[3]
 value_len_ <= 0x7FFFFFFF
@@ -10170,10 +10056,7 @@ void __cdecl cv::subtract(const class cv::_InputArray &,const class cv::_InputAr
 void __cdecl cv::transpose(const class cv::_InputArray &,const class cv::_OutputArray &)
 void __cdecl cv::updateWindow(const class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)
 void __cdecl cv::validateDisparity(const class cv::_InputOutputArray &,const class cv::_InputArray &,int,int,int,int)
-w+OQvr
 w.type() == u.type() && u.type() == vt.type() && u.data && vt.data && w.data
-w3Xc
-wXR\r
 warn
 warning
 warnings
@@ -10310,20 +10193,15 @@ whitePt[1] == softdouble::one()
 wholeSize.width > 0 && wholeSize.height > 0
 width
 winterfresh
-wn>Jj
 write_mode
 written
 written_len <= (int)buffer.size()
 x%02x
 xvalue.check ()
-y9*O
 yLowerBoundAppliedToCurrCameraInMeters
 yUpperBoundAppliedToCurrCameraInMeters
 z4I5z
 zTXt
 zap_required ()
-zkmf
 {custom check}
-{kHw
 ~/tmp/_remote_cache_dps
-~GL_ATIX_texture_env_route

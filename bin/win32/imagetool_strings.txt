@@ -1,5 +1,3 @@
-                       
-                                                                        !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
            =======*************=*******===========+++++++++++++++++++++
         "%s[%.20g,%.20g]": 
         "I%.20g": %.*g,\n
@@ -395,7 +393,6 @@
     too repetitive; using fallback sorting algorithm\n
     white point: (%g,%g)\n
     width=%.20g
-   ,,,888DDDPPP```ppp
    -channel A -fx '%+lf*i %+lf*j %+lf*i*j %+lf;\n
    -channel B -fx '%+lf*i %+lf*j %+lf*i*j %+lf;\n
    -channel G -fx '%+lf*i %+lf*j %+lf*i*j %+lf;\n
@@ -429,6 +426,7 @@
    subframe_width=%.20g, subframe_height=%.20g
    width  = %.20g
   "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">\n
+  %.*s
   %.20g: %s (%s)
   %04X %s: %s
   %8ld: %s %s %s\n
@@ -938,11 +936,11 @@
   x y scale\n  currentfile buffer readline pop\n  token pop /columns exch def\n  token pop /rows exch def pop\n  currentfile buffer readline pop\n  token pop /class exch def pop\n  currentfile buffer readline pop\n  token pop /colorspace exch def pop\n  currentfile buffer readline pop\n  token pop /compression exch def pop\n  class 0 gt { PseudoClassImage } { DirectClassImage } ifelse\n  grestore\n
   x y scale\n  currentfile buffer readline pop\n  token pop /columns exch def\n  token pop /rows exch def pop\n  currentfile buffer readline pop\n  token pop /class exch def pop\n  currentfile buffer readline pop\n  token pop /compression exch def pop\n  class 0 gt { PseudoClassImage } { DirectClassImage } ifelse\n  grestore\n
   x_off[%d]: %.20g,  y_off[%d]: %.20g
- !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
- !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
- !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz{\]^_`abcdefghijklmnopqrstuvwxyz{|}~
- !HJsw
  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">\n
+ #%lu
+ %*.*lg
+ %*s
+ %+lf%s
  %.20g,%.20g
  %.20gx%.20g %s\n
  (Normalized)\n
@@ -959,38 +957,31 @@
  -c showpage
  .XoO+@#$%&*=-;:>,<1234567890qwertyuipasdfghjklzxcvbnmMNBVCZASDFGHJKLPIUYTREWQ!~^/()_`'][{}|
  10 cs `%s'
- 5,hC
  ?? ??? ???? ???? ????? ??? ????? ???????!
  A1B'K2L@CIF/MSP"E3H9O6R^DJG>NTQ,*5<-U8V.%[$+X!&;:4\0Z7(_?W]#Y)=WriteBRAILLEImage
- ABm A
- AReadWBMPImage
  BAm
- Bpo
  CON
  CON\n
- DL6
  EMF
  FD thread=%#x
  FD thread=%#x buffer_condition:{%s}\n  watch->pollfd.events:{%s} watch->pollfd.revents:{%s} channel->revents:{%s}
  FD thread=%#x buffer_condition=%s\n  watch->pollfd.events={%s} watch->pollfd.revents={%s} channel->revents={%s}\n
  Found a generic profile, type %s\n
  Glas fr
- J*qA
  Kowalsky v
+ L %g %g
  MSG
  MSG\n
  SOCK
  SOCK sock=%d
  WSASetEvent(%p)
  ZYX
- \rgDx
  a yl dybry gw
  all help\n
  but running with 
  cair no p
  d'un c
  de t
- de&OK
  deflate 1.2.11 Copyright 1995-2017 Jean-loup Gailly and Mark Adler 
  dfb
  do ping
@@ -1004,7 +995,6 @@
  ha qelq dhe nuk m
  hata mo dhea-phorc
  i ?vrst konji? do?o
- i4w
  inflate 1.2.11 Copyright 1995-2017 Mark Adler 
  invalidly modified type 
  is not supported
@@ -1012,11 +1002,9 @@
  me nou?t.
  mie n'ma.
  mjuka tuvor.
- mnn
  mul
  mund t
  noite, vov
- pWA
  pa m
  pas.
  recognized eXIf chunk
@@ -1035,22 +1023,11 @@
  with values from %.*lg to %.*lg\n
  xylofon.
  {0x%08x, 0x%08x}
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!!!333EEETTTfffxxx
-!!#&&)++.123669;<32*&
-!1AQaq
-!3fl
-!4]dS
-!7WQ
-!AxU
+!%d%c
 !DOCTYPE
 !G_HOOK_IN_CALL (hook)
-!GfM
-!GnA
-!R#$J!"T$%\(*Y57L%'a'(d)+l()g,.s*,x.1{.0v03~49w15i
 !SOURCE_BLOCKED (source)
 !SOURCE_DESTROYED (source)
-!VuCh
 ![CDATA[
 !container_class || info->container_class == container_class
 !context->awaiting_pop
@@ -1061,9 +1038,6 @@
 !g_type_is_a (prerequisite_type, interface_type)
 !layout->log_attrs
 !lock->writer_locked
-!puhQ*
-!qER
-!waPSR
 " of size %lux%lu%+ld%+ld
 " shape="rect" coords="%.20g,%.20g,%.20g,%.20g" alt="" />\n
 " transform="matrix(%g %g %g %g %g %g)">\n
@@ -1071,17 +1045,15 @@
 " transform="scale(%g,%g)">\n
 " transform="translate(%g,%g)">\n
 """"""""""""""=""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""=="""
-"""DDDUUUwww
-"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################"###########################
+"%%%c"
+"%%[%s"
 "%.1024s c %.1024s",\n
 "%.1024s\n
 "%.20g %.20g %.20g %.20g ",\n
 "%.20g %.20g %.20g %.20g",\n
 "-sPDFPassword=%s" 
 "/>\n</g>\n</svg>\n
-"2BRbr
-"L\v1a
-"OaF
+"1;1;%d;%d
 "\nccc
 "segoe ui" = "segoe ui,meiryo,malgun gothic,microsoft jhenghei,microsoft yahei,gisha,leelawadee,arial unicode ms,browallia new,mingliu,simhei,gulimche,ms gothic,sylfaen,kartika,latha,mangal,raavi"
 #    plot [0:2][-.2:1] "lut.dat" with lines\n
@@ -1104,10 +1076,10 @@
 # window = %s\n
 # window-support = %.*g\n
 ####$$$$%%%%&&&&''''(((())))****++++
+#%.*s\n
 #%02X
 #%04lx
 #%d;2;%d;%d;%d
-#&cK=YB
 #'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'
 #'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'
 #'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'#'/
@@ -1118,23 +1090,15 @@
 #00000000
 #000000ff
 #000F
-#0BYs
-#0RX
-#1e\tA
-#3CScs
-#40*1Q|
-#7Zu
 #?RADIANCE
 #?RADIANCE\n
 #?RGBE
-#DUnrecognized alpha channel width
 #FFF0
 #FIG
 #FIXED
 #PCDATA
 #PES
 #asV`
-#bML"
 #bdbdbd
 #define
 #define %1024s %ld
@@ -1142,27 +1106,13 @@
 #define %s_width %.20g\n
 #dfdfdf
 #ffffff
-#jPJS
-#nyf
-#tB5
-#}3Tt
-$3br
-$4DTdt
-$D\r7dt
-$Eyk6
-$FRw
-$RJSz1
-$SM2
-$lWv
+#x%X
 $lumi
-$rGM4
 $tech
-$uS\nB
 $wtpt
 %!PS-Adobe-3.0 EPSF-3.0\n
 %!PS-Adobe-3.0\n
 %%!PS-Adobe-3.0\n
-%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%==============BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB=====ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ==ZZZZZZZZZZZZZZZ=____________________________==_="""""""""""=====================================================
 %%%%BeginData:%13ld %s Bytes\n
 %%%%BeginPreview: %.20g %.20g %.20g %.20g\n%%  
@@ -1192,6 +1142,7 @@ $wtpt
 %%DocumentNeededResources: font Times-Roman\n
 %%DocumentProcessColors: Black\n
 %%DocumentProcessColors: Cyan Magenta Yellow Black\n
+%%EOF\n
 %%EndComments\n
 %%EndData\n
 %%EndDefaults\n\n
@@ -1209,9 +1160,18 @@ $wtpt
 %%PageTrailer\n
 %%Pages: 1\n
 %%Trailer\n
-%&'()*456789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
 %*[^-]-%*[^-]-%[^-]
 %*[^-]-%[^-]
+%+.20g
+%+f%+f
+%+g%+g
+%+ld%+ld
+%.*g
+%.*g%%
+%.*g%s
+%.*g%s%s
+%.*g'\n
+%.*g, 
 %.100s
 %.1024s
 %.1024s:%.1024s
@@ -1227,9 +1187,11 @@ $wtpt
 %.20g %.20g\n1\n%d\n
 %.20g %.20g\n1\n1\n1\n1\n
 %.20g %.20g\n1\n1\n1\n8\n
+%.20g 0 R 
 %.20g 0 obj\n
 %.20g%s
 %.20g%s%s
+%.20g, 
 %.20g,%.20g
 %.20g,%.20g,
 %.20g,%.20g,%.20g 
@@ -1241,6 +1203,7 @@ $wtpt
 %.20g/%.20g, 
 %.20g/%f/%fdb 
 %.20g=>%.20gc 
+%.20g\n
 %.20gc 
 %.20gx%.20g
 %.20gx%.20g 
@@ -1252,9 +1215,13 @@ $wtpt
 %.20s
 %.20s%d
 %.24s
+%.2s
+%.30s_%d
 %.32s
+%.4s
+%.6s
 %.76s
-%0*VH
+%.8s
 %0.3fu
 %0.3fu %lu:%02lu.%03lu
 %010lu 00000 n \n
@@ -1277,46 +1244,56 @@ $wtpt
 %2048s %2048s %2048s
 %2lu:
 %5.2lf\t%.*g\n
-%5EUeu
 %6d unresolved strings\n
 %8.*g %.*g\n
 %8lu 
 %I64i
 %I64u
-%Kl4
 %PDF-
 %S: %lu %lx
-%W! _.*]<5Z
+%Xp>
 %Y:%m:%d:%H:%M:%SUTC
-%YB~L
-%bgq
+%d (%s)
 %d (Adam7 method)
 %d (Not interlaced)
 %d (Unknown method)
+%d +X %d
 %d name records
 %d tEXt/zTXt/iTXt chunks were found
 %d were found
+%d#%d#%s=
+%d#%d=
+%d, %d
 %d-%d-%dT%d:%d:%d
 %d-%d-%dT%d:%d:%d%d:%d
-%d=kZ
+%d.%d
 %dx%d%+d%+d
+%f\n%G\n%b
 %g  %g  %g\n
 %g %g %g %g %g %g %g %g
 %g %g moveto\n
 %g %g scale\n
 %g %g translate\n
 %g 0 0 %g %.20g %.20g cm\n
+%g,%g 
+%g,%g,%g
 %gx%g
+%gx%g!
 %gx%g%+.15g%+.15g
 %gx%g%+g%+g
+%hd, 
+%hu, 
 %lf%*[ ,]%lf
 %lf%*[ ,]%lf%*[ ,]%lf%*[ ,]%lf
+%lf'\n
+%lf,
 %lf,%lf: (%lf%*[%,]
 %lf,%lf: (%lf%*[%,]%lf%*[%,]
 %lf,%lf: (%lf%*[%,]%lf%*[%,]%lf%*[%,]
 %lf,%lf: (%lf%*[%,]%lf%*[%,]%lf%*[%,]%lf%*[%,]
 %lf,%lf: (%lf%*[%,]%lf%*[%,]%lf%*[%,]%lf%*[%,]%lf%*[%,]
 %lu %lu %lu %lu
+%lu %lu\n
 %lu,%lu
 %lu,%lu,%lu,%32s
 %lu:%02lu.%03lu
@@ -1327,6 +1304,7 @@ $wtpt
 %p : Strdup() Ok\n
 %p,%2048s
 %p.%.20g.%s
+%s %s %s
 %s : 'Arc Angle Too Small'
 %s : 'Needs 6 coeff values'
 %s : 'Needs 8 coefficient values'
@@ -1343,10 +1321,14 @@ $wtpt
 %s @ %s/%s/%s/%.20g
 %s must be one of %s
 %s must be one of %s or a number
+%s | %u
 %s" shape="rect" coords="0,0,%.20g,%.20g" alt="" />\n
 %s%.16g
+%s%.20g.%s
 %s%.80s
 %s%ld
+%s%s
+%s%s%s
 %s%s%s:%.20g.%.20g #%.20g => Changed %.20g
 %s%s.config%sImageMagick%s
 %s%sImageMagick%s
@@ -1357,12 +1339,21 @@ $wtpt
 %s%sn019003l.pfb
 %s(%.20g):\n
 %s(%p)%s'%s'
+%s()%s'%s'
+%s-%.20g
 %s-%.20g.%s
 %s-geometry
 %s-type
+%s.%s
+%s.%s.%s
 %s.png
 %s.ppm
 %s.ufraw
+%s/%s
+%s: %S
+%s: %s
+%s: %s/%s/%s
+%s: %s\n
 %s: PangoLayout changed since PangoLayoutIter was created, iterator invalid
 %s: Unknown GDI error
 %s: assertion '%s' failed
@@ -1381,7 +1372,13 @@ $wtpt
 %s:%.20g -> 
 %s:%.20g.%.20g #%.20g => Changed %.20g\n
 %s:%.20g.%.20g -> 
+%s:%d
+%s:%d 
+%s:%d: 
 %s:%d: invalid %s id %u for "%s" of type '%s' in '%s'
+%s:%s
+%s=%d
+%s=%s\n
 %sACCEPT
 %sADDRESS_LIST_CHANGE
 %sCLOSE
@@ -1403,26 +1400,22 @@ $wtpt
 %sWRITABLE
 %sWRITE
 %s[%.20g,%.20g].%s: %s=%.*g\n
+%s[%.20g]
+%s[%.20g] 
 %s[%.20gx%.20g%+.20g%+.20g]
+%s[%08x]
 %s[%ld]: GSlice: 
 %smagick-%.20gXXXXXXXXXXXX
 %t %r %u %v %d %c[%p]: %m/%f/%l/%d\n  %e
+%u %u %u 
 %ux%u
-&!&!*!+!.!.!
-&&&&&&&&&&&&&
-&&&&&&&&&&&&&&&&&&&&&&&&&&&
 &&&&&&&&&&&&&&&&&&&&&&&&&&&&=====================================
-&'()*56789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
-&6FVfv
-&Bnx
-&Pj&0
-&SAYS
 &amp;
 &apos;
 &l0E
-&pB3
 &quot;
 ' for value type '
+'%.20g'
 '%s' (Freetype)
 '%s' Inconsistent number of items: expected %d, got %d
 '%s' is not a valid character following a '<' character; it may not begin an element name
@@ -1436,87 +1429,52 @@ $wtpt
 '%s' is not a valid value for the 'variant' attribute on <span> tag, line %d; valid values are 'normal', 'smallcaps'
 '%s' is not a valid value for the 'weight' attribute on <span> tag, line %d; valid values are for example 'light', 'ultrabold' or a number
 '%s::%s' is not a valid property name; '%s' is not a GObject subtype
-''''''''''''''''''''''''''
-''=====================================
 '(' required to start ATTLIST enumeration
 '()*+,-./0123456789:;
 ')' required to finish ATTLIST enumeration
-'*&&4+):670-1$
 ',',',',',',',',',',',',',',',',',',',',',',',',','#'#'c
-'1jR
-'6Q N
-'7GWgw
 '<' in entity '%s' is not allowed in attributes values\n
 '>' required to close NOTATION declaration
-'@Ck1t
-'NH6
-'Q?KVQ?
-'d+sX
-'eQa
-'pXC
-'vc7
-(%4tHO
+(%s) show\n
 (%s) stringwidth pop -0.5 mul -0.5 rmoveto\n
-(((((((((((
-(((((((((((((
 ((gpointer) %p)
 ()<>[]{}/%#\
 ()[]{}<>/% \t\r\n
 (*MARK) must have an argument
 (*VERB) not recognized
 (+-/*%:&^|<>~,
-(8HXhx
-(8Y&y
 (?R or (?[+-]digits must be followed by )
 (C)<<(R)>> 1/4  1/2  3/4 AEOEssaeoeIJij'nLJLjljNJNjnjDZDzdz--,,.....`````!!???!C=RsEURa/ca/sc/oc/uNoTEL(TM)Ohm 1/3  2/3  1/5  2/5  3/5  4/5  1/6  5/6  1/8  3/8  5/8  7/8 IIIIIIVVIVIIVIIIIXXIXIIiiiiiivviviiviiiixxixii<--><-><==><=>>=<<<>>>NULSOHSTXETXEOTENQACKBELBSHTLFVTFFCRSIDLEDC1DC2DC3DC4NAKSYNETBCANEMSUBESCFSGSUSSPDELNL(1)(2)(3)(4)(5)(6)(7)(8)(9)(10)(11)(12)(13)(14)(15)(16)(17)(18)(19)(20)1.2.3.4.5.6.7.8.9.10.11.12.13.14.15.16.17.18.19.20.(a)(b)(c)(d)(e)(f)(g)(h)(i)(j)(k)(l)(m)(n)(o)(p)(q)(r)(s)(t)(u)(v)(w)(x)(y)(z)(A)(B)(D)(E)(F)(G)(H)(I)(J)(K)(L)(M)(N)(O)(P)(Q)(S)(T)(U)(V)(W)(X)(Y)(Z)(0)::====(21)(22)(23)(24)(25)(26)(27)(28)(29)(30)(31)(32)(33)(34)(35)(36)(37)(38)(39)(40)(41)(42)(43)(44)(45)(46)(47)(48)(49)(50)hPadaAUbaroVpcpAnAuAmAkAMBGBcalkcalpFnFuFugmgkgHzkHzMHzGHzTHzulmldlklfmnmummmcmkmmm^2cm^2km^2mm^3cm^3km^3m/sm/s^2kPaMPaGParadrad/srad/s^2psnsusmspVnVuVmVkVMVpWnWuWmWkWMWa.m.BqcccdC/kgCo.dBGyhaHPinKKKMktlnloglxmbmilmolPHp.m.PPMPRSvWbfffiflfflstAAUEaaueYoO'TsChShYuYatschshyuyayoo'G'g'hehuhihEh'ah'uh'ih'Eh'oh'eaholelulilalEl'al'ul'il'El'ol'ealWaHeHuHiHaHEH'aH'uH'iH'EH'oH'eaHoHWamemamEm'am'um'im'Em'om'eamWa`se`su`si`sa`sE`s'a`s'u`s'i`s'E`s'o`s'ea`so`sWarerWarurirEr'ar'ur'ir'Er'or'eaxexuxaxEx'ax'ux'ix'Ex'ox'eaxoxWaqequqiqaqEq'aq'uq'iq'Eq'oq'eaqoqWeqWiqWaqWEqW'aqW'uqW'iqW'EqW'oqW'eaQeQuQiQaQEQ'aQ'uQ'iQ'EQ'oQ'eaQoQWeQWiQWaQWEQW'aQW'uQW'iQW'EQW'oQW'eabebubibEb'ab'ub'ib'Eb'ob'eabobWavevuvavEv'av'uv'iv'Ev'ov'eavovWatetutitatEt'at'ut'it'Et'ot'eatotWacecucicEc'ac'uc'ic'Ec'oc'eacocWa`he`hu`hi`ha`hE`h'a`h'u`h'i`h'E`h'o`h'ea`ho`hWe`hWi`hWa`hWEhW'ahW'uhW'ihW'EhW'ohW'eanenuninanEn'an'un'in'En'on'eanonWaNeNuNiNaN'aN'uN'iN'EN'oN'eaNWakekukikakEk'ak'uk'ik'Ek'ok'eakokWekWikWakWEkW'akW'ukW'ikW'EkW'okW'eaKeKuKiKaKEK'aK'uK'iK'EK'oK'eaKoKWeKWiKWaKWEKW'aKW'uKW'iKW'EKW'oKW'eawewWawuwiwawEw'aw'uw'iw'Ew'ow'eawo`e`u`i`a`E`I`ozezizazEz'az'uz'iz'Ez'oz'eazozWaZeZuZiZaZEZ'aZ'uZ'iZ'EZ'oZ'eaZoZWayeyiyEy'ay'uy'iy'Ey'oy'eadedudidEd'ad'ud'id'Ed'od'eadodWaDeDuDiDaD'aD'uD'iD'ED'oD'eaDoDWajejujijajEj'aj'uj'ij'Ej'oj'eajojWagegugigagEg'ag'ug'ig'Eg'og'eagogWegWigWagWEgW'agW'ugW'igW'EgW'ogW'eaGeGuGiGaGEG'aG'uG'iG'EG'oG'eaGoGWaTeTuTiTaT'aT'uT'iT'ET'oT'eaToTWaCeCuCiCaCEC'aC'uC'iC'EC'oC'eaCWaPePuPEP'aP'uP'iP'EP'oP'eaPoPWaSeSuSiSaSES'aS'uS'iS'ES'oS'eaSo`SWa`Se`Su`Si`Sa`SE`S'a`S'u`S'i`S'E`S'o`S'ea`SofefufafEf'af'uf'if'Ef'of'eafofWapepupipapEp'ap'up'ip'Ep'op'eapopWamYarYafYa-::-`?:|:`1`2`3`4`5`6`7`8`9`10`20`30`40`50`60`70`80`90`100`10000E^EEaEe^eEoEuEYEYIZHZGHZghKHTSCHYUYAzhzghkhA'E'I'O:U'U:a'e'i'o:u'u:O"o"U"u"ddDjGjKjdjgjkjYeUeOewwwjjj
-(D(yS
 (Internal) no handler for tag %x
-(K9I
-(KY$q
 (NULL)
 (NULL) message
 (Ph$ $Phh$(
 (error == NULL) || (*error == NULL)
 (exception processing is suspended)
-(fGrLUq
 (flags & ~G_DATALIST_FLAGS_MASK) == 0
 (flags & ~TYPE_FLAG_MASK) == 0
 (ftype & TYPE_ID_MASK) == 0
 (guint) level <= 3
 (internal) %d Channels are not supported on PatchLUT
+(internal) Attempt to PatchLUT on non-lut stage
 (major >= 5 && minor >= 1) || major >= 6
-(noLb5
 (process:%lu): 
 (return_type & G_SIGNAL_TYPE_STATIC_SCOPE) == 0
 (sys_page_size & (sys_page_size - 1)) == 0
 (type & TYPE_ID_MASK) == 0
 (unknown)
-(|S1c
 )  Imported from GIF image: background.gif
 )2STud>
-)9IYiy
-):9ld
-)JQR
-)X9I
-)XA\vN
-)g8u
-)y.0zkl6
-*3nM
-*5KS
-*:JZjz
+*** BUG ***\nIn %s: %s\nSet a breakpoint on '_pixman_log_error' to debug\n\n
 *Cyan*
 *EPSF-*
 *Magenta*
-*Pt)p
-*T|3m
-*VVw
 *Yellow*
 *b%.20gW
 *b0M
 *b0Y
 *b2M
 *b3M
-*fj\rv
 *ii*ii
 *ii*ii*ii
 *ii*ii*ii*ii
@@ -1536,23 +1494,15 @@ $wtpt
 *jj*jj*jj*jj
 *jj*jj*jj*jj*jj
 *private_size_or_offset <= 0xffff
-*qc_O8\tlth
 *r%.20gs%.20gT
 *r1A
 *r3A
 *r3F
-*sr\Z1e
 *t%.20gR
-*tC7
 *v%.20gI
 *v%da%db%dc%.20gI
 *v6W
-+30l
-+3aJ
-+4@C6
 +PLi
-+TCP!
-+YRSt
 +adaptive-blur
 +adaptive-resize
 +adaptive-sharpen
@@ -1733,7 +1683,6 @@ $wtpt
 +opaque
 +ordered-dither
 +orient
-+owp
 +page
 +paint
 +path
@@ -1751,7 +1700,6 @@ $wtpt
 +quality
 +quantize
 +quiet
-+rXa
 +raise
 +random-threshold
 +range-threshold
@@ -1855,6 +1803,7 @@ $wtpt
 +window-group
 +write
 +write-mask
+,%.20g 
 ,',',',',',','
 ,',',',',',',',','
 ,',',',',',',',',','''''
@@ -1863,22 +1812,9 @@ $wtpt
 ,',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',','''''
 ,',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',','#'
 ,',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',',','
-,3fZQ%
-,4Ah
-,:njk
-,D0K
-,GfD
 ,Reference Viewing Condition in IEC61966-2.1
 ,\n       "info": "%.20gx%.20g %s"
 ,\n       %s: 
-,filc
-,rB)N
-,tJ\rjh
-,uRM
-,wK8
--0RV
--2%tC
--<qeY@c
 -Y %.20g +X %.20g\n
 -abcdefghijklmnopqrstuvwxyz
 -adaptive-blur
@@ -2038,7 +1974,6 @@ $wtpt
 -interpolate
 -interpolative-resize
 -interword-spacing
--kLdt
 -kerning
 -kuwahara
 -label
@@ -2206,6 +2141,7 @@ $wtpt
 -window-group
 -write
 -write-mask
+.%d.%d
 ... trying CreateFontIndirect height=%ld,width=%ld,escapement=%ld,orientation=%ld,weight=%ld,%s%s%scharset=%d,outprecision=%d,clipprecision=%d,quality=%d,pitchandfamily=%#.02x,facename="%S")
 ..Too many IDATs found
 .00cfg
@@ -2269,7 +2205,6 @@ $wtpt
 .?AVexception@std@@
 .?AVios_base@std@@
 .?AVtype_info@@
-.AXf
 .CRT$XCA
 .CRT$XCU
 .CRT$XCZ
@@ -2279,12 +2214,9 @@ $wtpt
 .CRT$XPZ
 .CRT$XTA
 .CRT$XTZ
-.H>Di
 .IEC 61966-2.1 Default RGB colour space - sRGB
-.Ncp
 .PAL
 .Too many IDATs found
-.\tKEP
 .bss
 .data
 .data$r
@@ -2309,13 +2241,10 @@ $wtpt
 .rtc$TZZ
 .text$mn
 .text$x
-.xFO
 .xdata$x
-.{sYi
 /%s-ISO dup /%s ReencodeType findfont setfont\n
 /* columns rows colors chars-per-pixel */\n
 /* pixels */\n
-/8R:5
 /ASCII85Decode filter
 /A\r7W
 /BaseFont /Helvetica\n
@@ -2338,7 +2267,6 @@ $wtpt
 /Filter [ /ASCII85Decode ]\n
 /Filter [ /CCITTFaxDecode ]\n
 /Font << /F%.20g %.20g 0 R >>\n
-/HKC-
 /Height %.20g\n
 /ID [<%s> <%s>]\n
 /Im%.20g Do\n
@@ -2353,8 +2281,6 @@ $wtpt
 /Name /F%.20g\n
 /Name /Im%.20g\n
 /Name /Ma%.20g\n
-/OOp
-/P8i
 /Pages %.20g 0 R\n
 /Parent %.20g 0 R\n
 /ProcSet %.20g 0 R >>\n
@@ -2385,7 +2311,7 @@ $wtpt
 /\nfff
 /mask_stream exch def\n
 /setpagedevice {pop} bind 1 index where {dup wcheck {3 1 roll put} {pop def} ifelse} {def} ifelse\n<</UseCIEColor true>>setpagedevice\n
-/yQA
+0 %.20g\n
 0 <= index && index < 24
 0 <= iter->start_char
 0!0)0
@@ -2393,8 +2319,6 @@ $wtpt
 0000000000 65535 f \n
 0000000000000000000000000000000000000000000000000000000000000000\n
 0000111122223333444455556666777788889999::::;;;;<<<<====>>>>
-00003333
-01050
 0123456789
 0123456789-, 
 0123456789ABCDEF
@@ -2402,42 +2326,17 @@ $wtpt
 0123456789ABCDEFg_string_insert_c
 0123456789abcdef
 0123456789abcdef|
-050l0
-06"t
 0;0;0q
-0?AssignImageColors
-0A2B
 0A2B ABm
 0B2A BAm
 0B2A1B2A2B2A1B2A0A2B1A2B2A2B1A2B
-0B2D
 0B2D1B2D2B2D3B2D0D2B1D2B2D2B3D2BUnexpected direction (%d)
-0B\ne
-0D2B
-0Fatal: program compiled against libxml %d using libxml %d\n
-0Fg@
-0NC\r
-0ON,
-0QB%\v
-0TX!
-0Z6@
-0\rLh
-0\vu9\v
-0bYy
-0dsp
-0erp
-0gir
-0pQ\nS8a
-0qB\'
-0r/hL
-0vq2fL
 0x%02X 0x%02X 0x%02X 0x%02X
 0x%02X%s
 0x%02X, 
 0x%04lX %4ld %s-%s (0x%04lx,0x%04lx)
 0x%08lx: 
 0x0+0+0
-1&tA
 1'Q3
 1.0.6, 6-Sept-2010
 1.2.11
@@ -2454,6 +2353,7 @@ $wtpt
 10x14
 1191x1684
 11x17
+120x120+4+3>
 1224x1584
 1224x792
 123456789
@@ -2475,36 +2375,7 @@ $wtpt
 181x258
 182x257
 1837x2599
-1:z8
-1A26b
-1A2B
-1B2A
-1B2D
-1D2B
-1F,B
-1Ia\n
-1Ra3
-1T35
-1Wdm
-1XGG
-1XgU9c=
-1ZGU
-1d,C
-1dsp
-1erp
-1fhF
-1hau-:%Kv
-1icl
-1jap
-1pVu>E
-1r"#c$'i%*m#*e&-s'0w'2|48mH:X?AB7G~EFFKKKGJJSUUZ[\WUWQIUmUQrhTORlWiz]afbddjllgiggttrtty{{qvjhVc
-1tfmP+
-1wsHp
-1x\vFen
-1~jcG=
 2#0="&#0;&#2;"
-2%bSN
-2*2c2
 2004x2835
 2064x2920
 20907
@@ -2513,7 +2384,6 @@ $wtpt
 230x323
 2384x3370
 23fs
-23fu
 2448x3168
 249x354
 255\n
@@ -2526,40 +2396,21 @@ $wtpt
 279x540
 2835x4008
 288x432
-28~v
 2920x4127
 297x420
-2A2B
-2B2A
-2B2D
-2C\vTC
-2D2B
-2EDU$h
-2H!z
-2I`Jb"cH
-2NP{
 2\rSQ'C0S
-2\tBe
-2dsp
-2erp
-2gir
-2hoO
-2l]6
 2lcn
-2map
-2tC+
 2tfm
 2tfm ABm1tfm
 2tfm BAm1tfm
 3 12
 3(y3
-30sE
-32#t@
 32-bit_rle_rgbe
 32-bit_rle_xyze
 323x459
 3333
 333333
+333333#@
 3333UUUU
 33f33333
 354x499
@@ -2567,7 +2418,6 @@ $wtpt
 363x516
 364x515
 396x612
-39Iys_x
 3: -,-,-  1,1,1  -,1,-
 3: -,-,1  0,-,-  -,0,-
 3: -,-,1  0,-,1  -,-,1
@@ -2620,136 +2470,50 @@ $wtpt
 3: 1,2,1  0,0,0  1,2,1
 3: 2,-1,0  -1,0,1  0,1,-2
 3: 5,-3,-3  5,0,-3  5,-3,-3
-3;l]Kw
-3<IA><CMI<
-3@pY
-3AU 
-3B2D
-3D2B
-3H>85
-3IF%
-3L+D
-3Pzr)
-3Xt<y
 3\nmk
-3\nrC
-3\r3F3
 3desc
-3dsp
 3f33ff3f
 3ff3f33f
-3iJ[
-3iR">
-3ltG
-3oD\f
-3p@lgi
-3sL0
-3wl'
 3x1:0,1,0
 3x4+1+1:-,-,0 1,1,1 1,1,1 0,-,-
 3x4+1+1:0,-,- 1,1,1 1,1,1 -,-,0
 3x4+1+2:-,-,0 1,1,1 1,1,1 0,-,-
 3x4+1+2:0,-,- 1,1,1 1,1,1 -,-,0
-4#SDp\n
-4+4e4
-4+Fqj
-4-c6
 420x595
 4294967295\n
-42aJ]
 459x649
 48<@DHLPTX\`dh
 48x48>
-49)Q/
 499x709
-4:Ho?
-4?324?ca4?
-4@C3@
-4@ffffff9@
-4DC7
-4F|h5|
-4I7-
-4JpI?=
-4L(vg
-4O.pQW
-4PC[Y
-4S3=VW
-4X!\vW
-4]0j
-4d+R
-4dsg
-4hC;
-4i5U6B738%9
-4x#5
 4x1:0,1,1,0
 4x3+1+1:-,1,1,0 -,1,1,- 0,1,1,-
 4x3+1+1:0,1,1,- -,1,1,- -,1,1,0
 4x3+2+1:-,1,1,0 -,1,1,- 0,1,1,-
 4x3+2+1:0,1,1,- -,1,1,- -,1,1,0
-4xccV6
 5!z2
-5$Ci
-5+eS
 504x648
 515x728
 516x729
-52F*
 540x720
-54B\vX
 576x720
-58176/9909C0g
 595x842
 5: -4,-1,0,-1,-4  -1,2,3,2,-1  0,3,4,3,0  -1,2,3,2,-1  -4,-1,0,-1,-4
 5: 0,0,-1,0,0  0,-1,-2,-1,0  -1,-2,16,-2,-1  0,-1,-2,-1,0  0,0,-1,0,0
-5>dq
-5?rM5?
-5MEV
-5OTA
-5Sg 
-5TC-
-5U?\neU?K
-5Xbq
-5YcV\v
-5oFh
-5p#R
-5r?lt
-5t \rb
-6,C(@C4
-6-Rj7
-60B;D
 610x780
 612x1008
 612x792
 612x936
-62C\r4tt
 648x792
 648x864
 649x918
 64x64
 65535\n
-676r6
-6:d{h
-6@95
-6F/A
-6MQ8u
-6QQ\f
-6X\v1
-6[mG\f
 6\niii
 6a+B
-6gc6n
-6p#F'
-6qM4
 6x6+0+0
-6|izA:/@A}o
-7$7`7
 7(z3
-7+4P;
-7,OR
 7.0.8
-70!\vjl
 709x1001
-70m D$$
 70x46 Truecolor rose
 72.0x72.0
 720x1008
@@ -2759,30 +2523,12 @@ $wtpt
 73x105
 768x512>
 7777777777777777777777777777==77[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[=[[[[[[[[[[[[[[[[[[[[[[[[[[[[[==[[[[[[[[[[[======[[[[[[[[[[======[[[[[[[[[[[[[[==
-78<z
 792x1224
 7:-10,-5,-2,-1,-2,-5,-10 -5,0,3,4,3,0,-5 -2,3,6,7,6,3,-2 -1,4,7,8,7,4,-1 -2,3,6,7,6,3,-2 -5,0,3,4,3,0,-5 -10,-5,-2,-1,-2,-5,-10
-7@BGR
-7M<0
-7P.F!
-7dn&
-7m c
-7p'O
-7v,=p
-7y?Bd
-7zXZ
-7~8A
-8!GK
-8*** BUG ***\nIn %s: %s\nSet a breakpoint on '_pixman_log_error' to debug\n\n
-8+{3(y6,p4)v=1
-8,oA3r=7s?9sA;o?8n=6q94l:3d=2^>2P;+UP9]X=]]?nv\2@+27/28.39/28-/5,.3-.3-,1+*/)+0++3+*4,-5,7@59C43>,>J4\hTQ]O+4-gdUheVifWifWifWjeVnc\lhZflShwo
 8-bit indexed with optional binary transparency
-82Ff0$\rnd
 842x1191
 864x1296
-87;y)5'
 88x125
-8@7G
 8BIM
 8BIM#
 8BIM#%d#%s=
@@ -2796,65 +2542,21 @@ $wtpt
 8BIMWTEXT
 8BPB
 8BPS
-8E=hR
-8J\n3
-8PU>X
-8Si=
-8\n2H
-8av/&J
 8bim
 8bim:
 8x10
 9 22
-9(E8
-9*idMff
-9,{;,v:*};0
 918x1296
 91x127
 94L;Q*
 96.0x96.0
-96>Q
-99"cJ
 9: 0,-1,-1,-2,-2,-2,-1,-1,0  -1,-2,-4,-5,-5,-5,-4,-2,-1  -1,-4,-5,-3,-0,-3,-5,-4,-1  -2,-5,-3,12,24,12,-3,-5,-2  -2,-5,-0,24,40,24,-0,-5,-2  -2,-5,-3,12,24,12,-3,-5,-2  -1,-4,-5,-3,-0,-3,-5,-4,-1  -1,-2,-4,-5,-5,-5,-4,-2,-1  0,-1,-1,-2,-2,-2,-1,-1,0
-9Bae
-9Bfn
-9Gzp
-9JLX
-9L*E,
-9Xs-
-9Z}j9
-9]LY
-9]Vj
-9a&g
-9tzm
 9x11
 9x12
 : %s %s %s\n
-:+}9-}9/}:0|:1w:3s8/p6,o8-n7+n6/k4,g3*`.$p8/
-:,~:/~:0{90y8/w9/v90t:.q6-n3+k4)e1%s=2
-:-|:.|:/{91{8/|9.z:.x9/u8.r6+o4*l2'v@6
-:.{9/|90{<3z<4p;1k8-i7-h8-h8.k70i6-a0'Y+
-:4C,T%f
-:8163-30+74,<;2IA6VJ9TH:dar
-:D`4D
 :acspMSFT
-:dC2
-:glt
-:gscP
-:hC4$
-:s6X
-:x(a4E
-;*v>)v8,s9-{@4
-;*{;,s9*v5(
-;2}92x8/u7.s7.o5+j70h70f5/g6/i70l71l</gF4
-;2~;1z;/z;+{:+
-;GIF89a
-;TrI&
-;VYU
 ;\n       %s' \\n
 ;\n       yy =
-;d22Vt::N
-;i:EH
 <!ATTLIST
 <!DOCTYPE
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">\n
@@ -2874,8 +2576,6 @@ $wtpt
 </pattern>\n
 </policy>
 </symbol>\n
-<8bunz8
-<9\n1h
 <<\n/N %.20g\n/Filter /ASCII85Decode\n/Length %.20g 0 R\n/Alternate /%s\n>>\nstream\n
 <?xml version="1.0" encoding="US-ASCII"?>\n
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>\n
@@ -2891,19 +2591,14 @@ $wtpt
 <?xpacket begin=
 <?xpacket begin="%s" id="W5M0MpCehiHzreSzNTczkc9d"?>\n<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 4.0-c316 44.253921, Sun Oct 01 2006 17:08:23">\n   <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">\n      <rdf:Description rdf:about=""\n            xmlns:xap="http://ns.adobe.com/xap/1.0/">\n         <xap:ModifyDate>%s</xap:ModifyDate>\n         <xap:CreateDate>%s</xap:CreateDate>\n         <xap:MetadataDate>%s</xap:MetadataDate>\n         <xap:CreatorTool>%s</xap:CreatorTool>\n      </rdf:Description>\n      <rdf:Description rdf:about=""\n            xmlns:dc="http://purl.org/dc/elements/1.1/">\n         <dc:format>application/pdf</dc:format>\n         <dc:title>\n           <rdf:Alt>\n              <rdf:li xml:lang="x-default">%s</rdf:li>\n           </rdf:Alt>\n         </dc:title>\n      </rdf:Description>\n      <rdf:Description rdf:about=""\n            xmlns:xapMM="http://ns.adobe.com/xap/1.0/mm/">\n         <xapMM:DocumentID>uuid:6ec119d7-7982-4f56-808d-dfe64f5b35cf</xapMM:DocumentID>\n         <xapMM:InstanceID>uuid:a79b99b4-6235-447f-9f6c-ec18ef7555cb</xapMM:InstanceID>\n      </rdf:Description>\n      <rdf:Description rdf:about=""\n            xmlns:pdf="http://ns.adobe.com/pdf/1.3/">\n         <pdf:Producer>%s</pdf:Producer>\n      </rdf:Description>\n      <rdf:Description rdf:about=""\n            xmlns:pdfaid="http://www.aiim.org/pdfa/ns/id/">\n         <pdfaid:part>3</pdfaid:part>\n         <pdfaid:conformance>B</pdfaid:conformance>\n      </rdf:Description>\n   </rdf:RDF>\n</x:xmpmeta>\n<?xpacket end="w"?>\n
 <?xpacket end=
-<@En[vP
-<Br8
 <CiscoIPPhoneImage>\n
 <Data>
 <Depth>2</Depth>\n
 <Height>%.20g</Height>\n
-<Lk\fvxC]\nq
 <LocationX>%.20g</LocationX>\n
 <LocationY>%.20g</LocationY>\n
-<Mr#'pqQr
 <Title>%s</Title>\n
 <Width>%.20g</Width>\n
-<\taJC
 <body style="text-align: center;">\n
 <clipPath id="%s">\n
 <defs>\n
@@ -2917,9 +2612,6 @@ $wtpt
 <img usemap="#%s" src="%s" style="border: 0;" alt="Image map" />\n
 <include
 <invalid>
-<iyo`
-<jxAy
-<lf}dX^^G
 <locale
 <localemap>
 <map id="%s" name="%s">\n
@@ -2928,7 +2620,6 @@ $wtpt
 <pattern id="%s" x="%g" y="%g" width="%g" height="%g">\n
 <policy
 <policymap> </policymap>
-<s5p
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="%.20gpx" height="%.20gpx" viewBox="0 0 %.20g %.20g" enable-background="new 0 0 %.20g %.20g" xml:space="preserve">
 <svg width="%.20g" height="%.20g">\n
 <svg xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" ev="http://www.w3.org/2001/xml-events" version="1.1" baseProfile="full" width="%g" height="%g">\n
@@ -2937,19 +2628,9 @@ $wtpt
 <type
 <unknown error status>
 <unknown>
-=1X54H>FFISIYZO,-/+-/.--/-)/*'-+(,**,**.++.++.++/++/--0,,0-./-*2.,2.+2-,30.82/<4/>4/A5-F91H>7Q<5_70y7-
-=3~<1~:.|9/|90z92v80j8/h8/f7,e7-e7,i60i70f6.h;2nLB88314,37-56+37)/9+09*.8*/8,8A2;C201$DM:o
-=41J)
-=7$>8L>9t>:
 ==!!=!!!!!!!!!!!!!!!!!!===!!!!!!!!!!!!!!!!!!!!!!!!=!!!!!!!!!=!==!!!!!!!===!====!!!!!!=!=!!!!!!!!======!!!!!!!!!!==!!!============&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&====
-==((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((
 ===                                                                           
 =====((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((((==========0000000000000000000000000000000=000000000000====000000000000====0===000000000000444444444444444444444444444444==44444===========66666666666666666666666666666666666666666666====66666666666666666666666666======66666666666===66
-=========,,,,,,,,,,,,,,,,,,,,============-------------=---=--============
-==========##=######===###=####===##=#=##===##===###===############====#####===###=####==#======#==============#####################=====$$$$=$$$$$$$$=$$$=$$$$$$$$$$$$$$$$$$$$$$$=$$$$$$$$$$$$$$$$===$$$$$$$$=$$$=$$$$=======$$=$$$=====$$$$==$$$$$$$$$$========$$$$$$$$
-===========
-=============
-===============
 ================
 =====================
 ======================
@@ -2959,44 +2640,12 @@ $wtpt
 =============================\n\n
 ===================\n\n
 =>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\
-=DhE;
-=EnYf
 =\nkkk
-=n2U|
-=vz 1
-=yyyZhniZbarAnmrAgneBopoBrehCtpoClryCtrsDaveDihtEroeGhtoGkerGrjuGuruGinaHgnaHrbeHariHadnKanaKrmhKooaLntaLmylMgnoMrmyMmagOlatIayrOrnuRhniScrySlmaTuleTaahTiahTtbiTsnaCiiiYglgTonaHdhuBbgaTiarBtrpCbmiLamsOwahSbniLelaTragUulaTiguBgalGgnfTolySoepXrahKzzzZilaBxusXxnhPgahPookNilaKcpeLgnjRdnuSruaSmahCkclOiiaViraCicyLidyLtsvAumaBpygEimrAilhPitrPavaJihtKusiLietMbraShkrOrmaSanaLtvaTktaBharBdnaMmkaCcreMoreMdrlPdrhSaroSrkaTssaBbhgAlpuDablEnarGjohKdniSaniLjhaMunaMdneMidoMoorMtabNbraNmrePgnmHmlaPcuaPplhPddiShriTaraWmohAwulHrtaHtluMgnuHwngSmldAskhBcraMaweNegsOgnaTmnoGuhsNoyoSbnaZ
-={ULH
->%,>&T>'|>(
->5PJ>
 >>\nstream\n
->BZD
->Tb5X
->UYa7e
->Unsupported interpolation (%d->%d channels)
->b0yx0li
->c:\users\aaronl\imagemagick-windows\imagemagick\magickcore\channel.c
->d6m
->es-8R
->s*r\nGH
->wo1
 ? ????? ??? ??? ?? ??????? ??, ?? ????????? ?????????!
 ? apval? arb?z?.
 ? na h?be kn
-?*hiR
-?0B2A
-?120x120+4+3>
-?1\f@24@3\@4
-?1\odI+
-?333333
-?33333S7
 ?3ScR.>
-?3xj
-?40V
-?5a1
-?5rf
-?86RE%[
-?93l
-?=RAeRB
 ?? ??? ??? ????, ??? ?? ???? ????.
 ?? ???? ?? ?? ??? ?? ?? ???? ??? ????? ????? ???? ??.
 ?? ???? ?? ?? ???? ??? ??? ???? ????? ??? ??? ???? ????? ???? ????.
@@ -3035,25 +2684,9 @@ $wtpt
 ??????????????????????????????? - ????????????????????????? - ???????????????????? ???????????????????????????? - ????????????????????????????? - ????????????????????????? - ??????????????????????? - ??????????? ? ??? ? ??????????
 ??_7?$basic_ios@DU?$char_traits@D@std@@@std@@6B@
 ??_7ios_base@std@@6B@
-?AFxD
-?Bad context client -- possible corruption
-?CloneImageArtifacts
-?Dio
-?G2Q
-?ImportBlackQuantum
-?KPf
-?MKR
 ?PKG
-?PangoFontMap
-?ReadPCLImage
-?ReadTGAImage
-?ReadXCImage
-?Too many input channels (%d channels, max=%d)
-?TransformsRGBImage
-?Tu7R
 ?UUUUUU
 ?XML
-?[IPH
 ?_BADOFF@std@@3_JB
 ?_Ios_base_dtor@ios_base@std@@CAXPAV12@@Z
 ?_Ipfx@?$basic_istream@DU?$char_traits@D@std@@@std@@QAE_N_N@Z
@@ -3062,17 +2695,10 @@ $wtpt
 ?_Unlock@?$basic_streambuf@DU?$char_traits@D@std@@@std@@UAEXXZ
 ?_Xlength_error@std@@YAXPBD@Z
 ?_Xout_of_range@std@@YAXPBD@Z
-?c:\users\aaronl\imagemagick-windows\imagemagick\magickcore\feature.c
-?c:\users\aaronl\imagemagick-windows\imagemagick\magickcore\shear.c
-?ffffff
 ?gibQ^AX>
 ?imbue@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAEXABVlocale@2@@Z
-?kAf
 ?linkdama fechtuotojo 
 ?none
-?out of memory
-?q42s(
-?rmMx
 ?sRGB IEC61966-2.1 (Equivalent to www.srgb.com 1998 HP profile)
 ?sbumpc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QAEHXZ
 ?setbuf@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAEPAV12@PAD_J@Z
@@ -3081,74 +2707,28 @@ $wtpt
 ?showmanyc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAE_JXZ
 ?snextc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QAEHXZ
 ?sync@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAEHXZ
-?u1P
 ?uflow@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAEHXZ
-?x9?7
 ?xml
 ?xsgetn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAE_JPAD_J@Z
 ?xsputn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAE_JPBD_J@Z
 @  @( @0 @8 @@ @@ 8@ 0@ (@  @( @0 @8 @@ 8@ 0@ (@  @  @( @0 @8 @@ 8@ 0@ (@,,@0,@4,@<,@@,@@,<@,4@,0@,,@0,@4,@<,@@,<@,4@,0@,,@,,@0,@4,@<,@@,<@,7@,0@
 @%04lx
-@%s: %s/%s/%s
-@(internal) Attempt to PatchLUT on non-lut stage
-@1{Qa
-@2_KK
-@333333
-@333333#@
-@=pB<q@6q?5o?4j<2h:1q62m51j7/g91g>4fF9cJ5_M5
-@AcquirePixelChannelMap
-@AnnotateImage
-@ChopImage
-@ClassifyImageColors
+@%lg
 @Cyrl
-@DisplayImages
-@Eo\nt
-@GetImageTotalInkDensity
-@IuO
 @Latn
-@LiJ
 @PSDelegate@
-@QjA;
-@ReadMPRImage
-@ReadPNMImage
-@SIY1p
-@X95#AB378!QZ4dyN_
-@Zi4B
 @cairo:
-@erp
-@gDio
 @ghostscript_font_path@
-@n1rS
-@nan
-@system:memory-map
 A Coord Of Bottom Right Corner
 A Coord Of Top Right Corner
-A'R\rZ t
-A)AjA
-A*EC*
-A1!X
-A1YD8K ~
-A5lK\rn
-A5~:/y;/u>.z4)
-A>AGp
-A?1a
-A?tC
-AA40J6
 AAI Dune image
 ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789
 ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789 $-_.+!*'(),{}|\^~[]`"><#%;/?:@&=
+ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/
 ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789_-
 ACCEPT
-ACN1
-AClassify
-AD(R!D
 ADVAPI32.dll
-AEVhdIf
-AEYZ
 AFPL Ghostscript
-AGNb<r
-AK8B+
-AM,ANDAO\APtAQ
 ANSI
 ANSI_X3.4-1968
 ANSI_X3.4-1986
@@ -3160,30 +2740,18 @@ APPEND
 ARABIC
 ARGB1555
 ARGB4444
-AReadPWPImage
 ASCII
 ASCII85Decode
 ASMO-708
-AT'h
 ATTLIST: no name for Attribute\n
 ATTLIST: no name for Element\n
 AUTOTRACE
 AVS X image
-AYfU(P
-AYl=
-A\fDrC\vR
-A\fPYA_
-A\rQL
-A\rbh
-A\rmp
-A\vZU
 AaCcQqSsTt
 Aacute
-AbXu
 Absolute
 Absolute Intent
 Absolute colorimetric
-AcasV
 Accelerate
 Accession Number
 Acircumflex
@@ -3202,6 +2770,7 @@ AcquireMagickResource
 AcquireNextImage
 AcquirePixelCache
 AcquirePixelCacheNexus
+AcquirePixelChannelMap
 AcquirePolicyCache
 AcquireRandomInfo
 AcquireRandomInfoThreadSet
@@ -3210,10 +2779,12 @@ AcquireResampleFilterThreadSet
 AcquireResizeFilter
 AcquireSRWLockExclusive
 AcquireSRWLockShared
+AcquireSemaphoreInfo
 AcquireSignatureInfo
 AcquireString
 AcquireStringInfo
 AcquireUniqueFileResource
+AcquireVirtualCacheView
 AcquireVirtualMemory
 Acquisition Comments
 Acquisition Context Description
@@ -3272,10 +2843,8 @@ Affine Distort, FX Equivelent:\n
 Affine Projection:\n
 AffineProjection
 Agrave
-AiFC.
 Air Kerma Rate Reference Date
 Air Kerma Rate Reference Time
-Aj@PE
 Aku isa mangan beling tanpa lara.
 Aladdin Ghostscript
 Algorithm Code Sequence
@@ -3315,6 +2884,7 @@ Angular Step
 Angular View Vector
 Angulation
 Annotate
+AnnotateImage
 Annotation Display Format ID
 Annotation Group Length
 Annotation Group Number
@@ -3361,6 +2931,7 @@ ArrowEnd
 Ascii85Flush
 Ascii85Initialize
 Assign/Image
+AssignImageColors
 Associate
 Atilde
 Atop
@@ -3402,19 +2973,11 @@ AveragePulseWidth
 Avestan
 Avg Overranges All Views
 Avoid attribute ending with ':' like '%s'\n
-AxO[
 Axial Acceptance
 Axial Mash
 Axis Labels
 Axis Units
-B#C0D?EQFeG|H
-B,laa
-B/FAC
-B0BrB
 B44A
-B:k(T
-B<;M.+f88K'
-B@O&1
 BACK
 BALTIC
 BASI
@@ -3431,30 +2994,20 @@ BINARY
 BITPIX  =           %10ld
 BLACKANDWHITE
 BLACKANDWHITE_ALPHA
-BL\fA
 BMP2
 BMP3
-BR&QQGuM
-BR7!a
-BR@H
 BRAILLE
 BRF ASCII Braille format
 BRICKS
 BROWSE
 BSCALE  =         %E
-BXOA(
 BXj!
 BZERO   =         %E
 BZip
-B[n3
-B\njL
-B^rC^N
-B`2B`
-B`C2@e
-BaQD
 Back Projector Coefficient
 Background
 Bad address
+Bad context client -- possible corruption
 Bad dictionary Name/Value
 Bad file descriptor
 Bad message
@@ -3475,7 +3028,6 @@ Batak
 Batch Number
 Batch Size
 Batch Slice Number
-BcRZ
 Beam Description
 Beam Dose
 Beam Dose Specification Point
@@ -3559,8 +3111,6 @@ Blue Palette Color Lookup Table Descriptor
 BlueViolet
 Blur
 BlurImage
-Bo'D
-Bo)K~
 Body Part Examined
 Body Part Thickness
 Bohman
@@ -3603,10 +3153,6 @@ Buhid
 Bumpmap
 Burned In Annotation
 Butt
-Bvt=
-Bx\r9
-ByDW
-ByOJI
 Byline
 Byline Title
 Byte
@@ -3614,30 +3160,18 @@ Byte Order
 Bytes: 0x%02X 0x%02X 0x%02X 0x%02X\n
 C %g %g %g %g %g %g Z\n
 C %g %g %g %g %g %g\n
-C oh
-C-Yn
 C14N 
-C1yA-
-C6TC
-C9@O
-C:C}C
-C<L.9
 C<Tn
-C<z7w 
 CACHE
 CACHEOFF
 CAIRO_MIME_TYPE_JBIG2_GLOBAL_ID used but no CAIRO_MIME_TYPE_JBIG2_GLOBAL data provided
 CALS
 CANVAS
 CAPTION
-CAcquireSemaphoreInfo
-CC4h
 CCIR 601 4:1:1 or 4:2:2
 CDATA
 CData section not finished\n%.50s\n
 CData section too big found
-CER>
-CEvC9y:4
 CHARSET
 CHECKERBOARD
 CHINESEBIG5
@@ -3655,7 +3189,6 @@ CMYKCustomColor:
 CMYKProcessColor
 CMYKProcessColor:
 CMYK_ALPHA
-CO3648+/DN)
 CODE_FILE
 CODE_FUNC
 CODE_LINE
@@ -3663,7 +3196,6 @@ COMMIT
 CONFIG_ERROR
 CORE_DB_MagickCore_.dll
 CORE_RL_MagickCore_.dll
-COd9E
 CP%u
 CP-GR
 CP-IS
@@ -3730,7 +3262,6 @@ CP932
 CP936
 CP949
 CP950
-CQm#&
 CRC error
 CRITICAL
 CROSSHATCH
@@ -3738,10 +3269,6 @@ CROSSHATCH30
 CROSSHATCH45
 CRT curv
 CRT desc
-CRTb
-CRTg
-CRTk
-CRTr
 CSASCII
 CSI Matrix Size Original
 CSIBM855
@@ -3793,6 +3320,7 @@ Cannot get size of file '%s'
 Cannot initialize memory for list
 Cannot initialize memory for new link
 Cannot initialize memory for sentinel
+Cannot load font '%s\n
 Cannot parse entity %s\n
 Cannot save floating point data, CLUT are 8 or 16 bit only
 Cannot write PNG8 or color-type 3; colormap is NULL
@@ -3811,8 +3339,6 @@ Category
 Catrom
 CcSs
 Ccedilla
-Ce ^CD
-Ce@8
 Center
 Center A Coord Of Plane Image
 Center R Coord Of Plane Image
@@ -3873,6 +3399,7 @@ CheckerTile
 Cherokee
 Child watch source dispatched without callback\nYou must call g_source_set_callback().
 Chop/Image
+ChopImage
 Chroma
 Chruu, a kwik di kwik brong fox a jomp huova di liezi daag de, yu no siit?
 Chuaigh b
@@ -3881,11 +3408,12 @@ Cineon Image File
 Circle
 Cisco IP phone image format
 City
-Cl&c
 Clamp/Image
 ClampImage
 Class
+Classify
 Classify/Image
+ClassifyImageColors
 Clear
 Clinical View
 Clip
@@ -3894,6 +3422,7 @@ ClipPath
 ClipPixelCacheNexus
 CloneDrawInfo
 CloneImage
+CloneImageArtifacts
 CloneImageOptions
 CloneImageProfiles
 CloneImageProperties
@@ -3913,7 +3442,6 @@ CloseHandle (wt->handle)
 CloseI
 CloseIntensity
 Cluster #%.20g = %.20g\n
-Cn77Y
 Coalesce
 CoalesceImages
 Code Label
@@ -3943,6 +3471,7 @@ Collimator Type
 Collimator Upper Horizontal Edge
 Collimator/Grid Name
 Color
+Color %d out of range
 ColorBurn
 ColorDodge
 ColorPrimitive %.20g,%.20g %s
@@ -4225,18 +3754,7 @@ Cylinder to Plane Distort, Internal Coefficents\n
 Cylinder2Plane
 Cypriot
 Cyrillic
-D#K4
-D(7HP
-D(Fa
-D(yC
-D/AE7
-D3+(q4
-D47-::4OD;VL=gellj
-D7q/;M
-D9U,
 D:%04d%02d%02d%02d%02d%02d
-D@5A=3;6-52(:5/F=7TG6WF7]Uj
-DA#4B
 DAS Ad Input
 DAS Auto Zero
 DAS Cal Frequency
@@ -4256,14 +3774,10 @@ DCRAW
 DCR_CL_DISABLED
 DCT Label
 DCTDecode
-DD<)S
-DDDD
-DDDDUUUU
 DDS 
 DEBUG
 DEC SIXEL Graphics Format
 DECORATIVE
-DEDE
 DEFAULT
 DEFI
 DEFI cannot redefine a frozen MNG object
@@ -4271,11 +3785,9 @@ DEFI chunk found in MNG-VLC datastream
 DEFINE group contains more than one branch
 DEPTH %.20g\nMAXVAL %.20g\n
 DFAX
-DG6d
 DHDR
 DHDVText
 DHText
-DHzF
 DICM
 DICOM is used by the medical community for images like X-rays.  The\nspecification, "Digital Imaging and Communications in Medicine\n(DICOM)", is available at http://medical.nema.org/.  In particular,\nsee part 5 which describes the image encoding (RLE, JPEG, JPEG-LS),\nand supplement 61 which adds JPEG-2000 encoding.
 DISC
@@ -4303,14 +3815,10 @@ DVH Sequence
 DVH Type
 DVH Volume Units
 DVText
-DXC#ZKr
 DXT1
 DXT3
 DXT5
-DZ<\nFN~
 D\nnnn
-D`g$p
-D`iH\ng
 DarkBlue
 DarkCyan
 DarkGoldenrod
@@ -4505,7 +4013,6 @@ Digital Image Format Acquired
 Digital Imaging and Communications in Medicine image
 Digital Moving Picture Exchange Bitmap, Version 2.0.\nSee SMPTE 268M-2003 specification at http://www.smtpe.org\n
 Digital Negative
-Dii#
 Dilate
 DilateI
 DilateIntensity
@@ -4532,6 +4039,7 @@ Disk
 Displace
 Display Format
 DisplayImage\n
+DisplayImages
 Displayed Area BRHC
 Displayed Area TLHC
 Dispose
@@ -4612,7 +4120,6 @@ Dose Value
 Double
 Double hyphen within comment: <!--%.50s\n
 Double hyphen within comment\n
-DpaR\r
 Draw
 Draw/Error/
 Draw/FatalError/
@@ -4630,7 +4137,6 @@ DstAtop
 DstIn
 DstOut
 DstOver
-DtEA
 Dull
 Dummy
 Duotone
@@ -4639,18 +4145,10 @@ DuplicateHandle
 Duration Of Xray On
 During the first end_element call after invoking a subparser you must pop the subparser stack and handle the freeing of the subparser user_data.  This can be done by calling the end function of the subparser.  Very probably, your program just leaked memory.
 Dw i'n gallu bwyta gwydr, 'dyw e ddim yn gwneud dolur i mi.
-Dx,2$E
 Dynamic Range
 Dynamic Z Alpha Value
-D|gr
 E 42
 E ko?ana e kai i te karahi, mea ??, ?a?e hauhau.
-E(01
-E-@9KZ
-E-hA
-E6'K
-E8b5
-E=FZGrH
 E?o?an?o ?iu?a?de.
 EASTEUROPE
 EBCDIC
@@ -4660,12 +4158,8 @@ ECG Display Printing
 ECG Display Printing Enable Status
 ECG Display Printing ID
 ECG Display Printing Select Status
-ED6Q"*
-EDED
 EDIT
-EGB6O
 ENDL
-ENj4Ia4TH8YL<_RBbVD`S?f]b{y
 EOFBlob
 EPDF
 EPI Change Value of X Component
@@ -4676,7 +4170,6 @@ EPS2
 EPS3
 EPSF
 EPSI
-EP\r8@
 ERRNO
 ERROR
 ERROR:
@@ -4684,19 +4177,16 @@ EUC-CN
 EUC-JP
 EUC-KR
 EUC-TW
-EVCn
 EXIF
 EXIF Profile Thumbnail
 EXPOSURE=%g\n
 EXXXXXXXX
-EY}CWoB[sDDB6JE<\M>`S>e_Xzt
 Eacute
 East
 Echo Number(s)
 Echo Time
 Echo Train Length
 Ecircumflex
-EdSF^
 Edge
 EdgeDetect
 EdgeImage
@@ -4807,7 +4297,6 @@ Event
 Event Elapsed Time(s)
 Event Timer Name(s)
 Event Type ID
-Evh!
 Exam Record Checksum
 Examination Folder ID
 Examination Reason
@@ -4873,25 +4362,13 @@ ExtraCondensed
 ExtraExpanded
 ExtraLight
 Extract
-F"FgF
-F+"1l
-F.<S6's17rn
-F1e\t
-F3?Su3?
-F4t1
-F9R:/:5372172/61.30,//-0/-3,-6+-P78
-F@4V
 FAIL
 FALSE
 FAX machines use non-square pixels which are 1.5 times wider than\nthey are tall but computer displays use square pixels, therefore\nFAX images may appear to be narrow unless they are explicitly\nresized using a geometry of "150x100%".\n
-FAYz
-FAk\fL,
 FILE
 FISHSCALES
 FITS
-FLc2
 FMsk
-FOR.(>3(G@-e^:w
 FORMAT=32-bit_rle_rgbe\n\n
 FOV Mask Y Cutoff Angle
 FOV Shape
@@ -4899,10 +4376,6 @@ FRACTAL
 FRAM
 FRAM chunk found in MNG-VLC datastream
 FUJIFILMCCD-RAW 
-FU`8
-FXn{
-FZhy
-F\vWpJ
 Failed SOP Instance UID List
 Failed SOP Sequence
 Failed to allocate memory
@@ -4917,9 +4390,9 @@ Failure Reason
 Failure to process entity %s\n
 Fall back to Interpolated 'Point' filter
 False
+Fatal: program compiled against libxml %d using libxml %d\n
 FaxReadG3
 FaxReadG4
-FdrF\v
 FgColor
 Fiducial UID
 Field Of Shutter Rectangle
@@ -4992,7 +4465,6 @@ Fixation Device Position
 Fixation Device Sequence
 Fixation Device Type
 Fixture Identifier
-Fkb u
 Flags for property '%s' on class '%s' introduce additional restrictions on writability compared with the property on interface '%s'\n
 Flags for property '%s' on class '%s' remove functionality compared with the property on interface '%s'\n
 Flash Video Stream
@@ -5034,7 +4506,6 @@ FormatsMap
 FormatsMemory
 Forming a output range from %.*lg to %.*lg
 Found unknown MPE type '%s'
-Fp9| j
 FractalCompressNotSupported
 Fraction Group Number
 Fraction Group Sequence
@@ -5063,8 +4534,6 @@ Free queue for %s (%p) is larger than 65535, called g_object_freeze_notify() too
 FreeLibrary
 FreiChen
 FreiChen:11;FreiChen:12;FreiChen:13;FreiChen:14;FreiChen:15;FreiChen:16;FreiChen:17;FreiChen:18;FreiChen:19
-FrjQ
-Fs?Sus?
 Fuji CCD-RAW Graphic File
 Fumeg
 Function
@@ -5072,27 +4541,16 @@ Function not implemented
 Functional Shutter ID
 Fuzz
 Fuzzy C-means Statistics\n
-Fv[Yu
 FxEvaluateSubexpression
 FxGetSymbol
 FxSubexpression
-G&iC
-G&mB
-G*0&+0+975EC=Z\i\]
-G5G{G
 G8D>
-G=\nmV
-G?n1G?
 GAMMA=%g\n
 GB18030
 GB2312
 GBoxed
-GC$P
-GColor %d out of range
 GDI32.dll
-GD\n4
 GE Image Integrity
-GE">0
 GEnum
 GError set over the top of a previous GError or uninitialized memory.\nThis indicates a bug in someone's code. You must ensure an error is NULL before it's set.\nThe overwriting error message was: %s
 GFlags
@@ -5110,7 +4568,6 @@ GLib (gthread-win32.c): Unexpected error from C library during '%s': %s.  Aborti
 GLib: Cannot convert message: %s\n
 GNU Ghostscript
 GOBJECT_DEBUG
-GO`u@
 GObject
 GObject-closure-array
 GObject-in-construction
@@ -5178,12 +4635,10 @@ GS_LIB
 GSlice: MemChecker: attempt to release block with invalid size: %p size=%u invalid-size=%u\n
 GSlice: MemChecker: attempt to release non-allocated block: %p size=%u\n
 GStrv
-GT38_
 GType
 GTypePlugin
 GValueArray
 GVariant
-G\fp4
 G_DEBUG
 G_ENABLE_DIAGNOSTIC
 G_HOOK_IS_UNLINKED (hook)
@@ -5236,7 +4691,6 @@ G_VALUE_HOLDS_UINT (value)
 G_VALUE_HOLDS_UINT64 (value)
 G_VALUE_HOLDS_ULONG (value)
 G_VALUE_HOLDS_VARIANT (value)
-G`\v6oy
 Gamma
 Gamma/Image
 GammaImage
@@ -5340,6 +4794,7 @@ GetImageQuantizeError
 GetImageRange
 GetImageRegistry
 GetImageStatistics
+GetImageTotalInkDensity
 GetImageVirtualPixelMethod
 GetLastError
 GetLocaleInfoA
@@ -5396,11 +4851,9 @@ GetXMLTreeChild
 GetXMLTreeContent
 GetXMLTreeSibling
 GetXMLTreeTag
-GhaQibRjdSibRibRjbSkbSkbSlcTlcTmaTfZPspi
 GhostWhite
 Ghostscript (%s) version %d.%02d
 Ghostscript returns status %d, exit code %d
-Gi:%5
 Gin>
 Glagolitic
 GlobalAlloc
@@ -5471,38 +4924,17 @@ Group4
 Gujarati
 Gurmukhi
 Gvxam mincetu apocikvyeh: 
-G{Qe
-H FY
-H Sd(8
-H$6t
-H'Gs
 H'S3
-H(VVH
-H*0"ZOW
-H-VB
-H.sx
-H0-u
-H01XyqxyE@
-H5@)5
-H;D7,95593162/62.11--1.00.5/.2*,E21xA5
-H@P4\n16 16\n
 HALD
 HANGUL
-HAUF
 HCLp
-HCT#A
-HD=8
 HEAPCCDR
 HEBREW
-HEH*
 HEXAGONS
-HF6r
-HG3D
 HISTOGRAM
 HISTORY %.72s
 HKEY_CURRENT_USER
 HKEY_LOCAL_MACHINE
-HN!L
 HOME
 HORIZONTAL
 HORIZONTAL2
@@ -5520,10 +4952,6 @@ HTML
 HTML parser 
 HTTP
 HTTPS
-HWrong position of PCS. 1..255 expected, %d found.
-HX1^
-H\nL5
-H\vLZ
 Half Value Layer
 Hamming
 Hangul
@@ -5573,8 +5001,6 @@ HotPink1
 HotPink2
 HotPink3
 HotPink4
-HqR*6
-Hrl"
 Huffman Table Size
 Huffman Table Triplet
 HuffmanDecodeImage
@@ -5582,18 +5008,7 @@ HuffmanEncodeImage
 Huge input lookup
 Hull
 Hypertext Markup Language and a client-side image map
-H|p@j
-H}bU
 I koh Glos esa, und es duard ma ned wei.
-I%fS
-I'Uc
-I(t\fa
-I.S(ja
-I04L
-I2\nZ
-I3PE
-I7WK
-I=uA
 IBH Image Scale Factors
 IBM-037
 IBM-CP1133
@@ -5655,24 +5070,16 @@ ICCRGBG1012
 ICCTEXT
 ICODIB
 ICON
-IDa!Ma
 IEC http://www.iec.ch
 IEC sRGB
 IEND
-IFEA
-IHA&
 IHDR
-II>XI
 IIRO
 ILBM
-ILTi
 IMAGEMAGICK
-IMif
-IN(X
 INFO
 INLINE
 INVERSE
-INjr
 IO Watch dispatched without callback\nYou must call g_source_connect().
 IO_ERROR
 IPL Image Sequence
@@ -5682,7 +5089,6 @@ IPTC Newsphoto text format
 IPTC:%ld:%ld
 IPTCTEXT
 IPTCWTEXT
-IQ+T\v
 ISI Command Field
 ISO LATIN 1
 ISO LATIN 2
@@ -5716,14 +5122,9 @@ ISO_646.IRV:1991
 ISO_8859-1
 ISO_8859-1:1987
 IS_VALID_PART (part)
-IT=_9
 ITU-R601-525L
 ITU-R601-625L
 ITU-R709
-IWwHhcShcShcShcShcSjcSlcTmdUmdUlbQlje
-IZ~Ca
-I\rh8D
-I]K@1-3%J3'
 Iacute
 Ich canne glas eten and hit hirti
 Icircumflex
@@ -5742,8 +5143,6 @@ Identifying Group Length
 Identity Hald color lookup table image
 Idieresis
 Idle source dispatched without callback\nYou must call g_source_set_callback().
-If3Q8
-Ig?Fxg?v
 Ignoring attempt to write 16-bit bKGD chunk when bit_depth is 8
 Ignoring attempt to write 16-bit tRNS chunk when bit_depth is 8
 Ignoring attempt to write bKGD chunk out-of-range for bit_depth
@@ -5751,8 +5150,6 @@ Ignoring attempt to write tRNS chunk out-of-range for bit_depth
 Ignoring invalid time value
 Ignoring request to write a PLTE chunk in grayscale PNG
 Igrave
-IiGM>nw
-Ii`QjaRlbTjaRjaRkbSkbSkbRlcSlcTpbRpaUf_RfaP_YCA@%rM<
 Image
 Image Archive Flag
 Image Box Group Length
@@ -5852,6 +5249,7 @@ Implementation Version Name
 Implode
 Implode/Image
 ImplodeImage
+ImportBlackQuantum
 ImportCMYKAQuantum
 ImportCMYKOQuantum
 ImportCMYKQuantum
@@ -5999,6 +5397,7 @@ Invalid file descriptor.\n
 Invalid filter method in IHDR
 Invalid filter type specified
 Invalid format for pCAL parameter
+Invalid geometry argument
 Invalid iCCP compression method
 Invalid image color type specified
 Invalid image height in IHDR
@@ -6041,8 +5440,6 @@ Inversion Time
 InvokeDelegate
 InvokePDFDelegate
 InvokePostscriptDelegate
-Iok9
-Iq D
 Irix RGB image
 Is a directory
 IsBlobExempt
@@ -6072,21 +5469,10 @@ Item
 Item Delimitation Item
 IterateOverSplayTree
 IterativeDistance
-Its7
-J.2&+.(01+:=0LONXVmnl
-J5:c
-J5MH0
-J7J}J
-J9ri
-J=\vBy
-JA>O
 JBIG1
 JBIG2
-JDOy*DD
 JFIF
 JHDR
-JJK1
-JMLrFzJx
 JNGCompressNotSupported
 JNG\r\n
 JOHAB
@@ -6098,44 +5484,21 @@ JPEGCompressNotSupported
 JPEGEmbeddingFailed
 JPXDecode
 JSON
-JTzxm
-JUL$O
 JWnw*
-JZ+T
-J[=<&AJ0h~St
-J\;5yTb
-J\vXHQyQ
 Ja mogu jesti staklo i ne boli me.
 Javanese
 Je puis mangier del voirre. Ne me nuit.
-Jh_Pi`Qi`Qi`Qh_PkbTjbSi`PibLibHhbK`ZFLJ6@E4@H8CJ>UM;
-Ji\vi
 Jinc
-Jjw[Sc
 Johab
 Jove xef, porti whisky amb quinze gla
 Jovencillo emponzo
-Jr(V
-Js M@
 Junk after value string
 K 52
-K1fLcI
-K3a3
-K6KG
-K;0i
-KC7t
 KERNEL32.DLL
 KERNEL32.dll
-KO1=6)OHF
 KOI8-R
 KOI8-RU
-KQ\fr
-KS$x8
 KVP List
-KXN9%
-KX|GhbRibRkcSibRibRjbSkbSlcTlcTkbRe]S
-K\fAd\rq
-K\fKSK
 K\nppp
 Kaiser
 Kaithi
@@ -6146,34 +5509,22 @@ Kaya kong kumain nang bubog at hindi ako masaktan.
 Kayah_Li
 Kernel
 Keyword
-Kg\tS[
 Kharoshthi
 Khmer
 Khoros Visualization image
 Kirsch
-Km8B}
 Kodak Digital Camera Raw Image File
 Kodak Digital Camera Raw Image Format
-KopCw;n
-Kp0qb
 Kristala jan dezaket, ez dit minik ematen.
-KwV\r
+L %g %g Z\n
+L %g %g\n
 L%.20g
-L&&jl66Z~??A
 L*A*B
-L*LrL
-L/Q0am
-L2"8\vf
-L3\rx
-L3`F
-L:1d
-L=5W
 LABEL
 LANG
 LANGUAGE
 LATIN1
 LAUNCH
-LAZr
 LBLSIZE
 LBLSIZE=%.20g FORMAT='BYTE' TYPE='IMAGE' BUFSIZE=20000 DIM=2 EOL=0 RECSIZE=%.20g ORG='BSQ' NL=%.20g NS=%.20g NB=1 N1=0 N2=0 N3=0 N4=0 NBB=0 NLB=0 TASK='ImageMagick'
 LCHab
@@ -6185,17 +5536,12 @@ LEFT30
 LEFT45
 LEFTSHINGLE
 LEGO Mindstorms EV3 Robot Graphic Format (black and white)
-LH,y
 LINES
 LINE_IS_VALID (line)
-LIX@?M<99A=(BC.8A9:EQEUaFSRaG<
 LOCALAPPDATA
 LOG-
 LOGO
 LOOP
-LP?%T
-LQjEgdSgdRgdRgdRfdRicRlcUmdUmdSjaQddd
-LS5>
 LUT Data
 LUT Descriptor
 LUT Explanation
@@ -6207,8 +5553,6 @@ LUT is not suitable to be saved as LutBToA
 LUT8 needs 256 entries on prelinearization
 LUT_1D_SIZE
 LUT_3D_SIZE
-LXHY
-LXp!
 LZMA
 LZWDecode
 LZWEncodeImage
@@ -6247,13 +5591,8 @@ LavenderBlush2
 LavenderBlush3
 LavenderBlush4
 LawnGreen
-Lay/_
 Layers
 LcidToRfc1766A
-Lcs00
-Ld!7
-LdUPN
-LdZq
 Leaf Jaw Positions
 Leaf Position Boundaries
 LeaveCriticalSection
@@ -6265,7 +5604,6 @@ LeftBottom
 LeftOrientation
 LeftShift
 LeftTop
-Legc
 LemonChiffon
 LemonChiffon1
 LemonChiffon2
@@ -6285,8 +5623,6 @@ LevelImage
 LevelImageColors
 Levelize/Image
 LevelizeImage
-Lh)l
-Li`Qi`Qi`QjaRjaQk_Zk__kaVkaTkaXlaRkbNZVDDF8<C55C1?C)
 Libpng jmp_buf still allocated
 Light
 Light Brightness
@@ -6369,7 +5705,6 @@ ListFiles
 ListLength
 ListLengthExceedsLimit
 Lisu
-Ll!yZ
 Load/Image
 Load/Images
 LoadDelegateCache
@@ -6407,23 +5742,16 @@ Lossy Image Compression
 Lossy Image Compression Ratio
 Low R-R Value
 Lower Range Of Pixels
-Lp0}
-Lp_6\
 Lr16
 Lr32
 Lslash
 Luminance
 Luminize
 Luminosity
-LwH'
-Ly<4`
 Lycian
 Lydian
+M %g %g\n
 M' pozz magna' o'vetr, e nun m' fa mal.
-M'(:fjgl4
-M)XA
-M15I?
-M8MF
 MAC Paint
 MAGICK
 MAGICK_CONFIGURE_PATH
@@ -6458,8 +5786,6 @@ META
 MG Bin Number
 MGK8BIM0000
 MGKIPTC0000
-MGRP<EB-O_9i
-MGiI
 MHDR
 MIB8
 MIFF
@@ -6476,8 +5802,6 @@ MPEG-4 Video Stream
 MPEG:DECODE
 MPEG:ENCODE
 MPRI
-MQo<VsB\yGb
-MQp@
 MR Acquisition Type
 MRDR Directory Record Offset
 MS-ANSI
@@ -6491,7 +5815,6 @@ MS50221
 MS51932
 MS932
 MS936
-MSK,D
 MSLAttributeDeclaration
 MSLCDataBlock
 MSLCharacters
@@ -6581,7 +5904,6 @@ Maximum
 Maximum Coordinate Value
 MaximumChannelsExceeded
 MbP?
-Mbp?
 Mean
 Mean Of Corrected Gray Levels
 Mean Of Log Region Gray Levels
@@ -6659,7 +5981,6 @@ Metrics: text: %s; width: %g; height: %g; ascent: %g; descent: %g; max advance: 
 Metumi awe tumpan, ?ny? me hwee.
 Mi posso magnare el vetro, no'l me fa mae.
 Mi save kakae glas, hemi no save katem mi.
-Mi`Qi`Qh_PlcTkbSmbWlbUldOldPlbVmbUmcThaQVP@EA18A'
 Miao
 Microsoft Audio/Visual Interleaved
 Microsoft Base Cryptographic Provider v1.0
@@ -6744,7 +6065,6 @@ Mosaic
 Move Destination
 Move Originator Application Entity Title
 Move Originator Message ID
-Mr1(
 MsgWaitForMultipleObjectsEx
 MsgWaitForMultipleObjectsEx failed: %s
 MultiByteToWideChar
@@ -6759,30 +6079,15 @@ Multiply
 Multisegment or Inverted parametric curves cannot be written
 MustSpecifyAnImageName
 MustSpecifyImageSize
-My.u
 Myanmar
-N%NnN
-N)an
-N-ERH%
-N-bq
-N4Em
-N5pB
-N9OaP
-N=([Etb
 NAXIS   =           %10lu
 NAXIS1  =           %10lu
 NAXIS2  =           %10lu
 NAXIS3  =           %10lu
 NCName
-NCV;heVheWheWheWheWieVkdZneWhfQnlh
-ND\nL
 NETSCAPE
 NETSCAPE2.0
-NFQ7
-NJ2"v
-NJ5mS/iX(
 NJPL1I
-NN3xl
 NODE_IS_IFACE (iface)
 NODE_IS_IFACE (iface) && IFACE_NODE_N_PREREQUISITES (iface) < MAX_N_PREREQUISITES && (prerequisite_node->is_instantiatable || NODE_IS_IFACE (prerequisite_node))
 NODE_REFCOUNT (node) > 0
@@ -6799,8 +6104,6 @@ NULL
 NULL input profiles on transform
 NULL pointer
 NULL row buffer
-NZCS
-NaX)
 Name
 Name %s is not XML Namespace compliant\n
 Name expected in NOTATION declaration\n
@@ -6832,9 +6135,6 @@ New Doc failed
 NewXMLTree
 New_Tai_Lue
 Next Directory Record Offset
-Nfc0
-NgepI
-NhD\f{2
 Nikon Digital SLR Camera Raw Image File
 NmToken
 NmToken expected in ATTLIST enumeration
@@ -6908,9 +6208,7 @@ NotEnoughTiles
 Notation declaration doesn't start and stop in the same entity\n
 Notch Filter Bandwidth
 Notch Filter Frequency
-Nt@J"
 Ntilde
-Nu\tc
 Nuclear Acquisition Group Length
 Nuclear Medicine Series Type
 Num Beats
@@ -6980,24 +6278,11 @@ Number of Wedges
 NumberOfImagesIsNotSupported
 Numeric Value
 O'T3
-O*9y]
-O/@sh
-O11i
-O8Yu#k<u
 OCTAGONS
-ODUUUUUU
 OHTA
-OI;MG:F@5?90=60A=8ME5SD.WLS
 OLEAUT32.dll
-OPae
-ORce
 OTSU
 OUTBUFF_FULL
-OW%PXMPYuPZ
-OX)1
-OZw3(?
-O\fh8
-O]uz
 Oacute
 Object Binary Identifier
 Object Cycle
@@ -7035,11 +6320,9 @@ Offset Frequency
 Offset From CT MR Images
 Ogham
 Ograve
-Oh44\Q
 OilPaint
 OilPaint/Image
 OilPaintImage
-Ol"W)
 Ol_Chiki
 Old Data Set Subtype
 Old Data Set Type
@@ -7086,7 +6369,6 @@ OptimizeTransparency
 Option/Error/
 Option/FatalError/
 Option/Warning/
-Or\rl
 OrangeRed
 OrangeRed1
 OrangeRed2
@@ -7122,7 +6404,6 @@ Output Power
 OutputDebugStringA
 OutputFilename
 OutputType
-Ov@\t8N\n
 OvSize
 Over
 Overall
@@ -7176,30 +6457,17 @@ Overline
 Overrange Correction Used
 OverviewImage
 Owner Name
-OwrS=
-OxR\n0
-P$XE
-P&15PM
-P'PqP
-P(hA
+P%c\n
 P0;0;0q
-P0Ea
 P4\n16 16\n
 P4\n16 8\n
 P4\n24 24\n
 P4\n30 18\n
 P4\n32 32\n
-P4\n32 32\nDDDD
 P4\n32 32\nUUUU
-P4\n32 32\nwwww
 P4\n8 4\n
 P4\n8 8\n
 P4\n9 9\n
-P6'D\ta
-P6\n70 46\n255\n0/-20.62/83.:3-92-80-91.80-80-7/,5-*4,)5-*5-*1-'1.'41*74-96/?:/F?3JB4LA2NB2UA2tD4
-P7U)
-P9?i
-P@>0>=4<=2AE*LM:UTAecg
 PALCompositeVideo
 PALM
 PANGO
@@ -7471,8 +6739,6 @@ PDFA
 PDFDelegateFailed
 PDM Data Object Type Extension
 PDS_VERSION_ID
-PE-PFUPG}PH
-PE2<
 PEReference at end of document
 PEReference in epilog
 PEReference in prolog
@@ -7490,13 +6756,11 @@ PG ML
 PG ML + %g %g %g\n
 PG%[ \t]%2s%[ \t+-]%d%[ \t]%d%[ \t]%d
 PHASH
-PHnRLauw|
 PI %s too big found
 PI declaration doesn't start and stop in the same entity\n
 PICON
 PICT
 PIXMAN_DISABLE
-PK\tEA
 PLASMA
 PLTE
 PNG file corrupted by ASCII conversion
@@ -7511,8 +6775,6 @@ PNG8
 PNGCompressNotSupported
 PNGSetExifProfile
 PNG\r\n
-PNXX
-POF`
 POSIX collating elements are not supported
 POSIX named classes are supported only within a class
 PP: internal error, state == ATTRIBUTE_VALUE\n
@@ -7524,7 +6786,6 @@ PP: internal error, state == PI\n
 PP: internal error, state == PUBLIC_LITERAL\n
 PP: internal error, state == SYSTEM_LITERAL\n
 PPScan Parameters
-PQrp\r
 PRIMARIES=%g %g %g %g %g %g %g %g\n
 PRINT
 PRIORITY
@@ -7534,7 +6795,6 @@ PS:CMYK
 PS:COLOR
 PS:GRAY
 PS:MONO
-PS;pI
 PSD Estimated Limit
 PSD Estimated Limit In Tesla Per Second
 PSDPackbitsEncodeImage
@@ -7547,8 +6807,6 @@ PT154
 PTCP154
 PUBLIC, the Public Identifier is missing
 PVC Rejection
-PXV#
-P\xlJ
 Pa's wijze lynx bezag vroom het fikse aquaduct.
 PackBitsRect
 PackBitsRgn
@@ -7600,6 +6858,7 @@ PangoFallbackEngine
 PangoFont
 PangoFontFace
 PangoFontFamily
+PangoFontMap
 PangoFontset
 PangoFontsetSimple
 PangoGravity
@@ -7687,8 +6946,6 @@ Patients Telephone Numbers
 Pause Between Frames
 Pbm popping %d NS\n
 Pchn?? w t? ?
-Pd#93-
-Pe6^
 PeachPuff
 PeachPuff1
 PeachPuff2
@@ -7850,7 +7107,6 @@ Postprocessing Function
 PostscriptDelegateFailed
 Potential overflow in png_zalloc()
 PowderBlue
-Pqf\f
 Pre-Medication
 Predefined Magick Image (LOGO, ROSE, etc.); output same as 'H'
 Predefined entity %s without content !\n
@@ -7937,25 +7193,8 @@ PushRunlengthPacket
 Pushing input %d : %.30s\n
 Pxr24
 Q 62
-Q.YS
-Q>JBR>L
-QABE\n
-QC)\C
-QCannot load font '%s\n
-QH)G
-QJ9%
-QLEQMmQN
-QM#7
 QName split
 QQQQ
-QQ\rRR5RS]RT
-QV 6
-Q\fKtl
-Q\rU4
-QbLp
-QjAI
-Qkkbal
-Qnt2,
 QqTt
 Quadratic
 Quality Control Image
@@ -7973,23 +7212,11 @@ QueryPerformanceCounter Failed (%lu)
 QueryPerformanceFrequency
 QueueAuthenticPixelCacheNexus
 Quizdeltagerne spiste jordb
-QyReSOT5U
 R Coord Of Bottom Right Corner
 R Coord Of Top Right Corner
 R Wave Pointer
-R!4p
-R"Z$g
-R'Jj7D
-R+42W
 R-R Interval Vector
-R.3P
-R0o?
-R1R|R
-R1h58
-R5dN
 R98.
-R?lBR?
-R@#ffffff
 RA Coord Of Target Recon Centre
 RADIAL-GRADIENT
 RAS Letter For Anterior Posterior
@@ -7998,8 +7225,6 @@ RAS Letter For Scout Start Loc
 RAS Letter For Side Of Image
 RAS Letter Of Image Location
 RECORD_BYTES
-RF##e
-RFb`/G1f
 RGB OpColor for arithmetic modes
 RGB backColor
 RGB color space not permitted on grayscale PNG
@@ -8023,7 +7248,6 @@ RIS Key
 RIS Report IMGEF
 RIS Worklist IMGEF
 RLEDecoderError
-RLs7:C:97RJN
 RMSE
 ROI Area
 ROI Bottom Right
@@ -8049,7 +7273,6 @@ ROMAN
 ROSE
 RR Interval Window Number
 RR Window Offset
-RSDSz
 RT Beam Limiting Device Type
 RT Dose ROI Sequence
 RT Image Description
@@ -8074,9 +7297,7 @@ RT Referenced Study Sequence
 RT Related ROI Sequence
 RTImageOrientation
 RUSSIAN
-R\f2
 R\nsss
-R\nuN
 R\vn>
 Radial
 Radial Position
@@ -8141,8 +7362,6 @@ Raw red, green, blue samples in 565 format
 Raw red, green, blue, and alpha samples
 Raw red, green, blue, and opacity samples
 Raw yellow samples
-Rd-ReURf
-Rd.F
 Read
 Read Error
 Read Exception
@@ -8202,7 +7421,9 @@ ReadMNGImage
 ReadMONOImage
 ReadMPCImage
 ReadMPEGImage
+ReadMPRImage
 ReadMSLImage
+ReadMTVImage
 ReadMVGImage
 ReadMask
 ReadMipmaps
@@ -8215,6 +7436,7 @@ ReadPALMImage
 ReadPANGOImage
 ReadPATTERNImage
 ReadPCDImage
+ReadPCLImage
 ReadPCXImage
 ReadPDBImage
 ReadPDFImage
@@ -8223,6 +7445,7 @@ ReadPGXImage
 ReadPICTImage
 ReadPIXImage
 ReadPNGImage
+ReadPNMImage
 ReadPSDChannel
 ReadPSDChannelRLE
 ReadPSDChannelRaw
@@ -8232,6 +7455,7 @@ ReadPSDLayer
 ReadPSDLayersInternal
 ReadPSDMergedImage
 ReadPSImage
+ReadPWPImage
 ReadPixelCacheMetacontent
 ReadPixelCachePixels
 ReadRAWImage
@@ -8250,6 +7474,7 @@ ReadSTEGANOImage
 ReadSUNImage
 ReadSVGImage
 ReadTEXTImage
+ReadTGAImage
 ReadTILEImage
 ReadTIMImage
 ReadTXTImage
@@ -8261,8 +7486,11 @@ ReadVICARImage
 ReadVIDImage
 ReadVIFFImage
 ReadVIPSImage
+ReadWBMPImage
 ReadWPGImage
+ReadXBMImage
 ReadXCFImage
+ReadXCImage
 ReadXPMImage
 ReadXPSImage
 ReadXTRNImage
@@ -8576,18 +7804,15 @@ RoyalBlue1
 RoyalBlue2
 RoyalBlue3
 RoyalBlue4
-RpeX
 RtlGetVersion
 RtlGetVersion != NULL
 Run Length Triplet
 RunLengthDecode
 Runic
 RunlengthEncoded
-R~e2
 S Coord Of Bottom Right Corner
 S Coord Of Top Right Corner
 S urrainn dhomh gloinne ithe; cha ghoirtich i mi.
-S1?=ST6I
 SAR Avg Head
 SAT Location F
 SAT Location H
@@ -8603,7 +7828,6 @@ SAX.xmlSAX2EntityDecl(%s) called while not in subset\n
 SAX.xmlSAX2NotationDecl(%s) called while not in subset\n
 SAX.xmlSAX2NotationDecl(%s) externalID or PublicID missing\n
 SAX.xmlSAX2UnparsedEntityDecl(%s) called while not in subset\n
-SAnT
 SCAN
 SCAb
 SCAe
@@ -8624,7 +7848,6 @@ SHOW
 SHOW is not implemented yet
 SHTML
 SIENET ISA PLA
-SIF2
 SIMPLE
 SIMPLE  =                    T
 SIXEL
@@ -8633,11 +7856,9 @@ SJIS-MS
 SJIS-OPEN
 SJIS-WIN
 SKIP
-SKyu
 SMALLFISHSCALES
 SMPTE 268M-2003 (DPX 2.0)
 SMTPE274M
-SNXh
 SOFTWARE\%s
 SOFTWARE\%s\%d.%02d
 SOFTWARE\%s\%s\Q:%d
@@ -8648,8 +7869,6 @@ SOP Instance UID
 SOURCE_BLOCKED (source)
 SOURCE_DATE_EPOCH
 SPARSE-COLOR
-SPC-
-SPVB't
 SSIM
 STEGANO
 SUN Rasterfile
@@ -8683,16 +7902,12 @@ SVGUnparsedEntityDeclaration
 SVGWarning
 SVGZ
 SWISS
-SY?gds
 SYMBOL
 SYSLOG_FACILITY
 SYSLOG_IDENTIFIER
 SYSLOG_PID
 SYSTEM or PUBLIC, the URI is missing
 SYSTEM\CurrentControlSet\Control\FileSystem
-S\rYkv
-S\vQD
-SaIyA
 SaddleBrown
 Samaritan
 Sample Rate
@@ -8943,7 +8158,6 @@ SincFast
 Sine
 Sinhala
 Sinusoid
-Si}P9-
 Skeleton
 Skip Beats
 SkipDXTMipmaps
@@ -8975,7 +8189,6 @@ Slice Vector
 Slide Identifier
 Slop Integer 6 To Slop Integer 9
 Slow Scan TeleVision
-Sm-SnESo]SpuSq
 Small-Caps
 Smallest Image Pixel Value
 Smallest Pixel Value in Plane
@@ -9036,7 +8249,6 @@ South
 SouthEast
 SouthWest
 SpExtra
-SpJZ
 Space needed after '<?xml'\n
 Space needed here\n
 Space required after '#FIXED'\n
@@ -9091,7 +8303,6 @@ SrcAtop
 SrcIn
 SrcOut
 SrcOver
-Src\tV:
 Stack
 Stage Name
 Stage Number
@@ -9192,7 +8403,6 @@ Surface Entry Point
 Surface Threshold
 Surview Direction
 Surview Length
-Svc?c$
 Svj>
 Swap Phase Frequency
 Swirl
@@ -9215,41 +8425,26 @@ SystemLiteral " or ' expected
 SystemParametersInfoA
 SystemRoot
 SystemTimeToFileTime
-T yl\Ab
-T$4O
-T(3EG
-T2.v0
-TC>y\nX
 TEMP
 TERM
 TEXT
 TGGC Trigger Mode
-TGLk
 THAI
 THEN
 THUMBNAIL
 TID Offset
 TILE
 TITLE 
-TJ?M
 TM-Line Position X0
 TM-Line Position X1
 TM-Line Position Y0
 TM-Line Position Y1
 TMPDIR
 TODO
-TP(B
 TRUE
-TTTT
-TTTTT
-TTu?Z|E_
 TUPLTYPE
 TUPLTYPE %s\nENDHDR\n
 TURKISH
-TXdd
-T\t5K
-T\tQPf
-T`00P
 Table Angle
 Table Delta
 Table End Location
@@ -9291,8 +8486,6 @@ Target Maximum Dose
 Target Minimum Dose
 Target Prescription Dose
 Target Underdose Volume Fraction
-Tb)#8
-Tc<I?
 Telephone Number
 Tell error; probably corrupted file
 TellBlob
@@ -9318,7 +8511,6 @@ TextAnnotation
 TextPrimitive %.20g,%.20g
 Texture/Image
 TextureImage
-TgO$J
 Thaana
 Thai
 The expression PIXMAN_FORMAT_BPP (format) >= PIXMAN_FORMAT_DEPTH (format) was false
@@ -9344,7 +8536,6 @@ The system clipboard
 Therapy Description
 Therapy Type
 Thermal Index
-Thh4b*
 Thicken
 Thickness Disclaimer
 Thin
@@ -9396,7 +8587,6 @@ Title: %s\n
 TlsAlloc
 TlsGetValue
 TlsSetValue
-TmSG
 Tolerance Table Label
 Tolerance Table Number
 Tolerance Table Sequence
@@ -9412,6 +8602,7 @@ Too many bytes for PNG signature
 Too many colorants '%d'
 Too many device coordinates '%d'
 Too many handles to wait for!\n
+Too many input channels (%d channels, max=%d)
 Too many links
 Too many named colors '%d'
 Too many open files
@@ -9463,6 +8654,7 @@ Transform Translation Vector
 Transform/Image
 TransformImage
 TransformImageColorspace
+TransformsRGBImage
 Transmission Gain
 Transmission Mask Width
 Transmission Scan Time
@@ -9501,7 +8693,6 @@ TryAcquireSRWLockExclusive
 TryAcquireSRWLockShared
 TryEnterCriticalSection
 Trying to write to a non-writable image
-Ts\ne
 TxFace
 TxFont
 TxMode
@@ -9515,14 +8706,8 @@ Type/Error/
 Type/FatalError/
 Type/Warning/
 TypeOfFilters
-T~OXu
-U(UuU
-U/lP
-U?1g
-U?wN
 UBRL
 UBRL6
-UC6UQ`
 UCS-2
 UCS-2BE
 UCS-2LE
@@ -9537,13 +8722,8 @@ UCS4 2143
 UCS4 3412
 UCS4BE
 UCS4LE
-UEj)
-UMyeOZnJUmDM_:9C(89,;=34;089)Vd>t
 UNEXPECTED_EOF
 UNKNOWN
-UPQh
-UPpYC`jH
-UQz\ONO>5@1/5,330.3+4>1;K80>.-2/54+AM/s
 URI 
 URLDownloadToFileA
 US-ASCII
@@ -9552,7 +8732,6 @@ USC4 little endian
 USER32.dll
 USERPROFILE
 USP10.dll
-US]CQ
 UTF-16
 UTF-16BE
 UTF-16LE
@@ -9573,13 +8752,10 @@ UUUU""""UUUU
 UUUU"*"*UUUU
 UUUU****UUUU
 UUUUUU
-UW\no
 UYVY
 Uacute
-UcKc
 Ucircumflex
 Udieresis
-Ug#N5
 Ugaritic
 Ugrave
 Ultra-Black
@@ -9685,6 +8861,7 @@ UnknownImageProperty
 UnknownPatternType
 UnmapViewOfFile
 Unrecognized
+Unrecognized alpha channel width
 Unrecognized equation type for pCAL chunk
 Unrecognized unit type for oFFs chunk
 Unrecognized unit type for pHYs chunk
@@ -9720,6 +8897,7 @@ Unsupported colorspace
 Unsupported combination of band format and colorspace
 Unsupported encoding %s\n
 Unsupported intent '%d'
+Unsupported interpolation (%d->%d channels)
 Unsupported number of channels
 Unsupported number of channels for VCGT '%d'
 Unsupported parametric curve
@@ -9730,8 +8908,6 @@ Unsupported type '%s' for tag '%s'
 Unsupported version '%s'\n
 UnsupportedBitsPerPixel
 UnsupportedCellTypeInTheMatrix
-UoA=r
-Uo\vv
 Update
 Upper Range Of Pixels
 Upper/Lower Pixel Values
@@ -9753,16 +8929,8 @@ UserDefined
 UserSpace
 UserSpaceOnUse
 Utah Run length encoded image
-Uw]v
-U|L0t
-V!MV\t
-V1hQ
 V2.0
-V2[f
 V4.5
-V939j%5'
-V:Ao
-VAaB
 VC# V
 VCOMP140.DLL
 VCRUNTIME140.dll
@@ -9773,8 +8941,6 @@ VERTICALBRICKS
 VERTICALLEFTSHINGLE
 VERTICALRIGHTSHINGLE
 VERTICALSAW
-VGqr
-VI/z
 VICAR
 VICAR rasterfile format
 VIETNAMESE
@@ -9784,10 +8950,6 @@ VIPS
 VIPS image
 VOI LUT Sequence
 VOI Position
-VPf,\t8
-VTRl
-VUM>VM?VN?VP=\RC`WBbYKmckwj|pdm]W[WUR]VGfZFn_HjdO
-VYBYe
 V\rpt-br
 Valid palette required for paletted images
 Validate
@@ -9806,7 +8968,6 @@ Variable Flip Angle Flag
 Variable Next Data Group
 Variable Pixel Data
 Variable Pixel Data Group Length
-Vc0a
 VectorGraphicsNestedTooDeeply
 Vejam a bruxa da raposa Salta-Pocinhas e o c
 Verbal Source
@@ -9819,8 +8980,6 @@ VerticalTile
 VerticalTileEdge
 Vertices of Polygonal Collimator
 Vertices of Polygonal Shutter
-VhC4d
-VhaI
 Video Image Format Acquired
 Viekas kettu punaturkki laiskan koiran takaa kurkki.
 View Code Sequence
@@ -9877,10 +9036,7 @@ Volume Voxel Size
 Volume Z Position List
 Volume Z Position Size
 Voronoi
-VrS4
 W 72
-W/q#IX
-W=m8I`X
 WARNING
 WARNING!! g_main_context_wait() will be removed in a future release.  If you see this message, please file a bug immediately.
 WBMP
@@ -9902,9 +9058,6 @@ WINDOWS-874
 WINDOWS-932
 WINDOWS-936
 WIZARD
-WN<?5;4193.53.14/-4.,40/3/12000.3-+I.!lMN
-WN?VM?PI:KB4F<1E@7LG5SG.VNQ
-WNy!
 WR_l%2>
 WS2_32.dll
 WSACloseEvent
@@ -9913,9 +9066,6 @@ WSAEnumNetworkEvents
 WSAEventSelect
 WSASetEvent
 WSAStartup failed
-WY'N
-WZTz-
-W^)Q@SJ
 WaitForMultipleObjectsEx
 WaitForMultipleObjectsEx failed: %s
 WaitForSingleObject
@@ -9935,8 +9085,6 @@ Waveform Number of Samples
 Waveform Padding Value
 Waveform Sample Value Representation
 Waveform Sequence
-WbIx
-WcZKe[Ke[Kd[Le[Mg_Jh_Hg^Mg]Lf\I`ZGQN=LH7SP>[ZF__O
 WebP
 Wedge Angle
 Wedge Factor
@@ -9951,7 +9099,6 @@ Weight
 Welch
 Welsh
 West
-Wh<z`
 WhQ\vU
 White
 WhiteSmoke
@@ -9985,12 +9132,9 @@ Wireframe Point List
 Wireframe Points Coordinates
 Wireframe Timestamp
 Wireless Bitmap (level 0) image
-WjL~J
-WmS|
 Word Perfect Graphics
 Worklist Request End Time
 Worklist Request Start Time
-Wr;j
 Write
 Write Error
 Write-only property '%s' on class '%s' has type '%s' which is not equal to or less restrictive than the type '%s' of the property on the interface '%s' \n
@@ -10088,31 +9232,22 @@ Writing zero-length unknown chunk
 Wrong input color space on transform
 Wrong number of profiles. 1..255 expected, %d found.
 Wrong output color space on transform
+Wrong position of PCS. 1..255 expected, %d found.
 Wrote palette index exceeding num_palette
-Wze\f
 X Focus Center
 X Offset In Slide Coordinate System
 X Windows system bitmap (black and white)
 X Windows system pixmap (color)
-X,,t4
 X-Motif UIL table
 X-Ray Image Receptor Angle
 X-Ray Output
 X-ray Tube Current
-X/X}X
-X@Sfp
+X: %.20g\n
 XA 3D Reconstruction Algorithm Name
 XA 3D Reconstruction Algorithm Version
-XA)4
 XDG_CONFIG_HOME
-XE(<1\veTc
 XENDIAN = 'SMALL'
-XF,B
-XF2h
-XI&T
 XInclude 
-XL3Z
-XM<UMF
 XML 2.9.7
 XML conditional section '[' expected
 XML conditional section not closed
@@ -10132,86 +9267,40 @@ XShear/Image
 XShearImage
 XTRN
 XTRNARRAY
-XVAnO
 XYZ 
-XYzg
-XZM4P?
-X\If
-X\tZW
-X\v4l
-Xe`l
-Xi#/H
 Xl=hs>
-XozM
-Xq6}
-XqTNr
 Xray Chain
 Xray Off Position
-XsBI
-Xw^f
+Y %d %d
 Y Focus Center
 Y Offset In Slide Coordinate System
-Y)QL
-Y*CL
-Y;OST
-Y<hc
-Y@ReadMTVImage
+Y: %.20g\n
 YCBCR
 YCbCr
 YCbCrA
 YDbDr
-YDw\
-YMAM+'2%7><KM@=;(7:/8@-h
-YMVO
-YOQ=Nm}
-YO];;=.23+;C1f
 YPbPr
 YShear/Image
 YShearImage
 YT5K
-YZ}5
 Y\nuuu
-Y\o`pr
 Yacute
-YbZ6[
-Yb\te
-YdJ.0.//-/1.21.30-3/,2-*-*+,+,*)-+(,-',+(),*)--+/-,.+*/+)4,)6/*;3.=40;1-;/.>/.>3,59/93,O,'i:-
 Ydieresis
 Yellow
 YellowGreen
-YoFf
-YqFL
-Y|q'za\f
 Z Offset In Slide Coordinate System
-Z*dV
-Z2?3
-Z7cb
 ZDepthHomogeneous
 ZDepthLinear
-ZEK|D
-ZF9=
 ZLIBEncodeImage
 ZSoft IBM PC Paintbrush
 ZSoft IBM PC multi-page Paintbrush
 ZX-Spectrum SCREEN$
-ZYXb
-ZYXg
-ZYXr
-ZZ*T
-Z\nnkd&4
-Z\rnh
-Z_JmLd
 Z_OK on Z_FINISH with output space
-Z`485
-Z`qE
-Zbn-
 Zcaron
 ZeroLengthBlobNotPermitted
 ZipCompressNotSupported
 ZipS
 ZipWithPrediction(32 bit)
-Zjz\v
-ZnN;
 Zonal Map Format
 Zonal Map Location
 Zonal Map Number Format
@@ -10219,10 +9308,7 @@ Zoom Center
 Zoom Enable Status
 Zoom Factor
 Zoom Select Status
-Zr?3
 Zstd
-ZxnI
-Z|4X
 [ /Indexed /%s %.20g %.20g 0 R ]\n
 [ /PDF /Text /ImageB
 [ /PDF /Text /ImageC
@@ -10233,102 +9319,31 @@ Z|4X
 [1;32m
 [1;33m
 [1;35m
-[CM5
-[Eqw%
 [Invalid UTF-8] 
-[K:[K:YK:YI9[K:]J<^K<^O;^O;_N:_KHaWw|w
-[L<[L<\L<YI;ZK;[L>^M<^P<[NAYLI^Sdme
-[N>ZN>[N=XM<ZL<WK?XL<ZL8ULGd_uwx
-[PA[OAYM?TJ:TG9NG<RJ9WK4XQT
-[SWX@Oe=`vFCW-6@*:<279/8@-_yAx
-[TUeUWD
-[ToF?O94462&52):9.B=-K@/P@/C;*:4)040B1-
-[VpJ9kS@s`I
-[XAi8
 [built-in]
-[eC5
-[fa=3HC/
 [ghostscript library %.2f]
 [ghostscript library %.2f]%s: %s
-[h1R
 [zero-configuration]
 \ at end of pattern
-\9Ho_
-\AvfPf
 \C not allowed in lookbehind assertion
-\K7\K6\K6]L7]L9]L;^M=]P=]P=aM:cG>g]q
 \N is not supported in a class
 \P{Xan}
 \P{Xps}
 \P{Xsp}
 \P{Xwd}
 \U%08x
-\a~Qe
 \b0lp
 \c at end of pattern
 \c must be followed by an ASCII character
-\f"WA`7h
-\f(\f*\f3\f5\f9\f`\fa\f
-\f0CP
-\f2xBq
-\f6Q\rH
-\f<329D\f
-\f>\fD\fF\fH\fJ\fM\fU\fV\f
-\fDpn#
-\fHLino
-\fNl!D
-\fT0H
-\fWhX2
-\fYDc}
-\f\BY0S
-\f\f\f\f\f\f\f\f\f\f\f
-\f\f\f\f\f\f\f\f\f\f\f\f\f\f
-\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f
-\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f
-\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f
-\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f
-\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f
-\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f
-\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f
-\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f
 \f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f=\f=====\f==\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f
-\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f
-\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f
-\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f
-\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f
-\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\t
-\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\n
-\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\r\r\r\r\r\r\r\r\r\r
-\f\f\f\f\f\f\f\f\f\f\f\f\f\f\n\f\f\f\f\f
-\f\f\f\f\f\f\f\f\f\f\f\f\f\f\v
-\f\f\f\f\f\f\f\f\f\f\f\f\f\n\f\f
-\f\f\f\f\f\f\f\f\f\f\f\f\f\n\f\f\f\f\f\f\f
-\f\f\f\f\f\f\f\f\f\f\f\f\f\v\v\v\v\f\v\v\v\f\f\f\f\f\f\f\f\f\f\f\f
-\f\f\f\f\f\f\f\f\f\f\f\n\n
-\f\f\f\f\f\f\n\n\f\f\f
-\f\f\f\f\f\f\n\n\f\f\n\n\f\f
-\f\f\f\f\f\n\f\f\f\f\f\f\f\f
-\f\f\f\n\n\f\f\f\f\n\f\f\f\f\f
-\f\f\f\n\n\n\n\f\f\n\n\n
-\f\f\n\f\f\f\f\f\f\f\n\n\n\n\n\n\n\n\f\n\n\f\f\f\f\f\f\f\f\f\f\f
-\f\n\f\f\f\f\f\n\f\n\n\n\n\n\f\n\n
-\f\n\f\f\n\n\n\f\n\f\f\f\n\n
-\f\n\f\n\n\f\f\f\f\f\f\f\f\n\n\n\n\n\n\f\f\f\f\f\f\f\f\f\f
-\f\n\f\n\n\f\f\f\f\f\f\n\f
-\f\n\n\f\f\f\f\n\n\f\n\n\n\n
-\f\n\n\f\f\n\n\n\n\n\n\f
-\f\n\n\n\f\f\f\f\f\f\f\f
-\f\r\r\r\r\r\r\r\r\r\r
 \fbTRC
 \fdesc
-\feHC
 \fgTRC
 \fonts\
 \fonts\arial.ttf
 \fpcd
 \frTRC
 \ftext
-\ftpQ
 \fvued
 \g is not followed by a braced, angle-bracketed, or quoted name/number or by a plain number
 \inc\lib\auto\Image\Magick\
@@ -10343,180 +9358,71 @@ Z|4X
 \n  setting last_events=0
 \n  setting revents=0
 \n setting revents=0
+\n%%3
 \n%%BeginDefaults\n
 \n%%EndPreview\n
 \n%EndPhotoshop\n
 \n%s: Difference of Dilate and Erode
 \n%s: Difference with original image
-\n(\n*\n0\n2\n3\n5\n6\n8\n9\nY\n\\n^\n^\nr\nt\n
 \n*** A special note about internal error number 1007 ***\n\nExperience suggests that a common cause of i.e. 1007\nis unreliable memory or other hardware.  The 1007 assertion\njust happens to cross-check the results of huge numbers of\nmemory reads/writes, and so acts (unintendedly) as a stress\ntest of your memory system.\n\nI suggest the following: try compressing the file again,\npossibly monitoring progress in detail with the -vv flag.\n\n* If the error cannot be reproduced, and/or happens at different\n  points in compression, you may have a flaky memory system.\n  Try a memory-test program.  I have used Memtest86\n  (www.memtest86.com).  At the time of writing it is free (GPLd).\n  Memtest86 tests memory much more thorougly than your BIOSs\n  power-on test, and may find failures that the BIOS doesn't.\n\n* If the error can be repeatably reproduced, this is a bug in\n  bzip2, and I would very much like to hear about it.  Please\n  let me know, and, ideally, save a copy of the file causing the\n  problem -- without which I will be unable to investigate it.\n\n
 \n***MEMORY-ERROR***: 
-\n1ZZ&p;
-\n2aKCx
-\n6Hb
-\n;HhC
-\n<\n<\n>\n>\n?\n?\n@\nB\nG\nH\nK\nM\np\nq\n
-\nM0\vZ
-\nM`SE0\nC
 \nUnsupported WPG token XOR, please report!
 \nUnsupported WPG2 unaligned token RST x=%.20g, please report!\n
 \nYYY
-\n\f\f\f\f\f\f\f\n\f\f\n\f\f
-\n\f\f\f\f\n\n\f\f\n\f\f\f
 \n\nCluster #%.20g\n\n
 \n\nNumber of Vectors Per Cluster\n
-\n\n\f\f\f\f\n\f\f\f\f\f\f\n\f\f\n\n\f\f
-\n\n\f\n\n\n\n\n\n\f\f\f
 \n\n\nCluster Center Values:        (Vector Size: %d)\n
 \n\n\nCluster Extents:        (Vector Size: %d)\n
-\n\n\n\f\f\f\f\f\f\f\f\f\n\n
-\n\n\n\f\f\f\f\f\f\f\f\n\n\f\f\f\n\f
-\n\n\n\f\f\f\f\f\f\f\f\n\n\f\n\f\f
-\n\n\n\f\f\f\f\f\f\f\f\n\n\n\n\f\n\n
-\n\n\n\f\f\f\f\f\f\n\f\n\n\n\n\f\f\n\f\f
-\n\n\n\f\f\f\f\n\n\f\f
-\n\n\n\f\f\f\n\n\f\n\f\f
-\n\n\n\n\n\n\n\n\f\f\f\f\f\f\f\f\n\n\f\f
-\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n
-\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\f\f
 \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n
-\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n
-\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n
 \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n
 \n\nbzip2/libbzip2: internal error number %d.\nThis is a bug in bzip2/libbzip2, %s.\nPlease report it to me at: jseward@bzip.org.  If this happened\nwhen you were using some program which uses libbzip2 as a\ncomponent, you should also report this bug to the author(s)\nof that program.  Please make an effort to report this bug;\ntimely and accurate bug reports eventually lead to higher\nquality software.  Thanks.  Julian Seward, 10 December 2007.\n\n
-\n\r\r\r\r\r\r\r\r\r\r\n\n\n\f
 \n\vnap
 \naaa
 \nbegin clip-path %s
 \nbegin mask-path %s
-\nePs
 \nendstream\n
 \nmap
-\npeVv
-\nwX4C
-\nyH,b
 \p{Xan}
 \p{Xps}
 \p{Xsp}
 \p{Xwd}
-\r(\r*\r9\r`\ra\r
-\r0Xc
-\r8STs\ne
-\r9VDH
-\r9w?n0
-\r>\rC\rF\rH\rJ\rM\rW\rW\r1
-\rCBqjR@
-\rD<pC?o%E
 \rIEC61966-2.1
-\rQh0
-\rYi2
-\r\r\r&\r@\rZ\rt\r
-\r\r\r\f\f\f\v\v\v\v\n\n\n\n\t\t\t\t
-\r\r\r\r\r\r\r\r\r\r\f\f
 \r\r\r\r\r\r\r\r\r\r\r
 \r\r\r\r\r\r\r\r\r\r\r\r\r
 \r\r\r\r\r\r\r\r\r\r\r\r\r\r
 \r\r\r\r\r\r\r\r\r\r\r\r\r\r\r
-\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r
 \r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r
-\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t
-\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r
-\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r
-\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r
 \r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r
 \r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r
 \r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r
-\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r
-\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f
 \r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r
-\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r
-\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\t\t\t\t\t\t\t\t\t\t\v\t\t
-\raiA
-\rkHC6
 \rmLCg"R
-\rmj>zjZ
-\t%\t:\tO\td\ty\t
 \t000
 \t333
-\t5wd
 \t666
-\t6X\tb
 \t888
-\t8pX
-\t9\t=\t=\tX\ta\t
-\t<\t<\t>\tL\tM\tM\tQ\tT\tb\tc\t
 \tBBB
 \tCluster Threshold = %g\n
 \tEEE
-\tEWj
 \tGGG
 \tJJJ
-\tJqAl
-\tLq0
 \tMMM
 \tOOO
 \tRRR
-\tSH1
-\tTAU;
 \tTTT
-\tTg\n5
 \tTotal Number of Clusters = %.20g\n\n
 \tWWW
 \tWeighting Exponent = %g\n
-\tXpD
-\t\t\n\n\v\v\f\f\f\f\r\r\r\r
-\t\t\t\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r
-\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t
-\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t
-\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t
-\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t
-\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t
-\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t
-\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t
-\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t
-\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t
-\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t
-\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t
-\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t
-\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t
-\tnV6
-\tpRy
 \u%04X
 \u%04x
-\v"GWE
-\v(\v*\v0\v2\v3\v6\v9\v=\v=\v\\v]\v_\va\v
-\v<\v<\v>\vC\vG\vH\vK\vM\vV\vW\v
-\vEWJ,
 \vICCRGBG1012
-\vIQ0s
 \vIWs9
-\vP?\f;P?<jP?|
-\vR%tB
-\v\v\v"\v9\vQ\vi\v
-\v\v\v\v\v\v\v\v\v\v\v\v\v
 \v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v
-\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v=\v\v\v\v==\v\v\v\v\v\v\v=\v=\v\v\v\v==\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v=\v\v\v\v==\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v=\v\v\v\v==\v\v\v\v\v\v\v=\v=\v\v\v\v==\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v=\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v=\v\v\v\v==\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v==\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v===\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v======
-\v]lF6QC
-\vaxd
-\vfp0
-\vg\no8A
 \vpDa\f\tM
-\vxoWdh
-\v|Hkq
 \x%02x
 ] is an invalid data character in JavaScript compatibility mode
-]C1K}0
-]O39"FO)u
-]P4H
-^1sC
-^A\voxc
-^M:^M:^M:^M:^M:_L7^N9VNAaXYo`mmdppx
 ^_`abcdefghijklmnopqrstuvwxyz{|}~
-^oEZ_
-_1i2:M=I
-_=+Q4%L:6o:
 _ALPHA
-_B>El=E<Eo;BXIFGRMJYVXQNRb]ZqNGohT[YeHPra^ehfhrmikitxvxtqo\ah=D'
 _CIatan2
 _CIcosh
 _CIfmod
@@ -10524,9 +9430,6 @@ _CIsinh
 _CItanh
 _CxxThrowException
 _RDATA
-_R_\HES;2?);E0BJ69A04;.49578,LW3r
-_W4~w
-_\cf3
 __CxxFrameHandler3
 ___mb_cur_max_func
 __acrt_iob_func
@@ -10591,7 +9494,6 @@ _create_locale
 _crt_atexit
 _dclass
 _draw_glyphs_on_surface:SaveDC
-_eQ,/2+/2..0-.--+),*++)+('(**+,*+,*+*))*()-+,.-./,+0,+.*)/++0--811<32;21>0.A2/A73B:6K62h7/
 _endthread
 _endthreadex
 _errno
@@ -10701,36 +9603,13 @@ _wremove
 _write
 _wstat64
 _wstat64i32
-`"FMv
 `%s' (JPEG)
 `%s' (ret=%d)
-`*Hhq
-`5\txDP
-`7bu
-`C1x
-`E4d
-`PO>r
-`QSEJ
-`X90
 `[ghostscript library %.2f]%s': %s
 `\nxxx
-`\tx0j
-``6c3x
-`e4B
-`x\nB,a yb
-`}@ReadXBMImage
 a numbered reference must not be zero
 a yo' chumocho krestat, ti ha na'lalamen yo'.
-a0"D
-a2eH
-a485
 a4small
-aFN,
-aHnd
-aU$X
-aWvd$A;-
-a\f1RH
-a`wwn
 aa@saaho
 aa_ER
 aa_ET
@@ -10773,7 +9652,6 @@ already connected
 already have it
 already in use
 always-malloc
-amB\nS
 amount
 amp;
 ampersand
@@ -10787,7 +9665,6 @@ animate
 annotate
 anonymous
 antialias
-ap1T
 api-ms-win-crt-convert-l1-1-0.dll
 api-ms-win-crt-environment-l1-1-0.dll
 api-ms-win-crt-filesystem-l1-1-0.dll
@@ -10806,7 +9683,6 @@ application/json
 application/pdf
 application/postscript
 approximate
-aq8D
 aqua
 aquamarine
 aquamarine1
@@ -10814,14 +9690,12 @@ aquamarine2
 aquamarine3
 aquamarine4
 arabic
-arap
 archC
 archa
 archb
 archd
 arche
 area-limit
-argl
 arial
 aring
 armenian
@@ -10842,7 +9716,6 @@ asterisk
 atad
 atan
 atan2
-atem
 atilde
 atoi
 attach persistent cache
@@ -10867,24 +9740,11 @@ azure1
 azure2
 azure3
 azure4
-b!hd
-b#IB
 b&;AL
-b5v0
-b?8Nb?g}b?
-bC&M
-bFbx
 bKGD
 bKGD must be after
 bKGD,caNv,cHRM,eXIf,gAMA,iCCP,iTXt,pHYs,sRGB,tEXt,zCCP,zTXt,date
-bL!c
-bM"A
-bQ}b
 bXYZ
-bZ!rj
-bZ5nP
-b\vFcX4O
-ba?X
 background
 background color (ssize_tword)
 background pattern
@@ -10901,7 +9761,6 @@ bad height format
 bad keyword
 bad parameters to zlib
 bad width format
-bafO
 balinese
 ban.
 base
@@ -10965,7 +9824,6 @@ border
 border-color
 bordercolor
 boxed != NULL
-br*K
 braceleft
 braceright
 bracketleft
@@ -11020,11 +9878,7 @@ burlywood3
 burlywood4
 bytes != NULL
 bzero
-b{PQ
 c 92
-c&fs&Y
-c0s(
-c4=P
 c:\buildslave\steamvr_rel_win32\build\src\imagetool\Retail\win32\2017\imagetool.pdb
 c:\users\aaronl\imagemagick-windows\cairo\src\cairo-error.c
 c:\users\aaronl\imagemagick-windows\glib\glib\gconvert.c
@@ -11198,6 +10052,7 @@ c:\users\aaronl\imagemagick-windows\imagemagick\magickcore\attribute.c
 c:\users\aaronl\imagemagick-windows\imagemagick\magickcore\blob.c
 c:\users\aaronl\imagemagick-windows\imagemagick\magickcore\cache-view.c
 c:\users\aaronl\imagemagick-windows\imagemagick\magickcore\cache.c
+c:\users\aaronl\imagemagick-windows\imagemagick\magickcore\channel.c
 c:\users\aaronl\imagemagick-windows\imagemagick\magickcore\coder.c
 c:\users\aaronl\imagemagick-windows\imagemagick\magickcore\color.c
 c:\users\aaronl\imagemagick-windows\imagemagick\magickcore\colormap-private.h
@@ -11216,6 +10071,7 @@ c:\users\aaronl\imagemagick-windows\imagemagick\magickcore\draw.c
 c:\users\aaronl\imagemagick-windows\imagemagick\magickcore\effect.c
 c:\users\aaronl\imagemagick-windows\imagemagick\magickcore\enhance.c
 c:\users\aaronl\imagemagick-windows\imagemagick\magickcore\exception.c
+c:\users\aaronl\imagemagick-windows\imagemagick\magickcore\feature.c
 c:\users\aaronl\imagemagick-windows\imagemagick\magickcore\fx.c
 c:\users\aaronl\imagemagick-windows\imagemagick\magickcore\gem.c
 c:\users\aaronl\imagemagick-windows\imagemagick\magickcore\geometry.c
@@ -11254,6 +10110,7 @@ c:\users\aaronl\imagemagick-windows\imagemagick\magickcore\resize.c
 c:\users\aaronl\imagemagick-windows\imagemagick\magickcore\resource.c
 c:\users\aaronl\imagemagick-windows\imagemagick\magickcore\segment.c
 c:\users\aaronl\imagemagick-windows\imagemagick\magickcore\semaphore.c
+c:\users\aaronl\imagemagick-windows\imagemagick\magickcore\shear.c
 c:\users\aaronl\imagemagick-windows\imagemagick\magickcore\signature.c
 c:\users\aaronl\imagemagick-windows\imagemagick\magickcore\splay-tree.c
 c:\users\aaronl\imagemagick-windows\imagemagick\magickcore\static.c
@@ -11287,8 +10144,6 @@ c:\users\aaronl\imagemagick-windows\pango\pango\pangowin32-fontcache.c
 c:\users\aaronl\imagemagick-windows\pango\pango\pangowin32-fontmap.c
 c:\users\aaronl\imagemagick-windows\pango\pango\pangowin32-shape.c
 c:\users\aaronl\imagemagick-windows\pango\pango\pangowin32.c
-cAVp
-cBW%
 cHRM
 cHRM Blue X
 cHRM Blue Y
@@ -11299,9 +10154,6 @@ cHRM Red Y
 cHRM White X
 cHRM White Y
 cHRM chunk does not match sRGB
-cK`x;
-cU|l
-c\rC\nId
 caNv
 cache
 cache != NULL
@@ -11352,7 +10204,6 @@ carian
 caron
 caucasian-albanian
 ccedilla
-ceO\
 cedilla
 ceil
 cent
@@ -11392,7 +10243,6 @@ circle
 circle %g,%g %g,%g\n
 circular entity declaration &%s
 circumflex
-cjti
 ckasiner s
 clamp
 class
@@ -11538,7 +10388,6 @@ coverage:
 cp1025
 cp866
 cp875
-cpja
 cprt
 cr != NULL
 created context=%p\n
@@ -11555,7 +10404,6 @@ csISO2022JP
 csed
 csedculmtxet
 csheet
-cu\fq7
 culm
 cuneiform
 cur index out of bound
@@ -11576,19 +10424,9 @@ cyan4
 cycle-colormap
 cypriot
 cyrillic
-d!bl
-d&7F$L
-d(H\Ns
-d*Sa
-d:HrxV
 d? je?a lub o?m skrzy? fig.
 dB/dt
-dJ_p
-dLcv
-dNXC8939:4>>8A?:D?:FA<EA:E@:G?8E=4D;1C:3C:3<8095/94/<70B<0I=0OA2P@5K<4E:1A:1=<3G70
-dQy/
 d\nml
-d_7y3B
 dagger
 daggerdbl
 dahc\t
@@ -11608,7 +10446,6 @@ dcm:
 dcm:display-range
 dcm:rescale
 dcm:window
-ddmd
 dds:cluster-fit
 dds:compression
 dds:fast-mipmaps
@@ -11658,7 +10495,6 @@ dest != NULL
 destroy %s
 destroy_func == NULL
 detected an error in element content\n
-deuv
 devanagari
 device-
 dh (0..255), count (0..255), text
@@ -11689,7 +10525,6 @@ divide
 dmnd
 dng:%s
 dng:decode
-dnmd
 dnut
 document
 dollar
@@ -11769,31 +10604,18 @@ dpx:user-data
 dpx:user.data
 dpx:user.id
 draw
-drcs
 drepa
 dsheet
 du o 
-du^g
 dums
 duplicate
 duplicate sRGB information ignored
 duployan
 dv (0..255), count (0..255), text
 dxt1
-d}_S_G671681==8B@;FA?HC>HC>JD<MB7J=0H<-F=/E;0A91<71:7.>9,E</M?/OA0O>1K;1D:/>=17=0
-e Yx
 e bez moljca.
 e, na st?pe sa ?ate? u?
-e;QH
-eC}gc}m
-eIUD
-eLe:
-eOA\f
-ePfP4=0*&#.$&+**)+,'+/''-)$"W\H~
-eShp
-eVu#
 eXIf
-eXM$
 eXXX
 eXXXX
 eXXXXX
@@ -11803,25 +10625,15 @@ eXXXXXXXX
 eXXXXXXXXX
 eXXXXXXXXXX
 eXXXXXXXXXXX
-eXXXXXXXXXXXXX
 eXXXXXXXXXXXXXXXXXXXXXXXXXXX
-eXqIW46
-e\t@cy
-e^E(1
-e`D)0
-e`J*0
-e`xW`
 eacute
 east
 ebcdic
 ecircumflex
-ed!e
-edF\f
 edge
 edieresis
 egrave
 eight
-ejIf
 elbasan
 element %s: 
 element table allocation failed
@@ -11905,9 +10717,7 @@ ethiopic
 etil
 euc-jp
 euc-kr
-ewh/?y
 exact
-exc!
 exceeds application limits
 exclam
 exclamdown
@@ -12228,15 +11038,7 @@ extra for each character
 extra-condensed
 extra-expanded
 f ny wra ow ankenya.
-f02t\v
-f33U
 f3ff33f3
-f9/P
-f@)rM
-fBI\rrV
-fCk\f
-fJY@
-fP~V
 face
 face=%S,charset=%s,it=%s,wt=%ld,ht=%ld,ff=%s%s
 factor
@@ -12258,7 +11060,6 @@ fast_validate_len
 fatal
 fatal-criticals
 fatal-warnings
-fb8(\rT
 fclose
 fclose()
 fd != NULL
@@ -12267,6 +11068,7 @@ feof
 ferror
 ff3fffff
 fffff3ff
+ffffff9@
 ffid
 fflush
 fflush()
@@ -12286,6 +11088,7 @@ file_name != NULL
 filename
 filename:
 fill
+fill "%s"\n
 fill "black"\n
 fill %s\n
 fill '#000000'\n
@@ -12397,10 +11200,8 @@ format[0] == '%'
 format_char == 'e' || format_char == 'E' || format_char == 'f' || format_char == 'F' || format_char == 'g' || format_char == 'G'
 foundry
 four
-fp>x
 fputc
 fputs
-fq,V
 fractal
 fraction
 fractional pen position
@@ -12426,12 +11227,10 @@ frexp
 from_codeset != NULL
 fromlist
 fseek
-ftam
 ftamtsvctulctsvc
 ftell
 ftype <= G_TYPE_FUNDAMENTAL_MAX
 ftype <= G_TYPE_FUNDAMENTAL_MAX && !(ftype & TYPE_ID_MASK)
-fu`z
 fuchsia
 full
 fullname
@@ -12439,19 +11238,11 @@ fum n
 func != NULL
 fuzz
 fwrite
-g"5HR
 g-io-channel-error-quark
 g-markup-error-quark
-g>Edh>G!i>
-g>ycx\r
 gAMA
-gB3Q
-gF1t
-gKB3
 gXYZ
-g[TNIEB?=:864310.-,+*)('&%$#""! 
 g\nzzz
-g_O=_O?_O>_O=_O=`P7\L9_[a}|
 g_array_append_vals
 g_array_free
 g_array_new
@@ -12671,6 +11462,7 @@ g_system_thread_free
 g_test_log_buffer_push
 g_test_log_msg_free
 g_test_log_send
+g_thread_error
 g_thread_new_internal
 g_thread_proxy
 g_thread_win32_proxy
@@ -12825,9 +11617,7 @@ goldenrod4
 got best match:%S size=%d
 got win32family
 gothic
-gpCG?Z
 gpointer
-gqr<
 gradient
 gradient-units
 gradient-units "%s"\n
@@ -12845,7 +11635,6 @@ gradientUnits
 grantha
 graph
 graphic-context
-grat
 grave
 gravity
 gravity != PANGO_GRAVITY_AUTO
@@ -13078,7 +11867,6 @@ gsapi_run_string
 gsapi_set_stdio
 gswin32c.exe
 gswin64c.exe
-gtW:.
 guchar
 guillemotleft
 guillemotright
@@ -13090,30 +11878,13 @@ gujarati
 gulong
 gurmukhi
 gview
-g{eWgL330551883=<6DC9GG>JI;MI6IE7MHJH@9E;+C9-?80>83=71>94@=9IA6P@-H?-K81C745=0@?/
-h2yv
-h4;\fW\rq
-h4U\fIVGEQ
 h7CM*
 h:format
-h?&5h?Vdh?
-h?6!i?ePi?
 h@BMP
-hCQD
-hE+D_
 hIST
 hIST must be after
-hI{L[
 hLit
 hMix
-hN?x
-hPU3
-hQ9C%
-hRwC
-hS;XD,]K2\L4VO:QN7MO8^gK@L0=E*GJ+igJ`YDFF5:?5:>58>49?59@8;A;:>9:@:9=87;6062,1,+/.)-.)3)6J29L38I1;K8/;.\gO_iRgkWihXlfXlgYkf[hgYelY|
-hY0\ni
-h\9E
-h\v7Q_A
 h\vnl
 halfletter
 handler->closure == closure
@@ -13125,9 +11896,6 @@ hanunoo
 hash_table != NULL
 hash_table->ref_count > 0
 hatran
-hb>BA
-hb\D
-hcet
 hdr:%s
 hdr:exposure
 head
@@ -13138,7 +11906,6 @@ height
 help
 helvetica
 hex:
-he|V[M=_P@_RB`RC`R@\OBcYaww
 hfont != NULL
 hiding UniHan chars
 hilite mode flag
@@ -13148,7 +11915,6 @@ hlist != NULL
 hlist->tail_after == handler
 hlist->tail_before == handler
 hmodule != NULL
-hoBi
 honeydew
 honeydew1
 honeydew2
@@ -13159,7 +11925,6 @@ hook->hook_id == 0
 hook->ref_count > 0
 hook_list != NULL
 hook_list->is_setup
-hp\tg
 href
 html
 http://
@@ -13169,33 +11934,17 @@ http://www.w3.org/XML/1998/namespace
 hue 
 hue2
 hungarumlaut
-hxi(j
 hyphen
 hypot
 hz-gb-2312
-i&Ma.
-i0\3
-i1!i6Ai;ai@
-i2sp
-i5L7
-i91k
-i@r3
 iCCP
 iCCP: invalid keyword
-iCjN
-iMW=}V
-iQ;B
-iQYF*1(07,17-06,/3,-2-.3--2,,0+,3,)4--8-2>-2>*6C.DV;H]=^qRZlS,8.heVheVheVifWifWjeVlc\ngZhiQlup
 iRte
 iTXt
 iTXt: invalid compression
 iTXt: invalid keyword
 iTXt: uncompressed text too long
-iXnE
-i\tSy
-i]Wb
 iacute
-ibQ\
 ibm737
 ibm775
 ibm850
@@ -13232,7 +11981,6 @@ idrc
 iface->data
 iface->data && entry && entry->vtable == NULL && iholder && iholder->info
 iface->data && entry && iholder && iholder->info
-ig7N
 ignore
 ignored in grayscale PNG
 ignoring invalid defined png:bit-depth
@@ -13241,7 +11989,6 @@ ignoring invalid defined png:compression-filter
 ignoring invalid defined png:compression-level
 ignoring invalid defined png:compression-strategy
 igrave
-ih> Gl>
 iholder->plugin != NULL
 iiii
 ike m
@@ -13271,7 +12018,6 @@ images/img%04ld.pcd
 imagetool.dll
 implode
 import
-imul
 in bhig.
 in use by IDAT
 incompatible colorspace
@@ -13526,22 +12272,8 @@ ivory2
 ivory3
 ivory4
 ivote.
-ixTH
 izol ce mamvj ka raq kuse bafkeh mew.
-j!3V$E
-j!CV
-j(HQ
-j)6D
-j)nX\n
-j,4c
 j2k:%s
-j55_
-j9s<
-jGj=Lk<Li;WuFb
-jIT<<H,g~Cj
-jJL`
-j\vQp
-ji_81
 jinc
 jisb0
 jisb1
@@ -13555,26 +12287,17 @@ jnx:southwest
 jpeg
 jpeg:
 jpeg:%s
-jsC\f3
 json:features
 json:limit
 json:locate
 json:moments
-juTb\taT
 justify_clusters
 justify_words
-k40i
-k8]x
 kBk>
-kJx8
 kU!W>
 kWt>
-kXA\fb`
-kY9+
-k\fCg_thread_error
 ka strax hwila p
 ka? nov
-kach<
 kannada
 katakana
 kayah-li
@@ -13599,7 +12322,6 @@ khojki
 khudawadi
 kind (word)
 kind (word), size (word), data
-kkE\r
 kkkk
 klass != NULL
 knko
@@ -13607,11 +12329,9 @@ known incorrect sRGB profile
 ko pov
 koi8-r
 koi8-u
-krH+
 krad
 ks-in
 ks_c_5601-1987
-ktIZ
 ku-am
 ku-iq
 ku-ir
@@ -13619,23 +12339,9 @@ ku-tr
 kurtosis
 l og 
 l'V3
-l3C&
-l6qnk
-l:pG
-l<}2l
-lC6L
-lC\vd
-lDa>
-lLVD782782994<:5@=8B:8A95=73<75:549009//61.62.63.641973?72B90H=1J>4H=4B80@61?62<94C54A50<6*E5'c6-
 lLit
-lO"c3
-lQ 6|+G
-lW>J)X>K
-l`Sy
-la]^]Gf]Ij\E
 label
 label:pointsize
-lam*
 lang
 language
 large
@@ -13671,12 +12377,9 @@ lettersmall
 level
 levl
 lf Boxk
-lf/k
-lf7{
 lfp != NULL
 lfp.face=%S,wt=%ld,ht=%ld,size:%d
 lfx2
-lgK[
 libpng 
 libpng does not support gamma+background+rgb_to_gray
 libpng error: %s
@@ -13702,8 +12405,6 @@ list->attributes_tail
 list->ref_count > 0
 list<T> too long
 lite
-lmkQ
-ln.uw
 lnsr
 load_hierarchy
 load_level
@@ -13730,24 +12431,12 @@ lum
 luma
 luminance
 luni
-lwP+WE
 lwtpt
-lxUk
 lycian
 lydian
 lyid
 lyvr
 m&A3
-m,hS
-m1WY$
-m4O,
-m=4vTNG@3.9)1<.7:2686280-9*6D29H616,,-"@J1z
-m>EKn>
-m@Nj@y
-mB3l
-mC20
-mXAV
-m\nF
 macintosh
 macron
 magenta
@@ -13785,6 +12474,7 @@ maroon3
 maroon4
 marshal != NULL
 mask
+mask "%s"\n
 matrix
 matrix != NULL
 matte
@@ -13796,8 +12486,6 @@ maxima
 maximum-error
 maxperf
 maxval
-mby-6Q
-mcsd
 md->tag_stack == NULL
 mean
 mean-error
@@ -13841,10 +12529,8 @@ missing LZ dictionary
 missing profile length
 missing terminating ] for character class
 mitd
-mitdp%
 mixr
 mlang.dll
-mle\v
 mmmm
 mn-cn
 mn-mn
@@ -13872,12 +12558,10 @@ moveto
 moveto ghostline
 moveto open
 moving %d bytes from thread %#x\n
-mpR[:
 mpeg:decode
 mpeg:encode
 mpfer jagen Viktor quer 
 mrhc
-mrhcp
 mron
 msg != NULL
 msl:font-metrics.ascent
@@ -13893,7 +12577,6 @@ msl:font-metrics.origin.y
 msl:font-metrics.pixels_per_em.x
 msl:font-metrics.pixels_per_em.y
 msl:font-metrics.width
-mu`g
 mul 
 multani
 multiLocalizedUnicodeType of len != 12 is not supported.
@@ -13904,20 +12587,8 @@ mutex unlock failed
 mvg:%s
 mvg:vector-graphics
 myanmar
-mymX
 n == 0 || string != NULL
-n,Ra
-n0C|
-n10-/.,43/892>?5GD;OK8MK4XWW
-n2/t.
-n2{4
-n:A\v9
-n?EKn?tzn?
-nED\fC
 nEED
-nF1~P8wH*n_*
-n_WlYGh\Kj^N
-n_\SSA
 n_fields > 0
 n_param_values == 1
 n_param_values == 2
@@ -13959,11 +12630,8 @@ new_ref_count > 1
 news gothic
 next_para_index >= delimiter_index
 ng-chunk-
-ngd\vb
-nh!X
 nick != NULL
 nine
-nnFP"r
 no best match!
 no configuration paths found
 no current point defined
@@ -14011,7 +12679,6 @@ nrbl
 nrcs
 ns_%d
 ntilde
-nu5A
 null
 null,
 nullify_location != NULL
@@ -14027,19 +12694,9 @@ numbersign
 numerator (point), denominator (point)
 nvrt
 nyin
-n~yt
 o feliz que dorme regalado.
-o0Vn
-o21o
-o8(TH
-o?T7o?
-o@ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/
-o@Invalid geometry argument
 oFFs
-oXiM?;)3)"%+!+/&:&*C))TN:hqRh
 o\tla
-o\vv?O
-o_fvIGV4^kQKQ5:;#88/8B/i
 oacute
 object %s %p finalized while still in-construction
 object == NULL || G_IS_OBJECT (object)
@@ -14114,11 +12771,11 @@ orig != NULL
 orig->item->length > 0
 oriya
 orlc
-orlcp
 oslash
 osmanya
 otilde
 oula m' freut n
+out of memory
 out of memory error
 out of memory\n
 out of place
@@ -14131,36 +12788,17 @@ output_fd >= 0
 oval size (point)
 over
 overline
-ow\tpP
 owner_type > 0
-oxC#
-ozJ+W`
 p != NULL
 p != NULL || max == 0
 p0q0
-p0~x
-p888
-p88H
 p88pD8pT8p`8pp8pp8`p8Tp8Dp88pD8pT8p`8pp8`p8Tp8Dp88p88pE8pT8p`8pp8`p8Tp8DpPPpXPp`PphPppPppPhpP`pPXpPPpXPp`PphPppPhpP`pPXpPPpPPpXPp`PphPppPrpP`pPXp
-pA4L
 pCAL
 pCAL: invalid keyword
-pD\rx
-pE2B1
-pEqt0
-pFWQb
 pHYg
 pHYg is not implemented.
 pHYs
 pLit
-pN"0
-pO[D23-34-53.961961:2.80-3.,300-.0/(/1)./*,1.*10*01./004/+;1+A5,C8/A90=5-;0/<1/E1-R).F*.70)R/(j9.
-pSZG<@301(-)'2,+2,+0,*0-+0/+2*10)(eqR
-pV }S
-p\t5P
-p\v1S|
-p\vbw
-p]NCFLC
 pa-pk
 pa_PK
 packed copybits, rect clipped
@@ -14382,6 +13020,7 @@ parsing new buffer: out of memory\n
 pata.
 path
 path != NULL
+path "%s"\n
 pattern
 pattern != NULL
 pau-cin-hau
@@ -14407,15 +13046,12 @@ periodcentered
 perror
 perthousand
 peru
-pgHi\r|
-pg}^VR|SH
 phags-pa
 phash:colorspaces
 phfl
 phoenician
 phyr, pr
 phys
-pia\fc
 pink
 pink1
 pink2
@@ -14555,7 +13191,6 @@ ps:SpotColor-%.20g
 ps:alpha
 ps:cmyk
 ps:mono
-psWo{j
 psalter-pahlavi
 psd:additional-info
 psd:alpha-unblend
@@ -14570,7 +13205,6 @@ pspec != NULL
 pspec->match_type < G_MATCH_LAST
 pspec_info != NULL
 pspec_info->instance_size >= sizeof (GParamSpec)
-ptc!
 punct
 purple
 purple1
@@ -14590,18 +13224,8 @@ push mask "%s"\n
 push pattern "%s" %g,%g %g,%g\n
 push symbol\n
 putc
-pvdJ
-pw@L7
-px]y
 p{ xx-page.x-.5, yy-page.y-.5 }
-q "q%Bq*bq/
-qP@M
-q[khc
-q\t\tjx0
-q_nk[)2(17.07-16*05,/3-/3-/4..1,.5.2?43@3@M:IX@BU8Mg@Gb9XrJ]xT4D5heVheVheVheVheVgeUkd[ndXghP}
-qdZRMHD@=;86421/.-+*)(''&%$$#""!!  
 qesp
-qesp@L
 qo-W>
 qsort
 quality
@@ -14632,16 +13256,6 @@ quotesingle
 r Wessel
 r med fl
 r ykist 
-r&Eyu
-r'A7]F
-r/0z
-r4O\fX
-r8l2;
-r99K
-r>Cus>D2t>
-rA3l( 
-rD1\nR
-rF-yk-?6
 rTRC
 rXYZ
 radial
@@ -14655,6 +13269,7 @@ range_start == state.iter.end_index && start_new_segment
 rarray
 rarray != NULL
 rdensty:
+rdf:Bag
 rdf:Description
 rdf:RDF
 rdf:Seq
@@ -14753,10 +13368,8 @@ right-to-left
 rights
 ring
 rise
-rlRN
 rle mreje 
 rloc
-rnWAJ<
 roll
 root tag missing
 rorient:
@@ -14769,24 +13382,16 @@ roundRectangle %g,%g %g,%g %g,%g\n
 row_break_type != G_UNICODE_BREAK_SPACE
 rows
 rpelcnt:
-rq@[wa
 rt+rld
 rtype:
-ru&o
 run->item->offset >= state->line_start_index
 runic
 rval != NULL
-rx"OV
-r{&R3EM
-r~A:H
-s ZE
 s mexik
 s'W3
 s0t0
 s1 != NULL
 s2 != NULL
-s2sp
-s90* 
 s?? yish???go b
 sBIT
 sCAL
@@ -14801,13 +13406,8 @@ sRGB
 sRGB IEC61966-2.1
 sRGB,HCLp
 sRGBTransformImage
-sS%V8
-sS+a
-sScB'2
 sTER
-sWR`_Hd_C
 saem
-saemp&
 salmon
 salmon1
 salmon2
@@ -14822,7 +13422,6 @@ sat
 saturation
 saurashtra
 saving URI\n
-sb11S*
 scRGB
 scale
 scaled font
@@ -14860,7 +13459,6 @@ setting space_avail for thread %#x\n
 setvbuf
 seven
 sfw:%s
-sha`h
 shade
 shadow
 shape
@@ -14891,7 +13489,6 @@ signal_name != NULL
 signals
 signature
 signwriting
-siic
 silver
 simple
 sinc
@@ -14909,8 +13506,6 @@ skewY
 skewY(%s) 
 skewness
 skip
-sl?U
-sl?text
 slant
 slash
 slide_%02ld.sfw
@@ -15085,7 +13680,6 @@ swap
 swirl
 switching encoding : no input\n
 switching encoding: encoder error\n
-sxErf
 syloti-nagri
 symbol
 sync
@@ -15094,32 +13688,17 @@ syriac
 sys_page_size >= 2 * LARGEALIGNMENT
 system
 system:max-memory-request
+system:memory-map
 system:precision
 system:shred
 systemdict /start get exec\n
-t d2
-t!1q
-t#tvI
-t14x
-t<I\r
-t?32t?cat?
-t@\faX
-t@o8t@
-tA(3I
-tA\n9
-tD0$
 tEXt
 tEXt: invalid keyword
 tEXt: text too long
-tF>M1G>N
 tIME
 tRNS
 tRNS chunk has out-of-range samples for bit_depth
 tRNS must be after
-tTGt
-t\n\rQ1
-t\rG~B
-t`yF
 tab_array != NULL
 tab_index < tab_array->size
 tab_index >= 0
@@ -15139,7 +13718,6 @@ tan3
 tan4
 tanh
 tbuffer != NULL
-tc,N
 tcid
 teal
 tech
@@ -15171,8 +13749,6 @@ text-decoration
 text-decoration:%s;
 text-undercolor
 textnoenc
-tgAA
-tgL/dn
 tgcv
 thaana
 thai
@@ -15231,15 +13807,11 @@ times
 times new roman
 tirhuta
 title
-tjrB
-tlac
-tmag
 tmpval_used != NULL
 tmsg != NULL
 to - string->str <= string->len
 to_codeset != NULL
 toggle_refs_notify
-tolc
 tolower
 tomato
 tomato1
@@ -15255,9 +13827,6 @@ too many text chunks
 too many unknown chunks
 too short
 toupper
-tpkb
-tptw
-tpv\
 trademark
 trailer\n
 transfer_syntax=%s\n
@@ -15275,7 +13844,6 @@ trim
 trim:percent-background
 trlc
 trns
-trpc
 true
 true\n
 truetype
@@ -15286,7 +13854,6 @@ tsly
 tspan
 tstack.n_toggle_refs == 1
 tsvc
-tsvc`V
 tsvcftamtsvc
 tsvcftamtsvctulctsvcN
 tsvctulc
@@ -15295,7 +13862,6 @@ tsvctulctsvcftamtsvc
 tt@iqtelif
 ttb-ltr
 ttb-rtl
-tulc0Z
 turquoise
 turquoise1
 turquoise2
@@ -15305,7 +13871,6 @@ two named subpatterns have the same name
 twosuperior
 txLoc (point), count (0..255), text
 txet
-txet@
 txetculmcsed
 txt:compliance
 type
@@ -15374,31 +13939,19 @@ type_node_add_iface_entry_W
 type_node_any_new_W
 type_node_fundamental_new_W
 type_node_new_W
-t}oN
 u nh?y qua con ch
-u!Ot
-u7T!
-u?rMu?
-uCJ7?v3\r2
-uT@rw\ff
-u]yH1e6"e3)j90l?4i>4h>2cA7_D5YG5e]GEF/9C'EI+ppR\`G29'7=57=37>48>38<57;66;5271.3-,1+(.(*.*,1,/2/=D==J81?(BP<EPD/90ddSgdUhgWieWhfWkeVnd\lhZdkRdwo
 uab rongile h
 uacute
-ubW!\f
 ucircumflex
 udieresis
-ueVPA
 ugaritic
 ugrave
-uhW\t
-ujQD
 uje t
 ultra-condensed
 ultra-expanded
 ultrabold
 ultraheavy
 ultralight
-umR``
 unable to add prerequisite '%s' to interface '%s' which is already in use for '%s'
 unable to copy profile
 unable to set property '%s' of type '%s' from value of type '%s'
@@ -15475,23 +14028,12 @@ use "url(%s)"\n
 user-font method not implemented
 userSpaceOnUse
 userdict begin\n
-uzrg#
 v.p{ xx-v.page.x-.5, yy-v.page.y-.5 }
 v0w0
-v9Lld
-v@AcquireVirtualCacheView
-vB3p
-vECd
 vEt!
-vH\ni
 vIMGView
 vLit
-vQO+t
-vQ\f,H
-vRQ>
-vT)i
 v\for
-va1+
 va_meta_marshal != NULL
 va_to_ffi_type
 va_to_ffi_type: Unsupported fundamental type: %s
@@ -15516,7 +14058,6 @@ value_to_ffi_type: Unsupported fundamental type: %s
 variable != NULL
 variant
 variations
-vb\t9
 vector<T> too long
 vendi.
 verbose
@@ -15535,33 +14076,18 @@ viewbox
 viewbox %lf %lf %lf %lf
 viewbox 0 0 %.20g %.20g\n
 viii
-vim}
 violet
 vips:metadata
 virtual-pixel
-vi|uiJ
 void
 vpAg
-vruc
 vrucarap
-vtw\nx
 vued
-w+OQvr
-w3Xc
-w<UM
-wF't
-wH@p
-wIq?
-wJWx
-wXR\r
-wXX%
-w]yr
 waiting for data from thread %#x\n
 warang-citi
 warning
 warning : 
 warning: 
-wb1\vdD
 wchar_t
 wcschr
 wcsncat
@@ -15577,9 +14103,7 @@ weak_ref != NULL
 weak_ref!= NULL
 weight
 weiv
-weivpU
 west
-wh0=
 wheat
 wheat1
 wheat2
@@ -15609,13 +14133,10 @@ windows-1257
 windows-1258
 windows-874
 wingdings
-wlG]
-wn>Jj
 word
 word-char
 word-spacing
 wpath != NULL
-wpdX
 write
 write error
 write-mask
@@ -15631,9 +14152,7 @@ write_thread: setting data_avail for thread %#x\n
 writer_func != NULL
 writing raw profile: type=%s, length=%.20g\n
 wrp==rdp, !running\n
-wsbdp
 wulW
-wwww
 x-Chinese_CNS
 x-EBCDIC-KoreanExtended
 x-Europa
@@ -15678,23 +14197,10 @@ x-mac-turkish
 x-mac-ukrainian
 x-resolution
 x-small
-x7fQ
-x9DBx
-x9`L
-x@Qz
-xA\v2T
-xE)Z,
-xFG:r2
-xG5\
-xHh"
-xO|C9
-xSvf$
-xV4"?
 x_Chinese-Eten
 x_off=%.20g, y_off=%.20g
 x_res=%.10g, y_res=%.10g, units=%d
 xc:white
-xc@Je
 xdigit
 xendian
 xi h
@@ -16379,21 +14885,12 @@ xps:cmyk
 xps:color
 xps:mono
 xref\n
-xsM?
 xx-large
 xx-small
 y-resolution
 y0z0
-y9*O
-y>1g
-yI:3
-yTu=
-yWeWCB875+/1*.1+-0,-0//0.02./2./-24*,gcb
-y\f4Z
-y\{ZN^G=:32'(/')-(+0(,2(/1+00*0+'
 ya spilte jo whist og quickstep i min taxi.
 yacute
-ydJS
 ydieresis
 yellow
 yellow1
@@ -16401,17 +14898,10 @@ yellow2
 yellow3
 yellow4
 yep:%d:%04x
-yrI,D
-z>3h
-z>rdf:Bag
-z?RHz?
-zAh{,
 zJO>
-zN,W
 zTXt
 zTXt: invalid compression type
 zTXt: invalid keyword
-zXO/
 zcaron
 zccp
 zero
@@ -16420,40 +14910,18 @@ zh-hk
 zh-mo
 zh-sg
 zh-tw
-zh1\rj
 zlib 
 zlib IO error
 zol Quit
 zstream unclaimed
 ztxt
-zwF 
-zyC7
 zzzz
-z|lYVS/.,0/-50-71-81,80,6/,81-81-81.7.,4-*4,*6/+6.+3/*30*41+63-750>8-E=2H?1I>.K@/MD3iE4
+{*LOG(%s)
 {\n       "name": %s
 {\n  "image": {\n    "name": %s,\n
-{kHw
-{s[zV
-{wp\vy
+|%#x
 |7&rU3
-|AQ3
-|CJ25?+:72*0+Z?>
-|KVT
-|Kc9`
-|Pa{q
-|ZzsP
-|sYZ
-|wbi
 } bind def
 } bind def\n
-}90V
 }mxQ>
-}za?q
-}{j7>+3<(<=/?;.^B5
-~HC(q
-~O6d
-~Zj\[LpWD
-~lp_YWS,,,,-+0/,1.+2,(2-*0,+2,+2++2,+2,+1,+1,)3-,3-,3/,31,40,52-750:3,>6-@6-C8-H;/EE5UD4m=+
-~nC^Z
-~nYj
 ~value->state & STATE_SERIALISED

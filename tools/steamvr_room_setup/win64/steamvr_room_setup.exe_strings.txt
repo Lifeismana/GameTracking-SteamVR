@@ -1,6 +1,4 @@
                           
- !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
- !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
  Base Class Array'
  Base Class Descriptor at (
  Class Hierarchy Descriptor'
@@ -9,7 +7,6 @@
  delete
  delete[]
  new
-*StO9>T
 .00cfg
 .CRT$XCA
 .CRT$XCAA
@@ -45,37 +42,18 @@
 .text$mn
 .text$mn$00
 .text$x
-.xJ>Hf
 .xdata
-0iN>/
-11Y@
-37>k
-3>N;kU
-3>fvw
-=cQ6
-=imb;D
->cQ6
->jtm}S
-?7zQ6$
-?UUUUUU
-?f`Y4
-?qBJ
-?ysB
-A>pP&
 ABCDEFGHIJKLMNOPQRSTUVWXYZ
 AmdPowerXpressRequestHighPerformance
 AppPolicyGetProcessTerminationMethod
 April
 August
-BC?>6t9^\tc:>
-BF>^G
 C:\buildslave\unity\build\artifacts\WindowsPlayer\Win64_nondev_m_r\WindowsPlayer_Master_mono_x64.pdb
 CloseHandle
 CorExitProcess
 CreateFileW
 December
 DeleteCriticalSection
-ET5>
 EnterCriticalSection
 ExitProcess
 February
@@ -127,7 +105,6 @@ January
 July
 June
 KERNEL32.dll
-L>ev
 LCMapStringEx
 LCMapStringW
 LeaveCriticalSection
@@ -139,16 +116,13 @@ Monday
 MultiByteToWideChar
 November
 NvOptimusEnablement
-OZQ%
 October
 QueryPerformanceCounter
-RSDS
 RaiseException
 RtlCaptureContext
 RtlLookupFunctionEntry
 RtlUnwindEx
 RtlVirtualUnwind
-S9>H
 Saturday
 September
 SetFilePointerEx
@@ -173,7 +147,6 @@ WideCharToMultiByte
 WindowsPlayer.exe
 WriteConsoleW
 WriteFile
-\tkE>fvw
 __based(
 __cdecl
 __clrcall
@@ -225,14 +198,8 @@ __vectorcall
 `virtual displacement map'
 abcdefghijklmnopqrstuvwxyz
 dddd, MMMM dd, yyyy
-eF>t
-ha*]v,I
 log10
-mG4>
-n03>Pu
 operator
 operator "" 
 operator co_await
-r\tVr.>T
 restrict(
-uzKs@>

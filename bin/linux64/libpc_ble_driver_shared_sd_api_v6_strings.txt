@@ -498,6 +498,7 @@ UninitializedExitCriterias::~UninitializedExitCriterias()
 Unknown Nordic Semiconductor vendor specific packet received
 VENDOR_SPECIFIC
 VTT for std::basic_stringstream<char, std::char_traits<char>, std::allocator<char>>
+VTT for std::basic_stringstream<char, std::char_traits<char>, std::allocator<char>>@@GLIBCXX_3.4
 WAKEUP
 WOKEN
 _DYNAMIC
@@ -513,92 +514,6 @@ _ITM_registerTMCloneTable
 _Jv_RegisterClasses
 _Unwind_Resume
 _Unwind_Resume@@GCC_3.0
-_ZNKSs7compareEPKc@@GLIBCXX_3.4
-_ZNKSt11logic_error4whatEv@@GLIBCXX_3.4
-_ZNKSt15basic_stringbufIcSt11char_traitsIcESaIcEE3strEv@@GLIBCXX_3.4
-_ZNKSt3_V214error_category10_M_messageEi@@GLIBCXX_3.4.21
-_ZNKSt3_V214error_category10equivalentERKSt10error_codei@@GLIBCXX_3.4.21
-_ZNKSt3_V214error_category10equivalentEiRKSt15error_condition@@GLIBCXX_3.4.21
-_ZNKSt3_V214error_category23default_error_conditionEi@@GLIBCXX_3.4.21
-_ZNKSt5ctypeIcE13_M_widen_initEv@@GLIBCXX_3.4.11
-_ZNSo3putEc@@GLIBCXX_3.4
-_ZNSo5flushEv@@GLIBCXX_3.4
-_ZNSo9_M_insertIbEERSoT_@@GLIBCXX_3.4.9
-_ZNSo9_M_insertImEERSoT_@@GLIBCXX_3.4.9
-_ZNSolsEi@@GLIBCXX_3.4
-_ZNSs4_Rep10_M_destroyERKSaIcE@@GLIBCXX_3.4
-_ZNSs4_Rep20_S_empty_rep_storageE@@GLIBCXX_3.4
-_ZNSs4_Rep9_S_createEmmRKSaIcE@@GLIBCXX_3.4
-_ZNSs4swapERSs@@GLIBCXX_3.4
-_ZNSs6assignERKSs@@GLIBCXX_3.4
-_ZNSs6insertEmPKcm@@GLIBCXX_3.4
-_ZNSsC1EPKcRKSaIcE@@GLIBCXX_3.4
-_ZNSsC1ERKSs@@GLIBCXX_3.4
-_ZNSt11logic_errorC2EPKc@@GLIBCXX_3.4.21
-_ZNSt11logic_errorD2Ev@@GLIBCXX_3.4
-_ZNSt12out_of_rangeC1EPKc@@GLIBCXX_3.4.21
-_ZNSt12out_of_rangeC1ERKSs@@GLIBCXX_3.4
-_ZNSt12out_of_rangeD1Ev@@GLIBCXX_3.4
-_ZNSt12system_errorD1Ev@@GLIBCXX_3.4.11
-_ZNSt13runtime_errorC2ERKSs@@GLIBCXX_3.4
-_ZNSt18basic_stringstreamIcSt11char_traitsIcESaIcEEC1ESt13_Ios_Openmode@@GLIBCXX_3.4
-_ZNSt18basic_stringstreamIcSt11char_traitsIcESaIcEED1Ev@@GLIBCXX_3.4
-_ZNSt18condition_variable10notify_allEv@@GLIBCXX_3.4.11
-_ZNSt18condition_variable10notify_oneEv@@GLIBCXX_3.4.11
-_ZNSt18condition_variable4waitERSt11unique_lockISt5mutexE@@GLIBCXX_3.4.11
-_ZNSt18condition_variableC1Ev@@GLIBCXX_3.4.11
-_ZNSt18condition_variableD1Ev@@GLIBCXX_3.4.11
-_ZNSt3_V214error_categoryD2Ev@@GLIBCXX_3.4.21
-_ZNSt3_V215system_categoryEv@@GLIBCXX_3.4.21
-_ZNSt6chrono3_V212system_clock3nowEv@@GLIBCXX_3.4.19
-_ZNSt6localeC1Ev@@GLIBCXX_3.4
-_ZNSt6localeD1Ev@@GLIBCXX_3.4
-_ZNSt6thread15_M_start_threadESt10shared_ptrINS_10_Impl_baseEEPFvvE@@GLIBCXX_3.4.21
-_ZNSt6thread4joinEv@@GLIBCXX_3.4.11
-_ZNSt8__detail15_List_node_base7_M_hookEPS0_@@GLIBCXX_3.4.15
-_ZNSt8ios_base4InitC1Ev@@GLIBCXX_3.4
-_ZNSt8ios_base4InitD1Ev@@GLIBCXX_3.4
-_ZNSt8ios_baseC2Ev@@GLIBCXX_3.4
-_ZNSt8ios_baseD2Ev@@GLIBCXX_3.4
-_ZNSt9basic_iosIcSt11char_traitsIcEE4initEPSt15basic_streambufIcS1_E@@GLIBCXX_3.4
-_ZNSt9exceptionD2Ev@@GLIBCXX_3.4
-_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l@@GLIBCXX_3.4.9
-_ZSt16__throw_bad_castv@@GLIBCXX_3.4
-_ZSt17__throw_bad_allocv@@GLIBCXX_3.4
-_ZSt18_Rb_tree_decrementPSt18_Rb_tree_node_base@@GLIBCXX_3.4
-_ZSt18_Rb_tree_incrementPKSt18_Rb_tree_node_base@@GLIBCXX_3.4
-_ZSt18_Rb_tree_incrementPSt18_Rb_tree_node_base@@GLIBCXX_3.4
-_ZSt19__throw_logic_errorPKc@@GLIBCXX_3.4
-_ZSt20__throw_length_errorPKc@@GLIBCXX_3.4
-_ZSt20__throw_out_of_rangePKc@@GLIBCXX_3.4
-_ZSt20__throw_system_errori@@GLIBCXX_3.4.11
-_ZSt25__throw_bad_function_callv@@GLIBCXX_3.4.14
-_ZSt28_Rb_tree_rebalance_for_erasePSt18_Rb_tree_node_baseRS_@@GLIBCXX_3.4
-_ZSt29_Rb_tree_insert_and_rebalancebPSt18_Rb_tree_node_baseS0_RS_@@GLIBCXX_3.4
-_ZSt4cerr@@GLIBCXX_3.4
-_ZSt4endlIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_@@GLIBCXX_3.4
-_ZSt9terminatev@@GLIBCXX_3.4
-_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc@@GLIBCXX_3.4
-_ZTINSt3_V214error_categoryE@@GLIBCXX_3.4.21
-_ZTISt11logic_error@@GLIBCXX_3.4
-_ZTISt12out_of_range@@GLIBCXX_3.4
-_ZTISt12system_error@@GLIBCXX_3.4.11
-_ZTISt9exception@@GLIBCXX_3.4
-_ZTTSt18basic_stringstreamIcSt11char_traitsIcESaIcEE@@GLIBCXX_3.4
-_ZTVN10__cxxabiv117__class_type_infoE@@CXXABI_1.3
-_ZTVN10__cxxabiv120__si_class_type_infoE@@CXXABI_1.3
-_ZTVN10__cxxabiv121__vmi_class_type_infoE@@CXXABI_1.3
-_ZTVSt11logic_error@@GLIBCXX_3.4
-_ZTVSt12out_of_range@@GLIBCXX_3.4
-_ZTVSt12system_error@@GLIBCXX_3.4.11
-_ZTVSt13runtime_error@@GLIBCXX_3.4
-_ZTVSt15basic_streambufIcSt11char_traitsIcEE@@GLIBCXX_3.4
-_ZTVSt15basic_stringbufIcSt11char_traitsIcESaIcEE@@GLIBCXX_3.4
-_ZTVSt18basic_stringstreamIcSt11char_traitsIcESaIcEE@@GLIBCXX_3.4
-_ZTVSt9basic_iosIcSt11char_traitsIcEE@@GLIBCXX_3.4
-_ZdlPv@@GLIBCXX_3.4
-_ZdlPvm@@CXXABI_1.3.9
-_Znwm@@GLIBCXX_3.4
 __FRAME_END__
 __JCR_END__
 __JCR_LIST__
@@ -1318,8 +1233,11 @@ op_status_cond_uint16_enc
 op_status_enc
 open@@GLIBC_2.2.5
 operator delete(void*)
+operator delete(void*)@@GLIBCXX_3.4
 operator delete(void*, unsigned long)
+operator delete(void*, unsigned long)@@CXXABI_1.3.9
 operator new(unsigned long)
+operator new(unsigned long)@@GLIBCXX_3.4
 pause
 pause@@GLIBC_2.2.5
 pipe
@@ -1789,11 +1707,16 @@ std::_Rb_tree<h5_state_t, std::pair<h5_state_t const, std::shared_ptr<ExitCriter
 std::_Rb_tree<void*, std::pair<void* const, std::shared_ptr<adapter_ble_gap_state_t>>, std::_Select1st<std::pair<void* const, std::shared_ptr<adapter_ble_gap_state_t>>>, std::less<void*>, std::allocator<std::pair<void* const, std::shared_ptr<adapter_ble_gap_state_t>>>>::_M_erase(std::_Rb_tree_node<std::pair<void* const, std::shared_ptr<adapter_ble_gap_state_t>>>*)
 std::_Rb_tree<void*, std::pair<void* const, std::shared_ptr<adapter_ble_gap_state_t>>, std::_Select1st<std::pair<void* const, std::shared_ptr<adapter_ble_gap_state_t>>>, std::less<void*>, std::allocator<std::pair<void* const, std::shared_ptr<adapter_ble_gap_state_t>>>>::_M_get_insert_hint_unique_pos(std::_Rb_tree_const_iterator<std::pair<void* const, std::shared_ptr<adapter_ble_gap_state_t>>>, void* const&)
 std::_Rb_tree_decrement(std::_Rb_tree_node_base*)
+std::_Rb_tree_decrement(std::_Rb_tree_node_base*)@@GLIBCXX_3.4
 std::_Rb_tree_increment(std::_Rb_tree_node_base const*)
+std::_Rb_tree_increment(std::_Rb_tree_node_base const*)@@GLIBCXX_3.4
 std::_Rb_tree_increment(std::_Rb_tree_node_base*)
+std::_Rb_tree_increment(std::_Rb_tree_node_base*)@@GLIBCXX_3.4
 std::_Rb_tree_insert_and_rebalance(bool, std::_Rb_tree_node_base*, std::_Rb_tree_node_base*, std::_Rb_tree_node_base&)
+std::_Rb_tree_insert_and_rebalance(bool, std::_Rb_tree_node_base*, std::_Rb_tree_node_base*, std::_Rb_tree_node_base&)@@GLIBCXX_3.4
 std::_Rb_tree_iterator<std::pair<h5_state_t const, std::shared_ptr<ExitCriterias>>> std::_Rb_tree<h5_state_t, std::pair<h5_state_t const, std::shared_ptr<ExitCriterias>>, std::_Select1st<std::pair<h5_state_t const, std::shared_ptr<ExitCriterias>>>, std::less<h5_state_t>, std::allocator<std::pair<h5_state_t const, std::shared_ptr<ExitCriterias>>>>::_M_emplace_hint_unique<std::piecewise_construct_t const&, std::tuple<h5_state_t&&>, std::tuple<>>(std::_Rb_tree_const_iterator<std::pair<h5_state_t const, std::shared_ptr<ExitCriterias>>>, std::piecewise_construct_t const&, std::tuple<h5_state_t&&>&&, std::tuple<>&&)
 std::_Rb_tree_rebalance_for_erase(std::_Rb_tree_node_base*, std::_Rb_tree_node_base&)
+std::_Rb_tree_rebalance_for_erase(std::_Rb_tree_node_base*, std::_Rb_tree_node_base&)@@GLIBCXX_3.4
 std::_Sp_counted_base<(__gnu_cxx::_Lock_policy)2>::_M_destroy()
 std::_Sp_counted_base<(__gnu_cxx::_Lock_policy)2>::_M_release()
 std::_Sp_counted_ptr<ActiveExitCriterias*, (__gnu_cxx::_Lock_policy)2>::_M_destroy()
@@ -1841,38 +1764,69 @@ std::_Sp_counted_ptr_inplace<std::vector<unsigned char, std::allocator<unsigned 
 std::_Sp_counted_ptr_inplace<std::vector<unsigned char, std::allocator<unsigned char>>, std::allocator<std::vector<unsigned char, std::allocator<unsigned char>>>, (__gnu_cxx::_Lock_policy)2>::_M_get_deleter(std::type_info const&)
 std::_Sp_counted_ptr_inplace<std::vector<unsigned char, std::allocator<unsigned char>>, std::allocator<std::vector<unsigned char, std::allocator<unsigned char>>>, (__gnu_cxx::_Lock_policy)2>::~_Sp_counted_ptr_inplace()
 std::_V2::error_category::_M_message(int) const
+std::_V2::error_category::_M_message(int) const@@GLIBCXX_3.4.21
 std::_V2::error_category::default_error_condition(int) const
+std::_V2::error_category::default_error_condition(int) const@@GLIBCXX_3.4.21
 std::_V2::error_category::equivalent(int, std::error_condition const&) const
+std::_V2::error_category::equivalent(int, std::error_condition const&) const@@GLIBCXX_3.4.21
 std::_V2::error_category::equivalent(std::error_code const&, int) const
+std::_V2::error_category::equivalent(std::error_code const&, int) const@@GLIBCXX_3.4.21
 std::_V2::error_category::~error_category()
+std::_V2::error_category::~error_category()@@GLIBCXX_3.4.21
 std::_V2::system_category()
+std::_V2::system_category()@@GLIBCXX_3.4.21
 std::__detail::_List_node_base::_M_hook(std::__detail::_List_node_base*)
+std::__detail::_List_node_base::_M_hook(std::__detail::_List_node_base*)@@GLIBCXX_3.4.15
 std::__ioinit
 std::__throw_bad_alloc()
+std::__throw_bad_alloc()@@GLIBCXX_3.4
 std::__throw_bad_cast()
+std::__throw_bad_cast()@@GLIBCXX_3.4
 std::__throw_bad_function_call()
+std::__throw_bad_function_call()@@GLIBCXX_3.4.14
 std::__throw_length_error(char const*)
+std::__throw_length_error(char const*)@@GLIBCXX_3.4
 std::__throw_logic_error(char const*)
+std::__throw_logic_error(char const*)@@GLIBCXX_3.4
 std::__throw_out_of_range(char const*)
+std::__throw_out_of_range(char const*)@@GLIBCXX_3.4
 std::__throw_system_error(int)
+std::__throw_system_error(int)@@GLIBCXX_3.4.11
 std::basic_ios<char, std::char_traits<char>>::init(std::basic_streambuf<char, std::char_traits<char>>*)
+std::basic_ios<char, std::char_traits<char>>::init(std::basic_streambuf<char, std::char_traits<char>>*)@@GLIBCXX_3.4
 std::basic_ostream<char, std::char_traits<char>>& std::__ostream_insert<char, std::char_traits<char>>(std::basic_ostream<char, std::char_traits<char>>&, char const*, long)
+std::basic_ostream<char, std::char_traits<char>>& std::__ostream_insert<char, std::char_traits<char>>(std::basic_ostream<char, std::char_traits<char>>&, char const*, long)@@GLIBCXX_3.4.9
 std::basic_ostream<char, std::char_traits<char>>& std::endl<char, std::char_traits<char>>(std::basic_ostream<char, std::char_traits<char>>&)
+std::basic_ostream<char, std::char_traits<char>>& std::endl<char, std::char_traits<char>>(std::basic_ostream<char, std::char_traits<char>>&)@@GLIBCXX_3.4
 std::basic_ostream<char, std::char_traits<char>>& std::operator<< <std::char_traits<char>>(std::basic_ostream<char, std::char_traits<char>>&, char const*)
+std::basic_ostream<char, std::char_traits<char>>& std::operator<< <std::char_traits<char>>(std::basic_ostream<char, std::char_traits<char>>&, char const*)@@GLIBCXX_3.4
 std::basic_string<char, std::char_traits<char>, std::allocator<char>>::basic_string(char const*, std::allocator<char> const&)
+std::basic_string<char, std::char_traits<char>, std::allocator<char>>::basic_string(char const*, std::allocator<char> const&)@@GLIBCXX_3.4
 std::basic_string<char, std::char_traits<char>, std::allocator<char>>::basic_string(std::string const&)
+std::basic_string<char, std::char_traits<char>, std::allocator<char>>::basic_string(std::string const&)@@GLIBCXX_3.4
 std::basic_stringbuf<char, std::char_traits<char>, std::allocator<char>>::str() const
+std::basic_stringbuf<char, std::char_traits<char>, std::allocator<char>>::str() const@@GLIBCXX_3.4
 std::basic_stringbuf<char, std::char_traits<char>, std::allocator<char>>::~basic_stringbuf()
 std::basic_stringstream<char, std::char_traits<char>, std::allocator<char>>::basic_stringstream(std::_Ios_Openmode)
+std::basic_stringstream<char, std::char_traits<char>, std::allocator<char>>::basic_stringstream(std::_Ios_Openmode)@@GLIBCXX_3.4
 std::basic_stringstream<char, std::char_traits<char>, std::allocator<char>>::~basic_stringstream()
+std::basic_stringstream<char, std::char_traits<char>, std::allocator<char>>::~basic_stringstream()@@GLIBCXX_3.4
 std::cerr
+std::cerr@@GLIBCXX_3.4
 std::chrono::_V2::system_clock::now()
+std::chrono::_V2::system_clock::now()@@GLIBCXX_3.4.19
 std::condition_variable::condition_variable()
+std::condition_variable::condition_variable()@@GLIBCXX_3.4.11
 std::condition_variable::notify_all()
+std::condition_variable::notify_all()@@GLIBCXX_3.4.11
 std::condition_variable::notify_one()
+std::condition_variable::notify_one()@@GLIBCXX_3.4.11
 std::condition_variable::wait(std::unique_lock<std::mutex>&)
+std::condition_variable::wait(std::unique_lock<std::mutex>&)@@GLIBCXX_3.4.11
 std::condition_variable::~condition_variable()
+std::condition_variable::~condition_variable()@@GLIBCXX_3.4.11
 std::ctype<char>::_M_widen_init() const
+std::ctype<char>::_M_widen_init() const@@GLIBCXX_3.4.11
 std::ctype<char>::do_widen(char) const
 std::deque<std::vector<unsigned char, std::allocator<unsigned char>>, std::allocator<std::vector<unsigned char, std::allocator<unsigned char>>>>::~deque()
 std::deque<unsigned char, std::allocator<unsigned char>>::_M_new_elements_at_back(unsigned long)
@@ -1884,42 +1838,70 @@ std::error_code asio::detail::reactive_serial_port_service::store_option<asio::s
 std::error_code asio::detail::reactive_serial_port_service::store_option<asio::serial_port_base::parity>(void const*, termios&, std::error_code&)
 std::error_code asio::detail::reactive_serial_port_service::store_option<asio::serial_port_base::stop_bits>(void const*, termios&, std::error_code&)
 std::exception::~exception()
+std::exception::~exception()@@GLIBCXX_3.4
 std::ios_base::Init::Init()
+std::ios_base::Init::Init()@@GLIBCXX_3.4
 std::ios_base::Init::~Init()
+std::ios_base::Init::~Init()@@GLIBCXX_3.4
 std::ios_base::ios_base()
+std::ios_base::ios_base()@@GLIBCXX_3.4
 std::ios_base::~ios_base()
+std::ios_base::~ios_base()@@GLIBCXX_3.4
 std::locale::locale()
+std::locale::locale()@@GLIBCXX_3.4
 std::locale::~locale()
+std::locale::~locale()@@GLIBCXX_3.4
 std::logic_error::logic_error(char const*)
+std::logic_error::logic_error(char const*)@@GLIBCXX_3.4.21
 std::logic_error::what() const
+std::logic_error::what() const@@GLIBCXX_3.4
 std::logic_error::~logic_error()
+std::logic_error::~logic_error()@@GLIBCXX_3.4
 std::map<h5_state_t, std::shared_ptr<ExitCriterias>, std::less<h5_state_t>, std::allocator<std::pair<h5_state_t const, std::shared_ptr<ExitCriterias>>>>::operator[](h5_state_t const&)
 std::map<void*, std::shared_ptr<adapter_ble_gap_state_t>, std::less<void*>, std::allocator<std::pair<void* const, std::shared_ptr<adapter_ble_gap_state_t>>>>::~map()
 std::ostream& std::ostream::_M_insert<bool>(bool)
+std::ostream& std::ostream::_M_insert<bool>(bool)@@GLIBCXX_3.4.9
 std::ostream& std::ostream::_M_insert<unsigned long>(unsigned long)
+std::ostream& std::ostream::_M_insert<unsigned long>(unsigned long)@@GLIBCXX_3.4.9
 std::ostream::flush()
+std::ostream::flush()@@GLIBCXX_3.4
 std::ostream::operator<<(int)
+std::ostream::operator<<(int)@@GLIBCXX_3.4
 std::ostream::put(char)
+std::ostream::put(char)@@GLIBCXX_3.4
 std::out_of_range::out_of_range(char const*)
+std::out_of_range::out_of_range(char const*)@@GLIBCXX_3.4.21
 std::out_of_range::out_of_range(std::string const&)
+std::out_of_range::out_of_range(std::string const&)@@GLIBCXX_3.4
 std::out_of_range::~out_of_range()
+std::out_of_range::~out_of_range()@@GLIBCXX_3.4
 std::piecewise_construct
 std::runtime_error::runtime_error(std::string const&)
+std::runtime_error::runtime_error(std::string const&)@@GLIBCXX_3.4
 std::string __gnu_cxx::__to_xstring<std::string, char>(int (*)(char*, unsigned long, char const*, __va_list_tag*), unsigned long, char const*, ...)
 std::string::_Rep::_M_destroy(std::allocator<char> const&)
+std::string::_Rep::_M_destroy(std::allocator<char> const&)@@GLIBCXX_3.4
 std::string::_Rep::_M_dispose(std::allocator<char> const&) (.part.0)
 std::string::_Rep::_M_dispose(std::allocator<char> const&) (.part.26)
 std::string::_Rep::_M_dispose(std::allocator<char> const&) (.part.36)
 std::string::_Rep::_M_dispose(std::allocator<char> const&) (.part.6)
 std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&)
+std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&)@@GLIBCXX_3.4
 std::string::_Rep::_S_empty_rep_storage
+std::string::_Rep::_S_empty_rep_storage@@GLIBCXX_3.4
 std::string::assign(std::string const&)
+std::string::assign(std::string const&)@@GLIBCXX_3.4
 std::string::compare(char const*) const
+std::string::compare(char const*) const@@GLIBCXX_3.4
 std::string::insert(unsigned long, char const*, unsigned long)
+std::string::insert(unsigned long, char const*, unsigned long)@@GLIBCXX_3.4
 std::string::swap(std::string&)
+std::string::swap(std::string&)@@GLIBCXX_3.4
 std::system_error::system_error(std::error_code, char const*)
 std::system_error::~system_error()
+std::system_error::~system_error()@@GLIBCXX_3.4.11
 std::terminate()
+std::terminate()@@GLIBCXX_3.4
 std::thread::_Impl<std::_Bind_simple<H5Transport::startStateMachine()::'lambda'() ()>>::_M_run()
 std::thread::_Impl<std::_Bind_simple<H5Transport::startStateMachine()::'lambda'() ()>>::~_Impl()
 std::thread::_Impl<std::_Bind_simple<SerializationTransport::open(std::function<void (sd_rpc_app_status_t, std::string const&)> const&, std::function<void (ble_evt_t*)> const&, std::function<void (sd_rpc_log_severity_t, std::string const&)> const&)::'lambda'() ()>>::_M_run()
@@ -1927,7 +1909,9 @@ std::thread::_Impl<std::_Bind_simple<SerializationTransport::open(std::function<
 std::thread::_Impl<std::_Bind_simple<UartBoost::open(std::function<void (sd_rpc_app_status_t, std::string const&)> const&, std::function<void (unsigned char const*, unsigned long)> const&, std::function<void (sd_rpc_log_severity_t, std::string const&)> const&)::'lambda'() ()>>::_M_run()
 std::thread::_Impl<std::_Bind_simple<UartBoost::open(std::function<void (sd_rpc_app_status_t, std::string const&)> const&, std::function<void (unsigned char const*, unsigned long)> const&, std::function<void (sd_rpc_log_severity_t, std::string const&)> const&)::'lambda'() ()>>::~_Impl()
 std::thread::_M_start_thread(std::shared_ptr<std::thread::_Impl_base>, void (*)())
+std::thread::_M_start_thread(std::shared_ptr<std::thread::_Impl_base>, void (*)())@@GLIBCXX_3.4.21
 std::thread::join()
+std::thread::join()@@GLIBCXX_3.4.11
 std::unique_lock<std::mutex>::unlock()
 std::vector<unsigned char, std::allocator<unsigned char>>::_M_default_append(unsigned long)
 strcmp
@@ -2161,6 +2145,7 @@ typeinfo for std::_Sp_counted_ptr_inplace<std::thread::_Impl<std::_Bind_simple<U
 typeinfo for std::_Sp_counted_ptr_inplace<std::vector<unsigned char, std::allocator<unsigned char>>, std::allocator<std::vector<unsigned char, std::allocator<unsigned char>>>, (__gnu_cxx::_Lock_policy)2>
 typeinfo for std::_Sp_make_shared_tag
 typeinfo for std::_V2::error_category
+typeinfo for std::_V2::error_category@@GLIBCXX_3.4.21
 typeinfo for std::_Weak_result_type<std::_Mem_fn<void (AdapterInternal::*)(ble_evt_t*)>>
 typeinfo for std::_Weak_result_type<std::_Mem_fn<void (AdapterInternal::*)(sd_rpc_app_status_t, std::string const&)>>
 typeinfo for std::_Weak_result_type<std::_Mem_fn<void (AdapterInternal::*)(sd_rpc_log_severity_t, std::string const&)>>
@@ -2176,9 +2161,13 @@ typeinfo for std::_Weak_result_type_impl<std::_Mem_fn<void (H5Transport::*)(unsi
 typeinfo for std::_Weak_result_type_impl<std::_Mem_fn<void (SerializationTransport::*)(unsigned char const*, unsigned long)>>
 typeinfo for std::_Weak_result_type_impl<std::_Mem_fn<void (UartBoost::*)(std::error_code const&, unsigned long)>>
 typeinfo for std::exception
+typeinfo for std::exception@@GLIBCXX_3.4
 typeinfo for std::logic_error
+typeinfo for std::logic_error@@GLIBCXX_3.4
 typeinfo for std::out_of_range
+typeinfo for std::out_of_range@@GLIBCXX_3.4
 typeinfo for std::system_error
+typeinfo for std::system_error@@GLIBCXX_3.4.11
 typeinfo for std::thread::_Impl<std::_Bind_simple<H5Transport::startStateMachine()::'lambda'() ()>>
 typeinfo for std::thread::_Impl<std::_Bind_simple<SerializationTransport::open(std::function<void (sd_rpc_app_status_t, std::string const&)> const&, std::function<void (ble_evt_t*)> const&, std::function<void (sd_rpc_log_severity_t, std::string const&)> const&)::'lambda'() ()>>
 typeinfo for std::thread::_Impl<std::_Bind_simple<UartBoost::open(std::function<void (sd_rpc_app_status_t, std::string const&)> const&, std::function<void (unsigned char const*, unsigned long)> const&, std::function<void (sd_rpc_log_severity_t, std::string const&)> const&)::'lambda'() ()>>
@@ -2479,8 +2468,11 @@ vtable for UartSettings
 vtable for UartSettingsBoost
 vtable for UninitializedExitCriterias
 vtable for __cxxabiv1::__class_type_info
+vtable for __cxxabiv1::__class_type_info@@CXXABI_1.3
 vtable for __cxxabiv1::__si_class_type_info
+vtable for __cxxabiv1::__si_class_type_info@@CXXABI_1.3
 vtable for __cxxabiv1::__vmi_class_type_info
+vtable for __cxxabiv1::__vmi_class_type_info@@CXXABI_1.3
 vtable for asio::detail::epoll_reactor
 vtable for asio::detail::reactive_descriptor_service
 vtable for asio::detail::reactive_serial_port_service
@@ -2503,13 +2495,21 @@ vtable for std::_Sp_counted_ptr_inplace<std::thread::_Impl<std::_Bind_simple<Ser
 vtable for std::_Sp_counted_ptr_inplace<std::thread::_Impl<std::_Bind_simple<UartBoost::open(std::function<void (sd_rpc_app_status_t, std::string const&)> const&, std::function<void (unsigned char const*, unsigned long)> const&, std::function<void (sd_rpc_log_severity_t, std::string const&)> const&)::'lambda'() ()>>, std::allocator<std::thread::_Impl<std::_Bind_simple<UartBoost::open(std::function<void (sd_rpc_app_status_t, std::string const&)> const&, std::function<void (unsigned char const*, unsigned long)> const&, std::function<void (sd_rpc_log_severity_t, std::string const&)> const&)::'lambda'() ()>>>, (__gnu_cxx::_Lock_policy)2>
 vtable for std::_Sp_counted_ptr_inplace<std::vector<unsigned char, std::allocator<unsigned char>>, std::allocator<std::vector<unsigned char, std::allocator<unsigned char>>>, (__gnu_cxx::_Lock_policy)2>
 vtable for std::basic_ios<char, std::char_traits<char>>
+vtable for std::basic_ios<char, std::char_traits<char>>@@GLIBCXX_3.4
 vtable for std::basic_streambuf<char, std::char_traits<char>>
+vtable for std::basic_streambuf<char, std::char_traits<char>>@@GLIBCXX_3.4
 vtable for std::basic_stringbuf<char, std::char_traits<char>, std::allocator<char>>
+vtable for std::basic_stringbuf<char, std::char_traits<char>, std::allocator<char>>@@GLIBCXX_3.4
 vtable for std::basic_stringstream<char, std::char_traits<char>, std::allocator<char>>
+vtable for std::basic_stringstream<char, std::char_traits<char>, std::allocator<char>>@@GLIBCXX_3.4
 vtable for std::logic_error
+vtable for std::logic_error@@GLIBCXX_3.4
 vtable for std::out_of_range
+vtable for std::out_of_range@@GLIBCXX_3.4
 vtable for std::runtime_error
+vtable for std::runtime_error@@GLIBCXX_3.4
 vtable for std::system_error
+vtable for std::system_error@@GLIBCXX_3.4.11
 vtable for std::thread::_Impl<std::_Bind_simple<H5Transport::startStateMachine()::'lambda'() ()>>
 vtable for std::thread::_Impl<std::_Bind_simple<SerializationTransport::open(std::function<void (sd_rpc_app_status_t, std::string const&)> const&, std::function<void (ble_evt_t*)> const&, std::function<void (sd_rpc_log_severity_t, std::string const&)> const&)::'lambda'() ()>>
 vtable for std::thread::_Impl<std::_Bind_simple<UartBoost::open(std::function<void (sd_rpc_app_status_t, std::string const&)> const&, std::function<void (unsigned char const*, unsigned long)> const&, std::function<void (sd_rpc_log_severity_t, std::string const&)> const&)::'lambda'() ()>>

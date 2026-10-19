@@ -43,6 +43,7 @@ $The current priority of this thread.
 $no DefaultCredential support in Mono
 $rCa
 %308
+%3E\t
 %A description describing the counter.
 %Count = {Count}, Type = {_collection}
 %Occurs when the Interval has elapsed.
@@ -50,6 +51,10 @@ $rCa
 %Standard input stream of the process.
 %The instance ID for this event entry.
 %The name of this performance counter.
+%n"o
+%o5"
+%oQ\t
+%oa(
 &!'!*!,!.!/!
 &*oP6
 &*oS6
@@ -109,6 +114,7 @@ $rCa
 +pr\fY
 +same limitations as X509Certificate2.Import
 ,$rtM
+,%s8
 ,1sh 
 ,Method isn't transactional (like documented)
 ,System.Diagnostics.AlphabeticalEnumConverter
@@ -127,6 +133,7 @@ $rCa
 -The handle of the main window of the process.
 -Use PerformanceCounterCategory.ReadCategory()
 -We don't do anything with displayNameEncoding
+-\vr%i
 -\vr4h
 -\vrCO
 -\vrDn
@@ -149,6 +156,7 @@ $rCa
 .System.Diagnostics.PerformanceCounterInstaller
 .The initial working directory for the process.
 .WrN
+.\vr%%
 .\vr7y
 .\vrSO
 .\vrqv
@@ -7138,6 +7146,7 @@ PushOptions
 PutBytes
 PutConnection
 PutNew
+Q%a.
 Q&TA
 Q5~v\v
 Q>D2\r
@@ -10181,6 +10190,8 @@ ZoneIndices
 \fproxyaddress
 \fsy6
 \fwarningLevel
+\n%on
+\n%r%%
 \n%r91
 \n%rG5
 \n%rK2
@@ -10195,6 +10206,7 @@ ZoneIndices
 \n%rq9
 \n%rs5
 \n%ry7
+\n%sp
 \n)\n*\n1\n2\n4\n5\n7\n8\n:\n<\n=\n>\nC\nG\nI\nK\nN\nY\n]\n^\n_\nf\nu\n
 \n)\n*\n1\n2\n4\n5\n7\n8\n:\nY\n]\n^\n_\nr\nu\n
 \n*2si
@@ -10215,6 +10227,7 @@ ZoneIndices
 \nYoH
 \n\fsS8
 \n\tjYiY(C*
+\n\v%o4
 \nautoDetect
 \nbypasslist
 \niY\tiX(
@@ -10225,6 +10238,8 @@ ZoneIndices
 \noW8
 \noa8
 \non3
+\nr%d
+\nr%i
 \nr20
 \nr67
 \nr8X
@@ -10836,6 +10851,7 @@ _workStealingQueues
 _writer
 `55y\v
 `Use System.ComponentModel.SettingsBindableAttribute instead to work with the new settings model.
+a%n.
 aByte
 aCommand line arguments that will be passed to the application specified by the FileName property.
 aProvides access to local and remote processes, enabling starting and stopping of local processes.
@@ -12363,6 +12379,7 @@ current_socket
 customChannelBinding
 customServiceNames
 custom_service_names
+d%n.
 d&8G
 d&hG
 d."8N

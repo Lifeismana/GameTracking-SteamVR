@@ -7,6 +7,7 @@
   setopenxrruntime\t\t\t\t\t\t\t\t\t - Sets the runtime that this command is part of as the current OpenXR runtime.\n
   show\t\t\t\t\t\t\t\t\t\t\t\t - Shows SteamVR associated USB devices.\n
  for detail.\n
+%%.%dg
 %Y-%m-%d-%p_%I_%M_%S
 %a %b %d %H:%M:%S %Y
 %a %b %d %Y %H:%M:%S.%%03u
@@ -274,7 +275,6 @@ PID_8328
 Parsing of JSON file "%s" failed: %s\n
 QueryPerformanceCounter
 QueryPerformanceFrequency
-RSDS<
 RaiseException
 RegCloseKey
 RegCreateKeyExW

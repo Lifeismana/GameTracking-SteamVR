@@ -102,6 +102,7 @@ $UnityEngine.UnityWebRequestWWWModule
 62k$G
 <Module>
 ='fixedAngle' is no longer supported. Use constraints instead.
+A&%X
 AddForce
 AddForceAtPosition
 AddForceAtPosition_Injected
@@ -1256,3 +1257,4 @@ value
 value__
 vector
 y7z!
+{A&%x

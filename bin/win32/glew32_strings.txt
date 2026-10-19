@@ -1,8 +1,4 @@
                           
- !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
- !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
- !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
--64OS
 1#IND
 1#INF
 1#QNAN
@@ -625,7 +621,6 @@ GetTimeFormatEx
 GetUserDefaultLocaleName
 GetUserObjectInformationW
 HH:mm:ss
-HMXB
 HeapAlloc
 HeapFree
 HeapReAlloc
@@ -658,7 +653,6 @@ MessageBoxW
 Missing GL version
 Monday
 MultiByteToWideChar
-NKeb
 NVX_
 No error
 November
@@ -672,7 +666,6 @@ QueryPerformanceCounter
 REGAL_
 REND_
 RtlUnwind
-S;uD
 SGIS_
 SGIX_
 SGI_
@@ -762,12 +755,6 @@ Wednesday
 WideCharToMultiByte
 WriteConsoleW
 WriteFile
-\n \n!\n"\n#\n$\n%\n&\n'\n(\n)\n*\n+\n,\n-\n.\n/\n0\n1\n2\n3\n4\n5\n6\n7\n8\n9\n:\n;\n<\n=\n>\n?\n@\nA\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL\nM\nN\nO\nP\nQ\nR\nS\nT\nU\nV\nW\nX\nY\nZ\n[\n\\n]\n^\n_\n`\na\nb\nc\nd\ne\nf\ng\nh\ni\nj\nk\nl\nm\nn\no\np\nq\nr\ns\nt\nu\nv\nw\nx\ny\nz\n{\n|\n}\n~\n
-\n\t\n\n\n\v\n\f\n\r\n
-\t \t!\t"\t#\t$\t%\t&\t'\t(\t)\t*\t+\t,\t-\t.\t/\t0\t1\t2\t3\t4\t5\t6\t7\t8\t9\t:\t;\t<\t=\t>\t?\t@\tA\tB\tC\tD\tE\tF\tG\tH\tI\tJ\tK\tL\tM\tN\tO\tP\tQ\tR\tS\tT\tU\tV\tW\tX\tY\tZ\t[\t\\t]\t^\t_\t`\ta\tb\tc\td\te\tf\tg\th\ti\tj\tk\tl\tm\tn\to\tp\tq\tr\ts\tt\tu\tv\tw\tx\ty\tz\t{\t|\t}\t~\t
-\t\t\t\n\t\v\t\f\t\r\t
-\v \v!\v"\v#\v$\v%\v&\v'\v(\v)\v*\v+\v,\v-\v.\v/\v0\v1\v2\v3\v4\v5\v6\v7\v8\v9\v:\v;\v<\v=\v>\v?\v@\vA\vB\vC\vD\vE\vF\vG\vH\vI\vJ\vK\vL\vM\vN\vO\vP\vQ\vR\vS\vT\vU\vV\vW\vX\vY\vZ\v[\v\\v]\v^\v_\v`\va\vb\vc\vd\ve\vf\vg\vh\vi\vj\vk\vl\vm\vn\vo\vp\vq\vr\vs\vt\vu\vv\vw\vx\vy\vz\v{\v|\v}\v~\v
-\v\t\v\n\v\v\v\f\v\r\v
 \vglew32.dll
 __GLEW_3DFX_multisample
 __GLEW_3DFX_tbuffer
@@ -3803,7 +3790,6 @@ async_histogram
 async_pixel
 aux_depth_stencil
 base_instance
-be+000
 bgra
 bindable_uniform
 bindless_multi_draw_indirect
@@ -3892,6 +3878,7 @@ draw_indirect
 draw_instanced
 draw_range_elements
 draw_texture
+e+000
 element_array
 enable
 enhanced_layouts
@@ -6272,7 +6259,6 @@ internalformat_query
 internalformat_query2
 invalidate_subdata
 ir_instrument1
-kU'9
 light_max_exponent
 light_texture
 list_priority
@@ -6687,5 +6673,3 @@ x11_sync_object
 ycbcr_422
 ycbcr_texture
 ycrcb
-z?aUY
-zc%C1

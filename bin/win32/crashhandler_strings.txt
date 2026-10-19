@@ -1,9 +1,6 @@
                           
-   ! " % & ' : < G H I 
   HEAP_ZERO_MEMORY is specified.\n
- !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
  !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
- !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
  Base Class Array'
  Base Class Descriptor at (
  Class Hierarchy Descriptor'
@@ -17,10 +14,11 @@
  delete[]
  new
 "; filename="
-#D5p
+%%.%if%s
 %02d:%02d:%02d
 %04d%02d%02d%02d%02d%02d
 %d,%p,%u,%u,%u,%u,%u,%d,%s\n
+%i%s
 %lld
 %u MB address space used assuming maximum PageHeap overhead.\n
 %u MB allocated.\n
@@ -51,7 +49,6 @@
 &Oslash;
 &Otilde;
 &Ouml;
-&Sgw
 &THORN;
 &Uacute;
 &Ucirc;
@@ -131,7 +128,6 @@
 &yacute;
 &yen;
 &yuml;
-( 8PX
 ('8PW
 (Function name not found)
 (null)
@@ -141,10 +137,10 @@
 -PROCESSHEAP
 -PROCESSHEAPZEROMEM
 -RESERVELOWMEM
+-debugbreak
 -noassert
 -nocrashdialog
 .00cfg
-.=log10
 .?AU_Crt_new_delete@std@@
 .?AUctype_base@std@@
 .?AV?$codecvt@DDU_Mbstatet@@@std@@
@@ -176,7 +172,6 @@
 .?AVout_of_range@std@@
 .?AVruntime_error@std@@
 .?AVtype_info@@
-.Aunknown
 .CRT$XCA
 .CRT$XCC
 .CRT$XCD
@@ -222,46 +217,23 @@
 .tls$
 .tls$ZZZ
 .xdata$x
-/Tw\n4
 /dumps
 /steamerrorreporter.exe
 0123456789abcdefghijklmnopqrstuvwxyz
-0;0A0C0E0G0I0c0
-0\n0\f0
-0\t0\v0\r0
 1#IND
 1#INF
 1#QNAN
 1#SNAN
 16:14:19
 2ieO=
-4g%6
-5M[g
 5s3R6=
-700PP
 700WP
-<8bunz8
-<@En[vP
-=87M
->c:\buildslave\vrpanorama_main_win32\build\src\tier0\vprof.cpp
-?3xj
 ?5Wg4p
-?5a1
-?7Tf(
 ?Dj0Q:W$=
 ?IT$7
-?Ltm
-?PiB
-?X&eB
-?{fHn
-@DbgHelp.dll
-@Fv^k
-@VNQ
 ABCDEFGHIJKLMNOPQRSTUVWXYZ
 ADVAPI32.dll
 AcquireSRWLockExclusive
-Ai0T
-AiFC.
 Alc blocks size,%12u,%12u,%12u,%u\n
 Alloc(): iPage >= 0 && iPage < %d, iPage == %d, pResult = 0x%p, pSharedData->m_pBase == 0x%p
 App Heap
@@ -306,7 +278,6 @@ AuthenticAMD
 Avail Virtual %llu\n
 BSQ_cache_reference
 Bad thread local
-Bfe9
 Breakpad_SetSteamID
 Busy, please retry.\n
 C Runtime heap
@@ -332,7 +303,6 @@ Content-Type: application/octet-stream\r\n
 Copyright (c) by P.J. Plauger, licensed by Dinkumware, Ltd. ALL RIGHTS RESERVED.
 CorExitProcess
 Couldn't copy to clipboard.
-CqTR;
 CreateDirectoryW
 CreateEventA
 CreateEventExW
@@ -349,6 +319,7 @@ CreateThreadpoolTimer
 CreateThreadpoolWait
 CreateThreadpoolWork
 DONT_BREAK_ON_ASSERT
+DbgHelp.dll
 DebugBreak
 December
 Default heap
@@ -367,8 +338,6 @@ EnumSystemLocalesW
 EnumWindows
 ExitProcess
 Exiting on SPEW_ABORT\n
-F0$?3=1
-FEMh\f
 Failed spawning steam error reporter process.\n
 Failed to capture symbols - gle %d - make sure frame pointers are being emited\n
 Failed to enable the low-fragmentation heap on %p with LastError %d.\n
@@ -477,7 +446,6 @@ HeapSize
 HeapUnlock
 HeapValidate
 HeapWalk
-Ht=c
 HttpAddRequestHeadersW
 HttpOpenRequestW
 HttpQueryInfoW
@@ -520,8 +488,6 @@ KERNEL32.dll
 LCIDToLocaleName
 LCMapStringEx
 LCMapStringW
-La8i
-Le?2
 LeaveCriticalSection
 LoadLibraryA
 LoadLibraryExA
@@ -537,7 +503,6 @@ MainThrd
 March
 MessageBoxA
 MiniDumpWriteDump
-MkK?
 Monday
 MultiByteToWideChar
 NAN(IND)
@@ -547,7 +512,6 @@ No Process Heaps!
 No room for new profile in vprof thread profile list, grow MAX_THREADS_TO_VPROF_AT_ONCE
 No tracked allocs currently in use. Total %d\n
 November
-O-debugbreak
 October
 OpenClipboard
 OpenThread
@@ -566,12 +530,10 @@ PSAPI.DLL
 PageHeap is off. Memory use will be normal.\n
 PageHeap is on. Memory use will be larger than normal.\n
 PageHeapFlags
-Pex?0
 Pool %4llu: allocated:%6i free:%6i committed:%6i (size:%5u kb)\n
 Pool %i: Size: %llu Allocated: %i Free: %i Committed: %i CommittedSize: %i\n
 QueryPerformanceCounter
 QueryPerformanceFrequency
-RSDS
 RaiseException
 ReadConsoleW
 ReadFile
@@ -654,11 +616,9 @@ TransactNamedPipe
 TryAcquireSRWLockExclusive
 TryEnterCriticalSection
 Tuesday
-T~OXu
 USER32.dll
 UTF-16LEUNICODE
 UTF-8
-UUUUU
 Unaccounted
 Uncommitted %llu\n
 Uncommitted OverHead %llu\n
@@ -673,6 +633,7 @@ Used Overhead ( beyond 4 byte alignment ) %llu\n
 Used blocks %u\n
 Used blocks size %12u %12u %12u %12llu\n
 UuidCreate
+V%A+=
 VGUI
 V_RemoveDotSlashes failed for "%s".
 VirtualAlloc
@@ -690,20 +651,13 @@ Wednesday
 WideCharToMultiByte
 WriteConsoleW
 WriteFile
-X/4B
-X4I+
 ZwQueryInformationProcess
 [9x)bwCTSListBase: Misaligned list\n
-[aOni*{
 \\.\GDPERF
 \\.\GDPERF.VXD
-\fO4W
 \nHeap Dump - All (%d heaps)\n
-\r\f\v\v\n\n\t\t\t\t\t
 \src\
 \t%s - %s:%d\n
-\tcQr
-^<V7w
 _ExitOnFatalAssert\n
 __based(
 __cdecl
@@ -731,7 +685,6 @@ _nextafter
 `eh vector destructor iterator'
 `eh vector vbase constructor iterator'
 `eh vector vbase copy constructor iterator'
-`h`hhh
 `local static guard'
 `local static thread guard'
 `local vftable constructor closure'
@@ -787,11 +740,11 @@ c:\buildslave\vrpanorama_main_win32\build\src\tier0\minidump.cpp
 c:\buildslave\vrpanorama_main_win32\build\src\tier0\threadtools.cpp
 c:\buildslave\vrpanorama_main_win32\build\src\tier0\validator.cpp
 c:\buildslave\vrpanorama_main_win32\build\src\tier0\valobject.cpp
+c:\buildslave\vrpanorama_main_win32\build\src\tier0\vprof.cpp
 c:\buildslave\vrpanorama_main_win32\build\src\tier1\fileio.cpp
 c:\buildslave\vrpanorama_main_win32\build\src\tier1\utlbuffer.cpp
 c:\buildslave\vrpanorama_main_win32\build\src\vstdlib\strtools.cpp
 c:\buildslave\vrpanorama_main_win32\build\src\vstdlib\strtools_unicode.cpp
-c?e2
 ceil
 connection aborted
 connection already in progress
@@ -804,13 +757,11 @@ crashhandler.dll
 crashhandler001
 crashhandler002
 cross device link
-d8L2
 dddd, MMMM dd, yyyy
 destination address required
 device or resource busy
 directory not empty
 e+000
-eLK(w
 executable format error
 fabs
 file exists
@@ -821,10 +772,7 @@ fmod
 frexp
 function not supported
 g_dwDllEntryThreadId
-h0'D
 hHeap %p\n
-hI{L[
-hb?O2
 heap %p has the low-fragmentation heap enabled.\n
 heap %p is a standard heap.\n
 heap %p supports look-aside lists.\n
@@ -849,16 +797,12 @@ iostream
 iostream stream error
 is a directory
 item %p sentinel corrupted. skipping.\n
-k:UG
-k=yI
 kernel32.dll
 ldexp
 list<T> too long
 log10
 ls1=
 lzZ?
-m1WY$
-m\nXo
 map/set<T> too long
 message size
 modf
@@ -886,9 +830,7 @@ not a stream
 not connected
 not enough memory
 not supported
-np?z 
 ntdll.dll
-obwQ4
 operation canceled
 operation in progress
 operation not permitted
@@ -897,7 +839,6 @@ operation would block
 operator
 operator "" 
 operator co_await
-owM&
 owner dead
 permission denied
 pnJ=
@@ -910,14 +851,12 @@ resource deadlock would occur
 resource unavailable try again
 restrict(
 result out of range
-sU0&?W
 sinh
 snan)
 sqrt
 state not recoverable
 stream timeout
 string too long
-tLVv
 tanh
 text file busy
 tier0_s.dll
@@ -929,17 +868,12 @@ too many symbolic link levels
 total bytes
 u?^p?o4
 uXO=
+unknown
 unknown error
 unknown exception
-v2!L.2
 value too large
 vector<T> too long
 warning: removing Breakpad handler out of order\n
 wrong protocol type
 wsprintfA
-xpxxxx
-xwpwpp
-z1}B
-zyC7
-{4Wf
 |W8A=

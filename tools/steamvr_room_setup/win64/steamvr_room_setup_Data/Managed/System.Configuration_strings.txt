@@ -8,8 +8,10 @@ $default value for require_permission
 %Evidence and version still needs work
 %System.Configuration.ProviderSettings
 %e6z
+%p-m
 &Support multiple levels of inheritance
 'should this use HostingContext instead?
+(4%u
 (9N1
 (c) Various Mono authors
 *Bs8

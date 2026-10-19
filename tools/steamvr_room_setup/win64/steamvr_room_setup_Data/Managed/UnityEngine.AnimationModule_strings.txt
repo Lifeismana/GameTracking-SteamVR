@@ -117,6 +117,7 @@ $UnityEngine.UnityWebRequestWWWModule
 1HVV
 1Modules/Animation/Director/AnimationHumanStream.h
 2%1Zy
+2%F]
 2E`k
 2HVV
 2Modules/Animation/Constraints/PositionConstraint.h
@@ -153,6 +154,7 @@ $UnityEngine.UnityWebRequestWWWModule
 9N8i
 9za]
 9{Ys
+;%aN
 ;Modules/Animation/ScriptBindings/AnimationStream.bindings.h
 ;P2N
 <>f__mg$cache0

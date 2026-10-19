@@ -1,4 +1,3 @@
--Q?qt_metacast@QImageIOPlugin@@UEAAPEAXPEBD@Z
 .00cfg
 .?AUTga16Reader@@
 .?AUTga24Reader@@
@@ -56,7 +55,6 @@
 .tls$ZZZ
 .xdata
 .xdata$x
-1[?write@QImageIOHandler@@UEAA_NAEBVQImage@@@Z
 ??0QByteArray@@QEAA@PEBDH@Z
 ??0QImage@@QEAA@$$QEAV0@@Z
 ??0QImage@@QEAA@HHW4Format@0@@Z
@@ -77,13 +75,37 @@
 ??4QString@@QEAAAEAV0@$$QEAV0@@Z
 ?childEvent@QObject@@MEAAXPEAVQChildEvent@@@Z
 ?connectNotify@QObject@@MEAAXAEBVQMetaMethod@@@Z
+?currentImageNumber@QImageIOHandler@@UEBAHXZ
+?currentImageRect@QImageIOHandler@@UEBA?AVQRect@@XZ
+?customEvent@QObject@@MEAAXPEAVQEvent@@@Z
+?device@QImageIOHandler@@QEBAPEAVQIODevice@@XZ
+?disconnectNotify@QObject@@MEAAXAEBVQMetaMethod@@@Z
+?dynamicMetaObject@QObjectData@@QEBAPEAUQMetaObject@@XZ
+?event@QObject@@UEAA_NPEAVQEvent@@@Z
+?eventFilter@QObject@@UEAA_NPEAV1@PEAVQEvent@@@Z
+?getAndRef@ExternalRefCountData@QtSharedPointer@@SAPEAU12@PEBVQObject@@@Z
+?getChar@QIODevice@@QEAA_NPEAD@Z
+?imageCount@QImageIOHandler@@UEBAHXZ
+?isNull@QImage@@QEBA_NXZ
 ?isOpen@QIODevice@@QEBA_NXZ
 ?isReadable@QIODevice@@QEBA_NXZ
+?jumpToImage@QImageIOHandler@@UEAA_NH@Z
+?jumpToNextImage@QImageIOHandler@@UEAA_NXZ
+?loopCount@QImageIOHandler@@UEBAHXZ
+?nextImageDelay@QImageIOHandler@@UEBAHXZ
 ?qstrcmp@@YAHAEBVQByteArray@@PEBD@Z
+?qt_metacall@QImageIOPlugin@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
+?qt_metacast@QImageIOPlugin@@UEAAPEAXPEBD@Z
 ?read@QIODevice@@QEAA_JPEAD_J@Z
+?setDevice@QImageIOHandler@@QEAAXPEAVQIODevice@@@Z
+?setFormat@QImageIOHandler@@QEAAXAEBVQByteArray@@@Z
+?setFormat@QImageIOHandler@@QEBAXAEBVQByteArray@@@Z
+?setPixel@QImage@@QEAAXHHI@Z
+?staticMetaObject@QImageIOPlugin@@2UQMetaObject@@B
 ?timerEvent@QObject@@MEAAXPEAVQTimerEvent@@@Z
 ?translate@QCoreApplication@@SA?AVQString@@PEBD00H@Z
 ?warning@QMessageLogger@@QEBAXPEBDZZ
+?write@QImageIOHandler@@UEAA_NAEBVQImage@@@Z
 CloseHandle
 Could not read footer
 Could not read image data
@@ -93,7 +115,6 @@ CreateEventW
 DeleteCriticalSection
 DisableThreadLibraryCalls
 EnterCriticalSection
-FK?imageCount@QImageIOHandler@@UEBAHXZ
 GetCurrentProcess
 GetCurrentProcessId
 GetCurrentThreadId
@@ -109,13 +130,7 @@ InitializeSListHead
 IsDebuggerPresent
 IsProcessorFeaturePresent
 KERNEL32.dll
-L?isNull@QImage@@QEBA_NXZ
-L?jumpToImage@QImageIOHandler@@UEAA_NH@Z
-L?jumpToNextImage@QImageIOHandler@@UEAA_NXZ
 LeaveCriticalSection
-M?loopCount@QImageIOHandler@@UEBAHXZ
-O?nextImageDelay@QImageIOHandler@@UEBAHXZ
-P?qt_metacall@QImageIOPlugin@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
 QTgaFile
 QTgaHandler::canRead() called with no device
 QTgaPlugin
@@ -131,26 +146,13 @@ Sequential device (eg socket) for image read not supported
 SetEvent
 SetUnhandledExceptionFilter
 SleepConditionVariableCS
-T?setDevice@QImageIOHandler@@QEAAXPEAVQIODevice@@@Z
 TRUEVISION-XFILE
 TerminateProcess
-U?setPixel@QImage@@QEAAXHHI@Z
 UnhandledExceptionFilter
 Unknown exception
 VCRUNTIME140.dll
-W?staticMetaObject@QImageIOPlugin@@2UQMetaObject@@B
 WaitForSingleObjectEx
 WakeAllConditionVariable
-\f?getAndRef@ExternalRefCountData@QtSharedPointer@@SAPEAU12@PEBVQObject@@@Z
-\f?getChar@QIODevice@@QEAA_NPEAD@Z
-\n?currentImageNumber@QImageIOHandler@@UEBAHXZ
-\n?currentImageRect@QImageIOHandler@@UEBA?AVQRect@@XZ
-\n?disconnectNotify@QObject@@MEAAXAEBVQMetaMethod@@@Z
-\n?dynamicMetaObject@QObjectData@@QEBAPEAUQMetaObject@@XZ
-\t?customEvent@QObject@@MEAAXPEAVQEvent@@@Z
-\v?device@QImageIOHandler@@QEBAPEAVQIODevice@@XZ
-\v?event@QObject@@UEAA_NPEAVQEvent@@@Z
-\v?eventFilter@QObject@@UEAA_NPEAV1@PEAVQEvent@@@Z
 _CxxThrowException
 __C_specific_handler
 __std_exception_copy
@@ -181,5 +183,3 @@ qt_plugin_instance
 qt_plugin_query_metadata
 qtga.dll
 strncmp
-uT?setFormat@QImageIOHandler@@QEAAXAEBVQByteArray@@@Z
-vT?setFormat@QImageIOHandler@@QEBAXAEBVQByteArray@@@Z

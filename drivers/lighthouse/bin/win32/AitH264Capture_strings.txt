@@ -1,7 +1,5 @@
                           
- !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
  !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
- !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
  Base Class Array'
  Base Class Descriptor at (
  Class Hierarchy Descriptor'
@@ -10,10 +8,8 @@
  delete
  delete[]
  new
-( 8PX
 ('8PW
 (null)
--64OS
 .?AUCThreadData@@
 .?AUIAccessible@@
 .?AUIAccessibleProxy@@
@@ -108,13 +104,9 @@
 1#INF
 1#QNAN
 1#SNAN
-5\vqB
-7/Ja
 700PP
 700WP
-7oAC4u
 <program name unknown>
-=L9o<
 ABCDEFGHIJKLMNOPQRSTUVWXYZ
 ADVAPI32.dll
 ActivateActCtx
@@ -189,7 +181,6 @@ EnumResourceLanguagesW
 Escape
 ExitProcess
 ExtTextOutW
-FHtmlHelpW
 February
 FindActCtxSectionStringW
 FindResourceW
@@ -203,7 +194,6 @@ FreeEnvironmentStringsA
 FreeEnvironmentStringsW
 FreeLibrary
 Friday
-GAIsProcessorFeaturePresent
 GDI32.dll
 GetACP
 GetActiveWindow
@@ -295,8 +285,8 @@ GlobalLock
 GlobalReAlloc
 GlobalUnlock
 GrayStringW
+H264
 HH:mm:ss
-HMXB
 HeapAlloc
 HeapCreate
 HeapDestroy
@@ -304,6 +294,7 @@ HeapFree
 HeapQueryInformation
 HeapReAlloc
 HeapSize
+HtmlHelpW
 InitCommonControls
 InitCommonControlsEx
 InitializeCriticalSection
@@ -313,6 +304,7 @@ InterlockedExchange
 InterlockedIncrement
 IsDebuggerPresent
 IsIconic
+IsProcessorFeaturePresent
 IsValidCodePage
 IsWindow
 IsWindowEnabled
@@ -338,6 +330,7 @@ LocalFree
 LocalReAlloc
 LockResource
 LresultFromObject
+MJPG
 MM/dd/yy
 MapWindowPoints
 March
@@ -350,7 +343,6 @@ MonitorFromPoint
 MonitorFromRect
 MonitorFromWindow
 MultiByteToWideChar
-NKeb
 NotifyWinEvent
 November
 OLEACC.dll
@@ -385,7 +377,6 @@ R6031\r\n- Attempt to initialize the CRT more than once.\nThis indicates a bug i
 R6032\r\n- not enough space for locale information\r\n
 R6033\r\n- Attempt to use MSIL code from this assembly during native code initialization\nThis indicates a bug in your application. It is most likely the result of calling an MSIL-compiled (/clr) function from a native constructor or from DllMain.\r\n
 R6034\r\nAn application has made an attempt to load the C runtime library incorrectly.\nPlease contact the application's support team for more information.\r\n
-RSDSO)
 RaiseException
 ReadFile
 RectVisible
@@ -406,7 +397,6 @@ RemovePropW
 RestoreDC
 RtlUnwind
 Runtime Error!\n\nProgram: 
-S;uD
 SHLWAPI.dll
 SING error\r\n
 Saturday
@@ -457,6 +447,7 @@ TranslateMessage
 Tuesday
 USER32.DLL
 USER32.dll
+UYVY
 UnhandledExceptionFilter
 UnhookWindowsHookEx
 Unknown exception
@@ -472,6 +463,7 @@ WriteConsoleA
 WriteConsoleW
 WriteFile
 WritePrivateProfileStringW
+YUY2
 \r\nThis application has requested the Runtime to terminate it in an unusual way.\nPlease contact the application's support team for more information.\r\n
 __based(
 __cdecl
@@ -493,7 +485,6 @@ __unaligned
 `eh vector destructor iterator'
 `eh vector vbase constructor iterator'
 `eh vector vbase copy constructor iterator'
-`h`hhh
 `local static guard'
 `local static thread guard'
 `local vftable constructor closure'
@@ -527,23 +518,13 @@ dddd, MMMM dd, yyyy
 e+000
 hhctrl.ocx
 invalid string position
-kU'9
 list<T> too long
 lstrcmpA
 lstrcmpW
 lstrlenA
 lstrlenW
-m1\f|1
 ole32.dll
 operator
-qH264
-qMJPG
-qUYVY
-qYUY2
 runtime error 
 string too long
 vids
-xppwpp
-xpxxxx
-z?aUY
-zc%C1

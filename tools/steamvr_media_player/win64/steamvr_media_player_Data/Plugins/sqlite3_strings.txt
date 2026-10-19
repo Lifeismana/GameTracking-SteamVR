@@ -1,11 +1,10 @@
                           
-  !!""##$$%%&&''(())**++,,--..//00112233445566778899
- !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
  !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
- !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
+ %d(%lld)
  %lld%s
  %llu
  AND 
+ AS %s
  FROM '%q'.'%q%s' AS x
  INT
  NOT 
@@ -23,10 +22,13 @@
  id=%lld
  missing from index 
  nPos=%d%s
+ term=%.*s
  {id=%d leaves=%d..%d}
  {lvl=%d nMerge=%d nSeg=%d
-!5Ng
+%.*f
+%.*s"%w"%s
 %.16g
+%.2x
 %02d
 %02d:%02d:%02d
 %02x
@@ -35,6 +37,7 @@
 %04d-%02d-%02d
 %04d-%02d-%02d %02d:%02d:%02d
 %06.3f
+%c"%s"
 %d %d %d %d 
 %d columns assigned %d values
 %d of %d pages missing from overflow list starting at %d
@@ -51,17 +54,33 @@
 %s constraint failed
 %s mode not allowed: %s
 %s prohibited in %s
+%s {%s}
+%s%.*s"%w"
 %s%.3x+%.6x
+%s%.3x/
+%s%c%s
+%s%d
+%s%s
+%s%s%z%s
+%s(%d)
+%s, %s
 %s-mjXXXXXX9XXz
 %s-shm
+%s.%s
+%s.%s.%s
 %s.rowid
 %s.xBestIndex malfunction
+%s: %s
+%s: %s.%s
 %s: %s.%s.%s
 %s: table does not support scanning
 %s_data
 %s_node
 %s_segments
 %s_stat
+%z%.*s
+%z%Q, 
+%z%s%Q
 %z, %Q HIDDEN, %s HIDDEN)
 %z, 'c%d%q'
 %z, langid
@@ -69,19 +88,25 @@
 '57;'WX'G
 'delete-all' may only be used with a contentless or external content fts5 table
 'rebuild' may not be used with a contentless fts5 table
+(%.20s)
 (NULL)
 (blob)
 *** in database %s ***\n
 ******""""""""""""""""""""
+, T.c%d
+, c%d
+,%s%s
 ,%s(x.'c%d%q')
 ,arg HIDDEN
 ,schema HIDDEN
 -- TRIGGER %s
--64OS
+-col %d 
+-col {%d
 -journal
 -mj%06X9%02X
 -near %d 
 -wal
+.%.*s
 0123456789ABCDEF
 0123456789ABCDEF0123456789abcdef
 0123456789abcdef
@@ -89,32 +114,23 @@
 1#INF
 1#QNAN
 1#SNAN
-12"4Z[\]^`aba
-12ZXY
-1\r5#t
 2017-08-01 13:24:15 9501e22dfeebdcefa783575e47c60b514d7c2e0cad73b2a496c0bc4b680900a8
 20b:20e
 20c:20e
 2nd reference to page %d
 3.20.0
 333333
-3e1$ m
 40f-21a-21d
 922337203685477580
-:12OPQR
-:Gdj
 :memory:
-:pFGHIJKLMNOPQR
 <expr>
 <program name unknown>
 >? AND rowid<
 >AEZMV
->e/ABj
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@D
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 @wKA
 ABCDEFGHIJKLMNOPQRSTUVWXYZ
 ADVAPI32.DLL
-AFGHIJKLMNOPQR
 AFTER
 ALTER TABLE %Q.'%q_%s' RENAME TO '%q_%s';
 ALTER TABLE %Q.'%q_content'  RENAME TO '%q_content';
@@ -145,8 +161,6 @@ AutoCommit
 BEFORE
 BEGIN
 BINARY
-B\fp\v0
-B\vp\nP
 Bad ptr map entry key=%d expected=(%d,%d) got=(%d,%d)
 BitAnd
 BitNot
@@ -284,11 +298,6 @@ Expire
 Explain
 Expression tree is too large (maximum depth %d)
 Extends off end of page
-FGHIJKLMNOPQR
-FGHIJKLMNOPQR2TUVWXYZ[\]^
-FGHIJKLMNOPQRETUVWXYZ[\]^
-FGHIJKLMNOPQR\vTUVWXYZ[\]^
-FGHIJKLMNOPQR^TUVWXYZ[\]^
 FOREIGN KEY
 FOREIGN KEY constraint failed
 FTS expression tree is too large (maximum depth %d)
@@ -340,8 +349,6 @@ GetVersionExW
 Gosub
 Goto
 HH:mm:ss
-HIJKLMNOPQR
-HMXB
 Halt
 HaltIfNull
 HeapAlloc
@@ -352,7 +359,6 @@ HeapFree
 HeapReAlloc
 HeapSize
 HeapValidate
-IJFGHIJKLMNOPQR
 INDEX %s
 INSERT INTO %Q.%s VALUES('index',%Q,%Q,#%d,%Q);
 INSERT INTO %Q.%s VALUES('trigger',%Q,%Q,0,'CREATE TRIGGER %q')
@@ -390,7 +396,6 @@ IntegrityCk
 InterlockedCompareExchange
 Invalid argument to rtreedepth()
 IsNull
-J%&\n'bDDf
 JSON cannot hold BLOB values
 JSON path error near '%q'
 JanFebMarAprMayJunJulAugSepOctNovDec
@@ -440,8 +445,6 @@ Multiply
 MustBeInt
 NEAR
 NEAR(
-NKeb
-NNNNo`z#
 NO ACTION
 NOCASE
 NONE
@@ -461,7 +464,6 @@ November
 Null
 NullRow
 ON clause references tables to its right
-OPQRSTUVWXYZ[\]^
 ORDER
 ORDER BY
 ORDER BY clause should come after %s not before
@@ -532,9 +534,7 @@ RIGHT and FULL OUTER JOINs are not currently supported
 ROLLBACK
 ROLLBACK TO fts3
 ROWID
-RSDSq
 RTRIM
-R\rp\fP\v0
 ReadCookie
 ReadFile
 Real
@@ -554,7 +554,6 @@ Rowid
 Rowid %lld out of order
 RtreeMatchArg
 Runtime Error!\n\nProgram: 
-S;uD
 SAVEPOINT fts3
 SCALAR
 SCAN
@@ -651,7 +650,6 @@ TABLE
 TEMP_STORE=1
 THREADSAFE=1
 TLOSS error\r\n
-TUVWXYZ[\]^
 TableLock
 Thursday
 Too few columns for an rtree table
@@ -712,24 +710,16 @@ WideCharToMultiByte
 WriteFile
 Wrong number of columns for an rtree table
 Yield
-ZGHIJKLMNOPQR
 \r\nThis application has requested the Runtime to terminate it in an unusual way.\nPlease contact the application's support team for more information.\r\n
-\rv=ic
-^almncdefghi wxN
 _ROWID_
 _\aXm
 __langid
-_`abXYe
 _cabs
 _content
 _hypot
 _init
 _logb
 _nextafter
-`ab`a
-`ab`ab
-`abc
-`abt`ab
 a GROUP BY clause is required before HAVING
 a JOIN clause is required before %s
 a NATURAL join may not have an ON or USING clause
@@ -784,9 +774,6 @@ automatic index on %s(%s)
 automatic_index
 automerge
 automerge=
-b9IL
-b\fp\v0
-b\fp\vP
 bad parameter or other API misuse
 belgian
 biliti
@@ -1104,7 +1091,7 @@ json_type
 json_valid
 julianday
 k PRIMARY KEY, v
-kU'9
+k(%d
 laci
 langid
 languageid
@@ -1219,7 +1206,6 @@ number of columns in foreign key does not match the number of columns in the ref
 object
 object name reserved for internal use: %s
 offsets
-olmn
 on_delete
 on_update
 onoffalseyestruextrafull
@@ -1233,7 +1219,6 @@ ousness
 out of
 out of memory
 overflow
-p]^)XYZ[\]^12TUVWXYZ[\]^:
 page_count
 page_size
 parameters
@@ -1260,7 +1245,6 @@ private
 program
 psow
 puerto-rico
-qA12
 qualified table names are not allowed on INSERT, UPDATE, and DELETE statements within triggers
 query aborted
 query_only
@@ -1816,12 +1800,8 @@ wrong number of arguments to function fts5_isalnum
 wrong number of arguments to function highlight()
 wrong number of arguments to function snippet()
 wrong number of vtable arguments
-wxlmn
 xPq>.T
-yHr,{b1#
 year
-z?aUY
-zc%C1
 zeroblob
 zeroblob(%d)
 {%ssegid=%d h=%d pgno=%d}

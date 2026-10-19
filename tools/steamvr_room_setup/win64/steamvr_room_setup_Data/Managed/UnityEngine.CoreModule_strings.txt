@@ -222,6 +222,7 @@ $Use RenderTexture.dimension instead.
 $VideoCaptureBindings::StartVideoMode
 $systeminfo::GetOperatingSystemFamily
 $systeminfo::GetProcessorFrequencyMHz
+%1a/
 %Application_Bindings::GetUnityVersion
 %AsyncReadManagerManaged::GetJobHandle
 %CameraScripting::GetScaledPixelHeight

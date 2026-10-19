@@ -70,7 +70,6 @@
 8d8f13b1-60eb-4b6a-a433-de86104115ac
 8e8f13b1-60eb-4b6a-a433-de86104115ac
 <unknown>
-?Failed to parse log message
 ?_Throw_C_error@std@@YAXH@Z
 ?_Throw_Cpp_error@std@@YAXH@Z
 ?_Xbad_function_call@std@@YAXXZ
@@ -91,6 +90,7 @@ DisableThreadLibraryCalls
 EnterCriticalSection
 EventRegister
 EventUnregister
+Failed to parse log message
 FreeLibrary
 GetCurrentProcessId
 GetCurrentThreadId
@@ -161,7 +161,6 @@ PRISM_Stop
 QueryPerformanceCounter
 QueryPerformanceFrequency
 RPCRT4.dll
-RSDS
 RaiseException
 ResetEvent
 RtlCaptureContext
@@ -261,4 +260,3 @@ strncpy
 tdh.dll
 terminate
 vector<T> too long
-}S%;moC

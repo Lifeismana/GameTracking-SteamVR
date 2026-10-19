@@ -1,6 +1,8 @@
  for detail.\n
  formatting error code 
+%%.%dg
 %s: failed with error '%s' (%d)
+%u != %zu
 ' is not a number.
 , last executing in 
 -1e+9999
@@ -294,7 +296,6 @@ Out of thread local storage!\n
 Parsing of JSON file "%s" failed: %s\n
 PeekNamedPipe
 QueryPerformanceCounter
-RSDS_@
 RaiseException
 ReadFile
 ReadFile failed on %s after event was signaled because %s\n

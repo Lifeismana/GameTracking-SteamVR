@@ -1,9 +1,7 @@
                           
- !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
+  %0.3f 
  !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
- !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
 --prefix=/c/buildslave/libav_win32/build/dev/build_win32 --toolchain=msvc --enable-shared --disable-static --enable-runtime-cpudetect --disable-all --enable-avcodec --enable-avutil --enable-avresample --enable-avformat --enable-swscale --enable-parser=h264 --enable-decoder='aac,h264,vp8,vp9,gif,vorbis' --enable-demuxer='aac,matroska,gif,ogg,mov' --enable-hwaccels --enable-dxva2 --disable-decoder=mpeg1video --disable-decoder=mpeg2video --disable-decoder=vc1 --disable-decoder=h263 --enable-libvpx
--64OS
 1#IND
 1#INF
 1#QNAN
@@ -20,9 +18,6 @@
 64-bit double planar
 8-bit unsigned integer
 8-bit unsigned integer planar
-?1mm
-?UUUUUU
-?uZEeu
 ABCDEFGHIJKLMNOPQRSTUVWXYZ
 AVAudioResampleContext
 April
@@ -73,7 +68,6 @@ GetTimeFormatEx
 GetUserDefaultLocaleName
 GetUserObjectInformationW
 HH:mm:ss
-HMXB
 InitializeCriticalSectionEx
 Input Channel Layout
 Input Sample Format
@@ -100,7 +94,6 @@ Matrixed Stereo Encoding
 MessageBoxW
 Mixing Coefficient Type
 Monday
-NKeb
 No Dithering
 None
 Normalize Mix Level
@@ -109,11 +102,9 @@ October
 Output Channel Layout
 Output Sample Format
 Output Sample Rate
-RSDSm{7
 Rectangular Dither
 Resampling Filter Size
 Resampling Phase Shift
-S;uD
 SSE2
 SSE2SLOW
 SSE4
@@ -219,7 +210,6 @@ internal_sample_fmt
 invalid NULL pointer for src[%d]\n
 invalid channel count: %d\n
 invalid sample format\n
-kU'9
 kaiser
 kaiser_beta
 ldexp
@@ -265,7 +255,4 @@ tanh
 triangular
 triangular_hp
 triangular_ns
-uZEeu
-z?aUY
-zc%C1
 {no name}

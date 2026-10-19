@@ -1,5 +1,4 @@
        c #000000
-   ! " # $ % & ' ( ) * + , - . / 0 1 2 3 4 5 6 7 8 9 : ; < = > ? @ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z [ \ ] ^ _ ` a b c d e f g h i j k l m n o p q r s t u v w x y z { | } ~ 
   AWwbr
   Error Log:\n
   OHhoj
@@ -547,8 +546,6 @@
  ZUQraj
  ZWSst
  ZYTtzm
- \t \n \v \f \r 
- \t?contains@QRect@@QEBA_NAEBVQPoint@@_N@Z
  align="center"
  align="justify"
  align="right"
@@ -609,17 +606,10 @@
  which does not have a handle.
  which has Qt::WindowDoesNotAcceptFocus set.
  word-spacing:
-! !!!"!#!$!%!&!'!(!)!*!+!,!-!.!/!0!1!2!3!4!5!6!7!8!9!:!;!<!=!>!?!@!A!B!C!D!E!F!G!H!I!J!K!L!M!N!O!P!Q!R!S!T!U!V!W!X!Y!Z![!\!]!^!_!`!a!b!c!d!e!f!g!h!i!j!k!l!m!n!o!p!q!r!s!t!u!v!w!x!y!z!{!|!}!~!
-!1AQaq
-!\t!\n!\v!\f!\r!
-!\t?contains@QRect@@QEBA_NHH@Z
-!\v?end@QByteArray@@QEBAPEBDXZ
-" "!"""#"$"%"&"'"(")"*"+","-"."/"0"1"2"3"4"5"6"7"8"9":";"<"=">"?"@"A"B"C"D"E"F"G"H"I"J"K"L"M"N"O"P"Q"R"S"T"U"V"W"X"Y"Z"["\"]"^"_"`"a"b"c"d"e"f"g"h"i"j"k"l"m"n"o"p"q"r"s"t"u"v"w"x"y"z"{"|"}"~"
 " at line 
 "#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRS
 "%s c #%02x%02x%02x"
 "%s c None"
-"2BRbr
 "QColor::setAlpha": invalid value %d
 "QColor::setAlphaF": invalid value %g
 "QColor::setBlue": invalid value %d
@@ -628,14 +618,8 @@
 "QColor::setGreenF": invalid value %g
 "QColor::setRed": invalid value %d
 "QColor::setRedF": invalid value %g
-"\r?hour@QTime@@QEBAHXZ
-"\t"\n"\v"\f"\r"
-# #!#"###$#%#&#'#(#)#*#+#,#-#.#/#0#1#2#3#4#5#6#7#8#9#:#;#<#=#>#?#@#A#B#C#D#E#F#G#H#I#J#K#L#M#N#O#P#Q#R#S#T#U#V#W#X#Y#Z#[#\#]#^#_#`#a#b#c#d#e#f#g#h#i#j#k#l#m#n#o#p#q#r#s#t#u#v#w#x#y#z#{#|#}#~#
 #%02x%02x%02x
 #%02x%02x%02x%02x
-#3CScs
-#\t#\n#\v#\f#\r#
-#\t?contains@QRectF@@QEBA_NAEBV1@@Z
 #define %s_height %d\n
 #define %s_width %d\n
 #define lowp\n#define mediump\n#define highp\n
@@ -643,18 +627,14 @@
 #version 150 core \n        vec4 srcPixel(); \n        out vec4 fragColor; \n        void main() \n        { \n            fragColor = srcPixel(); \n        }\n
 #version 150 core\nin vec2 uv;out vec4 fragcolor;uniform sampler2D textureSampler;uniform bool swizzle;uniform float opacity;void main() {   vec4 tmpFragColor = texture(textureSampler, uv);   tmpFragColor.a *= opacity;   fragcolor = swizzle ? tmpFragColor.bgra : tmpFragColor;}
 #version 150 core\nin vec3 vertexCoord;in vec2 textureCoord;out vec2 uv;uniform mat4 vertexTransform;uniform mat3 textureTransform;void main() {   uv = (textureTransform * vec3(textureCoord,1.0)).xy;   gl_Position = vertexTransform * vec4(vertexCoord,1.0);}
-$ $!$"$#$$$%$&$'$($)$*$+$,$-$.$/$0$1$2$3$4$5$6$7$8$9$:$;$<$=$>$?$@$A$B$C$D$E$F$G$H$I$J$K$L$M$N$O$P$Q$R$S$T$U$V$W$X$Y$Z$[$\$]$^$_$`$a$b$c$d$e$f$g$h$i$j$k$l$m$n$o$p$q$r$s$t$u$v$w$x$y$z${$|$}$~$
-$4DTdt
-$\t$\n$\v$\f$\r$
-$\t?contains@QRectF@@QEBA_NAEBVQPointF@@@Z
 $qt_theme_
-% %!%"%#%$%%%&%'%(%)%*%+%,%-%.%/%0%1%2%3%4%5%6%7%8%9%:%;%<%=%>%?%@%A%B%C%D%E%F%G%H%I%J%K%L%M%N%O%P%Q%R%S%T%U%V%W%X%Y%Z%[%\%]%^%_%`%a%b%c%d%e%f%g%h%i%j%k%l%m%n%o%p%q%r%s%t%u%v%w%x%y%z%{%|%}%~%
+%%PDF-1.4\n
 %010d 00000 n \n
 %1mm
 %1pt
-%5EUeu
-%\t%\n%\v%\f%\r%
 %d %d %d %d
+%d 0 R 
+%d 0 R\n
 %d 0 obj\n
 %d\nendobj\n
 %s invoked with handle==0
@@ -666,55 +646,17 @@ $qt_theme_
 %s: GetDIBits() failed to get bitmap bits.
 %s: The platform plugin does not support services.
 %s\nendobj\n
-& &!&"&#&$&%&&&'&(&)&*&+&,&-&.&/&0&1&2&3&4&5&6&7&8&9&:&;&<&=&>&?&@&A&B&C&D&E&F&G&H&I&J&K&L&M&N&O&P&Q&R&S&T&U&V&W&X&Y&Z&[&\&]&^&_&`&a&b&c&d&e&f&g&h&i&j&k&l&m&n&o&p&q&r&s&t&u&v&w&x&y&z&{&|&}&~&
-&6FVfv
 &Yes
-&\f?first@?$QVector@VQPointF@@@@QEAAAEAVQPointF@@XZ
-&\t&\n&\v&\f&\r&
-&\v?end@QListData@@QEBAPEAPEAXXZ
 &amp;
 &quot;
-' '!'"'#'$'%'&'''(')'*'+','-'.'/'0'1'2'3'4'5'6'7'8'9':';'<'='>'?'@'A'B'C'D'E'F'G'H'I'J'K'L'M'N'O'P'Q'R'S'T'U'V'W'X'Y'Z'['\']'^'_'`'a'b'c'd'e'f'g'h'i'j'k'l'm'n'o'p'q'r's't'u'v'w'x'y'z'{'|'}'~'
-'7GWgw
-'\f?first@?$QVector@VQPointF@@@@QEBAAEBVQPointF@@XZ
-'\t'\n'\v'\f'\r'
-'\v?end@QSequentialIterable@@QEBA?AUconst_iterator@1@XZ
-( (!("(#($(%(&('((()(*(+(,(-(.(/(0(1(2(3(4(5(6(7(8(9(:(;(<(=(>(?(@(A(B(C(D(E(F(G(H(I(J(K(L(M(N(O(P(Q(R(S(T(U(V(W(X(Y(Z([(\(](^(_(`(a(b(c(d(e(f(g(h(i(j(k(l(m(n(o(p(q(r(s(t(u(v(w(x(y(z({(|(}(~(
-(8HXhx
-(\t(\n(\v(\f(\r(
-(\t?contains@QString@@QEBA_NAEBV1@W4CaseSensitivity@Qt@@@Z
-(\v?end@QString@@QEAAPEAVQChar@@XZ
 (dropAction=
 (empty)
-) )!)")#)$)%)&)')()))*)+),)-).)/)0)1)2)3)4)5)6)7)8)9):);)<)=)>)?)@)A)B)C)D)E)F)G)H)I)J)K)L)M)N)O)P)Q)R)S)T)U)V)W)X)Y)Z)[)\)])^)_)`)a)b)c)d)e)f)g)h)i)j)k)l)m)n)o)p)q)r)s)t)u)v)w)x)y)z){)|)})~)
 ) delta (
-)9IYiy
 ): Attempt to set a screen on a child window.
 ): Cannot change screens (
 ): shader program is not linked
-)\n?data@?$QVector@VQPoint@@@@QEAAPEAVQPoint@@XZ
-)\t)\n)\v)\f)\r)
-)\v?end@QString@@QEBAPEBVQChar@@XZ
-* *!*"*#*$*%*&*'*(*)***+*,*-*.*/*0*1*2*3*4*5*6*7*8*9*:*;*<*=*>*?*@*A*B*C*D*E*F*G*H*I*J*K*L*M*N*O*P*Q*R*S*T*U*V*W*X*Y*Z*[*\*]*^*_*`*a*b*c*d*e*f*g*h*i*j*k*l*m*n*o*p*q*r*s*t*u*v*w*x*y*z*{*|*}*~*
 *** Problematic %s shader source code ***
-****************\r*
-****************\r***
-**************\r
-**************\r*
-**************\r***
-**************\r/**
-*********+******\r***
-*********-******\r*
-*******.******\r/**
-*******.**.***\r/**
 *.qpf2
-*:JZjz
-*\r*******-******\r*
-*\t*\n*\v*\f*\r*
-+ +!+"+#+$+%+&+'+(+)+*+++,+-+.+/+0+1+2+3+4+5+6+7+8+9+:+;+<+=+>+?+@+A+B+C+D+E+F+G+H+I+J+K+L+M+N+O+P+Q+R+S+T+U+V+W+X+Y+Z+[+\+]+^+_+`+a+b+c+d+e+f+g+h+i+j+k+l+m+n+o+p+q+r+s+t+u+v+w+x+y+z+{+|+}+~+
-+\n?data@?$QVector@VQPointF@@@@QEAAPEAVQPointF@@XZ
-+\t+\n+\v+\f+\r+
-, ,!,",#,$,%,&,',(,),*,+,,,-,.,/,0,1,2,3,4,5,6,7,8,9,:,;,<,=,>,?,@,A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z,[,\,],^,_,`,a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z,{,|,},~,
 , alphaBufferSize 
 , ambiguous
 , angleDelta=
@@ -759,9 +701,6 @@ $qt_theme_
 , vector:(
 , xTilt=
 , yTilt=
-,\f?firstNode@QHashData@@QEAAPEAUNode@1@XZ
-,\r?ignore@QEvent@@QEAAXXZ
-,\t,\n,\v,\f,\r,
 ,^@fffffvq@
 ,byteCount=
 ,bytesPerLine=
@@ -770,10 +709,7 @@ $qt_theme_
 ,depth=
 ,devicePixelRatio=
 ,format=
-- -!-"-#-$-%-&-'-(-)-*-+-,---.-/-0-1-2-3-4-5-6-7-8-9-:-;-<-=->-?-@-A-B-C-D-E-F-G-H-I-J-K-L-M-N-O-P-Q-R-S-T-U-V-W-X-Y-Z-[-\-]-^-_-`-a-b-c-d-e-f-g-h-i-j-k-l-m-n-o-p-q-r-s-t-u-v-w-x-y-z-{-|-}-~-
 -100%
--\t-\n-\v-\f-\r-
--\t?contains@QString@@QEBA_NVQChar@@W4CaseSensitivity@Qt@@@Z
 -abcdefghijklmnopqrstuvwxyz
 -geometry
 -icon
@@ -801,7 +737,6 @@ $qt_theme_
 -testability
 -title
 .      c None
-. .!.".#.$.%.&.'.(.).*.+.,.-.../.0.1.2.3.4.5.6.7.8.9.:.;.<.=.>.?.@.A.B.C.D.E.F.G.H.I.J.K.L.M.N.O.P.Q.R.S.T.U.V.W.X.Y.Z.[.\.].^._.`.a.b.c.d.e.f.g.h.i.j.k.l.m.n.o.p.q.r.s.t.u.v.w.x.y.z.{.|.}.~.
 .#abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789
 .00cfg
 .?AUPixmapEntry@@
@@ -1170,9 +1105,6 @@ $qt_theme_
 .CRT$XTA
 .CRT$XTZ
 .Transverse
-.\r?imageData@QMimeData@@QEBA?AVQVariant@@XZ
-.\t.\n.\v.\f.\r.
-.\t?contains@QString@@QEBA_NVQLatin1String@@W4CaseSensitivity@Qt@@@Z
 .bss
 .data
 .data$r
@@ -1206,7 +1138,6 @@ $qt_theme_
 .tls$ZZZ
 .xdata
 .xdata$x
-/ /!/"/#/$/%/&/'/(/)/*/+/,/-/.///0/1/2/3/4/5/6/7/8/9/:/;/</=/>/?/@/A/B/C/D/E/F/G/H/I/J/K/L/M/N/O/P/Q/R/S/T/U/V/W/X/Y/Z/[/\/]/^/_/`/a/b/c/d/e/f/g/h/i/j/k/l/m/n/o/p/q/r/s/t/u/v/w/x/y/z/{/|/}/~/
 /AntiAlias true\n/Coords [
 /AntiAlias true\n/Domain [0 1]\n/Coords [
 /BitsPerComponent 8\n/ColorSpace %s\n
@@ -1246,7 +1177,6 @@ $qt_theme_
 /Type /Action\n/S /URI\n/URI (%s)\n
 /XObject << /Im
 /XObject <<\n
-/\t/\n/\v/\f/\r/
 /accessible
 /accessiblebridge
 /fonts
@@ -1259,7 +1189,6 @@ $qt_theme_
 /platformthemes
 0 .3 -1 0 0 Tm\n
 0 0 -1 0 0 Tm\n
-0 0!0"0#0$0%0&0'0(0)0*0+0,0-0.0/000102030405060708090:0;0<0=0>0?0@0A0B0C0D0E0F0G0H0I0J0K0L0M0N0O0P0Q0R0S0T0U0V0W0X0Y0Z0[0\0]0^0_0`0a0b0c0d0e0f0g0h0i0j0k0l0m0n0o0p0q0r0s0t0u0v0w0x0y0z0{0|0}0~0
 0 J\n2 w\n[2 2] 1 d\n0 0 m\n0 8 l\n8 0 m\n8 8 l\nS\n[2 2] -1 d\n2 0 m\n2 8 l\n6 0 m\n6 8 l\nS\n[2 2] 1 d\n4 0 m\n4 8 l\nS\n
 0 J\n2 w\n[2 6] -1 d\n0 0 m\n0 8 l\n8 0 m\n8 8 l\nS\n
 0 J\n2 w\n[2 6] -1 d\n0 0 m\n0 8 l\n8 0 m\n8 8 l\nS\n[2 2] 1 d\n2 0 m\n2 8 l\n6 0 m\n6 8 l\nS\n[2 6] 3 d\n4 0 m\n4 8 l\nS\n
@@ -1273,13 +1202,9 @@ $qt_theme_
 0 R\n>> endobj\n
 0 R\n>>\nendobj\n
 0 R]\n/ToUnicode 
-00003333
 0123456789
 0123456789ABCDEF
 0123456789ABCDEFfixed point overflow in 
-0\n?data@QArrayData@@QEAAPEAXXZ
-0\t0\n0\v0\f0\r0
-1 1!1"1#1$1%1&1'1(1)1*1+1,1-1.1/101112131415161718191:1;1<1=1>1?1@1A1B1C1D1E1F1G1H1I1J1K1L1M1N1O1P1Q1R1S1T1U1V1W1X1Y1Z1[1\1]1^1_1`1a1b1c1d1e1f1g1h1i1j1k1l1m1n1o1p1q1r1s1t1u1v1w1x1y1z1{1|1}1~1
 1 w\n-1 3 m\n5 9 l\n3 -1 m\n9 5 l\n-1 5 m\n5 -1 l\n3 9 m\n9 3 l\nS\n
 1 w\n-1 3 m\n5 9 l\n3 -1 m\n9 5 l\nS\n
 1 w\n-1 5 m\n5 -1 l\n3 9 m\n9 3 l\nS\n
@@ -1298,8 +1223,6 @@ $qt_theme_
 15x11
 1D array textures are not supported
 1D textures are not supported
-1\n?data@QArrayData@@QEBAPEBXXZ
-1\t1\n1\v1\f1\r1
 1_q_clearAlert()
 1_q_contextAboutToBeDestroyed()
 1_q_delayedRehighlight()
@@ -1311,10 +1234,7 @@ $qt_theme_
 1handlerDestroyed(QObject*)
 1screenDestroyed(QObject*)
 1shaderDestroyed()
-2 2!2"2#2$2%2&2'2(2)2*2+2,2-2.2/202122232425262728292:2;2<2=2>2?2@2A2B2C2D2E2F2G2H2I2J2K2L2M2N2O2P2Q2R2S2T2U2V2W2X2Y2Z2[2\2]2^2_2`2a2b2c2d2e2f2g2h2i2j2k2l2m2n2o2p2q2r2s2t2u2v2w2x2y2z2{2|2}2~2
 255\n
-2\n?data@QBuffer@@QEBAAEBVQByteArray@@XZ
-2\t2\n2\v2\f2\r2
 2aboutToBeDestroyed()
 2contentsChange(int,int,int)
 2dataChanged(QModelIndex,QModelIndex)
@@ -1322,49 +1242,17 @@ $qt_theme_
 2destroyed(QObject*)
 2focusObjectChanged(QObject*)
 2timeout()
-3 3!3"3#3$3%3&3'3(3)3*3+3,3-3.3/303132333435363738393:3;3<3=3>3?3@3A3B3C3D3E3F3G3H3I3J3K3L3M3N3O3P3Q3R3S3T3U3V3W3X3Y3Z3[3\3]3^3_3`3a3b3c3d3e3f3g3h3i3j3k3l3m3n3o3p3q3r3s3t3u3v3w3x3y3z3{3|3}3~3
 3333
 33333
 333333
-333333Z@
 3333UUUU
 3D textures are not supported
-3\n?data@QByteArray@@QEAAPEADXZ
-3\t3\n3\v3\f3\r3
-3\v?endInsertColumns@QAbstractItemModel@@IEAAXXZ
-4 4!4"4#4$4%4&4'4(4)4*4+4,4-4.4/404142434445464748494:4;4<4=4>4?4@4A4B4C4D4E4F4G4H4I4J4K4L4M4N4O4P4Q4R4S4T4U4V4W4X4Y4Z4[4\4]4^4_4`4a4b4c4d4e4f4g4h4i4j4k4l4m4n4o4p4q4r4s4t4u4v4w4x4y4z4{4|4}4~4
-4\t4\n4\v4\f4\r4
-4\v?endInsertRows@QAbstractItemModel@@IEAAXXZ
-4i5U6B738%9
-5 5!5"5#5$5%5&5'5(5)5*5+5,5-5.5/505152535455565758595:5;5<5=5>5?5@5A5B5C5D5E5F5G5H5I5J5K5L5M5N5O5P5Q5R5S5T5U5V5W5X5Y5Z5[5\5]5^5_5`5a5b5c5d5e5f5g5h5i5j5k5l5m5n5o5p5q5r5s5t5u5v5w5x5y5z5{5|5}5~5
-5\t5\n5\v5\f5\r5
-6 6!6"6#6$6%6&6'6(6)6*6+6,6-6.6/606162636465666768696:6;6<6=6>6?6@6A6B6C6D6E6F6G6H6I6J6K6L6M6N6O6P6Q6R6S6T6U6V6W6X6Y6Z6[6\6]6^6_6`6a6b6c6d6e6f6g6h6i6j6k6l6m6n6o6p6q6r6s6t6u6v6w6x6y6z6{6|6}6~6
-6\n?data@QMimeData@@QEBA?AVQByteArray@@AEBVQString@@@Z
-6\t6\n6\v6\f6\r6
-7 7!7"7#7$7%7&7'7(7)7*7+7,7-7.7/707172737475767778797:7;7<7=7>7?7@7A7B7C7D7E7F7G7H7I7J7K7L7M7N7O7P7Q7R7S7T7U7V7W7X7Y7Z7[7\7]7^7_7`7a7b7c7d7e7f7g7h7i7j7k7l7m7n7o7p7q7r7s7t7u7v7w7x7y7z7{7|7}7~7
-7\t7\n7\v7\f7\r7
-7\t?convert@QVariant@@QEAA_NH@Z
-8 8!8"8#8$8%8&8'8(8)8*8+8,8-8.8/808182838485868788898:8;8<8=8>8?8@8A8B8C8D8E8F8G8H8I8J8K8L8M8N8O8P8Q8R8S8T8U8V8W8X8Y8Z8[8\8]8^8_8`8a8b8c8d8e8f8g8h8i8j8k8l8m8n8o8p8q8r8s8t8u8v8w8x8y8z8{8|8}8~8
-8\r?indexIn@QRegExp@@QEBAHAEBVQString@@HW4CaretMode@1@@Z
-8\t8\n8\v8\f8\r8
-8\t?convert@QVariant@@QEBA_NHPEAX@Z
 8x10
-9 9!9"9#9$9%9&9'9(9)9*9+9,9-9.9/909192939495969798999:9;9<9=9>9?9@9A9B9C9D9E9F9G9H9I9J9K9L9M9N9O9P9Q9R9S9T9U9V9W9X9Y9Z9[9\9]9^9_9`9a9b9c9d9e9f9g9h9i9j9k9l9m9n9o9p9q9r9s9t9u9v9w9x9y9z9{9|9}9~9
-9\t9\n9\v9\f9\r9
-9\v?endRemoveColumns@QAbstractItemModel@@IEAAXXZ
-9f@33333
 9x11
 9x12
-: :!:":#:$:%:&:':(:):*:+:,:-:.:/:0:1:2:3:4:5:6:7:8:9:::;:<:=:>:?:@:A:B:C:D:E:F:G:H:I:J:K:L:M:N:O:P:Q:R:S:T:U:V:W:X:Y:Z:[:\:]:^:_:`:a:b:c:d:e:f:g:h:i:j:k:l:m:n:o:p:q:r:s:t:u:v:w:x:y:z:{:|:}:~:
 :/icons
 :/qt-project.org/styles/commonstyle/images/file-16.png
-:\t:\n:\v:\f:\r:
-:\v?endRemoveRows@QAbstractItemModel@@IEAAXXZ
 :qmemoryfonts/
-; ;!;";#;$;%;&;';(;);*;+;,;-;.;/;0;1;2;3;4;5;6;7;8;9;:;;;<;=;>;?;@;A;B;C;D;E;F;G;H;I;J;K;L;M;N;O;P;Q;R;S;T;U;V;W;X;Y;Z;[;\;];^;_;`;a;b;c;d;e;f;g;h;i;j;k;l;m;n;o;p;q;r;s;t;u;v;w;x;y;z;{;|;};~;
-;\t;\n;\v;\f;\r;
-;\v?endResetModel@QAbstractItemModel@@IEAAXXZ
-< <!<"<#<$<%<&<'<(<)<*<+<,<-<.</<0<1<2<3<4<5<6<7<8<9<:<;<<<=<><?<@<A<B<C<D<E<F<G<H<I<J<K<L<M<N<O<P<Q<R<S<T<U<V<W<X<Y<Z<[<\<]<^<_<`<a<b<c<d<e<f<g<h<i<j<k<l<m<n<o<p<q<r<s<t<u<v<w<x<y<z<{<|<}<~<
 <!--EndFragment-->
 <!--StartFragment-->
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">\n<html><head><meta name="qrichtext" content="1" />
@@ -1400,9 +1288,7 @@ $qt_theme_
 <<\n/Type /XObject\n/Subtype /Form\n/BBox [0 0 
 <<\n/Type /XObject\n/Subtype /Image\n/Width %d\n/Height %d\n
 <?xml
-<@fffffFD@@
 <X0Z
-<\t<\n<\v<\f<\r<
 <a href="
 <a name="
 <img
@@ -1419,17 +1305,9 @@ $qt_theme_
 <title>
 <ul type="circle"
 <ul type="square"
-= =!="=#=$=%=&='=(=)=*=+=,=-=.=/=0=1=2=3=4=5=6=7=8=9=:=;=<===>=?=@=A=B=C=D=E=F=G=H=I=J=K=L=M=N=O=P=Q=R=S=T=U=V=W=X=Y=Z=[=\=]=^=_=`=a=b=c=d=e=f=g=h=i=j=k=l=m=n=o=p=q=r=s=t=u=v=w=x=y=z={=|=}=~=
-=\n?data@QString@@QEAAPEAVQChar@@XZ
-=\t=\n=\v=\f=\r=
-> >!>">#>$>%>&>'>(>)>*>+>,>->.>/>0>1>2>3>4>5>6>7>8>9>:>;><>=>>>?>@>A>B>C>D>E>F>G>H>I>J>K>L>M>N>O>P>Q>R>S>T>U>V>W>X>Y>Z>[>\>]>^>_>`>a>b>c>d>e>f>g>h>i>j>k>l>m>n>o>p>q>r>s>t>u>v>w>x>y>z>{>|>}>~>
 >>\n/Length 
 >>\nendobj\n
 >>\nstream\n
->\n?data@QString@@QEBAPEBVQChar@@XZ
->\t>\n>\v>\f>\r>
->\v?endl@@YAAEAVQTextStream@@AEAV1@@Z
-? ?!?"?#?$?%?&?'?(?)?*?+?,?-?.?/?0?1?2?3?4?5?6?7?8?9?:?;?<?=?>???@?A?B?C?D?E?F?G?H?I?J?K?L?M?N?O?P?Q?R?S?T?U?V?W?X?Y?Z?[?\?]?^?_?`?a?b?c?d?e?f?g?h?i?j?k?l?m?n?o?p?q?r?s?t?u?v?w?x?y?z?{?|?}?~?
 ?333333
 ??0?$QVector@VQPoint@@@@QEAA@AEBV0@@Z
 ??0?$QVector@VQPoint@@@@QEAA@H@Z
@@ -3751,15 +3629,12 @@ $qt_theme_
 ??_FQValidator@@QEAAXXZ
 ??_FQWindow@@QEAAXXZ
 ??_FTouchPoint@QTouchEvent@@QEAAXXZ
-?QPIC
 ?QPixelFormat_createYUV@QtPrivate@@YA?AVQPixelFormat@@W4YUVLayout@2@EW4AlphaUsage@2@W4AlphaPosition@2@W4AlphaPremultiplied@2@W4TypeInterpretation@2@W4ByteOrder@2@@Z
 ?QStringList_contains@QtPrivate@@YA_NPEBVQStringList@@AEBVQString@@W4CaseSensitivity@Qt@@@Z
 ?QStringList_join@QtPrivate@@YA?AVQString@@PEBVQStringList@@PEBVQChar@@H@Z
 ?QStringList_sort@QtPrivate@@YAXPEAVQStringList@@W4CaseSensitivity@Qt@@@Z
 ?UUUUUU
 ?WindowsVersion@QSysInfo@@2W4WinVersion@1@B
-?\f?flush@QFileDevice@@QEAA_NXZ
-?\t?\n?\v?\f?\r?
 ?_Xlength_error@std@@YAXPEBD@Z
 ?_q_clearAlert@QWindowPrivate@@QEAAXXZ
 ?_q_updateFocusObject@QGuiApplicationPrivate@@QEAAXPEAVQObject@@@Z
@@ -4144,7 +4019,6 @@ $qt_theme_
 ?bold@QFont@@QEBA_NXZ
 ?bold@QFontDatabase@@QEBA_NAEBVQString@@0@Z
 ?bold@QFontInfo@@QEBA_NXZ
-?bool __cdecl QOpenGLTextureBlitter::create(void)
 ?boolProperty@QTextFormat@@QEBA_NH@Z
 ?border@QTextFrameFormat@@QEBANXZ
 ?borderBrush@QTextFrameFormat@@QEBA?AVQBrush@@XZ
@@ -4503,15 +4377,29 @@ $qt_theme_
 ?constData@QMatrix4x4@@QEBAPEBMXZ
 ?constData@QString@@QEBAPEBVQChar@@XZ
 ?constData@QVariant@@QEBAPEBXXZ
+?constEnd@QJsonArray@@QEBA?AVconst_iterator@1@XZ
+?constEnd@QString@@QEBAPEBVQChar@@XZ
 ?constScanLine@QDistanceField@@QEBAPEBEH@Z
 ?constScanLine@QImage@@QEBAPEBEH@Z
 ?constraintOrientation@QGridLayoutEngine@@QEBA?AW4Orientation@Qt@@XZ
+?contains@QByteArray@@QEBA_NAEBV1@@Z
+?contains@QByteArray@@QEBA_ND@Z
+?contains@QByteArray@@QEBA_NPEBD@Z
+?contains@QJsonObject@@QEBA_NAEBVQString@@@Z
 ?contains@QPainterPath@@QEBA_NAEBV1@@Z
 ?contains@QPainterPath@@QEBA_NAEBVQPointF@@@Z
 ?contains@QPainterPath@@QEBA_NAEBVQRectF@@@Z
 ?contains@QPathClipper@@QEAA_NXZ
+?contains@QRect@@QEBA_NAEBV1@_N@Z
+?contains@QRect@@QEBA_NAEBVQPoint@@_N@Z
+?contains@QRect@@QEBA_NHH@Z
+?contains@QRectF@@QEBA_NAEBV1@@Z
+?contains@QRectF@@QEBA_NAEBVQPointF@@@Z
 ?contains@QRegion@@QEBA_NAEBVQPoint@@@Z
 ?contains@QRegion@@QEBA_NAEBVQRect@@@Z
+?contains@QString@@QEBA_NAEBV1@W4CaseSensitivity@Qt@@@Z
+?contains@QString@@QEBA_NVQChar@@W4CaseSensitivity@Qt@@@Z
+?contains@QString@@QEBA_NVQLatin1String@@W4CaseSensitivity@Qt@@@Z
 ?contains@QTextBlock@@QEBA_NH@Z
 ?contains@QTextFragment@@QEBA_NH@Z
 ?containsPoint@QPolygon@@QEBA_NAEBVQPoint@@W4FillRule@Qt@@@Z
@@ -4533,6 +4421,8 @@ $qt_theme_
 ?controlType@QLayoutPolicy@@QEBA?AW4ControlType@1@XZ
 ?controlTypes@QGridLayoutEngine@@QEBA?AV?$QFlags@W4ControlType@QLayoutPolicy@@@@W4LayoutSide@@@Z
 ?controlTypes@QGridLayoutItem@@UEBA?AV?$QFlags@W4ControlType@QLayoutPolicy@@@@W4LayoutSide@@@Z
+?convert@QVariant@@QEAA_NH@Z
+?convert@QVariant@@QEBA_NHPEAX@Z
 ?convertFromImage@QPixmap@@QEAA_NAEBVQImage@@V?$QFlags@W4ImageConversionFlag@Qt@@@@@Z
 ?convertFromPlainText@Qt@@YA?AVQString@@AEBV2@W4WhiteSpaceMode@1@@Z
 ?convertInPlace@QImageData@@QEAA_NW4Format@QImage@@V?$QFlags@W4ImageConversionFlag@Qt@@@@@Z
@@ -4559,9 +4449,13 @@ $qt_theme_
 ?copy@QRasterPlatformPixmap@@UEAAXPEBVQPlatformPixmap@@AEBVQRect@@@Z
 ?copy@QRegion@@AEBA?AV1@XZ
 ?copyDataTo@QMatrix4x4@@QEBAXPEAM@Z
+?count@QByteArray@@QEBAHD@Z
+?count@QByteArray@@QEBAHXZ
+?count@QDir@@QEBAIXZ
 ?count@QKeyEvent@@QEBAHXZ
 ?count@QKeySequence@@QEBAHXZ
 ?count@QPlatformTextureList@@QEBAHXZ
+?count@QString@@QEBAHXZ
 ?count@QTextList@@QEBAHXZ
 ?count@QZipReader@@QEBAHXZ
 ?create@PixmapFragment@QPainter@@SA?AV12@AEBVQPointF@@AEBVQRectF@@NNNN@Z
@@ -4570,6 +4464,7 @@ $qt_theme_
 ?create@QGenericPluginFactory@@SAPEAVQObject@@AEBVQString@@0@Z
 ?create@QImageData@@SAPEAU1@AEBVQSize@@W4Format@QImage@@H@Z
 ?create@QImageData@@SAPEAU1@PEAEHHHW4Format@QImage@@_NP6AXPEAX@Z3@Z
+?create@QLocalePrivate@@SAPEAV1@PEBUQLocaleData@@H@Z
 ?create@QOffscreenSurface@@QEAAXXZ
 ?create@QOpenGLBuffer@@QEAA_NXZ
 ?create@QOpenGLContext@@QEAA_NXZ
@@ -4592,6 +4487,7 @@ $qt_theme_
 ?createCache@QTextureGlyphCache@@QEAAXHH@Z
 ?createCompatiblePlatformPixmap@QPlatformPixmap@@UEBAPEAV1@XZ
 ?createCompatiblePlatformPixmap@QRasterPlatformPixmap@@UEBAPEAVQPlatformPixmap@@XZ
+?createData@QMapDataBase@@SAPEAU1@XZ
 ?createDatabase@QFontDatabase@@CAXXZ
 ?createEventDispatcher@QGuiApplicationPrivate@@UEAAXXZ
 ?createExtendedKeyEvent@QKeyEvent@@SAPEAV1@W4Type@QEvent@@HV?$QFlags@W4KeyboardModifier@Qt@@@@IIIAEBVQString@@_NG@Z
@@ -4608,6 +4504,7 @@ $qt_theme_
 ?createMenuItem@QPlatformMenu@@UEBAPEAVQPlatformMenuItem@@XZ
 ?createMultiFontEngine@QFontEngineMulti@@SAPEAVQFontEngine@@PEAV2@H@Z
 ?createNewSequences@QShortcutMap@@AEAAXPEAVQKeyEvent@@AEAV?$QVector@VQKeySequence@@@@@Z
+?createNode@QMapDataBase@@QEAAPEAUQMapNodeBase@@HHPEAU2@_N@Z
 ?createObject@QTextDocument@@MEAAPEAVQTextObject@@AEBVQTextFormat@@@Z
 ?createObjectIndex@QTextFormatCollection@@QEAAHAEBVQTextFormat@@@Z
 ?createPixmapForImage@QRasterPlatformPixmap@@IEAAXAEAVQImage@@V?$QFlags@W4ImageConversionFlag@Qt@@@@_N@Z
@@ -4636,6 +4533,8 @@ $qt_theme_
 ?createThirdPartyMessage@QOpenGLDebugMessage@@SA?AV1@AEBVQString@@IW4Severity@1@W4Type@1@@Z
 ?creationPermissions@QZipWriter@@QEBA?AV?$QFlags@W4Permission@QFileDevice@@@@XZ
 ?creator@QPdfWriter@@QEBA?AVQString@@XZ
+?critical@QMessageLogger@@QEBA?AVQDebug@@XZ
+?critical@QMessageLogger@@QEBAXPEBDZZ
 ?crossProduct@QVector3D@@SA?AV1@AEBV1@0@Z
 ?cubicTo@QPainterPath@@QEAAXAEBVQPointF@@00@Z
 ?cubicTo@QPainterPath@@QEAAXNNNNNN@Z
@@ -4650,6 +4549,7 @@ $qt_theme_
 ?currentColorGroup@QPalette@@QEBA?AW4ColorGroup@1@XZ
 ?currentContext@QOpenGLContext@@SAPEAV1@XZ
 ?currentContextGroup@QOpenGLContextGroup@@SAPEAV1@XZ
+?currentDateTime@QDateTime@@SA?AV1@XZ
 ?currentDrag@QPlatformDrag@@QEBAPEAVQDrag@@XZ
 ?currentFontChanged@QPlatformFontDialogHelper@@QEAAXAEBVQFont@@@Z
 ?currentFrame@QTextCursor@@QEBAPEAVQTextFrame@@XZ
@@ -4669,6 +4569,7 @@ $qt_theme_
 ?currentProgram@QOpenGLEngineShaderManager@@QEAAPEAVQOpenGLShaderProgram@@XZ
 ?currentTable@QTextCursor@@QEBAPEAVQTextTable@@XZ
 ?currentTarget@QDragManager@@QEBAPEAVQObject@@XZ
+?currentThread@QThread@@SAPEAV1@XZ
 ?cursor@QPlatformScreen@@UEBAPEAVQPlatformCursor@@XZ
 ?cursor@QWindow@@QEBA?AVQCursor@@XZ
 ?cursorFlashTime@QStyleHints@@QEBAHXZ
@@ -4687,6 +4588,7 @@ $qt_theme_
 ?customColor@QColorDialogOptions@@SAIH@Z
 ?customColorCount@QColorDialogOptions@@SAHXZ
 ?customColors@QColorDialogOptions@@SAPEAIXZ
+?customEvent@QObject@@MEAAXPEAVQEvent@@@Z
 ?cyan@QColor@@QEBAHXZ
 ?cyanF@QColor@@QEBANXZ
 ?d_func@QAbstractOpenGLFunctions@@QEAAPEAVQAbstractOpenGLFunctionsPrivate@@XZ
@@ -4697,6 +4599,7 @@ $qt_theme_
 ?d_func@QBlittable@@AEBAPEBVQBlittablePrivate@@XZ
 ?d_func@QBlitterPaintEngine@@AEAAPEAVQBlitterPaintEnginePrivate@@XZ
 ?d_func@QBlitterPaintEngine@@AEBAPEBVQBlitterPaintEnginePrivate@@XZ
+?d_func@QCoreApplication@@AEAAPEAVQCoreApplicationPrivate@@XZ
 ?d_func@QDoubleValidator@@AEAAPEAVQDoubleValidatorPrivate@@XZ
 ?d_func@QDoubleValidator@@AEBAPEBVQDoubleValidatorPrivate@@XZ
 ?d_func@QDrag@@AEAAPEAVQDragPrivate@@XZ
@@ -4831,14 +4734,24 @@ $qt_theme_
 ?dashPattern@QDashStroker@@QEBA?AV?$QVector@N@@XZ
 ?dashPattern@QPainterPathStroker@@QEBA?AV?$QVector@N@@XZ
 ?dashPattern@QPen@@QEBA?AV?$QVector@N@@XZ
+?data@?$QVector@VQPoint@@@@QEAAPEAVQPoint@@XZ
+?data@?$QVector@VQPointF@@@@QEAAPEAVQPointF@@XZ
+?data@QArrayData@@QEAAPEAXXZ
+?data@QArrayData@@QEBAPEBXXZ
+?data@QBuffer@@QEBAAEBVQByteArray@@XZ
+?data@QByteArray@@QEAAPEADXZ
 ?data@QMatrix4x4@@QEAAPEAMXZ
 ?data@QMatrix4x4@@QEBAPEBMXZ
+?data@QMimeData@@QEBA?AVQByteArray@@AEBVQString@@@Z
 ?data@QPicture@@QEBAPEBDXZ
 ?data@QPlatformGraphicsBuffer@@UEAAPEAEXZ
 ?data@QPlatformGraphicsBuffer@@UEBAPEBEXZ
 ?data@QStandardItem@@UEBA?AVQVariant@@H@Z
 ?data@QStandardItemModel@@UEBA?AVQVariant@@AEBVQModelIndex@@H@Z
+?data@QString@@QEAAPEAVQChar@@XZ
+?data@QString@@QEBAPEBVQChar@@XZ
 ?data@QVertexIndexVector@@QEBAPEBXXZ
+?dataChanged@QAbstractItemModel@@QEAAXAEBVQModelIndex@@0AEBV?$QVector@H@@@Z
 ?dataChanged@QClipboard@@QEAAXXZ
 ?data_ptr@QBrush@@QEAAAEAV?$QScopedPointer@UQBrushData@@UQBrushDataPointerDeleter@@@@XZ
 ?data_ptr@QIcon@@QEAAAEAPEAVQIconPrivate@@XZ
@@ -4847,12 +4760,24 @@ $qt_theme_
 ?data_ptr@QPen@@QEAAAEAPEAVQPenPrivate@@XZ
 ?data_ptr@QPicture@@QEAAAEAV?$QExplicitlySharedDataPointer@VQPicturePrivate@@@@XZ
 ?data_ptr@QPixmap@@QEAAAEAV?$QExplicitlySharedDataPointer@VQPlatformPixmap@@@@XZ
+?data_ptr@QVariant@@QEAAAEAUPrivate@1@XZ
+?data_ptr@QVariant@@QEBAAEBUPrivate@1@XZ
+?date@QDateTime@@QEBA?AVQDate@@XZ
+?day@QDate@@QEBAHXZ
 ?dd@QPagedPaintDevice@@IEAAPEAVQPagedPaintDevicePrivate@@XZ
+?deallocate@QArrayData@@SAXPEAU1@_K1@Z
+?debug@QMessageLogger@@QEBA?AVQDebug@@XZ
+?debug@QMessageLogger@@QEBAXPEBDZZ
+?dec@@YAAEAVQTextStream@@AEAV1@@Z
 ?decideFormatFromContent@QImageReader@@QEBA_NXZ
 ?decimals@QDoubleValidator@@QEBAHXZ
 ?decimalsChanged@QDoubleValidator@@QEAAXH@Z
 ?declarationsForNode@StyleSelector@QCss@@QEAA?AV?$QVector@UDeclaration@QCss@@@@TNodePtr@12@PEBD@Z
+?decodeName@QFile@@SA?AVQString@@AEBVQByteArray@@@Z
 ?decodeString@QKeySequence@@CAHAEBVQString@@@Z
+?decomposition@QChar@@SA?AVQString@@I@Z
+?decompositionTag@QChar@@QEBA?AW4Decomposition@1@XZ
+?decompositionTag@QChar@@SA?AW4Decomposition@1@I@Z
 ?decreaseAction@QAccessibleActionInterface@@SAAEBVQString@@XZ
 ?defaultAction@QDrag@@QEBA?AW4DropAction@Qt@@XZ
 ?defaultAction@QPlatformDrag@@UEBA?AW4DropAction@Qt@@V?$QFlags@W4DropAction@Qt@@@@V?$QFlags@W4KeyboardModifier@Qt@@@@@Z
@@ -4886,6 +4811,7 @@ $qt_theme_
 ?deleteChar@QTextCursor@@QEAAXXZ
 ?deleteInterface@QAccessibleCache@@QEAAXIPEAVQObject@@@Z
 ?deleteItems@QGridLayoutEngine@@QEAAXXZ
+?deleteLater@QObject@@QEAAXXZ
 ?deletePendingResources@QOpenGLContextGroupPrivate@@QEAAXPEAVQOpenGLContext@@@Z
 ?deletePreviousChar@QTextCursor@@QEAAXXZ
 ?deleteQGLContext@QOpenGLContext@@AEAAXXZ
@@ -4923,12 +4849,14 @@ $qt_theme_
 ?destroy@QPlatformIntegration@@UEAAXXZ
 ?destroy@QWindow@@QEAAXXZ
 ?destroyScreen@QPlatformIntegration@@IEAAXPEAVQPlatformScreen@@@Z
+?destroyed@QObject@@QEAAXPEAV1@@Z
 ?det@QTransform@@QEBANXZ
 ?detach@QBrush@@AEAAXW4BrushStyle@Qt@@@Z
 ?detach@QFont@@AEAAXXZ
 ?detach@QGlyphRun@@AEAAXXZ
 ?detach@QIcon@@QEAAXXZ
 ?detach@QImage@@QEAAXXZ
+?detach@QListData@@QEAAPEAUData@1@H@Z
 ?detach@QOpenGLFramebufferObjectFormat@@AEAAXXZ
 ?detach@QPainterPath@@AEAAXXZ
 ?detach@QPalette@@AEAAXXZ
@@ -4940,6 +4868,8 @@ $qt_theme_
 ?detach@QSupportedWritingSystems@@AEAAXXZ
 ?detach@QSurfaceFormat@@AEAAXXZ
 ?detachButKeepEngineData@QFontPrivate@@SAXPEAVQFont@@@Z
+?detach_grow@QListData@@QEAAPEAUData@1@PEAHH@Z
+?detach_helper@QHashData@@QEAAPEAU1@P6AXPEAUNode@1@PEAX@ZP6AX0@ZHH@Z
 ?detach_helper@QPainterPath@@AEAAXXZ
 ?detailedText@QMessageDialogOptions@@QEBA?AVQString@@XZ
 ?determinant@QMatrix4x4@@QEBANXZ
@@ -4950,6 +4880,7 @@ $qt_theme_
 ?devType@QPaintDevice@@UEBAHXZ
 ?devType@QPicture@@UEBAHXZ
 ?devType@QPixmap@@UEBAHXZ
+?device@QDataStream@@QEBAPEAVQIODevice@@XZ
 ?device@QImageIOHandler@@QEBAPEAVQIODevice@@XZ
 ?device@QImageReader@@QEBAPEAVQIODevice@@XZ
 ?device@QImageWriter@@QEBAPEAVQIODevice@@XZ
@@ -4979,6 +4910,7 @@ $qt_theme_
 ?deviceTransform@QPainter@@QEBAAEBVQTransform@@XZ
 ?deviceType@QTouchEvent@@QEBA?AW4DeviceType@1@XZ
 ?devices@QTouchDevice@@SA?AV?$QList@PEBVQTouchDevice@@@@XZ
+?direction@QChar@@SA?AW4Direction@1@I@Z
 ?directoryEntered@QPlatformFileDialogHelper@@QEAAXAEBVQUrl@@@Z
 ?disableAttributeArray@QOpenGLShaderProgram@@QEAAXH@Z
 ?disableAttributeArray@QOpenGLShaderProgram@@QEAAXPEBD@Z
@@ -4987,11 +4919,16 @@ $qt_theme_
 ?disableMessages@QOpenGLDebugLogger@@QEAAXV?$QFlags@W4Source@QOpenGLDebugMessage@@@@V?$QFlags@W4Type@QOpenGLDebugMessage@@@@V?$QFlags@W4Severity@QOpenGLDebugMessage@@@@@Z
 ?discardCommand@QPlatformSessionManager@@UEBA?AVQStringList@@XZ
 ?discardCommand@QSessionManager@@QEBA?AVQStringList@@XZ
+?disconnect@QObject@@SA_NPEBV1@PEBD01@Z
 ?disconnectFromScreen@QWindowPrivate@@QEAAXXZ
+?disconnectNotify@QBuffer@@MEAAXAEBVQMetaMethod@@@Z
+?disconnectNotify@QObject@@MEAAXAEBVQMetaMethod@@@Z
 ?dismiss@QPlatformMenu@@UEAAXXZ
 ?dispatchEvent@QShortcutMap@@AEAAXPEAVQKeyEvent@@@Z
 ?displayName@QDesktopServices@@SA?AVQString@@W4StandardLocation@1@@Z
 ?displayName@QGuiApplicationPrivate@@2PEAVQString@@EA
+?displayName@QStandardPaths@@SA?AVQString@@W4StandardLocation@1@@Z
+?dispose@QListData@@SAXPEAUData@1@@Z
 ?distanceToLine@QVector2D@@QEBAMAEBV1@0@Z
 ?distanceToLine@QVector3D@@QEBAMAEBV1@0@Z
 ?distanceToPlane@QVector3D@@QEBAMAEBV1@00@Z
@@ -5237,19 +5174,25 @@ $qt_theme_
 ?drop@QBasicDrag@@MEAAXPEBVQMouseEvent@@@Z
 ?drop@QSimpleDrag@@MEAAXPEBVQMouseEvent@@@Z
 ?dropAction@QDropEvent@@QEBA?AW4DropAction@Qt@@XZ
+?dropMimeData@QAbstractItemModel@@UEAA_NPEBVQMimeData@@W4DropAction@Qt@@HHAEBVQModelIndex@@@Z
 ?dropMimeData@QStandardItemModel@@UEAA_NPEBVQMimeData@@W4DropAction@Qt@@HHAEBVQModelIndex@@@Z
+?dx@QLineF@@QEBANXZ
 ?dx@QMatrix@@QEBANXZ
 ?dx@QTransform@@QEBANXZ
+?dy@QLineF@@QEBANXZ
 ?dy@QMatrix@@QEBANXZ
 ?dy@QTransform@@QEBANXZ
 ?dynamicConstraintOrientation@QGridLayoutItem@@UEBA?AW4Orientation@Qt@@XZ
 ?dynamicDocumentSize@QTextDocumentLayout@@QEBA?AVQSizeF@@XZ
+?dynamicMetaObject@QObjectData@@QEBAPEAUQMetaObject@@XZ
 ?dynamicPageCount@QTextDocumentLayout@@QEBAHXZ
 ?editableTextInterface@QAccessibleInterface@@QEAAPEAVQAccessibleEditableTextInterface@@XZ
 ?effectiveAlignment@QGridLayoutEngine@@QEBA?AV?$QFlags@W4AlignmentFlag@Qt@@@@PEBVQGridLayoutItem@@@Z
 ?effectiveFirstRow@QGridLayoutEngine@@QEBAHW4Orientation@Qt@@@Z
 ?effectiveLastRow@QGridLayoutEngine@@QEBAHW4Orientation@Qt@@@Z
 ?effectiveMaxSize@QGridLayoutItem@@QEBA?AVQSizeF@@AEBV2@@Z
+?elapsed@QElapsedTimer@@QEBA_JXZ
+?elapsed@QTime@@QEBAHXZ
 ?elementAt@QPainterPath@@QEBA?AVElement@1@H@Z
 ?elementCount@QDashedStrokeProcessor@@QEBAHXZ
 ?elementCount@QPainterPath@@QEBAHXZ
@@ -5287,14 +5230,21 @@ $qt_theme_
 ?enableEventFilter@QBasicDrag@@AEAAXXZ
 ?enableMessages@QOpenGLDebugLogger@@QEAAXAEBV?$QVector@I@@V?$QFlags@W4Source@QOpenGLDebugMessage@@@@V?$QFlags@W4Type@QOpenGLDebugMessage@@@@@Z
 ?enableMessages@QOpenGLDebugLogger@@QEAAXV?$QFlags@W4Source@QOpenGLDebugMessage@@@@V?$QFlags@W4Type@QOpenGLDebugMessage@@@@V?$QFlags@W4Severity@QOpenGLDebugMessage@@@@@Z
+?encodeName@QFile@@SA?AVQByteArray@@AEBVQString@@@Z
 ?encodeString@QKeySequence@@CA?AVQString@@H@Z
+?end@?$QVector@VQPoint@@@@QEBAPEBVQPoint@@XZ
 ?end@QBlitterPaintEngine@@UEAA_NXZ
+?end@QByteArray@@QEBAPEBDXZ
 ?end@QDashStroker@@UEAAXXZ
+?end@QListData@@QEBAPEAPEAXXZ
 ?end@QOpenGL2PaintEngineEx@@UEAA_NXZ
 ?end@QOpenGLTimerQuery@@QEAAXXZ
 ?end@QPainter@@QEAA_NXZ
 ?end@QPdfEngine@@UEAA_NXZ
 ?end@QRasterPaintEngine@@UEAA_NXZ
+?end@QSequentialIterable@@QEBA?AUconst_iterator@1@XZ
+?end@QString@@QEAAPEAVQChar@@XZ
+?end@QString@@QEBAPEBVQChar@@XZ
 ?end@QStrokerOps@@UEAAXXZ
 ?end@QTextBlock@@QEBA?AViterator@1@XZ
 ?end@QTextDocument@@QEBA?AVQTextBlock@@XZ
@@ -5304,6 +5254,8 @@ $qt_theme_
 ?endCapOrJoinClosed@QTriangulatingStroker@@AEAAXPEBN0_N1@Z
 ?endDrag@QBasicDrag@@MEAAXXZ
 ?endEditBlock@QTextCursor@@QEAAXXZ
+?endInsertColumns@QAbstractItemModel@@IEAAXXZ
+?endInsertRows@QAbstractItemModel@@IEAAXXZ
 ?endLayout@QTextLayout@@QEAAXXZ
 ?endNativePainting@QOpenGL2PaintEngineEx@@UEAAXXZ
 ?endNativePainting@QPaintEngineEx@@UEAAXXZ
@@ -5313,7 +5265,15 @@ $qt_theme_
 ?endPaint@QOpenGLPaintDevicePrivate@@UEAAXXZ
 ?endPaint@QPaintDeviceWindowPrivate@@UEAAXXZ
 ?endPaint@QPlatformBackingStore@@UEAAXXZ
+?endRemoveColumns@QAbstractItemModel@@IEAAXXZ
+?endRemoveRows@QAbstractItemModel@@IEAAXXZ
+?endResetModel@QAbstractItemModel@@IEAAXXZ
 ?endTangent@QBezier@@QEBA?AVQLineF@@XZ
+?endl@@YAAEAVQTextStream@@AEAV1@@Z
+?endsWith@QByteArray@@QEBA_ND@Z
+?endsWith@QString@@QEBA_NAEBV1@W4CaseSensitivity@Qt@@@Z
+?endsWith@QString@@QEBA_NVQChar@@W4CaseSensitivity@Qt@@@Z
+?endsWith@QString@@QEBA_NVQLatin1String@@W4CaseSensitivity@Qt@@@Z
 ?engine@QFontEngineMulti@@QEBAPEAVQFontEngine@@H@Z
 ?engine@QTextLayout@@QEBAPEAVQTextEngine@@XZ
 ?engineForScript@QFontPrivate@@QEBAPEAVQFontEngine@@H@Z
@@ -5337,29 +5297,43 @@ $qt_theme_
 ?ensureRasterState@QRasterPaintEngine@@AEAAXXZ
 ?ensureSpace@QTextEngine@@QEBA_NH@Z
 ?entryInfoAt@QZipReader@@QEBA?AUFileInfo@1@H@Z
+?enumerator@QMetaObject@@QEBA?AVQMetaEnum@@H@Z
 ?eor@QRegion@@QEBA?AV1@AEBV1@@Z
 ?equals@Gpu@QOpenGLConfig@@QEBA_NAEBU12@@Z
+?erase@QListData@@QEAAPEAPEAXPEAPEAX@Z
 ?eraseRect@QPainter@@QEAAXAEBVQRect@@@Z
 ?eraseRect@QPainter@@QEAAXAEBVQRectF@@@Z
 ?eraseRect@QPainter@@QEAAXHHHH@Z
+?error@QFileDevice@@QEBA?AW4FileError@1@XZ
 ?error@QImageReader@@QEBA?AW4ImageReaderError@1@XZ
 ?error@QImageWriter@@QEBA?AW4ImageWriterError@1@XZ
 ?error@QMovie@@QEAAXW4ImageReaderError@QImageReader@@@Z
+?errorString@QIODevice@@QEBA?AVQString@@XZ
 ?errorString@QImageReader@@QEBA?AVQString@@XZ
 ?errorString@QImageWriter@@QEBA?AVQString@@XZ
+?errorString@QJsonParseError@@QEBA?AVQString@@XZ
+?errorString@QLibrary@@QEBA?AVQString@@XZ
 ?errorSymbol@Parser@QCss@@QEAA?AUSymbol@2@XZ
+?event@QCoreApplication@@MEAA_NPEAVQEvent@@@Z
+?event@QEventLoop@@UEAA_NPEAVQEvent@@@Z
 ?event@QGuiApplication@@MEAA_NPEAVQEvent@@@Z
+?event@QObject@@UEAA_NPEAVQEvent@@@Z
 ?event@QPaintDeviceWindow@@MEAA_NPEAVQEvent@@@Z
 ?event@QWindow@@MEAA_NPEAVQEvent@@@Z
+?eventDispatcher@QCoreApplicationPrivate@@2PEAVQAbstractEventDispatcher@@EA
 ?eventDispatcherReady@QGuiApplicationPrivate@@UEAAXXZ
 ?eventFilter@QBasicDrag@@UEAA_NPEAVQObject@@PEAVQEvent@@@Z
+?eventFilter@QObject@@UEAA_NPEAV1@PEAVQEvent@@@Z
 ?eventReceiver@QWindowPrivate@@UEAAPEAVQWindow@@XZ
 ?eventTime@QWindowSystemInterfacePrivate@@2VQElapsedTimer@@A
 ?eventsFlushed@QWindowSystemInterfacePrivate@@2VQWaitCondition@@A
 ?exactMatch@QFont@@QEBA_NXZ
 ?exactMatch@QFontInfo@@QEBA_NXZ
+?exactMatch@QRegExp@@QEBA_NAEBVQString@@@Z
+?exec@QCoreApplication@@SAHXZ
 ?exec@QDrag@@QEAA?AW4DropAction@Qt@@V?$QFlags@W4DropAction@Qt@@@@@Z
 ?exec@QDrag@@QEAA?AW4DropAction@Qt@@V?$QFlags@W4DropAction@Qt@@@@W423@@Z
+?exec@QEventLoop@@QEAAHV?$QFlags@W4ProcessEventsFlag@QEventLoop@@@@@Z
 ?exec@QGuiApplication@@SAHXZ
 ?exec@QPicture@@AEAA_NPEAVQPainter@@AEAVQDataStream@@H@Z
 ?exec@QRegion@@AEAAXAEBVQByteArray@@HW4ByteOrder@QDataStream@@@Z
@@ -5367,9 +5341,15 @@ $qt_theme_
 ?executePlatformPixmapDestructionHooks@QImagePixmapCleanupHooks@@SAXPEAVQPlatformPixmap@@@Z
 ?executePlatformPixmapModificationHooks@QImagePixmapCleanupHooks@@SAXPEAVQPlatformPixmap@@@Z
 ?executedDropAction@QBasicDrag@@IEBA?AW4DropAction@Qt@@XZ
+?exists@QDir@@QEBA_NAEBVQString@@@Z
+?exists@QFile@@QEBA_NXZ
+?exists@QFile@@SA_NAEBVQString@@@Z
+?exists@QFileInfo@@QEBA_NXZ
 ?exists@QZipReader@@QEBA_NXZ
 ?exists@QZipWriter@@QEBA_NXZ
+?exit@QEventLoop@@QEAAXH@Z
 ?exitDndEventLoop@QBasicDrag@@AEAAXXZ
+?expandedTo@QSize@@QEBA?AV1@AEBV1@@Z
 ?expandingDirections@QLayoutPolicy@@QEBA?AV?$QFlags@W4Orientation@Qt@@@@XZ
 ?exposeEvent@QPaintDeviceWindow@@MEAAXPEAVQExposeEvent@@@Z
 ?exposeEvent@QWindow@@MEAAXPEAVQExposeEvent@@@Z
@@ -5398,20 +5378,26 @@ $qt_theme_
 ?family@QFont@@QEBA?AVQString@@XZ
 ?family@QFontInfo@@QEBA?AVQString@@XZ
 ?familyName@QRawFont@@QEBA?AVQString@@XZ
+?fatal@QMessageLogger@@QEBAXPEBDZZ
+?fetchMore@QAbstractItemModel@@UEAAXAEBVQModelIndex@@@Z
 ?ffffff
 ?file@QFileOpenEvent@@QEBA?AVQString@@XZ
 ?fileData@QZipReader@@QEBA?AVQByteArray@@AEBVQString@@@Z
 ?fileIconPixmap@QPlatformTheme@@UEBA?AVQPixmap@@AEBVQFileInfo@@AEBVQSizeF@@V?$QFlags@W4IconOption@QPlatformTheme@@@@@Z
 ?fileInfoList@QZipReader@@QEBA?AV?$QList@UFileInfo@QZipReader@@@@XZ
 ?fileMode@QFileDialogOptions@@QEBA?AW4FileMode@1@XZ
+?fileName@QFile@@UEBA?AVQString@@XZ
 ?fileName@QImageReader@@QEBA?AVQString@@XZ
 ?fileName@QImageWriter@@QEBA?AVQString@@XZ
 ?fileName@QMovie@@QEBA?AVQString@@XZ
 ?fileName@QPictureIO@@QEBA?AVQString@@XZ
+?fileName@QTemporaryFile@@UEBA?AVQString@@XZ
 ?fileName@QTextDocumentWriter@@QEBA?AVQString@@XZ
+?filePath@QDir@@QEBA?AVQString@@AEBV2@@Z
 ?filePath@QWindow@@QEBA?AVQString@@XZ
 ?fileSelected@QPlatformFileDialogHelper@@QEAAXAEBVQUrl@@@Z
 ?filesSelected@QPlatformFileDialogHelper@@QEAAXAEBV?$QList@VQUrl@@@@@Z
+?fill@QBitArray@@QEAA_N_NH@Z
 ?fill@QBlittablePlatformPixmap@@UEAAXAEBVQColor@@@Z
 ?fill@QBlitterPaintEngine@@UEAAXAEBVQVectorPath@@AEBVQBrush@@@Z
 ?fill@QImage@@QEAAXAEBVQColor@@@Z
@@ -5481,6 +5467,8 @@ $qt_theme_
 ?findItems@QStandardItemModel@@QEBA?AV?$QList@PEAVQStandardItem@@@@AEBVQString@@V?$QFlags@W4MatchFlag@Qt@@@@H@Z
 ?findProgramInCache@QOpenGLEngineSharedShaders@@QEAAPEAVQOpenGLEngineShaderProg@@AEBV2@@Z
 ?finished@QMovie@@QEAAXXZ
+?first@?$QVector@VQPointF@@@@QEAAAEAVQPointF@@XZ
+?first@?$QVector@VQPointF@@@@QEBAAEBVQPointF@@XZ
 ?firstBlock@QTextDocument@@QEBA?AVQTextBlock@@XZ
 ?firstColumn@QAccessibleTableModelChangeEvent@@QEBAHXZ
 ?firstColumn@QGridLayoutItem@@QEBAHW4Orientation@Qt@@@Z
@@ -5488,6 +5476,7 @@ $qt_theme_
 ?firstCursorPosition@QTextFrame@@QEBA?AVQTextCursor@@XZ
 ?firstCursorPosition@QTextTableCell@@QEBA?AVQTextCursor@@XZ
 ?firstLineNumber@QTextBlock@@QEBAHXZ
+?firstNode@QHashData@@QEAAPEAUNode@1@XZ
 ?firstPosition@QTextFrame@@QEBAHXZ
 ?firstPosition@QTextTableCell@@QEBAHXZ
 ?firstRow@QAccessibleTableModelChangeEvent@@QEBAHXZ
@@ -5509,6 +5498,7 @@ $qt_theme_
 ?flags@TouchPoint@QTouchEvent@@QEBA?AV?$QFlags@W4InfoFlag@TouchPoint@QTouchEvent@@@@XZ
 ?flipCoordinates@QMatrix4x4@@QEAAXXZ
 ?flush@QBackingStore@@QEAAXAEBVQRegion@@PEAVQWindow@@AEBVQPoint@@@Z
+?flush@QFileDevice@@QEAA_NXZ
 ?flush@QPaintDeviceWindowPrivate@@UEAAXAEBVQRegion@@@Z
 ?flushDetachedPixmaps@QPixmapCache@@SAXXZ
 ?flushEventMutex@QWindowSystemInterfacePrivate@@2VQMutex@@A
@@ -5604,6 +5594,7 @@ $qt_theme_
 ?formatIndex@QTextObject@@QEBAHXZ
 ?formatWindowTitle@QPlatformWindow@@KA?AVQString@@AEBV2@0@Z
 ?formats@QInternalMimeData@@UEBA?AVQStringList@@XZ
+?formats@QMimeData@@UEBA?AVQStringList@@XZ
 ?formats@QTextEngine@@QEBA?AV?$QList@UFormatRange@QTextLayout@@@@XZ
 ?formatsHelper@QInternalMimeData@@SA?AVQStringList@@PEBVQMimeData@@@Z
 ?fragment@iterator@QTextBlock@@QEBA?AVQTextFragment@@XZ
@@ -5621,9 +5612,14 @@ $qt_theme_
 ?frameStrutEventsEnabled@QPlatformWindow@@UEBA_NXZ
 ?frameSwapped@QOpenGLWindow@@QEAAXXZ
 ?free@QOpenGLSharedResource@@QEAAXXZ
+?freeData@QMapDataBase@@SAXPEAU1@@Z
 ?freeMemory@QTextEngine@@QEAAXXZ
+?freeNode@QHashData@@QEAAXPEAX@Z
+?freeNodeAndRebalance@QMapDataBase@@QEAAXPEAUQMapNodeBase@@@Z
 ?freeResource@QOpenGLSharedResourceGuard@@MEAAXPEAVQOpenGLContext@@@Z
 ?freeResource@QOpenGLTextureCache@@UEAAXPEAVQOpenGLContext@@@Z
+?freeTree@QMapDataBase@@QEAAXPEAUQMapNodeBase@@H@Z
+?free_helper@QHashData@@QEAAXP6AXPEAUNode@1@@Z@Z
 ?fromAxes@QQuaternion@@SA?AV1@AEBVQVector3D@@00@Z
 ?fromAxisAndAngle@QQuaternion@@SA?AV1@AEBVQVector3D@@M@Z
 ?fromAxisAndAngle@QQuaternion@@SA?AV1@MMMM@Z
@@ -5659,8 +5655,17 @@ $qt_theme_
 ?fromImageReader@QPixmap@@SA?AV1@PEAVQImageReader@@V?$QFlags@W4ImageConversionFlag@Qt@@@@@Z
 ?fromImageReader@QPlatformPixmap@@UEAAXPEAVQImageReader@@V?$QFlags@W4ImageConversionFlag@Qt@@@@@Z
 ?fromImageReader@QRasterPlatformPixmap@@UEAAXPEAVQImageReader@@V?$QFlags@W4ImageConversionFlag@Qt@@@@@Z
+?fromJson@QJsonDocument@@SA?AV1@AEBVQByteArray@@PEAUQJsonParseError@@@Z
+?fromLatin1@QString@@SA?AV1@AEBVQByteArray@@@Z
+?fromLatin1@QString@@SA?AV1@PEBDH@Z
+?fromLocal8Bit@QString@@SA?AV1@AEBVQByteArray@@@Z
+?fromLocal8Bit@QString@@SA?AV1@PEBDH@Z
+?fromLocalFile@QUrl@@SA?AV1@AEBVQString@@@Z
+?fromNativeSeparators@QDir@@SA?AVQString@@AEBV2@@Z
 ?fromPlainText@QTextDocumentFragment@@SA?AV1@AEBVQString@@@Z
 ?fromPoints@QBezier@@SA?AV1@AEBVQPointF@@000@Z
+?fromRawData@QByteArray@@SA?AV1@PEBDH@Z
+?fromRawData@QString@@SA?AV1@PEBVQChar@@H@Z
 ?fromRgb@QColor@@SA?AV1@HHHH@Z
 ?fromRgb@QColor@@SA?AV1@I@Z
 ?fromRgbF@QColor@@SA?AV1@NNNN@Z
@@ -5669,8 +5674,12 @@ $qt_theme_
 ?fromScale@QTransform@@SA?AV1@NN@Z
 ?fromString@QFont@@QEAA_NAEBVQString@@@Z
 ?fromString@QKeySequence@@SA?AV1@AEBVQString@@W4SequenceFormat@1@@Z
+?fromString@QVersionNumber@@SA?AV1@AEBVQString@@PEAH@Z
 ?fromTheme@QIcon@@SA?AV1@AEBVQString@@AEBV1@@Z
 ?fromTranslate@QTransform@@SA?AV1@NN@Z
+?fromUcs4@QString@@SA?AV1@PEBIH@Z
+?fromUtf8@QString@@SA?AV1@AEBVQByteArray@@@Z
+?fromUtf8@QString@@SA?AV1@PEBDH@Z
 ?fromWinId@QWindow@@SAPEAV1@_K@Z
 ?frustum@QMatrix4x4@@QEAAXMMMMMM@Z
 ?fullRect@QPageLayout@@QEBA?AVQRectF@@W4Unit@1@@Z
@@ -5697,15 +5706,19 @@ $qt_theme_
 ?gestureType@QNativeGestureEvent@@QEBA?AW4NativeGestureType@Qt@@XZ
 ?get@QFontPrivate@@SAPEAV1@AEBVQFont@@@Z
 ?get@QInputDeviceManagerPrivate@@SAPEAV1@PEAVQInputDeviceManager@@@Z
+?get@QObjectPrivate@@SAPEAV1@PEAVQObject@@@Z
 ?get@QOpenGLContextPrivate@@SAPEAV1@PEAVQOpenGLContext@@@Z
 ?get@QOpenGLPaintDevicePrivate@@SAPEAV1@PEAVQOpenGLPaintDevice@@@Z
 ?get@QPagedPaintDevicePrivate@@SAPEAV1@PEAVQPagedPaintDevice@@@Z
 ?get@QRawFontPrivate@@SAPEAV1@AEBVQRawFont@@@Z
+?get@QThreadStorageData@@QEBAPEAPEAXXZ
 ?get@QWindowPrivate@@SAPEAV1@PEAVQWindow@@@Z
+?getAndRef@ExternalRefCountData@QtSharedPointer@@SAPEAU12@PEBVQObject@@@Z
 ?getAxes@QQuaternion@@QEBAXPEAVQVector3D@@00@Z
 ?getAxisAndAngle@QQuaternion@@QEBAXPEAM000@Z
 ?getAxisAndAngle@QQuaternion@@QEBAXPEAVQVector3D@@PEAM@Z
 ?getCMap@QFontEngine@@SAPEBEPEBEIPEA_NPEAH@Z
+?getChar@QIODevice@@QEAA_NPEAD@Z
 ?getClusterLength@QTextEngine@@AEAAHPEAGPEBUQCharAttributes@@HHHPEAH@Z
 ?getCmyk@QColor@@QEAAXPEAH0000@Z
 ?getCmykF@QColor@@QEAAXPEAN0000@Z
@@ -21056,12 +21069,16 @@ $qt_theme_
 ?hasFeature@QOpenGLTexture@@SA_NW4Feature@1@@Z
 ?hasFeature@QPaintEngine@@QEBA_NV?$QFlags@W4PaintEngineFeature@QPaintEngine@@@@@Z
 ?hasFormat@QInternalMimeData@@UEBA_NAEBVQString@@@Z
+?hasFormat@QMimeData@@UEBA_NAEBVQString@@@Z
 ?hasFormatCached@QTextFormatCollection@@QEBA_NAEBVQTextFormat@@@Z
 ?hasFormatHelper@QInternalMimeData@@SA_NAEBVQString@@PEBVQMimeData@@@Z
 ?hasFormats@QTextEngine@@QEBA_NXZ
+?hasFragment@QUrl@@QEBA_NXZ
 ?hasHeightForWidth@QLayoutPolicy@@QEBA_NXZ
+?hasImage@QMimeData@@QEBA_NXZ
 ?hasImplicitClose@QVectorPath@@QEBA_NXZ
 ?hasInternalCaching@QFontEngine@@UEBA_NXZ
+?hasMatch@QRegularExpressionMatch@@QEBA_NXZ
 ?hasNext@Parser@QCss@@QEBA_NXZ
 ?hasOpenGLExtension@QOpenGLExtensions@@QEBA_NW4OpenGLExtension@1@@Z
 ?hasOpenGLFeature@QOpenGLFunctions@@QEBA_NW4OpenGLFeature@1@@Z
@@ -21069,11 +21086,14 @@ $qt_theme_
 ?hasOpenGLFramebufferObjects@QOpenGLFramebufferObject@@SA_NXZ
 ?hasOpenGLShaderPrograms@QOpenGLShaderProgram@@SA_NPEAVQOpenGLContext@@@Z
 ?hasOpenGLShaders@QOpenGLShader@@SA_NV?$QFlags@W4ShaderTypeBit@QOpenGLShader@@@@PEAVQOpenGLContext@@@Z
+?hasPartialMatch@QRegularExpressionMatch@@QEBA_NXZ
 ?hasPendingGlyphs@QTextureGlyphCache@@QEBA_NXZ
 ?hasProfiles@QOpenGLVersionProfile@@QEBA_NXZ
 ?hasProperty@QTextFormat@@QEBA_NH@Z
+?hasRegisteredConverterFunction@QMetaType@@SA_NHH@Z
 ?hasSelection@QTextCursor@@QEBA_NXZ
 ?hasShortcutForKeySequence@QShortcutMap@@QEBA_NAEBVQKeySequence@@@Z
+?hasShrunk@QHashData@@QEAAXXZ
 ?hasStaticContents@QBackingStore@@QEBA_NXZ
 ?hasThemeIcon@QIcon@@SA_NAEBVQString@@@Z
 ?hasUnreliableGlyphOutline@QFontEngine@@UEBA_NXZ
@@ -21087,7 +21107,9 @@ $qt_theme_
 ?hb_qt_get_unicode_funcs@@YAPEAUhb_unicode_funcs_t@@XZ
 ?hb_qt_script_from_script@@YA?AW4Script@QChar@@W4hb_script_t@@@Z
 ?hb_qt_script_to_script@@YA?AW4hb_script_t@@W4Script@QChar@@@Z
+?headerData@QAbstractItemModel@@UEBA?AVQVariant@@HW4Orientation@Qt@@H@Z
 ?headerData@QStandardItemModel@@UEBA?AVQVariant@@HW4Orientation@Qt@@H@Z
+?headerDataChanged@QAbstractItemModel@@QEAAXW4Orientation@Qt@@HH@Z
 ?headerRowCount@QTextTableFormat@@QEBAHXZ
 ?height@QDistanceField@@QEBAHXZ
 ?height@QFontMetrics@@QEBAHXZ
@@ -21099,6 +21121,10 @@ $qt_theme_
 ?height@QPaintDevice@@QEBAHXZ
 ?height@QPixmap@@QEBAHXZ
 ?height@QPlatformPixmap@@QEBAHXZ
+?height@QRect@@QEBAHXZ
+?height@QRectF@@QEBANXZ
+?height@QSize@@QEBAHXZ
+?height@QSizeF@@QEBANXZ
 ?height@QTextFrameFormat@@QEBA?AVQTextLength@@XZ
 ?height@QTextImageFormat@@QEBANXZ
 ?height@QTextInlineObject@@QEBANXZ
@@ -21106,6 +21132,7 @@ $qt_theme_
 ?height@QWindow@@QEBAHXZ
 ?heightChanged@QWindow@@QEAAXH@Z
 ?heightMM@QPaintDevice@@QEBAHXZ
+?hex@@YAAEAVQTextStream@@AEAV1@@Z
 ?hiResGlobalPos@QTabletEvent@@QEBAAEBVQPointF@@XZ
 ?hiResGlobalX@QTabletEvent@@QEBANXZ
 ?hiResGlobalY@QTabletEvent@@QEBANXZ
@@ -21114,6 +21141,7 @@ $qt_theme_
 ?hideEvent@QWindow@@MEAAXPEAVQHideEvent@@@Z
 ?hideInputPanel@QPlatformInputContext@@UEAAXXZ
 ?hideModalWindow@QGuiApplicationPrivate@@SAXPEAVQWindow@@@Z
+?highSurrogate@QChar@@SAGI@Z
 ?highlight@QPalette@@QEBAAEBVQBrush@@XZ
 ?highlightedText@QPalette@@QEBAAEBVQBrush@@XZ
 ?hintingPreference@QFont@@QEBA?AW4HintingPreference@1@XZ
@@ -21128,6 +21156,7 @@ $qt_theme_
 ?hotSpot@QCursor@@QEBA?AVQPoint@@XZ
 ?hotSpot@QDrag@@QEBA?AVQPoint@@XZ
 ?hotspot@QPlatformCursorImage@@QEBA?AVQPoint@@XZ
+?hour@QTime@@QEBAHXZ
 ?hovered@QPlatformMenuItem@@QEAAXXZ
 ?href@QWhatsThisClickedEvent@@QEBA?AVQString@@XZ
 ?hslHue@QColor@@QEBAHXZ
@@ -21156,12 +21185,14 @@ $qt_theme_
 ?idealWidth@QTextDocumentLayout@@QEBANXZ
 ?ignore@QDragMoveEvent@@QEAAXAEBVQRect@@@Z
 ?ignore@QDragMoveEvent@@QEAAXXZ
+?ignore@QEvent@@QEAAXXZ
 ?image@QClipboard@@QEBA?AVQImage@@W4Mode@1@@Z
 ?image@QImageTextureGlyphCache@@QEBAAEBVQImage@@XZ
 ?image@QPlatformCursorImage@@QEAAPEAVQImage@@XZ
 ?image@QTextImageHandler@@QEAA?AVQImage@@PEAVQTextDocument@@AEBVQTextImageFormat@@@Z
 ?imageCount@QImageIOHandler@@UEBAHXZ
 ?imageCount@QImageReader@@QEBAHXZ
+?imageData@QMimeData@@QEBA?AVQVariant@@XZ
 ?imageFormat@QImageReader@@QEBA?AW4Format@QImage@@XZ
 ?imageFormat@QImageReader@@SA?AVQByteArray@@AEBVQString@@@Z
 ?imageFormat@QImageReader@@SA?AVQByteArray@@PEAVQIODevice@@@Z
@@ -21181,8 +21212,19 @@ $qt_theme_
 ?indexForFormat@QTextFormatCollection@@QEAAHAEBVQTextFormat@@@Z
 ?indexFormats@QTextEngine@@AEAAXXZ
 ?indexFromItem@QStandardItemModel@@QEBA?AVQModelIndex@@PEBVQStandardItem@@@Z
+?indexIn@QRegExp@@QEBAHAEBVQString@@HW4CaretMode@1@@Z
+?indexOf@QByteArray@@QEBAHDH@Z
+?indexOf@QByteArray@@QEBAHPEBDH@Z
+?indexOf@QFactoryLoader@@QEBAHAEBVQString@@@Z
+?indexOf@QString@@QEBAHAEBV1@HW4CaseSensitivity@Qt@@@Z
+?indexOf@QString@@QEBAHAEBVQRegularExpression@@HPEAVQRegularExpressionMatch@@@Z
+?indexOf@QString@@QEBAHVQChar@@HW4CaseSensitivity@Qt@@@Z
+?indexOf@QString@@QEBAHVQLatin1String@@HW4CaseSensitivity@Qt@@@Z
 ?indexOfChild@QAccessibleApplication@@UEBAHPEBVQAccessibleInterface@@@Z
+?indexOfEnumerator@QMetaObject@@QEBAHPEBD@Z
+?indexOfMethod@QMetaObject@@QEBAHPEBD@Z
 ?informativeText@QMessageDialogOptions@@QEBA?AVQString@@XZ
+?inherits@QObject@@QEBA_NPEBD@Z
 ?init@Parser@QCss@@QEAAXAEBVQString@@_N@Z
 ?init@QBrush@@AEAAXAEBVQColor@@W4BrushStyle@Qt@@@Z
 ?init@QGuiApplicationPrivate@@AEAAXXZ
@@ -21193,8 +21235,10 @@ $qt_theme_
 ?init@QRasterPaintEngine@@AEAAXXZ
 ?init@QTextEngine@@CAXPEAV1@@Z
 ?init@QWindowPrivate@@QEAAXXZ
+?initCharAttributes@QUnicodeTools@@YAXPEBGHPEBUScriptItem@1@HPEAUQCharAttributes@@V?$QFlags@W4CharAttributeOption@QUnicodeTools@@@@@Z
 ?initFrom@QPainter@@QEAAXPEBVQPaintDevice@@@Z
 ?initPainter@QPaintDevice@@MEBAXPEAVQPainter@@@Z
+?initScripts@QUnicodeTools@@YAXPEBGHPEAE@Z
 ?initialDirectory@QFileDialogOptions@@QEBA?AVQUrl@@XZ
 ?initialGeometry@QPlatformWindow@@SA?AVQRect@@PEBVQWindow@@AEBV2@HH@Z
 ?initialize@QFont@@SAXXZ
@@ -21248,14 +21292,19 @@ $qt_theme_
 ?inputItemTransform@QInputMethod@@QEBA?AVQTransform@@XZ
 ?inputMethod@QGuiApplication@@SAPEAVQInputMethod@@XZ
 ?inputMethodAccepted@QPlatformInputContext@@QEBA_NXZ
+?insert@?$QVector@VQPointF@@@@QEAAXHAEBVQPointF@@@Z
 ?insert@QAccessibleCache@@QEBAIPEAVQObject@@PEAVQAccessibleInterface@@@Z
+?insert@QByteArray@@QEAAAEAV1@HD@Z
+?insert@QListData@@QEAAPEAPEAXH@Z
 ?insert@QOpenGLMultiGroupSharedResource@@QEAAXPEAVQOpenGLContext@@PEAVQOpenGLSharedResource@@@Z
 ?insert@QPixmapCache@@SA?AVKey@1@AEBVQPixmap@@@Z
 ?insert@QPixmapCache@@SA_NAEBVQString@@AEBVQPixmap@@@Z
+?insert@QString@@QEAAAEAV1@HAEBV1@@Z
 ?insertBlock@QTextCursor@@QEAAXAEBVQTextBlockFormat@@@Z
 ?insertBlock@QTextCursor@@QEAAXAEBVQTextBlockFormat@@AEBVQTextCharFormat@@@Z
 ?insertBlock@QTextCursor@@QEAAXXZ
 ?insertBlock@QTextCursorPrivate@@QEAAXAEBVQTextBlockFormat@@AEBVQTextCharFormat@@@Z
+?insertColumn@QAbstractItemModel@@QEAA_NHAEBVQModelIndex@@@Z
 ?insertColumn@QStandardItem@@QEAAXHAEBV?$QList@PEAVQStandardItem@@@@@Z
 ?insertColumn@QStandardItemModel@@QEAAXHAEBV?$QList@PEAVQStandardItem@@@@@Z
 ?insertColumn@QStandardItemModel@@QEAA_NHAEBVQModelIndex@@@Z
@@ -21276,6 +21325,7 @@ $qt_theme_
 ?insertList@QTextCursor@@QEAAPEAVQTextList@@W4Style@QTextListFormat@@@Z
 ?insertOrRemoveRows@QGridLayoutEngine@@AEAAXHHW4Orientation@Qt@@@Z
 ?insertOrRemoveRows@QGridLayoutItem@@QEAAXHHW4Orientation@Qt@@@Z
+?insertRow@QAbstractItemModel@@QEAA_NHAEBVQModelIndex@@@Z
 ?insertRow@QGridLayoutEngine@@QEAAXHW4Orientation@Qt@@@Z
 ?insertRow@QStandardItem@@QEAAXHAEBV?$QList@PEAVQStandardItem@@@@@Z
 ?insertRow@QStandardItem@@QEAAXHPEAV1@@Z
@@ -21294,10 +21344,13 @@ $qt_theme_
 ?insertText@QTextCursor@@QEAAXAEBVQString@@AEBVQTextCharFormat@@@Z
 ?insertionPointsForLine@QTextEngine@@QEAAXHAEAV?$QVector@H@@@Z
 ?installActivationObserver@QAccessible@@SAXPEAVActivationObserver@1@@Z
+?installEventFilter@QObject@@QEAAXPEAV1@@Z
 ?installFactory@QAccessible@@SAXP6APEAVQAccessibleInterface@@AEBVQString@@PEAVQObject@@@Z@Z
 ?installRootObjectHandler@QAccessible@@SAP6AXPEAVQObject@@@ZP6AX0@Z@Z
 ?installUpdateHandler@QAccessible@@SAP6AXPEAVQAccessibleEvent@@@ZP6AX0@Z@Z
 ?instance@QAccessibleCache@@SAPEAV1@XZ
+?instance@QCoreApplication@@SAPEAV1@XZ
+?instance@QFactoryLoader@@QEBAPEAVQObject@@H@Z
 ?instance@QGuiApplicationPrivate@@SAPEAV1@XZ
 ?instance@QIconLoader@@SAPEAV1@XZ
 ?instance@QImagePixmapCleanupHooks@@SAPEAV1@XZ
@@ -21310,6 +21363,7 @@ $qt_theme_
 ?internalGridRowCount@QGridLayoutEngine@@AEBAHXZ
 ?internalTextureFormat@QOpenGLFramebufferObjectFormat@@QEBAIXZ
 ?interpolationMode@QGradient@@QEBA?AW4InterpolationMode@1@XZ
+?intersect@QLineF@@QEBA?AW4IntersectType@1@AEBV1@PEAVQPointF@@@Z
 ?intersect@QPathClipper@@QEAA_NXZ
 ?intersect@QPathClipper@@SA?AVQPainterPath@@AEBV2@AEBVQRectF@@@Z
 ?intersect@QRegion@@QEBA?AV1@AEBV1@@Z
@@ -21317,10 +21371,14 @@ $qt_theme_
 ?intersected@QPainterPath@@QEBA?AV1@AEBV1@@Z
 ?intersected@QPolygon@@QEBA?AV1@AEBV1@@Z
 ?intersected@QPolygonF@@QEBA?AV1@AEBV1@@Z
+?intersected@QRect@@QEBA?AV1@AEBV1@@Z
+?intersected@QRectF@@QEBA?AV1@AEBV1@@Z
 ?intersected@QRegion@@QEBA?AV1@AEBV1@@Z
 ?intersected@QRegion@@QEBA?AV1@AEBVQRect@@@Z
 ?intersects@QPainterPath@@QEBA_NAEBV1@@Z
 ?intersects@QPainterPath@@QEBA_NAEBVQRectF@@@Z
+?intersects@QRect@@QEBA_NAEBV1@@Z
+?intersects@QRectF@@QEBA_NAEBV1@@Z
 ?intersects@QRegion@@QEBA_NAEBV1@@Z
 ?intersects@QRegion@@QEBA_NAEBVQRect@@@Z
 ?intrinsicSize@QTextImageHandler@@UEAA?AVQSizeF@@PEAVQTextDocument@@HAEBVQTextFormat@@@Z
@@ -21331,6 +21389,7 @@ $qt_theme_
 ?invalidate@QPlatformFontDatabase@@UEAAXXZ
 ?invalidate@QTextEngine@@QEAAXXZ
 ?invalidateKey@QIconLoader@@QEAAXXZ
+?invalidatePersistentIndex@QAbstractItemModelPrivate@@QEAAXAEBVQModelIndex@@@Z
 ?invalidateResource@QOpenGLSharedResourceGuard@@MEAAXXZ
 ?invalidateResource@QOpenGLTextureCache@@UEAAXXZ
 ?invalidateState@QOpenGL2PaintEngineEx@@QEAAXXZ
@@ -21341,11 +21400,16 @@ $qt_theme_
 ?inverted@QQuaternion@@QEBA?AV1@XZ
 ?inverted@QTransform@@QEBA?AV1@PEA_N@Z
 ?invisibleRootItem@QStandardItemModel@@QEBAPEAVQStandardItem@@XZ
+?invoke@QMetaMethod@@QEBA_NPEAVQObject@@W4ConnectionType@Qt@@VQGenericReturnArgument@@VQGenericArgument@@333333333@Z
 ?invokeAction@QInputMethod@@QEAAXW4Action@1@H@Z
 ?invokeAction@QPlatformInputContext@@UEAAXW4Action@QInputMethod@@H@Z
+?invokeMethod@QMetaObject@@SA_NPEAVQObject@@PEBDW4ConnectionType@Qt@@VQGenericArgument@@333333333@Z
+?invokeMethod@QMetaObject@@SA_NPEAVQObject@@PEBDW4ConnectionType@Qt@@VQGenericReturnArgument@@VQGenericArgument@@444444444@Z
 ?ioDevice@QPictureIO@@QEBAPEAVQIODevice@@XZ
+?isAccepted@QEvent@@QEBA_NXZ
 ?isAccepted@QPlatformDropQtResponse@@QEBA_NXZ
 ?isActive@QAccessible@@SA_NXZ
+?isActive@QBasicTimer@@QEBA_NXZ
 ?isActive@QPaintEngine@@QEBA_NXZ
 ?isActive@QPainter@@QEBA_NXZ
 ?isActive@QPlatformAccessibility@@QEBA_NXZ
@@ -21411,6 +21475,7 @@ $qt_theme_
 ?isCreated@QOpenGLTimerQuery@@QEBA_NXZ
 ?isCreated@QOpenGLVertexArrayObject@@QEBA_NXZ
 ?isCurved@QVectorPath@@QEBA_NXZ
+?isDebugBuild@QLibraryInfo@@SA_NXZ
 ?isDetached@QBrush@@QEBA_NXZ
 ?isDetached@QIcon@@QEBA_NXZ
 ?isDetached@QImage@@QEBA_NXZ
@@ -22337,7 +22402,6 @@ $qt_theme_
 ?openMode@QIODevice@@QEBA?AV?$QFlags@W4OpenModeFlag@QIODevice@@@@XZ
 ?openUrl@QDesktopServices@@SA_NAEBVQUrl@@@Z
 ?openUrl@QPlatformServices@@UEAA_NAEBVQUrl@@@Z
-?opengl32.dll
 ?optimiseForBrushTransform@QOpenGLEngineShaderManager@@QEAAXW4TransformationType@QTransform@@@Z
 ?optimize@QMatrix4x4@@QEAAXXZ
 ?optimizedWrite@QImageWriter@@QEBA_NXZ
@@ -25876,19 +25940,8 @@ $qt_theme_
 ?z@QTabletEvent@@QEBAHXZ
 ?z@QVector3D@@QEBAMXZ
 ?z@QVector4D@@QEBAMXZ
-@ @!@"@#@$@%@&@'@(@)@*@+@,@-@.@/@0@1@2@3@4@5@6@7@8@9@:@;@<@=@>@?@@@A@B@C@D@E@F@G@H@I@J@K@L@M@N@O@P@Q@R@S@T@U@V@W@X@Y@Z@[@\@]@^@_@`@a@b@c@d@e@f@g@h@i@j@k@l@m@n@o@p@q@r@s@t@u@v@w@x@y@z@{@|@}@~@
-@0Z6
-@33333
 @@@@````pppp
-@@``ppxx||~~
-@DropAction
-@QZip: Zip entry format at %d is not supported.
-@\t@\n@\v@\f@\r@
-@fffffFD@)\
-@ffffff @ 
-@ffffff(@@
 @ltuo
-A A!A"A#A$A%A&A'A(A)A*A+A,A-A.A/A0A1A2A3A4A5A6A7A8A9A:A;A<A=A>A?A@AAABACADAEAFAGAHAIAJAKALAMANAOAPAQARASATAUAVAWAXAYAZA[A\A]A^A_A`AaAbAcAdAeAfAgAhAiAjAkAlAmAnAoApAqArAsAtAuAvAwAxAyAzA{A|A}A~A
 A current OpenGL context is required to create timer query objects
 A3 Extra
 A3Extra
@@ -25914,8 +25967,6 @@ ARCHB
 ARCHC
 ARCHD
 ARCHE
-A\r?indexOf@QByteArray@@QEBAHDH@Z
-A\tA\nA\vA\fA\rA
 AaBbzZ
 Aacute
 Abort
@@ -25981,15 +26032,11 @@ Audio Repeat
 Auml
 AutomaticVisibility
 Away
-B B!B"B#B$B%B&B'B(B)B*B+B,B-B.B/B0B1B2B3B4B5B6B7B8B9B:B;B<B=B>B?B@BABBBCBDBEBFBGBHBIBJBKBLBMBNBOBPBQBRBSBTBUBVBWBXBYBZB[B\B]B^B_B`BaBbBcBdBeBfBgBhBiBjBkBlBmBnBoBpBqBrBsBtBuBvBwBxByBzB{B|B}B~B
-B#C0D?EQFeG|H
 B5 Extra
 BDiagPattern
 BLOB
 BUFFER
 BUSGSOPG    
-B\r?indexOf@QByteArray@@QEBAHPEBDH@Z
-B\tB\nB\vB\fB\rB
 Back
 Back Forward
 Background
@@ -26027,11 +26074,7 @@ ButtonDropDown
 ButtonDropGrid
 ButtonMenu
 ButtonText
-Bx\r9
-C C!C"C#C$C%C&C'C(C)C*C+C,C-C.C/C0C1C2C3C4C5C6C7C8C9C:C;C<C=C>C?C@CACBCCCDCECFCGCHCICJCKCLCMCNCOCPCQCRCSCTCUCVCWCXCYCZC[C\C]C^C_C`CaCbCcCdCeCfCgChCiCjCkClCmCnCoCpCqCrCsCtCuCvCwCxCyCzC{C|C}C~C
 CRC error
-C\r?indexOf@QFactoryLoader@@QEBAHAEBVQString@@@Z
-C\tC\nC\vC\fC\rC
 CacheAll
 CacheMode
 CacheNone
@@ -26127,14 +26170,8 @@ Custom (%1pt x %2pt)
 Custom shader is already set on a painter
 CustomDashLine
 Cyrillic
-D D!D"D#D$D%D&D'D(D)D*D+D,D-D.D/D0D1D2D3D4D5D6D7D8D9D:D;D<D=D>D?D@DADBDCDDDEDFDGDHDIDJDKDLDMDNDODPDQDRDSDTDUDVDWDXDYDZD[D\D]D^D_D`DaDbDcDdDeDfDgDhDiDjDkDlDmDnDoDpDqDrDsDtDuDvDwDxDyDzD{D|D}D~D
 D:\qt5\qtbase\lib\Qt5Gui.pdb
-DDDDUUUU
 DENIED
-D\f?formats@QMimeData@@UEBA?AVQStringList@@XZ
-D\n?dataChanged@QAbstractItemModel@@QEAAXAEBVQModelIndex@@0AEBV?$QVector@H@@@Z
-D\tD\nD\vD\fD\rD
-D\v?endsWith@QByteArray@@QEBA_ND@Z
 Dagger
 Dark
 DashDotDotLine
@@ -26197,12 +26234,9 @@ DragDropStart
 DrawIconEx
 DrawTextItemDevice::metric: Invalid metric command
 Driver version must be of type object.
-E E!E"E#E$E%E&E'E(E)E*E+E,E-E.E/E0E1E2E3E4E5E6E7E8E9E:E;E<E=E>E?E@EAEBECEDEEEFEGEHEIEJEKELEMENEOEPEQERESETEUEVEWEXEYEZE[E\E]E^E_E`EaEbEcEdEeEfEgEhEiEjEkElEmEnEoEpEqErEsEtEuEvEwExEyEzE{E|E}E~E
-E=FZGrH
+DropAction
 EMC\n
 EXT_texture_storage
-E\r?indexOf@QString@@QEBAHAEBV1@HW4CaseSensitivity@Qt@@@Z
-E\tE\nE\vE\fE\rE
 Eacute
 Ebreve
 Ecaron
@@ -26316,10 +26350,7 @@ Extra
 Extra Bold
 Extra Light
 Extra compressed data
-F F!F"F#F$F%F&F'F(F)F*F+F,F-F.F/F0F1F2F3F4F5F6F7F8F9F:F;F<F=F>F?F@FAFBFCFDFEFFFGFHFIFJFKFLFMFNFOFPFQFRFSFTFUFVFWFXFYFZF[F\F]F^F_F`FaFbFcFdFeFfFgFhFiFjFkFlFmFnFoFpFqFrFsFtFuFvFwFxFyFzF{F|F}F~F
 FDiagPattern
-F\tF\nF\vF\fF\rF
-F\v?endsWith@QString@@QEBA_NAEBV1@W4CaseSensitivity@Qt@@@Z
 Failed to bind SW graphcisbuffer to texture
 Failed to bind graphicsbuffer to texture
 Failed to load libGLESv2
@@ -26393,8 +26424,6 @@ FrameTopMargin
 FrameWidth
 FullScreen
 FullWidthSelection
-G G!G"G#G$G%G&G'G(G)G*G+G,G-G.G/G0G1G2G3G4G5G6G7G8G9G:G;G<G=G>G?G@GAGBGCGDGEGFGGGHGIGJGKGLGMGNGOGPGQGRGSGTGUGVGWGXGYGZG[G\G]G^G_G`GaGbGcGdGeGfGgGhGiGjGkGlGmGnGoGpGqGrGsGtGuGvGwGxGyGzG{G|G}G~G
-G4@H
 GDI32.dll
 GL_ANGLE_framebuffer_blit
 GL_ANGLE_framebuffer_multisample
@@ -26464,7 +26493,6 @@ GL_OES_texture_npot
 GL_OES_vertex_array_object
 GL_SGIS_generate_mipmap
 GRANTED
-G\tG\nG\vG\fG\rG
 Game
 Gamma
 Gbreve
@@ -26498,7 +26526,6 @@ Grouping
 Guide
 Gujarati
 Gurmukhi
-H H!H"H#H$H%H&H'H(H)H*H+H,H-H.H/H0H1H2H3H4H5H6H7H8H9H:H;H<H=H>H?H@HAHBHCHDHEHFHGHHHIHJHKHLHMHNHOHPHQHRHSHTHUHVHWHXHYHZH[H\H]H^H_H`HaHbHcHdHeHfHgHhHiHjHkHlHmHnHoHpHqHrHsHtHuHvHwHxHyHzH{H|H}H~H
 H18533
 H18543
 H18551
@@ -26506,9 +26533,6 @@ H22073
 HB_OPTIONS
 HB_SHAPER_LIST
 HTML
-H\r?indexOf@QString@@QEBAHAEBVQRegularExpression@@HPEAVQRegularExpressionMatch@@@Z
-H\tH\nH\vH\fH\rH
-H\v?endsWith@QString@@QEBA_NVQChar@@W4CaseSensitivity@Qt@@@Z
 Hangul
 Hangul Banja
 Hangul End
@@ -26554,7 +26578,6 @@ HypertextChanged
 HypertextLinkActivated
 HypertextLinkSelected
 HypertextNLinksChanged
-I I!I"I#I$I%I&I'I(I)I*I+I,I-I.I/I0I1I2I3I4I5I6I7I8I9I:I;I<I=I>I?I@IAIBICIDIEIFIGIHIIIJIKILIMINIOIPIQIRISITIUIVIWIXIYIZI[I\I]I^I_I`IaIbIcIdIeIfIgIhIiIjIkIlImInIoIpIqIrIsItIuIvIwIxIyIzI{I|I}I~I
 ICC profile length invalid (not a multiple of 4)
 ICC profile tag outside profile
 ICC profile tag start not a multiple of 4
@@ -26572,8 +26595,6 @@ ISOB6
 ISOB7
 ISOB8
 ISOB9
-I\tI\nI\vI\fI\rI
-I\v?endsWith@QString@@QEBA_NVQLatin1String@@W4CaseSensitivity@Qt@@@Z
 Iacute
 Ibreve
 Icirc
@@ -26672,7 +26693,6 @@ IsProcessorFeaturePresent
 Italic
 Itilde
 Iuml
-J J!J"J#J$J%J&J'J(J)J*J+J,J-J.J/J0J1J2J3J4J5J6J7J8J9J:J;J<J=J>J?J@JAJBJCJDJEJFJGJHJIJJJKJLJMJNJOJPJQJRJSJTJUJVJWJXJYJZJ[J\J]J^J_J`JaJbJcJdJeJfJgJhJiJjJkJlJmJnJoJpJqJrJsJtJuJvJwJxJyJzJ{J|J}J~J
 JIS B0
 JIS B1
 JIS B10
@@ -26684,15 +26704,9 @@ JIS B6
 JIS B7
 JIS B8
 JIS B9
-J\r?indexOf@QString@@QEBAHVQChar@@HW4CaseSensitivity@Qt@@@Z
-J\tJ\nJ\vJ\fJ\rJ
 Japanese
 Jcircumflex
-K K!K"K#K$K%K&K'K(K)K*K+K,K-K.K/K0K1K2K3K4K5K6K7K8K9K:K;K<K=K>K?K@KAKBKCKDKEKFKGKHKIKJKKKLKMKNKOKPKQKRKSKTKUKVKWKXKYKZK[K\K]K^K_K`KaKbKcKdKeKfKgKhKiKjKkKlKmKnKoKpKqKrKsKtKuKvKwKxKyKzK{K|K}K~K
 KERNEL32.dll
-K\n?data_ptr@QVariant@@QEAAAEAUPrivate@1@XZ
-K\r?indexOf@QString@@QEBAHVQLatin1String@@HW4CaseSensitivity@Qt@@@Z
-K\tK\nK\vK\fK\rK
 Kana Lock
 Kana Shift
 Kanji
@@ -26706,10 +26720,6 @@ Keyboard Menu
 KeyboardModifiers
 Khmer
 Korean
-L L!L"L#L$L%L&L'L(L)L*L+L,L-L.L/L0L1L2L3L4L5L6L7L8L9L:L;L<L=L>L?L@LALBLCLDLELFLGLHLILJLKLLLMLNLOLPLQLRLSLTLULVLWLXLYLZL[L\L]L^L_L`LaLbLcLdLeLfLgLhLiLjLkLlLmLnLoLpLqLrLsLtLuLvLwLxLyLzL{L|L}L~L
-L\f?freeData@QMapDataBase@@SAXPEAU1@@Z
-L\n?data_ptr@QVariant@@QEBAAEBUPrivate@1@XZ
-L\tL\nL\vL\fL\rL
 Lacute
 Lambda
 Last Number Redial
@@ -26777,14 +26787,9 @@ LoggingMode
 LogicalMode
 Logoff
 Lslash
-M M!M"M#M$M%M&M'M(M)M*M+M,M-M.M/M0M1M2M3M4M5M6M7M8M9M:M;M<M=M>M?M@MAMBMCMDMEMFMGMHMIMJMKMLMMMNMOMPMQMRMSMTMUMVMWMXMYMZM[M\M]M^M_M`MaMbMcMdMeMfMgMhMiMjMkMlMmMnMoMpMqMrMsMtMuMvMwMxMyMzM{M|M}M~M
 META-INF/manifest.xml
 MNG features are not allowed in a PNG datastream
 MSVCP140.dll
-M\f?freeNode@QHashData@@QEAAXPEAX@Z
-M\n?date@QDateTime@@QEBA?AVQDate@@XZ
-M\t?count@QByteArray@@QEBAHD@Z
-M\tM\nM\vM\fM\rM
 Mail Forward
 Make sure to deploy Qt with accessibility plugins.
 Malayalam
@@ -26853,17 +26858,13 @@ Must construct a QGuiApplication before accessing a platform theme hint.
 Must construct a QGuiApplication first.
 My Sites
 Myanmar
-N N!N"N#N$N%N&N'N(N)N*N+N,N-N.N/N0N1N2N3N4N5N6N7N8N9N:N;N<N=N>N?N@NANBNCNDNENFNGNHNINJNKNLNMNNNONPNQNRNSNTNUNVNWNXNYNZN[N\N]N^N_N`NaNbNcNdNeNfNgNhNiNjNkNlNmNnNoNpNqNrNsNtNuNvNwNxNyNzN{N|N}N~N
 N&o to All
 N'Ko
-N9OaP
 NColorGroups
 NColorRoles
 NETSCAPE2.0
 NULL row buffer
 NVIDIA
-N\f?freeNodeAndRebalance@QMapDataBase@@QEAAXPEAUQMapNodeBase@@@Z
-N\tN\nN\vN\fN\rN
 Nacute
 NameChanged
 NativeGestureType
@@ -26898,14 +26899,10 @@ Ntilde
 Num Lock
 NumLock
 Number Lock
-O O!O"O#O$O%O&O'O(O)O*O+O,O-O.O/O0O1O2O3O4O5O6O7O8O9O:O;O<O=O>O?O@OAOBOCODOEOFOGOHOIOJOKOLOMONOOOPOQOROSOTOUOVOWOXOYOZO[O\O]O^O_O`OaObOcOdOeOfOgOhOiOjOkOlOmOnOoOpOqOrOsOtOuOvOwOxOyOzO{O|O}O~O
 OElig
 OPENGL32.dll
 OUT-OF-RANGE
 OVERFLOWS
-O\f?freeTree@QMapDataBase@@QEAAXPEAUQMapNodeBase@@H@Z
-O\t?count@QByteArray@@QEBAHXZ
-O\tO\nO\vO\fO\rO
 Oacute
 ObjectAttributeChanged
 ObjectBoundingMode
@@ -26945,7 +26942,6 @@ Otilde
 Ouml
 Out of memory
 OutlinePen
-P P!P"P#P$P%P&P'P(P)P*P+P,P-P.P/P0P1P2P3P4P5P6P7P8P9P:P;P<P=P>P?P@PAPBPCPDPEPFPGPHPIPJPKPLPMPNPOPPPQPRPSPTPUPVPWPXPYPZP[P\P]P^P_P`PaPbPcPdPePfPgPhPiPjPkPlPmPnPoPpPqPrPsPtPuPvPwPxPyPzP{P|P}P~P
 PCS illuminant is not D50
 PNG file corrupted by ASCII conversion
 PNG unsigned integer out of range
@@ -26957,9 +26953,6 @@ PRC 32K Big
 PRC16K
 PRC32K
 PRC32KBig
-P\f?free_helper@QHashData@@QEAAXP6AXPEAUNode@1@@Z@Z
-P\t?count@QDir@@QEBAIXZ
-P\tP\nP\vP\fP\rP
 PadSpread
 Page Down
 Page Up
@@ -27016,7 +27009,6 @@ Property
 PropertyPage
 Puck
 PushButton
-Q Q!Q"Q#Q$Q%Q&Q'Q(Q)Q*Q+Q,Q-Q.Q/Q0Q1Q2Q3Q4Q5Q6Q7Q8Q9Q:Q;Q<Q=Q>Q?Q@QAQBQCQDQEQFQGQHQIQJQKQLQMQNQOQPQQQRQSQTQUQVQWQXQYQZQ[Q\Q]Q^Q_Q`QaQbQcQdQeQfQgQhQiQjQkQlQmQnQoQpQqQrQsQtQuQvQwQxQyQzQ{Q|Q}Q~Q
 QAbstractOpenGLTexture::setMipLevels(): This texture target does not support mipmaps
 QAbstractOpenGLTexture::setSize(): Cube map textures must be square
 QAbstractTextDocumentLayout
@@ -27280,6 +27272,7 @@ QOpenGLWindow: PartialUpdateBlend does not support multisampling
 QOpenGLWindow::beginPaint: Failed to create context
 QOpenGLWindow::beginPaint: Failed to make context current
 QOpenUrlHandlerRegistry
+QPIC
 QPMCache
 QPageLayout()
 QPageSize
@@ -27566,11 +27559,10 @@ QZip: Unsupported encryption method is needed to extract the data.
 QZip: Z_DATA_ERROR: Input data is corrupted
 QZip: Z_MEM_ERROR: Not enough memory
 QZip: Z_MEM_ERROR: Not enough memory to compress file, skipping
+QZip: Zip entry format at %d is not supported.
 QZip: failed to parse zip file.
 QZip: invalid header signature, index may be incomplete
 QZip: not a zip file!
-Q\n?day@QDate@@QEBAHXZ
-Q\tQ\nQ\vQ\fQ\rQ
 Qt 5.5.0
 Qt4CompatiblePainting
 Qt5Core.dll
@@ -27589,13 +27581,9 @@ QtMetaTypePrivate::QSequentialIterableImpl
 Quarto
 QueryPerformanceCounter
 Quit
-QyReSOT5U
-R R!R"R#R$R%R&R'R(R)R*R+R,R-R.R/R0R1R2R3R4R5R6R7R8R9R:R;R<R=R>R?R@RARBRCRDRERFRGRHRIRJRKRLRMRNRORPRQRRRSRTRURVRWRXRYRZR[R\R]R^R_R`RaRbRcRdReRfRgRhRiRjRkRlRmRnRoRpRqRrRsRtRuRvRwRxRyRzR{R|R}R~R
 R@ffffff
 RAN OUT OF ROOM
 RGB color space not permitted on grayscale PNG
-RSDS
-R\tR\nR\vR\fR\rR
 Racute
 RadialGradient
 RadialGradientPattern
@@ -27640,7 +27628,6 @@ RtlLookupFunctionEntry
 RtlVirtualUnwind
 Runic
 Running
-S S!S"S#S$S%S&S'S(S)S*S+S,S-S.S/S0S1S2S3S4S5S6S7S8S9S:S;S<S=S>S?S@SASBSCSDSESFSGSHSISJSKSLSMSNSOSPSQSRSSSTSUSVSWSXSYSZS[S\S]S^S_S`SaSbScSdSeSfSgShSiSjSkSlSmSnSoSpSqSrSsStSuSvSwSxSySzS{S|S}S~S
 SANITIZE
 SCN\n
 SERIALIZE
@@ -27685,7 +27672,6 @@ SF520000
 SF530000
 SF540000
 SHAPE_PLAN
-S\tS\nS\vS\fS\rS
 Sacute
 Sans
 Save
@@ -27791,9 +27777,7 @@ SysReq
 System Request
 SystemFont
 SystemParametersInfoW
-T T!T"T#T$T%T&T'T(T)T*T+T,T-T.T/T0T1T2T3T4T5T6T7T8T9T:T;T<T=T>T?T@TATBTCTDTETFTGTHTITJTKTLTMTNTOTPTQTRTSTTTUTVTWTXTYTZT[T\T]T^T_T`TaTbTcTdTeTfTgThTiTjTkTlTmTnToTpTqTrTsTtTuTvTwTxTyTzT{T|T}T~T
 THORN
-T\tT\nT\vT\fT\rT
 TabPositions
 Table
 TableCaptionChanged
@@ -27916,15 +27900,11 @@ TxScale
 TxShear
 TxTranslate
 Type
-U U!U"U#U$U%U&U'U(U)U*U+U,U-U.U/U0U1U2U3U4U5U6U7U8U9U:U;U<U=U>U?U@UAUBUCUDUEUFUGUHUIUJUKULUMUNUOUPUQURUSUTUUUVUWUXUYUZU[U\U]U^U_U`UaUbUcUdUeUfUgUhUiUjUkUlUmUnUoUpUqUrUsUtUuUvUwUxUyUzU{U|U}U~U
 UNKNOWN
 USER32.dll
 UTF-8
-UUUU
 UUUUUU
 UVWXYZ
-U\r?indexOfEnumerator@QMetaObject@@QEBAHPEBD@Z
-U\tU\nU\vU\fU\rU
 Uacute
 Ubreve
 Ucirc
@@ -27971,11 +27951,9 @@ UserProperty
 UserRole
 Utilde
 Uuml
-V V!V"V#V$V%V&V'V(V)V*V+V,V-V.V/V0V1V2V3V4V5V6V7V8V9V:V;V<V=V>V?V@VAVBVCVDVEVFVGVHVIVJVKVLVMVNVOVPVQVRVSVTVUVVVWVXVYVZV[V\V]V^V_V`VaVbVcVdVeVfVgVhViVjVkVlVmVnVoVpVqVrVsVtVuVvVwVxVyVzV{V|V}V~V
 VBGR
 VCRUNTIME140.dll
 VRGB
-V\tV\nV\vV\fV\rV
 Valid palette required for paletted images
 ValueChanged
 Velocity
@@ -27992,10 +27970,6 @@ Voice Dial
 Volume Down
 Volume Mute
 Volume Up
-W W!W"W#W$W%W&W'W(W)W*W+W,W-W.W/W0W1W2W3W4W5W6W7W8W9W:W;W<W=W>W?W@WAWBWCWDWEWFWGWHWIWJWKWLWMWNWOWPWQWRWSWTWUWVWWWXWYWZW[W\W]W^W_W`WaWbWcWdWeWfWgWhWiWjWkWlWmWnWoWpWqWrWsWtWuWvWwWxWyWzW{W|W}W~W
-W@33333
-W\r?indexOfMethod@QMetaObject@@QEBAHPEBD@Z
-W\tW\nW\vW\fW\rW
 Wacute
 WaitForSingleObjectEx
 Wake Up
@@ -28022,23 +27996,15 @@ Wrote palette index exceeding num_palette
 X      c #FFFFFF
 X ......... X
 X X X X X X X
-X X!X"X#X$X%X&X'X(X)X*X+X,X-X.X/X0X1X2X3X4X5X6X7X8X9X:X;X<X=X>X?X@XAXBXCXDXEXFXGXHXIXJXKXLXMXNXOXPXQXRXSXTXUXVXWXXXYXZX[X\X]X^X_X`XaXbXcXdXeXfXgXhXiXjXkXlXmXnXoXpXqXrXsXtXuXvXwXxXyXzX{X|X}X~X
 XFer
 XFreeEraser
-X\t?count@QString@@QEBAHXZ
-X\tX\nX\vX\fX\rX
-Y Y!Y"Y#Y$Y%Y&Y'Y(Y)Y*Y+Y,Y-Y.Y/Y0Y1Y2Y3Y4Y5Y6Y7Y8Y9Y:Y;Y<Y=Y>Y?Y@YAYBYCYDYEYFYGYHYIYJYKYLYMYNYOYPYQYRYSYTYUYVYWYXYYYZY[Y\Y]Y^Y_Y`YaYbYcYdYeYfYgYhYiYjYkYlYmYnYoYpYqYrYsYtYuYvYwYxYyYzY{Y|Y}Y~Y
-Y\tY\nY\vY\fY\rY
 Yacute
-YbZ6[
 Ycircumflex
 Ydieresis
 Yellow
 Yes to &All
 Ygrave
 Yuml
-Z Z!Z"Z#Z$Z%Z&Z'Z(Z)Z*Z+Z,Z-Z.Z/Z0Z1Z2Z3Z4Z5Z6Z7Z8Z9Z:Z;Z<Z=Z>Z?Z@ZAZBZCZDZEZFZGZHZIZJZKZLZMZNZOZPZQZRZSZTZUZVZWZXZYZZZ[Z\Z]Z^Z_Z`ZaZbZcZdZeZfZgZhZiZjZkZlZmZnZoZpZqZrZsZtZuZvZwZxZyZzZ{Z|Z}Z~Z
-Z\tZ\nZ\vZ\fZ\rZ
 Z_OK on Z_FINISH with output space
 Zacute
 Zcaron
@@ -28054,30 +28020,8 @@ ZoomOut
 [ [!["[#[$[%[&['[([)[*[+[,[-[.[/[0[1[2[3[4[5[6[7[8[9[:[;[<[=[>[?[@[A[B[C[D[E[F[G[H[I[J[K[L[M[N[O[P[Q[R[S[T[U[V[W[X[Y[Z[[[\[][^[_[`[a[b[c[d[e[f[g[h[i[j[k[l[m[n[o[p[q[r[Qt5Gui.dll
 [/Pattern /DeviceRGB]\nendobj\n
 [\t[\n[\v[\f[\r[
-[\v?enumerator@QMetaObject@@QEBA?AVQMetaEnum@@H@Z
 [a-zA-Z][a-zA-Z0-9_]*
 [type= 
-\\f?fromJson@QJsonDocument@@SA?AV1@AEBVQByteArray@@PEAUQJsonParseError@@@Z
-\\n?deallocate@QArrayData@@SAXPEAU1@_K1@Z
-\]^_`abcdef
-\f \f!\f"\f#\f$\f%\f&\f'\f(\f)\f*\f+\f,\f-\f.\f/\f0\f1\f2\f3\f4\f5\f6\f7\f8\f9\f:\f;\f<\f=\f>\f?\f@\fA\fB\fC\fD\fE\fF\fG\fH\fI\fJ\fK\fL\fM\fN\fO\fP\fQ\fR\fS\fT\fU\fV\fW\fX\fY\fZ\f[\f\\f]\f^\f_\f`\fa\fb\fc\fd\fe\ff\fg\fh\fi\fj\fk\fl\fm\fn\fo\fp\fq\fr\fs\ft\fu\fv\fw\fx\fy\fz\f{\f|\f}\f~\f
-\f!\f(\f+\f-\f0\f3\f5\f<\fH\fQ\fX\fa\fm\fz\f
-\f?fromString@QVersionNumber@@SA?AV1@AEBVQString@@PEAH@Z
-\f?fromUcs4@QString@@SA?AV1@PEBIH@Z
-\f?fromUtf8@QString@@SA?AV1@AEBVQByteArray@@@Z
-\f?fromUtf8@QString@@SA?AV1@PEBDH@Z
-\f?get@QObjectPrivate@@SAPEAV1@PEAVQObject@@@Z
-\f?get@QThreadStorageData@@QEBAPEAPEAXXZ
-\f?getAndRef@ExternalRefCountData@QtSharedPointer@@SAPEAU12@PEBVQObject@@@Z
-\f?getChar@QIODevice@@QEAA_NPEAD@Z
-\f?hasFormat@QMimeData@@UEBA_NAEBVQString@@@Z
-\f?hasFragment@QUrl@@QEBA_NXZ
-\f?hasImage@QMimeData@@QEBA_NXZ
-\f?hasMatch@QRegularExpressionMatch@@QEBA_NXZ
-\f?hasPartialMatch@QRegularExpressionMatch@@QEBA_NXZ
-\f\t\f\n\f\v\f\f\f\r\f
-\f\v\n\f\v\n\f\v\n\f\v\n\v
-\fs@33333
 \fs@fffffvq@
 \n        in vec2 textureCoords; \n        uniform sampler2D imageTexture; \n        vec4 srcPixel() \n        { \nreturn texture(imageTexture, textureCoords); \n}\n
 \n        in vec4 vertexCoordsArray; \n        void setPosition(void) \n        { \n            gl_Position = vertexCoordsArray; \n        }\n
@@ -28119,7 +28063,6 @@ ZoomOut
 \n    varying   lowp    float     opacity; \n    lowp vec4 srcPixel(); \n    void main() \n    { \n        gl_FragColor = srcPixel() * opacity; \n    }\n
 \n    varying highp   vec2      brushTextureCoords; \n    uniform         sampler2D brushTexture; \n    lowp vec4 srcPixel() { \n        return texture2D(brushTexture, fract(brushTextureCoords)); \n    }\n
 \n    void setPosition(); \n    void main(void) \n    { \n        setPosition(); \n    }\n
-\n \n!\n"\n#\n$\n%\n&\n'\n(\n)\n*\n+\n,\n-\n.\n/\n0\n1\n2\n3\n4\n5\n6\n7\n8\n9\n:\n;\n<\n=\n>\n?\n@\nA\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL\nM\nN\nO\nP\nQ\nR\nS\nT\nU\nV\nW\nX\nY\nZ\n[\n\\n]\n^\n_\n`\na\nb\nc\nd\ne\nf\ng\nh\ni\nj\nk\nl\nm\nn\no\np\nq\nr\ns\nt\nu\nv\nw\nx\ny\nz\n{\n|\n}\n~\n
 \n/Ascent 
 \n/CIDSystemInfo << /Registry (Adobe) /Ordering (Identity) /Supplement 0 >>\n/FontDescriptor 
 \n/CapHeight 
@@ -28139,105 +28082,6 @@ ZoomOut
 \n<table
 \n<tr>\n<td style="border: none;">
 \n>>\nstream\n
-\n?destroyed@QObject@@QEAAXPEAV1@@Z
-\n?detach@QListData@@QEAAPEAUData@1@H@Z
-\n?detach_grow@QListData@@QEAAPEAUData@1@PEAHH@Z
-\n?detach_helper@QHashData@@QEAAPEAU1@P6AXPEAUNode@1@PEAX@ZP6AX0@ZHH@Z
-\n?device@QDataStream@@QEBAPEAVQIODevice@@XZ
-\n?direction@QChar@@SA?AW4Direction@1@I@Z
-\n?disconnect@QObject@@SA_NPEBV1@PEBD01@Z
-\n?disconnectNotify@QBuffer@@MEAAXAEBVQMetaMethod@@@Z
-\n?disconnectNotify@QObject@@MEAAXAEBVQMetaMethod@@@Z
-\n?displayName@QStandardPaths@@SA?AVQString@@W4StandardLocation@1@@Z
-\n?dispose@QListData@@SAXPEAUData@1@@Z
-\n?dropMimeData@QAbstractItemModel@@UEAA_NPEBVQMimeData@@W4DropAction@Qt@@HHAEBVQModelIndex@@@Z
-\n?dx@QLineF@@QEBANXZ
-\n?dy@QLineF@@QEBANXZ
-\n?dynamicMetaObject@QObjectData@@QEBAPEAUQMetaObject@@XZ
-\n?elapsed@QElapsedTimer@@QEBA_JXZ
-\n?elapsed@QTime@@QEBAHXZ
-\n\t\n\n\n\v\n\f\n\r\n
-\n\t\n\t\t\t\n\t\n\t\t
-\n\v?encodeName@QFile@@SA?AVQByteArray@@AEBVQString@@@Z
-\r \r!\r"\r#\r$\r%\r&\r'\r(\r)\r*\r+\r,\r-\r.\r/\r0\r1\r2\r3\r4\r5\r6\r7\r8\r9\r:\r;\r<\r=\r>\r?\r@\rA\rB\rC\rD\rE\rF\rG\rH\rI\rJ\rK\rL\rM\rN\rO\rP\rQ\rR\rS\rT\rU\rV\rW\rX\rY\rZ\r[\r\\r]\r^\r_\r`\ra\rb\rc\rd\re\rf\rg\rh\ri\rj\rk\rl\rm\rn\ro\rp\rq\rr\rs\rt\ru\rv\rw\rx\ry\rz\r{\r|\r}\r~\r
-\r?hasRegisteredConverterFunction@QMetaType@@SA_NHH@Z
-\r?hasShrunk@QHashData@@QEAAXXZ
-\r?headerData@QAbstractItemModel@@UEBA?AVQVariant@@HW4Orientation@Qt@@H@Z
-\r?headerDataChanged@QAbstractItemModel@@QEAAXW4Orientation@Qt@@HH@Z
-\r?height@QRect@@QEBAHXZ
-\r?height@QRectF@@QEBANXZ
-\r?height@QSize@@QEBAHXZ
-\r?height@QSizeF@@QEBANXZ
-\r?hex@@YAAEAVQTextStream@@AEAV1@@Z
-\r?highSurrogate@QChar@@SAGI@Z
-\r?insert@?$QVector@VQPointF@@@@QEAAXHAEBVQPointF@@@Z
-\r?insert@QByteArray@@QEAAAEAV1@HD@Z
-\r?insert@QListData@@QEAAPEAPEAXH@Z
-\r?insert@QString@@QEAAAEAV1@HAEBV1@@Z
-\r?insertColumn@QAbstractItemModel@@QEAA_NHAEBVQModelIndex@@@Z
-\r?insertRow@QAbstractItemModel@@QEAA_NHAEBVQModelIndex@@@Z
-\r?installEventFilter@QObject@@QEAAXPEAV1@@Z
-\r?instance@QCoreApplication@@SAPEAV1@XZ
-\r?instance@QFactoryLoader@@QEBAPEAVQObject@@H@Z
-\r?intersect@QLineF@@QEBA?AW4IntersectType@1@AEBV1@PEAVQPointF@@@Z
-\r?intersected@QRect@@QEBA?AV1@AEBV1@@Z
-\r?intersected@QRectF@@QEBA?AV1@AEBV1@@Z
-\r?intersects@QRect@@QEBA_NAEBV1@@Z
-\r?intersects@QRectF@@QEBA_NAEBV1@@Z
-\r?invalidatePersistentIndex@QAbstractItemModelPrivate@@QEAAXAEBVQModelIndex@@@Z
-\r?invoke@QMetaMethod@@QEBA_NPEAVQObject@@W4ConnectionType@Qt@@VQGenericReturnArgument@@VQGenericArgument@@333333333@Z
-\r?invokeMethod@QMetaObject@@SA_NPEAVQObject@@PEBDW4ConnectionType@Qt@@VQGenericArgument@@333333333@Z
-\r?invokeMethod@QMetaObject@@SA_NPEAVQObject@@PEBDW4ConnectionType@Qt@@VQGenericReturnArgument@@VQGenericArgument@@444444444@Z
-\r?isAccepted@QEvent@@QEBA_NXZ
-\r?isActive@QBasicTimer@@QEBA_NXZ
-\r?isDebugBuild@QLibraryInfo@@SA_NXZ
-\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t
-\r\t\r\n\r\v\r\f\r\r\r
-\t \t!\t"\t#\t$\t%\t&\t'\t(\t)\t*\t+\t,\t-\t.\t/\t0\t1\t2\t3\t4\t5\t6\t7\t8\t9\t:\t;\t<\t=\t>\t?\t@\tA\tB\tC\tD\tE\tF\tG\tH\tI\tJ\tK\tL\tM\tN\tO\tP\tQ\tR\tS\tT\tU\tV\tW\tX\tY\tZ\t[\t\\t]\t^\t_\t`\ta\tb\tc\td\te\tf\tg\th\ti\tj\tk\tl\tm\tn\to\tp\tq\tr\ts\tt\tu\tv\tw\tx\ty\tz\t{\t|\t}\t~\t
-\t?constEnd@QJsonArray@@QEBA?AVconst_iterator@1@XZ
-\t?constEnd@QString@@QEBAPEBVQChar@@XZ
-\t?contains@QByteArray@@QEBA_NAEBV1@@Z
-\t?contains@QByteArray@@QEBA_ND@Z
-\t?contains@QByteArray@@QEBA_NPEBD@Z
-\t?contains@QJsonObject@@QEBA_NAEBVQString@@@Z
-\t?contains@QRect@@QEBA_NAEBV1@_N@Z
-\t?createNode@QMapDataBase@@QEAAPEAUQMapNodeBase@@HHPEAU2@_N@Z
-\t?critical@QMessageLogger@@QEBA?AVQDebug@@XZ
-\t?critical@QMessageLogger@@QEBAXPEBDZZ
-\t?currentDateTime@QDateTime@@SA?AV1@XZ
-\t?currentThread@QThread@@SAPEAV1@XZ
-\t?customEvent@QObject@@MEAAXPEAVQEvent@@@Z
-\t?d_func@QCoreApplication@@AEAAPEAVQCoreApplicationPrivate@@XZ
-\t\n\n(\nF\nc\nt\n
-\t\t\t\n\t\v\t\f\t\r\t
-\v \v!\v"\v#\v$\v%\v&\v'\v(\v)\v*\v+\v,\v-\v.\v/\v0\v1\v2\v3\v4\v5\v6\v7\v8\v9\v:\v;\v<\v=\v>\v?\v@\vA\vB\vC\vD\vE\vF\vG\vH\vI\vJ\vK\vL\vM\vN\vO\vP\vQ\vR\vS\vT\vU\vV\vW\vX\vY\vZ\v[\v\\v]\v^\v_\v`\va\vb\vc\vd\ve\vf\vg\vh\vi\vj\vk\vl\vm\vn\vo\vp\vq\vr\vs\vt\vu\vv\vw\vx\vy\vz\v{\v|\v}\v~\v
-\v?end@?$QVector@VQPoint@@@@QEBAPEBVQPoint@@XZ
-\v?errorString@QIODevice@@QEBA?AVQString@@XZ
-\v?errorString@QJsonParseError@@QEBA?AVQString@@XZ
-\v?errorString@QLibrary@@QEBA?AVQString@@XZ
-\v?event@QCoreApplication@@MEAA_NPEAVQEvent@@@Z
-\v?event@QEventLoop@@UEAA_NPEAVQEvent@@@Z
-\v?event@QObject@@UEAA_NPEAVQEvent@@@Z
-\v?eventDispatcher@QCoreApplicationPrivate@@2PEAVQAbstractEventDispatcher@@EA
-\v?eventFilter@QObject@@UEAA_NPEAV1@PEAVQEvent@@@Z
-\v?exactMatch@QRegExp@@QEBA_NAEBVQString@@@Z
-\v?exec@QCoreApplication@@SAHXZ
-\v?exec@QEventLoop@@QEAAHV?$QFlags@W4ProcessEventsFlag@QEventLoop@@@@@Z
-\v?exists@QDir@@QEBA_NAEBVQString@@@Z
-\v?exists@QFile@@QEBA_NXZ
-\v?exists@QFile@@SA_NAEBVQString@@@Z
-\v?exists@QFileInfo@@QEBA_NXZ
-\v?exit@QEventLoop@@QEAAXH@Z
-\v?expandedTo@QSize@@QEBA?AV1@AEBV1@@Z
-\v?fatal@QMessageLogger@@QEBAXPEBDZZ
-\v?fetchMore@QAbstractItemModel@@UEAAXAEBVQModelIndex@@@Z
-\v?fileName@QFile@@UEBA?AVQString@@XZ
-\v?fileName@QTemporaryFile@@UEBA?AVQString@@XZ
-\v?filePath@QDir@@QEBA?AVQString@@AEBV2@@Z
-\v?fill@QBitArray@@QEAA_N_NH@Z
-\v\f\f\v\n\f\v\n\f\v\n\f\v\n\f
-\v\t\v\n\v\v\v\f\v\r\v
-\v\v\v\v\v\v\v\v\v\v\v
 ]\n/Border [0 0 0]\n/A <<\n
 ]\n/Encode [
 ]\n/Extend [true true]\n/Function 
@@ -28251,8 +28095,6 @@ ZoomOut
 ^(.*)\(([a-zA-Z0-9_.*? +;#\-\[\]@\{\}/!<>\$%&=^~:\|]*)\)$
 _CxxThrowException
 _RDATA
-_\f?fromLatin1@QString@@SA?AV1@AEBVQByteArray@@@Z
-_\n?debug@QMessageLogger@@QEBA?AVQDebug@@XZ
 __C_specific_handler
 __CxxFrameHandler3
 __Qt__Box__Engine__
@@ -28289,7 +28131,6 @@ _q_updateFocusObject
 _register_onexit_function
 _seh_filter_dll
 _strdup
-`\f?fromLatin1@QString@@SA?AV1@PEBDH@Z
 `m@ffffff
 aacute
 abcdefghijklmnopqrstuvwxyz
@@ -28413,7 +28254,6 @@ azure3
 azure4
 bKGD
 bKGD must be after
-b\n?debug@QMessageLogger@@QEBAXPEBDZZ
 background
 background-attachment
 background-clip
@@ -28462,6 +28302,7 @@ body
 body { color: #%1%2%3 }
 bold
 bool __cdecl QDesktopServices::openUrl(const class QUrl &)
+bool __cdecl QOpenGLTextureBlitter::create(void)
 bool __cdecl QPlatformGraphicsBufferHelper::lockAndBindToTexture(class QPlatformGraphicsBuffer *,bool *,const class QRect &)
 bool __cdecl _try_writable(struct hb_blob_t *)
 bool __cdecl `anonymous-namespace'::OsTypeTerm::matches(const class QString &,const class QVersionNumber &) const
@@ -28655,7 +28496,6 @@ cyan2
 cyan3
 cyan4
 dArr
-d\n?dec@@YAAEAVQTextStream@@AEAV1@@Z
 dagger
 daggerdbl
 damaged LZ stream
@@ -28779,7 +28619,6 @@ dummy
 duplicate
 duplicate sRGB information ignored
 dupped successfully -> %p\n
-e\f?fromLocal8Bit@QString@@SA?AV1@AEBVQByteArray@@@Z
 eacute
 ebreve
 ecaron
@@ -28833,7 +28672,6 @@ expandable
 expanded
 extSelectable
 extra compressed data
-f\f?fromLocal8Bit@QString@@SA?AV1@PEBDH@Z
 face
 face=%p num_features=%d shaper_list=%p
 failed
@@ -28845,12 +28683,8 @@ ferp
 ferpfvbafwlbftspserpsvbaswlbstsptsid
 fffff
 ffffff
-ffffff)@
 ffffff9@
 ffffffi@
-fffffv
-fffffva@
-fffffvq@
 fflush
 fhpr
 fhprferpfwlbftspserpsvbaswlbstsptsidmvbamwlb
@@ -28928,7 +28762,6 @@ fwlb
 fwrite
 g@33333
 gAMA
-gG@T
 gIFg
 gIFx
 gainsboro
@@ -30305,7 +30138,6 @@ guilsinglright
 hArr
 hIST
 hIST must be after
-h\f?fromLocalFile@QUrl@@SA?AV1@AEBVQString@@@Z
 halfViewportSize
 handler
 handlerDestroyed
@@ -30335,7 +30167,6 @@ hicolor
 hide
 highlight
 highlighted-text
-hijklmnopqrstuvwxyz{|}~
 hniS
 honeydew
 honeydew1
@@ -30357,7 +30188,6 @@ href
 html
 http://www.w3.org/1999/xlink
 hungarumlaut
-hxi(j
 hyphen
 iCCP
 iCCP: invalid keyword
@@ -30366,9 +30196,6 @@ iTXt: invalid compression
 iTXt: invalid keyword
 iTXt: uncompressed text too long
 iTouch
-i\n?decodeName@QFile@@SA?AVQString@@AEBVQByteArray@@@Z
-i\r?inherits@QObject@@QEBA_NPEBD@Z
-i\t?create@QLocalePrivate@@SAPEAV1@PEBUQLocaleData@@H@Z
 iacute
 ibreve
 icirc
@@ -30507,7 +30334,6 @@ known incorrect sRGB profile
 l@333333
 l@fffffvq@
 lArr
-l\n?decomposition@QChar@@SA?AVQString@@I@Z
 lacute
 lambda
 lang
@@ -30646,7 +30472,6 @@ lslash
 lsquo
 ltshade
 m0_D@
-m\f?fromNativeSeparators@QDir@@SA?AVQString@@AEBV2@@Z
 macr
 macron
 magenta
@@ -30758,8 +30583,6 @@ myanmar
 myanmar_category
 myanmar_position
 mylM
-n\n?decompositionTag@QChar@@QEBA?AW4Decomposition@1@XZ
-n\r?initCharAttributes@QUnicodeTools@@YAXPEBGHPEBUScriptItem@1@HPEAUQCharAttributes@@V?$QFlags@W4CharAttributeOption@QUnicodeTools@@@@@Z
 nabla
 nacute
 name
@@ -30819,7 +30642,6 @@ numbersign
 o@33333
 o@fffffvq@
 oFFs
-o\n?decompositionTag@QChar@@SA?AW4Decomposition@1@I@Z
 oacute
 obj=
 object
@@ -30864,6 +30686,7 @@ opacityChanged
 open
 openbullet
 opendocumentformat
+opengl32.dll
 oplus
 orange
 orange1
@@ -30921,8 +30744,6 @@ p, li { white-space: pre-wrap; }\n
 pCAL
 pCAL: invalid keyword
 pHYs
-p\r?initScripts@QUnicodeTools@@YAXPEBGHPEAE@Z
-p\rP\f0
 padding
 padding-bottom
 padding-left
@@ -31051,10 +30872,7 @@ purple2
 purple3
 purple4
 q\n/GSa gs\n
-q\t?createData@QMapDataBase@@SAPEAU1@XZ
-q\v?erase@QListData@@QEAAPEAPEAXPEAPEAX@Z
 qconicalgradient
-qdZRMHD@=;86421/.-+*)(''&%$$#""!!  
 qgradient
 qlineargradient
 qradialgradient
@@ -31079,7 +30897,6 @@ quoteright
 quotesinglbase
 quotesingle
 rArr
-r\f?fromRawData@QByteArray@@SA?AV1@PEBDH@Z
 racute
 radic
 radical
@@ -31165,7 +30982,6 @@ sPLT out of memory
 sPLT: invalid keyword
 sRGB
 sTER
-s\v?error@QFileDevice@@QEBA?AW4FileError@1@XZ
 sacute
 saddlebrown
 salmon
@@ -31365,7 +31181,6 @@ tEXt: text too long
 tIME
 tRNS chunk has out-of-range samples for bit_depth
 tRNS must be after
-t\f?fromRawData@QString@@SA?AV1@PEBVQChar@@H@Z
 tab-stop
 tab-stops
 tabFocusBehavior
@@ -31569,7 +31384,6 @@ void __cdecl QWindow::setParent(class QWindow *)
 void __cdecl QWindow::setTransientParent(class QWindow *)
 void __cdecl QWindowPrivate::setTopLevelScreen(class QScreen *,bool)
 void __cdecl hb_shape_plan_plan(struct hb_shape_plan_t *,const struct hb_feature_t *,unsigned int,const char *const *)
-vtw\nx
 w@fffffvq@
 wacute
 wave
@@ -31604,7 +31418,6 @@ xChanged
 xlink
 xref\n0 %d\n%010d 65535 f \n
 xx-large
-xxxx||||~~~~
 yChanged
 yacute
 ycircumflex
@@ -31617,7 +31430,6 @@ yellow4
 yellowgreen
 ygrave
 yuml
-z@fffffv
 z@fffffvq@
 zTXt
 zTXt: invalid compression type
@@ -31645,4 +31457,3 @@ zlib IO error
 zstream unclaimed
 zwnj
 zzzZhniZyyyZntaLkerGlryCnmrArbeHbarAcrySaahTaveDgneBuruGrjuGayrOlmaTuleTadnKmylMhniSiahTooaLtbiTrmyMroeGgnaHihtErehCsnaCmagOrnuRrmhKgnoMariHanaKopoBinaHiiiYlatIhtoGtrsDglgTonaHdhuBbgaTtpoCbmiLelaTbniLragUwahSamsOtrpCiarBiguBulaTgalGgnfTolySoepXrahKilaBxusXxnhPgahPookNdnuScpeLkclOiiaVruaSilaKgnjRicyLiraCidyLmahCanaLtvaTtsvApygErmaSusiLumaBavaJietMimrAbraSitrPilhPhkrOihtKktaBharBdnaMmkaCcreMoreMdrlPdrhSaroSrkaTbhgAssaBlpuDablEnarGgnmHjohKaniLjhaMinaMdneMidoMoorMbraNtabNmlaPcuaPmrePplhPddiSdniShriTaraW
-~\n?deleteLater@QObject@@QEAAXXZ

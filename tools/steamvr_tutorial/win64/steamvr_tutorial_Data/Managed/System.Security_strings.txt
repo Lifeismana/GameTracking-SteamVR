@@ -1105,6 +1105,7 @@ Zero
 \fa7G
 \fa7X
 \fa7u
+\n%ot
 \nr9C
 \nrD7
 \nrE2
@@ -1113,6 +1114,7 @@ Zero
 \nra8
 \nrr3
 \nryC
+\nz%o
 \nz%rb
 \nz\rr5
 \nz\tue

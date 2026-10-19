@@ -1,6 +1,9 @@
  for detail.\n
  formatting error code 
 !! refusing to trigger minidump with debugger attached\n
+%%.%dg
+%s%s%s%s%s
+%s%s\n
 ' is not a number.
 , last executing in 
 -1e+9999
@@ -130,7 +133,6 @@
 /user/wrist/left
 /user/wrist/right
 1e+9999
-9a&g
 <unknown>
 ??0?$basic_ios@DU?$char_traits@D@std@@@std@@IEAA@XZ
 ??0?$basic_istream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@_N@Z
@@ -403,14 +405,12 @@ IsOverlayVisible
 IsProcessorFeaturePresent
 K32GetModuleFileNameExW
 KERNEL32.dll
-LUnable to create graphics capture item for window.\n
 LeaveCriticalSection
 Line %d, Column %d
 LoadCursorA
 LoadLibraryA
 LocalFree
 LocalizationManager
-MGiI
 MSVCP140.dll
 Mailbox %s received message %s, which it didn't have a handler for\n
 MainThrd
@@ -424,11 +424,8 @@ OpenProcess
 Out of thread local storage!\n
 Parse failed for JSON message in mailbox %s: %s\n
 Parsing of JSON string "%s" failed: %s\n
-Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
-RSDS,
-R\npD
 RaiseException
 Recreate CaptureFramePool
 Reinitializing output duplication for desktop %d.\n
@@ -482,6 +479,7 @@ TryGetNextFrame
 USER32.dll
 Unable to call duplication release frame for desktop %d.\n
 Unable to compute virtual coords or normalized coords...\n
+Unable to create graphics capture item for window.\n
 Unable to destroy window view - invalid HWND.\n
 Unable to get normalized coords from virtual coords for locked mouse position.\n
 Unable to get overlay mouse scale.\n
@@ -523,7 +521,6 @@ WindowsCreateString
 WindowsCreateStringReference
 WindowsDeleteString
 WindowsGetStringRawBuffer
-Zjz\v
 _Cnd_destroy
 _Cnd_destroy_in_situ
 _Cnd_do_broadcast_at_thread_exit
@@ -639,7 +636,6 @@ handlers
 hu_hu
 hungarian
 hwnd
-i]Wb
 in Json::Value::duplicateAndPrefixStringValue(): Failed to allocate string value buffer
 in Json::Value::duplicateAndPrefixStringValue(): length too big for prefixing
 in Json::Value::duplicateStringValue(): Failed to allocate string value buffer
@@ -753,7 +749,6 @@ vr::VROverlay()->SetOverlayTransformCursor( m_ulOverlayPointerHandle, &vHotspot 
 vrdesktop_graphics_capture.dll
 window_view_created
 windows
-wn>Jj
 x-axis DPI %d doesn't match y-axis DPI %d. Using x-axis value.\n
 zh_cn
 zh_tw

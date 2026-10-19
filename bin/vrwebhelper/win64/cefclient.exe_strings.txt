@@ -1,15 +1,13 @@
                           
  !"#$%&'()*+,-./0123456789:;<
- !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
  !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
- !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
  (%d = %3.1f%%)
+ (0x%lX)
  (flags = 0x%x)
  ... (message truncated)\n
  000000000000
  Base Class Array'
  Base Class Descriptor at (
- C>TQ
  Class Hierarchy Descriptor'
  Complete Object Locator'
  Type Descriptor'
@@ -30,10 +28,10 @@
  samples
  style; 
  with disposition 
+ {%3.1f%%}
 " downloaded successfully.
 " saved successfully.
-"e?<<<<<<l?
-$Ib?s
+%*s:%s
 %.0Lf
 %016llx
 %016llx%016llx
@@ -44,9 +42,9 @@ $Ib?s
 %llu
 %llx
 %s (errno: %d, %s)
-&?PPPPPPP?
+%s%s %s\n
+%s:%d: %s
 &File
-&Sgw
 &Show DevTools
 &Tests
 &nbsp;
@@ -54,22 +52,17 @@ $Ib?s
 ' must have type boolean
 ' must have type function
 ' must have type string or ArrayBuffer
-'bQvE
-(@V8NullCreate
 (empty)
 (null)
 (p[%d], '%ls')
-)yIx
-*StO9>T
 *\windows_shell_global_counters
 *p[[[[[[[[[[[[[[[[
 , mean = %.1f
 , survival rate: 
 , swept bytes: 
-,HR>O
 -----------------------
--BH>t
 -hosted window; 
+-inf
 -inl
 ..\..\base\allocator\partition_allocator\src\partition_alloc\starscan\stats_collector.cc
 ..\..\base\check.cc
@@ -92,6 +85,7 @@ $Ib?s
 ..\..\cef\tests\cefclient\browser\image_cache.cc
 ..\..\cef\tests\cefclient\browser\main_context_impl.cc
 ..\..\cef\tests\cefclient\browser\main_message_loop_multithreaded_win.cc
+..\..\cef\tests\cefclient\browser\osr_d3d11_win.cc
 ..\..\cef\tests\cefclient\browser\osr_render_handler_win.cc
 ..\..\cef\tests\cefclient\browser\osr_window_win.cc
 ..\..\cef\tests\cefclient\browser\root_window_manager.cc
@@ -100,6 +94,7 @@ $Ib?s
 ..\..\cef\tests\cefclient\browser\test_runner.cc
 ..\..\cef\tests\cefclient\browser\views_window.cc
 ..\..\cef\tests\cefclient\browser\window_test_runner.cc
+..\..\cef\tests\shared\browser\util_win.cc
 ..\..\sandbox\win\src\process_mitigations.cc
 ..\..\sandbox\win\src\sandbox_policy_base.cc
 ..\..\third_party\abseil-cpp\absl\types\bad_variant_access.cc
@@ -160,6 +155,7 @@ $Ib?s
 ..\..\third_party\libc++\src\src\mutex.cpp:40: assertion ec == 0 failed: call to mutex::unlock failed. A possible reason is that the mutex wasn't locked\n
 ..\..\third_party\perfetto\include\perfetto\tracing\track_event_category_registry.h
 ..\..\third_party\perfetto\include\perfetto\tracing\track_event_interned_data_index.h
+..\..\third_party\perfetto\src\base\time.cc
 ..\..\third_party\perfetto\src\protozero\field.cc
 ..\..\third_party\perfetto\src\protozero\scattered_heap_buffer.cc
 ..\..\third_party\perfetto\src\tracing\core\null_trace_writer.cc
@@ -169,7 +165,6 @@ $Ib?s
 ..\..\third_party\perfetto\src\tracing\internal\tracing_muxer_fake.cc
 .1x.png
 .2x.png
-.>\rfJBGo
 .?AU?$__num_get@D@__Cr@std@@
 .?AU?$__num_get@_W@__Cr@std@@
 .?AU?$__num_put@D@__Cr@std@@
@@ -263,7 +258,6 @@ $Ib?s
 .?AVsystem_error@__Cr@std@@
 .?AVtime_base@__Cr@std@@
 .?AVtype_info@@
-.HPN
 .Mutator
 .Mutator.Clear
 .Mutator.Scan
@@ -277,8 +271,6 @@ $Ib?s
 .patch
 .pdf
 .png
-.xJ>Hf
-/2GG>!B
 /binary_transfer
 /binding
 /hang
@@ -291,33 +283,13 @@ $Ib?s
 0123456789ABCDEF
 0123456789abcdef
 0123456789abcdefABCDEFxX+-pPiInN
-0E..\..\cef\tests\cefclient\browser\osr_d3d11_win.cc
-0E>X
-0X8b?~
-0iN>/
 1#IND
 1#INF
 1#QNAN
 1#SNAN
-11Y@
-11eU%
 127.0.0.1
-2\n0\tP
-2\vp8
-37>k
-3>N;kU
-3>fvw
-51>W
 6..\..\base\values.cc
-6NK>
-6\fXO>\ntA
-7>I0
-7?GX
-7~xh
-8ke?;
 97314fe45c14007fca596262a64cad69467df21f
-9>70
-9a&g
 : no conversion
 : out of range
 :' + prompt('
@@ -356,30 +328,12 @@ $Ib?s
 <tr><td>Status</td><td>
 <tr><td>Subject</td><td>
 <tr><td>Valid Start</td><td>
-=87M
-=cQ6
-=e2m
-=imb;D
->cQ6
->jtm}S
-?..\..\third_party\perfetto\src\base\time.cc
-?7zQ6$
-?8bunz8
-?@En[vP
-?Histogram.MismatchedConstructionArguments
-?R0I?
 ?UUUUUU
-?f`Y4
-?qBJ
-?rAj
-?ysB
-A>pP&
 ABCDEFGHIJKLMNOPQRSTUVWXYZ
 ABNORMAL_TERMINATION
 ADVAPI32.dll
 AES for Intel AES-NI, CRYPTOGAMS by <appro@openssl.org>
 AES-NI GCM module for x86_64, CRYPTOGAMS by <appro@openssl.org>
-AK>(v
 ALPC Port
 Access-Control-Allow-Headers
 Access-Control-Allow-Origin
@@ -401,9 +355,6 @@ AreFileApisANSI
 Arg list too long
 Assert failed: size % sizeof(wchar_t) == 0u. 
 August
-B..\..\cef\tests\shared\browser\util_win.cc
-BC?>6t9^\tc:>
-BF>^G
 BOOLEAN_HISTOGRAM
 Back
 Bad address
@@ -421,7 +372,6 @@ BrokerEvent
 Browser is already subscribed
 Browser is not currently subscribed
 BuildTrusteeWithSidW
-C5R?\t
 C:\buildworker\cef_win64\build\root\chromium\src\out\Release_GN_x64\cefclient.exe.pdb
 CERT_STATUS_AUTHORITY_INVALID
 CERT_STATUS_COMMON_NAME_INVALID
@@ -440,11 +390,8 @@ CERT_STATUS_UNABLE_TO_CHECK_REVOCATION
 CERT_STATUS_VALIDITY_TOO_LONG
 CERT_STATUS_WEAK_KEY
 CERT_STATUS_WEAK_SIGNATURE_ALGORITHM
-CL:>8
 COMDLG32.dll
-CUMA.NegativeSamples.Reason
 CUSTOM_HISTOGRAM
-CWD>~3
 CacheStorage
 Calculators
 CallWindowProcW
@@ -518,9 +465,6 @@ Cursor change disabled
 Custom...
 D3D11CreateDevice
 D3DCompile
-D7q"
-D7q/;M
-DNASYXOB
 DUMMY_HISTOGRAM
 Dark
 Debug
@@ -550,7 +494,6 @@ DumpWithoutCrashing
 DuplicateHandle
 DuplicateTokenEx
 E&xit
-E>nEA
 ERROR
 ERR_ABORTED
 ERR_ACCESS_DENIED
@@ -601,8 +544,6 @@ ERR_UNEXPECTED_PROXY_AUTH
 ERR_UNKNOWN_URL_SCHEME
 ERR_UNSAFE_PORT
 ERR_UNSAFE_REDIRECT
-ET5>
-E[\rn?gc
 EnableChildWindowDpiMessage
 EnableNonClientDpiScaling
 EnableWindow
@@ -625,9 +566,7 @@ Exec format error
 ExitProcess
 ExitThread
 ExpandEnvironmentStringsW
-F>qUxv
 FATAL
-FEMh\f
 Failed to allocate shared memory region of size 
 Failed to create image 
 Failed to initialize D3D11 rendering.
@@ -637,7 +576,6 @@ Failed to open shared texture. hr=
 FeatureList-early-access-allow-list
 FeatureList-feature-accessed-too-early
 February
-FfW?
 File "
 File exists
 File too large
@@ -662,7 +600,6 @@ FreeLibraryAndExitThread
 FreeSid
 Friday
 Function not implemented
-G>US
 GAMEPAD
 GDI32.dll
 GHASH for x86_64, CRYPTOGAMS by <appro@openssl.org>
@@ -777,6 +714,7 @@ HeapDestroy
 HeapSetInformation
 Hello, world!
 Histogram.BadConstructionArguments
+Histogram.MismatchedConstructionArguments
 Histogram.TooManyBuckets.1000
 Histogram: 
 IMM32.dll
@@ -785,7 +723,6 @@ IND)ind)d
 INFO
 INITY
 INTEGRITY_FAILURE
-Il?333333c?
 Illegal byte sequence
 ImmAssociateContextEx
 ImmGetCompositionStringW
@@ -847,8 +784,6 @@ June
 KERNEL32.dll
 Kernel32.dll
 KillTimer
-L>ev
-L?UUUUUUU?
 LAUNCH_FAILED
 LCIDToLocaleName
 LCMapStringEx
@@ -856,15 +791,12 @@ LCMapStringW
 LINEAR_HISTOGRAM
 LLD PDB.
 LOG_FATAL
-LWG>
-LWW>
 LeaveCriticalSection
 Level: 
 Light
 Limited
 Limited User
 Line: 
-Ln/a
 LoadAcceleratorsW
 LoadCursorW
 LoadIconW
@@ -883,8 +815,6 @@ Logging-FATAL_MILESTONE
 Logging-NOTREACHED_MESSAGE
 LookupPrivilegeValueW
 LresultFromObject
-LwH'
-MGiI
 MM/dd/yy
 MapGenericMask
 MapViewOfFile
@@ -904,16 +834,11 @@ My Open Image Dialog
 My Open MultiType Dialog
 My Open PNG Dialog
 My-Custom-Header
-M|1}0
-N3`d?
-N>O=I9
-N>VF
 NAN(IND)
 NAN(SNAN)
 NOT IMPLEMENTED
 NOTREACHED hit. 
 NOTREACHED log messages are omitted in official builds. Sorry!
-NQ?s
 Native
 Network.emulateNetworkConditions
 New Window
@@ -966,7 +891,6 @@ OLEACC.dll
 OLEAUT32.dll
 OPENGL32.dll
 OPENSSL_ia32cap
-OZQ%
 October
 Offline mode
 OpenProcessToken
@@ -1030,9 +954,6 @@ ProcessPrng
 Prompt.
 PtInRect
 PtInRegion
-Q5rHg,>
-QAf?
-Qkkbal
 QueryDosDeviceW
 QueryInformationJobObject
 QueryPerformanceCounter
@@ -1040,8 +961,6 @@ QueryPerformanceFrequency
 QueryThreadCycleTime
 REPLACE_THIS_STRING
 RSDSl\vW|
-R\n0\tP
-R\n0\tp
 Radio Item 1
 Radio Item 2
 Radio Item 3
@@ -1106,8 +1025,6 @@ S-1-16-2048 Below Low
 S-1-16-4096 Low
 S-1-16-6144 Medium Low
 S-1-16-8192 Medium
-S9>H
-S>$hkDh$h>[2
 SHA1 block transform for x86_64, CRYPTOGAMS by <appro@openssl.org>
 SHA512 block transform for x86_64, CRYPTOGAMS by <appro@openssl.org>
 SHELL32.dll
@@ -1132,6 +1049,7 @@ SampleVector-min
 SampleVector-range_max
 SampleVector-range_min
 Saturday
+ScopedAllowBaseSyncPrimitivesOutsideBlockingScope
 ScopedBlockingCallWithBaseSyncPrimitives
 ScreenToClient
 SendMessageW
@@ -1189,6 +1107,7 @@ SleepConditionVariableSRW
 Source: 
 SourceURL:
 Stability.DumpWithoutCrashingStatus
+StartFragment:
 Stop
 StopWatching
 Subscriptions must be persistent
@@ -1222,12 +1141,10 @@ TranslateMessage
 TriggerNotReached
 TryAcquireSRWLockExclusive
 Trying to create an unregistered preference: 
-Ts\ne
 Tuesday
-U1(\Q
-UA>N0Wl
 UMA.NegativeSamples.Histogram
 UMA.NegativeSamples.Increment
+UMA.NegativeSamples.Reason
 UNKNOWN
 URL: 
 USER32.dll
@@ -1235,8 +1152,6 @@ USERENV.dll
 UTF-16LEUNICODE
 UTF-8
 UUUUUU
-UUUUUUUUUUUUUUUU3333333333333333
-U\f2>Y
 UnhandledExceptionFilter
 Unknown
 Unknown error
@@ -1269,6 +1184,7 @@ V8FunctionCreate
 V8FunctionExecute
 V8FunctionExecuteWithContext
 V8IntCreate
+V8NullCreate
 V8ObjectCreate
 V8ObjectCreateWithAccessor
 V8ObjectCreateWithInterceptor
@@ -1296,7 +1212,6 @@ Visual C++ CRT: Not enough memory to complete call to strerror.
 VkKeyScanExW
 WARNING
 WINMM.dll
-WaNd?
 WaitForSingleObject
 WaitableEvent::Wait Complete
 WakeAllConditionVariable
@@ -1316,42 +1231,24 @@ Windowless rendering requires Alloy style.
 WriteConsoleW
 WriteFile
 WriteProcessMemory
-W}9D*
 X-My-Header
-X/4B
-Y8a:
-Y>kX>M
-Z\>z8
-Zjz\v
 Zoom In
 Zoom Out
 Zoom Reset
 [%03u.%03u] 
 [%s : %d] RAW: 
-[*ncd>0
-[aOni*{
 [printf format error]
 \Device\DeviceApi
 \Device\KsecDD
 \nHeaders:
 \nMethod: 
 \nPost Data:
-\nStartFragment:
 \n\tBytes: 
-\nh?oT
-\nk>oB
-\r8STs\ne
 \t\n\vSHA256 block transform for x86_64, CRYPTOGAMS by <appro@openssl.org>
-\tcQr
-\tkE>fvw
 \u%04X
 \u003C
 \u2028
 \u2029
-\vA03>A|
-^<V7w
-^RfN>
-_ScopedAllowBaseSyncPrimitivesOutsideBlockingScope
 __based(
 __cdecl
 __clrcall
@@ -1374,7 +1271,6 @@ _cabs
 _hypot
 _logb
 _nextafter
-_oD>Kg
 _strnicmp
 `RTTI
 `anonymous namespace'
@@ -1412,7 +1308,6 @@ _strnicmp
 `vector vbase copy constructor iterator'
 `vftable'
 `virtual displacement map'
-a6>r
 abcdefghijklmnopqrstuvwxyz
 about:blank
 accepts-first-mouse
@@ -1501,7 +1396,6 @@ browser,navigation,benchmark
 browser,startup
 browsing_data
 bucket_count
-c?FA@s}
 cache-path
 camera
 cast
@@ -1662,9 +1556,6 @@ d3d11.dll
 d3d11: Could not open shared texture!
 d3d11: Failed to resize swapchain (
 d3d11: Selected adapter 
-d8L2
-d?000000`?
-dRL>
 data:
 dddd, MMMM dd, yyyy
 delegated_ink_trails
@@ -1814,8 +1705,6 @@ dwrite
 dwrite,fonts
 e%s%d
 e+000
-eF>t
-eLK(w
 enable-background-thread-pool
 enable-chrome-policy
 enable-chrome-runtime
@@ -1832,8 +1721,6 @@ explore_sites
 extensions
 external-begin-frame-enabled
 external-message-pump
-fD>b
-fWi?
 fabs
 failed to save.
 failure
@@ -1909,8 +1796,6 @@ gpu.angle.texture_metrics
 gpu.capture
 graphics.pipeline
 guest
-h0'D
-h>1my
 handler.html
 handlesToClose
 hang.html
@@ -1932,7 +1817,6 @@ https://tests/
 https://www.google.com
 https://www.magpClientRenderer.FocusedNodeChanged
 hwoverlays
-i]Wb
 icon
 identifier removed
 identity
@@ -1963,7 +1847,6 @@ ipc_performance.html
 jigsaw.w3.org
 jobLevel
 jpeg
-k=yI
 kernel32.dll
 lang
 latency
@@ -1988,10 +1871,6 @@ login,screenlock_monitor
 logo.png
 lowboxSid
 lstrlenA
-m?H7
-mG4>
-mSx@
-m\nXo
 main
 maximized
 media
@@ -2015,8 +1894,6 @@ money_get error
 mouse-cursor-change-disabled
 multi-threaded-message-loop
 mutex lock failed
-n03>Pu
-n]?iJ
 name
 nan(ind)
 nan(snan)
@@ -2049,10 +1926,6 @@ not connected
 not supported
 ntdll.dll
 null
-o.hs
-o?GS
-oI>O7
-obwQ4
 off-screen-frame-rate
 off-screen-rendering-enabled
 offline
@@ -2081,7 +1954,6 @@ other_tests
 other_tests.html
 out_of_range was thrown in -fno-exceptions mode with message "%s"
 output.pdf
-owM&
 owner dead
 ozone
 p[%d] == %p
@@ -2117,11 +1989,7 @@ proxy-pac-url
 proxy-server
 proxy_configured
 ps_4_0
-qS>g?h3
 quarantine size: 
-r\n0\tP
-r\n0\tp
-r\tVr.>T
 raf_investigation
 rail
 refcount
@@ -2255,14 +2123,11 @@ use-native
 use-views
 use-window-modal-dialog
 use_alloy_style_ ? CEF_RUNTIME_STYLE_ALLOY : CEF_RUNTIME_STYLE_CHROME == browser->GetHost()->GetRuntimeStyle()
-uzKs@>
-v2!L.2
 v8,devtools.timeline
 v8,devtools.timeline,disabled-by-default-v8.compile
 v8,disabled-by-default-v8.compile
 v8.execute
 v8.wasm
-vRQ>
 value
 value too large
 value1_large_browser
@@ -2306,10 +2171,7 @@ window.open('https://www.google.com');
 window_icon
 window_icon.1x.png
 window_icon.2x.png
-wn>Jj
 wrong protocol type
-xT?V
 xmlhttprequest.html
-z^KD
 zeroAppShim
 ~WaitableEvent while Signaled

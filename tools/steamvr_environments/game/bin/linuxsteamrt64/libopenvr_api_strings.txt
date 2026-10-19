@@ -6,6 +6,7 @@
 .tmp
 /proc/self/exe
 0123456789ABCDEF
+?%%.%dg
 A valid JSON document must be either an array or an object value.
 Another app was already launching (117)
 App info manager init failed (114)
@@ -780,7 +781,9 @@ VR_RuntimePath
 VR_RuntimePath::rchBuffer
 VR_ShutdownInternal
 VTT for std::basic_istringstream<char, std::char_traits<char>, std::allocator<char>>
+VTT for std::basic_istringstream<char, std::char_traits<char>, std::allocator<char>>@@GLIBCXX_3.4
 VTT for std::basic_ostringstream<char, std::char_traits<char>, std::allocator<char>>
+VTT for std::basic_ostringstream<char, std::char_traits<char>, std::allocator<char>>@@GLIBCXX_3.4
 V_StripExtension(std::string&)
 V_URLDecode(char*, int, char const*, int)
 V_URLDecodeInternal(char*, int, char const*, int, bool)
@@ -822,108 +825,6 @@ _Unwind_Resume
 _Unwind_Resume_or_Rethrow
 _Unwind_SetGR
 _Unwind_SetIP
-_ZNKSs5rfindEcm@@GLIBCXX_3.4
-_ZNKSs7compareEPKc@@GLIBCXX_3.4
-_ZNKSt15basic_stringbufIcSt11char_traitsIcESaIcEE3strEv@@GLIBCXX_3.4
-_ZNKSt19__codecvt_utf8_baseIDiE10do_unshiftER11__mbstate_tPcS3_RS3_@@GLIBCXX_3.4.21
-_ZNKSt19__codecvt_utf8_baseIDiE11do_encodingEv@@GLIBCXX_3.4.21
-_ZNKSt19__codecvt_utf8_baseIDiE13do_max_lengthEv@@GLIBCXX_3.4.21
-_ZNKSt19__codecvt_utf8_baseIDiE16do_always_noconvEv@@GLIBCXX_3.4.21
-_ZNKSt19__codecvt_utf8_baseIDiE5do_inER11__mbstate_tPKcS4_RS4_PDiS6_RS6_@@GLIBCXX_3.4.21
-_ZNKSt19__codecvt_utf8_baseIDiE6do_outER11__mbstate_tPKDiS4_RS4_PcS6_RS6_@@GLIBCXX_3.4.21
-_ZNKSt19__codecvt_utf8_baseIDiE9do_lengthER11__mbstate_tPKcS4_m@@GLIBCXX_3.4.21
-_ZNKSt19__codecvt_utf8_baseIwE10do_unshiftER11__mbstate_tPcS3_RS3_@@GLIBCXX_3.4.21
-_ZNKSt19__codecvt_utf8_baseIwE11do_encodingEv@@GLIBCXX_3.4.21
-_ZNKSt19__codecvt_utf8_baseIwE13do_max_lengthEv@@GLIBCXX_3.4.21
-_ZNKSt19__codecvt_utf8_baseIwE16do_always_noconvEv@@GLIBCXX_3.4.21
-_ZNKSt19__codecvt_utf8_baseIwE5do_inER11__mbstate_tPKcS4_RS4_PwS6_RS6_@@GLIBCXX_3.4.21
-_ZNKSt19__codecvt_utf8_baseIwE6do_outER11__mbstate_tPKwS4_RS4_PcS6_RS6_@@GLIBCXX_3.4.21
-_ZNKSt19__codecvt_utf8_baseIwE9do_lengthER11__mbstate_tPKcS4_m@@GLIBCXX_3.4.21
-_ZNKSt5ctypeIcE13_M_widen_initEv@@GLIBCXX_3.4.11
-_ZNSbIwSt11char_traitsIwESaIwEE12_M_leak_hardEv@@GLIBCXX_3.4
-_ZNSbIwSt11char_traitsIwESaIwEE15_M_replace_safeEmmPKwm@@GLIBCXX_3.4
-_ZNSbIwSt11char_traitsIwESaIwEE4_Rep10_M_destroyERKS1_@@GLIBCXX_3.4
-_ZNSbIwSt11char_traitsIwESaIwEE4_Rep20_S_empty_rep_storageE@@GLIBCXX_3.4
-_ZNSbIwSt11char_traitsIwESaIwEE4_Rep9_S_createEmmRKS1_@@GLIBCXX_3.4
-_ZNSbIwSt11char_traitsIwESaIwEE6resizeEmw@@GLIBCXX_3.4
-_ZNSbIwSt11char_traitsIwESaIwEE9_M_mutateEmmm@@GLIBCXX_3.4
-_ZNSbIwSt11char_traitsIwESaIwEEC1ERKS1_@@GLIBCXX_3.4
-_ZNSbIwSt11char_traitsIwESaIwEEC1ERKS2_@@GLIBCXX_3.4
-_ZNSi10_M_extractIdEERSiRT_@@GLIBCXX_3.4.9
-_ZNSolsEPSt15basic_streambufIcSt11char_traitsIcEE@@GLIBCXX_3.4
-_ZNSolsEi@@GLIBCXX_3.4
-_ZNSs12_M_leak_hardEv@@GLIBCXX_3.4
-_ZNSs15_M_replace_safeEmmPKcm@@GLIBCXX_3.4
-_ZNSs4_Rep10_M_destroyERKSaIcE@@GLIBCXX_3.4
-_ZNSs4_Rep20_S_empty_rep_storageE@@GLIBCXX_3.4
-_ZNSs4_Rep9_S_createEmmRKSaIcE@@GLIBCXX_3.4
-_ZNSs4swapERSs@@GLIBCXX_3.4
-_ZNSs5eraseEN9__gnu_cxx17__normal_iteratorIPcSsEES2_@@GLIBCXX_3.4
-_ZNSs6appendEPKcm@@GLIBCXX_3.4
-_ZNSs6appendERKSs@@GLIBCXX_3.4
-_ZNSs6assignEPKcm@@GLIBCXX_3.4
-_ZNSs6assignERKSs@@GLIBCXX_3.4
-_ZNSs6insertEmPKcm@@GLIBCXX_3.4
-_ZNSs6resizeEmc@@GLIBCXX_3.4
-_ZNSs7replaceEmmPKcm@@GLIBCXX_3.4
-_ZNSs7reserveEm@@GLIBCXX_3.4
-_ZNSs9_M_mutateEmmm@@GLIBCXX_3.4
-_ZNSsC1EPKcRKSaIcE@@GLIBCXX_3.4
-_ZNSsC1EPKcmRKSaIcE@@GLIBCXX_3.4
-_ZNSsC1ERKSaIcE@@GLIBCXX_3.4
-_ZNSsC1ERKSs@@GLIBCXX_3.4
-_ZNSsC1ERKSsmm@@GLIBCXX_3.4
-_ZNSsC1EmcRKSaIcE@@GLIBCXX_3.4
-_ZNSt15basic_stringbufIcSt11char_traitsIcESaIcEE7_M_syncEPcmm@@GLIBCXX_3.4
-_ZNSt19__codecvt_utf8_baseIDiED2Ev@@GLIBCXX_3.4.21
-_ZNSt19__codecvt_utf8_baseIwED2Ev@@GLIBCXX_3.4.21
-_ZNSt19basic_istringstreamIcSt11char_traitsIcESaIcEED1Ev@@GLIBCXX_3.4
-_ZNSt19basic_ostringstreamIcSt11char_traitsIcESaIcEEC1ESt13_Ios_Openmode@@GLIBCXX_3.4
-_ZNSt19basic_ostringstreamIcSt11char_traitsIcESaIcEED1Ev@@GLIBCXX_3.4
-_ZNSt6localeC1Ev@@GLIBCXX_3.4
-_ZNSt6localeD1Ev@@GLIBCXX_3.4
-_ZNSt7codecvtIwc11__mbstate_tEC2Em@@GLIBCXX_3.4
-_ZNSt8ios_base4InitC1Ev@@GLIBCXX_3.4
-_ZNSt8ios_base4InitD1Ev@@GLIBCXX_3.4
-_ZNSt8ios_baseC2Ev@@GLIBCXX_3.4
-_ZNSt8ios_baseD2Ev@@GLIBCXX_3.4
-_ZNSt9basic_iosIcSt11char_traitsIcEE4initEPSt15basic_streambufIcS1_E@@GLIBCXX_3.4
-_ZNSt9exceptionD2Ev@@GLIBCXX_3.4
-_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l@@GLIBCXX_3.4.9
-_ZSt16__throw_bad_castv@@GLIBCXX_3.4
-_ZSt17__throw_bad_allocv@@GLIBCXX_3.4
-_ZSt18_Rb_tree_decrementPKSt18_Rb_tree_node_base@@GLIBCXX_3.4
-_ZSt18_Rb_tree_decrementPSt18_Rb_tree_node_base@@GLIBCXX_3.4
-_ZSt18_Rb_tree_incrementPKSt18_Rb_tree_node_base@@GLIBCXX_3.4
-_ZSt18_Rb_tree_incrementPSt18_Rb_tree_node_base@@GLIBCXX_3.4
-_ZSt19__throw_logic_errorPKc@@GLIBCXX_3.4
-_ZSt19__throw_range_errorPKc@@GLIBCXX_3.4
-_ZSt20__throw_length_errorPKc@@GLIBCXX_3.4
-_ZSt20__throw_system_errori@@GLIBCXX_3.4.11
-_ZSt24__throw_out_of_range_fmtPKcz@@GLIBCXX_3.4.20
-_ZSt25__throw_bad_function_callv@@GLIBCXX_3.4.14
-_ZSt28_Rb_tree_rebalance_for_erasePSt18_Rb_tree_node_baseRS_@@GLIBCXX_3.4
-_ZSt29_Rb_tree_insert_and_rebalancebPSt18_Rb_tree_node_baseS0_RS_@@GLIBCXX_3.4
-_ZSt7getlineIcSt11char_traitsIcESaIcEERSt13basic_istreamIT_T0_ES7_RSbIS4_S5_T1_ES4_@@GLIBCXX_3.4
-_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc@@GLIBCXX_3.4
-_ZTISt19__codecvt_utf8_baseIDiE@@GLIBCXX_3.4.21
-_ZTISt19__codecvt_utf8_baseIwE@@GLIBCXX_3.4.21
-_ZTISt9exception@@GLIBCXX_3.4
-_ZTTSt19basic_istringstreamIcSt11char_traitsIcESaIcEE@@GLIBCXX_3.4
-_ZTTSt19basic_ostringstreamIcSt11char_traitsIcESaIcEE@@GLIBCXX_3.4
-_ZTVN10__cxxabiv117__class_type_infoE@@CXXABI_1.3
-_ZTVN10__cxxabiv119__pointer_type_infoE@@CXXABI_1.3
-_ZTVN10__cxxabiv120__function_type_infoE@@CXXABI_1.3
-_ZTVN10__cxxabiv120__si_class_type_infoE@@CXXABI_1.3
-_ZTVSt15basic_streambufIcSt11char_traitsIcEE@@GLIBCXX_3.4
-_ZTVSt15basic_stringbufIcSt11char_traitsIcESaIcEE@@GLIBCXX_3.4
-_ZTVSt19basic_istringstreamIcSt11char_traitsIcESaIcEE@@GLIBCXX_3.4
-_ZTVSt19basic_ostringstreamIcSt11char_traitsIcESaIcEE@@GLIBCXX_3.4
-_ZTVSt9basic_iosIcSt11char_traitsIcEE@@GLIBCXX_3.4
-_ZdaPv@@GLIBCXX_3.4
-_ZdlPv@@GLIBCXX_3.4
-_Znam@@GLIBCXX_3.4
-_Znwm@@GLIBCXX_3.4
 __FRAME_END__
 __JCR_END__
 __JCR_LIST__
@@ -1119,9 +1020,13 @@ once_regsizes.9654
 openvr
 openvrpaths.vrpath
 operator delete(void*)
+operator delete(void*)@@GLIBCXX_3.4
 operator delete[](void*)
+operator delete[](void*)@@GLIBCXX_3.4
 operator new(unsigned long)
+operator new(unsigned long)@@GLIBCXX_3.4
 operator new[](unsigned long)
+operator new[](unsigned long)@@GLIBCXX_3.4
 precision
 pthread_mutex_lock
 pthread_mutex_lock@@GLIBC_2.2.5
@@ -1161,72 +1066,128 @@ std::_Rb_tree<Json::Value::CZString, std::pair<Json::Value::CZString const, Json
 std::_Rb_tree<Json::Value::CZString, std::pair<Json::Value::CZString const, Json::Value>, std::_Select1st<std::pair<Json::Value::CZString const, Json::Value>>, std::less<Json::Value::CZString>, std::allocator<std::pair<Json::Value::CZString const, Json::Value>>>::find(Json::Value::CZString const&)
 std::_Rb_tree<std::string, std::string, std::_Identity<std::string>, std::less<std::string>, std::allocator<std::string>>::_M_erase(std::_Rb_tree_node<std::string>*)
 std::_Rb_tree_decrement(std::_Rb_tree_node_base const*)
+std::_Rb_tree_decrement(std::_Rb_tree_node_base const*)@@GLIBCXX_3.4
 std::_Rb_tree_decrement(std::_Rb_tree_node_base*)
+std::_Rb_tree_decrement(std::_Rb_tree_node_base*)@@GLIBCXX_3.4
 std::_Rb_tree_increment(std::_Rb_tree_node_base const*)
+std::_Rb_tree_increment(std::_Rb_tree_node_base const*)@@GLIBCXX_3.4
 std::_Rb_tree_increment(std::_Rb_tree_node_base*)
+std::_Rb_tree_increment(std::_Rb_tree_node_base*)@@GLIBCXX_3.4
 std::_Rb_tree_insert_and_rebalance(bool, std::_Rb_tree_node_base*, std::_Rb_tree_node_base*, std::_Rb_tree_node_base&)
+std::_Rb_tree_insert_and_rebalance(bool, std::_Rb_tree_node_base*, std::_Rb_tree_node_base*, std::_Rb_tree_node_base&)@@GLIBCXX_3.4
 std::_Rb_tree_iterator<std::pair<Json::Value::CZString const, Json::Value>> std::_Rb_tree<Json::Value::CZString, std::pair<Json::Value::CZString const, Json::Value>, std::_Select1st<std::pair<Json::Value::CZString const, Json::Value>>, std::less<Json::Value::CZString>, std::allocator<std::pair<Json::Value::CZString const, Json::Value>>>::_M_emplace_hint_unique<std::piecewise_construct_t const&, std::tuple<Json::Value::CZString const&>, std::tuple<>>(std::_Rb_tree_const_iterator<std::pair<Json::Value::CZString const, Json::Value>>, std::piecewise_construct_t const&, std::tuple<Json::Value::CZString const&>&&, std::tuple<>&&)
 std::_Rb_tree_iterator<std::pair<Json::Value::CZString const, Json::Value>> std::_Rb_tree<Json::Value::CZString, std::pair<Json::Value::CZString const, Json::Value>, std::_Select1st<std::pair<Json::Value::CZString const, Json::Value>>, std::less<Json::Value::CZString>, std::allocator<std::pair<Json::Value::CZString const, Json::Value>>>::_M_insert_unique_<std::pair<Json::Value::CZString const, Json::Value>&, std::_Rb_tree<Json::Value::CZString, std::pair<Json::Value::CZString const, Json::Value>, std::_Select1st<std::pair<Json::Value::CZString const, Json::Value>>, std::less<Json::Value::CZString>, std::allocator<std::pair<Json::Value::CZString const, Json::Value>>>::_Alloc_node>(std::_Rb_tree_const_iterator<std::pair<Json::Value::CZString const, Json::Value>>, std::pair<Json::Value::CZString const, Json::Value>&, std::_Rb_tree<Json::Value::CZString, std::pair<Json::Value::CZString const, Json::Value>, std::_Select1st<std::pair<Json::Value::CZString const, Json::Value>>, std::less<Json::Value::CZString>, std::allocator<std::pair<Json::Value::CZString const, Json::Value>>>::_Alloc_node&)
 std::_Rb_tree_node<std::pair<Json::Value::CZString const, Json::Value>>* std::_Rb_tree<Json::Value::CZString, std::pair<Json::Value::CZString const, Json::Value>, std::_Select1st<std::pair<Json::Value::CZString const, Json::Value>>, std::less<Json::Value::CZString>, std::allocator<std::pair<Json::Value::CZString const, Json::Value>>>::_M_copy<std::_Rb_tree<Json::Value::CZString, std::pair<Json::Value::CZString const, Json::Value>, std::_Select1st<std::pair<Json::Value::CZString const, Json::Value>>, std::less<Json::Value::CZString>, std::allocator<std::pair<Json::Value::CZString const, Json::Value>>>::_Alloc_node>(std::_Rb_tree_node<std::pair<Json::Value::CZString const, Json::Value>> const*, std::_Rb_tree_node<std::pair<Json::Value::CZString const, Json::Value>>*, std::_Rb_tree<Json::Value::CZString, std::pair<Json::Value::CZString const, Json::Value>, std::_Select1st<std::pair<Json::Value::CZString const, Json::Value>>, std::less<Json::Value::CZString>, std::allocator<std::pair<Json::Value::CZString const, Json::Value>>>::_Alloc_node&)
 std::_Rb_tree_rebalance_for_erase(std::_Rb_tree_node_base*, std::_Rb_tree_node_base&)
+std::_Rb_tree_rebalance_for_erase(std::_Rb_tree_node_base*, std::_Rb_tree_node_base&)@@GLIBCXX_3.4
 std::__codecvt_abstract_base<wchar_t, char, __mbstate_t>::in(__mbstate_t&, char const*, char const*, char const*&, wchar_t*, wchar_t*, wchar_t*&) const
 std::__codecvt_abstract_base<wchar_t, char, __mbstate_t>::out(__mbstate_t&, wchar_t const*, wchar_t const*, wchar_t const*&, char*, char*, char*&) const
 std::__codecvt_utf8_base<char32_t>::do_always_noconv() const
+std::__codecvt_utf8_base<char32_t>::do_always_noconv() const@@GLIBCXX_3.4.21
 std::__codecvt_utf8_base<char32_t>::do_encoding() const
+std::__codecvt_utf8_base<char32_t>::do_encoding() const@@GLIBCXX_3.4.21
 std::__codecvt_utf8_base<char32_t>::do_in(__mbstate_t&, char const*, char const*, char const*&, char32_t*, char32_t*, char32_t*&) const
+std::__codecvt_utf8_base<char32_t>::do_in(__mbstate_t&, char const*, char const*, char const*&, char32_t*, char32_t*, char32_t*&) const@@GLIBCXX_3.4.21
 std::__codecvt_utf8_base<char32_t>::do_length(__mbstate_t&, char const*, char const*, unsigned long) const
+std::__codecvt_utf8_base<char32_t>::do_length(__mbstate_t&, char const*, char const*, unsigned long) const@@GLIBCXX_3.4.21
 std::__codecvt_utf8_base<char32_t>::do_max_length() const
+std::__codecvt_utf8_base<char32_t>::do_max_length() const@@GLIBCXX_3.4.21
 std::__codecvt_utf8_base<char32_t>::do_out(__mbstate_t&, char32_t const*, char32_t const*, char32_t const*&, char*, char*, char*&) const
+std::__codecvt_utf8_base<char32_t>::do_out(__mbstate_t&, char32_t const*, char32_t const*, char32_t const*&, char*, char*, char*&) const@@GLIBCXX_3.4.21
 std::__codecvt_utf8_base<char32_t>::do_unshift(__mbstate_t&, char*, char*, char*&) const
+std::__codecvt_utf8_base<char32_t>::do_unshift(__mbstate_t&, char*, char*, char*&) const@@GLIBCXX_3.4.21
 std::__codecvt_utf8_base<char32_t>::~__codecvt_utf8_base()
+std::__codecvt_utf8_base<char32_t>::~__codecvt_utf8_base()@@GLIBCXX_3.4.21
 std::__codecvt_utf8_base<wchar_t>::do_always_noconv() const
+std::__codecvt_utf8_base<wchar_t>::do_always_noconv() const@@GLIBCXX_3.4.21
 std::__codecvt_utf8_base<wchar_t>::do_encoding() const
+std::__codecvt_utf8_base<wchar_t>::do_encoding() const@@GLIBCXX_3.4.21
 std::__codecvt_utf8_base<wchar_t>::do_in(__mbstate_t&, char const*, char const*, char const*&, wchar_t*, wchar_t*, wchar_t*&) const
+std::__codecvt_utf8_base<wchar_t>::do_in(__mbstate_t&, char const*, char const*, char const*&, wchar_t*, wchar_t*, wchar_t*&) const@@GLIBCXX_3.4.21
 std::__codecvt_utf8_base<wchar_t>::do_length(__mbstate_t&, char const*, char const*, unsigned long) const
+std::__codecvt_utf8_base<wchar_t>::do_length(__mbstate_t&, char const*, char const*, unsigned long) const@@GLIBCXX_3.4.21
 std::__codecvt_utf8_base<wchar_t>::do_max_length() const
+std::__codecvt_utf8_base<wchar_t>::do_max_length() const@@GLIBCXX_3.4.21
 std::__codecvt_utf8_base<wchar_t>::do_out(__mbstate_t&, wchar_t const*, wchar_t const*, wchar_t const*&, char*, char*, char*&) const
+std::__codecvt_utf8_base<wchar_t>::do_out(__mbstate_t&, wchar_t const*, wchar_t const*, wchar_t const*&, char*, char*, char*&) const@@GLIBCXX_3.4.21
 std::__codecvt_utf8_base<wchar_t>::do_unshift(__mbstate_t&, char*, char*, char*&) const
+std::__codecvt_utf8_base<wchar_t>::do_unshift(__mbstate_t&, char*, char*, char*&) const@@GLIBCXX_3.4.21
 std::__codecvt_utf8_base<wchar_t>::~__codecvt_utf8_base()
+std::__codecvt_utf8_base<wchar_t>::~__codecvt_utf8_base()@@GLIBCXX_3.4.21
 std::__ioinit
 std::__throw_bad_alloc()
+std::__throw_bad_alloc()@@GLIBCXX_3.4
 std::__throw_bad_cast()
+std::__throw_bad_cast()@@GLIBCXX_3.4
 std::__throw_bad_function_call()
+std::__throw_bad_function_call()@@GLIBCXX_3.4.14
 std::__throw_length_error(char const*)
+std::__throw_length_error(char const*)@@GLIBCXX_3.4
 std::__throw_logic_error(char const*)
+std::__throw_logic_error(char const*)@@GLIBCXX_3.4
 std::__throw_out_of_range_fmt(char const*, ...)
+std::__throw_out_of_range_fmt(char const*, ...)@@GLIBCXX_3.4.20
 std::__throw_range_error(char const*)
+std::__throw_range_error(char const*)@@GLIBCXX_3.4
 std::__throw_system_error(int)
+std::__throw_system_error(int)@@GLIBCXX_3.4.11
 std::basic_ios<char, std::char_traits<char>>::init(std::basic_streambuf<char, std::char_traits<char>>*)
+std::basic_ios<char, std::char_traits<char>>::init(std::basic_streambuf<char, std::char_traits<char>>*)@@GLIBCXX_3.4
 std::basic_istream<char, std::char_traits<char>>& std::getline<char, std::char_traits<char>, std::allocator<char>>(std::basic_istream<char, std::char_traits<char>>&, std::basic_string<char, std::char_traits<char>, std::allocator<char>>&, char)
+std::basic_istream<char, std::char_traits<char>>& std::getline<char, std::char_traits<char>, std::allocator<char>>(std::basic_istream<char, std::char_traits<char>>&, std::basic_string<char, std::char_traits<char>, std::allocator<char>>&, char)@@GLIBCXX_3.4
 std::basic_istringstream<char, std::char_traits<char>, std::allocator<char>>::~basic_istringstream()
+std::basic_istringstream<char, std::char_traits<char>, std::allocator<char>>::~basic_istringstream()@@GLIBCXX_3.4
 std::basic_ostream<char, std::char_traits<char>>& std::__ostream_insert<char, std::char_traits<char>>(std::basic_ostream<char, std::char_traits<char>>&, char const*, long)
+std::basic_ostream<char, std::char_traits<char>>& std::__ostream_insert<char, std::char_traits<char>>(std::basic_ostream<char, std::char_traits<char>>&, char const*, long)@@GLIBCXX_3.4.9
 std::basic_ostream<char, std::char_traits<char>>& std::operator<< <std::char_traits<char>>(std::basic_ostream<char, std::char_traits<char>>&, char const*)
+std::basic_ostream<char, std::char_traits<char>>& std::operator<< <std::char_traits<char>>(std::basic_ostream<char, std::char_traits<char>>&, char const*)@@GLIBCXX_3.4
 std::basic_ostringstream<char, std::char_traits<char>, std::allocator<char>>::basic_ostringstream(std::_Ios_Openmode)
+std::basic_ostringstream<char, std::char_traits<char>, std::allocator<char>>::basic_ostringstream(std::_Ios_Openmode)@@GLIBCXX_3.4
 std::basic_ostringstream<char, std::char_traits<char>, std::allocator<char>>::~basic_ostringstream()
+std::basic_ostringstream<char, std::char_traits<char>, std::allocator<char>>::~basic_ostringstream()@@GLIBCXX_3.4
 std::basic_string<char, std::char_traits<char>, std::allocator<char>> std::operator+<char, std::char_traits<char>, std::allocator<char>>(char const*, std::basic_string<char, std::char_traits<char>, std::allocator<char>> const&)
 std::basic_string<char, std::char_traits<char>, std::allocator<char>>::basic_string(char const*, std::allocator<char> const&)
+std::basic_string<char, std::char_traits<char>, std::allocator<char>>::basic_string(char const*, std::allocator<char> const&)@@GLIBCXX_3.4
 std::basic_string<char, std::char_traits<char>, std::allocator<char>>::basic_string(char const*, unsigned long, std::allocator<char> const&)
+std::basic_string<char, std::char_traits<char>, std::allocator<char>>::basic_string(char const*, unsigned long, std::allocator<char> const&)@@GLIBCXX_3.4
 std::basic_string<char, std::char_traits<char>, std::allocator<char>>::basic_string(std::allocator<char> const&)
+std::basic_string<char, std::char_traits<char>, std::allocator<char>>::basic_string(std::allocator<char> const&)@@GLIBCXX_3.4
 std::basic_string<char, std::char_traits<char>, std::allocator<char>>::basic_string(std::string const&)
+std::basic_string<char, std::char_traits<char>, std::allocator<char>>::basic_string(std::string const&)@@GLIBCXX_3.4
 std::basic_string<char, std::char_traits<char>, std::allocator<char>>::basic_string(std::string const&, unsigned long, unsigned long)
+std::basic_string<char, std::char_traits<char>, std::allocator<char>>::basic_string(std::string const&, unsigned long, unsigned long)@@GLIBCXX_3.4
 std::basic_string<char, std::char_traits<char>, std::allocator<char>>::basic_string(unsigned long, char, std::allocator<char> const&)
+std::basic_string<char, std::char_traits<char>, std::allocator<char>>::basic_string(unsigned long, char, std::allocator<char> const&)@@GLIBCXX_3.4
 std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t>>::_M_leak_hard()
+std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t>>::_M_leak_hard()@@GLIBCXX_3.4
 std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t>>::_M_mutate(unsigned long, unsigned long, unsigned long)
+std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t>>::_M_mutate(unsigned long, unsigned long, unsigned long)@@GLIBCXX_3.4
 std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t>>::_M_replace_safe(unsigned long, unsigned long, wchar_t const*, unsigned long)
+std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t>>::_M_replace_safe(unsigned long, unsigned long, wchar_t const*, unsigned long)@@GLIBCXX_3.4
 std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t>>::_Rep::_M_destroy(std::allocator<wchar_t> const&)
+std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t>>::_Rep::_M_destroy(std::allocator<wchar_t> const&)@@GLIBCXX_3.4
 std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t>>::_Rep::_M_dispose(std::allocator<wchar_t> const&) (.part.10)
 std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t>>::_Rep::_S_create(unsigned long, unsigned long, std::allocator<wchar_t> const&)
+std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t>>::_Rep::_S_create(unsigned long, unsigned long, std::allocator<wchar_t> const&)@@GLIBCXX_3.4
 std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t>>::_Rep::_S_empty_rep_storage
+std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t>>::_Rep::_S_empty_rep_storage@@GLIBCXX_3.4
 std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t>>::basic_string(std::allocator<wchar_t> const&)
+std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t>>::basic_string(std::allocator<wchar_t> const&)@@GLIBCXX_3.4
 std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t>>::basic_string(std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t>> const&)
+std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t>>::basic_string(std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t>> const&)@@GLIBCXX_3.4
 std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t>>::resize(unsigned long, wchar_t)
+std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t>>::resize(unsigned long, wchar_t)@@GLIBCXX_3.4
 std::basic_stringbuf<char, std::char_traits<char>, std::allocator<char>>::_M_sync(char*, unsigned long, unsigned long)
+std::basic_stringbuf<char, std::char_traits<char>, std::allocator<char>>::_M_sync(char*, unsigned long, unsigned long)@@GLIBCXX_3.4
 std::basic_stringbuf<char, std::char_traits<char>, std::allocator<char>>::str() const
+std::basic_stringbuf<char, std::char_traits<char>, std::allocator<char>>::str() const@@GLIBCXX_3.4
 std::basic_stringbuf<char, std::char_traits<char>, std::allocator<char>>::~basic_stringbuf()
 std::codecvt<wchar_t, char, __mbstate_t>::codecvt(unsigned long)
+std::codecvt<wchar_t, char, __mbstate_t>::codecvt(unsigned long)@@GLIBCXX_3.4
 std::codecvt_utf8<char32_t, 1114111ul, (std::codecvt_mode)0>::~codecvt_utf8()
 std::codecvt_utf8<wchar_t, 1114111ul, (std::codecvt_mode)0>::~codecvt_utf8()
 std::ctype<char>::_M_widen_init() const
+std::ctype<char>::_M_widen_init() const@@GLIBCXX_3.4.11
 std::ctype<char>::do_widen(char) const
 std::deque<Json::OurReader::ErrorInfo, std::allocator<Json::OurReader::ErrorInfo>>::_M_default_append(unsigned long) (.part.153)
 std::deque<Json::OurReader::ErrorInfo, std::allocator<Json::OurReader::ErrorInfo>>::_M_destroy_data_aux(std::_Deque_iterator<Json::OurReader::ErrorInfo, Json::OurReader::ErrorInfo&, Json::OurReader::ErrorInfo*>, std::_Deque_iterator<Json::OurReader::ErrorInfo, Json::OurReader::ErrorInfo&, Json::OurReader::ErrorInfo*>)
@@ -1237,23 +1198,37 @@ std::deque<Json::Reader::ErrorInfo, std::allocator<Json::Reader::ErrorInfo>>::_M
 std::deque<Json::Reader::ErrorInfo, std::allocator<Json::Reader::ErrorInfo>>::_M_new_elements_at_back(unsigned long)
 std::deque<Json::Reader::ErrorInfo, std::allocator<Json::Reader::ErrorInfo>>::_M_reallocate_map(unsigned long, bool)
 std::exception::~exception()
+std::exception::~exception()@@GLIBCXX_3.4
 std::ios_base::Init::Init()
+std::ios_base::Init::Init()@@GLIBCXX_3.4
 std::ios_base::Init::~Init()
+std::ios_base::Init::~Init()@@GLIBCXX_3.4
 std::ios_base::ios_base()
+std::ios_base::ios_base()@@GLIBCXX_3.4
 std::ios_base::~ios_base()
+std::ios_base::~ios_base()@@GLIBCXX_3.4
 std::istream& std::istream::_M_extract<double>(double&)
+std::istream& std::istream::_M_extract<double>(double&)@@GLIBCXX_3.4.9
 std::locale::locale()
+std::locale::locale()@@GLIBCXX_3.4
 std::locale::~locale()
+std::locale::~locale()@@GLIBCXX_3.4
 std::ostream::operator<<(int)
+std::ostream::operator<<(int)@@GLIBCXX_3.4
 std::ostream::operator<<(std::basic_streambuf<char, std::char_traits<char>>*)
+std::ostream::operator<<(std::basic_streambuf<char, std::char_traits<char>>*)@@GLIBCXX_3.4
 std::pair<Json::Value::CZString const, Json::Value>::~pair()
 std::pair<std::_Rb_tree_iterator<std::string>, bool> std::_Rb_tree<std::string, std::string, std::_Identity<std::string>, std::less<std::string>, std::allocator<std::string>>::_M_insert_unique<std::string>(std::string&&)
 std::piecewise_construct
 std::string __gnu_cxx::__to_xstring<std::string, char>(int (*)(char*, unsigned long, char const*, __va_list_tag*), unsigned long, char const*, ...)
 std::string::_M_leak_hard()
+std::string::_M_leak_hard()@@GLIBCXX_3.4
 std::string::_M_mutate(unsigned long, unsigned long, unsigned long)
+std::string::_M_mutate(unsigned long, unsigned long, unsigned long)@@GLIBCXX_3.4
 std::string::_M_replace_safe(unsigned long, unsigned long, char const*, unsigned long)
+std::string::_M_replace_safe(unsigned long, unsigned long, char const*, unsigned long)@@GLIBCXX_3.4
 std::string::_Rep::_M_destroy(std::allocator<char> const&)
+std::string::_Rep::_M_destroy(std::allocator<char> const&)@@GLIBCXX_3.4
 std::string::_Rep::_M_dispose(std::allocator<char> const&) (.part.0)
 std::string::_Rep::_M_dispose(std::allocator<char> const&) (.part.1)
 std::string::_Rep::_M_dispose(std::allocator<char> const&) (.part.2)
@@ -1262,19 +1237,33 @@ std::string::_Rep::_M_dispose(std::allocator<char> const&) (.part.7)
 std::string::_Rep::_M_dispose(std::allocator<char> const&) (.part.8)
 std::string::_Rep::_M_dispose(std::allocator<char> const&) (.part.9)
 std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&)
+std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&)@@GLIBCXX_3.4
 std::string::_Rep::_S_empty_rep_storage
+std::string::_Rep::_S_empty_rep_storage@@GLIBCXX_3.4
 std::string::append(char const*, unsigned long)
+std::string::append(char const*, unsigned long)@@GLIBCXX_3.4
 std::string::append(std::string const&)
+std::string::append(std::string const&)@@GLIBCXX_3.4
 std::string::assign(char const*, unsigned long)
+std::string::assign(char const*, unsigned long)@@GLIBCXX_3.4
 std::string::assign(std::string const&)
+std::string::assign(std::string const&)@@GLIBCXX_3.4
 std::string::compare(char const*) const
+std::string::compare(char const*) const@@GLIBCXX_3.4
 std::string::erase(__gnu_cxx::__normal_iterator<char*, std::string>, __gnu_cxx::__normal_iterator<char*, std::string>)
+std::string::erase(__gnu_cxx::__normal_iterator<char*, std::string>, __gnu_cxx::__normal_iterator<char*, std::string>)@@GLIBCXX_3.4
 std::string::insert(unsigned long, char const*, unsigned long)
+std::string::insert(unsigned long, char const*, unsigned long)@@GLIBCXX_3.4
 std::string::replace(unsigned long, unsigned long, char const*, unsigned long)
+std::string::replace(unsigned long, unsigned long, char const*, unsigned long)@@GLIBCXX_3.4
 std::string::reserve(unsigned long)
+std::string::reserve(unsigned long)@@GLIBCXX_3.4
 std::string::resize(unsigned long, char)
+std::string::resize(unsigned long, char)@@GLIBCXX_3.4
 std::string::rfind(char, unsigned long) const
+std::string::rfind(char, unsigned long) const@@GLIBCXX_3.4
 std::string::swap(std::string&)
+std::string::swap(std::string&)@@GLIBCXX_3.4
 std::vector<std::string, std::allocator<std::string>>::operator=(std::vector<std::string, std::allocator<std::string>> const&)
 std::vector<std::string, std::allocator<std::string>>::reserve(unsigned long)
 std::vector<std::string, std::allocator<std::string>>::~vector()
@@ -1327,10 +1316,13 @@ typeinfo for Json::Writer
 typeinfo for bool (*)(char)
 typeinfo for bool (char)
 typeinfo for std::__codecvt_utf8_base<char32_t>
+typeinfo for std::__codecvt_utf8_base<char32_t>@@GLIBCXX_3.4.21
 typeinfo for std::__codecvt_utf8_base<wchar_t>
+typeinfo for std::__codecvt_utf8_base<wchar_t>@@GLIBCXX_3.4.21
 typeinfo for std::codecvt_utf8<char32_t, 1114111ul, (std::codecvt_mode)0>
 typeinfo for std::codecvt_utf8<wchar_t, 1114111ul, (std::codecvt_mode)0>
 typeinfo for std::exception
+typeinfo for std::exception@@GLIBCXX_3.4
 typeinfo name for Json::BuiltStyledStreamWriter
 typeinfo name for Json::CharReader
 typeinfo name for Json::CharReader::Factory
@@ -1412,18 +1404,26 @@ vtable for Json::StreamWriterBuilder
 vtable for Json::StyledWriter
 vtable for Json::Writer
 vtable for __cxxabiv1::__class_type_info
+vtable for __cxxabiv1::__class_type_info@@CXXABI_1.3
 vtable for __cxxabiv1::__function_type_info
+vtable for __cxxabiv1::__function_type_info@@CXXABI_1.3
 vtable for __cxxabiv1::__pointer_type_info
+vtable for __cxxabiv1::__pointer_type_info@@CXXABI_1.3
 vtable for __cxxabiv1::__si_class_type_info
+vtable for __cxxabiv1::__si_class_type_info@@CXXABI_1.3
 vtable for std::basic_ios<char, std::char_traits<char>>
+vtable for std::basic_ios<char, std::char_traits<char>>@@GLIBCXX_3.4
 vtable for std::basic_istringstream<char, std::char_traits<char>, std::allocator<char>>
+vtable for std::basic_istringstream<char, std::char_traits<char>, std::allocator<char>>@@GLIBCXX_3.4
 vtable for std::basic_ostringstream<char, std::char_traits<char>, std::allocator<char>>
+vtable for std::basic_ostringstream<char, std::char_traits<char>, std::allocator<char>>@@GLIBCXX_3.4
 vtable for std::basic_streambuf<char, std::char_traits<char>>
+vtable for std::basic_streambuf<char, std::char_traits<char>>@@GLIBCXX_3.4
 vtable for std::basic_stringbuf<char, std::char_traits<char>, std::allocator<char>>
+vtable for std::basic_stringbuf<char, std::char_traits<char>, std::allocator<char>>@@GLIBCXX_3.4
 vtable for std::codecvt_utf8<char32_t, 1114111ul, (std::codecvt_mode)0>
 vtable for std::codecvt_utf8<wchar_t, 1114111ul, (std::codecvt_mode)0>
 wcslen
 wcslen@@GLIBC_2.2.5
 wstring_convert::from_bytes
 wstring_convert::to_bytes
-xZ4%

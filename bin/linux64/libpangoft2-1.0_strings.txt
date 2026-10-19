@@ -1,8 +1,5 @@
-                                
   AWwbr
   OHhoj
- !"#$%&'()*+,-./01234
- !"#%'()*+.01234569;<=8>?@ABCDEFGHIJLMPQSVTUXYZ[\]_`bdefghiklnpqrtuwx{|}~
  %04x
  %08x
  ABAach
@@ -556,14 +553,17 @@
 "%s" is not known boolean
 "%s": not a valid double
 "%s": not a valid integer
-$&-/7:KNORW^acjmosyz
 %!FontType
 %!PS-Adobe-3.0 Resource-CIDFont
 %!PS-AdobeFont
 %!PS-TrueTypeFont
 %04x:
 %ADOBeginFontDict
+%d(i)
+%f %f
 %g %g %g %g
+%g(f)
+%ld\n
 %lg %lg %lg %lg
 %s charset
 %s list after 
@@ -573,49 +573,24 @@ $&-/7:KNORW^acjmosyz
 %s: invalid %s id %u for "%s" of type '%s' in '%s'
 %s: invalid cache file: %s\n
 %s: not cleaning %s cache directory\n
-&2&6&:&>&B&F&J&N&R&V0
-' '$'(','0'4'8'<'@0
-'!$J$N$R$V$Z$^$b$f$j$n0
-'\'`'d'h'l'p't'x'|'
-'\r%2%6%:%>%B%F%J%N%R%V0
-( ($(((,(0(4(8(<(@0
 ()/<>[]{}\t\f\r\n 
 (Hex)
-(Z(^(b(f(j(n(r(v(z1
 (font) 
 (ignore blanks)
 (pattern) 
 (uintptr_t) pos % sizeof (scratch_buffer_t) == 0
-****************\r*
-****************\r***
-**************\r
-**************\r*
-**************\r***
-**************\r/**
-*********+******\r***
-*********-******\r*
-*******.******\r/**
-*******.**.***\r/**
-*\r*******-******\r*
-,D0j
--./123456789:;<=
 -abcdefghijklmnopqrstuvwxyz
--j'j2j>jU
 -le64.cache-4
 .AppleDouble/
-.B.F.J.N.R.V.Z.^2
-.\v1o0
 .notdef
 .null
 .resource/
-/5\n,6,:,>,B,F,J,N,R,V,Z0
 /home/buildbot/buildslave/pango_linux/build/fontconfig-2.11.1/lib64/var/cache/fontconfig
 /home/buildbot/buildslave/pango_linux/build/pango-1.36.8/lib64/lib:/valve/steam-runtime/runtime/amd64/usr/lib/x86_64-linux-gnu
 /proc/self/exe
 /sfnts
 /usr/share/fonts
 0 == strcmp (allocated_var_owner[i], owner)
-0!0%0)0-014
 0.9.35
 001.000
 001.001
@@ -624,65 +599,26 @@ $&-/7:KNORW^acjmosyz
 0123456789
 0123456789abcdef
 0123456789abcdefFcCacheFini
-050s0
 1 <= pref_len && pref_len <= 2
-1"1i3
-1*1V1[0
 1.2.46
 1000 160
 10646
-1:1>1B1F1J1N1R0
-1a1e1
-2)202<2U2e2
-2*E{1
 20 25 38 25 05
-2C2L
-2Jq]\nU
-2q2z2
-3)323A3O3
-3h3q
-4%43
-4G4Pe
-4j4r4}4
-575A
-5G5S
-5_5i5p
 5gib
-646B
-6K6S
-6o6v6
-789:;<=>?@ABCDEFGHIJKLMNOPQRST
-797k7
-7F7W7c
-7HMz
-7\n0K0O0S0W0[0_0c0g0k0o0
 8859
 8888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888
 8888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888
-8n8y
-9@9Y9`9y9
-9F9O
-9`B\fY
-9g9p
-:4\t/B/F/J/N/R/V/Z/^/b0
 <match target="scan"> cannot edit user-defined object "%s"
 <ultra
 <unknown>
 <void>
->7>Ba
 ?IA__FcFontSetMatch
 ?PangoFcFamily
-?ffffff
-@1PD
-@433333
-A*A3
-A;AAA[
 ADBE
 ADD_STYLE_NAME
 AEsmall
 AGFA
 AHNAn"
-AJAU
 ALLOW_X_DMOVE_Rules
 ALTS
 ALWAYS_DO_DELTAP_Rules
@@ -707,7 +643,6 @@ AdobeSymbolEnt
 Agrave
 Agravesmall
 Aharoni
-AiAtA
 Andale Mono
 Andalus
 Angsana New
@@ -730,15 +665,11 @@ Atilde
 Atildesmall
 AxisLabel
 AxisType
-Az@{EG
-B<B{B
-BDEC
 BDF_Face_Done
 BDF_Face_Init
 BDF_Glyph_Load
 BDF_Size_Request
 BDF_Size_Select
-BFBQB[Bb
 BIG-5
 BITMAP
 BITS
@@ -748,16 +679,13 @@ BUSGSOPGPangoOTRuleset
 BZ2_bzDecompress
 BZ2_bzDecompressEnd
 BZ2_bzDecompressInit
-B\nU0
 BasicEngineFc
 BasicScriptEngineFc
 Baskerville
 Batang
-BcSX
 Best score
 Bezier_Down
 Bezier_Up
-BiBr
 Bigelow
 Bitstream
 Bitstream Vera Sans
@@ -782,7 +710,6 @@ BrowalliaUPC
 Bsmall
 CACHEDIR.TAG
 CANO
-CB$F
 CHARS
 CHARSET_COLLECTIONS
 CHARSET_ENCODING
@@ -799,14 +726,12 @@ COMPATIBLE_WIDTHS_Rules
 CONTRAST_Rules
 COPYRIGHT
 COURIER_NEW_2_HACK_Rules
-CQCtC
 CSWTCH.18
 CSWTCH.53
 CSWTCH.62
 CSWTCH.64
 CSWTCH.66
 CSWTCH.79
-CWCf
 Cacute
 Calibri
 Candara
@@ -854,7 +779,6 @@ Csmall
 Cubic_To
 Current_Ppem
 Current_Ratio
-D&D4a
 DEEMBOLDEN_Rules
 DEFAULT_CHAR
 DESTINATION
@@ -863,8 +787,6 @@ DFKai-SB
 DFKaiSho-SB
 DFKaiShu
 DO_SHPIX_Rules
-DRW+
-DWDbDgD
 DWIDTH
 DYNA
 Dark Courier
@@ -888,21 +810,17 @@ Direct_Move_Orig_Y
 Direct_Move_X
 Direct_Move_Y
 Divide
-DmDs
 Dotaccentsmall
 Double
 Droid Sans
 Droid Sans Mono
 Dsmall
 Dual_Project
-E+E\HTH\HfHrH
-E3EAEL
 EMBOLDEN_Rules
 ENDCHAR
 ENDFONT
 ENDPROPERTIES
 EPSN
-E\f\nBP
 Eacute
 Eacutesmall
 Ecircumflex
@@ -912,7 +830,6 @@ Edieresissmall
 Edit %s 
 Egrave
 Egravesmall
-EnEyE
 EncodingScheme
 EndAxis
 EndCharMetrics
@@ -936,7 +853,6 @@ ExpertEncoding
 Expression doesn't take any effects for delete and delete_all
 Extra Light
 Extra Thin
-F'F2F>F\Fsa
 FACE_NAME
 FAMILY_CLASS_Rules
 FAMILY_NAME
@@ -946,8 +862,6 @@ FC_DEBUG=%s\n
 FC_LANG
 FDArray
 FDBytes
-FGHIJK
-FKFV
 FNT_Face_Done
 FNT_Face_Init
 FNT_Load_Glyph
@@ -1147,7 +1061,6 @@ FamilyBlues
 FamilyName
 FamilyOtherBlues
 FangSong_GB2312
-FbFi
 FcAlignSize
 FcAtomicCreate
 FcAtomicDeleteNew
@@ -1671,10 +1584,7 @@ FreesiaUPC
 Fsmall
 FullName
 Futura
-G!G&C
-G+GXGfGkGpGuG{G
 G7G;G@GEGJM
-G9\n-.-2-6-:->-B-F-J-N-R0
 GB2312
 GCC: (crosstool-NG 1.17.0) 4.6.3
 GDBytes
@@ -1683,8 +1593,6 @@ GLIBC_2.2.5
 GLIBC_2.3
 GLIBC_2.3.4
 GLIBC_2.7
-GPGTB
-G^GbF
 Garamond
 Gautami
 Gbreve
@@ -1698,7 +1606,6 @@ Gnat
 Gravesmall
 Gsmall
 Gulim
-H=HF
 HB_OPTIONS
 HB_SHAPER_LIST
 HEZLOCUS
@@ -1709,7 +1616,6 @@ Having multiple values in <test> isn't supported and may not work as expected
 Helvetica
 Helvetica CY
 Helvetica Neue
-Ho\thwh
 Horizontal_Sweep_Drop
 Horizontal_Sweep_Init
 Horizontal_Sweep_Span
@@ -1718,7 +1624,6 @@ Hsmall
 HuaTianKaiTi?
 HuaTianSongTi?
 Hungarumlautsmall
-I&I,I:IJ
 IA__FcAtomicCreate
 IA__FcAtomicDeleteNew
 IA__FcAtomicDestroy
@@ -1930,7 +1835,6 @@ INF_FT_Settings
 ISO-8859-1
 ISOLatin1Encoding
 ITALIC_ANGLE
-IaIrI
 Iacute
 Iacutesmall
 Icircumflex
@@ -1974,29 +1878,19 @@ IsMacResource
 Ismall
 Italic
 ItalicAngle
-J1J7JU
-J?JH
 JasmineUPC
 Johab
 Jsmall
-JvKsK}l\tJ
-K&K8KFKQ
-KUMUX
-K^Kd
 KaiTi_GB2312
 KodchiangUPC
 Ksmall
-L'LZa
-L0L:LA
 LARA
 LC_ALL
 LC_CTYPE
 LEAF
 LETR
-LHLQ
 LINO
 LINOTYPE-HELL
-LaLj
 LangSet
 LanguageGroup
 Latha
@@ -2015,7 +1909,6 @@ Linotype
 Listing
 Load_SBit_Png
 Lobster
-LrMDM
 Lslash
 Lslashsmall
 Lsmall
@@ -2024,14 +1917,11 @@ Lucida Grande
 Lucida Sans Typewriter
 Lucida Sans Unicode
 Luxi Sans
-LwH'
 MACINTOSH
 MACR
 MD5Transform
 MIAP_HACK_Rules
-MJM|a
 MONO
-MRM\Mc
 MS Gothic
 MS Legacy Fonts
 MS Mincho
@@ -2055,7 +1945,6 @@ Miriam
 Miriam Fixed
 Miriam Transparent
 Misc Legacy Fonts
-MjMs
 Monaco
 Mono
 Monospace
@@ -2067,13 +1956,11 @@ Move_CVT_Stretched
 Move_Zp2_Point
 Msmall
 Myriad Pro
-N;NHNQNkN
 NORMAL_ROUND_Rules
 NOTICE
 NO_ALIGNRP_AFTER_IUP_Rules
 NO_CALL_AFTER_IUP_Rules
 NO_DELTAP_AFTER_IUP_Rules
-NWNb
 Narkisim
 Narrow
 New_Profile
@@ -2087,15 +1974,11 @@ Not adding
 NotContains
 NotEqual
 Notice
-NqNy
 Nsmall
 Ntilde
 Ntildesmall
 Null pattern
-O5OFO\OgO
 OEsmall
-OPQRST
-OQOV
 OT::AlternateSubstFormat1::apply(OT::hb_apply_context_t*) const
 OT::AlternateSubstFormat1::closure(OT::hb_closure_context_t*) const
 OT::AlternateSubstFormat1::collect_glyphs(OT::hb_collect_glyphs_context_t*) const
@@ -2315,7 +2198,6 @@ Ogoneksmall
 Ograve
 Ogravesmall
 Omega
-OpOti
 Open Sans
 OpticalSize
 Optima
@@ -2325,7 +2207,6 @@ Oslashsmall
 Osmall
 Otilde
 Otildesmall
-P.P5
 PANGO_FT2_IS_FONT (font)
 PANGO_FT2_IS_FONT_MAP (fontmap)
 PANGO_IS_FC_DECODER (decoder)
@@ -2333,7 +2214,6 @@ PANGO_IS_FC_FONT (fcfont)
 PANGO_IS_FC_FONT (font)
 PANGO_IS_FC_FONT_MAP (fcfontmap)
 PANGO_IS_LAYOUT (layout)
-PAPU
 PARA
 PCF_Face_Done
 PCF_Face_Init
@@ -2374,7 +2254,6 @@ PangoRenderFc
 Pattern
 Pattern has %d elts (size %d)\n
 Plus
-PmXh]=b
 Pop_Push_Count
 PostScript (post) table missing
 Pragmata
@@ -2385,14 +2264,9 @@ Project
 Project_x
 Project_y
 Psmall
-Q)Q7QWQ
-Q=QH
 QMSI
-Q_Qd
 Qsmall
 Quest
-R%R<RqS
-R+R2
 RASTERIZER_35_Rules
 RAW_ASCENT
 RAW_AVERAGE_WIDTH
@@ -2427,7 +2301,6 @@ RELATIVE_WEIGHT
 RESOLUTION
 RESOLUTION_X
 RESOLUTION_Y
-RFRQR\Rf
 RICO
 ROUND_NONPIXEL_Y_MOVES_Rules
 ROUND_NONPIXEL_Y_MOVES_Rules_Exceptions
@@ -2460,9 +2333,6 @@ Round_To_Grid
 Round_To_Half_Grid
 Round_Up_To_Grid
 Rsmall
-S%S?a
-S+S6
-S5|D~
 SDBytes
 SETUP_INFINALITY_FT_Settings
 SETWIDTH_NAME
@@ -2476,7 +2346,6 @@ SKIP_NONPIXEL_Y_MOVES_Rules_Exceptions
 SKIP_OFFPIXEL_Y_MOVES_Rules
 SKIP_OFFPIXEL_Y_MOVES_Rules_Exceptions
 SLANT
-SLSnSzS
 SNAPPING_EDGE_DETECTION_Rules
 SNAPPING_M_Rules
 SNAPPING_NO_BEARING_CORRECTION_Rules
@@ -2486,7 +2355,6 @@ SNAPPING_STEM_TRANSLATING_Rules
 SNAPPING_STEM_WIDTHS_Rules
 SNAPPING_SYNTHESIZE_STEMS_Rules
 SPACING
-SRSd
 STARTCHAR
 STARTFONT
 STARTPROPERTIES
@@ -2540,7 +2408,6 @@ Subrs
 Supplement
 Sylfaen
 Symbol
-T#T.Tk
 T1_Compute_Max_Advance
 T1_Done_Blend.isra.3
 T1_Driver_Done
@@ -2577,12 +2444,8 @@ T42_Size_Done
 T42_Size_Init
 T42_Size_Request
 T42_Size_Select
-T4T;
-TETNTc
 THEZOCQS
 TIMES_NEW_ROMAN_HACK_Rules
-TMu,
-TTT[
 TT_Access_Glyph_Frame
 TT_Done_Context
 TT_Forget_Glyph_Frame
@@ -2642,7 +2505,6 @@ Type* OT::hb_serialize_context_t::extend_min(Type&) [with Type = OT::Lookup]
 Type* OT::hb_serialize_context_t::extend_min(Type&) [with Type = OT::SingleSubstFormat1]
 Type* OT::hb_serialize_context_t::extend_min(Type&) [with Type = OT::SingleSubstFormat2]
 UCS-2BE
-UEUeUt
 UIDBase
 UTF-16BE
 UTF-8
@@ -2666,8 +2528,6 @@ UniqueID
 Unknown FreeType2 error %#x
 Update_Max.part.36
 Usmall
-V$VYW
-V,V7VB
 VVector
 Verdana
 Verdana Clones
@@ -2676,28 +2536,22 @@ Vertical_Sweep_Drop
 Vertical_Sweep_Init
 Vertical_Sweep_Span
 Vertical_Sweep_Step
-VgVrV
 Vsmall
-W$W>WBWSW
-W,W6
 WEIGHT_NAME
 Wansung
 Webdings
 Weight
 WeightVector
-WiWr
 Windows FNT
 Wingdings
 Write_CVT
 Write_CVT_Stretched
 Wsmall
-XCXVXac
 XDG_CACHE_HOME
 XDG_CONFIG_HOME
 XDG_DATA_HOME
 XFree86
 XHeight
-XIXP
 XML_ErrorString
 XML_GetBuffer
 XML_GetCurrentLineNumber
@@ -2709,38 +2563,24 @@ XML_SetCharacterDataHandler
 XML_SetDoctypeDeclHandler
 XML_SetElementHandler
 XML_SetUserData
-XP@n2
 X_SCALING_Rules
 Xorg
 Xsmall
-YLYVh
-Y]Ym[u[
 Yacute
 Yacutesmall
 Ydieresis
 Ydieresissmall
-YeYii
 Ysmall
-Z!Z1
-ZDZUZ]Zj
 Zcaron
 Zcaronsmall
 Zsmall
-[#[/[:[[[c[n
 [%g %g; %g %g]
 [edit]
 [test]
-\!\(\A\\\~\
-\]^_`abcdef
-\f$\f1\f=\fH\fU\fa\fl\fy\f
-\f(\f6\fC\fP\f_\fn\f|\f
 \f0fr
 \f4fr
 \f8fr
-\f\v\n\f\v\n\f\v\n\f\v
-\fdUy
 \fzh-hk
-\n"\n)\n7\nA\nH\nS\nc\np\n|\n
 \n0es
 \n4es
 \n8es
@@ -2749,14 +2589,7 @@ Zsmall
 \nLes
 \nPes
 \nTes
-\n\t\n\t\t\t\n\t\n\t\t
 \ncharsets %d -> %d leaves %d -> %d\n
-\r#\r4\rE\rV\rg\r
-\r%\r1\rB\rQ\rZ\rf\rr\r~\r
-\r8STs\ne
-\t \t$\t6\tI\tY\th\ts\tz\t
-\t'\t8\tI\tZ\tx\t
-\t0PP
 \t0en
 \t4en
 \tDen
@@ -2776,10 +2609,6 @@ Zsmall
 \tos2 weight class %d maps to weight %d\n
 \tos2 width class %d maps to width %d\n
 \tsetwidth %s maps to %d\n
-\v"\v,\v9\vE\vR\v[\ve\vr\v
-\vD]GW
-\v\f\f\v\n\f\v\n\f\v\n\f\v\t\f
-\v\v\v\v\v\v\v\v\v\v\v\v
 _DYNAMIC
 _FcBaseConstants
 _FcConfigHomeEnabled
@@ -2986,8 +2815,6 @@ _try_writable(hb_blob_t*)
 `SIZE' field missing
 `STARTCHAR' field missing
 `STARTFONT' field missing
-a'aCaYb"b8b
-a-a8
 a100
 a101
 a102
@@ -3091,8 +2918,6 @@ a203
 a204
 a205
 a206
-aJaP
-a\ft/tOtet
 aacute
 abcdefghijklmnopqrstuvwxyz
 accept
@@ -3106,7 +2931,6 @@ addtag
 adieresis
 adnK
 adobe
-aeam
 af_autofitter_done
 af_autofitter_init
 af_autofitter_interface
@@ -3320,11 +3144,6 @@ aveD
 ayrO
 az-az
 az-ir
-b%DD
-b(b0
-bBbMb
-bTbm
-b^be
 backslash
 bad alias
 bad argument
@@ -3388,13 +3207,8 @@ buffer->content_type == HB_BUFFER_CONTENT_TYPE_UNICODE
 buffer->content_type == HB_BUFFER_CONTENT_TYPE_UNICODE || (!buffer->len && buffer->content_type == HB_BUFFER_CONTENT_TYPE_INVALID)
 buffer->have_positions
 bullet
-bwb~
 by_encoding
 byte_i < 8 && byte_i + count <= 8
-c c2
-c7cPc
-c>cG
-cZcccqc
 cache
 cache scan dir %s\n
 cache_lock
@@ -3416,7 +3230,6 @@ caps
 caron
 ccaron
 ccedilla
-cdefgh
 cedilla
 ceil
 ceil@@GLIBC_2.2.5
@@ -3621,8 +3434,6 @@ crtstuff.c
 cs2c
 culmus
 currency
-d6d?a
-d]dbdpdyd
 dagger
 daggerdbl
 darkening-parameters
@@ -3655,7 +3466,6 @@ desc != NULL
 destroy_charmaps
 destroy_face
 destroy_size
-dhdl3
 dieresis
 direction_strings
 divide
@@ -3673,10 +3483,7 @@ dtor_idx.5891
 dual
 dunhill
 dynalab
-e e%e.e=eM
-eZe}e
 eacute
-ebegeq
 ecircumflex
 edieresis
 edit
@@ -3715,10 +3522,6 @@ extrabold
 extracondensed
 extraexpanded
 extralight
-f!f=fEfwf
-f'f5
-fPfo
-fWfc
 failed reading config file
 fallback
 fallback-script
@@ -3982,8 +3785,6 @@ fvba
 fwlb
 fwrite
 fwrite@@GLIBC_2.2.5
-g5g>gK
-gZgnhKhWhci
 g__cached_buffer_lock
 g_array_append_vals
 g_array_free
@@ -4556,7 +4357,6 @@ hdigits
 header_fields.4237
 heavy
 hex.6530
-hijklmnopqrstuvwxyz{|}~
 hintfull
 hinting
 hinting-engine
@@ -4574,7 +4374,6 @@ hyphen
 hypheninferior
 hyphensuperior
 i <= out_len + (len - idx)
-i(i4i:iP
 iacute
 icircumflex
 idieresis
@@ -4675,24 +4474,14 @@ is_member_of_style_class.part.39
 is_zero_width_char(hb_font_t*, unsigned int)
 isuperior
 italic
-j02^
-jDjK
-j[ros
 joining_table
-k k.k;m
-k(I\tAB
 k.6503
-kZkjk
-k\vnK
 kerning
 ku-am
 ku-iq
 ku-ir
 ku-tr
 kursiv
-l*l3
-lElblrl
-lKlV
 lang
 lang_compare_first_component(char const*, char const*)
 langs
@@ -4744,9 +4533,6 @@ lryCkerGrbeHntaL
 lslash
 lsuperior
 ltit
-mRmom}m
-mXme
-m\tm9e
 macromedia
 macron
 make_alias_description
@@ -4807,10 +4593,6 @@ mwlb
 myanmar_category
 myanmar_position
 mylM
-n2n?
-nJ,pf
-nPnq
-n^nf
 name
 name table missing
 name_record_fields.4269
@@ -4851,7 +4633,6 @@ nuke_joiners(hb_ot_shape_plan_t const*, hb_font_t*, hb_buffer_t*)
 num_items > 0
 number
 numbersign
-oEoOoZoaozo
 oacute
 oblique
 ocircumflex
@@ -4859,9 +4640,7 @@ odieresis
 offset_table_fields.4212
 ogonek
 ograve
-ohoq
 omega
-omjlomjvomjt`=
 onedotenleader
 oneeighth
 onefitted
@@ -4904,7 +4683,6 @@ override_features_indic(hb_ot_shape_planner_t*)
 override_features_myanmar(hb_ot_shape_planner_t*)
 override_features_sea(hb_ot_shape_planner_t*)
 p != ((void *)0)
-p#p7pP
 p@PangoOTInfo
 pa-pk
 pacp
@@ -5448,8 +5226,6 @@ pthread_mutex_unlock@@GLIBC_2.2.5
 putchar
 putchar@@GLIBC_2.2.5
 puts@@GLIBC_2.2.5
-q4qIqQ
-qYqaqnq
 qsort
 qsort@@GLIBC_2.2.5
 question
@@ -5464,8 +5240,6 @@ quoteleft
 quoteright
 quotesinglbase
 quotesingle
-r*r4r;
-rQr\
 ra_chars
 raccess_guess_apple_double
 raccess_guess_apple_generic.isra.13
@@ -5542,8 +5316,6 @@ ruby_coverage
 ruby_feature
 ruleset.17421
 rupiah
-s&sg
-s1s:sHsX
 s_FT_New_Face
 s_pchFilterString
 same
@@ -5631,7 +5403,6 @@ smooth
 smooth-lcd
 smooth-lcdv
 smooth.c
-smsv
 snaw
 snprintf
 snprintf@@GLIBC_2.2.5
@@ -5784,8 +5555,6 @@ t42_service_glyph_dict
 t42_service_ps_font_name
 t42_service_ps_info
 t42_services
-t5tF
-tUt[
 table_dir_entry_fields.4195
 table_tags
 tan@@GLIBC_2.2.5
@@ -5828,7 +5597,6 @@ titling_coverage
 titling_feature
 tkun
 tlacgilcsrucnrekagiltlcr
-tlt~
 too few arguments
 too many elements in range
 too many extensions
@@ -6003,8 +5771,6 @@ type1.c
 type1cid.c
 type42
 type42.c
-u,uEu
-uKu`
 uacute
 ucircumflex
 udieresis
@@ -6015,7 +5781,6 @@ ultrabold
 ultracondensed
 ultraexpanded
 ultralight
-uluzu
 underscore
 unicode_props0
 unicode_props1
@@ -6040,15 +5805,11 @@ using FreeType family "%s"\n
 using FreeType style "%s"\n
 using filename for family %s\n
 utav
-uvwxy
-v8vUb
-vRQ>
 valueToChar
 vbgr
 verticallayout
 vfprintf
 vfprintf@@GLIBC_2.2.5
-vnvyv
 void
 void OT::Coverage::add_coverage<hb_set_t>(hb_set_t*) const
 void OT::SubstLookup::add_coverage<hb_set_digest_combiner_t<hb_set_digest_lowest_bits_t<unsigned long, 4u>, hb_set_digest_combiner_t<hb_set_digest_lowest_bits_t<unsigned long, 0u>, hb_set_digest_lowest_bits_t<unsigned long, 9u>>>>(hb_set_digest_combiner_t<hb_set_digest_lowest_bits_t<unsigned long, 4u>, hb_set_digest_combiner_t<hb_set_digest_lowest_bits_t<unsigned long, 0u>, hb_set_digest_lowest_bits_t<unsigned long, 9u>>>*) const
@@ -6074,7 +5835,6 @@ void hb_ot_map_t::apply<GSUBProxy>(GSUBProxy const&, hb_ot_shape_plan_t const*, 
 void hb_ot_map_t::get_stage_lookups(unsigned int, unsigned int, const hb_ot_map_t::lookup_map_t**, unsigned int*) const
 void initial_reordering_consonant_syllable(const hb_ot_shape_plan_t*, hb_face_t*, hb_buffer_t*, unsigned int, unsigned int)
 vrgb
-wDwNwYw`wy
 warn_conf.8060
 warn_confd.8061
 warning
@@ -6082,7 +5842,6 @@ warning_callback
 weak
 weight
 weightConsts
-wgwp
 width
 widthConsts
 winfnt.c
@@ -6107,26 +5866,18 @@ write cache
 write@@GLIBC_2.2.5
 wrong number of matrix elements
 x-hbot
-x>xoxyx~
-xIxRx[xe
 xf86-driver-name
 xfree86
 xorg
 xzroesc
-y'y6y?yMa
-yZygy
 yacute
 ybur
 ydieresis
-ymyx
-z<zRz_zvz
-zCzI
 zcaron
 zero
 zeroinferior
 zerooldstyle
 zerosuperior
-zezn
 zh-Hans
 zh-Hant
 zh-cn

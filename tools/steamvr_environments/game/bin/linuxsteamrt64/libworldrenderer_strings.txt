@@ -9,7 +9,8 @@
  [%.3f server clamped to %.3f]
  [procedural] 
  [removed w REMOVED_KEYFIELD] 
-!>uK!>uK!>uK!>uK
+ max. %f
+ min. %f
 !m_bNeedsSort
 !m_boolDone
 !m_boolOpaque
@@ -36,6 +37,7 @@
 #include is NULL 
 #int#
 $ORIGIN
+%%%s
 %-120s - %s\n
 %-120s\n
 %.15lf
@@ -60,18 +62,26 @@ $ORIGIN
 %s  '%s' --> '%s' : %s (%s) [delay=%.2f;times=%d;type=%d]\n
 %s (Color)
 %s (Material)
+%s * %s
+%s + %s
+%s - %s
 %s - unknown entity lump '%s'\n
 %s - unknown or invalid world '%s'\n
 %s - unknown world layer '%s'\n
+%s / %s
 %s DynamicAtr:%s = '%s'\n
 %s allocation count overflow
 %s allocation count overflow( %llu > %llu )\n
 %s allocation count overflow( %llu >= %llu )\n
 %s executing script: %s\n
+%s#%d
+%s%d
+%s%s
 %s( No I/O Connections )\n
 %s+-- Schema Class: %s\n
 %s0x%08X %s = "%s"\n
 %s0x%08X:%s = "%s"\n
+%s: %s\n
 %s: string format requested %d chars\n
 %s:%s needs base %s:%s to be registered\n
 %s== World '%s' Entity Lump '%s': %d entities ==\n
@@ -122,7 +132,6 @@ $ORIGIN
 ../public/tier1/utlrbtree.h
 ../public/tier1/utltshash.h
 ../public/tier2/fieldpath.h
-.M;UU
 .exr
 .jpg
 .pfm
@@ -263,7 +272,6 @@ $ORIGIN
 37CTypesafeIntrospectedToKV3TypeManagerILy431366240118E11WorldNode_tE
 37CTypesafeIntrospectedToKV3TypeManagerILy495874631030E20PermEntityLumpData_tE
 40.0
-5t~BC
 6CWorld
 6ConVar
 6IWorld
@@ -304,6 +312,8 @@ $ORIGIN
 === %sEntity List Summary (%s) ===\n
 === Total: %s/%s %s entities%s ===\n
 =_modelbuilder_phys_%i.vphys
+>%hu
+>%lg
 ?/data/source2_main/src/thirdparty/etc2comp/EtcLib/EtcCodec/EtcBlock4x4Encoding_ETC1.cpp
 ?Trailing Data
 @/data/source2_main/src/thirdparty/etc2comp/EtcLib/Etc/EtcImage.cpp
@@ -814,7 +824,6 @@ Dump the contents of an entity lump
 DynamicConfigList
 DynamicCubeMapTexture_EncodeOnly.vtex
 DynamicCubeMapTexture_FlipMipEncode.vtex
-E3:0
 ENTITY_DORMANT
 ENTITY_IO_TARGET_CLASSNAME
 ENTITY_IO_TARGET_CLASSNAME_DERIVES_FROM
@@ -1242,7 +1251,6 @@ LoggingSystem_RegisterLoggingChannel
 Long grass load frame: %f ms for %d grass tiles\n
 LookAtList
 LowerEyelid( 
-LrwcE
 MATCHFRAMEWORK_001
 MClassHasCustomAlignedNewDelete
 MDefaultString
@@ -1281,7 +1289,6 @@ MaterialUtils_001
 MathLib_Init
 MaxNetworkableEntities
 MaxNonNetworkableEntities
-MbP?+
 MemAlloc_AllocFunc
 MemAlloc_FreeFunc
 MeshDrawPrimitiveFlags_t
@@ -1472,7 +1479,6 @@ Plat_UUIDFromString
 Plat_UUIDToString
 Plat_VirtualAlloc
 Plat_VirtualFree
-Po5H
 PosXYZ
 PostProcessingSystem_001
 Precaches a specific resource
@@ -1570,7 +1576,6 @@ Rigid;
 Root entity class
 RunScriptCode
 RunScriptFile
-S+Ot
 SIGNED_R11
 SIGNED_RG11
 SRGB8
@@ -1863,7 +1868,6 @@ ZN37CTypesafeIntrospectedToKV3TypeManagerILy431366240118E11WorldNode_tE15Allocat
 ZN37CTypesafeIntrospectedToKV3TypeManagerILy431366240118E11WorldNode_tE24DeallocateDestroyCleanupEPvP25IResourceDeallocatorUtilsE17CDeallocatorUtils
 ZN37CTypesafeIntrospectedToKV3TypeManagerILy495874631030E20PermEntityLumpData_tE15AllocateAndLoadER23CKV3TransferLoadContextPK21ResourceBindingBase_tP29IRD_RegisterResourceDataUtilsE15CAllocatorUtils
 ZN37CTypesafeIntrospectedToKV3TypeManagerILy495874631030E20PermEntityLumpData_tE24DeallocateDestroyCleanupEPvP25IResourceDeallocatorUtilsE17CDeallocatorUtils
-\nCwf\r
 \nLoaded List:\n
 \nPending List:\n
 \ng default\n
@@ -1933,6 +1937,7 @@ a_fDecodedAlpha >= 0.0f
 a_uiMultithreadingStride > 0
 a_uiRadius <= MAX_RADIUS
 abort
+abs( %s )
 activator
 after solve err=%f\n
 ai_model_info
@@ -1985,7 +1990,6 @@ break_uniform_burst
 breakable_count
 breakable_model
 breakable_skin
-bt3V
 buf error
 burst_randomize
 burst_scale
@@ -2025,6 +2029,7 @@ config_state
 configvalue.cpp
 control_point
 control_points_list
+cos( %s )
 create_particle
 cstring
 cubeblur
@@ -2071,6 +2076,7 @@ envMapArray.vtex
 event_class
 event_keys
 eventindex
+exp( %s )
 explosion_behavior
 explosion_buildup
 explosion_delay
@@ -2197,7 +2203,6 @@ kv 0x%p AddRef refcount == %d\n
 kv 0x%p Release refcount == %d\n
 kv3format_manager.cpp
 last_sniff
-lcQe
 ld-linux-x86-64.so.2
 length
 libc.so.6
@@ -2224,7 +2229,6 @@ loop_in_action
 looping
 lowprecisionuv
 lowprecisionuv1
-mXr4
 m_AttachmentName
 m_AttachmentType
 m_Attenuation0
@@ -2848,7 +2852,6 @@ modeldoc9
 modellib
 multiplayer_break
 nTries < 10000000
-n\f"pA3Q
 nav_attribute_avoid
 nav_data
 need dictionary
@@ -2981,6 +2984,7 @@ shadowtextureheight
 shadowtexturewidth
 shapeType
 sharpStartAngle
+sin( %s )
 singleplayer
 size
 size0
@@ -2991,6 +2995,7 @@ spawn_motion_disabled
 speeds
 springConstant
 sqrt
+sqrt( %s )
 sqrtf
 srgbgammatolinear
 ss_added
@@ -3232,8 +3237,6 @@ worldrenderer
 worldspawn
 yaw_end
 yaw_start
-z:KEZ
-{YIN?
 {}[]()=&, \t\n'"*;
 {}[]=, \t\n'":|;
 }\n %llu aggs, %s total data\n

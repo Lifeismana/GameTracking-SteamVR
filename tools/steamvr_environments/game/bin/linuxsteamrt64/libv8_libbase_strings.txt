@@ -1,3 +1,4 @@
+ %c%c%c%c
  <unknown> 
  BUS_ADRALN 
  BUS_ADRERR 
@@ -19,8 +20,6 @@
  ILL_PRVREG 
  SEGV_ACCERR 
  SEGV_MAPERR 
-!)@:F,@zj/@\G1@|
-"mm?7
 %08lx-%08lx
 %lx-%lx
 ../../src/base/platform/platform-linux.cc
@@ -31,16 +30,7 @@
 /proc/self/maps
 0 == result
 0123456789abcdef
-41Y'1
 ==== C stack trace ===============================\n
-=@zj?@L~@@\GA@l
-=v<y5
-?1cb
-?IUUUUU
-?UUUUUU
-?\rUUUUU
-?cUUUUU
-?v<y5
 @wKA\n\n#\n# Fatal error in %s, line %d\n# 
 CXXABI_1.3
 Check failed: %s.
@@ -57,11 +47,8 @@ GLIBC_2.4
 InVM(address, OS::CommitPageSize())
 InVM(address, size)
 IsValid()
-PCUUUUUU
 Received signal 
-UUUUU
 V8_Fatal
-V?LUUUUU
 VTT for std::basic_ostringstream<char, std::char_traits<char>, std::allocator<char>>
 VTT for std::basic_stringstream<char, std::char_traits<char>, std::allocator<char>>
 [end of stack trace]\n
@@ -115,7 +102,6 @@ cpu.cc
 crtstuff.c
 deregister_tm_clones
 division-by-constant.cc
-f?>UUUUU
 fclose
 ferror
 fflush
@@ -138,6 +124,7 @@ getpid
 getrlimit64
 getrusage
 gettimeofday
+gold 1.11
 guard variable for v8::base::OS::CommitPageSize()::page_size
 ieee754.cc
 libc.so.6
@@ -189,7 +176,6 @@ pthread_setspecific
 random-number-generator.cc
 register_tm_clones
 remove
-ri7f>
 scalbn
 sched_yield
 sem_destroy
@@ -498,7 +484,6 @@ v8::base::ieee754::tanh(double)::tiny
 v8::base::internal::CheckedNumeric<long>::ValueOrDie() const (.part.6)
 v8::base::operator<<(std::ostream&, v8::base::Time const&)
 v8::base::platform_random_number_generator
-v<y5
 void std::vector<v8::base::OS::SharedLibraryAddress, std::allocator<v8::base::OS::SharedLibraryAddress>>::_M_emplace_back_aux<v8::base::OS::SharedLibraryAddress>(v8::base::OS::SharedLibraryAddress&&)
 vtable for std::basic_ios<char, std::char_traits<char>>
 vtable for std::basic_ostringstream<char, std::char_traits<char>, std::allocator<char>>

@@ -1,6 +1,4 @@
                           
- !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
- !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
  Base Class Array'
  Base Class Descriptor at (
  Class Hierarchy Descriptor'
@@ -10,16 +8,16 @@
  delete[]
  inflate 1.2.8 Copyright 1995-2013 Mark Adler 
  new
-!AxU
-#bML"
+%U?%d
 %s could not be extracted!\n
+%s%s%s
+%s%s%s%s%s
 %s%s%s%s%s%s%s
 %s%s%s.exe
 %s%s%s.pkg
-&Sgw
-( 8PX
+%s: %s
+%s?%d
 (null)
-*5KS
 .00cfg
 .CRT$XCA
 .CRT$XCAA
@@ -55,22 +53,13 @@
 .rtc$TZZ
 .text$mn
 .xdata$x
-/P8i
-/yQA
 1#IND
 1#INF
 1#QNAN
 1#SNAN
 1.2.8
-1A26b
-1wsHp
-52F*
 700WP
-7~8A
-9a&g
-=87M
 ?5Wg4p
-?tanh
 ABCDEFGHIJKLMNOPQRSTUVWXYZ
 ActivateActCtx
 April
@@ -82,7 +71,6 @@ August
 Bad address
 Bad file descriptor
 Broken pipe
-C-Yn
 Cannot allocate memory for ARCHIVE_STATUS\n
 Cannot open archive file\n
 Cannot open self %s or archive %s\n
@@ -124,7 +112,6 @@ Error opening archive %s\n
 Exec format error
 ExitProcess
 ExpandEnvironmentStringsW
-FEMh\f
 Failed to append to sys.path\n
 Failed to convert %s to ShortFileName\n
 Failed to convert Wflag %s using mbstowcs (invalid multibyte string)\n
@@ -246,15 +233,12 @@ GetStringTypeW
 GetSystemTimeAsFileTime
 GetTempPathW
 GetTimeZoneInformation
-H$6t
-H*0"ZOW
 HH:mm:ss
 HeapAlloc
 HeapFree
 HeapReAlloc
 HeapSize
 INTERNAL ERROR: cannot create temporary directory!\n
-IiGM>nw
 Illegal byte sequence
 Improper link
 Inappropriate I/O control operation
@@ -281,15 +265,12 @@ LoadLibrary
 LoadLibraryA
 LoadLibraryExW
 LocaleNameToLCID
-M8MF
-MGiI
 MM/dd/yy
 March
 Monday
 MultiByteToWideChar
 NAN(IND)
 NAN(SNAN)
-NJ2"v
 Name exceeds PATH_MAX\n
 No child processes
 No error
@@ -302,11 +283,8 @@ No such process
 Not a directory
 Not enough space
 November
-O*9y]
-OZw3(?
 October
 Operation not permitted
-Pe6^
 PeekNamedPipe
 Permission denied
 PyDict_GetItemString
@@ -354,9 +332,7 @@ Py_SetPath
 Py_SetProgramName
 Py_SetPythonHome
 Py_VerboseFlag
-Qkkbal
 QueryPerformanceCounter
-R1h58
 RaiseException
 Read-only file system
 ReadConsoleW
@@ -367,7 +343,6 @@ Resource device
 Resource temporarily unavailable
 Result too large
 RtlUnwind
-SKyu
 Saturday
 September
 SetConsoleCtrlHandler
@@ -394,7 +369,6 @@ Too many open files in system
 Tuesday
 UnhandledExceptionFilter
 Unknown error
-Vc0a
 WARNING: file already exists but should not: %s\n
 WS2_32.dll
 WaitForSingleObject
@@ -402,15 +376,6 @@ Wednesday
 WideCharToMultiByte
 WriteConsoleW
 WriteFile
-X/4B
-XsBI
-Zjz\v
-[aOni*{
-[h1R
-\rmj>zjZ
-\tcQr
-^<V7w
-^oEZ_
 _MEIPASS
 _MEIPASS2
 _Py_char2wchar
@@ -475,14 +440,9 @@ buffer error
 calloc
 ceil
 cosh
-d8L2
-dQy/
 data error
 dddd, MMMM dd, yyyy
 e+000
-eLK(w
-ewh/?y
-fP~V
 fabs
 file error
 floor
@@ -490,14 +450,8 @@ fmod
 fopen
 fread
 frexp
-fu`z
 fwrite
-gqr<
-h0'D
-hPU3
 header crc mismatch
-i91k
-i]Wb
 incompatible version
 incorrect data check
 incorrect header check
@@ -514,15 +468,11 @@ invalid literal/length code
 invalid literal/lengths set
 invalid stored block lengths
 invalid window size
-k=yI
 kernel32
-l6qnk
-lDa>
 ldexp
 loads
 log10
 lzZ?
-m\nXo
 malloc
 marshal
 mod is NULL - %s
@@ -530,31 +480,20 @@ modf
 nan(ind)
 nan(snan)
 need dictionary
-obwQ4
 operator
 operator "" 
-owM&
 path
 pyi-
 pyi-runtime-tmpdir
 pyi-windows-manifest-filename
 restrict(
-ru&o
 sinh
 sqrt
 stream end
 stream error
 strict
+tanh
 too many length or distance symbols
 unknown compression method
 unknown header flags set
 utf-8
-v2!L.2
-vQO+t
-w+OQvr
-w3Xc
-wXR\r
-wn>Jj
-xpxxxx
-y9*O
-{kHw

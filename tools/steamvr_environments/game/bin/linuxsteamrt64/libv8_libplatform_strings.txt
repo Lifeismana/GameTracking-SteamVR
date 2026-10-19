@@ -46,6 +46,7 @@ deregister_tm_clones
 dummy
 false
 frame_dummy
+gold 1.11
 libc.so.6
 libpthread.so.0
 libstdc++.so.6

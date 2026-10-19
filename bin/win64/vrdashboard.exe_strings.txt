@@ -1,9 +1,12 @@
  for detail.\n
 !! refusing to trigger minidump with debugger attached\n
+%%.%dg
 %Y-%m-%d-%p_%I_%M_%S
 %a %b %d %H:%M:%S %Y
 %a %b %d %Y %H:%M:%S.%%03u
 %s %s startup with PID=%u, config=%s, runtime=%s, arch=%s\n
+%s%s%s%s%s
+%s%s\n
 %s[%s] %s file=%s
 ' is not a number.
 , last executing in 
@@ -132,7 +135,7 @@
 /user/waist
 /user/wrist/left
 /user/wrist/right
-14:22:51
+13:51:51
 1e+9999
 8c8f13b1-60eb-4b6a-a433-de86104115ac
 8d8f13b1-60eb-4b6a-a433-de86104115ac
@@ -188,7 +191,6 @@
 ?uncaught_exception@std@@YA_NXZ
 ?xsgetn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JPEAD_J@Z
 ?xsputn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JPEBD_J@Z
-@false
 A valid JSON document must be either an array or an object value.
 ADVAPI32.dll
 ASSERT: "%s" at %s:%d.\n
@@ -364,7 +366,7 @@ Missing ':' after object member name
 Missing '}' or object member name
 MoveFileExW
 NULL
-Oct  9 2026
+Oct 16 2026
 Out of thread local storage!\n
 OutputDebugStringA
 PeekMessageA
@@ -373,7 +375,6 @@ ProcessVREvents
 QueryPerformanceCounter
 QueryPerformanceFrequency
 RPCRT4.dll
-RSDS
 RaiseException
 ReadFile
 RealMain
@@ -646,6 +647,7 @@ exit
 expecting another \u token to begin the second half of a unicode surrogate pair
 external_drivers
 failIfExtra
+false
 fclose
 fflush
 fi_fi

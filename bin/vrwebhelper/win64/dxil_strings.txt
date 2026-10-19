@@ -12,8 +12,6 @@
   --- Name ---\n
   ---Mem---
   This option category has no options.\n
- !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
- !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
  (descriptor table slot [
  (no bind location)
  (root parameter 
@@ -24,7 +22,6 @@
  <bad ordering 
  <unknown operation 
  = comdat 
- C>TQ
  No predecessors!
  acq_rel
  acquire
@@ -107,9 +104,7 @@
 !GenericDINode(
 !dbg attachment points at wrong subprogram for function
 !prof annotations should have exactly 2 operands
-"e?<<<<<<l?
 # formal arguments must match # of arguments for function type!
-$Ib?s
 %"type 
 %0 Semantic '%1' should have a packing location of -1.
 %0 Semantic '%1' should have a valid packing location.
@@ -120,8 +115,6 @@ $Ib?s
 %0 shader '%1' missing required %2 parameter.
 %0 version in metadata (%1.%2) is not supported; maximum: (%3.%4).
 %9lld  
-&?PPPPPPP?
-&Sgw
 ' does not apply to function returns
 ' does not apply to functions!
 ' does not contain an entry block!\n
@@ -139,9 +132,7 @@ $Ib?s
 (root parameter[%u], visibility %s, descriptor table slot [%u])
 (static sampler [%u], visibility %s)
 ) is not fully bound in root signature.\n
-)yIx
 *** IR Dump After 
-*StO9>T
 , BaseShaderRegister=
 , NumDescriptor=
 , NumDescriptors=
@@ -150,19 +141,16 @@ $Ib?s
 , align 
 , section "
 , which is invalid since RegisterSpace values in the range 
-,HR>O
 - Corruption of the global PassRegistry
 - Pass misconfiguration (e.g.: missing macros)
 -0.000000e+00
 -1.#INF
--BH>t
 -INFINITY
 -NaN
 -inf
 -nan
 ... Pass execution timing report ...
 .00cfg
-.>\rfJBGo
 .?AUException@hlsl@@
 .?AUIDxcBlob@@
 .?AUIDxcBlobEncoding@@
@@ -440,19 +428,14 @@ $Ib?s
 .tls
 .tls$
 .tls$ZZZ
-.xJ>Hf
 .xdata
 .xdata$x
-/2GG>!B
 0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ
-0E>X
-0X8b?~
-0iN>/
 1#IND
+1#INF
 1#QNAN
 1#SNAN
 1.#INF
-11Y@
 1DArray<
 1darray
 2DArray<
@@ -462,30 +445,16 @@ $Ib?s
 2dMS
 2darray
 2darrayMS
-37>k
-3>N;kU
-3>fvw
-4F086
-51>W
 5TEJ
 64-bit atomic operations
-6NK>
 6S-M
-6\fXO>\ntA
-7>I0
-7?GX
 7E-M
-7~xh
 8.1-A
-8ke?;
-9>70
 ; (descriptor table slot [
 ; Error: Block without parent!
 ; Function Attrs: 
 ; Materializable\n
 ; ModuleID = '
-;1#INF
-;1cb
 <Invalid operator> 
 <X>() argument of incompatible type!\n
 <badref>
@@ -496,37 +465,16 @@ $Ib?s
 <placeholder or erroneous Constant>
 <stdin>
 <temporary!> 
-=1cb
-=87M
 =============================--------------------------------\n
-=cQ6
-=e2m
-=imb;D
->H<xB
->cQ6
->jtm}S
-?1cb
-?7zQ6$
-?8bunz8
-?@En[vP
-?JV8f
-?R0I?
 ?UUUUUU
-?f`Y4
-?qBJ
-?rAj
-?ysB
 @0zD
 @2pD
-@^8U)zj
 A Shader is declaring a resource object as a texture using 
 A Shader is declaring a structured UAV with counter using 
 A shader is declaring a typed UAV using a register mapped 
-A>pP&
 ABCDEFGHIJKLMNOPQRSTUVWXYZ
 ABI alignment specification must be >0 for non-aggregate types
 ADVAPI32.dll
-AK>(v
 AMPLIFICATION
 ASIn
 A\t<4x
@@ -561,7 +509,6 @@ AnnotateHandle
 AppPolicyGetProcessTerminationMethod
 AppendStructuredBuffer<
 April
-ArF&
 AreFileApisANSI
 Argument '%0' must be a struct type for attributes in shader function '%1'.
 Argument '%0' must be a struct type for callable shader function '%1'.
@@ -601,8 +548,6 @@ Attributes 'readnone and readonly' are incompatible!
 Attributes 'sret and returned' are incompatible!
 Attributes 'zeroext and signext' are incompatible!
 August
-BC?>6t9^\tc:>
-BF>^G
 Bad type for getAlignment!!!
 Barrier
 BaseShaderRegister=
@@ -632,7 +577,6 @@ BufferUpdateCounter valid only on UAV.
 BufferUpdateCounter valid only on structured buffers.
 BufferUpdateCounter valid only when HasCounter is true.
 ByteAddressBuffer
-C5R?\t
 C:\agent\_work\4\b\x64\DXC\include\llvm/IR/Intrinsics.gen
 C:\agent\_work\4\b\x64\DXC\lib\HLSL\DxilValidationImpl.inc
 C:\agent\_work\4\s\DXC\include\llvm/ADT/Twine.h
@@ -670,9 +614,7 @@ CBuffer %0 size insufficient for element at offset %1.
 CBuffer size is %0 bytes, exceeding maximum of 65536 bytes.
 CBufferLoad
 CBufferLoadLegacy
-CL:>8
 CSIn
-CWD>~3
 CalculateLOD
 Call parameter type does not match function signature!
 Call to DXIL intrinsic '%0' does not match an allowed overload signature.
@@ -1081,13 +1023,10 @@ DxcCreateInstance2
 Dxil
 Dxil operation for input output signature must be in entryPoints.
 Dxil struct types should only be used by ExtractValue.
-E>nEA
-ET5>
 EXTRACTVAL: Invalid array index
 EXTRACTVAL: Invalid instruction with 0 indices
 EXTRACTVAL: Invalid struct index
 EXTRACTVAL: Invalid type
-E[\rn?gc
 Emit/CutStream
 EmitIndices
 EmitStream
@@ -1130,9 +1069,7 @@ External function '%0' is not a DXIL function.
 External function '%0' is unused.
 Extra argument '%0' not allowed for shader function '%1'.
 ExtractValue should only be used on dxil struct types and cmpxchg.
-F>qUxv
 FAbs
-FEMh\f
 FMad
 FMax
 FMin
@@ -1150,12 +1087,10 @@ FPTrunc only operates on FP
 FPTrunc only produces an FP
 Fail to map resource to resource table.
 Failed to cast constant expression
-Fbad array new length
 Feature Info
 February
 FeedbackTexture2D
 FeedbackTexture2DArray
-FfW?
 Filter operand is not an array of constants!
 FindClose
 FindFirstFileExW
@@ -1176,7 +1111,6 @@ FlsFree
 FlsGetValue
 FlsSetValue
 FlushFileBuffers
-Fmap/set too long
 For amplification shader with entry '%0', payload size %1 is greater than declared size of %2 bytes.
 For amplification shader with entry '%0', payload size %1 is greater than maximum size of %2 bytes.
 For mesh shader with entry '%0', payload size %1 is greater than declared size of %2 bytes.
@@ -1210,7 +1144,6 @@ Function:
 FunctionPass Manager\n
 Functions cannot return aggregate values!
 Functions may not have common linkage
-G>US
 GCTL
 GEOMETRY
 GEP base pointer is not a vector or a vector of pointers
@@ -1290,7 +1223,6 @@ INSERTVAL: Invalid type
 IO failure on output stream.
 Ibfe
 IgnoreHit
-Il?333333c?
 Illegal cast to X86_MMX
 Incompatible argument and return types for 'returned' attribute
 Incorrect number of arguments passed to called function!
@@ -1433,13 +1365,9 @@ January
 July
 June
 KERNEL32.dll
-L>ev
-L?UUUUUUU?
 LCMapStringEx
 LCMapStringW
 LLVM ERROR: 
-LWG>
-LWW>
 LandingPadInst needs at least one clause or to be a cleanup.
 LandingPadInst needs to be in a function with a personality.
 LandingPadInst not the first non-PHI instruction in the block.
@@ -1503,12 +1431,8 @@ More than one parameter has attribute returned!
 Msad
 MultiByteToWideChar
 Multiple GS output streams are used but '%0' is not pointlist.
-N3`d?
-N>O=I9
-N>VF
 NAN(IND)
 NAN(SNAN)
-NQ?s
 Named metadata '%0' is unknown.
 Never resolved function from blockaddress
 Never resolved value found in function
@@ -1530,7 +1454,6 @@ Not all elements of output %0 were written.
 November
 NumDescriptors cannot be 0 (descriptor 
 Number of blocks inserted
-OZQ%
 ObjectRayDirection
 ObjectRayOrigin
 ObjectToWorld
@@ -1591,13 +1514,10 @@ PtrToInt Vector width mismatch
 PtrToInt result must be integral
 PtrToInt source must be pointer
 PtrToInt type mismatch
-Q5rHg,>
-QAf?
 Quad
 QuadOp
 QuadReadLaneAt
 QueryPerformanceCounter
-RSDS%
 RTAccelerationStructure
 RWStructuredBuffers may increment or decrement their counters, but not both.
 Race condition writing to shared memory detected, consider making this write conditional.
@@ -1686,8 +1606,6 @@ RtlUnwindEx
 RtlVirtualUnwind
 Running pass '
 Runtime Data (RDAT)
-S9>H
-S>$hkDh$h>[2
 SAMPLER
 SExt only operates on integer
 SExt only produces an integer
@@ -1855,7 +1773,6 @@ Type mismatch in constant table!
 Type too small for SExt
 Type too small for ZExt
 TypedBuffer
-UA>N0Wl
 UAddc
 UDiv
 UIToFP result must be FP or FP vector
@@ -1939,7 +1856,6 @@ Vector type '%0' is not allowed.
 Verify if there is a pass dependency cycle.
 VertexID
 ViewID
-WaNd?
 WaitForSingleObjectEx
 WakeAllConditionVariable
 WaveActiveAllEqual
@@ -1973,33 +1889,19 @@ WriteSamplerFeedbackBias
 WriteSamplerFeedbackGrad
 WriteSamplerFeedbackLevel
 Wrong types for attribute: 
-X/4B
-Y8a:
-Y>kX>M
 You can't ConstantInt->destroyConstantImpl()!
 You can't GV->destroyConstantImpl()!
 ZExt only operates on integer
 ZExt only produces an integer
-Z\>z8
 Zero width native integer type in datalayout string
-[*ncd>0
-[aOni*{
 [unbounded]
-\fp\vPH
 \n          to 
 \n; <label>:
 \n; uselistorder directives\n
-\nh?oT
-\nk>oB
-\tcQr
-\tkE>fvw
-\vA03>A|
 ] are reserved for system use.\n
 ] descriptor table entry [
 ] specifies RegisterSpace=
 ], root parameter [
-^<V7w
-^RfN>
 _IO_getc
 _IO_putc
 _RDATA
@@ -2028,13 +1930,11 @@ __strdup
 __strncpy_chk
 __strndup
 __strtok_r
-_oD>Kg
 _slice_type
 `24x
 `2dS
 a register mapped to a root descriptor SRV (RegisterSpace=
 a register mapped to a root descriptor UAV (RegisterSpace=
-a6>r
 aarch64
 aarch64_be
 abcdefghijklmnopqrstuvwxyz
@@ -2167,6 +2067,7 @@ available_externally
 axnum.
 bad address
 bad allocation
+bad array new length
 bad exception
 bad file descriptor
 bad function call
@@ -2209,7 +2110,6 @@ buffer_overrun
 builtin
 byval
 bzero
-c?FA@s}
 calculateLOD
 call
 callShader
@@ -2303,9 +2203,6 @@ cube
 cubearray
 cutStream
 cycleCounterLegacy
-d8L2
-d?000000`?
-dRL>
 dddd, MMMM dd, yyyy
 declaration
 declare
@@ -2392,8 +2289,6 @@ dxil.convergent.marker.
 dxil.dll
 dxil.pdb
 e+000
-eF>t
-eLK(w
 ead_register.
 eadcyclecounter
 earbyint.
@@ -2438,8 +2333,6 @@ externally_initialized
 extraData
 extractelement
 extractvalue
-fD>b
-fWi?
 fabs
 fabsf
 fabsl
@@ -2590,8 +2483,6 @@ gs_6_6
 gs_cut
 gs_emit
 h.sjlj.functioncontext
-h0'D
-h>1my
 half
 header
 hidden 
@@ -2733,7 +2624,6 @@ isysroot
 iwmmxt
 iwmmxt2
 jumptable
-k=yI
 label
 labs
 landingpad
@@ -2952,11 +2842,9 @@ lpt9
 lshr
 lstat
 lstat64
-m?H7
-mG4>
-m\nXo
 makeDouble
 malloc
+map/set too long
 memalign
 members of llvm.used must be named
 memccpy
@@ -2991,8 +2879,6 @@ multiple calls to llvm.localescape in one function
 musttail 
 musttail call must be precede a ret with an optional bitcast
 musttail call result must be returned
-n03>Pu
-n]?iJ
 naked
 name
 nan(ind)
@@ -3045,13 +2931,10 @@ ntohs
 null
 nullptr
 number of bits must be a byte width multiple
-o?GS
-oI>O7
 objectRayDirection
 objectRayOrigin
 objectToWorld
 objectsize.
-obwQ4
 offset
 offset texture instructions must take offset which can resolve to integer literal in the range -8 to 7.
 offset uninitialized.
@@ -3105,7 +2988,6 @@ out of bound coord must be undef.
 out of bound offset must be undef.
 output control point count must be [0..%0].  %1 specified.
 outputControlPointID
-owM&
 owi.
 owner dead
 p20,
@@ -3159,14 +3041,11 @@ putchar
 puts
 pwrite
 pz0,
-qS>g?h3
 qrt.
 qsort
 quadOp
 quadReadLaneAt
 quaternary
-r\tVr.>T
-r\vpH
 range
 range [
 raw/typed buffer don't need 2 coordinates.
@@ -3221,7 +3100,6 @@ rows for system value semantic %0 must be 1.
 runc.
 runtimeLang
 runtimeVersion
-sHF'
 safepoint block should be well formed
 safepoints should have unique landingpads
 safestack
@@ -3445,7 +3323,6 @@ uselistorder
 utime
 utimes
 uwtable
-uzKs@>
 v16f32
 v16i1
 v16i16
@@ -3458,7 +3335,6 @@ v1i128
 v1i16
 v1i32
 v1i64
-v2!L.2
 v2f16
 v2f32
 v2f64
@@ -3570,7 +3446,6 @@ x86_stdcallcc
 x86_thiscallcc
 x86_vectorcallcc
 x86mmx
-xT?V
 xp2.
 xpect.
 xperimental.gc.relocate.
@@ -3582,7 +3457,6 @@ xperimental.gc.statepoint.
 xperimental.patchpoint.i64
 xperimental.patchpoint.void
 xscale
-z\f4x
 zeroext
 zeroinitializer
 zext

@@ -1,7 +1,5 @@
                           
- !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
  !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
- !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
  Base Class Array'
  Base Class Descriptor at (
  Class Hierarchy Descriptor'
@@ -14,10 +12,8 @@
 %a %b %d %H:%M:%S %Y
 %a %b %d %Y %H:%M:%S.%%03u
 ' is not a number.
-( 8PX
 ('8PW
 (null)
--64OS
 .?AVDefaultValueAllocator@Json@@
 .?AVValueAllocator@Json@@
 .?AV_Generic_error_category@std@@
@@ -38,7 +34,6 @@
 1#INF
 1#QNAN
 1#SNAN
-2\vpX
 700PP
 700WP
 8c8f13b1-60eb-4b6a-a433-de86104115ac
@@ -166,7 +161,6 @@ HMD found, but problems with the data (1111)
 HMD found, but problems with the data (1112)
 HMD found, but unable to init ZLib (1106)
 HMD found, but unable to request config (1102)
-HMXB
 HeapAlloc
 HeapFree
 HeapReAlloc
@@ -219,7 +213,6 @@ Missing ':' after object member name
 Missing '}' or object member name
 Monday
 MultiByteToWideChar
-NKeb
 No Error (0)
 Not Initialized (109)
 Not starting vrserver for background app (121)
@@ -232,8 +225,6 @@ OutputDebugStringW
 PeekNamedPipe
 QueryPerformanceCounter
 RPCRT4.dll
-RSDS
-R\vpX
 RaiseException
 ReadConsoleW
 ReadFile
@@ -242,7 +233,6 @@ RtlLookupFunctionEntry
 RtlPcToFileHeader
 RtlUnwindEx
 RtlVirtualUnwind
-S;uD
 SHELL32.dll
 SHGetFolderPathW
 Saturday
@@ -632,7 +622,6 @@ Wednesday
 WideCharToMultiByte
 WriteConsoleW
 WriteFile
-\r\f\v\v\n\n\t\t\t\t\t
 __based(
 __cdecl
 __clrcall
@@ -659,7 +648,6 @@ _nextafter
 `eh vector destructor iterator'
 `eh vector vbase constructor iterator'
 `eh vector vbase copy constructor iterator'
-`h`hhh
 `local static guard'
 `local static thread guard'
 `local vftable constructor closure'
@@ -758,7 +746,6 @@ io error
 iostream
 iostream stream error
 is a directory
-kU'9
 ldexp
 log10
 map/set<T> too long
@@ -843,7 +830,3 @@ vrclient_x64.dll
 wglGetProcAddress
 wrong protocol type
 wrong_protocol_type
-xppwpp
-xpxxxx
-z?aUY
-zc%C1

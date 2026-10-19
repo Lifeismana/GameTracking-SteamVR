@@ -1,11 +1,7 @@
                           
                                                                                 
   This option category has no options.\n
- !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
  !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
- !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
- "$&(*,.02468:<>@BDFHJLNPRTVXZ\^`bdfhjlnprtvxz|~
- $(,048<AEIMQUY]aeimquy}
  (default: 
  (member index 
  (must be 0 or 1)
@@ -17,7 +13,6 @@
  <subcommand> -help" to get more help on a specific subcommand
  Base Class Array'
  Base Class Descriptor at (
- C>TQ
  Class Hierarchy Descriptor'
  Complete Object Locator'
  Constituent <id> 
@@ -385,19 +380,13 @@
  words.
  words: 
  yielding Result Id 
-!)19BJRZcks{
-"$&(*,.02468:<>@
-"3DUfw
-"e?<<<<<<l?
-#4o>w
-#Ib?AG
-$Ib?s
 $jumptable
 $jumptable$__
 %.0Lf
 %H:%M:%S%m/%d/%y%Y-%m-%d%I:%M:%S %p%H:%M%H:%M:%S
 %I:%M:%S %p
 %a %b %d %H:%M:%S %Y
+%s (%s)
 %s:%d TRACE: ()\n
 %s:%d TRACE: (VkCommandBuffer commandBuffer = %p)\n
 %s:%d TRACE: (VkCommandBuffer commandBuffer = %p, VkBool32 depthBiasEnable = %d)\n
@@ -816,8 +805,6 @@ $jumptable$__
 %s:%d WARNING: UNSUPPORTED: ycbcrModel %d\n
 %s:%d WARNING: nextInfo->sType = %s\n
 %s:%d WARNING: vkCmdSetLineStippleEXT: line stipple pattern ignored : 0x%04X\n
-&?PPPPPPP?
-&Sgw
 ' could not be inlined because the return instruction is not at the end of the function. This could be fixed by running merge-return before inlining.
 ' decorated with 
 ' decorated with both 
@@ -856,9 +843,6 @@ $jumptable$__
 ) used for OpTypeFloat.
 ) used for OpTypeInt.
 ), words(
-)yIx
-*StO9>T
-*Vc>L
 *no default*
 , OpTypeRuntimeArray must only be used for the last member of an OpTypeStruct
 , OpTypeStruct containing an OpTypeRuntimeArray 
@@ -882,10 +866,6 @@ $jumptable$__
 , which cannot be used with the current execution model:\n
 , which cannot be used with the current execution modes:\n
 , zero found
-,HR><y5
-,HR>O
--9D\t/9a
--BH>t
 -bit 
 -bit float literals
 -bit integer for the addressing model used in the module)
@@ -950,19 +930,28 @@ $jumptable$__
 ..\..\third_party\libc++\src\src\mutex.cpp:67: assertion e == 0 failed: call to recursive_mutex::unlock() failed. A possible reason is that the mutex wasn't locked\n
 ..\..\third_party\swiftshader\src\Device\Blitter.cpp
 ..\..\third_party\swiftshader\src\Device\Context.cpp
+..\..\third_party\swiftshader\src\Device\Renderer.cpp
 ..\..\third_party\swiftshader\src\Device\Sampler.hpp
+..\..\third_party\swiftshader\src\Pipeline\PixelProgram.cpp
+..\..\third_party\swiftshader\src\Pipeline\PixelRoutine.cpp
+..\..\third_party\swiftshader\src\Pipeline\SamplerCore.cpp
 ..\..\third_party\swiftshader\src\Pipeline\SpirvShader.cpp
 ..\..\third_party\swiftshader\src\Pipeline\SpirvShader.hpp
+..\..\third_party\swiftshader\src\Pipeline\SpirvShaderArithmetic.cpp
 ..\..\third_party\swiftshader\src\Pipeline\SpirvShaderControlFlow.cpp
+..\..\third_party\swiftshader\src\Pipeline\SpirvShaderGLSLstd450.cpp
 ..\..\third_party\swiftshader\src\Pipeline\SpirvShaderGroup.cpp
+..\..\third_party\swiftshader\src\Pipeline\SpirvShaderImage.cpp
 ..\..\third_party\swiftshader\src\Pipeline\SpirvShaderMemory.cpp
 ..\..\third_party\swiftshader\src\Pipeline\SpirvShaderSampling.cpp
 ..\..\third_party\swiftshader\src\Pipeline\SpirvShaderSpec.cpp
+..\..\third_party\swiftshader\src\Pipeline\VertexRoutine.cpp
 ..\..\third_party\swiftshader\src\Reactor\Pragma.cpp
 ..\..\third_party\swiftshader\src\Reactor\SubzeroReactor.cpp
 ..\..\third_party\swiftshader\src\System\SwiftConfig.cpp
 ..\..\third_party\swiftshader\src\Vulkan\VkCommandBuffer.cpp
 ..\..\third_party\swiftshader\src\Vulkan\VkDescriptorSetLayout.cpp
+..\..\third_party\swiftshader\src\Vulkan\VkDevice.cpp
 ..\..\third_party\swiftshader\src\Vulkan\VkDeviceMemory.cpp
 ..\..\third_party\swiftshader\src\Vulkan\VkDeviceMemoryExternalHost.cpp
 ..\..\third_party\swiftshader\src\Vulkan\VkFormat.cpp
@@ -975,10 +964,10 @@ $jumptable$__
 ..\..\third_party\swiftshader\src\Vulkan\VkQueryPool.cpp
 ..\..\third_party\swiftshader\src\Vulkan\VkQueue.cpp
 ..\..\third_party\swiftshader\src\Vulkan\VkRenderPass.cpp
+..\..\third_party\swiftshader\src\Vulkan\VkSemaphore.cpp
 ..\..\third_party\swiftshader\src\Vulkan\VkStructConversion.hpp
 ..\..\third_party\swiftshader\src\Vulkan\libVulkan.cpp
 ..\..\third_party\swiftshader\src\WSI\VkSurfaceKHR.cpp
-.>\rfJBGo
 .?AU?$__num_get@D@__Cr@std@@
 .?AU?$__num_get@_W@__Cr@std@@
 .?AU?$__num_put@D@__Cr@std@@
@@ -1544,7 +1533,6 @@ $jumptable$__
 .bss
 .data
 .data.rel.ro
-.eB5
 .p2align
 .rel
 .rela
@@ -1554,53 +1542,22 @@ $jumptable$__
 .strtab
 .symtab
 .text
-.xJ>Hf
-/2GG>!B
-0..\..\third_party\swiftshader\src\Pipeline\PixelRoutine.cpp
-0..\..\third_party\swiftshader\src\Pipeline\SpirvShaderGLSLstd450.cpp
 0000000000000000nan
 00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899GetSystemTimePreciseAsFileTime
 0123456789
 0123456789abcdefABCDEFxX+-pPiInN
-0E>X
-0X8b?~
-0iN>/
 1#IND
 1#INF
 1#QNAN
 1#SNAN
-11UT
-11Y@
 16-bit or 32-bit 
 2 Entry points cannot share the same name and ExecutionMode.
-2\n0\tP
-3 FB
 32-bit 
-37>k
-3>N;kU
-3>fvw
-3?tr
-4SetupRoutine
 4Unexpected memory ordering for AtomicCmpxchg
-51>W
 64-bits unsigned integer scalar type
-6NK>
-6\fXO>\ntA
-7..\..\third_party\swiftshader\src\Pipeline\SamplerCore.cpp
-7>I0
-7?GX
-7h>?8
-7yp>
-7~xh
 8- or 16-bit loads must be a scalar, vector or matrix type
 8- or 16-bit stores must be a scalar, vector or matrix type
 8- or 16-bit types can only be used with width-only conversions
-8Csinf
-8ke?;
-9>70
-9>expf
-9a>d
-9g>@3
 : 64-bit atomics require the Int64Atomics capability
 : CommandLine Error: Option '
 : Component Count must be 
@@ -1676,7 +1633,6 @@ $jumptable$__
 : storage class forbidden by universal validation rules.
 : storage class must be Function, Workgroup, CrossWorkGroup or Generic in the OpenCL environment.
 : truncated 
-:..\..\third_party\swiftshader\src\Pipeline\SpirvShaderImage.cpp
 ; Annotations
 ; Bound: 
 ; Debug Information
@@ -1688,73 +1644,33 @@ $jumptable$__
 ; Schema: 
 ; Types, variables and constants
 ; Version: 
-;..\..\third_party\swiftshader\src\Pipeline\VertexRoutine.cpp
-;1cb
 ;BIb?
 <16 x i1>
 <16 x i8>
 <4 x float>
 <4 x i32>
 <8 x i16>
-<?WUUUUU
-<acos
 <instruction>
 = *cannot print option value*\n
 = *unknown option value*\n
-=..\..\third_party\swiftshader\src\Device\Renderer.cpp
-=1cb
-=87M
-=cQ6
-=e2m
-=imb;D
 > is later referenced by 
 > is used by entry point '
 > which is called with execution model 
 >, but is not listed as an interface
->0Av
->cQ6
->jtm}S
-?!5WOo
-?1cb
-?49HoKC
-?7zQ6$
-?7{KV\nU
-?8UUUUU
-?8bunz8
-?@En[vP
-?JV8f
-?R0I?
 ?UUUUUU
-?WUUUUU
-?asin
-?asinf
-?f`Y4
-?fmodf
-?kxG2)
-?lZE
-?powf
-?qBJ
-?rAj
-?ysB
-@33333333
-@^8U)zj
-@pn>6
 A BuiltIn variable (id 
 A FunctionCall must happen within a function body.
 A block must end with a branch instruction.
 A function (
 A function must begin with a label
 A module-scope OpVariable with initialization value cannot be marked with the Import Linkage Type.
-A>pP&
 ABCDEF
 ABCDEFGHIJKLMNOPQRSTUVWXYZ
 ABGR
-AK>(v
 AL_OFFSET_TABLE__GLOBAL_OFFSET_T
 ANGLE Shader Compiler
 ARGB
 AUUUUUU
-A`1w>
 AbsISubINTEL
 AbsUSubINTEL
 Accept textual form of PNaCl bitcode records (i.e. not .ll assembly)
@@ -1958,8 +1874,6 @@ Attempted to get underlying data type via member index for non-struct type.
 Attributes must be an OpString
 August
 AutoINTEL
-BC?>6t9^\tc:>
-BF>^G
 BFloat16ConversionINTEL
 BGRA
 Back-edges (
@@ -2038,12 +1952,9 @@ BuiltIn (No allowed mixing of built-in variables and
 BuiltIns can only target variables, structure members or constants
 BurstCoalesceINTEL
 ByVal
-C5R?\t
 C:\buildworker\cef_win64\build\root\chromium\src\out\Release_GN_x64\vk_swiftshader.dll.pdb
-CL:>8
 CPP_for_OpenCL
 CPacked
-CWD>~3
 CacheControlLoadINTEL
 CacheControlStoreINTEL
 CacheControlsINTEL
@@ -2253,7 +2164,6 @@ CullOpaqueKHR
 CullPrimitiveEXT
 Current Times must be a 32-bit float scalar type
 CurrentRayTimeNV
-Cy2@K>
 DPdx
 DPdxCoarse
 DPdxFine
@@ -2411,15 +2321,10 @@ DrawParameters
 Dref sampling operation is invalid for multisample image
 Dump string pools during compilation
 Duplicate non-aggregate type declarations are not allowed. Opcode: 
-E>nEA
 ERROR_not_op_extension
 ESSL
-ET5>
-E[\rn?gc
 EarlyAndLateFragmentTestsAMD
 EarlyFragmentTests
-EiU>
-EiUL
 ElemSize must be a 32-bit unsigned integer OpConstant
 Element type is not defined.
 Embark Studios
@@ -2709,13 +2614,11 @@ Extended instruction GLSLstd450IMix is not supported
 Extension
 Externalize all symbols
 Extra amount of stack to add to the frame in bytes (for testing).
-F>qUxv
 FAbs
 FAdd
 FClamp
 FConvert
 FDiv
-FEMh\f
 FMax
 FMax3AMD
 FMid3AMD
@@ -2776,7 +2679,6 @@ Fatal inconsistency in liveness analysis
 February
 FetchMicroTriangleVertexBarycentricNV
 FetchMicroTriangleVertexPositionNV
-FfW?
 File
 File exists
 File to append -stats and -timer output to
@@ -2922,8 +2824,6 @@ FuseLoopsInFunctionINTEL
 Fwidth
 FwidthCoarse
 FwidthFine
-G..\..\third_party\swiftshader\src\Pipeline\SpirvShaderArithmetic.cpp
-G>US
 GDI32.dll
 GLCompute
 GLSL
@@ -3019,7 +2919,6 @@ Google Skia SkSL
 Google Tint Compiler
 Google rspirv
 Google spiregg
-GrJoq>@
 Grad
 Group Count X must be a 32-bit unsigned int scalar
 Group Count Y must be a 32-bit unsigned int scalar
@@ -3180,7 +3079,6 @@ Horizontal2Pixels
 Horizontal4Pixels
 HostAccessINTEL
 HostOnlyINTEL
-I;u>A
 IAdd
 IAddCarry
 IAddSatINTEL
@@ -3209,7 +3107,6 @@ If OpTypeBool is stored in conjunction with OpVariable using Input or Output Sto
 If OpTypeBool is stored in conjunction with OpVariable, it can only be used with non-externally visible shader Storage Classes: Workgroup, CrossWorkgroup, Private, Function, Input, Output, RayPayloadKHR, IncomingRayPayloadKHR, HitAttributeKHR, CallableDataKHR, IncomingCallableDataKHR, or UniformConstant
 IgnoreIntersectionKHR
 IgnoreIntersectionNV
-Il?333333c?
 Illegal byte sequence
 Illegal number of components (
 Illegal use of QCOM image processing decorated texture
@@ -3498,21 +3395,15 @@ Khronos LLVM/SPIR-V Translator
 Khronos SPIR-V Tools Assembler
 Khronos SPIR-V Tools Linker
 Kill
-L-n>4
-L>ev
-L?UUUUUUU?
 LCIDToLocaleName
 LCMapStringEx
 LCMapStringW
-LLD PDB.
 LLVM
 LLVM ERROR: 
 LLVM LLVM SPIR-V Backend
 LLVM SPIR-V Backend
 LLVM file (default)
 LLVM/SPIR-V Translator
-LWG>
-LWW>
 Label
 Label instructions must be in a function body
 Language
@@ -3576,7 +3467,6 @@ LoopMerge
 Low-level integrated assembly ('.s') file
 Luminance
 LunarG
-M'y>0y
 MLIR SPIR-V Serializer
 MM/dd/yy
 MMHostInterfaceAddressWidthINTEL
@@ -3709,16 +3599,12 @@ MultiViewport
 Multiple case constructs have branches to the case construct that targets 
 Multiply
 Must be only one constituent
-N3`d?
-N>O=I9
-N>VF
 NAN(IND)
 NAN(SNAN)
 NClamp
 NMax
 NMin
 NONE
-NQ?s
 NULL
 NVIDIA
 NVIDIA Slang Compiler
@@ -3816,7 +3702,6 @@ Number of times local-cse is run on a block
 Number of translation threads (0 for purely sequential)
 OPTIONS:\n
 OVERVIEW: 
-OZQ%
 ObjectOffset must be a 32-bit unsigned integer OpConstant
 ObjectRayDirectionKHR
 ObjectRayDirectionNV
@@ -3993,7 +3878,6 @@ OutputVertices
 Override output filename
 Override with -verbose=none except for specified functions
 OverrideCoverageNV
-PA..\..\third_party\swiftshader\src\Vulkan\VkSemaphore.cpp
 PNaCl bitcode file
 PackDouble2x32
 PackHalf2x16
@@ -4122,8 +4006,6 @@ PushConstantNumWorkgroups
 PushConstantRegionGroupOffset
 PushConstantRegionOffset
 PushConstants
-Q5rHg,>
-QAf?
 QuadControlKHR
 QuadDerivativesKHR
 Quads
@@ -4154,9 +4036,6 @@ RND_CONV_ODD
 RND_INF
 RND_MIN_INF
 RND_ZERO
-RSDS
-R\n0\tP
-R\n0\tp
 Radians
 RaiseException
 RawAccessChainNV
@@ -4364,8 +4243,6 @@ RuntimeAlignedINTEL
 RuntimeDescriptorArray
 RuntimeDescriptorArrayEXT
 Rust GPU Compiler Backend
-S9>H
-S>$hkDh$h>[2
 SAT_SYM
 SAT_ZERO
 SAbs
@@ -4634,6 +4511,7 @@ SetStdHandle
 SetThreadDescription
 SetUnhandledExceptionFilter
 SetUserEventStatus
+SetupRoutine
 Sext
 Shader
 ShaderCallKHR
@@ -5155,7 +5033,6 @@ TypeStructContinuedINTEL
 TypeVector
 TypeVmeImageINTEL
 TypeVoid
-UA>N0Wl
 UAddSatINTEL
 UAverageINTEL
 UAverageRoundedINTEL
@@ -5186,7 +5063,6 @@ USMStorageClassesINTEL
 USubSatINTEL
 UTF-16LEUNICODE
 UTF-8
-UUUU
 UUUUUU
 UUUUUUUU
 Unable to find a physical register for an infinite-weight live range (consider using -reg-reserve): 
@@ -5495,12 +5371,10 @@ W3C WebGPU Group WHLSL Shader Translator
 WGSL
 WHLSL Shader Translator
 WRAP
-WaNd?
 WaitForSingleObject
 WaitForSingleObjectEx
 WaitKernel
 WaitWorkGroup
-Wak>E
 WakeAllConditionVariable
 WakeConditionVariable
 WarpIDARM
@@ -5550,8 +5424,6 @@ WriteThroughINTEL
 X must be a 32-bit unsigned integer OpConstant
 X-LEGEND
 X-LEGEND Mesa-IR/SPIR-V Translator
-X/4B
-X>0S
 Xderef
 Xenia
 Xenia Emulator Microcode Translator
@@ -5559,19 +5431,12 @@ Xenia Xenia Emulator Microcode Translator
 XfbBuffer
 XfbStride
 Y must be a 32-bit unsigned integer OpConstant
-Y8a:
-Y>kX>
-Y>kX>M
 Z must be a 32-bit unsigned integer OpConstant
-Z>w_F
-ZSq>
-Z\>z8
 ZeroExtend
 Zext
 Zig Compiler
 Zig Software Foundation
 Zig Software Foundation Zig Compiler
-[*ncd>0
 [0;1;30m
 [0;1;31m
 [0;1;32m
@@ -5912,19 +5777,7 @@ Zig Software Foundation Zig Compiler
 [VUID-WorldToObjectKHR-WorldToObjectKHR-04434] 
 [VUID-WorldToObjectKHR-WorldToObjectKHR-04435] 
 [VUID-WorldToObjectKHR-WorldToObjectKHR-04436] 
-[aOni*{
 \nStarting computeAddressOpt for instruction:\n  
-\nh?oT
-\nk>oB
-\t9sv
-\tJR>8o
-\tcQr
-\tkE>fvw
-\vA03>A|
-]u9g
-^<V7w
-^RfN>
-_..\..\third_party\swiftshader\src\Vulkan\VkDevice.cpp
 __Sz_bitcast_16xi1_i16
 __Sz_bitcast_8xi1_i8
 __Sz_bitcast_i16_16xi1
@@ -5975,15 +5828,12 @@ __unaligned
 __vectorcall
 _arr_
 _cabs
-_f>PH
 _hypot
 _logb
 _nextafter
-_oD>Kg
 _ptr_
 _runtimearr_
 _struct_
-`?..\..\third_party\swiftshader\src\Pipeline\PixelProgram.cpp
 `RTTI
 `anonymous namespace'
 `copy constructor closure'
@@ -6021,7 +5871,6 @@ _struct_
 `vftable'
 `virtual displacement map'
 a storage class of PhysicalStorageBuffer.
-a6>r
 abcdef
 abcdefghijklmnopqrstuvwxyz
 abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ_0123456789
@@ -6053,6 +5902,7 @@ arm64
 as Result Type: 
 ashr
 asin
+asinf
 asinh
 asinpi
 asm-verbose
@@ -6088,9 +5938,6 @@ build-atts
 build-on-read
 built-in
 but 
-c>F2
-c>v\tk
-c?FA@s}
 cannot compose log message
 capability
 case entry block
@@ -6142,10 +5989,6 @@ cospi
 cpool
 createLoweredMove() unimplemented
 cross
-d8-t
-d8L2
-d?000000`?
-dRL>
 dddd, MMMM dd, yyyy
 debug base type encoding
 debug composite type
@@ -6169,9 +6012,6 @@ does not structurally dominate
 double
 dump-strings
 e+000
-e>US
-eF>t
-eLK(w
 eliminate-dead-branches
 eliminate-dead-code-aggressive
 eliminate-dead-functions
@@ -6330,12 +6170,10 @@ expected the last operand to be a pointer
 expected type of operand X to be equal to Result Type
 expected type of operand Y to be equal to Result Type
 expected types of all operands to be equal to Result Type
+expf
 expm1
 extension instruction number
 externalize
-fD>b
-fGa>
-fWi?
 fabs
 fadd
 false
@@ -6374,7 +6212,6 @@ fsub
 function control
 function inside function
 function parameter attribute
-gd>Z
 generic
 gfx-rs community
 gfx-rs community Naga
@@ -6412,8 +6249,6 @@ gl_WorkGroupSize
 global variables) and section 10 (function 
 global_init
 group operation
-h0'D
-h>1my
 half
 half_cos
 half_divide
@@ -6437,7 +6272,6 @@ help-list-hidden
 heroseh
 heroseh Hero C Compiler
 hitObjectNV
-hj>>d
 host access qualifier
 host unreachable
 hwdiv-arm
@@ -6487,10 +6321,6 @@ is invalid
 is missing an Offset decoration
 is not structurally post dominated by
 its block.
-jeTb
-k=yI
-k>4\tF
-k>RU
 keep-deleted-insts
 kernel enqeue flags
 kernel profiling info
@@ -6531,10 +6361,6 @@ lpt7
 lpt8
 lpt9
 lshr
-m?H7
-mG4>
-mO-B
-m\nXo
 map::at:  key not found
 matrix: 
 mattr
@@ -6573,8 +6399,6 @@ must be in the StorageBuffer, Uniform, or UniformConstant storage class
 must be in the UniformConstant storage class
 must occur exactly one time!
 mutex lock failed
-n03>Pu
-n]?iJ
 named maximum number of registers
 named_barrier
 nan(ind)
@@ -6620,11 +6444,6 @@ notranslate
 ntic.DebugPrintfNonSemantic.DebuSPV_KHR_shader_clock
 num_threads
 number as Result Type
-o9sp
-o?GS
-oI>O7
-oI>b
-obwQ4
 of Result Type struct
 of debug info extension must appear in a function 
 of right matrix to be equal: 
@@ -6654,23 +6473,20 @@ orig
 out_of_range was thrown in -fno-exceptions mode with message "%s"
 output
 overflow mode
-owM&
 owner dead
-p>.G1
-p>Y3
 packed vector format
 parse-parallel
 payload must be a OpVariable of storage class RayPayloadKHR or IncomingRayPayloadKHR
 phi-edge-split
 pipe(
 pipe_storage
-pm>6/
 pnacl
 pointer definition.
 popcount
 positive integer
 possibly multi-word literal integer
 possibly multi-word literal number
+powf
 pown
 powr
 pred
@@ -6683,8 +6499,6 @@ printf
 private-to-local
 protocol error
 protocol not supported
-q>F,3
-qS>g?h3
 quantization mode
 queue
 r10b
@@ -6705,9 +6519,6 @@ r14w
 r15b
 r15d
 r15w
-rNm>)
-r\n0\tP
-r\tVr.>T
 radians
 raw access chain operands
 ray flags
@@ -6768,7 +6579,6 @@ s type.
 s vector component count.
 s vector element type.
 sBGRA
-sHF'
 sRGB
 sRGBA
 sRGBx
@@ -6812,6 +6622,7 @@ sign
 signed
 simplify-instructions
 sincos
+sinf
 sinh
 sinpi
 skip-unimplemented
@@ -6934,10 +6745,8 @@ unspecified system_category error
 unsupported locale for standard input
 urem
 used to access transparent buffer backed resources. Such 
-uzKs@>
 v16i1
 v16i8
-v2!L.2
 v4f32
 v4i1
 v4i32
@@ -7374,7 +7183,6 @@ x8632
 x8664
 x86_32
 x86_64
-xT?V
 xmm0
 xmm1
 xmm10
@@ -7391,5 +7199,3 @@ xmm6
 xmm7
 xmm8
 xmm9
-yE>cb
-z>h4

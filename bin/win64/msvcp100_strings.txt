@@ -1,20 +1,10 @@
- Fgy
-$Jcy
-$Lcy
-$zfy
 %.0Lf
 %H : %M : S
 %I : %M : %S %p
 %b %d %H : %M : %S %Y
 %d / %m / %y
 %m / %d / %y
-(5dy
-(6hy
-(jgy
-(mfy
 +v$x+v$xv$+xv+$xv$+x+$vx+$vx$v+x+$vx$+vx+v $+v $v $+v +$v $++$ v+$ v$ v++$ v$+ v+xv$+ v$v$ +v+ $v$ ++x$v+ $v$v ++ $v$ +v
-,5cy
-,iey
 .?AU_AllocBase@details@Concurrency@@
 .?AUctype_base@std@@
 .?AUmessages_base@std@@
@@ -166,26 +156,12 @@ $zfy
 .?AVsystem_error@std@@
 .?AVtype_info@@
 .P6A_NAEBW4agent_status@Concurrency@@@Z
-0)gy
 0123456789abcdef
 0123456789abcdefABCDEF
 0123456789abcdefghijklmnopqrstuvwxyz
-0:hy
-0Gcy
-0Ncy
-0\fy
-0hcy
-4Sdy
-4gcy
-4rcy
 :AM:am:PM:pm
 :Jan:January:Feb:February:Mar:March:Apr:April:May:May:Jun:June:Jul:July:Aug:August:Sep:September:Oct:October:Nov:November:Dec:December
 :Sun:Sunday:Mon:Monday:Tue:Tuesday:Wed:Wednesday:Thu:Thursday:Fri:Friday:Sat:Saturday
-<Fcy
-<Ocy
-<nqE
-<rfy
-<tcy
 ??0?$_Yarn@D@std@@QEAA@AEBV01@@Z
 ??0?$_Yarn@D@std@@QEAA@PEBD@Z
 ??0?$_Yarn@D@std@@QEAA@XZ
@@ -623,7 +599,6 @@ $zfy
 ?NFS_Free@details@Concurrency@@YAXPEAX@Z
 ?NFS_GetLineSize@details@Concurrency@@YA_KXZ
 ?ScheduleTask@CurrentScheduler@Concurrency@@SAXP6AXPEAX@Z0@Z
-?UUUUUU
 ?U]pB(>@AU]
 ?Yield@Context@Concurrency@@SAXXZ
 ?_Addcats@_Locinfo@std@@QEAAAEAV12@HPEBD@Z
@@ -1825,19 +1800,11 @@ $zfy
 ?xsputn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JPEBD_J@Z
 ?xsputn@?$basic_streambuf@GU?$char_traits@G@std@@@std@@MEAA_JPEBG_J@Z
 ?xsputn@?$basic_streambuf@_WU?$char_traits@_W@std@@@std@@MEAA_JPEB_W_J@Z
-@6hy
-@Vdy
-@sfy
 Copyright (c) 1992-2004 by P.J. Plauger, licensed by Dinkumware, Ltd. ALL RIGHTS RESERVED.
-D/dy
-DDcy
-D[fy
 DecodePointer
 DeleteCriticalSection
 Deleting link registry before removing all the links
 DisableThreadLibraryCalls
-Dz@P
-D}cy
 EncodePointer
 EnterCriticalSection
 GetCurrentProcess
@@ -1847,50 +1814,25 @@ GetLocaleInfoW
 GetStringTypeW
 GetSystemTimeAsFileTime
 GetTickCount
-H8dy
-HEcy
-HMcy
-Hcgy
-Hgcy
-Hofy
-Hyhy
 Index is inside segment which failed to be allocated
 Index out of range
 Index out of segments table range
 InitializeCriticalSection
 IsDebuggerPresent
 KERNEL32.dll
-L)gy
-LIcy
-LTdy
 LeaveCriticalSection
-L~cy
 MSVCP100.dll
 MSVCR100.dll
 MultiByteToWideChar
-P cy
-Pvhy
-P}ey
 QueryPerformanceCounter
-RSDS
 RtlCaptureContext
 RtlLookupFunctionEntry
 RtlVirtualUnwind
 SetUnhandledExceptionFilter
 Sleep
-TJcy
-TKcy
-TUUUU
-TZfy
 TerminateProcess
-T~fy
 UnhandledExceptionFilter
 WideCharToMultiByte
-Xgcy
-Xwhy
-\fey
-\r\f\v\v\n\n\t\t\t\t\t
-\vS@V6
 _Cosh
 _CxxThrowException
 _Denorm
@@ -2016,7 +1958,6 @@ _ui64toa_s
 _unlock
 _unlock_file
 _wfsopen
-`Pdy
 abort
 alnum
 alpha
@@ -2027,9 +1968,7 @@ bad cast
 bad function call
 bad locale name
 cntrl
-d9cy
 digit
-dmfy
 false
 fclose
 fflush
@@ -2045,12 +1984,6 @@ fsetpos
 fwrite
 generic
 graph
-h0cy
-hNcy
-hOdy
-hYfy
-hZcy
-hzhy
 invalid random_device value
 invalid string position
 ios_base::badbit set
@@ -2061,12 +1994,8 @@ iostream stream error
 islower
 isspace
 isupper
-j=2K
-l-cy
-l4cy
 ldexp
 localeconv
-lofy
 logf
 lower
 malloc
@@ -2078,19 +2007,10 @@ memmove
 memmove_s
 memset
 msvcp100.amd64.pdb
-p(cy
-p6hy
-p@cy
 pAgent
 pAgents
 print
 punct
-pyhy
-p{cy
-p|hy
-p}cy
-p}hy
-p~hy
 raB3G
 rand_s
 regular expression error
@@ -2106,10 +2026,6 @@ strlen
 strtod
 sync_send called without registering a callback
 system
-t;gy
-tOcy
-tbcy
-tgey
 tolower
 toupper
 towctrans
@@ -2122,6 +2038,4 @@ upper
 wcslen
 wctrans
 wctype
-x`cy
 xdigit
-|Xfy

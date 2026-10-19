@@ -116,7 +116,6 @@ MSVCP140.dll
 MediaIndex
 NumSeeks
 QueryPerformanceCounter
-RSDS
 RecordSteamStatsForSingleFile
 ResetEvent
 RtlCaptureContext

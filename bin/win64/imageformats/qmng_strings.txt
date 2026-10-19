@@ -1,4 +1,3 @@
--Q?qt_metacast@QImageIOPlugin@@UEAAPEAXPEBD@Z
 .00cfg
 .?AVQImageIOHandler@@
 .?AVQImageIOPlugin@@
@@ -53,8 +52,6 @@
 .xdata
 .xdata$x
 1.2.5
-2\vp<w
-8\t?convert@QVariant@@QEBA_NHPEAX@Z
 ??0QByteArray@@QEAA@PEBDH@Z
 ??0QImage@@QEAA@HHW4Format@0@@Z
 ??0QImage@@QEAA@XZ
@@ -70,17 +67,43 @@
 ??4QImage@@QEAAAEAV0@$$QEAV0@@Z
 ??4QImage@@QEAAAEAV0@AEBV0@@Z
 ??BQColor@@QEBA?AVQVariant@@XZ
+?blue@QColor@@QEBAHXZ
 ?childEvent@QObject@@MEAAXPEAVQChildEvent@@@Z
 ?connectNotify@QObject@@MEAAXAEBVQMetaMethod@@@Z
 ?constData@QVariant@@QEBAPEBXXZ
+?convert@QVariant@@QEBA_NHPEAX@Z
+?convertToFormat_helper@QImage@@IEBA?AV1@W4Format@1@V?$QFlags@W4ImageConversionFlag@Qt@@@@@Z
+?currentImageRect@QImageIOHandler@@UEBA?AVQRect@@XZ
+?customEvent@QObject@@MEAAXPEAVQEvent@@@Z
+?debug@QMessageLogger@@QEBAXPEBDZZ
+?device@QImageIOHandler@@QEBAPEAVQIODevice@@XZ
+?disconnectNotify@QObject@@MEAAXAEBVQMetaMethod@@@Z
+?dynamicMetaObject@QObjectData@@QEBAPEAUQMetaObject@@XZ
+?event@QObject@@UEAA_NPEAVQEvent@@@Z
+?eventFilter@QObject@@UEAA_NPEAV1@PEAVQEvent@@@Z
+?fill@QImage@@QEAAXI@Z
+?getAndRef@ExternalRefCountData@QtSharedPointer@@SAPEAU12@PEBVQObject@@@Z
+?green@QColor@@QEBAHXZ
+?height@QImage@@QEBAHXZ
+?invalidate@QColor@@AEAAXXZ
 ?isOpen@QIODevice@@QEBA_NXZ
 ?isReadable@QIODevice@@QEBA_NXZ
 ?peek@QIODevice@@QEAA?AVQByteArray@@_J@Z
 ?qstrcmp@@YAHAEBVQByteArray@@PEBD@Z
+?qt_metacall@QImageIOPlugin@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
+?qt_metacast@QImageIOPlugin@@UEAAPEAXPEBD@Z
 ?read@QIODevice@@QEAA_JPEAD_J@Z
+?red@QColor@@QEBAHXZ
+?scanLine@QImage@@QEAAPEAEH@Z
+?setDevice@QImageIOHandler@@QEAAXPEAVQIODevice@@@Z
+?setFormat@QImageIOHandler@@QEAAXAEBVQByteArray@@@Z
+?setFormat@QImageIOHandler@@QEBAXAEBVQByteArray@@@Z
+?setRgb@QColor@@QEAAXHHHH@Z
+?staticMetaObject@QImageIOPlugin@@2UQMetaObject@@B
 ?timerEvent@QObject@@MEAAXPEAVQTimerEvent@@@Z
 ?userType@QVariant@@QEBAHXZ
 ?warning@QMessageLogger@@QEBAXPEBDZZ
+?width@QImage@@QEBAHXZ
 ?write@QIODevice@@QEAA_JPEBD_J@Z
 A required callback is not defined
 Application signalled CMS error
@@ -130,9 +153,6 @@ Internal buffer-overflow
 Internal error in libmng
 IsDebuggerPresent
 IsProcessorFeaturePresent
-J?green@QColor@@QEBAHXZ
-K?height@QImage@@QEBAHXZ
-K?invalidate@QColor@@AEAAXXZ
 KCABISABPILCNOLCIFEDRDHDCSIDLDNEMARFTADIDNEIRDHIGNPIPOOLNGAMDNEMRDHMEVOMTSAPETLPTLPPMORPEVASKEESWOHSMRETDGKbMRHcTNveAMAgPCCitXTiDEEnBGRstXEtEMIt,e
 KERNEL32.dll
 Keyword cannot be zero-length
@@ -156,18 +176,15 @@ No valid header-chunk
 Object already exists
 Object does not exist
 Out of memory
-P?qt_metacall@QImageIOPlugin@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
 Palette-index out of bounds
 Parent chunk not found
 Photoshop ICC profile
 Playtime out of bounds
-Q?red@QColor@@QEBAHXZ
 QMngHandler::canRead() called with no device
 QMngPlugin
 Qt5Core.dll
 Qt5Gui.dll
 QueryPerformanceCounter
-R?scanLine@QImage@@QEAAPEAEH@Z
 Reading suspended; waiting for I/O to catch up
 Requested nEED resources are not supported
 ResetEvent
@@ -178,7 +195,6 @@ SEEK suspension; application decides
 SetEvent
 SetUnhandledExceptionFilter
 SleepConditionVariableCS
-T?setDevice@QImageIOHandler@@QEAAXPEAVQIODevice@@@Z
 TERM misplaced during creation of MNG stream
 Target object for DHDR must be concrete
 Target object must have alpha-channel
@@ -202,28 +218,14 @@ There is not enough data in the IDAT chunk(s)
 Timer suspension; normal animation delay
 Too much data in IDAT chunk(s)
 Transformation could not be initialized
-U?setRgb@QColor@@QEAAXHHHH@Z
 UnhandledExceptionFilter
 Unknown critical chunk encountered
 Unknown error
 Unknown exception
 VCRUNTIME140.dll
-W?staticMetaObject@QImageIOPlugin@@2UQMetaObject@@B
 WaitForSingleObjectEx
 WakeAllConditionVariable
 Writing was unsuccessful; disk full?
-Z?width@QImage@@QEBAHXZ
-\\n?convertToFormat_helper@QImage@@IEBA?AV1@W4Format@1@V?$QFlags@W4ImageConversionFlag@Qt@@@@@Z
-\f?getAndRef@ExternalRefCountData@QtSharedPointer@@SAPEAU12@PEBVQObject@@@Z
-\n?currentImageRect@QImageIOHandler@@UEBA?AVQRect@@XZ
-\n?disconnectNotify@QObject@@MEAAXAEBVQMetaMethod@@@Z
-\n?dynamicMetaObject@QObjectData@@QEBAPEAUQMetaObject@@XZ
-\r?fill@QImage@@QEAAXI@Z
-\t?blue@QColor@@QEBAHXZ
-\t?customEvent@QObject@@MEAAXPEAVQEvent@@@Z
-\v?device@QImageIOHandler@@QEBAPEAVQIODevice@@XZ
-\v?event@QObject@@UEAA_NPEAVQEvent@@@Z
-\v?eventFilter@QObject@@UEAA_NPEAV1@PEAVQEvent@@@Z
 _CxxThrowException
 __C_specific_handler
 __std_exception_copy
@@ -245,7 +247,6 @@ api-ms-win-crt-heap-l1-1-0.dll
 api-ms-win-crt-math-l1-1-0.dll
 api-ms-win-crt-runtime-l1-1-0.dll
 api-ms-win-crt-string-l1-1-0.dll
-b\n?debug@QMessageLogger@@QEBAXPEBDZZ
 bad allocation
 bad array new length
 calloc
@@ -553,8 +554,6 @@ qmng.dll
 qt_plugin_instance
 qt_plugin_query_metadata
 strncmp
-uT?setFormat@QImageIOHandler@@QEAAXAEBVQByteArray@@@Z
-vT?setFormat@QImageIOHandler@@QEBAXAEBVQByteArray@@@Z
 z_deflate
 z_deflateEnd
 z_deflateInit2_

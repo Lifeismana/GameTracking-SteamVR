@@ -1,50 +1,47 @@
                           
     Last message repeated %d times\n
     Last message repeated %d times\r
- !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
+   %-15s 
  !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
- !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
  !"#$%&'()*+,-./0123ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/
  (8H8h8
  4xtx
  8%8E8
- iciNWq
  is not implemented. Update your Libav version to the newest one from Git. If the problem still occurs, it means that your file has a feature which has not been implemented.\n
 !4xtx
-#+3;$,4<*'- 735
-#D5p
 $8D8
 $8L8
 $H-HmH
+$x%x&x
+$x%x&x'x
 %-11s %7d %10d
 %-6s   %2d 
+%-7s 
 %02X
+%H%M%S
+%Y%m%d
 %d channels
+%d/%d
 %lld
 %s AVOptions:\n
-&2@UUUUUU
-( 8PX
+%s%s
 ('8PW
 (null)
-+*tsJ
 +inf
 +infinity
 +nan
 ,8L8l8
 ,xlx
+-%-17s 
 --prefix=/c/buildslave/libav_win32/build/dev/build_win32 --toolchain=msvc --enable-shared --disable-static --enable-runtime-cpudetect --disable-all --enable-avcodec --enable-avutil --enable-avresample --enable-avformat --enable-swscale --enable-parser=h264 --enable-decoder='aac,h264,vp8,vp9,gif,vorbis' --enable-demuxer='aac,matroska,gif,ogg,mov' --enable-hwaccels --enable-dxva2 --disable-decoder=mpeg1video --disable-decoder=mpeg2video --disable-decoder=vc1 --disable-decoder=h263 --enable-libvpx
--64OS
 -inf
 -infinity
 -nan
-.97yY
-.x7B
 0 8!8"8
 0$H%H&H
 0$x%x&x
 0)LK>
 0123456789ABCDEFabcdef
-08bX
 09C>
 0vB-
 0x%08X
@@ -55,34 +52,19 @@ $H-HmH
 1$H%H&H
 1$x%x&x
 16cif
-27;C
 2ieO=
-2n{a
 3.0(back)
 333333
 3dnow
 3dnowext
 4cif
-4g%6
-4lkQg
-4xtx
-5DKB
-5M[g
-5SmT4
 5s3R6=
 6.0(front)
 6.1(front)
-7,gm;
 7.0(front)
 7.1(wide)
 700PP
 700WP
-7Z8>\t
-9)PF
-:Esp
-;"lY7
-<8bunz8
-<@En[vP
 <binary>
 <double>
 <flags>
@@ -91,53 +73,13 @@ $H-HmH
 <int>
 <rational>
 <string>
->Xzv
->o3fW
-?$rxxx
-?1mm
-?333333
-?3xj
-?43-s
-?456789:;<=
-?4Td
-?5a1
-?6FID
-?765@Z
-?7Tf(
-?A%My
 ?Dj0Q:W$=
-?FnH
 ?IT$7
 ?KYC
-?Ltm
 ?Ly5
-?PV3
-?P`E5
-?PiB
-?QNT\t
-?RbSQ
-?UUUUUU
-?X&eB
-?X1U
-?Zxg
-?c3y
-?c3y?
-?dDR
-?edf
-?ju!4
-?pow
-?uZEeu
-?{fHn
-@VNQ
-@n2w
 ABCDEFGHIJKLMNOPQRSTUVWXYZ
-AJsN
 AVOption type %d of option %s not implemented yet\n
 AV_LOG_FORCE_NOCOLOR
-A]?VJ
-AcG\nt
-Ai0T
-AiFC.
 AliceBlue
 AntiqueWhite
 April
@@ -146,11 +88,7 @@ Aquamarine
 August
 AuthenticAMD
 Azure
-B*k@5
-BFUa.X
 Beige
-Bfe9
-Bh;+j
 Bisque
 Bitstream filter not found
 Black
@@ -172,7 +110,6 @@ CorExitProcess
 Coral
 CornflowerBlue
 Cornsilk
-CqTR;
 CreateEventExW
 CreateFile2
 CreateSemaphoreExW
@@ -182,7 +119,6 @@ CreateThreadpoolWait
 Crimson
 Cyan
 D8,8l8
-D<xZu
 DarkBlue
 DarkCyan
 DarkGoldenRod
@@ -208,7 +144,6 @@ DeepSkyBlue
 Demuxer not found
 DimGray
 DodgerBlue
-E0d\f
 Eb2]A=
 Encoder not found
 End of file
@@ -221,9 +156,6 @@ Error setting option %s to value %s.\n
 Eval
 Experimental feature
 F"VM>
-F0$?3=1
-F=J4
-F?cf
 FILE
 F\IE>
 February
@@ -263,13 +195,8 @@ Gray
 Green
 GreenYellow
 HH:mm:ss
-HMXB
-HWyn
 HoneyDew
 HotPink
-Ht=c
-H{1S
-H|As
 IMGUTILS
 If you want to help, upload a sample of this file to ftp://upload.libav.org/incoming/ and contact the libav-devel mailing list.\n
 Immediate exit requested
@@ -292,11 +219,9 @@ Khaki
 L848
 LCMapStringEx
 LFE2
-La8i
 Lavender
 LavenderBlush
 LawnGreen
-Le?2
 LemonChiffon
 LightBlue
 LightCoral
@@ -314,7 +239,6 @@ LightYellow
 Lime
 LimeGreen
 Linen
-LwH'
 Lyc>=
 MM/dd/yy
 MVx:>
@@ -337,20 +261,16 @@ Missing ')' in '%s'\n
 Missing ')' or too many args in '%s'\n
 Missing key or no key/value separator found after key '%s'\n
 MistyRose
-MkK?
 Moccasin
 Monday
 Mpm<
 Muxer not found
-NKeb
 NO_COLOR
 NavajoWhite
 Navy
 NcB>
 Not yet implemented in Libav, patches welcome
 November
-Nu?-HF
-O,ib
 October
 OldLace
 Olive
@@ -359,7 +279,6 @@ Option not found
 Orange
 OrangeRed
 Orchid
-PO79
 PaleGoldenRod
 PaleGreen
 PaleTurquoise
@@ -367,7 +286,6 @@ PaleVioletRed
 PapayaWhip
 PeachPuff
 Peru
-Pex?0
 Picture size %ux%u is invalid\n
 Pink
 Plum
@@ -375,13 +293,8 @@ PowderBlue
 Protocol not found
 Purple
 QP2LAMBDA
-Qjh/T
-RSDSl
-RUUUUU
 RosyBrown
 RoyalBlue
-S2zw
-S;uD
 SaddleBrown
 Salmon
 SandyBrown
@@ -407,49 +320,31 @@ Stream not found
 SunMonTueWedThuFriSat
 Sunday
 SystemFunction036
-T0.S
-TUUUU
 Teal
 Thistle
 Thursday
 Tomato
 Tuesday
 Turquoise
-T~OXu
-U$qk.
-UUUUU
 UUUUUU
 Unable to parse option value "%s"\n
 Undefined constant or missing '(' in '%s'\n
 Unknown error occurred
 Unknown function in '%s'\n
-V-Ai
+V%A+=
 Value %f for parameter '%s' out of range\n
 Violet
 WaitForThreadpoolTimerCallbacks
-Wcr"
 Wednesday
 Wheat
 White
 WhiteSmoke
-X2CQ
-X4I+
 Yellow
 YellowGreen
-YnFpW
-Ze2Zh@
-ZyrI
-\fO4W
-\r8STs\ne
-\t-f3F2
-^\sY0
 _cabs
-_g@Cg
 _hypot
 _logb
 _nextafter
-_xU`u
-`h`hhh
 aDJ=
 abcdefghijklmnopqrstuvwxyz
 abgr
@@ -749,8 +644,6 @@ bikeshed
 bmi1
 bmi2
 c:\buildslave\libav_win32\build\dev\libavutil\libavutil-54.pdb
-c?e2
-cb~q
 ceil
 cmov
 cosh
@@ -761,14 +654,8 @@ default
 downmix
 dxva2_vld
 e+000
-e-CS
-e<bN
 exp10
-f6\tn
 f7O>
-fC\tc
-fSOs
-fUUU
 fabs
 film
 flags
@@ -792,23 +679,16 @@ gray16le
 gray8,y8
 gray8a
 gsL>
-hI{L[
-hb?O2
 hd1080
 hd480
 hd720
 hexagonal
 hsxga
-ibzP
-ilRdV
 in]D>
 infinity
 isinf
 isnan
 jVa?
-k:UG
-kU'9
-l,kg<i
 ldexp
 libavutil license: LGPL version 2.1 or later
 libavutil-54.dll
@@ -832,20 +712,14 @@ libavutil/stereo3d.c
 libavutil/tree.c
 log10
 ls1=
-m1WY$
-mK1f
 mmxext
 modf
 mono
 monob
 monow
-n6j/
-n:2C[
 name   depth
 name nb_components nb_bits
-no:7
 none
-np?z 
 ntsc
 ntsc-film
 nv12
@@ -854,12 +728,9 @@ nv20be
 nv20le
 nv21
 n}in
-o3fW
 octagonal
 pal8
 pnJ=
-pzKD)
-qUN1
 qcif
 qntsc
 qpal
@@ -869,9 +740,7 @@ quad
 quad(side)
 qvga
 qxga
-r3A~
 r7Yr7=
-r\nly
 random
 rgb24
 rgb32
@@ -891,7 +760,6 @@ rgba64be
 rgba64le
 s16p
 s32p
-sU0&?W
 sinh
 sntsc
 spal
@@ -908,18 +776,13 @@ ssse3
 stereo
 svga
 sxga
-s{c|H
-tLVv
 tanh
 trunc
-u+E6
 u?^p?o4
 uXO=
-uZEeu
 uxga
 uyvy422
 uyyvyy411
-vRQ>
 vaapi_idct
 vaapi_moco
 vaapi_vld
@@ -931,8 +794,6 @@ vdpau_mpeg2
 vdpau_mpeg4
 vdpau_vc1
 vdpau_wmv3
-w7H-
-w?6r
 while
 whsxga
 whuxga
@@ -943,15 +804,12 @@ wsxga
 wuxga
 wvga
 wxga
-xppwpp
-xpxxxx
 xvmcidct
 xvmcmc
 xyz12be
 xyz12le
 y16be
 y16le
-yU\n2`
 ya16be
 ya16le
 yuv410p
@@ -1005,13 +863,4 @@ yuvj440p
 yuvj444p
 yuyv422
 yvyu422
-yx|o
-z1}B
-z?aUY
-zc%C1
-zyC7
-{4Wf
 |W8A=
-|sG2
-}6lw
-}Tw5

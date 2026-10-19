@@ -1,14 +1,6 @@
-            
-               
-                   
                      
                                        
                                           
-                         abcdefghijklmnopqrstuvwxyz      abcdefghijklmnopqrstuvwxyz     
-                         abcdefghijklmnopqrstuvwxyz      abcdefghijklmnopqrstuvwxyz      
-                         abcdefghijklmnopqrstuvwxyz      abcdefghijklmnopqrstuvwxyz                                      
-                         abcdefghijklmnopqrstuvwxyz      abcdefghijklmnopqrstuvwxyz                                        
-                         abcdefghijklmnopqrstuvwxyz      abcdefghijklmnopqrstuvwxyz                                               
                          abcdefghijklmnopqrstuvwxyz      abcdefghijklmnopqrstuvwxyz                                                          
                          abcdefghijklmnopqrstuvwxyz      abcdefghijklmnopqrstuvwxyz                                                                      
  !"#$%&'()*+,-./01
@@ -21,6 +13,8 @@ $ORIGIN/lib.target/
 %%CollationBin
 %%Parent
 %%ReorderCodes
+%+1.*e
+%+1.1f
 %1.15e
 %Translit%
 %Translit%%
@@ -43,22 +37,16 @@ $ORIGIN/lib.target/
 -Subnormal
 -Zero
 0.6931471805599453094172321214581765680755
-0000000000000000\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t
 0123456789
 0123456789abcdefghijklmnopqrstuvwxyz-
 2.302585092994045684017991454684364207601
 2147483647
-44sV
-6m4A2
 9223372036854775807
 9@N6icu_5216JapaneseCalendarE
 ::Null;
 <empty>
 =@N6icu_527UMemoryE
-@@@@@@@@@@@
-@@@@@@@@@@@@@@@@@@@@@@@
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@BBDEFGGIJKLMNOPIRSTUVVXXZ[\]^_`abcceeggijklmnoiqqstuvwwyz{|}~
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@BCDEFGHI@@@@@@@QR@@UVWXY@@@@@@@@bcdefghi@@@@@@pqrstuvwxy@@@@@@
+@%.*g
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ABCDEFGHI@@@@@@@QRSTUVWXY@@@@@@@@bcdefghi@@@@@@@q@@@@@@@@@@@
 @@@@@@@@@@@@@@@@@@@@@@FA@
 @@calendar=hebrew
@@ -71,7 +59,6 @@ $ORIGIN/lib.target/
 @calendar=islamic-civil
 @calendar=persian
 @calendar=roc
-@wKA
 AN6icu_5221CaseMapTransliteratorE
 ANY
 AmPmMarkers
@@ -94,7 +81,6 @@ Any-Null
 Any-Title
 Any-Upper
 AuxExemplarCharacters
-BA7R
 BAformat
 BAny-BreakInternal
 Big5
@@ -162,7 +148,6 @@ GLIBC_2.2.5
 GMT+8
 GMT_ID
 HALF_ENDERS
-HN?T\r
 Hex-Any
 Hex-Any/C
 Hex-Any/Java
@@ -231,7 +216,6 @@ LEN_CANONICAL_SYSTEM_ZONES
 LEN_SYSTEM_ZONES
 LIMITS
 LNnn
-L\rPA
 Languages
 MAP_CANONICAL_SYSTEM_LOCATION_ZONES
 MAP_CANONICAL_SYSTEM_ZONES
@@ -532,7 +516,6 @@ WORLD
 [-.:[:whitespace:]]
 [:whitespace:]
 [[:Block=Ethiopic:]&[:Script=Ethiopic:]]
-\5YyV
 \s*([0-9A-F]+)
 \u00a3
 \u00a5
@@ -548,10 +531,6 @@ _GMT
 _Jv_RegisterClasses
 _NUL
 _UNKNOWN_ZONE
-_ZTVN10__cxxabiv117__class_type_infoE@@CXXABI_1.3
-_ZTVN10__cxxabiv120__si_class_type_infoE@@CXXABI_1.3
-_ZTVN10__cxxabiv121__vmi_class_type_infoE@@CXXABI_1.3
-_ZdlPv@@GLIBCXX_3.4
 __CTOR_END__
 __CTOR_LIST__
 __DTOR_END__
@@ -928,7 +907,6 @@ hebrwcal.cpp
 hiraganaQ
 hour
 hourFormat
-hsz?
 i18n_cleanup
 icu_52::(anonymous namespace)::BASE
 icu_52::(anonymous namespace)::initStaticTimeZones()
@@ -5406,6 +5384,7 @@ numsys.cpp
 olsontz.cpp
 onOffSub
 operator delete(void*)
+operator delete(void*)@@GLIBCXX_3.4
 optimize
 option_00
 option_01
@@ -5449,7 +5428,6 @@ prefixLookupComp
 prefixLookupHash
 primary
 primaryZones
-pup7@
 qsort
 qsort@@GLIBC_2.2.5
 quant.cpp
@@ -7027,8 +7005,11 @@ variable
 variable top
 variant
 vtable for __cxxabiv1::__class_type_info
+vtable for __cxxabiv1::__class_type_info@@CXXABI_1.3
 vtable for __cxxabiv1::__si_class_type_info
+vtable for __cxxabiv1::__si_class_type_info@@CXXABI_1.3
 vtable for __cxxabiv1::__vmi_class_type_info
+vtable for __cxxabiv1::__vmi_class_type_info@@CXXABI_1.3
 vtable for icu_52::AbsoluteValueSubstitution
 vtable for icu_52::AlphabeticIndex
 vtable for icu_52::AlphabeticIndex::Bucket

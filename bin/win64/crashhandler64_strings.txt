@@ -1,9 +1,6 @@
                           
-   ! " % & ' : < G H I 
   HEAP_ZERO_MEMORY is specified.\n
- !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
  !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
- !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
  Base Class Array'
  Base Class Descriptor at (
  Class Hierarchy Descriptor'
@@ -125,14 +122,11 @@
 &yacute;
 &yen;
 &yuml;
-( 8PX
 ('8PW
 (Function name not found)
 (null)
 ***** OUT OF MEMORY! attempted allocation size: %I64d ****\n
 ***** OUT OF MEMORY! attempted allocation size: %llu ****\n
--64OS
--9D\t/9a
 -NOPROCESSHEAP
 -PROCESSHEAP
 -PROCESSHEAPZEROMEM
@@ -178,14 +172,10 @@
 .?AVout_of_range@std@@
 .?AVruntime_error@std@@
 .?AVtype_info@@
-/Tw\n4
 /dumps
 /steamerrorreporter64.exe
 0123456789abcdefABCDEF
 0123456789abcdefghijklmnopqrstuvwxyz
-0;0A0C0E0G0I0c0
-0\n0\f0
-0\t0\v0\r0
 1#IND
 1#INF
 1#QNAN
@@ -193,10 +183,6 @@
 17:55:58
 700PP
 700WP
-7h>?8
-?logf
-@Fv^k
-@valobject.cpp
 ABCDEFGHIJKLMNOPQRSTUVWXYZ
 ADVAPI32.dll
 Alc blocks size,%12u,%12u,%12u,%llu\n
@@ -397,7 +383,6 @@ GlobalLock
 GlobalMemoryStatusEx
 GlobalUnlock
 HH:mm:ss
-HMXB
 Heap#,Heap Handle,Allocated Bytes,Allocated Bytes(with overhead),Free Bytes,Total Bytes,Blocks,Heap Type,HeapNote\n
 Heap(%4.4d) Base=0x%p TotalAlloc=0x%p AllocWithOverhead=0x%p TotalFree=0x%p TotalBytes=0x%p Blocks=%8d Type=%2.2d Note=%12.12s\n
 HeapAlloc
@@ -457,7 +442,6 @@ MessageBoxW
 MiniDumpWriteDump
 Monday
 MultiByteToWideChar
-NKeb
 Network
 No Process Heaps!
 No room for new profile in vprof thread profile list, grow MAX_THREADS_TO_VPROF_AT_ONCE
@@ -485,7 +469,6 @@ Pool %4llu: allocated:%6i free:%6i committed:%6i (size:%5u kb)\n
 Pool %i: Size: %llu Allocated: %i Free: %i Committed: %i CommittedSize: %i\n
 QueryPerformanceCounter
 QueryPerformanceFrequency
-RSDS
 RaiseException
 ReadConsoleW
 ReadFile
@@ -502,7 +485,6 @@ RtlPcToFileHeader
 RtlUnwindEx
 RtlVirtualUnwind
 RunCallbacks
-S;uD
 SBH:\n
 Saturday
 September
@@ -612,10 +594,7 @@ ZwQueryInformationProcess
 \\.\GDPERF
 \\.\GDPERF.VXD
 \nHeap Dump - All (%d heaps)\n
-\r\f\v\v\n\n\t\t\t\t\t
 \src\
-\t9sv
-]u9g
 _ExitOnFatalAssert\n
 __based(
 __cdecl
@@ -643,7 +622,6 @@ _nextafter
 `eh vector destructor iterator'
 `eh vector vbase constructor iterator'
 `eh vector vbase copy constructor iterator'
-`h`hhh
 `local static guard'
 `local static thread guard'
 `local vftable constructor closure'
@@ -684,7 +662,6 @@ argument out of domain
 asin
 atan
 atan2
-b\fp\v0
 bad address
 bad allocation
 bad exception
@@ -715,7 +692,6 @@ crashhandler001
 crashhandler002
 crashhandler64.dll
 cross device link
-d8-t
 dddd, MMMM dd, yyyy
 destination address required
 destination_address_required
@@ -760,12 +736,12 @@ iostream
 iostream stream error
 is a directory
 item %p sentinel corrupted. skipping.\n
-kU'9
 kernel32
 kernel32.dll
 ldexp
 list<T> too long
 log10
+logf
 map/set<T> too long
 memblockhdr.cpp
 memstd.cpp
@@ -803,7 +779,6 @@ not supported
 not_a_socket
 not_connected
 ntdll.dll
-o9sp
 operation canceled
 operation in progress
 operation not permitted
@@ -849,6 +824,7 @@ unknown
 unknown error
 unknown exception
 validator.cpp
+valobject.cpp
 value too large
 vector<T> too long
 vprof.cpp
@@ -856,7 +832,3 @@ warning: removing Breakpad handler out of order\n
 wrong protocol type
 wrong_protocol_type
 wsprintfA
-xppwpp
-xpxxxx
-z?aUY
-zc%C1

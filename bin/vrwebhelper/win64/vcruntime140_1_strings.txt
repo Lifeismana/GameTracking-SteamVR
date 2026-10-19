@@ -55,7 +55,6 @@ IsProcessorFeaturePresent
 KERNEL32.dll
 LoadLibraryExW
 QueryPerformanceCounter
-RSDS
 RaiseException
 RtlCaptureContext
 RtlLookupFunctionEntry
@@ -135,7 +134,6 @@ api-ms-win-crt-heap-l1-1-0.dll
 api-ms-win-crt-runtime-l1-1-0.dll
 api-ms-win-crt-string-l1-1-0.dll
 bad exception
-caZv
 calloc
 free
 malloc

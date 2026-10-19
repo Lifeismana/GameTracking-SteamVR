@@ -387,7 +387,6 @@
     weight: %s\n
     white point: (%g,%g)\n
     width=%.20g
-   ,,,888DDDPPP```ppp
    -channel A -fx '%+lf*i %+lf*j %+lf*i*j %+lf;\n
    -channel B -fx '%+lf*i %+lf*j %+lf*i*j %+lf;\n
    -channel G -fx '%+lf*i %+lf*j %+lf*i*j %+lf;\n
@@ -422,6 +421,7 @@
    subframe_width=%.20g, subframe_height=%.20g
    width  = %.20g
   "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">\n
+  %.*s
   %.20g: %.20gx%.20g%+.20g%+.20g %.1f,%.1f %.20g %s\n
   %.20g: %s (%s)
   %04X %s: %s
@@ -918,8 +918,12 @@
   x y scale\n  currentfile buffer readline pop\n  token pop /columns exch def\n  token pop /rows exch def pop\n  currentfile buffer readline pop\n  token pop /class exch def pop\n  currentfile buffer readline pop\n  token pop /colorspace exch def pop\n  currentfile buffer readline pop\n  token pop /compression exch def pop\n  class 0 gt { PseudoClassImage } { DirectClassImage } ifelse\n  grestore\n
   x y scale\n  currentfile buffer readline pop\n  token pop /columns exch def\n  token pop /rows exch def pop\n  currentfile buffer readline pop\n  token pop /class exch def pop\n  currentfile buffer readline pop\n  token pop /compression exch def pop\n  class 0 gt { PseudoClassImage } { DirectClassImage } ifelse\n  grestore\n
   x_off[%d]: %.20g,  y_off[%d]: %.20g
- !HJsw
  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">\n
+ #%lu
+ %*.*lg
+ %*s
+ %+lf%s
+ %.20g
  %.20g %.20g
  %.20g %.20g %.20g %.20g
  %.20g %.20g %.20g %.20g %.20g %.20g
@@ -937,26 +941,18 @@
  .XoO+@#$%&*=-;:>,<1234567890qwertyuipasdfghjklzxcvbnmMNBVCZASDFGHJKLPIUYTREWQ!~^/()_`'][{}|
  10 cs `%s'
  1999-2019 ImageMagick Studio LLC
- 5,hC
  A1B'K2L@CIF/MSP"E3H9O6R^DJG>NTQ,*5<-U8V.%[$+X!&;:4\0Z7(_?W]#Y)=
- Bpo
- DL6
  Found a generic profile, type %s\n
  Generations     Limit  Format\n
- J*qA
+ L %g %g
  [clone 
- \rgDx
  __vector(
  const
- de&OK
  euh
  for 
- i4w
  lum
- mnn
  mul
  noexcept
- pWA
  recognized eXIf chunk
  restrict
  scene    = %.20g
@@ -966,24 +962,17 @@
  vid
  volatile
  with values from %.*lg to %.*lg\n
-!!!333EEETTTfffxxx
-!!#&&)++.123669;<32*&
-!3fl
-!4]dS
-!7WQ
+!%d%c
 !DOCTYPE
-!GfM
-!R#$J!"T$%\(*Y57L%'a'(d)+l()g,.s*,x.1{.0v03~49w15i
 ![CDATA[
-!qER
-!waPSR
 " of size %lux%lu%+ld%+ld
 " shape="rect" coords="%.20g,%.20g,%.20g,%.20g" alt="" />\n
 " transform="matrix(%g %g %g %g %g %g)">\n
 " transform="rotate(%g)">\n
 " transform="scale(%g,%g)">\n
 " transform="translate(%g,%g)">\n
-"""DDDUUUwww
+"%%%c"
+"%%[%s"
 "%.1024s c %.1024s",\n
 "%.1024s\n
 "%.20g %.20g %.20g %.20g ",\n
@@ -991,8 +980,7 @@
 "%s" completes
 "-sPDFPassword=%s" 
 "/>\n</g>\n</svg>\n
-"L\v1a
-"OaF
+"1;1;%d;%d
 #    plot [0:2][-.2:1] "lut.dat" with lines
 # As such its distribution is not uniform.
 # B,C = %.*g,%.*g\n
@@ -1014,9 +1002,9 @@
 # window = %s\n
 # window-support = %.*g\n
 # x1,y1 x2,y2 # count angle distance\n
+#%.*s\n
 #%04lx
 #%d;2;%d;%d;%d
-#&cK=YB
 #000
 #0000
 #000000
@@ -1024,12 +1012,7 @@
 #000000ff
 #000F
 #00f
-#0BYs
-#0RX
 #0f0
-#1e\tA
-#40*1Q|
-#7Zu
 #888888cc
 #?RADIANCE
 #?RADIANCE\n
@@ -1050,20 +1033,9 @@
 #f1001ecc
 #ffffff
 #ffffffcc
-#jPJS
-#tB5
-#}3Tt
-$3br
 $@ffffff9@coders/wbmp.c
-$D\r7dt
-$FRw
-$RJSz1
-$SM2
-$lWv
 $lumi
-$rGM4
 $tech
-$uS\nB
 $wtpt
 %!PS-Adobe-3.0 EPSF-3.0\n
 %!PS-Adobe-3.0\n
@@ -1095,6 +1067,7 @@ $wtpt
 %%DocumentNeededResources: font Times-Roman\n
 %%DocumentProcessColors: Black\n
 %%DocumentProcessColors: Cyan Magenta Yellow Black\n
+%%EOF\n
 %%EndComments\n
 %%EndData\n
 %%EndDefaults\n\n
@@ -1112,13 +1085,24 @@ $wtpt
 %%PageTrailer\n
 %%Pages: 1\n
 %%Trailer\n
-%&'()*456789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
 %*[^-]-%*[^-]-%[^-]
 %*[^-]-%[^-]
+%+.20g
 %+.20g%+.20g
+%+f 
+%+f%+f
+%+g%+g
+%+ld%+ld
 %-16s %-12s %s\n
 %-21.21s 
 %-45.45s 
+%.*Lf
+%.*g
+%.*g%%
+%.*g%s
+%.*g%s%s
+%.*g'\n
+%.*g, 
 %.100s
 %.1024s
 %.1024s:
@@ -1134,10 +1118,12 @@ $wtpt
 %.20g %.20g\n1\n%d\n
 %.20g %.20g\n1\n1\n1\n1\n
 %.20g %.20g\n1\n1\n1\n8\n
+%.20g 0 R 
 %.20g 0 obj\n
 %.20g bytes
 %.20g%s
 %.20g%s%s
+%.20g, 
 %.20g,%.20g
 %.20g,%.20g,
 %.20g,%.20g,%.20g 
@@ -1148,7 +1134,9 @@ $wtpt
 %.20g. Wrote %s file for scene %.20g:
 %.20g/%.20g, 
 %.20g/%f/%fdb 
+%.20g: 
 %.20g=>%.20gc 
+%.20g\n
 %.20gc 
 %.20gx%.20g
 %.20gx%.20g 
@@ -1158,9 +1146,12 @@ $wtpt
 %.20gx%.20g+0+0!
 %.20gx%.20g=>
 %.24s
+%.2s
 %.32s
+%.4s
+%.6s
 %.76s
-%0*VH
+%.8s
 %0.3fu
 %0.3fu %lu:%02lu.%03lu
 %010lu 00000 n \n
@@ -1184,50 +1175,65 @@ $wtpt
 %6ld 
 %8.*g %.*g\n
 %8lu 
-%Kl4
+%9g  
+%9s%c 
 %PDF-
-%W! _.*]<5Z
 %Y:%m:%d:%H:%M:%SUTC
-%YB~L
-%bgq
 %c%.20g
 %c%.20g %.20g
 %c%.20g %.20g %.20g %.20g
 %c%.20g %.20g %.20g %.20g %.20g %.20g
 %c%.20g %.20g %.20g %u %u %.20g %.20g
+%c%c%c 
+%d (%s)
 %d (Adam7 method)
 %d (Not interlaced)
 %d (Unknown method)
+%d +X %d
 %d tEXt/zTXt/iTXt chunks were found
 %d were found
+%d#%d#%s=
+%d#%d=
+%d, %d
 %d-%d-%dT%d:%d:%d
 %d-%d-%dT%d:%d:%d%d:%d
-%d=kZ
 %dx%d%+d%+d
+%f\n%G\n%b
 %g  %g  %g\n
 %g %g %g %g %g %g %g %g
 %g %g moveto\n
 %g %g scale\n
 %g %g translate\n
 %g 0 0 %g %.20g %.20g cm\n
+%g%%
+%g,%g 
+%g,%g,%g
 %g,%g,%g,%g
 %g,%g,%g,%g,%g
 %gx%g
+%gx%g!
 %gx%g%+.15g%+.15g
 %gx%g%+g%+g
+%hd, 
+%hu, 
 %lf%*[ ,]%lf
 %lf%*[ ,]%lf%*[ ,]%lf%*[ ,]%lf
+%lf'\n
+%lf,
 %lf,%lf: (%lf%*[%,]
 %lf,%lf: (%lf%*[%,]%lf%*[%,]
 %lf,%lf: (%lf%*[%,]%lf%*[%,]%lf%*[%,]
 %lf,%lf: (%lf%*[%,]%lf%*[%,]%lf%*[%,]%lf%*[%,]
 %lf,%lf: (%lf%*[%,]%lf%*[%,]%lf%*[%,]%lf%*[%,]%lf%*[%,]
 %lu %lu %lu %lu
+%lu %lu\n
 %lu,%lu
 %lu,%lu,%lu,%32s
 %lu:%02lu.%03lu
 %lux%lu
 %p.%.20g.%s
+%s %s %s
+%s - %s
 %s : 'Arc Angle Too Small'
 %s : 'Needs 6 coeff values'
 %s : 'Needs 8 coefficient values'
@@ -1243,53 +1249,55 @@ $wtpt
 %s : number of arguments
 %s @ %s/%s/%s/%.20g
 %s" shape="rect" coords="0,0,%.20g,%.20g" alt="" />\n
+%s%.20g.%s
 %s%.80s
+%s%s
+%s%s%s
 %s%s%s:%.20g.%.20g #%.20g => Changed %.20g
 %s%s.config%sImageMagick%s
 %s%sImageMagick%s
 %s%smagick-%.20gXXXXXXXXXXXX
 %s(%.20g):\n
+%s-%.20g
 %s-%.20g.%s
 %s-geometry
 %s-type
+%s.%s
+%s.%s.%s
 %s.png
 %s.ppm
 %s.ufraw
+%s/%s
+%s: %s
 %s: %s/%s/%s
 %s: __pos (which is %zu) > this->size() (which is %zu)
 %s:%.20g -> 
 %s:%.20g.%.20g #%.20g => Changed %.20g\n
 %s:%.20g.%.20g -> 
+%s:%d
+%s:%s
+%s=%s\n
 %s[%.20g,%.20g].%s: %s=%.*g\n
+%s[%.20g]
+%s[%.20g] 
 %s[%.20gx%.20g%+.20g%+.20g]
+%s[%08x]
 %smagick-%.20gXXXXXXXXXXXX
 %t %r %u %v %d %c[%p]: %m/%f/%l/%d\n  %e
+%u %u %u 
 %u,%u,%u,%u
+%u/%u/%u
 %ux%u
-&'()*56789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
-&Bnx
-&Pj&0
-&SAYS
 &amp;
 &apos;
 &l0E
-&pB3
 &quot;
+'%.20g'
 '%s' (Freetype)
 '%s' (LCMS)
 '%s' : 'Indeterminate Matrix'
 '%s': %8lx != %8lx
-'*&&4+):670-1$
-'1jR
-'6Q N
-'@Ck1t
-'NH6
-'Q?KVQ?
-'d+sX
-'eQa
-'pXC
-'vc7
-(%4tHO
+(%s) show\n
 (%s) stringwidth pop -0.5 mul -0.5 rmoveto\n
 (*image)->signature == MagickCoreSignature
 (*images) != (const Image *) NULL
@@ -1298,27 +1306,15 @@ $wtpt
 (*semaphore_info)->signature == MagickCoreSignature
 (*wand)->signature == MagickWandSignature
 (+-/*%:&^|<>~,
-(8Y&y
 (@Level III Encapsulated PostScript
-(D(yS
-(K9I
-(KY$q
 (anonymous namespace)
 (exception processing is suspended)
-(fGrLUq
 (method == CompareAnyLayer) || (method == CompareClearLayer) || (method == CompareOverlayLayer)
 (ssize_t) channel < MaxPixelChannels
 (wand->mvg_length+1) < wand->mvg_alloc
 (xml_info->signature == MagickCoreSignature) || (((XMLTreeRoot *) xml_info)->signature == MagickCoreSignature)
 (xml_info->signature == MagickCoreSignature) || (((const XMLTreeRoot *) xml_info)->signature == MagickCoreSignature)
-(|S1c
 )  Imported from GIF image: background.gif
-)JQR
-)X9I
-)XA\vN
-)g8u
-)y.0zkl6
-*3nM
 *Cyan*
 *EPSF-*
 *Magenta*
@@ -1341,9 +1337,7 @@ $wtpt
 *NSt13__facet_shims12_GLOBAL__N_115moneypunct_shimIcLb1EEE
 *NSt13__facet_shims12_GLOBAL__N_115moneypunct_shimIwLb0EEE
 *NSt13__facet_shims12_GLOBAL__N_115moneypunct_shimIwLb1EEE
-*Pt)p
 *SVG*
-*T|3m
 *X11*
 *XPM*
 *Yellow*
@@ -1372,25 +1366,18 @@ $wtpt
 *jj*jj*jj
 *jj*jj*jj*jj
 *jj*jj*jj*jj*jj
-*qc_O8\tlth
 *r%.20gs%.20gT
 *r1A
 *r3A
 *r3F
-*sr\Z1e
 *t%.20gR
-*tC7
 *v%.20gI
 *v%da%db%dc%.20gI
 *v6W
 *wand != (PixelWand *) NULL
 + support for multiple images\n
-+30l
-+3aJ
-+4@C6
++0+%.20g
 +PLi
-+TCP!
-+YRSt
 +adaptive-blur
 +adaptive-resize
 +adaptive-sharpen
@@ -1573,7 +1560,6 @@ $wtpt
 +opaque
 +ordered-dither
 +orient
-+owp
 +page
 +paint
 +path
@@ -1591,7 +1577,6 @@ $wtpt
 +quality
 +quantize
 +quiet
-+rXa
 +raise
 +random-threshold
 +range-threshold
@@ -1695,25 +1680,15 @@ $wtpt
 +window-group
 +write
 +write-mask
-,3fZQ%
-,4Ah
-,D0K
-,GfD
+,%.20g 
 ,Reference Viewing Condition in IEC61966-2.1
 ,\n       "info": "%.20gx%.20g %s"
 ,\n       %s: 
-,filc
-,rB)N
-,tJ\rjh
-,uRM
-,wK8
 -+xX0123456789abcdef0123456789ABCDEF
 -+xX0123456789abcdefABCDEF
 -------------------------------------------------------------------------------\n
 ----------------------------------------------------\n
 -0123456789
--0RV
--<qeY@c
 -Y %.20g +X %.20g\n
 -adaptive-blur
 -adaptive-resize
@@ -1870,7 +1845,6 @@ $wtpt
 -interpolate
 -interpolative-resize
 -interword-spacing
--kLdt
 -kerning
 -kuwahara
 -label
@@ -2038,22 +2012,18 @@ $wtpt
 -window-group
 -write
 -write-mask
+.%d.%d
 ./MagickCore/colormap-private.h
 ./MagickCore/gem-private.h
 ./MagickCore/memory-private.h
 ./MagickCore/random-private.h
 ./MagickCore/resample-private.h
 ./MagickCore/semaphore-private.h
-.AXf
-.H>Di
 .IEC 61966-2.1 Default RGB colour space - sRGB
 .PAL
-.\tKEP
 .gif
 .pal
 .png
-.xFO
-.{sYi
 /%s-ISO dup /%s ReencodeType findfont setfont\n
 /* columns rows colors chars-per-pixel */\n
 /* pixels */\n
@@ -2078,7 +2048,6 @@ $wtpt
 /Filter [ /ASCII85Decode ]\n
 /Filter [ /CCITTFaxDecode ]\n
 /Font << /F%.20g %.20g 0 R >>\n
-/HKC-
 /Height %.20g\n
 /ID [<%s> <%s>]\n
 /Im%.20g Do\n
@@ -2093,7 +2062,6 @@ $wtpt
 /Name /F%.20g\n
 /Name /Im%.20g\n
 /Name /Ma%.20g\n
-/OOp
 /Pages %.20g 0 R\n
 /Parent %.20g 0 R\n
 /ProcSet %.20g 0 R >>\n
@@ -2133,30 +2101,16 @@ $wtpt
 /proc/%.20g/file
 /setpagedevice {pop} bind 1 index where {dup wcheck {3 1 roll put} {pop def} ifelse} {def} ifelse\n<</UseCIEColor true>>setpagedevice\n
 /tmp
+0 %.20g\n
 0000000000 65535 f \n
 0123456789
 0123456789-, 
-050l0
-06"t
 0;0;0q
-0B\ne
-0NC\r
-0ON,
-0QB%\v
-0TX!
-0Z6@
-0\rLh
-0\vu9\v
-0bYy
-0pQ\nS8a
-0r/hL
-0vq2fL
 0x%02X%s
 0x%02X, 
 0x%04lX %4ld %s-%s (0x%04lx,0x%04lx)
 0x%08lx: 
 0x0+0+0
-1&tA
 1.2.11
 1.2.840.10008.1.2
 1.6.36
@@ -2193,25 +2147,7 @@ $wtpt
 181x258
 182x257
 1837x2599
-1F,B
-1Ia\n
-1Ra3
-1T35
-1Wdm
-1XGG
-1XgU9c=
-1ZGU
-1d,C
-1fhF
-1hau-:%Kv
-1jap
-1pVu>E
-1r"#c$'i%*m#*e&-s'0w'2|48mH:X?AB7G~EFFKKKGJJSUUZ[\WUWQIUmUQrhTORlWiz]afbddjllgiggttrtty{{qvjhVc
-1x\vFen
-1~jcG=
 2#0="&#0;&#2;"
-2%bSN
-2*2c2
 2004x2835
 2026-04-01
 204x204+10+10
@@ -2234,19 +2170,7 @@ $wtpt
 288x432
 2920x4127
 297x420
-2C\vTC
-2EDU$h
-2H!z
-2I`Jb"cH
-2NP{
 2\rSQ'C0S
-2\tBe
-2hoO
-2l]6
-2map
-2tC+
-30sE
-32#t@
 32-bit_rle_rgbe
 32-bit_rle_xyze
 323x459
@@ -2256,7 +2180,6 @@ $wtpt
 363x516
 364x515
 396x612
-39Iys_x
 3: -,-,-  1,1,1  -,1,-
 3: -,-,1  0,-,-  -,0,-
 3: -,-,1  0,-,1  -,-,1
@@ -2309,114 +2232,45 @@ $wtpt
 3: 1,2,1  0,0,0  1,2,1
 3: 2,-1,0  -1,0,1  0,1,-2
 3: 5,-3,-3  5,0,-3  5,-3,-3
-3;l]Kw
-3@pY
-3AU 
-3H>85
-3IF%
-3L+D
-3Xt<y
-3\nrC
-3\r3F3
 3desc
 3f33ff3f
 3ff3f33f
-3iJ[
-3iR">
-3ltG
-3oD\f
-3p@lgi
-3sL0
 3x1:0,1,0
 3x4+1+1:-,-,0 1,1,1 1,1,1 0,-,-
 3x4+1+1:0,-,- 1,1,1 1,1,1 -,-,0
 3x4+1+2:-,-,0 1,1,1 1,1,1 0,-,-
 3x4+1+2:0,-,- 1,1,1 1,1,1 -,-,0
-4#SDp\n
-4+4e4
-4+Fqj
-4-c6
 420x595
 4294967295\n
-42aJ]
 459x649
 48x48>
-49)Q/
 499x709
-4:Ho?
-4?324?ca4?
-4@C3@
-4DC7
-4F|h5|
-4L(vg
-4O.pQW
-4PC[Y
-4S3=VW
-4X!\vW
-4d+R
-4hC;
-4x#5
 4x1:0,1,1,0
 4x3+1+1:-,1,1,0 -,1,1,- 0,1,1,-
 4x3+1+1:0,1,1,- -,1,1,- -,1,1,0
 4x3+2+1:-,1,1,0 -,1,1,- 0,1,1,-
 4x3+2+1:0,1,1,- -,1,1,- -,1,1,0
-4xccV6
-5$Ci
 504x648
 515x728
 516x729
 540x720
-54B\vX
 576x720
-58176/9909C0g
 595x842
 5: -4,-1,0,-1,-4  -1,2,3,2,-1  0,3,4,3,0  -1,2,3,2,-1  -4,-1,0,-1,-4
 5: 0,0,-1,0,0  0,-1,-2,-1,0  -1,-2,16,-2,-1  0,-1,-2,-1,0  0,0,-1,0,0
-5>dq
-5?rM5?
-5MEV
-5OTA
-5Sg 
-5TC-
-5U?\neU?K
-5Xbq
-5YcV\v
-5oFh
-5p#R
-5t \rb
-6,C(@C4
-6-Rj7
-60B;D
 610x780
 612x1008
 612x792
 612x936
-62C\r4tt
 648x792
 648x864
 649x918
 64x64
 65535\n
-676r6
-6@95
-6F/A
-6MQ8u
-6QQ\f
-6X\v1
-6[mG\f
 6a+B
-6gc6n
-6p#F'
-6qM4
 6x6+0+0
-6|izA:/@A}o
-7$7`7
-7+4P;
 7.0.8
-70!\vjl
 709x1001
-70m D$$
 70x46 Truecolor rose
 72.0x72.0
 720x1008
@@ -2425,24 +2279,13 @@ $wtpt
 729x1032
 73x105
 768x512>
-78<z
 792x1224
 7:-10,-5,-2,-1,-2,-5,-10 -5,0,3,4,3,0,-5 -2,3,6,7,6,3,-2 -1,4,7,8,7,4,-1 -2,3,6,7,6,3,-2 -5,0,3,4,3,0,-5 -10,-5,-2,-1,-2,-5,-10
 7@ExportImagePixels
-7M<0
-7P.F!
-7dn&
-7m c
-7p'O
-7v,=p
-8!GK
-8+{3(y6,p4)v=1
-8,oA3r=7s?9sA;o?8n=6q94l:3d=2^>2P;+UP9]X=]]?nv\2@+27/28.39/28-/5,.3-.3-,1+*/)+0++3+*4,-5,7@59C43>,>J4\hTQ]O+4-gdUheVifWifWifWjeVnc\lhZflShwo
 8-bit indexed with optional binary transparency
 842x1191
 864x1296
 88x125
-8@7G
 8BIM
 8BIM#
 8BIM#%d#%s=
@@ -2456,63 +2299,24 @@ $wtpt
 8BIMWTEXT
 8BPB
 8BPS
-8E=hR
-8J\n3
-8PU>X
-8Si=
-8\n2H
-8av/&J
 8bim
 8bim:
 8x10
-9(E8
-9*idMff
-9,{;,v:*};0
 918x1296
 91x127
 94L;Q*
 96.0x96.0
-96>Q
-99"cJ
 9: 0,-1,-1,-2,-2,-2,-1,-1,0  -1,-2,-4,-5,-5,-5,-4,-2,-1  -1,-4,-5,-3,-0,-3,-5,-4,-1  -2,-5,-3,12,24,12,-3,-5,-2  -2,-5,-0,24,40,24,-0,-5,-2  -2,-5,-3,12,24,12,-3,-5,-2  -1,-4,-5,-3,-0,-3,-5,-4,-1  -1,-2,-4,-5,-5,-5,-4,-2,-1  0,-1,-1,-2,-2,-2,-1,-1,0
-9Bae
-9Bfn
-9Gzp
-9JLX
-9L*E,
-9Xs-
-9]LY
-9]Vj
 9x11
 9x12
 : %s %s %s\n
-:+}9-}9/}:0|:1w:3s8/p6,o8-n7+n6/k4,g3*`.$p8/
-:,~:/~:0{90y8/w9/v90t:.q6-n3+k4)e1%s=2
-:-|:.|:/{91{8/|9.z:.x9/u8.r6+o4*l2'v@6
-:.{9/|90{<3z<4p;1k8-i7-h8-h8.k70i6-a0'Y+
-:4C,T%f
-:8163-30+74,<;2IA6VJ9TH:dar
-:D`4D
 :MagickCore/enhance.c
 :acspMSFT
-:dC2
-:glt
-:gscP
-:hC4$
-:x(a4E
-;*v>)v8,s9-{@4
-;*{;,s9*v5(
-;2}92x8/u7.s7.o5+j70h70f5/g6/i70l71l</gF4
-;2~;1z;/z;+{:+
 ;GIF89a
 ;MAGICK
 ;MemoryAllocationFailed
-;TrI&
-;VYU
 ;\n       %s' \\n
 ;\n       yy =
-;d22Vt::N
-;i:EH
 <!ATTLIST
 <!DOCTYPE
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">\n
@@ -2532,7 +2336,6 @@ $wtpt
 </pattern>\n
 </policy>
 </symbol>\n
-<9\n1h
 <<\n/N %.20g\n/Filter /ASCII85Decode\n/Length %.20g 0 R\n/Alternate /%s\n>>\nstream\n
 <?%s%s%s?>\n
 <?xml version="1.0" encoding="US-ASCII"?>\n
@@ -2549,18 +2352,14 @@ $wtpt
 <?xpacket begin=
 <?xpacket begin="%s" id="W5M0MpCehiHzreSzNTczkc9d"?>\n<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 4.0-c316 44.253921, Sun Oct 01 2006 17:08:23">\n   <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">\n      <rdf:Description rdf:about=""\n            xmlns:xap="http://ns.adobe.com/xap/1.0/">\n         <xap:ModifyDate>%s</xap:ModifyDate>\n         <xap:CreateDate>%s</xap:CreateDate>\n         <xap:MetadataDate>%s</xap:MetadataDate>\n         <xap:CreatorTool>%s</xap:CreatorTool>\n      </rdf:Description>\n      <rdf:Description rdf:about=""\n            xmlns:dc="http://purl.org/dc/elements/1.1/">\n         <dc:format>application/pdf</dc:format>\n         <dc:title>\n           <rdf:Alt>\n              <rdf:li xml:lang="x-default">%s</rdf:li>\n           </rdf:Alt>\n         </dc:title>\n      </rdf:Description>\n      <rdf:Description rdf:about=""\n            xmlns:xapMM="http://ns.adobe.com/xap/1.0/mm/">\n         <xapMM:DocumentID>uuid:6ec119d7-7982-4f56-808d-dfe64f5b35cf</xapMM:DocumentID>\n         <xapMM:InstanceID>uuid:a79b99b4-6235-447f-9f6c-ec18ef7555cb</xapMM:InstanceID>\n      </rdf:Description>\n      <rdf:Description rdf:about=""\n            xmlns:pdf="http://ns.adobe.com/pdf/1.3/">\n         <pdf:Producer>%s</pdf:Producer>\n      </rdf:Description>\n      <rdf:Description rdf:about=""\n            xmlns:pdfaid="http://www.aiim.org/pdfa/ns/id/">\n         <pdfaid:part>3</pdfaid:part>\n         <pdfaid:conformance>B</pdfaid:conformance>\n      </rdf:Description>\n   </rdf:RDF>\n</x:xmpmeta>\n<?xpacket end="w"?>\n
 <?xpacket end=
-<Br8
 <CiscoIPPhoneImage>\n
 <Data>
 <Depth>2</Depth>\n
 <Height>%.20g</Height>\n
-<Lk\fvxC]\nq
 <LocationX>%.20g</LocationX>\n
 <LocationY>%.20g</LocationY>\n
-<Mr#'pqQr
 <Title>%s</Title>\n
 <Width>%.20g</Width>\n
-<\taJC
 <base64>
 <body style="text-align: center;">\n
 <clipPath id="%s">\n
@@ -2577,8 +2376,6 @@ $wtpt
 <html>\n
 <img usemap="#%s" src="%s" style="border: 0;" alt="Image map" />\n
 <include
-<iyo`
-<jxAy
 <level> %.20g out of range, map "%s"
 <level> too few values, map "%s"
 <level> too many values, map "%s"
@@ -2586,7 +2383,6 @@ $wtpt
 <levels height>, map "%s"
 <levels width>, map "%s"
 <levels>, map "%s"
-<lf}dX^^G
 <locale
 <localemap>
 <logmap>
@@ -2595,47 +2391,21 @@ $wtpt
 <message
 <pattern id="%s" x="%g" y="%g" width="%g" height="%g">\n
 <policy
-<s5p
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="%.20gpx" height="%.20gpx" viewBox="0 0 %.20g %.20g" enable-background="new 0 0 %.20g %.20g" xml:space="preserve">
 <svg width="%.20g" height="%.20g">\n
 <svg xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" ev="http://www.w3.org/2001/xml-events" version="1.1" baseProfile="full" width="%g" height="%g">\n
 <symbol>\n
 <title>%s</title>\n
 <type
-=1X54H>FFISIYZO,-/+-/.--/-)/*'-+(,**,**.++.++.++/++/--0,,0-./-*2.,2.+2-,30.82/<4/>4/A5-F91H>7Q<5_70y7-
-=3~<1~:.|9/|90z92v80j8/h8/f7,e7-e7,i60i70f6.h;2nLB88314,37-56+37)/9+09*.8*/8,8A2;C201$DM:o
-=41J)
-=7$>8L>9t>:
 ================
 =====================
 =============================\n\n
 ===================\n\n
-=DhE;
-=EnYf
-=n2U|
-=vz 1
-={ULH
->%,>&T>'|>(
 >>\nstream\n
->BZD
->Tb5X
->UYa7e
->b0yx0li
->d6m
->s*r\nGH
 ?#?RADIANCE
-?1\f@24@3\@4
-?1\odI+
-?333333
-?3OP
-?5rf
-?86RE%[
-?=RAeRB
 ?DFAX
 ?DestroyResizeFilter
-?Dio
 ?External transfer via a smart array interface
-?KPf
 ?MagickCore/channel.c
 ?MagickCore/composite.c
 ?MagickCore/quantum-import.c
@@ -2645,8 +2415,6 @@ $wtpt
 ?UUUUUU
 ?Undefined
 ?XML
-?ZZW
-?[IPH
 ?coders/hrz.c
 ?coders/icon.c
 ?coders/jnx.c
@@ -2656,57 +2424,28 @@ $wtpt
 ?coders/pix.c
 ?coders/scr.c
 ?coders/xps.c
-?ffffff
 ?sRGB IEC61966-2.1 (Equivalent to www.srgb.com 1998 HP profile)
-?x9?7
 ?xml
 @  @( @0 @8 @@ @@ 8@ 0@ (@  @( @0 @8 @@ 8@ 0@ (@  @  @( @0 @8 @@ 8@ 0@ (@,,@0,@4,@<,@@,@@,<@,4@,0@,,@0,@4,@<,@@,<@,4@,0@,,@,,@0,@4,@<,@@,<@,7@,0@
 @%04lx
-@1{Qa
-@2_KK
-@=pB<q@6q?5o?4j<2h:1q62m51j7/g91g>4fF9cJ5_M5
-@Eo\nt
-@IuO
+@%lg
 @LBLSIZE
-@LiJ
 @N6Magick4BlobE
 @N6Magick8ColorYUVE
-@QjA;
 @SFW95
-@SIY1p
-@UUUUUU
 @UnableToLockSemaphore
-@X95#AB378!QZ4dyN_
-@Zi4B
 @coders/mac.c
 @coders/mpr.c
 @coders/vid.c
 @dng:decode
-@erp
 @ffffff
-@n1rS
 A Coord Of Bottom Right Corner
 A Coord Of Top Right Corner
-A'R\rZ t
-A)AjA
-A*EC*
-A1!X
-A1YD8K ~
-A5lK\rn
-A5~:/y;/u>.z4)
-A?1a
 AAI Dune image
 ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789 $-_.+!*'(),{}|\^~[]`"><#%;/?:@&=
 ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/
 ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789_-
-ACN1
-AD(R!D
-AEVhdIf
-AEYZ
-AGNb<r
-AK8B+
 AKST
-AM,ANDAO\APtAQ
 AMagickCore/display.c
 APP%d
 APP1
@@ -2716,22 +2455,12 @@ ARGB4444
 ASCII
 ASCII//TRANSLIT
 ASCII85Decode
-AT'h
 AThe image format and characteristics
 AUTOTRACE
 AVS X image
-AYfU(P
-A\fDrC\vR
-A\fPYA_
-A\rQL
-A\rbh
-A\rmp
-A\vZU
 AaCcQqSsTt
-AbXu
 Absolute
 Absolute Intent
-AcasV
 Accelerate
 Access outside of image boundary
 Accession Number
@@ -2859,7 +2588,6 @@ AffineProjection
 AffineTransformImage
 Air Kerma Rate Reference Date
 Air Kerma Rate Reference Time
-Aj@PE
 Algorithm Code Sequence
 Algorithm Description
 Alias
@@ -2971,18 +2699,11 @@ Average4
 Average9
 AveragePulseWidth
 Avg Overranges All Views
-AxO[
 Axial Acceptance
 Axial Mash
 Axis Labels
 Axis Units
-B,laa
-B/FAC
-B0BrB
 B44A
-B:k(T
-B<;M.+f88K'
-B@O&1
 BACK
 BASI
 BASI is not implemented yet
@@ -2995,26 +2716,15 @@ BINARY
 BITPIX  =           %10ld
 BLACKANDWHITE
 BLACKANDWHITE_ALPHA
-BL\fA
 BMP2
 BMP3
-BR&QQGuM
-BR7!a
-BR@H
 BRAILLE
 BRF ASCII Braille format
 BROWSE
 BSCALE  =         %E
-BXOA(
 BXj!
 BZERO   =         %E
 BZip
-B[n3
-B\njL
-B^rC^N
-B`2B`
-B`C2@e
-BaQD
 Back Projector Coefficient
 Background
 BackgroundColor
@@ -3032,7 +2742,6 @@ Base64Encode
 Batch Number
 Batch Size
 Batch Slice Number
-BcRZ
 Beam Description
 Beam Dose
 Beam Dose Specification Point
@@ -3116,7 +2825,6 @@ BlueViolet
 Blur
 Blur/Image
 BlurImage
-Bo)K~
 Body Part Examined
 Body Part Thickness
 Bohman
@@ -3153,31 +2861,20 @@ BrightnessContrastImage
 Bumpmap
 Burned In Annotation
 Butt
-Bvt=
 Byline
 Byline Title
 Byte
 Byte Order
 C %g %g %g %g %g %g Z\n
 C %g %g %g %g %g %g\n
-C oh
-C1yA-
-C6TC
-C9@O
-C:C}C
-C<L.9
 C<Tn
-C<z7w 
 CACHE
 CACHEOFF
 CALS
 CANVAS
 CAPTION
-CC4h
 CCIR 601 4:1:1 or 4:2:2
 CDATA
-CER>
-CEvC9y:4
 CIELab
 CINEON
 CInvalidColormapIndex
@@ -3194,10 +2891,7 @@ CMYKProcessColor:
 CMYK_ALPHA
 CMagickCore/decorate.c
 CMemoryAllocationFailed
-CO3648+/DN)
-COd9E
 CPG ML
-CQm#&
 CRT curv
 CRT desc
 CSI Matrix Size Original
@@ -3236,8 +2930,6 @@ CatchImageException
 Category
 Catrom
 CcSs
-Ce ^CD
-Ce@8
 Center
 Center A Coord Of Plane Image
 Center R Coord Of Plane Image
@@ -3294,7 +2986,6 @@ Cipher DPC
 Circle
 Cisco IP phone image format
 City
-Cl&c
 Clamp/Image
 ClampImage
 Class
@@ -3350,7 +3041,6 @@ CloseMagickLog
 Cluster #%.20g = %.20g\n
 Clut/Image
 ClutImage
-Cn77Y
 Coalesce
 CoalesceImages
 Code Label
@@ -3672,17 +3362,7 @@ CycleColormapImage
 Cylinder to Plane Distort, FX Equivelent:\n
 Cylinder to Plane Distort, Internal Coefficents\n
 Cylinder2Plane
-D#K4
-D(7HP
-D(Fa
-D(yC
-D/AE7
-D3+(q4
-D47-::4OD;VL=gellj
-D9U,
 D:%04d%02d%02d%02d%02d%02d
-D@5A=3;6-52(:5/F=7TG6WF7]Uj
-DA#4B
 DAS Ad Input
 DAS Auto Zero
 DAS Cal Frequency
@@ -3698,23 +3378,18 @@ DATAMIN =         %E
 DCRAW
 DCT Label
 DCTDecode
-DD<)S
-DDDD
 DDS 
 DEBUG
 DEC SIXEL Graphics Format
-DEDE
 DEFI
 DEFI cannot redefine a frozen MNG object
 DEFI chunk found in MNG-VLC datastream
 DELEGATES
 DEPTH %.20g\nMAXVAL %.20g\n
 DFAX
-DG6d
 DHDR
 DHDVText
 DHText
-DHzF
 DICM
 DICOM is used by the medical community for images like X-rays.  The\nspecification, "Digital Imaging and Communications in Medicine\n(DICOM)", is available at http://medical.nema.org/.  In particular,\nsee part 5 which describes the image encoding (RLE, JPEG, JPEG-LS),\nand supplement 61 which adds JPEG-2000 encoding.
 DISC
@@ -3737,13 +3412,9 @@ DVH Sequence
 DVH Type
 DVH Volume Units
 DVText
-DXC#ZKr
 DXT1
 DXT3
 DXT5
-DZ<\nFN~
-D`g$p
-D`iH\ng
 DarkBlue
 DarkCyan
 DarkGoldenrod
@@ -3982,7 +3653,6 @@ Digital Image Format Acquired
 Digital Imaging and Communications in Medicine image
 Digital Moving Picture Exchange Bitmap, Version 2.0.\nSee SMPTE 268M-2003 specification at http://www.smtpe.org\n
 Digital Negative
-Dii#
 Dilate
 DilateI
 DilateIntensity
@@ -4074,7 +3744,6 @@ Dose Type
 Dose Units
 Dose Value
 Double
-DpaR\r
 Draw
 Draw/Error/
 Draw/FatalError/
@@ -4235,7 +3904,6 @@ DstAtop
 DstIn
 DstOut
 DstOver
-DtEA
 Dull
 Dummy
 Duotone
@@ -4244,23 +3912,13 @@ DuplicateImages
 Duration Of Xray On
 Dynamic Range
 Dynamic Z Alpha Value
-D|gr
-E(01
-E-@9KZ
-E-hA
-E6'K
-E8b5
 ECG 2 Offset 2
 ECG Display Printing
 ECG Display Printing Enable Status
 ECG Display Printing ID
 ECG Display Printing Select Status
-ED6Q"*
-EDED
 EDIT
-EGB6O
 ENDL
-ENj4Ia4TH8YL<_RBbVD`S?f]b{y
 EOFBlob
 EPDF
 EPI Change Value of X Component
@@ -4271,16 +3929,12 @@ EPS2
 EPS3
 EPSF
 EPSI
-EP\r8@
-EVCn
 EXIF
 EXPOSURE=%g\n
-EY}CWoB[sDDB6JE<\M>`S>e_Xzt
 East
 Echo Number(s)
 Echo Time
 Echo Train Length
-EdSF^
 Edge
 EdgeDetect
 EdgeImage
@@ -4352,7 +4006,6 @@ Event
 Event Elapsed Time(s)
 Event Timer Name(s)
 Event Type ID
-Evh!
 Exam Record Checksum
 Examination Folder ID
 Examination Reason
@@ -4421,22 +4074,11 @@ ExtraCondensed
 ExtraExpanded
 ExtraLight
 Extract
-F"FgF
-F+"1l
-F.<S6's17rn
-F1e\t
-F3?Su3?
-F4t1
-F9R:/:5372172/61.30,//-0/-3,-6+-P78
-F@4V
 FAX machines use non-square pixels which are 1.5 times wider than\nthey are tall but computer displays use square pixels, therefore\nFAX images may appear to be narrow unless they are explicitly\nresized using a geometry of "150x100%".\n
-FAk\fL,
 FEATURES
 FILE
 FITS
-FLc2
 FMsk
-FOR.(>3(G@-e^:w
 FORMAT=32-bit_rle_rgbe\n\n
 FOV Mask Y Cutoff Angle
 FOV Shape
@@ -4444,10 +4086,6 @@ FRACTAL
 FRAM
 FRAM chunk found in MNG-VLC datastream
 FUJIFILMCCD-RAW 
-FU`8
-FXn{
-FZhy
-F\vWpJ
 Failed SOP Instance UID List
 Failed SOP Sequence
 Failed to allocate quantum_info
@@ -4458,7 +4096,6 @@ Fall back to Interpolated 'Point' filter
 False
 FaxReadG3
 FaxReadG4
-FdrF\v
 Features: %s\n
 February
 FgColor
@@ -4526,7 +4163,6 @@ Fixation Device Position
 Fixation Device Sequence
 Fixation Device Type
 Fixture Identifier
-Fkb u
 Flash Video Stream
 FlateDecode
 Flatten
@@ -4568,7 +4204,6 @@ FormatsMap
 FormatsMemory
 Forming a output range from %.*lg to %.*lg
 ForwardFourierTransformImage
-Fp9| j
 FractalCompressNotSupported
 Fraction Group Number
 Fraction Group Sequence
@@ -4595,8 +4230,6 @@ Framing Type
 FreiChen
 FreiChen:11;FreiChen:12;FreiChen:13;FreiChen:14;FreiChen:15;FreiChen:16;FreiChen:17;FreiChen:18;FreiChen:19
 Friday
-FrjQ
-Fs?Sus?
 Fuji CCD-RAW Graphic File
 Function
 Function/Image 
@@ -4610,17 +4243,10 @@ FxGetSymbol
 FxImage
 FxPreprocessExpression
 FxSubexpression
-G&mB
-G*0&+0+975EC=Z\i\]
-G5G{G
-G=\nmV
-G?n1G?
 GAMMA=%g\n
 GCC: (Debian 8.3.0-6) 8.3.0
 GCC: (SteamRT 9.3.0-17+steamrt2.5+bsrt2.1) 9.3.1 20210309
-GD\n4
 GE Image Integrity
-GE">0
 GIF8
 GIF87
 GIF87a
@@ -4630,7 +4256,6 @@ GIMP image
 GLIBC_2.14
 GLIBC_2.2.5
 GLIBC_2.3
-GO`u@
 GRADIENT
 GRANITE
 GRAY
@@ -4639,9 +4264,6 @@ GRAYSCALE
 GRAYSCALE_ALPHA
 GROUP4
 GROUP4:
-GT38_
-G\fp4
-G`\v6oy
 Gamma
 Gamma/Image
 GammaImage
@@ -4952,7 +4574,6 @@ GetXMLTreePath
 GetXMLTreeProcessingInstructions
 GetXMLTreeSibling
 GetXMLTreeTag
-GhaQibRjdSibRibRjbSkbSkbSlcTlcTmaTfZPspi
 GhostWhite
 GlobExpression
 Gradient
@@ -5010,36 +4631,16 @@ Group Label
 Group Length
 Group Time Offset
 Group4
-G{Qe
-H FY
-H Sd(8
-H'Gs
-H-VB
-H.sx
-H0-u
-H01XyqxyE@
-H5@)5
-H;D7,95593162/62.11--1.00.5/.2*,E21xA5
 HALD
-HAUF
 HCLComposite
 HCLp
-HCT#A
-HD=8
 HEAPCCDR
-HEH*
-HF6r
-HG3D
 HISTOGRAM
 HISTORY %.72s
-HN!L
 HOME
 HTML
 HTTP
 HTTPS
-HX1^
-H\nL5
-H\vLZ
 HaldClutImage
 Half Value Layer
 Hamming
@@ -5087,24 +4688,12 @@ HotPink2
 HotPink3
 HotPink4
 HoughLineImage
-HqR*6
-Hrl"
 Huffman Table Size
 Huffman Table Triplet
 HuffmanDecodeImage
 HuffmanEncodeImage
 Hull
 Hypertext Markup Language and a client-side image map
-H|p@j
-H}bU
-I%fS
-I'Uc
-I(t\fa
-I04L
-I2\nZ
-I3PE
-I7WK
-I=uA
 IBH Image Scale Factors
 ICC Color Profile
 ICC profile is NULL
@@ -5112,22 +4701,16 @@ ICCRGBG1012
 ICCTEXT
 ICODIB
 ICON
-IDa!Ma
 IEC http://www.iec.ch
 IEC sRGB
 IEND
-IHA&
 IHDR
-II>XI
 IIRO
 ILBM
-ILTi
 IMAGEMAGICK
-IMif
 INFO
 INLINE
 INVERSE
-INjr
 IPL Image Sequence
 IPTC
 IPTC Newsphoto
@@ -5135,7 +4718,6 @@ IPTC Newsphoto text format
 IPTC:%ld:%ld
 IPTCTEXT
 IPTCWTEXT
-IQ+T\v
 ISI Command Field
 ISO/TR 11548-1 format
 ISO/TR 11548-1 format 6dot
@@ -5144,10 +4726,6 @@ ISOBRL6
 ITU-R601-525L
 ITU-R601-625L
 ITU-R709
-IWwHhcShcShcShcShcSjcSlcTmdUmdUlbQlje
-IZ~Ca
-I\rh8D
-I]K@1-3%J3'
 Icon Image Sequence
 Id=ImageMagick
 Identification Description
@@ -5161,8 +4739,6 @@ IdentifyPaletteImage
 Identifying Comments
 Identifying Group Length
 Identity Hald color lookup table image
-Ig?Fxg?v
-Ii`QjaRlbTjaRjaRkbSkbSkbRlcSlcTpbRpaUf_RfaP_YCA@%rM<
 Image
 Image Archive Flag
 Image Box Group Length
@@ -5410,8 +4986,6 @@ InvokeDelegate
 InvokeDynamicImageFilter
 InvokePDFDelegate
 Invoking "%s" static image filter
-Iok9
-Iq D
 Irix RGB image
 IsBlobExempt
 IsBlobSeekable
@@ -5458,21 +5032,11 @@ Item
 Item Delimitation Item
 IterateOverSplayTree
 IterativeDistance
-Its7
-J.2&+.(01+:=0LONXVmnl
-J5:c
-J5MH0
-J7J}J
-J9ri
-J=\vBy
-JA>O
 JArray
 JBIG1
 JBIG2
-JDOy*DD
 JFIF
 JHDR
-JMLrFzJx
 JNGCompressNotSupported
 JNG\r\n
 JPEG
@@ -5484,36 +5048,17 @@ JPEGEmbeddingFailed
 JPXDecode
 JSON
 JSONFormatLocaleFile
-JUL$O
 JWnw*
-JZ+T
-J[=<&AJ0h~St
-J\vXHQyQ
 January
-Jh_Pi`Qi`Qi`Qh_PkbTjbSi`PibLibHhbK`ZFLJ6@E4@H8CJ>UM;
-Ji\vi
 Jinc
-Jr(V
-Js M@
 July
 June
-K1fLcI
-K6KG
-K;0i
-KC7t
-KO1=6)OHF
-KQ\fr
-KS$x8
 KVP List
-KXN9%
-KX|GhbRibRkcSibRibRjbSkbSlcTlcTkbRe]S
-K\fKSK
 Kaiser
 Kapur
 KapurThreshold
 Kernel
 Keyword
-Kg\tS[
 Khoros Visualization image
 Kirsch
 Kodak Digital Camera Raw Image File
@@ -5521,22 +5066,14 @@ Kodak Digital Camera Raw Image Format
 Kuwahara/Image
 KuwaharaImage
 L != (double *) NULL
+L %g %g Z\n
+L %g %g\n
 L%.20g
-L&&jl66Z~??A
 L*A*B
-L*LrL
-L/Q0am
-L2"8\vf
-L3\rx
-L3`F
-L:1d
-L=5W
 L@InvalidColormapIndex
-L@UUUUUU
 LABEL
 LANG
 LAUNCH
-LAZr
 LBLSIZE
 LBLSIZE=%.20g FORMAT='BYTE' TYPE='IMAGE' BUFSIZE=20000 DIM=2 EOL=0 RECSIZE=%.20g ORG='BSQ' NL=%.20g NS=%.20g NB=1 N1=0 N2=0 N3=0 N4=0 NBB=0 NLB=0 TASK='ImageMagick'
 LCHab
@@ -5555,23 +5092,16 @@ LC_PAPER
 LC_TELEPHONE
 LC_TIME
 LEGO Mindstorms EV3 Robot Graphic Format (black and white)
-LH,y
 LINES
-LIX@?M<99A=(BC.8A9:EQEUaFSRaG<
 LNX86
 LOGO
 LOOP
-LP?%T
-LQjEgdSgdRgdRgdRfdRicRlcUmdUmdSjaQddd
-LS5>
 LUT Data
 LUT Descriptor
 LUT Explanation
 LUT Number
 LUT_1D_SIZE
 LUT_3D_SIZE
-LXHY
-LXp!
 LZMA
 LZWDecode
 LZWEncodeImage
@@ -5610,12 +5140,7 @@ LavenderBlush2
 LavenderBlush3
 LavenderBlush4
 LawnGreen
-Lay/_
 Layers
-Lcs00
-Ld!7
-LdUPN
-LdZq
 Leaf Jaw Positions
 Leaf Position Boundaries
 Left
@@ -5624,7 +5149,6 @@ LeftBottom
 LeftOrientation
 LeftShift
 LeftTop
-Legc
 LemonChiffon
 LemonChiffon1
 LemonChiffon2
@@ -5642,8 +5166,6 @@ LevelImage
 LevelImageColors
 Levelize/Image
 LevelizeImage
-Lh)l
-Li`Qi`Qi`QjaRjaQk_Zk__kaVkaTkaXlaRkbNZVDDF8<C55C1?C)
 License: %s\n
 Light
 Light Brightness
@@ -5742,7 +5264,6 @@ ListPolicyInfo
 ListThresholdMapFile
 ListThresholdMaps
 ListTypeInfo
-Ll!yZ
 Load/Image
 Load/Images
 LoadColorCache
@@ -5796,16 +5317,12 @@ Lossy Image Compression
 Lossy Image Compression Ratio
 Low R-R Value
 Lower Range Of Pixels
-Lp0}
-Lp_6\
 Lr16
 Lr32
 Luminance
 Luminize
 Luminosity
-LwH'
-Ly<4`
-M)XA
+M %g %g\n
 MAC Paint
 MAGICK
 MAGICK_AREA_LIMIT
@@ -5845,7 +5362,6 @@ META
 MG Bin Number
 MGK8BIM0000
 MGKIPTC0000
-MGRP<EB-O_9i
 MHDR
 MIB8
 MIFF
@@ -5860,13 +5376,10 @@ MPEG-4 Video Stream
 MPEG:DECODE
 MPEG:ENCODE
 MPRI
-MQo<VsB\yGb
-MQp@
 MR Acquisition Type
 MRDR Directory Record Offset
 MSBOrderLong
 MSBOrderShort
-MSK,D
 MSVG
 MTV Raytracing image format
 MVGAutoWrapPrintf
@@ -8284,7 +7797,6 @@ Meterset Exposure
 Method
 Metric
 Metrics: text: %s; width: %g; height: %g; ascent: %g; descent: %g; max advance: %g; bounds: %g,%g  %g,%g; origin: %g,%g; pixels per em: %g,%g; underline position: %g; underline thickness: %g
-Mi`Qi`Qh_PlcTkbSmbWlbUldOldPlbVmbUmcThaQVP@EA18A'
 Microsoft Audio/Visual Interleaved
 Microsoft DirectDraw Surface
 Microsoft Windows 3.X Packed Device-Independent Bitmap
@@ -8364,7 +7876,6 @@ MotionBlurImage
 Move Destination
 Move Originator Application Entity Title
 Move Originator Message ID
-Mr1(
 Multichannel
 MultidimensionalMatricesAreNotSupported
 MultilineCensus
@@ -8376,17 +7887,11 @@ MultiplicativeNoise
 Multiply
 MustSpecifyAnImageName
 MustSpecifyImageSize
-My.u
-N%NnN
-N)an
-N-ERH%
-N-bq
 N10__cxxabiv115__forced_unwindE
 N10__cxxabiv117__class_type_infoE
 N10__cxxabiv119__foreign_exceptionE
 N10__cxxabiv120__si_class_type_infoE
 N10__cxxabiv121__vmi_class_type_infoE
-N4Em
 N6Magick10CoordinateE
 N6Magick10ErrorCacheE
 N6Magick10ErrorCoderE
@@ -8525,21 +8030,15 @@ N9__gnu_cxx18stdio_sync_filebufIwSt11char_traitsIwEEE
 N9__gnu_cxx20recursive_init_errorE
 N9__gnu_cxx24__concurrence_lock_errorE
 N9__gnu_cxx26__concurrence_unlock_errorE
-N=([Etb
 N@coders/label.c
 NAME
 NAXIS   =           %10lu
 NAXIS1  =           %10lu
 NAXIS2  =           %10lu
 NAXIS3  =           %10lu
-NCV;heVheWheWheWheWieVkdZneWhfQnlh
-ND\nL
 NETSCAPE
 NETSCAPE2.0
-NFQ7
-NJ5mS/iX(
 NJPL1I
-NN3xl
 NOTATION
 NSt3_V214error_categoryE
 NSt6locale5facet6__shimE
@@ -8576,8 +8075,6 @@ NSt8ios_base7failureB5cxx11E
 NSt8ios_base7failureE
 NTSCCompositeVideo
 NULL
-NZCS
-NaX)
 Name                  Color                                         Compliance\n
 Name                  Value\n
 Name      Offset Target\n
@@ -8610,9 +8107,6 @@ NewXMLTree
 NewXMLTreeTag
 Next Directory Record Offset
 NextXPMLine
-Nfc0
-NgepI
-NhD\f{2
 Nikon Digital SLR Camera Raw Image File
 No Views Ref Channels Blocked
 No global PLTE in file
@@ -8665,8 +8159,6 @@ NotEnoughTiles
 Notch Filter Bandwidth
 Notch Filter Frequency
 November
-Nt@J"
-Nu\tc
 Nuclear Acquisition Group Length
 Nuclear Medicine Series Type
 NullMatrix
@@ -8736,21 +8228,10 @@ Number of Warning Suboperations
 Number of Wedges
 NumberOfImagesIsNotSupported
 Numeric Value
-O/@sh
-O11i
-O8Yu#k<u
 O@Pango Markup Language
-OD"u
 OHTA
-OI;MG:F@5?90=60A=8ME5SD.WLS
-OPae
-ORce
 OTSU
 OTSUThreshold
-OW%PXMPYuPZ
-OX)1
-O\fh8
-O]uz
 Object Binary Identifier
 Object Cycle
 Object Directory Binary Identifier
@@ -8781,11 +8262,9 @@ Offending Element
 Offset
 Offset Frequency
 Offset From CT MR Images
-Oh44\Q
 OilPaint
 OilPaint/Image
 OilPaintImage
-Ol"W)
 Old Data Set Subtype
 Old Data Set Type
 Old Lossy Image Compression
@@ -8827,7 +8306,6 @@ OptimizeTransparency
 Option/Error/
 Option/FatalError/
 Option/Warning/
-Or\rl
 OrangeRed
 OrangeRed1
 OrangeRed2
@@ -8858,7 +8336,6 @@ Other Study Numbers
 Output Power
 OutputFilename
 OutputType
-Ov@\t8N\n
 OvSize
 Over
 Overall
@@ -8912,30 +8389,17 @@ Overline
 Overrange Correction Used
 OverviewImage
 Owner Name
-OwrS=
-OxR\n0
-P$XE
-P&15PM
-P'PqP
-P(hA
+P%c\n
 P0;0;0q
-P0Ea
 P4\n16 16\n
 P4\n16 8\n
 P4\n24 24\n
 P4\n30 18\n
 P4\n32 32\n
-P4\n32 32\nDDDD
 P4\n32 32\nUUUU
-P4\n32 32\nwwww
 P4\n8 4\n
 P4\n8 8\n
 P4\n9 9\n
-P6'D\ta
-P6\n70 46\n255\n0/-20.62/83.:3-92-80-91.80-80-7/,5-*4,)5-*5-*1-'1.'41*74-96/?:/F?3JB4LA2NB2UA2tD4
-P7U)
-P9?i
-P@>0>=4<=2AE*LM:UTAecg
 PALCompositeVideo
 PALM
 PANGO
@@ -8952,18 +8416,14 @@ PDFA
 PDFDelegateFailed
 PDM Data Object Type Extension
 PDS_VERSION_ID
-PE-PFUPG}PH
-PE2<
 PFS: 1st Publisher Clip Art
 PG LM
 PG ML
 PG ML + %g %g %g\n
 PG%[ \t]%2s%[ \t+-]%d%[ \t]%d%[ \t]%d
 PHASH
-PHnRLauw|
 PICON
 PICT
-PK\tEA
 PLASMA
 PLTE
 PNG inheriting bit-depth, color-type from original, if possible
@@ -8977,11 +8437,8 @@ PNG8
 PNGCompressNotSupported
 PNGSetExifProfile
 PNG\r\n
-PNXX
-POF`
 POSIX
 PPScan Parameters
-PQrp\r
 PRIMARIES=%g %g %g %g %g %g %g %g\n
 PRINT
 PS:ALPHA
@@ -8989,7 +8446,6 @@ PS:CMYK
 PS:COLOR
 PS:GRAY
 PS:MONO
-PS;pI
 PSD Estimated Limit
 PSD Estimated Limit In Tesla Per Second
 PSDPackbitsEncodeImage
@@ -8998,8 +8454,6 @@ PSNR
 PSPageGeometry
 PSX TIM
 PVC Rejection
-PXV#
-P\xlJ
 PackBitsRect
 PackBitsRgn
 PackbitsEncodeImage
@@ -9322,7 +8776,6 @@ Postprocessing Function
 PostscriptDelegateFailed
 PowderBlue
 Power
-Pqf\f
 Pre-Medication
 Predefined Magick Image (LOGO, ROSE, etc.); output same as 'H'
 Predefined pattern
@@ -9407,22 +8860,7 @@ Pulse Sequence Mode
 PushDrawingWand
 PushRunlengthPacket
 Pxr24
-Q.YS
-Q>JBR>L
-QABE\n
-QC)\C
-QH)G
-QJ9%
-QLEQMmQN
-QM#7
 QQQQ
-QQ\rRR5RS]RT
-QV 6
-Q\fKtl
-Q\rU4
-QbLp
-QjAI
-Qnt2,
 QqTt
 Quadratic
 Quality Control Image
@@ -9448,16 +8886,8 @@ QueueCacheViewAuthenticPixels
 R Coord Of Bottom Right Corner
 R Coord Of Top Right Corner
 R Wave Pointer
-R!4p
-R"Z$g
-R'Jj7D
 R-R Interval Vector
-R.3P
-R0o?
-R1R|R
-R5dN
 R98.
-R?lBR?
 RA Coord Of Target Recon Centre
 RADIAL-GRADIENT
 RAS Letter For Anterior Posterior
@@ -9466,8 +8896,6 @@ RAS Letter For Scout Start Loc
 RAS Letter For Side Of Image
 RAS Letter Of Image Location
 RECORD_BYTES
-RF##e
-RFb`/G1f
 RGB OpColor for arithmetic modes
 RGB backColor
 RGB foreColor
@@ -9487,7 +8915,6 @@ RIS Key
 RIS Report IMGEF
 RIS Worklist IMGEF
 RLEDecoderError
-RLs7:C:97RJN
 RMSE
 ROI Area
 ROI Bottom Right
@@ -9535,8 +8962,6 @@ RT Referenced Series Sequence
 RT Referenced Study Sequence
 RT Related ROI Sequence
 RTImageOrientation
-R\f2
-R\nuN
 Radial
 Radial Position
 Radiance RGBE image format
@@ -9601,7 +9026,6 @@ Raw red, green, blue samples in 565 format
 Raw red, green, blue, and alpha samples
 Raw red, green, blue, and opacity samples
 Raw yellow samples
-Rd-ReURf
 Read
 Read 
 Read Exception
@@ -10179,10 +9603,8 @@ RoyalBlue4
 Run Length Triplet
 RunLengthDecode
 RunlengthEncoded
-R~e2
 S Coord Of Bottom Right Corner
 S Coord Of Top Right Corner
-S1?=ST6I
 SAR Avg Head
 SAT Location F
 SAT Location H
@@ -10207,21 +9629,16 @@ SIMPLE  =                    T
 SIXEL
 SMPTE 268M-2003 (DPX 2.0)
 SMTPE274M
-SNXh
 SOP Class UID
 SOP Instance UID
 SOPNode
 SOURCE_DATE_EPOCH
 SPARSE-COLOR
-SPC-
-SPVB't
 SSIM
 STEGANO
 SUN Rasterfile
 SVG 
 SVGZ
-S\vQD
-SaIyA
 SaddleBrown
 Sample Rate
 Sample/Image
@@ -10505,7 +9922,6 @@ Sinc
 SincFast
 Sine
 Sinusoid
-Si}P9-
 Skeleton
 SketchImage
 Skip Beats
@@ -10537,7 +9953,6 @@ Slide Identifier
 Slop Integer 6 To Slop Integer 9
 Slope
 Slow Scan TeleVision
-Sm-SnESo]SpuSq
 Smallest Image Pixel Value
 Smallest Pixel Value in Plane
 Smallest Pixel Value in Series
@@ -10597,7 +10012,6 @@ South
 SouthEast
 SouthWest
 SpExtra
-SpJZ
 Spacing Between Slices
 Sparse Color
 SparseColor
@@ -10636,7 +10050,6 @@ SrcAtop
 SrcIn
 SrcOut
 SrcOver
-Src\tV:
 St10bad_typeid
 St10ctype_base
 St10money_base
@@ -10861,7 +10274,6 @@ Surface Entry Point
 Surface Threshold
 Surview Direction
 Surview Length
-Svc?c$
 Swap Phase Frequency
 Swirl
 Swirl/Image
@@ -10884,12 +10296,7 @@ Synchronization Frame of Reference
 Synchronization Trigger
 Syringe Counts
 System
-T yl\Ab
-T$4O
-T(3EG
-T2.v0
 T@nan
-TC>y\nX
 TERM
 TEXT
 TGGC Trigger Mode
@@ -10897,7 +10304,6 @@ THUMBNAIL
 TID Offset
 TILE
 TITLE 
-TJ?M
 TLS init function for 
 TLS wrapper function for 
 TM-Line Position X0
@@ -10905,15 +10311,8 @@ TM-Line Position X1
 TM-Line Position Y0
 TM-Line Position Y1
 TMPDIR
-TP(B
-TTTT
-TTTTT
-TTu?Z|E_
 TUPLTYPE
 TUPLTYPE %s\nENDHDR\n
-TXdd
-T\tQPf
-T`00P
 Table Angle
 Table Delta
 Table End Location
@@ -10948,8 +10347,6 @@ Target Maximum Dose
 Target Minimum Dose
 Target Prescription Dose
 Target Underdose Volume Fraction
-Tb)#8
-Tc<I?
 Telephone Number
 TellBlob
 Template Name
@@ -10971,11 +10368,9 @@ TextAnnotation
 TextPrimitive %.20g,%.20g
 Texture/Image
 TextureImage
-TgO$J
 Therapy Description
 Therapy Type
 Thermal Index
-Thh4b*
 Thicken
 Thickness Disclaimer
 Thin
@@ -11025,7 +10420,6 @@ TimeLimitExceeded
 Tint/Image
 TintImage
 Title: %s\n
-TmSG
 Tokenizer
 Tolerance Table Label
 Tolerance Table Number
@@ -11140,16 +10534,9 @@ Type/Error/
 Type/FatalError/
 Type/Warning/
 TypeOfFilters
-U(UuU
-U/lP
 UBRL
 UBRL6
-UC6UQ`
-UMyeOZnJUmDM_:9C(89,;=34;089)Vd>t
 UNKNOWN
-UPQh
-UPpYC`jH
-UQz\ONO>5@1/5,330.3+4>1;K80>.-2/54+AM/s
 URLNotFound
 USERPROFILE
 UTF-8
@@ -11159,9 +10546,7 @@ UUUU""""UUUU
 UUUU"*"*UUUU
 UUUU****UUUU
 UUUUUU
-UW\no
 UYVY
-Ug#N5
 UltraBold
 UltraCondensed
 UltraExpanded
@@ -11387,7 +10772,6 @@ Unsupported combination of band format and colorspace
 Unsupported number of channels
 UnsupportedBitsPerPixel
 UnsupportedCellTypeInTheMatrix
-UoA=r
 Update
 UpdateSignature
 Upper Range Of Pixels
@@ -11409,19 +10793,10 @@ UserDefined
 UserSpace
 UserSpaceOnUse
 Utah Run length encoded image
-Uw]v
-U|L0t
-V!MV\t
-V1hQ
 V2.0
-V2[f
 V4.5
-V939j%5'
 V@./MagickCore/pixel-accessor.h
-VAaB
 VC# V
-VGqr
-VI/z
 VICAR
 VICAR rasterfile format
 VIFF
@@ -11429,8 +10804,6 @@ VIPS
 VIPS image
 VOI LUT Sequence
 VOI Position
-VPf,\t8
-VTRl
 VTT for 
 VTT for std::basic_fstream<char, std::char_traits<char>>
 VTT for std::basic_fstream<wchar_t, std::char_traits<wchar_t>>
@@ -11450,8 +10823,6 @@ VTT for std::basic_stringstream<wchar_t, std::char_traits<wchar_t>, std::allocat
 VTT for std::iostream
 VTT for std::istream
 VTT for std::ostream
-VUM>VM?VN?VP=\RC`WBbYKmckwj|pdm]W[WUR]VGfZFn_HjdO
-VYBYe
 Valid range for index is 0-6
 Valid range for index is 0-7
 Validate
@@ -11474,8 +10845,6 @@ VerticalTile
 VerticalTileEdge
 Vertices of Polygonal Collimator
 Vertices of Polygonal Shutter
-VhC4d
-VhaI
 Video Image Format Acquired
 View
 View Code Sequence
@@ -11532,14 +10901,9 @@ Volume Voxel Size
 Volume Z Position List
 Volume Z Position Size
 Voronoi
-VrS4
 WBMP
 WIDTH %.20g\nHEIGHT %.20g\n
 WIZARD
-WN<?5;4193.53.14/-4.,40/3/12000.3-+I.!lMN
-WN?VM?PI:KB4F<1E@7LG5SG.VNQ
-WNy!
-W^)Q@SJ
 Wand
 Wand/Error/
 Wand/FatalError/
@@ -11555,8 +10919,6 @@ Waveform Padding Value
 Waveform Sample Value Representation
 Waveform Sequence
 WaveletDenoiseImage
-WbIx
-WcZKe[Ke[Kd[Le[Mg_Jh_Hg^Mg]Lf\I`ZGQN=LH7SP>[ZF__O
 WebP
 Wedge Angle
 Wedge Factor
@@ -11572,7 +10934,6 @@ Weight
 Welch
 Welsh
 West
-Wh<z`
 WhQ\vU
 White
 WhiteSmoke
@@ -11601,11 +10962,9 @@ Wireframe Points Coordinates
 Wireframe Timestamp
 Wireless Bitmap (level 0) image
 Wizard attributes: 
-WjL~J
 Word Perfect Graphics
 Worklist Request End Time
 Worklist Request Start Time
-Wr;j
 Write
 Write 
 Write/Image
@@ -11718,29 +11077,21 @@ WriteXBMImage
 WriteXPMImage
 WriteYCBCRImage
 WriteYUVImage
-Wze\f
 X != (double *) NULL
 X Focus Center
 X Offset In Slide Coordinate System
 X Windows system bitmap (black and white)
 X Windows system pixmap (color)
-X,,t4
 X-Ray Image Receptor Angle
 X-Ray Output
 X-ray Tube Current
-X/X}X
 X11 
-X@Sfp
+X: %.20g\n
 XA 3D Reconstruction Algorithm Name
 XA 3D Reconstruction Algorithm Version
-XA)4
 XDG_CONFIG_HOME
-XE(<1\veTc
 XENDIAN = 'SMALL'
-XF,B
-XF2h
 XGetImportInfo
-XI&T
 XImportImage
 XMLTreeInfoToXML
 XPDS
@@ -11755,73 +11106,40 @@ XShear/Image
 XShearImage
 XTRN
 XTRNARRAY
-XVAnO
 XYZ 
-XYzg
-X\If
-X\tZW
-X\v4l
-Xe`l
 XmlInvalidAttribute
 XmlInvalidContent
 XmlMissingAttribute
 XmlMissingContent
 XmlMissingElement
-XozM
-Xq6}
-XqTNr
 Xray Chain
 Xray Off Position
-Xw^f
 Y != (double *) NULL
 Y Focus Center
 Y Offset In Slide Coordinate System
-Y)QL
-Y*CL
-Y;OST
-Y<hc
+Y: %.20g\n
 YCBCR
 YCbCr
 YCbCrA
 YDbDr
-YDw\
-YMAM+'2%7><KM@=;(7:/8@-h
-YMVO
-YO];;=.23+;C1f
 YPbPr
 YShear/Image
 YShearImage
-YZ}5
-Y\o`pr
-Yb\te
-YdJ.0.//-/1.21.30-3/,2-*-*+,+,*)-+(,-',+(),*)--+/-,.+*/+)4,)6/*;3.=40;1-;/.>/.>3,59/93,O,'i:-
 Yellow
 YellowGreen
-YoFf
-YqFL
-Y|q'za\f
 Z != (double *) NULL
 Z Offset In Slide Coordinate System
-Z*dV
-Z2?3
-Z7cb
 ZDepthHomogeneous
 ZDepthLinear
-ZF9=
 ZLIBEncodeImage
 ZSoft IBM PC Paintbrush
 ZSoft IBM PC multi-page Paintbrush
 ZX-Spectrum SCREEN$
-ZZ*T
-Z\rnh
-Z`qE
-Zbn-
 ZeroLengthBlobNotPermitted
 ZeroTimeAnimation
 ZipCompressNotSupported
 ZipS
 ZipWithPrediction(32 bit)
-ZnN;
 Zonal Map Format
 Zonal Map Location
 Zonal Map Number Format
@@ -11829,56 +11147,23 @@ Zoom Center
 Zoom Enable Status
 Zoom Factor
 Zoom Select Status
-Zr?3
 Zstd
-Z|4X
 [ /Indexed /%s %.20g %.20g 0 R ]\n
 [ /PDF /Text /ImageB
 [ /PDF /Text /ImageC
 [ /PDF /Text /ImageI
 [%g %g %g %g 0 0] concat\n
 [/ICCBased %.20g 0 R]\n
-[CM5
-[Eqw%
-[K:[K:YK:YI9[K:]J<^K<^O;^O;_N:_KHaWw|w
-[L<[L<\L<YI;ZK;[L>^M<^P<[NAYLI^Sdme
-[N>ZN>[N=XM<ZL<WK?XL<ZL8ULGd_uwx
-[PA[OAYM?TJ:TG9NG<RJ9WK4XQT
-[SWX@Oe=`vFCW-6@*:<279/8@-_yAx
-[TUeUWD
-[ToF?O94462&52):9.B=-K@/P@/C;*:4)040B1-
-[VpJ9kS@s`I
-[XAi8
 [abi:
 [built-in]
-[eC5
-[fa=3HC/
 [user-policy]
 \%03o
-\9Ho_
-\AvfPf
-\K7\K6\K6]L7]L9]L;^M=]P=]P=aM:cG>g]q
-\a~Qe
 \b0lp
-\f"WA`7h
-\f0CP
-\f2xBq
-\f6Q\rH
-\f<329D\f
-\fDpn#
-\fHLino
-\fNl!D
-\fT0H
-\fWhX2
-\fYDc}
-\f\BY0S
 \fbTRC
 \fdesc
-\feHC
 \fgTRC
 \frTRC
 \ftext
-\ftpQ
 \fvued
 \n   Threshold Maps for Ordered Dither Operations\n
 \n  %% Labels.\n  /Helvetica  findfont pointsize scalefont setfont\n
@@ -11888,13 +11173,8 @@ Z|4X
 \n%s: Difference of Dilate and Erode
 \n%s: Difference with original image
 \n* native blob support\n
-\n1ZZ&p;
-\n2aKCx
-\n6Hb
-\n;HhC
 \n<?%s%s%s?>
-\nM0\vZ
-\nM`SE0\nC
+\nPath: %s\n
 \nPath: %s\n\n
 \nUnsupported WPG token XOR, please report!
 \nUnsupported WPG2 unaligned token RST x=%.20g, please report!\n
@@ -11904,60 +11184,16 @@ Z|4X
 \n\n\nCluster Extents:        (Vector Size: %d)\n
 \nbegin clip-path %s
 \nbegin mask-path %s
-\nePs
 \nendstream\n
-\npeVv
-\nyH,b
-\r0Xc
-\r8STs\ne
-\r9VDH
-\r9w?n0
-\rCBqjR@
-\rD<pC?o%E
 \rIEC61966-2.1
-\rQh0
-\rYi2
-\r\r\r&\r@\rZ\rt\r
-\raiA
-\rkHC6
 \rmLCg"R
-\t%\t:\tO\td\ty\t
-\t6X\tb
-\t8pX
 \tCluster Threshold = %g\n
-\tEWj
-\tLq0
-\tSH1
-\tTAU;
-\tTg\n5
 \tTotal Number of Clusters = %.20g\n\n
 \tWeighting Exponent = %g\n
-\tXpD
-\tnV6
-\tpRy
 \u%04X
-\v"GWE
-\vEWJ,
 \vICCRGBG1012
-\vIQ0s
 \vIWs9
-\vP?\f;P?<jP?|
-\vR%tB
-\v\v\v"\v9\vQ\vi\v
-\v]lF6QC
-\vaxd
-\vfp0
-\vg\no8A
 \vpDa\f\tM
-\vxoWdh
-\v|Hkq
-]C1K}0
-]O39"FO)u
-^1sC
-^A\voxc
-^M:^M:^M:^M:^M:_L7^N9VNAaXYo`mmdppx
-_1i2:M=I
-_=+Q4%L:6o:
 _@EXIF Profile Thumbnail
 _@InvalidColormapIndex
 _@MemoryAllocationFailed
@@ -11970,7 +11206,6 @@ _@svg
 _@version: MIL-STD-1840
 _ALPHA
 _Accum
-_B>El=E<Eo;BXIFGRMJYVXQNRb]ZqNGohT[YeHPra^ehfhrmikitxvxtqo\ah=D'
 _Fract
 _GLOBAL_
 _ITM_RU1
@@ -11980,9 +11215,7 @@ _ITM_deregisterTMCloneTable
 _ITM_memcpyRnWt
 _ITM_memcpyRtWn
 _ITM_registerTMCloneTable
-_R_\HES;2?);E0BJ69A04;.49578,LW3r
 _Sat 
-_\cf3
 __assert_fail
 __ctype_b_loc
 __ctype_get_mb_cur_max
@@ -12260,7 +11493,6 @@ __wcsftime_l
 __wcsxfrm_l
 __wctype_l
 __xstat
-_eQ,/2+/2..0-.--+),*++)+('(**+,*+,*+*))*()-+,.-./,+0,+.*)/++0--811<32;21>0.A2/A73B:6K62h7/
 _exit
 _height
 _map.shtml
@@ -12273,30 +11505,13 @@ _txnal_logic_error_get_msg(void*)
 _txnal_runtime_error_get_msg(void*)
 _txnal_sso_string_c_str(void const*)
 _width
-`"FMv
 `%s' (FFTW)
 `%s' (JPEG)
 `%s' (ret=%d)
-`5\txDP
 `@X-Motif UIL table
-`C1x
-`E4d
-`PO>r
-`QSEJ
-`X90
-`\tx0j
-``6c3x
-`e4B
-`x\nB,a yb
 `}@#define
 a != (double *) NULL
-a0"D
-a2eH
 a4small
-aHnd
-aU$X
-aWvd$A;-
-a\f1RH
 abort
 accept
 access
@@ -12321,14 +11536,12 @@ alnum
 alpha
 alpha %.20g %.20g '%s'\n
 alpha-trait
-amB\nS
 amp;
 analyze
 analyzeImage
 angle
 animate
 anonymous
-ap1T
 apos;
 append->signature == MagickCoreSignature
 application/json
@@ -12346,7 +11559,6 @@ archa
 archb
 archd
 arche
-argl
 arguments != (char ***) NULL
 arial
 artifact != (const char *) NULL
@@ -12368,27 +11580,15 @@ azure2
 azure3
 azure4
 b != (double *) NULL
-b!hd
 b&;AL
-b5v0
-b?8Nb?g}b?
-bC&M
 bKGD
 bKGD,caNv,cHRM,eXIf,gAMA,iCCP,iTXt,pHYs,sRGB,tEXt,zCCP,zTXt,date
-bL!c
-bM"A
-bQ}b
 bXYZ
-bZ!rj
-bZ5nP
-b\vFcX4O
-ba?X
 background
 background != (const PixelInfo *) NULL
 background color (ssize_tword)
 background pattern
 background-color
-bafO
 basename
 basic_filebuf::_M_convert_to_external conversion error
 basic_filebuf::underflow codecvt::max_length() is not valid
@@ -12531,7 +11731,6 @@ border_color != (PixelWand *) NULL
 border_info != (RectangleInfo *) NULL
 border_wand != (const PixelWand *) NULL
 bordercolor
-br*K
 brightness != (double *) NULL
 brit
 brown
@@ -12551,16 +11750,7 @@ burlywood3
 burlywood4
 byte
 bzero
-b{PQ
-c&fs&Y
-c0s(
-c4=P
-cAVp
-cBW%
 cHRM
-cK`x;
-cU|l
-c\rC\nId
 caNv
 cache
 cache != (Cache *) NULL
@@ -12582,7 +11772,6 @@ cannot create shim for unknown locale::facet
 caption
 caption:
 caption:pointsize
-ceO\
 ceil
 channel
 channelPerceptualHash_ is not valid
@@ -12622,7 +11811,6 @@ cipher:type
 circle
 circle %.20g %.20g %.20g %.20g\n
 circular entity declaration &%s
-cjti
 clamp
 class
 class=%s  colors=%.20g  alpha-trait=%s\n
@@ -12828,7 +12016,6 @@ count != (ssize_t *) NULL
 count=%d quantum=%d length=%d group=%d\n
 courier
 covariant return thunk to 
-cpja
 cprt
 crc32
 creating montage
@@ -12847,16 +12034,7 @@ cyan1
 cyan2
 cyan3
 cyan4
-d!bl
-d&7F$L
-d(H\Ns
-d*Sa
-d:HrxV
 dB/dt
-dJ_p
-dLcv
-dNXC8939:4>>8A?:D?:FA<EA:E@:G?8E=4D;1C:3C:3<8095/94/<70B<0I=0OA2P@5K<4E:1A:1=<3G70
-d_7y3B
 dark
 data
 data != (const void *) NULL
@@ -13056,35 +12234,15 @@ draw_info->text != (char *) NULL
 drawing-wand
 drawing_wand != (const DrawingWand *) NULL
 dsheet
-du^g
 dums
 duplicate != (Image *) NULL
 duplicate->signature == MagickCoreSignature
 dv (0..255), count (0..255), text
 dxt1
 dynamic_cast
-d}_S_G671681==8B@;FA?HC>HC>JD<MB7J=0H<-F=/E;0A91<71:7.>9,E</M?/OA0O>1K;1D:/>=17=0
-e Yx
-e;QH
-eC}gc}m
-eIUD
-eLe:
-eOA\f
-ePfP4=0*&#.$&+**)+,'+/''-)$"W\H~
-eShp
 eXIf
-eXM$
-eXqIW46
-e\t@cy
-e^E(1
-e`D)0
-e`J*0
-e`xW`
-ed!e
-edF\f
 edge %g
 edge < polygon_info->number_edges
-ejIf
 ellipse
 ellipse %.20g %.20g %.20g %.20g %.20g %.20g\n
 ellipse %g,%g,%g,%g,0.0,360.0
@@ -13128,7 +12286,6 @@ errr
 esheet
 etil
 events
-exc!
 exception != (ExceptionInfo *) NULL
 exception != relative
 exception->signature == MagickCoreSignature
@@ -13441,13 +12598,7 @@ extension
 extent
 extra for each character
 f != (Quantum *) NULL
-f02t\v
-f33U
 f3ff33f3
-f9/P
-fBI\rrV
-fCk\f
-fJY@
 face
 false
 false\n
@@ -13543,6 +12694,7 @@ flse
 fmod
 folio
 font
+font '%s'\n
 font-family
 font-family '%s'\n
 font-family:%s;
@@ -13572,7 +12724,6 @@ foundry
 fprintf
 fputc
 fputs
-fq,V
 fractal
 fractional pen position
 frameArc
@@ -13606,15 +12757,8 @@ fuzz
 fwrite
 fx_info != (FxInfo **) NULL
 g != (Quantum *) NULL
-g"5HR
-g>Edh>G!i>
-g>ycx\r
 gAMA
-gB3Q
-gF1t
-gKB3
 gXYZ
-g_O=_O?_O>_O=_O=`P7\L9_[a}|
 gainsboro
 gama
 gamma
@@ -13664,7 +12808,6 @@ goldenrod1
 goldenrod2
 goldenrod3
 goldenrod4
-gpCG?Z
 gradient
 gradient-units
 gradient:%s
@@ -13894,7 +13037,6 @@ grey97
 grey98
 grey99
 group4:%s
-gtW:.
 guard variable for 
 guard variable for std::__cxx11::collate<char>::id
 guard variable for std::__cxx11::collate<wchar_t>::id
@@ -13948,49 +13090,31 @@ gzread
 gzseek
 gztell
 gzwrite
-g{eWgL330551883=<6DC9GG>JI;MI6IE7MHJH@9E;+C9-?80>83=71>94@=9IA6P@-H?-K81C745=0@?/
-h4;\fW\rq
-h4U\fIVGEQ
 h7CM*
 h:format
-h?&5h?Vdh?
-h?6!i?ePi?
-hE+D_
 hLit
 hMix
-hN?x
-hQ9C%
-hRwC
-hS;XD,]K2\L4VO:QN7MO8^gK@L0=E*GJ+igJ`YDFF5:?5:>58>49?59@8;A;:>9:@:9=87;6062,1,+/.)-.)3)6J29L38I1;K8/;.\gO_iRgkWihXlfXlgYkf[hgYelY|
-hY0\ni
-h\9E
-h\v7Q_A
 hald_image != (Image *) NULL
 hald_image->signature == MagickCoreSignature
 half
 halfletter
-hb>BA
-hb\D
 hdr:%s
 hdr:exposure
 height
 height != (size_t *) NULL
 helvetica
 hex:
-he|V[M=_P@_RB`RC`R@\OBcYaww
 hidden alias for 
 high != (PixelInfo *) NULL
 hilite mode flag
 histogram != (size_t **) NULL
 histogram:unique-colors
-hoBi
 honeydew
 honeydew1
 honeydew2
 honeydew3
 honeydew4
 hough-lines:accumulator
-hp\tg
 html
 https://imagemagick.org
 https://imagemagick.org/script/license.php
@@ -13999,17 +13123,8 @@ hue != (MagickRealType *) NULL
 hue != (double *) NULL
 hue2
 hypot
-i0\3
-i1!i6Ai;ai@
-i5L7
 iCCP
-iCjN
-iMW=}V
-iQ;B
-iQYF*1(07,17-06,/3,-2-.3--2,,0+,3,)4--8-2>-2>*6C.DV;H]=^qRZlS,8.heVheVheVifWifWjeVlc\ngZhiQlup
 iRte
-iXnE
-i\tSy
 icc-color
 icc:
 icc:*
@@ -14033,7 +13148,6 @@ identify:locate
 identify:moments
 identify:unique-colors
 idiv
-ig7N
 ignoring invalid defined png:bit-depth
 ignoring invalid defined png:color-type
 ignoring invalid defined png:compression-filter
@@ -14178,21 +13292,9 @@ ivory1
 ivory2
 ivory3
 ivory4
-j!3V$E
-j!CV
-j(HQ
-j)6D
-j)nX\n
 j2k:%s
-j55_
-j9s<
-jGj=Lk<Li;WuFb
-jIT<<H,g~Cj
-jJL`
-j\vQp
 java Class for 
 java resource 
-ji_81
 jinc
 jisb0
 jisb1
@@ -14206,18 +13308,10 @@ jnx:southwest
 jpeg
 jpeg:
 jpeg:%s
-jsC\f3
 json:features
 json:limit
 json:locate
 json:moments
-juTb\taT
-k40i
-k8]x
-kJx8
-kXA\fb`
-kY9+
-kach<
 kernel != (KernelInfo *) NULL
 kernel->signature == MagickCoreSignature
 kerning
@@ -14231,26 +13325,12 @@ khaki3
 khaki4
 kind (word)
 kind (word), size (word), data
-kkE\r
 knko
-krH+
 krad
-ktIZ
 kurtosis
-l3C&
-l:pG
-lC6L
-lC\vd
-lLVD782782994<:5@=8B:8A95=73<75:549009//61.62.63.641973?72B90H=1J>4H=4B80@61?62<94C54A50<6*E5'c6-
 lLit
-lO"c3
-lQ 6|+G
-lW>J)X>K
-l`Sy
-la]^]Gf]Ij\E
 label
 label:pointsize
-lam*
 laplacian
 lavender
 lbrn
@@ -14272,10 +13352,7 @@ letter-spacing:%s;
 lettersmall
 levels
 levl
-lf/k
-lf7{
 lfx2
-lgK[
 libc.so.6
 libm.so.6
 libpng 
@@ -14297,7 +13374,6 @@ list_info != (LinkedListInfo *) NULL
 list_info->signature == MagickCoreSignature
 listen
 lite
-lmkQ
 lnsr
 load_hierarchy
 load_level
@@ -14340,18 +13416,8 @@ luma != (unsigned char *) NULL
 luminance
 luni
 lwtpt
-lxUk
 lyid
 lyvr
-m,hS
-m4O,
-m=4vTNG@3.9)1<.7:2686280-9*6D29H616,,-"@J1z
-m>EKn>
-m@Nj@y
-mB3l
-mC20
-mXAV
-m\nF
 magenta
 magenta1
 magenta2
@@ -14398,7 +13464,6 @@ maxval
 mbrtowc
 mbsnrtowcs
 mbsrtowcs
-mby-6Q
 mean
 mean-error
 meas
@@ -14431,7 +13496,6 @@ missing >
 missing profile length
 mixr
 mkstemp
-mle\v
 mmap
 mmmm
 mng:need-cacheoff
@@ -14458,12 +13522,10 @@ morphology_image->signature == MagickCoreSignature
 moveto
 moveto ghostline
 moveto open
-mpR[:
 mpeg:decode
 mpeg:encode
 mron
 mt19937
-mu`g
 mul 
 multiplicative
 munmap
@@ -14471,19 +13533,7 @@ mutex initialization failed
 mutex lock failed
 mutex unlock failed
 mvg:vector-graphics
-mymX
-n,Ra
-n0C|
-n10-/.,43/892>?5GD;OK8MK4XWW
-n2/t.
-n2{4
-n:A\v9
-n?EKn?tzn?
-nED\fC
 nEED
-nF1~P8wH*n_*
-n_WlYGh\Kj^N
-n_\SSA
 name
 name != (const char *) NULL
 name: %s
@@ -14501,9 +13551,6 @@ news gothic
 nexus_info != (NexusInfo **) NULL
 nexus_info->signature == MagickCoreSignature
 ng-chunk-
-ngd\vb
-nh!X
-nnFP"r
 no configuration paths found
 no image
 no method handler
@@ -14524,7 +13571,6 @@ none\n
 norm
 nrbl
 nrcs
-nu5A
 null
 null,
 number-channels
@@ -14547,14 +13593,8 @@ number_preferences != (size_t *) NULL
 number_stops > 0
 numerator (point), denominator (point)
 nvrt
-o0Vn
-o8(TH
-o?T7o?
 o@IT0
 o@MagickCore/layer.c
-oXiM?;)3)"%+!+/&:&*C))TN:hqRh
-o\vv?O
-o_fvIGV4^kQKQ5:;#88/8B/i
 object id too large
 offs
 offset
@@ -14608,35 +13648,18 @@ orientation=%s\n
 output
 oval size (point)
 over
-ow\tpP
-oxC#
-ozJ+W`
 p != (PixelWand *) NULL
 p != (char *) NULL
 p != (unsigned char *) NULL
 p->offset >= 0
 p->signature == MagickWandSignature
-p0~x
-p88H
 p88pD8pT8p`8pp8pp8`p8Tp8Dp88pD8pT8p`8pp8`p8Tp8Dp88p88pE8pT8p`8pp8`p8Tp8DpPPpXPp`PphPppPppPhpP`pPXpPPpXPp`PphPppPhpP`pPXpPPpPPpXPp`PphPppPrpP`pPXp
 p?MagickCore/animate.c
 p?MemoryAllocationFailed
-p?ffffff
-pA4L
-pD\rx
-pE2B1
-pFWQb
 pHYg
 pHYg is not implemented.
 pHYs
 pLit
-pN"0
-pO[D23-34-53.961961:2.80-3.,300-.0/(/1)./*,1.*10*01./004/+;1+A5,C8/A90=5-;0/<1/E1-R).F*.70)R/(j9.
-pSZG<@301(-)'2,+2,+0,*0-+0/+2*10)(eqR
-p\t5P
-p\v1S|
-p\vbw
-p]NCFLC
 packed copybits, rect clipped
 packed copybits, rgn clipped
 packet != (PixelInfo *) NULL
@@ -14688,15 +13711,12 @@ pen pattern
 pen size (point)
 perror
 peru
-pgHi\r|
-pg}^VR|SH
 phase_wand != (MagickWand *) NULL
 phase_wand->signature == MagickWandSignature
 phash:colorspaces
 phash:normalize
 phfl
 phys
-pia\fc
 pink
 pink1
 pink2
@@ -14886,7 +13906,6 @@ ps:SpotColor-%.20g
 ps:alpha
 ps:cmyk
 ps:mono
-psWo{j
 psd:additional-info
 psd:alpha-unblend
 psd:layer.opacity
@@ -14894,7 +13913,6 @@ psd:layer.x
 psd:layer.y
 psd:opacity-mask
 psd:preserve-opacity-mask
-ptc!
 pthread_attr_init
 pthread_create
 pthread_mutex_destroy
@@ -14921,20 +13939,12 @@ push pattern %s %.20g %.20g %.20g %.20g\n
 putc
 puts
 putwc
-pvdJ
 pwrite
 p{ xx-page.x-.5, yy-page.y-.5 }
 q != (PixelWand *) NULL
-q "q%Bq*bq/
 q->signature == MagickWandSignature
-q=333333
 q=SFW94
-q=UUUUUU
 q=coders/mono.c
-qP@M
-q[khc
-q\t\tjx0
-q_nk[)2(17.07-16*05,/3-/3-/4..1,.5.2?43@3@M:IX@BU8Mg@Gb9XrJ]xT4D5heVheVheVheVheVgeUkd[ndXghP}
 qsort
 quality
 quality %s\n%.20gb 
@@ -14955,16 +13965,6 @@ quantum_info->signature == MagickCoreSignature
 quarto
 quot;
 r read support\n
-r&Eyu
-r'A7]F
-r/0z
-r4O\fX
-r8l2;
-r99K
-r>Cus>D2t>
-rA3l( 
-rD1\nR
-rF-yk-?6
 rTRC
 rXYZ
 radial
@@ -15062,7 +14062,6 @@ right_image != (const Image *) NULL
 right_image->signature == MagickCoreSignature
 rights
 rloc
-rnWAJ<
 roll %+.20gx%+.20g
 root tag missing
 rorient:
@@ -15075,13 +14074,7 @@ roundRectangle
 roundrectangle %.20g %.20g %.20g %.20g %.20g %.20g\n
 rows
 rpelcnt:
-rq@[wa
 rtype:
-rx"OV
-r{&R3EM
-r~A:H
-s ZE
-s90* 
 sBIT
 sLit
 sRGB
@@ -15089,10 +14082,6 @@ sRGB IEC61966-2.1
 sRGB,HCLp
 sRGBTransformImage
 sRGB_info
-sS%V8
-sS+a
-sScB'2
-sWR`_Hd_C
 salmon
 salmon1
 salmon2
@@ -15102,7 +14091,6 @@ sample:offset
 sat 
 saturation
 saturation != (double *) NULL
-sb11S*
 scRGB
 scale
 scale %.20g %.20g\n
@@ -15134,7 +14122,6 @@ setsockopt
 setvbuf
 severity != (ExceptionType *) NULL
 sfw:%s
-sha`h
 shade %gx%g
 shared secret expected
 sharpen %gx%g
@@ -15179,7 +14166,6 @@ skewY
 skewY %.20g\n
 skewY(%s) 
 skewness
-sl?U
 slide_%02ld.sfw
 smud
 sn2P
@@ -18368,7 +17354,6 @@ svg:%s
 svg:decode
 svgz
 swirl %g
-sxErf
 symbol
 symlink
 synchronize
@@ -18379,21 +17364,7 @@ system:max-memory-request
 system:memory-map
 system:precision
 system:shred
-t d2
-t!1q
-t<I\r
-t?32t?cat?
-t@\faX
-t@o8t@
-tA(3I
-tA\n9
-tD0$
-tF>M1G>N
 tRNS
-tTGt
-t\n\rQ1
-t\rG~B
-t`yF
 tabloid
 tag != (const char *) NULL
 taint
@@ -18407,7 +17378,6 @@ target != (StringInfo *) NULL
 target->signature == MagickCoreSignature
 target_image != (Image *) NULL
 target_image->signature == MagickCoreSignature
-tc,N
 teal
 tech
 template parameter object for 
@@ -18434,7 +17404,6 @@ text-antialias:%s;
 text-decoration:%s;
 text-undercolor
 text-undercolor '
-tgAA
 this
 this_kernel != (KernelInfo *) NULL
 thistle
@@ -18472,7 +17441,6 @@ times
 timestamp != (char *) NULL
 timestamp != (const char *) NULL
 title
-tjrB
 token != (char *) NULL
 token_info != (TokenInfo *) NULL
 token_info->signature == MagickCoreSignature
@@ -18485,7 +17453,6 @@ tomato3
 tomato4
 toupper
 toupper_l
-tpv\
 trailer\n
 transaction clone for 
 transaction clone for operator delete(void*)
@@ -19157,18 +18124,7 @@ typeinfo name for std::time_put_byname<char, std::ostreambuf_iterator<char, std:
 typeinfo name for std::time_put_byname<wchar_t, std::ostreambuf_iterator<wchar_t, std::char_traits<wchar_t>>>
 typeinfo name for std::type_info
 typeinfo name for std::underflow_error
-t}oN
 u != (double *) NULL
-u!Ot
-u7T!
-u?rMu?
-uCJ7?v3\r2
-uT@rw\ff
-u]yH1e6"e3)j90l?4i>4h>2cA7_D5YG5e]GEF/9C'EI+ppR\`G29'7=57=37>48>38<57;66;5271.3-,1+(.(*.*,1,/2/=D==J81?(BP<EPD/90ddSgdUhgWieWhfWkeVnd\lhZdkRdwo
-ubW!\f
-ueVPA
-uhW\t
-umR``
 unable to copy profile
 unable to destroy mutex
 unable to destroy mutex attributes
@@ -19214,23 +18170,15 @@ url(#
 url(%s)
 uselocale
 userdict begin\n
-uzrg#
 v != (double *) NULL
 v.p{ xx-v.page.x-.5, yy-v.page.y-.5 }
-v9Lld
-vB3p
 vEt!
-vH\ni
 vIMG
 vIMGView
 vLit
-vQ\f,H
-vRQ>
-vT)i
 value
 value != (double *) NULL
 value\n  %s_ct : color_table(\n
-vb\t9
 vector-graphics
 vector::_M_range_check: __n (which is %zu) >= this->size() (which is %zu)
 vector::_M_realloc_insert
@@ -19271,7 +18219,6 @@ virtual thunk to std::basic_ostringstream<wchar_t, std::char_traits<wchar_t>, st
 virtual thunk to std::basic_stringstream<char, std::char_traits<char>, std::allocator<char>>::~basic_stringstream()
 virtual thunk to std::basic_stringstream<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t>>::~basic_stringstream()
 virtual-pixel
-vi|uiJ
 void
 void __gnu_cxx::new_allocator<Magick::ChannelMoments>::construct<Magick::ChannelMoments, Magick::ChannelMoments>(Magick::ChannelMoments*, Magick::ChannelMoments&&)
 void __gnu_cxx::new_allocator<Magick::ChannelMoments>::destroy<Magick::ChannelMoments>(Magick::ChannelMoments*)
@@ -19691,12 +18638,6 @@ vtable for std::type_info
 vtable for std::underflow_error
 vued
 w write support\n
-w<UM
-wF't
-wH@p
-wJWx
-wXX%
-w]yr
 waitpid
 wand != (DrawingWand *) NULL
 wand != (DrawingWand *)NULL
@@ -19712,7 +18653,6 @@ warning
 watermark != (const Image *) NULL
 watermark->signature == MagickCoreSignature
 wave %gx%g
-wb1\vdD
 wchar_t
 wchar_t* std::__add_grouping<wchar_t>(wchar_t*, wchar_t, char const*, unsigned long, wchar_t const*, wchar_t const*)
 wchar_t* std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t>>::_S_construct<__gnu_cxx::__normal_iterator<wchar_t*, std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t>>>>(__gnu_cxx::__normal_iterator<wchar_t*, std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t>>>, __gnu_cxx::__normal_iterator<wchar_t*, std::basic_string<wchar_t, std::char_traits<wchar_t>, std::allocator<wchar_t>>>, std::allocator<wchar_t> const&, std::forward_iterator_tag)
@@ -19724,7 +18664,6 @@ wcslen
 wcsnrtombs
 wctob
 weight
-wh0=
 wheat
 wheat1
 wheat2
@@ -19739,39 +18678,25 @@ width
 width != (size_t *) NULL
 width=%.20g, height=%.20g, x_offset=%.20g, y_offset=%.20g
 wingdings
-wlG]
 wmemchr
 wmemcmp
 wmemcpy
 wmemmove
 wmemset
 word-spacing
-wpdX
 write
 write-mask
 write_tIME_chunk
 writev
 writing raw profile: type=%s, length=%.20g\n
 wulW
-wwww
 x != (ssize_t *) NULL
-x7fQ
-x9DBx
-x9`L
 x:xmpmeta
-x@Qz
-xA\v2T
-xE)Z,
-xFG:r2
-xG5\
-xHh"
-xO|C9
 x_off=%.20g, y_off=%.20g
 x_offset != (ssize_t *) NULL
 x_res=%.10g, y_res=%.10g, units=%d
 xc:black
 xc:white
-xc@Je
 xdigit
 xendian
 xiMh
@@ -19785,56 +18710,24 @@ xps:cmyk
 xps:color
 xps:mono
 xref\n
-xsM?
 y != (ssize_t *) NULL
-yI:3
-yWeWCB875+/1*.1+-0,-0//0.02./2./-24*,gcb
-y\f4Z
-y\{ZN^G=:32'(/')-(+0(,2(/1+00*0+'
 y_offset != (ssize_t *) NULL
-ydJS
 yellow
 yellow1
 yellow2
 yellow3
 yellow4
-yrI,D
 yy < (ssize_t) large_image->rows
-z>3h
-z?RHz?
-zAh{,
-zXO/
 zccp
-zh1\rj
 zlib 
 zlibVersion
 ztxt
-zwF 
-z|lYVS/.,0/-50-71-81,80,6/,81-81-81.7.,4-*4,*6/+6.+3/*30*41+63-750>8-E=2H?1I>.K@/MD3iE4
 {\n       "name": %s
 {\n  "image": {\n    "name": %s,\n
 {default arg#
 {lambda(
 {parm#
-{s[zV
 {unnamed type#
-{wp\vy
 |7&rU3
-|AQ3
-|CJ25?+:72*0+Z?>
-|KVT
-|Kc9`
-|ZzsP
-|sYZ
-|wbi
 } bind def
 } bind def\n
-}90V
-}za?q
-}{j7>+3<(<=/?;.^B5
-~HC(q
-~O6d
-~Zj\[LpWD
-~lp_YWS,,,,-+0/,1.+2,(2-*0,+2,+2++2,+2,+1,+1,)3-,3-,3/,31,40,52-750:3,>6-@6-C8-H;/EE5UD4m=+
-~nC^Z
-~nYj

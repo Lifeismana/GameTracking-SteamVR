@@ -1,7 +1,5 @@
                           
- !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
  !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
- !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
  Base Class Array'
  Base Class Descriptor at (
  Class Hierarchy Descriptor'
@@ -14,19 +12,20 @@
  throw(
  volatile
 #File Error#(%d) : 
+%.2X 
 %02d:%02d:%02d
 %04d%02d%02d%02d%02d%02d
 %Id bytes in %Id %hs Blocks.\n
 %hs located at 0x%p is %Iu bytes long.\n
 %hs located at 0x%p is %Iu bytes long.\n\nMemory allocated at %hs(%d).\n
 %llu
+%s%c%s
 %s(%d) : %s
-( 8PX
+%s\%s
 ('8PW
 (null)
 , Line 
 ,<ellipsis>
--64OS
 .?AV?$CCallResult@VCAssociateWithClanResult_t_result@@UAssociateWithClanResult_t@@@@
 .?AV?$CCallResult@VCCheckFileSignature_t_result@@UCheckFileSignature_t@@@@
 .?AV?$CCallResult@VCClanOfficerListResponse_t_result@@UClanOfficerListResponse_t@@@@
@@ -107,27 +106,13 @@
 .?AVregex_error@std@@
 .?AVruntime_error@std@@
 .?AVtype_info@@
-00M;
 0123456789ABCDEF
-02M;
-0RM;
-0bM;
 1#IND
 1#INF
 1#QNAN
 1#SNAN
-2TM;
-40M;
-4TM;
 700PP
 700WP
-80M;
-83M;
-8aM;
-8dM;
-8eM;
-8hL;
-8hM;
 <ellipsis>
 <file unknown>
 <program name unknown>
@@ -260,7 +245,6 @@ CreateSemaphoreExW
 CreateSymbolicLinkW
 CreateThreadpoolTimer
 CreateThreadpoolWait
-D0M;
 DAMAGED
 Damage before 0x%p which was allocated by aligned routine\n
 December
@@ -296,8 +280,6 @@ GetTickCount64
 GetTimeFormatEx
 GetUserDefaultLocaleName
 GetUserObjectInformationW
-H0M;
-H4M;
 HEAP CORRUPTION DETECTED: after %hs block (#%d) at 0x%p.\nCRT detected that the application wrote to memory after end of heap buffer.\n
 HEAP CORRUPTION DETECTED: after %hs block (#%d) at 0x%p.\nCRT detected that the application wrote to memory after end of heap buffer.\n\nMemory allocated at %hs(%d).\n
 HEAP CORRUPTION DETECTED: before %hs block (#%d) at 0x%p.\nCRT detected that the application wrote to memory before start of heap buffer.\n
@@ -311,9 +293,6 @@ HKEY_CLASSES_ROOT
 HKEY_CURRENT_USER
 HKEY_LOCAL_MACHINE
 HKLM
-HMXB
-HhL;
-HiM;
 Ignore
 Init
 InitializeCriticalSectionEx
@@ -324,29 +303,18 @@ IsValidLocaleName
 January
 July
 June
-L0M;
 LCMapStringEx
 Largest number used: %Id bytes.\n
-LoL;
 Looking up breakpad interfaces from steamclient\n
 MM/dd/yy
 March
 MessageBoxW
 Monday
-NKeb
 NULL
 Normal
 November
 Object dump complete.\n
 October
-P0C;
-P0M;
-P2M;
-PbM;
-PcM;
-PhM;
-RSDS
-S;uD
 STEAMAPPLIST_INTERFACE_VERSION001
 STEAMAPPS_INTERFACE_VERSION007
 STEAMHTMLSURFACE_INTERFACE_VERSION_003
@@ -1090,7 +1058,6 @@ Steam_SetMinidumpSteamID:  Caching Steam ID:  %lld [API loaded %s]\n
 Steam_SetMinidumpSteamID:  Setting Steam ID:  %lld\n
 Sunday
 SystemFunction036
-T0M;
 The Block at 0x%p was allocated by aligned routines, use _aligned_free()
 The Block at 0x%p was allocated by aligned routines, use _aligned_realloc()
 The block at 0x%p was not allocated by _aligned routines, use free()
@@ -1107,11 +1074,6 @@ UpdateDLLWrapper.dll
 Using breakpad crash handler\n
 WaitForThreadpoolTimerCallbacks
 Wednesday
-X0M;
-X3M;
-XaM;
-XhL;
-XhM;
 [S_API FAIL] SteamAPI_Init() failed; SteamAPI_IsSteamRunning() failed.\n
 [S_API FAIL] SteamAPI_Init() failed; Sys_LoadModule failed to load: %s\n
 [S_API FAIL] SteamAPI_Init() failed; no appID found.\nEither launch the game from Steam, or put the file steam_appid.txt containing the correct appID in your game folder.\n
@@ -1159,7 +1121,6 @@ _nextafter
 `eh vector destructor iterator'
 `eh vector vbase constructor iterator'
 `eh vector vbase copy constructor iterator'
-`h`hhh
 `local static destructor helper'
 `local static guard'
 `local static thread guard'
@@ -1244,7 +1205,6 @@ const
 cosh
 cross device link
 crt block at 0x%p, subtype %x, %Iu bytes long.\n
-d0M;
 dddd, MMMM dd, yyyy
 destination address required
 destination_address_required
@@ -1299,8 +1259,6 @@ gameoverlayrenderer64.dll
 generic
 generic-type-
 graph
-h0M;
-hiM;
 host unreachable
 host_unreachable
 identifier removed
@@ -1316,8 +1274,6 @@ io error
 iostream
 iostream stream error
 is a directory
-kU'9
-l0M;
 ldexp
 list<T> too long
 log10
@@ -1368,13 +1324,8 @@ operation_not_supported
 operation_would_block
 operator
 owner dead
-p0M;
-p4M;
-pbM;
-pcM;
 permission denied
 permission_denied
-phM;
 print
 private: 
 protected: 
@@ -1426,7 +1377,6 @@ stream timeout
 string too long
 struct 
 system
-t0M;
 tanh
 template-parameter-
 text file busy
@@ -1451,13 +1401,6 @@ wchar_t
 win64\audio.dll
 wrong protocol type
 wrong_protocol_type
-x0M;
-x2M;
-xaM;
 xdigit
-xppwpp
-xpxxxx
-z?aUY
-zc%C1
 {flat}
 {for 

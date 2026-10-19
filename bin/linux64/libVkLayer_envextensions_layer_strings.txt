@@ -2369,7 +2369,9 @@ VK_NV_shader_subgroup_partitioned
 VK_NV_viewport_array2
 VK_NV_viewport_swizzle
 VTT for std::__cxx11::basic_ostringstream<char, std::char_traits<char>, std::allocator<char>>
+VTT for std::__cxx11::basic_ostringstream<char, std::char_traits<char>, std::allocator<char>>@@GLIBCXX_3.4.21
 VTT for std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char>>
+VTT for std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char>>@@GLIBCXX_3.4.21
 VUID-VkAcquireNextImageInfoKHR-commonparent
 VUID-VkAcquireNextImageInfoKHR-deviceMask-01290
 VUID-VkAcquireNextImageInfoKHR-deviceMask-01291
@@ -6620,92 +6622,6 @@ _ITM_deregisterTMCloneTable
 _ITM_registerTMCloneTable
 _Unwind_Resume
 _Unwind_Resume@@GCC_3.0
-_ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE4dataEv@@GLIBCXX_3.4.21
-_ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE4findEPKcm@@GLIBCXX_3.4.21
-_ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE4sizeEv@@GLIBCXX_3.4.21
-_ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE5c_strEv@@GLIBCXX_3.4.21
-_ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE6lengthEv@@GLIBCXX_3.4.21
-_ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE6substrEmm@@GLIBCXX_3.4.21
-_ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE7_M_dataEv@@GLIBCXX_3.4.21
-_ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE7compareERKS4_@@GLIBCXX_3.4.21
-_ZNKSt7__cxx1119basic_ostringstreamIcSt11char_traitsIcESaIcEE3strEv@@GLIBCXX_3.4.21
-_ZNKSt8__detail20_Prime_rehash_policy11_M_next_bktEm@@GLIBCXX_3.4.18
-_ZNKSt8__detail20_Prime_rehash_policy14_M_need_rehashEmmm@@GLIBCXX_3.4.18
-_ZNKSt9basic_iosIcSt11char_traitsIcEE3eofEv@@GLIBCXX_3.4
-_ZNKSt9basic_iosIcSt11char_traitsIcEE4goodEv@@GLIBCXX_3.4
-_ZNSaIcEC1Ev@@GLIBCXX_3.4
-_ZNSaIcED1Ev@@GLIBCXX_3.4
-_ZNSaIcED2Ev@@GLIBCXX_3.4
-_ZNSi7getlineEPcl@@GLIBCXX_3.4
-_ZNSo9_M_insertImEERSoT_@@GLIBCXX_3.4.9
-_ZNSolsEPFRSoS_E@@GLIBCXX_3.4
-_ZNSolsEPFRSt8ios_baseS0_E@@GLIBCXX_3.4
-_ZNSolsEm@@GLIBCXX_3.4
-_ZNSt14basic_ifstreamIcSt11char_traitsIcEE4openEPKcSt13_Ios_Openmode@@GLIBCXX_3.4
-_ZNSt14basic_ifstreamIcSt11char_traitsIcEEC1Ev@@GLIBCXX_3.4
-_ZNSt14basic_ifstreamIcSt11char_traitsIcEED1Ev@@GLIBCXX_3.4
-_ZNSt6localeC1Ev@@GLIBCXX_3.4
-_ZNSt6localeD1Ev@@GLIBCXX_3.4
-_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE10_M_disposeEv@@GLIBCXX_3.4.21
-_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE10_M_replaceEmmPKcm@@GLIBCXX_3.4.21
-_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE11_M_capacityEm@@GLIBCXX_3.4.21
-_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE12_Alloc_hiderC1EPcRKS3_@@GLIBCXX_3.4.21
-_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE13_M_local_dataEv@@GLIBCXX_3.4.21
-_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE13_M_set_lengthEm@@GLIBCXX_3.4.21
-_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE13_S_copy_charsEPcS5_S5_@@GLIBCXX_3.4.21
-_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE5eraseEmm@@GLIBCXX_3.4.21
-_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE6appendEPKc@@GLIBCXX_3.4.21
-_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE6insertEmPKc@@GLIBCXX_3.4.21
-_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE7_M_dataEPc@@GLIBCXX_3.4.21
-_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_appendEPKcm@@GLIBCXX_3.4.21
-_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_assignERKS4_@@GLIBCXX_3.4.21
-_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_createERmm@@GLIBCXX_3.4.21
-_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEC1EOS4_@@GLIBCXX_3.4.21
-_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEC1EPKcRKS3_@@GLIBCXX_3.4.21
-_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEC1ERKS4_@@GLIBCXX_3.4.21
-_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEC1Ev@@GLIBCXX_3.4.21
-_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEED1Ev@@GLIBCXX_3.4.21
-_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEaSEPKc@@GLIBCXX_3.4.21
-_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEaSERKS4_@@GLIBCXX_3.4.21
-_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEpLEPKc@@GLIBCXX_3.4.21
-_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEpLERKS4_@@GLIBCXX_3.4.21
-_ZNSt7__cxx1115basic_stringbufIcSt11char_traitsIcESaIcEE7_M_syncEPcmm@@GLIBCXX_3.4.21
-_ZNSt7__cxx1118basic_stringstreamIcSt11char_traitsIcESaIcEED1Ev@@GLIBCXX_3.4.21
-_ZNSt7__cxx1119basic_ostringstreamIcSt11char_traitsIcESaIcEEC1ESt13_Ios_Openmode@@GLIBCXX_3.4.21
-_ZNSt7__cxx1119basic_ostringstreamIcSt11char_traitsIcESaIcEED1Ev@@GLIBCXX_3.4.21
-_ZNSt8ios_base4InitC1Ev@@GLIBCXX_3.4
-_ZNSt8ios_base4InitD1Ev@@GLIBCXX_3.4
-_ZNSt8ios_baseC2Ev@@GLIBCXX_3.4
-_ZNSt8ios_baseD2Ev@@GLIBCXX_3.4
-_ZNSt9basic_iosIcSt11char_traitsIcEE4initEPSt15basic_streambufIcS1_E@@GLIBCXX_3.4
-_ZNSt9basic_iosIcSt11char_traitsIcEE5clearESt12_Ios_Iostate@@GLIBCXX_3.4
-_ZSt11_Hash_bytesPKvmm@@CXXABI_1.3.5
-_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l@@GLIBCXX_3.4.9
-_ZSt17__throw_bad_allocv@@GLIBCXX_3.4
-_ZSt18_Rb_tree_decrementPSt18_Rb_tree_node_base@@GLIBCXX_3.4
-_ZSt18_Rb_tree_incrementPSt18_Rb_tree_node_base@@GLIBCXX_3.4
-_ZSt19__throw_logic_errorPKc@@GLIBCXX_3.4
-_ZSt20__throw_length_errorPKc@@GLIBCXX_3.4
-_ZSt20__throw_system_errori@@GLIBCXX_3.4.11
-_ZSt29_Rb_tree_insert_and_rebalancebPSt18_Rb_tree_node_baseS0_RS_@@GLIBCXX_3.4
-_ZSt4cout@@GLIBCXX_3.4
-_ZSt4endlIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_@@GLIBCXX_3.4
-_ZSt7getlineIcSt11char_traitsIcESaIcEERSt13basic_istreamIT_T0_ES7_RNSt7__cxx1112basic_stringIS4_S5_T1_EES4_@@GLIBCXX_3.4.21
-_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc@@GLIBCXX_3.4
-_ZStlsIcSt11char_traitsIcESaIcEERSt13basic_ostreamIT_T0_ES7_RKNSt7__cxx1112basic_stringIS4_S5_T1_EE@@GLIBCXX_3.4.21
-_ZTTNSt7__cxx1118basic_stringstreamIcSt11char_traitsIcESaIcEEE@@GLIBCXX_3.4.21
-_ZTTNSt7__cxx1119basic_ostringstreamIcSt11char_traitsIcESaIcEEE@@GLIBCXX_3.4.21
-_ZTVN10__cxxabiv117__class_type_infoE@@CXXABI_1.3
-_ZTVN10__cxxabiv120__si_class_type_infoE@@CXXABI_1.3
-_ZTVNSt7__cxx1115basic_stringbufIcSt11char_traitsIcESaIcEEE@@GLIBCXX_3.4.21
-_ZTVNSt7__cxx1118basic_stringstreamIcSt11char_traitsIcESaIcEEE@@GLIBCXX_3.4.21
-_ZTVNSt7__cxx1119basic_ostringstreamIcSt11char_traitsIcESaIcEEE@@GLIBCXX_3.4.21
-_ZTVSt15basic_streambufIcSt11char_traitsIcEE@@GLIBCXX_3.4
-_ZTVSt9basic_iosIcSt11char_traitsIcEE@@GLIBCXX_3.4
-_ZdaPv@@GLIBCXX_3.4
-_ZdlPv@@GLIBCXX_3.4
-_Znam@@GLIBCXX_3.4
-_Znwm@@GLIBCXX_3.4
 __FRAME_END__
 __GNU_EH_FRAME_HDR
 __TMC_END__
@@ -8601,11 +8517,15 @@ offset.z must be a multiple of the sparse image block depth (VkSparseImageFormat
 oldLayout must be VK_IMAGE_LAYOUT_UNDEFINED or the current layout of the image subresources affected by the barrier (https://www.khronos.org/registry/vulkan/specs/1.1-extensions/html/vkspec.html#VUID-VkImageMemoryBarrier-oldLayout-01197)
 oldLayout must be a valid VkImageLayout value (https://www.khronos.org/registry/vulkan/specs/1.1-extensions/html/vkspec.html#VUID-VkImageMemoryBarrier-oldLayout-parameter)
 operator delete(void*)
+operator delete(void*)@@GLIBCXX_3.4
 operator delete(void*, void*)
 operator delete[](void*)
+operator delete[](void*)@@GLIBCXX_3.4
 operator new(unsigned long)
+operator new(unsigned long)@@GLIBCXX_3.4
 operator new(unsigned long, void*)
 operator new[](unsigned long)
+operator new[](unsigned long)@@GLIBCXX_3.4
 pAcquireInfo must be a valid pointer to a valid VkAcquireNextImageInfoKHR structure (https://www.khronos.org/registry/vulkan/specs/1.1-extensions/html/vkspec.html#VUID-vkAcquireNextImage2KHR-pAcquireInfo-parameter)
 pAllocateInfo must be a valid pointer to a valid VkCommandBufferAllocateInfo structure (https://www.khronos.org/registry/vulkan/specs/1.1-extensions/html/vkspec.html#VUID-vkAllocateCommandBuffers-pAllocateInfo-parameter)
 pAllocateInfo must be a valid pointer to a valid VkDescriptorSetAllocateInfo structure (https://www.khronos.org/registry/vulkan/specs/1.1-extensions/html/vkspec.html#VUID-vkAllocateDescriptorSets-pAllocateInfo-parameter)
@@ -9576,6 +9496,7 @@ stageMask must not be 0 (https://www.khronos.org/registry/vulkan/specs/1.1-exten
 stageMask must not include VK_PIPELINE_STAGE_HOST_BIT (https://www.khronos.org/registry/vulkan/specs/1.1-extensions/html/vkspec.html#VUID-vkCmdResetEvent-stageMask-01153)
 stageMask must not include VK_PIPELINE_STAGE_HOST_BIT (https://www.khronos.org/registry/vulkan/specs/1.1-extensions/html/vkspec.html#VUID-vkCmdSetEvent-stageMask-01149)
 std::_Hash_bytes(void const*, unsigned long, unsigned long)
+std::_Hash_bytes(void const*, unsigned long, unsigned long)@@CXXABI_1.3.5
 std::_Hash_impl::hash(void const*, unsigned long, unsigned long)
 std::_Hashtable<VkCommandBuffer_T*, std::pair<VkCommandBuffer_T* const, std::vector<_LoggingLabelData, std::allocator<_LoggingLabelData>>>, std::allocator<std::pair<VkCommandBuffer_T* const, std::vector<_LoggingLabelData, std::allocator<_LoggingLabelData>>>>, std::__detail::_Select1st, std::equal_to<VkCommandBuffer_T*>, std::hash<VkCommandBuffer_T*>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<false, false, true>>::_M_bucket_index(VkCommandBuffer_T* const&, unsigned long) const
 std::_Hashtable<VkCommandBuffer_T*, std::pair<VkCommandBuffer_T* const, std::vector<_LoggingLabelData, std::allocator<_LoggingLabelData>>>, std::allocator<std::pair<VkCommandBuffer_T* const, std::vector<_LoggingLabelData, std::allocator<_LoggingLabelData>>>>, std::__detail::_Select1st, std::equal_to<VkCommandBuffer_T*>, std::hash<VkCommandBuffer_T*>, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<false, false, true>>::_M_bucket_index(std::__detail::_Hash_node<std::pair<VkCommandBuffer_T* const, std::vector<_LoggingLabelData, std::allocator<_LoggingLabelData>>>, false>*) const
@@ -9703,10 +9624,13 @@ std::_Rb_tree_const_iterator<std::pair<std::__cxx11::basic_string<char, std::cha
 std::_Rb_tree_const_iterator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>> const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>>>::operator->() const
 std::_Rb_tree_const_iterator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>> const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>>>::operator==(std::_Rb_tree_const_iterator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>> const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>>> const&) const
 std::_Rb_tree_decrement(std::_Rb_tree_node_base*)
+std::_Rb_tree_decrement(std::_Rb_tree_node_base*)@@GLIBCXX_3.4
 std::_Rb_tree_header::_M_reset()
 std::_Rb_tree_header::_Rb_tree_header()
 std::_Rb_tree_increment(std::_Rb_tree_node_base*)
+std::_Rb_tree_increment(std::_Rb_tree_node_base*)@@GLIBCXX_3.4
 std::_Rb_tree_insert_and_rebalance(bool, std::_Rb_tree_node_base*, std::_Rb_tree_node_base*, std::_Rb_tree_node_base&)
+std::_Rb_tree_insert_and_rebalance(bool, std::_Rb_tree_node_base*, std::_Rb_tree_node_base*, std::_Rb_tree_node_base&)@@GLIBCXX_3.4
 std::_Rb_tree_iterator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>> const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>>> std::_Rb_tree<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>, std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>> const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>>, std::_Select1st<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>> const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>>>, std::less<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>>, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>> const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>>>>::_M_emplace_hint_unique<std::piecewise_construct_t const&, std::tuple<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>> const&>, std::tuple<>>(std::_Rb_tree_const_iterator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>> const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>>>, std::piecewise_construct_t const&, std::tuple<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>> const&>&&, std::tuple<>&&)
 std::_Rb_tree_iterator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>> const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>>> std::_Rb_tree<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>, std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>> const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>>, std::_Select1st<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>> const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>>>, std::less<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>>, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>> const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>>>>::_M_emplace_hint_unique<std::piecewise_construct_t const&, std::tuple<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>&&>, std::tuple<>>(std::_Rb_tree_const_iterator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>> const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>>>, std::piecewise_construct_t const&, std::tuple<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>&&>&&, std::tuple<>&&)
 std::_Rb_tree_iterator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>> const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>>>::_Rb_tree_iterator(std::_Rb_tree_node_base*)
@@ -9741,8 +9665,11 @@ std::_Vector_base<VkDebugUtilsMessengerEXT_T*, std::allocator<VkDebugUtilsMessen
 std::_Vector_base<VkDebugUtilsMessengerEXT_T*, std::allocator<VkDebugUtilsMessengerEXT_T*>>::_M_get_Tp_allocator()
 std::_Vector_base<VkDebugUtilsMessengerEXT_T*, std::allocator<VkDebugUtilsMessengerEXT_T*>>::_M_get_Tp_allocator() const
 std::__cxx11::basic_ostringstream<char, std::char_traits<char>, std::allocator<char>>::basic_ostringstream(std::_Ios_Openmode)
+std::__cxx11::basic_ostringstream<char, std::char_traits<char>, std::allocator<char>>::basic_ostringstream(std::_Ios_Openmode)@@GLIBCXX_3.4.21
 std::__cxx11::basic_ostringstream<char, std::char_traits<char>, std::allocator<char>>::str() const
+std::__cxx11::basic_ostringstream<char, std::char_traits<char>, std::allocator<char>>::str() const@@GLIBCXX_3.4.21
 std::__cxx11::basic_ostringstream<char, std::char_traits<char>, std::allocator<char>>::~basic_ostringstream()
+std::__cxx11::basic_ostringstream<char, std::char_traits<char>, std::allocator<char>>::~basic_ostringstream()@@GLIBCXX_3.4.21
 std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>> __gnu_cxx::__to_xstring<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>, char>(int (*)(char*, unsigned long, char const*, __va_list_tag*), unsigned long, char const*, ...)
 std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>> __gnu_cxx::__to_xstring<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>, char>(int (*)(char*, unsigned long, char const*, __va_list_tag*), unsigned long, char const*, ...) (.constprop.1130)
 std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>> const& std::__get_helper<0ul, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>> const&>(std::_Tuple_impl<0ul, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>> const&, >&)
@@ -9753,43 +9680,76 @@ std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>& 
 std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>&& std::forward<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>&&>(std::remove_reference<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>&&>::type&)
 std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>&& std::forward<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>>(std::remove_reference<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>>::type&)
 std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>::_Alloc_hider::_Alloc_hider(char*, std::allocator<char> const&)
+std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>::_Alloc_hider::_Alloc_hider(char*, std::allocator<char> const&)@@GLIBCXX_3.4.21
 std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>::_Alloc_hider::~_Alloc_hider()
 std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>::_M_append(char const*, unsigned long)
+std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>::_M_append(char const*, unsigned long)@@GLIBCXX_3.4.21
 std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>::_M_assign(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>> const&)
+std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>::_M_assign(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>> const&)@@GLIBCXX_3.4.21
 std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>::_M_capacity(unsigned long)
+std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>::_M_capacity(unsigned long)@@GLIBCXX_3.4.21
 std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>::_M_create(unsigned long&, unsigned long)
+std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>::_M_create(unsigned long&, unsigned long)@@GLIBCXX_3.4.21
 std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>::_M_data() const
+std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>::_M_data() const@@GLIBCXX_3.4.21
 std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>::_M_data(char*)
+std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>::_M_data(char*)@@GLIBCXX_3.4.21
 std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>::_M_dispose()
+std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>::_M_dispose()@@GLIBCXX_3.4.21
 std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>::_M_local_data()
+std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>::_M_local_data()@@GLIBCXX_3.4.21
 std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>::_M_replace(unsigned long, unsigned long, char const*, unsigned long)
+std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>::_M_replace(unsigned long, unsigned long, char const*, unsigned long)@@GLIBCXX_3.4.21
 std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>::_M_set_length(unsigned long)
+std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>::_M_set_length(unsigned long)@@GLIBCXX_3.4.21
 std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>::_S_copy_chars(char*, char*, char*)
+std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>::_S_copy_chars(char*, char*, char*)@@GLIBCXX_3.4.21
 std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>::append(char const*)
+std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>::append(char const*)@@GLIBCXX_3.4.21
 std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>::basic_string()
+std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>::basic_string()@@GLIBCXX_3.4.21
 std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>::basic_string(char const*, std::allocator<char> const&)
 std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>::basic_string(char const*, std::allocator<char> const&) (.isra.205)
 std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>::basic_string(char const*, std::allocator<char> const&) (.isra.73)
+std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>::basic_string(char const*, std::allocator<char> const&)@@GLIBCXX_3.4.21
 std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>::basic_string(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>> const&)
+std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>::basic_string(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>> const&)@@GLIBCXX_3.4.21
 std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>::basic_string(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>&&)
+std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>::basic_string(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>&&)@@GLIBCXX_3.4.21
 std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>::basic_string<char*, void>(char*, char*, std::allocator<char> const&)
 std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>::c_str() const
+std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>::c_str() const@@GLIBCXX_3.4.21
 std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>::compare(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>> const&) const
+std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>::compare(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>> const&) const@@GLIBCXX_3.4.21
 std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>::data() const
+std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>::data() const@@GLIBCXX_3.4.21
 std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>::erase(unsigned long, unsigned long)
+std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>::erase(unsigned long, unsigned long)@@GLIBCXX_3.4.21
 std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>::find(char const*, unsigned long) const
+std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>::find(char const*, unsigned long) const@@GLIBCXX_3.4.21
 std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>::insert(unsigned long, char const*)
+std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>::insert(unsigned long, char const*)@@GLIBCXX_3.4.21
 std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>::length() const
+std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>::length() const@@GLIBCXX_3.4.21
 std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>::operator+=(char const*)
+std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>::operator+=(char const*)@@GLIBCXX_3.4.21
 std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>::operator+=(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>> const&)
+std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>::operator+=(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>> const&)@@GLIBCXX_3.4.21
 std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>::operator=(char const*)
+std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>::operator=(char const*)@@GLIBCXX_3.4.21
 std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>::operator=(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>> const&)
+std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>::operator=(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>> const&)@@GLIBCXX_3.4.21
 std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>::size() const
+std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>::size() const@@GLIBCXX_3.4.21
 std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>::substr(unsigned long, unsigned long) const
+std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>::substr(unsigned long, unsigned long) const@@GLIBCXX_3.4.21
 std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>::~basic_string()
+std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>::~basic_string()@@GLIBCXX_3.4.21
 std::__cxx11::basic_stringbuf<char, std::char_traits<char>, std::allocator<char>>::_M_sync(char*, unsigned long, unsigned long)
+std::__cxx11::basic_stringbuf<char, std::char_traits<char>, std::allocator<char>>::_M_sync(char*, unsigned long, unsigned long)@@GLIBCXX_3.4.21
 std::__cxx11::basic_stringbuf<char, std::char_traits<char>, std::allocator<char>>::~basic_stringbuf()
 std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char>>::~basic_stringstream()
+std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char>>::~basic_stringstream()@@GLIBCXX_3.4.21
 std::__cxx11::to_string(int)
 std::__detail::_AllocNode<std::allocator<std::__detail::_Hash_node<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>> const, unsigned int>, true>>>::_AllocNode(std::__detail::_Hashtable_alloc<std::allocator<std::__detail::_Hash_node<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>> const, unsigned int>, true>>>&)
 std::__detail::_Equal_helper<VkCommandBuffer_T*, std::pair<VkCommandBuffer_T* const, std::vector<_LoggingLabelData, std::allocator<_LoggingLabelData>>>, std::__detail::_Select1st, std::equal_to<VkCommandBuffer_T*>, unsigned long, false>::_S_equals(std::equal_to<VkCommandBuffer_T*> const&, std::__detail::_Select1st const&, VkCommandBuffer_T* const&, unsigned long, std::__detail::_Hash_node<std::pair<VkCommandBuffer_T* const, std::vector<_LoggingLabelData, std::allocator<_LoggingLabelData>>>, false>*)
@@ -9939,18 +9899,26 @@ std::__detail::_Node_iterator_base<std::pair<unsigned long const, std::__cxx11::
 std::__detail::_Node_iterator_base<std::pair<void* const, _debug_report_data*>, false>::_Node_iterator_base(std::__detail::_Hash_node<std::pair<void* const, _debug_report_data*>, false>*)
 std::__detail::_Prime_rehash_policy::_M_bkt_for_elements(unsigned long) const
 std::__detail::_Prime_rehash_policy::_M_need_rehash(unsigned long, unsigned long, unsigned long) const
+std::__detail::_Prime_rehash_policy::_M_need_rehash(unsigned long, unsigned long, unsigned long) const@@GLIBCXX_3.4.18
 std::__detail::_Prime_rehash_policy::_M_next_bkt(unsigned long) const
+std::__detail::_Prime_rehash_policy::_M_next_bkt(unsigned long) const@@GLIBCXX_3.4.18
 std::__detail::_Prime_rehash_policy::_M_reset(unsigned long)
 std::__detail::_Prime_rehash_policy::_M_state() const
 std::__detail::_Prime_rehash_policy::_Prime_rehash_policy(float)
 std::__detail::_Select1st const& std::forward<std::__detail::_Select1st const&>(std::remove_reference<std::__detail::_Select1st const&>::type&)
 std::__ioinit
 std::__throw_bad_alloc()
+std::__throw_bad_alloc()@@GLIBCXX_3.4
 std::__throw_length_error(char const*)
+std::__throw_length_error(char const*)@@GLIBCXX_3.4
 std::__throw_logic_error(char const*)
+std::__throw_logic_error(char const*)@@GLIBCXX_3.4
 std::__throw_system_error(int)
+std::__throw_system_error(int)@@GLIBCXX_3.4.11
 std::allocator<char>::allocator()
+std::allocator<char>::allocator()@@GLIBCXX_3.4
 std::allocator<char>::~allocator()
+std::allocator<char>::~allocator()@@GLIBCXX_3.4
 std::allocator<std::_Rb_tree_node<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>> const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>>>>::allocator()
 std::allocator<std::_Rb_tree_node<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>> const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>>>>::~allocator()
 std::allocator<std::__detail::_Hash_node<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>> const, unsigned int>, true>>&& std::forward<std::allocator<std::__detail::_Hash_node<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>> const, unsigned int>, true>>>(std::remove_reference<std::allocator<std::__detail::_Hash_node<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>> const, unsigned int>, true>>>::type&)
@@ -9981,19 +9949,32 @@ std::allocator_traits<std::allocator<std::__detail::_Hash_node<std::pair<void* c
 std::allocator_traits<std::allocator<std::__detail::_Hash_node_base*>>::allocate(std::allocator<std::__detail::_Hash_node_base*>&, unsigned long)
 std::allocator_traits<std::allocator<std::__detail::_Hash_node_base*>>::deallocate(std::allocator<std::__detail::_Hash_node_base*>&, std::__detail::_Hash_node_base**, unsigned long)
 std::basic_ifstream<char, std::char_traits<char>>::basic_ifstream()
+std::basic_ifstream<char, std::char_traits<char>>::basic_ifstream()@@GLIBCXX_3.4
 std::basic_ifstream<char, std::char_traits<char>>::open(char const*, std::_Ios_Openmode)
+std::basic_ifstream<char, std::char_traits<char>>::open(char const*, std::_Ios_Openmode)@@GLIBCXX_3.4
 std::basic_ifstream<char, std::char_traits<char>>::~basic_ifstream()
+std::basic_ifstream<char, std::char_traits<char>>::~basic_ifstream()@@GLIBCXX_3.4
 std::basic_ios<char, std::char_traits<char>>::clear(std::_Ios_Iostate)
+std::basic_ios<char, std::char_traits<char>>::clear(std::_Ios_Iostate)@@GLIBCXX_3.4
 std::basic_ios<char, std::char_traits<char>>::eof() const
+std::basic_ios<char, std::char_traits<char>>::eof() const@@GLIBCXX_3.4
 std::basic_ios<char, std::char_traits<char>>::good() const
+std::basic_ios<char, std::char_traits<char>>::good() const@@GLIBCXX_3.4
 std::basic_ios<char, std::char_traits<char>>::init(std::basic_streambuf<char, std::char_traits<char>>*)
+std::basic_ios<char, std::char_traits<char>>::init(std::basic_streambuf<char, std::char_traits<char>>*)@@GLIBCXX_3.4
 std::basic_istream<char, std::char_traits<char>>& std::getline<char, std::char_traits<char>, std::allocator<char>>(std::basic_istream<char, std::char_traits<char>>&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>&, char)
+std::basic_istream<char, std::char_traits<char>>& std::getline<char, std::char_traits<char>, std::allocator<char>>(std::basic_istream<char, std::char_traits<char>>&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>&, char)@@GLIBCXX_3.4.21
 std::basic_ostream<char, std::char_traits<char>>& std::__ostream_insert<char, std::char_traits<char>>(std::basic_ostream<char, std::char_traits<char>>&, char const*, long)
+std::basic_ostream<char, std::char_traits<char>>& std::__ostream_insert<char, std::char_traits<char>>(std::basic_ostream<char, std::char_traits<char>>&, char const*, long)@@GLIBCXX_3.4.9
 std::basic_ostream<char, std::char_traits<char>>& std::endl<char, std::char_traits<char>>(std::basic_ostream<char, std::char_traits<char>>&)
+std::basic_ostream<char, std::char_traits<char>>& std::endl<char, std::char_traits<char>>(std::basic_ostream<char, std::char_traits<char>>&)@@GLIBCXX_3.4
 std::basic_ostream<char, std::char_traits<char>>& std::operator<< <char, std::char_traits<char>, std::allocator<char>>(std::basic_ostream<char, std::char_traits<char>>&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>> const&)
+std::basic_ostream<char, std::char_traits<char>>& std::operator<< <char, std::char_traits<char>, std::allocator<char>>(std::basic_ostream<char, std::char_traits<char>>&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>> const&)@@GLIBCXX_3.4.21
 std::basic_ostream<char, std::char_traits<char>>& std::operator<< <std::char_traits<char>>(std::basic_ostream<char, std::char_traits<char>>&, char const*)
+std::basic_ostream<char, std::char_traits<char>>& std::operator<< <std::char_traits<char>>(std::basic_ostream<char, std::char_traits<char>>&, char const*)@@GLIBCXX_3.4
 std::char_traits<char>::compare(char const*, char const*, unsigned long)
 std::cout
+std::cout@@GLIBCXX_3.4
 std::equal_to<VkCommandBuffer_T*>::operator()(VkCommandBuffer_T* const&, VkCommandBuffer_T* const&) const
 std::equal_to<VkQueue_T*>::operator()(VkQueue_T* const&, VkQueue_T* const&) const
 std::equal_to<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>> const& std::forward<std::equal_to<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>> const&>(std::remove_reference<std::equal_to<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>> const&>::type&)
@@ -10012,11 +9993,16 @@ std::initializer_list<std::pair<std::__cxx11::basic_string<char, std::char_trait
 std::initializer_list<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>> const, unsigned int>>::end() const
 std::initializer_list<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>> const, unsigned int>>::size() const
 std::ios_base::Init::Init()
+std::ios_base::Init::Init()@@GLIBCXX_3.4
 std::ios_base::Init::~Init()
+std::ios_base::Init::~Init()@@GLIBCXX_3.4
 std::ios_base::ios_base()
+std::ios_base::ios_base()@@GLIBCXX_3.4
 std::ios_base::setf(std::_Ios_Fmtflags, std::_Ios_Fmtflags)
 std::ios_base::~ios_base()
+std::ios_base::~ios_base()@@GLIBCXX_3.4
 std::istream::getline(char*, long)
+std::istream::getline(char*, long)@@GLIBCXX_3.4
 std::iterator_traits<char*>::difference_type std::__distance<char*>(char*, char*, std::random_access_iterator_tag)
 std::iterator_traits<char*>::difference_type std::distance<char*>(char*, char*)
 std::iterator_traits<char*>::iterator_category std::__iterator_category<char*>(char* const&)
@@ -10027,7 +10013,9 @@ std::iterator_traits<std::pair<std::__cxx11::basic_string<char, std::char_traits
 std::iterator_traits<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>> const, unsigned int> const*>::iterator_category std::__iterator_category<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>> const, unsigned int> const*>(std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>> const, unsigned int> const* const&)
 std::less<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>>::operator()(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>> const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>> const&) const
 std::locale::locale()
+std::locale::locale()@@GLIBCXX_3.4
 std::locale::~locale()
+std::locale::~locale()@@GLIBCXX_3.4
 std::map<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>, std::less<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>>, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>> const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>>>>::end()
 std::map<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>, std::less<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>>, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>> const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>>>>::find(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>> const&)
 std::map<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>, std::less<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>>, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>> const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char>>>>>::key_comp() const
@@ -10048,9 +10036,13 @@ std::operator|(std::_Ios_Fmtflags, std::_Ios_Fmtflags)
 std::operator|=(std::_Ios_Fmtflags&, std::_Ios_Fmtflags)
 std::operator~(std::_Ios_Fmtflags)
 std::ostream& std::ostream::_M_insert<unsigned long>(unsigned long)
+std::ostream& std::ostream::_M_insert<unsigned long>(unsigned long)@@GLIBCXX_3.4.9
 std::ostream::operator<<(std::ios_base& (*)(std::ios_base&))
+std::ostream::operator<<(std::ios_base& (*)(std::ios_base&))@@GLIBCXX_3.4
 std::ostream::operator<<(std::ostream& (*)(std::ostream&))
+std::ostream::operator<<(std::ostream& (*)(std::ostream&))@@GLIBCXX_3.4
 std::ostream::operator<<(unsigned long)
+std::ostream::operator<<(unsigned long)@@GLIBCXX_3.4
 std::pair<VkCommandBuffer_T* const, std::vector<_LoggingLabelData, std::allocator<_LoggingLabelData>>> const& std::forward<std::pair<VkCommandBuffer_T* const, std::vector<_LoggingLabelData, std::allocator<_LoggingLabelData>>> const&>(std::remove_reference<std::pair<VkCommandBuffer_T* const, std::vector<_LoggingLabelData, std::allocator<_LoggingLabelData>>> const&>::type&)
 std::pair<VkCommandBuffer_T* const, std::vector<_LoggingLabelData, std::allocator<_LoggingLabelData>>>& std::forward<std::pair<VkCommandBuffer_T* const, std::vector<_LoggingLabelData, std::allocator<_LoggingLabelData>>>&>(std::remove_reference<std::pair<VkCommandBuffer_T* const, std::vector<_LoggingLabelData, std::allocator<_LoggingLabelData>>>&>::type&)
 std::pair<VkQueue_T* const, std::vector<_LoggingLabelData, std::allocator<_LoggingLabelData>>> const& std::forward<std::pair<VkQueue_T* const, std::vector<_LoggingLabelData, std::allocator<_LoggingLabelData>>> const&>(std::remove_reference<std::pair<VkQueue_T* const, std::vector<_LoggingLabelData, std::allocator<_LoggingLabelData>>> const&>::type&)
@@ -11536,13 +11528,20 @@ vsnprintf
 vsnprintf@@GLIBC_2.2.5
 vtable for EnvExtensions
 vtable for __cxxabiv1::__class_type_info
+vtable for __cxxabiv1::__class_type_info@@CXXABI_1.3
 vtable for __cxxabiv1::__si_class_type_info
+vtable for __cxxabiv1::__si_class_type_info@@CXXABI_1.3
 vtable for layer_factory
 vtable for std::__cxx11::basic_ostringstream<char, std::char_traits<char>, std::allocator<char>>
+vtable for std::__cxx11::basic_ostringstream<char, std::char_traits<char>, std::allocator<char>>@@GLIBCXX_3.4.21
 vtable for std::__cxx11::basic_stringbuf<char, std::char_traits<char>, std::allocator<char>>
+vtable for std::__cxx11::basic_stringbuf<char, std::char_traits<char>, std::allocator<char>>@@GLIBCXX_3.4.21
 vtable for std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char>>
+vtable for std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char>>@@GLIBCXX_3.4.21
 vtable for std::basic_ios<char, std::char_traits<char>>
+vtable for std::basic_ios<char, std::char_traits<char>>@@GLIBCXX_3.4
 vtable for std::basic_streambuf<char, std::char_traits<char>>
+vtable for std::basic_streambuf<char, std::char_traits<char>>@@GLIBCXX_3.4
 vuid_to_error_text_map[abi:cxx11]
 vulkan_layer_factory::AcquireNextImage2KHR(VkDevice_T*, VkAcquireNextImageInfoKHR const*, unsigned int*)
 vulkan_layer_factory::AcquireNextImageKHR(VkDevice_T*, VkSwapchainKHR_T*, unsigned long, VkSemaphore_T*, VkFence_T*, unsigned int*)

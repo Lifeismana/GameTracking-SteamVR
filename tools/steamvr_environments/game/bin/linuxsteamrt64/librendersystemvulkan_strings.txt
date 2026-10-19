@@ -203,8 +203,10 @@
  libpng version 1.5.2 - March 31, 2011\n\n
  location=
  matrix of
+ max. %f
  may not exceed 
  members. Largest valid index is 
+ min. %f
  multiple times is not allowed.
  must appear in a block
  must be 0 for a floating-point type, 
@@ -340,8 +342,6 @@
  xfb_offset=
  xfb_stride=
  yielding Result Id 
-!1AQaq
-!a9X
 !m_boolDone
 !m_boolOpaque
 !m_boolPunchThroughPixels
@@ -353,7 +353,6 @@
 "(" expected after 'optimize' keyword
 ")" expected to end 'debug' pragma
 ")" expected to end 'optimize' pragma
-"2BRbr
 "channels" attribute not found in the header.
 "compression" attribute not found in the header.
 "dataWindow" attribute not found in the header or invalid.
@@ -367,7 +366,6 @@
 "screenWindowCenter" attribute not found in the header.
 "screenWindowWidth" attribute not found in the header.
 # of channels is zero.\n
-#3CScs
 #RenderSystem_CannotCreateDevice
 #RenderSystem_UnableToStartGame
 #Vulkan_DisableInstructions
@@ -424,16 +422,17 @@
 #version: versions 300, 310, and 320 require specifying the 'es' profile
 #version: versions 300, 310, and 320 support only the es profile
 #version: versions before 150 do not allow a profile token
-$4DTdt
 $@mapped binding out of range: 
 $Global
 $ORIGIN
 $accept
 $end
 $undefined
+%-.13e
 %-120s - %s\n
 %-120s\n
 %.15lf
+%0*x
 %016lx
 %01d
 %02X
@@ -444,19 +443,22 @@ $undefined
 %05d
 %06d
 %3d: e=%.3f rms=%.6f %u\n
-%4xY
-%5EUeu
 %@,S,V,,,,,S
 %@,S,V,S,V,,,
 %@,S,V,S,V,,,,S
 %@,S,V,S,V,,V,S
 %@,S,V,S,V,>S
 %d %s %d %02d:%02d:%02d +0000
+%d (%s)
+%d..%d
+%d..%d\n
 %f %f %f %f
 %i %i %i %i
 %ld%c
 %lld
+%lld (%s)
 %llu
+%llu (%s)
 %ls [wstring, len = %d]
 %s     subgroupAdd(%s);\n
 %s     subgroupAnd(%s);\n
@@ -517,21 +519,26 @@ $undefined
 %s     subgroupShuffleUp(%s, uint delta);\n
 %s     subgroupShuffleXor(%s, uint);\n
 %s     subgroupXor(%s);\n
+%s %s (
+%s (%d)
 %s allocation count overflow
 %s allocation count overflow( %llu >= %llu )\n
 %s called on an immutable constant buffer\n
 %s is not a valid flag.  Flag passes should have the form '--pass_name[=pass_args]'. Special flag names also accepted: -O and -Os.
 %s profile; removed in version %d
+%s%d
+%s%s
 %s() isn't a known function.
 %s.360%s
+%s/%s
 %s: Can't concatenate input layouts with more than %d fields total!\n
 %s: __pos (which is %zu) > this->size() (which is %zu)
 %s: __position (which is %zu) >= _Nb (which is %zu)
 %s: offset %d, type %x, size %d, index %d, binding %d, stages %d
 %s: string format requested %d chars\n
 %s[line %d:%d] 
+%u (%s)
 %x.%lx.json
-&6FVfv
 ' as an operand of <id> '
 ' cannot be OpTypeVoid.
 ' cannot be a constant zero.
@@ -606,7 +613,6 @@ $undefined
 ', member '
 ', must have an initializer.\n
 '. This structure has 
-'7GWgw
 ':' missing after extension name
 '=' expected after result id.
 'Target Label' operands for OpBranch must be the ID of an OpLabel instruction
@@ -644,7 +650,6 @@ $undefined
 ( ( uint32 ) pPushConstantRangesBlob->GetBinaryBlobSize() ) == ( pipelineLayoutHash.m_nNumPushConstantRanges * sizeof( VkPushConstantRange ) )
 (%s): ADD %s = %s\n
 (%s): Setting %s to %s\n
-(8HXhx
 (Did you mean gl_InstanceIndex?)
 (Did you mean gl_VertexIndex?)
 (None)
@@ -675,7 +680,6 @@ $undefined
 ) used for OpTypeInt.
 ), while in source code it is (
 ), words(
-)9IYiy
 ): error at column 
 *** IB "%s": Tried to lock a GPU-only buffer!\n
 *** IB "%s": Tried to lock a non integral number of indices!\n
@@ -691,7 +695,6 @@ $undefined
 *** VB "%s": Tried to lock too much memory (%d>%d)!\n
 *** VB "%s": Tried to lock too much memory for subregion (%d>%d)!\n
 *** VB "%s": Tried to lock twice without an unlock!\n
-*:JZjz
 *St19_Sp_counted_deleterIPhZN3Etc13EncodeMipmapsEPfjjNS1_5Image6FormatENS1_11ErrorMetricEfjjjjPNS1_8RawImageEPibEUlS0_E_SaIiELN9__gnu_cxx12_Lock_policyE2EE
 *ZN3Etc13EncodeMipmapsEPfjjNS_5Image6FormatENS_11ErrorMetricEfjjjjPNS_8RawImageEPibEUlPhE_
 +1.#INF
@@ -726,7 +729,6 @@ $undefined
 , which cannot be used with the current execution model:\n
 , which cannot be used with the current execution modes:\n
 , xfb_stride 
-,,,,,,,,,,,,,,,,
 ,f16vec
 ,f16vec4
 ,float,float
@@ -785,7 +787,6 @@ $undefined
 -preloadtextures
 -r_max_device_threads
 -rendersystem_thread_mode
--sSO\
 -sgpu
 -shaderstats
 -shadowTargetSize
@@ -855,8 +856,6 @@ $undefined
 ./inputlayoutbase.h
 ./renderresource.h
 .360
-.M;UU
-.eB5
 .exr
 .foz
 .ini
@@ -870,7 +869,6 @@ $undefined
 .vcs
 .vpk
 .vpk:
-.wN\f9
 // OpModuleProcessed 
 /P8i
 /data/data/source2_main/src/thirdparty/glslang/External/spirv-tools/source/opt/type_manager.cpp
@@ -1041,7 +1039,6 @@ $undefined
 5_0_gl
 5_0_vulkan
 5cfg/moddefaults.txt
-5t~BC
 64-bit hexadecimal literal
 64-bit integer
 64-bit integer literal
@@ -1067,7 +1064,6 @@ $undefined
 8CFunctor
 8b  16-May-2010
 9.1.15
-9a&g
 : 64-bit atomics require the Int64Atomics capability
 : Dependency 
 : DontFlatten
@@ -1132,7 +1128,6 @@ $undefined
 : storage class forbidden by universal validation rules.
 : storage class must be Function, Workgroup, CrossWorkGroup or Generic in the OpenCL environment.
 : truncated 
-:V!2m
 ; Bound: 
 ; Generator: 
 ; IR after last pass
@@ -1141,7 +1136,6 @@ $undefined
 ; Schema: 
 ; Version: 
 ; may be removed in future release
-;\tFzo
 <!-- kv3 encoding:%s:version{%s} format:%s:version{%s} -->\n
 <"C_OP_RemapSpeedtoCP
 </data/source2_main/src/thirdparty/etc2comp/EtcLib/EtcCodec/EtcBlock4x4Encoding_R11.cpp
@@ -1180,7 +1174,6 @@ $undefined
 ?convert-to-half-pass
 @@/data/source2_main/src/thirdparty/etc2comp/EtcLib/EtcCodec/EtcBlock4x4.cpp
 @@/data/source2_main/src/thirdparty/etc2comp/EtcLib/EtcCodec/EtcDifferentialTrys.cpp
-@BXV
 @TEXTURESTREAMING: Extremely low memory: Available mem: %.2f MB, Required: %.2f MB.\n
 @count
 @data
@@ -1188,7 +1181,6 @@ $undefined
 @finitetmp
 @gl_SubgroupInvocationID
 @gl_SubgroupSize
-@iZb
 @mathlib.cpp
 @patchConstantOutput
 @patchConstantResult
@@ -1203,7 +1195,6 @@ A block must end with a branch instruction.
 A function (
 A function must begin with a label
 A module-scope OpVariable with initialization value cannot be marked with the Import Linkage Type.
-A!;I2
 ABCDEF
 ABGR
 ACCSTRUCTNV
@@ -1430,7 +1421,6 @@ BGRA4444
 BGRA5551
 BGRA8888_LINEAR
 BGRX8888_LINEAR
-BKbhTb~XBK!;
 BOOL
 BOOLCONSTANT
 BOOLLITERAL
@@ -2393,7 +2383,6 @@ DynamicConfigList
 DynamicPoolPMB_%s
 DynamicPool_%s
 Dynamically adjust texture streaming budget based on GPU memory usage.
-E3:0
 ELSE
 EQ_OP
 ERROR : 
@@ -2722,7 +2711,6 @@ Extended instruction GLSLstd450IMix is not supported
 ExternalDescSet
 Extra compressed data
 Extra compression data
-EydV
 F16IMAGE1D
 F16IMAGE1DARRAY
 F16IMAGE2D
@@ -3908,7 +3896,6 @@ JPEG datastream contains no image
 JPEG parameter struct mismatch: library thinks size is %u, caller expects %u
 JPEGMEM
 JSON error, unterminated element: 
-Jugm
 KMeansQuantization
 KNQ\r
 KV Conditional Evaluation Error
@@ -4006,7 +3993,6 @@ Loop Terminal Expression\n
 Loop header 
 Loop with condition 
 LoopMerge
-LrwcE
 Luminance
 LunarG
 MATCHFRAMEWORK_001
@@ -4301,7 +4287,6 @@ Number of constructor parameters does not match the number of structure fields
 Number of image operand ids doesn't correspond to the bit mask
 Number of local variables ('Function' Storage Class) exceeded the valid limit (
 O*9y
-O8Mr
 OCTAL_ESC
 ORENDER_MULTISAMPLE_INVALID
 OUTSTANDING_HOOKUP_REQUEST 
@@ -4613,7 +4598,6 @@ Plat_VirtualFree
 Plat_WindowToOsSpecificHandle
 Plus
 PlusUconst
-Po5H
 PointMode
 PointStream
 Pointer can only be converted to another pointer or int scalar: 
@@ -4685,7 +4669,6 @@ QAngle
 QC,A
 QUESTION
 QUEUEFAMILYCOHERENT
-Qkkbal
 QuadReadAcrossDiagonal
 QuadReadAcrossX
 QuadReadAcrossY
@@ -4813,7 +4796,6 @@ RIGHT_BRACE
 RIGHT_BRACKET
 RIGHT_OP
 RIGHT_PAREN
-RJqn
 RST%d
 RWByteAddressBuffer
 RWStructuredBuffer
@@ -4973,7 +4955,6 @@ Row has too many bytes to allocate in memory
 RowMajor
 RuntimeDescriptorArray
 RuntimeDescriptorArrayEXT
-S+Ot
 S,S,V1,
 S,V2,V4
 S,V4
@@ -5114,7 +5095,6 @@ SSign
 STAR
 STEAM_FOSSILIZE_DUMP_PATH_READ_ONLY
 STRUCT
-STv/N
 SUBGROUPCOHERENT
 SUBROUTINE
 SUB_ASSIGN
@@ -5549,7 +5529,6 @@ SwizzleInvocationsAMD
 SwizzleInvocationsMaskedAMD
 SymbolicStrongSIVTest proved independence through loop bounds.
 SymbolicStrongSIVTest was unable to determine any dependence information.
-T%L9
 TBD functionality: 
 TEX read request: %d KB; %s\n
 TEXMAN: %s LoadStreamingData (%s)\n
@@ -6466,14 +6445,12 @@ X360
 X360_DST16
 X360_DST24
 X360_DST24F
-X5AHx
 XOR_ASSIGN
 XOR_OP
 Xbox 360
 Xderef
 XfbBuffer
 XfbStride
-XqkY
 ZEo^
 ZFP compression is not supported in this build
 ZFP compression is not supported.
@@ -6482,17 +6459,13 @@ ZIVTest found independence.
 Zero length tRNS chunk
 ZeroExtend
 Zext
-Zjz\v
-[*QmU
 [1;30m
 [31m
 [32m
 [33m
 [34m
 [gl_MinProgramTexelOffset, gl_MaxProgramTexelOffset]
-\f$\f)\f.\f4\f:\f@\fF\fM\fT\fZ\f`\ff\fl\fr\fx\f
-\n"\n'\n,\n1\n7\n<\nA\nF\nL\nQ\nV\n[\n`\ne\nk\np\nv\n{\n
-\nCwf\r
+\nF%u
 \nLinked 
 \nLoad replacement table\n
 \nPS_RENDER_STATE
@@ -6507,11 +6480,9 @@ Zjz\v
 \nin access chain: 
 \nlibpng version 1.5.2 - March 31, 2011\nCopyright (c) 1998-2011 Glenn Randers-Pehrson\nCopyright (c) 1996-1997 Andreas Dilger\nCopyright (c) 1995-1996 Guy Eric Schalnat, Group 42, Inc.\n
 \nwith value: 
-\r \r+\r.\r5\r9\r:\r@\rA\rB\rC\rD\rE\rF\rH\rN\rW\rX\r\\rX\rh\ri\rm\rm\rt\rt\r
 \r<unknown>
 \t #pragma once
 \t FreeBlock Start: %s End: %s\n
-\t!\t&\t+\t0\t6\t;\t@\tF\tK\tP\tU\t[\ta\tg\tm\ts\ty\t
 \tAvail Count ( %d ) ( %llu MB ) \n
 \tFramebuffer Count ( %d ): \n
 \tInUse Count ( %d ) ( %llu MB ) \n
@@ -6526,10 +6497,6 @@ Zjz\v
 \t\tObject[%d] - %s, Handle %p, Name "%s"\n
 \t\tObject[%d] - %s, Handle %p\n
 \t\t\t\t\n\n\n\n\n\n\n\n\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r
-\t\t\t\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r
-\v"\v(\v-\v2\v7\v=\vB\vG\vL\vR\vW\v\\va\vg\vl\vq\vv\v|\v
-\ysK
-]rHa
 ^oEZ
 _ITM_deregisterTMCloneTable
 _ITM_registerTMCloneTable
@@ -6935,7 +6902,6 @@ block-
 blockLOS
 block_structure
 blocking issue in occlusion queries!!\n
-bnMG
 body_type
 bone_name
 bone_names
@@ -6979,7 +6945,6 @@ break_uniform_burst
 breakable_count
 breakable_model
 breakable_skin
-bt3V
 buf error
 buffer aliasing not yet supported
 buffer block
@@ -6997,7 +6962,6 @@ burst_randomize
 burst_scale
 but 
 byteAddrTemp
-bzo=
 cHRM Blue X
 cHRM Blue Y
 cHRM Green X
@@ -7449,7 +7413,6 @@ cubeFaceCoordAMD
 cubeFaceIndex
 cubeFaceIndexAMD
 cullMode
-d6\f6
 dFdx
 dFdxCoarse
 dFdxFine
@@ -7616,11 +7579,9 @@ dynamic_interaction
 eaFO
 early_fragment_tests
 earlydepthstencil
-eax~Z
 effortblocks = %d\n
 eikonal
 either the block needs a location, or all members need a location, or no members have a location
-ekhHD
 eliminate-dead-branches
 eliminate-dead-code-aggressive
 eliminate-dead-const
@@ -8365,7 +8326,6 @@ gs_4_1
 gs_5_0
 gshs
 gx=%d, gy=%d, bx=%d, by=%d\n
-hGT.
 half float image
 half float literal
 half float matrix
@@ -8476,7 +8436,6 @@ iRed1 >= (signed)(0 + a_uiRadius) && iRed1 <= (signed)(31 - a_uiRadius)
 iRed2 < 0 || iRed2 > 31
 iRed2 >= (signed)(0 + a_uiRadius) && iRed2 <= (signed)(31 - a_uiRadius)
 iRed2 >= 0 && iRed2 <= 31
-i]Wb
 icoopmatNV
 identical
 identifier after ::
@@ -8740,8 +8699,6 @@ itextureBuffer
 itextureCube
 itextureCubeArray
 jump_statement
-k*do^
-k0V(
 keep-uncalled
 kernel enqeue flags
 kernel profiling info
@@ -8757,7 +8714,6 @@ layoutBindings
 layout_qualifier
 layout_qualifier_id
 layout_qualifier_id_list
-lcQe
 ld-linux-x86-64.so.2
 ldexp
 left angle bracket
@@ -8851,7 +8807,6 @@ lowp   int bitCount(  int);lowp ivec2 bitCount(ivec2);lowp ivec3 bitCount(ivec3)
 lowp   int findLSB(  int);lowp ivec2 findLSB(ivec2);lowp ivec3 findLSB(ivec3);lowp ivec4 findLSB(ivec4);lowp   int findLSB( uint);lowp ivec2 findLSB(uvec2);lowp ivec3 findLSB(uvec3);lowp ivec4 findLSB(uvec4);\n
 lowp precision qualifier
 mBLinking 
-mXr4
 m_Bone
 m_ChainData
 m_Children
@@ -9269,7 +9224,6 @@ modeldoc9
 modes
 modf
 move second child to first child
-mr"iR
 msad4
 mul() matrix size mismatch
 multiplayer_break
@@ -9298,9 +9252,7 @@ must occur first in shader
 must specify 'location' to use 'component'
 mutable
 nCombos
-nQ:B
 nTries < 10000000
-n\f"pA3Q
 name already defined
 named_barrier
 nameless block contains a member that already has a name at global scope
@@ -9490,7 +9442,6 @@ overloaded functions must have the same return type
 override_coverage
 p?RGB565
 pExt->vkCreateDescriptorUpdateTemplateKHR( m_pDeviceVulkan, &descriptorUpdateTemplateCreateInfo, NULL, &pPipelineOut->m_pDescriptorUpdateTemplate )
-pH_r
 pNext
 pNext in VkApplicationInfo not supported.
 pNext in VkComputePipelineCreateInfo not supported.
@@ -9528,7 +9479,6 @@ patchControlPoints
 patchconstantfunc
 payload number
 pbucket->plinkLast->GetNext() == nullptr
-pc2g
 peel_count
 perprimitiveNV out gl_MeshPerPrimitiveNV {int gl_PrimitiveID;int gl_Layer;int gl_ViewportIndex;int gl_ViewportMask[];perviewNV int gl_LayerPerViewNV[];perviewNV int gl_ViewportMaskPerViewNV[][];} gl_MeshPrimitivesNV[];
 physgun_interactions
@@ -9626,7 +9576,6 @@ ptryBest1 != nullptr
 ptryBest2 != nullptr
 public
 pushConstantRanges
-quAt
 quads
 qualifier has no effect on non-output parameters
 queued
@@ -9668,7 +9617,6 @@ r_texturefilteringquality
 r_textures_evict_all
 r_validate_texture_streaming
 r_wait_on_present
-raB3G
 radians
 radius0
 radius1
@@ -9798,7 +9746,6 @@ rwtexture1darray
 rwtexture2d
 rwtexture2darray
 rwtexture3d
-sAmTb
 sBGRA
 sPLT chunk has bad length
 sPLT chunk requires too much memory
@@ -10338,7 +10285,6 @@ syntax error, unexpected %s, expecting %s or %s
 syntax error, unexpected %s, expecting %s or %s or %s
 syntax error, unexpected %s, expecting %s or %s or %s or %s
 system.fxc
-tC7Ddx
 tRNS chunk has out-of-range samples for bit_depth
 tRNS chunk not allowed with alpha channel
 tangents
@@ -11485,7 +11431,6 @@ while
 while sub-statement
 with ExplicitLod
 with bias argument
-wn>Jj
 workaround-1209
 wrap-opkill
 wrinkle
@@ -11510,19 +11455,14 @@ xfb_stride is too small to hold all buffer entries:
 xfb_stride must be multiple of 2 for buffer holding a half float or 16-bit integer:
 xfb_stride must be multiple of 4:
 xfb_stride must be multiple of 8 for buffer holding a double or 64-bit integer:
-xg^Jp5|
 y9*O
-yMzw\n
 yaw_end
 yaw_start
-z:KEZ
 zd?Total Shader Stored: %.2fMB\n
 zlib memory error
 zlib stream error
 zlib version error
 { } style initializers
-{YIN?
-{zel#|67
 {}[]()=&, \t\n'"*;
 {}[]=, \t\n'":|;
 } gl_in[];in int gl_PrimitiveIDIn;out gl_PerVertex {vec4 gl_Position;float gl_PointSize;float gl_ClipDistance[];\n

@@ -101,19 +101,11 @@
   Total: %s\n
   collapsed %s 0x%p back into 0x%p\n
   criterion '%25s':'%15s' 
- !"#$%&'()*+,-./0123
- !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
- !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
- #GameUI_Disconnect_ExitingEngine
- #GameUI_Disconnect_InternalError
- #GameUI_Disconnect_SnapshotError
- #GameUI_Disconnect_SoundsMessage
- #GameUI_Disconnect_SteamIDBanned
- #GameUI_ServerRejectBadChallenge
- #Valve_Reject_Connect_From_Lobby
- #Valve_Reject_Reserved_For_Lobby
+ %%%d.%ds 
  %02X
+ %6d %4d\n
  %d %s is interpolating on %s %s\n
+ %lx %lx
  %s{%.2f,%.2f,%.2f}
  ( def. "%s" )
  (Dirty Animation)
@@ -123,8 +115,6 @@
  (listed %s)
  *** FakeVRMode is not yet supported when VR is enabled ***  \nRemove -VR from command line and try again if you want to access this mode \n
  - %s (%s)\n
- .CPlayer_GetNicknameList_Request
- .CPublishedFile_Publish_Response"2
  ;{}:layout/panel2dfactory.cpp
  = { <proto text format> }". To set fields within it, use syntax like "
  ACTIVE GROUP
@@ -139,7 +129,6 @@
  Outdent() without matching Indent().
  Parameter to BackUp() can't be negative.
  ReadToken overflow
- Returns details on a Cloud file.
  ShowQuestDashboard MapsTab BackgroundsTab PropsTab BrowseWorkshopTab  FurnitureOn DashboardOn HeadSelected HandsSelected WearablesSelected  Scrolling 
  Tokenizer::ParseFloat() passed text that could not have been tokenized as a float: 
  Tokenizer::ParseStringAppend() passed text that could not have been tokenized as a string: 
@@ -168,12 +157,11 @@
  end\n
  failed to restore %s\n
  fnumber=%d ofs=0x%x sz=%d
- google/protobuf/descriptor.proto"
- google/protobuf/descriptor.proto*
- google/protobuf/descriptor.proto*]\n
  invert
  libpng version 1.5.2 - March 31, 2011\n\n
+ max. %f
  message of type "
+ min. %f
  not found
  not in 
  of the Protocol Buffer runtime library, but the installed version is 
@@ -191,36 +179,15 @@
 !! ERROR: bad input/output link:\n!! %s(%s,%s) doesn't match type from %s(%s)\n
 !! No context to execute within.
 !!! Missing printname on weapon
-!#GameUI_Disconnect_ConnectionLost
-!#GameUI_Disconnect_HLTVRestricted
-!#GameUI_Disconnect_LoopDeactivate
-!#GameUI_Disconnect_RejectedByGame
-!#GameUI_Disconnect_Request_HSIdle
-!#GameUI_Disconnect_ServerShutdown
-!#GameUI_Disconnect_SteamDeny_Misc
-!#GameUI_Disconnect_SteamOwnership
-!#GameUI_Disconnect_TempEntMessage
-!#GameUI_ServerRejectFailedChannel
-!$fQ3
 !(pField->flags & FTYPEDESC_PTR )
-!.CPlayer_GetNicknameList_Response"<
-!.CPublishedFile_Subscribe_Request
-!.google.protobuf.EnumValueOptions
-!1AQaq
 !Access to convar functions
 !Access to global system functions
-!App ID to enumerate the files of.
 !Custom network table manager
-!DUc
 !Destinations GameRules
-!E9#L
 !FieldRequiresSpecialHandling( td )
 !ITestScriptMgr
-!MaJ
 !The global list of entities
 !Used to create and manage particle effects
-!\n\fangcrosshair
-!\n\fangle_offset
 !m_bNeedsSort
 !m_boolDone
 !m_boolOpaque
@@ -228,7 +195,6 @@
 !m_boolTransparent
 !m_hCloth2
 !player
-!sePm0
 !self
 " because it is missing required fields: 
 " conflicts with field "
@@ -271,55 +237,33 @@
 " was not found or had errors.
 " which is a proto3 message type.
 " which is.
-"#GameUI_Disconnect_DeltaEntMessage
-"#GameUI_Disconnect_HLTVUnavailable
-"#GameUI_ServerRejectInvalidCertLen
-"#\n!CPublishedFile_Subscribe_Response"v\n"CPublishedFile_Unsubscribe_Request
-"#\n\nCEntityMsg
 "$0" does not declare $1 as an extension number.
-"$\n\fCMsgVector2D
-"%\n#CPublishedFile_Unsubscribe_Response"
-"%\n\nCIPASNInfo
 "%s" = "%s"
-"&\n$CWorkshop_AddSpecialPayment_Response"W\n$CWorkshop_GetSpecialPayments_Request
+"%s":%.3f
+"%s":%d
+"%s":%f
+"%s":%lld
+"%s":%llu
+"%s":%s
+"%s":%u
 ") is not compatible with this reflection object (which is for type "
 ") to start from the outermost scope.
 ").  Note that the exact same class is required; not just the same descriptor.
-")\n\rCMsgSOIDOwner
-"*\n(CMsgGCToGCMasterSubscribeToCacheResponse"a\n%CMsgGCToGCMasterSubscribeToCacheAsync
 ", another member of oneof "
 ", but only 
 ", field number 
 ", which is not defined. The innermost scope is searched first in name resolution. Consider using a leading '.'(i.e., ".
 ", which is not imported by "
-"-\n\nCMsgQAngle
 ".  To use it here, please add the necessary import.
 ". If this is intended, set 'option allow_alias = true;' to the enum definition.
 ". This appears to be a value from a sibling type.
 ". This is not 
 ". Value: "
-".CCloud_EnumerateUserFiles_Request
-".CPublishedFile_GetDetails_Request
-".CPublishedFile_Subscribe_Response"-
 "/*" inside block comment.  Block comments cannot be nested.
-"0\n\tCP2P_Ping
 "0x" must be followed by hex digits.
-"2BRbr
-"3\n"CPlayer_GetGameBadgeLevels_Request
-"4\n!CMsgGCToGCUniverseStartupResponse
-"7\n#ToolEvent_SFMToolActiveStateChanged
-"9\n\vCMsgTESmoke
-";\n!CClientMsg_DetachObjectFromAvatar
-"<\n CNETMsg_SpawnGroup_LoadCompleted
-">\n CClientMsg_ContentBrowserToggled
-">\n\nCMsgTEFizz
 ">m_nIncomingTangent
-"@Hqr
 "@cancelselect\n
 "DeleteMapValue"
-"EPublishedFileInfoMatchingFileType
-"E\n$CMsgGCGetPartnerAccountLink_Response
-"F\n\fGCSQLVersion
 "GetMapData"
 "GetRawRepeatedField"
 "InsertOrLookupMapValue"
@@ -328,19 +272,10 @@
 "MapEnd"
 "MapSize"
 "MutableRawRepeatedField"
-"Text title for the published file.
-"\n\nowner_soid
-"\n\rorigin_offset
-"\v\n\tCDemoStop"0\n\fCDemoUserCmd
-"^\n\fOneofOptions
-"`\n/CPlayer_UpdateSteamAnnouncementLastRead_Request
-"a\n#CClientMsg_NotifyLoadingDestination
 "appid": %d,\n
 "bundle": "
-"c\n%CMsgGCRequestSubGCSessionInfoResponse
 "channels" attribute not found in the header.
 "compression" attribute not found in the header.
-"dSx?
 "dataWindow" attribute not found in the header or invalid.
 "description": 
 "description_%s": 
@@ -353,20 +288,16 @@
 "drop_window": "%u",\n
 "e" must be followed by exponent.
 "granted_manually": true,\n
-"h\n CUserMessageHapticsManagerEffect
 "icon_url": 
 "icon_url_large": 
 "ikrig
 "itemdefid": %llu,\n
 "items": [\n
-"k\n"CNETMsg_SpawnGroup_SetCreationTick
 "lineOrder" attribute not found in the header.
-"lxz
 "market_fee_app": %u,\n
 "marketable": true,\n
 "name": "%s",\n
 "name_%s": 
-"o\n#CUserMessageCloseCaptionPlaceholder
 "pixelAspectRatio" attribute not found in the header.
 "promo": "%s",\n
 "promo": "manual",\n
@@ -377,26 +308,11 @@
 "type": "generator",\n
 "type": "item",\n
 "type": "playtimegenerator",\n
-"u\n!CNETMsg_SpawnGroup_ManifestUpdate
-"u\n\vCMsgTEDecal
 "use_drop_limit": true,\n
 "use_drop_window": true,\n
 "workshopid": %llu,\n
-"x\n0CClientMsg_WorldUIControllerHasPanelChangedEvent
-"z\n\rCMsgWebAPIKey
-"|\n CMsgGCGetAppFriendsList_Response
 # of channels is zero.\n
-##GameUI_Disconnect_BadRelayPassword
-##GameUI_Disconnect_ReliableOverflow
-##GameUI_Disconnect_SnapshotOverflow
 #%02X%02X%02X%02X
-#.CCloud_EnumerateUserFiles_Response"[
-#.CCloud_GetUploadServerInfo_Request
-#.CPlayer_GetGameBadgeLevels_Request
-#.CPlayer_GetLastPlayedTimes_Request
-#.CPublishedFile_GetDetails_Response"9
-#.CPublishedFile_Unsubscribe_Request
-#3CScs
 #<CBaseAnimatingEasings_t
 #Avatar_Customization_Value_Brightness
 #Avatar_Customization_Value_Hue
@@ -420,34 +336,6 @@
 #Friends_InGame
 #Friends_Offline
 #Friends_Online
-#GameUI_ClientConsistencyFail
-#GameUI_ClientDifferentMap
-#GameUI_ClientNoMap
-#GameUI_ClientUnableToCRCMap
-#GameUI_Disconnect_BanAdded
-#GameUI_Disconnect_Disconnected
-#GameUI_Disconnect_HLTVDirect
-#GameUI_Disconnect_HLTVStop
-#GameUI_Disconnect_Host_EndGame
-#GameUI_Disconnect_KickBanAdded
-#GameUI_Disconnect_Kicked
-#GameUI_Disconnect_LeavingSplit
-#GameUI_Disconnect_LoopShutdown
-#GameUI_Disconnect_NoMoreSplits
-#GameUI_Disconnect_NoSpectators
-#GameUI_Disconnect_Server
-#GameUI_Disconnect_SteamDropped
-#GameUI_Disconnect_SteamIDInUse
-#GameUI_Disconnect_SteamInUse
-#GameUI_Disconnect_SteamLogon
-#GameUI_Disconnect_SteamTicket
-#GameUI_Disconnect_SteamTimeOut
-#GameUI_Disconnect_SteamVAC
-#GameUI_Disconnect_TickMessage
-#GameUI_Disconnect_TimedOut
-#GameUI_Disconnect_Unusual
-#GameUI_Disconnect_User
-#GameUI_Disconnect_UserCmd
 #GameUI_Language_Brazilian
 #GameUI_Language_Bulgarian
 #GameUI_Language_Czech
@@ -476,17 +364,6 @@
 #GameUI_Language_Turkish
 #GameUI_Language_Ukrainian
 #GameUI_Language_Vietnamese
-#GameUI_ServerAuthDisabled
-#GameUI_ServerCDKeyAuthInvalid
-#GameUI_ServerNoLobby
-#GameUI_ServerRejectBadPassword
-#GameUI_ServerRejectBanned:E\n
-#GameUI_ServerRejectLANRestrict
-#GameUI_ServerRejectNewProtocol
-#GameUI_ServerRejectOldProtocol
-#GameUI_ServerRejectServerFull
-#GameUI_ServerRejectSteam
-#GameUI_ServerRequireSteams
 #It contains connectivity part %d with %d vertices\n
 #ItemDetail_Author_Valve
 #ItemDetail_Author_You
@@ -535,9 +412,6 @@
 #VROverlay_VrSettings
 #VROverlay_VrSettings_Desc
 #VR_Map_Home
-#Valve_Reject_Background_Map
-#Valve_Reject_Hidden_Game
-#Valve_Reject_Single_Player
 #Valve_SelectLanguage_Brazilian
 #Valve_SelectLanguage_Bulgarian
 #Valve_SelectLanguage_Czech
@@ -566,7 +440,6 @@
 #Valve_SelectLanguage_Turkish
 #Valve_SelectLanguage_Ukrainian
 #Valve_SelectLanguage_Vietnamese
-#Wci
 #Workshop_Tag_Theme_Abstract
 #Workshop_Tag_Theme_Architecture
 #Workshop_Tag_Theme_Art
@@ -580,28 +453,14 @@
 #Workshop_Tag_Theme_SmallThings
 #Workshop_Tag_Theme_Space
 #Workshop_Tag_Theme_Tech
-#\n\neffectdata
-#\n\npause_type
-#\rnkk
-#bJ$Q
 #bML
 #base
 #base is NULL 
 #empty#
 #f %d %d %d, original mesh: %d %d %d\n
-#frA
 #include
 #include is NULL 
 #int#
-$#GameUI_Disconnect_BadServerPassword
-$#GameUI_Disconnect_ConnectionFailure
-$#GameUI_Disconnect_MessageParseError
-$#GameUI_Disconnect_Request_HLTVRelay
-$.CCloud_GetUploadServerInfo_Response":
-$.CPlayer_GetGameBadgeLevels_Response"U
-$.CPlayer_GetLastPlayedTimes_Response".
-$.CPublishedFile_GetUserFiles_Request
-$.CPublishedFile_Unsubscribe_Response"1
 $0  extend .$1 {\n
 $0  extensions $1 to $2;\n
 $0  reserved 
@@ -611,49 +470,33 @@ $0message $1
 $0oneof $1 {
 $0option $1;\n
 $0rpc $1($4.$2) returns ($5.$3)
-$4DTdt
-$DT<I
 $ORIGIN
-$Retrieves files published by a user.
-$SO0
-$\n GCConnectionStatus_GC_GOING_DOWN
-$\n k_EMobilePaymentProvider_Invalid
-$\n k_EProtoExecutionSiteSteamClient
-$\n k_ESOMsg_CacheSubscribedUpToDate
-$\n\rresource_type
 $spriteRenderMode
-%#GameUI_Disconnect_BadClientDeltaTick
-%#GameUI_Disconnect_ConnectionOverflow
-%#GameUI_Disconnect_ConnectionTimedout
-%#GameUI_Disconnect_CreateServerFailed
-%#GameUI_Disconnect_LocalProblem_Other
-%#GameUI_Disconnect_ReplayIncompatible
-%#GameUI_Disconnect_ServerIncompatible
-%#GameUI_Disconnect_ServerInfoOverflow
-%#GameUI_Disconnect_StringTableMessage
-%#GameUI_ServerRejectInvalidConnection
-%#GameUI_ServerReject_InvalidKeyLength
 %% 4d=[%%%d.%ds] at cycle %%6.4f weight %%5.3f
 %%%d.%ds %%%d.%ds
 %%%d.%ds [%%3.3s] (%%5d) %%%d.%ds:
 %%%d.%ds [%%s::%%s] 
+%%%s
 %%s  %%c %%10s : %c%%%ds%c %%s
 %%s  %%c %%10s : %c%%-%d.%ds%c %%s
-%(Optional) Starting page for results.
 %-120s - %s\n
 %-120s\n
 %-15.15s[ %s ]
 %-16.16s | 
 %-20s
 %-22s - size: %6d bytes / count: %4d / peak size: %6d bytes / peak count: %4d\n
+%.*g
+%.*s\n
+%.0f
 %.0f fps - %s\n
 %.15lf
 %.18g
+%.1f
 %.1f %.1f %.1f
 %.2f %.2f %.2f %.2f %.2f %.2f %.2f %.2f %.2f\n
 %.2f (client: post update)
 %.2f: client (pre-update)
-%.CPublishedFile_GetUserFiles_Response"(
+%.6f
 %01d
 %02d
 %02d: dur(%8.2f) amp(%8.2f) freq(%8.2f)
@@ -695,34 +538,26 @@ $spriteRenderMode
 %44s        count   averuntime   maxruntime  aveduration #yielded  attempted waited   failed longheld longwait wait-t/o  t/o-msg jobfailed longslice\n
 %44s  --- completed jobs (usec)----------------------------------  ------ lock counts----------------------------------  ------ failures -----------\n
 %44s %12lld %12lld %12lld %12lld %8lld %8lld %8lld %8lld %8lld %8lld %8lld %8lld %8lld %8lld\n
+%4d 
 %5.3f:%s: adding layer %d (order %d): %s : cycle %5.3f (weight %5.3f)\n
 %50.50s %32.32s: %s %s\n
 %50.50s: %2.2d bits == '%s'\n
 %50s    count      aveduration                    netmsg      sql    sleep waitlock    yield workitem\n
 %50s %8lld %16lld %13lld %11lld %8lld %8lld %8lld %8lld %8lld \n
 %50s --- running jobs (usec)-- -- locks held -- ----- pause reasons ---------------------------------\n
-%5EUeu
 %5d%9.0f%8d%9.0f%10.0f   %*s%s\n
 %5d%9.0f%8s%9s%10s   %*s%s\n
 %5d: %8.6f msec change '%s()' on field %s(path=%s) for ent %s(%s) name='%s'\n
 %5s%9s%8s%9s%10s   %s\n
+%8.3f 
 %8.3f[%d] %s:  %s
 %8.6f
 %8.8s: %-5d entries, '%s', ...
-%A service for Steam Cloud operations.
-%Deletes a file from the user's cloud.
-%O?ZE
-%Refresh the voting queue for the user
-%Shortcut name for the published file.
-%Tp8
-%Tpx
-%Tpxa
 %Y-%m-%d-%p_%I_%M_%S
 %Y-%m-%dT%H:%M:%SZ
-%\n!eQueryCvarValueStatus_ValueIntact
-%\n!k_ESOMsg_CacheSubscriptionRefresh
 %a, %e %b %Y %H:%M:%S
 %a, %e-%b-%y %H:%M:%S
+%b %d
 %d "No animation data"
 %d %d %d %d
 %d %s %d %02d:%02d:%02d +0000
@@ -733,6 +568,7 @@ $spriteRenderMode
 %d / %s "%s" thinking for %.02f ms!!!\n
 %d : %d : '%s'
 %d : %d : 'null'
+%d : %s
 %d Hand Attachments:
 %d bone setup ents (name/count/entindex) ------------
 %d elements\n
@@ -745,6 +581,8 @@ $spriteRenderMode
 %d total requeued messages\n
 %d tris\n
 %d unhooked %s\n
+%d.%d
+%d.%d.%d
 %d.%d.%d.%d:%d
 %d/%d: '%s' %s
 %d: %d: PlayedTime: %.2f, Sample: %d, Haptic: %d, Consolodated: %d\n
@@ -752,10 +590,13 @@ $spriteRenderMode
 %d: World: %s Refcount: %d\n
 %d:%s::%s %s
 %d=%s:  pos[ %8.3f %8.3f %8.3f ] ang[ %8.3f %8.3f %8.3f ]
+%dd_%s
 %dx%d
 %f %f %f %f
 %f %f %f %f %f %f %f %f %f\n
 %f is before m_SimulationState[%d].m_flSimulationTime %f\n
+%f%%
+%f: %s %s\n
 %fpx
 %g %g %g %g
 %i %i %i %i
@@ -771,8 +612,11 @@ $spriteRenderMode
 %llu\t%12s %12s\n
 %llux%u;
 %ls [wstring, len = %d]
-%qVDM
+%s %d
+%s %f %f
+%s %f %f 
 %s %f %f %f;%s %f %f %f\n
+%s %s %s 
 %s %s %s %s
 %s %s : %s\n
 %s %s.HL%s from save file on %s\n
@@ -783,7 +627,10 @@ $spriteRenderMode
 %s (%s) has no particle system name specified!\n
 %s (Color)
 %s (Material)
+%s * %s
+%s + %s
 %s - %s %s\n
+%s / %s
 %s : %8.2f:  clearing events\n
 %s : %8.2f:  finish %s\n
 %s : %8.2f:  ignored %s\n
@@ -794,6 +641,7 @@ $spriteRenderMode
 %s ID:%d (%d objects):\n
 %s Model '%s' doesn't have attachment '%s' to attach particle system '%s' to.\n
 %s Touching %s %s %s; 
+%s [%s]
 %s allocation count overflow
 %s allocation count overflow( %llu > %llu )\n
 %s allocation count overflow( %llu >= %llu )\n
@@ -825,10 +673,14 @@ $spriteRenderMode
 %s writing array count %d\n
 %s writing meta data %d\n
 %s writing start offset %d\n
+%s#%d
+%s%%
 %s%12.12s:  cycle %6.4f (prev %6.4f) weight %5.3f rate %6.3f: % 4d=[%s]
 %s%20s : %40s %5.3f\n
 %s%c%s%c%s%c%g%c%d
+%s%d
 %s%d out of %d waiting jobs printed.\n
+%s%i:'%s'\n
 %s%s%s crc=0x%x metadatasz=%d
 %s%s-%02d-%s_%s.exr
 %s%s.csv
@@ -837,7 +689,9 @@ $spriteRenderMode
 %s%s: Lock owner: None, Type: %d, %d Waiting\n
 %s%sbps
 %s( %s, %s )\n
+%s(%d)
 %s(%d), weight: %.2f, cycle: %.2f, order (%d), aim (%d)
+%s(%s)
 %s(): Deprecated and unimplemented. Fix client code to use new postprocessing resources.\n
 %s+-- Schema Class: %s\n
 %s.360%s
@@ -846,6 +700,7 @@ $spriteRenderMode
 %s.ctx
 %s.vtex
 %s/%s.exr
+%s/%s/%s/
 %s/%s/%s/%s
 %s/%s/gameevents_%s.txt
 %s/%s_%s.txt
@@ -960,8 +815,11 @@ $spriteRenderMode
 %s:  variants # %d of %d\n
 %s:  } IGameSystem::LoopActivateAllSystems done\n
 %s:  } IGameSystem::LoopDeactivateAllSystems done\n
+%s: %.2f
 %s: %d -> %d\n
 %s: %llu %s -> %llu %s\n
+%s: %s
+%s: %s%s
 %s: %s( %s %d %d )\n
 %s: %s(%s) '%s' [%d] thinking for %.02f ms!!!\n
 %s: '%s' -> '%s'\n
@@ -989,13 +847,18 @@ $spriteRenderMode
 %s: unexpected parameter format for InputSetBodyGroup. Had %s, expected <bodygroupname,partnumber>\n
 %s: unexpected parameter type %s, expected a CString\n
 %s: unexpected token %s\n
+%s:%d
 %s:%s needs base %s:%s to be registered\n
+%s:%s:%g
+%s:%s\n
 %s::%s (%s) == %s is %s, %s, %s, %s %s\n
 %s:SetKinematic(CVariant::type=%s) expected bool argument\n
+%s=%c
 %sAutocomplete
 %sDropDownMenu
 %sIMEControls
 %sLock acquired: %s:%d\n
+%s\%s
 %s\%s_%s_%i.vanimreplay
 %s\Settings
 %s\t%.9f\t%.9f\t%.6f\t%.2f\t%.2f\t%.2f\n
@@ -1003,7 +866,10 @@ $spriteRenderMode
 %s\tAt: %s:%d\n
 %s\tOther jobs waiting for this lock: %s (%llu)\n
 %s_%03d.vpk
+%s_%d
 %s_%i_%i_%i_%i
+%s_%s
+%s_%u
 %s_BG
 %s_COMP
 %s_FG
@@ -1011,6 +877,7 @@ $spriteRenderMode
 %s_Middle
 %s_Right
 %s_STAT
+%s_c%i
 %s_color
 %s_hue
 %s_matgrp
@@ -1033,233 +900,35 @@ $spriteRenderMode
 %s| SizeOf: %d\n
 %s| Virtual: %s; Abstract: %s; TrivialConstr: %s; TrivialDestr: %s\n
 %u:%02u:%02u
-%z2b
-&#GameUI_Disconnect_InvalidMessageError
-&#GameUI_Disconnect_NoPeerGroupHandlers
-&#GameUI_Disconnect_PureServer_Mismatch
-&#GameUI_Disconnect_RemoteProblem_Other
-&#GameUI_ServerRejectInvalidReservation
-&(optional) Filter by privacy settings.
+%u:%u:%u
+%x %x
 &0000
-&6FVfv
-&App Id this published file belongs to.
-&OYMW
-&\n!k_EMsgGCToClientPollConvarRequest
-&\n"GAME_PARTICLE_MANAGER_EVENT_CREATE
-&\n"GAME_PARTICLE_MANAGER_EVENT_FROZEN
-&\n"GAME_PARTICLE_MANAGER_EVENT_UPDATE
-&\n"SPAWN_GROUP_IS_INITIAL_SPAWN_GROUP
-&\n"eQueryCvarValueStatus_CvarNotFound
-&\n\ngc_msg_src
 &lt;Needs a description&gt;
-'#GameUI_Disconnect_BadSpectatorPassword
-'#GameUI_Disconnect_DifferentClassTables
-'#GameUI_ServerRejectInvalidSteamCertLen
 '%20s' vs. '%20s' = 
-'(Optional) Title of the published file.
-'.CPlayer_GetFriendsGameplayInfo_Request
 '7CResourceManifestPrerequisite
-'7GWgw
-'8P;Wo
-'A service to access published file data
-'App Id this file is being published TO.
-'OYM
-'Sets the player's community preferences
-'\n"SPAWN_GROUP_CREATE_NEW_SCENE_WORLD
-'\n"k_EMsgGCToClientPollConvarResponse
-'\n#GAME_PARTICLE_MANAGER_EVENT_DESTROY
-'\n#GAME_PARTICLE_MANAGER_EVENT_LATENCY
-'\n#GAME_PARTICLE_MANAGER_EVENT_RELEASE
-'\n#GCConnectionStatus_STEAM_GOING_DOWN
-'\n#SPAWN_GROUP_LOAD_ENTITIES_FROM_SAVE
-'\n#eQueryCvarValueStatus_CvarProtected
-'\n#k_EMobilePaymentProvider_GooglePlay
-'\n\rsignedPayload
 'out_location' must not be NULL
 ( modelName, context ) - Manually precache a single model
 ( nOwner & 7 ) == 0 && ( nOwner & 0x8000000000000000ull ) != 0x8000000000000000ull
 ( resourceType, resourcePath, context ) - Manually precache a single resource. Types: "model|model_folder|sound|soundfile|particle|particle_folder"
 ( string TableName, string KeyName )
-(#GameUI_Disconnect_LoopLevelLoadActivate
-(#GameUI_Disconnect_RemoteProblem_BadCert
-(#GameUI_Disconnect_RemoteProblem_Timeout
+(%.02f) %s
 (%0.2f): %s
 (%d)  EffectName "%s"  Dormant? %s  Emission Stopped? %s \n
 (%d) Name: %s (%s)
 (%d/%d)%s %s
+(%g %g)
+(%s,%s)
 ((https?|ftp|file)://|www\.)([^<]*)
 (*MARK) must have an argument
 (*VERB) not recognized or malformed
-(.CPlayer_GetCommunityPreferences_Request
-(.CPlayer_GetFriendsGameplayInfo_Response"K
-(.CPlayer_GetPerFriendPreferences_Request
-(.CPlayer_SetCommunityPreferences_Request
-(.CPlayer_SetPerFriendPreferences_Request
 (0x%08X)'??'
 (1 + n) * 3 <= vecsize
-(8HXhx
 (?R or (?[+-]digits must be followed by )
 (ACTIVE)
-(App Id to retrieve published files from.
 (Fade Removed: [%d,%d,%d,%d])\n
-(ID of the Cloud file to get details for.
 (IImageSource)
 (None)
-(Text description for the published file.
 (WIPE AND EXTRACT)
-(\f"Z\n CClientMsg_CustomGameEventBounce
-(\f"h\n\nCP2P_Voice
-(\f"n\n CMsgGCToGCMasterSubscribeToCache
-(\n estimated_wait_seconds_remaining
-(\n make_workshop_files_subscribable
-(\n non_prepared_statements_executed
-(\n#CM_WorldUIControllerHasPanelChanged
-(\n$GAME_PARTICLE_MANAGER_EVENT_SET_TEXT
-(\n\fstring_table
-(\r"!\n\rHandler_Flags
-(\r"2\n0CPlayer_UpdateSteamAnnouncementLastRead_Response*
-(\r"6\n"CMsgGCCheckClanMembership_Response
-(\r"8\n%CGCSystemMsg_GetPurchaseTrust_Request
-(\r":\n"CWorkshop_GetContributors_Response
-(\r"I\n CMsgGCToClientPollConvarResponse
-(\r"P\n,CGCSystemMsg_ReportExternalPurchase_Response
-(\r"R\n\nCMsg_CVars
-(\r"V\n\fCMsgTEImpact
-(\r"Y\n"CPublishedFile_GetDetails_Response
-(\r"^\n(CPlayer_GetCommunityPreferences_Response
-(\r"f\n\nCMsgTEDust
-(\r"n\n\fCMsgTESparks
-(\r"s\n\rCMsgTEBubbles
-(\r"v\n\rCDemoFileInfo
-(\r"x\n'CMsgClearDecalsForSkeletonInstanceEvent
-(\r"~\n\vOperation_t
-(\t")\n'CPlayer_GetPerFriendPreferences_Request"
-(\t"9\n"ToolEvent_SFMRecordingStateChanged
-(\t"<\n\fCSVCMsg_Menu
-(\t"=\n(CMsgGCMsgWebAPIJobRequestForwardResponse
-(\t">\n+CClientMsg_DevPaletteVisibilityChangedEvent
-(\t"@\n2CHelpRequestLogs_UploadUserApplicationLog_Response
-(\t"C\n&CWorkshop_SetItemPaymentRules_Response
-(\t"J\n\fCCLCMsg_Move
-(\t"K\n$CMsgGCMsgMasterSetDirectory_Response
-(\t"L\n%CClientMsg_DetectorQuestUnlockedItems
-(\t"\r\n\vCNETMsg_NOP"'\n
-(\t"b\n$CUserMessageNotifyLoadingDestination
-(\t"c\n"CClientMsg_NotifyWorkshopItemState
-(\t:\vlastupdatedB8
-(\v2 .CCommunity_ClanAnnouncementInfo"p\n$CBroadcast_PostGameDataFrame_Request
-(\v2 .CMsgGCHUpdateSession.ExtraField
-(\v2 .CMsgGCToGCForwardAccountDetails"&\n$CMsgGCToGCLoadSessionSOCacheResponse"f\n
-(\v2 .CMsgHttpResponse.ResponseHeader
-(\v2 .CMsgSerializedSOCache.TypeCache
-(\v2 .ProtoFlattenedSerializerField_t"!\n
-(\v2 .google.protobuf.DescriptorProto
-(\v2!.CMsgAMSendEmail.ReplacementToken
-(\v2!.CMsgGCMsgSetOptions.MessageRange
-(\v2!.CMsgGCToGCMasterSubscribeToCache"r\n$CMsgGCToGCMasterUnsubscribeFromCache
-(\v2!.CMsgSource1LegacyGameEvent.key_t
-(\v2!.CSVCMsg_GameSessionConfiguration
-(\v2!.google.protobuf.EnumValueOptions"
-(\v2".CMsgGCMsgMasterSetDirectory.SubGC
-(\v2#.CMsgDPPartnerMicroTxns.PartnerInfo
-(\v2#.CMsgSOMultipleObjects.SingleObject
-(\v2#.CP2P_VRAvatarPosition.COrientation
-(\v2#.CSVCMsgList_UserMessages.usermsg_t
-(\v2#.CSVCMsg_GameEventList.descriptor_t
-(\v2$.CGCMsgMemCachedGetResponse.ValueTag
-(\v2$.CGameInfo.CDotaGameInfo.CPlayerInfo
-(\v2$.CMsgSerializedSOCache.Cache.Version
-(\v2$.google.protobuf.EnumDescriptorProto
-(\v2$.google.protobuf.FileDescriptorProto"
-(\v2$.google.protobuf.UninterpretedOption"/\n
-(\v2$.google.protobuf.UninterpretedOption":\n\fOptimizeMode
-(\v2$.google.protobuf.UninterpretedOption"P\n
-(\v2$.google.protobuf.UninterpretedOption*\t
-(\v2%.CMsgAMGetUserGameStatsResponse.Stats
-(\v2%.CMsgSOCacheSubscribed.SubscribedType
-(\v2%.CMsgSource1LegacyGameEventList.key_t"K\n
-(\v2%.google.protobuf.FieldDescriptorProto
-(\v2%.google.protobuf.OneofDescriptorProto
-(\v2&.CMsgGCMsgMasterSetWebAPIRouting.Entry
-(\v2&.google.protobuf.ExtensionRangeOptions
-(\v2&.google.protobuf.MethodDescriptorProto
-(\v2'.CGCToGCMsgMasterStartupComplete.GCInfo
-(\v2'.CMsgDPPartnerMicroTxns.PartnerMicroTxn
-(\v2'.CPlayer_IncomingInviteMutualFriendList"7\n&CPlayer_GetFriendsGameplayInfo_Request
-(\v2'.google.protobuf.ServiceDescriptorProto
-(\v2(.CGCSystemMsg_GetAccountDetails_Response
-(\v2(.CMsgGCUpdateSubGCSessionInfo.CMsgUpdate
-(\v2(.CUserMsg_ParticleManager.CreateParticle
-(\v2(.CUserMsg_ParticleManager.UpdateParticle
-(\v2(.google.protobuf.SourceCodeInfo.Location
-(\v2).CClientMsg_SpawnWearables.WearableConfig
-(\v2).CGameInfo.CDotaGameInfo.CHeroSelectEvent
-(\v2).CMsgGCMsgMasterSetClientMsgRouting.Entry
-(\v2).CPlayer_GetLastPlayedTimes_Response.Game
-(\v2).CPublishedFile_GetUserFiles_Response.App
-(\v2).CUserMsg_ParticleManager.DestroyParticle
-(\v2).CUserMsg_ParticleManager.SetParticleText
-(\v2).google.protobuf.EnumValueDescriptorProto
-(\v2*.CPlayer_GetGameBadgeLevels_Response.Badge
-(\v2+.CMsgGCGetPersonaNames_Response.PersonaName
-(\v2+.CUserMsg_ParticleManager.UpdateParticleEnt
-(\v2+.CUserMsg_ParticleManager.UpdateParticleFwd
-(\v2,.CMsgAMSendEmail.PersonaNameReplacementToken
-(\v2,.CMsgGCToGCSOCacheSubscribe.CMsgHaveVersions
-(\v2,.CMsgSource1LegacyGameEventList.descriptor_t
-(\v2-.CUserMsg_ParticleManager.SetTextureAttribute
-(\v2-.google.protobuf.GeneratedCodeInfo.Annotation
-(\v2-.google.protobuf.UninterpretedOption.NamePart
-(\v2..CUserMsg_ParticleManager.ReleaseParticleIndex
-(\v2..CUserMsg_ParticleManager.SetControlPointModel
-(\v2..CUserMsg_ParticleManager.UpdateEntityPosition
-(\v2..CUserMsg_ParticleManager.UpdateParticleOffset
-(\v2..CUserMsg_ParticleManager.UpdateParticleOrient
-(\v2..google.protobuf.DescriptorProto.ReservedRange
-(\v2/.google.protobuf.DescriptorProto.ExtensionRange
-(\v20.CPlayer_GetNicknameList_Response.PlayerNickname
-(\v20.CUserMsg_ParticleManager.UpdateParticleFallback
-(\v21.CBidirMsg_RelayPacket.SignedDestinationAddress_t
-(\v21.CUserMsg_ParticleManager.SetControlPointSnapshot
-(\v21.CUserMsg_ParticleManager.UpdateParticleSetFrozen
-(\v22.CMsgAMGetUserGameStatsResponse.Achievement_Blocks
-(\v22.CUserMsg_ParticleManager.DestroyParticleInvolving
-(\v22.CUserMsg_ParticleManager.SetParticleFoWProperties
-(\v22.CUserMsg_ParticleManager.UpdateParticleShouldDraw
-(\v23.CUserMessageCameraTransition.Transition_DataDriven
-(\v23.CUserMsg_ParticleManager.SetParticleShouldCheckFoW
-(\v23.CUserMsg_ParticleManager.SetSceneObjectGenericFlag
-(\v25.CWorkshop_GetSpecialPayments_Response.SpecialPayment
-(\v26.CUserMsg_ParticleManager.ChangeControlPointAttachment
-(\v26.google.protobuf.EnumDescriptorProto.EnumReservedRange
-(\v28.CPlayer_GetFriendsGameplayInfo_Response.OwnGameplayInfo
-(\v2;.CMsgNotificationOfSuspiciousActivity.MultipleGameInstances
-(\v2<.CPlayer_GetFriendsGameplayInfo_Response.FriendsGameplayInfo
-(\v2=.CWorkshop_SetItemPaymentRules_Request.PartnerItemPaymentRule
-(\v2>.CWorkshop_SetItemPaymentRules_Request.WorkshopItemPaymentRule
-(\v2A.CWorkshop_PopulateItemDescriptions_Request.SingleItemDescription"F\n!CWorkshop_GetContributors_Request
-(\v2I.CWorkshop_PopulateItemDescriptions_Request.ItemDescriptionsLanguageBlock
-(\v2\f.CDemoPacket"S\n\rCDemoSaveGame
-(\v2\n.CGameInfo"
-(\v2\v.CEntityMsg"
-(\v2\v.CEntityMsg"T\n
-(\v2\v.CEntityMsg"W\n
-(\v2\v.CEntityMsg"]\n
-(\v2\v.CEntityMsg"g\n
-(\v2\v.CIPASNInfo"?\n
-(\v2\v.CMsgQAngle
-(\v2\v.CMsgQAngle"
-(\v2\v.CMsgQAngle"3\n!CClientMsg_SetPlayerPersonalSpace
-(\v2\v.CMsgQAngle"4\n
-(\v2\v.CMsgQAngle"e\n
-(\v2\v.CMsgVector
-(\v2\v.CMsgVector"
-(\v2\v.CMsgVector"B\n
-(\v2\v.CMsgVector"F\n
-(\v2\v.CMsgVector"W\n
-(\v2\v.CMsgVector"z\n
-(\v2\v.CMsgVectorB
-(\v2\v.CMsg_CVars"
 (broken)
 (cannot determine missing fields for lite message)
 (fWeightSumLeft + fWeightSumRight) > 0.0f
@@ -1285,34 +954,12 @@ $spriteRenderMode
 (vector,vector,float) lerp between two vectors by a float factor returning new vector
 (vector,vector,float) very basic interpolation of v0 to v1 over t on [0,1]
 )", which is not defined. The innermost scope is searched first in name resolution. Consider using a leading '.'(i.e., "(.
-)#GameUI_Disconnect_PureServer_ClientExtra
-)#GameUI_Disconnect_RemoteProblem_BadCrypt
-)#GameUI_Disconnect_SteamDeny_BadAntiCheat
 ), this value label conflicts with 
 ).  Contact the program author for an update.  If you compiled the program yourself, make sure that your headers are from the same version of Protocol Buffers as your link-time library.  (Version verification failed in "
-).CPlayer_GetCommunityPreferences_Response".
-).CPlayer_GetPerFriendPreferences_Response"M
-).CPlayer_SetCommunityPreferences_Response"+
-).CPlayer_SetPerFriendPreferences_Response"G
-)9IYiy
-)@FD1y
-)A service for accessing Steam player dataB
-)App Id this file is being published FROM.
-)Invites another Steam user to be a friend
-)Subscribes the user to the published file
-)\n!host_framestarttime_std_deviation
-)\n$k_EMsgGCCompressedMsgToClient_Legacy
-)\n\fMessageRange
-)\n\nExtraField
-)\n\nQueryParam
-)pWTi0
-*#GameUI_Disconnect_LocalProblem_ManyRelays
 ** ERROR!!! BONE TRANSFORM DATA WITH NO MODEL**!!!!\n
 *** End Throw Data ***************************************************** \n
 *** Server Calc Throw From Postions *** \n
 *** SteamVR Pose Data *** \n
-*.COAuthToken_ImplicitGrantNoPrompt_Request
-*.CPublishedFile_RefreshVotingQueue_Request
 *.txt
 *12CCoJobLambdaIZN19CSteamToursUGCImage13QueryImageURLEvEUlvE_E
 *12CCoJobLambdaIZN27CSteamTours_Content_Browser13LoadAppImagesEjEUlvE_E
@@ -1324,19 +971,14 @@ $spriteRenderMode
 *15CMemberFunctor1IP26CParallelProcessorAbstractI26CFunctorParallelControllerIZN12_GLOBAL__N_119CParticleJobUpdater21UpdateNewEffectsJobFnEvEUliE_EEMS6_FviEi12CRefCounted1I8CFunctor20CRefCountServiceBaseILb1E6CRefMTEE18CFuncMemPolicyNoneE
 *15CMemberFunctor1IP26CParallelProcessorAbstractI26CFunctorParallelControllerIZN17CRenderGameSystem17OnClientPreOutputERK22EventClientPreOutput_tEUliE0_EEMS8_FviEi12CRefCounted1I8CFunctor20CRefCountServiceBaseILb1E6CRefMTEE18CFuncMemPolicyNoneE
 *15CMemberFunctor1IP26CParallelProcessorAbstractI26CFunctorParallelControllerIZNK13FloatBitMap_t20WriteInMemoryEXRFastER10CUtlBufferEUliE_EEMS7_FviEi12CRefCounted1I8CFunctor20CRefCountServiceBaseILb1E6CRefMTEE18CFuncMemPolicyNoneE
-*5\n\rESourceEngine
-*:JZjz
 *BaseAnimating::C_BodyComponentBaseAnimating
 *BaseEntity::CBodyComponent
 *BaseModelEntity::CBodyComponentBaseModelEntity
-*Gets the last-played times for the account
-*M\n#Bidirectional_Messages_LowFrequency
 *N6google8protobuf12_GLOBAL__N_123AggregateErrorCollectorE
 *N6google8protobuf12_GLOBAL__N_123GeneratedMessageFactoryE
 *N6google8protobuf12_GLOBAL__N_123StringBaseTextGeneratorE
 *N6google8protobuf12_GLOBAL__N_124FieldValuePrinterWrapperE
 *N6google8protobuf12_GLOBAL__N_133FastFieldValuePrinterUtf8EscapingE
-*Returns the player's community preferences
 *St19_Sp_counted_deleterIPhZN3Etc13EncodeMipmapsEPfjjNS1_5Image6FormatENS1_11ErrorMetricEfjjjjPNS1_8RawImageEPibEUlS0_E_SaIiELN9__gnu_cxx12_Lock_policyE2EE
 *ZN12C_EnvCubemap9PreRenderE16CSplitScreenSlotEUlvE_
 *ZN15C_EnvTimeOfDay29PreRenderE16CSplitScreenSlotEUlvE_
@@ -1352,32 +994,10 @@ $spriteRenderMode
 *ZN41CSteamTours_Content_Browser_Workshop_ItemC4EPN8panorama8CPanel2DEPKcEUlPNS0_15CDelayLoadPanelEE_
 *ZN8panorama12CDebugLayout16UpdateSearchTextERK10CUtlStringEUlPNS_8CPanel2DEE_
 *ZN8panorama15CDelayLoadPanelC4EPNS_8CPanel2DEPKcEUlPS0_E_
-*\n"host_computationtime_std_deviation
-*\n&GAME_PARTICLE_MANAGER_EVENT_UPDATE_ENT
-*\n&k_EMobilePaymentProvider_AppleAppStore
-*\n&k_ENotificationSettingNotifyUseDefault
-*\n\vpreferences
-*`LDI
-*h\n\vDIALOG_TYPE
-*o\n\teRollType
-*}\n\fP2P_Messages
-+(Optional) Filename for the published file.
-+(Optional) User's YouTube account username.
 +++ %-64.64s:  %s (was %s)
 +++ %s[%d]: 
 ++CLoopModeGame::SetWorldSession
-+.COAuthToken_ImplicitGrantNoPrompt_Response"y
-+.CPublishedFile_RefreshVotingQueue_Response")
-+App ID to which a file will be uploaded to."9\n#CCloud_GetUploadServerInfo_Response
 +OQv
-+Updates information about a published file.
-+\n#dota_spectator_watching_broadcaster
-+\n&GE_ClearDecalsForSkeletonInstanceEvent
-+\n'GAME_PARTICLE_MANAGER_EVENT_SHOULD_DRAW
-+\n'SPAWN_GROUP_CREATE_CLIENT_ONLY_ENTITIES
-+\n\rReservedRange
-+\n\rjob_id_source
-+\n\rjob_id_target
 +alt1
 +alt2
 +attack
@@ -1411,7 +1031,6 @@ $spriteRenderMode
 +jlook
 +jump
 +klook
-+laq
 +left
 +lookdown
 +lookspin
@@ -1450,18 +1069,12 @@ $spriteRenderMode
 +walk
 +zoom
 , %sdeg
+, %sdeg )
 , channels = 
 , height = 
 , not just within "
 , parent: 
 , score %4.2f\n
-,#GameUI_Disconnect_Splitpacket_Send_Overflow
-,(Optional) Visibility of the published file.
-,Service for dealing with user-submitted logsB
-,\n\rRequestHeader
-,cC7
-,oXd
-,y=35
 - "%s" = "%.2f"\n
 - "%s" = "%i"\n
 - "%s" = "%llu"\n
@@ -1469,8 +1082,7 @@ $spriteRenderMode
 - "%s" = "%s"\n
 - CURRENT SOUNDSCAPE: %d [%s]\n
 - PLAYING DEBUG SOUNDSCAPE: %d [%s]\n
--#GameUI_Disconnect_LocalProblem_NetworkConfig
--(Optional) Description of the published file.
+-%.1fs
 -- @return 
 -- Globals --\n
 --- %8.4f : %30s : %5.3f [%5.3f]: %4.2f %s\n
@@ -1490,7 +1102,6 @@ $spriteRenderMode
 --CLoopModeGame::ReceivedServerInfo
 --CLoopModeGame::SetWorldSession
 --CLoopModeGame::~CLoopModeGame
--.CPlayer_GetNewSteamAnnouncementState_Request
 -0.0s
 -100
 -112.0
@@ -1498,8 +1109,6 @@ $spriteRenderMode
 -30.0
 -64.0
 -800
--Unsubscribes the user from the published file
--\n)GAME_PARTICLE_MANAGER_EVENT_UPDATE_OFFSET
 -addon
 -all_languages
 -allents
@@ -1621,7 +1230,6 @@ $spriteRenderMode
 -zoom
 .  Please update your library.  If you compiled the program yourself, make sure that your headers are from the same version of Protocol Buffers as your link-time library.  (Version verification failed in "
 . This will make the proto fail to compile for some languages, such as C#.
-.(Optional) Set of tags for the published file.
 ...<truncated>...
 ../../common/protobuf_helpers.cpp
 ../../public/entity2/entitycomponent.h
@@ -1659,7 +1267,6 @@ $spriteRenderMode
 ../public/tier1/utltshash.h
 ../public/tier2/fieldpath.h
 ../public/tier2/fileutils.h
-..CPlayer_GetNewSteamAnnouncementState_Response"_
 ./c_baseentity.h
 ./google/protobuf/arena.h
 ./google/protobuf/arenastring.h
@@ -1683,135 +1290,20 @@ $spriteRenderMode
 .360
 .@"origin"\t"%.1f, %.1f, %.1f"\n
 .AJob debugging disabled\n
-.CCloud_Delete_Request
-.CCloud_Delete_Response")
-.CCloud_GetFileDetails_Request
-.CCloud_GetFileDetails_Response"$
-.CCloud_UserFile
-.CCloud_UserFile"
-.CDemoClassInfo.class_t
-.CDemoStringTables
-.CDemoStringTables.items_t
-.CDemoStringTables.table_t
-.CGCMsgMemCachedSet.KeyPair
-.CGCToGCMsgMasterAck.Process
-.CGameInfo.CDotaGameInfo
-.CIPLocationInfo"
-.CMsgClientWelcome.Location
-.CMsgEffectData"[\n
-.CMsgGCMsgSetOptions.Option
-.CMsgGCRoutingInfo"
-.CMsgGCRoutingInfo">\n(CMsgGCMsgMasterSetWebAPIRouting_Response
-.CMsgHttpRequest
-.CMsgHttpRequest.QueryParam
-.CMsgHttpRequest.RequestHeader
-.CMsgIPCAddress
-.CMsgPackageLicense
-.CMsgSOCacheHaveVersion
-.CMsgSOCacheSubscribed
-.CMsgSOCacheSubscriptionCheck
-.CMsgSOIDOwner
-.CMsgSOIDOwner"
-.CMsgSOIDOwner"%\n
-.CMsgSerializedSOCache.Cache
-.CMsgServerNetworkStats.Player
-.CMsgServerNetworkStats.Port
-.CMsgServerPeer"/\n
-.CMsgTEBaseBeam
-.CMsgVoiceAudio
-.CMsgWebAPIKey
-.CMsg_CVars.CVar
-.CPlayer_AcceptSSA_Request
-.CPlayer_AcceptSSA_Response"
-.CPlayer_AddFriend_Request
-.CPlayer_AddFriend_Response"-
-.CPlayer_CommunityPreferences"*\n(CPlayer_SetCommunityPreferences_Response"@\n,CPlayer_GetNewSteamAnnouncementState_Request
-.CPlayer_CommunityPreferences"]\n'CPlayer_SetCommunityPreferences_Request
-.CPlayer_IgnoreFriend_Request
-.CPlayer_IgnoreFriend_Response"W
-.CPlayer_RemoveFriend_Request
-.CPlayer_RemoveFriend_Response"3
-.CPublishedFile_Publish_Request
-.CPublishedFile_Update_Request
-.CPublishedFile_Update_Response"/
-.CSVCMsgList_GameEvents.event_t
-.CSVCMsg_ClassInfo.class_t
-.CSVCMsg_GameEvent"9\n
-.CSVCMsg_GameEvent.key_t
-.CSVCMsg_GameEventList.key_t"
-.CSVCMsg_SendTable.sendprop_t
-.CSVCMsg_Sounds.sounddata_t
-.CSVCMsg_UserMessage"
-.CUserMessageShake
-.CUserMessageVGUIMenu.Keys
-.D=3w
-.EClientUIEvent
-.EMobilePaymentProvider
-.ENetworkDisconnectionReason"
-.ENotificationSetting
-.ENotificationSetting"V\n(CPlayer_GetPerFriendPreferences_Response
-.EProtoExecutionSite:
-.ESourceEngine:\rk_ESE_Source1
-.ESplitScreenMessageType
-.Exclude any files that have any of these tags.
-.GCConnectionStatus
-.GCProtoBufMsgSrc
-.M;UU
-.PARTICLE_MESSAGE
 .PLACEHOLDER_VALUE
-.PartnerAccountType
-.PerFriendPreferences"*\n(CPlayer_SetPerFriendPreferences_Response"c\n
-.PerFriendPreferences"U\n'CPlayer_SetPerFriendPreferences_Request
-.ProtoFlattenedSerializer_t
-.PublishedFileDetails
-.PublishedFileDetails"
-.PublishedFileDetails.Child
-.PublishedFileDetails.KVTag
-.PublishedFileDetails.Preview
-.PublishedFileDetails.Tag
-.PublishedFileDetails.VoteData
-.Publishes a clouded user file to the Workshop.
-.RequestPause_t
-.SerializedNetAddress_t
-.SignedPayload_t
-.VoiceDataFormat_t:
-.Vq6_
-.\n*GAME_PARTICLE_MANAGER_EVENT_UPDATE_FORWARD
 .dummy
 .eBVectorAligned
 .foo = value".
-.g[rA
-.google.protobuf.EnumOptions
-.google.protobuf.FieldOptions
-.google.protobuf.FieldOptions"
-.google.protobuf.FileOptions
-.google.protobuf.MessageOptions
-.google.protobuf.MethodOptions
-.google.protobuf.OneofOptions"
-.google.protobuf.ServiceOptions
-.google.protobuf.ServiceOptions"
-.google.protobuf.SourceCodeInfo
 .jpg
 .pfm
 .placeholder.proto
 .png
 .psd
-.rOWw
-.steammessages_unified_base.steamworkssdk.proto"
-.steammessages_unified_base.steamworkssdk.proto"4\n2CPlayer_GetMutualFriendsForIncomingInvites_Request"\\n&CPlayer_IncomingInviteMutualFriendList
-.steammessages_unified_base.steamworkssdk.proto"d\n"CCloud_GetUploadServerInfo_Request
-.steammessages_unified_base.steamworkssdk.proto"t\n CPublishedFile_Subscribe_Request
-.steammessages_unified_base.steamworkssdk.proto"{\n)COAuthToken_ImplicitGrantNoPrompt_Request
 .tif
 .vcd
 .vcfg
 //fileserver/user/joed/steamvr_import/steamvr_controller_%llu.vpk
 /P8i
-/Published file id of the file we'd like update.
-/Removes a friend or ignores a friend suggestion
-/\n+GAME_PARTICLE_MANAGER_EVENT_UPDATE_FALLBACK
-/\n\nget_params
-/\n\tdirectory
 /actions/
 /actions/default
 /actions/default/in/HandCurl
@@ -1853,7 +1345,6 @@ $spriteRenderMode
 /actions/scroll_smooth
 /actions/scroll_smooth/in/Scroll
 /addon_
-/cn?z
 /data/source2_main/src/thirdparty/etc2comp/EtcLib/./EtcCodec/EtcBlock4x4Encoding.h
 /data/source2_main/src/thirdparty/etc2comp/EtcLib/Etc/EtcImage.cpp
 /data/source2_main/src/thirdparty/etc2comp/EtcLib/EtcCodec/EtcBlock4x4.cpp
@@ -1865,7 +1356,6 @@ $spriteRenderMode
 /data/source2_main/src/thirdparty/etc2comp/EtcLib/EtcCodec/EtcBlock4x4Encoding_RGB8A1.cpp
 /data/source2_main/src/thirdparty/etc2comp/EtcLib/EtcCodec/EtcBlock4x4Encoding_RGBA8.cpp
 /data/source2_main/src/thirdparty/etc2comp/EtcLib/EtcCodec/EtcIndividualTrys.cpp
-/fKv\r
 /high
 /scripts/talker/response_rules.txt
 /user/gamepad
@@ -1908,38 +1398,24 @@ $spriteRenderMode
 0.75f
 0.7f
 0.85
-0.CPlayer_UpdateSteamAnnouncementLastRead_Request
-0.Ui
 00000000-0000-0000-0000-000000000000
 00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899
 0123456789ABCDEF
 0123456789abcdef
-02\x
 0=close 1=default/nearby 2=far 3=world
-0Marks latest announcement timestamp read by user
-0Name of the file to publish in the user's cloud.
-0\fXr
-0\n,GCConnectionStatus_NO_SESSION_IN_LOGON_QUEUE
-0\n\vpost_params
-0\n\vserializers
 0x%016llX
 0x%4.4x 
-0|DLI
 1 1 1
 1 = Animates the pause text so that you can be sure the game isn't just hard locked.
 1 to output cl_showanimstate to Msg(). 2 to store in AnimStateClient.log. 3 for both.
-1"Qh
 1) Blue : %i
 1) Green: %i
 1) Red  : %i
-1,51
 1.0f
 1.2.5
 1.25
 1.5.2
 1.75
-1.CPlayer_UpdateSteamAnnouncementLastRead_Response"4
-1/mE
 10.0
 10.0f
 100.0
@@ -2658,7 +2134,6 @@ $spriteRenderMode
 180.0f
 1800
 180_recovery
-18446744073709551615
 18CCLCMsg_ClientInfo
 18CCLCMsg_ServerPing
 18CClientMsg_SetSkin
@@ -2826,37 +2301,10 @@ $spriteRenderMode
 19TonemapParameters_t
 19interactions_data_t
 1=s, 2=L, 4=I, 8=U, 16=D, 32=P
-1@Ih
 1DBlend
-1GERA
-1If true, return children in the returned details.
-1O[y?
-1QJ)
-1Service containing methods to manage OAuth tokens
-1Steam ID of user to whom to send a friend invite."
-1\n-GAME_PARTICLE_MANAGER_EVENT_DESTROY_INVOLVING
-1\n-NETWORK_DISCONNECT_DIRECT_CONNECT_RESERVATION
-1\n\tvote_data
-1a4+
-1dm:
-1uWf
-1w?WA
-2 .CBidirMsg_RelayInfo.Operation_t
-2 .CMsgGCRoutingInfo.RoutingMethod:
-2!.CMsgGCMsgSetOptions.GCSQLVersion
-2"A\n+CMsgGCMsgMasterSetClientMsgRouting_Response
-2#.google.protobuf.FieldOptions.CType:
-2#GameUI_Disconnect_RemoteProblem_TimeoutConnecting
-2$.google.protobuf.FieldOptions.JSType:\tJS_NORMAL
 2) Blue : %i
 2) Green: %i
 2) Red  : %i
-2).google.protobuf.FileOptions.OptimizeMode:
-2*.CMsgDPPartnerMicroTxnsResponse.EErrorCode"
-2*.google.protobuf.FieldDescriptorProto.Type
-2+.google.protobuf.FieldDescriptorProto.Label
-2.CHelpRequestLogs_UploadUserApplicationLog_Request
-2/.google.protobuf.MethodOptions.IdempotencyLevel:
 20.0f
 200 200 200 196
 2000
@@ -3508,7 +2956,6 @@ $spriteRenderMode
 26SpawnEntityToolEventResult
 26TEBeamEntPoint_GameEvent_t
 26TEEnergySplash_GameEvent_t
-26t3
 27CBaseAnimatingEasingFloat_t
 27CBidirMsg_RebroadcastSource
 27CClientMsg_DropHeldObject_t
@@ -3681,25 +3128,9 @@ $spriteRenderMode
 29DestroyAllEntitiesToolEvent_t
 29PublishedFileDetails_VoteData
 29ToolEvent_GetEntityInfoResult
-2Array of text tags to apply to the published file.
-2If true, return vote data in the returned details.
-2SZ\v@
-2Set of published file Ids to retrieve details for.
 2Way_0( %s )
 2Way_1( %s )
-2ZGU
-2\n.GAME_PARTICLE_MANAGER_EVENT_SET_FOW_PROPERTIES
-2\n.GAME_PARTICLE_MANAGER_EVENT_UPDATE_ORIENTATION
-2\n.eRollType
-2\n\vpreferences
-2\r.PrefetchType"5\n
 2_BONE_IK
-2e\tj
-2tGZE
-2uWv
-3(Optional) Preview filename for the published file." \n
-3.CHelpRequestLogs_UploadUserApplicationLog_Response"#
-3.CPlayer_GetMutualFriendsForIncomingInvites_Request
 300.0
 30000
 300000
@@ -3851,7 +3282,6 @@ $spriteRenderMode
 31ToolEvent_GetEntityInputsResult
 3200
 32768
-32:B\n
 32CClientMsg_ContentBrowserToggled
 32CClientMsg_CustomGameEventBounce
 32CClientMsg_SetControllerVRInfo_t
@@ -3886,7 +3316,6 @@ $spriteRenderMode
 32C_PointClientUISteamVRWorldPanel
 32C_TraversalModifierToLineTrigger
 32ISkeletonAnimationHistoryContext
-333?
 333?333?
 33CClientMsg_AttachObjectToAvatar_t
 33CClientMsg_DetachObjectFromAvatar
@@ -3988,7 +3417,6 @@ $spriteRenderMode
 37CUserMessageCloseCaptionPlaceholder_t
 37CWorkshop_GetSpecialPayments_Response
 37CWorkshop_SetItemPaymentRules_Request
-384B
 38CClientMsg_SetControllerTipTransform_t
 38CGCSystemMsg_GetPurchaseTrust_Response
 38CGCToGCMsgMasterStartupComplete_GCInfo
@@ -4012,12 +3440,8 @@ $spriteRenderMode
 39CSpawnGroupCompletionCallbackGameSystem
 39CUserMsg_ParticleManager_CreateParticle
 39CUserMsg_ParticleManager_UpdateParticle
-3;AQ
 3D UI
 3D skybox
-3\n\toperation
-4(Optional) Sorting method to use on returned values.
-4.CPlayer_GetMutualFriendsForIncomingInvites_Response"^
 40 40 40 196
 40CClientMsg_SpawnWearables_WearableConfig
 40CCommunity_GetClanAnnouncements_Response
@@ -4070,9 +3494,7 @@ $spriteRenderMode
 44CPanoramaWorldPanel_CPanoramaProceduralLayer
 44CPlayer_GetNewSteamAnnouncementState_Request
 44CUserMsg_ParticleManager_SetTextureAttribute
-44T{
 4500
-456789:;<=
 45CDefaultResponseSystemSaveRestoreBlockHandler
 45CInterpolatedVarArrayProceduralUsingOwnerLerpI27AnimationOperationHistory_tLi4E25C_BaseAnimatingControllerE
 45CPlayer_GetNewSteamAnnouncementState_Response
@@ -4097,18 +3519,7 @@ $spriteRenderMode
 49C_TonemapController2Alias_env_tonemap_controller2
 49GameToolEventToolTraceRayResult_tHookupGameSystem
 4?33s?
-4@G8-x
-4KNb
-4Redirection URI provided during client registration.2
-4\n0GAME_PARTICLE_MANAGER_EVENT_SET_SHOULD_CHECK_FOW
-4\n\vPersonaName
-4np?
-4o0/
-4w>Mw
 5 5 5
-5(EWorkshopFileType) Type of Workshop file to publish.
-5(Optional) The number of results, per page to return.
-5+6A/7
 50CClientMsg_WorldUIControllerHasPanelChangedEvent_t
 50CHelpRequestLogs_UploadUserApplicationLog_Response
 50CPlayer_GetMutualFriendsForIncomingInvites_Request
@@ -4116,7 +3527,6 @@ $spriteRenderMode
 50CUserMsg_ParticleManager_SetParticleShouldCheckFoW
 50CUserMsg_ParticleManager_SetSceneObjectGenericFlag
 50GameToolEventRestartMapToolEvent_tHookupGameSystem
-519E
 51CPlayer_GetMutualFriendsForIncomingInvites_Response
 51GameToolEventSpawnEntityToolEvent_tHookupGameSystem
 52CWorkshop_GetSpecialPayments_Response_SpecialPayment
@@ -4138,13 +3548,6 @@ $spriteRenderMode
 5C_Gib
 5C_Sun
 5ISave
-5Retrieves information about a set of published files.
-5YHe/
-5\n1GAME_PARTICLE_MANAGER_EVENT_SET_TEXTURE_ATTRIBUTE
-5\n\vnested_type
-5\n\vtype_caches
-5t~BC
-6(Optional) Type of game the published file represents.
 60 frames: %3.1f fps, avg time:%3.2fms abs_range:%3.2fms, min_time:%3.2fms, max_time:%3.2fms
 60 frames: %3.1f fps, avg time:%3.2fms abs_range:%3.2fms, min_time:%3.2fms, max_time:%3.2fms\n
 60 server ticks: %3.1f tps, avg time:%3.2fms abs_range:%3.2fms, min_time:%3.2fms, max_time:%3.2fms
@@ -4156,27 +3559,14 @@ $spriteRenderMode
 64CWorkshop_PopulateItemDescriptions_Request_SingleItemDescription
 65GameToolEventToolEvent_SFMRecordingStateChanged_tHookupGameSystem
 66GameToolEventToolEvent_SFMToolActiveStateChanged_tHookupGameSystem
-6<u7@
 6CCoJob
 6C_Beam
 6C_Fish
 6C_Guts
 6C_Team
 6ConVar
-6E6F
-6I=U
-6MDd
-6Returns the URL of the proper cloud server for a user.
-6True if the operation was successful, false otherwise.
-6\frY}
-6\n2GAME_PARTICLE_MANAGER_EVENT_UPDATE_ENTITY_POSITION
-6\n\fextra_fields
-6\n\fmessage_type
-6u?E
 7.0f
 72CWorkshop_PopulateItemDescriptions_Request_ItemDescriptionsLanguageBlock
-75P=
-7@Sz
 7CP4File
 7CRender
 7CTEDust
@@ -4185,20 +3575,9 @@ $spriteRenderMode
 7ICamera
 7IConVar
 7INotify
-7If true, return key value tags in the returned details.
-7L4HA
-7Ze&<o
-7\n3GAME_PARTICLE_MANAGER_EVENT_SET_CONTROL_POINT_MODEL
-7\n\nbody_parts
-7\n\rannouncements
-7\n\tenum_type
-7`ZKV?e
-8#GameUI_Disconnect_LocalProblem_HostedServerPrimaryRelay
 8.0f
 8000
 87.0
-89u<
-8<lCE
 8CAmmoDef
 8CFmtStrNILi1024ELb0EE
 8CFmtStrNILi256ELb0EE
@@ -4216,27 +3595,13 @@ $spriteRenderMode
 8CUtlSlot
 8C_EnvSky
 8C_Sprite
-8Client ID for which to count the number of issued tokens"
-8Gets the list of nicknames this user has for other users
 8IRagdoll
 8IRestore
 8IVehicle
-8If set, remove from ignore/block list instead of adding "\\n
-8If true, return tag information in the returned details.
-8L4H
-8Name of the file to use as the published file's preview.
-8Rqtyy?
-8\n\rgcsql_version
-8\n\rsubscribe_msg
-8\n\textension
-8\n\vdescriptors
 8b  16-May-2010
 8webm
 9.1.15
 90.0
-95*P>
-98N*>
-9@0G
 9CBaseProp
 9CCallbackI16CSteamController22GameOverlayActivated_tLb0EE
 9CCallbackI19CClientSteamContext23SteamServersConnected_tLb0EE
@@ -4304,21 +3669,12 @@ $spriteRenderMode
 9CTimeline
 9C_EnvWind
 9C_PhysBox
-9D7V=
 9ELanguage
 9IClientUI
 9ILoopMode
 9IRegistry
 9ISequence
 9ITempEnts
-9Px? FcH
-9Zg,>4
-9\n\faccess_token
-9\n\noneof_decl
-9\n\vplayer_info
-9gCN>
-9rIz
-9x&4
 :    %i/%i no world, skip to %i restore from slot %i\n
 :    %i/%i optimize2, skip to %i restore from slot %i\n
 :    client advancing tick base to %u for command %d\n
@@ -4327,52 +3683,36 @@ $spriteRenderMode
 : Tried to copy from a message with a different type. to: 
 : Tried to merge from a message with a different type.  to: 
 : failed to parse contents
-:15Sk
-:4\n\vdescription
-:9Cq
-:9\n\tkey_field
 ::google::protobuf::FieldDescriptorProto_Label_IsValid(value)
 ::google::protobuf::FieldDescriptorProto_Type_IsValid(value)
 ::google::protobuf::FieldOptions_CType_IsValid(value)
 ::google::protobuf::FieldOptions_JSType_IsValid(value)
 ::google::protobuf::FileOptions_OptimizeMode_IsValid(value)
 ::google::protobuf::MethodOptions_IdempotencyLevel_IsValid(value)
-:CHH
-:TS2
-:\n6GAME_PARTICLE_MANAGER_EVENT_SET_CONTROL_POINT_SNAPSHOT
-:\n\nCMsgUpdate
-:\n\robjects_added
 :context->%p->%s:\n
 :context->null->UIEngine Global:\n
-:m2OS
-:rIz
-;83U
-;9Cq
 ;RGB565
-;c?BU
 ;sv_pausable;sv_cheats
 ;{};{}DebugPanelParents
 <!-- dmx encoding keyvalues2_noids 4 format vtex 1 -->\n"CDmeVtex"\n{\n\t"m_inputTextureArray" "element_array"\n\t[\n
 <!-- kv3 encoding:%s:version{%s} format:%s:version{%s} -->\n
 <"C_OP_RemapSpeedtoCP
-<(Optional) Type of collection the published file represents.
+<%d:%llu>
+<%s%.3f
+<%s:%llu>
+<%s:%s>
 << NULL >>\n
 <<illegal>>
 <?xml version="1.0" encoding="UTF-8"?>\n<document version="1.5.0">\n  <chunk label="Chunk 1" enabled="true">\n    <sensors next_id="1">\n      <sensor id="0" label="unknown" type="frame">\n        <resolution width="%d" height="%d"/>\n        <property name="layer_index" value="0"/>\n        <bands>\n          <band label="Red"/>\n          <band label="Green"/>\n          <band label="Blue"/>\n        </bands>\n        <data_type>float16</data_type>\n        <calibration type="frame" class="adjusted">\n          <resolution width="%d" height="%d"/>\n          <f>%f</f>\n        </calibration>\n      </sensor>\n    </sensors>\n    <cameras next_id="%d" next_group_id="0">\n
 <Avgui_screen
 <ERROR>
-<HOi#
-<HOq
 <INVALID EXPRESSION>
 <INVALID_RBF_TYPE>
-<If true, return preview information in the returned details.
 <NO EXPRESSION>
 <NULL>
 <No schemasystem>
 <PWL
 <Unknown>
-<\n\tusermsg_t
-<\n\twearables
 <a href="\1\3">\1\3</a>
 <classptr>
 <custom>
@@ -4411,186 +3751,36 @@ $spriteRenderMode
 === Total: %s/%s %s entities%s ===\n
 ===== Mem stats of all css properties =====\n
 ==========================================\n
-=C8f
-=\n NETWORK_DISCONNECT_CLIENT_NO_MAP
-=\n9GAME_PARTICLE_MANAGER_EVENT_SET_SCENE_OBJECT_GENERIC_FLAG
-=\n\ftransactions
-=\n\npicks_bans
-=a8W
 =m_flPosition
->333333
+>%lg
+>%s%.3f
 >333?
->5AT
->9K!0>N
->M.F9
->QL^9
->X94
->\n\neerrorcode
->\n\tTypeCache
 >m_ConfigName
->r3\9
->rkR
->tA}K
->wN394
->xHL
->zlK9
-?"QhY
 ?#YvwS
-?$EdX
-?(CUL
-?(Hlw
-?(Optional) Video Id of a YouTube video for this published file.
-?*JSN
-?*SPzt]
-?+hZbe4
-?,cC7
-?-2KLa
-?-kQUW
 ?/data/source2_main/src/thirdparty/etc2comp/EtcLib/EtcCodec/EtcBlock4x4Encoding_ETC1.cpp
-?042#
-?0gS
-?2h2-
-?2lZJ
-?2uWv
-?333333
-?3NCT
-?3V8
-?456789:;<=
-?4iSu
-?5\nIf
-?5uG
-?6g3=
-?7QKs+
-?7dn
-?7qr
-?9A@c
-?;9Cq
-?<83U
 ???CRR_Response bogus index
 ?AnimatedImageStrip
-?Aw0
-?B9v
 ?CAnimGraphNetworkedVariables
 ?Compressed texture bits for mip %i are corrupt, decompression error!
-?D1y
 ?DebugAutoComplete
 ?Default Game Description
-?Dxj
-?EGr
-?FPF
-?K5X
-?Kre
-?KxB
 ?LeftArrow
-?MJA
-?MeQ
-?MxS
-?N%fj
-?NwC
-?OYM
 ?OnGlowTypeChanged
 ?Out of Memory
-?P3I
-?PA4
-?PNY
 ?PRECIPITATION
-?R3Z
-?R8q(2)
-?S]Nv$x
-?TFm,r
-?The most recent last-played time the client already knows about"
-?Vdt@
-?Wzm6V"
-?XEM.
-?XRQi
-?XZa
-?Y32
-?YiR\n
-?ZM2
-?\n;GAME_PARTICLE_MANAGER_EVENT_CHANGE_CONTROL_POINT_ATTACHMENT
-?\qqTn
-?`4uh
 ?a2U0*i
-?a2v>
-?aXY6
-?bMeQ
-?bQ\t6KU
-?cLU5
-?c\tkc
-?cwO
-?eH_R
-?fAr|
 ?ff&?ff&?ff&?
 ?fff?
 ?ffffff
-?hWL
-?iEH
-?iOn
-?ifw
-?jN^d
-?k,am
-?k4o
-?kGq
-?kIG9
-?lzPP
 ?manualscroll
-?n1?74%
-?nm]A
-?nnLOX
-?o=Td
-?oG8-x
-?oPVg
-?og_y
-?oqCBJ
 ?originx
-?qQ5
-?qe?A
-?r2q
-?r4GV~\t
-?rl=C8&
-?t4X
-?t\r34
-?t`9B
 ?textinputid
-?uP.2
-?uWv
-?uYLl>
-?upU~
-?uv28J
-?wKr
-?xG!$fQ
-?y6P
-?zPP
-?zV-D
-?zr\ve
-?|N0R
-?|a2U0j
 @    invalid!\n
 @ <b>@import</b> 
 @%8.3f %8.3f %8.3f
-@%LbZ
-@-oyrn
-@06c
-@0bDG
-@2l9<)8
-@?$2bUs
 @@/data/source2_main/src/thirdparty/etc2comp/EtcLib/EtcCodec/EtcDifferentialTrys.cpp
-@AJG
 @CBodyComponentReferenced
-@DP5z5@
-@EEA
-@EIH
-@Gr}H
-@Kre
-@OpV
-@UN{J
-@Vc\tkc
-@WA\ft
 @Y_nA
-@\n\fSingleObject
-@asiW|
-@bDG
-@jDz
 @keyframes 
 @keyframes '%s'\r\n{\r\n
 @panorama_daisy_wheel
@@ -4602,17 +3792,13 @@ $spriteRenderMode
 @panorama_early_anim_dispatch
 @panorama_movie_async_load_size_bytes
 @player_death
-@p}Xo
 @spawn
-@wKr
 A burning player that gibs has burning gibs.
 A directional light entity
 A file with this name is already in the pool.
 A protobuf object %s with a repeated field %s was used in a container, this will crash
 A protocol message was rejected because it was too big (more than 
 A spot light entity
-A!;I2
-A9fi
 AABB_t
 ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/
 ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789-_
@@ -5887,7 +5073,6 @@ ALREADY_EXISTS
 ALT1
 ALT2
 ALWAYSGIB
-AN?O$
 ANIMATION_TYPE_FIT_LIFETIME
 ANIMATION_TYPE_FIXED_RATE
 ANY)
@@ -5912,14 +5097,9 @@ ATTACHED_PRIMARY_HAND
 ATTACHMENT_INFLUENCE_FLAGS_NONE
 ATTEMPTED TO DECOMMIT OWNED MEMORY STACK SPACE\n
 AWARDED
-A\n!NETWORK_DISCONNECT_REJECT_NOLOBBY
-A\n\nannotation
-A\n\vdescriptors
-A\t3m
 A_txt
 AbsTagType(unknown)
 AbsolutePoseControl
-Ac&Q/
 AcceptInvite
 AcceptedForGameRankedByAcceptanceDate
 Access of unconnected ConVarRef\n
@@ -5933,7 +5113,6 @@ Achievement count increased for %s: %d/%d\n
 Achievement failed: %s (%s)\n
 Achievement manager must be on the client in multiplayer games\n
 Achievement update called but already achieved: %s\n
-Achievement_Blocks
 Achievements disabled, ignoring achievement component for %s\n
 Achievements disabled, ignoring achievement progress for %s\n
 Achievements disabled, ignoring achievement unlock for %s\n
@@ -6125,7 +5304,6 @@ Announcer.RoundEnds3seconds
 Announcer.RoundEnds4seconds
 Announcer.RoundEnds5seconds
 Announcer.RoundEnds60seconds
-App ID the file belongs to."
 AppConfirm
 AppImage_%llu
 AppImagesContainer
@@ -6151,7 +5329,6 @@ ApplyStyles
 Applying overrides for %s 0x%p\n
 AppsWithArtworkContainer
 AppsWithScreenshotsContainer
-Ar!ES
 Arabic
 Architecture
 Arial Black
@@ -6265,7 +5442,6 @@ BHasHoverStyle
 BHasKeyFocus
 BInit
 BIsTransparent
-BKbhTb~XBK!;
 BLAST_SURFACE
 BLoadLayout
 BLoadLayoutFromString
@@ -6286,9 +5462,6 @@ BSR_UNICODE)
 BScrollParentToFitWhenFocused
 BUCKSHOT
 BYield
-B\9{gt
-B\n\fCOrientation
-B\t3m
 B_txt
 BackUp() can only be called after a successful Next().
 BackgroundsContainer
@@ -6330,7 +5503,6 @@ Bad method index; this should never happen.
 Bad sequence in GetSequenceActivityName() for model '%s'!\n
 Bad type %d in saved CVariant\n
 Bad value
-Badge
 BakedLODBuilderMgr001
 Balinese
 Bamum
@@ -6364,7 +5536,6 @@ Bengali
 BentNormalData
 BetaBranchID
 Bezier
-Bidirectional_Messages
 Big : voiced alveolar stop
 Big Things
 BigShot
@@ -6498,8 +5669,6 @@ C* google::protobuf::internal::scoped_ptr<C>::operator->() const [with C = googl
 C* google::protobuf::internal::scoped_ptr<C>::operator->() const [with C = google::protobuf::Message]
 C* google::protobuf::internal::scoped_ptr<C>::operator->() const [with C = google::protobuf::UnknownFieldSet]
 C-side of entity framework
-C9,h5
-C?T6
 CAI_BaseNPC
 CANCEL
 CANCELLED
@@ -6580,10 +5749,6 @@ CBaseViewModel
 CBaseWorldPanel::Init
 CBeam
 CBeamSpotlight
-CBidirMsg_RebroadcastGameEvent
-CBidirMsg_RebroadcastSource
-CBidirMsg_RelayInfo
-CBidirMsg_RelayPacket
 CBitVec
 CBodyComponent::Storage_t
 CBodyComponentBaseAnimating
@@ -6637,20 +5802,6 @@ CBufferStringN
 CBulletWhizTimer
 CButtonTimed
 CCIR601 sampling not implemented yet
-CCLCMsg_BaselineAck
-CCLCMsg_ClientInfo
-CCLCMsg_ClientMessage
-CCLCMsg_CmdKeyValues
-CCLCMsg_FileCRCCheck
-CCLCMsg_ListenEvents
-CCLCMsg_LoadingProgress
-CCLCMsg_RequestPause
-CCLCMsg_RespondCvarValue
-CCLCMsg_ServerPing"P\n
-CCLCMsg_ServerStatus
-CCLCMsg_SplitPlayerConnect
-CCLCMsg_SplitPlayerDisconnect
-CCLCMsg_VoiceData
 CCameraManagerGameSystem
 CChoreoScene::ImportEventFromKV3( %s ):  discarding invalid event of type '%s' [%f -> %f]\n
 CChoreoScene::ParseEvent( %s ):  discarding invalid event of type '%s' [%f -> %f]\n
@@ -6658,59 +5809,36 @@ CChoreoScene::RestoreFromBinaryBuffer( %s ):  discarding invalid event of type '
 CClientAlphaProperty
 CClientAlphaProperty CUtlMemoryPool
 CClientModeGameSystem
-CClientMsg_AttachObjectToAvatar
 CClientMsg_AttachObjectToAvatar_t
-CClientMsg_ClientUIEvent
 CClientMsg_ClientUIEvent_t
 CClientMsg_ContentBrowserToggled_t
-CClientMsg_CustomGameEvent
 CClientMsg_CustomGameEventBounce_t
 CClientMsg_CustomGameEvent_t
-CClientMsg_DeleteObject
 CClientMsg_DeleteObject_t
 CClientMsg_DetachObjectFromAvatar_t
 CClientMsg_DetectorQuestUnlockedItems_t
-CClientMsg_DropHeldObject
 CClientMsg_DropHeldObject_t
 CClientMsg_NotifyLoadingDestination_t
 CClientMsg_NotifyWorkshopItemState_t
-CClientMsg_PickupObject
 CClientMsg_PickupObject_t
-CClientMsg_ReleaseObject
 CClientMsg_ReleaseObject_t
-CClientMsg_ResetAnchor".\n
 CClientMsg_ResetAnchor_t
-CClientMsg_RotateAnchor
 CClientMsg_RotateAnchor_t
 CClientMsg_SetControllerTipTransform_t
-CClientMsg_SetControllerVRInfo
 CClientMsg_SetControllerVRInfo_t
-CClientMsg_SetEntityColor
 CClientMsg_SetEntityColor_t
-CClientMsg_SetModel
 CClientMsg_SetModel_t
 CClientMsg_SetPlayerPersonalSpace_t
-CClientMsg_SetSequence
 CClientMsg_SetSequence_t
-CClientMsg_SetSkin
 CClientMsg_SetSkin_t
-CClientMsg_SetSteamVRBackground
 CClientMsg_SetSteamVRBackground_t
-CClientMsg_SetSteamVRController
 CClientMsg_SetSteamVRController_t
-CClientMsg_SpawnGameTrophy
 CClientMsg_SpawnGameTrophy_t
-CClientMsg_SpawnPanel
 CClientMsg_SpawnPanel_t
-CClientMsg_SpawnPhysicsProp
 CClientMsg_SpawnPhysicsProp_t
-CClientMsg_SpawnPropTool
 CClientMsg_SpawnPropTool_t
-CClientMsg_SpawnVROverlay
 CClientMsg_SpawnVROverlay_t
-CClientMsg_SpawnWearables
 CClientMsg_SpawnWearables_t
-CClientMsg_StartDetectorQuests
 CClientMsg_StartDetectorQuests_t
 CClientMsg_WorldUIControllerHasPanelChangedEvent_t
 CClientSteamContext OnSteamServerConnectFailure logged on = %d\n
@@ -6719,11 +5847,6 @@ CClientSteamContext OnSteamServersDisconnected logged on = %d\n
 CClientUIDialogManager
 CClientUIScheme::LoadFromFile( %s )
 CClient_Precipitation
-CCloud_Delete_Request
-CCloud_Delete_Response2
-CCloud_GetFileDetails_Request
-CCloud_GetFileDetails_Response
-CCloud_UserFile
 CCoJobMgr::BResumeSleepingJobs
 CCoJobMgr::BResumeYieldingJobs
 CCoJobMgr::CheckForJobTimeouts
@@ -6734,7 +5857,6 @@ CColorCorrection
 CColorCorrectionVolume
 CCommand::Tokenize: Encountered command which overflows the argument buffer.. Clamped!\n
 CCommand::Tokenize: Encountered command which overflows the tokenizer buffer.. Skipping!\n
-CCommunity_ClanAnnouncementInfo
 CConstraintSlave
 CConstraintTarget
 CControllerHapticsManager
@@ -6767,15 +5889,6 @@ CDecalEmitterSystem::LoadDecalsFromScript:  Unable to load '%s'\n
 CDecalGameSystem::LoopInit
 CDecalInfo
 CDefaultResponseSystem::Init() was called twice! Deleting old system at @%p\n
-CDemoClassInfo
-CDemoConsoleCmd
-CDemoCustomData
-CDemoCustomDataCallbacks
-CDemoFileHeader
-CDemoFullPacket
-CDemoSendTables
-CDemoSpawnGroups
-CDemoStringTables
 CDescribeData::DumpEntity
 CDestinationsGameTrophy
 CDestinationsGameTrophy::BRequestTrophySummary failed\n
@@ -6823,16 +5936,10 @@ CEntityKeyValues::Serialize: Unsupported keyvalue variant type! (%s) type=%d\n
 CEntityKeyValues::Unserialize: Invalid version! Expected %d, encountered %d!\n
 CEntityKeyValues::Unserialize: Unable to read from a text-based utlbuffer!\n
 CEntityKeyValues::Unserialize: Unsupported keyvalue variant type!\n
-CEntityMessageDoSpark
 CEntityMessageDoSpark_t
-CEntityMessageFixAngle
 CEntityMessageFixAngleEvent_t
-CEntityMessagePlayJingle
-CEntityMessagePropagateForce
 CEntityMessagePropagateForce_t
-CEntityMessageRemoveAllDecals
 CEntityMessageRemoveAllDecals_t
-CEntityMessageScreenOverlay
 CEntityMessageScreenOverlay_t
 CEntityOutputTemplate
 CEntityScriptFramework
@@ -6884,22 +5991,6 @@ CFunc_Dust
 CFunc_LOD
 CGCClient
 CGCClient - BSendGCMsgToClient (ProtoBuf)
-CGCMsgCompressedMsgToClient
-CGCMsgGetIPASN
-CGCMsgGetIPASNResponse
-CGCMsgGetIPLocation
-CGCMsgGetIPLocationResponse
-CGCMsgGetSystemStats"
-CGCMsgGetSystemStatsResponse
-CGCMsgMemCachedDelete
-CGCMsgMemCachedGet
-CGCMsgMemCachedGetResponse
-CGCMsgMemCachedSet
-CGCMsgMemCachedStats"
-CGCMsgMemCachedStatsResponse
-CGCMsgSQLStats
-CGCMsgSQLStatsResponse
-CGCMsgSystemStatsSchema
 CGCPingJob
 CGCSOCacheSubscribedJob
 CGCSOCacheSubscribedJob(owner=%s) [in cache]\n
@@ -6917,13 +6008,7 @@ CGCSOUpdateJob
 CGCSOUpdateJob(owner=%s)\n
 CGCSOUpdateJob(owner=%s, type=%d)\n
 CGCSOUpdateMultipleJob
-CGCSystemMsg_GetAccountDetails
 CGCToClientPollConvarJob
-CGCToGCMsgMasterAck
-CGCToGCMsgMasterAck_Response
-CGCToGCMsgMasterStartupComplete
-CGCToGCMsgRouted
-CGCToGCMsgRoutedReply
 CGameEntity
 CGameEntitySystem::CreateEntities: NULL binding for entity %s.\n
 CGameEventManager: couldn't register event '%s', limit reached (%i).\n
@@ -7262,7 +6347,6 @@ CHandle<C_PostProcessingVolume>
 CHandleTest
 CHapticRelay
 CHeadlightEffect
-CHeroSelectEvent
 CHin : voiceless postalveolar affricate
 CHintMessage
 CHistoryId: %.3f
@@ -7284,7 +6368,6 @@ CHudCloseCaption
 CHudWeaponSelection
 CIKInterpolationState::GetDebugSpeedString: TODO
 CIKInterpolationState::GetDebugString: TODO
-CIPLocationInfo
 CImagePanel::SetImage
 CInfoDynamicShadowHint
 CInfoDynamicShadowHintBox
@@ -7344,7 +6427,6 @@ CLIENTSIDE
 CLIENTSTUB
 CLIENT_DLL
 CLIENT_SIDE_RAGDOLL
-CLIENT_STEAMID
 CLUB
 CLightComponent::Storage_t
 CLightComponentReferenced
@@ -7374,35 +6456,6 @@ CLoopModeGame::OnPreDataUpdate
 CLoopModeGame::StaticInit-finish
 CLoopModeGame::StaticInit-start
 CLoopModeRegistry::RegisterLoopModes()
-CM_AttachObjectToAvatar
-CM_ClientUIEvent
-CM_ContentBrowserToggled
-CM_CustomGameEvent
-CM_CustomGameEventBounce
-CM_DeleteObject
-CM_DetachObjectFromAvatar
-CM_DetectorQuestUnlockedItems
-CM_DevPaletteVisibilityChanged
-CM_DropHeldObject
-CM_NotifyLoadingDestination
-CM_NotifyWorkshopItemState
-CM_PickupObject
-CM_ReleaseObject
-CM_ResetAnchor
-CM_RotateAnchor
-CM_SetControllerTipTransform
-CM_SetControllerVRInfo
-CM_SetEntityColor
-CM_SetPlayerPersonalSpace
-CM_SetSequence
-CM_SetSteamVRBackground
-CM_SetSteamVRController
-CM_SpawnGameTrophy
-CM_SpawnPhysicsProp
-CM_SpawnPropTool
-CM_SpawnVROverlay
-CM_SpawnWearables
-CM_StartDetectorQuests
 CMaterialDrawDescriptor
 CMaterialModifyControl
 CMemAllocSystemInitialize
@@ -7421,128 +6474,14 @@ CMotionTransform-world
 CMoviePanel::Clear
 CMoviePanel::Paint
 CMoviePlayer::UpdateTimeline: percent=%f, remaining=%f\n
-CMsgAMAddFreeLicense
-CMsgAMAddFreeLicenseResponse
-CMsgAMFindAccounts
-CMsgAMFindAccountsResponse
-CMsgAMGetLicenses
-CMsgAMGetLicensesResponse
-CMsgAMGetUserGameStats
-CMsgAMGetUserGameStatsResponse
-CMsgAMGrantGuestPasses2
-CMsgAMGrantGuestPasses2Response
-CMsgAMSendEmail
-CMsgAMSendEmailResponse
-CMsgClearEntityDecalsEvent
-CMsgClearWorldDecalsEvent
-CMsgClientHello
-CMsgClientWelcome
 CMsgClientWelcome subscribed: %d up-to-date, %d out-of-date\n
-CMsgConnectionStatus
-CMsgDPPartnerMicroTxns
-CMsgDPPartnerMicroTxnsResponse
-CMsgEffectData
-CMsgGCCheckClanMembership
-CMsgGCCheckFriendship
-CMsgGCCheckFriendship_Response
-CMsgGCClientPing"
-CMsgGCGetAppFriendsList
-CMsgGCGetCommandList
-CMsgGCGetCommandListResponse
-CMsgGCGetEmailTemplate
-CMsgGCGetEmailTemplateResponse
-CMsgGCGetPartnerAccountLink
-CMsgGCGetPersonaNames
-CMsgGCGetPersonaNames_Response
-CMsgGCHAccountTwoFactorChange
-CMsgGCHAccountVacStatusChange
-CMsgGCHUpdateSession
-CMsgGCHVacVerificationChange
-CMsgGCMsgMasterSetDirectory
-CMsgGCMsgMasterSetWebAPIRouting
-CMsgGCMsgSetOptions
-CMsgGCMultiplexMessage
-CMsgGCRequestSubGCSessionInfo
-CMsgGCRoutingInfo
-CMsgGCToClientPollConvarRequest
-CMsgGCToClientRequestDropped"
-CMsgGCToGCForwardAccountDetails
-CMsgGCToGCLoadSessionSOCache
-CMsgGCToGCMasterDestroyCache
-CMsgGCToGCSOCacheSubscribe
-CMsgGCToGCSOCacheUnsubscribe
-CMsgGCToGCSubGCStarting
-CMsgGCToGCUniverseStartup
-CMsgGCToGCUpdateSessionStats
-CMsgGCUpdateSubGCSessionInfo
-CMsgHaveVersions
-CMsgHttpRequest
-CMsgHttpResponse
-CMsgIPCAddress
-CMsgNotifyWatchdog
-CMsgPackageLicense
-CMsgPlaceDecalEvent
-CMsgPlayerInfo
-CMsgProtoBufHeader
-CMsgRGBA
-CMsgSHA1Digest
-CMsgSOCacheHaveVersion
-CMsgSOCacheSubscribed
-CMsgSOCacheSubscribedUpToDate
-CMsgSOCacheSubscriptionCheck
-CMsgSOCacheSubscriptionRefresh
-CMsgSOCacheUnsubscribed
-CMsgSOCacheVersion
-CMsgSOMultipleObjects
-CMsgSOSingleObject
-CMsgSerializedSOCache
-CMsgServerNetworkStats
-CMsgServerPeer
-CMsgSosSetLibraryStackFields
 CMsgSosSetLibraryStackFields_t
-CMsgSosSetSoundEventParams
 CMsgSosSetSoundEventParams_t
-CMsgSosStartSoundEvent
 CMsgSosStartSoundEvent_t
-CMsgSosStopSoundEvent
-CMsgSosStopSoundEventHash
 CMsgSosStopSoundEventHash_t
 CMsgSosStopSoundEvent_t
-CMsgSource1LegacyGameEvent
-CMsgSource1LegacyGameEventList
-CMsgSource1LegacyListenEvents
-CMsgTEArmorRicochet
-CMsgTEBSPDecal
-CMsgTEBaseBeam
-CMsgTEBeamEntPoint
-CMsgTEBeamEnts
-CMsgTEBeamPoints
-CMsgTEBeamRing
-CMsgTEBloodStream
-CMsgTEBubbleTrail
-CMsgTEEffectDispatch
-CMsgTEEnergySplash
-CMsgTEExplosion
-CMsgTEGlowSprite
-CMsgTELargeFunnel
-CMsgTEMuzzleFlash
-CMsgTEPhysicsProp
-CMsgTEPlayerDecal
-CMsgTEProjectedDecal
-CMsgTEShatterSurface
-CMsgTEWorldDecal
-CMsgVDebugGameSessionIDEvent
-CMsgVoiceAudio
-CMsgWebAPIRequest
 CMultiDamage
 CMultiplayRules
-CNETMsg_Disconnect
-CNETMsg_SetConVar
-CNETMsg_SignonState
-CNETMsg_SpawnGroup_Load
-CNETMsg_SpawnGroup_Unload
-CNETMsg_SplitScreenUser
-CNETMsg_StringCmd
 CNativeOutputs
 CNetworkFieldScratchData.m_MemoryStacks[ %d ]
 CNetworkFieldScratchData.m_MemoryStacks[ 0 ]
@@ -7574,11 +6513,7 @@ COMMIT
 COM_TimestampedLog
 CONTENT
 CONTENTROOT
-CORD
 COrientConstraint
-CP2P_TextMessage
-CP2P_VRAvatarPosition
-CP2P_WatchSynchronization
 CPPTYPE_BOOL
 CPPTYPE_DOUBLE
 CPPTYPE_ENUM
@@ -7641,16 +6576,6 @@ CPlayerLocalData
 CPlayerResource
 CPlayerSlot
 CPlayerState
-CPlayer_AcceptSSA_Request"
-CPlayer_AcceptSSA_Response"!\n
-CPlayer_AddFriend_Request
-CPlayer_AddFriend_Response
-CPlayer_CommunityPreferences
-CPlayer_GetNicknameList_Request"
-CPlayer_IgnoreFriend_Request
-CPlayer_IgnoreFriend_Response
-CPlayer_RemoveFriend_Request
-CPlayer_RemoveFriend_Response
 CPointCamera
 CPointClientUIDialog
 CPointClientUIHUD
@@ -7688,10 +6613,6 @@ CProtoBufMsg::BAsyncSendWithPreSerializedBody
 CProtoBufMsg::CProtoBufMsg( MsgType_t )
 CProtoBufMsg::InitFromPacket( IMsgNetPacket )
 CProtoBufMsgMemoryPoolMgr:\n
-CPublishedFile_Publish_Request
-CPublishedFile_Publish_Response
-CPublishedFile_Update_Request
-CPublishedFile_Update_Response"
 CRC error
 CRR_Response
 CRR_Response::MAX_RESPONSE_NAME
@@ -7729,39 +6650,7 @@ CRuleScriptBridge
 CRuleScriptBridge initializing...\n
 CRuleScriptBridge was double-initialized: tearing down and rebuilding\n
 CSOAContainer::SetAttributeType - ERROR, trying to change type of previously-defined attribute %d!\n
-CSVCMsgList_GameEvents
-CSVCMsgList_UserMessages
-CSVCMsg_BSPDecal
-CSVCMsg_ClassInfo
-CSVCMsg_ClearAllStringTables
-CSVCMsg_CmdKeyValues
-CSVCMsg_CreateStringTable
-CSVCMsg_CrosshairAngle
-CSVCMsg_FixAngle
-CSVCMsg_FlattenedSerializer
-CSVCMsg_FullFrameSplit
-CSVCMsg_GameEvent
-CSVCMsg_GameEventList
-CSVCMsg_GetCvarValue
-CSVCMsg_HLTVStatus
 CSVCMsg_HLTVStatus_t
-CSVCMsg_PacketEntities
-CSVCMsg_PacketReliable
-CSVCMsg_PeerList
-CSVCMsg_Prefetch
-CSVCMsg_SendTable
-CSVCMsg_ServerInfo
-CSVCMsg_ServerSteamID
-CSVCMsg_SetPause
-CSVCMsg_SetView
-CSVCMsg_Sounds
-CSVCMsg_SplitScreen
-CSVCMsg_StopSound
-CSVCMsg_TempEntities
-CSVCMsg_UpdateStringTable
-CSVCMsg_UserMessage
-CSVCMsg_VoiceData
-CSVCMsg_VoiceInit
 CSaveMemory
 CSaveRestoreBuffer::TokenHash() is COMPLETELY FULL!\n
 CSceneEntity
@@ -7783,7 +6672,6 @@ CScriptNativeOutputs
 CScriptParticleManager
 CScriptPrecacheContext
 CServerOnlyModelEntity
-CSets the logged in user's per-friend preferences for the given user
 CShadowControl
 CShatterGlassGameSystem
 CShatterGlassShardPhysics
@@ -7886,7 +6774,6 @@ CSteamUnifiedMessageDispatcher::SendMethod: Cannot invoke method without first r
 CSteamVRBackground
 CSteamVRCustomEntity
 CSteamWorksGameStatsClient
-CSteam_Voice_Encoding
 CStopwatch
 CStopwatchBase
 CStrongHandle
@@ -7959,7 +6846,6 @@ CTraversalModifierTrigger
 CTriggerCamera
 CTriggerVolume
 CTwistConstraint
-CType
 CUBE
 CUBEARRAY
 CURVE_TANGENT_FREE
@@ -7971,89 +6857,48 @@ CUniformRandomStream::CUniformRandomStream()
 CUniformRandomStream::RandomFloat(float, float)
 CUniformRandomStream::RandomInt(int, int)
 CUniformRandomStream::SetSeed(int)
-CUserMessageAchievementEvent
 CUserMessageAchievementEvent_t
-CUserMessageAmmoDenied
 CUserMessageAmmoDenied_t
-CUserMessageAnimStateGraphState
-CUserMessageAudioParameter
 CUserMessageAudioParameter_t
-CUserMessageCameraTransition
 CUserMessageCameraTransition_t
-CUserMessageCloseCaption
-CUserMessageCloseCaptionDirect
 CUserMessageCloseCaptionDirect_t
 CUserMessageCloseCaptionPlaceholder_t
 CUserMessageCloseCaption_t
-CUserMessageColoredText
 CUserMessageColoredText_t
-CUserMessageCreditsMsg
 CUserMessageCreditsMsg_t
-CUserMessageCrosshairAngle
 CUserMessageCrosshairAngle_t
-CUserMessageCurrentTimescale
 CUserMessageCurrentTimescale_t
-CUserMessageDesiredTimescale
 CUserMessageDesiredTimescale_t
-CUserMessageFade
 CUserMessageFade_t
-CUserMessageGameTitle"
 CUserMessageGameTitle_t
 CUserMessageHapticsManagerEffect_t
-CUserMessageHapticsManagerPulse
 CUserMessageHapticsManagerPulse_t
-CUserMessageHintText
 CUserMessageHintText_t
-CUserMessageHudMsg
 CUserMessageHudMsg_t
-CUserMessageHudText
 CUserMessageHudText_t
-CUserMessageItemPickup
 CUserMessageItemPickup_t
-CUserMessageItemsUnlocked
 CUserMessageItemsUnlocked_t
-CUserMessageKeyHintText
 CUserMessageKeyHintText_t
 CUserMessageNotifyLoadingDestination_t
-CUserMessageRequestState"'\n
 CUserMessageRequestState_t
-CUserMessageResetHUD"8\n
 CUserMessageResetHUD_t
-CUserMessageRumble
 CUserMessageRumble_t
-CUserMessageSayText
-CUserMessageSayText2
 CUserMessageSayText2_t
-CUserMessageSayTextChannel
 CUserMessageSayTextChannel_t
 CUserMessageSayText_t
-CUserMessageScreenTilt
 CUserMessageScreenTilt_t
-CUserMessageSendAudio
 CUserMessageSendAudio_t
-CUserMessageShake
-CUserMessageShakeDir
 CUserMessageShakeDir_t
 CUserMessageShake_t
-CUserMessageShowMenu
 CUserMessageShowMenu_t
-CUserMessageTextMsg
 CUserMessageTextMsg_t
-CUserMessageTrain
 CUserMessageTrain_t
-CUserMessageUnlockItem
 CUserMessageUnlockItem_t
-CUserMessageVGUIMenu
 CUserMessageVGUIMenu_t
-CUserMessageVoiceMask
 CUserMessageVoiceMask_t
-CUserMessageVoiceSubtitle
 CUserMessageVoiceSubtitle_t
-CUserMsg_CustomGameEvent
 CUserMsg_CustomGameEvent_t
-CUserMsg_HudError
 CUserMsg_HudError_t
-CUserMsg_ParticleManager
 CUserMsg_ParticleManager_t
 CUtlBinaryBlock
 CUtlBlockMemory overflow!\n
@@ -8096,7 +6941,6 @@ CVROverlayWorldPanel OutputColor
 CVRTeleportArea
 CVRTeleportMarker
 CVRWormhole
-CVar
 CVariant
 CVariantBase
 CVariantDefaultAllocator
@@ -8129,8 +6973,7 @@ CWorldUIInteractController
 CWristBone
 CXXABI_1.3
 CXXABI_1.3.3
-C\n\rhave_versions
-C\n\tnicknames
+C_%s
 C_AI_BaseNPC
 C_AnimVRProxy
 C_AvatarPuppetClientSide
@@ -8453,7 +7296,6 @@ C_World
 C_WorldUIInteractController
 C_fogplayerparams_t
 Cables
-Cache
 Cache-Control
 CalcAnimationState
 CalcAnimationState  
@@ -8571,8 +7413,6 @@ Cham
 ChangeAccessorFieldPathIndex_t
 ChangeCallbackOnChange
 ChangeCallbackOnChangeOrCreate
-ChangeControlPointAttachment
-ChangeMapToolEvent
 ChangeSize
 ChangeUser
 CharacterDecalSystem
@@ -8596,7 +7436,6 @@ CheckThreadID
 CheckUGCDownloadProgress
 Checks to see if the given hScript is a valid entity
 Cherokee
-Child
 ChildIndexSelected
 ChooseContentItem
 ChooseFriendItem
@@ -8606,7 +7445,6 @@ CircleScreenOriented
 CircularProgressBar
 CircularProgressBarBG
 CircularProgressBarFG
-Cj$SO0
 Clabel::OnMouseMove
 ClampHealth
 Class: %s (%d)\n
@@ -8660,7 +7498,6 @@ ClientDLL Init - Finish
 ClientDLL factories - End
 ClientDLL factories - Start
 ClientDisconnected
-ClientGetLastPlayedTimes
 ClientPerfData
 ClientScheme
 ClientSessionLookup
@@ -8687,8 +7524,6 @@ Closing Lesson Named...\n
 ClothShapeCapsule
 ClothShapeList
 ClothShapeSphere
-Cloud
-Cm<T*c?
 ColdLS
 Collections
 Collide rope with the world
@@ -8838,7 +7673,6 @@ CountdownAfterEnd
 CountdownBeforeStart
 CountdownTimer
 Counts the # of teammates on local player's friends list
-Cr2q
 Create
 Create a C proxy for a script-based spawn group filter
 Create a request to query Steam for all UGC
@@ -8926,25 +7760,9 @@ DCT scaled block size %dx%d not supported
 DEADLINE_EXCEEDED
 DEFINE
 DEFINE group contains more than one branch
-DEM_ConsoleCmd
-DEM_CustomData
-DEM_CustomDataCallbacks
-DEM_FileHeader
-DEM_FullPacket
-DEM_IsCompressed
-DEM_Max
-DEM_SendTables
-DEM_SignonPacket
-DEM_SpawnGroups
-DEM_Stop
-DEM_StringTables
-DIALOG_ASKCONNECT
 DIRECT
-DISCARD
 DISSOLVE
-DIf true, return a short description instead of the full description."
 DMG_%s
-DN @6\t9J
 DOESN'T HAVE
 DOOR_STATE_AJAR
 DOOR_STATE_CLOSED
@@ -8972,7 +7790,6 @@ DXT1_ONEBITALPHA
 DXT3
 DXT5
 DXT5_NM
-D\n\nvisibility
 Daisy wheel input mode: RS | ABXY
 DaisyInputTypeABXY
 DaisyInputTypePIN
@@ -9084,7 +7901,6 @@ DelayLoadList
 DelayLoadListLoadVisiblePanels
 DelayLoadPanel
 DelayedStart
-Delete
 Delete this entity
 DeleteAsync
 DeleteFrameRowButton
@@ -9097,8 +7913,6 @@ Density of Particle Rain 0-1
 DepthPassBatchID
 Describe datamap_t for entindex
 DescribeFields
-DescriptorProto
-DescriptorProtosH
 Deseret
 Desired Layout Height
 Desired Layout Width
@@ -9112,13 +7926,10 @@ DestinationsSettingsPanel
 DestinationsTutorialPanel
 DestinationsUpdatePanelScrollState
 DestinationsWelcomePanel
-DestroyAllEntitiesToolEvent"
 DestroyEntities
 DestroyEntitySystem
-DestroyEntityToolEvent
 DestroyImmediately
 DestroyParticle
-DestroyParticleInvolving
 DestroyThreadPool
 Destroys all client-side ragdolls
 Destructing
@@ -9130,7 +7941,6 @@ DevMsg(char const*, ...)
 DevWarning
 DevWarning(char const*, ...)
 Devanagari
-DhUbv?
 Didn't expect more than one scan
 Didn't find an entity of class %s at %d\n
 Didnt supply startpos and endpos to Script TraceLine call, failing, setting called to false\n
@@ -9311,7 +8121,6 @@ DropDownSelectPrevious
 DropDownSelectionChanged
 DropInputFocus
 DropdownMenuFocusChanged
-DsS9
 DummyWizardOpen
 Dump all new particles, optional name substring.
 Dump all response_rules.txt and rules (requires restart)
@@ -9353,29 +8162,10 @@ DynamicFaceOcclusionDepthOnly
 DynamicFaceOcclusionPingPongRT
 DynamicFaceOcclusionRT
 DynamicFaceOcclusionView
-E!4H
-E1/v
-E3:0
-E7NL
-EBaseClientMessages
-EBaseEntityMessages
-EBaseGameEvents
-EBaseUserMessages
-EClientUIEvent
-EClientUIEvent_DialogFinished
-EClientUIEvent_FireOutput
-EClientUIEvent_Invalid
-ED19
 EDGE
-EGCBaseClientMsg
 EHANDLE2
-EHapticPulseType
 EMP.Explode
 EMPTY - ok for slot zero only!
-EM_PropagateForce
-EM_RemoveAllDecals
-EM_ScreenOverlay
-EMobilePaymentProvider
 EMsg
 ENABLED
 ENERGYBEAM
@@ -9396,10 +8186,6 @@ ENTITY_IO_TARGET_SPECIAL_ACTIVATOR
 ENTITY_IO_TARGET_SPECIAL_CALLER
 ENTITY_NOT_DORMANT
 ENTITY_SUSPENDED
-ENetworkDisconnectionReason
-ENotificationSetting
-EProtoExecutionSite
-EQueryCvarValueStatus
 ERROR
 ERROR: Ammo (%s) found no CVar named (%s)\n
 ERROR: Max of %i ents allowed for spline beam.\n
@@ -9413,15 +8199,11 @@ ERROR: Undefined ammo type!\n
 ERROR: Weapon (%s) using undefined primary ammo type (%s)\n
 ERROR: Weapon (%s) using undefined secondary ammo type (%s)\n
 ERRORNAME
-ESOMsg
-ESplitScreenMessageType
-ESteamToursClientMessages
 ET:  AccumulateElapsedTime %u seconds to %u, now at %s\n
 ET:  AccumulateElapsedTime( %s ) at %d\n
 ET:  Init from comment string to %u seconds, now at %s\n
 ET:  SetMostRecentElapsedTime( %s ) at %d\n
 ETABLE
-ETEProtobufIds
 EVENT_LEVELSHUTDOWN:  with negative elapsed time (rt %f starttime %f)\n
 EVROverlayType
 EXPORTSYSTEM_INTERFACE_VERSION_001
@@ -9429,8 +8211,6 @@ EXRHeader variable is not initialized.
 EXRReadFile() - B channel not found!\n
 EXRReadFile() - G channel not found!\n
 EXRReadFile() - R channel not found!\n
-EYd`
-E\n NETWORK_DISCONNECT_REJECT_BANNED
 EarlyInit_Tier0
 EarlyRetireParticleSystems
 Ease In
@@ -9561,12 +8341,8 @@ Enum value "$0" is reserved multiple times.
 Enum value "$0" is reserved.
 Enum value "$0" uses reserved number $1.
 Enum value in map must define 0 as the first value.
-EnumDescriptorProto
 EnumOptions
-EnumReservedRange
-EnumValueDescriptorProto
 EnumValueOptions
-EnumerateUserFiles
 Enumeration '%s'\n
 Enums must contain at least one value.
 EnvCubemapFogSystem
@@ -9742,8 +8518,6 @@ Extension range $0 to $1 overlaps with already-defined range $2 to $3.
 Extension range $0 to $1 overlaps with reserved range $2 to $3.
 Extension range end number must be greater than start number.
 Extension ranges are not allowed in proto3.
-ExtensionRange
-ExtensionRangeOptions
 Extensions in proto3 are only allowed for defining options.
 Extensions of MessageSets must be optional messages.
 Extensions to non-lite types can only be declared in non-lite files.  Note that you cannot extend a non-lite type to contain a lite type, but the reverse is allowed.
@@ -9753,7 +8527,6 @@ ExtractClientServerSpecificEntities
 EyeOcclusionDS.vtex
 EyeOcclusionPingPongRT.vtex
 EyeOcclusionRT.vtex
-F0av
 F: %.2f deg
 F@3333
 FAIL
@@ -9887,11 +8660,7 @@ FTYPEDESC_SCHEMA_INITIALIZED
 FTYPEDESC_WAS_INPUT
 FTYPEDESC_WAS_OUTPUT
 FX_RicochetSound.Ricochet
-FZ*o7
-F\n%NETWORK_DISCONNECT_DISCONNECT_BY_USER
-F\n\foptimize_for
 F_ALPHA_TEST
-F_K@a
 F_MORPH_SUPPORTED
 F_TRANSLUCENT
 Face
@@ -9983,7 +8752,6 @@ Field numbers must be positive integers.
 Field with message or enum type missing type_name.
 Field with primitive type has type_name.
 Field: 
-FieldDescriptorProto
 FieldDescriptorProto.extendee not set for extension field.
 FieldDescriptorProto.extendee set for non-extension field.
 FieldDescriptorProto.oneof_index $0 is out of range for type "$1".
@@ -10001,8 +8769,6 @@ File is already registered:
 File recursively imports itself: 
 File size is zero : 
 File size too short 
-FileDescriptorProto
-FileDescriptorSet
 FileList
 FileNameTextEntry
 FileOpenDialog
@@ -10176,7 +8942,6 @@ FriendJoinButton
 FriendStatus
 FriendsAvatar
 FriendsContentContainer
-FriendsGameplayInfo
 FriendsItem
 FriendsListUpdated
 FriendsMaximized
@@ -10195,7 +8960,6 @@ Function              %10s %10s %10s %10s\n
 G %%-%d.%ds 
 G channel not found
 G channel not found!\n
-G8-x
 GAME INSTRUCTOR: 
 GAMECONSOLE
 GAMEROOT
@@ -10208,24 +8972,9 @@ GCC: (SteamRT 5.4.0-7.really.6+steamrt1.2+srt2) 5.4.1 20160803
 GCC: (SteamRT/Linaro 4.6.3-1ubuntu5+steamrt1.2+srt2) 4.6.3
 GCC: (Ubuntu 4.8.4-1ubuntu15~12.04+steamrt1+srt2) 4.8.4
 GCC: (crosstool-NG 1.17.0) 4.6.3
-GCConnectionStatus
-GCConnectionStatus_HAVE_SESSION
-GCConnectionStatus_NO_SESSION
-GCConnectionStatus_NO_STEAM
-GCConnectionStatus_SUSPENDED
 GCH Send
 GCH->Network Multiplex Message Output\n
 GCHost
-GCInfo
-GCProtoBufMsgSrc
-GCProtoBufMsgSrc_FromGC
-GCProtoBufMsgSrc_FromSteamID
-GCProtoBufMsgSrc_FromSystem
-GCProtoBufMsgSrc_ReplySystem
-GCProtoBufMsgSrc_SpoofedSteamID
-GCProtoBufMsgSrc_Unspecified
-GCSQL_VERSION_BASELINE
-GCSQL_VERSION_BOOLTYPE
 GENDER_BIKER
 GENDER_BRIDE
 GENDER_CEDA
@@ -10247,20 +8996,6 @@ GENDER_PRODUCER
 GENDER_RIOT_CONTROL
 GENDER_TEENGIRL
 GENDER_UNDISTRACTABLE
-GE_ClearEntityDecalsEvent
-GE_ClearWorldDecalsEvent
-GE_PlaceDecalEvent
-GE_SosSetLibraryStackFields
-GE_SosSetSoundEventParams
-GE_SosStartSoundEvent
-GE_SosStopSoundEvent
-GE_SosStopSoundEventHash
-GE_Source1LegacyGameEvent
-GE_Source1LegacyGameEventList
-GE_Source1LegacyListenEvents
-GE_VDebugGameSessionIDEvent
-GGet a list of friends who are playing, have played, own, or want a game
-GHQ%
 GLIBCXX_3.4
 GLIBCXX_3.4.10
 GLIBCXX_3.4.11
@@ -10281,7 +9016,6 @@ GPUDeviceID
 GPUDriverVersion
 GPUDrv
 GPUVendor
-GQ\f5
 GRAB_LOCATION_HAND_ORIGIN
 GRAB_LOCATION_INVALID
 GRAB_LOCATION_NEAREST_POINT
@@ -10303,9 +9037,7 @@ GR_STATE_RND_RUNNING
 GR_STATE_STALEMATE
 GR_STATE_STARTGAME
 GR_STATE_TEAM_WIN
-Ga=o
 Ga>playback_volume
-Game
 Game Event Fired: %s\n
 Game Instructor Counts
 Game System %s is defined twice!\n
@@ -10369,7 +9101,6 @@ General.BurningObject
 Generate item defs for inventory service
 GenerateDistanceField
 GenerateResourceNameFromFileName: Invalid extension specified in file name "%s"!\n
-GeneratedCodeInfo
 GenericGameData
 GenericTextInputHandlerID
 GenericTrackedController
@@ -10422,7 +9153,6 @@ GetClassname
 GetColor
 GetCommandClient
 GetCommandClient() : returns the player who issued this console command.
-GetCommunityPreferences
 GetConnectedUniverse
 GetCursorOffset
 GetDamage
@@ -10440,15 +9170,12 @@ GetEntityNameAsCStr
 GetEnumValue
 GetEyePosition() Can't get pstudiohdr ptr!\n
 GetFieldPriority
-GetFileDetails
 GetFileHandle
 GetFloat
 GetFloat(name) : returns the convar as a float. May return null if no such convar.
 GetFocusChild
 GetFocusIndex
 GetFocusedChildVisibleIndex
-GetFriendsGameplayInfo
-GetGameBadgeLevels
 GetHud
 GetHud called with NULL g_pHudGameSystem!
 GetInputsForScriptClass
@@ -10470,8 +9197,6 @@ GetMessage
 GetName
 GetNativeClassForScriptClass
 GetNativeOutputsForClass
-GetNewSteamAnnouncementState
-GetNicknameList
 GetNumber
 GetOrCreatePrivateScriptScope
 GetOrCreatePublicScriptScope
@@ -10479,7 +9204,6 @@ GetOriginalDamage
 GetOwnerEntityID
 GetParent
 GetParticleReplacement
-GetPerFriendPreferences
 GetPlayerLimits:  default maxplayers must be >= 1 (%i)
 GetPlayerLimits:  max players limited to %i
 GetPlayerLimits:  min maxplayers %i > max %i
@@ -10523,7 +9247,6 @@ GetTooltipTarget
 GetTracerOrigin: Couldn't find attachment %d on model %s\n
 GetUInt32
 GetUInt64
-GetUploadServerInfo
 GetVRAppPropertyData
 GetValue
 GetVector
@@ -10531,7 +9254,6 @@ GetViewRenderInstance() must be implemented by game.
 Gets the value of the given cvar, as a float.
 Gives a list of all currently open lessons.
 Gives a list of lessons that been completed or shown
-GkNV
 Glagolitic
 GlassImpact
 GlassImpact_global_client
@@ -10550,11 +9272,9 @@ Glows: Render Objects into Stencil
 Glows: Stencil To Screen
 GoOffline
 GoOnline
-Google.Protobuf.Reflection
 Got a NaN origin on %s\n
 Got a NaN velocity on %s\n
 Gothic
-Gp#e
 GrabLocation_t
 GraphPanel.BgColor
 GraphPanel.FgColor
@@ -10578,14 +9298,11 @@ GroupConVarToggle
 Group_%s
 Groups are not supported in proto3 syntax.
 Grow
-GsdE
-Gt*t
 Gujarati
 Gurmukhi
-H:Ly?
+H:%x
 HDR Color Scale: %0.3f
 HELPER_BONE
-HFs\t
 HIERARCHY_ABSORIGIN
 HIERARCHY_ATTACHMENT
 HIERARCHY_BONE
@@ -10604,7 +9321,6 @@ HMaterial
 HMaterialStrong
 HModel
 HModelStrong
-HN&n
 HOME
 HORIZ_JUSTIFICATION_CENTER
 HORIZ_JUSTIFICATION_LEFT
@@ -10649,9 +9365,6 @@ HTMLTitle
 HTMLURLChanged
 HTMLUpdatePageSize
 HTMLVerticalScrollBar
-HX\n7
-H\n\rrecipientList
-Ha(qg
 Hammer/DefaultTextureScale
 HammerMapLoader001
 Hand %d
@@ -10706,7 +9419,6 @@ HelicopterMegaBomb
 HelicopterMegaBomb_global_client
 Help : breathy-voiced glottal fricative
 Help : voiceless glottal fricative
-HelpRequestLogs
 HelpSystem_001
 Hex and octal numbers must be integers.
 Hide text debugging information about the given entity(ies) on top of the entity (See Overlay Text)\n\tArguments:   \t{entity_name} / {class_name} / no argument picks what player is looking at 
@@ -10734,7 +9446,6 @@ Hiragana
 Hit Test
 Hit Test Children
 Hitbox indexing is incorrect for set %s, hitbox %s. Hitboxes will not be setup properly.\n
-Hl#@LqU
 HmdTargeting
 Hold
 HookUpConfigValue
@@ -10757,23 +9468,18 @@ How much to scale user stick input when the gun is pointing at a valid target.
 How much to slow down backwards motion
 How often a sentence can repeat.
 How often should we run the Think() function for CEnvTimeOfDay2?
-Hp#e
 Huffman code size table overflow
 Huffman table 0x%02x was not defined
 HunterDamage
 HunterDamage_global_client
-I("hq
 I/O failure.
 I@CRefPointAuthoringController
 IA88
 IAnimVRProxy
 IClientAlphaProperty
-IDEMPOTENCY_UNKNOWN
-IDX!
 IDamageHandler
 IGameSystem::Init( %-80s ) %8.3f msec
 IGameSystem::PostInit( %-80s ) %8.3f msec
-IGets the list of per-friend preferences this user has set for other users
 IHandleEntity
 IImageSource
 IKChain
@@ -10836,11 +9542,6 @@ ITEM_FLAG_NOITEMPICKUP
 ITEM_FLAG_SELECTONEMPTY
 IToolObject
 IVehicle
-I\n NETWORK_DISCONNECT_STEAM_DROPPED
-I\n$NETWORK_DISCONNECT_STEAM_VACBANSTATE
-I\n%NETWORK_DISCONNECT_REJECT_HIDDEN_GAME
-I\n\rexcluded_tags
-IdempotencyLevel
 If 0, the 360controller.cfg file will be executed on startup & option changes.
 If a player is moving slower than this, don't push away physics objects (enables ducking behind things).
 If cheats are enabled, then you can noclip with the game paused (for doing screenshots, etc.).
@@ -10885,7 +9586,6 @@ Immediately removes the specified entity
 Impact T = %g, N = %g
 ImpactEffectsManager
 Imperial_Aramaic
-ImplicitGrantNoPrompt
 Import 
 Import "
 Improper call to JPEG library in state %d
@@ -11280,7 +9980,6 @@ ItemAvatarHead
 ItemAvatarWearable
 ItemBackButton
 ItemCreatorAvatar
-ItemDescriptionsLanguageBlock
 ItemDetail
 ItemDetailImage
 ItemDetailViewVisible
@@ -11303,10 +10002,6 @@ ItemVROverlayPanel
 Item_%c
 Items_Mtx
 Items_ReadyToUse
-I}YZ
-J(Optional) If this represents a game, this is the URL to that game's page."P\n
-J?US
-JDesired number of items in the voting queue.  May be clamped by the server",\n*CPublishedFile_RefreshVotingQueue_Response2
 JFIF APP0 marker: version %d.%02d, density %dx%d  %d
 JFIF extension marker: JPEG-compressed thumbnail image, length %u
 JFIF extension marker: RGB thumbnail image, length %u
@@ -11324,13 +10019,9 @@ JSCreatePanelWithCurrentContext takes 1 optional argument: panel to parent creat
 JSCreatePanelWithCurrentContext was not called within a context
 JSON error, unterminated element: 
 JSONWebAPIResponse
-JSType
 JSValueFromKeyValue failed to package parameter %s (type %d)\n
-J\n NETWORK_DISCONNECT_SNAPSHOTERROR
-J\n'NETWORK_DISCONNECT_DISCONNECT_BY_SERVER
 Javanese
 JiggleData
-JoX?
 Job %s detected and cleaned up leak of %d lock(s):\n
 Job %s trying to release lock %s at %s(%d) though the lock is held by %s\n
 Job Avg
@@ -11363,10 +10054,6 @@ Joint Indices (%d) Out Of Range for UINT10: Skinning will not work!\n
 Joint Indices (%d) Out Of Range for UINT8: Skinning will not work!\n
 Joints: %d (%d)
 Joy : voiced postalveolar afficate
-Jykh
-K %vmo
-K1?U20
-K?@mOy
 KBPS
 KBSaved%
 KEY_BACKSPACE: Accepted.\n
@@ -11377,42 +10064,26 @@ KNQ\r
 KV Conditional Evaluation Error
 KV3 load transfer failed: %s
 KV3 save transfer failed: %s
-KVTag
-K\n!NETWORK_DISCONNECT_INTERNAL_ERROR
-K\n#NETWORK_DISCONNECT_TICKMSG_OVERFLOW
-K\n$NETWORK_DISCONNECT_STEAM_AUTHINVALID
-K\n'NETWORK_DISCONNECT_CLIENT_DIFFERENT_MAP
-K\n\rcloudfilename
-K\n\tyour_info
-K]K+2
 Kaithi
 Kannada
 Katakana
 Kayah_Li
 Key in map fields cannot be enum types.
 Key in map fields cannot be float/double, bytes or message types.
-KeyPair
 KeyValueCache001
 KeyValues Error: %s in file %s\n
 KeyValues::ParseIncludedKeys: Couldn't load included keyvalue file %s\n
 KeyValues::RecursiveSaveToFile: TODO, missing code for TYPE_COLOR.\n
 KeyValues::SaveToFile: couldn't open file "%s" in path "%s".\n
 Keyboard
-Keys
 Kharoshthi
 Khmer
-Kj\rJ=
 KnucklesController
 KnucklesEV1_3Controller
 Kochanek-Bartels
 Kochanek-Bartels Early
 Kochanek-Bartels Late
-Kuj?
-L6y%
 L: %.2f deg
-LABEL_OPTIONAL
-LABEL_REPEATED
-LABEL_REQUIRED
 LAST_SHARED_ENTITY_CLASS
 LATCH_DIRTY_CLIENT_SIMULATED
 LATCH_DIRTY_DISALLOW
@@ -11454,12 +10125,6 @@ LOOKSPIN
 LOSSpeculativeMuzzle_t
 LOWVIOLENCE
 LT_txt
-LTo\rlu
-L\n!NETWORK_DISCONNECT_HLTVRESTRICTED
-L\n!NETWORK_DISCONNECT_LOOPDEACTIVATE
-L\n\fincludevotes
-L\n\tfile_type
-Label
 Label.BgColor
 Label.DisabledFgColor1
 Label.DisabledFgColor2
@@ -11608,7 +10273,6 @@ LocalTime
 LocalWeaponExclusive
 LocalizationChanged
 Localize_001
-Location
 Lock Hands to current world position
 LockedByQuest
 LockedItem
@@ -11651,7 +10315,6 @@ Loop Point
 LoopModeGameStartup
 LoopModeGame_client
 LowerEyelid( 
-LrwcE
 Lycian
 Lydian
 MARK
@@ -11727,22 +10390,11 @@ MOVETYPE_STEP
 MOVETYPE_VPHYSICS
 MOVETYPE_WALK
 MPaginationButton
-MPy*
-MSG_SPLITSCREEN_ADDUSER
-MSG_SPLITSCREEN_REMOVEUSER
 MScriptDescription
 MTreatUnknownEnumeratorsAsZero
 MUZZLE_CROUCHING
 MUZZLE_CURRENT_NPC_STATE
 MUZZLE_STANDING
-M\n"NETWORK_DISCONNECT_SERVER_SHUTDOWN
-M\n"NETWORK_DISCONNECT_STEAM_DENY_MISC
-M\n"NETWORK_DISCONNECT_STEAM_OWNERSHIP
-M\n$NETWORK_DISCONNECT_REJECT_SERVERFULL
-M\n&NETWORK_DISCONNECT_STEAM_AUTHCANCELLED
-M\n'NETWORK_DISCONNECT_REJECT_SINGLE_PLAYER
-M\n(NETWORK_DISCONNECT_SERVER_REQUIRES_STEAM
-M\n\tgame_type
 MainThread
 Makes local player HMD avatar visible slightly in front of its actual position.
 Makes ropes use average of cubemap lighting instead of max intensity.
@@ -11894,9 +10546,7 @@ Method SetCommunityPreferences() not implemented.
 Method SetPerFriendPreferences() not implemented.
 Method UpdateSteamAnnouncementLastRead() not implemented.
 Method UploadUserApplicationLog() not implemented.
-MethodDescriptorProto
 MethodOptions
-MhP<
 Miao
 Migrating destinations_home_map config values\n
 MinAnimTime
@@ -11942,7 +10592,6 @@ Missing field: FileDescriptorProto.name.
 Missing file '%s'
 Missing name.
 Missing sprite material %s\n
-Mla?
 Model "%s" :\t
 Model %s missing bone and flex counts (%d < %d), init %d\n
 Model conversion: %d conversions in %.3fsec (%.3fms each)\n
@@ -12022,7 +10671,6 @@ Multiple entity classes have the same designer name "%s" ( alias class %s and cl
 Multiple entity classes have the same designer name "%s" ( class %s and class %s )\n
 Multiple extension registrations for type "
 Multiple registration of class %s\n
-MultipleGameInstances
 Must be in tools mode!\n
 Must enable "%s" in gameinfo.gi to use -buildcubemaps.\n
 Must enable "%s" in gameinfo.gi to use buildcubemaps.\n
@@ -12043,7 +10691,6 @@ MyArtwork
 MyScreenshots
 MyScreenshots/%u
 Myanmar
-N(Optional) Tags that must be present on a published file to satisfy the query.
 N10Reflection6Detail7ToBaseTI13C_AnimVRProxy11IToolObjectEE
 N10Reflection6Detail7ToBaseTI13C_AnimVRProxy12IAnimVRProxyEE
 N10Reflection6Detail8ToBase_tE
@@ -12674,33 +11321,6 @@ NDebugOverlay::ScreenTextOffset
 NDebugOverlay::ScreenTextPretty
 NDebugOverlay::Text
 NERVEGAS
-NETWORK_DISCONNECT_BADDELTATICK
-NETWORK_DISCONNECT_BANADDED
-NETWORK_DISCONNECT_DISCONNECTED
-NETWORK_DISCONNECT_EXITING
-NETWORK_DISCONNECT_HLTVDIRECT
-NETWORK_DISCONNECT_HLTVSTOP
-NETWORK_DISCONNECT_HOST_ENDGAME
-NETWORK_DISCONNECT_INVALID
-NETWORK_DISCONNECT_KICKBANADDED
-NETWORK_DISCONNECT_KICKED
-NETWORK_DISCONNECT_LEAVINGSPLIT
-NETWORK_DISCONNECT_LOOPSHUTDOWN
-NETWORK_DISCONNECT_LOST
-NETWORK_DISCONNECT_NOMORESPLITS
-NETWORK_DISCONNECT_NOSPECTATORS
-NETWORK_DISCONNECT_OVERFLOW
-NETWORK_DISCONNECT_RECONNECTION
-NETWORK_DISCONNECT_REJECT_STEAM
-NETWORK_DISCONNECT_REMOTE_OTHER
-NETWORK_DISCONNECT_SHUTDOWN
-NETWORK_DISCONNECT_STEAM_BANNED
-NETWORK_DISCONNECT_STEAM_INUSE
-NETWORK_DISCONNECT_STEAM_LOGON
-NETWORK_DISCONNECT_STEAM_TICKET
-NETWORK_DISCONNECT_TIMEDOUT
-NETWORK_DISCONNECT_UNUSUAL
-NETWORK_DISCONNECT_USERCMD
 NETWORK_FIELD_CHANGED_ARRAY_WITH_VALUE
 NETWORK_FIELD_CHANGED_NO_VALUE
 NETWORK_FIELD_CHANGED_NO_VALUE_NO_CONTEXT
@@ -12717,13 +11337,8 @@ NOT opened (because player is dead and can_open_when_dead not set).\n
 NOT opened (because prereqs haven't been met).\n
 NOT opened (because root lesson could not be found).\n
 NOT opened (there is too many started lessons of this type).\n
-NOTIFY_ACHIEVEMENTS
-NOTIFY_SERVER_SESSIONS
-NOTIFY_USER_SESSIONS
-NOTIFY_VAC_ACTION
 NOT_FOUND
 NO_AUTO_POSSESS)
-NO_SIDE_EFFECTS
 NO_START_OPT)
 NPC_STATE_ALERT
 NPC_STATE_COMBAT
@@ -12758,9 +11373,6 @@ NV_INTZ
 NV_NULL
 NV_RAWZ
 NWay( 
-N\n"NETWORK_DISCONNECT_HLTVUNAVAILABLE
-N\n#NETWORK_DISCONNECT_REJECTED_BY_GAME
-N\n\fredirect_uri
 Name of a visible VR helmet model that doesn't follow pitch, yaw, or roll.
 Name of a visible VR helmet model that follows roll and pitch.
 Name of a visible VR helmet model that follows yaw and pitch.
@@ -12770,7 +11382,6 @@ Name of a visible VR helmet model that only follows pitch.
 Name of a visible VR helmet model that only follows roll.
 Name of a visible VR helmet model that only follows yaw.
 Name:
-NamePart
 Name\t\t\t\t\tCount\t\tParticle Count\n
 NamedPaths
 NativeFunctions
@@ -12801,7 +11412,6 @@ New_Tai_Lue
 Newline in string literal
 NextItemButton
 NextSearch
-Nfr 
 Nil time value
 No %s found.\n
 No : voiced alveolar nasal
@@ -12927,7 +11537,6 @@ Notifying GC we don't need a session.\n
 Notifying host that client %llu '%s' isn't downloading item %llu\n
 Notifying server that client %llu '%s' has already downloaded item %llu\n
 NowDownloading
-Nqv?
 Num Bones
 Num Calls
 NumCores
@@ -12939,14 +11548,7 @@ NumberEntryChanged
 NumberEntryDecrementValue
 NumberEntryIncrementValue
 Numbers starting with leading zero must be in octal.
-Nut?{
-Nx\tV @M
-Nyt#
-NytS
-N{\f@ZM2
 O*9y
-OAuth Token, granted on success
-OH|8
 ONFRAME_FALSE
 ONFRAME_TRUE
 ONFRAME_UNKNOWN
@@ -12954,17 +11556,6 @@ ORIENT
 OSCILLATE_POSE_PARAMETERS
 OSType
 OUT_OF_RANGE
-OWw,
-OXR>
-O\n%NETWORK_DISCONNECT_REJECT_BADPASSWORD
-O\n%NETWORK_DISCONNECT_REJECT_LANRESTRICT
-O\n%NETWORK_DISCONNECT_REJECT_NEWPROTOCOL
-O\n%NETWORK_DISCONNECT_REJECT_OLDPROTOCOL
-O\n%NETWORK_DISCONNECT_SOUNDSMSG_OVERFLOW
-O\n(NETWORK_DISCONNECT_REJECT_BACKGROUND_MAP
-O\n(NETWORK_DISCONNECT_STEAM_AUTHALREADYUSED
-O\n\nAnnotation
-O\n\vinvite_sent
 Obtained EMS handle %u
 Obtained XMS handle %u
 Offscreen
@@ -13048,7 +11639,6 @@ OnWeaponChanged
 OnWeaponsChanged
 OnWearablesChanged
 Oneof must have at least one field.
-OneofDescriptorProto
 OneofOptions
 Only DXT1/DXT5 online texture compression supported.\n
 OoDecals
@@ -13064,7 +11654,6 @@ Opened temporary file %s
 Opening
 Opportunity 
 Optimize for not copying data if didn't receive a network update (1), and also for not repredicting if there were no errors (2).
-Option
 Option "
 Option field "
 Option must have a name.
@@ -13106,7 +11695,6 @@ Override view during demo playback
 Overrides the map's fog settings (-1 populates fog_ vars with map's values)
 Overrides\n
 Overview: scale %.2f, pos_x %.0f, pos_y %.0f\n
-OwnGameplayInfo
 P10CUtlBuffer
 P12C_BasePlayer
 P12IVideoPlayer
@@ -13136,13 +11724,10 @@ PARENT
 PARTICLE_DEPTH_FEATHERING_OFF
 PARTICLE_DEPTH_FEATHERING_ON_OPTIONAL
 PARTICLE_EHANDLE__
-PARTICLE_MESSAGE
 PARTICLE_SET_REPLACE_VALUE
 PARTICLE_SET_SCALE_CURRENT_VALUE
 PARTICLE_SET_SCALE_INITIAL_VALUE
 PARTICLE_WORLD_HANDLE__
-PARTNER_INVALID
-PARTNER_PERFECT_WORLD
 PASSABLE
 PATTACH_ABSORIGIN
 PATTACH_ABSORIGIN_FOLLOW
@@ -13239,16 +11824,11 @@ PRECIPITATION_TYPE_PARTICLESMOKE
 PRECIPITATION_TYPE_PARTICLESNOW
 PRECIPITATION_TYPE_PARTICLEXENSPORES
 PREVENT_PHYSICS_FORCE
-PROTOBUF_FIELD_UINT64
 PRUNE
 PSt12_Bind_simpleIFSt7_Mem_fnIMN3Etc5ImageEFjjjjEEPS2_jijEE
 PSt12_Bind_simpleIFSt7_Mem_fnIMN3Etc5ImageEFvjjEEPS2_ijEE
 PVEC_TYPE_LITERAL
 PVEC_TYPE_LITERAL_COLOR
-P\n#NETWORK_DISCONNECT_BADRELAYPASSWORD
-P\n#NETWORK_DISCONNECT_RELIABLEOVERFLOW
-P\n#NETWORK_DISCONNECT_SNAPSHOTOVERFLOW
-P\n\nnumperpage
 Packed store %s with refcount > 0.\n
 PadBackButton
 PadBackButtonUp
@@ -13307,9 +11887,6 @@ ParticleTracer
 ParticleTracer_global_client
 Particles.ControlPoints
 ParticlesLib
-PartnerAccountType
-PartnerItemPaymentRule
-PartnerMicroTxn
 Party
 Pass entity and effect name
 Pass string for the animation to play on this model
@@ -13327,7 +11904,6 @@ Path_PopLast failed for read only CFieldPath
 Path_RemoveAll failed for read only CFieldPath
 Path_SetCount
 Path_SetCount failed, depth already == DEFAULT_MAX_PATH_DEPTH(%d)
-PerFriendPreferences
 PerVertexLighting
 PerfVisualBenchmark
 Perform client side prediction of weapon effects.
@@ -13336,7 +11912,6 @@ Perform server side lag compensation of weapon firing events.
 Perform the additional 'stuck' traces on the client side during prediction.
 PerformanceMode_t
 Permit Responses
-PersonaNameReplacementToken
 PersonalBubbleSlider
 Pf\n%d %d\n-1.000000\n
 Phags_Pa
@@ -13436,7 +12011,6 @@ PlaybackProgress
 PlaybackSpeed
 PlaybackTitle
 PlaybackTitleAndControls
-Player
 Player Hull Extension
 Player index of other player to check for position errors.
 Player will aim in the direction they are moving.
@@ -13453,7 +12027,6 @@ PlayerAvatarImage
 PlayerChoosingTeleportLocation
 PlayerFogController
 PlayerInstanceFromIndex
-PlayerNickname
 Plays a haptic pulse immediately with specific strength and optional duration (seconds)
 Plays a haptic pulse with the specific strength and optional duration (seconds)
 Plays a specified haptic effect by index (vr_haptics_list_effects)
@@ -13463,7 +12036,6 @@ Please specify 0 or 1 with the -stream Parameter\n
 PlusFour
 PlusThree
 PlusTwo
-Po5H
 Point value:
 PointWorldTextJustifyHorizontal_t
 PointWorldTextJustifyVertical_t
@@ -13481,7 +12053,6 @@ PopOnePlusN
 PopOnePlusOne
 Pops the identifier used to group overlays. Overlays marked with this identifier can be deleted in a big batch.
 PopupWrapper
-Port
 PortraitBackground
 PosThrow : %f, %f, %f - Speed: %f \n
 PosXYZ
@@ -13532,7 +12103,6 @@ Prerequisite %s added by lesson %s doesn't exist!\n
 PrettyFont:%s:%d:%d
 PrevSearch
 Prevent jiggle bones from pointing directly away from their target in case of numerical instability.
-Preview
 PreviewAttachmentModel
 PreviewBoneAttachedModel
 PreviewBoneMergedModel
@@ -13555,7 +12125,6 @@ Priority changed from
 Private
 Probably failed to set object type (%d) on the server/client.\n
 ProbablyUnlocalizedText
-Process
 Process Results: %6.3f [ms] for %d aggregates
 Process Updater: %6.3f [ms]
 ProcessCompressedMsg
@@ -13595,8 +12164,6 @@ ProtoBufHelper::ParseJSON: Ignoring extra JSON key '%s', which is not found in p
 ProtoBufHelper::ParseJSON: Object Begin found on invalid field!\n
 ProtoBufHelper::ParseJSON: received callback with message field but no message!\n
 ProtoBufHelper::ParseJSON: received callback with no current message field!\n
-ProtoFlattenedSerializerField_t
-ProtoFlattenedSerializer_t
 Protobuf %s(%d): %s
 Protobuf: %s(%d): %s\n
 Protocol Buffer map usage error:\n
@@ -13607,8 +12174,6 @@ Public
 PublicLobbiesPanel
 PublicRoom
 PublicRoom FriendsRoom HasFriendCount
-Publish
-PublishedFileDetails
 PublishedFileId_t
 Puppet manager: %d vpk files remained\n
 PuppetVisible
@@ -13638,27 +12203,10 @@ Pushes an identifier used to group overlays. Deletes all existing overlays using
 Pushes an identifier used to group overlays. Overlays marked with this identifier can be deleted in a big batch.
 Put all physics in all the worlds to sleep
 Put; voiceless alveolar stop
-Q(Optional) If supplied, the resulting published file's Id is appended to the URI.
 Q)=blendindices
-Q0c\n
-Q0c\nV
-Q8q(
-Q8q(2
 QAngle
 QAngle-world
-QBUq
 QC,A
-QReturns the Steam Level of a user, the Badge level for the game, and if it's foil
-Q\n&NETWORK_DISCONNECT_REJECT_BADCHALLENGE
-Q\n&NETWORK_DISCONNECT_TEMPENTMSG_OVERFLOW
-Q\n*NETWORK_DISCONNECT_CLIENT_CONSISTENCY_FAIL
-Q\n+NETWORK_DISCONNECT_CLIENT_UNABLE_TO_CRC_MAP
-Q\n,NETWORK_DISCONNECT_REJECT_SERVERAUTHDISABLED
-Q\n\vin_wishlist
-Q\n\vincludetags
-Q\n\vplayed_ever
-Q`dv
-QjN?#
 Quantization table 0x%02x was not defined
 QuantizeInPlace
 Quantizing to %d = %d*%d*%d colors
@@ -13699,21 +12247,15 @@ Quintic
 QuitApp
 R channel not found
 R channel not found!\n
-R(Optional) If true, only return the total number of files that satisfy this query.
-R(Optional) Tags that must NOT be present on a published file to satisfy the query."
 R11_EAC
 R16F
 R16F_EXPAND
 R32F
 R32_UINT
-R5P=
-R5P=(
 R8G8B8A8_ETC2_EAC
 R8G8B8_ETC2
-R9HP
 R@sao
 RADIATION
-RANDOM
 RBLegend
 REMOVENORAGDOLL
 RESET_SEQUENCES
@@ -13748,21 +12290,12 @@ RGBA32323232F
 RGBA8888_LINEAR
 RGBX555
 RGBX8888
-RIO_ESTABLISH_CONNECTION
-RIO_REJECT_RELAY
-RIO_REQUEST_RELAY
-RIO_WILL_RELAY
-ROLL_LATE_JOIN_LOGO
 ROTATION
 RPGShotDown
 RPGShotDown_global_client
-RP_PAUSE
-RP_TOGGLEPAUSE
 RST%d
 RT_txt
 RULE MATCHED!\n
-R\n@Z*oG8
-R\n\rincludekvtags
 Radial using: %s\n
 RadianEuler
 RadioBox
@@ -13843,7 +12376,6 @@ Red : voiced alveolar approximant
 Red : voiced alveolar trill
 Red : voiced retroflex approximant
 RedirectOutput
-RefreshVotingQueue
 Register a callback to be called when the item is downloaded
 Register a callback when a particular custom net table changes
 Register as a listener for a game event from script.
@@ -13941,7 +12473,6 @@ RenderUtils_001
 Rep=%d/%d, Seg=%d/%d
 Repaint Rate
 Repeated fields can't have default values.
-ReplacementToken
 Replaces opaque objects with their grayscaled depth values. r_showz_power scales the output.
 Report prediction copy overrides
 ReportClassError
@@ -13951,7 +12482,6 @@ RequestDownloadDestination
 RequestLobbyData for friend lobby %llu %s\n
 RequestLobbyData for local lobby %llu %s\n
 RequestLobbyData for public lobby %llu %s\n
-RequestPause_t
 RequestPersonaName
 Requested feature was omitted at compile time
 Requested size is too large to fit into size_t.
@@ -13959,7 +12489,6 @@ Requests the user's persona name
 RequeueMessage
 RequireKeyValuesSystem
 Required fields are not allowed in proto3.
-Res0
 Reserved numbers must be positive integers.
 Reserved range $0 to $1 overlaps with already-defined range $2 to $3.
 Reserved range end number must be greater than start number.
@@ -13984,12 +12513,10 @@ ResourceSystem013
 RespawnAllEntitiesSystem
 ResponseFollowup
 ResponseGroup
-ResponseHeader
 ResponseKeys
 ResponseParams
 ResponseRulesCache001
 RestartMachine
-RestartMapToolEvent"D\n
 Restore underflow!\n
 RestoreData:%32.32s [%4d]
 RestoreData:%32.32s [orig]
@@ -14063,10 +12590,6 @@ RunScriptFile
 RunTimeOfDayCommand
 Runic
 Running command: %s\n
-S+Ot
-S0t6
-S>M.F9
-S?o*R
 SAVE/
 SAVE/%s.HL%s
 SAVE/%s.sav
@@ -14077,7 +12600,6 @@ SAVE\animgraph
 SAVE\faceposer
 SAVE\faceposer\%s.sav
 SAVE_HEADER
-SBlocks or unblocks communication with the user.  Despite name, can be a non-friend.
 SCORE
 SCREENEFFECT_EP1_INTRO
 SCREENEFFECT_EP2_ADVISOR_STUN
@@ -14112,7 +12634,6 @@ SHATTERSURFACE_TILE
 SHATTER_DRYWALL
 SHATTER_GLASS
 SHe : voiceless postalveolar fricative
-SI8#
 SIGNED_R11
 SIGNED_RG11
 SIGNONSTATE_CHALLENGE
@@ -14176,10 +12697,6 @@ SOS_EDIT_ITEM_TYPE_SOUNDEVENTS
 SOS_EDIT_ITEM_TYPE_STACK
 SOURCE2 SAVE COMMENT
 SPAWNGROUP_HEADER
-SPAWN_GROUP_BLOCK_UNTIL_LOADED
-SPAWN_GROUP_DONT_SPAWN_ENTITIES
-SPAWN_GROUP_LOAD_STREAMING_DATA
-SPAWN_GROUP_SYNCHRONOUS_SPAWN
 SPEED
 SRGB8
 SRGB8A1
@@ -14201,20 +12718,12 @@ STEAMUNIFIEDMESSAGES_INTERFACE_VERSION001
 STEAMUSERSTATS_INTERFACE_VERSION011
 STEAMVIDEO_INTERFACE_V002
 STOPPED
-STRING
 SUB_Remove called on entity with health > 0\n
 SURROUNDING_TYPE_BIT_COUNT
-SUh 
 SV:     %d:  '%s'\n
 SV:  All %d paths:\n
 SV:  CLoadingSpawnGroup::RestoreEntities destroying ignored precached entity:  %d %s [%s]\n
 SV:  Couldn't resolve offset %d in %s at path (%d = '%s')\n
-SVC_Messages_LowFrequency
-S\n!NETWORK_DISCONNECT_REMOTE_TIMEOUT
-S\n%NETWORK_DISCONNECT_CONNECTION_FAILURE
-S\n'NETWORK_DISCONNECT_DELTAENTMSG_OVERFLOW
-S\n'NETWORK_DISCONNECT_REJECT_FAILEDCHANNEL
-S\n,NETWORK_DISCONNECT_STEAM_LOGGED_IN_ELSEWHERE
 Samaritan
 Sampling factors too large for interleaved scan
 Saurashtra
@@ -14475,7 +12984,6 @@ SequenceMarkupList
 Serialize
 SerializeKeys
 SerializedEntitiesVersion001
-SerializedNetAddress_t
 Serializing event '%s' (%i):\n
 Server = %d Client = %d\n
 Server Animation
@@ -14486,7 +12994,6 @@ Server session ID (%s).\n
 ServerSessionID
 ServerUploadGameStats001
 ServerVoice
-ServiceDescriptorProto
 ServiceOptions
 SessionTime
 Set Angular Velocity for VPHYS or normal object, from a vector of the axis of rotation, multiplied by the degrees of rotation per second.
@@ -14533,9 +13040,6 @@ SetCanBeBlocked
 SetCarouselSelectedChild
 SetChildPanelsSelected
 SetColorCorrectionWeight
-SetCommunityPreferences
-SetControlPointModel
-SetControlPointSnapshot
 SetControls
 SetCursorOffset
 SetCustomAppearance
@@ -14600,10 +13104,6 @@ SetParticleControlForward
 SetParticleControlOffset
 SetParticleControlOrientation
 SetParticleControlOrientationFLU
-SetParticleFoWProperties
-SetParticleShouldCheckFoW
-SetParticleText
-SetPerFriendPreferences
 SetPlaybackRateOnAllLayers
 SetPlaybackVolume
 SetPlayerForBillboardUI
@@ -14628,7 +13128,6 @@ SetRichPresence: lobbyid = %llu %s\n
 SetRichPresence: lobbyid = <NULL>\n
 SetScale
 SetScaling
-SetSceneObjectGenericFlag
 SetScrollParentToFitWhenFocused
 SetSelected
 SetSelectedChild
@@ -14638,7 +13137,6 @@ SetStabilityDamage
 SetStr
 SetStr(name, val) : sets the value of the convar to the string.
 SetString
-SetTextureAttribute
 SetTitle
 SetTopOfInputContext
 SetUInt32
@@ -14780,8 +13278,6 @@ ShutdownMachine
 ShutdownPredictables due to convar change\n
 Shuts down all open lessons and reloads them from the script file.
 Shutting down...\n
-SignedDestinationAddress_t
-SignedPayload_t
 Signon
 SimThinkHook
 Simple Cubic
@@ -14791,7 +13287,6 @@ Simulated GC communications failure is active.\n
 Simulated GC communications failure is not active.\n
 Simulated\n
 Sine
-SingleItemDescription
 Sinhala
 Sit : voiceless alveolar fricative
 Size mismatch determining size of signed data block (%d vs %d)
@@ -14821,7 +13316,6 @@ SlideshowItemVisible
 SlopeTrace
 SlottedSlider
 SlottedSliderValueChanged
-Slq2
 Small Things
 Smear boneflags across the model.  Costs computation, but tests to make sure your bone flags are consistent.
 SmokeFogOverlaySystem
@@ -14886,7 +13380,6 @@ Source2GameEntities001
 Source2Host001
 Source2Server001
 Source2ServerSerializers002
-SourceCodeInfo
 Spawn
 Spawn group %s doesn't have the same tile VR parameters as other spawn groups in the same world!\n
 SpawnEntities
@@ -14894,10 +13387,7 @@ SpawnEntityFromTableSynchronous
 SpawnEntityGroupFromTable
 SpawnEntityListFromTableAsynchronous
 SpawnEntityListFromTableSynchronous
-SpawnEntityToolEvent
-SpawnEntityToolEventResult
 SpawnGroupCompletionCallbackGameSystem
-SpawnGroupFlags_t
 SpawnGroupManagerGameSystem
 SpawnGroups
 SpawnImagePanel
@@ -14907,7 +13397,6 @@ Spawns a game trophy game itemdefid
 Spawns movable panel
 Speak
 Speaker contexts: '%s', 
-SpecialPayment
 Specifies a 'wash' color, which means a color that will be blended over the panel and all it's children at composition time, tinting them.  The alpha value of the color determines the intensity of the tinting.<br><br><b>Example:</b><pre>wash-color: #39b0d325;</pre>
 Specifies a clip region within the panel, where contents will be clipped at render time. This clipping has no impact on layout, and is fast and supported for transitions/animations. Radial clip mode takes a center point, start angle and angular width of the revealed sector.<br><br><b>Example:</b><pre>clip: rect( 10%, 90%, 90%, 10% );clip: radial( 50% %50, 0deg, 90deg );</pre>
 Specifies a scale to apply to this panel's layout and all descendants. This scale happens at the layout level ratherthan the bitmap level, so things like text will increase their font size rather than just bitmap scaling. <br><br><b>Examples:</b><pre>ui-scale: 150%; // 150% scaling for X, Y, and Z.\nui-scale: 50% 100% 150%; // 50% scaling for X, 100% for Y. 150% for Z.</pre>
@@ -15012,11 +13501,9 @@ Start_txt
 Started lesson 
 State: %s
 Static Decal VB Slots Used: %d out of %d\n
-Stats
 Stats are only available when cl_showfps is set\n
 StatsService_001
 Status:
-Steam ID of friend to remove."\\n
 Steam Tours Client
 Steam not running, achievements disabled. Cannot reset achievements.\n
 Steam not running, achievements disabled. Cannot view or unlock achievements.\n
@@ -15074,7 +13561,6 @@ SteamToursRecentApps
 SteamToursRoot
 SteamToursToggleContentBrowser
 SteamToursUGCImage
-SteamToursUserMessageIds
 SteamTours_AvatarCustomization
 SteamTours_Content_Browser
 SteamTours_Content_Browser_Workshop_Item
@@ -15133,14 +13619,12 @@ StyleClassesChanged
 StyleFlagsChanged
 StyleLink
 StylesDirtied
-SubGC
 SubPanelBgColor
 Subscribe
 Subscribe to a game event
 Subscribe to a piece of UGC
 SubscribeNetTableListener
 SubscribeWorkshopItem
-SubscribedType
 Subtitles and Captions
 Success.
 SuggestionPanel
@@ -15170,7 +13654,6 @@ Syriac
 System %s failed to init\n
 SystemInputLanguageChanged
 T0d/
-T95*
 TD_OFFSET_NORMAL
 TD_OFFSET_PACKED
 TEArmorRicochet_GameEvent_t
@@ -15201,23 +13684,7 @@ TEShatterSurface_GameEvent_t
 TESmoke_GameEvent_t
 TESparks_GameEvent_t
 TEWorldDecal_GameEvent_t
-TE_ArmorRicochetId
-TE_BeamEntPointId
-TE_BeamPointsId
-TE_BloodStreamId
-TE_BubbleTrailId
-TE_EffectDispatchId
-TE_EnergySplashId
-TE_ExplosionId
-TE_GlowSpriteId
-TE_LargeFunnelId
-TE_MuzzleFlashId
 TE_MuzzleFlash_client
-TE_PhysicsPropId
-TE_PlayerDecalId
-TE_ProjectedDecalId
-TE_ShatterSurfaceId
-TE_WorldDecalId
 THEM
 THEN
 THen : voiced dental fricative
@@ -15298,11 +13765,6 @@ TRIGGER_ANIM_EVENTS
 TRS_FALSE
 TRS_NONE
 TRS_TRUE
-T\n%NETWORK_DISCONNECT_LOCALPROBLEM_OTHER
-T\n&NETWORK_DISCONNECT_BAD_SERVER_PASSWORD
-T\n&NETWORK_DISCONNECT_MESSAGE_PARSE_ERROR
-T\n)NETWORK_DISCONNECT_REQUEST_HOSTSTATE_IDLE
-T\n+NETWORK_DISCONNECT_STEAM_VAC_CHECK_TIMEDOUT
 Tab Index
 TabBackward
 TabButton
@@ -15490,11 +13952,6 @@ Too many bytes for PNG signature
 Too many color components: %d, max %d
 Too many simultaneously active particle systems!\n
 Tool entity spawn: failed to specify 'classname' entity key value!\n
-ToolEvent_FireEntityInput
-ToolEvent_GetEntityInfo
-ToolEvent_GetEntityInfoResult
-ToolEvent_GetEntityInputs
-ToolEvent_GetEntityInputsResult
 ToolFramework2_002
 ToolGameSimulationDispatcher_001
 ToolGameSimulationSystem_001
@@ -15508,7 +13965,6 @@ ToolObjects/point_worldtext
 ToolSceneNodeFactory_001
 ToolScriptManager001
 ToolService_001
-ToolTraceRayResult
 Tooltip.BgColor
 Tooltip.TextColor
 TooltipHidden
@@ -15526,7 +13982,6 @@ Total job count: %d\n
 TotalLevelTime
 TouchController
 Trace using: %s\n
-TraceRayServerToolEvent
 TracerSound
 TracerSound_global_client
 TrackedControllerManager
@@ -15536,7 +13991,6 @@ Tracks an entity in spec mode
 Traditional_Chinese
 Trailing Data
 TransferData
-Transition_DataDriven
 TransitioningLayer_t
 TranslateStackInfo
 Translucent Decal VB Slots Used: %d out of %d\n
@@ -15596,49 +14050,17 @@ Tweak this parameter to adjust Free Camera movement acceleration.
 Tweak this parameter to adjust Free Camera movement max speed.
 Two Bone
 Two KV3 format GUIDs with the same human-friendly name ('%s')
-Type
 Type appears to be in generated pool but wasn't 
 Type is already registered: 
-U20>
-U20>3
-U7r8Ne
 U: %.2f deg
 UCP)
 UGCOperation
-UI\tf
-UM_AchievementEvent
-UM_AnimGraphUpdate
-UM_AudioParameter
-UM_CameraTransition
-UM_CloseCaption
-UM_CloseCaptionDirect
-UM_CloseCaptionPlaceholder
-UM_ColoredText
-UM_CrosshairAngle
-UM_CurrentTimescale
-UM_CustomGameEvent
-UM_DesiredTimescale
-UM_Fade
-UM_HapticsManagerEffect
-UM_HapticsManagerPulse
-UM_ItemsUnlocked
-UM_KeyHintText
-UM_NotifyLoadingDestination
-UM_ParticleManager
-UM_RequestState
-UM_SayTextChannel
-UM_Shake
-UM_Train
-UM_VoiceSubtitle
 UNAUTHENTICATED
 UNAVAILABLE
 UNCHANGED
 UNIMPLEMENTED
 UNKNOWN
 UNKNOWN_ENUM_VALUE_%s_%d
-UNUSED_job_name
-UN{J
-UOnly valid in PublishedFile.GetUserFiles and not normal PublishedFile.GetDetail calls
 UPDATE_STRING_TOKEN_DATABASE
 URn : rhotacized lower-mid central vowel
 URn : rhotacized schwa
@@ -15664,13 +14086,6 @@ UUID_1.0
 UV88
 UVLX8888
 UVWQ8888
-U\n"NETWORK_DISCONNECT_REMOTE_BADCRYPT
-U\n$incoming_invite_mutual_friends_lists
-U\n&NETWORK_DISCONNECT_REPLAY_INCOMPATIBLE
-U\n&NETWORK_DISCONNECT_SERVERINFO_OVERFLOW
-U\n&NETWORK_DISCONNECT_SERVER_INCOMPATIBLE
-U\n(NETWORK_DISCONNECT_REJECT_INVALIDCERTLEN
-Udt@R
 Ugaritic
 Unable to connect to debugger\n
 Unable to create default camera. Aborting...
@@ -15710,7 +14125,6 @@ Unhandled ShotgunShellEject effect\n
 Unhandled type %d for time-of-day value %d=%s\n
 Unimplemented Map Reflection API.
 Unimplemented type: 
-UninterpretedOption
 Unique Aggregates: %u\n
 UnitTestCycleOverlayRenderType
 Unknown
@@ -15781,7 +14195,6 @@ Unsupported text encoding id.
 Unsupported version or scanline
 Unsupported: type mismatch
 Unzipping %s (%d files)\n
-Update
 Update Motion Controller: %6.3f [ms] for %d controllers
 Update spatial partition entities before we do latch work. Overcomes a potential deadlock in IK, but convared so we can test perf implications.
 Update the animation graph
@@ -15789,7 +14202,6 @@ Update: %6.3f [ms] for %d worlds
 UpdateColorCorrection
 UpdateCountdownInternal
 UpdateDirtyPanelInfo
-UpdateEntityPosition
 UpdateFocusAndDirtyChildStyles
 UpdateFocusInContext
 UpdateItemContent
@@ -15799,25 +14211,15 @@ UpdateNewEffects
 UpdatePanelInfo
 UpdatePanelInfo - update
 UpdatePanelPaintInfo
-UpdateParticle
-UpdateParticleEnt
-UpdateParticleFallback
-UpdateParticleFwd
-UpdateParticleOffset
-UpdateParticleOrient
-UpdateParticleSetFrozen
-UpdateParticleShouldDraw
 UpdatePlayer
 UpdatePlayerName with bogus slot %d\n
 UpdateQueryCache
-UpdateSteamAnnouncementLastRead
 UpdateStyleInMemory
 Updated lobby %llu %s serverid %s\n
 Updated looping radius sound %d to vol=%f\n
 Updates visibility bits.
 UploadEnvMapConstants
 UploadLightProbeVolumeConstants
-UploadUserApplicationLog
 UpperEyelid( 
 UsableInGame
 Usage:  %s < entindex [server|client] varname | reset >\n
@@ -15844,8 +14246,6 @@ Use game events from script
 Use the garbage collector to track down reference cycles
 Use the specified entity for animation debugging.
 User Messages
-User is accepting the SSA
-User uploading application logs
 UserInfoChangeService_001
 UserInputActive
 UserMessages
@@ -15896,8 +14296,6 @@ VMatrix-world
 VMediaFoundation001
 VModEnable %d
 VNewAsyncFileSystem001
-VOICEDATA_FORMAT_ENGINE
-VOICEDATA_FORMAT_STEAM
 VOTE_FAILED_CANNOT_KICK_ADMIN
 VOTE_FAILED_FAILED_RECENTLY
 VOTE_FAILED_GENERIC
@@ -15932,9 +14330,6 @@ VRVScriptGameSystem
 VR_001
 VR_Collectible_%llu
 VR_Collectible_%llu_Desc
-VR_HAND_HAPTIC_PULSE_LIGHT
-VR_HAND_HAPTIC_PULSE_MEDIUM
-VR_HAND_HAPTIC_PULSE_STRONG
 VR_OVERLAY_CONTROLLER_BINDING
 VR_OVERLAY_COUNT
 VR_OVERLAY_DESKTOP
@@ -15957,8 +14352,6 @@ VScriptScripts
 VStringTokenSystem001
 VSync
 VTT for std::basic_stringstream<char, std::char_traits<char>, std::allocator<char>>
-V\n&NETWORK_DISCONNECT_PURESERVER_MISMATCH
-V\n'NETWORK_DISCONNECT_CREATE_SERVER_FAILED
 V_AreFileNamesEqual
 V_BasicHtmlEntityEncode
 V_CompareNameWithWildcards
@@ -16088,12 +14481,9 @@ ValueRemapperInputType_t
 ValueRemapperMomentumType_t
 ValueRemapperOutputType_t
 ValueRemapperRatchetType_t
-ValueTag
 ValveBiped.
 ValveBiped.Bip01_Head1
 ValveBiped_
-Vc\tkc,
-Vdt@
 Vector-dir
 Vector-quantized
 Vector2D
@@ -16105,7 +14495,6 @@ VectorToAngles
 VelThrow - PoseData is Zero \n
 VelThrow : %f, %f, %f - Speed: %f \n
 VerifyLevelShutdownState: List %d has remaining entity of type %s with name %s\n
-Version
 VertArrow
 VertJustification_e
 VertexColorPos_t
@@ -16119,7 +14508,6 @@ VerticalScrollForwarding
 VerticalScrollThumb
 VerticalSplitter
 VguiScreen
-Vh{O@n
 VideoBandwidth
 VideoPlayerChangedRepresentation
 VideoPlayerEnded
@@ -16161,19 +14549,15 @@ ViveController
 Voice chat uses a vox-style always on
 Voice icons are this many inches over player eye positions
 VoiceCommands
-VoiceDataFormat_t
 VoiceStatus
 VoiceStatusChange
 VoiceStatusManifest
 VolumeSliderPopup
 VolumeSliderValueChanged
 Vote on a piece of UGC
-VoteData
 VoteWorkshopItem
 VrForward
 Vulkan
-W zR
-W3|Uxa
 WAITING FOR VSCRIPT DEBUGGER CONNECTION -- '-vscriptdebug' was provided on the command line.\n
 WARNING
 WARNING! Field %s is using the wrong FIELD_ type!\nFix this or you'll see a crash.\n
@@ -16189,18 +14573,14 @@ WARNING: Too many essential breakpieces in one frame - this may cause performanc
 WARNING: Trying to create a CRenderContextPtr without a valid context.\n
 WARNING: Unable to compile regex '%s', %s\n
 WARNING: m_bDisableCollisionWithParent not supported on client (%s:%s)\n
-WAg-
 WEAPON1
 WEAPON2
 WEAPON_IS_ACTIVE
 WEAPON_IS_CARRIED_BY_PLAYER
 WEAPON_NOT_CARRIED
-WEBAPI_PARAM_STEAMID_ACCOUNTID
-WEnumerates Cloud files for a user of a given app ID. Returns up to 500 files at a time.
 WIN32
 WINDOWS
 WINXP
-WM!a
 WOL: 0x%p (%s)
 WORLDTEXT_HORIZONTAL_ALIGN_CENTER
 WORLDTEXT_HORIZONTAL_ALIGN_LEFT
@@ -16212,10 +14592,6 @@ WORLDTEXT_VERTICAL_ALIGN_BOTTOM
 WORLDTEXT_VERTICAL_ALIGN_CENTER
 WORLDTEXT_VERTICAL_ALIGN_TOP
 WWWWWWWWWWWWWWW
-WXp?
-W\n,NETWORK_DISCONNECT_REJECT_CONNECT_FROM_LOBBY
-W\n,NETWORK_DISCONNECT_REJECT_RESERVED_FOR_LOBBY
-W\n\fdescriptions
 Wait ms
 WaitForSharedDownloadDialogOn
 Waiting for rendering to complete...\n
@@ -16242,13 +14618,11 @@ WeaponList
 WeaponScriptParser
 WeaponSprites_client
 WeaponState_t
-WearableConfig
 WebBrowser
 WebGuides
 WeightForPhoneme:: Unrecognized phoneme %s\n
 Welcome message contained %s twice\n
 WelcomePanelNextWorkshopItem
-Wh1B
 WheelDust
 WheelDust_global_client
 When connected to hltv or playing a demo, adjust the interp time by this ratio.
@@ -16287,7 +14661,6 @@ Workshop item %llu '%s' has invalid default color %d %d %d\n
 Workshop item %llu '%s' has invalid default scale %f\n
 WorkshopImage
 WorkshopItem%llu
-WorkshopItemPaymentRule
 WorkshopItemsContainer
 WorkshopOperation
 WorkshopSetup001
@@ -16334,62 +14707,34 @@ WriteToBuffer Message %s is not initialized! Probably missing required fields!\n
 WriteUsercmd: from=%d to=%d\n
 Writing cubemaps to %s\n
 Wrong JPEG library version: library is %d, caller expects %d
-X(Optional) If true, only return the published file ids of files that satisfy this query.
-X32H
 X360
 X360_DST16
 X360_DST24
 X360_DST24F
 X94<
-X=2v?
 XInputPad
 XInputPad SteamPad SteamVRController
-X\n'NETWORK_DISCONNECT_BADSPECTATORPASSWORD
-X\n'NETWORK_DISCONNECT_DIFFERENTCLASSTABLES
-X\n(NETWORK_DISCONNECT_INVALID_MESSAGE_ERROR
 XboxSystemInterface001
-XuV\v
-Y(Optional) Starting index to begin enumeration at. Defaults to the beginning of the list."Z\n"CCloud_EnumerateUserFiles_Response
-Y9j;
 YYYY
-Y\n)NETWORK_DISCONNECT_NO_PEER_GROUP_HANDLERS
-Y\n*NETWORK_DISCONNECT_STRINGTABLEMSG_OVERFLOW
-Y\n0NETWORK_DISCONNECT_REJECT_SERVERCDKEYAUTHINVALID
-Y\n\fdescriptor_t
-Y\n\nsortmethod
 Y_txt
 Yacht : voiced palatal approximant
 Yaw; 
 YawArrow
-YcuP.
 YellowBlood
-YiR\n
-Yni5$.
 You %s have at least %d friends in the game.\n
 You are #%d in line of %d waiting players.\n
 You are banned from this chat room and may not join.
 You have been waiting for approximately %02d:%02d.\n
 You need to name the scheme (%s)!
 Z0000
-Z49r
-Z9O>
-Z>github.com/golang/protobuf/protoc-gen-go/descriptor;descriptor
 ZEo^
 ZFP compression is not supported in this build
 ZFP compression is not supported.
-ZGet me the mutual friends for each of my pending incoming invites (individuals and clans).
-ZInclude files that have all the tags or any of the tags if match_all_tags is set to false.
 ZN18CNewParticleEffect7RestartEvEUlvE_
 ZOOM
-Z\n(NETWORK_DISCONNECT_REMOTE_CERTNOTTRUSTED
-Z\n*NETWORK_DISCONNECT_REJECT_INVALIDKEYLENGTH
-Z\n+NETWORK_DISCONNECT_CONNECT_REQUEST_TIMEDOUT
 Zap : voiced alveolar fricative
-Zc!Q
 Zero length tRNS chunk
 Zipping %s (%d files)\n
-Zx?HuS-
-Z}uU 
 [ (%f, %f, %f, %f), (%f, %f, %f, %f), (%f, %f, %f, %f), (%f, %f, %f, %f) ]
 [ (%g, %g, %g), (%g, %g, %g), (%g, %g, %g), (%g, %g, %g) ]
 [%.3f] Event "%s"\n
@@ -16397,6 +14742,7 @@ Z}uU
 [%d] -> gsn(%s)
 [%d] Decode %.3f: 
 [%d] NULL
+[%g %g %g]
 [%s %.3f] Anim Event %d -> '%s'(%d)\n
 [%s %.3f] Sound event skipped because %i sound events were fired at once!\n
 [+%d identical]
@@ -16406,26 +14752,33 @@ Z}uU
 [-1] -> gsn(null)
 [-CColorWheelSceneObjectDesc
 [A:%u:%u:%u]
+[C:%u:%u]
 [CC Log %s]: d: %f, ls: %f, %s\n
-[Calculates and returns what to display for UI that renders new steam announcement available
 [DIFFERS]
+[G:%u:%u]
 [GAMEEVENT] Event '%s' (index %d) added %s listener %p\n
 [GS %s - %7.2f] %s
+[I:%u:%u]
+[L:%u:%u]
 [M:%u:%u:%u]
 [OVERRIDE] Applied controller override to at least one outfit.\n
 [OVERRIDE] Applied hand override, disabling for future runs.\n
 [OVERRIDE] Applying current hand or controller model %s to outfit %d.\n
 [OVERRIDE] Applying hand override %s to all outfits.\n
 [OVERRIDE] Applying non-finger-tracking hand model %s to outfit %d.\n
+[P:%u:%u]
 [RESPONSELIB] %s\n
+[T:%u:%u]
 [U:%u:%u:%u]
-[\n+NETWORK_DISCONNECT_REJECT_INVALIDCONNECTION
+[U:%u:%u]
+[a:%u:%u]
+[c:%u:%u]
 [dt %5.2f] velocity: %s
 [ex %5.2f] extrap  : frac %.6f%s
-[flC 
+[g:%u:%u]
 [h] %8llx (%-30.30s) <%3.3s> [loc] %-33.33s [abs] %-33.33s [ang] %-33.33s [s] %5.3f
+[i:%u:%u]
 [in %5.2f] interp  : frac %.6f%s
-[jRDe
 [language] compiles one daisy wheel input dictionary
 [lazy = true] can only be specified for submessage fields.
 [len=%d sz=%d]
@@ -16435,16 +14788,11 @@ Z}uU
 [packed = true] can only be specified for repeated primitive fields.
 [prefix]: matches a string prefix
 [unknown]
-[xYq|m
 \ at end of pattern
 \%03o
 \C not allowed in lookbehind assertion
 \N is not supported in a class
 \U%08x
-\\n)NETWORK_DISCONNECT_PURESERVER_CLIENTEXTRA
-\\n*NETWORK_DISCONNECT_LOOP_LEVELLOAD_ACTIVATE
-\\n.NETWORK_DISCONNECT_REQUEST_HOSTSTATE_HLTVRELAY
-\\n\tlanguages
 \c at end of pattern
 \c must be followed by an ASCII character
 \f?C_SceneEntity
@@ -16459,561 +14807,14 @@ Z}uU
 \n  Problem     : 
 \n  Problem     : Enum value did not match field type:\n    Expected  : 
 \n  Problem     : Field is not the right type for this message:\n    Expected  : 
-\n CMsgGCToGCMasterBroadcastMessage
-\n CPlayer_GetNicknameList_Response
-\n CSVCMsg_GameSessionConfiguration
-\n google/protobuf/descriptor.proto
-\n!CCloud_EnumerateUserFiles_Request
-\n!CPublishedFile_GetDetails_Request
-\n"CMsgGCMsgMasterSetClientMsgRouting
-\n"CPlayer_GetLastPlayedTimes_Request
-\n"GetMutualFriendsForIncomingInvites
 \n################################################################################\n\n
-\n#CPlayer_GetGameBadgeLevels_Response
-\n#CPlayer_GetLastPlayedTimes_Response
-\n#CPublishedFile_GetUserFiles_Request
-\n#CWorkshop_AddSpecialPayment_Request
-\n$CClientMsg_SetControllerTipTransform
-\n$CMsgNotificationOfSuspiciousActivity
-\n$CPublishedFile_GetUserFiles_Response
-\n%CWorkshop_GetSpecialPayments_Response
-\n%CWorkshop_SetItemPaymentRules_Request
 \n%d total counted strings.
-\n&CGCSystemMsg_GetPurchaseTrust_Response
-\n'CCommunity_GetClanAnnouncements_Request
-\n'CGCSystemMsg_GetAccountDetails_Response
-\n'CPlayer_GetFriendsGameplayInfo_Response
-\n'steammessages_cloud.steamworkssdk.proto
-\n'steammessages_oauth.steamworkssdk.proto
-\n(CCommunity_GetClanAnnouncements_Response
-\n(steammessages_player.steamworkssdk.proto
-\n)CPublishedFile_RefreshVotingQueue_Request
-\n*COAuthToken_ImplicitGrantNoPrompt_Response
-\n*CWorkshop_PopulateItemDescriptions_Request
-\n+CGCSystemMsg_ReportExternalPurchase_Request
 \n------- CLIENT SOUNDSCAPES (%d total) -------\n
-\n-CPlayer_GetNewSteamAnnouncementState_Response
-\n-steammessages_helprequest.steamworkssdk.proto
-\n.steammessages_unified_base.steamworkssdk.proto
-\n/steammessages_publishedfile.steamworkssdk.proto
-\n1CHelpRequestLogs_UploadUserApplicationLog_Request
-\n3CPlayer_GetMutualFriendsForIncomingInvites_Response
-\n@scz
-\nCwf\r
-\nDOZ
 \nDictionary: %s\n
-\n\fCLC_Messages
-\n\fCNETMsg_Tick
-\n\fDEM_FileInfo
-\n\fDEM_SaveGame
-\n\fDEM_SyncTick
-\n\fDIALOG_ENTRY
-\n\fEDACPlatform
-\n\fFieldOptions
-\n\fGetUserFiles
-\n\fIgnoreFriend
-\n\fLITE_RUNTIME
-\n\fNET_Messages
-\n\fPARTNER_NONE
-\n\fPlayed_Audio
-\n\fPrefetchType
-\n\fRIO_NO_ROUTE
-\n\fROLL_CREDITS
-\n\fRemoveFriend
-\n\fSTRING_PIECE
-\n\fSVC_Messages
-\n\fTE_BubblesId
-\n\fTYPE_FIXED32
-\n\fTYPE_FIXED64
-\n\fTYPE_MESSAGE
-\n\fUM_GameTitle
-\n\fUM_SendAudio
-\n\fUM_VoiceMask
-\n\fWEBAPI_PARAM
-\n\facceleration
-\n\faccount_name
-\n\faudible_mask
-\n\favg_data_out
-\n\favg_loss_out
-\n\fbadge_border
-\n\fbi_GameEvent
-\n\fbi_RelayInfo
-\n\fborder_color
-\n\fbroadcast_id
-\n\fcommand_line
-\n\fcommand_name
-\n\fcommentcount
-\n\fcontributors
-\n\fconvar_value
-\n\fcountry_code
-\n\fdire_team_id
-\n\fdisplay_name
-\n\fdouble_value
-\n\feffect_scale
-\n\femail_format
-\n\fencode_flags
-\n\fentity_index
-\n\ffade_in_time
-\n\ffields_index
-\n\ffile_version
-\n\fflagstoclear
-\n\fforce_fileid
-\n\ffriend_count
-\n\ffriends_name
-\n\fimage_height
-\n\fincompatible
-\n\fis_dedicated
-\n\fis_extension
-\n\fis_localonly
-\n\fjava_package
-\n\flandmarkname
-\n\flog_contents
-\n\flow_priority
-\n\fmachine_name
-\n\fmaterialtype
-\n\fmessagessize
-\n\fminblendrate
-\n\fnetwork_name
-\n\fnum_children
-\n\fnum_commands
-\n\fnum_elements
-\n\fpartner_name
-\n\fpersona_name
-\n\fplayer_index
-\n\fplayer_level
-\n\fposttoserver
-\n\fprevhopcount
-\n\fprocess_name
-\n\fredirect_uri
-\n\fref_trans_id
-\n\frender_width
-\n\fsavegamename
-\n\fscreen_width
-\n\fserver_count
-\n\fservice_list
-\n\fshortcutname
-\n\fsignon_state
-\n\fstart_effect
-\n\fsteamid_left
-\n\fstring_value
-\n\fsvc_BSPDecal
-\n\fsvc_PeerList
-\n\fsvc_Prefetch
-\n\fsvc_SetPause
-\n\fswift_prefix
-\n\fsync_version
-\n\ftexture_name
-\n\ftime_created
-\n\ftime_updated
-\n\fvar_name_sym
-\n\fvar_type_sym
-\n\fwait_seconds
-\n\fwebapi_param
-\n\fworldgroupid
-\n\nCM_SetSkin
-\n\nDEM_Packet
-\n\nDIALOG_MSG
-\n\nEErrorCode
-\n\nEM_DoSpark
-\n\nGetDetails
-\n\nIDEMPOTENT
-\n\nOAuthToken
-\n\nROLL_STATS
-\n\nRP_UNPAUSE
-\n\nTE_DecalId
-\n\nTE_SmokeId
-\n\nTYPE_BYTES
-\n\nTYPE_FLOAT
-\n\nTYPE_GROUP
-\n\nTYPE_INT32
-\n\nTYPE_INT64
+\nF%u
 \n\nTotal Frames : %3i\n\n
-\n\nUM_HudText
-\n\nUM_SayText
-\n\nUM_TextMsg
-\n\naccount_id
-\n\naddon_name
-\n\nalert_type
-\n\nattachment
-\n\nban_reason
-\n\nbrightness
-\n\nbytes_read
-\n\nclass_name
-\n\ncmd_number
-\n\ncurr_items
-\n\ndamagetype
-\n\ndelta_from
-\n\ndemo.proto"
-\n\ndependency
-\n\ndeprecated
-\n\neffectname
-\n\nemail_lang
-\n\nentity_msg
-\n\nevent_mask
-\n\nevent_name
-\n\nfadelength
-\n\nfakeplayer
-\n\nflag_value
-\n\nfow_radius
-\n\nframe_data
-\n\nfriends_id
-\n\nfrontcolor
-\n\ngameitemid
-\n\nget_misses
-\n\ngo_package
-\n\nhigh_value
-\n\ninput_list
-\n\ninput_name
-\n\ninput_type
-\n\nis_ambient
-\n\nis_limited
-\n\nitemdefids
-\n\nk_MsgValid
-\n\nlogon_jobs
-\n\nmenustring
-\n\nmod_enable
-\n\nmodel_name
-\n\nmodelindex
-\n\npackage_id
-\n\npanel_type
-\n\npartner_id
-\n\nplayername
-\n\nplayerslot
-\n\nprocess_id
-\n\nqueue_size
-\n\ns1_mapname
-\n\nsecret_key
-\n\nsendprop_t
-\n\nserver_url
-\n\nservice_id
-\n\nset_frozen
-\n\nshortcutid
-\n\nsimplified
-\n\nskin_token
-\n\nstack_hash
-\n\nstart_time
-\n\nstartframe
-\n\nstartindex
-\n\nstat_value
-\n\nstrip_html
-\n\nsubscriber
-\n\nsvc_Sounds
-\n\nswap_width
-\n\ntable_name
-\n\ntoken_name
-\n\nupdatetime
-\n\nval_string
-\n\nval_uint64
-\n\nvalidslots
-\n\nvisibility
-\n\nvoice_data
-\n\nvotes_down
-\n\nwearableid
-\n\rCDemoSyncTick"$\n
-\n\rCDotaGameInfo
-\n\rCM_SpawnPanel
-\n\rCSVCMsg_Print
-\n\rDEM_ClassInfo
-\n\rEDemoCommands
-\n\rEM_PlayJingle
-\n\rMethodOptions
-\n\rPublishedFile
-\n\rRoutingMethod
-\n\rTE_BSPDecalId
-\n\rTE_BeamEntsId
-\n\rTE_BeamRingId
-\n\rTYPE_SFIXED32
-\n\rTYPE_SFIXED64
-\n\rUM_AmmoDenied
-\n\rUM_CreditsMsg
-\n\rUM_ItemPickup
-\n\rUM_ScreenTilt
-\n\rUM_UnlockItem
-\n\rbaseline_tick
-\n\rbytes_written
-\n\rcan_subscribe
-\n\rclc_VoiceData
-\n\rcode_filename
-\n\rcomputer_guid
-\n\rcontext_value
-\n\rcontrol_point
-\n\rcreator_appid
-\n\rcurrency_code
-\n\rcurrency_name
-\n\rdefault_value
-\n\rdelete_misses
-\n\rdire_team_tag
-\n\rentity_handle
-\n\rerror_message
-\n\rfade_out_time
-\n\rgamesessionid
-\n\rhcontent_file
-\n\ris_banned_now
-\n\ris_cyber_cafe
-\n\ris_subscribed
-\n\ris_transition
-\n\ris_vac_banned
-\n\rk_ESE_Source1
-\n\rk_ESE_Source2
-\n\rlast_playtime
-\n\rneeds_decoder
-\n\rnet_SetConVar
-\n\rnet_StringCmd
-\n\rnotify_client
-\n\rnum_tv_relays
-\n\rowner_ehandle
-\n\rpacked_fields
-\n\rpacked_params
-\n\rphp_namespace
-\n\rplayback_time
-\n\rpreviouslevel
-\n\rpurchase_type
-\n\rremove_decals
-\n\rrender_height
-\n\rrender_system
-\n\rrequired_tags
-\n\rreserved_name
-\n\rrt_birth_date
-\n\rsave_game_key
-\n\rscreen_height
-\n\rsearch_string
-\n\rsend_node_sym
-\n\rsend_to_users
-\n\rshould_delete
-\n\rsnapshot_name
-\n\rsource_app_id
-\n\rsteamid_locks
-\n\rsteamid_right
-\n\rsubscriptions
-\n\rsvc_ClassInfo
-\n\rsvc_StopSound
-\n\rsvc_VoiceData
-\n\rsvc_VoiceInit
-\n\rtarget_entity
-\n\rteam_behavior
-\n\rthey_hear_you
-\n\rtick_interval
-\n\rtotal_data_in
-\n\ruser_sessions
-\n\rvalidate_only
-\n\rworkshop_file
-\n\ryielding_jobs
-\n\ryou_hear_them
-\n\tCGameInfo
-\n\tDEM_Error
-\n\tROLL_NONE
-\n\tSubscribe
-\n\tTE_DustId
-\n\tTE_FizzId
-\n\taccountid
-\n\tadminonly
-\n\tamplitude
-\n\tbackcolor
-\n\tban_masks
-\n\tbit_count
-\n\tboneindex
-\n\tcheck_fow
-\n\tclassname
-\n\tcmd_flush
-\n\tcmdstring
-\n\tcode_path
-\n\tcpu_usage
-\n\tcvar_name
-\n\tdedicated
-\n\tdef_index
-\n\tdemo_tick
-\n\tdir_index
-\n\tdirection
-\n\tendentity
-\n\tent_index
-\n\tevictions
-\n\texplosive
-\n\tfavorited
-\n\tfile_size
-\n\tfile_type
-\n\tfollowers
-\n\tframerate
-\n\tfrequency
-\n\tgame_data
-\n\tgame_info
-\n\tgame_mode
-\n\tgame_team
-\n\tgc_app_id
-\n\tgc_binary
-\n\thaloindex
-\n\thas_panel
-\n\thero_name
-\n\thold_time
-\n\thost_loss
-\n\thost_name
-\n\timage_url
-\n\tinit_time
-\n\tint_value
-\n\tip_public
-\n\tis_replay
-\n\titemdefid
-\n\tjson_name
-\n\tline_item
-\n\tlist_type
-\n\tlongitude
-\n\tlow_value
-\n\tmagnitude
-\n\tmap_entry
-\n\tname_part
-\n\tp2p_Voice
-\n\tpackageid
-\n\tpreviewid
-\n\tprice_usd
-\n\tproximity
-\n\trecipient
-\n\trule_type
-\n\tschema_kv
-\n\tsend_time
-\n\tsender_id
-\n\tshardsize
-\n\tsignature
-\n\tsoid_type
-\n\tsortorder
-\n\tsound_num
-\n\tsoundname
-\n\tsource_gc
-\n\tsteam_ids
-\n\tsvc_dummy
-\n\ttickcount
-\n\ttimestamp
-\n\ttype_name
-\n\tval_float
-\n\tval_short
-\n\tworldname
-\n\vCDemoPacket
-\n\vCM_MAX_BASE
-\n\vCM_SetModel
-\n\vDEM_UserCmd
-\n\vDIALOG_MENU
-\n\vDIALOG_TEXT
-\n\vEM_FixAngle
-\n\vEnumOptions
-\n\vFileOptions
-\n\vROLL_OUTTRO
-\n\vTE_ImpactId
-\n\vTE_SparksId
-\n\vTYPE_DOUBLE
-\n\vTYPE_SINT32
-\n\vTYPE_SINT64
-\n\vTYPE_STRING
-\n\vTYPE_UINT32
-\n\vTYPE_UINT64
-\n\vUM_HintText
-\n\vUM_HudError
-\n\vUM_MAX_BASE
-\n\vUM_ResetHUD
-\n\vUM_SayText2
-\n\vUM_ShakeDir
-\n\vUM_ShowMenu
-\n\vUM_VGUIMenu
-\n\vUnsubscribe
-\n\vaccount_ids
-\n\vachievement
-\n\vactive_jobs
-\n\vage_seconds
-\n\vallow_alias
-\n\vattach_type
-\n\vavg_data_in
-\n\vavg_loss_in
-\n\vbadge_level
-\n\vbaseline_nr
-\n\vcamera_type
-\n\vclient_addr
-\n\vclient_name
-\n\vconvar_name
-\n\vdelay_value
-\n\vdelete_hits
-\n\vdialog_type
-\n\vdisplaytime
-\n\vease_in_out
-\n\veffect_name
-\n\veffectindex
-\n\vent_ehandle
-\n\ventity_data
-\n\ventityindex
-\n\veventsource
-\n\vfrom_player
-\n\vgame_winner
-\n\vhidden_only
-\n\vimage_width
-\n\vin_wishlist
-\n\vinput_param
-\n\vis_adjacent
-\n\vis_headless
-\n\vis_sentence
-\n\vis_verified
-\n\visrecording
-\n\vlogo_length
-\n\vlogon_queue
-\n\vmax_classes
-\n\vmax_clients
-\n\vmax_entries
-\n\vmessagename
-\n\vmethod_name
-\n\vmodel_index
-\n\vnet_message
-\n\vnum_clients
-\n\vnum_entries
-\n\vnum_reports
-\n\vobject_data
-\n\voneof_index
-\n\votherentity
-\n\voutput_type
-\n\vpause_group
-\n\vpayloadData
-\n\vping_avg_ms
-\n\vplatform_id
-\n\vplayer_name
-\n\vplayer_slot
-\n\vplayerindex
-\n\vpreview_url
-\n\vrandom_seed
-\n\vregion_code
-\n\vremote_addr
-\n\vsample_rate
-\n\vsearch_type
-\n\vserver_addr
-\n\vserver_name
-\n\vserver_port
-\n\vshould_draw
-\n\vsound_index
-\n\vsound_level
-\n\vsounddata_t
-\n\vsource_file
-\n\vspawn_count
-\n\vspoiler_tag
-\n\vstartentity
-\n\vstatus_code
-\n\vsteam_level
-\n\vstring_data
-\n\vsurfaceprop
-\n\vsurfacetype
-\n\vsvc_SetView
-\n\vswap_height
-\n\vtable_flags
-\n\vtime_posted
-\n\vtoken_value
-\n\vtotal_files
-\n\vunlock_time
-\n\vworld_scale
 \ng default\n
 \nlibpng version 1.5.2 - March 31, 2011\nCopyright (c) 1998-2011 Glenn Randers-Pehrson\nCopyright (c) 1996-1997 Andreas Dilger\nCopyright (c) 1995-1996 Guy Eric Schalnat, Group 42, Inc.\n
-\rKfie
-\r\n\tCODE_SIZE
-\r\n\tJS_NORMAL
-\r\n\tJS_NUMBER
-\r\n\tJS_STRING
-\r\n\tPFT_SOUND
-\r\n\tTYPE_BOOL
-\r\n\tTYPE_ENUM
-\r\n\tUM_HudMsg
-\r\n\tUM_Rumble
-\r\n\tsvc_Print
 \t"%s" "%.2f"\n
 \t"%s" "%i"\n
 \t"%s" "%llu"\n
@@ -17024,8 +14825,8 @@ Z}uU
 \t%s %2.2f -> %2.2f\n
 \t%s %d/%d \n
 \t%s %lld -> %lld\n
+\t%s%s\n
 \t%s.%s = %lld
-\t6\t9J
 \tFailed delayed player swap!
 \tFlags: 
 \tGoTo
@@ -17034,7 +14835,6 @@ Z}uU
 \tPROCESSING RESPONSE RULE FROM .NUT :\nrulename is %s\n
 \tPrivate script scope:
 \tPublic script scope:
-\tR)v4N
 \tR)v4n
 \tRead %s\t%s%s%s,\tOffs 0x%04x\n
 \tReceived P2P ping reply %d/4 from "%s". Round trip time %.2fms. %s\n
@@ -17052,7 +14852,6 @@ Z}uU
 \t\t\tResponse %d: %s\n
 \t\t\t\t"inputTexture%i"%s\n
 \t\t\t\t\n\n\n\n\n\n\n\n\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r
-\t\t\t\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r
 \t\t\t]\n\t\t}\n\t]\n\t"m_bHiddenAssetFlag" "bool" "1"\n}\n
 \t\t\tusemin: %d\tusemax: %d\n
 \t]\n\t"m_outputTypeString" "string" "%s"\n\t"m_outputFormat" "string" "%s"\n\t"m_textureOutputChannelArray" "element_array"\n\t[\n\t\t"CDmeTextureOutputChannel"\n\t\t{\n\t\t\t"m_srcChannels" "string" "rgba"\n\t\t\t"m_dstChannels" "string" "rgba"\n\t\t\t"m_mipAlgorithm" "CDmeImageProcessor"\n\t\t\t{\n\t\t\t\t"m_algorithm" "string" "%s"\n\t\t\t}\n\t\t\t"m_outputColorSpace" "string" "%s"\n\t\t\t"m_inputTextureArray" "string_array"\n\t\t\t[\n
@@ -17060,12 +14859,7 @@ Z}uU
 \u000
 \u001
 \x%02x
-\|e9d
 ] is an invalid data character in JavaScript compatibility mode
-]\n,NETWORK_DISCONNECT_REJECT_INVALIDRESERVATION
-]r7c
-^\n*NETWORK_DISCONNECT_LOCALPROBLEM_MANYRELAYS
-^f3b
 ^oEZ
 _$gender
 _ITM_deregisterTMCloneTable
@@ -17093,9 +14887,6 @@ _V_strncmp
 _V_strncpy
 _V_strnicmp_fast
 _V_strnistr_fast
-_ZynF
-_\n,NETWORK_DISCONNECT_STEAM_DENY_BAD_ANTI_CHEAT
-_\n-NETWORK_DISCONNECT_REJECT_INVALIDSTEAMCERTLEN
 __DefaultScriptThinkContext
 __DumpScope
 __RegisterGameEventListeners
@@ -17260,22 +15051,11 @@ _vpc_/unity_client_steamtours/linuxsteamrt64/../../../steamtours/avatar_puppet_m
 _vpc_/unity_client_steamtours/linuxsteamrt64/../../../steamtours/c_steamtours_peer2peer.cpp
 _vpc_/unity_client_steamtours/linuxsteamrt64/../../../vr_core/color_wheel_sceneobject.cpp
 _vpc_/unity_client_steamtours/linuxsteamrt64/../../../warp_overlay.cpp
-`7l[4
-`?540
-`AP$N
-`TRg
-`awpf*
 `chunkCount' attribute is not found in the header.
 `fread' error. file may be corrupted.
-`obH
 a numbered reference must not be zero
 a world layer in a dota map
-a$jX
-a2U0*\t
-a?CJ#
-aT,@J
 aZure : voiced postalveolar fricative
-a\tZ7
 a\v6C
 a_fDecodedAlpha >= 0.0f
 a_uiMultithreadingStride > 0
@@ -17284,23 +15064,18 @@ aaaaaaaazzzzzzzz
 abcdefghijklmnopqrrqponmlkjihgfedcba
 abcdefghijklmnopqrstuvwxyzyxwvutsrqponmlkjihgfedcba
 about:blank
+abs( %s )
 absolute
-absolute_timeout
 absolutetags
 absorigin
 absorigin_follow
-account_creation_time
-account_details
 accountid
-achievement_bit_id
-achievement_blocks
 achievement_debug
 achievement_disable
 achievement_earned
 achievement_earned %d %d
 achievement_evaluate
 achievement_event
-achievement_id
 achievement_level
 achievement_name
 achievement_reset
@@ -17311,12 +15086,10 @@ achievement_test_friend_count
 achievement_unlock
 achievement_unlock_all
 achievement_write_failed
-action
 activation
 activation_change_fail
 activationdisabled
 activator
-active_spawngroup_handle
 activity
 actor "%s"\n
 actuallayoutheight
@@ -17326,18 +15099,14 @@ actualuiscale_y
 actualxoffset
 actualyoffset
 add test object
-additionalHops
 additive
 addon_init
 addon_quest_completed_%s
 addoninfo.txt
-addons
 address
 adult male human
 advanced to state %d at %f\n
-affect_ragdolls
 after solve err=%f\n
-aggregate_value
 ai_debug_shoot_positions
 ai_disabled
 ai_model_info
@@ -17348,7 +15117,6 @@ ajaxgetugcforapp
 ajaxgetugcforuser
 aliceblue
 allow_clientside_entities
-allow_clientside_particles
 allow_interaction_from_all_scene_worlds
 allow_overhead
 allow_use
@@ -17366,8 +15134,6 @@ alternateParent
 always_run
 ambientpositionoverride
 ammo2
-ammo_id
-amount
 amount of time players can chat after the game is over
 an argument is not allowed for (*ACCEPT), (*FAIL), or (*COMMIT)
 anchor %.1f %.1f %.1f %.1f %.1f %.1f\n
@@ -17375,9 +15141,7 @@ anchor_angles
 anchor_position
 ang:  %.02f %.02f %.02f
 ang: (%f, %f, %f)\n
-angle
 angle_normalize_positive
-angles
 angles=%f, %f, %f
 angles_left
 angles_right
@@ -17416,18 +15180,9 @@ animgraph_debug_variables
 animgraph_enable
 animgraph_update
 animgraphcontroller
-announcement_gid
-announcement_headline
-announcement_url
 antialias
 antiquewhite
-api_key
-app_id
-app_instance_count
 app_key
-app_name
-appid
-apply_voice_ban_rules
 apps
 aqua
 archive
@@ -17441,21 +15196,16 @@ ascii
 asin
 aspectRatio
 assertion expected after (?(
-associated_workshop_files
 atan
+att(%d:%s)
 attach_camera
-attach_ent_index
 attach_point
 attachedTo
-attachment_new
 attachment_offset
-attachment_old
 attachment_point
 attachment_point_cp1
 attachment_type
 attachment_type_cp1
-attachmentindex
-attachmentname
 attacker
 attempting to create unknown particle system %s
 attenuation
@@ -17463,9 +15213,7 @@ attenuation0
 attenuation1
 attenuation2
 attrib
-attribute_name
 attributes
-audio
 audioparams_t
 auto_countdown
 auto_unragdoll_duration
@@ -17481,31 +15229,18 @@ avatar_num_outfits
 avatar_puppet_clientside
 avatar_wearables
 avelocity
-avg_latency_in
-avg_latency_out
-avg_packets_in
-avg_packets_out
-awpf
 azure
-b+hZ
-b5L#
 bAllow
 bBlock
 bClampEyeAngles
 bClip3DSkyBoxNearToWorldFar
 bDampenEyePosition
-bDh%)
-bE\rF
 bFired
 bOOk : semi-high back rounded vowel
-bPayloadEncrypted
 bRunningEnterExit
-bSB\vd
 bUpdate
 bVoteUp
 bWasRunningAnim
-b\n,NETWORK_DISCONNECT_SPLITPACKET_SEND_OVERFLOW
-b\n\fdescriptor_t
 background-blur
 background-color
 background-color-opacity
@@ -17515,14 +15250,10 @@ background-repeat
 background-size
 badge_border
 badge_level
-badges
 bag of sugar
 baked_light_indexing
 bakelightindex
 bakelightindexscale
-banned
-banner
-base
 base-position
 base-position-variance
 baseAccel
@@ -17539,25 +15270,19 @@ baseanimating_overlay
 baseflex
 baselayer
 baselayer %d
-baseline
 basemodelentity
 basic_string::_S_construct null not valid
 bbox.m_vMaxBounds
 bbox.m_vMinBounds
 beam
 beam_spotlight
-beams
 before solve err=%f\n
-begin
 beginAngle
 beige
 bentnormal
 beta
 bevel
 bg_BG
-bi_RebroadcastGameEvent
-bi_RebroadcastSource
-bi_RelayPacket
 billard ball
 binary
 binary_auto
@@ -17573,21 +15298,16 @@ blanchedalmond
 blank
 blend over this many frames
 blendamount
-blenddeltamultiplier
 blendweight
 blendweights
 blink
 blink_duration
-block1
-block2
-block3
 blockLOS
 bloodimpact
 bloodsplat
 bloodspray
 bloodspray_global_client
 blueviolet
-body
 bodyMassScale
 body_groups
 body_pitch
@@ -17672,10 +15392,8 @@ breakable_model
 breakable_skin
 breakpiece_name_token
 broadcast
-broadcast_group
 brush models
 bspline
-bt3V
 bucket
 bucket1
 bucket_360
@@ -17686,7 +15404,6 @@ buff_attach
 buffer-async
 buffer-sync
 buffer. Use the 'bytes' type if you intend to send raw 
-buftype
 bug -nofocus -auto -title "%s"
 bug!
 bug:
@@ -17706,10 +15423,6 @@ byte
 byte differs (net %d pred %d)\n
 bytes
 bytes. 
-b{wu
-c tul)
-c?Mg'
-c?kdWZF\n
 cAt : semi-low front unrounded vowel
 cHRM Blue X
 cHRM Blue Y
@@ -17719,11 +15432,7 @@ cHRM Red X
 cHRM Red Y
 cHRM White X
 cHRM White Y
-cOL(
 cUt : lower-mid back unrounded vowel
-c\f@ZF
-c\n\tAcceptSSA
-c\rrr
 c_maxdistance
 c_maxpitch
 c_maxyaw
@@ -17732,7 +15441,6 @@ c_minpitch
 c_minyaw
 c_orthoheight
 c_orthowidth
-c_os
 c_peer2peer_netmessages.proto
 c_thirdpersonshoulder
 c_thirdpersonshoulderaimdist
@@ -17746,10 +15454,7 @@ c_vehicleview_t
 cable
 cables_list
 cache_seconds
-cached_file_version
-caches
 cadetblue
-callback_index
 caller
 calloc
 cam_collision
@@ -17771,7 +15476,6 @@ camerazoomin
 camerazoomout
 camortho
 can't reach here.
-can_be_deleted
 cancelselect
 cantdie
 capslockwarn
@@ -17787,16 +15491,13 @@ catmullrom
 catmullrom_normalize
 catmullrom_normalize_x
 catmullrom_tangent
-cc^G
 cc_captiontrace
 cc_combinedusesgender
 cc_delay_time
 cc_disabled
 cc_emit
-cc_enable_arenas
 cc_findsound
 cc_flush
-cc_generic_services
 cc_lang
 cc_linger_time
 cc_master
@@ -17830,7 +15531,6 @@ chainName
 chainname
 change callback msec warning limit
 change callback spew threshold %f msecs\n
-change_control_point_attachment
 changelevel
 changelevel %s
 changing primary controller type from %s to %s\n
@@ -17860,13 +15560,11 @@ childPhysicsMode
 childSpawnGroup
 child_items
 child_piece
-children
 chin_raiser
 chlist
 chocolate
 choices
 chunkCount
-city
 cl_ShowBoneSetupEnts
 cl_aggregate_particles
 cl_anglespeedkey
@@ -18149,61 +15847,29 @@ cl_vprof_scope_entity_gamephys
 cl_yawspeed
 clabelleddebughelper.cpp
 clamping dimensions of panorama world panel from %d x %d to %d x %d! (%.1f" x %.1f" @ %.1f dpi)\n
-clanid
 class 
 class %s - %s instance%s (%.2f%%)\n
 class, duration, pre-delay
 class, eventToFire
 class, pre-delay
-class_id
-class_t
-classes
 classname missing from entity!\n
-clc_BaselineAck
-clc_ClientInfo
-clc_ClientMessage
-clc_CmdKeyValues
-clc_FileCRCCheck
-clc_ListenEvents
-clc_LoadingProgress
-clc_Move
-clc_RequestPause
-clc_RespondCvarValue
-clc_ServerPing
-clc_ServerStatus
-clc_SplitPlayerConnect
-clc_SplitPlayerDisconnect
 cli_ent_attachments
 cli_ent_hitbox
 cli_ent_pivot
 cli_ent_skeleton
 cli_ent_vcollide_wireframe
-client
 clientSideAnimCycleReset
 clientSideAnimationChanged
 clientSideChildModel
 client_disconnect
 client_disconnected
-client_ehandle
 client_entities
-client_language
-client_launcher
-client_msg_ranges
 client_ragdoll
-client_session_id
-client_session_need
-client_steam_id
-client_streaming
 client_ui_panel
-clientbitcount
 clientcmd_can_execute
-clientid
 clientmessages.proto
-clientmessages.proto">\n
 clientphysprops
-clients
 clientside_lesson_closed
-clientsideentity
 climbable
 clip2_size
 clip_3D_skybox_near_to_world_far
@@ -18231,40 +15897,30 @@ cloth_update
 cloth_update_bones_on_ticks
 cmd%d setpos %f %f %f;setang %f %f %f\n
 cmd%d voice_modenable 1
-cmd_get
-cmd_set
 cntrl
-codec
 cojob.cpp
 cojobmgr.cpp
 collapse
-collection_type
 collision_group
 collision_group_override
 collision_prop
-color
 color-stop
 color-stop( %s, 
 color1
-color2
 colorPrimaryLerpTo
 colorSecondary
 colorSecondaryLerpTo
 color_picker
 color_tint
 color_wheel
-com.google.protobufB
 combat_weapon_clone
 combo
-command
 command_number
-command_prefix
 commands
 community
 community_wall
 compiles daisy wheel input dictionaries to more performant form
 composite
-compressed_msg
 compression
 condensed
 conditional group contains more than two branches
@@ -18280,9 +15936,6 @@ constrainedEventID
 constraint_axislimit_t
 constraint_breakableparams_t
 constraint_hingeparams_t
-consumer_appid
-consumer_shortcut_name
-consumer_shortcutid
 contain
 content
 contentdb_user_values
@@ -18292,15 +15945,12 @@ context
 context-menu-arrow-position
 context-menu-body-position
 context-menu-position
-context_player_id
 context_speaker
-context_team_id
 context_world
 contrast
 control_point
 control_points_list
 controller '%s' attached: role = '%s' device index = %d\n
-controller_type_name
 controlpoint_initialized
 controlpoint_updatecapping
 controlpoint_updateimages
@@ -18309,10 +15959,8 @@ controlpoint_updateowner
 controls
 controlsnotfullscreen
 convar
-convars
 convert_steamid
 converts delta QAngle to an angular velocity Vector
-cookie
 coord_integral
 core.global_stack
 core.soundscape_2d
@@ -18320,42 +15968,33 @@ core.soundscape_3d
 corner_depressor
 cornflowerblue
 cornsilk
+cos( %s )
 cosmos
 cosmos_controllers
 couldn't load scene file %s\n
-count
 countdown_seconds
 countdown_state
 countdown_time
-country
 cp0_model
 cp0_snapshot
 cp_number
 cpoint%d
 cpoint%d_value
-cppclass
 cpu_level
 crate
 create detail panel functor
 createClientSideChild
 create_flare
-create_on_client
-create_particle
 createmove
-creationsequence
 creator
 creator_steamid
 crimson
 criteria
 criteria is an array of %d\n
-critical
 crosshair
 cs_CZ
-csharp_namespace
 css_classes
 cstring
-ctype
-cuP.2f
 cubemapfogenddistance
 cubemapfogfalloffexponent
 cubemapfogheightexponent
@@ -18367,9 +16006,6 @@ cubemapfogtexture
 cubic-bezier
 cull_mode
 cur_val
-curr_connections
-currency
-current
 current_avatar_hands
 current_avatar_head
 current_destination
@@ -18386,24 +16022,17 @@ customgamemode
 customorigin_follow
 cvar_getf
 cvar_setf
-cvars
-cycle
 cycler
 cycler at %.0f %.0f %0.f missing modelname\n
 cycler_flex
 cycler_flex used on model "%s" specified unknown sequence "%s"\n
 cycler_flex used on model %s without enough flexes.\n
 czech
-d2f\
 d3_breen_01
 d3_citadel_03
 d3_citadel_04
 d3_citadel_05
-dN<\fR
 dOg : lower-mid back rounded vowel
-dW98
-dYp\n
-d\n-NETWORK_DISCONNECT_LOCALPROBLEM_NETWORKCONFIG
 da_DK
 daisywheel
 damageForce
@@ -18434,25 +16063,16 @@ darkturquoise
 darkviolet
 dashed
 dashed-light
-data
 data error
 data height too large.
 data width or data height is negative.
 data width too large.
-data1
-data2
 dataWindow
-data_compressed
 data_height = 
-data_table_name
 data_valid
 data_with or data_height too large. data_width: 
-date
-days_to_expiration
-ddg?
 de_DE
 deadflag
-deadlock_retries
 deathmatch
 debug - disable trace query cache
 debug of origin changes for %d set to %s\n
@@ -18465,8 +16085,6 @@ decalFadeDuration
 decalScale
 decalScaleVariation
 decalStartFadeTime
-decal_texture_index
-decalmaterialindex
 dedicated
 deeppink
 deepskyblue
@@ -18488,23 +16106,17 @@ degrees from horizontal for the notifications panel
 delay, eventToFire
 delete
 demo.proto
-demo_file_stamp
 demo_skip
 demo_start
 demo_stop
 demofile
-density
 depletioncount
-depth
 depth_offset
 depth_render_offset
 descendantfocus
 descriptor
-desired
-desired_queue_size
 desiredlayoutheight
 desiredlayoutwidth
-dest
 destination_name
 destination_title
 destinations_base_game_mode
@@ -18546,12 +16158,8 @@ destinations_shown_tutorial
 destinations_spawn_panel
 destinations_spawn_trophy
 destinations_unlock_items
-destroy_immediately
-destroy_particle
-destroy_particle_involving
 detach_from_owner
 detail props
-details
 dev/panorama_world_panel_default.vmat
 dev/panorama_world_panel_hint_ui.vmat
 dev/panorama_world_panel_lit_default.vmat
@@ -18594,7 +16202,6 @@ displacements
 display
 displayWindow
 displaytext
-distance
 distance from the player to the hud
 distance from the player to the item browser
 distance from the player to the menu
@@ -18611,16 +16218,10 @@ dmg.fire
 do not
 doClientSideAnimation
 dodgerblue
-domain
 dormant
 dormant child
-dota
 dota_ambient_cloth
 dota_dev missing_effect %s
-dota_replay_speed
-dota_spectator_autospeed
-dota_spectator_hero_index
-dota_spectator_mode
 dota_use_controller
 dotted
 double
@@ -18628,7 +16229,6 @@ double_shot
 double_shot_npc
 down-wrap
 down-wrap-left
-download_amount
 download_pending
 dpi of the menu
 dpi of the notifications panel
@@ -18640,33 +16240,23 @@ dropdownbodyposition
 dropshadow
 dsp_player
 dsp_volume
-dt_name
 dualtouch
 dummy
 dump origin and angles to the console
 dump position and angles to the console
 dump screenshots at all supported video modes
 dump_secondary_scene_worlds
-duration
 dutch
 dynamic lighting
 dynamicAttachOffset
 dynamicResetCount
 dynamic_interaction
 dynamic_prop
-d|N0
-e0F$
-e0F$J
-e?RR
 eCarryLerpType
-eDc?t
 eLiteralHandType
 eLogicalHandType
 eMatchingeMatchingUGCTypeFileType
-eQueryCvarValueStatus_NotACvar
 eQueryType
-eZQ9\
-e\n\vPartnerInfo
 eaFO
 ease-in
 ease-in-out
@@ -18676,28 +16266,21 @@ easeinout
 easeout
 econ
 edictindex
-effect
 effectStateChanged
 effect_alive
-effect_amplitude
-effect_duration
 effect_for_config
-effect_frequency
 effect_name
-effect_name_hash_code
 effect_simplified
 effectname
 effects
 effortblocks = %d\n
 eh 0x%p
-ehandle
 eikonal
 el_GR
 electrical
 elephant
 ellipsis
 email
-email_msg_type
 embedded
 embeddedutlvector
 emitFromWorld
@@ -18708,7 +16291,6 @@ enable_limit
 enable_offscreen_indicator
 enableexposure
 encodingTry.m_fError < 3.40282346638528859812e+38F
-encryptedPayloadKey
 end %f %f %f
 end-time
 endAngle
@@ -18717,8 +16299,6 @@ endTime
 end_time
 endpos
 endtime
-endwidth
-engine
 engine2
 english
 ent yaw: %.2f, body_yaw: %.2f, body_pitch: %.2f, move_x: %.2f, move_y: %.2f
@@ -18740,7 +16320,6 @@ ent_revert_dormancy_change
 ent_test_interpolation
 ent_text_filter %s
 enthit
-entity
 entity # %i: %s%s%s\n
 entity2
 entity2_networking.cpp
@@ -18749,26 +16328,18 @@ entity_component_error_class_decl_says_contained_but_impl_is_referenced
 entity_component_error_class_decl_says_referenced_but_impl_is_contained
 entity_dissolve
 entity_dissolve_core
-entity_handle_for_modifiers
 entity_hurt
-entity_keyvalues
 entity_killed
 entity_log_load_unserialize
 entityclass.cpp
 entitydissolve_glow
-entityfiltername
 entityflame
-entityhandleindex
 entitykeyvalues.cpp
 entitykv
-entitylumpname
 entityname
 entitysystem.cpp
 entitytable_t
-entries
 enum
-enum_description
-enum_value_description
 env sprite previewer
 envMapArray.vtex
 env_clock
@@ -18797,41 +16368,31 @@ ep2_groggy
 episodic_intro
 episodic_stun
 equip_sound
-eresult
-eresult_deprecated
-erjg
 erroffset passed as NULL
 error %s:  %s\n
 error in transition graph: %s to %s\n
 error in user chunk
 error opening required file %s\n
-errors
 es-419
 es_419
 es_ES
 escape
-ethe resulting relationship.  Depending on state, may move directly to friends rather than invite sent"R\n
-ev/Z
 evcode
 evenodd
-event
 event %s "%s"\n
 event:
 eventID
 event_class
 event_keys
 event_ramp
-event_t
-eventarraybits
-eventid
 eventindex
-events
 evparam
 example_param
 exampleeffect
 exclude_from_save_games
 execifexists 360controller.cfg
 execifexists undo360controller.cfg
+exp( %s )
 expanded
 expecting =\n
 expecting channel got %s\n
@@ -18868,9 +16429,6 @@ exposurespeedup
 expressions
 expressions/%s.vfe
 extend .$0 {\n
-extended_details
-extendee
-extension_range
 extent_origin_left
 extent_origin_min_left
 extent_origin_min_right
@@ -18892,7 +16450,6 @@ f == __null || dynamic_cast<To>(f) != __null
 fAther : low back unrounded vowel
 fAther : low front unrounded vowel
 fEEl : high front unrounded vowel
-fH5\n
 fIll : high central unrounded vowel
 fIll : semi-high front unrounded vowel
 fMinAlpha <= fMaxAlpha
@@ -18903,7 +16460,6 @@ fWeightSumBottom > 0.0f
 fWeightSumLeft > 0.0f
 fWeightSumRight > 0.0f
 fWeightSumTop > 0.0f
-fWkrB
 faceMergeAngle
 faceposermodel
 fade a player's screen to black when he dies
@@ -18914,15 +16470,10 @@ fadeoutTime
 fadescale
 failed (+exclude rule)
 failed to get memory
-failed_lookup_steamids
 fake_workshop_download_delay
 fake_workshop_download_time
-fallback
-fallback_position
 falloff
 false
-false"
-false:A\n
 fastreload
 fatvertex
 favorited_time
@@ -18935,11 +16486,7 @@ fflush
 fi_FI
 field
 fieldName
-field_serializer_name_sym
-field_serializer_version
-fields
 fieldtype_t
-file
 file error
 file://
 file://{images}/
@@ -19003,12 +16550,7 @@ file://{resources}/layout/vr_content_browser.xml
 file://{resources}/layout/vr_friends.xml
 file://{resources}/layout/world_hint.xml
 file://{resources}/steamtours_keybinds.cfg
-file_description
-file_url
-fileid
-filename
 filepos
-files
 filetype
 fill 
 fill-parent-flow
@@ -19077,7 +16619,6 @@ fire_interactions
 firebrick
 firetrigger
 fireworks
-first_playtime
 fish_debug
 fish_pos_x
 fish_pos_y
@@ -19221,33 +16762,21 @@ footstep_debug
 footstep_force_volume
 fopen64
 forbidden_target
-force
 forceLimit
 force_centerview
 force_npc_height
-forcepos
 forceshortmovement
 forestgreen
-format
 formats.cpp
-forum_topic_id
-forward
 forward %f\n
-forward_account_details
 forwardmove
-found
 found '%s' in %s\n
-found_friendship
 fov %f\n
-fow_control_point
-fow_control_point2
 fr_FR
-fraction
 frag_grenade_blip_frequency
 framerate
 fread() error on 
 free
-free_trial_expiration
 freecamera_accel
 freecamera_fog_end
 freecamera_fog_start
@@ -19257,7 +16786,6 @@ freecamera_zfar
 freezecam_started
 french
 frexp
-friend_relationship
 friendadd
 friendremove
 friendrequestaccept
@@ -19265,7 +16793,6 @@ friendrequestignore
 friends
 friends menu distance offset
 friends menu offset angle from the main menu
-friendship_timestamps
 frozen
 fseek
 ftell
@@ -19275,7 +16802,6 @@ full_hands
 full_image_url
 full_reset
 full_round
-fullpackets_version
 fullpos
 func
 funcRotatingSimulationTimeSerializer
@@ -19296,14 +16822,8 @@ fx_drawmetalspark
 fx_glass_velocity_cap
 fx_micro_explosion
 fx_tesla
-fx_time
 fxtime
-g(I2
-g5n{
-g?xy
-g?~h0WPb
 gO : upper-mid back rounded vowel
-g\f>RI
 g_GameEventManager.Init()
 g_GameTime
 g_IsToolObject
@@ -19342,22 +16862,15 @@ gameSceneNodeLocalScaleChanged
 gameSceneNodeStepSimulationAnglesSerializer
 gameSceneNodeStepSimulationOriginSerializer
 game_class
-game_dir
-game_directory
 game_event_listener
 game_event_name
-game_id
 game_instructor_counts.txt
 game_interactions
 game_keys
-game_msg
 game_newmap
 game_particle_manager_dump_requeue
 game_particle_manager_requeue_messages
 game_saved
-game_server_sessions
-game_session_config
-game_session_manifest
 game_trophies
 game_ui_dialog
 gameevents.proto
@@ -19376,10 +16889,7 @@ gameinstructor_verbose
 gameinstructor_verbose_lesson
 gameinterfaces.cpp
 gamematerial
-gamemode
-gamerules_masks
 gamerules_roundstate_t
-games
 gamestats.log
 gamestats_
 gametoolevents.proto
@@ -19396,14 +16906,9 @@ gc inter msg %s, SourceAppID %d, version %hd, job source %llu, job target %llu
 gc msg %s, SteamID %llu
 gc msg %s, SteamID %llu, version %hd, job source %llu, job target %llu
 gc^A
-gc_dir_index_source
-gc_info
-gc_name
-gc_socache_file_version
 gcclient.cpp
 gcsdk_gcmessages.proto
 gcsystemmsgs.proto
-gcsystemmsgs.proto*
 gender_t
 generate bone setup statistics
 generated_protosteamtours/linuxsteamrt64/c_peer2peer_netmessages.pb.cc
@@ -19423,7 +16928,6 @@ generic
 generic_hmd
 generic_tracked_controllers
 german
-get_hits
 getenv
 gethostbyname
 getpos
@@ -19431,7 +16935,6 @@ getpos_exact
 getsockname
 ggx_cubemap_blur_accumulation_pass_count
 ghostwhite
-gi]Y
 gl_clear
 gl_clear_gray
 gl_clear_randomcolor
@@ -19451,7 +16954,6 @@ glowrangemin
 glowstate
 gm_UsableObjects
 golf ball
-google.protobuf"G\n
 google.protobuf.
 google.protobuf.Any
 google.protobuf.DescriptorProto.name
@@ -19557,38 +17059,23 @@ gripValue
 groundlink_t CUtlMemoryPool
 group
 group name must start with a non-digit
-guid
 gunshotsplash
 gunshotsplash_global_client
 gustdirchange
 gustduration
 guts
 gx=%d, gy=%d, bx=%d, by=%d\n
-gxXM|Z
-h;K5X]
 hAttacker
-hKgq
-hRTG
-hS^<6?G
 hThinkFunc
-hUK:J
-hW!e
-h\n,NETWORK_DISCONNECT_REMOTE_TIMEOUT_CONNECTING
-h\n\frequiredtags
-h\vcf
 halfhealth
 hand %d is tracking, but doesn't have a valid tracked device index!\n
-hand_ang
 hand_conform_data
-hand_id
-hand_pos
 hand_pose_list
 hand_trackpad_ui
 hand_use_controller_shared
 handforce_inner
 handforce_outer
 handforce_scale
-handid
 handindex
 handle
 handles
@@ -19602,47 +17089,33 @@ hardstopspeakevent
 has-tooltip-target-position
 hasParent
 has_extent
-has_no_recent_password_resets
-has_prior_purchase_history
 has_rotation
-hash
-hat_id
-hcontent_preview
 head_pitch
 head_yaw
 header crc mismatch
 headerdetaillabel
 headerlabel
-headers
 headforce_inner
 headforce_outer
 headforce_strength
 headless
 headlight
-headline
 headtype
 health_override
 healthfrac
-height
 height of the menu
 height of the notifications panel
 height of the player billboard
 height relative to the player's head
 height-percentage
 height-percentage( %s )
-hero_id
-hidden
-hide_adult_content_sex
-hide_adult_content_violence
 hide_freezepanel
 hidehud
-high
 highlight
 hint_name
 hint_panel_fadein
 hint_panel_fadeout
 hitSound
-hitbox
 hitboxset
 hittest
 hittestchildren
@@ -19667,9 +17140,6 @@ horizontal-align
 horizontal_align
 horizontalalign
 horizontalcount
-host_computationtime
-host_frametime
-host_frametime_std_deviation
 host_timescale
 host_timescale 0
 host_timescale 0.0001
@@ -19711,13 +17181,8 @@ hungarian
 hurt_me
 hurt_them
 i < length_
-i(ERemoteStoragePublishedFileVisibility) Visibility of the published file (private, friends, public, etc.)
-i(Optional) Maximum number of results to return on this call. Defaults to a maximum of 500 files returned.
-i3N#
-i3Ns
 i8P/
 iAmmoType
-iA{7
 iBlue >= 0 && iBlue <= 15
 iBlue >= 0 && iBlue <= 31
 iBlue1 >= (signed)(0+a_uiRadius) && iBlue1 <= (signed)(31 - a_uiRadius)
@@ -19745,16 +17210,11 @@ iRed2 >= (signed)(0 + a_uiRadius) && iRed2 <= (signed)(31 - a_uiRadius)
 iRed2 >= 0 && iRed2 <= 31
 iSlideIndex
 iSlideMaterials
-iUK:
-i\n\ttotalonly
 ideal angles
-idempotency_level
 identical
-identifier_value
 idle
 idle: %s, weight: %.2f\n
 idle_to_fist
-ids_only
 if camera moves this much from last anchor update anchor
 if camera orientation changes this much update orientation
 if1R
@@ -19765,7 +17225,6 @@ ignore_input
 ignoredisabledchildren
 ignoring %s.HL%s on %s\n
 ignoring out of range rgb_to_gray coefficients
-ikD0
 ik_abs_origin_height_spring_strength_default
 ik_debug_adjusted_groundheight
 ik_debug_chain_to_filter_by
@@ -19790,7 +17249,6 @@ image_path
 image_width
 img-shadow
 imgscaling
-impact
 impactDecalName
 impactGrazingDecalName
 impact_speed_input
@@ -19802,16 +17260,8 @@ import public "$0";\n
 import weak "$0";\n
 importance
 impulse
-in_game
 in_jlook
-in_logon_surge
 include-scale2d
-include_friendship_timestamps
-include_hidden
-include_partner_events
-include_wearables
-includeadditionalpreviews
-includechildren
 incoming
 inconsistent NEWLINE options
 incorrect data check
@@ -19819,7 +17269,6 @@ incorrect gamma=(%d/100000)\n
 incorrect header check
 incorrect length check
 increment
-index
 index < 10
 indianred
 indigo
@@ -19840,7 +17289,6 @@ info_particle_target
 info_target
 info_visibility_box
 info_world_layer
-infos
 inherit_owner
 initialselection
 innerconeangle
@@ -19879,7 +17327,6 @@ interact_distance
 interactions_data_t
 interactions_t
 interactive
-interface_name
 internal error in map key sorting
 internal error: code overflow
 internal error: overran compiling workspace
@@ -19928,44 +17375,12 @@ invnext
 invnextselect
 invprev
 invprevselect
-ip[[x
 isActive
 isProxy
-is_account_locked_down
-is_background_map
-is_banned_future
-is_bot
-is_browser_visible
-is_community_banned
 is_dashboard_overlay
 is_debris
-is_delta
-is_end
 is_essential_piece
-is_fake_client
-is_free_trial_account
-is_hltv
-is_initial_startup
-is_inventory_public
-is_listenserver_host
-is_loadsavegame
-is_low_violence
-is_multiplayer
-is_phone_identifying
-is_phone_verified
-is_pick
-is_profile_created
-is_profile_public
-is_reply
-is_school_account
-is_steamguard_enabled
 is_template
-is_trade_banned
-is_two_factor_auth_enabled
-is_wallet_cash_trusted
-isactive
-ishltv
-ismember
 isproportional
 isstairs
 iszString
@@ -19973,7 +17388,6 @@ it's a handle %p!!\n
 it_IT
 italian
 italic
-item
 itemKVString
 itemName
 itemPos
@@ -19985,17 +17399,14 @@ item_%u_panel_%u
 item_%u_vroverlay_%s
 item_author
 item_def_%s
-item_description
 item_detail_desc
 item_detail_name
 item_flags
 item_generator
-item_id
 item_index
 item_name
 item_num_ratings
 item_rating_text
-item_schema_crc
 item_theme
 item_type
 item_unlocked
@@ -20003,12 +17414,6 @@ item_unlocked_%llu_%s
 item_unlocked_%s
 itemdefid
 itemheight
-itemid
-itemname
-items
-items_clientside
-items_game_url
-items_t
 itemwidth
 iv_alt1
 iv_alt2
@@ -20050,15 +17455,8 @@ iv_wrapped_parallel_latch
 iv_yaw
 iv_zoom
 ivory
-i~Fs
-jIG9
 ja_JP
 japanese
-java_generate_equals_and_hash
-java_generic_services
-java_multiple_files
-java_outer_classname
-java_string_check_utf8
 javascript:
 jawOpen
 jaw_clencher
@@ -20067,7 +17465,6 @@ jaw_drop
 jaw_open
 jaw_tilt
 jaw_tilt_controller
-jf-E
 jiggle bone %u
 jklmnopqrstuvwxyzyxwvutsrqponmlkj
 job warning: Resuming job '%s (id: %lld)' due to timeout while paused for %s\n
@@ -20134,16 +17531,13 @@ js_object
 js_raw_args
 js_value
 json_name = "
-jstype
 jstype is only allowed on int64, uint64, sint64, fixed64 or sfixed64 fields.
 jumped = %f\n
 jumpfactor
 justify_horizontal
 justify_vertical
-k'JB
 k9J{c>
 kBEAMCLIPSTYLE_NUMBITS
-kBZc
 kGEOCLIP
 kMODELCLIP
 kNOCLIP
@@ -20181,49 +17575,9 @@ kRenderTransColor
 kRenderTransTexture
 kRenderWorldGlow
 k\fClibpng warning: %s
-k\n\fredirect_uri
-k\nd6
-k]jD
-k_EMsgGCClientConnectionStatus
-k_EMsgGCClientHello
-k_EMsgGCClientWelcome
-k_EMsgGCCompressedMsgToClient
-k_EMsgGCPingRequest
-k_EMsgGCPingResponse
-k_EMsgGCServerConnectionStatus
-k_EMsgGCServerHello
-k_EMsgGCServerWelcome
-k_EMsgGCToClientRequestDropped
-k_ENotificationSettingAlways
-k_ENotificationSettingNever
-k_EProtoExecutionSiteUnknown
-k_EProtoExecutionSiteUnknown:<\n
-k_ESOMsg_CacheSubscribed
-k_ESOMsg_CacheUnsubscribed
-k_ESOMsg_Create
-k_ESOMsg_Destroy
-k_ESOMsg_Update
-k_ESOMsg_UpdateMultiple
-k_MsgAlreadyRunning
-k_MsgInvalidAppID
-k_MsgInvalidPartnerInfo
-k_MsgInvalidTransactionData
-k_MsgNoTransactions
-k_MsgPartnerInfoDiscrepancy
-k_MsgSQLFailure
-k_MsgTransactionInsertFailed
-k_eDACPlatform_Android
-k_eDACPlatform_Linux
-k_eDACPlatform_Mac
-k_eDACPlatform_None
-k_eDACPlatform_PC
-k_eDACPlatform_iOS
 kd_large_obj_test
-key_id
-key_t
 keybind_changed
 keyframe_rope
-keys
 kh9F
 kickid "%s"
 killer
@@ -20238,16 +17592,10 @@ kochanek_early
 kochanek_late
 korean
 koreana
-ktsV
 kv 0x%p AddRef refcount == %d\n
 kv 0x%p Release refcount == %d\n
 kv3format_manager.cpp
-kvtags
 l=C8f9
-lAJG
-l\n\fexcludedtags
-l\tTZ
-label
 labelled_debug_helper_arc_segments
 labelled_debug_helper_enabled
 labelled_debug_helper_scale
@@ -20256,20 +17604,14 @@ labelled_debug_helper_show_text
 labelled_debug_helper_skeleton_show_bone_names
 landmarkModelSpace
 landmarkname
-language
-language_preference
 large car
 lastUpdate NaN\n
-last_cmd_number
 last_launch_time
-last_playtimes
 last_sniff
-last_update_time
 lastactivate
 lastinv
 lastupdated
 latam
-latitude
 launch_app_name
 lavender
 lavenderblush
@@ -20280,13 +17622,7 @@ layoutRadius
 layoutfailed
 layoutfile
 layoutloading
-lazy
-lcQe
 ld-linux-x86-64.so.2
-leading_comments
-leading_detached_comments
-leagueid
-left
 left hand
 left-wrap
 left_
@@ -20307,17 +17643,14 @@ leftedge
 legacymaterialtag
 lemonchiffon
 len >= input_len
-length
 length_ >= n
 lesson_name
 lessonname
 letter-spacing
 letters
-level
 levelName
 levellist_t
 levelname
-leveltransition
 lfoot
 libc.so.6
 libclient.so
@@ -20331,12 +17664,7 @@ libuuid.so.1
 libv8.so
 libvideo.so
 libvstdlib.so
-license
-life
 lifetime of a notification
-lifetime_favorited
-lifetime_followers
-lifetime_subscriptions
 lightGroup
 light_*
 light_directional
@@ -20379,7 +17707,6 @@ lightyellow
 limbs
 lime
 limegreen
-limit_maxbytes
 limit_to_piece
 line-height
 line-through
@@ -20389,7 +17716,6 @@ lineartogamma
 linen
 linuxsteamrt64
 listenserver
-literal_hand_type
 load %s
 load animation from file
 load content functor
@@ -20416,20 +17742,15 @@ local_player_team
 local_position
 local_scale
 local_temp_entity
-local_tip_angles
-local_tip_origin
-localnamefixup
 localonly
 localplayer_changeclass
 localplayer_changeteam
-location
 lock:%s locked line %d %s
 lockRotationAlpha
 lockbodyfacing
 locked_by_quest
 locomotive
 log2f
-log_type
 logic_relay
 logo
 long
@@ -20450,9 +17771,6 @@ lowprecisionuv
 lowprecisionuv1
 lseek
 lseek64
-lu9% 
-m ]lZ
-mXr4
 m_Activity
 m_AngConvar
 m_AnimOverlay
@@ -23177,8 +20495,6 @@ malloc
 mamamamamama
 manhack_sparks.vpcf
 manifest
-manifestincomplete
-manifestloadpriority
 manifests/models.vrman
 manual
 map %s
@@ -23187,14 +20503,12 @@ map/perfdata/MinFPS
 map<$0, $1>
 map_background
 map_entry should not be set explicitly. Use map<KeyType, ValueType> instead.
-map_name
 map_shutdown
 map_transition
 mapbuilder.nodraw
 mapbuilder.occluder
 mapkeys.res
 mapload
-mapname
 maps/%s/world_physics.vphys
 maps/home.vpk
 margin-bottom
@@ -23205,8 +20519,6 @@ marked as displayed.\n
 marked as succeeded.\n
 marking %s::%s because it derives from or is a '%s'\n
 maroon
-master
-master_dir_index
 master_morph_weight
 mat_accelerate_adjust_exposure_down
 mat_bloom_scalefactor_scalar
@@ -23264,13 +20576,9 @@ mat_viewportupscale
 mat_wateroverlaysize
 mat_wireframe
 mat_yuv
-match_all_tags
-match_id
 matchend >= matchstart
 matches >= 0
-matching_file_type
 matchstart >= start
-material
 material system and below
 material_group_name
 materials/
@@ -23316,12 +20624,10 @@ maxHullVertices
 maxSpringTension
 maxVerticesPerHull
 max_angle
-max_client_limit
 max_distance
 max_length
 max_ride_speed
 max_simulation_time
-max_spawngroup_creationsequence
 max_val
 maxchars
 maxcpulevel
@@ -23334,7 +20640,6 @@ maximumChangePerSecond
 maximumDistanceFromLine
 maxlogexposure
 maxpips
-maxs
 maxscale
 maxspeedfactor
 maxwind
@@ -23358,12 +20663,8 @@ memchr
 memcmp
 memcpy
 memmove
-memory_free_mb
-memory_used_mb
 mempool.cpp
 memset
-menu
-menu_key_values
 menu_label
 menuclass
 mesh.cpp
@@ -23373,13 +20674,9 @@ mesh_calculate_curvature_smooth_pass_count
 mesh_calculate_curvature_smooth_weight
 meshes
 message
-message_set_wire_format
 messagelist.cpp
 messagemode
 messagemode2
-messages
-method
-method_description
 mic_listen_while_nonfocused
 microtxn
 midnightblue
@@ -23388,8 +20685,6 @@ min-distance
 min-height
 min-width
 min_angle
-min_client_limit
-min_last_played
 mincpulevel
 minexposure
 mingpulevel
@@ -23398,12 +20693,9 @@ mingustdelay
 minhealthdmg
 minimal
 minlogexposure
-mins
 mintcream
 minusone
 minutehandentity
-minutes_played
-minutes_played_forever
 minwind
 missing )
 missing ) after comment
@@ -23413,7 +20705,6 @@ mistyrose
 miter
 mixedshadows
 mktime
-mlvd
 mmamammmmammamamaaamammma
 mmmaaaabcdefgmmmmaaaammmaamm
 mmmaaammmaaammmabcdefaaaammmmabcdefmmmaaaa
@@ -23522,20 +20813,10 @@ mp_tournament
 mp_usehwmmodels
 mp_usehwmvcds
 mp_winlimit
-mrS^F
-msg_data
-msg_id
-msg_type
-msgpool_hard_limit
-msgpool_soft_limit
-msgs
-msgtype
 multiline
 multiplayer_break
-multiple_instances
 multiply
 multitouchzoomscale
-mutual_friend_account_ids
 muzzle
 muzzle_flash_enable
 muzzleflash_357_player
@@ -23546,8 +20827,6 @@ muzzleflash_shotgun_npc
 muzzleflash_shotgun_player
 muzzleflash_smg1_player
 myugc
-n35>
-n9,G
 nAppID
 nCallbackHandle
 nDamageTaken
@@ -23557,12 +20836,9 @@ nObjects
 nPriority != NETWORK_FIELD_CHANGE_DEFAULT_PRIORITY
 nShakeType
 nTries < 10000000
-nZ:0J
-n\f"pA3Q
 name
 name is too long in (*MARK), (*PRUNE), (*SKIP), or (*THEN)
 name: %s
-name_hash_code
 name_mode
 nav_attribute_avoid
 nav_data
@@ -23571,47 +20847,20 @@ navy
 nearclipplane
 need dictionary
 need steamid\n
-needmore
 needs_update
 needsprocessing
-negative_int_value
-net_Disconnect
-net_NOP
-net_SignonState
-net_SpawnGroup_Load
-net_SpawnGroup_LoadCompleted
-net_SpawnGroup_ManifestUpdate
-net_SpawnGroup_SetCreationTick
-net_SpawnGroup_Unload
-net_SplitScreenUser
-net_Tick
-net_payment_row_usd
-net_payment_us_usd
 net_showusercmd
-net_table_name
 net_test_basecombatcharacter
-netmessages.proto
 netmsg
 netupdate
 network
 network_connection.proto
-network_connection.proto"-\n\nCMsgVector
-network_connection_token
-network_protocol
 networkbasetypes.proto
-networkbasetypes.proto"
-networkbasetypes.proto" \n
-networkbasetypes.proto"%\n
-networkbasetypes.proto"3\n
-networkbasetypes.proto"G\n
-networkbasetypes.proto"I\n
 networksystem
-nexonid
 nextShake
 next_weapon_timer
 next_zipline
 nexttoken
-ng_yP
 nickname
 nl_NL
 nmonqnmomnmomomno
@@ -23626,7 +20875,6 @@ no-cache, no-store
 no-repeat
 no_NO
 no_reflection_fog
-no_standard_descriptor_accessor
 no_steam_server
 nocheck
 noheader
@@ -23638,7 +20886,6 @@ none
 nonzero
 norepeat_global
 norm
-normal
 norwegian
 noscene
 nose_controller
@@ -23649,36 +20896,22 @@ not valid
 notches
 notconnected
 nothing to repeat
-notifications_sendmobile
-notifications_showingame
-notifications_showmessages
-notifications_showonline
 notify
 notol
 nowrap
 npc_height_adjust
-nqCBJ
-nqq?
 num_achievements
 num_achievements_completed
 num_available_quests
-num_bits
-num_bots
-num_changed_entries
 num_children
-num_comments_developer
-num_comments_public
 num_finished_download
 num_lobby_members
 num_results
 num_search_results
-num_server_players
 num_skipping_download
-num_spectators
 num_still_downloading
 num_tags
 num_visited
-number
 number after (?C is > 255
 number is too big
 number of item columns
@@ -23690,19 +20923,10 @@ numcascades
 numeric
 numericpassword
 numsegments
-o*Ral
-oG8-x
-obj_pos
-objc_class_prefix
-object_ehandle
 object_type
-objects
-objects_modified
-objects_removed
 octal value is greater than \377 in 8-bit non-UTF-8 mode
 oculus
 odds
-offset
 offset from base attachment
 offset from base attachment menu
 offset_angles
@@ -23724,10 +20948,8 @@ onfirstimpact
 onfocus
 oninputsubmit
 onlaunch
-online
 onload
 only_breakable_by
-only_gid
 only_render_to_texture
 onmouseactivate
 onmouseout
@@ -23759,8 +20981,6 @@ openvr.component
 openvr.tool
 operand of unlimited repeat could match the empty string
 operation
-operations_submitted
-operations_timed_out_in_queue
 operator delete(void*)
 operator delete(void*, std::nothrow_t const&)
 operator delete[](void*)
@@ -23776,34 +20996,24 @@ options
 opvarArrayIndex
 opvarName
 orangered
-order_id
-orderid
 orig: %d
 orig_query
-origin
 origin=%f, %f, %f
 originParentSpace
 origin_max_delta
 origin_relative
-origin_x
-origin_y
-origin_z
-originalSender
 originy
 originz
 ortholightheight
 ortholightwidth
-os_type
 other
 otherPanelID, eventToFire
-other_steamids
 out of memory
 outerconeangle
 outfit_number
 outfitid
 outgoing
 outline
-outofdate_subscribed_caches
 output specified is NULL
 outputType
 outputid
@@ -23813,17 +21023,8 @@ overlay_vars
 overrideTint: <
 overridesound
 overridewalktorunspeed
-owned
 owner_context
-owner_id
 ownername
-owns
-o}Xot#
-p)cS
-p2p_Ping
-p2p_TextMessage
-p2p_VRAvatarPosition
-p2p_WatchSynchronization
 p2p_lockdown_game_server_trust_everyone
 p2p_lockdown_game_server_trust_friends
 p2p_lockdown_game_server_trust_listenserver_host
@@ -23832,8 +21033,6 @@ p2p_ping could not convert "%s" to a CPeerToPeerAddress\n
 p2p_ping could not ping "%s" because they are an unknown peer\n
 p2p_ping requires a destination address\n
 p2p_ping sending to "%s"\n
-p;4,F
-p?}WF
 pData->GetDataDescMap() == pTemplateDataMap
 pEt : lower-mid front unrounded vowel
 pEventName
@@ -23846,19 +21045,14 @@ pVehicle
 pWorldObject
 pa end %f
 pa start %f
-package
 package $0;\n\n
-packed
 packed offsets overrun by %d bytes [%s, fields %d to %d]: %s\n
 packedstore.cpp
-packet
-packet_loss_pct
 padding
 padding-bottom
 padding-left
 padding-right
 padding-top
-page
 pagescroll
 paintsplat
 palegoldenrod
@@ -23886,18 +21080,13 @@ panorama_world_panel
 panorama_world_panel_%d
 panorama_world_panel_%d.vtex
 papayawhip
-param
 param "%s"\n
-param1
 param2
 param2 "%s"\n
 param3
 param3 "%s"\n
-param4
 parameter error
-parameter_type
 parametersChanged
-params_data_driven
 parent of jiggle bone %u: %s\n
 parentAttachmentName
 parentFrozen
@@ -23907,9 +21096,7 @@ parentdisabled
 parentheses are too deeply nested
 parentheses are too deeply nested (stack check)
 parentheses nested too deeply
-parenthesize_nicknames
 parentname
-parentnamefixup
 parse
 parsing
 part_name
@@ -23933,7 +21120,6 @@ particle-velocity-max
 particle-velocity-min
 particle_effects
 particle_folder
-particle_name_index
 particle_property.cpp
 particle_spacing
 particles-per-second
@@ -24012,27 +21198,16 @@ particles/water_fx/water_trail_directional_walk.vpcf
 particles/water_fx/water_trail_idle.vpcf
 particles/weapon_fx/muzzleflash_smgs.vpcf
 particles_list
-partner
-partner_accounts
 pass %u\n
-passes_granted
-passes_to_grant
-path
 pathNodes
 path_corner
 path_particle_rope
-paused
-payload
-payment_row_usd
-payment_us_usd
 pbucket->plinkLast->GetNext() == nullptr
 pchSteamID
 pchTag
 pcre_retval == 0
 pcrecpp.cc
 peachpuff
-peer
-pending_full_frame
 penny
 percent_bright_pixels
 percent_target
@@ -24041,14 +21216,11 @@ perfvisualbenchmark
 perfvisualbenchmark_abort
 permitresponses
 persona_name
-persona_name_tokens
 perspective
 perspective-origin
 peru
 pervertexlighting
 phase not supported
-phone_id
-phone_verification_time
 phonemedelay
 phonemefilter
 phonemes
@@ -24056,8 +21228,6 @@ phonemes_strong
 phonemes_weak
 phonemesnap
 phonenumber
-php_class_prefix
-php_generic_services
 phys
 phys_air_density
 phys_ballsocket
@@ -24091,9 +21261,7 @@ picked_item_transition_time
 piece_name
 pinStateChanged
 ping-pong ball
-ping_stddev_ms
 pipe
-pitch
 pitchLockData
 pitchyaw_customaccel
 pitchyaw_customaccel_exponent
@@ -24114,13 +21282,10 @@ placementattachment
 placementbone
 play_endcap
 playbackRateChanged
-playback_frames
 playback_speed
 playback_tick
-playback_ticks
 playback_time
 playbackrate
-played_recently
 played_time
 player
 playerIndex
@@ -24145,16 +21310,12 @@ player_teleport_start
 player_use_radius
 playerclr
 playermodel
-players
-players_networkids
 playevent
 playlooping
 playoverscript
 playrandom
 playsoundscape
 playtime
-playtime_2weeks
-playtime_forever
 playtime_item_generators
 please implement MergeFrom for your type.
 plum
@@ -24194,9 +21355,6 @@ point_vr_anchor_override
 pointer<%s>
 pointer<%s> differ (net %s - pred %s)\n
 polish
-poll_id
-port
-ports
 portuguese
 pos-Vector
 pos-cellorigin
@@ -24209,16 +21367,13 @@ pose_param %s: %f
 pose_special_type
 position
 positionInLocalSpace
-positive_int_value
 positive_or_null
 posix_fadvise64
 post_processing_volume
 postdataupdate
 postentitypacket
-posterid
 postnetworkdata:ack %d cmds [sv %d]
 postprocessing
-posttime
 posx
 posxyz
 posy
@@ -24242,7 +21397,6 @@ preferred_carryangles
 preferred_catch_angles
 preferred_catch_origin
 prefix_owner
-prepared_statements_executed
 prerequisite
 present
 preserve_cycle
@@ -24250,25 +21404,17 @@ prev_cycle_event
 prev_zipline
 prevent_interaction_t
 preview
-preview_cloudfilename
-preview_file_size
-preview_filename
 preview_image
-previews
 previouslevel
-price
 primary_ammo
 print
 print origin in script format
 print soundscapes
 printname
 priority
-privacy
-private
 product
 prof_%s.csv
 program
-progress
 promo
 prop_data
 prop_destinations_drawing
@@ -24290,16 +21436,10 @@ prop_vr_hand
 prop_vr_tracked_object
 prop_zipline
 proportional_base
-props
 props_break_max_pieces_perframe
 proto
 proto2
 proto3
-protobuf_field
-protocol
-provider
-provider_orderid
-proxies
 pszContextName
 pszLaunchSource
 pt_BR
@@ -24324,30 +21464,15 @@ ptryBest1 != nullptr
 ptryBest2 != nullptr
 public
 public.
-public_dependency
 publishedfiledetails
 publishedfileid
-publishedfileids
-publisher_group_id
 pumpkin_01
 punct
-purchase_result_detail
 pvsplayer
 pwatchent
 pwatchvar
-pwid
 pwrite64
-pxADj
-py_generic_services
-q4GV
-q;4,F
-qKPh
-q\n\vCPlayerInfo
 qangle
-qbYz
-qo[k!
-quality
-quantity
 quantized float differs (1st diff) (net %g - pred %g) delta(%g)\n
 quaternion
 quaternion (%g %g %g %g)
@@ -24360,19 +21485,11 @@ quest_completion_time
 quest_name
 quest_quantity
 quest_type
-questid
-questids
 quests_detector
 quests_map_specific
 quests_visit_multiple_maps
 quests_vote
-queue_position
-q~y7
 r axis
-r0@GP!
-rJ@LB
-rKK\t@i;
-r\n\vstart_index
 r_3dsky
 r_AirboatViewDampenDamp
 r_AirboatViewDampenFreq
@@ -24481,9 +21598,6 @@ r_waterforcereflectentities
 race horse
 radial
 radial( 
-radiant_team_id
-radiant_team_tag
-radius
 radius of the arc along which items are distributed
 radius0
 radius1
@@ -24508,7 +21622,6 @@ really freaking heavy
 reason
 reason_code
 rebeccapurple
-receivingclients
 recenter_on_parent_bone
 rect( 
 recursive call could loop indefinitely
@@ -24518,16 +21631,12 @@ refrigerator
 registered: 
 regression
 regular expression is too large
-relative
 relative_angles
 relative_origin
 relativetag
 relativetag_name
 relativetag_sound
 release
-release_particle_index
-reliable
-reliable_sound
 reload_npc
 remapping vertex %d[w%d] invalid: %d->%d >= %d
 remapping vertex %d[w%d] invalid: %d->? >= %d
@@ -24537,7 +21646,6 @@ removing %d (%d): %s : %5.3f (%.3f)\n
 renderWithViewModels
 render_backface
 render_shadows
-render_system_req
 rendercolor
 rendercolor32
 rendercolor=%d,%d,%d,%d
@@ -24558,15 +21666,10 @@ report_cliententitysim
 report_clientthinklist
 reportedPosition
 reports client-side sound patch count
-request
 request_download_destination
 request_download_destination_%llu
-request_method
-require_no_tags
 required
 requiresUseKey
-reserved_range
-reset
 reset view angles!
 reset_cycle
 resetting interpolated var spew\n
@@ -24592,19 +21695,15 @@ responsevalue
 restore | 
 restoreentityindex
 restoretopred:slot %04d
-result
 resumecondition
 return_children
-revenue_percentage
 reverbg2
 reverbg2_controllers
-reversed
 rfoot
 rgb to gray green coefficient
 rgb to gray red coefficient
 rift_s
 rift_s_controllers
-right
 right hand
 right-wrap
 right_
@@ -24628,7 +21727,6 @@ rnd_up
 rndwave
 ro_RO
 rollLockData
-rolltype
 romanian
 rootNode
 rootbone_follow
@@ -24661,8 +21759,6 @@ rotation_axis0
 rotation_axis1
 round_end
 roundf
-routing
-routing_app_id
 royalblue
 rpg_particle_camera_cull_distance
 rpg_particle_off_camera_simrate
@@ -24679,28 +21775,15 @@ rr_debugrule
 rr_dumpresponses
 rr_findrules
 rr_findrules_verbose
-rt_identity_linked
-rtime_oldest_date
-rtime_vacban_starts
 ru_RU
-rule_description
 rulename
 rumble
 runcommand:%04d,tick:%u
 runsimulation  :cmd %d -> slot %d
 russian
-rx3@
 s off\ng cMesh\nusemtl initialShadingGroup\n
-s(CU
-s)Sq
-s69F~
-s7>Ip
-sAmTb
-sF9=
-sIf true, then files must have all the tags specified.  If false, then must have at least one of the tags specified.
 sPLT chunk has bad length
 sPLT chunk requires too much memory
-s\n\tAddFriend
 s_EntComponentInfo
 s_Ladders
 s_bAbsQueriesValid
@@ -24731,14 +21814,10 @@ save/%s
 save/%s/%s
 save/game_instructor_counts.txt
 save/save_game_%s.sav
-save_id
 save_spew
 save_watchclass
 saveentityindex
-savegamefilename
-saxis
 say_team
-scale
 scale3d(
 scale3d( 
 scale: (%f)\n
@@ -24752,7 +21831,6 @@ scaley
 scandir64
 scanlines
 scene_clientflex
-scene_id
 scene_print
 scene_ramp
 scene_vcdautosave
@@ -24760,18 +21838,15 @@ scenefilecache
 scenes/
 scenes_staging/
 sched_yield
-schema_catalog
 schemabindings.cpp
 schemaclassinfo.cpp
 schinese
-score
 scrape_amount_input
 scrape_surface_roughness_input
 scratchcolor
 scratchdepth
 screenWindowCenter
 screenWindowWidth
-screen_refresh
 screenfade_t
 screenfademaxsize
 screenfademinsize
@@ -24819,8 +21894,6 @@ seashell
 secondary_ammo
 secondhandentity
 section
-section_number
-seed
 select_high
 select_low
 selected
@@ -24828,48 +21901,24 @@ selectedTextBackgroundColor
 selectionpos_x
 selectionpos_y
 semi-bold
-send_table_crc
-send_to_servers
 seq % 5d cycle %8.6f prev cycle %8.6f weight %8.3f order %d parity %d
 seq %d (%s), cycle %f, weight %f, fadeout %f, order %d
 seq_trans
-sequence
 sequenceName
 sequenceOpCycleChanged
 sequenceOpSequenceChanged
 sequence[%d] 
-sequence_bytes
 sequence_name
 sequence_number
 sequenceduration
 serialize
-serializedAddr
-serializedAddress
-serializedTargetAddress
-serializer_name_sym
-serializer_version
 serializing
-series
 server %5.1f ms curr, %5.1f ave, %5.1f peak
 server_can_execute
 server_cvar
-server_ip_address
-server_sessions
 server_spawn
-server_steam_id
-server_streaming
 serverid
-service
 service $0 {\n
-service_description
-service_execution_site
-set_control_point_model
-set_control_point_snapshot
-set_particle_fow_properties
-set_particle_should_check_fow
-set_particle_text
-set_scene_object_generic_flag
-set_texture_attribute
 set_volume
 setang
 setang 
@@ -24905,7 +21954,6 @@ shadowfademaxdist
 shadowfademindist
 shadowtextureheight
 shadowtexturewidth
-shake
 shake_show
 shake_stop
 shake_testpunch
@@ -24933,12 +21981,9 @@ shifted_time
 shithead
 short (%i)
 short differs (net %i pred %i) diff(%i)\n
-short_description
-show
 show_freezepanel
 show_in_hud
 show_info
-show_subscribe_all
 show_visibility_boxes
 showparticlecounts
 showstopper
@@ -24952,18 +21997,17 @@ sienna
 silence
 simple_cubic
 simulationTimeSerializer
+sin( %s )
 sincos
 single_shot
 single_shot_npc
 singleplayer
 sint32
 sint64
-size
 size too big: 
 size0
 size1
 size_t to int conversion
-sjdp?
 sk_autoaim_mode
 skel_debug
 skeletonMaterialGroupChanged
@@ -24972,13 +22016,10 @@ skeletonModelChanged
 skeletonMotionTypeChanged
 skeletonRenderingEnableChanged
 skeleton_instance_lod_optimization
-skeletoninstancehash
-skin
 skin_cp
 skipto_tick
 sky3dparams_t
 sky_camera
-sky_name
 sky_urb01
 skyambientbounce
 skyboxFogFactor
@@ -24991,7 +22032,6 @@ sleep for time
 slime_splash_01.vpcf
 slime_splash_02.vpcf
 slime_splash_03.vpcf
-slot
 slot, class
 slot0
 slot1
@@ -25004,7 +22044,6 @@ slot6
 slot7
 slot8
 slot9
-slots
 sm_bAccurateTriggerBboxChecks
 sm_bDisableTouchFuncs
 sm_pGradientFog
@@ -25032,23 +22071,13 @@ snd_soundmixer
 snd_spew_particle_sound_names
 snow
 snowflake
-socache_have_versions
-socaches
-socaches_loading
-socaches_to_unload
-soid
-soid_id
 solid 
 sort_order
 sos_debug_emit
 sound-out
 sound/combined/%s/%s%s.wav
 sound_base
-sound_num_handle
-sound_resource_id
 soundent
-soundevent_guid
-soundevent_hash
 soundevents/destinations_core.vsndevts
 soundevents/destinations_home.vsndevts
 soundevents/destinations_props.vsndevts
@@ -25061,19 +22090,12 @@ soundlevel not supported on sub-soundscapes\n
 soundlevel_t
 soundname
 soundpatch_captionlength
-sounds
-sounds_showingame
-sounds_showmessages
-sounds_showonline
 soundscapeEntityListIndex
 soundscapeIndex
 soundscape_dumpclient
 soundscape_fadetime
 soundscape_message
 soundscape_radius_debug
-source
-source_code_info
-source_entity_index
 source_filename
 space
 space shuttle
@@ -25085,12 +22107,7 @@ spare error
 spawn client glass shards asynchronously during demos or when remotely connected.
 spawn group
 spawn_motion_disabled
-spawngrouphandle
-spawngroupmanifest
-spawngroupownerhandle
-spawngroupparenthandle
 speak
-speaker_entity
 spec_autodirector
 spec_centerchasecam
 spec_chasedistance
@@ -25110,9 +22127,7 @@ special
 special1
 special2
 special3
-special_payments
 specularity
-speed
 speeds
 sphere.radius
 spherical_vignette_override_color
@@ -25133,6 +22148,7 @@ sprintf
 sprites/
 sprites/%s
 sqrt
+sqrt( %s )
 sqrtf
 square
 squeezable
@@ -25152,7 +22168,6 @@ ss_mimic
 ss_paused
 ss_waitingforgamesessionmanifest
 stackName
-start
 start %f %f %f
 start-time
 startLerpTo
@@ -25170,8 +22185,6 @@ startpos
 startsolid
 starttime
 startzoomed
-stat_id
-state
 static const TypeID C_AnimVRProxy::MyTypeID()
 static const TypeID IAnimVRProxy::MyTypeID()
 static const TypeID IAudioAnimTag::MyTypeID()
@@ -25184,10 +22197,7 @@ static const TypeID ISequenceFinishedAnimTag::MyTypeID()
 static const TypeID IStatusAnimTag::MyTypeID()
 static const TypeID IToolObject::MyTypeID()
 static const TypeID Reflection::Object::MyTypeID()
-stats
 stats_highlight_interval
-stats_kv
-status
 std::_Function_base::_Base_manager<CNewParticleEffect::Restart()::'lambda'()>::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
 std::_Function_base::_Base_manager<int (*)(panorama::IUIPanelClient const*, panorama::IUIPanelClient const*)>::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
 std::_Function_base::_Base_manager<int (*)(panorama::IUIPanelClient*, panorama::IUIPanelClient*)>::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
@@ -25345,18 +22355,11 @@ steam://open/bigpicture/workshopitem/%llu
 steam://url/UserStatsPage/%llu/%u
 steamTours_item_tool
 steam_branch
-steam_id
-steam_txn_type
 steamcode
-steamdatagram_login
 steamextra/tier1/tsmempool.cpp
 steamextra/tier1/tsmultimempool.cpp
-steamid
 steamid_%llu
-steamid_creator
-steamids
 steammessages.proto
-steammessages.proto"@\n
 steammessages_cloud.steamworkssdk.proto
 steammessages_helprequest.steamworkssdk.proto
 steammessages_oauth.steamworkssdk.proto
@@ -25378,11 +22381,9 @@ steamtours_multiplayer_public_lobby_refresh_time
 steamtours_open_friend_lobby
 steamtours_open_lobby
 steamtours_usermessages.proto
-steamtours_usermessages.proto")\n
 steamvr_addon
 steamvr_background
 steamvr_home
-steamvr_panel_type
 steamvrhome_home_map
 steamvrhome_home_map_addon
 steamvrhome_home_map_savegame
@@ -25403,7 +22404,6 @@ stick_snd_move_scale_y
 stick_snd_select_ang_0
 stick_snd_select_dist_0
 stick_snd_select_dist_1
-stop
 stop_immediately
 stop_instantly
 stop_on_layer_seq_change
@@ -25412,7 +22412,6 @@ stop_on_seq_change
 stop_on_seq_change_instantly
 stoppoint
 stopsoundscape
-store_country_code
 strcasecmp
 strcat
 strchr
@@ -25459,12 +22458,9 @@ submrg%dx%d.tga
 subpattern name expected
 subpattern name is too long (maximum 32 characters)
 subscene
-subscribe_to_id
-subscribe_to_type
 subscribed
 subtitle
 subtype mismatch
-succeeded_lookups
 success
 sugg
 support for \P, \p, and \X has not been compiled
@@ -25475,7 +22471,6 @@ surfaceProp
 surfacePropertyName
 surface_prop
 survivor_neck
-suspension_end_time
 sv_SE
 sv_accelerate
 sv_airaccelerate
@@ -25538,20 +22533,6 @@ sv_turbophysics
 sv_wateraccelerate
 sv_waterdist
 sv_waterfriction
-svc_ClearAllStringTables
-svc_CmdKeyValues
-svc_CreateStringTable
-svc_FlattenedSerializer
-svc_FullFrameSplit
-svc_GetCvarValue
-svc_HLTVStatus
-svc_Menu
-svc_PacketEntities
-svc_PacketReliable
-svc_ServerInfo
-svc_ServerSteamID
-svc_SplitScreen
-svc_UpdateStringTable
 svgfill
 svgfillopacity
 svgfillrule
@@ -25563,9 +22544,7 @@ svgstrokeopacity
 svgstrokewidth
 swedish
 symbol
-symbols
 synctofollowinggesture
-syntax
 syntax = "$0";\n\n
 syntax error in subpattern name (missing terminator)
 system.desktop.1
@@ -25577,23 +22556,13 @@ system.vrwebhelper
 system.vrwebhelper.controllerbinding
 szSlideKeyword
 t-rex
-t39[
-t>M.F9
-t?vZ
 tBViewEffects
-tI00
 tOO : high back rounded vowel
 tRNS chunk has out-of-range samples for bit_depth
 tRNS chunk not allowed with alpha channel
-tYLl
-t\23
 taG : voiced velar stop
 tabid
 tabindex
-table_id
-table_t
-tables
-tags
 tangentu_signv
 tank
 tank_projectile
@@ -25601,18 +22570,15 @@ target entity not found
 target input not found
 target1
 target2
-target_job_name
 target_point
 targetclassname
 targetid
 targetposition
 taunt
-tax_usd
 tchinese
 te.proto
 te_large_funnel
 teal
-team
 team_round_timer
 team_round_timer.ventr
 team_round_timer_client
@@ -25623,8 +22589,6 @@ teamplay_round_win
 teamplay_update_timer
 temp
 tempent_renderamt
-template
-template_exists
 tenfoot_match
 tenfoot_pickle_dictionaries
 tenfoot_pickle_single_dictionary
@@ -25637,7 +22601,6 @@ test_conform_collision_bounds
 test_orientation_range
 test_restoreonnewmodel
 texcoord
-text
 text compression mode is out of range
 text format contains deprecated field "
 text-align
@@ -25665,10 +22628,7 @@ thai
 the Earth
 the actual field type (for enums T should be the generated enum 
 the global scope
-the resulting relationship"
-the resulting relationship")\n'CPlayer_GetCommunityPreferences_Request"
 theta
-thick
 thin
 think_limit
 thinkfunc_t
@@ -25681,19 +22641,13 @@ this version of PCRE is not compiled with Unicode property support
 thisEntity
 thistle
 threads
-threads_active
-threads_connected
-tick
 tick_count
 tiles
 tiltTime
-time
 time %f %f\n
 time to freeze mouse/pointer motion after a mouse button press
 time-dialog-variable
 timeDialogVariable
-time_all_trusted
-time_subscribed
 timedemo
 timeofday %s
 timeofday_thinkinterval
@@ -25708,12 +22662,9 @@ tipPos
 tipPos NaN\n
 tipVel
 tipVel NaN\n
-title
-tl\fS
 today
 toggleconsole
 toggles whether the server allows spectator mode or not
-tokens
 tolower
 tomato
 too many forward references
@@ -25730,10 +22681,7 @@ top_point
 topleft
 torqueLimit
 total
-total_data_out
 total_items
-total_packets_in
-total_packets_out
 total_results
 touch_controllers
 toupper
@@ -25741,14 +22689,10 @@ tr_TR
 tracer_particle
 tracer_player.vpcf
 tracked object %d: pos = %f %f %f clientpos = %f %f %f\n
-tracked_device_index
 trackpadX
 trackpadY
 trackpad_ui_hand_attachment
-trade_ban_expiration
-trailing_comments
 transform-origin
-transid
 transition-delay
 transition-duration
 transition-property
@@ -25759,7 +22703,6 @@ translate3d(
 translateX(
 translateY(
 translateZ(
-translucenthit
 transparency
 transparent
 traveler
@@ -25776,19 +22719,12 @@ trophy_platinum
 trophy_silver
 true
 true 
-trueBw
 trunc
-trusted
 turkish
 turn_rate
-tv28
 tv_listen_voice_indices
 tv_transmitall
 two named subpatterns have the same name
-two_factor_enabled_time
-twofactor_enabled
-txn_country_code
-txn_id
 txting_cursor_end
 txting_cursor_home
 txting_cursor_left
@@ -25805,7 +22741,6 @@ txting_type_fail
 txting_type_main
 txting_type_numbers
 txting_type_spacebar
-type
 type != DATA_UPDATE_CREATED
 type or int32).
 type() == TYPE_FIXED32
@@ -25816,8 +22751,6 @@ type() == TYPE_VARINT
 type.googleapis.com/
 type.googleprod.com/
 type_autosave
-type_id
-type_instances
 type_personal
 typeinfo for CThread
 typeinfo for CThreadSyncObject
@@ -25842,16 +22775,10 @@ typeinfo name for std::_Function_base
 typeinfo name for std::function<void ()>
 typeinfo name for std::string
 u axis
-u gq
 u64( %lld = 0x%llX )
-u7Ou
-u?Ad
-uGrants an implicit OAuth token (grant type 'token') for the specified client ID on behalf of a user without prompting
 uT5A
-uYLl>
 ugc:
 ugc_fake_state
-ugcid
 ui-scale
 ui-scale-x
 ui-scale-y
@@ -25874,8 +22801,6 @@ un-grabs all objects
 unPage
 unable to load S1 to S2 decal mappings\n
 unable to load mesh "%s"\n
-uncompressed_sample_offset
-uncompressed_size
 unconnected
 undefined
 underline
@@ -25883,7 +22808,6 @@ undohistory
 unhandled input: (%s) -> (%s), from (%s,%s); %s\n
 unified
 unified 
-unignore
 uninterpreted_option
 unique_target
 unknown
@@ -25913,35 +22837,19 @@ unsigned
 unsigned char (%d)
 unsigned int Etc::Image::IterateThroughWorstBlocks(unsigned int, unsigned int, unsigned int)
 unspecified
-unsubscribe_from_id
-unsubscribe_from_type
 unused
-unused_breakmodelsnottomake
 unweighted
 unweighted 
 up-wrap
 update-interval
 updateInterval
 updateOnClient
-update_baseline
-update_entity_position
-update_particle
-update_particle_ent
-update_particle_fallback
-update_particle_fwd
-update_particle_offset
-update_particle_orient
-update_particle_set_frozen
-update_particle_should_draw
 updatechildren
-updated_entries
-updates
 upmove
 upper
 uppercase
 uppervalue
-uptime
-uptodate_subscribed_caches
+url( %s )
 url_execute
 usage:  %s <entindex>\n
 usage:  cc_emit tokenname\n
@@ -25960,16 +22868,10 @@ use_layer_sequence
 use_oriented_effect
 user_config_dirty
 user_data_downloaded
-user_data_fixed_size
-user_data_size
-user_data_size_bits
 user_unlocked_item
 userid
 userinfo
-usermessages.proto
-usermsgs
 users
-users_per_second
 usesClientSideAnimation
 uses_client_side_animation
 utlbuffer.cpp
@@ -25978,7 +22880,6 @@ utlstring.cpp
 utlstringtoken
 utlsymbol.cpp
 uuid_generate
-uz9GxV
 v %g %g %g%s\n
 v %g %g %g\n
 v axis
@@ -26042,23 +22943,13 @@ v8array
 v8callback
 v8object
 v8value
-v>zlK9T
 vQO+
-vVd{AVd{AVd{AVd{A
-v\C_0
 v_angle
-val_bool
-val_byte
-val_long
-validation_errors
 value
 value 
 value { %s }
-values
 valve.steam.bigpicture
 vanmgrph
-var_encoder_sym
-var_name
 variant
 vb phys
 vban
@@ -26087,12 +22978,9 @@ vector::_M_range_insert
 vector::reserve
 vehicleRole %i\n
 vehicle_driver_eyes
+vel:  %.2f
 vel: %.2f, time: %.2f, max: %.2f, animspeed: %.2f
-velocity
-version
 version number
-version_string
-versions
 versus_stats_highlight_interval
 vertical offset of the menu from the player
 vertical offset of the notifications panel from the player
@@ -26121,7 +23009,6 @@ viewmodel_fov
 viewmodel_offset_x
 viewmodel_offset_y
 viewmodel_offset_z
-views
 vignettecolor
 vignetteend
 vignettefalloffexponent
@@ -26150,7 +23037,6 @@ virtual void Etc::Block4x4Encoding_RGBA8::PerformIteration(float)
 virtual void Etc::Block4x4Encoding_RGBA8_Opaque::PerformIteration(float)
 virtual void Etc::Block4x4Encoding_RGBA8_Transparent::PerformIteration(float)
 vis_enable
-visible
 vive_controllers
 vm_camera
 vm_camera_interp_speed
@@ -26218,7 +23104,6 @@ void std::vector<unsigned char, std::allocator<unsigned char>>::_M_emplace_back_
 void std::vector<unsigned char, std::allocator<unsigned char>>::_M_range_insert<__gnu_cxx::__normal_iterator<unsigned char*, std::vector<unsigned char, std::allocator<unsigned char>>>>(__gnu_cxx::__normal_iterator<unsigned char*, std::vector<unsigned char, std::allocator<unsigned char>>>, __gnu_cxx::__normal_iterator<unsigned char*, std::vector<unsigned char, std::allocator<unsigned char>>>, __gnu_cxx::__normal_iterator<unsigned char*, std::vector<unsigned char, std::allocator<unsigned char>>>, std::forward_iterator_tag)
 void std::vector<unsigned char, std::allocator<unsigned char>>::_M_range_insert<char*>(__gnu_cxx::__normal_iterator<unsigned char*, std::vector<unsigned char, std::allocator<unsigned char>>>, char*, char*, std::forward_iterator_tag)
 void std::vector<unsigned char, std::allocator<unsigned char>>::_M_range_insert<unsigned char const*>(__gnu_cxx::__normal_iterator<unsigned char*, std::vector<unsigned char, std::allocator<unsigned char>>>, unsigned char const*, unsigned char const*, std::forward_iterator_tag)
-volume
 volume_atten
 volume_faceposer
 volumematcheseventramp
@@ -26555,9 +23440,6 @@ vtable for std::basic_stringbuf<char, std::char_traits<char>, std::allocator<cha
 vtable for std::basic_stringstream<char, std::char_traits<char>, std::allocator<char>>
 vtable for std::exception
 vtex
-w6?Y
-wF[U
-wI N
 wade
 waiting for lock
 waiting line %d %s
@@ -26574,12 +23456,8 @@ watersplash
 watersplash_global_client
 watersplashquiet
 watersplashquiet_global_client
-waterz
-wcAa
 wcscmp
 wcslen
-weak
-weak_dependency
 weapon
 weapon entry scripts/%s.txt missing or not in scripts/weapons_manifest.txt\n
 weapon pistol rifle survivor common_male
@@ -26598,7 +23476,6 @@ wheat
 when set request key focus when a world panel is enabled
 white-space
 whitesmoke
-width
 width of the avatar menu
 width of the friends menu
 width of the menu
@@ -26614,14 +23491,11 @@ windowsmr_samsung
 windowsmr_samsung_controllers
 windradius
 with a type that does not implement MergeFrom. This is unsafe; 
-wj.7
 wooden
 word
 work item
 workitem
 workshop_%llu
-workshop_accepted
-workshop_file_id
 workshop_title
 workshopid
 workthreadpool.cpp
@@ -26629,8 +23503,6 @@ world geometry
 worldAxisDirection
 worldPosition
 world_interactions
-world_offset_angle
-world_offset_pos
 world_origin
 world_units_per_pixel
 worldent
@@ -26642,72 +23514,43 @@ wrappedhtmlid
 wrinkler
 wrist_l
 wrist_r
-writeback_queue
 wrong submessage type
-wvCd
 wx=%d, wy=%d, rx=%d, ry=%d\n
-wz)e
 x = %i, y = %i, w = %i h = %i text %s\n
 x axis
-x*;XZ
 x360
-xL9-C
-xU<d
-x\TK
-xb1E
 xdigit
 xlook
 xmove
-xq,9
 xuid
 y axis
 y9*O
-y@4N
 yE>Missile.ShotDown
-yHcz
 yaw_end
 yaw_start
 yellowgreen
 yield
 yielding
-youtube_username
-youtube_videoid
-youtubevideoid
-ypwV
 yres
 z axis
 z-index
-z:KEZ
 z>{}[]()=&, \t\n'"*;
-z?sc
 zFar
 zNear
-z\n8NETWORK_DISCONNECT_LOCALPROBLEM_HOSTEDSERVERPRIMARYRELAY
-z\t?0e`9
 zero_value
 zh_CN
 zh_TW
 zlib memory error
 zlib stream error
 zlib version error
-zm6Vb
 zoom_autoaim
 zoom_sensitivity_ratio
-{YIN?
 {knuckles}valve_controller_knu
 {localization}
-{uyfn?z
 {| class="standard-table" style="width: 100%;"\n! Enumerator\n! Value\n! Description\n
 {| class="standard-table" style="width: 100%;"\n! Function\n! Signature\n! Description\n
 {}[]=, \t\n'":|;
-|(Optional) Get extended details back on the files found. Defaults to only returned the app Id and UGC Id of the files found.
-|5ha
-|a2U
-|aJC
+| %lld\n
 }\n %llu aggs, %s total data\n
-}l7f
-}l7f~
-}w+Kt
-~31]H
 ~CMoviePlayer
 ~CPanel2D - destroy members

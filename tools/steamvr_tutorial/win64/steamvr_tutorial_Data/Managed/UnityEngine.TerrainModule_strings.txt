@@ -56,6 +56,7 @@ $Unity.InternalAPIEngineBridgeDev.003
 $Unity.InternalAPIEngineBridgeDev.004
 $Unity.InternalAPIEngineBridgeDev.005
 $UnityEngine.UnityWebRequestWWWModule
+%%%u%2&q)
 %GetDetailDatabase().ResetDirtyDetails
 %GetTreeDatabase().GetInstances().size
 %GetTreeDatabase().RemoveTreePrototype

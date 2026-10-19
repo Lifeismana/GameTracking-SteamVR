@@ -50,6 +50,7 @@ $SteamVR_PlayArea+<UpdateBounds>d__14
 7GlobalManagerRS2D+<TriggerAddPointHapticFeedback>d__153
 7Valve.VR.InteractionSystem.Longbow+<ResetDrawAnim>d__56
 8)P4
+8/%C\f
 8236C0CC36A2E3B682228FAF16E4A74BE79F3DE1
 8Use min and max random pitch levels when playing sounds.
 8Valve.VR.InteractionSystem.ArcheryTarget+<FallDown>d__11
@@ -2588,6 +2589,8 @@ ZkXk
 \f/\f@\fG\fZ\f_\fp\fz\f
 \fRandom Pitch
 \fRender Panel
+\n%o9
+\n%oG
 \n*rt3
 \nDelay Time
 \nXY(X

@@ -81,7 +81,6 @@ InitializeSListHead
 IsDebuggerPresent
 IsProcessorFeaturePresent
 KERNEL32.dll
-L09n
 LeaveCriticalSection
 LocalFree
 MSVCP140.dll
@@ -89,7 +88,6 @@ OLEAUT32.dll
 PathCchAppend
 PathRemoveFileSpecW
 QueryPerformanceCounter
-RSDSq
 ResetEvent
 RtlCaptureContext
 RtlLookupFunctionEntry

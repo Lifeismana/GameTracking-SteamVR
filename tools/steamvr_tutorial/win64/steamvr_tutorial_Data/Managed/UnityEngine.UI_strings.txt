@@ -6,6 +6,7 @@
 #Strings
 $UnityEngine.EventSystems.EventSystem
 $d4f464c7-9b15-460d-b4bc-2cacd1c1df73
+%*oq
 &Can the Selectable be interacted with?
 'Use BaseMeshEffect.ModifyMeshes instead
 )FL\t9
@@ -37,6 +38,7 @@ $d4f464c7-9b15-460d-b4bc-2cacd1c1df73
 4Please use sortOrderPriority and renderOrderPriority
 4Scales all UI elements in the Canvas by this factor.
 4The physical unit to specify positions and sizes in.
+5%i.
 6"7"l
 6"7"t
 6UnityEngine.UI.InputField+<MouseDragOutsideRect>d__179
@@ -1119,6 +1121,7 @@ Yhi.
 YkY+
 YkZ(^
 YkZX
+\8?%g
 \fUI/Raw Image\f
 \fUI/Scrollbar"
 \fYsj
@@ -1126,6 +1129,9 @@ YkZX
 \ffadeDuration
 \fkeyboardType
 \fpressedColor
+\n%oj
+\n%oq
+\n&%oA
 \n*rsB
 \nXV~z
 \nYZY*
@@ -1793,6 +1799,7 @@ kVScrollSpeed
 kWidth
 k_MaxTextLength
 knob
+l)%X
 lG!4
 lI!4
 lP!5

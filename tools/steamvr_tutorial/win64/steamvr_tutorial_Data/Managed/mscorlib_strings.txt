@@ -149,6 +149,7 @@
 "System.Reflection.Emit.TypeBuilder
 "This always returns an empty array
 "Use AppDomainSetup.ShadowCopyFiles
+"h%p%x%
 "o55
 "permissionCheck is ignored in Mono
 ########################################
@@ -266,6 +267,7 @@ $UD0
 $Us0
 $VAp
 $Vkp
+$[\%EVq
 $b196b284-bab4-101a-b69c-00aa00341d07
 $b196b285-bab4-101a-b69c-00aa00341d07
 $b196b286-bab4-101a-b69c-00aa00341d07
@@ -275,11 +277,15 @@ $f1c3bf77-c3e4-11d3-88e7-00902754c43a
 $f1c3bf79-c3e4-11d3-88e7-00902754c43a
 $f7102fa9-cabb-3a74-a6da-b4567ef1b079
 $fa1f3615-acb9-486d-9eac-1bef87e36b09
+% %(%0%
 %%%%66||||||55
+%%oJ..r\
 %+17=CIOU[agmsy
 %,,,,,22HHLp
+%.E+G
 %8J\o
 %Always returns the same as GetModules
+%G~c
 %K\tXT
 %Not implemented.  Always returns null
 %Not implemented.  Always returns zero
@@ -288,10 +294,15 @@ $fa1f3615-acb9-486d-9eac-1bef87e36b09
 %Prs
 %Use RegisterChannel(IChannel,Boolean)
 %Useless until the runtime supports it
+%c*n.
+%oE+
+%oF+
+%o`J
 %olM
 %omK
 %on6
 %p1%c
+%pK$
 %r6W
 %sES
 &#33333
@@ -1072,6 +1083,7 @@ $fa1f3615-acb9-486d-9eac-1bef87e36b09
 9xD\t
 9zE\t
 ::MEf
+:;%%%%%%
 :Currently get only works on Mono/Unix; set not implemented
 :FEY\v
 :Initial Count={InitialCount}, Current Count={CurrentCount}
@@ -6841,6 +6853,7 @@ Gwlj
 Gw~6
 G}C[YSSGY
 H lfG.lCDn+(
+H%P%X%
 H&AY#
 H'JK
 H(gZ
@@ -8163,9 +8176,11 @@ Iw~6
 Ixx\f
 Ixy\nX8_
 IzXm)
+J%%o\..r8
 J(hZ
 J25;
 J5ZK
+J?%F\n
 JFs]\v
 JJJJJJJJJJJJJJ
 JKIHn
@@ -14210,10 +14225,12 @@ ZrNl
 ZuluName
 ZwKi
 Z}P2
+[%i%d;%dR
 [%i%p1%d;%p2%dH
 [%i%p1%d;%p2%dr
 [%i%p1%dG
 [%i%p1%dd
+[%p1%d@
 [%p1%dA
 [%p1%dB
 [%p1%dC
@@ -14251,6 +14268,7 @@ Z}P2
 [IEEKOGY
 [Q8v\r
 [UZK
+[X%G
 [Z7ECB
 [j1K
 [ji*2
@@ -14426,6 +14444,7 @@ Z}P2
 ^gZK
 ^gzC
 ^kK\r2U
+_1%c\t
 _34T
 _AppDomain
 _AssemblyBuilder
@@ -15163,6 +15182,7 @@ _zone
 `bar
 `cmi
 `ept
+a%X`l^
 a*js
 a,a,k
 a2De
@@ -20870,6 +20890,7 @@ p fQ
 p jU
 p!q!r!s!t!u!v!w!x!y!z!{!|!}!~!
 p"eD
+p(%F
 p(DF
 p(OH
 p(W4
@@ -21352,6 +21373,7 @@ pvReserved
 pvqr
 pwOrdinal
 pwcsName
+p~%%
 q3n!
 q6c5
 q6c;
@@ -23333,6 +23355,7 @@ wstrcpy
 wv24
 wxyOz{|}3~
 x C5
+x%oJ%.r\.
 x*SP
 x.Bg
 x1b"

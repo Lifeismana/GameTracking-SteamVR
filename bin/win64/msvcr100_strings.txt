@@ -1,37 +1,22 @@
                           
- !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
  !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
- !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
- B\kji2
  Base Class Array'
  Base Class Descriptor at (
  Class Hierarchy Descriptor'
  Complete Object Locator'
  Type Descriptor'
- Vsy
- ]Asinh
  delete
  delete[]
  new
  throw(
  volatile
-#9fm
 $I10_OUTPUT
-$Izy
-$Jsy
-$tsy
-%_hypotf
-( 8PX
 ('8PW
 (Press Retry to debug the application - JIT must be enabled)
-(Ysy
 (null)
-(yaX
-)3M3
 *Yp3.CP+
 *Zp3.;P
 ,<ellipsis>
--64OS
 .?AUIExecutionContext@Concurrency@@
 .?AUIExecutionResource@Concurrency@@
 .?AUIResourceManager@Concurrency@@
@@ -132,46 +117,18 @@ $tsy
 .cmd
 .com
 .exe
-0*yy
-0+yy
-0Jsy
-0L|y
-0Q|y
-0T|y
-0_sy
-0fsy
-0tsy
 1#IND
 1#INF
 1#QNAN
 1#SNAN
-11UT
-2\n0L
-2\vpL
-3+5<t
 333333
 4\tgA
-4]sy
-6\fXO>
 700PP
 700WP
-7yp>
-7~floor
-8J;@ts
-8J|y
-8K|y
-8R|y
-8Usy
-8U|y
-9g>@3
 :}+M8fff?tanhf
-<Wsy
 <ellipsis>
 <program name unknown>
 <unknown>
-=cosh
-?1cb
-?3Fx
 ??0?$_SpinWait@$00@details@Concurrency@@QEAA@P6AXXZ@Z
 ??0?$_SpinWait@$0A@@details@Concurrency@@QEAA@P6AXXZ@Z
 ??0SchedulerPolicy@Concurrency@@QEAA@AEBV01@@Z
@@ -318,10 +275,7 @@ $tsy
 ?Id@Context@Concurrency@@SAIXZ
 ?Id@CurrentScheduler@Concurrency@@SAIXZ
 ?IsCurrentTaskCollectionCanceling@Context@Concurrency@@SA_NXZ
-?JV8f
-?Ji@9
 ?Log2@details@Concurrency@@YAK_K@Z
-?N]TUUU
 ?Oversubscribe@Context@Concurrency@@SAX_N@Z
 ?RegisterShutdownEvent@CurrentScheduler@Concurrency@@SAXPEAX@Z
 ?ResetDefaultSchedulerPolicy@Scheduler@Concurrency@@SAXXZ
@@ -332,8 +286,6 @@ $tsy
 ?SetPolicyValue@SchedulerPolicy@Concurrency@@QEAAIW4PolicyElementKey@2@I@Z
 ?VirtualProcessorId@Context@Concurrency@@SAIXZ
 ?Yield@Context@Concurrency@@SAXXZ
-?\rz0w
-?\vxMW
 ?_Abort@_StructuredTaskCollection@details@Concurrency@@AEAAXXZ
 ?_Acquire@_NonReentrantBlockingLock@details@Concurrency@@QEAAXXZ
 ?_Acquire@_NonReentrantPPLLock@details@Concurrency@@QEAAXPEAX@Z
@@ -404,7 +356,6 @@ $tsy
 ?_inconsistency@@YAXXZ
 ?_invalid_parameter@@YAXPEBG00I_K@Z
 ?_is_exception_typeof@@YAHAEBVtype_info@@PEAU_EXCEPTION_POINTERS@@@Z
-?_logb
 ?_name_internal_method@type_info@@QEBAPEBDPEAU__type_info_node@@@Z
 ?_open@@YAHPEBDHH@Z
 ?_query_new_handler@@YAP6AH_K@ZXZ
@@ -418,15 +369,11 @@ $tsy
 ?_type_info_dtor_internal_method@type_info@@QEAAXXZ
 ?_wopen@@YAHPEB_WHH@Z
 ?_wsopen@@YAHPEB_WHHH@Z
-?acos
-?acosf
 ?before@type_info@@QEBAHAEBV1@@Z
 ?get_error_code@scheduler_resource_allocation_error@Concurrency@@QEBAJXZ
-?id7
 ?lock@critical_section@Concurrency@@QEAAXXZ
 ?lock@reader_writer_lock@Concurrency@@QEAAXXZ
 ?lock_read@reader_writer_lock@Concurrency@@QEAAXXZ
-?logf
 ?name@type_info@@QEBAPEBDPEAU__type_info_node@@@Z
 ?native_handle@critical_section@Concurrency@@QEAAAEAV12@XZ
 ?raw_name@type_info@@QEBAPEBDXZ
@@ -437,8 +384,6 @@ $tsy
 ?set_terminate@@YAP6AXXZP6AXXZ@Z
 ?set_unexpected@@YAP6AXXZH@Z
 ?set_unexpected@@YAP6AXXZP6AXXZ@Z
-?tanf
-?tanh
 ?terminate@@YAXXZ
 ?try_lock@critical_section@Concurrency@@QEAA_NXZ
 ?try_lock@reader_writer_lock@Concurrency@@QEAA_NXZ
@@ -450,22 +395,14 @@ $tsy
 ?wait@event@Concurrency@@QEAA_KI@Z
 ?wait_for_multiple@event@Concurrency@@SA_KPEAPEAV12@_K_NI@Z
 ?what@exception@std@@UEBAPEBDXZ
-@8UUUUU
-@bsy
-@hcjz
-@ssy
 ABCDEFGHIJKLMNOPQRSTUVWXYZ
-A`1w>
 Access violation - no RTTI data!
 April
 Arg list too long
 Assertion failed!
 Assertion failed: %s, file %s, line %d\n
-Atan
 Attempted a typeid of NULL pointer!
 August
-B,fK
-BC1%M
 Bad address
 Bad dynamic_cast!
 Bad file descriptor
@@ -473,9 +410,6 @@ Bad read pointer - no RTTI data!
 Beep
 Broken pipe
 COMSPEC
-Catan
-Catanf
-Ccoshf
 CloseHandle
 CompareStringW
 ContextPriority
@@ -496,11 +430,6 @@ CreateTimerQueue
 CreateTimerQueueTimer
 CreateUmsCompletionList
 CreateUmsThreadContext
-Csinhf
-Cy2@K>
-D(ty
-D?sy
-DSsy
 DebugBreak
 December
 DecodePointer
@@ -514,10 +443,8 @@ DeleteUmsThreadContext
 DequeueUmsCompletionListItems
 Directory not empty
 Domain error
-Dtsy
 DuplicateHandle
 DynamicProgressFeedback
-Dyvy
 EncodePointer
 EnterCriticalSection
 EnterUmsSchedulingMode
@@ -527,7 +454,6 @@ ExecuteUmsThread
 ExitProcess
 ExitThread
 Expression: 
-FF\n@Y
 February
 File exists
 File too large
@@ -540,7 +466,6 @@ FindFirstFileExA
 FindFirstFileExW
 FindNextFileA
 FindNextFileW
-FlR!<B
 FlsAlloc
 FlsFree
 FlsGetValue
@@ -622,15 +547,7 @@ GetUserObjectInformationA
 GetUserObjectInformationW
 GetVersion
 GetVersionExW
-GfZ+?p
-GrJoq>@
-H>r1
 HH:mm:ss
-HK|y
-HL|y
-HMXB
-HU|y
-HYsy
 HeapAlloc
 HeapCompact
 HeapCreate
@@ -642,8 +559,6 @@ HeapSetInformation
 HeapSize
 HeapValidate
 HeapWalk
-I:!A9
-I;u>A
 Illegal byte sequence
 Improper link
 Inappropriate I/O control operation
@@ -663,7 +578,6 @@ Is a directory
 IsDebuggerPresent
 IsValidCodePage
 IsValidLocale
-JIE]0\
 JanFebMarAprMayJunJulAugSepOctNovDec
 January
 July
@@ -687,8 +601,6 @@ LocalFileTimeToFileTime
 Lock already taken
 Lock already taken as a writer
 LockFile
-Lusy
-M'y>0y
 MM/dd/yy
 MSVCR100.dll
 March
@@ -705,7 +617,6 @@ MoveFileW
 Mp'n_
 Mp/n_
 MultiByteToWideChar
-NKeb
 NULL
 No child processes
 No error
@@ -724,26 +635,14 @@ Op'n5P%
 Op/n5P+
 Operation not permitted
 OutputDebugStringW
-P9ty
 PATH
-PD|y
-PFty
-PJ|y
-PQ|y
-PR|y
-PS|y
-PT|y
 PeekConsoleInputA
 PeekNamedPipe
 Permission denied
-Pmsy
 Program: 
 QueryDepthSList
 QueryPerformanceCounter
 QueryUmsThreadInformation
-RSDS
-R\fpL
-R\vpL
 RaiseException
 Read-only file system
 ReadConsoleInputA
@@ -764,7 +663,6 @@ RtlLookupFunctionEntry
 RtlPcToFileHeader
 RtlUnwindEx
 RtlVirtualUnwind
-S;uD
 Saturday
 SchedulerKind
 SchedulingProtocol
@@ -803,9 +701,6 @@ SwitchToThread
 SystemFunction036
 SystemRoot
 SystemTimeToFileTime
-T:ty
-TUUU
-T^sy
 TargetOversubscriptionFactor
 TerminateProcess
 Thursday
@@ -818,14 +713,11 @@ Too many open files
 Too many open files in system
 TraceEvent
 TryEnterCriticalSection
-Ttsy
 Tuesday
 UNICODE
 UNKNOWN
 UTF-16LE
 UTF-8
-UUUU
-UUUUU
 UUUUUU
 UmsThreadYield
 UnhandledExceptionFilter
@@ -836,34 +728,20 @@ UnregisterTraceGuids
 Up'n1P%
 Up/n1P+
 UpdateProcThreadAttribute
-V?UUUUUU
 VirtualAlloc
 VirtualFree
 VirtualProtect
 VirtualQuery
 Visual C++ CRT: Not enough memory to complete call to strerror.
-W 7x
 WaitForMultipleObjects
 WaitForSingleObject
-Wak>E
 Wednesday
 WideCharToMultiByte
 Wpgn
 Wpon
 WriteConsoleW
 WriteFile
-XI|y
-XK|y
-XU|y
-XVsy
-XV|y
-ZSq>
-[*ncd>TQ
 [thunk]:
-\f0ty
-\tJR>8o
-\veBV
-^axb
 _CRT_RTC_INIT
 _CRT_RTC_INITW
 _CreateFrameInfo
@@ -1938,7 +1816,6 @@ _wutime64
 `eh vector destructor iterator'
 `eh vector vbase constructor iterator'
 `eh vector vbase copy constructor iterator'
-`h`hhh
 `local static destructor helper'
 `local static guard'
 `local static thread guard'
@@ -1972,7 +1849,6 @@ _wutime64
 `virtual displacement map'
 `vtordispex{
 `vtordisp{
-`wsy
 abcdefghijklmnopqrstuvwxyz
 abort
 acos
@@ -2005,7 +1881,6 @@ britain
 bsearch
 bsearch_s
 btowc
-c>F2
 calloc
 canadian
 ceil
@@ -2034,9 +1909,6 @@ cosh
 coshf
 count
 czech
-d/yy
-d:ty
-dXsy
 dddd, MMMM dd, yyyy
 double
 dutch-belgian
@@ -2060,7 +1932,6 @@ eventObject
 exit
 expf
 extern "C" 
-fGa>
 fabs
 fclose
 feof
@@ -2118,17 +1989,10 @@ gets_s
 getwc
 getwchar
 great britain
-h(zy
-hL|y
-hT|y
-hU|y
-hZsy
 holland
 hong-kong
 hp'n
 hp/n
-hv|y
-i>VF
 int 
 ip'nEP%
 ip/nEP+
@@ -2160,13 +2024,8 @@ iswupper
 iswxdigit
 isxdigit
 italian-swiss
-jeTb
 jp'n
 jp/n
-k>4\tF
-kNB'
-kU'9
-lWi]
 labs
 ldexp
 ldiv
@@ -2179,7 +2038,6 @@ logf
 long
 long 
 longjmp
-mO-B
 malloc
 mblen
 mbrlen
@@ -2201,24 +2059,16 @@ modff
 mpgn
 mpon
 msvcr100.amd64.pdb
-ne%P
 new-zealand
 norwegian
 norwegian-bokmal
 norwegian-nynorsk
 operator
-p/yy
-p=ty
-p>.G1
-p>Y3
 pContext
 pEvents
 pExecutionResource
-pK|y
-pQ|y
 pScheduler
 pThreadProxy
-pasy
 perror
 portuguese-brazilian
 powf
@@ -2237,11 +2087,8 @@ putchar
 puts
 putwc
 putwchar
-q>F,3
 qsort
 qsort_s
-rLp>B
-rNm>)
 raise
 rand
 rand_s
@@ -2344,8 +2191,6 @@ towlower
 towupper
 tr1::bad_weak_ptr
 trinidad & tobago
-u.?Z8
-ub8c@
 ujGs?
 ungetc
 ungetwc
@@ -2412,17 +2257,5 @@ wprintf
 wprintf_s
 wscanf
 wscanf_s
-xI|y
-xL|y
-xR|y
-xS|y
-xT|y
-xesy
-xppwpp
-xpxxxx
-z>h4
-z?aUY
-zc%C1
-{DA5
 {flat}
 {for 

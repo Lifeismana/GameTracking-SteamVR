@@ -13,7 +13,6 @@ InitializeConditionVariable
 QVector<T>::at
 QWbmpHandler::canRead() called with no device
 QWbmpPlugin
-RSDS
 SleepConditionVariableCS
 Unknown exception
 WakeAllConditionVariable

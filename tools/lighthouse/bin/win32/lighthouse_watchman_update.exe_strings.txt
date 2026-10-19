@@ -23,8 +23,6 @@
  right
  total)
  with '
-!AxU
-#bML"
 %08X - Failed to get firmware attributes\n
 %08X - Firmware failed to update\n
 %08X - Firmware is up to date with %d. (Latest is %d) Skipping\n
@@ -42,7 +40,6 @@
 %s: Received short %d byte packet when expecting config\n
 %s: Unable to request config start from device\n
 *.bin
-*5KS
 , IMU susp: 
 , VRC susp: 
 --force-update
@@ -67,8 +64,6 @@
 --via-application
 --via-bootloader
 --via-dongle
--t1?Ks
--tA?Ks
 . Retrying...
 .00cfg
 .?AU_Crt_new_delete@std@@
@@ -185,8 +180,6 @@
 .tls$
 .tls$ZZZ
 .xdata$x
-/P8i
-/yQA
 0x1105xxxx
 0x1106xxxx
 0x1109xxxx
@@ -205,11 +198,6 @@
 0x84xxxxxx
 0x85xxxxxx
 1.2.5
-1A26b
-1wsHp
-52F*
-7~8A
-9a&g
 ??0?$basic_ios@DU?$char_traits@D@std@@@std@@IAE@XZ
 ??0?$basic_iostream@DU?$char_traits@D@std@@@std@@QAE@PAV?$basic_streambuf@DU?$char_traits@D@std@@@1@@Z
 ??0?$basic_istream@DU?$char_traits@D@std@@@std@@QAE@PAV?$basic_streambuf@DU?$char_traits@D@std@@@1@_N@Z
@@ -241,7 +229,6 @@
 ??_7ctype_base@std@@6B@
 ??_7facet@locale@std@@6B@
 ??_7ios_base@std@@6B@
-?ITrackedDeviceServerDriver_005
 ?VRCamera_Open@vrcamera@@YA?AV?$unique_ptr@VIVRCamera@vrcamera@@U?$default_delete@VIVRCamera@vrcamera@@@std@@@std@@GG@Z
 ?VRCamera_Open@vrcamera@@YA?AV?$unique_ptr@VIVRCamera@vrcamera@@U?$default_delete@VIVRCamera@vrcamera@@@std@@@std@@XZ
 ?_BADOFF@std@@3_JB
@@ -337,7 +324,6 @@ Bootloader version:
 Build lot:          
 Building user data image...
 Built user data image, size %ld\n
-C-Yn
 CHidDevice: Can't open USB device VID %08x, PID %08x %s %d\n
 CancelIo
 CloseHandle
@@ -449,8 +435,6 @@ GetProcAddress
 GetStdHandle
 GetSystemTimeAsFileTime
 GetTickCount64
-H$6t
-H*0"ZOW
 HID opened: VID %04x PID %04x serial %S seq %d | if %d\n
 HWID Signature not found
 HWID matching
@@ -470,6 +454,7 @@ ICE40
 ISP-ETRON-776
 ISP-ETRON-876
 IServerTrackedDeviceProvider_004
+ITrackedDeviceServerDriver_005
 IVRCameraComponent_003
 IVRCompositorPluginProvider_001
 IVRDisplayComponent_003
@@ -481,7 +466,6 @@ IVRSettings_003
 IVRVirtualDisplay_002
 IVRWatchdogProvider_001
 Ignoring unrecognized argument '
-IiGM>nw
 Image %s is too small (%d bytes) to have HW revision or version\n
 In BL: 
 InitializeConditionVariable
@@ -508,9 +492,7 @@ LocalFree
 Log Erase
 Looking for %u bootloaders\n
 Looking for serial number 
-M8MF
 MAX10
-MGiI
 MIPI Init
 MIPI Init Error
 MSVCP140.dll
@@ -522,7 +504,6 @@ Mark 4
 Max watchdog reset count
 MbP?
 NEO_VRC
-NJ2"v
 NRF52
 NRF52 DTM
 New App Version
@@ -530,8 +511,6 @@ New BL Version
 New HWID
 New Radio Version
 Non-Production BL
-O*9y]
-OZw3(?
 OpenProcess
 Options:\n  -h                       Prints this message\n  -m<dev>                  Update main firmware (default)\n  -f<dev>                  Update FPGA firmware\n  -r<dev>                  Update radio firmware\n  -j<dev> k1,f1 k2,f2 ...  Update user data {key,filename}. Multiple files supported. Erases prior user data.\n  -u <dir>                 Update all devices with firmware in the specified directory\n  -U <dir>                 Same as '-u' option but forces update\n  -x                       Do not reset device after successful update\n  -b<dev>                  Reset device into bootloader mode\n  -i<dev>                  Reset bootloader device into ISP mode\n  -R<dev>                  Reset into main firmware from the bootloader\n  -B <num>                 Set board revision\n  -l<dev> <num>            Set date/lot code\n  -a<dev>                  Print bootloader attributes\n  -c                       Print CRC128\n  -d                       Update watchman dongle\n  -e                       Force update watchman dongle even if the existing version is newer\n  -D                       Update watchman dongles and/or convert Steam Controller dongles to watchman\n  -g<dev>                  Update fuel gauge firmware\n  -t <path>                Reads timestamp information from a watchman firmware image\n  -s <serial num>          Update the device with matching serial number\n  --via-dongle             Perform watchman firmware updates via a dongle radio connection\n  --via-bootloader         (Watchman v3 devices only) Sends the update via the device's bootloader\n  --via-application        (Watchman v3 devices only) Sends the update via the device's application interface\n  --force-update           (Watchman v3 devices only) Forces an update onto a device\n  --target=<target>        (Watchman v3 devices only) Sets the update target.  Available targets:\n                               application, bootloader, ice40, max10, nrf52, bq27520, bq27421,\n                               et876, et776, user, lpc11_bl, lpc11_app, default (set by file)\n  --restore-json           Backup and restore the JSON file after the update\n  --hwid <hwid1,hwid2,...> Comma separated list of hardware IDs. Full HWID can be given or only the first N characters. (Watchman V3 only)\n  --multi\t\t\t\t\tAllow updating multiple devices with the same firmware image at once. (Watchman V3 only)\n\n <dev> device     'w' for watchman 'w3' for watchman v3 'v' for VRC 'n' for NEO_VRC\n                   (default is watchman)\n
 Out of thread local storage!\n
@@ -541,14 +520,10 @@ Pairing Start
 Pairing Success
 Panel Init
 Panel Init Error
-Pe6^
 Please exit Steam before converting dongles to avoid firmware update conflict.
 Press enter to continue...\n
-Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
-R1h58
-RSDSE
 Radio version:      
 RaiseException
 ReadFile
@@ -565,7 +540,6 @@ ResetEvent
 Restored device configuration
 Restored device configuration\n
 SETUPAPI.dll
-SKyu
 Searching for devices with 
 Searching...
 Sending data...
@@ -643,7 +617,6 @@ VCRUNTIME140.dll
 VERSION.dll
 VIVE TRACKER
 Valve Nordic bootloader version 
-Vc0a
 VerQueryValueA
 Version:  %s  %s\n
 Video Failure
@@ -664,19 +637,12 @@ Watchdog reset
 WideCharToMultiByte
 WriteFile
 Wrote image to tempfile %s\n\n
-XsBI
-Zjz\v
-[h1R
 \FileVersion
 \InternalName
 \StringFileInfo\
 \VarFileInfo\Translation
-\rmj>zjZ
 \tUsing firmware images for 0x01020200 instead of 0x80000100\n
 \tUsing firmware images for 0x81010500 instead of 0x02020200\n
-\t\t\n\n\v\v\f\f\f\f\r\r\r\r
-\t\t\t\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r
-^oEZ_
 _CxxThrowException
 _Mtx_destroy_in_situ
 _Mtx_init_in_situ
@@ -752,13 +718,10 @@ bootloader
 buffer error
 c:\buildslave\steamvr_rel_win32\build\src\lighthouse_watchman_update\Retail\win32\2017\lighthouse_watchman_update.pdb
 calloc
-dQy/
 data error
 device
 devices
-ewh/?y
 exit
-fP~V
 fclose
 fflush
 fgetc
@@ -773,11 +736,8 @@ free
 fseek
 fsetpos
 ftell
-fu`z
 fwrite
 getchar
-gqr<
-hPU3
 header crc mismatch
 hid.dll
 hid_close
@@ -798,8 +758,6 @@ hid_read_timeout
 hid_send_feature_report
 hid_set_nonblocking
 hid_write
-i91k
-i]Wb
 incompatible version
 incorrect data check
 incorrect header check
@@ -832,8 +790,6 @@ invalid stored block lengths
 invalid string position
 invalid window size
 knuckles EV1
-l6qnk
-lDa>
 lighthouse_watchman_update.exe
 malloc
 map/set<T> too long
@@ -845,8 +801,6 @@ mi_01
 need dictionary
 or 0x
 remove
-ru&o
-s?Ks
 setvbuf
 skipping device %d because we can't get its info\n
 stream end
@@ -867,7 +821,6 @@ unknown
 unknown compression method
 unknown header flags set
 user_data_image_%u.temp
-vQO+t
 vector<T> too long
 vive pro controller
 vive pro hmd
@@ -875,11 +828,5 @@ vive tracker
 viveprocontroller
 vivetracker
 vrcamera_api.dll
-w+OQvr
-w3Xc
-wXR\r
 wcsncmp
-wn>Jj
-y9*O
 zot!
-{kHw

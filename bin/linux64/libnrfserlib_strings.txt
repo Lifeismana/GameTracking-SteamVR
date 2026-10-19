@@ -12,12 +12,15 @@
  transaction_safe
  volatile
 $ORIGIN
+%%.%dg
+%.*Lf
 %02X
 %06d
 %4.4X:%4.4X\n
 %s (%4.4X:%4.4X Serial: %s)\n
 %s data received. (handle: %d, bytes: %d) '%s'\n
 %s setup error from %s\n
+%s%s
 %s: %s, SD v%d, %s, Attempt: %d\n
 %s: Failed in state: %d (nrf_error: %s)\n
 %s: __pos (which is %zu) > this->size() (which is %zu)
@@ -82,7 +85,6 @@ $ORIGIN
 8EC90002F3154F609FB8838830DAEA50
 8EC90003F3154F609FB8838830DAEA50
 9CIdentify
-9a&g
 <= Exiting Context: (%.2f seconds)\n
 ==============================\n
 ======================\n
@@ -507,7 +509,6 @@ PerformDFUContext
 Performing DFU:\n
 Power Control
 Progress: %d%% (%d/%d)\n
-Qkkbal
 RESET_PERFORMED
 Read Characteristic String
 Read Characteristic Value (handle: %d, offset: %d)\n
@@ -699,7 +700,6 @@ Zip-bug: the anticipated size turned out wrong
 Zip-bug: tried to change mind, but not allowed
 Zip-bug: trying to seek the unseekable
 Zipfile is corrupt or not a zipfile
-Zjz\v
 [%s] Initialization attempt: %d\n
 [%s] Initialization failed after %d attempts and %.3f seconds\n
 [%s] Initialization succeeded after %d attempts and %.3f seconds\n
@@ -923,7 +923,6 @@ guard variable for
 half
 hidden alias for 
 hyphen
-i]Wb
 iconv
 iconv_close
 iconv_open
@@ -1262,7 +1261,6 @@ wmemcmp
 wmemcpy
 wmemmove
 wmemset
-wn>Jj
 write
 writev
 xdigit

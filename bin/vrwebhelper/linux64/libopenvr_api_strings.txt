@@ -9,6 +9,8 @@
  throw
  transaction_safe
  volatile
+%%.%dg
+%.*Lf
 %s: __pos (which is %zu) > this->size() (which is %zu)
 ' is not a number.
 (anonymous namespace)

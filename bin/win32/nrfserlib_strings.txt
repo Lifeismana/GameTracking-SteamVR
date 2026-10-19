@@ -38,12 +38,14 @@
  syncSent:
  times.
  version-number:
+%%.%dg
 %02X
 %06d
 %4.4X:%4.4X\n
 %s (%4.4X:%4.4X Serial: %s)\n
 %s data received. (handle: %d, bytes: %d) '%s'\n
 %s setup error from %s\n
+%s%s
 %s: %s, SD v%d, %s, Attempt: %d\n
 %s: Failed in state: %d (nrf_error: %s)\n
 ' is not a number.
@@ -560,7 +562,6 @@
 8EC90001F3154F609FB8838830DAEA50
 8EC90002F3154F609FB8838830DAEA50
 8EC90003F3154F609FB8838830DAEA50
-9a&g
 <= Exiting Context: (%.2f seconds)\n
 ==============================\n
 ======================\n
@@ -960,7 +961,6 @@ Line %d, Column %d
 LocalFree
 Looking for external adpater.\n
 Looking for internal adpater.\n
-MGiI
 MSVCP140.dll
 MTU exchange request reply failed. (nrf_error: %s)\n
 MTU response received. New ATT_MTU is %d\n
@@ -1062,13 +1062,11 @@ PortName
 PostQueuedCompletionStatus
 Power Control
 Progress: %d%% (%d/%d)\n
-Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
 QueueUserAPC
 RESERVED_5
 RESET_PERFORMED
-RSDSB
 RaiseException
 Read Characteristic String
 Read Characteristic Value (handle: %d, offset: %d)\n
@@ -1232,7 +1230,6 @@ Zip-bug: the anticipated size turned out wrong
 Zip-bug: tried to change mind, but not allowed
 Zip-bug: trying to seek the unseekable
 Zipfile is corrupt or not a zipfile
-Zjz\v
 [%s] Initialization attempt: %d\n
 [%s] Initialization failed after %d attempts and %.3f seconds\n
 [%s] Initialization succeeded after %d attempts and %.3f seconds\n
@@ -1351,7 +1348,6 @@ h5_decode error, code: 0x
 h5_transport is in state 
 h5_transport received ack packet in state 
 hardware
-i]Wb
 in Json::Value::duplicateAndPrefixStringValue(): Failed to allocate string value buffer
 in Json::Value::duplicateAndPrefixStringValue(): length too big for prefixing
 in Json::Value::duplicateStringValue(): Failed to allocate string value buffer
@@ -1534,5 +1530,4 @@ vector<T> too long
 vector<bool> too long
 wcschr
 winsock
-wn>Jj
 xdigit

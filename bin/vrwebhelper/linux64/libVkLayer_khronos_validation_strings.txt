@@ -462,6 +462,7 @@
 %I:%M:%S %p
 %a %b %d %H:%M:%S %Y
 %d but the multiview feature is not enabled.
+%d-%d-%d
 %f, but the minLod feature is not enabled.
 %lld
 %llu
@@ -683,6 +684,7 @@
 %s: Attempting to bind memory type %u to VkImage which was created with TRANSIENT_ATTACHMENT_BIT,but this memory type is not LAZILY_ALLOCATED_BIT. You should use memory type %u here instead to save %lu bytes of physical memory.
 %s: Trying to bind %s to a memory block which is fully consumed by the buffer. The required size of the allocation is %lu, but smaller buffers like this should be sub-allocated from larger memory blocks. (Current threshold is %lu bytes.)
 %s: Trying to bind %s to a memory block which is fully consumed by the image. The required size of the allocation is %lu, but smaller images like this should be sub-allocated from larger memory blocks. (Current threshold is %lu bytes.)
+%s:%d: %s
 %u and basePipelineHandle is not VK_NULL_HANDLE.
 %u does not equal descriptorCount %u.
 %u does not match attachmentCount of %u of %s being used to create Framebuffer.
@@ -41075,6 +41077,7 @@ is %f, but the depthBiasClamp device feature was not enabled.
 is %f, but the depthBiasClamp feature was not enabled
 is %f, but the line width state is static (pCreateInfos[%u].pDynamicState->pDynamicStates does not contain VK_DYNAMIC_STATE_LINE_WIDTH) and wideLines feature was not enabled.
 is %f, depthBoundsTestEnable is VK_TRUE, but VK_EXT_depth_range_unrestricted extension is not enabled (and not using VK_DYNAMIC_STATE_DEPTH_BOUNDS).
+is %f.
 is %lu and arrayLayers is 1.
 is %lu and extext.depth is 1.
 is %lu and is not aligned to the minimum component byte size (%u) of its corresponding vertex format (%s).
@@ -46820,5 +46823,4 @@ zirconHandle must obey any requirements listed for handleType in external semaph
 zirconHandle must reference a valid VMO
 { subresource { aspectMask: 
 | MessageID = 0x
-|mGl
 }, extent {

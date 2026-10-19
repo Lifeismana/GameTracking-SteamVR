@@ -1,16 +1,12 @@
                           
- !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
- !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
  Base Class Array'
  Base Class Descriptor at (
- C>TQ
  Class Hierarchy Descriptor'
  Complete Object Locator'
  Type Descriptor'
  delete
  delete[]
  new
-*StO9>T
 .00cfg
 .?AU?$_InitialTaskHandle@XV<lambda_67b6e2ce0763d97d4e8d739e75423c77>@@U_TypeSelectorNoAsync@details@Concurrency@@@?$task@E@Concurrency@@
 .?AU?$_PPLTaskHandle@EU?$_InitialTaskHandle@XV<lambda_67b6e2ce0763d97d4e8d739e75423c77>@@U_TypeSelectorNoAsync@details@Concurrency@@@?$task@E@Concurrency@@U_TaskProcHandle@details@3@@details@Concurrency@@
@@ -192,38 +188,15 @@
 .tls
 .tls$
 .tls$ZZZ
-.xJ>Hf
 .xdata
 .xdata$x
-0iN>/
-11Y@
-1eaB@
-37>k
-3>N;kU
-3>fvw
-6\fXO>\ntA
-9>exp
-<sqrt
-=cQ6
-=imb;D
->cQ6
->jtm}S
-?7zQ6$
-?8bunz8
-?@En[vP
 ?UUUUUU
-?f`Y4
-?qBJ
-?ysB
-A>pP&
 ABCDEFGHIJKLMNOPQRSTUVWXYZ
 Access violation - no RTTI data!
 AcquireSRWLockExclusive
 AirAbsorption
 April
 August
-BC?>6t9^\tc:>
-BF>^G
 Bad dynamic_cast!
 Binaural
 Blends between omni and dipole directivity.
@@ -291,7 +264,6 @@ DirectPath transmission, mid.
 Distance
 DuplicateHandle
 DynamicProgressFeedback
-ET5>
 Enable air absorption.
 Enable distance attenuation.
 Enable indirect sound.
@@ -397,7 +369,6 @@ January
 July
 June
 KERNEL32.dll
-L>ev
 LCMapStringEx
 LCMapStringW
 LeaveCriticalSection
@@ -410,14 +381,11 @@ MM/dd/yy
 March
 MaxConcurrency
 MaxPolicyElementKey
-Mbp?333333
 MinConcurrency
 Monday
 MultiByteToWideChar
-N>VF
 Name
 November
-OZQ%
 OcclusionMethod
 OcclusionMode
 October
@@ -426,7 +394,6 @@ QueryDepthSList
 QueryPerformanceCounter
 QueryUmsThreadInformation
 QueueUserWorkItem
-RSDS}
 Radius of the source.
 RaiseException
 Real-time or baked.
@@ -444,8 +411,6 @@ RtlLookupFunctionEntry
 RtlPcToFileHeader
 RtlUnwindEx
 RtlVirtualUnwind
-S9>H
-S>$hkDh$h>[2
 Saturday
 SchedulerKind
 SchedulingProtocol
@@ -494,7 +459,6 @@ TryAcquireSRWLockExclusive
 TryEnterCriticalSection
 Tuesday
 Type
-UA>N0Wl
 UUUUUU
 UmsThreadYield
 UnhandledExceptionFilter
@@ -519,9 +483,6 @@ WideCharToMultiByte
 WinRTInitialization
 WriteConsoleW
 WriteFile
-[*ncd>0
-\nk>oB
-\tkE>fvw
 __based(
 __cdecl
 __clrcall
@@ -597,7 +558,6 @@ deque<T> too long
 destination address required
 device or resource busy
 directory not empty
-eF>t
 eventObject
 executable format error
 file exists
@@ -607,7 +567,6 @@ function not supported
 future
 future already retrieved
 generic
-h>1my
 host unreachable
 identifier removed
 illegal byte sequence
@@ -669,9 +628,7 @@ iplUnitySetListener
 is a directory
 list<T> too long
 log10
-mG4>
 message size
-n03>Pu
 network down
 network reset
 network unreachable
@@ -714,13 +671,12 @@ proc
 promise already satisfied
 protocol error
 protocol not supported
-rLp>B
-r\tVr.>T
 read only file system
 resource deadlock would occur
 resource unavailable try again
 restrict(
 result out of range
+sqrt
 sqrtf
 state not recoverable
 stream timeout
@@ -733,7 +689,6 @@ too many files open in system
 too many links
 too many symbolic link levels
 unknown error
-uzKs@>
 value too large
 vector<T> too long
 version

@@ -5,7 +5,6 @@ $ORIGIN/../../lib
 11Tga24Reader
 11Tga32Reader
 9TgaReader
-=pcGF
 CXXABI_1.3
 Could not read footer
 Could not read image data

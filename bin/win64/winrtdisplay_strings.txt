@@ -93,7 +93,6 @@
 .xdata
 .xdata$x
 1.0.0
-3dj6
 76F\
 <P)9Y
 <unknown>
@@ -140,7 +139,6 @@ MultiByteToWideChar
 OLEAUT32.dll
 QueryPerformanceCounter
 QueryPerformanceFrequency
-RSDS}he
 ResetEvent
 RoGetActivationFactory
 RoOriginateLanguageException

@@ -58,6 +58,7 @@ $87035389-1bb3-40e2-b2a9-c8707e7419ba
 <numBytesOut>k__BackingField
 <numMsgsIn>k__BackingField
 <numMsgsOut>k__BackingField
+=%o\ta
 >6K6
 ABu\t"
 ActivateLocalClientScene

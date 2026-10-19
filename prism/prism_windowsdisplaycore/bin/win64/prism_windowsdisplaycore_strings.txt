@@ -113,12 +113,9 @@
 .tls$ZZZ
 .xdata
 .xdata$x
-3dj6
-76F\
 8c8f13b1-60eb-4b6a-a433-de86104115ac
 8d8f13b1-60eb-4b6a-a433-de86104115ac
 8e8f13b1-60eb-4b6a-a433-de86104115ac
-<P)9Y
 <unknown>
 ?_Throw_C_error@std@@YAXH@Z
 ?_Throw_Cpp_error@std@@YAXH@Z
@@ -127,7 +124,6 @@
 ADVAPI32.dll
 ASSERT: "%s" at %s:%d.\n
 C++/WinRT version:1.0.190111.3
-CFailed to parse log message
 CVkAllocator::AllocateMemory
 CVkAllocator::AllocateMemoryFromType
 CVkAllocator::CreateImageWithFlags
@@ -146,6 +142,7 @@ DisableThreadLibraryCalls
 EnterCriticalSection
 EventRegister
 EventUnregister
+Failed to parse log message
 Format string parse failure
 FreeLibrary
 GetCurrentProcessId
@@ -211,7 +208,6 @@ PRISM_Stop
 QueryPerformanceCounter
 QueryPerformanceFrequency
 RPCRT4.dll
-RSDS
 RaiseException
 ResetEvent
 RoGetActivationFactory
@@ -327,5 +323,4 @@ string too long
 strncpy
 tdh.dll
 terminate
-v!nep
 vector<T> too long

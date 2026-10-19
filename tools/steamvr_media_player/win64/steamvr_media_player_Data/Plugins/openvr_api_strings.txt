@@ -1,7 +1,5 @@
                           
- !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
  !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
- !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
  Base Class Array'
  Base Class Descriptor at (
  Class Hierarchy Descriptor'
@@ -11,14 +9,13 @@
  delete[]
  for detail.\n
  new
+%%.%dg
 %a %b %d %H:%M:%S %Y
 %a %b %d %Y %H:%M:%S.%%03u
 ' is not a number.
-( 8PX
 ('8PW
 (null)
 -1e+9999
--64OS
 -Infinity
 .?AUctype_base@std@@
 .?AV?$_Iosb@H@std@@
@@ -65,11 +62,9 @@
 1#QNAN
 1#SNAN
 1e+9999
-2\vpXq
 700PP
 700WP
 A valid JSON document must be either an array or an object value.
-A0123456789abcdefghijklmnopqrstuvwxyz
 ABCDEFGHIJKLMNOPQRSTUVWXYZ
 Another app was already launching (117)
 App info manager init failed (114)
@@ -196,7 +191,6 @@ HMD found, but problems with the data (1111)
 HMD found, but problems with the data (1112)
 HMD found, but unable to init ZLib (1106)
 HMD found, but unable to request config (1102)
-HMXB
 HeapAlloc
 HeapFree
 HeapReAlloc
@@ -267,7 +261,6 @@ Missing ':' after object member name
 Missing '}' or object member name
 Monday
 MultiByteToWideChar
-NKeb
 No Error (0)
 Not Initialized (109)
 Not starting vrserver for background app (121)
@@ -278,8 +271,6 @@ OutputDebugStringA
 OutputDebugStringW
 PeekNamedPipe
 QueryPerformanceCounter
-RSDSg08
-R\vpXq
 RaiseException
 ReadConsoleW
 ReadFile
@@ -288,7 +279,6 @@ RtlLookupFunctionEntry
 RtlPcToFileHeader
 RtlUnwindEx
 RtlVirtualUnwind
-S;uD
 SHELL32.dll
 SHGetFolderPathW
 Saturday
@@ -449,8 +439,6 @@ Wednesday
 WideCharToMultiByte
 WriteConsoleW
 WriteFile
-\r\f\v\v\n\n\t\t\t\t\t
-\vpXq
 __based(
 __cdecl
 __clrcall
@@ -477,7 +465,6 @@ _nextafter
 `eh vector destructor iterator'
 `eh vector vbase constructor iterator'
 `eh vector vbase copy constructor iterator'
-`h`hhh
 `local static guard'
 `local static thread guard'
 `local vftable constructor closure'
@@ -591,7 +578,6 @@ ios_base::failbit set
 iostream
 iostream stream error
 is a directory
-kU'9
 ldexp
 log10
 map/set<T> too long
@@ -675,7 +661,3 @@ vrclient_x64.dll
 vrserver internal error (124)
 wrong protocol type
 wrong_protocol_type
-xppwpp
-xpxxxx
-z?aUY
-zc%C1

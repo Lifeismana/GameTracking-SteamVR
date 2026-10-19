@@ -22,7 +22,11 @@
  failed to dlopen %s error=%s\n
  low
 $ORIGIN
+%%.%if
+%%.%if%s
+%*s%ld
 %.0f pct of time accounted for\n
+%.2f
 %0*llx bytes at %0*llx is the largest open user-space VA region%s\n
 %0*llx bytes of %s at %0*llx%s\n
 %0*llx: address after highest user-space virtual region\n
@@ -35,7 +39,10 @@ $ORIGIN
 %d frames sampled for %.2f seconds\n
 %d:%02d.%03d
 %d:%02d:%02d.%03d
+%i%s
 %llu,%u,%u,%s\r\n
+%s %i %s\n
+%s '%s'
 %s (%d) : %s
 %s (%d) : %s\n
 %s (%i) : %s\n
@@ -51,6 +58,7 @@ $ORIGIN
 %s total bytes in user-space regions (%s bytes in kernel-space regions)\n
 %s(%d%%) %s
 %s/source_engine_%u.lock
+%s: %s\n
 %s: Unable to get executable filename (%d byte buffer).
 %s: Unable to load SDL\n
 %s: added string size %d overflows (added to %d)\n
@@ -180,12 +188,12 @@ $ORIGIN
 &yacute;
 &yen;
 &yuml;
+'%s' %s
 (Missing)
 (Unaccounted)
 ***** OUT OF MEMORY! /+/ attempted allocation size: %llu ****\n
 ******** BEGIN VPROF REPORT ********\n
 ******** END VPROF REPORT ********\n
-+tPOu
 ,%03d
 -- Hierarchical Call Graph --\n
 -- Profile scopes sorted by average time (including children) --
@@ -232,6 +240,7 @@ $ORIGIN
 ../public/ordered_constructor.h
 ../public/tier0/globallist.h
 ../public/tier0/tslist.h
+/e%s%s
 /etc/SUSE-release
 /etc/debian_release
 /etc/fedora-release
@@ -330,7 +339,6 @@ $ORIGIN
 9CTestCase
 9IMemAlloc
 9ITestCase
-9a&g
 ::<lambda_
 ::_CAssertFastInternal::AssertionFailed
 <img src="
@@ -771,7 +779,6 @@ CreateCommandLine
 CreateInterface
 CreateSimpleProcess
 CreateSimpleThread
-D"A/oyu
 DEBUG_EXITPROCESS
 DWARF_LOCAL_TRANSLATE
 DeclareCurrentThreadIsMainThread
@@ -846,7 +853,6 @@ GetSymbolNameFromAddress
 GetThreadedLoadLibraryFunc
 GetUnitTest
 GetWin32ConsoleCursorColumnIndex
-H$BQ
 HEAP WARNING: memory block at %p is unexpectedly allocated\n
 HEAP WARNING: memory block at %p is unexpectedly free\n
 HEAP WARNING: memory block at %p is unexpectedly unrecognized\n
@@ -877,7 +883,6 @@ InvokeMiniDumpHandler
 IterateCapturedStackAnnotations
 JmpToAlternateStack
 Jobs/Coroutines
-KM^bM
 LOADING
 LOG_GENERAL
 Launch Debugger
@@ -944,7 +949,6 @@ LoggingSystem_SetChannelVerbosityByTag
 LoggingSystem_SetLoggingResponsePolicy
 LoggingSystem_TagName
 LoggingSystem_UnregisterLoggingListener
-MGiI
 Mac OS
 MacOS 10.10
 MacOS 10.11
@@ -994,6 +998,7 @@ Networking
 No samples\n
 NoteAlloc
 OS type: %s (%d)\n
+OS: %s\n
 OSTypesAreCompatible
 Ordered constructor wrapped type has no default constructor.\n\tYou must construct it with ORDERED_CONSTRUCT macro in the dependency resolution function.\n
 Other VScript
@@ -1235,10 +1240,7 @@ Push
 PushMiniProfilerTS
 PushPopThread
 PushThread
-QguI
-Qkkbal
 Qt_GetCustomAllocators
-RD?4KF?=GH?9FJ?8HL?
 RegisterAssertionFailureListener
 RegisterHibernationListener
 RegisterKeyValuesSystem
@@ -1259,7 +1261,6 @@ RunTSListTests
 RunTSQueueTests
 RunWithAlternateStack
 Running %s...\n
-S>T7W>
 SDL_AudioStreamAvailable
 SDL_AudioStreamClear
 SDL_AudioStreamFlush
@@ -1527,7 +1528,6 @@ Total virtual bytes: %s\n
 TracerPid:
 TranslateStackInfo
 UCS-2
-URdN
 USER
 UTF-8
 Unable to create event, error %d\n
@@ -1859,26 +1859,22 @@ Windows NT
 Windows Vista
 Windows XP
 Working set: %s\n
-XS&Y+
-Zjz\v
 [   func+child         func ]
 [   func+child       func ]
 [ func+child     func ]
 [/code]
 [/list]
 [1;31m%s
+[1;32m:%i:
 [1;33mASSERT: 
 [code]
 [img]
 [list]
 [url=
-\D2%4
-\n4Zv
 \nAbortMessage({
 \nOS memory stats:\n
 \nTesting %d threads:\n
 \n\nCMiniDumpComment encountered an error while generating the comment
-\t6RtcZO"
 _AssertValidReadPtr
 _AssertValidReadWritePtr
 _AssertValidWritePtr
@@ -1955,8 +1951,6 @@ _edata
 _end
 _exit
 _fini
-a?y#c?sIe?
-aco-nz
 alarm
 asctime
 asctime_r
@@ -1977,7 +1971,6 @@ dlerror
 dlopen
 dlsym
 done\n
-ds\fw
 epoll_create1
 epoll_ctl
 epoll_wait
@@ -2038,7 +2031,6 @@ gmtime_r
 hibernate.cpp
 high
 higher
-i]Wb
 ignored_assertions.txt
 int:transient:1
 isspace
@@ -2054,7 +2046,6 @@ linux
 localtime_r
 logging.cpp
 lower
-m?H5p?
 macos
 malloc
 malloc_usable_size
@@ -2082,7 +2073,6 @@ operator new(unsigned long)
 operator new[](unsigned long)
 p?&quot;
 pass\n
-pb>pAf>
 pclose
 physical id
 platform.cpp
@@ -2127,8 +2117,6 @@ realloc
 rename
 rmdir
 round
-s3o\
-sVwES
 sched_setaffinity
 semctl
 semget
@@ -2218,7 +2206,6 @@ vtable for __cxxabiv1::__class_type_info
 vtable for __cxxabiv1::__si_class_type_info
 vtable for __cxxabiv1::__vmi_class_type_info
 vtune
-w!hy
 waitpid
 warning
 wcscoll
@@ -2228,6 +2215,3 @@ wcsncpy
 wcstoll
 wcstoull
 windows
-wn>Jj
-wo=N
-z`%1Is}

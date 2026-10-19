@@ -8,8 +8,6 @@
   ---------------------------------------------------- ----------- ----------- ------ ----------- ------ ----------- ----------- -----------\n
   HEAP_ZERO_MEMORY is specified.\n
   Scope                                                      Calls  Time+Child    Pct        Time    Pct   Avg+Child         Avg        Peak\n
- !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
- !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
  - file:%s, line:%u ,time:%04u%02u%02u%02u%02u%02u\n
  Avg Time/Frame (ms)\n
  Base Class Array'
@@ -24,6 +22,7 @@
  delete
  delete[]
  new
+%%.%if%s
 %*s%s %s --> %d blocks = %s (%s larger)\n
 %*s%s %s --> %d blocks = %s (new)\n
 %.1f pct of time accounted for\n
@@ -32,14 +31,13 @@
 %d frames sampled for %.2f seconds\n
 %d validator nodes, %d nodes larger than %s\n
 %d,%p,%u,%u,%u,%u,%u,%d,%s\n
+%i%s
 %s --> %d blocks = %s\n
 %u MB address space used assuming maximum PageHeap overhead.\n
 %u MB allocated.\n
 %u MB memory used assuming maximum PageHeap overhead.\n
 %u lifetime allocations (%u delta).\n
 %u outstanding allocations (%d delta).\n
-&Sgw
-( 8PX
 ('8PW
 (Function name not found)
 (null)
@@ -84,7 +82,6 @@
 .?AVlogic_error@std@@
 .?AVout_of_range@std@@
 .?AVtype_info@@
-.AC Runtime heap
 .CRT$XCA
 .CRT$XCD
 .CRT$XCL
@@ -129,19 +126,13 @@
 .tls$
 .tls$ZZZ
 .xdata$x
-/Tw\n4
 1#IND
 1#INF
 1#QNAN
 1#SNAN
 16:14:46
-700PP
 700WP
 <unable to get local hostname>
-=87M
->c:\buildslave\vrpanorama_main_win32\build\src\tier0\valobject.cpp
-?([\t?([\t?([\t?([\t?([\t?([\t?([\t?([\t?([\t?
-?,[\t?,[\t?,[\t?,[\t?,[\t?,[\t?,[\t?
 ?5Wg4p
 ??0?$CDbgFmtSafeImplT@$00@@QAE@PAUDbgFmtFatalMsgTag_t@@PBD@Z
 ??0?$CDbgFmtSafeImplT@$00@@QAE@PBD@Z
@@ -325,7 +316,6 @@
 ?LockForRead@CThreadRWLock@@QBEXXZ
 ?LockForWrite@CThreadRWLock@@QAEXXZ
 ?LockForWrite@CThreadRWLock@@QBEXXZ
-?MainThrd
 ?MarkFrame@CVProfNode@@QAEXXZ
 ?MarkFrame@CVProfile@@QAEXPBD@Z
 ?NGetPC@CStack@@QBE_KH@Z
@@ -335,7 +325,6 @@
 ?PMEEnable@CVProfile@@QAEX_N@Z
 ?PMEInitialized@CVProfile@@QAEX_N@Z
 ?PValObjectFirst@CValidator@@QAEPAVCValObject@@XZ
-?PageHeap is on. Memory use will be larger than normal.\n
 ?Pause@CVProfNode@@QAEXXZ
 ?Pause@CVProfile@@QAEXXZ
 ?PeekCall@CWorkerThread@@QAE_NPAI@Z
@@ -380,7 +369,6 @@
 ?StopProfilingAllThreads@CVProfManager@@QAEXXZ
 ?SumTimes@CVProfile@@IAEXPAVCVProfNode@@H@Z
 ?SumTimes@CVProfile@@IAEXPBDH@Z
-?Sun
 ?Suspend@CThread@@QAEIXZ
 ?Term@CVProfile@@QAEXXZ
 ?Terminate@CThread@@QAE_NH@Z
@@ -391,7 +379,6 @@
 ?TryLock@CThreadFullMutex@@QAE_NI@Z
 ?TryLock@CThreadMutex@@QAE_NH@Z
 ?TryLock@CThreadMutex@@QBE_NXZ
-?Unknown exception
 ?Unlock@CThreadFullMutex@@QAEXXZ
 ?Unlock@CThreadMutex@@QAEXXZ
 ?Unlock@CThreadMutex@@QBEXXZ
@@ -407,7 +394,6 @@
 ?Validate@CVProfile@@QAEXAAVCValidator@@PBD@Z
 ?Validate@CValidator@@QAEXAAV1@PBD@Z
 ?ValidateGlobals@CTier0@@SAXAAVCValidator@@@Z
-?WARNING: Disabling vprof spike dumping and stopping profile for thread %d - %s because of exceeded rate limit, try a higher threshold.\n
 ?Wait@CThreadSyncObject@@QAE_NI@Z
 ?WaitForCall@CWorkerThread@@QAE_NIPAI@Z
 ?WaitForCall@CWorkerThread@@QAE_NPAI@Z
@@ -416,22 +402,11 @@
 ?WaitForReply@CWorkerThread@@IAEHIP6GIIPBQAXHI@Z@Z
 ?WaitForReply@CWorkerThread@@QAEHI@Z
 ?Yield@CThread@@SAXXZ
-?__based(
-?bad allocation
-?bad array new length
-?bad exception
-?c:\buildslave\vrpanorama_main_win32\build\src\tier0\memstd.h
 ?g_bInException@@3_NC
-?kernel32
 ?s_iCurrentUniqueNodeID@CVProfNode@@0HA
-?sinh
-?tanh
-@Fv^k
-@c:\buildslave\vrpanorama_main_win32\build\src\tier0\minidump.cpp
 ABCDEFGHIJKLMNOPQRSTUVWXYZ
 ADVAPI32.dll
 About to request trace recording.
-Ac:\buildslave\vrpanorama_main_win32\build\src\tier0\testthread.cpp
 Alc blocks size,%12u,%12u,%12u,%u\n
 Alloc(): iPage >= 0 && iPage < %d, iPage == %d, pResult = 0x%p, pSharedData->m_pBase == 0x%p
 AllocateCrashMemoryReserve
@@ -497,6 +472,7 @@ BWritingNonFatalMiniDump
 Bad Event handle (handle 0x%p)
 Bad thread local
 Busy, please retry.\n
+C Runtime heap
 C-runtime internal
 CL2Cache
 CRT Heap index=%p, Default Heap index=%p\n
@@ -557,6 +533,7 @@ CreateVProfile
 DLog
 DONT_BREAK_ON_ASSERT
 DWarning
+DbgHelp.dll
 DebugBreak
 December
 DeclareCurrentThreadIsMainThread
@@ -613,7 +590,6 @@ EventWrite
 ExitProcess
 ExitThread
 Exiting on SPEW_ABORT\n
-FEMh\f
 Failed to acquire mutex ownership
 Failed to capture symbols - gle %d - make sure frame pointers are being emited\n
 Failed to create event (error 0x%x)
@@ -805,6 +781,7 @@ Logger
 Logical bytes allocated (no heap overhead/fragmentation, but includes sbh block size overhead): %s\n
 MM/dd/yy
 Main thread
+MainThrd
 March
 MessageBoxA
 MessageBoxUTF8
@@ -826,7 +803,6 @@ No room for new profile in vprof thread profile list, grow MAX_THREADS_TO_VPROF_
 No samples during profile period.\n
 No tracked allocs currently in use. Total %d\n
 November
-ODbgHelp.dll
 October
 Only NULL allowed on integer assign
 Only thread can stop self: Use a higher-level protocol
@@ -848,8 +824,8 @@ PME Initialized.\n
 PME Uninitialized.\n
 PS3 Unattributed
 PSAPI.DLL
-P\t?csm
 PageHeap is off. Memory use will be normal.\n
+PageHeap is on. Memory use will be larger than normal.\n
 PageHeapFlags
 Peak %.2f ms frame\n
 Plat_AbsoluteTime
@@ -899,7 +875,6 @@ Process32First
 Process32Next
 QueryPerformanceCounter
 QueryPerformanceFrequency
-RSDS
 RaiseException
 ReadConsoleW
 ReadFile
@@ -1091,6 +1066,7 @@ Uncommitted blocks %u\n
 Uncommitted size %llu\n
 UnhandledExceptionFilter
 Unknown
+Unknown exception
 Unrecognized HeapInformation reported for heap %p.\n
 Used %llu\n
 Used Overhead %llu\n
@@ -1111,6 +1087,7 @@ VirtualFree
 VirtualProtect
 VirtualQuery
 WARNING! CThread::Terminate: %s\n
+WARNING: Disabling vprof spike dumping and stopping profile for thread %d - %s because of exceeded rate limit, try a higher threshold.\n
 WaitForMultipleEvents
 WaitForMultipleObjects
 WaitForSingleObject
@@ -1120,19 +1097,15 @@ WideCharToMultiByte
 WriteConsoleW
 WriteFile
 WriteMiniDump
-X/4B
 [ func+child   func ]     Count\n
 [ func+child   func ]  [ func+child   func ]  [ func+child   func ]  Count   Peak\n
 [9x)bwlist<T> too long
-[aOni*{
 \VTrace
 \\.\GDPERF
 \\.\GDPERF.VXD
 \nHeap Dump - All (%d heaps)\n
 \src\
 \t%s - %s:%d\n
-\tcQr
-^<V7w
 _DMsg
 _DSpewMessage
 _ExitOnFatalAssert
@@ -1140,6 +1113,7 @@ _ExitOnFatalAssert\n
 _SpewInfo
 _SpewMessage
 _SpewMessageType
+__based(
 __cdecl
 __clrcall
 __eabi
@@ -1165,7 +1139,6 @@ _nextafter
 `eh vector destructor iterator'
 `eh vector vbase constructor iterator'
 `eh vector vbase copy constructor iterator'
-`h`hhh
 `local static guard'
 `local static thread guard'
 `local vftable constructor closure'
@@ -1198,6 +1171,9 @@ asin
 atan
 atan2
 audio.dll
+bad allocation
+bad array new length
+bad exception
 c:\buildslave\vrpanorama_main_win32\build\src\public\tier0\threadtools.h
 c:\buildslave\vrpanorama_main_win32\build\src\public\tier0\vprof.h
 c:\buildslave\vrpanorama_main_win32\build\src\tier0\Release\tier0_vr.pdb
@@ -1205,9 +1181,13 @@ c:\buildslave\vrpanorama_main_win32\build\src\tier0\dbg.cpp
 c:\buildslave\vrpanorama_main_win32\build\src\tier0\heapdump.cpp
 c:\buildslave\vrpanorama_main_win32\build\src\tier0\memblockhdr.cpp
 c:\buildslave\vrpanorama_main_win32\build\src\tier0\memstd.cpp
+c:\buildslave\vrpanorama_main_win32\build\src\tier0\memstd.h
+c:\buildslave\vrpanorama_main_win32\build\src\tier0\minidump.cpp
 c:\buildslave\vrpanorama_main_win32\build\src\tier0\platform.cpp
+c:\buildslave\vrpanorama_main_win32\build\src\tier0\testthread.cpp
 c:\buildslave\vrpanorama_main_win32\build\src\tier0\threadtools.cpp
 c:\buildslave\vrpanorama_main_win32\build\src\tier0\validator.cpp
+c:\buildslave\vrpanorama_main_win32\build\src\tier0\valobject.cpp
 c:\buildslave\vrpanorama_main_win32\build\src\tier0\vprof.cpp
 ceil
 chdir_utf8
@@ -1217,10 +1197,8 @@ cosh
 count
 crashhandler.dll
 crashhandler002
-d8L2
 dddd, MMMM dd, yyyy
 e+000
-eLK(w
 externaltests.dll
 fabs
 filesystem_stdio.dll
@@ -1242,7 +1220,6 @@ g_dwDllEntryThreadId
 g_pMemAllocSteam
 getcwd_utf8
 gsoapwrapper.dll
-h0'D
 hHeap %p\n
 heap %p has the low-fragmentation heap enabled.\n
 heap %p is a standard heap.\n
@@ -1251,12 +1228,11 @@ heapdump.csv
 inity
 invalid hash bucket count
 item %p sentinel corrupted. skipping.\n
-k=yI
+kernel32
 kernel32.dll
 ldexp
 log10
 lzZ?
-m\nXo
 m_L2Cache
 m_pChild
 m_pSibling
@@ -1267,11 +1243,9 @@ modf
 nan(ind)
 nan(snan)
 nattypeprobe.dll
-obwQ4
 operator
 operator "" 
 operator co_await
-owM&
 p2pcore.dll
 p2prelayserver.dll
 p2pstunserver.dll
@@ -1286,18 +1260,19 @@ rmdir_utf8
 secblock.h
 server.dll
 serverbrowser.dll
+sinh
 snan)
 sqrt
 steamclient.dll
 steamservice.dll
 steamui.dll
 string too long
+tanh
 tenfoot.dll
 tier0_s.dll
 tier0_vr.dll
 total bytes
 unknown
-v2!L.2
 vector<T> too long
 vgui2_s.dll
 video.dll
@@ -1308,6 +1283,4 @@ vtuneapi.dll
 wsprintfA
 xlocale
 xmemory
-xpxxxx
-xwpwpp
 ~MHz

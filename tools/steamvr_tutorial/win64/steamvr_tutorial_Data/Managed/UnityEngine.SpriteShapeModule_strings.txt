@@ -43,6 +43,7 @@ $Unity.InternalAPIEngineBridgeDev.003
 $Unity.InternalAPIEngineBridgeDev.004
 $Unity.InternalAPIEngineBridgeDev.005
 $UnityEngine.UnityWebRequestWWWModule
+%4v%G\v
 %Unity.IntegrationTests.UnityAnalytics
 &UnityEngine.PerformanceReportingModule
 &UnityEngine.UnityWebRequestAudioModule

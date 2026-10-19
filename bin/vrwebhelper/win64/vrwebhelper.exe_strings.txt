@@ -3,7 +3,6 @@
    mutual steam
    remote steam
   local steamvr
- SetDefaultAudioDevice: device = %s, role = %d\n
  arguments: 
  failed because 
  for detail.\n
@@ -12,7 +11,7 @@
  off
  remote steamvr
 !! refusing to trigger minidump with debugger attached\n
-"%/28;=#$019:>?
+%%.%dg
 %Y-%m-%d-%p_%I_%M_%S
 %a %b %d %H:%M:%S %Y
 %a %b %d %Y %H:%M:%S.%%03u
@@ -22,9 +21,11 @@
 %s - Window could not be created! SDL Error: %s\n
 %s contains an empty %s
 %s is not a valid api layer json. Missing %s member.
+%s%s\n
 %s: CoCreateInstance MMDeviceEnumerator failed: hr = 0x%08x\n
 %s: failed with error '%s' (%d)
 %s[%s] %s file=%s
+%u != %zu
 &Open DevTools
 ' is not a number.
 ()$^.*+?[]|\-{},:=!\n\r
@@ -649,15 +650,13 @@
 /vrlink_client_isSteamVR
 126.0.0-HEAD.3171+gbbb7596+chromium-126.0.6478.183
 127.0.0.1
-14:22:51
+13:51:51
 1e+9999
 5I)7
-7^d[L
 8c8f13b1-60eb-4b6a-a433-de86104115ac
 8d8f13b1-60eb-4b6a-a433-de86104115ac
 8e8f13b1-60eb-4b6a-a433-de86104115ac
 97314fe45c14007fca596262a64cad69467df21f
-9a&g
 : LUID=
 : exception thrown in JSON library
 <invalid>
@@ -743,7 +742,6 @@
 A valid JSON document must be either an array or an object value.
 A wireless HMD driver is present, but the wireless HMD has not connected and Steam is not running (216)
 A wireless HMD driver is present, but the wireless HMD has not connected yet (215)
-A"QT
 ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/
 ACTIVE
 ADVAPI32.dll
@@ -1332,11 +1330,11 @@ Long resource load time: %s (%f seconds)
 LookupPrivilegeValueA
 Low Power Watchdog Not Supported (129)
 MFCreateMediaType
+MFCreateMediaType failed hr = 0x%08x\n
 MFCreateMemoryBuffer
 MFCreateMemoryBuffer(%u) failed: hr = 0x%08x\n
 MFCreateSample
 MFCreateSample failed: hr = 0x%08x\n
-MGiI
 MH_CreateHook( &GetProcAddress, &GetProcAddressHook, reinterpret_cast< LPVOID* >( &s_pGetProcAddressHook ) ) == MH_OK
 MH_EnableHook( &GetProcAddress ) == MH_OK
 MH_Initialize() == MH_OK
@@ -1372,7 +1370,7 @@ Not starting vrserver for background app (121)
 Num Lock
 Num Lock Toggle
 OPENGL32.dll
-Oct  9 2026
+Oct 16 2026
 On laptop, HMD detected over USB, but Monitor not found (213)
 OnAcceleratedPaint error, no valid d3d11 device
 OnBeforeClose %d, browser shutdown complete
@@ -1391,7 +1389,6 @@ OpenThread
 Out of thread local storage!\n
 OutputDebugStringA
 PID_
-PPPP
 Parse failed for JSON message in mailbox %s: %s\n
 Parsing of JSON file "%s" failed: %s\n
 Parsing of JSON string "%s" failed: %s\n
@@ -1400,13 +1397,11 @@ PgDn
 PgUp
 Pro Audio
 PropVariantClear
-Qkkbal
 QueryPerformanceCounter
 QueryPerformanceFrequency
 QuitSceneApp
 QuitSteamVR
 RPCRT4.dll
-RSDSW
 RaiseException
 ReadFile
 ReadFile failed on %s after event was signaled because %s\n
@@ -1527,6 +1522,7 @@ Second argument must be a TransformTRS
 Second argument must be a string
 See 
 SetCurrentProcessExplicitAppUserModelID
+SetDefaultAudioDevice: device = %s, role = %d\n
 SetEnvironmentVariableA
 SetEvent
 SetFileAttributesW
@@ -1604,7 +1600,6 @@ TlsFree
 Too many tracked objects (120)
 Tracked property error: %s (%d)
 TurnOffVRController
-U4ot
 UNKNOWN
 UNPLUGGED
 USB Service Busy (140)
@@ -2161,7 +2156,6 @@ XRApiLayerManager.EnableApiLayer
 XRApiLayerManager.GetInstalledApiLayers
 XRRuntimeManager.GetCurrentRuntime
 XRRuntimeManager.IsThisRuntimeCurrent
-Zjz\v
 [IPC] AddAccessAllowedAce failed for administrator. GetLastError returned: %d\n
 [IPC] AddAccessAllowedAce failed for chrome 1. GetLastError returned: %d\n
 [IPC] AddAccessAllowedAce failed for steam. GetLastError returned: %d\n
@@ -2192,14 +2186,12 @@ Zjz\v
 [IPC] Warning, existing file mapping for %s (%d) is too small (%d)\n
 [Oxrtools] Unable to open the OpenXR ActiveRuntime registry key for read %d
 [Oxrtools] Unable to read  the OpenXR ActiveRuntime registry key %d
-[RRRR[[[[w|w
 [System] Calling %s %s failed with error code %d\n
 [VRWebHelper] AllowOutOfBoundsPlay
 [VRWebHelper] Failed to initialize OnPaint type. (Switch not in args)\n
 [VRWebHelper] Failed to initialize OnPaint type. (Unsupported Value: '%s')\n
 [VRWebHelper] Launching %s\n
 [VRWebHelper] Launching template %s -> %s\n
-[[[[[[[[[[[[js
 \ApiLayers\
 \n\t\t\t\t{\n\t\t\t\t\t"type" : "show_tracker_ui"\n\t\t\t\t}\n\t\t\t
 \n\t\t\t{\n\t\t\t\t"type" : "show_app_select"\n\t\t\t}\n\t\t
@@ -2294,6 +2286,7 @@ array
 assert json failed
 atoi
 audio
+auds
 autoplay-policy
 avrt.dll
 bAllowCameraToggle
@@ -2309,7 +2302,6 @@ bSupportsDirectMode
 bSupportsMotionSmoothing
 bSupportsRoomViewDepthProjection
 bSupportsRuntimeFramerateChange
-b\rp\f0
 backing image not allocated. please call CreateEmbeddedRGBScanline first.
 bad allocation
 bad array new length
@@ -2530,8 +2522,6 @@ http://127.0.0.1:
 hu_hu
 hungarian
 hwnd
-i]Wb
-iauds
 imageData.size() <= UINT32_MAX
 in Json::Value::asCString(): requires stringValue
 in Json::Value::duplicateAndPrefixStringValue(): Failed to allocate string value buffer
@@ -2680,7 +2670,6 @@ property container key or path must not be empty
 pt_br
 pt_pt
 punct
-qMFCreateMediaType failed hr = 0x%08x\n
 realloc
 reject
 rejectDupKeys
@@ -2865,7 +2854,6 @@ vrwebhelper.exe
 vrwebhelper/main
 vrwebhelper_
 vrwebhelper_main
-vv[[[[[[[[[[[
 web_server_mailbox
 webhelperoverlays.json
 webinterface\dashboard\suggestions
@@ -2875,7 +2863,6 @@ win64
 window
 window_event
 window_focuschanged
-wn>Jj
 x-steamvr-secret
 xdigit
 xfDeviceToAbsoluteTracking

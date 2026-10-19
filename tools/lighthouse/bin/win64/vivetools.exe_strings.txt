@@ -37,6 +37,7 @@
  volatile
  write /? to get option list
  write [Option] [Data]
+%.*Lf
 %p not found?!?!\n
 %s: __pos (which is %zu) > this->size() (which is %zu)
 (((rwlock_t *)*rwl)->valid == LIFE_RWLOCK) && (((rwlock_t *)*rwl)->busy > 0)
@@ -67,7 +68,6 @@
 -+xX0123456789abcdef0123456789ABCDEF
 -+xX0123456789abcdefABCDEF
 -0123456789
--basic_string::_M_construct null not valid
 ../../src/mingw-w64/mingw-w64-libraries/winpthreads/src/rwlock.c
 .pdata
 /dev/random
@@ -97,9 +97,6 @@
 4SHA2
 6SHA256
 6b8262eaadb49bf0b2527ecc01534564e7b54eb31c9b53e047771f18f09a00e1
-9a&g
-<2ZGU
-?aCoc
 ABCDEF
 AITAPI_CloseBootloader
 AITAPI_CloseDevice
@@ -123,6 +120,7 @@ Argument singularity (SIGN)
 Assertion failed: (%s), file %s, line %d\n
 August
 Bytes
+C%p %d %s\n
 C%p %d V=%0X w=%ld %s\n
 Calibrate IPD Max Value
 Calibrate IPD Min Value
@@ -208,8 +206,6 @@ LC_TIME
 LP1K
 Launch IAP Mode
 Library couldn't be loaded
-LwH'
-MGiI
 Major:%d\n
 MapViewOfFile(error_no:%d) is failed!!\n
 March
@@ -300,7 +296,6 @@ No device
 Non-Supported
 Non-supported
 November
-O8M2
 October
 Offline
 Open Watchman
@@ -312,7 +307,6 @@ PRINTF_EXPONENT_DIGITS
 Partial loss of significance (PLOSS)
 ProductID
 ProductName
-Qkkbal
 RWL%p %d %s\n
 RWL%p %d V=%0X B=%d r=%ld w=%ld L=%p %s\n
 Read Audio Bridge Version
@@ -353,6 +347,7 @@ Read Usage Time
 Read Watchman Dongle Version
 Read action : 
 Received Error Tag
+ReleaseSemaphore(error_no:%d) is failed!!\n
 ReportID
 Reset Panel
 Reset Watchman
@@ -476,6 +471,7 @@ Sucessfully
 Sunday
 Switch to APP mode... wait for a while
 Switch to IAP mode... wait for a while
+T%p %d %s\n
 T%p %d V=%0X H=%p %s\n
 TLS init function for 
 TLS wrapper function for 
@@ -528,10 +524,7 @@ Write Proximity Senosor Data via param
 Write Proximity Senosor Reset Based via param
 Write SKU ID via param
 Write action : 
-Zjz\v
-[ReleaseSemaphore(error_no:%d) is failed!!\n
 [abi:
-\r8STs\ne
 _Accum
 _Fract
 _GLOBAL_
@@ -665,7 +658,6 @@ half
 hdmi
 hidden alias for 
 hpampreg
-i]Wb
 iapswver
 ibridge
 imagescale
@@ -853,7 +845,6 @@ usetime
 usr-r-lgamma
 usr-r-rgamma
 vH7B
-vRQ>
 vector::_M_realloc_insert
 version
 virtual thunk to 
@@ -862,7 +853,6 @@ vtable for
 wait
 wchar_t
 wcodec
-wn>Jj
 wpanels
 write
 xdigit

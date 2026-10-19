@@ -59,13 +59,12 @@
   suspend=y/n\t\t\tWhether to suspend after startup.\n
   timeout=<n>\t\t\tTimeout for connecting in milliseconds.\n
   transport=<transport>\t\tTransport to use for connecting to the debugger (mandatory, possible values: 'dt_socket')\n
- !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
  !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
- !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
  !/!<!K!\!q!
  %02X
  %lld
  %s {%p} + 0x%x (%p %p) [%p - %s]
+ %u,%u
  'MMMM d'
  'd'-nji 'MMMM
  'dddd
@@ -77,16 +76,16 @@
  (delta is %d)\n
  (temporary)
  (unmapped)
+ + 0x%lx
  -march=x86-64 -mattr=sse4.1
  /EXPORT:%s
  1ai
  1ff
  1iii
- A E M O Q a e i k 
  BB%d
+ BB%d(%d)
  Base Class Array'
  Base Class Descriptor at (
- C>TQ
  Cannot bind to the target method because its signature differs from that of the delegate type
  Class Hierarchy Descriptor'
  Complete Object Locator'
@@ -101,16 +100,18 @@
  MMMM
  MMMM yyyy
  Owewe
+ R%d
  Sathairn
  Type Descriptor'
  Yor
+ [%lld]
  [%s + 0x%lx]
  [%s + 0x%lx] <-
  [%s <- R%d]
+ [B%dB%d]
+ [BB%d]
  [R%d + 0x%lx]
  [R%d + 0x%lx] <-
- ]Acosh
- ]Asinh
  adai
  aii
  aiii
@@ -147,7 +148,6 @@
  yyyy gg
 ! is_global_freg (hreg)
 ! is_global_ireg (hreg)
-!!!#!'!3!5!7!?!A!C!I!K!M!Q!S!U!W!Y!_!g!i!o!q!s!u!y!{!}!
 !"Unknown unwind opcode."
 !((gsize)pvt & 7)
 !((gsize)vt & 7)
@@ -207,7 +207,6 @@
 !container_assm_name
 !context->method_inst || !context->method_inst->is_open
 !context_used
-!dV9^U
 !desc->in_use
 !domain->assembly_bindings_parsed
 !domain->jit_info_free_queue
@@ -431,21 +430,15 @@
 !this_ins
 !threadpool_io
 !token
-!u]Ju
 !use_bin_writer
 !uses_handles || check_exceptions
 !virtual_
 !vtable_arg
-!w(w0wE
 !|/|<|L|Y|g|t|
 "%s%s" %s %s -o %s %s
 "%s%s" %s %s /OUT:"%s" "%s"
-"+bmiw
 ";(;/;5;=;G;O;X;
 "SkipVerification"
-"Y,CH
-"e?<<<<<<l?
-# ' G ] c g o y q } { w 
 # Bytes in all Heaps
 # GC Handles
 # Gen 0 Collections
@@ -478,7 +471,6 @@
 #Blob
 #GUID
 #Pdb
-#Png
 #Strings
 #\r%\r)\r-\r/\r1\r
 #define HAS_CROSS_COMPILER_OFFSETS\n
@@ -497,17 +489,11 @@
 #ifndef DISABLE_JIT_OFFSETS\n
 #ifndef HAVE_SGEN_GC\n
 #ifndef USED_CROSS_COMPILER_OFFSETS\n
-#nsa
 $"$*$2$=$F$P$
-$:oCol
 $ABDBLBa-f-SBXB^Bi/dBnBwB
 $ArrayType
-$Ib?s
 $PRIVATE$
-$YcYc]cjc
-$fWmSx@
 $graph->set_legend(qw(
-$lVX
 $mono_libdir
 $stattitle = 'Compilations times for %s';\n
 $stattitle = 'Mono Benchmark Results (various optimizations)';\n
@@ -519,23 +505,29 @@ $stattitle = 'Mono Benchmark Results (various optimizations)';\n
 % Time in JIT
 % Time in RT checks
 % User Time
+%%%,%6%
 %*sAdding generic instance %s [%s].\n
 %*sAdding method %s.\n
 %-10s
 %-36s: %.2f ms\n
 %-36s: %.4f\n
+%-36s: %d\n
 %-36s: %lld\n
 %-36s: %llu\n
+%-36s: %s\n
+%-36s: %u\n
 %-36s: %zd\n
+%.*s%s.tmp
 %02X%02X%02X%02X-%02X%02X-%02X%02X-%02X%02X-%02X%02X%02X%02X%02X%02X
 %02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x
 %02x,
 %08x
 %08x_%08x_%08x
-%101D$M1
 %250s
+%F %T
 %b%b)b2b?
 %d %d %d %d\n
+%d %d\n
 %d item(s) on exit from B%d\n
 %d methods are generic (%d%%)\n
 %d methods contain absolute addresses (%d%%)\n
@@ -543,6 +535,7 @@ $stattitle = 'Mono Benchmark Results (various optimizations)';\n
 %d methods have other problems (%d%%)\n
 %d threads suspended.\n
 %d.%d.%d.%d_%s_%s
+%d/%s
 %dth available slot %d linked twice\n
 %ld%ld%ld%ld%ld%ld%ld%*d%ld%ld%ld%ld%ld%ld%ld
 %ld.%ld.%ld.%d
@@ -554,6 +547,7 @@ $stattitle = 'Mono Benchmark Results (various optimizations)';\n
 %p (%s:%d, sz=%lu, %s)\n
 %p (%s:%d, sz=%lu, kind=%d descr=0x%lx)\n
 %p [%7s] signalled: %5s ref: %3d 
+%p;%p;%s\n
 %p;%p;[%s] %s\n
 %r,r2r9rDrLrUr\r`r
 %r10
@@ -573,11 +567,16 @@ $stattitle = 'Mono Benchmark Results (various optimizations)';\n
 %s %d: [IN: 
 %s %p in or near object at %p (%s:%d, sz=%lu)\n
 %s %p in or near object at %p(<smashed>, appr. sz = %lu)\n
+%s %s
 %s %s (%d) gsharedvt local.\n
 %s %s (%d) in indir memory: base register %s + %d\n
 %s %s (%d) in memory: base register %s + %d\n
 %s %s (%d) in register %s\n
 %s %s (%d) vt address: base register %s + %d\n
+%s (%s %s)
+%s (%s)
+%s - %s
+%s - %s %d
 %s - %s + %d
 %s - UNLOADED
 %s USED %d handles\n
@@ -586,14 +585,29 @@ $stattitle = 'Mono Benchmark Results (various optimizations)';\n
 %s doesn't implement interface %s\n
 %s has too many dimensions.
 %s level[%c] mono[%d]: %s\n
+%s%c
+%s%c%s
+%s%d
+%s%s
 %s%s %s%s%s%s%s(%s)
+%s%s%s
+%s%s%s%s%s
 %s%s%s%s%s%s(%s)
 %s%s%s, Version=%d.%d.%d.%d, Culture=%s, PublicKeyToken=%s%s
+%s%s%s:%s
+%s%s%s\n
 %s%s.dll
+%s%s:\n
+%s%s_p
+%s%sm_%x
+%s'%s'
 %s(%lu) returning NULL (%s:%d)\n
+%s, %s
 %s, Version=%d.%d.%d.%d, Culture=%s, PublicKeyToken=%s%s
 %s, due to: %s
+%s,%s
 %s-mono-cachepath
+%s.%s
 %s.%s: %04x arith type mismatch %s %d %d
 %s.%s: CEE_RET: more values on stack: %d
 %s.%s: CEE_RET: value type stack: %d vs. %d
@@ -610,7 +624,9 @@ $stattitle = 'Mono Benchmark Results (various optimizations)';\n
 %s.mdb
 %s.obj
 %s.pdb
+%s.s
 %s.tmp
+%s/%s%s
 %s/%s%s.dll
 %s/.libs
 %s/Facades
@@ -668,13 +684,19 @@ $stattitle = 'Mono Benchmark Results (various optimizations)';\n
 %s: waiting for global
 %s: we can't resume from an async call
 %s:%d // (TODO: proper stacktrace)
+%s:%d: %s\n
 %s:%d: assertion '%s' failed
+%s:%d\n
+%s::%s)
 %sDIFF_SYM%d
 %s\nException Rethrown at:\n
+%s_%d
+%s_%s
 %s_%s_llvm
 %s_GSHAREDVT
 %s_INST
 %s_REF
+%s_e
 %s_eh_frame
 %s_got
 %s_icall_native_%s
@@ -682,6 +704,7 @@ $stattitle = 'Mono Benchmark Results (various optimizations)';\n
 %s_jit_icall_native_%s
 %s_llvm
 %s_llvm_got
+%s_p
 %s_plt
 %s_rgctx_fetch_%d
 %s_thumb
@@ -695,6 +718,7 @@ $stattitle = 'Mono Benchmark Results (various optimizations)';\n
 %smono_aot_module_%s_info
 %snamed_%s
 %snamede_%s
+%sp_%d
 %spdata_%s
 %sunbox_trampoline_p
 %sunwind_%d
@@ -702,13 +726,7 @@ $stattitle = 'Mono Benchmark Results (various optimizations)';\n
 %u,%u,%u,%u\n
 %u.%u.%u.%u
 &&'-'4';'B'
-&.&A&L&W&^&e&l&s&z&
-&4-494D4Q4Z4f4
-&:ACA
-&?PPPPPPP?
 &LA]AlAyA
-&M,2q
-&Sgw
 &\r)\r2\r8\r<\r&\r
 ' MMMM
 ' d MMMM gg yyyy
@@ -735,7 +753,6 @@ $stattitle = 'Mono Benchmark Results (various optimizations)';\n
 'no caller found'
 'zeger 'H:mm
 'zeger 'H:mm:ss
-( 8PX
 (&S&S*S3SR
 ('8PW
 (((((((((((((((((((((
@@ -761,7 +778,6 @@ $stattitle = 'Mono Benchmark Results (various optimizations)';\n
 (4.4=4Y4
 (No exception message for: %s)\n
 (Press Retry to debug the application - JIT must be enabled)
-(Qf5Q
 (System.Exception.Message property not available)
 (assembly->code.index % 4) == 0
 (assembly->resources.index % 4) == 0
@@ -812,12 +828,9 @@ $stattitle = 'Mono Benchmark Results (various optimizations)';\n
 (temporary && do_free) || (!temporary && !do_free)
 (unknown return type %x)
 (wrapper %s) 
-(yaX
 ) 0 7 > E L S Z a h o v 
 ) <gsharedvt>\n
 )()1):)D)N)
-)=d11
-)yIx
 )z0z=zJzWzdzkzuz
 * Assertion at %s:%d, condition `%s' not met\n
 * Assertion: should not be reached at %s:%d\n
@@ -826,9 +839,7 @@ $stattitle = 'Mono Benchmark Results (various optimizations)';\n
 ***GC Dump %s\n
 ***GC Dump collection #%lu\n
 ***Section from %p to %p\n
-*4*G*\*o*|*
 *LTLTPTZTs
-*StO9>T
 *U.U?Ul
 *callsites
 *code == MINT_SDB_BREAKPOINT
@@ -843,14 +854,10 @@ $stattitle = 'Mono Benchmark Results (various optimizations)';\n
 *val <= max
 *val >= min
 *vtable_slot_to_patch
-*zLrz
 +!+0+C+V+g+
-+030|
 +Infini
 +Infinito
-+LR2~N
 +V+V/V6V
-+gu'2
 +infinit
 +nekone
 +niesko
@@ -870,9 +877,6 @@ $stattitle = 'Mono Benchmark Results (various optimizations)';\n
 ,8a8a<a<a
 ,979I8`9
 ,<ellipsis>
-,HR>O
-,\t,\n,\v,\f,\r,
-,s,sb
 ,s.s0s6s<sBsJsQsWs]sbsisrsxs
 - -!-"-#-$-%-
 --agent=
@@ -942,14 +946,12 @@ $stattitle = 'Mono Benchmark Results (various optimizations)';\n
 --version
 --wapi=
 --wapi= option no longer supported\n.
--BH>t
 -Infini
 -Infinit
 -Infinito
 -Infinitu
 -Infinity
 -\n0\n8\n@\nD\n-\n
--\t-\n-\v-\f-\r-
 -all,%s
 -begalyb
 -bezgal
@@ -1109,6 +1111,7 @@ $stattitle = 'Mono Benchmark Results (various optimizations)';\n
 ..\mono\utils\mono-logger.c
 ..\mono\utils\mono-mmap-windows.c
 ..\mono\utils\mono-mmap.c
+..\mono\utils\mono-rand-windows.c
 ..\mono\utils\mono-rand.c
 ..\mono\utils\mono-sha1.c
 ..\mono\utils\mono-threads-coop.c
@@ -1121,7 +1124,6 @@ $stattitle = 'Mono Benchmark Results (various optimizations)';\n
 ..\mono\utils\os-event-win32.c
 ..\mono\utils\strenc.c
 .00cfg
-.>\rfJBGo
 .?AVDNameNode@@
 .?AVDNameStatusNode@@
 .?AVcharNode@@
@@ -1182,7 +1184,6 @@ $stattitle = 'Mono Benchmark Results (various optimizations)';\n
 .NET CLR Memory
 .NET CLR Remoting
 .NET CLR Security
-.V9b
 .XXXXXX
 .align\t3\n
 .asciz "%s"\n
@@ -1215,7 +1216,6 @@ $stattitle = 'Mono Benchmark Results (various optimizations)';\n
 .debug_loc
 .dll
 .drectve
-.eNQ
 .edata
 .exe
 .file %d "%s"\n
@@ -1261,13 +1261,8 @@ $stattitle = 'Mono Benchmark Results (various optimizations)';\n
 .text$mn
 .text$mn$00
 .text$x
-.uwx
-.wN\f9
 .word
-.xJ>Hf
 .xdata
-/2GG>!B
-/CBCUCnC
 /DLL /MACHINE:X64 /NOLOGO /INCREMENTAL:NO
 /DLL /MACHINE:X64 /NOLOGO /INCREMENTAL:NO /DEBUG
 /ENTRY:DllMain
@@ -1279,21 +1274,15 @@ $stattitle = 'Mono Benchmark Results (various optimizations)';\n
 /proc/stat
 /tmp/minidtree.graph
 0 != strcmp (mono_handle_class (rmethod)->name, "MethodBuilder")
-0#0+030;0;
 0,1,2,3,4,5,6,7,8,9,:,;,<,=,>,?,@,A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z,[,\,],^,
 0.0.0.0
+0.0.0.0:%u
 0.0.0.0_%s_%s
 00000000000000000400000000000000
 0123456789ABCDEF
 0123456789ABCDEFstr_array != NULL
 0123456789abcdefAccessibility
 09D4A140-061C-4884-9B63-22067E841931
-0E>X
-0MvWv
-0X8b?~
-0\r5"t
-0iN>/
-0p4t4
 0s6s<sBsJsQsWs]sbsisrsxs
 0x%016llx, 
 0x%04x %02x\n
@@ -1304,33 +1293,23 @@ $stattitle = 'Mono Benchmark Results (various optimizations)';\n
 1#INF
 1#QNAN
 1#SNAN
-1$gq
-11UT
-11Y@
-11eU%
 127.0.0.1
 16sb
 1K3O3x1S3W3
-1M5MFM
 1[3_3c3g3
-1\r222
-1\tM\tM\rM
 1aai
 1fff
 1iib
 1iii
 1iis
-1l@J
 1xxx
 2&222;2C2K2U2\2
-2&8&H&6
 2575"hA5
 2575<5A5L
 269B562C-CC15-4736-B1B1-68D4A43CAA98
 2@UUUUUU
 2B8BNBeB4\v
 2L6L
-2L6L6L
 2L6L6L=
 2L6L6L\f
 2L6L6Lu
@@ -1338,107 +1317,41 @@ $stattitle = 'Mono Benchmark Results (various optimizations)';\n
 2WCWv
 3$3.3:3
 3(O(O,O,O
-3/#eD
 31bf3856ad364e35
-33333333ffffffff
-333p\nt\n73
-37>k
 3;L;L?L?L
-3>N;kU
-3>fvw
 3A58A219-266B-47C3-8BE8-4E4F394147AB
-3G C
 3O7OGO,
-3\n4$4
-3i\vQ\v
-3if-
-3q9qAqIqRq]qcqiqlq\f\f
 44FCA06C-A510-4B3E-BDBF-D08D697EF65A
 475DBF02-9F68-44F1-8FB5-C9F69F1BD2B1
-4@wakeup_pipe_fd >= 0
-4AHx
 4G;G
 4Q8QCQK
 4\tgA
-4\v:\v?\vD\v(s`
-4f:k
-4p\nt\n
-4v.5
-5#5)5V
-5+t6
 5.11.0
-51>W
 52R2R6R>R
 56203551-6937-47C1-9246-346A733913EE
-5:I,U
 5FCD54F0-4B97-4259-875D-30E481F02EA2
-5WdIo
-5\f616p\nt\n56
-5c9cLc
-6$4K
 6)636=6G6Q6[6_6c6_6g6k6o6s6
-62<2K2m2
-6A_p
-6NK>
-6QIw
-6WB\r7\t-
-6\f<\fB\fH\fN\fT\fZ\f`\ff\fl\fr\fx\f~\f
-6\fXO>
-6\fXO>\ntA
-6p^p^t^t^
-700PP
 700WP
 737O7h7
-75"h
-752!
-757T7X7\7
-7>I0
-7?GX
 7\f:\fD\fJ\fN\fR\f
 7cec85d7bea7798e
-7i\vQ\v
-7uKHO
-7yp>
-7~xh
-8#8I8}8
-8%838?8C8H8M8Q8V8[8
-8/</A/E/I/N/R/t
 817F01C3-4011-477D-890A-98232B85553D
 86>6U6m6
 87697E71-D192-4F0B-BAD4-02BBC7793005
-8C@C+CL;
-8Csinf
-8ID+CQD
-8NNNdN}N
 8P;5
-8\f5't
 8\v;\vC\vI\vM\v8\v
-8i\vQ\v
-8ke?;
-9%94\v
 9(989
-9(989B9F9M9T9[9b9i9&X?X
-9(989B9F9M9T9[9b9i9m9}9
 969db8053d3322ac
-9>70
-9>powf
 9BeBeFeFeX\tPeTehe
 9F5D4F09-787A-458A-BA08-553AA71470F1
 9G:T:^:k:~:
 9^XqX
 9`W`WdWdW
-9g>@3
-9gp(989tpF9xpT9|pb9i9m9
-9mG-
-9w@wOw]wmw|w
 9xX&Y-Y@YPYfY
 9xX\ri
 :.ctor(int)
 :3@3Q3g3
 :oCol
-:vBv
-;1cb
-;PC[C
 ;mBmImPmWm^memlmsmzm
 <#<0<=<J<X<d<r<
 <%p - %s trampoline>
@@ -1448,20 +1361,17 @@ $stattitle = 'Mono Benchmark Results (various optimizations)';\n
 <%s at %p> Registered finalizer as processed.
 <%s at %p> Returned from finalizer.
 <%s at %p> Starting finalizer checks.
-<)<?<i\vQ\vC<R
 <0x%08x>
 <>t__builder
 <INVALID UTF8>
 <Module>
 <PrivateImplementationDetails>
 <UNKNOWN RGCTX INFO TYPE>
-<acos
 <all>
 <box+brtrue opt>\n
 <buffer>
 <bundled>
 <ellipsis>
-<gny
 <invalid signature>
 <no_image>
 <none>
@@ -1472,66 +1382,25 @@ $stattitle = 'Mono Benchmark Results (various optimizations)';\n
 <unknown native frame 0x%x>\n
 <unknown type>
 <unknown>
-="=/=4=9=@=F=L=R=$
 ="=7=i\vQ\v;=R
-=..\mono\utils\mono-rand-windows.c
-=1cb
-=87M
-=9tau
-=bC-T
-=cQ6
-=e2m
-=hEhNhThZh_hehkhrh{h
-=imb;D
 >%E%M%R%]%g%q%x%
->9>V>i\vQ\vZ>R
 >XBXQX(
->`jcF
->cQ6
->jtm}S
->xRxR|R|R
-?(?9?i\vQ\v=?R
 ?)?4?E?P?]?
-?1cb
 ?333333
-?7zQ6$
-?8UUUUU
-?8bunz8
-?@En[vP
-?ISO-8859-1
-?JV8f
 ?N]TUUU
-?R0I?
 ?UUUUUU
-?asin
-?expf
-?f`Y4
-?hPC
-?index < amodule->image_table_len
-?mHh
-?qBJ
-?rAj
-?ysB
 @"@*@2@:@B@J@R@Z@b@
 @333333
-@3PH
-@BXV
 @\rC\rK\rS\rW\r@\r
-@^8U)zj
-@aQY
 @cab
 @cai
 @cfb
 @cfi
-@co1
 @d@dDdKd
-@dlname
-@igO
 A chunk in the StringBuilder had a length longer than expected from the offset.
 A native frame was found while unwinding the stack after an exception.\nThe native frame called the managed method:\n%s\n
 A null value was found where an object instance was required
 A5t=t
-A>pP&
 ABCDEFGHIJKLMNOPQRSTUVWXYZ
 ABORT_INVOKE
 ACCESS_SPECIAL_STATIC_OFFSET (offset, type) == SPECIAL_STATIC_OFFSET_TYPE_CONTEXT
@@ -1548,7 +1417,6 @@ AFTER REMOVE SSA:
 AFTER SAFEPOINTS
 AFTER SSA COPYPROP
 AG`G`K`Q`
-AK>(v
 ALLOCATED R%d(%d) TO HREG %d COST %d\n
 ALL_THREADS
 AMD64
@@ -1603,10 +1471,6 @@ ASSEMBLY_UNLOAD
 ASYNC_SUSPENDED
 ASYNC_SUSPEND_REQUESTED
 AVEVXVq
-AWi@
-A\rA\rA
-A`1w>
-AbAbEbNb?
 Abandoned stopped marking after %u iterations\n
 Abandoning stopped marking after %llu nanoseconds (attempt %d)\n
 Abendua
@@ -1862,12 +1726,8 @@ Azerbaijani (Cyrillic, Azerbaijan)
 Azerbaijani (Latin)
 Azerbaijani (Latin, Azerbaijan)
 Azerbaijani Manat
-B"B)B-B0B3B7B
-B'KU&
-B+B4\v
 B+Q+Q/Q/Q
 B,I,P,W,^,e,l,s,z,
-B9/u
 BB%d 
 BB%d -> BB%d;\n
 BB%d IN: 
@@ -1876,30 +1736,22 @@ BB%d [color=blue];\n
 BB%d [color=green];\n
 BB%d [color=yellow];\n
 BB%d(dfn=%d) (IDOM=BB%d): 
+BB%d, 
 BB0 [shape=doublecircle];\n
 BB1 [color=red];\n
 BB_OVF
-BC?>6t9^\tc:>
 BDWGC
 BEFORE ALIAS_ANALYSIS
 BEFORE DECOMPOSE-ARRAY-ACCESS-OPTS 
 BEFORE LOWER-VTYPE-OPTS 
 BEFORE SAFEPOINTS
-BF>^G
 BINPATH_PROBE_ONLY
 BLOCK BB%d (
-BPIP
-BProcessor
 BREAKPOINT
 BSJB
 BT7X7\7
-BVtube
 BZERO
-BZo>
 B[:X7\7
-B\fP\v0
-B\fp\v0
-B\vp\n0
 Back height not available: Rebuild collector with -DMAKE_BACK_GRAPH\n
 Bad VirtualAlloc result
 Bad address
@@ -2028,10 +1880,8 @@ Bytes Sent/sec
 Bytes Total/sec
 Bytes in Loader Heap
 Bytes recovered before sweep - f.l. count = %ld\n
-C+Cl<
 C0E04D9C-70CF-48A6-A179-FBFD8CE69FD0
 C142254F-DEB5-46A7-AE43-6F10320D1D1F
-C5R?\t
 C:\build\output\Unity-Technologies\mono\mono/metadata/object-internals.h
 C:\build\output\Unity-Technologies\mono\mono/metadata/profiler-events.h
 C:\build\output\Unity-Technologies\mono\mono/utils/mono-lazy-init.h
@@ -2041,19 +1891,16 @@ C:\build\output\Unity-Technologies\mono\mono\utils/mono-lazy-init.h
 C:\build\output\Unity-Technologies\mono\mono\utils/refcount.h
 C:\build\output\Unity-Technologies\mono\msvc\build\bdwgc\x64\bin\Release\mono-2.0-bdwgc.pdb
 C:\temp
-C:j+ep
 C<XbXb\bdb
 CACHE_BASE
 CASTCLASS_CACHE
 CAST_CACHE
 CCOPY/2: R%d -> R%d\n
 CCOPY: R%d -> R%d\n
-CCP%u
 CE-L-
 CEE_JMP: stack must be empty
 CEE_LOCALLOC: stack not empty
 CEE_MONO_RETOBJ: more values on stack: %d
-CF@S
 CFA: [%x] def_cfa: %s+0x%x\n
 CFA: [%x] def_cfa_offset: 0x%x\n
 CFA: [%x] def_cfa_reg: %s\n
@@ -2066,7 +1913,6 @@ CFA: [%x] same_value: %s\n
 CFG after IR opts
 CFG after SSA
 CFG showing code
-CL:>8
 CLASS
 CLASS %s failed to resolve methods
 CLASS_BOX_TYPE
@@ -2081,6 +1927,7 @@ CONVERTED R%d(%d) TO VREG.\n
 COSTLY: %s R%d G%d C%d %s\n
 COSTLY: R%d C%d C%d %s\n
 COUNT
+CP%u
 CPU Load Average - 15min
 CPU Load Average - 1min
 CPU Load Average - 5min
@@ -2088,7 +1935,6 @@ CREATE_BOXED_VALUE
 CREATE_INSTANCE
 CREATE_STRING
 CSGSVSM
-CWD>~3
 CaGa
 Caamsa
 CacheProxy
@@ -2196,7 +2042,6 @@ Central Atlas Tamazight
 Central Atlas Tamazight (Latin)
 Cerating generic param object with invalid MonoType
 Ceturtd.
-ChN"
 Channels
 Char
 CharSet
@@ -2246,6 +2091,7 @@ Code: %d(%d%%) Info: %d(%d%%) Ex Info: %d(%d%%) Unwind Info: %d(%d%%) Class Info
 Collecting from unknown thread
 Colombia
 Colombian Peso
+ComInteropProxy
 CommandLineToArgvW
 Commons.Xml.Relaxng
 Compare and Branch instruction applyed to ill formed stack (%s x %s) at 0x%04x
@@ -2521,7 +2367,6 @@ CustomMod: Not enough room for the token
 CustomMod: Not enough room for the type
 CustomMod: invalid TypeDefOrRef token %x
 Cutanbir
-Cy2@K>
 Cycle found while resolving parent
 Cymraeg
 Cymraeg (Y Deyrnas Unedig)
@@ -2529,8 +2374,6 @@ Czech
 Czech (Czech Republic)
 Czech Republic
 Czech Republic Koruna
-D&D0D4D;D?DFDMDTDXDtD
-D1WAW`WvW
 DBLBa-f-SBXB^Bi/dBnBwB
 DBNull
 DD91439F-3167-478E-BD2C-BF9C036A1395
@@ -2540,7 +2383,6 @@ DECL_OFFSET2(%s,%s,%d)\n
 DECL_SIZE2(%s,%d)\n
 DELEGATE_TRAMPOLINE
 DETACHED
-DG-nDRR
 DIRECT CALL: %s by %s
 DISABLED
 DISPOSE
@@ -2550,7 +2392,6 @@ DUMP BLOCK %d:\n
 DUMP_CROSS_OFFSETS
 DWP-Handshake
 DYNAMIC_BASE
-D\fDe\nk
 DangerousAddRef
 DangerousRelease
 Danish
@@ -2698,7 +2539,6 @@ Dush
 Dutch
 Dutch (Belgium)
 Dutch (Netherlands)
-Duu\T
 Dydd Gwener
 Dydd Iau
 Dydd Llun
@@ -2717,15 +2557,12 @@ DynamicInvoke
 DynamicMethod
 DynamicType 0x%08x
 Dzivamisoko
-E)[pE
 E9FCFF5B-4DE1-4BDC-9CE8-08C640FC78CC
-E>nEA
 EA2EC6DC-51DD-479C-BFC2-E713FB9E7E47
 ELEMENT_KLASS
 EMPTY(smashed?)
 ENTER: %s(
 ERR_UNLOADED, id=%d, type=%d.\n
-ET5>
 EVALUATION_COMPLETED
 EVALUATION_IN_PROGRESS
 EVALUATION_NOT_STARTED
@@ -2738,7 +2575,6 @@ EXCEPTION: finally clause %d of %s\n
 EXC_NAME
 EXC_OVF
 EXIT
-E[\rn?gc
 Ebr.
 Ebrel
 Ebrill
@@ -2896,15 +2732,9 @@ ExportedType table row %d has invalid TypeNamespace %08x
 ExportedType table row %d has null Implementation token
 Expression: 
 ExtractByteMask
-E}aj
-F F3FIFMFTF[FeFlFyF
-F F3FIFMFTF[FeFlFyFp
 F13660F8-9D0D-419F-BA4E-315693DD26EA
 F5CCCBEC-E1AD-4DBB-9B44-9B42C86B94B8
-F5K5
 F5K5P5U5Z5_5d5
-F8\r2
-F>qUxv
 FALSE
 FALSE && "value has more than 28 bits"
 FCBD003B-2BB4-4940-BAEF-63AF520C2336
@@ -2917,9 +2747,7 @@ FCallMultiply
 FCallRound
 FCallToInt32
 FCallTruncate
-FComInteropProxy
 FD178CD4-EF4F-44D5-9C3F-812B1E25126B
-FEMh\f
 FIELD
 FIELD_OFFSET
 FORCE_CACHE_INSTALL
@@ -2978,8 +2806,6 @@ February
 Februwari
 Ferikgong
 Fevral
-FfW?
-FiYW
 Field
 Field %s:%s at offset %x is weak.
 Field '%s' doesn't have an RVA
@@ -3119,9 +2945,6 @@ FullAOT cannot continue if there are loader errors.\n
 Function not implemented
 Function pointer signature '%s' doesn't match delegate's signature '%s' at 0x%04x
 Fuulbana
-Fw^(9
-G9Bz
-G>US
 GC #%lu freed %ld bytes, heap %lu KiB (+ %lu KiB unmapped)\n
 GC DllMain-based thread registration unsupported
 GC Handle Table (Boehm)
@@ -3262,7 +3085,6 @@ GET_VALUE
 GET_VALUES
 GET_VALUES_2
 GET_VALUE_SIZE
-GFV;&
 GFree
 GNZN 
 GOT slot distribution:\n
@@ -3276,7 +3098,6 @@ GSHAREDVT_INFO
 GSHAREDVT_IN_WRAPPER
 GSHAREDVT_METHOD
 GSHAREDVT_OUT_WRAPPER
-GTh@
 Gaeilge
 Gaeilge (
 Galician
@@ -3588,7 +3409,6 @@ GetVolumeInformationW
 GetWindowsFolderPath
 GetXStateFeaturesMask
 GetterAdapterFrame
-GfZ+?p
 Gibl
 Gicuransi
 Global register %d is not in the SSA form, skipping.\n
@@ -3599,7 +3419,6 @@ GlobalReAlloc
 Gorffennaf
 Goue.
 Gouere
-GrJoq>@
 GreaterThan
 GreaterThanOrEqual
 Greece
@@ -3637,7 +3456,6 @@ Gwe.
 Gwen.
 Gwener
 Gwengolo
-H%H/H9HFHPH]HmHwH{H
 H.mm
 H.mm' Auer'
 H.mm.ss
@@ -3648,7 +3466,6 @@ H:mm.ss
 H:mm:ss
 H:mm:ss' Auer'
 H:mm:ss' g
-H>r1
 HH' h 'mm
 HH'H'mm
 HH'H'mm.ss
@@ -3696,7 +3513,6 @@ Hindi
 Hindi (India)
 Hlakola
 Hlakubele
-HoZh
 Honduran Lempira
 Honduras
 Hong Kong Dollar
@@ -3720,7 +3536,6 @@ I18N.MidEast
 I18N.Other
 I18N.Rare
 I18N.West
-I;u>A
 IA64
 IAsyncStateMachine
 ICALL_ADDR
@@ -3778,6 +3593,7 @@ IReadOnlyCollection`1
 IReadOnlyList`1
 IRemotingTypeInfo
 IRemotingTypeInfo:CanCastTo
+ISO-8859-1
 ISO8859-1
 IS_ASSIGNABLE_FROM
 IS_COLLECTED
@@ -3788,7 +3604,6 @@ IS_MONOTYPE_HANDLE (reftype)
 ISonto
 IT: %d %d.\n
 IUnknown
-I\vI\vpSxS?
 Ian.
 Ianuali
 Ibrir
@@ -3800,9 +3615,7 @@ If you see other errors or faults after this message they are probably related\n
 Igbo
 Igbo (Nigeria)
 Ignoring invocation of an instance method on a NULL instance.\n
-Ih.6]
 Ijumaa
-Il?333333c?
 Illegal byte sequence
 Illegal byte sequence encounted in the input.
 Illegal value set on stack 0x%02x at %d
@@ -4342,8 +4155,6 @@ Ivoire
 Ivoire)
 Iyul
 Iyun
-J+J>JTJmJ
-J0b8L%
 JIT compile 1+ jobs
 JIT compile overload wait
 JIT compile spurious wakeups
@@ -4394,10 +4205,6 @@ JIT/ssa_remove (sec)
 JIT_ICALL_ADDR
 JIT_ICALL_ADDR_NOCALL
 JIT_THREAD_ATTACH
-JLdz9)
-JNt3
-J\fN\fR\fH
-JaTg
 Jamaica
 Jamaican Dollar
 Jan.
@@ -4417,7 +4224,6 @@ Japan
 Japanese
 Japanese (Japan)
 Japanese Yen
-Jg,(k7
 Jimaata
 Jimco
 JitInfo EH clause %d flags %x try %x-%x handler %x-%x\n
@@ -4452,12 +4258,8 @@ Juun
 K)K?KRKYKcKsK
 KEEPALIVE
 KERNEL32.dll
-KFsUr
 KILL BB%d: 
-KKh0
 KLASS
-KP'REt
-K\r87
 Kalaallisut
 Kalaallisut (Greenland)
 Kalaallit Nunaat
@@ -4496,7 +4298,6 @@ Kinyarwanda
 Kinyarwanda (Rwanda)
 Kiswahili
 Kiswahili (Kenya)
-Klqt}
 Konkani
 Konkani (India)
 Korean
@@ -4515,12 +4316,8 @@ Kyrgystani Som
 Kyrgyz
 Kyrgyz (Kyrgyzstan)
 Kyrgyzstan
-L#^r{Nx
-L)L9LOLbLlLzL
 L-Erbg
 L=333?
-L>ev
-L?UUUUUUU?
 LABEL
 LAST AOT METHOD: %s.\n
 LCIDToLocaleName
@@ -4537,9 +4334,6 @@ LIVENESS 2 %s\n
 LIVENESS BLOCK BB%d:\n
 LLVM output file: '%s'.\n
 LOOP START %d\n
-LVxC
-LWG>
-LWW>
 L_OBJC_IMAGE_INFO:\n
 L_OBJC_METH_VAR_NAME_%d
 L_OBJC_METH_VAR_NAME_%d:\n
@@ -4564,7 +4358,6 @@ Latvia
 Latvian
 Latvian (Latvia)
 Latvija
-Lb`w
 Leaf procedures optimizations
 Leaked or smashed objects encountered
 Leave not allowed in finally block at 0x%04x
@@ -4644,13 +4437,10 @@ Lwesihlanu
 Lwesine
 Lwesithathu
 Lwetse
-Lzw\n
 M'M:MAMNM[MnM
-M'y>0y
 M/d/yy
 M/d/yyyy
 M/dd/yy
-M:MAMNM
 MAKE_GENERIC_METHOD
 MEMCPY
 METHOD
@@ -5172,7 +4962,6 @@ Mphalane
 Mrt.
 Mscorlib mempool size:  %d\n
 MsgWaitForMultipleObjectsEx
-MtY&
 Muddee
 Mudyaxihi
 Mugqivela
@@ -5185,25 +4974,16 @@ Mutarama
 Mvulo
 Myanmar (Burma)
 Myanmar Kyat
-N N.N
 N%N-N
 N'wendzamhala
-N.kE5m<=
-N0sk
-N3`d?
-N>O=I9
-N>VF
 NAN(IND)
 NAN(SNAN)
-NE^EqE
 NONE
 NORMAL
 NOT REGVAR: %d\n
-NQ?s
 NULL
 NULLABLE_CLASS_BOX
 NULLABLE_CLASS_UNBOX
-N_3haO
 Naira
 Najeriya
 Name
@@ -5211,7 +4991,6 @@ Native Int
 Native Pointer
 Native code size
 Native int is not a verifiable type to reference a field at 0x%04x
-NdP#
 Ndzhati
 Nederland
 Nederlands
@@ -5238,14 +5017,12 @@ New Zealand Dollar
 New address: 
 New alias: 
 Ngwanatsele
-NhTh
 Nhlangula
 Nicaragua
 Nicaraguan C
 Nigeria
 Nigerian Naira
 Nisan
-NlDw`z
 No PInvoke conversion exists for value passed to Object-typed parameter.
 No caller outside reflection was found
 No child processes
@@ -5319,18 +5096,11 @@ Nyakanga
 Nyenyankulu
 Nyenyenyani
 Nzeli
-O&O0O4O;O?OFOMOTOXOhO
-O)qF
-O74^\v
-O8Mr
 OBJC_SELECTOR_REF
 OBJECT_REF
-OBuf
-OC,i
 OLEAUT32.dll
 OQOQSQbQW
 OUT:
-OZQ%
 ObSb~2WbA
 ObjCRuntime
 Object
@@ -5350,7 +5120,6 @@ Odia
 Odia (India)
 OffsetOf
 Ogos
-Oi_ioi
 Okakopa
 Okt.
 Oktabr
@@ -5366,7 +5135,6 @@ Oman
 Omani Rial
 Onkololeessa
 Only incomplete TypeBuilder objects are allowed to be an enum without base_type
-Oor;
 Opcode '%s' missing from machine description file.
 Open quote
 Open(char*,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,System.IO.FileOptions,System.IO.MonoIOError&)
@@ -5412,7 +5180,6 @@ Owewe
 O{W{a{h{L
 P P-P1
 P: BB%d(%d): IN: 
-P;QDQD
 PA;N;N?N?N
 PATH
 PEAPI
@@ -5496,7 +5263,6 @@ Portuguese (Brazil)
 Portuguese (Portugal)
 PostInternal
 PostQueuedCompletionStatus
-Pr*Zw
 Precompile all methods before executing Main
 Predicate returned FALSE, skipping '%s' (%s)\n
 Predicate: candidate = %s\n
@@ -5525,6 +5291,7 @@ ProcessName_internal(intptr)
 Processing (%d): 
 Processing block %d [dfn %d] done.\n
 Processing instruction %d\n
+Processor
 ProcessorArchitecture
 Profile file has wrong header: '%s'.\n
 Profile file has wrong version 0x%4x, expected 0x%4x.\n
@@ -5567,11 +5334,6 @@ Punjabi (Arabic)
 Punjabi (Arabic, Pakistan)
 Punt Prydain
 Pushed %d thread stacks%s\n
-Q*Q=QJQTQaQkQxQ
-Q1W1k1
-Q5rHg,>
-Q9Mc{[
-QAf?
 Q\vT\v[\ve\vi\vQ\v
 Qatar
 Qatari Rial
@@ -5588,9 +5350,6 @@ Queue Length Peak
 QueueUserAPC
 R%d END=0x%x\n
 R%d START=0x%x\n
-R&R3RFReR~R
-R+Y+r+r
-R0Y0b0
 RECURSIVELY_ASCENDING
 RECURSIVELY_DESCENDING
 RECURSIVELY_INDEFINITE
@@ -5618,12 +5377,8 @@ RGCTX template num allocated
 RGCTX unmanaged lookups
 RGCTX_FETCH
 RGCTX_SLOT_INDEX
-RSDS
 RUNNING
 R\f)D;DJ\fN\fR\f
-R\np!c
-R\r[\ra\rg\rp\rv\r
-R^Zc
 Rabu
 RaiseException
 Ran out of trampolines of type %d in '%s' (limit %d)%s\n
@@ -5778,7 +5533,6 @@ Romansh
 Romansh (Switzerland)
 Roobii
 Round
-RtR/A
 RtlAddGrowableFunctionTable
 RtlCaptureContext
 RtlDeleteFunctionTable
@@ -5818,11 +5572,6 @@ Rwanda
 Rwandan Franc
 S-Z-a-f-l-p-u-
 S-Z-a-f-l-p-u-z-
-S9>H
-S:S\SxS
-S>$hkDh$h>[2
-SAYAYAlA
-SBXB^B
 SByte
 SByteEnumEqualityComparer`1
 SELF_SUSPENDED
@@ -5860,7 +5609,6 @@ SKIPPING SAFEPOINTS for the polling function icall\n
 SKIPPING SAFEPOINTS for wrapper %s\n
 SNAN)
 SPILLED LOAD (%d at 0x%08lx(%%ebp)) R%d (freed %s)\n
-SQlN
 SSA based Partial Redundancy Elimination (obsolete)
 SSE2 instructions on x86
 STACK_FRAME
@@ -5876,7 +5624,6 @@ STEP
 STRING_REF
 SUSPEND
 SWITCH
-S[bH
 Sabado
 Sabti
 Sabtu
@@ -6549,9 +6296,6 @@ SystemFunction036
 SystemMaxStackStize
 SystemTimeToFileTime
 SystemTimeToTzSpecificLocalTime
-Sz/vd
-T$T1TDTWTaThToTvT}T
-T(+EW
 TEMP
 THIS MATERIAL IS PROVIDED AS IS, WITH ABSOLUTELY NO WARRANTY
 THREAD
@@ -6607,7 +6351,6 @@ Test '%s' failed result (got %d, expected %d).\n
 Test run: image=%s, opts=%s\n
 Test run: image=%s\n
 Tetor
-TfAX
 Th 2
 Th 3
 Th 4
@@ -6772,7 +6515,6 @@ Tsonga (South Africa)
 Tswana
 Tswana (Botswana)
 Tswana (South Africa)
-Tt6*
 TtySetup
 Tue.
 Tuesday
@@ -6846,13 +6588,7 @@ Typedbyref field is an unverfiable type in store static field at 0x%04x
 Typedef table must have exactly at least one row
 Typespec 0x%08x
 TzSpecificLocalTimeToSystemTime
-U!U!U
 U*UIUbUrU
-U1(\Q
-U5[5{5
-U9KW 
-UA>N0Wl
-UD]D
 UInt16
 UInt32
 UInt64
@@ -6889,12 +6625,9 @@ UTF16
 UTF32
 UTF8
 UTF_16LE
-UUUU
 UUUUU
 UUUUUU
-UXmu
 U\fX\f_\ff\fj\fU\f
-UaUaYafa
 Ugushyingo
 Ukraine
 Ukrainian
@@ -7011,7 +6744,6 @@ Using default runtime: %s\n
 Using native pointer to ldobj at 0x%04x
 Using profile data file '%s'\n
 Using static instructions with literal field
-Utgtvt
 Uyghur
 Uyghur (China)
 Uzbek
@@ -7023,7 +6755,6 @@ Uzbekistan
 Uzbekistani Som
 Uztaila
 V%d: [0x%x - 0x%x]\n
-V)VBVUVwV
 VALUERET:%p, 
 VALUE_SIZE
 VAR %d (%s) cannot be expanded in this context with %d instantiations
@@ -7046,6 +6777,7 @@ VTable %s (vtable entries = %d, interfaces = %d)\n
 VTable data size:       %i\n
 VTable setup of type %s failed
 VTable setup of type %s failed due to: %s
+V_%d
 Valloc 
 Value
 Value type instance size (%d) cannot be zero, negative, or bigger than 1Mb
@@ -7151,8 +6883,6 @@ WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW
 WZ[ZlZ
-W^p8G
-WaNd?
 WaitForInputIdle
 WaitForMultipleObjectsEx
 WaitForPendingFinalizers
@@ -7160,7 +6890,6 @@ WaitForSingleObject
 WaitForSingleObjectEx
 Wait_internal
 Waiting for %d(%d) threads to suspend...\n
-Wak>E
 WakeAllConditionVariable
 WakeConditionVariable
 Warning: unknown argument to --assembly-loader. Should be "strict" or "legacy"\n
@@ -7211,13 +6940,8 @@ WriteConsoleW
 WriteFile
 WriteToFile
 WriteWindowsDebugString
-X/4B
 X86_IS_BYTE_REG (((ins->dreg)&0x7))
-XDtD
-XJQ\vx
 XK\KkK
-XOhO
-XRi}l]
 XXXXXX
 XamCore.ObjCRuntime
 Xamarin.Mac
@@ -7225,7 +6949,6 @@ Xamarin.WatchOS
 Xamarin.iOS
 Xan.
 Xaneiro
-Xe\RR?V
 Xhosa
 Xhosa (South Africa)
 Xitsonga
@@ -7233,15 +6956,8 @@ Xov.
 Xul.
 Xullo
 Y Deyrnas Unedig
-Y8a:
-Y>kX>M
-Y@\nSEQ POINT MAP: \n
-YFDAt
-YJ9?
 Yanvar
 Yaou
-YctXT9bq^F
-YdeT
 Yebrayer
 Yemen
 Yemeni Rial
@@ -7253,15 +6969,7 @@ Yuli
 Yulyuz
 Yuni
 Yunyu
-Z"cd
-Z5d@4
-Z8J/*
-Z<ZZZtZ
-ZPq:0
-ZSq>
-Z\>z8
 Zdat azal
-Zf<T7
 Ziischtig
 Zimbabwe
 Zulu
@@ -7324,9 +7032,8 @@ Zulu (South Africa)
 [%p] worker running in domain %p (outstanding requests %d)
 [%p] worker starting
 [%p] worker unparking, timeout? %s interrupted? %s
+[%s.%s:%p]
 [%s.%s:%p], 
-[*ncd>0
-[*ncd>TQ
 [BOOLEAN:%p:%d]
 [BYREF:%p], 
 [Could not resolve assembly name
@@ -7340,7 +7047,6 @@ Zulu (South Africa)
 [METHODCONST - %s]
 [MarshalAs] attribute required to marshal arrays to managed code.
 [OBJECT:%p]
-[OKC
 [RGCTX_FETCH 
 [STRING:%p:%s]
 [STRING:%p:%s], 
@@ -7354,9 +7060,7 @@ Zulu (South Africa)
 [UNSAFE-MOV-INTRISIC]\tsame size\n
 [UNSAFE-MOV-INTRISIC]\tsize mismatch and type is a struct\n
 [UNSAFE-MOV-INTRISIC]\tsize mismatch but both are of the same reg class\n
-[UuFR+
 [\r^\rc\rm\rq\r[\r
-[aOni*{
 [b_b-b2bcbgblb
 [dbg]   recv class [%s]\n
 [dbg]   recv method [%s]\n
@@ -7424,26 +7128,16 @@ Zulu (South Africa)
 \StringFileInfo\%02X%02X%02X%02X\ProductVersion
 \StringFileInfo\%02X%02X%02X%02X\SpecialBuild
 \VarFileInfo\Translation
-\f&\f/\f9\fB\fK\fT\f^\fe\fm\fu\f
 \f1ii
-\f\f\f\f\f\f\f\f\f\f\f
-\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f
 \f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f
 \f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f
-\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f
 \f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f
 \f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f
-\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f
 \f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f
-\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\t
-\f\f\f\f\f\f\f\f\f\f\f\f\f\f\n\f\f\f\f\f
 \f\f\f\f\f\f\f\f\f\f\f\f\f\v\v\v\v\f\v\v\v\f\f\f\f\f\f\f\f\f\f\f\f
 \f\f\f\f\f\f\f\f\f\f\f\n\n
 \f\f\f\f\f\f\n\n\f\f\n\n\f\f
 \f\f\f\n\n\n\n\f\f\n\n\n
-\f\n\f\f\f\f\f\n\f\n\n\n\n\n\f\n\n
-\f\n\n\f\f\n\n\n\n\n\n\f
-\n \n&\n,\n2\n8\n>\nD\nJ\nP\nV\n\\nb\nh\nn\nt\nz\n
 \n!-'---4-=-E-L-
 \n"<threadpool thread>"
 \n"<unnamed thread>"
@@ -7481,41 +7175,34 @@ Zulu (South Africa)
 \nRENAME VARS BLOCK %d:\n
 \nRemoving array bound checks in %s\n
 \nSEQ POINT MAP FOR %s: \n
+\nSEQ POINT MAP: \n
 \nSPILL BLOCK %d:\n
 \nSSA CONSPROP BB%d:\n
 \nUNLINK UNUSED BBLOCKS:\n
 \nUnhandled Exception:\n%s\n
 \nWhen you update one from git you need to update, compile and install\nthe other too.\n
 \nYour mono runtime and class libraries are out of sync.\n
-\n\f\f\f\f\f\f\f\n\n\n\n\n\n\n\n\f\n\n\f\f\f\f\f\f\f\f\f\f\f
-\n\n\f\f\f\f\n\f\f\f\f\f\f\n\f\f\n\n\f\f
 \n\n\f\n\n\n\n\n\n\f\f\f
 \n\n\n\f\f\f\f\f\f\f\f\n\n\n\n\f
 \n\n\n\n\n\n\n\n\f\f\f\f\f\f\f\f\n\n\f\f
 \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\f
-\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n
 \n\r\r\r\r\r\r\r\r\r\r
+\n\t.byte %d
 \n\tidom: BB%d\n
 \ndrhrlr/
-\nh?oT
 \nj2n2r2v2z2~2
-\njkq'
-\nk>oB
-\r \r&\r,\r2\r8\r>\rD\rJ\rP\rV\r\\rb\rh\rn\rt\rz\r
 \r$\r*\r0\r7\r;\r@\rE\rL\r
 \r1iib
-\rRUZU
-\r\r\r\r\r\r\r\r\r\r\f\f
 \r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r
-\rfVlV
-\rrdzd
+\t %.3s %d
 \t cfold -> 
-\t!\t%\v'\v*\v.\v$\tP\vR\vU\v
-\t$\t*\t0\t6\t<\tB\tH\tN\tT\tZ\t`\tf\tl\tr\tx\t~\t
+\t%-2d %s
 \t%p Missing header!!(%p)\n
 \t%p size %lu %s black listed\n
 \t%p\tfree block of size 0x%lx bytes%s\n
 \t%p\tused for blocks of size 0x%lx bytes\n
+\t%s %d\n
+\t%s %s\n
 \t%s: %d (%d)\n
 \t%sSPILLED STORE (%d at 0x%08lx(%%ebp)) R%d (from %s)\n
 \t.balign %d\n
@@ -7537,6 +7224,7 @@ Zulu (South Africa)
 \t0x?06\t- self suspend requested (BAD)\n
 \t0x?08\t- blocking with pending suspend (GOOD)\n
 \tADD R%d <- R%d in BB%d\n
+\tADD: %d\n
 \tAdd BB%d to worklist\n
 \tAdd PHI R%d <- R%d to BB%d\n
 \tBB%d %d %p\n
@@ -7550,14 +7238,12 @@ Zulu (South Africa)
 \tGSharedvt: %d\n
 \tIL0x%x[0x%0x] ->
 \tInstance:  %d\n
-\tJR>8o
 \tKILL: R%d(%d)\n
 \tLIVE IN  BB%d: 
 \tMRQR`RB
 \tNo cfold on 
 \tNormal:    %d\n
 \tPPTPnP-
-\tQw1
 \tR%d needs PHI functions in 
 \tReverse copyprop in BB%d on 
 \tSPILLED LOAD (%d at 0x%08lx(%%ebp)) R%d (freed %s)\n
@@ -7574,13 +7260,8 @@ Zulu (South Africa)
 \t\tBlock on list %d, should be on %d!!\n
 \t\tUse lvreg R%d for R%d.\n
 \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t
-\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t
-\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t
-\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t
 \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t
-\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t
 \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t
-\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t
 \t\tavailable regmask: 0x%08llu\n
 \t\texcluding dreg %s\n
 \t\texcluding sreg%d %s %d\n
@@ -7593,7 +7274,6 @@ Zulu (South Africa)
 \tassigned dreg %s to dest R%d\n
 \tassigned sreg%d %s to R%d\n
 \tassigned sreg1 %s to R%d\n
-\tcQr
 \tcfold on 
 \tchanging dreg R%d to %s from %s\n
 \tdead def of R%d, add range to R%d: [%x, %x]\n
@@ -7604,7 +7284,6 @@ Zulu (South Africa)
 \tforced spill of R%d\n
 \tforced spill of clobbered reg R%d\n
 \tfreeable %s (R%d) (born in %d)\n
-\tkE>fvw
 \tlast use of R%d set to %x\n
 \tlocal [%d]: 
 \tneed to copy sreg1 %s to dreg %s\n
@@ -7625,24 +7304,10 @@ Zulu (South Africa)
 \tx86_has_sse4a = %s\n
 \tx86_has_ssse3 = %s\n
 \tx86_is_xen = %s\n
-\v"\v(\v.\v4\v:\v@\vF\vL\vR\vX\v^\vd\vj\vp\vv\v|\v
 \v1ii
-\vA03>A|
-\vSWYW?
-]/]E]L]S]]]g]q]{]
-]/qNnw
-]jpj
-]rHa
-]xEc
-^5Y'6
-^<V7w
-^RfN>
-^THxV
-^axb
-_#vEP8
+_%s@%d
+_%s_%s_
 _0x%x
-_7e7v7
-_8r8
 _ByteLength
 _CanSecure
 _CorDllMain
@@ -7654,8 +7319,6 @@ _GetByte
 _GetRoles
 _IsMachineProtected
 _IsUserProtected
-_Le7
-_LjL
 _ProtectMachine
 _ProtectUser
 _ReRegisterForFinalize
@@ -7718,13 +7381,11 @@ _lbrack_
 _logb
 _lparen_
 _nextafter
-_oD>Kg
 _rbrack_
 _rparen_
 _scalb
 _scalbf
 `!a!b!c!d!e!f!g!h!i!j!k!l!m!n!o!
-`4f4
 `RTTI
 `adjustor{
 `anonymous namespace'
@@ -7739,7 +7400,6 @@ _scalbf
 `eh vector vbase copy constructor iterator'
 `generic-class-parameter-
 `generic-method-parameter-
-`h`hhh
 `local static destructor helper'
 `local static guard'
 `local static thread guard'
@@ -7774,11 +7434,9 @@ _scalbf
 `virtual displacement map'
 `vtordispex{
 `vtordisp{
-`xmx{x
 a method does not have any IL associated
 a"a/a<aIaVacasa
 a-feira
-a6>r
 abcdefghijklmnopqrstuvwxyz
 abcrem
 abe.
@@ -7799,6 +7457,7 @@ acfg->plt_offset == 1
 acfg->stack_pos < 16 - 1
 acfg->stack_pos > 0
 acfg->unwind_ops->len == 0
+acos
 active->anchor.data.state == STATE_PARTIAL
 actual_method
 actual_method->klass == klass
@@ -8017,6 +7676,7 @@ as -gstabs %s -o %s
 as-IN
 as-in
 ascii
+asin
 asmonly
 asmwriter
 assRef
@@ -8107,7 +7767,6 @@ azaroa
 b"b-b2b7b>bGb
 b03f5f7f11d50a3a
 b77a5c561934e089
-b\fp\v0
 bad thread_interruption_requested state
 bado
 bal.
@@ -8226,7 +7885,6 @@ bn-BD
 bn-IN
 bn-bd
 bn-in
-bnMG
 bne.un
 bne.un.i4
 bne.un.i4.s
@@ -8301,7 +7959,6 @@ build_metadata
 builder
 builder_field
 builtin-types
-byLQB_
 byte
 byte == 1
 byval_arg
@@ -8315,8 +7972,6 @@ c:\build\output\unity-technologies\mono\mono\metadata\threadpool-io-poll.c
 c:\build\output\unity-technologies\mono\mono\mini\interp\interp-internals.h
 c:\build\output\unity-technologies\mono\mono\mini\ir-emit.h
 c:\build\output\unity-technologies\mono\mono\utils\mono-os-semaphore.h
-c>F2
-c?FA@s}
 cUqUg
 c\rc c-c:cGcZcmczc
 ca-ES
@@ -8441,6 +8096,7 @@ cinfo->ret.storage != ArgInIReg
 cinfo->sig_cookie.storage == ArgOnStack
 ckfinite
 cknull
+cl%x_%s_
 clang.exe
 class
 class 
@@ -8711,6 +8367,7 @@ copyprop
 core-clr
 core-clr-test
 cosf
+cosh
 costs > 0
 could not disassemble, bad header due to %s
 could not parse method body due to %s
@@ -8835,12 +8492,6 @@ d/MM/yy
 d/MM/yyyy
 d/MMM/yyyy
 d/MMMM
-d1dDdZdjdtd
-d8L2
-d9j9x9
-d?000000`?
-dNdNhNoN8
-dRL>
 dYhYzY
 d\r9\r7\r;\r=\r?\rA\rC\rK\rM\r
 da-DK
@@ -9097,6 +8748,7 @@ divpd
 divps
 dllentry
 dllmap
+dlname
 dnja
 dnju
 do-not-finalize
@@ -9162,7 +8814,6 @@ dupps_high
 dupps_low
 dushanba
 duujal
-dvmvwv
 dwarfdebug
 dyn-runtime-invoke
 dyn_call
@@ -9179,9 +8830,6 @@ e premte
 e shtun
 e+000
 e0eCeYeieye
-eF>t
-eLK(w
-e\fq\fb\fn\fk\fw\fh\ft\f
 ec->inited
 eesti
 eesti (Eesti)
@@ -9191,7 +8839,6 @@ eglib: g_filename_to_uri: hostname not handled
 eiro
 eka.
 ekaina
-eklkvk
 el-GR
 el-gr
 elem_addr
@@ -9373,6 +9020,7 @@ expand_r4
 expand_r8
 expected InternalThread.last field offset %u, found %u. See InternalThread.last comment
 expected corlib version %d, found %d.
+expf
 explicit-null-checks
 ext->interp_exit
 extern "C" 
@@ -9390,18 +9038,6 @@ extract_u2
 extractx_u2
 ezen
 ezna
-f/A/xs
-f1fGfZfsf
-f4Lc'
-f;j;o;s;w;{;
-fD>b
-fGa>
-fU'9
-fU\f\nW
-fVfQp
-fWi?
-f\fj\fU\fq
-f\n_MR;uD
 f_safe_handle
 fa-IR
 fa-ir
@@ -9469,6 +9105,7 @@ file != NULL
 file %s: line %d (%s): assertion failed: (%s)
 file:
 file://
+file:///%s
 fileLength > 0
 fileLength >= offset
 filebuildpart
@@ -9640,7 +9277,6 @@ function %s::%s/%d requires one of unsuported SIMD instruction set(s):
 function doesn't have a simd intrinsic %s::%s/%d\n
 fy-NL
 fy-nl
-g$g:gJgcg
 g_free
 g_oop.readException
 g_timer_main_thread == INVALID_HANDLE_VALUE && g_timer_event == 0
@@ -9905,18 +9541,11 @@ guaran
 guov
 guovvam
 gusht
-h"h'h-h2h7h$
 h.mm tt
 h.mm.ss tt
-h0'D
 h1l1p1t1x1z
-h75"h
-h:OH~
 h:mm tt
 h:mm:ss tt
-h>1my
-hJuA
-hZh_h
 ha-Latn
 ha-Latn-NG
 ha-latn
@@ -10007,10 +9636,7 @@ i == num_holes
 i == vmv->idx
 i0nD|De0i0i0
 i5y5
-i8(2
 i8const
-i>VF
-iOi_i
 iadienis
 ian.
 ianuarie
@@ -10096,6 +9722,7 @@ indeg
 index
 index %d for %dth available slot, linked from %d, not in range [0 .. %d)\n
 index < G_N_ELEMENTS (current_runtime->version_sets)
+index < amodule->image_table_len
 index < array->len
 index < code_amodule->info.nmethods
 index < meta->heap_blob.size
@@ -10137,6 +9764,7 @@ info->subtype == WRAPPER_SUBTYPE_NONE || info->subtype == WRAPPER_SUBTYPE_PINVOK
 info->version == MONO_AOT_FILE_VERSION
 info->vret_slot
 info->vtable
+info->win32_apc_info_io_handle == (gpointer)INVALID_HANDLE_VALUE
 info->win32_apc_info_io_handle == io_handle
 info_inflated.has_debug_data
 info_var
@@ -10427,11 +10055,6 @@ ivem
 iyul
 iyun
 j == new_table->num_chunks
-j%VM
-j(j2j6j:j>jBjOjVj]jpj
-j+2#N
-j1Vx
-jCrC,
 ja-JP
 ja-jp
 jaan
@@ -10446,7 +10069,6 @@ januari
 janv
 janv.
 janvier
-jeTb
 jeu.
 jeudi
 ji && !ji->is_trampoline
@@ -10515,14 +10137,8 @@ juovl
 juovlam
 juuli
 juuni
-jvZ(
 k < G_N_ELEMENTS (basic_types)
 k-kIk
-k0s0{0
-k3p3v3
-k=yI
-k>4\tF
-kPKtf
 ka-GE
 ka-ge
 kab.
@@ -10548,7 +10164,6 @@ key < TLS_KEY_NUM
 kiel
 kikii
 kind(0=ptrfree,1=normal,2=unc.),size_in_bytes,#_marks_set,#objs\n
-kjO}
 kk-KZ
 kk-kz
 kkkk
@@ -10603,8 +10218,6 @@ ky-KG
 ky-kg
 l (Norge)
 l (Norway)
-l-lClMlWlalklul
-lBrB
 lWpWpW~
 label
 label="CFG for %s";\n
@@ -10998,20 +10611,11 @@ lv-LV
 lv-lv
 m != method
 m!m.m
-m%z)z0z=zJzWzdzkzuz
 m->is_generic
 m->is_inflated
 m->orig_conv_args [argnum]
 m->retobj_var
 m->vtaddr_var
-m0s0
-m9}9
-m?H7
-m@info->win32_apc_info_io_handle == (gpointer)INVALID_HANDLE_VALUE
-mG4>
-mLLYU\tl3
-mO-B
-m\nXo
 m_Address
 m_Buffer
 m_Group
@@ -11205,7 +10809,6 @@ mn-Cyrl
 mn-MN
 mn-cyrl
 mn-mn
-mnD"
 moandei
 mobile
 modf
@@ -12772,13 +12375,6 @@ my-mm
 n >= 0 && n < 30
 n costarricense
 n%n2n9n@nJnWnjnzn
-n03>Pu
-n2n9n@n
-n3t3t3
-n7fX
-nXPO
-n]?iJ
-n]dB
 naasaande
 nachm.
 nadagur
@@ -12801,7 +12397,6 @@ native2man
 native_func_aot
 nb-NO
 nb-no
-nbvbo
 nclass
 ndag
 nder
@@ -12957,16 +12552,7 @@ nynorsk
 nynorsk (Noreg)
 nze.
 o != NULL
-o o$o(o,o0o4o
 o->vtable->klass == mono_defaults.int32_class
-o?GS
-oI>O7
-oK+5
-oMwM?
-oPe*
-oXxX
-o\fmC!
-o\vp!p:pMp
 obj != NULL
 obj ptr
 obj ptr int
@@ -12997,7 +12583,6 @@ object ptr ptr int32
 object ptr ptr ptr ptr ptr
 object_context.class_inst || object_context.method_inst
 objfile != NULL
-obwQ4
 oct.
 october
 octobre
@@ -13013,7 +12598,6 @@ offset >= 0
 offset >= 0 && offset < header->code_size
 offset >= 0 && offset < mono_class_get_method_count (klass)
 oghachd Aonaichte)
-ojdB;?
 okt.
 oktabr
 oktobar
@@ -13044,7 +12628,6 @@ ol (Puerto Rico)
 ol (Rep
 ol (Uruguay)
 ol (Venezuela)
-ol&b<P
 oldVersion
 old_anchor.data.count > 0
 old_anchor.data.state != STATE_EMPTY
@@ -13131,7 +12714,6 @@ outubro
 over
 overflow_busy [small_id]
 overrwritting old token %x on image %s for type %s::%s
-owM&
 owner
 p != NULL
 p - buf < 4096
@@ -13141,7 +12723,6 @@ p - buf <= buf_size
 p - buf <= size
 p - buf2 < 1024
 p - buffer <= buflen
-p!Sz
 p!q!r!s!t!u!v!w!x!y!z!{!|!}!~!
 p#BYBYFYQY
 p2 - buf2 < 1024
@@ -13161,12 +12742,7 @@ p:xmm6
 p:xmm7
 p:xmm8
 p:xmm9
-p>.G1
-p>Y3
-pAvA
-pUn's
 pUnk
-p\nt\no
 pa-Arab
 pa-Arab-PK
 pa-arab
@@ -13301,6 +12877,7 @@ pos > interval->range->from && pos <= interval->last_range->to
 pos >= 0 && pos < jit->num_locals
 pos >= 0 && pos < jit->num_params
 power <= 14
+powf
 pre podne
 precomp
 predicate != NULL
@@ -13422,13 +12999,7 @@ public:
 publicKeyToken
 pule
 pxor
-q!be
 q->has_dummy
-q2w2
-q4u!%
-q<PF
-q>F,3
-qS>g?h3
 qershor
 quarta
 quarta-feira
@@ -13504,10 +13075,6 @@ r4_sub_ovf
 r4_sub_ovf_un
 r4const
 r8const
-rHJ:
-rNm>)
-r\tVr.>T
-raB3G
 rand_handle
 rank
 rank <= 255
@@ -13665,7 +13232,6 @@ royar
 royar)
 royskt
 royskt (F
-rq}q
 rs != NULL
 rsqrtps
 ru-MD
@@ -13700,7 +13266,6 @@ s (Brasil)
 s (Portugal)
 s s$s(s*s,st
 s1 != NULL
-s1\vm\
 s2 != NULL
 s:xmm0
 s:xmm1
@@ -13718,7 +13283,6 @@ s:xmm6
 s:xmm7
 s:xmm8
 s:xmm9
-sHF'
 sabaat
 sabato
 safe
@@ -13735,7 +13299,6 @@ sausis
 save-temps
 save_lmf
 saved_stack
-sax~Z
 sb->chunkChars
 sb->chunkChars->max_length >= initial_len
 sb_header == sb_header_for_addr (sb_header, desc->block_size)
@@ -13890,9 +13453,11 @@ siilo
 siilto
 sije
 simd
+sinf
 single
 single step 
 single-imm-size
+sinh
 sisamanngorneq
 size
 size < 4 && "value has more than 28 bits"
@@ -14278,13 +13843,10 @@ t Nam
 t Nam)
 t n la
 t!t&t-t
-t%rv
 t->attrs & PARAM_ATTRIBUTE_OUT
 t->byref
 t->num_mods == 0
 t->type == MONO_TYPE_OBJECT
-t6z6z6
-t7Pr^2>#
 tQxQ
 t\nP\ne\nl\np\nt\n
 ta-IN
@@ -14535,7 +14097,6 @@ tzm-Latn
 tzm-latn
 u (Latvija)
 u$u8uFuWufuwu
-uYy\f
 u_sigstart
 ubat
 uber
@@ -14560,7 +14121,6 @@ ukw.
 ulong
 ulong double
 ulong float
-um=Q
 unable to handle jump info %d
 unaligned.
 unaligned_bytes (dest) == 0
@@ -14731,17 +14291,12 @@ uz-cyrl
 uz-cyrl-uz
 uz-latn
 uz-latn-uz
-uzKs@>
 uzt.
 uztaila
 v'v.v
-v2!L.2
 v2.0.50727
 v4.0.30319
 vH7B
-vLzL
-vNzN
-vY}Y
 val != NULL
 validil
 value
@@ -14761,8 +14316,6 @@ variant_clear
 vas.
 vasario
 vasaris
-vc6;F
-vcC1]
 vcall
 vcall2
 vcall2_membase
@@ -14893,6 +14446,7 @@ wait_callback: fd %d not found in states table
 wait_event
 wait_for_tids
 waiting
+wakeup_pipe_fd >= 0
 wakeup_pipes_init: bind () failed, error (%d)\n
 wakeup_pipes_init: connect () failed, error (%d)\n
 wakeup_pipes_init: getsockname () failed, error (%d)\n
@@ -14920,7 +14474,6 @@ worker.monitor_status != MONITOR_STATUS_NOT_RUNNING
 worker.monitor_status == MONITOR_STATUS_WAITING_FOR_REQUEST || worker.monitor_status == MONITOR_STATUS_REQUESTED
 worker.worker_creation_current_count <= WORKER_CREATION_MAX_PER_SEC
 worker_callback
-wqBv/?
 wrapper
 wrapper call
 wrapper->wrapper_type
@@ -14942,10 +14495,8 @@ wrong token %x to get_generic_param_row
 wrong type for gc hashtable
 wrze
 wrzesie
-wsj=
 wtorek
 wutora
-x)x3x=xCxIxMxQxYx
 x86-64
 x86_64-w64-mingw32-objdump.exe -M x86-64 -d %s %s
 x86_add_membase_imm
@@ -14989,10 +14540,6 @@ x86_xchg
 x86_xor_membase_imm
 x86_xor_membase_reg
 x86_xor_reg_membase
-x95K
-xKxK|K
-xNe;
-xT?V
 x_unicode_1_1_utf_7
 x_unicode_1_1_utf_8
 x_unicode_2_0_utf_7
@@ -15015,20 +14562,14 @@ xorpd
 xorps
 xoves
 xphi
-xpxxxx
 xullo
-xwpwpp
 xxxf
 xxxi
 xzero
-y#uL
 y*y6y;yByMyXy`yiyvy~y
-yE>cb
-yV}V
 yakshanba
 yanvar
 yarkomaa
-ymL{
 yo-NG
 yo-ng
 you are registering the same counter address twice: %s at %p
@@ -15074,18 +14615,13 @@ yyyy.M.d
 yyyy.MM.dd
 yyyy/M/d
 yyyy/MM/dd
-yz@l
 z)5K5K9KEK`
-z)z4K
-z>h4
-z^KD
 zaterdag
 zbek
 zbek (O
 zbekiston
 zbekiston so
 zbekiston)
-zc%C1
 zdee
 zercl.
 zercladur
@@ -15114,12 +14650,7 @@ zondag
 zu-ZA
 zu-za
 zzzz
-{'{1{:{={@{C{F{I{L{
-{8pjU'9
 {flat}
 {for 
-|Tn9{
-}(}2}<}F}P}W}^}e}l}s}z}
 }J~P~T~]~d~i~r~w~z~
 }xyz{pq
-~cU4

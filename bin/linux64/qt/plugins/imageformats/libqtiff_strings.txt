@@ -45,7 +45,6 @@
   XMLPacket (XMP Metadata):\n
   YCbCr Positioning: 
   YCbCr Subsampling: %u, %u\n
- !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
  %5llu
  (%lu = 0x%lx)\n
  (%u = 0x%x)\n
@@ -80,6 +79,7 @@ $ORIGIN/../../lib
 %s data at scanline %lu (%llu != %llu)
 %s%u (0x%x)
 %s2-d encoding
+%s: %s
 %s: Bad field type %d for "%s"
 %s: Bad value %u for "%s" tag
 %s: Can not read TIFF directory count
@@ -107,6 +107,7 @@ $ORIGIN/../../lib
 %sunassoc-alpha
 %suncompressed data
 %sunspecified
+%u (0x%x)\n
 (cc % 3) == 0
 (cc & 1) == 0
 (cc & 3) == 0
@@ -148,7 +149,6 @@ $ORIGIN/../../lib
 11QTiffPlugin
 12QTiffHandler
 7 (0x7)
-8&Kx
 <unsupported data type in TIFFPrint>
 ?Integer overflow in %s
 @../../../3rdparty/libtiff/libtiff/tif_predict.c
@@ -433,7 +433,6 @@ MatrixWorldToScreen
 Matteing
 MaxApertureValue
 Maximum TIFF file size exceeded
-Mbp?vS\r
 Memory mapped files not currently supported for this operation.
 Merging CCITT Fax 3 codec-specific tags failed
 Merging CCITT Fax 4 codec-specific tags failed
@@ -944,7 +943,6 @@ min-is-black
 min-is-white
 msb-to-lsb\n
 must be either LogLUV or LogL
-n$Kx
 n.a16==1
 na<ndir
 nbits <= 12

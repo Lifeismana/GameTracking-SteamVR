@@ -1,11 +1,15 @@
  bytes
 %$%a%b%V%U%c%Q%W%]%\%[%
+%%.%if%s
+%.*s://%s
 %.18g
 %0.8X%0.4X%0.4X%0.2X%0.2X%0.2X%0.2X%0.2X%0.2X%0.2X%0.2X
 %0.8X-%0.4X-%0.4X-%0.2X%0.2X-%0.2X%0.2X%0.2X%0.2X%0.2X%0.2X
+%4%,%
 %8X%4X%4X%2X%2X%2X%2X%2X%2X%2X%2X
 %8X-%4X-%4X-%2X%2X-%2X%2X%2X%2X%2X%2X
 %<%^%_%Z%T%i%f%`%P%l%g%h%d%e%Y%X%R%S%k%j%
+%i%s
 %lld
 %llu
 %s %s %s %s
@@ -1053,13 +1057,6 @@ ZONE
 _DMsg
 _Jv_RegisterClasses
 _SpewMessageType
-_ZSt9terminatev@@GLIBCXX_3.4
-_ZTVN10__cxxabiv117__class_type_infoE@@CXXABI_1.3
-_ZTVN10__cxxabiv120__si_class_type_infoE@@CXXABI_1.3
-_ZdaPv@@GLIBCXX_3.4
-_ZdlPv@@GLIBCXX_3.4
-_Znam@@GLIBCXX_3.4
-_Znwm@@GLIBCXX_3.4
 __bss_start
 __ctype_b_loc
 __ctype_b_loc@@GLIBC_2.3
@@ -1263,9 +1260,13 @@ open@@GLIBC_2.2.5
 opendir
 opendir@@GLIBC_2.2.5
 operator delete(void*)
+operator delete(void*)@@GLIBCXX_3.4
 operator delete[](void*)
+operator delete[](void*)@@GLIBCXX_3.4
 operator new(unsigned long)
+operator new(unsigned long)@@GLIBCXX_3.4
 operator new[](unsigned long)
+operator new[](unsigned long)@@GLIBCXX_3.4
 out of order normalization entry
 pread64
 pread64@@GLIBC_2.2.5
@@ -1317,6 +1318,7 @@ statvfs64
 statvfs64@@GLIBC_2.2.5
 statvfs@@GLIBC_2.2.5
 std::terminate()
+std::terminate()@@GLIBCXX_3.4
 stderr
 stderr@@GLIBC_2.2.5
 steam://openurl/
@@ -1400,7 +1402,9 @@ vswprintf
 vswprintf@@GLIBC_2.2.5
 vtable for CUniformRandomStream
 vtable for __cxxabiv1::__class_type_info
+vtable for __cxxabiv1::__class_type_info@@CXXABI_1.3
 vtable for __cxxabiv1::__si_class_type_info
+vtable for __cxxabiv1::__si_class_type_info@@CXXABI_1.3
 wcscasecmp
 wcscasecmp@@GLIBC_2.2.5
 wcscmp

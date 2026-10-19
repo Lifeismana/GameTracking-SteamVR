@@ -26,14 +26,14 @@
  SRGB
  [%.3f server clamped to %.3f]
  libpng version 1.5.2 - March 31, 2011\n\n
+ max. %f
+ min. %f
  out
-!1AQaq
 !m_boolDone
 !m_boolOpaque
 !m_boolPunchThroughPixels
 !m_boolTransparent
 "%s" = "%s"
-"2BRbr
 "channels" attribute not found in the header.
 "compression" attribute not found in the header.
 "dataWindow" attribute not found in the header or invalid.
@@ -43,7 +43,6 @@
 "screenWindowCenter" attribute not found in the header.
 "screenWindowWidth" attribute not found in the header.
 # of channels is zero.\n
-#3CScs
 #OpenGL_ContextCreationFailed
 #OpenGL_RequiredExtensionMissing
 #OpenGL_UnableToStartGame
@@ -78,7 +77,6 @@
 #version 300 es
 #version 300 es\n
 #version 310 es\n
-$4DTdt
 $ORIGIN
 %-120s - %s\n
 %-120s\n
@@ -89,8 +87,11 @@ $ORIGIN
 %05d
 %06d
 %3d: e=%.3f rms=%.6f %u\n
-%5EUeu
+%c %s %d\n
 %d %s %d %02d:%02d:%02d +0000
+%d.%d.%d
+%d..%d
+%d..%d\n
 %f %f %f %f
 %i %i %i %i
 %ld%c
@@ -99,8 +100,11 @@ $ORIGIN
 %ls [wstring, len = %d]
 %s allocation count overflow
 %s called on an immutable constant buffer\n
+%s%d
+%s%s
 %s() isn't a known function.
 %s.360%s
+%s/%s
 %s: %u total draws\n
 %s: Can't concatenate input layouts with more than %d fields total!\n
 %s: Context supports GLSL version %s\n
@@ -115,23 +119,19 @@ $ORIGIN
 %s: __pos (which is %zu) > this->size() (which is %zu)
 %s: string format requested %d chars\n
 %s[line %d:%d] 
-&6FVfv
-'7GWgw
+%x:%x
 'exists'
 'return'
 (%s): ADD %s = %s\n
 (%s): Setting %s to %s\n
-(8HXhx
 (On the line reading %s):\n
 (fWeightSumLeft + fWeightSumRight) > 0.0f
 (fWeightSumTop + fWeightSumBottom) > 0.0f
 (unknown)
-)9IYiy
 *** IB "%s": Tried to lock too much memory for subregion (%d>%d)!\n
 *** IL "%s": Unable to create input layout; layout has %d fields, which is more than %d!\n
 *** VB "%s": Tried to lock a GPU-only buffer!\n
 *** VB "%s": Tried to lock too much memory (%d>%d)!\n
-*:JZjz
 *St19_Sp_counted_deleterIPhZN3Etc13EncodeMipmapsEPfjjNS1_5Image6FormatENS1_11ErrorMetricEfjjjjPNS1_8RawImageEPibEUlS0_E_SaIiELN9__gnu_cxx12_Lock_policyE2EE
 *ZN3Etc13EncodeMipmapsEPfjjNS_5Image6FormatENS_11ErrorMetricEfjjjjPNS_8RawImageEPibEUlPhE_
 +OQv
@@ -225,10 +225,8 @@ $ORIGIN
 ./inputlayoutbase.h
 ./renderresource.h
 .360
-.M;UU
 .[\()*+?{|^$
 .[\()*+?{|^$\n
-.eB5
 .exr
 .ini
 .jpg
@@ -382,7 +380,6 @@ $ORIGIN
 5_0_gl
 5_0_vulkan
 5cfg/moddefaults.txt
-5t~BC
 64.0
 6ConVar
 7CGLMTex
@@ -422,7 +419,6 @@ $ORIGIN
 @@/data/source2_main/src/thirdparty/etc2comp/EtcLib/EtcCodec/EtcDifferentialTrys.cpp
 @TEXTURESTREAMING: Extremely low memory: Available mem: %.2f MB, Required: %.2f MB.\n
 @mathlib.cpp
-A!;I2
 AJob
 ALIGN_TYPE is wrong, please fix
 ANDROID_VULKAN
@@ -489,7 +485,6 @@ BGRA4444
 BGRA5551
 BGRA8888_LINEAR
 BGRX8888_LINEAR
-BKbhTb~XBK!;
 BOOLLITERAL
 Backing store not supported
 Bad VTEX data for '%s'\n
@@ -4094,6 +4089,7 @@ Zero length tRNS chunk
 \n--------------------------------
 \n-------------------------------- context caps for context %08llx
 \nDevice Caps :\n
+\nF%u
 \nGL shader cache TOC file version is %d instead of %d for %s\n
 \nPS_RENDER_STATE
 \nSkipped %d%% of all combos\n
@@ -5097,7 +5093,6 @@ rwtexture1darray
 rwtexture2d
 rwtexture2darray
 rwtexture3d
-sAmTb
 sPLT chunk has bad length
 sPLT chunk requires too much memory
 sampler15

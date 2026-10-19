@@ -1,8 +1,5 @@
                           
-   ! " % & ' : < G H I 
- !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
  !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
- !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
  Base Class Array'
  Base Class Descriptor at (
  Class Hierarchy Descriptor'
@@ -12,17 +9,17 @@
  delete
  delete[]
  new
-!AxU
-".dll
-#FLR
-#tDq
-$\nY8O
 %$%a%b%V%U%c%Q%W%]%\%[%
+%%.%if%s
+%.*s://%s
+%.18g
 %0.8X%0.4X%0.4X%0.2X%0.2X%0.2X%0.2X%0.2X%0.2X%0.2X%0.2X
 %0.8X-%0.4X-%0.4X-%0.2X%0.2X-%0.2X%0.2X%0.2X%0.2X%0.2X%0.2X
+%4%,%
 %8X%4X%4X%2X%2X%2X%2X%2X%2X%2X%2X
 %8X-%4X-%4X-%2X%2X-%2X%2X%2X%2X%2X%2X
 %<%^%_%Z%T%i%f%`%P%l%g%h%d%e%Y%X%R%S%k%j%
+%i%s
 %lld
 %s not implemented
 %s overflow!\n
@@ -67,7 +64,6 @@ $\nY8O
 &atilde;
 &auml;
 &brvbar;
-&bzi
 &ccedil;
 &cedil;
 &cent;
@@ -130,16 +126,12 @@ $\nY8O
 &yacute;
 &yen;
 &yuml;
-( 8PX
 ('8PW
 (main)
 (no name set)
 (none)
 (null)
-+ulsX
 ----------------------------------------\n
--64OS
--9D\t/9a
 ..\tier1\mempool.cpp
 ..\tier1\utlbuffer.cpp
 ..\tier1\utlmemory.cpp
@@ -175,75 +167,16 @@ $\nY8O
 .?AVIUniformRandomStream@@
 .?AVIValidate@@
 .?AVtype_info@@
-.y4w
-00c?
+.dll
 0123456789ABCDEF
 0123456789abcdef
-01c?
-02c?
-04c?
-0;0A0C0E0G0I0c0
-0F`8
-0Fc?
-0Ic?
-0Jc?
-0Lc?
-0Mc?
-0Nc?
-0Oc?
-0Qc?
-0Rc?
-0Sc?
-0Tc?
-0Uc?
-0Vc?
-0Wc?
-0Xc?
-0\n0\f0
-0\t0\v0\r0
 0x%4.4X is both the source and destination of a normalization mapping
 1#IND
 1#INF
 1#QNAN
 1#SNAN
-2\vpp
-30!]^JV
-49fN
-4Hc?
-4Ic?
-4Jc?
-4Kc?
-4Lc?
-4Pc?
-4Qc?
-4Rc?
-4Vc?
-52F*
-55t'
-5T&w&
-6 PQ
 700PP
 700WP
-7h>?8
-7~8A
-80c?
-81c?
-83c?
-8Gc?
-8Ic?
-8Jc?
-8Lc?
-8Nc?
-8Oc?
-8Pc?
-8Qc?
-8Rc?
-8Tc?
-8Uc?
-8Vc?
-8Yc?
-8\foQS
-9a&g
 </script>
 <PSU
 <empty>\n
@@ -325,11 +258,9 @@ $\nY8O
 ?V_stristr@@YAPEBDPEBD0@Z
 ?ValidateStatics@CStringNormalization@@SAXAEAVCValidator@@PEBD@Z
 ?ValidateStatics@CURLUtils@@SAXAEAVCValidator@@PEBD@Z
-?logf
 ?m_Mutex@CURLUtils@@0VCThreadMutex@@A
 ?m_bInitialized@CStringNormalization@@0_NA
 ?m_bInitialized@CURLUtils@@0_NA
-A@qVc"
 ABCDEFGHIJKLMNOPQRSTUVWXYZ
 ACADEMY
 ACCOUNTANTS
@@ -471,7 +402,6 @@ BUILD
 BUILDERS
 BUZZ
 Bucket size : count\n
-C-Yn
 CAMERA
 CAMP
 CANCERRESEARCH
@@ -572,18 +502,8 @@ DIGITAL
 DIRECT
 DIRECTORY
 DISCOUNT
-DIc?
-DKc?
-DNc?
 DOMAINS
-DOc?
-DQc?
-DRc?
-DSc?
 DURBAN
-DUc?
-DVc?
-D\vvf:
 DebugStatsSystem
 December
 DecodePointer
@@ -607,7 +527,6 @@ Error State on string being set.
 ExitProcess
 FAIL
 FARM
-FCZ&
 FEEDBACK
 FINANCE
 FINANCIAL
@@ -695,30 +614,16 @@ GetTimeFormatEx
 GetUserDefaultLocaleName
 GetUserObjectInformationW
 GetVersionExA
-H$6t
-H*0"ZOW
-H0c?
-H1c?
 HAMBURG
 HAUS
-HGc?
 HH:mm:ss
 HIPHOP
-HIc?
-HJc?
-HKc?
-HLc?
-HMXB
 HOLDINGS
 HOLIDAY
 HOMES
 HORSE
 HOST
 HOUSE
-HOc?
-HPc?
-HWc?
-HYc?
 HeapAlloc
 HeapFree
 IMMOBILIEN
@@ -743,7 +648,6 @@ JETZT
 JOBS
 JOBURG
 JUEGOS
-JZJ{.
 January
 July
 June
@@ -756,7 +660,6 @@ KRED
 KeyValues::RecursiveSaveToFile: TODO, missing code for TYPE_COLOR.\n
 KeyValuesSystem()
 KeyValuesSystemSteam
-L3c?
 LACAIXA
 LAND
 LAWYER
@@ -764,25 +667,16 @@ LCMapStringEx
 LCMapStringW
 LEASE
 LGBT
-LHc?
 LIFE
 LIGHTING
 LIMITED
 LIMO
 LINK
-LNc?
 LOANS
 LONDON
 LOTTO
-LPc?
-LQc?
-LRc?
-LSc?
-LTc?
 LUXE
 LUXURY
-LUc?
-LVc?
 Leaked KeyValues (%u):\n
 LeaveCriticalSection
 Linux
@@ -803,7 +697,6 @@ MEDIA
 MEET
 MELBOURNE
 MENU
-MGiI
 MIAMI
 MINI
 MM/dd/yy
@@ -836,7 +729,6 @@ NAME
 NAVY
 NEUSTAR
 NINJA
-NKeb
 NULL buffer passed to V_atof()
 NULL buffer passed to V_atoi()
 Not continuing coroutine due to g_bPreventCoroutineContinue, %s
@@ -846,38 +738,23 @@ ORGANIC
 OSTypesAreCompatible
 October
 OutputDebugStringW
-P0c?
-P2c?
-P4c?
 PARIS
 PARTNERS
 PARTS
-PFc?
 PHOTO
 PHOTOGRAPHY
 PHOTOS
 PHYSIO
-PHc?
 PICS
 PICTURES
 PINK
-PKc?
 PLACE
 PLUMBING
-PLc?
-PMc?
-PNc?
 POST
-PPc?
-PPd?
-PQc?
 PRAXI
 PRESS
 PRODUCTIONS
 PROPERTIES
-PRc?
-PWc?
-PXc?
 Parameter file '%s' not found, skipping...
 Plat_ExitProcess
 Plat_GetCommandLine
@@ -887,9 +764,7 @@ Plat_OutputDebugStringRaw
 PureClass
 QPON
 QUEBEC
-Qkkbal
 QueryPerformanceCounter
-R1h58
 RECIPES
 REHAB
 REISE
@@ -903,10 +778,8 @@ REVIEWS
 RICH
 ROCKS
 RODEO
-RSDS3
 RUHR
 RYUKYU
-R\vpp
 RaiseException
 ReadConsoleW
 ReadFile
@@ -915,7 +788,6 @@ RtlCaptureContext
 RtlLookupFunctionEntry
 RtlUnwindEx
 RtlVirtualUnwind
-S;uD
 SAARLAND
 SCHMIDT
 SCHULE
@@ -925,7 +797,6 @@ SEXY
 SHIKSHA
 SHOES
 SINGLES
-SKyu
 SOCIAL
 SOFTWARE
 SOHU
@@ -954,7 +825,6 @@ SetThreadStackGuarantee
 SetThreadpoolTimer
 SetThreadpoolWait
 SetUnhandledExceptionFilter
-Sm"\vg
 String pool bytes used %u, max %u, %u pools\n
 StringAfterPrefix
 StringAfterPrefixCaseSensitive
@@ -962,24 +832,17 @@ StringHasSuffix
 Sunday
 TATTOO
 TECHNOLOGY
-THc?
 TIENDA
 TIPS
 TIROL
-TIc?
-TLc?
 TODAY
 TOKYO
 TOOLS
 TOWN
 TOYS
-TPc?
-TQc?
 TRADE
 TRAINING
 TRAVEL
-TRc?
-TVc?
 Target buffer for V_URLEncode should be 3x source length, plus one for terminating null\n
 Target buffer too short to terminate\n
 Target buffer too short\n
@@ -1163,7 +1026,6 @@ V_wcstoi64
 V_wcstoui64
 V_wcsupr
 V_whextobinary
-Vc0a
 VerSetConditionMask
 VerifyVersionInfoW
 VirtualQuery
@@ -1208,14 +1070,6 @@ Windows XP
 WriteConsoleW
 WriteFile
 WriteMiniDump
-X0c?
-X1c?
-X2c?
-X3c?
-XGc?
-XHc?
-XJc?
-XKc?
 XN--3BST00M
 XN--3DS443G
 XN--3E0B707E
@@ -1281,26 +1135,10 @@ XN--XKC2DL3A5EE0H
 XN--YFRO4I67O
 XN--YGBI2AMMX
 XN--ZFR164B
-XNc?
-XOc?
-XPc?
-XQc?
-XRc?
-XSc?
-XTc?
-XUc?
-XWc?
-XYc?
 YACHTS
 YANDEX
 YOKOHAMA
 ZONE
-Zjz\v
-\nYg:a
-\rRoOs
-\t9sv
-]JldN
-]u9g
 _DMsg
 _UaX
 __based(
@@ -1329,7 +1167,6 @@ _nextafter
 `eh vector destructor iterator'
 `eh vector vbase constructor iterator'
 `eh vector vbase copy constructor iterator'
-`h`hhh
 `local static guard'
 `local static thread guard'
 `local vftable constructor closure'
@@ -1342,7 +1179,6 @@ _nextafter
 `placement delete[] closure'
 `scalar deleting destructor'
 `string'
-`tun%
 `typeof'
 `udt returning'
 `vbase destructor'
@@ -1356,15 +1192,11 @@ _nextafter
 `vector vbase copy constructor iterator'
 `vftable'
 `virtual displacement map'
-a\rxg[
 abcdefghijklmnopqrstuvwxyz
 acos
 asin
 atan
 atan2
-b,uZ
-b\fp\v0
-bwiO'
 c:\buildslave\steam_rel_client_win64\build\src\public\tier1/utllinkedlist.h
 c:\buildslave\steam_rel_client_win64\build\src\public\tier1/utlstring.h
 c:\buildslave\steam_rel_client_win64\build\src\public\tier1/utlvector.h
@@ -1379,26 +1211,14 @@ console
 coroutine.cpp
 cosh
 cvar.cpp
-d8-t
-dHc?
-dIc?
-dMc?
-dNc?
-dQy/
-dRc?
-dSc?
-dUc?
-dVc?
 dddd, MMMM dd, yyyy
 debugstatssystem.cpp
 e+000
 entry
-f.N%H
 fabs
 floor
 fmod
 frexp
-gAY:
 gCURLUtils_hashTLDs
 gCURLUtils_hashTLDs.Element( i )
 g_VProfManager
@@ -1409,45 +1229,13 @@ g_dwDllEntryThreadId
 g_mapPairs
 g_pMemAllocSteam
 getcwd_utf8
-h0c?
-h1c?
-h2c?
-h3c?
-h4c?
-hGc?
-hHc?
-hIc?
-hJc?
-hKc?
-hLc?
-hNc?
-hOc?
-hPc?
-hTc?
-hUc?
-hVc?
-hWc?
-hYc?
-i]Wb
 if\fg
-ig,o
 invalid input pointer
-k2U\v
-kU'9
 keyvaluessystem.cpp
-lDa>
-lEd/
-lMc?
-lNc?
-lQc?
-lRc?
-lSc?
-lTc?
-lVc?
-lWc?
 ldexp
 linux
 log10
+logf
 m_Buckets
 m_Elements
 m_HashItemMemPool
@@ -1462,32 +1250,12 @@ m_mapConditionalSymbolTable
 macos
 memoverride.cpp
 modf
-mwa!
 nBytesItem is %d in UtlMemory_CalcNewAllocationCount
 nTotal number of strings %u, longest string size %u, avg size %u\n
-o9sp
 operator
 out of order normalization entry
-p0c?
-p4c?
-pCRF
-pFc?
-pHc?
-pIc?
-pJc?
-pKc?
-pMc?
-pOc?
-pPc?
-pSc?
-pTc?
-pUc?
-pXc?
 parseurl.cpp
-pva?
-qR5FE%
 restrict(
-ru&o
 script
 sinh
 sqrt
@@ -1497,14 +1265,6 @@ steam://openurl_external/
 stringnormalize.cpp
 strtools.cpp
 strtools_unicode.cpp
-tLc?
-tMc?
-tNc?
-tPc?
-tQc?
-tRc?
-tSc?
-tWc?
 tanh
 test string
 the 
@@ -1516,31 +1276,6 @@ vstdlib_wcsicmp
 vstdlib_wcsnicmp
 vstdlib_wcstoi64
 vstdlib_wcstoui64
-w+OQvr
-wXR\r
 windows
-wn>Jj
-x0c?
-x1c?
-x2c?
-x3c?
-xGc?
-xIc?
-xJc?
-xMc?
-xNc?
-xOc?
-xPc?
-xTc?
-xUc?
-xVc?
-xYc?
-xppwpp
-xpxxxx
-y9*O
-z?aUY
-zC`G;
-zc%C1
 {%0.8X-%0.4X-%0.4X-%0.2X%0.2X-%0.2X%0.2X%0.2X%0.2X%0.2X%0.2X}
 {%8X-%4X-%4X-%2X%2X-%2X%2X%2X%2X%2X%2X}
-{kHw

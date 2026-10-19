@@ -27,7 +27,6 @@ QMinimalBackingStore::paintDevice
 QMinimalIntegrationPlugin
 QT_DEBUG_BACKINGSTORE
 QVector::insert
-RSDSt
 SleepConditionVariableCS
 The specified iterator argument 'before' is invalid
 Unknown exception

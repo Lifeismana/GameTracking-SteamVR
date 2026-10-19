@@ -1,6 +1,4 @@
                           
- !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
- !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
  Base Class Array'
  Base Class Descriptor at (
  Class Hierarchy Descriptor'
@@ -17,20 +15,12 @@
 #Pdb
 %08x
 %d%s (ordinal)
-%ihD
-%rp\nU
 %s<E&C%03.3d>
-&2 4t
-&Sgw
 (null)
 * Linker *
 ***globals***
-*StO9>T
-*k1H
 ,<ellipsis>
--Microsoft MSFZ Container\r\n
 .00cfg
-.3Mx
 .?AUContentSizeError@ifc@@
 .?AUCreateHashError@?A0x8ad9c2b9@@
 .?AUFailedLibraryBinding@?A0x8ad9c2b9@@
@@ -171,78 +161,26 @@
 .tls
 .tls$
 .tls$ZZZ
-.xJ>Hf
 .xdata
 .xdata$x
 /LinkInfo
 /TMCache
 /UDTSRCLINEUNDONE
 /names
-064*&F6 8 :
-08B 
-0L2p4 0$\f
-0LtER
-0iN>/
 1#IND
 1#INF
 1#QNAN
 1#SNAN
 1.2.13
-11Y@
 14.44.35215.0
-1YT[
-1vJ9c
-2*iZ
-2z>F@e\t
-3333333333333333UUUUUUUUUUUUUUUU0123456789abcdef
-37>k
-3>N;kU
-3>fvw
-3s%a
-49v|
-4FVcK
 5(2+S
-6gcD
-6yXK
-7Q;P
-7aw=
-7w+z
-8@Bp
-8@HJ
-8@HPXZ
-8@HPX`hpx
-8@HPX`hv
-8@HPXf
-8@HP^
-8@HV
-9:D1k
-9a&g
-9tcN
 ::<unnamed-tag>
 ::__unnamed
-:oVua
-;BN.x
-;Wtq
-;\f9cH
 <ellipsis>
 <unknown>
-=87M
-=cQ6
-=imb;D
->cQ6
->dB4
->jtm}S
-?7zQ6$
-?UUUUUU
-?f`Y4
-?qBJ
-?ysB
-@8@HJp
 @ILT
+@ILT+%d(
 @ILT+%d(%s)EnC
-@Range error during SafeInt constructor
-A9P`
-A>pP&
 ABCDEFGHIJKLMNOPQRSTUVWXYZ
 ADVAPI32.dll
 AcquireSRWLockExclusive
@@ -251,8 +189,6 @@ AppPolicyGetProcessTerminationMethod
 April
 AreFileApisANSI
 August
-B6OZ
-BC?>6t9^\tc:>
 BCryptCloseAlgorithmProvider
 BCryptCreateHash
 BCryptDestroyHash
@@ -260,8 +196,6 @@ BCryptFinishHash
 BCryptGetProperty
 BCryptHashData
 BCryptOpenAlgorithmProvider
-BDtt
-BF>^G
 Bad optional access
 CDiaEnumXfgTypeHashes
 CDiaXfgTypeHash
@@ -289,29 +223,19 @@ December
 DeleteCriticalSection
 DeleteFileW
 DeviceIoControl
-Dkw.
 DllCanUnloadNow
 DllGetClassObject
 DllRegisterServer
 DllUnregisterServer
-E+wS
-ERD$
-ET5>
-EiaG
 EnableMemoryMappedFileIO
 EnablePrefetching
 EncodePointer
 EnterCriticalSection
-EpqX
 EventRegister
 EventUnregister
 EventWriteTransfer
 ExitProcess
 ExpandEnvironmentStringsW
-F(D:9
-F;ge
-FArK
-FEMh\f
 February
 FindClose
 FindFirstFileExW
@@ -326,9 +250,7 @@ FormatMessageA
 FreeEnvironmentStringsW
 FreeLibrary
 Friday
-FzX\v
 GCTL
-GCd"
 GetACP
 GetCPInfo
 GetCommandLineA
@@ -363,13 +285,11 @@ GetSystemTimeAsFileTime
 GetSystemTimePreciseAsFileTime
 GetTempPath2W
 GetTempPathW
-H!a7
 HH:mm:ss
 HeapAlloc
 HeapFree
 HeapReAlloc
 HeapSize
-IAl'
 IDiaAddressMap
 IDiaDataSource
 IDiaDataSource11Internal
@@ -408,7 +328,6 @@ IDynamicDeoptimizationData3
 IEnumVARIANT
 IND)ind)
 INITY
-IiGM>nw
 InitializeCriticalSection
 InitializeCriticalSectionAndSpinCount
 InitializeCriticalSectionEx
@@ -421,14 +340,10 @@ IsDebuggerPresent
 IsProcessorFeaturePresent
 IsValidCodePage
 Item
-J(8F
-J^zW
 January
 July
 June
 KERNEL32.dll
-K\v\tr\r0n
-L>ev
 LCMapStringEx
 LCMapStringW
 LF_ALIAS
@@ -568,7 +483,6 @@ LF_VFUNCOFF_16t
 LF_VFUNCTAB
 LF_VFUNCTAB_16t
 LF_VTSHAPE
-LR0p
 LeaveCriticalSection
 LoadLibraryExA
 LoadLibraryExW
@@ -577,7 +491,6 @@ LocalAlloc
 LocalFree
 LocaleNameToLCID
 LockResource
-MGiI
 MM/dd/yy
 MSFZ
 MSFZ: found bad data\n
@@ -585,7 +498,6 @@ MapViewOfFile
 MapViewOfFileEx
 March
 Method.#%X
-Microsoft
 Microsoft (R) LINK
 Microsoft (R) Optimizing Compiler
 Microsoft C/C++ MSF 7.00\r\n
@@ -596,31 +508,24 @@ MultiByteToWideChar
 NAN(IND)
 NAN(SNAN)
 NULL
-Nct9,
 Next
 Next2
 NextEx
 November
 OLEAUT32.dll
-OZQ%
 October
-OfiD
 OutputDebugStringA
 PathFileExistsW
 PathFindFileNameW
 Prev
 PrevEx
-Qkkbal
 QueryInterface
 QueryPerformanceCounter
-REtL
 RPCRT4.dll
-RSDS
-R\vp!H
-R]Fe
 RaiseException
 Range error during +=
 Range error during SafeAppend (pb.size() > ulong max)
+Range error during SafeInt constructor
 Range error during currentVoidPtr
 Range error during default makeSubRange
 Range error during makeSubRange
@@ -648,7 +553,6 @@ RtlPcToFileHeader
 RtlUnwind
 RtlUnwindEx
 RtlVirtualUnwind
-S9>H
 SHLWAPI.dll
 SNAN)
 S_ALIGN
@@ -877,12 +781,9 @@ Sleep
 StringFromGUID2
 SubmitThreadpoolWork
 Sunday
-Sw+E
 SymbolServerSetOptions
 SymbolServerStoreFileW
 SymbolServerW
-T Rn
-T5Mi\r
 TUUUU
 TerminateProcess
 Thursday
@@ -892,7 +793,6 @@ TlsGetValue
 TlsSetValue
 TryAcquireSRWLockExclusive
 Tuesday
-U<gP
 UNKNOWN
 UUUUUU
 UnhandledExceptionFilter
@@ -908,28 +808,12 @@ VirtualAlloc
 VirtualFree
 VirtualProtect
 VirtualQuery
-Vwi<
-WYU:
 WaitForThreadpoolWorkCallbacks
 Wednesday
 WideCharToMultiByte
 WriteConsoleW
 WriteFile
-X/4B
-XD/Z\v
-Z/DX
-ZGj\tt
-ZO6G
-Zi*7
-Zjz\v
-[aOni*{
 [thunk]:
-\rmj>zjZ
-\rocT@
-\rqa+j
-\tcQr
-\tkE>fvw
-^<V7w
 ___ImageBase
 __based(
 __cdecl
@@ -951,9 +835,6 @@ __swift_3
 __thiscall
 __unaligned
 __vectorcall
-`8@HPXf
-`8@HV
-`P9A
 `RTTI
 `adjustor{
 `anonymous namespace'
@@ -969,9 +850,6 @@ __vectorcall
 `generic-class-parameter-
 `generic-method-parameter-
 `generic-type-
-`hpx
-`hxB
-`le_3
 `local static destructor helper'
 `local static guard'
 `local static thread guard'
@@ -1017,7 +895,6 @@ addressForRVA
 addressForVA
 algorithm was not found
 already connected
-am\nv
 argument list too long
 argument out of domain
 attr.
@@ -1031,7 +908,6 @@ attr.nothing
 attr.scoped
 attr.tuple
 auto
-b5h\\
 bad address
 bad allocation
 bad array new length
@@ -1043,7 +919,6 @@ bool
 broken pipe
 buffer error
 buffer size not large enough
-c9JxM3.
 cancelObjPDBMerge
 char
 char 
@@ -1072,7 +947,6 @@ const.str
 create hash failed: 
 create hash not supported
 cross device link
-d8L2
 data error
 dddd, MMMM dd, yyyy
 decl.
@@ -1148,10 +1022,6 @@ directory not empty
 disposeObjForMiniPDB
 double
 e+000
-e.u7
-eF>t
-eLK(w
-eg;F
 enum 
 executable format error
 expr.
@@ -1269,7 +1139,6 @@ float
 form.spec
 frameByRVA
 function not supported
-gI3\v>
 generic
 generic-type-
 getCalleeFrontiers
@@ -1606,9 +1475,6 @@ get_virtualTableShapeId
 get_volatileType
 get_wasInlined
 get_write
-gqr<
-h0'D
-hW[G
 hash data failed: 
 hash length failed: 
 header crc mismatch
@@ -1626,10 +1492,7 @@ heap.type
 heap.vendor
 heap.word
 host unreachable
-iL5f!
-i]Wb
 identifier removed
-iesx
 illegal byte sequence
 inappropriate io control operation
 incompatible version
@@ -1662,12 +1525,8 @@ is a directory
 isLinkerGeneratedModuleInMiniPDB
 isMiniPDB
 isPortablePDB
-j[\vRT
-k=yI
-l6qnk
 lambda
 length property not supported
-lfc *
 library binding error: 
 loadAndValidateDataFromPdb
 loadAndValidateDataFromPdbEx
@@ -1682,8 +1541,6 @@ loadDataFromPdbEx2
 log10
 long
 long 
-mG4>
-m\nXo
 macro.
 macro.function-like
 macro.object-like
@@ -1694,7 +1551,6 @@ message size
 module.exported
 module.imported
 msdia140.DLL
-n03>Pu
 name.
 name.conversion
 name.guide
@@ -1732,7 +1588,6 @@ not supported
 nullptr
 object length failed: 
 object length property not supported
-obwQ4
 ole32.dll
 one or more parameters are invalid
 open algorithm failed: 
@@ -1747,15 +1602,8 @@ operator
 operator "" 
 operator co_await
 operator<=>
-owM&
 owner dead
-p08BP
-p2`s
-p8@HPXf
-p8@N
 permission denied
-phxB
-pjn]+
 pp.catenate
 pp.char
 pp.header
@@ -1784,18 +1632,13 @@ public:
 put_addressMapEnabled
 put_loadAddress
 put_relativeVirtualAddressEnabled
-qER@
-r\tVr.>T
 read only file system
 resource deadlock would occur
 resource unavailable try again
 restrict(
 result out of range
-rucs
-s7K"
 scope.desc
 scope.member
-scur
 short
 short 
 signed 
@@ -1953,15 +1796,10 @@ syntax.using-enum-declaration
 syntax.vendor-extension
 syntax.virtual-specifier-seq
 syntax.while-statement
-t/v2Z%
-t\iW
-t\tjI&
 template-parameter-
 text file busy
 this 
 timed out
-tja(=
-tl-4
 too many files open
 too many files open in system
 too many length or distance symbols
@@ -1999,7 +1837,6 @@ type.tuple
 type.typename
 type.unaligned
 type.vendor-extension
-uZYs
 union 
 unknown
 unknown compression method
@@ -2007,8 +1844,6 @@ unknown error
 unknown header flags set
 unordered_map/set too long
 unsigned 
-uzKs@>
-v2!L.2
 value too large
 vector too long
 vendor.
@@ -2024,14 +1859,6 @@ void
 volatile
 volatile 
 wchar_t
-wn>Jj
 wrong protocol type
-xTx;#
-xekv
-yf5=
-zoH:
 {flat}
 {for 
-|v94
-~i9}5
-~~~~~~~~~~~~~~~~

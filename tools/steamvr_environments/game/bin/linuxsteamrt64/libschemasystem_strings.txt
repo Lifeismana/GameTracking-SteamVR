@@ -1,6 +1,8 @@
  ( def. "%s" )
  (Abstract)
  [%.3f server clamped to %.3f]
+ max. %f
+ min. %f
 !GlobalTypes
 "%s" = "%s"
 $ORIGIN
@@ -10,6 +12,7 @@ $ORIGIN
 %-120s - %s\n
 %-120s\n
 %-40s = 0x%016llX (%lld)\n
+%-60s 
 %-60s %-25s %-25s 
 %-60s %-25s %-25s %s\n
 %.15lf
@@ -27,12 +30,17 @@ $ORIGIN
 %s bytes in static binding info\n
 %s registrations; %s were redundant; %s were ignored (%s bytes of ignored data)\n
 %s schema bindings in %u modules (%s classes, %s enums)\n
+%s%d
+%s%s%s
 %s+-- Schema Class: %s\n
 %s: %d != %d
+%s: %s\n
 %s: '%s' != '%s'
 %s: string format requested %d chars\n
+%s:%s
 %s:%s needs base %s:%s to be registered\n
 %s< %s, %s >
+%s[%d]
 %s\r\n\tMismatch - %s\r\n\tModule 1 - %s\r\n\tModule 2 - %s\r\n\r\n
 %s|  % 2d: %s [Offset: %d]\n
 %s|  % 2d: [% 3d] %-12s %s\n
@@ -105,7 +113,6 @@ $ORIGIN
 32CSchemaRegistration_resourcefile
 32CSchemaRegistration_schemasystem
 32CSchemaType_Atomic_CollectionOfT
-5t~BC
 6ConVar
 7IConVar
 8CFmtStrNILi256ELb0EE
@@ -380,7 +387,6 @@ Default
 DevMsg(char const*, ...)
 DotaCardGameClient_001
 DynamicConfigList
-E3:0
 ERROR: CResourceToKV3 failed to DeduceDerivedTypeFromDisk\n
 ERROR: CResourceToKV3 failed to resolve extref  %016llX\n
 ERROR: Failed to register '%s' - inconsistent with '%s' (hash=%d,%d)\n
@@ -501,7 +507,6 @@ LoggingSystem_Log(int, LoggingSeverity_t, Color, char const*, ...)
 LoggingSystem_Log(int, LoggingSeverity_t, LeafCodeInfo_t const&, char const*, ...)
 LoggingSystem_Log(int, LoggingSeverity_t, LoggingMetaData_t const*, char const*, ...)
 LoggingSystem_RegisterLoggingChannel
-LrwcE
 MATCHFRAMEWORK_001
 MClassHasCustomAlignedNewDelete
 MFieldVerificationName
@@ -595,7 +600,6 @@ Plat_ShouldCollectMiniDumpsForFatalErrors
 Plat_UUIDFromString
 Plat_UUIDToString
 Plat_UnloadModule
-Po5H
 PostProcessingResource_t
 PostProcessingSystem_001
 PreviewAttachmentModel
@@ -630,7 +634,6 @@ ResourceHandleUtils001
 ResourceId_t
 ResourceManifestRegistry001
 ResourceSystem013
-S+Ot
 SOURCE2_NO_BUNDLES
 SOURCE2_USE_BUNDLES
 SSE and SSE2 are required.
@@ -806,7 +809,6 @@ WorkshopSetup001
 WorldRendererBuilderMgr001
 WorldRendererMgr001
 Y@UnknownSchemaType
-\nCwf\r
 \rschemasystem.cpp
 _ITM_deregisterTMCloneTable
 _ITM_registerTMCloneTable
@@ -871,7 +873,6 @@ break_uniform_burst
 breakable_count
 breakable_model
 breakable_skin
-bt3V
 burst_randomize
 burst_scale
 cable
@@ -954,7 +955,6 @@ invert_orientation
 is_debris
 kv3format_manager.cpp
 last_sniff
-lcQe
 ld-linux-x86-64.so.2
 length
 libc.so.6
@@ -971,7 +971,6 @@ loop_break_on_damage
 loop_break_on_flashlight
 loop_in_action
 looping
-mXr4
 m_Bone
 m_CTransform
 m_CUtlBinaryBlock
@@ -1162,7 +1161,6 @@ modeldoc9
 multiplayer_break
 nNode
 nSide
-n\f"pA3Q
 nav_attribute_avoid
 nav_data
 networksystem
@@ -1317,6 +1315,5 @@ worldrenderer
 yaw_end
 yaw_start
 zero
-{YIN?
 {}[]()=&, \t\n'"*;
 {}[]=, \t\n'":|;

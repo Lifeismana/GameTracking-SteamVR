@@ -61,10 +61,12 @@ $QPW
 $VKt
 $fc9efd44-682f-42fd-a857-643b527c24b7
 $t73
+%#Le
 %VeriSign Class 3 Code Signing 2004 CA
 %VeriSign Class 3 Code Signing 2004 CA0
 %VeriSign Class 3 Code Signing 2010 CA
 %VeriSign Class 3 Code Signing 2010 CA0
+%pJ{
 &0<0B0`0
 &9GG]
 &CCC
@@ -90,6 +92,7 @@ $t73
 )gCw
 *52174+fbf7fedc-2eb8-4cbf-b020-fb472a9964270
 *NOS
+*u%E
 +$+%$+$++$++ +
 +0U0x0
 +BRSF
@@ -116,6 +119,7 @@ $t73
 ,u6I
 -64OS
 -FHO
+-N%g
 -QQJJKFHDBPXE.9?7
 -RSS
 .?AVCAtlException@ATL@@
@@ -4838,6 +4842,7 @@ u"xo
 u$L9
 u$SS
 u$V3
+u%C@
 u%HcM
 u%jW^
 u&D9c
@@ -5102,6 +5107,7 @@ zzww
 {-JTCT
 {Gyt
 {hBtwUh
+|$%A8
 |$0E3
 |$5A8
 |$8fD

@@ -271,6 +271,7 @@ $System.Reflection.Emit.MethodBuilder
 $System.Reflection.Emit.ModuleBuilder
 $System.Runtime.InteropServices._Type
 $The Debugger class is not functional
+$[\%EVq
 $afbf15e6-c37c-11d2-b88e-00a0c9b471b8
 $b196b284-bab4-101a-b69c-00aa00341d07
 $b196b285-bab4-101a-b69c-00aa00341d07
@@ -284,10 +285,12 @@ $f1c3bf79-c3e4-11d3-88e7-00902754c43a
 $f7102fa9-cabb-3a74-a6da-b4567ef1b079
 $fa1f3615-acb9-486d-9eac-1bef87e36b09
 %%%%66||||||55
+%%Jo..\r
 %+17=CIOU[agmsy
 %,,,,,22HHLp
 %8J\o
 %8t5\t
+%G4|\f
 %K\tXT
 %Not implemented.  Always returns null
 %Not implemented.  Always returns zero
@@ -295,10 +298,12 @@ $fa1f3615-acb9-486d-9eac-1bef87e36b09
 %Please use IEqualityComparer instead.
 %Use RegisterChannel(IChannel,Boolean)
 %Useless until the runtime supports it
+%c*n.
 %oK1
 %oM1
 %oM2
 %p1%c
+%pK$
 %this type is obsoleted in 2.0 profile
 &&Lj66lZ??~A
 &'()*+,-./012345
@@ -9575,10 +9580,12 @@ ZoneIdentityPermissionAttribute
 ZoneMembershipCondition
 Zoom
 Zr&9
+[%i%d;%dR
 [%i%p1%d;%p2%dH
 [%i%p1%d;%p2%dr
 [%i%p1%dG
 [%i%p1%dd
+[%p1%d@
 [%p1%dA
 [%p1%dB
 [%p1%dC
@@ -9612,6 +9619,7 @@ Zr&9
 [?5l$<200/>
 [AgG
 [IEEKOGY
+[X%G
 [Z7ECB
 [jya
 [kGSYmA
@@ -10274,6 +10282,7 @@ _zone
 `s11
 a"Da
 a"Ta
+a%X`l^
 a3_\Z12^
 a5j_5W
 a7c,
@@ -14069,6 +14078,7 @@ numeric_data_values
 nxtysow
 o"8c
 o"Pc
+o%%Jr..\$
 o*wk
 o@xz\v
 oIYu

@@ -4,12 +4,7 @@
     Component %d: dc=%d ac=%d
     with %d x %d thumbnail image
   Ss=%d, Se=%d, Ah=%d, Al=%d
-$3br
-%&'()*456789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
 %ld%c
-&'()*56789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
-,T?setDotsPerMeterX@QImage@@QEAAXH@Z
--Q?qt_metacast@QImageIOPlugin@@UEAAPEAXPEBD@Z
 .00cfg
 .?AVQImageIOHandler@@
 .?AVQImageIOPlugin@@
@@ -32,7 +27,6 @@ $3br
 .CRT$XPZ
 .CRT$XTA
 .CRT$XTZ
-.T?setDotsPerMeterY@QImage@@QEAAXH@Z
 .bss
 .data
 .data$r
@@ -65,9 +59,6 @@ $3br
 .xdata
 .xdata$x
 /TF<)VGy#WH
-2\n?data@QBuffer@@QEBAAEBVQByteArray@@XZ
-6V?setText@QImage@@QEAAXAEBVQString@@0@Z
-7\n?constScanLine@QImage@@QEBAPEBEH@Z
 8c  16-Jan-2011
 ??0QByteArray@@QEAA@PEBDH@Z
 ??0QByteArray@@QEAA@XZ
@@ -113,31 +104,83 @@ $3br
 ?atEnd@QDataStream@@QEBA_NXZ
 ?cast@QMetaObject@@QEBAPEAVQObject@@PEAV2@@Z
 ?childEvent@QObject@@MEAAXPEAVQChildEvent@@@Z
+?colorCount@QImage@@QEBAHXZ
+?colorTable@QImage@@QEBA?AV?$QVector@I@@XZ
 ?connectNotify@QObject@@MEAAXAEBVQMetaMethod@@@Z
 ?constData@QByteArray@@QEBAPEBDXZ
+?constScanLine@QImage@@QEBAPEBEH@Z
+?convertToFormat@QImage@@QEHAA?AV1@W4Format@1@V?$QFlags@W4ImageConversionFlag@Qt@@@@@Z
+?copy@QImage@@QEBA?AV1@AEBVQRect@@@Z
+?createData@QMapDataBase@@SAPEAU1@XZ
+?createNode@QMapDataBase@@QEAAPEAUQMapNodeBase@@HHPEAU2@_N@Z
+?currentImageNumber@QImageIOHandler@@UEBAHXZ
+?currentImageRect@QImageIOHandler@@UEBA?AVQRect@@XZ
+?customEvent@QObject@@MEAAXPEAVQEvent@@@Z
+?data@QBuffer@@QEBAAEBVQByteArray@@XZ
+?deallocate@QArrayData@@SAXPEAU1@_K1@Z
+?detach@QListData@@QEAAPEAUData@1@H@Z
+?detach_grow@QListData@@QEAAPEAUData@1@PEAHH@Z
+?device@QImageIOHandler@@QEBAPEAVQIODevice@@XZ
+?disconnectNotify@QObject@@MEAAXAEBVQMetaMethod@@@Z
+?dispose@QListData@@SAXPEAUData@1@@Z
+?dotsPerMeterX@QImage@@QEBAHXZ
+?dotsPerMeterY@QImage@@QEBAHXZ
+?dynamicMetaObject@QObjectData@@QEBAPEAUQMetaObject@@XZ
+?event@QObject@@UEAA_NPEAVQEvent@@@Z
+?eventFilter@QObject@@UEAA_NPEAV1@PEAVQEvent@@@Z
 ?format@QImage@@QEBA?AW4Format@1@XZ
+?freeData@QMapDataBase@@SAXPEAU1@@Z
+?freeTree@QMapDataBase@@QEAAXPEAUQMapNodeBase@@H@Z
+?fromLatin1@QString@@SA?AV1@PEBDH@Z
+?getAndRef@ExternalRefCountData@QtSharedPointer@@SAPEAU12@PEBVQObject@@@Z
+?height@QImage@@QEBAHXZ
+?imageCount@QImageIOHandler@@UEBAHXZ
+?indexOf@QString@@QEBAHVQChar@@HW4CaseSensitivity@Qt@@@Z
+?indexOf@QString@@QEBAHVQLatin1String@@HW4CaseSensitivity@Qt@@@Z
+?isNull@QImage@@QEBA_NXZ
 ?isOpen@QIODevice@@QEBA_NXZ
 ?isReadable@QIODevice@@QEBA_NXZ
 ?isWritable@QIODevice@@QEBA_NXZ
+?jumpToImage@QImageIOHandler@@UEAA_NH@Z
+?jumpToNextImage@QImageIOHandler@@UEAA_NXZ
 ?left@QString@@QEBA?AV1@H@Z
+?loopCount@QImageIOHandler@@UEBAHXZ
 ?mid@QString@@QEBA?AV1@HH@Z
+?nextImageDelay@QImageIOHandler@@UEBAHXZ
 ?nextNode@QMapNodeBase@@QEBAPEBU1@XZ
 ?peek@QIODevice@@QEAA_JPEAD_J@Z
 ?qDetectCpuFeatures@@YAXXZ
 ?qstrcmp@@YAHAEBVQByteArray@@PEBD@Z
+?qt_convert_rgb888_to_rgb32@@YAXPEAIPEBEH@Z
+?qt_convert_rgb888_to_rgb32_ssse3@@YAXPEAIPEBEH@Z
 ?qt_cpu_features@@3V?$QBasicAtomicInteger@H@@A
+?qt_imageTransform@@YAXAEAVQImage@@V?$QFlags@W4Transformation@QImageIOHandler@@@@@Z
+?qt_metacall@QImageIOPlugin@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
+?qt_metacast@QImageIOPlugin@@UEAAPEAXPEBD@Z
 ?read@QIODevice@@QEAA_JPEAD_J@Z
 ?readRawData@QDataStream@@QEAAHPEADH@Z
 ?recalcMostLeftNode@QMapDataBase@@QEAAXXZ
+?scaled@QImage@@QEBA?AV1@AEBVQSize@@W4AspectRatioMode@Qt@@W4TransformationMode@4@@Z
+?scanLine@QImage@@QEAAPEAEH@Z
 ?setByteOrder@QDataStream@@QEAAXW4ByteOrder@1@@Z
+?setDevice@QImageIOHandler@@QEAAXPEAVQIODevice@@@Z
+?setDotsPerMeterX@QImage@@QEAAXH@Z
+?setDotsPerMeterY@QImage@@QEAAXH@Z
+?setFormat@QImageIOHandler@@QEAAXAEBVQByteArray@@@Z
+?setFormat@QImageIOHandler@@QEBAXAEBVQByteArray@@@Z
+?setText@QImage@@QEAAXAEBVQString@@0@Z
 ?shared_null@QListData@@2UData@1@B
 ?shared_null@QMapDataBase@@2U1@B
 ?simplified@QString@@QEGBA?AV1@XZ
 ?simplified@QString@@QEHAA?AV1@XZ
+?size@QImage@@QEBA?AVQSize@@XZ
 ?size@QRect@@QEBA?AVQSize@@XZ
 ?skipRawData@QDataStream@@QEAAHH@Z
 ?split@QString@@QEBA?AVQStringList@@AEBV1@W4SplitBehavior@1@W4CaseSensitivity@Qt@@@Z
 ?staticMetaObject@QBuffer@@2UQMetaObject@@B
+?staticMetaObject@QImageIOPlugin@@2UQMetaObject@@B
+?text@QImage@@QEBA?AVQString@@AEBV2@@Z
+?textKeys@QImage@@QEBA?AVQStringList@@XZ
 ?timerEvent@QObject@@MEAAXPEAVQTimerEvent@@@Z
 ?toBool@QVariant@@QEBA_NXZ
 ?toInt@QVariant@@QEBAHPEA_N@Z
@@ -148,8 +191,8 @@ $3br
 ?translate@QRect@@QEAAXAEBVQPoint@@@Z
 ?truncate@QByteArray@@QEAAXH@Z
 ?warning@QMessageLogger@@QEBAXPEBDZZ
+?width@QImage@@QEBAHXZ
 ?write@QIODevice@@QEAA_JPEBD_J@Z
-A!;I2
 ALIGN_TYPE is wrong, please fix
 Adobe APP14 marker: version %d, flags 0x%04x 0x%04x, transform %d
 Ahd=<c]^7if1Rjg
@@ -157,8 +200,6 @@ Application transferred too few scanlines
 Application transferred too many scanlines
 Arithmetic table 0x%02x was not defined
 At marker 0x%02x, recovery action %d
-BKbhTb~XBK!;
-B\f?dotsPerMeterX@QImage@@QEBAHXZ
 Backing store not supported
 Bogus DAC index %d
 Bogus DAC value 0x%x
@@ -191,7 +232,6 @@ Corrupt JPEG data: premature end of data segment
 CreateEventW
 DCT coefficient out of range
 DCT scaled block size %dx%d not supported
-D\f?dotsPerMeterY@QImage@@QEBAHXZ
 Da\">c]$8c^
 Define Arithmetic Table 0x%02x: 0x%02x
 Define Huffman Table 0x%02x
@@ -206,7 +246,6 @@ Empty input file
 End Of Image
 EnterCriticalSection
 Exif
-FK?imageCount@QImageIOHandler@@UEBAHXZ
 Failed to create temporary file %s
 Fractional sampling not implemented yet
 Freed EMS handle %u
@@ -249,36 +288,21 @@ JFIF extension marker: type 0x%02x, length %u
 JPEG datastream contains no image
 JPEG parameter struct mismatch: library thinks size is %u, caller expects %u
 JPEGMEM
-J\r?indexOf@QString@@QEBAHVQChar@@HW4CaseSensitivity@Qt@@@Z
-K?height@QImage@@QEBAHXZ
 KERNEL32.dll
 KNQ\rMO
-K\r?indexOf@QString@@QEBAHVQLatin1String@@HW4CaseSensitivity@Qt@@@Z
-L?isNull@QImage@@QEBA_NXZ
-L?jumpToImage@QImageIOHandler@@UEAA_NH@Z
-L?jumpToNextImage@QImageIOHandler@@UEAA_NXZ
-L\f?freeData@QMapDataBase@@SAXPEAU1@@Z
 LeaveCriticalSection
 Lkh9Fgc^A
-M?loopCount@QImageIOHandler@@UEBAHXZ
 MAX_ALLOC_CHUNK is wrong, please fix
 MQC,ARD
-MW?size@QImage@@QEBA?AVQSize@@XZ
 Maximum supported image dimension is %u pixels
 Miscellaneous marker 0x%02x, length %u
 Missing Huffman code table entry
 Not a JPEG file: starts with 0x%02x 0x%02x
 Not implemented yet
-O?nextImageDelay@QImageIOHandler@@UEBAHXZ
-O\f?freeTree@QMapDataBase@@QEAAXPEAUQMapNodeBase@@H@Z
 Obtained EMS handle %u
 Obtained XMS handle %u
 Opened temporary file %s
 Output file write error --- out of disk space?
-P?qt_convert_rgb888_to_rgb32@@YAXPEAIPEBEH@Z
-P?qt_convert_rgb888_to_rgb32_ssse3@@YAXPEAIPEBEH@Z
-P?qt_imageTransform@@YAXAEAVQImage@@V?$QFlags@W4Transformation@QImageIOHandler@@@@@Z
-P?qt_metacall@QImageIOPlugin@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
 Premature end of JPEG file
 Premature end of input file
 Q2XXR
@@ -290,8 +314,6 @@ Quantization table 0x%02x was not defined
 Quantizing to %d = %d*%d*%d colors
 Quantizing to %d colors
 QueryPerformanceCounter
-R?scaled@QImage@@QEBA?AV1@AEBVQSize@@W4AspectRatioMode@Qt@@W4TransformationMode@4@@Z
-R?scanLine@QImage@@QEAAPEAEH@Z
 RST%d
 Read failed on temporary file
 Read from EMS failed
@@ -313,7 +335,6 @@ Start Of Frame 0x%02x: width=%u, height=%u, components=%d
 Start Of Scan: %d components
 Start of Image
 Suspension not allowed here
-T?setDevice@QImageIOHandler@@QEAAXPEAVQIODevice@@@Z
 TerminateProcess
 Too many color components: %d, max %d
 Unexpected marker 0x%02x
@@ -331,7 +352,6 @@ UokOP
 VCRUNTIME140.dll
 VeaFOfb
 Virtual array controller messed up
-W?staticMetaObject@QImageIOPlugin@@2UQMetaObject@@B
 WaitForSingleObjectEx
 WakeAllConditionVariable
 Warning: thumbnail image size does not match data length %u
@@ -340,30 +360,8 @@ Write failed on temporary file --- out of disk space?
 Write to EMS failed
 Write to XMS failed
 Wrong JPEG library version: library is %d, caller expects %d
-X?text@QImage@@QEBA?AVQString@@AEBV2@@Z
-X?textKeys@QImage@@QEBA?AVQStringList@@XZ
 YpU_Z
-Z?width@QImage@@QEBAHXZ
-Z@&LHA'\r:C(
 Zpm"U
-[\n?convertToFormat@QImage@@QEHAA?AV1@W4Format@1@V?$QFlags@W4ImageConversionFlag@Qt@@@@@Z
-\\n?deallocate@QArrayData@@SAXPEAU1@_K1@Z
-\f?getAndRef@ExternalRefCountData@QtSharedPointer@@SAPEAU12@PEBVQObject@@@Z
-\n?colorTable@QImage@@QEBA?AV?$QVector@I@@XZ
-\n?currentImageNumber@QImageIOHandler@@UEBAHXZ
-\n?currentImageRect@QImageIOHandler@@UEBA?AVQRect@@XZ
-\n?detach@QListData@@QEAAPEAUData@1@H@Z
-\n?detach_grow@QListData@@QEAAPEAUData@1@PEAHH@Z
-\n?disconnectNotify@QObject@@MEAAXAEBVQMetaMethod@@@Z
-\n?dispose@QListData@@SAXPEAUData@1@@Z
-\n?dynamicMetaObject@QObjectData@@QEBAPEAUQMetaObject@@XZ
-\t?colorCount@QImage@@QEBAHXZ
-\t?createNode@QMapDataBase@@QEAAPEAUQMapNodeBase@@HHPEAU2@_N@Z
-\t?customEvent@QObject@@MEAAXPEAVQEvent@@@Z
-\tN1a
-\v?device@QImageIOHandler@@QEBAPEAVQIODevice@@XZ
-\v?event@QObject@@UEAA_NPEAVQEvent@@@Z
-\v?eventFilter@QObject@@UEAA_NPEAV1@PEAVQEvent@@@Z
 _CxxThrowException
 __C_specific_handler
 __acrt_iob_func
@@ -386,7 +384,6 @@ _initterm
 _initterm_e
 _register_onexit_function
 _seh_filter_dll
-`\f?fromLatin1@QString@@SA?AV1@PEBDH@Z
 api-ms-win-crt-environment-l1-1-0.dll
 api-ms-win-crt-heap-l1-1-0.dll
 api-ms-win-crt-math-l1-1-0.dll
@@ -396,7 +393,6 @@ bad allocation
 bad array new length
 ceil
 exit
-f\n?copy@QImage@@QEBA?AV1@AEBVQRect@@@Z
 free
 getenv
 j'Vlk
@@ -405,10 +401,6 @@ longjmp
 malloc
 memcpy
 memset
-q\t?createData@QMapDataBase@@SAPEAU1@XZ
 qjpeg.dll
 qt_plugin_instance
 qt_plugin_query_metadata
-sAmTb
-uT?setFormat@QImageIOHandler@@QEAAXAEBVQByteArray@@@Z
-vT?setFormat@QImageIOHandler@@QEBAXAEBVQByteArray@@@Z

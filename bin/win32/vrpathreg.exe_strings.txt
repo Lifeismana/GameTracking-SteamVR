@@ -14,9 +14,7 @@
   setruntime <path> - Sets the runtime path\n
   setthis - Sets the runtime path to the runtime that vrpathreg lives in\n
   show - Display the current paths\n
- !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
  !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
- !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
  Base Class Array'
  Base Class Descriptor at (
  Class Hierarchy Descriptor'
@@ -26,16 +24,14 @@
  delete[]
  for detail.\n
  new
-#D5p
+%%.%dg
 %.0Lf
 %H : %M : %S
 %I : %M : %S %p
 %b %d %H : %M : %S %Y
 %d / %m / %y
 %m / %d / %y
-&Sgw
 ' is not a number.
-( 8PX
 ('8PW
 (null)
 +v$x+v$xv$+xv+$xv$+x+$vx+$vx$v+x+$vx$+vx+v $+v $v $+v +$v $++$ v+$ v$ v++$ v$+ v+xv$+ v$v$ +v+ $v$ ++x$v+ $v$v ++ $v$ +v
@@ -288,35 +284,18 @@
 1#QNAN
 1#SNAN
 1e+9999
-1eaB@
 2ieO=
-4g%6
-700PP
 700WP
 : exception thrown in JSON library
 :AM:am:PM:pm
 :Jan:January:Feb:February:Mar:March:Apr:April:May:May:Jun:June:Jul:July:Aug:August:Sep:September:Oct:October:Nov:November:Dec:December
 :Sun:Sunday:Mon:Monday:Tue:Tuesday:Wed:Wednesday:Thu:Thursday:Fri:Friday:Sat:Saturday
-<8bunz8
-<@En[vP
-=87M
-?3xj
-?4oH
 ?5Wg4p
-?5a1
-?7Tf(
 ?IT$7
-?Ltm
-?PiB
-?RbSQ
-?X&eB
-@VNQ
 A valid JSON document must be either an array or an object value.
 ABCDEFGHIJKLMNOPQRSTUVWXYZ
 Access violation - no RTTI data!
 AcquireSRWLockExclusive
-Ai0T
-AiFC.
 AppPolicyGetProcessTerminationMethod
 April
 AreFileApisANSI
@@ -325,7 +304,6 @@ Bad dynamic_cast!
 Bad escape sequence in string
 Bad unicode escape sequence in string: four digits expected.
 Bad unicode escape sequence in string: hexadecimal digit expected.
-Bfe9
 Cannot search for empty driver name\n
 ChangeTimerQueueTimer
 CloseHandle
@@ -340,7 +318,6 @@ ContextPriority
 ContextStackSize
 Copyright (c) by P.J. Plauger, licensed by Dinkumware, Ltd. ALL RIGHTS RESERVED.
 CorExitProcess
-CqTR;
 CreateDirectoryW
 CreateEventExW
 CreateEventW
@@ -371,8 +348,6 @@ Exceeded stackLimit in readValue().
 ExitProcess
 External Drivers:\n
 Extra non-whitespace after JSON value.
-F0$?3=1
-FEMh\f
 Failed to parse log message
 February
 FileTimeToSystemTime
@@ -453,7 +428,6 @@ HeapAlloc
 HeapFree
 HeapReAlloc
 HeapSize
-Ht=c
 IND)ind)
 IND)ind).
 INITY
@@ -480,14 +454,12 @@ KERNEL32.dll
 LCIDToLocaleName
 LCMapStringEx
 LCMapStringW
-La8i
 LargestInt out of Int range
 LargestInt out of UInt range
 LargestInt out of UInt64 range
 LargestUInt out of Int range
 LargestUInt out of Int64 range
 LargestUInt out of UInt range
-Le?2
 LeaveCriticalSection
 Line %d, Column %d
 LoadLibraryExW
@@ -500,13 +472,11 @@ MM/dd/yy
 March
 MaxConcurrency
 MaxPolicyElementKey
-Mbp?333333
 MinConcurrency
 Missing ',' or ']' in array declaration
 Missing ',' or '}' in object declaration
 Missing ':' after object member name
 Missing '}' or object member name
-MkK?
 Monday
 MultiByteToWideChar
 NAN(IND)
@@ -515,10 +485,8 @@ November
 October
 Parsing of JSON file "%s" failed: %s\n
 PeekNamedPipe
-Pex?0
 QueryDepthSList
 QueryPerformanceCounter
-RSDSl
 RaiseException
 ReadConsoleW
 ReadFile
@@ -575,7 +543,6 @@ TraceEvent
 TryAcquireSRWLockExclusive
 TryEnterCriticalSection
 Tuesday
-T~OXu
 Unable to create path registry directory %s\n
 Unable to determine VR Path Registry filename
 Unable to parse 
@@ -592,6 +559,7 @@ Unknown exception
 UnregisterTraceGuids
 UnregisterWait
 UnregisterWaitEx
+V%A+=
 VR Path Registry node %s is not an array\n
 VR_CONFIG_PATH
 VR_GetGenericInterface
@@ -614,13 +582,7 @@ WideCharToMultiByte
 WinRTInitialization
 WriteConsoleW
 WriteFile
-X/4B
-X4I+
 [ NO DRIVER NAME FOUND ]
-[aOni*{
-\r\f\v\v\n\n\t\t\t\t\t
-\tcQr
-^<V7w
 __based(
 __cdecl
 __clrcall
@@ -648,7 +610,6 @@ _nextafter
 `eh vector destructor iterator'
 `eh vector vbase constructor iterator'
 `eh vector vbase copy constructor iterator'
-`h`hhh
 `local static guard'
 `local static thread guard'
 `local vftable constructor closure'
@@ -696,7 +657,6 @@ asin
 assert json failed
 atan
 atan2
-b<log10
 bad address
 bad allocation
 bad array new length
@@ -709,7 +669,6 @@ bad locale name
 bad message
 broken pipe
 c:\buildslave\steamvr_rel_win32\build\src\vrpathreg\Retail\win32\2017\vrpathreg.pdb
-c?e2
 ceil
 collectComments
 commentStyle
@@ -722,7 +681,6 @@ connection reset
 cosh
 count
 cross device link
-d8L2
 dddd, MMMM dd, yyyy
 deque<T> too long
 destination address required
@@ -736,15 +694,12 @@ double out of UInt64 range
 driver.vrdrivermanifest
 dropNullPlaceholders
 e+000
-e<bN
-eLK(w
 enableYAMLCompatibility
 eventObject
 exception thrown in JSON library
 executable format error
 expecting another \u token to begin the second half of a unicode surrogate pair
 external_drivers
-fUUU
 fabs
 failIfExtra
 false
@@ -757,9 +712,6 @@ fmod
 frexp
 function not supported
 generic
-h0'D
-hI{L[
-hb?O2
 hmd_presence
 host unreachable
 identifier removed
@@ -790,16 +742,11 @@ iostream
 iostream stream error
 is a directory
 jsonid
-k:UG
-k=yI
 keylength >= 2^30
-l,kg<i
 ldexp
 log10
 ls1=
 lzZ?
-m1WY$
-m\nXo
 map/set<T> too long
 message size
 modf
@@ -829,9 +776,7 @@ not a stream
 not connected
 not enough memory
 not supported
-np?z 
 null
-obwQ4
 openvr
 openvr_api.dll
 openvrpaths.vrpath
@@ -844,7 +789,6 @@ operator
 operator "" 
 operator co_await
 other_presence
-owM&
 owner dead
 pContext
 pEvents
@@ -860,8 +804,6 @@ proc
 protocol error
 protocol not supported
 r7Yr7=
-rLp>B
-raB3G
 read only file system
 redirectsDisplay
 rejectDupKeys
@@ -872,7 +814,6 @@ resourceOnly
 restrict(
 result out of range
 runtime
-sU0&?W
 showEnableInSettings
 sinh
 snan)
@@ -885,7 +826,6 @@ stream timeout
 strictRoot
 string too long
 switchState
-tLVv
 tanh
 text file busy
 timed out
@@ -898,7 +838,6 @@ u?^p?o4
 uXO=
 unknown error
 useSpecialFloats
-v2!L.2
 value too large
 vector<T> too long
 version
@@ -906,10 +845,4 @@ vrmonitor://driverinstalled
 vrpathreg
 vrpathreg only accepts absolute paths. This is not absolute: %s\n
 wrong protocol type
-xpxxxx
-xwpwpp
-z1}B
-z>t]H
-zyC7
-{4Wf
 |W8A=

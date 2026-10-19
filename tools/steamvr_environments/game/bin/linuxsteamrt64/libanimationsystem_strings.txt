@@ -21,6 +21,8 @@
  ReadToken overflow
  [%.3f server clamped to %.3f]
  \t\n\r@()[]{}=&,:*|;'!
+ max. %f
+ min. %f
 !m_bNeedsSort
 "%s" = "%s"
 "%s" has mismatched retarget rule counts, disabling.\n
@@ -40,12 +42,14 @@
 #include is NULL 
 #int#
 $ORIGIN
+%%%s
 %-120s - %s\n
 %-120s\n
 %-40.40s %10.10s %10.10s
 %-40.40s %10.2f %10.2f
 %.15lf
 %.2f degrees, %.2f ratio
+%.6f
 %02X
 %8.3f
 %d "No animation data"
@@ -82,21 +86,35 @@ $ORIGIN
 %lld
 %llu
 %ls [wstring, len = %d]
+%s %.2f
+%s %.3f
+%s %f %f
+%s %s %s
+%s (%.2f)
 %s (%.2f, %.2f, %.2f)
+%s (%g)
 %s (Color)
 %s (Material)
+%s * %s
+%s + %s
+%s - %s
+%s / %s
 %s : param %s %s : %f\n
 %s = "%s" failed on sequence "%s", unknown pose parameter "%s" on model: %s\n
 %s = "%s" ignored on sequence "%s", %s = "%s" already specified on model: %s\n
 %s = %d failed on sequence "%s", unknown pose parameter "%d" on model: %s\n
 %s = %d failed on sequence "%s", unknown pose parameter %d on model: %s\n
 %s Target
+%s [%s]
 %s allocation count overflow
 %s allocation count overflow( %llu > %llu )\n
 %s allocation count overflow( %llu >= %llu )\n
 %s failed: expected an array of floats for pose parameters\n
 %s failure, expected int or string as argument\n
 %s trace
+%s#%d
+%s%d
+%s%s
 %s(%s): %s\n
 %s+-- Schema Class: %s\n
 %s: "%s" failed ignoring activity %d, expected float for parameter "%s" on model: %s\n
@@ -133,6 +151,7 @@ $ORIGIN
 %s: %s invalid value %f, specified, must be > 0, assumiung %f\n
 %s: %s, invalid sequence specified already specified\n
 %s: %s="%s" failed, unknown %s="%s"\n
+%s: %s\n
 %s: Bad %s, couldn't compute nodeId for "%s" on model: %s\n
 %s: Failed to automatically build a pole vector from joints '%s'->'%s'->'%s'.\n
 %s: Failed to build a pole vector on chain joint '%s'. Falling back on last pole vector, {%.2f, %.2f, %.2f}\n
@@ -787,9 +806,7 @@ $ORIGIN
 41CSolveIKChainAnimationGraphVisualizerInfo
 43IAnimVarBindingAdditionalContextLabelHelper
 50.0
-5t~BC
 6ConVar
-75P=
 7IConVar
 8CFmtStrNILi256ELb0EE
 8CFmtStrNILi8192ELb0EE
@@ -837,7 +854,6 @@ $ORIGIN
 >NewNode
 ?'%s' Target
 ?Unable to write file '%s'\n
-?XZa
 ?ffffff
 @ParamList
 @Server
@@ -1934,7 +1950,6 @@ Dpad Left
 Dpad Right
 Dpad Up
 DynamicConfigList
-E3:0
 ERROR: Resource name "%s" has the incorrect extension "%s" for the specified resource type (expected "%s")!\n
 ERROR: Schema registration error - class '%s' is not marked as MModuleLocalTypeScope but contains member '%s' with locally-scoped type '%s'\n
 ERROR: Schema registration error - class '%s' is not marked as MModuleLocalTypeScope but derives from locally-scoped class '%s'\n
@@ -2121,7 +2136,6 @@ FTYPEDESC_SCHEMA_INITIALIZED
 FTYPEDESC_WAS_INPUT
 FTYPEDESC_WAS_OUTPUT
 F_ALPHA_TEST
-F_K@a
 F_MORPH_SUPPORTED
 F_TRANSLUCENT
 Face Direction
@@ -2478,7 +2492,6 @@ Jiggle Bone node (%s): No items defined; node will do nothing
 Jiggle Bones
 JiggleBone:m_resetCount
 JiggleBoneSimSpace
-K1?U20
 KV Conditional Evaluation Error
 KV3 load transfer failed: %s
 KV3 save transfer failed: %s
@@ -2560,7 +2573,6 @@ LookupPoseSetting
 LookupSequence
 LookupWeightlist
 LowerEyelid( 
-LrwcE
 MATCHFRAMEWORK_001
 MClassHasCustomAlignedNewDelete
 MDefaultString
@@ -3294,7 +3306,6 @@ PlayerMotor:m_bStopping
 PlayerMotor:m_vAcceleration
 PlayerMotor:m_vVelocity
 Pm_nValue
-Po5H
 Pole vector (raw dir: {%.2f, %.2f, %.2f})
 PosXYZ
 Pose Control
@@ -3320,8 +3331,6 @@ QAngle-world
 Quaternion-world
 QueuedLoaderVersion001
 Quintic
-R5P=
-R5P=(
 RESOURCE_TYPE_ANIMATION_GROUP_INTERNAL
 RESOURCE_TYPE_ANIMATION_INTERNAL
 RESOURCE_TYPE_ANIMGRAPH
@@ -3433,7 +3442,6 @@ Root to newly tilted bone
 Root to tilt bone original
 RootMotionTurnSpeed
 RootMotionVelocity
-S+Ot
 SEQ_POSE_SETTING_CONSTANT
 SEQ_POSE_SETTING_POSITION
 SEQ_POSE_SETTING_ROTATION
@@ -3712,8 +3720,6 @@ TwoBoneIK does not have a valid end effector attachment.\n
 TwoBoneIK does not have a valid target attachment.\n
 TwoBoneIK node has invalid IK chain.\n
 TypeManager
-U20>
-U20>3
 U: %.2f deg
 UPDATE_STRING_TOKEN_DATABASE
 UWs Collision position
@@ -3911,7 +3917,6 @@ ZN37CTypesafeIntrospectedToKV3TypeManagerILy469920276854E9CAnimDataE15AllocateAn
 ZN37CTypesafeIntrospectedToKV3TypeManagerILy469920276854E9CAnimDataE24DeallocateDestroyCleanupEPvP25IResourceDeallocatorUtilsE17CDeallocatorUtils
 ZN37CTypesafeIntrospectedToKV3TypeManagerILy482955714934E15CAnimationGroupE15AllocateAndLoadER23CKV3TransferLoadContextPK21ResourceBindingBase_tP29IRD_RegisterResourceDataUtilsE15CAllocatorUtils
 ZN37CTypesafeIntrospectedToKV3TypeManagerILy482955714934E15CAnimationGroupE24DeallocateDestroyCleanupEPvP25IResourceDeallocatorUtilsE17CDeallocatorUtils
-\nCwf\r
 \ng default\n
 \t%d (%d) : %s %s %s %s\n
 \t%d:%d - %s (agrp vs agrp flag mismatch) %s:%s (promoted to match existing) %s:%s\n
@@ -3955,6 +3960,7 @@ _end
 _fini
 _root_keyname
 _test_conversion_counter
+abs( %s )
 addlayer
 advanced to state %d at %f\n
 ai_model_info
@@ -4028,7 +4034,6 @@ break_uniform_burst
 breakable_count
 breakable_model
 breakable_skin
-bt3V
 burst_randomize
 burst_scale
 cable
@@ -4060,6 +4065,7 @@ config_state
 configvalue.cpp
 control_point
 copy
+cos( %s )
 create_particle
 criteria
 cstring
@@ -4090,6 +4096,7 @@ event_class
 event_keys
 eventindex
 exit
+exp( %s )
 explosion_behavior
 explosion_buildup
 explosion_delay
@@ -4243,7 +4250,6 @@ labelled_debug_helper_show_position
 labelled_debug_helper_show_text
 labelled_debug_helper_skeleton_show_bone_names
 last_sniff
-lcQe
 ld-linux-x86-64.so.2
 length
 libanimationsystem.so
@@ -4268,7 +4274,6 @@ looping
 lowprecisionuv
 lowprecisionuv1
 mWsEndEffectorInitial
-mXr4
 m_AnimOverlay
 m_AnimgraphParameterNamePosition
 m_AttachmentName
@@ -5326,7 +5331,6 @@ modeldoc8
 modeldoc9
 motionflags
 multiplayer_break
-n\f"pA3Q
 nav_attribute_avoid
 nav_data
 needs lock
@@ -5434,6 +5438,7 @@ sgrdkeys0
 shapeType
 sharpStartAngle
 short_src
+sin( %s )
 singleplayer
 size
 slerp
@@ -5448,6 +5453,7 @@ speeds
 spline
 springConstant
 sqrt
+sqrt( %s )
 sqrtf
 ss_added
 startframe
@@ -5743,11 +5749,9 @@ xWsTarget
 xfade
 yaw_end
 yaw_start
-z:KEZ
 zDCAddUpdateNode
 zero
 zero dir
-{YIN?
 {}[]()=&, \t\n'"*;
 {}[]=, \t\n'":|;
 }\n %llu aggs, %s total data\n

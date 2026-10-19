@@ -333,6 +333,7 @@ $jumptable$__
 %H:%M:%S%m/%d/%y%Y-%m-%d%I:%M:%S %p%H:%M%H:%M:%S
 %I:%M:%S %p
 %a %b %d %H:%M:%S %Y
+%s (%s)
 %s failed to acquire mutex
 %s failed to broadcast
 %s failed to release mutex
@@ -774,6 +775,7 @@ $jumptable$__
 %s:%d WARNING: UNSUPPORTED: ycbcrModel %d\n
 %s:%d WARNING: nextInfo->sType = %s\n
 %s:%d WARNING: vkCmdSetLineStippleEXT: line stipple pattern ignored : 0x%04X\n
+%s:%d: %s
 ' could not be inlined because the return instruction is not at the end of the function. This could be fixed by running merge-return before inlining.
 ' decorated with 
 ' decorated with both 

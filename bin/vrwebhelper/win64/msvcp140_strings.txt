@@ -156,7 +156,6 @@
 :AM:am:PM:pm
 :Jan:January:Feb:February:Mar:March:Apr:April:May:May:Jun:June:Jul:July:Aug:August:Sep:September:Oct:October:Nov:November:Dec:December
 :Sun:Sunday:Mon:Monday:Tue:Tuesday:Wed:Wednesday:Thu:Thursday:Fri:Friday:Sat:Saturday
-<nqE
 ??$_Getvals@_W@?$time_get@DV?$istreambuf_iterator@DU?$char_traits@D@std@@@std@@@std@@IEAAX_WAEBV_Locinfo@1@@Z
 ??$_Getvals@_W@?$time_get@GV?$istreambuf_iterator@GU?$char_traits@G@std@@@std@@@std@@IEAAX_WAEBV_Locinfo@1@@Z
 ??$_Getvals@_W@?$time_get@_WV?$istreambuf_iterator@_WU?$char_traits@_W@std@@@std@@@std@@IEAAX_WAEBV_Locinfo@1@@Z
@@ -558,7 +557,6 @@
 ?GetCurrentThreadId@platform@details@Concurrency@@YAJXZ
 ?GetNextAsyncId@platform@details@Concurrency@@YAIXZ
 ?ReportUnhandledError@_ExceptionHolder@details@Concurrency@@AEAAXXZ
-?UUUUUU
 ?U]pB(>@AU]
 ?_Addcats@_Locinfo@std@@QEAAAEAV12@HPEBD@Z
 ?_Addfac@_Locimp@locale@std@@AEAAXPEAVfacet@23@_K@Z
@@ -1513,8 +1511,6 @@
 ?xsputn@?$basic_streambuf@GU?$char_traits@G@std@@@std@@MEAA_JPEBG_J@Z
 ?xsputn@?$basic_streambuf@_WU?$char_traits@_W@std@@@std@@MEAA_JPEB_W_J@Z
 @(>@AU]pBU]
-@08N6
-@08~6
 AcquireSRWLockExclusive
 AreFileApisANSI
 CloseHandle
@@ -1535,7 +1531,6 @@ CreateThreadpoolWork
 D:\a\_work\1\s\binaries\amd64ret\bin\amd64\\msvcp140.amd64.pdb
 DecodePointer
 DeleteCriticalSection
-Dz@P
 EncodePointer
 EnterCriticalSection
 FindClose
@@ -1582,7 +1577,6 @@ MultiByteToWideChar
 P08@H^6
 QueryPerformanceCounter
 QueryPerformanceFrequency
-RSDS
 RaiseException
 ReleaseSRWLockExclusive
 RtlCaptureContext
@@ -1600,7 +1594,6 @@ Sleep
 SleepConditionVariableSRW
 SubmitThreadpoolWork
 SwitchToThread
-TUUUU
 TerminateProcess
 TryAcquireSRWLockExclusive
 UnhandledExceptionFilter
@@ -1612,8 +1605,6 @@ WaitForThreadpoolTimerCallbacks
 WakeAllConditionVariable
 WakeConditionVariable
 WideCharToMultiByte
-\r\f\v\v\n\n\t\t\t\t\t
-\vS@V6
 _Chmod
 _Close_dir
 _Cnd_broadcast
@@ -1836,10 +1827,6 @@ _wgetcwd
 _wremove
 _wrename
 _wrmdir
-`08N6
-`08~6
-`0F6
-`0v6
 aAbBcCdDeFgGhHIjmMnprRStTuUVwWxXyYzZ
 abort
 address family not supported
@@ -1929,7 +1916,6 @@ iswdigit
 iswspace
 iswxdigit
 isxdigit
-j=2K
 ldexp
 localeconv
 logf

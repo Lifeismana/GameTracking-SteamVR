@@ -1,5 +1,7 @@
  ( def. "%s" )
  [%.3f server clamped to %.3f]
+ max. %f
+ min. %f
 "%s" = "%s"
 "ikrig
 $ORIGIN
@@ -10,6 +12,8 @@ $ORIGIN
 %i %i %i %i
 %lld
 %llu
+%s%d
+%s%s
 %s: string format requested %d chars\n
 (None)
 +inf
@@ -21,7 +25,6 @@ $ORIGIN
 -sse4
 ../../public/ordered_constructor.h
 ../public/tier1/utlrbtree.h
-.eB5
 .sapaths
 .sareverb
 .vmap
@@ -58,13 +61,9 @@ $ORIGIN
 23CSteamAudioMaterialList
 23IConCommandBaseAccessor
 25CSurfacePropDataTableBase
-2RD\n2
-5t~BC
-60-G/0
 65536
 6ConVar
 7IConVar
-81Pl\v1
 8CFmtStrNILi256ELb0EE
 <"C_OP_RemapSpeedtoCP
 <deferred>
@@ -314,7 +313,6 @@ Controls what IR reconstruction method is used. 0 = Gaussian, 1 = Gaussian with 
 Controls what phase is used when mix = 0. 0 = no phase, 1 = sphere ITD, 2 = full HRTF phase.
 CreateInterface
 Cycle or diamond double-reference to '%s'
-D40]T30L
 DebugTextureInfo001
 Decompression failure
 Default
@@ -323,7 +321,6 @@ DevMsg(char const*, ...)
 DotaCardGameClient_001
 Double-register of KV3 conversion (from '%s' to '%s')
 DynamicConfigList
-E3:0
 EXPORTSYSTEM_INTERFACE_VERSION_001
 EarlyInit_Tier0
 EconItemToolModel_001
@@ -433,7 +430,6 @@ LoggingSystem_Log
 LoggingSystem_Log(int, LoggingSeverity_t, LeafCodeInfo_t const&, char const*, ...)
 LoggingSystem_LogDirect
 LoggingSystem_RegisterLoggingChannel
-LrwcE
 MATCHFRAMEWORK_001
 MNetworkBitCount
 MNetworkChangeCallback
@@ -448,7 +444,6 @@ MODEL_PROCESSING_SERVICES_INTERFACE_001
 MapListService_001
 MaterialUtils_001
 MathLib_Init
-MbP?+
 MemAlloc_AllocFunc
 MemAlloc_FreeFunc
 MeshSystem001
@@ -530,7 +525,6 @@ Plat_IsInDebugSession
 Plat_ShouldCollectMiniDumpsForFatalErrors
 Plat_UUIDFromString
 Plat_UUIDToString
-Po5H
 PostProcessingSystem_001
 PreviewAttachmentModel
 PreviewBoneAttachedModel
@@ -581,7 +575,6 @@ Reverb: Filesystem not initialized.\n
 Reverb: Loaded baked data file (%s).\n
 Reverb: Unable to load baked data file (%s).\n
 Reverb: Unavailable, reverb is not baked for this map.\n
-S+Ot
 SSE and SSE2 are required.
 SceneSystem_002
 SceneUtils_001
@@ -762,7 +755,6 @@ V_vsnprintfWarnTrunc
 V_wcstod
 V_wcstoi64
 VisBuilder_001
-W1rGP1
 Warning
 Warning:  %s = '%s' is infinite, clamping value.\n
 WeightList
@@ -771,9 +763,6 @@ WorldRendererBuilderMgr001
 WorldRendererMgr001
 \content\
 \game\
-\n09N
-\nCwf\r
-]y0Z
 _ITM_deregisterTMCloneTable
 _ITM_registerTMCloneTable
 _Jv_RegisterClasses
@@ -835,7 +824,6 @@ break_uniform_burst
 breakable_count
 breakable_model
 breakable_skin
-bt3V
 burst_randomize
 burst_scale
 cable
@@ -916,7 +904,6 @@ highFreqAbsorption
 highFreqTransmission
 hurt_me
 hurt_them
-i2t<f2R
 ikdata
 interfaces.cpp
 invalid_bone
@@ -978,9 +965,7 @@ iplSetValue
 iplSimulatePaths
 is_debris
 kv3format_manager.cpp
-l0\f$f0 
 last_sniff
-lcQe
 ld-linux-x86-64.so.2
 length
 libc.so.6
@@ -998,7 +983,6 @@ loop_break_on_flashlight
 loop_in_action
 looping
 lowFreqTransmission
-mXr4
 m_Bone
 m_ChainData
 m_Children
@@ -1167,7 +1151,6 @@ modeldoc7
 modeldoc8
 modeldoc9
 multiplayer_break
-n\f"pA3Q
 nav_attribute_avoid
 nav_data
 none
@@ -1202,7 +1185,6 @@ pthread_mutex_lock
 pthread_mutex_unlock
 pthread_mutexattr_init
 pthread_mutexattr_settype
-qa1-x]1
 radius0
 radius1
 recenter_on_parent_bone
@@ -1281,7 +1263,6 @@ text
 texturescale
 turn_rate
 typeinfo for CThreadSyncObject
-u0+!n0
 use_additional_offset
 user
 utlstring.cpp
@@ -1331,8 +1312,6 @@ wcslen
 width
 yaw_end
 yaw_start
-z:KEZ
 zero
-{YIN?
 {}[]()=&, \t\n'"*;
 {}[]=, \t\n'":|;
