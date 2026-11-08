@@ -40,6 +40,20 @@ function SteamVRLauncherSetup()
 	if [ -z "${STEAM_RUNTIME-}" ]; then
 		log "Relaunching under scout LDLP runtime."
 		LEGACY_RUNTIME="${STEAM_BASE_FOLDER}/steamapps/common/LegacySteamRuntime/legacy-steam-runtime"
+
+		if [ ! -x ${LEGACY_RUNTIME} ]; then
+			log "Did not find LegacySteamRuntime in the default place, checking all libraries..."
+			COMPAT_LIBRARY_PATHS="${STEAM_COMPAT_LIBRARY_PATHS-}"
+			for i in ${COMPAT_LIBRARY_PATHS//:/ }
+			do
+				TEST_RUNTIME="${i}/common/LegacySteamRuntime/legacy-steam-runtime"
+				if [ -x ${TEST_RUNTIME} ]; then
+					LEGACY_RUNTIME=$TEST_RUNTIME
+					break
+				fi
+			done
+		fi
+
 		if [ -x "${LEGACY_RUNTIME}" ]; then
 			log exec "${LEGACY_RUNTIME}" "$0" "$@"
 			exec "${LEGACY_RUNTIME}" "$0" "$@"
@@ -69,7 +83,7 @@ function SteamVRLauncherSetup()
 		log "Used holo-grant-cap-sys-nice to give ${STEAMVR_TOOLSDIR}/bin/linux64/vrcompositor-launcher binary cap_sys_nice privileges"
 	else
 		# FIXME: see steamrt#397, similar to steam_msg.sh, for prompts..
-		if ! "${VRBINDIR}/steamvr_question.sh" "SteamVR requires superuser access to finish setup. Proceed?"; then
+		if ! "${VRBINDIR}/steamvr_question.sh" "SteamVR requires superuser access to finish setup (permission will be granted to run with elevated priority to provide a smooth experience). Proceed?"; then
 			log 'Error: user declined superuser request.'
 			return 1
 		fi
